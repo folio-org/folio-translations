@@ -1,7 +1,11 @@
-# folio-translations
+# Latest FOLIO translation
+
+This repository maintains the latest
+[FOLIO](https://folio.org/) [platform-complete](https://github.com/folio-org/platform-complete)
+translations.
 
 To backport latest FOLIO translations into old installations
-run the backport-translations script.
+run the [backport-translations](backport-translations) script.
 
 To remove new translation keys replace
 
