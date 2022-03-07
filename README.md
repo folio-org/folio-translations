@@ -1,4 +1,4 @@
-# Latest FOLIO translation
+# Latest FOLIO translations
 
 This repository maintains the latest
 [FOLIO](https://folio.org/) [platform-complete](https://github.com/folio-org/platform-complete)
