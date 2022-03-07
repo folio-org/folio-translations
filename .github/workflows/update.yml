@@ -1,0 +1,50 @@
+name: "Update translations"
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '38 6 * * *'
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: git clone --depth=1 https://github.com/folio-org/platform-complete build
+      - name: Get yarn cache directory path
+        id: yarn-cache-dir-path
+        run: echo "::set-output name=dir::$(yarn cache dir)"
+      - uses: actions/cache@v2
+        with:
+          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
+          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-yarn-
+      - name: Build translations
+        run: |
+          cd build
+          yarn config set @folio:registry https://repository.folio.org/repository/npm-folio/
+          CXXFLAGS="-std=c++17" yarn install
+          NODE_ENV=production yarn build output
+      - name: Merge translations
+        run: |
+          cd platform-complete
+          for oldfile in *.json ; do
+            newfile=$(echo $oldfile | sed -E 's#(.+).json#\1-*.json#')
+            newfile=$(echo ../build/output/translations/$newfile)
+            if [ ! -e "$newfile" ] ; then
+              echo "Skipping, not found: $newfile"
+              continue
+            fi
+            jq -s '.[0] * .[1]' $oldfile $newfile > /tmp/new.json
+            FILESIZE=$(stat -c%s /tmp/new.json)
+            if [ "$FILESIZE" -lt "1000000" ] ; then
+              echo "Skipping $LANG, file size must be >= 1000000 but it is $FILESIZE"
+              continue
+            fi
+            mv /tmp/new.json $oldfile
+          done
+      - name: Commit updates
+        run: |
+          git config --local user.name 'Translation update bot of Julian Ladisch'
+          git config --local user.email 'julianladisch@users.noreply.github.com'
+          git add platform-complete/
+          (git commit -m "Update translations" && git push) || true   # ignore failure caused by unchanged files
