@@ -1,0 +1,29 @@
+#!/bin/sh
+
+# Backport the latest translations to some existing FOLIO installation.
+
+# Before running this script change into the ./translations directory where the web server (nginx, ...)
+# ships the /translations/*.json files from, for example
+# cd /usr/folio/folio-testing-platform/output/translations
+ 
+set -e
+ 
+for FILE in ./*-*.json ; do
+  if [ ! -e "$FILE" ] ; then
+    continue
+  fi
+  LANG=$(echo "$FILE" | sed -n -E '/^.\/([^-]+)-[0-9]+\.json$/{s//\1/p;q}')
+  if [ -z $LANG ] ; then
+    continue
+  fi
+  URL="https://raw.githubusercontent.com/gbv/folio-translations/main/platform-complete/$LANG.json"
+  if wget "$URL" -O $LANG.json; then
+    echo "$URL"
+  else
+    echo "failure, skipping $URL"
+    continue
+  fi
+  jq -c -s '.[0] * .[1]' $FILE $LANG.json > $LANG.json.new
+  mv $LANG.json.new $FILE
+  rm $LANG.json
+done
