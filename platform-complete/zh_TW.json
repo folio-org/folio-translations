@@ -8539,491 +8539,2862 @@
   "ui-checkout.selectItemModal.loanType": "Loan type",
   "ui-checkout.selectItemModal.title": "題名",
   "ui-checkout.selectItemModal.callNumber": "索書號",
-  "ui-circulation.meta.title": "流通",
-  "ui-circulation.permission.settings.cancellation-reasons": "设置（流通）：可以创建、编辑和移除取消原因",
-  "ui-circulation.permission.settings.circulation-rules": "设置（流通）：可以创建、编辑和移除流通规则",
-  "ui-circulation.permission.settings.fixed-due-date-schedules": "设置（流通）：可以创建、编辑和移除固定到期日时间表",
-  "ui-circulation.permission.settings.loan-history": "设置（流通）：可以查看借阅历史",
-  "ui-circulation.permission.settings.loan-policies": "设置（流通）：可以创建、编辑和移除借阅政策",
-  "ui-circulation.permission.settings.lost-item-fees-policies": "設定 ( 流通 )：允許 新增、編輯、移除 遺失館藏賠償政策",
-  "ui-circulation.permission.settings.notice-policies": "设置（流通）：可以创建、编辑和移除通知政策",
-  "ui-circulation.permission.settings.notice-templates": "设置（流通）：可以创建、编辑和移除读者通知模板",
-  "ui-circulation.permission.settings.other-settings": "设置（流通）：可以创建、编辑和移除其他设置",
-  "ui-circulation.permission.settings.overdue-fines-policies": "设置（流通）：可以创建、编辑和移除过期罚款政策",
-  "ui-circulation.permission.settings.request-policies": "设置（流通）：可以创建、编辑和移除请求政策",
-  "ui-circulation.permission.settings.staff-slips": "设置（流通）：可以创建、编辑和移除员工单",
+  "ui-circulation.meta.title": [
+    {
+      "type": 0,
+      "value": "流通"
+    }
+  ],
+  "ui-circulation.permission.settings.cancellation-reasons": [
+    {
+      "type": 0,
+      "value": "设置（流通）：可以创建、编辑和移除取消原因"
+    }
+  ],
+  "ui-circulation.permission.settings.circulation-rules": [
+    {
+      "type": 0,
+      "value": "设置（流通）：可以创建、编辑和移除流通规则"
+    }
+  ],
+  "ui-circulation.permission.settings.fixed-due-date-schedules": [
+    {
+      "type": 0,
+      "value": "设置（流通）：可以创建、编辑和移除固定到期日时间表"
+    }
+  ],
+  "ui-circulation.permission.settings.loan-history": [
+    {
+      "type": 0,
+      "value": "设置（流通）：可以查看借阅历史"
+    }
+  ],
+  "ui-circulation.permission.settings.loan-policies": [
+    {
+      "type": 0,
+      "value": "设置（流通）：可以创建、编辑和移除借阅政策"
+    }
+  ],
+  "ui-circulation.permission.settings.lost-item-fees-policies": [
+    {
+      "type": 0,
+      "value": "設定 ( 流通 )：允許 新增、編輯、移除 遺失館藏賠償政策"
+    }
+  ],
+  "ui-circulation.permission.settings.notice-policies": [
+    {
+      "type": 0,
+      "value": "设置（流通）：可以创建、编辑和移除通知政策"
+    }
+  ],
+  "ui-circulation.permission.settings.notice-templates": [
+    {
+      "type": 0,
+      "value": "设置（流通）：可以创建、编辑和移除读者通知模板"
+    }
+  ],
+  "ui-circulation.permission.settings.other-settings": [
+    {
+      "type": 0,
+      "value": "设置（流通）：可以创建、编辑和移除其他设置"
+    }
+  ],
+  "ui-circulation.permission.settings.overdue-fines-policies": [
+    {
+      "type": 0,
+      "value": "设置（流通）：可以创建、编辑和移除过期罚款政策"
+    }
+  ],
+  "ui-circulation.permission.settings.request-policies": [
+    {
+      "type": 0,
+      "value": "设置（流通）：可以创建、编辑和移除请求政策"
+    }
+  ],
+  "ui-circulation.permission.settings.staff-slips": [
+    {
+      "type": 0,
+      "value": "设置（流通）：可以创建、编辑和移除员工单"
+    }
+  ],
   "ui-circulation.permission.settings.titleLevelRequests": [
     {
       "type": 0,
       "value": "Settings (Circulation): Title level request edit"
     }
   ],
-  "ui-circulation.permission.settings.view-loan-policies": "Settings (Circ): Can view loan policies",
-  "ui-circulation.permission.settings.view-lost-item-fees-policies": "Settings (Circ): Can view lost item fee policies",
-  "ui-circulation.permission.settings.view-overdue-fines-policies": "Settings (Circ): Can view overdue fine policies",
-  "ui-circulation.settings.cancelReasons.descriptionInternal": "描述（內部）",
-  "ui-circulation.settings.cancelReasons.descriptionPublic": "描述（公開）",
-  "ui-circulation.settings.cancelReasons.label": "取消預約的原因",
-  "ui-circulation.settings.cancelReasons.labelShort": "取消原因",
-  "ui-circulation.settings.cancelReasons.labelSingular": "取消預約的原因",
-  "ui-circulation.settings.checkout.audioAlerts": "允許聲音提醒",
-  "ui-circulation.settings.checkout.audioTheme": "Select audio-alerts theme",
-  "ui-circulation.settings.checkout.audioTheme.classic": "Classico",
-  "ui-circulation.settings.checkout.audioTheme.future": "Futura",
-  "ui-circulation.settings.checkout.audioTheme.modern": "Moderna",
-  "ui-circulation.settings.checkout.checkin.timeout": "未激活一段时间后自动结束归还和借出会话",
-  "ui-circulation.settings.checkout.filterRules": "篩選規則",
-  "ui-circulation.settings.checkout.identifiers.barcode": "條碼",
-  "ui-circulation.settings.checkout.identifiers.externalSystemId": "外部系統 ID",
-  "ui-circulation.settings.checkout.identifiers.id": "Folio 紀錄號",
-  "ui-circulation.settings.checkout.identifiers.username": "使用者名稱",
-  "ui-circulation.settings.checkout.minutes": "分鐘",
-  "ui-circulation.settings.checkout.no": "否",
-  "ui-circulation.settings.checkout.paneTitle": "其他設定",
-  "ui-circulation.settings.checkout.patronIds": "借出掃描的讀者ID",
-  "ui-circulation.settings.checkout.save": "儲存",
-  "ui-circulation.settings.checkout.timeout.duration": "超时时间",
-  "ui-circulation.settings.checkout.userCustomFields": "使用者自定義欄位",
-  "ui-circulation.settings.checkout.userCustomFields.noValidFieldsAreDefined": "沒有相同的自定義欄位已被設定",
-  "ui-circulation.settings.checkout.userCustomFields.none": "無",
-  "ui-circulation.settings.checkout.validate.selectContinue": "請選擇以繼續",
-  "ui-circulation.settings.checkout.validate.timeoutDuration": "請輸入大於 0 的整數",
+  "ui-circulation.permission.settings.view-loan-policies": [
+    {
+      "type": 0,
+      "value": "Settings (Circ): Can view loan policies"
+    }
+  ],
+  "ui-circulation.permission.settings.view-lost-item-fees-policies": [
+    {
+      "type": 0,
+      "value": "Settings (Circ): Can view lost item fee policies"
+    }
+  ],
+  "ui-circulation.permission.settings.view-overdue-fines-policies": [
+    {
+      "type": 0,
+      "value": "Settings (Circ): Can view overdue fine policies"
+    }
+  ],
+  "ui-circulation.settings.cancelReasons.descriptionInternal": [
+    {
+      "type": 0,
+      "value": "描述（內部）"
+    }
+  ],
+  "ui-circulation.settings.cancelReasons.descriptionPublic": [
+    {
+      "type": 0,
+      "value": "描述（公開）"
+    }
+  ],
+  "ui-circulation.settings.cancelReasons.label": [
+    {
+      "type": 0,
+      "value": "取消預約的原因"
+    }
+  ],
+  "ui-circulation.settings.cancelReasons.labelShort": [
+    {
+      "type": 0,
+      "value": "取消原因"
+    }
+  ],
+  "ui-circulation.settings.cancelReasons.labelSingular": [
+    {
+      "type": 0,
+      "value": "取消預約的原因"
+    }
+  ],
+  "ui-circulation.settings.checkout.audioAlerts": [
+    {
+      "type": 0,
+      "value": "允許聲音提醒"
+    }
+  ],
+  "ui-circulation.settings.checkout.audioTheme": [
+    {
+      "type": 0,
+      "value": "Select audio-alerts theme"
+    }
+  ],
+  "ui-circulation.settings.checkout.audioTheme.classic": [
+    {
+      "type": 0,
+      "value": "Classico"
+    }
+  ],
+  "ui-circulation.settings.checkout.audioTheme.future": [
+    {
+      "type": 0,
+      "value": "Futura"
+    }
+  ],
+  "ui-circulation.settings.checkout.audioTheme.modern": [
+    {
+      "type": 0,
+      "value": "Moderna"
+    }
+  ],
+  "ui-circulation.settings.checkout.checkin.timeout": [
+    {
+      "type": 0,
+      "value": "未激活一段时间后自动结束归还和借出会话"
+    }
+  ],
+  "ui-circulation.settings.checkout.filterRules": [
+    {
+      "type": 0,
+      "value": "篩選規則"
+    }
+  ],
+  "ui-circulation.settings.checkout.identifiers.barcode": [
+    {
+      "type": 0,
+      "value": "條碼"
+    }
+  ],
+  "ui-circulation.settings.checkout.identifiers.externalSystemId": [
+    {
+      "type": 0,
+      "value": "外部系統 ID"
+    }
+  ],
+  "ui-circulation.settings.checkout.identifiers.id": [
+    {
+      "type": 0,
+      "value": "Folio 紀錄號"
+    }
+  ],
+  "ui-circulation.settings.checkout.identifiers.username": [
+    {
+      "type": 0,
+      "value": "使用者名稱"
+    }
+  ],
+  "ui-circulation.settings.checkout.minutes": [
+    {
+      "type": 0,
+      "value": "分鐘"
+    }
+  ],
+  "ui-circulation.settings.checkout.no": [
+    {
+      "type": 0,
+      "value": "否"
+    }
+  ],
+  "ui-circulation.settings.checkout.paneTitle": [
+    {
+      "type": 0,
+      "value": "其他設定"
+    }
+  ],
+  "ui-circulation.settings.checkout.patronIds": [
+    {
+      "type": 0,
+      "value": "借出掃描的讀者ID"
+    }
+  ],
+  "ui-circulation.settings.checkout.save": [
+    {
+      "type": 0,
+      "value": "儲存"
+    }
+  ],
+  "ui-circulation.settings.checkout.timeout.duration": [
+    {
+      "type": 0,
+      "value": "超时时间"
+    }
+  ],
+  "ui-circulation.settings.checkout.userCustomFields": [
+    {
+      "type": 0,
+      "value": "使用者自定義欄位"
+    }
+  ],
+  "ui-circulation.settings.checkout.userCustomFields.noValidFieldsAreDefined": [
+    {
+      "type": 0,
+      "value": "沒有相同的自定義欄位已被設定"
+    }
+  ],
+  "ui-circulation.settings.checkout.userCustomFields.none": [
+    {
+      "type": 0,
+      "value": "無"
+    }
+  ],
+  "ui-circulation.settings.checkout.validate.selectContinue": [
+    {
+      "type": 0,
+      "value": "請選擇以繼續"
+    }
+  ],
+  "ui-circulation.settings.checkout.validate.timeoutDuration": [
+    {
+      "type": 0,
+      "value": "請輸入大於 0 的整數"
+    }
+  ],
   "ui-circulation.settings.checkout.wildcardLookup": [
     {
       "type": 0,
       "value": "Perform wildcard lookup of items by barcode in circulation apps (Check in, Check out)"
     }
   ],
-  "ui-circulation.settings.checkout.yes": "是",
-  "ui-circulation.settings.circulationRules.all": "所有",
-  "ui-circulation.settings.circulationRules.any": "任何",
-  "ui-circulation.settings.circulationRules.campus": "校區",
-  "ui-circulation.settings.circulationRules.campuses": "校區",
-  "ui-circulation.settings.circulationRules.circulationPolicies": "流通政策",
-  "ui-circulation.settings.circulationRules.done": "完成",
-  "ui-circulation.settings.circulationRules.filterOptionsList": "筛选选项清单",
-  "ui-circulation.settings.circulationRules.institution": "機構",
-  "ui-circulation.settings.circulationRules.institutions": "機構",
-  "ui-circulation.settings.circulationRules.label": "规则",
-  "ui-circulation.settings.circulationRules.libraries": "圖書館",
-  "ui-circulation.settings.circulationRules.library": "圖書館",
-  "ui-circulation.settings.circulationRules.loanPolicies": "借閱政策",
-  "ui-circulation.settings.circulationRules.loanTypes": "借阅类型",
-  "ui-circulation.settings.circulationRules.location": "館藏地",
-  "ui-circulation.settings.circulationRules.locations": "館藏地",
-  "ui-circulation.settings.circulationRules.lostItemFeePolicies": "遺失館藏賠償政策",
-  "ui-circulation.settings.circulationRules.materialTypes": "資料類型",
-  "ui-circulation.settings.circulationRules.newRule": "新規則 (#)",
-  "ui-circulation.settings.circulationRules.not": "!（非）",
-  "ui-circulation.settings.circulationRules.noticePolicies": "讀者通知政策",
-  "ui-circulation.settings.circulationRules.overdueFine.period": "超期罚款期",
-  "ui-circulation.settings.circulationRules.overdueFine.quantity": "超期罚款数量",
-  "ui-circulation.settings.circulationRules.overdueFinePolicies": "超期罚款政策",
-  "ui-circulation.settings.circulationRules.paneTitle": "流通規則編輯器",
-  "ui-circulation.settings.circulationRules.patronGroups": "讀者群組",
-  "ui-circulation.settings.circulationRules.requestPolicies": "預約政策",
-  "ui-circulation.settings.circulationRules.rulesUpdated": "已成功更新規則。",
-  "ui-circulation.settings.circulationRules.selectCampus": "選擇校區",
-  "ui-circulation.settings.circulationRules.selectInstitution": "選擇機構",
-  "ui-circulation.settings.circulationRules.selectLibrary": "選擇圖書館",
-  "ui-circulation.settings.circulationRules.selectLocation": "選擇館藏地",
-  "ui-circulation.settings.common.blankPlaceholder": ".",
-  "ui-circulation.settings.common.cancel": "取消",
-  "ui-circulation.settings.common.close": "關閉",
-  "ui-circulation.settings.common.closeEntryDialog": "关闭输入对话框",
-  "ui-circulation.settings.common.days": "日",
-  "ui-circulation.settings.common.delete": "删除",
-  "ui-circulation.settings.common.deleteMessage": "{name}将被{removed} 。",
-  "ui-circulation.settings.common.duplicate": "复制",
-  "ui-circulation.settings.common.edit": "編輯",
-  "ui-circulation.settings.common.hours": "小时",
-  "ui-circulation.settings.common.minutes": "分钟",
-  "ui-circulation.settings.common.months": "月",
-  "ui-circulation.settings.common.no": "否",
-  "ui-circulation.settings.common.pleaseSelect": "请选择",
-  "ui-circulation.settings.common.print": "打印",
-  "ui-circulation.settings.common.removed": "已移除",
-  "ui-circulation.settings.common.saveAndClose": "儲存並關閉",
-  "ui-circulation.settings.common.weeks": "周",
-  "ui-circulation.settings.common.years": "年",
-  "ui-circulation.settings.common.yes": "是",
-  "ui-circulation.settings.fDDS.deleteDisabled": "當一個或多個借閱政策正在在使用時，無法刪除時間表。",
-  "ui-circulation.settings.fDDS.edit": "編輯",
-  "ui-circulation.settings.fDDS.editLabel": "编辑： {name}",
-  "ui-circulation.settings.fDDS.paneTitle": "固定到期日時間表",
-  "ui-circulation.settings.fDDS.successfulDelete": "固定到期日時間表 {name} 已成功 {deleted}。",
-  "ui-circulation.settings.fDDS.successfulDeleteVerb": "已删除",
-  "ui-circulation.settings.fDDS.validate.onOrAfter": "到期日必須在截止日期或之後",
-  "ui-circulation.settings.fDDS.validate.oneScheduleMin": "必須至少輸入一個時間表",
-  "ui-circulation.settings.fDDS.validate.overlappingDateRange": "日期範圍 {num1} 不能與日期範圍 {num2} 重疊",
-  "ui-circulation.settings.fDDS.validate.toDate": "截止日期必須在起始日期之後",
-  "ui-circulation.settings.fDDS.validate.uniqueName": "請輸入唯一的名稱。",
-  "ui-circulation.settings.fDDSform.about": "一般資訊",
-  "ui-circulation.settings.fDDSform.cancel": "取消",
-  "ui-circulation.settings.fDDSform.close": "關閉",
-  "ui-circulation.settings.fDDSform.closeLabel": "關閉固定到期日時間表對話框",
-  "ui-circulation.settings.fDDSform.dateFormTitle": "Date range {number}",
-  "ui-circulation.settings.fDDSform.dateFrom": "日期自",
-  "ui-circulation.settings.fDDSform.dateTo": "日期到",
-  "ui-circulation.settings.fDDSform.delete": "删除",
-  "ui-circulation.settings.fDDSform.deleteHeader": "删除固定到期日時間表 ？",
-  "ui-circulation.settings.fDDSform.deleteMessage": "固定到期日時間表 {name} 將被 {deleted}。",
-  "ui-circulation.settings.fDDSform.description": "描述",
-  "ui-circulation.settings.fDDSform.dueDate": "到期日",
-  "ui-circulation.settings.fDDSform.entryLabel": "固定到期日時間表",
-  "ui-circulation.settings.fDDSform.name": "固定到期日時間表名稱",
-  "ui-circulation.settings.fDDSform.new": "新增",
-  "ui-circulation.settings.fDDSform.newFixDDSchedule": "新增固定到期日時間表",
-  "ui-circulation.settings.fDDSform.remove": "移除",
-  "ui-circulation.settings.fDDSform.schedule": "時間表",
-  "ui-circulation.settings.fDDSform.untitled": "未命名固定到期日時間表",
-  "ui-circulation.settings.finePolicy.countClosedDHM": "计算关闭的天/小时/分钟",
-  "ui-circulation.settings.finePolicy.createEntryLabel": "新增逾期罰款政策",
-  "ui-circulation.settings.finePolicy.day": "天",
-  "ui-circulation.settings.finePolicy.deletefinePolicy": "刪除逾期罰款政策",
-  "ui-circulation.settings.finePolicy.description": "描述",
-  "ui-circulation.settings.finePolicy.duration": "周期持续时间",
-  "ui-circulation.settings.finePolicy.entryLabel": "超期罚款政策",
-  "ui-circulation.settings.finePolicy.forgiveOverdueFine": "如果单件已续借，则宽恕超期罚款",
-  "ui-circulation.settings.finePolicy.generalInformation": "一般信息",
-  "ui-circulation.settings.finePolicy.hour": "小时",
-  "ui-circulation.settings.finePolicy.ignoreGracePeriodsRecalls": "忽略宽限期进行召回",
-  "ui-circulation.settings.finePolicy.interval": "周期间隔",
-  "ui-circulation.settings.finePolicy.maximumOverdueFine": "最高超期罚款",
-  "ui-circulation.settings.finePolicy.maximumRecallOverdueFine": "最高超期召回罚款",
-  "ui-circulation.settings.finePolicy.minute": "分钟",
-  "ui-circulation.settings.finePolicy.month": "月",
-  "ui-circulation.settings.finePolicy.newOverdueFinePolicy": "新增逾期罰款政策",
-  "ui-circulation.settings.finePolicy.no": "否",
-  "ui-circulation.settings.finePolicy.overdueFine": "超期罚款",
-  "ui-circulation.settings.finePolicy.overdueFinePolicyName": "逾期罰款政策名稱",
-  "ui-circulation.settings.finePolicy.overdueFineTitle": "Overdue fine",
-  "ui-circulation.settings.finePolicy.overdueFines": "超期罚款",
-  "ui-circulation.settings.finePolicy.overdueRecallFine": "超期召回罚款",
-  "ui-circulation.settings.finePolicy.paneTitle": "逾期罰款政策",
-  "ui-circulation.settings.finePolicy.per": "每",
-  "ui-circulation.settings.finePolicy.perPeriod": "{number} per {period}",
-  "ui-circulation.settings.finePolicy.placeholderSelect": "选择间隔",
-  "ui-circulation.settings.finePolicy.quantity": "超期罚款数量",
-  "ui-circulation.settings.finePolicy.select": "超期罚款选择",
-  "ui-circulation.settings.finePolicy.selectInterval": "选择间隔",
-  "ui-circulation.settings.finePolicy.validate.hasOverdueFineInterval": "如果设置了间隔，则超期罚款必须大于0",
-  "ui-circulation.settings.finePolicy.validate.hasOverdueRecallFineInterval": "如果设置了间隔，则超期召回罚款必须大于0",
-  "ui-circulation.settings.finePolicy.validate.invalidMaximumOverdueFine": "请输入超期罚款金额或将最高过期罚款设置为0",
-  "ui-circulation.settings.finePolicy.validate.invalidMaximumRecallOverdueFine": "请输入超期召回罚款金额或将最高超期召回罚款设置为0",
-  "ui-circulation.settings.finePolicy.validate.maximumOverdueFine": "最高超期罚款必须大于或等于超期罚款",
-  "ui-circulation.settings.finePolicy.validate.maximumRecallOverdueFine": "最高超期召回罚款必须大于或等于超期召回罚款",
-  "ui-circulation.settings.finePolicy.week": "周",
-  "ui-circulation.settings.finePolicy.year": "年",
-  "ui-circulation.settings.finePolicy.yes": "是",
-  "ui-circulation.settings.index.circulationRules": "流通政策",
-  "ui-circulation.settings.index.fdds": "固定到期日時間表",
-  "ui-circulation.settings.index.feesFines": "费用/罚款",
-  "ui-circulation.settings.index.general": "通用",
-  "ui-circulation.settings.index.loanHistory": "借閱歷史",
-  "ui-circulation.settings.index.loanPolicies": "借閱政策",
-  "ui-circulation.settings.index.loans": "借阅",
-  "ui-circulation.settings.index.noticePolicies": "讀者通知政策",
-  "ui-circulation.settings.index.otherSettings": "其他設定",
-  "ui-circulation.settings.index.paneTitle": "流通",
-  "ui-circulation.settings.index.patronNotices": "讀者通知範本",
-  "ui-circulation.settings.index.patronNoticesSettings": "讀者通知",
-  "ui-circulation.settings.index.request": "預約",
-  "ui-circulation.settings.index.requestCancellationReasons": "取消預約的原因",
-  "ui-circulation.settings.index.requestPolicies": "預約政策",
-  "ui-circulation.settings.index.staffSlips": "館員夾書單",
+  "ui-circulation.settings.checkout.yes": [
+    {
+      "type": 0,
+      "value": "是"
+    }
+  ],
+  "ui-circulation.settings.circulationRules.all": [
+    {
+      "type": 0,
+      "value": "所有"
+    }
+  ],
+  "ui-circulation.settings.circulationRules.any": [
+    {
+      "type": 0,
+      "value": "任何"
+    }
+  ],
+  "ui-circulation.settings.circulationRules.campus": [
+    {
+      "type": 0,
+      "value": "校區"
+    }
+  ],
+  "ui-circulation.settings.circulationRules.campuses": [
+    {
+      "type": 0,
+      "value": "校區"
+    }
+  ],
+  "ui-circulation.settings.circulationRules.circulationPolicies": [
+    {
+      "type": 0,
+      "value": "流通政策"
+    }
+  ],
+  "ui-circulation.settings.circulationRules.done": [
+    {
+      "type": 0,
+      "value": "完成"
+    }
+  ],
+  "ui-circulation.settings.circulationRules.filterOptionsList": [
+    {
+      "type": 0,
+      "value": "筛选选项清单"
+    }
+  ],
+  "ui-circulation.settings.circulationRules.institution": [
+    {
+      "type": 0,
+      "value": "機構"
+    }
+  ],
+  "ui-circulation.settings.circulationRules.institutions": [
+    {
+      "type": 0,
+      "value": "機構"
+    }
+  ],
+  "ui-circulation.settings.circulationRules.label": [
+    {
+      "type": 0,
+      "value": "规则"
+    }
+  ],
+  "ui-circulation.settings.circulationRules.libraries": [
+    {
+      "type": 0,
+      "value": "圖書館"
+    }
+  ],
+  "ui-circulation.settings.circulationRules.library": [
+    {
+      "type": 0,
+      "value": "圖書館"
+    }
+  ],
+  "ui-circulation.settings.circulationRules.loanPolicies": [
+    {
+      "type": 0,
+      "value": "借閱政策"
+    }
+  ],
+  "ui-circulation.settings.circulationRules.loanTypes": [
+    {
+      "type": 0,
+      "value": "借阅类型"
+    }
+  ],
+  "ui-circulation.settings.circulationRules.location": [
+    {
+      "type": 0,
+      "value": "館藏地"
+    }
+  ],
+  "ui-circulation.settings.circulationRules.locations": [
+    {
+      "type": 0,
+      "value": "館藏地"
+    }
+  ],
+  "ui-circulation.settings.circulationRules.lostItemFeePolicies": [
+    {
+      "type": 0,
+      "value": "遺失館藏賠償政策"
+    }
+  ],
+  "ui-circulation.settings.circulationRules.materialTypes": [
+    {
+      "type": 0,
+      "value": "資料類型"
+    }
+  ],
+  "ui-circulation.settings.circulationRules.newRule": [
+    {
+      "type": 0,
+      "value": "新規則 (#)"
+    }
+  ],
+  "ui-circulation.settings.circulationRules.not": [
+    {
+      "type": 0,
+      "value": "!（非）"
+    }
+  ],
+  "ui-circulation.settings.circulationRules.noticePolicies": [
+    {
+      "type": 0,
+      "value": "讀者通知政策"
+    }
+  ],
+  "ui-circulation.settings.circulationRules.overdueFine.period": [
+    {
+      "type": 0,
+      "value": "超期罚款期"
+    }
+  ],
+  "ui-circulation.settings.circulationRules.overdueFine.quantity": [
+    {
+      "type": 0,
+      "value": "超期罚款数量"
+    }
+  ],
+  "ui-circulation.settings.circulationRules.overdueFinePolicies": [
+    {
+      "type": 0,
+      "value": "超期罚款政策"
+    }
+  ],
+  "ui-circulation.settings.circulationRules.paneTitle": [
+    {
+      "type": 0,
+      "value": "流通規則編輯器"
+    }
+  ],
+  "ui-circulation.settings.circulationRules.patronGroups": [
+    {
+      "type": 0,
+      "value": "讀者群組"
+    }
+  ],
+  "ui-circulation.settings.circulationRules.requestPolicies": [
+    {
+      "type": 0,
+      "value": "預約政策"
+    }
+  ],
+  "ui-circulation.settings.circulationRules.rulesUpdated": [
+    {
+      "type": 0,
+      "value": "已成功更新規則。"
+    }
+  ],
+  "ui-circulation.settings.circulationRules.selectCampus": [
+    {
+      "type": 0,
+      "value": "選擇校區"
+    }
+  ],
+  "ui-circulation.settings.circulationRules.selectInstitution": [
+    {
+      "type": 0,
+      "value": "選擇機構"
+    }
+  ],
+  "ui-circulation.settings.circulationRules.selectLibrary": [
+    {
+      "type": 0,
+      "value": "選擇圖書館"
+    }
+  ],
+  "ui-circulation.settings.circulationRules.selectLocation": [
+    {
+      "type": 0,
+      "value": "選擇館藏地"
+    }
+  ],
+  "ui-circulation.settings.common.blankPlaceholder": [
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "ui-circulation.settings.common.cancel": [
+    {
+      "type": 0,
+      "value": "取消"
+    }
+  ],
+  "ui-circulation.settings.common.close": [
+    {
+      "type": 0,
+      "value": "關閉"
+    }
+  ],
+  "ui-circulation.settings.common.closeEntryDialog": [
+    {
+      "type": 0,
+      "value": "关闭输入对话框"
+    }
+  ],
+  "ui-circulation.settings.common.days": [
+    {
+      "type": 0,
+      "value": "日"
+    }
+  ],
+  "ui-circulation.settings.common.delete": [
+    {
+      "type": 0,
+      "value": "删除"
+    }
+  ],
+  "ui-circulation.settings.common.deleteMessage": [
+    {
+      "type": 1,
+      "value": "name"
+    },
+    {
+      "type": 0,
+      "value": "将被"
+    },
+    {
+      "type": 1,
+      "value": "removed"
+    },
+    {
+      "type": 0,
+      "value": " 。"
+    }
+  ],
+  "ui-circulation.settings.common.duplicate": [
+    {
+      "type": 0,
+      "value": "复制"
+    }
+  ],
+  "ui-circulation.settings.common.edit": [
+    {
+      "type": 0,
+      "value": "編輯"
+    }
+  ],
+  "ui-circulation.settings.common.hours": [
+    {
+      "type": 0,
+      "value": "小时"
+    }
+  ],
+  "ui-circulation.settings.common.minutes": [
+    {
+      "type": 0,
+      "value": "分钟"
+    }
+  ],
+  "ui-circulation.settings.common.months": [
+    {
+      "type": 0,
+      "value": "月"
+    }
+  ],
+  "ui-circulation.settings.common.no": [
+    {
+      "type": 0,
+      "value": "否"
+    }
+  ],
+  "ui-circulation.settings.common.pleaseSelect": [
+    {
+      "type": 0,
+      "value": "请选择"
+    }
+  ],
+  "ui-circulation.settings.common.print": [
+    {
+      "type": 0,
+      "value": "打印"
+    }
+  ],
+  "ui-circulation.settings.common.removed": [
+    {
+      "type": 0,
+      "value": "已移除"
+    }
+  ],
+  "ui-circulation.settings.common.saveAndClose": [
+    {
+      "type": 0,
+      "value": "儲存並關閉"
+    }
+  ],
+  "ui-circulation.settings.common.weeks": [
+    {
+      "type": 0,
+      "value": "周"
+    }
+  ],
+  "ui-circulation.settings.common.years": [
+    {
+      "type": 0,
+      "value": "年"
+    }
+  ],
+  "ui-circulation.settings.common.yes": [
+    {
+      "type": 0,
+      "value": "是"
+    }
+  ],
+  "ui-circulation.settings.fDDS.deleteDisabled": [
+    {
+      "type": 0,
+      "value": "當一個或多個借閱政策正在在使用時，無法刪除時間表。"
+    }
+  ],
+  "ui-circulation.settings.fDDS.edit": [
+    {
+      "type": 0,
+      "value": "編輯"
+    }
+  ],
+  "ui-circulation.settings.fDDS.editLabel": [
+    {
+      "type": 0,
+      "value": "编辑： "
+    },
+    {
+      "type": 1,
+      "value": "name"
+    }
+  ],
+  "ui-circulation.settings.fDDS.paneTitle": [
+    {
+      "type": 0,
+      "value": "固定到期日時間表"
+    }
+  ],
+  "ui-circulation.settings.fDDS.successfulDelete": [
+    {
+      "type": 0,
+      "value": "固定到期日時間表 "
+    },
+    {
+      "type": 1,
+      "value": "name"
+    },
+    {
+      "type": 0,
+      "value": " 已成功 "
+    },
+    {
+      "type": 1,
+      "value": "deleted"
+    },
+    {
+      "type": 0,
+      "value": "。"
+    }
+  ],
+  "ui-circulation.settings.fDDS.successfulDeleteVerb": [
+    {
+      "type": 0,
+      "value": "已删除"
+    }
+  ],
+  "ui-circulation.settings.fDDS.validate.onOrAfter": [
+    {
+      "type": 0,
+      "value": "到期日必須在截止日期或之後"
+    }
+  ],
+  "ui-circulation.settings.fDDS.validate.oneScheduleMin": [
+    {
+      "type": 0,
+      "value": "必須至少輸入一個時間表"
+    }
+  ],
+  "ui-circulation.settings.fDDS.validate.overlappingDateRange": [
+    {
+      "type": 0,
+      "value": "日期範圍 "
+    },
+    {
+      "type": 1,
+      "value": "num1"
+    },
+    {
+      "type": 0,
+      "value": " 不能與日期範圍 "
+    },
+    {
+      "type": 1,
+      "value": "num2"
+    },
+    {
+      "type": 0,
+      "value": " 重疊"
+    }
+  ],
+  "ui-circulation.settings.fDDS.validate.toDate": [
+    {
+      "type": 0,
+      "value": "截止日期必須在起始日期之後"
+    }
+  ],
+  "ui-circulation.settings.fDDS.validate.uniqueName": [
+    {
+      "type": 0,
+      "value": "請輸入唯一的名稱。"
+    }
+  ],
+  "ui-circulation.settings.fDDSform.about": [
+    {
+      "type": 0,
+      "value": "一般資訊"
+    }
+  ],
+  "ui-circulation.settings.fDDSform.cancel": [
+    {
+      "type": 0,
+      "value": "取消"
+    }
+  ],
+  "ui-circulation.settings.fDDSform.close": [
+    {
+      "type": 0,
+      "value": "關閉"
+    }
+  ],
+  "ui-circulation.settings.fDDSform.closeLabel": [
+    {
+      "type": 0,
+      "value": "關閉固定到期日時間表對話框"
+    }
+  ],
+  "ui-circulation.settings.fDDSform.dateFormTitle": [
+    {
+      "type": 0,
+      "value": "Date range "
+    },
+    {
+      "type": 1,
+      "value": "number"
+    }
+  ],
+  "ui-circulation.settings.fDDSform.dateFrom": [
+    {
+      "type": 0,
+      "value": "日期自"
+    }
+  ],
+  "ui-circulation.settings.fDDSform.dateTo": [
+    {
+      "type": 0,
+      "value": "日期到"
+    }
+  ],
+  "ui-circulation.settings.fDDSform.delete": [
+    {
+      "type": 0,
+      "value": "删除"
+    }
+  ],
+  "ui-circulation.settings.fDDSform.deleteHeader": [
+    {
+      "type": 0,
+      "value": "删除固定到期日時間表 ？"
+    }
+  ],
+  "ui-circulation.settings.fDDSform.deleteMessage": [
+    {
+      "type": 0,
+      "value": "固定到期日時間表 "
+    },
+    {
+      "type": 1,
+      "value": "name"
+    },
+    {
+      "type": 0,
+      "value": " 將被 "
+    },
+    {
+      "type": 1,
+      "value": "deleted"
+    },
+    {
+      "type": 0,
+      "value": "。"
+    }
+  ],
+  "ui-circulation.settings.fDDSform.description": [
+    {
+      "type": 0,
+      "value": "描述"
+    }
+  ],
+  "ui-circulation.settings.fDDSform.dueDate": [
+    {
+      "type": 0,
+      "value": "到期日"
+    }
+  ],
+  "ui-circulation.settings.fDDSform.entryLabel": [
+    {
+      "type": 0,
+      "value": "固定到期日時間表"
+    }
+  ],
+  "ui-circulation.settings.fDDSform.name": [
+    {
+      "type": 0,
+      "value": "固定到期日時間表名稱"
+    }
+  ],
+  "ui-circulation.settings.fDDSform.new": [
+    {
+      "type": 0,
+      "value": "新增"
+    }
+  ],
+  "ui-circulation.settings.fDDSform.newFixDDSchedule": [
+    {
+      "type": 0,
+      "value": "新增固定到期日時間表"
+    }
+  ],
+  "ui-circulation.settings.fDDSform.remove": [
+    {
+      "type": 0,
+      "value": "移除"
+    }
+  ],
+  "ui-circulation.settings.fDDSform.schedule": [
+    {
+      "type": 0,
+      "value": "時間表"
+    }
+  ],
+  "ui-circulation.settings.fDDSform.untitled": [
+    {
+      "type": 0,
+      "value": "未命名固定到期日時間表"
+    }
+  ],
+  "ui-circulation.settings.finePolicy.countClosedDHM": [
+    {
+      "type": 0,
+      "value": "计算关闭的天/小时/分钟"
+    }
+  ],
+  "ui-circulation.settings.finePolicy.createEntryLabel": [
+    {
+      "type": 0,
+      "value": "新增逾期罰款政策"
+    }
+  ],
+  "ui-circulation.settings.finePolicy.day": [
+    {
+      "type": 0,
+      "value": "天"
+    }
+  ],
+  "ui-circulation.settings.finePolicy.deletefinePolicy": [
+    {
+      "type": 0,
+      "value": "刪除逾期罰款政策"
+    }
+  ],
+  "ui-circulation.settings.finePolicy.description": [
+    {
+      "type": 0,
+      "value": "描述"
+    }
+  ],
+  "ui-circulation.settings.finePolicy.duration": [
+    {
+      "type": 0,
+      "value": "周期持续时间"
+    }
+  ],
+  "ui-circulation.settings.finePolicy.entryLabel": [
+    {
+      "type": 0,
+      "value": "超期罚款政策"
+    }
+  ],
+  "ui-circulation.settings.finePolicy.forgiveOverdueFine": [
+    {
+      "type": 0,
+      "value": "如果单件已续借，则宽恕超期罚款"
+    }
+  ],
+  "ui-circulation.settings.finePolicy.generalInformation": [
+    {
+      "type": 0,
+      "value": "一般信息"
+    }
+  ],
+  "ui-circulation.settings.finePolicy.hour": [
+    {
+      "type": 0,
+      "value": "小时"
+    }
+  ],
+  "ui-circulation.settings.finePolicy.ignoreGracePeriodsRecalls": [
+    {
+      "type": 0,
+      "value": "忽略宽限期进行召回"
+    }
+  ],
+  "ui-circulation.settings.finePolicy.interval": [
+    {
+      "type": 0,
+      "value": "周期间隔"
+    }
+  ],
+  "ui-circulation.settings.finePolicy.maximumOverdueFine": [
+    {
+      "type": 0,
+      "value": "最高超期罚款"
+    }
+  ],
+  "ui-circulation.settings.finePolicy.maximumRecallOverdueFine": [
+    {
+      "type": 0,
+      "value": "最高超期召回罚款"
+    }
+  ],
+  "ui-circulation.settings.finePolicy.minute": [
+    {
+      "type": 0,
+      "value": "分钟"
+    }
+  ],
+  "ui-circulation.settings.finePolicy.month": [
+    {
+      "type": 0,
+      "value": "月"
+    }
+  ],
+  "ui-circulation.settings.finePolicy.newOverdueFinePolicy": [
+    {
+      "type": 0,
+      "value": "新增逾期罰款政策"
+    }
+  ],
+  "ui-circulation.settings.finePolicy.no": [
+    {
+      "type": 0,
+      "value": "否"
+    }
+  ],
+  "ui-circulation.settings.finePolicy.overdueFine": [
+    {
+      "type": 0,
+      "value": "超期罚款"
+    }
+  ],
+  "ui-circulation.settings.finePolicy.overdueFinePolicyName": [
+    {
+      "type": 0,
+      "value": "逾期罰款政策名稱"
+    }
+  ],
+  "ui-circulation.settings.finePolicy.overdueFineTitle": [
+    {
+      "type": 0,
+      "value": "Overdue fine"
+    }
+  ],
+  "ui-circulation.settings.finePolicy.overdueFines": [
+    {
+      "type": 0,
+      "value": "超期罚款"
+    }
+  ],
+  "ui-circulation.settings.finePolicy.overdueRecallFine": [
+    {
+      "type": 0,
+      "value": "超期召回罚款"
+    }
+  ],
+  "ui-circulation.settings.finePolicy.paneTitle": [
+    {
+      "type": 0,
+      "value": "逾期罰款政策"
+    }
+  ],
+  "ui-circulation.settings.finePolicy.per": [
+    {
+      "type": 0,
+      "value": "每"
+    }
+  ],
+  "ui-circulation.settings.finePolicy.perPeriod": [
+    {
+      "type": 1,
+      "value": "number"
+    },
+    {
+      "type": 0,
+      "value": " per "
+    },
+    {
+      "type": 1,
+      "value": "period"
+    }
+  ],
+  "ui-circulation.settings.finePolicy.placeholderSelect": [
+    {
+      "type": 0,
+      "value": "选择间隔"
+    }
+  ],
+  "ui-circulation.settings.finePolicy.quantity": [
+    {
+      "type": 0,
+      "value": "超期罚款数量"
+    }
+  ],
+  "ui-circulation.settings.finePolicy.select": [
+    {
+      "type": 0,
+      "value": "超期罚款选择"
+    }
+  ],
+  "ui-circulation.settings.finePolicy.selectInterval": [
+    {
+      "type": 0,
+      "value": "选择间隔"
+    }
+  ],
+  "ui-circulation.settings.finePolicy.validate.hasOverdueFineInterval": [
+    {
+      "type": 0,
+      "value": "如果设置了间隔，则超期罚款必须大于0"
+    }
+  ],
+  "ui-circulation.settings.finePolicy.validate.hasOverdueRecallFineInterval": [
+    {
+      "type": 0,
+      "value": "如果设置了间隔，则超期召回罚款必须大于0"
+    }
+  ],
+  "ui-circulation.settings.finePolicy.validate.invalidMaximumOverdueFine": [
+    {
+      "type": 0,
+      "value": "请输入超期罚款金额或将最高过期罚款设置为0"
+    }
+  ],
+  "ui-circulation.settings.finePolicy.validate.invalidMaximumRecallOverdueFine": [
+    {
+      "type": 0,
+      "value": "请输入超期召回罚款金额或将最高超期召回罚款设置为0"
+    }
+  ],
+  "ui-circulation.settings.finePolicy.validate.maximumOverdueFine": [
+    {
+      "type": 0,
+      "value": "最高超期罚款必须大于或等于超期罚款"
+    }
+  ],
+  "ui-circulation.settings.finePolicy.validate.maximumRecallOverdueFine": [
+    {
+      "type": 0,
+      "value": "最高超期召回罚款必须大于或等于超期召回罚款"
+    }
+  ],
+  "ui-circulation.settings.finePolicy.week": [
+    {
+      "type": 0,
+      "value": "周"
+    }
+  ],
+  "ui-circulation.settings.finePolicy.year": [
+    {
+      "type": 0,
+      "value": "年"
+    }
+  ],
+  "ui-circulation.settings.finePolicy.yes": [
+    {
+      "type": 0,
+      "value": "是"
+    }
+  ],
+  "ui-circulation.settings.index.circulationRules": [
+    {
+      "type": 0,
+      "value": "流通政策"
+    }
+  ],
+  "ui-circulation.settings.index.fdds": [
+    {
+      "type": 0,
+      "value": "固定到期日時間表"
+    }
+  ],
+  "ui-circulation.settings.index.feesFines": [
+    {
+      "type": 0,
+      "value": "费用/罚款"
+    }
+  ],
+  "ui-circulation.settings.index.general": [
+    {
+      "type": 0,
+      "value": "通用"
+    }
+  ],
+  "ui-circulation.settings.index.loanHistory": [
+    {
+      "type": 0,
+      "value": "借閱歷史"
+    }
+  ],
+  "ui-circulation.settings.index.loanPolicies": [
+    {
+      "type": 0,
+      "value": "借閱政策"
+    }
+  ],
+  "ui-circulation.settings.index.loans": [
+    {
+      "type": 0,
+      "value": "借阅"
+    }
+  ],
+  "ui-circulation.settings.index.noticePolicies": [
+    {
+      "type": 0,
+      "value": "讀者通知政策"
+    }
+  ],
+  "ui-circulation.settings.index.otherSettings": [
+    {
+      "type": 0,
+      "value": "其他設定"
+    }
+  ],
+  "ui-circulation.settings.index.paneTitle": [
+    {
+      "type": 0,
+      "value": "流通"
+    }
+  ],
+  "ui-circulation.settings.index.patronNotices": [
+    {
+      "type": 0,
+      "value": "讀者通知範本"
+    }
+  ],
+  "ui-circulation.settings.index.patronNoticesSettings": [
+    {
+      "type": 0,
+      "value": "讀者通知"
+    }
+  ],
+  "ui-circulation.settings.index.request": [
+    {
+      "type": 0,
+      "value": "預約"
+    }
+  ],
+  "ui-circulation.settings.index.requestCancellationReasons": [
+    {
+      "type": 0,
+      "value": "取消預約的原因"
+    }
+  ],
+  "ui-circulation.settings.index.requestPolicies": [
+    {
+      "type": 0,
+      "value": "預約政策"
+    }
+  ],
+  "ui-circulation.settings.index.staffSlips": [
+    {
+      "type": 0,
+      "value": "館員夾書單"
+    }
+  ],
   "ui-circulation.settings.index.titleLevelRequests": [
     {
       "type": 0,
       "value": "Title level requests"
     }
   ],
-  "ui-circulation.settings.loanHistory.addExceptionButton": "添加例外",
-  "ui-circulation.settings.loanHistory.afterClose": "{name}关闭后",
-  "ui-circulation.settings.loanHistory.anonymize": "匿名處理已關閉的借閱",
-  "ui-circulation.settings.loanHistory.anonymizeFeesFines": "匿名处理有关联费用/罚款的已关闭借阅",
-  "ui-circulation.settings.loanHistory.closedLoans": "已關閉借閱 / 借閱歷史",
-  "ui-circulation.settings.loanHistory.closedLoansFeesFines": "有关联费用/罚款的已关闭借阅",
-  "ui-circulation.settings.loanHistory.errors.paymentMethodSelected": "此付款方式已被選擇",
-  "ui-circulation.settings.loanHistory.exceptionSectionHeader": "支付方式例外",
-  "ui-circulation.settings.loanHistory.feeFine": "費用 / 罰款",
-  "ui-circulation.settings.loanHistory.immediatelyAfterClose": "{name}关闭后立即",
-  "ui-circulation.settings.loanHistory.interval": "间隔",
-  "ui-circulation.settings.loanHistory.loan": "借阅",
-  "ui-circulation.settings.loanHistory.never": "從來沒有",
-  "ui-circulation.settings.loanHistory.paymentMethod.pay": "支付",
-  "ui-circulation.settings.loanHistory.paymentMethod.replace": "更换",
-  "ui-circulation.settings.loanHistory.paymentMethod.transfer": "转移",
-  "ui-circulation.settings.loanHistory.paymentMethod.waive": "免除",
-  "ui-circulation.settings.loanHistory.paymentMethodLabel": "设置支付方式",
-  "ui-circulation.settings.loanHistory.paymentMethodSelect": "付款方式选择",
-  "ui-circulation.settings.loanHistory.selectInterval": "选择间隔",
-  "ui-circulation.settings.loanHistory.selectPaymentMethod": "选择支付方式",
-  "ui-circulation.settings.loanHistory.treat": "以不同方式處理已關閉借閱的 費用 / 罰款",
-  "ui-circulation.settings.loanHistory.validate.intervalValue": "請輸入大於 0 的整數",
-  "ui-circulation.settings.loanHistory.validate.selectContinue": "请选择以继续",
-  "ui-circulation.settings.loanPolicy.about": "關於",
-  "ui-circulation.settings.loanPolicy.altFDDSDueDateLimit": "備用固定到期日時間表（到期日限制），用於續借",
-  "ui-circulation.settings.loanPolicy.altFDDSforRenewals": "備用固定到期日時間表，用於續借",
-  "ui-circulation.settings.loanPolicy.alternateLoanPeriodExisting": "備用借閱期限，用於有請求的單件",
-  "ui-circulation.settings.loanPolicy.alternateLoanPeriodRenewals": "備用借閱期限，用於續借",
-  "ui-circulation.settings.loanPolicy.closedDueDateMgmt": "閉館日到期日管理",
-  "ui-circulation.settings.loanPolicy.createEntryLabel": "新增借閱政策",
-  "ui-circulation.settings.loanPolicy.delete": "删除",
-  "ui-circulation.settings.loanPolicy.deleteLoanPolicy": "删除借閱政策",
-  "ui-circulation.settings.loanPolicy.deleteMessage": "{name}将被{removed} 。",
+  "ui-circulation.settings.loanHistory.addExceptionButton": [
+    {
+      "type": 0,
+      "value": "添加例外"
+    }
+  ],
+  "ui-circulation.settings.loanHistory.afterClose": [
+    {
+      "type": 1,
+      "value": "name"
+    },
+    {
+      "type": 0,
+      "value": "关闭后"
+    }
+  ],
+  "ui-circulation.settings.loanHistory.anonymize": [
+    {
+      "type": 0,
+      "value": "匿名處理已關閉的借閱"
+    }
+  ],
+  "ui-circulation.settings.loanHistory.anonymizeFeesFines": [
+    {
+      "type": 0,
+      "value": "匿名处理有关联费用/罚款的已关闭借阅"
+    }
+  ],
+  "ui-circulation.settings.loanHistory.closedLoans": [
+    {
+      "type": 0,
+      "value": "已關閉借閱 / 借閱歷史"
+    }
+  ],
+  "ui-circulation.settings.loanHistory.closedLoansFeesFines": [
+    {
+      "type": 0,
+      "value": "有关联费用/罚款的已关闭借阅"
+    }
+  ],
+  "ui-circulation.settings.loanHistory.errors.paymentMethodSelected": [
+    {
+      "type": 0,
+      "value": "此付款方式已被選擇"
+    }
+  ],
+  "ui-circulation.settings.loanHistory.exceptionSectionHeader": [
+    {
+      "type": 0,
+      "value": "支付方式例外"
+    }
+  ],
+  "ui-circulation.settings.loanHistory.feeFine": [
+    {
+      "type": 0,
+      "value": "費用 / 罰款"
+    }
+  ],
+  "ui-circulation.settings.loanHistory.immediatelyAfterClose": [
+    {
+      "type": 1,
+      "value": "name"
+    },
+    {
+      "type": 0,
+      "value": "关闭后立即"
+    }
+  ],
+  "ui-circulation.settings.loanHistory.interval": [
+    {
+      "type": 0,
+      "value": "间隔"
+    }
+  ],
+  "ui-circulation.settings.loanHistory.loan": [
+    {
+      "type": 0,
+      "value": "借阅"
+    }
+  ],
+  "ui-circulation.settings.loanHistory.never": [
+    {
+      "type": 0,
+      "value": "從來沒有"
+    }
+  ],
+  "ui-circulation.settings.loanHistory.paymentMethod.pay": [
+    {
+      "type": 0,
+      "value": "支付"
+    }
+  ],
+  "ui-circulation.settings.loanHistory.paymentMethod.replace": [
+    {
+      "type": 0,
+      "value": "更换"
+    }
+  ],
+  "ui-circulation.settings.loanHistory.paymentMethod.transfer": [
+    {
+      "type": 0,
+      "value": "转移"
+    }
+  ],
+  "ui-circulation.settings.loanHistory.paymentMethod.waive": [
+    {
+      "type": 0,
+      "value": "免除"
+    }
+  ],
+  "ui-circulation.settings.loanHistory.paymentMethodLabel": [
+    {
+      "type": 0,
+      "value": "设置支付方式"
+    }
+  ],
+  "ui-circulation.settings.loanHistory.paymentMethodSelect": [
+    {
+      "type": 0,
+      "value": "付款方式选择"
+    }
+  ],
+  "ui-circulation.settings.loanHistory.selectInterval": [
+    {
+      "type": 0,
+      "value": "选择间隔"
+    }
+  ],
+  "ui-circulation.settings.loanHistory.selectPaymentMethod": [
+    {
+      "type": 0,
+      "value": "选择支付方式"
+    }
+  ],
+  "ui-circulation.settings.loanHistory.treat": [
+    {
+      "type": 0,
+      "value": "以不同方式處理已關閉借閱的 費用 / 罰款"
+    }
+  ],
+  "ui-circulation.settings.loanHistory.validate.intervalValue": [
+    {
+      "type": 0,
+      "value": "請輸入大於 0 的整數"
+    }
+  ],
+  "ui-circulation.settings.loanHistory.validate.selectContinue": [
+    {
+      "type": 0,
+      "value": "请选择以继续"
+    }
+  ],
+  "ui-circulation.settings.loanPolicy.about": [
+    {
+      "type": 0,
+      "value": "關於"
+    }
+  ],
+  "ui-circulation.settings.loanPolicy.altFDDSDueDateLimit": [
+    {
+      "type": 0,
+      "value": "備用固定到期日時間表（到期日限制），用於續借"
+    }
+  ],
+  "ui-circulation.settings.loanPolicy.altFDDSforRenewals": [
+    {
+      "type": 0,
+      "value": "備用固定到期日時間表，用於續借"
+    }
+  ],
+  "ui-circulation.settings.loanPolicy.alternateLoanPeriodExisting": [
+    {
+      "type": 0,
+      "value": "備用借閱期限，用於有請求的單件"
+    }
+  ],
+  "ui-circulation.settings.loanPolicy.alternateLoanPeriodRenewals": [
+    {
+      "type": 0,
+      "value": "備用借閱期限，用於續借"
+    }
+  ],
+  "ui-circulation.settings.loanPolicy.closedDueDateMgmt": [
+    {
+      "type": 0,
+      "value": "閉館日到期日管理"
+    }
+  ],
+  "ui-circulation.settings.loanPolicy.createEntryLabel": [
+    {
+      "type": 0,
+      "value": "新增借閱政策"
+    }
+  ],
+  "ui-circulation.settings.loanPolicy.delete": [
+    {
+      "type": 0,
+      "value": "删除"
+    }
+  ],
+  "ui-circulation.settings.loanPolicy.deleteLoanPolicy": [
+    {
+      "type": 0,
+      "value": "删除借閱政策"
+    }
+  ],
+  "ui-circulation.settings.loanPolicy.deleteMessage": [
+    {
+      "type": 1,
+      "value": "name"
+    },
+    {
+      "type": 0,
+      "value": "将被"
+    },
+    {
+      "type": 1,
+      "value": "removed"
+    },
+    {
+      "type": 0,
+      "value": " 。"
+    }
+  ],
   "ui-circulation.settings.loanPolicy.denyDelete.header": [
     {
       "type": 0,
       "value": "Cannot delete Loan policy"
     }
   ],
-  "ui-circulation.settings.loanPolicy.entryLabel": "借閱政策",
-  "ui-circulation.settings.loanPolicy.fDDS": "固定到期日時間表",
-  "ui-circulation.settings.loanPolicy.fDDSlimit": "固定到期日期時間表 (到期日限制)",
-  "ui-circulation.settings.loanPolicy.generalInformation": "一般資訊",
-  "ui-circulation.settings.loanPolicy.gracePeriod": "寬限期",
-  "ui-circulation.settings.loanPolicy.itemLimit": "单件限制",
-  "ui-circulation.settings.loanPolicy.loanPeriod": "借閱期限",
-  "ui-circulation.settings.loanPolicy.loanProfile": "借閱設定文件",
-  "ui-circulation.settings.loanPolicy.loanable": "可借",
-  "ui-circulation.settings.loanPolicy.loans": "借閱",
-  "ui-circulation.settings.loanPolicy.longTermLoan.currentDueDate": "保持当前到期日",
-  "ui-circulation.settings.loanPolicy.longTermLoan.endOfTheNextOpenDay": "移至下一个开放日的末尾",
-  "ui-circulation.settings.loanPolicy.longTermLoan.endOfThePreviousOpenDay": "移至上一个开放日的末尾",
-  "ui-circulation.settings.loanPolicy.no": "否",
-  "ui-circulation.settings.loanPolicy.numRenewalsAllowed": "允許續借次數",
-  "ui-circulation.settings.loanPolicy.openingTimeOffset": "开放时间抵消",
-  "ui-circulation.settings.loanPolicy.paneTitle": "借閱政策",
-  "ui-circulation.settings.loanPolicy.policyDescription": "說明",
-  "ui-circulation.settings.loanPolicy.policyName": "借閱政策名稱",
-  "ui-circulation.settings.loanPolicy.profileType.fixed": "固定",
-  "ui-circulation.settings.loanPolicy.profileType.rolling": "滚动",
-  "ui-circulation.settings.loanPolicy.removed": "已移除",
-  "ui-circulation.settings.loanPolicy.renewFrom": "續借自",
-  "ui-circulation.settings.loanPolicy.renewFrom.currentDueDate": "当前到期日",
-  "ui-circulation.settings.loanPolicy.renewFrom.systemDate": "系统日期",
-  "ui-circulation.settings.loanPolicy.renewable": "可續借",
-  "ui-circulation.settings.loanPolicy.renewalPeriodDifferent": "續借期不同於原借期",
-  "ui-circulation.settings.loanPolicy.renewals": "續借",
-  "ui-circulation.settings.loanPolicy.saveAndClose": "儲存並關閉",
-  "ui-circulation.settings.loanPolicy.selectFDDS": "請選擇一個固定到期日時間表",
-  "ui-circulation.settings.loanPolicy.selectInterval": "選擇間隔時間",
-  "ui-circulation.settings.loanPolicy.selectSchedule": "選擇時間表",
-  "ui-circulation.settings.loanPolicy.shortTermLoan.beginningOhTheNextOpenServicePointHours": "移至下一个开放服务点时间的起始",
-  "ui-circulation.settings.loanPolicy.shortTermLoan.currentDueDateTime": "保持当前到期日/时间",
-  "ui-circulation.settings.loanPolicy.shortTermLoan.endOfTheCurrentServicePointHours": "移至当前服务点开放时间的末尾",
-  "ui-circulation.settings.loanPolicy.unlimitedRenewals": "無限續借",
-  "ui-circulation.settings.loanPolicy.yes": "是",
-  "ui-circulation.settings.lostItemFee.actualCost": "實際費用",
-  "ui-circulation.settings.lostItemFee.chargeAmount": "收费金额",
-  "ui-circulation.settings.lostItemFee.chargeAmount.patron": "按读者收费金额单件",
-  "ui-circulation.settings.lostItemFee.chargeAmount.system": "按系统收费金额单件",
-  "ui-circulation.settings.lostItemFee.chargeAmountItem": "单件收费金额",
-  "ui-circulation.settings.lostItemFee.chargeAmountItemPatron": "如果读者声称遗失单件，则收取遗失单件处理费",
-  "ui-circulation.settings.lostItemFee.chargeAmountItemSystem": "如果单件超期太久被系统视为遗失，则收取遗失单件处理费",
-  "ui-circulation.settings.lostItemFee.days": "天",
-  "ui-circulation.settings.lostItemFee.deleteFeePolicy": "刪除遺失物品費用政策",
-  "ui-circulation.settings.lostItemFee.description": "描述",
-  "ui-circulation.settings.lostItemFee.editLabel": "編輯- {name}",
-  "ui-circulation.settings.lostItemFee.entryLabel": "新建遗失单件费用政策",
-  "ui-circulation.settings.lostItemFee.feesFinesShallRefunded": "不退還任何費用或罰款，如果遺失物被歸還的數量或金額超過",
-  "ui-circulation.settings.lostItemFee.generalInformation": "一般信息",
-  "ui-circulation.settings.lostItemFee.hours": "小時",
-  "ui-circulation.settings.lostItemFee.itemRecalledAgedLostOverdue": "超期后被召回单件，因超期太久视为遗失",
-  "ui-circulation.settings.lostItemFee.itemeAgedLostOverdue": "单件超期太久视为遗失",
-  "ui-circulation.settings.lostItemFee.late": "晚的",
-  "ui-circulation.settings.lostItemFee.lostItemChargeOverdueBased": "根据归还日期收取超期费用，最高限额（如果适用）",
-  "ui-circulation.settings.lostItemFee.lostItemFeePolicyName": "遗失单件费用政策名称",
-  "ui-circulation.settings.lostItemFee.lostItemNotChargeFeesFine": "对于未收取费用/罚款的遗失单件，在……之后关闭借阅",
-  "ui-circulation.settings.lostItemFee.lostItemProcessingFee": "遗失单件处理费",
-  "ui-circulation.settings.lostItemFee.lostItemRemoveOverdueFines": "不要收取逾期罰款",
-  "ui-circulation.settings.lostItemFee.lostItemReturned": "如果遺失物被歸還或續借",
-  "ui-circulation.settings.lostItemFee.lostItemSection": "遗失单件费用",
-  "ui-circulation.settings.lostItemFee.minutes": "分鐘",
-  "ui-circulation.settings.lostItemFee.months": "月",
-  "ui-circulation.settings.lostItemFee.no": "否",
-  "ui-circulation.settings.lostItemFee.otherCost": "其他費用 - {name}",
-  "ui-circulation.settings.lostItemFee.paneTitle": "遺失館藏賠償政策",
-  "ui-circulation.settings.lostItemFee.patronBilledAfterAgedLost": "超期太久视为遗失后向读者收取费用",
-  "ui-circulation.settings.lostItemFee.patronBilledAfterRecalledAgedLost": "超期太久视为遗失后向读者收取召回费",
-  "ui-circulation.settings.lostItemFee.replacedLostItemProcessingFee": "如果遺失物以替換，則免除遺失物處理費",
-  "ui-circulation.settings.lostItemFee.replacementAllowed": "允許替換",
-  "ui-circulation.settings.lostItemFee.replacementProcessFee": "替換處理費",
-  "ui-circulation.settings.lostItemFee.returned": "遗失单件归还",
-  "ui-circulation.settings.lostItemFee.returnedLostItemProcessingFee": "如果遺失物以替換，則免除遺失物處理費",
-  "ui-circulation.settings.lostItemFee.selectInterval": "選擇間隔",
-  "ui-circulation.settings.lostItemFee.setCost": "设置费用",
-  "ui-circulation.settings.lostItemFee.validate.chargeAmountItemSystemSelected": "如果已选“若单件超期太久被系统视为遗失则收取遗失单件处理费”，则需要输入",
-  "ui-circulation.settings.lostItemFee.validate.emptyAmount": "请输入金额",
-  "ui-circulation.settings.lostItemFee.validate.hasLostItemProcessingFeeValue": "对于此选择，“遗失单件处理费”必须>0",
-  "ui-circulation.settings.lostItemFee.validate.hasNoChargeLostItemProcessingFee": "“遗失单件处理费”不能> 0，除非“若读者声称单件遗失则收取遗失单件处理费？”和/或“若单件因超期太久而被系统视为遗失则收取遗失单件处理费？”是“是”",
-  "ui-circulation.settings.lostItemFee.validate.hasPatronBilledAfterAgedToLostValue": "如果输入了“超期太久视为遗失后向读者收费”数量，则需要输入",
-  "ui-circulation.settings.lostItemFee.validate.hasPatronBilledAfterRecalledAgedToLostValue": "如果输入了“在超期太久视为遗失后读者被收取召回费”，则需要输入金额",
-  "ui-circulation.settings.lostItemFee.validate.hasPositiveItemsAgedToLostAfterOverdueAmount": "“设置费用”必须>0，或者“如果超期太久被系统视为遗失则收取遗失单件处理费吗？”必须为“是”，如果“超期太久视为遗失的单件”> 0或“超期太久视为遗失的被召回单件”> 0",
-  "ui-circulation.settings.lostItemFee.validate.hasPositiveLostItemProcessingFeeAndItemsAgedToLostAfterOverdue": "对于此选择，“遗失单件处理费”必须> 0，且“超期太久视为遗失的单件” 数量必须>0",
-  "ui-circulation.settings.lostItemFee.validate.hasPositiveLostItemProcessingFeeValue": "如果已选“若读者声称单件已遗失则收取遗失单件处理费？”或“若超期太久被系统视为遗失则收取遗失单件处理费？”，则需要输入",
-  "ui-circulation.settings.lostItemFee.validate.hasPositiveReplacementProcessingFee": "除非“允许替换”是“是”，否则“更换处理费”不能>0",
-  "ui-circulation.settings.lostItemFee.validate.hasReplacementAllowedAndNegativeLostItemPolicyFee": "对于此选择，“允许替换”必须为“是”",
-  "ui-circulation.settings.lostItemFee.validate.hasReplacementAllowedAndPositiveLostItemPolicyFee": "对于此选择，“遗失单件处理费”必须> 0，并且“允许更换”必须为“是”",
-  "ui-circulation.settings.lostItemFee.weeks": "週",
-  "ui-circulation.settings.lostItemFee.years": "年",
-  "ui-circulation.settings.lostItemFee.yes": "是",
+  "ui-circulation.settings.loanPolicy.entryLabel": [
+    {
+      "type": 0,
+      "value": "借閱政策"
+    }
+  ],
+  "ui-circulation.settings.loanPolicy.fDDS": [
+    {
+      "type": 0,
+      "value": "固定到期日時間表"
+    }
+  ],
+  "ui-circulation.settings.loanPolicy.fDDSlimit": [
+    {
+      "type": 0,
+      "value": "固定到期日期時間表 (到期日限制)"
+    }
+  ],
+  "ui-circulation.settings.loanPolicy.generalInformation": [
+    {
+      "type": 0,
+      "value": "一般資訊"
+    }
+  ],
+  "ui-circulation.settings.loanPolicy.gracePeriod": [
+    {
+      "type": 0,
+      "value": "寬限期"
+    }
+  ],
+  "ui-circulation.settings.loanPolicy.itemLimit": [
+    {
+      "type": 0,
+      "value": "单件限制"
+    }
+  ],
+  "ui-circulation.settings.loanPolicy.loanPeriod": [
+    {
+      "type": 0,
+      "value": "借閱期限"
+    }
+  ],
+  "ui-circulation.settings.loanPolicy.loanProfile": [
+    {
+      "type": 0,
+      "value": "借閱設定文件"
+    }
+  ],
+  "ui-circulation.settings.loanPolicy.loanable": [
+    {
+      "type": 0,
+      "value": "可借"
+    }
+  ],
+  "ui-circulation.settings.loanPolicy.loans": [
+    {
+      "type": 0,
+      "value": "借閱"
+    }
+  ],
+  "ui-circulation.settings.loanPolicy.longTermLoan.currentDueDate": [
+    {
+      "type": 0,
+      "value": "保持当前到期日"
+    }
+  ],
+  "ui-circulation.settings.loanPolicy.longTermLoan.endOfTheNextOpenDay": [
+    {
+      "type": 0,
+      "value": "移至下一个开放日的末尾"
+    }
+  ],
+  "ui-circulation.settings.loanPolicy.longTermLoan.endOfThePreviousOpenDay": [
+    {
+      "type": 0,
+      "value": "移至上一个开放日的末尾"
+    }
+  ],
+  "ui-circulation.settings.loanPolicy.no": [
+    {
+      "type": 0,
+      "value": "否"
+    }
+  ],
+  "ui-circulation.settings.loanPolicy.numRenewalsAllowed": [
+    {
+      "type": 0,
+      "value": "允許續借次數"
+    }
+  ],
+  "ui-circulation.settings.loanPolicy.openingTimeOffset": [
+    {
+      "type": 0,
+      "value": "开放时间抵消"
+    }
+  ],
+  "ui-circulation.settings.loanPolicy.paneTitle": [
+    {
+      "type": 0,
+      "value": "借閱政策"
+    }
+  ],
+  "ui-circulation.settings.loanPolicy.policyDescription": [
+    {
+      "type": 0,
+      "value": "說明"
+    }
+  ],
+  "ui-circulation.settings.loanPolicy.policyName": [
+    {
+      "type": 0,
+      "value": "借閱政策名稱"
+    }
+  ],
+  "ui-circulation.settings.loanPolicy.profileType.fixed": [
+    {
+      "type": 0,
+      "value": "固定"
+    }
+  ],
+  "ui-circulation.settings.loanPolicy.profileType.rolling": [
+    {
+      "type": 0,
+      "value": "滚动"
+    }
+  ],
+  "ui-circulation.settings.loanPolicy.removed": [
+    {
+      "type": 0,
+      "value": "已移除"
+    }
+  ],
+  "ui-circulation.settings.loanPolicy.renewFrom": [
+    {
+      "type": 0,
+      "value": "續借自"
+    }
+  ],
+  "ui-circulation.settings.loanPolicy.renewFrom.currentDueDate": [
+    {
+      "type": 0,
+      "value": "当前到期日"
+    }
+  ],
+  "ui-circulation.settings.loanPolicy.renewFrom.systemDate": [
+    {
+      "type": 0,
+      "value": "系统日期"
+    }
+  ],
+  "ui-circulation.settings.loanPolicy.renewable": [
+    {
+      "type": 0,
+      "value": "可續借"
+    }
+  ],
+  "ui-circulation.settings.loanPolicy.renewalPeriodDifferent": [
+    {
+      "type": 0,
+      "value": "續借期不同於原借期"
+    }
+  ],
+  "ui-circulation.settings.loanPolicy.renewals": [
+    {
+      "type": 0,
+      "value": "續借"
+    }
+  ],
+  "ui-circulation.settings.loanPolicy.saveAndClose": [
+    {
+      "type": 0,
+      "value": "儲存並關閉"
+    }
+  ],
+  "ui-circulation.settings.loanPolicy.selectFDDS": [
+    {
+      "type": 0,
+      "value": "請選擇一個固定到期日時間表"
+    }
+  ],
+  "ui-circulation.settings.loanPolicy.selectInterval": [
+    {
+      "type": 0,
+      "value": "選擇間隔時間"
+    }
+  ],
+  "ui-circulation.settings.loanPolicy.selectSchedule": [
+    {
+      "type": 0,
+      "value": "選擇時間表"
+    }
+  ],
+  "ui-circulation.settings.loanPolicy.shortTermLoan.beginningOhTheNextOpenServicePointHours": [
+    {
+      "type": 0,
+      "value": "移至下一个开放服务点时间的起始"
+    }
+  ],
+  "ui-circulation.settings.loanPolicy.shortTermLoan.currentDueDateTime": [
+    {
+      "type": 0,
+      "value": "保持当前到期日/时间"
+    }
+  ],
+  "ui-circulation.settings.loanPolicy.shortTermLoan.endOfTheCurrentServicePointHours": [
+    {
+      "type": 0,
+      "value": "移至当前服务点开放时间的末尾"
+    }
+  ],
+  "ui-circulation.settings.loanPolicy.unlimitedRenewals": [
+    {
+      "type": 0,
+      "value": "無限續借"
+    }
+  ],
+  "ui-circulation.settings.loanPolicy.yes": [
+    {
+      "type": 0,
+      "value": "是"
+    }
+  ],
+  "ui-circulation.settings.lostItemFee.actualCost": [
+    {
+      "type": 0,
+      "value": "實際費用"
+    }
+  ],
+  "ui-circulation.settings.lostItemFee.chargeAmount": [
+    {
+      "type": 0,
+      "value": "收费金额"
+    }
+  ],
+  "ui-circulation.settings.lostItemFee.chargeAmount.patron": [
+    {
+      "type": 0,
+      "value": "按读者收费金额单件"
+    }
+  ],
+  "ui-circulation.settings.lostItemFee.chargeAmount.system": [
+    {
+      "type": 0,
+      "value": "按系统收费金额单件"
+    }
+  ],
+  "ui-circulation.settings.lostItemFee.chargeAmountItem": [
+    {
+      "type": 0,
+      "value": "单件收费金额"
+    }
+  ],
+  "ui-circulation.settings.lostItemFee.chargeAmountItemPatron": [
+    {
+      "type": 0,
+      "value": "如果读者声称遗失单件，则收取遗失单件处理费"
+    }
+  ],
+  "ui-circulation.settings.lostItemFee.chargeAmountItemSystem": [
+    {
+      "type": 0,
+      "value": "如果单件超期太久被系统视为遗失，则收取遗失单件处理费"
+    }
+  ],
+  "ui-circulation.settings.lostItemFee.days": [
+    {
+      "type": 0,
+      "value": "天"
+    }
+  ],
+  "ui-circulation.settings.lostItemFee.deleteFeePolicy": [
+    {
+      "type": 0,
+      "value": "刪除遺失物品費用政策"
+    }
+  ],
+  "ui-circulation.settings.lostItemFee.description": [
+    {
+      "type": 0,
+      "value": "描述"
+    }
+  ],
+  "ui-circulation.settings.lostItemFee.editLabel": [
+    {
+      "type": 0,
+      "value": "編輯- "
+    },
+    {
+      "type": 1,
+      "value": "name"
+    }
+  ],
+  "ui-circulation.settings.lostItemFee.entryLabel": [
+    {
+      "type": 0,
+      "value": "新建遗失单件费用政策"
+    }
+  ],
+  "ui-circulation.settings.lostItemFee.feesFinesShallRefunded": [
+    {
+      "type": 0,
+      "value": "不退還任何費用或罰款，如果遺失物被歸還的數量或金額超過"
+    }
+  ],
+  "ui-circulation.settings.lostItemFee.generalInformation": [
+    {
+      "type": 0,
+      "value": "一般信息"
+    }
+  ],
+  "ui-circulation.settings.lostItemFee.hours": [
+    {
+      "type": 0,
+      "value": "小時"
+    }
+  ],
+  "ui-circulation.settings.lostItemFee.itemRecalledAgedLostOverdue": [
+    {
+      "type": 0,
+      "value": "超期后被召回单件，因超期太久视为遗失"
+    }
+  ],
+  "ui-circulation.settings.lostItemFee.itemeAgedLostOverdue": [
+    {
+      "type": 0,
+      "value": "单件超期太久视为遗失"
+    }
+  ],
+  "ui-circulation.settings.lostItemFee.late": [
+    {
+      "type": 0,
+      "value": "晚的"
+    }
+  ],
+  "ui-circulation.settings.lostItemFee.lostItemChargeOverdueBased": [
+    {
+      "type": 0,
+      "value": "根据归还日期收取超期费用，最高限额（如果适用）"
+    }
+  ],
+  "ui-circulation.settings.lostItemFee.lostItemFeePolicyName": [
+    {
+      "type": 0,
+      "value": "遗失单件费用政策名称"
+    }
+  ],
+  "ui-circulation.settings.lostItemFee.lostItemNotChargeFeesFine": [
+    {
+      "type": 0,
+      "value": "对于未收取费用/罚款的遗失单件，在……之后关闭借阅"
+    }
+  ],
+  "ui-circulation.settings.lostItemFee.lostItemProcessingFee": [
+    {
+      "type": 0,
+      "value": "遗失单件处理费"
+    }
+  ],
+  "ui-circulation.settings.lostItemFee.lostItemRemoveOverdueFines": [
+    {
+      "type": 0,
+      "value": "不要收取逾期罰款"
+    }
+  ],
+  "ui-circulation.settings.lostItemFee.lostItemReturned": [
+    {
+      "type": 0,
+      "value": "如果遺失物被歸還或續借"
+    }
+  ],
+  "ui-circulation.settings.lostItemFee.lostItemSection": [
+    {
+      "type": 0,
+      "value": "遗失单件费用"
+    }
+  ],
+  "ui-circulation.settings.lostItemFee.minutes": [
+    {
+      "type": 0,
+      "value": "分鐘"
+    }
+  ],
+  "ui-circulation.settings.lostItemFee.months": [
+    {
+      "type": 0,
+      "value": "月"
+    }
+  ],
+  "ui-circulation.settings.lostItemFee.no": [
+    {
+      "type": 0,
+      "value": "否"
+    }
+  ],
+  "ui-circulation.settings.lostItemFee.otherCost": [
+    {
+      "type": 0,
+      "value": "其他費用 - "
+    },
+    {
+      "type": 1,
+      "value": "name"
+    }
+  ],
+  "ui-circulation.settings.lostItemFee.paneTitle": [
+    {
+      "type": 0,
+      "value": "遺失館藏賠償政策"
+    }
+  ],
+  "ui-circulation.settings.lostItemFee.patronBilledAfterAgedLost": [
+    {
+      "type": 0,
+      "value": "超期太久视为遗失后向读者收取费用"
+    }
+  ],
+  "ui-circulation.settings.lostItemFee.patronBilledAfterRecalledAgedLost": [
+    {
+      "type": 0,
+      "value": "超期太久视为遗失后向读者收取召回费"
+    }
+  ],
+  "ui-circulation.settings.lostItemFee.replacedLostItemProcessingFee": [
+    {
+      "type": 0,
+      "value": "如果遺失物以替換，則免除遺失物處理費"
+    }
+  ],
+  "ui-circulation.settings.lostItemFee.replacementAllowed": [
+    {
+      "type": 0,
+      "value": "允許替換"
+    }
+  ],
+  "ui-circulation.settings.lostItemFee.replacementProcessFee": [
+    {
+      "type": 0,
+      "value": "替換處理費"
+    }
+  ],
+  "ui-circulation.settings.lostItemFee.returned": [
+    {
+      "type": 0,
+      "value": "遗失单件归还"
+    }
+  ],
+  "ui-circulation.settings.lostItemFee.returnedLostItemProcessingFee": [
+    {
+      "type": 0,
+      "value": "如果遺失物以替換，則免除遺失物處理費"
+    }
+  ],
+  "ui-circulation.settings.lostItemFee.selectInterval": [
+    {
+      "type": 0,
+      "value": "選擇間隔"
+    }
+  ],
+  "ui-circulation.settings.lostItemFee.setCost": [
+    {
+      "type": 0,
+      "value": "设置费用"
+    }
+  ],
+  "ui-circulation.settings.lostItemFee.validate.chargeAmountItemSystemSelected": [
+    {
+      "type": 0,
+      "value": "如果已选“若单件超期太久被系统视为遗失则收取遗失单件处理费”，则需要输入"
+    }
+  ],
+  "ui-circulation.settings.lostItemFee.validate.emptyAmount": [
+    {
+      "type": 0,
+      "value": "请输入金额"
+    }
+  ],
+  "ui-circulation.settings.lostItemFee.validate.hasLostItemProcessingFeeValue": [
+    {
+      "type": 0,
+      "value": "对于此选择，“遗失单件处理费”必须>0"
+    }
+  ],
+  "ui-circulation.settings.lostItemFee.validate.hasNoChargeLostItemProcessingFee": [
+    {
+      "type": 0,
+      "value": "“遗失单件处理费”不能> 0，除非“若读者声称单件遗失则收取遗失单件处理费？”和/或“若单件因超期太久而被系统视为遗失则收取遗失单件处理费？”是“是”"
+    }
+  ],
+  "ui-circulation.settings.lostItemFee.validate.hasPatronBilledAfterAgedToLostValue": [
+    {
+      "type": 0,
+      "value": "如果输入了“超期太久视为遗失后向读者收费”数量，则需要输入"
+    }
+  ],
+  "ui-circulation.settings.lostItemFee.validate.hasPatronBilledAfterRecalledAgedToLostValue": [
+    {
+      "type": 0,
+      "value": "如果输入了“在超期太久视为遗失后读者被收取召回费”，则需要输入金额"
+    }
+  ],
+  "ui-circulation.settings.lostItemFee.validate.hasPositiveItemsAgedToLostAfterOverdueAmount": [
+    {
+      "type": 0,
+      "value": "“设置费用”必须>0，或者“如果超期太久被系统视为遗失则收取遗失单件处理费吗？”必须为“是”，如果“超期太久视为遗失的单件”> 0或“超期太久视为遗失的被召回单件”> 0"
+    }
+  ],
+  "ui-circulation.settings.lostItemFee.validate.hasPositiveLostItemProcessingFeeAndItemsAgedToLostAfterOverdue": [
+    {
+      "type": 0,
+      "value": "对于此选择，“遗失单件处理费”必须> 0，且“超期太久视为遗失的单件” 数量必须>0"
+    }
+  ],
+  "ui-circulation.settings.lostItemFee.validate.hasPositiveLostItemProcessingFeeValue": [
+    {
+      "type": 0,
+      "value": "如果已选“若读者声称单件已遗失则收取遗失单件处理费？”或“若超期太久被系统视为遗失则收取遗失单件处理费？”，则需要输入"
+    }
+  ],
+  "ui-circulation.settings.lostItemFee.validate.hasPositiveReplacementProcessingFee": [
+    {
+      "type": 0,
+      "value": "除非“允许替换”是“是”，否则“更换处理费”不能>0"
+    }
+  ],
+  "ui-circulation.settings.lostItemFee.validate.hasReplacementAllowedAndNegativeLostItemPolicyFee": [
+    {
+      "type": 0,
+      "value": "对于此选择，“允许替换”必须为“是”"
+    }
+  ],
+  "ui-circulation.settings.lostItemFee.validate.hasReplacementAllowedAndPositiveLostItemPolicyFee": [
+    {
+      "type": 0,
+      "value": "对于此选择，“遗失单件处理费”必须> 0，并且“允许更换”必须为“是”"
+    }
+  ],
+  "ui-circulation.settings.lostItemFee.weeks": [
+    {
+      "type": 0,
+      "value": "週"
+    }
+  ],
+  "ui-circulation.settings.lostItemFee.years": [
+    {
+      "type": 0,
+      "value": "年"
+    }
+  ],
+  "ui-circulation.settings.lostItemFee.yes": [
+    {
+      "type": 0,
+      "value": "是"
+    }
+  ],
   "ui-circulation.settings.lostItemPolicy.denyDelete.header": [
     {
       "type": 0,
       "value": "Cannot delete lost item fee policy"
     }
   ],
-  "ui-circulation.settings.noticePolicy.active": "啟用",
-  "ui-circulation.settings.noticePolicy.addNotice": "添加通知",
-  "ui-circulation.settings.noticePolicy.countableNotice": "通知{counter}",
-  "ui-circulation.settings.noticePolicy.createEntryLabel": "新增讀者通知政策",
-  "ui-circulation.settings.noticePolicy.deleteLoanPolicy": "删除讀者通知政策",
-  "ui-circulation.settings.noticePolicy.denyDelete.body": "无法删除此通知政策，因为它正由一个或多个记录使用。",
-  "ui-circulation.settings.noticePolicy.denyDelete.header": "无法删除读者通知",
-  "ui-circulation.settings.noticePolicy.editEntryLabel": "編輯讀者通知政策",
-  "ui-circulation.settings.noticePolicy.entryLabel": "讀者通知政策",
-  "ui-circulation.settings.noticePolicy.feeFineNotices": "費用 / 罰款 通知",
-  "ui-circulation.settings.noticePolicy.feeFineNotices.atl.fineCharged": "已收取遗失单件费",
-  "ui-circulation.settings.noticePolicy.feeFineNotices.atl.itemReturned": "遗失单件归还-费用已调整",
-  "ui-circulation.settings.noticePolicy.feeFineNotices.renewed": "逾期罰款，已續借",
-  "ui-circulation.settings.noticePolicy.feeFineNotices.returned": "逾期罰款，已歸還",
-  "ui-circulation.settings.noticePolicy.generalInformation": "概况",
-  "ui-circulation.settings.noticePolicy.loanNotices": "借閱通知",
-  "ui-circulation.settings.noticePolicy.loanNotices.agedToLost": "单件超期太久视为遗失",
-  "ui-circulation.settings.noticePolicy.loanNotices.checkIn": "歸還",
-  "ui-circulation.settings.noticePolicy.loanNotices.checkOut": "借出",
-  "ui-circulation.settings.noticePolicy.loanNotices.dueDate": "借阅到期日/时间",
-  "ui-circulation.settings.noticePolicy.loanNotices.itemRecalled": "召回的单件",
-  "ui-circulation.settings.noticePolicy.loanNotices.manualDueDateChange": "借阅到期日更改",
-  "ui-circulation.settings.noticePolicy.loanNotices.renewed": "续借",
-  "ui-circulation.settings.noticePolicy.notices.after": "后",
-  "ui-circulation.settings.noticePolicy.notices.andEvery": "且每个",
-  "ui-circulation.settings.noticePolicy.notices.before": "之前",
-  "ui-circulation.settings.noticePolicy.notices.by": "通过",
-  "ui-circulation.settings.noticePolicy.notices.conditional.notification": "总是在事件触发且满足发送条件时发送。",
-  "ui-circulation.settings.noticePolicy.notices.email": "電子郵件",
-  "ui-circulation.settings.noticePolicy.notices.format": "格式",
-  "ui-circulation.settings.noticePolicy.notices.frequency": "频率",
-  "ui-circulation.settings.noticePolicy.notices.oneTime": "一次性",
-  "ui-circulation.settings.noticePolicy.notices.postponed.notification": "总是在会话结束时发送，且每位读者的借阅合并为单个通知。",
-  "ui-circulation.settings.noticePolicy.notices.realTime.notification": "总是在事件触发时发送。",
-  "ui-circulation.settings.noticePolicy.notices.recurring": "定期",
-  "ui-circulation.settings.noticePolicy.notices.send": "发送",
-  "ui-circulation.settings.noticePolicy.notices.send.longTerm": "次日发送，对读者有多个借阅/单件。对长期借阅有用。",
-  "ui-circulation.settings.noticePolicy.notices.send.shortTerm": "当天发送，没有多个借阅/单件。对于短期借阅有用。",
-  "ui-circulation.settings.noticePolicy.notices.template": "模板",
-  "ui-circulation.settings.noticePolicy.notices.triggeringEvent": "觸發事件",
-  "ui-circulation.settings.noticePolicy.notices.upon": "在/在",
-  "ui-circulation.settings.noticePolicy.notices.via": "通过",
-  "ui-circulation.settings.noticePolicy.paneTitle": "讀者通知政策",
-  "ui-circulation.settings.noticePolicy.policyDescription": "說明",
-  "ui-circulation.settings.noticePolicy.policyName": "讀者通知政策名稱",
-  "ui-circulation.settings.noticePolicy.requestNotices": "預約通知",
-  "ui-circulation.settings.noticePolicy.requestNotices.available": "等待取件",
-  "ui-circulation.settings.noticePolicy.requestNotices.holdExpiration": "預約書架到期",
-  "ui-circulation.settings.noticePolicy.requestNotices.holdRequest": "預約要求",
-  "ui-circulation.settings.noticePolicy.requestNotices.pagingRequest": "处理请求",
-  "ui-circulation.settings.noticePolicy.requestNotices.recallRequest": "催還預約",
-  "ui-circulation.settings.noticePolicy.requestNotices.requestCancelation": "取消",
-  "ui-circulation.settings.noticePolicy.requestNotices.requestExpiration": "預約過期",
-  "ui-circulation.settings.noticePolicy.saveAndClose": "儲存",
+  "ui-circulation.settings.noticePolicy.active": [
+    {
+      "type": 0,
+      "value": "啟用"
+    }
+  ],
+  "ui-circulation.settings.noticePolicy.addNotice": [
+    {
+      "type": 0,
+      "value": "添加通知"
+    }
+  ],
+  "ui-circulation.settings.noticePolicy.countableNotice": [
+    {
+      "type": 0,
+      "value": "通知"
+    },
+    {
+      "type": 1,
+      "value": "counter"
+    }
+  ],
+  "ui-circulation.settings.noticePolicy.createEntryLabel": [
+    {
+      "type": 0,
+      "value": "新增讀者通知政策"
+    }
+  ],
+  "ui-circulation.settings.noticePolicy.deleteLoanPolicy": [
+    {
+      "type": 0,
+      "value": "删除讀者通知政策"
+    }
+  ],
+  "ui-circulation.settings.noticePolicy.denyDelete.body": [
+    {
+      "type": 0,
+      "value": "无法删除此通知政策，因为它正由一个或多个记录使用。"
+    }
+  ],
+  "ui-circulation.settings.noticePolicy.denyDelete.header": [
+    {
+      "type": 0,
+      "value": "无法删除读者通知"
+    }
+  ],
+  "ui-circulation.settings.noticePolicy.editEntryLabel": [
+    {
+      "type": 0,
+      "value": "編輯讀者通知政策"
+    }
+  ],
+  "ui-circulation.settings.noticePolicy.entryLabel": [
+    {
+      "type": 0,
+      "value": "讀者通知政策"
+    }
+  ],
+  "ui-circulation.settings.noticePolicy.feeFineNotices": [
+    {
+      "type": 0,
+      "value": "費用 / 罰款 通知"
+    }
+  ],
+  "ui-circulation.settings.noticePolicy.feeFineNotices.atl.fineCharged": [
+    {
+      "type": 0,
+      "value": "已收取遗失单件费"
+    }
+  ],
+  "ui-circulation.settings.noticePolicy.feeFineNotices.atl.itemReturned": [
+    {
+      "type": 0,
+      "value": "遗失单件归还-费用已调整"
+    }
+  ],
+  "ui-circulation.settings.noticePolicy.feeFineNotices.renewed": [
+    {
+      "type": 0,
+      "value": "逾期罰款，已續借"
+    }
+  ],
+  "ui-circulation.settings.noticePolicy.feeFineNotices.returned": [
+    {
+      "type": 0,
+      "value": "逾期罰款，已歸還"
+    }
+  ],
+  "ui-circulation.settings.noticePolicy.generalInformation": [
+    {
+      "type": 0,
+      "value": "概况"
+    }
+  ],
+  "ui-circulation.settings.noticePolicy.loanNotices": [
+    {
+      "type": 0,
+      "value": "借閱通知"
+    }
+  ],
+  "ui-circulation.settings.noticePolicy.loanNotices.agedToLost": [
+    {
+      "type": 0,
+      "value": "单件超期太久视为遗失"
+    }
+  ],
+  "ui-circulation.settings.noticePolicy.loanNotices.checkIn": [
+    {
+      "type": 0,
+      "value": "歸還"
+    }
+  ],
+  "ui-circulation.settings.noticePolicy.loanNotices.checkOut": [
+    {
+      "type": 0,
+      "value": "借出"
+    }
+  ],
+  "ui-circulation.settings.noticePolicy.loanNotices.dueDate": [
+    {
+      "type": 0,
+      "value": "借阅到期日/时间"
+    }
+  ],
+  "ui-circulation.settings.noticePolicy.loanNotices.itemRecalled": [
+    {
+      "type": 0,
+      "value": "召回的单件"
+    }
+  ],
+  "ui-circulation.settings.noticePolicy.loanNotices.manualDueDateChange": [
+    {
+      "type": 0,
+      "value": "借阅到期日更改"
+    }
+  ],
+  "ui-circulation.settings.noticePolicy.loanNotices.renewed": [
+    {
+      "type": 0,
+      "value": "续借"
+    }
+  ],
+  "ui-circulation.settings.noticePolicy.notices.after": [
+    {
+      "type": 0,
+      "value": "后"
+    }
+  ],
+  "ui-circulation.settings.noticePolicy.notices.andEvery": [
+    {
+      "type": 0,
+      "value": "且每个"
+    }
+  ],
+  "ui-circulation.settings.noticePolicy.notices.before": [
+    {
+      "type": 0,
+      "value": "之前"
+    }
+  ],
+  "ui-circulation.settings.noticePolicy.notices.by": [
+    {
+      "type": 0,
+      "value": "通过"
+    }
+  ],
+  "ui-circulation.settings.noticePolicy.notices.conditional.notification": [
+    {
+      "type": 0,
+      "value": "总是在事件触发且满足发送条件时发送。"
+    }
+  ],
+  "ui-circulation.settings.noticePolicy.notices.email": [
+    {
+      "type": 0,
+      "value": "電子郵件"
+    }
+  ],
+  "ui-circulation.settings.noticePolicy.notices.format": [
+    {
+      "type": 0,
+      "value": "格式"
+    }
+  ],
+  "ui-circulation.settings.noticePolicy.notices.frequency": [
+    {
+      "type": 0,
+      "value": "频率"
+    }
+  ],
+  "ui-circulation.settings.noticePolicy.notices.oneTime": [
+    {
+      "type": 0,
+      "value": "一次性"
+    }
+  ],
+  "ui-circulation.settings.noticePolicy.notices.postponed.notification": [
+    {
+      "type": 0,
+      "value": "总是在会话结束时发送，且每位读者的借阅合并为单个通知。"
+    }
+  ],
+  "ui-circulation.settings.noticePolicy.notices.realTime.notification": [
+    {
+      "type": 0,
+      "value": "总是在事件触发时发送。"
+    }
+  ],
+  "ui-circulation.settings.noticePolicy.notices.recurring": [
+    {
+      "type": 0,
+      "value": "定期"
+    }
+  ],
+  "ui-circulation.settings.noticePolicy.notices.send": [
+    {
+      "type": 0,
+      "value": "发送"
+    }
+  ],
+  "ui-circulation.settings.noticePolicy.notices.send.longTerm": [
+    {
+      "type": 0,
+      "value": "次日发送，对读者有多个借阅/单件。对长期借阅有用。"
+    }
+  ],
+  "ui-circulation.settings.noticePolicy.notices.send.shortTerm": [
+    {
+      "type": 0,
+      "value": "当天发送，没有多个借阅/单件。对于短期借阅有用。"
+    }
+  ],
+  "ui-circulation.settings.noticePolicy.notices.template": [
+    {
+      "type": 0,
+      "value": "模板"
+    }
+  ],
+  "ui-circulation.settings.noticePolicy.notices.triggeringEvent": [
+    {
+      "type": 0,
+      "value": "觸發事件"
+    }
+  ],
+  "ui-circulation.settings.noticePolicy.notices.upon": [
+    {
+      "type": 0,
+      "value": "在/在"
+    }
+  ],
+  "ui-circulation.settings.noticePolicy.notices.via": [
+    {
+      "type": 0,
+      "value": "通过"
+    }
+  ],
+  "ui-circulation.settings.noticePolicy.paneTitle": [
+    {
+      "type": 0,
+      "value": "讀者通知政策"
+    }
+  ],
+  "ui-circulation.settings.noticePolicy.policyDescription": [
+    {
+      "type": 0,
+      "value": "說明"
+    }
+  ],
+  "ui-circulation.settings.noticePolicy.policyName": [
+    {
+      "type": 0,
+      "value": "讀者通知政策名稱"
+    }
+  ],
+  "ui-circulation.settings.noticePolicy.requestNotices": [
+    {
+      "type": 0,
+      "value": "預約通知"
+    }
+  ],
+  "ui-circulation.settings.noticePolicy.requestNotices.available": [
+    {
+      "type": 0,
+      "value": "等待取件"
+    }
+  ],
+  "ui-circulation.settings.noticePolicy.requestNotices.holdExpiration": [
+    {
+      "type": 0,
+      "value": "預約書架到期"
+    }
+  ],
+  "ui-circulation.settings.noticePolicy.requestNotices.holdRequest": [
+    {
+      "type": 0,
+      "value": "預約要求"
+    }
+  ],
+  "ui-circulation.settings.noticePolicy.requestNotices.pagingRequest": [
+    {
+      "type": 0,
+      "value": "处理请求"
+    }
+  ],
+  "ui-circulation.settings.noticePolicy.requestNotices.recallRequest": [
+    {
+      "type": 0,
+      "value": "催還預約"
+    }
+  ],
+  "ui-circulation.settings.noticePolicy.requestNotices.requestCancelation": [
+    {
+      "type": 0,
+      "value": "取消"
+    }
+  ],
+  "ui-circulation.settings.noticePolicy.requestNotices.requestExpiration": [
+    {
+      "type": 0,
+      "value": "預約過期"
+    }
+  ],
+  "ui-circulation.settings.noticePolicy.saveAndClose": [
+    {
+      "type": 0,
+      "value": "儲存"
+    }
+  ],
   "ui-circulation.settings.overdueFinePolicy.denyDelete.header": [
     {
       "type": 0,
       "value": "Cannot delete overdue fine policy"
     }
   ],
-  "ui-circulation.settings.patronNotices.addToken": "添加令牌",
-  "ui-circulation.settings.patronNotices.body": "正文",
-  "ui-circulation.settings.patronNotices.categories.automatedFeeFineAdjustment": "自动费用/罚款微调（退款或取消）",
-  "ui-circulation.settings.patronNotices.categories.automatedFeeFineCharge": "自动费用/罚款收取",
-  "ui-circulation.settings.patronNotices.categories.feeFineAction": "人工處理 費用 / 罰款 ( 付款、免除、退款、轉移或取消 / 錯誤 )",
-  "ui-circulation.settings.patronNotices.categories.feeFineCharge": "費用 / 罰款：人工收費",
-  "ui-circulation.settings.patronNotices.categories.loan": "借阅",
-  "ui-circulation.settings.patronNotices.categories.request": "預約",
-  "ui-circulation.settings.patronNotices.closeDialog": "關閉",
-  "ui-circulation.settings.patronNotices.deleteConfirm": "确定要删除此读者通知吗？",
-  "ui-circulation.settings.patronNotices.deleteHeading": "确认删除",
-  "ui-circulation.settings.patronNotices.denyDelete.body": "此读者通知模板无法删除，因为它正由一个或多个记录使用。",
-  "ui-circulation.settings.patronNotices.denyDelete.header": "无法删除读者通知模板",
-  "ui-circulation.settings.patronNotices.effectiveLocationTokenHeader": "有效的館藏地",
-  "ui-circulation.settings.patronNotices.email": "電子郵件",
-  "ui-circulation.settings.patronNotices.errors.nameExists": "已有相同名稱的讀者通知",
-  "ui-circulation.settings.patronNotices.feeFineActionTokenHeader": "费用/罚款操作",
-  "ui-circulation.settings.patronNotices.feeFineChargeTokenHeader": "费用/罚款收取",
-  "ui-circulation.settings.patronNotices.form.previewHeader": "預覽讀者通知範本",
-  "ui-circulation.settings.patronNotices.itemTokenHeader": "單件",
-  "ui-circulation.settings.patronNotices.loanTokenHeader": "借阅",
-  "ui-circulation.settings.patronNotices.multipleFeeFineActions": "多个费用/罚款操作",
-  "ui-circulation.settings.patronNotices.multipleFeeFineCharges": "多个费用/罚款收取",
-  "ui-circulation.settings.patronNotices.multipleLoans": "多个借阅",
-  "ui-circulation.settings.patronNotices.multipleRequests": "多筆預約",
-  "ui-circulation.settings.patronNotices.newLabel": "新讀者通知範本",
-  "ui-circulation.settings.patronNotices.no": "否",
-  "ui-circulation.settings.patronNotices.notice.active": "啟用",
-  "ui-circulation.settings.patronNotices.notice.category": "类别",
-  "ui-circulation.settings.patronNotices.notice.description": "描述",
-  "ui-circulation.settings.patronNotices.notice.name": "讀者通知範本名稱",
-  "ui-circulation.settings.patronNotices.predefinedWarning": "这是预定义的通知，无法删除",
-  "ui-circulation.settings.patronNotices.preview": "預覽",
-  "ui-circulation.settings.patronNotices.requestTokenHeader": "預約",
-  "ui-circulation.settings.patronNotices.saveLabel": "儲存",
-  "ui-circulation.settings.patronNotices.saveNewLabel": "新增儲存",
-  "ui-circulation.settings.patronNotices.subject": "主题",
-  "ui-circulation.settings.patronNotices.userTokenHeader": "使用者",
-  "ui-circulation.settings.patronNotices.view.previewHeader": "预览读者通知模板 - {name}",
-  "ui-circulation.settings.patronNotices.yes": "是",
+  "ui-circulation.settings.patronNotices.addToken": [
+    {
+      "type": 0,
+      "value": "添加令牌"
+    }
+  ],
+  "ui-circulation.settings.patronNotices.body": [
+    {
+      "type": 0,
+      "value": "正文"
+    }
+  ],
+  "ui-circulation.settings.patronNotices.categories.automatedFeeFineAdjustment": [
+    {
+      "type": 0,
+      "value": "自动费用/罚款微调（退款或取消）"
+    }
+  ],
+  "ui-circulation.settings.patronNotices.categories.automatedFeeFineCharge": [
+    {
+      "type": 0,
+      "value": "自动费用/罚款收取"
+    }
+  ],
+  "ui-circulation.settings.patronNotices.categories.feeFineAction": [
+    {
+      "type": 0,
+      "value": "人工處理 費用 / 罰款 ( 付款、免除、退款、轉移或取消 / 錯誤 )"
+    }
+  ],
+  "ui-circulation.settings.patronNotices.categories.feeFineCharge": [
+    {
+      "type": 0,
+      "value": "費用 / 罰款：人工收費"
+    }
+  ],
+  "ui-circulation.settings.patronNotices.categories.loan": [
+    {
+      "type": 0,
+      "value": "借阅"
+    }
+  ],
+  "ui-circulation.settings.patronNotices.categories.request": [
+    {
+      "type": 0,
+      "value": "預約"
+    }
+  ],
+  "ui-circulation.settings.patronNotices.closeDialog": [
+    {
+      "type": 0,
+      "value": "關閉"
+    }
+  ],
+  "ui-circulation.settings.patronNotices.deleteConfirm": [
+    {
+      "type": 0,
+      "value": "确定要删除此读者通知吗？"
+    }
+  ],
+  "ui-circulation.settings.patronNotices.deleteHeading": [
+    {
+      "type": 0,
+      "value": "确认删除"
+    }
+  ],
+  "ui-circulation.settings.patronNotices.denyDelete.body": [
+    {
+      "type": 0,
+      "value": "此读者通知模板无法删除，因为它正由一个或多个记录使用。"
+    }
+  ],
+  "ui-circulation.settings.patronNotices.denyDelete.header": [
+    {
+      "type": 0,
+      "value": "无法删除读者通知模板"
+    }
+  ],
+  "ui-circulation.settings.patronNotices.effectiveLocationTokenHeader": [
+    {
+      "type": 0,
+      "value": "有效的館藏地"
+    }
+  ],
+  "ui-circulation.settings.patronNotices.email": [
+    {
+      "type": 0,
+      "value": "電子郵件"
+    }
+  ],
+  "ui-circulation.settings.patronNotices.errors.nameExists": [
+    {
+      "type": 0,
+      "value": "已有相同名稱的讀者通知"
+    }
+  ],
+  "ui-circulation.settings.patronNotices.feeFineActionTokenHeader": [
+    {
+      "type": 0,
+      "value": "费用/罚款操作"
+    }
+  ],
+  "ui-circulation.settings.patronNotices.feeFineChargeTokenHeader": [
+    {
+      "type": 0,
+      "value": "费用/罚款收取"
+    }
+  ],
+  "ui-circulation.settings.patronNotices.form.previewHeader": [
+    {
+      "type": 0,
+      "value": "預覽讀者通知範本"
+    }
+  ],
+  "ui-circulation.settings.patronNotices.itemTokenHeader": [
+    {
+      "type": 0,
+      "value": "單件"
+    }
+  ],
+  "ui-circulation.settings.patronNotices.loanTokenHeader": [
+    {
+      "type": 0,
+      "value": "借阅"
+    }
+  ],
+  "ui-circulation.settings.patronNotices.multipleFeeFineActions": [
+    {
+      "type": 0,
+      "value": "多个费用/罚款操作"
+    }
+  ],
+  "ui-circulation.settings.patronNotices.multipleFeeFineCharges": [
+    {
+      "type": 0,
+      "value": "多个费用/罚款收取"
+    }
+  ],
+  "ui-circulation.settings.patronNotices.multipleLoans": [
+    {
+      "type": 0,
+      "value": "多个借阅"
+    }
+  ],
+  "ui-circulation.settings.patronNotices.multipleRequests": [
+    {
+      "type": 0,
+      "value": "多筆預約"
+    }
+  ],
+  "ui-circulation.settings.patronNotices.newLabel": [
+    {
+      "type": 0,
+      "value": "新讀者通知範本"
+    }
+  ],
+  "ui-circulation.settings.patronNotices.no": [
+    {
+      "type": 0,
+      "value": "否"
+    }
+  ],
+  "ui-circulation.settings.patronNotices.notice.active": [
+    {
+      "type": 0,
+      "value": "啟用"
+    }
+  ],
+  "ui-circulation.settings.patronNotices.notice.category": [
+    {
+      "type": 0,
+      "value": "类别"
+    }
+  ],
+  "ui-circulation.settings.patronNotices.notice.description": [
+    {
+      "type": 0,
+      "value": "描述"
+    }
+  ],
+  "ui-circulation.settings.patronNotices.notice.name": [
+    {
+      "type": 0,
+      "value": "讀者通知範本名稱"
+    }
+  ],
+  "ui-circulation.settings.patronNotices.predefinedWarning": [
+    {
+      "type": 0,
+      "value": "这是预定义的通知，无法删除"
+    }
+  ],
+  "ui-circulation.settings.patronNotices.preview": [
+    {
+      "type": 0,
+      "value": "預覽"
+    }
+  ],
+  "ui-circulation.settings.patronNotices.requestTokenHeader": [
+    {
+      "type": 0,
+      "value": "預約"
+    }
+  ],
+  "ui-circulation.settings.patronNotices.saveLabel": [
+    {
+      "type": 0,
+      "value": "儲存"
+    }
+  ],
+  "ui-circulation.settings.patronNotices.saveNewLabel": [
+    {
+      "type": 0,
+      "value": "新增儲存"
+    }
+  ],
+  "ui-circulation.settings.patronNotices.subject": [
+    {
+      "type": 0,
+      "value": "主题"
+    }
+  ],
+  "ui-circulation.settings.patronNotices.userTokenHeader": [
+    {
+      "type": 0,
+      "value": "使用者"
+    }
+  ],
+  "ui-circulation.settings.patronNotices.view.previewHeader": [
+    {
+      "type": 0,
+      "value": "预览读者通知模板 - "
+    },
+    {
+      "type": 1,
+      "value": "name"
+    }
+  ],
+  "ui-circulation.settings.patronNotices.yes": [
+    {
+      "type": 0,
+      "value": "是"
+    }
+  ],
   "ui-circulation.settings.policy.denyDelete.body": [
     {
       "type": 0,
       "value": "This policy cannot be deleted, as it is in use by one or more records."
     }
   ],
-  "ui-circulation.settings.requestManagement.allowRecallsToExtendOverdueLoans": "允许召回延长逾期借阅的到期日",
-  "ui-circulation.settings.requestManagement.alternateCheckoutLoanPeriod": "备用借阅期限，用于借出具有激活的待处理预约请求的单件",
-  "ui-circulation.settings.requestManagement.alternateGracePeriod": "备用宽限期，用于召回的单件",
-  "ui-circulation.settings.requestManagement.alternateRecallReturnInterval": "逾期借阅的备用召回归还间隔",
-  "ui-circulation.settings.requestManagement.alternateRenewalLoanPeriod": "备用借阅期限，用于续借具有激活的待处理预约请求的单件",
-  "ui-circulation.settings.requestManagement.holds": "預約",
-  "ui-circulation.settings.requestManagement.minimumGuaranteedLoanPeriod": "召回单件的最低保证借阅期限",
-  "ui-circulation.settings.requestManagement.recallReturnInterval": "催還間隔",
-  "ui-circulation.settings.requestManagement.recalls": "催還",
-  "ui-circulation.settings.requestManagement.renewItemsWithRequest": "允许续借具有激活的待处理预约请求的单件",
-  "ui-circulation.settings.requestManagement.requestManagement": "預約管理",
-  "ui-circulation.settings.requestPolicy.cannotDelete.label": "無法刪除預約政策",
-  "ui-circulation.settings.requestPolicy.cannotDelete.message": "此預約政策已被流通規則使用，無法删除",
-  "ui-circulation.settings.requestPolicy.createEntryLabel": "新增預約政策",
-  "ui-circulation.settings.requestPolicy.deletPolicy": "删除預約政策",
-  "ui-circulation.settings.requestPolicy.entryLabel": "預約政策",
-  "ui-circulation.settings.requestPolicy.errors.nameExists": "已有相同名稱的預約政策",
-  "ui-circulation.settings.requestPolicy.generalInformation": "一般資訊",
-  "ui-circulation.settings.requestPolicy.paneTitle": "預約政策",
-  "ui-circulation.settings.requestPolicy.policyDescription": "說明",
-  "ui-circulation.settings.requestPolicy.policyName": "預約政策名稱",
-  "ui-circulation.settings.requestPolicy.policyTypes": "允许的请求类型",
-  "ui-circulation.settings.requestPolicy.saveAndClose": "儲存",
-  "ui-circulation.settings.staffSlips.createStaffSlip": "新增",
-  "ui-circulation.settings.staffSlips.deleteStaffSlipMessage": "館員夾書單 <strong> {name} </strong>將被<strong>刪除</strong> 。",
-  "ui-circulation.settings.staffSlips.description": "描述",
-  "ui-circulation.settings.staffSlips.display": "顯示",
-  "ui-circulation.settings.staffSlips.editLabel": "编辑：员工单 - {name}",
-  "ui-circulation.settings.staffSlips.effectiveLocationTokenHeader": "有效的館藏地",
-  "ui-circulation.settings.staffSlips.form.previewLabel": "预览员工单",
-  "ui-circulation.settings.staffSlips.hold": "預約",
-  "ui-circulation.settings.staffSlips.itemTokenHeader": "單件",
-  "ui-circulation.settings.staffSlips.label": "館員夾書單",
-  "ui-circulation.settings.staffSlips.name": "館員夾書單名稱",
-  "ui-circulation.settings.staffSlips.new": "新增館員夾書單",
-  "ui-circulation.settings.staffSlips.preview": "預覽",
-  "ui-circulation.settings.staffSlips.print": "印本",
-  "ui-circulation.settings.staffSlips.requestDeliveryAddressTokenHeader": "預約傳送地址",
-  "ui-circulation.settings.staffSlips.requestTokenHeader": "預約",
-  "ui-circulation.settings.staffSlips.requesterTokenHeader": "預約者",
-  "ui-circulation.settings.staffSlips.staffSlipTokenHeader": "员工单",
-  "ui-circulation.settings.staffSlips.untitledStaffSlip": "館員夾書單名稱",
-  "ui-circulation.settings.staffSlips.view.previewLabel": "预览员工单 - {name}",
+  "ui-circulation.settings.requestManagement.allowRecallsToExtendOverdueLoans": [
+    {
+      "type": 0,
+      "value": "允许召回延长逾期借阅的到期日"
+    }
+  ],
+  "ui-circulation.settings.requestManagement.alternateCheckoutLoanPeriod": [
+    {
+      "type": 0,
+      "value": "备用借阅期限，用于借出具有激活的待处理预约请求的单件"
+    }
+  ],
+  "ui-circulation.settings.requestManagement.alternateGracePeriod": [
+    {
+      "type": 0,
+      "value": "备用宽限期，用于召回的单件"
+    }
+  ],
+  "ui-circulation.settings.requestManagement.alternateRecallReturnInterval": [
+    {
+      "type": 0,
+      "value": "逾期借阅的备用召回归还间隔"
+    }
+  ],
+  "ui-circulation.settings.requestManagement.alternateRenewalLoanPeriod": [
+    {
+      "type": 0,
+      "value": "备用借阅期限，用于续借具有激活的待处理预约请求的单件"
+    }
+  ],
+  "ui-circulation.settings.requestManagement.holds": [
+    {
+      "type": 0,
+      "value": "預約"
+    }
+  ],
+  "ui-circulation.settings.requestManagement.minimumGuaranteedLoanPeriod": [
+    {
+      "type": 0,
+      "value": "召回单件的最低保证借阅期限"
+    }
+  ],
+  "ui-circulation.settings.requestManagement.recallReturnInterval": [
+    {
+      "type": 0,
+      "value": "催還間隔"
+    }
+  ],
+  "ui-circulation.settings.requestManagement.recalls": [
+    {
+      "type": 0,
+      "value": "催還"
+    }
+  ],
+  "ui-circulation.settings.requestManagement.renewItemsWithRequest": [
+    {
+      "type": 0,
+      "value": "允许续借具有激活的待处理预约请求的单件"
+    }
+  ],
+  "ui-circulation.settings.requestManagement.requestManagement": [
+    {
+      "type": 0,
+      "value": "預約管理"
+    }
+  ],
+  "ui-circulation.settings.requestPolicy.cannotDelete.label": [
+    {
+      "type": 0,
+      "value": "無法刪除預約政策"
+    }
+  ],
+  "ui-circulation.settings.requestPolicy.cannotDelete.message": [
+    {
+      "type": 0,
+      "value": "此預約政策已被流通規則使用，無法删除"
+    }
+  ],
+  "ui-circulation.settings.requestPolicy.createEntryLabel": [
+    {
+      "type": 0,
+      "value": "新增預約政策"
+    }
+  ],
+  "ui-circulation.settings.requestPolicy.deletPolicy": [
+    {
+      "type": 0,
+      "value": "删除預約政策"
+    }
+  ],
+  "ui-circulation.settings.requestPolicy.entryLabel": [
+    {
+      "type": 0,
+      "value": "預約政策"
+    }
+  ],
+  "ui-circulation.settings.requestPolicy.errors.nameExists": [
+    {
+      "type": 0,
+      "value": "已有相同名稱的預約政策"
+    }
+  ],
+  "ui-circulation.settings.requestPolicy.generalInformation": [
+    {
+      "type": 0,
+      "value": "一般資訊"
+    }
+  ],
+  "ui-circulation.settings.requestPolicy.paneTitle": [
+    {
+      "type": 0,
+      "value": "預約政策"
+    }
+  ],
+  "ui-circulation.settings.requestPolicy.policyDescription": [
+    {
+      "type": 0,
+      "value": "說明"
+    }
+  ],
+  "ui-circulation.settings.requestPolicy.policyName": [
+    {
+      "type": 0,
+      "value": "預約政策名稱"
+    }
+  ],
+  "ui-circulation.settings.requestPolicy.policyTypes": [
+    {
+      "type": 0,
+      "value": "允许的请求类型"
+    }
+  ],
+  "ui-circulation.settings.requestPolicy.saveAndClose": [
+    {
+      "type": 0,
+      "value": "儲存"
+    }
+  ],
+  "ui-circulation.settings.staffSlips.createStaffSlip": [
+    {
+      "type": 0,
+      "value": "新增"
+    }
+  ],
+  "ui-circulation.settings.staffSlips.deleteStaffSlipMessage": [
+    {
+      "type": 0,
+      "value": "館員夾書單 "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "name"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": "將被"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "刪除"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " 。"
+    }
+  ],
+  "ui-circulation.settings.staffSlips.description": [
+    {
+      "type": 0,
+      "value": "描述"
+    }
+  ],
+  "ui-circulation.settings.staffSlips.display": [
+    {
+      "type": 0,
+      "value": "顯示"
+    }
+  ],
+  "ui-circulation.settings.staffSlips.editLabel": [
+    {
+      "type": 0,
+      "value": "编辑：员工单 - "
+    },
+    {
+      "type": 1,
+      "value": "name"
+    }
+  ],
+  "ui-circulation.settings.staffSlips.effectiveLocationTokenHeader": [
+    {
+      "type": 0,
+      "value": "有效的館藏地"
+    }
+  ],
+  "ui-circulation.settings.staffSlips.form.previewLabel": [
+    {
+      "type": 0,
+      "value": "预览员工单"
+    }
+  ],
+  "ui-circulation.settings.staffSlips.hold": [
+    {
+      "type": 0,
+      "value": "預約"
+    }
+  ],
+  "ui-circulation.settings.staffSlips.itemTokenHeader": [
+    {
+      "type": 0,
+      "value": "單件"
+    }
+  ],
+  "ui-circulation.settings.staffSlips.label": [
+    {
+      "type": 0,
+      "value": "館員夾書單"
+    }
+  ],
+  "ui-circulation.settings.staffSlips.name": [
+    {
+      "type": 0,
+      "value": "館員夾書單名稱"
+    }
+  ],
+  "ui-circulation.settings.staffSlips.new": [
+    {
+      "type": 0,
+      "value": "新增館員夾書單"
+    }
+  ],
+  "ui-circulation.settings.staffSlips.preview": [
+    {
+      "type": 0,
+      "value": "預覽"
+    }
+  ],
+  "ui-circulation.settings.staffSlips.print": [
+    {
+      "type": 0,
+      "value": "印本"
+    }
+  ],
+  "ui-circulation.settings.staffSlips.requestDeliveryAddressTokenHeader": [
+    {
+      "type": 0,
+      "value": "預約傳送地址"
+    }
+  ],
+  "ui-circulation.settings.staffSlips.requestTokenHeader": [
+    {
+      "type": 0,
+      "value": "預約"
+    }
+  ],
+  "ui-circulation.settings.staffSlips.requesterTokenHeader": [
+    {
+      "type": 0,
+      "value": "預約者"
+    }
+  ],
+  "ui-circulation.settings.staffSlips.staffSlipTokenHeader": [
+    {
+      "type": 0,
+      "value": "员工单"
+    }
+  ],
+  "ui-circulation.settings.staffSlips.untitledStaffSlip": [
+    {
+      "type": 0,
+      "value": "館員夾書單名稱"
+    }
+  ],
+  "ui-circulation.settings.staffSlips.view.previewLabel": [
+    {
+      "type": 0,
+      "value": "预览员工单 - "
+    },
+    {
+      "type": 1,
+      "value": "name"
+    }
+  ],
   "ui-circulation.settings.titleLevelRequests.allow": [
     {
       "type": 0,
@@ -9090,14 +11461,54 @@
       "value": "Title level requests"
     }
   ],
-  "ui-circulation.settings.validate.fillIn": "請填妥內容以繼續",
-  "ui-circulation.settings.validate.greaterThanOrEqualToZero": "该值必须大于或等于0",
-  "ui-circulation.settings.validate.greaterThanZero": "该值必须为整数且大于0",
-  "ui-circulation.settings.validate.isFromOneToHundred": "该值必须介于1和100之间",
-  "ui-circulation.settings.validate.isPositiveNumber": "该值必须大于或等于0",
-  "ui-circulation.settings.validate.itemLimitInterval": "单件限制必须> 0，= < 9999或空白",
-  "ui-circulation.settings.validate.lostItem": "如果可能对遗失单件不收取任何费用/罚款，则必填",
-  "ui-circulation.settings.validate.select": "请做出选择",
+  "ui-circulation.settings.validate.fillIn": [
+    {
+      "type": 0,
+      "value": "請填妥內容以繼續"
+    }
+  ],
+  "ui-circulation.settings.validate.greaterThanOrEqualToZero": [
+    {
+      "type": 0,
+      "value": "该值必须大于或等于0"
+    }
+  ],
+  "ui-circulation.settings.validate.greaterThanZero": [
+    {
+      "type": 0,
+      "value": "该值必须为整数且大于0"
+    }
+  ],
+  "ui-circulation.settings.validate.isFromOneToHundred": [
+    {
+      "type": 0,
+      "value": "该值必须介于1和100之间"
+    }
+  ],
+  "ui-circulation.settings.validate.isPositiveNumber": [
+    {
+      "type": 0,
+      "value": "该值必须大于或等于0"
+    }
+  ],
+  "ui-circulation.settings.validate.itemLimitInterval": [
+    {
+      "type": 0,
+      "value": "单件限制必须> 0，= < 9999或空白"
+    }
+  ],
+  "ui-circulation.settings.validate.lostItem": [
+    {
+      "type": 0,
+      "value": "如果可能对遗失单件不收取任何费用/罚款，则必填"
+    }
+  ],
+  "ui-circulation.settings.validate.select": [
+    {
+      "type": 0,
+      "value": "请做出选择"
+    }
+  ],
   "ui-circulation-log.filter.apply": [
     {
       "type": 0,
@@ -9747,7 +12158,7 @@
   "ui-courses.addItem.enterBarcode": [
     {
       "type": 0,
-      "value": "输入或扫描条码"
+      "value": "輸入或掃描條碼"
     }
   ],
   "ui-courses.addItem.existing": [
@@ -9867,7 +12278,7 @@
   "ui-courses.column.barcode": [
     {
       "type": 0,
-      "value": "条码"
+      "value": "條碼"
     }
   ],
   "ui-courses.column.courseName": [
@@ -10103,7 +12514,7 @@
   "ui-courses.field.barcode": [
     {
       "type": 0,
-      "value": "条码"
+      "value": "條碼"
     }
   ],
   "ui-courses.field.callNumber": [
@@ -14669,7 +17080,7 @@
   "ui-data-import.settings.mappingProfiles.map.item.administrativeData.field.barcode": [
     {
       "type": 0,
-      "value": "条码"
+      "value": "條碼"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.item.administrativeData.field.formerId": [
@@ -17919,7 +20330,7 @@
   "ui-data-export.item.barcode": [
     {
       "type": 0,
-      "value": "单件-条码"
+      "value": "單件 - 條碼"
     }
   ],
   "ui-data-export.item.callNumber": [
@@ -20558,7 +22969,7 @@
   "ui-dashboard.widgetForm.editWidget": [
     {
       "type": 0,
-      "value": "Edit - "
+      "value": "Edit widget - "
     },
     {
       "type": 1,
@@ -35447,7 +37858,7 @@
   "ui-inventory.noBarcode": [
     {
       "type": 0,
-      "value": "无条码"
+      "value": "無條碼"
     }
   ],
   "ui-inventory.noHoldingsRecordDeleteModal.message": [
@@ -36725,7 +39136,7 @@
   "ui-inventory.saveHoldingsUIIDS": [
     {
       "type": 0,
-      "value": "Save Holdings UUIDs"
+      "value": "Save holdings UUIDs"
     }
   ],
   "ui-inventory.saveHoldingsUIIDS.error": [
@@ -37199,7 +39610,7 @@
   "ui-inventory.updatedDate": [
     {
       "type": 0,
-      "value": "日期已更新"
+      "value": "更新日期"
     }
   ],
   "ui-inventory.updatedDateAndTime": [
@@ -42794,7 +45205,7 @@
   "ui-ldp.meta.title": "LDP",
   "ui-ldp.something-went-wrong": "Something went wrong.",
   "ui-ldp.refresh": "Refresh",
-  "ui-ldp.error.http": "HTTP error: status {status}: {text}",
+  "ui-ldp.error.http": "HTTP error {status} ({text}) -- {detail}",
   "ui-ldp.error.fetch-reject": "fetch() rejected (never happens): {error}",
   "ui-ldp.error.load-config": "Could not load configuration: {error}",
   "ui-ldp.error.load-tables": "Could not load tables: {error}",
@@ -46570,118 +48981,710 @@
   "ui-oa.correspondence.status.closed": "Closed",
   "ui-oa.correspondence.showMore": "Show more",
   "ui-oa.correspondence.showLess": "Show less",
-  "ui-oai-pmh.meta.title": "OAI-PMH",
-  "ui-oai-pmh.permission.edit": "設定（OAI-PMH）：可以查看和編輯設定",
-  "ui-oai-pmh.permission.view": "設定（OAI-PMH）：顯示設定清單",
-  "ui-oai-pmh.settings.all.oaiServiceIsDisabled": "OAI 服務未啟用。如欲透過設定更改 OAI-PMH 參數，請在「一般」啟用 OAI 服務。",
-  "ui-oai-pmh.settings.all.saveButton.lackPermissions": "您沒有編輯 OAI-PMH 設定的權限，請聯繫系統管理員。",
-  "ui-oai-pmh.settings.all.validationMessage.isEmail": "请输入有效的逗号分隔电子邮件地址以继续",
-  "ui-oai-pmh.settings.all.validationMessage.isIntegerGreaterThanZero": "请输入大于零的整数以继续",
-  "ui-oai-pmh.settings.all.validationMessage.isNotEmpty": "本字段不能为空",
-  "ui-oai-pmh.settings.all.validationMessage.isUrl": "请输入有效的URL地址以继续",
-  "ui-oai-pmh.settings.all.validationMessage.less500": "每个响应的最大记录不能超过500",
-  "ui-oai-pmh.settings.behavior.deletedRecordsSupport.no": "否",
-  "ui-oai-pmh.settings.behavior.deletedRecordsSupport.persistent": "永久的",
-  "ui-oai-pmh.settings.behavior.deletedRecordsSupport.transient": "短暂的",
-  "ui-oai-pmh.settings.behavior.errorsProcessing.200": "与HTTP状态200关联",
-  "ui-oai-pmh.settings.behavior.errorsProcessing.500": "HTTP 500 - 內部伺服器錯誤",
-  "ui-oai-pmh.settings.behavior.label.deletedRecordsSupport": "支持已删除记录",
-  "ui-oai-pmh.settings.behavior.label.errorsProcessing": "OAI-PMH错误处理",
-  "ui-oai-pmh.settings.behavior.label.suppressedRecordsProcessing": "禁止记录处理",
-  "ui-oai-pmh.settings.behavior.suppressedRecordsProcessing.false": "从发现记录中跳过隐藏",
-  "ui-oai-pmh.settings.behavior.suppressedRecordsProcessing.true": "传送带有发现标志值的隐藏记录",
-  "ui-oai-pmh.settings.behavior.title": "行为",
-  "ui-oai-pmh.settings.behavior.tooltip.deletedRecordsSupport": "存储库支持已删除记录概念的方式。",
-  "ui-oai-pmh.settings.behavior.tooltip.errorsProcessing": "定义OAI级错误应与哪些HTTP状态相关联。",
-  "ui-oai-pmh.settings.behavior.tooltip.suppressedRecordsProcessing": "定义是否应使用发现标记值将被抑制的记录跳过或添加到OAI响应中。",
-  "ui-oai-pmh.settings.confirmDeleteSetsModal.cancel": "取消",
-  "ui-oai-pmh.settings.confirmDeleteSetsModal.confirm": "删除",
-  "ui-oai-pmh.settings.confirmDeleteSetsModal.heading": "确认删除设置",
-  "ui-oai-pmh.settings.confirmDeleteSetsModal.message": "设置{name}将被移除。",
-  "ui-oai-pmh.settings.general.label.administratorEmail": "管理员电子邮件",
-  "ui-oai-pmh.settings.general.label.baseUrl": "基本URL",
-  "ui-oai-pmh.settings.general.label.enableOaiService": "启用OAI服务",
-  "ui-oai-pmh.settings.general.label.repositoryName": "存储库名称",
-  "ui-oai-pmh.settings.general.label.timeGranularity": "时间粒度",
-  "ui-oai-pmh.settings.general.title": "通用",
-  "ui-oai-pmh.settings.general.tooltip.administratorEmail": "FOLIO存储库管理员的电子邮件地址。多个电子邮件应以逗号分隔。",
-  "ui-oai-pmh.settings.general.tooltip.baseUrl": "FOLIO存储库URL（edge-oai-pmh）。",
-  "ui-oai-pmh.settings.general.tooltip.enableOaiService": "定义FOLIO存储库是否可访问OAI-PMH模块。",
-  "ui-oai-pmh.settings.general.tooltip.repositoryName": "收割器的FOLIO存储库名称。",
-  "ui-oai-pmh.settings.general.tooltip.timeGranularity": "FOLIO存储库支持的最精细收割粒度。",
-  "ui-oai-pmh.settings.sets.action.delete": "删除",
-  "ui-oai-pmh.settings.sets.action.duplicate": "复制",
-  "ui-oai-pmh.settings.sets.action.edit": "编辑",
-  "ui-oai-pmh.settings.sets.callout.connectionProblem": "由于模块错误，无法保存。请再试一遍。如果问题仍然存在，请联系系统管理员",
-  "ui-oai-pmh.settings.sets.callout.connectionProblem.delete": "由于模块错误，无法删除。请再试一遍。如果问题仍然存在，请联系系统管理员",
-  "ui-oai-pmh.settings.sets.callout.connectionProblem.get": "由于模块错误而无法获取数据。请再试一遍。如果问题仍然存在，请联系系统管理员",
-  "ui-oai-pmh.settings.sets.callout.created": "设置已成功创建",
-  "ui-oai-pmh.settings.sets.callout.deleted": "设置已成功删除",
-  "ui-oai-pmh.settings.sets.callout.failedToDelete.delete": "删除设置失败",
-  "ui-oai-pmh.settings.sets.callout.updated": "设置已成功更新",
-  "ui-oai-pmh.settings.sets.callout.validationError.empty.name": "设置名称不能为空。请填写名称。",
-  "ui-oai-pmh.settings.sets.callout.validationError.empty.setSpec": "设置筛选条件清单不能为空。请添加至少一个筛选条件以保存设置。",
-  "ui-oai-pmh.settings.sets.callout.validationError.notUnique": "集合名称或集合规范不唯一。请填写唯一的集合名称或集合规格以保存集合。",
-  "ui-oai-pmh.settings.sets.duplicate.notFound.text": "网址无效。请检查URL路径的语法或参数，然后尝试另一种。",
-  "ui-oai-pmh.settings.sets.duplicate.notFound.title": "新设置",
-  "ui-oai-pmh.settings.sets.edit.accordion.filteringConditions.title": "筛选条件",
-  "ui-oai-pmh.settings.sets.edit.accordion.generalInformation.title": "一般信息",
-  "ui-oai-pmh.settings.sets.edit.field.description": "设置描述",
-  "ui-oai-pmh.settings.sets.edit.field.name": "设置名称",
-  "ui-oai-pmh.settings.sets.edit.field.setSpecification": "设置规格",
-  "ui-oai-pmh.settings.sets.edit.filteringConditions.field.active": "激活",
-  "ui-oai-pmh.settings.sets.edit.filteringConditions.field.name": "字段",
-  "ui-oai-pmh.settings.sets.edit.filteringConditions.field.setSpec": "规格",
-  "ui-oai-pmh.settings.sets.edit.filteringConditions.field.value": "值",
-  "ui-oai-pmh.settings.sets.edit.filteringConditions.field.value.select.format": "选择格式",
-  "ui-oai-pmh.settings.sets.edit.filteringConditions.field.value.select.illPolicy": "选择ILL政策",
-  "ui-oai-pmh.settings.sets.edit.filteringConditions.field.value.select.location": "选择馆藏地",
-  "ui-oai-pmh.settings.sets.edit.filteringConditions.field.value.select.materialType": "选择资料类型",
-  "ui-oai-pmh.settings.sets.edit.filteringConditions.field.value.select.resourceType": "选择资源类型",
-  "ui-oai-pmh.settings.sets.edit.notFound.text": "网址无效。请检查URL路径的语法或参数，然后尝试另一种。",
-  "ui-oai-pmh.settings.sets.edit.notFound.title": "编辑",
-  "ui-oai-pmh.settings.sets.edit.title": "编辑{name}",
-  "ui-oai-pmh.settings.sets.edit.validationMessage.allowedSymbols": "规格只能使用AZ az 0-9 - _ . ! ~ * ' ( )",
-  "ui-oai-pmh.settings.sets.edit.validationMessage.maxLength": "字段不能超过{maxLength}字符",
-  "ui-oai-pmh.settings.sets.edit.validationMessage.required": "本字段不能为空",
-  "ui-oai-pmh.settings.sets.filteringCondition.format": "格式",
-  "ui-oai-pmh.settings.sets.filteringCondition.illPolicy": "馆际互借政策",
-  "ui-oai-pmh.settings.sets.filteringCondition.location": "馆藏地",
-  "ui-oai-pmh.settings.sets.filteringCondition.materialType": "资料类型",
-  "ui-oai-pmh.settings.sets.filteringCondition.resourceType": "资源类型",
-  "ui-oai-pmh.settings.sets.form.button.cancel": "取消",
-  "ui-oai-pmh.settings.sets.list.field.description": "描述",
-  "ui-oai-pmh.settings.sets.list.field.name": "名称",
-  "ui-oai-pmh.settings.sets.list.field.setSpec": "规格",
-  "ui-oai-pmh.settings.sets.list.field.updatedDate": "上次更新",
-  "ui-oai-pmh.settings.sets.list.field.updatedDatePattern": "{date} {time}",
-  "ui-oai-pmh.settings.sets.list.no.sets": "目前没有OAI-PMH集。",
-  "ui-oai-pmh.settings.sets.list.title": "设置清单",
-  "ui-oai-pmh.settings.sets.new.title": "新设置",
-  "ui-oai-pmh.settings.sets.title": "设置",
-  "ui-oai-pmh.settings.sets.view.accordion.filteringConditions.title": "设置筛选条件",
-  "ui-oai-pmh.settings.sets.view.accordion.generalInformation.title": "摘要",
-  "ui-oai-pmh.settings.sets.view.field.description": "设置描述",
-  "ui-oai-pmh.settings.sets.view.field.name": "设置名称",
-  "ui-oai-pmh.settings.sets.view.field.setSpec": "设置规格",
-  "ui-oai-pmh.settings.sets.view.filteringConditions.field.name": "字段",
-  "ui-oai-pmh.settings.sets.view.filteringConditions.field.name.ariaLabel": "名称字段",
-  "ui-oai-pmh.settings.sets.view.filteringConditions.field.setSpec": "规格",
-  "ui-oai-pmh.settings.sets.view.filteringConditions.field.setSpec.ariaLabel": "规格字段",
-  "ui-oai-pmh.settings.sets.view.filteringConditions.field.value": "值",
-  "ui-oai-pmh.settings.sets.view.filteringConditions.field.value.ariaLabel": "值字段",
-  "ui-oai-pmh.settings.sets.view.filteringConditions.field.value.isMissing": "该值不再适用于该字段",
-  "ui-oai-pmh.settings.sets.view.notFound.text": "网址无效。请检查URL路径的语法或参数，然后尝试另一种。",
-  "ui-oai-pmh.settings.sets.view.notFound.title": "查看",
-  "ui-oai-pmh.settings.sets.view.title": "查看{name}",
-  "ui-oai-pmh.settings.technical.label.enableValidation": "启用验证",
-  "ui-oai-pmh.settings.technical.label.formattedOutput": "格式化输出",
-  "ui-oai-pmh.settings.technical.label.maxRecordsPerResponse": "每个响应的最大记录数",
-  "ui-oai-pmh.settings.technical.title": "技术",
-  "ui-oai-pmh.settings.technical.tooltip.enableValidation": "定义是否应针对xsd模式验证响应内容。",
-  "ui-oai-pmh.settings.technical.tooltip.formattedOutput": "定义是否使用换行和缩进对编组的XML数据进行格式化。",
-  "ui-oai-pmh.settings.technical.tooltip.maxRecordsPerResponse": "ListRecords响应中返回的最大记录数。",
-  "ui-oai-pmh.settings.title": "OAI-PMH",
+  "ui-oai-pmh.meta.title": [
+    {
+      "type": 0,
+      "value": "OAI-PMH"
+    }
+  ],
+  "ui-oai-pmh.permission.edit": [
+    {
+      "type": 0,
+      "value": "設定（OAI-PMH）：可以查看和編輯設定"
+    }
+  ],
+  "ui-oai-pmh.permission.view": [
+    {
+      "type": 0,
+      "value": "設定（OAI-PMH）：顯示設定清單"
+    }
+  ],
+  "ui-oai-pmh.settings.all.oaiServiceIsDisabled": [
+    {
+      "type": 0,
+      "value": "OAI 服務未啟用。如欲透過設定更改 OAI-PMH 參數，請在「一般」啟用 OAI 服務。"
+    }
+  ],
+  "ui-oai-pmh.settings.all.saveButton.lackPermissions": [
+    {
+      "type": 0,
+      "value": "您沒有編輯 OAI-PMH 設定的權限，請聯繫系統管理員。"
+    }
+  ],
+  "ui-oai-pmh.settings.all.validationMessage.isEmail": [
+    {
+      "type": 0,
+      "value": "请输入有效的逗号分隔电子邮件地址以继续"
+    }
+  ],
+  "ui-oai-pmh.settings.all.validationMessage.isIntegerGreaterThanZero": [
+    {
+      "type": 0,
+      "value": "请输入大于零的整数以继续"
+    }
+  ],
+  "ui-oai-pmh.settings.all.validationMessage.isNotEmpty": [
+    {
+      "type": 0,
+      "value": "本字段不能为空"
+    }
+  ],
+  "ui-oai-pmh.settings.all.validationMessage.isUrl": [
+    {
+      "type": 0,
+      "value": "请输入有效的URL地址以继续"
+    }
+  ],
+  "ui-oai-pmh.settings.all.validationMessage.less500": [
+    {
+      "type": 0,
+      "value": "每个响应的最大记录不能超过500"
+    }
+  ],
+  "ui-oai-pmh.settings.behavior.deletedRecordsSupport.no": [
+    {
+      "type": 0,
+      "value": "否"
+    }
+  ],
+  "ui-oai-pmh.settings.behavior.deletedRecordsSupport.persistent": [
+    {
+      "type": 0,
+      "value": "永久的"
+    }
+  ],
+  "ui-oai-pmh.settings.behavior.deletedRecordsSupport.transient": [
+    {
+      "type": 0,
+      "value": "短暂的"
+    }
+  ],
+  "ui-oai-pmh.settings.behavior.errorsProcessing.200": [
+    {
+      "type": 0,
+      "value": "与HTTP状态200关联"
+    }
+  ],
+  "ui-oai-pmh.settings.behavior.errorsProcessing.500": [
+    {
+      "type": 0,
+      "value": "HTTP 500 - 內部伺服器錯誤"
+    }
+  ],
+  "ui-oai-pmh.settings.behavior.label.deletedRecordsSupport": [
+    {
+      "type": 0,
+      "value": "支持已删除记录"
+    }
+  ],
+  "ui-oai-pmh.settings.behavior.label.errorsProcessing": [
+    {
+      "type": 0,
+      "value": "OAI-PMH错误处理"
+    }
+  ],
+  "ui-oai-pmh.settings.behavior.label.suppressedRecordsProcessing": [
+    {
+      "type": 0,
+      "value": "禁止记录处理"
+    }
+  ],
+  "ui-oai-pmh.settings.behavior.suppressedRecordsProcessing.false": [
+    {
+      "type": 0,
+      "value": "从发现记录中跳过隐藏"
+    }
+  ],
+  "ui-oai-pmh.settings.behavior.suppressedRecordsProcessing.true": [
+    {
+      "type": 0,
+      "value": "传送带有发现标志值的隐藏记录"
+    }
+  ],
+  "ui-oai-pmh.settings.behavior.title": [
+    {
+      "type": 0,
+      "value": "行为"
+    }
+  ],
+  "ui-oai-pmh.settings.behavior.tooltip.deletedRecordsSupport": [
+    {
+      "type": 0,
+      "value": "存储库支持已删除记录概念的方式。"
+    }
+  ],
+  "ui-oai-pmh.settings.behavior.tooltip.errorsProcessing": [
+    {
+      "type": 0,
+      "value": "定义OAI级错误应与哪些HTTP状态相关联。"
+    }
+  ],
+  "ui-oai-pmh.settings.behavior.tooltip.suppressedRecordsProcessing": [
+    {
+      "type": 0,
+      "value": "定义是否应使用发现标记值将被抑制的记录跳过或添加到OAI响应中。"
+    }
+  ],
+  "ui-oai-pmh.settings.confirmDeleteSetsModal.cancel": [
+    {
+      "type": 0,
+      "value": "取消"
+    }
+  ],
+  "ui-oai-pmh.settings.confirmDeleteSetsModal.confirm": [
+    {
+      "type": 0,
+      "value": "删除"
+    }
+  ],
+  "ui-oai-pmh.settings.confirmDeleteSetsModal.heading": [
+    {
+      "type": 0,
+      "value": "确认删除设置"
+    }
+  ],
+  "ui-oai-pmh.settings.confirmDeleteSetsModal.message": [
+    {
+      "type": 0,
+      "value": "设置"
+    },
+    {
+      "type": 1,
+      "value": "name"
+    },
+    {
+      "type": 0,
+      "value": "将被移除。"
+    }
+  ],
+  "ui-oai-pmh.settings.general.label.administratorEmail": [
+    {
+      "type": 0,
+      "value": "管理员电子邮件"
+    }
+  ],
+  "ui-oai-pmh.settings.general.label.baseUrl": [
+    {
+      "type": 0,
+      "value": "基本URL"
+    }
+  ],
+  "ui-oai-pmh.settings.general.label.enableOaiService": [
+    {
+      "type": 0,
+      "value": "启用OAI服务"
+    }
+  ],
+  "ui-oai-pmh.settings.general.label.repositoryName": [
+    {
+      "type": 0,
+      "value": "存储库名称"
+    }
+  ],
+  "ui-oai-pmh.settings.general.label.timeGranularity": [
+    {
+      "type": 0,
+      "value": "时间粒度"
+    }
+  ],
+  "ui-oai-pmh.settings.general.title": [
+    {
+      "type": 0,
+      "value": "通用"
+    }
+  ],
+  "ui-oai-pmh.settings.general.tooltip.administratorEmail": [
+    {
+      "type": 0,
+      "value": "FOLIO存储库管理员的电子邮件地址。多个电子邮件应以逗号分隔。"
+    }
+  ],
+  "ui-oai-pmh.settings.general.tooltip.baseUrl": [
+    {
+      "type": 0,
+      "value": "FOLIO存储库URL（edge-oai-pmh）。"
+    }
+  ],
+  "ui-oai-pmh.settings.general.tooltip.enableOaiService": [
+    {
+      "type": 0,
+      "value": "定义FOLIO存储库是否可访问OAI-PMH模块。"
+    }
+  ],
+  "ui-oai-pmh.settings.general.tooltip.repositoryName": [
+    {
+      "type": 0,
+      "value": "收割器的FOLIO存储库名称。"
+    }
+  ],
+  "ui-oai-pmh.settings.general.tooltip.timeGranularity": [
+    {
+      "type": 0,
+      "value": "FOLIO存储库支持的最精细收割粒度。"
+    }
+  ],
+  "ui-oai-pmh.settings.sets.action.delete": [
+    {
+      "type": 0,
+      "value": "删除"
+    }
+  ],
+  "ui-oai-pmh.settings.sets.action.duplicate": [
+    {
+      "type": 0,
+      "value": "复制"
+    }
+  ],
+  "ui-oai-pmh.settings.sets.action.edit": [
+    {
+      "type": 0,
+      "value": "编辑"
+    }
+  ],
+  "ui-oai-pmh.settings.sets.callout.connectionProblem": [
+    {
+      "type": 0,
+      "value": "由于模块错误，无法保存。请再试一遍。如果问题仍然存在，请联系系统管理员"
+    }
+  ],
+  "ui-oai-pmh.settings.sets.callout.connectionProblem.delete": [
+    {
+      "type": 0,
+      "value": "由于模块错误，无法删除。请再试一遍。如果问题仍然存在，请联系系统管理员"
+    }
+  ],
+  "ui-oai-pmh.settings.sets.callout.connectionProblem.get": [
+    {
+      "type": 0,
+      "value": "由于模块错误而无法获取数据。请再试一遍。如果问题仍然存在，请联系系统管理员"
+    }
+  ],
+  "ui-oai-pmh.settings.sets.callout.created": [
+    {
+      "type": 0,
+      "value": "设置已成功创建"
+    }
+  ],
+  "ui-oai-pmh.settings.sets.callout.deleted": [
+    {
+      "type": 0,
+      "value": "设置已成功删除"
+    }
+  ],
+  "ui-oai-pmh.settings.sets.callout.failedToDelete.delete": [
+    {
+      "type": 0,
+      "value": "删除设置失败"
+    }
+  ],
+  "ui-oai-pmh.settings.sets.callout.updated": [
+    {
+      "type": 0,
+      "value": "设置已成功更新"
+    }
+  ],
+  "ui-oai-pmh.settings.sets.callout.validationError.empty.name": [
+    {
+      "type": 0,
+      "value": "设置名称不能为空。请填写名称。"
+    }
+  ],
+  "ui-oai-pmh.settings.sets.callout.validationError.empty.setSpec": [
+    {
+      "type": 0,
+      "value": "设置筛选条件清单不能为空。请添加至少一个筛选条件以保存设置。"
+    }
+  ],
+  "ui-oai-pmh.settings.sets.callout.validationError.notUnique": [
+    {
+      "type": 0,
+      "value": "集合名称或集合规范不唯一。请填写唯一的集合名称或集合规格以保存集合。"
+    }
+  ],
+  "ui-oai-pmh.settings.sets.duplicate.notFound.text": [
+    {
+      "type": 0,
+      "value": "网址无效。请检查URL路径的语法或参数，然后尝试另一种。"
+    }
+  ],
+  "ui-oai-pmh.settings.sets.duplicate.notFound.title": [
+    {
+      "type": 0,
+      "value": "新设置"
+    }
+  ],
+  "ui-oai-pmh.settings.sets.edit.accordion.filteringConditions.title": [
+    {
+      "type": 0,
+      "value": "筛选条件"
+    }
+  ],
+  "ui-oai-pmh.settings.sets.edit.accordion.generalInformation.title": [
+    {
+      "type": 0,
+      "value": "一般信息"
+    }
+  ],
+  "ui-oai-pmh.settings.sets.edit.field.description": [
+    {
+      "type": 0,
+      "value": "设置描述"
+    }
+  ],
+  "ui-oai-pmh.settings.sets.edit.field.name": [
+    {
+      "type": 0,
+      "value": "设置名称"
+    }
+  ],
+  "ui-oai-pmh.settings.sets.edit.field.setSpecification": [
+    {
+      "type": 0,
+      "value": "设置规格"
+    }
+  ],
+  "ui-oai-pmh.settings.sets.edit.filteringConditions.field.active": [
+    {
+      "type": 0,
+      "value": "激活"
+    }
+  ],
+  "ui-oai-pmh.settings.sets.edit.filteringConditions.field.name": [
+    {
+      "type": 0,
+      "value": "字段"
+    }
+  ],
+  "ui-oai-pmh.settings.sets.edit.filteringConditions.field.setSpec": [
+    {
+      "type": 0,
+      "value": "规格"
+    }
+  ],
+  "ui-oai-pmh.settings.sets.edit.filteringConditions.field.value": [
+    {
+      "type": 0,
+      "value": "值"
+    }
+  ],
+  "ui-oai-pmh.settings.sets.edit.filteringConditions.field.value.select.format": [
+    {
+      "type": 0,
+      "value": "选择格式"
+    }
+  ],
+  "ui-oai-pmh.settings.sets.edit.filteringConditions.field.value.select.illPolicy": [
+    {
+      "type": 0,
+      "value": "选择ILL政策"
+    }
+  ],
+  "ui-oai-pmh.settings.sets.edit.filteringConditions.field.value.select.location": [
+    {
+      "type": 0,
+      "value": "选择馆藏地"
+    }
+  ],
+  "ui-oai-pmh.settings.sets.edit.filteringConditions.field.value.select.materialType": [
+    {
+      "type": 0,
+      "value": "选择资料类型"
+    }
+  ],
+  "ui-oai-pmh.settings.sets.edit.filteringConditions.field.value.select.resourceType": [
+    {
+      "type": 0,
+      "value": "选择资源类型"
+    }
+  ],
+  "ui-oai-pmh.settings.sets.edit.notFound.text": [
+    {
+      "type": 0,
+      "value": "网址无效。请检查URL路径的语法或参数，然后尝试另一种。"
+    }
+  ],
+  "ui-oai-pmh.settings.sets.edit.notFound.title": [
+    {
+      "type": 0,
+      "value": "编辑"
+    }
+  ],
+  "ui-oai-pmh.settings.sets.edit.title": [
+    {
+      "type": 0,
+      "value": "编辑"
+    },
+    {
+      "type": 1,
+      "value": "name"
+    }
+  ],
+  "ui-oai-pmh.settings.sets.edit.validationMessage.allowedSymbols": [
+    {
+      "type": 0,
+      "value": "规格只能使用AZ az 0-9 - _ . ! ~ * ' ( )"
+    }
+  ],
+  "ui-oai-pmh.settings.sets.edit.validationMessage.maxLength": [
+    {
+      "type": 0,
+      "value": "字段不能超过"
+    },
+    {
+      "type": 1,
+      "value": "maxLength"
+    },
+    {
+      "type": 0,
+      "value": "字符"
+    }
+  ],
+  "ui-oai-pmh.settings.sets.edit.validationMessage.required": [
+    {
+      "type": 0,
+      "value": "本字段不能为空"
+    }
+  ],
+  "ui-oai-pmh.settings.sets.filteringCondition.format": [
+    {
+      "type": 0,
+      "value": "格式"
+    }
+  ],
+  "ui-oai-pmh.settings.sets.filteringCondition.illPolicy": [
+    {
+      "type": 0,
+      "value": "馆际互借政策"
+    }
+  ],
+  "ui-oai-pmh.settings.sets.filteringCondition.location": [
+    {
+      "type": 0,
+      "value": "馆藏地"
+    }
+  ],
+  "ui-oai-pmh.settings.sets.filteringCondition.materialType": [
+    {
+      "type": 0,
+      "value": "资料类型"
+    }
+  ],
+  "ui-oai-pmh.settings.sets.filteringCondition.resourceType": [
+    {
+      "type": 0,
+      "value": "资源类型"
+    }
+  ],
+  "ui-oai-pmh.settings.sets.form.button.cancel": [
+    {
+      "type": 0,
+      "value": "取消"
+    }
+  ],
+  "ui-oai-pmh.settings.sets.list.field.description": [
+    {
+      "type": 0,
+      "value": "描述"
+    }
+  ],
+  "ui-oai-pmh.settings.sets.list.field.name": [
+    {
+      "type": 0,
+      "value": "名称"
+    }
+  ],
+  "ui-oai-pmh.settings.sets.list.field.setSpec": [
+    {
+      "type": 0,
+      "value": "规格"
+    }
+  ],
+  "ui-oai-pmh.settings.sets.list.field.updatedDate": [
+    {
+      "type": 0,
+      "value": "上次更新"
+    }
+  ],
+  "ui-oai-pmh.settings.sets.list.field.updatedDatePattern": [
+    {
+      "type": 1,
+      "value": "date"
+    },
+    {
+      "type": 0,
+      "value": " "
+    },
+    {
+      "type": 1,
+      "value": "time"
+    }
+  ],
+  "ui-oai-pmh.settings.sets.list.no.sets": [
+    {
+      "type": 0,
+      "value": "目前没有OAI-PMH集。"
+    }
+  ],
+  "ui-oai-pmh.settings.sets.list.title": [
+    {
+      "type": 0,
+      "value": "设置清单"
+    }
+  ],
+  "ui-oai-pmh.settings.sets.new.title": [
+    {
+      "type": 0,
+      "value": "新设置"
+    }
+  ],
+  "ui-oai-pmh.settings.sets.title": [
+    {
+      "type": 0,
+      "value": "设置"
+    }
+  ],
+  "ui-oai-pmh.settings.sets.view.accordion.filteringConditions.title": [
+    {
+      "type": 0,
+      "value": "设置筛选条件"
+    }
+  ],
+  "ui-oai-pmh.settings.sets.view.accordion.generalInformation.title": [
+    {
+      "type": 0,
+      "value": "摘要"
+    }
+  ],
+  "ui-oai-pmh.settings.sets.view.field.description": [
+    {
+      "type": 0,
+      "value": "设置描述"
+    }
+  ],
+  "ui-oai-pmh.settings.sets.view.field.name": [
+    {
+      "type": 0,
+      "value": "设置名称"
+    }
+  ],
+  "ui-oai-pmh.settings.sets.view.field.setSpec": [
+    {
+      "type": 0,
+      "value": "设置规格"
+    }
+  ],
+  "ui-oai-pmh.settings.sets.view.filteringConditions.field.name": [
+    {
+      "type": 0,
+      "value": "字段"
+    }
+  ],
+  "ui-oai-pmh.settings.sets.view.filteringConditions.field.name.ariaLabel": [
+    {
+      "type": 0,
+      "value": "名称字段"
+    }
+  ],
+  "ui-oai-pmh.settings.sets.view.filteringConditions.field.setSpec": [
+    {
+      "type": 0,
+      "value": "规格"
+    }
+  ],
+  "ui-oai-pmh.settings.sets.view.filteringConditions.field.setSpec.ariaLabel": [
+    {
+      "type": 0,
+      "value": "规格字段"
+    }
+  ],
+  "ui-oai-pmh.settings.sets.view.filteringConditions.field.value": [
+    {
+      "type": 0,
+      "value": "值"
+    }
+  ],
+  "ui-oai-pmh.settings.sets.view.filteringConditions.field.value.ariaLabel": [
+    {
+      "type": 0,
+      "value": "值字段"
+    }
+  ],
+  "ui-oai-pmh.settings.sets.view.filteringConditions.field.value.isMissing": [
+    {
+      "type": 0,
+      "value": "该值不再适用于该字段"
+    }
+  ],
+  "ui-oai-pmh.settings.sets.view.notFound.text": [
+    {
+      "type": 0,
+      "value": "网址无效。请检查URL路径的语法或参数，然后尝试另一种。"
+    }
+  ],
+  "ui-oai-pmh.settings.sets.view.notFound.title": [
+    {
+      "type": 0,
+      "value": "查看"
+    }
+  ],
+  "ui-oai-pmh.settings.sets.view.title": [
+    {
+      "type": 0,
+      "value": "查看"
+    },
+    {
+      "type": 1,
+      "value": "name"
+    }
+  ],
+  "ui-oai-pmh.settings.technical.label.enableValidation": [
+    {
+      "type": 0,
+      "value": "启用验证"
+    }
+  ],
+  "ui-oai-pmh.settings.technical.label.formattedOutput": [
+    {
+      "type": 0,
+      "value": "格式化输出"
+    }
+  ],
+  "ui-oai-pmh.settings.technical.label.maxRecordsPerResponse": [
+    {
+      "type": 0,
+      "value": "每个响应的最大记录数"
+    }
+  ],
+  "ui-oai-pmh.settings.technical.title": [
+    {
+      "type": 0,
+      "value": "技术"
+    }
+  ],
+  "ui-oai-pmh.settings.technical.tooltip.enableValidation": [
+    {
+      "type": 0,
+      "value": "定义是否应针对xsd模式验证响应内容。"
+    }
+  ],
+  "ui-oai-pmh.settings.technical.tooltip.formattedOutput": [
+    {
+      "type": 0,
+      "value": "定义是否使用换行和缩进对编组的XML数据进行格式化。"
+    }
+  ],
+  "ui-oai-pmh.settings.technical.tooltip.maxRecordsPerResponse": [
+    {
+      "type": 0,
+      "value": "ListRecords响应中返回的最大记录数。"
+    }
+  ],
+  "ui-oai-pmh.settings.title": [
+    {
+      "type": 0,
+      "value": "OAI-PMH"
+    }
+  ],
   "ui-orders.User does not have permissions - operation is restricted": [
     {
       "type": 0,
@@ -50629,7 +53632,7 @@
   "ui-orders.requests.message.barcode": [
     {
       "type": 0,
-      "value": "条码（ "
+      "value": "條碼（ "
     },
     {
       "type": 1,
@@ -51502,7 +54505,7 @@
   "ui-orders.unopenOrderModal.message.withPieces": [
     {
       "type": 0,
-      "value": "This order line has related receiving records. Any unreceived pieces will be deleted, any \"On order\" Item records related to those pieces will also be deleted from inventory. Are you sure you want to unopen the order?"
+      "value": "This order has at least one order line with receiving workflow \"Synchronized order and receipt quantity\". Such POLs with related receiving records will have any unreceived pieces deleted, and any \"On order\" Item records related to those pieces will also be deleted from inventory. Holdings linked to those items that have no other related items will also be deleted from inventory. Are you sure you want to unopen the order?"
     }
   ],
   "ui-orders.unopenOrderModal.message.withoutPieces": [
@@ -54086,63 +57089,348 @@
   "ui-plugin-bursar-export.bursarExports.runManually.success": "费用/罚款导出已成功安排",
   "ui-plugin-bursar-export.bursarExports.runManually.error": "费用/罚款导出未安排",
   "ui-plugin-bursar-export.permission.bursar-exports.all": "费用/罚款导出：费用/罚款管理",
-  "ui-plugin-create-inventory-records.addCirculationNote": "添加归还/借出附注",
-  "ui-plugin-create-inventory-records.addContributor": "添加贡献者",
-  "ui-plugin-create-inventory-records.addElectronicAccess": "添加电子访问",
-  "ui-plugin-create-inventory-records.barcode": "条码",
-  "ui-plugin-create-inventory-records.barcodeTaken": "This barcode has already been taken",
-  "ui-plugin-create-inventory-records.callNumber": "索书号",
-  "ui-plugin-create-inventory-records.callNumberPrefix": "电话号码前缀",
-  "ui-plugin-create-inventory-records.callNumberSuffix": "索书号后缀",
-  "ui-plugin-create-inventory-records.callNumberType": "索书号类型",
-  "ui-plugin-create-inventory-records.cancel": "取消",
-  "ui-plugin-create-inventory-records.circulationNotes": "单件附注",
-  "ui-plugin-create-inventory-records.circulationNotes.checkInNote": "归还附注",
-  "ui-plugin-create-inventory-records.circulationNotes.checkOutNote": "借出附注",
-  "ui-plugin-create-inventory-records.circulationNotes.name": "附注",
-  "ui-plugin-create-inventory-records.circulationNotes.noteType": "附注类型",
-  "ui-plugin-create-inventory-records.circulationNotes.staffOnly": "仅限员工",
-  "ui-plugin-create-inventory-records.contributors": "贡献者",
-  "ui-plugin-create-inventory-records.contributors.makePrimary": "作为主要",
-  "ui-plugin-create-inventory-records.contributors.name": "名称",
-  "ui-plugin-create-inventory-records.contributors.nameType": "名称类型",
-  "ui-plugin-create-inventory-records.contributors.primary": "主要",
-  "ui-plugin-create-inventory-records.contributors.selectType": "选择类型",
-  "ui-plugin-create-inventory-records.discoverySuppress": "在发现中隐藏",
-  "ui-plugin-create-inventory-records.electronicAccess": "电子访问",
-  "ui-plugin-create-inventory-records.electronicAccess.linkText": "链接文本",
-  "ui-plugin-create-inventory-records.electronicAccess.materialsSpecification": "特定资料",
-  "ui-plugin-create-inventory-records.electronicAccess.publicNote": "URL公共附注",
-  "ui-plugin-create-inventory-records.electronicAccess.relationship": "关系",
-  "ui-plugin-create-inventory-records.electronicAccess.uri": "URI",
-  "ui-plugin-create-inventory-records.fastAddLabel": "新建快速添加记录",
-  "ui-plugin-create-inventory-records.fillIn": "请填写此内容以继续",
-  "ui-plugin-create-inventory-records.holdingsRecord": "馆藏",
-  "ui-plugin-create-inventory-records.instanceRecord": "实例",
-  "ui-plugin-create-inventory-records.instanceStatusTerm": "实例状态术语",
-  "ui-plugin-create-inventory-records.instanceStatusTerm.uncataloged": "未编目（UC：uc）",
-  "ui-plugin-create-inventory-records.isbn": "ISBN",
-  "ui-plugin-create-inventory-records.issn": "ISSN",
-  "ui-plugin-create-inventory-records.itemRecord": "单件",
-  "ui-plugin-create-inventory-records.materialType": "资料类型",
-  "ui-plugin-create-inventory-records.meta.title": "创建典藏记录（插件）",
-  "ui-plugin-create-inventory-records.onSave.error": "保存典藏记录失败",
-  "ui-plugin-create-inventory-records.onSave.success": "典藏记录已成功创建",
-  "ui-plugin-create-inventory-records.permanentLoanType": "永久借阅类型",
-  "ui-plugin-create-inventory-records.permanentLocation": "永久馆藏地",
-  "ui-plugin-create-inventory-records.permission.create": "快速添加：创建",
-  "ui-plugin-create-inventory-records.publicationDate": "出版日期",
-  "ui-plugin-create-inventory-records.resourceTitle": "资源题名",
-  "ui-plugin-create-inventory-records.resourceType": "资源类型",
-  "ui-plugin-create-inventory-records.saveAndClose": "保存并关闭",
-  "ui-plugin-create-inventory-records.selectInstanceStatus": "选择实例状态",
-  "ui-plugin-create-inventory-records.selectLoanType": "选择借阅类型",
-  "ui-plugin-create-inventory-records.selectLocation": "选择馆藏地",
-  "ui-plugin-create-inventory-records.selectMaterialType": "选择资料类型",
-  "ui-plugin-create-inventory-records.selectResourceType": "选择资源类型",
-  "ui-plugin-create-inventory-records.selectToContinue": "请选择以继续",
-  "ui-plugin-create-inventory-records.selectType": "选择类型",
-  "ui-plugin-create-inventory-records.temporaryLocation": "临时馆藏地",
+  "ui-plugin-create-inventory-records.addCirculationNote": [
+    {
+      "type": 0,
+      "value": "添加归还/借出附注"
+    }
+  ],
+  "ui-plugin-create-inventory-records.addContributor": [
+    {
+      "type": 0,
+      "value": "添加贡献者"
+    }
+  ],
+  "ui-plugin-create-inventory-records.addElectronicAccess": [
+    {
+      "type": 0,
+      "value": "添加电子访问"
+    }
+  ],
+  "ui-plugin-create-inventory-records.barcode": [
+    {
+      "type": 0,
+      "value": "條碼"
+    }
+  ],
+  "ui-plugin-create-inventory-records.barcodeTaken": [
+    {
+      "type": 0,
+      "value": "This barcode has already been taken"
+    }
+  ],
+  "ui-plugin-create-inventory-records.callNumber": [
+    {
+      "type": 0,
+      "value": "索书号"
+    }
+  ],
+  "ui-plugin-create-inventory-records.callNumberPrefix": [
+    {
+      "type": 0,
+      "value": "电话号码前缀"
+    }
+  ],
+  "ui-plugin-create-inventory-records.callNumberSuffix": [
+    {
+      "type": 0,
+      "value": "索书号后缀"
+    }
+  ],
+  "ui-plugin-create-inventory-records.callNumberType": [
+    {
+      "type": 0,
+      "value": "索书号类型"
+    }
+  ],
+  "ui-plugin-create-inventory-records.cancel": [
+    {
+      "type": 0,
+      "value": "取消"
+    }
+  ],
+  "ui-plugin-create-inventory-records.circulationNotes": [
+    {
+      "type": 0,
+      "value": "单件附注"
+    }
+  ],
+  "ui-plugin-create-inventory-records.circulationNotes.checkInNote": [
+    {
+      "type": 0,
+      "value": "归还附注"
+    }
+  ],
+  "ui-plugin-create-inventory-records.circulationNotes.checkOutNote": [
+    {
+      "type": 0,
+      "value": "借出附注"
+    }
+  ],
+  "ui-plugin-create-inventory-records.circulationNotes.name": [
+    {
+      "type": 0,
+      "value": "附注"
+    }
+  ],
+  "ui-plugin-create-inventory-records.circulationNotes.noteType": [
+    {
+      "type": 0,
+      "value": "附注类型"
+    }
+  ],
+  "ui-plugin-create-inventory-records.circulationNotes.staffOnly": [
+    {
+      "type": 0,
+      "value": "仅限员工"
+    }
+  ],
+  "ui-plugin-create-inventory-records.contributors": [
+    {
+      "type": 0,
+      "value": "贡献者"
+    }
+  ],
+  "ui-plugin-create-inventory-records.contributors.makePrimary": [
+    {
+      "type": 0,
+      "value": "作为主要"
+    }
+  ],
+  "ui-plugin-create-inventory-records.contributors.name": [
+    {
+      "type": 0,
+      "value": "名称"
+    }
+  ],
+  "ui-plugin-create-inventory-records.contributors.nameType": [
+    {
+      "type": 0,
+      "value": "名称类型"
+    }
+  ],
+  "ui-plugin-create-inventory-records.contributors.primary": [
+    {
+      "type": 0,
+      "value": "主要"
+    }
+  ],
+  "ui-plugin-create-inventory-records.contributors.selectType": [
+    {
+      "type": 0,
+      "value": "选择类型"
+    }
+  ],
+  "ui-plugin-create-inventory-records.discoverySuppress": [
+    {
+      "type": 0,
+      "value": "在发现中隐藏"
+    }
+  ],
+  "ui-plugin-create-inventory-records.electronicAccess": [
+    {
+      "type": 0,
+      "value": "电子访问"
+    }
+  ],
+  "ui-plugin-create-inventory-records.electronicAccess.linkText": [
+    {
+      "type": 0,
+      "value": "链接文本"
+    }
+  ],
+  "ui-plugin-create-inventory-records.electronicAccess.materialsSpecification": [
+    {
+      "type": 0,
+      "value": "特定资料"
+    }
+  ],
+  "ui-plugin-create-inventory-records.electronicAccess.publicNote": [
+    {
+      "type": 0,
+      "value": "URL公共附注"
+    }
+  ],
+  "ui-plugin-create-inventory-records.electronicAccess.relationship": [
+    {
+      "type": 0,
+      "value": "关系"
+    }
+  ],
+  "ui-plugin-create-inventory-records.electronicAccess.uri": [
+    {
+      "type": 0,
+      "value": "URI"
+    }
+  ],
+  "ui-plugin-create-inventory-records.fastAddLabel": [
+    {
+      "type": 0,
+      "value": "新建快速添加记录"
+    }
+  ],
+  "ui-plugin-create-inventory-records.fillIn": [
+    {
+      "type": 0,
+      "value": "请填写此内容以继续"
+    }
+  ],
+  "ui-plugin-create-inventory-records.holdingsRecord": [
+    {
+      "type": 0,
+      "value": "馆藏"
+    }
+  ],
+  "ui-plugin-create-inventory-records.instanceRecord": [
+    {
+      "type": 0,
+      "value": "实例"
+    }
+  ],
+  "ui-plugin-create-inventory-records.instanceStatusTerm": [
+    {
+      "type": 0,
+      "value": "实例状态术语"
+    }
+  ],
+  "ui-plugin-create-inventory-records.instanceStatusTerm.uncataloged": [
+    {
+      "type": 0,
+      "value": "未编目（UC：uc）"
+    }
+  ],
+  "ui-plugin-create-inventory-records.isbn": [
+    {
+      "type": 0,
+      "value": "ISBN"
+    }
+  ],
+  "ui-plugin-create-inventory-records.issn": [
+    {
+      "type": 0,
+      "value": "ISSN"
+    }
+  ],
+  "ui-plugin-create-inventory-records.itemRecord": [
+    {
+      "type": 0,
+      "value": "单件"
+    }
+  ],
+  "ui-plugin-create-inventory-records.materialType": [
+    {
+      "type": 0,
+      "value": "资料类型"
+    }
+  ],
+  "ui-plugin-create-inventory-records.meta.title": [
+    {
+      "type": 0,
+      "value": "创建典藏记录（插件）"
+    }
+  ],
+  "ui-plugin-create-inventory-records.onSave.error": [
+    {
+      "type": 0,
+      "value": "保存典藏记录失败"
+    }
+  ],
+  "ui-plugin-create-inventory-records.onSave.success": [
+    {
+      "type": 0,
+      "value": "典藏记录已成功创建"
+    }
+  ],
+  "ui-plugin-create-inventory-records.permanentLoanType": [
+    {
+      "type": 0,
+      "value": "永久借阅类型"
+    }
+  ],
+  "ui-plugin-create-inventory-records.permanentLocation": [
+    {
+      "type": 0,
+      "value": "永久馆藏地"
+    }
+  ],
+  "ui-plugin-create-inventory-records.permission.create": [
+    {
+      "type": 0,
+      "value": "快速添加：创建"
+    }
+  ],
+  "ui-plugin-create-inventory-records.publicationDate": [
+    {
+      "type": 0,
+      "value": "出版日期"
+    }
+  ],
+  "ui-plugin-create-inventory-records.resourceTitle": [
+    {
+      "type": 0,
+      "value": "资源题名"
+    }
+  ],
+  "ui-plugin-create-inventory-records.resourceType": [
+    {
+      "type": 0,
+      "value": "资源类型"
+    }
+  ],
+  "ui-plugin-create-inventory-records.saveAndClose": [
+    {
+      "type": 0,
+      "value": "保存并关闭"
+    }
+  ],
+  "ui-plugin-create-inventory-records.selectInstanceStatus": [
+    {
+      "type": 0,
+      "value": "选择实例状态"
+    }
+  ],
+  "ui-plugin-create-inventory-records.selectLoanType": [
+    {
+      "type": 0,
+      "value": "选择借阅类型"
+    }
+  ],
+  "ui-plugin-create-inventory-records.selectLocation": [
+    {
+      "type": 0,
+      "value": "选择馆藏地"
+    }
+  ],
+  "ui-plugin-create-inventory-records.selectMaterialType": [
+    {
+      "type": 0,
+      "value": "选择资料类型"
+    }
+  ],
+  "ui-plugin-create-inventory-records.selectResourceType": [
+    {
+      "type": 0,
+      "value": "选择资源类型"
+    }
+  ],
+  "ui-plugin-create-inventory-records.selectToContinue": [
+    {
+      "type": 0,
+      "value": "请选择以继续"
+    }
+  ],
+  "ui-plugin-create-inventory-records.selectType": [
+    {
+      "type": 0,
+      "value": "选择类型"
+    }
+  ],
+  "ui-plugin-create-inventory-records.temporaryLocation": [
+    {
+      "type": 0,
+      "value": "临时馆藏地"
+    }
+  ],
   "ui-plugin-find-agreement.agreements": [
     {
       "type": 0,
@@ -57240,7 +60528,7 @@
   "ui-marc-authorities.meta.title": [
     {
       "type": 0,
-      "value": "MARC 權威控制"
+      "value": "MARC Authorities"
     }
   ],
   "ui-marc-authorities.nameTitle": [
@@ -57276,7 +60564,7 @@
   "ui-marc-authorities.permission.app.enabled": [
     {
       "type": 0,
-      "value": "使用者介面：已啟用 MARC 權威控制模組"
+      "value": "UI: MARC Authorities module is enabled"
     }
   ],
   "ui-marc-authorities.permission.authority-record.edit": [
@@ -57495,7 +60783,7 @@
         },
         {
           "type": 1,
-          "value": "caption"
+          "value": "enumeration"
         },
         {
           "type": 0,
@@ -57613,7 +60901,7 @@
         },
         {
           "type": 1,
-          "value": "caption"
+          "value": "enumeration"
         },
         {
           "type": 0,
@@ -57683,7 +60971,7 @@
       "children": [
         {
           "type": 1,
-          "value": "caption"
+          "value": "enumeration"
         },
         {
           "type": 0,
@@ -57711,7 +60999,7 @@
         },
         {
           "type": 1,
-          "value": "caption"
+          "value": "enumeration"
         },
         {
           "type": 0,
@@ -57853,7 +61141,7 @@
         },
         {
           "type": 1,
-          "value": "caption"
+          "value": "enumeration"
         },
         {
           "type": 0,
@@ -57877,7 +61165,7 @@
       "children": [
         {
           "type": 1,
-          "value": "caption"
+          "value": "enumeration"
         },
         {
           "type": 0,
@@ -57917,7 +61205,7 @@
   "ui-receiving.piece.barcode": [
     {
       "type": 0,
-      "value": "条码"
+      "value": "條碼"
     }
   ],
   "ui-receiving.piece.button.addPiece": [
@@ -60955,57 +64243,312 @@
       "value": "Title"
     }
   ],
-  "ui-search.filters.holdingStatus": "館藏狀態",
-  "ui-search.filters.holdingStatus.availableOnline": "可在線上使用",
-  "ui-search.filters.holdingStatus.notAvailable": "不可用",
-  "ui-search.filters.language": "語系",
-  "ui-search.filters.languages.ara": "阿拉伯語",
-  "ui-search.filters.languages.chi": "漢語",
-  "ui-search.filters.languages.eng": "英語",
-  "ui-search.filters.languages.fre": "法語",
-  "ui-search.filters.languages.ger": "德語",
-  "ui-search.filters.languages.rus": "俄語",
-  "ui-search.filters.languages.spa": "西班牙語",
-  "ui-search.filters.location": "館藏地",
-  "ui-search.filters.resourceType": "資源類型",
-  "ui-search.filters.resourceTypes.audio": "錄音資料",
-  "ui-search.filters.resourceTypes.audiobooks": "有聲書",
-  "ui-search.filters.resourceTypes.books": "圖書",
-  "ui-search.filters.resourceTypes.bookseries": "叢書",
-  "ui-search.filters.resourceTypes.databases": "資料庫",
-  "ui-search.filters.resourceTypes.ebooks": "電子書",
-  "ui-search.filters.resourceTypes.kits": "特殊教學資料",
-  "ui-search.filters.resourceTypes.maps": "地圖",
-  "ui-search.filters.resourceTypes.music": "音樂",
-  "ui-search.filters.resourceTypes.newsletters": "通訊",
-  "ui-search.filters.resourceTypes.newspapers": "報紙",
-  "ui-search.filters.resourceTypes.periodicals": "期刊",
-  "ui-search.filters.resourceTypes.posters": "海報",
-  "ui-search.filters.resourceTypes.proceedings": "會議論文集",
-  "ui-search.filters.resourceTypes.reports": "報告",
-  "ui-search.filters.resourceTypes.thesisanddissertation": "學位論文",
-  "ui-search.filters.resourceTypes.unspecified": "未指定",
-  "ui-search.filters.resourceTypes.video": "影片",
-  "ui-search.filters.resourceTypes.webresources": "網路資源",
-  "ui-search.filters.source": "來源",
-  "ui-search.filters.sources.kb": "知識庫",
-  "ui-search.filters.sources.local": "本地",
-  "ui-search.header.contributor": "作者",
-  "ui-search.header.source": "來源",
-  "ui-search.header.title": "題名",
-  "ui-search.meta.title": "Codex 查詢",
-  "ui-search.notLoadedMessage": "輸入查詢以顯示查詢結果",
-  "ui-search.permission.codexsearch": "搜索：可以使用带有所有后端的Codex进行搜索",
-  "ui-search.searchableIndexes.all": "查詢所有欄位",
-  "ui-search.searchableIndexes.classification": "分类",
-  "ui-search.searchableIndexes.contributor": "作者",
-  "ui-search.searchableIndexes.folioId": "FOLIO ID",
-  "ui-search.searchableIndexes.identifier": "識別號",
-  "ui-search.searchableIndexes.isbn": "國際標準書號",
-  "ui-search.searchableIndexes.issn": "國際標準期刊號",
-  "ui-search.searchableIndexes.publisher": "出版者",
-  "ui-search.searchableIndexes.subject": "主题",
-  "ui-search.searchableIndexes.title": "題名",
+  "ui-search.filters.holdingStatus": [
+    {
+      "type": 0,
+      "value": "館藏狀態"
+    }
+  ],
+  "ui-search.filters.holdingStatus.availableOnline": [
+    {
+      "type": 0,
+      "value": "可在線上使用"
+    }
+  ],
+  "ui-search.filters.holdingStatus.notAvailable": [
+    {
+      "type": 0,
+      "value": "不可用"
+    }
+  ],
+  "ui-search.filters.language": [
+    {
+      "type": 0,
+      "value": "語系"
+    }
+  ],
+  "ui-search.filters.languages.ara": [
+    {
+      "type": 0,
+      "value": "阿拉伯語"
+    }
+  ],
+  "ui-search.filters.languages.chi": [
+    {
+      "type": 0,
+      "value": "漢語"
+    }
+  ],
+  "ui-search.filters.languages.eng": [
+    {
+      "type": 0,
+      "value": "英語"
+    }
+  ],
+  "ui-search.filters.languages.fre": [
+    {
+      "type": 0,
+      "value": "法語"
+    }
+  ],
+  "ui-search.filters.languages.ger": [
+    {
+      "type": 0,
+      "value": "德語"
+    }
+  ],
+  "ui-search.filters.languages.rus": [
+    {
+      "type": 0,
+      "value": "俄語"
+    }
+  ],
+  "ui-search.filters.languages.spa": [
+    {
+      "type": 0,
+      "value": "西班牙語"
+    }
+  ],
+  "ui-search.filters.location": [
+    {
+      "type": 0,
+      "value": "館藏地"
+    }
+  ],
+  "ui-search.filters.resourceType": [
+    {
+      "type": 0,
+      "value": "資源類型"
+    }
+  ],
+  "ui-search.filters.resourceTypes.audio": [
+    {
+      "type": 0,
+      "value": "錄音資料"
+    }
+  ],
+  "ui-search.filters.resourceTypes.audiobooks": [
+    {
+      "type": 0,
+      "value": "有聲書"
+    }
+  ],
+  "ui-search.filters.resourceTypes.books": [
+    {
+      "type": 0,
+      "value": "圖書"
+    }
+  ],
+  "ui-search.filters.resourceTypes.bookseries": [
+    {
+      "type": 0,
+      "value": "叢書"
+    }
+  ],
+  "ui-search.filters.resourceTypes.databases": [
+    {
+      "type": 0,
+      "value": "資料庫"
+    }
+  ],
+  "ui-search.filters.resourceTypes.ebooks": [
+    {
+      "type": 0,
+      "value": "電子書"
+    }
+  ],
+  "ui-search.filters.resourceTypes.kits": [
+    {
+      "type": 0,
+      "value": "特殊教學資料"
+    }
+  ],
+  "ui-search.filters.resourceTypes.maps": [
+    {
+      "type": 0,
+      "value": "地圖"
+    }
+  ],
+  "ui-search.filters.resourceTypes.music": [
+    {
+      "type": 0,
+      "value": "音樂"
+    }
+  ],
+  "ui-search.filters.resourceTypes.newsletters": [
+    {
+      "type": 0,
+      "value": "通訊"
+    }
+  ],
+  "ui-search.filters.resourceTypes.newspapers": [
+    {
+      "type": 0,
+      "value": "報紙"
+    }
+  ],
+  "ui-search.filters.resourceTypes.periodicals": [
+    {
+      "type": 0,
+      "value": "期刊"
+    }
+  ],
+  "ui-search.filters.resourceTypes.posters": [
+    {
+      "type": 0,
+      "value": "海報"
+    }
+  ],
+  "ui-search.filters.resourceTypes.proceedings": [
+    {
+      "type": 0,
+      "value": "會議論文集"
+    }
+  ],
+  "ui-search.filters.resourceTypes.reports": [
+    {
+      "type": 0,
+      "value": "報告"
+    }
+  ],
+  "ui-search.filters.resourceTypes.thesisanddissertation": [
+    {
+      "type": 0,
+      "value": "學位論文"
+    }
+  ],
+  "ui-search.filters.resourceTypes.unspecified": [
+    {
+      "type": 0,
+      "value": "未指定"
+    }
+  ],
+  "ui-search.filters.resourceTypes.video": [
+    {
+      "type": 0,
+      "value": "影片"
+    }
+  ],
+  "ui-search.filters.resourceTypes.webresources": [
+    {
+      "type": 0,
+      "value": "網路資源"
+    }
+  ],
+  "ui-search.filters.source": [
+    {
+      "type": 0,
+      "value": "來源"
+    }
+  ],
+  "ui-search.filters.sources.kb": [
+    {
+      "type": 0,
+      "value": "知識庫"
+    }
+  ],
+  "ui-search.filters.sources.local": [
+    {
+      "type": 0,
+      "value": "本地"
+    }
+  ],
+  "ui-search.header.contributor": [
+    {
+      "type": 0,
+      "value": "作者"
+    }
+  ],
+  "ui-search.header.source": [
+    {
+      "type": 0,
+      "value": "來源"
+    }
+  ],
+  "ui-search.header.title": [
+    {
+      "type": 0,
+      "value": "題名"
+    }
+  ],
+  "ui-search.meta.title": [
+    {
+      "type": 0,
+      "value": "Codex 查詢"
+    }
+  ],
+  "ui-search.notLoadedMessage": [
+    {
+      "type": 0,
+      "value": "輸入查詢以顯示查詢結果"
+    }
+  ],
+  "ui-search.permission.codexsearch": [
+    {
+      "type": 0,
+      "value": "搜索：可以使用带有所有后端的Codex进行搜索"
+    }
+  ],
+  "ui-search.searchableIndexes.all": [
+    {
+      "type": 0,
+      "value": "查詢所有欄位"
+    }
+  ],
+  "ui-search.searchableIndexes.classification": [
+    {
+      "type": 0,
+      "value": "分类"
+    }
+  ],
+  "ui-search.searchableIndexes.contributor": [
+    {
+      "type": 0,
+      "value": "作者"
+    }
+  ],
+  "ui-search.searchableIndexes.folioId": [
+    {
+      "type": 0,
+      "value": "FOLIO ID"
+    }
+  ],
+  "ui-search.searchableIndexes.identifier": [
+    {
+      "type": 0,
+      "value": "識別號"
+    }
+  ],
+  "ui-search.searchableIndexes.isbn": [
+    {
+      "type": 0,
+      "value": "國際標準書號"
+    }
+  ],
+  "ui-search.searchableIndexes.issn": [
+    {
+      "type": 0,
+      "value": "國際標準期刊號"
+    }
+  ],
+  "ui-search.searchableIndexes.publisher": [
+    {
+      "type": 0,
+      "value": "出版者"
+    }
+  ],
+  "ui-search.searchableIndexes.subject": [
+    {
+      "type": 0,
+      "value": "主题"
+    }
+  ],
+  "ui-search.searchableIndexes.title": [
+    {
+      "type": 0,
+      "value": "題名"
+    }
+  ],
   "ui-servicepoints.accessDenied.close": "關閉",
   "ui-servicepoints.accessDenied.message": "您必須選擇工作區才能訪問<strong>{displayName}</strong> App。請在<strong>使用者</strong> App 中為為您的使用者帳號新增一個或多個工作區。如果您無法新增，請與管理員聯繫。",
   "ui-servicepoints.accessDenied.title": "存取被拒絕",
@@ -62840,161 +66383,1022 @@
       "value": "標籤"
     }
   ],
-  "ui-tenant-settings.meta.title": "租户",
-  "ui-tenant-settings.permission.module.enabled": "用户界面：租户设置模块已启用",
-  "ui-tenant-settings.permission.settings.addresses": "设置（租户）：可以管理租户地址",
-  "ui-tenant-settings.permission.settings.bursar-exports": "设置（租户）：费用/罚款管理员",
-  "ui-tenant-settings.permission.settings.enabled": "设置（租户）：查看",
-  "ui-tenant-settings.permission.settings.key-bindings": "设置（租户）：可以维护主绑定",
-  "ui-tenant-settings.permission.settings.locale": "设置（租户）：可以编辑语言、本地化和货币",
-  "ui-tenant-settings.permission.settings.location": "设置（租户）：可以创建、编辑和移除馆藏地",
-  "ui-tenant-settings.permission.settings.plugins": "设置（租户）：可以维护首选插件",
-  "ui-tenant-settings.permission.settings.servicepoints": "设置（租户）：可以创建、编辑和移除服务点",
-  "ui-tenant-settings.permission.settings.sso": "设置（租户）：可以维护SSO设置",
-  "ui-tenant-settings.settings.addresses.address": "地址",
-  "ui-tenant-settings.settings.addresses.label": "地址",
-  "ui-tenant-settings.settings.addresses.name": "名稱",
-  "ui-tenant-settings.settings.bindings.label": "Key bindings",
-  "ui-tenant-settings.settings.bindings.provide": "为{actionNames}提供装订",
-  "ui-tenant-settings.settings.general.label": "一般",
-  "ui-tenant-settings.settings.general.saveAndClose": "保存并关闭",
-  "ui-tenant-settings.settings.hiddenDownloadLink": "隐藏下载链接",
-  "ui-tenant-settings.settings.index.paneTitle": "租户",
-  "ui-tenant-settings.settings.intervalPeriod.days": "天",
-  "ui-tenant-settings.settings.intervalPeriod.hours": "小时",
-  "ui-tenant-settings.settings.intervalPeriod.minutes": "分钟",
-  "ui-tenant-settings.settings.intervalPeriod.months": "月",
-  "ui-tenant-settings.settings.intervalPeriod.weeks": "周",
-  "ui-tenant-settings.settings.keyBindings": "将密钥绑定编辑为JSON。",
-  "ui-tenant-settings.settings.language.label": "語系和本地化",
-  "ui-tenant-settings.settings.locale.changeSessionLocale": "更改会话语言环境",
-  "ui-tenant-settings.settings.locale.localeWarning": "此页面上的设置将永久更改所有用户的语言环境（包括语言显示、日期格式和数字格式）。强烈建议您不要在此处更改语言环境，除非您完全确定这是正确的操作。要仅临时更改会话的语言环境，请单击“ {label} ”按钮。",
-  "ui-tenant-settings.settings.localization": "区域设置（用于语言显示，日期格式等）",
-  "ui-tenant-settings.settings.location.campuses": "校區",
-  "ui-tenant-settings.settings.location.campuses.campus": "校區",
-  "ui-tenant-settings.settings.location.campuses.missingSelection": "請選擇一個機構。",
-  "ui-tenant-settings.settings.location.campuses.selectCampus": "選擇校區",
-  "ui-tenant-settings.settings.location.code": "代碼",
-  "ui-tenant-settings.settings.location.institutions": "機構",
-  "ui-tenant-settings.settings.location.institutions.institution": "機構",
-  "ui-tenant-settings.settings.location.institutions.selectInstitution": "選擇機構",
-  "ui-tenant-settings.settings.location.label": "館藏地設定",
-  "ui-tenant-settings.settings.location.libraries": "圖書館",
-  "ui-tenant-settings.settings.location.libraries.library": "圖書館",
-  "ui-tenant-settings.settings.location.libraries.missingSelection": "請選擇一個機構或校區。",
-  "ui-tenant-settings.settings.location.libraries.selectLibrary": "選擇圖書館",
-  "ui-tenant-settings.settings.location.locations": "館藏地",
-  "ui-tenant-settings.settings.location.locations.active": "啟用",
-  "ui-tenant-settings.settings.location.locations.addDetails": "新增",
-  "ui-tenant-settings.settings.location.locations.createLocation": "新增館藏地",
-  "ui-tenant-settings.settings.location.locations.deleteLocation": "删除館藏地 ？",
-  "ui-tenant-settings.settings.location.locations.deleteLocationMessage": "<strong> {name} </strong>将<strong>移除</strong>",
-  "ui-tenant-settings.settings.location.locations.description": "描述",
-  "ui-tenant-settings.settings.location.locations.detailsName": "名稱",
-  "ui-tenant-settings.settings.location.locations.detailsValue": "取值",
-  "ui-tenant-settings.settings.location.locations.discoveryDisplayName": "資源探索服務顯示名稱",
-  "ui-tenant-settings.settings.location.locations.generalInformation": "一般信息",
-  "ui-tenant-settings.settings.location.locations.inactive": "未啟用",
-  "ui-tenant-settings.settings.location.locations.location": "館藏地",
-  "ui-tenant-settings.settings.location.locations.locationDetails": "館藏地詳細資料",
-  "ui-tenant-settings.settings.location.locations.missingSelection": "請選擇一個機構、校區或圖書館。",
-  "ui-tenant-settings.settings.location.locations.name": "FOLIO 名稱",
-  "ui-tenant-settings.settings.location.locations.new": "新館藏地",
-  "ui-tenant-settings.settings.location.locations.primary": "主要地址",
-  "ui-tenant-settings.settings.location.locations.remoteStorage": "远程存储",
-  "ui-tenant-settings.settings.location.locations.returning-workflow.Scanned to CaiaSoft": "Items received at remote storage scanned into CaiaSoft",
-  "ui-tenant-settings.settings.location.locations.returning-workflow.Scanned to folio": "Items received at remote storage scanned into FOLIO",
-  "ui-tenant-settings.settings.location.locations.returning-workflow.title": "Returning workflow preference",
-  "ui-tenant-settings.settings.location.locations.servicePoints": "工作區",
-  "ui-tenant-settings.settings.location.locations.status": "狀態",
-  "ui-tenant-settings.settings.location.locations.untitledLocation": "未命名的館藏地",
-  "ui-tenant-settings.settings.location.locations.validation.code.unique": "館藏地代碼不能重複",
-  "ui-tenant-settings.settings.location.locations.validation.name.unique": "館藏地名稱不能重複",
-  "ui-tenant-settings.settings.location.remotes.failed": "加载失败",
-  "ui-tenant-settings.settings.location.remotes.loading": "载入中...",
-  "ui-tenant-settings.settings.location.remotes.no": "否（默认）",
-  "ui-tenant-settings.settings.location.remotes.readonly": "仅当没有与此馆藏地关联的永久馆藏或单件时才能更改",
-  "ui-tenant-settings.settings.location.remotes.remote": "远程存储",
+  "ui-tenant-settings.meta.title": [
+    {
+      "type": 0,
+      "value": "租户"
+    }
+  ],
+  "ui-tenant-settings.permission.module.enabled": [
+    {
+      "type": 0,
+      "value": "用户界面：租户设置模块已启用"
+    }
+  ],
+  "ui-tenant-settings.permission.settings.addresses": [
+    {
+      "type": 0,
+      "value": "设置（租户）：可以管理租户地址"
+    }
+  ],
+  "ui-tenant-settings.permission.settings.bursar-exports": [
+    {
+      "type": 0,
+      "value": "设置（租户）：费用/罚款管理员"
+    }
+  ],
+  "ui-tenant-settings.permission.settings.enabled": [
+    {
+      "type": 0,
+      "value": "设置（租户）：查看"
+    }
+  ],
+  "ui-tenant-settings.permission.settings.key-bindings": [
+    {
+      "type": 0,
+      "value": "设置（租户）：可以维护主绑定"
+    }
+  ],
+  "ui-tenant-settings.permission.settings.locale": [
+    {
+      "type": 0,
+      "value": "设置（租户）：可以编辑语言、本地化和货币"
+    }
+  ],
+  "ui-tenant-settings.permission.settings.location": [
+    {
+      "type": 0,
+      "value": "设置（租户）：可以创建、编辑和移除馆藏地"
+    }
+  ],
+  "ui-tenant-settings.permission.settings.plugins": [
+    {
+      "type": 0,
+      "value": "设置（租户）：可以维护首选插件"
+    }
+  ],
+  "ui-tenant-settings.permission.settings.servicepoints": [
+    {
+      "type": 0,
+      "value": "设置（租户）：可以创建、编辑和移除服务点"
+    }
+  ],
+  "ui-tenant-settings.permission.settings.sso": [
+    {
+      "type": 0,
+      "value": "设置（租户）：可以维护SSO设置"
+    }
+  ],
+  "ui-tenant-settings.settings.addresses.address": [
+    {
+      "type": 0,
+      "value": "地址"
+    }
+  ],
+  "ui-tenant-settings.settings.addresses.label": [
+    {
+      "type": 0,
+      "value": "地址"
+    }
+  ],
+  "ui-tenant-settings.settings.addresses.name": [
+    {
+      "type": 0,
+      "value": "名稱"
+    }
+  ],
+  "ui-tenant-settings.settings.bindings.label": [
+    {
+      "type": 0,
+      "value": "Key bindings"
+    }
+  ],
+  "ui-tenant-settings.settings.bindings.provide": [
+    {
+      "type": 0,
+      "value": "为"
+    },
+    {
+      "type": 1,
+      "value": "actionNames"
+    },
+    {
+      "type": 0,
+      "value": "提供装订"
+    }
+  ],
+  "ui-tenant-settings.settings.general.label": [
+    {
+      "type": 0,
+      "value": "一般"
+    }
+  ],
+  "ui-tenant-settings.settings.general.saveAndClose": [
+    {
+      "type": 0,
+      "value": "保存并关闭"
+    }
+  ],
+  "ui-tenant-settings.settings.hiddenDownloadLink": [
+    {
+      "type": 0,
+      "value": "隐藏下载链接"
+    }
+  ],
+  "ui-tenant-settings.settings.index.paneTitle": [
+    {
+      "type": 0,
+      "value": "租户"
+    }
+  ],
+  "ui-tenant-settings.settings.intervalPeriod.days": [
+    {
+      "type": 0,
+      "value": "天"
+    }
+  ],
+  "ui-tenant-settings.settings.intervalPeriod.hours": [
+    {
+      "type": 0,
+      "value": "小时"
+    }
+  ],
+  "ui-tenant-settings.settings.intervalPeriod.minutes": [
+    {
+      "type": 0,
+      "value": "分钟"
+    }
+  ],
+  "ui-tenant-settings.settings.intervalPeriod.months": [
+    {
+      "type": 0,
+      "value": "月"
+    }
+  ],
+  "ui-tenant-settings.settings.intervalPeriod.weeks": [
+    {
+      "type": 0,
+      "value": "周"
+    }
+  ],
+  "ui-tenant-settings.settings.keyBindings": [
+    {
+      "type": 0,
+      "value": "将密钥绑定编辑为JSON。"
+    }
+  ],
+  "ui-tenant-settings.settings.language.label": [
+    {
+      "type": 0,
+      "value": "語系和本地化"
+    }
+  ],
+  "ui-tenant-settings.settings.locale.changeSessionLocale": [
+    {
+      "type": 0,
+      "value": "更改会话语言环境"
+    }
+  ],
+  "ui-tenant-settings.settings.locale.localeWarning": [
+    {
+      "type": 0,
+      "value": "此页面上的设置将永久更改所有用户的语言环境（包括语言显示、日期格式和数字格式）。强烈建议您不要在此处更改语言环境，除非您完全确定这是正确的操作。要仅临时更改会话的语言环境，请单击“ "
+    },
+    {
+      "type": 1,
+      "value": "label"
+    },
+    {
+      "type": 0,
+      "value": " ”按钮。"
+    }
+  ],
+  "ui-tenant-settings.settings.localization": [
+    {
+      "type": 0,
+      "value": "区域设置（用于语言显示，日期格式等）"
+    }
+  ],
+  "ui-tenant-settings.settings.location.campuses": [
+    {
+      "type": 0,
+      "value": "校區"
+    }
+  ],
+  "ui-tenant-settings.settings.location.campuses.campus": [
+    {
+      "type": 0,
+      "value": "校區"
+    }
+  ],
+  "ui-tenant-settings.settings.location.campuses.missingSelection": [
+    {
+      "type": 0,
+      "value": "請選擇一個機構。"
+    }
+  ],
+  "ui-tenant-settings.settings.location.campuses.selectCampus": [
+    {
+      "type": 0,
+      "value": "選擇校區"
+    }
+  ],
+  "ui-tenant-settings.settings.location.code": [
+    {
+      "type": 0,
+      "value": "代碼"
+    }
+  ],
+  "ui-tenant-settings.settings.location.institutions": [
+    {
+      "type": 0,
+      "value": "機構"
+    }
+  ],
+  "ui-tenant-settings.settings.location.institutions.institution": [
+    {
+      "type": 0,
+      "value": "機構"
+    }
+  ],
+  "ui-tenant-settings.settings.location.institutions.selectInstitution": [
+    {
+      "type": 0,
+      "value": "選擇機構"
+    }
+  ],
+  "ui-tenant-settings.settings.location.label": [
+    {
+      "type": 0,
+      "value": "館藏地設定"
+    }
+  ],
+  "ui-tenant-settings.settings.location.libraries": [
+    {
+      "type": 0,
+      "value": "圖書館"
+    }
+  ],
+  "ui-tenant-settings.settings.location.libraries.library": [
+    {
+      "type": 0,
+      "value": "圖書館"
+    }
+  ],
+  "ui-tenant-settings.settings.location.libraries.missingSelection": [
+    {
+      "type": 0,
+      "value": "請選擇一個機構或校區。"
+    }
+  ],
+  "ui-tenant-settings.settings.location.libraries.selectLibrary": [
+    {
+      "type": 0,
+      "value": "選擇圖書館"
+    }
+  ],
+  "ui-tenant-settings.settings.location.locations": [
+    {
+      "type": 0,
+      "value": "館藏地"
+    }
+  ],
+  "ui-tenant-settings.settings.location.locations.active": [
+    {
+      "type": 0,
+      "value": "啟用"
+    }
+  ],
+  "ui-tenant-settings.settings.location.locations.addDetails": [
+    {
+      "type": 0,
+      "value": "新增"
+    }
+  ],
+  "ui-tenant-settings.settings.location.locations.createLocation": [
+    {
+      "type": 0,
+      "value": "新增館藏地"
+    }
+  ],
+  "ui-tenant-settings.settings.location.locations.deleteLocation": [
+    {
+      "type": 0,
+      "value": "删除館藏地 ？"
+    }
+  ],
+  "ui-tenant-settings.settings.location.locations.deleteLocationMessage": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "name"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": "将"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "移除"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    }
+  ],
+  "ui-tenant-settings.settings.location.locations.description": [
+    {
+      "type": 0,
+      "value": "描述"
+    }
+  ],
+  "ui-tenant-settings.settings.location.locations.detailsName": [
+    {
+      "type": 0,
+      "value": "名稱"
+    }
+  ],
+  "ui-tenant-settings.settings.location.locations.detailsValue": [
+    {
+      "type": 0,
+      "value": "取值"
+    }
+  ],
+  "ui-tenant-settings.settings.location.locations.discoveryDisplayName": [
+    {
+      "type": 0,
+      "value": "資源探索服務顯示名稱"
+    }
+  ],
+  "ui-tenant-settings.settings.location.locations.generalInformation": [
+    {
+      "type": 0,
+      "value": "一般信息"
+    }
+  ],
+  "ui-tenant-settings.settings.location.locations.inactive": [
+    {
+      "type": 0,
+      "value": "未啟用"
+    }
+  ],
+  "ui-tenant-settings.settings.location.locations.location": [
+    {
+      "type": 0,
+      "value": "館藏地"
+    }
+  ],
+  "ui-tenant-settings.settings.location.locations.locationDetails": [
+    {
+      "type": 0,
+      "value": "館藏地詳細資料"
+    }
+  ],
+  "ui-tenant-settings.settings.location.locations.missingSelection": [
+    {
+      "type": 0,
+      "value": "請選擇一個機構、校區或圖書館。"
+    }
+  ],
+  "ui-tenant-settings.settings.location.locations.name": [
+    {
+      "type": 0,
+      "value": "FOLIO 名稱"
+    }
+  ],
+  "ui-tenant-settings.settings.location.locations.new": [
+    {
+      "type": 0,
+      "value": "新館藏地"
+    }
+  ],
+  "ui-tenant-settings.settings.location.locations.primary": [
+    {
+      "type": 0,
+      "value": "主要地址"
+    }
+  ],
+  "ui-tenant-settings.settings.location.locations.remoteStorage": [
+    {
+      "type": 0,
+      "value": "远程存储"
+    }
+  ],
+  "ui-tenant-settings.settings.location.locations.returning-workflow.Scanned to CaiaSoft": [
+    {
+      "type": 0,
+      "value": "Items received at remote storage scanned into CaiaSoft"
+    }
+  ],
+  "ui-tenant-settings.settings.location.locations.returning-workflow.Scanned to folio": [
+    {
+      "type": 0,
+      "value": "Items received at remote storage scanned into FOLIO"
+    }
+  ],
+  "ui-tenant-settings.settings.location.locations.returning-workflow.title": [
+    {
+      "type": 0,
+      "value": "Returning workflow preference"
+    }
+  ],
+  "ui-tenant-settings.settings.location.locations.servicePoints": [
+    {
+      "type": 0,
+      "value": "工作區"
+    }
+  ],
+  "ui-tenant-settings.settings.location.locations.status": [
+    {
+      "type": 0,
+      "value": "狀態"
+    }
+  ],
+  "ui-tenant-settings.settings.location.locations.untitledLocation": [
+    {
+      "type": 0,
+      "value": "未命名的館藏地"
+    }
+  ],
+  "ui-tenant-settings.settings.location.locations.validation.code.unique": [
+    {
+      "type": 0,
+      "value": "館藏地代碼不能重複"
+    }
+  ],
+  "ui-tenant-settings.settings.location.locations.validation.name.unique": [
+    {
+      "type": 0,
+      "value": "館藏地名稱不能重複"
+    }
+  ],
+  "ui-tenant-settings.settings.location.remotes.failed": [
+    {
+      "type": 0,
+      "value": "加载失败"
+    }
+  ],
+  "ui-tenant-settings.settings.location.remotes.loading": [
+    {
+      "type": 0,
+      "value": "载入中..."
+    }
+  ],
+  "ui-tenant-settings.settings.location.remotes.no": [
+    {
+      "type": 0,
+      "value": "否（默认）"
+    }
+  ],
+  "ui-tenant-settings.settings.location.remotes.readonly": [
+    {
+      "type": 0,
+      "value": "仅当没有与此馆藏地关联的永久馆藏或单件时才能更改"
+    }
+  ],
+  "ui-tenant-settings.settings.location.remotes.remote": [
+    {
+      "type": 0,
+      "value": "远程存储"
+    }
+  ],
   "ui-tenant-settings.settings.numberingSystem": [
     {
       "type": 0,
       "value": "Numbering system"
     }
   ],
-  "ui-tenant-settings.settings.pluginNames.create-inventory-records": "创建典藏记录",
-  "ui-tenant-settings.settings.pluginNames.create-item": "创建单件",
-  "ui-tenant-settings.settings.pluginNames.find-agreement": "查找协议",
-  "ui-tenant-settings.settings.pluginNames.find-contact": "查找联络人",
-  "ui-tenant-settings.settings.pluginNames.find-eresource": "查找电子资源",
-  "ui-tenant-settings.settings.pluginNames.find-erm-usage-data-provider": "查找ERM使用元数据提供者",
-  "ui-tenant-settings.settings.pluginNames.find-finc-metadata-collection": "查找财务元数据集合",
-  "ui-tenant-settings.settings.pluginNames.find-finc-metadata-source": "查找財務詮釋資料來源",
-  "ui-tenant-settings.settings.pluginNames.find-import-profile": "查找导入配置文件",
-  "ui-tenant-settings.settings.pluginNames.find-instance": "查找实例",
-  "ui-tenant-settings.settings.pluginNames.find-interface": "查找界面",
-  "ui-tenant-settings.settings.pluginNames.find-license": "查找许可证",
-  "ui-tenant-settings.settings.pluginNames.find-organization": "查找组织",
-  "ui-tenant-settings.settings.pluginNames.find-package-title": "查找资源包标题",
-  "ui-tenant-settings.settings.pluginNames.find-po-line": "查找采购订单行",
-  "ui-tenant-settings.settings.pluginNames.find-user": "查找用户",
-  "ui-tenant-settings.settings.plugins.label": "偏好的外掛程式",
-  "ui-tenant-settings.settings.primaryCurrency": "主要货币（用于显示的货币符号）",
-  "ui-tenant-settings.settings.saml.attribute": "SAML 屬性",
-  "ui-tenant-settings.settings.saml.binding": "SAML 綁定*",
-  "ui-tenant-settings.settings.saml.downloadMetadata": "下載詮釋資料",
-  "ui-tenant-settings.settings.saml.idpUrl": "身份提供者 URL",
-  "ui-tenant-settings.settings.saml.idpUrlChanged": "自上次下載以來，IdP URL 已更改。請下載服務點詮釋資料，然後重新上傳到 IdP。",
-  "ui-tenant-settings.settings.saml.userProperty": "使用者屬性 *",
-  "ui-tenant-settings.settings.saml.validate.binding": "請選擇 SAML 綁定類型",
-  "ui-tenant-settings.settings.saml.validate.fillIn": "请填写此内容以继续",
-  "ui-tenant-settings.settings.saml.validate.idpUrl": "这不是有效的身份提供者URL",
-  "ui-tenant-settings.settings.saml.validate.userProperty": "請選擇一個使用者屬性",
-  "ui-tenant-settings.settings.save.error.network": "紀錄未儲存",
-  "ui-tenant-settings.settings.servicePoint.expirationPeriod": "预约书架到期有效期",
-  "ui-tenant-settings.settings.servicePoint.selectInterval": "选择间隔",
-  "ui-tenant-settings.settings.servicePoints.addLocation": "新增館藏地",
-  "ui-tenant-settings.settings.servicePoints.assignedLocations": "已分配馆藏地",
-  "ui-tenant-settings.settings.servicePoints.closeServicePointDialog": "關閉",
-  "ui-tenant-settings.settings.servicePoints.code": "服务点编码",
-  "ui-tenant-settings.settings.servicePoints.createServicePoint": "创建",
-  "ui-tenant-settings.settings.servicePoints.delete": "删除",
-  "ui-tenant-settings.settings.servicePoints.deleteServicePoint": "刪除工作區",
-  "ui-tenant-settings.settings.servicePoints.deleteServicePointMessage": "工作區 <strong> {name} </strong> 將 <strong>被刪除</strong>。",
-  "ui-tenant-settings.settings.servicePoints.deleteServicePointWithLocsMessage": "<strong>{name} 与一个或多个馆藏地相关联</strong>。确定移除<strong>{name} 吗？</strong>",
-  "ui-tenant-settings.settings.servicePoints.description": "描述",
-  "ui-tenant-settings.settings.servicePoints.disallowDeleteServicePoint": "無法刪除工作區",
-  "ui-tenant-settings.settings.servicePoints.disallowDeleteServicePointMessage": "无法删除此服务点，因为它是一个或多个馆藏地的主要服务点。",
-  "ui-tenant-settings.settings.servicePoints.discoveryDisplayName": "資源探索服務顯示名稱",
-  "ui-tenant-settings.settings.servicePoints.edit": "編輯",
-  "ui-tenant-settings.settings.servicePoints.feeFineOwner": "费用/罚款缴费处",
-  "ui-tenant-settings.settings.servicePoints.generalInformation": "概况",
-  "ui-tenant-settings.settings.servicePoints.label": "工作區",
-  "ui-tenant-settings.settings.servicePoints.location": "館藏地",
-  "ui-tenant-settings.settings.servicePoints.name": "名稱",
-  "ui-tenant-settings.settings.servicePoints.new": "新工作區",
-  "ui-tenant-settings.settings.servicePoints.noLocationsFound": "沒有找到館藏地",
-  "ui-tenant-settings.settings.servicePoints.ok": "确定",
-  "ui-tenant-settings.settings.servicePoints.pickupLocation": "取件位置",
-  "ui-tenant-settings.settings.servicePoints.pickupLocation.no": "否",
-  "ui-tenant-settings.settings.servicePoints.pickupLocation.yes": "是",
-  "ui-tenant-settings.settings.servicePoints.primary": "主要",
-  "ui-tenant-settings.settings.servicePoints.printByDefault": "默认打印",
-  "ui-tenant-settings.settings.servicePoints.printSlip.no": "{name} - 否",
-  "ui-tenant-settings.settings.servicePoints.printSlip.yes": "{name} - 是",
-  "ui-tenant-settings.settings.servicePoints.saveAndClose": "儲存並關閉",
-  "ui-tenant-settings.settings.servicePoints.selectLocation": "選擇館藏地名稱或代碼",
-  "ui-tenant-settings.settings.servicePoints.shelvingLagTime": "排架延迟时间 (分钟)",
-  "ui-tenant-settings.settings.servicePoints.stripes-core.button.cancel": "取消",
-  "ui-tenant-settings.settings.servicePoints.untitledServicePoint": "工作區名稱",
-  "ui-tenant-settings.settings.servicePoints.validation.code.unique": "代碼不能重複",
-  "ui-tenant-settings.settings.servicePoints.validation.name.unique": "工作區名稱不能重複",
-  "ui-tenant-settings.settings.servicePoints.validation.numeric": "輸入一個數字繼續",
-  "ui-tenant-settings.settings.servicePoints.validation.required": "请填写此内容后继续",
-  "ui-tenant-settings.settings.shelvingLocations.label": "排架位置",
-  "ui-tenant-settings.settings.ssoSettings.label": "單一登入設定",
-  "ui-tenant-settings.settings.timeZonePicker": "时区（显示时间信息时使用的时区）",
-  "ui-tenant-settings.settings.updated": "设置已成功更新。",
-  "ui-tenant-settings.settings.validate.greaterThanZero": "该值必须为整数且大于0",
+  "ui-tenant-settings.settings.pluginNames.create-inventory-records": [
+    {
+      "type": 0,
+      "value": "创建典藏记录"
+    }
+  ],
+  "ui-tenant-settings.settings.pluginNames.create-item": [
+    {
+      "type": 0,
+      "value": "创建单件"
+    }
+  ],
+  "ui-tenant-settings.settings.pluginNames.find-agreement": [
+    {
+      "type": 0,
+      "value": "查找协议"
+    }
+  ],
+  "ui-tenant-settings.settings.pluginNames.find-contact": [
+    {
+      "type": 0,
+      "value": "查找联络人"
+    }
+  ],
+  "ui-tenant-settings.settings.pluginNames.find-eresource": [
+    {
+      "type": 0,
+      "value": "查找电子资源"
+    }
+  ],
+  "ui-tenant-settings.settings.pluginNames.find-erm-usage-data-provider": [
+    {
+      "type": 0,
+      "value": "查找ERM使用元数据提供者"
+    }
+  ],
+  "ui-tenant-settings.settings.pluginNames.find-finc-metadata-collection": [
+    {
+      "type": 0,
+      "value": "查找财务元数据集合"
+    }
+  ],
+  "ui-tenant-settings.settings.pluginNames.find-finc-metadata-source": [
+    {
+      "type": 0,
+      "value": "查找財務詮釋資料來源"
+    }
+  ],
+  "ui-tenant-settings.settings.pluginNames.find-import-profile": [
+    {
+      "type": 0,
+      "value": "查找导入配置文件"
+    }
+  ],
+  "ui-tenant-settings.settings.pluginNames.find-instance": [
+    {
+      "type": 0,
+      "value": "查找实例"
+    }
+  ],
+  "ui-tenant-settings.settings.pluginNames.find-interface": [
+    {
+      "type": 0,
+      "value": "查找界面"
+    }
+  ],
+  "ui-tenant-settings.settings.pluginNames.find-license": [
+    {
+      "type": 0,
+      "value": "查找许可证"
+    }
+  ],
+  "ui-tenant-settings.settings.pluginNames.find-organization": [
+    {
+      "type": 0,
+      "value": "查找组织"
+    }
+  ],
+  "ui-tenant-settings.settings.pluginNames.find-package-title": [
+    {
+      "type": 0,
+      "value": "查找资源包标题"
+    }
+  ],
+  "ui-tenant-settings.settings.pluginNames.find-po-line": [
+    {
+      "type": 0,
+      "value": "查找采购订单行"
+    }
+  ],
+  "ui-tenant-settings.settings.pluginNames.find-user": [
+    {
+      "type": 0,
+      "value": "查找用户"
+    }
+  ],
+  "ui-tenant-settings.settings.plugins.label": [
+    {
+      "type": 0,
+      "value": "偏好的外掛程式"
+    }
+  ],
+  "ui-tenant-settings.settings.primaryCurrency": [
+    {
+      "type": 0,
+      "value": "主要货币（用于显示的货币符号）"
+    }
+  ],
+  "ui-tenant-settings.settings.saml.attribute": [
+    {
+      "type": 0,
+      "value": "SAML 屬性"
+    }
+  ],
+  "ui-tenant-settings.settings.saml.binding": [
+    {
+      "type": 0,
+      "value": "SAML 綁定*"
+    }
+  ],
+  "ui-tenant-settings.settings.saml.downloadMetadata": [
+    {
+      "type": 0,
+      "value": "下載詮釋資料"
+    }
+  ],
+  "ui-tenant-settings.settings.saml.idpUrl": [
+    {
+      "type": 0,
+      "value": "身份提供者 URL"
+    }
+  ],
+  "ui-tenant-settings.settings.saml.idpUrlChanged": [
+    {
+      "type": 0,
+      "value": "自上次下載以來，IdP URL 已更改。請下載服務點詮釋資料，然後重新上傳到 IdP。"
+    }
+  ],
+  "ui-tenant-settings.settings.saml.userProperty": [
+    {
+      "type": 0,
+      "value": "使用者屬性 *"
+    }
+  ],
+  "ui-tenant-settings.settings.saml.validate.binding": [
+    {
+      "type": 0,
+      "value": "請選擇 SAML 綁定類型"
+    }
+  ],
+  "ui-tenant-settings.settings.saml.validate.fillIn": [
+    {
+      "type": 0,
+      "value": "请填写此内容以继续"
+    }
+  ],
+  "ui-tenant-settings.settings.saml.validate.idpUrl": [
+    {
+      "type": 0,
+      "value": "这不是有效的身份提供者URL"
+    }
+  ],
+  "ui-tenant-settings.settings.saml.validate.userProperty": [
+    {
+      "type": 0,
+      "value": "請選擇一個使用者屬性"
+    }
+  ],
+  "ui-tenant-settings.settings.save.error.network": [
+    {
+      "type": 0,
+      "value": "紀錄未儲存"
+    }
+  ],
+  "ui-tenant-settings.settings.servicePoint.expirationPeriod": [
+    {
+      "type": 0,
+      "value": "预约书架到期有效期"
+    }
+  ],
+  "ui-tenant-settings.settings.servicePoint.selectInterval": [
+    {
+      "type": 0,
+      "value": "选择间隔"
+    }
+  ],
+  "ui-tenant-settings.settings.servicePoints.addLocation": [
+    {
+      "type": 0,
+      "value": "新增館藏地"
+    }
+  ],
+  "ui-tenant-settings.settings.servicePoints.assignedLocations": [
+    {
+      "type": 0,
+      "value": "已分配馆藏地"
+    }
+  ],
+  "ui-tenant-settings.settings.servicePoints.closeServicePointDialog": [
+    {
+      "type": 0,
+      "value": "關閉"
+    }
+  ],
+  "ui-tenant-settings.settings.servicePoints.code": [
+    {
+      "type": 0,
+      "value": "服务点编码"
+    }
+  ],
+  "ui-tenant-settings.settings.servicePoints.createServicePoint": [
+    {
+      "type": 0,
+      "value": "创建"
+    }
+  ],
+  "ui-tenant-settings.settings.servicePoints.delete": [
+    {
+      "type": 0,
+      "value": "删除"
+    }
+  ],
+  "ui-tenant-settings.settings.servicePoints.deleteServicePoint": [
+    {
+      "type": 0,
+      "value": "刪除工作區"
+    }
+  ],
+  "ui-tenant-settings.settings.servicePoints.deleteServicePointMessage": [
+    {
+      "type": 0,
+      "value": "工作區 "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "name"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " 將 "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "被刪除"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": "。"
+    }
+  ],
+  "ui-tenant-settings.settings.servicePoints.deleteServicePointWithLocsMessage": [
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "name"
+        },
+        {
+          "type": 0,
+          "value": " 与一个或多个馆藏地相关联"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": "。确定移除"
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "name"
+        },
+        {
+          "type": 0,
+          "value": " 吗？"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    }
+  ],
+  "ui-tenant-settings.settings.servicePoints.description": [
+    {
+      "type": 0,
+      "value": "描述"
+    }
+  ],
+  "ui-tenant-settings.settings.servicePoints.disallowDeleteServicePoint": [
+    {
+      "type": 0,
+      "value": "無法刪除工作區"
+    }
+  ],
+  "ui-tenant-settings.settings.servicePoints.disallowDeleteServicePointMessage": [
+    {
+      "type": 0,
+      "value": "无法删除此服务点，因为它是一个或多个馆藏地的主要服务点。"
+    }
+  ],
+  "ui-tenant-settings.settings.servicePoints.discoveryDisplayName": [
+    {
+      "type": 0,
+      "value": "資源探索服務顯示名稱"
+    }
+  ],
+  "ui-tenant-settings.settings.servicePoints.edit": [
+    {
+      "type": 0,
+      "value": "編輯"
+    }
+  ],
+  "ui-tenant-settings.settings.servicePoints.feeFineOwner": [
+    {
+      "type": 0,
+      "value": "费用/罚款缴费处"
+    }
+  ],
+  "ui-tenant-settings.settings.servicePoints.generalInformation": [
+    {
+      "type": 0,
+      "value": "概况"
+    }
+  ],
+  "ui-tenant-settings.settings.servicePoints.label": [
+    {
+      "type": 0,
+      "value": "工作區"
+    }
+  ],
+  "ui-tenant-settings.settings.servicePoints.location": [
+    {
+      "type": 0,
+      "value": "館藏地"
+    }
+  ],
+  "ui-tenant-settings.settings.servicePoints.name": [
+    {
+      "type": 0,
+      "value": "名稱"
+    }
+  ],
+  "ui-tenant-settings.settings.servicePoints.new": [
+    {
+      "type": 0,
+      "value": "新工作區"
+    }
+  ],
+  "ui-tenant-settings.settings.servicePoints.noLocationsFound": [
+    {
+      "type": 0,
+      "value": "沒有找到館藏地"
+    }
+  ],
+  "ui-tenant-settings.settings.servicePoints.ok": [
+    {
+      "type": 0,
+      "value": "确定"
+    }
+  ],
+  "ui-tenant-settings.settings.servicePoints.pickupLocation": [
+    {
+      "type": 0,
+      "value": "取件位置"
+    }
+  ],
+  "ui-tenant-settings.settings.servicePoints.pickupLocation.no": [
+    {
+      "type": 0,
+      "value": "否"
+    }
+  ],
+  "ui-tenant-settings.settings.servicePoints.pickupLocation.yes": [
+    {
+      "type": 0,
+      "value": "是"
+    }
+  ],
+  "ui-tenant-settings.settings.servicePoints.primary": [
+    {
+      "type": 0,
+      "value": "主要"
+    }
+  ],
+  "ui-tenant-settings.settings.servicePoints.printByDefault": [
+    {
+      "type": 0,
+      "value": "默认打印"
+    }
+  ],
+  "ui-tenant-settings.settings.servicePoints.printSlip.no": [
+    {
+      "type": 1,
+      "value": "name"
+    },
+    {
+      "type": 0,
+      "value": " - 否"
+    }
+  ],
+  "ui-tenant-settings.settings.servicePoints.printSlip.yes": [
+    {
+      "type": 1,
+      "value": "name"
+    },
+    {
+      "type": 0,
+      "value": " - 是"
+    }
+  ],
+  "ui-tenant-settings.settings.servicePoints.saveAndClose": [
+    {
+      "type": 0,
+      "value": "儲存並關閉"
+    }
+  ],
+  "ui-tenant-settings.settings.servicePoints.selectLocation": [
+    {
+      "type": 0,
+      "value": "選擇館藏地名稱或代碼"
+    }
+  ],
+  "ui-tenant-settings.settings.servicePoints.shelvingLagTime": [
+    {
+      "type": 0,
+      "value": "排架延迟时间 (分钟)"
+    }
+  ],
+  "ui-tenant-settings.settings.servicePoints.stripes-core.button.cancel": [
+    {
+      "type": 0,
+      "value": "取消"
+    }
+  ],
+  "ui-tenant-settings.settings.servicePoints.untitledServicePoint": [
+    {
+      "type": 0,
+      "value": "工作區名稱"
+    }
+  ],
+  "ui-tenant-settings.settings.servicePoints.validation.code.unique": [
+    {
+      "type": 0,
+      "value": "代碼不能重複"
+    }
+  ],
+  "ui-tenant-settings.settings.servicePoints.validation.name.unique": [
+    {
+      "type": 0,
+      "value": "工作區名稱不能重複"
+    }
+  ],
+  "ui-tenant-settings.settings.servicePoints.validation.numeric": [
+    {
+      "type": 0,
+      "value": "輸入一個數字繼續"
+    }
+  ],
+  "ui-tenant-settings.settings.servicePoints.validation.required": [
+    {
+      "type": 0,
+      "value": "请填写此内容后继续"
+    }
+  ],
+  "ui-tenant-settings.settings.shelvingLocations.label": [
+    {
+      "type": 0,
+      "value": "排架位置"
+    }
+  ],
+  "ui-tenant-settings.settings.ssoSettings.label": [
+    {
+      "type": 0,
+      "value": "單一登入設定"
+    }
+  ],
+  "ui-tenant-settings.settings.timeZonePicker": [
+    {
+      "type": 0,
+      "value": "时区（显示时间信息时使用的时区）"
+    }
+  ],
+  "ui-tenant-settings.settings.updated": [
+    {
+      "type": 0,
+      "value": "设置已成功更新。"
+    }
+  ],
+  "ui-tenant-settings.settings.validate.greaterThanZero": [
+    {
+      "type": 0,
+      "value": "该值必须为整数且大于0"
+    }
+  ],
   "ui-users.accounts.actions.calloutMessage": [
     {
       "type": 0,
@@ -66645,7 +71049,7 @@
   "ui-users.index.barcode": [
     {
       "type": 0,
-      "value": "条码"
+      "value": "條碼"
     }
   ],
   "ui-users.index.lastName": [
@@ -69452,7 +73856,7 @@
   "ui-users.reports.feeFine.patronBarcode": [
     {
       "type": 0,
-      "value": "读者条码"
+      "value": "讀者條碼"
     }
   ],
   "ui-users.reports.feeFine.patronGroup": [
@@ -69804,7 +74208,7 @@
   "ui-users.reports.item.barcode": [
     {
       "type": 0,
-      "value": "条码"
+      "value": "條碼"
     }
   ],
   "ui-users.reports.item.callNumberComponents.callNumber": [
@@ -70044,7 +74448,7 @@
   "ui-users.reports.refunds.patronBarcode": [
     {
       "type": 0,
-      "value": "读者条码"
+      "value": "條碼"
     }
   ],
   "ui-users.reports.refunds.patronGroup": [
