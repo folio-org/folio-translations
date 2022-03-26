@@ -49972,7 +49972,21 @@
   "ui-orders.errors.fundCannotBePaid": [
     {
       "type": 0,
-      "value": "One or more fund distributions on this order can not be encumbered, because there is not enough money in the budget"
+      "value": "One or more fund distributions on this order can not be encumbered, because there is not enough money in "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "fundCodes"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "."
     }
   ],
   "ui-orders.errors.fundsNotFound": [
@@ -76185,6 +76199,24 @@
     {
       "type": 0,
       "value": "Date opened"
+    }
+  ],
+  "ui-inventory.moveItems.selectHolding": [
+    {
+      "type": 0,
+      "value": "Select/unselect holding for movement"
+    }
+  ],
+  "ui-orders.print.shipTo": [
+    {
+      "type": 0,
+      "value": "Ship to address"
+    }
+  ],
+  "ui-users.errors.permissionChangeFailed": [
+    {
+      "type": 0,
+      "value": "Permissions were not changed"
     }
   ]
 }
