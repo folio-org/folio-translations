@@ -11498,7 +11498,7 @@
   "ui-circulation-log.filter.apply": [
     {
       "type": 0,
-      "value": "Apply"
+      "value": "適用"
     }
   ],
   "ui-circulation-log.logEvent.action": [
@@ -11648,13 +11648,13 @@
   "ui-circulation-log.logEvent.action.Paid fully": [
     {
       "type": 0,
-      "value": "Paid fully"
+      "value": "全額支払い済み"
     }
   ],
   "ui-circulation-log.logEvent.action.Paid partially": [
     {
       "type": 0,
-      "value": "Paid partially"
+      "value": "一部支払い済み"
     }
   ],
   "ui-circulation-log.logEvent.action.Patron blocked from requesting": [
@@ -44855,7 +44855,7 @@
   "ui-ldp.button.download-csv": "Download as CSV",
   "ui-ldp.button.add-join-table": "Add join table",
   "ui-ldp.button.save": "Save",
-  "ui-ldp.button.cancel": "Cancel",
+  "ui-ldp.button.cancel": "キャンセル",
   "ui-ldp.found-records": "Found {count} records",
   "ui-ldp.found-more-than": "Found more than {count} records",
   "ui-ldp.label.start-date": "Start date",
@@ -44865,7 +44865,7 @@
   "ui-ldp.saved-queries.autoRun": "Auto-run?",
   "ui-ldp.saved-queries.creator": "Creator",
   "ui-ldp.saved-queries.created": "Date created",
-  "ui-ldp.saved-queries.comment": "Comment",
+  "ui-ldp.saved-queries.comment": "コメント",
   "ui-ldp.save-query": "Save query",
   "ui-ldp.save-query.update.ok": "Saved query {displayName}",
   "ui-ldp.save-query.update.fail": "Could not save query {displayName}: error {code} ({statusText}): {detail}",
@@ -76425,6 +76425,20 @@
     {
       "type": 0,
       "value": "Select a browse option"
+    }
+  ],
+  "ui-ldp.saved-queries.delete.deleteQuery": "Delete query?",
+  "ui-ldp.saved-queries.delete.createdBy": "Created by <code>{creator}</code>",
+  "ui-ldp.saved-queries.delete.confirm": "Confirm",
+  "ui-ldp.saved-queries.delete.deleted": "Deleted query <code>{name}</code>. Note that it may take some time before the query is no longer visible in the list.",
+  "ui-requests.requests": [
+    {
+      "type": 1,
+      "value": "number"
+    },
+    {
+      "type": 0,
+      "value": " requests"
     }
   ]
 }

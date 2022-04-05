@@ -44732,9 +44732,9 @@
   "ui-ldp.button.submit": "Submit",
   "ui-ldp.button.clear": "Clear",
   "ui-ldp.button.csv": "CSV",
-  "ui-ldp.button.download-csv": "Download as CSV",
+  "ui-ldp.button.download-csv": "Scarica come CSV",
   "ui-ldp.button.add-join-table": "Add join table",
-  "ui-ldp.button.save": "Save",
+  "ui-ldp.button.save": "Salva",
   "ui-ldp.button.cancel": "Cancel",
   "ui-ldp.found-records": "Found {count} records",
   "ui-ldp.found-more-than": "Found more than {count} records",
@@ -76225,6 +76225,20 @@
     {
       "type": 0,
       "value": "Select a browse option"
+    }
+  ],
+  "ui-ldp.saved-queries.delete.deleteQuery": "Delete query?",
+  "ui-ldp.saved-queries.delete.createdBy": "Created by <code>{creator}</code>",
+  "ui-ldp.saved-queries.delete.confirm": "Confirm",
+  "ui-ldp.saved-queries.delete.deleted": "Deleted query <code>{name}</code>. Note that it may take some time before the query is no longer visible in the list.",
+  "ui-requests.requests": [
+    {
+      "type": 1,
+      "value": "number"
+    },
+    {
+      "type": 0,
+      "value": " requests"
     }
   ]
 }

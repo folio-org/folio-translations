@@ -11464,7 +11464,7 @@
   "ui-circulation-log.logEvent.action.Age to lost": [
     {
       "type": 0,
-      "value": "Tempo para ser considerado perdido"
+      "value": "Atrasado há muito tempo para perdido"
     }
   ],
   "ui-circulation-log.logEvent.action.Anonymize": [
@@ -44783,17 +44783,17 @@
   "ui-ldp.settings.dbinfo.url": "URL do banco de dados",
   "ui-ldp.settings.dbinfo.user": "Nome de usuário",
   "ui-ldp.settings.dbinfo.pass": "Senha",
-  "ui-ldp.settings.dbinfo.update.ok": "Updated database configuration",
+  "ui-ldp.settings.dbinfo.update.ok": "Configuração de banco de dados atualizada",
   "ui-ldp.settings.sqconfig": "Configuração de consultas salvas",
   "ui-ldp.settings.sqconfig.owner": "Proprietário do repositório GitHub",
-  "ui-ldp.settings.sqconfig.repo": "URL do repositório do GitHub",
+  "ui-ldp.settings.sqconfig.repo": "Nome do repositório",
   "ui-ldp.settings.sqconfig.branch": "Ramo",
   "ui-ldp.settings.sqconfig.token": "Token OAuth para acesso ao repositório",
-  "ui-ldp.settings.sqconfig.update.ok": "Updated saved queries configuration",
-  "ui-ldp.permission.settings.record-limits": "Settings (LDP): Can modify default record limits",
-  "ui-ldp.permission.settings.table-availability": "Settings (LDP): Can select which tables are available to search",
-  "ui-ldp.permission.settings.dbinfo": "Settings (LDP): Can modify LDP database connection details",
-  "ui-ldp.permission.settings.sqconfig": "Settings (LDP): Can modify saved-query configuration details",
+  "ui-ldp.settings.sqconfig.update.ok": "Configuração atualizada de consultas salvas",
+  "ui-ldp.permission.settings.record-limits": "Configurações (LDP): pode modificar os limites de registro padrão",
+  "ui-ldp.permission.settings.table-availability": "Configurações (LDP): Pode selecionar quais tabelas estão disponíveis para pesquisa",
+  "ui-ldp.permission.settings.dbinfo": "Configurações (LDP): Pode modificar os detalhes de conexão do banco de dados do LDP",
+  "ui-ldp.permission.settings.sqconfig": "Configurações (LDP): Pode modificar os detalhes de configuração da consulta salva",
   "ui-ldp.SENTINEL": "",
   "ui-licenses.alternativeNames": [
     {
@@ -76324,6 +76324,20 @@
     {
       "type": 0,
       "value": "Select a browse option"
+    }
+  ],
+  "ui-ldp.saved-queries.delete.deleteQuery": "Deletar a consulta?",
+  "ui-ldp.saved-queries.delete.createdBy": "Criado por <code> {creator} </code>",
+  "ui-ldp.saved-queries.delete.confirm": "Confirmar",
+  "ui-ldp.saved-queries.delete.deleted": "Consulta <code>{name}</code> excluída. Observe que pode levar algum tempo até que a consulta não esteja mais visível na lista.",
+  "ui-requests.requests": [
+    {
+      "type": 1,
+      "value": "number"
+    },
+    {
+      "type": 0,
+      "value": " requests"
     }
   ]
 }
