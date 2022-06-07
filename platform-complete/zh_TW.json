@@ -24240,19 +24240,19 @@
   "ui-eholdings.accessType.novalue": [
     {
       "type": 0,
-      "value": "未选择访问状态类型"
+      "value": "未選擇訪問狀態類型"
     }
   ],
   "ui-eholdings.accessType.select": [
     {
       "type": 0,
-      "value": "选择访问状态类型"
+      "value": "選擇訪問狀態類型"
     }
   ],
   "ui-eholdings.accessTypes.filter": [
     {
       "type": 0,
-      "value": "访问状态类型筛选"
+      "value": "訪問狀態類型篩選"
     }
   ],
   "ui-eholdings.actionMenu.cancelEditing": [
@@ -24270,7 +24270,7 @@
   "ui-eholdings.add": [
     {
       "type": 0,
-      "value": "添加"
+      "value": "新增"
     }
   ],
   "ui-eholdings.addAllToHoldings": [
@@ -24282,7 +24282,7 @@
   "ui-eholdings.addPackageToHoldings": [
     {
       "type": 0,
-      "value": "添加资源包到馆藏"
+      "value": "新增資源包到館藏"
     }
   ],
   "ui-eholdings.addToHoldings": [
@@ -24294,13 +24294,13 @@
   "ui-eholdings.agreements": [
     {
       "type": 0,
-      "value": "协议"
+      "value": "協議"
     }
   ],
   "ui-eholdings.agreements.notFound": [
     {
       "type": 0,
-      "value": "未找到协议"
+      "value": "未找到協議"
     }
   ],
   "ui-eholdings.agreements.unassignModal.cancel": [
@@ -24312,10 +24312,14 @@
   "ui-eholdings.agreements.unassignModal.description": [
     {
       "type": 0,
-      "value": "确定要由"
+      "value": "您確定要從"
     },
     {
       "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
         {
           "type": 1,
           "value": "recordName"
@@ -24330,7 +24334,7 @@
     },
     {
       "type": 0,
-      "value": " 取消分配"
+      "value": "中取消分配到 "
     },
     {
       "children": [
@@ -24341,6 +24345,10 @@
         {
           "type": 1,
           "value": "agreementName"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -24348,13 +24356,13 @@
     },
     {
       "type": 0,
-      "value": "？一旦取消分配，该协议将不再附加到该记录。"
+      "value": " 嗎？取消分配後，該協議將不再附加到此記錄。"
     }
   ],
   "ui-eholdings.agreements.unassignModal.header": [
     {
       "type": 0,
-      "value": "由此记录取消分配协议"
+      "value": "從此記錄中取消分配協議"
     }
   ],
   "ui-eholdings.agreements.unassignModal.unassign": [
@@ -24366,7 +24374,7 @@
   "ui-eholdings.agreements.unlink": [
     {
       "type": 0,
-      "value": "从该记录取消协议的链接。"
+      "value": "取消與該記錄的協議連結。"
     }
   ],
   "ui-eholdings.cancel": [
@@ -24433,19 +24441,11 @@
     {
       "offset": 0,
       "options": {
-        "one": {
-          "value": [
-            {
-              "type": 0,
-              "value": "Narrator"
-            }
-          ]
-        },
         "other": {
           "value": [
             {
               "type": 0,
-              "value": "Narrators"
+              "value": "備註敘述"
             }
           ]
         }
@@ -24506,7 +24506,7 @@
   "ui-eholdings.filter.contentType.aggregated": [
     {
       "type": 0,
-      "value": "匯集性全文"
+      "value": "集成性全文"
     }
   ],
   "ui-eholdings.filter.contentType.ebook": [
@@ -24552,7 +24552,7 @@
   "ui-eholdings.filter.filterType.packages": [
     {
       "type": 0,
-      "value": "筛选包"
+      "value": "篩選資源包"
     }
   ],
   "ui-eholdings.filter.filterType.titles": [
@@ -24654,7 +24654,7 @@
   "ui-eholdings.filter.search": [
     {
       "type": 0,
-      "value": "搜索"
+      "value": "搜尋"
     }
   ],
   "ui-eholdings.filter.sortOptions.relevance": [
@@ -24666,7 +24666,7 @@
   "ui-eholdings.filter.togglePane": [
     {
       "type": 0,
-      "value": "切换筛选面板"
+      "value": "切換篩選"
     }
   ],
   "ui-eholdings.hidden": [
@@ -24726,7 +24726,7 @@
   "ui-eholdings.label.create.package": [
     {
       "type": 0,
-      "value": "新增客製的資源包"
+      "value": "新增自訂的資源包"
     }
   ],
   "ui-eholdings.label.create.title": [
@@ -24774,7 +24774,7 @@
   "ui-eholdings.label.edit.custom.coverageDates": [
     {
       "type": 0,
-      "value": "自定义收录日期（按降序输入多个日期范围）"
+      "value": "自訂收錄日期（按降冪排序輸入多個日期範圍）"
     }
   ],
   "ui-eholdings.label.editLink": [
@@ -25006,7 +25006,7 @@
   "ui-eholdings.label.tags": [
     {
       "type": 0,
-      "value": "标签： "
+      "value": "標籤： "
     },
     {
       "type": 1,
@@ -25040,7 +25040,7 @@
   "ui-eholdings.label.totalPackages": [
     {
       "type": 0,
-      "value": "资源包总数： "
+      "value": "資源包總計： "
     },
     {
       "type": 1,
@@ -25050,7 +25050,7 @@
   "ui-eholdings.label.totalTitles": [
     {
       "type": 0,
-      "value": "标题总数： "
+      "value": "題名總計： "
     },
     {
       "type": 1,
@@ -25072,7 +25072,7 @@
   "ui-eholdings.listType.packages": [
     {
       "type": 0,
-      "value": "包"
+      "value": "資源包"
     }
   ],
   "ui-eholdings.listType.titles": [
@@ -25084,7 +25084,7 @@
   "ui-eholdings.loadMore": [
     {
       "type": 0,
-      "value": "Load more"
+      "value": "繼續載入"
     }
   ],
   "ui-eholdings.managed": [
@@ -25114,7 +25114,7 @@
   "ui-eholdings.navModal.areYouSure": [
     {
       "type": 0,
-      "value": "是否确定？"
+      "value": "是否確定？"
     }
   ],
   "ui-eholdings.navModal.continueLabel": [
@@ -25138,7 +25138,7 @@
   "ui-eholdings.navModal.unsavedChanges": [
     {
       "type": 0,
-      "value": "有未保存的更改"
+      "value": "有未儲存的更新"
     }
   ],
   "ui-eholdings.navModal.unsavedChangesMsg": [
@@ -25180,7 +25180,7 @@
   "ui-eholdings.next": [
     {
       "type": 0,
-      "value": "Next"
+      "value": "下一筆"
     }
   ],
   "ui-eholdings.no": [
@@ -25204,7 +25204,7 @@
   "ui-eholdings.notes.entityType.package": [
     {
       "type": 0,
-      "value": "包"
+      "value": "資源包"
     }
   ],
   "ui-eholdings.notes.entityType.package.pluralized": [
@@ -25370,13 +25370,13 @@
   "ui-eholdings.over": [
     {
       "type": 0,
-      "value": "过"
+      "value": "超過"
     }
   ],
   "ui-eholdings.package-resource.coverageDates.savingWillRemove": [
     {
       "type": 0,
-      "value": "没有设置日期范围。保存将移除自定义收录范围。"
+      "value": "沒有設定收錄範圍。儲存將刪除自訂的範圍。"
     }
   ],
   "ui-eholdings.package.actionMenu.edit": [
@@ -25394,7 +25394,7 @@
   "ui-eholdings.package.addToken": [
     {
       "type": 0,
-      "value": "添加令牌"
+      "value": "新增 token"
     }
   ],
   "ui-eholdings.package.contentType": [
@@ -25424,7 +25424,7 @@
   "ui-eholdings.package.create.custom": [
     {
       "type": 0,
-      "value": "新增客製的資源包"
+      "value": "新增自訂的資源包"
     }
   ],
   "ui-eholdings.package.customCoverage.notSelected": [
@@ -25508,7 +25508,7 @@
   "ui-eholdings.package.modal.header.isCustom": [
     {
       "type": 0,
-      "value": "刪除客製的資源包"
+      "value": "刪除自訂的資源包"
     }
   ],
   "ui-eholdings.package.modalMessageBody": [
@@ -25568,7 +25568,7 @@
   "ui-eholdings.package.modalMessageHeader.isCustom": [
     {
       "type": 0,
-      "value": "刪除客製的資源包"
+      "value": "刪除自訂的資源包"
     }
   ],
   "ui-eholdings.package.name": [
@@ -25664,7 +25664,7 @@
   "ui-eholdings.package.resultsNotFoundForQuery": [
     {
       "type": 0,
-      "value": "找不到“"
+      "value": "找不到符合“"
     },
     {
       "type": 1,
@@ -25672,7 +25672,7 @@
     },
     {
       "type": 0,
-      "value": "”的包。"
+      "value": "”的資源包。請檢查拼寫與篩選。"
     }
   ],
   "ui-eholdings.package.titlesSelected": [
@@ -25714,7 +25714,7 @@
   "ui-eholdings.package.tokenNeed": [
     {
       "type": 0,
-      "value": "需要包令牌"
+      "value": "資源包需 token"
     }
   ],
   "ui-eholdings.package.totalTitles": [
@@ -25748,115 +25748,115 @@
   "ui-eholdings.permission.app.enabled": [
     {
       "type": 0,
-      "value": "电子馆藏：可以查看提供者、资源包、标题详细记录"
+      "value": "電子館藏：可以檢視供應商、資源包、題名詳細記錄"
     }
   ],
   "ui-eholdings.permission.costperuse.view": [
     {
       "type": 0,
-      "value": "电子馆藏：可以查看资源包、标题和资源的使用和分析数据"
+      "value": "電子館藏：可以查看套裝、單刊和資源的使用統計與分析數據"
     }
   ],
   "ui-eholdings.permission.package-title.select-unselect": [
     {
       "type": 0,
-      "value": "电子馆藏：可以从馆藏中选择/取消选择资源包和标题"
+      "value": "電子館藏：可以從館藏中選擇資源包和書刊題名"
     }
   ],
   "ui-eholdings.permission.records.edit": [
     {
       "type": 0,
-      "value": "电子馆藏：可以编辑提供者、资源包、标题详细记录"
+      "value": "電子館藏：可以編輯供應商、資源包、題名詳細記錄"
     }
   ],
   "ui-eholdings.permission.settings.access-types.all": [
     {
       "type": 0,
-      "value": "设置（电子馆藏）：可以创建、编辑、查看和删除访问状态类型"
+      "value": "設定（電子館藏）：可以建立、編輯、檢視和刪除訪問狀態類型"
     }
   ],
   "ui-eholdings.permission.settings.access-types.create-edit": [
     {
       "type": 0,
-      "value": "设置（电子馆藏）：可以创建、编辑和查看访问状态类型"
+      "value": "設定（電子館藏）：可以建立、編輯和檢視訪問狀態類型"
     }
   ],
   "ui-eholdings.permission.settings.access-types.view": [
     {
       "type": 0,
-      "value": "设置（电子馆藏）：可以查看访问状态类型"
+      "value": "設定（電子館藏）：可以檢視訪問狀態類型"
     }
   ],
   "ui-eholdings.permission.settings.assignedUser": [
     {
       "type": 0,
-      "value": "设置（电子馆藏）：可以从KB中分配/取消分配用户"
+      "value": "設定（電子館藏）：可以從知識庫中分配/取消分配使用者"
     }
   ],
   "ui-eholdings.permission.settings.custom-labels.all": [
     {
       "type": 0,
-      "value": "设置（电子馆藏）：可以创建、编辑、查看和删除自定义标签"
+      "value": "設定（電子館藏）：可以建立、編輯、檢視和刪除自訂欄位"
     }
   ],
   "ui-eholdings.permission.settings.custom-labels.view": [
     {
       "type": 0,
-      "value": "设置（电子馆藏）：可以查看自定义标签"
+      "value": "設定（電子館藏）：可以檢視自訂欄位"
     }
   ],
   "ui-eholdings.permission.settings.enabled": [
     {
       "type": 0,
-      "value": "设置（电子馆藏）：查看设置"
+      "value": "設定（電子館藏）：檢視設定"
     }
   ],
   "ui-eholdings.permission.settings.kb": [
     {
       "type": 0,
-      "value": "设置（电子馆藏）：可以创建、编辑和查看知识库凭证"
+      "value": "設定（電子館藏）：可以建立、編輯和檢視知識庫的帳號密碼"
     }
   ],
   "ui-eholdings.permission.settings.kb.delete": [
     {
       "type": 0,
-      "value": "设置（电子馆藏）：可以删除知识库凭证"
+      "value": "設定（電子館藏）：可刪除知識庫的帳號密碼"
     }
   ],
   "ui-eholdings.permission.settings.root-proxy": [
     {
       "type": 0,
-      "value": "设置（电子馆藏）：配置根代理设置"
+      "value": "設定（電子館藏）：配置代理伺服器"
     }
   ],
   "ui-eholdings.permission.settings.usage-consolidation.create-edit": [
     {
       "type": 0,
-      "value": "设置（电子馆藏）：创建、编辑和查看使用合并API凭据"
+      "value": "設定（電子館藏）：新增、編輯和查看使用統計收集API帳號密碼"
     }
   ],
   "ui-eholdings.permission.settings.usage-consolidation.view": [
     {
       "type": 0,
-      "value": "设置（电子馆藏）：查看使用合并API凭据"
+      "value": "設定（電子館藏）：查看使用統計收集API帳號密碼"
     }
   ],
   "ui-eholdings.permission.titles-packages.create-delete": [
     {
       "type": 0,
-      "value": "電子館藏：可以建立和刪除客製的資源包和書刊題名"
+      "value": "電子館藏：可以建立和刪除自訂的資源包和書刊題名"
     }
   ],
   "ui-eholdings.previous": [
     {
       "type": 0,
-      "value": "Previous"
+      "value": "上一筆"
     }
   ],
   "ui-eholdings.provider.labels": [
     {
       "type": 0,
-      "value": "標籤"
+      "value": "欄位"
     }
   ],
   "ui-eholdings.provider.noPackagesSelected": [
@@ -25868,7 +25868,7 @@
   "ui-eholdings.provider.noTokenSet": [
     {
       "type": 0,
-      "value": "尚未設置提供者 token。"
+      "value": "尚未設置供應商 token。"
     }
   ],
   "ui-eholdings.provider.packagesSelected": [
@@ -25898,7 +25898,7 @@
   "ui-eholdings.provider.resultsNotFoundForQuery": [
     {
       "type": 0,
-      "value": "找不到 \""
+      "value": "找不到符合“"
     },
     {
       "type": 1,
@@ -25906,7 +25906,7 @@
     },
     {
       "type": 0,
-      "value": "\" 的供應商。"
+      "value": "”的供應商。請檢查拼寫與篩選。"
     }
   ],
   "ui-eholdings.provider.toast.isFreshlySaved": [
@@ -25918,13 +25918,13 @@
   "ui-eholdings.provider.token": [
     {
       "type": 0,
-      "value": "提供者 token"
+      "value": "供應商 token"
     }
   ],
   "ui-eholdings.provider.token.addToken": [
     {
       "type": 0,
-      "value": "新增提供者级别 token"
+      "value": "新增供應商層級 token"
     }
   ],
   "ui-eholdings.provider.totalPackages": [
@@ -25936,13 +25936,13 @@
   "ui-eholdings.proxy": [
     {
       "type": 0,
-      "value": "代理"
+      "value": "代理連線服務"
     }
   ],
   "ui-eholdings.proxy.errorMessage": [
     {
       "type": 0,
-      "value": "Invalid proxy selected. Please contact EBSCO support."
+      "value": "選擇的代理伺服器無效。請聯係EBSCO技術支援"
     }
   ],
   "ui-eholdings.proxy.inherited": [
@@ -26012,7 +26012,7 @@
   "ui-eholdings.resource.customLabels": [
     {
       "type": 0,
-      "value": "自定义标签"
+      "value": "自訂的欄位"
     }
   ],
   "ui-eholdings.resource.embargoPeriod": [
@@ -26062,7 +26062,7 @@
     },
     {
       "type": 0,
-      "value": "个月"
+      "value": " 月"
     }
   ],
   "ui-eholdings.resource.embargoUnit.Weeks": [
@@ -26072,7 +26072,7 @@
     },
     {
       "type": 0,
-      "value": "周"
+      "value": "週"
     }
   ],
   "ui-eholdings.resource.embargoUnit.Years": [
@@ -26261,7 +26261,7 @@
   "ui-eholdings.search.searchByAccessTypeOnly": [
     {
       "type": 0,
-      "value": "Search by access status types only"
+      "value": "僅依照取用狀態查詢"
     }
   ],
   "ui-eholdings.search.searchByTagsOnly": [
@@ -26293,7 +26293,7 @@
   "ui-eholdings.search.searchType.packages": [
     {
       "type": 0,
-      "value": "包"
+      "value": "資源包"
     }
   ],
   "ui-eholdings.search.searchType.providers": [
@@ -26311,31 +26311,31 @@
   "ui-eholdings.search.selectFieldToSearch": [
     {
       "type": 0,
-      "value": "选择搜索字段"
+      "value": "選擇檢索欄位"
     }
   ],
   "ui-eholdings.selectPackage.confirmationModal.confirmationButtonText": [
     {
       "type": 0,
-      "value": "将资源包（所有标题）添加到馆藏"
+      "value": "將所有題名全部新增到館藏"
     }
   ],
   "ui-eholdings.selectPackage.confirmationModal.label": [
     {
       "type": 0,
-      "value": "将资源包中所有标题添加到馆藏"
+      "value": "將所有資源包中的題名全部新增到館藏"
     }
   ],
   "ui-eholdings.selectPackage.confirmationModal.message": [
     {
       "type": 0,
-      "value": "选择此操作会将此包中"
+      "value": "選擇此操作會將這個資源包中 "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "所有标题添加"
+          "value": "所有的題名增加"
         }
       ],
       "type": 8,
@@ -26343,13 +26343,13 @@
     },
     {
       "type": 0,
-      "value": "到馆藏中。要继续执行此操作，请选择"
+      "value": "到館藏中。確定要繼續執行這項操作，請選擇"
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "将资源包（所有标题）添加到馆藏"
+          "value": "將資源包（所有題名）新增到館藏中"
         }
       ],
       "type": 8,
@@ -26369,7 +26369,7 @@
   "ui-eholdings.selectedCount": [
     {
       "type": 0,
-      "value": "已选： "
+      "value": "已選： "
     },
     {
       "type": 1,
@@ -26379,19 +26379,19 @@
   "ui-eholdings.selection-modal.buttonConfirm": [
     {
       "type": 0,
-      "value": "Yes, remove"
+      "value": "是，移除"
     }
   ],
   "ui-eholdings.selection-modal.buttonWorking": [
     {
       "type": 0,
-      "value": "Removing..."
+      "value": "移除中..."
     }
   ],
   "ui-eholdings.server.errors.apiLimitExceeded": [
     {
       "type": 0,
-      "value": "超过了馆藏IQ API限制。请联系EBSCO馆藏IQ支持联系人。"
+      "value": "已超出 HoldingsIQ API 限制。請聯繫您的 EBSCO Holdings IQ 技術支援。"
     }
   ],
   "ui-eholdings.server.errors.configureKbLinkMsg": [
@@ -26423,7 +26423,7 @@
   "ui-eholdings.server.errors.errorDuringFetch": [
     {
       "type": 0,
-      "value": "如果问题仍然存在，请联系FOLIO系统管理员或访问"
+      "value": "如果問題仍然存在，請聯繫您的 FOLIO 系統管理員。"
     }
   ],
   "ui-eholdings.server.errors.errorDuringFetch.ebscoConnect": [
@@ -26465,25 +26465,25 @@
   "ui-eholdings.server.errors.unableToCompleteOperation": [
     {
       "type": 0,
-      "value": "无法完成操作。"
+      "value": "無法完成操作。"
     }
   ],
   "ui-eholdings.server.errors.userNotAssignedToKb": [
     {
       "type": 0,
-      "value": "无法授予对电子馆藏应用程序的访问权限。请与FOLIO系统管理员联系以授予访问权限。"
+      "value": "無法授權訪問電子館藏。請聯繫FOLIO系統管理員授權訪問權限。"
     }
   ],
   "ui-eholdings.settings.accessStatusTypes": [
     {
       "type": 0,
-      "value": "访问状态类型"
+      "value": "訪問狀態類型"
     }
   ],
   "ui-eholdings.settings.accessStatusTypes.delete": [
     {
       "type": 0,
-      "value": "删除访问状态类型"
+      "value": "刪除訪問狀態類型"
     }
   ],
   "ui-eholdings.settings.accessStatusTypes.delete.cancel": [
@@ -26501,7 +26501,7 @@
   "ui-eholdings.settings.accessStatusTypes.delete.description": [
     {
       "type": 0,
-      "value": "确定要删除访问状态类型"
+      "value": "您確定要刪除訪問狀態的類型"
     },
     {
       "children": [
@@ -26529,13 +26529,13 @@
   "ui-eholdings.settings.accessStatusTypes.delete.error": [
     {
       "type": 0,
-      "value": "本访问状态类型已被删除。"
+      "value": "該問狀態類型已被刪除。"
     }
   ],
   "ui-eholdings.settings.accessStatusTypes.delete.toast": [
     {
       "type": 0,
-      "value": "本访问状态类型"
+      "value": "該訪問狀態類型"
     },
     {
       "type": 1,
@@ -26543,7 +26543,7 @@
     },
     {
       "type": 0,
-      "value": "已删除。"
+      "value": "已刪除。"
     }
   ],
   "ui-eholdings.settings.accessStatusTypes.description": [
@@ -26561,39 +26561,39 @@
   "ui-eholdings.settings.accessStatusTypes.lastUpdated.data": [
     {
       "type": 1,
-      "value": "date"
+      "value": "name"
     },
     {
       "type": 0,
-      "value": " 按 "
+      "value": "的"
     },
     {
       "type": 1,
-      "value": "name"
+      "value": "date"
     }
   ],
   "ui-eholdings.settings.accessStatusTypes.records": [
     {
       "type": 0,
-      "value": "记录数"
+      "value": "紀錄"
     }
   ],
   "ui-eholdings.settings.accessStatusTypes.type": [
     {
       "type": 0,
-      "value": "访问状态类型"
+      "value": "訪問狀態類型"
     }
   ],
   "ui-eholdings.settings.accessStatusTypes.type.validation": [
     {
       "type": 0,
-      "value": "必填字段"
+      "value": "必填欄位"
     }
   ],
   "ui-eholdings.settings.accessStatusTypes.validation": [
     {
       "type": 0,
-      "value": "超过"
+      "value": "超過"
     },
     {
       "type": 1,
@@ -26601,19 +26601,19 @@
     },
     {
       "type": 0,
-      "value": " 。请修改。"
+      "value": "限制 。請修改。"
     }
   ],
   "ui-eholdings.settings.accessStatusTypes.validation.duplicate": [
     {
       "type": 0,
-      "value": "类型重复。请修改。"
+      "value": "類型重複。請修改。"
     }
   ],
   "ui-eholdings.settings.assignedUsers": [
     {
       "type": 0,
-      "value": "已分配用户"
+      "value": "已指定的使用者"
     }
   ],
   "ui-eholdings.settings.assignedUsers.alreadyAssignedModal.message": [
@@ -26635,13 +26635,13 @@
   "ui-eholdings.settings.assignedUsers.alreadyAssignedModal.title": [
     {
       "type": 0,
-      "value": "已经分配给知识库"
+      "value": "已分配到知識庫"
     }
   ],
   "ui-eholdings.settings.assignedUsers.assignmentModal.label": [
     {
       "type": 0,
-      "value": "选择用户"
+      "value": "選擇使用者"
     }
   ],
   "ui-eholdings.settings.assignedUsers.confirmationModal.cancelButton": [
@@ -26709,67 +26709,67 @@
   "ui-eholdings.settings.assignedUsers.confirmationModal.title": [
     {
       "type": 0,
-      "value": "从知识库中取消分配用户"
+      "value": "從知識庫中取消分配使用者"
     }
   ],
   "ui-eholdings.settings.assignedUsers.list.emptyMessage": [
     {
       "type": 0,
-      "value": "仅在计划配置多个EBSCO知识库时使用。"
+      "value": "僅在您計劃配置多個 EBSCO KB 時使用。"
     }
   ],
   "ui-eholdings.settings.assignedUsers.list.name": [
     {
       "type": 0,
-      "value": "名称"
+      "value": "名稱"
     }
   ],
   "ui-eholdings.settings.assignedUsers.list.patronGroup": [
     {
       "type": 0,
-      "value": "读者组"
+      "value": "讀者群組"
     }
   ],
   "ui-eholdings.settings.assignedUsers.list.unassignUser": [
     {
       "type": 0,
-      "value": "取消分配用户"
+      "value": "取消分配使用者"
     }
   ],
   "ui-eholdings.settings.assignedUsers.networkErrorMessage": [
     {
       "type": 0,
-      "value": "无法完成此操作。请再试一遍。"
+      "value": "無法完成此操作。請再試一次。"
     }
   ],
   "ui-eholdings.settings.assignedUsers.pluginButtonMessage": [
     {
       "type": 0,
-      "value": "分配用户"
+      "value": "指定使用者"
     }
   ],
   "ui-eholdings.settings.customLabels.displayLabel": [
     {
       "type": 0,
-      "value": "显示标签"
+      "value": "顯示欄位"
     }
   ],
   "ui-eholdings.settings.customLabels.publicationFinder": [
     {
       "type": 0,
-      "value": "在出版物查找器上显示"
+      "value": "在出版品查詢上顯示"
     }
   ],
   "ui-eholdings.settings.customLabels.remove": [
     {
       "type": 0,
-      "value": "移除自定义标签"
+      "value": "移除自訂欄位"
     }
   ],
   "ui-eholdings.settings.customLabels.remove.description": [
     {
       "type": 0,
-      "value": "确定要移除以下自定义标签吗： "
+      "value": "確定要移除以下自訂欄位嗎： "
     },
     {
       "children": [
@@ -26803,13 +26803,13 @@
     },
     {
       "type": 0,
-      "value": "移除此标签"
+      "value": "刪除此欄位"
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "不会删除"
+          "value": "不會刪除"
         }
       ],
       "type": 8,
@@ -26817,19 +26817,19 @@
     },
     {
       "type": 0,
-      "value": "为此资源在该标签上定义的任何值。与该自定义标签关联的值将保留。"
+      "value": "您為資源上的此欄位定義的任何值。與此自訂義欄位關聯的值將被保留。"
     }
   ],
   "ui-eholdings.settings.customLabels.textFinder": [
     {
       "type": 0,
-      "value": "在全文查找器上显示"
+      "value": "在全文查詢上顯示"
     }
   ],
   "ui-eholdings.settings.customLabels.toast": [
     {
       "type": 0,
-      "value": "自定义标签已更新"
+      "value": "自訂的欄位已更新"
     }
   ],
   "ui-eholdings.settings.goBackToEholdings": [
@@ -26853,13 +26853,13 @@
   "ui-eholdings.settings.kb.apiKey.hide": [
     {
       "type": 0,
-      "value": "隐藏密钥"
+      "value": "隱藏鍵"
     }
   ],
   "ui-eholdings.settings.kb.apiKey.show": [
     {
       "type": 0,
-      "value": "显示密钥"
+      "value": "顯示鍵"
     }
   ],
   "ui-eholdings.settings.kb.customerId": [
@@ -26871,7 +26871,7 @@
   "ui-eholdings.settings.kb.defaultName": [
     {
       "type": 0,
-      "value": "知识库（ "
+      "value": "知識庫 ("
     },
     {
       "type": 1,
@@ -26879,7 +26879,7 @@
     },
     {
       "type": 0,
-      "value": " ）"
+      "value": ")"
     }
   ],
   "ui-eholdings.settings.kb.delete": [
@@ -26891,7 +26891,7 @@
   "ui-eholdings.settings.kb.delete.modalHeading": [
     {
       "type": 0,
-      "value": "删除知识库凭证"
+      "value": "刪除知識庫的帳號密碼"
     }
   ],
   "ui-eholdings.settings.kb.delete.toast": [
@@ -26907,7 +26907,7 @@
   "ui-eholdings.settings.kb.delete.warning": [
     {
       "type": 0,
-      "value": "确定要删除"
+      "value": "您確定要刪除此 "
     },
     {
       "children": [
@@ -26929,25 +26929,25 @@
     },
     {
       "type": 0,
-      "value": "凭证吗？如果继续删除，则凭据将不再可用于此FOLIO实例。根代理，自定义标签，访问状态类型和分配的用户也将不可用。"
+      "value": " 帳號密碼嗎？刪除後，此帳號密碼將無法使用於系統實例中。代理伺服器、自訂欄位，存取狀態類型和分配的使用者也將無法使用。"
     }
   ],
   "ui-eholdings.settings.kb.edit": [
     {
       "type": 0,
-      "value": "编辑知识库凭证"
+      "value": "編輯知識庫的帳號密碼"
     }
   ],
   "ui-eholdings.settings.kb.new": [
     {
       "type": 0,
-      "value": "新建知识库凭证"
+      "value": "新增知識庫的帳號密碼"
     }
   ],
   "ui-eholdings.settings.kb.newButton": [
     {
       "type": 0,
-      "value": "新建"
+      "value": "新增"
     }
   ],
   "ui-eholdings.settings.kb.rmApiCreds": [
@@ -26965,7 +26965,7 @@
   "ui-eholdings.settings.kb.rmapiBaseUrl.production": [
     {
       "type": 0,
-      "value": "Production: "
+      "value": "產品： "
     },
     {
       "type": 1,
@@ -26975,7 +26975,7 @@
   "ui-eholdings.settings.kb.rmapiBaseUrl.sandbox": [
     {
       "type": 0,
-      "value": "Sandbox: "
+      "value": "沙盒(電腦安全)： "
     },
     {
       "type": 1,
@@ -26989,13 +26989,13 @@
     },
     {
       "type": 0,
-      "value": "已保存"
+      "value": "已儲存"
     }
   ],
   "ui-eholdings.settings.kb.updated": [
     {
       "type": 0,
-      "value": "KB設置已更新"
+      "value": "KB設定已更新"
     }
   ],
   "ui-eholdings.settings.kb.url.ebsco.customer.message": [
@@ -27043,85 +27043,85 @@
   "ui-eholdings.settings.usageConsolidation": [
     {
       "type": 0,
-      "value": "使用合并"
+      "value": "使用統計收集"
     }
   ],
   "ui-eholdings.settings.usageConsolidation.apiKey": [
     {
       "type": 0,
-      "value": "Usage consolidation API key"
+      "value": "使用統計收集的API Key"
     }
   ],
   "ui-eholdings.settings.usageConsolidation.clientId": [
     {
       "type": 0,
-      "value": "Usage consolidation client ID"
+      "value": "使用統計收集的客戶ID"
     }
   ],
   "ui-eholdings.settings.usageConsolidation.credentials.systemError": [
     {
       "type": 0,
-      "value": "Usage Consolidation credentials cannot be saved due to a system error. Please try again."
+      "value": "由於系統錯誤，使用統計收集驗證的帳號密碼無法被儲存，請再試一次。"
     }
   ],
   "ui-eholdings.settings.usageConsolidation.credentials.validation.invalid": [
     {
       "type": 0,
-      "value": "Usage Consolidation credentials are not valid."
+      "value": "使用統計收集的帳號密碼無效。"
     }
   ],
   "ui-eholdings.settings.usageConsolidation.currency": [
     {
       "type": 0,
-      "value": "货币"
+      "value": "貨幣"
     }
   ],
   "ui-eholdings.settings.usageConsolidation.currency.default": [
     {
       "type": 0,
-      "value": "选择一种货币"
+      "value": "請選擇一種貨幣"
     }
   ],
   "ui-eholdings.settings.usageConsolidation.currency.validation": [
     {
       "type": 0,
-      "value": "选择一种货币"
+      "value": "請選擇一種貨幣"
     }
   ],
   "ui-eholdings.settings.usageConsolidation.id": [
     {
       "type": 0,
-      "value": "使用合并ID"
+      "value": "使用統計收集ID"
     }
   ],
   "ui-eholdings.settings.usageConsolidation.id.hide": [
     {
       "type": 0,
-      "value": "隐藏ID"
+      "value": "隱藏ID"
     }
   ],
   "ui-eholdings.settings.usageConsolidation.id.show": [
     {
       "type": 0,
-      "value": "显示ID"
+      "value": "顯示ID"
     }
   ],
   "ui-eholdings.settings.usageConsolidation.id.validation.empty": [
     {
       "type": 0,
-      "value": "请输入使用合并ID。"
+      "value": "請輸入使用統計收集ID。"
     }
   ],
   "ui-eholdings.settings.usageConsolidation.id.validation.invalid": [
     {
       "type": 0,
-      "value": "无效的使用合并ID。请输入有效ID。"
+      "value": "使用統計收集的ID無效。請輸入有效ID。"
     }
   ],
   "ui-eholdings.settings.usageConsolidation.platformType": [
     {
       "type": 0,
-      "value": "显示平台使用统计的默认显示"
+      "value": "顯示平台使用統計的預設顯示"
     }
   ],
   "ui-eholdings.settings.usageConsolidation.platformType.all": [
@@ -27133,115 +27133,115 @@
   "ui-eholdings.settings.usageConsolidation.platformType.nonPublisher": [
     {
       "type": 0,
-      "value": "仅非出版者平台"
+      "value": "僅限非出版者的平台"
     }
   ],
   "ui-eholdings.settings.usageConsolidation.platformType.publisher": [
     {
       "type": 0,
-      "value": "仅出版者平台"
+      "value": "僅限出版者的平台"
     }
   ],
   "ui-eholdings.settings.usageConsolidation.saved": [
     {
       "type": 0,
-      "value": "使用合并设置已更新。"
+      "value": "使用統計收集的設定已更新"
     }
   ],
   "ui-eholdings.settings.usageConsolidation.startMonth": [
     {
       "type": 0,
-      "value": "使用统计的起始月份"
+      "value": "使用統計的起始月份"
     }
   ],
   "ui-eholdings.shortcut.closeModal": [
     {
       "type": 0,
-      "value": "Close a modal or pop-up"
+      "value": "關閉或彈出互動視窗"
     }
   ],
   "ui-eholdings.shortcut.collapseAll": [
     {
       "type": 0,
-      "value": "Collapse all accordions"
+      "value": "隱藏全部"
     }
   ],
   "ui-eholdings.shortcut.copy": [
     {
       "type": 0,
-      "value": "Copy"
+      "value": "複製"
     }
   ],
   "ui-eholdings.shortcut.createRecord": [
     {
       "type": 0,
-      "value": "Create a new custom package or title record"
+      "value": "建立新自訂包或題名紀錄"
     }
   ],
   "ui-eholdings.shortcut.cut": [
     {
       "type": 0,
-      "value": "Cut"
+      "value": "剪下"
     }
   ],
   "ui-eholdings.shortcut.editRecord": [
     {
       "type": 0,
-      "value": "Edit a record"
+      "value": "編輯紀錄"
     }
   ],
   "ui-eholdings.shortcut.expandAll": [
     {
       "type": 0,
-      "value": "Expand all accordions"
+      "value": "展開全部"
     }
   ],
   "ui-eholdings.shortcut.expandCollapse": [
     {
       "type": 0,
-      "value": "Expand or collapse an accordion"
+      "value": "隱藏或展開折疊處"
     }
   ],
   "ui-eholdings.shortcut.find": [
     {
       "type": 0,
-      "value": "Find"
+      "value": "查詢"
     }
   ],
   "ui-eholdings.shortcut.goToSearchFilter": [
     {
       "type": 0,
-      "value": "Go to Search & Filter pane"
+      "value": "查詢與篩選面板"
     }
   ],
   "ui-eholdings.shortcut.openShortcutModal": [
     {
       "type": 0,
-      "value": "View keyboard shortcuts list"
+      "value": "查看鍵盤快捷鍵列表"
     }
   ],
   "ui-eholdings.shortcut.paste": [
     {
       "type": 0,
-      "value": "Paste"
+      "value": "貼上"
     }
   ],
   "ui-eholdings.shortcut.saveRecord": [
     {
       "type": 0,
-      "value": "Save a record"
+      "value": "儲存紀錄"
     }
   ],
   "ui-eholdings.showHidePasswordField.hide": [
     {
       "type": 0,
-      "value": "隐藏"
+      "value": "隱藏"
     }
   ],
   "ui-eholdings.showHidePasswordField.show": [
     {
       "type": 0,
-      "value": "显示"
+      "value": "顯示"
     }
   ],
   "ui-eholdings.startDate": [
@@ -27299,13 +27299,13 @@
   "ui-eholdings.tags.filter": [
     {
       "type": 0,
-      "value": "标签筛选"
+      "value": "標籤篩選"
     }
   ],
   "ui-eholdings.title.addToCustomPackage": [
     {
       "type": 0,
-      "value": "新增到客製的資源包"
+      "value": "新增到自訂的資源包"
     }
   ],
   "ui-eholdings.title.chooseAPackage": [
@@ -27369,7 +27369,7 @@
   "ui-eholdings.title.modalMessage.addTitleToCustomPackage": [
     {
       "type": 0,
-      "value": "將書刊題名增加到客製的資源包"
+      "value": "將書刊題名增加到自訂的資源包"
     }
   ],
   "ui-eholdings.title.name.isRequired": [
@@ -27411,7 +27411,7 @@
   "ui-eholdings.title.resultsNotFoundForQuery": [
     {
       "type": 0,
-      "value": "找不到“"
+      "value": "找不到符合“"
     },
     {
       "type": 1,
@@ -27419,7 +27419,7 @@
     },
     {
       "type": 0,
-      "value": "”的标题。"
+      "value": "”的題名。請檢查拼寫與篩選。"
     }
   ],
   "ui-eholdings.title.subjects": [
@@ -27473,7 +27473,7 @@
   "ui-eholdings.usageConsolidation.filters.view": [
     {
       "type": 0,
-      "value": "查看"
+      "value": "檢視"
     }
   ],
   "ui-eholdings.usageConsolidation.filters.year": [
@@ -27485,13 +27485,13 @@
   "ui-eholdings.usageConsolidation.fullTextRequestUsageTable": [
     {
       "type": 0,
-      "value": "平台使用情况下的全文请求"
+      "value": "平台使用統計的全文請求"
     }
   ],
   "ui-eholdings.usageConsolidation.fullTextRequestUsageTable.all": [
     {
       "type": 0,
-      "value": "所有平台总计"
+      "value": "所有平台總計"
     }
   ],
   "ui-eholdings.usageConsolidation.fullTextRequestUsageTable.header.apr": [
@@ -27581,25 +27581,25 @@
   "ui-eholdings.usageConsolidation.fullTextRequestUsageTable.header.total": [
     {
       "type": 0,
-      "value": "总计"
+      "value": "總計"
     }
   ],
   "ui-eholdings.usageConsolidation.fullTextRequestUsageTable.noResponse": [
     {
       "type": 0,
-      "value": "无法检索信息。请再试一遍。"
+      "value": "無法檢索到資訊。請再試一次。"
     }
   ],
   "ui-eholdings.usageConsolidation.fullTextRequestUsageTable.nonPublisher": [
     {
       "type": 0,
-      "value": "所有非出版者平台总计"
+      "value": "所有非出版者平台總計"
     }
   ],
   "ui-eholdings.usageConsolidation.fullTextRequestUsageTable.publisher": [
     {
       "type": 0,
-      "value": "所有出版者平台总计"
+      "value": "所有出版者平台總計"
     }
   ],
   "ui-eholdings.usageConsolidation.holdingsSummary": [
@@ -27611,13 +27611,13 @@
   "ui-eholdings.usageConsolidation.infoPopover.buttonLabel": [
     {
       "type": 0,
-      "value": "了解更多信息"
+      "value": "了解更多資訊"
     }
   ],
   "ui-eholdings.usageConsolidation.infoPopover.content": [
     {
       "type": 0,
-      "value": "获取图书馆馆藏一部分的资源包和标题的费用和使用信息。"
+      "value": "獲取圖書館館藏一部分資源包和題名的成本與使用統計資訊。"
     }
   ],
   "ui-eholdings.usageConsolidation.summary.actions": [
@@ -27641,61 +27641,61 @@
   "ui-eholdings.usageConsolidation.summary.costPerUse": [
     {
       "type": 0,
-      "value": "每次使用费用"
+      "value": "單篇成本"
     }
   ],
   "ui-eholdings.usageConsolidation.summary.coverage": [
     {
       "type": 0,
-      "value": "收录范围"
+      "value": "收錄範圍"
     }
   ],
   "ui-eholdings.usageConsolidation.summary.embargo": [
     {
       "type": 0,
-      "value": "全文延迟："
+      "value": "全文延遲："
     }
   ],
   "ui-eholdings.usageConsolidation.summary.error": [
     {
       "type": 0,
-      "value": "无法提供摘要信息。"
+      "value": "無法提供摘要資訊"
     }
   ],
   "ui-eholdings.usageConsolidation.summary.exportTitles.error.service": [
     {
       "type": 0,
-      "value": "由于服务错误，无法导出。请再试一遍。"
+      "value": "由於伺服器錯誤，無法輸出，請再試一次。"
     }
   ],
   "ui-eholdings.usageConsolidation.summary.exportTitles.error.timeout": [
     {
       "type": 0,
-      "value": "导出超时。请重试。"
+      "value": "輸出超時。請重試。"
     }
   ],
   "ui-eholdings.usageConsolidation.summary.exportTitles.limit": [
     {
       "type": 0,
-      "value": "超过200,000导出标题限制"
+      "value": "超過 200,000 題名輸出限制"
     }
   ],
   "ui-eholdings.usageConsolidation.summary.exportTitles.progress": [
     {
       "type": 0,
-      "value": "导出中。大量数据可能需要几分钟。"
+      "value": "正在輸出中。大量數據可能需要幾分鐘。"
     }
   ],
   "ui-eholdings.usageConsolidation.summary.exportTitles.success": [
     {
       "type": 0,
-      "value": "标题已成功导出。"
+      "value": "題名已成功輸出。"
     }
   ],
   "ui-eholdings.usageConsolidation.summary.package.noData": [
     {
       "type": 0,
-      "value": "本资源包不含"
+      "value": "該資源包不含"
     },
     {
       "type": 1,
@@ -27703,25 +27703,25 @@
     },
     {
       "type": 0,
-      "value": "费用或使用数据。"
+      "value": "成本或使用統計。"
     }
   ],
   "ui-eholdings.usageConsolidation.summary.packageCost": [
     {
       "type": 0,
-      "value": "资源包费用"
+      "value": "資源包成本"
     }
   ],
   "ui-eholdings.usageConsolidation.summary.packageName": [
     {
       "type": 0,
-      "value": "资源包"
+      "value": "資源包"
     }
   ],
   "ui-eholdings.usageConsolidation.summary.resource.noData": [
     {
       "type": 0,
-      "value": "本标题不含"
+      "value": "該題名不含"
     },
     {
       "type": 1,
@@ -27729,19 +27729,19 @@
     },
     {
       "type": 0,
-      "value": "费用或使用数据。"
+      "value": "成本或使用統計。"
     }
   ],
   "ui-eholdings.usageConsolidation.summary.resourceCost": [
     {
       "type": 0,
-      "value": "资源费用"
+      "value": "資源成本"
     }
   ],
   "ui-eholdings.usageConsolidation.summary.title.noData": [
     {
       "type": 0,
-      "value": "本标题不含"
+      "value": "該題名不含"
     },
     {
       "type": 1,
@@ -27749,31 +27749,31 @@
     },
     {
       "type": 0,
-      "value": "费用或使用数据。"
+      "value": "成本或使用統計。"
     }
   ],
   "ui-eholdings.usageConsolidation.summary.title.usage": [
     {
       "type": 0,
-      "value": "使用"
+      "value": "使用統計"
     }
   ],
   "ui-eholdings.usageConsolidation.summary.titleCost": [
     {
       "type": 0,
-      "value": "费用"
+      "value": "成本"
     }
   ],
   "ui-eholdings.usageConsolidation.summary.totalUsage": [
     {
       "type": 0,
-      "value": "总用量"
+      "value": "總使用量"
     }
   ],
   "ui-eholdings.usageConsolidation.summary.totalUsage.infoPopover.package": [
     {
       "type": 0,
-      "value": "总用量是选定年份和平台的选定标题的COUNTER"
+      "value": "所選題名的總使用量是所選年份和平台COUNTER"
     },
     {
       "type": 1,
@@ -27781,13 +27781,13 @@
     },
     {
       "type": 0,
-      "value": "的总计"
+      "value": "的總和"
     }
   ],
   "ui-eholdings.usageConsolidation.summary.totalUsage.infoPopover.resource": [
     {
       "type": 0,
-      "value": "总用量是选定年份和平台的标题的COUNTER"
+      "value": "題名的總使用量是所選年份和平台COUNTER"
     },
     {
       "type": 1,
@@ -27795,13 +27795,13 @@
     },
     {
       "type": 0,
-      "value": "的总计"
+      "value": "的總和"
     }
   ],
   "ui-eholdings.usageConsolidation.summary.totalUsage.infoPopover.title": [
     {
       "type": 0,
-      "value": "总用量是选定年份和平台的标题的COUNTER"
+      "value": "題名的總使用量是所選年份和平台COUNTER"
     },
     {
       "type": 1,
@@ -27809,25 +27809,25 @@
     },
     {
       "type": 0,
-      "value": "的总计"
+      "value": "的總和"
     }
   ],
   "ui-eholdings.usageConsolidation.titles.cost": [
     {
       "type": 0,
-      "value": "费用"
+      "value": "成本"
     }
   ],
   "ui-eholdings.usageConsolidation.titles.loading": [
     {
       "type": 0,
-      "value": "载入中..."
+      "value": "載入中"
     }
   ],
   "ui-eholdings.usageConsolidation.titles.loadingFailed": [
     {
       "type": 0,
-      "value": "无法检索标题列表。请再试一遍"
+      "value": "無法檢索到題名。請再試一次"
     }
   ],
   "ui-eholdings.usageConsolidation.titles.percentOfUsage": [
@@ -27839,13 +27839,13 @@
   "ui-eholdings.usageConsolidation.titles.title": [
     {
       "type": 0,
-      "value": "标题"
+      "value": "題名"
     }
   ],
   "ui-eholdings.usageConsolidation.titles.type": [
     {
       "type": 0,
-      "value": "类型"
+      "value": "類型"
     }
   ],
   "ui-eholdings.validate.errors.contributor.empty": [
@@ -27875,7 +27875,7 @@
   "ui-eholdings.validate.errors.customLabels.length": [
     {
       "type": 0,
-      "value": "值已超过"
+      "value": "值已超過"
     },
     {
       "type": 1,
@@ -27883,13 +27883,13 @@
     },
     {
       "type": 0,
-      "value": "字符的限制。请修改您的值。"
+      "value": "字符限制。請修改您的值。"
     }
   ],
   "ui-eholdings.validate.errors.customPackage.name": [
     {
       "type": 0,
-      "value": "客製的資源包必須要具有名稱"
+      "value": "自訂的資源包必須要具有名稱"
     }
   ],
   "ui-eholdings.validate.errors.customPackage.name.length": [
@@ -28009,7 +28009,7 @@
   "ui-eholdings.validate.errors.embargoPeriod.decimal": [
     {
       "type": 0,
-      "value": "不允许小数"
+      "value": "不允許小數點"
     }
   ],
   "ui-eholdings.validate.errors.embargoPeriod.moreThanZero": [
@@ -28063,19 +28063,19 @@
   "ui-eholdings.validate.errors.settings.customLabels.empty": [
     {
       "type": 0,
-      "value": "请输入显示标签。"
+      "value": "請輸入顯示欄位。"
     }
   ],
   "ui-eholdings.validate.errors.settings.customLabels.length": [
     {
       "type": 0,
-      "value": "已超过字符数限制。请修改自定义标签。"
+      "value": "已超出字符限制。請修改自訂欄位。"
     }
   ],
   "ui-eholdings.validate.errors.settings.customLabels.utf": [
     {
       "type": 0,
-      "value": "输入的字符无效。请修改自定义标签。"
+      "value": "輸入的字符無效。請修改自訂欄位。"
     }
   ],
   "ui-eholdings.validate.errors.settings.customerId": [
@@ -28087,13 +28087,13 @@
   "ui-eholdings.validate.errors.settings.kb.name": [
     {
       "type": 0,
-      "value": "必填字段。请修改。"
+      "value": "必填欄位。請修改。"
     }
   ],
   "ui-eholdings.validate.errors.settings.kb.name.length": [
     {
       "type": 0,
-      "value": "已超过255个字符的限制。请修改。"
+      "value": "已超過 255 個字符的限制。請修改。"
     }
   ],
   "ui-eholdings.validate.errors.title.description.length": [
@@ -66446,61 +66446,61 @@
   "ui-tenant-settings.permission.module.enabled": [
     {
       "type": 0,
-      "value": "用户界面：租户设置模块已启用"
+      "value": "使用者介面：租戶設置模塊已啟用"
     }
   ],
   "ui-tenant-settings.permission.settings.addresses": [
     {
       "type": 0,
-      "value": "设置（租户）：可以管理租户地址"
+      "value": "設置（租戶）：可以管理租戶地址"
     }
   ],
   "ui-tenant-settings.permission.settings.bursar-exports": [
     {
       "type": 0,
-      "value": "设置（租户）：费用/罚款管理员"
+      "value": "設置（租戶）：Bursar admin"
     }
   ],
   "ui-tenant-settings.permission.settings.enabled": [
     {
       "type": 0,
-      "value": "设置（租户）：查看"
+      "value": "設置（租戶）：查看"
     }
   ],
   "ui-tenant-settings.permission.settings.key-bindings": [
     {
       "type": 0,
-      "value": "设置（租户）：可以维护主绑定"
+      "value": "設置（租戶）：可以維護快速鍵"
     }
   ],
   "ui-tenant-settings.permission.settings.locale": [
     {
       "type": 0,
-      "value": "设置（租户）：可以编辑语言、本地化和货币"
+      "value": "設置（租戶）：可以編輯語言、本地化和貨幣"
     }
   ],
   "ui-tenant-settings.permission.settings.location": [
     {
       "type": 0,
-      "value": "设置（租户）：可以创建、编辑和移除馆藏地"
+      "value": "設置（租戶）：可以新增、編輯和刪除館藏地"
     }
   ],
   "ui-tenant-settings.permission.settings.plugins": [
     {
       "type": 0,
-      "value": "设置（租户）：可以维护首选插件"
+      "value": "設置（租戶）：可以維護偏好插件"
     }
   ],
   "ui-tenant-settings.permission.settings.servicepoints": [
     {
       "type": 0,
-      "value": "设置（租户）：可以创建、编辑和移除服务点"
+      "value": "設置（租戶）：可以新增、編輯和刪除工作區"
     }
   ],
   "ui-tenant-settings.permission.settings.sso": [
     {
       "type": 0,
-      "value": "设置（租户）：可以维护SSO设置"
+      "value": "設置（租戶）：可以維護 SSO 設置"
     }
   ],
   "ui-tenant-settings.settings.addresses.address": [
@@ -66524,13 +66524,13 @@
   "ui-tenant-settings.settings.bindings.label": [
     {
       "type": 0,
-      "value": "Key bindings"
+      "value": "快速鍵"
     }
   ],
   "ui-tenant-settings.settings.bindings.provide": [
     {
       "type": 0,
-      "value": "为"
+      "value": "為"
     },
     {
       "type": 1,
@@ -66538,7 +66538,7 @@
     },
     {
       "type": 0,
-      "value": "提供装订"
+      "value": "提供綁定"
     }
   ],
   "ui-tenant-settings.settings.general.label": [
@@ -66550,13 +66550,13 @@
   "ui-tenant-settings.settings.general.saveAndClose": [
     {
       "type": 0,
-      "value": "保存并关闭"
+      "value": "儲存並關閉"
     }
   ],
   "ui-tenant-settings.settings.hiddenDownloadLink": [
     {
       "type": 0,
-      "value": "隐藏下载链接"
+      "value": "隱藏下載連結"
     }
   ],
   "ui-tenant-settings.settings.index.paneTitle": [
@@ -66574,13 +66574,13 @@
   "ui-tenant-settings.settings.intervalPeriod.hours": [
     {
       "type": 0,
-      "value": "小时"
+      "value": "小時"
     }
   ],
   "ui-tenant-settings.settings.intervalPeriod.minutes": [
     {
       "type": 0,
-      "value": "分钟"
+      "value": "分鐘"
     }
   ],
   "ui-tenant-settings.settings.intervalPeriod.months": [
@@ -66598,25 +66598,25 @@
   "ui-tenant-settings.settings.keyBindings": [
     {
       "type": 0,
-      "value": "将密钥绑定编辑为JSON。"
+      "value": "將快速鍵編輯為 JSON。"
     }
   ],
   "ui-tenant-settings.settings.language.label": [
     {
       "type": 0,
-      "value": "語系和本地化"
+      "value": "語言和本地化"
     }
   ],
   "ui-tenant-settings.settings.locale.changeSessionLocale": [
     {
       "type": 0,
-      "value": "更改会话语言环境"
+      "value": "更改工作階段語系"
     }
   ],
   "ui-tenant-settings.settings.locale.localeWarning": [
     {
       "type": 0,
-      "value": "此页面上的设置将永久更改所有用户的语言环境（包括语言显示、日期格式和数字格式）。强烈建议您不要在此处更改语言环境，除非您完全确定这是正确的操作。要仅临时更改会话的语言环境，请单击“ "
+      "value": "此頁面上的設置將永久更改所有用戶的區域設置（包括語言顯示、日期格式和數字格式）。除非您絕對確定這是正確的操作，否則強烈建議您不要在此處更改語言環境。要僅為您的會話臨時更改區域設置，請改為單擊“ "
     },
     {
       "type": 1,
@@ -66624,13 +66624,13 @@
     },
     {
       "type": 0,
-      "value": " ”按钮。"
+      "value": " ”按鈕。"
     }
   ],
   "ui-tenant-settings.settings.localization": [
     {
       "type": 0,
-      "value": "区域设置（用于语言显示，日期格式等）"
+      "value": "區域設置（用於語言顯示、日期格式等）"
     }
   ],
   "ui-tenant-settings.settings.location.campuses": [
@@ -66762,13 +66762,13 @@
     },
     {
       "type": 0,
-      "value": "将"
+      "value": "將被"
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "移除"
+          "value": "刪除"
         }
       ],
       "type": 8,
@@ -66790,7 +66790,7 @@
   "ui-tenant-settings.settings.location.locations.detailsValue": [
     {
       "type": 0,
-      "value": "取值"
+      "value": "值"
     }
   ],
   "ui-tenant-settings.settings.location.locations.discoveryDisplayName": [
@@ -66802,7 +66802,7 @@
   "ui-tenant-settings.settings.location.locations.generalInformation": [
     {
       "type": 0,
-      "value": "一般信息"
+      "value": "一般資訊"
     }
   ],
   "ui-tenant-settings.settings.location.locations.inactive": [
@@ -66850,25 +66850,25 @@
   "ui-tenant-settings.settings.location.locations.remoteStorage": [
     {
       "type": 0,
-      "value": "远程存储"
+      "value": "遠程存儲"
     }
   ],
   "ui-tenant-settings.settings.location.locations.returning-workflow.Scanned to CaiaSoft": [
     {
       "type": 0,
-      "value": "Items received at remote storage scanned into CaiaSoft"
+      "value": "物件自掃描至CaiaSoft的遠端儲存地取得"
     }
   ],
   "ui-tenant-settings.settings.location.locations.returning-workflow.Scanned to folio": [
     {
       "type": 0,
-      "value": "Items received at remote storage scanned into FOLIO"
+      "value": "物件自掃描至FOLIO的遠端儲存地取得"
     }
   ],
   "ui-tenant-settings.settings.location.locations.returning-workflow.title": [
     {
       "type": 0,
-      "value": "Returning workflow preference"
+      "value": "回傳工作流程偏好設定"
     }
   ],
   "ui-tenant-settings.settings.location.locations.servicePoints": [
@@ -66904,97 +66904,97 @@
   "ui-tenant-settings.settings.location.remotes.failed": [
     {
       "type": 0,
-      "value": "加载失败"
+      "value": "載入失敗"
     }
   ],
   "ui-tenant-settings.settings.location.remotes.loading": [
     {
       "type": 0,
-      "value": "载入中..."
+      "value": "載入中..."
     }
   ],
   "ui-tenant-settings.settings.location.remotes.no": [
     {
       "type": 0,
-      "value": "否（默认）"
+      "value": "否（預設）"
     }
   ],
   "ui-tenant-settings.settings.location.remotes.readonly": [
     {
       "type": 0,
-      "value": "仅当没有与此馆藏地关联的永久馆藏或单件时才能更改"
+      "value": "只有在沒有與此館藏地相關的永久館藏或物品時才能更改"
     }
   ],
   "ui-tenant-settings.settings.location.remotes.remote": [
     {
       "type": 0,
-      "value": "远程存储"
+      "value": "遠程存儲"
     }
   ],
   "ui-tenant-settings.settings.numberingSystem": [
     {
       "type": 0,
-      "value": "Numbering system"
+      "value": "編號系統"
     }
   ],
   "ui-tenant-settings.settings.pluginNames.create-inventory-records": [
     {
       "type": 0,
-      "value": "创建典藏记录"
+      "value": "建立館藏庫紀錄"
     }
   ],
   "ui-tenant-settings.settings.pluginNames.create-item": [
     {
       "type": 0,
-      "value": "创建单件"
+      "value": "新增館藏"
     }
   ],
   "ui-tenant-settings.settings.pluginNames.find-agreement": [
     {
       "type": 0,
-      "value": "查找协议"
+      "value": "尋找協議"
     }
   ],
   "ui-tenant-settings.settings.pluginNames.find-contact": [
     {
       "type": 0,
-      "value": "查找联络人"
+      "value": "查找聯絡人"
     }
   ],
   "ui-tenant-settings.settings.pluginNames.find-eresource": [
     {
       "type": 0,
-      "value": "查找电子资源"
+      "value": "查找電子資源"
     }
   ],
   "ui-tenant-settings.settings.pluginNames.find-erm-usage-data-provider": [
     {
       "type": 0,
-      "value": "查找ERM使用元数据提供者"
+      "value": "查找 ERM使用統計詮釋資料提供者"
     }
   ],
   "ui-tenant-settings.settings.pluginNames.find-finc-metadata-collection": [
     {
       "type": 0,
-      "value": "查找财务元数据集合"
+      "value": "查找財務詮釋資料集合"
     }
   ],
   "ui-tenant-settings.settings.pluginNames.find-finc-metadata-source": [
     {
       "type": 0,
-      "value": "查找財務詮釋資料來源"
+      "value": "查找財務詮釋資料源"
     }
   ],
   "ui-tenant-settings.settings.pluginNames.find-import-profile": [
     {
       "type": 0,
-      "value": "查找导入配置文件"
+      "value": "查找導入配置文件"
     }
   ],
   "ui-tenant-settings.settings.pluginNames.find-instance": [
     {
       "type": 0,
-      "value": "查找实例"
+      "value": "查找實例"
     }
   ],
   "ui-tenant-settings.settings.pluginNames.find-interface": [
@@ -67006,31 +67006,31 @@
   "ui-tenant-settings.settings.pluginNames.find-license": [
     {
       "type": 0,
-      "value": "查找许可证"
+      "value": "查找授權"
     }
   ],
   "ui-tenant-settings.settings.pluginNames.find-organization": [
     {
       "type": 0,
-      "value": "查找组织"
+      "value": "新增組織機構"
     }
   ],
   "ui-tenant-settings.settings.pluginNames.find-package-title": [
     {
       "type": 0,
-      "value": "查找资源包标题"
+      "value": "查找資源包標題"
     }
   ],
   "ui-tenant-settings.settings.pluginNames.find-po-line": [
     {
       "type": 0,
-      "value": "查找采购订单行"
+      "value": "訂單細項（PO line）"
     }
   ],
   "ui-tenant-settings.settings.pluginNames.find-user": [
     {
       "type": 0,
-      "value": "查找用户"
+      "value": "查詢使用者"
     }
   ],
   "ui-tenant-settings.settings.plugins.label": [
@@ -67042,7 +67042,7 @@
   "ui-tenant-settings.settings.primaryCurrency": [
     {
       "type": 0,
-      "value": "主要货币（用于显示的货币符号）"
+      "value": "主要貨幣（用於顯示貨幣符號）"
     }
   ],
   "ui-tenant-settings.settings.saml.attribute": [
@@ -67054,7 +67054,7 @@
   "ui-tenant-settings.settings.saml.binding": [
     {
       "type": 0,
-      "value": "SAML 綁定*"
+      "value": "SAML 綁定"
     }
   ],
   "ui-tenant-settings.settings.saml.downloadMetadata": [
@@ -67078,7 +67078,7 @@
   "ui-tenant-settings.settings.saml.userProperty": [
     {
       "type": 0,
-      "value": "使用者屬性 *"
+      "value": "使用者屬性"
     }
   ],
   "ui-tenant-settings.settings.saml.validate.binding": [
@@ -67090,13 +67090,13 @@
   "ui-tenant-settings.settings.saml.validate.fillIn": [
     {
       "type": 0,
-      "value": "请填写此内容以继续"
+      "value": "請填寫此內容以繼續"
     }
   ],
   "ui-tenant-settings.settings.saml.validate.idpUrl": [
     {
       "type": 0,
-      "value": "这不是有效的身份提供者URL"
+      "value": "這不是有效的身份提供者 URL"
     }
   ],
   "ui-tenant-settings.settings.saml.validate.userProperty": [
@@ -67114,13 +67114,13 @@
   "ui-tenant-settings.settings.servicePoint.expirationPeriod": [
     {
       "type": 0,
-      "value": "预约书架到期有效期"
+      "value": "預約書架到期"
     }
   ],
   "ui-tenant-settings.settings.servicePoint.selectInterval": [
     {
       "type": 0,
-      "value": "选择间隔"
+      "value": "選擇間隔"
     }
   ],
   "ui-tenant-settings.settings.servicePoints.addLocation": [
@@ -67132,7 +67132,7 @@
   "ui-tenant-settings.settings.servicePoints.assignedLocations": [
     {
       "type": 0,
-      "value": "已分配馆藏地"
+      "value": "指定之館藏地"
     }
   ],
   "ui-tenant-settings.settings.servicePoints.closeServicePointDialog": [
@@ -67144,13 +67144,13 @@
   "ui-tenant-settings.settings.servicePoints.code": [
     {
       "type": 0,
-      "value": "服务点编码"
+      "value": "代碼"
     }
   ],
   "ui-tenant-settings.settings.servicePoints.createServicePoint": [
     {
       "type": 0,
-      "value": "创建"
+      "value": "新增"
     }
   ],
   "ui-tenant-settings.settings.servicePoints.delete": [
@@ -67211,12 +67211,16 @@
     {
       "children": [
         {
+          "type": 0,
+          "value": " "
+        },
+        {
           "type": 1,
           "value": "name"
         },
         {
           "type": 0,
-          "value": " 与一个或多个馆藏地相关联"
+          "value": "與一個或多個位置相關聯"
         }
       ],
       "type": 8,
@@ -67224,17 +67228,21 @@
     },
     {
       "type": 0,
-      "value": "。确定移除"
+      "value": " 。您確定要刪除"
     },
     {
       "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
         {
           "type": 1,
           "value": "name"
         },
         {
           "type": 0,
-          "value": " 吗？"
+          "value": "嗎？ "
         }
       ],
       "type": 8,
@@ -67256,7 +67264,7 @@
   "ui-tenant-settings.settings.servicePoints.disallowDeleteServicePointMessage": [
     {
       "type": 0,
-      "value": "无法删除此服务点，因为它是一个或多个馆藏地的主要服务点。"
+      "value": "此工作區無法刪除，因為它是一個或多個位置的主要工作區。"
     }
   ],
   "ui-tenant-settings.settings.servicePoints.discoveryDisplayName": [
@@ -67274,13 +67282,13 @@
   "ui-tenant-settings.settings.servicePoints.feeFineOwner": [
     {
       "type": 0,
-      "value": "费用/罚款缴费处"
+      "value": "費用 / 罰款 所有者"
     }
   ],
   "ui-tenant-settings.settings.servicePoints.generalInformation": [
     {
       "type": 0,
-      "value": "概况"
+      "value": "一般資訊"
     }
   ],
   "ui-tenant-settings.settings.servicePoints.label": [
@@ -67316,13 +67324,13 @@
   "ui-tenant-settings.settings.servicePoints.ok": [
     {
       "type": 0,
-      "value": "确定"
+      "value": "好的"
     }
   ],
   "ui-tenant-settings.settings.servicePoints.pickupLocation": [
     {
       "type": 0,
-      "value": "取件位置"
+      "value": "取書館藏地"
     }
   ],
   "ui-tenant-settings.settings.servicePoints.pickupLocation.no": [
@@ -67346,7 +67354,7 @@
   "ui-tenant-settings.settings.servicePoints.printByDefault": [
     {
       "type": 0,
-      "value": "默认打印"
+      "value": "根據預設列印"
     }
   ],
   "ui-tenant-settings.settings.servicePoints.printSlip.no": [
@@ -67384,7 +67392,7 @@
   "ui-tenant-settings.settings.servicePoints.shelvingLagTime": [
     {
       "type": 0,
-      "value": "排架延迟时间 (分钟)"
+      "value": "上架延遲時間（分鐘）"
     }
   ],
   "ui-tenant-settings.settings.servicePoints.stripes-core.button.cancel": [
@@ -67420,7 +67428,7 @@
   "ui-tenant-settings.settings.servicePoints.validation.required": [
     {
       "type": 0,
-      "value": "请填写此内容后继续"
+      "value": "請填寫此內容以繼續"
     }
   ],
   "ui-tenant-settings.settings.shelvingLocations.label": [
@@ -67432,25 +67440,25 @@
   "ui-tenant-settings.settings.ssoSettings.label": [
     {
       "type": 0,
-      "value": "單一登入設定"
+      "value": "SSO單一登入設定"
     }
   ],
   "ui-tenant-settings.settings.timeZonePicker": [
     {
       "type": 0,
-      "value": "时区（显示时间信息时使用的时区）"
+      "value": "時區（顯示日期時間信息時使用的時區）"
     }
   ],
   "ui-tenant-settings.settings.updated": [
     {
       "type": 0,
-      "value": "设置已成功更新。"
+      "value": "設置已成功更新。"
     }
   ],
   "ui-tenant-settings.settings.validate.greaterThanZero": [
     {
       "type": 0,
-      "value": "该值必须为整数且大于0"
+      "value": "該值必須是整數且大於 0"
     }
   ],
   "ui-users.accounts.actions.calloutMessage": [
@@ -77140,13 +77148,13 @@
   "ui-eholdings.filter.contentType.mixedContent": [
     {
       "type": 0,
-      "value": "Mixed Content"
+      "value": "混合內容"
     }
   ],
   "ui-eholdings.filter.contentType.streamingMedia": [
     {
       "type": 0,
-      "value": "Streaming Media"
+      "value": "串流多媒體"
     }
   ],
   "ui-marc-authorities.browseSelectPlaceholder": [
