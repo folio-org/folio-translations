@@ -776,7 +776,7 @@
   "stripes-core.errors.username.incorrect": [
     {
       "type": 0,
-      "value": "This FOLIO account cannot be located. Please contact your FOLIO systems administrator."
+      "value": "無法找到此 FOLIO帳戶。請聯繫您的Folio系統管理員。"
     }
   ],
   "stripes-core.folioSettings": [
@@ -2623,67 +2623,67 @@
   "ui-agreements.agreement": [
     {
       "type": 0,
-      "value": "授權許可"
+      "value": "協議"
     }
   ],
   "ui-agreements.agreementLine": [
     {
       "type": 0,
-      "value": "协议行"
+      "value": "協議細項"
     }
   ],
   "ui-agreements.agreementLine.addCustomCoverageTootlip": [
     {
       "type": 0,
-      "value": "链接电子资源时可以添加自定义收录范围"
+      "value": "連接電子資源時可以新增自訂的收錄範圍"
     }
   ],
   "ui-agreements.agreementLine.basket": [
     {
       "type": 0,
-      "value": "购物篮"
+      "value": "暫存列表"
     }
   ],
   "ui-agreements.agreementLine.eholdings": [
     {
       "type": 0,
-      "value": "电子馆藏"
+      "value": "電子館藏"
     }
   ],
   "ui-agreements.agreementLine.linkEresource": [
     {
       "type": 0,
-      "value": "链接电子资源"
+      "value": "連接電子資源"
     }
   ],
   "ui-agreements.agreementLine.linkEresourceToStart": [
     {
       "type": 0,
-      "value": "链接电子资源以开始"
+      "value": "連接一個電子資源以開始使用"
     }
   ],
   "ui-agreements.agreementLine.linkSelectedEresource": [
     {
       "type": 0,
-      "value": "链接已选电子资源"
+      "value": "連接已選擇的電子資源"
     }
   ],
   "ui-agreements.agreementLine.noEresourceLinked": [
     {
       "type": 0,
-      "value": "未添加电子资源"
+      "value": "未新增任何電子資源"
     }
   ],
   "ui-agreements.agreementLine.provideEresource": [
     {
       "type": 0,
-      "value": "请提供电子资源或描述以继续"
+      "value": "請提供電子資源或說明以繼續"
     }
   ],
   "ui-agreements.agreementLine.unlinkEresource": [
     {
       "type": 0,
-      "value": "取消链接电子资源"
+      "value": "取消連接電子資源"
     }
   ],
   "ui-agreements.agreementLinePluralizable": [
@@ -2702,7 +2702,7 @@
           "value": [
             {
               "type": 0,
-              "value": "协议行"
+              "value": "協議細項"
             }
           ]
         },
@@ -2710,7 +2710,7 @@
           "value": [
             {
               "type": 0,
-              "value": "协议行"
+              "value": "協議細項"
             }
           ]
         }
@@ -2723,13 +2723,13 @@
   "ui-agreements.agreementLines.addCustomCoverage": [
     {
       "type": 0,
-      "value": "新增自定的收錄範圍"
+      "value": "新增自訂的收錄範圍"
     }
   ],
   "ui-agreements.agreementLines.addLine": [
     {
       "type": 0,
-      "value": "添加协议行"
+      "value": "新增協議細項"
     }
   ],
   "ui-agreements.agreementLines.contentUpdated": [
@@ -2741,61 +2741,61 @@
   "ui-agreements.agreementLines.costType": [
     {
       "type": 0,
-      "value": "成本类型"
+      "value": "成本類型"
     }
   ],
   "ui-agreements.agreementLines.count": [
     {
       "type": 0,
-      "value": "计数"
+      "value": "計數"
     }
   ],
   "ui-agreements.agreementLines.createLine": [
     {
       "type": 0,
-      "value": "新增授權許可條款"
+      "value": "新增協議細項"
     }
   ],
   "ui-agreements.agreementLines.custom": [
     {
       "type": 0,
-      "value": "自定义"
+      "value": "自訂"
     }
   ],
   "ui-agreements.agreementLines.customCoverage.coverageType": [
     {
       "type": 0,
-      "value": "收录范围类型"
+      "value": "收錄範圍類型"
     }
   ],
   "ui-agreements.agreementLines.customCoverage.endIssue": [
     {
       "type": 0,
-      "value": "终止期"
+      "value": "终止的「期」"
     }
   ],
   "ui-agreements.agreementLines.customCoverage.endVolume": [
     {
       "type": 0,
-      "value": "终止卷"
+      "value": "终止的「卷」"
     }
   ],
   "ui-agreements.agreementLines.customCoverage.startIssue": [
     {
       "type": 0,
-      "value": "起始期"
+      "value": "起始「 期」"
     }
   ],
   "ui-agreements.agreementLines.customCoverage.startVolume": [
     {
       "type": 0,
-      "value": "起始卷"
+      "value": "起始的「卷」"
     }
   ],
   "ui-agreements.agreementLines.customCoverageTitle": [
     {
       "type": 0,
-      "value": "自定收錄範圍 "
+      "value": "自訂收錄範圍 "
     },
     {
       "type": 1,
@@ -2805,13 +2805,13 @@
   "ui-agreements.agreementLines.deleteAgreementLine": [
     {
       "type": 0,
-      "value": "删除协议行"
+      "value": "刪除協議細項"
     }
   ],
   "ui-agreements.agreementLines.deleteConfirmMessage": [
     {
       "type": 0,
-      "value": "电子资源"
+      "value": "此電子資源 "
     },
     {
       "children": [
@@ -2833,13 +2833,13 @@
     },
     {
       "type": 0,
-      "value": "的协议行将被"
+      "value": " 的協議細項將會 "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "删除"
+          "value": "被刪除"
         }
       ],
       "type": 8,
@@ -2853,19 +2853,19 @@
   "ui-agreements.agreementLines.gross": [
     {
       "type": 0,
-      "value": "YTD总额"
+      "value": "年初至今（YTD）毛額"
     }
   ],
   "ui-agreements.agreementLines.hasCustomCoverage": [
     {
       "type": 0,
-      "value": "有自定的收錄範圍"
+      "value": "有自訂的收錄範圍"
     }
   ],
   "ui-agreements.agreementLines.lineTitle": [
     {
       "type": 0,
-      "value": "协议行＃ "
+      "value": "協議細項＃ "
     },
     {
       "type": 1,
@@ -2875,31 +2875,31 @@
   "ui-agreements.agreementLines.net": [
     {
       "type": 0,
-      "value": "YTD净值"
+      "value": "年初至今（YTD）淨額"
     }
   ],
   "ui-agreements.agreementLines.noLines": [
     {
       "type": 0,
-      "value": "協議無協議行。"
+      "value": "此協議沒有協議細項"
     }
   ],
   "ui-agreements.agreementLines.noPoLinePerm": [
     {
       "type": 0,
-      "value": "没有查看订单行的权限"
+      "value": "無查看訂單細項的權限"
     }
   ],
   "ui-agreements.agreementLines.polines": [
     {
       "type": 0,
-      "value": "订单行"
+      "value": "訂單細項（PO line）"
     }
   ],
   "ui-agreements.agreementLines.removeCustomCoverage": [
     {
       "type": 0,
-      "value": "移除自定义收录范围"
+      "value": "刪除自訂的收錄範圍 "
     },
     {
       "type": 1,
@@ -2909,13 +2909,13 @@
   "ui-agreements.agreementLines.removeItem": [
     {
       "type": 0,
-      "value": "从协议中移除条款"
+      "value": "從協議中移除協議細項"
     }
   ],
   "ui-agreements.agreementLines.removeLine": [
     {
       "type": 0,
-      "value": "移除协议行"
+      "value": "刪除協議細項 "
     },
     {
       "type": 1,
@@ -2925,67 +2925,67 @@
   "ui-agreements.agreementLines.suppressFromDiscovery": [
     {
       "type": 0,
-      "value": "在发现中隐藏"
+      "value": "在資源探索服務中隱藏"
     }
   ],
   "ui-agreements.agreementPeriods": [
     {
       "type": 0,
-      "value": "协议期限"
+      "value": "協議期間"
     }
   ],
   "ui-agreements.agreementPeriods.addPeriod": [
     {
       "type": 0,
-      "value": "添加协议期限"
+      "value": "新增協議期間"
     }
   ],
   "ui-agreements.agreementPeriods.allPeriods": [
     {
       "type": 0,
-      "value": "所有期间"
+      "value": "所有期間"
     }
   ],
   "ui-agreements.agreementPeriods.current": [
     {
       "type": 0,
-      "value": "当前"
+      "value": "目前"
     }
   ],
   "ui-agreements.agreementPeriods.next": [
     {
       "type": 0,
-      "value": "下一个"
+      "value": "下一個"
     }
   ],
   "ui-agreements.agreementPeriods.period": [
     {
       "type": 0,
-      "value": "期限"
+      "value": "期間"
     }
   ],
   "ui-agreements.agreementPeriods.periodEnd": [
     {
       "type": 0,
-      "value": "期限结束"
+      "value": "期間结束"
     }
   ],
   "ui-agreements.agreementPeriods.periodNote": [
     {
       "type": 0,
-      "value": "期限附注"
+      "value": "期間附註"
     }
   ],
   "ui-agreements.agreementPeriods.periodStart": [
     {
       "type": 0,
-      "value": "期限开始"
+      "value": "期間開始"
     }
   ],
   "ui-agreements.agreementPeriods.periodTitle": [
     {
       "type": 0,
-      "value": "协议期限"
+      "value": "協議期間 "
     },
     {
       "type": 1,
@@ -2995,13 +2995,13 @@
   "ui-agreements.agreementPeriods.previous": [
     {
       "type": 0,
-      "value": "上一个"
+      "value": "上一個"
     }
   ],
   "ui-agreements.agreementPeriods.removePeriod": [
     {
       "type": 0,
-      "value": "遗除协议期限"
+      "value": "刪除協議期間 "
     },
     {
       "type": 1,
@@ -3024,7 +3024,7 @@
           "value": [
             {
               "type": 0,
-              "value": " agreement "
+              "value": "agreement"
             }
           ]
         },
@@ -3045,7 +3045,7 @@
   "ui-agreements.agreements": [
     {
       "type": 0,
-      "value": "授權許可"
+      "value": "協議"
     }
   ],
   "ui-agreements.agreements.agreementDescription": [
@@ -3057,13 +3057,13 @@
   "ui-agreements.agreements.agreementInfo": [
     {
       "type": 0,
-      "value": "授權許可資料"
+      "value": "協議資訊"
     }
   ],
   "ui-agreements.agreements.agreementLines": [
     {
       "type": 0,
-      "value": "协议行"
+      "value": "協議細項"
     }
   ],
   "ui-agreements.agreements.agreementStatus": [
@@ -3075,7 +3075,7 @@
   "ui-agreements.agreements.assocAgreements": [
     {
       "type": 0,
-      "value": "关联的协议"
+      "value": "相關的協議"
     }
   ],
   "ui-agreements.agreements.cancellationDeadline": [
@@ -3087,25 +3087,25 @@
   "ui-agreements.agreements.closeEdit": [
     {
       "type": 0,
-      "value": "關閉編輯授權許可"
+      "value": "關閉編輯協議"
     }
   ],
   "ui-agreements.agreements.contentReviewDates": [
     {
       "type": 0,
-      "value": "下个审核日期"
+      "value": "近期的審查日期"
     }
   ],
   "ui-agreements.agreements.contentReviewNeeded": [
     {
       "type": 0,
-      "value": "需要审核内容吗？"
+      "value": "需要進行內容審查嗎？"
     }
   ],
   "ui-agreements.agreements.contentReviews": [
     {
       "type": 0,
-      "value": "内容审核"
+      "value": "內容審查"
     }
   ],
   "ui-agreements.agreements.create.callout": [
@@ -3113,7 +3113,7 @@
       "children": [
         {
           "type": 0,
-          "value": "协议已创建： "
+          "value": "協議已新增： "
         }
       ],
       "type": 8,
@@ -3131,31 +3131,31 @@
   "ui-agreements.agreements.createAgreement": [
     {
       "type": 0,
-      "value": "新增授權許可"
+      "value": "新增協議"
     }
   ],
   "ui-agreements.agreements.currentPeriodNote": [
     {
       "type": 0,
-      "value": "当前周期附注"
+      "value": "目前協議區間的附註"
     }
   ],
   "ui-agreements.agreements.dateAgreementBegan": [
     {
       "type": 0,
-      "value": "协议开始日期"
+      "value": "Date agreement began"
     }
   ],
   "ui-agreements.agreements.deleteAgreement": [
     {
       "type": 0,
-      "value": "删除协议"
+      "value": "刪除協議"
     }
   ],
   "ui-agreements.agreements.deleteConfirmMessage": [
     {
       "type": 0,
-      "value": "协议"
+      "value": "協議"
     },
     {
       "children": [
@@ -3177,13 +3177,13 @@
     },
     {
       "type": 0,
-      "value": "将被"
+      "value": "將會"
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "删除"
+          "value": "被刪除"
         }
       ],
       "type": 8,
@@ -3199,7 +3199,7 @@
       "children": [
         {
           "type": 0,
-          "value": "协议已删除： "
+          "value": "協議已被刪除： "
         }
       ],
       "type": 8,
@@ -3217,7 +3217,7 @@
   "ui-agreements.agreements.duplicate": [
     {
       "type": 0,
-      "value": "复制"
+      "value": "複製"
     }
   ],
   "ui-agreements.agreements.edit": [
@@ -3229,13 +3229,13 @@
   "ui-agreements.agreements.editAgreement": [
     {
       "type": 0,
-      "value": "编辑协议"
+      "value": "編輯協議"
     }
   ],
   "ui-agreements.agreements.editAgreement.name": [
     {
       "type": 0,
-      "value": "Edit agreement - "
+      "value": "編輯協議 - "
     },
     {
       "type": 1,
@@ -3245,7 +3245,7 @@
   "ui-agreements.agreements.editFinancesAgreementLines": [
     {
       "type": 0,
-      "value": "編輯授權許可行"
+      "value": "編輯協議細項"
     }
   ],
   "ui-agreements.agreements.endDate": [
@@ -3257,43 +3257,43 @@
   "ui-agreements.agreements.eresourceAgreementLines": [
     {
       "type": 0,
-      "value": "電子資源 - 授權許可條款"
+      "value": "電子資源 - 協議細項"
     }
   ],
   "ui-agreements.agreements.eresourcesCovered": [
     {
       "type": 0,
-      "value": "此授權許可包含的電子資源"
+      "value": "此協議包含的電子資源"
     }
   ],
   "ui-agreements.agreements.export": [
     {
       "type": 0,
-      "value": "导出"
+      "value": "匯出"
     }
   ],
   "ui-agreements.agreements.financeReports": [
     {
       "type": 0,
-      "value": "會計報告"
+      "value": "財務報告"
     }
   ],
   "ui-agreements.agreements.financesAgreementLines": [
     {
       "type": 0,
-      "value": "财务 - 协议行"
+      "value": "財務 - 協議細項"
     }
   ],
   "ui-agreements.agreements.internalContacts": [
     {
       "type": 0,
-      "value": "內部聯繫人"
+      "value": "內部聯絡人"
     }
   ],
   "ui-agreements.agreements.internalContactsRole": [
     {
       "type": 0,
-      "value": "內部聯繫人角色"
+      "value": "內部聯絡人身份"
     }
   ],
   "ui-agreements.agreements.isPerpetual": [
@@ -3305,19 +3305,19 @@
   "ui-agreements.agreements.license": [
     {
       "type": 0,
-      "value": "授權憑證"
+      "value": "授權"
     }
   ],
   "ui-agreements.agreements.licenseAndBusTerms": [
     {
       "type": 0,
-      "value": "授權憑證與商業條款"
+      "value": "授權與商務條款"
     }
   ],
   "ui-agreements.agreements.licenseInfo": [
     {
       "type": 0,
-      "value": "授權憑證詳細資料"
+      "value": "授權資訊"
     }
   ],
   "ui-agreements.agreements.name": [
@@ -3335,7 +3335,7 @@
   "ui-agreements.agreements.reasonForClosure": [
     {
       "type": 0,
-      "value": "关闭的原因"
+      "value": "終止的原因"
     }
   ],
   "ui-agreements.agreements.renewalPriority": [
@@ -3347,37 +3347,37 @@
   "ui-agreements.agreements.reviewDate": [
     {
       "type": 0,
-      "value": "审核日期"
+      "value": "審查日期"
     }
   ],
   "ui-agreements.agreements.reviewDecision": [
     {
       "type": 0,
-      "value": "决策"
+      "value": "決策"
     }
   ],
   "ui-agreements.agreements.reviewHistory": [
     {
       "type": 0,
-      "value": "审核历史"
+      "value": "審查歷史"
     }
   ],
   "ui-agreements.agreements.reviewNotes": [
     {
       "type": 0,
-      "value": "决策说明"
+      "value": "決策註記"
     }
   ],
   "ui-agreements.agreements.searchInputLabel": [
     {
       "type": 0,
-      "value": "查詢授權許可"
+      "value": "查詢協議"
     }
   ],
   "ui-agreements.agreements.selectIsPerpetual": [
     {
       "type": 0,
-      "value": "选择协议永久性"
+      "value": "選擇協議的永久性"
     }
   ],
   "ui-agreements.agreements.selectRenewalPriority": [
@@ -3389,7 +3389,7 @@
   "ui-agreements.agreements.selectStatus": [
     {
       "type": 0,
-      "value": "選擇授權許可狀態"
+      "value": "選擇協議的狀態"
     }
   ],
   "ui-agreements.agreements.showInvoicesLink": [
@@ -3419,13 +3419,13 @@
   "ui-agreements.agreements.trialAgreement": [
     {
       "type": 0,
-      "value": "是否属于试用协议？"
+      "value": "此協議是否為試用？"
     }
   ],
   "ui-agreements.agreements.trialEndDate": [
     {
       "type": 0,
-      "value": "试用结束日期"
+      "value": "試用結束日期"
     }
   ],
   "ui-agreements.agreements.trialStartDate": [
@@ -3437,13 +3437,13 @@
   "ui-agreements.agreements.trialURL": [
     {
       "type": 0,
-      "value": "试用版的URL"
+      "value": "試用的 URL"
     }
   ],
   "ui-agreements.agreements.trials": [
     {
       "type": 0,
-      "value": "试用"
+      "value": "試用"
     }
   ],
   "ui-agreements.agreements.update.callout": [
@@ -3451,7 +3451,7 @@
       "children": [
         {
           "type": 0,
-          "value": "协议已更新： "
+          "value": "協議已更新： "
         }
       ],
       "type": 8,
@@ -3469,19 +3469,19 @@
   "ui-agreements.agreements.vendor": [
     {
       "type": 0,
-      "value": "代理商"
+      "value": "供應商"
     }
   ],
   "ui-agreements.agreements.view": [
     {
       "type": 0,
-      "value": "查看"
+      "value": "檢視"
     }
   ],
   "ui-agreements.agreements.visitPlatform": [
     {
       "type": 0,
-      "value": "访问平台"
+      "value": "訪問平台"
     }
   ],
   "ui-agreements.alternativeNames": [
@@ -3493,67 +3493,67 @@
   "ui-agreements.appMenu.keyboardShortcuts": [
     {
       "type": 0,
-      "value": "Keyboard shortcuts"
+      "value": "鍵盤快捷鍵"
     }
   ],
   "ui-agreements.basket.addToSelectedAgreement": [
     {
       "type": 0,
-      "value": "添加到选定的协议"
+      "value": "新增到選擇的協議"
     }
   ],
   "ui-agreements.basket.clickToSelectAgreement": [
     {
       "type": 0,
-      "value": "单击以选中协议"
+      "value": "點一下來選擇協議"
     }
   ],
   "ui-agreements.basket.close": [
     {
       "type": 0,
-      "value": "关闭列表"
+      "value": "關閉暫存列表"
     }
   ],
   "ui-agreements.basket.createAgreement": [
     {
       "type": 0,
-      "value": "新增授權許可"
+      "value": "新增協議"
     }
   ],
   "ui-agreements.basket.existingAgreements": [
     {
       "type": 0,
-      "value": "现有协议"
+      "value": "現有的協議"
     }
   ],
   "ui-agreements.basket.layerLabel": [
     {
       "type": 0,
-      "value": "在电子资源列表中查看"
+      "value": "查看電子資源暫存列表中的電子資源"
     }
   ],
   "ui-agreements.basket.messageBanner": [
     {
       "type": 0,
-      "value": "选择一个或多个电子资源，并将它们添加到新的或现有的协议中。将为您选择的每个电子资源创建一个协议行。"
+      "value": "選擇一個或多個電子資源並將它們新增到新的或現有的協議中。將為您選擇的每個電子資源建立一個協議細項。"
     }
   ],
   "ui-agreements.basket.name": [
     {
       "type": 0,
-      "value": "電子資源列表"
+      "value": "電子資源暫存列表"
     }
   ],
   "ui-agreements.basket.parentPackage": [
     {
       "type": 0,
-      "value": "上级包"
+      "value": "上層資源包"
     }
   ],
   "ui-agreements.basket.recordCount": [
     {
       "type": 0,
-      "value": "显示 "
+      "value": "顯示 "
     },
     {
       "style": null,
@@ -3571,7 +3571,7 @@
           "value": [
             {
               "type": 0,
-              "value": "记录"
+              "value": "紀錄"
             }
           ]
         },
@@ -3579,7 +3579,7 @@
           "value": [
             {
               "type": 0,
-              "value": "记录"
+              "value": "紀錄"
             }
           ]
         }
@@ -3592,7 +3592,7 @@
   "ui-agreements.basket.removeFromBasket": [
     {
       "type": 0,
-      "value": "从购物篮中移除"
+      "value": "從暫存列表中移除 "
     },
     {
       "type": 1,
@@ -3600,7 +3600,7 @@
     },
     {
       "type": 0,
-      "value": " “ "
+      "value": " \""
     },
     {
       "type": 1,
@@ -3608,13 +3608,13 @@
     },
     {
       "type": 0,
-      "value": " ”"
+      "value": "\""
     }
   ],
   "ui-agreements.basket.removeItem": [
     {
       "type": 0,
-      "value": "从列表中移除单件"
+      "value": "從暫存列表中移除單件"
     }
   ],
   "ui-agreements.basketButton": [
@@ -3638,7 +3638,7 @@
           "value": [
             {
               "type": 0,
-              "value": "单件"
+              "value": "單件"
             }
           ]
         },
@@ -3646,7 +3646,7 @@
           "value": [
             {
               "type": 0,
-              "value": "单件"
+              "value": "單件"
             }
           ]
         }
@@ -3659,43 +3659,43 @@
   "ui-agreements.basketSelector.emptyMessage": [
     {
       "type": 0,
-      "value": "No items in e-resource basket"
+      "value": "電子資源暫存列表中沒有任何項目"
     }
   ],
   "ui-agreements.basketSelector.infoPopover": [
     {
       "type": 0,
-      "value": "A set of e-resources which are currently in the basket"
+      "value": "目前在暫存列表中的一組電子資源"
     }
   ],
   "ui-agreements.basketSelector.linkSelectedEresource.tooltip": [
     {
       "type": 0,
-      "value": "An e-resource can be linked when it is has been added to the basket"
+      "value": "被新增到暫存列表的電子資源可以被連接"
     }
   ],
   "ui-agreements.basketSelector.selectLabel": [
     {
       "type": 0,
-      "value": "从列表中选择"
+      "value": "從暫存列表中選取"
     }
   ],
   "ui-agreements.basketSelector.selectPlaceholder": [
     {
       "type": 0,
-      "value": "选择电子资源或包"
+      "value": "選擇電子資源或資源包"
     }
   ],
   "ui-agreements.basketSelector.selectResourceMessage": [
     {
       "type": 0,
-      "value": "Please select an e-resource to continue"
+      "value": "請選擇一個電子資源以繼續"
     }
   ],
   "ui-agreements.close": [
     {
       "type": 0,
-      "value": "关闭"
+      "value": "關閉"
     }
   ],
   "ui-agreements.content.all": [
@@ -3707,25 +3707,25 @@
   "ui-agreements.content.current": [
     {
       "type": 0,
-      "value": "当前"
+      "value": "目前"
     }
   ],
   "ui-agreements.content.dropped": [
     {
       "type": 0,
-      "value": "掉落"
+      "value": "中斷的"
     }
   ],
   "ui-agreements.content.future": [
     {
       "type": 0,
-      "value": "未来"
+      "value": "未來"
     }
   ],
   "ui-agreements.coverage.editionShort": [
     {
       "type": 0,
-      "value": "版本："
+      "value": "版次："
     }
   ],
   "ui-agreements.coverage.issueShort": [
@@ -3743,49 +3743,49 @@
   "ui-agreements.create": [
     {
       "type": 0,
-      "value": "创建"
+      "value": "建立"
     }
   ],
   "ui-agreements.customCoverage.warn.endDate": [
     {
       "type": 0,
-      "value": "由于未链接任何电子资源，结束日期将清除"
+      "value": "因為沒有連接電子資源，結束日期將被清除"
     }
   ],
   "ui-agreements.customCoverage.warn.endIssue": [
     {
       "type": 0,
-      "value": "由于未链接任何电子资源，终止期将被清除"
+      "value": "因為沒有連接電子資源，終止的「期」將被清除"
     }
   ],
   "ui-agreements.customCoverage.warn.endVolume": [
     {
       "type": 0,
-      "value": "由于未链接任何电子资源，终止卷将被清除"
+      "value": "因為沒有連接電子資源，終止的「卷」將被清除"
     }
   ],
   "ui-agreements.customCoverage.warn.startDate": [
     {
       "type": 0,
-      "value": "由于未链接任何电子资源，起始日期将清除"
+      "value": "因為沒有連接電子資源，開始日期將被清除"
     }
   ],
   "ui-agreements.customCoverage.warn.startIssue": [
     {
       "type": 0,
-      "value": "由于未链接任何电子资源，起始期将被清除"
+      "value": "因為沒有連接電子資源，起始的「期」將被清除"
     }
   ],
   "ui-agreements.customCoverage.warn.startVolume": [
     {
       "type": 0,
-      "value": "由于未链接任何电子资源，起始卷将清除"
+      "value": "因為沒有連接電子資源，起始的「卷」將被清除"
     }
   ],
   "ui-agreements.customcoverages.tooltip": [
     {
       "type": 0,
-      "value": "自定义收录范围"
+      "value": "自訂收錄範圍"
     }
   ],
   "ui-agreements.dashboard": [
@@ -3832,7 +3832,7 @@
   "ui-agreements.default": [
     {
       "type": 0,
-      "value": "默认"
+      "value": "預設"
     }
   ],
   "ui-agreements.delete": [
@@ -3850,7 +3850,7 @@
   "ui-agreements.doc.removeExternalLicense": [
     {
       "type": 0,
-      "value": "移除外部许可证"
+      "value": "刪除外置的授權 "
     },
     {
       "type": 1,
@@ -3860,7 +3860,7 @@
   "ui-agreements.doc.removeSupplementaryInformation": [
     {
       "type": 0,
-      "value": "移除文档"
+      "value": "刪除文件 "
     },
     {
       "type": 1,
@@ -3870,67 +3870,67 @@
   "ui-agreements.duplicateAgreementModal.agreementInfo": [
     {
       "type": 0,
-      "value": "协议信息"
+      "value": "協議資訊"
     }
   ],
   "ui-agreements.duplicateAgreementModal.agreementLines": [
     {
       "type": 0,
-      "value": "协议行"
+      "value": "協議細項"
     }
   ],
   "ui-agreements.duplicateAgreementModal.cloneEndpointError": [
     {
       "type": 0,
-      "value": "无法复制协议。无法访问克隆端点。"
+      "value": "無法複製協議。無法訪問複製用的端點（clone endpoint）。"
     }
   ],
   "ui-agreements.duplicateAgreementModal.duplicateAgreement": [
     {
       "type": 0,
-      "value": "複製授權許可"
+      "value": "複製協議"
     }
   ],
   "ui-agreements.duplicateAgreementModal.duplicateMessage": [
     {
       "type": 0,
-      "value": "請選擇要複製的授權許可段落"
+      "value": "請選擇要複製的協議區段"
     }
   ],
   "ui-agreements.duplicateAgreementModal.duplicateModalError": [
     {
       "type": 0,
-      "value": "錯誤：授權許可未被複製"
+      "value": "錯誤：此協議未被複製"
     }
   ],
   "ui-agreements.duplicateAgreementModal.externalLicenses": [
     {
       "type": 0,
-      "value": "外部许可证"
+      "value": "外置的授權"
     }
   ],
   "ui-agreements.duplicateAgreementModal.internalContacts": [
     {
       "type": 0,
-      "value": "內部聯繫人"
+      "value": "內部聯絡人"
     }
   ],
   "ui-agreements.duplicateAgreementModal.invalidResponseError": [
     {
       "type": 0,
-      "value": "無法複製授權許可，從伺服器接收到無效回應。"
+      "value": "無法複製協議，從伺服器接收到無效回應。"
     }
   ],
   "ui-agreements.duplicateAgreementModal.linkedLicenses": [
     {
       "type": 0,
-      "value": "链接许可证"
+      "value": "連接授權"
     }
   ],
   "ui-agreements.duplicateAgreementModal.org.olf.erm.SubscriptionAgreement.name.unique": [
     {
       "type": 0,
-      "value": "无法复制协议。协议未保存。名称必须唯一。名称为“副本： "
+      "value": "無法複製此協議。協議尚未被儲存。協議名稱必須為唯一值。名稱為 \""
     },
     {
       "type": 1,
@@ -3938,37 +3938,37 @@
     },
     {
       "type": 0,
-      "value": " ”的协议已存在。"
+      "value": "\" 的協議已經存在。"
     }
   ],
   "ui-agreements.duplicateAgreementModal.organizations": [
     {
       "type": 0,
-      "value": "组织"
+      "value": "組織機構"
     }
   ],
   "ui-agreements.duplicateAgreementModal.supplementaryDocuments": [
     {
       "type": 0,
-      "value": "Supplementary documents"
+      "value": "補充文件"
     }
   ],
   "ui-agreements.duplicateAgreementModal.supplementaryProperties": [
     {
       "type": 0,
-      "value": "Supplementary properties"
+      "value": "補充屬性"
     }
   ],
   "ui-agreements.duplicateAgreementModal.usageData": [
     {
       "type": 0,
-      "value": "使用数据"
+      "value": "使用統計資料"
     }
   ],
   "ui-agreements.editResource": [
     {
       "type": 0,
-      "value": "编辑"
+      "value": "編輯 "
     },
     {
       "type": 1,
@@ -3978,7 +3978,7 @@
   "ui-agreements.embargo": [
     {
       "type": 0,
-      "value": "排除范围"
+      "value": "電子全文取用限制期"
     }
   ],
   "ui-agreements.embargo.end": [
@@ -3996,121 +3996,121 @@
   "ui-agreements.emptyAccordion.agreementLines": [
     {
       "type": 0,
-      "value": "此协议无协议行"
+      "value": "此協議無協議細項"
     }
   ],
   "ui-agreements.emptyAccordion.controllingLicense": [
     {
       "type": 0,
-      "value": "此协议无控制许可证"
+      "value": "此協議無控制中的授權"
     }
   ],
   "ui-agreements.emptyAccordion.externalLicenses": [
     {
       "type": 0,
-      "value": "此协议无外部许可证"
+      "value": "此協議無外置的授權"
     }
   ],
   "ui-agreements.emptyAccordion.futureLicenses": [
     {
       "type": 0,
-      "value": "此协议无未来许可证"
+      "value": "此協議無未來的授權"
     }
   ],
   "ui-agreements.emptyAccordion.historicalLicenses": [
     {
       "type": 0,
-      "value": "此协议无历史许可证"
+      "value": "此協議無過去的授權"
     }
   ],
   "ui-agreements.emptyAccordion.internalContacts": [
     {
       "type": 0,
-      "value": "此授權許可無內部聯繫人"
+      "value": "此協議無內部聯絡人"
     }
   ],
   "ui-agreements.emptyAccordion.licenseAndBusinessTerms": [
     {
       "type": 0,
-      "value": "本协议无许可证和业务条款"
+      "value": "此協議無授權與商業條款"
     }
   ],
   "ui-agreements.emptyAccordion.lineCoverage": [
     {
       "type": 0,
-      "value": "此协议行没有收录范围"
+      "value": "此協議細項沒有收錄範圍"
     }
   ],
   "ui-agreements.emptyAccordion.lineCoverageEresource": [
     {
       "type": 0,
-      "value": "此电子资源无收录范围"
+      "value": "此電子資源沒有收錄範圍"
     }
   ],
   "ui-agreements.emptyAccordion.lineCustomCoverage": [
     {
       "type": 0,
-      "value": "此协议行没有自定义收录范围"
+      "value": "此協議細項沒有自訂的收錄範圍"
     }
   ],
   "ui-agreements.emptyAccordion.linePOLines": [
     {
       "type": 0,
-      "value": "此协议行没有采购订单行"
+      "value": "此協議細項沒有任何的訂單細項"
     }
   ],
   "ui-agreements.emptyAccordion.noAgreementsEresource": [
     {
       "type": 0,
-      "value": "此电子资源没有协议"
+      "value": "此電子資源沒有協議"
     }
   ],
   "ui-agreements.emptyAccordion.noAgreementsOtherPackages": [
     {
       "type": 0,
-      "value": "没有关于其他平台资源包组合的协议"
+      "value": "沒有關於其他平台資源包組合的協議"
     }
   ],
   "ui-agreements.emptyAccordion.noAgreementsPackage": [
     {
       "type": 0,
-      "value": "没有此资源包的协议"
+      "value": "此資源包沒有協議"
     }
   ],
   "ui-agreements.emptyAccordion.organizations": [
     {
       "type": 0,
-      "value": "此协议无组织"
+      "value": "此協議無組織機構"
     }
   ],
   "ui-agreements.emptyAccordion.pciCoverage": [
     {
       "type": 0,
-      "value": "此标题没有收录范围"
+      "value": "此題名沒有收錄範圍"
     }
   ],
   "ui-agreements.emptyAccordion.relatedAgreements": [
     {
       "type": 0,
-      "value": "此协议无相关协议"
+      "value": "此協議無相關的協議"
     }
   ],
   "ui-agreements.emptyAccordion.supplementaryDocuments": [
     {
       "type": 0,
-      "value": "此协议无补充文档"
+      "value": "此協議無補充文件"
     }
   ],
   "ui-agreements.emptyAccordion.supplementaryProperties": [
     {
       "type": 0,
-      "value": "此协议无补充属性"
+      "value": "此協議無補充屬性"
     }
   ],
   "ui-agreements.emptyAccordion.usageData": [
     {
       "type": 0,
-      "value": "此协议无使用数据"
+      "value": "此協議無使用統計資料"
     }
   ],
   "ui-agreements.eresource": [
@@ -4162,25 +4162,25 @@
   "ui-agreements.eresources.accessEnd": [
     {
       "type": 0,
-      "value": "访问结束"
+      "value": "使用結束"
     }
   ],
   "ui-agreements.eresources.accessStart": [
     {
       "type": 0,
-      "value": "访问开始"
+      "value": "使用開始"
     }
   ],
   "ui-agreements.eresources.accessStatusType": [
     {
       "type": 0,
-      "value": "访问状态类型"
+      "value": "訪問狀態類型"
     }
   ],
   "ui-agreements.eresources.accessTitleOnPlatform": [
     {
       "type": 0,
-      "value": "访问"
+      "value": "訪問 "
     },
     {
       "type": 1,
@@ -4190,13 +4190,13 @@
   "ui-agreements.eresources.accessibleFrom": [
     {
       "type": 0,
-      "value": "可访问，自"
+      "value": "可使用，自"
     }
   ],
   "ui-agreements.eresources.accessibleUntil": [
     {
       "type": 0,
-      "value": "可访问，直到"
+      "value": "可使用，直到"
     }
   ],
   "ui-agreements.eresources.acqMethod": [
@@ -4214,25 +4214,25 @@
   "ui-agreements.eresources.activeFrom": [
     {
       "type": 0,
-      "value": "激活自"
+      "value": "啟用自"
     }
   ],
   "ui-agreements.eresources.activeTo": [
     {
       "type": 0,
-      "value": "激活到"
+      "value": "啟用到"
     }
   ],
   "ui-agreements.eresources.addPackage": [
     {
       "type": 0,
-      "value": "添加包"
+      "value": "新增資源包"
     }
   ],
   "ui-agreements.eresources.addPackageButtonTooltip": [
     {
       "type": 0,
-      "value": "添加到购物篮：资源包“ "
+      "value": "新增到暫存列表：資源包 \""
     },
     {
       "type": 1,
@@ -4240,25 +4240,25 @@
     },
     {
       "type": 0,
-      "value": " ”"
+      "value": "\""
     }
   ],
   "ui-agreements.eresources.addPackageToBasket": [
     {
       "type": 0,
-      "value": "将资源包添加到购物篮"
+      "value": "將資源包放到暫存列表"
     }
   ],
   "ui-agreements.eresources.addTitle": [
     {
       "type": 0,
-      "value": "添加标题"
+      "value": "新增題名"
     }
   ],
   "ui-agreements.eresources.addTitleButtonTooltip": [
     {
       "type": 0,
-      "value": "添加到购物篮：资源包“ "
+      "value": "新增到暫存列表：資源包 \""
     },
     {
       "type": 1,
@@ -4266,37 +4266,37 @@
     },
     {
       "type": 0,
-      "value": " ”中的标题"
+      "value": "\" 中的題名"
     }
   ],
   "ui-agreements.eresources.addTitleToBasket": [
     {
       "type": 0,
-      "value": "在购物篮中添加标题"
+      "value": "新增題名到暫存列表"
     }
   ],
   "ui-agreements.eresources.addToBasketHeader": [
     {
       "type": 0,
-      "value": "動作"
+      "value": "操作"
     }
   ],
   "ui-agreements.eresources.agreementStatus": [
     {
       "type": 0,
-      "value": "授權許可狀態"
+      "value": "協議狀態"
     }
   ],
   "ui-agreements.eresources.contentType": [
     {
       "type": 0,
-      "value": "资源包的内容类型"
+      "value": "資源包的內容類型"
     }
   ],
   "ui-agreements.eresources.count": [
     {
       "type": 0,
-      "value": "计数"
+      "value": "計數"
     }
   ],
   "ui-agreements.eresources.coverage": [
@@ -4314,7 +4314,7 @@
   "ui-agreements.eresources.coverageEnd": [
     {
       "type": 0,
-      "value": "覆盖范围结束"
+      "value": "收錄範圍結束"
     }
   ],
   "ui-agreements.eresources.coverageStart": [
@@ -4326,7 +4326,7 @@
   "ui-agreements.eresources.dataSource": [
     {
       "type": 0,
-      "value": "数据源"
+      "value": "資料來源"
     }
   ],
   "ui-agreements.eresources.datePublished": [
@@ -4338,7 +4338,7 @@
   "ui-agreements.eresources.defaultCoverage": [
     {
       "type": 0,
-      "value": "默认收录范围"
+      "value": "預設的收錄範圍"
     }
   ],
   "ui-agreements.eresources.description": [
@@ -4350,13 +4350,13 @@
   "ui-agreements.eresources.discoverySettings": [
     {
       "type": 0,
-      "value": "发现设置"
+      "value": "資源探索服務設定"
     }
   ],
   "ui-agreements.eresources.discoverySettings.suppressFromDiscoveryAgreementLine": [
     {
       "type": 0,
-      "value": "在发现中隐藏"
+      "value": "在資源探索服務中隱藏 "
     },
     {
       "type": 1,
@@ -4364,13 +4364,13 @@
     },
     {
       "type": 0,
-      "value": " （协议行）"
+      "value": " （協議細項）"
     }
   ],
   "ui-agreements.eresources.discoverySettings.suppressFromDiscoveryTitle": [
     {
       "type": 0,
-      "value": "在发现发现中隐藏"
+      "value": "在資源探索服務中隱藏 "
     },
     {
       "type": 1,
@@ -4378,13 +4378,13 @@
     },
     {
       "type": 0,
-      "value": " （标题）"
+      "value": " （題名）"
     }
   ],
   "ui-agreements.eresources.discoverySettings.suppressFromDiscoveryTitleInPackage": [
     {
       "type": 0,
-      "value": "在发现中隐藏"
+      "value": "在資源探索服務中隱藏 "
     },
     {
       "type": 1,
@@ -4392,7 +4392,7 @@
     },
     {
       "type": 0,
-      "value": " （资源包中标题）"
+      "value": " （資源包中的題名）"
     }
   ],
   "ui-agreements.eresources.eIssn": [
@@ -4404,19 +4404,19 @@
   "ui-agreements.eresources.edit": [
     {
       "type": 0,
-      "value": "编辑"
+      "value": "編輯"
     }
   ],
   "ui-agreements.eresources.edition": [
     {
       "type": 0,
-      "value": "版本"
+      "value": "版次"
     }
   ],
   "ui-agreements.eresources.erAgreements": [
     {
       "type": 0,
-      "value": "该电子资源的许可"
+      "value": "此電子資源的協議"
     }
   ],
   "ui-agreements.eresources.erInfo": [
@@ -4440,25 +4440,25 @@
   "ui-agreements.eresources.firstEditor": [
     {
       "type": 0,
-      "value": "第一编者"
+      "value": "第一編輯"
     }
   ],
   "ui-agreements.eresources.haveAccess": [
     {
       "type": 0,
-      "value": "有权访问"
+      "value": "有使用權"
     }
   ],
   "ui-agreements.eresources.holdingStatus": [
     {
       "type": 0,
-      "value": "馆藏状态"
+      "value": "館藏狀態"
     }
   ],
   "ui-agreements.eresources.isPackage": [
     {
       "type": 0,
-      "value": "是否打包"
+      "value": "是否為資源包"
     }
   ],
   "ui-agreements.eresources.jusp": [
@@ -4470,7 +4470,7 @@
   "ui-agreements.eresources.materialType": [
     {
       "type": 0,
-      "value": "资料类型"
+      "value": "資料類型"
     }
   ],
   "ui-agreements.eresources.name": [
@@ -4482,19 +4482,19 @@
   "ui-agreements.eresources.nameDescription": [
     {
       "type": 0,
-      "value": "名称/描述"
+      "value": "名稱/描述"
     }
   ],
   "ui-agreements.eresources.notSelected": [
     {
       "type": 0,
-      "value": "未选"
+      "value": "未選"
     }
   ],
   "ui-agreements.eresources.otherPlatformPackages": [
     {
       "type": 0,
-      "value": "其他平台资源包组合上的“ "
+      "value": "其他平台資源包組合的“ "
     },
     {
       "type": 1,
@@ -4514,37 +4514,37 @@
   "ui-agreements.eresources.package": [
     {
       "type": 0,
-      "value": "包"
+      "value": "資源包"
     }
   ],
   "ui-agreements.eresources.packageAgreements": [
     {
       "type": 0,
-      "value": "此资源包的协议"
+      "value": "此資源包的協議"
     }
   ],
   "ui-agreements.eresources.packageDetails": [
     {
       "type": 0,
-      "value": "资源包详情"
+      "value": "資源包詳情"
     }
   ],
   "ui-agreements.eresources.packageResources": [
     {
       "type": 0,
-      "value": "包中电子资源"
+      "value": "資源包中的電子資源"
     }
   ],
   "ui-agreements.eresources.parentPackage": [
     {
       "type": 0,
-      "value": "上级包"
+      "value": "上層資源包"
     }
   ],
   "ui-agreements.eresources.parentPackageDetails": [
     {
       "type": 0,
-      "value": "父资源包详情"
+      "value": "上層資源包詳情"
     }
   ],
   "ui-agreements.eresources.platform": [
@@ -4562,7 +4562,7 @@
   "ui-agreements.eresources.publicationType": [
     {
       "type": 0,
-      "value": "出版类型"
+      "value": "出版類型"
     }
   ],
   "ui-agreements.eresources.publisher": [
@@ -4574,13 +4574,13 @@
   "ui-agreements.eresources.reference": [
     {
       "type": 0,
-      "value": "参考"
+      "value": "參考"
     }
   ],
   "ui-agreements.eresources.relatedTitle": [
     {
       "type": 0,
-      "value": "相关标题“ "
+      "value": "相關的題名 \""
     },
     {
       "type": 1,
@@ -4588,19 +4588,19 @@
     },
     {
       "type": 0,
-      "value": " ”"
+      "value": "\""
     }
   ],
   "ui-agreements.eresources.removePackage": [
     {
       "type": 0,
-      "value": "移除包"
+      "value": "移除資源包"
     }
   ],
   "ui-agreements.eresources.removePackageButtonTooltip": [
     {
       "type": 0,
-      "value": "从购物篮中移除：资源包“ "
+      "value": "從暫存列表中移除：資源包 \""
     },
     {
       "type": 1,
@@ -4608,25 +4608,25 @@
     },
     {
       "type": 0,
-      "value": " ”"
+      "value": "\""
     }
   ],
   "ui-agreements.eresources.removePackageFromBasket": [
     {
       "type": 0,
-      "value": "从购物篮中移除资源包"
+      "value": "從暫存列表中移除資源包"
     }
   ],
   "ui-agreements.eresources.removeTitle": [
     {
       "type": 0,
-      "value": "移除标题"
+      "value": "移除題名"
     }
   ],
   "ui-agreements.eresources.removeTitleButtonTooltip": [
     {
       "type": 0,
-      "value": "从购物篮中移除：资源包“ "
+      "value": "從暫存列表中移除：資源包 \""
     },
     {
       "type": 1,
@@ -4634,7 +4634,7 @@
     },
     {
       "type": 0,
-      "value": " ”中的标题"
+      "value": "\" 中的題名"
     }
   ],
   "ui-agreements.eresources.searchInputLabel": [
@@ -4646,7 +4646,7 @@
   "ui-agreements.eresources.selected": [
     {
       "type": 0,
-      "value": "已选"
+      "value": "已選"
     }
   ],
   "ui-agreements.eresources.source": [
@@ -4658,13 +4658,13 @@
   "ui-agreements.eresources.sourceKb": [
     {
       "type": 0,
-      "value": "外部数据源"
+      "value": "外部資料來源"
     }
   ],
   "ui-agreements.eresources.suppressFromDiscovery": [
     {
       "type": 0,
-      "value": "在发现中隐藏"
+      "value": "在資源探索服務中隱藏"
     }
   ],
   "ui-agreements.eresources.title": [
@@ -4676,25 +4676,25 @@
   "ui-agreements.eresources.titleAvailability": [
     {
       "type": 0,
-      "value": "资源包中的标题可用性"
+      "value": "資源包中題名的可用性"
     }
   ],
   "ui-agreements.eresources.titleDetails": [
     {
       "type": 0,
-      "value": "标题详情"
+      "value": "題名詳情"
     }
   ],
   "ui-agreements.eresources.titleOnPlatform": [
     {
       "type": 0,
-      "value": "平台标题"
+      "value": "平台上的題名"
     }
   ],
   "ui-agreements.eresources.titleOnPlatformURL": [
     {
       "type": 0,
-      "value": "平台URL上的标题"
+      "value": "平台 URL 上的題名"
     }
   ],
   "ui-agreements.eresources.titles": [
@@ -4718,31 +4718,31 @@
   "ui-agreements.eresources.warn.customCoverageCleared": [
     {
       "type": 0,
-      "value": "所有自定义收录范围数据将被清除。要保存自定义收录范围数据，请链接电子资源"
+      "value": "所有自訂的收錄範圍資料都將被清除。要保存自訂的覆蓋範圍資料，請連接一個電子資源"
     }
   ],
   "ui-agreements.eresourcesCovered.exportAs": [
     {
       "type": 0,
-      "value": "导出为......"
+      "value": "匯出為..."
     }
   ],
   "ui-agreements.eresourcesCovered.exportAsJSON": [
     {
       "type": 0,
-      "value": "导出为JSON"
+      "value": "匯出為 JSON"
     }
   ],
   "ui-agreements.eresourcesCovered.exportAsKBART": [
     {
       "type": 0,
-      "value": "导出为KBART"
+      "value": "匯出為 KBART"
     }
   ],
   "ui-agreements.eresourcesCovered.exportButton.tooltip": [
     {
       "type": 0,
-      "value": "仅支持当前或所有资源导出"
+      "value": "僅提供目前或所有資源匯出"
     }
   ],
   "ui-agreements.eresourcesCovered.json": [
@@ -4760,13 +4760,13 @@
   "ui-agreements.eresourcesCovered.preparingExport": [
     {
       "type": 0,
-      "value": "正在创建导出文件...对于大型协议，可能需要几分钟"
+      "value": "正在建立匯出的檔案 ... 對於大型的協議，這可能需要幾分鐘"
     }
   ],
   "ui-agreements.errors.cannotLinkAgreementToItself": [
     {
       "type": 0,
-      "value": "协议不能与其自身链接。"
+      "value": "協議不能與自己相連。"
     }
   ],
   "ui-agreements.errors.endDateGreaterThanStartDate": [
@@ -4778,13 +4778,13 @@
   "ui-agreements.errors.multipleOpenEndedCoverages": [
     {
       "type": 0,
-      "value": "不能有多个开放式收录范围说明。"
+      "value": "不能有多個開放式的收錄範圍聲明。"
     }
   ],
   "ui-agreements.errors.multipleOpenEndedPeriods": [
     {
       "type": 0,
-      "value": "不能有多个开放式协议期限。"
+      "value": "不能有多個開放式（open-ended）的協議期間。"
     }
   ],
   "ui-agreements.errors.noDeleteAgreementBackendError": [
@@ -4792,7 +4792,7 @@
       "children": [
         {
           "type": 0,
-          "value": "协议未删除： "
+          "value": "協議未被刪除： "
         }
       ],
       "type": 8,
@@ -4812,7 +4812,7 @@
       "children": [
         {
           "type": 0,
-          "value": "协议未删除"
+          "value": "協議未被刪除"
         }
       ],
       "type": 8,
@@ -4820,7 +4820,7 @@
     },
     {
       "type": 0,
-      "value": "因为有一个或多个协议行。"
+      "value": "，因為其包含一個或多個協議細項。"
     }
   ],
   "ui-agreements.errors.noDeleteHasLicenses": [
@@ -4828,7 +4828,7 @@
       "children": [
         {
           "type": 0,
-          "value": "协议未删除"
+          "value": "協議未被刪除"
         }
       ],
       "type": 8,
@@ -4836,7 +4836,7 @@
     },
     {
       "type": 0,
-      "value": "因为附有一个或多个许可证。"
+      "value": "，因為其包含一個或多個連結的授權。"
     }
   ],
   "ui-agreements.errors.noDeleteHasRelatedAgreements": [
@@ -4844,7 +4844,7 @@
       "children": [
         {
           "type": 0,
-          "value": "协议未删除"
+          "value": "協議未被刪除"
         }
       ],
       "type": 8,
@@ -4852,13 +4852,13 @@
     },
     {
       "type": 0,
-      "value": "因为它有一个或多个相关协议。"
+      "value": "，因為其包含一個或多個相關的協議。"
     }
   ],
   "ui-agreements.errors.overlappingCoverage": [
     {
       "type": 0,
-      "value": "以下數錄範圍的日期重叠： "
+      "value": "以下收錄範圍的日期重叠： "
     },
     {
       "type": 1,
@@ -4868,7 +4868,7 @@
   "ui-agreements.errors.overlappingPeriod": [
     {
       "type": 0,
-      "value": "以下期限日期重叠： "
+      "value": "以下期間日期重叠： "
     },
     {
       "type": 1,
@@ -4878,13 +4878,13 @@
   "ui-agreements.errors.undefinedUDP": [
     {
       "type": 0,
-      "value": "必须选择使用数据提供程序。"
+      "value": "必須選擇使用統計資料提供者。"
     }
   ],
   "ui-agreements.finances.none": [
     {
       "type": 0,
-      "value": "协议没有订单行。"
+      "value": "協議沒有訂單細項。"
     }
   ],
   "ui-agreements.identifier.doi": [
@@ -4896,19 +4896,19 @@
   "ui-agreements.identifier.eisbn": [
     {
       "type": 0,
-      "value": "ISBN（在线）"
+      "value": "ISBN（電子書）"
     }
   ],
   "ui-agreements.identifier.eissn": [
     {
       "type": 0,
-      "value": "國際標準期刊號（電子期刊）"
+      "value": "國際標準期刊號（電子期刊）ISSN (Online)"
     }
   ],
   "ui-agreements.identifier.eissn.issn": [
     {
       "type": 0,
-      "value": "eISSN / ISSN"
+      "value": "eISSN/ISSN"
     }
   ],
   "ui-agreements.identifier.ezb": [
@@ -4920,25 +4920,25 @@
   "ui-agreements.identifier.isbn": [
     {
       "type": 0,
-      "value": "國際標準書號"
+      "value": "國際標準書號 ISBN"
     }
   ],
   "ui-agreements.identifier.issn": [
     {
       "type": 0,
-      "value": "eISSN / ISSN"
+      "value": "ISSN"
     }
   ],
   "ui-agreements.identifier.pisbn": [
     {
       "type": 0,
-      "value": "ISBN（印本）"
+      "value": "ISBN（紙本書）"
     }
   ],
   "ui-agreements.identifier.pissn": [
     {
       "type": 0,
-      "value": "國際標準期刊號（紙本期刊）"
+      "value": "國際標準期刊號（紙本期刊）ISSN (Print)"
     }
   ],
   "ui-agreements.identifier.zdb": [
@@ -4950,13 +4950,13 @@
   "ui-agreements.interface.name": [
     {
       "type": 0,
-      "value": "介面名稱"
+      "value": "操作介面名稱"
     }
   ],
   "ui-agreements.interface.notFound": [
     {
       "type": 0,
-      "value": "未找到界面"
+      "value": "未找到操作介面"
     }
   ],
   "ui-agreements.interface.notes": [
@@ -4968,13 +4968,13 @@
   "ui-agreements.interface.password": [
     {
       "type": 0,
-      "value": "密码"
+      "value": "密碼"
     }
   ],
   "ui-agreements.interface.type": [
     {
       "type": 0,
-      "value": "介面類型"
+      "value": "操作介面類型"
     }
   ],
   "ui-agreements.interface.uri": [
@@ -4992,133 +4992,133 @@
   "ui-agreements.lastUpdated": [
     {
       "type": 0,
-      "value": "最后更新时间"
+      "value": "最後更新"
     }
   ],
   "ui-agreements.license.addExternalLicense": [
     {
       "type": 0,
-      "value": "增加外部授權憑證"
+      "value": "新增外置的授權"
     }
   ],
   "ui-agreements.license.addLicense": [
     {
       "type": 0,
-      "value": "增加授權憑證"
+      "value": "新增授權"
     }
   ],
   "ui-agreements.license.agreementHasNone": [
     {
       "type": 0,
-      "value": "授權許可缺少授權憑證"
+      "value": "此協議沒有任何的授權"
     }
   ],
   "ui-agreements.license.allLicenses": [
     {
       "type": 0,
-      "value": "全部的授權憑證"
+      "value": "所有的授權"
     }
   ],
   "ui-agreements.license.amendment": [
     {
       "type": 0,
-      "value": "修改"
+      "value": "修訂"
     }
   ],
   "ui-agreements.license.amendmentNote": [
     {
       "type": 0,
-      "value": "修改附注"
+      "value": "修訂的附注"
     }
   ],
   "ui-agreements.license.controllingLicense": [
     {
       "type": 0,
-      "value": "控制授權憑證"
+      "value": "控制中的授權"
     }
   ],
   "ui-agreements.license.currentAmendments": [
     {
       "type": 0,
-      "value": "当前修改"
+      "value": "目前的修訂"
     }
   ],
   "ui-agreements.license.currentLicenses": [
     {
       "type": 0,
-      "value": "当前许可证"
+      "value": "目前的授權"
     }
   ],
   "ui-agreements.license.edit": [
     {
       "type": 0,
-      "value": "編輯授權憑證"
+      "value": "編輯授權"
     }
   ],
   "ui-agreements.license.editLicenseOrganizations": [
     {
       "type": 0,
-      "value": "編輯授權憑證組織機構"
+      "value": "編輯授權的組織機構"
     }
   ],
   "ui-agreements.license.error.multipleControllingLicenses": [
     {
       "type": 0,
-      "value": "每个协议只允许一个控制许可证。"
+      "value": "每個協議只允許一個控制中的授權。"
     }
   ],
   "ui-agreements.license.externalLicenses": [
     {
       "type": 0,
-      "value": "外部授權憑證"
+      "value": "外置的授權"
     }
   ],
   "ui-agreements.license.futureAmendments": [
     {
       "type": 0,
-      "value": "未来修改"
+      "value": "未來的修訂"
     }
   ],
   "ui-agreements.license.futureLicenses": [
     {
       "type": 0,
-      "value": "未来许可证"
+      "value": "未來的授權"
     }
   ],
   "ui-agreements.license.generalNotes": [
     {
       "type": 0,
-      "value": "关于协议许可证的一般附注"
+      "value": "關於協議授權的一般附註"
     }
   ],
   "ui-agreements.license.historicalAmendments": [
     {
       "type": 0,
-      "value": "历史修改"
+      "value": "過往的修訂"
     }
   ],
   "ui-agreements.license.historicalLicenses": [
     {
       "type": 0,
-      "value": "历史许可证"
+      "value": "過往的授權"
     }
   ],
   "ui-agreements.license.inactiveLicenses": [
     {
       "type": 0,
-      "value": "未啟用的授權憑證"
+      "value": "停用的授權"
     }
   ],
   "ui-agreements.license.licenseAmendments": [
     {
       "type": 0,
-      "value": "许可证修改"
+      "value": "授權修訂"
     }
   ],
   "ui-agreements.license.licenseIndex": [
     {
       "type": 0,
-      "value": "授權憑證 "
+      "value": "授權 "
     },
     {
       "type": 1,
@@ -5128,31 +5128,31 @@
   "ui-agreements.license.linkLicense": [
     {
       "type": 0,
-      "value": "链接许可证"
+      "value": "連接授權"
     }
   ],
   "ui-agreements.license.linkLicenseToStart": [
     {
       "type": 0,
-      "value": "链接许可证以开始"
+      "value": "連接一個授權以開始使用"
     }
   ],
   "ui-agreements.license.noExternalLicenses": [
     {
       "type": 0,
-      "value": "協議沒有外部許可證。"
+      "value": "此協議沒有外置的授權"
     }
   ],
   "ui-agreements.license.noFindLicensePlugin": [
     {
       "type": 0,
-      "value": "未安装“查找许可证”插件。"
+      "value": "未安裝「查詢授權」的插件。"
     }
   ],
   "ui-agreements.license.noLicenseLinked": [
     {
       "type": 0,
-      "value": "无许可证链接"
+      "value": "無連接的授權"
     }
   ],
   "ui-agreements.license.prop.endDate": [
@@ -5182,19 +5182,19 @@
   "ui-agreements.license.prop.status": [
     {
       "type": 0,
-      "value": "狀態（本授權許可）"
+      "value": "狀態（此協議）"
     }
   ],
   "ui-agreements.license.removeExternalLicense": [
     {
       "type": 0,
-      "value": "移除外部许可证"
+      "value": "刪除外置的授權"
     }
   ],
   "ui-agreements.license.removeLicense": [
     {
       "type": 0,
-      "value": "遗除许可证"
+      "value": "刪除授權 "
     },
     {
       "type": 1,
@@ -5204,13 +5204,13 @@
   "ui-agreements.license.replaceLicense": [
     {
       "type": 0,
-      "value": "更换许可证"
+      "value": "替換授權"
     }
   ],
   "ui-agreements.license.replaceLicenseSpecific": [
     {
       "type": 0,
-      "value": "替换许可证"
+      "value": "替換授權 "
     },
     {
       "type": 1,
@@ -5226,25 +5226,25 @@
   "ui-agreements.license.unsetAmendments": [
     {
       "type": 0,
-      "value": "未分配的修订"
+      "value": "未指派的修訂"
     }
   ],
   "ui-agreements.license.warn.amendmentFuture": [
     {
       "type": 0,
-      "value": "将来会在“状态（本协议）”为“当前”时开始修订。"
+      "value": "當本協議的「狀態」為「目前」時，修訂會在未來的時間才開始。"
     }
   ],
   "ui-agreements.license.warn.amendmentPast": [
     {
       "type": 0,
-      "value": "修改已结束，而“状态（本协议）”为“当前”。"
+      "value": "當本協議的「狀態」為「目前」時，修訂已經結束。"
     }
   ],
   "ui-agreements.license.warn.amendmentStatus": [
     {
       "type": 0,
-      "value": "状态冲突：修订状态为“ "
+      "value": "狀態衝突：當本協議的「狀態」為「目前」時，修訂的狀態為： 「\""
     },
     {
       "type": 1,
@@ -5252,31 +5252,31 @@
     },
     {
       "type": 0,
-      "value": " ”，“状态（本协议）”为“当前”。"
+      "value": "\" 」。"
     }
   ],
   "ui-agreements.license.warn.unassignedAmendments": [
     {
       "type": 0,
-      "value": "该许可证有未分配的修改。请编辑协议进行更正。"
+      "value": "此授權有未指派的修訂。請編輯此協議進行修正。"
     }
   ],
   "ui-agreements.line.create.callout": [
     {
       "type": 0,
-      "value": "协议行已创建"
+      "value": "協議細項已經新增"
     }
   ],
   "ui-agreements.line.delete.callout": [
     {
       "type": 0,
-      "value": "协议行已删除"
+      "value": "協議細項已刪除"
     }
   ],
   "ui-agreements.line.deleteFailed.callout": [
     {
       "type": 0,
-      "value": "协议行无法删除： "
+      "value": "協議細項無法被刪除： "
     },
     {
       "type": 1,
@@ -5286,7 +5286,7 @@
   "ui-agreements.line.edit": [
     {
       "type": 0,
-      "value": "编辑协议行"
+      "value": "編輯協議細項"
     }
   ],
   "ui-agreements.line.lineForAgreement": [
@@ -5296,49 +5296,49 @@
     },
     {
       "type": 0,
-      "value": "中的协议行"
+      "value": " 協議中的協議細項"
     }
   ],
   "ui-agreements.line.lineInformation": [
     {
       "type": 0,
-      "value": "协议行信息"
+      "value": "協議細項資訊"
     }
   ],
   "ui-agreements.line.new": [
     {
       "type": 0,
-      "value": "新建协议行"
+      "value": "新增協議細項"
     }
   ],
   "ui-agreements.line.parentAgreement": [
     {
       "type": 0,
-      "value": "上层协议"
+      "value": "上層協議"
     }
   ],
   "ui-agreements.line.poLines": [
     {
       "type": 0,
-      "value": "订单行"
+      "value": "訂單細項（PO line）"
     }
   ],
   "ui-agreements.line.update.callout": [
     {
       "type": 0,
-      "value": "协议行已更新"
+      "value": "協議細項已更新"
     }
   ],
   "ui-agreements.loading": [
     {
       "type": 0,
-      "value": "载入中..."
+      "value": "載入中..."
     }
   ],
   "ui-agreements.meta.title": [
     {
       "type": 0,
-      "value": "授權許可"
+      "value": "協議"
     }
   ],
   "ui-agreements.months": [
@@ -5391,37 +5391,37 @@
   "ui-agreements.note": [
     {
       "type": 0,
-      "value": "附注"
+      "value": "附註"
     }
   ],
   "ui-agreements.org.olf.erm.SubscriptionAgreement.name.unique": [
     {
       "type": 0,
-      "value": "此名称已存在"
+      "value": "此名稱已經存在"
     }
   ],
   "ui-agreements.organizations.add": [
     {
       "type": 0,
-      "value": "新增組織機構到授權許可"
+      "value": "新增組織機構到此授權"
     }
   ],
   "ui-agreements.organizations.addOrganizationToAgreement": [
     {
       "type": 0,
-      "value": "增加組織到授權許可"
+      "value": "新增組織機構"
     }
   ],
   "ui-agreements.organizations.agreementHasNone": [
     {
       "type": 0,
-      "value": "授權許可缺少組織機構"
+      "value": "此授權缺少它的組織機構"
     }
   ],
   "ui-agreements.organizations.alreadyExists": [
     {
       "type": 0,
-      "value": "已有相同名稱的組織機構"
+      "value": "已有相同名稱的組織機構！"
     }
   ],
   "ui-agreements.organizations.createNew": [
@@ -5445,7 +5445,7 @@
   "ui-agreements.organizations.primary": [
     {
       "type": 0,
-      "value": "Primary organization"
+      "value": "主要組織機構"
     }
   ],
   "ui-agreements.organizations.remove": [
@@ -5463,25 +5463,25 @@
   "ui-agreements.organizations.selectRole": [
     {
       "type": 0,
-      "value": "选择一个角色"
+      "value": "選擇一個身份"
     }
   ],
   "ui-agreements.organizations.typeToSearch": [
     {
       "type": 0,
-      "value": "開始輸入查詢組織"
+      "value": "開始輸入以查詢組織機構"
     }
   ],
   "ui-agreements.pci.addCoverage": [
     {
       "type": 0,
-      "value": "添加收录范围"
+      "value": "新增收錄範圍"
     }
   ],
   "ui-agreements.pci.closeEdit": [
     {
       "type": 0,
-      "value": "关闭编辑pci"
+      "value": "關閉編輯 pci"
     }
   ],
   "ui-agreements.pci.coverage.endDate": [
@@ -5493,13 +5493,13 @@
   "ui-agreements.pci.coverage.endIssue": [
     {
       "type": 0,
-      "value": "终止期"
+      "value": "终止的「期」"
     }
   ],
   "ui-agreements.pci.coverage.endVolume": [
     {
       "type": 0,
-      "value": "终止卷"
+      "value": "终止的「卷」"
     }
   ],
   "ui-agreements.pci.coverage.startDate": [
@@ -5511,19 +5511,19 @@
   "ui-agreements.pci.coverage.startIssue": [
     {
       "type": 0,
-      "value": "起始期"
+      "value": "起始「 期」"
     }
   ],
   "ui-agreements.pci.coverage.startVolume": [
     {
       "type": 0,
-      "value": "起始卷"
+      "value": "起始的「卷」"
     }
   ],
   "ui-agreements.pci.coverageTitle": [
     {
       "type": 0,
-      "value": "收录范围"
+      "value": "收錄範圍 "
     },
     {
       "type": 1,
@@ -5533,103 +5533,103 @@
   "ui-agreements.pci.edit": [
     {
       "type": 0,
-      "value": "编辑pci"
+      "value": "編輯 pci"
     }
   ],
   "ui-agreements.pci.removeCoverage": [
     {
       "type": 0,
-      "value": "移除收录范围"
+      "value": "刪除收錄範圍"
     }
   ],
   "ui-agreements.permission.agreements.delete": [
     {
       "type": 0,
-      "value": "协议：删除协议"
+      "value": "協議：刪除協議"
     }
   ],
   "ui-agreements.permission.agreements.edit": [
     {
       "type": 0,
-      "value": "协议：编辑协议"
+      "value": "協議：編輯協議"
     }
   ],
   "ui-agreements.permission.agreements.view": [
     {
       "type": 0,
-      "value": "协议：搜索和查看协议"
+      "value": "協議：搜尋和檢視協議"
     }
   ],
   "ui-agreements.permission.generalSettings.manage": [
     {
       "type": 0,
-      "value": "设置（协议）：可以查看和编辑通用设置"
+      "value": "設定（協議）：可以檢視和編輯一般的設定"
     }
   ],
   "ui-agreements.permission.picklists.manage": [
     {
       "type": 0,
-      "value": "Settings (Agreements): Manage pick lists and values"
+      "value": "設定（協議）：管理挑選清單與值"
     }
   ],
   "ui-agreements.permission.platforms.edit": [
     {
       "type": 0,
-      "value": "协议：编辑平台"
+      "value": "協議：編輯平台"
     }
   ],
   "ui-agreements.permission.platforms.view": [
     {
       "type": 0,
-      "value": "协议：搜索和查看平台"
+      "value": "協議：查詢和查看平台"
     }
   ],
   "ui-agreements.permission.resources.edit": [
     {
       "type": 0,
-      "value": "协议：编辑电子资源"
+      "value": "協議：編輯電子資源"
     }
   ],
   "ui-agreements.permission.resources.view": [
     {
       "type": 0,
-      "value": "协议：搜索和查看电子资源"
+      "value": "協議：搜尋和檢視電子資源"
     }
   ],
   "ui-agreements.permission.supplementaryProperties.manage": [
     {
       "type": 0,
-      "value": "设置（协议）：管理协议补充属性"
+      "value": "設置（協議）：管理協議補充屬性"
     }
   ],
   "ui-agreements.platform.addUrlCustomization": [
     {
       "type": 0,
-      "value": "添加URL自定义"
+      "value": "新增 URL 自訂化"
     }
   ],
   "ui-agreements.platform.addUrlCustomization.maxNumber": [
     {
       "type": 0,
-      "value": "URL自定义的最大数量为1"
+      "value": "URL 自訂化的最大數量為 1"
     }
   ],
   "ui-agreements.platform.closeEdit": [
     {
       "type": 0,
-      "value": "关闭编辑平台"
+      "value": "關閉編輯平台"
     }
   ],
   "ui-agreements.platform.edit": [
     {
       "type": 0,
-      "value": "编辑"
+      "value": "編輯"
     }
   ],
   "ui-agreements.platform.editPlatform": [
     {
       "type": 0,
-      "value": "编辑"
+      "value": "編輯 "
     },
     {
       "type": 1,
@@ -5639,7 +5639,7 @@
   "ui-agreements.platform.localPlatformCode": [
     {
       "type": 0,
-      "value": "本地平台代码"
+      "value": "本地平台代碼"
     }
   ],
   "ui-agreements.platform.locators": [
@@ -5651,43 +5651,43 @@
   "ui-agreements.platform.name": [
     {
       "type": 0,
-      "value": "名称"
+      "value": "名稱"
     }
   ],
   "ui-agreements.platform.newUrlCustomization": [
     {
       "type": 0,
-      "value": "新建URL自定义"
+      "value": "新建 URL 自訂化"
     }
   ],
   "ui-agreements.platform.noUrlCustomization": [
     {
       "type": 0,
-      "value": "没有为此平台自定义URL"
+      "value": "沒有針對此平台的 URL 自訂化"
     }
   ],
   "ui-agreements.platform.noplatformProxyServer": [
     {
       "type": 0,
-      "value": "没有平台代理服务器设置"
+      "value": "無平台代理連線服務伺服器設定"
     }
   ],
   "ui-agreements.platform.platformProxyServerSettings": [
     {
       "type": 0,
-      "value": "平台代理服务器设置"
+      "value": "平台代理連線服務伺服器設定"
     }
   ],
   "ui-agreements.platform.platformProxySettings.actions": [
     {
       "type": 0,
-      "value": "動作"
+      "value": "操作"
     }
   ],
   "ui-agreements.platform.platformProxySettings.doNotUseProxyTooltip": [
     {
       "type": 0,
-      "value": "不要将代理“ "
+      "value": "不要將代理連線服務 \""
     },
     {
       "type": 1,
@@ -5695,27 +5695,23 @@
     },
     {
       "type": 0,
-      "value": " ”用于平台“ "
+      "value": "\" 用於此平台：\""
     },
     {
       "type": 1,
       "value": "platformName"
-    },
-    {
-      "type": 0,
-      "value": " ”"
     }
   ],
   "ui-agreements.platform.platformProxySettings.doNotUseThisProxy": [
     {
       "type": 0,
-      "value": "不使用此代理"
+      "value": "不要使用此代理連線服務"
     }
   ],
   "ui-agreements.platform.platformProxySettings.name": [
     {
       "type": 0,
-      "value": "名称"
+      "value": "名稱"
     }
   ],
   "ui-agreements.platform.platformProxySettings.notUsed": [
@@ -5727,13 +5723,13 @@
   "ui-agreements.platform.platformProxySettings.status": [
     {
       "type": 0,
-      "value": "状态"
+      "value": "狀態"
     }
   ],
   "ui-agreements.platform.platformProxySettings.useProxyTooltip": [
     {
       "type": 0,
-      "value": "将代理“ "
+      "value": "將代理連線服務 \""
     },
     {
       "type": 1,
@@ -5741,7 +5737,7 @@
     },
     {
       "type": 0,
-      "value": " ”用于平台“ "
+      "value": "\" 用於此平台 \""
     },
     {
       "type": 1,
@@ -5749,13 +5745,13 @@
     },
     {
       "type": 0,
-      "value": " ”"
+      "value": "\""
     }
   ],
   "ui-agreements.platform.platformProxySettings.useThisProxy": [
     {
       "type": 0,
-      "value": "使用此代理"
+      "value": "使用此代理連線服務"
     }
   ],
   "ui-agreements.platform.platformProxySettings.used": [
@@ -5767,37 +5763,37 @@
   "ui-agreements.platform.urlCustomization": [
     {
       "type": 0,
-      "value": "URL自定义"
+      "value": "URL 自訂化"
     }
   ],
   "ui-agreements.platform.urlCustomization.create.callout": [
     {
       "type": 0,
-      "value": "URL自定义已创建"
+      "value": "URL 自訂化已新增"
     }
   ],
   "ui-agreements.platform.urlCustomization.customizationCode": [
     {
       "type": 0,
-      "value": "自定义代码"
+      "value": "自訂化代碼"
     }
   ],
   "ui-agreements.platform.urlCustomization.delete": [
     {
       "type": 0,
-      "value": "删除URL自定义"
+      "value": "刪除 URL 自訂化"
     }
   ],
   "ui-agreements.platform.urlCustomization.delete.callout": [
     {
       "type": 0,
-      "value": "URL自定义删除"
+      "value": "URL 自訂化已刪除"
     }
   ],
   "ui-agreements.platform.urlCustomization.deleteConfirmMessage": [
     {
       "type": 0,
-      "value": "URL自定义"
+      "value": "URL 自訂化 "
     },
     {
       "children": [
@@ -5819,13 +5815,13 @@
     },
     {
       "type": 0,
-      "value": "将被"
+      "value": " 將會 "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "删除"
+          "value": "被刪除"
         }
       ],
       "type": 8,
@@ -5839,7 +5835,7 @@
   "ui-agreements.platform.urlCustomization.deleteFailed.callout": [
     {
       "type": 0,
-      "value": "URL自定义删除失败： "
+      "value": "URL 自訂化刪除失敗： "
     },
     {
       "type": 1,
@@ -5849,61 +5845,61 @@
   "ui-agreements.platform.urlCustomization.name": [
     {
       "type": 0,
-      "value": "名称"
+      "value": "名稱"
     }
   ],
   "ui-agreements.platform.urlCustomization.update.callout": [
     {
       "type": 0,
-      "value": "URL自定义已更新"
+      "value": "URL 自訂化已更新"
     }
   ],
   "ui-agreements.platform.urlCustomizationCode.helpers": [
     {
       "type": 0,
-      "value": "助手：insertAfter，insertAfterAll，insertBefore，insertBeforeAll，urlEncode，removeProtocol，replace"
+      "value": "小幫手: insertAfter, insertAfterAll, insertBefore, insertBeforeAll, urlEncode, removeProtocol, replace"
     }
   ],
   "ui-agreements.platform.urlCustomizationCode.info": [
     {
       "type": 0,
-      "value": "用于生成代理URL的模板。"
+      "value": "用於產生代理連線 URL (proxied URL) 的模板。"
     }
   ],
   "ui-agreements.platform.urlCustomizationCode.learnMore": [
     {
       "type": 0,
-      "value": "了解更多信息"
+      "value": "了解更多資訊"
     }
   ],
   "ui-agreements.platform.urlCustomizationCode.variables": [
     {
       "type": 0,
-      "value": "变量：inputUrl，platformLocalCode"
+      "value": "變數：inputUrl、platformLocalCode"
     }
   ],
   "ui-agreements.platform.urlCustomizationSettings": [
     {
       "type": 0,
-      "value": "平台URL自定义设置"
+      "value": "平台 URL 自訂化設定"
     }
   ],
   "ui-agreements.platform.urlCustomizer.closeEdit": [
     {
       "type": 0,
-      "value": "关闭编辑URL自定义"
+      "value": "關閉編輯 URL 自訂化"
     }
   ],
   "ui-agreements.platform.urlCustomizer.delete": [
     {
       "type": 0,
-      "value": "删除"
+      "value": "刪除"
     }
   ],
   "ui-agreements.platform.urlCustomizer.edit": [
     {
       "type": 0,
-      "value": "编辑"
+      "value": "編輯"
     }
   ],
   "ui-agreements.platform.urlCustomizer.paneTitle": [
@@ -5913,7 +5909,7 @@
     },
     {
       "type": 0,
-      "value": " URL自定义"
+      "value": " URL 自訂化"
     }
   ],
   "ui-agreements.platforms": [
@@ -5931,43 +5927,43 @@
   "ui-agreements.poLines.addPOLine": [
     {
       "type": 0,
-      "value": "添加订单行"
+      "value": "新增訂單細項（PO line）"
     }
   ],
   "ui-agreements.poLines.linkPOLine": [
     {
       "type": 0,
-      "value": "链接订单行"
+      "value": "連接訂單細項（PO line）"
     }
   ],
   "ui-agreements.poLines.linkPOLineToStart": [
     {
       "type": 0,
-      "value": "链接订单行以开始"
+      "value": "連接一個訂單細項（PO line）以開始使用"
     }
   ],
   "ui-agreements.poLines.noPOLineLinked": [
     {
       "type": 0,
-      "value": "未链接订单行"
+      "value": "未連接任何訂單細項（PO line）"
     }
   ],
   "ui-agreements.poLines.noPOLinePlugin": [
     {
       "type": 0,
-      "value": "未安装\"查找PO行\"插件"
+      "value": "未安装「查找訂單細項（PO line）」的插件"
     }
   ],
   "ui-agreements.poLines.poLine": [
     {
       "type": 0,
-      "value": "订单行"
+      "value": "訂單細項（PO line）"
     }
   ],
   "ui-agreements.poLines.poLineIndex": [
     {
       "type": 0,
-      "value": "订单行"
+      "value": "訂單細項（PO line）"
     },
     {
       "type": 1,
@@ -5977,7 +5973,7 @@
   "ui-agreements.poLines.poLineWithNumber": [
     {
       "type": 0,
-      "value": "订单行： "
+      "value": "訂單細項（PO line）： "
     },
     {
       "type": 1,
@@ -5987,13 +5983,13 @@
   "ui-agreements.poLines.poLines": [
     {
       "type": 0,
-      "value": "订单行"
+      "value": "訂單細項（PO line）"
     }
   ],
   "ui-agreements.poLines.remove": [
     {
       "type": 0,
-      "value": "移除订单行"
+      "value": "刪除訂單細項（PO line）"
     },
     {
       "type": 1,
@@ -6003,13 +5999,13 @@
   "ui-agreements.poLines.replacePOLine": [
     {
       "type": 0,
-      "value": "更换订单行"
+      "value": "替換訂單細項（PO line）"
     }
   ],
   "ui-agreements.poLines.replacePOLineSpecific": [
     {
       "type": 0,
-      "value": "替换订单行"
+      "value": "替換訂單細項 "
     },
     {
       "type": 1,
@@ -6019,49 +6015,49 @@
   "ui-agreements.poLines.title": [
     {
       "type": 0,
-      "value": "订单行标题"
+      "value": "訂單細項（PO line）的標題"
     }
   ],
   "ui-agreements.poLines.unlinkPOLine": [
     {
       "type": 0,
-      "value": "取消链接订单行"
+      "value": "取消連結訂單細項（PO line）"
     }
   ],
   "ui-agreements.poLines.viewInInventory": [
     {
       "type": 0,
-      "value": "在典藏中查看"
+      "value": "在館藏庫中查看"
     }
   ],
   "ui-agreements.polines.lineHasNone": [
     {
       "type": 0,
-      "value": "协议行没有订单行"
+      "value": "協議細項沒有任何訂單細項"
     }
   ],
   "ui-agreements.relatedAgreements": [
     {
       "type": 0,
-      "value": "相关协议"
+      "value": "相關的協議"
     }
   ],
   "ui-agreements.relatedAgreements.addRelatedAgreement": [
     {
       "type": 0,
-      "value": "添加相关协议"
+      "value": "新增相關的協議"
     }
   ],
   "ui-agreements.relatedAgreements.agreementHasNone": [
     {
       "type": 0,
-      "value": "协议没有相关协议"
+      "value": "此協議沒有相關的協議"
     }
   ],
   "ui-agreements.relatedAgreements.linkAgreement": [
     {
       "type": 0,
-      "value": "链接协议"
+      "value": "連接協議"
     }
   ],
   "ui-agreements.relatedAgreements.linkToParentError": [
@@ -6069,7 +6065,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Error:"
+          "value": "錯誤："
         }
       ],
       "type": 8,
@@ -6077,7 +6073,7 @@
     },
     {
       "type": 0,
-      "value": " Agreement \""
+      "value": " 協議 \""
     },
     {
       "type": 1,
@@ -6085,31 +6081,31 @@
     },
     {
       "type": 0,
-      "value": "\" was not linked because an agreement cannot be linked to itself."
+      "value": "\" 並沒有被連接，因為協議不能與自己相連。"
     }
   ],
   "ui-agreements.relatedAgreements.linkToStart": [
     {
       "type": 0,
-      "value": "链接协议以开始"
+      "value": "連接一個協議以開始使用"
     }
   ],
   "ui-agreements.relatedAgreements.noPlugin": [
     {
       "type": 0,
-      "value": "未安装“查找协议”插件"
+      "value": "未安装「查詢協議」的插件"
     }
   ],
   "ui-agreements.relatedAgreements.noneLinked": [
     {
       "type": 0,
-      "value": "无协议链接"
+      "value": "無連接的協議"
     }
   ],
   "ui-agreements.relatedAgreements.relatedAgreementIndex": [
     {
       "type": 0,
-      "value": "相关协议"
+      "value": "相關的協議 "
     },
     {
       "type": 1,
@@ -6119,13 +6115,13 @@
   "ui-agreements.relatedAgreements.relationship": [
     {
       "type": 0,
-      "value": "关系"
+      "value": "關係"
     }
   ],
   "ui-agreements.relatedAgreements.relationship.has-demand-driven-acquisitions-in": [
     {
       "type": 0,
-      "value": "在“ "
+      "value": "在「 \""
     },
     {
       "type": 1,
@@ -6133,13 +6129,13 @@
     },
     {
       "type": 0,
-      "value": " ”中有需求驱动采购"
+      "value": "\" 」協議中包含按需採購（DDA，demand-driven acquisitions）"
     }
   ],
   "ui-agreements.relatedAgreements.relationship.has-post-cancellation-access-in": [
     {
       "type": 0,
-      "value": "在“ "
+      "value": "在「 \""
     },
     {
       "type": 1,
@@ -6147,13 +6143,13 @@
     },
     {
       "type": 0,
-      "value": " ”中具有后取消访问权限"
+      "value": "\" 」協議中包含停訂後使用權（PCA，post-cancellation access）"
     }
   ],
   "ui-agreements.relatedAgreements.relationship.has_backfile_in": [
     {
       "type": 0,
-      "value": "“ "
+      "value": "\""
     },
     {
       "type": 1,
@@ -6161,13 +6157,13 @@
     },
     {
       "type": 0,
-      "value": " ”中有备用文件"
+      "value": "\" 中包含過刊"
     }
   ],
   "ui-agreements.relatedAgreements.relationship.has_frontfile_in": [
     {
       "type": 0,
-      "value": "在“ "
+      "value": "\""
     },
     {
       "type": 1,
@@ -6175,13 +6171,13 @@
     },
     {
       "type": 0,
-      "value": " ”中有头文件"
+      "value": "\" 中包含現刊"
     }
   ],
   "ui-agreements.relatedAgreements.relationship.is-superseded-by": [
     {
       "type": 0,
-      "value": "被“ "
+      "value": "被「 \""
     },
     {
       "type": 1,
@@ -6189,13 +6185,13 @@
     },
     {
       "type": 0,
-      "value": " ”取代"
+      "value": "\" 」取代"
     }
   ],
   "ui-agreements.relatedAgreements.relationship.provides_post-cancellation_access_for": [
     {
       "type": 0,
-      "value": "提供“ "
+      "value": "為「 \""
     },
     {
       "type": 1,
@@ -6203,13 +6199,13 @@
     },
     {
       "type": 0,
-      "value": " ”的后取消访问权限"
+      "value": "\" 」協議，提供停訂後使用權（PCA，post-cancellation access）"
     }
   ],
   "ui-agreements.relatedAgreements.relationship.related_to": [
     {
       "type": 0,
-      "value": "与“ "
+      "value": "與 \""
     },
     {
       "type": 1,
@@ -6217,13 +6213,13 @@
     },
     {
       "type": 0,
-      "value": " ”相关"
+      "value": "\" 相關"
     }
   ],
   "ui-agreements.relatedAgreements.relationship.related_to_inward": [
     {
       "type": 0,
-      "value": "与“ "
+      "value": "與 \""
     },
     {
       "type": 1,
@@ -6231,13 +6227,13 @@
     },
     {
       "type": 0,
-      "value": " ”相关"
+      "value": "\" 相關"
     }
   ],
   "ui-agreements.relatedAgreements.relationship.supersedes": [
     {
       "type": 0,
-      "value": "取代“ "
+      "value": "取代 \""
     },
     {
       "type": 1,
@@ -6245,13 +6241,13 @@
     },
     {
       "type": 0,
-      "value": " ”"
+      "value": "\""
     }
   ],
   "ui-agreements.relatedAgreements.relationship.tracks_demand-driven_acquisitions_for": [
     {
       "type": 0,
-      "value": "跟踪“ "
+      "value": "為「 \""
     },
     {
       "type": 1,
@@ -6259,13 +6255,13 @@
     },
     {
       "type": 0,
-      "value": " ”的需求驱动采购"
+      "value": "\" 」協議，追蹤按需採購（DDA，demand-driven acquisitions）"
     }
   ],
   "ui-agreements.relatedAgreements.relationshipSummary": [
     {
       "type": 0,
-      "value": "“ "
+      "value": "\""
     },
     {
       "type": 1,
@@ -6273,7 +6269,7 @@
     },
     {
       "type": 0,
-      "value": " ” "
+      "value": "\" "
     },
     {
       "type": 1,
@@ -6281,7 +6277,7 @@
     },
     {
       "type": 0,
-      "value": " “ "
+      "value": " \""
     },
     {
       "type": 1,
@@ -6289,13 +6285,13 @@
     },
     {
       "type": 0,
-      "value": " ”"
+      "value": "\""
     }
   ],
   "ui-agreements.relatedAgreements.relationshipSummaryForNewAgreement": [
     {
       "type": 0,
-      "value": "“ "
+      "value": "\""
     },
     {
       "type": 1,
@@ -6303,7 +6299,7 @@
     },
     {
       "type": 0,
-      "value": " ” "
+      "value": "\" "
     },
     {
       "type": 1,
@@ -6311,19 +6307,19 @@
     },
     {
       "type": 0,
-      "value": "正在创建的协议"
+      "value": " 正在新增的協議"
     }
   ],
   "ui-agreements.relatedAgreements.relationshipToThisAgreement": [
     {
       "type": 0,
-      "value": "链接协议与正在编辑协议的关系"
+      "value": "連結的協議與正在編輯的協議的關係"
     }
   ],
   "ui-agreements.relatedAgreements.remove": [
     {
       "type": 0,
-      "value": "移除相关协议"
+      "value": "刪除相關協議 "
     },
     {
       "type": 1,
@@ -6333,13 +6329,13 @@
   "ui-agreements.relatedAgreements.replaceAgreement": [
     {
       "type": 0,
-      "value": "替换协议"
+      "value": "替換協議"
     }
   ],
   "ui-agreements.relatedAgreements.replaceAgreementSpecific": [
     {
       "type": 0,
-      "value": "替换协议"
+      "value": "替換協議 "
     },
     {
       "type": 1,
@@ -6361,7 +6357,7 @@
   "ui-agreements.section.supplementaryProperties": [
     {
       "type": 0,
-      "value": "补充属性"
+      "value": "補充屬性"
     }
   ],
   "ui-agreements.settings.actions": [
@@ -6373,7 +6369,7 @@
   "ui-agreements.settings.appSettings": [
     {
       "type": 0,
-      "value": "App settings"
+      "value": "應用程式設定"
     }
   ],
   "ui-agreements.settings.displaySettings": [
@@ -6385,7 +6381,7 @@
   "ui-agreements.settings.error.valueNotInRange": [
     {
       "type": 0,
-      "value": "请输入"
+      "value": "請輸入 "
     },
     {
       "type": 1,
@@ -6393,7 +6389,7 @@
     },
     {
       "type": 0,
-      "value": "至"
+      "value": " 至 "
     },
     {
       "type": 1,
@@ -6401,7 +6397,7 @@
     },
     {
       "type": 0,
-      "value": "范围内的整数以继续"
+      "value": " 範圍內的整數以繼續"
     }
   ],
   "ui-agreements.settings.fileStorage.s3AccessKey": [
@@ -6413,7 +6409,7 @@
   "ui-agreements.settings.fileStorage.s3BucketName": [
     {
       "type": 0,
-      "value": "S3 bucket name"
+      "value": "S3 bucket 名稱"
     }
   ],
   "ui-agreements.settings.fileStorage.s3Endpoint": [
@@ -6437,7 +6433,7 @@
   "ui-agreements.settings.fileStorage.storageEngine": [
     {
       "type": 0,
-      "value": "Storage engine"
+      "value": "儲存引擎"
     }
   ],
   "ui-agreements.settings.general": [
@@ -6449,31 +6445,31 @@
   "ui-agreements.settings.general.displaySuppressFromDiscovery.description": [
     {
       "type": 0,
-      "value": "显示“在发现中隐藏”设置打开"
+      "value": "顯示「在資源探索服務中隱藏」的設定"
     }
   ],
   "ui-agreements.settings.general.displaySuppressFromDiscovery.titles": [
     {
       "type": 0,
-      "value": "标题"
+      "value": "題名"
     }
   ],
   "ui-agreements.settings.general.displaySuppressFromDiscovery.titlesInPackages": [
     {
       "type": 0,
-      "value": "资源包中的标题"
+      "value": "資源包中的題名"
     }
   ],
   "ui-agreements.settings.general.displaySuppressFromDiscoveryAgreementLine.title": [
     {
       "type": 0,
-      "value": "协议行"
+      "value": "協議細項"
     }
   ],
   "ui-agreements.settings.general.hideEResourcesFunctionality.description": [
     {
       "type": 0,
-      "value": "如使用其他应用程序（如电子馆藏）作为知识库并希望隐藏内部协议知识库，则可检查此设置。具体来说，这将："
+      "value": "如果您正在使用另一個應用程式（例如 eHoldings）作為您的知識庫並希望隱藏內部協議知識庫，您可以檢查此設置。具體來說，這將："
     }
   ],
   "ui-agreements.settings.general.hideEResourcesFunctionality.title": [
@@ -6485,67 +6481,67 @@
   "ui-agreements.settings.hideAccordions.description": [
     {
       "type": 0,
-      "value": "Hide accordions in agreement edit view"
+      "value": "在協議編輯檢視中隱藏折疊面板"
     }
   ],
   "ui-agreements.settings.hideAccordions.usageData": [
     {
       "type": 0,
-      "value": "Usage data"
+      "value": "使用統計資料"
     }
   ],
   "ui-agreements.settings.hideEResources.result.1": [
     {
       "type": 0,
-      "value": "隐藏协议应用中的电子资源选项卡"
+      "value": "隱藏協議應用程式中的電子資源分頁"
     }
   ],
   "ui-agreements.settings.hideEResources.result.2": [
     {
       "type": 0,
-      "value": "隐藏协议应用中的购物篮图标"
+      "value": "隱藏協議應用程式中的暫存列表圖示"
     }
   ],
   "ui-agreements.settings.hideEResources.result.3": [
     {
       "type": 0,
-      "value": "在个别协议中隐藏“本协议涵盖的电子资源”"
+      "value": "在個別協議中隱藏「此協議涵蓋的電子資源」的折疊面板"
     }
   ],
   "ui-agreements.settings.label": [
     {
       "type": 0,
-      "value": "标签"
+      "value": "標籤"
     }
   ],
   "ui-agreements.settings.mcl.agreementEresources": [
     {
       "type": 0,
-      "value": "协议视图窗格>本协议涵盖的电子资源"
+      "value": "協議檢視窗格 > 此協議涵蓋的電子資源"
     }
   ],
   "ui-agreements.settings.mcl.agreementLines": [
     {
       "type": 0,
-      "value": "协议视图窗格>协议行"
+      "value": "協議檢視窗格 > 協議細項"
     }
   ],
   "ui-agreements.settings.mcl.entitlementOptions": [
     {
       "type": 0,
-      "value": "电子资源视图窗格>用于获取电子资源的选项"
+      "value": "電子資源檢視窗格 > 獲取電子資源的選項"
     }
   ],
   "ui-agreements.settings.mcl.entitlements": [
     {
       "type": 0,
-      "value": "电子资源视图窗格>此电子资源的协议"
+      "value": "電子資源檢視窗格 > 此電子資源的協議"
     }
   ],
   "ui-agreements.settings.mcl.packageContents": [
     {
       "type": 0,
-      "value": "资源包视图窗格>资源包中的电子资源"
+      "value": "資源包檢視窗格 > 資源包中的電子資源"
     }
   ],
   "ui-agreements.settings.mcl.pageSize": [
@@ -6553,7 +6549,7 @@
       "children": [
         {
           "type": 0,
-          "value": "页面大小"
+          "value": "頁面大小"
         }
       ],
       "type": 8,
@@ -6581,19 +6577,19 @@
   "ui-agreements.settings.pickList": [
     {
       "type": 0,
-      "value": "选取清单"
+      "value": "挑選清單"
     }
   ],
   "ui-agreements.settings.pickListSelect": [
     {
       "type": 0,
-      "value": "选择选取清单"
+      "value": "選擇挑選清單"
     }
   ],
   "ui-agreements.settings.pickListValues": [
     {
       "type": 0,
-      "value": "选取清单值"
+      "value": "挑擇清單的值"
     }
   ],
   "ui-agreements.settings.pickLists": [
@@ -6605,19 +6601,19 @@
   "ui-agreements.settings.settingsSection.fileStorage": [
     {
       "type": 0,
-      "value": "File storage"
+      "value": "檔案儲存"
     }
   ],
   "ui-agreements.settings.supplementaryProperties": [
     {
       "type": 0,
-      "value": "补充属性"
+      "value": "補充屬性"
     }
   ],
   "ui-agreements.settings.supplementaryPropertyPickList": [
     {
       "type": 0,
-      "value": "补充属性选取清单设置"
+      "value": "補充屬性的挑選清單設定"
     }
   ],
   "ui-agreements.settings.tabularList": [
@@ -6637,7 +6633,7 @@
       "children": [
         {
           "type": 0,
-          "value": "表格列表分页"
+          "value": "表格列表分頁"
         }
       ],
       "type": 8,
@@ -6659,37 +6655,37 @@
   "ui-agreements.status": [
     {
       "type": 0,
-      "value": "状态"
+      "value": "狀態"
     }
   ],
   "ui-agreements.supplementaryDocs.addSupplementaryDoc": [
     {
       "type": 0,
-      "value": "添加补充文档"
+      "value": "新增補充文件"
     }
   ],
   "ui-agreements.supplementaryDocs.agreementHasNone": [
     {
       "type": 0,
-      "value": "协议没有补充文档"
+      "value": "此協議沒有補充文件"
     }
   ],
   "ui-agreements.supplementaryDocuments": [
     {
       "type": 0,
-      "value": "补充文档"
+      "value": "補充文件"
     }
   ],
   "ui-agreements.supplementaryProperties": [
     {
       "type": 0,
-      "value": "补充属性"
+      "value": "補充屬性"
     }
   ],
   "ui-agreements.supplementaryProperties.callout.delete.error": [
     {
       "type": 0,
-      "value": "删除补充属性时出错。 "
+      "value": "刪除補充屬性時出現錯誤。 "
     },
     {
       "type": 1,
@@ -6699,7 +6695,7 @@
   "ui-agreements.supplementaryProperties.callout.delete.success": [
     {
       "type": 0,
-      "value": "补充属性已成功删除。"
+      "value": "補充屬性已經被成功地刪除。"
     }
   ],
   "ui-agreements.supplementaryProperties.callout.delete.supplementaryPropertyInUse": [
@@ -6707,7 +6703,7 @@
       "children": [
         {
           "type": 0,
-          "value": "错误： "
+          "value": "錯誤： "
         }
       ],
       "type": 8,
@@ -6715,7 +6711,7 @@
     },
     {
       "type": 0,
-      "value": "补充属性"
+      "value": "補充屬性"
     },
     {
       "children": [
@@ -6737,13 +6733,13 @@
     },
     {
       "type": 0,
-      "value": "未删除，因为它已在一个或多个协议中使用。"
+      "value": "未刪除，因為它在一個或多個協議中正被使用。"
     }
   ],
   "ui-agreements.supplementaryProperties.callout.save.error": [
     {
       "type": 0,
-      "value": "保存补充属性时出错。 "
+      "value": "儲存補充屬性時出現錯誤。 "
     },
     {
       "type": 1,
@@ -6753,7 +6749,7 @@
   "ui-agreements.supplementaryProperties.callout.save.success": [
     {
       "type": 0,
-      "value": "补充属性已成功保存。"
+      "value": "補充屬性已經被成功地儲存。"
     }
   ],
   "ui-agreements.supplementaryProperties.count": [
@@ -6764,7 +6760,7 @@
     },
     {
       "type": 0,
-      "value": "已保存"
+      "value": " 已儲存 "
     },
     {
       "offset": 0,
@@ -6773,7 +6769,7 @@
           "value": [
             {
               "type": 0,
-              "value": "补充属性"
+              "value": "補充屬性"
             }
           ]
         },
@@ -6781,7 +6777,7 @@
           "value": [
             {
               "type": 0,
-              "value": "补充属性"
+              "value": "補充屬性"
             }
           ]
         }
@@ -6794,67 +6790,67 @@
   "ui-agreements.supplementaryProperties.optionalProperties": [
     {
       "type": 0,
-      "value": "可选属性"
+      "value": "可選屬性"
     }
   ],
   "ui-agreements.supplementaryProperties.primaryProperties": [
     {
       "type": 0,
-      "value": "主要属性"
+      "value": "主要屬性"
     }
   ],
   "ui-agreements.title.closeEdit": [
     {
       "type": 0,
-      "value": "Close edit title"
+      "value": "關閉編輯題名"
     }
   ],
   "ui-agreements.usageData": [
     {
       "type": 0,
-      "value": "使用数据"
+      "value": "使用統計資料"
     }
   ],
   "ui-agreements.usageData.addUDP": [
     {
       "type": 0,
-      "value": "增加使用紀錄供應商"
+      "value": "新增使用統計資料提供者"
     }
   ],
   "ui-agreements.usageData.agreementHasNone": [
     {
       "type": 0,
-      "value": "协议没有使用数据提供程序。"
+      "value": "此協議沒有使用統計資料提供者"
     }
   ],
   "ui-agreements.usageData.linkUDP": [
     {
       "type": 0,
-      "value": "链接使用数据提供者"
+      "value": "連接使用統計資料提供者"
     }
   ],
   "ui-agreements.usageData.linkUDPToStart": [
     {
       "type": 0,
-      "value": "链接使用数据提供者以开始"
+      "value": "連接使用統計資料提供者以開始使用"
     }
   ],
   "ui-agreements.usageData.noUDPLinked": [
     {
       "type": 0,
-      "value": "未链接使用数据提供者"
+      "value": "未連接任何的使用統計資料提供者"
     }
   ],
   "ui-agreements.usageData.noUDPPlugin": [
     {
       "type": 0,
-      "value": "未安装\"查找erm使用数据提供程序\"插件"
+      "value": "未安裝「查詢 ERM 使用統計資料提供者」的插件"
     }
   ],
   "ui-agreements.usageData.noUsageDetailsPerm": [
     {
       "type": 0,
-      "value": "您无权查看ERM使用详情"
+      "value": "您無權限查看 ERM 使用統計的詳情"
     }
   ],
   "ui-agreements.usageData.note": [
@@ -6866,7 +6862,7 @@
   "ui-agreements.usageData.removeUsageDataProvider": [
     {
       "type": 0,
-      "value": "移除使用数据提供者"
+      "value": "刪除使用統計資料的提供者 "
     },
     {
       "type": 1,
@@ -6876,13 +6872,13 @@
   "ui-agreements.usageData.replaceUDP": [
     {
       "type": 0,
-      "value": "更换使用数据提供者"
+      "value": "替換使用統計資料提供者"
     }
   ],
   "ui-agreements.usageData.replaceUDPSpecific": [
     {
       "type": 0,
-      "value": "替换使用数据提供者"
+      "value": "替換使用統計資料提供者 "
     },
     {
       "type": 1,
@@ -6892,13 +6888,13 @@
   "ui-agreements.usageData.usageDataProvider": [
     {
       "type": 0,
-      "value": "使用紀錄供應商"
+      "value": "使用統計資料提供者"
     }
   ],
   "ui-agreements.usageData.usageDataProviderIndex": [
     {
       "type": 0,
-      "value": "使用数据提供程序"
+      "value": "使用統計資料提供者 "
     },
     {
       "type": 1,
@@ -6908,13 +6904,13 @@
   "ui-agreements.viewUDP.name": [
     {
       "type": 0,
-      "value": "名称"
+      "value": "名稱"
     }
   ],
   "ui-agreements.warn.clearReasonForClosure": [
     {
       "type": 0,
-      "value": "由于状态未关闭，此原因将被清除"
+      "value": "由於狀態不是終止，此原因將被清除"
     }
   ],
   "ui-agreements.years": [
@@ -21779,13 +21775,13 @@
   "ui-dashboard.appMenu.keyboardShortcuts": [
     {
       "type": 0,
-      "value": "Keyboard shortcuts"
+      "value": "鍵盤快捷鍵"
     }
   ],
   "ui-dashboard.canvas.actions": [
     {
       "type": 0,
-      "value": "動作"
+      "value": "操作"
     }
   ],
   "ui-dashboard.dashboard.close": [
@@ -21797,7 +21793,7 @@
   "ui-dashboard.dashboard.copied": [
     {
       "type": 0,
-      "value": "Copied"
+      "value": "已複製"
     }
   ],
   "ui-dashboard.dashboard.copy": [
@@ -21809,19 +21805,19 @@
   "ui-dashboard.dashboard.copyErrorButtonAriaLabel": [
     {
       "type": 0,
-      "value": "Copy error to clipholder"
+      "value": "將錯誤複製到剪貼簿"
     }
   ],
   "ui-dashboard.dashboard.delete": [
     {
       "type": 0,
-      "value": "Delete"
+      "value": "删除"
     }
   ],
   "ui-dashboard.dashboard.deleteWidget": [
     {
       "type": 0,
-      "value": "Delete widget"
+      "value": "刪除 widget"
     }
   ],
   "ui-dashboard.dashboard.deleteWidgetConfirmMessage": [
@@ -21832,8 +21828,16 @@
     {
       "children": [
         {
+          "type": 0,
+          "value": " "
+        },
+        {
           "type": 1,
           "value": "name"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -21841,13 +21845,13 @@
     },
     {
       "type": 0,
-      "value": " will be "
+      "value": " 將被 "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "deleted"
+          "value": "刪除"
         }
       ],
       "type": 8,
@@ -21855,19 +21859,19 @@
     },
     {
       "type": 0,
-      "value": "."
+      "value": " 。"
     }
   ],
   "ui-dashboard.dashboard.errorDetails": [
     {
       "type": 0,
-      "value": "Error details"
+      "value": "錯誤詳細資訊"
     }
   ],
   "ui-dashboard.dashboard.errorDetailsDescription": [
     {
       "type": 0,
-      "value": "The following occured, preventing the display of content in the widget:"
+      "value": "發生以下情況，阻止了 widget 中的內容顯示："
     }
   ],
   "ui-dashboard.dashboard.newWidget": [
@@ -21877,13 +21881,13 @@
     },
     {
       "type": 0,
-      "value": " 小工具"
+      "value": " widget"
     }
   ],
   "ui-dashboard.dashboard.reorderForm.dragAndDropHandleAria": [
     {
       "type": 0,
-      "value": "改變"
+      "value": "改變 "
     },
     {
       "type": 1,
@@ -21899,31 +21903,31 @@
     },
     {
       "type": 0,
-      "value": ")的訂單"
+      "value": ") 的順序"
     }
   ],
   "ui-dashboard.dashboard.reorderForm.paneTitle": [
     {
       "type": 0,
-      "value": "編輯儀表板"
+      "value": "編輯小工具顯示順序"
     }
   ],
   "ui-dashboard.dashboard.reorderForm.widget.widgetname": [
     {
       "type": 0,
-      "value": "實用工具名稱"
+      "value": "Widget 名稱"
     }
   ],
   "ui-dashboard.dashboardHeader.new": [
     {
       "type": 0,
-      "value": "新建"
+      "value": "新增"
     }
   ],
   "ui-dashboard.dashboardHeader.reorder": [
     {
       "type": 0,
-      "value": "編輯小工具顯示順序"
+      "value": "編輯 widget 顯示順序"
     }
   ],
   "ui-dashboard.error": [
@@ -21935,13 +21939,13 @@
   "ui-dashboard.error.duplicateColumn": [
     {
       "type": 0,
-      "value": "Duplicate column, please rectify"
+      "value": "重複欄位，請更正"
     }
   ],
   "ui-dashboard.error.noDashWithThatName": [
     {
       "type": 0,
-      "value": "此使用者沒有名稱為"
+      "value": "找不到儀表板 "
     },
     {
       "type": 1,
@@ -21949,19 +21953,19 @@
     },
     {
       "type": 0,
-      "value": "的儀表板"
+      "value": " 。請檢查網址。"
     }
   ],
   "ui-dashboard.error.noDashboardsForUser": [
     {
       "type": 0,
-      "value": "該使用者沒有儀表板。"
+      "value": "此使用者沒有儀表板。"
     }
   ],
   "ui-dashboard.error.noWidgetComponentForType": [
     {
       "type": 0,
-      "value": "没有用于以下类型的小工具组件： "
+      "value": "沒有此類型的 widget 組件： "
     },
     {
       "type": 1,
@@ -21971,7 +21975,7 @@
   "ui-dashboard.error.noWidgetFormComponentForType": [
     {
       "type": 0,
-      "value": "没有用于以下类型的小工具表单组件： "
+      "value": "沒有此類型組件的 widget： "
     },
     {
       "type": 1,
@@ -22011,49 +22015,49 @@
   "ui-dashboard.noWidgets": [
     {
       "type": 0,
-      "value": "新增小工具到儀表板"
+      "value": "新增 widget 到儀表板"
     }
   ],
   "ui-dashboard.shortcut.edit": [
     {
       "type": 0,
-      "value": "Edit a widget"
+      "value": "編輯 widget"
     }
   ],
   "ui-dashboard.shortcut.new": [
     {
       "type": 0,
-      "value": "Create a new widget"
+      "value": "新增 widget"
     }
   ],
   "ui-dashboard.shortcut.save": [
     {
       "type": 0,
-      "value": "Save form changes"
+      "value": "儲存表單變更"
     }
   ],
   "ui-dashboard.simpleSearch.contentError": [
     {
       "type": 0,
-      "value": "Content cannot be displayed. "
+      "value": "無法顯示內容。"
     }
   ],
   "ui-dashboard.simpleSearch.errorDescription": [
     {
       "type": 0,
-      "value": "The following occurred, preventing the display of content in the widget:"
+      "value": "發生以下情況，阻止了 widget 中的內容顯示："
     }
   ],
   "ui-dashboard.simpleSearch.errorDetails": [
     {
       "type": 0,
-      "value": "Error details"
+      "value": "錯誤詳細資訊"
     }
   ],
   "ui-dashboard.simpleSearch.widget.linkText": [
     {
       "type": 0,
-      "value": "连结到应用"
+      "value": "連接到應用程式"
     }
   ],
   "ui-dashboard.simpleSearch.widget.linkTextForWidget": [
@@ -22073,7 +22077,7 @@
   "ui-dashboard.simpleSearch.widget.nFoundBadge": [
     {
       "type": 0,
-      "value": "共找到"
+      "value": "共找到 "
     },
     {
       "type": 1,
@@ -22083,55 +22087,55 @@
   "ui-dashboard.simpleSearch.widget.noResultsFound": [
     {
       "type": 0,
-      "value": "No results found"
+      "value": "未找到結果"
     }
   ],
   "ui-dashboard.simpleSearchForm.configurableProperties.numberOfRows": [
     {
       "type": 0,
-      "value": "行数"
+      "value": "行數"
     }
   ],
   "ui-dashboard.simpleSearchForm.configurableProperties.urlLink": [
     {
       "type": 0,
-      "value": "网址链接"
+      "value": "網址"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters": [
     {
       "type": 0,
-      "value": "筛选"
+      "value": "篩選器"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.addFilter": [
     {
       "type": 0,
-      "value": "添加筛选"
+      "value": "新增篩選器"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.addFilterTooltip": [
     {
       "type": 0,
-      "value": "向小工具配置添加筛选"
+      "value": "新增篩選器到您的 widget 設定"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.dateFilterField.afterToday": [
     {
       "type": 0,
-      "value": "After today"
+      "value": "今天之後"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.dateFilterField.beforeOrAfterToday": [
     {
       "type": 0,
-      "value": "Before or after today"
+      "value": "今天之前或之後"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.dateFilterField.beforeToday": [
     {
       "type": 0,
-      "value": "Before today"
+      "value": "今天之前"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.dateFilterField.date": [
@@ -22149,19 +22153,19 @@
   "ui-dashboard.simpleSearchForm.filters.dateFilterField.fixedDate": [
     {
       "type": 0,
-      "value": "Fixed date"
+      "value": "固定日期"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.dateFilterField.infoPopover": [
     {
       "type": 0,
-      "value": "\"Date\" can be relative or fixed. Choose the third radio button option to filter by a fixed date. To apply a relative date choose either the first option \"Today\" or the second option and set the values of the three fields: \"Length of time\", \"Unit of time\" and \"Before or after today\"."
+      "value": "「日期」可以是相對的或固定的。選擇第三個單選按鈕選項以按固定日期過濾。要應用相對日期，請選擇第一個選項「今天」或第二個選項並設置三個欄位的值：「時間長度」、「時間單位」和「今天之前或之後」。"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.dateFilterField.invalidDate": [
     {
       "type": 0,
-      "value": "Please enter a date in the format "
+      "value": "請以 "
     },
     {
       "type": 1,
@@ -22169,13 +22173,13 @@
     },
     {
       "type": 0,
-      "value": " to continue"
+      "value": " 格式輸入日期以繼續"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.dateFilterField.lengthOfTime": [
     {
       "type": 0,
-      "value": "Length of time"
+      "value": "時間長度"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.dateFilterField.months": [
@@ -22187,7 +22191,7 @@
   "ui-dashboard.simpleSearchForm.filters.dateFilterField.number": [
     {
       "type": 0,
-      "value": "Number"
+      "value": "數字"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.dateFilterField.offset": [
@@ -22205,25 +22209,25 @@
   "ui-dashboard.simpleSearchForm.filters.dateFilterField.offsetValidation": [
     {
       "type": 0,
-      "value": "Offset must be greater than or equal to 0 and no larger than 999"
+      "value": "偏移量必須大於等於 0 且不大於 999"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.dateFilterField.relativeDate": [
     {
       "type": 0,
-      "value": "Relative date"
+      "value": "相對日期"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.dateFilterField.timeUnit": [
     {
       "type": 0,
-      "value": "时间单位"
+      "value": "時間單位"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.dateFilterField.today": [
     {
       "type": 0,
-      "value": "今天（可变）"
+      "value": "今天"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.dateFilterField.uuid": [
@@ -22235,7 +22239,7 @@
   "ui-dashboard.simpleSearchForm.filters.dateFilterField.weeks": [
     {
       "type": 0,
-      "value": "周"
+      "value": "週"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.dateFilterField.years": [
@@ -22247,7 +22251,7 @@
   "ui-dashboard.simpleSearchForm.filters.filter": [
     {
       "type": 0,
-      "value": "筛选"
+      "value": "篩選器 "
     },
     {
       "type": 1,
@@ -22257,37 +22261,37 @@
   "ui-dashboard.simpleSearchForm.filters.filterAlreadyPresent": [
     {
       "type": 0,
-      "value": "表单中已存在筛选"
+      "value": "篩選器已存在於表單中"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterBy": [
     {
       "type": 0,
-      "value": "筛选条件"
+      "value": "篩選條件"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator": [
     {
       "type": 0,
-      "value": "比较器"
+      "value": "比較器"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Array.isEmpty": [
     {
       "type": 0,
-      "value": "No"
+      "value": "不是"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Array.isNotEmpty": [
     {
       "type": 0,
-      "value": "Yes"
+      "value": "是"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Boolean.!=": [
     {
       "type": 0,
-      "value": "非"
+      "value": "不是"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Boolean.==": [
@@ -22299,43 +22303,43 @@
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Boolean.isNotNull": [
     {
       "type": 0,
-      "value": "已设置"
+      "value": "不為空"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Boolean.isNotSet": [
     {
       "type": 0,
-      "value": "is not set"
+      "value": "未設置"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Boolean.isNull": [
     {
       "type": 0,
-      "value": "未设置"
+      "value": "為空"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Boolean.isSet": [
     {
       "type": 0,
-      "value": "is set"
+      "value": "已設置"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Date.!=": [
     {
       "type": 0,
-      "value": "非"
+      "value": "不是"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Date.<": [
     {
       "type": 0,
-      "value": "之前"
+      "value": "在……之前"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Date.<=": [
     {
       "type": 0,
-      "value": "在或之前"
+      "value": "在或在……之前"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Date.==": [
@@ -22347,103 +22351,103 @@
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Date.>": [
     {
       "type": 0,
-      "value": "之后"
+      "value": "在……以後"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Date.>=": [
     {
       "type": 0,
-      "value": "在或之后"
+      "value": "在或在……以後"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Date.isNotNull": [
     {
       "type": 0,
-      "value": "已设置"
+      "value": "不為空"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Date.isNotSet": [
     {
       "type": 0,
-      "value": "is not set"
+      "value": "未設置"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Date.isNull": [
     {
       "type": 0,
-      "value": "未设置"
+      "value": "為空"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Date.isSet": [
     {
       "type": 0,
-      "value": "is set"
+      "value": "已設置"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.DateTime.!=": [
     {
       "type": 0,
-      "value": "is not"
+      "value": "不是"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.DateTime.<": [
     {
       "type": 0,
-      "value": "before"
+      "value": "在……之前"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.DateTime.<=": [
     {
       "type": 0,
-      "value": "on or before"
+      "value": "在或在……之前"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.DateTime.==": [
     {
       "type": 0,
-      "value": "is"
+      "value": "是"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.DateTime.>": [
     {
       "type": 0,
-      "value": "after"
+      "value": "在……以後"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.DateTime.>=": [
     {
       "type": 0,
-      "value": "on or after"
+      "value": "在或在……以後"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.DateTime.isNotNull": [
     {
       "type": 0,
-      "value": "is not null"
+      "value": "不為空"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.DateTime.isNotSet": [
     {
       "type": 0,
-      "value": "is not set"
+      "value": "未設置"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.DateTime.isNull": [
     {
       "type": 0,
-      "value": "is null"
+      "value": "為空"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.DateTime.isSet": [
     {
       "type": 0,
-      "value": "is set"
+      "value": "已設置"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Enum.!=": [
     {
       "type": 0,
-      "value": "非"
+      "value": "不是"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Enum.==": [
@@ -22455,199 +22459,199 @@
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Enum.isNotNull": [
     {
       "type": 0,
-      "value": "已设置"
+      "value": "不為空"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Enum.isNotSet": [
     {
       "type": 0,
-      "value": "is not set"
+      "value": "未設置"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Enum.isNull": [
     {
       "type": 0,
-      "value": "未设置"
+      "value": "為空"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Enum.isSet": [
     {
       "type": 0,
-      "value": "is set"
+      "value": "已設置"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Float.!=": [
     {
       "type": 0,
-      "value": "不等于"
+      "value": "不等於"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Float.<": [
     {
       "type": 0,
-      "value": "小于"
+      "value": "小於"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Float.<=": [
     {
       "type": 0,
-      "value": "小于等于"
+      "value": "小於或等於"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Float.==": [
     {
       "type": 0,
-      "value": "等于"
+      "value": "等於"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Float.>": [
     {
       "type": 0,
-      "value": "大于"
+      "value": "大於"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Float.>=": [
     {
       "type": 0,
-      "value": "大于等于"
+      "value": "大於或等於"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Float.isNotNull": [
     {
       "type": 0,
-      "value": "已设置"
+      "value": "不為空"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Float.isNotSet": [
     {
       "type": 0,
-      "value": "is not set"
+      "value": "未設置"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Float.isNull": [
     {
       "type": 0,
-      "value": "未设置"
+      "value": "為空"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Float.isSet": [
     {
       "type": 0,
-      "value": "is set"
+      "value": "已設置"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Integer.!=": [
     {
       "type": 0,
-      "value": "不等于"
+      "value": "不等於"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Integer.<": [
     {
       "type": 0,
-      "value": "小于"
+      "value": "小於"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Integer.<=": [
     {
       "type": 0,
-      "value": "小于等于"
+      "value": "小於或等於"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Integer.==": [
     {
       "type": 0,
-      "value": "等于"
+      "value": "等於"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Integer.>": [
     {
       "type": 0,
-      "value": "大于"
+      "value": "大於"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Integer.>=": [
     {
       "type": 0,
-      "value": "大于等于"
+      "value": "大於或等於"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Integer.isNotNull": [
     {
       "type": 0,
-      "value": "已设置"
+      "value": "不為空"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Integer.isNotSet": [
     {
       "type": 0,
-      "value": "is not set"
+      "value": "未設置"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Integer.isNull": [
     {
       "type": 0,
-      "value": "未设置"
+      "value": "為空"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Integer.isSet": [
     {
       "type": 0,
-      "value": "is set"
+      "value": "已設置"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Link.!=": [
     {
       "type": 0,
-      "value": "is not"
+      "value": "不是"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Link.!~": [
     {
       "type": 0,
-      "value": "does not contain"
+      "value": "不含"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Link.==": [
     {
       "type": 0,
-      "value": "is"
+      "value": "是"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Link.=~": [
     {
       "type": 0,
-      "value": "contains"
+      "value": "包含"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Link.isNotNull": [
     {
       "type": 0,
-      "value": "is not null"
+      "value": "不為空"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Link.isNotSet": [
     {
       "type": 0,
-      "value": "is not set"
+      "value": "未設置"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Link.isNull": [
     {
       "type": 0,
-      "value": "is null"
+      "value": "為空"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Link.isSet": [
     {
       "type": 0,
-      "value": "is set"
+      "value": "已設置"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.String.!=": [
     {
       "type": 0,
-      "value": "非"
+      "value": "不是"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.String.!~": [
@@ -22671,31 +22675,31 @@
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.String.isNotNull": [
     {
       "type": 0,
-      "value": "已设置"
+      "value": "不為空"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.String.isNotSet": [
     {
       "type": 0,
-      "value": "is not set"
+      "value": "未設置"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.String.isNull": [
     {
       "type": 0,
-      "value": "未设置"
+      "value": "為空"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.String.isSet": [
     {
       "type": 0,
-      "value": "is set"
+      "value": "已設置"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.UUID.!=": [
     {
       "type": 0,
-      "value": "非"
+      "value": "不是"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.UUID.==": [
@@ -22707,37 +22711,37 @@
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.UUID.isNotNull": [
     {
       "type": 0,
-      "value": "已设置"
+      "value": "不為空"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.UUID.isNotSet": [
     {
       "type": 0,
-      "value": "is not set"
+      "value": "未設置"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.UUID.isNull": [
     {
       "type": 0,
-      "value": "未设置"
+      "value": "為空"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.UUID.isSet": [
     {
       "type": 0,
-      "value": "is set"
+      "value": "已設置"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.isNull": [
     {
       "type": 0,
-      "value": "为空"
+      "value": "為空"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.rule": [
     {
       "type": 0,
-      "value": "规则"
+      "value": "規則 "
     },
     {
       "type": 1,
@@ -22747,7 +22751,7 @@
   "ui-dashboard.simpleSearchForm.filters.filterField.rule.addRule": [
     {
       "type": 0,
-      "value": "添加规则"
+      "value": "新增規則"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.rule.and": [
@@ -22759,13 +22763,13 @@
   "ui-dashboard.simpleSearchForm.filters.filterField.rule.or": [
     {
       "type": 0,
-      "value": "或"
+      "value": "OR"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.rule.removeRule": [
     {
       "type": 0,
-      "value": "移除规则"
+      "value": "刪除規則 "
     },
     {
       "type": 1,
@@ -22781,7 +22785,7 @@
   "ui-dashboard.simpleSearchForm.filters.removeFilter": [
     {
       "type": 0,
-      "value": "移除筛选"
+      "value": "刪除篩選器 "
     },
     {
       "type": 1,
@@ -22791,37 +22795,37 @@
   "ui-dashboard.simpleSearchForm.filters.uuidFilterField.absoluteValueWarning": [
     {
       "type": 0,
-      "value": "必須輸入使用者UUID或使用者Token"
+      "value": "必須輸入使用者 UUID 或使用者 Token"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.uuidFilterField.currentUser": [
     {
       "type": 0,
-      "value": "我（可变）"
+      "value": "我（變數）"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.uuidFilterField.emptyWarning": [
     {
       "type": 0,
-      "value": "Please enter a valid UUID to continue"
+      "value": "請輸入有效的 UUID 以繼續"
     }
   ],
   "ui-dashboard.simpleSearchForm.matches": [
     {
       "type": 0,
-      "value": "Search"
+      "value": "查詢"
     }
   ],
   "ui-dashboard.simpleSearchForm.results": [
     {
       "type": 0,
-      "value": "结果显示"
+      "value": "結果顯示"
     }
   ],
   "ui-dashboard.simpleSearchForm.results.addResult": [
     {
       "type": 0,
-      "value": "添加列"
+      "value": "新增欄"
     }
   ],
   "ui-dashboard.simpleSearchForm.results.column": [
@@ -22845,7 +22849,7 @@
   "ui-dashboard.simpleSearchForm.results.minimumWarning": [
     {
       "type": 0,
-      "value": "Error: Results display must contain at least one column."
+      "value": "錯誤：結果顯示必須至少包含一欄位。"
     }
   ],
   "ui-dashboard.simpleSearchForm.results.resultDeleteAria": [
@@ -22879,25 +22883,25 @@
   "ui-dashboard.tokenDatePicker.fixedDate": [
     {
       "type": 0,
-      "value": "Fixed date"
+      "value": "固定日期"
     }
   ],
   "ui-dashboard.tokenDatePicker.relativeDate": [
     {
       "type": 0,
-      "value": "Relative date"
+      "value": "相對日期"
     }
   ],
   "ui-dashboard.tokenDatePicker.today": [
     {
       "type": 0,
-      "value": "Today (relative)"
+      "value": "今天（相對）"
     }
   ],
   "ui-dashboard.tokenDatePicker.validation.invalidDate": [
     {
       "type": 0,
-      "value": "Please enter a date in the format "
+      "value": "請以 "
     },
     {
       "type": 1,
@@ -22905,37 +22909,37 @@
     },
     {
       "type": 0,
-      "value": " to continue"
+      "value": " 格式輸入日期以繼續"
     }
   ],
   "ui-dashboard.tokenDatePicker.validation.invalidOffset": [
     {
       "type": 0,
-      "value": "Offset must be greater than or equal to 0 and no larger than 999"
+      "value": "偏移量必須大於等於 0 且不大於 999"
     }
   ],
   "ui-dashboard.tokenUserPicker.me": [
     {
       "type": 0,
-      "value": "Me (relative)"
+      "value": "我（相對）"
     }
   ],
   "ui-dashboard.tokenUserPicker.user": [
     {
       "type": 0,
-      "value": "Fixed user"
+      "value": "固定使用者"
     }
   ],
   "ui-dashboard.tokenUserPicker.validation.invalidUser": [
     {
       "type": 0,
-      "value": "Please choose a user to continue"
+      "value": "請選擇使用者以繼續"
     }
   ],
   "ui-dashboard.widgetFooter.refreshButtonLabel": [
     {
       "type": 0,
-      "value": "刷新小工具： "
+      "value": "重新整理 widget: "
     },
     {
       "type": 1,
@@ -22945,31 +22949,31 @@
   "ui-dashboard.widgetForm.changeDefinitionWarningModal.continue": [
     {
       "type": 0,
-      "value": "继续"
+      "value": "繼續"
     }
   ],
   "ui-dashboard.widgetForm.changeDefinitionWarningModal.heading": [
     {
       "type": 0,
-      "value": "确认定义更改"
+      "value": "確認定義變更"
     }
   ],
   "ui-dashboard.widgetForm.changeDefinitionWarningModal.message": [
     {
       "type": 0,
-      "value": "更改定义将导致表单重设，确定要继续吗？"
+      "value": "更改定義將導致表單重置，您確定要繼續嗎？"
     }
   ],
   "ui-dashboard.widgetForm.createWidget": [
     {
       "type": 0,
-      "value": "新增小工具"
+      "value": "新增 widget"
     }
   ],
   "ui-dashboard.widgetForm.editWidget": [
     {
       "type": 0,
-      "value": "Edit widget - "
+      "value": "編輯 widget - "
     },
     {
       "type": 1,
@@ -22979,19 +22983,19 @@
   "ui-dashboard.widgetForm.widgetDefinition": [
     {
       "type": 0,
-      "value": "小工具定義"
+      "value": "Widget 定義"
     }
   ],
   "ui-dashboard.widgetForm.widgetName": [
     {
       "type": 0,
-      "value": "小工具名稱"
+      "value": "Widget 名稱"
     }
   ],
   "ui-dashboard.widgetHeader.actionsButtonLabel": [
     {
       "type": 0,
-      "value": "Actions for widget: "
+      "value": "widget 的操作: "
     },
     {
       "type": 1,
@@ -23007,7 +23011,7 @@
   "ui-dashboard.widgetHeader.deleteButtonLabel": [
     {
       "type": 0,
-      "value": "Delete widget: "
+      "value": "刪除 widget: "
     },
     {
       "type": 1,
@@ -23023,7 +23027,7 @@
   "ui-dashboard.widgetHeader.editButtonLabel": [
     {
       "type": 0,
-      "value": "Edit widget: "
+      "value": "編輯 widget: "
     },
     {
       "type": 1,
@@ -45299,31 +45303,31 @@
   "ui-licenses.amendment": [
     {
       "type": 0,
-      "value": "修订"
+      "value": "修正"
     }
   ],
   "ui-licenses.amendments.add": [
     {
       "type": 0,
-      "value": "添加修改"
+      "value": "新增修改"
     }
   ],
   "ui-licenses.amendments.amendmentInfo": [
     {
       "type": 0,
-      "value": "修改信息"
+      "value": "修正資訊"
     }
   ],
   "ui-licenses.amendments.closePane": [
     {
       "type": 0,
-      "value": "关闭编辑修改窗格"
+      "value": "關閉編輯修正窗格"
     }
   ],
   "ui-licenses.amendments.create": [
     {
       "type": 0,
-      "value": "创建修改"
+      "value": "新增修正"
     }
   ],
   "ui-licenses.amendments.create.callout": [
@@ -45331,7 +45335,7 @@
       "children": [
         {
           "type": 0,
-          "value": "修订已创建： "
+          "value": "修正已建立： "
         }
       ],
       "type": 8,
@@ -45351,7 +45355,7 @@
       "children": [
         {
           "type": 0,
-          "value": "修订已删除： "
+          "value": "修正已删除： "
         }
       ],
       "type": 8,
@@ -45369,7 +45373,7 @@
   "ui-licenses.amendments.delete.confirmHeading": [
     {
       "type": 0,
-      "value": "删除修订"
+      "value": "删除修正"
     }
   ],
   "ui-licenses.amendments.delete.confirmLabel": [
@@ -45381,7 +45385,7 @@
   "ui-licenses.amendments.delete.confirmMessage": [
     {
       "type": 0,
-      "value": "修订"
+      "value": "修正"
     },
     {
       "children": [
@@ -45423,7 +45427,7 @@
   "ui-licenses.amendments.edit": [
     {
       "type": 0,
-      "value": "Edit amendment - "
+      "value": "編輯修正 - "
     },
     {
       "type": 1,
@@ -45433,7 +45437,7 @@
   "ui-licenses.amendments.update": [
     {
       "type": 0,
-      "value": "更新修改"
+      "value": "更新修正"
     }
   ],
   "ui-licenses.amendments.update.callout": [
@@ -45441,7 +45445,7 @@
       "children": [
         {
           "type": 0,
-          "value": "修订已更新： "
+          "value": "修正已更新： "
         }
       ],
       "type": 8,
@@ -45465,7 +45469,7 @@
   "ui-licenses.amendments.view.license.licensor": [
     {
       "type": 0,
-      "value": "许可方"
+      "value": "授權核發者"
     }
   ],
   "ui-licenses.amendments.view.paneTitle": [
@@ -45487,13 +45491,13 @@
   "ui-licenses.amendments.view.status": [
     {
       "type": 0,
-      "value": "修改状态"
+      "value": "修改狀態"
     }
   ],
   "ui-licenses.appMenu.keyboardShortcuts": [
     {
       "type": 0,
-      "value": "Keyboard shortcuts"
+      "value": "鍵盤快捷鍵"
     }
   ],
   "ui-licenses.cancel": [
@@ -45505,31 +45509,31 @@
   "ui-licenses.closeEditLicense": [
     {
       "type": 0,
-      "value": "關閉編輯授權憑證"
+      "value": "關閉編輯授權"
     }
   ],
   "ui-licenses.coreDocs.add": [
     {
       "type": 0,
-      "value": "添加核心文档"
+      "value": "新增核心檔案"
     }
   ],
   "ui-licenses.coreDocs.none": [
     {
       "type": 0,
-      "value": "未添加核心文档。"
+      "value": "未添加核心檔案。"
     }
   ],
   "ui-licenses.coreDocs.removeCoreDoc": [
     {
       "type": 0,
-      "value": "移除核心文档"
+      "value": "移除核心檔案"
     }
   ],
   "ui-licenses.create": [
     {
       "type": 0,
-      "value": "创建"
+      "value": "建立"
     }
   ],
   "ui-licenses.create.callout": [
@@ -45537,7 +45541,7 @@
       "children": [
         {
           "type": 0,
-          "value": "许可证已创建： "
+          "value": "授權已建立： "
         }
       ],
       "type": 8,
@@ -45555,19 +45559,19 @@
   "ui-licenses.createLicense": [
     {
       "type": 0,
-      "value": "新增授權憑證"
+      "value": "新增授權"
     }
   ],
   "ui-licenses.delete": [
     {
       "type": 0,
-      "value": "删除"
+      "value": "刪除"
     }
   ],
   "ui-licenses.delete.confirmMessage": [
     {
       "type": 0,
-      "value": "许可证"
+      "value": "授權"
     },
     {
       "children": [
@@ -45589,7 +45593,7 @@
     },
     {
       "type": 0,
-      "value": "及其所有附加的修订将被"
+      "value": "及其所有附加的修正將被"
     },
     {
       "children": [
@@ -45609,7 +45613,7 @@
   "ui-licenses.deleteLicense": [
     {
       "type": 0,
-      "value": "删除许可证"
+      "value": "刪除授權"
     }
   ],
   "ui-licenses.deletedLicense": [
@@ -45617,7 +45621,7 @@
       "children": [
         {
           "type": 0,
-          "value": "删除的许可证： "
+          "value": "删除授權： "
         }
       ],
       "type": 8,
@@ -45635,151 +45639,151 @@
   "ui-licenses.duplicateAmendmentModal.amendmentDateInfo": [
     {
       "type": 0,
-      "value": "修改日期信息"
+      "value": "修改日期資訊"
     }
   ],
   "ui-licenses.duplicateAmendmentModal.amendmentInfo": [
     {
       "type": 0,
-      "value": "修改信息"
+      "value": "修正資訊"
     }
   ],
   "ui-licenses.duplicateAmendmentModal.cloneEndpointError": [
     {
       "type": 0,
-      "value": "无法复制修改。无法访问克隆端点。"
+      "value": "無法複製修正。無法訪問複製用的端點（clone endpoint）。"
     }
   ],
   "ui-licenses.duplicateAmendmentModal.coreDocs": [
     {
       "type": 0,
-      "value": "核心文档"
+      "value": "核心檔案"
     }
   ],
   "ui-licenses.duplicateAmendmentModal.duplicateAmendment": [
     {
       "type": 0,
-      "value": "复制修改"
+      "value": "複製修正"
     }
   ],
   "ui-licenses.duplicateAmendmentModal.duplicateMessage": [
     {
       "type": 0,
-      "value": "请选择要修改的部分以复制"
+      "value": "請選擇要複製的協議區段"
     }
   ],
   "ui-licenses.duplicateAmendmentModal.duplicateModalError": [
     {
       "type": 0,
-      "value": "错误：修改未复制"
+      "value": "錯誤：此修正未被複製"
     }
   ],
   "ui-licenses.duplicateAmendmentModal.invalidResponseError": [
     {
       "type": 0,
-      "value": "无法复制修改。从服务器收到的响应无效。"
+      "value": "無法複製修正，從伺服器接收到無效回應。"
     }
   ],
   "ui-licenses.duplicateAmendmentModal.supplementaryDocs": [
     {
       "type": 0,
-      "value": "补充文档"
+      "value": "補充文件"
     }
   ],
   "ui-licenses.duplicateAmendmentModal.terms": [
     {
       "type": 0,
-      "value": "条款"
+      "value": "條款"
     }
   ],
   "ui-licenses.duplicateLicenseModal.cloneEndpointError": [
     {
       "type": 0,
-      "value": "无法复制许可证。无法访问克隆端点。"
+      "value": "無法複製授權。無法存取複製用的端點（clone endpoint）。"
     }
   ],
   "ui-licenses.duplicateLicenseModal.coreDocs": [
     {
       "type": 0,
-      "value": "核心文档"
+      "value": "核心檔案"
     }
   ],
   "ui-licenses.duplicateLicenseModal.duplicateLicense": [
     {
       "type": 0,
-      "value": "复制许可证"
+      "value": "複製授權"
     }
   ],
   "ui-licenses.duplicateLicenseModal.duplicateMessage": [
     {
       "type": 0,
-      "value": "请选择要复制的许可证部分"
+      "value": "請選擇要複製的授權區段"
     }
   ],
   "ui-licenses.duplicateLicenseModal.duplicateModalError": [
     {
       "type": 0,
-      "value": "错误：许可证未复制"
+      "value": "錯誤：此授權未被複製"
     }
   ],
   "ui-licenses.duplicateLicenseModal.internalContacts": [
     {
       "type": 0,
-      "value": "內部聯繫人"
+      "value": "內部聯絡人"
     }
   ],
   "ui-licenses.duplicateLicenseModal.invalidResponseError": [
     {
       "type": 0,
-      "value": "无法复制许可证。从服务器收到的响应无效。"
+      "value": "無法複製授權，從伺服器接收到無效回應。"
     }
   ],
   "ui-licenses.duplicateLicenseModal.licenseDateInfo": [
     {
       "type": 0,
-      "value": "许可证日期信息"
+      "value": "授權日期資訊"
     }
   ],
   "ui-licenses.duplicateLicenseModal.licenseInfo": [
     {
       "type": 0,
-      "value": "许可证信息"
+      "value": "授權資訊"
     }
   ],
   "ui-licenses.duplicateLicenseModal.organizations": [
     {
       "type": 0,
-      "value": "组织"
+      "value": "組織"
     }
   ],
   "ui-licenses.duplicateLicenseModal.supplementaryDocs": [
     {
       "type": 0,
-      "value": "补充文档"
+      "value": "補充文件"
     }
   ],
   "ui-licenses.duplicateLicenseModal.terms": [
     {
       "type": 0,
-      "value": "条款"
+      "value": "條款"
     }
   ],
   "ui-licenses.edit": [
     {
       "type": 0,
-      "value": "编辑"
+      "value": "編輯"
     }
   ],
   "ui-licenses.editLicense": [
     {
       "type": 0,
-      "value": "編輯授權憑證"
+      "value": "編輯授權"
     }
   ],
   "ui-licenses.editLicense.name": [
     {
       "type": 0,
-      "value": "Edit license - "
+      "value": "編輯授權 - "
     },
     {
       "type": 1,
@@ -45789,61 +45793,61 @@
   "ui-licenses.emptyAccordion.amendments": [
     {
       "type": 0,
-      "value": "此许可证无修订"
+      "value": "此授權無相對應修正"
     }
   ],
   "ui-licenses.emptyAccordion.coreDocuments.amendment": [
     {
       "type": 0,
-      "value": "No core documents for this amendment"
+      "value": "此修正無核心文件"
     }
   ],
   "ui-licenses.emptyAccordion.coreDocuments.license": [
     {
       "type": 0,
-      "value": "No core documents for this license"
+      "value": "此授權無核心文件"
     }
   ],
   "ui-licenses.emptyAccordion.internalContacts": [
     {
       "type": 0,
-      "value": "此授權憑證無內部聯繫人"
+      "value": "此授權無內部聯絡人"
     }
   ],
   "ui-licenses.emptyAccordion.linkedAgreements": [
     {
       "type": 0,
-      "value": "此许可证无链接协议"
+      "value": "此授權無相對應連結"
     }
   ],
   "ui-licenses.emptyAccordion.organizations": [
     {
       "type": 0,
-      "value": "此许可证无组织"
+      "value": "此授權無相對應組織"
     }
   ],
   "ui-licenses.emptyAccordion.supplementaryDocuments.amendment": [
     {
       "type": 0,
-      "value": "No supplementary documents for this amendment"
+      "value": "此修正無補充文件"
     }
   ],
   "ui-licenses.emptyAccordion.supplementaryDocuments.license": [
     {
       "type": 0,
-      "value": "No supplementary documents for this license"
+      "value": "此授權無補充文件"
     }
   ],
   "ui-licenses.emptyAccordion.terms.amendment": [
     {
       "type": 0,
-      "value": "No terms for this amendment"
+      "value": "此修正無相對應條款"
     }
   ],
   "ui-licenses.emptyAccordion.terms.license": [
     {
       "type": 0,
-      "value": "No terms for this license"
+      "value": "此授權無相對應條款"
     }
   ],
   "ui-licenses.errors.endDateGreaterThanStartDate": [
@@ -45855,7 +45859,7 @@
   "ui-licenses.errors.multipleLicensors": [
     {
       "type": 0,
-      "value": "每个许可证只允许一个许可方。"
+      "value": "每個協議只允許一個控制中的授權。"
     }
   ],
   "ui-licenses.errors.noDeleteHasLinkedAgreements": [
@@ -45863,7 +45867,7 @@
       "children": [
         {
           "type": 0,
-          "value": "许可证未删除"
+          "value": "授權未刪除"
         }
       ],
       "type": 8,
@@ -45871,7 +45875,7 @@
     },
     {
       "type": 0,
-      "value": "因为它已在一个或多个协议中使用。"
+      "value": "因為它已在一個或多個協議中使用。"
     }
   ],
   "ui-licenses.errors.noDeleteLicenseBackendError": [
@@ -45879,7 +45883,7 @@
       "children": [
         {
           "type": 0,
-          "value": "许可证未删除： "
+          "value": "授權未删除： "
         }
       ],
       "type": 8,
@@ -45897,13 +45901,13 @@
   "ui-licenses.errors.termVisibilityWithoutValue": [
     {
       "type": 0,
-      "value": "必须为此条款设置一个值才能更改可见性"
+      "value": "必須為此條款設置一個數值才能改變可見性"
     }
   ],
   "ui-licenses.export.csv.label": [
     {
       "type": 0,
-      "value": "导出已选为CSV（ "
+      "value": "匯出為CSV（ "
     },
     {
       "style": null,
@@ -45912,13 +45916,13 @@
     },
     {
       "type": 0,
-      "value": "单件）"
+      "value": "單件）"
     }
   ],
   "ui-licenses.exportLicenses": [
     {
       "type": 0,
-      "value": "导出许可证为CSV"
+      "value": "匯出為CSV"
     }
   ],
   "ui-licenses.exportLicensesModal.endDate": [
@@ -45930,43 +45934,43 @@
   "ui-licenses.exportLicensesModal.internal": [
     {
       "type": 0,
-      "value": "可见性"
+      "value": "可見性"
     }
   ],
   "ui-licenses.exportLicensesModal.licenseInformation": [
     {
       "type": 0,
-      "value": "许可证信息"
+      "value": "授權資訊"
     }
   ],
   "ui-licenses.exportLicensesModal.message": [
     {
       "type": 0,
-      "value": "请选择要导出的许可证详情"
+      "value": "請選擇要匯出的授權內容"
     }
   ],
   "ui-licenses.exportLicensesModal.name": [
     {
       "type": 0,
-      "value": "名称"
+      "value": "名稱"
     }
   ],
   "ui-licenses.exportLicensesModal.note": [
     {
       "type": 0,
-      "value": "内部附注"
+      "value": "内部備註"
     }
   ],
   "ui-licenses.exportLicensesModal.publicNote": [
     {
       "type": 0,
-      "value": "公共附注"
+      "value": "公開備註"
     }
   ],
   "ui-licenses.exportLicensesModal.selectAll": [
     {
       "type": 0,
-      "value": "全选/取消全选"
+      "value": "全選/取消全選"
     }
   ],
   "ui-licenses.exportLicensesModal.startDate": [
@@ -45978,25 +45982,25 @@
   "ui-licenses.exportLicensesModal.status": [
     {
       "type": 0,
-      "value": "状态"
+      "value": "狀態"
     }
   ],
   "ui-licenses.exportLicensesModal.termNames": [
     {
       "type": 0,
-      "value": "条款名称"
+      "value": "條款名稱"
     }
   ],
   "ui-licenses.exportLicensesModal.terms": [
     {
       "type": 0,
-      "value": "条款"
+      "value": "條款"
     }
   ],
   "ui-licenses.exportLicensesModal.type": [
     {
       "type": 0,
-      "value": "类型"
+      "value": "類型"
     }
   ],
   "ui-licenses.exportLicensesModal.value": [
@@ -46020,19 +46024,19 @@
   "ui-licenses.header.licensor": [
     {
       "type": 0,
-      "value": "许可方"
+      "value": "授權核發者"
     }
   ],
   "ui-licenses.license": [
     {
       "type": 0,
-      "value": "授權憑證"
+      "value": "授權"
     }
   ],
   "ui-licenses.licenseAgreements.none": [
     {
       "type": 0,
-      "value": "目前没有链接到此许可证的协议。"
+      "value": "目前没有連結到此授權的協議"
     }
   ],
   "ui-licenses.licensePlural": [
@@ -46072,31 +46076,31 @@
   "ui-licenses.licenses": [
     {
       "type": 0,
-      "value": "许可证"
+      "value": "授權"
     }
   ],
   "ui-licenses.licenses.duplicate": [
     {
       "type": 0,
-      "value": "复制"
+      "value": "複製"
     }
   ],
   "ui-licenses.loading": [
     {
       "type": 0,
-      "value": "载入中..."
+      "value": "載入中"
     }
   ],
   "ui-licenses.meta.title": [
     {
       "type": 0,
-      "value": "授權憑證"
+      "value": "授權"
     }
   ],
   "ui-licenses.newLicense": [
     {
       "type": 0,
-      "value": "新增授權憑證"
+      "value": "新增授權"
     }
   ],
   "ui-licenses.organizations.add": [
@@ -46108,91 +46112,91 @@
   "ui-licenses.organizations.addOrganizationToLicense": [
     {
       "type": 0,
-      "value": "增加組織到授權憑證"
+      "value": "增加組織到授權"
     }
   ],
   "ui-licenses.organizations.createNew": [
     {
       "type": 0,
-      "value": "新增組織機構"
+      "value": "創立一個新的組織機構"
     }
   ],
   "ui-licenses.organizations.licenseHasNone": [
     {
       "type": 0,
-      "value": "未添加组织。"
+      "value": "此授權缺少它的組織機構"
     }
   ],
   "ui-licenses.organizations.primary": [
     {
       "type": 0,
-      "value": "Primary organization"
+      "value": "主要組織機構"
     }
   ],
   "ui-licenses.organizations.selectRole": [
     {
       "type": 0,
-      "value": "选择一个角色"
+      "value": "選擇一個身份"
     }
   ],
   "ui-licenses.permission.licenses.delete": [
     {
       "type": 0,
-      "value": "许可证：删除许可证"
+      "value": "刪除授權"
     }
   ],
   "ui-licenses.permission.licenses.edit": [
     {
       "type": 0,
-      "value": "许可证：编辑许可证"
+      "value": "編輯授權"
     }
   ],
   "ui-licenses.permission.licenses.view": [
     {
       "type": 0,
-      "value": "许可证：搜索和查看许可证"
+      "value": "查詢授權"
     }
   ],
   "ui-licenses.permission.picklists.manage": [
     {
       "type": 0,
-      "value": "Settings (Licenses): Manage pick lists and values"
+      "value": "設定（授權）：管理挑選清單與值"
     }
   ],
   "ui-licenses.permission.terms.manage": [
     {
       "type": 0,
-      "value": "设置（许可证）：管理许可证条款"
+      "value": "設定（授權）：管理授權內容"
     }
   ],
   "ui-licenses.placeholder.amendmentDescription": [
     {
       "type": 0,
-      "value": "輸入修改說明"
+      "value": "輸入修正說明"
     }
   ],
   "ui-licenses.placeholder.amendmentName": [
     {
       "type": 0,
-      "value": "輸入修改名稱"
+      "value": "輸入修正名稱"
     }
   ],
   "ui-licenses.placeholder.documentCategory": [
     {
       "type": 0,
-      "value": "輸入一個類別"
+      "value": "輸入一個分類"
     }
   ],
   "ui-licenses.placeholder.licenseDescription": [
     {
       "type": 0,
-      "value": "輸入授權憑證的說明"
+      "value": "輸入授權的說明"
     }
   ],
   "ui-licenses.placeholder.licenseName": [
     {
       "type": 0,
-      "value": "輸入授權憑證名稱"
+      "value": "輸入授權名稱"
     }
   ],
   "ui-licenses.prop.agreementStatus": [
@@ -46204,7 +46208,7 @@
   "ui-licenses.prop.amendmentLinkStatus": [
     {
       "type": 0,
-      "value": "Amendment link status"
+      "value": "修訂連結狀態"
     }
   ],
   "ui-licenses.prop.description": [
@@ -46222,7 +46226,7 @@
   "ui-licenses.prop.licensor.notSet": [
     {
       "type": 0,
-      "value": "未设置"
+      "value": "未設定"
     }
   ],
   "ui-licenses.prop.linkStatus": [
@@ -46252,13 +46256,13 @@
   "ui-licenses.prop.orgRole": [
     {
       "type": 0,
-      "value": "角色"
+      "value": "身份"
     }
   ],
   "ui-licenses.prop.parentLicense": [
     {
       "type": 0,
-      "value": "上層授權憑證"
+      "value": "上層授權"
     }
   ],
   "ui-licenses.prop.startDate": [
@@ -46282,19 +46286,19 @@
   "ui-licenses.prop.termValue": [
     {
       "type": 0,
-      "value": "取值"
+      "value": "值"
     }
   ],
   "ui-licenses.prop.termVisibility": [
     {
       "type": 0,
-      "value": "可见性"
+      "value": "可見性"
     }
   ],
   "ui-licenses.prop.terms": [
     {
       "type": 0,
-      "value": "授權憑證條款"
+      "value": "授權條款"
     }
   ],
   "ui-licenses.prop.type": [
@@ -46306,55 +46310,55 @@
   "ui-licenses.prop.unassigned": [
     {
       "type": 0,
-      "value": "Unassigned"
+      "value": "未指派的"
     }
   ],
   "ui-licenses.searchInputLabel": [
     {
       "type": 0,
-      "value": "查詢授權憑證"
+      "value": "查詢授權"
     }
   ],
   "ui-licenses.section.amendmentInformation": [
     {
       "type": 0,
-      "value": "修改信息"
+      "value": "修正資訊"
     }
   ],
   "ui-licenses.section.amendments": [
     {
       "type": 0,
-      "value": "修正案"
+      "value": "修訂"
     }
   ],
   "ui-licenses.section.amendmentsOnParentLicense": [
     {
       "type": 0,
-      "value": "Amendments on parent license"
+      "value": "主授權的修正"
     }
   ],
   "ui-licenses.section.coreDocs": [
     {
       "type": 0,
-      "value": "核心文档"
+      "value": "核心檔案"
     }
   ],
   "ui-licenses.section.internalContacts": [
     {
       "type": 0,
-      "value": "內部聯繫人"
+      "value": "內部聯絡人"
     }
   ],
   "ui-licenses.section.licenseAgreements": [
     {
       "type": 0,
-      "value": "链接到此许可证的协议"
+      "value": "連結到此授權的協議"
     }
   ],
   "ui-licenses.section.licenseInformation": [
     {
       "type": 0,
-      "value": "授權憑證詳細資料"
+      "value": "授權詳細資料"
     }
   ],
   "ui-licenses.section.organizations": [
@@ -46366,13 +46370,13 @@
   "ui-licenses.section.parentLicenseAgreements": [
     {
       "type": 0,
-      "value": "Agreements linked to the parent license"
+      "value": "連結到此授權的協議"
     }
   ],
   "ui-licenses.section.supplementaryDocuments": [
     {
       "type": 0,
-      "value": "补充文档"
+      "value": "補充檔案"
     }
   ],
   "ui-licenses.section.terms": [
@@ -46390,13 +46394,13 @@
   "ui-licenses.settings.customProperties.all": [
     {
       "type": 0,
-      "value": "All"
+      "value": "全部"
     }
   ],
   "ui-licenses.settings.customProperties.none": [
     {
       "type": 0,
-      "value": "None"
+      "value": "無"
     }
   ],
   "ui-licenses.settings.fileStorage.s3AccessKey": [
@@ -46432,7 +46436,7 @@
   "ui-licenses.settings.fileStorage.storageEngine": [
     {
       "type": 0,
-      "value": "Storage engine"
+      "value": "儲存引擎"
     }
   ],
   "ui-licenses.settings.general": [
@@ -46444,7 +46448,7 @@
   "ui-licenses.settings.label": [
     {
       "type": 0,
-      "value": "标签"
+      "value": "標籤"
     }
   ],
   "ui-licenses.settings.pickList": [
@@ -46474,25 +46478,25 @@
   "ui-licenses.settings.settingsSection.fileStorage": [
     {
       "type": 0,
-      "value": "File storage"
+      "value": "檔案儲存"
     }
   ],
   "ui-licenses.settings.termPickList": [
     {
       "type": 0,
-      "value": "設定授權憑證條款挑選清單"
+      "value": "設定授權條款挑選清單"
     }
   ],
   "ui-licenses.settings.value": [
     {
       "type": 0,
-      "value": "值"
+      "value": "數值"
     }
   ],
   "ui-licenses.settings.values": [
     {
       "type": 0,
-      "value": "值"
+      "value": "數值"
     }
   ],
   "ui-licenses.showTags": [
@@ -46504,19 +46508,19 @@
   "ui-licenses.supplementaryDocs.add": [
     {
       "type": 0,
-      "value": "添加补充文档"
+      "value": "新增補充檔案"
     }
   ],
   "ui-licenses.supplementaryDocs.none": [
     {
       "type": 0,
-      "value": "未添加补充文档"
+      "value": "尚未新增補充檔案"
     }
   ],
   "ui-licenses.supplementaryDocs.remove": [
     {
       "type": 0,
-      "value": "移除补充文档"
+      "value": "移除補充檔案"
     }
   ],
   "ui-licenses.tags": [
@@ -46528,19 +46532,19 @@
   "ui-licenses.term": [
     {
       "type": 0,
-      "value": "条款"
+      "value": "條款"
     }
   ],
   "ui-licenses.terms.add": [
     {
       "type": 0,
-      "value": "添加条款"
+      "value": "新增條款"
     }
   ],
   "ui-licenses.terms.callout.delete.error": [
     {
       "type": 0,
-      "value": "删除条款"
+      "value": "刪除條款"
     },
     {
       "type": 1,
@@ -46548,7 +46552,7 @@
     },
     {
       "type": 0,
-      "value": "出错： "
+      "value": "錯誤： "
     },
     {
       "type": 1,
@@ -46560,7 +46564,7 @@
       "children": [
         {
           "type": 0,
-          "value": "条款已删除： "
+          "value": "條款已删除： "
         }
       ],
       "type": 8,
@@ -46580,7 +46584,7 @@
       "children": [
         {
           "type": 0,
-          "value": "错误： "
+          "value": "錯誤： "
         }
       ],
       "type": 8,
@@ -46588,7 +46592,7 @@
     },
     {
       "type": 0,
-      "value": " ：未删除条款"
+      "value": " ：未删除條款"
     },
     {
       "children": [
@@ -46610,13 +46614,13 @@
     },
     {
       "type": 0,
-      "value": "，因为它已在一个或多个许可证或修正中使用。"
+      "value": "，因為它已在一個或多個授權或修正中使用。"
     }
   ],
   "ui-licenses.terms.callout.save.error": [
     {
       "type": 0,
-      "value": "保存条款"
+      "value": "存檔"
     },
     {
       "type": 1,
@@ -46624,7 +46628,7 @@
     },
     {
       "type": 0,
-      "value": " 出错： "
+      "value": " 錯誤： "
     },
     {
       "type": 1,
@@ -46636,7 +46640,7 @@
       "children": [
         {
           "type": 0,
-          "value": "条款已保存： "
+          "value": "已存檔： "
         }
       ],
       "type": 8,
@@ -46668,7 +46672,7 @@
           "value": [
             {
               "type": 0,
-              "value": "条款"
+              "value": "條款"
             }
           ]
         },
@@ -46676,7 +46680,7 @@
           "value": [
             {
               "type": 0,
-              "value": " 条款"
+              "value": " 條款"
             }
           ]
         }
@@ -46689,13 +46693,13 @@
   "ui-licenses.terms.optionalTerms": [
     {
       "type": 0,
-      "value": "可选条款"
+      "value": "選項條款"
     }
   ],
   "ui-licenses.terms.primaryTerms": [
     {
       "type": 0,
-      "value": "主要条款"
+      "value": "主要條款"
     }
   ],
   "ui-licenses.update.callout": [
@@ -46703,7 +46707,7 @@
       "children": [
         {
           "type": 0,
-          "value": "许可证已更新： "
+          "value": "授權已更新： "
         }
       ],
       "type": 8,
@@ -46721,13 +46725,13 @@
   "ui-licenses.updateLicense": [
     {
       "type": 0,
-      "value": "更新授權憑證"
+      "value": "更新授權"
     }
   ],
   "ui-licenses.warn.clearEndDate": [
     {
       "type": 0,
-      "value": "结束日期将清除，因为选中了“开放式结束”。"
+      "value": "結束日期將被清除，因為選中了“開放式結束”。"
     }
   ],
   "ui-local-kb-admin.appMenu.keyboardShortcuts": [
@@ -47029,7 +47033,7 @@
   "ui-local-kb-admin.job.delete.heading": [
     {
       "type": 0,
-      "value": "Delete job"
+      "value": "删除任務"
     }
   ],
   "ui-local-kb-admin.job.delete.heading.org.olf.general.jobs.IdentifierReassignmentJob": [
@@ -57488,31 +57492,31 @@
   "ui-plugin-find-agreement.agreements": [
     {
       "type": 0,
-      "value": "授權許可"
+      "value": "協議"
     }
   ],
   "ui-plugin-find-agreement.agreements.endDate": [
     {
       "type": 0,
-      "value": "End date"
+      "value": "結束日期"
     }
   ],
   "ui-plugin-find-agreement.agreements.internalContacts": [
     {
       "type": 0,
-      "value": "Internal contacts"
+      "value": "內部聯絡人"
     }
   ],
   "ui-plugin-find-agreement.agreements.internalContactsRole": [
     {
       "type": 0,
-      "value": "Internal contact role"
+      "value": "內部聯絡人身份"
     }
   ],
   "ui-plugin-find-agreement.agreements.startDate": [
     {
       "type": 0,
-      "value": "Start date"
+      "value": "開始日期"
     }
   ],
   "ui-plugin-find-agreement.meta.title": [
@@ -57524,13 +57528,13 @@
   "ui-plugin-find-agreement.organizations.selectRole": [
     {
       "type": 0,
-      "value": "Select a role"
+      "value": "選擇一個身份"
     }
   ],
   "ui-plugin-find-agreement.permission.search": [
     {
       "type": 0,
-      "value": "查找协议插件：搜索协议"
+      "value": "尋找協議查詢器（插件）：查詢協議"
     }
   ],
   "ui-plugin-find-agreement.prop.agreementStatus": [
@@ -57572,13 +57576,13 @@
   "ui-plugin-find-agreement.prop.periodEnd": [
     {
       "type": 0,
-      "value": "期限结束"
+      "value": "期間结束"
     }
   ],
   "ui-plugin-find-agreement.prop.periodStart": [
     {
       "type": 0,
-      "value": "期限开始"
+      "value": "期間開始"
     }
   ],
   "ui-plugin-find-agreement.prop.renewalPriority": [
@@ -57596,13 +57600,13 @@
   "ui-plugin-find-agreement.searchInputLabel": [
     {
       "type": 0,
-      "value": "查詢授權許可"
+      "value": "查詢協議"
     }
   ],
   "ui-plugin-find-agreement.selectAgreement": [
     {
       "type": 0,
-      "value": "选择协议"
+      "value": "選擇協議"
     }
   ],
   "ui-plugin-find-erm-usage-data-provider.information.aggregator": [
@@ -58205,13 +58209,13 @@
   "ui-plugin-find-eresource.eresources": [
     {
       "type": 0,
-      "value": "电子资源"
+      "value": "電子資源"
     }
   ],
   "ui-plugin-find-eresource.meta.title": [
     {
       "type": 0,
-      "value": "电子资源查找器插件"
+      "value": "電子資源查找器（插件）"
     }
   ],
   "ui-plugin-find-eresource.no": [
@@ -58223,73 +58227,73 @@
   "ui-plugin-find-eresource.package": [
     {
       "type": 0,
-      "value": "资源包"
+      "value": "資源包"
     }
   ],
   "ui-plugin-find-eresource.permission.search": [
     {
       "type": 0,
-      "value": "查找电子资源插件：搜索电子资源"
+      "value": "電子資源查找器（插件）：查詢電子資源"
     }
   ],
   "ui-plugin-find-eresource.prop.eissn": [
     {
       "type": 0,
-      "value": "ISSN（在线）"
+      "value": "國際標準期刊號（電子期刊）ISSN (Online)"
     }
   ],
   "ui-plugin-find-eresource.prop.isPackage": [
     {
       "type": 0,
-      "value": "是资源包"
+      "value": "是否為資源包"
     }
   ],
   "ui-plugin-find-eresource.prop.isbn": [
     {
       "type": 0,
-      "value": "ISBN"
+      "value": "國際標準書號 ISBN"
     }
   ],
   "ui-plugin-find-eresource.prop.name": [
     {
       "type": 0,
-      "value": "名称"
+      "value": "名稱"
     }
   ],
   "ui-plugin-find-eresource.prop.pissn": [
     {
       "type": 0,
-      "value": "ISSN（印本）"
+      "value": "國際標準期刊號（紙本期刊）ISSN (Print)"
     }
   ],
   "ui-plugin-find-eresource.prop.sourceKb": [
     {
       "type": 0,
-      "value": "外部数据源"
+      "value": "外部資料來源"
     }
   ],
   "ui-plugin-find-eresource.prop.type": [
     {
       "type": 0,
-      "value": "类型"
+      "value": "類型"
     }
   ],
   "ui-plugin-find-eresource.searchInputLabel": [
     {
       "type": 0,
-      "value": "搜索电子资源"
+      "value": "查詢電子資源"
     }
   ],
   "ui-plugin-find-eresource.selectEresource": [
     {
       "type": 0,
-      "value": "选择电子资源"
+      "value": "選擇電子資源"
     }
   ],
   "ui-plugin-find-eresource.title": [
     {
       "type": 0,
-      "value": "题名"
+      "value": "題名"
     }
   ],
   "ui-plugin-find-eresource.yes": [
@@ -58395,19 +58399,19 @@
   "ui-plugin-find-license.meta.title": [
     {
       "type": 0,
-      "value": "许可证查找器插件"
+      "value": "授權查找器（插件）"
     }
   ],
   "ui-plugin-find-license.organizations.selectRole": [
     {
       "type": 0,
-      "value": "Select a role"
+      "value": "選擇一個身份"
     }
   ],
   "ui-plugin-find-license.permission.search": [
     {
       "type": 0,
-      "value": "查找许可证插件：搜索许可证"
+      "value": "尋找授權（插件）：查詢授權"
     }
   ],
   "ui-plugin-find-license.prop.endDate": [
@@ -58449,7 +58453,7 @@
   "ui-plugin-find-license.prop.tags": [
     {
       "type": 0,
-      "value": "Tags"
+      "value": "標籤"
     }
   ],
   "ui-plugin-find-license.prop.type": [
@@ -58461,19 +58465,19 @@
   "ui-plugin-find-license.searchInputLabel": [
     {
       "type": 0,
-      "value": "查詢授權憑證"
+      "value": "查詢授權"
     }
   ],
   "ui-plugin-find-license.selectLicense": [
     {
       "type": 0,
-      "value": "選擇授權憑證"
+      "value": "選擇授權"
     }
   ],
   "ui-plugin-find-license.term": [
     {
       "type": 0,
-      "value": "Term"
+      "value": "條款"
     }
   ],
   "ui-plugin-find-organization.meta.pluginTitle": [
@@ -77377,6 +77381,279 @@
     {
       "type": 0,
       "value": "協議"
+    }
+  ],
+  "stripes-core.createResetPassword.ruleTemplate": [
+    {
+      "type": 0,
+      "value": "Must "
+    },
+    {
+      "type": 1,
+      "value": "description"
+    }
+  ],
+  "stripes-core.errors.password.compromised.invalid": [
+    {
+      "type": 0,
+      "value": "The password must not be commonly-used, expected or compromised"
+    }
+  ],
+  "stripes-core.front.error.general.message": [
+    {
+      "type": 0,
+      "value": "The requested URL "
+    },
+    {
+      "type": 1,
+      "value": "br"
+    },
+    {
+      "type": 1,
+      "value": "url"
+    },
+    {
+      "type": 1,
+      "value": "br"
+    },
+    {
+      "type": 0,
+      "value": " was not found on this server."
+    }
+  ],
+  "stripes-core.front.error.setPassword.message": [
+    {
+      "type": 0,
+      "value": "Please log out of your current FOLIO session to set password. Once logged out please try to set your password with this link again."
+    }
+  ],
+  "stripes-components.Timepicker.hoursLabel": "小時",
+  "stripes-components.Timepicker.minutesLabel": "分鐘",
+  "stripes-components.Timepicker.PeriodLabel": "上午或下午",
+  "stripes-components.Timepicker.SetTimeLabel": "Set time",
+  "stripes-components.Timepicker.ScreenReaderLabel": "{label} format is {screenReaderFormat} use down arrow to enter timepicker dialog. {screenReaderMessage}",
+  "stripes-components.Timepicker.LeaveDialog": "leave dialog",
+  "stripes-components.selection.controlLabel": "Select control",
+  "ui-agreements.emptyAccordion.openAccessProperties": [
+    {
+      "type": 0,
+      "value": "此協議沒有開放取用屬性"
+    }
+  ],
+  "ui-agreements.eresources.availability": [
+    {
+      "type": 0,
+      "value": "可用性"
+    }
+  ],
+  "ui-agreements.eresources.extendedPackageInformation": [
+    {
+      "type": 0,
+      "value": "其他資源包資訊"
+    }
+  ],
+  "ui-agreements.eresources.packageContentType": [
+    {
+      "type": 0,
+      "value": "資源包內容類型"
+    }
+  ],
+  "ui-agreements.eresources.packageDescriptionUrls": [
+    {
+      "type": 0,
+      "value": "資源包描述網址"
+    }
+  ],
+  "ui-agreements.eresources.sourceCreated": [
+    {
+      "type": 0,
+      "value": "已建立的來源"
+    }
+  ],
+  "ui-agreements.eresources.sourceLastUpdated": [
+    {
+      "type": 0,
+      "value": "最近更新的來源"
+    }
+  ],
+  "ui-agreements.eresources.status": [
+    {
+      "type": 0,
+      "value": "狀態"
+    }
+  ],
+  "ui-agreements.openAccessProperties": [
+    {
+      "type": 0,
+      "value": "開放取用屬性"
+    }
+  ],
+  "ui-agreements.openAccessProperties.optionalProperties": [
+    {
+      "type": 0,
+      "value": "可選屬性"
+    }
+  ],
+  "ui-agreements.openAccessProperties.primaryProperties": [
+    {
+      "type": 0,
+      "value": "主要屬性"
+    }
+  ],
+  "ui-agreements.settings.customProperties.all": [
+    {
+      "type": 0,
+      "value": "全部"
+    }
+  ],
+  "ui-agreements.settings.customProperties.none": [
+    {
+      "type": 0,
+      "value": "無"
+    }
+  ],
+  "ui-agreements.settings.supplementaryProperties.primaryRetired": [
+    {
+      "type": 0,
+      "value": "補充屬性不能既是主要又是已棄用"
+    }
+  ],
+  "ui-agreements.settings.supplementaryProperties.retired": [
+    {
+      "type": 0,
+      "value": "已棄用"
+    }
+  ],
+  "ui-agreements.supplementaryProperties.defaultTitle": [
+    {
+      "type": 0,
+      "value": "補充屬性 ("
+    },
+    {
+      "type": 1,
+      "value": "ctx"
+    },
+    {
+      "type": 0,
+      "value": ")"
+    }
+  ],
+  "ui-agreements.supplementaryProperties.deprecated": [
+    {
+      "type": 0,
+      "value": "已棄用： "
+    },
+    {
+      "type": 1,
+      "value": "name"
+    }
+  ],
+  "ui-agreements.supplementaryProperties.editCustomPropertyFilters": [
+    {
+      "type": 0,
+      "value": "編輯補充屬性過濾器"
+    }
+  ],
+  "ui-agreements.supplementaryProperties.filterBuilder": [
+    {
+      "type": 0,
+      "value": "補充屬性過濾器產生器"
+    }
+  ],
+  "ui-agreements.supplementaryProperties.filterIndex": [
+    {
+      "type": 0,
+      "value": "補充屬性過濾器 "
+    },
+    {
+      "type": 1,
+      "value": "index"
+    }
+  ],
+  "ui-agreements.supplementaryProperties.filtersApplied": [
+    {
+      "type": 1,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": " 個補充屬性過濾器已套用"
+    }
+  ],
+  "ui-agreements.supplementaryProperties.removeFilter": [
+    {
+      "type": 0,
+      "value": "刪除補充屬性過濾器 "
+    },
+    {
+      "type": 1,
+      "value": "index"
+    }
+  ],
+  "ui-agreements.supplementaryProperty": [
+    {
+      "type": 0,
+      "value": "補充屬性"
+    }
+  ],
+  "ui-agreements.supplementaryProperty.help.label": [
+    {
+      "type": 0,
+      "value": "當在 Folio 中，和在向使用者顯示協議的補充屬性的任何其他系統中，向使用者顯示補充屬性時，會使用協議中的「標籤（Label）」。它應該是一個簡短的文字字符串，可以清楚地傳達補充屬性中記錄了哪些資訊。當需要將補充屬性的進一步解釋顯示給使用者時，可以使用「描述（Description）」欄位進行補充說明。"
+    }
+  ],
+  "ui-agreements.supplementaryProperty.help.name": [
+    {
+      "type": 0,
+      "value": "當以機器可讀格式輸出補充屬性資料時，所使用在協議中的「名稱」。它不是用來顯示給使用者（館員或讀者）。它應該是一個簡短的拉丁字母字符串，可供訪問協議補充屬性數據的任何外部系統或程式使用。建議使用 camelCase 命名原則，但這不是必需的。協議的補充屬性名稱的更改會影響任何使用協議補充屬性資料的外部系統，在未諮詢相關外部系統和軟體的負責人員的情況下，不應該對其進行更改。"
+    }
+  ],
+  "ui-licenses.terms": [
+    {
+      "type": 0,
+      "value": "條款"
+    }
+  ],
+  "ui-licenses.terms.all": [
+    {
+      "type": 0,
+      "value": "全部"
+    }
+  ],
+  "ui-licenses.terms.help.label": [
+    {
+      "type": 0,
+      "value": "當在 Folio 中，和在向使用者顯示授權條款的任何其他系統中，向使用者顯示授權條款時，會使用授權中的「標籤（Label）」。它應該是一個簡短的文字字符串，可以清楚地傳達授權條款中記錄了哪些資訊。當需要將授權條款的進一步解釋顯示給使用者時，可以使用「描述（Description）」欄位進行補充說明。"
+    }
+  ],
+  "ui-licenses.terms.help.name": [
+    {
+      "type": 0,
+      "value": "當以機器可讀格式輸出授權條款資料時，所使用授權條款的「名稱」。它不是用來顯示給使用者（館員或讀者）。它應該是一個簡短的拉丁字母字符串，可供訪問授權條款資料的任何外部系統或程式使用。建議使用 camelCase 命名原則，但這不是必需的。授權條款名稱的更改會影響任何使用授權條款資料的外部系統，在未諮詢相關外部系統和軟體的負責人員的情況下，不應該對其進行更改。"
+    }
+  ],
+  "ui-licenses.terms.none": [
+    {
+      "type": 0,
+      "value": "無"
+    }
+  ],
+  "ui-licenses.terms.primary": [
+    {
+      "type": 0,
+      "value": "主要條款"
+    }
+  ],
+  "ui-licenses.terms.primaryRetired": [
+    {
+      "type": 0,
+      "value": "同一條款不能同時為主要又是已棄用"
+    }
+  ],
+  "ui-licenses.terms.retired": [
+    {
+      "type": 0,
+      "value": "已棄用"
     }
   ]
 }
