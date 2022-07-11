@@ -74663,79 +74663,79 @@
   "stripes-acq-components.acquisition_method.approvalPlan": [
     {
       "type": 0,
-      "value": "Approval plan"
+      "value": "Plano de aprovação"
     }
   ],
   "stripes-acq-components.acquisition_method.dda": [
     {
       "type": 0,
-      "value": "Demand driven acquisitions (DDA)"
+      "value": "Aquisições orientadas pela demanda (DDA)"
     }
   ],
   "stripes-acq-components.acquisition_method.depository": [
     {
       "type": 0,
-      "value": "Depository"
+      "value": "Depositário"
     }
   ],
   "stripes-acq-components.acquisition_method.eba": [
     {
       "type": 0,
-      "value": "Evidence based acquisitions (EBA)"
+      "value": "Aquisições Baseadas em Evidência (EBA)"
     }
   ],
   "stripes-acq-components.acquisition_method.exchange": [
     {
       "type": 0,
-      "value": "Exchange"
+      "value": "Permuta"
     }
   ],
   "stripes-acq-components.acquisition_method.free": [
     {
       "type": 0,
-      "value": "Free"
+      "value": "Grátis"
     }
   ],
   "stripes-acq-components.acquisition_method.gift": [
     {
       "type": 0,
-      "value": "Gift"
+      "value": "Presente"
     }
   ],
   "stripes-acq-components.acquisition_method.internalTransfer": [
     {
       "type": 0,
-      "value": "Internal transfer"
+      "value": "Transferência interna"
     }
   ],
   "stripes-acq-components.acquisition_method.membership": [
     {
       "type": 0,
-      "value": "Membership"
+      "value": "Filiação"
     }
   ],
   "stripes-acq-components.acquisition_method.other": [
     {
       "type": 0,
-      "value": "Other"
+      "value": "Outros"
     }
   ],
   "stripes-acq-components.acquisition_method.purchase": [
     {
       "type": 0,
-      "value": "Purchase"
+      "value": "Compra"
     }
   ],
   "stripes-acq-components.acquisition_method.purchaseAtVendorSystem": [
     {
       "type": 0,
-      "value": "Purchase at vendor system"
+      "value": "Compra no sistema do fornecedor"
     }
   ],
   "stripes-acq-components.acquisition_method.technical": [
     {
       "type": 0,
-      "value": "Technical"
+      "value": "Técnico"
     }
   ],
   "stripes-acq-components.addTagFor": [
@@ -74805,7 +74805,7 @@
   "stripes-acq-components.filter.acqUnit.noAcqUnit": [
     {
       "type": 0,
-      "value": "No acquisition unit"
+      "value": "Nenhuma unidade de aquisição"
     }
   ],
   "stripes-acq-components.filter.false": [
@@ -74829,7 +74829,7 @@
   "stripes-acq-components.filter.placeholder": [
     {
       "type": 0,
-      "value": "Filter"
+      "value": "Filtro"
     }
   ],
   "stripes-acq-components.filter.tags": [
@@ -75493,7 +75493,7 @@
   "stripes-acq-components.validation.invalidURL": [
     {
       "type": 0,
-      "value": "URL não válida"
+      "value": "URL não é válida, deve conter o esquema de URL. Por exemplo. ftp://"
     }
   ],
   "stripes-acq-components.validation.required": [
@@ -75541,49 +75541,326 @@
   "stripes-template-editor.toolbar.align.right": "alinhar à direita",
   "stripes-template-editor.toolbar.align.justify": "justificar",
   "stripes-template-editor.toolbar.link": "link",
-  "stripes-data-transfer-components.loading": "Carregando",
-  "stripes-data-transfer-components.profiles": "Perfis",
-  "stripes-data-transfer-components.learnMore": "Saiba mais",
-  "stripes-data-transfer-components.fileName": "Nome do arquivo",
-  "stripes-data-transfer-components.jobExecutionHrId": "ID",
-  "stripes-data-transfer-components.jobProfileName": "Perfil do job",
-  "stripes-data-transfer-components.records": "Registros",
-  "stripes-data-transfer-components.jobCompletedDate": "Terminou a execução",
-  "stripes-data-transfer-components.runBy": "Executado por",
-  "stripes-data-transfer-components.name": "Nome",
-  "stripes-data-transfer-components.folioRecordType": "Tipo de registro FOLIO",
-  "stripes-data-transfer-components.updated": "Atualizado",
-  "stripes-data-transfer-components.updatedBy": "Atualizado por",
-  "stripes-data-transfer-components.mappingProfilesTitle": "Perfis de mapeamento de campo",
-  "stripes-data-transfer-components.mappingProfilesCount": "{count, number} {count, plural, one {perfil} other {perfis}} de mapeamento de campos",
-  "stripes-data-transfer-components.jobProfilesTitle": "Perfis de job",
-  "stripes-data-transfer-components.jobProfilesCount": "{count, number} job {count, plural, one {perfil} other {perfis}}",
-  "stripes-data-transfer-components.recordTypes.order": "Pedido",
-  "stripes-data-transfer-components.recordTypes.orderLine": "Pedido e linha de pedido",
-  "stripes-data-transfer-components.recordTypes.invoice": "Fatura",
-  "stripes-data-transfer-components.recordTypes.item": "Item",
-  "stripes-data-transfer-components.recordTypes.items": "Itens",
-  "stripes-data-transfer-components.recordTypes.instance": "Instância",
-  "stripes-data-transfer-components.recordTypes.holdings": "Holdings",
-  "stripes-data-transfer-components.recordTypes.marc-bib": "MARC Bibliográfico",
-  "stripes-data-transfer-components.recordTypes.marc-auth": "MARC Autoridade",
-  "stripes-data-transfer-components.recordTypes.marc-hold": "MARC Holdings",
-  "stripes-data-transfer-components.recordTypes.srs": "Armazenamento de registro de origem (registro inteiro)",
-  "stripes-data-transfer-components.search": "Pesquisa",
-  "stripes-data-transfer-components.validation.enterValue": "Por favor insira um valor",
-  "stripes-data-transfer-components.new": "Novo",
-  "stripes-data-transfer-components.edit": "Editar",
-  "stripes-data-transfer-components.duplicate": "Duplicar",
-  "stripes-data-transfer-components.delete": "Excluir",
-  "stripes-data-transfer-components.filter.errors": "Erros na importação",
-  "stripes-data-transfer-components.filter.date": "Data",
-  "stripes-data-transfer-components.filter.jobProfile": "Perfil do job",
-  "stripes-data-transfer-components.filter.chooseJobProfile": "Escolha o perfil do job",
-  "stripes-data-transfer-components.filter.user": "Usuário",
-  "stripes-data-transfer-components.filter.chooseUser": "Escolha o usuário",
-  "stripes-data-transfer-components.filter.singleRecordImports": "Importação de registro único",
-  "stripes-data-transfer-components.filter.option.no": "não",
-  "stripes-data-transfer-components.filter.option.yes": "sim",
+  "stripes-data-transfer-components.loading": [
+    {
+      "type": 0,
+      "value": "Carregando"
+    }
+  ],
+  "stripes-data-transfer-components.profiles": [
+    {
+      "type": 0,
+      "value": "Perfis"
+    }
+  ],
+  "stripes-data-transfer-components.learnMore": [
+    {
+      "type": 0,
+      "value": "Saiba mais"
+    }
+  ],
+  "stripes-data-transfer-components.fileName": [
+    {
+      "type": 0,
+      "value": "Nome do arquivo"
+    }
+  ],
+  "stripes-data-transfer-components.jobExecutionHrId": [
+    {
+      "type": 0,
+      "value": "ID"
+    }
+  ],
+  "stripes-data-transfer-components.jobProfileName": [
+    {
+      "type": 0,
+      "value": "Perfil do job"
+    }
+  ],
+  "stripes-data-transfer-components.records": [
+    {
+      "type": 0,
+      "value": "Registros"
+    }
+  ],
+  "stripes-data-transfer-components.jobCompletedDate": [
+    {
+      "type": 0,
+      "value": "Terminou a execução"
+    }
+  ],
+  "stripes-data-transfer-components.runBy": [
+    {
+      "type": 0,
+      "value": "Executado por"
+    }
+  ],
+  "stripes-data-transfer-components.name": [
+    {
+      "type": 0,
+      "value": "Nome"
+    }
+  ],
+  "stripes-data-transfer-components.folioRecordType": [
+    {
+      "type": 0,
+      "value": "Tipo de registro FOLIO"
+    }
+  ],
+  "stripes-data-transfer-components.updated": [
+    {
+      "type": 0,
+      "value": "Atualizado"
+    }
+  ],
+  "stripes-data-transfer-components.updatedBy": [
+    {
+      "type": 0,
+      "value": "Atualizado por"
+    }
+  ],
+  "stripes-data-transfer-components.mappingProfilesTitle": [
+    {
+      "type": 0,
+      "value": "Perfis de mapeamento de campo"
+    }
+  ],
+  "stripes-data-transfer-components.mappingProfilesCount": [
+    {
+      "style": null,
+      "type": 2,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": " "
+    },
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "perfil"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "perfis"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": " de mapeamento de campos"
+    }
+  ],
+  "stripes-data-transfer-components.jobProfilesTitle": [
+    {
+      "type": 0,
+      "value": "Perfis de job"
+    }
+  ],
+  "stripes-data-transfer-components.jobProfilesCount": [
+    {
+      "style": null,
+      "type": 2,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": " job "
+    },
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "perfil"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "perfis"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "count"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.order": [
+    {
+      "type": 0,
+      "value": "Pedido"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.orderLine": [
+    {
+      "type": 0,
+      "value": "Pedido e linha de pedido"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.invoice": [
+    {
+      "type": 0,
+      "value": "Fatura"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.item": [
+    {
+      "type": 0,
+      "value": "Item"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.items": [
+    {
+      "type": 0,
+      "value": "Itens"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.instance": [
+    {
+      "type": 0,
+      "value": "Instância"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.holdings": [
+    {
+      "type": 0,
+      "value": "Holdings"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.marc-bib": [
+    {
+      "type": 0,
+      "value": "MARC Bibliográfico"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.marc-auth": [
+    {
+      "type": 0,
+      "value": "MARC Autoridade"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.marc-hold": [
+    {
+      "type": 0,
+      "value": "MARC Holdings"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.srs": [
+    {
+      "type": 0,
+      "value": "Armazenamento de registro de origem (registro inteiro)"
+    }
+  ],
+  "stripes-data-transfer-components.search": [
+    {
+      "type": 0,
+      "value": "Pesquisa"
+    }
+  ],
+  "stripes-data-transfer-components.validation.enterValue": [
+    {
+      "type": 0,
+      "value": "Por favor insira um valor"
+    }
+  ],
+  "stripes-data-transfer-components.new": [
+    {
+      "type": 0,
+      "value": "Novo"
+    }
+  ],
+  "stripes-data-transfer-components.edit": [
+    {
+      "type": 0,
+      "value": "Editar"
+    }
+  ],
+  "stripes-data-transfer-components.duplicate": [
+    {
+      "type": 0,
+      "value": "Duplicar"
+    }
+  ],
+  "stripes-data-transfer-components.delete": [
+    {
+      "type": 0,
+      "value": "Excluir"
+    }
+  ],
+  "stripes-data-transfer-components.filter.errors": [
+    {
+      "type": 0,
+      "value": "Erros na importação"
+    }
+  ],
+  "stripes-data-transfer-components.filter.date": [
+    {
+      "type": 0,
+      "value": "Data"
+    }
+  ],
+  "stripes-data-transfer-components.filter.jobProfile": [
+    {
+      "type": 0,
+      "value": "Perfil do job"
+    }
+  ],
+  "stripes-data-transfer-components.filter.chooseJobProfile": [
+    {
+      "type": 0,
+      "value": "Escolha o perfil do job"
+    }
+  ],
+  "stripes-data-transfer-components.filter.user": [
+    {
+      "type": 0,
+      "value": "Usuário"
+    }
+  ],
+  "stripes-data-transfer-components.filter.chooseUser": [
+    {
+      "type": 0,
+      "value": "Escolha o usuário"
+    }
+  ],
+  "stripes-data-transfer-components.filter.singleRecordImports": [
+    {
+      "type": 0,
+      "value": "Importação de registro único"
+    }
+  ],
+  "stripes-data-transfer-components.filter.option.no": [
+    {
+      "type": 0,
+      "value": "não"
+    }
+  ],
+  "stripes-data-transfer-components.filter.option.yes": [
+    {
+      "type": 0,
+      "value": "sim"
+    }
+  ],
   "ui-agreements.duplicateAgreementModal.supplementaryInformation": [
     {
       "type": 0,
@@ -76338,6 +76615,137 @@
     {
       "type": 0,
       "value": " requests"
+    }
+  ],
+  "ui-orders.errors.deleteConnectedToInvoice": [
+    {
+      "type": 0,
+      "value": "Fund distribution(s) could not be edit because this POL has related approved or paid invoices for the current fiscal year."
+    }
+  ],
+  "ui-orders.errors.deleteWithExpendedAmount": [
+    {
+      "type": 0,
+      "value": "Fund distribution(s) could not be edit because this POL has related approved or paid invoices for the current fiscal year."
+    }
+  ],
+  "stripes-acq-components.button.apply": [
+    {
+      "type": 0,
+      "value": "Apply"
+    }
+  ],
+  "stripes-acq-components.filter.dynamic.emptyMessage": [
+    {
+      "type": 0,
+      "value": "Start typing to load options"
+    }
+  ],
+  "stripes-acq-components.filter.expenseClass": [
+    {
+      "type": 0,
+      "value": "Classe de despesas"
+    }
+  ],
+  "stripes-acq-components.filter.fundCode": [
+    {
+      "type": 0,
+      "value": "Código do fundo"
+    }
+  ],
+  "stripes-acq-components.filter.numberRange.max": [
+    {
+      "type": 0,
+      "value": "To"
+    }
+  ],
+  "stripes-acq-components.filter.numberRange.min": [
+    {
+      "type": 0,
+      "value": "From"
+    }
+  ],
+  "stripes-acq-components.fundDistribution.fundStatus.Frozen": [
+    {
+      "type": 0,
+      "value": "Congelado"
+    }
+  ],
+  "stripes-acq-components.fundDistribution.fundStatus.Inactive": [
+    {
+      "type": 0,
+      "value": "Inativo"
+    }
+  ],
+  "stripes-acq-components.holdings.deleteModal.heading": [
+    {
+      "type": 0,
+      "value": "Delete Holdings"
+    }
+  ],
+  "stripes-acq-components.holdings.deleteModal.keepHoldings": [
+    {
+      "type": 0,
+      "value": "Keep Holdings"
+    }
+  ],
+  "stripes-acq-components.holdings.deleteModal.message": [
+    {
+      "type": 0,
+      "value": "This piece is connected to records in inventory. After this edit there will be no other pieces OR items connected to the related Holdings record(s). After making this change would you like FOLIO to delete the Holdings record(s)?"
+    }
+  ],
+  "stripes-acq-components.resultsCount": [
+    {
+      "style": null,
+      "type": 2,
+      "value": "resultsCount"
+    },
+    {
+      "type": 0,
+      "value": " "
+    },
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": " registro encontrado "
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": " registros encontrados "
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "resultsCount"
+    }
+  ],
+  "stripes-acq-components.validation.cantBeNegative": [
+    {
+      "type": 0,
+      "value": "Can not be negative"
+    }
+  ],
+  "stripes-acq-components.validation.maxCantBeLessMin": [
+    {
+      "type": 0,
+      "value": "\"To\" can not be less than \"From\""
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.authority": [
+    {
+      "type": 0,
+      "value": "Autoridade"
     }
   ]
 }

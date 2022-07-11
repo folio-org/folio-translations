@@ -75899,7 +75899,7 @@
   "stripes-acq-components.filter.acqUnit.noAcqUnit": [
     {
       "type": 0,
-      "value": "No acquisition unit"
+      "value": "无采购单位"
     }
   ],
   "stripes-acq-components.filter.false": [
@@ -75923,7 +75923,7 @@
   "stripes-acq-components.filter.placeholder": [
     {
       "type": 0,
-      "value": "Filter"
+      "value": "筛选"
     }
   ],
   "stripes-acq-components.filter.tags": [
@@ -76591,7 +76591,7 @@
   "stripes-acq-components.validation.invalidURL": [
     {
       "type": 0,
-      "value": "URL 无效"
+      "value": "URL无效，必须包含URL方案。例如ftp://"
     }
   ],
   "stripes-acq-components.validation.required": [
@@ -76639,49 +76639,331 @@
   "stripes-template-editor.toolbar.align.right": "靠右",
   "stripes-template-editor.toolbar.align.justify": "证明",
   "stripes-template-editor.toolbar.link": "链接",
-  "stripes-data-transfer-components.loading": "加载中...",
-  "stripes-data-transfer-components.profiles": "配置文件",
-  "stripes-data-transfer-components.learnMore": "了解更多信息",
-  "stripes-data-transfer-components.fileName": "文件名",
-  "stripes-data-transfer-components.jobExecutionHrId": "ID",
-  "stripes-data-transfer-components.jobProfileName": "任务配置文件",
-  "stripes-data-transfer-components.records": "记录",
-  "stripes-data-transfer-components.jobCompletedDate": "结束运行",
-  "stripes-data-transfer-components.runBy": "由......运行",
-  "stripes-data-transfer-components.name": "名称",
-  "stripes-data-transfer-components.folioRecordType": "FOLIO记录类型",
-  "stripes-data-transfer-components.updated": "已更新",
-  "stripes-data-transfer-components.updatedBy": "更新者",
-  "stripes-data-transfer-components.mappingProfilesTitle": "字段映射配置文件",
-  "stripes-data-transfer-components.mappingProfilesCount": "{count, number} 字段映射 {count, plural, one { 配置文件 } other { 配置文件 }}",
-  "stripes-data-transfer-components.jobProfilesTitle": "任务配置文件",
-  "stripes-data-transfer-components.jobProfilesCount": "{count, number}任务{count, number} {count, plural, one {配置文件} other {配置文件}}",
-  "stripes-data-transfer-components.recordTypes.order": "订购",
-  "stripes-data-transfer-components.recordTypes.orderLine": "订单和订单行",
-  "stripes-data-transfer-components.recordTypes.invoice": "发票",
-  "stripes-data-transfer-components.recordTypes.item": "单件",
-  "stripes-data-transfer-components.recordTypes.items": "单件",
-  "stripes-data-transfer-components.recordTypes.instance": "实例",
-  "stripes-data-transfer-components.recordTypes.holdings": "馆藏",
-  "stripes-data-transfer-components.recordTypes.marc-bib": "MARC书目",
-  "stripes-data-transfer-components.recordTypes.marc-auth": "MARC规范",
-  "stripes-data-transfer-components.recordTypes.marc-hold": "MARC馆藏",
-  "stripes-data-transfer-components.recordTypes.srs": "源记录存储（整个记录）",
-  "stripes-data-transfer-components.search": "搜索",
-  "stripes-data-transfer-components.validation.enterValue": "请输入一个值",
-  "stripes-data-transfer-components.new": "新建",
-  "stripes-data-transfer-components.edit": "编辑",
-  "stripes-data-transfer-components.duplicate": "复制",
-  "stripes-data-transfer-components.delete": "删除",
-  "stripes-data-transfer-components.filter.errors": "导入时出错",
-  "stripes-data-transfer-components.filter.date": "日期",
-  "stripes-data-transfer-components.filter.jobProfile": "任务配置文件",
-  "stripes-data-transfer-components.filter.chooseJobProfile": "选择任务配置文件",
-  "stripes-data-transfer-components.filter.user": "用户",
-  "stripes-data-transfer-components.filter.chooseUser": "选择用户",
-  "stripes-data-transfer-components.filter.singleRecordImports": "馆藏单记录导入",
-  "stripes-data-transfer-components.filter.option.no": "否",
-  "stripes-data-transfer-components.filter.option.yes": "是",
+  "stripes-data-transfer-components.loading": [
+    {
+      "type": 0,
+      "value": "加载中..."
+    }
+  ],
+  "stripes-data-transfer-components.profiles": [
+    {
+      "type": 0,
+      "value": "配置文件"
+    }
+  ],
+  "stripes-data-transfer-components.learnMore": [
+    {
+      "type": 0,
+      "value": "了解更多信息"
+    }
+  ],
+  "stripes-data-transfer-components.fileName": [
+    {
+      "type": 0,
+      "value": "文件名"
+    }
+  ],
+  "stripes-data-transfer-components.jobExecutionHrId": [
+    {
+      "type": 0,
+      "value": "ID"
+    }
+  ],
+  "stripes-data-transfer-components.jobProfileName": [
+    {
+      "type": 0,
+      "value": "任务配置文件"
+    }
+  ],
+  "stripes-data-transfer-components.records": [
+    {
+      "type": 0,
+      "value": "记录"
+    }
+  ],
+  "stripes-data-transfer-components.jobCompletedDate": [
+    {
+      "type": 0,
+      "value": "结束运行"
+    }
+  ],
+  "stripes-data-transfer-components.runBy": [
+    {
+      "type": 0,
+      "value": "由......运行"
+    }
+  ],
+  "stripes-data-transfer-components.name": [
+    {
+      "type": 0,
+      "value": "名称"
+    }
+  ],
+  "stripes-data-transfer-components.folioRecordType": [
+    {
+      "type": 0,
+      "value": "FOLIO记录类型"
+    }
+  ],
+  "stripes-data-transfer-components.updated": [
+    {
+      "type": 0,
+      "value": "已更新"
+    }
+  ],
+  "stripes-data-transfer-components.updatedBy": [
+    {
+      "type": 0,
+      "value": "更新者"
+    }
+  ],
+  "stripes-data-transfer-components.mappingProfilesTitle": [
+    {
+      "type": 0,
+      "value": "字段映射配置文件"
+    }
+  ],
+  "stripes-data-transfer-components.mappingProfilesCount": [
+    {
+      "style": null,
+      "type": 2,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": " 字段映射 "
+    },
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": " 配置文件 "
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": " 配置文件 "
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "count"
+    }
+  ],
+  "stripes-data-transfer-components.jobProfilesTitle": [
+    {
+      "type": 0,
+      "value": "任务配置文件"
+    }
+  ],
+  "stripes-data-transfer-components.jobProfilesCount": [
+    {
+      "style": null,
+      "type": 2,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": "任务"
+    },
+    {
+      "style": null,
+      "type": 2,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": " "
+    },
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "配置文件"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "配置文件"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "count"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.order": [
+    {
+      "type": 0,
+      "value": "订购"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.orderLine": [
+    {
+      "type": 0,
+      "value": "订单和订单行"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.invoice": [
+    {
+      "type": 0,
+      "value": "发票"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.item": [
+    {
+      "type": 0,
+      "value": "单件"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.items": [
+    {
+      "type": 0,
+      "value": "单件"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.instance": [
+    {
+      "type": 0,
+      "value": "实例"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.holdings": [
+    {
+      "type": 0,
+      "value": "馆藏"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.marc-bib": [
+    {
+      "type": 0,
+      "value": "MARC书目"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.marc-auth": [
+    {
+      "type": 0,
+      "value": "MARC规范"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.marc-hold": [
+    {
+      "type": 0,
+      "value": "MARC馆藏"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.srs": [
+    {
+      "type": 0,
+      "value": "源记录存储（整个记录）"
+    }
+  ],
+  "stripes-data-transfer-components.search": [
+    {
+      "type": 0,
+      "value": "搜索"
+    }
+  ],
+  "stripes-data-transfer-components.validation.enterValue": [
+    {
+      "type": 0,
+      "value": "请输入一个值"
+    }
+  ],
+  "stripes-data-transfer-components.new": [
+    {
+      "type": 0,
+      "value": "新建"
+    }
+  ],
+  "stripes-data-transfer-components.edit": [
+    {
+      "type": 0,
+      "value": "编辑"
+    }
+  ],
+  "stripes-data-transfer-components.duplicate": [
+    {
+      "type": 0,
+      "value": "复制"
+    }
+  ],
+  "stripes-data-transfer-components.delete": [
+    {
+      "type": 0,
+      "value": "删除"
+    }
+  ],
+  "stripes-data-transfer-components.filter.errors": [
+    {
+      "type": 0,
+      "value": "导入时出错"
+    }
+  ],
+  "stripes-data-transfer-components.filter.date": [
+    {
+      "type": 0,
+      "value": "日期"
+    }
+  ],
+  "stripes-data-transfer-components.filter.jobProfile": [
+    {
+      "type": 0,
+      "value": "任务配置文件"
+    }
+  ],
+  "stripes-data-transfer-components.filter.chooseJobProfile": [
+    {
+      "type": 0,
+      "value": "选择任务配置文件"
+    }
+  ],
+  "stripes-data-transfer-components.filter.user": [
+    {
+      "type": 0,
+      "value": "用户"
+    }
+  ],
+  "stripes-data-transfer-components.filter.chooseUser": [
+    {
+      "type": 0,
+      "value": "选择用户"
+    }
+  ],
+  "stripes-data-transfer-components.filter.singleRecordImports": [
+    {
+      "type": 0,
+      "value": "馆藏单记录导入"
+    }
+  ],
+  "stripes-data-transfer-components.filter.option.no": [
+    {
+      "type": 0,
+      "value": "否"
+    }
+  ],
+  "stripes-data-transfer-components.filter.option.yes": [
+    {
+      "type": 0,
+      "value": "是"
+    }
+  ],
   "ui-agreements.duplicateAgreementModal.supplementaryInformation": [
     {
       "type": 0,
@@ -77436,6 +77718,137 @@
     {
       "type": 0,
       "value": " requests"
+    }
+  ],
+  "ui-orders.errors.deleteConnectedToInvoice": [
+    {
+      "type": 0,
+      "value": "Fund distribution(s) could not be edit because this POL has related approved or paid invoices for the current fiscal year."
+    }
+  ],
+  "ui-orders.errors.deleteWithExpendedAmount": [
+    {
+      "type": 0,
+      "value": "Fund distribution(s) could not be edit because this POL has related approved or paid invoices for the current fiscal year."
+    }
+  ],
+  "stripes-acq-components.button.apply": [
+    {
+      "type": 0,
+      "value": "Apply"
+    }
+  ],
+  "stripes-acq-components.filter.dynamic.emptyMessage": [
+    {
+      "type": 0,
+      "value": "Start typing to load options"
+    }
+  ],
+  "stripes-acq-components.filter.expenseClass": [
+    {
+      "type": 0,
+      "value": "支出类别"
+    }
+  ],
+  "stripes-acq-components.filter.fundCode": [
+    {
+      "type": 0,
+      "value": "经费代码"
+    }
+  ],
+  "stripes-acq-components.filter.numberRange.max": [
+    {
+      "type": 0,
+      "value": "To"
+    }
+  ],
+  "stripes-acq-components.filter.numberRange.min": [
+    {
+      "type": 0,
+      "value": "From"
+    }
+  ],
+  "stripes-acq-components.fundDistribution.fundStatus.Frozen": [
+    {
+      "type": 0,
+      "value": "冻结"
+    }
+  ],
+  "stripes-acq-components.fundDistribution.fundStatus.Inactive": [
+    {
+      "type": 0,
+      "value": "未激活"
+    }
+  ],
+  "stripes-acq-components.holdings.deleteModal.heading": [
+    {
+      "type": 0,
+      "value": "Delete Holdings"
+    }
+  ],
+  "stripes-acq-components.holdings.deleteModal.keepHoldings": [
+    {
+      "type": 0,
+      "value": "Keep Holdings"
+    }
+  ],
+  "stripes-acq-components.holdings.deleteModal.message": [
+    {
+      "type": 0,
+      "value": "This piece is connected to records in inventory. After this edit there will be no other pieces OR items connected to the related Holdings record(s). After making this change would you like FOLIO to delete the Holdings record(s)?"
+    }
+  ],
+  "stripes-acq-components.resultsCount": [
+    {
+      "style": null,
+      "type": 2,
+      "value": "resultsCount"
+    },
+    {
+      "type": 0,
+      "value": " "
+    },
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "找到记录"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "找到记录"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "resultsCount"
+    }
+  ],
+  "stripes-acq-components.validation.cantBeNegative": [
+    {
+      "type": 0,
+      "value": "Can not be negative"
+    }
+  ],
+  "stripes-acq-components.validation.maxCantBeLessMin": [
+    {
+      "type": 0,
+      "value": "\"To\" can not be less than \"From\""
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.authority": [
+    {
+      "type": 0,
+      "value": "规范"
     }
   ]
 }

@@ -75991,49 +75991,322 @@
   "stripes-template-editor.toolbar.align.right": "right",
   "stripes-template-editor.toolbar.align.justify": "justify",
   "stripes-template-editor.toolbar.link": "link",
-  "stripes-data-transfer-components.loading": "Ładowania",
-  "stripes-data-transfer-components.profiles": "Profile",
-  "stripes-data-transfer-components.learnMore": "Czytaj więcej",
-  "stripes-data-transfer-components.fileName": "Nazwa pliku",
-  "stripes-data-transfer-components.jobExecutionHrId": "ID",
-  "stripes-data-transfer-components.jobProfileName": "Profil zadań",
-  "stripes-data-transfer-components.records": "Rekordy",
-  "stripes-data-transfer-components.jobCompletedDate": "Zakończono działanie",
-  "stripes-data-transfer-components.runBy": "Uruchom za pomocą",
-  "stripes-data-transfer-components.name": "Nazwa",
-  "stripes-data-transfer-components.folioRecordType": "Typ rekordu FOLIO",
-  "stripes-data-transfer-components.updated": "Zaktualizowane",
-  "stripes-data-transfer-components.updatedBy": "Zaktualizowane przez",
-  "stripes-data-transfer-components.mappingProfilesTitle": "Profile mapowania pól",
-  "stripes-data-transfer-components.mappingProfilesCount": "{count, number} pola mapowanie {count, plural, one {profil} other {profile}}",
-  "stripes-data-transfer-components.jobProfilesTitle": "Profile zadań",
-  "stripes-data-transfer-components.jobProfilesCount": "{count, number} zadanie {count, plural, one {profil} other {profile}}",
-  "stripes-data-transfer-components.recordTypes.order": "Zamówienie",
-  "stripes-data-transfer-components.recordTypes.orderLine": "Zamówienie i pozycje zamówienia",
-  "stripes-data-transfer-components.recordTypes.invoice": "Faktura",
-  "stripes-data-transfer-components.recordTypes.item": "Egzemplarz",
-  "stripes-data-transfer-components.recordTypes.items": "Egzemplarze",
-  "stripes-data-transfer-components.recordTypes.instance": "Instancja",
-  "stripes-data-transfer-components.recordTypes.holdings": "Zasoby",
-  "stripes-data-transfer-components.recordTypes.marc-bib": "MARC rekordu bibliograficznego",
-  "stripes-data-transfer-components.recordTypes.marc-auth": "MARC rekordu hasła wzorcowego",
-  "stripes-data-transfer-components.recordTypes.marc-hold": "MARC rekordu zasobu ",
-  "stripes-data-transfer-components.recordTypes.srs": "Magazyn danych źródłowych (cały rekord)",
-  "stripes-data-transfer-components.search": "Szukaj",
-  "stripes-data-transfer-components.validation.enterValue": "Proszę wprowadzić wartość",
-  "stripes-data-transfer-components.new": "Nowy",
-  "stripes-data-transfer-components.edit": "Edytuj",
-  "stripes-data-transfer-components.duplicate": "Powiel",
-  "stripes-data-transfer-components.delete": "Usuń",
-  "stripes-data-transfer-components.filter.errors": "Errors in import",
-  "stripes-data-transfer-components.filter.date": "Date",
-  "stripes-data-transfer-components.filter.jobProfile": "Job profile",
-  "stripes-data-transfer-components.filter.chooseJobProfile": "Choose job profile",
-  "stripes-data-transfer-components.filter.user": "User",
-  "stripes-data-transfer-components.filter.chooseUser": "Choose user",
-  "stripes-data-transfer-components.filter.singleRecordImports": "Inventory single record imports",
-  "stripes-data-transfer-components.filter.option.no": "no",
-  "stripes-data-transfer-components.filter.option.yes": "yes",
+  "stripes-data-transfer-components.loading": [
+    {
+      "type": 0,
+      "value": "Ładowania"
+    }
+  ],
+  "stripes-data-transfer-components.profiles": [
+    {
+      "type": 0,
+      "value": "Profile"
+    }
+  ],
+  "stripes-data-transfer-components.learnMore": [
+    {
+      "type": 0,
+      "value": "Czytaj więcej"
+    }
+  ],
+  "stripes-data-transfer-components.fileName": [
+    {
+      "type": 0,
+      "value": "Nazwa pliku"
+    }
+  ],
+  "stripes-data-transfer-components.jobExecutionHrId": [
+    {
+      "type": 0,
+      "value": "ID"
+    }
+  ],
+  "stripes-data-transfer-components.jobProfileName": [
+    {
+      "type": 0,
+      "value": "Profil zadań"
+    }
+  ],
+  "stripes-data-transfer-components.records": [
+    {
+      "type": 0,
+      "value": "Rekordy"
+    }
+  ],
+  "stripes-data-transfer-components.jobCompletedDate": [
+    {
+      "type": 0,
+      "value": "Zakończono działanie"
+    }
+  ],
+  "stripes-data-transfer-components.runBy": [
+    {
+      "type": 0,
+      "value": "Uruchom za pomocą"
+    }
+  ],
+  "stripes-data-transfer-components.name": [
+    {
+      "type": 0,
+      "value": "Nazwa"
+    }
+  ],
+  "stripes-data-transfer-components.folioRecordType": [
+    {
+      "type": 0,
+      "value": "Typ rekordu FOLIO"
+    }
+  ],
+  "stripes-data-transfer-components.updated": [
+    {
+      "type": 0,
+      "value": "Zaktualizowane"
+    }
+  ],
+  "stripes-data-transfer-components.updatedBy": [
+    {
+      "type": 0,
+      "value": "Zaktualizowane przez"
+    }
+  ],
+  "stripes-data-transfer-components.mappingProfilesTitle": [
+    {
+      "type": 0,
+      "value": "Profile mapowania pól"
+    }
+  ],
+  "stripes-data-transfer-components.mappingProfilesCount": [
+    {
+      "style": null,
+      "type": 2,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": " pola mapowanie "
+    },
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "profil"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "profile"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "count"
+    }
+  ],
+  "stripes-data-transfer-components.jobProfilesTitle": [
+    {
+      "type": 0,
+      "value": "Profile zadań"
+    }
+  ],
+  "stripes-data-transfer-components.jobProfilesCount": [
+    {
+      "style": null,
+      "type": 2,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": " zadanie "
+    },
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "profil"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "profile"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "count"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.order": [
+    {
+      "type": 0,
+      "value": "Zamówienie"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.orderLine": [
+    {
+      "type": 0,
+      "value": "Zamówienie i pozycje zamówienia"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.invoice": [
+    {
+      "type": 0,
+      "value": "Faktura"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.item": [
+    {
+      "type": 0,
+      "value": "Egzemplarz"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.items": [
+    {
+      "type": 0,
+      "value": "Egzemplarze"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.instance": [
+    {
+      "type": 0,
+      "value": "Instancja"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.holdings": [
+    {
+      "type": 0,
+      "value": "Zasoby"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.marc-bib": [
+    {
+      "type": 0,
+      "value": "MARC rekordu bibliograficznego"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.marc-auth": [
+    {
+      "type": 0,
+      "value": "MARC rekordu hasła wzorcowego"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.marc-hold": [
+    {
+      "type": 0,
+      "value": "MARC rekordu zasobu "
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.srs": [
+    {
+      "type": 0,
+      "value": "Magazyn danych źródłowych (cały rekord)"
+    }
+  ],
+  "stripes-data-transfer-components.search": [
+    {
+      "type": 0,
+      "value": "Szukaj"
+    }
+  ],
+  "stripes-data-transfer-components.validation.enterValue": [
+    {
+      "type": 0,
+      "value": "Proszę wprowadzić wartość"
+    }
+  ],
+  "stripes-data-transfer-components.new": [
+    {
+      "type": 0,
+      "value": "Nowy"
+    }
+  ],
+  "stripes-data-transfer-components.edit": [
+    {
+      "type": 0,
+      "value": "Edytuj"
+    }
+  ],
+  "stripes-data-transfer-components.duplicate": [
+    {
+      "type": 0,
+      "value": "Powiel"
+    }
+  ],
+  "stripes-data-transfer-components.delete": [
+    {
+      "type": 0,
+      "value": "Usuń"
+    }
+  ],
+  "stripes-data-transfer-components.filter.errors": [
+    {
+      "type": 0,
+      "value": "Errors in import"
+    }
+  ],
+  "stripes-data-transfer-components.filter.date": [
+    {
+      "type": 0,
+      "value": "Date"
+    }
+  ],
+  "stripes-data-transfer-components.filter.jobProfile": [
+    {
+      "type": 0,
+      "value": "Job profile"
+    }
+  ],
+  "stripes-data-transfer-components.filter.chooseJobProfile": [
+    {
+      "type": 0,
+      "value": "Choose job profile"
+    }
+  ],
+  "stripes-data-transfer-components.filter.user": [
+    {
+      "type": 0,
+      "value": "User"
+    }
+  ],
+  "stripes-data-transfer-components.filter.chooseUser": [
+    {
+      "type": 0,
+      "value": "Choose user"
+    }
+  ],
+  "stripes-data-transfer-components.filter.singleRecordImports": [
+    {
+      "type": 0,
+      "value": "Inventory single record imports"
+    }
+  ],
+  "stripes-data-transfer-components.filter.option.no": [
+    {
+      "type": 0,
+      "value": "no"
+    }
+  ],
+  "stripes-data-transfer-components.filter.option.yes": [
+    {
+      "type": 0,
+      "value": "yes"
+    }
+  ],
   "ui-agreements.duplicateAgreementModal.supplementaryInformation": [
     {
       "type": 0,
@@ -76788,6 +77061,137 @@
     {
       "type": 0,
       "value": " requests"
+    }
+  ],
+  "ui-orders.errors.deleteConnectedToInvoice": [
+    {
+      "type": 0,
+      "value": "Fund distribution(s) could not be edit because this POL has related approved or paid invoices for the current fiscal year."
+    }
+  ],
+  "ui-orders.errors.deleteWithExpendedAmount": [
+    {
+      "type": 0,
+      "value": "Fund distribution(s) could not be edit because this POL has related approved or paid invoices for the current fiscal year."
+    }
+  ],
+  "stripes-acq-components.button.apply": [
+    {
+      "type": 0,
+      "value": "Apply"
+    }
+  ],
+  "stripes-acq-components.filter.dynamic.emptyMessage": [
+    {
+      "type": 0,
+      "value": "Start typing to load options"
+    }
+  ],
+  "stripes-acq-components.filter.expenseClass": [
+    {
+      "type": 0,
+      "value": "Expense class"
+    }
+  ],
+  "stripes-acq-components.filter.fundCode": [
+    {
+      "type": 0,
+      "value": "Fund code"
+    }
+  ],
+  "stripes-acq-components.filter.numberRange.max": [
+    {
+      "type": 0,
+      "value": "To"
+    }
+  ],
+  "stripes-acq-components.filter.numberRange.min": [
+    {
+      "type": 0,
+      "value": "From"
+    }
+  ],
+  "stripes-acq-components.fundDistribution.fundStatus.Frozen": [
+    {
+      "type": 0,
+      "value": "Frozen"
+    }
+  ],
+  "stripes-acq-components.fundDistribution.fundStatus.Inactive": [
+    {
+      "type": 0,
+      "value": "Inactive"
+    }
+  ],
+  "stripes-acq-components.holdings.deleteModal.heading": [
+    {
+      "type": 0,
+      "value": "Delete Holdings"
+    }
+  ],
+  "stripes-acq-components.holdings.deleteModal.keepHoldings": [
+    {
+      "type": 0,
+      "value": "Keep Holdings"
+    }
+  ],
+  "stripes-acq-components.holdings.deleteModal.message": [
+    {
+      "type": 0,
+      "value": "This piece is connected to records in inventory. After this edit there will be no other pieces OR items connected to the related Holdings record(s). After making this change would you like FOLIO to delete the Holdings record(s)?"
+    }
+  ],
+  "stripes-acq-components.resultsCount": [
+    {
+      "style": null,
+      "type": 2,
+      "value": "resultsCount"
+    },
+    {
+      "type": 0,
+      "value": " "
+    },
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "record found"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "records found"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "resultsCount"
+    }
+  ],
+  "stripes-acq-components.validation.cantBeNegative": [
+    {
+      "type": 0,
+      "value": "Can not be negative"
+    }
+  ],
+  "stripes-acq-components.validation.maxCantBeLessMin": [
+    {
+      "type": 0,
+      "value": "\"To\" can not be less than \"From\""
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.authority": [
+    {
+      "type": 0,
+      "value": "Authority"
     }
   ]
 }
