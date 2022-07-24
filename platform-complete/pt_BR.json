@@ -16118,7 +16118,7 @@
   "ui-circulation-log.logEvent.action.Checked out through override": [
     {
       "type": 0,
-      "value": "Emprestado por meio de substituição"
+      "value": "Emprestado via \"sobrepor\""
     }
   ],
   "ui-circulation-log.logEvent.action.Claimed returned": [
@@ -16142,7 +16142,7 @@
   "ui-circulation-log.logEvent.action.Created through override": [
     {
       "type": 0,
-      "value": "Criado por meio de substituição"
+      "value": "Criado via Sobrepor"
     }
   ],
   "ui-circulation-log.logEvent.action.Credited fully": [
@@ -16250,7 +16250,7 @@
   "ui-circulation-log.logEvent.action.Renewed through override": [
     {
       "type": 0,
-      "value": "Renovado por meio de sobreposição"
+      "value": "Renovado via Sobrepor"
     }
   ],
   "ui-circulation-log.logEvent.action.Request status changed": [
@@ -82577,12 +82577,16 @@
     {
       "children": [
         {
+          "type": 0,
+          "value": " "
+        },
+        {
           "type": 1,
           "value": "fileName"
         },
         {
           "type": 0,
-          "value": ": "
+          "value": " : "
         },
         {
           "type": 1,
@@ -82590,7 +82594,7 @@
         },
         {
           "type": 0,
-          "value": " entries * "
+          "value": " entradas * "
         },
         {
           "type": 1,
@@ -82598,7 +82602,7 @@
         },
         {
           "type": 0,
-          "value": " records changed * "
+          "value": " registros alterados * "
         },
         {
           "type": 1,
@@ -82606,7 +82610,7 @@
         },
         {
           "type": 0,
-          "value": " errors"
+          "value": " erros "
         }
       ],
       "type": 8,
@@ -82656,13 +82660,13 @@
     },
     {
       "type": 0,
-      "value": " records changed"
+      "value": " registros alterados"
     }
   ],
   "ui-bulk-edit.list.preview.titleChanged": [
     {
       "type": 0,
-      "value": "Preview of record changed"
+      "value": "Pré-visualização do registro alterado"
     }
   ],
   "ui-bulk-edit.list.result.emptyMessage.EXTERNAL_SYSTEM_ID": [
@@ -82722,7 +82726,7 @@
   "ui-bulk-edit.modal.fileExtensions.blocked.message2": [
     {
       "type": 0,
-      "value": "Only one file with .csv extension can be uploaded."
+      "value": "Apenas um arquivo com extensão .csv pode ser carregado."
     }
   ],
   "ui-bulk-edit.previewModal.areYouSure": [

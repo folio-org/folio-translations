@@ -16150,7 +16150,7 @@
   "ui-circulation-log.logEvent.action.Moved": [
     {
       "type": 0,
-      "value": "Moved"
+      "value": "Přesunuto"
     }
   ],
   "ui-circulation-log.logEvent.action.Paid fully": [
@@ -16186,7 +16186,7 @@
   "ui-circulation-log.logEvent.action.Recall requested": [
     {
       "type": 0,
-      "value": "Recall requested"
+      "value": "Stažení vyžádáno"
     }
   ],
   "ui-circulation-log.logEvent.action.Refunded fully": [
@@ -16252,13 +16252,13 @@
   "ui-circulation-log.logEvent.action.Waived fully": [
     {
       "type": 0,
-      "value": "Waived fully"
+      "value": "Zcela odpuštěno"
     }
   ],
   "ui-circulation-log.logEvent.action.Waived partially": [
     {
       "type": 0,
-      "value": "Waived partially"
+      "value": "Částečně odpuštěno"
     }
   ],
   "ui-circulation-log.logEvent.actions": [
@@ -16306,7 +16306,7 @@
   "ui-circulation-log.logEvent.actions.userDetails": [
     {
       "type": 0,
-      "value": "User details"
+      "value": "Podrobnosti o uživateli"
     }
   ],
   "ui-circulation-log.logEvent.date": [
@@ -16408,7 +16408,7 @@
   "ui-circulation-log.logEvent.user": [
     {
       "type": 0,
-      "value": "User barcode"
+      "value": "Čárový kód uživatele"
     }
   ],
   "ui-circulation-log.logEvents.actions.export": [
@@ -23974,7 +23974,7 @@
   "ui-data-export.error.mapping.fieldsMappingSrs": [
     {
       "type": 0,
-      "value": "An error occurred during fields mapping for srs record with id: "
+      "value": "Došlo k chybě při mapování polí pro záznam srs s id: "
     },
     {
       "type": 1,
@@ -23982,7 +23982,7 @@
     },
     {
       "type": 0,
-      "value": ", reason: "
+      "value": ", důvod: "
     },
     {
       "type": 1,
@@ -23990,7 +23990,7 @@
     },
     {
       "type": 0,
-      "value": ", cause: "
+      "value": ", příčina: "
     },
     {
       "type": 1,
@@ -24076,7 +24076,7 @@
   "ui-data-export.error.user.gettingById": [
     {
       "type": 0,
-      "value": "Error while getting user with id = "
+      "value": "Chyba při získávání uživatele s id = "
     },
     {
       "type": 1,
@@ -24084,7 +24084,7 @@
     },
     {
       "type": 0,
-      "value": ", message: "
+      "value": ", zpráva: "
     },
     {
       "type": 1,
@@ -24094,7 +24094,7 @@
   "ui-data-export.error.user.notFound": [
     {
       "type": 0,
-      "value": "User not found"
+      "value": "Uživatel nebyl nalezen"
     }
   ],
   "ui-data-export.error.uuidsNotFound": [
@@ -24272,13 +24272,13 @@
   "ui-data-export.holdings.callNumberPrefix": [
     {
       "type": 0,
-      "value": "Holdingy - Signatura - Předpona signatury"
+      "value": "Holdingy - Volací číslo - Předpona volacího čísla"
     }
   ],
   "ui-data-export.holdings.callNumberSuffix": [
     {
       "type": 0,
-      "value": "Holdingy - Signatura - Přípona signatury"
+      "value": "Holdingy - Volací číslo - Přípona volacího čísla"
     }
   ],
   "ui-data-export.holdings.callNumberType": [
@@ -24756,7 +24756,7 @@
   "ui-data-export.instance.metadata.createdByUserId": [
     {
       "type": 0,
-      "value": "Instance - Created by"
+      "value": "Instance - Vytvořeno"
     }
   ],
   "ui-data-export.instance.metadata.createdDate": [
@@ -24768,7 +24768,7 @@
   "ui-data-export.instance.metadata.updatedByUserId": [
     {
       "type": 0,
-      "value": "Instance - Updated by"
+      "value": "Instance - Aktualizováno"
     }
   ],
   "ui-data-export.instance.metadata.updatedDate": [
@@ -24820,13 +24820,13 @@
   "ui-data-export.item.callNumberPrefix": [
     {
       "type": 0,
-      "value": "Jednotka - Efektivní signatura - Předpona"
+      "value": "Jednotka - Efektivní volací číslo - Předpona"
     }
   ],
   "ui-data-export.item.callNumberSuffix": [
     {
       "type": 0,
-      "value": "Jednotka - Efektivní signatura - Přípona"
+      "value": "Jednotka - Efektivní volací číslo - Přípona"
     }
   ],
   "ui-data-export.item.callNumberType": [
@@ -25166,7 +25166,7 @@
   "ui-data-export.jobProfiles.create.successCallout": [
     {
       "type": 0,
-      "value": "Job profile "
+      "value": "Profil práce "
     },
     {
       "children": [
@@ -25180,13 +25180,13 @@
     },
     {
       "type": 0,
-      "value": " has been successfully "
+      "value": " byl úspěšně "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "created"
+          "value": "vytvořen"
         }
       ],
       "type": 8,
@@ -26061,7 +26061,7 @@
   "ui-data-export.triggeredBy": [
     {
       "type": 0,
-      "value": "Triggered by "
+      "value": "Spuštěno uživatelem "
     },
     {
       "type": 1,
@@ -26071,7 +26071,7 @@
   "ui-data-export.unselected": [
     {
       "type": 0,
-      "value": "Unselected"
+      "value": "Nevybrané"
     }
   ],
   "ui-data-export.uploaderActiveTitle": [
@@ -52940,43 +52940,43 @@
   "ui-oai-pmh.settings.all.validationMessage.isIntegerGreaterThanZero": [
     {
       "type": 0,
-      "value": "Please enter a whole number greater than zero to continue"
+      "value": "Pro pokračování zadejte prosím celé číslo větší než nula."
     }
   ],
   "ui-oai-pmh.settings.all.validationMessage.isNotEmpty": [
     {
       "type": 0,
-      "value": "This field cannot be empty"
+      "value": "Toto pole nesmí být prázdné"
     }
   ],
   "ui-oai-pmh.settings.all.validationMessage.isUrl": [
     {
       "type": 0,
-      "value": "Please enter valid URL address to continue"
+      "value": "Pro pokračování zadejte prosím platnou URL"
     }
   ],
   "ui-oai-pmh.settings.all.validationMessage.less500": [
     {
       "type": 0,
-      "value": "Max records per response cannot be more than 500"
+      "value": "Maximální počet záznamů na jednu odpověď nesmí být větší než 500"
     }
   ],
   "ui-oai-pmh.settings.behavior.deletedRecordsSupport.no": [
     {
       "type": 0,
-      "value": "No"
+      "value": "Ne"
     }
   ],
   "ui-oai-pmh.settings.behavior.deletedRecordsSupport.persistent": [
     {
       "type": 0,
-      "value": "Persistent"
+      "value": "Trvalé"
     }
   ],
   "ui-oai-pmh.settings.behavior.deletedRecordsSupport.transient": [
     {
       "type": 0,
-      "value": "Transient"
+      "value": "Přechodný"
     }
   ],
   "ui-oai-pmh.settings.behavior.errorsProcessing.200": [
@@ -52994,19 +52994,19 @@
   "ui-oai-pmh.settings.behavior.label.deletedRecordsSupport": [
     {
       "type": 0,
-      "value": "Deleted records support"
+      "value": "Podpora odstraněných záznamů"
     }
   ],
   "ui-oai-pmh.settings.behavior.label.errorsProcessing": [
     {
       "type": 0,
-      "value": "OAI-PMH errors processing"
+      "value": "Zpracování chyb OAI-PMH"
     }
   ],
   "ui-oai-pmh.settings.behavior.label.suppressedRecordsProcessing": [
     {
       "type": 0,
-      "value": "Suppressed records processing"
+      "value": "Zpracování potlačených záznamů"
     }
   ],
   "ui-oai-pmh.settings.behavior.suppressedRecordsProcessing.false": [
@@ -53018,7 +53018,7 @@
   "ui-oai-pmh.settings.behavior.suppressedRecordsProcessing.true": [
     {
       "type": 0,
-      "value": "Přenos potlačených záznamů s hodnotou příznaku objevování"
+      "value": "Převod potlačených záznamů s hodnotou příznaku objevování"
     }
   ],
   "ui-oai-pmh.settings.behavior.title": [
@@ -53030,13 +53030,13 @@
   "ui-oai-pmh.settings.behavior.tooltip.deletedRecordsSupport": [
     {
       "type": 0,
-      "value": "The manner in which the repository supports the notion of deleted records."
+      "value": "Způsob, jakým úložiště podporuje pojem smazaných záznamů."
     }
   ],
   "ui-oai-pmh.settings.behavior.tooltip.errorsProcessing": [
     {
       "type": 0,
-      "value": "Defines which HTTP statuses should OAI-level errors be associated with."
+      "value": "Definuje, ke kterým stavům HTTP mají být přiřazeny chyby na úrovni OAI."
     }
   ],
   "ui-oai-pmh.settings.behavior.tooltip.suppressedRecordsProcessing": [
@@ -53080,7 +53080,7 @@
   "ui-oai-pmh.settings.general.label.administratorEmail": [
     {
       "type": 0,
-      "value": "Administrator email(s)"
+      "value": "E-mail(y) správce"
     }
   ],
   "ui-oai-pmh.settings.general.label.baseUrl": [
@@ -53092,19 +53092,19 @@
   "ui-oai-pmh.settings.general.label.enableOaiService": [
     {
       "type": 0,
-      "value": "Enable OAI service"
+      "value": "Povolení služby OAI"
     }
   ],
   "ui-oai-pmh.settings.general.label.repositoryName": [
     {
       "type": 0,
-      "value": "Repository name"
+      "value": "Název úložiště"
     }
   ],
   "ui-oai-pmh.settings.general.label.timeGranularity": [
     {
       "type": 0,
-      "value": "Time granularity"
+      "value": "Časová granularita"
     }
   ],
   "ui-oai-pmh.settings.general.title": [
@@ -53116,7 +53116,7 @@
   "ui-oai-pmh.settings.general.tooltip.administratorEmail": [
     {
       "type": 0,
-      "value": "The e-mail address(es) of the FOLIO repository administrator. Several e-mails should be separated by comma."
+      "value": "E-mailové adresy správce úložiště FOLIO. Několik e-mailů by mělo být odděleno čárkou."
     }
   ],
   "ui-oai-pmh.settings.general.tooltip.baseUrl": [
@@ -53128,7 +53128,7 @@
   "ui-oai-pmh.settings.general.tooltip.enableOaiService": [
     {
       "type": 0,
-      "value": "Defines whether OAI-PMH module is accessible for the FOLIO repository."
+      "value": "Určuje, zda je modul OAI-PMH přístupný pro úložiště FOLIO."
     }
   ],
   "ui-oai-pmh.settings.general.tooltip.repositoryName": [
@@ -53170,7 +53170,7 @@
   "ui-oai-pmh.settings.sets.callout.connectionProblem.delete": [
     {
       "type": 0,
-      "value": "Unable to delete due to a module error. Please try again. If a problem persists please contact your system administrator"
+      "value": "Nelze odstranit z důvodu chyby modulu. Zkuste to prosím znovu. Pokud problém přetrvává, obraťte se na správce systému"
     }
   ],
   "ui-oai-pmh.settings.sets.callout.connectionProblem.get": [
@@ -53194,7 +53194,7 @@
   "ui-oai-pmh.settings.sets.callout.failedToDelete.delete": [
     {
       "type": 0,
-      "value": "Failed to delete a set"
+      "value": "Nepodařilo se odstranit sadu"
     }
   ],
   "ui-oai-pmh.settings.sets.callout.updated": [
@@ -53206,7 +53206,7 @@
   "ui-oai-pmh.settings.sets.callout.validationError.empty.name": [
     {
       "type": 0,
-      "value": "Set name cannot be empty. Please, fill in set name."
+      "value": "Název sady nemůže být prázdný. Vyplňte prosím název sady."
     }
   ],
   "ui-oai-pmh.settings.sets.callout.validationError.empty.setSpec": [
@@ -53218,7 +53218,7 @@
   "ui-oai-pmh.settings.sets.callout.validationError.notUnique": [
     {
       "type": 0,
-      "value": "Set name or set specification isn't unique. Please, fill in unique set name or set specification to save set."
+      "value": "Název sady nebo specifikace sady není jedinečná. Pro uložení sady vyplňte jedinečný název sady nebo specifikaci sady."
     }
   ],
   "ui-oai-pmh.settings.sets.duplicate.notFound.text": [
@@ -53242,7 +53242,7 @@
   "ui-oai-pmh.settings.sets.edit.accordion.generalInformation.title": [
     {
       "type": 0,
-      "value": "General information"
+      "value": "Obecná informace"
     }
   ],
   "ui-oai-pmh.settings.sets.edit.field.description": [
@@ -53290,7 +53290,7 @@
   "ui-oai-pmh.settings.sets.edit.filteringConditions.field.value.select.format": [
     {
       "type": 0,
-      "value": "Select format"
+      "value": "Zvolte formát"
     }
   ],
   "ui-oai-pmh.settings.sets.edit.filteringConditions.field.value.select.illPolicy": [
@@ -53302,19 +53302,19 @@
   "ui-oai-pmh.settings.sets.edit.filteringConditions.field.value.select.location": [
     {
       "type": 0,
-      "value": "Select location"
+      "value": "Zvolte umístění"
     }
   ],
   "ui-oai-pmh.settings.sets.edit.filteringConditions.field.value.select.materialType": [
     {
       "type": 0,
-      "value": "Select material type"
+      "value": "Vyberte typ materiálu"
     }
   ],
   "ui-oai-pmh.settings.sets.edit.filteringConditions.field.value.select.resourceType": [
     {
       "type": 0,
-      "value": "Select resource type"
+      "value": "Vyberte typ zdroje"
     }
   ],
   "ui-oai-pmh.settings.sets.edit.notFound.text": [
@@ -53342,7 +53342,7 @@
   "ui-oai-pmh.settings.sets.edit.validationMessage.allowedSymbols": [
     {
       "type": 0,
-      "value": "Specification can only use A-Z a-z 0-9 - _ . ! ~ * ' ( )"
+      "value": "Ve specifikaci lze použít pouze A-Z a-z 0-9 - _ . ! ~ * ' ( )"
     }
   ],
   "ui-oai-pmh.settings.sets.edit.validationMessage.maxLength": [
@@ -53362,7 +53362,7 @@
   "ui-oai-pmh.settings.sets.edit.validationMessage.required": [
     {
       "type": 0,
-      "value": "This field cannot be empty"
+      "value": "Toto pole nesmí být prázdné"
     }
   ],
   "ui-oai-pmh.settings.sets.filteringCondition.format": [
@@ -53472,7 +53472,7 @@
   "ui-oai-pmh.settings.sets.view.accordion.generalInformation.title": [
     {
       "type": 0,
-      "value": "Summary"
+      "value": "Shrnutí"
     }
   ],
   "ui-oai-pmh.settings.sets.view.field.description": [
@@ -53502,7 +53502,7 @@
   "ui-oai-pmh.settings.sets.view.filteringConditions.field.name.ariaLabel": [
     {
       "type": 0,
-      "value": "Name field"
+      "value": "Název pole"
     }
   ],
   "ui-oai-pmh.settings.sets.view.filteringConditions.field.setSpec": [
@@ -53514,7 +53514,7 @@
   "ui-oai-pmh.settings.sets.view.filteringConditions.field.setSpec.ariaLabel": [
     {
       "type": 0,
-      "value": "Specification field"
+      "value": "Specifikační pole"
     }
   ],
   "ui-oai-pmh.settings.sets.view.filteringConditions.field.value": [
@@ -53526,7 +53526,7 @@
   "ui-oai-pmh.settings.sets.view.filteringConditions.field.value.ariaLabel": [
     {
       "type": 0,
-      "value": "Value field"
+      "value": "Pole hodnoty"
     }
   ],
   "ui-oai-pmh.settings.sets.view.filteringConditions.field.value.isMissing": [
@@ -53560,19 +53560,19 @@
   "ui-oai-pmh.settings.technical.label.enableValidation": [
     {
       "type": 0,
-      "value": "Enable validation"
+      "value": "Povolit ověřování"
     }
   ],
   "ui-oai-pmh.settings.technical.label.formattedOutput": [
     {
       "type": 0,
-      "value": "Formatted output"
+      "value": "Formátovaný výstup"
     }
   ],
   "ui-oai-pmh.settings.technical.label.maxRecordsPerResponse": [
     {
       "type": 0,
-      "value": "Max records per response"
+      "value": "Maximální počet záznamů na odpověď"
     }
   ],
   "ui-oai-pmh.settings.technical.title": [
@@ -53584,19 +53584,19 @@
   "ui-oai-pmh.settings.technical.tooltip.enableValidation": [
     {
       "type": 0,
-      "value": "Defines if the response content should be validated against xsd schemas."
+      "value": "Definuje, zda má být obsah odpovědi ověřen podle schémat xsd."
     }
   ],
   "ui-oai-pmh.settings.technical.tooltip.formattedOutput": [
     {
       "type": 0,
-      "value": "Defines if the marshalled XML data is formatted with line feeds and indentation."
+      "value": "Určuje, zda jsou marshalovaná data XML formátována s řádkovým posuvem a odsazením."
     }
   ],
   "ui-oai-pmh.settings.technical.tooltip.maxRecordsPerResponse": [
     {
       "type": 0,
-      "value": "The maximum number of records returned in the ListRecords response."
+      "value": "Maximální počet záznamů vrácených v odpovědi ListRecords."
     }
   ],
   "ui-oai-pmh.settings.title": [
@@ -60954,7 +60954,7 @@
   "ui-plugin-bursar-export.meta.title": [
     {
       "type": 0,
-      "value": "Transfer criteria"
+      "value": "Kritéria převodu"
     }
   ],
   "ui-plugin-bursar-export.bursarExports": [
@@ -61068,13 +61068,13 @@
   "ui-plugin-bursar-export.bursarExports.transferOwner": [
     {
       "type": 0,
-      "value": "Vlastník přenosu"
+      "value": "Vlastník převodu"
     }
   ],
   "ui-plugin-bursar-export.bursarExports.transferAccount": [
     {
       "type": 0,
-      "value": "Přenosový účet"
+      "value": "Převodní účet"
     }
   ],
   "ui-plugin-bursar-export.bursarExports.owner": [
@@ -61086,7 +61086,7 @@
   "ui-plugin-bursar-export.bursarExports.itemTypes": [
     {
       "type": 0,
-      "value": "Typy přenosů"
+      "value": "Typy převodů"
     }
   ],
   "ui-plugin-bursar-export.bursarExports.feeFineType": [
@@ -61098,19 +61098,19 @@
   "ui-plugin-bursar-export.bursarExports.itemType": [
     {
       "type": 0,
-      "value": "Typ přenosu"
+      "value": "Typ převodu"
     }
   ],
   "ui-plugin-bursar-export.bursarExports.itemDescription": [
     {
       "type": 0,
-      "value": "Popis přenosu"
+      "value": "Popis převodu"
     }
   ],
   "ui-plugin-bursar-export.bursarExports.itemCode": [
     {
       "type": 0,
-      "value": "Přenosový kód"
+      "value": "Kód převodu"
     }
   ],
   "ui-plugin-bursar-export.bursarExports.itemCode.CHARGE": [
@@ -61164,7 +61164,7 @@
   "ui-plugin-bursar-export.permission.bursar-exports.all": [
     {
       "type": 0,
-      "value": "Exporty přenosu: přenos admin"
+      "value": "Exporty převodu: Správce převodu"
     }
   ],
   "ui-plugin-create-inventory-records.addCirculationNote": [
@@ -66083,13 +66083,13 @@
   "ui-remote-storage.cannotDeleteModal.header": [
     {
       "type": 0,
-      "value": "Cannot delete Remote Storage location"
+      "value": "Nelze odstranit umístění vzdáleného úložiště"
     }
   ],
   "ui-remote-storage.cannotDeleteModal.message": [
     {
       "type": 0,
-      "value": "One or more locations are associated with this configuration. The configuration cannot be deleted."
+      "value": "K této konfiguraci je přidruženo jedno nebo více umístění. Konfiguraci nelze smazat."
     }
   ],
   "ui-remote-storage.configurations.title": [
@@ -66125,7 +66125,7 @@
   "ui-remote-storage.create.success": [
     {
       "type": 0,
-      "value": "Remote storage configuration was successfully created."
+      "value": "Konfigurace vzdáleného úložiště byla úspěšně vytvořena."
     }
   ],
   "ui-remote-storage.createForm.title": [
@@ -66143,7 +66143,7 @@
   "ui-remote-storage.delete": [
     {
       "type": 0,
-      "value": "Delete"
+      "value": "Odstranit"
     }
   ],
   "ui-remote-storage.details.credProperties": [
@@ -66267,13 +66267,13 @@
   "ui-remote-storage.location.final": [
     {
       "type": 0,
-      "value": "Final location (Remote)"
+      "value": "Konečné umístění (vzdálené)"
     }
   ],
   "ui-remote-storage.location.original": [
     {
       "type": 0,
-      "value": "Original location"
+      "value": "Původní umístění"
     }
   ],
   "ui-remote-storage.meta.title": [
@@ -80257,7 +80257,7 @@
   "stripes-data-transfer-components.updated": [
     {
       "type": 0,
-      "value": "Updated"
+      "value": "Aktualizováno"
     }
   ],
   "stripes-data-transfer-components.updatedBy": [
@@ -80269,7 +80269,7 @@
   "stripes-data-transfer-components.mappingProfilesTitle": [
     {
       "type": 0,
-      "value": "Field mapping profiles"
+      "value": "Profily mapování polí"
     }
   ],
   "stripes-data-transfer-components.mappingProfilesCount": [
@@ -82251,7 +82251,7 @@
   "ui-bulk-edit.layer.options.withdrawn": [
     {
       "type": 0,
-      "value": "Vyřazeno"
+      "value": "Staženo"
     }
   ],
   "ui-bulk-edit.layer.selectLocation": [
