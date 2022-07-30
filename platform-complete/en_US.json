@@ -81821,7 +81821,7 @@
   "ui-agreements.preview.updateAndContinue": [
     {
       "type": 0,
-      "value": "Select \"Update titles & more identifiers\" or \"Update titles & close\" to continue"
+      "value": "Select \"Update titles & move more identifiers\" or \"Update titles & close\" to continue"
     }
   ],
   "ui-agreements.settings.customProperties.all": [
@@ -82029,13 +82029,13 @@
   "ui-agreements.updatetitlesAndClose": [
     {
       "type": 0,
-      "value": "Update title & close"
+      "value": "Update titles & close"
     }
   ],
   "ui-agreements.updatetitlesAndMoveMore": [
     {
       "type": 0,
-      "value": "Update title & move more identifiers"
+      "value": "Update titles & move more identifiers"
     }
   ],
   "ui-bulk-edit.actions.placeholder": [
@@ -85150,6 +85150,72 @@
     {
       "type": 0,
       "value": "Fund distribution types cannot be mixed for a price of 0"
+    }
+  ],
+  "ui-agreements.settings.noOfValues": [
+    {
+      "type": 0,
+      "value": "# of values"
+    }
+  ],
+  "ui-agreements.settings.pickList.deletePickList": [
+    {
+      "type": 0,
+      "value": "Delete pick list"
+    }
+  ],
+  "ui-agreements.settings.pickList.deletePickListError": [
+    {
+      "type": 0,
+      "value": "There was an error deleting pick list: "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "label"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": ". "
+    },
+    {
+      "type": 1,
+      "value": "error"
+    }
+  ],
+  "ui-agreements.settings.pickListValues.deletePickListValue": [
+    {
+      "type": 0,
+      "value": "Delete pick list value"
+    }
+  ],
+  "ui-agreements.settings.pickListValues.deletePickListValueError": [
+    {
+      "type": 0,
+      "value": "There was an error deleting pick list value: "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "label"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": ". "
+    },
+    {
+      "type": 1,
+      "value": "error"
     }
   ]
 }
