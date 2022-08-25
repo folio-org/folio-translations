@@ -74821,7 +74821,7 @@
   "ui-users.feefines.errors.existShared": [
     {
       "type": 0,
-      "value": "Fee/fine type exists for other Fee/fine owner(s)"
+      "value": "Fee/fine type exists for Shared Fee/fine owner"
     }
   ],
   "ui-users.feefines.errors.notBilledMessage": [
@@ -85082,6 +85082,12 @@
     {
       "type": 0,
       "value": "Fund distribution types cannot be mixed for a price of 0"
+    }
+  ],
+  "ui-users.feefines.errors.existOther": [
+    {
+      "type": 0,
+      "value": "Fee/fine type exists for other Fee/fine owner(s)"
     }
   ]
 }

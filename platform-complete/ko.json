@@ -74026,7 +74026,7 @@
   "ui-users.charge.amount": [
     {
       "type": 0,
-      "value": "Amount"
+      "value": "금액"
     }
   ],
   "ui-users.charge.amount.label": [
@@ -74050,13 +74050,13 @@
   "ui-users.charge.comment.label": [
     {
       "type": 0,
-      "value": "Comments"
+      "value": "코멘트"
     }
   ],
   "ui-users.charge.feefine.id": [
     {
       "type": 0,
-      "value": "Fee/fine id"
+      "value": "수수료/벌금 ID"
     }
   ],
   "ui-users.charge.feefine.label": [
@@ -75261,7 +75261,7 @@
   "ui-users.feefines.errors.existShared": [
     {
       "type": 0,
-      "value": "Fee/fine type exists for other Fee/fine owner(s)"
+      "value": "Fee/fine type exists for Shared Fee/fine owner"
     }
   ],
   "ui-users.feefines.errors.notBilledMessage": [
@@ -76933,7 +76933,7 @@
   "ui-users.owners.select": [
     {
       "type": 0,
-      "value": "Select owner"
+      "value": "소유자 선택"
     }
   ],
   "ui-users.owners.singular": [
@@ -79612,7 +79612,7 @@
   "ui-users.sp.selectAllServicePoints": [
     {
       "type": 0,
-      "value": "Select all service points"
+      "value": "모든 서비스 포인트 선택"
     }
   ],
   "ui-users.sp.selectServicePoint": [
@@ -81721,7 +81721,7 @@
   "ui-users.errors.permissionChangeFailed": [
     {
       "type": 0,
-      "value": "Permissions were not changed"
+      "value": "사용 권한이 변경되지 않았습니다."
     }
   ],
   "ui-eholdings.filter.contentType.mixedContent": [
@@ -85636,6 +85636,28 @@
     {
       "type": 0,
       "value": "Fund distribution types cannot be mixed for a price of 0"
+    }
+  ],
+  "ui-users.feefines.errors.existOther": [
+    {
+      "type": 0,
+      "value": "Fee/fine type exists for other Fee/fine owner(s)"
+    }
+  ],
+  "ui-users.details.field.barcode.notFound": [
+    {
+      "type": 1,
+      "value": "barcode"
+    },
+    {
+      "type": 0,
+      "value": " (not found)"
+    }
+  ],
+  "ui-users.notes.popupModal.label": [
+    {
+      "type": 0,
+      "value": "사용자 노트"
     }
   ]
 }
