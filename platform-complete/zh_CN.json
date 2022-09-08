@@ -85101,19 +85101,19 @@
   "ui-inventory.effectiveCallNumberShelving": [
     {
       "type": 0,
-      "value": "Effective call number (item), shelving order"
+      "value": "有效索书号（单件）"
     }
   ],
   "ui-inventory.filters.nameType": [
     {
       "type": 0,
-      "value": "Name type"
+      "value": "名称类型"
     }
   ],
   "ui-inventory.instanceStatusShort": [
     {
       "type": 0,
-      "value": "Instance status"
+      "value": "实例状态"
     }
   ],
   "ui-inventory.instances.columns.contributor": [
@@ -85179,13 +85179,13 @@
   "ui-inventory.search.holdings.uuid": [
     {
       "type": 0,
-      "value": "Holdings UUID"
+      "value": "馆藏UUID"
     }
   ],
   "ui-inventory.search.item.uuid": [
     {
       "type": 0,
-      "value": "Item UUID"
+      "value": "单件UUID"
     }
   ],
   "ui-inventory.search.oclc": [
@@ -86790,7 +86790,13 @@
   "ui-inventory.browseContributors.results.error": [
     {
       "type": 0,
-      "value": "Error returning results. Please retry or revise your search."
+      "value": "返回结果时出错。请重试或修改搜索。"
+    }
+  ],
+  "ui-inventory.remote.warning.common.items": [
+    {
+      "type": 0,
+      "value": "单件已在FOLIO中成功移动。要完成从远程存储中删除该单件，请运行一个例外报告或直接将其传达给你的远程存储位置。"
     }
   ]
 }

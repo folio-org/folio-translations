@@ -39748,7 +39748,7 @@
   "ui-inventory.electronicBookplate": [
     {
       "type": 0,
-      "value": "Electronic bookplate"
+      "value": "Elektronisches Exlibris"
     }
   ],
   "ui-inventory.enabled": [
@@ -41754,7 +41754,7 @@
     },
     {
       "type": 0,
-      "value": ".  Bitte Felder des Instanzdatensatzes prüfen oder den Systemadministrator benachrichtigen."
+      "value": ".  Bitte Felder des Instanzdatensatzes prüfen oder die Systemadministration benachrichtigen."
     }
   ],
   "ui-inventory.moveItems.instance.holdings.error.server": [
@@ -41768,7 +41768,7 @@
     },
     {
       "type": 0,
-      "value": ". Bitte erneut versuchen oder den Systemadministrator benachrichtigen."
+      "value": ". Bitte erneut versuchen oder die Systemadministration benachrichtigen."
     }
   ],
   "ui-inventory.moveItems.instance.holdings.success": [
@@ -41821,7 +41821,7 @@
     },
     {
       "type": 0,
-      "value": ". Bitte Felder des Instanzdatensatzes prüfen oder den Systemadministrator benachrichtigen."
+      "value": ". Bitte Felder des Instanzdatensatzes prüfen oder die Systemadministration benachrichtigen."
     }
   ],
   "ui-inventory.moveItems.instance.items.error.server": [
@@ -41835,7 +41835,7 @@
     },
     {
       "type": 0,
-      "value": ". Bitte erneut versuchen oder den Systemadministrator benachrichtigen."
+      "value": ". Bitte erneut versuchen oder die Systemadministration benachrichtigen."
     }
   ],
   "ui-inventory.moveItems.instance.items.success": [
@@ -85280,6 +85280,12 @@
     {
       "type": 0,
       "value": "Error returning results. Please retry or revise your search."
+    }
+  ],
+  "ui-inventory.remote.warning.common.items": [
+    {
+      "type": 0,
+      "value": "Item has been successfully moved in FOLIO. To complete removing this item from remote storage, run an exception report or communicate this directly to your remote storage location."
     }
   ]
 }
