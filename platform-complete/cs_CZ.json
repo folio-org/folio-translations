@@ -16462,19 +16462,19 @@
   "ui-courses.SENTINEL": [
     {
       "type": 0,
-      "value": "SENTINEL"
+      "value": "HLÍDKA"
     }
   ],
   "ui-courses.accordion.courseFormCrosslisting": [
     {
       "type": 0,
-      "value": "Cross listing information"
+      "value": "Křížový výpis informací"
     }
   ],
   "ui-courses.accordion.courseFormInfo": [
     {
       "type": 0,
-      "value": "Basic course information"
+      "value": "Základní informace o kurzu"
     }
   ],
   "ui-courses.accordion.courseFormInfo.help": [
@@ -16486,7 +16486,7 @@
   "ui-courses.accordion.courseFormInstructors": [
     {
       "type": 0,
-      "value": "Course instructors"
+      "value": "Instruktoři kurzu"
     }
   ],
   "ui-courses.accordion.courseFormInstructors.help": [
@@ -16498,7 +16498,7 @@
   "ui-courses.accordion.courseFormListing": [
     {
       "type": 0,
-      "value": "Course listing information"
+      "value": "Informace o seznamu kurzů"
     }
   ],
   "ui-courses.accordion.courseFormListing.help": [
@@ -16510,121 +16510,121 @@
   "ui-courses.accordion.crosslistings": [
     {
       "type": 0,
-      "value": "Cross-listed courses"
+      "value": "Křížově vypsané kurzy"
     }
   ],
   "ui-courses.accordion.crosslistings.help": [
     {
       "type": 0,
-      "value": "Cross-listed with present course"
+      "value": "Křížový seznam se současným kurzem"
     }
   ],
   "ui-courses.accordion.data": [
     {
       "type": 0,
-      "value": "Course data"
+      "value": "Údaje o kurzu"
     }
   ],
   "ui-courses.accordion.data.help": [
     {
       "type": 0,
-      "value": "Principal data"
+      "value": "Hlavní údaje"
     }
   ],
   "ui-courses.accordion.developer": [
     {
       "type": 0,
-      "value": "Developer info"
+      "value": "Informace pro vývojáře"
     }
   ],
   "ui-courses.accordion.developer.help": [
     {
       "type": 0,
-      "value": "(JSON dump of raw record)"
+      "value": "(JSON výpis nezpracovaného záznamu)"
     }
   ],
   "ui-courses.accordion.instructors": [
     {
       "type": 0,
-      "value": "Instructors"
+      "value": "Instruktoři"
     }
   ],
   "ui-courses.accordion.instructors.help": [
     {
       "type": 0,
-      "value": "Instructing the present course"
+      "value": "Výuka současného kurzu"
     }
   ],
   "ui-courses.accordion.organization": [
     {
       "type": 0,
-      "value": "Organization"
+      "value": "Organizace"
     }
   ],
   "ui-courses.accordion.organization.help": [
     {
       "type": 0,
-      "value": "Local information"
+      "value": "Místní informace"
     }
   ],
   "ui-courses.accordion.reserves": [
     {
       "type": 0,
-      "value": "Items"
+      "value": "Jednotky"
     }
   ],
   "ui-courses.accordion.reserves.help": [
     {
       "type": 0,
-      "value": "Items reserved to this course"
+      "value": "Jednotky vyhrazené pro tento kurz"
     }
   ],
   "ui-courses.accordion.term": [
     {
       "type": 0,
-      "value": "Term"
+      "value": "Podmínka"
     }
   ],
   "ui-courses.accordion.term.help": [
     {
       "type": 0,
-      "value": "Schedule for the present course"
+      "value": "Rozpis aktuálního kurzu"
     }
   ],
   "ui-courses.actions": [
     {
       "type": 0,
-      "value": "Actions"
+      "value": "Akce"
     }
   ],
   "ui-courses.addFastAddItem.title": [
     {
       "type": 0,
-      "value": "Add Fast Add item"
+      "value": "Rychle přidejte jednotku"
     }
   ],
   "ui-courses.addFastAddItem.tooltip": [
     {
       "type": 0,
-      "value": "Create a new Inventory record using 'Fast Add' and add it to this course as a reserve"
+      "value": "Vytvořte nový záznam katalogu  pomocí „Rychlé přidání“ a přidejte jej do tohoto kurzu jako rezervu"
     }
   ],
   "ui-courses.addInstructor": [
     {
       "type": 0,
-      "value": "Add instructor"
+      "value": "Přidat instruktora"
     }
   ],
   "ui-courses.addItem": [
     {
       "type": 0,
-      "value": "Add an item to this course's reserves"
+      "value": "Přidejte jednotku do rezerv tohoto kurzu"
     }
   ],
   "ui-courses.addItem.addedItem": [
     {
       "type": 0,
-      "value": "Added item \""
+      "value": "Přidána jednotka \""
     },
     {
       "type": 1,
@@ -16638,7 +16638,7 @@
   "ui-courses.addItem.duplicateItem": [
     {
       "type": 0,
-      "value": "Duplicate barcode "
+      "value": "Duplicitní čárový kód "
     },
     {
       "type": 1,
@@ -16646,25 +16646,25 @@
     },
     {
       "type": 0,
-      "value": ": this item is already on reserve for this course"
+      "value": ": tato jednotka je již v rezervě pro tento kurz"
     }
   ],
   "ui-courses.addItem.enterBarcode": [
     {
       "type": 0,
-      "value": "Enter or scan barcode"
+      "value": "Zadejte nebo naskenujte čárový kód"
     }
   ],
   "ui-courses.addItem.existing": [
     {
       "type": 0,
-      "value": "Add existing Inventory item as a reserve"
+      "value": "Přidejte existující jednotku katalogu jako rezervu"
     }
   ],
   "ui-courses.addItem.failure": [
     {
       "type": 0,
-      "value": "Failed to add item "
+      "value": "Nepodařílo se přidat jednotku "
     },
     {
       "type": 1,
@@ -16682,157 +16682,157 @@
   "ui-courses.addItem.missingBarcode": [
     {
       "type": 0,
-      "value": "Please enter a barcode before selecting \"Add item\""
+      "value": "Vložte čárový kód, než zvolíte „Přidat jednotku“"
     }
   ],
   "ui-courses.addItem.new": [
     {
       "type": 0,
-      "value": "Create new Inventory item and add it as a reserve"
+      "value": "Vytvořte novou jednotku katalogu a přidejte ji jako rezervu"
     }
   ],
   "ui-courses.appMenu.keyboardShortcuts": [
     {
       "type": 0,
-      "value": "Keyboard shortcuts"
+      "value": "Klávesové zkratky"
     }
   ],
   "ui-courses.boolean.no": [
     {
       "type": 0,
-      "value": "No"
+      "value": "Ne"
     }
   ],
   "ui-courses.boolean.yes": [
     {
       "type": 0,
-      "value": "Yes"
+      "value": "Ano"
     }
   ],
   "ui-courses.button.addInstructor": [
     {
       "type": 0,
-      "value": "Add instructor"
+      "value": "Přidat instruktora"
     }
   ],
   "ui-courses.button.addItem": [
     {
       "type": 0,
-      "value": "Add item"
+      "value": "Přidejte jednotku"
     }
   ],
   "ui-courses.button.createDuplicateCourses": [
     {
       "type": 0,
-      "value": "Create duplicate course(s)"
+      "value": "Vytvořit duplicitní kurz(y)"
     }
   ],
   "ui-courses.button.crosslist": [
     {
       "type": 0,
-      "value": "Crosslist"
+      "value": "Křížový seznam"
     }
   ],
   "ui-courses.button.duplicate": [
     {
       "type": 0,
-      "value": "Duplicate"
+      "value": "Duplikovat"
     }
   ],
   "ui-courses.button.editReserve": [
     {
       "type": 0,
-      "value": "Edit reserve"
+      "value": "Upravit rezervu"
     }
   ],
   "ui-courses.button.removeReserve": [
     {
       "type": 0,
-      "value": "Remove"
+      "value": "Odstranit"
     }
   ],
   "ui-courses.closeEditCourse": [
     {
       "type": 0,
-      "value": "Close edit course"
+      "value": "Zavřít úpravy kurzu"
     }
   ],
   "ui-courses.closeEditInstructor": [
     {
       "type": 0,
-      "value": "Close edit instructor"
+      "value": "Zavřít úpravy instruktora"
     }
   ],
   "ui-courses.closeEditReserve": [
     {
       "type": 0,
-      "value": "Close edit reserve"
+      "value": "Zavřít úpravu rezerv"
     }
   ],
   "ui-courses.column.barcode": [
     {
       "type": 0,
-      "value": "Barcode"
+      "value": "Čárový kód"
     }
   ],
   "ui-courses.column.courseName": [
     {
       "type": 0,
-      "value": "Course name"
+      "value": "Název kurzu"
     }
   ],
   "ui-courses.column.courseNumber": [
     {
       "type": 0,
-      "value": "Course code"
+      "value": "Kód kurzu"
     }
   ],
   "ui-courses.column.department": [
     {
       "type": 0,
-      "value": "Department"
+      "value": "Oddělení"
     }
   ],
   "ui-courses.column.endDate": [
     {
       "type": 0,
-      "value": "End date"
+      "value": "Datum ukončení"
     }
   ],
   "ui-courses.column.instructor": [
     {
       "type": 0,
-      "value": "Instructor"
+      "value": "Instruktor"
     }
   ],
   "ui-courses.column.name": [
     {
       "type": 0,
-      "value": "Course name"
+      "value": "Název kurzu"
     }
   ],
   "ui-courses.column.permanentLocation": [
     {
       "type": 0,
-      "value": "Permanent location"
+      "value": "Trvalé umístění"
     }
   ],
   "ui-courses.column.processingStatus": [
     {
       "type": 0,
-      "value": "Processing status"
+      "value": "Stav zpracování"
     }
   ],
   "ui-courses.column.registrarId": [
     {
       "type": 0,
-      "value": "Registrar ID"
+      "value": "ID registrátora"
     }
   ],
   "ui-courses.column.sectionName": [
     {
       "type": 0,
-      "value": "Section"
+      "value": "Sekce"
     }
   ],
   "ui-courses.column.serviceDesk": [
@@ -16844,43 +16844,43 @@
   "ui-courses.column.startDate": [
     {
       "type": 0,
-      "value": "Start date"
+      "value": "Datum zahájení"
     }
   ],
   "ui-courses.column.status": [
     {
       "type": 0,
-      "value": "Status"
+      "value": "Stav"
     }
   ],
   "ui-courses.column.temporaryLocation": [
     {
       "type": 0,
-      "value": "Temporary location"
+      "value": "Dočasné umístění"
     }
   ],
   "ui-courses.column.title": [
     {
       "type": 0,
-      "value": "Title"
+      "value": "Titul"
     }
   ],
   "ui-courses.copyrightTracking.no": [
     {
       "type": 0,
-      "value": "No copyright tracking required"
+      "value": "Sledování autorských práv není nutné"
     }
   ],
   "ui-courses.copyrightTracking.yes": [
     {
       "type": 0,
-      "value": "This item requires copyright tracking:"
+      "value": "Tato jednotka vyžaduje sledování autorských práv:"
     }
   ],
   "ui-courses.course": [
     {
       "type": 0,
-      "value": "Course"
+      "value": "Kurz"
     }
   ],
   "ui-courses.course.pluralized": [
@@ -16899,7 +16899,7 @@
           "value": [
             {
               "type": 0,
-              "value": "course"
+              "value": "kurz"
             }
           ]
         },
@@ -16907,7 +16907,7 @@
           "value": [
             {
               "type": 0,
-              "value": "courses"
+              "value": "kurzy"
             }
           ]
         }
@@ -16920,7 +16920,7 @@
   "ui-courses.courseByNumber": [
     {
       "type": 0,
-      "value": "Course "
+      "value": "Kurz "
     },
     {
       "type": 1,
@@ -16930,229 +16930,229 @@
   "ui-courses.create": [
     {
       "type": 0,
-      "value": "New course"
+      "value": "Nový kurz"
     }
   ],
   "ui-courses.createCourse": [
     {
       "type": 0,
-      "value": "Create course"
+      "value": "Vytvořit kurz"
     }
   ],
   "ui-courses.crosslist": [
     {
       "type": 0,
-      "value": "Crosslist course"
+      "value": "Crosslistový kurz"
     }
   ],
   "ui-courses.crosslistCourse": [
     {
       "type": 0,
-      "value": "New course within listing"
+      "value": "Nový kurz v rámci výpisu"
     }
   ],
   "ui-courses.delete": [
     {
       "type": 0,
-      "value": "Delete"
+      "value": "Vymazat"
     }
   ],
   "ui-courses.duplicateCourse": [
     {
       "type": 0,
-      "value": "Duplicate course"
+      "value": "Duplicitní kurz"
     }
   ],
   "ui-courses.duplicateCourse.duplicateCrosslistedCourses": [
     {
       "type": 0,
-      "value": "Duplicate all cross-listed courses"
+      "value": "Duplikujte všechny křížově uvedené kurzy"
     }
   ],
   "ui-courses.duplicateCourse.duplicatedCourseIndicator": [
     {
       "type": 0,
-      "value": "Duplicate"
+      "value": "Duplikovat"
     }
   ],
   "ui-courses.editCourse": [
     {
       "type": 0,
-      "value": "Edit course"
+      "value": "Upravit kurz"
     }
   ],
   "ui-courses.editInstructor": [
     {
       "type": 0,
-      "value": "Edit instructor"
+      "value": "Upravit instruktora"
     }
   ],
   "ui-courses.editReserve": [
     {
       "type": 0,
-      "value": "Edit reserve"
+      "value": "Upravit rezervu"
     }
   ],
   "ui-courses.errors.mustBeInteger": [
     {
       "type": 0,
-      "value": "This value must be an integer"
+      "value": "Tato hodnota musí být celé číslo"
     }
   ],
   "ui-courses.field.additionalSectionsUsed": [
     {
       "type": 0,
-      "value": "Additional sections of this item used"
+      "value": "Použity další části této jednotky"
     }
   ],
   "ui-courses.field.barcode": [
     {
       "type": 0,
-      "value": "Barcode"
+      "value": "Čárový kód"
     }
   ],
   "ui-courses.field.callNumber": [
     {
       "type": 0,
-      "value": "Call number"
+      "value": "Signatura"
     }
   ],
   "ui-courses.field.contributor": [
     {
       "type": 0,
-      "value": "Contributor"
+      "value": "Přispěvatel"
     }
   ],
   "ui-courses.field.copy": [
     {
       "type": 0,
-      "value": "Copy"
+      "value": "Kopírovat"
     }
   ],
   "ui-courses.field.copyrightStatusId": [
     {
       "type": 0,
-      "value": "Copyright status"
+      "value": "Stav autorských práv"
     }
   ],
   "ui-courses.field.copyrightTrackingNeeded": [
     {
       "type": 0,
-      "value": "Copyright tracking needed?"
+      "value": "Potřebujete sledování autorských práv?"
     }
   ],
   "ui-courses.field.courseType": [
     {
       "type": 0,
-      "value": "Course type"
+      "value": "Typ kurzu"
     }
   ],
   "ui-courses.field.department": [
     {
       "type": 0,
-      "value": "Department"
+      "value": "Oddělení"
     }
   ],
   "ui-courses.field.description": [
     {
       "type": 0,
-      "value": "Course description"
+      "value": "Popis kurzu"
     }
   ],
   "ui-courses.field.endDate": [
     {
       "type": 0,
-      "value": "End date"
+      "value": "Datum ukončení"
     }
   ],
   "ui-courses.field.enumeration": [
     {
       "type": 0,
-      "value": "Enumeration"
+      "value": "Výčet"
     }
   ],
   "ui-courses.field.externalId": [
     {
       "type": 0,
-      "value": "External ID"
+      "value": "Externí ID"
     }
   ],
   "ui-courses.field.instructorName": [
     {
       "type": 0,
-      "value": "Name"
+      "value": "Název"
     }
   ],
   "ui-courses.field.itemBarcode": [
     {
       "type": 0,
-      "value": "Item barcode"
+      "value": "Čárový kód jednotky"
     }
   ],
   "ui-courses.field.location": [
     {
       "type": 0,
-      "value": "Location"
+      "value": "Umístění"
     }
   ],
   "ui-courses.field.name": [
     {
       "type": 0,
-      "value": "Course name"
+      "value": "Název kurzu"
     }
   ],
   "ui-courses.field.number": [
     {
       "type": 0,
-      "value": "Course code"
+      "value": "Kód kurzu"
     }
   ],
   "ui-courses.field.numberOfStudents": [
     {
       "type": 0,
-      "value": "Number of students"
+      "value": "Počet studentů"
     }
   ],
   "ui-courses.field.patronGroup": [
     {
       "type": 0,
-      "value": "Patron group"
+      "value": "Skupina čtenáře"
     }
   ],
   "ui-courses.field.paymentBasis": [
     {
       "type": 0,
-      "value": "Payment based on"
+      "value": "Platba na základě"
     }
   ],
   "ui-courses.field.percentOfPages": [
     {
       "type": 0,
-      "value": "Total % of pages used"
+      "value": "Celkové % použitých stránek"
     }
   ],
   "ui-courses.field.permanentLocation": [
     {
       "type": 0,
-      "value": "Permanent location"
+      "value": "Trvalé umístění"
     }
   ],
   "ui-courses.field.processingStatus": [
     {
       "type": 0,
-      "value": "Processing status"
+      "value": "Stav zpracování"
     }
   ],
   "ui-courses.field.registrarId": [
     {
       "type": 0,
-      "value": "Registrar ID"
+      "value": "ID registrátora"
     }
   ],
   "ui-courses.field.section": [
     {
       "type": 0,
-      "value": "Section"
+      "value": "Sekce"
     }
   ],
   "ui-courses.field.serviceDesk": [
@@ -17164,235 +17164,235 @@
   "ui-courses.field.startDate": [
     {
       "type": 0,
-      "value": "Start date"
+      "value": "Datum zahájení"
     }
   ],
   "ui-courses.field.status": [
     {
       "type": 0,
-      "value": "Status"
+      "value": "Stav"
     }
   ],
   "ui-courses.field.temporaryLoanType": [
     {
       "type": 0,
-      "value": "Temporary loan type"
+      "value": "Typ dočasné výpůjčky"
     }
   ],
   "ui-courses.field.temporaryLocation": [
     {
       "type": 0,
-      "value": "Temporary location"
+      "value": "Dočasné umístění"
     }
   ],
   "ui-courses.field.term": [
     {
       "type": 0,
-      "value": "Term"
+      "value": "Termín"
     }
   ],
   "ui-courses.field.totalPagesInItem": [
     {
       "type": 0,
-      "value": "Total number of pages in item"
+      "value": "Celkový počet stránek v jednotce"
     }
   ],
   "ui-courses.field.totalPagesUsed": [
     {
       "type": 0,
-      "value": "Total number of pages used"
+      "value": "Celkový počet použitých stránek"
     }
   ],
   "ui-courses.field.urlLink": [
     {
       "type": 0,
-      "value": "URL/PDF link"
+      "value": "Odkaz URL/PDF"
     }
   ],
   "ui-courses.field.volume": [
     {
       "type": 0,
-      "value": "Volume"
+      "value": "Svazek"
     }
   ],
   "ui-courses.filters.copyrightStatus": [
     {
       "type": 0,
-      "value": "Copyright status"
+      "value": "Stav autorských práv"
     }
   ],
   "ui-courses.filters.copyrightTracking": [
     {
       "type": 0,
-      "value": "Copyright tracking?"
+      "value": "Sledování autorských práv?"
     }
   ],
   "ui-courses.filters.courses": [
     {
       "type": 0,
-      "value": "Courses"
+      "value": "Kurzy"
     }
   ],
   "ui-courses.filters.coursetype": [
     {
       "type": 0,
-      "value": "Course type"
+      "value": "Typ kurzu"
     }
   ],
   "ui-courses.filters.department": [
     {
       "type": 0,
-      "value": "Department"
+      "value": "Oddělení"
     }
   ],
   "ui-courses.filters.location": [
     {
       "type": 0,
-      "value": "Location"
+      "value": "Umístění"
     }
   ],
   "ui-courses.filters.permanentLocation": [
     {
       "type": 0,
-      "value": "Permanent location"
+      "value": "Trvalé umístění"
     }
   ],
   "ui-courses.filters.processingstatus": [
     {
       "type": 0,
-      "value": "Processing status"
+      "value": "Stav zpracování"
     }
   ],
   "ui-courses.filters.reserves": [
     {
       "type": 0,
-      "value": "Reserves"
+      "value": "Rezervy"
     }
   ],
   "ui-courses.filters.status": [
     {
       "type": 0,
-      "value": "Status"
+      "value": "Stav"
     }
   ],
   "ui-courses.filters.temporaryLocation": [
     {
       "type": 0,
-      "value": "Temporary location"
+      "value": "Dočasné umístění"
     }
   ],
   "ui-courses.filters.term": [
     {
       "type": 0,
-      "value": "Term"
+      "value": "Termín"
     }
   ],
   "ui-courses.front.welcome": [
     {
       "type": 0,
-      "value": "Welcome to Course Reserves!"
+      "value": "Vítejte v sekci Rezervy kurzů!"
     }
   ],
   "ui-courses.headings.copyrightInformation": [
     {
       "type": 0,
-      "value": "Copyright Information"
+      "value": "Informace o autorských právech"
     }
   ],
   "ui-courses.headings.description": [
     {
       "type": 0,
-      "value": "Description"
+      "value": "Popis"
     }
   ],
   "ui-courses.headings.endDate": [
     {
       "type": 0,
-      "value": "End Date"
+      "value": "Datum ukončení"
     }
   ],
   "ui-courses.headings.name": [
     {
       "type": 0,
-      "value": "Name"
+      "value": "Název"
     }
   ],
   "ui-courses.headings.reserveCourses": [
     {
       "type": 0,
-      "value": "Courses to which this item is reserved"
+      "value": "Kurzy, pro které je tato jednotka vyhrazena"
     }
   ],
   "ui-courses.headings.startDate": [
     {
       "type": 0,
-      "value": "Start Date"
+      "value": "Datum zahájení"
     }
   ],
   "ui-courses.index.courses.allFields": [
     {
       "type": 0,
-      "value": "All fields"
+      "value": "Všechna pole"
     }
   ],
   "ui-courses.index.courses.courseCode": [
     {
       "type": 0,
-      "value": "Course code"
+      "value": "Kód kurzu"
     }
   ],
   "ui-courses.index.courses.courseName": [
     {
       "type": 0,
-      "value": "Course name"
+      "value": "Název kurzu"
     }
   ],
   "ui-courses.index.courses.externalId": [
     {
       "type": 0,
-      "value": "External ID"
+      "value": "Externí ID"
     }
   ],
   "ui-courses.index.courses.instructor": [
     {
       "type": 0,
-      "value": "Instructor"
+      "value": "Instruktor"
     }
   ],
   "ui-courses.index.courses.registrarId": [
     {
       "type": 0,
-      "value": "Registrar ID"
+      "value": "ID registrátora"
     }
   ],
   "ui-courses.index.courses.section": [
     {
       "type": 0,
-      "value": "Section"
+      "value": "Sekce"
     }
   ],
   "ui-courses.index.reserves.allFields": [
     {
       "type": 0,
-      "value": "All fields"
+      "value": "Všechna pole"
     }
   ],
   "ui-courses.index.reserves.barcode": [
     {
       "type": 0,
-      "value": "Barcode"
+      "value": "Čárový kód"
     }
   ],
   "ui-courses.index.reserves.callNumber": [
     {
       "type": 0,
-      "value": "Call Number"
+      "value": "Signatura"
     }
   ],
   "ui-courses.index.reserves.title": [
     {
       "type": 0,
-      "value": "Title"
+      "value": "Název"
     }
   ],
   "ui-courses.instructor.pluralized": [
@@ -17411,7 +17411,7 @@
           "value": [
             {
               "type": 0,
-              "value": "instructor"
+              "value": "instruktor"
             }
           ]
         },
@@ -17419,7 +17419,7 @@
           "value": [
             {
               "type": 0,
-              "value": "instructors"
+              "value": "instruktoři"
             }
           ]
         }
@@ -17432,79 +17432,79 @@
   "ui-courses.link": [
     {
       "type": 0,
-      "value": "Link"
+      "value": "Propojit"
     }
   ],
   "ui-courses.loading": [
     {
       "type": 0,
-      "value": "Loading..."
+      "value": "Načítání..."
     }
   ],
   "ui-courses.lookUpUser": [
     {
       "type": 0,
-      "value": "Look up user"
+      "value": "Vyhledat uživatele"
     }
   ],
   "ui-courses.meta.title": [
     {
       "type": 0,
-      "value": "Courses"
+      "value": "Kurzy"
     }
   ],
   "ui-courses.noSource": [
     {
       "type": 0,
-      "value": "No source yet ..."
+      "value": "Zatím žádný zdroj..."
     }
   ],
   "ui-courses.objectName.copyrightstatus": [
     {
       "type": 0,
-      "value": "Copyright Status"
+      "value": "Stav autorských práv"
     }
   ],
   "ui-courses.objectName.copyrightstatuses": [
     {
       "type": 0,
-      "value": "Copyright Statuses"
+      "value": "Stavy autorských práv"
     }
   ],
   "ui-courses.objectName.coursetype": [
     {
       "type": 0,
-      "value": "Course Type"
+      "value": "Typ kurzu"
     }
   ],
   "ui-courses.objectName.coursetypes": [
     {
       "type": 0,
-      "value": "Course Types"
+      "value": "Typy kurzů"
     }
   ],
   "ui-courses.objectName.department": [
     {
       "type": 0,
-      "value": "Department"
+      "value": "Oddělení"
     }
   ],
   "ui-courses.objectName.departments": [
     {
       "type": 0,
-      "value": "Departments"
+      "value": "Oddělení"
     }
   ],
   "ui-courses.objectName.processingstatus": [
     {
       "type": 0,
-      "value": "Processing Status"
+      "value": "Stav zpracování"
     }
   ],
   "ui-courses.objectName.processingstatuses": [
     {
       "type": 0,
-      "value": "Processing Statuses"
+      "value": "Stavy zpracování"
     }
   ],
   "ui-courses.objectName.role": [
@@ -17516,85 +17516,85 @@
   "ui-courses.objectName.roles": [
     {
       "type": 0,
-      "value": "Roles"
+      "value": "Role"
     }
   ],
   "ui-courses.objectName.term": [
     {
       "type": 0,
-      "value": "Term"
+      "value": "Termín"
     }
   ],
   "ui-courses.objectName.terms": [
     {
       "type": 0,
-      "value": "Terms"
+      "value": "Termíny"
     }
   ],
   "ui-courses.options.noneRequired": [
     {
       "type": 0,
-      "value": "(None required)"
+      "value": "(Není vyžadováno)"
     }
   ],
   "ui-courses.permission.add-edit-items": [
     {
       "type": 0,
-      "value": "Courses: Add and edit courses' reserved items"
+      "value": "Kurzy: Přidejte a upravte rezervované jednotky kurzů"
     }
   ],
   "ui-courses.permission.all": [
     {
       "type": 0,
-      "value": "Courses: All permissions"
+      "value": "Kurzy: Všechna oprávnění"
     }
   ],
   "ui-courses.permission.maintain-courses": [
     {
       "type": 0,
-      "value": "Courses: Read, add, edit, and delete courses"
+      "value": "Kurzy: Číst, přidávat, upravovat a mazat kurzy"
     }
   ],
   "ui-courses.permission.maintain-items": [
     {
       "type": 0,
-      "value": "Courses: Add, edit, and remove courses' reserved items"
+      "value": "Kurzy: Přidání, úprava a odebrání rezervovaných jednotek kurzů"
     }
   ],
   "ui-courses.permission.maintain-settings": [
     {
       "type": 0,
-      "value": "Settings (Courses): Can create, edit and delete course settings"
+      "value": "Nastavení (kurzy): Může vytvářet, upravovat a mazat nastavení kurzu"
     }
   ],
   "ui-courses.permission.read-add-edit": [
     {
       "type": 0,
-      "value": "Courses: Read, add, and edit courses"
+      "value": "Kurzy: Číst, přidávat a upravovat kurzy"
     }
   ],
   "ui-courses.permission.read-all": [
     {
       "type": 0,
-      "value": "Courses: Read all"
+      "value": "Kurzy: Přečíst vše"
     }
   ],
   "ui-courses.reallyDelete": [
     {
       "type": 0,
-      "value": "Really delete?"
+      "value": "Opravdu smazat?"
     }
   ],
   "ui-courses.removeInstructor": [
     {
       "type": 0,
-      "value": "Remove instructor"
+      "value": "Odebrat instruktora"
     }
   ],
   "ui-courses.removeInstructor.failure": [
     {
       "type": 0,
-      "value": "Remove instructor failed: "
+      "value": "Odebrání instruktora se nezdařilo: "
     },
     {
       "type": 1,
@@ -17604,13 +17604,13 @@
   "ui-courses.removeReserve": [
     {
       "type": 0,
-      "value": "Remove reserve"
+      "value": "Odstraňte rezervu"
     }
   ],
   "ui-courses.removeReserve.failure": [
     {
       "type": 0,
-      "value": "Remove reserve failed: "
+      "value": "Odebrání rezervy se nezdařilo: "
     },
     {
       "type": 1,
@@ -17626,67 +17626,67 @@
   "ui-courses.settings.copyrightstatuses": [
     {
       "type": 0,
-      "value": "Copyright Statuses"
+      "value": "Stavy autorských práv"
     }
   ],
   "ui-courses.settings.coursetypes": [
     {
       "type": 0,
-      "value": "Course Types"
+      "value": "Typy kurzů"
     }
   ],
   "ui-courses.settings.departments": [
     {
       "type": 0,
-      "value": "Course Departments"
+      "value": "Katedry kurzů"
     }
   ],
   "ui-courses.settings.display.duplicateCrosslistedCourses": [
     {
       "type": 0,
-      "value": "Duplicate cross-listed courses"
+      "value": "Duplicitní křížově vypsané kurzy"
     }
   ],
   "ui-courses.settings.display.duplicateCrosslistedCourses.description": [
     {
       "type": 0,
-      "value": "If this setting is checked, when duplicating a course the \"Duplicate cross-listed courses\" checkbox in the Duplicate modal will be marked as checked by default."
+      "value": "Pokud je toto nastavení zaškrtnuto, bude při duplikování kurzu zaškrtávací políčko \"Duplikovat křížově zapsané kurzy\" v modálním okně Duplikovat ve výchozím nastavení označeno jako zaškrtnuté."
     }
   ],
   "ui-courses.settings.displaySettings": [
     {
       "type": 0,
-      "value": "Display settings"
+      "value": "Nastavení obrazovky"
     }
   ],
   "ui-courses.settings.objectLabel": [
     {
       "type": 0,
-      "value": "Entries"
+      "value": "Příspěvky"
     }
   ],
   "ui-courses.settings.paneTitle": [
     {
       "type": 0,
-      "value": "Courses"
+      "value": "Kurzy"
     }
   ],
   "ui-courses.settings.processingstatuses": [
     {
       "type": 0,
-      "value": "Processing Statuses"
+      "value": "Stavy zpracování"
     }
   ],
   "ui-courses.settings.roles": [
     {
       "type": 0,
-      "value": "Roles"
+      "value": "Role"
     }
   ],
   "ui-courses.settings.terms": [
     {
       "type": 0,
-      "value": "Terms"
+      "value": "Termíny"
     }
   ],
   "ui-courses.status.active": [
