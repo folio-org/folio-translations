@@ -1352,7 +1352,7 @@
   "stripes-components.mcl.additionalResultsLoaded": "已加载其他结果",
   "stripes-components.mcl.itemsRequestedMessage": "请求更多结果，将在到达时重点关注下一行",
   "stripes-components.metaSection.source": "来源： {source}",
-  "stripes-components.metaSection.sourceNoData": "来源：自动化流程",
+  "stripes-components.metaSection.sourceNoData": "来源：未知用户",
   "stripes-components.metaSection.recordCreated": "记录创建:{date}{time}",
   "stripes-components.metaSection.recordCreatedNoData": "记录创建：未知",
   "stripes-components.metaSection.recordLastUpdated": "记录上次更新：{date}{time}",
@@ -6552,13 +6552,13 @@
   "ui-agreements.eresources.activeFrom": [
     {
       "type": 0,
-      "value": "激活自"
+      "value": "有效自"
     }
   ],
   "ui-agreements.eresources.activeTo": [
     {
       "type": 0,
-      "value": "激活到"
+      "value": "有效到"
     }
   ],
   "ui-agreements.eresources.addPackage": [
@@ -39551,7 +39551,7 @@
   "ui-inventory.boundWithTitles": [
     {
       "type": 0,
-      "value": "合订题名"
+      "value": "合订与分析"
     }
   ],
   "ui-inventory.browse": [
@@ -40428,7 +40428,7 @@
   "ui-inventory.effectiveCallNumber": [
     {
       "type": 0,
-      "value": "有效的索书号字符串"
+      "value": "有效的索书号"
     }
   ],
   "ui-inventory.effectiveLocation": [
@@ -43705,28 +43705,11 @@
     {
       "offset": 0,
       "options": {
-        "one": {
-          "value": [
-            {
-              "type": 0,
-              "value": "this item"
-            }
-          ]
-        },
         "other": {
           "value": [
             {
-              "children": [
-                {
-                  "type": 7
-                }
-              ],
-              "type": 8,
-              "value": "strong"
-            },
-            {
               "type": 0,
-              "value": " items"
+              "value": "空"
             }
           ]
         }
@@ -44202,7 +44185,7 @@
   "ui-inventory.search.all": [
     {
       "type": 0,
-      "value": "关键词（题名，贡献者，标识符）"
+      "value": "关键词（题名，贡献者，标识符，HRID，UUID）"
     }
   ],
   "ui-inventory.search.allFields": [
@@ -47698,7 +47681,7 @@
   "ui-finance.budget.expenseClasses.accountNumber": [
     {
       "type": 0,
-      "value": "帐号扩展"
+      "value": "账号扩展"
     }
   ],
   "ui-finance.budget.expenseClasses.add": [
@@ -48706,7 +48689,7 @@
   "ui-finance.fund.search.externalAccountNo": [
     {
       "type": 0,
-      "value": "外部帐号"
+      "value": "外部账号"
     }
   ],
   "ui-finance.fund.search.keyword": [
@@ -50367,13 +50350,13 @@
   "ui-ldp.settings.dbinfo": "数据库配置",
   "ui-ldp.settings.dbinfo.url": "数据库URL",
   "ui-ldp.settings.dbinfo.user": "用户名",
-  "ui-ldp.settings.dbinfo.pass": "密码",
+  "ui-ldp.settings.dbinfo.pass": "密码（只可写入）",
   "ui-ldp.settings.dbinfo.update.ok": "已更新数据库配置",
   "ui-ldp.settings.sqconfig": "已保存查询配置",
   "ui-ldp.settings.sqconfig.owner": "GitHub存储库所有者",
   "ui-ldp.settings.sqconfig.repo": "存储库名称",
   "ui-ldp.settings.sqconfig.branch": "分支",
-  "ui-ldp.settings.sqconfig.token": "用于访问存储库的OAuth令牌",
+  "ui-ldp.settings.sqconfig.token": "用于访问存储库的OAuth令牌（只可写入）",
   "ui-ldp.settings.sqconfig.update.ok": "已更新保存的查询配置",
   "ui-ldp.permission.settings.record-limits": "设置（LDP）：可修改默认记录限制",
   "ui-ldp.permission.settings.table-availability": "设置（LDP）：可选择哪些表可以搜索",
@@ -53865,7 +53848,7 @@
   "ui-notes.settings.noteType": [
     {
       "type": 0,
-      "value": "附注类型"
+      "value": "Note type"
     }
   ],
   "ui-notes.settings.noteTypes": [
@@ -55446,13 +55429,13 @@
     },
     {
       "type": 0,
-      "value": "个用于导出的唯一帐号。如果订单行具有不同的帐号，则不能打开具有多个订单行集的订单以导出。打开前请编辑这些订单行的账号信息或将不同账号的订单行移到不同的订单中。"
+      "value": "个用于导出的唯一帐号。如果订单行具有不同的账号，则不能打开具有多个订单行集的订单以导出。打开前请编辑这些订单行的账号信息或将不同账号的订单行移到不同的订单中。"
     }
   ],
   "ui-orders.differentAccounts.title": [
     {
       "type": 0,
-      "value": "不同的帐号"
+      "value": "不同的账号"
     }
   ],
   "ui-orders.duplicateLines.confirmation.heading": [
@@ -58574,7 +58557,7 @@
   "ui-orders.relatedAgreementLines.endDate": [
     {
       "type": 0,
-      "value": "激活到"
+      "value": "有效到"
     }
   ],
   "ui-orders.relatedAgreementLines.name": [
@@ -58586,7 +58569,7 @@
   "ui-orders.relatedAgreementLines.startDate": [
     {
       "type": 0,
-      "value": "激活自"
+      "value": "有效自"
     }
   ],
   "ui-orders.relatedAgreementLines.status": [
@@ -58979,7 +58962,7 @@
   "ui-orders.search.vendorDetail.vendorAccount": [
     {
       "type": 0,
-      "value": "供应商帐户"
+      "value": "供应商账户"
     }
   ],
   "ui-orders.settings": [
@@ -59725,7 +59708,7 @@
   "ui-orders.vendor.accountNumber": [
     {
       "type": 0,
-      "value": "帐号"
+      "value": "账号"
     }
   ],
   "ui-orders.vendor.instructions": [
@@ -59779,13 +59762,13 @@
   "ui-organizations.accounts": [
     {
       "type": 0,
-      "value": "帐户"
+      "value": "账户"
     }
   ],
   "ui-organizations.accounts.account.accountStatus": [
     {
       "type": 0,
-      "value": "帐户状态"
+      "value": "账户状态"
     }
   ],
   "ui-organizations.accounts.account.contactInfo": [
@@ -59797,13 +59780,13 @@
   "ui-organizations.accounts.accountNumber": [
     {
       "type": 0,
-      "value": "帐号"
+      "value": "账号"
     }
   ],
   "ui-organizations.accounts.accountStatus": [
     {
       "type": 0,
-      "value": "帐户状态"
+      "value": "账户状态"
     }
   ],
   "ui-organizations.accounts.add": [
@@ -59839,7 +59822,7 @@
   "ui-organizations.accounts.noAccountsAvail": [
     {
       "type": 0,
-      "value": "无可用帐户"
+      "value": "无可用账户"
     }
   ],
   "ui-organizations.accounts.notes": [
@@ -59863,7 +59846,7 @@
   "ui-organizations.accounts.pleaseAddAccount": [
     {
       "type": 0,
-      "value": "请添加帐户"
+      "value": "请添加账户"
     }
   ],
   "ui-organizations.accounts.remove": [
@@ -61051,7 +61034,7 @@
   "ui-organizations.integration.edi.sendAccountNumber": [
     {
       "type": 0,
-      "value": "发送帐号"
+      "value": "发送账号"
     }
   ],
   "ui-organizations.integration.edi.vendorEDICode": [
@@ -62192,7 +62175,7 @@
   "ui-organizations.view.duplicateAccounts": [
     {
       "type": 0,
-      "value": "组织不能有重复的帐号。在以任何方式编辑此组织之前，需要更改或删除任何重复的帐号"
+      "value": "组织不能有重复的账号。在以任何方式编辑此组织之前，需要更改或删除任何重复的账号"
     }
   ],
   "ui-organizations.view.edit": [
@@ -62989,7 +62972,7 @@
   "ui-plugin-eusage-reports.useOverTime.raw-data": "原始数据",
   "ui-plugin-eusage-reports.costPerUse.metric.Total_Item_Requests": "每个请求的费用-总计",
   "ui-plugin-eusage-reports.costPerUse.metric.Unique_Item_Requests": "每个请求的费用 - 单个",
-  "ui-plugin-eusage-reports.costPerUse.titleCount": "按种计数",
+  "ui-plugin-eusage-reports.costPerUse.titleCount": "有使用的标题",
   "ui-plugin-eusage-reports.matching-summary.label": "匹配摘要",
   "ui-plugin-eusage-reports.matching-summary.date-of-last-harvest": "上次收割日期",
   "ui-plugin-eusage-reports.matching-summary.status": "状态",
@@ -63025,7 +63008,7 @@
   "ui-plugin-eusage-reports.action.unignored": "题名<i> {title} </i>将不再被忽略",
   "ui-plugin-eusage-reports.action.not-ignored": "无法忽略此标题： {error}",
   "ui-plugin-eusage-reports.action.not-unignored": "无法停止忽略此标题： {error}",
-  "ui-plugin-eusage-reports.action.no-agreement-plugin": "无协议插件",
+  "ui-plugin-eusage-reports.action.no-agreement-plugin": "没有查找电子资源插件",
   "ui-plugin-eusage-reports.select-eresource": "选择题名<i> {title} </i>的电子资源",
   "ui-plugin-eusage-reports.button.update-matches": "更新匹配",
   "ui-plugin-eusage-reports.button.update-matches.dispatched": "已请求{yearMonth}匹配更新...",
@@ -63043,24 +63026,24 @@
   "ui-plugin-eusage-reports.analyze-agreement.ongoing": "正在分析的协议",
   "ui-plugin-eusage-reports.report-form.report": "报告",
   "ui-plugin-eusage-reports.report-form.report.use-over-time": "随时间推移的使用",
-  "ui-plugin-eusage-reports.report-form.report.use-over-time.x-axis": "Period of use",
-  "ui-plugin-eusage-reports.report-form.report.use-over-time.y-axis": "Access count",
-  "ui-plugin-eusage-reports.report-form.report.use-over-time.left-picker": "Scale: Select interval for period of use",
+  "ui-plugin-eusage-reports.report-form.report.use-over-time.x-axis": "使用期",
+  "ui-plugin-eusage-reports.report-form.report.use-over-time.y-axis": "访问次数",
+  "ui-plugin-eusage-reports.report-form.report.use-over-time.left-picker": "尺度：选择使用时间间隔",
   "ui-plugin-eusage-reports.report-form.report.use-over-time.right-picker": "-",
-  "ui-plugin-eusage-reports.report-form.report.requests-by-date-of-use": "按使用日期的请求",
-  "ui-plugin-eusage-reports.report-form.report.requests-by-date-of-use.x-axis": "Period of use",
-  "ui-plugin-eusage-reports.report-form.report.requests-by-date-of-use.y-axis": "Access count",
-  "ui-plugin-eusage-reports.report-form.report.requests-by-date-of-use.left-picker": "Scale: Select interval for period of use",
-  "ui-plugin-eusage-reports.report-form.report.requests-by-date-of-use.right-picker": "Stacks: Group publication year by",
-  "ui-plugin-eusage-reports.report-form.report.requests-by-publication-year": "按出版年份的请求",
-  "ui-plugin-eusage-reports.report-form.report.requests-by-publication-year.x-axis": "Publication year",
-  "ui-plugin-eusage-reports.report-form.report.requests-by-publication-year.y-axis": "Access count",
-  "ui-plugin-eusage-reports.report-form.report.requests-by-publication-year.left-picker": "Scale: Select interval for publication year",
-  "ui-plugin-eusage-reports.report-form.report.requests-by-publication-year.right-picker": "Stacks: Group period of use by",
+  "ui-plugin-eusage-reports.report-form.report.requests-by-date-of-use": "随时间使用，按出版年分组",
+  "ui-plugin-eusage-reports.report-form.report.requests-by-date-of-use.x-axis": "使用期",
+  "ui-plugin-eusage-reports.report-form.report.requests-by-date-of-use.y-axis": "访问次数",
+  "ui-plugin-eusage-reports.report-form.report.requests-by-date-of-use.left-picker": "尺度：选择使用时间间隔",
+  "ui-plugin-eusage-reports.report-form.report.requests-by-date-of-use.right-picker": "Stacks：分组出版年",
+  "ui-plugin-eusage-reports.report-form.report.requests-by-publication-year": "随出版年的使用，按时间分组",
+  "ui-plugin-eusage-reports.report-form.report.requests-by-publication-year.x-axis": "出版年份",
+  "ui-plugin-eusage-reports.report-form.report.requests-by-publication-year.y-axis": "访问次数",
+  "ui-plugin-eusage-reports.report-form.report.requests-by-publication-year.left-picker": "尺度：选择出版年份间隔",
+  "ui-plugin-eusage-reports.report-form.report.requests-by-publication-year.right-picker": "Stacks: 分组使用期限",
   "ui-plugin-eusage-reports.report-form.report.cost-per-use": "每次使用费用",
-  "ui-plugin-eusage-reports.report-form.report.cost-per-use.x-axis": "Period of use",
-  "ui-plugin-eusage-reports.report-form.report.cost-per-use.y-axis": "Cost, converted to system currency",
-  "ui-plugin-eusage-reports.report-form.report.cost-per-use.left-picker": "Scale: Select interval for period of use",
+  "ui-plugin-eusage-reports.report-form.report.cost-per-use.x-axis": "使用期",
+  "ui-plugin-eusage-reports.report-form.report.cost-per-use.y-axis": "费用，换算成系统货币",
+  "ui-plugin-eusage-reports.report-form.report.cost-per-use.left-picker": "尺度：选择使用期的时间间隔",
   "ui-plugin-eusage-reports.report-form.report.cost-per-use.right-picker": "-",
   "ui-plugin-eusage-reports.report-form.format": "格式",
   "ui-plugin-eusage-reports.report-form.format.journals": "期刊",
@@ -63077,8 +63060,8 @@
   "ui-plugin-eusage-reports.report-form.access-count-period": "按访问计数分组",
   "ui-plugin-eusage-reports.report-form.yop-interval": "按出版年分组",
   "ui-plugin-eusage-reports.report-form.period-of-use": "按使用期限分组",
-  "ui-plugin-eusage-reports.report-form.period.M": "{count, plural, one {# month} other {# months}}",
-  "ui-plugin-eusage-reports.report-form.period.Y": "{count, plural, one {# year} other {# years}}",
+  "ui-plugin-eusage-reports.report-form.period.M": "{count, plural, other {月}}",
+  "ui-plugin-eusage-reports.report-form.period.Y": "{count, plural, other {年}}",
   "ui-plugin-eusage-reports.monthpicker.year": "年：",
   "ui-plugin-eusage-reports.monthpicker.month": "月：",
   "ui-plugin-eusage-reports.button.download-csv": "下载CSV",
@@ -67683,7 +67666,7 @@
   "ui-remote-storage.returning-workflow.tooltip": [
     {
       "type": 0,
-      "value": "选择在远程存储收到后扫描到的系统单件"
+      "value": "选择在远程存储接收后扫描到的系统单件"
     }
   ],
   "ui-remote-storage.saveAndClose": [
@@ -73516,7 +73499,7 @@
   "ui-users.accounts.history.columns.number": [
     {
       "type": 0,
-      "value": "索书号"
+      "value": "有效的索书号字符串"
     }
   ],
   "ui-users.accounts.history.columns.owner": [
@@ -74152,7 +74135,7 @@
   "ui-users.accounts.transfer.error.select": [
     {
       "type": 0,
-      "value": "缴费处不存在转移帐户"
+      "value": "缴费处不存在转移账户"
     }
   ],
   "ui-users.accounts.transfer.method": [
@@ -75086,7 +75069,7 @@
   "ui-users.charge.item.callNumber": [
     {
       "type": 0,
-      "value": "索书号"
+      "value": "有效的索书号字符串"
     }
   ],
   "ui-users.charge.item.instance": [
@@ -75703,7 +75686,7 @@
   "ui-users.details.field.callnumber": [
     {
       "type": 0,
-      "value": "索书号"
+      "value": "有效的索书号字符串"
     }
   ],
   "ui-users.details.field.duedate": [
@@ -76291,7 +76274,7 @@
   "ui-users.feefines.errors.existShared": [
     {
       "type": 0,
-      "value": "其他交费处存在费用/罚款类型"
+      "value": "共享缴费处存在费用/罚款类型"
     }
   ],
   "ui-users.feefines.errors.notBilledMessage": [
@@ -82790,7 +82773,7 @@
   "ui-orders.print.shipTo": [
     {
       "type": 0,
-      "value": "Ship to address"
+      "value": "送货地址"
     }
   ],
   "ui-users.errors.permissionChangeFailed": [
@@ -82834,25 +82817,25 @@
   "ui-orders.errors.deleteConnectedToInvoice": [
     {
       "type": 0,
-      "value": "Fund distribution(s) could not be edit because this POL has related approved or paid invoices for the current fiscal year."
+      "value": "无法编辑经费分配，因为此采购订单行具有当前财务年度的相关已批准或已支付发票。"
     }
   ],
   "ui-orders.errors.deleteWithExpendedAmount": [
     {
       "type": 0,
-      "value": "Fund distribution(s) could not be edit because this POL has related approved or paid invoices for the current fiscal year."
+      "value": "无法编辑经费分配，因为此采购订单行具有当前财务年度的相关已批准或已支付发票。"
     }
   ],
   "stripes-acq-components.button.apply": [
     {
       "type": 0,
-      "value": "Apply"
+      "value": "应用"
     }
   ],
   "stripes-acq-components.filter.dynamic.emptyMessage": [
     {
       "type": 0,
-      "value": "Start typing to load options"
+      "value": "开始输入以加载选项"
     }
   ],
   "stripes-acq-components.filter.expenseClass": [
@@ -82870,13 +82853,13 @@
   "stripes-acq-components.filter.numberRange.max": [
     {
       "type": 0,
-      "value": "To"
+      "value": "至"
     }
   ],
   "stripes-acq-components.filter.numberRange.min": [
     {
       "type": 0,
-      "value": "From"
+      "value": "从"
     }
   ],
   "stripes-acq-components.fundDistribution.fundStatus.Frozen": [
@@ -82894,19 +82877,19 @@
   "stripes-acq-components.holdings.deleteModal.heading": [
     {
       "type": 0,
-      "value": "Delete Holdings"
+      "value": "删除馆藏"
     }
   ],
   "stripes-acq-components.holdings.deleteModal.keepHoldings": [
     {
       "type": 0,
-      "value": "Keep Holdings"
+      "value": "保持馆藏"
     }
   ],
   "stripes-acq-components.holdings.deleteModal.message": [
     {
       "type": 0,
-      "value": "This piece is connected to records in inventory. After this edit there will be no other pieces OR items connected to the related Holdings record(s). After making this change would you like FOLIO to delete the Holdings record(s)?"
+      "value": "此件与典藏中的记录连接。在此编辑之后，将没有其他件或单件连接到相关馆藏记录。作此更改后，是否希望 FOLIO删除此馆藏记录？"
     }
   ],
   "stripes-acq-components.resultsCount": [
@@ -82947,13 +82930,13 @@
   "stripes-acq-components.validation.cantBeNegative": [
     {
       "type": 0,
-      "value": "Can not be negative"
+      "value": "不能为负数"
     }
   ],
   "stripes-acq-components.validation.maxCantBeLessMin": [
     {
       "type": 0,
-      "value": "\"To\" can not be less than \"From\""
+      "value": "\"到 \"不能少于 \"从\""
     }
   ],
   "stripes-data-transfer-components.recordTypes.authority": [
@@ -82999,7 +82982,7 @@
   "stripes-core.front.error.noPermission": [
     {
       "type": 0,
-      "value": "You don't have permission to view this app/record"
+      "value": "您无权查看此应用/记录"
     }
   ],
   "stripes-core.front.error.setPassword.message": [
@@ -83011,7 +82994,7 @@
   "stripes-core.title.noPermission": [
     {
       "type": 0,
-      "value": "No permission"
+      "value": "没有权限"
     }
   ],
   "stripes-components.Timepicker.hoursLabel": "小时",
@@ -83050,19 +83033,19 @@
   "stripes-smart-components.editableList.actionsColumnHeader": [
     {
       "type": 0,
-      "value": "Actions"
+      "value": "操作"
     }
   ],
   "stripes-smart-components.error.conflict": [
     {
       "type": 0,
-      "value": "You are editing an old version of this data. To load the latest version click cancel, "
+      "value": "正在编辑此数据的旧版本。要加载最新版本，请单击取消， "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "refresh the page"
+          "value": "刷新页面"
         }
       ],
       "type": 8,
@@ -83070,19 +83053,19 @@
     },
     {
       "type": 0,
-      "value": " and try again."
+      "value": "并重试。"
     }
   ],
   "ui-acquisition-units.permission.settings.userAssignments": [
     {
       "type": 0,
-      "value": "Settings (acquisition units): Manage acquisition unit user assignments"
+      "value": "设置（采购单位）：管理采购单位用户分配"
     }
   ],
   "ui-agreements.back": [
     {
       "type": 0,
-      "value": "Back"
+      "value": "返回"
     }
   ],
   "ui-agreements.emptyAccordion.openAccessProperties": [
@@ -83094,55 +83077,55 @@
   "ui-agreements.eresource.destinationTitle": [
     {
       "type": 0,
-      "value": "Destination title"
+      "value": "目标标题"
     }
   ],
   "ui-agreements.eresource.destinationTitleSelectionText": [
     {
       "type": 0,
-      "value": "Select the destination title for the identifier(s)"
+      "value": "选择标识符的目标标题"
     }
   ],
   "ui-agreements.eresource.moveIdentifier": [
     {
       "type": 0,
-      "value": "Move identifier(s)"
+      "value": "移动标识符"
     }
   ],
   "ui-agreements.eresource.moveIdentifier.noDestinationTitle": [
     {
       "type": 0,
-      "value": "No destination title selected"
+      "value": "未选择目标标题"
     }
   ],
   "ui-agreements.eresource.moveIdentifier.noSourceTitle": [
     {
       "type": 0,
-      "value": "No source title selected"
+      "value": "未选择来源标题"
     }
   ],
   "ui-agreements.eresource.moveIdentifier.selectTitle": [
     {
       "type": 0,
-      "value": "Select title"
+      "value": "选择标题"
     }
   ],
   "ui-agreements.eresource.moveIdetifiers.title": [
     {
       "type": 0,
-      "value": "Title"
+      "value": "标题"
     }
   ],
   "ui-agreements.eresource.sourceTitle": [
     {
       "type": 0,
-      "value": "Source title"
+      "value": "来源标题"
     }
   ],
   "ui-agreements.eresource.sourceTitleSelectionText": [
     {
       "type": 0,
-      "value": "Select the source title for the identifier(s)"
+      "value": "选择标识符的来源标题"
     }
   ],
   "ui-agreements.eresources.availability": [
@@ -83160,13 +83143,13 @@
   "ui-agreements.eresources.filters.packageFilters": [
     {
       "type": 0,
-      "value": "Package filters"
+      "value": "资源包筛选"
     }
   ],
   "ui-agreements.eresources.filters.titleFilters": [
     {
       "type": 0,
-      "value": "Title filters"
+      "value": "标题筛选"
     }
   ],
   "ui-agreements.eresources.packageContentType": [
@@ -83184,7 +83167,7 @@
   "ui-agreements.eresources.scope": [
     {
       "type": 0,
-      "value": "Scope"
+      "value": "范围"
     }
   ],
   "ui-agreements.eresources.sourceCreated": [
@@ -83209,22 +83192,18 @@
     {
       "type": 1,
       "value": "label"
-    },
-    {
-      "type": 0,
-      "value": " "
     }
   ],
   "ui-agreements.identifiers.identifierDestination": [
     {
       "type": 0,
-      "value": "Identifier destination"
+      "value": "标识符目的地"
     }
   ],
   "ui-agreements.identifiers.identifiersToMove": [
     {
       "type": 0,
-      "value": "Identifiers(s) to be moved"
+      "value": "将要移动的标识符"
     }
   ],
   "ui-agreements.job.created.success.org.olf.general.jobs.IdentifierReassignmentJob": [
@@ -83232,7 +83211,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Title updated: "
+          "value": "标题已更新： "
         },
         {
           "type": 1,
@@ -83252,7 +83231,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Title updated: "
+          "value": "标题已更新： "
         },
         {
           "type": 1,
@@ -83270,19 +83249,19 @@
   "ui-agreements.moveIdentifiers.noPlugin": [
     {
       "type": 0,
-      "value": "No \"find-eresource\" plugin is installed"
+      "value": "未安装“查找资源”插件"
     }
   ],
   "ui-agreements.moveIdentifiers.replaceTitle": [
     {
       "type": 0,
-      "value": "Replace Title"
+      "value": "替换标题"
     }
   ],
   "ui-agreements.moveIdentifiers.replaceTitleSpecific": [
     {
       "type": 0,
-      "value": "Replace eresource "
+      "value": "替换电子资源"
     },
     {
       "type": 1,
@@ -83292,13 +83271,13 @@
   "ui-agreements.moveIdentifiers.selectTitle": [
     {
       "type": 0,
-      "value": "Select title"
+      "value": "选择题名"
     }
   ],
   "ui-agreements.new": [
     {
       "type": 0,
-      "value": "New"
+      "value": "新建"
     }
   ],
   "ui-agreements.openAccessProperties": [
@@ -83322,7 +83301,7 @@
   "ui-agreements.packageIdentifiers.eBookPool": [
     {
       "type": 0,
-      "value": "E-Book Pool"
+      "value": "电子书池"
     }
   ],
   "ui-agreements.packageIdentifiers.ezb": [
@@ -83358,13 +83337,13 @@
   "ui-agreements.preview": [
     {
       "type": 0,
-      "value": "Preview"
+      "value": "预览"
     }
   ],
   "ui-agreements.preview.updateAndContinue": [
     {
       "type": 0,
-      "value": "Select \"Update titles & move more identifiers\" or \"Update titles & close\" to continue"
+      "value": "选择“更新标题并移动更多标识符”或“更新标题并关闭”以继续"
     }
   ],
   "ui-agreements.settings.customProperties.all": [
@@ -83514,7 +83493,7 @@
   "ui-agreements.supplementaryProperty.help.category": [
     {
       "type": 0,
-      "value": "Supplementary properties can be categorised. Each category will appear as a separate accordion when viewing or editing the agreement."
+      "value": "可以对补充属性进行分类。查看或编辑协议时，每个类别都将显示为单独的折叠块。"
     }
   ],
   "ui-agreements.supplementaryProperty.help.label": [
@@ -83540,7 +83519,7 @@
       "children": [
         {
           "type": 0,
-          "value": "title updated:"
+          "value": "标题已更新： "
         }
       ],
       "type": 8,
@@ -83558,7 +83537,7 @@
   "ui-agreements.updateMoreIdentifierWarning": [
     {
       "type": 0,
-      "value": "An IdentifierReassignmentJob ("
+      "value": "已创建 “重赋标识符任务” ( "
     },
     {
       "type": 1,
@@ -83566,19 +83545,19 @@
     },
     {
       "type": 0,
-      "value": ") has been created, and identifiers as displayed on this screen are liable to change. If you attempt to move an identifier in a subsequent IdentifierReassignmentJob that was already moved away in an earlier one, the second move will not occur. You can track the status of this job in the local-kb-admin app."
+      "value": " )，并且此屏幕上显示的标识符可能会更改。如果尝试在随后的 “重赋标识符任务”中移动已经在之前的“重赋标识符任务”中移开的标识符，则不会发生第二次移动。可以在 “本地kb管理”应用程序中跟踪此任务的状态。"
     }
   ],
   "ui-agreements.updatetitlesAndClose": [
     {
       "type": 0,
-      "value": "Update titles & close"
+      "value": "更新标题并关闭"
     }
   ],
   "ui-agreements.updatetitlesAndMoveMore": [
     {
       "type": 0,
-      "value": "Update titles & move more identifiers"
+      "value": "更新标题并移动更多标识符"
     }
   ],
   "ui-bulk-edit.actions.placeholder": [
@@ -84010,7 +83989,7 @@
   "ui-bulk-edit.previewModal.message": [
     {
       "type": 0,
-      "value": "如果单击“保存并关闭”按钮，将更改"
+      "value": "如果单击提交更改按钮，将更改"
     },
     {
       "type": 1,
@@ -84018,7 +83997,7 @@
     },
     {
       "type": 0,
-      "value": "条记录。可以选择下载预览以在保存之前查看所有更改。"
+      "value": "条记录。您可以选择下载预览以在保存之前查看所有更改。"
     }
   ],
   "ui-bulk-edit.previewModal.previewToBeChanged": [
@@ -84030,7 +84009,7 @@
   "ui-bulk-edit.previewModal.saveAndClose": [
     {
       "type": 0,
-      "value": "保存并关闭"
+      "value": "承诺改变"
     }
   ],
   "ui-bulk-edit.progressBar.title": [
@@ -84134,58 +84113,63 @@
   "ui-checkout.messages.itemHasOpenLoan": [
     {
       "type": 0,
-      "value": "Cannot check out item that already has an open loan."
+      "value": "无法借出已有未结借阅的单件。"
     }
   ],
   "ui-checkout.messages.itemLimitLoanType": [
     {
       "type": 0,
-      "value": "Patron has reached maximum limit of 1 items for loan type."
+      "value": "读者已达到借阅类型1项的最大限制。"
     }
   ],
   "ui-checkout.messages.itemLimitMaterialType": [
     {
       "type": 0,
-      "value": "Patron has reached maximum limit of 1 items for material type."
+      "value": "读者已达到资料类型1项的最大限制。"
     }
   ],
   "ui-checkout.messages.itemLimitMaterialTypeLoanType": [
     {
       "type": 0,
-      "value": "Patron has reached maximum limit of 1 items for combination of material type and loan type."
+      "value": "读者已达到资料类型和借阅类型组合 1 项的最大限制。"
     }
   ],
   "ui-checkout.messages.itemLimitPatronGroupLoanType": [
     {
       "type": 0,
-      "value": "Patron has reached maximum limit of 1 items for combination of patron group and loan type."
+      "value": "读者已达到读者组和借阅类型组合1 项的最大限制。"
     }
   ],
   "ui-checkout.messages.itemLimitPatronGroupMaterialType": [
     {
       "type": 0,
-      "value": "Patron has reached maximum limit of 1 items for combination of patron group and material type."
+      "value": "读者已达到读者组和资料类型组合1 项的最大限制。"
     }
   ],
   "ui-checkout.messages.itemLimitPatronGroupMaterialTypeLoanType": [
     {
       "type": 0,
-      "value": "Patron has reached maximum limit of 1 items for combination of patron group, material type and loan type."
+      "value": "读者已达到读者组、资料类型和借阅类型组合 1 项的最大限制。"
     }
   ],
   "ui-checkout.messages.userHasNoBarcode": [
     {
       "type": 0,
-      "value": "User does not have a barcode."
+      "value": "用户没有条码。 "
     },
     {
-      "children": [],
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
       "type": 8,
       "value": "br"
     },
     {
       "type": 0,
-      "value": "A user barcode is required to check out an item."
+      "value": "借出单件需要用户条码。"
     }
   ],
   "ui-data-export.authorities": [
@@ -84431,13 +84415,13 @@
   "ui-developer.okapiTimers": [
     {
       "type": 0,
-      "value": "Okapi timers"
+      "value": "Okapi计时器"
     }
   ],
   "ui-developer.okapiTimers.delay": [
     {
       "type": 0,
-      "value": "Delay"
+      "value": "延迟"
     }
   ],
   "ui-developer.okapiTimers.id": [
@@ -84449,325 +84433,325 @@
   "ui-developer.okapiTimers.method": [
     {
       "type": 0,
-      "value": "Method"
+      "value": "方式"
     }
   ],
   "ui-developer.okapiTimers.path": [
     {
       "type": 0,
-      "value": "Path"
+      "value": "路径"
     }
   ],
   "ui-developer.okapiTimers.unit": [
     {
       "type": 0,
-      "value": "Unit"
+      "value": "单位"
     }
   ],
   "ui-developer.permission.settings.okapiTimers": [
     {
       "type": 0,
-      "value": "Settings (developer): Can view okapi timers"
+      "value": "设置（开发者）：可以查看 okapi 计时器"
     }
   ],
   "ui-eholdings.exportPackageResources.all": [
     {
       "type": 0,
-      "value": "All"
+      "value": "全部"
     }
   ],
   "ui-eholdings.exportPackageResources.button.cancel": [
     {
       "type": 0,
-      "value": "Cancel"
+      "value": "取消"
     }
   ],
   "ui-eholdings.exportPackageResources.button.export": [
     {
       "type": 0,
-      "value": "Export"
+      "value": "导出"
     }
   ],
   "ui-eholdings.exportPackageResources.fields.all": [
     {
       "type": 0,
-      "value": "Export all fields"
+      "value": "导出所有字段"
     }
   ],
   "ui-eholdings.exportPackageResources.fields.package": [
     {
       "type": 0,
-      "value": "Package fields to export"
+      "value": "要导出的资源包字段"
     }
   ],
   "ui-eholdings.exportPackageResources.fields.package.accessStatusType": [
     {
       "type": 0,
-      "value": "Access Status Type"
+      "value": "获取状态类型"
     }
   ],
   "ui-eholdings.exportPackageResources.fields.package.agreements": [
     {
       "type": 0,
-      "value": "Agreements"
+      "value": "协议"
     }
   ],
   "ui-eholdings.exportPackageResources.fields.package.automaticallySelectTitles": [
     {
       "type": 0,
-      "value": "Automatically Select titles"
+      "value": "自动选择标题"
     }
   ],
   "ui-eholdings.exportPackageResources.fields.package.contentType": [
     {
       "type": 0,
-      "value": "Package Content Type"
+      "value": "资源包的内容类型"
     }
   ],
   "ui-eholdings.exportPackageResources.fields.package.customCoverage": [
     {
       "type": 0,
-      "value": "Custom Coverage"
+      "value": "自定义收录范围"
     }
   ],
   "ui-eholdings.exportPackageResources.fields.package.holdingStatus": [
     {
       "type": 0,
-      "value": "Holdings status"
+      "value": "馆藏状态"
     }
   ],
   "ui-eholdings.exportPackageResources.fields.package.id": [
     {
       "type": 0,
-      "value": "Package Id"
+      "value": "资源包 ID"
     }
   ],
   "ui-eholdings.exportPackageResources.fields.package.name": [
     {
       "type": 0,
-      "value": "Package Name"
+      "value": "资源包名称"
     }
   ],
   "ui-eholdings.exportPackageResources.fields.package.notes": [
     {
       "type": 0,
-      "value": "Notes"
+      "value": "附注"
     }
   ],
   "ui-eholdings.exportPackageResources.fields.package.providerId": [
     {
       "type": 0,
-      "value": "Provider Id"
+      "value": "提供者ID"
     }
   ],
   "ui-eholdings.exportPackageResources.fields.package.providerName": [
     {
       "type": 0,
-      "value": "Provider Name"
+      "value": "提供者名称"
     }
   ],
   "ui-eholdings.exportPackageResources.fields.package.proxy": [
     {
       "type": 0,
-      "value": "Proxy"
+      "value": "代理"
     }
   ],
   "ui-eholdings.exportPackageResources.fields.package.showToPatrons": [
     {
       "type": 0,
-      "value": "Show To Patrons"
+      "value": "向读者显示"
     }
   ],
   "ui-eholdings.exportPackageResources.fields.package.tags": [
     {
       "type": 0,
-      "value": "Tags"
+      "value": "标签"
     }
   ],
   "ui-eholdings.exportPackageResources.fields.package.type": [
     {
       "type": 0,
-      "value": "Package Type"
+      "value": "资源包类型"
     }
   ],
   "ui-eholdings.exportPackageResources.fields.selected": [
     {
       "type": 0,
-      "value": "Export selected fields"
+      "value": "导出选定字段"
     }
   ],
   "ui-eholdings.exportPackageResources.fields.title": [
     {
       "type": 0,
-      "value": "Title fields to export"
+      "value": "要导出的标题字段"
     }
   ],
   "ui-eholdings.exportPackageResources.fields.title.accessStatusType": [
     {
       "type": 0,
-      "value": "Access status type"
+      "value": "访问状态类型"
     }
   ],
   "ui-eholdings.exportPackageResources.fields.title.agreements": [
     {
       "type": 0,
-      "value": "Agreements"
+      "value": "协议"
     }
   ],
   "ui-eholdings.exportPackageResources.fields.title.alternateTitles": [
     {
       "type": 0,
-      "value": "Alternate title(s)"
+      "value": "交替题名"
     }
   ],
   "ui-eholdings.exportPackageResources.fields.title.contributors": [
     {
       "type": 0,
-      "value": "Contributors"
+      "value": "贡献者"
     }
   ],
   "ui-eholdings.exportPackageResources.fields.title.coverageStatement": [
     {
       "type": 0,
-      "value": "Coverage statement"
+      "value": "覆盖范围说明"
     }
   ],
   "ui-eholdings.exportPackageResources.fields.title.customCoverageDates": [
     {
       "type": 0,
-      "value": "Custom coverage dates"
+      "value": "自定义覆盖日期"
     }
   ],
   "ui-eholdings.exportPackageResources.fields.title.customEmbargo": [
     {
       "type": 0,
-      "value": "Custom Embargo"
+      "value": "自定义排除范围"
     }
   ],
   "ui-eholdings.exportPackageResources.fields.title.customLabel": [
     {
       "type": 0,
-      "value": "Custom label"
+      "value": "自定义标签"
     }
   ],
   "ui-eholdings.exportPackageResources.fields.title.description": [
     {
       "type": 0,
-      "value": "Description"
+      "value": "描述"
     }
   ],
   "ui-eholdings.exportPackageResources.fields.title.edition": [
     {
       "type": 0,
-      "value": "Edition"
+      "value": "版本"
     }
   ],
   "ui-eholdings.exportPackageResources.fields.title.holdingStatus": [
     {
       "type": 0,
-      "value": "Holdings Status"
+      "value": "馆藏状态"
     }
   ],
   "ui-eholdings.exportPackageResources.fields.title.isbn_online": [
     {
       "type": 0,
-      "value": "ISBN_Online"
+      "value": "ISBN_在线"
     }
   ],
   "ui-eholdings.exportPackageResources.fields.title.isbn_print": [
     {
       "type": 0,
-      "value": "ISBN_Print"
+      "value": "ISBN_印本"
     }
   ],
   "ui-eholdings.exportPackageResources.fields.title.issn_online": [
     {
       "type": 0,
-      "value": "ISSN_Online"
+      "value": "ISSN_在线"
     }
   ],
   "ui-eholdings.exportPackageResources.fields.title.issn_print": [
     {
       "type": 0,
-      "value": "ISSN_Print"
+      "value": "ISSN_印本"
     }
   ],
   "ui-eholdings.exportPackageResources.fields.title.managedCoverageDates": [
     {
       "type": 0,
-      "value": "Managed coverage dates"
+      "value": "托管覆盖日期"
     }
   ],
   "ui-eholdings.exportPackageResources.fields.title.managedEmbargo": [
     {
       "type": 0,
-      "value": "Managed Embargo"
+      "value": "托管排除范围"
     }
   ],
   "ui-eholdings.exportPackageResources.fields.title.notes": [
     {
       "type": 0,
-      "value": "Notes"
+      "value": "附注"
     }
   ],
   "ui-eholdings.exportPackageResources.fields.title.peerReviewed": [
     {
       "type": 0,
-      "value": "Peer reviewed"
+      "value": "同行评审"
     }
   ],
   "ui-eholdings.exportPackageResources.fields.title.proxy": [
     {
       "type": 0,
-      "value": "Proxy"
+      "value": "代理"
     }
   ],
   "ui-eholdings.exportPackageResources.fields.title.publicationType": [
     {
       "type": 0,
-      "value": "Publication Type"
+      "value": "出版类型"
     }
   ],
   "ui-eholdings.exportPackageResources.fields.title.publisher": [
     {
       "type": 0,
-      "value": "Publisher"
+      "value": "出版者"
     }
   ],
   "ui-eholdings.exportPackageResources.fields.title.showToPatron": [
     {
       "type": 0,
-      "value": "Show to patron"
+      "value": "显示给读者"
     }
   ],
   "ui-eholdings.exportPackageResources.fields.title.subjects": [
     {
       "type": 0,
-      "value": "Subjects"
+      "value": "主题"
     }
   ],
   "ui-eholdings.exportPackageResources.fields.title.tags": [
     {
       "type": 0,
-      "value": "Tags"
+      "value": "标签"
     }
   ],
   "ui-eholdings.exportPackageResources.fields.title.titleId": [
     {
       "type": 0,
-      "value": "Title ID"
+      "value": "标题ID"
     }
   ],
   "ui-eholdings.exportPackageResources.fields.title.titleName": [
     {
       "type": 0,
-      "value": "Title name"
+      "value": "标题名称"
     }
   ],
   "ui-eholdings.exportPackageResources.fields.title.titleType": [
     {
       "type": 0,
-      "value": "Title Type"
+      "value": "标题类型"
     }
   ],
   "ui-eholdings.exportPackageResources.fields.title.url": [
@@ -84779,19 +84763,19 @@
   "ui-eholdings.exportPackageResources.label": [
     {
       "type": 0,
-      "value": "Export settings"
+      "value": "导出设置"
     }
   ],
   "ui-eholdings.exportPackageResources.subtitle": [
     {
       "type": 0,
-      "value": "This export may take several minutes to complete. When finished, it will be available in the "
+      "value": "此导出可能需要几分钟才能完成。完成后，它将在"
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Export manager"
+          "value": " 导出管理 "
         }
       ],
       "type": 8,
@@ -84799,13 +84783,13 @@
     },
     {
       "type": 0,
-      "value": " app. NOTE: This export does not include information available under Usage & analysis accordion (only available to Usage Consolidation subscribers). Please use the "
+      "value": "应用程序中可用。注意：此导出不包括“使用与分析”折叠下可用的信息（仅适用于 “使用合并”订阅者）。请使用该折叠下可用的"
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Export titles"
+          "value": "导出标题"
         }
       ],
       "type": 8,
@@ -84813,25 +84797,25 @@
     },
     {
       "type": 0,
-      "value": " option available under that accordion."
+      "value": "选项。"
     }
   ],
   "ui-eholdings.exportPackageResources.toast.fail": [
     {
       "type": 0,
-      "value": "The export request has failed. Please try again."
+      "value": "导出请求失败。请再试一次。"
     }
   ],
   "ui-eholdings.exportPackageResources.toast.success": [
     {
       "type": 0,
-      "value": "Your "
+      "value": "您的"
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "eholdings export (Job ID: "
+          "value": " 电子馆藏导出（任务ID： "
         },
         {
           "type": 1,
@@ -84839,7 +84823,7 @@
         },
         {
           "type": 0,
-          "value": ")"
+          "value": " ） "
         }
       ],
       "type": 8,
@@ -84847,13 +84831,13 @@
     },
     {
       "type": 0,
-      "value": " is in progress and will be available on the "
+      "value": "正在进行中，将在"
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Export manager"
+          "value": " 导出管理 "
         }
       ],
       "type": 8,
@@ -84861,43 +84845,43 @@
     },
     {
       "type": 0,
-      "value": " app. The export may take several minutes to complete."
+      "value": "应用中可用。导出可能需要几分钟才能完成。"
     }
   ],
   "ui-eholdings.package.actionMenu.exportToCSV": [
     {
       "type": 0,
-      "value": "Export package (CSV)"
+      "value": "导出资源包 (CSV)"
     }
   ],
   "ui-eholdings.resource.actionMenu.exportToCSV": [
     {
       "type": 0,
-      "value": "Export title package (CSV)"
+      "value": "导出标题资源包 (CSV)"
     }
   ],
   "ui-eholdings.settings.usageConsolidation.apiKey.hide": [
     {
       "type": 0,
-      "value": "Hide key"
+      "value": "隐藏密钥"
     }
   ],
   "ui-eholdings.settings.usageConsolidation.apiKey.show": [
     {
       "type": 0,
-      "value": "Show key"
+      "value": "显示密钥"
     }
   ],
   "ui-eholdings.settings.usageConsolidation.clientId.hide": [
     {
       "type": 0,
-      "value": "Hide ID"
+      "value": "隐藏ID"
     }
   ],
   "ui-eholdings.settings.usageConsolidation.clientId.show": [
     {
       "type": 0,
-      "value": "Show ID"
+      "value": "显示ID"
     }
   ],
   "ui-export-manager.exportJob.type.E_HOLDINGS": [
@@ -85047,7 +85031,7 @@
   "ui-finance.ledger.rolloverInProgress.rollingOverFinished.withErrors": [
     {
       "type": 0,
-      "value": "Rollover has completed with errors, Budget close "
+      "value": "展期已完成，但出现错误，预算关闭"
     },
     {
       "type": 1,
@@ -85055,7 +85039,7 @@
     },
     {
       "type": 0,
-      "value": ", Order rollover "
+      "value": " ，订单展期"
     },
     {
       "type": 1,
@@ -85063,7 +85047,7 @@
     },
     {
       "type": 0,
-      "value": ", Financial rollover "
+      "value": " ，财务展期"
     },
     {
       "type": 1,
@@ -85071,7 +85055,7 @@
     },
     {
       "type": 0,
-      "value": "."
+      "value": " 。"
     }
   ],
   "ui-finance.permission.exportCSV": [
@@ -85101,7 +85085,7 @@
   "ui-inventory.effectiveCallNumberShelving": [
     {
       "type": 0,
-      "value": "有效索书号（单件）"
+      "value": "有效索书号（单件），排架顺序"
     }
   ],
   "ui-inventory.filters.nameType": [
@@ -85197,137 +85181,135 @@
   "ui-invoice.adjustment.value": [
     {
       "type": 0,
-      "value": "Value"
+      "value": "值"
     }
   ],
   "ui-invoice.button.exportCSV": [
     {
       "type": 0,
-      "value": "Export results (CSV)"
+      "value": "导出结果（CSV）"
     }
   ],
   "ui-invoice.button.voucherExport": [
     {
       "type": 0,
-      "value": "Voucher export"
+      "value": "凭证导出"
     }
   ],
   "ui-invoice.errors.cantLoadAdjustment": [
     {
       "type": 0,
-      "value": "Error loading adjustment"
+      "value": "错误加载调整"
     }
   ],
   "ui-invoice.exportSettings.all": [
     {
       "type": 0,
-      "value": "All"
+      "value": "全部"
     }
   ],
   "ui-invoice.exportSettings.cancel": [
     {
       "type": 0,
-      "value": "Cancel"
+      "value": "取消"
     }
   ],
   "ui-invoice.exportSettings.error": [
     {
       "type": 0,
-      "value": "Failed to load data for export results (CSV)"
+      "value": "无法加载数据以导出结果（CSV）"
     }
   ],
   "ui-invoice.exportSettings.export": [
     {
       "type": 0,
-      "value": "Export"
+      "value": "导出"
     }
   ],
   "ui-invoice.exportSettings.invoice.all": [
     {
       "type": 0,
-      "value": "Export all invoice fields"
+      "value": "导出所有发票字段"
     }
   ],
   "ui-invoice.exportSettings.invoice.selected": [
     {
       "type": 0,
-      "value": "Export selected invoice fields"
+      "value": "导出选定的发票字段"
     }
   ],
   "ui-invoice.exportSettings.invoiceFieldsLabel": [
     {
       "type": 0,
-      "value": "Invoice fields to export"
+      "value": "要导出的发票字段"
     }
   ],
   "ui-invoice.exportSettings.invoiceLine.all": [
     {
       "type": 0,
-      "value": "Export all invoice line fields"
+      "value": "导出所有发票行字段"
     }
   ],
   "ui-invoice.exportSettings.invoiceLine.selected": [
     {
       "type": 0,
-      "value": "Export selected invoice line fields"
+      "value": "导出选定的发票行字段"
     }
   ],
   "ui-invoice.exportSettings.invoiceLineFieldsLabel": [
     {
       "type": 0,
-      "value": "Invoice line fields to export"
+      "value": "要导出的发票行字段"
     }
   ],
   "ui-invoice.exportSettings.label": [
     {
       "type": 0,
-      "value": "Export settings"
+      "value": "导出设置"
     }
   ],
   "ui-invoice.exportSettings.message": [
     {
       "type": 0,
-      "value": "This export could take a few minutes. If you reload or close the page the export will not be completed. Once the file is ready it could take another minute for your browser to finish downloading the file. You can continue to work with invoices and invoice lines in a different browser tab if needed."
+      "value": "此导出可能需要几分钟时间。如果重新加载或关闭页面，导出将不会完成。文件准备好后，浏览器可能需要一分钟才能完成文件下载。如果需要，可以继续在不同的浏览器选项卡中处理发票和发票行。"
     }
   ],
   "ui-invoice.exportSettings.success": [
     {
       "type": 0,
-      "value": "Export has been started successfully"
+      "value": "导出已成功启动"
     }
   ],
   "ui-invoice.invoice.actions.approve.error.multipleFiscalYears": [
     {
       "type": 0,
-      "value": "Invoice cannot be approved because the funds used belong to multiple fiscal years"
+      "value": "由于使用的经费属于多个财务年度，因此无法批准发票"
     }
   ],
   "ui-invoice.invoice.actions.saveLine.error": [
     {
       "type": 0,
-      "value": "Invoice line was not saved"
+      "value": "未保存发票行"
     }
   ],
   "ui-invoice.invoice.actions.saveLine.error.budgetExpenseClassNotFound": [
     {
+      "type": 0,
+      "value": "在"
+    },
+    {
       "children": [
         {
-          "type": 1,
-          "value": "expenseClassName"
-        }
-      ],
-      "type": 8,
-      "value": "b"
-    },
-    {
-      "type": 0,
-      "value": " expense class not found on "
-    },
-    {
-      "children": [
+          "type": 0,
+          "value": " "
+        },
         {
           "type": 1,
           "value": "fundCode"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -85335,19 +85317,49 @@
     },
     {
       "type": 0,
-      "value": " Fund"
+      "value": "经费中找不到"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "expenseClassName"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "费用类别"
     }
   ],
   "ui-invoice.invoice.actions.saveLine.error.budgetNotFoundByFundId": [
     {
       "type": 0,
-      "value": "Invoice line cannot be saved because Fund "
+      "value": "无法保存发票行，因为经费"
     },
     {
       "children": [
         {
+          "type": 0,
+          "value": " "
+        },
+        {
           "type": 1,
           "value": "fundCode"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -85355,19 +85367,27 @@
     },
     {
       "type": 0,
-      "value": " has no current budget."
+      "value": "没有当前预算。"
     }
   ],
   "ui-invoice.invoice.actions.saveLine.error.inactiveExpenseClass": [
     {
       "type": 0,
-      "value": "Invoice line can not be saved because expense class "
+      "value": "无法保存发票行，因为费用类别"
     },
     {
       "children": [
         {
+          "type": 0,
+          "value": " "
+        },
+        {
           "type": 1,
           "value": "expenseClass"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -85375,64 +85395,64 @@
     },
     {
       "type": 0,
-      "value": " is inactive."
+      "value": "处于非激活状态。"
     }
   ],
   "ui-invoice.invoice.details.accordion.adjustments": [
     {
       "type": 0,
-      "value": "Invoice level adjustments"
+      "value": "发票级别调整"
     }
   ],
   "ui-invoice.invoice.details.accordion.fundDistribution": [
     {
       "type": 0,
-      "value": "Invoice level fund distribution"
+      "value": "发票级经费分配"
     }
   ],
   "ui-invoice.permission.exportCSV": [
     {
       "type": 0,
-      "value": "Invoice: Export search results"
+      "value": "发票：导出搜索结果"
     }
   ],
   "ui-invoice.permission.voucherExport": [
     {
       "type": 0,
-      "value": "Invoice: Voucher export"
+      "value": "发票：凭证导出"
     }
   ],
   "ui-invoice.settings.BatchVoucherExports.download.errorFormat": [
     {
       "type": 0,
-      "value": "File format not specified for voucher export. Please update Batch Group Configuration in system settings"
+      "value": "未为凭证导出指定文件格式。请在系统设置中更新批次组配置"
     }
   ],
   "ui-invoice.settings.adjustments.value": [
     {
       "type": 0,
-      "value": "Value"
+      "value": "值"
     }
   ],
   "ui-invoice.voucherExport.batchGroup.select": [
     {
       "type": 0,
-      "value": "Select batch group"
+      "value": "选择批次组"
     }
   ],
   "ui-invoice.voucherExport.download.success": [
     {
       "type": 0,
-      "value": "Vouchers have been successfully downloaded"
+      "value": "凭证下载成功"
     }
   ],
   "ui-invoice.voucherExport.paneTitle": [
     {
       "type": 0,
-      "value": "Voucher export"
+      "value": "凭证导出"
     }
   ],
-  "ui-ldp.placeholder.hidden": "[Hidden]",
+  "ui-ldp.placeholder.hidden": "[已隐藏]",
   "ui-licenses.term.editModal": [
     {
       "type": 0,
@@ -85770,19 +85790,19 @@
   "ui-orders.buttons.line.changeInstance": [
     {
       "type": 0,
-      "value": "Change instance connection"
+      "value": "更改实例连接"
     }
   ],
   "ui-orders.canceled": [
     {
       "type": 0,
-      "value": "Canceled"
+      "value": "已取消"
     }
   ],
   "ui-orders.closeOrderModal.closingReasons.cancelled": [
     {
       "type": 0,
-      "value": "Cancelled"
+      "value": "已取消"
     }
   ],
   "ui-orders.dateOpened": [
@@ -85794,37 +85814,37 @@
   "ui-orders.errors.instanceWasNotChanged": [
     {
       "type": 0,
-      "value": "Instance was not changed."
+      "value": "实例未更改。"
     }
   ],
   "ui-orders.errors.lineWasNotCancelled": [
     {
       "type": 0,
-      "value": "Error while canceling PO Line"
+      "value": "取消订单行时出错"
     }
   ],
   "ui-orders.itemDetails.isAcknowledged": [
     {
       "type": 0,
-      "value": "Must acknowledge receiving note"
+      "value": "必须确认收到附注"
     }
   ],
   "ui-orders.line.accordion.ongoingOrder": [
     {
       "type": 0,
-      "value": "Ongoing order information"
+      "value": "持续订单信息"
     }
   ],
   "ui-orders.line.cancel.confirmLabel": [
     {
       "type": 0,
-      "value": "Cancel order line"
+      "value": "取消订单行"
     }
   ],
   "ui-orders.line.cancel.heading": [
     {
       "type": 0,
-      "value": "Cancel "
+      "value": "取消"
     },
     {
       "type": 1,
@@ -85832,25 +85852,33 @@
     },
     {
       "type": 0,
-      "value": "?"
+      "value": " ？"
     }
   ],
   "ui-orders.line.cancel.message": [
     {
       "type": 0,
-      "value": "Are you sure you want to cancel this purchase order line?"
+      "value": "确定要取消此采购订单行吗？"
     }
   ],
   "ui-orders.line.cancel.success": [
     {
       "type": 0,
-      "value": "The purchase order line "
+      "value": "采购订单行"
     },
     {
       "children": [
         {
+          "type": 0,
+          "value": " "
+        },
+        {
           "type": 1,
           "value": "lineNumber"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -85858,25 +85886,33 @@
     },
     {
       "type": 0,
-      "value": " was successfully cancelled"
+      "value": "已成功取消"
     }
   ],
   "ui-orders.line.changeInstance.confirmLabel": [
     {
       "type": 0,
-      "value": "Confirm"
+      "value": "确认"
     }
   ],
   "ui-orders.line.changeInstance.detailedMessage": [
     {
       "type": 0,
-      "value": "You have changed the title information of this purchase order line from "
+      "value": "已将此采购订单行的标题信息从"
     },
     {
       "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
         {
           "type": 1,
           "value": "from"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -85884,13 +85920,21 @@
     },
     {
       "type": 0,
-      "value": " to "
+      "value": "更改为"
     },
     {
       "children": [
         {
+          "type": 0,
+          "value": " "
+        },
+        {
           "type": 1,
           "value": "to"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -85898,13 +85942,13 @@
     },
     {
       "type": 0,
-      "value": ". All related item records will be moved to the new instance. How would you like to address the related Holdings?"
+      "value": " 。所有相关的单件记录将被移动到新实例。想如何处理相关的馆藏？"
     }
   ],
   "ui-orders.line.changeInstance.error": [
     {
       "type": 0,
-      "value": "Order instance connection could not be updated: "
+      "value": "无法更新订单实例连接： "
     },
     {
       "type": 1,
@@ -85914,55 +85958,55 @@
   "ui-orders.line.changeInstance.heading": [
     {
       "type": 0,
-      "value": "Change title"
+      "value": "更改标题"
     }
   ],
   "ui-orders.line.changeInstance.holdingOperations.create": [
     {
       "type": 0,
-      "value": "Create new"
+      "value": "创建新的"
     }
   ],
   "ui-orders.line.changeInstance.holdingOperations.field": [
     {
       "type": 0,
-      "value": "How to update Holdings"
+      "value": "如何更新馆藏"
     }
   ],
   "ui-orders.line.changeInstance.holdingOperations.findOrCreate": [
     {
       "type": 0,
-      "value": "Find or create new"
+      "value": "查找或创建新的"
     }
   ],
   "ui-orders.line.changeInstance.holdingOperations.info": [
     {
       "type": 0,
-      "value": "If you choose to create new holdings or find matching holdings based on the current location of items, FOLIO will ask you if you want to delete the abandoned Holdings where possible."
+      "value": "如果选择创建新馆藏或根据单件的当前位置查找匹配馆藏，FOLIO 将询问是否要尽可能删除废弃的馆藏。"
     }
   ],
   "ui-orders.line.changeInstance.holdingOperations.move": [
     {
       "type": 0,
-      "value": "Move"
+      "value": "移动"
     }
   ],
   "ui-orders.line.changeInstance.message": [
     {
       "type": 0,
-      "value": "You are changing the title information of this purchase order line. This will update the order lines reference to an instance in inventory if there is one. Are you sure you want to proceed?"
+      "value": "正在更改此采购订单行的标题信息。如果有一个实例，这将更新对典藏实例的订单行引用。确定要继续？"
     }
   ],
   "ui-orders.line.changeInstance.notMovedItems": [
     {
       "type": 0,
-      "value": "Items that could not be moved"
+      "value": "无法移动的单件"
     }
   ],
   "ui-orders.line.changeInstance.success": [
     {
       "type": 0,
-      "value": "Order instance connection has been successfully updated"
+      "value": "订单实例连接已成功更新"
     }
   ],
   "ui-orders.orderDetails.dateOpened": [
@@ -85974,55 +86018,55 @@
   "ui-orders.paneMenu.addPOLine": [
     {
       "type": 0,
-      "value": "Add POL"
+      "value": "添加订单行"
     }
   ],
   "ui-orders.permission.order-lines.cancel": [
     {
       "type": 0,
-      "value": "Orders: Cancel order lines"
+      "value": "订单：取消订单行"
     }
   ],
   "ui-orders.permission.order.approve": [
     {
       "type": 0,
-      "value": "Orders: Approve purchase orders"
+      "value": "订单：批准采购订单"
     }
   ],
   "ui-orders.permission.order.cancel": [
     {
       "type": 0,
-      "value": "Orders: Cancel purchase orders"
+      "value": "订单：取消采购订单"
     }
   ],
   "ui-orders.permission.orders.create": [
     {
       "type": 0,
-      "value": "Orders: Can create new Orders and Order lines"
+      "value": "订单：可以创建新的订单和订单行"
     }
   ],
   "ui-orders.permission.orders.delete": [
     {
       "type": 0,
-      "value": "Orders: Can delete Orders and Order lines"
+      "value": "订单：可以删除订单和订单行"
     }
   ],
   "ui-orders.permission.orders.edit": [
     {
       "type": 0,
-      "value": "Orders: Can edit Orders and Order lines"
+      "value": "订单：可以编辑订单和订单行"
     }
   ],
   "ui-orders.permission.orders.view": [
     {
       "type": 0,
-      "value": "Orders: Can view Orders and Order lines"
+      "value": "订单：可以查看订单和订单行"
     }
   ],
   "ui-orders.poLine.renewalNote": [
     {
       "type": 0,
-      "value": "Renewal note"
+      "value": "续借附注"
     }
   ],
   "ui-orders.search.dateOpened": [
@@ -86034,19 +86078,19 @@
   "ui-orders.settings.orderTemplates.accordion.polOngoingOrder": [
     {
       "type": 0,
-      "value": "POL Ongoing order information"
+      "value": "采购订单行持续订单信息"
     }
   ],
   "ui-orders.title.actions.update.error": [
     {
       "type": 0,
-      "value": "The title was not updated"
+      "value": "标题未更新"
     }
   ],
   "ui-organizations.filterConfig.types": [
     {
       "type": 0,
-      "value": "Types"
+      "value": "类型"
     }
   ],
   "ui-organizations.linkedAgreements.agreement.agreementStatus": [
@@ -86112,55 +86156,55 @@
   "ui-organizations.permission.integrations.creds.edit": [
     {
       "type": 0,
-      "value": "Organizations: Integration usernames and passwords: view, edit"
+      "value": "组织：集成用户名和密码：查看、编辑"
     }
   ],
   "ui-organizations.permission.integrations.creds.view": [
     {
       "type": 0,
-      "value": "Organizations: Integration usernames and passwords: view"
+      "value": "组织：集成用户名和密码：查看"
     }
   ],
   "ui-organizations.settings.type": [
     {
       "type": 0,
-      "value": "Type"
+      "value": "类型"
     }
   ],
   "ui-organizations.settings.type.name": [
     {
       "type": 0,
-      "value": "Name"
+      "value": "名称"
     }
   ],
   "ui-organizations.settings.type.status": [
     {
       "type": 0,
-      "value": "Status"
+      "value": "状态"
     }
   ],
   "ui-organizations.settings.typeStatus.Active": [
     {
       "type": 0,
-      "value": "Active"
+      "value": "激活"
     }
   ],
   "ui-organizations.settings.typeStatus.Inactive": [
     {
       "type": 0,
-      "value": "Inactive"
+      "value": "未激活"
     }
   ],
   "ui-organizations.settings.types": [
     {
       "type": 0,
-      "value": "Types"
+      "value": "类型"
     }
   ],
   "ui-organizations.summary.type": [
     {
       "type": 0,
-      "value": "Type"
+      "value": "类型"
     }
   ],
   "ui-plugin-find-package-title.searchPane.filters.contentType.mixedContent": [
@@ -86234,73 +86278,73 @@
   "ui-receiving.exportSettings.error": [
     {
       "type": 0,
-      "value": "Failed to load data for export results (CSV)"
+      "value": "无法加载数据以导出结果（CSV）"
     }
   ],
   "ui-receiving.exportSettings.export": [
     {
       "type": 0,
-      "value": "Export"
+      "value": "导出"
     }
   ],
   "ui-receiving.exportSettings.export.all": [
     {
       "type": 0,
-      "value": "All"
+      "value": "全部"
     }
   ],
   "ui-receiving.exportSettings.label": [
     {
       "type": 0,
-      "value": "Export settings"
+      "value": "导出设置"
     }
   ],
   "ui-receiving.exportSettings.message": [
     {
       "type": 0,
-      "value": "This export could take a few minutes. If you reload or close the page the export will not be completed. Once the file is ready it could take another minute for your browser to finish downloading the file. You can continue to work with titles and pieces in a different browser tab if needed."
+      "value": "此导出可能需要几分钟时间。如果重新加载或关闭页面，导出将不会完成。文件准备好后，浏览器可能需要一分钟才能完成文件下载。如果需要，可以继续在不同的浏览器选项卡中处理标题和件。"
     }
   ],
   "ui-receiving.exportSettings.piece.all": [
     {
       "type": 0,
-      "value": "Export all piece fields"
+      "value": "导出所有件字段"
     }
   ],
   "ui-receiving.exportSettings.piece.fieldsLabel": [
     {
       "type": 0,
-      "value": "Piece fields"
+      "value": "件字段"
     }
   ],
   "ui-receiving.exportSettings.piece.selected": [
     {
       "type": 0,
-      "value": "Export selected piece fields"
+      "value": "导出选定的件字段"
     }
   ],
   "ui-receiving.exportSettings.success": [
     {
       "type": 0,
-      "value": "Export has been started successfully"
+      "value": "导出已成功启动"
     }
   ],
   "ui-receiving.exportSettings.title.all": [
     {
       "type": 0,
-      "value": "Export all title fields"
+      "value": "导出所有标题字段"
     }
   ],
   "ui-receiving.exportSettings.title.fieldsLabel": [
     {
       "type": 0,
-      "value": "Title fields"
+      "value": "标题字段"
     }
   ],
   "ui-receiving.exportSettings.title.selected": [
     {
       "type": 0,
-      "value": "Export selected title fields"
+      "value": "导出选定的标题字段"
     }
   ],
   "ui-receiving.filter.rush": [
@@ -86312,37 +86356,37 @@
   "ui-receiving.permission.create": [
     {
       "type": 0,
-      "value": "Receiving: View, edit, create"
+      "value": "接收：查看、编辑、创建"
     }
   ],
   "ui-receiving.permission.delete": [
     {
       "type": 0,
-      "value": "Receiving: View, edit, delete"
+      "value": "接收：查看、编辑、删除"
     }
   ],
   "ui-receiving.permission.edit": [
     {
       "type": 0,
-      "value": "Receiving: View, edit"
+      "value": "接收：查看、编辑"
     }
   ],
   "ui-receiving.permission.exportCSV": [
     {
       "type": 0,
-      "value": "Receiving: Export search results"
+      "value": "接受：导出搜索结果"
     }
   ],
   "ui-receiving.permission.view": [
     {
       "type": 0,
-      "value": "Receiving: View"
+      "value": "接收：查看"
     }
   ],
   "ui-receiving.title.actions.exportCSV": [
     {
       "type": 0,
-      "value": "Export results (CSV)"
+      "value": "导出结果（CSV）"
     }
   ],
   "ui-requests.createRequest.fail": [
@@ -86408,7 +86452,7 @@
   "ui-requests.errors.closingAlreadyClosedRequest": [
     {
       "type": 0,
-      "value": "Error: The Request has already been closed."
+      "value": "错误：请求已关闭。"
     }
   ],
   "ui-requests.item.status.agedToLost": [
@@ -86762,13 +86806,13 @@
   "stripes-acq-components.validation.cannotMixTypesForZeroPrice": [
     {
       "type": 0,
-      "value": "Fund distribution types cannot be mixed for a price of 0"
+      "value": "经费分配类型不能以0价格混合"
     }
   ],
   "ui-users.feefines.errors.existOther": [
     {
       "type": 0,
-      "value": "Fee/fine type exists for other Fee/fine owner(s)"
+      "value": "其他缴费处存在费用/罚款类型"
     }
   ],
   "ui-users.details.field.barcode.notFound": [
@@ -86784,7 +86828,7 @@
   "ui-users.notes.popupModal.label": [
     {
       "type": 0,
-      "value": "User note"
+      "value": "用户附注"
     }
   ],
   "ui-inventory.browseContributors.results.error": [
@@ -86802,7 +86846,7107 @@
   "ui-organizations.integration.scheduling.schedulePeriod.none": [
     {
       "type": 0,
-      "value": "Please select schedule period"
+      "value": "请选择计划时段"
     }
-  ]
+  ],
+  "stripes-core.button.duplicate": [
+    {
+      "type": 0,
+      "value": "复制"
+    }
+  ],
+  "ui-agreements.AND": [
+    {
+      "type": 0,
+      "value": "与"
+    }
+  ],
+  "ui-agreements.OR": [
+    {
+      "type": 0,
+      "value": "或"
+    }
+  ],
+  "ui-agreements.actions": [
+    {
+      "type": 0,
+      "value": "操作"
+    }
+  ],
+  "ui-agreements.addRule": [
+    {
+      "type": 0,
+      "value": "添加规则"
+    }
+  ],
+  "ui-agreements.agreementLines": [
+    {
+      "type": 0,
+      "value": "协议行"
+    }
+  ],
+  "ui-agreements.agreementLines.POLines": [
+    {
+      "type": 0,
+      "value": "采购订单行"
+    }
+  ],
+  "ui-agreements.agreementLines.activeFrom": [
+    {
+      "type": 0,
+      "value": "有效自"
+    }
+  ],
+  "ui-agreements.agreementLines.activeFrom.includeNoDateSet": [
+    {
+      "type": 0,
+      "value": "包括没有设置有效起始日期的行"
+    }
+  ],
+  "ui-agreements.agreementLines.activeTo": [
+    {
+      "type": 0,
+      "value": "有效到"
+    }
+  ],
+  "ui-agreements.agreementLines.activeTo.includeNoDateSet": [
+    {
+      "type": 0,
+      "value": "包括没有设置有效终止日期的行"
+    }
+  ],
+  "ui-agreements.agreementLines.agreementLineType": [
+    {
+      "type": 0,
+      "value": "协议行类型"
+    }
+  ],
+  "ui-agreements.agreementLines.createAnother": [
+    {
+      "type": 0,
+      "value": "创建另一个"
+    }
+  ],
+  "ui-agreements.agreementLines.description": [
+    {
+      "type": 0,
+      "value": "描述"
+    }
+  ],
+  "ui-agreements.agreementLines.lineType": [
+    {
+      "type": 0,
+      "value": "协议行类型"
+    }
+  ],
+  "ui-agreements.agreementLines.lineType.detached": [
+    {
+      "type": 0,
+      "value": "取消链接"
+    }
+  ],
+  "ui-agreements.agreementLines.lineType.external": [
+    {
+      "type": 0,
+      "value": "外部的"
+    }
+  ],
+  "ui-agreements.agreementLines.lineType.internal": [
+    {
+      "type": 0,
+      "value": "内部的"
+    }
+  ],
+  "ui-agreements.agreementLines.nameReference": [
+    {
+      "type": 0,
+      "value": "名称/参考"
+    }
+  ],
+  "ui-agreements.agreementLines.noAgreementPlugin": [
+    {
+      "type": 0,
+      "value": "无协议插件"
+    }
+  ],
+  "ui-agreements.agreementLines.noPOLinePlugin": [
+    {
+      "type": 0,
+      "value": "无订单行插件"
+    }
+  ],
+  "ui-agreements.agreementLines.note": [
+    {
+      "type": 0,
+      "value": "附注"
+    }
+  ],
+  "ui-agreements.agreementLines.poLine": [
+    {
+      "type": 0,
+      "value": "订单行"
+    }
+  ],
+  "ui-agreements.agreementLines.selectAgreement": [
+    {
+      "type": 0,
+      "value": "选择协议"
+    }
+  ],
+  "ui-agreements.agreementLines.selectPOLine": [
+    {
+      "type": 0,
+      "value": "选择订单行"
+    }
+  ],
+  "ui-agreements.agreements.agreementLines.searchInputLabel": [
+    {
+      "type": 0,
+      "value": "搜索协议行"
+    }
+  ],
+  "ui-agreements.agreementsSearch": [
+    {
+      "type": 0,
+      "value": "协议搜索"
+    }
+  ],
+  "ui-agreements.alternativeName": [
+    {
+      "type": 0,
+      "value": "交替名称"
+    }
+  ],
+  "ui-agreements.apply": [
+    {
+      "type": 0,
+      "value": "应用"
+    }
+  ],
+  "ui-agreements.cancel": [
+    {
+      "type": 0,
+      "value": "取消"
+    }
+  ],
+  "ui-agreements.comparator": [
+    {
+      "type": 0,
+      "value": "布尔算符"
+    }
+  ],
+  "ui-agreements.customProperties": [
+    {
+      "type": 0,
+      "value": "补充属性"
+    }
+  ],
+  "ui-agreements.customProperties.addProperty": [
+    {
+      "type": 0,
+      "value": "添加属性"
+    }
+  ],
+  "ui-agreements.customProperties.category": [
+    {
+      "type": 0,
+      "value": "选取清单"
+    }
+  ],
+  "ui-agreements.customProperties.config.all": [
+    {
+      "type": 0,
+      "value": "全部"
+    }
+  ],
+  "ui-agreements.customProperties.config.delete.confirmHeading": [
+    {
+      "type": 0,
+      "value": "删除补充属性"
+    }
+  ],
+  "ui-agreements.customProperties.config.delete.confirmMessage": [
+    {
+      "type": 0,
+      "value": "补充属性"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "name"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": "将被"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "删除"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " 。"
+    }
+  ],
+  "ui-agreements.customProperties.config.delete.errorMessage": [
+    {
+      "type": 0,
+      "value": "删除补充属性： "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "label"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " 时出错。 "
+    },
+    {
+      "type": 1,
+      "value": "error"
+    }
+  ],
+  "ui-agreements.customProperties.config.editModal": [
+    {
+      "type": 0,
+      "value": "编辑 "
+    },
+    {
+      "type": 1,
+      "value": "name"
+    }
+  ],
+  "ui-agreements.customProperties.config.newModal": [
+    {
+      "type": 0,
+      "value": "新建补充属性"
+    }
+  ],
+  "ui-agreements.customProperties.ctx": [
+    {
+      "type": 0,
+      "value": "类别"
+    }
+  ],
+  "ui-agreements.customProperties.ctx.OpenAccess": [
+    {
+      "type": 0,
+      "value": "开放获取属性"
+    }
+  ],
+  "ui-agreements.customProperties.ctx.addContext": [
+    {
+      "type": 0,
+      "value": "添加类别"
+    },
+    {
+      "type": 1,
+      "value": "value"
+    }
+  ],
+  "ui-agreements.customProperties.ctx.title": [
+    {
+      "type": 0,
+      "value": "空"
+    }
+  ],
+  "ui-agreements.customProperties.defaultTitle": [
+    {
+      "type": 0,
+      "value": "补充属性("
+    },
+    {
+      "type": 1,
+      "value": "ctx"
+    },
+    {
+      "type": 0,
+      "value": ")"
+    }
+  ],
+  "ui-agreements.customProperties.defaultVisibility": [
+    {
+      "type": 0,
+      "value": "默认可见性"
+    }
+  ],
+  "ui-agreements.customProperties.description": [
+    {
+      "type": 0,
+      "value": "描述"
+    }
+  ],
+  "ui-agreements.customProperties.errors.customPropertyNoteInvalidNumber": [
+    {
+      "type": 0,
+      "value": "必须输入有效数字才能保存附注"
+    }
+  ],
+  "ui-agreements.customProperties.errors.customPropertyNoteWithoutValue": [
+    {
+      "type": 0,
+      "value": "必须设置一个值才能保存附注"
+    }
+  ],
+  "ui-agreements.customProperties.errors.primaryRetired": [
+    {
+      "type": 0,
+      "value": "补充属性不能既是主要的又是弃用的"
+    }
+  ],
+  "ui-agreements.customProperties.internalFalse": [
+    {
+      "type": 0,
+      "value": "公开"
+    }
+  ],
+  "ui-agreements.customProperties.internalNote": [
+    {
+      "type": 0,
+      "value": "内部附注"
+    }
+  ],
+  "ui-agreements.customProperties.internalTrue": [
+    {
+      "type": 0,
+      "value": "内部的"
+    }
+  ],
+  "ui-agreements.customProperties.label": [
+    {
+      "type": 0,
+      "value": "标签"
+    }
+  ],
+  "ui-agreements.customProperties.name": [
+    {
+      "type": 0,
+      "value": "名称"
+    }
+  ],
+  "ui-agreements.customProperties.noCtxFound": [
+    {
+      "type": 0,
+      "value": "找不到匹配的类别"
+    }
+  ],
+  "ui-agreements.customProperties.optionalProperties": [
+    {
+      "type": 0,
+      "value": "可选属性"
+    }
+  ],
+  "ui-agreements.customProperties.primary": [
+    {
+      "type": 0,
+      "value": "主要"
+    }
+  ],
+  "ui-agreements.customProperties.primaryProperties": [
+    {
+      "type": 0,
+      "value": "主要属性"
+    }
+  ],
+  "ui-agreements.customProperties.publicNote": [
+    {
+      "type": 0,
+      "value": "公开附注"
+    }
+  ],
+  "ui-agreements.customProperties.retired": [
+    {
+      "type": 0,
+      "value": "已弃用"
+    }
+  ],
+  "ui-agreements.customProperties.type": [
+    {
+      "type": 0,
+      "value": "类型"
+    }
+  ],
+  "ui-agreements.customProperties.type.com.k_int.web.toolkit.custprops.types.CustomPropertyBlob": [
+    {
+      "type": 0,
+      "value": "Blob"
+    }
+  ],
+  "ui-agreements.customProperties.type.com.k_int.web.toolkit.custprops.types.CustomPropertyBoolean": [
+    {
+      "type": 0,
+      "value": "布尔值"
+    }
+  ],
+  "ui-agreements.customProperties.type.com.k_int.web.toolkit.custprops.types.CustomPropertyContainer": [
+    {
+      "type": 0,
+      "value": "容器"
+    }
+  ],
+  "ui-agreements.customProperties.type.com.k_int.web.toolkit.custprops.types.CustomPropertyDecimal": [
+    {
+      "type": 0,
+      "value": "小数"
+    }
+  ],
+  "ui-agreements.customProperties.type.com.k_int.web.toolkit.custprops.types.CustomPropertyInteger": [
+    {
+      "type": 0,
+      "value": "整数"
+    }
+  ],
+  "ui-agreements.customProperties.type.com.k_int.web.toolkit.custprops.types.CustomPropertyLocalDate": [
+    {
+      "type": 0,
+      "value": "日期"
+    }
+  ],
+  "ui-agreements.customProperties.type.com.k_int.web.toolkit.custprops.types.CustomPropertyMultiRefdata": [
+    {
+      "type": 0,
+      "value": "选取清单（多选）"
+    }
+  ],
+  "ui-agreements.customProperties.type.com.k_int.web.toolkit.custprops.types.CustomPropertyRefdata": [
+    {
+      "type": 0,
+      "value": "选取清单"
+    }
+  ],
+  "ui-agreements.customProperties.type.com.k_int.web.toolkit.custprops.types.CustomPropertyRefdataDefinition": [
+    {
+      "type": 0,
+      "value": "选取清单定义"
+    }
+  ],
+  "ui-agreements.customProperties.type.com.k_int.web.toolkit.custprops.types.CustomPropertyText": [
+    {
+      "type": 0,
+      "value": "文本"
+    }
+  ],
+  "ui-agreements.customProperties.value": [
+    {
+      "type": 0,
+      "value": "值"
+    }
+  ],
+  "ui-agreements.customProperties.visibility": [
+    {
+      "type": 0,
+      "value": "可见性"
+    }
+  ],
+  "ui-agreements.customProperties.weight": [
+    {
+      "type": 0,
+      "value": "订单重量"
+    }
+  ],
+  "ui-agreements.customProperty": [
+    {
+      "type": 0,
+      "value": "补充属性"
+    }
+  ],
+  "ui-agreements.customProperty.addFilter": [
+    {
+      "type": 0,
+      "value": "添加补充属性筛选"
+    }
+  ],
+  "ui-agreements.customProperty.editCustomPropertyFilters": [
+    {
+      "type": 0,
+      "value": "编辑补充属性筛选"
+    }
+  ],
+  "ui-agreements.customProperty.filterBuilder": [
+    {
+      "type": 0,
+      "value": "补充属性筛选构建器"
+    }
+  ],
+  "ui-agreements.customProperty.filterIndex": [
+    {
+      "type": 0,
+      "value": "补充属性筛选"
+    },
+    {
+      "type": 1,
+      "value": "index"
+    }
+  ],
+  "ui-agreements.customProperty.filtersApplied": [
+    {
+      "type": 1,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": "应用的补充属性筛选器"
+    }
+  ],
+  "ui-agreements.customProperty.optionalPropertyHeader": [
+    {
+      "type": 0,
+      "value": "补充属性"
+    },
+    {
+      "type": 1,
+      "value": "number"
+    }
+  ],
+  "ui-agreements.customProperty.remove": [
+    {
+      "type": 0,
+      "value": "移除补充属性"
+    },
+    {
+      "type": 1,
+      "value": "number"
+    }
+  ],
+  "ui-agreements.customProperty.removeFilter": [
+    {
+      "type": 0,
+      "value": "移除补充属性筛选"
+    },
+    {
+      "type": 1,
+      "value": "index"
+    }
+  ],
+  "ui-agreements.customProperty.removeRule": [
+    {
+      "type": 0,
+      "value": "移除规则"
+    }
+  ],
+  "ui-agreements.customProperty.retiredName": [
+    {
+      "type": 0,
+      "value": "已弃用： "
+    },
+    {
+      "type": 1,
+      "value": "name"
+    }
+  ],
+  "ui-agreements.edit": [
+    {
+      "type": 0,
+      "value": "编辑"
+    }
+  ],
+  "ui-agreements.errors.decimalValueNotInRange": [
+    {
+      "type": 0,
+      "value": "请输入"
+    },
+    {
+      "type": 1,
+      "value": "min"
+    },
+    {
+      "type": 0,
+      "value": "至"
+    },
+    {
+      "type": 1,
+      "value": "max"
+    },
+    {
+      "type": 0,
+      "value": "范围内的数字以继续"
+    }
+  ],
+  "ui-agreements.errors.hasNonAlphaName": [
+    {
+      "type": 0,
+      "value": "名称只能包含拉丁字母字符（a-z）和非前导数字字符。"
+    }
+  ],
+  "ui-agreements.errors.invalidNumber": [
+    {
+      "type": 0,
+      "value": "请输入有效数字以继续"
+    }
+  ],
+  "ui-agreements.errors.maxTwoDecimals": [
+    {
+      "type": 0,
+      "value": "请输入最多2位小数的数字"
+    }
+  ],
+  "ui-agreements.errors.valueNotInRange": [
+    {
+      "type": 0,
+      "value": "请输入"
+    },
+    {
+      "type": 1,
+      "value": "min"
+    },
+    {
+      "type": 0,
+      "value": "至"
+    },
+    {
+      "type": 1,
+      "value": "max"
+    },
+    {
+      "type": 0,
+      "value": "范围内的整数以继续"
+    }
+  ],
+  "ui-agreements.localKBSearch": [
+    {
+      "type": 0,
+      "value": "本地知识库搜索"
+    }
+  ],
+  "ui-agreements.operator.contains": [
+    {
+      "type": 0,
+      "value": "包含"
+    }
+  ],
+  "ui-agreements.operator.doesNotContain": [
+    {
+      "type": 0,
+      "value": "不含"
+    }
+  ],
+  "ui-agreements.operator.doesNotEqual": [
+    {
+      "type": 0,
+      "value": "不等于"
+    }
+  ],
+  "ui-agreements.operator.equals": [
+    {
+      "type": 0,
+      "value": "等于"
+    }
+  ],
+  "ui-agreements.operator.is": [
+    {
+      "type": 0,
+      "value": "是"
+    }
+  ],
+  "ui-agreements.operator.isGreaterThanOrEqual": [
+    {
+      "type": 0,
+      "value": "大于等于"
+    }
+  ],
+  "ui-agreements.operator.isLessThanOrEqual": [
+    {
+      "type": 0,
+      "value": "小于等于"
+    }
+  ],
+  "ui-agreements.operator.isNot": [
+    {
+      "type": 0,
+      "value": "非"
+    }
+  ],
+  "ui-agreements.operator.isNotSet": [
+    {
+      "type": 0,
+      "value": "未设置"
+    }
+  ],
+  "ui-agreements.operator.isOnOrAfter": [
+    {
+      "type": 0,
+      "value": "正在或之后"
+    }
+  ],
+  "ui-agreements.operator.isOnOrBefore": [
+    {
+      "type": 0,
+      "value": "正在或之前"
+    }
+  ],
+  "ui-agreements.operator.isSet": [
+    {
+      "type": 0,
+      "value": "已设置"
+    }
+  ],
+  "ui-agreements.packageIdentifiers.identifier": [
+    {
+      "type": 0,
+      "value": "标识符"
+    }
+  ],
+  "ui-agreements.packageIdentifiers.type": [
+    {
+      "type": 0,
+      "value": "类型"
+    }
+  ],
+  "ui-agreements.refdata.deleteAriaLabel": [
+    {
+      "type": 0,
+      "value": "删除值"
+    },
+    {
+      "type": 1,
+      "value": "label"
+    }
+  ],
+  "ui-agreements.refdata.deleteRefdataValue": [
+    {
+      "type": 0,
+      "value": "删除选取清单值"
+    }
+  ],
+  "ui-agreements.refdata.deleteRefdataValue.confirmMessage": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "name"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": "将被删除。"
+    }
+  ],
+  "ui-agreements.refdata.deleteRefdataValue.errorMessage": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "错误： "
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": "选取清单值"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "label"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": "未被删除，因为它在一个或多个协议的一个或多个补充属性中使用。"
+    }
+  ],
+  "ui-agreements.refdata.editAriaLabel": [
+    {
+      "type": 0,
+      "value": "编辑值"
+    },
+    {
+      "type": 1,
+      "value": "label"
+    }
+  ],
+  "ui-agreements.refdata.label": [
+    {
+      "type": 0,
+      "value": "标签"
+    }
+  ],
+  "ui-agreements.refdata.value": [
+    {
+      "type": 0,
+      "value": "值"
+    }
+  ],
+  "ui-agreements.refdataCategory.deleteAriaLabel": [
+    {
+      "type": 0,
+      "value": "删除值"
+    },
+    {
+      "type": 1,
+      "value": "label"
+    }
+  ],
+  "ui-agreements.refdataCategory.deleteRefdataCategory": [
+    {
+      "type": 0,
+      "value": "删除选取清单类别"
+    }
+  ],
+  "ui-agreements.refdataCategory.deleteRefdataCategory.confirmMessage": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "name"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": "将被删除。"
+    }
+  ],
+  "ui-agreements.refdataCategory.deleteRefdataCategory.errorMessage": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "错误"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " ：选取清单"
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "label"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": "未被删除。这很可能是因为它已应用于一个或多个补充属性。要解决此问题，请从所有条补充属性中移除选取清单，然后再次尝试删除选取清单。"
+    }
+  ],
+  "ui-agreements.refdataCategory.noOfValues": [
+    {
+      "type": 0,
+      "value": "值的编号"
+    }
+  ],
+  "ui-agreements.refdataCategory.refdataCategories": [
+    {
+      "type": 0,
+      "value": "类别"
+    }
+  ],
+  "ui-agreements.refdataCategory.refdataCategory": [
+    {
+      "type": 0,
+      "value": "类别"
+    }
+  ],
+  "ui-agreements.save": [
+    {
+      "type": 0,
+      "value": "保存"
+    }
+  ],
+  "ui-agreements.search": [
+    {
+      "type": 0,
+      "value": "搜索"
+    }
+  ],
+  "ui-agreements.settings.default": [
+    {
+      "type": 0,
+      "value": "默认"
+    }
+  ],
+  "ui-agreements.settings.fileStorage.s3BucketRegion": [
+    {
+      "type": 0,
+      "value": "S3 bucket region"
+    }
+  ],
+  "ui-agreements.settings.noCurrentValue": [
+    {
+      "type": 0,
+      "value": "无当前值"
+    }
+  ],
+  "ui-agreements.settings.valueFor": [
+    {
+      "type": 0,
+      "value": "设置"
+    },
+    {
+      "type": 1,
+      "value": "name"
+    },
+    {
+      "type": 0,
+      "value": "的值"
+    }
+  ],
+  "ui-agreements.value": [
+    {
+      "type": 0,
+      "value": "值"
+    }
+  ],
+  "ui-agreements.valueOrValues": [
+    {
+      "type": 0,
+      "value": "值"
+    }
+  ],
+  "ui-bulk-edit.actions.find": [
+    {
+      "type": 0,
+      "value": "查找"
+    }
+  ],
+  "ui-bulk-edit.columns.holdingsCallNumber": [
+    {
+      "type": 0,
+      "value": "索书号"
+    }
+  ],
+  "ui-bulk-edit.columns.holdingsCallNumberPrefix": [
+    {
+      "type": 0,
+      "value": "索书号前缀"
+    }
+  ],
+  "ui-bulk-edit.columns.holdingsCallNumberSuffix": [
+    {
+      "type": 0,
+      "value": "索书号后缀"
+    }
+  ],
+  "ui-bulk-edit.columns.holdingsCallNumberType": [
+    {
+      "type": 0,
+      "value": "索书号类型"
+    }
+  ],
+  "ui-bulk-edit.columns.holdingsDiscoverySuppress": [
+    {
+      "type": 0,
+      "value": "在发现中隐藏"
+    }
+  ],
+  "ui-bulk-edit.columns.holdingsEffectiveLocation": [
+    {
+      "type": 0,
+      "value": "有效馆藏地"
+    }
+  ],
+  "ui-bulk-edit.columns.holdingsHRID": [
+    {
+      "type": 0,
+      "value": "馆藏HRID"
+    }
+  ],
+  "ui-bulk-edit.columns.holdingsPermanentLocation": [
+    {
+      "type": 0,
+      "value": "永久馆藏地"
+    }
+  ],
+  "ui-bulk-edit.columns.holdingsSource": [
+    {
+      "type": 0,
+      "value": "来源"
+    }
+  ],
+  "ui-bulk-edit.columns.holdingsTemporaryLocation": [
+    {
+      "type": 0,
+      "value": "临时馆藏地"
+    }
+  ],
+  "ui-bulk-edit.columns.holdingsType": [
+    {
+      "type": 0,
+      "value": "馆藏类型"
+    }
+  ],
+  "ui-bulk-edit.columns.holdingsUUID": [
+    {
+      "type": 0,
+      "value": "馆藏UUID"
+    }
+  ],
+  "ui-bulk-edit.layer.options.email": [
+    {
+      "type": 0,
+      "value": "电子邮件"
+    }
+  ],
+  "ui-bulk-edit.layer.options.expirationDate": [
+    {
+      "type": 0,
+      "value": "失效日期"
+    }
+  ],
+  "ui-bulk-edit.layer.options.holdings.permanentLocation": [
+    {
+      "type": 0,
+      "value": "永久馆藏地"
+    }
+  ],
+  "ui-bulk-edit.layer.options.holdings.temporaryLocation": [
+    {
+      "type": 0,
+      "value": "临时馆藏地"
+    }
+  ],
+  "ui-bulk-edit.layer.options.patronGroup": [
+    {
+      "type": 0,
+      "value": "读者组"
+    }
+  ],
+  "ui-bulk-edit.layer.options.permanentLoanType": [
+    {
+      "type": 0,
+      "value": "永久借阅类型"
+    }
+  ],
+  "ui-bulk-edit.layer.options.permanentLocation": [
+    {
+      "type": 0,
+      "value": "永久单件馆藏地"
+    }
+  ],
+  "ui-bulk-edit.layer.options.temporaryLoanTypeLabel": [
+    {
+      "type": 0,
+      "value": "临时借阅类型"
+    }
+  ],
+  "ui-bulk-edit.layer.options.temporaryLocation": [
+    {
+      "type": 0,
+      "value": "临时单件馆藏地"
+    }
+  ],
+  "ui-bulk-edit.layer.selectLoanType": [
+    {
+      "type": 0,
+      "value": "选择借阅类型"
+    }
+  ],
+  "ui-bulk-edit.layer.selectPatronGroup": [
+    {
+      "type": 0,
+      "value": "选择读者组"
+    }
+  ],
+  "ui-bulk-edit.list.filters.capabilities.holdings": [
+    {
+      "type": 0,
+      "value": "典藏 - 馆藏"
+    }
+  ],
+  "ui-bulk-edit.list.filters.recordIdentifier.holdings.holdingsHRID": [
+    {
+      "type": 0,
+      "value": "馆藏HRID"
+    }
+  ],
+  "ui-bulk-edit.list.filters.recordIdentifier.holdings.holdingsUUID": [
+    {
+      "type": 0,
+      "value": "馆藏UUID"
+    }
+  ],
+  "ui-bulk-edit.list.filters.recordIdentifier.holdings.instanceHRID": [
+    {
+      "type": 0,
+      "value": "实例HRID"
+    }
+  ],
+  "ui-bulk-edit.list.filters.recordIdentifier.holdings.itemBarcodes": [
+    {
+      "type": 0,
+      "value": "单件条码"
+    }
+  ],
+  "ui-bulk-edit.list.result.emptyMessage.holdings": [
+    {
+      "type": 0,
+      "value": "在标识符选项卡上选择“记录标识符”。在“查询”选项卡上输入“搜索查询”"
+    }
+  ],
+  "ui-bulk-edit.list.result.emptyMessage.holdings.HRID": [
+    {
+      "type": 0,
+      "value": "拖放或选择具有馆藏HRID的文件"
+    }
+  ],
+  "ui-bulk-edit.list.result.emptyMessage.holdings.ID": [
+    {
+      "type": 0,
+      "value": "拖放或选择带有馆藏UUID的文件"
+    }
+  ],
+  "ui-bulk-edit.list.result.emptyMessage.holdings.INSTANCE_HRID": [
+    {
+      "type": 0,
+      "value": "拖放或选择具有实例HRID的文件"
+    }
+  ],
+  "ui-bulk-edit.list.result.emptyMessage.holdings.ITEM_BARCODE": [
+    {
+      "type": 0,
+      "value": "拖放或选择带有单件条码的文件"
+    }
+  ],
+  "ui-bulk-edit.options.placeholder": [
+    {
+      "type": 0,
+      "value": "选择选项"
+    }
+  ],
+  "ui-bulk-edit.uploaderSubTitle.holdings": [
+    {
+      "type": 0,
+      "value": "选择带有记录标识符的文件"
+    }
+  ],
+  "ui-bulk-edit.uploaderSubTitle.holdings.HRID": [
+    {
+      "type": 0,
+      "value": "选择具有馆藏HRID的文件"
+    }
+  ],
+  "ui-bulk-edit.uploaderSubTitle.holdings.ID": [
+    {
+      "type": 0,
+      "value": "选择带有馆藏UUID的文件"
+    }
+  ],
+  "ui-bulk-edit.uploaderSubTitle.holdings.INSTANCE_HRID": [
+    {
+      "type": 0,
+      "value": "选择带有实例HRID的文件"
+    }
+  ],
+  "ui-bulk-edit.uploaderSubTitle.holdings.ITEM_BARCODE": [
+    {
+      "type": 0,
+      "value": "选择带具有单件条码的文件"
+    }
+  ],
+  "ui-calendar.allCalendarView.actions.label": [
+    {
+      "type": 0,
+      "value": "Actions"
+    }
+  ],
+  "ui-calendar.allCalendarView.actions.new": [
+    {
+      "type": 0,
+      "value": "New"
+    }
+  ],
+  "ui-calendar.allCalendarView.actions.purge": [
+    {
+      "type": 0,
+      "value": "Purge old calendars"
+    }
+  ],
+  "ui-calendar.allCalendarView.column.assignments": [
+    {
+      "type": 0,
+      "value": "Assignments"
+    }
+  ],
+  "ui-calendar.allCalendarView.column.endDate": [
+    {
+      "type": 0,
+      "value": "End date"
+    }
+  ],
+  "ui-calendar.allCalendarView.column.name": [
+    {
+      "type": 0,
+      "value": "Calendar name"
+    }
+  ],
+  "ui-calendar.allCalendarView.column.startDate": [
+    {
+      "type": 0,
+      "value": "Start date"
+    }
+  ],
+  "ui-calendar.allCalendarView.noAssignments": [
+    {
+      "type": 0,
+      "value": "None"
+    }
+  ],
+  "ui-calendar.allCalendarView.title": [
+    {
+      "type": 0,
+      "value": "All calendars"
+    }
+  ],
+  "ui-calendar.calendarForm.addRowButton": [
+    {
+      "type": 0,
+      "value": "Add row"
+    }
+  ],
+  "ui-calendar.calendarForm.category.exceptions": [
+    {
+      "type": 0,
+      "value": "Exceptions"
+    }
+  ],
+  "ui-calendar.calendarForm.category.general": [
+    {
+      "type": 0,
+      "value": "General information"
+    }
+  ],
+  "ui-calendar.calendarForm.category.hoursOfOperation": [
+    {
+      "type": 0,
+      "value": "Hours of operation"
+    }
+  ],
+  "ui-calendar.calendarForm.error.dateFormat": [
+    {
+      "type": 0,
+      "value": "Please enter a date in the "
+    },
+    {
+      "type": 1,
+      "value": "localeDateFormat"
+    },
+    {
+      "type": 0,
+      "value": " format"
+    }
+  ],
+  "ui-calendar.calendarForm.error.dateOrder": [
+    {
+      "type": 0,
+      "value": "End date must not be before the start date"
+    }
+  ],
+  "ui-calendar.calendarForm.error.exceptionConflictError": [
+    {
+      "type": 0,
+      "value": "Some exceptions have conflicts with each other"
+    }
+  ],
+  "ui-calendar.calendarForm.error.internalServerError": [
+    {
+      "type": 0,
+      "value": "Internal server error"
+    }
+  ],
+  "ui-calendar.calendarForm.error.openingConflictError": [
+    {
+      "type": 0,
+      "value": "Some openings have conflicts with each other"
+    }
+  ],
+  "ui-calendar.calendarForm.error.servicePointConflict": [
+    {
+      "offset": 0,
+      "options": {
+        "=1": {
+          "value": [
+            {
+              "type": 0,
+              "value": "Service point"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "Service points"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "num"
+    },
+    {
+      "type": 0,
+      "value": " "
+    },
+    {
+      "type": 1,
+      "value": "list"
+    },
+    {
+      "type": 0,
+      "value": " "
+    },
+    {
+      "offset": 0,
+      "options": {
+        "=1": {
+          "value": [
+            {
+              "type": 0,
+              "value": "has"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "have"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "num"
+    },
+    {
+      "type": 0,
+      "value": " overlaps."
+    }
+  ],
+  "ui-calendar.calendarForm.error.timeFormat": [
+    {
+      "type": 0,
+      "value": "Please enter a time in the "
+    },
+    {
+      "type": 1,
+      "value": "localeTimeFormat"
+    },
+    {
+      "type": 0,
+      "value": " format"
+    }
+  ],
+  "ui-calendar.calendarForm.error.timeOrder": [
+    {
+      "type": 0,
+      "value": "End date/time must not be before the start date/time"
+    }
+  ],
+  "ui-calendar.calendarForm.exceptions.column.actions": [
+    {
+      "type": 0,
+      "value": "Actions"
+    }
+  ],
+  "ui-calendar.calendarForm.exceptions.column.endDate": [
+    {
+      "type": 0,
+      "value": "End date"
+    }
+  ],
+  "ui-calendar.calendarForm.exceptions.column.endTime": [
+    {
+      "type": 0,
+      "value": "End time"
+    }
+  ],
+  "ui-calendar.calendarForm.exceptions.column.name": [
+    {
+      "type": 0,
+      "value": "Name"
+    }
+  ],
+  "ui-calendar.calendarForm.exceptions.column.startDate": [
+    {
+      "type": 0,
+      "value": "Start date"
+    }
+  ],
+  "ui-calendar.calendarForm.exceptions.column.startTime": [
+    {
+      "type": 0,
+      "value": "Start time"
+    }
+  ],
+  "ui-calendar.calendarForm.exceptions.column.status": [
+    {
+      "type": 0,
+      "value": "Status"
+    }
+  ],
+  "ui-calendar.calendarForm.field.endDate": [
+    {
+      "type": 0,
+      "value": "End date"
+    }
+  ],
+  "ui-calendar.calendarForm.field.name": [
+    {
+      "type": 0,
+      "value": "Calendar name"
+    }
+  ],
+  "ui-calendar.calendarForm.field.servicePoints": [
+    {
+      "type": 0,
+      "value": "Service points"
+    }
+  ],
+  "ui-calendar.calendarForm.field.startDate": [
+    {
+      "type": 0,
+      "value": "Start date"
+    }
+  ],
+  "ui-calendar.calendarForm.openClosedSelect.closed": [
+    {
+      "type": 0,
+      "value": "Closed"
+    }
+  ],
+  "ui-calendar.calendarForm.openClosedSelect.open": [
+    {
+      "type": 0,
+      "value": "Open"
+    }
+  ],
+  "ui-calendar.calendarForm.openings.column.actions": [
+    {
+      "type": 0,
+      "value": "Actions"
+    }
+  ],
+  "ui-calendar.calendarForm.openings.column.endDay": [
+    {
+      "type": 0,
+      "value": "End day"
+    }
+  ],
+  "ui-calendar.calendarForm.openings.column.endTime": [
+    {
+      "type": 0,
+      "value": "End time"
+    }
+  ],
+  "ui-calendar.calendarForm.openings.column.startDay": [
+    {
+      "type": 0,
+      "value": "Start day"
+    }
+  ],
+  "ui-calendar.calendarForm.openings.column.startTime": [
+    {
+      "type": 0,
+      "value": "Start time"
+    }
+  ],
+  "ui-calendar.calendarForm.openings.column.status": [
+    {
+      "type": 0,
+      "value": "Status"
+    }
+  ],
+  "ui-calendar.calendarForm.title.create": [
+    {
+      "type": 0,
+      "value": "New calendar"
+    }
+  ],
+  "ui-calendar.calendarForm.title.edit": [
+    {
+      "type": 0,
+      "value": "Edit calendar"
+    }
+  ],
+  "ui-calendar.currentAssignmentView.actions.new": [
+    {
+      "type": 0,
+      "value": "New"
+    }
+  ],
+  "ui-calendar.currentAssignmentView.column.currentStatus": [
+    {
+      "type": 0,
+      "value": "Current status"
+    }
+  ],
+  "ui-calendar.currentAssignmentView.column.endDate": [
+    {
+      "type": 0,
+      "value": "End date"
+    }
+  ],
+  "ui-calendar.currentAssignmentView.column.name": [
+    {
+      "type": 0,
+      "value": "Calendar name"
+    }
+  ],
+  "ui-calendar.currentAssignmentView.column.servicePoint": [
+    {
+      "type": 0,
+      "value": "Service point"
+    }
+  ],
+  "ui-calendar.currentAssignmentView.column.startDate": [
+    {
+      "type": 0,
+      "value": "Start date"
+    }
+  ],
+  "ui-calendar.currentAssignmentView.noCalendar": [
+    {
+      "type": 0,
+      "value": "None"
+    }
+  ],
+  "ui-calendar.currentAssignmentView.title": [
+    {
+      "type": 0,
+      "value": "Current calendar assignments"
+    }
+  ],
+  "ui-calendar.currentStatus.closed.exceptional.nextDay": [
+    {
+      "type": 0,
+      "value": "Closed ("
+    },
+    {
+      "type": 1,
+      "value": "exceptionName"
+    },
+    {
+      "type": 0,
+      "value": ") until tomorrow at "
+    },
+    {
+      "type": 1,
+      "value": "nextTime"
+    }
+  ],
+  "ui-calendar.currentStatus.closed.exceptional.nextWeek": [
+    {
+      "type": 0,
+      "value": "Closed ("
+    },
+    {
+      "type": 1,
+      "value": "exceptionName"
+    },
+    {
+      "type": 0,
+      "value": ") until "
+    },
+    {
+      "type": 1,
+      "value": "nextWeekday"
+    },
+    {
+      "type": 0,
+      "value": " at "
+    },
+    {
+      "type": 1,
+      "value": "nextTime"
+    }
+  ],
+  "ui-calendar.currentStatus.closed.exceptional.noNext": [
+    {
+      "type": 0,
+      "value": "Closed ("
+    },
+    {
+      "type": 1,
+      "value": "exceptionName"
+    },
+    {
+      "type": 0,
+      "value": ")"
+    }
+  ],
+  "ui-calendar.currentStatus.closed.exceptional.otherWeekday": [
+    {
+      "type": 0,
+      "value": "Closed ("
+    },
+    {
+      "type": 1,
+      "value": "exceptionName"
+    },
+    {
+      "type": 0,
+      "value": ") until "
+    },
+    {
+      "type": 1,
+      "value": "nextWeekday"
+    },
+    {
+      "type": 0,
+      "value": " at "
+    },
+    {
+      "type": 1,
+      "value": "nextTime"
+    }
+  ],
+  "ui-calendar.currentStatus.closed.exceptional.sameDay": [
+    {
+      "type": 0,
+      "value": "Closed ("
+    },
+    {
+      "type": 1,
+      "value": "exceptionName"
+    },
+    {
+      "type": 0,
+      "value": ") until "
+    },
+    {
+      "type": 1,
+      "value": "nextTime"
+    }
+  ],
+  "ui-calendar.currentStatus.closed.exceptional.sameElse": [
+    {
+      "type": 0,
+      "value": "Closed ("
+    },
+    {
+      "type": 1,
+      "value": "exceptionName"
+    },
+    {
+      "type": 0,
+      "value": ") until "
+    },
+    {
+      "type": 1,
+      "value": "nextDate"
+    },
+    {
+      "type": 0,
+      "value": " at "
+    },
+    {
+      "type": 1,
+      "value": "nextTime"
+    }
+  ],
+  "ui-calendar.currentStatus.closed.nextDay": [
+    {
+      "type": 0,
+      "value": "Closed until tomorrow at "
+    },
+    {
+      "type": 1,
+      "value": "nextTime"
+    }
+  ],
+  "ui-calendar.currentStatus.closed.nextWeek": [
+    {
+      "type": 0,
+      "value": "Closed until "
+    },
+    {
+      "type": 1,
+      "value": "nextWeekday"
+    },
+    {
+      "type": 0,
+      "value": " at "
+    },
+    {
+      "type": 1,
+      "value": "nextTime"
+    }
+  ],
+  "ui-calendar.currentStatus.closed.noNext": [
+    {
+      "type": 0,
+      "value": "Closed"
+    }
+  ],
+  "ui-calendar.currentStatus.closed.otherWeekday": [
+    {
+      "type": 0,
+      "value": "Closed until "
+    },
+    {
+      "type": 1,
+      "value": "nextWeekday"
+    },
+    {
+      "type": 0,
+      "value": " at "
+    },
+    {
+      "type": 1,
+      "value": "nextTime"
+    }
+  ],
+  "ui-calendar.currentStatus.closed.sameDay": [
+    {
+      "type": 0,
+      "value": "Closed until "
+    },
+    {
+      "type": 1,
+      "value": "nextTime"
+    }
+  ],
+  "ui-calendar.currentStatus.closed.sameElse": [
+    {
+      "type": 0,
+      "value": "Closed until "
+    },
+    {
+      "type": 1,
+      "value": "nextDate"
+    },
+    {
+      "type": 0,
+      "value": " at "
+    },
+    {
+      "type": 1,
+      "value": "nextTime"
+    }
+  ],
+  "ui-calendar.currentStatus.open.exceptional.nextDay": [
+    {
+      "type": 0,
+      "value": "Open ("
+    },
+    {
+      "type": 1,
+      "value": "exceptionName"
+    },
+    {
+      "type": 0,
+      "value": ") until tomorrow at "
+    },
+    {
+      "type": 1,
+      "value": "nextTime"
+    }
+  ],
+  "ui-calendar.currentStatus.open.exceptional.nextWeek": [
+    {
+      "type": 0,
+      "value": "Open ("
+    },
+    {
+      "type": 1,
+      "value": "exceptionName"
+    },
+    {
+      "type": 0,
+      "value": ") until "
+    },
+    {
+      "type": 1,
+      "value": "nextWeekday"
+    },
+    {
+      "type": 0,
+      "value": " at "
+    },
+    {
+      "type": 1,
+      "value": "nextTime"
+    }
+  ],
+  "ui-calendar.currentStatus.open.exceptional.noNext": [
+    {
+      "type": 0,
+      "value": "Open ("
+    },
+    {
+      "type": 1,
+      "value": "exceptionName"
+    },
+    {
+      "type": 0,
+      "value": ")"
+    }
+  ],
+  "ui-calendar.currentStatus.open.exceptional.otherWeekday": [
+    {
+      "type": 0,
+      "value": "Open ("
+    },
+    {
+      "type": 1,
+      "value": "exceptionName"
+    },
+    {
+      "type": 0,
+      "value": ") until "
+    },
+    {
+      "type": 1,
+      "value": "nextWeekday"
+    },
+    {
+      "type": 0,
+      "value": " at "
+    },
+    {
+      "type": 1,
+      "value": "nextTime"
+    }
+  ],
+  "ui-calendar.currentStatus.open.exceptional.sameDay": [
+    {
+      "type": 0,
+      "value": "Open ("
+    },
+    {
+      "type": 1,
+      "value": "exceptionName"
+    },
+    {
+      "type": 0,
+      "value": ") until "
+    },
+    {
+      "type": 1,
+      "value": "nextTime"
+    }
+  ],
+  "ui-calendar.currentStatus.open.exceptional.sameElse": [
+    {
+      "type": 0,
+      "value": "Open ("
+    },
+    {
+      "type": 1,
+      "value": "exceptionName"
+    },
+    {
+      "type": 0,
+      "value": ") until "
+    },
+    {
+      "type": 1,
+      "value": "nextDate"
+    },
+    {
+      "type": 0,
+      "value": " at "
+    },
+    {
+      "type": 1,
+      "value": "nextTime"
+    }
+  ],
+  "ui-calendar.currentStatus.open.nextDay": [
+    {
+      "type": 0,
+      "value": "Open until tomorrow at "
+    },
+    {
+      "type": 1,
+      "value": "nextTime"
+    }
+  ],
+  "ui-calendar.currentStatus.open.nextWeek": [
+    {
+      "type": 0,
+      "value": "Open until "
+    },
+    {
+      "type": 1,
+      "value": "nextWeekday"
+    },
+    {
+      "type": 0,
+      "value": " at "
+    },
+    {
+      "type": 1,
+      "value": "nextTime"
+    }
+  ],
+  "ui-calendar.currentStatus.open.noNext": [
+    {
+      "type": 0,
+      "value": "Open"
+    }
+  ],
+  "ui-calendar.currentStatus.open.otherWeekday": [
+    {
+      "type": 0,
+      "value": "Open until "
+    },
+    {
+      "type": 1,
+      "value": "nextWeekday"
+    },
+    {
+      "type": 0,
+      "value": " at "
+    },
+    {
+      "type": 1,
+      "value": "nextTime"
+    }
+  ],
+  "ui-calendar.currentStatus.open.sameDay": [
+    {
+      "type": 0,
+      "value": "Open until "
+    },
+    {
+      "type": 1,
+      "value": "nextTime"
+    }
+  ],
+  "ui-calendar.currentStatus.open.sameElse": [
+    {
+      "type": 0,
+      "value": "Open until "
+    },
+    {
+      "type": 1,
+      "value": "nextDate"
+    },
+    {
+      "type": 0,
+      "value": " at "
+    },
+    {
+      "type": 1,
+      "value": "nextTime"
+    }
+  ],
+  "ui-calendar.infoPane.247HelpText": [
+    {
+      "type": 0,
+      "value": "This calendar is open 24/7 and does not close"
+    }
+  ],
+  "ui-calendar.infoPane.accordion.assignments": [
+    {
+      "type": 0,
+      "value": "Service point assignments"
+    }
+  ],
+  "ui-calendar.infoPane.accordion.assignments.empty": [
+    {
+      "type": 0,
+      "value": "This calendar is not assigned to any service points."
+    }
+  ],
+  "ui-calendar.infoPane.accordion.exceptions.closures": [
+    {
+      "type": 0,
+      "value": "Exceptions — closures"
+    }
+  ],
+  "ui-calendar.infoPane.accordion.exceptions.closures.empty": [
+    {
+      "type": 0,
+      "value": "This calendar has no exceptional closures."
+    }
+  ],
+  "ui-calendar.infoPane.accordion.exceptions.end": [
+    {
+      "type": 0,
+      "value": "Close"
+    }
+  ],
+  "ui-calendar.infoPane.accordion.exceptions.name": [
+    {
+      "type": 0,
+      "value": "Name"
+    }
+  ],
+  "ui-calendar.infoPane.accordion.exceptions.openings": [
+    {
+      "type": 0,
+      "value": "Exceptions — openings"
+    }
+  ],
+  "ui-calendar.infoPane.accordion.exceptions.openings.empty": [
+    {
+      "type": 0,
+      "value": "This calendar has no exceptional openings."
+    }
+  ],
+  "ui-calendar.infoPane.accordion.exceptions.start": [
+    {
+      "type": 0,
+      "value": "Start"
+    }
+  ],
+  "ui-calendar.infoPane.accordion.hours": [
+    {
+      "type": 0,
+      "value": "Hours of operation"
+    }
+  ],
+  "ui-calendar.infoPane.accordion.hours.close": [
+    {
+      "type": 0,
+      "value": "Close"
+    }
+  ],
+  "ui-calendar.infoPane.accordion.hours.day": [
+    {
+      "type": 0,
+      "value": "Day"
+    }
+  ],
+  "ui-calendar.infoPane.accordion.hours.open": [
+    {
+      "type": 0,
+      "value": "Open"
+    }
+  ],
+  "ui-calendar.infoPane.accordion.metadata": [
+    {
+      "type": 0,
+      "value": "Record metadata"
+    }
+  ],
+  "ui-calendar.infoPane.accordion.metadata.createdAt": [
+    {
+      "type": 0,
+      "value": "Created at"
+    }
+  ],
+  "ui-calendar.infoPane.accordion.metadata.createdBy": [
+    {
+      "type": 0,
+      "value": "Created by"
+    }
+  ],
+  "ui-calendar.infoPane.accordion.metadata.dateTime": [
+    {
+      "type": 1,
+      "value": "date"
+    },
+    {
+      "type": 0,
+      "value": " "
+    },
+    {
+      "type": 1,
+      "value": "time"
+    }
+  ],
+  "ui-calendar.infoPane.accordion.metadata.unknownDate": [
+    {
+      "type": 0,
+      "value": "Unknown"
+    }
+  ],
+  "ui-calendar.infoPane.accordion.metadata.unknownUser": [
+    {
+      "type": 0,
+      "value": "Unknown"
+    }
+  ],
+  "ui-calendar.infoPane.accordion.metadata.updatedAt": [
+    {
+      "type": 0,
+      "value": "Last edited at"
+    }
+  ],
+  "ui-calendar.infoPane.accordion.metadata.updatedBy": [
+    {
+      "type": 0,
+      "value": "Last edited by"
+    }
+  ],
+  "ui-calendar.infoPane.actions.label": [
+    {
+      "type": 0,
+      "value": "Actions"
+    }
+  ],
+  "ui-calendar.infoPane.deletionModal.contents": [
+    {
+      "type": 0,
+      "value": "Are you sure you would like to delete the calendar “"
+    },
+    {
+      "type": 1,
+      "value": "name"
+    },
+    {
+      "type": 0,
+      "value": "”?"
+    }
+  ],
+  "ui-calendar.infoPane.deletionModal.label": [
+    {
+      "type": 0,
+      "value": "Confirm deletion"
+    }
+  ],
+  "ui-calendar.infoPane.display.closed": [
+    {
+      "type": 0,
+      "value": "Closed"
+    }
+  ],
+  "ui-calendar.infoPane.display.closesAfterMidnight": [
+    {
+      "type": 0,
+      "value": "Closes on the next day"
+    }
+  ],
+  "ui-calendar.infoPane.display.closesAfterMidnightTime": [
+    {
+      "type": 1,
+      "value": "time"
+    },
+    {
+      "type": 0,
+      "value": " *"
+    }
+  ],
+  "ui-calendar.infoPane.display.wrappedClosed": [
+    {
+      "type": 0,
+      "value": "The service point does not close on this night"
+    }
+  ],
+  "ui-calendar.infoPane.display.wrappedOpening": [
+    {
+      "type": 0,
+      "value": "The service point does not close on the previous night"
+    }
+  ],
+  "ui-calendar.infoPane.endDate": [
+    {
+      "type": 0,
+      "value": "End date"
+    }
+  ],
+  "ui-calendar.infoPane.nextDayHelpText": [
+    {
+      "type": 0,
+      "value": "* indicates next day"
+    }
+  ],
+  "ui-calendar.infoPane.overnightHelpText": [
+    {
+      "type": 0,
+      "value": "– indicates that the service point was already open or does not close"
+    }
+  ],
+  "ui-calendar.infoPane.startDate": [
+    {
+      "type": 0,
+      "value": "Start date"
+    }
+  ],
+  "ui-calendar.midnight": [
+    {
+      "type": 0,
+      "value": "Midnight"
+    }
+  ],
+  "ui-calendar.monthlyCalendarView.day.allDay": [
+    {
+      "type": 0,
+      "value": "All day"
+    }
+  ],
+  "ui-calendar.monthlyCalendarView.day.closed": [
+    {
+      "type": 0,
+      "value": "Closed"
+    }
+  ],
+  "ui-calendar.monthlyCalendarView.day.timeRange": [
+    {
+      "type": 1,
+      "value": "startTime"
+    },
+    {
+      "type": 0,
+      "value": " – "
+    },
+    {
+      "type": 1,
+      "value": "endTime"
+    }
+  ],
+  "ui-calendar.monthlyCalendarView.title": [
+    {
+      "type": 0,
+      "value": "Monthly calendar view"
+    }
+  ],
+  "ui-calendar.permission.create": [
+    {
+      "type": 0,
+      "value": "Settings (Calendar): Can create and assign new calendars"
+    }
+  ],
+  "ui-calendar.permission.delete": [
+    {
+      "type": 0,
+      "value": "Settings (Calendar): Can delete existing calendars"
+    }
+  ],
+  "ui-calendar.permission.update": [
+    {
+      "type": 0,
+      "value": "Settings (Calendar): Can edit and reassign existing calendars"
+    }
+  ],
+  "ui-calendar.purgeModal.criteria.age.months3": [
+    {
+      "type": 0,
+      "value": "more than 3 months ago"
+    }
+  ],
+  "ui-calendar.purgeModal.criteria.age.months6": [
+    {
+      "type": 0,
+      "value": "more than 6 months ago"
+    }
+  ],
+  "ui-calendar.purgeModal.criteria.age.prompt": [
+    {
+      "type": 0,
+      "value": "Purge calendars that ended..."
+    }
+  ],
+  "ui-calendar.purgeModal.criteria.age.year1": [
+    {
+      "type": 0,
+      "value": "more than 1 year ago"
+    }
+  ],
+  "ui-calendar.purgeModal.criteria.age.years2": [
+    {
+      "type": 0,
+      "value": "more than 2 years ago"
+    }
+  ],
+  "ui-calendar.purgeModal.criteria.assignment.any": [
+    {
+      "type": 0,
+      "value": "assigned or not assigned to service points"
+    }
+  ],
+  "ui-calendar.purgeModal.criteria.assignment.none": [
+    {
+      "type": 0,
+      "value": "not assigned to any service points"
+    }
+  ],
+  "ui-calendar.purgeModal.criteria.assignment.prompt": [
+    {
+      "type": 0,
+      "value": "And were..."
+    }
+  ],
+  "ui-calendar.purgeModal.deletionList.empty": [
+    {
+      "type": 0,
+      "value": "No calendars match the provided criteria"
+    }
+  ],
+  "ui-calendar.purgeModal.deletionList.label": [
+    {
+      "type": 0,
+      "value": "Calendars to be deleted"
+    }
+  ],
+  "ui-calendar.purgeModal.label": [
+    {
+      "type": 0,
+      "value": "Purge old calendars"
+    }
+  ],
+  "ui-checkout.notes.popupModal.label": [
+    {
+      "type": 0,
+      "value": "用户附注"
+    }
+  ],
+  "ui-circulation.settings.index.loanAnonymization": [
+    {
+      "type": 0,
+      "value": "借阅匿名化"
+    }
+  ],
+  "ui-dashboard.accessLevel": [
+    {
+      "type": 0,
+      "value": "Access level"
+    }
+  ],
+  "ui-dashboard.accessLevel.edit": [
+    {
+      "type": 0,
+      "value": "Edit"
+    }
+  ],
+  "ui-dashboard.accessLevel.manage": [
+    {
+      "type": 0,
+      "value": "Manage"
+    }
+  ],
+  "ui-dashboard.accessLevel.view": [
+    {
+      "type": 0,
+      "value": "View"
+    }
+  ],
+  "ui-dashboard.allDashboards": [
+    {
+      "type": 0,
+      "value": "All dashboards"
+    }
+  ],
+  "ui-dashboard.dashboard.create.success": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Dashboard created:"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " "
+    },
+    {
+      "type": 1,
+      "value": "dashboardName"
+    }
+  ],
+  "ui-dashboard.dashboard.delete.success": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Dashboard deleted:"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " "
+    },
+    {
+      "type": 1,
+      "value": "dashboardName"
+    }
+  ],
+  "ui-dashboard.dashboard.description": [
+    {
+      "type": 0,
+      "value": "Description"
+    }
+  ],
+  "ui-dashboard.dashboard.edit.success": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Dashboard updated:"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " "
+    },
+    {
+      "type": 1,
+      "value": "dashboardName"
+    }
+  ],
+  "ui-dashboard.dashboard.name": [
+    {
+      "type": 0,
+      "value": "Name"
+    }
+  ],
+  "ui-dashboard.dashboard.name.info": [
+    {
+      "type": 0,
+      "value": "The short name will be used to create the menu button for the dashboard. The number of characters is limited to 25 maximum"
+    }
+  ],
+  "ui-dashboard.dashboard.name.tooLong": [
+    {
+      "type": 0,
+      "value": "Dashboard name is limited to 25 characters."
+    }
+  ],
+  "ui-dashboard.dashboardUsers.accessWarning": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Warning"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": ": The logged in user does not exist as a user on this dashboard. Access is being granted through a high level system permission (Okapi gateway permission \"servint.dashboard.admin\")."
+    }
+  ],
+  "ui-dashboard.dashboardUsers.addUser": [
+    {
+      "type": 0,
+      "value": "Add user"
+    }
+  ],
+  "ui-dashboard.dashboardUsers.duplicateUser": [
+    {
+      "type": 0,
+      "value": "Error: Duplicate user"
+    }
+  ],
+  "ui-dashboard.dashboardUsers.duplicateUser.message": [
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "user"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " was not added as this user already has access to the dashboard "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "name"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    }
+  ],
+  "ui-dashboard.dashboardUsers.edit.success": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "User access details updated:"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " "
+    },
+    {
+      "type": 1,
+      "value": "dashboardName"
+    }
+  ],
+  "ui-dashboard.dashboardUsers.email": [
+    {
+      "type": 0,
+      "value": "Email"
+    }
+  ],
+  "ui-dashboard.dashboardUsers.errorMissing": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Error"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": ": user "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "user"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " cannot be found in the Users app. This could mean that the user has been permanently deleted. If the problem persists the user should be removed from this dashboard."
+    }
+  ],
+  "ui-dashboard.dashboardUsers.multipleUsersWarning": [
+    {
+      "type": 0,
+      "value": "This dashboard is shared. Any changes made will be visible to all users with access."
+    }
+  ],
+  "ui-dashboard.dashboardUsers.remove": [
+    {
+      "type": 0,
+      "value": "Remove"
+    }
+  ],
+  "ui-dashboard.dashboardUsers.removeUser": [
+    {
+      "type": 0,
+      "value": "Remove user \""
+    },
+    {
+      "type": 1,
+      "value": "name"
+    },
+    {
+      "type": 0,
+      "value": "\""
+    }
+  ],
+  "ui-dashboard.dashboardUsers.removeUsers": [
+    {
+      "type": 0,
+      "value": "Remove user(s)"
+    }
+  ],
+  "ui-dashboard.dashboardUsers.removeUsers.finalMessage": [
+    {
+      "type": 0,
+      "value": "Select "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Save & close"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " to go ahead with all updates or "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Cancel"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " to continue editing"
+    }
+  ],
+  "ui-dashboard.dashboardUsers.removeUsers.message": [
+    {
+      "type": 0,
+      "value": "The following user(s) will be removed and no longer has access to the dashboard \""
+    },
+    {
+      "type": 1,
+      "value": "name"
+    },
+    {
+      "type": 0,
+      "value": "\"."
+    }
+  ],
+  "ui-dashboard.dashboardUsers.status": [
+    {
+      "type": 0,
+      "value": "Status"
+    }
+  ],
+  "ui-dashboard.dashboardUsers.status.active": [
+    {
+      "type": 0,
+      "value": "Active"
+    }
+  ],
+  "ui-dashboard.dashboardUsers.status.error": [
+    {
+      "type": 0,
+      "value": "Error"
+    }
+  ],
+  "ui-dashboard.dashboardUsers.status.inactive": [
+    {
+      "type": 0,
+      "value": "Inactive"
+    }
+  ],
+  "ui-dashboard.dashboardUsers.user": [
+    {
+      "type": 0,
+      "value": "User"
+    }
+  ],
+  "ui-dashboard.dashboardUsers.userAccess": [
+    {
+      "type": 0,
+      "value": "User access - "
+    },
+    {
+      "type": 1,
+      "value": "dashboardName"
+    }
+  ],
+  "ui-dashboard.dashboardUsers.warningInactive": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Warning"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": ": user "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "user"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " is inactive and should be removed from this dashboard."
+    }
+  ],
+  "ui-dashboard.default": [
+    {
+      "type": 0,
+      "value": "Default"
+    }
+  ],
+  "ui-dashboard.delete": [
+    {
+      "type": 0,
+      "value": "Delete"
+    }
+  ],
+  "ui-dashboard.deleteDashboard": [
+    {
+      "type": 0,
+      "value": "Delete dashboard"
+    }
+  ],
+  "ui-dashboard.deleteDashboard.message": [
+    {
+      "type": 0,
+      "value": "Dashboard "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "name"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " will be "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "deleted"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "ui-dashboard.deleteDashboard.messageMultiUsers": [
+    {
+      "type": 0,
+      "value": "Deleting the dashboard "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "name"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " will remove access for one or more users. Select \"Delete\" to go ahead."
+    }
+  ],
+  "ui-dashboard.deleteDashboardHeader": [
+    {
+      "type": 0,
+      "value": "Delete dashboard - "
+    },
+    {
+      "type": 1,
+      "value": "name"
+    }
+  ],
+  "ui-dashboard.editDashboard": [
+    {
+      "type": 0,
+      "value": "Edit dashboard"
+    }
+  ],
+  "ui-dashboard.manageDashboards": [
+    {
+      "type": 0,
+      "value": "Manage dashboards"
+    }
+  ],
+  "ui-dashboard.manageUserAccess": [
+    {
+      "type": 0,
+      "value": "Manage user access"
+    }
+  ],
+  "ui-dashboard.manageWidgets": [
+    {
+      "type": 0,
+      "value": "Manage widgets"
+    }
+  ],
+  "ui-dashboard.new": [
+    {
+      "type": 0,
+      "value": "New"
+    }
+  ],
+  "ui-dashboard.newDashboard": [
+    {
+      "type": 0,
+      "value": "New dashboard"
+    }
+  ],
+  "ui-dashboard.newWidget": [
+    {
+      "type": 0,
+      "value": "New widget"
+    }
+  ],
+  "ui-dashboard.okay": [
+    {
+      "type": 0,
+      "value": "Okay"
+    }
+  ],
+  "ui-dashboard.saveAndClose": [
+    {
+      "type": 0,
+      "value": "Save & close"
+    }
+  ],
+  "ui-dashboard.userAccess": [
+    {
+      "type": 0,
+      "value": "User access"
+    }
+  ],
+  "ui-dashboard.userDashboards.dashboardOrder": [
+    {
+      "type": 0,
+      "value": "Dashboard menu order"
+    }
+  ],
+  "ui-dashboard.userDashboards.dashboardOrder.dragAndDropHandleAria": [
+    {
+      "type": 0,
+      "value": "Change order of "
+    },
+    {
+      "type": 1,
+      "value": "dashboard"
+    },
+    {
+      "type": 0,
+      "value": " ("
+    },
+    {
+      "type": 1,
+      "value": "index"
+    },
+    {
+      "type": 0,
+      "value": ")"
+    }
+  ],
+  "ui-dashboard.userDashboards.default.info": [
+    {
+      "type": 0,
+      "value": "The default dashboard is the one that will display by default when you first open the dashboard app"
+    }
+  ],
+  "ui-dashboard.userDashboards.edit.success": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Updates saved:"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " Manage dashboards."
+    }
+  ],
+  "ui-dashboard.users": [
+    {
+      "type": 0,
+      "value": "Users"
+    }
+  ],
+  "ui-dashboard.viewUserAccess": [
+    {
+      "type": 0,
+      "value": "View user access"
+    }
+  ],
+  "ui-data-import.fieldMappingsForMarc.override.subtext": [
+    {
+      "type": 0,
+      "value": "Field protections can be applied to MARC Authority records via this profile, but default field protections "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "cannot"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " be overridden"
+    }
+  ],
+  "ui-data-import.jobStartedDate": [
+    {
+      "type": 0,
+      "value": "Started running"
+    }
+  ],
+  "ui-data-import.modal.cancelRunningJob.cancel": [
+    {
+      "type": 0,
+      "value": "No, do not cancel import"
+    }
+  ],
+  "ui-data-import.modal.cancelRunningJob.confirm": [
+    {
+      "type": 0,
+      "value": "Yes, cancel import job"
+    }
+  ],
+  "ui-data-import.modal.cancelRunningJob.header": [
+    {
+      "type": 0,
+      "value": "Cancel import job?"
+    }
+  ],
+  "ui-data-import.modal.cancelRunningJob.message": [
+    {
+      "type": 0,
+      "value": "Are you sure that you want "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "to cancel this import job?"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Note:"
+            }
+          ],
+          "type": 8,
+          "value": "b"
+        },
+        {
+          "type": 0,
+          "value": " Cancelled jobs cannot be restarted. Records created or updated before"
+        },
+        {
+          "type": 1,
+          "value": "break"
+        },
+        {
+          "type": 0,
+          "value": "the job is cancelled cannot yet be reverted."
+        }
+      ],
+      "type": 8,
+      "value": "p"
+    }
+  ],
+  "ui-data-import.modal.cancelUpload.cancel": [
+    {
+      "type": 0,
+      "value": "No, do not delete"
+    }
+  ],
+  "ui-data-import.modal.cancelUpload.confirm": [
+    {
+      "type": 0,
+      "value": "Yes, delete"
+    }
+  ],
+  "ui-data-import.modal.cancelUpload.header": [
+    {
+      "type": 0,
+      "value": "Delete uploaded file?"
+    }
+  ],
+  "ui-data-import.modal.cancelUpload.message": [
+    {
+      "type": 0,
+      "value": "Are you sure that you want "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "to delete this uploaded file?"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " Deleted files will be permanently removed and cannot be retrieved"
+    }
+  ],
+  "ui-data-import.modal.confirmJobFinished.header": [
+    {
+      "type": 0,
+      "value": "Import job finished before cancellation"
+    }
+  ],
+  "ui-data-import.modal.confirmJobFinished.message": [
+    {
+      "type": 0,
+      "value": "This job finished before the system could cancel it, and appears at the top of the import log"
+    }
+  ],
+  "ui-data-import.settings.actionProfiles.form": [
+    {
+      "type": 0,
+      "value": "Action profile form"
+    }
+  ],
+  "ui-data-import.settings.fileExtensions.form": [
+    {
+      "type": 0,
+      "value": "File extension form"
+    }
+  ],
+  "ui-data-import.settings.jobProfiles.form": [
+    {
+      "type": 0,
+      "value": "Job profile form"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.form": [
+    {
+      "type": 0,
+      "value": "Mapping profile form"
+    }
+  ],
+  "ui-data-import.settings.matchProfiles.form": [
+    {
+      "type": 0,
+      "value": "Match profile form"
+    }
+  ],
+  "ui-data-import.willDeleteFile": [
+    {
+      "type": 1,
+      "value": "name"
+    },
+    {
+      "type": 0,
+      "value": " will be deleted"
+    }
+  ],
+  "ui-developer.app-manager": [
+    {
+      "type": 0,
+      "value": "应用管理器"
+    }
+  ],
+  "ui-developer.app-manager.apps": [
+    {
+      "type": 0,
+      "value": "应用"
+    }
+  ],
+  "ui-developer.app-manager.apps.count": [
+    {
+      "type": 1,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": " "
+    },
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "应用"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "应用"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "count"
+    }
+  ],
+  "ui-developer.app-manager.sources": [
+    {
+      "type": 0,
+      "value": "来源"
+    }
+  ],
+  "ui-developer.app-manager.sources.count": [
+    {
+      "type": 1,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": " "
+    },
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "来源"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "来源"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "count"
+    }
+  ],
+  "ui-developer.app-manager.sources.heading.owner": [
+    {
+      "type": 0,
+      "value": "缴费处"
+    }
+  ],
+  "ui-developer.app-manager.sources.heading.repo": [
+    {
+      "type": 0,
+      "value": "Repo"
+    }
+  ],
+  "ui-developer.app-manager.sources.heading.token": [
+    {
+      "type": 0,
+      "value": "GitHub令牌"
+    }
+  ],
+  "ui-developer.app-manager.sources.heading.tokenEnd": [
+    {
+      "type": 0,
+      "value": "令牌结束"
+    }
+  ],
+  "ui-developer.app-manager.sources.heading.tokenStart": [
+    {
+      "type": 0,
+      "value": "令牌开始"
+    }
+  ],
+  "ui-developer.app-manager.sources.objectLabel": [
+    {
+      "type": 0,
+      "value": "条目"
+    }
+  ],
+  "ui-developer.app-manager.sources.plural": [
+    {
+      "type": 0,
+      "value": "来源"
+    }
+  ],
+  "ui-developer.app-manager.sources.singular": [
+    {
+      "type": 0,
+      "value": "来源"
+    }
+  ],
+  "ui-developer.okapiConsole.modules.deployments": [
+    {
+      "type": 0,
+      "value": "有"
+    },
+    {
+      "type": 1,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": " "
+    },
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "部署"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "部署"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "count"
+    }
+  ],
+  "ui-developer.okapiConsole.modules.deployments.undeploy": [
+    {
+      "type": 0,
+      "value": "取消部署"
+    }
+  ],
+  "ui-developer.okapiConsole.modules.deployments.undeploy.confirm": [
+    {
+      "type": 0,
+      "value": "确定知道在做什么，并且想要取消部署吗？"
+    }
+  ],
+  "ui-developer.okapiConsole.modules.deployments.undeploy.error": [
+    {
+      "type": 0,
+      "value": "无法取消部署实例"
+    },
+    {
+      "type": 1,
+      "value": "instId"
+    },
+    {
+      "type": 0,
+      "value": " （模块"
+    },
+    {
+      "type": 1,
+      "value": "id"
+    },
+    {
+      "type": 0,
+      "value": " ）： "
+    },
+    {
+      "type": 1,
+      "value": "error"
+    }
+  ],
+  "ui-developer.okapiConsole.modules.deployments.undeploy.success": [
+    {
+      "type": 0,
+      "value": "未部署的实例"
+    },
+    {
+      "type": 1,
+      "value": "instId"
+    },
+    {
+      "type": 0,
+      "value": " （模块"
+    },
+    {
+      "type": 1,
+      "value": "id"
+    },
+    {
+      "type": 0,
+      "value": " ）"
+    }
+  ],
+  "ui-eholdings.exportPackageResources.fields.package.packageLevelToken": [
+    {
+      "type": 0,
+      "value": "Package Level Token"
+    }
+  ],
+  "ui-eholdings.exportPackageResources.fields.package.providerLevelToken": [
+    {
+      "type": 0,
+      "value": "Provider Level Token"
+    }
+  ],
+  "ui-eholdings.label.alternateTitle": [
+    {
+      "type": 0,
+      "value": "Alternate title(s)"
+    }
+  ],
+  "ui-eholdings.title.alternateTitle": [
+    {
+      "type": 0,
+      "value": "Alternate title(s)"
+    }
+  ],
+  "ui-erm-usage.harvester.jobs.column.duration": [
+    {
+      "type": 0,
+      "value": "Duration"
+    }
+  ],
+  "ui-erm-usage.harvester.jobs.column.finish": [
+    {
+      "type": 0,
+      "value": "Finish"
+    }
+  ],
+  "ui-erm-usage.harvester.jobs.column.provider": [
+    {
+      "type": 0,
+      "value": "Provider / Tenant"
+    }
+  ],
+  "ui-erm-usage.harvester.jobs.column.start": [
+    {
+      "type": 0,
+      "value": "Start"
+    }
+  ],
+  "ui-erm-usage.harvester.jobs.column.type": [
+    {
+      "type": 0,
+      "value": "Type"
+    }
+  ],
+  "ui-erm-usage.harvester.jobs.filter.type.periodic": [
+    {
+      "type": 0,
+      "value": "Periodic"
+    }
+  ],
+  "ui-erm-usage.harvester.jobs.filter.type.provider": [
+    {
+      "type": 0,
+      "value": "Provider"
+    }
+  ],
+  "ui-erm-usage.harvester.jobs.filter.type.tenant": [
+    {
+      "type": 0,
+      "value": "Tenant"
+    }
+  ],
+  "ui-erm-usage.harvester.jobs.paneTitle": [
+    {
+      "type": 0,
+      "value": "Harvesting jobs"
+    }
+  ],
+  "ui-erm-usage.harvester.jobs.refresh": [
+    {
+      "type": 0,
+      "value": "Refresh"
+    }
+  ],
+  "ui-erm-usage.harvester.jobs.show": [
+    {
+      "type": 0,
+      "value": "Show harvester logs"
+    }
+  ],
+  "ui-export-manager.exportJob.details.action.download": [
+    {
+      "type": 0,
+      "value": "下载"
+    }
+  ],
+  "ui-export-manager.exportJob.details.action.download.error": [
+    {
+      "type": 0,
+      "value": "文件下载失败。"
+    }
+  ],
+  "ui-export-manager.exportJob.details.action.resend": [
+    {
+      "type": 0,
+      "value": "重新发送"
+    }
+  ],
+  "ui-export-manager.exportJob.details.action.resend.error": [
+    {
+      "type": 0,
+      "value": "文件上传失败。"
+    }
+  ],
+  "ui-export-manager.exportJob.details.action.resend.success": [
+    {
+      "type": 0,
+      "value": "文件上传已成功开始。"
+    }
+  ],
+  "ui-export-manager.exportJob.type.BULK_EDIT": [
+    {
+      "type": 0,
+      "value": "Bulk edit"
+    }
+  ],
+  "ui-export-manager.permission.jobs.downloadAndResend": [
+    {
+      "type": 0,
+      "value": "导出管理：下载并重新发送文件"
+    }
+  ],
+  "ui-finance.actions.rolloverLogs": [
+    {
+      "type": 0,
+      "value": "展期日志"
+    }
+  ],
+  "ui-finance.cancel": [
+    {
+      "type": 0,
+      "value": "取消"
+    }
+  ],
+  "ui-finance.continue": [
+    {
+      "type": 0,
+      "value": "继续"
+    }
+  ],
+  "ui-finance.invoice.invoiceDate": [
+    {
+      "type": 0,
+      "value": "发票数据"
+    }
+  ],
+  "ui-finance.invoice.invoiceTotal": [
+    {
+      "type": 0,
+      "value": "总计（系统）"
+    }
+  ],
+  "ui-finance.invoice.status": [
+    {
+      "type": 0,
+      "value": "状态"
+    }
+  ],
+  "ui-finance.invoice.status.Approved": [
+    {
+      "type": 0,
+      "value": "已批准"
+    }
+  ],
+  "ui-finance.invoice.status.Open": [
+    {
+      "type": 0,
+      "value": "未结"
+    }
+  ],
+  "ui-finance.invoice.status.Reviewed": [
+    {
+      "type": 0,
+      "value": "已审核"
+    }
+  ],
+  "ui-finance.invoice.unpaidInvoices": [
+    {
+      "type": 0,
+      "value": "未付发票"
+    }
+  ],
+  "ui-finance.invoice.unpaidInvoices.exportCSV": [
+    {
+      "type": 0,
+      "value": "导出列表"
+    }
+  ],
+  "ui-finance.invoice.unpaidInvoices.exportCSV.error": [
+    {
+      "type": 0,
+      "value": "无法导出发票"
+    }
+  ],
+  "ui-finance.invoice.unpaidInvoices.exportCSV.started": [
+    {
+      "type": 0,
+      "value": "发票导出已成功开始"
+    }
+  ],
+  "ui-finance.invoice.unpaidInvoices.header": [
+    {
+      "type": 0,
+      "value": "FOLIO 发现尚未支付或取消的发票。如果确定要继续展期，请单击继续。"
+    }
+  ],
+  "ui-finance.invoice.vendor": [
+    {
+      "type": 0,
+      "value": "供应商"
+    }
+  ],
+  "ui-finance.invoice.vendorInvoiceNo": [
+    {
+      "type": 0,
+      "value": "供应商发票号"
+    }
+  ],
+  "ui-finance.ledger.rollover.error.conflict": [
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "ledgerName"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " was already rolled over from the fiscal year "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "fromFYcode"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " to the fiscal year "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "toFYcode"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
+  "ui-finance.ledger.rollover.logs.endDate": [
+    {
+      "type": 0,
+      "value": "结束时间"
+    }
+  ],
+  "ui-finance.ledger.rollover.logs.errors": [
+    {
+      "type": 0,
+      "value": "错误"
+    }
+  ],
+  "ui-finance.ledger.rollover.logs.export.failed": [
+    {
+      "type": 0,
+      "value": "无法导出展期日志"
+    }
+  ],
+  "ui-finance.ledger.rollover.logs.results": [
+    {
+      "type": 0,
+      "value": "结果"
+    }
+  ],
+  "ui-finance.ledger.rollover.logs.results.export.start": [
+    {
+      "type": 0,
+      "value": "Export of budget results has been started"
+    }
+  ],
+  "ui-finance.ledger.rollover.logs.source": [
+    {
+      "type": 0,
+      "value": "来源"
+    }
+  ],
+  "ui-finance.ledger.rollover.logs.startDate": [
+    {
+      "type": 0,
+      "value": "起始时间"
+    }
+  ],
+  "ui-finance.ledger.rollover.logs.status": [
+    {
+      "type": 0,
+      "value": "状态"
+    }
+  ],
+  "ui-finance.ledger.rollover.rolloverTest": [
+    {
+      "type": 0,
+      "value": "展期测试"
+    }
+  ],
+  "ui-finance.ledger.rollover.status.error": [
+    {
+      "type": 0,
+      "value": "失败"
+    }
+  ],
+  "ui-finance.ledger.rollover.status.inProgress": [
+    {
+      "type": 0,
+      "value": "进行中"
+    }
+  ],
+  "ui-finance.ledger.rollover.status.notStarted": [
+    {
+      "type": 0,
+      "value": "未启动"
+    }
+  ],
+  "ui-finance.ledger.rollover.status.success": [
+    {
+      "type": 0,
+      "value": "成功"
+    }
+  ],
+  "ui-finance.ledger.rollover.testBtn": [
+    {
+      "type": 0,
+      "value": "测试展期"
+    }
+  ],
+  "ui-finance.ledger.rolloverTest.confirm.heading": [
+    {
+      "type": 0,
+      "value": "财务年度展期测试"
+    }
+  ],
+  "ui-finance.ledger.rolloverTest.confirm.message": [
+    {
+      "type": 0,
+      "value": "请确认已完成必要的详细信息并准备好继续展期测试。此过程可能需要几分钟才能完成。该过程完成后，将向"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "email"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "发送一个指向结果的链接。"
+    }
+  ],
+  "ui-finance.ledger.rolloverTest.start.success": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "ledgerName"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "展期测试已成功开始"
+    }
+  ],
+  "ui-gobi-settings.actions.restore.confirm": [
+    {
+      "type": 0,
+      "value": "确认"
+    }
+  ],
+  "ui-gobi-settings.actions.restore.heading": [
+    {
+      "type": 0,
+      "value": "重置默认配置"
+    }
+  ],
+  "ui-gobi-settings.actions.restore.message": [
+    {
+      "type": 0,
+      "value": "重置本配置将删除所有自定义并恢复默认配置文件映射"
+    }
+  ],
+  "ui-gobi-settings.button.edit": [
+    {
+      "type": 0,
+      "value": "编辑"
+    }
+  ],
+  "ui-gobi-settings.configFiles": [
+    {
+      "type": 0,
+      "value": "配置文件"
+    }
+  ],
+  "ui-gobi-settings.integrationDetails": [
+    {
+      "type": 0,
+      "value": "集成详情"
+    }
+  ],
+  "ui-gobi-settings.mappingConfig": [
+    {
+      "type": 0,
+      "value": "映射配置"
+    }
+  ],
+  "ui-gobi-settings.mappingConfig.edit.paneTitle": [
+    {
+      "type": 0,
+      "value": "编辑 "
+    },
+    {
+      "type": 1,
+      "value": "name"
+    }
+  ],
+  "ui-gobi-settings.mappingConfig.update.error": [
+    {
+      "type": 0,
+      "value": "未能更新"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "name"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "映射"
+    }
+  ],
+  "ui-gobi-settings.mappingConfig.update.success": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "name"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "映射已成功更新"
+    }
+  ],
+  "ui-gobi-settings.meta.title": [
+    {
+      "type": 0,
+      "value": "GOBI集成"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.accordion.poInfo": [
+    {
+      "type": 0,
+      "value": "订单信息"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.accordion.poItemDetails": [
+    {
+      "type": 0,
+      "value": "单件详情"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.accordion.poNotes": [
+    {
+      "type": 0,
+      "value": "附注"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.accordion.poOngoing": [
+    {
+      "type": 0,
+      "value": "持续订单信息"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.accordion.poSummary": [
+    {
+      "type": 0,
+      "value": "订单摘要"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.accordion.poTags": [
+    {
+      "type": 0,
+      "value": "订单标签"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.accordion.polCostDetails": [
+    {
+      "type": 0,
+      "value": "费用详情"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.accordion.polDetails": [
+    {
+      "type": 0,
+      "value": "订单行详情"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.accordion.polEResources": [
+    {
+      "type": 0,
+      "value": "电子资源详情"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.accordion.polFResources": [
+    {
+      "type": 0,
+      "value": "实体资源详情"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.accordion.polFundDistribution": [
+    {
+      "type": 0,
+      "value": "经费分配"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.accordion.polLocation": [
+    {
+      "type": 0,
+      "value": "位置"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.accordion.polOngoingOrder": [
+    {
+      "type": 0,
+      "value": "采购订单行持续订单信息"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.accordion.polOtherResources": [
+    {
+      "type": 0,
+      "value": "其他资源详情"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.accordion.polTags": [
+    {
+      "type": 0,
+      "value": "订单行标签"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.accordion.polVendor": [
+    {
+      "type": 0,
+      "value": "供应商"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.accordion.relatedAgreements": [
+    {
+      "type": 0,
+      "value": "相关协议"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.accessProvider": [
+    {
+      "type": 0,
+      "value": "访问提供者"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.acquisitionMethod": [
+    {
+      "type": 0,
+      "value": "采购方式"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.acquisitionUnit": [
+    {
+      "type": 0,
+      "value": "Acquisition units"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.activated": [
+    {
+      "type": 0,
+      "value": "激活状态"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.activationDue": [
+    {
+      "type": 0,
+      "value": "激活到期"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.additionalCost": [
+    {
+      "type": 0,
+      "value": "附加费用"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.aggrementId": [
+    {
+      "type": 0,
+      "value": "协议ID"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.approved": [
+    {
+      "type": 0,
+      "value": "已批准"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.assignedTo": [
+    {
+      "type": 0,
+      "value": "已分配给"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.billTo": [
+    {
+      "type": 0,
+      "value": "账单送至"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.cancellationRestriction": [
+    {
+      "type": 0,
+      "value": "取消限制"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.cancellationRestrictionNote": [
+    {
+      "type": 0,
+      "value": "取消描述"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.collection": [
+    {
+      "type": 0,
+      "value": "集合"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.contributor": [
+    {
+      "type": 0,
+      "value": "贡献者"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.contributorNameType": [
+    {
+      "type": 0,
+      "value": "贡献者类型"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.createInventory": [
+    {
+      "type": 0,
+      "value": "创建典藏"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.currency": [
+    {
+      "type": 0,
+      "value": "货币"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.dataSource.defaultValue": [
+    {
+      "type": 0,
+      "value": "默认值"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.dataSource.fromFieldName": [
+    {
+      "type": 0,
+      "value": "从字段"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.dataSource.fromFieldPath": [
+    {
+      "type": 0,
+      "value": "路径"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.dataSource.translateDefault": [
+    {
+      "type": 0,
+      "value": "翻译默认"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.dataSource.translator": [
+    {
+      "type": 0,
+      "value": "翻译"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.dateOrdered": [
+    {
+      "type": 0,
+      "value": "订购日期"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.description": [
+    {
+      "type": 0,
+      "value": "内部附注"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.discount": [
+    {
+      "type": 0,
+      "value": "折扣"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.discountType": [
+    {
+      "type": 0,
+      "value": "类型"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.donor": [
+    {
+      "type": 0,
+      "value": "捐赠者"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.edition": [
+    {
+      "type": 0,
+      "value": "版本"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.exchangeRate": [
+    {
+      "type": 0,
+      "value": "设定汇率"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.expectedActivation": [
+    {
+      "type": 0,
+      "value": "等候激活"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.expectedReceiptDate": [
+    {
+      "type": 0,
+      "value": "预期接收日期"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.expenseClass": [
+    {
+      "type": 0,
+      "value": "支出类别"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.fundCode": [
+    {
+      "type": 0,
+      "value": "经费代码"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.fundId": [
+    {
+      "type": 0,
+      "value": "经费ID"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.fundPercentage": [
+    {
+      "type": 0,
+      "value": "类型"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.linkedPackage": [
+    {
+      "type": 0,
+      "value": "链接资源包"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.listUnitPrice": [
+    {
+      "type": 0,
+      "value": "实物单价"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.listUnitPriceElectronic": [
+    {
+      "type": 0,
+      "value": "电子单价"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.location": [
+    {
+      "type": 0,
+      "value": "位置"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.manualPo": [
+    {
+      "type": 0,
+      "value": "人工"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.materialSupplier": [
+    {
+      "type": 0,
+      "value": "资料供应商"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.materialType": [
+    {
+      "type": 0,
+      "value": "资料类型"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.notes": [
+    {
+      "type": 0,
+      "value": "附注"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.ongoingDate": [
+    {
+      "type": 0,
+      "value": "续借日期"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.ongoingInterval": [
+    {
+      "type": 0,
+      "value": "续借间隔"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.ongoingIsSubscription": [
+    {
+      "type": 0,
+      "value": "订阅"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.ongoingManual": [
+    {
+      "type": 0,
+      "value": "人工续借"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.ongoingNotes": [
+    {
+      "type": 0,
+      "value": "附注"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.ongoingReviewDate": [
+    {
+      "type": 0,
+      "value": "审核日期"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.ongoingReviewPeriod": [
+    {
+      "type": 0,
+      "value": "审核期限"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.orderType": [
+    {
+      "type": 0,
+      "value": "订购类型"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.packageDesignation": [
+    {
+      "type": 0,
+      "value": "资源包"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.poLineDescription": [
+    {
+      "type": 0,
+      "value": "行描述"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.poLineEstimatedPrice": [
+    {
+      "type": 0,
+      "value": "预估价格"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.poLineOrderFormat": [
+    {
+      "type": 0,
+      "value": "订单格式"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.poLinePaymentStatus": [
+    {
+      "type": 0,
+      "value": "支付状态"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.poLineReceiptStatus": [
+    {
+      "type": 0,
+      "value": "接收状态"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.prefix": [
+    {
+      "type": 0,
+      "value": "前缀"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.productId": [
+    {
+      "type": 0,
+      "value": "产品ID"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.productIdType": [
+    {
+      "type": 0,
+      "value": "产品ID类型"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.productQualifier": [
+    {
+      "type": 0,
+      "value": "限定词"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.publicationDate": [
+    {
+      "type": 0,
+      "value": "出版日期"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.publisher": [
+    {
+      "type": 0,
+      "value": "出版者"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.purchaseOrderId": [
+    {
+      "type": 0,
+      "value": "采购订单ID"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.quantityElectronic": [
+    {
+      "type": 0,
+      "value": "电子数量"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.quantityPhysical": [
+    {
+      "type": 0,
+      "value": "实物数量"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.reEncumber": [
+    {
+      "type": 0,
+      "value": "重新预支"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.receiptDate": [
+    {
+      "type": 0,
+      "value": "接收日期"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.receiptDue": [
+    {
+      "type": 0,
+      "value": "接收到期"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.receivingNote": [
+    {
+      "type": 0,
+      "value": "接收附注"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.receivingWorkflow": [
+    {
+      "type": 0,
+      "value": "接收工作流程"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.requester": [
+    {
+      "type": 0,
+      "value": "请求者"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.rush": [
+    {
+      "type": 0,
+      "value": "忙碌"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.selector": [
+    {
+      "type": 0,
+      "value": "选择者"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.shipTo": [
+    {
+      "type": 0,
+      "value": "运送到"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.source": [
+    {
+      "type": 0,
+      "value": "来源"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.subscriptionFrom": [
+    {
+      "type": 0,
+      "value": "订阅自"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.subscriptionInterval": [
+    {
+      "type": 0,
+      "value": "订阅间隔"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.subscriptionTo": [
+    {
+      "type": 0,
+      "value": "订阅到"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.suffix": [
+    {
+      "type": 0,
+      "value": "后缀"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.tags": [
+    {
+      "type": 0,
+      "value": "标签"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.title": [
+    {
+      "type": 0,
+      "value": "题名"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.totalEstimatedPrice": [
+    {
+      "type": 0,
+      "value": "预估总价"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.totalItems": [
+    {
+      "type": 0,
+      "value": "总单件"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.trial": [
+    {
+      "type": 0,
+      "value": "试用"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.url": [
+    {
+      "type": 0,
+      "value": "URL"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.userLimit": [
+    {
+      "type": 0,
+      "value": "用户限制"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.vendor": [
+    {
+      "type": 0,
+      "value": "供应商"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.vendorAccount": [
+    {
+      "type": 0,
+      "value": "账号"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.vendorInstructions": [
+    {
+      "type": 0,
+      "value": "给供应商的说明"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.vendorRefNo": [
+    {
+      "type": 0,
+      "value": "供应商参考号"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.vendorRefNoType": [
+    {
+      "type": 0,
+      "value": "供应商参考类型"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.volumes": [
+    {
+      "type": 0,
+      "value": "卷"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.field.workflowStatus": [
+    {
+      "type": 0,
+      "value": "工作流程状态"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.translator.lookupAcquisitionMethodIds": [
+    {
+      "type": 0,
+      "value": "查询采购方式UUIDs"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.translator.lookupAcquisitionUnitDefaultAcqUnitName": [
+    {
+      "type": 0,
+      "value": "查找与此组织帐户关联的采购单位 UUID"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.translator.lookupAcquisitionUnitIdsByAccount": [
+    {
+      "type": 0,
+      "value": "Lookup acquisition unit UUIDs associated with account"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.translator.lookupAcquisitionUnitIdsByName": [
+    {
+      "type": 0,
+      "value": "Lookup acquisition unit UUIDs associated with name"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.translator.lookupBillTo": [
+    {
+      "type": 0,
+      "value": "查询账单至"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.translator.lookupConfigAddress": [
+    {
+      "type": 0,
+      "value": "查找配置地址"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.translator.lookupContributorNameTypeId": [
+    {
+      "type": 0,
+      "value": "查询贡献UUID"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.translator.lookupExpenseClassId": [
+    {
+      "type": 0,
+      "value": "查询支出类别UUID"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.translator.lookupFundId": [
+    {
+      "type": 0,
+      "value": "查询经费UUID"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.translator.lookupLinkedPackage": [
+    {
+      "type": 0,
+      "value": "通过订单行号查询采购订单行UUID"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.translator.lookupLocationId": [
+    {
+      "type": 0,
+      "value": "查询（典藏）位置记录的UUID"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.translator.lookupMaterialTypeId": [
+    {
+      "type": 0,
+      "value": "查询资料类型的UUID"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.translator.lookupMock": [
+    {
+      "type": 0,
+      "value": "查询模拟"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.translator.lookupOrganization": [
+    {
+      "type": 0,
+      "value": "查询组织"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.translator.lookupPrefix": [
+    {
+      "type": 0,
+      "value": "查询采购订单号的前缀UUID"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.translator.lookupProductIdType": [
+    {
+      "type": 0,
+      "value": "查询与产品ID类型对应的UUID"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.translator.lookupShipTo": [
+    {
+      "type": 0,
+      "value": "查询收货至"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.translator.lookupSuffix": [
+    {
+      "type": 0,
+      "value": "查询采购订单号的后缀UUID"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.translator.separateISBNQualifier": [
+    {
+      "type": 0,
+      "value": "分开ISBN限定词"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.translator.toBoolean": [
+    {
+      "type": 0,
+      "value": "到布尔值"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.translator.toDate": [
+    {
+      "type": 0,
+      "value": "到日期"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.translator.toDouble": [
+    {
+      "type": 0,
+      "value": "到双精度浮点数"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.translator.toInteger": [
+    {
+      "type": 0,
+      "value": "到整数"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.translator.truncateISBNQualifier": [
+    {
+      "type": 0,
+      "value": "截断ISBN限定词"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.type.listedElectronicMonograph": [
+    {
+      "type": 0,
+      "value": "列出的电子专著"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.type.listedElectronicSerial": [
+    {
+      "type": 0,
+      "value": "列出的电子连续出版物"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.type.listedPrintMonograph": [
+    {
+      "type": 0,
+      "value": "列出的印刷专著"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.type.listedPrintSerial": [
+    {
+      "type": 0,
+      "value": "列出的印刷连续出版物"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.type.unlistedPrintMonograph": [
+    {
+      "type": 0,
+      "value": "未列出的印刷专著"
+    }
+  ],
+  "ui-gobi-settings.order.mappings.type.unlistedPrintSerial": [
+    {
+      "type": 0,
+      "value": "未列出的印刷连续出版物"
+    }
+  ],
+  "ui-gobi-settings.permission.settings": [
+    {
+      "type": 0,
+      "value": "GOBI集成：查看和编辑设置"
+    }
+  ],
+  "ui-gobi-settings.restore.error": [
+    {
+      "type": 0,
+      "value": "默认配置未恢复"
+    }
+  ],
+  "ui-gobi-settings.restore.success": [
+    {
+      "type": 0,
+      "value": "默认配置已恢复"
+    }
+  ],
+  "ui-gobi-settings.settings": [
+    {
+      "type": 0,
+      "value": "GOBI 集成设置"
+    }
+  ],
+  "ui-inventory.browse.callNumbers": [
+    {
+      "type": 0,
+      "value": "索书号"
+    }
+  ],
+  "ui-inventory.browse.contributors": [
+    {
+      "type": 0,
+      "value": "贡献者"
+    }
+  ],
+  "ui-inventory.browse.searchableIndexesPlaceholder": [
+    {
+      "type": 0,
+      "value": "选择浏览选项"
+    }
+  ],
+  "ui-inventory.browse.subjects": [
+    {
+      "type": 0,
+      "value": "主题"
+    }
+  ],
+  "ui-inventory.inactive": [
+    {
+      "type": 0,
+      "value": "未激活"
+    }
+  ],
+  "ui-inventory.inactive.paneTitle": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "未激活"
+        }
+      ],
+      "type": 8,
+      "value": "em"
+    },
+    {
+      "type": 0,
+      "value": " "
+    },
+    {
+      "type": 1,
+      "value": "location"
+    }
+  ],
+  "ui-inventory.linkedToMarcAuthority": [
+    {
+      "type": 0,
+      "value": "链接到MARC规范"
+    }
+  ],
+  "ui-inventory.noItemDeleteModal.awaitingPickupMessage": [
+    {
+      "type": 0,
+      "value": "条码为"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "barcode"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": "的单件HRID "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "hrid"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": "已借出，在再次归还且单件状态为“可用”前无法删除"
+    }
+  ],
+  "ui-inventory.noItemDeleteModal.statusMessage": [
+    {
+      "type": 0,
+      "value": "带有条码"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "barcode"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": "的单件HRID "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "hrid"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " 具有单件状态"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "status"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " ，并且在单件状态设置为“可用”之前无法删除。"
+    }
+  ],
+  "ui-inventory.search": [
+    {
+      "type": 0,
+      "value": "搜索"
+    }
+  ],
+  "ui-inventory.search.holdingsAdministrativeNotes": [
+    {
+      "type": 0,
+      "value": "馆藏管理附注"
+    }
+  ],
+  "ui-inventory.search.holdingsNotes": [
+    {
+      "type": 0,
+      "value": "馆藏附注（全部）"
+    }
+  ],
+  "ui-inventory.search.instanceAdministrativeNotes": [
+    {
+      "type": 0,
+      "value": "实例管理附注"
+    }
+  ],
+  "ui-inventory.search.instanceNotes": [
+    {
+      "type": 0,
+      "value": "实例附注（全部）"
+    }
+  ],
+  "ui-inventory.search.itemAdministrativeNotes": [
+    {
+      "type": 0,
+      "value": "单件管理附注"
+    }
+  ],
+  "ui-inventory.search.itemCirculationNotes": [
+    {
+      "type": 0,
+      "value": "流通附注"
+    }
+  ],
+  "ui-inventory.search.itemNotes": [
+    {
+      "type": 0,
+      "value": "单件附注（全部）"
+    }
+  ],
+  "ui-invoice.invoiceLine.linesSequence.paneSubTitle": [
+    {
+      "type": 1,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": " lines found"
+    }
+  ],
+  "ui-invoice.invoiceLine.linesSequence.paneTitle": [
+    {
+      "type": 0,
+      "value": "Edit sequence of invoice lines • Vendor invoice number "
+    },
+    {
+      "type": 1,
+      "value": "vendorInvoiceNo"
+    }
+  ],
+  "ui-invoice.saveAndContinue": [
+    {
+      "type": 0,
+      "value": "Save & continue"
+    }
+  ],
+  "ui-licenses.AND": [
+    {
+      "type": 0,
+      "value": "与"
+    }
+  ],
+  "ui-licenses.OR": [
+    {
+      "type": 0,
+      "value": "或"
+    }
+  ],
+  "ui-licenses.actions": [
+    {
+      "type": 0,
+      "value": "操作"
+    }
+  ],
+  "ui-licenses.addRule": [
+    {
+      "type": 0,
+      "value": "添加规则"
+    }
+  ],
+  "ui-licenses.apply": [
+    {
+      "type": 0,
+      "value": "应用"
+    }
+  ],
+  "ui-licenses.comparator": [
+    {
+      "type": 0,
+      "value": "布尔算符"
+    }
+  ],
+  "ui-licenses.customProperties": [
+    {
+      "type": 0,
+      "value": "条款"
+    }
+  ],
+  "ui-licenses.customProperties.addProperty": [
+    {
+      "type": 0,
+      "value": "添加属性"
+    }
+  ],
+  "ui-licenses.customProperties.category": [
+    {
+      "type": 0,
+      "value": "选取清单"
+    }
+  ],
+  "ui-licenses.customProperties.config.all": [
+    {
+      "type": 0,
+      "value": "全部"
+    }
+  ],
+  "ui-licenses.customProperties.config.delete.confirmHeading": [
+    {
+      "type": 0,
+      "value": "删除条款"
+    }
+  ],
+  "ui-licenses.customProperties.config.delete.confirmMessage": [
+    {
+      "type": 0,
+      "value": "条款 "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "name"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": "将被"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "删除"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " 。"
+    }
+  ],
+  "ui-licenses.customProperties.config.delete.errorMessage": [
+    {
+      "type": 0,
+      "value": "删除条款： "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "label"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " 时出错。 "
+    },
+    {
+      "type": 1,
+      "value": "error"
+    }
+  ],
+  "ui-licenses.customProperties.config.editModal": [
+    {
+      "type": 0,
+      "value": "编辑 "
+    },
+    {
+      "type": 1,
+      "value": "name"
+    }
+  ],
+  "ui-licenses.customProperties.config.newModal": [
+    {
+      "type": 0,
+      "value": "新建条款"
+    }
+  ],
+  "ui-licenses.customProperties.ctx": [
+    {
+      "type": 0,
+      "value": "类别"
+    }
+  ],
+  "ui-licenses.customProperties.ctx.OpenAccess": [
+    {
+      "type": 0,
+      "value": "开放获取属性"
+    }
+  ],
+  "ui-licenses.customProperties.ctx.addContext": [
+    {
+      "type": 0,
+      "value": "添加类别"
+    },
+    {
+      "type": 1,
+      "value": "value"
+    }
+  ],
+  "ui-licenses.customProperties.ctx.title": [
+    {
+      "type": 0,
+      "value": "空"
+    }
+  ],
+  "ui-licenses.customProperties.defaultTitle": [
+    {
+      "type": 0,
+      "value": "条款 ( "
+    },
+    {
+      "type": 1,
+      "value": "ctx"
+    },
+    {
+      "type": 0,
+      "value": " )"
+    }
+  ],
+  "ui-licenses.customProperties.defaultVisibility": [
+    {
+      "type": 0,
+      "value": "默认可见性"
+    }
+  ],
+  "ui-licenses.customProperties.description": [
+    {
+      "type": 0,
+      "value": "描述"
+    }
+  ],
+  "ui-licenses.customProperties.errors.customPropertyNoteInvalidNumber": [
+    {
+      "type": 0,
+      "value": "必须输入有效数字才能保存附注"
+    }
+  ],
+  "ui-licenses.customProperties.errors.customPropertyNoteWithoutValue": [
+    {
+      "type": 0,
+      "value": "必须设置一个值才能保存附注"
+    }
+  ],
+  "ui-licenses.customProperties.errors.primaryRetired": [
+    {
+      "type": 0,
+      "value": "一个条款不能既是主要的又是弃用的"
+    }
+  ],
+  "ui-licenses.customProperties.internalFalse": [
+    {
+      "type": 0,
+      "value": "公开"
+    }
+  ],
+  "ui-licenses.customProperties.internalNote": [
+    {
+      "type": 0,
+      "value": "内部附注"
+    }
+  ],
+  "ui-licenses.customProperties.internalTrue": [
+    {
+      "type": 0,
+      "value": "内部的"
+    }
+  ],
+  "ui-licenses.customProperties.label": [
+    {
+      "type": 0,
+      "value": "标签"
+    }
+  ],
+  "ui-licenses.customProperties.name": [
+    {
+      "type": 0,
+      "value": "名称"
+    }
+  ],
+  "ui-licenses.customProperties.noCtxFound": [
+    {
+      "type": 0,
+      "value": "找不到匹配的类别"
+    }
+  ],
+  "ui-licenses.customProperties.optionalProperties": [
+    {
+      "type": 0,
+      "value": "可选属性"
+    }
+  ],
+  "ui-licenses.customProperties.primary": [
+    {
+      "type": 0,
+      "value": "主要"
+    }
+  ],
+  "ui-licenses.customProperties.primaryProperties": [
+    {
+      "type": 0,
+      "value": "主要属性"
+    }
+  ],
+  "ui-licenses.customProperties.publicNote": [
+    {
+      "type": 0,
+      "value": "公开附注"
+    }
+  ],
+  "ui-licenses.customProperties.retired": [
+    {
+      "type": 0,
+      "value": "已弃用"
+    }
+  ],
+  "ui-licenses.customProperties.type": [
+    {
+      "type": 0,
+      "value": "类型"
+    }
+  ],
+  "ui-licenses.customProperties.type.com.k_int.web.toolkit.custprops.types.CustomPropertyBlob": [
+    {
+      "type": 0,
+      "value": "Blob"
+    }
+  ],
+  "ui-licenses.customProperties.type.com.k_int.web.toolkit.custprops.types.CustomPropertyBoolean": [
+    {
+      "type": 0,
+      "value": "布尔值"
+    }
+  ],
+  "ui-licenses.customProperties.type.com.k_int.web.toolkit.custprops.types.CustomPropertyContainer": [
+    {
+      "type": 0,
+      "value": "容器"
+    }
+  ],
+  "ui-licenses.customProperties.type.com.k_int.web.toolkit.custprops.types.CustomPropertyDecimal": [
+    {
+      "type": 0,
+      "value": "小数"
+    }
+  ],
+  "ui-licenses.customProperties.type.com.k_int.web.toolkit.custprops.types.CustomPropertyInteger": [
+    {
+      "type": 0,
+      "value": "整数"
+    }
+  ],
+  "ui-licenses.customProperties.type.com.k_int.web.toolkit.custprops.types.CustomPropertyLocalDate": [
+    {
+      "type": 0,
+      "value": "日期"
+    }
+  ],
+  "ui-licenses.customProperties.type.com.k_int.web.toolkit.custprops.types.CustomPropertyMultiRefdata": [
+    {
+      "type": 0,
+      "value": "选取清单（多选）"
+    }
+  ],
+  "ui-licenses.customProperties.type.com.k_int.web.toolkit.custprops.types.CustomPropertyRefdata": [
+    {
+      "type": 0,
+      "value": "选取清单"
+    }
+  ],
+  "ui-licenses.customProperties.type.com.k_int.web.toolkit.custprops.types.CustomPropertyRefdataDefinition": [
+    {
+      "type": 0,
+      "value": "选取清单定义"
+    }
+  ],
+  "ui-licenses.customProperties.type.com.k_int.web.toolkit.custprops.types.CustomPropertyText": [
+    {
+      "type": 0,
+      "value": "文本"
+    }
+  ],
+  "ui-licenses.customProperties.value": [
+    {
+      "type": 0,
+      "value": "值"
+    }
+  ],
+  "ui-licenses.customProperties.visibility": [
+    {
+      "type": 0,
+      "value": "可见性"
+    }
+  ],
+  "ui-licenses.customProperties.weight": [
+    {
+      "type": 0,
+      "value": "订单重量"
+    }
+  ],
+  "ui-licenses.customProperty": [
+    {
+      "type": 0,
+      "value": "条款"
+    }
+  ],
+  "ui-licenses.customProperty.addFilter": [
+    {
+      "type": 0,
+      "value": "添加条款筛选"
+    }
+  ],
+  "ui-licenses.customProperty.editCustomPropertyFilters": [
+    {
+      "type": 0,
+      "value": "编辑条款筛选"
+    }
+  ],
+  "ui-licenses.customProperty.filterBuilder": [
+    {
+      "type": 0,
+      "value": "条款筛选构建器"
+    }
+  ],
+  "ui-licenses.customProperty.filterIndex": [
+    {
+      "type": 0,
+      "value": "条款筛选"
+    },
+    {
+      "type": 1,
+      "value": "index"
+    }
+  ],
+  "ui-licenses.customProperty.filtersApplied": [
+    {
+      "type": 0,
+      "value": "应用"
+    },
+    {
+      "type": 1,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": "条款筛选"
+    }
+  ],
+  "ui-licenses.customProperty.optionalPropertyHeader": [
+    {
+      "type": 0,
+      "value": "条款"
+    },
+    {
+      "type": 1,
+      "value": "number"
+    }
+  ],
+  "ui-licenses.customProperty.remove": [
+    {
+      "type": 0,
+      "value": "删除条款"
+    },
+    {
+      "type": 1,
+      "value": "number"
+    }
+  ],
+  "ui-licenses.customProperty.removeFilter": [
+    {
+      "type": 0,
+      "value": "移除条款筛选"
+    },
+    {
+      "type": 1,
+      "value": "index"
+    }
+  ],
+  "ui-licenses.customProperty.removeRule": [
+    {
+      "type": 0,
+      "value": "移除规则"
+    }
+  ],
+  "ui-licenses.customProperty.retiredName": [
+    {
+      "type": 0,
+      "value": "已弃用： "
+    },
+    {
+      "type": 1,
+      "value": "name"
+    }
+  ],
+  "ui-licenses.errors.decimalValueNotInRange": [
+    {
+      "type": 0,
+      "value": "请输入"
+    },
+    {
+      "type": 1,
+      "value": "min"
+    },
+    {
+      "type": 0,
+      "value": "至"
+    },
+    {
+      "type": 1,
+      "value": "max"
+    },
+    {
+      "type": 0,
+      "value": "范围内的数字以继续"
+    }
+  ],
+  "ui-licenses.errors.hasNonAlphaName": [
+    {
+      "type": 0,
+      "value": "名称只能包含拉丁字母字符（a-z）和非前导数字字符。"
+    }
+  ],
+  "ui-licenses.errors.invalidNumber": [
+    {
+      "type": 0,
+      "value": "请输入有效数字以继续"
+    }
+  ],
+  "ui-licenses.errors.maxTwoDecimals": [
+    {
+      "type": 0,
+      "value": "请输入最多2位小数的数字"
+    }
+  ],
+  "ui-licenses.errors.valueNotInRange": [
+    {
+      "type": 0,
+      "value": "请输入"
+    },
+    {
+      "type": 1,
+      "value": "min"
+    },
+    {
+      "type": 0,
+      "value": "至"
+    },
+    {
+      "type": 1,
+      "value": "max"
+    },
+    {
+      "type": 0,
+      "value": "范围内的整数以继续"
+    }
+  ],
+  "ui-licenses.new": [
+    {
+      "type": 0,
+      "value": "新建"
+    }
+  ],
+  "ui-licenses.no": [
+    {
+      "type": 0,
+      "value": "否"
+    }
+  ],
+  "ui-licenses.notSet": [
+    {
+      "type": 0,
+      "value": "未设置"
+    }
+  ],
+  "ui-licenses.operator.contains": [
+    {
+      "type": 0,
+      "value": "包含"
+    }
+  ],
+  "ui-licenses.operator.doesNotContain": [
+    {
+      "type": 0,
+      "value": "不含"
+    }
+  ],
+  "ui-licenses.operator.doesNotEqual": [
+    {
+      "type": 0,
+      "value": "不等于"
+    }
+  ],
+  "ui-licenses.operator.equals": [
+    {
+      "type": 0,
+      "value": "等于"
+    }
+  ],
+  "ui-licenses.operator.is": [
+    {
+      "type": 0,
+      "value": "是"
+    }
+  ],
+  "ui-licenses.operator.isGreaterThanOrEqual": [
+    {
+      "type": 0,
+      "value": "大于等于"
+    }
+  ],
+  "ui-licenses.operator.isLessThanOrEqual": [
+    {
+      "type": 0,
+      "value": "小于等于"
+    }
+  ],
+  "ui-licenses.operator.isNot": [
+    {
+      "type": 0,
+      "value": "非"
+    }
+  ],
+  "ui-licenses.operator.isNotSet": [
+    {
+      "type": 0,
+      "value": "未设置"
+    }
+  ],
+  "ui-licenses.operator.isOnOrAfter": [
+    {
+      "type": 0,
+      "value": "正在或之后"
+    }
+  ],
+  "ui-licenses.operator.isOnOrBefore": [
+    {
+      "type": 0,
+      "value": "正在或之前"
+    }
+  ],
+  "ui-licenses.operator.isSet": [
+    {
+      "type": 0,
+      "value": "已设置"
+    }
+  ],
+  "ui-licenses.refdata.deleteAriaLabel": [
+    {
+      "type": 0,
+      "value": "删除值"
+    },
+    {
+      "type": 1,
+      "value": "label"
+    }
+  ],
+  "ui-licenses.refdata.deleteRefdataValue": [
+    {
+      "type": 0,
+      "value": "删除选取清单值"
+    }
+  ],
+  "ui-licenses.refdata.deleteRefdataValue.confirmMessage": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "name"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": "将被删除。"
+    }
+  ],
+  "ui-licenses.refdata.deleteRefdataValue.errorMessage": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "错误： "
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": "选取清单值"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "label"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": "未被删除，因为它在一个或多个许可证的一个或多个条款中使用。"
+    }
+  ],
+  "ui-licenses.refdata.editAriaLabel": [
+    {
+      "type": 0,
+      "value": "编辑值"
+    },
+    {
+      "type": 1,
+      "value": "label"
+    }
+  ],
+  "ui-licenses.refdata.label": [
+    {
+      "type": 0,
+      "value": "标签"
+    }
+  ],
+  "ui-licenses.refdata.value": [
+    {
+      "type": 0,
+      "value": "值"
+    }
+  ],
+  "ui-licenses.refdataCategory.deleteAriaLabel": [
+    {
+      "type": 0,
+      "value": "删除值"
+    },
+    {
+      "type": 1,
+      "value": "label"
+    }
+  ],
+  "ui-licenses.refdataCategory.deleteRefdataCategory": [
+    {
+      "type": 0,
+      "value": "删除选取清单类别"
+    }
+  ],
+  "ui-licenses.refdataCategory.deleteRefdataCategory.confirmMessage": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "name"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": "将被删除。"
+    }
+  ],
+  "ui-licenses.refdataCategory.deleteRefdataCategory.errorMessage": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "错误"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " ：选取清单"
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "label"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": "未被删除。这很可能是因为它已应用于一个或多个条款。要解决此问题，请从所有条款中移除选取清单，然后再次尝试删除选取清单。"
+    }
+  ],
+  "ui-licenses.refdataCategory.noOfValues": [
+    {
+      "type": 0,
+      "value": "值的编号"
+    }
+  ],
+  "ui-licenses.refdataCategory.refdataCategories": [
+    {
+      "type": 0,
+      "value": "类别"
+    }
+  ],
+  "ui-licenses.refdataCategory.refdataCategory": [
+    {
+      "type": 0,
+      "value": "类别"
+    }
+  ],
+  "ui-licenses.save": [
+    {
+      "type": 0,
+      "value": "保存"
+    }
+  ],
+  "ui-licenses.saveAndClose": [
+    {
+      "type": 0,
+      "value": "保存并关闭"
+    }
+  ],
+  "ui-licenses.search": [
+    {
+      "type": 0,
+      "value": "搜索"
+    }
+  ],
+  "ui-licenses.settings.noOfValues": [
+    {
+      "type": 0,
+      "value": "值的编号"
+    }
+  ],
+  "ui-licenses.settings.pickList.deletePickList": [
+    {
+      "type": 0,
+      "value": "删除选取清单"
+    }
+  ],
+  "ui-licenses.settings.pickList.deletePickListError": [
+    {
+      "type": 0,
+      "value": "删除选取清单： "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "label"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " 时出错。 "
+    },
+    {
+      "type": 1,
+      "value": "error"
+    }
+  ],
+  "ui-licenses.settings.pickListValues.deletePickListValue": [
+    {
+      "type": 0,
+      "value": "删除选取清单值"
+    }
+  ],
+  "ui-licenses.settings.pickListValues.deletePickListValueError": [
+    {
+      "type": 0,
+      "value": "删除选取清单值： "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "label"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " 时出错。 "
+    },
+    {
+      "type": 1,
+      "value": "error"
+    }
+  ],
+  "ui-licenses.value": [
+    {
+      "type": 0,
+      "value": "值"
+    }
+  ],
+  "ui-licenses.valueOrValues": [
+    {
+      "type": 0,
+      "value": "值"
+    }
+  ],
+  "ui-licenses.yes": [
+    {
+      "type": 0,
+      "value": "是"
+    }
+  ],
+  "ui-marc-authorities.authorities.rows.recordsSelected": [
+    {
+      "style": null,
+      "type": 2,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": " "
+    },
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "记录"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "记录"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": "已选"
+    }
+  ],
+  "ui-marc-authorities.authorities.rows.select": [
+    {
+      "type": 0,
+      "value": "Select Authority record"
+    }
+  ],
+  "ui-marc-authorities.delete.buttonLabel": [
+    {
+      "type": 0,
+      "value": "删除"
+    }
+  ],
+  "ui-marc-authorities.delete.description": [
+    {
+      "type": 0,
+      "value": "确定要永久删除规范记录： "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "headingRef"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": "吗？"
+    }
+  ],
+  "ui-marc-authorities.delete.label": [
+    {
+      "type": 0,
+      "value": "确认删除规范记录"
+    }
+  ],
+  "ui-notes.settings.noteTypes.deleteEntry": [
+    {
+      "type": 0,
+      "value": "Delete note type"
+    }
+  ],
+  "ui-notes.settings.noteTypes.termDeleted": [
+    {
+      "type": 0,
+      "value": "The note type "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "term"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " was successfully "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "deleted"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
+  "ui-notes.settings.noteTypes.termWillBeDeleted": [
+    {
+      "type": 0,
+      "value": "The note type "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "term"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " will be "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "deleted."
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
+  "ui-orders.button.confirm": [
+    {
+      "type": 0,
+      "value": "确认"
+    }
+  ],
+  "ui-orders.button.reexport": [
+    {
+      "type": 0,
+      "value": "重新导出"
+    }
+  ],
+  "ui-orders.createInvoice.confirmationModal.order.message": [
+    {
+      "type": 0,
+      "value": "想从此订单创建发票？"
+    }
+  ],
+  "ui-orders.createInvoice.confirmationModal.title": [
+    {
+      "type": 0,
+      "value": "创建发票"
+    }
+  ],
+  "ui-orders.export.fileName": [
+    {
+      "type": 0,
+      "value": "文件名"
+    }
+  ],
+  "ui-orders.export.jobId": [
+    {
+      "type": 0,
+      "value": "任务ID"
+    }
+  ],
+  "ui-orders.export.method": [
+    {
+      "type": 0,
+      "value": "导出方式"
+    }
+  ],
+  "ui-orders.paneBlock.createInvoice": [
+    {
+      "type": 0,
+      "value": "新建发票"
+    }
+  ],
+  "ui-orders.paneBlock.exportDetails": [
+    {
+      "type": 0,
+      "value": "导出详情"
+    }
+  ],
+  "ui-orders.reexport.order.confirmModal.heading": [
+    {
+      "type": 0,
+      "value": "重新导出订单"
+    }
+  ],
+  "ui-orders.reexport.order.confirmModal.message": [
+    {
+      "type": 0,
+      "value": "此订单之前已通过"
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "exportMethod"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "发送至"
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "vendorFromExport"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "。是否希望在下一次导出时将此订单发送给"
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "vendorFromOrder"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "？"
+    }
+  ],
+  "ui-orders.reexport.order.fail": [
+    {
+      "type": 0,
+      "value": "订单重新导出失败"
+    }
+  ],
+  "ui-orders.reexport.order.success": [
+    {
+      "type": 0,
+      "value": "订单重新导出成功完成"
+    }
+  ],
+  "ui-orders.reexport.orderLine.confirmModal.heading": [
+    {
+      "type": 0,
+      "value": "重新导出订单行"
+    }
+  ],
+  "ui-orders.reexport.orderLine.confirmModal.message": [
+    {
+      "type": 0,
+      "value": "此订单行先前已通过"
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "exportMethod"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "发送给"
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "vendorFromExport"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "。是否希望在下次导出时将此订单行发送给"
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "vendorFromOrder"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "？"
+    }
+  ],
+  "ui-orders.reexport.orderLine.fail": [
+    {
+      "type": 0,
+      "value": "订单行重新导出失败"
+    }
+  ],
+  "ui-orders.reexport.orderLine.success": [
+    {
+      "type": 0,
+      "value": "订单行重新导出已成功完成"
+    }
+  ],
+  "ui-plugin-find-agreement.supplementaryProperties": [
+    {
+      "type": 0,
+      "value": "补充属性"
+    }
+  ],
+  "ui-plugin-find-agreement.supplementaryProperties.deprecated": [
+    {
+      "type": 0,
+      "value": "已弃用： "
+    },
+    {
+      "type": 1,
+      "value": "name"
+    }
+  ],
+  "ui-plugin-find-agreement.supplementaryProperties.editCustomPropertyFilters": [
+    {
+      "type": 0,
+      "value": "编辑补充属性筛选"
+    }
+  ],
+  "ui-plugin-find-agreement.supplementaryProperties.filterBuilder": [
+    {
+      "type": 0,
+      "value": "补充属性筛选构建器"
+    }
+  ],
+  "ui-plugin-find-agreement.supplementaryProperties.filterIndex": [
+    {
+      "type": 0,
+      "value": "补充属性筛选"
+    },
+    {
+      "type": 1,
+      "value": "index"
+    }
+  ],
+  "ui-plugin-find-agreement.supplementaryProperties.filtersApplied": [
+    {
+      "type": 1,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": "应用的补充属性筛选器"
+    }
+  ],
+  "ui-plugin-find-agreement.supplementaryProperties.removeFilter": [
+    {
+      "type": 0,
+      "value": "移除补充属性筛选"
+    },
+    {
+      "type": 1,
+      "value": "index"
+    }
+  ],
+  "ui-plugin-find-agreement.supplementaryProperty": [
+    {
+      "type": 0,
+      "value": "补充属性"
+    }
+  ],
+  "ui-plugin-find-authority.button.link": [
+    {
+      "type": 0,
+      "value": "Link"
+    }
+  ],
+  "ui-plugin-find-authority.linkToMarcAuthorityRecord": [
+    {
+      "type": 0,
+      "value": "链接到MARC规范记录"
+    }
+  ],
+  "ui-plugin-find-authority.meta.title": [
+    {
+      "type": 0,
+      "value": "规范查找器（插件）"
+    }
+  ],
+  "ui-plugin-find-authority.modal.title": [
+    {
+      "type": 0,
+      "value": "选择MARC规范"
+    }
+  ],
+  "ui-plugin-find-authority.search-results-list.authRefType": [
+    {
+      "type": 0,
+      "value": "Authorized"
+    }
+  ],
+  "ui-plugin-find-authority.search-results-list.link": [
+    {
+      "type": 0,
+      "value": "Link"
+    }
+  ],
+  "ui-plugin-find-authority.search-results-list.paneSub": [
+    {
+      "style": null,
+      "type": 2,
+      "value": "totalRecords"
+    },
+    {
+      "type": 0,
+      "value": " "
+    },
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "找到的结果"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "找到的结果"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "totalRecords"
+    }
+  ],
+  "ui-plugin-find-license.terms": [
+    {
+      "type": 0,
+      "value": "条款"
+    }
+  ],
+  "ui-plugin-find-license.terms.deprecated": [
+    {
+      "type": 0,
+      "value": "已弃用： "
+    },
+    {
+      "type": 1,
+      "value": "name"
+    }
+  ],
+  "ui-plugin-find-license.terms.editCustomPropertyFilters": [
+    {
+      "type": 0,
+      "value": "编辑条款筛选条件"
+    }
+  ],
+  "ui-plugin-find-license.terms.filterBuilder": [
+    {
+      "type": 0,
+      "value": "条款筛选构建器"
+    }
+  ],
+  "ui-plugin-find-license.terms.filterIndex": [
+    {
+      "type": 0,
+      "value": "条款筛选"
+    },
+    {
+      "type": 1,
+      "value": "index"
+    }
+  ],
+  "ui-plugin-find-license.terms.filtersApplied": [
+    {
+      "type": 0,
+      "value": "应用"
+    },
+    {
+      "type": 1,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": "条款筛选"
+    }
+  ],
+  "ui-plugin-find-license.terms.removeFilter": [
+    {
+      "type": 0,
+      "value": "移除条款筛选"
+    },
+    {
+      "type": 1,
+      "value": "index"
+    }
+  ],
+  "ui-quick-marc.noPlugin": [
+    {
+      "type": 0,
+      "value": "未安装插件"
+    }
+  ],
+  "ui-quick-marc.permission.quick-marc-authority-records.linkUnlink": [
+    {
+      "type": 0,
+      "value": "quickMARC: Can Link/unlink authority records to bib records"
+    }
+  ],
+  "ui-quick-marc.record.fieldDeleted": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Field "
+        },
+        {
+          "type": 1,
+          "value": "tag"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " has been deleted from this MARC record."
+    }
+  ],
+  "ui-quick-marc.record.fieldDeleted.undo": [
+    {
+      "type": 0,
+      "value": "Undo"
+    }
+  ],
+  "ui-quick-marc.record.fieldDeleted.undoLabel": [
+    {
+      "type": 0,
+      "value": "Undo delete of field "
+    },
+    {
+      "type": 1,
+      "value": "tag"
+    }
+  ],
+  "ui-quick-marc.record.link": [
+    {
+      "type": 0,
+      "value": "Link to MARC Authority record"
+    }
+  ],
+  "ui-quick-marc.record.quickMarcEditorLabel": [
+    {
+      "type": 0,
+      "value": "Quick MARC editor"
+    }
+  ],
+  "ui-quick-marc.record.save.continue": [
+    {
+      "type": 0,
+      "value": "Save & keep editing"
+    }
+  ],
+  "ui-quick-marc.record.save.error.dublicate": [
+    {
+      "type": 0,
+      "value": "Instance cannot be updated. Depricated instance version."
+    }
+  ],
+  "ui-quick-marc.record.save.error.notFound": [
+    {
+      "type": 0,
+      "value": "此记录已被其他用户删除。不能再编辑此记录。点击取消按钮返回上一页。"
+    }
+  ],
+  "ui-quick-marc.record.unlink": [
+    {
+      "type": 0,
+      "value": "Unlink from MARC Authority record"
+    }
+  ],
+  "ui-quick-marc.record.viewMarcAuthorityRecord": [
+    {
+      "type": 0,
+      "value": "View MARC authority record"
+    }
+  ],
+  "ui-requests.appMenu.keyboardShortcuts": [
+    {
+      "type": 0,
+      "value": "Keyboard shortcuts"
+    }
+  ],
+  "ui-requests.navigation.app": [
+    {
+      "type": 0,
+      "value": "Requests app Search"
+    }
+  ],
+  "ui-requests.navigation.keyboardShortcuts": [
+    {
+      "type": 0,
+      "value": "Keyboard shortcuts"
+    }
+  ],
+  "stripes-authority-components.advancedSearch": [
+    {
+      "type": 0,
+      "value": "高级搜索"
+    }
+  ],
+  "stripes-authority-components.authority.view.error.notFound": [
+    {
+      "type": 0,
+      "value": "未找到规范记录"
+    }
+  ],
+  "stripes-authority-components.authority.view.error.unknown": [
+    {
+      "type": 0,
+      "value": "发生未知错误"
+    }
+  ],
+  "stripes-authority-components.authorityRecordSubtitle": [
+    {
+      "type": 1,
+      "value": "heading"
+    },
+    {
+      "type": 0,
+      "value": " • 最后更新： "
+    },
+    {
+      "type": 1,
+      "value": "lastUpdatedDate"
+    }
+  ],
+  "stripes-authority-components.browse.noMatch.wouldBeHereLabel": [
+    {
+      "type": 0,
+      "value": "会在这里"
+    }
+  ],
+  "stripes-authority-components.browseSelectPlaceholder": [
+    {
+      "type": 0,
+      "value": "选择浏览选项"
+    }
+  ],
+  "stripes-authority-components.childrenSubjectHeading": [
+    {
+      "type": 0,
+      "value": "儿童主题词表"
+    }
+  ],
+  "stripes-authority-components.corporateConferenceName": [
+    {
+      "type": 0,
+      "value": "团体/会议名称"
+    }
+  ],
+  "stripes-authority-components.genre": [
+    {
+      "type": 0,
+      "value": "体裁"
+    }
+  ],
+  "stripes-authority-components.geographicName": [
+    {
+      "type": 0,
+      "value": "地理名称"
+    }
+  ],
+  "stripes-authority-components.identifier": [
+    {
+      "type": 0,
+      "value": "标识符（全部）"
+    }
+  ],
+  "stripes-authority-components.keyword": [
+    {
+      "type": 0,
+      "value": "关键词"
+    }
+  ],
+  "stripes-authority-components.label.browse": [
+    {
+      "type": 0,
+      "value": "浏览"
+    }
+  ],
+  "stripes-authority-components.label.search": [
+    {
+      "type": 0,
+      "value": "搜索"
+    }
+  ],
+  "stripes-authority-components.label.search.textArea": [
+    {
+      "type": 0,
+      "value": "输入搜索查询"
+    }
+  ],
+  "stripes-authority-components.marcHeading": [
+    {
+      "type": 0,
+      "value": "MARC规范记录"
+    }
+  ],
+  "stripes-authority-components.meta.title": [
+    {
+      "type": 0,
+      "value": "MARC规范"
+    }
+  ],
+  "stripes-authority-components.nameTitle": [
+    {
+      "type": 0,
+      "value": "名称-题名"
+    }
+  ],
+  "stripes-authority-components.personalName": [
+    {
+      "type": 0,
+      "value": "个人名称"
+    }
+  ],
+  "stripes-authority-components.query": [
+    {
+      "type": 0,
+      "value": "查询"
+    }
+  ],
+  "stripes-authority-components.search-results-list.authRefType": [
+    {
+      "type": 0,
+      "value": "授权/参考"
+    }
+  ],
+  "stripes-authority-components.search-results-list.headingRef": [
+    {
+      "type": 0,
+      "value": "标头/参考"
+    }
+  ],
+  "stripes-authority-components.search-results-list.headingType": [
+    {
+      "type": 0,
+      "value": "标头类型"
+    }
+  ],
+  "stripes-authority-components.search-results-list.paneSub": [
+    {
+      "style": null,
+      "type": 2,
+      "value": "totalRecords"
+    },
+    {
+      "type": 0,
+      "value": " "
+    },
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "找到的记录"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "找到的记录"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "totalRecords"
+    }
+  ],
+  "stripes-authority-components.search-results-list.selectAll": [
+    {
+      "type": 0,
+      "value": "取消选择本页所有记录"
+    }
+  ],
+  "stripes-authority-components.search-results-list.unselectAll": [
+    {
+      "type": 0,
+      "value": "选择本页所有记录"
+    }
+  ],
+  "stripes-authority-components.search.createdDate": [
+    {
+      "type": 0,
+      "value": "创建日期"
+    }
+  ],
+  "stripes-authority-components.search.excludeSeeFrom": [
+    {
+      "type": 0,
+      "value": "排除参见自"
+    }
+  ],
+  "stripes-authority-components.search.excludeSeeFromAlso": [
+    {
+      "type": 0,
+      "value": "排除也见自"
+    }
+  ],
+  "stripes-authority-components.search.headingType": [
+    {
+      "type": 0,
+      "value": "标头类型"
+    }
+  ],
+  "stripes-authority-components.search.references": [
+    {
+      "type": 0,
+      "value": "参考"
+    }
+  ],
+  "stripes-authority-components.search.searchAndFilter": [
+    {
+      "type": 0,
+      "value": "搜索和筛选"
+    }
+  ],
+  "stripes-authority-components.search.sourceFileId": [
+    {
+      "type": 0,
+      "value": "Authority source"
+    }
+  ],
+  "stripes-authority-components.search.sourceFileId.nullOption": [
+    {
+      "type": 0,
+      "value": "Not specified"
+    }
+  ],
+  "stripes-authority-components.search.subjectHeadings": [
+    {
+      "type": 0,
+      "value": "叙词表"
+    }
+  ],
+  "stripes-authority-components.search.updatedDate": [
+    {
+      "type": 0,
+      "value": "更新日期"
+    }
+  ],
+  "stripes-authority-components.subject": [
+    {
+      "type": 0,
+      "value": "主题"
+    }
+  ],
+  "stripes-authority-components.uniformTitle": [
+    {
+      "type": 0,
+      "value": "统一题名"
+    }
+  ],
+  "stripes-erm-components.dateFilter.activeFrom": [
+    {
+      "type": 0,
+      "value": "有效自"
+    }
+  ],
+  "stripes-erm-components.dateFilter.activeTo": [
+    {
+      "type": 0,
+      "value": "有效到"
+    }
+  ],
+  "stripes-erm-components.errors.decimalValueNotInRange": [
+    {
+      "type": 0,
+      "value": "Please enter a number in the range "
+    },
+    {
+      "type": 1,
+      "value": "min"
+    },
+    {
+      "type": 0,
+      "value": " to "
+    },
+    {
+      "type": 1,
+      "value": "max"
+    },
+    {
+      "type": 0,
+      "value": " to continue"
+    }
+  ],
+  "stripes-erm-components.errors.invalidNumber": [
+    {
+      "type": 0,
+      "value": "Please enter a valid number to continue"
+    }
+  ],
+  "stripes-erm-components.new": [
+    {
+      "type": 0,
+      "value": "New"
+    }
+  ],
+  "ui-users.actionMenu.lostItems": [
+    {
+      "type": 0,
+      "value": "需要实际费用的遗失单件"
+    }
+  ],
+  "ui-users.errors.expirationDate": [
+    {
+      "type": 0,
+      "value": "Please enter correct expiration date"
+    }
+  ],
+  "ui-users.errors.extended.dateEnrolled": [
+    {
+      "type": 0,
+      "value": "Please enter correct enrolled date"
+    }
+  ],
+  "ui-users.errors.personal.dateOfBirth": [
+    {
+      "type": 0,
+      "value": "Please enter correct birth date"
+    }
+  ],
+  "ui-users.errors.proxyBorrowerNotFound": [
+    {
+      "type": 0,
+      "value": "Proxy borrower not found"
+    }
+  ],
+  "ui-users.lostItems.list.columnName.action.itemDetails": [
+    {
+      "type": 0,
+      "value": "Item details"
+    }
+  ],
+  "ui-users.lostItems.list.columnName.action.loanDetails": [
+    {
+      "type": 0,
+      "value": "Loan details"
+    }
+  ],
+  "ui-users.lostItems.list.columnName.action.patronDetails": [
+    {
+      "type": 0,
+      "value": "Patron details"
+    }
+  ],
+  "ui-users.lostItems.list.columnName.actions": [
+    {
+      "type": 0,
+      "value": "Actions"
+    }
+  ],
+  "ui-users.lostItems.list.columnName.dateOfLoss": [
+    {
+      "type": 0,
+      "value": "Date of loss"
+    }
+  ],
+  "ui-users.lostItems.list.columnName.feeFineOwner": [
+    {
+      "type": 0,
+      "value": "Fee/fine owner"
+    }
+  ],
+  "ui-users.lostItems.list.columnName.feeFineType": [
+    {
+      "type": 0,
+      "value": "Fee/fine type"
+    }
+  ],
+  "ui-users.lostItems.list.columnName.instance": [
+    {
+      "type": 0,
+      "value": "Instance"
+    }
+  ],
+  "ui-users.lostItems.list.columnName.instance.subString.ISBN": [
+    {
+      "type": 0,
+      "value": "ISBN: "
+    }
+  ],
+  "ui-users.lostItems.list.columnName.instance.subString.effectiveCallNumber": [
+    {
+      "type": 0,
+      "value": "Effective call number string: "
+    }
+  ],
+  "ui-users.lostItems.list.columnName.instance.subString.loanType": [
+    {
+      "type": 0,
+      "value": "Loan type: "
+    }
+  ],
+  "ui-users.lostItems.list.columnName.lossType": [
+    {
+      "type": 0,
+      "value": "Loss type"
+    }
+  ],
+  "ui-users.lostItems.list.columnName.patron": [
+    {
+      "type": 0,
+      "value": "Patron"
+    }
+  ],
+  "ui-users.lostItems.list.columnName.permanentItemLocation": [
+    {
+      "type": 0,
+      "value": "Permanent item location"
+    }
+  ],
+  "ui-users.lostItems.list.filters": [
+    {
+      "type": 0,
+      "value": "Search & filters"
+    }
+  ],
+  "ui-users.lostItems.list.filters.lossType": [
+    {
+      "type": 0,
+      "value": "Loss type"
+    }
+  ],
+  "ui-users.lostItems.list.filters.lossType.agedToLost": [
+    {
+      "type": 0,
+      "value": "Aged to lost"
+    }
+  ],
+  "ui-users.lostItems.list.filters.lossType.declaredLost": [
+    {
+      "type": 0,
+      "value": "Declared lost"
+    }
+  ],
+  "ui-users.lostItems.list.searchResults": [
+    {
+      "type": 0,
+      "value": "Lost items requiring actual cost"
+    }
+  ],
+  "ui-users.lostItems.message.noAccessToActualCostPage": [
+    {
+      "type": 0,
+      "value": "用户无权访问“需要实际费用的遗失单价”处理页面"
+    }
+  ],
+  "ui-users.permission.lost-items.requiring-actual-cost": [
+    {
+      "type": 0,
+      "value": "用户：可以处理需要实际费用的遗失单件"
+    }
+  ],
+  "ui-users.reports": [
+    {
+      "type": 0,
+      "value": "报告"
+    }
+  ],
+  "ui-users.user.unknown": [
+    {
+      "type": 0,
+      "value": "Unknown user"
+    }
+  ],
+  "stripes-template-editor.toolbar.token": "令牌"
 }
