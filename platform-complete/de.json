@@ -6687,7 +6687,7 @@
   "ui-agreements.eresources.materialType": [
     {
       "type": 0,
-      "value": "Materialtyp"
+      "value": "Materialart"
     }
   ],
   "ui-agreements.eresources.name": [
@@ -8820,7 +8820,7 @@
   "ui-agreements.settings.pickListSelect": [
     {
       "type": 0,
-      "value": "Select pick list"
+      "value": "Auswahlliste auswählen"
     }
   ],
   "ui-agreements.settings.pickListValues": [
@@ -8844,13 +8844,13 @@
   "ui-agreements.settings.supplementaryProperties": [
     {
       "type": 0,
-      "value": "Supplementary properties"
+      "value": "Ergänzende Eigenschaften"
     }
   ],
   "ui-agreements.settings.supplementaryPropertyPickList": [
     {
       "type": 0,
-      "value": "Supplementary properties pick list setup"
+      "value": "Ergänzende-Eigenschaften-Auswahliste einrichten"
     }
   ],
   "ui-agreements.settings.tabularList": [
@@ -81645,7 +81645,7 @@
   "ui-agreements.eresource.destinationTitle": [
     {
       "type": 0,
-      "value": "Destination title"
+      "value": "Zieltitel"
     }
   ],
   "ui-agreements.eresource.destinationTitleSelectionText": [
@@ -81681,13 +81681,13 @@
   "ui-agreements.eresource.moveIdetifiers.title": [
     {
       "type": 0,
-      "value": "Title"
+      "value": "Titel"
     }
   ],
   "ui-agreements.eresource.sourceTitle": [
     {
       "type": 0,
-      "value": "Source title"
+      "value": "Quelltitel"
     }
   ],
   "ui-agreements.eresource.sourceTitleSelectionText": [
@@ -81705,7 +81705,7 @@
   "ui-agreements.eresources.extendedPackageInformation": [
     {
       "type": 0,
-      "value": "Extended package information"
+      "value": "Erweiterte Paketinformationen"
     }
   ],
   "ui-agreements.eresources.filters.packageFilters": [
@@ -81729,7 +81729,7 @@
   "ui-agreements.eresources.packageDescriptionUrls": [
     {
       "type": 0,
-      "value": "Package description URLs"
+      "value": "Paketbeschreibungs-URLs"
     }
   ],
   "ui-agreements.eresources.scope": [
@@ -81741,13 +81741,13 @@
   "ui-agreements.eresources.sourceCreated": [
     {
       "type": 0,
-      "value": "Source created"
+      "value": "Quelle erstellt"
     }
   ],
   "ui-agreements.eresources.sourceLastUpdated": [
     {
       "type": 0,
-      "value": "Source last updated"
+      "value": "Quelle zuletzt aktualisiert"
     }
   ],
   "ui-agreements.eresources.status": [
@@ -81853,7 +81853,7 @@
   "ui-agreements.new": [
     {
       "type": 0,
-      "value": "New"
+      "value": "Neu"
     }
   ],
   "ui-agreements.openAccessProperties": [
@@ -81865,7 +81865,7 @@
   "ui-agreements.openAccessProperties.optionalProperties": [
     {
       "type": 0,
-      "value": "Optional properties"
+      "value": "Optionale Eigenschaften"
     }
   ],
   "ui-agreements.openAccessProperties.primaryProperties": [
@@ -81913,7 +81913,7 @@
   "ui-agreements.preview": [
     {
       "type": 0,
-      "value": "Preview"
+      "value": "Vorschau"
     }
   ],
   "ui-agreements.preview.updateAndContinue": [
@@ -82057,7 +82057,7 @@
   "ui-agreements.supplementaryProperty": [
     {
       "type": 0,
-      "value": "Supplementary property"
+      "value": "Ergänzende Eigenschaft"
     }
   ],
   "ui-agreements.supplementaryProperty.editModal": [
@@ -82075,13 +82075,13 @@
   "ui-agreements.supplementaryProperty.help.label": [
     {
       "type": 0,
-      "value": "An agreement term 'label' is used when displaying the supplementary property to users within Folio and in any other systems that display agreement's supplementary properties to users. It should be a short text string that clearly communicates what information is recorded in the supplementary property. The Description should be used where further explanation of the supplementary property is required for display to users."
+      "value": "'Anzeigename' der Vereinbarungsbedingung wird verwendet, wenn die ergänzende Eigenschaft den Benutzern innerhalb von FOLIO und in allen anderen Systemen, die den Benutzern ergänzende Eigenschaften der Vereinbarung anzeigen, angezeigt wird. Es sollte eine kurze Textzeichenfolge sein, die klar kommuniziert, welche Informationen in der ergänzenden Eigenschaft aufgezeichnet sind. Die Beschreibung sollte verwendet werden, wenn eine weitere Erklärung der ergänzenden Eigenschaft für die Anzeige an die Benutzer erforderlich ist."
     }
   ],
   "ui-agreements.supplementaryProperty.help.name": [
     {
       "type": 0,
-      "value": "An agreement term 'name' is used when outputting the supplementary property data in a machine readable format. It is not intended to be displayed to users (staff or patrons). It should be a short Latin alphabet string that can be used by any external systems or programs that access the agreement supplementary property data. Use of camelCase is suggested but not required. Changes to the agreement supplementary property name would affect any external systems using agreement supplementary property data and changes should not be made without consulting those responsible for relevant external systems and software."
+      "value": "Ein 'Name' der Vereinbarungsbedingung wird verwendet, wenn die ergänzende Eigenschaft in einem maschinenlesbaren Format ausgegeben werden. Er ist nicht dafür vorgesehen, den Personen (Mitarbeitenden oder Benutzenden) angezeigt zu werden. Es sollte eine kurze Zeichenfolge des lateinischen Alphabets sein, die von allen externen Systemen oder Programmen verwendet werden kann, die auf die Daten der ergänzenden Eigenschaft der Vereinbarung zugreifen. Die Verwendung von \"camelCase\" wird empfohlen, ist aber nicht erforderlich. Änderungen des Namens der ergänzenden Eigenschaft der Vereinbarung würden sich auf alle externen Systeme auswirken, die die Daten der ergänzenden Eigenschaft der Vereinbarung verwenden, und Änderungen sollten nicht ohne Rücksprache mit den Verantwortlichen für die entsprechenden externen Systeme und Software vorgenommen werden."
     }
   ],
   "ui-agreements.supplementaryProperty.newModal": [
@@ -82095,7 +82095,7 @@
       "children": [
         {
           "type": 0,
-          "value": "title updated:"
+          "value": "Titel aktualisiert:"
         }
       ],
       "type": 8,
@@ -84185,7 +84185,7 @@
   "ui-licenses.terms.all": [
     {
       "type": 0,
-      "value": "All"
+      "value": "Alle"
     }
   ],
   "ui-licenses.terms.category": [
@@ -84277,7 +84277,7 @@
   "ui-licenses.terms.help.category": [
     {
       "type": 0,
-      "value": "Terms can be categorised. Each category will appear as a separate accordion when viewing or editing the license."
+      "value": "Bedingungen können kategorisiert werden. Jede Kategorie wird beim Anzeigen oder Bearbeiten des Lizenzvertrages als separates Akkordeon angezeigt."
     }
   ],
   "ui-licenses.terms.help.label": [
@@ -84301,7 +84301,7 @@
   "ui-licenses.terms.none": [
     {
       "type": 0,
-      "value": "None"
+      "value": "Keine"
     }
   ],
   "ui-licenses.terms.pickList": [
@@ -85497,175 +85497,175 @@
   "ui-agreements.AND": [
     {
       "type": 0,
-      "value": "AND"
+      "value": "UND"
     }
   ],
   "ui-agreements.OR": [
     {
       "type": 0,
-      "value": "OR"
+      "value": "ODER"
     }
   ],
   "ui-agreements.actions": [
     {
       "type": 0,
-      "value": "Actions"
+      "value": "Aktionen"
     }
   ],
   "ui-agreements.addRule": [
     {
       "type": 0,
-      "value": "Add rule"
+      "value": "Regel hinzufügen"
     }
   ],
   "ui-agreements.agreementLines": [
     {
       "type": 0,
-      "value": "Agreement lines"
+      "value": "Vereinbarungskomponenten"
     }
   ],
   "ui-agreements.agreementLines.POLines": [
     {
       "type": 0,
-      "value": "Purchase Order Line"
+      "value": "Bestellposten"
     }
   ],
   "ui-agreements.agreementLines.activeFrom": [
     {
       "type": 0,
-      "value": "Active from"
+      "value": "Aktiv ab"
     }
   ],
   "ui-agreements.agreementLines.activeFrom.includeNoDateSet": [
     {
       "type": 0,
-      "value": "Include lines with no active from date set"
+      "value": "Komponenten ohne festgelegtes \"aktiv ab\" Datum einschließen"
     }
   ],
   "ui-agreements.agreementLines.activeTo": [
     {
       "type": 0,
-      "value": "Active to"
+      "value": "Aktiv bis"
     }
   ],
   "ui-agreements.agreementLines.activeTo.includeNoDateSet": [
     {
       "type": 0,
-      "value": "Include lines with no active to date set"
+      "value": "Komponenten ohne festgelegtes \"aktiv bis\" Datum einschließen"
     }
   ],
   "ui-agreements.agreementLines.agreementLineType": [
     {
       "type": 0,
-      "value": "Agreement line type"
+      "value": "Vereinbarungskomponententyp"
     }
   ],
   "ui-agreements.agreementLines.createAnother": [
     {
       "type": 0,
-      "value": "Create another"
+      "value": "Weitere erstellen"
     }
   ],
   "ui-agreements.agreementLines.description": [
     {
       "type": 0,
-      "value": "Description"
+      "value": "Beschreibung"
     }
   ],
   "ui-agreements.agreementLines.lineType": [
     {
       "type": 0,
-      "value": "Agreement line type"
+      "value": "Vereinbarungskomponententyp"
     }
   ],
   "ui-agreements.agreementLines.lineType.detached": [
     {
       "type": 0,
-      "value": "Unlinked"
+      "value": "Unverknüpft"
     }
   ],
   "ui-agreements.agreementLines.lineType.external": [
     {
       "type": 0,
-      "value": "External"
+      "value": "Extern"
     }
   ],
   "ui-agreements.agreementLines.lineType.internal": [
     {
       "type": 0,
-      "value": "Internal"
+      "value": "Intern"
     }
   ],
   "ui-agreements.agreementLines.nameReference": [
     {
       "type": 0,
-      "value": "Name/Reference"
+      "value": "Name/Referenz"
     }
   ],
   "ui-agreements.agreementLines.noAgreementPlugin": [
     {
       "type": 0,
-      "value": "No agreement plugin"
+      "value": "Kein Vereinbarungs-Plugin"
     }
   ],
   "ui-agreements.agreementLines.noPOLinePlugin": [
     {
       "type": 0,
-      "value": "No PO line plugin"
+      "value": "Kein Bestellposten-Plugin"
     }
   ],
   "ui-agreements.agreementLines.note": [
     {
       "type": 0,
-      "value": "Note"
+      "value": "Bemerkung"
     }
   ],
   "ui-agreements.agreementLines.poLine": [
     {
       "type": 0,
-      "value": "PO line"
+      "value": "Bestellposten"
     }
   ],
   "ui-agreements.agreementLines.selectAgreement": [
     {
       "type": 0,
-      "value": "Select agreement"
+      "value": "Vereinbarung auswählen"
     }
   ],
   "ui-agreements.agreementLines.selectPOLine": [
     {
       "type": 0,
-      "value": "Select PO line"
+      "value": "Bestellposten auswählen"
     }
   ],
   "ui-agreements.agreements.agreementLines.searchInputLabel": [
     {
       "type": 0,
-      "value": "Search Agreement lines"
+      "value": "Vereinbarungskomponenten suchen"
     }
   ],
   "ui-agreements.agreementsSearch": [
     {
       "type": 0,
-      "value": "Agreements search"
+      "value": "Vereinbarungssuche"
     }
   ],
   "ui-agreements.alternativeName": [
     {
       "type": 0,
-      "value": "Alternative name"
+      "value": "Alternative Namen"
     }
   ],
   "ui-agreements.apply": [
     {
       "type": 0,
-      "value": "Apply"
+      "value": "Anwenden"
     }
   ],
   "ui-agreements.cancel": [
     {
       "type": 0,
-      "value": "Cancel"
+      "value": "Abbrechen"
     }
   ],
   "ui-agreements.comparator": [
@@ -85677,43 +85677,47 @@
   "ui-agreements.customProperties": [
     {
       "type": 0,
-      "value": "Supplementary properties"
+      "value": "Ergänzende Eigenschaften"
     }
   ],
   "ui-agreements.customProperties.addProperty": [
     {
       "type": 0,
-      "value": "Add property"
+      "value": "Eigenschaft hinzufügen"
     }
   ],
   "ui-agreements.customProperties.category": [
     {
       "type": 0,
-      "value": "Pick list"
+      "value": "Auswahlliste"
     }
   ],
   "ui-agreements.customProperties.config.all": [
     {
       "type": 0,
-      "value": "All"
+      "value": "Alle"
     }
   ],
   "ui-agreements.customProperties.config.delete.confirmHeading": [
     {
       "type": 0,
-      "value": "Delete supplementary property"
+      "value": "Ergänzende Eigenschaft löschen"
     }
   ],
   "ui-agreements.customProperties.config.delete.confirmMessage": [
     {
       "type": 0,
-      "value": "Supplementary property "
+      "value": "Ergänzende Eigenschaft "
     },
     {
       "children": [
         {
           "type": 1,
           "value": "name"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -85721,13 +85725,13 @@
     },
     {
       "type": 0,
-      "value": " will be "
+      "value": " wird "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "deleted"
+          "value": "gelöscht"
         }
       ],
       "type": 8,
@@ -85741,7 +85745,7 @@
   "ui-agreements.customProperties.config.delete.errorMessage": [
     {
       "type": 0,
-      "value": "There was an error deleting supplementary property: "
+      "value": "Fehler beim Löschen der ergänzenden Eigenschaft: "
     },
     {
       "children": [
@@ -85764,47 +85768,51 @@
   ],
   "ui-agreements.customProperties.config.editModal": [
     {
-      "type": 0,
-      "value": "Edit "
-    },
-    {
       "type": 1,
       "value": "name"
+    },
+    {
+      "type": 0,
+      "value": " bearbeiten"
     }
   ],
   "ui-agreements.customProperties.config.newModal": [
     {
       "type": 0,
-      "value": "New supplementary property"
+      "value": "Neue ergänzende Eigenschaft"
     }
   ],
   "ui-agreements.customProperties.ctx": [
     {
       "type": 0,
-      "value": "Category"
+      "value": "Kategorie"
     }
   ],
   "ui-agreements.customProperties.ctx.OpenAccess": [
     {
       "type": 0,
-      "value": "Open access properties"
+      "value": "Open Access Eigenschaften"
     }
   ],
   "ui-agreements.customProperties.ctx.addContext": [
     {
       "type": 0,
-      "value": "Add category "
+      "value": "Kategorie "
     },
     {
       "type": 1,
       "value": "value"
+    },
+    {
+      "type": 0,
+      "value": " hinzufügen"
     }
   ],
   "ui-agreements.customProperties.ctx.title": [],
   "ui-agreements.customProperties.defaultTitle": [
     {
       "type": 0,
-      "value": "Supplementary properties ("
+      "value": "Ergänzende Eigenschaften ("
     },
     {
       "type": 1,
@@ -85818,55 +85826,55 @@
   "ui-agreements.customProperties.defaultVisibility": [
     {
       "type": 0,
-      "value": "Default visibility"
+      "value": "Standardmäßige Sichtbarkeit"
     }
   ],
   "ui-agreements.customProperties.description": [
     {
       "type": 0,
-      "value": "Description"
+      "value": "Beschreibung"
     }
   ],
   "ui-agreements.customProperties.errors.customPropertyNoteInvalidNumber": [
     {
       "type": 0,
-      "value": "A valid number must be entered in order to save a note"
+      "value": "Eine gültige Nummer muss eingegeben werden, um Anmerkung zu speichern"
     }
   ],
   "ui-agreements.customProperties.errors.customPropertyNoteWithoutValue": [
     {
       "type": 0,
-      "value": "A value must be set in order to save a note"
+      "value": "Ein Wert muss eingegeben werden, um Anmerkung zu speichern"
     }
   ],
   "ui-agreements.customProperties.errors.primaryRetired": [
     {
       "type": 0,
-      "value": "A supplementary property cannot be both primary and deprecated"
+      "value": "Eine ergänzende Eigenschaft kann nicht gleichzeitig primär und veraltet sein"
     }
   ],
   "ui-agreements.customProperties.internalFalse": [
     {
       "type": 0,
-      "value": "Public"
+      "value": "Öffentlich"
     }
   ],
   "ui-agreements.customProperties.internalNote": [
     {
       "type": 0,
-      "value": "Internal note"
+      "value": "Interne Anmerkung"
     }
   ],
   "ui-agreements.customProperties.internalTrue": [
     {
       "type": 0,
-      "value": "Internal"
+      "value": "Intern"
     }
   ],
   "ui-agreements.customProperties.label": [
     {
       "type": 0,
-      "value": "Label"
+      "value": "Anzeigename"
     }
   ],
   "ui-agreements.customProperties.name": [
@@ -85878,49 +85886,49 @@
   "ui-agreements.customProperties.noCtxFound": [
     {
       "type": 0,
-      "value": "No matching category found"
+      "value": "Keine übereinstimmende Kategorie gefunden"
     }
   ],
   "ui-agreements.customProperties.optionalProperties": [
     {
       "type": 0,
-      "value": "Optional properties"
+      "value": "Optionale Eigenschaften"
     }
   ],
   "ui-agreements.customProperties.primary": [
     {
       "type": 0,
-      "value": "Primary"
+      "value": "Primär"
     }
   ],
   "ui-agreements.customProperties.primaryProperties": [
     {
       "type": 0,
-      "value": "Primary properties"
+      "value": "Primäreigenschaften"
     }
   ],
   "ui-agreements.customProperties.publicNote": [
     {
       "type": 0,
-      "value": "Public note"
+      "value": "Öffentliche Anmerkung"
     }
   ],
   "ui-agreements.customProperties.retired": [
     {
       "type": 0,
-      "value": "Deprecated"
+      "value": "Veraltet"
     }
   ],
   "ui-agreements.customProperties.type": [
     {
       "type": 0,
-      "value": "Type"
+      "value": "Typ"
     }
   ],
   "ui-agreements.customProperties.type.com.k_int.web.toolkit.custprops.types.CustomPropertyBlob": [
     {
       "type": 0,
-      "value": "Blob"
+      "value": "BLOB"
     }
   ],
   "ui-agreements.customProperties.type.com.k_int.web.toolkit.custprops.types.CustomPropertyBoolean": [
@@ -85938,7 +85946,7 @@
   "ui-agreements.customProperties.type.com.k_int.web.toolkit.custprops.types.CustomPropertyDecimal": [
     {
       "type": 0,
-      "value": "Decimal"
+      "value": "Dezimalzahl"
     }
   ],
   "ui-agreements.customProperties.type.com.k_int.web.toolkit.custprops.types.CustomPropertyInteger": [
@@ -85950,25 +85958,25 @@
   "ui-agreements.customProperties.type.com.k_int.web.toolkit.custprops.types.CustomPropertyLocalDate": [
     {
       "type": 0,
-      "value": "Date"
+      "value": "Datum"
     }
   ],
   "ui-agreements.customProperties.type.com.k_int.web.toolkit.custprops.types.CustomPropertyMultiRefdata": [
     {
       "type": 0,
-      "value": "Pick list (multi-select)"
+      "value": "Auswahlliste (Mehrfachauswahl)"
     }
   ],
   "ui-agreements.customProperties.type.com.k_int.web.toolkit.custprops.types.CustomPropertyRefdata": [
     {
       "type": 0,
-      "value": "Pick list"
+      "value": "Auswahlliste"
     }
   ],
   "ui-agreements.customProperties.type.com.k_int.web.toolkit.custprops.types.CustomPropertyRefdataDefinition": [
     {
       "type": 0,
-      "value": "Pick list definition"
+      "value": "Auswahllistendefinition"
     }
   ],
   "ui-agreements.customProperties.type.com.k_int.web.toolkit.custprops.types.CustomPropertyText": [
@@ -85980,49 +85988,49 @@
   "ui-agreements.customProperties.value": [
     {
       "type": 0,
-      "value": "Value(s)"
+      "value": "Wert(e)"
     }
   ],
   "ui-agreements.customProperties.visibility": [
     {
       "type": 0,
-      "value": "Visibility"
+      "value": "Sichtbarkeit"
     }
   ],
   "ui-agreements.customProperties.weight": [
     {
       "type": 0,
-      "value": "Order weight"
+      "value": "Gewichtung der Reihenfolge"
     }
   ],
   "ui-agreements.customProperty": [
     {
       "type": 0,
-      "value": "Supplementary property"
+      "value": "Ergänzende Eigenschaft"
     }
   ],
   "ui-agreements.customProperty.addFilter": [
     {
       "type": 0,
-      "value": "Add supplementary property filter"
+      "value": "Ergänzende Eigenschaftsfilter hinzufügen"
     }
   ],
   "ui-agreements.customProperty.editCustomPropertyFilters": [
     {
       "type": 0,
-      "value": "Edit supplementary property filters"
+      "value": "Ergänzende Eigenschaftsfilter bearbeiten"
     }
   ],
   "ui-agreements.customProperty.filterBuilder": [
     {
       "type": 0,
-      "value": "Supplementary property filter builder"
+      "value": "Ergänzende Eigenschaftsfilter-Baukasten"
     }
   ],
   "ui-agreements.customProperty.filterIndex": [
     {
       "type": 0,
-      "value": "Supplementary property filter "
+      "value": "Ergänzende Eigenschaftsfilter "
     },
     {
       "type": 1,
@@ -86036,13 +86044,13 @@
     },
     {
       "type": 0,
-      "value": " supplementary property filters applied"
+      "value": " ergänzende Eigenschaftsfilter angewendet"
     }
   ],
   "ui-agreements.customProperty.optionalPropertyHeader": [
     {
       "type": 0,
-      "value": "Supplementary property "
+      "value": "Ergänzende Eigenschaft "
     },
     {
       "type": 1,
@@ -86052,33 +86060,41 @@
   "ui-agreements.customProperty.remove": [
     {
       "type": 0,
-      "value": "Remove supplementary property "
+      "value": "Ergänzende Eigenschaft "
     },
     {
       "type": 1,
       "value": "number"
+    },
+    {
+      "type": 0,
+      "value": " entfernen"
     }
   ],
   "ui-agreements.customProperty.removeFilter": [
     {
       "type": 0,
-      "value": "Remove supplementary property filter "
+      "value": "Ergänzenden Eigenschaftsfilter "
     },
     {
       "type": 1,
       "value": "index"
+    },
+    {
+      "type": 0,
+      "value": " entfernen"
     }
   ],
   "ui-agreements.customProperty.removeRule": [
     {
       "type": 0,
-      "value": "Remove rule"
+      "value": "Regel entfernen"
     }
   ],
   "ui-agreements.customProperty.retiredName": [
     {
       "type": 0,
-      "value": "DEPRECATED: "
+      "value": "VERALTET: "
     },
     {
       "type": 1,
@@ -86088,13 +86104,13 @@
   "ui-agreements.edit": [
     {
       "type": 0,
-      "value": "Edit"
+      "value": "Bearbeiten"
     }
   ],
   "ui-agreements.errors.decimalValueNotInRange": [
     {
       "type": 0,
-      "value": "Please enter a number in the range "
+      "value": "Bitte Zahl in einem Bereich von "
     },
     {
       "type": 1,
@@ -86102,7 +86118,7 @@
     },
     {
       "type": 0,
-      "value": " to "
+      "value": " bis "
     },
     {
       "type": 1,
@@ -86110,31 +86126,31 @@
     },
     {
       "type": 0,
-      "value": " to continue"
+      "value": " eingeben, um fortzufahren"
     }
   ],
   "ui-agreements.errors.hasNonAlphaName": [
     {
       "type": 0,
-      "value": "The name can only contain Latin alphabetical characters (a-z) and non-leading numeric characters."
+      "value": "Der Name darf nur lateinische alphabetische Zeichen (a-z) und nicht führende numerische Zeichen beinhalten."
     }
   ],
   "ui-agreements.errors.invalidNumber": [
     {
       "type": 0,
-      "value": "Please enter a valid number to continue"
+      "value": "Bitte gültige Nummer eingeben, um fortzufahren"
     }
   ],
   "ui-agreements.errors.maxTwoDecimals": [
     {
       "type": 0,
-      "value": "Please enter a number with a maximum of 2 decimals places"
+      "value": "Zahl mit maximal 2 Dezimalstellen eingeben"
     }
   ],
   "ui-agreements.errors.valueNotInRange": [
     {
       "type": 0,
-      "value": "Please enter a whole number in the range "
+      "value": "Bitte eine Ganzzahl im Bereich von "
     },
     {
       "type": 1,
@@ -86142,7 +86158,7 @@
     },
     {
       "type": 0,
-      "value": " to "
+      "value": " bis "
     },
     {
       "type": 1,
@@ -86150,113 +86166,117 @@
     },
     {
       "type": 0,
-      "value": " to continue"
+      "value": " eingeben, um fortzufahren"
     }
   ],
   "ui-agreements.localKBSearch": [
     {
       "type": 0,
-      "value": "Local KB search"
+      "value": "Lokale-KB-Suche"
     }
   ],
   "ui-agreements.operator.contains": [
     {
       "type": 0,
-      "value": "Contains"
+      "value": "Enthält"
     }
   ],
   "ui-agreements.operator.doesNotContain": [
     {
       "type": 0,
-      "value": "Does not contain"
+      "value": "Enthält nicht"
     }
   ],
   "ui-agreements.operator.doesNotEqual": [
     {
       "type": 0,
-      "value": "Does not equal"
+      "value": "Ist ungleich"
     }
   ],
   "ui-agreements.operator.equals": [
     {
       "type": 0,
-      "value": "Equals"
+      "value": "Ist gleich"
     }
   ],
   "ui-agreements.operator.is": [
     {
       "type": 0,
-      "value": "Is"
+      "value": "Ist"
     }
   ],
   "ui-agreements.operator.isGreaterThanOrEqual": [
     {
       "type": 0,
-      "value": "Is greater than or equal to"
+      "value": "Ist mehr oder gleich wie"
     }
   ],
   "ui-agreements.operator.isLessThanOrEqual": [
     {
       "type": 0,
-      "value": "Is less than or equal to"
+      "value": "Ist weniger oder gleich wie"
     }
   ],
   "ui-agreements.operator.isNot": [
     {
       "type": 0,
-      "value": "Is not"
+      "value": "Ist nicht"
     }
   ],
   "ui-agreements.operator.isNotSet": [
     {
       "type": 0,
-      "value": "Is not set"
+      "value": "Ist nicht belegt"
     }
   ],
   "ui-agreements.operator.isOnOrAfter": [
     {
       "type": 0,
-      "value": "Is on or after"
+      "value": "Ist am oder nach"
     }
   ],
   "ui-agreements.operator.isOnOrBefore": [
     {
       "type": 0,
-      "value": "Is on or before"
+      "value": "Ist am oder vor"
     }
   ],
   "ui-agreements.operator.isSet": [
     {
       "type": 0,
-      "value": "Is set"
+      "value": "Ist belegt"
     }
   ],
   "ui-agreements.packageIdentifiers.identifier": [
     {
       "type": 0,
-      "value": "Identifier"
+      "value": "Identifikator"
     }
   ],
   "ui-agreements.packageIdentifiers.type": [
     {
       "type": 0,
-      "value": "Type"
+      "value": "Typ"
     }
   ],
   "ui-agreements.refdata.deleteAriaLabel": [
     {
       "type": 0,
-      "value": "Delete value "
+      "value": "Wert "
     },
     {
       "type": 1,
       "value": "label"
+    },
+    {
+      "type": 0,
+      "value": " löschen"
     }
   ],
   "ui-agreements.refdata.deleteRefdataValue": [
     {
       "type": 0,
-      "value": "Delete pick list value"
+      "value": "Auswahllistenwert löschen"
     }
   ],
   "ui-agreements.refdata.deleteRefdataValue.confirmMessage": [
@@ -86272,7 +86292,7 @@
     },
     {
       "type": 0,
-      "value": " will be deleted."
+      "value": " wird gelöscht."
     }
   ],
   "ui-agreements.refdata.deleteRefdataValue.errorMessage": [
@@ -86280,7 +86300,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Error:"
+          "value": "Fehler:"
         }
       ],
       "type": 8,
@@ -86288,7 +86308,7 @@
     },
     {
       "type": 0,
-      "value": " Pick list value "
+      "value": " Auswahllistenwert "
     },
     {
       "children": [
@@ -86302,45 +86322,53 @@
     },
     {
       "type": 0,
-      "value": " was not deleted because it is in use in one or more supplementary properties on one or more agreements."
+      "value": " wurde nicht gelöscht, weil er in einer oder mehreren ergänzenden Eigenschaften in ein oder mehreren Vereinbarungen verwendet wird."
     }
   ],
   "ui-agreements.refdata.editAriaLabel": [
     {
       "type": 0,
-      "value": "Edit value "
+      "value": "Wert "
     },
     {
       "type": 1,
       "value": "label"
+    },
+    {
+      "type": 0,
+      "value": " bearbeiten"
     }
   ],
   "ui-agreements.refdata.label": [
     {
       "type": 0,
-      "value": "Label"
+      "value": "Anzeigename"
     }
   ],
   "ui-agreements.refdata.value": [
     {
       "type": 0,
-      "value": "Value"
+      "value": "Wert"
     }
   ],
   "ui-agreements.refdataCategory.deleteAriaLabel": [
     {
       "type": 0,
-      "value": "Delete value "
+      "value": "Wert "
     },
     {
       "type": 1,
       "value": "label"
+    },
+    {
+      "type": 0,
+      "value": " löschen"
     }
   ],
   "ui-agreements.refdataCategory.deleteRefdataCategory": [
     {
       "type": 0,
-      "value": "Delete pick list category"
+      "value": "Auswahllistenkategorie löschen"
     }
   ],
   "ui-agreements.refdataCategory.deleteRefdataCategory.confirmMessage": [
@@ -86356,7 +86384,7 @@
     },
     {
       "type": 0,
-      "value": " will be deleted."
+      "value": " wird gelöscht."
     }
   ],
   "ui-agreements.refdataCategory.deleteRefdataCategory.errorMessage": [
@@ -86364,7 +86392,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Error"
+          "value": "Fehler"
         }
       ],
       "type": 8,
@@ -86372,7 +86400,7 @@
     },
     {
       "type": 0,
-      "value": ": Pick list "
+      "value": ": Auswahlliste "
     },
     {
       "children": [
@@ -86386,61 +86414,61 @@
     },
     {
       "type": 0,
-      "value": " was not deleted. This is likely to be because it has been applied to one or more supplementary properties. To fix, remove the pick list from all supplementary properties, then try to delete the pick list again."
+      "value": " wurde nicht gelöscht. Das liegt wahrscheinlich daran, dass sie noch in einer oder mehreren ergänzenden Eigenschaften verwendet wird. Bitte die Auswahlliste aus allen ergänzenden Eigenschaften entfernen und danach erneut versuchen."
     }
   ],
   "ui-agreements.refdataCategory.noOfValues": [
     {
       "type": 0,
-      "value": "# of values"
+      "value": "Anzahl der Werte"
     }
   ],
   "ui-agreements.refdataCategory.refdataCategories": [
     {
       "type": 0,
-      "value": "Categories"
+      "value": "Kategorien"
     }
   ],
   "ui-agreements.refdataCategory.refdataCategory": [
     {
       "type": 0,
-      "value": "Category"
+      "value": "Kategorie"
     }
   ],
   "ui-agreements.save": [
     {
       "type": 0,
-      "value": "Save"
+      "value": "Speichern"
     }
   ],
   "ui-agreements.search": [
     {
       "type": 0,
-      "value": "Search"
+      "value": "Suchen"
     }
   ],
   "ui-agreements.settings.default": [
     {
       "type": 0,
-      "value": "default"
+      "value": "Standard"
     }
   ],
   "ui-agreements.settings.fileStorage.s3BucketRegion": [
     {
       "type": 0,
-      "value": "S3 bucket region"
+      "value": "S3 Bucket Region"
     }
   ],
   "ui-agreements.settings.noCurrentValue": [
     {
       "type": 0,
-      "value": "No current value"
+      "value": "Kein aktueller Wert"
     }
   ],
   "ui-agreements.settings.valueFor": [
     {
       "type": 0,
-      "value": "Value for setting "
+      "value": "Werte für Einstellung "
     },
     {
       "type": 1,
@@ -86450,13 +86478,13 @@
   "ui-agreements.value": [
     {
       "type": 0,
-      "value": "Value"
+      "value": "Wert"
     }
   ],
   "ui-agreements.valueOrValues": [
     {
       "type": 0,
-      "value": "Value(s)"
+      "value": "Wert(e)"
     }
   ],
   "ui-bulk-edit.actions.find": [
@@ -90410,31 +90438,31 @@
   "ui-licenses.AND": [
     {
       "type": 0,
-      "value": "AND"
+      "value": "UND"
     }
   ],
   "ui-licenses.OR": [
     {
       "type": 0,
-      "value": "OR"
+      "value": "ODER"
     }
   ],
   "ui-licenses.actions": [
     {
       "type": 0,
-      "value": "Actions"
+      "value": "Aktionen"
     }
   ],
   "ui-licenses.addRule": [
     {
       "type": 0,
-      "value": "Add rule"
+      "value": "Regel hinzufügen"
     }
   ],
   "ui-licenses.apply": [
     {
       "type": 0,
-      "value": "Apply"
+      "value": "Anwenden"
     }
   ],
   "ui-licenses.comparator": [
@@ -90446,37 +90474,37 @@
   "ui-licenses.customProperties": [
     {
       "type": 0,
-      "value": "Terms"
+      "value": "Bedingungen"
     }
   ],
   "ui-licenses.customProperties.addProperty": [
     {
       "type": 0,
-      "value": "Add property"
+      "value": "Eigenschaft hinzufügen"
     }
   ],
   "ui-licenses.customProperties.category": [
     {
       "type": 0,
-      "value": "Pick list"
+      "value": "Auswahlliste"
     }
   ],
   "ui-licenses.customProperties.config.all": [
     {
       "type": 0,
-      "value": "All"
+      "value": "Alle"
     }
   ],
   "ui-licenses.customProperties.config.delete.confirmHeading": [
     {
       "type": 0,
-      "value": "Delete term"
+      "value": "Bedingung löschen"
     }
   ],
   "ui-licenses.customProperties.config.delete.confirmMessage": [
     {
       "type": 0,
-      "value": "Term "
+      "value": "Bedingung "
     },
     {
       "children": [
@@ -90490,13 +90518,13 @@
     },
     {
       "type": 0,
-      "value": " will be "
+      "value": " wird "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "deleted"
+          "value": "gelöscht"
         }
       ],
       "type": 8,
@@ -90510,7 +90538,7 @@
   "ui-licenses.customProperties.config.delete.errorMessage": [
     {
       "type": 0,
-      "value": "There was an error deleting term: "
+      "value": "Fehler beim Löschen der Bedingung: "
     },
     {
       "children": [
@@ -90533,24 +90561,24 @@
   ],
   "ui-licenses.customProperties.config.editModal": [
     {
-      "type": 0,
-      "value": "Edit "
-    },
-    {
       "type": 1,
       "value": "name"
+    },
+    {
+      "type": 0,
+      "value": " bearbeiten"
     }
   ],
   "ui-licenses.customProperties.config.newModal": [
     {
       "type": 0,
-      "value": "New term"
+      "value": "Neue Bedingung"
     }
   ],
   "ui-licenses.customProperties.ctx": [
     {
       "type": 0,
-      "value": "Category"
+      "value": "Kategorie"
     }
   ],
   "ui-licenses.customProperties.ctx.OpenAccess": [
@@ -90562,18 +90590,22 @@
   "ui-licenses.customProperties.ctx.addContext": [
     {
       "type": 0,
-      "value": "Add category "
+      "value": "Kategorie "
     },
     {
       "type": 1,
       "value": "value"
+    },
+    {
+      "type": 0,
+      "value": " hinzufügen"
     }
   ],
   "ui-licenses.customProperties.ctx.title": [],
   "ui-licenses.customProperties.defaultTitle": [
     {
       "type": 0,
-      "value": "Terms ("
+      "value": "Bedingungen ("
     },
     {
       "type": 1,
@@ -90587,55 +90619,55 @@
   "ui-licenses.customProperties.defaultVisibility": [
     {
       "type": 0,
-      "value": "Default visibility"
+      "value": "Standardmäßige Sichtbarkeit"
     }
   ],
   "ui-licenses.customProperties.description": [
     {
       "type": 0,
-      "value": "Description"
+      "value": "Beschreibung"
     }
   ],
   "ui-licenses.customProperties.errors.customPropertyNoteInvalidNumber": [
     {
       "type": 0,
-      "value": "A valid number must be entered in order to save a note"
+      "value": "Eine gültige Nummer muss eingegeben werden, um Anmerkung zu speichern"
     }
   ],
   "ui-licenses.customProperties.errors.customPropertyNoteWithoutValue": [
     {
       "type": 0,
-      "value": "A value must be set in order to save a note"
+      "value": "Ein Wert muss eingegeben werden, um Anmerkung zu speichern"
     }
   ],
   "ui-licenses.customProperties.errors.primaryRetired": [
     {
       "type": 0,
-      "value": "A term cannot be both primary and deprecated"
+      "value": "Eine Bedingung kann nicht gleichzeitig primär und veraltet sein."
     }
   ],
   "ui-licenses.customProperties.internalFalse": [
     {
       "type": 0,
-      "value": "Public"
+      "value": "Öffentlich"
     }
   ],
   "ui-licenses.customProperties.internalNote": [
     {
       "type": 0,
-      "value": "Internal note"
+      "value": "Interne Anmerkung"
     }
   ],
   "ui-licenses.customProperties.internalTrue": [
     {
       "type": 0,
-      "value": "Internal"
+      "value": "Intern"
     }
   ],
   "ui-licenses.customProperties.label": [
     {
       "type": 0,
-      "value": "Label"
+      "value": "Anzeigename"
     }
   ],
   "ui-licenses.customProperties.name": [
@@ -90647,43 +90679,43 @@
   "ui-licenses.customProperties.noCtxFound": [
     {
       "type": 0,
-      "value": "No matching category found"
+      "value": "Keine übereinstimmende Kategorie gefunden"
     }
   ],
   "ui-licenses.customProperties.optionalProperties": [
     {
       "type": 0,
-      "value": "Optional properties"
+      "value": "Optionale Eigenschaften"
     }
   ],
   "ui-licenses.customProperties.primary": [
     {
       "type": 0,
-      "value": "Primary"
+      "value": "Primär"
     }
   ],
   "ui-licenses.customProperties.primaryProperties": [
     {
       "type": 0,
-      "value": "Primary properties"
+      "value": "Primäre Eigenschaften"
     }
   ],
   "ui-licenses.customProperties.publicNote": [
     {
       "type": 0,
-      "value": "Public note"
+      "value": "Öffentliche Anmerkung"
     }
   ],
   "ui-licenses.customProperties.retired": [
     {
       "type": 0,
-      "value": "Deprecated"
+      "value": "Veraltet"
     }
   ],
   "ui-licenses.customProperties.type": [
     {
       "type": 0,
-      "value": "Type"
+      "value": "Typ"
     }
   ],
   "ui-licenses.customProperties.type.com.k_int.web.toolkit.custprops.types.CustomPropertyBlob": [
@@ -90707,7 +90739,7 @@
   "ui-licenses.customProperties.type.com.k_int.web.toolkit.custprops.types.CustomPropertyDecimal": [
     {
       "type": 0,
-      "value": "Decimal"
+      "value": "Dezimalzahl"
     }
   ],
   "ui-licenses.customProperties.type.com.k_int.web.toolkit.custprops.types.CustomPropertyInteger": [
@@ -90719,25 +90751,25 @@
   "ui-licenses.customProperties.type.com.k_int.web.toolkit.custprops.types.CustomPropertyLocalDate": [
     {
       "type": 0,
-      "value": "Date"
+      "value": "Datum"
     }
   ],
   "ui-licenses.customProperties.type.com.k_int.web.toolkit.custprops.types.CustomPropertyMultiRefdata": [
     {
       "type": 0,
-      "value": "Pick list (multi-select)"
+      "value": "Auswahlliste (Mehrfachauswahl)"
     }
   ],
   "ui-licenses.customProperties.type.com.k_int.web.toolkit.custprops.types.CustomPropertyRefdata": [
     {
       "type": 0,
-      "value": "Pick list"
+      "value": "Auswahlliste"
     }
   ],
   "ui-licenses.customProperties.type.com.k_int.web.toolkit.custprops.types.CustomPropertyRefdataDefinition": [
     {
       "type": 0,
-      "value": "Pick list definition"
+      "value": "Auswahllistendefinition"
     }
   ],
   "ui-licenses.customProperties.type.com.k_int.web.toolkit.custprops.types.CustomPropertyText": [
@@ -90749,49 +90781,49 @@
   "ui-licenses.customProperties.value": [
     {
       "type": 0,
-      "value": "Value(s)"
+      "value": "Wert(e)"
     }
   ],
   "ui-licenses.customProperties.visibility": [
     {
       "type": 0,
-      "value": "Visibility"
+      "value": "Sichtbarkeit"
     }
   ],
   "ui-licenses.customProperties.weight": [
     {
       "type": 0,
-      "value": "Order weight"
+      "value": "Gewichtung der Reihenfolge"
     }
   ],
   "ui-licenses.customProperty": [
     {
       "type": 0,
-      "value": "Term"
+      "value": "Bedingung"
     }
   ],
   "ui-licenses.customProperty.addFilter": [
     {
       "type": 0,
-      "value": "Add term filter"
+      "value": "Bedingungsfilter hinzufügen"
     }
   ],
   "ui-licenses.customProperty.editCustomPropertyFilters": [
     {
       "type": 0,
-      "value": "Edit term filters"
+      "value": "Bedingungsfilter bearbeiten"
     }
   ],
   "ui-licenses.customProperty.filterBuilder": [
     {
       "type": 0,
-      "value": "Term filter builder"
+      "value": "Bedingungsfilter-Baukasten"
     }
   ],
   "ui-licenses.customProperty.filterIndex": [
     {
       "type": 0,
-      "value": "Term filter "
+      "value": "Bedingungsfilter "
     },
     {
       "type": 1,
@@ -90805,13 +90837,13 @@
     },
     {
       "type": 0,
-      "value": " term filters applied"
+      "value": " Bedingungsfilter angewandt"
     }
   ],
   "ui-licenses.customProperty.optionalPropertyHeader": [
     {
       "type": 0,
-      "value": "term "
+      "value": "Bedingung "
     },
     {
       "type": 1,
@@ -90821,33 +90853,41 @@
   "ui-licenses.customProperty.remove": [
     {
       "type": 0,
-      "value": "Remove term "
+      "value": "Bedingung "
     },
     {
       "type": 1,
       "value": "number"
+    },
+    {
+      "type": 0,
+      "value": " entfernen"
     }
   ],
   "ui-licenses.customProperty.removeFilter": [
     {
       "type": 0,
-      "value": "Remove term filter "
+      "value": "Bedingungsfilter "
     },
     {
       "type": 1,
       "value": "index"
+    },
+    {
+      "type": 0,
+      "value": " entfernen"
     }
   ],
   "ui-licenses.customProperty.removeRule": [
     {
       "type": 0,
-      "value": "Remove rule"
+      "value": "Regel entfernen"
     }
   ],
   "ui-licenses.customProperty.retiredName": [
     {
       "type": 0,
-      "value": "DEPRECATED: "
+      "value": "VERALTET: "
     },
     {
       "type": 1,
@@ -90857,7 +90897,7 @@
   "ui-licenses.errors.decimalValueNotInRange": [
     {
       "type": 0,
-      "value": "Please enter a number in the range "
+      "value": "Bitte Zahl in einem Bereich von "
     },
     {
       "type": 1,
@@ -90865,7 +90905,7 @@
     },
     {
       "type": 0,
-      "value": " to "
+      "value": " bis "
     },
     {
       "type": 1,
@@ -90873,31 +90913,31 @@
     },
     {
       "type": 0,
-      "value": " to continue"
+      "value": " eingeben, um fortzufahren"
     }
   ],
   "ui-licenses.errors.hasNonAlphaName": [
     {
       "type": 0,
-      "value": "The name can only contain Latin alphabetical characters (a-z) and non-leading numeric characters."
+      "value": "Der Name darf nur lateinische alphabetische Zeichen (a-z) und nicht führende numerische Zeichen beinhalten."
     }
   ],
   "ui-licenses.errors.invalidNumber": [
     {
       "type": 0,
-      "value": "Please enter a valid number to continue"
+      "value": "Bitte gültige Nummer eingeben, um fortzufahren"
     }
   ],
   "ui-licenses.errors.maxTwoDecimals": [
     {
       "type": 0,
-      "value": "Please enter a number with a maximum of 2 decimals places"
+      "value": "Bitte Zahl mit maximal 2 Dezimalstellen eingeben"
     }
   ],
   "ui-licenses.errors.valueNotInRange": [
     {
       "type": 0,
-      "value": "Please enter a whole number in the range "
+      "value": "Bitte eine ganze Zahl im Bereich von "
     },
     {
       "type": 1,
@@ -90905,7 +90945,7 @@
     },
     {
       "type": 0,
-      "value": " to "
+      "value": " bis "
     },
     {
       "type": 1,
@@ -90913,113 +90953,117 @@
     },
     {
       "type": 0,
-      "value": " to continue"
+      "value": " eingeben, um fortzufahren"
     }
   ],
   "ui-licenses.new": [
     {
       "type": 0,
-      "value": "New"
+      "value": "Neu"
     }
   ],
   "ui-licenses.no": [
     {
       "type": 0,
-      "value": "No"
+      "value": "Nein"
     }
   ],
   "ui-licenses.notSet": [
     {
       "type": 0,
-      "value": "Not set"
+      "value": "Nicht festgelegt"
     }
   ],
   "ui-licenses.operator.contains": [
     {
       "type": 0,
-      "value": "Contains"
+      "value": "Enthält"
     }
   ],
   "ui-licenses.operator.doesNotContain": [
     {
       "type": 0,
-      "value": "Does not contain"
+      "value": "Enthält nicht"
     }
   ],
   "ui-licenses.operator.doesNotEqual": [
     {
       "type": 0,
-      "value": "Does not equal"
+      "value": "Ist nicht gleich"
     }
   ],
   "ui-licenses.operator.equals": [
     {
       "type": 0,
-      "value": "Equals"
+      "value": "Ist gleich"
     }
   ],
   "ui-licenses.operator.is": [
     {
       "type": 0,
-      "value": "Is"
+      "value": "Ist"
     }
   ],
   "ui-licenses.operator.isGreaterThanOrEqual": [
     {
       "type": 0,
-      "value": "Is greater than or equal to"
+      "value": "Ist größer oder gleich"
     }
   ],
   "ui-licenses.operator.isLessThanOrEqual": [
     {
       "type": 0,
-      "value": "Is less than or equal to"
+      "value": "Ist weniger oder gleich"
     }
   ],
   "ui-licenses.operator.isNot": [
     {
       "type": 0,
-      "value": "Is not"
+      "value": "Ist nicht"
     }
   ],
   "ui-licenses.operator.isNotSet": [
     {
       "type": 0,
-      "value": "Is not set"
+      "value": "Ist nicht belegt"
     }
   ],
   "ui-licenses.operator.isOnOrAfter": [
     {
       "type": 0,
-      "value": "Is on or after"
+      "value": "Ist am oder nach"
     }
   ],
   "ui-licenses.operator.isOnOrBefore": [
     {
       "type": 0,
-      "value": "Is on or before"
+      "value": "Ist am oder vor"
     }
   ],
   "ui-licenses.operator.isSet": [
     {
       "type": 0,
-      "value": "Is set"
+      "value": "Ist belegt"
     }
   ],
   "ui-licenses.refdata.deleteAriaLabel": [
     {
       "type": 0,
-      "value": "Delete value "
+      "value": "Wert "
     },
     {
       "type": 1,
       "value": "label"
+    },
+    {
+      "type": 0,
+      "value": " löschen"
     }
   ],
   "ui-licenses.refdata.deleteRefdataValue": [
     {
       "type": 0,
-      "value": "Delete pick list value"
+      "value": "Auswahllistenwert löschen"
     }
   ],
   "ui-licenses.refdata.deleteRefdataValue.confirmMessage": [
@@ -91035,7 +91079,7 @@
     },
     {
       "type": 0,
-      "value": " will be deleted."
+      "value": " wird gelöscht."
     }
   ],
   "ui-licenses.refdata.deleteRefdataValue.errorMessage": [
@@ -91043,7 +91087,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Error:"
+          "value": "Fehler:"
         }
       ],
       "type": 8,
@@ -91051,7 +91095,7 @@
     },
     {
       "type": 0,
-      "value": " Pick list value "
+      "value": " Auswahllistenwert "
     },
     {
       "children": [
@@ -91065,45 +91109,53 @@
     },
     {
       "type": 0,
-      "value": " was not deleted because it is in use in one or more terms on one or more licenses."
+      "value": " wurde nicht gelöscht, weil dieser in einer oder mehreren Bedingungen in einer oder mehreren Lizenzverträgen verwendet wird."
     }
   ],
   "ui-licenses.refdata.editAriaLabel": [
     {
       "type": 0,
-      "value": "Edit value "
+      "value": "Wert "
     },
     {
       "type": 1,
       "value": "label"
+    },
+    {
+      "type": 0,
+      "value": " bearbeiten"
     }
   ],
   "ui-licenses.refdata.label": [
     {
       "type": 0,
-      "value": "Label"
+      "value": "Anzeigename"
     }
   ],
   "ui-licenses.refdata.value": [
     {
       "type": 0,
-      "value": "Value"
+      "value": "Wert"
     }
   ],
   "ui-licenses.refdataCategory.deleteAriaLabel": [
     {
       "type": 0,
-      "value": "Delete value "
+      "value": "Wert "
     },
     {
       "type": 1,
       "value": "label"
+    },
+    {
+      "type": 0,
+      "value": " löschen"
     }
   ],
   "ui-licenses.refdataCategory.deleteRefdataCategory": [
     {
       "type": 0,
-      "value": "Delete pick list category"
+      "value": "Auswahllistenkategorie löschen"
     }
   ],
   "ui-licenses.refdataCategory.deleteRefdataCategory.confirmMessage": [
@@ -91119,7 +91171,7 @@
     },
     {
       "type": 0,
-      "value": " will be deleted."
+      "value": " wird gelöscht."
     }
   ],
   "ui-licenses.refdataCategory.deleteRefdataCategory.errorMessage": [
@@ -91127,7 +91179,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Error"
+          "value": "Fehler:"
         }
       ],
       "type": 8,
@@ -91135,7 +91187,7 @@
     },
     {
       "type": 0,
-      "value": ": Pick list "
+      "value": " Auswahlliste "
     },
     {
       "children": [
@@ -91149,43 +91201,43 @@
     },
     {
       "type": 0,
-      "value": " was not deleted. This is likely to be because it has been applied to one or more terms. To fix, remove the pick list from all terms, then try to delete the pick list again."
+      "value": " wurde nicht gelöscht. Das liegt wahrscheinlich daran, dass diese in einer oder mehreren Bedingungen verwendet wird. Bitte die Auswahlliste von allen Bedingungen entfernen und danach Löschung erneut versuchen."
     }
   ],
   "ui-licenses.refdataCategory.noOfValues": [
     {
       "type": 0,
-      "value": "# of values"
+      "value": "Anzahl der Werte"
     }
   ],
   "ui-licenses.refdataCategory.refdataCategories": [
     {
       "type": 0,
-      "value": "Categories"
+      "value": "Kategorien"
     }
   ],
   "ui-licenses.refdataCategory.refdataCategory": [
     {
       "type": 0,
-      "value": "Category"
+      "value": "Kategorie"
     }
   ],
   "ui-licenses.save": [
     {
       "type": 0,
-      "value": "Save"
+      "value": "Speichern"
     }
   ],
   "ui-licenses.saveAndClose": [
     {
       "type": 0,
-      "value": "Save & close"
+      "value": "Speichern & schließen"
     }
   ],
   "ui-licenses.search": [
     {
       "type": 0,
-      "value": "Search"
+      "value": "Suche"
     }
   ],
   "ui-licenses.settings.noOfValues": [
@@ -91257,19 +91309,19 @@
   "ui-licenses.value": [
     {
       "type": 0,
-      "value": "Value"
+      "value": "Wert"
     }
   ],
   "ui-licenses.valueOrValues": [
     {
       "type": 0,
-      "value": "Value(s)"
+      "value": "Wert(e)"
     }
   ],
   "ui-licenses.yes": [
     {
       "type": 0,
-      "value": "Yes"
+      "value": "Ja"
     }
   ],
   "ui-marc-authorities.authorities.rows.recordsSelected": [
@@ -92404,6 +92456,56 @@
     {
       "type": 0,
       "value": "Previous:"
+    }
+  ],
+  "ui-agreements.agreementLines.newLine": [
+    {
+      "type": 0,
+      "value": "Neue Vereinbarungskomponente"
+    }
+  ],
+  "ui-agreements.agreementLines.viewInSearch": [
+    {
+      "type": 0,
+      "value": "In der Vereinbarungskomponentensuche ansehen"
+    }
+  ],
+  "ui-licenses.license.linkLicense": [
+    {
+      "type": 0,
+      "value": "Lizenzvertrag verknüpfen"
+    }
+  ],
+  "ui-licenses.license.linkLicenseToStart": [
+    {
+      "type": 0,
+      "value": "Lizenzvertrag verknüpfen, um loszulegen"
+    }
+  ],
+  "ui-licenses.license.noLicenseLinked": [
+    {
+      "type": 0,
+      "value": "Kein Lizenzvertrag verknüpft"
+    }
+  ],
+  "ui-licenses.license.replaceLicense": [
+    {
+      "type": 0,
+      "value": "Lizenzvertrag ersetzen"
+    }
+  ],
+  "ui-licenses.license.replaceLicenseSpecific": [
+    {
+      "type": 0,
+      "value": "Lizenzvertrag "
+    },
+    {
+      "type": 1,
+      "value": "licenseName"
+    },
+    {
+      "type": 0,
+      "value": " ersetzen"
     }
   ]
 }

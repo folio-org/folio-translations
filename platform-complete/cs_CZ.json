@@ -7912,7 +7912,7 @@
   "ui-agreements.platform.platformProxySettings.useThisProxy": [
     {
       "type": 0,
-      "value": "Použijte tento proxy"
+      "value": "Použijte tuto proxy"
     }
   ],
   "ui-agreements.platform.platformProxySettings.used": [
@@ -81966,7 +81966,7 @@
   "ui-agreements.supplementaryProperty.help.name": [
     {
       "type": 0,
-      "value": "Při výstupu doplňkových dat vlastností ve strojově čitelném formátu se používá smluvní termín 'název'. Není určeno k zobrazení uživatelům (zaměstnancům nebo čtenářům). Mělo by se jednat o krátký řetězec latinské abecedy, který mohou používat jakékoli externí systémy nebo programy, které přistupují k doplňkovým údajům o vlastnictví smlouvy. Použití camelCase je doporučeno, ale není vyžadováno. Změny názvu doplňkového majetku smlouvy by ovlivnily jakékoli externí systémy využívající doplňková data vlastnictví smlouvy a změny by neměly být prováděny bez konzultace s osobami odpovědnými za příslušné externí systémy a software."
+      "value": "Při výstupu doplňkových dat vlastností ve strojově čitelném formátu se používá smluvní termín 'název'. Není určeno k zobrazení uživatelům (zaměstnancům nebo čtenářům). Mělo by se jednat o krátký řetězec latinské abecedy, který mohou používat jakékoli externí systémy nebo programy, které přistupují k doplňkovým údajům o vlastnictví smlouvy. Využití camelCase je doporučeno, ale není vyžadováno. Změny názvu doplňkového majetku smlouvy by ovlivnily jakékoli externí systémy využívající doplňková data vlastnictví smlouvy a změny by neměly být prováděny bez konzultace s osobami odpovědnými za příslušné externí systémy a software."
     }
   ],
   "ui-agreements.supplementaryProperty.newModal": [
@@ -84154,19 +84154,19 @@
   "ui-licenses.terms.help.category": [
     {
       "type": 0,
-      "value": "Terms can be categorised. Each category will appear as a separate accordion when viewing or editing the license."
+      "value": "Termíny lze kategorizovat. Každá kategorie se při prohlížení nebo úpravě licence zobrazí jako samostatný odstavec."
     }
   ],
   "ui-licenses.terms.help.label": [
     {
       "type": 0,
-      "value": "Licenční termín „štítek“ se používá při zobrazování termínu uživatelům v rámci Folio a v jakýchkoli jiných systémech, které uživatelům zobrazují licenční podmínky. Měl by to být krátký textový řetězec, který jasně sděluje, jaké informace jsou v termínu zaznamenány. Popis by měl být použit tam, kde je vyžadováno další vysvětlení termínu pro zobrazení uživatelům."
+      "value": "Licenční termín \"štítek\" se používá při zobrazování termínu uživatelům ve Foliu a v jakýchkoli jiných systémech, které uživatelům zobrazují licenční podmínky. Měl by to být krátký textový řetězec, který jasně sděluje, jaké informace jsou v daném termínu zaznamenány. Popis by měl být použit tam, kde je pro zobrazení uživatelům vyžadováno další vysvětlení pojmu."
     }
   ],
   "ui-licenses.terms.help.name": [
     {
       "type": 0,
-      "value": "Licenční termín 'název' se používá při výstupu dat termínu ve strojově čitelném formátu. Není určeno k zobrazení uživatelům (zaměstnancům nebo čtenářům). Mělo by se jednat o krátký řetězec latinské abecedy, který mohou používat jakékoli externí systémy nebo programy, které přistupují k datům licenčního termínu. Použití camelCase je doporučeno, ale není vyžadováno. Změny názvu licenčního termínu by ovlivnily jakékoli externí systémy využívající data licenčních podmínek a změny by neměly být prováděny bez konzultace s osobami odpovědnými za příslušné externí systémy a software."
+      "value": "Licenční termín 'název' se používá při výstupu dat termínu ve strojově čitelném formátu. Není určeno k zobrazení uživatelům (zaměstnancům nebo čtenářům). Mělo by se jednat o krátký řetězec latinské abecedy, který mohou používat jakékoli externí systémy nebo programy, které přistupují k datům licenčního termínu. Využití camelCase je doporučeno, ale není vyžadováno. Změny názvu licenčního termínu by ovlivnily jakékoli externí systémy využívající data licenčních podmínek a změny by neměly být prováděny bez konzultace s osobami odpovědnými za příslušné externí systémy a software."
     }
   ],
   "ui-licenses.terms.multiPickList": [
@@ -86318,7 +86318,7 @@
   "ui-agreements.settings.fileStorage.s3BucketRegion": [
     {
       "type": 0,
-      "value": "S3 bucket region"
+      "value": "Region segmentu S3"
     }
   ],
   "ui-agreements.settings.noCurrentValue": [
@@ -90334,7 +90334,7 @@
   "ui-licenses.customProperties.addProperty": [
     {
       "type": 0,
-      "value": "Přidat vlastnost"
+      "value": "Přidat podmínku"
     }
   ],
   "ui-licenses.customProperties.category": [
@@ -90540,7 +90540,7 @@
   "ui-licenses.customProperties.optionalProperties": [
     {
       "type": 0,
-      "value": "Volitelné vlastnosti"
+      "value": "Nepovinné podmínky"
     }
   ],
   "ui-licenses.customProperties.primary": [
@@ -90552,7 +90552,7 @@
   "ui-licenses.customProperties.primaryProperties": [
     {
       "type": 0,
-      "value": "Primární vlastnosti"
+      "value": "Primární podmínky"
     }
   ],
   "ui-licenses.customProperties.publicNote": [
@@ -92275,6 +92275,52 @@
     {
       "type": 0,
       "value": "Previous:"
+    }
+  ],
+  "ui-agreements.agreementLines.newLine": [
+    {
+      "type": 0,
+      "value": "Nový řádek smlouvy"
+    }
+  ],
+  "ui-agreements.agreementLines.viewInSearch": [
+    {
+      "type": 0,
+      "value": "Zobrazit v hledání řádků smlouvy"
+    }
+  ],
+  "ui-licenses.license.linkLicense": [
+    {
+      "type": 0,
+      "value": "Propojit licenci"
+    }
+  ],
+  "ui-licenses.license.linkLicenseToStart": [
+    {
+      "type": 0,
+      "value": "Propojte licenci a začněte"
+    }
+  ],
+  "ui-licenses.license.noLicenseLinked": [
+    {
+      "type": 0,
+      "value": "Není propojená žádná licence"
+    }
+  ],
+  "ui-licenses.license.replaceLicense": [
+    {
+      "type": 0,
+      "value": "Vyměňte licenci"
+    }
+  ],
+  "ui-licenses.license.replaceLicenseSpecific": [
+    {
+      "type": 0,
+      "value": "Nahradit licenci "
+    },
+    {
+      "type": 1,
+      "value": "licenseName"
     }
   ]
 }

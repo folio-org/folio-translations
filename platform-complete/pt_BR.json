@@ -6637,7 +6637,7 @@
   "ui-agreements.eresources.holdingStatus": [
     {
       "type": 0,
-      "value": "Status do holding"
+      "value": "Status do acervo"
     }
   ],
   "ui-agreements.eresources.isPackage": [
@@ -8216,7 +8216,7 @@
   "ui-agreements.poLines.viewInInventory": [
     {
       "type": 0,
-      "value": "Ver no acervo"
+      "value": "Ver no Inventário"
     }
   ],
   "ui-agreements.polines.lineHasNone": [
@@ -84294,7 +84294,7 @@
   "ui-licenses.terms.help.category": [
     {
       "type": 0,
-      "value": "Terms can be categorised. Each category will appear as a separate accordion when viewing or editing the license."
+      "value": "Os termos podem ser categorizados. Cada categoria aparecerá como um acordeão separado ao visualizar ou editar a licença."
     }
   ],
   "ui-licenses.terms.help.label": [
@@ -84306,7 +84306,7 @@
   "ui-licenses.terms.help.name": [
     {
       "type": 0,
-      "value": "Um termo de licença 'nome' é usado quando se emite o termo dados em um formato legível por máquina. Ele não deve ser exibido aos usuários (funcionários ou usuários). Deve ser um pequeno termo ou expressão alfabeto latino que pode ser usado por quaisquer sistemas ou programas externos que acessem os dados do termo de licença. O uso da expressão com as palavras iniciais em Letra Maiúscula é sugerido, mas não é necessário. Alterações no nome do termo de licença afetariam qualquer sistema externo que utilize dados do termo de licença e as alterações não devem ser feitas sem consultar os responsáveis pelos sistemas e softwares externos relevantes."
+      "value": "Um termo de licença 'nome' é usado quando se emite o termo dados em um formato legível por máquina. Ele não deve ser exibido aos usuários (funcionários ou usuários). Deve ser um pequeno termo ou expressão do alfabeto latino que pode ser usado por quaisquer sistemas ou programas externos que acessem os dados do termo de licença. O uso da expressão com as palavras iniciais em Letra Maiúscula é sugerido, mas não é necessário. Alterações no nome do termo de licença afetariam qualquer sistema externo que utilize dados do termo de licença e as alterações não devem ser feitas sem consultar os responsáveis pelos sistemas e softwares externos relevantes."
     }
   ],
   "ui-licenses.terms.multiPickList": [
@@ -90477,7 +90477,7 @@
   "ui-licenses.customProperties.addProperty": [
     {
       "type": 0,
-      "value": "Adicionar propriedade"
+      "value": "Adicionar propriedades"
     }
   ],
   "ui-licenses.customProperties.category": [
@@ -90741,7 +90741,7 @@
   "ui-licenses.customProperties.type.com.k_int.web.toolkit.custprops.types.CustomPropertyBoolean": [
     {
       "type": 0,
-      "value": "Boleano"
+      "value": "Booleano"
     }
   ],
   "ui-licenses.customProperties.type.com.k_int.web.toolkit.custprops.types.CustomPropertyContainer": [
@@ -92542,6 +92542,52 @@
     {
       "type": 0,
       "value": "Previous:"
+    }
+  ],
+  "ui-agreements.agreementLines.newLine": [
+    {
+      "type": 0,
+      "value": "New agreement line"
+    }
+  ],
+  "ui-agreements.agreementLines.viewInSearch": [
+    {
+      "type": 0,
+      "value": "View in agreement lines search"
+    }
+  ],
+  "ui-licenses.license.linkLicense": [
+    {
+      "type": 0,
+      "value": "Vincular licença"
+    }
+  ],
+  "ui-licenses.license.linkLicenseToStart": [
+    {
+      "type": 0,
+      "value": "Vincule uma licença para começar"
+    }
+  ],
+  "ui-licenses.license.noLicenseLinked": [
+    {
+      "type": 0,
+      "value": "Nenhuma licença vinculada"
+    }
+  ],
+  "ui-licenses.license.replaceLicense": [
+    {
+      "type": 0,
+      "value": "Substituir licença"
+    }
+  ],
+  "ui-licenses.license.replaceLicenseSpecific": [
+    {
+      "type": 0,
+      "value": "Substituir licença "
+    },
+    {
+      "type": 1,
+      "value": "licenseName"
     }
   ]
 }

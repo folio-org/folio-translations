@@ -84483,13 +84483,13 @@
   "ui-licenses.terms.help.label": [
     {
       "type": 0,
-      "value": "La 'etichetta' di un termine di licenza viene utilizzata quando si visualizza il termine agli utenti all'interno di Folio e in qualsiasi altro sistema che visualizza i termini di licenza agli utenti. Dovrebbe essere una breve stringa di testo che comunichi chiaramente quali informazioni sono registrate nel termine. La descrizione deve essere utilizzata laddove è necessaria un'ulteriore spiegazione del termine per la visualizzazione agli utenti."
+      "value": "A license term 'label' is used when displaying the term to users within Folio and in any other systems that display license terms to users. It should be a short text string that clearly communicates what information is recorded in the term. The Description should be used where further explanation of the term is required for display to users."
     }
   ],
   "ui-licenses.terms.help.name": [
     {
       "type": 0,
-      "value": "Il \"nome\" di un termine di licenza viene utilizzato quando si inviano dati in un formato leggibile dalla macchina. Non è destinato ad essere mostrato agli utenti (personale o utenti finali). Dovrebbe essere una breve stringa alfabetica che può essere utilizzata da qualsiasi sistema o programma esterno che accede ai datisui termini della licenza. L'uso di camelCase è consigliato ma non obbligatorio. Le modifiche al nome dei termini della licenza influenzerebbero tutti i sistemi esterni che utilizzano i dati del termine di licenza e le modifiche non dovrebbero essere apportate senza consultare i responsabili dei sistemi e software esterni pertinenti."
+      "value": "A license term 'name' is used when outputting the term data in a machine readable format. It is not intended to be displayed to users (staff or patrons). It should be a short Latin alphabet string that can be used by any external systems or programs that access the license term data. Use of camelCase is suggested but not required. Changes to the license term name would affect any external systems using license term data and changes should not be made without consulting those responsible for relevant external systems and software."
     }
   ],
   "ui-licenses.terms.multiPickList": [
@@ -92632,6 +92632,52 @@
     {
       "type": 0,
       "value": "Previous:"
+    }
+  ],
+  "ui-agreements.agreementLines.newLine": [
+    {
+      "type": 0,
+      "value": "New agreement line"
+    }
+  ],
+  "ui-agreements.agreementLines.viewInSearch": [
+    {
+      "type": 0,
+      "value": "View in agreement lines search"
+    }
+  ],
+  "ui-licenses.license.linkLicense": [
+    {
+      "type": 0,
+      "value": "Link license"
+    }
+  ],
+  "ui-licenses.license.linkLicenseToStart": [
+    {
+      "type": 0,
+      "value": "Link a license to get started"
+    }
+  ],
+  "ui-licenses.license.noLicenseLinked": [
+    {
+      "type": 0,
+      "value": "No license linked"
+    }
+  ],
+  "ui-licenses.license.replaceLicense": [
+    {
+      "type": 0,
+      "value": "Replace license"
+    }
+  ],
+  "ui-licenses.license.replaceLicenseSpecific": [
+    {
+      "type": 0,
+      "value": "Replace license "
+    },
+    {
+      "type": 1,
+      "value": "licenseName"
     }
   ]
 }

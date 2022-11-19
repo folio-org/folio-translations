@@ -84340,13 +84340,13 @@
   "ui-licenses.terms.help.label": [
     {
       "type": 0,
-      "value": "يتم استخدام مصطلح الترخيص ' ملصق' عند عرض المصطلح للمستخدمين داخل فوليو وفي أي أنظمة أخرى تعرض مصطلحات الترخيص للمستخدمين. يجب أن يكون الملصق مقطعًا نصيًا قصيرًا يوضح المعلومات التي يتم تسجيلها بوضوح في المصطلح. يجب استخدام الوصف عند الحاجة إلى شرح إضافي للمصطلح لعرضه على المستخدمين."
+      "value": "A license term 'label' is used when displaying the term to users within Folio and in any other systems that display license terms to users. It should be a short text string that clearly communicates what information is recorded in the term. The Description should be used where further explanation of the term is required for display to users."
     }
   ],
   "ui-licenses.terms.help.name": [
     {
       "type": 0,
-      "value": "يستخدم مصطلح الترخيص 'الاسم' عند إخراج بيانات المصطلح بتنسيق قابل للقراءة آليًا. وليس المقصود أن يتم عرضه على المستخدمين (الموظفين أو المستفيدين). يجب أن يكون الاسم مقطعًا من أحرف أبجدية لاتينية قصيرة يمكن استخدامها من قبل أي أنظمة أو برامج خارجية يمكنها الوصول إلى بيانات مصطلح الترخيص. يقترح استخدام camelCase لكن ذلك غير مطلوب. من شأن التغييرات التي تطرأ على اسم مصطلح الترخيص أن تؤثر على أي أنظمة خارجية تستخدم بيانات مصطلح الترخيص ، ويجب عدم إجراء التغييرات دون استشارة المسؤولين عن الأنظمة والبرامج الخارجية ذات الصلة."
+      "value": "A license term 'name' is used when outputting the term data in a machine readable format. It is not intended to be displayed to users (staff or patrons). It should be a short Latin alphabet string that can be used by any external systems or programs that access the license term data. Use of camelCase is suggested but not required. Changes to the license term name would affect any external systems using license term data and changes should not be made without consulting those responsible for relevant external systems and software."
     }
   ],
   "ui-licenses.terms.multiPickList": [
@@ -90513,7 +90513,7 @@
   "ui-licenses.customProperties.addProperty": [
     {
       "type": 0,
-      "value": "Add property"
+      "value": "Add term"
     }
   ],
   "ui-licenses.customProperties.category": [
@@ -90714,7 +90714,7 @@
   "ui-licenses.customProperties.optionalProperties": [
     {
       "type": 0,
-      "value": "Optional properties"
+      "value": "Optional terms"
     }
   ],
   "ui-licenses.customProperties.primary": [
@@ -90726,7 +90726,7 @@
   "ui-licenses.customProperties.primaryProperties": [
     {
       "type": 0,
-      "value": "Primary properties"
+      "value": "Primary terms"
     }
   ],
   "ui-licenses.customProperties.publicNote": [
@@ -92461,6 +92461,52 @@
     {
       "type": 0,
       "value": "Previous:"
+    }
+  ],
+  "ui-agreements.agreementLines.newLine": [
+    {
+      "type": 0,
+      "value": "New agreement line"
+    }
+  ],
+  "ui-agreements.agreementLines.viewInSearch": [
+    {
+      "type": 0,
+      "value": "View in agreement lines search"
+    }
+  ],
+  "ui-licenses.license.linkLicense": [
+    {
+      "type": 0,
+      "value": "Link license"
+    }
+  ],
+  "ui-licenses.license.linkLicenseToStart": [
+    {
+      "type": 0,
+      "value": "Link a license to get started"
+    }
+  ],
+  "ui-licenses.license.noLicenseLinked": [
+    {
+      "type": 0,
+      "value": "No license linked"
+    }
+  ],
+  "ui-licenses.license.replaceLicense": [
+    {
+      "type": 0,
+      "value": "Replace license"
+    }
+  ],
+  "ui-licenses.license.replaceLicenseSpecific": [
+    {
+      "type": 0,
+      "value": "Replace license "
+    },
+    {
+      "type": 1,
+      "value": "licenseName"
     }
   ]
 }

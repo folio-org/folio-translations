@@ -83000,13 +83000,13 @@
   "ui-licenses.terms.help.label": [
     {
       "type": 0,
-      "value": "當在 Folio 中，和在向使用者顯示授權條款的任何其他系統中，向使用者顯示授權條款時，會使用授權中的「標籤（Label）」。它應該是一個簡短的文字字符串，可以清楚地傳達授權條款中記錄了哪些資訊。當需要將授權條款的進一步解釋顯示給使用者時，可以使用「描述（Description）」欄位進行補充說明。"
+      "value": "A license term 'label' is used when displaying the term to users within Folio and in any other systems that display license terms to users. It should be a short text string that clearly communicates what information is recorded in the term. The Description should be used where further explanation of the term is required for display to users."
     }
   ],
   "ui-licenses.terms.help.name": [
     {
       "type": 0,
-      "value": "當以機器可讀格式輸出授權條款資料時，所使用授權條款的「名稱」。它不是用來顯示給使用者（館員或讀者）。它應該是一個簡短的拉丁字母字符串，可供訪問授權條款資料的任何外部系統或程式使用。建議使用 camelCase 命名原則，但這不是必需的。授權條款名稱的更改會影響任何使用授權條款資料的外部系統，在未諮詢相關外部系統和軟體的負責人員的情況下，不應該對其進行更改。"
+      "value": "A license term 'name' is used when outputting the term data in a machine readable format. It is not intended to be displayed to users (staff or patrons). It should be a short Latin alphabet string that can be used by any external systems or programs that access the license term data. Use of camelCase is suggested but not required. Changes to the license term name would affect any external systems using license term data and changes should not be made without consulting those responsible for relevant external systems and software."
     }
   ],
   "ui-licenses.terms.none": [
@@ -91480,7 +91480,7 @@
   "ui-licenses.customProperties.addProperty": [
     {
       "type": 0,
-      "value": "Add property"
+      "value": "Add term"
     }
   ],
   "ui-licenses.customProperties.category": [
@@ -91681,7 +91681,7 @@
   "ui-licenses.customProperties.optionalProperties": [
     {
       "type": 0,
-      "value": "Optional properties"
+      "value": "Optional terms"
     }
   ],
   "ui-licenses.customProperties.primary": [
@@ -91693,7 +91693,7 @@
   "ui-licenses.customProperties.primaryProperties": [
     {
       "type": 0,
-      "value": "Primary properties"
+      "value": "Primary terms"
     }
   ],
   "ui-licenses.customProperties.publicNote": [
@@ -93428,6 +93428,52 @@
     {
       "type": 0,
       "value": "Previous:"
+    }
+  ],
+  "ui-agreements.agreementLines.newLine": [
+    {
+      "type": 0,
+      "value": "New agreement line"
+    }
+  ],
+  "ui-agreements.agreementLines.viewInSearch": [
+    {
+      "type": 0,
+      "value": "View in agreement lines search"
+    }
+  ],
+  "ui-licenses.license.linkLicense": [
+    {
+      "type": 0,
+      "value": "Link license"
+    }
+  ],
+  "ui-licenses.license.linkLicenseToStart": [
+    {
+      "type": 0,
+      "value": "Link a license to get started"
+    }
+  ],
+  "ui-licenses.license.noLicenseLinked": [
+    {
+      "type": 0,
+      "value": "No license linked"
+    }
+  ],
+  "ui-licenses.license.replaceLicense": [
+    {
+      "type": 0,
+      "value": "Replace license"
+    }
+  ],
+  "ui-licenses.license.replaceLicenseSpecific": [
+    {
+      "type": 0,
+      "value": "Replace license "
+    },
+    {
+      "type": 1,
+      "value": "licenseName"
     }
   ]
 }

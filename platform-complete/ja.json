@@ -84459,7 +84459,7 @@
   "ui-licenses.terms.help.name": [
     {
       "type": 0,
-      "value": "ライセンス条件のデータを機械可読形式で出力する際に、契約条件の「名称」が使用されます。これは、ユーザー（スタッフまたは利用者）に表示されることを意図したものではありません。ライセンス条件のデータにアクセスする外部システムまたはプログラムで使用できる、短いラテン語のアルファベット文字列でなければなりません。キャメルケースの使用が推奨されるが、必須ではありません。ライセンス条件名の変更は、ライセンス条件のデータを使用するすべての外部システムに影響するため、関連する外部システムおよびソフトウェアの責任者に相談することなく変更するべきではありません。"
+      "value": "A license term 'name' is used when outputting the term data in a machine readable format. It is not intended to be displayed to users (staff or patrons). It should be a short Latin alphabet string that can be used by any external systems or programs that access the license term data. Use of camelCase is suggested but not required. Changes to the license term name would affect any external systems using license term data and changes should not be made without consulting those responsible for relevant external systems and software."
     }
   ],
   "ui-licenses.terms.multiPickList": [
@@ -90638,7 +90638,7 @@
   "ui-licenses.customProperties.addProperty": [
     {
       "type": 0,
-      "value": "Add property"
+      "value": "Add term"
     }
   ],
   "ui-licenses.customProperties.category": [
@@ -90839,7 +90839,7 @@
   "ui-licenses.customProperties.optionalProperties": [
     {
       "type": 0,
-      "value": "Optional properties"
+      "value": "Optional terms"
     }
   ],
   "ui-licenses.customProperties.primary": [
@@ -90851,7 +90851,7 @@
   "ui-licenses.customProperties.primaryProperties": [
     {
       "type": 0,
-      "value": "Primary properties"
+      "value": "Primary terms"
     }
   ],
   "ui-licenses.customProperties.publicNote": [
@@ -92586,6 +92586,52 @@
     {
       "type": 0,
       "value": "Previous:"
+    }
+  ],
+  "ui-agreements.agreementLines.newLine": [
+    {
+      "type": 0,
+      "value": "New agreement line"
+    }
+  ],
+  "ui-agreements.agreementLines.viewInSearch": [
+    {
+      "type": 0,
+      "value": "View in agreement lines search"
+    }
+  ],
+  "ui-licenses.license.linkLicense": [
+    {
+      "type": 0,
+      "value": "Link license"
+    }
+  ],
+  "ui-licenses.license.linkLicenseToStart": [
+    {
+      "type": 0,
+      "value": "Link a license to get started"
+    }
+  ],
+  "ui-licenses.license.noLicenseLinked": [
+    {
+      "type": 0,
+      "value": "No license linked"
+    }
+  ],
+  "ui-licenses.license.replaceLicense": [
+    {
+      "type": 0,
+      "value": "Replace license"
+    }
+  ],
+  "ui-licenses.license.replaceLicenseSpecific": [
+    {
+      "type": 0,
+      "value": "Replace license "
+    },
+    {
+      "type": 1,
+      "value": "licenseName"
     }
   ]
 }

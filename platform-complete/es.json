@@ -84346,19 +84346,19 @@
   "ui-licenses.terms.help.category": [
     {
       "type": 0,
-      "value": "Terms can be categorised. Each category will appear as a separate accordion when viewing or editing the license."
+      "value": "Los términos pueden ser categorizados. Cada categoría aparecerá como un acordeón separado al ver o editar la licencia."
     }
   ],
   "ui-licenses.terms.help.label": [
     {
       "type": 0,
-      "value": "A license term 'label' is used when displaying the term to users within Folio and in any other systems that display license terms to users. It should be a short text string that clearly communicates what information is recorded in the term. The Description should be used where further explanation of the term is required for display to users."
+      "value": "La \"etiqueta\" de un término de licencia se utiliza cuando se muestra el término a los usuarios dentro de Folio y en cualquier otro sistema que muestre los términos de licencia a los usuarios. Debe ser una cadena de texto corta que comunique claramente qué información se registra en el término. La descripción debe utilizarse cuando se requiera una explicación más detallada del término para mostrarlo a los usuarios."
     }
   ],
   "ui-licenses.terms.help.name": [
     {
       "type": 0,
-      "value": "A license term 'name' is used when outputting the term data in a machine readable format. It is not intended to be displayed to users (staff or patrons). It should be a short Latin alphabet string that can be used by any external systems or programs that access the license term data. Use of camelCase is suggested but not required. Changes to the license term name would affect any external systems using license term data and changes should not be made without consulting those responsible for relevant external systems and software."
+      "value": "El término de licencia \"nombre\" se utiliza cuando se imprimen los datos del término en un formato legible por máquina. No está pensado para ser mostrado a los usuarios (personal o usuarios). Debe ser una cadena corta en alfabeto latino que pueda ser utilizada por cualquier sistema o programa externo que acceda a los datos del término de licencia. Se sugiere el uso de camelCase, pero no es obligatorio. Los cambios en el nombre del término de la licencia afectarían a cualquier sistema externo que utilice los datos del término de la licencia y los cambios no deberían realizarse sin consultar a los responsables de los sistemas y programas externos pertinentes."
     }
   ],
   "ui-licenses.terms.multiPickList": [
@@ -90537,7 +90537,7 @@
   "ui-licenses.customProperties.addProperty": [
     {
       "type": 0,
-      "value": "Add property"
+      "value": "Add term"
     }
   ],
   "ui-licenses.customProperties.category": [
@@ -90738,7 +90738,7 @@
   "ui-licenses.customProperties.optionalProperties": [
     {
       "type": 0,
-      "value": "Optional properties"
+      "value": "Optional terms"
     }
   ],
   "ui-licenses.customProperties.primary": [
@@ -90750,7 +90750,7 @@
   "ui-licenses.customProperties.primaryProperties": [
     {
       "type": 0,
-      "value": "Primary properties"
+      "value": "Primary terms"
     }
   ],
   "ui-licenses.customProperties.publicNote": [
@@ -92485,6 +92485,52 @@
     {
       "type": 0,
       "value": "Previous:"
+    }
+  ],
+  "ui-agreements.agreementLines.newLine": [
+    {
+      "type": 0,
+      "value": "New agreement line"
+    }
+  ],
+  "ui-agreements.agreementLines.viewInSearch": [
+    {
+      "type": 0,
+      "value": "View in agreement lines search"
+    }
+  ],
+  "ui-licenses.license.linkLicense": [
+    {
+      "type": 0,
+      "value": "Link license"
+    }
+  ],
+  "ui-licenses.license.linkLicenseToStart": [
+    {
+      "type": 0,
+      "value": "Link a license to get started"
+    }
+  ],
+  "ui-licenses.license.noLicenseLinked": [
+    {
+      "type": 0,
+      "value": "No license linked"
+    }
+  ],
+  "ui-licenses.license.replaceLicense": [
+    {
+      "type": 0,
+      "value": "Replace license"
+    }
+  ],
+  "ui-licenses.license.replaceLicenseSpecific": [
+    {
+      "type": 0,
+      "value": "Replace license "
+    },
+    {
+      "type": 1,
+      "value": "licenseName"
     }
   ]
 }
