@@ -26337,13 +26337,13 @@
   "ui-dashboard.simpleSearch.contentError": [
     {
       "type": 0,
-      "value": "Content cannot be displayed. "
+      "value": "Obsah nelze zobrazit."
     }
   ],
   "ui-dashboard.simpleSearch.errorDescription": [
     {
       "type": 0,
-      "value": "The following occurred, preventing the display of content in the widget:"
+      "value": "Došlo k následující situaci, která zabránila zobrazení obsahu ve widgetu:"
     }
   ],
   "ui-dashboard.simpleSearch.errorDetails": [
@@ -26365,7 +26365,7 @@
     },
     {
       "type": 0,
-      "value": " for widget: "
+      "value": " pro widget: "
     },
     {
       "type": 1,
@@ -26379,7 +26379,7 @@
     },
     {
       "type": 0,
-      "value": " found"
+      "value": " nalezeno"
     }
   ],
   "ui-dashboard.simpleSearch.widget.noResultsFound": [
@@ -26391,7 +26391,7 @@
   "ui-dashboard.simpleSearchForm.configurableProperties.numberOfRows": [
     {
       "type": 0,
-      "value": "Number of rows"
+      "value": "Počet řádků"
     }
   ],
   "ui-dashboard.simpleSearchForm.configurableProperties.urlLink": [
@@ -26403,49 +26403,49 @@
   "ui-dashboard.simpleSearchForm.filters": [
     {
       "type": 0,
-      "value": "Filters"
+      "value": "Filtry"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.addFilter": [
     {
       "type": 0,
-      "value": "Add filter"
+      "value": "Přidejte filtr"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.addFilterTooltip": [
     {
       "type": 0,
-      "value": "Add a filter to your widget configuration"
+      "value": "Přidejte filtr do konfigurace widgetu"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.dateFilterField.afterToday": [
     {
       "type": 0,
-      "value": "After today"
+      "value": "Po dnešku"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.dateFilterField.beforeOrAfterToday": [
     {
       "type": 0,
-      "value": "Before or after today"
+      "value": "Před nebo po dnešku"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.dateFilterField.beforeToday": [
     {
       "type": 0,
-      "value": "Before today"
+      "value": "Před dneškem"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.dateFilterField.date": [
     {
       "type": 0,
-      "value": "Date"
+      "value": "Datum"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.dateFilterField.days": [
     {
       "type": 0,
-      "value": "Days"
+      "value": "Dny"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.dateFilterField.fixedDate": [
@@ -26457,33 +26457,29 @@
   "ui-dashboard.simpleSearchForm.filters.dateFilterField.infoPopover": [
     {
       "type": 0,
-      "value": "\"Date\" can be relative or fixed. Choose the third radio button option to filter by a fixed date. To apply a relative date choose either the first option \"Today\" or the second option and set the values of the three fields: \"Length of time\", \"Unit of time\" and \"Before or after today\"."
+      "value": "\"Datum\" může být relativní nebo pevné. Chcete-li filtrovat podle pevného data, vyberte třetí možnost přepínače. Chcete-li použít relativní datum, vyberte buď první možnost „Dnes“ nebo druhou možnost a nastavte hodnoty tří polí: „Délka času“, „Časová jednotka“ a „Před nebo po dnešku“."
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.dateFilterField.invalidDate": [
     {
       "type": 0,
-      "value": "Please enter a date in the format "
+      "value": "Chcete-li pokračovat, zadejte datum ve formátu "
     },
     {
       "type": 1,
       "value": "dateFormat"
-    },
-    {
-      "type": 0,
-      "value": " to continue"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.dateFilterField.lengthOfTime": [
     {
       "type": 0,
-      "value": "Length of time"
+      "value": "Délka trvání"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.dateFilterField.months": [
     {
       "type": 0,
-      "value": "Months"
+      "value": "Měsíce"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.dateFilterField.number": [
@@ -26501,7 +26497,7 @@
   "ui-dashboard.simpleSearchForm.filters.dateFilterField.offsetMethod": [
     {
       "type": 0,
-      "value": "Offset method"
+      "value": "Metoda offsetu"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.dateFilterField.offsetValidation": [
@@ -26513,19 +26509,19 @@
   "ui-dashboard.simpleSearchForm.filters.dateFilterField.relativeDate": [
     {
       "type": 0,
-      "value": "Relative date"
+      "value": "Relativní datum"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.dateFilterField.timeUnit": [
     {
       "type": 0,
-      "value": "Unit of time"
+      "value": "Jednotka času"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.dateFilterField.today": [
     {
       "type": 0,
-      "value": "Today"
+      "value": "Dnes"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.dateFilterField.uuid": [
@@ -26537,19 +26533,19 @@
   "ui-dashboard.simpleSearchForm.filters.dateFilterField.weeks": [
     {
       "type": 0,
-      "value": "Weeks"
+      "value": "Týdny"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.dateFilterField.years": [
     {
       "type": 0,
-      "value": "Years"
+      "value": "Roky"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filter": [
     {
       "type": 0,
-      "value": "Filter "
+      "value": "Filtr "
     },
     {
       "type": 1,
@@ -26559,85 +26555,85 @@
   "ui-dashboard.simpleSearchForm.filters.filterAlreadyPresent": [
     {
       "type": 0,
-      "value": "Filter already present in the form"
+      "value": "Filtr již přítomný ve formuláři"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterBy": [
     {
       "type": 0,
-      "value": "Filter by"
+      "value": "Filtrovat podle"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator": [
     {
       "type": 0,
-      "value": "Comparator"
+      "value": "Porovnávač"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Array.isEmpty": [
     {
       "type": 0,
-      "value": "No"
+      "value": "Ne"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Array.isNotEmpty": [
     {
       "type": 0,
-      "value": "Yes"
+      "value": "Ano"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Boolean.!=": [
     {
       "type": 0,
-      "value": "is not"
+      "value": "není"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Boolean.==": [
     {
       "type": 0,
-      "value": "is"
+      "value": "je"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Boolean.isNotNull": [
     {
       "type": 0,
-      "value": "is not null"
+      "value": "není nulový"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Boolean.isNotSet": [
     {
       "type": 0,
-      "value": "is not set"
+      "value": "není nastaven"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Boolean.isNull": [
     {
       "type": 0,
-      "value": "is null"
+      "value": "je nulový"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Boolean.isSet": [
     {
       "type": 0,
-      "value": "is set"
+      "value": "je nastaven"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Date.!=": [
     {
       "type": 0,
-      "value": "is not"
+      "value": "není"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Date.<": [
     {
       "type": 0,
-      "value": "before"
+      "value": "před"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Date.<=": [
     {
       "type": 0,
-      "value": "on or before"
+      "value": "na nebo dříve"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Date.==": [
@@ -26649,163 +26645,163 @@
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Date.>": [
     {
       "type": 0,
-      "value": "after"
+      "value": "poté"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Date.>=": [
     {
       "type": 0,
-      "value": "on or after"
+      "value": "v den nebo poté"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Date.isNotNull": [
     {
       "type": 0,
-      "value": "is not null"
+      "value": "není nulový"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Date.isNotSet": [
     {
       "type": 0,
-      "value": "is not set"
+      "value": "není nastaven"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Date.isNull": [
     {
       "type": 0,
-      "value": "is null"
+      "value": "je nulový"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Date.isSet": [
     {
       "type": 0,
-      "value": "is set"
+      "value": "je nastaven"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.DateTime.!=": [
     {
       "type": 0,
-      "value": "is not"
+      "value": "není"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.DateTime.<": [
     {
       "type": 0,
-      "value": "before"
+      "value": "před"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.DateTime.<=": [
     {
       "type": 0,
-      "value": "on or before"
+      "value": "na nebo dříve"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.DateTime.==": [
     {
       "type": 0,
-      "value": "is"
+      "value": "je"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.DateTime.>": [
     {
       "type": 0,
-      "value": "after"
+      "value": "poté"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.DateTime.>=": [
     {
       "type": 0,
-      "value": "on or after"
+      "value": "v den nebo poté"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.DateTime.isNotNull": [
     {
       "type": 0,
-      "value": "is not null"
+      "value": "není nulový"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.DateTime.isNotSet": [
     {
       "type": 0,
-      "value": "is not set"
+      "value": "není nastaven"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.DateTime.isNull": [
     {
       "type": 0,
-      "value": "is null"
+      "value": "je nulový"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.DateTime.isSet": [
     {
       "type": 0,
-      "value": "is set"
+      "value": "je nastaven"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Enum.!=": [
     {
       "type": 0,
-      "value": "is not"
+      "value": "není"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Enum.==": [
     {
       "type": 0,
-      "value": "is"
+      "value": "je"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Enum.isNotNull": [
     {
       "type": 0,
-      "value": "is not null"
+      "value": "není nulový"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Enum.isNotSet": [
     {
       "type": 0,
-      "value": "is not set"
+      "value": "není nastaven"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Enum.isNull": [
     {
       "type": 0,
-      "value": "is null"
+      "value": "je nulový"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Enum.isSet": [
     {
       "type": 0,
-      "value": "is set"
+      "value": "je nastaven"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Float.!=": [
     {
       "type": 0,
-      "value": "does not equal"
+      "value": "nerovná se"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Float.<": [
     {
       "type": 0,
-      "value": "less than"
+      "value": "méně než"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Float.<=": [
     {
       "type": 0,
-      "value": "less than or equal to"
+      "value": "menší nebo rovno"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Float.==": [
     {
       "type": 0,
-      "value": "equals"
+      "value": "rovná se"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Float.>": [
     {
       "type": 0,
-      "value": "greater than"
+      "value": "větší než"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Float.>=": [
@@ -26817,25 +26813,25 @@
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Float.isNotNull": [
     {
       "type": 0,
-      "value": "is not null"
+      "value": "není nulový"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Float.isNotSet": [
     {
       "type": 0,
-      "value": "is not set"
+      "value": "není nastaven"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Float.isNull": [
     {
       "type": 0,
-      "value": "is null"
+      "value": "je nulový"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Float.isSet": [
     {
       "type": 0,
-      "value": "is set"
+      "value": "je nastaven"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Integer.!=": [
@@ -26853,37 +26849,37 @@
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Integer.<=": [
     {
       "type": 0,
-      "value": "less than or equal to"
+      "value": "menší nebo rovno"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Integer.==": [
     {
       "type": 0,
-      "value": "equals"
+      "value": "rovná se"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Integer.>": [
     {
       "type": 0,
-      "value": "greater than"
+      "value": "větší než"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Integer.>=": [
     {
       "type": 0,
-      "value": "greater than or equal to"
+      "value": "větší nebo rovno"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Integer.isNotNull": [
     {
       "type": 0,
-      "value": "is not null"
+      "value": "není nulový"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Integer.isNotSet": [
     {
       "type": 0,
-      "value": "is not set"
+      "value": "není nastaven"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Integer.isNull": [
@@ -26901,73 +26897,73 @@
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Link.!=": [
     {
       "type": 0,
-      "value": "is not"
+      "value": "není"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Link.!~": [
     {
       "type": 0,
-      "value": "does not contain"
+      "value": "neobsahuje"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Link.==": [
     {
       "type": 0,
-      "value": "is"
+      "value": "je"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Link.=~": [
     {
       "type": 0,
-      "value": "contains"
+      "value": "obsahuje"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Link.isNotNull": [
     {
       "type": 0,
-      "value": "is not null"
+      "value": "není nulový"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Link.isNotSet": [
     {
       "type": 0,
-      "value": "is not set"
+      "value": "není nastaven"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Link.isNull": [
     {
       "type": 0,
-      "value": "is null"
+      "value": "je nulový"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Link.isSet": [
     {
       "type": 0,
-      "value": "is set"
+      "value": "je nastaven"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.String.!=": [
     {
       "type": 0,
-      "value": "is not"
+      "value": "není"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.String.!~": [
     {
       "type": 0,
-      "value": "does not contain"
+      "value": "neobsahuje"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.String.==": [
     {
       "type": 0,
-      "value": "is"
+      "value": "je"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.String.=~": [
     {
       "type": 0,
-      "value": "contains"
+      "value": "obsahuje"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.String.isNotNull": [
@@ -26979,19 +26975,19 @@
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.String.isNotSet": [
     {
       "type": 0,
-      "value": "is not set"
+      "value": "není nastaven"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.String.isNull": [
     {
       "type": 0,
-      "value": "is null"
+      "value": "je nulový"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.String.isSet": [
     {
       "type": 0,
-      "value": "is set"
+      "value": "je nastaven"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.UUID.!=": [
@@ -27033,13 +27029,13 @@
   "ui-dashboard.simpleSearchForm.filters.filterField.isNull": [
     {
       "type": 0,
-      "value": "Is null"
+      "value": "Je nulový"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.rule": [
     {
       "type": 0,
-      "value": "Rule "
+      "value": "Pravidlo "
     },
     {
       "type": 1,
@@ -27049,25 +27045,25 @@
   "ui-dashboard.simpleSearchForm.filters.filterField.rule.addRule": [
     {
       "type": 0,
-      "value": "Add rule"
+      "value": "Přidat pravidlo"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.rule.and": [
     {
       "type": 0,
-      "value": "AND"
+      "value": "A"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.rule.or": [
     {
       "type": 0,
-      "value": "OR"
+      "value": "NEBO"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.rule.removeRule": [
     {
       "type": 0,
-      "value": "Remove rule "
+      "value": "Odebrat pravidlo "
     },
     {
       "type": 1,
@@ -27077,13 +27073,13 @@
   "ui-dashboard.simpleSearchForm.filters.filterField.value": [
     {
       "type": 0,
-      "value": "Value"
+      "value": "Hodnota"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.removeFilter": [
     {
       "type": 0,
-      "value": "Remove filter "
+      "value": "Odebrat filtr "
     },
     {
       "type": 1,
@@ -27111,7 +27107,7 @@
   "ui-dashboard.simpleSearchForm.matches": [
     {
       "type": 0,
-      "value": "Search"
+      "value": "Vyhledávání"
     }
   ],
   "ui-dashboard.simpleSearchForm.results": [
@@ -27129,13 +27125,13 @@
   "ui-dashboard.simpleSearchForm.results.column": [
     {
       "type": 0,
-      "value": "Column"
+      "value": "Sloupec"
     }
   ],
   "ui-dashboard.simpleSearchForm.results.columns": [
     {
       "type": 0,
-      "value": "Columns"
+      "value": "Sloupce"
     }
   ],
   "ui-dashboard.simpleSearchForm.results.label": [
@@ -27147,13 +27143,13 @@
   "ui-dashboard.simpleSearchForm.results.minimumWarning": [
     {
       "type": 0,
-      "value": "Error: Results display must contain at least one column."
+      "value": "Chyba: Zobrazení výsledků musí obsahovat alespoň jeden sloupec."
     }
   ],
   "ui-dashboard.simpleSearchForm.results.resultDeleteAria": [
     {
       "type": 0,
-      "value": "Remove column "
+      "value": "Odebrat sloupec "
     },
     {
       "type": 1,
@@ -27163,19 +27159,19 @@
   "ui-dashboard.simpleSearchForm.sort": [
     {
       "type": 0,
-      "value": "Sort"
+      "value": "Seřadit"
     }
   ],
   "ui-dashboard.simpleSearchForm.sort.sortBy": [
     {
       "type": 0,
-      "value": "Sort by"
+      "value": "Seřadit podle"
     }
   ],
   "ui-dashboard.simpleSearchForm.sort.sortDirection": [
     {
       "type": 0,
-      "value": "Sort direction"
+      "value": "Směr řazení"
     }
   ],
   "ui-dashboard.tokenDatePicker.fixedDate": [
@@ -27305,7 +27301,7 @@
   "ui-dashboard.widgetHeader.deleteButtonLabel": [
     {
       "type": 0,
-      "value": "Odstranit widget: "
+      "value": "Smazat widget: "
     },
     {
       "type": 1,
@@ -87734,31 +87730,31 @@
   "ui-dashboard.accessLevel": [
     {
       "type": 0,
-      "value": "Access level"
+      "value": "Úroveň přístupu"
     }
   ],
   "ui-dashboard.accessLevel.edit": [
     {
       "type": 0,
-      "value": "Edit"
+      "value": "Upravit"
     }
   ],
   "ui-dashboard.accessLevel.manage": [
     {
       "type": 0,
-      "value": "Manage"
+      "value": "Spravovat"
     }
   ],
   "ui-dashboard.accessLevel.view": [
     {
       "type": 0,
-      "value": "View"
+      "value": "Zobrazit"
     }
   ],
   "ui-dashboard.allDashboards": [
     {
       "type": 0,
-      "value": "All dashboards"
+      "value": "Všechny dashboardy"
     }
   ],
   "ui-dashboard.dashboard.create.success": [
@@ -87766,7 +87762,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Dashboard created:"
+          "value": "Dashboard vytvořen:"
         }
       ],
       "type": 8,
@@ -87786,7 +87782,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Dashboard deleted:"
+          "value": "Dashboard byl smazán:"
         }
       ],
       "type": 8,
@@ -87804,7 +87800,7 @@
   "ui-dashboard.dashboard.description": [
     {
       "type": 0,
-      "value": "Description"
+      "value": "Popis"
     }
   ],
   "ui-dashboard.dashboard.edit.success": [
@@ -87812,7 +87808,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Dashboard updated:"
+          "value": "Dashboard byl aktualizován:"
         }
       ],
       "type": 8,
@@ -87830,19 +87826,19 @@
   "ui-dashboard.dashboard.name": [
     {
       "type": 0,
-      "value": "Name"
+      "value": "Jméno"
     }
   ],
   "ui-dashboard.dashboard.name.info": [
     {
       "type": 0,
-      "value": "The short name will be used to create the menu button for the dashboard. The number of characters is limited to 25 maximum"
+      "value": "Krátký název se použije k vytvoření tlačítka nabídky pro dashboard. Počet znaků je omezen na maximálně 25"
     }
   ],
   "ui-dashboard.dashboard.name.tooLong": [
     {
       "type": 0,
-      "value": "Dashboard name is limited to 25 characters."
+      "value": "Název dashboardu je omezen na 25 znaků."
     }
   ],
   "ui-dashboard.dashboardUsers.accessWarning": [
@@ -87850,7 +87846,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Warning"
+          "value": "Varování"
         }
       ],
       "type": 8,
@@ -87858,19 +87854,19 @@
     },
     {
       "type": 0,
-      "value": ": The logged in user does not exist as a user on this dashboard. Access is being granted through a high level system permission (Okapi gateway permission \"servint.dashboard.admin\")."
+      "value": ": Přihlášený uživatel na tomto dashboardu neexistuje jako uživatel. Přístup je udělován prostřednictvím systémového oprávnění vysoké úrovně (oprávnění brány Okapi \"servint.dashboard.admin\")."
     }
   ],
   "ui-dashboard.dashboardUsers.addUser": [
     {
       "type": 0,
-      "value": "Add user"
+      "value": "Přidejte uživatele"
     }
   ],
   "ui-dashboard.dashboardUsers.duplicateUser": [
     {
       "type": 0,
-      "value": "Error: Duplicate user"
+      "value": "Chyba: Duplicitní uživatel"
     }
   ],
   "ui-dashboard.dashboardUsers.duplicateUser.message": [
@@ -87886,7 +87882,7 @@
     },
     {
       "type": 0,
-      "value": " was not added as this user already has access to the dashboard "
+      "value": " nebyl přidán, protože tento uživatel již má přístup k dashboardu "
     },
     {
       "children": [
@@ -87904,7 +87900,7 @@
       "children": [
         {
           "type": 0,
-          "value": "User access details updated:"
+          "value": "Aktualizovány přístupové údaje uživatele:"
         }
       ],
       "type": 8,
@@ -87922,7 +87918,7 @@
   "ui-dashboard.dashboardUsers.email": [
     {
       "type": 0,
-      "value": "Email"
+      "value": "E-mail"
     }
   ],
   "ui-dashboard.dashboardUsers.errorMissing": [
@@ -87930,7 +87926,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Error"
+          "value": "Chyba"
         }
       ],
       "type": 8,
@@ -87938,7 +87934,7 @@
     },
     {
       "type": 0,
-      "value": ": user "
+      "value": ": uživatele "
     },
     {
       "children": [
@@ -87952,25 +87948,25 @@
     },
     {
       "type": 0,
-      "value": " cannot be found in the Users app. This could mean that the user has been permanently deleted. If the problem persists the user should be removed from this dashboard."
+      "value": " nelze najít v aplikaci Uživatelé. To může znamenat, že uživatel byl trvale smazán. Pokud problém přetrvává, měl by být uživatel z tohoto dashboardu odstraněn."
     }
   ],
   "ui-dashboard.dashboardUsers.multipleUsersWarning": [
     {
       "type": 0,
-      "value": "This dashboard is shared. Any changes made will be visible to all users with access."
+      "value": "Tento dashboard je sdílený. Všechny provedené změny budou viditelné pro všechny uživatele s přístupem."
     }
   ],
   "ui-dashboard.dashboardUsers.remove": [
     {
       "type": 0,
-      "value": "Remove"
+      "value": "Odstranit"
     }
   ],
   "ui-dashboard.dashboardUsers.removeUser": [
     {
       "type": 0,
-      "value": "Remove user \""
+      "value": "Odebrat uživatele „"
     },
     {
       "type": 1,
@@ -87978,25 +87974,25 @@
     },
     {
       "type": 0,
-      "value": "\""
+      "value": "“"
     }
   ],
   "ui-dashboard.dashboardUsers.removeUsers": [
     {
       "type": 0,
-      "value": "Remove user(s)"
+      "value": "Odebrat uživatele"
     }
   ],
   "ui-dashboard.dashboardUsers.removeUsers.finalMessage": [
     {
       "type": 0,
-      "value": "Select "
+      "value": "Chcete-li pokračovat ve všech aktualizacích, vyberte možnost "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Save & close"
+          "value": "Uložit a zavřít"
         }
       ],
       "type": 8,
@@ -88004,27 +88000,23 @@
     },
     {
       "type": 0,
-      "value": " to go ahead with all updates or "
+      "value": ", chcete-li pokračovat v úpravách, vyberte možnost "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Cancel"
+          "value": "Zrušit"
         }
       ],
       "type": 8,
       "value": "strong"
-    },
-    {
-      "type": 0,
-      "value": " to continue editing"
     }
   ],
   "ui-dashboard.dashboardUsers.removeUsers.message": [
     {
       "type": 0,
-      "value": "The following user(s) will be removed and no longer has access to the dashboard \""
+      "value": "Následující uživatelé budou odebráni a již nebudou mít přístup k dashboardu „"
     },
     {
       "type": 1,
@@ -88032,43 +88024,43 @@
     },
     {
       "type": 0,
-      "value": "\"."
+      "value": "“."
     }
   ],
   "ui-dashboard.dashboardUsers.status": [
     {
       "type": 0,
-      "value": "Status"
+      "value": "Stav"
     }
   ],
   "ui-dashboard.dashboardUsers.status.active": [
     {
       "type": 0,
-      "value": "Active"
+      "value": "Aktivní"
     }
   ],
   "ui-dashboard.dashboardUsers.status.error": [
     {
       "type": 0,
-      "value": "Error"
+      "value": "Chyba"
     }
   ],
   "ui-dashboard.dashboardUsers.status.inactive": [
     {
       "type": 0,
-      "value": "Inactive"
+      "value": "Neaktivní"
     }
   ],
   "ui-dashboard.dashboardUsers.user": [
     {
       "type": 0,
-      "value": "User"
+      "value": "Uživatel"
     }
   ],
   "ui-dashboard.dashboardUsers.userAccess": [
     {
       "type": 0,
-      "value": "User access - "
+      "value": "Uživatelský přístup – "
     },
     {
       "type": 1,
@@ -88080,7 +88072,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Warning"
+          "value": "Varování"
         }
       ],
       "type": 8,
@@ -88088,7 +88080,7 @@
     },
     {
       "type": 0,
-      "value": ": user "
+      "value": ": uživatel "
     },
     {
       "children": [
@@ -88102,25 +88094,25 @@
     },
     {
       "type": 0,
-      "value": " is inactive and should be removed from this dashboard."
+      "value": " je neaktivní a měl by být z tohoto dashboardu odstraněn."
     }
   ],
   "ui-dashboard.default": [
     {
       "type": 0,
-      "value": "Default"
+      "value": "Výchozí"
     }
   ],
   "ui-dashboard.delete": [
     {
       "type": 0,
-      "value": "Delete"
+      "value": "Smazat"
     }
   ],
   "ui-dashboard.deleteDashboard": [
     {
       "type": 0,
-      "value": "Delete dashboard"
+      "value": "Smazat dashboard"
     }
   ],
   "ui-dashboard.deleteDashboard.message": [
@@ -88140,13 +88132,13 @@
     },
     {
       "type": 0,
-      "value": " will be "
+      "value": " bude "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "deleted"
+          "value": "smazán"
         }
       ],
       "type": 8,
@@ -88160,7 +88152,7 @@
   "ui-dashboard.deleteDashboard.messageMultiUsers": [
     {
       "type": 0,
-      "value": "Deleting the dashboard "
+      "value": "Smazáním dashboardu "
     },
     {
       "children": [
@@ -88174,13 +88166,13 @@
     },
     {
       "type": 0,
-      "value": " will remove access for one or more users. Select \"Delete\" to go ahead."
+      "value": " odeberete přístup jednomu nebo více uživatelům. Vyberte \"Smazat\" a pokračujte."
     }
   ],
   "ui-dashboard.deleteDashboardHeader": [
     {
       "type": 0,
-      "value": "Delete dashboard - "
+      "value": "Smazat dashboard – "
     },
     {
       "type": 1,
@@ -88190,73 +88182,73 @@
   "ui-dashboard.editDashboard": [
     {
       "type": 0,
-      "value": "Edit dashboard"
+      "value": "Upravit dashboard"
     }
   ],
   "ui-dashboard.manageDashboards": [
     {
       "type": 0,
-      "value": "Manage dashboards"
+      "value": "Správa dashboardů"
     }
   ],
   "ui-dashboard.manageUserAccess": [
     {
       "type": 0,
-      "value": "Manage user access"
+      "value": "Správa přístupu uživatelů"
     }
   ],
   "ui-dashboard.manageWidgets": [
     {
       "type": 0,
-      "value": "Manage widgets"
+      "value": "Správa widgetů"
     }
   ],
   "ui-dashboard.new": [
     {
       "type": 0,
-      "value": "New"
+      "value": "Nový"
     }
   ],
   "ui-dashboard.newDashboard": [
     {
       "type": 0,
-      "value": "New dashboard"
+      "value": "Nový dashboard"
     }
   ],
   "ui-dashboard.newWidget": [
     {
       "type": 0,
-      "value": "New widget"
+      "value": "Nový widget"
     }
   ],
   "ui-dashboard.okay": [
     {
       "type": 0,
-      "value": "Okay"
+      "value": "Dobře"
     }
   ],
   "ui-dashboard.saveAndClose": [
     {
       "type": 0,
-      "value": "Save & close"
+      "value": "Uložit a zavřít"
     }
   ],
   "ui-dashboard.userAccess": [
     {
       "type": 0,
-      "value": "User access"
+      "value": "Uživatelský přístup"
     }
   ],
   "ui-dashboard.userDashboards.dashboardOrder": [
     {
       "type": 0,
-      "value": "Dashboard menu order"
+      "value": "Pořadí nabídky dashboardu"
     }
   ],
   "ui-dashboard.userDashboards.dashboardOrder.dragAndDropHandleAria": [
     {
       "type": 0,
-      "value": "Change order of "
+      "value": "Změna pořadí "
     },
     {
       "type": 1,
@@ -88278,7 +88270,7 @@
   "ui-dashboard.userDashboards.default.info": [
     {
       "type": 0,
-      "value": "The default dashboard is the one that will display by default when you first open the dashboard app"
+      "value": "Výchozí dashboard je ten, který se ve výchozím nastavení zobrazí při prvním otevření aplikace dashboardu."
     }
   ],
   "ui-dashboard.userDashboards.edit.success": [
@@ -88286,7 +88278,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Updates saved:"
+          "value": "Aktualizace uloženy:"
         }
       ],
       "type": 8,
@@ -88294,19 +88286,19 @@
     },
     {
       "type": 0,
-      "value": " Manage dashboards."
+      "value": " Správa dashboardů."
     }
   ],
   "ui-dashboard.users": [
     {
       "type": 0,
-      "value": "Users"
+      "value": "Uživatelé"
     }
   ],
   "ui-dashboard.viewUserAccess": [
     {
       "type": 0,
-      "value": "View user access"
+      "value": "Zobrazit uživatelský přístup"
     }
   ],
   "ui-data-import.fieldMappingsForMarc.override.subtext": [

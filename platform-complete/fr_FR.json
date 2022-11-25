@@ -88754,25 +88754,25 @@
   "ui-dashboard.accessLevel.edit": [
     {
       "type": 0,
-      "value": "Edit"
+      "value": "Modifier"
     }
   ],
   "ui-dashboard.accessLevel.manage": [
     {
       "type": 0,
-      "value": "Manage"
+      "value": "Gérer"
     }
   ],
   "ui-dashboard.accessLevel.view": [
     {
       "type": 0,
-      "value": "View"
+      "value": "Afficher"
     }
   ],
   "ui-dashboard.allDashboards": [
     {
       "type": 0,
-      "value": "All dashboards"
+      "value": "Tous les tableaux de bord"
     }
   ],
   "ui-dashboard.dashboard.create.success": [
@@ -88844,7 +88844,7 @@
   "ui-dashboard.dashboard.name": [
     {
       "type": 0,
-      "value": "Name"
+      "value": "Nom"
     }
   ],
   "ui-dashboard.dashboard.name.info": [
@@ -89122,45 +89122,39 @@
   "ui-dashboard.default": [
     {
       "type": 0,
-      "value": "Default"
+      "value": "Par défaut"
     }
   ],
   "ui-dashboard.delete": [
     {
       "type": 0,
-      "value": "Delete"
+      "value": "Supprimer"
     }
   ],
   "ui-dashboard.deleteDashboard": [
     {
       "type": 0,
-      "value": "Delete dashboard"
+      "value": "Supprimer le tableau de bord"
     }
   ],
   "ui-dashboard.deleteDashboard.message": [
     {
       "type": 0,
-      "value": "Dashboard "
-    },
-    {
-      "children": [
-        {
-          "type": 1,
-          "value": "name"
-        }
-      ],
-      "type": 8,
-      "value": "strong"
-    },
-    {
-      "type": 0,
-      "value": " will be "
+      "value": "Le tableau de bord "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "deleted"
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "name"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -89168,7 +89162,21 @@
     },
     {
       "type": 0,
-      "value": "."
+      "value": " sera "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " supprimé "
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " ."
     }
   ],
   "ui-dashboard.deleteDashboard.messageMultiUsers": [
@@ -89204,13 +89212,13 @@
   "ui-dashboard.editDashboard": [
     {
       "type": 0,
-      "value": "Edit dashboard"
+      "value": "Modifier le tableau de bord"
     }
   ],
   "ui-dashboard.manageDashboards": [
     {
       "type": 0,
-      "value": "Manage dashboards"
+      "value": "Gérer les tableaux de bord"
     }
   ],
   "ui-dashboard.manageUserAccess": [
@@ -89228,19 +89236,19 @@
   "ui-dashboard.new": [
     {
       "type": 0,
-      "value": "New"
+      "value": "Nouveau"
     }
   ],
   "ui-dashboard.newDashboard": [
     {
       "type": 0,
-      "value": "New dashboard"
+      "value": "Nouveau tableau de bord"
     }
   ],
   "ui-dashboard.newWidget": [
     {
       "type": 0,
-      "value": "New widget"
+      "value": "Nouveau widget"
     }
   ],
   "ui-dashboard.okay": [

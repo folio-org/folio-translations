@@ -89266,31 +89266,31 @@
   "ui-dashboard.accessLevel": [
     {
       "type": 0,
-      "value": "Access level"
+      "value": "访问级别"
     }
   ],
   "ui-dashboard.accessLevel.edit": [
     {
       "type": 0,
-      "value": "Edit"
+      "value": "编辑"
     }
   ],
   "ui-dashboard.accessLevel.manage": [
     {
       "type": 0,
-      "value": "Manage"
+      "value": "管理"
     }
   ],
   "ui-dashboard.accessLevel.view": [
     {
       "type": 0,
-      "value": "View"
+      "value": "查看"
     }
   ],
   "ui-dashboard.allDashboards": [
     {
       "type": 0,
-      "value": "All dashboards"
+      "value": "全部仪表板"
     }
   ],
   "ui-dashboard.dashboard.create.success": [
@@ -89298,7 +89298,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Dashboard created:"
+          "value": "仪表板已创建： "
         }
       ],
       "type": 8,
@@ -89318,7 +89318,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Dashboard deleted:"
+          "value": "仪表板已删除： "
         }
       ],
       "type": 8,
@@ -89336,7 +89336,7 @@
   "ui-dashboard.dashboard.description": [
     {
       "type": 0,
-      "value": "Description"
+      "value": "描述"
     }
   ],
   "ui-dashboard.dashboard.edit.success": [
@@ -89344,7 +89344,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Dashboard updated:"
+          "value": "仪表板已更新： "
         }
       ],
       "type": 8,
@@ -89362,19 +89362,19 @@
   "ui-dashboard.dashboard.name": [
     {
       "type": 0,
-      "value": "Name"
+      "value": "名称"
     }
   ],
   "ui-dashboard.dashboard.name.info": [
     {
       "type": 0,
-      "value": "The short name will be used to create the menu button for the dashboard. The number of characters is limited to 25 maximum"
+      "value": "短名称将用于为仪表板创建菜单按钮。字符数限制为最多 25 个"
     }
   ],
   "ui-dashboard.dashboard.name.tooLong": [
     {
       "type": 0,
-      "value": "Dashboard name is limited to 25 characters."
+      "value": "仪表板名称限制为 25 个字符。"
     }
   ],
   "ui-dashboard.dashboardUsers.accessWarning": [
@@ -89382,7 +89382,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Warning"
+          "value": "警告"
         }
       ],
       "type": 8,
@@ -89390,27 +89390,35 @@
     },
     {
       "type": 0,
-      "value": ": The logged in user does not exist as a user on this dashboard. Access is being granted through a high level system permission (Okapi gateway permission \"servint.dashboard.admin\")."
+      "value": " ：登录用户在此仪表板上不作为用户存在。通过高级系统权限（Okapi 网关权限“servint.dashboard.admin”）授予访问权限。"
     }
   ],
   "ui-dashboard.dashboardUsers.addUser": [
     {
       "type": 0,
-      "value": "Add user"
+      "value": "添加用户"
     }
   ],
   "ui-dashboard.dashboardUsers.duplicateUser": [
     {
       "type": 0,
-      "value": "Error: Duplicate user"
+      "value": "错误：重复用户"
     }
   ],
   "ui-dashboard.dashboardUsers.duplicateUser.message": [
     {
       "children": [
         {
+          "type": 0,
+          "value": " "
+        },
+        {
           "type": 1,
           "value": "user"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -89418,13 +89426,21 @@
     },
     {
       "type": 0,
-      "value": " was not added as this user already has access to the dashboard "
+      "value": "未添加，因为该用户已经有权访问仪表板"
     },
     {
       "children": [
         {
+          "type": 0,
+          "value": " "
+        },
+        {
           "type": 1,
           "value": "name"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -89436,7 +89452,7 @@
       "children": [
         {
           "type": 0,
-          "value": "User access details updated:"
+          "value": "用户访问详情已更新： "
         }
       ],
       "type": 8,
@@ -89454,7 +89470,7 @@
   "ui-dashboard.dashboardUsers.email": [
     {
       "type": 0,
-      "value": "Email"
+      "value": "电子邮件"
     }
   ],
   "ui-dashboard.dashboardUsers.errorMissing": [
@@ -89462,7 +89478,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Error"
+          "value": "错误"
         }
       ],
       "type": 8,
@@ -89470,13 +89486,21 @@
     },
     {
       "type": 0,
-      "value": ": user "
+      "value": " ：在用户应用程序中找不到用户"
     },
     {
       "children": [
         {
+          "type": 0,
+          "value": " "
+        },
+        {
           "type": 1,
           "value": "user"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -89484,25 +89508,25 @@
     },
     {
       "type": 0,
-      "value": " cannot be found in the Users app. This could mean that the user has been permanently deleted. If the problem persists the user should be removed from this dashboard."
+      "value": " 。这可能意味着该用户已被永久删除。如果问题仍然存在，则应将用户从此仪表板中移除。"
     }
   ],
   "ui-dashboard.dashboardUsers.multipleUsersWarning": [
     {
       "type": 0,
-      "value": "This dashboard is shared. Any changes made will be visible to all users with access."
+      "value": "此仪表板是共享的。所有具有访问权限的用户都可以看到所做的任何更改。"
     }
   ],
   "ui-dashboard.dashboardUsers.remove": [
     {
       "type": 0,
-      "value": "Remove"
+      "value": "移除"
     }
   ],
   "ui-dashboard.dashboardUsers.removeUser": [
     {
       "type": 0,
-      "value": "Remove user \""
+      "value": "移除用户“ "
     },
     {
       "type": 1,
@@ -89510,25 +89534,25 @@
     },
     {
       "type": 0,
-      "value": "\""
+      "value": " ”"
     }
   ],
   "ui-dashboard.dashboardUsers.removeUsers": [
     {
       "type": 0,
-      "value": "Remove user(s)"
+      "value": "移除用户"
     }
   ],
   "ui-dashboard.dashboardUsers.removeUsers.finalMessage": [
     {
       "type": 0,
-      "value": "Select "
+      "value": "选择"
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Save & close"
+          "value": "保存并关闭"
         }
       ],
       "type": 8,
@@ -89536,13 +89560,13 @@
     },
     {
       "type": 0,
-      "value": " to go ahead with all updates or "
+      "value": "继续进行所有更新或选择"
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Cancel"
+          "value": "取消"
         }
       ],
       "type": 8,
@@ -89550,13 +89574,13 @@
     },
     {
       "type": 0,
-      "value": " to continue editing"
+      "value": "继续编辑"
     }
   ],
   "ui-dashboard.dashboardUsers.removeUsers.message": [
     {
       "type": 0,
-      "value": "The following user(s) will be removed and no longer has access to the dashboard \""
+      "value": "以下用户将被移除，并且不再有权访问仪表板“ "
     },
     {
       "type": 1,
@@ -89564,43 +89588,43 @@
     },
     {
       "type": 0,
-      "value": "\"."
+      "value": " ”。"
     }
   ],
   "ui-dashboard.dashboardUsers.status": [
     {
       "type": 0,
-      "value": "Status"
+      "value": "状态"
     }
   ],
   "ui-dashboard.dashboardUsers.status.active": [
     {
       "type": 0,
-      "value": "Active"
+      "value": "激活"
     }
   ],
   "ui-dashboard.dashboardUsers.status.error": [
     {
       "type": 0,
-      "value": "Error"
+      "value": "错误"
     }
   ],
   "ui-dashboard.dashboardUsers.status.inactive": [
     {
       "type": 0,
-      "value": "Inactive"
+      "value": "未激活"
     }
   ],
   "ui-dashboard.dashboardUsers.user": [
     {
       "type": 0,
-      "value": "User"
+      "value": "用户"
     }
   ],
   "ui-dashboard.dashboardUsers.userAccess": [
     {
       "type": 0,
-      "value": "User access - "
+      "value": "用户访问 - "
     },
     {
       "type": 1,
@@ -89612,7 +89636,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Warning"
+          "value": "警告"
         }
       ],
       "type": 8,
@@ -89620,65 +89644,21 @@
     },
     {
       "type": 0,
-      "value": ": user "
-    },
-    {
-      "children": [
-        {
-          "type": 1,
-          "value": "user"
-        }
-      ],
-      "type": 8,
-      "value": "strong"
-    },
-    {
-      "type": 0,
-      "value": " is inactive and should be removed from this dashboard."
-    }
-  ],
-  "ui-dashboard.default": [
-    {
-      "type": 0,
-      "value": "Default"
-    }
-  ],
-  "ui-dashboard.delete": [
-    {
-      "type": 0,
-      "value": "Delete"
-    }
-  ],
-  "ui-dashboard.deleteDashboard": [
-    {
-      "type": 0,
-      "value": "Delete dashboard"
-    }
-  ],
-  "ui-dashboard.deleteDashboard.message": [
-    {
-      "type": 0,
-      "value": "Dashboard "
-    },
-    {
-      "children": [
-        {
-          "type": 1,
-          "value": "name"
-        }
-      ],
-      "type": 8,
-      "value": "strong"
-    },
-    {
-      "type": 0,
-      "value": " will be "
+      "value": " ：用户"
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "deleted"
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "user"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -89686,19 +89666,87 @@
     },
     {
       "type": 0,
-      "value": "."
+      "value": "处于非激活状态，应从此仪表板中移除。"
+    }
+  ],
+  "ui-dashboard.default": [
+    {
+      "type": 0,
+      "value": "默认"
+    }
+  ],
+  "ui-dashboard.delete": [
+    {
+      "type": 0,
+      "value": "删除"
+    }
+  ],
+  "ui-dashboard.deleteDashboard": [
+    {
+      "type": 0,
+      "value": "删除仪表板"
+    }
+  ],
+  "ui-dashboard.deleteDashboard.message": [
+    {
+      "type": 0,
+      "value": "仪表板"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "name"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": "将被"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "删除"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " 。"
     }
   ],
   "ui-dashboard.deleteDashboard.messageMultiUsers": [
     {
       "type": 0,
-      "value": "Deleting the dashboard "
+      "value": "删除仪表板"
     },
     {
       "children": [
         {
+          "type": 0,
+          "value": " "
+        },
+        {
           "type": 1,
           "value": "name"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -89706,13 +89754,13 @@
     },
     {
       "type": 0,
-      "value": " will remove access for one or more users. Select \"Delete\" to go ahead."
+      "value": "将移除一位或多位用户的访问。选择“删除”继续。"
     }
   ],
   "ui-dashboard.deleteDashboardHeader": [
     {
       "type": 0,
-      "value": "Delete dashboard - "
+      "value": "删除仪表板 - "
     },
     {
       "type": 1,
@@ -89722,73 +89770,73 @@
   "ui-dashboard.editDashboard": [
     {
       "type": 0,
-      "value": "Edit dashboard"
+      "value": "编辑仪表板"
     }
   ],
   "ui-dashboard.manageDashboards": [
     {
       "type": 0,
-      "value": "Manage dashboards"
+      "value": "管理仪表板"
     }
   ],
   "ui-dashboard.manageUserAccess": [
     {
       "type": 0,
-      "value": "Manage user access"
+      "value": "管理用户访问"
     }
   ],
   "ui-dashboard.manageWidgets": [
     {
       "type": 0,
-      "value": "Manage widgets"
+      "value": "管理小工具"
     }
   ],
   "ui-dashboard.new": [
     {
       "type": 0,
-      "value": "New"
+      "value": "新建"
     }
   ],
   "ui-dashboard.newDashboard": [
     {
       "type": 0,
-      "value": "New dashboard"
+      "value": "新建仪表板"
     }
   ],
   "ui-dashboard.newWidget": [
     {
       "type": 0,
-      "value": "New widget"
+      "value": "新建小工具"
     }
   ],
   "ui-dashboard.okay": [
     {
       "type": 0,
-      "value": "Okay"
+      "value": "确定"
     }
   ],
   "ui-dashboard.saveAndClose": [
     {
       "type": 0,
-      "value": "Save & close"
+      "value": "保存并关闭"
     }
   ],
   "ui-dashboard.userAccess": [
     {
       "type": 0,
-      "value": "User access"
+      "value": "用户访问"
     }
   ],
   "ui-dashboard.userDashboards.dashboardOrder": [
     {
       "type": 0,
-      "value": "Dashboard menu order"
+      "value": "仪表板菜单顺序"
     }
   ],
   "ui-dashboard.userDashboards.dashboardOrder.dragAndDropHandleAria": [
     {
       "type": 0,
-      "value": "Change order of "
+      "value": "更改"
     },
     {
       "type": 1,
@@ -89796,7 +89844,7 @@
     },
     {
       "type": 0,
-      "value": " ("
+      "value": " ( "
     },
     {
       "type": 1,
@@ -89804,13 +89852,13 @@
     },
     {
       "type": 0,
-      "value": ")"
+      "value": " ) 的顺序"
     }
   ],
   "ui-dashboard.userDashboards.default.info": [
     {
       "type": 0,
-      "value": "The default dashboard is the one that will display by default when you first open the dashboard app"
+      "value": "默认仪表板是首次打开仪表板应用程序时默认显示的仪表板"
     }
   ],
   "ui-dashboard.userDashboards.edit.success": [
@@ -89818,7 +89866,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Updates saved:"
+          "value": "已保存更新： "
         }
       ],
       "type": 8,
@@ -89826,19 +89874,19 @@
     },
     {
       "type": 0,
-      "value": " Manage dashboards."
+      "value": "管理仪表板。"
     }
   ],
   "ui-dashboard.users": [
     {
       "type": 0,
-      "value": "Users"
+      "value": "用户"
     }
   ],
   "ui-dashboard.viewUserAccess": [
     {
       "type": 0,
-      "value": "View user access"
+      "value": "查看用户访问"
     }
   ],
   "ui-data-import.fieldMappingsForMarc.override.subtext": [

@@ -87835,31 +87835,31 @@
   "ui-dashboard.accessLevel": [
     {
       "type": 0,
-      "value": "Access level"
+      "value": "Nível de acesso"
     }
   ],
   "ui-dashboard.accessLevel.edit": [
     {
       "type": 0,
-      "value": "Edit"
+      "value": "Editar"
     }
   ],
   "ui-dashboard.accessLevel.manage": [
     {
       "type": 0,
-      "value": "Manage"
+      "value": "Gerenciar"
     }
   ],
   "ui-dashboard.accessLevel.view": [
     {
       "type": 0,
-      "value": "View"
+      "value": "Visualizar"
     }
   ],
   "ui-dashboard.allDashboards": [
     {
       "type": 0,
-      "value": "All dashboards"
+      "value": "Todos os painéis de controle"
     }
   ],
   "ui-dashboard.dashboard.create.success": [
@@ -87867,7 +87867,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Dashboard created:"
+          "value": "Painel de controle criado:"
         }
       ],
       "type": 8,
@@ -87887,7 +87887,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Dashboard deleted:"
+          "value": "Painel de controle apagado:"
         }
       ],
       "type": 8,
@@ -87905,7 +87905,7 @@
   "ui-dashboard.dashboard.description": [
     {
       "type": 0,
-      "value": "Description"
+      "value": "Descrição"
     }
   ],
   "ui-dashboard.dashboard.edit.success": [
@@ -87913,7 +87913,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Dashboard updated:"
+          "value": "Painel de controle atualizado:"
         }
       ],
       "type": 8,
@@ -87931,19 +87931,19 @@
   "ui-dashboard.dashboard.name": [
     {
       "type": 0,
-      "value": "Name"
+      "value": "Nome"
     }
   ],
   "ui-dashboard.dashboard.name.info": [
     {
       "type": 0,
-      "value": "The short name will be used to create the menu button for the dashboard. The number of characters is limited to 25 maximum"
+      "value": "O nome abreviado será usado para criar o botão de menu para o painel de controle. O número de caracteres é limitado a 25 no máximo."
     }
   ],
   "ui-dashboard.dashboard.name.tooLong": [
     {
       "type": 0,
-      "value": "Dashboard name is limited to 25 characters."
+      "value": "O nome do painel de controle é limitado a 25 caracteres."
     }
   ],
   "ui-dashboard.dashboardUsers.accessWarning": [
@@ -87951,7 +87951,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Warning"
+          "value": " Aviso "
         }
       ],
       "type": 8,
@@ -87959,27 +87959,35 @@
     },
     {
       "type": 0,
-      "value": ": The logged in user does not exist as a user on this dashboard. Access is being granted through a high level system permission (Okapi gateway permission \"servint.dashboard.admin\")."
+      "value": " : o usuário conectado não possui autorização neste painel de controle. O acesso está sendo concedido por meio de uma permissão de alto nível do sistema (permissão de gateway Okapi \"servint.dashboard.admin\")."
     }
   ],
   "ui-dashboard.dashboardUsers.addUser": [
     {
       "type": 0,
-      "value": "Add user"
+      "value": "Adicionar usuário"
     }
   ],
   "ui-dashboard.dashboardUsers.duplicateUser": [
     {
       "type": 0,
-      "value": "Error: Duplicate user"
+      "value": "Erro: usuário duplicado"
     }
   ],
   "ui-dashboard.dashboardUsers.duplicateUser.message": [
     {
       "children": [
         {
+          "type": 0,
+          "value": " "
+        },
+        {
           "type": 1,
           "value": "user"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -87987,13 +87995,21 @@
     },
     {
       "type": 0,
-      "value": " was not added as this user already has access to the dashboard "
+      "value": " não foi adicionado porque este já tem acesso ao painel de controle "
     },
     {
       "children": [
         {
+          "type": 0,
+          "value": " "
+        },
+        {
           "type": 1,
           "value": "name"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -88005,7 +88021,7 @@
       "children": [
         {
           "type": 0,
-          "value": "User access details updated:"
+          "value": " Detalhes de acesso do usuário atualizados: "
         }
       ],
       "type": 8,
@@ -88023,7 +88039,7 @@
   "ui-dashboard.dashboardUsers.email": [
     {
       "type": 0,
-      "value": "Email"
+      "value": "E-mail"
     }
   ],
   "ui-dashboard.dashboardUsers.errorMissing": [
@@ -88031,7 +88047,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Error"
+          "value": "Erro"
         }
       ],
       "type": 8,
@@ -88039,7 +88055,7 @@
     },
     {
       "type": 0,
-      "value": ": user "
+      "value": ": o usuário "
     },
     {
       "children": [
@@ -88053,25 +88069,25 @@
     },
     {
       "type": 0,
-      "value": " cannot be found in the Users app. This could mean that the user has been permanently deleted. If the problem persists the user should be removed from this dashboard."
+      "value": " não pode ser encontrado no aplicativo Usuários. Isto pode significar que o usuário foi excluído permanentemente. Se o problema persistir, o usuário deve ser removido deste painel de controle."
     }
   ],
   "ui-dashboard.dashboardUsers.multipleUsersWarning": [
     {
       "type": 0,
-      "value": "This dashboard is shared. Any changes made will be visible to all users with access."
+      "value": "Este painel de controle é compartilhado. Quaisquer alterações serão visíveis para todos os usuários com acesso."
     }
   ],
   "ui-dashboard.dashboardUsers.remove": [
     {
       "type": 0,
-      "value": "Remove"
+      "value": "Remover"
     }
   ],
   "ui-dashboard.dashboardUsers.removeUser": [
     {
       "type": 0,
-      "value": "Remove user \""
+      "value": "Remover usuário \" "
     },
     {
       "type": 1,
@@ -88079,25 +88095,25 @@
     },
     {
       "type": 0,
-      "value": "\""
+      "value": " \""
     }
   ],
   "ui-dashboard.dashboardUsers.removeUsers": [
     {
       "type": 0,
-      "value": "Remove user(s)"
+      "value": "Remover usuário(s)"
     }
   ],
   "ui-dashboard.dashboardUsers.removeUsers.finalMessage": [
     {
       "type": 0,
-      "value": "Select "
+      "value": "Selecione "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Save & close"
+          "value": " Salvar e fechar "
         }
       ],
       "type": 8,
@@ -88105,13 +88121,13 @@
     },
     {
       "type": 0,
-      "value": " to go ahead with all updates or "
+      "value": " para prosseguir com todas as atualizações ou "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Cancel"
+          "value": " Cancelar "
         }
       ],
       "type": 8,
@@ -88119,13 +88135,13 @@
     },
     {
       "type": 0,
-      "value": " to continue editing"
+      "value": " para continuar editando"
     }
   ],
   "ui-dashboard.dashboardUsers.removeUsers.message": [
     {
       "type": 0,
-      "value": "The following user(s) will be removed and no longer has access to the dashboard \""
+      "value": "O(s) seguinte(s) usuário(s) será(ão) removido(s) e não terá(ão) mais acesso ao painel de controle \""
     },
     {
       "type": 1,
@@ -88145,31 +88161,31 @@
   "ui-dashboard.dashboardUsers.status.active": [
     {
       "type": 0,
-      "value": "Active"
+      "value": "Ativo"
     }
   ],
   "ui-dashboard.dashboardUsers.status.error": [
     {
       "type": 0,
-      "value": "Error"
+      "value": "Erro"
     }
   ],
   "ui-dashboard.dashboardUsers.status.inactive": [
     {
       "type": 0,
-      "value": "Inactive"
+      "value": "Inativo"
     }
   ],
   "ui-dashboard.dashboardUsers.user": [
     {
       "type": 0,
-      "value": "User"
+      "value": "Usuário"
     }
   ],
   "ui-dashboard.dashboardUsers.userAccess": [
     {
       "type": 0,
-      "value": "User access - "
+      "value": "Acesso do usuário - "
     },
     {
       "type": 1,
@@ -88181,7 +88197,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Warning"
+          "value": " Aviso "
         }
       ],
       "type": 8,
@@ -88189,65 +88205,21 @@
     },
     {
       "type": 0,
-      "value": ": user "
-    },
-    {
-      "children": [
-        {
-          "type": 1,
-          "value": "user"
-        }
-      ],
-      "type": 8,
-      "value": "strong"
-    },
-    {
-      "type": 0,
-      "value": " is inactive and should be removed from this dashboard."
-    }
-  ],
-  "ui-dashboard.default": [
-    {
-      "type": 0,
-      "value": "Default"
-    }
-  ],
-  "ui-dashboard.delete": [
-    {
-      "type": 0,
-      "value": "Delete"
-    }
-  ],
-  "ui-dashboard.deleteDashboard": [
-    {
-      "type": 0,
-      "value": "Delete dashboard"
-    }
-  ],
-  "ui-dashboard.deleteDashboard.message": [
-    {
-      "type": 0,
-      "value": "Dashboard "
-    },
-    {
-      "children": [
-        {
-          "type": 1,
-          "value": "name"
-        }
-      ],
-      "type": 8,
-      "value": "strong"
-    },
-    {
-      "type": 0,
-      "value": " will be "
+      "value": " : o usuário "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "deleted"
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "user"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -88255,19 +88227,87 @@
     },
     {
       "type": 0,
-      "value": "."
+      "value": " está inativo e deve ser removido deste painel de controle."
+    }
+  ],
+  "ui-dashboard.default": [
+    {
+      "type": 0,
+      "value": "Padrão"
+    }
+  ],
+  "ui-dashboard.delete": [
+    {
+      "type": 0,
+      "value": "Excluir"
+    }
+  ],
+  "ui-dashboard.deleteDashboard": [
+    {
+      "type": 0,
+      "value": "Excluir painel de controle"
+    }
+  ],
+  "ui-dashboard.deleteDashboard.message": [
+    {
+      "type": 0,
+      "value": "O painel de controle "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "name"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " será "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " excluído "
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " ."
     }
   ],
   "ui-dashboard.deleteDashboard.messageMultiUsers": [
     {
       "type": 0,
-      "value": "Deleting the dashboard "
+      "value": "A exclusão do painel de controle "
     },
     {
       "children": [
         {
+          "type": 0,
+          "value": " "
+        },
+        {
           "type": 1,
           "value": "name"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -88275,13 +88315,13 @@
     },
     {
       "type": 0,
-      "value": " will remove access for one or more users. Select \"Delete\" to go ahead."
+      "value": " removerá o acesso de um ou mais usuários. Selecione \"Excluir\" para prosseguir."
     }
   ],
   "ui-dashboard.deleteDashboardHeader": [
     {
       "type": 0,
-      "value": "Delete dashboard - "
+      "value": "Excluir painel de controle - "
     },
     {
       "type": 1,
@@ -88291,73 +88331,73 @@
   "ui-dashboard.editDashboard": [
     {
       "type": 0,
-      "value": "Edit dashboard"
+      "value": "Editar painel de controle"
     }
   ],
   "ui-dashboard.manageDashboards": [
     {
       "type": 0,
-      "value": "Manage dashboards"
+      "value": "Gerenciar painéis de controle"
     }
   ],
   "ui-dashboard.manageUserAccess": [
     {
       "type": 0,
-      "value": "Manage user access"
+      "value": "Gerenciar o acesso do usuário"
     }
   ],
   "ui-dashboard.manageWidgets": [
     {
       "type": 0,
-      "value": "Manage widgets"
+      "value": "Gerenciar widgets"
     }
   ],
   "ui-dashboard.new": [
     {
       "type": 0,
-      "value": "New"
+      "value": "Novo"
     }
   ],
   "ui-dashboard.newDashboard": [
     {
       "type": 0,
-      "value": "New dashboard"
+      "value": "Novo painel de controle"
     }
   ],
   "ui-dashboard.newWidget": [
     {
       "type": 0,
-      "value": "New widget"
+      "value": "Novo widget"
     }
   ],
   "ui-dashboard.okay": [
     {
       "type": 0,
-      "value": "Okay"
+      "value": "OK"
     }
   ],
   "ui-dashboard.saveAndClose": [
     {
       "type": 0,
-      "value": "Save & close"
+      "value": "Salvar e fechar"
     }
   ],
   "ui-dashboard.userAccess": [
     {
       "type": 0,
-      "value": "User access"
+      "value": "Acesso do usuário"
     }
   ],
   "ui-dashboard.userDashboards.dashboardOrder": [
     {
       "type": 0,
-      "value": "Dashboard menu order"
+      "value": "Ordem do menu do painel de controle"
     }
   ],
   "ui-dashboard.userDashboards.dashboardOrder.dragAndDropHandleAria": [
     {
       "type": 0,
-      "value": "Change order of "
+      "value": "Alterar a ordem de "
     },
     {
       "type": 1,
@@ -88379,15 +88419,13 @@
   "ui-dashboard.userDashboards.default.info": [
     {
       "type": 0,
-      "value": "The default dashboard is the one that will display by default when you first open the dashboard app"
-    }
-  ],
-  "ui-dashboard.userDashboards.edit.success": [
+      "value": "O painel de controle padrão é o que será exibido quando você abrir o aplicativo do "
+    },
     {
       "children": [
         {
           "type": 0,
-          "value": "Updates saved:"
+          "value": "Painel de Controle"
         }
       ],
       "type": 8,
@@ -88395,19 +88433,35 @@
     },
     {
       "type": 0,
-      "value": " Manage dashboards."
+      "value": " pela primeira vez."
+    }
+  ],
+  "ui-dashboard.userDashboards.edit.success": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Atualizações salvas:"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " Gerenciar painel de controle."
     }
   ],
   "ui-dashboard.users": [
     {
       "type": 0,
-      "value": "Users"
+      "value": "Usuários"
     }
   ],
   "ui-dashboard.viewUserAccess": [
     {
       "type": 0,
-      "value": "View user access"
+      "value": "Ver acesso do usuário"
     }
   ],
   "ui-data-import.fieldMappingsForMarc.override.subtext": [
