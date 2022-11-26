@@ -92329,5 +92329,63 @@
       "type": 1,
       "value": "licenseName"
     }
+  ],
+  "ui-gobi-settings.mappingConfig.edit.footer.clearAll": [
+    {
+      "type": 0,
+      "value": "Clear all field mappings"
+    }
+  ],
+  "ui-users.errorModal.currentUserServicePointAbsentee.confirmButtonText": [
+    {
+      "type": 0,
+      "value": "Back"
+    }
+  ],
+  "ui-users.errorModal.currentUserServicePointAbsentee.label": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Access denied"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    }
+  ],
+  "ui-users.errorModal.currentUserServicePointAbsentee.message": [
+    {
+      "type": 0,
+      "value": "You must select a service point to create and view "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "patron fees/fines"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": ". Please add one or more service points to your user record in the "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Users"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " app. Contact an administrator if you do not have the ability to add service points to your record."
+    }
   ]
 }
