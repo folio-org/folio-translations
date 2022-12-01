@@ -29373,19 +29373,11 @@
     {
       "offset": 0,
       "options": {
-        "one": {
-          "value": [
-            {
-              "type": 0,
-              "value": "Narrator"
-            }
-          ]
-        },
         "other": {
           "value": [
             {
               "type": 0,
-              "value": "Narrators"
+              "value": "空"
             }
           ]
         }
@@ -90302,25 +90294,25 @@
   "ui-eholdings.exportPackageResources.fields.package.packageLevelToken": [
     {
       "type": 0,
-      "value": "Package Level Token"
+      "value": "资源包级令牌"
     }
   ],
   "ui-eholdings.exportPackageResources.fields.package.providerLevelToken": [
     {
       "type": 0,
-      "value": "Provider Level Token"
+      "value": "提供者级别令牌"
     }
   ],
   "ui-eholdings.label.alternateTitle": [
     {
       "type": 0,
-      "value": "Alternate title(s)"
+      "value": "交替题名"
     }
   ],
   "ui-eholdings.title.alternateTitle": [
     {
       "type": 0,
-      "value": "Alternate title(s)"
+      "value": "交替题名"
     }
   ],
   "ui-erm-usage.harvester.jobs.column.duration": [
@@ -94111,6 +94103,88 @@
     {
       "type": 0,
       "value": " app. Contact an administrator if you do not have the ability to add service points to your record."
+    }
+  ],
+  "ui-eholdings.exportPackageResources.subtitle.package": [
+    {
+      "type": 0,
+      "value": "此导出可能需要几分钟才能完成。完成后，它将在"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "导出管理"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": "应用程序中可用。注意：可以导出的资源包中的最大标题数为"
+    },
+    {
+      "type": 1,
+      "value": "exportLimit"
+    },
+    {
+      "type": 0,
+      "value": " 。在标题列表中过滤搜索以不超过限制或选择仅导出资源包详细信息。此导出不包括使用和分析折叠块下可用的信息（仅适用于 Usage Consolidation 订阅者）。请使用该手折叠块下可用的"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "导出标题"
+        }
+      ],
+      "type": 8,
+      "value": "i"
+    },
+    {
+      "type": 0,
+      "value": "选项。"
+    }
+  ],
+  "ui-eholdings.exportPackageResources.subtitle.resource": [
+    {
+      "type": 0,
+      "value": "此导出可能需要几分钟才能完成。完成后，它将在"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " 导出管理 "
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": "应用程序中可用。注意：此导出不包括“使用与分析”折叠下可用的信息（仅适用于 “使用合并”订阅者）。请使用该折叠下可用的"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "导出标题"
+        }
+      ],
+      "type": 8,
+      "value": "i"
+    },
+    {
+      "type": 0,
+      "value": "选项。"
+    }
+  ],
+  "ui-finance.fiscalYear.actions.save.error.invalidFiscalYearCode": [
+    {
+      "type": 0,
+      "value": "Fiscal year Code format must be an Alpha followed by a four digit numeric. Eg. ExampleFY2020"
     }
   ]
 }

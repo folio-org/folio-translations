@@ -92257,5 +92257,87 @@
       "type": 0,
       "value": " app. Contact an administrator if you do not have the ability to add service points to your record."
     }
+  ],
+  "ui-eholdings.exportPackageResources.subtitle.package": [
+    {
+      "type": 0,
+      "value": "This export may take several minutes to complete. When finished, it will be available in the "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Export manager"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " app. NOTE: Maximum number of titles in a package you can export is "
+    },
+    {
+      "type": 1,
+      "value": "exportLimit"
+    },
+    {
+      "type": 0,
+      "value": ". Filter your search within titles list to not exceed the limit or only choose to export package details only. This export does not include information available under Usage & analysis accordion (only available to Usage Consolidation subscribers). Please use the "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Export titles"
+        }
+      ],
+      "type": 8,
+      "value": "i"
+    },
+    {
+      "type": 0,
+      "value": " option available under that accordion."
+    }
+  ],
+  "ui-eholdings.exportPackageResources.subtitle.resource": [
+    {
+      "type": 0,
+      "value": "This export may take several minutes to complete. When finished, it will be available in the "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Export manager"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " app. NOTE: This export does not include information available under Usage & analysis accordion (only available to Usage Consolidation subscribers). Please use the "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Export titles"
+        }
+      ],
+      "type": 8,
+      "value": "i"
+    },
+    {
+      "type": 0,
+      "value": " option available under that accordion."
+    }
+  ],
+  "ui-finance.fiscalYear.actions.save.error.invalidFiscalYearCode": [
+    {
+      "type": 0,
+      "value": "Fiscal year Code format must be an Alpha followed by a four digit numeric. Eg. ExampleFY2020"
+    }
   ]
 }
