@@ -35568,7 +35568,7 @@
   "ui-export-manager.exportJob": [
     {
       "type": 0,
-      "value": "Export job "
+      "value": "반출 작업 "
     },
     {
       "type": 1,
@@ -35578,25 +35578,33 @@
   "ui-export-manager.exportJob.description": [
     {
       "type": 0,
-      "value": "Description"
+      "value": "설명"
     }
   ],
   "ui-export-manager.exportJob.details.action.rerun": [
     {
       "type": 0,
-      "value": "Rerun"
+      "value": "재실행"
     }
   ],
   "ui-export-manager.exportJob.details.action.rerun.error": [
     {
       "type": 0,
-      "value": "Export job "
+      "value": "반출 작업 "
     },
     {
       "children": [
         {
+          "type": 0,
+          "value": " "
+        },
+        {
           "type": 1,
           "value": "name"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -35604,19 +35612,27 @@
     },
     {
       "type": 0,
-      "value": " rerun was failed."
+      "value": " 재실행에 실패했습니다."
     }
   ],
   "ui-export-manager.exportJob.details.action.rerun.success": [
     {
       "type": 0,
-      "value": "Export job "
+      "value": "반출 작업 "
     },
     {
       "children": [
         {
+          "type": 0,
+          "value": " "
+        },
+        {
           "type": 1,
           "value": "name"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -35624,25 +35640,25 @@
     },
     {
       "type": 0,
-      "value": " was successfully reruned."
+      "value": " 이(가) 성공적으로 다시 실행되었습니다."
     }
   ],
   "ui-export-manager.exportJob.endTime": [
     {
       "type": 0,
-      "value": "End time"
+      "value": "종료 시간"
     }
   ],
   "ui-export-manager.exportJob.errorDetails": [
     {
       "type": 0,
-      "value": "Error details"
+      "value": "오류 세부 정보"
     }
   ],
   "ui-export-manager.exportJob.exportMethod": [
     {
       "type": 0,
-      "value": "Export method"
+      "value": "반출 방법"
     }
   ],
   "ui-export-manager.exportJob.fileName": [
@@ -35654,133 +35670,133 @@
   "ui-export-manager.exportJob.jobId": [
     {
       "type": 0,
-      "value": "Job ID"
+      "value": "작업 ID"
     }
   ],
   "ui-export-manager.exportJob.organization": [
     {
       "type": 0,
-      "value": "Organization"
+      "value": "공급사"
     }
   ],
   "ui-export-manager.exportJob.outputType": [
     {
       "type": 0,
-      "value": "Output type"
+      "value": "결과 유형"
     }
   ],
   "ui-export-manager.exportJob.sentTo": [
     {
       "type": 0,
-      "value": "Sent to"
+      "value": "전송(To)"
     }
   ],
   "ui-export-manager.exportJob.source": [
     {
       "type": 0,
-      "value": "Source"
+      "value": "출처"
     }
   ],
   "ui-export-manager.exportJob.startTime": [
     {
       "type": 0,
-      "value": "Start time"
+      "value": "시작 시간"
     }
   ],
   "ui-export-manager.exportJob.status": [
     {
       "type": 0,
-      "value": "Status"
+      "value": "상태"
     }
   ],
   "ui-export-manager.exportJob.status.FAILED": [
     {
       "type": 0,
-      "value": "Failed"
+      "value": "실패"
     }
   ],
   "ui-export-manager.exportJob.status.IN_PROGRESS": [
     {
       "type": 0,
-      "value": "In progress"
+      "value": "처리 중"
     }
   ],
   "ui-export-manager.exportJob.status.SCHEDULED": [
     {
       "type": 0,
-      "value": "Scheduled"
+      "value": "예정"
     }
   ],
   "ui-export-manager.exportJob.status.SUCCESSFUL": [
     {
       "type": 0,
-      "value": "Successful"
+      "value": "성공"
     }
   ],
   "ui-export-manager.exportJob.system": [
     {
       "type": 0,
-      "value": "System"
+      "value": "시스템"
     }
   ],
   "ui-export-manager.exportJob.type": [
     {
       "type": 0,
-      "value": "Job type"
+      "value": "작업 유형"
     }
   ],
   "ui-export-manager.exportJob.type.BURSAR_FEES_FINES": [
     {
       "type": 0,
-      "value": "Bursar"
+      "value": "회계 (Bursar)"
     }
   ],
   "ui-export-manager.exportJob.type.CIRCULATION_LOG": [
     {
       "type": 0,
-      "value": "Circulation log"
+      "value": "대출로그 (Circulation log)"
     }
   ],
   "ui-export-manager.exportJob.type.EDIFACT_ORDERS_EXPORT": [
     {
       "type": 0,
-      "value": "EDIFACT orders export"
+      "value": "EDIFACT 주문 반출"
     }
   ],
   "ui-export-manager.exportJobs": [
     {
       "type": 0,
-      "value": "Export jobs"
+      "value": "반출(Export) 작업"
     }
   ],
   "ui-export-manager.exportJobs.search": [
     {
       "type": 0,
-      "value": "Search"
+      "value": "검색"
     }
   ],
   "ui-export-manager.meta.title": [
     {
       "type": 0,
-      "value": "반출(Export) 매니저"
+      "value": "반출(Export) 관리자"
     }
   ],
   "ui-export-manager.navigation.all": [
     {
       "type": 0,
-      "value": "All"
+      "value": "모두"
     }
   ],
   "ui-export-manager.navigation.organizations": [
     {
       "type": 0,
-      "value": "Organizations"
+      "value": "공급사"
     }
   ],
   "ui-export-manager.permission.export-manager.all": [
     {
       "type": 0,
-      "value": "Export manager: All"
+      "value": "반출(Export) 관리자: 모두"
     }
   ],
   "ui-handler-stripes-registry.meta.title": "Resource registry",
@@ -89316,43 +89332,43 @@
   "ui-export-manager.exportJob.details.action.download": [
     {
       "type": 0,
-      "value": "Download"
+      "value": "다운로드"
     }
   ],
   "ui-export-manager.exportJob.details.action.download.error": [
     {
       "type": 0,
-      "value": "Your file download was failed."
+      "value": "파일 다운로드에 실패했습니다."
     }
   ],
   "ui-export-manager.exportJob.details.action.resend": [
     {
       "type": 0,
-      "value": "Re-send"
+      "value": "다시 보내기"
     }
   ],
   "ui-export-manager.exportJob.details.action.resend.error": [
     {
       "type": 0,
-      "value": "Your file upload was failed."
+      "value": "파일 업로드에 실패했습니다."
     }
   ],
   "ui-export-manager.exportJob.details.action.resend.success": [
     {
       "type": 0,
-      "value": "Your file upload has started successfully."
+      "value": "파일 업로드가 성공적으로 시작되었습니다."
     }
   ],
   "ui-export-manager.exportJob.type.BULK_EDIT": [
     {
       "type": 0,
-      "value": "Bulk edit"
+      "value": "대량 편집(Bulk edit)"
     }
   ],
   "ui-export-manager.permission.jobs.downloadAndResend": [
     {
       "type": 0,
-      "value": "Export manager: Download and re-send files"
+      "value": "반출 관리자: 파일 다운로드 및 다시 보내기"
     }
   ],
   "ui-finance.actions.rolloverLogs": [
