@@ -5607,7 +5607,7 @@
   "ui-agreements.agreements.export": [
     {
       "type": 0,
-      "value": "导出"
+      "value": "导出协议 (JSON)"
     }
   ],
   "ui-agreements.agreements.financeReports": [
@@ -8293,7 +8293,7 @@
   "ui-agreements.poLines.noPOLinePlugin": [
     {
       "type": 0,
-      "value": "未安装\"查找PO行\"插件"
+      "value": "未安装\"查找订单行\"插件"
     }
   ],
   "ui-agreements.poLines.poLine": [
@@ -10332,7 +10332,7 @@
   "ui-calendar.permission.view": [
     {
       "type": 0,
-      "value": "设置（日历）：可以查看日历事件"
+      "value": "设置（日历）：可以查看已有日历"
     }
   ],
   "ui-calendar.previous": [
@@ -20950,7 +20950,7 @@
   "ui-data-import.settings.mappingProfiles.map.field.receiptStatus": [
     {
       "type": 0,
-      "value": "发票状态"
+      "value": "接收状态"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.field.receivingHistory.addLabel": [
@@ -21694,7 +21694,7 @@
   "ui-data-import.settings.mappingProfiles.map.invoice.invoiceInformation.field.acqUnitIds": [
     {
       "type": 0,
-      "value": "采购单元"
+      "value": "采购单位"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.invoice.invoiceInformation.field.adjustmentsTotal": [
@@ -21724,13 +21724,13 @@
   "ui-data-import.settings.mappingProfiles.map.invoice.invoiceInformation.field.billToAddress": [
     {
       "type": 0,
-      "value": "帐单发送地址"
+      "value": "账单发送地址"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.invoice.invoiceInformation.field.billToName": [
     {
       "type": 0,
-      "value": "帐单发送名称"
+      "value": "账单发送名称"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.invoice.invoiceInformation.field.invoiceDate": [
@@ -21820,7 +21820,7 @@
   "ui-data-import.settings.mappingProfiles.map.invoice.invoiceLineInformation.field.accountNumber": [
     {
       "type": 0,
-      "value": "帐号"
+      "value": "账号"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.invoice.invoiceLineInformation.field.accountingCode": [
@@ -22582,7 +22582,7 @@
   "ui-data-import.settings.matchProfiles.accountNumber": [
     {
       "type": 0,
-      "value": "帐号"
+      "value": "账号"
     }
   ],
   "ui-data-import.settings.matchProfiles.accountingCode": [
@@ -22678,7 +22678,7 @@
   "ui-data-import.settings.matchProfiles.billToName": [
     {
       "type": 0,
-      "value": "帐单发送名称"
+      "value": "账单发送名称"
     }
   ],
   "ui-data-import.settings.matchProfiles.cancellationRestriction": [
@@ -23404,7 +23404,7 @@
   "ui-data-import.settings.matchProfiles.quantityPhysical": [
     {
       "type": 0,
-      "value": "实物数量"
+      "value": "实体数量"
     }
   ],
   "ui-data-import.settings.matchProfiles.reEncumber": [
@@ -24104,7 +24104,7 @@
   "ui-data-import.viewAllLogs": [
     {
       "type": 0,
-      "value": "查看全部"
+      "value": "查看全部日志"
     }
   ],
   "ui-data-import.waitingForUpload": [
@@ -40170,7 +40170,7 @@
   "ui-inventory.copycat.reimport": [
     {
       "type": 0,
-      "value": "覆盖源书目记录"
+      "value": "重新导入"
     }
   ],
   "ui-inventory.createHoldingsRecord": [
@@ -40674,28 +40674,38 @@
   ],
   "ui-inventory.holdingsHeader": [
     {
-      "type": 0,
-      "value": "馆藏："
-    },
-    {
-      "type": 1,
-      "value": "location"
-    },
-    {
-      "type": 0,
-      "value": " > "
-    },
-    {
-      "type": 1,
-      "value": "callNumber"
-    },
-    {
-      "type": 0,
-      "value": " "
-    },
-    {
-      "type": 1,
-      "value": "copyNumber"
+      "children": [
+        {
+          "type": 0,
+          "value": "馆藏： "
+        },
+        {
+          "type": 1,
+          "value": "location"
+        },
+        {
+          "type": 0,
+          "value": " > "
+        },
+        {
+          "type": 1,
+          "value": "callNumber"
+        },
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "copyNumber"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "span"
     }
   ],
   "ui-inventory.holdingsHrid": [
@@ -45853,7 +45863,7 @@
   "ui-invoice.invoice.details.information.acqUnits": [
     {
       "type": 0,
-      "value": "采购单元"
+      "value": "采购单位"
     }
   ],
   "ui-invoice.invoice.details.information.adjustment": [
@@ -46085,7 +46095,7 @@
   "ui-invoice.invoice.details.voucher.accountNo": [
     {
       "type": 0,
-      "value": "帐号"
+      "value": "账号"
     }
   ],
   "ui-invoice.invoice.details.voucher.accountingCode": [
@@ -46133,7 +46143,7 @@
   "ui-invoice.invoice.details.voucher.externalAccountNumber": [
     {
       "type": 0,
-      "value": "外部帐号"
+      "value": "外部账号"
     }
   ],
   "ui-invoice.invoice.details.voucher.save.success": [
@@ -46479,7 +46489,7 @@
   "ui-invoice.invoiceLine.accountNumber": [
     {
       "type": 0,
-      "value": "帐号"
+      "value": "账号"
     }
   ],
   "ui-invoice.invoiceLine.accountingCode": [
@@ -46777,7 +46787,7 @@
   "ui-invoice.permission.acq.unit.assignment.assign": [
     {
       "type": 0,
-      "value": "发票：将采购单元分配给新记录"
+      "value": "发票：将采购单位分配给新记录"
     }
   ],
   "ui-invoice.permission.acq.unit.assignment.manage": [
@@ -47489,7 +47499,7 @@
   "ui-invoice.voucher.voucherLines.externalAccountNumber": [
     {
       "type": 0,
-      "value": "外部帐号"
+      "value": "外部账号"
     }
   ],
   "ui-invoice.voucher.voucherLines.fundCode": [
@@ -47525,7 +47535,7 @@
   "ui-invoice.voucher.voucherLinesTitle.externalAccountNumber": [
     {
       "type": 0,
-      "value": "外部帐号： "
+      "value": "外部账号： "
     },
     {
       "type": 1,
@@ -53840,7 +53850,7 @@
   "ui-notes.settings.noteType": [
     {
       "type": 0,
-      "value": "Note type"
+      "value": "附注类型"
     }
   ],
   "ui-notes.settings.noteTypes": [
@@ -55285,7 +55295,7 @@
   "ui-orders.cost.listPriceOfPhysical": [
     {
       "type": 0,
-      "value": "实物单价"
+      "value": "实体单价"
     }
   ],
   "ui-orders.cost.quantity": [
@@ -55945,7 +55955,7 @@
   "ui-orders.errors.orderAcqUnitsNotFound": [
     {
       "type": 0,
-      "value": "找不到分配给订单的采购单元"
+      "value": "找不到分配给订单的采购单位"
     }
   ],
   "ui-orders.errors.orderApprovalRequired": [
@@ -57481,7 +57491,7 @@
   "ui-orders.order_format.PEMix": [
     {
       "type": 0,
-      "value": "纸电混合"
+      "value": "实体/电子组合"
     }
   ],
   "ui-orders.order_format.container": [
@@ -58139,7 +58149,7 @@
   "ui-orders.print.billToAddress": [
     {
       "type": 0,
-      "value": "帐单发送地址"
+      "value": "账单发送地址"
     }
   ],
   "ui-orders.print.details": [
@@ -73497,7 +73507,7 @@
   "ui-users.accounts.history.columns.owner": [
     {
       "type": 0,
-      "value": "费用/罚款缴费处"
+      "value": "缴费处"
     }
   ],
   "ui-users.accounts.history.columns.remaining": [
@@ -81299,7 +81309,7 @@
   "stripes-acq-components.order.format.PEMix": [
     {
       "type": 0,
-      "value": "P/E Mix"
+      "value": "实体/电子组合"
     }
   ],
   "stripes-acq-components.order.format.electronicResource": [
@@ -81401,7 +81411,7 @@
   "stripes-acq-components.paymentMethod.physicalCheck": [
     {
       "type": 0,
-      "value": "实体检查"
+      "value": "实物支票"
     }
   ],
   "stripes-acq-components.piece.pieceFormat.electronic": [
@@ -81999,7 +82009,7 @@
   "stripes-data-transfer-components.filter.errors": [
     {
       "type": 0,
-      "value": "导入时出错"
+      "value": "导出时出错"
     }
   ],
   "stripes-data-transfer-components.filter.date": [
@@ -84111,37 +84121,229 @@
   "ui-checkout.messages.itemLimitLoanType": [
     {
       "type": 0,
-      "value": "读者已达到借阅类型1项的最大限制。"
+      "value": "读者已达到借阅类型的"
+    },
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": " 1 单件 "
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 1,
+              "value": "itemLimit"
+            },
+            {
+              "type": 0,
+              "value": " 单件 "
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "itemLimit"
+    },
+    {
+      "type": 0,
+      "value": "的最大限制。"
     }
   ],
   "ui-checkout.messages.itemLimitMaterialType": [
     {
       "type": 0,
-      "value": "读者已达到资料类型1项的最大限制。"
+      "value": "读者已达到资料类型的"
+    },
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": " 1 单件 "
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 1,
+              "value": "itemLimit"
+            },
+            {
+              "type": 0,
+              "value": " 单件 "
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "itemLimit"
+    },
+    {
+      "type": 0,
+      "value": "的最大限制。"
     }
   ],
   "ui-checkout.messages.itemLimitMaterialTypeLoanType": [
     {
       "type": 0,
-      "value": "读者已达到资料类型和借阅类型组合 1 项的最大限制。"
+      "value": "读者已达到资料类型和借阅类型组合的"
+    },
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": " 1单件"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 1,
+              "value": "itemLimit"
+            },
+            {
+              "type": 0,
+              "value": "单件"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "itemLimit"
+    },
+    {
+      "type": 0,
+      "value": "的最大限制。"
     }
   ],
   "ui-checkout.messages.itemLimitPatronGroupLoanType": [
     {
       "type": 0,
-      "value": "读者已达到读者组和借阅类型组合1 项的最大限制。"
+      "value": "读者组和借阅类型的组合已达到"
+    },
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": " 1单件"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 1,
+              "value": "itemLimit"
+            },
+            {
+              "type": 0,
+              "value": "单件"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "itemLimit"
+    },
+    {
+      "type": 0,
+      "value": "的最大限制。"
     }
   ],
   "ui-checkout.messages.itemLimitPatronGroupMaterialType": [
     {
       "type": 0,
-      "value": "读者已达到读者组和资料类型组合1 项的最大限制。"
+      "value": "读者已达到读者组和资料类型组合的"
+    },
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": " 1 单件"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 1,
+              "value": "itemLimit"
+            },
+            {
+              "type": 0,
+              "value": "单件"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "itemLimit"
+    },
+    {
+      "type": 0,
+      "value": "的最大限制。"
     }
   ],
   "ui-checkout.messages.itemLimitPatronGroupMaterialTypeLoanType": [
     {
       "type": 0,
-      "value": "读者已达到读者组、资料类型和借阅类型组合 1 项的最大限制。"
+      "value": "读者已达到读者组、资料类型和借阅类型组合的"
+    },
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": " 1单件"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 1,
+              "value": "itemLimit"
+            },
+            {
+              "type": 0,
+              "value": "单件"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "itemLimit"
+    },
+    {
+      "type": 0,
+      "value": "的最大限制。"
     }
   ],
   "ui-checkout.messages.userHasNoBarcode": [
@@ -84179,15 +84381,23 @@
   "ui-data-import.deleteSelectedLogs": [
     {
       "type": 0,
-      "value": "Delete selected logs"
+      "value": "删除选定的日志"
     }
   ],
   "ui-data-import.landing.callout.success": [
     {
       "children": [
         {
+          "type": 0,
+          "value": " "
+        },
+        {
           "type": 1,
           "value": "logsNumber"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -84195,7 +84405,7 @@
     },
     {
       "type": 0,
-      "value": " data import logs have been successfully deleted."
+      "value": "数据导入日志已成功删除。"
     }
   ],
   "ui-data-import.logsPaneSubtitle": [
@@ -84215,7 +84425,7 @@
           "value": [
             {
               "type": 0,
-              "value": "log found"
+              "value": "发现日志"
             }
           ]
         },
@@ -84223,7 +84433,7 @@
           "value": [
             {
               "type": 0,
-              "value": "logs found"
+              "value": "发现日志"
             }
           ]
         }
@@ -84250,7 +84460,7 @@
           "value": [
             {
               "type": 0,
-              "value": "log selected"
+              "value": "已选日志"
             }
           ]
         },
@@ -84258,7 +84468,7 @@
           "value": [
             {
               "type": 0,
-              "value": "logs selected"
+              "value": "已选日志"
             }
           ]
         }
@@ -84271,59 +84481,83 @@
   "ui-data-import.modal.landing.cancel": [
     {
       "type": 0,
-      "value": "No, do not delete"
+      "value": "否，不要删除"
     }
   ],
   "ui-data-import.modal.landing.delete": [
     {
       "type": 0,
-      "value": "Yes, delete"
+      "value": "是，删除"
     }
   ],
   "ui-data-import.modal.landing.delete.header": [
     {
       "type": 0,
-      "value": "Delete data import logs?"
+      "value": "删除数据导入日志？"
     }
   ],
   "ui-data-import.modal.landing.delete.message": [
     {
       "children": [
         {
+          "type": 0,
+          "value": " "
+        },
+        {
           "children": [
             {
               "type": 0,
-              "value": "Data import logs selected"
+              "value": "已选择数据导入日志"
             }
           ],
           "type": 8,
           "value": "b"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
       "value": "p"
     },
     {
+      "type": 0,
+      "value": " "
+    },
+    {
       "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
         {
           "type": 1,
           "value": "logsNumber"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
       "value": "p"
     },
     {
+      "type": 0,
+      "value": " "
+    },
+    {
       "children": [
         {
           "type": 0,
-          "value": "Are you sure that you want to "
+          "value": "确定要"
         },
         {
           "children": [
             {
               "type": 0,
-              "value": "delete these data import logs"
+              "value": "删除这些数据导入日志"
             }
           ],
           "type": 8,
@@ -84331,7 +84565,7 @@
         },
         {
           "type": 0,
-          "value": "? Deleted logs will be permanently removed and cannot be retrieved."
+          "value": " ？被删除的日志将永久删除且无法检索。 "
         }
       ],
       "type": 8,
@@ -84341,67 +84575,67 @@
   "ui-data-import.settings.mappingProfiles.map.administrativeData.field.administrativeNote": [
     {
       "type": 0,
-      "value": "Administrative note"
+      "value": "管理说明"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.administrativeData.field.administrativeNotes.addLabel": [
     {
       "type": 0,
-      "value": "Add administrative note"
+      "value": "添加管理说明"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.administrativeData.field.administrativeNotes.legend": [
     {
       "type": 0,
-      "value": "Administrative notes"
+      "value": "管理说明"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.holdings.acquisitionsData.field.purchaseOrderLineNumber": [
     {
       "type": 0,
-      "value": "Purchase order line (POL)"
+      "value": "采购订单行 (POL)"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.holdings.acquisitionsData.field.vendorReferenceNumber": [
     {
       "type": 0,
-      "value": "Vendor reference number"
+      "value": "供应商参考号"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.instance.acquisitionsData.field.purchaseOrderLineNumber": [
     {
       "type": 0,
-      "value": "Purchase order line (POL)"
+      "value": "采购订单行 (POL)"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.instance.acquisitionsData.field.vendorReferenceNumber": [
     {
       "type": 0,
-      "value": "Vendor reference number"
+      "value": "供应商参考号"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.item.acquisitionsData.field.purchaseOrderLineNumber": [
     {
       "type": 0,
-      "value": "Purchase order line (POL)"
+      "value": "采购订单行 (POL)"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.item.acquisitionsData.field.vendorReferenceNumber": [
     {
       "type": 0,
-      "value": "Vendor reference number"
+      "value": "供应商参考号"
     }
   ],
   "ui-data-import.settings.matchProfiles.acquisitionsData": [
     {
       "type": 0,
-      "value": "Acquisitions data"
+      "value": "采购数据"
     }
   ],
   "ui-data-import.stoppedByUser": [
     {
       "type": 0,
-      "value": "Stopped by user"
+      "value": "已由用户停止"
     }
   ],
   "ui-developer.okapiTimers": [
@@ -85558,19 +85792,19 @@
   "ui-licenses.terms.help.category": [
     {
       "type": 0,
-      "value": "Terms can be categorised. Each category will appear as a separate accordion when viewing or editing the license."
+      "value": "条款可以分类。查看或编辑许可证时，每个类别都将显示为单独的折叠块。"
     }
   ],
   "ui-licenses.terms.help.label": [
     {
       "type": 0,
-      "value": "A license term 'label' is used when displaying the term to users within Folio and in any other systems that display license terms to users. It should be a short text string that clearly communicates what information is recorded in the term. The Description should be used where further explanation of the term is required for display to users."
+      "value": "向Folio中以及向用户显示许可证条款的任何其他系统中的用户显示条款时，使用许可证条款“标签”。它应该是一个简短的文本字符串，可以清楚地传达该条款中记录的信息。如果需要对条款做进一步说明以便向用户显示，则应使用“描述”。"
     }
   ],
   "ui-licenses.terms.help.name": [
     {
       "type": 0,
-      "value": "A license term 'name' is used when outputting the term data in a machine readable format. It is not intended to be displayed to users (staff or patrons). It should be a short Latin alphabet string that can be used by any external systems or programs that access the license term data. Use of camelCase is suggested but not required. Changes to the license term name would affect any external systems using license term data and changes should not be made without consulting those responsible for relevant external systems and software."
+      "value": "当以机器可读格式输出条款数据时，使用许可证条款“名称”。它不打算显示给用户（员工或读者）。它应该是一个简短的拉丁字母字符串，可供访问许可证条款数据的任何外部系统或程序使用。建议使用驼峰命名法，但不是必需的。许可证条款名称的更改将影响使用许可证条款数据的任何外部系统，如果没有咨询负责相关外部系统和软件的人员，则不应进行更改。"
     }
   ],
   "ui-licenses.terms.multiPickList": [
@@ -87830,7 +88064,7 @@
   "ui-agreements.settings.fileStorage.s3BucketRegion": [
     {
       "type": 0,
-      "value": "S3 bucket region"
+      "value": "S3存储桶区域"
     }
   ],
   "ui-agreements.settings.noCurrentValue": [
@@ -88108,85 +88342,85 @@
   "ui-calendar.allCalendarView.actions.label": [
     {
       "type": 0,
-      "value": "Actions"
+      "value": "操作"
     }
   ],
   "ui-calendar.allCalendarView.actions.new": [
     {
       "type": 0,
-      "value": "New"
+      "value": "新建"
     }
   ],
   "ui-calendar.allCalendarView.actions.purge": [
     {
       "type": 0,
-      "value": "Purge old calendars"
+      "value": "清除旧日历"
     }
   ],
   "ui-calendar.allCalendarView.column.assignments": [
     {
       "type": 0,
-      "value": "Assignments"
+      "value": "分配"
     }
   ],
   "ui-calendar.allCalendarView.column.endDate": [
     {
       "type": 0,
-      "value": "End date"
+      "value": "终止日期"
     }
   ],
   "ui-calendar.allCalendarView.column.name": [
     {
       "type": 0,
-      "value": "Calendar name"
+      "value": "日历名称"
     }
   ],
   "ui-calendar.allCalendarView.column.startDate": [
     {
       "type": 0,
-      "value": "Start date"
+      "value": "起始日期"
     }
   ],
   "ui-calendar.allCalendarView.noAssignments": [
     {
       "type": 0,
-      "value": "None"
+      "value": "无"
     }
   ],
   "ui-calendar.allCalendarView.title": [
     {
       "type": 0,
-      "value": "All calendars"
+      "value": "全部日历"
     }
   ],
   "ui-calendar.calendarForm.addRowButton": [
     {
       "type": 0,
-      "value": "Add row"
+      "value": "添加行"
     }
   ],
   "ui-calendar.calendarForm.category.exceptions": [
     {
       "type": 0,
-      "value": "Exceptions"
+      "value": "例外"
     }
   ],
   "ui-calendar.calendarForm.category.general": [
     {
       "type": 0,
-      "value": "General information"
+      "value": "概况"
     }
   ],
   "ui-calendar.calendarForm.category.hoursOfOperation": [
     {
       "type": 0,
-      "value": "Hours of operation"
+      "value": "工作时间"
     }
   ],
   "ui-calendar.calendarForm.error.dateFormat": [
     {
       "type": 0,
-      "value": "Please enter a date in the "
+      "value": "请以"
     },
     {
       "type": 1,
@@ -88194,31 +88428,31 @@
     },
     {
       "type": 0,
-      "value": " format"
+      "value": "格式输入日期"
     }
   ],
   "ui-calendar.calendarForm.error.dateOrder": [
     {
       "type": 0,
-      "value": "End date must not be before the start date"
+      "value": "结束日期不得早于开始日期"
     }
   ],
   "ui-calendar.calendarForm.error.exceptionConflictError": [
     {
       "type": 0,
-      "value": "Some exceptions have conflicts with each other"
+      "value": "某些例外彼此冲突"
     }
   ],
   "ui-calendar.calendarForm.error.internalServerError": [
     {
       "type": 0,
-      "value": "Internal server error"
+      "value": "内部服务器错误"
     }
   ],
   "ui-calendar.calendarForm.error.openingConflictError": [
     {
       "type": 0,
-      "value": "Some openings have conflicts with each other"
+      "value": "有些开放相互冲突"
     }
   ],
   "ui-calendar.calendarForm.error.servicePointConflict": [
@@ -88229,7 +88463,7 @@
           "value": [
             {
               "type": 0,
-              "value": "Service point"
+              "value": "服务点"
             }
           ]
         },
@@ -88237,7 +88471,7 @@
           "value": [
             {
               "type": 0,
-              "value": "Service points"
+              "value": "服务点"
             }
           ]
         }
@@ -88265,7 +88499,7 @@
           "value": [
             {
               "type": 0,
-              "value": "has"
+              "value": "有"
             }
           ]
         },
@@ -88273,7 +88507,7 @@
           "value": [
             {
               "type": 0,
-              "value": "have"
+              "value": "有"
             }
           ]
         }
@@ -88284,13 +88518,13 @@
     },
     {
       "type": 0,
-      "value": " overlaps."
+      "value": "重叠。"
     }
   ],
   "ui-calendar.calendarForm.error.timeFormat": [
     {
       "type": 0,
-      "value": "Please enter a time in the "
+      "value": "请以"
     },
     {
       "type": 1,
@@ -88298,193 +88532,193 @@
     },
     {
       "type": 0,
-      "value": " format"
+      "value": "格式输入时间"
     }
   ],
   "ui-calendar.calendarForm.error.timeOrder": [
     {
       "type": 0,
-      "value": "End date/time must not be before the start date/time"
+      "value": "结束日期/时间不得早于开始日期/时间"
     }
   ],
   "ui-calendar.calendarForm.exceptions.column.actions": [
     {
       "type": 0,
-      "value": "Actions"
+      "value": "操作"
     }
   ],
   "ui-calendar.calendarForm.exceptions.column.endDate": [
     {
       "type": 0,
-      "value": "End date"
+      "value": "终止日期"
     }
   ],
   "ui-calendar.calendarForm.exceptions.column.endTime": [
     {
       "type": 0,
-      "value": "End time"
+      "value": "结束时间"
     }
   ],
   "ui-calendar.calendarForm.exceptions.column.name": [
     {
       "type": 0,
-      "value": "Name"
+      "value": "名称"
     }
   ],
   "ui-calendar.calendarForm.exceptions.column.startDate": [
     {
       "type": 0,
-      "value": "Start date"
+      "value": "起始日期"
     }
   ],
   "ui-calendar.calendarForm.exceptions.column.startTime": [
     {
       "type": 0,
-      "value": "Start time"
+      "value": "起始时间"
     }
   ],
   "ui-calendar.calendarForm.exceptions.column.status": [
     {
       "type": 0,
-      "value": "Status"
+      "value": "状态"
     }
   ],
   "ui-calendar.calendarForm.field.endDate": [
     {
       "type": 0,
-      "value": "End date"
+      "value": "终止日期"
     }
   ],
   "ui-calendar.calendarForm.field.name": [
     {
       "type": 0,
-      "value": "Calendar name"
+      "value": "日历名称"
     }
   ],
   "ui-calendar.calendarForm.field.servicePoints": [
     {
       "type": 0,
-      "value": "Service points"
+      "value": "服务点"
     }
   ],
   "ui-calendar.calendarForm.field.startDate": [
     {
       "type": 0,
-      "value": "Start date"
+      "value": "起始日期"
     }
   ],
   "ui-calendar.calendarForm.openClosedSelect.closed": [
     {
       "type": 0,
-      "value": "Closed"
+      "value": "已关闭"
     }
   ],
   "ui-calendar.calendarForm.openClosedSelect.open": [
     {
       "type": 0,
-      "value": "Open"
+      "value": "打开"
     }
   ],
   "ui-calendar.calendarForm.openings.column.actions": [
     {
       "type": 0,
-      "value": "Actions"
+      "value": "操作"
     }
   ],
   "ui-calendar.calendarForm.openings.column.endDay": [
     {
       "type": 0,
-      "value": "End day"
+      "value": "结束日"
     }
   ],
   "ui-calendar.calendarForm.openings.column.endTime": [
     {
       "type": 0,
-      "value": "End time"
+      "value": "结束时间"
     }
   ],
   "ui-calendar.calendarForm.openings.column.startDay": [
     {
       "type": 0,
-      "value": "Start day"
+      "value": "开始日"
     }
   ],
   "ui-calendar.calendarForm.openings.column.startTime": [
     {
       "type": 0,
-      "value": "Start time"
+      "value": "起始时间"
     }
   ],
   "ui-calendar.calendarForm.openings.column.status": [
     {
       "type": 0,
-      "value": "Status"
+      "value": "状态"
     }
   ],
   "ui-calendar.calendarForm.title.create": [
     {
       "type": 0,
-      "value": "New calendar"
+      "value": "新建日历"
     }
   ],
   "ui-calendar.calendarForm.title.edit": [
     {
       "type": 0,
-      "value": "Edit calendar"
+      "value": "编辑日历"
     }
   ],
   "ui-calendar.currentAssignmentView.actions.new": [
     {
       "type": 0,
-      "value": "New"
+      "value": "新建"
     }
   ],
   "ui-calendar.currentAssignmentView.column.currentStatus": [
     {
       "type": 0,
-      "value": "Current status"
+      "value": "当前状态"
     }
   ],
   "ui-calendar.currentAssignmentView.column.endDate": [
     {
       "type": 0,
-      "value": "End date"
+      "value": "终止日期"
     }
   ],
   "ui-calendar.currentAssignmentView.column.name": [
     {
       "type": 0,
-      "value": "Calendar name"
+      "value": "日历名称"
     }
   ],
   "ui-calendar.currentAssignmentView.column.servicePoint": [
     {
       "type": 0,
-      "value": "Service point"
+      "value": "服务点"
     }
   ],
   "ui-calendar.currentAssignmentView.column.startDate": [
     {
       "type": 0,
-      "value": "Start date"
+      "value": "起始日期"
     }
   ],
   "ui-calendar.currentAssignmentView.noCalendar": [
     {
       "type": 0,
-      "value": "None"
+      "value": "无"
     }
   ],
   "ui-calendar.currentAssignmentView.title": [
     {
       "type": 0,
-      "value": "Current calendar assignments"
+      "value": "当前日历分配"
     }
   ],
   "ui-calendar.currentStatus.closed.exceptional.nextDay": [
     {
       "type": 0,
-      "value": "Closed ("
+      "value": "关闭 ( "
     },
     {
       "type": 1,
@@ -88492,7 +88726,7 @@
     },
     {
       "type": 0,
-      "value": ") until tomorrow at "
+      "value": " ) 直到明天在"
     },
     {
       "type": 1,
@@ -88502,7 +88736,7 @@
   "ui-calendar.currentStatus.closed.exceptional.nextWeek": [
     {
       "type": 0,
-      "value": "Closed ("
+      "value": "关闭 ( "
     },
     {
       "type": 1,
@@ -88510,7 +88744,7 @@
     },
     {
       "type": 0,
-      "value": ") until "
+      "value": " ) 直到"
     },
     {
       "type": 1,
@@ -88518,7 +88752,7 @@
     },
     {
       "type": 0,
-      "value": " at "
+      "value": "在"
     },
     {
       "type": 1,
@@ -88528,7 +88762,7 @@
   "ui-calendar.currentStatus.closed.exceptional.noNext": [
     {
       "type": 0,
-      "value": "Closed ("
+      "value": "关闭（ "
     },
     {
       "type": 1,
@@ -88536,13 +88770,13 @@
     },
     {
       "type": 0,
-      "value": ")"
+      "value": " ）"
     }
   ],
   "ui-calendar.currentStatus.closed.exceptional.otherWeekday": [
     {
       "type": 0,
-      "value": "Closed ("
+      "value": "关闭 ( "
     },
     {
       "type": 1,
@@ -88550,7 +88784,7 @@
     },
     {
       "type": 0,
-      "value": ") until "
+      "value": " ) 直到"
     },
     {
       "type": 1,
@@ -88558,7 +88792,7 @@
     },
     {
       "type": 0,
-      "value": " at "
+      "value": "在"
     },
     {
       "type": 1,
@@ -88568,7 +88802,7 @@
   "ui-calendar.currentStatus.closed.exceptional.sameDay": [
     {
       "type": 0,
-      "value": "Closed ("
+      "value": "关闭 ( "
     },
     {
       "type": 1,
@@ -88576,7 +88810,7 @@
     },
     {
       "type": 0,
-      "value": ") until "
+      "value": " ) 直到"
     },
     {
       "type": 1,
@@ -88586,7 +88820,7 @@
   "ui-calendar.currentStatus.closed.exceptional.sameElse": [
     {
       "type": 0,
-      "value": "Closed ("
+      "value": "关闭 ( "
     },
     {
       "type": 1,
@@ -88594,7 +88828,7 @@
     },
     {
       "type": 0,
-      "value": ") until "
+      "value": " ) 直到"
     },
     {
       "type": 1,
@@ -88602,7 +88836,7 @@
     },
     {
       "type": 0,
-      "value": " at "
+      "value": "在"
     },
     {
       "type": 1,
@@ -88612,7 +88846,7 @@
   "ui-calendar.currentStatus.closed.nextDay": [
     {
       "type": 0,
-      "value": "Closed until tomorrow at "
+      "value": "关门到明天在"
     },
     {
       "type": 1,
@@ -88622,7 +88856,7 @@
   "ui-calendar.currentStatus.closed.nextWeek": [
     {
       "type": 0,
-      "value": "Closed until "
+      "value": "关闭至"
     },
     {
       "type": 1,
@@ -88630,7 +88864,7 @@
     },
     {
       "type": 0,
-      "value": " at "
+      "value": " 在"
     },
     {
       "type": 1,
@@ -88640,13 +88874,13 @@
   "ui-calendar.currentStatus.closed.noNext": [
     {
       "type": 0,
-      "value": "Closed"
+      "value": "已关闭"
     }
   ],
   "ui-calendar.currentStatus.closed.otherWeekday": [
     {
       "type": 0,
-      "value": "Closed until "
+      "value": "关闭至"
     },
     {
       "type": 1,
@@ -88654,7 +88888,7 @@
     },
     {
       "type": 0,
-      "value": " at "
+      "value": " 在"
     },
     {
       "type": 1,
@@ -88664,7 +88898,7 @@
   "ui-calendar.currentStatus.closed.sameDay": [
     {
       "type": 0,
-      "value": "Closed until "
+      "value": "关闭至"
     },
     {
       "type": 1,
@@ -88674,7 +88908,7 @@
   "ui-calendar.currentStatus.closed.sameElse": [
     {
       "type": 0,
-      "value": "Closed until "
+      "value": "关闭至"
     },
     {
       "type": 1,
@@ -88682,7 +88916,7 @@
     },
     {
       "type": 0,
-      "value": " at "
+      "value": " 在"
     },
     {
       "type": 1,
@@ -88692,7 +88926,7 @@
   "ui-calendar.currentStatus.open.exceptional.nextDay": [
     {
       "type": 0,
-      "value": "Open ("
+      "value": "开放 ( "
     },
     {
       "type": 1,
@@ -88700,7 +88934,7 @@
     },
     {
       "type": 0,
-      "value": ") until tomorrow at "
+      "value": " ) 直到明天在"
     },
     {
       "type": 1,
@@ -88710,7 +88944,7 @@
   "ui-calendar.currentStatus.open.exceptional.nextWeek": [
     {
       "type": 0,
-      "value": "Open ("
+      "value": "开放 ( "
     },
     {
       "type": 1,
@@ -88718,7 +88952,7 @@
     },
     {
       "type": 0,
-      "value": ") until "
+      "value": " ) 至"
     },
     {
       "type": 1,
@@ -88726,7 +88960,7 @@
     },
     {
       "type": 0,
-      "value": " at "
+      "value": " 在"
     },
     {
       "type": 1,
@@ -88736,7 +88970,7 @@
   "ui-calendar.currentStatus.open.exceptional.noNext": [
     {
       "type": 0,
-      "value": "Open ("
+      "value": "开放（ "
     },
     {
       "type": 1,
@@ -88744,13 +88978,13 @@
     },
     {
       "type": 0,
-      "value": ")"
+      "value": " ）"
     }
   ],
   "ui-calendar.currentStatus.open.exceptional.otherWeekday": [
     {
       "type": 0,
-      "value": "Open ("
+      "value": "开放 ( "
     },
     {
       "type": 1,
@@ -88758,7 +88992,7 @@
     },
     {
       "type": 0,
-      "value": ") until "
+      "value": " ) 至"
     },
     {
       "type": 1,
@@ -88766,7 +89000,7 @@
     },
     {
       "type": 0,
-      "value": " at "
+      "value": " 在"
     },
     {
       "type": 1,
@@ -88776,7 +89010,7 @@
   "ui-calendar.currentStatus.open.exceptional.sameDay": [
     {
       "type": 0,
-      "value": "Open ("
+      "value": "开放 ( "
     },
     {
       "type": 1,
@@ -88784,7 +89018,7 @@
     },
     {
       "type": 0,
-      "value": ") until "
+      "value": " ) 直到"
     },
     {
       "type": 1,
@@ -88794,7 +89028,7 @@
   "ui-calendar.currentStatus.open.exceptional.sameElse": [
     {
       "type": 0,
-      "value": "Open ("
+      "value": "开放 ( "
     },
     {
       "type": 1,
@@ -88802,7 +89036,7 @@
     },
     {
       "type": 0,
-      "value": ") until "
+      "value": " ) 直到"
     },
     {
       "type": 1,
@@ -88810,7 +89044,7 @@
     },
     {
       "type": 0,
-      "value": " at "
+      "value": "在"
     },
     {
       "type": 1,
@@ -88820,7 +89054,7 @@
   "ui-calendar.currentStatus.open.nextDay": [
     {
       "type": 0,
-      "value": "Open until tomorrow at "
+      "value": "开放至明天在"
     },
     {
       "type": 1,
@@ -88830,7 +89064,7 @@
   "ui-calendar.currentStatus.open.nextWeek": [
     {
       "type": 0,
-      "value": "Open until "
+      "value": "开放至"
     },
     {
       "type": 1,
@@ -88838,7 +89072,7 @@
     },
     {
       "type": 0,
-      "value": " at "
+      "value": " 在"
     },
     {
       "type": 1,
@@ -88848,13 +89082,13 @@
   "ui-calendar.currentStatus.open.noNext": [
     {
       "type": 0,
-      "value": "Open"
+      "value": "开放"
     }
   ],
   "ui-calendar.currentStatus.open.otherWeekday": [
     {
       "type": 0,
-      "value": "Open until "
+      "value": "开放至"
     },
     {
       "type": 1,
@@ -88862,7 +89096,7 @@
     },
     {
       "type": 0,
-      "value": " at "
+      "value": " 在"
     },
     {
       "type": 1,
@@ -88872,7 +89106,7 @@
   "ui-calendar.currentStatus.open.sameDay": [
     {
       "type": 0,
-      "value": "Open until "
+      "value": "开放至"
     },
     {
       "type": 1,
@@ -88882,7 +89116,7 @@
   "ui-calendar.currentStatus.open.sameElse": [
     {
       "type": 0,
-      "value": "Open until "
+      "value": "开放至"
     },
     {
       "type": 1,
@@ -88890,7 +89124,7 @@
     },
     {
       "type": 0,
-      "value": " at "
+      "value": " 在"
     },
     {
       "type": 1,
@@ -88900,103 +89134,103 @@
   "ui-calendar.infoPane.247HelpText": [
     {
       "type": 0,
-      "value": "This calendar is open 24/7 and does not close"
+      "value": "本日历24小时/7天开放，不关闭"
     }
   ],
   "ui-calendar.infoPane.accordion.assignments": [
     {
       "type": 0,
-      "value": "Service point assignments"
+      "value": "服务点分配"
     }
   ],
   "ui-calendar.infoPane.accordion.assignments.empty": [
     {
       "type": 0,
-      "value": "This calendar is not assigned to any service points."
+      "value": "本日历未分配给任何服务点。"
     }
   ],
   "ui-calendar.infoPane.accordion.exceptions.closures": [
     {
       "type": 0,
-      "value": "Exceptions — closures"
+      "value": "例外——关闭"
     }
   ],
   "ui-calendar.infoPane.accordion.exceptions.closures.empty": [
     {
       "type": 0,
-      "value": "This calendar has no exceptional closures."
+      "value": "本日历没有例外的关闭。"
     }
   ],
   "ui-calendar.infoPane.accordion.exceptions.end": [
     {
       "type": 0,
-      "value": "Close"
+      "value": "关闭"
     }
   ],
   "ui-calendar.infoPane.accordion.exceptions.name": [
     {
       "type": 0,
-      "value": "Name"
+      "value": "名称"
     }
   ],
   "ui-calendar.infoPane.accordion.exceptions.openings": [
     {
       "type": 0,
-      "value": "Exceptions — openings"
+      "value": "例外——开放"
     }
   ],
   "ui-calendar.infoPane.accordion.exceptions.openings.empty": [
     {
       "type": 0,
-      "value": "This calendar has no exceptional openings."
+      "value": "本日历没有例外的开放。"
     }
   ],
   "ui-calendar.infoPane.accordion.exceptions.start": [
     {
       "type": 0,
-      "value": "Start"
+      "value": "开始"
     }
   ],
   "ui-calendar.infoPane.accordion.hours": [
     {
       "type": 0,
-      "value": "Hours of operation"
+      "value": "工作时间"
     }
   ],
   "ui-calendar.infoPane.accordion.hours.close": [
     {
       "type": 0,
-      "value": "Close"
+      "value": "关闭"
     }
   ],
   "ui-calendar.infoPane.accordion.hours.day": [
     {
       "type": 0,
-      "value": "Day"
+      "value": "日"
     }
   ],
   "ui-calendar.infoPane.accordion.hours.open": [
     {
       "type": 0,
-      "value": "Open"
+      "value": "开放"
     }
   ],
   "ui-calendar.infoPane.accordion.metadata": [
     {
       "type": 0,
-      "value": "Record metadata"
+      "value": "记录元数据"
     }
   ],
   "ui-calendar.infoPane.accordion.metadata.createdAt": [
     {
       "type": 0,
-      "value": "Created at"
+      "value": "创建于"
     }
   ],
   "ui-calendar.infoPane.accordion.metadata.createdBy": [
     {
       "type": 0,
-      "value": "Created by"
+      "value": "创建者"
     }
   ],
   "ui-calendar.infoPane.accordion.metadata.dateTime": [
@@ -89016,37 +89250,37 @@
   "ui-calendar.infoPane.accordion.metadata.unknownDate": [
     {
       "type": 0,
-      "value": "Unknown"
+      "value": "未知"
     }
   ],
   "ui-calendar.infoPane.accordion.metadata.unknownUser": [
     {
       "type": 0,
-      "value": "Unknown"
+      "value": "未知"
     }
   ],
   "ui-calendar.infoPane.accordion.metadata.updatedAt": [
     {
       "type": 0,
-      "value": "Last edited at"
+      "value": "最后编辑于"
     }
   ],
   "ui-calendar.infoPane.accordion.metadata.updatedBy": [
     {
       "type": 0,
-      "value": "Last edited by"
+      "value": "最后编辑者"
     }
   ],
   "ui-calendar.infoPane.actions.label": [
     {
       "type": 0,
-      "value": "Actions"
+      "value": "操作"
     }
   ],
   "ui-calendar.infoPane.deletionModal.contents": [
     {
       "type": 0,
-      "value": "Are you sure you would like to delete the calendar “"
+      "value": "确定要删除日历“ "
     },
     {
       "type": 1,
@@ -89054,25 +89288,25 @@
     },
     {
       "type": 0,
-      "value": "”?"
+      "value": " ”？"
     }
   ],
   "ui-calendar.infoPane.deletionModal.label": [
     {
       "type": 0,
-      "value": "Confirm deletion"
+      "value": "确认删除"
     }
   ],
   "ui-calendar.infoPane.display.closed": [
     {
       "type": 0,
-      "value": "Closed"
+      "value": "已关闭"
     }
   ],
   "ui-calendar.infoPane.display.closesAfterMidnight": [
     {
       "type": 0,
-      "value": "Closes on the next day"
+      "value": "次日关闭"
     }
   ],
   "ui-calendar.infoPane.display.closesAfterMidnightTime": [
@@ -89082,61 +89316,61 @@
     },
     {
       "type": 0,
-      "value": " *"
+      "value": " *"
     }
   ],
   "ui-calendar.infoPane.display.wrappedClosed": [
     {
       "type": 0,
-      "value": "The service point does not close on this night"
+      "value": "本服务点当晚不关闭"
     }
   ],
   "ui-calendar.infoPane.display.wrappedOpening": [
     {
       "type": 0,
-      "value": "The service point does not close on the previous night"
+      "value": "本服务点前一晚不关闭"
     }
   ],
   "ui-calendar.infoPane.endDate": [
     {
       "type": 0,
-      "value": "End date"
+      "value": "终止日期"
     }
   ],
   "ui-calendar.infoPane.nextDayHelpText": [
     {
       "type": 0,
-      "value": "* indicates next day"
+      "value": "* 表示次日"
     }
   ],
   "ui-calendar.infoPane.overnightHelpText": [
     {
       "type": 0,
-      "value": "– indicates that the service point was already open or does not close"
+      "value": "– 表示服务点已经开放或没有关闭"
     }
   ],
   "ui-calendar.infoPane.startDate": [
     {
       "type": 0,
-      "value": "Start date"
+      "value": "起始日期"
     }
   ],
   "ui-calendar.midnight": [
     {
       "type": 0,
-      "value": "Midnight"
+      "value": "午夜"
     }
   ],
   "ui-calendar.monthlyCalendarView.day.allDay": [
     {
       "type": 0,
-      "value": "All day"
+      "value": "全天"
     }
   ],
   "ui-calendar.monthlyCalendarView.day.closed": [
     {
       "type": 0,
-      "value": "Closed"
+      "value": "已关闭"
     }
   ],
   "ui-calendar.monthlyCalendarView.day.timeRange": [
@@ -89156,91 +89390,91 @@
   "ui-calendar.monthlyCalendarView.title": [
     {
       "type": 0,
-      "value": "Monthly calendar view"
+      "value": "月历视图"
     }
   ],
   "ui-calendar.permission.create": [
     {
       "type": 0,
-      "value": "Settings (Calendar): Can create and assign new calendars"
+      "value": "设置（日历）：可以创建和分配新日历"
     }
   ],
   "ui-calendar.permission.delete": [
     {
       "type": 0,
-      "value": "Settings (Calendar): Can delete existing calendars"
+      "value": "设置（日历）：可以删除已有的日历"
     }
   ],
   "ui-calendar.permission.update": [
     {
       "type": 0,
-      "value": "Settings (Calendar): Can edit and reassign existing calendars"
+      "value": "设置（日历）：可以编辑和重新分配现有日历"
     }
   ],
   "ui-calendar.purgeModal.criteria.age.months3": [
     {
       "type": 0,
-      "value": "more than 3 months ago"
+      "value": "3个多月前"
     }
   ],
   "ui-calendar.purgeModal.criteria.age.months6": [
     {
       "type": 0,
-      "value": "more than 6 months ago"
+      "value": "6个多月前"
     }
   ],
   "ui-calendar.purgeModal.criteria.age.prompt": [
     {
       "type": 0,
-      "value": "Purge calendars that ended..."
+      "value": "清除已结束…的日历"
     }
   ],
   "ui-calendar.purgeModal.criteria.age.year1": [
     {
       "type": 0,
-      "value": "more than 1 year ago"
+      "value": "1年多前"
     }
   ],
   "ui-calendar.purgeModal.criteria.age.years2": [
     {
       "type": 0,
-      "value": "more than 2 years ago"
+      "value": "2年多前"
     }
   ],
   "ui-calendar.purgeModal.criteria.assignment.any": [
     {
       "type": 0,
-      "value": "assigned or not assigned to service points"
+      "value": "已分配或未分配到服务点"
     }
   ],
   "ui-calendar.purgeModal.criteria.assignment.none": [
     {
       "type": 0,
-      "value": "not assigned to any service points"
+      "value": "未分配给任何服务点。"
     }
   ],
   "ui-calendar.purgeModal.criteria.assignment.prompt": [
     {
       "type": 0,
-      "value": "And were..."
+      "value": "并且是..."
     }
   ],
   "ui-calendar.purgeModal.deletionList.empty": [
     {
       "type": 0,
-      "value": "No calendars match the provided criteria"
+      "value": "没有日历与提供的条件匹配"
     }
   ],
   "ui-calendar.purgeModal.deletionList.label": [
     {
       "type": 0,
-      "value": "Calendars to be deleted"
+      "value": "要删除的日历"
     }
   ],
   "ui-calendar.purgeModal.label": [
     {
       "type": 0,
-      "value": "Purge old calendars"
+      "value": "清除旧日历"
     }
   ],
   "ui-checkout.notes.popupModal.label": [
@@ -89884,13 +90118,13 @@
   "ui-data-import.fieldMappingsForMarc.override.subtext": [
     {
       "type": 0,
-      "value": "Field protections can be applied to MARC Authority records via this profile, but default field protections "
+      "value": "字段保护可通过此配置文件应用于 MARC 规范记录，但默认字段保护"
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "cannot"
+          "value": "不能"
         }
       ],
       "type": 8,
@@ -89898,55 +90132,63 @@
     },
     {
       "type": 0,
-      "value": " be overridden"
+      "value": "被覆盖"
     }
   ],
   "ui-data-import.jobStartedDate": [
     {
       "type": 0,
-      "value": "Started running"
+      "value": "已开始运行"
     }
   ],
   "ui-data-import.modal.cancelRunningJob.cancel": [
     {
       "type": 0,
-      "value": "No, do not cancel import"
+      "value": "否，不取消导入"
     }
   ],
   "ui-data-import.modal.cancelRunningJob.confirm": [
     {
       "type": 0,
-      "value": "Yes, cancel import job"
+      "value": "是，取消导入任务"
     }
   ],
   "ui-data-import.modal.cancelRunningJob.header": [
     {
       "type": 0,
-      "value": "Cancel import job?"
+      "value": "取消导入任务？"
     }
   ],
   "ui-data-import.modal.cancelRunningJob.message": [
     {
       "type": 0,
-      "value": "Are you sure that you want "
+      "value": "确定要"
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "to cancel this import job?"
+          "value": "取消此导入任务吗？ "
         }
       ],
       "type": 8,
       "value": "b"
     },
     {
+      "type": 0,
+      "value": " "
+    },
+    {
       "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
         {
           "children": [
             {
               "type": 0,
-              "value": "Note:"
+              "value": "注意： "
             }
           ],
           "type": 8,
@@ -89954,7 +90196,7 @@
         },
         {
           "type": 0,
-          "value": " Cancelled jobs cannot be restarted. Records created or updated before"
+          "value": "已取消的任务无法重新启动。在"
         },
         {
           "type": 1,
@@ -89962,7 +90204,7 @@
         },
         {
           "type": 0,
-          "value": "the job is cancelled cannot yet be reverted."
+          "value": "前该任务被取消，已创建或更新的记录还不能恢复。 "
         }
       ],
       "type": 8,
@@ -89972,31 +90214,31 @@
   "ui-data-import.modal.cancelUpload.cancel": [
     {
       "type": 0,
-      "value": "No, do not delete"
+      "value": "否，不要删除"
     }
   ],
   "ui-data-import.modal.cancelUpload.confirm": [
     {
       "type": 0,
-      "value": "Yes, delete"
+      "value": "是，删除"
     }
   ],
   "ui-data-import.modal.cancelUpload.header": [
     {
       "type": 0,
-      "value": "Delete uploaded file?"
+      "value": "删除上传的文件？"
     }
   ],
   "ui-data-import.modal.cancelUpload.message": [
     {
       "type": 0,
-      "value": "Are you sure that you want "
+      "value": "确定要"
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "to delete this uploaded file?"
+          "value": "删除此上传的文件吗？ "
         }
       ],
       "type": 8,
@@ -90004,49 +90246,49 @@
     },
     {
       "type": 0,
-      "value": " Deleted files will be permanently removed and cannot be retrieved"
+      "value": "删除的文件将被永久删除且无法找回"
     }
   ],
   "ui-data-import.modal.confirmJobFinished.header": [
     {
       "type": 0,
-      "value": "Import job finished before cancellation"
+      "value": "导入任务在取消前完成"
     }
   ],
   "ui-data-import.modal.confirmJobFinished.message": [
     {
       "type": 0,
-      "value": "This job finished before the system could cancel it, and appears at the top of the import log"
+      "value": "此任务在系统取消之前完成，并显示在导入日志的顶部"
     }
   ],
   "ui-data-import.settings.actionProfiles.form": [
     {
       "type": 0,
-      "value": "Action profile form"
+      "value": "操作配置文件表单"
     }
   ],
   "ui-data-import.settings.fileExtensions.form": [
     {
       "type": 0,
-      "value": "File extension form"
+      "value": "文件扩展名表单"
     }
   ],
   "ui-data-import.settings.jobProfiles.form": [
     {
       "type": 0,
-      "value": "Job profile form"
+      "value": "任务配置文件表单"
     }
   ],
   "ui-data-import.settings.mappingProfiles.form": [
     {
       "type": 0,
-      "value": "Mapping profile form"
+      "value": "映射配置文件表单"
     }
   ],
   "ui-data-import.settings.matchProfiles.form": [
     {
       "type": 0,
-      "value": "Match profile form"
+      "value": "匹配配置文件表单"
     }
   ],
   "ui-data-import.willDeleteFile": [
@@ -90056,7 +90298,7 @@
     },
     {
       "type": 0,
-      "value": " will be deleted"
+      "value": "将被删除"
     }
   ],
   "ui-developer.app-manager": [
@@ -90318,67 +90560,67 @@
   "ui-erm-usage.harvester.jobs.column.duration": [
     {
       "type": 0,
-      "value": "Duration"
+      "value": "持续时间"
     }
   ],
   "ui-erm-usage.harvester.jobs.column.finish": [
     {
       "type": 0,
-      "value": "Finish"
+      "value": "结束"
     }
   ],
   "ui-erm-usage.harvester.jobs.column.provider": [
     {
       "type": 0,
-      "value": "Provider / Tenant"
+      "value": "提供者/租户"
     }
   ],
   "ui-erm-usage.harvester.jobs.column.start": [
     {
       "type": 0,
-      "value": "Start"
+      "value": "开始"
     }
   ],
   "ui-erm-usage.harvester.jobs.column.type": [
     {
       "type": 0,
-      "value": "Type"
+      "value": "类型"
     }
   ],
   "ui-erm-usage.harvester.jobs.filter.type.periodic": [
     {
       "type": 0,
-      "value": "Periodic"
+      "value": "定期"
     }
   ],
   "ui-erm-usage.harvester.jobs.filter.type.provider": [
     {
       "type": 0,
-      "value": "Provider"
+      "value": "提供者"
     }
   ],
   "ui-erm-usage.harvester.jobs.filter.type.tenant": [
     {
       "type": 0,
-      "value": "Tenant"
+      "value": "租户"
     }
   ],
   "ui-erm-usage.harvester.jobs.paneTitle": [
     {
       "type": 0,
-      "value": "Harvesting jobs"
+      "value": "收割任务"
     }
   ],
   "ui-erm-usage.harvester.jobs.refresh": [
     {
       "type": 0,
-      "value": "Refresh"
+      "value": "刷新"
     }
   ],
   "ui-erm-usage.harvester.jobs.show": [
     {
       "type": 0,
-      "value": "Show harvester logs"
+      "value": "显示收割器日志"
     }
   ],
   "ui-export-manager.exportJob.details.action.download": [
@@ -90523,8 +90765,16 @@
     {
       "children": [
         {
+          "type": 0,
+          "value": " "
+        },
+        {
           "type": 1,
           "value": "ledgerName"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -90532,13 +90782,21 @@
     },
     {
       "type": 0,
-      "value": " was already rolled over from the fiscal year "
+      "value": "已经从财务年度"
     },
     {
       "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
         {
           "type": 1,
           "value": "fromFYcode"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -90546,13 +90804,21 @@
     },
     {
       "type": 0,
-      "value": " to the fiscal year "
+      "value": "滚动到财务年度"
     },
     {
       "children": [
         {
+          "type": 0,
+          "value": " "
+        },
+        {
           "type": 1,
           "value": "toFYcode"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -90586,7 +90852,7 @@
   "ui-finance.ledger.rollover.logs.results.export.start": [
     {
       "type": 0,
-      "value": "Export of budget results has been started"
+      "value": "已开始导出预算结果"
     }
   ],
   "ui-finance.ledger.rollover.logs.source": [
@@ -90928,7 +91194,7 @@
   "ui-gobi-settings.order.mappings.field.acquisitionUnit": [
     {
       "type": 0,
-      "value": "Acquisition units"
+      "value": "采购单位"
     }
   ],
   "ui-gobi-settings.order.mappings.field.activated": [
@@ -91132,7 +91398,7 @@
   "ui-gobi-settings.order.mappings.field.listUnitPrice": [
     {
       "type": 0,
-      "value": "实物单价"
+      "value": "实体单价"
     }
   ],
   "ui-gobi-settings.order.mappings.field.listUnitPriceElectronic": [
@@ -91306,7 +91572,7 @@
   "ui-gobi-settings.order.mappings.field.quantityPhysical": [
     {
       "type": 0,
-      "value": "实物数量"
+      "value": "实体数量"
     }
   ],
   "ui-gobi-settings.order.mappings.field.reEncumber": [
@@ -91492,13 +91758,13 @@
   "ui-gobi-settings.order.mappings.translator.lookupAcquisitionUnitIdsByAccount": [
     {
       "type": 0,
-      "value": "Lookup acquisition unit UUIDs associated with account"
+      "value": "查找与帐户关联的采购单位 UUID"
     }
   ],
   "ui-gobi-settings.order.mappings.translator.lookupAcquisitionUnitIdsByName": [
     {
       "type": 0,
-      "value": "Lookup acquisition unit UUIDs associated with name"
+      "value": "查找与名称关联的采购单位UUID"
     }
   ],
   "ui-gobi-settings.order.mappings.translator.lookupBillTo": [
@@ -91909,18 +92175,22 @@
   ],
   "ui-invoice.invoiceLine.linesSequence.paneSubTitle": [
     {
+      "type": 0,
+      "value": "找到"
+    },
+    {
       "type": 1,
       "value": "count"
     },
     {
       "type": 0,
-      "value": " lines found"
+      "value": "行"
     }
   ],
   "ui-invoice.invoiceLine.linesSequence.paneTitle": [
     {
       "type": 0,
-      "value": "Edit sequence of invoice lines • Vendor invoice number "
+      "value": "编辑发票行序列 • 供应商发票号"
     },
     {
       "type": 1,
@@ -91930,7 +92200,7 @@
   "ui-invoice.saveAndContinue": [
     {
       "type": 0,
-      "value": "Save & continue"
+      "value": "保存并继续"
     }
   ],
   "ui-licenses.AND": [
@@ -92909,7 +93179,7 @@
   "ui-marc-authorities.authorities.rows.select": [
     {
       "type": 0,
-      "value": "Select Authority record"
+      "value": "选择规范记录"
     }
   ],
   "ui-marc-authorities.delete.buttonLabel": [
@@ -92955,13 +93225,13 @@
   "ui-notes.settings.noteTypes.deleteEntry": [
     {
       "type": 0,
-      "value": "Delete note type"
+      "value": "删除附注类型"
     }
   ],
   "ui-notes.settings.noteTypes.termDeleted": [
     {
       "type": 0,
-      "value": "The note type "
+      "value": "附注类型"
     },
     {
       "children": [
@@ -92975,13 +93245,13 @@
     },
     {
       "type": 0,
-      "value": " was successfully "
+      "value": "已成功"
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "deleted"
+          "value": "删除"
         }
       ],
       "type": 8,
@@ -92991,13 +93261,21 @@
   "ui-notes.settings.noteTypes.termWillBeDeleted": [
     {
       "type": 0,
-      "value": "The note type "
+      "value": "附注类型"
     },
     {
       "children": [
         {
+          "type": 0,
+          "value": " "
+        },
+        {
           "type": 1,
           "value": "term"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -93005,13 +93283,13 @@
     },
     {
       "type": 0,
-      "value": " will be "
+      "value": "将被"
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "deleted."
+          "value": "删除。 "
         }
       ],
       "type": 8,
@@ -93271,7 +93549,7 @@
   "ui-plugin-find-authority.button.link": [
     {
       "type": 0,
-      "value": "Link"
+      "value": "链接"
     }
   ],
   "ui-plugin-find-authority.linkToMarcAuthorityRecord": [
@@ -93295,13 +93573,13 @@
   "ui-plugin-find-authority.search-results-list.authRefType": [
     {
       "type": 0,
-      "value": "Authorized"
+      "value": "授权的"
     }
   ],
   "ui-plugin-find-authority.search-results-list.link": [
     {
       "type": 0,
-      "value": "Link"
+      "value": "链接"
     }
   ],
   "ui-plugin-find-authority.search-results-list.paneSub": [
@@ -93410,7 +93688,7 @@
   "ui-quick-marc.permission.quick-marc-authority-records.linkUnlink": [
     {
       "type": 0,
-      "value": "quickMARC: Can Link/unlink authority records to bib records"
+      "value": "quickMARC：可以将规范记录链接/取消链接到书目记录"
     }
   ],
   "ui-quick-marc.record.fieldDeleted": [
@@ -93418,11 +93696,15 @@
       "children": [
         {
           "type": 0,
-          "value": "Field "
+          "value": "字段"
         },
         {
           "type": 1,
           "value": "tag"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -93430,19 +93712,19 @@
     },
     {
       "type": 0,
-      "value": " has been deleted from this MARC record."
+      "value": "已从此 MARC 记录中删除。"
     }
   ],
   "ui-quick-marc.record.fieldDeleted.undo": [
     {
       "type": 0,
-      "value": "Undo"
+      "value": "撤消"
     }
   ],
   "ui-quick-marc.record.fieldDeleted.undoLabel": [
     {
       "type": 0,
-      "value": "Undo delete of field "
+      "value": "撤消删除字段"
     },
     {
       "type": 1,
@@ -93452,19 +93734,19 @@
   "ui-quick-marc.record.link": [
     {
       "type": 0,
-      "value": "Link to MARC Authority record"
+      "value": "链接到 MARC 规范记录"
     }
   ],
   "ui-quick-marc.record.quickMarcEditorLabel": [
     {
       "type": 0,
-      "value": "Quick MARC editor"
+      "value": "快速 MARC 编辑器"
     }
   ],
   "ui-quick-marc.record.save.continue": [
     {
       "type": 0,
-      "value": "Save & keep editing"
+      "value": "保存并继续编辑"
     }
   ],
   "ui-quick-marc.record.save.error.dublicate": [
@@ -93482,31 +93764,31 @@
   "ui-quick-marc.record.unlink": [
     {
       "type": 0,
-      "value": "Unlink from MARC Authority record"
+      "value": "取消与 MARC 规范记录的链接"
     }
   ],
   "ui-quick-marc.record.viewMarcAuthorityRecord": [
     {
       "type": 0,
-      "value": "View MARC authority record"
+      "value": "查看MARC规范记录"
     }
   ],
   "ui-requests.appMenu.keyboardShortcuts": [
     {
       "type": 0,
-      "value": "Keyboard shortcuts"
+      "value": "键盘快捷键"
     }
   ],
   "ui-requests.navigation.app": [
     {
       "type": 0,
-      "value": "Requests app Search"
+      "value": "请求应用程序搜索"
     }
   ],
   "ui-requests.navigation.keyboardShortcuts": [
     {
       "type": 0,
-      "value": "Keyboard shortcuts"
+      "value": "键盘快捷键"
     }
   ],
   "stripes-authority-components.advancedSearch": [
@@ -93741,13 +94023,13 @@
   "stripes-authority-components.search.sourceFileId": [
     {
       "type": 0,
-      "value": "Authority source"
+      "value": "规范来源"
     }
   ],
   "stripes-authority-components.search.sourceFileId.nullOption": [
     {
       "type": 0,
-      "value": "Not specified"
+      "value": "未指定"
     }
   ],
   "stripes-authority-components.search.subjectHeadings": [
@@ -93789,7 +94071,7 @@
   "stripes-erm-components.errors.decimalValueNotInRange": [
     {
       "type": 0,
-      "value": "Please enter a number in the range "
+      "value": "请输入"
     },
     {
       "type": 1,
@@ -93797,7 +94079,7 @@
     },
     {
       "type": 0,
-      "value": " to "
+      "value": "至"
     },
     {
       "type": 1,
@@ -93805,19 +94087,19 @@
     },
     {
       "type": 0,
-      "value": " to continue"
+      "value": "范围内的数字以继续"
     }
   ],
   "stripes-erm-components.errors.invalidNumber": [
     {
       "type": 0,
-      "value": "Please enter a valid number to continue"
+      "value": "请输入有效数字以继续"
     }
   ],
   "stripes-erm-components.new": [
     {
       "type": 0,
-      "value": "New"
+      "value": "新建"
     }
   ],
   "ui-users.actionMenu.lostItems": [
@@ -93829,139 +94111,139 @@
   "ui-users.errors.expirationDate": [
     {
       "type": 0,
-      "value": "Please enter correct expiration date"
+      "value": "请输入正确的过期日期"
     }
   ],
   "ui-users.errors.extended.dateEnrolled": [
     {
       "type": 0,
-      "value": "Please enter correct enrolled date"
+      "value": "请输入正确的入学日期"
     }
   ],
   "ui-users.errors.personal.dateOfBirth": [
     {
       "type": 0,
-      "value": "Please enter correct birth date"
+      "value": "请输入正确的出生日期"
     }
   ],
   "ui-users.errors.proxyBorrowerNotFound": [
     {
       "type": 0,
-      "value": "Proxy borrower not found"
+      "value": "未找到代理借用者"
     }
   ],
   "ui-users.lostItems.list.columnName.action.itemDetails": [
     {
       "type": 0,
-      "value": "Item details"
+      "value": "单件详情"
     }
   ],
   "ui-users.lostItems.list.columnName.action.loanDetails": [
     {
       "type": 0,
-      "value": "Loan details"
+      "value": "借阅详情"
     }
   ],
   "ui-users.lostItems.list.columnName.action.patronDetails": [
     {
       "type": 0,
-      "value": "Patron details"
+      "value": "读者详情"
     }
   ],
   "ui-users.lostItems.list.columnName.actions": [
     {
       "type": 0,
-      "value": "Actions"
+      "value": "操作"
     }
   ],
   "ui-users.lostItems.list.columnName.dateOfLoss": [
     {
       "type": 0,
-      "value": "Date of loss"
+      "value": "遗失日期"
     }
   ],
   "ui-users.lostItems.list.columnName.feeFineOwner": [
     {
       "type": 0,
-      "value": "Fee/fine owner"
+      "value": "缴费处"
     }
   ],
   "ui-users.lostItems.list.columnName.feeFineType": [
     {
       "type": 0,
-      "value": "Fee/fine type"
+      "value": "费用/罚款类型"
     }
   ],
   "ui-users.lostItems.list.columnName.instance": [
     {
       "type": 0,
-      "value": "Instance"
+      "value": "实例"
     }
   ],
   "ui-users.lostItems.list.columnName.instance.subString.ISBN": [
     {
       "type": 0,
-      "value": "ISBN: "
+      "value": "ISBN："
     }
   ],
   "ui-users.lostItems.list.columnName.instance.subString.effectiveCallNumber": [
     {
       "type": 0,
-      "value": "Effective call number string: "
+      "value": "有效的索书号字符串"
     }
   ],
   "ui-users.lostItems.list.columnName.instance.subString.loanType": [
     {
       "type": 0,
-      "value": "Loan type: "
+      "value": "借阅类型："
     }
   ],
   "ui-users.lostItems.list.columnName.lossType": [
     {
       "type": 0,
-      "value": "Loss type"
+      "value": "遗失类型"
     }
   ],
   "ui-users.lostItems.list.columnName.patron": [
     {
       "type": 0,
-      "value": "Patron"
+      "value": "读者"
     }
   ],
   "ui-users.lostItems.list.columnName.permanentItemLocation": [
     {
       "type": 0,
-      "value": "Permanent item location"
+      "value": "永久单件馆藏地"
     }
   ],
   "ui-users.lostItems.list.filters": [
     {
       "type": 0,
-      "value": "Search & filters"
+      "value": "搜索和筛选"
     }
   ],
   "ui-users.lostItems.list.filters.lossType": [
     {
       "type": 0,
-      "value": "Loss type"
+      "value": "遗失类型"
     }
   ],
   "ui-users.lostItems.list.filters.lossType.agedToLost": [
     {
       "type": 0,
-      "value": "Aged to lost"
+      "value": "超期太久视为遗失"
     }
   ],
   "ui-users.lostItems.list.filters.lossType.declaredLost": [
     {
       "type": 0,
-      "value": "Declared lost"
+      "value": "已声称遗失"
     }
   ],
   "ui-users.lostItems.list.searchResults": [
     {
       "type": 0,
-      "value": "Lost items requiring actual cost"
+      "value": "需要实际费用的遗失单件"
     }
   ],
   "ui-users.lostItems.message.noAccessToActualCostPage": [
@@ -93985,62 +94267,62 @@
   "ui-users.user.unknown": [
     {
       "type": 0,
-      "value": "Unknown user"
+      "value": "未知用户"
     }
   ],
   "stripes-template-editor.toolbar.token": "令牌",
   "ui-finance.groups.item.information.fiscalYear.current": [
     {
       "type": 0,
-      "value": "Current:"
+      "value": "当前："
     }
   ],
   "ui-finance.groups.item.information.fiscalYear.previous": [
     {
       "type": 0,
-      "value": "Previous:"
+      "value": "上一个："
     }
   ],
   "ui-agreements.agreementLines.newLine": [
     {
       "type": 0,
-      "value": "New agreement line"
+      "value": "新建协议行"
     }
   ],
   "ui-agreements.agreementLines.viewInSearch": [
     {
       "type": 0,
-      "value": "View in agreement lines search"
+      "value": "在协议行搜索中查看"
     }
   ],
   "ui-licenses.license.linkLicense": [
     {
       "type": 0,
-      "value": "Link license"
+      "value": "链接许可证"
     }
   ],
   "ui-licenses.license.linkLicenseToStart": [
     {
       "type": 0,
-      "value": "Link a license to get started"
+      "value": "链接许可证以开始"
     }
   ],
   "ui-licenses.license.noLicenseLinked": [
     {
       "type": 0,
-      "value": "No license linked"
+      "value": "无许可证链接"
     }
   ],
   "ui-licenses.license.replaceLicense": [
     {
       "type": 0,
-      "value": "Replace license"
+      "value": "更换许可证"
     }
   ],
   "ui-licenses.license.replaceLicenseSpecific": [
     {
       "type": 0,
-      "value": "Replace license "
+      "value": "替换许可证"
     },
     {
       "type": 1,
@@ -94050,13 +94332,13 @@
   "ui-gobi-settings.mappingConfig.edit.footer.clearAll": [
     {
       "type": 0,
-      "value": "Clear all field mappings"
+      "value": "清除所有字段映射"
     }
   ],
   "ui-users.errorModal.currentUserServicePointAbsentee.confirmButtonText": [
     {
       "type": 0,
-      "value": "Back"
+      "value": "返回"
     }
   ],
   "ui-users.errorModal.currentUserServicePointAbsentee.label": [
@@ -94064,7 +94346,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Access denied"
+          "value": "访问被拒绝"
         }
       ],
       "type": 8,
@@ -94074,13 +94356,13 @@
   "ui-users.errorModal.currentUserServicePointAbsentee.message": [
     {
       "type": 0,
-      "value": "You must select a service point to create and view "
+      "value": "必须选择一个服务点来创建和查看"
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "patron fees/fines"
+          "value": "读者费用/罚款"
         }
       ],
       "type": 8,
@@ -94088,13 +94370,13 @@
     },
     {
       "type": 0,
-      "value": ". Please add one or more service points to your user record in the "
+      "value": " 。请在"
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Users"
+          "value": "用户"
         }
       ],
       "type": 8,
@@ -94102,7 +94384,7 @@
     },
     {
       "type": 0,
-      "value": " app. Contact an administrator if you do not have the ability to add service points to your record."
+      "value": "应用中为用户记录添加一个或多个服务点。如果无法将服务点添加到记录中，请联系管理员。"
     }
   ],
   "ui-eholdings.exportPackageResources.subtitle.package": [
@@ -94184,19 +94466,5807 @@
   "ui-finance.fiscalYear.actions.save.error.invalidFiscalYearCode": [
     {
       "type": 0,
-      "value": "Fiscal year Code format must be an Alpha followed by a four digit numeric. Eg. ExampleFY2020"
+      "value": "财务年度代码格式必须为字母后跟四位数字，例如FY2020"
     }
   ],
   "ui-remote-storage.confirmationModal.configuration.create.message": [
     {
       "type": 0,
-      "value": "Are you sure you want to create the remote storage configuration?"
+      "value": "确定要创建远程存储配置吗？"
     }
   ],
   "ui-remote-storage.confirmationModal.configuration.edit.message": [
     {
       "type": 0,
-      "value": "Are you sure you want to change the remote storage configuration?"
+      "value": "确定要更改远程存储配置吗？"
+    }
+  ],
+  "stripes-components.Timepicker.formEnd": "表格结束",
+  "stripes-components.Timepicker.formStart": "表格开头",
+  "stripes-smart-components.customFields.option.deleteLabel": [
+    {
+      "type": 0,
+      "value": "删除"
+    }
+  ],
+  "ui-agreements.agreements.exportingAgreement": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "导出协议： "
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " JSON 文件将在完成后下载到您的浏览器。如果协议包含大量标题，可能需要一些时间。"
+    }
+  ],
+  "ui-agreements.packages": [
+    {
+      "type": 0,
+      "value": "资源包"
+    }
+  ],
+  "ui-agreements.packages.source": [
+    {
+      "type": 0,
+      "value": "来源（外部数据源）"
+    }
+  ],
+  "ui-agreements.permission.packages.view": [
+    {
+      "type": 0,
+      "value": "协议：搜索和查看资源包"
+    }
+  ],
+  "ui-bulk-edit.columns.HOLDINGS_RECORD.Acquisition format": [
+    {
+      "type": 0,
+      "value": "Acquisition format"
+    }
+  ],
+  "ui-bulk-edit.columns.HOLDINGS_RECORD.Acquisition method": [
+    {
+      "type": 0,
+      "value": "Acquisition method"
+    }
+  ],
+  "ui-bulk-edit.columns.HOLDINGS_RECORD.Administrative notes": [
+    {
+      "type": 0,
+      "value": "Administrative notes"
+    }
+  ],
+  "ui-bulk-edit.columns.HOLDINGS_RECORD.Call number": [
+    {
+      "type": 0,
+      "value": "Call number"
+    }
+  ],
+  "ui-bulk-edit.columns.HOLDINGS_RECORD.Call number prefix": [
+    {
+      "type": 0,
+      "value": "Call number prefix"
+    }
+  ],
+  "ui-bulk-edit.columns.HOLDINGS_RECORD.Call number suffix": [
+    {
+      "type": 0,
+      "value": "Call number suffix"
+    }
+  ],
+  "ui-bulk-edit.columns.HOLDINGS_RECORD.Call number type": [
+    {
+      "type": 0,
+      "value": "Call number type"
+    }
+  ],
+  "ui-bulk-edit.columns.HOLDINGS_RECORD.Copy number": [
+    {
+      "type": 0,
+      "value": "Copy number"
+    }
+  ],
+  "ui-bulk-edit.columns.HOLDINGS_RECORD.Digitization policy": [
+    {
+      "type": 0,
+      "value": "Digitization policy"
+    }
+  ],
+  "ui-bulk-edit.columns.HOLDINGS_RECORD.Discovery suppress": [
+    {
+      "type": 0,
+      "value": "Suppressed from discovery"
+    }
+  ],
+  "ui-bulk-edit.columns.HOLDINGS_RECORD.Effective location": [
+    {
+      "type": 0,
+      "value": "Effective location"
+    }
+  ],
+  "ui-bulk-edit.columns.HOLDINGS_RECORD.Electronic access": [
+    {
+      "type": 0,
+      "value": "Electronic access"
+    }
+  ],
+  "ui-bulk-edit.columns.HOLDINGS_RECORD.Former ids": [
+    {
+      "type": 0,
+      "value": "Former ids"
+    }
+  ],
+  "ui-bulk-edit.columns.HOLDINGS_RECORD.Holdings record id": [
+    {
+      "type": 0,
+      "value": "Holdings ID"
+    }
+  ],
+  "ui-bulk-edit.columns.HOLDINGS_RECORD.Holdings statements": [
+    {
+      "type": 0,
+      "value": "Holdings statements"
+    }
+  ],
+  "ui-bulk-edit.columns.HOLDINGS_RECORD.Holdings statements for indexes": [
+    {
+      "type": 0,
+      "value": "Holdings statements for indexes"
+    }
+  ],
+  "ui-bulk-edit.columns.HOLDINGS_RECORD.Holdings statements for supplements": [
+    {
+      "type": 0,
+      "value": "Holdings statements for supplements"
+    }
+  ],
+  "ui-bulk-edit.columns.HOLDINGS_RECORD.Holdings type": [
+    {
+      "type": 0,
+      "value": "Holdings type"
+    }
+  ],
+  "ui-bulk-edit.columns.HOLDINGS_RECORD.Hrid": [
+    {
+      "type": 0,
+      "value": "Holdings HRID"
+    }
+  ],
+  "ui-bulk-edit.columns.HOLDINGS_RECORD.Ill policy": [
+    {
+      "type": 0,
+      "value": "Ill policy"
+    }
+  ],
+  "ui-bulk-edit.columns.HOLDINGS_RECORD.Instance": [
+    {
+      "type": 0,
+      "value": "Instance"
+    }
+  ],
+  "ui-bulk-edit.columns.HOLDINGS_RECORD.Instance HRID": [
+    {
+      "type": 0,
+      "value": "Instance HRID"
+    }
+  ],
+  "ui-bulk-edit.columns.HOLDINGS_RECORD.Item barcode": [
+    {
+      "type": 0,
+      "value": "Item barcode"
+    }
+  ],
+  "ui-bulk-edit.columns.HOLDINGS_RECORD.Notes": [
+    {
+      "type": 0,
+      "value": "Notes"
+    }
+  ],
+  "ui-bulk-edit.columns.HOLDINGS_RECORD.Number of items": [
+    {
+      "type": 0,
+      "value": "Number of items"
+    }
+  ],
+  "ui-bulk-edit.columns.HOLDINGS_RECORD.Permanent location": [
+    {
+      "type": 0,
+      "value": "Permanent location"
+    }
+  ],
+  "ui-bulk-edit.columns.HOLDINGS_RECORD.Receipt status": [
+    {
+      "type": 0,
+      "value": "Receipt status"
+    }
+  ],
+  "ui-bulk-edit.columns.HOLDINGS_RECORD.Receiving history": [
+    {
+      "type": 0,
+      "value": "Receiving history"
+    }
+  ],
+  "ui-bulk-edit.columns.HOLDINGS_RECORD.Retention policy": [
+    {
+      "type": 0,
+      "value": "Retention policy"
+    }
+  ],
+  "ui-bulk-edit.columns.HOLDINGS_RECORD.Shelving title": [
+    {
+      "type": 0,
+      "value": "Shelving title"
+    }
+  ],
+  "ui-bulk-edit.columns.HOLDINGS_RECORD.Source": [
+    {
+      "type": 0,
+      "value": "Source"
+    }
+  ],
+  "ui-bulk-edit.columns.HOLDINGS_RECORD.Statistical codes": [
+    {
+      "type": 0,
+      "value": "Statistical codes"
+    }
+  ],
+  "ui-bulk-edit.columns.HOLDINGS_RECORD.Tags": [
+    {
+      "type": 0,
+      "value": "Tags"
+    }
+  ],
+  "ui-bulk-edit.columns.HOLDINGS_RECORD.Temporary location": [
+    {
+      "type": 0,
+      "value": "Temporary location"
+    }
+  ],
+  "ui-bulk-edit.columns.HOLDINGS_RECORD.Version": [
+    {
+      "type": 0,
+      "value": "Version"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Accession Number": [
+    {
+      "type": 0,
+      "value": "Accession number"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Administrative Notes": [
+    {
+      "type": 0,
+      "value": "Administrative notes"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Barcode": [
+    {
+      "type": 0,
+      "value": "Barcode"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Bound With Titles": [
+    {
+      "type": 0,
+      "value": "Bound with titles"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Call Number": [
+    {
+      "type": 0,
+      "value": "Call number"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Chronology": [
+    {
+      "type": 0,
+      "value": "Chronology"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Circulation Notes": [
+    {
+      "type": 0,
+      "value": "Circulation Notes"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Contributor Names": [
+    {
+      "type": 0,
+      "value": "Contributor names"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Copy Number": [
+    {
+      "type": 0,
+      "value": "Copy number"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Description Of Pieces": [
+    {
+      "type": 0,
+      "value": "Description of pieces"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Discovery Suppress": [
+    {
+      "type": 0,
+      "value": "Suppressed from discovery"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Effective Call Number Components": [
+    {
+      "type": 0,
+      "value": "Effective call number"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Effective Location": [
+    {
+      "type": 0,
+      "value": "Item effective location"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Effective Shelving Order": [
+    {
+      "type": 0,
+      "value": "Shelving order"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Electronic Access": [
+    {
+      "type": 0,
+      "value": "Electronic access"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Enumeration": [
+    {
+      "type": 0,
+      "value": "Enumeration"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Former Ids": [
+    {
+      "type": 0,
+      "value": "Former identifiers"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Holdings Record Id": [
+    {
+      "type": 0,
+      "value": "Holdings record ID"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.In Transit Destination Service Point": [
+    {
+      "type": 0,
+      "value": "In transit destination service point"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Is Bound With": [
+    {
+      "type": 0,
+      "value": "Is bound with"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Item Damaged Status": [
+    {
+      "type": 0,
+      "value": "Item damaged status"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Item Damaged Status Date": [
+    {
+      "type": 0,
+      "value": "Item damaged status date"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Item HRID": [
+    {
+      "type": 0,
+      "value": "Item HRID"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Item Identifier": [
+    {
+      "type": 0,
+      "value": "Item identifier"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Item Level Call Number": [
+    {
+      "type": 0,
+      "value": "Item level call number"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Item Level Call Number Prefix": [
+    {
+      "type": 0,
+      "value": "Item level call number prefix"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Item Level Call Number Suffix": [
+    {
+      "type": 0,
+      "value": "Item level call number suffix"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Item Level Call Number Type": [
+    {
+      "type": 0,
+      "value": "Item level call number type"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Item id": [
+    {
+      "type": 0,
+      "value": "Item ID"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Last CheckIn": [
+    {
+      "type": 0,
+      "value": "Last check in"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Material Type": [
+    {
+      "type": 0,
+      "value": "Material type"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Missing Peaces": [
+    {
+      "type": 0,
+      "value": "Missing pieces"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Missing Pieces Date": [
+    {
+      "type": 0,
+      "value": "Missing pieces date"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Notes": [
+    {
+      "type": 0,
+      "value": "Notes"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Number Of Missing Pieces": [
+    {
+      "type": 0,
+      "value": "Number of missing pieces"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Number Of Pieces": [
+    {
+      "type": 0,
+      "value": "Number of pieces"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Permanent Loan Type": [
+    {
+      "type": 0,
+      "value": "Permanent loan type"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Permanent Location": [
+    {
+      "type": 0,
+      "value": "Item permanent location"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Purchase Order Line Identifier": [
+    {
+      "type": 0,
+      "value": "Purchase order line identifier"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Statistical Codes": [
+    {
+      "type": 0,
+      "value": "Statistical codes"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Status": [
+    {
+      "type": 0,
+      "value": "Status"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Tags": [
+    {
+      "type": 0,
+      "value": "Tags"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Temporary Loan Type": [
+    {
+      "type": 0,
+      "value": "Temporary loan type"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Temporary Location": [
+    {
+      "type": 0,
+      "value": "Item temporary location"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Title": [
+    {
+      "type": 0,
+      "value": "Title"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Version": [
+    {
+      "type": 0,
+      "value": "Version"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Volume": [
+    {
+      "type": 0,
+      "value": "Volume"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Year Caption": [
+    {
+      "type": 0,
+      "value": "Year, caption"
+    }
+  ],
+  "ui-bulk-edit.columns.USER.Active": [
+    {
+      "type": 0,
+      "value": "Active"
+    }
+  ],
+  "ui-bulk-edit.columns.USER.Addresses": [
+    {
+      "type": 0,
+      "value": "Addresses"
+    }
+  ],
+  "ui-bulk-edit.columns.USER.Barcode": [
+    {
+      "type": 0,
+      "value": "Barcode"
+    }
+  ],
+  "ui-bulk-edit.columns.USER.Created cate": [
+    {
+      "type": 0,
+      "value": "Record created"
+    }
+  ],
+  "ui-bulk-edit.columns.USER.Custom fields": [
+    {
+      "type": 0,
+      "value": "Custom fields"
+    }
+  ],
+  "ui-bulk-edit.columns.USER.Date Of Birth": [
+    {
+      "type": 0,
+      "value": "Birth date"
+    }
+  ],
+  "ui-bulk-edit.columns.USER.Departments": [
+    {
+      "type": 0,
+      "value": "Departments"
+    }
+  ],
+  "ui-bulk-edit.columns.USER.Email": [
+    {
+      "type": 0,
+      "value": "Email"
+    }
+  ],
+  "ui-bulk-edit.columns.USER.Enrollment date": [
+    {
+      "type": 0,
+      "value": "Date enrolled"
+    }
+  ],
+  "ui-bulk-edit.columns.USER.Expiration date": [
+    {
+      "type": 0,
+      "value": "Expiration date"
+    }
+  ],
+  "ui-bulk-edit.columns.USER.External system id": [
+    {
+      "type": 0,
+      "value": "External System ID"
+    }
+  ],
+  "ui-bulk-edit.columns.USER.First name": [
+    {
+      "type": 0,
+      "value": "First name"
+    }
+  ],
+  "ui-bulk-edit.columns.USER.Last name": [
+    {
+      "type": 0,
+      "value": "Last name"
+    }
+  ],
+  "ui-bulk-edit.columns.USER.Middle name": [
+    {
+      "type": 0,
+      "value": "Middle name"
+    }
+  ],
+  "ui-bulk-edit.columns.USER.Mobile phone": [
+    {
+      "type": 0,
+      "value": "Mobile phone"
+    }
+  ],
+  "ui-bulk-edit.columns.USER.Patron group": [
+    {
+      "type": 0,
+      "value": "Patron group"
+    }
+  ],
+  "ui-bulk-edit.columns.USER.Phone": [
+    {
+      "type": 0,
+      "value": "Phone"
+    }
+  ],
+  "ui-bulk-edit.columns.USER.Preferred contact type id": [
+    {
+      "type": 0,
+      "value": "Preferred contact type id"
+    }
+  ],
+  "ui-bulk-edit.columns.USER.Preferred first name": [
+    {
+      "type": 0,
+      "value": "Preferred first name"
+    }
+  ],
+  "ui-bulk-edit.columns.USER.Proxy for": [
+    {
+      "type": 0,
+      "value": "Proxy for"
+    }
+  ],
+  "ui-bulk-edit.columns.USER.Tags": [
+    {
+      "type": 0,
+      "value": "Tags"
+    }
+  ],
+  "ui-bulk-edit.columns.USER.Type": [
+    {
+      "type": 0,
+      "value": "Type"
+    }
+  ],
+  "ui-bulk-edit.columns.USER.Updated date": [
+    {
+      "type": 0,
+      "value": "Record updated"
+    }
+  ],
+  "ui-bulk-edit.columns.USER.User id": [
+    {
+      "type": 0,
+      "value": "User id"
+    }
+  ],
+  "ui-bulk-edit.columns.USER.User name": [
+    {
+      "type": 0,
+      "value": "Username"
+    }
+  ],
+  "ui-bulk-edit.columns.logs.actions": [
+    {
+      "type": 0,
+      "value": "操作"
+    }
+  ],
+  "ui-bulk-edit.columns.logs.editing": [
+    {
+      "type": 0,
+      "value": "编辑"
+    }
+  ],
+  "ui-bulk-edit.columns.logs.endTime": [
+    {
+      "type": 0,
+      "value": "Ended running"
+    }
+  ],
+  "ui-bulk-edit.columns.logs.entityType": [
+    {
+      "type": 0,
+      "value": "Record type"
+    }
+  ],
+  "ui-bulk-edit.columns.logs.id": [
+    {
+      "type": 0,
+      "value": "ID"
+    }
+  ],
+  "ui-bulk-edit.columns.logs.operationType": [
+    {
+      "type": 0,
+      "value": "Bulk operation type"
+    }
+  ],
+  "ui-bulk-edit.columns.logs.processedNumOfRecords": [
+    {
+      "type": 0,
+      "value": "Processed"
+    }
+  ],
+  "ui-bulk-edit.columns.logs.startTime": [
+    {
+      "type": 0,
+      "value": "Started running"
+    }
+  ],
+  "ui-bulk-edit.columns.logs.status": [
+    {
+      "type": 0,
+      "value": "状态"
+    }
+  ],
+  "ui-bulk-edit.columns.logs.totalNumOfRecords": [
+    {
+      "type": 0,
+      "value": "# of records"
+    }
+  ],
+  "ui-bulk-edit.columns.logs.userId": [
+    {
+      "type": 0,
+      "value": "Run by"
+    }
+  ],
+  "ui-bulk-edit.list.actions.download": [
+    {
+      "type": 0,
+      "value": "下载"
+    }
+  ],
+  "ui-bulk-edit.list.errors.infoProcessed": [
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "fileName"
+        },
+        {
+          "type": 0,
+          "value": ": "
+        },
+        {
+          "type": 1,
+          "value": "entries"
+        },
+        {
+          "type": 0,
+          "value": " entries * "
+        },
+        {
+          "type": 1,
+          "value": "matched"
+        },
+        {
+          "type": 0,
+          "value": " records changed * "
+        },
+        {
+          "type": 1,
+          "value": "errors"
+        },
+        {
+          "type": 0,
+          "value": " errors"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
+  "ui-bulk-edit.list.filters.logs": [
+    {
+      "type": 0,
+      "value": "日志"
+    }
+  ],
+  "ui-bulk-edit.list.preview.table.status.false": [
+    {
+      "type": 0,
+      "value": "Inactive"
+    }
+  ],
+  "ui-bulk-edit.list.preview.table.status.true": [
+    {
+      "type": 0,
+      "value": "Active"
+    }
+  ],
+  "ui-bulk-edit.list.result.emptyMessage.logs": [
+    {
+      "type": 0,
+      "value": "选择一个筛选来显示结果。"
+    }
+  ],
+  "ui-bulk-edit.logs.actions.linkToCommittedRecordsCsvFile": [
+    {
+      "type": 0,
+      "value": "File with updated records"
+    }
+  ],
+  "ui-bulk-edit.logs.actions.linkToCommittedRecordsErrorsCsvFile": [
+    {
+      "type": 0,
+      "value": "File with errors encountered when committing the changes"
+    }
+  ],
+  "ui-bulk-edit.logs.actions.linkToMatchedRecordsCsvFile": [
+    {
+      "type": 0,
+      "value": "File with the matching records"
+    }
+  ],
+  "ui-bulk-edit.logs.actions.linkToMatchedRecordsErrorsCsvFile": [
+    {
+      "type": 0,
+      "value": "File with errors encountered during the record matching"
+    }
+  ],
+  "ui-bulk-edit.logs.actions.linkToModifiedRecordsCsvFile": [
+    {
+      "type": 0,
+      "value": "File with the preview of proposed changes"
+    }
+  ],
+  "ui-bulk-edit.logs.actions.linkToTriggeringCsvFile": [
+    {
+      "type": 0,
+      "value": "File that was used to trigger the bulk edit"
+    }
+  ],
+  "ui-bulk-edit.logs.approach.IN_APP": [
+    {
+      "type": 0,
+      "value": "In app"
+    }
+  ],
+  "ui-bulk-edit.logs.approach.MANUAL": [
+    {
+      "type": 0,
+      "value": "CSV"
+    }
+  ],
+  "ui-bulk-edit.logs.approach.QUERY": [
+    {
+      "type": 0,
+      "value": "Query"
+    }
+  ],
+  "ui-bulk-edit.logs.entityType.HOLDINGS_RECORD": [
+    {
+      "type": 0,
+      "value": "Inventory - holdings"
+    }
+  ],
+  "ui-bulk-edit.logs.entityType.ITEM": [
+    {
+      "type": 0,
+      "value": "Inventory - items"
+    }
+  ],
+  "ui-bulk-edit.logs.entityType.USER": [
+    {
+      "type": 0,
+      "value": "Users"
+    }
+  ],
+  "ui-bulk-edit.logs.filter.endDate": [
+    {
+      "type": 0,
+      "value": "终止日期"
+    }
+  ],
+  "ui-bulk-edit.logs.filter.option.delete": [
+    {
+      "type": 0,
+      "value": "删除"
+    }
+  ],
+  "ui-bulk-edit.logs.filter.option.edit": [
+    {
+      "type": 0,
+      "value": "编辑"
+    }
+  ],
+  "ui-bulk-edit.logs.filter.startDate": [
+    {
+      "type": 0,
+      "value": "起始日期"
+    }
+  ],
+  "ui-bulk-edit.logs.filter.title.capability": [
+    {
+      "type": 0,
+      "value": "记录类型"
+    }
+  ],
+  "ui-bulk-edit.logs.filter.title.status": [
+    {
+      "type": 0,
+      "value": "状态"
+    }
+  ],
+  "ui-bulk-edit.logs.filter.title.types": [
+    {
+      "type": 0,
+      "value": "批量操作类型"
+    }
+  ],
+  "ui-bulk-edit.logs.status.APPLY_CHANGES": [
+    {
+      "type": 0,
+      "value": "Apply changes"
+    }
+  ],
+  "ui-bulk-edit.logs.status.COMPLETED": [
+    {
+      "type": 0,
+      "value": "Completed"
+    }
+  ],
+  "ui-bulk-edit.logs.status.COMPLETED_WITH_ERRORS": [
+    {
+      "type": 0,
+      "value": "Completed with errors"
+    }
+  ],
+  "ui-bulk-edit.logs.status.DATA_MODIFICATION": [
+    {
+      "type": 0,
+      "value": "Data modification"
+    }
+  ],
+  "ui-bulk-edit.logs.status.FAILED": [
+    {
+      "type": 0,
+      "value": "Failed"
+    }
+  ],
+  "ui-bulk-edit.logs.status.NEW": [
+    {
+      "type": 0,
+      "value": "New"
+    }
+  ],
+  "ui-bulk-edit.logs.status.RETRIEVING_RECORDS": [
+    {
+      "type": 0,
+      "value": "Retrieving records"
+    }
+  ],
+  "ui-bulk-edit.logs.status.REVIEW_CHANGES": [
+    {
+      "type": 0,
+      "value": "Reviewing changes"
+    }
+  ],
+  "ui-bulk-edit.logs.status.SAVING_RECORDS_LOCALLY": [
+    {
+      "type": 0,
+      "value": "Saving records"
+    }
+  ],
+  "ui-bulk-edit.meta.logs.title": [
+    {
+      "type": 0,
+      "value": "批量编辑日志"
+    }
+  ],
+  "ui-bulk-edit.permission.app-delete": [
+    {
+      "type": 0,
+      "value": "批量编辑：应用内 - 删除"
+    }
+  ],
+  "ui-bulk-edit.permission.app-edit": [
+    {
+      "type": 0,
+      "value": "批量编辑：应用内 - 编辑"
+    }
+  ],
+  "ui-bulk-edit.permission.app-edit.users": [
+    {
+      "type": 0,
+      "value": "批量编辑：应用内 - 更新用户记录"
+    }
+  ],
+  "ui-bulk-edit.permission.app-view": [
+    {
+      "type": 0,
+      "value": "批量编辑：应用内 - 查看"
+    }
+  ],
+  "ui-bulk-edit.permission.delete": [
+    {
+      "type": 0,
+      "value": "批量编辑：（CSV）删除"
+    }
+  ],
+  "ui-bulk-edit.permission.edit": [
+    {
+      "type": 0,
+      "value": "批量编辑：（CSV）编辑"
+    }
+  ],
+  "ui-bulk-edit.permission.logs.view": [
+    {
+      "type": 0,
+      "value": "批量编辑 - 可以查看日志"
+    }
+  ],
+  "ui-bulk-edit.permission.module.bulk-edit.enabled": [
+    {
+      "type": 0,
+      "value": "UI：批量编辑模块已启用"
+    }
+  ],
+  "ui-bulk-edit.permission.view": [
+    {
+      "type": 0,
+      "value": "批量编辑：（CSV）查看"
+    }
+  ],
+  "ui-bulk-edit.resetFilters": [
+    {
+      "type": 0,
+      "value": "全部重置"
+    }
+  ],
+  "ui-bulk-edit.retrievedDataList.title": [
+    {
+      "type": 0,
+      "value": "找到"
+    },
+    {
+      "type": 1,
+      "value": "matched"
+    },
+    {
+      "type": 0,
+      "value": "个匹配的"
+    },
+    {
+      "type": 1,
+      "value": "capability"
+    },
+    {
+      "type": 0,
+      "value": "记录。"
+    }
+  ],
+  "ui-calendar.infoPane.accordion.infoLabel": [
+    {
+      "type": 0,
+      "value": "Calendar information"
+    }
+  ],
+  "ui-checkout.details": [
+    {
+      "type": 0,
+      "value": "详情"
+    }
+  ],
+  "ui-checkout.due.date.change": [
+    {
+      "type": 0,
+      "value": "系统计算的到期日调整"
+    }
+  ],
+  "ui-circulation.permission.settings.edit-staff-slips": [
+    {
+      "type": 0,
+      "value": "设置（流通）：可以编辑员工单"
+    }
+  ],
+  "ui-circulation.settings.validate.subject": [
+    {
+      "type": 0,
+      "value": "Should not begin with a space"
+    }
+  ],
+  "ui-data-export.fileName": [
+    {
+      "type": 0,
+      "value": "文件名"
+    }
+  ],
+  "ui-data-export.jobExecutionHrId": [
+    {
+      "type": 0,
+      "value": "ID"
+    }
+  ],
+  "ui-data-export.keyword": [
+    {
+      "type": 0,
+      "value": "关键词（ID，文件名）"
+    }
+  ],
+  "ui-data-export.placeholder.fileName": [
+    {
+      "type": 0,
+      "value": "搜索文件名"
+    }
+  ],
+  "ui-data-export.placeholder.jobExecutionHrId": [
+    {
+      "type": 0,
+      "value": "搜索ID"
+    }
+  ],
+  "ui-data-export.resetFilters": [
+    {
+      "type": 0,
+      "value": "全部重置"
+    }
+  ],
+  "ui-data-import.logViewer.order": [
+    {
+      "type": 0,
+      "value": "Order"
+    }
+  ],
+  "ui-data-import.logViewer.orderLine": [
+    {
+      "type": 0,
+      "value": "Order line"
+    }
+  ],
+  "ui-data-import.selectAction.create": [
+    {
+      "type": 0,
+      "value": "创建（全部记录类型，除了MARC规范或MARC馆藏）"
+    }
+  ],
+  "ui-data-import.selectAction.modify": [
+    {
+      "type": 0,
+      "value": "修改（仅限MARC书目记录类型）"
+    }
+  ],
+  "ui-data-import.selectAction.update": [
+    {
+      "type": 0,
+      "value": "更新（除订单、发票或 MARC 馆藏之外的所有记录类型）"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.item.requiredWhenCreatingHoldings.info": [
+    {
+      "type": 0,
+      "value": "创建馆藏时需要"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.item.requiredWhenCreatingItem.info": [
+    {
+      "type": 0,
+      "value": "创建单件时需要"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.costDetails.additionalCost": [
+    {
+      "type": 0,
+      "value": "附加费用"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.costDetails.currency": [
+    {
+      "type": 0,
+      "value": "货币"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.costDetails.discount": [
+    {
+      "type": 0,
+      "value": "折扣"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.costDetails.electronicUnitPrice": [
+    {
+      "type": 0,
+      "value": "电子单价"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.costDetails.exchangeRate": [
+    {
+      "type": 0,
+      "value": "设定汇率"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.costDetails.field.additionalCost": [
+    {
+      "type": 0,
+      "value": "附加费用"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.costDetails.field.currency": [
+    {
+      "type": 0,
+      "value": "货币"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.costDetails.field.discount": [
+    {
+      "type": 0,
+      "value": "折扣"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.costDetails.field.electronicUnitPrice": [
+    {
+      "type": 0,
+      "value": "电子单价"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.costDetails.field.electronicUnitPrice.info": [
+    {
+      "type": 0,
+      "value": "当订单格式为电子资源或实体/电子组合时必备"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.costDetails.field.physicalUnitPrice": [
+    {
+      "type": 0,
+      "value": "实体单价"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.costDetails.field.physicalUnitPrice.info": [
+    {
+      "type": 0,
+      "value": "当订单格式为实体资源、实体/电子组合或其他时必备"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.costDetails.field.quantityElectronic": [
+    {
+      "type": 0,
+      "value": "电子数量"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.costDetails.field.quantityPhysical": [
+    {
+      "type": 0,
+      "value": "实体数量"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.costDetails.field.setExchangeRate": [
+    {
+      "type": 0,
+      "value": "设定汇率"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.costDetails.field.type": [
+    {
+      "type": 0,
+      "value": "类型"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.costDetails.field.useSetExchangeRate": [
+    {
+      "type": 0,
+      "value": "使用设定汇率"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.costDetails.listUnitPrice": [
+    {
+      "type": 0,
+      "value": "实体单价"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.costDetails.quantityElectronic": [
+    {
+      "type": 0,
+      "value": "电子数量"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.costDetails.quantityPhysical": [
+    {
+      "type": 0,
+      "value": "实体数量"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.costDetails.section": [
+    {
+      "type": 0,
+      "value": "费用详情"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.costDetails.useExchangeRate": [
+    {
+      "type": 0,
+      "value": "使用设定汇率"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.eResourcesDetails.accessProvider": [
+    {
+      "type": 0,
+      "value": "访问提供者"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.eResourcesDetails.activated": [
+    {
+      "type": 0,
+      "value": "激活状态"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.eResourcesDetails.activationDue": [
+    {
+      "type": 0,
+      "value": "激活到期"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.eResourcesDetails.createInventory": [
+    {
+      "type": 0,
+      "value": "创建典藏"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.eResourcesDetails.expectedActivation": [
+    {
+      "type": 0,
+      "value": "等候激活"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.eResourcesDetails.field.accessProvider": [
+    {
+      "type": 0,
+      "value": "访问提供者"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.eResourcesDetails.field.activationDue": [
+    {
+      "type": 0,
+      "value": "激活到期"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.eResourcesDetails.field.activationStatus": [
+    {
+      "type": 0,
+      "value": "激活状态"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.eResourcesDetails.field.createInventory": [
+    {
+      "type": 0,
+      "value": "创建典藏"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.eResourcesDetails.field.expectedActivation": [
+    {
+      "type": 0,
+      "value": "等候激活"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.eResourcesDetails.field.materialType": [
+    {
+      "type": 0,
+      "value": "资料类型"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.eResourcesDetails.field.materialType.info": [
+    {
+      "type": 0,
+      "value": "当订单格式为电子资源或实体/电子组合时必备；以及创建典藏为实例、持馆藏、单件时必备。"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.eResourcesDetails.field.trial": [
+    {
+      "type": 0,
+      "value": "试用"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.eResourcesDetails.field.url": [
+    {
+      "type": 0,
+      "value": "URL"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.eResourcesDetails.field.userLimit": [
+    {
+      "type": 0,
+      "value": "用户限制"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.eResourcesDetails.materialType": [
+    {
+      "type": 0,
+      "value": "资料类型"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.eResourcesDetails.resourceUrl": [
+    {
+      "type": 0,
+      "value": "URL"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.eResourcesDetails.section": [
+    {
+      "type": 0,
+      "value": "电子资源详情"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.eResourcesDetails.trial": [
+    {
+      "type": 0,
+      "value": "试用"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.eResourcesDetails.userLimit": [
+    {
+      "type": 0,
+      "value": "用户限制"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.fundDistribution.field.expenseClass": [
+    {
+      "type": 0,
+      "value": "支出类别"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.fundDistribution.field.expenseClass.info": [
+    {
+      "type": 0,
+      "value": "当已分配经费有一个或多个费用类别时必备"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.fundDistribution.field.fundDistribution.addLabel": [
+    {
+      "type": 0,
+      "value": "添加经费分配"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.fundDistribution.field.fundId": [
+    {
+      "type": 0,
+      "value": "经费ID"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.fundDistribution.field.fundId.info": [
+    {
+      "type": 0,
+      "value": "当分配经费分发时必备"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.fundDistribution.field.type": [
+    {
+      "type": 0,
+      "value": "类型"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.fundDistribution.field.value": [
+    {
+      "type": 0,
+      "value": "值"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.fundDistribution.section": [
+    {
+      "type": 0,
+      "value": "经费分配"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.fundDistributions.expenseClassId": [
+    {
+      "type": 0,
+      "value": "支出类别"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.fundDistributions.fundId": [
+    {
+      "type": 0,
+      "value": "经费ID"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.fundDistributions.section": [
+    {
+      "type": 0,
+      "value": "经费分配"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.fundDistributions.value": [
+    {
+      "type": 0,
+      "value": "值"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.itemDetails.field.contributor": [
+    {
+      "type": 0,
+      "value": "贡献者"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.itemDetails.field.contributor.addLabel": [
+    {
+      "type": 0,
+      "value": "添加贡献者"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.itemDetails.field.contributorType": [
+    {
+      "type": 0,
+      "value": "贡献者类型"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.itemDetails.field.edition": [
+    {
+      "type": 0,
+      "value": "版本"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.itemDetails.field.internalNote": [
+    {
+      "type": 0,
+      "value": "内部附注"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.itemDetails.field.mustAcknowledgeReceivingNote": [
+    {
+      "type": 0,
+      "value": "必须确认收到附注"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.itemDetails.field.productId": [
+    {
+      "type": 0,
+      "value": "产品ID"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.itemDetails.field.productIdType": [
+    {
+      "type": 0,
+      "value": "产品ID类型"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.itemDetails.field.productIdentifiers.addLabel": [
+    {
+      "type": 0,
+      "value": "添加产品ID和产品ID类型"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.itemDetails.field.publicationDate": [
+    {
+      "type": 0,
+      "value": "出版日期"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.itemDetails.field.publisher": [
+    {
+      "type": 0,
+      "value": "出版者"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.itemDetails.field.qualifier": [
+    {
+      "type": 0,
+      "value": "限定词"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.itemDetails.field.receivingNote": [
+    {
+      "type": 0,
+      "value": "接收附注"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.itemDetails.field.subscriptionFrom": [
+    {
+      "type": 0,
+      "value": "订阅自"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.itemDetails.field.subscriptionInterval": [
+    {
+      "type": 0,
+      "value": "订阅间隔"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.itemDetails.field.subscriptionTo": [
+    {
+      "type": 0,
+      "value": "订阅到"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.itemDetails.field.title": [
+    {
+      "type": 0,
+      "value": "题名"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.itemDetails.section": [
+    {
+      "type": 0,
+      "value": "单件详情"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.location.field.locations.addLabel": [
+    {
+      "type": 0,
+      "value": "添加馆藏地"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.location.field.name": [
+    {
+      "type": 0,
+      "value": "名称（代码）"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.location.field.name.info": [
+    {
+      "type": 0,
+      "value": "当创建典藏为实例、馆藏、单件或实例、馆藏时必备"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.location.field.quantityElectronic": [
+    {
+      "type": 0,
+      "value": "电子数量"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.location.field.quantityElectronic.info": [
+    {
+      "type": 0,
+      "value": "当创建典藏为实例、馆藏、单件或实例、馆藏时必备；以及订单格式是电子资源或实体/电子组合时必备。"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.location.field.quantityPhysical": [
+    {
+      "type": 0,
+      "value": "实体数量"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.location.field.quantityPhysical.info": [
+    {
+      "type": 0,
+      "value": "当创建典藏为实例、馆藏、单件或实例、馆藏时必备；以及订单格式是实体资源或实体/电子组合或其他时必备。"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.location.locationId": [
+    {
+      "type": 0,
+      "value": "名称（代码）"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.location.quantityElectronic": [
+    {
+      "type": 0,
+      "value": "电子数量"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.location.quantityPhysical": [
+    {
+      "type": 0,
+      "value": "实体数量"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.location.section": [
+    {
+      "type": 0,
+      "value": "位置"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderDetails.contributors.contributor": [
+    {
+      "type": 0,
+      "value": "贡献者"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderDetails.contributors.contributorType": [
+    {
+      "type": 0,
+      "value": "贡献者类型"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderDetails.contributors.section": [
+    {
+      "type": 0,
+      "value": "贡献者"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderDetails.edition": [
+    {
+      "type": 0,
+      "value": "版本"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderDetails.internalNote": [
+    {
+      "type": 0,
+      "value": "内部附注"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderDetails.isAcknowledged": [
+    {
+      "type": 0,
+      "value": "必须确认收到附注"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderDetails.productIdentifiers.productId": [
+    {
+      "type": 0,
+      "value": "产品ID"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderDetails.productIdentifiers.productIdType": [
+    {
+      "type": 0,
+      "value": "产品ID类型"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderDetails.productIdentifiers.qualifier": [
+    {
+      "type": 0,
+      "value": "限定词"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderDetails.productIdentifiers.section": [
+    {
+      "type": 0,
+      "value": "产品标识符"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderDetails.publicationDate": [
+    {
+      "type": 0,
+      "value": "出版日期"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderDetails.publisher": [
+    {
+      "type": 0,
+      "value": "出版者"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderDetails.receivingNote": [
+    {
+      "type": 0,
+      "value": "接收附注"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderDetails.section": [
+    {
+      "type": 0,
+      "value": "单件详情"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderDetails.subscriptionFrom": [
+    {
+      "type": 0,
+      "value": "订阅自"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderDetails.subscriptionInterval": [
+    {
+      "type": 0,
+      "value": "订阅间隔"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderDetails.subscriptionTo": [
+    {
+      "type": 0,
+      "value": "订阅到"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderDetails.title": [
+    {
+      "type": 0,
+      "value": "题名"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.acquisitionsUnits": [
+    {
+      "type": 0,
+      "value": "采购单位"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.approved": [
+    {
+      "type": 0,
+      "value": "已批准"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.assignedTo": [
+    {
+      "type": 0,
+      "value": "已分配给"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.billTo": [
+    {
+      "type": 0,
+      "value": "账单发送名称"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.billToAddress": [
+    {
+      "type": 0,
+      "value": "账单发送地址"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.field.acquisitionUnits": [
+    {
+      "type": 0,
+      "value": "采购单位"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.field.approved": [
+    {
+      "type": 0,
+      "value": "已批准"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.field.assignedTo": [
+    {
+      "type": 0,
+      "value": "已分配给"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.field.billToAddress": [
+    {
+      "type": 0,
+      "value": "账单发送地址"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.field.billToName": [
+    {
+      "type": 0,
+      "value": "账单发送名称"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.field.false": [
+    {
+      "type": 0,
+      "value": "假"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.field.manual": [
+    {
+      "type": 0,
+      "value": "人工"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.field.note": [
+    {
+      "type": 0,
+      "value": "附注"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.field.note.addLabel": [
+    {
+      "type": 0,
+      "value": "添加附注"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.field.open": [
+    {
+      "type": 0,
+      "value": "未结"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.field.orderType": [
+    {
+      "type": 0,
+      "value": "订购类型"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.field.overridePurchaseOrderLinesLimitSetting": [
+    {
+      "type": 0,
+      "value": "覆盖采购订单行限制设置"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.field.pending": [
+    {
+      "type": 0,
+      "value": "等待中"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.field.poNumber": [
+    {
+      "type": 0,
+      "value": "订单号"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.field.prefix": [
+    {
+      "type": 0,
+      "value": "前缀"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.field.purchaseOrderLinesLimitSetting": [
+    {
+      "type": 0,
+      "value": "采购订单行限制设置"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.field.purchaseOrderStatus": [
+    {
+      "type": 0,
+      "value": "采购订单状态"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.field.reEncumber": [
+    {
+      "type": 0,
+      "value": "重新预支"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.field.shipToAddress": [
+    {
+      "type": 0,
+      "value": "送货地址"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.field.shipToName": [
+    {
+      "type": 0,
+      "value": "收货人名称"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.field.suffix": [
+    {
+      "type": 0,
+      "value": "后缀"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.field.true": [
+    {
+      "type": 0,
+      "value": "真"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.field.vendor": [
+    {
+      "type": 0,
+      "value": "供应商"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.manualPo": [
+    {
+      "type": 0,
+      "value": "人工"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.note": [
+    {
+      "type": 0,
+      "value": "附注"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.notes.legend": [
+    {
+      "type": 0,
+      "value": "附注"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.orderType": [
+    {
+      "type": 0,
+      "value": "订购类型"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.overridePoLinesLimit": [
+    {
+      "type": 0,
+      "value": "覆盖采购订单行限制设置"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.poLinesLimit": [
+    {
+      "type": 0,
+      "value": "采购订单行限制设置"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.poNumber": [
+    {
+      "type": 0,
+      "value": "订单号"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.poStatus": [
+    {
+      "type": 0,
+      "value": "采购订单状态"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.prefix": [
+    {
+      "type": 0,
+      "value": "前缀"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.reEncumber": [
+    {
+      "type": 0,
+      "value": "重新预支"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.section": [
+    {
+      "type": 0,
+      "value": "订单信息"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.shipTo": [
+    {
+      "type": 0,
+      "value": "收货人名称"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.shipToAddress": [
+    {
+      "type": 0,
+      "value": "送货地址"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.suffix": [
+    {
+      "type": 0,
+      "value": "后缀"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.vendor": [
+    {
+      "type": 0,
+      "value": "供应商"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderLineInformation.section": [
+    {
+      "type": 0,
+      "value": "订单行信息"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.physicalOrderDetails.createInventory": [
+    {
+      "type": 0,
+      "value": "创建典藏"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.physicalOrderDetails.expectedReceiptDate": [
+    {
+      "type": 0,
+      "value": "预期接收日期"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.physicalOrderDetails.materialSupplier": [
+    {
+      "type": 0,
+      "value": "资料供应商"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.physicalOrderDetails.materialType": [
+    {
+      "type": 0,
+      "value": "资料类型"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.physicalOrderDetails.receiptDue": [
+    {
+      "type": 0,
+      "value": "接收到期"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.physicalOrderDetails.section": [
+    {
+      "type": 0,
+      "value": "实体资源详情"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.physicalOrderDetails.volume": [
+    {
+      "type": 0,
+      "value": "卷"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.physicalResourceDetails.field.createInventory": [
+    {
+      "type": 0,
+      "value": "创建典藏"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.physicalResourceDetails.field.expectedReceiptDate": [
+    {
+      "type": 0,
+      "value": "预期接收日期"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.physicalResourceDetails.field.instance": [
+    {
+      "type": 0,
+      "value": "实例"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.physicalResourceDetails.field.instanceHoldings": [
+    {
+      "type": 0,
+      "value": "实例，馆藏"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.physicalResourceDetails.field.instanceHoldingsItems": [
+    {
+      "type": 0,
+      "value": "实例，馆藏，单件"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.physicalResourceDetails.field.materialSupplier": [
+    {
+      "type": 0,
+      "value": "资料供应商"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.physicalResourceDetails.field.materialType": [
+    {
+      "type": 0,
+      "value": "资料类型"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.physicalResourceDetails.field.materialType.info": [
+    {
+      "type": 0,
+      "value": "当订单格式为实体资源、实体/电子组合或其他时必备；以及创建典藏为实例、馆藏、单件时必备。"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.physicalResourceDetails.field.none": [
+    {
+      "type": 0,
+      "value": "无"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.physicalResourceDetails.field.receiptDue": [
+    {
+      "type": 0,
+      "value": "接收到期"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.physicalResourceDetails.field.volume": [
+    {
+      "type": 0,
+      "value": "卷"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.physicalResourceDetails.field.volume.addLabel": [
+    {
+      "type": 0,
+      "value": "添加卷"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.physicalResourceDetails.section": [
+    {
+      "type": 0,
+      "value": "实体资源详情"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.acquisitionMethod": [
+    {
+      "type": 0,
+      "value": "采购方式"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.automaticExport": [
+    {
+      "type": 0,
+      "value": "自动导出"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.cancellationDescription": [
+    {
+      "type": 0,
+      "value": "取消描述"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.cancellationRestriction": [
+    {
+      "type": 0,
+      "value": "取消限制"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.createdOn": [
+    {
+      "type": 0,
+      "value": "创建日"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.donor": [
+    {
+      "type": 0,
+      "value": "捐赠者"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.field.acquisitionMethod": [
+    {
+      "type": 0,
+      "value": "采购方式"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.field.automaticExport": [
+    {
+      "type": 0,
+      "value": "自动导出"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.field.cancellationDescription": [
+    {
+      "type": 0,
+      "value": "取消描述"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.field.cancellationRestriction": [
+    {
+      "type": 0,
+      "value": "取消限制"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.field.createdOn": [
+    {
+      "type": 0,
+      "value": "创建日"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.field.donor": [
+    {
+      "type": 0,
+      "value": "捐赠者"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.field.electronicResource": [
+    {
+      "type": 0,
+      "value": "电子资源"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.field.independent": [
+    {
+      "type": 0,
+      "value": "独立的"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.field.lineDescription": [
+    {
+      "type": 0,
+      "value": "行描述"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.field.orderFormat": [
+    {
+      "type": 0,
+      "value": "订单格式"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.field.other": [
+    {
+      "type": 0,
+      "value": "其他"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.field.pEMix": [
+    {
+      "type": 0,
+      "value": "实体/电子组合"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.field.paymentStatus": [
+    {
+      "type": 0,
+      "value": "支付状态"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.field.pending": [
+    {
+      "type": 0,
+      "value": "等待中"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.field.physicalResource": [
+    {
+      "type": 0,
+      "value": "实体资源"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.field.polNumber": [
+    {
+      "type": 0,
+      "value": "订单行号"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.field.receiptDate": [
+    {
+      "type": 0,
+      "value": "接收日期"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.field.receiptNotRequired": [
+    {
+      "type": 0,
+      "value": "不需要接受"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.field.receiptStatus": [
+    {
+      "type": 0,
+      "value": "接收状态"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.field.receivingWorkflow": [
+    {
+      "type": 0,
+      "value": "接收工作流程"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.field.requester": [
+    {
+      "type": 0,
+      "value": "请求者"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.field.rush": [
+    {
+      "type": 0,
+      "value": "忙碌"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.field.selector": [
+    {
+      "type": 0,
+      "value": "选择者"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.field.source": [
+    {
+      "type": 0,
+      "value": "来源"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.field.synchronized": [
+    {
+      "type": 0,
+      "value": "同步的"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.orderFormat": [
+    {
+      "type": 0,
+      "value": "订单格式"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.paymentStatus": [
+    {
+      "type": 0,
+      "value": "支付状态"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.poLineDescription": [
+    {
+      "type": 0,
+      "value": "行描述"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.poLineNumber": [
+    {
+      "type": 0,
+      "value": "订单行号"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.receiptDate": [
+    {
+      "type": 0,
+      "value": "接收日期"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.receiptStatus": [
+    {
+      "type": 0,
+      "value": "接收状态"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.receivingWorkflow": [
+    {
+      "type": 0,
+      "value": "接收工作流程"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.requester": [
+    {
+      "type": 0,
+      "value": "请求者"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.rush": [
+    {
+      "type": 0,
+      "value": "忙碌"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.section": [
+    {
+      "type": 0,
+      "value": "订单行详情"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.selector": [
+    {
+      "type": 0,
+      "value": "选择者"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.source": [
+    {
+      "type": 0,
+      "value": "来源"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.vendor.field.accountNumber": [
+    {
+      "type": 0,
+      "value": "账号"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.vendor.field.continuationRefNumber": [
+    {
+      "type": 0,
+      "value": "供应商续订参考号"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.vendor.field.instructionsToVendor": [
+    {
+      "type": 0,
+      "value": "给供应商的说明"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.vendor.field.internalNumber": [
+    {
+      "type": 0,
+      "value": "供应商内部号"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.vendor.field.orderRefNumber": [
+    {
+      "type": 0,
+      "value": "供应商订单参考号"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.vendor.field.subscriptionRefNumber": [
+    {
+      "type": 0,
+      "value": "供应商订阅参考号"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.vendor.field.titleRefNumber": [
+    {
+      "type": 0,
+      "value": "供应商标题号"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.vendor.field.vendorRefNumber": [
+    {
+      "type": 0,
+      "value": "供应商参考号"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.vendor.field.vendorRefNumbers.addLabel": [
+    {
+      "type": 0,
+      "value": "添加供应商参考号"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.vendor.field.vendorRefType": [
+    {
+      "type": 0,
+      "value": "供应商参考类型"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.vendor.instructions": [
+    {
+      "type": 0,
+      "value": "给供应商的说明"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.vendor.section": [
+    {
+      "type": 0,
+      "value": "供应商"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.vendor.vendorAccount": [
+    {
+      "type": 0,
+      "value": "账号"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.vendor.vendorDetails.refNumber": [
+    {
+      "type": 0,
+      "value": "供应商参考号"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.vendor.vendorDetails.refNumberType": [
+    {
+      "type": 0,
+      "value": "供应商参考类型"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.vendor.vendorDetails.section": [
+    {
+      "type": 0,
+      "value": "供应商参考号"
+    }
+  ],
+  "ui-erm-usage.harvester.jobs.filter.status": [
+    {
+      "type": 0,
+      "value": "任务状态"
+    }
+  ],
+  "ui-erm-usage.harvester.jobs.filter.status.finished": [
+    {
+      "type": 0,
+      "value": "已完成"
+    }
+  ],
+  "ui-erm-usage.harvester.jobs.filter.status.running": [
+    {
+      "type": 0,
+      "value": "运行中"
+    }
+  ],
+  "ui-erm-usage.harvester.jobs.filter.status.scheduled": [
+    {
+      "type": 0,
+      "value": "已预定"
+    }
+  ],
+  "ui-erm-usage.harvester.jobs.filter.type": [
+    {
+      "type": 0,
+      "value": "任务类型"
+    }
+  ],
+  "ui-erm-usage.information.lastJobFinishedAt": [
+    {
+      "type": 0,
+      "value": "最后的收割任务完成于"
+    }
+  ],
+  "ui-export-manager.exportJob.type.AUTH_HEADINGS_UPDATES": [
+    {
+      "type": 0,
+      "value": "Authority control"
+    }
+  ],
+  "ui-export-manager.exportJob.type.BULK_EDIT_IDENTIFIERS": [
+    {
+      "type": 0,
+      "value": "Bulk edit identifiers"
+    }
+  ],
+  "ui-export-manager.exportJob.type.BULK_EDIT_QUERY": [
+    {
+      "type": 0,
+      "value": "Bulk edit query"
+    }
+  ],
+  "ui-finance.ledger.rollover.logs.settings": [
+    {
+      "type": 0,
+      "value": "Settings"
+    }
+  ],
+  "ui-finance.ledger.rollover.rolloverBudgetValue": [
+    {
+      "type": 0,
+      "value": "Rollover budget value"
+    }
+  ],
+  "ui-finance.ledger.rollover.rolloverBudgetValue.available": [
+    {
+      "type": 0,
+      "value": "Available"
+    }
+  ],
+  "ui-finance.ledger.rollover.rolloverBudgetValue.cashBalance": [
+    {
+      "type": 0,
+      "value": "Cash balance"
+    }
+  ],
+  "ui-finance.ledger.rollover.rolloverBudgetValue.none": [
+    {
+      "type": 0,
+      "value": "None"
+    }
+  ],
+  "ui-finance.ledger.rollover.rolloverValueAs": [
+    {
+      "type": 0,
+      "value": "Rollover value as"
+    }
+  ],
+  "ui-finance.settings.expenseClasses.cannotDeleteTermHeader": [
+    {
+      "type": 0,
+      "value": "无法删除支出类别"
+    }
+  ],
+  "ui-finance.settings.expenseClasses.cannotDeleteTermMessage": [
+    {
+      "type": 0,
+      "value": "无法删除此支出类别，因为它正被一个或多个记录使用。"
+    }
+  ],
+  "ui-finance.settings.expenseClasses.deleteEntry": [
+    {
+      "type": 0,
+      "value": "添加支出类别"
+    }
+  ],
+  "ui-finance.settings.expenseClasses.termDeleted": [
+    {
+      "type": 0,
+      "value": "支出类别"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "term"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "已成功"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "删除"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
+  "ui-finance.settings.expenseClasses.termWillBeDeleted": [
+    {
+      "type": 0,
+      "value": "支出类别"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "term"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "将被"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "删除。 "
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
+  "ui-finance.settings.fundTypes.cannotDeleteTermHeader": [
+    {
+      "type": 0,
+      "value": "无法删除经费类型"
+    }
+  ],
+  "ui-finance.settings.fundTypes.cannotDeleteTermMessage": [
+    {
+      "type": 0,
+      "value": "无法删除此经费类型，因为它正被一个或多个记录使用。"
+    }
+  ],
+  "ui-finance.settings.fundTypes.deleteEntry": [
+    {
+      "type": 0,
+      "value": "删除经费类型"
+    }
+  ],
+  "ui-finance.settings.fundTypes.termDeleted": [
+    {
+      "type": 0,
+      "value": "经费类型"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "term"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "已成功"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "删除"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
+  "ui-finance.settings.fundTypes.termWillBeDeleted": [
+    {
+      "type": 0,
+      "value": "经费类型"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "term"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "将被"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "删除。 "
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
+  "ui-finance.transaction.allocation.budgetNotFoundForTransaction": [
+    {
+      "type": 1,
+      "value": "amount"
+    },
+    {
+      "type": 0,
+      "value": "未成功分配，因为"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "fundCode"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "没有预算"
+    }
+  ],
+  "ui-finance.transaction.allocation.notEnoughMoneyForAllocationError": [
+    {
+      "type": 1,
+      "value": "amount"
+    },
+    {
+      "type": 0,
+      "value": "未成功分配给预算"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "toBudgetName"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " ，因为它超过了"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "fromBudgetName"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "的总分配金额"
+    }
+  ],
+  "ui-finance.transaction.confirmModal.negativeAvailableAmount.heading": [
+    {
+      "type": 0,
+      "value": "负可用金额"
+    }
+  ],
+  "ui-finance.transaction.confirmModal.negativeAvailableAmount.message": [
+    {
+      "type": 0,
+      "value": "完成此转移将导致"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "budgetName"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "的可用金额为负。确定要完成此交易吗？"
+    }
+  ],
+  "ui-finance.transaction.transfer.budgetNotFoundForTransaction": [
+    {
+      "type": 1,
+      "value": "amount"
+    },
+    {
+      "type": 0,
+      "value": "未成功转移，因为"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "fundCode"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "没有预算"
+    }
+  ],
+  "ui-inventory.appMenu.inventorySearch": [
+    {
+      "type": 0,
+      "value": "典藏应用搜索"
+    }
+  ],
+  "ui-inventory.ariaLabel.createJobProfile": [
+    {
+      "type": 0,
+      "value": "将"
+    },
+    {
+      "type": 1,
+      "value": "profileIndex"
+    },
+    {
+      "type": 0,
+      "value": "任务配置文件设置为默认创建"
+    }
+  ],
+  "ui-inventory.ariaLabel.updateJobProfile": [
+    {
+      "type": 0,
+      "value": "将"
+    },
+    {
+      "type": 1,
+      "value": "profileIndex"
+    },
+    {
+      "type": 0,
+      "value": "任务配置文件设置为默认更新"
+    }
+  ],
+  "ui-inventory.authorityId": [
+    {
+      "type": 0,
+      "value": "规范UUID"
+    }
+  ],
+  "ui-inventory.button.addCreateJobProfileId": [
+    {
+      "type": 0,
+      "value": "添加用于导入/创建的任务配置文件"
+    }
+  ],
+  "ui-inventory.button.addUpdateJobProfileId": [
+    {
+      "type": 0,
+      "value": "添加用于覆盖/更新的任务配置文件"
+    }
+  ],
+  "ui-inventory.copycat.defaultJobProfile": [
+    {
+      "type": 1,
+      "value": "jobProfile"
+    },
+    {
+      "type": 0,
+      "value": " （默认）"
+    }
+  ],
+  "ui-inventory.copycat.externalTarget": [
+    {
+      "type": 0,
+      "value": "外部目标"
+    }
+  ],
+  "ui-inventory.copycat.jobProfileToBeUsed": [
+    {
+      "type": 0,
+      "value": "选择要使用的配置文件"
+    }
+  ],
+  "ui-inventory.copycat.overlayJobProfileToBeUsed": [
+    {
+      "type": 0,
+      "value": "选择要用于覆盖当前数据的配置文件"
+    }
+  ],
+  "ui-inventory.copycat.overlaySourceBib": [
+    {
+      "type": 0,
+      "value": "覆盖源书目记录"
+    }
+  ],
+  "ui-inventory.createJobProfileIds": [
+    {
+      "type": 0,
+      "value": "用于导入/创建的任务配置文件"
+    }
+  ],
+  "ui-inventory.defaultJobProfile": [
+    {
+      "type": 0,
+      "value": "默认"
+    }
+  ],
+  "ui-inventory.effectiveLocationHoldings": [
+    {
+      "type": 0,
+      "value": "有效馆藏位置"
+    }
+  ],
+  "ui-inventory.inactive.gridCell": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "未激活"
+            }
+          ],
+          "type": 8,
+          "value": "em"
+        },
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "location"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "span"
+    }
+  ],
+  "ui-inventory.info.effectiveCallNumber": [
+    {
+      "type": 0,
+      "value": "This field contains the item call number, which is either inherited from the holdings record, or is the updated call number on the item record. While browsing call numbers, this field will be searched."
+    }
+  ],
+  "ui-inventory.info.shelvingOrder": [
+    {
+      "type": 0,
+      "value": "This field is the normalized form of the call number which determines how the call number is sorted while browsing."
+    }
+  ],
+  "ui-inventory.jobProfiles.info": [
+    {
+      "type": 0,
+      "value": "在分配典藏单条记录导入之前，请仔细查看列出的任务配置文件。只能分配MARC书目任务配置文件，不能分配MARC馆藏或MARC规范任务配置文件。"
+    }
+  ],
+  "ui-inventory.markAsHeader": [
+    {
+      "type": 0,
+      "value": "Mark as"
+    }
+  ],
+  "ui-inventory.select.createJobProfileId": [
+    {
+      "type": 0,
+      "value": "选择用于导入/创建的任务配置文件"
+    }
+  ],
+  "ui-inventory.select.updateJobProfileId": [
+    {
+      "type": 0,
+      "value": "选择用于覆盖/更新的任务配置文件"
+    }
+  ],
+  "ui-inventory.updateJobProfileIds": [
+    {
+      "type": 0,
+      "value": "用于覆盖/更新的任务配置文件"
+    }
+  ],
+  "ui-invoice.settings.batchGroups.cannotDeleteTermHeader": [
+    {
+      "type": 0,
+      "value": "无法删除批处理组"
+    }
+  ],
+  "ui-invoice.settings.batchGroups.cannotDeleteTermMessage": [
+    {
+      "type": 0,
+      "value": "无法删除此批次组，因为它正被一个或多个记录使用。"
+    }
+  ],
+  "ui-invoice.settings.batchGroups.deleteEntry": [
+    {
+      "type": 0,
+      "value": "删除批处理组"
+    }
+  ],
+  "ui-invoice.settings.batchGroups.termDeleted": [
+    {
+      "type": 0,
+      "value": "批处理组"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "term"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "已成功"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "删除"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
+  "ui-invoice.settings.batchGroups.termWillBeDeleted": [
+    {
+      "type": 0,
+      "value": "批处理组"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "term"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "将被"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "删除。 "
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
+  "ui-ldp.copy-of": "Copy of {string}",
+  "ui-ldp.error.load-queries": "无法加载保存的查询： {error}",
+  "ui-ldp.button.new-query": "New query",
+  "ui-ldp.button.copy-query": "Copy query",
+  "ui-ldp.desc.new-query": "This will clear the present query ready to create a new one.",
+  "ui-ldp.desc.copy-query": "This will copy the current query to a new one that can be edited, run and saved.",
+  "ui-ldp.saved-queries.updater": "Last updated by",
+  "ui-ldp.saved-queries.updated": "Date last updated",
+  "ui-ldp.save-query.update.notFound": "The query you loaded was deleted. Make a copy and save that.",
+  "ui-ldp.saved-queries.delete.updatedBy": "Last updated by <code>{updater}</code>, {updated}",
+  "ui-marc-authorities.authority-record.print": [
+    {
+      "type": 0,
+      "value": "Print"
+    }
+  ],
+  "ui-marc-authorities.delete.linkedRecord.description": [
+    {
+      "type": 0,
+      "value": "确定要永久删除规范记录： "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "headingRef"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": "吗？如果继续删除，那么"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "style": null,
+          "type": 2,
+          "value": "count"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": "链接的书目"
+    },
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": " record "
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": " records "
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": "将保留规范值并将变得不受控制。"
+    }
+  ],
+  "ui-marc-authorities.reportModal.HEADINGS_UPDATES.label": [
+    {
+      "type": 0,
+      "value": "Set date range for MARC authority headings updates (CSV) report"
+    }
+  ],
+  "ui-marc-authorities.reportModal.button.cancel": [
+    {
+      "type": 0,
+      "value": "Cancel"
+    }
+  ],
+  "ui-marc-authorities.reportModal.button.export": [
+    {
+      "type": 0,
+      "value": "Export"
+    }
+  ],
+  "ui-marc-authorities.reportModal.endDate": [
+    {
+      "type": 0,
+      "value": "End date"
+    }
+  ],
+  "ui-marc-authorities.reportModal.endDate.error": [
+    {
+      "type": 0,
+      "value": "\"End date\" is required"
+    }
+  ],
+  "ui-marc-authorities.reportModal.endDate.error.greaterThan": [
+    {
+      "type": 0,
+      "value": "\"End date\" must be greater than or equal to \"Start date\""
+    }
+  ],
+  "ui-marc-authorities.reportModal.startDate": [
+    {
+      "type": 0,
+      "value": "Start date"
+    }
+  ],
+  "ui-marc-authorities.reportModal.startDate.error": [
+    {
+      "type": 0,
+      "value": "\"Start date\" is required"
+    }
+  ],
+  "ui-marc-authorities.reports": [
+    {
+      "type": 0,
+      "value": "报告"
+    }
+  ],
+  "ui-marc-authorities.reports.HEADINGS_UPDATES.success": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Authority headings updates report (Job ID "
+        },
+        {
+          "type": 1,
+          "value": "name"
+        },
+        {
+          "type": 0,
+          "value": ")"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " is being generated. Go to the Export manager app to download report. It may take a few minutes for the report to complete."
+    }
+  ],
+  "ui-marc-authorities.reports.fail": [
+    {
+      "type": 0,
+      "value": "We were unable to create this report. Please try again."
+    }
+  ],
+  "ui-marc-authorities.reports.failedUpdates": [
+    {
+      "type": 0,
+      "value": "更新失败：链接的书目字段 (CSV)"
+    }
+  ],
+  "ui-marc-authorities.reports.marcAuthorityHeadings": [
+    {
+      "type": 0,
+      "value": "MARC规范标题更新 (CSV)"
+    }
+  ],
+  "ui-marc-authorities.search-results-list.numberOfTitles": [
+    {
+      "type": 0,
+      "value": "标题数量"
+    }
+  ],
+  "ui-oai-pmh.settings.behavior.label.recordSource": [
+    {
+      "type": 0,
+      "value": "记录来源"
+    }
+  ],
+  "ui-oai-pmh.settings.behavior.record.inventory": [
+    {
+      "type": 0,
+      "value": "典藏"
+    }
+  ],
+  "ui-oai-pmh.settings.behavior.record.inventory-storage": [
+    {
+      "type": 0,
+      "value": "源记录存储和典藏"
+    }
+  ],
+  "ui-oai-pmh.settings.behavior.record.storage": [
+    {
+      "type": 0,
+      "value": "源记录存储"
+    }
+  ],
+  "ui-oai-pmh.settings.behavior.tooltip.recordSource": [
+    {
+      "type": 0,
+      "value": "记录来源"
+    }
+  ],
+  "ui-orders.breakInstanceConnection.modal.heading": [
+    {
+      "type": 0,
+      "value": "移除实例连接"
+    }
+  ],
+  "ui-orders.breakInstanceConnection.modal.message": [
+    {
+      "type": 0,
+      "value": "进行此更改将删除订单行和选定典藏实例之间的链接。确定要继续进行此更改并取消此订单行与典藏实例“ "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "titleOrPackage"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " ”的链接吗？"
+    }
+  ],
+  "ui-orders.errors.currentFYearIdNotFound": [
+    {
+      "type": 0,
+      "value": "未找到采购订单行的当前财务年度"
+    }
+  ],
+  "ui-orders.errors.errorRemovingInvoiceLineEncumbrances": [
+    {
+      "type": 0,
+      "value": "删除预留款后，移除发票行预留款链接时出错"
+    }
+  ],
+  "ui-orders.errors.errorRetrievingPoLines": [
+    {
+      "type": 0,
+      "value": "从存储中检索采购订单行时出错"
+    }
+  ],
+  "ui-orders.errors.errorRetrievingTransactions": [
+    {
+      "type": 0,
+      "value": "从存储中检索交易时出错"
+    }
+  ],
+  "ui-orders.errors.forbiddenDeleteSystemValues": [
+    {
+      "type": 0,
+      "value": "不能删除系统值"
+    }
+  ],
+  "ui-orders.errors.forbiddenDeleteUsedValue": [
+    {
+      "type": 0,
+      "value": "此值不能删除"
+    }
+  ],
+  "ui-orders.errors.holdingsByIdNotFoundError": [
+    {
+      "type": 0,
+      "value": "未找到带ID的馆藏"
+    }
+  ],
+  "ui-orders.errors.locationIdAndHoldingIdAbsentError": [
+    {
+      "type": 0,
+      "value": "必须提供馆藏或位置参引"
+    }
+  ],
+  "ui-orders.errors.mayBeLinkToEitherHoldingOrLocationError": [
+    {
+      "type": 0,
+      "value": "已经提供了馆藏Id和位置Id"
+    }
+  ],
+  "ui-orders.errors.missingHoldingsSourceId": [
+    {
+      "type": 0,
+      "value": "在典存中找不到馆藏"
+    }
+  ],
+  "ui-orders.errors.multipleNonPackageTitles": [
+    {
+      "type": 0,
+      "value": "非资源包采购订单行不得包含超过一个标题参引"
+    }
+  ],
+  "ui-orders.errors.orderRelatesToInvoice": [
+    {
+      "type": 0,
+      "value": "此订单或订单行已链接到发票，无法删除"
+    }
+  ],
+  "ui-orders.errors.partiallyReturnedCollection": [
+    {
+      "type": 0,
+      "value": "无法找到所有馆藏记录"
+    }
+  ],
+  "ui-orders.errors.pgException": [
+    {
+      "type": 0,
+      "value": "请求处理期间发生数据库错误"
+    }
+  ],
+  "ui-orders.errors.poLineHasRelatedApprovedInvoice": [
+    {
+      "type": 0,
+      "value": "无法更改采购订单行经费分配，因为订单行链接到当前处于“已批准”状态的发票行"
+    }
+  ],
+  "ui-orders.errors.poNumberPrefixRequired": [
+    {
+      "type": 0,
+      "value": "采购订单号必须以前缀开头"
+    }
+  ],
+  "ui-orders.errors.poNumberSuffixRequired": [
+    {
+      "type": 0,
+      "value": "采购订单号必须以后缀结尾"
+    }
+  ],
+  "ui-orders.errors.prefixIsUsed": [
+    {
+      "type": 0,
+      "value": "不能删除前缀，因为它已被一个或多个订单使用"
+    }
+  ],
+  "ui-orders.errors.prefixNotFound": [
+    {
+      "type": 0,
+      "value": "前缀不可用"
+    }
+  ],
+  "ui-orders.errors.suffixIsUsed": [
+    {
+      "type": 0,
+      "value": "不能删除后缀，因为它已被一个或多个订单使用"
+    }
+  ],
+  "ui-orders.errors.suffixNotFound": [
+    {
+      "type": 0,
+      "value": "后缀不可用"
+    }
+  ],
+  "ui-orders.errors.titleNotFound": [
+    {
+      "type": 0,
+      "value": "无法找到接收题名"
+    }
+  ],
+  "ui-orders.errors.userHasNoOrderReopenPermission": [
+    {
+      "type": 0,
+      "value": "用户无权重新打开订单 - 操作受限"
+    }
+  ],
+  "ui-orders.errors.userHasNoOrderUnopenPermission": [
+    {
+      "type": 0,
+      "value": "用户无权取消打开订单 - 操作受限"
+    }
+  ],
+  "ui-orders.orderDetails.approvedBy": [
+    {
+      "type": 0,
+      "value": "批准人"
+    }
+  ],
+  "ui-orders.settings.acquisitionMethods.cannotDeleteTermHeader": [
+    {
+      "type": 0,
+      "value": "无法删除此采购方式"
+    }
+  ],
+  "ui-orders.settings.acquisitionMethods.cannotDeleteTermMessage": [
+    {
+      "type": 0,
+      "value": "无法删除此采购方式，因为一个或多个记录正在使用它。"
+    }
+  ],
+  "ui-orders.settings.acquisitionMethods.deleteEntry": [
+    {
+      "type": 0,
+      "value": "删除采购方式"
+    }
+  ],
+  "ui-orders.settings.acquisitionMethods.termDeleted": [
+    {
+      "type": 0,
+      "value": "采购方式"
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "term"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "已成功"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "删除"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
+  "ui-orders.settings.acquisitionMethods.termWillBeDeleted": [
+    {
+      "type": 0,
+      "value": "采购方式"
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "term"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "将被"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "删除。 "
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
+  "ui-orders.settings.closingReasons.cannotDeleteTermHeader": [
+    {
+      "type": 0,
+      "value": "无法删除此关闭原因"
+    }
+  ],
+  "ui-orders.settings.closingReasons.cannotDeleteTermMessage": [
+    {
+      "type": 0,
+      "value": "无法删除此关闭原因，因为它正被一个或多个记录使用。"
+    }
+  ],
+  "ui-orders.settings.closingReasons.deleteEntry": [
+    {
+      "type": 0,
+      "value": "删除关闭原因"
+    }
+  ],
+  "ui-orders.settings.closingReasons.termDeleted": [
+    {
+      "type": 0,
+      "value": "关闭原因"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "term"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "已成功"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "删除"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
+  "ui-orders.settings.closingReasons.termWillBeDeleted": [
+    {
+      "type": 0,
+      "value": "关闭原因"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "term"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "将被"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "删除。 "
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
+  "ui-orders.settings.poNumber.prefix.cannotDeleteTermHeader": [
+    {
+      "type": 0,
+      "value": "无法删除此前缀"
+    }
+  ],
+  "ui-orders.settings.poNumber.prefix.cannotDeleteTermMessage": [
+    {
+      "type": 0,
+      "value": "无法删除此前缀，因为它正被一个或多个记录使用。"
+    }
+  ],
+  "ui-orders.settings.poNumber.prefix.deleteEntry": [
+    {
+      "type": 0,
+      "value": "删除前缀"
+    }
+  ],
+  "ui-orders.settings.poNumber.prefix.termDeleted": [
+    {
+      "type": 0,
+      "value": "前缀"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "term"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "已成功"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "删除"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
+  "ui-orders.settings.poNumber.prefix.termWillBeDeleted": [
+    {
+      "type": 0,
+      "value": "前缀"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "term"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "将被"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "删除。 "
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
+  "ui-orders.settings.poNumber.suffix.cannotDeleteTermHeader": [
+    {
+      "type": 0,
+      "value": "无法删除此后缀"
+    }
+  ],
+  "ui-orders.settings.poNumber.suffix.cannotDeleteTermMessage": [
+    {
+      "type": 0,
+      "value": "无法删除此后缀，因为它正由一个或多个记录使用。"
+    }
+  ],
+  "ui-orders.settings.poNumber.suffix.deleteEntry": [
+    {
+      "type": 0,
+      "value": "删除后缀"
+    }
+  ],
+  "ui-orders.settings.poNumber.suffix.termDeleted": [
+    {
+      "type": 0,
+      "value": "后缀"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "term"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "已成功"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "删除"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
+  "ui-orders.settings.poNumber.suffix.termWillBeDeleted": [
+    {
+      "type": 0,
+      "value": "后缀"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "term"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "将被"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "删除。 "
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
+  "ui-orders.versionHistory.updatedByUserId": [
+    {
+      "type": 0,
+      "value": "更新者"
+    }
+  ],
+  "ui-organizations.settings.categories.cannotDeleteTermHeader": [
+    {
+      "type": 0,
+      "value": "无法删除类别"
+    }
+  ],
+  "ui-organizations.settings.categories.cannotDeleteTermMessage": [
+    {
+      "type": 0,
+      "value": "无法删除本类别，因为它正被一个或多个记录使用。"
+    }
+  ],
+  "ui-organizations.settings.categories.deleteEntry": [
+    {
+      "type": 0,
+      "value": "删除类别"
+    }
+  ],
+  "ui-organizations.settings.categories.termDeleted": [
+    {
+      "type": 0,
+      "value": "类别"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "term"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "已成功"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "删除"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
+  "ui-organizations.settings.categories.termWillBeDeleted": [
+    {
+      "type": 0,
+      "value": "类别"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "term"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "将被"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "删除。 "
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
+  "ui-organizations.settings.types.cannotDeleteTermHeader": [
+    {
+      "type": 0,
+      "value": "无法删除类型"
+    }
+  ],
+  "ui-organizations.settings.types.cannotDeleteTermMessage": [
+    {
+      "type": 0,
+      "value": "无法删除本类型，因为一个或多个记录正在使用它。"
+    }
+  ],
+  "ui-organizations.settings.types.deleteEntry": [
+    {
+      "type": 0,
+      "value": "删除类型"
+    }
+  ],
+  "ui-organizations.settings.types.termDeleted": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "term"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "类型已成功"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "删除"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
+  "ui-organizations.settings.types.termWillBeDeleted": [
+    {
+      "type": 0,
+      "value": "类型"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "term"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "将被"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "删除。 "
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
+  "ui-plugin-find-package-title.resultsPane.select": [
+    {
+      "type": 0,
+      "value": "Select "
+    },
+    {
+      "type": 1,
+      "value": "name"
+    }
+  ],
+  "ui-plugin-find-package-title.resultsPane.selectPackage": [
+    {
+      "type": 0,
+      "value": "Select package "
+    },
+    {
+      "type": 1,
+      "value": "name"
+    }
+  ],
+  "ui-plugin-find-package-title.resultsPane.selectTitle": [
+    {
+      "type": 0,
+      "value": "Select title "
+    },
+    {
+      "type": 1,
+      "value": "name"
+    }
+  ],
+  "ui-quick-marc.bib-record.derive.title": [
+    {
+      "type": 0,
+      "value": "衍生一条新MARC书目记录"
+    }
+  ],
+  "ui-quick-marc.linkedToMarcAuthority": [
+    {
+      "type": 0,
+      "value": "链接到MARC规范"
+    }
+  ],
+  "ui-quick-marc.print": [
+    {
+      "type": 0,
+      "value": "印本"
+    }
+  ],
+  "ui-quick-marc.record.error.$9": [
+    {
+      "type": 0,
+      "value": "$9 不是有效的子字段。"
+    }
+  ],
+  "ui-quick-marc.record.error.010.$aRemoved": [
+    {
+      "type": 0,
+      "value": "Cannot remove 010 $a for this record."
+    }
+  ],
+  "ui-quick-marc.record.error.010.edit$a": [
+    {
+      "type": 0,
+      "value": "Cannot add or edit 010 $a for an authority record linked to a bibliographic record. To make this change, you must unlink this authority record from bibliographic records."
+    }
+  ],
+  "ui-quick-marc.record.error.010.removed": [
+    {
+      "type": 0,
+      "value": "Cannot delete 010. It is required."
+    }
+  ],
+  "ui-quick-marc.record.error.010Field.multiple": [
+    {
+      "type": 0,
+      "value": "无法保存多个 010 字段。"
+    }
+  ],
+  "ui-quick-marc.record.error.1xx.add$t": [
+    {
+      "type": 0,
+      "value": "无法将"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " $t 添加到 $ "
+        },
+        {
+          "type": 1,
+          "value": "tag"
+        },
+        {
+          "type": 0,
+          "value": "字段"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " ，因为它控制无法控制此子字段的书目字段。要更改此 1XX 值，必须取消链接所有无法控制 $t 的受控书目字段。"
+    }
+  ],
+  "ui-quick-marc.record.error.1xx.change": [
+    {
+      "type": 0,
+      "value": "无法更改"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "保存的 MARC 规范字段"
+        },
+        {
+          "type": 1,
+          "value": "tag"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " ，因为它控制书目字段。要更改此 1XX，必须取消链接所有受控书目字段。"
+    }
+  ],
+  "ui-quick-marc.record.error.1xx.remove$t": [
+    {
+      "type": 0,
+      "value": "无法从 $ "
+    },
+    {
+      "type": 1,
+      "value": "tag"
+    },
+    {
+      "type": 0,
+      "value": "字段中删除"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " $t "
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " ，因为它控制需要该子字段的书目字段。要更改此 1XX 值，必须取消链接所有需要控制 $t 的受控书目字段。"
+    }
+  ],
+  "ui-quick-marc.record.error.fieldCantBeSaved": [
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "fieldTags"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " has a subfield(s) that cannot be saved because the field is controlled by an authority record."
+    }
+  ],
+  "ui-quick-marc.record.error.fieldsCantBeSaved": [
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "fieldTags"
+        },
+        {
+          "offset": 0,
+          "options": {
+            "=2": {
+              "value": [
+                {
+                  "type": 0,
+                  "value": " and "
+                },
+                {
+                  "type": 1,
+                  "value": "lastFieldTag"
+                }
+              ]
+            },
+            "one": {
+              "value": []
+            },
+            "other": {
+              "value": [
+                {
+                  "type": 0,
+                  "value": ", and "
+                },
+                {
+                  "type": 1,
+                  "value": "lastFieldTag"
+                }
+              ]
+            }
+          },
+          "pluralType": "cardinal",
+          "type": 6,
+          "value": "count"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " has a subfield(s) that cannot be saved because the fields are controlled by authority records."
+    }
+  ],
+  "ui-quick-marc.record.link.success": [
+    {
+      "type": 0,
+      "value": "字段"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "tag"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "已"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "链接"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "到 MARC 规范记录。"
+    }
+  ],
+  "ui-quick-marc.record.link.validation.invalidHeading": [
+    {
+      "type": 0,
+      "value": "您根据要控制的书目字段选择了无效的标题。请修改您的选择。"
+    }
+  ],
+  "ui-quick-marc.record.save.error.derive": [
+    {
+      "type": 0,
+      "value": "无法更新实例。弃用的实例版本。"
+    }
+  ],
+  "ui-quick-marc.record.save.updatingLinkedBibRecords": [
+    {
+      "type": 0,
+      "value": "记录已更新。 "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "count"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "个链接的书目记录更新已经开始。"
+    }
+  ],
+  "ui-quick-marc.record.unlink.confirm.cancel": [
+    {
+      "type": 0,
+      "value": "取消"
+    }
+  ],
+  "ui-quick-marc.record.unlink.confirm.confirm": [
+    {
+      "type": 0,
+      "value": "解除关联"
+    }
+  ],
+  "ui-quick-marc.record.unlink.confirm.message": [
+    {
+      "type": 0,
+      "value": "通过选择"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "解除链接"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " ，字段"
+    },
+    {
+      "type": 1,
+      "value": "tag"
+    },
+    {
+      "type": 0,
+      "value": "将与 MARC 规范记录取消链接。确定要继续？"
+    }
+  ],
+  "ui-quick-marc.record.unlink.confirm.title": [
+    {
+      "type": 0,
+      "value": "解除与 MARC 规范记录的链接"
+    }
+  ],
+  "ui-quick-marc.remove-authority-linking.modal.keep-linking": [
+    {
+      "type": 0,
+      "value": "保持链接"
+    }
+  ],
+  "ui-quick-marc.remove-authority-linking.modal.label": [
+    {
+      "type": 0,
+      "value": "移除规范链接"
+    }
+  ],
+  "ui-quick-marc.remove-authority-linking.modal.message": [
+    {
+      "type": 0,
+      "value": "您要移除此新书目记录的规范链接吗？"
+    }
+  ],
+  "ui-quick-marc.remove-authority-linking.modal.remove-linking": [
+    {
+      "type": 0,
+      "value": "移除链接"
+    }
+  ],
+  "ui-quick-marc.update-linked-bib-fields.modal.keep-editing": [
+    {
+      "type": 0,
+      "value": "继续编辑"
+    }
+  ],
+  "ui-quick-marc.update-linked-bib-fields.modal.label": [
+    {
+      "type": 0,
+      "value": "是否确定？"
+    }
+  ],
+  "ui-quick-marc.update-linked-bib-fields.modal.message-save": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "count"
+        },
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "offset": 0,
+          "options": {
+            "one": {
+              "value": [
+                {
+                  "type": 0,
+                  "value": "书目记录"
+                }
+              ]
+            },
+            "other": {
+              "value": [
+                {
+                  "type": 0,
+                  "value": "书目记录"
+                }
+              ]
+            }
+          },
+          "pluralType": "cardinal",
+          "type": 6,
+          "value": "count"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " "
+    },
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": " is "
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": " are "
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": "链接到该规范记录并将由单击"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "保存"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "按钮更新。"
+    }
+  ],
+  "ui-quick-marc.update-linked-bib-fields.modal.save": [
+    {
+      "type": 0,
+      "value": "保存"
+    }
+  ],
+  "ui-receiving.errors.createItemForPieceIsNotAllowedError": [
+    {
+      "type": 0,
+      "value": "不允许为件格式创建单件。请检查采购订单行中的“创建典藏”值"
+    }
+  ],
+  "ui-receiving.errors.createPiecePendingOrderError": [
+    {
+      "type": 0,
+      "value": "不可能为待定订单创建件。请打开订单"
+    }
+  ],
+  "ui-receiving.errors.forbiddenDeleteSystemValues": [
+    {
+      "type": 0,
+      "value": "不能删除系统值"
+    }
+  ],
+  "ui-receiving.errors.forbiddenDeleteUsedValue": [
+    {
+      "type": 0,
+      "value": "此值不能删除"
+    }
+  ],
+  "ui-receiving.errors.holdingsByIdNotFoundError": [
+    {
+      "type": 0,
+      "value": "未找到带ID的馆藏"
+    }
+  ],
+  "ui-receiving.errors.locationIdAndHoldingIdAbsentError": [
+    {
+      "type": 0,
+      "value": "必须提供馆藏或位置参引"
+    }
+  ],
+  "ui-receiving.errors.mayBeLinkToEitherHoldingOrLocationError": [
+    {
+      "type": 0,
+      "value": "已经提供了馆藏Id和位置Id"
+    }
+  ],
+  "ui-receiving.errors.missingHoldingsSourceId": [
+    {
+      "type": 0,
+      "value": "在典存中找不到馆藏"
+    }
+  ],
+  "ui-receiving.errors.multipleNonPackageTitles": [
+    {
+      "type": 0,
+      "value": "非资源包采购订单行不得包含超过一个标题参引"
+    }
+  ],
+  "ui-receiving.errors.partiallyReturnedCollection": [
+    {
+      "type": 0,
+      "value": "已收到该件记录"
+    }
+  ],
+  "ui-receiving.errors.pgException": [
+    {
+      "type": 0,
+      "value": "请求处理期间发生数据库错误"
+    }
+  ],
+  "ui-receiving.errors.pieceAlreadyReceived": [
+    {
+      "type": 0,
+      "value": "已收到该件记录"
+    }
+  ],
+  "ui-receiving.errors.pieceFormatIsNotValid": [
+    {
+      "type": 0,
+      "value": "件格式与采购订单行格式不兼容"
+    }
+  ],
+  "ui-receiving.errors.pieceNotFound": [
+    {
+      "type": 0,
+      "value": "未找到该件记录"
+    }
+  ],
+  "ui-receiving.errors.pieceNotRetrieved": [
+    {
+      "type": 0,
+      "value": "无法检索该件记录"
+    }
+  ],
+  "ui-receiving.errors.piecePolMismatch": [
+    {
+      "type": 0,
+      "value": "该件与采购订单行不对应"
+    }
+  ],
+  "ui-receiving.errors.pieceUpdateFailed": [
+    {
+      "type": 0,
+      "value": "件记录更新失败"
+    }
+  ],
+  "ui-receiving.errors.titleNotFound": [
+    {
+      "type": 0,
+      "value": "无法找到接收题名"
+    }
+  ],
+  "stripes-erm-components.dateFilter.cancellationDeadline": [
+    {
+      "type": 0,
+      "value": "取消截止日期"
+    }
+  ],
+  "stripes-erm-components.dateFilter.cancellationDeadlineNotSet": [
+    {
+      "type": 0,
+      "value": "包括未设置取消截止日期的"
+    },
+    {
+      "type": 1,
+      "value": "resourceName"
+    }
+  ],
+  "stripes-erm-components.logs.title": [
+    {
+      "type": 0,
+      "value": "Title: "
+    },
+    {
+      "type": 1,
+      "value": "title"
+    }
+  ],
+  "ui-tenant-settings.settings.addresses.cannotDeleteTermHeader": [
+    {
+      "type": 0,
+      "value": "无法删除地址"
+    }
+  ],
+  "ui-tenant-settings.settings.addresses.cannotDeleteTermMessage": [
+    {
+      "type": 0,
+      "value": "无法删除此地址，因为它已被一个或多个记录使用。"
+    }
+  ],
+  "ui-tenant-settings.settings.addresses.deleteEntry": [
+    {
+      "type": 0,
+      "value": "删除地址"
+    }
+  ],
+  "ui-tenant-settings.settings.addresses.termDeleted": [
+    {
+      "type": 0,
+      "value": "本地址"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "term"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "已成功"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "删除"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
+  "ui-tenant-settings.settings.addresses.termWillBeDeleted": [
+    {
+      "type": 0,
+      "value": "本地址"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "term"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "将被"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "删除。 "
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
+  "ui-tenant-settings.settings.location.campuses.cannotDeleteTermHeader": [
+    {
+      "type": 0,
+      "value": "无法删除校区"
+    }
+  ],
+  "ui-tenant-settings.settings.location.campuses.cannotDeleteTermMessage": [
+    {
+      "type": 0,
+      "value": "无法删除此校区，因为它正被一个或多个记录使用。"
+    }
+  ],
+  "ui-tenant-settings.settings.location.campuses.deleteEntry": [
+    {
+      "type": 0,
+      "value": "删除校区"
+    }
+  ],
+  "ui-tenant-settings.settings.location.campuses.termDeleted": [
+    {
+      "type": 0,
+      "value": "校区"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "term"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "已成功"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "删除"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
+  "ui-tenant-settings.settings.location.campuses.termWillBeDeleted": [
+    {
+      "type": 0,
+      "value": "校区"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "term"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "将被"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "删除。 "
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
+  "ui-tenant-settings.settings.location.institutions.cannotDeleteTermHeader": [
+    {
+      "type": 0,
+      "value": "无法删除机构"
+    }
+  ],
+  "ui-tenant-settings.settings.location.institutions.cannotDeleteTermMessage": [
+    {
+      "type": 0,
+      "value": "无法删除该机构，因为它正被一个或多个记录使用。"
+    }
+  ],
+  "ui-tenant-settings.settings.location.institutions.deleteEntry": [
+    {
+      "type": 0,
+      "value": "删除机构"
+    }
+  ],
+  "ui-tenant-settings.settings.location.institutions.termDeleted": [
+    {
+      "type": 0,
+      "value": "机构"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "term"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "已成功"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "删除"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
+  "ui-tenant-settings.settings.location.institutions.termWillBeDeleted": [
+    {
+      "type": 0,
+      "value": "机构"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "term"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "将被"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "删除。 "
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
+  "ui-tenant-settings.settings.location.libraries.cannotDeleteTermHeader": [
+    {
+      "type": 0,
+      "value": "无法删除图书馆"
+    }
+  ],
+  "ui-tenant-settings.settings.location.libraries.cannotDeleteTermMessage": [
+    {
+      "type": 0,
+      "value": "无法删除此图书馆，因为它正被一个或多个记录使用。"
+    }
+  ],
+  "ui-tenant-settings.settings.location.libraries.deleteEntry": [
+    {
+      "type": 0,
+      "value": "删除图书馆"
+    }
+  ],
+  "ui-tenant-settings.settings.location.libraries.termDeleted": [
+    {
+      "type": 0,
+      "value": "图书馆"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "term"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "已成功"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "删除"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
+  "ui-tenant-settings.settings.location.libraries.termWillBeDeleted": [
+    {
+      "type": 0,
+      "value": "图书馆"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "term"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "将被"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "删除。 "
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
+  "ui-tenant-settings.settings.servicePoints.expirationPeriod": [
+    {
+      "type": 0,
+      "value": "预约架到期有效期"
+    }
+  ],
+  "ui-tenant-settings.settings.servicePoints.holdShelfClosedLibraryDateManagement": [
+    {
+      "type": 0,
+      "value": "用于计算预约架到期日期的闭馆日期管理"
+    }
+  ],
+  "ui-tenant-settings.settings.servicePoints.holdShelfClosedLibraryDateManagement.MoveToTheBeginningOfTheNextOpenServicePointHours": [
+    {
+      "type": 0,
+      "value": "移至下一个开放服务点时间的起始"
+    }
+  ],
+  "ui-tenant-settings.settings.servicePoints.holdShelfClosedLibraryDateManagement.keepTheOriginalDate": [
+    {
+      "type": 0,
+      "value": "保留原始日期"
+    }
+  ],
+  "ui-tenant-settings.settings.servicePoints.holdShelfClosedLibraryDateManagement.keepTheOriginalDateTime": [
+    {
+      "type": 0,
+      "value": "保留原始日期/时间"
+    }
+  ],
+  "ui-tenant-settings.settings.servicePoints.holdShelfClosedLibraryDateManagement.moveToTheEndOfTheCurrentServicePointHours": [
+    {
+      "type": 0,
+      "value": "移至当前服务点开放时间的末尾"
+    }
+  ],
+  "ui-tenant-settings.settings.servicePoints.holdShelfClosedLibraryDateManagement.moveToTheEndOfTheNextOpenDay": [
+    {
+      "type": 0,
+      "value": "移至下一个开放日的末尾"
+    }
+  ],
+  "ui-tenant-settings.settings.servicePoints.holdShelfClosedLibraryDateManagement.moveToTheEndOfThePreviousOpenDay": [
+    {
+      "type": 0,
+      "value": "移至上一个开放日的末尾"
+    }
+  ],
+  "ui-tenant-settings.settings.servicePoints.selectInterval": [
+    {
+      "type": 0,
+      "value": "选择间隔"
+    }
+  ],
+  "ui-users.lostItems.feeFineAmount.error": [
+    {
+      "type": 0,
+      "value": "向读者开具账单的实际费用必须大于 0.00 且小于 9999.99"
+    }
+  ],
+  "ui-users.lostItems.list.columnName.action.bill": [
+    {
+      "type": 0,
+      "value": "开单实际费用"
+    }
+  ],
+  "ui-users.lostItems.list.columnName.action.doNotBill": [
+    {
+      "type": 0,
+      "value": "不开单"
+    }
+  ],
+  "ui-users.lostItems.modal.actualCostToBill": [
+    {
+      "type": 0,
+      "value": "向读者收取的实际费用"
+    }
+  ],
+  "ui-users.lostItems.modal.additionalInformationForPatron": [
+    {
+      "type": 0,
+      "value": "读者附加信息"
+    }
+  ],
+  "ui-users.lostItems.modal.additionalInformationForStaff": [
+    {
+      "type": 0,
+      "value": "员工附加信息"
+    }
+  ],
+  "ui-users.lostItems.modal.bill.confirm.text": [
+    {
+      "type": 0,
+      "value": "将"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "收取"
+        },
+        {
+          "type": 1,
+          "value": "patronName"
+        },
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "actualCostToBill"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": "的费用/罚款用于"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "instanceTitle"
+        },
+        {
+          "type": 0,
+          "value": " ( "
+        },
+        {
+          "type": 1,
+          "value": "materialType"
+        },
+        {
+          "type": 0,
+          "value": " ) "
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " 。"
+    }
+  ],
+  "ui-users.lostItems.modal.bill.confirm.title": [
+    {
+      "type": 0,
+      "value": "确认向"
+    },
+    {
+      "type": 1,
+      "value": "patronName"
+    },
+    {
+      "type": 0,
+      "value": "收取的实际费用"
+    }
+  ],
+  "ui-users.lostItems.modal.bill.title": [
+    {
+      "type": 1,
+      "value": "patronName"
+    },
+    {
+      "type": 0,
+      "value": "的实际费用"
+    }
+  ],
+  "ui-users.lostItems.modal.button.cancel": [
+    {
+      "type": 0,
+      "value": "取消"
+    }
+  ],
+  "ui-users.lostItems.modal.button.confirm": [
+    {
+      "type": 0,
+      "value": "确认"
+    }
+  ],
+  "ui-users.lostItems.modal.button.continue": [
+    {
+      "type": 0,
+      "value": "继续"
+    }
+  ],
+  "ui-users.lostItems.modal.button.keepEditing": [
+    {
+      "type": 0,
+      "value": "继续编辑"
+    }
+  ],
+  "ui-users.lostItems.modal.doNotBill.confirm.text": [
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "patronName"
+        },
+        {
+          "type": 0,
+          "value": " 对于"
+        },
+        {
+          "type": 1,
+          "value": "instanceTitle"
+        },
+        {
+          "type": 0,
+          "value": " ( "
+        },
+        {
+          "type": 1,
+          "value": "materialType"
+        },
+        {
+          "type": 0,
+          "value": " ) "
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "没有遗失单件费用"
+            }
+          ],
+          "type": 8,
+          "value": "strong"
+        },
+        {
+          "type": 0,
+          "value": "。"
+        }
+      ],
+      "type": 8,
+      "value": "div"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "   按下"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "确认"
+            }
+          ],
+          "type": 8,
+          "value": "strong"
+        },
+        {
+          "type": 0,
+          "value": "按钮后， "
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "此操作无法撤消"
+            }
+          ],
+          "type": 8,
+          "value": "strong"
+        },
+        {
+          "type": 0,
+          "value": " 。 "
+        }
+      ],
+      "type": 8,
+      "value": "div"
+    }
+  ],
+  "ui-users.lostItems.modal.doNotBill.confirm.title": [
+    {
+      "type": 0,
+      "value": "确认不为"
+    },
+    {
+      "type": 1,
+      "value": "patronName"
+    },
+    {
+      "type": 0,
+      "value": "创建账单"
+    }
+  ],
+  "ui-users.lostItems.modal.doNotBill.title": [
+    {
+      "type": 0,
+      "value": "不向"
+    },
+    {
+      "type": 1,
+      "value": "patronName"
+    },
+    {
+      "type": 0,
+      "value": "收费"
+    }
+  ],
+  "ui-users.lostItems.modal.feeFineOwner": [
+    {
+      "type": 0,
+      "value": "缴费处"
+    }
+  ],
+  "ui-users.lostItems.modal.feeFineType": [
+    {
+      "type": 0,
+      "value": "费用/罚款类型"
+    }
+  ],
+  "ui-users.lostItems.notification.billed": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "amount"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": "的费用/罚款已成功"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "收取"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": "给"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "patronName"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    }
+  ],
+  "ui-users.lostItems.notification.billedBefore": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "patronName"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": "已由其他用户为此单件付费"
+    }
+  ],
+  "ui-users.lostItems.notification.cancelled": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "不会向"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": " "
+            },
+            {
+              "type": 1,
+              "value": "patronName"
+            },
+            {
+              "type": 0,
+              "value": " "
+            }
+          ],
+          "type": 8,
+          "value": "strong"
+        },
+        {
+          "type": 0,
+          "value": "收取丢失单件费用 < "
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    }
+  ],
+  "ui-users.lostItems.notification.serverError": [
+    {
+      "type": 0,
+      "value": "发生系统错误 - 请稍后重试或联系FOLIO支持人员"
+    }
+  ],
+  "ui-users.lostItems.recordStatus.billed": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "计费： "
+        },
+        {
+          "type": 1,
+          "value": "amount"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    }
+  ],
+  "ui-users.lostItems.recordStatus.notBilled": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "不计费"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    }
+  ],
+  "stripes-acq-components.versionHistory.card.changed": [
+    {
+      "type": 0,
+      "value": "已更改"
+    }
+  ],
+  "stripes-acq-components.versionHistory.card.select.tooltip": [
+    {
+      "type": 0,
+      "value": "查看此版本"
+    }
+  ],
+  "stripes-acq-components.versionHistory.card.version.current": [
+    {
+      "type": 0,
+      "value": "当前版本"
+    }
+  ],
+  "stripes-acq-components.versionHistory.card.version.original": [
+    {
+      "type": 0,
+      "value": "原始版本"
+    }
+  ],
+  "stripes-acq-components.versionHistory.deletedRecord": [
+    {
+      "type": 0,
+      "value": "记录已删除"
+    }
+  ],
+  "stripes-acq-components.versionHistory.pane.header": [
+    {
+      "type": 0,
+      "value": "版本历史"
+    }
+  ],
+  "stripes-acq-components.versionHistory.pane.sub": [
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " version"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " versions"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "count"
+    }
+  ],
+  "stripes-data-transfer-components.create": [
+    {
+      "type": 0,
+      "value": "创建"
+    }
+  ],
+  "stripes-data-transfer-components.modify": [
+    {
+      "type": 0,
+      "value": "修改"
+    }
+  ],
+  "stripes-data-transfer-components.settings.fileExtension.allowImport": [
+    {
+      "type": 0,
+      "value": "允许导入"
+    }
+  ],
+  "stripes-data-transfer-components.settings.fileExtension.blockImport": [
+    {
+      "type": 0,
+      "value": "冻结导入"
+    }
+  ],
+  "stripes-data-transfer-components.update": [
+    {
+      "type": 0,
+      "value": "更新"
     }
   ]
 }

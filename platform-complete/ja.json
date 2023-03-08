@@ -1381,7 +1381,7 @@
   "stripes-components.passwordStrength.infoPopoverText": "Include digits/symbols or make your password longer and more random",
   "stripes-components.passwordStrength.label": "パスワードの安全性:",
   "stripes-components.MessageBanner.dismissButtonAriaLabel": "メッセージを非表示にする",
-  "stripes-components.noValue.noValueSet": "No value set",
+  "stripes-components.noValue.noValueSet": "値が設定されていません",
   "stripes-components.searchFieldIndex": "Search field index",
   "stripes-components.countries.AF": "Afghanistan",
   "stripes-components.countries.AX": "Aland Islands",
@@ -3682,7 +3682,7 @@
   "stripes-smart-components.notes.deleteNote": [
     {
       "type": 0,
-      "value": "Delete note"
+      "value": "メモを削除"
     }
   ],
   "stripes-smart-components.notes.unassignNote": [
@@ -4109,7 +4109,7 @@
   "stripes-smart-components.customFields.defaultValue": [
     {
       "type": 0,
-      "value": "Default value"
+      "value": "デフォルト値"
     }
   ],
   "stripes-smart-components.customFields.cancel": [
@@ -4589,7 +4589,7 @@
   "stripes-smart-components.settings.common.delete": [
     {
       "type": 0,
-      "value": "Delete"
+      "value": "削除"
     }
   ],
   "stripes-smart-components.success.message": [
@@ -5472,11 +5472,7 @@
   "ui-agreements.agreements.editAgreement.name": [
     {
       "type": 0,
-      "value": "Edit agreement - "
-    },
-    {
-      "type": 1,
-      "value": "name"
+      "value": "契約を編集"
     }
   ],
   "ui-agreements.agreements.editFinancesAgreementLines": [
@@ -8314,7 +8310,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Error:"
+          "value": "エラー: "
         }
       ],
       "type": 8,
@@ -8322,7 +8318,7 @@
     },
     {
       "type": 0,
-      "value": " Agreement \""
+      "value": "契約 \" "
     },
     {
       "type": 1,
@@ -8330,7 +8326,7 @@
     },
     {
       "type": 0,
-      "value": "\" was not linked because an agreement cannot be linked to itself."
+      "value": " \" は、契約自体にリンクできないため、リンクされませんでした。"
     }
   ],
   "ui-agreements.relatedAgreements.linkToStart": [
@@ -8568,11 +8564,15 @@
   "ui-agreements.relatedAgreements.remove": [
     {
       "type": 0,
-      "value": "Remove related agreement "
+      "value": "関連する契約"
     },
     {
       "type": 1,
       "value": "index"
+    },
+    {
+      "type": 0,
+      "value": "を削除"
     }
   ],
   "ui-agreements.relatedAgreements.replaceAgreement": [
@@ -8902,7 +8902,7 @@
   "ui-agreements.settings.values": [
     {
       "type": 0,
-      "value": "values"
+      "value": "値"
     }
   ],
   "ui-agreements.status": [
@@ -9450,7 +9450,7 @@
   "ui-bulk-edit.list.preview.table.active": [
     {
       "type": 0,
-      "value": "Active"
+      "value": "有効"
     }
   ],
   "ui-bulk-edit.list.preview.table.barcode": [
@@ -9480,7 +9480,7 @@
   "ui-bulk-edit.list.preview.table.inactive": [
     {
       "type": 0,
-      "value": "Inactive"
+      "value": "非アクティブ"
     }
   ],
   "ui-bulk-edit.list.preview.table.lastName": [
@@ -9702,7 +9702,7 @@
   "ui-bulk-edit.uploaderActiveTitle": [
     {
       "type": 0,
-      "value": "Drop to continue"
+      "value": "ドロップして継続"
     }
   ],
   "ui-bulk-edit.uploaderBtnText": [
@@ -14498,25 +14498,25 @@
   "ui-circulation.settings.loanPolicy.deleteLoanPolicy": [
     {
       "type": 0,
-      "value": "Delete loan policy"
+      "value": "ローン ポリシーの削除"
     }
   ],
   "ui-circulation.settings.loanPolicy.deleteMessage": [
     {
       "type": 1,
-      "value": "name"
+      "value": "名前"
     },
     {
       "type": 0,
-      "value": " will be "
+      "value": "は"
     },
     {
       "type": 1,
-      "value": "removed"
+      "value": "削除"
     },
     {
       "type": 0,
-      "value": "."
+      "value": "されます。"
     }
   ],
   "ui-circulation.settings.loanPolicy.denyDelete.header": [
@@ -15608,7 +15608,7 @@
   "ui-circulation.settings.patronNotices.predefinedWarning": [
     {
       "type": 0,
-      "value": "This is a predefined notice and cannot be deleted"
+      "value": "これはあらかじめ設定された通知であり、削除することはできません"
     }
   ],
   "ui-circulation.settings.patronNotices.preview": [
@@ -15816,27 +15816,21 @@
   "ui-circulation.settings.staffSlips.deleteStaffSlipMessage": [
     {
       "type": 0,
-      "value": "The staff slip "
-    },
-    {
-      "children": [
-        {
-          "type": 1,
-          "value": "name"
-        }
-      ],
-      "type": 8,
-      "value": "strong"
-    },
-    {
-      "type": 0,
-      "value": " will be "
+      "value": "スタッフスリップ"
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "deleted"
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "name"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -15844,7 +15838,21 @@
     },
     {
       "type": 0,
-      "value": "."
+      "value": "は"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "削除"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": "されます。"
     }
   ],
   "ui-circulation.settings.staffSlips.description": [
@@ -16038,7 +16046,7 @@
   "ui-circulation.settings.validate.greaterThanOrEqualToZero": [
     {
       "type": 0,
-      "value": "The value must be greater than or equal to 0"
+      "value": "値は 0 以上である必要があります"
     }
   ],
   "ui-circulation.settings.validate.greaterThanZero": [
@@ -17028,7 +17036,7 @@
   "ui-courses.delete": [
     {
       "type": 0,
-      "value": "Delete"
+      "value": "削除"
     }
   ],
   "ui-courses.duplicateCourse": [
@@ -18929,25 +18937,25 @@
   "ui-data-import.match.incoming.static.value-type.date": [
     {
       "type": 0,
-      "value": "Date"
+      "value": "日付"
     }
   ],
   "ui-data-import.match.incoming.static.value-type.date-range": [
     {
       "type": 0,
-      "value": "Date range"
+      "value": "日付の範囲"
     }
   ],
   "ui-data-import.match.incoming.static.value-type.number": [
     {
       "type": 0,
-      "value": "Number"
+      "value": "数字"
     }
   ],
   "ui-data-import.match.incoming.static.value-type.text": [
     {
       "type": 0,
-      "value": "Text"
+      "value": "テキスト"
     }
   ],
   "ui-data-import.match.metadata": [
@@ -18989,19 +18997,19 @@
   "ui-data-import.match.static-value-type.date": [
     {
       "type": 0,
-      "value": "Date"
+      "value": "日付"
     }
   ],
   "ui-data-import.match.static-value-type.number": [
     {
       "type": 0,
-      "value": "Number"
+      "value": "数字"
     }
   ],
   "ui-data-import.match.static-value-type.text": [
     {
       "type": 0,
-      "value": "Text"
+      "value": "テキスト"
     }
   ],
   "ui-data-import.match.value-type.static-value": [
@@ -19071,7 +19079,7 @@
   "ui-data-import.modal.fileExtension.delete.message": [
     {
       "type": 0,
-      "value": "Delete file extension?"
+      "value": "ファイルの拡張子を削除しますか？"
     }
   ],
   "ui-data-import.modal.fileExtensions.actionButton": [
@@ -19339,7 +19347,7 @@
   "ui-data-import.modal.matchProfile.delete.header": [
     {
       "type": 0,
-      "value": "Delete \""
+      "value": "「 "
     },
     {
       "type": 1,
@@ -19347,7 +19355,7 @@
     },
     {
       "type": 0,
-      "value": "\" match profile?"
+      "value": " 」一致プロファイルを削除しますか?"
     }
   ],
   "ui-data-import.modal.matchProfile.delete.message": [
@@ -20263,7 +20271,7 @@
   "ui-data-import.settings.mappingProfile.marcTable.deleteField": [
     {
       "type": 0,
-      "value": "Delete this field"
+      "value": "このフィールドを削除"
     }
   ],
   "ui-data-import.settings.mappingProfile.marcTable.header.action": [
@@ -21626,19 +21634,19 @@
   "ui-data-import.settings.mappingProfiles.map.invoice.vendorInformation.field.vendorName": [
     {
       "type": 0,
-      "value": "Vendor name"
+      "value": "ベンダー名"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.invoice.vendorInformation.section": [
     {
       "type": 0,
-      "value": "Vendor information"
+      "value": "ベンダー情報"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.item": [
     {
       "type": 0,
-      "value": "Item"
+      "value": "アイテム"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.item.administrativeData.field.accessionNumber": [
@@ -23342,7 +23350,7 @@
   "ui-data-import.settings.matchProfiles.vendor": [
     {
       "type": 0,
-      "value": "Vendor"
+      "value": "ベンダー"
     }
   ],
   "ui-data-import.settings.matchProfiles.vendorInvoiceNo": [
@@ -23354,7 +23362,7 @@
   "ui-data-import.settings.matchProfiles.vendorName": [
     {
       "type": 0,
-      "value": "Vendor name"
+      "value": "ベンダー名"
     }
   ],
   "ui-data-import.settings.matchProfiles.vendorRefNumber": [
@@ -23742,7 +23750,7 @@
   "ui-data-import.validation.enterOther": [
     {
       "type": 0,
-      "value": "Please enter other value"
+      "value": "他の値を入力してください。"
     }
   ],
   "ui-data-import.validation.enterValue": [
@@ -23848,7 +23856,7 @@
   "ui-data-export.delete": [
     {
       "type": 0,
-      "value": "Delete"
+      "value": "削除"
     }
   ],
   "ui-data-export.description": [
@@ -30198,7 +30206,7 @@
   "ui-eholdings.permission.app.enabled": [
     {
       "type": 0,
-      "value": "UI: 電子所蔵モジュールが有効になっています"
+      "value": "UI: 電子所蔵モジュールを有効にする"
     }
   ],
   "ui-eholdings.permission.costperuse.view": [
@@ -39169,7 +39177,7 @@
   "ui-inventory.confirmHoldingsRecordDeleteModal.confirm": [
     {
       "type": 0,
-      "value": "Confirm"
+      "value": "確認"
     }
   ],
   "ui-inventory.confirmHoldingsRecordDeleteModal.heading": [
@@ -39229,7 +39237,7 @@
   "ui-inventory.confirmItemDeleteModal.confirm": [
     {
       "type": 0,
-      "value": "Confirm"
+      "value": "確認"
     }
   ],
   "ui-inventory.confirmItemDeleteModal.heading": [
@@ -39532,7 +39540,7 @@
   "ui-inventory.copycat.enterIdentifier": [
     {
       "type": 0,
-      "value": "Enter "
+      "value": "Enter the "
     },
     {
       "type": 1,
@@ -39572,7 +39580,7 @@
   "ui-inventory.copycat.reimport": [
     {
       "type": 0,
-      "value": "Overlay source bibliographic record"
+      "value": "Re-import"
     }
   ],
   "ui-inventory.createHoldingsRecord": [
@@ -39674,7 +39682,7 @@
   "ui-inventory.deleteStatement": [
     {
       "type": 0,
-      "value": "Delete statement"
+      "value": "ステートメントを削除する"
     }
   ],
   "ui-inventory.descriptionOfPieces": [
@@ -40076,28 +40084,34 @@
   ],
   "ui-inventory.holdingsHeader": [
     {
-      "type": 0,
-      "value": "Holdings: "
-    },
-    {
-      "type": 1,
-      "value": "location"
-    },
-    {
-      "type": 0,
-      "value": " > "
-    },
-    {
-      "type": 1,
-      "value": "callNumber"
-    },
-    {
-      "type": 0,
-      "value": " "
-    },
-    {
-      "type": 1,
-      "value": "copyNumber"
+      "children": [
+        {
+          "type": 0,
+          "value": "Holdings: "
+        },
+        {
+          "type": 1,
+          "value": "location"
+        },
+        {
+          "type": 0,
+          "value": " > "
+        },
+        {
+          "type": 1,
+          "value": "callNumber"
+        },
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "copyNumber"
+        }
+      ],
+      "type": 8,
+      "value": "span"
     }
   ],
   "ui-inventory.holdingsHrid": [
@@ -40487,7 +40501,7 @@
   "ui-inventory.hridHandling.validation.maxLength": [
     {
       "type": 0,
-      "value": "Invalid value. Maximum "
+      "value": "値が無効です。最大"
     },
     {
       "type": 1,
@@ -40495,7 +40509,7 @@
     },
     {
       "type": 0,
-      "value": " characters allowed"
+      "value": "文字が許可されています"
     }
   ],
   "ui-inventory.hridHandling.validation.startWithField": [
@@ -44358,7 +44372,7 @@
   "ui-invoice.errors.invoiceHasNotBeenDeleted": [
     {
       "type": 0,
-      "value": "Invoice has not been deleted"
+      "value": "請求書は削除されていません"
     }
   ],
   "ui-invoice.errors.invoiceHasNotBeenSaved": [
@@ -44370,7 +44384,7 @@
   "ui-invoice.errors.invoiceLineHasNotBeenDeleted": [
     {
       "type": 0,
-      "value": "Invoice has not been deleted"
+      "value": "請求書は削除されていません"
     }
   ],
   "ui-invoice.errors.invoiceLineHasNotBeenSaved": [
@@ -44602,27 +44616,17 @@
   "ui-invoice.invoice.actions.approve.error.inactiveExpenseClass": [
     {
       "type": 0,
-      "value": "Invoice can not be "
-    },
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "Approved"
-        }
-      ],
-      "type": 8,
-      "value": "b"
-    },
-    {
-      "type": 0,
-      "value": " because expense class "
+      "value": "経費クラス"
     },
     {
       "children": [
         {
           "type": 1,
           "value": "expenseClass"
+        },
+        {
+          "type": 0,
+          "value": "が"
         }
       ],
       "type": 8,
@@ -44630,7 +44634,21 @@
     },
     {
       "type": 0,
-      "value": " is inactive."
+      "value": "無効なため、注文を"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "開く"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "ことができません。"
     }
   ],
   "ui-invoice.invoice.actions.approve.error.lineFundDistributionsSummaryMismatch": [
@@ -44878,27 +44896,17 @@
   "ui-invoice.invoice.actions.pay.error.inactiveExpenseClass": [
     {
       "type": 0,
-      "value": "Invoice can not be "
-    },
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "Payed"
-        }
-      ],
-      "type": 8,
-      "value": "b"
-    },
-    {
-      "type": 0,
-      "value": " because expense class "
+      "value": "経費クラス"
     },
     {
       "children": [
         {
           "type": 1,
           "value": "expenseClass"
+        },
+        {
+          "type": 0,
+          "value": "が"
         }
       ],
       "type": 8,
@@ -44906,7 +44914,21 @@
     },
     {
       "type": 0,
-      "value": " is inactive."
+      "value": "無効なため、注文を"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "開く"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "ことができません。"
     }
   ],
   "ui-invoice.invoice.actions.pay.success": [
@@ -45851,10 +45873,6 @@
     {
       "type": 1,
       "value": "poLineNumber"
-    },
-    {
-      "type": 0,
-      "value": "."
     }
   ],
   "ui-invoice.invoiceLine.subTotal": [
@@ -45978,7 +45996,7 @@
   "ui-invoice.otherRelatedInvoiceLines.vendorName": [
     {
       "type": 0,
-      "value": "Vendor name"
+      "value": "ベンダー名"
     }
   ],
   "ui-invoice.permission.acq.unit.assignment.assign": [
@@ -46792,7 +46810,7 @@
   "ui-finance.budget.actions.remove.error.genericError": [
     {
       "type": 0,
-      "value": "Budget has not been deleted"
+      "value": "予算は削除されていません"
     }
   ],
   "ui-finance.budget.actions.remove.error.transactionIsPresentBudgetDeleteError": [
@@ -47092,7 +47110,7 @@
   "ui-finance.budget.remove.message": [
     {
       "type": 0,
-      "value": "Are you sure you want to delete budget?"
+      "value": "予算を削除してもよろしいですか？"
     }
   ],
   "ui-finance.budget.save": [
@@ -49446,7 +49464,7 @@
   "ui-ldp.nulls.start": "Nulls at start",
   "ui-ldp.nulls.end": "Nulls at end",
   "ui-ldp.placeholder.column": "(Column)",
-  "ui-ldp.placeholder.value": "(Value)",
+  "ui-ldp.placeholder.value": "(値)",
   "ui-ldp.placeholder.columns.all": "(All)",
   "ui-ldp.button.save-query": "Save query",
   "ui-ldp.button.add-filter": "Add filter",
@@ -50570,7 +50588,7 @@
   "ui-licenses.section.parentLicenseAgreements": [
     {
       "type": 0,
-      "value": "Agreements linked to the parent license"
+      "value": "親ライセンスにリンクされた契約"
     }
   ],
   "ui-licenses.section.supplementaryDocuments": [
@@ -51215,7 +51233,7 @@
   "ui-local-kb-admin.job.delete.heading": [
     {
       "type": 0,
-      "value": "Delete job"
+      "value": "ジョブの削除"
     }
   ],
   "ui-local-kb-admin.job.delete.heading.org.olf.general.jobs.IdentifierReassignmentJob": [
@@ -51269,13 +51287,21 @@
   "ui-local-kb-admin.job.delete.message": [
     {
       "type": 0,
-      "value": "Job "
+      "value": "ジョブ"
     },
     {
       "children": [
         {
+          "type": 0,
+          "value": " "
+        },
+        {
           "type": 1,
           "value": "name"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -51283,13 +51309,13 @@
     },
     {
       "type": 0,
-      "value": " will be "
+      "value": "は"
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "deleted"
+          "value": "削除されます"
         }
       ],
       "type": 8,
@@ -52203,7 +52229,7 @@
   "ui-local-kb-admin.settings.externalDataSources.confirmMessage.active": [
     {
       "type": 0,
-      "value": "The external data source was last used to update the knowledgebase "
+      "value": "外部データ ソースがナレッジベースの更新に最後に使用されたのは"
     },
     {
       "type": 1,
@@ -52211,7 +52237,7 @@
     },
     {
       "type": 0,
-      "value": " hours ago. Only reset the sync status if you are sure the remote KB has incorrectly become stuck in an in-process state."
+      "value": "時間前です。リモート KB が誤って処理中の状態になっていることが確実な場合にのみ、同期ステータスをリセットしてください。"
     }
   ],
   "ui-local-kb-admin.settings.externalDataSources.confirmMessage.passive": [
@@ -53320,7 +53346,7 @@
   "ui-oai-pmh.settings.confirmDeleteSetsModal.confirm": [
     {
       "type": 0,
-      "value": "Delete"
+      "value": "削除"
     }
   ],
   "ui-oai-pmh.settings.confirmDeleteSetsModal.heading": [
@@ -53412,7 +53438,7 @@
   "ui-oai-pmh.settings.sets.action.delete": [
     {
       "type": 0,
-      "value": "Delete"
+      "value": "削除"
     }
   ],
   "ui-oai-pmh.settings.sets.action.duplicate": [
@@ -54456,7 +54482,7 @@
   "ui-orders.deletePiece.btn.deletePiece": [
     {
       "type": 0,
-      "value": "Delete"
+      "value": "削除"
     }
   ],
   "ui-orders.deletePiece.delete.fail": [
@@ -54946,27 +54972,17 @@
   "ui-orders.errors.openOrder.inactiveExpenseClass": [
     {
       "type": 0,
-      "value": "Order can NOT be "
-    },
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "Opened"
-        }
-      ],
-      "type": 8,
-      "value": "b"
-    },
-    {
-      "type": 0,
-      "value": " because expense class "
+      "value": "経費クラス"
     },
     {
       "children": [
         {
           "type": 1,
           "value": "expenseClass"
+        },
+        {
+          "type": 0,
+          "value": "が"
         }
       ],
       "type": 8,
@@ -54974,7 +54990,21 @@
     },
     {
       "type": 0,
-      "value": " is inactive."
+      "value": "無効なため、注文を"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "開く"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "ことができません。"
     }
   ],
   "ui-orders.errors.orderAcqUnitsNotFound": [
@@ -55706,7 +55736,7 @@
   "ui-orders.line.paneTitle.details": [
     {
       "type": 0,
-      "value": "PO Line details - "
+      "value": "POライン詳細 - "
     },
     {
       "type": 1,
@@ -56376,7 +56406,7 @@
   "ui-orders.orderDetails.manualPO.info": [
     {
       "type": 0,
-      "value": "When this checkbox is active the order will be excluded from any automated transmission. No matter what other settings are active for the order lines or related organization."
+      "value": "このチェックボックスが有効になっている場合、注文明細行または関連する組織に対して有効な他の設定に関係なく注文は自動送信から除外されます。"
     }
   ],
   "ui-orders.orderDetails.note": [
@@ -57600,7 +57630,7 @@
   "ui-orders.relatedAgreementLines.endDate": [
     {
       "type": 0,
-      "value": "Active to"
+      "value": "有効終了"
     }
   ],
   "ui-orders.relatedAgreementLines.name": [
@@ -58395,7 +58425,7 @@
   "ui-orders.settings.orderTemplates.confirmDelete.message": [
     {
       "type": 0,
-      "value": "Are you sure you want to delete the template?"
+      "value": "テンプレートを削除してもよろしいですか?"
     }
   ],
   "ui-orders.settings.orderTemplates.editor.save": [
@@ -58449,13 +58479,13 @@
   "ui-orders.settings.orderTemplates.remove.error": [
     {
       "type": 0,
-      "value": "The template was not deleted"
+      "value": "テンプレートは削除されませんでした"
     }
   ],
   "ui-orders.settings.orderTemplates.remove.success": [
     {
       "type": 0,
-      "value": "The template was deleted"
+      "value": "テンプレートは削除されました"
     }
   ],
   "ui-orders.settings.orderTemplates.save.error": [
@@ -59625,13 +59655,13 @@
   "ui-organizations.contacts.confirmDelete.heading": [
     {
       "type": 0,
-      "value": "Delete contact"
+      "value": "連絡先を削除"
     }
   ],
   "ui-organizations.contacts.confirmDelete.message": [
     {
       "type": 0,
-      "value": "Are you sure you want to delete the contact?"
+      "value": "連絡先を削除してもよろしいですか?"
     }
   ],
   "ui-organizations.contacts.confirmUnassign.confirmLabel": [
@@ -59671,13 +59701,13 @@
   "ui-organizations.contacts.message.deleted.fail": [
     {
       "type": 0,
-      "value": "The contact was not deleted"
+      "value": "連絡先は削除されませんでした"
     }
   ],
   "ui-organizations.contacts.message.deleted.success": [
     {
       "type": 0,
-      "value": "The contact was deleted"
+      "value": "連絡先は削除されました"
     }
   ],
   "ui-organizations.contacts.message.saved.fail": [
@@ -60101,7 +60131,7 @@
   "ui-organizations.integration.ftp.ftpConnectionMode.Active": [
     {
       "type": 0,
-      "value": "Active"
+      "value": "有効"
     }
   ],
   "ui-organizations.integration.ftp.ftpConnectionMode.Passive": [
@@ -60445,13 +60475,13 @@
   "ui-organizations.interface.confirmDelete.confirmLabel": [
     {
       "type": 0,
-      "value": "Confirm"
+      "value": "確認"
     }
   ],
   "ui-organizations.interface.confirmDelete.heading": [
     {
       "type": 0,
-      "value": "Delete interface"
+      "value": "インターフェイスの削除"
     }
   ],
   "ui-organizations.interface.confirmDelete.message": [
@@ -60689,21 +60719,17 @@
   "ui-organizations.organization.delete.confirmLabel": [
     {
       "type": 0,
-      "value": "Delete"
+      "value": "削除"
     }
   ],
   "ui-organizations.organization.delete.heading": [
-    {
-      "type": 0,
-      "value": "Delete "
-    },
     {
       "type": 1,
       "value": "organizationName"
     },
     {
       "type": 0,
-      "value": "?"
+      "value": "を削除しますか?"
     }
   ],
   "ui-organizations.organization.delete.success": [
@@ -61782,13 +61808,13 @@
   "ui-plugin-find-agreement.agreements.endDate": [
     {
       "type": 0,
-      "value": "End date"
+      "value": "終了日"
     }
   ],
   "ui-plugin-find-agreement.agreements.internalContacts": [
     {
       "type": 0,
-      "value": "Internal contacts"
+      "value": "内部連絡先"
     }
   ],
   "ui-plugin-find-agreement.agreements.internalContactsRole": [
@@ -61800,7 +61826,7 @@
   "ui-plugin-find-agreement.agreements.startDate": [
     {
       "type": 0,
-      "value": "Start date"
+      "value": "開始日"
     }
   ],
   "ui-plugin-find-agreement.meta.title": [
@@ -63524,7 +63550,7 @@
   "ui-quick-marc.record.delete.title": [
     {
       "type": 0,
-      "value": "Delete fields"
+      "value": "フィールドの削除"
     }
   ],
   "ui-quick-marc.record.deleteField": [
@@ -64580,91 +64606,91 @@
   "ui-quick-marc.record.physDescription.categoryOfMaterial.a": [
     {
       "type": 0,
-      "value": "Map"
+      "value": "地図"
     }
   ],
   "ui-quick-marc.record.physDescription.categoryOfMaterial.c": [
     {
       "type": 0,
-      "value": "Electronic resource"
+      "value": "電子リソース"
     }
   ],
   "ui-quick-marc.record.physDescription.categoryOfMaterial.d": [
     {
       "type": 0,
-      "value": "Globe"
+      "value": "地球儀"
     }
   ],
   "ui-quick-marc.record.physDescription.categoryOfMaterial.f": [
     {
       "type": 0,
-      "value": "Tactile material"
+      "value": "参考資料"
     }
   ],
   "ui-quick-marc.record.physDescription.categoryOfMaterial.g": [
     {
       "type": 0,
-      "value": "Projected graphic"
+      "value": "投影グラフィック"
     }
   ],
   "ui-quick-marc.record.physDescription.categoryOfMaterial.h": [
     {
       "type": 0,
-      "value": "Microform"
+      "value": "マイクロフォーム"
     }
   ],
   "ui-quick-marc.record.physDescription.categoryOfMaterial.k": [
     {
       "type": 0,
-      "value": "Nonprojected graphic"
+      "value": "非投影グラフィック"
     }
   ],
   "ui-quick-marc.record.physDescription.categoryOfMaterial.m": [
     {
       "type": 0,
-      "value": "Motion picture"
+      "value": "映画"
     }
   ],
   "ui-quick-marc.record.physDescription.categoryOfMaterial.o": [
     {
       "type": 0,
-      "value": "Kit"
+      "value": "キット"
     }
   ],
   "ui-quick-marc.record.physDescription.categoryOfMaterial.q": [
     {
       "type": 0,
-      "value": "Notated music"
+      "value": "記譜された音楽"
     }
   ],
   "ui-quick-marc.record.physDescription.categoryOfMaterial.r": [
     {
       "type": 0,
-      "value": "Remote-sensing image"
+      "value": "リモートセンシングイメージ"
     }
   ],
   "ui-quick-marc.record.physDescription.categoryOfMaterial.s": [
     {
       "type": 0,
-      "value": "Sound recording"
+      "value": "音声収録"
     }
   ],
   "ui-quick-marc.record.physDescription.categoryOfMaterial.t": [
     {
       "type": 0,
-      "value": "Text"
+      "value": "テキスト"
     }
   ],
   "ui-quick-marc.record.physDescription.categoryOfMaterial.v": [
     {
       "type": 0,
-      "value": "Videorecording"
+      "value": "ビデオレコーディング"
     }
   ],
   "ui-quick-marc.record.physDescription.categoryOfMaterial.z": [
     {
       "type": 0,
-      "value": "Unspecified"
+      "value": "不明"
     }
   ],
   "ui-quick-marc.record.save.error.generic": [
@@ -66803,7 +66829,7 @@
   "ui-remote-storage.synchronization.schedule.info.notValid": [
     {
       "type": 0,
-      "value": "Value must be positive integer"
+      "value": "値は正の整数でなければなりません"
     }
   ],
   "ui-remote-storage.synchronization.schedule.info.weeks": [
@@ -71008,7 +71034,7 @@
   "ui-tenant-settings.settings.location.locations.deleteLocation": [
     {
       "type": 0,
-      "value": "Delete location?"
+      "value": "位置情報を削除しますか？"
     }
   ],
   "ui-tenant-settings.settings.location.locations.deleteLocationMessage": [
@@ -71016,7 +71042,11 @@
       "children": [
         {
           "type": 1,
-          "value": "name"
+          "value": "名前"
+        },
+        {
+          "type": 0,
+          "value": "は"
         }
       ],
       "type": 8,
@@ -71024,17 +71054,21 @@
     },
     {
       "type": 0,
-      "value": " will be "
+      "value": " "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "removed"
+          "value": "削除"
         }
       ],
       "type": 8,
       "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": "されます"
     }
   ],
   "ui-tenant-settings.settings.location.locations.description": [
@@ -71418,7 +71452,7 @@
   "ui-tenant-settings.settings.servicePoints.delete": [
     {
       "type": 0,
-      "value": "Delete"
+      "value": "削除"
     }
   ],
   "ui-tenant-settings.settings.servicePoints.deleteServicePoint": [
@@ -74367,7 +74401,7 @@
   "ui-users.deleteSponsorPrompt": [
     {
       "type": 0,
-      "value": "Delete Sponsor?"
+      "value": "スポンサーを削除しますか?"
     }
   ],
   "ui-users.departments": [
@@ -75013,27 +75047,21 @@
   "ui-users.feefines.callout": [
     {
       "type": 0,
-      "value": "The Fee/Fine Type "
-    },
-    {
-      "children": [
-        {
-          "type": 1,
-          "value": "feefine"
-        }
-      ],
-      "type": 8,
-      "value": "strong"
-    },
-    {
-      "type": 0,
-      "value": " was successfully "
+      "value": "手数料/罰金の種類"
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "deleted"
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "feefine"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -75041,7 +75069,21 @@
     },
     {
       "type": 0,
-      "value": "."
+      "value": "は"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "削除"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": "されました。"
     }
   ],
   "ui-users.feefines.columns.actionNotice": [
@@ -75089,7 +75131,7 @@
   "ui-users.feefines.disabledItem": [
     {
       "type": 0,
-      "value": "Fee/fine Type cannot be deleted when used by one or more user accounts"
+      "value": "料金/罰金タイプは、1 つ以上のユーザー アカウントで使用されている場合は削除できません"
     }
   ],
   "ui-users.feefines.errors.amountNumeric": [
@@ -75201,19 +75243,27 @@
   "ui-users.feefines.modalHeader": [
     {
       "type": 0,
-      "value": "Delete Fee/Fine Type?"
+      "value": "料金/罰金の種類を削除しますか?"
     }
   ],
   "ui-users.feefines.modalMessage": [
     {
       "type": 0,
-      "value": "The Fee/Fine Type "
+      "value": "料金/罰金の種類"
     },
     {
       "children": [
         {
+          "type": 0,
+          "value": " "
+        },
+        {
           "type": 1,
           "value": "feefine"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -75221,17 +75271,21 @@
     },
     {
       "type": 0,
-      "value": " will be "
+      "value": "は"
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "deleted"
+          "value": "削除"
         }
       ],
       "type": 8,
       "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " > されます"
     }
   ],
   "ui-users.feefines.nodata": [
@@ -77569,10 +77623,6 @@
   ],
   "ui-users.proxyWillBeDeleted": [
     {
-      "type": 0,
-      "value": "The proxy relationship of "
-    },
-    {
       "children": [
         {
           "type": 1,
@@ -77584,7 +77634,7 @@
     },
     {
       "type": 0,
-      "value": " to "
+      "value": " から "
     },
     {
       "children": [
@@ -77598,7 +77648,7 @@
     },
     {
       "type": 0,
-      "value": " will be deleted."
+      "value": " へのプロキシ関係が削除されます。"
     }
   ],
   "ui-users.refunds.columns.description": [
@@ -80747,13 +80797,13 @@
   "stripes-data-transfer-components.delete": [
     {
       "type": 0,
-      "value": "Delete"
+      "value": "削除"
     }
   ],
   "stripes-data-transfer-components.filter.errors": [
     {
       "type": 0,
-      "value": "Errors in import"
+      "value": "Errors in export"
     }
   ],
   "stripes-data-transfer-components.filter.date": [
@@ -80795,13 +80845,13 @@
   "stripes-data-transfer-components.filter.option.no": [
     {
       "type": 0,
-      "value": "no"
+      "value": "NO"
     }
   ],
   "stripes-data-transfer-components.filter.option.yes": [
     {
       "type": 0,
-      "value": "yes"
+      "value": "YES"
     }
   ],
   "ui-agreements.duplicateAgreementModal.supplementaryInformation": [
@@ -81547,9 +81597,9 @@
     }
   ],
   "ui-ldp.saved-queries.delete.deleteQuery": "Delete query?",
-  "ui-ldp.saved-queries.delete.createdBy": "Created by <code>{creator}</code>",
+  "ui-ldp.saved-queries.delete.createdBy": "Created by <code>{creator}</code>, {created}",
   "ui-ldp.saved-queries.delete.confirm": "Confirm",
-  "ui-ldp.saved-queries.delete.deleted": "Deleted query <code>{name}</code>. Note that it may take some time before the query is no longer visible in the list.",
+  "ui-ldp.saved-queries.delete.deleted": "Deleted query <b>{name}</b>.",
   "ui-requests.requests": [
     {
       "type": 1,
@@ -81617,7 +81667,7 @@
   "stripes-acq-components.fundDistribution.fundStatus.Inactive": [
     {
       "type": 0,
-      "value": "Inactive"
+      "value": "非アクティブ"
     }
   ],
   "stripes-acq-components.holdings.deleteModal.heading": [
@@ -82247,7 +82297,7 @@
   "ui-agreements.supplementaryProperty.help.category": [
     {
       "type": 0,
-      "value": "Supplementary properties can be categorised. Each category will appear as a separate accordion when viewing or editing the agreement."
+      "value": "補足条件は分類できます。各カテゴリは、ライセンスを表示または編集するときに個別のアコーディオンとして表示されます。"
     }
   ],
   "ui-agreements.supplementaryProperty.help.label": [
@@ -83426,7 +83476,7 @@
   "ui-eholdings.exportPackageResources.fields.package.agreements": [
     {
       "type": 0,
-      "value": "Agreements"
+      "value": "契約"
     }
   ],
   "ui-eholdings.exportPackageResources.fields.package.automaticallySelectTitles": [
@@ -83528,7 +83578,7 @@
   "ui-eholdings.exportPackageResources.fields.title.agreements": [
     {
       "type": 0,
-      "value": "Agreements"
+      "value": "契約"
     }
   ],
   "ui-eholdings.exportPackageResources.fields.title.alternateTitles": [
@@ -83844,7 +83894,7 @@
   "ui-finance.exportCSV.exportSettings.expenseClasses.active": [
     {
       "type": 0,
-      "value": "Active"
+      "value": "有効"
     }
   ],
   "ui-finance.exportCSV.exportSettings.expenseClasses.all": [
@@ -83856,7 +83906,7 @@
   "ui-finance.exportCSV.exportSettings.expenseClasses.inactive": [
     {
       "type": 0,
-      "value": "Inactive"
+      "value": "非アクティブ"
     }
   ],
   "ui-finance.exportCSV.exportSettings.expenseClasses.none": [
@@ -84098,7 +84148,7 @@
   "ui-invoice.adjustment.value": [
     {
       "type": 0,
-      "value": "Value"
+      "value": "値"
     }
   ],
   "ui-invoice.button.exportCSV": [
@@ -84312,7 +84362,7 @@
   "ui-invoice.settings.adjustments.value": [
     {
       "type": 0,
-      "value": "Value"
+      "value": "値"
     }
   ],
   "ui-invoice.voucherExport.batchGroup.select": [
@@ -84447,7 +84497,7 @@
   "ui-licenses.terms.help.category": [
     {
       "type": 0,
-      "value": "Terms can be categorised. Each category will appear as a separate accordion when viewing or editing the license."
+      "value": "条件は分類できます。各カテゴリは、ライセンスを表示または編集するときに個別のアコーディオンとして表示されます。"
     }
   ],
   "ui-licenses.terms.help.label": [
@@ -84953,31 +85003,31 @@
   "ui-organizations.linkedAgreements.agreement.agreementStatus": [
     {
       "type": 0,
-      "value": "Agreement status"
+      "value": "契約のステータス"
     }
   ],
   "ui-organizations.linkedAgreements.agreement.agreementStatus.active": [
     {
       "type": 0,
-      "value": "Active"
+      "value": "有効"
     }
   ],
   "ui-organizations.linkedAgreements.agreement.agreementStatus.closed": [
     {
       "type": 0,
-      "value": "Closed"
+      "value": "クローズ"
     }
   ],
   "ui-organizations.linkedAgreements.agreement.agreementStatus.draft": [
     {
       "type": 0,
-      "value": "Draft"
+      "value": "ドラフト"
     }
   ],
   "ui-organizations.linkedAgreements.agreement.agreementStatus.in_negotiation": [
     {
       "type": 0,
-      "value": "In negotiation"
+      "value": "交渉中"
     }
   ],
   "ui-organizations.linkedAgreements.agreement.agreementStatus.requested": [
@@ -84989,7 +85039,7 @@
   "ui-organizations.linkedAgreements.agreement.endDate": [
     {
       "type": 0,
-      "value": "Period End"
+      "value": "期間終了日"
     }
   ],
   "ui-organizations.linkedAgreements.agreement.name": [
@@ -85001,13 +85051,13 @@
   "ui-organizations.linkedAgreements.agreement.startDate": [
     {
       "type": 0,
-      "value": "Period start"
+      "value": "期間開始日"
     }
   ],
   "ui-organizations.linkedAgreements.section": [
     {
       "type": 0,
-      "value": "Agreements"
+      "value": "契約"
     }
   ],
   "ui-organizations.permission.integrations.creds.edit": [
@@ -85043,13 +85093,13 @@
   "ui-organizations.settings.typeStatus.Active": [
     {
       "type": 0,
-      "value": "Active"
+      "value": "有効"
     }
   ],
   "ui-organizations.settings.typeStatus.Inactive": [
     {
       "type": 0,
-      "value": "Inactive"
+      "value": "非アクティブ"
     }
   ],
   "ui-organizations.settings.types": [
@@ -85719,19 +85769,19 @@
   "ui-agreements.agreementLines.activeFrom": [
     {
       "type": 0,
-      "value": "Active from"
+      "value": "有効開始"
     }
   ],
   "ui-agreements.agreementLines.activeFrom.includeNoDateSet": [
     {
       "type": 0,
-      "value": "Include lines with no active from date set"
+      "value": "有効開始日が設定されていない明細を含める"
     }
   ],
   "ui-agreements.agreementLines.activeTo": [
     {
       "type": 0,
-      "value": "Active to"
+      "value": "有効終了"
     }
   ],
   "ui-agreements.agreementLines.activeTo.includeNoDateSet": [
@@ -85827,13 +85877,13 @@
   "ui-agreements.agreements.agreementLines.searchInputLabel": [
     {
       "type": 0,
-      "value": "Search Agreement lines"
+      "value": "契約明細行の検索"
     }
   ],
   "ui-agreements.agreementsSearch": [
     {
       "type": 0,
-      "value": "Agreements search"
+      "value": "契約を検索"
     }
   ],
   "ui-agreements.alternativeName": [
@@ -85875,7 +85925,7 @@
   "ui-agreements.customProperties.category": [
     {
       "type": 0,
-      "value": "Pick list"
+      "value": "選択リスト"
     }
   ],
   "ui-agreements.customProperties.config.all": [
@@ -85967,7 +86017,7 @@
   "ui-agreements.customProperties.ctx": [
     {
       "type": 0,
-      "value": "Category"
+      "value": "カテゴリー"
     }
   ],
   "ui-agreements.customProperties.ctx.OpenAccess": [
@@ -85979,11 +86029,7 @@
   "ui-agreements.customProperties.ctx.addContext": [
     {
       "type": 0,
-      "value": "Add category "
-    },
-    {
-      "type": 1,
-      "value": "value"
+      "value": "カテゴリーを入力してください"
     }
   ],
   "ui-agreements.customProperties.ctx.title": [],
@@ -86022,13 +86068,13 @@
   "ui-agreements.customProperties.errors.customPropertyNoteWithoutValue": [
     {
       "type": 0,
-      "value": "A value must be set in order to save a note"
+      "value": "ノートを保存するためには、値を設定する必要があります。"
     }
   ],
   "ui-agreements.customProperties.errors.primaryRetired": [
     {
       "type": 0,
-      "value": "A supplementary property cannot be both primary and deprecated"
+      "value": "補足プロパティをプライマリと不使用の両方にすることはできません"
     }
   ],
   "ui-agreements.customProperties.internalFalse": [
@@ -86064,7 +86110,7 @@
   "ui-agreements.customProperties.noCtxFound": [
     {
       "type": 0,
-      "value": "No matching category found"
+      "value": "一致するカテゴリーが見つかりません！"
     }
   ],
   "ui-agreements.customProperties.optionalProperties": [
@@ -86094,7 +86140,7 @@
   "ui-agreements.customProperties.retired": [
     {
       "type": 0,
-      "value": "Deprecated"
+      "value": "不使用"
     }
   ],
   "ui-agreements.customProperties.type": [
@@ -86166,7 +86212,7 @@
   "ui-agreements.customProperties.value": [
     {
       "type": 0,
-      "value": "Value(s)"
+      "value": "値"
     }
   ],
   "ui-agreements.customProperties.visibility": [
@@ -86264,7 +86310,7 @@
   "ui-agreements.customProperty.retiredName": [
     {
       "type": 0,
-      "value": "DEPRECATED: "
+      "value": "不使用: "
     },
     {
       "type": 1,
@@ -86280,7 +86326,7 @@
   "ui-agreements.errors.decimalValueNotInRange": [
     {
       "type": 0,
-      "value": "Please enter a number in the range "
+      "value": "続行するには、 "
     },
     {
       "type": 1,
@@ -86288,7 +86334,7 @@
     },
     {
       "type": 0,
-      "value": " to "
+      "value": "から"
     },
     {
       "type": 1,
@@ -86296,7 +86342,7 @@
     },
     {
       "type": 0,
-      "value": " to continue"
+      "value": "の範囲で数値を入力してください"
     }
   ],
   "ui-agreements.errors.hasNonAlphaName": [
@@ -86320,7 +86366,7 @@
   "ui-agreements.errors.valueNotInRange": [
     {
       "type": 0,
-      "value": "Please enter a whole number in the range "
+      "value": "続行するには、 "
     },
     {
       "type": 1,
@@ -86328,7 +86374,7 @@
     },
     {
       "type": 0,
-      "value": " to "
+      "value": "から"
     },
     {
       "type": 1,
@@ -86336,7 +86382,7 @@
     },
     {
       "type": 0,
-      "value": " to continue"
+      "value": "の範囲の整数を入力してください"
     }
   ],
   "ui-agreements.localKBSearch": [
@@ -86432,25 +86478,37 @@
   "ui-agreements.refdata.deleteAriaLabel": [
     {
       "type": 0,
-      "value": "Delete value "
+      "value": "値"
     },
     {
       "type": 1,
       "value": "label"
+    },
+    {
+      "type": 0,
+      "value": "の削除"
     }
   ],
   "ui-agreements.refdata.deleteRefdataValue": [
     {
       "type": 0,
-      "value": "Delete pick list value"
+      "value": "選択リストの値の削除"
     }
   ],
   "ui-agreements.refdata.deleteRefdataValue.confirmMessage": [
     {
       "children": [
         {
+          "type": 0,
+          "value": " "
+        },
+        {
           "type": 1,
           "value": "name"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -86458,7 +86516,7 @@
     },
     {
       "type": 0,
-      "value": " will be deleted."
+      "value": "は削除されます。"
     }
   ],
   "ui-agreements.refdata.deleteRefdataValue.errorMessage": [
@@ -86494,11 +86552,15 @@
   "ui-agreements.refdata.editAriaLabel": [
     {
       "type": 0,
-      "value": "Edit value "
+      "value": "値"
     },
     {
       "type": 1,
       "value": "label"
+    },
+    {
+      "type": 0,
+      "value": "の編集"
     }
   ],
   "ui-agreements.refdata.label": [
@@ -86510,31 +86572,43 @@
   "ui-agreements.refdata.value": [
     {
       "type": 0,
-      "value": "Value"
+      "value": "値"
     }
   ],
   "ui-agreements.refdataCategory.deleteAriaLabel": [
     {
       "type": 0,
-      "value": "Delete value "
+      "value": "値"
     },
     {
       "type": 1,
       "value": "label"
+    },
+    {
+      "type": 0,
+      "value": "の削除"
     }
   ],
   "ui-agreements.refdataCategory.deleteRefdataCategory": [
     {
       "type": 0,
-      "value": "Delete pick list category"
+      "value": "選択リストのカテゴリーの削除"
     }
   ],
   "ui-agreements.refdataCategory.deleteRefdataCategory.confirmMessage": [
     {
       "children": [
         {
+          "type": 0,
+          "value": " "
+        },
+        {
           "type": 1,
           "value": "name"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -86542,7 +86616,7 @@
     },
     {
       "type": 0,
-      "value": " will be deleted."
+      "value": "は削除されます。"
     }
   ],
   "ui-agreements.refdataCategory.deleteRefdataCategory.errorMessage": [
@@ -86550,7 +86624,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Error"
+          "value": "エラー"
         }
       ],
       "type": 8,
@@ -86558,13 +86632,21 @@
     },
     {
       "type": 0,
-      "value": ": Pick list "
+      "value": " : 選択リスト"
     },
     {
       "children": [
         {
+          "type": 0,
+          "value": " "
+        },
+        {
           "type": 1,
           "value": "label"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -86572,25 +86654,25 @@
     },
     {
       "type": 0,
-      "value": " was not deleted. This is likely to be because it has been applied to one or more supplementary properties. To fix, remove the pick list from all supplementary properties, then try to delete the pick list again."
+      "value": "は削除されませんでした。これは、1 つまたは複数の補足プロパティに適用されていることが原因である可能性があります。修正するには、すべての補足プロパティから選択リストを削除してから、もう一度選択リストを削除してみてください。"
     }
   ],
   "ui-agreements.refdataCategory.noOfValues": [
     {
       "type": 0,
-      "value": "# of values"
+      "value": "値の数"
     }
   ],
   "ui-agreements.refdataCategory.refdataCategories": [
     {
       "type": 0,
-      "value": "Categories"
+      "value": "カテゴリー"
     }
   ],
   "ui-agreements.refdataCategory.refdataCategory": [
     {
       "type": 0,
-      "value": "Category"
+      "value": "カテゴリー"
     }
   ],
   "ui-agreements.save": [
@@ -86620,29 +86702,33 @@
   "ui-agreements.settings.noCurrentValue": [
     {
       "type": 0,
-      "value": "No current value"
+      "value": "現在の値はありません"
     }
   ],
   "ui-agreements.settings.valueFor": [
     {
       "type": 0,
-      "value": "Value for setting "
+      "value": "設定値"
     },
     {
       "type": 1,
       "value": "name"
+    },
+    {
+      "type": 0,
+      "value": "の値"
     }
   ],
   "ui-agreements.value": [
     {
       "type": 0,
-      "value": "Value"
+      "value": "値"
     }
   ],
   "ui-agreements.valueOrValues": [
     {
       "type": 0,
-      "value": "Value(s)"
+      "value": "値"
     }
   ],
   "ui-bulk-edit.actions.find": [
@@ -86948,19 +87034,19 @@
   "ui-calendar.calendarForm.category.exceptions": [
     {
       "type": 0,
-      "value": "Exceptions"
+      "value": "例外"
     }
   ],
   "ui-calendar.calendarForm.category.general": [
     {
       "type": 0,
-      "value": "General information"
+      "value": "一般情報"
     }
   ],
   "ui-calendar.calendarForm.category.hoursOfOperation": [
     {
       "type": 0,
-      "value": "Hours of operation"
+      "value": "開館時間"
     }
   ],
   "ui-calendar.calendarForm.error.dateFormat": [
@@ -89242,7 +89328,7 @@
   "ui-finance.invoice.vendor": [
     {
       "type": 0,
-      "value": "Vendor"
+      "value": "ベンダー"
     }
   ],
   "ui-finance.invoice.vendorInvoiceNo": [
@@ -89444,19 +89530,19 @@
   "ui-gobi-settings.configFiles": [
     {
       "type": 0,
-      "value": "Configuration Files"
+      "value": "Configuration files"
     }
   ],
   "ui-gobi-settings.integrationDetails": [
     {
       "type": 0,
-      "value": "Integration Details"
+      "value": "Integration details"
     }
   ],
   "ui-gobi-settings.mappingConfig": [
     {
       "type": 0,
-      "value": "Mapping Configuration"
+      "value": "Mapping configuration"
     }
   ],
   "ui-gobi-settings.mappingConfig.edit.paneTitle": [
@@ -89604,13 +89690,13 @@
   "ui-gobi-settings.order.mappings.accordion.polVendor": [
     {
       "type": 0,
-      "value": "Vendor"
+      "value": "ベンダー"
     }
   ],
   "ui-gobi-settings.order.mappings.accordion.relatedAgreements": [
     {
       "type": 0,
-      "value": "Related agreements"
+      "value": "関連する契約"
     }
   ],
   "ui-gobi-settings.order.mappings.field.accessProvider": [
@@ -89718,7 +89804,7 @@
   "ui-gobi-settings.order.mappings.field.dataSource.defaultValue": [
     {
       "type": 0,
-      "value": "Default value"
+      "value": "デフォルト値"
     }
   ],
   "ui-gobi-settings.order.mappings.field.dataSource.fromFieldName": [
@@ -90138,7 +90224,7 @@
   "ui-gobi-settings.order.mappings.field.vendor": [
     {
       "type": 0,
-      "value": "Vendor"
+      "value": "ベンダー"
     }
   ],
   "ui-gobi-settings.order.mappings.field.vendorAccount": [
@@ -90324,37 +90410,37 @@
   "ui-gobi-settings.order.mappings.type.listedElectronicMonograph": [
     {
       "type": 0,
-      "value": "Listed Electronic Monograph"
+      "value": "Listed electronic monograph"
     }
   ],
   "ui-gobi-settings.order.mappings.type.listedElectronicSerial": [
     {
       "type": 0,
-      "value": "Listed Electronic Serial"
+      "value": "Listed electronic serial"
     }
   ],
   "ui-gobi-settings.order.mappings.type.listedPrintMonograph": [
     {
       "type": 0,
-      "value": "Listed Print Monograph"
+      "value": "Listed print monograph"
     }
   ],
   "ui-gobi-settings.order.mappings.type.listedPrintSerial": [
     {
       "type": 0,
-      "value": "Listed Print Serial"
+      "value": "Listed print serial"
     }
   ],
   "ui-gobi-settings.order.mappings.type.unlistedPrintMonograph": [
     {
       "type": 0,
-      "value": "Unlisted Print Monograph"
+      "value": "Unlisted print monograph"
     }
   ],
   "ui-gobi-settings.order.mappings.type.unlistedPrintSerial": [
     {
       "type": 0,
-      "value": "Unlisted Print Serial"
+      "value": "Unlisted print serial"
     }
   ],
   "ui-gobi-settings.permission.settings": [
@@ -90736,7 +90822,7 @@
   "ui-licenses.customProperties.ctx": [
     {
       "type": 0,
-      "value": "Category"
+      "value": "カテゴリー"
     }
   ],
   "ui-licenses.customProperties.ctx.OpenAccess": [
@@ -90748,11 +90834,7 @@
   "ui-licenses.customProperties.ctx.addContext": [
     {
       "type": 0,
-      "value": "Add category "
-    },
-    {
-      "type": 1,
-      "value": "value"
+      "value": "カテゴリーを入力してください"
     }
   ],
   "ui-licenses.customProperties.ctx.title": [],
@@ -90791,13 +90873,13 @@
   "ui-licenses.customProperties.errors.customPropertyNoteWithoutValue": [
     {
       "type": 0,
-      "value": "A value must be set in order to save a note"
+      "value": "ノートを保存するためには、値を設定する必要があります。"
     }
   ],
   "ui-licenses.customProperties.errors.primaryRetired": [
     {
       "type": 0,
-      "value": "A term cannot be both primary and deprecated"
+      "value": "条件をプライマリと不使用の両方にすることはできません"
     }
   ],
   "ui-licenses.customProperties.internalFalse": [
@@ -90863,7 +90945,7 @@
   "ui-licenses.customProperties.retired": [
     {
       "type": 0,
-      "value": "Deprecated"
+      "value": "不使用"
     }
   ],
   "ui-licenses.customProperties.type": [
@@ -90935,7 +91017,7 @@
   "ui-licenses.customProperties.value": [
     {
       "type": 0,
-      "value": "Value(s)"
+      "value": "値"
     }
   ],
   "ui-licenses.customProperties.visibility": [
@@ -91033,7 +91115,7 @@
   "ui-licenses.customProperty.retiredName": [
     {
       "type": 0,
-      "value": "DEPRECATED: "
+      "value": "不使用: "
     },
     {
       "type": 1,
@@ -91043,7 +91125,7 @@
   "ui-licenses.errors.decimalValueNotInRange": [
     {
       "type": 0,
-      "value": "Please enter a number in the range "
+      "value": "続行するには、 "
     },
     {
       "type": 1,
@@ -91051,7 +91133,7 @@
     },
     {
       "type": 0,
-      "value": " to "
+      "value": "から"
     },
     {
       "type": 1,
@@ -91059,7 +91141,7 @@
     },
     {
       "type": 0,
-      "value": " to continue"
+      "value": "の範囲で数値を入力してください"
     }
   ],
   "ui-licenses.errors.hasNonAlphaName": [
@@ -91083,7 +91165,7 @@
   "ui-licenses.errors.valueNotInRange": [
     {
       "type": 0,
-      "value": "Please enter a whole number in the range "
+      "value": "続行するには、 "
     },
     {
       "type": 1,
@@ -91091,7 +91173,7 @@
     },
     {
       "type": 0,
-      "value": " to "
+      "value": "から"
     },
     {
       "type": 1,
@@ -91099,7 +91181,7 @@
     },
     {
       "type": 0,
-      "value": " to continue"
+      "value": "の範囲の整数を入力してください"
     }
   ],
   "ui-licenses.new": [
@@ -91195,17 +91277,21 @@
   "ui-licenses.refdata.deleteAriaLabel": [
     {
       "type": 0,
-      "value": "Delete value "
+      "value": "値"
     },
     {
       "type": 1,
       "value": "label"
+    },
+    {
+      "type": 0,
+      "value": "を削除"
     }
   ],
   "ui-licenses.refdata.deleteRefdataValue": [
     {
       "type": 0,
-      "value": "Delete pick list value"
+      "value": "選択リストの値の削除"
     }
   ],
   "ui-licenses.refdata.deleteRefdataValue.confirmMessage": [
@@ -91229,7 +91315,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Error:"
+          "value": "エラー: "
         }
       ],
       "type": 8,
@@ -91237,13 +91323,21 @@
     },
     {
       "type": 0,
-      "value": " Pick list value "
+      "value": "選択リストの値"
     },
     {
       "children": [
         {
+          "type": 0,
+          "value": " "
+        },
+        {
           "type": 1,
           "value": "label"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -91251,17 +91345,21 @@
     },
     {
       "type": 0,
-      "value": " was not deleted because it is in use in one or more terms on one or more licenses."
+      "value": "は、1 つまたは複数のライセンスの 1 つまたは複数の条件で使用されているため、削除されませんでした。"
     }
   ],
   "ui-licenses.refdata.editAriaLabel": [
     {
       "type": 0,
-      "value": "Edit value "
+      "value": "値"
     },
     {
       "type": 1,
       "value": "label"
+    },
+    {
+      "type": 0,
+      "value": "を編集"
     }
   ],
   "ui-licenses.refdata.label": [
@@ -91273,31 +91371,43 @@
   "ui-licenses.refdata.value": [
     {
       "type": 0,
-      "value": "Value"
+      "value": "値"
     }
   ],
   "ui-licenses.refdataCategory.deleteAriaLabel": [
     {
       "type": 0,
-      "value": "Delete value "
+      "value": "値"
     },
     {
       "type": 1,
       "value": "label"
+    },
+    {
+      "type": 0,
+      "value": "の削除"
     }
   ],
   "ui-licenses.refdataCategory.deleteRefdataCategory": [
     {
       "type": 0,
-      "value": "Delete pick list category"
+      "value": "選択リストのカテゴリーの削除"
     }
   ],
   "ui-licenses.refdataCategory.deleteRefdataCategory.confirmMessage": [
     {
       "children": [
         {
+          "type": 0,
+          "value": " "
+        },
+        {
           "type": 1,
           "value": "name"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -91305,7 +91415,7 @@
     },
     {
       "type": 0,
-      "value": " will be deleted."
+      "value": "は削除されます"
     }
   ],
   "ui-licenses.refdataCategory.deleteRefdataCategory.errorMessage": [
@@ -91313,7 +91423,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Error"
+          "value": "エラー"
         }
       ],
       "type": 8,
@@ -91321,13 +91431,21 @@
     },
     {
       "type": 0,
-      "value": ": Pick list "
+      "value": " : 選択リスト"
     },
     {
       "children": [
         {
+          "type": 0,
+          "value": " "
+        },
+        {
           "type": 1,
           "value": "label"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -91335,19 +91453,19 @@
     },
     {
       "type": 0,
-      "value": " was not deleted. This is likely to be because it has been applied to one or more terms. To fix, remove the pick list from all terms, then try to delete the pick list again."
+      "value": "は削除されませんでした。これは、1 つまたは複数の条件に適用されていることが原因である可能性があります。修正するには、すべての条件から選択リストを削除してから、もう一度選択リストを削除してみてください。"
     }
   ],
   "ui-licenses.refdataCategory.noOfValues": [
     {
       "type": 0,
-      "value": "# of values"
+      "value": "値の数"
     }
   ],
   "ui-licenses.refdataCategory.refdataCategories": [
     {
       "type": 0,
-      "value": "Categories"
+      "value": "カテゴリー"
     }
   ],
   "ui-licenses.refdataCategory.refdataCategory": [
@@ -91377,7 +91495,7 @@
   "ui-licenses.settings.noOfValues": [
     {
       "type": 0,
-      "value": "# of values"
+      "value": "値の数"
     }
   ],
   "ui-licenses.settings.pickList.deletePickList": [
@@ -91413,19 +91531,27 @@
   "ui-licenses.settings.pickListValues.deletePickListValue": [
     {
       "type": 0,
-      "value": "Delete pick list value"
+      "value": "選択リストの値の削除"
     }
   ],
   "ui-licenses.settings.pickListValues.deletePickListValueError": [
     {
       "type": 0,
-      "value": "There was an error deleting pick list value: "
+      "value": "選択リスト値"
     },
     {
       "children": [
         {
+          "type": 0,
+          "value": " "
+        },
+        {
           "type": 1,
           "value": "label"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -91433,7 +91559,7 @@
     },
     {
       "type": 0,
-      "value": ". "
+      "value": "の削除中にエラーが発生しました。 "
     },
     {
       "type": 1,
@@ -91443,13 +91569,13 @@
   "ui-licenses.value": [
     {
       "type": 0,
-      "value": "Value"
+      "value": "値"
     }
   ],
   "ui-licenses.valueOrValues": [
     {
       "type": 0,
-      "value": "Value(s)"
+      "value": "値"
     }
   ],
   "ui-licenses.yes": [
@@ -91804,7 +91930,7 @@
   "ui-plugin-find-agreement.supplementaryProperties.deprecated": [
     {
       "type": 0,
-      "value": "DEPRECATED: "
+      "value": "不使用: "
     },
     {
       "type": 1,
@@ -91939,7 +92065,7 @@
   "ui-plugin-find-license.terms.deprecated": [
     {
       "type": 0,
-      "value": "DEPRECATED: "
+      "value": "不使用: "
     },
     {
       "type": 1,
@@ -92364,13 +92490,13 @@
   "stripes-erm-components.dateFilter.activeFrom": [
     {
       "type": 0,
-      "value": "Active from"
+      "value": "有効開始"
     }
   ],
   "stripes-erm-components.dateFilter.activeTo": [
     {
       "type": 0,
-      "value": "Active to"
+      "value": "有効終了"
     }
   ],
   "stripes-erm-components.errors.decimalValueNotInRange": [
@@ -92524,7 +92650,7 @@
   "ui-users.lostItems.list.filters": [
     {
       "type": 0,
-      "value": "Search & filters"
+      "value": "Search & filter"
     }
   ],
   "ui-users.lostItems.list.filters.lossType": [
@@ -92627,11 +92753,7 @@
   "ui-licenses.license.replaceLicenseSpecific": [
     {
       "type": 0,
-      "value": "Replace license "
-    },
-    {
-      "type": 1,
-      "value": "licenseName"
+      "value": "ライセンスの置き換え"
     }
   ],
   "ui-gobi-settings.mappingConfig.edit.footer.clearAll": [
@@ -92784,6 +92906,5514 @@
     {
       "type": 0,
       "value": "Are you sure you want to change the remote storage configuration?"
+    }
+  ],
+  "stripes-components.Timepicker.formEnd": "End of form",
+  "stripes-components.Timepicker.formStart": "Beginning of form",
+  "stripes-smart-components.customFields.option.deleteLabel": [
+    {
+      "type": 0,
+      "value": "Delete"
+    }
+  ],
+  "ui-agreements.agreements.exportingAgreement": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "契約をエクスポートします。"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": "JSON ファイルは、完了するとブラウザにダウンロードされます。タイトル数が多い場合、時間がかかることがあります。"
+    }
+  ],
+  "ui-agreements.packages": [
+    {
+      "type": 0,
+      "value": "パッケージ"
+    }
+  ],
+  "ui-agreements.packages.source": [
+    {
+      "type": 0,
+      "value": "ソース (外部データ ソース)"
+    }
+  ],
+  "ui-agreements.permission.packages.view": [
+    {
+      "type": 0,
+      "value": "契約: パッケージの検索と表示"
+    }
+  ],
+  "ui-bulk-edit.columns.HOLDINGS_RECORD.Acquisition format": [
+    {
+      "type": 0,
+      "value": "Acquisition format"
+    }
+  ],
+  "ui-bulk-edit.columns.HOLDINGS_RECORD.Acquisition method": [
+    {
+      "type": 0,
+      "value": "Acquisition method"
+    }
+  ],
+  "ui-bulk-edit.columns.HOLDINGS_RECORD.Administrative notes": [
+    {
+      "type": 0,
+      "value": "Administrative notes"
+    }
+  ],
+  "ui-bulk-edit.columns.HOLDINGS_RECORD.Call number": [
+    {
+      "type": 0,
+      "value": "Call number"
+    }
+  ],
+  "ui-bulk-edit.columns.HOLDINGS_RECORD.Call number prefix": [
+    {
+      "type": 0,
+      "value": "Call number prefix"
+    }
+  ],
+  "ui-bulk-edit.columns.HOLDINGS_RECORD.Call number suffix": [
+    {
+      "type": 0,
+      "value": "Call number suffix"
+    }
+  ],
+  "ui-bulk-edit.columns.HOLDINGS_RECORD.Call number type": [
+    {
+      "type": 0,
+      "value": "Call number type"
+    }
+  ],
+  "ui-bulk-edit.columns.HOLDINGS_RECORD.Copy number": [
+    {
+      "type": 0,
+      "value": "Copy number"
+    }
+  ],
+  "ui-bulk-edit.columns.HOLDINGS_RECORD.Digitization policy": [
+    {
+      "type": 0,
+      "value": "Digitization policy"
+    }
+  ],
+  "ui-bulk-edit.columns.HOLDINGS_RECORD.Discovery suppress": [
+    {
+      "type": 0,
+      "value": "Suppressed from discovery"
+    }
+  ],
+  "ui-bulk-edit.columns.HOLDINGS_RECORD.Effective location": [
+    {
+      "type": 0,
+      "value": "Effective location"
+    }
+  ],
+  "ui-bulk-edit.columns.HOLDINGS_RECORD.Electronic access": [
+    {
+      "type": 0,
+      "value": "Electronic access"
+    }
+  ],
+  "ui-bulk-edit.columns.HOLDINGS_RECORD.Former ids": [
+    {
+      "type": 0,
+      "value": "Former ids"
+    }
+  ],
+  "ui-bulk-edit.columns.HOLDINGS_RECORD.Holdings record id": [
+    {
+      "type": 0,
+      "value": "Holdings ID"
+    }
+  ],
+  "ui-bulk-edit.columns.HOLDINGS_RECORD.Holdings statements": [
+    {
+      "type": 0,
+      "value": "Holdings statements"
+    }
+  ],
+  "ui-bulk-edit.columns.HOLDINGS_RECORD.Holdings statements for indexes": [
+    {
+      "type": 0,
+      "value": "Holdings statements for indexes"
+    }
+  ],
+  "ui-bulk-edit.columns.HOLDINGS_RECORD.Holdings statements for supplements": [
+    {
+      "type": 0,
+      "value": "Holdings statements for supplements"
+    }
+  ],
+  "ui-bulk-edit.columns.HOLDINGS_RECORD.Holdings type": [
+    {
+      "type": 0,
+      "value": "Holdings type"
+    }
+  ],
+  "ui-bulk-edit.columns.HOLDINGS_RECORD.Hrid": [
+    {
+      "type": 0,
+      "value": "Holdings HRID"
+    }
+  ],
+  "ui-bulk-edit.columns.HOLDINGS_RECORD.Ill policy": [
+    {
+      "type": 0,
+      "value": "Ill policy"
+    }
+  ],
+  "ui-bulk-edit.columns.HOLDINGS_RECORD.Instance": [
+    {
+      "type": 0,
+      "value": "Instance"
+    }
+  ],
+  "ui-bulk-edit.columns.HOLDINGS_RECORD.Instance HRID": [
+    {
+      "type": 0,
+      "value": "Instance HRID"
+    }
+  ],
+  "ui-bulk-edit.columns.HOLDINGS_RECORD.Item barcode": [
+    {
+      "type": 0,
+      "value": "Item barcode"
+    }
+  ],
+  "ui-bulk-edit.columns.HOLDINGS_RECORD.Notes": [
+    {
+      "type": 0,
+      "value": "Notes"
+    }
+  ],
+  "ui-bulk-edit.columns.HOLDINGS_RECORD.Number of items": [
+    {
+      "type": 0,
+      "value": "Number of items"
+    }
+  ],
+  "ui-bulk-edit.columns.HOLDINGS_RECORD.Permanent location": [
+    {
+      "type": 0,
+      "value": "Permanent location"
+    }
+  ],
+  "ui-bulk-edit.columns.HOLDINGS_RECORD.Receipt status": [
+    {
+      "type": 0,
+      "value": "Receipt status"
+    }
+  ],
+  "ui-bulk-edit.columns.HOLDINGS_RECORD.Receiving history": [
+    {
+      "type": 0,
+      "value": "Receiving history"
+    }
+  ],
+  "ui-bulk-edit.columns.HOLDINGS_RECORD.Retention policy": [
+    {
+      "type": 0,
+      "value": "Retention policy"
+    }
+  ],
+  "ui-bulk-edit.columns.HOLDINGS_RECORD.Shelving title": [
+    {
+      "type": 0,
+      "value": "Shelving title"
+    }
+  ],
+  "ui-bulk-edit.columns.HOLDINGS_RECORD.Source": [
+    {
+      "type": 0,
+      "value": "Source"
+    }
+  ],
+  "ui-bulk-edit.columns.HOLDINGS_RECORD.Statistical codes": [
+    {
+      "type": 0,
+      "value": "Statistical codes"
+    }
+  ],
+  "ui-bulk-edit.columns.HOLDINGS_RECORD.Tags": [
+    {
+      "type": 0,
+      "value": "Tags"
+    }
+  ],
+  "ui-bulk-edit.columns.HOLDINGS_RECORD.Temporary location": [
+    {
+      "type": 0,
+      "value": "Temporary location"
+    }
+  ],
+  "ui-bulk-edit.columns.HOLDINGS_RECORD.Version": [
+    {
+      "type": 0,
+      "value": "Version"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Accession Number": [
+    {
+      "type": 0,
+      "value": "Accession number"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Administrative Notes": [
+    {
+      "type": 0,
+      "value": "Administrative notes"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Barcode": [
+    {
+      "type": 0,
+      "value": "Barcode"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Bound With Titles": [
+    {
+      "type": 0,
+      "value": "Bound with titles"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Call Number": [
+    {
+      "type": 0,
+      "value": "Call number"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Chronology": [
+    {
+      "type": 0,
+      "value": "Chronology"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Circulation Notes": [
+    {
+      "type": 0,
+      "value": "Circulation Notes"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Contributor Names": [
+    {
+      "type": 0,
+      "value": "Contributor names"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Copy Number": [
+    {
+      "type": 0,
+      "value": "Copy number"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Description Of Pieces": [
+    {
+      "type": 0,
+      "value": "Description of pieces"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Discovery Suppress": [
+    {
+      "type": 0,
+      "value": "Suppressed from discovery"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Effective Call Number Components": [
+    {
+      "type": 0,
+      "value": "Effective call number"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Effective Location": [
+    {
+      "type": 0,
+      "value": "Item effective location"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Effective Shelving Order": [
+    {
+      "type": 0,
+      "value": "Shelving order"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Electronic Access": [
+    {
+      "type": 0,
+      "value": "Electronic access"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Enumeration": [
+    {
+      "type": 0,
+      "value": "Enumeration"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Former Ids": [
+    {
+      "type": 0,
+      "value": "Former identifiers"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Holdings Record Id": [
+    {
+      "type": 0,
+      "value": "Holdings record ID"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.In Transit Destination Service Point": [
+    {
+      "type": 0,
+      "value": "In transit destination service point"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Is Bound With": [
+    {
+      "type": 0,
+      "value": "Is bound with"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Item Damaged Status": [
+    {
+      "type": 0,
+      "value": "Item damaged status"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Item Damaged Status Date": [
+    {
+      "type": 0,
+      "value": "Item damaged status date"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Item HRID": [
+    {
+      "type": 0,
+      "value": "Item HRID"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Item Identifier": [
+    {
+      "type": 0,
+      "value": "Item identifier"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Item Level Call Number": [
+    {
+      "type": 0,
+      "value": "Item level call number"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Item Level Call Number Prefix": [
+    {
+      "type": 0,
+      "value": "Item level call number prefix"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Item Level Call Number Suffix": [
+    {
+      "type": 0,
+      "value": "Item level call number suffix"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Item Level Call Number Type": [
+    {
+      "type": 0,
+      "value": "Item level call number type"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Item id": [
+    {
+      "type": 0,
+      "value": "Item ID"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Last CheckIn": [
+    {
+      "type": 0,
+      "value": "Last check in"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Material Type": [
+    {
+      "type": 0,
+      "value": "Material type"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Missing Peaces": [
+    {
+      "type": 0,
+      "value": "Missing pieces"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Missing Pieces Date": [
+    {
+      "type": 0,
+      "value": "Missing pieces date"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Notes": [
+    {
+      "type": 0,
+      "value": "Notes"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Number Of Missing Pieces": [
+    {
+      "type": 0,
+      "value": "Number of missing pieces"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Number Of Pieces": [
+    {
+      "type": 0,
+      "value": "Number of pieces"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Permanent Loan Type": [
+    {
+      "type": 0,
+      "value": "Permanent loan type"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Permanent Location": [
+    {
+      "type": 0,
+      "value": "Item permanent location"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Purchase Order Line Identifier": [
+    {
+      "type": 0,
+      "value": "Purchase order line identifier"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Statistical Codes": [
+    {
+      "type": 0,
+      "value": "Statistical codes"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Status": [
+    {
+      "type": 0,
+      "value": "Status"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Tags": [
+    {
+      "type": 0,
+      "value": "Tags"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Temporary Loan Type": [
+    {
+      "type": 0,
+      "value": "Temporary loan type"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Temporary Location": [
+    {
+      "type": 0,
+      "value": "Item temporary location"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Title": [
+    {
+      "type": 0,
+      "value": "Title"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Version": [
+    {
+      "type": 0,
+      "value": "Version"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Volume": [
+    {
+      "type": 0,
+      "value": "Volume"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Year Caption": [
+    {
+      "type": 0,
+      "value": "Year, caption"
+    }
+  ],
+  "ui-bulk-edit.columns.USER.Active": [
+    {
+      "type": 0,
+      "value": "Active"
+    }
+  ],
+  "ui-bulk-edit.columns.USER.Addresses": [
+    {
+      "type": 0,
+      "value": "Addresses"
+    }
+  ],
+  "ui-bulk-edit.columns.USER.Barcode": [
+    {
+      "type": 0,
+      "value": "Barcode"
+    }
+  ],
+  "ui-bulk-edit.columns.USER.Created cate": [
+    {
+      "type": 0,
+      "value": "Record created"
+    }
+  ],
+  "ui-bulk-edit.columns.USER.Custom fields": [
+    {
+      "type": 0,
+      "value": "Custom fields"
+    }
+  ],
+  "ui-bulk-edit.columns.USER.Date Of Birth": [
+    {
+      "type": 0,
+      "value": "Birth date"
+    }
+  ],
+  "ui-bulk-edit.columns.USER.Departments": [
+    {
+      "type": 0,
+      "value": "Departments"
+    }
+  ],
+  "ui-bulk-edit.columns.USER.Email": [
+    {
+      "type": 0,
+      "value": "Email"
+    }
+  ],
+  "ui-bulk-edit.columns.USER.Enrollment date": [
+    {
+      "type": 0,
+      "value": "Date enrolled"
+    }
+  ],
+  "ui-bulk-edit.columns.USER.Expiration date": [
+    {
+      "type": 0,
+      "value": "Expiration date"
+    }
+  ],
+  "ui-bulk-edit.columns.USER.External system id": [
+    {
+      "type": 0,
+      "value": "External System ID"
+    }
+  ],
+  "ui-bulk-edit.columns.USER.First name": [
+    {
+      "type": 0,
+      "value": "First name"
+    }
+  ],
+  "ui-bulk-edit.columns.USER.Last name": [
+    {
+      "type": 0,
+      "value": "Last name"
+    }
+  ],
+  "ui-bulk-edit.columns.USER.Middle name": [
+    {
+      "type": 0,
+      "value": "Middle name"
+    }
+  ],
+  "ui-bulk-edit.columns.USER.Mobile phone": [
+    {
+      "type": 0,
+      "value": "Mobile phone"
+    }
+  ],
+  "ui-bulk-edit.columns.USER.Patron group": [
+    {
+      "type": 0,
+      "value": "Patron group"
+    }
+  ],
+  "ui-bulk-edit.columns.USER.Phone": [
+    {
+      "type": 0,
+      "value": "Phone"
+    }
+  ],
+  "ui-bulk-edit.columns.USER.Preferred contact type id": [
+    {
+      "type": 0,
+      "value": "Preferred contact type id"
+    }
+  ],
+  "ui-bulk-edit.columns.USER.Preferred first name": [
+    {
+      "type": 0,
+      "value": "Preferred first name"
+    }
+  ],
+  "ui-bulk-edit.columns.USER.Proxy for": [
+    {
+      "type": 0,
+      "value": "Proxy for"
+    }
+  ],
+  "ui-bulk-edit.columns.USER.Tags": [
+    {
+      "type": 0,
+      "value": "Tags"
+    }
+  ],
+  "ui-bulk-edit.columns.USER.Type": [
+    {
+      "type": 0,
+      "value": "Type"
+    }
+  ],
+  "ui-bulk-edit.columns.USER.Updated date": [
+    {
+      "type": 0,
+      "value": "Record updated"
+    }
+  ],
+  "ui-bulk-edit.columns.USER.User id": [
+    {
+      "type": 0,
+      "value": "User id"
+    }
+  ],
+  "ui-bulk-edit.columns.USER.User name": [
+    {
+      "type": 0,
+      "value": "Username"
+    }
+  ],
+  "ui-bulk-edit.columns.logs.actions": [
+    {
+      "type": 0,
+      "value": "Actions"
+    }
+  ],
+  "ui-bulk-edit.columns.logs.editing": [
+    {
+      "type": 0,
+      "value": "Editing"
+    }
+  ],
+  "ui-bulk-edit.columns.logs.endTime": [
+    {
+      "type": 0,
+      "value": "Ended running"
+    }
+  ],
+  "ui-bulk-edit.columns.logs.entityType": [
+    {
+      "type": 0,
+      "value": "Record type"
+    }
+  ],
+  "ui-bulk-edit.columns.logs.id": [
+    {
+      "type": 0,
+      "value": "ID"
+    }
+  ],
+  "ui-bulk-edit.columns.logs.operationType": [
+    {
+      "type": 0,
+      "value": "Bulk operation type"
+    }
+  ],
+  "ui-bulk-edit.columns.logs.processedNumOfRecords": [
+    {
+      "type": 0,
+      "value": "Processed"
+    }
+  ],
+  "ui-bulk-edit.columns.logs.startTime": [
+    {
+      "type": 0,
+      "value": "Started running"
+    }
+  ],
+  "ui-bulk-edit.columns.logs.status": [
+    {
+      "type": 0,
+      "value": "Status"
+    }
+  ],
+  "ui-bulk-edit.columns.logs.totalNumOfRecords": [
+    {
+      "type": 0,
+      "value": "# of records"
+    }
+  ],
+  "ui-bulk-edit.columns.logs.userId": [
+    {
+      "type": 0,
+      "value": "Run by"
+    }
+  ],
+  "ui-bulk-edit.list.actions.download": [
+    {
+      "type": 0,
+      "value": "Download"
+    }
+  ],
+  "ui-bulk-edit.list.errors.infoProcessed": [
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "fileName"
+        },
+        {
+          "type": 0,
+          "value": ": "
+        },
+        {
+          "type": 1,
+          "value": "entries"
+        },
+        {
+          "type": 0,
+          "value": " entries * "
+        },
+        {
+          "type": 1,
+          "value": "matched"
+        },
+        {
+          "type": 0,
+          "value": " records changed * "
+        },
+        {
+          "type": 1,
+          "value": "errors"
+        },
+        {
+          "type": 0,
+          "value": " errors"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
+  "ui-bulk-edit.list.filters.logs": [
+    {
+      "type": 0,
+      "value": "Logs"
+    }
+  ],
+  "ui-bulk-edit.list.preview.table.status.false": [
+    {
+      "type": 0,
+      "value": "Inactive"
+    }
+  ],
+  "ui-bulk-edit.list.preview.table.status.true": [
+    {
+      "type": 0,
+      "value": "Active"
+    }
+  ],
+  "ui-bulk-edit.list.result.emptyMessage.logs": [
+    {
+      "type": 0,
+      "value": "Choose a filter to show results."
+    }
+  ],
+  "ui-bulk-edit.logs.actions.linkToCommittedRecordsCsvFile": [
+    {
+      "type": 0,
+      "value": "File with updated records"
+    }
+  ],
+  "ui-bulk-edit.logs.actions.linkToCommittedRecordsErrorsCsvFile": [
+    {
+      "type": 0,
+      "value": "File with errors encountered when committing the changes"
+    }
+  ],
+  "ui-bulk-edit.logs.actions.linkToMatchedRecordsCsvFile": [
+    {
+      "type": 0,
+      "value": "File with the matching records"
+    }
+  ],
+  "ui-bulk-edit.logs.actions.linkToMatchedRecordsErrorsCsvFile": [
+    {
+      "type": 0,
+      "value": "File with errors encountered during the record matching"
+    }
+  ],
+  "ui-bulk-edit.logs.actions.linkToModifiedRecordsCsvFile": [
+    {
+      "type": 0,
+      "value": "File with the preview of proposed changes"
+    }
+  ],
+  "ui-bulk-edit.logs.actions.linkToTriggeringCsvFile": [
+    {
+      "type": 0,
+      "value": "File that was used to trigger the bulk edit"
+    }
+  ],
+  "ui-bulk-edit.logs.approach.IN_APP": [
+    {
+      "type": 0,
+      "value": "In app"
+    }
+  ],
+  "ui-bulk-edit.logs.approach.MANUAL": [
+    {
+      "type": 0,
+      "value": "CSV"
+    }
+  ],
+  "ui-bulk-edit.logs.approach.QUERY": [
+    {
+      "type": 0,
+      "value": "Query"
+    }
+  ],
+  "ui-bulk-edit.logs.entityType.HOLDINGS_RECORD": [
+    {
+      "type": 0,
+      "value": "Inventory - holdings"
+    }
+  ],
+  "ui-bulk-edit.logs.entityType.ITEM": [
+    {
+      "type": 0,
+      "value": "Inventory - items"
+    }
+  ],
+  "ui-bulk-edit.logs.entityType.USER": [
+    {
+      "type": 0,
+      "value": "Users"
+    }
+  ],
+  "ui-bulk-edit.logs.filter.endDate": [
+    {
+      "type": 0,
+      "value": "End date"
+    }
+  ],
+  "ui-bulk-edit.logs.filter.option.delete": [
+    {
+      "type": 0,
+      "value": "Delete"
+    }
+  ],
+  "ui-bulk-edit.logs.filter.option.edit": [
+    {
+      "type": 0,
+      "value": "Edit"
+    }
+  ],
+  "ui-bulk-edit.logs.filter.startDate": [
+    {
+      "type": 0,
+      "value": "Start date"
+    }
+  ],
+  "ui-bulk-edit.logs.filter.title.capability": [
+    {
+      "type": 0,
+      "value": "Record types"
+    }
+  ],
+  "ui-bulk-edit.logs.filter.title.status": [
+    {
+      "type": 0,
+      "value": "Statuses"
+    }
+  ],
+  "ui-bulk-edit.logs.filter.title.types": [
+    {
+      "type": 0,
+      "value": "Bulk operation type"
+    }
+  ],
+  "ui-bulk-edit.logs.status.APPLY_CHANGES": [
+    {
+      "type": 0,
+      "value": "Apply changes"
+    }
+  ],
+  "ui-bulk-edit.logs.status.COMPLETED": [
+    {
+      "type": 0,
+      "value": "Completed"
+    }
+  ],
+  "ui-bulk-edit.logs.status.COMPLETED_WITH_ERRORS": [
+    {
+      "type": 0,
+      "value": "Completed with errors"
+    }
+  ],
+  "ui-bulk-edit.logs.status.DATA_MODIFICATION": [
+    {
+      "type": 0,
+      "value": "Data modification"
+    }
+  ],
+  "ui-bulk-edit.logs.status.FAILED": [
+    {
+      "type": 0,
+      "value": "Failed"
+    }
+  ],
+  "ui-bulk-edit.logs.status.NEW": [
+    {
+      "type": 0,
+      "value": "New"
+    }
+  ],
+  "ui-bulk-edit.logs.status.RETRIEVING_RECORDS": [
+    {
+      "type": 0,
+      "value": "Retrieving records"
+    }
+  ],
+  "ui-bulk-edit.logs.status.REVIEW_CHANGES": [
+    {
+      "type": 0,
+      "value": "Reviewing changes"
+    }
+  ],
+  "ui-bulk-edit.logs.status.SAVING_RECORDS_LOCALLY": [
+    {
+      "type": 0,
+      "value": "Saving records"
+    }
+  ],
+  "ui-bulk-edit.meta.logs.title": [
+    {
+      "type": 0,
+      "value": "Bulk edit logs"
+    }
+  ],
+  "ui-bulk-edit.permission.app-delete": [
+    {
+      "type": 0,
+      "value": "Bulk Edit: In app - Delete"
+    }
+  ],
+  "ui-bulk-edit.permission.app-edit": [
+    {
+      "type": 0,
+      "value": "Bulk Edit: In app - Edit"
+    }
+  ],
+  "ui-bulk-edit.permission.app-edit.users": [
+    {
+      "type": 0,
+      "value": "Bulk edit: In app - Update user records"
+    }
+  ],
+  "ui-bulk-edit.permission.app-view": [
+    {
+      "type": 0,
+      "value": "Bulk Edit: In app - View"
+    }
+  ],
+  "ui-bulk-edit.permission.delete": [
+    {
+      "type": 0,
+      "value": "Bulk Edit: (CSV) Delete"
+    }
+  ],
+  "ui-bulk-edit.permission.edit": [
+    {
+      "type": 0,
+      "value": "Bulk Edit: (CSV) Edit"
+    }
+  ],
+  "ui-bulk-edit.permission.logs.view": [
+    {
+      "type": 0,
+      "value": "Bulk edit - Can view logs"
+    }
+  ],
+  "ui-bulk-edit.permission.module.bulk-edit.enabled": [
+    {
+      "type": 0,
+      "value": "UI: Bulk edit module is enabled"
+    }
+  ],
+  "ui-bulk-edit.permission.view": [
+    {
+      "type": 0,
+      "value": "Bulk Edit: (CSV) View"
+    }
+  ],
+  "ui-bulk-edit.resetFilters": [
+    {
+      "type": 0,
+      "value": "Reset all"
+    }
+  ],
+  "ui-bulk-edit.retrievedDataList.title": [
+    {
+      "type": 1,
+      "value": "matched"
+    },
+    {
+      "type": 0,
+      "value": " matching "
+    },
+    {
+      "type": 1,
+      "value": "capability"
+    },
+    {
+      "type": 0,
+      "value": " records found."
+    }
+  ],
+  "ui-calendar.infoPane.accordion.infoLabel": [
+    {
+      "type": 0,
+      "value": "Calendar information"
+    }
+  ],
+  "ui-checkout.details": [
+    {
+      "type": 0,
+      "value": "Details"
+    }
+  ],
+  "ui-checkout.due.date.change": [
+    {
+      "type": 0,
+      "value": "System calculated due date adjustment"
+    }
+  ],
+  "ui-circulation.permission.settings.edit-staff-slips": [
+    {
+      "type": 0,
+      "value": "Settings (Circ): Can edit staff slips"
+    }
+  ],
+  "ui-circulation.settings.validate.subject": [
+    {
+      "type": 0,
+      "value": "Should not begin with a space"
+    }
+  ],
+  "ui-data-export.fileName": [
+    {
+      "type": 0,
+      "value": "fileName"
+    }
+  ],
+  "ui-data-export.jobExecutionHrId": [
+    {
+      "type": 0,
+      "value": "ID"
+    }
+  ],
+  "ui-data-export.keyword": [
+    {
+      "type": 0,
+      "value": "Keyword (ID, File name)"
+    }
+  ],
+  "ui-data-export.placeholder.fileName": [
+    {
+      "type": 0,
+      "value": "Search for File name"
+    }
+  ],
+  "ui-data-export.placeholder.jobExecutionHrId": [
+    {
+      "type": 0,
+      "value": "Search for ID"
+    }
+  ],
+  "ui-data-export.resetFilters": [
+    {
+      "type": 0,
+      "value": "Reset all"
+    }
+  ],
+  "ui-data-import.logViewer.order": [
+    {
+      "type": 0,
+      "value": "Order"
+    }
+  ],
+  "ui-data-import.logViewer.orderLine": [
+    {
+      "type": 0,
+      "value": "Order line"
+    }
+  ],
+  "ui-data-import.selectAction.create": [
+    {
+      "type": 0,
+      "value": "Create (all record types except MARC Authority or MARC Holdings)"
+    }
+  ],
+  "ui-data-import.selectAction.modify": [
+    {
+      "type": 0,
+      "value": "Modify (MARC Bibliographic record type only)"
+    }
+  ],
+  "ui-data-import.selectAction.update": [
+    {
+      "type": 0,
+      "value": "Update (all record types except Orders, Invoices, or MARC Holdings)"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.item.requiredWhenCreatingHoldings.info": [
+    {
+      "type": 0,
+      "value": "Required when creating Holdings"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.item.requiredWhenCreatingItem.info": [
+    {
+      "type": 0,
+      "value": "Required when creating Item"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.costDetails.additionalCost": [
+    {
+      "type": 0,
+      "value": "Additional cost"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.costDetails.currency": [
+    {
+      "type": 0,
+      "value": "Currency"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.costDetails.discount": [
+    {
+      "type": 0,
+      "value": "Discount"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.costDetails.electronicUnitPrice": [
+    {
+      "type": 0,
+      "value": "Electronic unit price"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.costDetails.exchangeRate": [
+    {
+      "type": 0,
+      "value": "Set exchange rate"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.costDetails.field.additionalCost": [
+    {
+      "type": 0,
+      "value": "Additional cost"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.costDetails.field.currency": [
+    {
+      "type": 0,
+      "value": "Currency"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.costDetails.field.discount": [
+    {
+      "type": 0,
+      "value": "Discount"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.costDetails.field.electronicUnitPrice": [
+    {
+      "type": 0,
+      "value": "Electronic unit price"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.costDetails.field.electronicUnitPrice.info": [
+    {
+      "type": 0,
+      "value": "Required when Order format is Electronic resource or P/E mix"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.costDetails.field.physicalUnitPrice": [
+    {
+      "type": 0,
+      "value": "Physical unit price"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.costDetails.field.physicalUnitPrice.info": [
+    {
+      "type": 0,
+      "value": "Required when Order format is Physical resource, P/E mix, or Other"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.costDetails.field.quantityElectronic": [
+    {
+      "type": 0,
+      "value": "Quantity electronic"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.costDetails.field.quantityPhysical": [
+    {
+      "type": 0,
+      "value": "Quantity physical"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.costDetails.field.setExchangeRate": [
+    {
+      "type": 0,
+      "value": "Set exchange rate"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.costDetails.field.type": [
+    {
+      "type": 0,
+      "value": "Type"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.costDetails.field.useSetExchangeRate": [
+    {
+      "type": 0,
+      "value": "Use set exchange rate"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.costDetails.listUnitPrice": [
+    {
+      "type": 0,
+      "value": "Physical unit price"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.costDetails.quantityElectronic": [
+    {
+      "type": 0,
+      "value": "Quantity electronic"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.costDetails.quantityPhysical": [
+    {
+      "type": 0,
+      "value": "Quantity physical"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.costDetails.section": [
+    {
+      "type": 0,
+      "value": "Cost details"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.costDetails.useExchangeRate": [
+    {
+      "type": 0,
+      "value": "Use set exchange rate"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.eResourcesDetails.accessProvider": [
+    {
+      "type": 0,
+      "value": "Access provider"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.eResourcesDetails.activated": [
+    {
+      "type": 0,
+      "value": "Activation status"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.eResourcesDetails.activationDue": [
+    {
+      "type": 0,
+      "value": "Activation due"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.eResourcesDetails.createInventory": [
+    {
+      "type": 0,
+      "value": "Create inventory"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.eResourcesDetails.expectedActivation": [
+    {
+      "type": 0,
+      "value": "Expected activation"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.eResourcesDetails.field.accessProvider": [
+    {
+      "type": 0,
+      "value": "Access provider"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.eResourcesDetails.field.activationDue": [
+    {
+      "type": 0,
+      "value": "Activation due"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.eResourcesDetails.field.activationStatus": [
+    {
+      "type": 0,
+      "value": "Activation status"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.eResourcesDetails.field.createInventory": [
+    {
+      "type": 0,
+      "value": "Create inventory"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.eResourcesDetails.field.expectedActivation": [
+    {
+      "type": 0,
+      "value": "Expected activation"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.eResourcesDetails.field.materialType": [
+    {
+      "type": 0,
+      "value": "Material type"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.eResourcesDetails.field.materialType.info": [
+    {
+      "type": 0,
+      "value": "Required when Order format is Electronic resource or P/E mix; and Create inventory is Instance, holdings, item"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.eResourcesDetails.field.trial": [
+    {
+      "type": 0,
+      "value": "トライアル"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.eResourcesDetails.field.url": [
+    {
+      "type": 0,
+      "value": "URL"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.eResourcesDetails.field.userLimit": [
+    {
+      "type": 0,
+      "value": "User limit"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.eResourcesDetails.materialType": [
+    {
+      "type": 0,
+      "value": "Material type"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.eResourcesDetails.resourceUrl": [
+    {
+      "type": 0,
+      "value": "URL"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.eResourcesDetails.section": [
+    {
+      "type": 0,
+      "value": "E-resources details"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.eResourcesDetails.trial": [
+    {
+      "type": 0,
+      "value": "Trial"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.eResourcesDetails.userLimit": [
+    {
+      "type": 0,
+      "value": "User limit"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.fundDistribution.field.expenseClass": [
+    {
+      "type": 0,
+      "value": "Expense class"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.fundDistribution.field.expenseClass.info": [
+    {
+      "type": 0,
+      "value": "Required when assigned Fund has one or more Expense classes"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.fundDistribution.field.fundDistribution.addLabel": [
+    {
+      "type": 0,
+      "value": "Add fund distribution"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.fundDistribution.field.fundId": [
+    {
+      "type": 0,
+      "value": "Fund ID"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.fundDistribution.field.fundId.info": [
+    {
+      "type": 0,
+      "value": "Required when assigning Fund distribution"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.fundDistribution.field.type": [
+    {
+      "type": 0,
+      "value": "Type"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.fundDistribution.field.value": [
+    {
+      "type": 0,
+      "value": "値"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.fundDistribution.section": [
+    {
+      "type": 0,
+      "value": "Fund distribution"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.fundDistributions.expenseClassId": [
+    {
+      "type": 0,
+      "value": "Expense class"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.fundDistributions.fundId": [
+    {
+      "type": 0,
+      "value": "Fund ID"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.fundDistributions.section": [
+    {
+      "type": 0,
+      "value": "Fund distribution"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.fundDistributions.value": [
+    {
+      "type": 0,
+      "value": "値"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.itemDetails.field.contributor": [
+    {
+      "type": 0,
+      "value": "Contributor"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.itemDetails.field.contributor.addLabel": [
+    {
+      "type": 0,
+      "value": "Add contributor"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.itemDetails.field.contributorType": [
+    {
+      "type": 0,
+      "value": "Contributor type"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.itemDetails.field.edition": [
+    {
+      "type": 0,
+      "value": "Edition"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.itemDetails.field.internalNote": [
+    {
+      "type": 0,
+      "value": "Internal note"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.itemDetails.field.mustAcknowledgeReceivingNote": [
+    {
+      "type": 0,
+      "value": "Must acknowledge receiving note"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.itemDetails.field.productId": [
+    {
+      "type": 0,
+      "value": "Product ID"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.itemDetails.field.productIdType": [
+    {
+      "type": 0,
+      "value": "Product ID type"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.itemDetails.field.productIdentifiers.addLabel": [
+    {
+      "type": 0,
+      "value": "Add product ID and product ID type"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.itemDetails.field.publicationDate": [
+    {
+      "type": 0,
+      "value": "Publication date"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.itemDetails.field.publisher": [
+    {
+      "type": 0,
+      "value": "Publisher"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.itemDetails.field.qualifier": [
+    {
+      "type": 0,
+      "value": "Qualifier"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.itemDetails.field.receivingNote": [
+    {
+      "type": 0,
+      "value": "Receiving note"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.itemDetails.field.subscriptionFrom": [
+    {
+      "type": 0,
+      "value": "Subscription from"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.itemDetails.field.subscriptionInterval": [
+    {
+      "type": 0,
+      "value": "Subscription interval"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.itemDetails.field.subscriptionTo": [
+    {
+      "type": 0,
+      "value": "Subscription to"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.itemDetails.field.title": [
+    {
+      "type": 0,
+      "value": "Title"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.itemDetails.section": [
+    {
+      "type": 0,
+      "value": "Item details"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.location.field.locations.addLabel": [
+    {
+      "type": 0,
+      "value": "Add location"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.location.field.name": [
+    {
+      "type": 0,
+      "value": "Name (code)"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.location.field.name.info": [
+    {
+      "type": 0,
+      "value": "Required when Create inventory is Instance, holdings, item or Instance, holdings"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.location.field.quantityElectronic": [
+    {
+      "type": 0,
+      "value": "Quantity electronic"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.location.field.quantityElectronic.info": [
+    {
+      "type": 0,
+      "value": "Required when Create inventory is Instance, holdings, item or Instance, holdings; and Order format is Electronic resource or P/E mix"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.location.field.quantityPhysical": [
+    {
+      "type": 0,
+      "value": "Quantity physical"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.location.field.quantityPhysical.info": [
+    {
+      "type": 0,
+      "value": "Required when Create inventory is Instance, holdings, item or Instance, holdings; and Order format is Physical resource, P/E mix, or Other"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.location.locationId": [
+    {
+      "type": 0,
+      "value": "Name (code)"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.location.quantityElectronic": [
+    {
+      "type": 0,
+      "value": "Quantity electronic"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.location.quantityPhysical": [
+    {
+      "type": 0,
+      "value": "Quantity physical"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.location.section": [
+    {
+      "type": 0,
+      "value": "Location"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderDetails.contributors.contributor": [
+    {
+      "type": 0,
+      "value": "Contributor"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderDetails.contributors.contributorType": [
+    {
+      "type": 0,
+      "value": "Contributor type"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderDetails.contributors.section": [
+    {
+      "type": 0,
+      "value": "Contributors"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderDetails.edition": [
+    {
+      "type": 0,
+      "value": "Edition"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderDetails.internalNote": [
+    {
+      "type": 0,
+      "value": "Internal note"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderDetails.isAcknowledged": [
+    {
+      "type": 0,
+      "value": "Must acknowledge receiving note"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderDetails.productIdentifiers.productId": [
+    {
+      "type": 0,
+      "value": "Product ID"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderDetails.productIdentifiers.productIdType": [
+    {
+      "type": 0,
+      "value": "Product ID type"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderDetails.productIdentifiers.qualifier": [
+    {
+      "type": 0,
+      "value": "Qualifier"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderDetails.productIdentifiers.section": [
+    {
+      "type": 0,
+      "value": "Product identifiers"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderDetails.publicationDate": [
+    {
+      "type": 0,
+      "value": "Publication date"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderDetails.publisher": [
+    {
+      "type": 0,
+      "value": "Publisher"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderDetails.receivingNote": [
+    {
+      "type": 0,
+      "value": "Receiving note"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderDetails.section": [
+    {
+      "type": 0,
+      "value": "Item details"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderDetails.subscriptionFrom": [
+    {
+      "type": 0,
+      "value": "Subscription from"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderDetails.subscriptionInterval": [
+    {
+      "type": 0,
+      "value": "Subscription interval"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderDetails.subscriptionTo": [
+    {
+      "type": 0,
+      "value": "Subscription to"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderDetails.title": [
+    {
+      "type": 0,
+      "value": "Title"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.acquisitionsUnits": [
+    {
+      "type": 0,
+      "value": "Acquisitions units"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.approved": [
+    {
+      "type": 0,
+      "value": "Approved"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.assignedTo": [
+    {
+      "type": 0,
+      "value": "Assigned to"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.billTo": [
+    {
+      "type": 0,
+      "value": "Bill to name"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.billToAddress": [
+    {
+      "type": 0,
+      "value": "Bill to address"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.field.acquisitionUnits": [
+    {
+      "type": 0,
+      "value": "Acquisition units"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.field.approved": [
+    {
+      "type": 0,
+      "value": "Approved"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.field.assignedTo": [
+    {
+      "type": 0,
+      "value": "Assigned to"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.field.billToAddress": [
+    {
+      "type": 0,
+      "value": "Bill to address"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.field.billToName": [
+    {
+      "type": 0,
+      "value": "Bill to name"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.field.false": [
+    {
+      "type": 0,
+      "value": "false"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.field.manual": [
+    {
+      "type": 0,
+      "value": "Manual"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.field.note": [
+    {
+      "type": 0,
+      "value": "Note"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.field.note.addLabel": [
+    {
+      "type": 0,
+      "value": "Add note"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.field.open": [
+    {
+      "type": 0,
+      "value": "Open"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.field.orderType": [
+    {
+      "type": 0,
+      "value": "Order type"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.field.overridePurchaseOrderLinesLimitSetting": [
+    {
+      "type": 0,
+      "value": "Override purchase order lines limit setting"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.field.pending": [
+    {
+      "type": 0,
+      "value": "Pending"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.field.poNumber": [
+    {
+      "type": 0,
+      "value": "PO number"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.field.prefix": [
+    {
+      "type": 0,
+      "value": "Prefix"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.field.purchaseOrderLinesLimitSetting": [
+    {
+      "type": 0,
+      "value": "Purchase order lines limit setting"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.field.purchaseOrderStatus": [
+    {
+      "type": 0,
+      "value": "Purchase order status"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.field.reEncumber": [
+    {
+      "type": 0,
+      "value": "Re-encumber"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.field.shipToAddress": [
+    {
+      "type": 0,
+      "value": "Ship to address"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.field.shipToName": [
+    {
+      "type": 0,
+      "value": "Ship to name"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.field.suffix": [
+    {
+      "type": 0,
+      "value": "Suffix"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.field.true": [
+    {
+      "type": 0,
+      "value": "true"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.field.vendor": [
+    {
+      "type": 0,
+      "value": "ベンダー"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.manualPo": [
+    {
+      "type": 0,
+      "value": "Manual"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.note": [
+    {
+      "type": 0,
+      "value": "Note"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.notes.legend": [
+    {
+      "type": 0,
+      "value": "Notes"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.orderType": [
+    {
+      "type": 0,
+      "value": "Order type"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.overridePoLinesLimit": [
+    {
+      "type": 0,
+      "value": "Override purchase order lines limit setting"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.poLinesLimit": [
+    {
+      "type": 0,
+      "value": "Purchase order lines limit setting"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.poNumber": [
+    {
+      "type": 0,
+      "value": "PO Number"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.poStatus": [
+    {
+      "type": 0,
+      "value": "Purchase order status"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.prefix": [
+    {
+      "type": 0,
+      "value": "Prefix"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.reEncumber": [
+    {
+      "type": 0,
+      "value": "Re-encumber"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.section": [
+    {
+      "type": 0,
+      "value": "Order information"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.shipTo": [
+    {
+      "type": 0,
+      "value": "Ship to name"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.shipToAddress": [
+    {
+      "type": 0,
+      "value": "Ship to address"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.suffix": [
+    {
+      "type": 0,
+      "value": "Suffix"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.vendor": [
+    {
+      "type": 0,
+      "value": "Vendor"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderLineInformation.section": [
+    {
+      "type": 0,
+      "value": "Order line information"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.physicalOrderDetails.createInventory": [
+    {
+      "type": 0,
+      "value": "Create inventory"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.physicalOrderDetails.expectedReceiptDate": [
+    {
+      "type": 0,
+      "value": "Expected receipt date"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.physicalOrderDetails.materialSupplier": [
+    {
+      "type": 0,
+      "value": "Material supplier"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.physicalOrderDetails.materialType": [
+    {
+      "type": 0,
+      "value": "Material type"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.physicalOrderDetails.receiptDue": [
+    {
+      "type": 0,
+      "value": "Receipt due"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.physicalOrderDetails.section": [
+    {
+      "type": 0,
+      "value": "Physical resource details"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.physicalOrderDetails.volume": [
+    {
+      "type": 0,
+      "value": "Volume"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.physicalResourceDetails.field.createInventory": [
+    {
+      "type": 0,
+      "value": "Create inventory"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.physicalResourceDetails.field.expectedReceiptDate": [
+    {
+      "type": 0,
+      "value": "Expected receipt date"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.physicalResourceDetails.field.instance": [
+    {
+      "type": 0,
+      "value": "Instance"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.physicalResourceDetails.field.instanceHoldings": [
+    {
+      "type": 0,
+      "value": "Instance, holdings"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.physicalResourceDetails.field.instanceHoldingsItems": [
+    {
+      "type": 0,
+      "value": "Instance, holdings, item"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.physicalResourceDetails.field.materialSupplier": [
+    {
+      "type": 0,
+      "value": "Material supplier"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.physicalResourceDetails.field.materialType": [
+    {
+      "type": 0,
+      "value": "Material type"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.physicalResourceDetails.field.materialType.info": [
+    {
+      "type": 0,
+      "value": "Required when Order format is Physical resource, P/E mix, or Other; and Create inventory is Instance, holdings, item"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.physicalResourceDetails.field.none": [
+    {
+      "type": 0,
+      "value": "None"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.physicalResourceDetails.field.receiptDue": [
+    {
+      "type": 0,
+      "value": "Receipt due"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.physicalResourceDetails.field.volume": [
+    {
+      "type": 0,
+      "value": "Volume"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.physicalResourceDetails.field.volume.addLabel": [
+    {
+      "type": 0,
+      "value": "Add volume"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.physicalResourceDetails.section": [
+    {
+      "type": 0,
+      "value": "Physical resource details"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.acquisitionMethod": [
+    {
+      "type": 0,
+      "value": "Acquisition method"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.automaticExport": [
+    {
+      "type": 0,
+      "value": "Automatic export"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.cancellationDescription": [
+    {
+      "type": 0,
+      "value": "Cancellation description"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.cancellationRestriction": [
+    {
+      "type": 0,
+      "value": "Cancellation restriction"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.createdOn": [
+    {
+      "type": 0,
+      "value": "Created on"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.donor": [
+    {
+      "type": 0,
+      "value": "Donor"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.field.acquisitionMethod": [
+    {
+      "type": 0,
+      "value": "Acquisition method"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.field.automaticExport": [
+    {
+      "type": 0,
+      "value": "Automatic export"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.field.cancellationDescription": [
+    {
+      "type": 0,
+      "value": "Cancellation description"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.field.cancellationRestriction": [
+    {
+      "type": 0,
+      "value": "Cancellation restriction"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.field.createdOn": [
+    {
+      "type": 0,
+      "value": "Created on"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.field.donor": [
+    {
+      "type": 0,
+      "value": "Donor"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.field.electronicResource": [
+    {
+      "type": 0,
+      "value": "Electronic Resource"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.field.independent": [
+    {
+      "type": 0,
+      "value": "Independent"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.field.lineDescription": [
+    {
+      "type": 0,
+      "value": "Line description"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.field.orderFormat": [
+    {
+      "type": 0,
+      "value": "Order format"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.field.other": [
+    {
+      "type": 0,
+      "value": "Other"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.field.pEMix": [
+    {
+      "type": 0,
+      "value": "P/E Mix"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.field.paymentStatus": [
+    {
+      "type": 0,
+      "value": "Payment status"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.field.pending": [
+    {
+      "type": 0,
+      "value": "Pending"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.field.physicalResource": [
+    {
+      "type": 0,
+      "value": "Physical Resource"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.field.polNumber": [
+    {
+      "type": 0,
+      "value": "POL number"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.field.receiptDate": [
+    {
+      "type": 0,
+      "value": "Receipt date"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.field.receiptNotRequired": [
+    {
+      "type": 0,
+      "value": "Receipt not required"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.field.receiptStatus": [
+    {
+      "type": 0,
+      "value": "Receipt status"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.field.receivingWorkflow": [
+    {
+      "type": 0,
+      "value": "Receiving workflow"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.field.requester": [
+    {
+      "type": 0,
+      "value": "Requester"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.field.rush": [
+    {
+      "type": 0,
+      "value": "Rush"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.field.selector": [
+    {
+      "type": 0,
+      "value": "Selector"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.field.source": [
+    {
+      "type": 0,
+      "value": "Source"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.field.synchronized": [
+    {
+      "type": 0,
+      "value": "Synchronized"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.orderFormat": [
+    {
+      "type": 0,
+      "value": "Order format"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.paymentStatus": [
+    {
+      "type": 0,
+      "value": "Payment status"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.poLineDescription": [
+    {
+      "type": 0,
+      "value": "Line description"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.poLineNumber": [
+    {
+      "type": 0,
+      "value": "POL number"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.receiptDate": [
+    {
+      "type": 0,
+      "value": "Receipt date"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.receiptStatus": [
+    {
+      "type": 0,
+      "value": "Receipt status"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.receivingWorkflow": [
+    {
+      "type": 0,
+      "value": "Receiving workflow"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.requester": [
+    {
+      "type": 0,
+      "value": "Requester"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.rush": [
+    {
+      "type": 0,
+      "value": "Rush"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.section": [
+    {
+      "type": 0,
+      "value": "PO line details"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.selector": [
+    {
+      "type": 0,
+      "value": "Selector"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.source": [
+    {
+      "type": 0,
+      "value": "Source"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.vendor.field.accountNumber": [
+    {
+      "type": 0,
+      "value": "Account number"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.vendor.field.continuationRefNumber": [
+    {
+      "type": 0,
+      "value": "Vendor continuation reference number"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.vendor.field.instructionsToVendor": [
+    {
+      "type": 0,
+      "value": "Instructions to vendor"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.vendor.field.internalNumber": [
+    {
+      "type": 0,
+      "value": "Vendor internal number"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.vendor.field.orderRefNumber": [
+    {
+      "type": 0,
+      "value": "Vendor order reference number"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.vendor.field.subscriptionRefNumber": [
+    {
+      "type": 0,
+      "value": "Vendor subscription reference number"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.vendor.field.titleRefNumber": [
+    {
+      "type": 0,
+      "value": "Vendor title number"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.vendor.field.vendorRefNumber": [
+    {
+      "type": 0,
+      "value": "Vendor reference number"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.vendor.field.vendorRefNumbers.addLabel": [
+    {
+      "type": 0,
+      "value": "Add vendor reference number"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.vendor.field.vendorRefType": [
+    {
+      "type": 0,
+      "value": "Vendor reference type"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.vendor.instructions": [
+    {
+      "type": 0,
+      "value": "Instructions to vendor"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.vendor.section": [
+    {
+      "type": 0,
+      "value": "ベンダー"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.vendor.vendorAccount": [
+    {
+      "type": 0,
+      "value": "Account number"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.vendor.vendorDetails.refNumber": [
+    {
+      "type": 0,
+      "value": "Vendor reference number"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.vendor.vendorDetails.refNumberType": [
+    {
+      "type": 0,
+      "value": "Vendor reference type"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.vendor.vendorDetails.section": [
+    {
+      "type": 0,
+      "value": "Vendor reference numbers"
+    }
+  ],
+  "ui-erm-usage.harvester.jobs.filter.status": [
+    {
+      "type": 0,
+      "value": "Job status"
+    }
+  ],
+  "ui-erm-usage.harvester.jobs.filter.status.finished": [
+    {
+      "type": 0,
+      "value": "Finished"
+    }
+  ],
+  "ui-erm-usage.harvester.jobs.filter.status.running": [
+    {
+      "type": 0,
+      "value": "Running"
+    }
+  ],
+  "ui-erm-usage.harvester.jobs.filter.status.scheduled": [
+    {
+      "type": 0,
+      "value": "Scheduled"
+    }
+  ],
+  "ui-erm-usage.harvester.jobs.filter.type": [
+    {
+      "type": 0,
+      "value": "Job types"
+    }
+  ],
+  "ui-erm-usage.information.lastJobFinishedAt": [
+    {
+      "type": 0,
+      "value": "Last harvesting job finished at"
+    }
+  ],
+  "ui-export-manager.exportJob.type.AUTH_HEADINGS_UPDATES": [
+    {
+      "type": 0,
+      "value": "Authority control"
+    }
+  ],
+  "ui-export-manager.exportJob.type.BULK_EDIT_IDENTIFIERS": [
+    {
+      "type": 0,
+      "value": "Bulk edit identifiers"
+    }
+  ],
+  "ui-export-manager.exportJob.type.BULK_EDIT_QUERY": [
+    {
+      "type": 0,
+      "value": "Bulk edit query"
+    }
+  ],
+  "ui-finance.ledger.rollover.logs.settings": [
+    {
+      "type": 0,
+      "value": "Settings"
+    }
+  ],
+  "ui-finance.ledger.rollover.rolloverBudgetValue": [
+    {
+      "type": 0,
+      "value": "Rollover budget value"
+    }
+  ],
+  "ui-finance.ledger.rollover.rolloverBudgetValue.available": [
+    {
+      "type": 0,
+      "value": "Available"
+    }
+  ],
+  "ui-finance.ledger.rollover.rolloverBudgetValue.cashBalance": [
+    {
+      "type": 0,
+      "value": "Cash balance"
+    }
+  ],
+  "ui-finance.ledger.rollover.rolloverBudgetValue.none": [
+    {
+      "type": 0,
+      "value": "None"
+    }
+  ],
+  "ui-finance.ledger.rollover.rolloverValueAs": [
+    {
+      "type": 0,
+      "value": "Rollover value as"
+    }
+  ],
+  "ui-finance.settings.expenseClasses.cannotDeleteTermHeader": [
+    {
+      "type": 0,
+      "value": "Cannot delete expense class"
+    }
+  ],
+  "ui-finance.settings.expenseClasses.cannotDeleteTermMessage": [
+    {
+      "type": 0,
+      "value": "This expense class cannot be deleted, as it is in use by one or more records."
+    }
+  ],
+  "ui-finance.settings.expenseClasses.deleteEntry": [
+    {
+      "type": 0,
+      "value": "Delete expense class"
+    }
+  ],
+  "ui-finance.settings.expenseClasses.termDeleted": [
+    {
+      "type": 0,
+      "value": "The expense class "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "term"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " was successfully "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "deleted"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
+  "ui-finance.settings.expenseClasses.termWillBeDeleted": [
+    {
+      "type": 0,
+      "value": "The expense class "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "term"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " will be "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "deleted."
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
+  "ui-finance.settings.fundTypes.cannotDeleteTermHeader": [
+    {
+      "type": 0,
+      "value": "Cannot delete fund type"
+    }
+  ],
+  "ui-finance.settings.fundTypes.cannotDeleteTermMessage": [
+    {
+      "type": 0,
+      "value": "This fund type cannot be deleted, as it is in use by one or more records."
+    }
+  ],
+  "ui-finance.settings.fundTypes.deleteEntry": [
+    {
+      "type": 0,
+      "value": "Delete fund type"
+    }
+  ],
+  "ui-finance.settings.fundTypes.termDeleted": [
+    {
+      "type": 0,
+      "value": "The fund type "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "term"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " was successfully "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "deleted"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
+  "ui-finance.settings.fundTypes.termWillBeDeleted": [
+    {
+      "type": 0,
+      "value": "The fund type "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "term"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " will be "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "deleted."
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
+  "ui-finance.transaction.allocation.budgetNotFoundForTransaction": [
+    {
+      "type": 1,
+      "value": "amount"
+    },
+    {
+      "type": 0,
+      "value": " was not successfully allocated because "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "fundCode"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " has no budget"
+    }
+  ],
+  "ui-finance.transaction.allocation.notEnoughMoneyForAllocationError": [
+    {
+      "type": 1,
+      "value": "amount"
+    },
+    {
+      "type": 0,
+      "value": " was not successfully allocated to the budget "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "toBudgetName"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " because it exceeds the total allocation amount of "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "fromBudgetName"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
+  "ui-finance.transaction.confirmModal.negativeAvailableAmount.heading": [
+    {
+      "type": 0,
+      "value": "Negative available amount"
+    }
+  ],
+  "ui-finance.transaction.confirmModal.negativeAvailableAmount.message": [
+    {
+      "type": 0,
+      "value": "Completing this transfer will result in "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "budgetName"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " having a negative available amount. Are you sure you would like to complete this transaction?"
+    }
+  ],
+  "ui-finance.transaction.transfer.budgetNotFoundForTransaction": [
+    {
+      "type": 1,
+      "value": "amount"
+    },
+    {
+      "type": 0,
+      "value": " was not successfully transferred because "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "fundCode"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " has no budget"
+    }
+  ],
+  "ui-inventory.appMenu.inventorySearch": [
+    {
+      "type": 0,
+      "value": "Inventory app search"
+    }
+  ],
+  "ui-inventory.ariaLabel.createJobProfile": [
+    {
+      "type": 0,
+      "value": "Set "
+    },
+    {
+      "type": 1,
+      "value": "profileIndex"
+    },
+    {
+      "type": 0,
+      "value": " job profile for create as default"
+    }
+  ],
+  "ui-inventory.ariaLabel.updateJobProfile": [
+    {
+      "type": 0,
+      "value": "Set "
+    },
+    {
+      "type": 1,
+      "value": "profileIndex"
+    },
+    {
+      "type": 0,
+      "value": " job profile for update as default"
+    }
+  ],
+  "ui-inventory.authorityId": [
+    {
+      "type": 0,
+      "value": "Authority UUID"
+    }
+  ],
+  "ui-inventory.button.addCreateJobProfileId": [
+    {
+      "type": 0,
+      "value": "Add job profile for import/create"
+    }
+  ],
+  "ui-inventory.button.addUpdateJobProfileId": [
+    {
+      "type": 0,
+      "value": "Add job profile for overlay/update"
+    }
+  ],
+  "ui-inventory.copycat.defaultJobProfile": [
+    {
+      "type": 1,
+      "value": "jobProfile"
+    },
+    {
+      "type": 0,
+      "value": " (Default)"
+    }
+  ],
+  "ui-inventory.copycat.externalTarget": [
+    {
+      "type": 0,
+      "value": "External target"
+    }
+  ],
+  "ui-inventory.copycat.jobProfileToBeUsed": [
+    {
+      "type": 0,
+      "value": "Select the profile to be used"
+    }
+  ],
+  "ui-inventory.copycat.overlayJobProfileToBeUsed": [
+    {
+      "type": 0,
+      "value": "Select the profile to be used to overlay the current data"
+    }
+  ],
+  "ui-inventory.copycat.overlaySourceBib": [
+    {
+      "type": 0,
+      "value": "Overlay source bibliographic record"
+    }
+  ],
+  "ui-inventory.createJobProfileIds": [
+    {
+      "type": 0,
+      "value": "Job profiles for import/create"
+    }
+  ],
+  "ui-inventory.defaultJobProfile": [
+    {
+      "type": 0,
+      "value": "Default"
+    }
+  ],
+  "ui-inventory.effectiveLocationHoldings": [
+    {
+      "type": 0,
+      "value": "Effective location for holdings"
+    }
+  ],
+  "ui-inventory.inactive.gridCell": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Inactive"
+            }
+          ],
+          "type": 8,
+          "value": "em"
+        },
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "location"
+        }
+      ],
+      "type": 8,
+      "value": "span"
+    }
+  ],
+  "ui-inventory.info.effectiveCallNumber": [
+    {
+      "type": 0,
+      "value": "This field contains the item call number, which is either inherited from the holdings record, or is the updated call number on the item record. While browsing call numbers, this field will be searched."
+    }
+  ],
+  "ui-inventory.info.shelvingOrder": [
+    {
+      "type": 0,
+      "value": "This field is the normalized form of the call number which determines how the call number is sorted while browsing."
+    }
+  ],
+  "ui-inventory.jobProfiles.info": [
+    {
+      "type": 0,
+      "value": "Review the listed job profiles carefully before assigning for Inventory single record imports. Only MARC Bibliographic job profiles can be assigned, not MARC Holdings or MARC Authority job profiles."
+    }
+  ],
+  "ui-inventory.markAsHeader": [
+    {
+      "type": 0,
+      "value": "Mark as"
+    }
+  ],
+  "ui-inventory.select.createJobProfileId": [
+    {
+      "type": 0,
+      "value": "Select job profile for import/create"
+    }
+  ],
+  "ui-inventory.select.updateJobProfileId": [
+    {
+      "type": 0,
+      "value": "Select job profile for overlay/update"
+    }
+  ],
+  "ui-inventory.updateJobProfileIds": [
+    {
+      "type": 0,
+      "value": "Job profiles for overlay/update"
+    }
+  ],
+  "ui-invoice.settings.batchGroups.cannotDeleteTermHeader": [
+    {
+      "type": 0,
+      "value": "Cannot delete batch group"
+    }
+  ],
+  "ui-invoice.settings.batchGroups.cannotDeleteTermMessage": [
+    {
+      "type": 0,
+      "value": "This batch group cannot be deleted, as it is in use by one or more records."
+    }
+  ],
+  "ui-invoice.settings.batchGroups.deleteEntry": [
+    {
+      "type": 0,
+      "value": "Delete batch group"
+    }
+  ],
+  "ui-invoice.settings.batchGroups.termDeleted": [
+    {
+      "type": 0,
+      "value": "The batch group "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "term"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " was successfully "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "deleted"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
+  "ui-invoice.settings.batchGroups.termWillBeDeleted": [
+    {
+      "type": 0,
+      "value": "The batch group "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "term"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " will be "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "deleted."
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
+  "ui-ldp.copy-of": "Copy of {string}",
+  "ui-ldp.error.load-queries": "Could not load saved queries: {error}",
+  "ui-ldp.button.new-query": "New query",
+  "ui-ldp.button.copy-query": "Copy query",
+  "ui-ldp.desc.new-query": "This will clear the present query ready to create a new one.",
+  "ui-ldp.desc.copy-query": "This will copy the current query to a new one that can be edited, run and saved.",
+  "ui-ldp.saved-queries.updater": "Last updated by",
+  "ui-ldp.saved-queries.updated": "Date last updated",
+  "ui-ldp.save-query.update.notFound": "The query you loaded was deleted. Make a copy and save that.",
+  "ui-ldp.saved-queries.delete.updatedBy": "Last updated by <code>{updater}</code>, {updated}",
+  "ui-marc-authorities.authority-record.print": [
+    {
+      "type": 0,
+      "value": "Print"
+    }
+  ],
+  "ui-marc-authorities.delete.linkedRecord.description": [
+    {
+      "type": 0,
+      "value": "Are you sure you want to permanently delete the authority record: "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "headingRef"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": "? If you proceed with deletion, then "
+    },
+    {
+      "children": [
+        {
+          "style": null,
+          "type": 2,
+          "value": "count"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " linked bibliographic "
+    },
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "record"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "records"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": " will retain authorized value and will become uncontrolled."
+    }
+  ],
+  "ui-marc-authorities.reportModal.HEADINGS_UPDATES.label": [
+    {
+      "type": 0,
+      "value": "Set date range for MARC authority headings updates (CSV) report"
+    }
+  ],
+  "ui-marc-authorities.reportModal.button.cancel": [
+    {
+      "type": 0,
+      "value": "Cancel"
+    }
+  ],
+  "ui-marc-authorities.reportModal.button.export": [
+    {
+      "type": 0,
+      "value": "Export"
+    }
+  ],
+  "ui-marc-authorities.reportModal.endDate": [
+    {
+      "type": 0,
+      "value": "End date"
+    }
+  ],
+  "ui-marc-authorities.reportModal.endDate.error": [
+    {
+      "type": 0,
+      "value": "\"End date\" is required"
+    }
+  ],
+  "ui-marc-authorities.reportModal.endDate.error.greaterThan": [
+    {
+      "type": 0,
+      "value": "\"End date\" must be greater than or equal to \"Start date\""
+    }
+  ],
+  "ui-marc-authorities.reportModal.startDate": [
+    {
+      "type": 0,
+      "value": "Start date"
+    }
+  ],
+  "ui-marc-authorities.reportModal.startDate.error": [
+    {
+      "type": 0,
+      "value": "\"Start date\" is required"
+    }
+  ],
+  "ui-marc-authorities.reports": [
+    {
+      "type": 0,
+      "value": "Reports"
+    }
+  ],
+  "ui-marc-authorities.reports.HEADINGS_UPDATES.success": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Authority headings updates report (Job ID "
+        },
+        {
+          "type": 1,
+          "value": "name"
+        },
+        {
+          "type": 0,
+          "value": ")"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " is being generated. Go to the Export manager app to download report. It may take a few minutes for the report to complete."
+    }
+  ],
+  "ui-marc-authorities.reports.fail": [
+    {
+      "type": 0,
+      "value": "We were unable to create this report. Please try again."
+    }
+  ],
+  "ui-marc-authorities.reports.failedUpdates": [
+    {
+      "type": 0,
+      "value": "Failed updates: linked bibliographic fields (CSV)"
+    }
+  ],
+  "ui-marc-authorities.reports.marcAuthorityHeadings": [
+    {
+      "type": 0,
+      "value": "MARC authority headings updates (CSV)"
+    }
+  ],
+  "ui-marc-authorities.search-results-list.numberOfTitles": [
+    {
+      "type": 0,
+      "value": "Number of titles"
+    }
+  ],
+  "ui-oai-pmh.settings.behavior.label.recordSource": [
+    {
+      "type": 0,
+      "value": "Record source"
+    }
+  ],
+  "ui-oai-pmh.settings.behavior.record.inventory": [
+    {
+      "type": 0,
+      "value": "Inventory"
+    }
+  ],
+  "ui-oai-pmh.settings.behavior.record.inventory-storage": [
+    {
+      "type": 0,
+      "value": "Source records storage and Inventory"
+    }
+  ],
+  "ui-oai-pmh.settings.behavior.record.storage": [
+    {
+      "type": 0,
+      "value": "Source records storage"
+    }
+  ],
+  "ui-oai-pmh.settings.behavior.tooltip.recordSource": [
+    {
+      "type": 0,
+      "value": "Record source"
+    }
+  ],
+  "ui-orders.breakInstanceConnection.modal.heading": [
+    {
+      "type": 0,
+      "value": "Remove instance connection"
+    }
+  ],
+  "ui-orders.breakInstanceConnection.modal.message": [
+    {
+      "type": 0,
+      "value": "Making this change will remove the link between the POL and selected inventory instance. Are you sure you would like to proceed with making this change and unlink this POL from the inventory instance \""
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "titleOrPackage"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "\"?"
+    }
+  ],
+  "ui-orders.errors.currentFYearIdNotFound": [
+    {
+      "type": 0,
+      "value": "Current fiscal year not found for PO line"
+    }
+  ],
+  "ui-orders.errors.errorRemovingInvoiceLineEncumbrances": [
+    {
+      "type": 0,
+      "value": "Error removing invoice line encumbrance links after deleting the encumbrances"
+    }
+  ],
+  "ui-orders.errors.errorRetrievingPoLines": [
+    {
+      "type": 0,
+      "value": "Error retrieving purchase order lines from storage"
+    }
+  ],
+  "ui-orders.errors.errorRetrievingTransactions": [
+    {
+      "type": 0,
+      "value": "Error retrieving the transactions from storage"
+    }
+  ],
+  "ui-orders.errors.forbiddenDeleteSystemValues": [
+    {
+      "type": 0,
+      "value": "Can not delete system values"
+    }
+  ],
+  "ui-orders.errors.forbiddenDeleteUsedValue": [
+    {
+      "type": 0,
+      "value": "This value can not be deleted"
+    }
+  ],
+  "ui-orders.errors.holdingsByIdNotFoundError": [
+    {
+      "type": 0,
+      "value": "Holdings with ids not found"
+    }
+  ],
+  "ui-orders.errors.locationIdAndHoldingIdAbsentError": [
+    {
+      "type": 0,
+      "value": "A holdings or location reference must present"
+    }
+  ],
+  "ui-orders.errors.mayBeLinkToEitherHoldingOrLocationError": [
+    {
+      "type": 0,
+      "value": "There is a holdingsId and locationId presented already"
+    }
+  ],
+  "ui-orders.errors.missingHoldingsSourceId": [
+    {
+      "type": 0,
+      "value": "Holdings not found in inventory"
+    }
+  ],
+  "ui-orders.errors.multipleNonPackageTitles": [
+    {
+      "type": 0,
+      "value": "Non-package PO Line must not contain more than one title reference"
+    }
+  ],
+  "ui-orders.errors.orderRelatesToInvoice": [
+    {
+      "type": 0,
+      "value": "This order or order line is linked to Invoice(s) and can not be deleted"
+    }
+  ],
+  "ui-orders.errors.partiallyReturnedCollection": [
+    {
+      "type": 0,
+      "value": "Not all holdings records could be found"
+    }
+  ],
+  "ui-orders.errors.pgException": [
+    {
+      "type": 0,
+      "value": "Database error occured during request processing"
+    }
+  ],
+  "ui-orders.errors.poLineHasRelatedApprovedInvoice": [
+    {
+      "type": 0,
+      "value": "The purchase order line fund distribution can not be changed because the order line is linked to an invoice line that currently has the \"approved\" status"
+    }
+  ],
+  "ui-orders.errors.poNumberPrefixRequired": [
+    {
+      "type": 0,
+      "value": "PO Number must start with Prefix"
+    }
+  ],
+  "ui-orders.errors.poNumberSuffixRequired": [
+    {
+      "type": 0,
+      "value": "PO Number must ends with Suffix"
+    }
+  ],
+  "ui-orders.errors.prefixIsUsed": [
+    {
+      "type": 0,
+      "value": "The prefix cannot be deleted as it is used by one or more orders"
+    }
+  ],
+  "ui-orders.errors.prefixNotFound": [
+    {
+      "type": 0,
+      "value": "The prefix is not available"
+    }
+  ],
+  "ui-orders.errors.suffixIsUsed": [
+    {
+      "type": 0,
+      "value": "The suffix cannot be deleted as it is used by one or more orders"
+    }
+  ],
+  "ui-orders.errors.suffixNotFound": [
+    {
+      "type": 0,
+      "value": "The suffix is not available"
+    }
+  ],
+  "ui-orders.errors.titleNotFound": [
+    {
+      "type": 0,
+      "value": "The receiving title(s) could not be found"
+    }
+  ],
+  "ui-orders.errors.userHasNoOrderReopenPermission": [
+    {
+      "type": 0,
+      "value": "User does not have permissions to reopen order - operation is restricted"
+    }
+  ],
+  "ui-orders.errors.userHasNoOrderUnopenPermission": [
+    {
+      "type": 0,
+      "value": "User does not have permissions to unopen order - operation is restricted"
+    }
+  ],
+  "ui-orders.orderDetails.approvedBy": [
+    {
+      "type": 0,
+      "value": "Approved by"
+    }
+  ],
+  "ui-orders.settings.acquisitionMethods.cannotDeleteTermHeader": [
+    {
+      "type": 0,
+      "value": "Cannot delete the acquisition method"
+    }
+  ],
+  "ui-orders.settings.acquisitionMethods.cannotDeleteTermMessage": [
+    {
+      "type": 0,
+      "value": "This acquisition method cannot be deleted, as it is in use by one or more records."
+    }
+  ],
+  "ui-orders.settings.acquisitionMethods.deleteEntry": [
+    {
+      "type": 0,
+      "value": "Delete acquisition method"
+    }
+  ],
+  "ui-orders.settings.acquisitionMethods.termDeleted": [
+    {
+      "type": 0,
+      "value": "The acquisition method "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "term"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " was successfully "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "deleted"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
+  "ui-orders.settings.acquisitionMethods.termWillBeDeleted": [
+    {
+      "type": 0,
+      "value": "The acquisition method "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "term"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " will be "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "deleted."
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
+  "ui-orders.settings.closingReasons.cannotDeleteTermHeader": [
+    {
+      "type": 0,
+      "value": "Cannot delete the closing reason"
+    }
+  ],
+  "ui-orders.settings.closingReasons.cannotDeleteTermMessage": [
+    {
+      "type": 0,
+      "value": "This closing reason cannot be deleted, as it is in use by one or more records."
+    }
+  ],
+  "ui-orders.settings.closingReasons.deleteEntry": [
+    {
+      "type": 0,
+      "value": "Delete closing reason"
+    }
+  ],
+  "ui-orders.settings.closingReasons.termDeleted": [
+    {
+      "type": 0,
+      "value": "The closing reason "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "term"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " was successfully "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "deleted"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
+  "ui-orders.settings.closingReasons.termWillBeDeleted": [
+    {
+      "type": 0,
+      "value": "The closing reason "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "term"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " will be "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "deleted."
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
+  "ui-orders.settings.poNumber.prefix.cannotDeleteTermHeader": [
+    {
+      "type": 0,
+      "value": "Cannot delete the prefix"
+    }
+  ],
+  "ui-orders.settings.poNumber.prefix.cannotDeleteTermMessage": [
+    {
+      "type": 0,
+      "value": "This prefix cannot be deleted, as it is in use by one or more records."
+    }
+  ],
+  "ui-orders.settings.poNumber.prefix.deleteEntry": [
+    {
+      "type": 0,
+      "value": "Delete prefix"
+    }
+  ],
+  "ui-orders.settings.poNumber.prefix.termDeleted": [
+    {
+      "type": 0,
+      "value": "The prefix "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "term"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " was successfully "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "deleted"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
+  "ui-orders.settings.poNumber.prefix.termWillBeDeleted": [
+    {
+      "type": 0,
+      "value": "The prefix "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "term"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " will be "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "deleted."
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
+  "ui-orders.settings.poNumber.suffix.cannotDeleteTermHeader": [
+    {
+      "type": 0,
+      "value": "Cannot delete the suffix"
+    }
+  ],
+  "ui-orders.settings.poNumber.suffix.cannotDeleteTermMessage": [
+    {
+      "type": 0,
+      "value": "This suffix cannot be deleted, as it is in use by one or more records."
+    }
+  ],
+  "ui-orders.settings.poNumber.suffix.deleteEntry": [
+    {
+      "type": 0,
+      "value": "Delete suffix"
+    }
+  ],
+  "ui-orders.settings.poNumber.suffix.termDeleted": [
+    {
+      "type": 0,
+      "value": "The suffix "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "term"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " was successfully "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "deleted"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
+  "ui-orders.settings.poNumber.suffix.termWillBeDeleted": [
+    {
+      "type": 0,
+      "value": "The suffix "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "term"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " will be "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "deleted."
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
+  "ui-orders.versionHistory.updatedByUserId": [
+    {
+      "type": 0,
+      "value": "Updated by"
+    }
+  ],
+  "ui-organizations.settings.categories.cannotDeleteTermHeader": [
+    {
+      "type": 0,
+      "value": "カテゴリーを削除できません"
+    }
+  ],
+  "ui-organizations.settings.categories.cannotDeleteTermMessage": [
+    {
+      "type": 0,
+      "value": "このカテゴリは 1 つ以上のレコードで使用されているため、削除できません。"
+    }
+  ],
+  "ui-organizations.settings.categories.deleteEntry": [
+    {
+      "type": 0,
+      "value": "カテゴリを削除"
+    }
+  ],
+  "ui-organizations.settings.categories.termDeleted": [
+    {
+      "type": 1,
+      "value": "type"
+    },
+    {
+      "type": 0,
+      "value": " "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "term"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "は正常に"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "削除されました"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
+  "ui-organizations.settings.categories.termWillBeDeleted": [
+    {
+      "type": 0,
+      "value": "カテゴリー"
+    },
+    {
+      "type": 1,
+      "value": "type"
+    },
+    {
+      "type": 0,
+      "value": " "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "term"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "は"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "削除されます。 "
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
+  "ui-organizations.settings.types.cannotDeleteTermHeader": [
+    {
+      "type": 0,
+      "value": "Cannot delete type"
+    }
+  ],
+  "ui-organizations.settings.types.cannotDeleteTermMessage": [
+    {
+      "type": 0,
+      "value": "This type cannot be deleted, as it is in use by one or more records."
+    }
+  ],
+  "ui-organizations.settings.types.deleteEntry": [
+    {
+      "type": 0,
+      "value": "Delete type"
+    }
+  ],
+  "ui-organizations.settings.types.termDeleted": [
+    {
+      "type": 0,
+      "value": "The type "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "term"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " was successfully "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "deleted"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
+  "ui-organizations.settings.types.termWillBeDeleted": [
+    {
+      "type": 0,
+      "value": "The type "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "term"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " will be "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "deleted."
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
+  "ui-plugin-find-package-title.resultsPane.select": [
+    {
+      "type": 0,
+      "value": "Select "
+    },
+    {
+      "type": 1,
+      "value": "name"
+    }
+  ],
+  "ui-plugin-find-package-title.resultsPane.selectPackage": [
+    {
+      "type": 0,
+      "value": "Select package "
+    },
+    {
+      "type": 1,
+      "value": "name"
+    }
+  ],
+  "ui-plugin-find-package-title.resultsPane.selectTitle": [
+    {
+      "type": 0,
+      "value": "Select title "
+    },
+    {
+      "type": 1,
+      "value": "name"
+    }
+  ],
+  "ui-quick-marc.bib-record.derive.title": [
+    {
+      "type": 0,
+      "value": "Derive a new MARC bib record"
+    }
+  ],
+  "ui-quick-marc.linkedToMarcAuthority": [
+    {
+      "type": 0,
+      "value": "Linked to MARC authority"
+    }
+  ],
+  "ui-quick-marc.print": [
+    {
+      "type": 0,
+      "value": "Print"
+    }
+  ],
+  "ui-quick-marc.record.error.$9": [
+    {
+      "type": 0,
+      "value": "$9 is not a valid subfield."
+    }
+  ],
+  "ui-quick-marc.record.error.010.$aRemoved": [
+    {
+      "type": 0,
+      "value": "Cannot remove 010 $a for this record."
+    }
+  ],
+  "ui-quick-marc.record.error.010.edit$a": [
+    {
+      "type": 0,
+      "value": "Cannot add or edit 010 $a for an authority record linked to a bibliographic record. To make this change, you must unlink this authority record from bibliographic records."
+    }
+  ],
+  "ui-quick-marc.record.error.010.removed": [
+    {
+      "type": 0,
+      "value": "Cannot delete 010. It is required."
+    }
+  ],
+  "ui-quick-marc.record.error.010Field.multiple": [
+    {
+      "type": 0,
+      "value": "Cannot save multiple 010 fields."
+    }
+  ],
+  "ui-quick-marc.record.error.1xx.add$t": [
+    {
+      "type": 0,
+      "value": "Cannot add a "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "$t to the $"
+        },
+        {
+          "type": 1,
+          "value": "tag"
+        },
+        {
+          "type": 0,
+          "value": " field"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " because it controls a bibliographic field(s) that cannot control this subfield. To change this 1XX value, you must unlink all controlled bibliographic fields that cannot control $t."
+    }
+  ],
+  "ui-quick-marc.record.error.1xx.change": [
+    {
+      "type": 0,
+      "value": "Cannot change the "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "saved MARC authority field "
+        },
+        {
+          "type": 1,
+          "value": "tag"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " because it controls a bibliographic field(s). To change this 1XX, you must unlink all controlled bibliographic fields."
+    }
+  ],
+  "ui-quick-marc.record.error.1xx.remove$t": [
+    {
+      "type": 0,
+      "value": "Cannot remove "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "$t from the $"
+        },
+        {
+          "type": 1,
+          "value": "tag"
+        },
+        {
+          "type": 0,
+          "value": " field"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " because it controls a bibliographic field(s) that requires  this subfield. To change this 1XX value, you must unlink all controlled bibliographic fields that requires $t to be controlled."
+    }
+  ],
+  "ui-quick-marc.record.error.fieldCantBeSaved": [
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "fieldTags"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " has a subfield(s) that cannot be saved because the field is controlled by an authority record."
+    }
+  ],
+  "ui-quick-marc.record.error.fieldsCantBeSaved": [
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "fieldTags"
+        },
+        {
+          "offset": 0,
+          "options": {
+            "=2": {
+              "value": [
+                {
+                  "type": 0,
+                  "value": " and "
+                },
+                {
+                  "type": 1,
+                  "value": "lastFieldTag"
+                }
+              ]
+            },
+            "one": {
+              "value": []
+            },
+            "other": {
+              "value": [
+                {
+                  "type": 0,
+                  "value": ", and "
+                },
+                {
+                  "type": 1,
+                  "value": "lastFieldTag"
+                }
+              ]
+            }
+          },
+          "pluralType": "cardinal",
+          "type": 6,
+          "value": "count"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " has a subfield(s) that cannot be saved because the fields are controlled by authority records."
+    }
+  ],
+  "ui-quick-marc.record.link.success": [
+    {
+      "type": 0,
+      "value": "Field "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "tag"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " has been "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "linked"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " to a MARC authority record."
+    }
+  ],
+  "ui-quick-marc.record.link.validation.invalidHeading": [
+    {
+      "type": 0,
+      "value": "You have selected an invalid heading based on the bibliographic field you want controlled. Please revise your selection."
+    }
+  ],
+  "ui-quick-marc.record.save.error.derive": [
+    {
+      "type": 0,
+      "value": "インスタンスを更新できません。不使用のインスタンス バージョン。"
+    }
+  ],
+  "ui-quick-marc.record.save.updatingLinkedBibRecords": [
+    {
+      "type": 0,
+      "value": "Record has been updated. "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "count"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " linked bibliographic record(s) updates have begun."
+    }
+  ],
+  "ui-quick-marc.record.unlink.confirm.cancel": [
+    {
+      "type": 0,
+      "value": "Cancel"
+    }
+  ],
+  "ui-quick-marc.record.unlink.confirm.confirm": [
+    {
+      "type": 0,
+      "value": "Unlink"
+    }
+  ],
+  "ui-quick-marc.record.unlink.confirm.message": [
+    {
+      "type": 0,
+      "value": "By selecting "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Unlink"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": ", then field "
+    },
+    {
+      "type": 1,
+      "value": "tag"
+    },
+    {
+      "type": 0,
+      "value": " will be unlinked from the MARC authority record. Are you sure you want to continue?"
+    }
+  ],
+  "ui-quick-marc.record.unlink.confirm.title": [
+    {
+      "type": 0,
+      "value": "Unlink from MARC authority record"
+    }
+  ],
+  "ui-quick-marc.remove-authority-linking.modal.keep-linking": [
+    {
+      "type": 0,
+      "value": "Keep linking"
+    }
+  ],
+  "ui-quick-marc.remove-authority-linking.modal.label": [
+    {
+      "type": 0,
+      "value": "Remove authority linking"
+    }
+  ],
+  "ui-quick-marc.remove-authority-linking.modal.message": [
+    {
+      "type": 0,
+      "value": "Do you want to remove authority linking for this new bibliographic record?"
+    }
+  ],
+  "ui-quick-marc.remove-authority-linking.modal.remove-linking": [
+    {
+      "type": 0,
+      "value": "Remove linking"
+    }
+  ],
+  "ui-quick-marc.update-linked-bib-fields.modal.keep-editing": [
+    {
+      "type": 0,
+      "value": "Keep editing"
+    }
+  ],
+  "ui-quick-marc.update-linked-bib-fields.modal.label": [
+    {
+      "type": 0,
+      "value": "Are you sure?"
+    }
+  ],
+  "ui-quick-marc.update-linked-bib-fields.modal.message-save": [
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "count"
+        },
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "offset": 0,
+          "options": {
+            "one": {
+              "value": [
+                {
+                  "type": 0,
+                  "value": "bibliographic record"
+                }
+              ]
+            },
+            "other": {
+              "value": [
+                {
+                  "type": 0,
+                  "value": "bibliographic records"
+                }
+              ]
+            }
+          },
+          "pluralType": "cardinal",
+          "type": 6,
+          "value": "count"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " "
+    },
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "is"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "are"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": " linked to this authority record and will be updated by clicking the "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Save"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " button."
+    }
+  ],
+  "ui-quick-marc.update-linked-bib-fields.modal.save": [
+    {
+      "type": 0,
+      "value": "Save"
+    }
+  ],
+  "ui-receiving.errors.createItemForPieceIsNotAllowedError": [
+    {
+      "type": 0,
+      "value": "Create item for piece format is not allowed. Please check \"create inventory\" value in the purchase order line"
+    }
+  ],
+  "ui-receiving.errors.createPiecePendingOrderError": [
+    {
+      "type": 0,
+      "value": "Creating piece for pending order is not possible. Please open order"
+    }
+  ],
+  "ui-receiving.errors.forbiddenDeleteSystemValues": [
+    {
+      "type": 0,
+      "value": "Can not delete system values"
+    }
+  ],
+  "ui-receiving.errors.forbiddenDeleteUsedValue": [
+    {
+      "type": 0,
+      "value": "This value can not be deleted"
+    }
+  ],
+  "ui-receiving.errors.holdingsByIdNotFoundError": [
+    {
+      "type": 0,
+      "value": "Holdings with ids not found"
+    }
+  ],
+  "ui-receiving.errors.locationIdAndHoldingIdAbsentError": [
+    {
+      "type": 0,
+      "value": "A holdings or location reference must present"
+    }
+  ],
+  "ui-receiving.errors.mayBeLinkToEitherHoldingOrLocationError": [
+    {
+      "type": 0,
+      "value": "There is a holdingsId and locationId presented already"
+    }
+  ],
+  "ui-receiving.errors.missingHoldingsSourceId": [
+    {
+      "type": 0,
+      "value": "Holdings not found in inventory"
+    }
+  ],
+  "ui-receiving.errors.multipleNonPackageTitles": [
+    {
+      "type": 0,
+      "value": "Non-package PO Line must not contain more than one title reference"
+    }
+  ],
+  "ui-receiving.errors.partiallyReturnedCollection": [
+    {
+      "type": 0,
+      "value": "The piece record is already received"
+    }
+  ],
+  "ui-receiving.errors.pgException": [
+    {
+      "type": 0,
+      "value": "Database error occured during request processing"
+    }
+  ],
+  "ui-receiving.errors.pieceAlreadyReceived": [
+    {
+      "type": 0,
+      "value": "The piece record is already received"
+    }
+  ],
+  "ui-receiving.errors.pieceFormatIsNotValid": [
+    {
+      "type": 0,
+      "value": "Piece format is not compatible with purchase order line format"
+    }
+  ],
+  "ui-receiving.errors.pieceNotFound": [
+    {
+      "type": 0,
+      "value": "The piece record is not found"
+    }
+  ],
+  "ui-receiving.errors.pieceNotRetrieved": [
+    {
+      "type": 0,
+      "value": "The piece record could not be retrieved"
+    }
+  ],
+  "ui-receiving.errors.piecePolMismatch": [
+    {
+      "type": 0,
+      "value": "The piece does not correspond to PO line"
+    }
+  ],
+  "ui-receiving.errors.pieceUpdateFailed": [
+    {
+      "type": 0,
+      "value": "The piece record failed to be updated"
+    }
+  ],
+  "ui-receiving.errors.titleNotFound": [
+    {
+      "type": 0,
+      "value": "The receiving title(s) could not be found"
+    }
+  ],
+  "stripes-erm-components.dateFilter.cancellationDeadline": [
+    {
+      "type": 0,
+      "value": "Cancellation deadline"
+    }
+  ],
+  "stripes-erm-components.dateFilter.cancellationDeadlineNotSet": [
+    {
+      "type": 0,
+      "value": "Include "
+    },
+    {
+      "type": 1,
+      "value": "resourceName"
+    },
+    {
+      "type": 0,
+      "value": " with no cancellation deadline set"
+    }
+  ],
+  "stripes-erm-components.logs.title": [
+    {
+      "type": 0,
+      "value": "Title: "
+    },
+    {
+      "type": 1,
+      "value": "title"
+    }
+  ],
+  "ui-tenant-settings.settings.addresses.cannotDeleteTermHeader": [
+    {
+      "type": 0,
+      "value": "Cannot delete address"
+    }
+  ],
+  "ui-tenant-settings.settings.addresses.cannotDeleteTermMessage": [
+    {
+      "type": 0,
+      "value": "This address cannot be deleted, as it is in use by one or more records."
+    }
+  ],
+  "ui-tenant-settings.settings.addresses.deleteEntry": [
+    {
+      "type": 0,
+      "value": "Delete address"
+    }
+  ],
+  "ui-tenant-settings.settings.addresses.termDeleted": [
+    {
+      "type": 0,
+      "value": "The address "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "term"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " was successfully "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "deleted"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
+  "ui-tenant-settings.settings.addresses.termWillBeDeleted": [
+    {
+      "type": 0,
+      "value": "The address "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "term"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " will be "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "deleted."
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
+  "ui-tenant-settings.settings.location.campuses.cannotDeleteTermHeader": [
+    {
+      "type": 0,
+      "value": "Cannot delete campus"
+    }
+  ],
+  "ui-tenant-settings.settings.location.campuses.cannotDeleteTermMessage": [
+    {
+      "type": 0,
+      "value": "This campus cannot be deleted, as it is in use by one or more records."
+    }
+  ],
+  "ui-tenant-settings.settings.location.campuses.deleteEntry": [
+    {
+      "type": 0,
+      "value": "Delete campus"
+    }
+  ],
+  "ui-tenant-settings.settings.location.campuses.termDeleted": [
+    {
+      "type": 0,
+      "value": "The campus "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "term"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " was successfully "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "deleted"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
+  "ui-tenant-settings.settings.location.campuses.termWillBeDeleted": [
+    {
+      "type": 0,
+      "value": "The campus "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "term"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " will be "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "deleted."
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
+  "ui-tenant-settings.settings.location.institutions.cannotDeleteTermHeader": [
+    {
+      "type": 0,
+      "value": "Cannot delete institution"
+    }
+  ],
+  "ui-tenant-settings.settings.location.institutions.cannotDeleteTermMessage": [
+    {
+      "type": 0,
+      "value": "This institution cannot be deleted, as it is in use by one or more records."
+    }
+  ],
+  "ui-tenant-settings.settings.location.institutions.deleteEntry": [
+    {
+      "type": 0,
+      "value": "Delete institution"
+    }
+  ],
+  "ui-tenant-settings.settings.location.institutions.termDeleted": [
+    {
+      "type": 0,
+      "value": "The institution "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "term"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " was successfully "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "deleted"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
+  "ui-tenant-settings.settings.location.institutions.termWillBeDeleted": [
+    {
+      "type": 0,
+      "value": "The institution "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "term"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " will be "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "deleted."
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
+  "ui-tenant-settings.settings.location.libraries.cannotDeleteTermHeader": [
+    {
+      "type": 0,
+      "value": "Cannot delete library"
+    }
+  ],
+  "ui-tenant-settings.settings.location.libraries.cannotDeleteTermMessage": [
+    {
+      "type": 0,
+      "value": "This library cannot be deleted, as it is in use by one or more records."
+    }
+  ],
+  "ui-tenant-settings.settings.location.libraries.deleteEntry": [
+    {
+      "type": 0,
+      "value": "Delete library"
+    }
+  ],
+  "ui-tenant-settings.settings.location.libraries.termDeleted": [
+    {
+      "type": 0,
+      "value": "The library "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "term"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " was successfully "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "deleted"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
+  "ui-tenant-settings.settings.location.libraries.termWillBeDeleted": [
+    {
+      "type": 0,
+      "value": "The library "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "term"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " will be "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "deleted."
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
+  "ui-tenant-settings.settings.servicePoints.expirationPeriod": [
+    {
+      "type": 0,
+      "value": "Hold shelf expiration period"
+    }
+  ],
+  "ui-tenant-settings.settings.servicePoints.holdShelfClosedLibraryDateManagement": [
+    {
+      "type": 0,
+      "value": "Closed library date management for hold shelf expiration date calculation"
+    }
+  ],
+  "ui-tenant-settings.settings.servicePoints.holdShelfClosedLibraryDateManagement.MoveToTheBeginningOfTheNextOpenServicePointHours": [
+    {
+      "type": 0,
+      "value": "Move to the beginning of the next open service point hours"
+    }
+  ],
+  "ui-tenant-settings.settings.servicePoints.holdShelfClosedLibraryDateManagement.keepTheOriginalDate": [
+    {
+      "type": 0,
+      "value": "Keep the original date"
+    }
+  ],
+  "ui-tenant-settings.settings.servicePoints.holdShelfClosedLibraryDateManagement.keepTheOriginalDateTime": [
+    {
+      "type": 0,
+      "value": "元の日付/時刻を保持する"
+    }
+  ],
+  "ui-tenant-settings.settings.servicePoints.holdShelfClosedLibraryDateManagement.moveToTheEndOfTheCurrentServicePointHours": [
+    {
+      "type": 0,
+      "value": "Move to the end of the current service point hours"
+    }
+  ],
+  "ui-tenant-settings.settings.servicePoints.holdShelfClosedLibraryDateManagement.moveToTheEndOfTheNextOpenDay": [
+    {
+      "type": 0,
+      "value": "次の開館日の最後に移動"
+    }
+  ],
+  "ui-tenant-settings.settings.servicePoints.holdShelfClosedLibraryDateManagement.moveToTheEndOfThePreviousOpenDay": [
+    {
+      "type": 0,
+      "value": "前開館日の最後に移動"
+    }
+  ],
+  "ui-tenant-settings.settings.servicePoints.selectInterval": [
+    {
+      "type": 0,
+      "value": "Select interval"
+    }
+  ],
+  "ui-users.lostItems.feeFineAmount.error": [
+    {
+      "type": 0,
+      "value": "Actual cost to bill patron must be greater than 0.00 and less than 9999.99"
+    }
+  ],
+  "ui-users.lostItems.list.columnName.action.bill": [
+    {
+      "type": 0,
+      "value": "Bill actual cost"
+    }
+  ],
+  "ui-users.lostItems.list.columnName.action.doNotBill": [
+    {
+      "type": 0,
+      "value": "Do not bill"
+    }
+  ],
+  "ui-users.lostItems.modal.actualCostToBill": [
+    {
+      "type": 0,
+      "value": "Actual cost to bill patron"
+    }
+  ],
+  "ui-users.lostItems.modal.additionalInformationForPatron": [
+    {
+      "type": 0,
+      "value": "Additional information for patron"
+    }
+  ],
+  "ui-users.lostItems.modal.additionalInformationForStaff": [
+    {
+      "type": 0,
+      "value": "Additional information for staff"
+    }
+  ],
+  "ui-users.lostItems.modal.bill.confirm.text": [
+    {
+      "type": 0,
+      "value": "A fee/fine of "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "actualCostToBill"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " will be "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "charged"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " to "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "patronName"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " for "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "instanceTitle"
+        },
+        {
+          "type": 0,
+          "value": " ("
+        },
+        {
+          "type": 1,
+          "value": "materialType"
+        },
+        {
+          "type": 0,
+          "value": ")"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "ui-users.lostItems.modal.bill.confirm.title": [
+    {
+      "type": 0,
+      "value": "Confirm actual cost to bill "
+    },
+    {
+      "type": 1,
+      "value": "patronName"
+    }
+  ],
+  "ui-users.lostItems.modal.bill.title": [
+    {
+      "type": 0,
+      "value": "Actual cost to bill "
+    },
+    {
+      "type": 1,
+      "value": "patronName"
+    }
+  ],
+  "ui-users.lostItems.modal.button.cancel": [
+    {
+      "type": 0,
+      "value": "Cancel"
+    }
+  ],
+  "ui-users.lostItems.modal.button.confirm": [
+    {
+      "type": 0,
+      "value": "Confirm"
+    }
+  ],
+  "ui-users.lostItems.modal.button.continue": [
+    {
+      "type": 0,
+      "value": "Continue"
+    }
+  ],
+  "ui-users.lostItems.modal.button.keepEditing": [
+    {
+      "type": 0,
+      "value": "Keep editing"
+    }
+  ],
+  "ui-users.lostItems.modal.doNotBill.confirm.text": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "No lost item fee"
+            }
+          ],
+          "type": 8,
+          "value": "strong"
+        },
+        {
+          "type": 0,
+          "value": " will be "
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "charged"
+            }
+          ],
+          "type": 8,
+          "value": "strong"
+        },
+        {
+          "type": 0,
+          "value": " to "
+        },
+        {
+          "children": [
+            {
+              "type": 1,
+              "value": "patronName"
+            }
+          ],
+          "type": 8,
+          "value": "strong"
+        },
+        {
+          "type": 0,
+          "value": " for "
+        },
+        {
+          "children": [
+            {
+              "type": 1,
+              "value": "instanceTitle"
+            },
+            {
+              "type": 0,
+              "value": " ("
+            },
+            {
+              "type": 1,
+              "value": "materialType"
+            },
+            {
+              "type": 0,
+              "value": ")"
+            }
+          ],
+          "type": 8,
+          "value": "strong"
+        },
+        {
+          "type": 0,
+          "value": "."
+        }
+      ],
+      "type": 8,
+      "value": "div"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "After the "
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Confirm"
+            }
+          ],
+          "type": 8,
+          "value": "strong"
+        },
+        {
+          "type": 0,
+          "value": " button is pressed, "
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "this cannot be undone"
+            }
+          ],
+          "type": 8,
+          "value": "strong"
+        },
+        {
+          "type": 0,
+          "value": "."
+        }
+      ],
+      "type": 8,
+      "value": "div"
+    }
+  ],
+  "ui-users.lostItems.modal.doNotBill.confirm.title": [
+    {
+      "type": 0,
+      "value": "Confirm no bill to be created for "
+    },
+    {
+      "type": 1,
+      "value": "patronName"
+    }
+  ],
+  "ui-users.lostItems.modal.doNotBill.title": [
+    {
+      "type": 0,
+      "value": "Do not bill "
+    },
+    {
+      "type": 1,
+      "value": "patronName"
+    }
+  ],
+  "ui-users.lostItems.modal.feeFineOwner": [
+    {
+      "type": 0,
+      "value": "Fee/fine owner"
+    }
+  ],
+  "ui-users.lostItems.modal.feeFineType": [
+    {
+      "type": 0,
+      "value": "Fee/fine type"
+    }
+  ],
+  "ui-users.lostItems.notification.billed": [
+    {
+      "type": 0,
+      "value": "A fee/fine of "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "amount"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " has been successfully "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "charged"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " to "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "patronName"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    }
+  ],
+  "ui-users.lostItems.notification.billedBefore": [
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "patronName"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " has already been billed for this item by another user"
+    }
+  ],
+  "ui-users.lostItems.notification.cancelled": [
+    {
+      "type": 0,
+      "value": "A lost item fee "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "will not be charged"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " to "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "patronName"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    }
+  ],
+  "ui-users.lostItems.notification.serverError": [
+    {
+      "type": 0,
+      "value": "A system error has occurred - please try again later or contact your FOLIO support staff"
+    }
+  ],
+  "ui-users.lostItems.recordStatus.billed": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Billed: "
+        },
+        {
+          "type": 1,
+          "value": "amount"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    }
+  ],
+  "ui-users.lostItems.recordStatus.notBilled": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Not billed"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    }
+  ],
+  "stripes-acq-components.versionHistory.card.changed": [
+    {
+      "type": 0,
+      "value": "Changed"
+    }
+  ],
+  "stripes-acq-components.versionHistory.card.select.tooltip": [
+    {
+      "type": 0,
+      "value": "View this version"
+    }
+  ],
+  "stripes-acq-components.versionHistory.card.version.current": [
+    {
+      "type": 0,
+      "value": "Current version"
+    }
+  ],
+  "stripes-acq-components.versionHistory.card.version.original": [
+    {
+      "type": 0,
+      "value": "Original version"
+    }
+  ],
+  "stripes-acq-components.versionHistory.deletedRecord": [
+    {
+      "type": 0,
+      "value": "Record deleted"
+    }
+  ],
+  "stripes-acq-components.versionHistory.pane.header": [
+    {
+      "type": 0,
+      "value": "Version history"
+    }
+  ],
+  "stripes-acq-components.versionHistory.pane.sub": [
+    {
+      "offset": 0,
+      "options": {
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "バージョン"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "count"
+    }
+  ],
+  "stripes-data-transfer-components.create": [
+    {
+      "type": 0,
+      "value": "Create"
+    }
+  ],
+  "stripes-data-transfer-components.modify": [
+    {
+      "type": 0,
+      "value": "Modify"
+    }
+  ],
+  "stripes-data-transfer-components.settings.fileExtension.allowImport": [
+    {
+      "type": 0,
+      "value": "Allow import"
+    }
+  ],
+  "stripes-data-transfer-components.settings.fileExtension.blockImport": [
+    {
+      "type": 0,
+      "value": "Block import"
+    }
+  ],
+  "stripes-data-transfer-components.update": [
+    {
+      "type": 0,
+      "value": "Update"
     }
   ]
 }
