@@ -97845,5 +97845,53 @@
       "type": 0,
       "value": "Update"
     }
+  ],
+  "ui-bulk-edit.columns.logs.hrId": [
+    {
+      "type": 0,
+      "value": "ID"
+    }
+  ],
+  "ui-orders.order.unopen.error": [
+    {
+      "type": 0,
+      "value": "An error occured during purchase order unopen"
+    }
+  ],
+  "ui-orders.unopenOrderModal.confirmLabel.deleteHoldings.independent": [
+    {
+      "type": 0,
+      "value": "Delete Holdings"
+    }
+  ],
+  "ui-orders.unopenOrderModal.confirmLabel.deleteHoldings.synchronized": [
+    {
+      "type": 0,
+      "value": "Delete Holdings and items"
+    }
+  ],
+  "ui-orders.unopenOrderModal.confirmLabel.keepHoldings.independent": [
+    {
+      "type": 0,
+      "value": "Keep Holdings"
+    }
+  ],
+  "ui-orders.unopenOrderModal.confirmLabel.keepHoldings.synchronized": [
+    {
+      "type": 0,
+      "value": "Delete items"
+    }
+  ],
+  "ui-orders.unopenOrderModal.message.independent": [
+    {
+      "type": 0,
+      "value": "This order has at least one order line with related Holdings record(s) that do not reference any pieces or items. Holdings with no other related items can be deleted from inventory if desired. How would you like to proceed?"
+    }
+  ],
+  "ui-orders.unopenOrderModal.message.synchronized": [
+    {
+      "type": 0,
+      "value": "This order has at least one order line with receiving workflow \"Synchronized order and receipt quantity\". Such POLs with related receiving records will have any unreceived pieces deleted, and any \"On order\" Item records related to those pieces will also be deleted from inventory. Holdings linked to those items that have no other related items can also be deleted from inventory. How would you like to proceed?"
+    }
   ]
 }

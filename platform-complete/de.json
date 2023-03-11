@@ -44148,7 +44148,7 @@
   "ui-invoice.appMenu.invoicesAppSearch": [
     {
       "type": 0,
-      "value": "Invoices app Search"
+      "value": "Suche in Rechnungs-App"
     }
   ],
   "ui-invoice.button.addAdjustment": [
@@ -44544,7 +44544,7 @@
   "ui-invoice.invoice.actions.approve.error.pendingPaymentError": [
     {
       "type": 0,
-      "value": "Invoice cannot be approved because pending payment creation has failed"
+      "value": "Rechnung kann nicht freigegeben werden, weil die ausstehende Zahlung nicht erzeugt werden konnte"
     }
   ],
   "ui-invoice.invoice.actions.approve.error.poLineUpdateFailure": [
@@ -44856,7 +44856,7 @@
   "ui-invoice.invoice.cancellationNote": [
     {
       "type": 0,
-      "value": "Cancellation note"
+      "value": "Stornierungsnotiz"
     }
   ],
   "ui-invoice.invoice.chkSubscriptionOverlap": [
@@ -45058,7 +45058,7 @@
   "ui-invoice.invoice.details.lines.addFromPOL": [
     {
       "type": 0,
-      "value": "Add line from POL"
+      "value": "Posten aus Bestellposten hinzufügen"
     }
   ],
   "ui-invoice.invoice.details.lines.createNew": [
@@ -45106,7 +45106,7 @@
   "ui-invoice.invoice.details.lines.list.poStatus": [
     {
       "type": 0,
-      "value": "PO status"
+      "value": "Bestellstatus"
     }
   ],
   "ui-invoice.invoice.details.lines.list.polNumber": [
@@ -45124,7 +45124,7 @@
   "ui-invoice.invoice.details.lines.list.receiptStatus": [
     {
       "type": 0,
-      "value": "Receipt status"
+      "value": "Inventarisierungsstatus"
     }
   ],
   "ui-invoice.invoice.details.lines.list.subTotal": [
@@ -45164,7 +45164,7 @@
   "ui-invoice.invoice.details.stateRegion": [
     {
       "type": 0,
-      "value": "State / Prov. / Region"
+      "value": "Staat / Land / Bundesland"
     }
   ],
   "ui-invoice.invoice.details.vendor.accountingCode": [
@@ -45564,7 +45564,7 @@
   "ui-invoice.invoice.validation.accountingCode": [
     {
       "type": 0,
-      "value": "To export to accounting you must select an accounting code"
+      "value": "Zum Export an das Haushaltssystem muss ein Buchhaltungscode ausgewählt werden"
     }
   ],
   "ui-invoice.invoice.vendorInvoiceNo": [
@@ -45750,11 +45750,15 @@
   "ui-invoice.invoiceLine.relink.success": [
     {
       "type": 0,
-      "value": "Invoice line has been linked to POL "
+      "value": "Rechnungsposten wurde mit Bestellposten "
     },
     {
       "type": 1,
       "value": "poLineNumber"
+    },
+    {
+      "type": 0,
+      "value": " verknüpft"
     }
   ],
   "ui-invoice.invoiceLine.subTotal": [
@@ -45950,19 +45954,19 @@
   "ui-invoice.poLineLookup": [
     {
       "type": 0,
-      "value": "POL look-up"
+      "value": "Bestellpostensuche"
     }
   ],
   "ui-invoice.receivingHistory": [
     {
       "type": 0,
-      "value": "Receiving history"
+      "value": "Inventarisierungshistorie"
     }
   ],
   "ui-invoice.receivingHistory.caption": [
     {
       "type": 0,
-      "value": "Caption"
+      "value": "Bezeichnung"
     }
   ],
   "ui-invoice.receivingHistory.chronology": [
@@ -45974,19 +45978,19 @@
   "ui-invoice.receivingHistory.copyNumber": [
     {
       "type": 0,
-      "value": "Copy number"
+      "value": "Exemplarnummer"
     }
   ],
   "ui-invoice.receivingHistory.enumeration": [
     {
       "type": 0,
-      "value": "Enumeration"
+      "value": "Zählung"
     }
   ],
   "ui-invoice.receivingHistory.receiptDate": [
     {
       "type": 0,
-      "value": "Receipt date"
+      "value": "Inventarisierungsdatum"
     }
   ],
   "ui-invoice.save": [
@@ -46536,7 +46540,7 @@
   "ui-invoice.voucher.print.invoiceTotal": [
     {
       "type": 0,
-      "value": "Invoice total"
+      "value": "Rechnungsgesamtbetrag"
     }
   ],
   "ui-invoice.voucher.print.isLoading": [
@@ -46548,7 +46552,7 @@
   "ui-invoice.voucher.print.lineNumber": [
     {
       "type": 0,
-      "value": "Line #"
+      "value": "Zeile #"
     }
   ],
   "ui-invoice.voucher.print.voucher": [
@@ -46560,7 +46564,7 @@
   "ui-invoice.voucher.print.voucherTotal": [
     {
       "type": 0,
-      "value": "Voucher total"
+      "value": "Gesamtbetrag des Buchungsbelegs"
     }
   ],
   "ui-invoice.voucher.status.awaitingPayment": [
@@ -81461,7 +81465,7 @@
   "stripes-acq-components.holdings.deleteModal.message": [
     {
       "type": 0,
-      "value": "Dieses Stück ist mit Datensätzen im Katalog verbunden. Es gibt keine weiteren Exemplare, die mit diesen Bestandsdatensätzen verbunden sind. Möchten Sie nach dem Löschen des Stückes, dass FOLIO die Bestandsdatensätze löscht?"
+      "value": "Dieses Teil ist mit Datensätzen im Katalog verbunden. Es gibt keine weiteren Exemplare, die mit diesen Bestandsdatensätzen verbunden sind. Möchten Sie nach dem Löschen des Stückes, dass FOLIO die Bestandsdatensätze löscht?"
     }
   ],
   "stripes-acq-components.resultsCount": [
@@ -83980,7 +83984,7 @@
   "ui-invoice.exportSettings.error": [
     {
       "type": 0,
-      "value": "Failed to load data for export results (CSV)"
+      "value": "Daten für den Export (CSV) konnten nicht geladen werden"
     }
   ],
   "ui-invoice.exportSettings.export": [
@@ -98238,6 +98242,54 @@
     {
       "type": 0,
       "value": "Update"
+    }
+  ],
+  "ui-bulk-edit.columns.logs.hrId": [
+    {
+      "type": 0,
+      "value": "ID"
+    }
+  ],
+  "ui-orders.order.unopen.error": [
+    {
+      "type": 0,
+      "value": "An error occured during purchase order unopen"
+    }
+  ],
+  "ui-orders.unopenOrderModal.confirmLabel.deleteHoldings.independent": [
+    {
+      "type": 0,
+      "value": "Delete Holdings"
+    }
+  ],
+  "ui-orders.unopenOrderModal.confirmLabel.deleteHoldings.synchronized": [
+    {
+      "type": 0,
+      "value": "Delete Holdings and items"
+    }
+  ],
+  "ui-orders.unopenOrderModal.confirmLabel.keepHoldings.independent": [
+    {
+      "type": 0,
+      "value": "Keep Holdings"
+    }
+  ],
+  "ui-orders.unopenOrderModal.confirmLabel.keepHoldings.synchronized": [
+    {
+      "type": 0,
+      "value": "Delete items"
+    }
+  ],
+  "ui-orders.unopenOrderModal.message.independent": [
+    {
+      "type": 0,
+      "value": "This order has at least one order line with related Holdings record(s) that do not reference any pieces or items. Holdings with no other related items can be deleted from inventory if desired. How would you like to proceed?"
+    }
+  ],
+  "ui-orders.unopenOrderModal.message.synchronized": [
+    {
+      "type": 0,
+      "value": "This order has at least one order line with receiving workflow \"Synchronized order and receipt quantity\". Such POLs with related receiving records will have any unreceived pieces deleted, and any \"On order\" Item records related to those pieces will also be deleted from inventory. Holdings linked to those items that have no other related items can also be deleted from inventory. How would you like to proceed?"
     }
   ]
 }

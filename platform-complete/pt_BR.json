@@ -79931,13 +79931,13 @@
   "stripes-acq-components.holding.createFromLocation": [
     {
       "type": 0,
-      "value": "Criar novos acervos para localização"
+      "value": "Criar novos coleções para localização"
     }
   ],
   "stripes-acq-components.holding.label": [
     {
       "type": 0,
-      "value": "Selecionar acervos"
+      "value": "Selecionar coleções"
     }
   ],
   "stripes-acq-components.invalidReference": [
@@ -81640,19 +81640,19 @@
   "stripes-acq-components.holdings.deleteModal.heading": [
     {
       "type": 0,
-      "value": "Excluir Acervos"
+      "value": "Excluir coleções"
     }
   ],
   "stripes-acq-components.holdings.deleteModal.keepHoldings": [
     {
       "type": 0,
-      "value": "Manter Acervos"
+      "value": "Manter coleções"
     }
   ],
   "stripes-acq-components.holdings.deleteModal.message": [
     {
       "type": 0,
-      "value": "Esta peça está conectada aos registros na app Inventário. Após esta edição não haverá outras peças OU itens ligados ao(s) registro(s) de acervos relacionado(s). Após esta mudança, você gostaria que o FOLIO apagasse o(s) registro(s) de acervos?"
+      "value": "Esta peça está conectada aos registros na app Inventário. Após esta edição não haverá outras peças OU itens ligados ao(s) registro(s) de coleções relacionado(s). Após esta mudança, você gostaria que o FOLIO apagasse o(s) registro(s) de coleções?"
     }
   ],
   "stripes-acq-components.resultsCount": [
@@ -98904,6 +98904,54 @@
     {
       "type": 0,
       "value": "Atualizar"
+    }
+  ],
+  "ui-bulk-edit.columns.logs.hrId": [
+    {
+      "type": 0,
+      "value": "ID"
+    }
+  ],
+  "ui-orders.order.unopen.error": [
+    {
+      "type": 0,
+      "value": "Ocorreu um erro durante a ordem de compra não aberta"
+    }
+  ],
+  "ui-orders.unopenOrderModal.confirmLabel.deleteHoldings.independent": [
+    {
+      "type": 0,
+      "value": "Excluir coleções"
+    }
+  ],
+  "ui-orders.unopenOrderModal.confirmLabel.deleteHoldings.synchronized": [
+    {
+      "type": 0,
+      "value": "Excluir coleções e itens"
+    }
+  ],
+  "ui-orders.unopenOrderModal.confirmLabel.keepHoldings.independent": [
+    {
+      "type": 0,
+      "value": "Manter coleções"
+    }
+  ],
+  "ui-orders.unopenOrderModal.confirmLabel.keepHoldings.synchronized": [
+    {
+      "type": 0,
+      "value": "Excluir itens"
+    }
+  ],
+  "ui-orders.unopenOrderModal.message.independent": [
+    {
+      "type": 0,
+      "value": "Este pedido tem pelo menos uma linha com registro(s) de Coleção(ões) relacionado(s) que não fazem referência a nenhuma peça ou item. Coleções sem outros itens relacionados podem ser excluídos do inventário, se desejado. Como você gostaria de proceder?"
+    }
+  ],
+  "ui-orders.unopenOrderModal.message.synchronized": [
+    {
+      "type": 0,
+      "value": "Este pedido tem pelo menos uma linha com fluxo de trabalho de recebimento \"Pedido sincronizado e quantidade de recebimento\". Tais Linhas de Pedidos de Compra com registros de recebimento relacionados terão todas as peças não recebidas excluídas e todos os registros de itens \"sob encomenda\" relacionados a essas peças também serão excluídos do estoque. As coleções vinculadas a esses itens que não possuem outros itens relacionados também podem ser excluídos do estoque. Como você gostaria de proceder?"
     }
   ]
 }
