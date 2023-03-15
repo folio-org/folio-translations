@@ -8,6 +8,9 @@
  
 set -e
  
+# fail if jq is not installed
+jq --version
+
 for FILE in ./*-*.json ; do
   if [ ! -e "$FILE" ] ; then
     continue
@@ -17,13 +20,13 @@ for FILE in ./*-*.json ; do
     continue
   fi
   URL="https://raw.githubusercontent.com/gbv/folio-translations/main/platform-complete/$LANG.json"
-  if wget "$URL" -O $LANG.json; then
+  if wget "$URL" -O "$LANG.json"; then
     echo "$URL"
   else
-    echo "failure, skipping $URL"
+    echo "skipping $LANG because download fails: $URL"
     continue
   fi
-  jq -c -s '.[0] * .[1]' $FILE $LANG.json > $LANG.json.new
-  mv $LANG.json.new $FILE
-  rm $LANG.json
+  jq -c -s '.[0] * .[1]' "$FILE" "$LANG.json" > "$LANG.json.new"
+  mv "$LANG.json.new" "$FILE"
+  rm "$LANG.json"
 done
