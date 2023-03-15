@@ -63351,13 +63351,13 @@
   "ui-quick-marc.holdings-record.create.title": [
     {
       "type": 0,
-      "value": "Criar um novo registro MARC acervos"
+      "value": "Criar um novo registro MARC coleções"
     }
   ],
   "ui-quick-marc.holdings-record.edit.title": [
     {
       "type": 0,
-      "value": "Editar MARC acervos - Localização: "
+      "value": "Editar MARC coleções - Localização: "
     },
     {
       "type": 1,
@@ -63415,13 +63415,13 @@
   "ui-quick-marc.permission.quick-marc-holdings-editor.all": [
     {
       "type": 0,
-      "value": "quickMARC: Ver, editar registros MARC acervos"
+      "value": "quickMARC: Ver, editar registros MARC coleções"
     }
   ],
   "ui-quick-marc.permission.quick-marc-holdings-editor.create": [
     {
       "type": 0,
-      "value": "quickMARC: Criar um novo registro MARC acervos"
+      "value": "quickMARC: Criar um novo registro MARC coleções"
     }
   ],
   "ui-quick-marc.record.addField": [
@@ -85126,7 +85126,7 @@
   "ui-quick-marc.permission.quick-marc-holdings-editor.view": [
     {
       "type": 0,
-      "value": "quickMARC: Ver registro de MARC acervos"
+      "value": "quickMARC: Ver registro de MARC coleções"
     }
   ],
   "ui-quick-marc.record.error.controlField.multiple": [
@@ -97310,19 +97310,19 @@
   "ui-quick-marc.record.error.010.$aRemoved": [
     {
       "type": 0,
-      "value": "Cannot remove 010 $a for this record."
+      "value": "Não é possível remover 010 $a para este registro."
     }
   ],
   "ui-quick-marc.record.error.010.edit$a": [
     {
       "type": 0,
-      "value": "Cannot add or edit 010 $a for an authority record linked to a bibliographic record. To make this change, you must unlink this authority record from bibliographic records."
+      "value": "Não é possível adicionar ou editar 010 $a um registro de autoridade vinculado a um registro bibliográfico. Para fazer essa alteração, você deve desvincular esse registro de autoridade dos registros bibliográficos."
     }
   ],
   "ui-quick-marc.record.error.010.removed": [
     {
       "type": 0,
-      "value": "Cannot delete 010. It is required."
+      "value": "Não é possível excluir 010. É obrigatório."
     }
   ],
   "ui-quick-marc.record.error.010Field.multiple": [
@@ -97420,7 +97420,7 @@
     },
     {
       "type": 0,
-      "value": " has a subfield(s) that cannot be saved because the field is controlled by an authority record."
+      "value": " tem um subcampo(s) que não pode(m) ser salvo(s) porque o campo é controlado por um registro de autoridade."
     }
   ],
   "ui-quick-marc.record.error.fieldsCantBeSaved": [
@@ -97471,7 +97471,7 @@
     },
     {
       "type": 0,
-      "value": " has a subfield(s) that cannot be saved because the fields are controlled by authority records."
+      "value": " tem subcampo(s) que não podem ser salvos porque os campos são controlados por registros de autoridade."
     }
   ],
   "ui-quick-marc.record.link.success": [
@@ -98952,6 +98952,48 @@
     {
       "type": 0,
       "value": "Este pedido tem pelo menos uma linha com fluxo de trabalho de recebimento \"Pedido sincronizado e quantidade de recebimento\". Tais Linhas de Pedidos de Compra com registros de recebimento relacionados terão todas as peças não recebidas excluídas e todos os registros de itens \"sob encomenda\" relacionados a essas peças também serão excluídos do estoque. As coleções vinculadas a esses itens que não possuem outros itens relacionados também podem ser excluídos do estoque. Como você gostaria de proceder?"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.eResourcesDetails.field.electronicUnitPrice.info": [
+    {
+      "type": 0,
+      "value": "Required when Order format is Electronic resource or P/E mix. When import job creates a Pending order, this field controls the Inventory record requirements when the PO is opened via the Orders app. When import job creates an Open order, this field reflects the Inventory record requirements that were included as actions in the Data Import job profile"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.physicalResourceDetails.field.physicalUnitPrice.info": [
+    {
+      "type": 0,
+      "value": "Required when Order format is Physical resource, P/E mix, or Other. When import job creates a Pending order, this field controls the Inventory record requirements when the PO is opened via the Orders app. When import job creates an Open order, this field reflects the Inventory record requirements that were included as actions in the Data Import job profile"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.field.paymentNotRequired": [
+    {
+      "type": 0,
+      "value": "Payment not required"
+    }
+  ],
+  "ui-data-import.validation.integer": [
+    {
+      "type": 0,
+      "value": "Please enter a whole number greater than 0 and less than 1000 to continue"
+    }
+  ],
+  "ui-marc-authorities.reports.HEADINGS_UPDATES.description": [
+    {
+      "type": 0,
+      "value": "Lista de cabeçalhos atualizados da autoridade MARC (1XX)"
+    }
+  ],
+  "ui-marc-authorities.reports.HEADINGS_UPDATES.outputFormat": [
+    {
+      "type": 0,
+      "value": "Atualizações de cabeçalhos de autoridade MARC (CSV)"
+    }
+  ],
+  "ui-quick-marc.record.error.010.$aOnlyOne": [
+    {
+      "type": 0,
+      "value": "010 só pode ter um $a."
     }
   ]
 }

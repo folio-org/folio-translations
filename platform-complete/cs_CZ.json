@@ -63137,7 +63137,7 @@
   "ui-quick-marc.holdings-record.edit.title": [
     {
       "type": 0,
-      "value": "Upravit MARC holding - Umístění: "
+      "value": "Upravit MARC holding - Lokace: "
     },
     {
       "type": 1,
@@ -63171,7 +63171,7 @@
   "ui-quick-marc.permanentLocationLookup": [
     {
       "type": 0,
-      "value": "Vyhledávání trvalého umístění"
+      "value": "Vyhledávání trvalé lokace"
     }
   ],
   "ui-quick-marc.permission.quick-marc-authorities-editor.all": [
@@ -63353,7 +63353,7 @@
   "ui-quick-marc.record.error.location.invalid": [
     {
       "type": 0,
-      "value": "852 $b obsahuje neplatný kód umístění. Prosím zkuste to znovu."
+      "value": "852 $b obsahuje neplatný kód lokace. Prosím zkuste to znovu."
     }
   ],
   "ui-quick-marc.record.error.location.multiple": [
@@ -63719,7 +63719,7 @@
   "ui-quick-marc.record.fixedField.Ills": [
     {
       "type": 0,
-      "value": "Ills"
+      "value": "MVS"
     }
   ],
   "ui-quick-marc.record.fixedField.Image bit depth": [
@@ -95704,7 +95704,7 @@
   "ui-marc-authorities.reportModal.HEADINGS_UPDATES.label": [
     {
       "type": 0,
-      "value": "Nastavení časového období pro výstup aktualizací nadpisu MARC autority (CSV)"
+      "value": "Nastavení datumového intervalu pro výstup aktualizací nadpisu MARC autority (CSV)"
     }
   ],
   "ui-marc-authorities.reportModal.button.cancel": [
@@ -96548,19 +96548,19 @@
   "ui-quick-marc.record.error.010.$aRemoved": [
     {
       "type": 0,
-      "value": "Cannot remove 010 $a for this record."
+      "value": "Nelze odebrat 010 $a pro tento záznam."
     }
   ],
   "ui-quick-marc.record.error.010.edit$a": [
     {
       "type": 0,
-      "value": "Cannot add or edit 010 $a for an authority record linked to a bibliographic record. To make this change, you must unlink this authority record from bibliographic records."
+      "value": "Nelze přidat nebo upravit 010 $a pro autoritní záznam propojený s bibliografickým záznamem. Chcete-li provést tuto změnu, musíte odpojit tento autoritní záznam od bibliografických záznamů."
     }
   ],
   "ui-quick-marc.record.error.010.removed": [
     {
       "type": 0,
-      "value": "Cannot delete 010. It is required."
+      "value": "Nelze smazat 010. Je vyžadováno."
     }
   ],
   "ui-quick-marc.record.error.010Field.multiple": [
@@ -96654,7 +96654,7 @@
     },
     {
       "type": 0,
-      "value": " has a subfield(s) that cannot be saved because the field is controlled by an authority record."
+      "value": " má podpole, které nelze uložit, protože pole je řízeno autoritním záznamem."
     }
   ],
   "ui-quick-marc.record.error.fieldsCantBeSaved": [
@@ -96671,7 +96671,7 @@
               "value": [
                 {
                   "type": 0,
-                  "value": " and "
+                  "value": " a "
                 },
                 {
                   "type": 1,
@@ -96686,7 +96686,7 @@
               "value": [
                 {
                   "type": 0,
-                  "value": ", and "
+                  "value": ", a "
                 },
                 {
                   "type": 1,
@@ -96705,7 +96705,7 @@
     },
     {
       "type": 0,
-      "value": " has a subfield(s) that cannot be saved because the fields are controlled by authority records."
+      "value": " má podpole, která nelze uložit, protože pole jsou řízena podle autoritních záznamů."
     }
   ],
   "ui-quick-marc.record.link.success": [
@@ -98034,6 +98034,48 @@
     {
       "type": 0,
       "value": "Tato objednávka má alespoň jeden řádek objednávky s pracovním postupem příjmu \"Synchronizované množství objednávky a příjmu\". U takových ŘNO se souvisejícími záznamy o příjmu budou vymazány všechny nepřijaté kusy a všechny záznamy jednotek „na objednávku“ související s těmito kusy budou také vymazány z katalogu. Z katalogu lze také odstranit jednotky spojené s jednotkami, které nemají žádné další související jednotky. Jak byste chtěli postupovat?"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.eResourcesDetails.field.electronicUnitPrice.info": [
+    {
+      "type": 0,
+      "value": "Required when Order format is Electronic resource or P/E mix. When import job creates a Pending order, this field controls the Inventory record requirements when the PO is opened via the Orders app. When import job creates an Open order, this field reflects the Inventory record requirements that were included as actions in the Data Import job profile"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.physicalResourceDetails.field.physicalUnitPrice.info": [
+    {
+      "type": 0,
+      "value": "Required when Order format is Physical resource, P/E mix, or Other. When import job creates a Pending order, this field controls the Inventory record requirements when the PO is opened via the Orders app. When import job creates an Open order, this field reflects the Inventory record requirements that were included as actions in the Data Import job profile"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.field.paymentNotRequired": [
+    {
+      "type": 0,
+      "value": "Payment not required"
+    }
+  ],
+  "ui-data-import.validation.integer": [
+    {
+      "type": 0,
+      "value": "Please enter a whole number greater than 0 and less than 1000 to continue"
+    }
+  ],
+  "ui-marc-authorities.reports.HEADINGS_UPDATES.description": [
+    {
+      "type": 0,
+      "value": "Seznam aktualizovaných nadpisů (1XX) MARC autorit"
+    }
+  ],
+  "ui-marc-authorities.reports.HEADINGS_UPDATES.outputFormat": [
+    {
+      "type": 0,
+      "value": "Aktualizace nadpisů MARC autorit (CSV)"
+    }
+  ],
+  "ui-quick-marc.record.error.010.$aOnlyOne": [
+    {
+      "type": 0,
+      "value": "010 může mít pouze jeden $a."
     }
   ]
 }

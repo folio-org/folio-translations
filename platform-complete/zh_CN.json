@@ -97732,7 +97732,7 @@
   "ui-marc-authorities.authority-record.print": [
     {
       "type": 0,
-      "value": "Print"
+      "value": "印本"
     }
   ],
   "ui-marc-authorities.delete.linkedRecord.description": [
@@ -97817,49 +97817,49 @@
   "ui-marc-authorities.reportModal.HEADINGS_UPDATES.label": [
     {
       "type": 0,
-      "value": "Set date range for MARC authority headings updates (CSV) report"
+      "value": "为MARC规范标题更新 (CSV) 报告设置日期范围"
     }
   ],
   "ui-marc-authorities.reportModal.button.cancel": [
     {
       "type": 0,
-      "value": "Cancel"
+      "value": "取消"
     }
   ],
   "ui-marc-authorities.reportModal.button.export": [
     {
       "type": 0,
-      "value": "Export"
+      "value": "导出"
     }
   ],
   "ui-marc-authorities.reportModal.endDate": [
     {
       "type": 0,
-      "value": "End date"
+      "value": "终止日期"
     }
   ],
   "ui-marc-authorities.reportModal.endDate.error": [
     {
       "type": 0,
-      "value": "\"End date\" is required"
+      "value": "“结束日期”为必填项"
     }
   ],
   "ui-marc-authorities.reportModal.endDate.error.greaterThan": [
     {
       "type": 0,
-      "value": "\"End date\" must be greater than or equal to \"Start date\""
+      "value": "“结束日期”必须大于等于“开始日期”"
     }
   ],
   "ui-marc-authorities.reportModal.startDate": [
     {
       "type": 0,
-      "value": "Start date"
+      "value": "开始日期"
     }
   ],
   "ui-marc-authorities.reportModal.startDate.error": [
     {
       "type": 0,
-      "value": "\"Start date\" is required"
+      "value": "“开始日期”为必填项"
     }
   ],
   "ui-marc-authorities.reports": [
@@ -97873,7 +97873,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Authority headings updates report (Job ID "
+          "value": "正在生成规范标题更新报告（任务ID "
         },
         {
           "type": 1,
@@ -97881,7 +97881,7 @@
         },
         {
           "type": 0,
-          "value": ")"
+          "value": " ） "
         }
       ],
       "type": 8,
@@ -97889,13 +97889,13 @@
     },
     {
       "type": 0,
-      "value": " is being generated. Go to the Export manager app to download report. It may take a few minutes for the report to complete."
+      "value": " 。转到导出管理app去下载报告。报告可能需要几分钟才能完成。"
     }
   ],
   "ui-marc-authorities.reports.fail": [
     {
       "type": 0,
-      "value": "We were unable to create this report. Please try again."
+      "value": "无法创建此报告。请再试一次。"
     }
   ],
   "ui-marc-authorities.reports.failedUpdates": [
@@ -98745,19 +98745,19 @@
   "ui-quick-marc.record.error.010.$aRemoved": [
     {
       "type": 0,
-      "value": "Cannot remove 010 $a for this record."
+      "value": "无法移除此记录的010$a。"
     }
   ],
   "ui-quick-marc.record.error.010.edit$a": [
     {
       "type": 0,
-      "value": "Cannot add or edit 010 $a for an authority record linked to a bibliographic record. To make this change, you must unlink this authority record from bibliographic records."
+      "value": "无法为链接到书目记录的规范记录添加或编辑010$a。要进行此更改，必须取消此规范记录与书目记录的链接。"
     }
   ],
   "ui-quick-marc.record.error.010.removed": [
     {
       "type": 0,
-      "value": "Cannot delete 010. It is required."
+      "value": "无法删除010。它是必需的。"
     }
   ],
   "ui-quick-marc.record.error.010Field.multiple": [
@@ -98854,8 +98854,16 @@
     {
       "children": [
         {
+          "type": 0,
+          "value": " "
+        },
+        {
           "type": 1,
           "value": "fieldTags"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -98863,12 +98871,16 @@
     },
     {
       "type": 0,
-      "value": " has a subfield(s) that cannot be saved because the field is controlled by an authority record."
+      "value": "有一个无法保存的子字段，因为该字段由规范记录控制。"
     }
   ],
   "ui-quick-marc.record.error.fieldsCantBeSaved": [
     {
       "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
         {
           "type": 1,
           "value": "fieldTags"
@@ -98880,7 +98892,7 @@
               "value": [
                 {
                   "type": 0,
-                  "value": " and "
+                  "value": " 和 "
                 },
                 {
                   "type": 1,
@@ -98895,7 +98907,7 @@
               "value": [
                 {
                   "type": 0,
-                  "value": ", and "
+                  "value": " , 和 "
                 },
                 {
                   "type": 1,
@@ -98907,6 +98919,10 @@
           "pluralType": "cardinal",
           "type": 6,
           "value": "count"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -98914,7 +98930,7 @@
     },
     {
       "type": 0,
-      "value": " has a subfield(s) that cannot be saved because the fields are controlled by authority records."
+      "value": "有一个无法保存的子字段，因为字段受控于规范记录。"
     }
   ],
   "ui-quick-marc.record.link.success": [
@@ -100315,6 +100331,48 @@
     {
       "type": 0,
       "value": "This order has at least one order line with receiving workflow \"Synchronized order and receipt quantity\". Such POLs with related receiving records will have any unreceived pieces deleted, and any \"On order\" Item records related to those pieces will also be deleted from inventory. Holdings linked to those items that have no other related items can also be deleted from inventory. How would you like to proceed?"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.eResourcesDetails.field.electronicUnitPrice.info": [
+    {
+      "type": 0,
+      "value": "Required when Order format is Electronic resource or P/E mix. When import job creates a Pending order, this field controls the Inventory record requirements when the PO is opened via the Orders app. When import job creates an Open order, this field reflects the Inventory record requirements that were included as actions in the Data Import job profile"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.physicalResourceDetails.field.physicalUnitPrice.info": [
+    {
+      "type": 0,
+      "value": "Required when Order format is Physical resource, P/E mix, or Other. When import job creates a Pending order, this field controls the Inventory record requirements when the PO is opened via the Orders app. When import job creates an Open order, this field reflects the Inventory record requirements that were included as actions in the Data Import job profile"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.field.paymentNotRequired": [
+    {
+      "type": 0,
+      "value": "Payment not required"
+    }
+  ],
+  "ui-data-import.validation.integer": [
+    {
+      "type": 0,
+      "value": "Please enter a whole number greater than 0 and less than 1000 to continue"
+    }
+  ],
+  "ui-marc-authorities.reports.HEADINGS_UPDATES.description": [
+    {
+      "type": 0,
+      "value": "List of updated MARC authority (1XX) headings"
+    }
+  ],
+  "ui-marc-authorities.reports.HEADINGS_UPDATES.outputFormat": [
+    {
+      "type": 0,
+      "value": "MARC authority headings updates (CSV)"
+    }
+  ],
+  "ui-quick-marc.record.error.010.$aOnlyOne": [
+    {
+      "type": 0,
+      "value": "010 can only have one $a."
     }
   ]
 }

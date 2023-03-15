@@ -98291,5 +98291,47 @@
       "type": 0,
       "value": "This order has at least one order line with receiving workflow \"Synchronized order and receipt quantity\". Such POLs with related receiving records will have any unreceived pieces deleted, and any \"On order\" Item records related to those pieces will also be deleted from inventory. Holdings linked to those items that have no other related items can also be deleted from inventory. How would you like to proceed?"
     }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.eResourcesDetails.field.electronicUnitPrice.info": [
+    {
+      "type": 0,
+      "value": "Required when Order format is Electronic resource or P/E mix. When import job creates a Pending order, this field controls the Inventory record requirements when the PO is opened via the Orders app. When import job creates an Open order, this field reflects the Inventory record requirements that were included as actions in the Data Import job profile"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.physicalResourceDetails.field.physicalUnitPrice.info": [
+    {
+      "type": 0,
+      "value": "Required when Order format is Physical resource, P/E mix, or Other. When import job creates a Pending order, this field controls the Inventory record requirements when the PO is opened via the Orders app. When import job creates an Open order, this field reflects the Inventory record requirements that were included as actions in the Data Import job profile"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.field.paymentNotRequired": [
+    {
+      "type": 0,
+      "value": "Payment not required"
+    }
+  ],
+  "ui-data-import.validation.integer": [
+    {
+      "type": 0,
+      "value": "Please enter a whole number greater than 0 and less than 1000 to continue"
+    }
+  ],
+  "ui-marc-authorities.reports.HEADINGS_UPDATES.description": [
+    {
+      "type": 0,
+      "value": "List of updated MARC authority (1XX) headings"
+    }
+  ],
+  "ui-marc-authorities.reports.HEADINGS_UPDATES.outputFormat": [
+    {
+      "type": 0,
+      "value": "MARC authority headings updates (CSV)"
+    }
+  ],
+  "ui-quick-marc.record.error.010.$aOnlyOne": [
+    {
+      "type": 0,
+      "value": "010 can only have one $a."
+    }
   ]
 }
