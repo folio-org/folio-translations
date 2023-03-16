@@ -38321,7 +38321,7 @@
   "ui-inventory.ILLPolicy": [
     {
       "type": 0,
-      "value": "Zásady ILL"
+      "value": "Pravidla MVS"
     }
   ],
   "ui-inventory.URLrelationship": [
@@ -38369,7 +38369,7 @@
   "ui-inventory.acq.orderStatus.Open": [
     {
       "type": 0,
-      "value": "Otevřít"
+      "value": "Otevřeno"
     }
   ],
   "ui-inventory.acq.orderStatus.Pending": [
@@ -38883,7 +38883,7 @@
   "ui-inventory.button.addTargetOption": [
     {
       "type": 0,
-      "value": "Přidat možnost cíle"
+      "value": "Přidat parametr serveru"
     }
   ],
   "ui-inventory.callNumber": [
@@ -39057,7 +39057,7 @@
   "ui-inventory.confirmHoldingsRecordDeleteModal.message": [
     {
       "type": 0,
-      "value": "Záznam HRID holdingů "
+      "value": "HRID záznamu holdingu "
     },
     {
       "children": [
@@ -39071,7 +39071,7 @@
     },
     {
       "type": 0,
-      "value": ", umístění "
+      "value": ", lokace "
     },
     {
       "children": [
@@ -39091,7 +39091,7 @@
       "children": [
         {
           "type": 0,
-          "value": "smazáno"
+          "value": "smazán"
         }
       ],
       "type": 8,
@@ -39274,13 +39274,13 @@
   "ui-inventory.contributorType": [
     {
       "type": 0,
-      "value": "Role autora"
+      "value": "Typ autora"
     }
   ],
   "ui-inventory.contributorTypes": [
     {
       "type": 0,
-      "value": "Role autorů"
+      "value": "Typy autorů"
     }
   ],
   "ui-inventory.contributors": [
@@ -39518,7 +39518,7 @@
   "ui-inventory.defaultDiscoverySuppress": [
     {
       "type": 0,
-      "value": "Potlačit z objevování ve výchozím nastavení?"
+      "value": "Defaultně vyřadit z vyhledávání"
     }
   ],
   "ui-inventory.defaultInstanceStatus": [
@@ -39560,7 +39560,7 @@
   "ui-inventory.digitizationPolicy": [
     {
       "type": 0,
-      "value": "Zásada digitalizace"
+      "value": "Pravidla digitalizace"
     }
   ],
   "ui-inventory.discoverySuppress": [
@@ -39656,7 +39656,7 @@
   "ui-inventory.editMARCHoldings.paneTitle": [
     {
       "type": 0,
-      "value": "Umístění: "
+      "value": "Lokace: "
     },
     {
       "type": 1,
@@ -39696,13 +39696,13 @@
   "ui-inventory.effectiveLocation": [
     {
       "type": 0,
-      "value": "Efektivní umístění pro jednotku"
+      "value": "Efektivní lokace pro jednotku"
     }
   ],
   "ui-inventory.effectiveLocationShort": [
     {
       "type": 0,
-      "value": "Efektivní umístění"
+      "value": "Efektivní lokace"
     }
   ],
   "ui-inventory.electronicAccess": [
@@ -39771,7 +39771,7 @@
   "ui-inventory.externalIdQueryMap": [
     {
       "type": 0,
-      "value": "Mapa dotazů na externí ID"
+      "value": "Mapování dotazu na externí ID"
     }
   ],
   "ui-inventory.externalIdentifierType": [
@@ -39807,7 +39807,7 @@
   "ui-inventory.filters.effectiveLocation": [
     {
       "type": 0,
-      "value": "Efektivní umístění (jednotka)"
+      "value": "Efektivní lokace (jednotka)"
     }
   ],
   "ui-inventory.filters.holdings": [
@@ -39921,7 +39921,7 @@
   "ui-inventory.holdings.permanentLocation": [
     {
       "type": 0,
-      "value": "Trvalé umístění holdingů"
+      "value": "Trvalá lokace holdingů"
     }
   ],
   "ui-inventory.holdingsCallNumber": [
@@ -40001,7 +40001,7 @@
   "ui-inventory.holdingsLocation": [
     {
       "type": 0,
-      "value": "Umístění holdingů"
+      "value": "Lokace holdingů"
     }
   ],
   "ui-inventory.holdingsNoteType": [
@@ -40249,43 +40249,43 @@
   "ui-inventory.hridHandling": [
     {
       "type": 0,
-      "value": "Zpracování HRID"
+      "value": "Přidělování HRID"
     }
   ],
   "ui-inventory.hridHandling.checkbox.label": [
     {
       "type": 0,
-      "value": "Odstranit počáteční nuly z HRID."
+      "value": "Odstranit počáteční nuly z HRID"
     }
   ],
   "ui-inventory.hridHandling.description.line1": [
     {
       "type": 0,
-      "value": "Po počáteční migraci dat jsou nové FOLIO HRID přiřazeny postupně na základě počátečního čísla v těchto nastaveních."
+      "value": "Po úvodní migraci dat jsou nové FOLIO HRID přidělovány sekvenčně podle stavu počitadla v těchto nastaveních."
     }
   ],
   "ui-inventory.hridHandling.description.line2": [
     {
       "type": 0,
-      "value": "Pokud se nezmění nebo neodstraní, výchozí předpona bude přiřazena novým záznamům FOLIO HRID."
+      "value": "Pokud se nezmění nebo neodstraní, bude novým identifikátorům FOLIO HRID přidělen výchozí prefix."
     }
   ],
   "ui-inventory.hridHandling.description.line3": [
     {
       "type": 0,
-      "value": "HRID ve stávajícím katalogu FOLIO a MARC záznamech nelze změnit."
+      "value": "HRID ve stávajícím katalogu FOLIO a MARC záznamech nelze změnit"
     }
   ],
   "ui-inventory.hridHandling.label.assignPrefix": [
     {
       "type": 0,
-      "value": "Přiřazení předpony"
+      "value": "Přidat prefix"
     }
   ],
   "ui-inventory.hridHandling.label.startWith": [
     {
       "type": 0,
-      "value": "Začíná na"
+      "value": "Stav počitadla"
     }
   ],
   "ui-inventory.hridHandling.modal.body": [
@@ -40315,19 +40315,19 @@
   "ui-inventory.hridHandling.sectionHeader1": [
     {
       "type": 0,
-      "value": "Titul katalogu a MARC bibliografické záznamy"
+      "value": "Záznamy titulů a MARC bibliografické záznamy"
     }
   ],
   "ui-inventory.hridHandling.sectionHeader2": [
     {
       "type": 0,
-      "value": "Holdingy a záznamy MARC holdingů"
+      "value": "Záznamy holdingů a MARC holdingové záznamy"
     }
   ],
   "ui-inventory.hridHandling.sectionHeader3": [
     {
       "type": 0,
-      "value": "Záznamy o jednotkách katalogu"
+      "value": "Záznamy jednotek"
     }
   ],
   "ui-inventory.hridHandling.toast.notUpdated": [
@@ -40407,7 +40407,7 @@
   "ui-inventory.illPolicy": [
     {
       "type": 0,
-      "value": "Zásady ILL"
+      "value": "Pravidla MVS"
     }
   ],
   "ui-inventory.inTransitReport": [
@@ -40826,7 +40826,7 @@
   "ui-inventory.internalIdEmbedPath": [
     {
       "type": 0,
-      "value": "Vnitřní cesta pro vložení ID"
+      "value": "Cesta pro vložení interního ID"
     }
   ],
   "ui-inventory.inventory.label": [
@@ -40856,13 +40856,13 @@
   "ui-inventory.item.availability.borrower": [
     {
       "type": 0,
-      "value": "Vypůjčovatel"
+      "value": "Kdo vypůjčil"
     }
   ],
   "ui-inventory.item.availability.dueDate": [
     {
       "type": 0,
-      "value": "Datum vrácení"
+      "value": "Termín vrácení"
     }
   ],
   "ui-inventory.item.availability.itemStatus": [
@@ -40904,7 +40904,7 @@
   "ui-inventory.item.requestQueue": [
     {
       "type": 0,
-      "value": "Fronta žádanek"
+      "value": "Fronta rezervací"
     }
   ],
   "ui-inventory.item.status": [
@@ -40946,7 +40946,7 @@
   "ui-inventory.item.status.claimedReturned": [
     {
       "type": 0,
-      "value": "Reklamace vrácena"
+      "value": "Údajně vráceno"
     }
   ],
   "ui-inventory.item.status.declaredLost": [
@@ -41174,7 +41174,7 @@
   "ui-inventory.itemLocation": [
     {
       "type": 0,
-      "value": "Umístění jednotky"
+      "value": "Lokace jednotky"
     }
   ],
   "ui-inventory.itemNoteType": [
@@ -41198,7 +41198,7 @@
   "ui-inventory.itemOnHoldingsRecordDeleteModal.message": [
     {
       "type": 0,
-      "value": "Záznam HRID holdingu "
+      "value": "HRID záznamu holdingu "
     },
     {
       "children": [
@@ -41212,7 +41212,7 @@
     },
     {
       "type": 0,
-      "value": " s umístěním "
+      "value": " s lokací "
     },
     {
       "children": [
@@ -41344,7 +41344,7 @@
   "ui-inventory.itemsOnHoldingsRecordDeleteModal.message": [
     {
       "type": 0,
-      "value": "Záznam HRID holdingu "
+      "value": "HRID záznamu holdingu "
     },
     {
       "children": [
@@ -41358,7 +41358,7 @@
     },
     {
       "type": 0,
-      "value": " s umístěním "
+      "value": " s lokací "
     },
     {
       "children": [
@@ -41446,7 +41446,7 @@
   "ui-inventory.location": [
     {
       "type": 0,
-      "value": "Umístění"
+      "value": "Lokace"
     }
   ],
   "ui-inventory.location.confirm.common.header": [
@@ -41464,19 +41464,19 @@
   "ui-inventory.location.confirm.inactive.header": [
     {
       "type": 0,
-      "value": "Neaktivní umístění"
+      "value": "Neaktivní lokace"
     }
   ],
   "ui-inventory.location.confirm.inactive.message": [
     {
       "type": 0,
-      "value": "Toto umístění má stav neaktivní. Opravdu chcete vybrat toto umístění?"
+      "value": "Tato lokace má stav neaktivní. Opravdu chcete vybrat tuto lokaci?"
     }
   ],
   "ui-inventory.locations": [
     {
       "type": 0,
-      "value": "Umístění"
+      "value": "Lokace"
     }
   ],
   "ui-inventory.makePrimary": [
@@ -41680,7 +41680,7 @@
   "ui-inventory.mostRecentCheckIn": [
     {
       "type": 0,
-      "value": "Nejnovější vrácení"
+      "value": "Nejnovější návrat"
     }
   ],
   "ui-inventory.moveItems": [
@@ -42092,7 +42092,7 @@
   "ui-inventory.noHoldingsRecordDeleteModal.message": [
     {
       "type": 0,
-      "value": "Záznam holdingu HRID "
+      "value": "HRID záznamu holdingu "
     },
     {
       "children": [
@@ -42106,7 +42106,7 @@
     },
     {
       "type": 0,
-      "value": ", umístění "
+      "value": ", lokace "
     },
     {
       "children": [
@@ -42494,7 +42494,7 @@
   "ui-inventory.permission.settings.contributor-types": [
     {
       "type": 0,
-      "value": "Nastavení (Katalog): Vytváření, úpravy, mazání rolí autorů"
+      "value": "Nastavení (Katalog): Vytváření, úpravy, mazání typů autorů"
     }
   ],
   "ui-inventory.permission.settings.electronic-access-relationships": [
@@ -42518,7 +42518,7 @@
   "ui-inventory.permission.settings.hrid-handling": [
     {
       "type": 0,
-      "value": "Nastavení (Katalog): Vytvoření, úprava a smazání zpracování HRID"
+      "value": "Nastavení (Katalog): Vytvoření, úprava a smazání přidělování HRID"
     }
   ],
   "ui-inventory.permission.settings.identifier-types": [
@@ -42530,7 +42530,7 @@
   "ui-inventory.permission.settings.ill-policies": [
     {
       "type": 0,
-      "value": "Nastavení (Katalog): Vytváření, úpravy, mazání zásad ILL"
+      "value": "Nastavení (Katalog): Vytváření, úpravy, mazání pravidel MVS"
     }
   ],
   "ui-inventory.permission.settings.instance-formats": [
@@ -42894,7 +42894,7 @@
     },
     {
       "type": 0,
-      "value": " ze vzdáleného úložiště, spusťte výstup o výjimce nebo to sdělte přímo umístění vzdáleného úložiště."
+      "value": " ze vzdáleného úložiště, spusťte výstup o výjimce nebo to sdělte přímo lokaci vzdáleného úložiště."
     }
   ],
   "ui-inventory.remote.warning.titles": [
@@ -43046,7 +43046,7 @@
   "ui-inventory.reports.inTransitItem.checkInServicePoint": [
     {
       "type": 0,
-      "value": "Místo pro Návrat"
+      "value": "Pult služeb pro Návrat"
     }
   ],
   "ui-inventory.reports.inTransitItem.contributors": [
@@ -43064,7 +43064,7 @@
   "ui-inventory.reports.inTransitItem.destinationServicePoint": [
     {
       "type": 0,
-      "value": "Cílové servisní místo"
+      "value": "Cílový pult služeb"
     }
   ],
   "ui-inventory.reports.inTransitItem.emptyReport.label": [
@@ -43112,7 +43112,7 @@
   "ui-inventory.reports.inTransitItem.requestPickupServicePoint": [
     {
       "type": 0,
-      "value": "Vyžádat servisní místo vyzvednutí"
+      "value": "Vyžádat pult služeb k vyzvednutí"
     }
   ],
   "ui-inventory.reports.inTransitItem.requestType": [
@@ -43130,19 +43130,19 @@
   "ui-inventory.reports.inTransitItem.shelvingLocation": [
     {
       "type": 0,
-      "value": "Umístění regálů"
+      "value": "Lokace regálů"
     }
   ],
   "ui-inventory.reports.inTransitItem.shelvingLocationCode": [
     {
       "type": 0,
-      "value": "Kód umístění regálů"
+      "value": "Kód lokace regálů"
     }
   ],
   "ui-inventory.reports.inTransitItem.tags": [
     {
       "type": 0,
-      "value": "Tagy"
+      "value": "Štítky"
     }
   ],
   "ui-inventory.reports.inTransitItem.title": [
@@ -43261,7 +43261,7 @@
   "ui-inventory.retentionPolicy": [
     {
       "type": 0,
-      "value": "Zásady uchovávání informací"
+      "value": "Pravidla uchovávání informací"
     }
   ],
   "ui-inventory.save": [
@@ -43375,7 +43375,7 @@
   "ui-inventory.selectIllPolicy": [
     {
       "type": 0,
-      "value": "Vybrat zásadu ILL"
+      "value": "Vybrat pravidla MVS"
     }
   ],
   "ui-inventory.selectInstanceFormat": [
@@ -43405,7 +43405,7 @@
   "ui-inventory.selectLocation": [
     {
       "type": 0,
-      "value": "Zvolte umístění"
+      "value": "Zvolit lokaci"
     }
   ],
   "ui-inventory.selectMaterialType": [
@@ -43429,7 +43429,7 @@
   "ui-inventory.selectPermanenLocation": [
     {
       "type": 0,
-      "value": "Výběr trvalého umístění"
+      "value": "Výběr trvalé lokace"
     }
   ],
   "ui-inventory.selectResourceType": [
@@ -43453,7 +43453,7 @@
   "ui-inventory.selectTemporaryLocation": [
     {
       "type": 0,
-      "value": "Vyberte dočasné umístění"
+      "value": "Vyberte dočasnou lokaci"
     }
   ],
   "ui-inventory.selectToContinue": [
@@ -43483,7 +43483,7 @@
   "ui-inventory.servicePoint": [
     {
       "type": 0,
-      "value": "Servisní místo"
+      "value": "Pult služeb"
     }
   ],
   "ui-inventory.settings.goBack": [
@@ -43627,7 +43627,7 @@
   "ui-inventory.targetOptions": [
     {
       "type": 0,
-      "value": "Cílové možnosti"
+      "value": "Parametry serveru"
     }
   ],
   "ui-inventory.targetProfile": [
@@ -43639,7 +43639,7 @@
   "ui-inventory.targetProfiles": [
     {
       "type": 0,
-      "value": "Cílové profily Z39.50"
+      "value": "Profily Z39.50 serverů"
     }
   ],
   "ui-inventory.tba": [
@@ -85370,7 +85370,7 @@
   "ui-inventory.remote.warning.common.items": [
     {
       "type": 0,
-      "value": "Jednotka byla úspěšně přesunuta do FOLIO. Chcete-li dokončit odstranění této jednotky ze vzdáleného úložiště, spusťte výstup o výjimce nebo to sdělte přímo umístění vzdáleného úložiště."
+      "value": "Jednotka byla úspěšně přesunuta do FOLIO. Chcete-li dokončit odstranění této jednotky ze vzdáleného úložiště, spusťte výstup o výjimce nebo to sdělte přímo lokaci vzdáleného úložiště."
     }
   ],
   "ui-organizations.integration.scheduling.schedulePeriod.none": [
@@ -95465,7 +95465,7 @@
   "ui-inventory.effectiveLocationHoldings": [
     {
       "type": 0,
-      "value": "Efektivní umístění pro holdingy"
+      "value": "Efektivní lokace pro holdingy"
     }
   ],
   "ui-inventory.inactive.gridCell": [
@@ -95509,7 +95509,7 @@
   "ui-inventory.jobProfiles.info": [
     {
       "type": 0,
-      "value": "Před přiřazením k importu jednotlivých záznamů katalogu pečlivě zkontrolujte uvedené profily úloh. Lze přiřadit pouze bibliografické MARC profily úloh, nikoli MARC holdingy nebo profily úloh MARC autorit."
+      "value": "Před přiřazením k importu jednotlivých záznamů katalogu pečlivě zkontrolujte uvedené profily úloh. Lze přiřadit pouze MARC bibliografické profily úloh, nikoli profily úloh pro MARC holdingy nebo MARC autority."
     }
   ],
   "ui-inventory.markAsHeader": [
