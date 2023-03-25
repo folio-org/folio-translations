@@ -89146,8 +89146,16 @@
     {
       "children": [
         {
+          "type": 0,
+          "value": " "
+        },
+        {
           "type": 1,
           "value": "ledgerName"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -89155,13 +89163,21 @@
     },
     {
       "type": 0,
-      "value": " was already rolled over from the fiscal year "
+      "value": " ya se transfirió del año fiscal "
     },
     {
       "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
         {
           "type": 1,
           "value": "fromFYcode"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -89169,13 +89185,21 @@
     },
     {
       "type": 0,
-      "value": " to the fiscal year "
+      "value": " al año fiscal "
     },
     {
       "children": [
         {
+          "type": 0,
+          "value": " "
+        },
+        {
           "type": 1,
           "value": "toFYcode"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -89209,7 +89233,7 @@
   "ui-finance.ledger.rollover.logs.results.export.start": [
     {
       "type": 0,
-      "value": "Export of budget results has been started"
+      "value": "Se ha iniciado la exportación de los resultados presupuestarios"
     }
   ],
   "ui-finance.ledger.rollover.logs.source": [
@@ -95264,61 +95288,61 @@
   "ui-finance.ledger.rollover.logs.settings": [
     {
       "type": 0,
-      "value": "Settings"
+      "value": "Configuración"
     }
   ],
   "ui-finance.ledger.rollover.rolloverBudgetValue": [
     {
       "type": 0,
-      "value": "Rollover budget value"
+      "value": "Valor del presupuesto prorrogado"
     }
   ],
   "ui-finance.ledger.rollover.rolloverBudgetValue.available": [
     {
       "type": 0,
-      "value": "Available"
+      "value": "Disponible"
     }
   ],
   "ui-finance.ledger.rollover.rolloverBudgetValue.cashBalance": [
     {
       "type": 0,
-      "value": "Cash balance"
+      "value": "Saldo de caja"
     }
   ],
   "ui-finance.ledger.rollover.rolloverBudgetValue.none": [
     {
       "type": 0,
-      "value": "None"
+      "value": "Ninguno"
     }
   ],
   "ui-finance.ledger.rollover.rolloverValueAs": [
     {
       "type": 0,
-      "value": "Rollover value as"
+      "value": "Valor de prórroga como"
     }
   ],
   "ui-finance.settings.expenseClasses.cannotDeleteTermHeader": [
     {
       "type": 0,
-      "value": "Cannot delete expense class"
+      "value": "No se puede eliminar la clase de gasto"
     }
   ],
   "ui-finance.settings.expenseClasses.cannotDeleteTermMessage": [
     {
       "type": 0,
-      "value": "This expense class cannot be deleted, as it is in use by one or more records."
+      "value": "Esta clase de gasto no puede eliminarse, ya que está siendo utilizada por uno o más registros."
     }
   ],
   "ui-finance.settings.expenseClasses.deleteEntry": [
     {
       "type": 0,
-      "value": "Delete expense class"
+      "value": "Borrar clase de gasto"
     }
   ],
   "ui-finance.settings.expenseClasses.termDeleted": [
     {
       "type": 0,
-      "value": "The expense class "
+      "value": "La clase de gasto "
     },
     {
       "children": [
@@ -95332,23 +95356,41 @@
     },
     {
       "type": 0,
-      "value": " was successfully "
+      "value": " se ha "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "deleted"
+          "value": "eliminado"
         }
       ],
       "type": 8,
       "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " correctamente"
     }
   ],
   "ui-finance.settings.expenseClasses.termWillBeDeleted": [
     {
       "type": 0,
-      "value": "The expense class "
+      "value": "Se "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "eliminará"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " la clase de gasto "
     },
     {
       "children": [
@@ -95362,13 +95404,13 @@
     },
     {
       "type": 0,
-      "value": " will be "
+      "value": " "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "deleted."
+          "value": "."
         }
       ],
       "type": 8,
@@ -95378,25 +95420,25 @@
   "ui-finance.settings.fundTypes.cannotDeleteTermHeader": [
     {
       "type": 0,
-      "value": "Cannot delete fund type"
+      "value": "No se puede eliminar el tipo de fondo"
     }
   ],
   "ui-finance.settings.fundTypes.cannotDeleteTermMessage": [
     {
       "type": 0,
-      "value": "This fund type cannot be deleted, as it is in use by one or more records."
+      "value": "Este tipo de fondo no puede borrarse, ya que está siendo utilizado por uno o más registros."
     }
   ],
   "ui-finance.settings.fundTypes.deleteEntry": [
     {
       "type": 0,
-      "value": "Delete fund type"
+      "value": "Borrar tipo de fondo"
     }
   ],
   "ui-finance.settings.fundTypes.termDeleted": [
     {
       "type": 0,
-      "value": "The fund type "
+      "value": "El tipo de fondo "
     },
     {
       "children": [
@@ -95410,23 +95452,41 @@
     },
     {
       "type": 0,
-      "value": " was successfully "
+      "value": " se ha "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "deleted"
+          "value": "eliminado"
         }
       ],
       "type": 8,
       "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " correctamente"
     }
   ],
   "ui-finance.settings.fundTypes.termWillBeDeleted": [
     {
       "type": 0,
-      "value": "The fund type "
+      "value": "Se "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "eliminará"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " el tipo de fondo "
     },
     {
       "children": [
@@ -95440,13 +95500,13 @@
     },
     {
       "type": 0,
-      "value": " will be "
+      "value": " "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "deleted."
+          "value": "."
         }
       ],
       "type": 8,
@@ -95460,7 +95520,7 @@
     },
     {
       "type": 0,
-      "value": " was not successfully allocated because "
+      "value": " no se ha asignado correctamente porque "
     },
     {
       "children": [
@@ -95474,7 +95534,7 @@
     },
     {
       "type": 0,
-      "value": " has no budget"
+      "value": " no tiene presupuesto"
     }
   ],
   "ui-finance.transaction.allocation.notEnoughMoneyForAllocationError": [
@@ -95484,7 +95544,7 @@
     },
     {
       "type": 0,
-      "value": " was not successfully allocated to the budget "
+      "value": " no se ha asignado correctamente al presupuesto "
     },
     {
       "children": [
@@ -95498,7 +95558,7 @@
     },
     {
       "type": 0,
-      "value": " because it exceeds the total allocation amount of "
+      "value": " porque supera el importe total de la asignación de "
     },
     {
       "children": [
@@ -95509,18 +95569,22 @@
       ],
       "type": 8,
       "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "."
     }
   ],
   "ui-finance.transaction.confirmModal.negativeAvailableAmount.heading": [
     {
       "type": 0,
-      "value": "Negative available amount"
+      "value": "Importe disponible negativo"
     }
   ],
   "ui-finance.transaction.confirmModal.negativeAvailableAmount.message": [
     {
       "type": 0,
-      "value": "Completing this transfer will result in "
+      "value": "Completar esta transferencia hará que "
     },
     {
       "children": [
@@ -95534,7 +95598,7 @@
     },
     {
       "type": 0,
-      "value": " having a negative available amount. Are you sure you would like to complete this transaction?"
+      "value": " tenga un importe disponible negativo. Está seguro de que desea completar esta transacción?"
     }
   ],
   "ui-finance.transaction.transfer.budgetNotFoundForTransaction": [
@@ -95544,7 +95608,7 @@
     },
     {
       "type": 0,
-      "value": " was not successfully transferred because "
+      "value": " no se ha transferido correctamente porque "
     },
     {
       "children": [
@@ -95558,7 +95622,7 @@
     },
     {
       "type": 0,
-      "value": " has no budget"
+      "value": " no tiene presupuesto"
     }
   ],
   "ui-inventory.appMenu.inventorySearch": [
@@ -98208,6 +98272,24 @@
     {
       "type": 0,
       "value": "Failed updates: Linked bibliographic fields"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.field.purchaseOrderStatus.info": [
+    {
+      "type": 0,
+      "value": "When Purchase order status is Pending, do not include any Inventory actions in the job profile. When Purchase order status is Open, include the desired Inventory actions in the job profile, preceded by the Create orders action"
+    }
+  ],
+  "ui-finance.fiscalYear.information.periodEndUTC": [
+    {
+      "type": 0,
+      "value": "Fecha de fin de período (UTC)"
+    }
+  ],
+  "ui-finance.fiscalYear.information.periodStartUTC": [
+    {
+      "type": 0,
+      "value": "Fecha de inicio del período (UTC)"
     }
   ]
 }

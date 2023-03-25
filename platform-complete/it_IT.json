@@ -46796,7 +46796,7 @@
   "ui-finance.budget.allocated": [
     {
       "type": 0,
-      "value": "Impegnato"
+      "value": "Allocato"
     }
   ],
   "ui-finance.budget.allowableEncumbrance": [
@@ -47076,13 +47076,13 @@
   "ui-finance.budget.overEncumbrance": [
     {
       "type": 0,
-      "value": "Oltre l'impegno di spesa"
+      "value": "Eccedenza di impegno di spesa"
     }
   ],
   "ui-finance.budget.overExpended": [
     {
       "type": 0,
-      "value": "Oltre la spesa"
+      "value": "Eccedenza di spesa"
     }
   ],
   "ui-finance.budget.remove.heading": [
@@ -47338,13 +47338,13 @@
   "ui-finance.financialSummary.overEncumbrance": [
     {
       "type": 0,
-      "value": "Oltre l'impegno"
+      "value": "Eccedenza di impegno"
     }
   ],
   "ui-finance.financialSummary.overExpended": [
     {
       "type": 0,
-      "value": "Oltre la spesa"
+      "value": "Eccedenza di spesa"
     }
   ],
   "ui-finance.financialSummary.totalFunding": [
@@ -47476,7 +47476,7 @@
   "ui-finance.fiscalYear.information.allocated": [
     {
       "type": 0,
-      "value": "Impegnato"
+      "value": "Allocato"
     }
   ],
   "ui-finance.fiscalYear.information.available": [
@@ -48068,7 +48068,7 @@
   "ui-finance.groups.item.information.allocated": [
     {
       "type": 0,
-      "value": "Impegnato"
+      "value": "Allocato"
     }
   ],
   "ui-finance.groups.item.information.available": [
@@ -48170,7 +48170,7 @@
   "ui-finance.item.allocated": [
     {
       "type": 0,
-      "value": "Impegnato"
+      "value": "Allocato"
     }
   ],
   "ui-finance.item.available": [
@@ -48254,7 +48254,7 @@
   "ui-finance.ledger.allocated": [
     {
       "type": 0,
-      "value": "Impegnato"
+      "value": "Allocato"
     }
   ],
   "ui-finance.ledger.available": [
@@ -48608,13 +48608,13 @@
   "ui-finance.ledger.rollover.restrictEncumbrance": [
     {
       "type": 0,
-      "value": "Applica tutti i vincoli di bilancio"
+      "value": "Applicare tutti i limiti di impegno"
     }
   ],
   "ui-finance.ledger.rollover.restrictExpenditures": [
     {
       "type": 0,
-      "value": "Applica tutti i limiti di spesa del budget"
+      "value": "Applicare tutti i limiti di spesa"
     }
   ],
   "ui-finance.ledger.rollover.rollover": [
@@ -49021,7 +49021,7 @@
   "ui-finance.settings.exportFund.helperText": [
     {
       "type": 0,
-      "value": "Quando si esportano i codici voce e classe di spesa combinati, riceverai un file delimitato che include tutti i codici di voce di spesa e tutte le combinazioni di codice voce e codice classe di spesa in cui la classe di spesa ha lo stato \"attivo\"."
+      "value": "Esportando i codici voce e classe di spesa combinati, riceverai un file delimitato che include tutti i codici di voce di spesa e tutte le combinazioni di codice voce e codice classe di spesa in cui la classe di spesa ha lo stato \"attivo\"."
     }
   ],
   "ui-finance.settings.exportFund.success": [
@@ -49033,7 +49033,7 @@
   "ui-finance.settings.exportFund.title": [
     {
       "type": 0,
-      "value": "Esporta codici di voci e classi di spesa"
+      "value": "Esporta i codici di voci e classi di spesa"
     }
   ],
   "ui-finance.settings.fundTypes.title": [
@@ -49127,7 +49127,7 @@
   "ui-finance.transaction.decreaseAllocation": [
     {
       "type": 0,
-      "value": "Decrease allocation"
+      "value": "Ridurre l'allocazione"
     }
   ],
   "ui-finance.transaction.description": [
@@ -49175,7 +49175,7 @@
   "ui-finance.transaction.increaseAllocation": [
     {
       "type": 0,
-      "value": "Increase allocation"
+      "value": "Aumentare l'allocazione"
     }
   ],
   "ui-finance.transaction.information": [
@@ -83934,7 +83934,7 @@
   "ui-finance.exportCSV.exportSettings.heading": [
     {
       "type": 0,
-      "value": "Export settings"
+      "value": "Impostazioni di esportazione"
     }
   ],
   "ui-finance.exportCSV.exportSettings.message": [
@@ -95597,7 +95597,7 @@
     },
     {
       "type": 0,
-      "value": " was not successfully allocated because "
+      "value": " non è stato allocato poiché "
     },
     {
       "children": [
@@ -95611,7 +95611,7 @@
     },
     {
       "type": 0,
-      "value": " has no budget"
+      "value": " non ha budget"
     }
   ],
   "ui-finance.transaction.allocation.notEnoughMoneyForAllocationError": [
@@ -95621,7 +95621,7 @@
     },
     {
       "type": 0,
-      "value": " was not successfully allocated to the budget "
+      "value": " non è stato allocato al budget "
     },
     {
       "children": [
@@ -95635,7 +95635,7 @@
     },
     {
       "type": 0,
-      "value": " because it exceeds the total allocation amount of "
+      "value": " poiché eccede l'allocazione totale di "
     },
     {
       "children": [
@@ -98468,6 +98468,24 @@
     {
       "type": 0,
       "value": "Failed updates: Linked bibliographic fields"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.order.orderInformation.field.purchaseOrderStatus.info": [
+    {
+      "type": 0,
+      "value": "When Purchase order status is Pending, do not include any Inventory actions in the job profile. When Purchase order status is Open, include the desired Inventory actions in the job profile, preceded by the Create orders action"
+    }
+  ],
+  "ui-finance.fiscalYear.information.periodEndUTC": [
+    {
+      "type": 0,
+      "value": "Period End Date (UTC)"
+    }
+  ],
+  "ui-finance.fiscalYear.information.periodStartUTC": [
+    {
+      "type": 0,
+      "value": "Period Begin Date (UTC)"
     }
   ]
 }
