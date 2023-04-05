@@ -38907,7 +38907,7 @@
   "ui-inventory.callNumberPrefix": [
     {
       "type": 0,
-      "value": "Předpona signatury"
+      "value": "Prefix signatury"
     }
   ],
   "ui-inventory.callNumberSuffix": [
@@ -39566,7 +39566,7 @@
   "ui-inventory.discoverySuppress": [
     {
       "type": 0,
-      "value": "Potlačit z objevování"
+      "value": "Potlačit z vyhledávání"
     }
   ],
   "ui-inventory.discoverySuppressed": [
@@ -40916,7 +40916,7 @@
   "ui-inventory.item.status.agedToLost": [
     {
       "type": 0,
-      "value": "Stáří až ztráta"
+      "value": "Považováno za ztracené"
     }
   ],
   "ui-inventory.item.status.available": [
@@ -40952,31 +40952,31 @@
   "ui-inventory.item.status.declaredLost": [
     {
       "type": 0,
-      "value": "Prohlášen za ztracený"
+      "value": "Prohlášeno za ztracené"
     }
   ],
   "ui-inventory.item.status.inProcess": [
     {
       "type": 0,
-      "value": "Probíhá"
+      "value": "Ve zpracování"
     }
   ],
   "ui-inventory.item.status.inProcessNonRequestable": [
     {
       "type": 0,
-      "value": "Probíhá (nepožadovatelné)"
+      "value": "Ve zpracování (nelze vyžádat)"
     }
   ],
   "ui-inventory.item.status.inTransit": [
     {
       "type": 0,
-      "value": "Na cestě"
+      "value": "V přepravě"
     }
   ],
   "ui-inventory.item.status.inTransitTo": [
     {
       "type": 0,
-      "value": "Při přenosu do "
+      "value": "V přepravě do "
     },
     {
       "type": 1,
@@ -40986,7 +40986,7 @@
   "ui-inventory.item.status.intellectualItem": [
     {
       "type": 0,
-      "value": "Duševní jednotka"
+      "value": "Fiktivní jednotka"
     }
   ],
   "ui-inventory.item.status.longMissing": [
@@ -41022,13 +41022,13 @@
   "ui-inventory.item.status.paged": [
     {
       "type": 0,
-      "value": "Stránkovaný"
+      "value": "Vyžádáno"
     }
   ],
   "ui-inventory.item.status.restricted": [
     {
       "type": 0,
-      "value": "Omezený"
+      "value": "Omezeno"
     }
   ],
   "ui-inventory.item.status.statusUpdatedLabel": [
@@ -42434,7 +42434,7 @@
   "ui-inventory.permission.items.mark-in-process-non-requestable": [
     {
       "type": 0,
-      "value": "Katalog: Označení jednotek v procesu (nepožadovatelné)"
+      "value": "Katalog: Označení jednotek v procesu (nevyžádané)"
     }
   ],
   "ui-inventory.permission.items.mark-intellectual-item": [
@@ -42566,7 +42566,7 @@
   "ui-inventory.permission.settings.list.view": [
     {
       "type": 0,
-      "value": "Nastavení (Katalog): Zobrazení seznamu stránek nastavení"
+      "value": "Nastavení (Katalog): Zobrazit seznam stránek nastavení"
     }
   ],
   "ui-inventory.permission.settings.loantypes": [
@@ -43028,7 +43028,7 @@
   "ui-inventory.reports.inTransitItem.callNumberPrefix": [
     {
       "type": 0,
-      "value": "Předpona signatury"
+      "value": "Prefix signatury"
     }
   ],
   "ui-inventory.reports.inTransitItem.callNumberSuffix": [
@@ -43106,7 +43106,7 @@
   "ui-inventory.reports.inTransitItem.requestExpirationDate": [
     {
       "type": 0,
-      "value": "Vyžádat datum vypršení platnosti"
+      "value": "Datum platnosti žádanky"
     }
   ],
   "ui-inventory.reports.inTransitItem.requestPickupServicePoint": [
@@ -43124,7 +43124,7 @@
   "ui-inventory.reports.inTransitItem.requesterPatronGroup": [
     {
       "type": 0,
-      "value": "Skupina žadatele čtenáře"
+      "value": "Kategorie čtenáře"
     }
   ],
   "ui-inventory.reports.inTransitItem.shelvingLocation": [
@@ -98166,6 +98166,12 @@
     {
       "type": 0,
       "value": "Datum začátku období (UTC)"
+    }
+  ],
+  "ui-inventory.newMARCRecord": [
+    {
+      "type": 0,
+      "value": "New MARC Bib Record"
     }
   ]
 }
