@@ -34,7 +34,7 @@ jobs:
               echo "Skipping, not found: $newfile"
               continue
             fi
-            jq -s '.[0] * .[1]' $oldfile $newfile > /tmp/new.json
+            jq -s --sort-keys '.[0] * .[1]' $oldfile $newfile > /tmp/new.json
             FILESIZE=$(stat -c%s /tmp/new.json)
             if [ "$FILESIZE" -lt "1000000" ] ; then
               echo "Skipping $LANG, file size must be >= 1000000 but it is $FILESIZE"
