@@ -61411,6 +61411,12 @@
       "value": "Export manager: Download and resend files"
     }
   ],
+  "ui-export-manager.permission.jobs.downloadAndResend.execute": [
+    {
+      "type": 0,
+      "value": "Export manager: Download and resend files"
+    }
+  ],
   "ui-export-manager.title.all": [
     {
       "type": 0,
@@ -73923,6 +73929,12 @@
     {
       "type": 0,
       "value": "Continue"
+    }
+  ],
+  "ui-inventory.moveItems.modal.message.hasLinkedPOLsOrHoldings": [
+    {
+      "type": 0,
+      "value": "This holdings is linked to a purchase order line. Moving this holdings to a new instance will move any other holdings and items that are linked to this purchase order line to the new instance as well. The purchase order line will also be linked to the new instance. Do you want to continue?"
     }
   ],
   "ui-inventory.moveItems.modal.message.holdings": [
@@ -91375,6 +91387,24 @@
     {
       "type": 0,
       "value": "Settings (OAI-PMH): Can view logs"
+    }
+  ],
+  "ui-oai-pmh.permission.settings.edit": [
+    {
+      "type": 0,
+      "value": "Settings (OAI-PMH): Can view and edit settings"
+    }
+  ],
+  "ui-oai-pmh.permission.settings.logs.view": [
+    {
+      "type": 0,
+      "value": "Settings (OAI-PMH): Can view logs"
+    }
+  ],
+  "ui-oai-pmh.permission.settings.view": [
+    {
+      "type": 0,
+      "value": "Settings (OAI-PMH): Can view"
     }
   ],
   "ui-oai-pmh.permission.view": [
@@ -120658,6 +120688,18 @@
       "value": "Confirm generation of overlapping piece sets"
     }
   ],
+  "ui-serials-management.ruleset.copyAndDeprecate": [
+    {
+      "type": 0,
+      "value": "Copy and deprecate"
+    }
+  ],
+  "ui-serials-management.ruleset.copyAndDeprecatePublicationPattern": [
+    {
+      "type": 0,
+      "value": "Copy and deprecate publication pattern"
+    }
+  ],
   "ui-serials-management.ruleset.cycleLength": [
     {
       "type": 0,
@@ -120770,6 +120812,12 @@
     {
       "type": 0,
       "value": "Draft patterns"
+    }
+  ],
+  "ui-serials-management.ruleset.editPublicationPattern": [
+    {
+      "type": 0,
+      "value": "Edit publication pattern"
     }
   ],
   "ui-serials-management.ruleset.enumeration": [
@@ -125996,6 +126044,12 @@
     {
       "type": 0,
       "value": "View patron notice print jobs (PDF)"
+    }
+  ],
+  "ui-users.actionMenu.preRegistrationRecords": [
+    {
+      "type": 0,
+      "value": "Search patron pre-registration records"
     }
   ],
   "ui-users.actions": [
@@ -131424,6 +131478,12 @@
       "value": "User: Can override patron blocks"
     }
   ],
+  "ui-users.permission.patron-pre-registrations-view": [
+    {
+      "type": 0,
+      "value": "Users: Can view patron pre-registration data"
+    }
+  ],
   "ui-users.permission.patron_blocks": [
     {
       "type": 0,
@@ -134417,6 +134477,114 @@
     {
       "type": 0,
       "value": "Add"
+    }
+  ],
+  "ui-users.stagingRecords.activated": [
+    {
+      "type": 0,
+      "value": "Activated"
+    }
+  ],
+  "ui-users.stagingRecords.list.columnNames.action": [
+    {
+      "type": 0,
+      "value": "Action"
+    }
+  ],
+  "ui-users.stagingRecords.list.columnNames.address": [
+    {
+      "type": 0,
+      "value": "Address"
+    }
+  ],
+  "ui-users.stagingRecords.list.columnNames.email": [
+    {
+      "type": 0,
+      "value": "Email"
+    }
+  ],
+  "ui-users.stagingRecords.list.columnNames.emailCommunicationPreferences": [
+    {
+      "type": 0,
+      "value": "Email communication preferences"
+    }
+  ],
+  "ui-users.stagingRecords.list.columnNames.emailVerification": [
+    {
+      "type": 0,
+      "value": "Email verification"
+    }
+  ],
+  "ui-users.stagingRecords.list.columnNames.firstName": [
+    {
+      "type": 0,
+      "value": "First name"
+    }
+  ],
+  "ui-users.stagingRecords.list.columnNames.lastName": [
+    {
+      "type": 0,
+      "value": "Last name"
+    }
+  ],
+  "ui-users.stagingRecords.list.columnNames.middleName": [
+    {
+      "type": 0,
+      "value": "Middle name"
+    }
+  ],
+  "ui-users.stagingRecords.list.columnNames.mobileNumber": [
+    {
+      "type": 0,
+      "value": "Mobile number"
+    }
+  ],
+  "ui-users.stagingRecords.list.columnNames.phoneNumber": [
+    {
+      "type": 0,
+      "value": "Phone number"
+    }
+  ],
+  "ui-users.stagingRecords.list.columnNames.preferredFirstName": [
+    {
+      "type": 0,
+      "value": "Preferred first name"
+    }
+  ],
+  "ui-users.stagingRecords.list.columnNames.submissionDate": [
+    {
+      "type": 0,
+      "value": "Submission date"
+    }
+  ],
+  "ui-users.stagingRecords.list.search": [
+    {
+      "type": 0,
+      "value": "Search"
+    }
+  ],
+  "ui-users.stagingRecords.list.searchResults": [
+    {
+      "type": 0,
+      "value": "Patron pre-registration record results"
+    }
+  ],
+  "ui-users.stagingRecords.notActivated": [
+    {
+      "type": 0,
+      "value": "Not activated"
+    }
+  ],
+  "ui-users.stagingRecords.search.label": [
+    {
+      "type": 0,
+      "value": "Staging records search"
+    }
+  ],
+  "ui-users.stagingRecords.search.placeholder": [
+    {
+      "type": 0,
+      "value": "Search by name or email"
     }
   ],
   "ui-users.status": [

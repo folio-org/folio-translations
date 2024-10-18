@@ -62183,6 +62183,12 @@
       "value": "匯出管理員：下載並重新寄送檔案"
     }
   ],
+  "ui-export-manager.permission.jobs.downloadAndResend.execute": [
+    {
+      "type": 0,
+      "value": "Export manager: Download and resend files"
+    }
+  ],
   "ui-export-manager.title.all": [
     {
       "type": 0,
@@ -74969,6 +74975,12 @@
     {
       "type": 0,
       "value": "繼續"
+    }
+  ],
+  "ui-inventory.moveItems.modal.message.hasLinkedPOLsOrHoldings": [
+    {
+      "type": 0,
+      "value": "This holdings is linked to a purchase order line. Moving this holdings to a new instance will move any other holdings and items that are linked to this purchase order line to the new instance as well. The purchase order line will also be linked to the new instance. Do you want to continue?"
     }
   ],
   "ui-inventory.moveItems.modal.message.holdings": [
@@ -93300,6 +93312,24 @@
       "value": "設定（OAI-PMH）：可以檢視日誌紀錄"
     }
   ],
+  "ui-oai-pmh.permission.settings.edit": [
+    {
+      "type": 0,
+      "value": "Settings (OAI-PMH): Can view and edit settings"
+    }
+  ],
+  "ui-oai-pmh.permission.settings.logs.view": [
+    {
+      "type": 0,
+      "value": "Settings (OAI-PMH): Can view logs"
+    }
+  ],
+  "ui-oai-pmh.permission.settings.view": [
+    {
+      "type": 0,
+      "value": "Settings (OAI-PMH): Can view"
+    }
+  ],
   "ui-oai-pmh.permission.view": [
     {
       "type": 0,
@@ -107180,7 +107210,7 @@
   "ui-plugin-find-import-profile.confirmationModal.heading": [
     {
       "type": 0,
-      "value": "重新链接"
+      "value": "重新連結"
     },
     {
       "type": 1,
@@ -107194,13 +107224,13 @@
   "ui-plugin-find-import-profile.confirmationModal.label": [
     {
       "type": 0,
-      "value": "重新链接"
+      "value": "重新連結"
     }
   ],
   "ui-plugin-find-import-profile.confirmationModal.multiple.body": [
     {
       "type": 0,
-      "value": "这些"
+      "value": "其中一個或多個"
     },
     {
       "type": 1,
@@ -107208,7 +107238,7 @@
     },
     {
       "type": 0,
-      "value": "的一个或多个已经链接到其他"
+      "value": "已連結到其他"
     },
     {
       "type": 1,
@@ -107216,7 +107246,7 @@
     },
     {
       "type": 0,
-      "value": " 。是否要从以前的"
+      "value": " 。您想要取消與先前的"
     },
     {
       "type": 1,
@@ -107224,7 +107254,7 @@
     },
     {
       "type": 0,
-      "value": "取消链接并重新链接到此"
+      "value": "連結並重新連結到此"
     },
     {
       "children": [
@@ -107254,19 +107284,19 @@
     },
     {
       "type": 0,
-      "value": " ？"
+      "value": "嗎？"
     }
   ],
   "ui-plugin-find-import-profile.confirmationModal.notAttached.body": [
     {
       "type": 0,
-      "value": "You must link a field mapping profile to the action profile before assigning the action profile to a job profile"
+      "value": "在將檔案指派給任務檔案之前，您必須將欄位對應檔案連結到工作檔案"
     }
   ],
   "ui-plugin-find-import-profile.confirmationModal.notAttached.heading": [
     {
       "type": 0,
-      "value": "Action profile not attached"
+      "value": "未附加任務檔案"
     }
   ],
   "ui-plugin-find-import-profile.confirmationModal.note": [
@@ -107282,7 +107312,7 @@
     },
     {
       "type": 0,
-      "value": "该"
+      "value": "此"
     },
     {
       "type": 1,
@@ -107290,7 +107320,7 @@
     },
     {
       "type": 0,
-      "value": "不会重新链接，除非保存"
+      "value": "檔案在您儲存前，不會重新連結成功"
     },
     {
       "type": 1,
@@ -107306,7 +107336,7 @@
   "ui-plugin-find-import-profile.confirmationModal.single.body": [
     {
       "type": 0,
-      "value": "本"
+      "value": "此"
     },
     {
       "type": 1,
@@ -107314,7 +107344,7 @@
     },
     {
       "type": 0,
-      "value": "已链接到"
+      "value": "已連結至"
     },
     {
       "children": [
@@ -107344,7 +107374,7 @@
     },
     {
       "type": 0,
-      "value": " 。是否要取消与先前"
+      "value": " 。您想要取消與先前的"
     },
     {
       "type": 1,
@@ -107352,13 +107382,13 @@
     },
     {
       "type": 0,
-      "value": "的链接并重新链接到此"
+      "value": "連結並重新連結到此"
     },
     {
       "children": [
         {
           "type": 0,
-          "value": " “ "
+          "value": " "
         },
         {
           "type": 1,
@@ -107366,7 +107396,7 @@
         },
         {
           "type": 0,
-          "value": " ” "
+          "value": " "
         }
       ],
       "type": 8,
@@ -107379,36 +107409,40 @@
     {
       "type": 1,
       "value": "linkedProfileType"
+    },
+    {
+      "type": 0,
+      "value": "嗎？"
     }
   ],
   "ui-plugin-find-import-profile.entities.actionProfiles": [
     {
       "type": 0,
-      "value": "操作配置文件"
+      "value": "任務檔案"
     }
   ],
   "ui-plugin-find-import-profile.entities.jobProfiles": [
     {
       "type": 0,
-      "value": "任務概要"
+      "value": "任務檔案"
     }
   ],
   "ui-plugin-find-import-profile.entities.mappingProfiles": [
     {
       "type": 0,
-      "value": "字段映射配置文件"
+      "value": "欄位對應檔案"
     }
   ],
   "ui-plugin-find-import-profile.entities.matchProfiles": [
     {
       "type": 0,
-      "value": "匹配配置文件"
+      "value": "符合檔案"
     }
   ],
   "ui-plugin-find-import-profile.meta.pluginTitle": [
     {
       "type": 0,
-      "value": "测试查找配置文件插件"
+      "value": "測試查找外掛程式檔案"
     }
   ],
   "ui-plugin-find-import-profile.meta.title": [
@@ -107420,19 +107454,19 @@
   "ui-plugin-find-import-profile.modal.footer.close": [
     {
       "type": 0,
-      "value": "关闭"
+      "value": "關閉"
     }
   ],
   "ui-plugin-find-import-profile.modal.footer.save": [
     {
       "type": 0,
-      "value": "保存"
+      "value": "儲存"
     }
   ],
   "ui-plugin-find-import-profile.modal.footer.totalSelected": [
     {
       "type": 0,
-      "value": "已选总数： "
+      "value": "已選擇總數： "
     },
     {
       "type": 1,
@@ -107442,7 +107476,7 @@
   "ui-plugin-find-import-profile.modal.title": [
     {
       "type": 0,
-      "value": "选择"
+      "value": "選擇"
     },
     {
       "type": 1,
@@ -107452,13 +107486,13 @@
   "ui-plugin-find-import-profile.pluggable.caption": [
     {
       "type": 0,
-      "value": "选取配置文件"
+      "value": "選取檔案"
     }
   ],
   "ui-plugin-find-import-profile.pluggable.errors.plugin.disabled": [
     {
       "type": 0,
-      "value": "无可用插件！"
+      "value": "沒有可使用的外掛程式！"
     }
   ],
   "ui-plugin-find-instance.barcode": [
@@ -123194,6 +123228,18 @@
       "value": "Confirm generation of overlapping piece sets"
     }
   ],
+  "ui-serials-management.ruleset.copyAndDeprecate": [
+    {
+      "type": 0,
+      "value": "Copy and deprecate"
+    }
+  ],
+  "ui-serials-management.ruleset.copyAndDeprecatePublicationPattern": [
+    {
+      "type": 0,
+      "value": "Copy and deprecate publication pattern"
+    }
+  ],
   "ui-serials-management.ruleset.cycleLength": [
     {
       "type": 0,
@@ -123306,6 +123352,12 @@
     {
       "type": 0,
       "value": "草案模式"
+    }
+  ],
+  "ui-serials-management.ruleset.editPublicationPattern": [
+    {
+      "type": 0,
+      "value": "Edit publication pattern"
     }
   ],
   "ui-serials-management.ruleset.enumeration": [
@@ -128820,6 +128872,12 @@
     {
       "type": 0,
       "value": "檢視讀者通知列印作業 (PDF)"
+    }
+  ],
+  "ui-users.actionMenu.preRegistrationRecords": [
+    {
+      "type": 0,
+      "value": "Search patron pre-registration records"
     }
   ],
   "ui-users.actions": [
@@ -134434,6 +134492,12 @@
       "value": "使用者：可越權讀者凍結"
     }
   ],
+  "ui-users.permission.patron-pre-registrations-view": [
+    {
+      "type": 0,
+      "value": "Users: Can view patron pre-registration data"
+    }
+  ],
   "ui-users.permission.patron_blocks": [
     {
       "type": 0,
@@ -137487,6 +137551,114 @@
     {
       "type": 0,
       "value": "新增"
+    }
+  ],
+  "ui-users.stagingRecords.activated": [
+    {
+      "type": 0,
+      "value": "Activated"
+    }
+  ],
+  "ui-users.stagingRecords.list.columnNames.action": [
+    {
+      "type": 0,
+      "value": "Action"
+    }
+  ],
+  "ui-users.stagingRecords.list.columnNames.address": [
+    {
+      "type": 0,
+      "value": "Address"
+    }
+  ],
+  "ui-users.stagingRecords.list.columnNames.email": [
+    {
+      "type": 0,
+      "value": "Email"
+    }
+  ],
+  "ui-users.stagingRecords.list.columnNames.emailCommunicationPreferences": [
+    {
+      "type": 0,
+      "value": "Email communication preferences"
+    }
+  ],
+  "ui-users.stagingRecords.list.columnNames.emailVerification": [
+    {
+      "type": 0,
+      "value": "Email verification"
+    }
+  ],
+  "ui-users.stagingRecords.list.columnNames.firstName": [
+    {
+      "type": 0,
+      "value": "First name"
+    }
+  ],
+  "ui-users.stagingRecords.list.columnNames.lastName": [
+    {
+      "type": 0,
+      "value": "Last name"
+    }
+  ],
+  "ui-users.stagingRecords.list.columnNames.middleName": [
+    {
+      "type": 0,
+      "value": "Middle name"
+    }
+  ],
+  "ui-users.stagingRecords.list.columnNames.mobileNumber": [
+    {
+      "type": 0,
+      "value": "Mobile number"
+    }
+  ],
+  "ui-users.stagingRecords.list.columnNames.phoneNumber": [
+    {
+      "type": 0,
+      "value": "Phone number"
+    }
+  ],
+  "ui-users.stagingRecords.list.columnNames.preferredFirstName": [
+    {
+      "type": 0,
+      "value": "Preferred first name"
+    }
+  ],
+  "ui-users.stagingRecords.list.columnNames.submissionDate": [
+    {
+      "type": 0,
+      "value": "Submission date"
+    }
+  ],
+  "ui-users.stagingRecords.list.search": [
+    {
+      "type": 0,
+      "value": "Search"
+    }
+  ],
+  "ui-users.stagingRecords.list.searchResults": [
+    {
+      "type": 0,
+      "value": "Patron pre-registration record results"
+    }
+  ],
+  "ui-users.stagingRecords.notActivated": [
+    {
+      "type": 0,
+      "value": "Not activated"
+    }
+  ],
+  "ui-users.stagingRecords.search.label": [
+    {
+      "type": 0,
+      "value": "Staging records search"
+    }
+  ],
+  "ui-users.stagingRecords.search.placeholder": [
+    {
+      "type": 0,
+      "value": "Search by name or email"
     }
   ],
   "ui-users.status": [
