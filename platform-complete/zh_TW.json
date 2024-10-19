@@ -21511,6 +21511,12 @@
       "value": "館藏條碼"
     }
   ],
+  "ui-bulk-edit.columns.HOLDINGS_RECORD.Member": [
+    {
+      "type": 0,
+      "value": "Member"
+    }
+  ],
   "ui-bulk-edit.columns.HOLDINGS_RECORD.Notes": [
     {
       "type": 0,
@@ -22097,6 +22103,12 @@
     {
       "type": 0,
       "value": "Material type"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Member": [
+    {
+      "type": 0,
+      "value": "Member"
     }
   ],
   "ui-bulk-edit.columns.ITEM.Missing Peaces": [
@@ -107200,7 +107212,7 @@
   "ui-plugin-find-import-profile.addProfile": [
     {
       "type": 0,
-      "value": "添加"
+      "value": "新增"
     },
     {
       "type": 1,
@@ -107296,7 +107308,7 @@
   "ui-plugin-find-import-profile.confirmationModal.notAttached.heading": [
     {
       "type": 0,
-      "value": "未附加任務檔案"
+      "value": "未附加操作檔案"
     }
   ],
   "ui-plugin-find-import-profile.confirmationModal.note": [
@@ -107304,7 +107316,7 @@
       "children": [
         {
           "type": 0,
-          "value": "注意"
+          "value": "請注意"
         }
       ],
       "type": 8,
@@ -107312,7 +107324,15 @@
     },
     {
       "type": 0,
-      "value": "此"
+      "value": " ，在您儲存"
+    },
+    {
+      "type": 1,
+      "value": "parentType"
+    },
+    {
+      "type": 0,
+      "value": "之前，不會重新連結"
     },
     {
       "type": 1,
@@ -107320,11 +107340,7 @@
     },
     {
       "type": 0,
-      "value": "檔案在您儲存前，不會重新連結成功"
-    },
-    {
-      "type": 1,
-      "value": "parentType"
+      "value": " 。"
     }
   ],
   "ui-plugin-find-import-profile.confirmationModal.ok": [
@@ -107418,13 +107434,13 @@
   "ui-plugin-find-import-profile.entities.actionProfiles": [
     {
       "type": 0,
-      "value": "任務檔案"
+      "value": "操作檔"
     }
   ],
   "ui-plugin-find-import-profile.entities.jobProfiles": [
     {
       "type": 0,
-      "value": "任務檔案"
+      "value": "工作檔案"
     }
   ],
   "ui-plugin-find-import-profile.entities.mappingProfiles": [
@@ -107442,7 +107458,7 @@
   "ui-plugin-find-import-profile.meta.pluginTitle": [
     {
       "type": 0,
-      "value": "測試查找外掛程式檔案"
+      "value": "測試查找檔案外掛程式"
     }
   ],
   "ui-plugin-find-import-profile.meta.title": [
@@ -110139,26 +110155,8 @@
   ],
   "ui-quick-marc.record.error.fieldIsControlled": [
     {
-      "children": [
-        {
-          "type": 0,
-          "value": " "
-        },
-        {
-          "type": 1,
-          "value": "fieldTags"
-        },
-        {
-          "type": 0,
-          "value": " "
-        }
-      ],
-      "type": 8,
-      "value": "b"
-    },
-    {
       "type": 0,
-      "value": "有一個無法保存的子欄位，因為該欄位由權威紀錄控制。"
+      "value": "A subfield(s) cannot be updated because it is controlled by an authority heading."
     }
   ],
   "ui-quick-marc.record.error.fieldsAreControlled": [
@@ -132107,6 +132105,28 @@
       "value": "館藏詳細資訊"
     }
   ],
+  "ui-users.keycloak.modal.confirmationHeading": [
+    {
+      "type": 0,
+      "value": "Keycloak user record"
+    }
+  ],
+  "ui-users.keycloak.modal.creation": [
+    {
+      "type": 0,
+      "value": "This operation will create new record in Keycloak for "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "user"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
   "ui-users.loading": [
     {
       "type": 0,
@@ -134493,6 +134513,18 @@
     }
   ],
   "ui-users.permission.patron-pre-registrations-view": [
+    {
+      "type": 0,
+      "value": "Users: Can view patron pre-registration data"
+    }
+  ],
+  "ui-users.permission.patron-pre-registrations.execute": [
+    {
+      "type": 0,
+      "value": "Users: Can merge patron preregistration data"
+    }
+  ],
+  "ui-users.permission.patron-pre-registrations.view": [
     {
       "type": 0,
       "value": "Users: Can view patron pre-registration data"
@@ -137557,6 +137589,18 @@
     {
       "type": 0,
       "value": "Activated"
+    }
+  ],
+  "ui-users.stagingRecords.duplicates.results.paneTitle": [
+    {
+      "type": 0,
+      "value": "Existing FOLIO user records"
+    }
+  ],
+  "ui-users.stagingRecords.duplicates.results.warning": [
+    {
+      "type": 0,
+      "value": "Please review existing FOLIO user records. Merging a preregistration record will replace corresponding fields in the FOLIO user record. Updates cannot be reverted."
     }
   ],
   "ui-users.stagingRecords.list.columnNames.action": [

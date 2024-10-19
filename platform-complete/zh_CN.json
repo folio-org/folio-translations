@@ -20848,16 +20848,7 @@
     },
     {
       "type": 0,
-      "value": "已保存"
-    },
-    {
-      "style": null,
-      "type": 2,
-      "value": "count"
-    },
-    {
-      "type": 0,
-      "value": " "
+      "value": "已保存 "
     },
     {
       "offset": 0,
@@ -21661,6 +21652,12 @@
       "value": "单件条码"
     }
   ],
+  "ui-bulk-edit.columns.HOLDINGS_RECORD.Member": [
+    {
+      "type": 0,
+      "value": "Member"
+    }
+  ],
   "ui-bulk-edit.columns.HOLDINGS_RECORD.Notes": [
     {
       "type": 0,
@@ -22247,6 +22244,12 @@
     {
       "type": 0,
       "value": "资料类型"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Member": [
+    {
+      "type": 0,
+      "value": "Member"
     }
   ],
   "ui-bulk-edit.columns.ITEM.Missing Peaces": [
@@ -31140,7 +31143,7 @@
   "ui-circulation.settings.ViewPrintDetails.warningPopup.message": [
     {
       "type": 0,
-      "value": "禁用此设置将导致现有打印历史日志丢失。确定吗？"
+      "value": "选择确认将停止记录打印任务详情。"
     }
   ],
   "ui-circulation.settings.ViewPrintDetails.warningPopup.message.cancel": [
@@ -34108,7 +34111,7 @@
   "ui-circulation.settings.staffSlips.borrowerTokenHeader": [
     {
       "type": 0,
-      "value": "Borrower"
+      "value": "借阅者"
     }
   ],
   "ui-circulation.settings.staffSlips.createStaffSlip": [
@@ -34220,7 +34223,7 @@
   "ui-circulation.settings.staffSlips.loanTokenHeader": [
     {
       "type": 0,
-      "value": "Loan"
+      "value": "借阅"
     }
   ],
   "ui-circulation.settings.staffSlips.name": [
@@ -133004,6 +133007,28 @@
       "value": "单件详情"
     }
   ],
+  "ui-users.keycloak.modal.confirmationHeading": [
+    {
+      "type": 0,
+      "value": "Keycloak user record"
+    }
+  ],
+  "ui-users.keycloak.modal.creation": [
+    {
+      "type": 0,
+      "value": "This operation will create new record in Keycloak for "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "user"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
   "ui-users.loading": [
     {
       "type": 0,
@@ -135362,6 +135387,18 @@
     }
   ],
   "ui-users.permission.patron-pre-registrations-view": [
+    {
+      "type": 0,
+      "value": "Users: Can view patron pre-registration data"
+    }
+  ],
+  "ui-users.permission.patron-pre-registrations.execute": [
+    {
+      "type": 0,
+      "value": "Users: Can merge patron preregistration data"
+    }
+  ],
+  "ui-users.permission.patron-pre-registrations.view": [
     {
       "type": 0,
       "value": "Users: Can view patron pre-registration data"
@@ -138410,6 +138447,18 @@
     {
       "type": 0,
       "value": "Activated"
+    }
+  ],
+  "ui-users.stagingRecords.duplicates.results.paneTitle": [
+    {
+      "type": 0,
+      "value": "Existing FOLIO user records"
+    }
+  ],
+  "ui-users.stagingRecords.duplicates.results.warning": [
+    {
+      "type": 0,
+      "value": "Please review existing FOLIO user records. Merging a preregistration record will replace corresponding fields in the FOLIO user record. Updates cannot be reverted."
     }
   ],
   "ui-users.stagingRecords.list.columnNames.action": [

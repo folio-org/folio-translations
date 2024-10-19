@@ -16123,7 +16123,7 @@
     },
     {
       "type": 1,
-      "value": "간행물유형"
+      "value": "publicationType"
     },
     {
       "type": 0,
@@ -16131,7 +16131,7 @@
     },
     {
       "type": 1,
-      "value": "이름"
+      "value": "name"
     },
     {
       "type": 0,
@@ -17692,7 +17692,7 @@
     },
     {
       "type": 1,
-      "value": "이름"
+      "value": "name"
     },
     {
       "type": 0,
@@ -17802,7 +17802,7 @@
     },
     {
       "type": 1,
-      "value": "이름"
+      "value": "name"
     },
     {
       "type": 0,
@@ -19161,7 +19161,7 @@
     },
     {
       "type": 1,
-      "value": "번호"
+      "value": "number"
     }
   ],
   "ui-agreements.pci.edit": [
@@ -19269,7 +19269,7 @@
   "ui-agreements.platform.editPlatform": [
     {
       "type": 1,
-      "value": "이름"
+      "value": "name"
     },
     {
       "type": 0,
@@ -21584,6 +21584,12 @@
       "value": "Item barcode"
     }
   ],
+  "ui-bulk-edit.columns.HOLDINGS_RECORD.Member": [
+    {
+      "type": 0,
+      "value": "Member"
+    }
+  ],
   "ui-bulk-edit.columns.HOLDINGS_RECORD.Notes": [
     {
       "type": 0,
@@ -22170,6 +22176,12 @@
     {
       "type": 0,
       "value": "Material type"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Member": [
+    {
+      "type": 0,
+      "value": "Member"
     }
   ],
   "ui-bulk-edit.columns.ITEM.Missing Peaces": [
@@ -55940,31 +55952,31 @@
   "ui-eholdings.resource.embargoUnit.Days": [
     {
       "type": 1,
-      "value": "값"
+      "value": "value"
     },
     {
       "type": 0,
-      "value": " 일"
+      "value": " day(s)"
     }
   ],
   "ui-eholdings.resource.embargoUnit.Months": [
     {
       "type": 1,
-      "value": "값"
+      "value": "value"
     },
     {
       "type": 0,
-      "value": " 월"
+      "value": " month(s)"
     }
   ],
   "ui-eholdings.resource.embargoUnit.Weeks": [
     {
       "type": 1,
-      "value": "값"
+      "value": "value"
     },
     {
       "type": 0,
-      "value": " 주"
+      "value": " week(s)"
     }
   ],
   "ui-eholdings.resource.embargoUnit.Years": [
@@ -58831,7 +58843,7 @@
     },
     {
       "type": 1,
-      "value": "인덱스"
+      "value": "index"
     },
     {
       "type": 0,
@@ -60643,12 +60655,24 @@
   ],
   "ui-erm-usage.statistics.counter.download.multiMonth.error": [
     {
+      "type": 0,
+      "value": "Error retrieving counter report of "
+    },
+    {
+      "type": 1,
+      "value": "reportType"
+    },
+    {
+      "type": 0,
+      "value": " from "
+    },
+    {
       "type": 1,
       "value": "start"
     },
     {
       "type": 0,
-      "value": " 에서 "
+      "value": " until "
     },
     {
       "type": 1,
@@ -60656,7 +60680,7 @@
     },
     {
       "type": 0,
-      "value": " 까지 "
+      "value": " as "
     },
     {
       "type": 1,
@@ -60664,33 +60688,29 @@
     },
     {
       "type": 0,
-      "value": " 파일로 "
-    },
-    {
-      "type": 1,
-      "value": "format"
-    },
-    {
-      "type": 0,
-      "value": " "
-    },
-    {
-      "type": 1,
-      "value": "reportName"
-    },
-    {
-      "type": 0,
-      "value": " 의 카운터 보고서를 검색하는 동안 오류가 발생했습니다. 사용 가능한 보고서가 없습니까?"
+      "value": " file. Maybe there is no report available?"
     }
   ],
   "ui-erm-usage.statistics.counter.download.multiMonth.prepare": [
     {
+      "type": 0,
+      "value": "Will prepare download of report "
+    },
+    {
+      "type": 1,
+      "value": "reportType"
+    },
+    {
+      "type": 0,
+      "value": " from "
+    },
+    {
       "type": 1,
       "value": "start"
     },
     {
       "type": 0,
-      "value": " 부터 "
+      "value": " until "
     },
     {
       "type": 1,
@@ -60698,7 +60718,7 @@
     },
     {
       "type": 0,
-      "value": " 까지 "
+      "value": " as "
     },
     {
       "type": 1,
@@ -60706,23 +60726,7 @@
     },
     {
       "type": 0,
-      "value": " 파일로 "
-    },
-    {
-      "type": 1,
-      "value": "format"
-    },
-    {
-      "type": 0,
-      "value": " "
-    },
-    {
-      "type": 1,
-      "value": "reportName"
-    },
-    {
-      "type": 0,
-      "value": " 보고서 다운로드를 준비합니다. 시간이 좀 걸릴 수 있습니다. 기다려주세요!"
+      "value": " file. This may take some time. Please wait!"
     }
   ],
   "ui-erm-usage.statistics.counter.upload": [
@@ -102492,7 +102496,7 @@
   "ui-organizations.settings.bankingAccountTypes.cannotDeleteTermMessage": [
     {
       "type": 0,
-      "value": "This account type cannot be deleted, as it is in use by one or more records."
+      "value": "Unable to delete. Account type is in use by one or more organizations."
     }
   ],
   "ui-organizations.settings.bankingAccountTypes.deleteEntry": [
@@ -130227,6 +130231,28 @@
       "value": "Item details"
     }
   ],
+  "ui-users.keycloak.modal.confirmationHeading": [
+    {
+      "type": 0,
+      "value": "Keycloak user record"
+    }
+  ],
+  "ui-users.keycloak.modal.creation": [
+    {
+      "type": 0,
+      "value": "This operation will create new record in Keycloak for "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "user"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
   "ui-users.loading": [
     {
       "type": 0,
@@ -132599,6 +132625,18 @@
     }
   ],
   "ui-users.permission.patron-pre-registrations-view": [
+    {
+      "type": 0,
+      "value": "Users: Can view patron pre-registration data"
+    }
+  ],
+  "ui-users.permission.patron-pre-registrations.execute": [
+    {
+      "type": 0,
+      "value": "Users: Can merge patron preregistration data"
+    }
+  ],
+  "ui-users.permission.patron-pre-registrations.view": [
     {
       "type": 0,
       "value": "Users: Can view patron pre-registration data"
@@ -135631,6 +135669,18 @@
     {
       "type": 0,
       "value": "Activated"
+    }
+  ],
+  "ui-users.stagingRecords.duplicates.results.paneTitle": [
+    {
+      "type": 0,
+      "value": "Existing FOLIO user records"
+    }
+  ],
+  "ui-users.stagingRecords.duplicates.results.warning": [
+    {
+      "type": 0,
+      "value": "Please review existing FOLIO user records. Merging a preregistration record will replace corresponding fields in the FOLIO user record. Updates cannot be reverted."
     }
   ],
   "ui-users.stagingRecords.list.columnNames.action": [

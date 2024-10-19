@@ -21377,6 +21377,12 @@
       "value": "Čárový kód jednotky"
     }
   ],
+  "ui-bulk-edit.columns.HOLDINGS_RECORD.Member": [
+    {
+      "type": 0,
+      "value": "Member"
+    }
+  ],
   "ui-bulk-edit.columns.HOLDINGS_RECORD.Notes": [
     {
       "type": 0,
@@ -21963,6 +21969,12 @@
     {
       "type": 0,
       "value": "Typ materiálu"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Member": [
+    {
+      "type": 0,
+      "value": "Member"
     }
   ],
   "ui-bulk-edit.columns.ITEM.Missing Peaces": [
@@ -38775,7 +38787,7 @@
     },
     {
       "type": 0,
-      "value": ": Přihlášený uživatel na této nástěnce neexistuje jako uživatel. Přístup je udělován prostřednictvím systémového oprávnění vysoké úrovně (\"ui-dashboard.dashboards.admin.manage\")."
+      "value": ": Přihlášený uživatel na této nástěnce neexistuje jako uživatel. Přístup je udělován prostřednictvím systémového oprávnění vysoké úrovně (oprávnění brány Okapi \"servint.dashboard.admin\")."
     }
   ],
   "ui-dashboard.dashboardUsers.addUser": [
@@ -77639,7 +77651,21 @@
     },
     {
       "type": 0,
-      "value": " nemá aktuální rozpočet."
+      "value": " nemá aktuální rozpočet na fiskální rok "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "fiscalYear"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "."
     }
   ],
   "ui-invoice.invoice.actions.approve.error.currentFYearNotFound": [
@@ -77897,7 +77923,21 @@
     },
     {
       "type": 0,
-      "value": " nemá aktuální rozpočet."
+      "value": " nemá aktuální rozpočet na fiskální rok "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "fiscalYear"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "."
     }
   ],
   "ui-invoice.invoice.actions.approveAndPay.error.inactiveExpenseClass": [
@@ -78099,7 +78139,21 @@
     },
     {
       "type": 0,
-      "value": " nemá aktuální rozpočet."
+      "value": " nemá aktuální rozpočet na fiskální rok "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "fiscalYear"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "."
     }
   ],
   "ui-invoice.invoice.actions.pay.error.inactiveExpenseClass": [
@@ -78227,7 +78281,21 @@
     },
     {
       "type": 0,
-      "value": " nemá aktuální rozpočet."
+      "value": " nemá aktuální rozpočet na fiskální rok "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "fiscalYear"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "."
     }
   ],
   "ui-invoice.invoice.actions.saveLine.error.inactiveExpenseClass": [
@@ -106442,7 +106510,7 @@
   "ui-plugin-find-package-title.searchPane.label": [
     {
       "type": 0,
-      "value": "Hledat a filtrovat"
+      "value": "Vyhledat a filtrovat"
     }
   ],
   "ui-plugin-find-package-title.searchPane.resetAll": [
@@ -119825,7 +119893,7 @@
   "ui-serials-management.cancelGeneration": [
     {
       "type": 0,
-      "value": "Cancel generation"
+      "value": "Zrušit generování"
     }
   ],
   "ui-serials-management.close": [
@@ -129166,6 +129234,28 @@
       "value": "Detaily jednotky"
     }
   ],
+  "ui-users.keycloak.modal.confirmationHeading": [
+    {
+      "type": 0,
+      "value": "Keycloak user record"
+    }
+  ],
+  "ui-users.keycloak.modal.creation": [
+    {
+      "type": 0,
+      "value": "This operation will create new record in Keycloak for "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "user"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
   "ui-users.loading": [
     {
       "type": 0,
@@ -131498,6 +131588,18 @@
     }
   ],
   "ui-users.permission.patron-pre-registrations-view": [
+    {
+      "type": 0,
+      "value": "Users: Can view patron pre-registration data"
+    }
+  ],
+  "ui-users.permission.patron-pre-registrations.execute": [
+    {
+      "type": 0,
+      "value": "Users: Can merge patron preregistration data"
+    }
+  ],
+  "ui-users.permission.patron-pre-registrations.view": [
     {
       "type": 0,
       "value": "Users: Can view patron pre-registration data"
@@ -134506,6 +134608,18 @@
     {
       "type": 0,
       "value": "Activated"
+    }
+  ],
+  "ui-users.stagingRecords.duplicates.results.paneTitle": [
+    {
+      "type": 0,
+      "value": "Existing FOLIO user records"
+    }
+  ],
+  "ui-users.stagingRecords.duplicates.results.warning": [
+    {
+      "type": 0,
+      "value": "Please review existing FOLIO user records. Merging a preregistration record will replace corresponding fields in the FOLIO user record. Updates cannot be reverted."
     }
   ],
   "ui-users.stagingRecords.list.columnNames.action": [

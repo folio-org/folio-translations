@@ -21574,6 +21574,12 @@
       "value": "Exemplarbarcode"
     }
   ],
+  "ui-bulk-edit.columns.HOLDINGS_RECORD.Member": [
+    {
+      "type": 0,
+      "value": "Member"
+    }
+  ],
   "ui-bulk-edit.columns.HOLDINGS_RECORD.Notes": [
     {
       "type": 0,
@@ -22160,6 +22166,12 @@
     {
       "type": 0,
       "value": "Material type"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Member": [
+    {
+      "type": 0,
+      "value": "Member"
     }
   ],
   "ui-bulk-edit.columns.ITEM.Missing Peaces": [
@@ -33760,7 +33772,7 @@
   "ui-circulation.settings.staffSlips.borrowerTokenHeader": [
     {
       "type": 0,
-      "value": "Borrower"
+      "value": "Entleiher/-in"
     }
   ],
   "ui-circulation.settings.staffSlips.createStaffSlip": [
@@ -33864,7 +33876,7 @@
   "ui-circulation.settings.staffSlips.loanTokenHeader": [
     {
       "type": 0,
-      "value": "Loan"
+      "value": "Ausleihe"
     }
   ],
   "ui-circulation.settings.staffSlips.name": [
@@ -59279,7 +59291,7 @@
   "ui-erm-usage.general.reportReleases": [
     {
       "type": 0,
-      "value": "Report releases"
+      "value": "Berichtsversion"
     }
   ],
   "ui-erm-usage.general.reportTypes": [
@@ -77911,14 +77923,6 @@
       "value": " werden, da die "
     },
     {
-      "type": 1,
-      "value": "Kostenart"
-    },
-    {
-      "type": 0,
-      "value": " "
-    },
-    {
       "children": [
         {
           "type": 0,
@@ -77926,7 +77930,7 @@
         },
         {
           "type": 1,
-          "value": "Kostenart"
+          "value": "expenseClass"
         },
         {
           "type": 0,
@@ -78142,7 +78146,7 @@
         },
         {
           "type": 1,
-          "value": "Kostenart"
+          "value": "expenseClass"
         },
         {
           "type": 0,
@@ -78353,14 +78357,6 @@
       "value": " werden, da die "
     },
     {
-      "type": 1,
-      "value": "Kostenart"
-    },
-    {
-      "type": 0,
-      "value": " "
-    },
-    {
       "children": [
         {
           "type": 0,
@@ -78368,7 +78364,7 @@
         },
         {
           "type": 1,
-          "value": "Kostenart"
+          "value": "expenseClass"
         },
         {
           "type": 0,
@@ -79970,7 +79966,15 @@
   "ui-invoice.settings.actions.manualExport.message": [
     {
       "type": 0,
-      "value": "Alle Belege, die seit dem letzten Export für die Batch-Gruppe \"selectedBatchGroupName\" erstellt wurden, werden exportiert, und dieser Vorgang kann nicht rückgängig gemacht werden."
+      "value": "Alle Belege, die seit dem letzten Export für die Batch-Gruppe "
+    },
+    {
+      "type": 1,
+      "value": "selectedBatchGroupName"
+    },
+    {
+      "type": 0,
+      "value": " erstellt wurden, werden exportiert, und dieser Vorgang kann nicht rückgängig gemacht werden."
     }
   ],
   "ui-invoice.settings.adjustments.alwaysShow": [
@@ -80218,7 +80222,7 @@
     },
     {
       "type": 1,
-      "value": "Ursache"
+      "value": "cause"
     }
   ],
   "ui-invoice.settings.batchGroupConfiguration.testConnection.success": [
@@ -90365,7 +90369,7 @@
   "ui-oa.party.streetAddress.region": [
     {
       "type": 0,
-      "value": "Bundesland"
+      "value": "Staat / Land / Bundesland"
     }
   ],
   "ui-oa.party.streetAddresses": [
@@ -99623,7 +99627,7 @@
   "ui-organizations.contactPeople.addresses.stateRegion": [
     {
       "type": 0,
-      "value": "Bundesland"
+      "value": "Staat / Land / Bundesland"
     }
   ],
   "ui-organizations.contactPeople.addresses.zipCode": [
@@ -99899,7 +99903,7 @@
   "ui-organizations.contactPeople.stateRegion": [
     {
       "type": 0,
-      "value": "Bundesland"
+      "value": "Staat / Land / Bundesland"
     }
   ],
   "ui-organizations.contactPeople.status": [
@@ -100243,7 +100247,7 @@
   "ui-organizations.data.contactTypes.stateProviceOrRegion": [
     {
       "type": 0,
-      "value": "Bundesland"
+      "value": "Staat / Land / Bundesland"
     }
   ],
   "ui-organizations.data.contactTypes.textMessage": [
@@ -106484,32 +106488,40 @@
   ],
   "ui-plugin-find-package-title.resultsPane.select": [
     {
-      "type": 0,
-      "value": "Select "
-    },
-    {
       "type": 1,
       "value": "name"
+    },
+    {
+      "type": 0,
+      "value": " auswählen"
     }
   ],
   "ui-plugin-find-package-title.resultsPane.selectPackage": [
     {
       "type": 0,
-      "value": "Select package "
+      "value": "Paket "
     },
     {
       "type": 1,
       "value": "name"
+    },
+    {
+      "type": 0,
+      "value": " auswählen"
     }
   ],
   "ui-plugin-find-package-title.resultsPane.selectTitle": [
     {
       "type": 0,
-      "value": "Select title "
+      "value": "Titel "
     },
     {
       "type": 1,
       "value": "name"
+    },
+    {
+      "type": 0,
+      "value": " auswählen"
     }
   ],
   "ui-plugin-find-package-title.resultsPane.status": [
@@ -120273,7 +120285,7 @@
   "ui-serials-management.pieceSets": [
     {
       "type": 0,
-      "value": "Sätze von Teilen"
+      "value": "Fortgeschriebene Teile"
     }
   ],
   "ui-serials-management.pieceSets.combinedPieces": [
@@ -129512,6 +129524,28 @@
       "value": "Exemplardetails"
     }
   ],
+  "ui-users.keycloak.modal.confirmationHeading": [
+    {
+      "type": 0,
+      "value": "Keycloak user record"
+    }
+  ],
+  "ui-users.keycloak.modal.creation": [
+    {
+      "type": 0,
+      "value": "This operation will create new record in Keycloak for "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "user"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
   "ui-users.loading": [
     {
       "type": 0,
@@ -131952,6 +131986,18 @@
     }
   ],
   "ui-users.permission.patron-pre-registrations-view": [
+    {
+      "type": 0,
+      "value": "Users: Can view patron pre-registration data"
+    }
+  ],
+  "ui-users.permission.patron-pre-registrations.execute": [
+    {
+      "type": 0,
+      "value": "Users: Can merge patron preregistration data"
+    }
+  ],
+  "ui-users.permission.patron-pre-registrations.view": [
     {
       "type": 0,
       "value": "Users: Can view patron pre-registration data"
@@ -134940,6 +134986,18 @@
     {
       "type": 0,
       "value": "Activated"
+    }
+  ],
+  "ui-users.stagingRecords.duplicates.results.paneTitle": [
+    {
+      "type": 0,
+      "value": "Existing FOLIO user records"
+    }
+  ],
+  "ui-users.stagingRecords.duplicates.results.warning": [
+    {
+      "type": 0,
+      "value": "Please review existing FOLIO user records. Merging a preregistration record will replace corresponding fields in the FOLIO user record. Updates cannot be reverted."
     }
   ],
   "ui-users.stagingRecords.list.columnNames.action": [

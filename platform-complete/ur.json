@@ -18628,7 +18628,11 @@
   "ui-agreements.line.update.callout": [
     {
       "type": 0,
-      "value": "Agreement line updated"
+      "value": "Agreement line updated: "
+    },
+    {
+      "type": 1,
+      "value": "name"
     }
   ],
   "ui-agreements.loading": [
@@ -21422,6 +21426,12 @@
       "value": "Item barcode"
     }
   ],
+  "ui-bulk-edit.columns.HOLDINGS_RECORD.Member": [
+    {
+      "type": 0,
+      "value": "Member"
+    }
+  ],
   "ui-bulk-edit.columns.HOLDINGS_RECORD.Notes": [
     {
       "type": 0,
@@ -22008,6 +22018,12 @@
     {
       "type": 0,
       "value": "Material type"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Member": [
+    {
+      "type": 0,
+      "value": "Member"
     }
   ],
   "ui-bulk-edit.columns.ITEM.Missing Peaces": [
@@ -38832,7 +38848,7 @@
     },
     {
       "type": 0,
-      "value": ": The logged in user does not exist as a user on this dashboard. Access is being granted through a high level system permission (via \"ui-dashboard.dashboards.admin.manage\")."
+      "value": ": The logged in user does not exist as a user on this dashboard. Access is being granted through a high level system permission (Okapi gateway permission \"servint.dashboard.admin\")."
     }
   ],
   "ui-dashboard.dashboardUsers.addUser": [
@@ -101556,7 +101572,7 @@
   "ui-organizations.settings.bankingAccountTypes.cannotDeleteTermMessage": [
     {
       "type": 0,
-      "value": "This account type cannot be deleted, as it is in use by one or more records."
+      "value": "Unable to delete. Account type is in use by one or more organizations."
     }
   ],
   "ui-organizations.settings.bankingAccountTypes.deleteEntry": [
@@ -129143,6 +129159,28 @@
       "value": "Item details"
     }
   ],
+  "ui-users.keycloak.modal.confirmationHeading": [
+    {
+      "type": 0,
+      "value": "Keycloak user record"
+    }
+  ],
+  "ui-users.keycloak.modal.creation": [
+    {
+      "type": 0,
+      "value": "This operation will create new record in Keycloak for "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "user"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
   "ui-users.loading": [
     {
       "type": 0,
@@ -131479,6 +131517,18 @@
     }
   ],
   "ui-users.permission.patron-pre-registrations-view": [
+    {
+      "type": 0,
+      "value": "Users: Can view patron pre-registration data"
+    }
+  ],
+  "ui-users.permission.patron-pre-registrations.execute": [
+    {
+      "type": 0,
+      "value": "Users: Can merge patron preregistration data"
+    }
+  ],
+  "ui-users.permission.patron-pre-registrations.view": [
     {
       "type": 0,
       "value": "Users: Can view patron pre-registration data"
@@ -134483,6 +134533,18 @@
     {
       "type": 0,
       "value": "Activated"
+    }
+  ],
+  "ui-users.stagingRecords.duplicates.results.paneTitle": [
+    {
+      "type": 0,
+      "value": "Existing FOLIO user records"
+    }
+  ],
+  "ui-users.stagingRecords.duplicates.results.warning": [
+    {
+      "type": 0,
+      "value": "Please review existing FOLIO user records. Merging a preregistration record will replace corresponding fields in the FOLIO user record. Updates cannot be reverted."
     }
   ],
   "ui-users.stagingRecords.list.columnNames.action": [

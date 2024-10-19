@@ -16744,7 +16744,7 @@
   "ui-agreements.documents.addDocs": [
     {
       "type": 0,
-      "value": "Add document"
+      "value": "Adicionar documento"
     }
   ],
   "ui-agreements.duplicateAgreementModal.agreementInfo": [
@@ -16900,7 +16900,7 @@
   "ui-agreements.emptyAccordion.documents": [
     {
       "type": 0,
-      "value": "No documents for this agreement line "
+      "value": "Não há documentos para esta linha de contrato"
     }
   ],
   "ui-agreements.emptyAccordion.externalLicenses": [
@@ -18472,7 +18472,7 @@
   "ui-agreements.line.documents": [
     {
       "type": 0,
-      "value": "Documents"
+      "value": "Documentos"
     }
   ],
   "ui-agreements.line.edit": [
@@ -18518,7 +18518,11 @@
   "ui-agreements.line.update.callout": [
     {
       "type": 0,
-      "value": "Linha do contrato atualizada"
+      "value": "Linha de contrato atualizada: "
+    },
+    {
+      "type": 1,
+      "value": "name"
     }
   ],
   "ui-agreements.loading": [
@@ -21352,6 +21356,12 @@
       "value": "Código de barras do item"
     }
   ],
+  "ui-bulk-edit.columns.HOLDINGS_RECORD.Member": [
+    {
+      "type": 0,
+      "value": "Member"
+    }
+  ],
   "ui-bulk-edit.columns.HOLDINGS_RECORD.Notes": [
     {
       "type": 0,
@@ -21938,6 +21948,12 @@
     {
       "type": 0,
       "value": "Tipo de material"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Member": [
+    {
+      "type": 0,
+      "value": "Member"
     }
   ],
   "ui-bulk-edit.columns.ITEM.Missing Peaces": [
@@ -39104,7 +39120,7 @@
       "children": [
         {
           "type": 0,
-          "value": " Aviso "
+          "value": "Aviso"
         }
       ],
       "type": 8,
@@ -39112,7 +39128,7 @@
     },
     {
       "type": 0,
-      "value": " : o usuário conectado não possui autorização neste painel. O acesso está sendo concedido por meio de uma permissão de alto nível do sistema (\"ui-dashboard.dashboards.admin.manage\")."
+      "value": ": o usuário conectado não possui autorização neste painel de controle. O acesso está sendo concedido por meio de uma permissão de alto nível do sistema (permissão de gateway Okapi \"servint.dashboard.admin\")."
     }
   ],
   "ui-dashboard.dashboardUsers.addUser": [
@@ -53418,31 +53434,31 @@
   "ui-developer.rtr.activityEvents": [
     {
       "type": 0,
-      "value": "activityEvents: which DOM events constitute user activity (comma-separated, e.g. 'mousemove,keydown')"
+      "value": "Eventos de Atividade: quais eventos DOM constituem a atividade do usuário (separados por vírgulas, por exemplo, 'mousemove,keydown')"
     }
   ],
   "ui-developer.rtr.fixedLengthSessionWarningTTL": [
     {
       "type": 0,
-      "value": "fixedLengthSessionWarningTTL: how long the “your session is going to die!” warning should be shown before the session is killed (e.g. 1h, 1m, 5s, 10ms)"
+      "value": "Tempo de vida do aviso de duração fixa da sessão: por quanto tempo o aviso \"sua sessão vai morrer!\" deve ser exibido antes que a sessão seja encerrada (por exemplo: 1h, 1m, 5s, 10ms)"
     }
   ],
   "ui-developer.rtr.forceRefresh": [
     {
       "type": 0,
-      "value": "Force refresh"
+      "value": "Forçar atualização"
     }
   ],
   "ui-developer.rtr.idleModalTTL": [
     {
       "type": 0,
-      "value": "idleModalTTL: duration the idle modal should be shown before session is killed (e.g. 1h, 1m, 5s, 10ms)"
+      "value": "Tempo de vida do modal ocioso: duração que o modal ocioso deve ser exibido antes que a sessão seja encerrada (por exemplo: 1h, 1m, 5s, 10ms)"
     }
   ],
   "ui-developer.rtr.idleSessionTTL": [
     {
       "type": 0,
-      "value": "idleSessionTTL: duration an idle session lasts before being killed (e.g. 1h, 1m, 5s, 10ms)"
+      "value": "Tempo de vida da sessão ociosa: duração de uma sessão ociosa antes de ser encerrada (por exemplo: 1h, 1m, 5s, 10ms)"
     }
   ],
   "ui-developer.rtr.invalidateAT": [
@@ -53466,7 +53482,7 @@
   "ui-developer.rtr.rotationIntervalFraction": [
     {
       "type": 0,
-      "value": "rotationIntervalFraction: decimal fraction of how early to refresh the access token (e.g. 0.6 is 60% into the lifetime of the token)"
+      "value": "Fração de intervalo de rotação: fração decimal da antecedência com que o token de acesso deve ser atualizado (por exemplo, 0,6 corresponde a 60% da vida útil do token)"
     }
   ],
   "ui-developer.rtr.unregisterServiceWorker": [
@@ -59539,7 +59555,7 @@
   "ui-erm-usage.general.reportReleases": [
     {
       "type": 0,
-      "value": "Report releases"
+      "value": "Lançamentos de relatórios"
     }
   ],
   "ui-erm-usage.general.reportTypes": [
@@ -60269,7 +60285,7 @@
   "ui-erm-usage.reportOverview.deleteTemplateMessage": [
     {
       "type": 1,
-      "value": "nome"
+      "value": "name"
     },
     {
       "type": 0,
@@ -61846,7 +61862,7 @@
   "ui-export-manager.permission.jobs.downloadAndResend.execute": [
     {
       "type": 0,
-      "value": "Export manager: Download and resend files"
+      "value": "Gerenciador de exportação: Baixe e reenvie arquivos"
     }
   ],
   "ui-export-manager.title.all": [
@@ -78213,7 +78229,21 @@
     },
     {
       "type": 0,
-      "value": " não tem orçamento atual."
+      "value": " não tem orçamento atual para o ano fiscal "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "fiscalYear"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "."
     }
   ],
   "ui-invoice.invoice.actions.approve.error.currentFYearNotFound": [
@@ -78471,7 +78501,21 @@
     },
     {
       "type": 0,
-      "value": " não tem orçamento atual."
+      "value": " não tem orçamento atual para o ano fiscal "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "fiscalYear"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "."
     }
   ],
   "ui-invoice.invoice.actions.approveAndPay.error.inactiveExpenseClass": [
@@ -78681,7 +78725,21 @@
     },
     {
       "type": 0,
-      "value": " não tem orçamento atual."
+      "value": " não tem orçamento atual para o ano fiscal "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "fiscalYear"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "."
     }
   ],
   "ui-invoice.invoice.actions.pay.error.inactiveExpenseClass": [
@@ -78795,7 +78853,7 @@
   "ui-invoice.invoice.actions.saveLine.error.budgetNotFoundByFundIdAndFiscalYearId": [
     {
       "type": 0,
-      "value": "A linha de fatura não pode ser salva porque o Fundo "
+      "value": "A linha da fatura não pode ser salva porque o Fundo "
     },
     {
       "children": [
@@ -78809,7 +78867,21 @@
     },
     {
       "type": 0,
-      "value": " não tem orçamento atual."
+      "value": " não tem orçamento atual para o ano fiscal "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "fiscalYear"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "."
     }
   ],
   "ui-invoice.invoice.actions.saveLine.error.inactiveExpenseClass": [
@@ -81348,7 +81420,7 @@
     },
     {
       "type": 1,
-      "value": "nome"
+      "value": "name"
     }
   ],
   "ui-licenses.amendments.view.startDate": [
@@ -84418,7 +84490,7 @@
   "ui-lists.cross-tenant-message": [
     {
       "type": 0,
-      "value": "This list may contain records from multiple tenants."
+      "value": "Essa lista pode conter registros de vários locatários."
     }
   ],
   "ui-lists.delete-export.in.progress": [
@@ -87030,7 +87102,7 @@
       "children": [
         {
           "type": 1,
-          "value": "nome"
+          "value": "name"
         }
       ],
       "type": 8,
@@ -102494,7 +102566,7 @@
   "ui-organizations.settings.bankingAccountTypes.cannotDeleteTermMessage": [
     {
       "type": 0,
-      "value": "Este tipo de conta não pode ser excluído, pois está em uso por um ou mais registros."
+      "value": "Não é possível excluir. O tipo de conta está em uso por uma ou mais organizações."
     }
   ],
   "ui-organizations.settings.bankingAccountTypes.deleteEntry": [
@@ -121915,13 +121987,13 @@
   "ui-serials-management.ruleset.copyAndDeprecate": [
     {
       "type": 0,
-      "value": "Copy and deprecate"
+      "value": "Copiar e descontinuar"
     }
   ],
   "ui-serials-management.ruleset.copyAndDeprecatePublicationPattern": [
     {
       "type": 0,
-      "value": "Copy and deprecate publication pattern"
+      "value": "Copiar e descontinuar o padrão de publicação"
     }
   ],
   "ui-serials-management.ruleset.cycleLength": [
@@ -122041,7 +122113,7 @@
   "ui-serials-management.ruleset.editPublicationPattern": [
     {
       "type": 0,
-      "value": "Edit publication pattern"
+      "value": "Editar padrão de publicação"
     }
   ],
   "ui-serials-management.ruleset.enumeration": [
@@ -130543,6 +130615,28 @@
       "value": "Detalhes do item"
     }
   ],
+  "ui-users.keycloak.modal.confirmationHeading": [
+    {
+      "type": 0,
+      "value": "Keycloak user record"
+    }
+  ],
+  "ui-users.keycloak.modal.creation": [
+    {
+      "type": 0,
+      "value": "This operation will create new record in Keycloak for "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "user"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
   "ui-users.loading": [
     {
       "type": 0,
@@ -133001,6 +133095,18 @@
     }
   ],
   "ui-users.permission.patron-pre-registrations-view": [
+    {
+      "type": 0,
+      "value": "Users: Can view patron pre-registration data"
+    }
+  ],
+  "ui-users.permission.patron-pre-registrations.execute": [
+    {
+      "type": 0,
+      "value": "Users: Can merge patron preregistration data"
+    }
+  ],
+  "ui-users.permission.patron-pre-registrations.view": [
     {
       "type": 0,
       "value": "Users: Can view patron pre-registration data"
@@ -136005,6 +136111,18 @@
     {
       "type": 0,
       "value": "Activated"
+    }
+  ],
+  "ui-users.stagingRecords.duplicates.results.paneTitle": [
+    {
+      "type": 0,
+      "value": "Existing FOLIO user records"
+    }
+  ],
+  "ui-users.stagingRecords.duplicates.results.warning": [
+    {
+      "type": 0,
+      "value": "Please review existing FOLIO user records. Merging a preregistration record will replace corresponding fields in the FOLIO user record. Updates cannot be reverted."
     }
   ],
   "ui-users.stagingRecords.list.columnNames.action": [

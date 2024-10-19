@@ -15498,7 +15498,7 @@
     },
     {
       "type": 0,
-      "value": "件の契約書があります"
+      "value": "件の契約明細があります"
     },
     {
       "offset": 0,
@@ -21542,6 +21542,12 @@
       "value": "アイテム - バーコード"
     }
   ],
+  "ui-bulk-edit.columns.HOLDINGS_RECORD.Member": [
+    {
+      "type": 0,
+      "value": "Member"
+    }
+  ],
   "ui-bulk-edit.columns.HOLDINGS_RECORD.Notes": [
     {
       "type": 0,
@@ -22128,6 +22134,12 @@
     {
       "type": 0,
       "value": "資料種別"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Member": [
+    {
+      "type": 0,
+      "value": "Member"
     }
   ],
   "ui-bulk-edit.columns.ITEM.Missing Peaces": [
@@ -33383,7 +33395,7 @@
   "ui-circulation.settings.patronNotices.addToken": [
     {
       "type": 0,
-      "value": "Add token"
+      "value": "トークンを追加する"
     }
   ],
   "ui-circulation.settings.patronNotices.body": [
@@ -39057,7 +39069,7 @@
     },
     {
       "type": 0,
-      "value": ": The logged in user does not exist as a user on this dashboard. Access is being granted through a high level system permission (via \"ui-dashboard.dashboards.admin.manage\")."
+      "value": ": The logged in user does not exist as a user on this dashboard. Access is being granted through a high level system permission (Okapi gateway permission \"servint.dashboard.admin\")."
     }
   ],
   "ui-dashboard.dashboardUsers.addUser": [
@@ -86823,7 +86835,7 @@
   "ui-local-kb-admin.permission.jobs.delete": [
     {
       "type": 0,
-      "value": "Local KB admin: Delete jobs"
+      "value": "ローカルKB管理: ジョブを削除できます"
     }
   ],
   "ui-local-kb-admin.permission.jobs.edit": [
@@ -86835,13 +86847,13 @@
   "ui-local-kb-admin.permission.jobs.view": [
     {
       "type": 0,
-      "value": "Local KB admin: View jobs"
+      "value": "ローカルKB管理: ジョブを参照できます"
     }
   ],
   "ui-local-kb-admin.permission.kbs.manage": [
     {
       "type": 0,
-      "value": "Local KB admin: Manage remote KB configuration"
+      "value": "ローカルKB管理: リモートKBの構成を管理できます"
     }
   ],
   "ui-local-kb-admin.permission.proxyServer.manage": [
@@ -100354,13 +100366,13 @@
   "ui-organizations.contactInfo.vendorCategory.customerService": [
     {
       "type": 0,
-      "value": "Customer Service"
+      "value": "顧客サービス"
     }
   ],
   "ui-organizations.contactInfo.vendorCategory.payments": [
     {
       "type": 0,
-      "value": "Payment"
+      "value": "支払"
     }
   ],
   "ui-organizations.contactInfo.vendorCategory.returns": [
@@ -100432,7 +100444,7 @@
   "ui-organizations.contactPeople.additionalEmail": [
     {
       "type": 0,
-      "value": "Additional email"
+      "value": "追加Eメール"
     }
   ],
   "ui-organizations.contactPeople.address": [
@@ -100504,7 +100516,7 @@
   "ui-organizations.contactPeople.addresses.stateRegion": [
     {
       "type": 0,
-      "value": "State/Prov./Region"
+      "value": "州/県/地域"
     }
   ],
   "ui-organizations.contactPeople.addresses.zipCode": [
@@ -100600,7 +100612,7 @@
   "ui-organizations.contactPeople.inactive": [
     {
       "type": 0,
-      "value": "非アクティブ"
+      "value": "無効"
     }
   ],
   "ui-organizations.contactPeople.language": [
@@ -100708,7 +100720,7 @@
   "ui-organizations.contactPeople.prefix": [
     {
       "type": 0,
-      "value": "プリフィクス"
+      "value": "接頭語"
     }
   ],
   "ui-organizations.contactPeople.primaryAddress": [
@@ -100798,7 +100810,7 @@
   "ui-organizations.contactPeople.status.inactive": [
     {
       "type": 0,
-      "value": "非アクティブ"
+      "value": "無効"
     }
   ],
   "ui-organizations.contactPeople.type": [
@@ -101052,13 +101064,13 @@
   "ui-organizations.data.contactTypes.addressType": [
     {
       "type": 0,
-      "value": "住所の種類"
+      "value": "住所タイプ"
     }
   ],
   "ui-organizations.data.contactTypes.alternateAddress": [
     {
       "type": 0,
-      "value": "Alternate address"
+      "value": "代替住所"
     }
   ],
   "ui-organizations.data.contactTypes.categories": [
@@ -101082,7 +101094,7 @@
   "ui-organizations.data.contactTypes.editThisAddress": [
     {
       "type": 0,
-      "value": "Edit address"
+      "value": "住所の編集"
     }
   ],
   "ui-organizations.data.contactTypes.email": [
@@ -101124,13 +101136,13 @@
   "ui-organizations.data.contactTypes.stateProviceOrRegion": [
     {
       "type": 0,
-      "value": "State/Province/Region"
+      "value": "州/県/地域"
     }
   ],
   "ui-organizations.data.contactTypes.textMessage": [
     {
       "type": 0,
-      "value": "Text message"
+      "value": "テキストメッセージ"
     }
   ],
   "ui-organizations.data.contactTypes.zipOrPostalCode": [
@@ -101450,7 +101462,7 @@
   "ui-organizations.edit.requiredFields": [
     {
       "type": 0,
-      "value": "Required fields!"
+      "value": "必須フィールドです"
     }
   ],
   "ui-organizations.edit.show": [
@@ -101514,7 +101526,7 @@
   "ui-organizations.filterConfig.createdBy": [
     {
       "type": 0,
-      "value": "Created by"
+      "value": "作成者"
     }
   ],
   "ui-organizations.filterConfig.dateCreated": [
@@ -101526,7 +101538,7 @@
   "ui-organizations.filterConfig.dateUpdated": [
     {
       "type": 0,
-      "value": "Date updated"
+      "value": "更新日"
     }
   ],
   "ui-organizations.filterConfig.isDonor": [
@@ -101692,7 +101704,7 @@
   "ui-organizations.integration.edi.vendorEDICode": [
     {
       "type": 0,
-      "value": "Vendor EDI code"
+      "value": "ベンダーEDIコード"
     }
   ],
   "ui-organizations.integration.edi.vendorEDIType": [
@@ -101866,19 +101878,19 @@
   "ui-organizations.integration.scheduling.scheduleDate": [
     {
       "type": 0,
-      "value": "Date"
+      "value": "日付"
     }
   ],
   "ui-organizations.integration.scheduling.scheduleDay": [
     {
       "type": 0,
-      "value": "Day"
+      "value": "日"
     }
   ],
   "ui-organizations.integration.scheduling.scheduleEDI": [
     {
       "type": 0,
-      "value": "Schedule EDI"
+      "value": "スケジュール EDI"
     }
   ],
   "ui-organizations.integration.scheduling.scheduleFrequency": [
@@ -101902,7 +101914,7 @@
   "ui-organizations.integration.scheduling.schedulePeriod.hours": [
     {
       "type": 0,
-      "value": "Hourly"
+      "value": "毎時"
     }
   ],
   "ui-organizations.integration.scheduling.schedulePeriod.months": [
@@ -102088,7 +102100,7 @@
   "ui-organizations.interface.confirmDelete.message": [
     {
       "type": 0,
-      "value": "Are you sure you want to delete the interface?"
+      "value": "インターフェースを削除してもよろしいですか?"
     }
   ],
   "ui-organizations.interface.confirmUnassign.confirmLabel": [
@@ -102100,31 +102112,31 @@
   "ui-organizations.interface.confirmUnassign.heading": [
     {
       "type": 0,
-      "value": "Unassign from organization"
+      "value": "組織から割当解除"
     }
   ],
   "ui-organizations.interface.confirmUnassign.message1": [
     {
       "type": 0,
-      "value": "Are you sure you want to unassign the interface from this organization?"
+      "value": "この組織からインターフェースの割当を解除してもよろしいですか?"
     }
   ],
   "ui-organizations.interface.create.paneTitle": [
     {
       "type": 0,
-      "value": "Create interface"
+      "value": "インターフェイスの作成"
     }
   ],
   "ui-organizations.interface.deliveryMethod": [
     {
       "type": 0,
-      "value": "配信方法"
+      "value": "配送方法"
     }
   ],
   "ui-organizations.interface.edit.paneTitle": [
     {
       "type": 0,
-      "value": "Edit interface - "
+      "value": "インターフェースの編集 - "
     },
     {
       "type": 1,
@@ -102140,7 +102152,7 @@
   "ui-organizations.interface.message.delete.fail": [
     {
       "type": 0,
-      "value": "The interface was not deleted"
+      "value": "インターフェースは削除されませんでした"
     }
   ],
   "ui-organizations.interface.message.saved.fail": [
@@ -102158,7 +102170,7 @@
   "ui-organizations.interface.message.unassigned.fail": [
     {
       "type": 0,
-      "value": "The interface was not unassigned"
+      "value": "インターフェースは割当解除されていません"
     }
   ],
   "ui-organizations.interface.name": [
@@ -102434,13 +102446,13 @@
   "ui-organizations.organizationStatus.active": [
     {
       "type": 0,
-      "value": "アクティブ"
+      "value": "有効"
     }
   ],
   "ui-organizations.organizationStatus.inactive": [
     {
       "type": 0,
-      "value": "非アクティブ"
+      "value": "無効"
     }
   ],
   "ui-organizations.organizationStatus.pending": [
@@ -102619,7 +102631,7 @@
   "ui-organizations.save.error.codeInUse": [
     {
       "type": 0,
-      "value": "Code is already in use"
+      "value": "コードはすでに使用されています"
     }
   ],
   "ui-organizations.save.error.creds": [
@@ -103023,7 +103035,7 @@
   "ui-organizations.settings.typeStatus.Inactive": [
     {
       "type": 0,
-      "value": "非アクティブ"
+      "value": "無効"
     }
   ],
   "ui-organizations.settings.types": [
@@ -103195,7 +103207,7 @@
   "ui-organizations.summary.isDonor": [
     {
       "type": 0,
-      "value": "Donor"
+      "value": "寄贈者"
     }
   ],
   "ui-organizations.summary.isVendor": [
@@ -106543,7 +106555,7 @@
   "ui-plugin-find-import-profile.pluggable.errors.plugin.disabled": [
     {
       "type": 0,
-      "value": "No plugin available!"
+      "value": "利用できるプラグインがありません"
     }
   ],
   "ui-plugin-find-instance.barcode": [
@@ -106573,7 +106585,7 @@
   "ui-plugin-find-instance.contributor": [
     {
       "type": 0,
-      "value": "Contributor"
+      "value": "寄与者"
     }
   ],
   "ui-plugin-find-instance.createdDate": [
@@ -106957,7 +106969,7 @@
   "ui-plugin-find-instance.search.all": [
     {
       "type": 0,
-      "value": "Keyword (title, contributor, identifier, HRID, UUID)"
+      "value": "キーワード (タイトル、投稿者、ID、HRID、UUID)"
     }
   ],
   "ui-plugin-find-instance.showMoreOptions": [
@@ -109178,26 +109190,8 @@
   ],
   "ui-quick-marc.record.error.fieldIsControlled": [
     {
-      "children": [
-        {
-          "type": 0,
-          "value": " "
-        },
-        {
-          "type": 1,
-          "value": "fieldTags"
-        },
-        {
-          "type": 0,
-          "value": " "
-        }
-      ],
-      "type": 8,
-      "value": "b"
-    },
-    {
       "type": 0,
-      "value": "フィールドがオーソリティレコードによって制御されているため保存できないサブフィールドがあります。"
+      "value": "A subfield(s) cannot be updated because it is controlled by an authority heading."
     }
   ],
   "ui-quick-marc.record.error.fieldsAreControlled": [
@@ -130762,6 +130756,28 @@
       "value": "資料詳細"
     }
   ],
+  "ui-users.keycloak.modal.confirmationHeading": [
+    {
+      "type": 0,
+      "value": "Keycloak user record"
+    }
+  ],
+  "ui-users.keycloak.modal.creation": [
+    {
+      "type": 0,
+      "value": "This operation will create new record in Keycloak for "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "user"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
   "ui-users.loading": [
     {
       "type": 0,
@@ -133144,6 +133160,18 @@
     }
   ],
   "ui-users.permission.patron-pre-registrations-view": [
+    {
+      "type": 0,
+      "value": "Users: Can view patron pre-registration data"
+    }
+  ],
+  "ui-users.permission.patron-pre-registrations.execute": [
+    {
+      "type": 0,
+      "value": "Users: Can merge patron preregistration data"
+    }
+  ],
+  "ui-users.permission.patron-pre-registrations.view": [
     {
       "type": 0,
       "value": "Users: Can view patron pre-registration data"
@@ -136148,6 +136176,18 @@
     {
       "type": 0,
       "value": "Activated"
+    }
+  ],
+  "ui-users.stagingRecords.duplicates.results.paneTitle": [
+    {
+      "type": 0,
+      "value": "Existing FOLIO user records"
+    }
+  ],
+  "ui-users.stagingRecords.duplicates.results.warning": [
+    {
+      "type": 0,
+      "value": "Please review existing FOLIO user records. Merging a preregistration record will replace corresponding fields in the FOLIO user record. Updates cannot be reverted."
     }
   ],
   "ui-users.stagingRecords.list.columnNames.action": [

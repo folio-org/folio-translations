@@ -16081,7 +16081,7 @@
     },
     {
       "type": 1,
-      "value": "nombre"
+      "value": "name"
     },
     {
       "type": 0,
@@ -18047,22 +18047,10 @@
   ],
   "ui-agreements.errors.noDeleteHasLicenses": [
     {
-      "type": 0,
-      "value": "El acuerdi "
-    },
-    {
       "children": [
         {
           "type": 0,
-          "value": " "
-        },
-        {
-          "type": 1,
-          "value": "name"
-        },
-        {
-          "type": 0,
-          "value": " "
+          "value": "Agreement was not deleted"
         }
       ],
       "type": 8,
@@ -18070,7 +18058,7 @@
     },
     {
       "type": 0,
-      "value": " no se eliminó porque está en uso en una o más licencias."
+      "value": " because it has one or more licenses attached."
     }
   ],
   "ui-agreements.errors.noDeleteHasRelatedAgreements": [
@@ -21452,6 +21440,12 @@
       "value": "Código de barras ítem"
     }
   ],
+  "ui-bulk-edit.columns.HOLDINGS_RECORD.Member": [
+    {
+      "type": 0,
+      "value": "Member"
+    }
+  ],
   "ui-bulk-edit.columns.HOLDINGS_RECORD.Notes": [
     {
       "type": 0,
@@ -22038,6 +22032,12 @@
     {
       "type": 0,
       "value": "Material type"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Member": [
+    {
+      "type": 0,
+      "value": "Member"
     }
   ],
   "ui-bulk-edit.columns.ITEM.Missing Peaces": [
@@ -88317,13 +88317,13 @@
   "ui-notes.permission.settings.edit": [
     {
       "type": 0,
-      "value": "Settings (Notes): Edit and View General settings"
+      "value": "Ajustes (Notas): Editar y ver la configuración general"
     }
   ],
   "ui-notes.permission.settings.view": [
     {
       "type": 0,
-      "value": "Settings (Notes): View General settings"
+      "value": "Ajustes (Notas): Ver ajustes generales"
     }
   ],
   "ui-notes.settings.duplicated": [
@@ -88357,7 +88357,7 @@
   "ui-notes.settings.maxAmount": [
     {
       "type": 0,
-      "value": "Maximum # of note types allowed is "
+      "value": "El número máximo de tipos de nota permitidos es "
     },
     {
       "type": 1,
@@ -88371,7 +88371,7 @@
   "ui-notes.settings.noteType": [
     {
       "type": 0,
-      "value": "Note type"
+      "value": "Tipo Nota"
     }
   ],
   "ui-notes.settings.noteTypes": [
@@ -88383,13 +88383,13 @@
   "ui-notes.settings.noteTypes.deleteEntry": [
     {
       "type": 0,
-      "value": "Delete note type"
+      "value": "Eliminar tipo de nota"
     }
   ],
   "ui-notes.settings.noteTypes.termDeleted": [
     {
       "type": 0,
-      "value": "The note type "
+      "value": "El tipo de nota "
     },
     {
       "children": [
@@ -88403,23 +88403,41 @@
     },
     {
       "type": 0,
-      "value": " was successfully "
+      "value": " se ha "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "deleted"
+          "value": "eliminado"
         }
       ],
       "type": 8,
       "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " correctamente"
     }
   ],
   "ui-notes.settings.noteTypes.termWillBeDeleted": [
     {
       "type": 0,
-      "value": "The note type "
+      "value": "Se "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "eliminará"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " el tipo de nota "
     },
     {
       "children": [
@@ -88433,13 +88451,13 @@
     },
     {
       "type": 0,
-      "value": " will be "
+      "value": " "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "deleted."
+          "value": "."
         }
       ],
       "type": 8,
@@ -99251,13 +99269,13 @@
   "ui-organizations.accounts.accountStatus": [
     {
       "type": 0,
-      "value": "Estado de la cuenta"
+      "value": "Estado cuenta"
     }
   ],
   "ui-organizations.accounts.add": [
     {
       "type": 0,
-      "value": "Añadir"
+      "value": "+ Adicionar"
     }
   ],
   "ui-organizations.accounts.description": [
@@ -99269,13 +99287,13 @@
   "ui-organizations.accounts.libraryCode": [
     {
       "type": 0,
-      "value": "Código de biblioteca"
+      "value": "Código biblioteca"
     }
   ],
   "ui-organizations.accounts.libraryEDICode": [
     {
       "type": 0,
-      "value": "Código EDI de la biblioteca"
+      "value": "Codigo EDI"
     }
   ],
   "ui-organizations.accounts.name": [
@@ -99287,7 +99305,7 @@
   "ui-organizations.accounts.noAccountsAvail": [
     {
       "type": 0,
-      "value": "No hay cuentas disponibles"
+      "value": "-- No existen cuentas disponibles --"
     }
   ],
   "ui-organizations.accounts.notes": [
@@ -99305,7 +99323,7 @@
   "ui-organizations.accounts.paymentMethod": [
     {
       "type": 0,
-      "value": "Forma de pago"
+      "value": "Método de pago"
     }
   ],
   "ui-organizations.accounts.pleaseAddAccount": [
@@ -99323,7 +99341,7 @@
   "ui-organizations.agreement.add": [
     {
       "type": 0,
-      "value": "Añadir"
+      "value": "+ Añadir"
     }
   ],
   "ui-organizations.agreement.discount": [
@@ -99347,7 +99365,7 @@
   "ui-organizations.agreement.noAgreementsAvailable": [
     {
       "type": 0,
-      "value": "No hay acuerdos disponibles."
+      "value": "No hay acuerdos disponibles"
     }
   ],
   "ui-organizations.agreement.notes": [
@@ -99371,13 +99389,13 @@
   "ui-organizations.agreement.remove": [
     {
       "type": 0,
-      "value": "Quitar"
+      "value": "Borrar"
     }
   ],
   "ui-organizations.agreements": [
     {
       "type": 0,
-      "value": "Acuerdos"
+      "value": "Contratos"
     }
   ],
   "ui-organizations.alternateItem": [
@@ -99389,7 +99407,7 @@
   "ui-organizations.appMenu.organizationsAppSearch": [
     {
       "type": 0,
-      "value": "Organizations app Search"
+      "value": "Organizaciones app Búsqueda"
     }
   ],
   "ui-organizations.bankingInformation": [
@@ -99449,13 +99467,13 @@
   "ui-organizations.contactInfo.addURL": [
     {
       "type": 0,
-      "value": "+ Añadir URL"
+      "value": "Agregar URL"
     }
   ],
   "ui-organizations.contactInfo.categories": [
     {
       "type": 0,
-      "value": "Categorías"
+      "value": "Categories"
     }
   ],
   "ui-organizations.contactInfo.description": [
@@ -99467,7 +99485,7 @@
   "ui-organizations.contactInfo.email": [
     {
       "type": 0,
-      "value": "Correo electrónico"
+      "value": "Correo"
     }
   ],
   "ui-organizations.contactInfo.emailAddress": [
@@ -99491,31 +99509,31 @@
   "ui-organizations.contactInfo.phoneNumbers": [
     {
       "type": 0,
-      "value": "Números de teléfono"
+      "value": "Número de teléfono"
     }
   ],
   "ui-organizations.contactInfo.pleaseAddEmail": [
     {
       "type": 0,
-      "value": "-- Por favor añade correo electrónico --"
+      "value": "Por favor agregue correo electrónico"
     }
   ],
   "ui-organizations.contactInfo.pleaseAddPhoneNumber": [
     {
       "type": 0,
-      "value": "-- POr favor añade un número de teléfono --"
+      "value": "Por favor agregue el número de teléfono"
     }
   ],
   "ui-organizations.contactInfo.pleaseAddURL": [
     {
       "type": 0,
-      "value": "-- Por favor añade URL --"
+      "value": "-- Por favor agregue URL --"
     }
   ],
   "ui-organizations.contactInfo.remove": [
     {
       "type": 0,
-      "value": "Suprimir"
+      "value": "Borrar"
     }
   ],
   "ui-organizations.contactInfo.type": [
@@ -99539,25 +99557,25 @@
   "ui-organizations.contactInfo.vendorCategory.customerService": [
     {
       "type": 0,
-      "value": "Customer Service"
+      "value": "Servicio al cliente"
     }
   ],
   "ui-organizations.contactInfo.vendorCategory.payments": [
     {
       "type": 0,
-      "value": "Payment"
+      "value": "Pago"
     }
   ],
   "ui-organizations.contactInfo.vendorCategory.returns": [
     {
       "type": 0,
-      "value": "Returns"
+      "value": "Devoluciones"
     }
   ],
   "ui-organizations.contactInfo.vendorCategory.shipments": [
     {
       "type": 0,
-      "value": "Shipments"
+      "value": "Envíos"
     }
   ],
   "ui-organizations.contactInfo.vendorCategory.uncategorized": [
@@ -99575,19 +99593,19 @@
   "ui-organizations.contactPeople": [
     {
       "type": 0,
-      "value": "Persona de contacto"
+      "value": "Personas de contacto"
     }
   ],
   "ui-organizations.contactPeople.add": [
     {
       "type": 0,
-      "value": "Añadir"
+      "value": "+ Adicionar"
     }
   ],
   "ui-organizations.contactPeople.addAddress": [
     {
       "type": 0,
-      "value": "Añadir dirección"
+      "value": "+ Añadir dirección"
     }
   ],
   "ui-organizations.contactPeople.addContact": [
@@ -99599,25 +99617,25 @@
   "ui-organizations.contactPeople.addEmail": [
     {
       "type": 0,
-      "value": "Agregar correo electrónico"
+      "value": "+ Añadir correo electrónico"
     }
   ],
   "ui-organizations.contactPeople.addPhoneNumber": [
     {
       "type": 0,
-      "value": "Añadir número de teléfono"
+      "value": "+ Añadir número de teléfono"
     }
   ],
   "ui-organizations.contactPeople.addUrl": [
     {
       "type": 0,
-      "value": "Añadir URL"
+      "value": "Agregar URL"
     }
   ],
   "ui-organizations.contactPeople.additionalEmail": [
     {
       "type": 0,
-      "value": "Correo electrónico adicional"
+      "value": "Información adicional"
     }
   ],
   "ui-organizations.contactPeople.address": [
@@ -99737,7 +99755,7 @@
   "ui-organizations.contactPeople.email": [
     {
       "type": 0,
-      "value": "Correo electrónico"
+      "value": "Correo"
     }
   ],
   "ui-organizations.contactPeople.emailAddress": [
@@ -99779,7 +99797,7 @@
   "ui-organizations.contactPeople.errors.noPrimaryRecord": [
     {
       "type": 0,
-      "value": "No primary record selected"
+      "value": "No se ha seleccionado ningún registro primario"
     }
   ],
   "ui-organizations.contactPeople.inactive": [
@@ -99809,7 +99827,7 @@
   "ui-organizations.contactPeople.noContactAvailable": [
     {
       "type": 0,
-      "value": "No hay contacto disponible"
+      "value": "--No hay contacto disponible --"
     }
   ],
   "ui-organizations.contactPeople.noFindContactPlugin": [
@@ -99839,7 +99857,7 @@
   "ui-organizations.contactPeople.phoneNumbers": [
     {
       "type": 0,
-      "value": "Números de teléfono"
+      "value": "Número de teléfono"
     }
   ],
   "ui-organizations.contactPeople.phoneNumbers.categories": [
@@ -99869,25 +99887,25 @@
   "ui-organizations.contactPeople.pleaseAddAddress": [
     {
       "type": 0,
-      "value": "Por favor agregue la dirección"
+      "value": "-- Por favor agregue la dirección --"
     }
   ],
   "ui-organizations.contactPeople.pleaseAddEmail": [
     {
       "type": 0,
-      "value": "Por favor agregue un correo electrónico"
+      "value": "Por favor agregue correo electrónico"
     }
   ],
   "ui-organizations.contactPeople.pleaseAddPhoneNumbers": [
     {
       "type": 0,
-      "value": "Por favor, agregue el número de teléfono"
+      "value": "Por favor agregue el número de teléfono"
     }
   ],
   "ui-organizations.contactPeople.pleaseAddUrl": [
     {
       "type": 0,
-      "value": "Por favor agregue URL"
+      "value": "-- Por favor agregue URL --"
     }
   ],
   "ui-organizations.contactPeople.prefix": [
@@ -99923,19 +99941,19 @@
   "ui-organizations.contactPeople.remove": [
     {
       "type": 0,
-      "value": "Quitar"
+      "value": "Borrar"
     }
   ],
   "ui-organizations.contactPeople.removeContact": [
     {
       "type": 0,
-      "value": "Quitar el contacto"
+      "value": "Borrar el contacto"
     }
   ],
   "ui-organizations.contactPeople.removedContact": [
     {
       "type": 0,
-      "value": "Removed contact"
+      "value": "Contacto eliminado"
     }
   ],
   "ui-organizations.contactPeople.showMoreAddresses": [
@@ -100243,7 +100261,7 @@
   "ui-organizations.data.contactTypes.alternateAddress": [
     {
       "type": 0,
-      "value": "Dirección alternativa"
+      "value": "Direccion alternativa"
     }
   ],
   "ui-organizations.data.contactTypes.categories": [
@@ -100267,13 +100285,13 @@
   "ui-organizations.data.contactTypes.editThisAddress": [
     {
       "type": 0,
-      "value": "Editar dirección"
+      "value": "Editar la dirección"
     }
   ],
   "ui-organizations.data.contactTypes.email": [
     {
       "type": 0,
-      "value": "Correo electrónico"
+      "value": "Correo"
     }
   ],
   "ui-organizations.data.contactTypes.language": [
@@ -100285,31 +100303,31 @@
   "ui-organizations.data.contactTypes.mail": [
     {
       "type": 0,
-      "value": "Dirección (Dirección principal)"
+      "value": "Correo (primario)"
     }
   ],
   "ui-organizations.data.contactTypes.noAddressInfo": [
     {
       "type": 0,
-      "value": "Por favor, añade información de dirección"
+      "value": "Por favor agregue la información de la dirección"
     }
   ],
   "ui-organizations.data.contactTypes.primaryAddress": [
     {
       "type": 0,
-      "value": "Dirección principal"
+      "value": "Dirección primaria"
     }
   ],
   "ui-organizations.data.contactTypes.remove": [
     {
       "type": 0,
-      "value": "Suprimir"
+      "value": "Borrar"
     }
   ],
   "ui-organizations.data.contactTypes.stateProviceOrRegion": [
     {
       "type": 0,
-      "value": "Estado/Provincia/Región"
+      "value": "Estado / Prov. / Región"
     }
   ],
   "ui-organizations.data.contactTypes.textMessage": [
@@ -100321,7 +100339,7 @@
   "ui-organizations.data.contactTypes.zipOrPostalCode": [
     {
       "type": 0,
-      "value": "Código postal"
+      "value": "Zip/Código Postal"
     }
   ],
   "ui-organizations.document.title.search": [
@@ -100605,13 +100623,13 @@
   "ui-organizations.ediInformation": [
     {
       "type": 0,
-      "value": "Infomración EDI"
+      "value": "Información del EDI"
     }
   ],
   "ui-organizations.edit.delete": [
     {
       "type": 0,
-      "value": "Eliminar"
+      "value": "Borrar"
     }
   ],
   "ui-organizations.edit.hide": [
@@ -100635,7 +100653,7 @@
   "ui-organizations.edit.requiredFields": [
     {
       "type": 0,
-      "value": "Campos requeridos!"
+      "value": "¡Campos requeridos!"
     }
   ],
   "ui-organizations.edit.show": [
@@ -100699,19 +100717,19 @@
   "ui-organizations.filterConfig.createdBy": [
     {
       "type": 0,
-      "value": "Created by"
+      "value": "Creado por"
     }
   ],
   "ui-organizations.filterConfig.dateCreated": [
     {
       "type": 0,
-      "value": "Date created"
+      "value": "Fecha de creacion"
     }
   ],
   "ui-organizations.filterConfig.dateUpdated": [
     {
       "type": 0,
-      "value": "Date updated"
+      "value": "Fecha de actualización"
     }
   ],
   "ui-organizations.filterConfig.isDonor": [
@@ -100747,85 +100765,93 @@
   "ui-organizations.filterConfig.types": [
     {
       "type": 0,
-      "value": "Types"
+      "value": "Tipos"
     }
   ],
   "ui-organizations.filterConfig.updatedBy": [
     {
       "type": 0,
-      "value": "Updated by"
+      "value": "Actualizado por"
     }
   ],
   "ui-organizations.filterConfig.vendorStatus": [
     {
       "type": 0,
-      "value": "Estado del proveedor"
+      "value": "Estado de la organización"
     }
   ],
   "ui-organizations.integration.confirmation.confirm": [
     {
       "type": 0,
-      "value": "Confirm"
+      "value": "Confirme"
     }
   ],
   "ui-organizations.integration.confirmation.heading": [
     {
       "type": 0,
-      "value": "Confirm integration deletion"
+      "value": "Confirmar la eliminación de la integración"
     }
   ],
   "ui-organizations.integration.confirmation.message": [
     {
       "type": 0,
-      "value": "Are you sure you want to delete the integration?"
+      "value": "¿Está seguro de que desea eliminar la integración?"
     }
   ],
   "ui-organizations.integration.create": [
     {
       "type": 0,
-      "value": "Add integration"
+      "value": "Añadir integración"
     }
   ],
   "ui-organizations.integration.create.paneTitle": [
     {
       "type": 0,
-      "value": "Create integration"
+      "value": "Crear integración"
     }
   ],
   "ui-organizations.integration.edi": [
     {
       "type": 0,
-      "value": "EDI configuration"
+      "value": "Configuración EDI"
     }
   ],
   "ui-organizations.integration.edi.accountNumbers": [
     {
       "type": 0,
-      "value": "Account numbers"
+      "value": "Números de cuenta"
     }
   ],
   "ui-organizations.integration.edi.defaultAcquisitionMethods": [
     {
       "type": 0,
-      "value": "Automate order export for acquisition methods"
+      "value": "Automatizar la exportación de pedidos para los métodos de adquisición"
     }
   ],
   "ui-organizations.integration.edi.ediNamingConvention": [
     {
       "type": 0,
-      "value": "EDI naming convention"
+      "value": "Convención de nomenclatura EDI"
     }
   ],
   "ui-organizations.integration.edi.ediNamingConvention.info": [
     {
       "type": 0,
-      "value": "When defining your naming convention you can use text or one of the following tokens. Tokens will be replace by the corresponding information from the export job. Possible tokens are "
+      "value": "Al definir su convención de nomenclatura, puede usar texto o uno de los siguientes tokens. Los tokens serán reemplazados por la información correspondiente del trabajo de exportación. Las fichas posibles son "
     },
     {
       "children": [
         {
+          "type": 0,
+          "value": " "
+        },
+        {
           "type": 1,
           "value": "tokens"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -100835,61 +100861,61 @@
   "ui-organizations.integration.edi.invoices": [
     {
       "type": 0,
-      "value": "Invoices"
+      "value": "Facturas"
     }
   ],
   "ui-organizations.integration.edi.libraryEDICode": [
     {
       "type": 0,
-      "value": "Library EDI code"
+      "value": "Biblioteca Código EDI"
     }
   ],
   "ui-organizations.integration.edi.libraryEDIType": [
     {
       "type": 0,
-      "value": "Library EDI type"
+      "value": "Biblioteca Tipo EDI"
     }
   ],
   "ui-organizations.integration.edi.notes": [
     {
       "type": 0,
-      "value": "Notes"
+      "value": "Notas"
     }
   ],
   "ui-organizations.integration.edi.orders": [
     {
       "type": 0,
-      "value": "Orders"
+      "value": "Pedidos"
     }
   ],
   "ui-organizations.integration.edi.receiveNotifications": [
     {
       "type": 0,
-      "value": "What messages are expected for this vendor?"
+      "value": "¿Qué mensajes se esperan para este proveedor?"
     }
   ],
   "ui-organizations.integration.edi.sendAccountNumber": [
     {
       "type": 0,
-      "value": "Send account number"
+      "value": "Enviar número de cuenta"
     }
   ],
   "ui-organizations.integration.edi.vendorEDICode": [
     {
       "type": 0,
-      "value": "Vendor EDI code"
+      "value": "Código EDI del proveedor"
     }
   ],
   "ui-organizations.integration.edi.vendorEDIType": [
     {
       "type": 0,
-      "value": "Vendor EDI type"
+      "value": "Tipo de EDI del proveedor"
     }
   ],
   "ui-organizations.integration.edit.paneTitle": [
     {
       "type": 0,
-      "value": "Edit integration - "
+      "value": "Editar integración - "
     },
     {
       "type": 1,
@@ -100899,25 +100925,25 @@
   "ui-organizations.integration.ftp": [
     {
       "type": 0,
-      "value": "FTP details"
+      "value": "Datos FTP"
     }
   ],
   "ui-organizations.integration.ftp.ftpConnectionMode": [
     {
       "type": 0,
-      "value": "FTP connection mode"
+      "value": "Modo de conexión FTP"
     }
   ],
   "ui-organizations.integration.ftp.ftpConnectionMode.Active": [
     {
       "type": 0,
-      "value": "Active"
+      "value": "Activo"
     }
   ],
   "ui-organizations.integration.ftp.ftpConnectionMode.Passive": [
     {
       "type": 0,
-      "value": "Passive"
+      "value": "Pasivo"
     }
   ],
   "ui-organizations.integration.ftp.ftpFormat": [
@@ -100929,85 +100955,85 @@
   "ui-organizations.integration.ftp.ftpMode": [
     {
       "type": 0,
-      "value": "FTP mode"
+      "value": "Modo FTP"
     }
   ],
   "ui-organizations.integration.ftp.ftpPort": [
     {
       "type": 0,
-      "value": "FTP port"
+      "value": "Puerto FTP"
     }
   ],
   "ui-organizations.integration.ftp.invoiceDirectory": [
     {
       "type": 0,
-      "value": "Invoice directory"
+      "value": "Directorio de facturas"
     }
   ],
   "ui-organizations.integration.ftp.notes": [
     {
       "type": 0,
-      "value": "Notes"
+      "value": "Notas"
     }
   ],
   "ui-organizations.integration.ftp.orderDirectory": [
     {
       "type": 0,
-      "value": "Order directory"
+      "value": "Directorio de pedidos"
     }
   ],
   "ui-organizations.integration.ftp.password": [
     {
       "type": 0,
-      "value": "Password"
+      "value": "Contraseña"
     }
   ],
   "ui-organizations.integration.ftp.serverAddress": [
     {
       "type": 0,
-      "value": "Server address"
+      "value": "Dirección del servidor"
     }
   ],
   "ui-organizations.integration.ftp.username": [
     {
       "type": 0,
-      "value": "Username"
+      "value": "Nombre de usuario"
     }
   ],
   "ui-organizations.integration.info": [
     {
       "type": 0,
-      "value": "Integration information"
+      "value": "Información sobre la integración"
     }
   ],
   "ui-organizations.integration.info.configDescription": [
     {
       "type": 0,
-      "value": "Description"
+      "value": "Descripción"
     }
   ],
   "ui-organizations.integration.info.configName": [
     {
       "type": 0,
-      "value": "Integration name"
+      "value": "Nombre de la integración"
     }
   ],
   "ui-organizations.integration.info.isDefaultConfig": [
     {
       "type": 0,
-      "value": "Default integration"
+      "value": "Integración por defecto"
     }
   ],
   "ui-organizations.integration.message.delete.error": [
     {
       "type": 0,
-      "value": "The integration was not "
+      "value": "La integración no se ha "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "deleted"
+          "value": "suprimido"
         }
       ],
       "type": 8,
@@ -101017,101 +101043,105 @@
   "ui-organizations.integration.message.delete.success": [
     {
       "type": 0,
-      "value": "The integration was successfully "
+      "value": "La integración se ha "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "deleted"
+          "value": "eliminado"
         }
       ],
       "type": 8,
       "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " correctamente"
     }
   ],
   "ui-organizations.integration.message.save.error": [
     {
       "type": 0,
-      "value": "Integration could not be saved"
+      "value": "No se pudo salvar la integración"
     }
   ],
   "ui-organizations.integration.message.save.success": [
     {
       "type": 0,
-      "value": "Integration was saved"
+      "value": "Se salvó la integración"
     }
   ],
   "ui-organizations.integration.scheduling": [
     {
       "type": 0,
-      "value": "Scheduling"
+      "value": "Programación"
     }
   ],
   "ui-organizations.integration.scheduling.scheduleDate": [
     {
       "type": 0,
-      "value": "Date"
+      "value": "Fecha"
     }
   ],
   "ui-organizations.integration.scheduling.scheduleDay": [
     {
       "type": 0,
-      "value": "Day"
+      "value": "Día"
     }
   ],
   "ui-organizations.integration.scheduling.scheduleEDI": [
     {
       "type": 0,
-      "value": "Schedule EDI"
+      "value": "Programar EDI"
     }
   ],
   "ui-organizations.integration.scheduling.scheduleFrequency": [
     {
       "type": 0,
-      "value": "Schedule frequency"
+      "value": "Frecuencia de programación"
     }
   ],
   "ui-organizations.integration.scheduling.schedulePeriod": [
     {
       "type": 0,
-      "value": "Schedule period"
+      "value": "Período de programación"
     }
   ],
   "ui-organizations.integration.scheduling.schedulePeriod.days": [
     {
       "type": 0,
-      "value": "Daily"
+      "value": "Diario"
     }
   ],
   "ui-organizations.integration.scheduling.schedulePeriod.hours": [
     {
       "type": 0,
-      "value": "Hourly"
+      "value": "Cada hora"
     }
   ],
   "ui-organizations.integration.scheduling.schedulePeriod.months": [
     {
       "type": 0,
-      "value": "Monthly"
+      "value": "Mensualmente"
     }
   ],
   "ui-organizations.integration.scheduling.schedulePeriod.none": [
     {
       "type": 0,
-      "value": "Please select schedule period"
+      "value": "Seleccione el período de programación"
     }
   ],
   "ui-organizations.integration.scheduling.schedulePeriod.weeks": [
     {
       "type": 0,
-      "value": "Weekly"
+      "value": "Semanalmente"
     }
   ],
   "ui-organizations.integration.scheduling.scheduleTime": [
     {
       "type": 0,
-      "value": "Time"
+      "value": "Hora"
     }
   ],
   "ui-organizations.integration.scheduling.scheduleWeekdays.FRIDAY": [
@@ -101159,49 +101189,49 @@
   "ui-organizations.integration.scheduling.scheduleWeekdaysView.FRIDAY": [
     {
       "type": 0,
-      "value": "Friday"
+      "value": "Viernes"
     }
   ],
   "ui-organizations.integration.scheduling.scheduleWeekdaysView.MONDAY": [
     {
       "type": 0,
-      "value": "Monday"
+      "value": "Lunes"
     }
   ],
   "ui-organizations.integration.scheduling.scheduleWeekdaysView.SATURDAY": [
     {
       "type": 0,
-      "value": "Saturday"
+      "value": "Sábado"
     }
   ],
   "ui-organizations.integration.scheduling.scheduleWeekdaysView.SUNDAY": [
     {
       "type": 0,
-      "value": "Sunday"
+      "value": "Domingo"
     }
   ],
   "ui-organizations.integration.scheduling.scheduleWeekdaysView.THURSDAY": [
     {
       "type": 0,
-      "value": "Thursday"
+      "value": "Jueves"
     }
   ],
   "ui-organizations.integration.scheduling.scheduleWeekdaysView.TUESDAY": [
     {
       "type": 0,
-      "value": "Tuesday"
+      "value": "Martes"
     }
   ],
   "ui-organizations.integration.scheduling.scheduleWeekdaysView.WEDNESDAY": [
     {
       "type": 0,
-      "value": "Wednesday"
+      "value": "Miércoles"
     }
   ],
   "ui-organizations.integrationDetails": [
     {
       "type": 0,
-      "value": "Integration details"
+      "value": "Detalles de la integración"
     }
   ],
   "ui-organizations.interface": [
@@ -101213,7 +101243,7 @@
   "ui-organizations.interface.add": [
     {
       "type": 0,
-      "value": "Añadir"
+      "value": "+ Adicionar"
     }
   ],
   "ui-organizations.interface.addInterface": [
@@ -101297,13 +101327,13 @@
   "ui-organizations.interface.create.paneTitle": [
     {
       "type": 0,
-      "value": "Crear interfaz"
+      "value": "Crear una interfaz"
     }
   ],
   "ui-organizations.interface.deliveryMethod": [
     {
       "type": 0,
-      "value": "Forma de entrega"
+      "value": "Métodos de entrega"
     }
   ],
   "ui-organizations.interface.edit.paneTitle": [
@@ -101319,7 +101349,7 @@
   "ui-organizations.interface.locallyStored": [
     {
       "type": 0,
-      "value": "Almacenamiento local"
+      "value": "Almacenado localmente"
     }
   ],
   "ui-organizations.interface.message.delete.fail": [
@@ -101361,13 +101391,13 @@
   "ui-organizations.interface.noFindInterfacePlugin": [
     {
       "type": 0,
-      "value": "sin plugin de interfaz de búsqueda"
+      "value": "Sin plugin de interfaz de búsqueda"
     }
   ],
   "ui-organizations.interface.noInterfaceAvail": [
     {
       "type": 0,
-      "value": "No hay datos de interfaz disponibles"
+      "value": "No se dispone de datos de la interfaz"
     }
   ],
   "ui-organizations.interface.notes": [
@@ -101379,7 +101409,7 @@
   "ui-organizations.interface.onlineLocation": [
     {
       "type": 0,
-      "value": "Ubicación en línea"
+      "value": "Localización"
     }
   ],
   "ui-organizations.interface.password": [
@@ -101391,13 +101421,13 @@
   "ui-organizations.interface.pleaseAddInterface": [
     {
       "type": 0,
-      "value": "Por favor, añada interfaz"
+      "value": "Crear una interfaz"
     }
   ],
   "ui-organizations.interface.remove": [
     {
       "type": 0,
-      "value": "Quitar"
+      "value": "Borrar"
     }
   ],
   "ui-organizations.interface.statistics": [
@@ -101409,13 +101439,13 @@
   "ui-organizations.interface.statisticsFormat": [
     {
       "type": 0,
-      "value": "Formato de las estadísticas"
+      "value": "Nota estadísticas"
     }
   ],
   "ui-organizations.interface.statisticsNotes": [
     {
       "type": 0,
-      "value": "Notas estadísticas"
+      "value": "Nota estadísticas"
     }
   ],
   "ui-organizations.interface.type": [
@@ -101445,61 +101475,61 @@
   "ui-organizations.linkedAgreements.agreement.agreementStatus": [
     {
       "type": 0,
-      "value": "Agreement status"
+      "value": "Estado del acuerdo"
     }
   ],
   "ui-organizations.linkedAgreements.agreement.agreementStatus.active": [
     {
       "type": 0,
-      "value": "Active"
+      "value": "Activo"
     }
   ],
   "ui-organizations.linkedAgreements.agreement.agreementStatus.closed": [
     {
       "type": 0,
-      "value": "Closed"
+      "value": "Cerrado"
     }
   ],
   "ui-organizations.linkedAgreements.agreement.agreementStatus.draft": [
     {
       "type": 0,
-      "value": "Draft"
+      "value": "Borrador"
     }
   ],
   "ui-organizations.linkedAgreements.agreement.agreementStatus.in_negotiation": [
     {
       "type": 0,
-      "value": "In negotiation"
+      "value": "En negociación"
     }
   ],
   "ui-organizations.linkedAgreements.agreement.agreementStatus.requested": [
     {
       "type": 0,
-      "value": "Requested"
+      "value": "Solicitado"
     }
   ],
   "ui-organizations.linkedAgreements.agreement.endDate": [
     {
       "type": 0,
-      "value": "Period End"
+      "value": "Fin de periodo"
     }
   ],
   "ui-organizations.linkedAgreements.agreement.name": [
     {
       "type": 0,
-      "value": "Agreement Name"
+      "value": "Nombre del acuerdo"
     }
   ],
   "ui-organizations.linkedAgreements.agreement.startDate": [
     {
       "type": 0,
-      "value": "Period start"
+      "value": "Inicio del período"
     }
   ],
   "ui-organizations.linkedAgreements.section": [
     {
       "type": 0,
-      "value": "Agreements"
+      "value": "Acuerdos"
     }
   ],
   "ui-organizations.main.code": [
@@ -101541,7 +101571,7 @@
   "ui-organizations.main.vendorStatus": [
     {
       "type": 0,
-      "value": "Estado del proveedor"
+      "value": "Estado de la organización"
     }
   ],
   "ui-organizations.meta.title": [
@@ -101565,13 +101595,13 @@
   "ui-organizations.organization.delete.confirmLabel": [
     {
       "type": 0,
-      "value": "Eliminar"
+      "value": "Borrar"
     }
   ],
   "ui-organizations.organization.delete.heading": [
     {
       "type": 0,
-      "value": "¿Eliminar "
+      "value": "¿Borrar "
     },
     {
       "type": 1,
@@ -101579,7 +101609,7 @@
     },
     {
       "type": 0,
-      "value": " ?"
+      "value": "?"
     }
   ],
   "ui-organizations.organization.delete.success": [
@@ -101641,13 +101671,13 @@
   "ui-organizations.permission.acqUnits.assign": [
     {
       "type": 0,
-      "value": "Organizations: Assign acquisition units to new organization"
+      "value": "Organizaciones: Asignar unidades de adquisición a la nueva organización"
     }
   ],
   "ui-organizations.permission.acqUnits.manage": [
     {
       "type": 0,
-      "value": "Organizations: Manage acquisition units"
+      "value": "Organizaciones: Gestionar unidades de adquisición"
     }
   ],
   "ui-organizations.permission.banking-information.create": [
@@ -101677,43 +101707,43 @@
   "ui-organizations.permission.create": [
     {
       "type": 0,
-      "value": "Organizations: View, edit, create"
+      "value": "Organizaciones: Ver, editar, crear"
     }
   ],
   "ui-organizations.permission.creds.manage": [
     {
       "type": 0,
-      "value": "Organizations: Interface usernames and passwords: view, edit, create, delete"
+      "value": "Organizaciones: Nombres de usuario y contraseñas de la interfaz: ver, editar, crear, eliminar"
     }
   ],
   "ui-organizations.permission.creds.view": [
     {
       "type": 0,
-      "value": "Organizations: Interface usernames and passwords: view"
+      "value": "Organizaciones: Nombres de usuario y contraseñas de la interfaz: ver"
     }
   ],
   "ui-organizations.permission.delete": [
     {
       "type": 0,
-      "value": "Organizations: View, edit, delete"
+      "value": "Organizaciones: Ver, editar, eliminar"
     }
   ],
   "ui-organizations.permission.edit": [
     {
       "type": 0,
-      "value": "Organizations: View, edit"
+      "value": "Organizaciones: Ver, editar"
     }
   ],
   "ui-organizations.permission.integrations.creds.edit": [
     {
       "type": 0,
-      "value": "Organizations: Integration usernames and passwords: view, edit"
+      "value": "Organizaciones: Integración de nombres de usuario y contraseñas: ver, editar"
     }
   ],
   "ui-organizations.permission.integrations.creds.view": [
     {
       "type": 0,
-      "value": "Organizations: Integration usernames and passwords: view"
+      "value": "Organizaciones: Integración de nombres de usuario y contraseñas: ver"
     }
   ],
   "ui-organizations.permission.privileged-contacts.edit": [
@@ -101731,19 +101761,19 @@
   "ui-organizations.permission.settings": [
     {
       "type": 0,
-      "value": "Settings (Organizations): Can view and edit settings"
+      "value": "Configuración (Organizaciones): Puede ver y editar los ajustes"
     }
   ],
   "ui-organizations.permission.settings.view": [
     {
       "type": 0,
-      "value": "Settings (Organizations): View settings"
+      "value": "Ajustes (Organizaciones): Ver configuración"
     }
   ],
   "ui-organizations.permission.view": [
     {
       "type": 0,
-      "value": "Organizations: View"
+      "value": "Organizaciones: Ver"
     }
   ],
   "ui-organizations.primaryItem": [
@@ -101796,13 +101826,13 @@
   "ui-organizations.save.error.accountNumberMustBeUnique": [
     {
       "type": 0,
-      "value": "An organization can not have duplicate account numbers"
+      "value": "Una organización no puede tener números de cuenta duplicados"
     }
   ],
   "ui-organizations.save.error.assignInterface": [
     {
       "type": 0,
-      "value": "Error while assigning interface to the organization"
+      "value": "Error al asignar la interfaz a la organización"
     }
   ],
   "ui-organizations.save.error.codeInUse": [
@@ -101814,7 +101844,7 @@
   "ui-organizations.save.error.creds": [
     {
       "type": 0,
-      "value": "Error while saving credentials"
+      "value": "Error al guardar credenciales"
     }
   ],
   "ui-organizations.save.error.genericError": [
@@ -101826,13 +101856,13 @@
   "ui-organizations.save.success": [
     {
       "type": 0,
-      "value": "The "
+      "value": "La "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Organization - \""
+          "value": "Organización - \""
         },
         {
           "type": 1,
@@ -101848,23 +101878,27 @@
     },
     {
       "type": 0,
-      "value": " has been successfully "
+      "value": " se ha "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "saved"
+          "value": "guardado"
         }
       ],
       "type": 8,
       "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " correctamente"
     }
   ],
   "ui-organizations.search": [
     {
       "type": 0,
-      "value": "Búsqueda"
+      "value": "Buscar"
     }
   ],
   "ui-organizations.search.aliases": [
@@ -101924,13 +101958,13 @@
   "ui-organizations.search.placeholder.language": [
     {
       "type": 0,
-      "value": "Search with language code"
+      "value": "Búsqueda por código lenguaje"
     }
   ],
   "ui-organizations.search.taxId": [
     {
       "type": 0,
-      "value": "ID de impuesto"
+      "value": "Impuesto no."
     }
   ],
   "ui-organizations.settings.accountTypes.action": [
@@ -101972,7 +102006,7 @@
   "ui-organizations.settings.action": [
     {
       "type": 0,
-      "value": "acciones"
+      "value": "Acciones"
     }
   ],
   "ui-organizations.settings.bankingAccountTypes": [
@@ -101990,7 +102024,7 @@
   "ui-organizations.settings.bankingAccountTypes.cannotDeleteTermMessage": [
     {
       "type": 0,
-      "value": "This account type cannot be deleted, as it is in use by one or more records."
+      "value": "Unable to delete. Account type is in use by one or more organizations."
     }
   ],
   "ui-organizations.settings.bankingAccountTypes.deleteEntry": [
@@ -102080,31 +102114,39 @@
   "ui-organizations.settings.categories.cannotDeleteTermHeader": [
     {
       "type": 0,
-      "value": "Cannot delete category"
+      "value": "No se puede eliminar la categoría"
     }
   ],
   "ui-organizations.settings.categories.cannotDeleteTermMessage": [
     {
       "type": 0,
-      "value": "This category cannot be deleted, as it is in use by one or more records."
+      "value": "Esta categoría no se puede eliminar, ya que está en uso por uno o más registros."
     }
   ],
   "ui-organizations.settings.categories.deleteEntry": [
     {
       "type": 0,
-      "value": "Delete category"
+      "value": "Eliminar categoría"
     }
   ],
   "ui-organizations.settings.categories.termDeleted": [
     {
       "type": 0,
-      "value": "The category "
+      "value": "La categoría "
     },
     {
       "children": [
         {
+          "type": 0,
+          "value": " "
+        },
+        {
           "type": 1,
           "value": "term"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -102112,29 +102154,41 @@
     },
     {
       "type": 0,
-      "value": " was successfully "
+      "value": " se "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "deleted"
+          "value": " eliminó "
         }
       ],
       "type": 8,
       "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " con éxito"
     }
   ],
   "ui-organizations.settings.categories.termWillBeDeleted": [
     {
       "type": 0,
-      "value": "The category "
+      "value": "La categoría "
     },
     {
       "children": [
         {
+          "type": 0,
+          "value": " "
+        },
+        {
           "type": 1,
           "value": "term"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -102142,13 +102196,13 @@
     },
     {
       "type": 0,
-      "value": " will be "
+      "value": " se "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "deleted."
+          "value": " eliminará. "
         }
       ],
       "type": 8,
@@ -102158,67 +102212,67 @@
   "ui-organizations.settings.name": [
     {
       "type": 0,
-      "value": "nombre"
+      "value": "Nombre"
     }
   ],
   "ui-organizations.settings.type": [
     {
       "type": 0,
-      "value": "Type"
+      "value": "Tipo"
     }
   ],
   "ui-organizations.settings.type.name": [
     {
       "type": 0,
-      "value": "Name"
+      "value": "Nombre"
     }
   ],
   "ui-organizations.settings.type.status": [
     {
       "type": 0,
-      "value": "Status"
+      "value": "Estado"
     }
   ],
   "ui-organizations.settings.typeStatus.Active": [
     {
       "type": 0,
-      "value": "Active"
+      "value": "Activo"
     }
   ],
   "ui-organizations.settings.typeStatus.Inactive": [
     {
       "type": 0,
-      "value": "Inactive"
+      "value": "Inactivo"
     }
   ],
   "ui-organizations.settings.types": [
     {
       "type": 0,
-      "value": "Types"
+      "value": "Tipos"
     }
   ],
   "ui-organizations.settings.types.cannotDeleteTermHeader": [
     {
       "type": 0,
-      "value": "Cannot delete type"
+      "value": "No se puede eliminar el tipo"
     }
   ],
   "ui-organizations.settings.types.cannotDeleteTermMessage": [
     {
       "type": 0,
-      "value": "This type cannot be deleted, as it is in use by one or more records."
+      "value": "Este tipo no puede eliminarse, ya que está siendo utilizado por uno o varios registros."
     }
   ],
   "ui-organizations.settings.types.deleteEntry": [
     {
       "type": 0,
-      "value": "Delete type"
+      "value": "Borrar tipo"
     }
   ],
   "ui-organizations.settings.types.termDeleted": [
     {
       "type": 0,
-      "value": "The type "
+      "value": "El tipo "
     },
     {
       "children": [
@@ -102232,23 +102286,41 @@
     },
     {
       "type": 0,
-      "value": " was successfully "
+      "value": " se ha "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "deleted"
+          "value": "eliminado"
         }
       ],
       "type": 8,
       "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " correctamente"
     }
   ],
   "ui-organizations.settings.types.termWillBeDeleted": [
     {
       "type": 0,
-      "value": "The type "
+      "value": "Se "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "eliminará"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " el tipo "
     },
     {
       "children": [
@@ -102262,13 +102334,13 @@
     },
     {
       "type": 0,
-      "value": " will be "
+      "value": " "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "deleted."
+          "value": "."
         }
       ],
       "type": 8,
@@ -102278,7 +102350,7 @@
   "ui-organizations.settings.vendorSettings": [
     {
       "type": 0,
-      "value": "Ajustes del proveedor"
+      "value": "Configuración de organizaciones"
     }
   ],
   "ui-organizations.showMore": [
@@ -102308,7 +102380,7 @@
   "ui-organizations.summary.add": [
     {
       "type": 0,
-      "value": "+ Añadir"
+      "value": "Agregar nombres alternativos"
     }
   ],
   "ui-organizations.summary.alias": [
@@ -102320,7 +102392,7 @@
   "ui-organizations.summary.alternativeNames": [
     {
       "type": 0,
-      "value": "Nombres alternativos"
+      "value": "Nombres Alternativos"
     }
   ],
   "ui-organizations.summary.code": [
@@ -102368,19 +102440,19 @@
   "ui-organizations.summary.pleaseAddAltNames": [
     {
       "type": 0,
-      "value": "Ppor favor, añade nombres alternativos"
+      "value": "Agrega nombres alternativos"
     }
   ],
   "ui-organizations.summary.remove": [
     {
       "type": 0,
-      "value": "Suprimir"
+      "value": "Borrar"
     }
   ],
   "ui-organizations.summary.type": [
     {
       "type": 0,
-      "value": "Type"
+      "value": "Tipo"
     }
   ],
   "ui-organizations.vendor.confirmation.confirm": [
@@ -102404,7 +102476,7 @@
   "ui-organizations.vendorInfo.claimingInterval": [
     {
       "type": 0,
-      "value": "Intervalo de reclamo"
+      "value": "Intervalo de reclamación"
     }
   ],
   "ui-organizations.vendorInfo.discountPercent": [
@@ -102416,13 +102488,13 @@
   "ui-organizations.vendorInfo.expectedActivationInterval": [
     {
       "type": 0,
-      "value": "Intervalo de activación esperado"
+      "value": "Intervalo de activación previsto"
     }
   ],
   "ui-organizations.vendorInfo.expectedInvoiceInterval": [
     {
       "type": 0,
-      "value": "Intervalo de factura esperado"
+      "value": "Intervalo de facturación esperado"
     }
   ],
   "ui-organizations.vendorInfo.expectedReceiptInterval": [
@@ -102470,13 +102542,13 @@
   "ui-organizations.vendorInfo.taxID": [
     {
       "type": 0,
-      "value": "ID de impuesto"
+      "value": "Identificación fiscal"
     }
   ],
   "ui-organizations.vendorInfo.taxPercentage": [
     {
       "type": 0,
-      "value": "Porcentaje de impuesto"
+      "value": "Porcentaje del impuesto"
     }
   ],
   "ui-organizations.vendorInfo.vendorCurrencies": [
@@ -102488,7 +102560,7 @@
   "ui-organizations.vendorInformation": [
     {
       "type": 0,
-      "value": "Información de proveedor"
+      "value": "Informacion del proveedor"
     }
   ],
   "ui-organizations.vendorTerms": [
@@ -102500,13 +102572,13 @@
   "ui-organizations.view.delete": [
     {
       "type": 0,
-      "value": "Eliminar"
+      "value": "Borrar"
     }
   ],
   "ui-organizations.view.delete.message": [
     {
       "type": 0,
-      "value": "¿Eliminar organización?"
+      "value": "¿Borrar la organización?"
     }
   ],
   "ui-organizations.view.details": [
@@ -102518,7 +102590,7 @@
   "ui-organizations.view.duplicateAccounts": [
     {
       "type": 0,
-      "value": "An organization can not have duplicate account numbers. Before editing this organization in any way you will need to change or remove any duplicate account numbers"
+      "value": "Una organización no puede tener números de cuenta duplicados. Antes de editar esta organización, deberá cambiar o eliminar los números de cuenta duplicados."
     }
   ],
   "ui-organizations.view.edit": [
@@ -102536,7 +102608,7 @@
   "ui-organizations.view.exportLog": [
     {
       "type": 0,
-      "value": "View export log"
+      "value": "Ver el registro de exportación"
     }
   ],
   "ui-plugin-bursar-export.bursarExports": [
@@ -105449,7 +105521,7 @@
   "ui-plugin-find-import-profile.addProfile": [
     {
       "type": 0,
-      "value": "Añadir "
+      "value": "Adicionar "
     },
     {
       "type": 1,
@@ -105479,7 +105551,7 @@
   "ui-plugin-find-import-profile.confirmationModal.multiple.body": [
     {
       "type": 0,
-      "value": "One or more of these "
+      "value": "Uno o más de estos "
     },
     {
       "type": 1,
@@ -105487,7 +105559,7 @@
     },
     {
       "type": 0,
-      "value": "s is already linked to other "
+      "value": "s ya están vinculados a otros "
     },
     {
       "type": 1,
@@ -105495,7 +105567,7 @@
     },
     {
       "type": 0,
-      "value": "(s). Do you want to unlink from the previous "
+      "value": "(s). ¿Desea desvincular del "
     },
     {
       "type": 1,
@@ -105503,7 +105575,7 @@
     },
     {
       "type": 0,
-      "value": "(s) and relink to this "
+      "value": "(s) anterior y volver a vincular a este "
     },
     {
       "children": [
@@ -105531,13 +105603,13 @@
   "ui-plugin-find-import-profile.confirmationModal.notAttached.body": [
     {
       "type": 0,
-      "value": "You must link a field mapping profile to the action profile before assigning the action profile to a job profile"
+      "value": "Debe vincular un perfil de asignación de campos al perfil de acción antes de asignar el perfil de acción a un perfil de trabajo"
     }
   ],
   "ui-plugin-find-import-profile.confirmationModal.notAttached.heading": [
     {
       "type": 0,
-      "value": "Action profile not attached"
+      "value": "Perfil de acción no adjunto"
     }
   ],
   "ui-plugin-find-import-profile.confirmationModal.note": [
@@ -105571,7 +105643,7 @@
   "ui-plugin-find-import-profile.confirmationModal.ok": [
     {
       "type": 0,
-      "value": "Ok"
+      "value": "DE ACUERDO"
     }
   ],
   "ui-plugin-find-import-profile.confirmationModal.single.body": [
@@ -105713,7 +105785,7 @@
   "ui-plugin-find-import-profile.modal.title": [
     {
       "type": 0,
-      "value": "Seleccione "
+      "value": "Seleccionar "
     },
     {
       "type": 1,
@@ -106467,13 +106539,13 @@
   "ui-plugin-find-package-title.modal.label.package": [
     {
       "type": 0,
-      "value": "Select package"
+      "value": "Seleccionar paquete"
     }
   ],
   "ui-plugin-find-package-title.modal.label.title": [
     {
       "type": 0,
-      "value": "Select title"
+      "value": "Seleccionar título"
     }
   ],
   "ui-plugin-find-package-title.resultsPane.emptyMessage": [
@@ -106497,25 +106569,25 @@
   "ui-plugin-find-package-title.resultsPane.noTitlesFound": [
     {
       "type": 0,
-      "value": "No titles found."
+      "value": "No se encontraron títulos."
     }
   ],
   "ui-plugin-find-package-title.resultsPane.packageName": [
     {
       "type": 0,
-      "value": "Package"
+      "value": "Paquete"
     }
   ],
   "ui-plugin-find-package-title.resultsPane.publicationType": [
     {
       "type": 0,
-      "value": "Type"
+      "value": "Tipo"
     }
   ],
   "ui-plugin-find-package-title.resultsPane.publisher": [
     {
       "type": 0,
-      "value": "Publisher"
+      "value": "Editorial"
     }
   ],
   "ui-plugin-find-package-title.resultsPane.resultsCount": [
@@ -106562,7 +106634,7 @@
   "ui-plugin-find-package-title.resultsPane.select": [
     {
       "type": 0,
-      "value": "Select "
+      "value": "Seleccione "
     },
     {
       "type": 1,
@@ -106572,7 +106644,7 @@
   "ui-plugin-find-package-title.resultsPane.selectPackage": [
     {
       "type": 0,
-      "value": "Select package "
+      "value": "Seleccionar paquete "
     },
     {
       "type": 1,
@@ -106582,7 +106654,7 @@
   "ui-plugin-find-package-title.resultsPane.selectTitle": [
     {
       "type": 0,
-      "value": "Select title "
+      "value": "Seleccionar título "
     },
     {
       "type": 1,
@@ -106610,7 +106682,7 @@
   "ui-plugin-find-package-title.resultsPane.title": [
     {
       "type": 0,
-      "value": "Title"
+      "value": "Título"
     }
   ],
   "ui-plugin-find-package-title.resultsPane.titlesSelected": [
@@ -106622,7 +106694,7 @@
   "ui-plugin-find-package-title.resultsPane.totalSelected.count": [
     {
       "type": 0,
-      "value": "Titles selected: "
+      "value": "Títulos seleccionados: "
     },
     {
       "type": 1,
@@ -106686,7 +106758,7 @@
   "ui-plugin-find-package-title.searchPane.filters.contentType.mixedContent": [
     {
       "type": 0,
-      "value": "Mixed Content"
+      "value": "Contenido mixto"
     }
   ],
   "ui-plugin-find-package-title.searchPane.filters.contentType.onlineRef": [
@@ -106704,7 +106776,7 @@
   "ui-plugin-find-package-title.searchPane.filters.contentType.streamingMedia": [
     {
       "type": 0,
-      "value": "Streaming Media"
+      "value": "Streaming multimedia"
     }
   ],
   "ui-plugin-find-package-title.searchPane.filters.contentType.unknown": [
@@ -106716,97 +106788,97 @@
   "ui-plugin-find-package-title.searchPane.filters.publicationType": [
     {
       "type": 0,
-      "value": "Publication type"
+      "value": "Tipo de publicación"
     }
   ],
   "ui-plugin-find-package-title.searchPane.filters.publicationType.all": [
     {
       "type": 0,
-      "value": "All"
+      "value": "Todos"
     }
   ],
   "ui-plugin-find-package-title.searchPane.filters.publicationType.audiobook": [
     {
       "type": 0,
-      "value": "Audiobook"
+      "value": "Audiolibro"
     }
   ],
   "ui-plugin-find-package-title.searchPane.filters.publicationType.book": [
     {
       "type": 0,
-      "value": "Book"
+      "value": "Libro"
     }
   ],
   "ui-plugin-find-package-title.searchPane.filters.publicationType.bookSeries": [
     {
       "type": 0,
-      "value": "Book Series"
+      "value": "Serie de libros"
     }
   ],
   "ui-plugin-find-package-title.searchPane.filters.publicationType.database": [
     {
       "type": 0,
-      "value": "Database"
+      "value": "Base de datos"
     }
   ],
   "ui-plugin-find-package-title.searchPane.filters.publicationType.journal": [
     {
       "type": 0,
-      "value": "Journal"
+      "value": "Revista"
     }
   ],
   "ui-plugin-find-package-title.searchPane.filters.publicationType.newsletter": [
     {
       "type": 0,
-      "value": "Newsletter"
+      "value": "Boletin informativo"
     }
   ],
   "ui-plugin-find-package-title.searchPane.filters.publicationType.newspaper": [
     {
       "type": 0,
-      "value": "Newspaper"
+      "value": "Periódico"
     }
   ],
   "ui-plugin-find-package-title.searchPane.filters.publicationType.proceedings": [
     {
       "type": 0,
-      "value": "Proceedings"
+      "value": "Actas"
     }
   ],
   "ui-plugin-find-package-title.searchPane.filters.publicationType.report": [
     {
       "type": 0,
-      "value": "Report"
+      "value": "Informe"
     }
   ],
   "ui-plugin-find-package-title.searchPane.filters.publicationType.streamingAudio": [
     {
       "type": 0,
-      "value": "Streaming audio"
+      "value": "Audio en streaming"
     }
   ],
   "ui-plugin-find-package-title.searchPane.filters.publicationType.streamingVideo": [
     {
       "type": 0,
-      "value": "Streaming video"
+      "value": "Vídeo en streaming"
     }
   ],
   "ui-plugin-find-package-title.searchPane.filters.publicationType.thesisAndDissertation": [
     {
       "type": 0,
-      "value": "Thesis & Dissertation"
+      "value": "Tesis y disertación"
     }
   ],
   "ui-plugin-find-package-title.searchPane.filters.publicationType.unspecified": [
     {
       "type": 0,
-      "value": "Unspecified"
+      "value": "Sin especificar"
     }
   ],
   "ui-plugin-find-package-title.searchPane.filters.publicationType.website": [
     {
       "type": 0,
-      "value": "Website"
+      "value": "Página web"
     }
   ],
   "ui-plugin-find-package-title.searchPane.filters.selectionStatus": [
@@ -106854,7 +106926,7 @@
   "ui-plugin-find-package-title.searchPane.filters.sortOptions.title": [
     {
       "type": 0,
-      "value": "Title"
+      "value": "Título"
     }
   ],
   "ui-plugin-find-package-title.searchPane.filters.tags": [
@@ -106890,7 +106962,7 @@
   "ui-plugin-find-package-title.searchPane.selectFieldToSearch": [
     {
       "type": 0,
-      "value": "Select a field to search"
+      "value": "Seleccione un campo para buscar"
     }
   ],
   "ui-plugin-find-package-title.searchPane.titleSearchField.isxn": [
@@ -106902,31 +106974,31 @@
   "ui-plugin-find-package-title.searchPane.titleSearchField.publisher": [
     {
       "type": 0,
-      "value": "Publisher"
+      "value": "Editor"
     }
   ],
   "ui-plugin-find-package-title.searchPane.titleSearchField.subject": [
     {
       "type": 0,
-      "value": "Subject"
+      "value": "Tema"
     }
   ],
   "ui-plugin-find-package-title.searchPane.titleSearchField.title": [
     {
       "type": 0,
-      "value": "Title"
+      "value": "Título"
     }
   ],
   "ui-plugin-find-package-title.searchTypes.package": [
     {
       "type": 0,
-      "value": "Packages"
+      "value": "Paquetes"
     }
   ],
   "ui-plugin-find-package-title.searchTypes.title": [
     {
       "type": 0,
-      "value": "Titles"
+      "value": "Títulos"
     }
   ],
   "ui-plugin-find-package-title.searchableEntity.package": [
@@ -129617,6 +129689,28 @@
       "value": "Detalles del ítem"
     }
   ],
+  "ui-users.keycloak.modal.confirmationHeading": [
+    {
+      "type": 0,
+      "value": "Keycloak user record"
+    }
+  ],
+  "ui-users.keycloak.modal.creation": [
+    {
+      "type": 0,
+      "value": "This operation will create new record in Keycloak for "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "user"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
   "ui-users.loading": [
     {
       "type": 0,
@@ -131781,6 +131875,18 @@
     }
   ],
   "ui-users.permission.patron-pre-registrations-view": [
+    {
+      "type": 0,
+      "value": "Users: Can view patron pre-registration data"
+    }
+  ],
+  "ui-users.permission.patron-pre-registrations.execute": [
+    {
+      "type": 0,
+      "value": "Users: Can merge patron preregistration data"
+    }
+  ],
+  "ui-users.permission.patron-pre-registrations.view": [
     {
       "type": 0,
       "value": "Users: Can view patron pre-registration data"
@@ -134781,6 +134887,18 @@
     {
       "type": 0,
       "value": "Activated"
+    }
+  ],
+  "ui-users.stagingRecords.duplicates.results.paneTitle": [
+    {
+      "type": 0,
+      "value": "Existing FOLIO user records"
+    }
+  ],
+  "ui-users.stagingRecords.duplicates.results.warning": [
+    {
+      "type": 0,
+      "value": "Please review existing FOLIO user records. Merging a preregistration record will replace corresponding fields in the FOLIO user record. Updates cannot be reverted."
     }
   ],
   "ui-users.stagingRecords.list.columnNames.action": [

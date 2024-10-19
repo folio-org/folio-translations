@@ -15069,7 +15069,7 @@
   "ui-agreements.agreementLines.agreementLineType": [
     {
       "type": 0,
-      "value": "Agreement line type"
+      "value": "Rodzaj pozycji umowy"
     }
   ],
   "ui-agreements.agreementLines.contentUpdated": [
@@ -15225,7 +15225,7 @@
   "ui-agreements.agreementLines.lineType": [
     {
       "type": 0,
-      "value": "Agreement line type"
+      "value": "Rodzaj pozycji umowy"
     }
   ],
   "ui-agreements.agreementLines.lineType.detached": [
@@ -16006,7 +16006,7 @@
   "ui-agreements.alternativeNames": [
     {
       "type": 0,
-      "value": "Wariant nazwy"
+      "value": "Warianty nazw"
     }
   ],
   "ui-agreements.appMenu.keyboardShortcuts": [
@@ -16350,7 +16350,7 @@
   "ui-agreements.customProperties.addProperty": [
     {
       "type": 0,
-      "value": "Add property"
+      "value": "Dodaj właściwość"
     }
   ],
   "ui-agreements.customProperties.category": [
@@ -17200,7 +17200,7 @@
   "ui-agreements.eresource.destinationTitle": [
     {
       "type": 0,
-      "value": "Destination title"
+      "value": "Tytuł docelowy"
     }
   ],
   "ui-agreements.eresource.destinationTitleSelectionText": [
@@ -17242,7 +17242,7 @@
   "ui-agreements.eresource.sourceTitle": [
     {
       "type": 0,
-      "value": "Source title"
+      "value": "Tytuł źródłowy"
     }
   ],
   "ui-agreements.eresource.sourceTitleSelectionText": [
@@ -17888,7 +17888,7 @@
   "ui-agreements.eresources.subType": [
     {
       "type": 0,
-      "value": "Material type"
+      "value": "Rodzaj materiału"
     }
   ],
   "ui-agreements.eresources.suppressFromDiscovery": [
@@ -18258,7 +18258,7 @@
   "ui-agreements.identifiers.identifierDestination": [
     {
       "type": 0,
-      "value": "Identifier destination"
+      "value": "Identyfikator docelowy"
     }
   ],
   "ui-agreements.identifiers.identifiersToMove": [
@@ -18757,7 +18757,7 @@
   "ui-agreements.moveIdentifiers.replaceTitle": [
     {
       "type": 0,
-      "value": "Replace Title"
+      "value": "Zmień tytuł"
     }
   ],
   "ui-agreements.moveIdentifiers.replaceTitleSpecific": [
@@ -18815,7 +18815,7 @@
   "ui-agreements.openAccessProperties.optionalProperties": [
     {
       "type": 0,
-      "value": "Optional properties"
+      "value": "Właściwości opcjonalne"
     }
   ],
   "ui-agreements.openAccessProperties.primaryProperties": [
@@ -18947,7 +18947,7 @@
   "ui-agreements.organizations.primary": [
     {
       "type": 0,
-      "value": "Główna organizacja"
+      "value": "Organizacja główna"
     }
   ],
   "ui-agreements.organizations.remove": [
@@ -20894,13 +20894,13 @@
   "ui-agreements.updatetitlesAndClose": [
     {
       "type": 0,
-      "value": "Update titles & close"
+      "value": "Aktualizuj tytuły i zamknij"
     }
   ],
   "ui-agreements.updatetitlesAndMoveMore": [
     {
       "type": 0,
-      "value": "Update titles & move more identifiers"
+      "value": "Aktualizuj tytuły i przenieś wszystkie identyfikatory"
     }
   ],
   "ui-agreements.usageData": [
@@ -21490,6 +21490,12 @@
       "value": "Kod kreskowy egzemplarza"
     }
   ],
+  "ui-bulk-edit.columns.HOLDINGS_RECORD.Member": [
+    {
+      "type": 0,
+      "value": "Member"
+    }
+  ],
   "ui-bulk-edit.columns.HOLDINGS_RECORD.Notes": [
     {
       "type": 0,
@@ -22076,6 +22082,12 @@
     {
       "type": 0,
       "value": "Material type"
+    }
+  ],
+  "ui-bulk-edit.columns.ITEM.Member": [
+    {
+      "type": 0,
+      "value": "Member"
     }
   ],
   "ui-bulk-edit.columns.ITEM.Missing Peaces": [
@@ -38868,7 +38880,7 @@
     },
     {
       "type": 0,
-      "value": ": The logged in user does not exist as a user on this dashboard. Access is being granted through a high level system permission (via \"ui-dashboard.dashboards.admin.manage\")."
+      "value": ": The logged in user does not exist as a user on this dashboard. Access is being granted through a high level system permission (Okapi gateway permission \"servint.dashboard.admin\")."
     }
   ],
   "ui-dashboard.dashboardUsers.addUser": [
@@ -61598,7 +61610,7 @@
   "ui-export-manager.title.organizations": [
     {
       "type": 0,
-      "value": "Organizations"
+      "value": "Organizacje"
     }
   ],
   "ui-finance.actions.edit": [
@@ -65505,7 +65517,7 @@
   "ui-gobi-settings.order.mappings.accordion.relatedAgreements": [
     {
       "type": 0,
-      "value": "Related agreements"
+      "value": "Powiązane umowy"
     }
   ],
   "ui-gobi-settings.order.mappings.field.accessProvider": [
@@ -80844,7 +80856,7 @@
   "ui-licenses.alternativeNames": [
     {
       "type": 0,
-      "value": "Wariant nazwy"
+      "value": "Warianty nazw"
     }
   ],
   "ui-licenses.amendment": [
@@ -82328,7 +82340,7 @@
   "ui-licenses.organizations.primary": [
     {
       "type": 0,
-      "value": "Główna organizacja"
+      "value": "Organizacja główna"
     }
   ],
   "ui-licenses.organizations.selectRole": [
@@ -90034,7 +90046,7 @@
   "ui-oa.journal.instance.subType.electronic": [
     {
       "type": 0,
-      "value": "Electronic"
+      "value": "Elektroniczny"
     }
   ],
   "ui-oa.journal.instance.subType.print": [
@@ -101476,7 +101488,7 @@
   "ui-organizations.main.isVendor": [
     {
       "type": 0,
-      "value": "Sprzedawca"
+      "value": "Dostawca"
     }
   ],
   "ui-organizations.main.isVendor.no": [
@@ -101941,7 +101953,7 @@
   "ui-organizations.settings.bankingAccountTypes.cannotDeleteTermMessage": [
     {
       "type": 0,
-      "value": "This account type cannot be deleted, as it is in use by one or more records."
+      "value": "Unable to delete. Account type is in use by one or more organizations."
     }
   ],
   "ui-organizations.settings.bankingAccountTypes.deleteEntry": [
@@ -102271,7 +102283,7 @@
   "ui-organizations.summary.alternativeNames": [
     {
       "type": 0,
-      "value": "Wariant nazwy"
+      "value": "Warianty nazw"
     }
   ],
   "ui-organizations.summary.code": [
@@ -102301,7 +102313,7 @@
   "ui-organizations.summary.isVendor": [
     {
       "type": 0,
-      "value": "Sprzedawca"
+      "value": "Dostawca"
     }
   ],
   "ui-organizations.summary.name": [
@@ -103423,7 +103435,7 @@
   "ui-plugin-bursar-export.bursarExports.token.itemInfo.name": [
     {
       "type": 0,
-      "value": "Name"
+      "value": "Nazwa"
     }
   ],
   "ui-plugin-bursar-export.bursarExports.token.newline": [
@@ -103946,7 +103958,7 @@
   "ui-plugin-eusage-reports.accordion.label": [
     {
       "type": 0,
-      "value": "eUsage reports"
+      "value": "Raporty e-Użycia"
     }
   ],
   "ui-plugin-eusage-reports.action.edit": [
@@ -104072,7 +104084,7 @@
   "ui-plugin-eusage-reports.button.analyze-agreement": [
     {
       "type": 0,
-      "value": "Analyze agreement"
+      "value": "Analizuj umowę"
     }
   ],
   "ui-plugin-eusage-reports.button.analyze-agreement.completed": [
@@ -104466,7 +104478,7 @@
   "ui-plugin-eusage-reports.report-form.count-type": [
     {
       "type": 0,
-      "value": "Count type"
+      "value": "Typ zliczania"
     }
   ],
   "ui-plugin-eusage-reports.report-form.count-type.total": [
@@ -104484,7 +104496,7 @@
   "ui-plugin-eusage-reports.report-form.end-month": [
     {
       "type": 0,
-      "value": "End month"
+      "value": "Miesiąc zakończenia"
     }
   ],
   "ui-plugin-eusage-reports.report-form.format": [
@@ -104514,7 +104526,7 @@
   "ui-plugin-eusage-reports.report-form.include-oa": [
     {
       "type": 0,
-      "value": "Include Open Access use?"
+      "value": "Czy uwzględnić użycie Open Access?"
     }
   ],
   "ui-plugin-eusage-reports.report-form.include-oa.no": [
@@ -104614,7 +104626,7 @@
   "ui-plugin-eusage-reports.report-form.report.cost-per-use.left-picker": [
     {
       "type": 0,
-      "value": "Scale: Select interval for period of use"
+      "value": "Skala: wybierz interwał dla okresu użycia"
     }
   ],
   "ui-plugin-eusage-reports.report-form.report.cost-per-use.right-picker": [
@@ -104644,7 +104656,7 @@
   "ui-plugin-eusage-reports.report-form.report.requests-by-date-of-use.left-picker": [
     {
       "type": 0,
-      "value": "Scale: Select interval for period of use"
+      "value": "Skala: wybierz interwał dla okresu użycia"
     }
   ],
   "ui-plugin-eusage-reports.report-form.report.requests-by-date-of-use.right-picker": [
@@ -104704,7 +104716,7 @@
   "ui-plugin-eusage-reports.report-form.report.use-over-time.left-picker": [
     {
       "type": 0,
-      "value": "Scale: Select interval for period of use"
+      "value": "Skala: wybierz interwał dla okresu użycia"
     }
   ],
   "ui-plugin-eusage-reports.report-form.report.use-over-time.right-picker": [
@@ -104728,7 +104740,7 @@
   "ui-plugin-eusage-reports.report-form.start-month": [
     {
       "type": 0,
-      "value": "Start month"
+      "value": "Miesiąc rozpoczęcia"
     }
   ],
   "ui-plugin-eusage-reports.report-form.yop-interval": [
@@ -107817,7 +107829,7 @@
   "ui-quick-marc.leader.Serial": [
     {
       "type": 0,
-      "value": "Serial"
+      "value": "Wydawnictwo ciągłe"
     }
   ],
   "ui-quick-marc.leader.Serial component part": [
@@ -108306,18 +108318,8 @@
   ],
   "ui-quick-marc.record.error.fieldIsControlled": [
     {
-      "children": [
-        {
-          "type": 1,
-          "value": "fieldTags"
-        }
-      ],
-      "type": 8,
-      "value": "b"
-    },
-    {
       "type": 0,
-      "value": " ma podpole(-a), które nie mogą zostać zapisane, ponieważ pole jest kontrolowane przez rekord wzorcowy."
+      "value": "A subfield(s) cannot be updated because it is controlled by an authority heading."
     }
   ],
   "ui-quick-marc.record.error.fieldsAreControlled": [
@@ -109607,7 +109609,7 @@
   "ui-quick-marc.record.fixedField.Electronic": [
     {
       "type": 0,
-      "value": "Electronic"
+      "value": "Elektroniczny"
     }
   ],
   "ui-quick-marc.record.fixedField.Emulsion on film": [
@@ -110105,7 +110107,7 @@
   "ui-quick-marc.record.fixedField.Journal": [
     {
       "type": 0,
-      "value": "Journal"
+      "value": "Czasopismo"
     }
   ],
   "ui-quick-marc.record.fixedField.Juvenile": [
@@ -117008,7 +117010,7 @@
   "ui-requests-mediated.itemsDialog.materialType": [
     {
       "type": 0,
-      "value": "Material type"
+      "value": "Rodzaj materiału"
     }
   ],
   "ui-requests-mediated.itemsDialog.noItems": [
@@ -121920,7 +121922,7 @@
   "ui-serials-management.serials.serial": [
     {
       "type": 0,
-      "value": "Serial"
+      "value": "Wydawnictwo ciągłe"
     }
   ],
   "ui-serials-management.serials.status": [
@@ -129638,6 +129640,28 @@
       "value": "Szczegóły egzemplarza"
     }
   ],
+  "ui-users.keycloak.modal.confirmationHeading": [
+    {
+      "type": 0,
+      "value": "Keycloak user record"
+    }
+  ],
+  "ui-users.keycloak.modal.creation": [
+    {
+      "type": 0,
+      "value": "This operation will create new record in Keycloak for "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "user"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
   "ui-users.loading": [
     {
       "type": 0,
@@ -131982,6 +132006,18 @@
     }
   ],
   "ui-users.permission.patron-pre-registrations-view": [
+    {
+      "type": 0,
+      "value": "Users: Can view patron pre-registration data"
+    }
+  ],
+  "ui-users.permission.patron-pre-registrations.execute": [
+    {
+      "type": 0,
+      "value": "Users: Can merge patron preregistration data"
+    }
+  ],
+  "ui-users.permission.patron-pre-registrations.view": [
     {
       "type": 0,
       "value": "Users: Can view patron pre-registration data"
@@ -135018,6 +135054,18 @@
     {
       "type": 0,
       "value": "Activated"
+    }
+  ],
+  "ui-users.stagingRecords.duplicates.results.paneTitle": [
+    {
+      "type": 0,
+      "value": "Existing FOLIO user records"
+    }
+  ],
+  "ui-users.stagingRecords.duplicates.results.warning": [
+    {
+      "type": 0,
+      "value": "Please review existing FOLIO user records. Merging a preregistration record will replace corresponding fields in the FOLIO user record. Updates cannot be reverted."
     }
   ],
   "ui-users.stagingRecords.list.columnNames.action": [
