@@ -556,7 +556,7 @@
   "stripes-acq-components.holdings.deleteModal.message": [
     {
       "type": 0,
-      "value": "Tento kus je spojen se záznamy v katalogu. Po této úpravě nebudou žádné další kusy NEBO jednotky spojené se souvisejícím záznamem o holdingu. Chcete po provedení této změny, aby FOLIO smazal záznam(y) holdingů?"
+      "value": "Tento kus je spojen se záznamy v katalogu. Po této úpravě nebudou žádné další kusy NEBO jednotky spojené se souvisejícím záznamem holdingu. Chcete po provedení této změny, aby FOLIO smazal záznam(y) holdingů?"
     }
   ],
   "stripes-acq-components.invalidReference": [
@@ -746,7 +746,7 @@
   "stripes-acq-components.order.type.ongoing": [
     {
       "type": 0,
-      "value": "Pokračující"
+      "value": "Probíhající"
     }
   ],
   "stripes-acq-components.organization": [
@@ -962,7 +962,7 @@
   "stripes-acq-components.receiving.itemStatus.Unavailable": [
     {
       "type": 0,
-      "value": "Unavailable"
+      "value": "Nedostupný"
     }
   ],
   "stripes-acq-components.receiving.itemStatus.Undefined": [
@@ -1289,7 +1289,7 @@
   "stripes-acq-components.searchAndFilter": [
     {
       "type": 0,
-      "value": "Hledat a filtrovat"
+      "value": "Vyhledat a filtrovat"
     }
   ],
   "stripes-acq-components.setExchangeRate": [
@@ -1379,7 +1379,7 @@
   "stripes-acq-components.shortcut.search": [
     {
       "type": 0,
-      "value": "Přejděte do podokna Hledat a filtrovat"
+      "value": "Přejděte do podokna Vyhledat a filtrovat"
     }
   ],
   "stripes-acq-components.showTags": [
@@ -11101,7 +11101,7 @@
   "stripes-inventory-components.dateRange": [
     {
       "type": 0,
-      "value": "Date range"
+      "value": "Datumový interval"
     }
   ],
   "stripes-inventory-components.facet.discoverySuppress": [
@@ -11227,25 +11227,25 @@
   "stripes-inventory-components.instances.columns.contributors": [
     {
       "type": 0,
-      "value": "Contributors"
+      "value": "Autoři"
     }
   ],
   "stripes-inventory-components.instances.columns.date": [
     {
       "type": 0,
-      "value": "Date"
+      "value": "Datum"
     }
   ],
   "stripes-inventory-components.instances.columns.publishers": [
     {
       "type": 0,
-      "value": "Publishers"
+      "value": "Vydavatelé"
     }
   ],
   "stripes-inventory-components.instances.columns.title": [
     {
       "type": 0,
-      "value": "Title"
+      "value": "Název"
     }
   ],
   "stripes-inventory-components.item.status.agedToLost": [
@@ -64096,10 +64096,22 @@
       "value": "Finance: Vytvoření alokace"
     }
   ],
+  "ui-finance.permission.encumbrance.release-manually.execute": [
+    {
+      "type": 0,
+      "value": "Finance: Manually release encumbrance"
+    }
+  ],
   "ui-finance.permission.encumbrance.unrelease": [
     {
       "type": 0,
       "value": "Finance: uvolnění věcného břemene"
+    }
+  ],
+  "ui-finance.permission.encumbrance.unrelease.execute": [
+    {
+      "type": 0,
+      "value": "Finance: Unrelease encumbrance"
     }
   ],
   "ui-finance.permission.exportCSV": [
@@ -64148,6 +64160,12 @@
     {
       "type": 0,
       "value": "Finance: Zobrazení, úprava prostředku a rozpočtu"
+    }
+  ],
+  "ui-finance.permission.fund-budget.recalculate-totals.execute": [
+    {
+      "type": 0,
+      "value": "Finance: Recalculate budget totals"
     }
   ],
   "ui-finance.permission.fund-budget.recalculateTotals": [
@@ -64208,6 +64226,12 @@
     {
       "type": 0,
       "value": "Finance: Provést převedení fiskálního roku"
+    }
+  ],
+  "ui-finance.permission.ledger.rollover.execute": [
+    {
+      "type": 0,
+      "value": "Finance: Execute fiscal year rollover"
     }
   ],
   "ui-finance.permission.ledger.view": [
@@ -74645,10 +74669,22 @@
       "value": "Katalog: Všechna oprávnění"
     }
   ],
+  "ui-inventory.permission.consortia.inventory.local.sharing-instances.execute": [
+    {
+      "type": 0,
+      "value": "Inventory: Share local instance with consortium"
+    }
+  ],
   "ui-inventory.permission.consortia.inventory.share.local.instance": [
     {
       "type": 0,
       "value": "Katalog: Sdílet místní titul s konsorciem"
+    }
+  ],
+  "ui-inventory.permission.consortia.inventory.update-ownership.item.post": [
+    {
+      "type": 0,
+      "value": "Inventory: Update ownership"
     }
   ],
   "ui-inventory.permission.consortia.inventory.update.ownership": [
@@ -79566,6 +79602,18 @@
       "value": "Faktura: Export výsledků vyhledávání"
     }
   ],
+  "ui-invoice.permission.invoice.approve.execute": [
+    {
+      "type": 0,
+      "value": "Invoice: Approve invoices"
+    }
+  ],
+  "ui-invoice.permission.invoice.cancel.execute": [
+    {
+      "type": 0,
+      "value": "Invoice: Cancel invoices"
+    }
+  ],
   "ui-invoice.permission.invoice.create": [
     {
       "type": 0,
@@ -79582,6 +79630,18 @@
     {
       "type": 0,
       "value": "Faktura: Může prohlížet a upravovat faktury a řádky faktur"
+    }
+  ],
+  "ui-invoice.permission.invoice.pay-different-fy.execute": [
+    {
+      "type": 0,
+      "value": "Invoice: Pay invoices in a different fiscal year"
+    }
+  ],
+  "ui-invoice.permission.invoice.pay.execute": [
+    {
+      "type": 0,
+      "value": "Invoice: Pay invoices"
     }
   ],
   "ui-invoice.permission.invoice.view": [
@@ -79606,6 +79666,12 @@
     {
       "type": 0,
       "value": "Nastavení (Faktury): Může zobrazit a upravit nastavení"
+    }
+  ],
+  "ui-invoice.permission.voucher.export.execute": [
+    {
+      "type": 0,
+      "value": "Invoice: Voucher export"
     }
   ],
   "ui-invoice.permission.voucherExport": [

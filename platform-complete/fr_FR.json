@@ -342,7 +342,7 @@
   "stripes-acq-components.find-location.modal.label": [
     {
       "type": 0,
-      "value": "Select locations"
+      "value": "Sélectionner des emplacements"
     }
   ],
   "stripes-acq-components.find-location.results.column.assignment": [
@@ -378,31 +378,31 @@
   "stripes-acq-components.find-location.results.column.name": [
     {
       "type": 0,
-      "value": "Name"
+      "value": "Nom"
     }
   ],
   "stripes-acq-components.find-location.results.column.status": [
     {
       "type": 0,
-      "value": "Location status"
+      "value": "Statut d'emplacement"
     }
   ],
   "stripes-acq-components.find-location.results.column.status.active": [
     {
       "type": 0,
-      "value": "Active"
+      "value": "Actif"
     }
   ],
   "stripes-acq-components.find-location.results.column.status.inactive": [
     {
       "type": 0,
-      "value": "Inactive"
+      "value": "Inactif"
     }
   ],
   "stripes-acq-components.find-location.results.heading": [
     {
       "type": 0,
-      "value": "Locations"
+      "value": "Emplacements"
     }
   ],
   "stripes-acq-components.fundDistribution.addBtn": [
@@ -532,31 +532,31 @@
   "stripes-acq-components.holding.createFromLocation": [
     {
       "type": 0,
-      "value": "Create new holdings for location"
+      "value": "Créer une nouvelle localisation pour cet emplacement"
     }
   ],
   "stripes-acq-components.holding.label": [
     {
       "type": 0,
-      "value": "Select holdings"
+      "value": "Sélectionnez la localisation"
     }
   ],
   "stripes-acq-components.holdings.deleteModal.heading": [
     {
       "type": 0,
-      "value": "Delete Holdings"
+      "value": "Supprimer les localisations"
     }
   ],
   "stripes-acq-components.holdings.deleteModal.keepHoldings": [
     {
       "type": 0,
-      "value": "Keep Holdings"
+      "value": "Garder les localisations"
     }
   ],
   "stripes-acq-components.holdings.deleteModal.message": [
     {
       "type": 0,
-      "value": "This piece is connected to records in inventory. After this edit there will be no other pieces OR items connected to the related Holdings record(s). After making this change would you like FOLIO to delete the Holdings record(s)?"
+      "value": "Cette unité est connectée à des notices dans le catalogue. Après cette modification, il n'y aura plus aucune autre unité ou exemplaire connecté aux localisations correspondantes. Après cette modification, souhaitez-vous que FOLIO supprime ces localisations ?"
     }
   ],
   "stripes-acq-components.invalidReference": [
@@ -718,7 +718,7 @@
   "stripes-acq-components.order.status.closed": [
     {
       "type": 0,
-      "value": "Fermé"
+      "value": "Clôturée"
     }
   ],
   "stripes-acq-components.order.status.open": [
@@ -952,13 +952,13 @@
   "stripes-acq-components.receiving.itemStatus.Order closed": [
     {
       "type": 0,
-      "value": "Commande close"
+      "value": "Commande clôturée"
     }
   ],
   "stripes-acq-components.receiving.itemStatus.Unavailable": [
     {
       "type": 0,
-      "value": "Unavailable"
+      "value": "Indisponible"
     }
   ],
   "stripes-acq-components.receiving.itemStatus.Undefined": [
@@ -1149,13 +1149,13 @@
   "stripes-acq-components.routing.list.create.unassign.confirm-continue": [
     {
       "type": 0,
-      "value": "Yes"
+      "value": "Oui"
     }
   ],
   "stripes-acq-components.routing.list.create.unassign.confirm-heading": [
     {
       "type": 0,
-      "value": "Unassign all users"
+      "value": "Dissocier tous les utilisateurs"
     }
   ],
   "stripes-acq-components.routing.list.create.unassign.confirm-message": [
@@ -1249,7 +1249,7 @@
   "stripes-acq-components.routing.list.removeUsers": [
     {
       "type": 0,
-      "value": "Unassign all users"
+      "value": "Dissocier tous les utilisateurs"
     }
   ],
   "stripes-acq-components.routing.list.update.error": [
@@ -1471,7 +1471,7 @@
   "stripes-acq-components.validation.invalidURL": [
     {
       "type": 0,
-      "value": "L'URL n'est pas valide"
+      "value": "L'URL n'est pas valide, elle doit inclure un schéma d'URL, par exemple : ftp://"
     }
   ],
   "stripes-acq-components.validation.maxCantBeLessMin": [
@@ -1515,7 +1515,7 @@
   "stripes-acq-components.validation.shouldBePositive": [
     {
       "type": 0,
-      "value": "Le montant doit être un nombre positif"
+      "value": "Doit être positif"
     }
   ],
   "stripes-acq-components.validation.shouldBePositiveAmount": [
@@ -11123,7 +11123,7 @@
   "stripes-inventory-components.dateRange": [
     {
       "type": 0,
-      "value": "Date range"
+      "value": "Plage de dates"
     }
   ],
   "stripes-inventory-components.facet.discoverySuppress": [
@@ -11153,7 +11153,7 @@
   "stripes-inventory-components.facet.holdingsType": [
     {
       "type": 0,
-      "value": "Types de collections"
+      "value": "Type de localisations"
     }
   ],
   "stripes-inventory-components.facet.instanceStatus": [
@@ -11249,7 +11249,7 @@
   "stripes-inventory-components.instances.columns.contributors": [
     {
       "type": 0,
-      "value": "Contributors"
+      "value": "Contributeurs"
     }
   ],
   "stripes-inventory-components.instances.columns.date": [
@@ -11261,13 +11261,13 @@
   "stripes-inventory-components.instances.columns.publishers": [
     {
       "type": 0,
-      "value": "Publishers"
+      "value": "Éditeurs"
     }
   ],
   "stripes-inventory-components.instances.columns.title": [
     {
       "type": 0,
-      "value": "Title"
+      "value": "Titre"
     }
   ],
   "stripes-inventory-components.item.status.agedToLost": [
@@ -11483,25 +11483,25 @@
   "stripes-inventory-components.search.holdingsAdministrativeNotes": [
     {
       "type": 0,
-      "value": "Holdings administrative notes"
+      "value": "Notes administratives des localisations"
     }
   ],
   "stripes-inventory-components.search.holdingsHrid": [
     {
       "type": 0,
-      "value": "HRID des collections"
+      "value": "HRID de localisation"
     }
   ],
   "stripes-inventory-components.search.holdingsNotes": [
     {
       "type": 0,
-      "value": "Holdings notes (all)"
+      "value": "Notes sur les localisations (toutes)"
     }
   ],
   "stripes-inventory-components.search.holdingsUuid": [
     {
       "type": 0,
-      "value": "UUID des fonds documentaires"
+      "value": "UUID des localisations"
     }
   ],
   "stripes-inventory-components.search.identifierAll": [
@@ -64153,7 +64153,19 @@
       "value": "Finance: créer des allocations"
     }
   ],
+  "ui-finance.permission.encumbrance.release-manually.execute": [
+    {
+      "type": 0,
+      "value": "Finance: Manually release encumbrance"
+    }
+  ],
   "ui-finance.permission.encumbrance.unrelease": [
+    {
+      "type": 0,
+      "value": "Finance: Unrelease encumbrance"
+    }
+  ],
+  "ui-finance.permission.encumbrance.unrelease.execute": [
     {
       "type": 0,
       "value": "Finance: Unrelease encumbrance"
@@ -64205,6 +64217,12 @@
     {
       "type": 0,
       "value": "Finance: View, edit fund and budget"
+    }
+  ],
+  "ui-finance.permission.fund-budget.recalculate-totals.execute": [
+    {
+      "type": 0,
+      "value": "Finance: Recalculate budget totals"
     }
   ],
   "ui-finance.permission.fund-budget.recalculateTotals": [
@@ -64262,6 +64280,12 @@
     }
   ],
   "ui-finance.permission.ledger.rollover": [
+    {
+      "type": 0,
+      "value": "Finance: Execute fiscal year rollover"
+    }
+  ],
+  "ui-finance.permission.ledger.rollover.execute": [
     {
       "type": 0,
       "value": "Finance: Execute fiscal year rollover"
@@ -69741,7 +69765,7 @@
   "ui-inventory.acq.receiptDate": [
     {
       "type": 0,
-      "value": "Piece receipt date"
+      "value": "Date de réception de l'unité"
     }
   ],
   "ui-inventory.acq.receiptStatus": [
@@ -69885,7 +69909,7 @@
   "ui-inventory.addChildInstance": [
     {
       "type": 0,
-      "value": "Ajouter une notice apparentée"
+      "value": "Ajouter une notice enfants"
     }
   ],
   "ui-inventory.addCirculationNote": [
@@ -69933,7 +69957,7 @@
   "ui-inventory.addFormerHoldingsId": [
     {
       "type": 0,
-      "value": "Ajouter l'ancien numéro d'identification de la collection"
+      "value": "Ajouter l'ID de l'ancienne localisation"
     }
   ],
   "ui-inventory.addFormerId": [
@@ -69951,19 +69975,19 @@
   "ui-inventory.addHoldingsStatement": [
     {
       "type": 0,
-      "value": "Ajouter un relevé pour les collections"
+      "value": "Ajouter un état de localisation"
     }
   ],
   "ui-inventory.addHoldingsStatementForIndexes": [
     {
       "type": 0,
-      "value": "Ajouter un relevé pour les index"
+      "value": "Ajouter un état de localisation pour les index"
     }
   ],
   "ui-inventory.addHoldingsStatementForSupplements": [
     {
       "type": 0,
-      "value": "Ajout d'un relevé pour les suppléments"
+      "value": "Ajout d'un état de localisation pour les suppléments"
     }
   ],
   "ui-inventory.addIdentifier": [
@@ -70009,7 +70033,7 @@
   "ui-inventory.addNewHoldingsDialog": [
     {
       "type": 0,
-      "value": "Ajouter un nouveau"
+      "value": "Nouvel ajout"
     }
   ],
   "ui-inventory.addNewItemDialog": [
@@ -70033,7 +70057,7 @@
   "ui-inventory.addParentInstance": [
     {
       "type": 0,
-      "value": "Ajouter une notice mère"
+      "value": "Ajouter une notice parent"
     }
   ],
   "ui-inventory.addPrecedingTitle": [
@@ -70187,7 +70211,7 @@
   "ui-inventory.appMenu.inventorySearch": [
     {
       "type": 0,
-      "value": "Inventory app search"
+      "value": "Recherche dans Catalogue"
     }
   ],
   "ui-inventory.appMenu.keyboardShortcuts": [
@@ -70323,19 +70347,19 @@
   "ui-inventory.boundWithTitles": [
     {
       "type": 0,
-      "value": "Notice(s) liée(s) et statistiques"
+      "value": "Notices liées"
     }
   ],
   "ui-inventory.boundWithTitles.add": [
     {
       "type": 0,
-      "value": "Ajouter des notice(s) liée(s) et statistiques"
+      "value": "Ajouter des notices liées"
     }
   ],
   "ui-inventory.boundWithTitles.enterHoldingsHrid": [
     {
       "type": 0,
-      "value": "Enter Holdings HRID"
+      "value": "Saisir l'HRID de localisation"
     }
   ],
   "ui-inventory.browse": [
@@ -70557,13 +70581,13 @@
   "ui-inventory.childInstance": [
     {
       "type": 0,
-      "value": "Notice apparentée"
+      "value": "Notice enfant"
     }
   ],
   "ui-inventory.childInstances": [
     {
       "type": 0,
-      "value": "Notices apparentées"
+      "value": "Notices enfants"
     }
   ],
   "ui-inventory.chronology": [
@@ -70653,13 +70677,13 @@
   "ui-inventory.confirmHoldingsRecordDeleteModal.heading": [
     {
       "type": 0,
-      "value": "Confirmer la suppression de l'enregistrement"
+      "value": "Confirmer la suppression de la notice de localisation"
     }
   ],
   "ui-inventory.confirmHoldingsRecordDeleteModal.message": [
     {
       "type": 0,
-      "value": "Holdings record HRID "
+      "value": "La notice de localisation HRID "
     },
     {
       "children": [
@@ -70673,7 +70697,7 @@
     },
     {
       "type": 0,
-      "value": ", location "
+      "value": ", emplacement "
     },
     {
       "children": [
@@ -70687,13 +70711,13 @@
     },
     {
       "type": 0,
-      "value": " has no item records associated or other dependencies and will be "
+      "value": " n'a aucune notice d'exemplaire associée ni dépendance et sera "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "deleted"
+          "value": "supprimée"
         }
       ],
       "type": 8,
@@ -70915,7 +70939,7 @@
   "ui-inventory.consortialHoldings": [
     {
       "type": 0,
-      "value": "Consortial holdings"
+      "value": "Localisations de consortium"
     }
   ],
   "ui-inventory.contentData": [
@@ -70951,7 +70975,7 @@
   "ui-inventory.copyHoldingsRecordDialog": [
     {
       "type": 0,
-      "value": "Copy holdings record dialog"
+      "value": "Boîte de dialogue \"Copier la notice de localisation\""
     }
   ],
   "ui-inventory.copyItem": [
@@ -71147,7 +71171,7 @@
   "ui-inventory.createHoldingsRecord": [
     {
       "type": 0,
-      "value": "Ajouter une nouvelle notice de holdings"
+      "value": "Ajouter une nouvelle notice de localisation"
     }
   ],
   "ui-inventory.createInstance": [
@@ -71177,13 +71201,13 @@
   "ui-inventory.createMARCHoldings": [
     {
       "type": 0,
-      "value": "Add MARC holdings record"
+      "value": "Ajouter une notice de localisation MARC"
     }
   ],
   "ui-inventory.createNewHoldingsRecord": [
     {
       "type": 0,
-      "value": "Créer un nouvel enregistrement de collections"
+      "value": "Créer une nouvelle notice de localisation"
     }
   ],
   "ui-inventory.createNewItem": [
@@ -71285,7 +71309,7 @@
   "ui-inventory.descriptionOfPieces": [
     {
       "type": 0,
-      "value": "Description des pièces"
+      "value": "Description des unités"
     }
   ],
   "ui-inventory.descriptiveData": [
@@ -71385,7 +71409,7 @@
   "ui-inventory.editHoldingsRecordDialog": [
     {
       "type": 0,
-      "value": "Éditer la boîte de dialogue \"Modifier la notice de localisation\" "
+      "value": "Boîte de dialogue \"Modifier la notice de localisation\""
     }
   ],
   "ui-inventory.editInLinkedDataEditor": [
@@ -71476,13 +71500,13 @@
   "ui-inventory.editMARCHoldings": [
     {
       "type": 0,
-      "value": "Edit in quickMARC"
+      "value": "Modifier dans QuickMARC"
     }
   ],
   "ui-inventory.editMARCHoldings.paneTitle": [
     {
       "type": 0,
-      "value": "Location: "
+      "value": "Emplacement : "
     },
     {
       "type": 1,
@@ -71534,7 +71558,7 @@
   "ui-inventory.effectiveLocationHoldings": [
     {
       "type": 0,
-      "value": "Effective location for holdings"
+      "value": "Emplacement effectif pour la localisation"
     }
   ],
   "ui-inventory.effectiveLocationShort": [
@@ -71588,19 +71612,19 @@
   "ui-inventory.exportInstancesInJSON": [
     {
       "type": 0,
-      "value": "Exporter les instances (JSON)"
+      "value": "Exporter les notices (JSON)"
     }
   ],
   "ui-inventory.exportInstancesInMARC": [
     {
       "type": 0,
-      "value": "Exporter les instances (MARC)"
+      "value": "Exporter les notices (MARC)"
     }
   ],
   "ui-inventory.exportInstancesInMARCLimitExceeded": [
     {
       "type": 0,
-      "value": "Selected record limit of "
+      "value": "La limite du nombre de notices sélectionnées de "
     },
     {
       "style": null,
@@ -71609,7 +71633,7 @@
     },
     {
       "type": 0,
-      "value": " exceeded"
+      "value": " est dépassée"
     }
   ],
   "ui-inventory.externalIdQueryMap": [
@@ -71657,7 +71681,7 @@
   "ui-inventory.filters.holdings": [
     {
       "type": 0,
-      "value": "Collections"
+      "value": "Localisations"
     }
   ],
   "ui-inventory.filters.instances": [
@@ -71693,7 +71717,7 @@
   "ui-inventory.findInstancePluginNotFound": [
     {
       "type": 0,
-      "value": "plugin de recherche d'instance introuvable"
+      "value": "plugin de recherche de notice introuvable"
     }
   ],
   "ui-inventory.folio": [
@@ -71741,7 +71765,7 @@
   "ui-inventory.formerHoldingsId": [
     {
       "type": 0,
-      "value": "Précédent ID des collections"
+      "value": "Précédent ID de localisation"
     }
   ],
   "ui-inventory.formerId": [
@@ -71759,11 +71783,11 @@
   "ui-inventory.holdingRecord": [
     {
       "type": 0,
-      "value": "Enregistrement "
+      "value": "Notice de localisation "
     },
     {
       "type": 1,
-      "value": "callNumber"
+      "value": "location"
     },
     {
       "type": 0,
@@ -71771,7 +71795,7 @@
     },
     {
       "type": 1,
-      "value": "location"
+      "value": "callNumber"
     }
   ],
   "ui-inventory.holdings": [
@@ -71789,7 +71813,7 @@
   "ui-inventory.holdingsCallNumber": [
     {
       "type": 0,
-      "value": "Cote de la/des collection(s)"
+      "value": "Cote de localisation"
     }
   ],
   "ui-inventory.holdingsData": [
@@ -71801,7 +71825,7 @@
   "ui-inventory.holdingsDetails": [
     {
       "type": 0,
-      "value": "Détails des collections"
+      "value": "Détails des localisations"
     }
   ],
   "ui-inventory.holdingsHeader": [
@@ -71851,13 +71875,13 @@
   "ui-inventory.holdingsItems": [
     {
       "type": 0,
-      "value": "Collections, Exemplaires"
+      "value": "Localisations, Exemplaires"
     }
   ],
   "ui-inventory.holdingsLabelShort": [
     {
       "type": 0,
-      "value": "Holdings:"
+      "value": "Localisations :"
     }
   ],
   "ui-inventory.holdingsLocation": [
@@ -71869,13 +71893,13 @@
   "ui-inventory.holdingsNoteType": [
     {
       "type": 0,
-      "value": "Type de note des collections"
+      "value": "Type de notes sur les localisations"
     }
   ],
   "ui-inventory.holdingsNoteTypes": [
     {
       "type": 0,
-      "value": "Type de notes sur les collections"
+      "value": "Types de notes sur les localisations"
     }
   ],
   "ui-inventory.holdingsNotes": [
@@ -71887,7 +71911,7 @@
   "ui-inventory.holdingsPaneTitle": [
     {
       "type": 0,
-      "value": "Collections • "
+      "value": "Localisations • "
     },
     {
       "type": 1,
@@ -71923,7 +71947,7 @@
       "children": [
         {
           "type": 0,
-          "value": "holding"
+          "value": "localisation"
         }
       ],
       "type": 8,
@@ -71951,7 +71975,7 @@
   "ui-inventory.holdingsSource": [
     {
       "type": 0,
-      "value": "Source des fonds documentaires"
+      "value": "Source des localisations"
     }
   ],
   "ui-inventory.holdingsSourceLabel": [
@@ -71963,7 +71987,7 @@
   "ui-inventory.holdingsSources": [
     {
       "type": 0,
-      "value": "Sources des fonds documentaires"
+      "value": "Sources des localisations"
     }
   ],
   "ui-inventory.holdingsStatement": [
@@ -71975,103 +71999,103 @@
   "ui-inventory.holdingsStatementForIndexes": [
     {
       "type": 0,
-      "value": "Holdings statement for indexes"
+      "value": "État des localisations pour les index"
     }
   ],
   "ui-inventory.holdingsStatementForIndexesNote": [
     {
       "type": 0,
-      "value": "Holdings statement for indexes note"
+      "value": "État des localisations pour les notes d'index"
     }
   ],
   "ui-inventory.holdingsStatementForIndexesPublicNote": [
     {
       "type": 0,
-      "value": "Holdings statement for indexes public note"
+      "value": "Note publique sur l'état des localisations pour les index"
     }
   ],
   "ui-inventory.holdingsStatementForIndexesStaffNote": [
     {
       "type": 0,
-      "value": "Holdings statement for indexes staff note"
+      "value": "Note du personnel sur l'état des localisations pour les index"
     }
   ],
   "ui-inventory.holdingsStatementForSupplements": [
     {
       "type": 0,
-      "value": "Relevé pour les suppléments"
+      "value": "État des localisations pour les suppléments"
     }
   ],
   "ui-inventory.holdingsStatementForSupplementsNote": [
     {
       "type": 0,
-      "value": "Holdings statement for supplements note"
+      "value": "État des localisations pour les notes de suppléments"
     }
   ],
   "ui-inventory.holdingsStatementForSupplementsPublicNote": [
     {
       "type": 0,
-      "value": "Holdings statement for supplements public note"
+      "value": "Note publique sur l'état des localisations pour les suppléments"
     }
   ],
   "ui-inventory.holdingsStatementForSupplementsStaffNote": [
     {
       "type": 0,
-      "value": "Holdings statement for supplements staff note"
+      "value": "Note du personnel sur l'état des localisations pour les suppléments"
     }
   ],
   "ui-inventory.holdingsStatementNote": [
     {
       "type": 0,
-      "value": "Note sur le relevé des collections."
+      "value": "Note sur l'état des localisations"
     }
   ],
   "ui-inventory.holdingsStatementPublicNote": [
     {
       "type": 0,
-      "value": "Holdings statement public note"
+      "value": "Note publique sur l'état des localisations"
     }
   ],
   "ui-inventory.holdingsStatementStaffNote": [
     {
       "type": 0,
-      "value": "Holdings statement staff note"
+      "value": "Note du personnel sur l'état des localisations"
     }
   ],
   "ui-inventory.holdingsStatements": [
     {
       "type": 0,
-      "value": "État des collections"
+      "value": "État des localisations"
     }
   ],
   "ui-inventory.holdingsStatementsForIndexes": [
     {
       "type": 0,
-      "value": "Holdings statements for indexes"
+      "value": "États des localisations pour les index"
     }
   ],
   "ui-inventory.holdingsStatementsForIndexesNote": [
     {
       "type": 0,
-      "value": "Relevé pour les notes sur les index"
+      "value": "États des localisations pour les notes d'index"
     }
   ],
   "ui-inventory.holdingsStatementsForSupplements": [
     {
       "type": 0,
-      "value": "Holdings statements for supplements"
+      "value": "États des localisations pour les suppléments"
     }
   ],
   "ui-inventory.holdingsStatementsForSupplementsNote": [
     {
       "type": 0,
-      "value": "Holdings statements for supplements notes"
+      "value": "États des localisations pour les notes de suppléments"
     }
   ],
   "ui-inventory.holdingsTitle": [
     {
       "type": 0,
-      "value": "Collections: "
+      "value": "Localisations : "
     },
     {
       "type": 1,
@@ -72089,13 +72113,13 @@
   "ui-inventory.holdingsType": [
     {
       "type": 0,
-      "value": "Types de collections"
+      "value": "Types de localisations"
     }
   ],
   "ui-inventory.holdingsTypes": [
     {
       "type": 0,
-      "value": "Types de collections"
+      "value": "Types de localisations"
     }
   ],
   "ui-inventory.hridCopied": [
@@ -72187,7 +72211,7 @@
   "ui-inventory.hridHandling.sectionHeader2": [
     {
       "type": 0,
-      "value": "Inventory holdings and MARC holdings records"
+      "value": "Notices de localisations du catalogue et MARC"
     }
   ],
   "ui-inventory.hridHandling.sectionHeader3": [
@@ -72367,7 +72391,7 @@
   "ui-inventory.instance.linked.id": [
     {
       "type": 0,
-      "value": "Linked instance ID - "
+      "value": "ID de notice liée - "
     },
     {
       "type": 1,
@@ -72453,7 +72477,7 @@
   "ui-inventory.instanceHoldingsItem": [
     {
       "type": 0,
-      "value": "Instances, Holdings, Exemplaires"
+      "value": "Notices, Localisations, Exemplaires"
     }
   ],
   "ui-inventory.instanceHrid": [
@@ -72575,13 +72599,13 @@
   "ui-inventory.instanceRelationshipAnalyticsBoundWith": [
     {
       "type": 0,
-      "value": "Relation de notice (statistiques et lien)"
+      "value": "Lien entre les notices"
     }
   ],
   "ui-inventory.instanceRelationshipsAnalyticsBoundWith": [
     {
       "type": 0,
-      "value": "Relations de notice (statistiques et lien)"
+      "value": "Liens entre les notices"
     }
   ],
   "ui-inventory.instanceStatus": [
@@ -72747,7 +72771,7 @@
           "value": [
             {
               "type": 0,
-              "value": "record"
+              "value": "notices sélectionnée"
             }
           ]
         },
@@ -72755,7 +72779,7 @@
           "value": [
             {
               "type": 0,
-              "value": "records"
+              "value": "notices sélectionnées"
             }
           ]
         }
@@ -72763,28 +72787,24 @@
       "pluralType": "cardinal",
       "type": 6,
       "value": "count"
-    },
-    {
-      "type": 0,
-      "value": " selected"
     }
   ],
   "ui-inventory.instances.rows.select": [
     {
       "type": 0,
-      "value": "Sélectionnez une instance"
+      "value": "Sélectionnez une notice bibliographique"
     }
   ],
   "ui-inventory.instances.selectedRecords": [
     {
       "type": 0,
-      "value": "Enregistrements sélectionnés"
+      "value": "Notices sélectionnées"
     }
   ],
   "ui-inventory.instances.showSelectedRecords": [
     {
       "type": 0,
-      "value": "Afficher les enregistrements sélectionnés"
+      "value": "Afficher les notices sélectionnées"
     }
   ],
   "ui-inventory.instances.typeOfRelation": [
@@ -73276,7 +73296,7 @@
   "ui-inventory.itemOnHoldingsRecordDeleteModal.message": [
     {
       "type": 0,
-      "value": "Holdings record HRID "
+      "value": "La notice de localisation HRID "
     },
     {
       "children": [
@@ -73290,7 +73310,7 @@
     },
     {
       "type": 0,
-      "value": " with location "
+      "value": ", à l'emplacement "
     },
     {
       "children": [
@@ -73304,13 +73324,13 @@
     },
     {
       "type": 0,
-      "value": " has "
+      "value": " a "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "one"
+          "value": "une"
         }
       ],
       "type": 8,
@@ -73318,7 +73338,7 @@
     },
     {
       "type": 0,
-      "value": " associated item record. To be able to continue deletion of this holdings record, the associated item record must be deleted."
+      "value": " notice d'exemplaire associée. Pour pouvoir poursuivre la suppression de cette notice de localisation, la notice d'exemplaire associée doit être supprimée."
     }
   ],
   "ui-inventory.itemPublicNote": [
@@ -73422,7 +73442,7 @@
   "ui-inventory.itemsOnHoldingsRecordDeleteModal.message": [
     {
       "type": 0,
-      "value": "Holdings record HRID "
+      "value": "La notice de localisation HRID "
     },
     {
       "children": [
@@ -73436,7 +73456,7 @@
     },
     {
       "type": 0,
-      "value": " with location "
+      "value": ", à l'emplacement "
     },
     {
       "children": [
@@ -73450,7 +73470,7 @@
     },
     {
       "type": 0,
-      "value": " has "
+      "value": " a "
     },
     {
       "children": [
@@ -73464,7 +73484,7 @@
     },
     {
       "type": 0,
-      "value": " associated item records. To be able to continue deletion of this holdings record, all associated item records must be deleted."
+      "value": " notices d'exemplaires associées. Pour pouvoir poursuivre la suppression de cette notice de localisation, toutes les notices d'exemplaires associées doivent être supprimées."
     }
   ],
   "ui-inventory.jobProfiles.info": [
@@ -73602,7 +73622,7 @@
   "ui-inventory.marcHoldingsRecord.paneTitle": [
     {
       "type": 0,
-      "value": "Holdings record - "
+      "value": "Notice de localisation - "
     },
     {
       "type": 1,
@@ -73648,12 +73668,16 @@
   ],
   "ui-inventory.marcSourceRecord.holdings": [
     {
+      "type": 0,
+      "value": "Notice de localisation MARC "
+    },
+    {
       "options": {
         "false": {
           "value": [
             {
               "type": 0,
-              "value": "Local"
+              "value": "locale"
             }
           ]
         },
@@ -73664,17 +73688,13 @@
           "value": [
             {
               "type": 0,
-              "value": "Shared"
+              "value": "partagée"
             }
           ]
         }
       },
       "type": 5,
       "value": "shared"
-    },
-    {
-      "type": 0,
-      "value": " MARC holdings record"
     }
   ],
   "ui-inventory.marcSourceRecord.notFoundError": [
@@ -73777,16 +73797,12 @@
     {
       "children": [
         {
-          "type": 0,
-          "value": " "
-        },
-        {
           "type": 1,
           "value": "title"
         },
         {
           "type": 0,
-          "value": " ( "
+          "value": " ("
         },
         {
           "type": 1,
@@ -73794,7 +73810,7 @@
         },
         {
           "type": 0,
-          "value": " ) "
+          "value": ") "
         }
       ],
       "type": 8,
@@ -73810,13 +73826,13 @@
     },
     {
       "type": 0,
-      "value": " ) sera marqué comme "
+      "value": ") sera marqué comme "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": " manquant "
+          "value": "manquant"
         }
       ],
       "type": 8,
@@ -73824,13 +73840,13 @@
     },
     {
       "type": 0,
-      "value": " ."
+      "value": "."
     }
   ],
   "ui-inventory.missingPieces": [
     {
       "type": 0,
-      "value": "Pièces manquantes"
+      "value": "Unités manquantes"
     }
   ],
   "ui-inventory.modeOfIssuance": [
@@ -73860,13 +73876,13 @@
   "ui-inventory.moveItems": [
     {
       "type": 0,
-      "value": "Déplacer les collections / exemplaires vers une autre instance"
+      "value": "Déplacer les localisations/exemplaires vers une autre notice"
     }
   ],
   "ui-inventory.moveItems.instance.actionMenu.disable": [
     {
       "type": 0,
-      "value": "Arrêter le déplacement des exemplaires dans une instance"
+      "value": "Arrêter le déplacement des exemplaires dans une notice"
     }
   ],
   "ui-inventory.moveItems.instance.actionMenu.enable": [
@@ -73878,13 +73894,13 @@
   "ui-inventory.moveItems.instance.dropZone": [
     {
       "type": 0,
-      "value": "Drop holding"
+      "value": "Abandonner la localisation"
     }
   ],
   "ui-inventory.moveItems.instance.holdings.error": [
     {
       "type": 0,
-      "value": "Les holdings suivantes n'ont pas pu être déplacées "
+      "value": "Les localisations suivantes n'ont pas pu être déplacées "
     },
     {
       "type": 1,
@@ -73898,7 +73914,7 @@
   "ui-inventory.moveItems.instance.holdings.error.server": [
     {
       "type": 0,
-      "value": "Un problème est survenu lors de la mise à jour des holdings suivantes "
+      "value": "Un problème est survenu lors de la mise à jour des localisations suivantes "
     },
     {
       "type": 1,
@@ -73926,7 +73942,7 @@
           "value": [
             {
               "type": 0,
-              "value": "holding a été déplacée"
+              "value": "localisation a été déplacée"
             }
           ]
         },
@@ -73934,7 +73950,7 @@
           "value": [
             {
               "type": 0,
-              "value": "holdings ont été déplacées"
+              "value": "localisations ont été déplacées"
             }
           ]
         }
@@ -74024,7 +74040,7 @@
   "ui-inventory.moveItems.modal.message.hasLinkedPOLsOrHoldings": [
     {
       "type": 0,
-      "value": "This holdings is linked to a purchase order line. Moving this holdings to a new instance will move any other holdings and items that are linked to this purchase order line to the new instance as well. The purchase order line will also be linked to the new instance. Do you want to continue?"
+      "value": "Cette localisation est liée à une ligne de commande. Déplacer cette localisation vers une nouvelle notice bibliographique déplacera aussi toutes les localisations et les exemplaires liés à cette ligne de commande vers la nouvelle notice. La ligne de commande sera aussi liée à la nouvelle notice bibliographique. Voulez-vous continuer ?"
     }
   ],
   "ui-inventory.moveItems.modal.message.holdings": [
@@ -74044,7 +74060,7 @@
           "value": [
             {
               "type": 0,
-              "value": "holding"
+              "value": "localisation sera déplacée"
             }
           ]
         },
@@ -74052,7 +74068,7 @@
           "value": [
             {
               "type": 0,
-              "value": "holdings"
+              "value": "localisations seront déplacées"
             }
           ]
         }
@@ -74063,7 +74079,7 @@
     },
     {
       "type": 0,
-      "value": " will be moved to "
+      "value": " vers "
     },
     {
       "type": 1,
@@ -74122,7 +74138,7 @@
   "ui-inventory.moveItems.move.holdings.count": [
     {
       "type": 0,
-      "value": "Déplacer: "
+      "value": "Déplacer : "
     },
     {
       "style": null,
@@ -74140,7 +74156,7 @@
           "value": [
             {
               "type": 0,
-              "value": " holding "
+              "value": "localisation"
             }
           ]
         },
@@ -74148,7 +74164,7 @@
           "value": [
             {
               "type": 0,
-              "value": " holdings "
+              "value": "localisations"
             }
           ]
         }
@@ -74212,7 +74228,7 @@
   "ui-inventory.moveItems.selectHolding": [
     {
       "type": 0,
-      "value": "Select holdings"
+      "value": "Sélectionnez la localisation"
     }
   ],
   "ui-inventory.moveItems.selectItem": [
@@ -74332,7 +74348,7 @@
   "ui-inventory.noHoldingsRecordDeleteModal.message": [
     {
       "type": 0,
-      "value": "Holdings record HRID "
+      "value": "La notice de localisation HRID "
     },
     {
       "children": [
@@ -74346,7 +74362,7 @@
     },
     {
       "type": 0,
-      "value": ", location "
+      "value": ", emplacement "
     },
     {
       "children": [
@@ -74360,7 +74376,7 @@
     },
     {
       "type": 0,
-      "value": " has dependents and cannot be deleted"
+      "value": " a des dépendances et ne peut pas être supprimée."
     }
   ],
   "ui-inventory.noItemDeleteModal.awaitingPickupMessage": [
@@ -74482,7 +74498,7 @@
   "ui-inventory.noItemDeleteModal.requestMessage": [
     {
       "type": 0,
-      "value": "Item HRID "
+      "value": "L'exemplaire HRID "
     },
     {
       "children": [
@@ -74496,7 +74512,7 @@
     },
     {
       "type": 0,
-      "value": " with barcode "
+      "value": " avec le code-barres "
     },
     {
       "children": [
@@ -74510,7 +74526,7 @@
     },
     {
       "type": 0,
-      "value": " has a request associated and cannot be deleted until the request has been fulfilled, or the request has been cancelled. If you want to continue with the deletion of the item record, go to the Request app and clear the dependency."
+      "value": " a une réservation en cours et ne peut pas être supprimé tant que la réservation n'a pas été satisfaite. Si vous souhaitez continuer la suppression de la notice d'exemplaire, accédez à l'application Réservation et supprimez les dépendances."
     }
   ],
   "ui-inventory.noItemDeleteModal.statusMessage": [
@@ -74618,13 +74634,13 @@
   "ui-inventory.numberOfMissingPieces": [
     {
       "type": 0,
-      "value": "Nombre de pièces manquantes"
+      "value": "Nombre d'unités manquantes"
     }
   ],
   "ui-inventory.numberOfPieces": [
     {
       "type": 0,
-      "value": "Nombre de pièces"
+      "value": "Nombre d'unités"
     }
   ],
   "ui-inventory.onePublicationFieldToContinue": [
@@ -74648,7 +74664,7 @@
   "ui-inventory.parentInstances": [
     {
       "type": 0,
-      "value": "Instances parents"
+      "value": "Notices parents"
     }
   ],
   "ui-inventory.permanent": [
@@ -74675,10 +74691,22 @@
       "value": "Catalogue : toutes les autorisations"
     }
   ],
+  "ui-inventory.permission.consortia.inventory.local.sharing-instances.execute": [
+    {
+      "type": 0,
+      "value": "Inventory: Share local instance with consortium"
+    }
+  ],
   "ui-inventory.permission.consortia.inventory.share.local.instance": [
     {
       "type": 0,
       "value": "Catalogue : Partager une notice locale avec un consortium"
+    }
+  ],
+  "ui-inventory.permission.consortia.inventory.update-ownership.item.post": [
+    {
+      "type": 0,
+      "value": "Inventory: Update ownership"
     }
   ],
   "ui-inventory.permission.consortia.inventory.update.ownership": [
@@ -74690,25 +74718,25 @@
   "ui-inventory.permission.holdings.create": [
     {
       "type": 0,
-      "value": "Catalogue : afficher, créer des collections"
+      "value": "Catalogue : afficher, créer des localisations"
     }
   ],
   "ui-inventory.permission.holdings.delete": [
     {
       "type": 0,
-      "value": "Catalogue : afficher, créer, modifier, supprimer des holdings"
+      "value": "Catalogue : afficher, créer, modifier, supprimer des localisations"
     }
   ],
   "ui-inventory.permission.holdings.edit": [
     {
       "type": 0,
-      "value": "Catalogue : afficher, créer, modifier des holdings"
+      "value": "Catalogue : afficher, créer, modifier des localisations"
     }
   ],
   "ui-inventory.permission.holdings.move": [
     {
       "type": 0,
-      "value": "Catalogue : déplacer des collections"
+      "value": "Catalogue : déplacer des localisations"
     }
   ],
   "ui-inventory.permission.instance.create": [
@@ -74720,7 +74748,7 @@
   "ui-inventory.permission.instance.createOrder": [
     {
       "type": 0,
-      "value": "Inventory: Create order from instance"
+      "value": "Catalogue : Créer une commande depuis une notice"
     }
   ],
   "ui-inventory.permission.instance.edit": [
@@ -74732,13 +74760,13 @@
   "ui-inventory.permission.instance.set-deletion-and-staff-suppress": [
     {
       "type": 0,
-      "value": "Catalogue : Marquer les notices à supprimer"
+      "value": "Catalogue : Marquer les notices \"à supprimer\""
     }
   ],
   "ui-inventory.permission.instance.view": [
     {
       "type": 0,
-      "value": "Catalogue : afficher les notices bibliographiques, collections et exemplaires"
+      "value": "Catalogue : afficher les notices bibliographiques, localisations, et exemplaires"
     }
   ],
   "ui-inventory.permission.instance.view-staff-suppressed-records": [
@@ -74870,13 +74898,13 @@
   "ui-inventory.permission.settings.holdings-note-types": [
     {
       "type": 0,
-      "value": "Paramètres (catalogue) : créer, modifier, supprimer des types de notes des holdings"
+      "value": "Paramètres (Catalogue) : créer, modifier, supprimer des types de notes des localisations"
     }
   ],
   "ui-inventory.permission.settings.holdings-types": [
     {
       "type": 0,
-      "value": "Paramètres (catalogue) : créer, modifier, supprimer des types de holdings"
+      "value": "Paramètres (Catalogue) : créer, modifier, supprimer des types de localisations"
     }
   ],
   "ui-inventory.permission.settings.hrid-handling": [
@@ -75232,7 +75260,7 @@
   "ui-inventory.remote.holdings": [
     {
       "type": 0,
-      "value": "les collections"
+      "value": "les localisations"
     }
   ],
   "ui-inventory.remote.items": [
@@ -75493,13 +75521,13 @@
   "ui-inventory.reports.inTransitItem.requestCreationDate": [
     {
       "type": 0,
-      "value": "Date de création de la demande"
+      "value": "Date de création de la réservation"
     }
   ],
   "ui-inventory.reports.inTransitItem.requestExpirationDate": [
     {
       "type": 0,
-      "value": "Date d'expiration de la demande"
+      "value": "Date d'expiration de la réservation"
     }
   ],
   "ui-inventory.reports.inTransitItem.requestPickupServicePoint": [
@@ -75672,19 +75700,19 @@
   "ui-inventory.saveHoldingsUIIDS": [
     {
       "type": 0,
-      "value": "Save holdings UUIDs"
+      "value": "Sauvegarder les UUID des localisations"
     }
   ],
   "ui-inventory.saveHoldingsUIIDS.error": [
     {
       "type": 0,
-      "value": "Error occurred while saving holdings UUIDs. Please try again."
+      "value": "Une erreur s'est produite lors de l'enregistrement des UUID des localisations. Veuillez réessayer."
     }
   ],
   "ui-inventory.saveHoldingsUIIDS.info": [
     {
       "type": 0,
-      "value": "Request to save holdings UUIDs has been received. File download may take a few minutes."
+      "value": "La requête de sauvegarde des UUIDs de localisations a bien été reçue. Le téléchargement du fichier peut prendre quelques minutes."
     }
   ],
   "ui-inventory.saveInstancesCQLQuery": [
@@ -75702,13 +75730,13 @@
   "ui-inventory.saveInstancesUIIDS.error": [
     {
       "type": 0,
-      "value": "Une erreur s'est produite lors de l'enregistrement des UUID des instances. Veuillez réessayer."
+      "value": "Une erreur s'est produite lors de l'enregistrement des UUID des notices. Veuillez réessayer."
     }
   ],
   "ui-inventory.saveInstancesUIIDS.info": [
     {
       "type": 0,
-      "value": "La requête de sauvegarde des UUIds de notices a bien été reçue. Le téléchargement du fichier peut prendre quelques minutes."
+      "value": "La requête de sauvegarde des UUIDs de notices a bien été reçue. Le téléchargement du fichier peut prendre quelques minutes."
     }
   ],
   "ui-inventory.search": [
@@ -75844,13 +75872,13 @@
   "ui-inventory.selectHoldingsSource": [
     {
       "type": 0,
-      "value": "Sélectionnez la source des fonds documentaires"
+      "value": "Sélectionnez la source des localisations"
     }
   ],
   "ui-inventory.selectHoldingsType": [
     {
       "type": 0,
-      "value": "Sélectionnez le type de collections"
+      "value": "Sélectionnez le type de localisations"
     }
   ],
   "ui-inventory.selectIdentifierType": [
@@ -75868,7 +75896,7 @@
   "ui-inventory.selectInstanceDateType": [
     {
       "type": 0,
-      "value": "Select date type"
+      "value": "Sélectionnez le type de date"
     }
   ],
   "ui-inventory.selectInstanceFormat": [
@@ -75982,7 +76010,7 @@
   "ui-inventory.setForDeletion.modal.header": [
     {
       "type": 0,
-      "value": "Are you sure you want to set this record for deletion?"
+      "value": "Voulez-vous vraiment marquer cette notice \"à supprimer\" ?"
     }
   ],
   "ui-inventory.setForDeletion.modal.message": [
@@ -76054,7 +76082,7 @@
   "ui-inventory.setRecordForDeletion": [
     {
       "type": 0,
-      "value": "Set record for deletion"
+      "value": "Marquer la notice \"à supprimer\""
     }
   ],
   "ui-inventory.settings.displaySettings.defaultSort": [
@@ -76892,7 +76920,7 @@
   "ui-inventory.viewRequests": [
     {
       "type": 0,
-      "value": "Afficher les demandes / réservations"
+      "value": "Afficher les réservations"
     }
   ],
   "ui-inventory.viewSource": [
@@ -76916,7 +76944,7 @@
   "ui-inventory.warning.holdingsRecord.suppressedFromDiscovery": [
     {
       "type": 0,
-      "value": "Avertissement : la 'Holding' est marquée comme masqué dans l'outil de découverte"
+      "value": "Avertissement : la localisation est marquée comme masquée dans l'outil de découverte"
     }
   ],
   "ui-inventory.warning.instance.accessSharedInstance": [
@@ -76934,13 +76962,13 @@
   "ui-inventory.warning.instance.staffSuppressed": [
     {
       "type": 0,
-      "value": "Avertissement : l'instance est marquée comme étant supprimée de la vue du personnel"
+      "value": "Avertissement : la notice est marquée comme étant supprimée de la vue du personnel"
     }
   ],
   "ui-inventory.warning.instance.suppressedFromDiscovery": [
     {
       "type": 0,
-      "value": "Avertissement : la notice est marquée comme masqué dans l'outil de découverte"
+      "value": "Avertissement : la notice est marquée comme masquée dans l'outil de découverte"
     }
   ],
   "ui-inventory.warning.instance.suppressedFromDiscoveryAndStaffSuppressed": [
@@ -79609,6 +79637,18 @@
       "value": "Invoice: Export search results"
     }
   ],
+  "ui-invoice.permission.invoice.approve.execute": [
+    {
+      "type": 0,
+      "value": "Invoice: Approve invoices"
+    }
+  ],
+  "ui-invoice.permission.invoice.cancel.execute": [
+    {
+      "type": 0,
+      "value": "Invoice: Cancel invoices"
+    }
+  ],
   "ui-invoice.permission.invoice.create": [
     {
       "type": 0,
@@ -79625,6 +79665,18 @@
     {
       "type": 0,
       "value": "Facture: peut afficher et modifier les factures et les lignes de facture"
+    }
+  ],
+  "ui-invoice.permission.invoice.pay-different-fy.execute": [
+    {
+      "type": 0,
+      "value": "Invoice: Pay invoices in a different fiscal year"
+    }
+  ],
+  "ui-invoice.permission.invoice.pay.execute": [
+    {
+      "type": 0,
+      "value": "Invoice: Pay invoices"
     }
   ],
   "ui-invoice.permission.invoice.view": [
@@ -79649,6 +79701,12 @@
     {
       "type": 0,
       "value": "Paramètres (factures): peut afficher et modifier les paramètres"
+    }
+  ],
+  "ui-invoice.permission.voucher.export.execute": [
+    {
+      "type": 0,
+      "value": "Invoice: Voucher export"
     }
   ],
   "ui-invoice.permission.voucherExport": [
@@ -105620,7 +105678,7 @@
   "ui-plugin-find-instance.filters.holdings": [
     {
       "type": 0,
-      "value": "Holdings"
+      "value": "Localisations"
     }
   ],
   "ui-plugin-find-instance.filters.instances": [
@@ -105662,13 +105720,13 @@
   "ui-plugin-find-instance.holdings.permanentLocation": [
     {
       "type": 0,
-      "value": "Holdings permanent location"
+      "value": "Localisations - Emplacement permanent"
     }
   ],
   "ui-plugin-find-instance.holdingsHrid": [
     {
       "type": 0,
-      "value": "Holdings HRID"
+      "value": "HRID de localisation"
     }
   ],
   "ui-plugin-find-instance.identifierAll": [
@@ -105908,7 +105966,7 @@
   "ui-plugin-find-instance.meta.title": [
     {
       "type": 0,
-      "value": "Recherche d'instances (plugin)"
+      "value": "Recherche de notices (plugin)"
     }
   ],
   "ui-plugin-find-instance.modal.title": [
@@ -105938,7 +105996,7 @@
   "ui-plugin-find-instance.no": [
     {
       "type": 0,
-      "value": "No"
+      "value": "Non"
     }
   ],
   "ui-plugin-find-instance.noMatchingOptions": [
@@ -106026,7 +106084,7 @@
   "ui-plugin-find-instance.yes": [
     {
       "type": 0,
-      "value": "Yes"
+      "value": "Oui"
     }
   ],
   "ui-plugin-find-interface.button.addInterface": [
@@ -113613,13 +113671,13 @@
   "ui-receiving.appMenu.receivingAppSearch": [
     {
       "type": 0,
-      "value": "Receiving app Search"
+      "value": "Recherche dans Réception"
     }
   ],
   "ui-receiving.bind.pieces.create.error.barcodeIsNotUnique": [
     {
       "type": 0,
-      "value": "Le code-barre doit être unique, les données d'exemplaire n'ont pas pu être mise à jour."
+      "value": "Le code-barre doit être unique, les données d'exemplaire et d'unité n'ont pas pu être mise à jour."
     }
   ],
   "ui-receiving.bind.pieces.create.error.bindItemMustIncludeEitherHoldingIdOrLocationId": [
@@ -113631,7 +113689,7 @@
   "ui-receiving.bind.pieces.create.error.generic": [
     {
       "type": 0,
-      "value": "Échec de la création des éléments liés"
+      "value": "Échec de la création des unités liées"
     }
   ],
   "ui-receiving.bind.pieces.create.success.noBarcode": [
@@ -113775,7 +113833,7 @@
   "ui-receiving.errors.createItemForPieceIsNotAllowedError": [
     {
       "type": 0,
-      "value": "Créer un exemplaire pour ce format d'élément n'est pas autorisé. Veuillez vérifier la valeur de \"Créer dans le catalogue\" dans la ligne de commande"
+      "value": "Créer un exemplaire pour ce format d'unité n'est pas autorisé. Veuillez vérifier la valeur de \"Créer dans le catalogue\" dans la ligne de bon de commande"
     }
   ],
   "ui-receiving.errors.createPiecePendingOrderError": [
@@ -113799,33 +113857,25 @@
   "ui-receiving.errors.holdingsByIdNotFoundError": [
     {
       "type": 0,
-      "value": "Holdings with ids not found"
+      "value": "Localisations avec IDs introuvables"
     }
   ],
   "ui-receiving.errors.instanceId": [
     {
       "type": 0,
-      "value": "La pièce n'a pas été reçue. L'enregistrement d'instance est introuvable."
+      "value": "L'unité n'a pas été reçue. La notice bibliographique est introuvable."
     }
   ],
   "ui-receiving.errors.itemUpdateFailed": [
     {
       "type": 0,
-      "value": "La pièce "
+      "value": "L'unité "
     },
     {
       "children": [
         {
-          "type": 0,
-          "value": " "
-        },
-        {
           "type": 1,
           "value": "enumeration"
-        },
-        {
-          "type": 0,
-          "value": " "
         }
       ],
       "type": 8,
@@ -113833,31 +113883,31 @@
     },
     {
       "type": 0,
-      "value": " n'a pas été réceptionnée. L'enregistrement de l'exemplaire n'a pas pu être mis à jour"
+      "value": " n'a pas été réceptionnée. La notice de l'exemplaire n'a pas pu être mise à jour"
     }
   ],
   "ui-receiving.errors.locationIdAndHoldingIdAbsentError": [
     {
       "type": 0,
-      "value": "A holdings or location reference must present"
+      "value": "Une référence de localisation ou d'emplacement doit être présente"
     }
   ],
   "ui-receiving.errors.mayBeLinkToEitherHoldingOrLocationError": [
     {
       "type": 0,
-      "value": "There is a holdingsId and locationId presented already"
+      "value": "Il y a un ID de localisation et un ID d'emplacement déjà présents"
     }
   ],
   "ui-receiving.errors.missingHoldingsSourceId": [
     {
       "type": 0,
-      "value": "Holdings not found in inventory"
+      "value": "Localisation introuvable dans le catalogue"
     }
   ],
   "ui-receiving.errors.multipleNonPackageTitles": [
     {
       "type": 0,
-      "value": "Non-package PO Line must not contain more than one title reference"
+      "value": "La ligne de bon de commande hors bouquet ne doit pas contenir plus d'une référence de titre"
     }
   ],
   "ui-receiving.errors.partiallyReturnedCollection": [
@@ -113899,7 +113949,7 @@
   "ui-receiving.errors.piecePolMismatch": [
     {
       "type": 0,
-      "value": "The piece does not correspond to PO line"
+      "value": "L'unité ne correspond pas à la ligne de bon de commande"
     }
   ],
   "ui-receiving.errors.pieceUpdateFailed": [
@@ -113911,7 +113961,7 @@
   "ui-receiving.errors.receivingProcessEncumbrancesError": [
     {
       "type": 0,
-      "value": "Pieces can not be added to or deleted from this Title until all the Fund distributions on the related purchase order line are converted from amounts to percentages."
+      "value": "Aucune unité ne peut être ajoutée ou supprimée de ce Titre tant que toutes les allocations de fonds sur la ligne de bon de commande correspondante sont converties de quantités en pourcentages."
     }
   ],
   "ui-receiving.errors.titleNotFound": [
@@ -114133,7 +114183,7 @@
   "ui-receiving.find-po-line-plugin-unavailable": [
     {
       "type": 0,
-      "value": "Le plugin de recherche de ligne de commande n'est pas disponible"
+      "value": "Le plugin de recherche de ligne de bon de commande n'est pas disponible"
     }
   ],
   "ui-receiving.meta.title": [
@@ -114307,21 +114357,13 @@
   "ui-receiving.piece.actions.checkInItem.success": [
     {
       "type": 0,
-      "value": "La pièce "
+      "value": "L'unité "
     },
     {
       "children": [
         {
-          "type": 0,
-          "value": " "
-        },
-        {
           "type": 1,
           "value": "enumeration"
-        },
-        {
-          "type": 0,
-          "value": " "
         }
       ],
       "type": 8,
@@ -114329,13 +114371,13 @@
     },
     {
       "type": 0,
-      "value": " été "
+      "value": " a été "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": " reçue "
+          "value": "reçue"
         }
       ],
       "type": 8,
@@ -114355,7 +114397,7 @@
   "ui-receiving.piece.actions.createAnother": [
     {
       "type": 0,
-      "value": "Create another"
+      "value": "Créer un autre"
     }
   ],
   "ui-receiving.piece.actions.delete": [
@@ -114367,25 +114409,25 @@
   "ui-receiving.piece.actions.delete.deleteHoldings": [
     {
       "type": 0,
-      "value": "Delete Holdings"
+      "value": "Supprimer les localisations"
     }
   ],
   "ui-receiving.piece.actions.delete.deleteHoldingsAndItem": [
     {
       "type": 0,
-      "value": "Delete Holdings and Item"
+      "value": "Supprimer les localisations et l'exemplaire"
     }
   ],
   "ui-receiving.piece.actions.delete.deleteItem": [
     {
       "type": 0,
-      "value": "Delete item"
+      "value": "Supprimer l'exemplaire"
     }
   ],
   "ui-receiving.piece.actions.delete.error": [
     {
       "type": 0,
-      "value": "La pièce "
+      "value": "L'unité "
     },
     {
       "children": [
@@ -114399,27 +114441,19 @@
     },
     {
       "type": 0,
-      "value": " n'a pas été supprimée."
+      "value": " n'a pas été supprimée"
     }
   ],
   "ui-receiving.piece.actions.delete.success": [
     {
       "type": 0,
-      "value": "La pièce "
+      "value": "L'unité "
     },
     {
       "children": [
         {
-          "type": 0,
-          "value": " "
-        },
-        {
           "type": 1,
           "value": "enumeration"
-        },
-        {
-          "type": 0,
-          "value": " "
         }
       ],
       "type": 8,
@@ -114427,13 +114461,13 @@
     },
     {
       "type": 0,
-      "value": " "
+      "value": " a été "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": " supprimée "
+          "value": "supprimée"
         }
       ],
       "type": 8,
@@ -114453,19 +114487,19 @@
   "ui-receiving.piece.actions.edit.deleteHoldings.message": [
     {
       "type": 0,
-      "value": "This piece is connected to records in inventory. After this edit there will be no other pieces OR items connected to the related Holdings record. After making this change would you like FOLIO to delete the Holdings?"
+      "value": "Cette unité est connectée à des notices dans le catalogue. Après cette modification, il n'y aura plus aucune autre unité ou exemplaire connecté à la localisation correspondante. Après cette modification, souhaitez-vous que FOLIO supprime cette localisation ?"
     }
   ],
   "ui-receiving.piece.actions.edit.keepHoldings": [
     {
       "type": 0,
-      "value": "Keep Holdings"
+      "value": "Garder la localisation"
     }
   ],
   "ui-receiving.piece.actions.load.error": [
     {
       "type": 0,
-      "value": "Échec du chargement des pièces"
+      "value": "Échec du chargement des unités"
     }
   ],
   "ui-receiving.piece.actions.quickReceive": [
@@ -114489,51 +114523,59 @@
   "ui-receiving.piece.actions.savePiece.error": [
     {
       "type": 0,
-      "value": "The piece was "
+      "value": "L'unité "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "not saved"
+          "value": "n'a pas"
         }
       ],
       "type": 8,
       "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " été sauvegardée"
     }
   ],
   "ui-receiving.piece.actions.savePiece.success": [
     {
       "type": 0,
-      "value": "The piece was successfully "
+      "value": "L'unité a été "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "saved"
+          "value": "sauvegardée"
         }
       ],
       "type": 8,
       "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " avec succès"
     }
   ],
   "ui-receiving.piece.actions.select": [
     {
       "type": 0,
-      "value": "Supprimer la pièce"
+      "value": "Supprimer l'unité"
     }
   ],
   "ui-receiving.piece.actions.selectAll": [
     {
       "type": 0,
-      "value": "Sélectionnez toutes les pièces"
+      "value": "Sélectionnez toutes les unités"
     }
   ],
   "ui-receiving.piece.actions.unreceive": [
     {
       "type": 0,
-      "value": "Ne pas recevoir"
+      "value": "Marqué comme non-reçu"
     }
   ],
   "ui-receiving.piece.actions.unreceive.confirm": [
@@ -114545,33 +114587,25 @@
   "ui-receiving.piece.actions.unreceive.heading": [
     {
       "type": 0,
-      "value": "Ne pas recevoir la pièce"
+      "value": "Marquer l'unité comme non-reçu"
     }
   ],
   "ui-receiving.piece.actions.unreceive.message": [
     {
       "type": 0,
-      "value": "Voulez-vous vraiment ne pas recevoir le document ? Il reviendra au statut \"en attente\" et tout exemplaire associé sera défini comme \"en commande\"."
+      "value": "Voulez-vous vraiment marquer l'unité comme non-reçu ? Elle reviendra au statut \"en attente\" et tout exemplaire associé sera défini comme \"en commande\"."
     }
   ],
   "ui-receiving.piece.actions.unreceivePiece.error": [
     {
       "type": 0,
-      "value": "La pièce "
+      "value": "L'unité "
     },
     {
       "children": [
         {
-          "type": 0,
-          "value": " "
-        },
-        {
           "type": 1,
           "value": "enumeration"
-        },
-        {
-          "type": 0,
-          "value": " "
         }
       ],
       "type": 8,
@@ -114579,27 +114613,19 @@
     },
     {
       "type": 0,
-      "value": " n'a pas été marquée comme non reçue"
+      "value": " n'a pas été marquée comme non-reçue"
     }
   ],
   "ui-receiving.piece.actions.unreceivePiece.success": [
     {
       "type": 0,
-      "value": "La pièce "
+      "value": "L'unité "
     },
     {
       "children": [
         {
-          "type": 0,
-          "value": " "
-        },
-        {
           "type": 1,
           "value": "enumeration"
-        },
-        {
-          "type": 0,
-          "value": " "
         }
       ],
       "type": 8,
@@ -114607,13 +114633,13 @@
     },
     {
       "type": 0,
-      "value": " été "
+      "value": " a été "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": " marquée comme non-reçue "
+          "value": "marquée comme non-reçue"
         }
       ],
       "type": 8,
@@ -114651,7 +114677,7 @@
   "ui-receiving.piece.button.addPiece": [
     {
       "type": 0,
-      "value": "Ajouter une pièce"
+      "value": "Ajouter une unité"
     }
   ],
   "ui-receiving.piece.callNumber": [
@@ -114669,7 +114695,7 @@
   "ui-receiving.piece.chronology": [
     {
       "type": 0,
-      "value": "Chronology"
+      "value": "Chronologie"
     }
   ],
   "ui-receiving.piece.comment": [
@@ -114681,7 +114707,7 @@
   "ui-receiving.piece.confirmReceiving.message": [
     {
       "type": 0,
-      "value": "La commande reliée à ce titre est clôturée. Ètes-vous sûr de vouloir réceptionner cet élément ?"
+      "value": "La commande reliée à ce titre est clôturée. Ètes-vous sûr de vouloir réceptionner ces unités ?"
     }
   ],
   "ui-receiving.piece.confirmReceiving.title": [
@@ -114699,7 +114725,7 @@
   "ui-receiving.piece.copyNumber": [
     {
       "type": 0,
-      "value": "Copy number"
+      "value": "Numéro d'exemplaire"
     }
   ],
   "ui-receiving.piece.createItem": [
@@ -114717,19 +114743,19 @@
   "ui-receiving.piece.delete.deleteHoldingsAndItem.message": [
     {
       "type": 0,
-      "value": "This piece is connected to records in inventory. There are no other items connected to the related Holdings record. After deleting this piece would you like FOLIO to delete the Holdings?"
+      "value": "Cette unité est connectée à des notices dans le catalogue. Il n'y a aucun autre exemplaire connecté à la notice de localisation correspondante. Après avoir supprimé cette pièce, souhaitez-vous que FOLIO supprime aussi la localisation ?"
     }
   ],
   "ui-receiving.piece.delete.heading": [
     {
       "type": 0,
-      "value": "Supprimer la pièce"
+      "value": "Supprimer l'unité"
     }
   ],
   "ui-receiving.piece.delete.message": [
     {
       "type": 0,
-      "value": "Êtes-vous sûr.e de vouloir supprimer la pièce ?"
+      "value": "Êtes-vous sûr de vouloir supprimer l'unité ?"
     }
   ],
   "ui-receiving.piece.discoverySuppress": [
@@ -114741,7 +114767,7 @@
   "ui-receiving.piece.displayOnHolding": [
     {
       "type": 0,
-      "value": "Display on holding"
+      "value": "Afficher dans la localisation"
     }
   ],
   "ui-receiving.piece.displaySummary": [
@@ -114759,7 +114785,7 @@
   "ui-receiving.piece.enumeration": [
     {
       "type": 0,
-      "value": "Enumeration"
+      "value": "Tomaison"
     }
   ],
   "ui-receiving.piece.externalNote": [
@@ -114771,7 +114797,7 @@
   "ui-receiving.piece.format": [
     {
       "type": 0,
-      "value": "Format de la pièce"
+      "value": "Format de l'unité"
     }
   ],
   "ui-receiving.piece.internalNote": [
@@ -114831,13 +114857,13 @@
   "ui-receiving.piece.itemStatus.info": [
     {
       "type": 0,
-      "value": "Lors de la réception d'éléments ayant des exemplaires liés. Un exemplaire lié dont le statut est \"Commande clôturée\" ou \"En commande\" sera mis à jour vers le statut \"En traitement\". Les exemplaires avec d'autres statuts ne verront pas leur statut modifié."
+      "value": "Lors de la réception d'unités ayant des exemplaires liés. Un exemplaire lié dont le statut est \"Commande clôturée\" ou \"En commande\" sera mis à jour vers le statut \"En traitement\". Les exemplaires avec d'autres statuts ne verront pas leur statut modifié."
     }
   ],
   "ui-receiving.piece.lineLocations": [
     {
       "type": 0,
-      "value": "Order line locations"
+      "value": "Emplacements des lignes de bon de commande"
     }
   ],
   "ui-receiving.piece.location": [
@@ -114915,7 +114941,7 @@
   "ui-receiving.piece.request": [
     {
       "type": 0,
-      "value": "Demande"
+      "value": "Réservation"
     }
   ],
   "ui-receiving.piece.request.isOpened": [
@@ -114989,7 +115015,7 @@
   "ui-receiving.requests.message.itemId": [
     {
       "type": 0,
-      "value": "Élément ( "
+      "value": "Exemplaire ("
     },
     {
       "type": 1,
@@ -114997,7 +115023,7 @@
     },
     {
       "type": 0,
-      "value": " )"
+      "value": ")"
     }
   ],
   "ui-receiving.requests.message.multiple": [
@@ -115039,13 +115065,13 @@
   "ui-receiving.search.poLine.poLineNumber": [
     {
       "type": 0,
-      "value": "Numéro de ligne de commande"
+      "value": "Numéro de ligne de bon de commande"
     }
   ],
   "ui-receiving.search.poLine.titleOrPackage": [
     {
       "type": 0,
-      "value": "Bouquet (ligne de commande/nom du bouquet)"
+      "value": "Bouquet (ligne de bon de commande/nom du bouquet)"
     }
   ],
   "ui-receiving.search.poLine.vendorDetail.referenceNumbers": [
@@ -115081,7 +115107,7 @@
   "ui-receiving.shortcut.receive": [
     {
       "type": 0,
-      "value": "Receive pieces/Quick receive"
+      "value": "Réception d'unités/Réception rapide"
     }
   ],
   "ui-receiving.systemUser.label": [
@@ -115117,7 +115143,7 @@
   "ui-receiving.title.actions.load.error": [
     {
       "type": 0,
-      "value": "Échec lors du chargement de ligne de titre ou de commande"
+      "value": "Échec lors du chargement des données du titre ou de la ligne de bon de commande"
     }
   ],
   "ui-receiving.title.actions.missingLoanTypeId.error": [
@@ -115149,7 +115175,7 @@
     },
     {
       "type": 0,
-      "value": " n'a pas été ajouté pour la ligne de commande "
+      "value": " n'a pas été ajouté pour la ligne de bon de commande "
     },
     {
       "type": 1,
@@ -115167,7 +115193,7 @@
     },
     {
       "type": 0,
-      "value": " pour la ligne de commande "
+      "value": " pour la ligne de bon de commande "
     },
     {
       "type": 1,
@@ -115186,16 +115212,8 @@
     {
       "children": [
         {
-          "type": 0,
-          "value": " "
-        },
-        {
           "type": 1,
           "value": "title"
-        },
-        {
-          "type": 0,
-          "value": " "
         }
       ],
       "type": 8,
@@ -115209,15 +115227,11 @@
       "children": [
         {
           "type": 0,
-          "value": " ligne de commande "
+          "value": "ligne de bon de commande "
         },
         {
           "type": 1,
           "value": "poLineNumber"
-        },
-        {
-          "type": 0,
-          "value": " "
         }
       ],
       "type": 8,
@@ -115245,7 +115259,7 @@
   "ui-receiving.title.changePieceQuantityMessage": [
     {
       "type": 0,
-      "value": "Adding or removing pieces from this record will update the purchase order line quantity and location detail and in turn the estimated price."
+      "value": "Ajouter ou supprimer des unités de cette notice mettra à jour la quantité et le détail de localisation sur la ligne de commande et ensuite le prix estimé."
     }
   ],
   "ui-receiving.title.checkinItems": [
@@ -115387,7 +115401,7 @@
   "ui-receiving.title.lineLookUp": [
     {
       "type": 0,
-      "value": "Recherche de numéro de ligne de commande"
+      "value": "Recherche de numéro de ligne de bon de commande"
     }
   ],
   "ui-receiving.title.locations": [
@@ -115441,13 +115455,13 @@
   "ui-receiving.title.polDetails": [
     {
       "type": 0,
-      "value": "Détails de la ligne de commande"
+      "value": "Détails de la ligne de bon de commande"
     }
   ],
   "ui-receiving.title.polNumber": [
     {
       "type": 0,
-      "value": "Numéro de ligne de commande"
+      "value": "Numéro de ligne de bon de commande"
     }
   ],
   "ui-receiving.title.productIds": [
@@ -115549,7 +115563,7 @@
   "ui-receiving.title.section.lineDetails": [
     {
       "type": 0,
-      "value": "Détails de la ligne de commande"
+      "value": "Détails de la ligne de bon de commande"
     }
   ],
   "ui-receiving.title.subscriptionFrom": [
@@ -115585,7 +115599,7 @@
   "ui-receiving.title.titleLookUpNoPlugin": [
     {
       "type": 0,
-      "value": "[pas de plugin de sélection d'instance]"
+      "value": "[pas de plugin instance-selection]"
     }
   ],
   "ui-receiving.title.unreceivable": [
@@ -115609,7 +115623,7 @@
   "ui-receiving.titles.lineNumber": [
     {
       "type": 0,
-      "value": "Numéro de ligne de commande"
+      "value": "Numéro de ligne de bon de commande"
     }
   ],
   "ui-receiving.titles.orderStatus": [

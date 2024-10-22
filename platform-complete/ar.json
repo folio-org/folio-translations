@@ -11078,7 +11078,7 @@
   "stripes-inventory-components.dateRange": [
     {
       "type": 0,
-      "value": "Date range"
+      "value": "نطاق التاريخ"
     }
   ],
   "stripes-inventory-components.facet.discoverySuppress": [
@@ -11204,25 +11204,25 @@
   "stripes-inventory-components.instances.columns.contributors": [
     {
       "type": 0,
-      "value": "Contributors"
+      "value": "المساهمون"
     }
   ],
   "stripes-inventory-components.instances.columns.date": [
     {
       "type": 0,
-      "value": "Date"
+      "value": "التاريخ"
     }
   ],
   "stripes-inventory-components.instances.columns.publishers": [
     {
       "type": 0,
-      "value": "Publishers"
+      "value": "الناشرون"
     }
   ],
   "stripes-inventory-components.instances.columns.title": [
     {
       "type": 0,
-      "value": "Title"
+      "value": "العنوان"
     }
   ],
   "stripes-inventory-components.item.status.agedToLost": [
@@ -63994,7 +63994,19 @@
       "value": "الشؤون المالية: أنشئ مخصصات"
     }
   ],
+  "ui-finance.permission.encumbrance.release-manually.execute": [
+    {
+      "type": 0,
+      "value": "Finance: Manually release encumbrance"
+    }
+  ],
   "ui-finance.permission.encumbrance.unrelease": [
+    {
+      "type": 0,
+      "value": "Finance: Unrelease encumbrance"
+    }
+  ],
+  "ui-finance.permission.encumbrance.unrelease.execute": [
     {
       "type": 0,
       "value": "Finance: Unrelease encumbrance"
@@ -64046,6 +64058,12 @@
     {
       "type": 0,
       "value": "الشؤون المالية: اعرض، حرّر التمويل والميزانية"
+    }
+  ],
+  "ui-finance.permission.fund-budget.recalculate-totals.execute": [
+    {
+      "type": 0,
+      "value": "Finance: Recalculate budget totals"
     }
   ],
   "ui-finance.permission.fund-budget.recalculateTotals": [
@@ -64106,6 +64124,12 @@
     {
       "type": 0,
       "value": "الشؤون المالية: استثناء تمديد السنة المالية"
+    }
+  ],
+  "ui-finance.permission.ledger.rollover.execute": [
+    {
+      "type": 0,
+      "value": "Finance: Execute fiscal year rollover"
     }
   ],
   "ui-finance.permission.ledger.view": [
@@ -74550,10 +74574,22 @@
       "value": "المخزون: كل الصلاحيات"
     }
   ],
+  "ui-inventory.permission.consortia.inventory.local.sharing-instances.execute": [
+    {
+      "type": 0,
+      "value": "Inventory: Share local instance with consortium"
+    }
+  ],
   "ui-inventory.permission.consortia.inventory.share.local.instance": [
     {
       "type": 0,
       "value": "Inventory: Share local instance with consortium"
+    }
+  ],
+  "ui-inventory.permission.consortia.inventory.update-ownership.item.post": [
+    {
+      "type": 0,
+      "value": "Inventory: Update ownership"
     }
   ],
   "ui-inventory.permission.consortia.inventory.update.ownership": [
@@ -79511,6 +79547,18 @@
       "value": "الفواتير: تصدير نتائج البحث"
     }
   ],
+  "ui-invoice.permission.invoice.approve.execute": [
+    {
+      "type": 0,
+      "value": "Invoice: Approve invoices"
+    }
+  ],
+  "ui-invoice.permission.invoice.cancel.execute": [
+    {
+      "type": 0,
+      "value": "Invoice: Cancel invoices"
+    }
+  ],
   "ui-invoice.permission.invoice.create": [
     {
       "type": 0,
@@ -79527,6 +79575,18 @@
     {
       "type": 0,
       "value": "الفاتورة: إمكانية عرض، وتحرير الفواتير وسطور الفواتير"
+    }
+  ],
+  "ui-invoice.permission.invoice.pay-different-fy.execute": [
+    {
+      "type": 0,
+      "value": "Invoice: Pay invoices in a different fiscal year"
+    }
+  ],
+  "ui-invoice.permission.invoice.pay.execute": [
+    {
+      "type": 0,
+      "value": "Invoice: Pay invoices"
     }
   ],
   "ui-invoice.permission.invoice.view": [
@@ -79551,6 +79611,12 @@
     {
       "type": 0,
       "value": "الإعدادات (الفواتير): إمكانية عرض وتحرير الإعدادات"
+    }
+  ],
+  "ui-invoice.permission.voucher.export.execute": [
+    {
+      "type": 0,
+      "value": "Invoice: Voucher export"
     }
   ],
   "ui-invoice.permission.voucherExport": [

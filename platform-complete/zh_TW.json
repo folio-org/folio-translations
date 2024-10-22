@@ -11132,7 +11132,7 @@
   "stripes-inventory-components.dateRange": [
     {
       "type": 0,
-      "value": "Date range"
+      "value": "日期範圍"
     }
   ],
   "stripes-inventory-components.facet.discoverySuppress": [
@@ -11258,25 +11258,25 @@
   "stripes-inventory-components.instances.columns.contributors": [
     {
       "type": 0,
-      "value": "Contributors"
+      "value": "投稿者"
     }
   ],
   "stripes-inventory-components.instances.columns.date": [
     {
       "type": 0,
-      "value": "Date"
+      "value": "日期"
     }
   ],
   "stripes-inventory-components.instances.columns.publishers": [
     {
       "type": 0,
-      "value": "Publishers"
+      "value": "出版商"
     }
   ],
   "stripes-inventory-components.instances.columns.title": [
     {
       "type": 0,
-      "value": "Title"
+      "value": "題名"
     }
   ],
   "stripes-inventory-components.item.status.agedToLost": [
@@ -64911,10 +64911,22 @@
       "value": "財務：建立分配"
     }
   ],
+  "ui-finance.permission.encumbrance.release-manually.execute": [
+    {
+      "type": 0,
+      "value": "Finance: Manually release encumbrance"
+    }
+  ],
   "ui-finance.permission.encumbrance.unrelease": [
     {
       "type": 0,
       "value": "財務：解除預付額"
+    }
+  ],
+  "ui-finance.permission.encumbrance.unrelease.execute": [
+    {
+      "type": 0,
+      "value": "Finance: Unrelease encumbrance"
     }
   ],
   "ui-finance.permission.exportCSV": [
@@ -64963,6 +64975,12 @@
     {
       "type": 0,
       "value": "財務：檢視、編輯經費和預算"
+    }
+  ],
+  "ui-finance.permission.fund-budget.recalculate-totals.execute": [
+    {
+      "type": 0,
+      "value": "Finance: Recalculate budget totals"
     }
   ],
   "ui-finance.permission.fund-budget.recalculateTotals": [
@@ -65023,6 +65041,12 @@
     {
       "type": 0,
       "value": "財務：執行會計年度展延"
+    }
+  ],
+  "ui-finance.permission.ledger.rollover.execute": [
+    {
+      "type": 0,
+      "value": "Finance: Execute fiscal year rollover"
     }
   ],
   "ui-finance.permission.ledger.view": [
@@ -75747,10 +75771,22 @@
       "value": "館藏庫：所有權限"
     }
   ],
+  "ui-inventory.permission.consortia.inventory.local.sharing-instances.execute": [
+    {
+      "type": 0,
+      "value": "Inventory: Share local instance with consortium"
+    }
+  ],
   "ui-inventory.permission.consortia.inventory.share.local.instance": [
     {
       "type": 0,
       "value": "館藏庫：與聯盟共享本地實例"
+    }
+  ],
+  "ui-inventory.permission.consortia.inventory.update-ownership.item.post": [
+    {
+      "type": 0,
+      "value": "Inventory: Update ownership"
     }
   ],
   "ui-inventory.permission.consortia.inventory.update.ownership": [
@@ -80810,6 +80846,18 @@
       "value": "發票：匯出查詢結果"
     }
   ],
+  "ui-invoice.permission.invoice.approve.execute": [
+    {
+      "type": 0,
+      "value": "Invoice: Approve invoices"
+    }
+  ],
+  "ui-invoice.permission.invoice.cancel.execute": [
+    {
+      "type": 0,
+      "value": "Invoice: Cancel invoices"
+    }
+  ],
   "ui-invoice.permission.invoice.create": [
     {
       "type": 0,
@@ -80826,6 +80874,18 @@
     {
       "type": 0,
       "value": "發票：可以查看、編輯發票和發票細項"
+    }
+  ],
+  "ui-invoice.permission.invoice.pay-different-fy.execute": [
+    {
+      "type": 0,
+      "value": "Invoice: Pay invoices in a different fiscal year"
+    }
+  ],
+  "ui-invoice.permission.invoice.pay.execute": [
+    {
+      "type": 0,
+      "value": "Invoice: Pay invoices"
     }
   ],
   "ui-invoice.permission.invoice.view": [
@@ -80850,6 +80910,12 @@
     {
       "type": 0,
       "value": "設定（發票）：可以查看和編輯所有設定"
+    }
+  ],
+  "ui-invoice.permission.voucher.export.execute": [
+    {
+      "type": 0,
+      "value": "Invoice: Voucher export"
     }
   ],
   "ui-invoice.permission.voucherExport": [

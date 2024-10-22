@@ -962,7 +962,7 @@
   "stripes-acq-components.receiving.itemStatus.Unavailable": [
     {
       "type": 0,
-      "value": "Unavailable"
+      "value": "不可用"
     }
   ],
   "stripes-acq-components.receiving.itemStatus.Undefined": [
@@ -11131,7 +11131,7 @@
   "stripes-inventory-components.dateRange": [
     {
       "type": 0,
-      "value": "Date range"
+      "value": "日期范围"
     }
   ],
   "stripes-inventory-components.facet.discoverySuppress": [
@@ -11257,25 +11257,25 @@
   "stripes-inventory-components.instances.columns.contributors": [
     {
       "type": 0,
-      "value": "Contributors"
+      "value": "责任者"
     }
   ],
   "stripes-inventory-components.instances.columns.date": [
     {
       "type": 0,
-      "value": "Date"
+      "value": "日期"
     }
   ],
   "stripes-inventory-components.instances.columns.publishers": [
     {
       "type": 0,
-      "value": "Publishers"
+      "value": "出版者"
     }
   ],
   "stripes-inventory-components.instances.columns.title": [
     {
       "type": 0,
-      "value": "Title"
+      "value": "题名"
     }
   ],
   "stripes-inventory-components.item.status.agedToLost": [
@@ -65634,10 +65634,22 @@
       "value": "财务：创建分配"
     }
   ],
+  "ui-finance.permission.encumbrance.release-manually.execute": [
+    {
+      "type": 0,
+      "value": "Finance: Manually release encumbrance"
+    }
+  ],
   "ui-finance.permission.encumbrance.unrelease": [
     {
       "type": 0,
       "value": "财务：未释放预支"
+    }
+  ],
+  "ui-finance.permission.encumbrance.unrelease.execute": [
+    {
+      "type": 0,
+      "value": "Finance: Unrelease encumbrance"
     }
   ],
   "ui-finance.permission.exportCSV": [
@@ -65686,6 +65698,12 @@
     {
       "type": 0,
       "value": "财务：查看、编辑经费和预算"
+    }
+  ],
+  "ui-finance.permission.fund-budget.recalculate-totals.execute": [
+    {
+      "type": 0,
+      "value": "Finance: Recalculate budget totals"
     }
   ],
   "ui-finance.permission.fund-budget.recalculateTotals": [
@@ -65746,6 +65764,12 @@
     {
       "type": 0,
       "value": "财务：执行财务年度展期"
+    }
+  ],
+  "ui-finance.permission.ledger.rollover.execute": [
+    {
+      "type": 0,
+      "value": "Finance: Execute fiscal year rollover"
     }
   ],
   "ui-finance.permission.ledger.view": [
@@ -76496,10 +76520,22 @@
       "value": "典藏：所有权限"
     }
   ],
+  "ui-inventory.permission.consortia.inventory.local.sharing-instances.execute": [
+    {
+      "type": 0,
+      "value": "Inventory: Share local instance with consortium"
+    }
+  ],
   "ui-inventory.permission.consortia.inventory.share.local.instance": [
     {
       "type": 0,
       "value": "典藏：与联盟共享本地实例"
+    }
+  ],
+  "ui-inventory.permission.consortia.inventory.update-ownership.item.post": [
+    {
+      "type": 0,
+      "value": "Inventory: Update ownership"
     }
   ],
   "ui-inventory.permission.consortia.inventory.update.ownership": [
@@ -81693,6 +81729,18 @@
       "value": "发票：导出搜索结果"
     }
   ],
+  "ui-invoice.permission.invoice.approve.execute": [
+    {
+      "type": 0,
+      "value": "Invoice: Approve invoices"
+    }
+  ],
+  "ui-invoice.permission.invoice.cancel.execute": [
+    {
+      "type": 0,
+      "value": "Invoice: Cancel invoices"
+    }
+  ],
   "ui-invoice.permission.invoice.create": [
     {
       "type": 0,
@@ -81709,6 +81757,18 @@
     {
       "type": 0,
       "value": "发票：可以查看和编辑发票和发票行"
+    }
+  ],
+  "ui-invoice.permission.invoice.pay-different-fy.execute": [
+    {
+      "type": 0,
+      "value": "Invoice: Pay invoices in a different fiscal year"
+    }
+  ],
+  "ui-invoice.permission.invoice.pay.execute": [
+    {
+      "type": 0,
+      "value": "Invoice: Pay invoices"
     }
   ],
   "ui-invoice.permission.invoice.view": [
@@ -81733,6 +81793,12 @@
     {
       "type": 0,
       "value": "设置（发票）：可以查看和编辑设置"
+    }
+  ],
+  "ui-invoice.permission.voucher.export.execute": [
+    {
+      "type": 0,
+      "value": "Invoice: Voucher export"
     }
   ],
   "ui-invoice.permission.voucherExport": [

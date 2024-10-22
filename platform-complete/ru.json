@@ -11115,7 +11115,7 @@
   "stripes-inventory-components.dateRange": [
     {
       "type": 0,
-      "value": "Date range"
+      "value": "Интервал дат"
     }
   ],
   "stripes-inventory-components.facet.discoverySuppress": [
@@ -11241,25 +11241,25 @@
   "stripes-inventory-components.instances.columns.contributors": [
     {
       "type": 0,
-      "value": "Contributors"
+      "value": "Авторы"
     }
   ],
   "stripes-inventory-components.instances.columns.date": [
     {
       "type": 0,
-      "value": "Date"
+      "value": "Дата"
     }
   ],
   "stripes-inventory-components.instances.columns.publishers": [
     {
       "type": 0,
-      "value": "Publishers"
+      "value": "Издатели"
     }
   ],
   "stripes-inventory-components.instances.columns.title": [
     {
       "type": 0,
-      "value": "Title"
+      "value": "Заглавие"
     }
   ],
   "stripes-inventory-components.item.status.agedToLost": [
@@ -64126,7 +64126,19 @@
       "value": "Финансы: создание перерасчётов"
     }
   ],
+  "ui-finance.permission.encumbrance.release-manually.execute": [
+    {
+      "type": 0,
+      "value": "Finance: Manually release encumbrance"
+    }
+  ],
   "ui-finance.permission.encumbrance.unrelease": [
+    {
+      "type": 0,
+      "value": "Finance: Unrelease encumbrance"
+    }
+  ],
+  "ui-finance.permission.encumbrance.unrelease.execute": [
     {
       "type": 0,
       "value": "Finance: Unrelease encumbrance"
@@ -64178,6 +64190,12 @@
     {
       "type": 0,
       "value": "Finance: View, edit fund and budget"
+    }
+  ],
+  "ui-finance.permission.fund-budget.recalculate-totals.execute": [
+    {
+      "type": 0,
+      "value": "Finance: Recalculate budget totals"
     }
   ],
   "ui-finance.permission.fund-budget.recalculateTotals": [
@@ -64235,6 +64253,12 @@
     }
   ],
   "ui-finance.permission.ledger.rollover": [
+    {
+      "type": 0,
+      "value": "Finance: Execute fiscal year rollover"
+    }
+  ],
+  "ui-finance.permission.ledger.rollover.execute": [
     {
       "type": 0,
       "value": "Finance: Execute fiscal year rollover"
@@ -70584,7 +70608,7 @@
   "ui-inventory.code": [
     {
       "type": 0,
-      "value": "code"
+      "value": "Code"
     }
   ],
   "ui-inventory.common.close": [
@@ -72538,13 +72562,13 @@
   "ui-inventory.instanceRelationshipAnalyticsBoundWith": [
     {
       "type": 0,
-      "value": "Instance relationship (analytics and bound-with)"
+      "value": "Instance relationship"
     }
   ],
   "ui-inventory.instanceRelationshipsAnalyticsBoundWith": [
     {
       "type": 0,
-      "value": "Instance relationships (analytics and bound-with)"
+      "value": "Instance relationships"
     }
   ],
   "ui-inventory.instanceStatus": [
@@ -74662,10 +74686,22 @@
       "value": "Фонд: все разрешения"
     }
   ],
+  "ui-inventory.permission.consortia.inventory.local.sharing-instances.execute": [
+    {
+      "type": 0,
+      "value": "Inventory: Share local instance with consortium"
+    }
+  ],
   "ui-inventory.permission.consortia.inventory.share.local.instance": [
     {
       "type": 0,
       "value": "Inventory: Share local instance with consortium"
+    }
+  ],
+  "ui-inventory.permission.consortia.inventory.update-ownership.item.post": [
+    {
+      "type": 0,
+      "value": "Inventory: Update ownership"
     }
   ],
   "ui-inventory.permission.consortia.inventory.update.ownership": [
@@ -79572,6 +79608,18 @@
       "value": "Invoice: Export search results"
     }
   ],
+  "ui-invoice.permission.invoice.approve.execute": [
+    {
+      "type": 0,
+      "value": "Invoice: Approve invoices"
+    }
+  ],
+  "ui-invoice.permission.invoice.cancel.execute": [
+    {
+      "type": 0,
+      "value": "Invoice: Cancel invoices"
+    }
+  ],
   "ui-invoice.permission.invoice.create": [
     {
       "type": 0,
@@ -79588,6 +79636,18 @@
     {
       "type": 0,
       "value": "Invoice: Can view and edit Invoices and Invoice lines"
+    }
+  ],
+  "ui-invoice.permission.invoice.pay-different-fy.execute": [
+    {
+      "type": 0,
+      "value": "Invoice: Pay invoices in a different fiscal year"
+    }
+  ],
+  "ui-invoice.permission.invoice.pay.execute": [
+    {
+      "type": 0,
+      "value": "Invoice: Pay invoices"
     }
   ],
   "ui-invoice.permission.invoice.view": [
@@ -79612,6 +79672,12 @@
     {
       "type": 0,
       "value": "Settings (Invoices): Can view and edit settings"
+    }
+  ],
+  "ui-invoice.permission.voucher.export.execute": [
+    {
+      "type": 0,
+      "value": "Invoice: Voucher export"
     }
   ],
   "ui-invoice.permission.voucherExport": [

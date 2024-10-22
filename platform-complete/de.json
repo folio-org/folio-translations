@@ -130,7 +130,7 @@
   "stripes-acq-components.consortia.affiliations.primary.label": [
     {
       "type": 0,
-      "value": "(Primary)"
+      "value": "(primär)"
     }
   ],
   "stripes-acq-components.consortia.affiliations.select.label": [
@@ -154,13 +154,13 @@
   "stripes-acq-components.donors.button.addDonor": [
     {
       "type": 0,
-      "value": "Add donor"
+      "value": "Spender/in hinzufügen"
     }
   ],
   "stripes-acq-components.donors.button.unassign": [
     {
       "type": 0,
-      "value": "Unassign"
+      "value": "Entfernen"
     }
   ],
   "stripes-acq-components.donors.column.code": [
@@ -178,19 +178,19 @@
   "stripes-acq-components.donors.modal.resultsTitle": [
     {
       "type": 0,
-      "value": "Donors"
+      "value": "Spender/in"
     }
   ],
   "stripes-acq-components.donors.modal.title": [
     {
       "type": 0,
-      "value": "Add donors"
+      "value": "Spendende Personen hinzufügen"
     }
   ],
   "stripes-acq-components.donors.noFindOrganizationPlugin": [
     {
       "type": 0,
-      "value": "no find-organization plugin"
+      "value": "Kein \"find-organization\" Plugin"
     }
   ],
   "stripes-acq-components.exchangeRate": [
@@ -244,13 +244,13 @@
   "stripes-acq-components.filter.donor.lookup": [
     {
       "type": 0,
-      "value": "Donor look-up"
+      "value": "Suche nach Spender/in"
     }
   ],
   "stripes-acq-components.filter.donor.lookupNoSupport": [
     {
       "type": 0,
-      "value": "Donor look-up is not supported"
+      "value": "Suche nach Spender/in wird nicht unterstützt"
     }
   ],
   "stripes-acq-components.filter.dynamic.emptyMessage": [
@@ -858,7 +858,7 @@
   "stripes-acq-components.piece.pieceStatus.unreceivable": [
     {
       "type": 0,
-      "value": "Unreceivable"
+      "value": "Nicht inventarisierbar"
     }
   ],
   "stripes-acq-components.privilegedContacts.button.addDonor": [
@@ -900,7 +900,7 @@
   "stripes-acq-components.privilegedContacts.noFindContactPlugin": [
     {
       "type": 0,
-      "value": "no find-contact plugin"
+      "value": "Kein Kontakt-finden-Plugin"
     }
   ],
   "stripes-acq-components.privilegedContacts.note": [
@@ -960,7 +960,7 @@
   "stripes-acq-components.receiving.itemStatus.Order closed": [
     {
       "type": 0,
-      "value": "Bestellung abgeschlossen"
+      "value": "Erwerbungsvorgang abgeschlossen"
     }
   ],
   "stripes-acq-components.receiving.itemStatus.Unavailable": [
@@ -1067,37 +1067,37 @@
   "stripes-acq-components.routing.list.actions.delete": [
     {
       "type": 0,
-      "value": "Delete"
+      "value": "Löschen"
     }
   ],
   "stripes-acq-components.routing.list.actions.edit": [
     {
       "type": 0,
-      "value": "Edit"
+      "value": "Bearbeiten"
     }
   ],
   "stripes-acq-components.routing.list.actions.printRoutingList": [
     {
       "type": 0,
-      "value": "Print all routing lists"
+      "value": "Alle Umlauflisten drucken"
     }
   ],
   "stripes-acq-components.routing.list.actions.printRoutingList.error": [
     {
       "type": 0,
-      "value": "Something went wrong. Make sure the routing list configuration is set up correctly."
+      "value": "Ein Fehler ist aufgetreten. Überprüfen Sie, ob die Umlaufliste korrekt eingerichtet ist."
     }
   ],
   "stripes-acq-components.routing.list.addUsers": [
     {
       "type": 0,
-      "value": "Add users"
+      "value": "Person hinzufügen"
     }
   ],
   "stripes-acq-components.routing.list.addUsers.plugin.notAvailable": [
     {
       "type": 0,
-      "value": "Add users is not available"
+      "value": "Personen hinzufügen ist nicht verfügbar"
     }
   ],
   "stripes-acq-components.routing.list.column.name": [
@@ -1115,7 +1115,7 @@
   "stripes-acq-components.routing.list.column.user": [
     {
       "type": 0,
-      "value": "User"
+      "value": "Person"
     }
   ],
   "stripes-acq-components.routing.list.column.userIds": [
@@ -1127,57 +1127,53 @@
   "stripes-acq-components.routing.list.create.error": [
     {
       "type": 0,
-      "value": "Something went wrong. The Routing list was not created."
+      "value": "Ein Fehler ist aufgetreten. Umlaufliste wurde nicht erstellt."
     }
   ],
   "stripes-acq-components.routing.list.create.error.nameMustBeUnique": [
     {
       "type": 0,
-      "value": "Name must be unique"
+      "value": "Name muss eindeutig sein"
     }
   ],
   "stripes-acq-components.routing.list.create.label": [
     {
       "type": 0,
-      "value": "Create routing list"
+      "value": "Umlaufliste erstellen"
     }
   ],
   "stripes-acq-components.routing.list.create.paneMenu.save": [
     {
       "type": 0,
-      "value": "Save & close"
+      "value": "Speichern & schließen"
     }
   ],
   "stripes-acq-components.routing.list.create.success": [
     {
       "type": 0,
-      "value": "The Routing list was successfully created."
+      "value": "Umlaufliste wurde erfolgreich erstellt."
     }
   ],
   "stripes-acq-components.routing.list.create.unassign.confirm-continue": [
     {
       "type": 0,
-      "value": "Yes"
+      "value": "Ja"
     }
   ],
   "stripes-acq-components.routing.list.create.unassign.confirm-heading": [
     {
       "type": 0,
-      "value": "Unassign all users"
+      "value": "Alle Personenzuweisungen aufheben"
     }
   ],
   "stripes-acq-components.routing.list.create.unassign.confirm-message": [
-    {
-      "type": 0,
-      "value": "You are unassigning all users from the routing list "
-    },
     {
       "children": [
         {
           "children": [
             {
               "type": 0,
-              "value": "Are you sure?"
+              "value": "Sind Sie sicher"
             }
           ],
           "type": 8,
@@ -1186,48 +1182,52 @@
       ],
       "type": 8,
       "value": "p"
+    },
+    {
+      "type": 0,
+      "value": ", dass Sie alle Personen aus der Umlaufliste entfernen wollen?"
     }
   ],
   "stripes-acq-components.routing.list.delete.confirm": [
     {
       "type": 0,
-      "value": "You are about to delete this routing list. Continue?"
+      "value": "Wollen Sie diese Umlaufliste wirklich löschen?"
     }
   ],
   "stripes-acq-components.routing.list.delete.confirm.label": [
     {
       "type": 0,
-      "value": "Delete"
+      "value": "Löschen"
     }
   ],
   "stripes-acq-components.routing.list.delete.confirm.title": [
     {
       "type": 0,
-      "value": "Delete Routing list"
+      "value": "Umlaufliste löschen"
     }
   ],
   "stripes-acq-components.routing.list.delete.error": [
     {
       "type": 0,
-      "value": "Something went wrong. The Routing list was not deleted."
+      "value": "Ein Fehler ist aufgetreten. Umlaufliste wurde nicht gelöscht."
     }
   ],
   "stripes-acq-components.routing.list.delete.success": [
     {
       "type": 0,
-      "value": "The Routing list was successfully deleted."
+      "value": "Umlaufliste wurde erfolgreich gelöscht."
     }
   ],
   "stripes-acq-components.routing.list.generalInformation": [
     {
       "type": 0,
-      "value": "General information"
+      "value": "Allgemeine Information"
     }
   ],
   "stripes-acq-components.routing.list.label": [
     {
       "type": 0,
-      "value": "Routing lists"
+      "value": "Umlauflisten"
     }
   ],
   "stripes-acq-components.routing.list.name": [
@@ -1239,13 +1239,13 @@
   "stripes-acq-components.routing.list.noRoutingLists": [
     {
       "type": 0,
-      "value": "No routing lists"
+      "value": "Keine Umlauflisten"
     }
   ],
   "stripes-acq-components.routing.list.notes": [
     {
       "type": 0,
-      "value": "Notes"
+      "value": "Bemerkungen"
     }
   ],
   "stripes-acq-components.routing.list.orderNumber": [
@@ -1257,31 +1257,31 @@
   "stripes-acq-components.routing.list.removeUsers": [
     {
       "type": 0,
-      "value": "Unassign all users"
+      "value": "Alle Personenzuweisungen aufheben"
     }
   ],
   "stripes-acq-components.routing.list.update.error": [
     {
       "type": 0,
-      "value": "Something went wrong. The Routing list was not updated."
+      "value": "Ein Fehler ist aufgetreten. Umlaufliste wurde nicht aktualisiert."
     }
   ],
   "stripes-acq-components.routing.list.update.success": [
     {
       "type": 0,
-      "value": "The Routing list was successfully updated."
+      "value": "Umlaufliste wurde erfolgreich aktualisiert."
     }
   ],
   "stripes-acq-components.routing.list.users": [
     {
       "type": 0,
-      "value": "Users"
+      "value": "Personen"
     }
   ],
   "stripes-acq-components.routing.list.users.empty": [
     {
       "type": 0,
-      "value": "No users found"
+      "value": "Keine Personen gefunden"
     }
   ],
   "stripes-acq-components.search": [
@@ -1443,7 +1443,7 @@
   "stripes-acq-components.validation.cannotMixTypesForZeroPrice": [
     {
       "type": 0,
-      "value": "Fund distribution types cannot be mixed for a price of 0"
+      "value": "Fondsverteilungstypen können bei einem Preis von \"0\" nicht angewendet werden"
     }
   ],
   "stripes-acq-components.validation.cantBeNegative": [
@@ -1485,7 +1485,7 @@
   "stripes-acq-components.validation.maxCantBeLessMin": [
     {
       "type": 0,
-      "value": "\"To\" can not be less than \"From\""
+      "value": "\"Nach\" muss kleiner oder gleich \"Von\" sein"
     }
   ],
   "stripes-acq-components.validation.required": [
@@ -1517,15 +1517,11 @@
   "stripes-acq-components.validation.shouldBeLessThan": [
     {
       "type": 0,
-      "value": "Wert muss kleiner oder gleich "
+      "value": "Value must be less than or equal to "
     },
     {
       "type": 1,
-      "value": "minNumber"
-    },
-    {
-      "type": 0,
-      "value": " sein"
+      "value": "maxNumber"
     }
   ],
   "stripes-acq-components.validation.shouldBePositive": [
@@ -1543,37 +1539,37 @@
   "stripes-acq-components.versionHistory.card.changed": [
     {
       "type": 0,
-      "value": "Changed"
+      "value": "geändert"
     }
   ],
   "stripes-acq-components.versionHistory.card.select.tooltip": [
     {
       "type": 0,
-      "value": "View this version"
+      "value": "Diese Version anzeigen"
     }
   ],
   "stripes-acq-components.versionHistory.card.version.current": [
     {
       "type": 0,
-      "value": "Current version"
+      "value": "Aktuelle Version"
     }
   ],
   "stripes-acq-components.versionHistory.card.version.original": [
     {
       "type": 0,
-      "value": "Original version"
+      "value": "Originalversion"
     }
   ],
   "stripes-acq-components.versionHistory.deletedRecord": [
     {
       "type": 0,
-      "value": "Record deleted"
+      "value": "Datensatz gelöscht"
     }
   ],
   "stripes-acq-components.versionHistory.pane.header": [
     {
       "type": 0,
-      "value": "Version history"
+      "value": "Versionsgeschichte"
     }
   ],
   "stripes-acq-components.versionHistory.pane.sub": [
@@ -1587,7 +1583,7 @@
             },
             {
               "type": 0,
-              "value": " version"
+              "value": " Version"
             }
           ]
         },
@@ -1598,7 +1594,7 @@
             },
             {
               "type": 0,
-              "value": " versions"
+              "value": " Versionen"
             }
           ]
         }
@@ -7475,7 +7471,7 @@
   "stripes-components.stateProviceOrRegion": [
     {
       "type": 0,
-      "value": "Bundesland"
+      "value": "Staat / Land / Bundesland"
     }
   ],
   "stripes-components.submit": [
@@ -11163,7 +11159,7 @@
   "stripes-inventory-components.dateRange": [
     {
       "type": 0,
-      "value": "Date range"
+      "value": "Datumsbereich"
     }
   ],
   "stripes-inventory-components.facet.discoverySuppress": [
@@ -11289,25 +11285,25 @@
   "stripes-inventory-components.instances.columns.contributors": [
     {
       "type": 0,
-      "value": "Contributors"
+      "value": "Mitwirkende"
     }
   ],
   "stripes-inventory-components.instances.columns.date": [
     {
       "type": 0,
-      "value": "Date"
+      "value": "Datum"
     }
   ],
   "stripes-inventory-components.instances.columns.publishers": [
     {
       "type": 0,
-      "value": "Publishers"
+      "value": "Verlage"
     }
   ],
   "stripes-inventory-components.instances.columns.title": [
     {
       "type": 0,
-      "value": "Title"
+      "value": "Haupttitel"
     }
   ],
   "stripes-inventory-components.item.status.agedToLost": [
@@ -11403,7 +11399,7 @@
   "stripes-inventory-components.item.status.orderClosed": [
     {
       "type": 0,
-      "value": "Bestellung abgeschlossen"
+      "value": "Erwerbungsvorgang abgeschlossen"
     }
   ],
   "stripes-inventory-components.item.status.paged": [
@@ -11499,7 +11495,7 @@
   "stripes-inventory-components.search.callNumberEyeReadable": [
     {
       "type": 0,
-      "value": "Call number, not normalized"
+      "value": "Signatur, nicht normalisiert"
     }
   ],
   "stripes-inventory-components.search.callNumberNormalized": [
@@ -11601,7 +11597,7 @@
   "stripes-inventory-components.search.itemEffectiveCallNumberEyeReadable": [
     {
       "type": 0,
-      "value": "Effective call number (item), not normalized"
+      "value": "Effektive Signatur (Exemplar), nicht normalisiert"
     }
   ],
   "stripes-inventory-components.search.itemEffectiveCallNumberNormalized": [
@@ -64273,10 +64269,22 @@
       "value": "Finanzen: Zuweisungen erstellen"
     }
   ],
+  "ui-finance.permission.encumbrance.release-manually.execute": [
+    {
+      "type": 0,
+      "value": "Finance: Manually release encumbrance"
+    }
+  ],
   "ui-finance.permission.encumbrance.unrelease": [
     {
       "type": 0,
       "value": "Finanzen: Bindung wiederherstellen"
+    }
+  ],
+  "ui-finance.permission.encumbrance.unrelease.execute": [
+    {
+      "type": 0,
+      "value": "Finance: Unrelease encumbrance"
     }
   ],
   "ui-finance.permission.exportCSV": [
@@ -64325,6 +64333,12 @@
     {
       "type": 0,
       "value": "Finanzen: Fonds und Budget anzeigen und bearbeiten"
+    }
+  ],
+  "ui-finance.permission.fund-budget.recalculate-totals.execute": [
+    {
+      "type": 0,
+      "value": "Finance: Recalculate budget totals"
     }
   ],
   "ui-finance.permission.fund-budget.recalculateTotals": [
@@ -64385,6 +64399,12 @@
     {
       "type": 0,
       "value": "Finanzen: Jahresübergang durchführen"
+    }
+  ],
+  "ui-finance.permission.ledger.rollover.execute": [
+    {
+      "type": 0,
+      "value": "Finance: Execute fiscal year rollover"
     }
   ],
   "ui-finance.permission.ledger.view": [
@@ -73214,7 +73234,7 @@
   "ui-inventory.item.status.orderClosed.lowercase": [
     {
       "type": 0,
-      "value": "Bestellung abgeschlossen"
+      "value": "Erwerbungsvorgang abgeschlossen"
     }
   ],
   "ui-inventory.item.status.paged": [
@@ -74829,10 +74849,22 @@
       "value": "Katalog: Alle Berechtigungen"
     }
   ],
+  "ui-inventory.permission.consortia.inventory.local.sharing-instances.execute": [
+    {
+      "type": 0,
+      "value": "Inventory: Share local instance with consortium"
+    }
+  ],
   "ui-inventory.permission.consortia.inventory.share.local.instance": [
     {
       "type": 0,
       "value": "Katalog: Lokale Instanz mit dem Konsortium teilen"
+    }
+  ],
+  "ui-inventory.permission.consortia.inventory.update-ownership.item.post": [
+    {
+      "type": 0,
+      "value": "Inventory: Update ownership"
     }
   ],
   "ui-inventory.permission.consortia.inventory.update.ownership": [
@@ -79741,6 +79773,18 @@
       "value": "Rechnungen: Suchergebnisse exportieren"
     }
   ],
+  "ui-invoice.permission.invoice.approve.execute": [
+    {
+      "type": 0,
+      "value": "Invoice: Approve invoices"
+    }
+  ],
+  "ui-invoice.permission.invoice.cancel.execute": [
+    {
+      "type": 0,
+      "value": "Invoice: Cancel invoices"
+    }
+  ],
   "ui-invoice.permission.invoice.create": [
     {
       "type": 0,
@@ -79757,6 +79801,18 @@
     {
       "type": 0,
       "value": "Rechnung: Kann Rechnungen und Rechnungsposten anzeigen und bearbeiten"
+    }
+  ],
+  "ui-invoice.permission.invoice.pay-different-fy.execute": [
+    {
+      "type": 0,
+      "value": "Invoice: Pay invoices in a different fiscal year"
+    }
+  ],
+  "ui-invoice.permission.invoice.pay.execute": [
+    {
+      "type": 0,
+      "value": "Invoice: Pay invoices"
     }
   ],
   "ui-invoice.permission.invoice.view": [
@@ -79781,6 +79837,12 @@
     {
       "type": 0,
       "value": "Einstellungen (Rechnungen): Kann Einstellungen anzeigen und bearbeiten"
+    }
+  ],
+  "ui-invoice.permission.voucher.export.execute": [
+    {
+      "type": 0,
+      "value": "Invoice: Voucher export"
     }
   ],
   "ui-invoice.permission.voucherExport": [
@@ -105928,7 +105990,7 @@
   "ui-plugin-find-instance.item.status.orderClosed": [
     {
       "type": 0,
-      "value": "Bestellung abgeschlossen"
+      "value": "Erwerbungsvorgang abgeschlossen"
     }
   ],
   "ui-plugin-find-instance.item.status.paged": [
@@ -114590,7 +114652,7 @@
   "ui-receiving.piece.actions.unreceive.message": [
     {
       "type": 0,
-      "value": "Teil wirklich deinventarisieren? Status wird erneut auf Erwartet gesetzt und die Exemplare sind wieder im Erwerbungsvorgang"
+      "value": "Teil wirklich deinventarisieren? Status wird erneut auf \"Erwartet\" gesetzt und die Exemplare sind wieder \"im Erwerbungsvorgang\""
     }
   ],
   "ui-receiving.piece.actions.unreceivePiece.error": [
@@ -114706,7 +114768,7 @@
   "ui-receiving.piece.confirmReceiving.title": [
     {
       "type": 0,
-      "value": "Bestellung abgeschlossen"
+      "value": "Erwerbungsvorgang abgeschlossen"
     }
   ],
   "ui-receiving.piece.connectedItem": [
@@ -114850,7 +114912,7 @@
   "ui-receiving.piece.itemStatus.info": [
     {
       "type": 0,
-      "value": "Bei der Inventarisierung von Teilen mit verknüpften Exemplaren wird ein Exemplar im Status \"Bestellung abgeschlossen\" oder \"Im Erwerbungsvorgang\" auf den Status \"In Bearbeitung\" aktualisiert. Für Exemplare mit anderem Status erfolgt keine Änderung."
+      "value": "Bei der Inventarisierung von Teilen mit verknüpften Exemplaren wird ein Exemplar im Status \"Erwerbungsvorgang abgeschlossen\" oder \"Im Erwerbungsvorgang\" auf den Status \"In Bearbeitung\" aktualisiert. Für Exemplare mit anderem Status erfolgt keine Änderung."
     }
   ],
   "ui-receiving.piece.lineLocations": [

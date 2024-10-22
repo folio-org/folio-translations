@@ -556,7 +556,7 @@
   "stripes-acq-components.holdings.deleteModal.message": [
     {
       "type": 0,
-      "value": "Esta peça está conectada aos registros na app Inventário. Após esta edição não haverá outras peças OU itens ligados ao(s) registro(s) de coleção relacionado(s). Após esta mudança, você gostaria que o FOLIO apagasse o(s) registro(s) de coleção?"
+      "value": "Esta peça está conectada aos registros na app Inventário. Após esta edição não haverá outras partes OU itens ligados ao(s) registro(s) de coleção relacionado(s). Após esta mudança, você gostaria que o FOLIO apagasse o(s) registro(s) de coleção?"
     }
   ],
   "stripes-acq-components.invalidReference": [
@@ -958,7 +958,7 @@
   "stripes-acq-components.receiving.itemStatus.Unavailable": [
     {
       "type": 0,
-      "value": "Unavailable"
+      "value": "Indisponível"
     }
   ],
   "stripes-acq-components.receiving.itemStatus.Undefined": [
@@ -11093,7 +11093,7 @@
   "stripes-inventory-components.dateRange": [
     {
       "type": 0,
-      "value": "Date range"
+      "value": "Intervalo de datas"
     }
   ],
   "stripes-inventory-components.facet.discoverySuppress": [
@@ -11219,25 +11219,25 @@
   "stripes-inventory-components.instances.columns.contributors": [
     {
       "type": 0,
-      "value": "Contributors"
+      "value": "Colaboradores"
     }
   ],
   "stripes-inventory-components.instances.columns.date": [
     {
       "type": 0,
-      "value": "Date"
+      "value": "Data"
     }
   ],
   "stripes-inventory-components.instances.columns.publishers": [
     {
       "type": 0,
-      "value": "Publishers"
+      "value": "Editores"
     }
   ],
   "stripes-inventory-components.instances.columns.title": [
     {
       "type": 0,
-      "value": "Title"
+      "value": "Título"
     }
   ],
   "stripes-inventory-components.item.status.agedToLost": [
@@ -64539,10 +64539,22 @@
       "value": "Finanças: Criar alocações"
     }
   ],
+  "ui-finance.permission.encumbrance.release-manually.execute": [
+    {
+      "type": 0,
+      "value": "Finance: Manually release encumbrance"
+    }
+  ],
   "ui-finance.permission.encumbrance.unrelease": [
     {
       "type": 0,
       "value": "Finanças: Encargos não liberados"
+    }
+  ],
+  "ui-finance.permission.encumbrance.unrelease.execute": [
+    {
+      "type": 0,
+      "value": "Finance: Unrelease encumbrance"
     }
   ],
   "ui-finance.permission.exportCSV": [
@@ -64591,6 +64603,12 @@
     {
       "type": 0,
       "value": "Finanças: Visualizar, editar fundo e orçamento"
+    }
+  ],
+  "ui-finance.permission.fund-budget.recalculate-totals.execute": [
+    {
+      "type": 0,
+      "value": "Finance: Recalculate budget totals"
     }
   ],
   "ui-finance.permission.fund-budget.recalculateTotals": [
@@ -64651,6 +64669,12 @@
     {
       "type": 0,
       "value": "Finanças: executar a prorrogação do ano fiscal"
+    }
+  ],
+  "ui-finance.permission.ledger.rollover.execute": [
+    {
+      "type": 0,
+      "value": "Finance: Execute fiscal year rollover"
     }
   ],
   "ui-finance.permission.ledger.view": [
@@ -71073,7 +71097,7 @@
   "ui-inventory.code": [
     {
       "type": 0,
-      "value": "código"
+      "value": "Código"
     }
   ],
   "ui-inventory.common.close": [
@@ -74512,7 +74536,7 @@
   "ui-inventory.moveItems.modal.message.hasLinkedPOLsOrHoldings": [
     {
       "type": 0,
-      "value": "This holdings is linked to a purchase order line. Moving this holdings to a new instance will move any other holdings and items that are linked to this purchase order line to the new instance as well. The purchase order line will also be linked to the new instance. Do you want to continue?"
+      "value": "Esse coleção está vinculada a uma linha de pedido de compra. Mover essa coleção para uma nova instância moverá quaisquer outras coleções e itens que estejam vinculados a essa linha de pedido de compra para a nova instância também. A linha do pedido de compra também será vinculada à nova instância. Deseja continuar?"
     }
   ],
   "ui-inventory.moveItems.modal.message.holdings": [
@@ -75219,10 +75243,22 @@
       "value": "Inventário: Todas as permissões"
     }
   ],
+  "ui-inventory.permission.consortia.inventory.local.sharing-instances.execute": [
+    {
+      "type": 0,
+      "value": "Inventory: Share local instance with consortium"
+    }
+  ],
   "ui-inventory.permission.consortia.inventory.share.local.instance": [
     {
       "type": 0,
       "value": "Inventário: Compartilhar a instância local com o consórcio"
+    }
+  ],
+  "ui-inventory.permission.consortia.inventory.update-ownership.item.post": [
+    {
+      "type": 0,
+      "value": "Inventory: Update ownership"
     }
   ],
   "ui-inventory.permission.consortia.inventory.update.ownership": [
@@ -80164,6 +80200,18 @@
       "value": "Fatura: exportar resultados de pesquisa"
     }
   ],
+  "ui-invoice.permission.invoice.approve.execute": [
+    {
+      "type": 0,
+      "value": "Invoice: Approve invoices"
+    }
+  ],
+  "ui-invoice.permission.invoice.cancel.execute": [
+    {
+      "type": 0,
+      "value": "Invoice: Cancel invoices"
+    }
+  ],
   "ui-invoice.permission.invoice.create": [
     {
       "type": 0,
@@ -80180,6 +80228,18 @@
     {
       "type": 0,
       "value": "Fatura: Pode visualizar e editar faturas e linhas de fatura"
+    }
+  ],
+  "ui-invoice.permission.invoice.pay-different-fy.execute": [
+    {
+      "type": 0,
+      "value": "Invoice: Pay invoices in a different fiscal year"
+    }
+  ],
+  "ui-invoice.permission.invoice.pay.execute": [
+    {
+      "type": 0,
+      "value": "Invoice: Pay invoices"
     }
   ],
   "ui-invoice.permission.invoice.view": [
@@ -80204,6 +80264,12 @@
     {
       "type": 0,
       "value": "Configurações (Faturas): Pode visualizar e editar as configurações"
+    }
+  ],
+  "ui-invoice.permission.voucher.export.execute": [
+    {
+      "type": 0,
+      "value": "Invoice: Voucher export"
     }
   ],
   "ui-invoice.permission.voucherExport": [

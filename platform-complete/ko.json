@@ -11147,7 +11147,7 @@
   "stripes-inventory-components.dateRange": [
     {
       "type": 0,
-      "value": "Date range"
+      "value": "날짜 범위"
     }
   ],
   "stripes-inventory-components.facet.discoverySuppress": [
@@ -11273,25 +11273,25 @@
   "stripes-inventory-components.instances.columns.contributors": [
     {
       "type": 0,
-      "value": "Contributors"
+      "value": "저자"
     }
   ],
   "stripes-inventory-components.instances.columns.date": [
     {
       "type": 0,
-      "value": "Date"
+      "value": "날짜"
     }
   ],
   "stripes-inventory-components.instances.columns.publishers": [
     {
       "type": 0,
-      "value": "Publishers"
+      "value": "출판사"
     }
   ],
   "stripes-inventory-components.instances.columns.title": [
     {
       "type": 0,
-      "value": "Title"
+      "value": "타이틀"
     }
   ],
   "stripes-inventory-components.item.status.agedToLost": [
@@ -64463,7 +64463,19 @@
       "value": "회계(Finance): 할당 생성"
     }
   ],
+  "ui-finance.permission.encumbrance.release-manually.execute": [
+    {
+      "type": 0,
+      "value": "Finance: Manually release encumbrance"
+    }
+  ],
   "ui-finance.permission.encumbrance.unrelease": [
+    {
+      "type": 0,
+      "value": "Finance: Unrelease encumbrance"
+    }
+  ],
+  "ui-finance.permission.encumbrance.unrelease.execute": [
     {
       "type": 0,
       "value": "Finance: Unrelease encumbrance"
@@ -64515,6 +64527,12 @@
     {
       "type": 0,
       "value": "회계: 기금과 예산 보기, 편집"
+    }
+  ],
+  "ui-finance.permission.fund-budget.recalculate-totals.execute": [
+    {
+      "type": 0,
+      "value": "Finance: Recalculate budget totals"
     }
   ],
   "ui-finance.permission.fund-budget.recalculateTotals": [
@@ -64575,6 +64593,12 @@
     {
       "type": 0,
       "value": "회계: 회계 연도 롤오버 실행"
+    }
+  ],
+  "ui-finance.permission.ledger.rollover.execute": [
+    {
+      "type": 0,
+      "value": "Finance: Execute fiscal year rollover"
     }
   ],
   "ui-finance.permission.ledger.view": [
@@ -70957,7 +70981,7 @@
   "ui-inventory.code": [
     {
       "type": 0,
-      "value": "code"
+      "value": "Code"
     }
   ],
   "ui-inventory.common.close": [
@@ -72921,13 +72945,13 @@
   "ui-inventory.instanceRelationshipAnalyticsBoundWith": [
     {
       "type": 0,
-      "value": "Instance relationship (analytics and bound-with)"
+      "value": "Instance relationship"
     }
   ],
   "ui-inventory.instanceRelationshipsAnalyticsBoundWith": [
     {
       "type": 0,
-      "value": "Instance relationships (analytics and bound-with)"
+      "value": "Instance relationships"
     }
   ],
   "ui-inventory.instanceStatus": [
@@ -75045,10 +75069,22 @@
       "value": "Inventory: All permissions"
     }
   ],
+  "ui-inventory.permission.consortia.inventory.local.sharing-instances.execute": [
+    {
+      "type": 0,
+      "value": "Inventory: Share local instance with consortium"
+    }
+  ],
   "ui-inventory.permission.consortia.inventory.share.local.instance": [
     {
       "type": 0,
       "value": "Inventory: Share local instance with consortium"
+    }
+  ],
+  "ui-inventory.permission.consortia.inventory.update-ownership.item.post": [
+    {
+      "type": 0,
+      "value": "Inventory: Update ownership"
     }
   ],
   "ui-inventory.permission.consortia.inventory.update.ownership": [
@@ -80025,6 +80061,18 @@
       "value": "인보이스: 검색 결과 내보내기"
     }
   ],
+  "ui-invoice.permission.invoice.approve.execute": [
+    {
+      "type": 0,
+      "value": "Invoice: Approve invoices"
+    }
+  ],
+  "ui-invoice.permission.invoice.cancel.execute": [
+    {
+      "type": 0,
+      "value": "Invoice: Cancel invoices"
+    }
+  ],
   "ui-invoice.permission.invoice.create": [
     {
       "type": 0,
@@ -80041,6 +80089,18 @@
     {
       "type": 0,
       "value": "인보이스: 인보이스 및 인보이스 라인을 보고 편집할 수 있습니다."
+    }
+  ],
+  "ui-invoice.permission.invoice.pay-different-fy.execute": [
+    {
+      "type": 0,
+      "value": "Invoice: Pay invoices in a different fiscal year"
+    }
+  ],
+  "ui-invoice.permission.invoice.pay.execute": [
+    {
+      "type": 0,
+      "value": "Invoice: Pay invoices"
     }
   ],
   "ui-invoice.permission.invoice.view": [
@@ -80065,6 +80125,12 @@
     {
       "type": 0,
       "value": "설정(인보이스): 설정을 보고 편집할 수 있습니다."
+    }
+  ],
+  "ui-invoice.permission.voucher.export.execute": [
+    {
+      "type": 0,
+      "value": "Invoice: Voucher export"
     }
   ],
   "ui-invoice.permission.voucherExport": [
