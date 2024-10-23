@@ -38633,7 +38633,29 @@
   "ui-courses.courseDeleted": [
     {
       "type": 0,
-      "value": "课程"
+      "value": "课程编号为"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "number"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "的课程"
     },
     {
       "children": [
@@ -49206,7 +49228,7 @@
   "ui-data-import.settings.mappingProfiles.map.item.itemCondition.field.missingPieces": [
     {
       "type": 0,
-      "value": "遗失件"
+      "value": "缺失件"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.item.itemCondition.field.missingPiecesDate": [
@@ -49218,7 +49240,7 @@
   "ui-data-import.settings.mappingProfiles.map.item.itemCondition.field.numberOfMissingPieces": [
     {
       "type": 0,
-      "value": "遗失件数"
+      "value": "缺失件数"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.item.itemCondition.section": [
@@ -49560,19 +49582,19 @@
   "ui-data-import.settings.mappingProfiles.map.order.donorInformation.donor": [
     {
       "type": 0,
-      "value": "Donor"
+      "value": "捐赠者"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.order.donorInformation.field.donors.addLabel": [
     {
       "type": 0,
-      "value": "Add donor"
+      "value": "添加捐赠者"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.order.donorInformation.section": [
     {
       "type": 0,
-      "value": "Donor information"
+      "value": "捐赠者信息"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.order.eResourcesDetails.accessProvider": [
@@ -73399,6 +73421,18 @@
     {
       "type": 0,
       "value": "自由文本"
+    }
+  ],
+  "ui-inventory.hasLinkedLocalOrderLine.modal.heading": [
+    {
+      "type": 0,
+      "value": "Linked order line"
+    }
+  ],
+  "ui-inventory.hasLinkedLocalOrderLine.modal.message": [
+    {
+      "type": 0,
+      "value": "This holding or item is referenced by a local purchase order line, it's affiliation cannot be changed at this time."
     }
   ],
   "ui-inventory.holdingRecord": [

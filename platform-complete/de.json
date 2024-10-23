@@ -48021,13 +48021,13 @@
   "ui-data-import.settings.mappingProfiles.map.item.field.circulationNotes.addLabel": [
     {
       "type": 0,
-      "value": "Ausleih-/Rückgabe-Anmerkung hinzufügen"
+      "value": "Ausleih-/Check-In-Notiz hinzufügen"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.item.field.circulationNotes.checkInNote": [
     {
       "type": 0,
-      "value": "Rückgabebemerkungen"
+      "value": "Check-In-Notiz"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.item.field.circulationNotes.checkOutNote": [
@@ -48039,7 +48039,7 @@
   "ui-data-import.settings.mappingProfiles.map.item.field.circulationNotes.legend": [
     {
       "type": 0,
-      "value": "Ausleih-/Rückgabeanmerkungen"
+      "value": "Ausleih-/Check-In-Notizen"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.item.field.notes.addLabel": [
@@ -48213,7 +48213,7 @@
   "ui-data-import.settings.mappingProfiles.map.item.status.orderClosed": [
     {
       "type": 0,
-      "value": "Bestellung abgeschlossen"
+      "value": "Erwerbungsvorgang abgeschlossen"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.item.status.restricted": [
@@ -50263,7 +50263,7 @@
   "ui-data-import.settings.matchProfiles.checkInOutNoteType": [
     {
       "type": 0,
-      "value": "Ausleih-/Rückgabebeleg-Typ"
+      "value": "Ausleih-/Check-In-Notiz-Typ"
     }
   ],
   "ui-data-import.settings.matchProfiles.checkSubscriptionOverlap": [
@@ -71902,6 +71902,18 @@
     {
       "type": 0,
       "value": "Freitext"
+    }
+  ],
+  "ui-inventory.hasLinkedLocalOrderLine.modal.heading": [
+    {
+      "type": 0,
+      "value": "Linked order line"
+    }
+  ],
+  "ui-inventory.hasLinkedLocalOrderLine.modal.message": [
+    {
+      "type": 0,
+      "value": "This holding or item is referenced by a local purchase order line, it's affiliation cannot be changed at this time."
     }
   ],
   "ui-inventory.holdingRecord": [
