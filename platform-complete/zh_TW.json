@@ -24538,6 +24538,18 @@
       "value": "批次編輯：本機 - 編輯使用者記錄"
     }
   ],
+  "ui-bulk-edit.permission.inventory.edit": [
+    {
+      "type": 0,
+      "value": "Bulk Edit: In app - Edit inventory records"
+    }
+  ],
+  "ui-bulk-edit.permission.inventory.view": [
+    {
+      "type": 0,
+      "value": "Bulk Edit: In app - View inventory records"
+    }
+  ],
   "ui-bulk-edit.permission.logs.view": [
     {
       "type": 0,
@@ -24548,6 +24560,30 @@
     {
       "type": 0,
       "value": "UI：批次編輯模組已啟用"
+    }
+  ],
+  "ui-bulk-edit.permission.query.execute": [
+    {
+      "type": 0,
+      "value": "Bulk edit: Can build query"
+    }
+  ],
+  "ui-bulk-edit.permission.users.csv.edit": [
+    {
+      "type": 0,
+      "value": "Bulk Edit: Local - Edit user records"
+    }
+  ],
+  "ui-bulk-edit.permission.users.csv.view": [
+    {
+      "type": 0,
+      "value": "Bulk Edit: Local - View user records"
+    }
+  ],
+  "ui-bulk-edit.permission.users.edit": [
+    {
+      "type": 0,
+      "value": "Bulk edit: In app - Edit user records"
     }
   ],
   "ui-bulk-edit.permission.view": [
@@ -43477,6 +43513,12 @@
     {
       "type": 0,
       "value": "Data export: Can upload files, export, download files and view logs"
+    }
+  ],
+  "ui-data-export.permission.module.data-export.enabled": [
+    {
+      "type": 0,
+      "value": "Data export: Module enabled"
     }
   ],
   "ui-data-export.permission.settings.edit": [
@@ -75855,6 +75897,12 @@
       "value": "館藏庫：設定刪除記錄和對館員隱藏"
     }
   ],
+  "ui-inventory.permission.instance.set-records-for-deletion.execute": [
+    {
+      "type": 0,
+      "value": "Inventory: Set records for deletion"
+    }
+  ],
   "ui-inventory.permission.instance.view": [
     {
       "type": 0,
@@ -75903,16 +75951,34 @@
       "value": "館藏庫：建立和下載傳送中館藏報告"
     }
   ],
+  "ui-inventory.permission.items.in-transit-report.create": [
+    {
+      "type": 0,
+      "value": "Inventory: Create and download In transit items report"
+    }
+  ],
   "ui-inventory.permission.items.mark-in-process-non-requestable": [
     {
       "type": 0,
       "value": "館藏庫：標記正在處理的館藏（不可預約）"
     }
   ],
+  "ui-inventory.permission.items.mark-in-process-non-requestable.execute": [
+    {
+      "type": 0,
+      "value": "Inventory: Mark items in process (non-requestable)"
+    }
+  ],
   "ui-inventory.permission.items.mark-intellectual-item": [
     {
       "type": 0,
       "value": "館藏庫：標記館藏為虛擬館藏"
+    }
+  ],
+  "ui-inventory.permission.items.mark-intellectual-item.execute": [
+    {
+      "type": 0,
+      "value": "Inventory: Mark items intellectual item"
     }
   ],
   "ui-inventory.permission.items.mark-items-withdrawn": [
@@ -75927,10 +75993,22 @@
       "value": "館藏庫：標記長期遺失的館藏"
     }
   ],
+  "ui-inventory.permission.items.mark-long-missing.execute": [
+    {
+      "type": 0,
+      "value": "Inventory: Mark items long missing"
+    }
+  ],
   "ui-inventory.permission.items.mark-restricted": [
     {
       "type": 0,
       "value": "館藏庫：標記館藏使用限制"
+    }
+  ],
+  "ui-inventory.permission.items.mark-restricted.execute": [
+    {
+      "type": 0,
+      "value": "Inventory: Mark items restricted"
     }
   ],
   "ui-inventory.permission.items.mark-unavailable": [
@@ -75939,10 +76017,28 @@
       "value": "館藏庫：標記館藏不可用"
     }
   ],
+  "ui-inventory.permission.items.mark-unavailable.execute": [
+    {
+      "type": 0,
+      "value": "Inventory: Mark items unavailable"
+    }
+  ],
   "ui-inventory.permission.items.mark-unknown": [
     {
       "type": 0,
       "value": "館藏庫：標記館藏未知"
+    }
+  ],
+  "ui-inventory.permission.items.mark-unknown.execute": [
+    {
+      "type": 0,
+      "value": "Inventory: Mark items unknown"
+    }
+  ],
+  "ui-inventory.permission.items.mark-withdrawn.execute": [
+    {
+      "type": 0,
+      "value": "Inventory: Mark items withdrawn"
     }
   ],
   "ui-inventory.permission.settings.alternative-title-types": [
@@ -76053,10 +76149,22 @@
       "value": "設定（館藏庫）：檢視設定頁面列表"
     }
   ],
+  "ui-inventory.permission.settings.loan-types": [
+    {
+      "type": 0,
+      "value": "Settings (Inventory): Create, edit, delete loan types"
+    }
+  ],
   "ui-inventory.permission.settings.loantypes": [
     {
       "type": 0,
       "value": "設定（館藏庫）：建立、編輯、刪除借閱類型"
+    }
+  ],
+  "ui-inventory.permission.settings.material-types": [
+    {
+      "type": 0,
+      "value": "Settings (Inventory): Create, edit, delete material types"
     }
   ],
   "ui-inventory.permission.settings.materialtypes": [
@@ -85216,6 +85324,18 @@
     {
       "type": 0,
       "value": "選擇紀錄類型"
+    }
+  ],
+  "ui-lists.create-list.cross-tenant-tip": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Lists with cross-tenant query can only be set to Private."
+        }
+      ],
+      "type": 8,
+      "value": "strong"
     }
   ],
   "ui-lists.create-list.main.collapse-all": [
@@ -137763,6 +137883,12 @@
     {
       "type": 0,
       "value": "Patron pre-registration record results"
+    }
+  ],
+  "ui-users.stagingRecords.merge": [
+    {
+      "type": 0,
+      "value": "Merge"
     }
   ],
   "ui-users.stagingRecords.notActivated": [

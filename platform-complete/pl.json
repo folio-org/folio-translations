@@ -24497,6 +24497,18 @@
       "value": "Bulk Edit: Local - Edit user records"
     }
   ],
+  "ui-bulk-edit.permission.inventory.edit": [
+    {
+      "type": 0,
+      "value": "Bulk Edit: In app - Edit inventory records"
+    }
+  ],
+  "ui-bulk-edit.permission.inventory.view": [
+    {
+      "type": 0,
+      "value": "Bulk Edit: In app - View inventory records"
+    }
+  ],
   "ui-bulk-edit.permission.logs.view": [
     {
       "type": 0,
@@ -24507,6 +24519,30 @@
     {
       "type": 0,
       "value": "Moduł edycji grupowej jest niedostępny"
+    }
+  ],
+  "ui-bulk-edit.permission.query.execute": [
+    {
+      "type": 0,
+      "value": "Bulk edit: Can build query"
+    }
+  ],
+  "ui-bulk-edit.permission.users.csv.edit": [
+    {
+      "type": 0,
+      "value": "Bulk Edit: Local - Edit user records"
+    }
+  ],
+  "ui-bulk-edit.permission.users.csv.view": [
+    {
+      "type": 0,
+      "value": "Bulk Edit: Local - View user records"
+    }
+  ],
+  "ui-bulk-edit.permission.users.edit": [
+    {
+      "type": 0,
+      "value": "Bulk edit: In app - Edit user records"
     }
   ],
   "ui-bulk-edit.permission.view": [
@@ -42947,6 +42983,12 @@
     {
       "type": 0,
       "value": "Data export: Can upload files, export, download files and view logs"
+    }
+  ],
+  "ui-data-export.permission.module.data-export.enabled": [
+    {
+      "type": 0,
+      "value": "Data export: Module enabled"
     }
   ],
   "ui-data-export.permission.settings.edit": [
@@ -75055,6 +75097,12 @@
       "value": "Katalogowanie: Ustaw rekordy do usunięcia i ukryte przed pracownikami"
     }
   ],
+  "ui-inventory.permission.instance.set-records-for-deletion.execute": [
+    {
+      "type": 0,
+      "value": "Inventory: Set records for deletion"
+    }
+  ],
   "ui-inventory.permission.instance.view": [
     {
       "type": 0,
@@ -75103,16 +75151,34 @@
       "value": "Inventory: Create and download In transit items report"
     }
   ],
+  "ui-inventory.permission.items.in-transit-report.create": [
+    {
+      "type": 0,
+      "value": "Inventory: Create and download In transit items report"
+    }
+  ],
   "ui-inventory.permission.items.mark-in-process-non-requestable": [
     {
       "type": 0,
       "value": "Inwentarz: Oznacz egzemplarze w toku (niewymagane)"
     }
   ],
+  "ui-inventory.permission.items.mark-in-process-non-requestable.execute": [
+    {
+      "type": 0,
+      "value": "Inventory: Mark items in process (non-requestable)"
+    }
+  ],
   "ui-inventory.permission.items.mark-intellectual-item": [
     {
       "type": 0,
       "value": "Inwentarz: Oznacz egzemplarze jako przedmiot intelektualny"
+    }
+  ],
+  "ui-inventory.permission.items.mark-intellectual-item.execute": [
+    {
+      "type": 0,
+      "value": "Inventory: Mark items intellectual item"
     }
   ],
   "ui-inventory.permission.items.mark-items-withdrawn": [
@@ -75127,10 +75193,22 @@
       "value": "Inwentarz: Oznacz egzemplarze jako długotrwale brakujące"
     }
   ],
+  "ui-inventory.permission.items.mark-long-missing.execute": [
+    {
+      "type": 0,
+      "value": "Inventory: Mark items long missing"
+    }
+  ],
   "ui-inventory.permission.items.mark-restricted": [
     {
       "type": 0,
       "value": "Inwentarz: Oznacz egzemplarze jako zastrzeżone"
+    }
+  ],
+  "ui-inventory.permission.items.mark-restricted.execute": [
+    {
+      "type": 0,
+      "value": "Inventory: Mark items restricted"
     }
   ],
   "ui-inventory.permission.items.mark-unavailable": [
@@ -75139,10 +75217,28 @@
       "value": "Inwentarz: Oznacz egzemplarze jako niedostępne"
     }
   ],
+  "ui-inventory.permission.items.mark-unavailable.execute": [
+    {
+      "type": 0,
+      "value": "Inventory: Mark items unavailable"
+    }
+  ],
   "ui-inventory.permission.items.mark-unknown": [
     {
       "type": 0,
       "value": "Inwentarz: Oznacz egzemplarze jako nieznane"
+    }
+  ],
+  "ui-inventory.permission.items.mark-unknown.execute": [
+    {
+      "type": 0,
+      "value": "Inventory: Mark items unknown"
+    }
+  ],
+  "ui-inventory.permission.items.mark-withdrawn.execute": [
+    {
+      "type": 0,
+      "value": "Inventory: Mark items withdrawn"
     }
   ],
   "ui-inventory.permission.settings.alternative-title-types": [
@@ -75253,10 +75349,22 @@
       "value": "Ustawienia (Inwentarz): Wyświetlanie listy stron z ustawieniami"
     }
   ],
+  "ui-inventory.permission.settings.loan-types": [
+    {
+      "type": 0,
+      "value": "Settings (Inventory): Create, edit, delete loan types"
+    }
+  ],
   "ui-inventory.permission.settings.loantypes": [
     {
       "type": 0,
       "value": "Ustawienia (Inwentarz): Tworzenie, edycja, usuwanie sposobów wypożyczania"
+    }
+  ],
+  "ui-inventory.permission.settings.material-types": [
+    {
+      "type": 0,
+      "value": "Settings (Inventory): Create, edit, delete material types"
     }
   ],
   "ui-inventory.permission.settings.materialtypes": [
@@ -83988,6 +84096,18 @@
     {
       "type": 0,
       "value": "Wybierz typ rekordu"
+    }
+  ],
+  "ui-lists.create-list.cross-tenant-tip": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Lists with cross-tenant query can only be set to Private."
+        }
+      ],
+      "type": 8,
+      "value": "strong"
     }
   ],
   "ui-lists.create-list.main.collapse-all": [
@@ -135228,6 +135348,12 @@
     {
       "type": 0,
       "value": "Patron pre-registration record results"
+    }
+  ],
+  "ui-users.stagingRecords.merge": [
+    {
+      "type": 0,
+      "value": "Merge"
     }
   ],
   "ui-users.stagingRecords.notActivated": [
