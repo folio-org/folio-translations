@@ -29493,25 +29493,25 @@
   "ui-checkout.multipieceModal.item.descriptionOfPieces": [
     {
       "type": 0,
-      "value": "Description des pièces"
+      "value": "Description des unités"
     }
   ],
   "ui-checkout.multipieceModal.item.descriptionOfmissingPieces": [
     {
       "type": 0,
-      "value": "Description des pièces manquantes"
+      "value": "Description des unités manquantes"
     }
   ],
   "ui-checkout.multipieceModal.item.numberOfMissingPieces": [
     {
       "type": 0,
-      "value": "Nombre de pièces manquantes"
+      "value": "Nombre d'unités manquantes"
     }
   ],
   "ui-checkout.multipieceModal.item.numberOfPieces": [
     {
       "type": 0,
-      "value": "Nombre de pièces"
+      "value": "Nombre d'unités"
     }
   ],
   "ui-checkout.multipieceModal.label": [
@@ -29583,7 +29583,7 @@
   "ui-checkout.openAccounts": [
     {
       "type": 0,
-      "value": "Frais / amendes dûs"
+      "value": "Frais/amendes dûs"
     }
   ],
   "ui-checkout.openLoans": [
@@ -29684,10 +29684,22 @@
       "value": "Prêts : Prêter les exemplaires en circulation"
     }
   ],
+  "ui-checkout.permission.circulation.execute": [
+    {
+      "type": 0,
+      "value": "Check out: Check out circulating items"
+    }
+  ],
   "ui-checkout.permission.viewFeeFines": [
     {
       "type": 0,
       "value": "Prêts : Voir les frais/amendes"
+    }
+  ],
+  "ui-checkout.permission.viewFeeFines.view": [
+    {
+      "type": 0,
+      "value": "Check out: View fees/fines"
     }
   ],
   "ui-checkout.permission.viewLoans": [
@@ -29696,10 +29708,22 @@
       "value": "Prêts : Voir les emprunts"
     }
   ],
+  "ui-checkout.permission.viewLoans.view": [
+    {
+      "type": 0,
+      "value": "Check out: View loans"
+    }
+  ],
   "ui-checkout.permission.viewRequests": [
     {
       "type": 0,
       "value": "Prêts : Afficher les demandes de réservations"
+    }
+  ],
+  "ui-checkout.permission.viewRequests.view": [
+    {
+      "type": 0,
+      "value": "Check out: View requests"
     }
   ],
   "ui-checkout.presentation": [
@@ -117499,6 +117523,36 @@
       "value": "Mediated requests: Confirm item arrival"
     }
   ],
+  "ui-requests-mediated.permission.requests-mediated.confirm-item-arrival.execute": [
+    {
+      "type": 0,
+      "value": "Mediated requests: Confirm item arrival"
+    }
+  ],
+  "ui-requests-mediated.permission.requests-mediated.send-item-in-transit.execute": [
+    {
+      "type": 0,
+      "value": "Mediated requests: Send item in transit"
+    }
+  ],
+  "ui-requests-mediated.permission.requests-mediated.view-confirm.execute": [
+    {
+      "type": 0,
+      "value": "Mediated requests: View, confirm"
+    }
+  ],
+  "ui-requests-mediated.permission.requests-mediated.view-create-edit.execute": [
+    {
+      "type": 0,
+      "value": "Mediated requests: View, create, edit"
+    }
+  ],
+  "ui-requests-mediated.permission.requests-mediated.view-decline.execute": [
+    {
+      "type": 0,
+      "value": "Mediated requests: View, decline"
+    }
+  ],
   "ui-requests-mediated.permission.send-item-in-transit": [
     {
       "type": 0,
@@ -117724,13 +117778,13 @@
   "ui-requests.actions.closeNewRequest": [
     {
       "type": 0,
-      "value": "Fermer la nouvelle demande"
+      "value": "Fermer la nouvelle réservation"
     }
   ],
   "ui-requests.actions.createNewRequest": [
     {
       "type": 0,
-      "value": "Créer une nouvelle demande"
+      "value": "Créer une nouvelle réservation"
     }
   ],
   "ui-requests.actions.duplicateRequest": [
@@ -117748,13 +117802,13 @@
   "ui-requests.actions.editRequest": [
     {
       "type": 0,
-      "value": "Modifier la demande"
+      "value": "Modifier la réservation"
     }
   ],
   "ui-requests.actions.editRequestLink": [
     {
       "type": 0,
-      "value": "Boîte de dialogue Modifier la demande"
+      "value": "Boîte de dialogue \"Modifier la réservation\""
     }
   ],
   "ui-requests.actions.label": [
@@ -117772,13 +117826,13 @@
   "ui-requests.actions.moveRequest": [
     {
       "type": 0,
-      "value": "Déplacer la demande"
+      "value": "Déplacer la réservation"
     }
   ],
   "ui-requests.actions.newRequest": [
     {
       "type": 0,
-      "value": "Nouvelle demande"
+      "value": "Nouvelle réservation"
     }
   ],
   "ui-requests.actions.reorderQueue": [
@@ -117814,7 +117868,7 @@
   "ui-requests.actions.viewRequestsInQueue": [
     {
       "type": 0,
-      "value": "Afficher les demandes / réservations en file d'attente"
+      "value": "Afficher les réservations en file d'attente"
     }
   ],
   "ui-requests.additionalReasons": [
@@ -117872,13 +117926,13 @@
   "ui-requests.cancel.cancelRequest": [
     {
       "type": 0,
-      "value": "Annuler la demande"
+      "value": "Annuler la réservation"
     }
   ],
   "ui-requests.cancel.modalLabel": [
     {
       "type": 0,
-      "value": "Confirmer l'annulation de la demande"
+      "value": "Confirmer l'annulation de la réservation"
     }
   ],
   "ui-requests.cancel.notifyLabel": [
@@ -117897,16 +117951,8 @@
     {
       "children": [
         {
-          "type": 0,
-          "value": " "
-        },
-        {
           "type": 1,
           "value": "title"
-        },
-        {
-          "type": 0,
-          "value": " "
         }
       ],
       "type": 8,
@@ -117920,7 +117966,7 @@
       "children": [
         {
           "type": 0,
-          "value": " annulé(e) "
+          "value": "annulé"
         }
       ],
       "type": 8,
@@ -118106,7 +118152,7 @@
   "ui-requests.errors.cannotCreatePageTlrWithoutItemId": [
     {
       "type": 0,
-      "value": "Cannot create a title level page request for this instance ID with no item ID"
+      "value": "Impossible de créer une réservation au niveau du titre sur un exemplaire disponible pour cette ID de notice sans ID d'exemplaire"
     }
   ],
   "ui-requests.errors.closingAlreadyClosedRequest": [
@@ -118124,7 +118170,7 @@
   "ui-requests.errors.holdAndRecallTlrNotAllowedPageableAvailableItemFound": [
     {
       "type": 0,
-      "value": "Hold/Recall title level request not allowed: pageable available item found for instance"
+      "value": "Rappel/réservation sur exemplaire emprunté non autorisée : un exemplaire disponible a été trouvé pour cette notice"
     }
   ],
   "ui-requests.errors.holdShelfRequestsRequirePickupServicePoint": [
@@ -118142,7 +118188,7 @@
   "ui-requests.errors.instanceUuidOrHridDoesNotExist": [
     {
       "type": 0,
-      "value": "Instance with this HRID or UUID does not exist"
+      "value": "La notice avec ce HRID ou UUID n'existe pas"
     }
   ],
   "ui-requests.errors.itemAlreadyRequested": [
@@ -118244,7 +118290,7 @@
   "ui-requests.errors.selectInstanceRequired": [
     {
       "type": 0,
-      "value": "Please select an instance and hit enter"
+      "value": "Veuillez sélectionner la notice et appuyer sur Entrée"
     }
   ],
   "ui-requests.errors.selectItem": [
@@ -118262,7 +118308,7 @@
   "ui-requests.errors.selectUser": [
     {
       "type": 0,
-      "value": "Veuillez remplir les informations du demandeur pour continuer"
+      "value": "Veuillez remplir les informations du réservataire pour continuer"
     }
   ],
   "ui-requests.errors.servicePointIsNotPickupLocation": [
@@ -118274,7 +118320,7 @@
   "ui-requests.errors.sync.requestQueueBody": [
     {
       "type": 0,
-      "value": "Cette file d'attente a été mise à jour par une autre personne ou un autre processus et peut être désynchronisée."
+      "value": "Cette file d'attente des réservations a été mise à jour par une autre personne ou un autre processus et peut ne pas être à jour."
     }
   ],
   "ui-requests.errors.sync.requestQueueLabel": [
@@ -118286,13 +118332,13 @@
   "ui-requests.errors.unknown.requestQueueBody": [
     {
       "type": 0,
-      "value": "La réorganisation de la file d'attente de la demande/réservation a échoué"
+      "value": "La réorganisation de la file d'attente des réservations a échoué"
     }
   ],
   "ui-requests.errors.unknown.requestQueueLabel": [
     {
       "type": 0,
-      "value": "Erreur de file d'attente de la demande/réservation"
+      "value": "Erreur de file d'attente des réservationd"
     }
   ],
   "ui-requests.errors.userBarcodeDoesNotExist": [
@@ -118446,13 +118492,13 @@
   "ui-requests.instance.information": [
     {
       "type": 0,
-      "value": "Title information"
+      "value": "Informations sur le titre"
     }
   ],
   "ui-requests.instance.scanOrEnterBarcode": [
     {
       "type": 0,
-      "value": "Enter HRID or UUID"
+      "value": "Saisir le HRID ou l'UUID"
     }
   ],
   "ui-requests.instance.title": [
@@ -118464,7 +118510,7 @@
   "ui-requests.instance.value": [
     {
       "type": 0,
-      "value": "Instance HRID or UUID"
+      "value": "HRID ou UUID de la notice"
     }
   ],
   "ui-requests.item.barcode": [
@@ -118912,13 +118958,13 @@
   "ui-requests.moveRequest.secondPositionMessage": [
     {
       "type": 0,
-      "value": "Requests cannot be moved above page requests, even when fulfillment has not begun. This request will be moved to position 2 in the request queue."
+      "value": "Les réservations ne peuvent être déplacées au-dessus des réservations sur exemplaire disponible, même si leur traitement n'a pas encore commencé. Cette réservation sera déplacée en seconde position dans la file d'attente des réservations."
     }
   ],
   "ui-requests.moveRequest.secondPositionTitle": [
     {
       "type": 0,
-      "value": "Demande déplacée en position 2 de la file d'attente"
+      "value": "Réservation déplacée en position 2 de la file d'attente"
     }
   ],
   "ui-requests.moveRequest.selectItem": [
@@ -118930,13 +118976,13 @@
   "ui-requests.moveRequest.success": [
     {
       "type": 0,
-      "value": "La demande a été déplacée avec succès"
+      "value": "La réservation a été déplacée avec succès"
     }
   ],
   "ui-requests.navigation.app": [
     {
       "type": 0,
-      "value": "Rechercher dans l'application Réservations"
+      "value": "Rechercher dans Réservations"
     }
   ],
   "ui-requests.navigation.keyboardShortcuts": [
@@ -118988,7 +119034,7 @@
   "ui-requests.notes.assigned.requestDate": [
     {
       "type": 0,
-      "value": "Date de la demande: "
+      "value": "Date de la réservation : "
     },
     {
       "type": 1,
@@ -119008,7 +119054,7 @@
   "ui-requests.notes.entityType.request": [
     {
       "type": 0,
-      "value": "Demande"
+      "value": "Réservation"
     }
   ],
   "ui-requests.notes.entityType.request.pluralized": [
@@ -119027,7 +119073,7 @@
           "value": [
             {
               "type": 0,
-              "value": " demande "
+              "value": "réservation"
             }
           ]
         },
@@ -119035,7 +119081,7 @@
           "value": [
             {
               "type": 0,
-              "value": " demandes "
+              "value": "réservations"
             }
           ]
         }
@@ -119072,19 +119118,19 @@
   "ui-requests.permission.all": [
     {
       "type": 0,
-      "value": "Demandes/réservations: toutes les autorisations"
+      "value": "Réservations : toutes les autorisations"
     }
   ],
   "ui-requests.permission.create": [
     {
       "type": 0,
-      "value": "Demandes/réservations: afficher, créer"
+      "value": "Réservations : afficher, créer"
     }
   ],
   "ui-requests.permission.edit": [
     {
       "type": 0,
-      "value": "Demandes/Réservations: afficher, modifier, annuler"
+      "value": "Réservations : afficher, modifier, annuler"
     }
   ],
   "ui-requests.permission.moveRequest": [
@@ -119093,16 +119139,28 @@
       "value": "Réservations : déplacer vers un nouvel exemplaire, réorganiser la file d'attente"
     }
   ],
+  "ui-requests.permission.moveRequest.execute": [
+    {
+      "type": 0,
+      "value": "Requests: Move to new item, reorder queue"
+    }
+  ],
   "ui-requests.permission.reorderQueue": [
     {
       "type": 0,
-      "value": "Demandes/réservations: réorganiser la file d'attente"
+      "value": "Réservations : réorganiser la file d'attente"
+    }
+  ],
+  "ui-requests.permission.reorderQueue.execute": [
+    {
+      "type": 0,
+      "value": "Requests: Reorder queue"
     }
   ],
   "ui-requests.permission.view": [
     {
       "type": 0,
-      "value": "Demandes/réservations: Afficher"
+      "value": "Réservations : Afficher"
     }
   ],
   "ui-requests.pickSlipsLoading": [
@@ -119192,13 +119250,13 @@
   "ui-requests.requestDate": [
     {
       "type": 0,
-      "value": "requestDate"
+      "value": "Date de la réservation"
     }
   ],
   "ui-requests.requestExpirationDate": [
     {
       "type": 0,
-      "value": "Date d'expiration de la demande"
+      "value": "Date d'expiration de la réservation"
     }
   ],
   "ui-requests.requestLevel": [
@@ -119216,7 +119274,7 @@
   "ui-requests.requestMeta.expirationDate": [
     {
       "type": 0,
-      "value": "Date d'expiration de la demande"
+      "value": "Date d'expiration de la réservation"
     }
   ],
   "ui-requests.requestMeta.fulfillment.delivery": [
@@ -119288,43 +119346,43 @@
   "ui-requests.requestMeta.type.hold": [
     {
       "type": 0,
-      "value": "Réservation"
+      "value": "Réservation sur exemplaire emprunté"
     }
   ],
   "ui-requests.requestMeta.type.holds": [
     {
       "type": 0,
-      "value": "Réservations"
+      "value": "Réservations sur exemplaire emprunté"
     }
   ],
   "ui-requests.requestMeta.type.page": [
     {
       "type": 0,
-      "value": "Page"
+      "value": "Réservation sur exemplaire disponible"
     }
   ],
   "ui-requests.requestMeta.type.pages": [
     {
       "type": 0,
-      "value": "Pages"
+      "value": "Réservations sur exemplaire disponible"
     }
   ],
   "ui-requests.requestMeta.type.recall": [
     {
       "type": 0,
-      "value": "Rappel"
+      "value": "Rappel d'un exemplaire emprunté"
     }
   ],
   "ui-requests.requestMeta.type.recalls": [
     {
       "type": 0,
-      "value": "Rappels"
+      "value": "Rappels d'un exemplaire emprunté"
     }
   ],
   "ui-requests.requestNotAllowed": [
     {
       "type": 0,
-      "value": "Demande non autorisée"
+      "value": "Réservation non autorisée"
     }
   ],
   "ui-requests.requestQueue": [
@@ -119354,25 +119412,25 @@
   "ui-requests.requestQueue.confirmReorder.message1": [
     {
       "type": 0,
-      "value": "Les demandes ne peuvent pas être déplacées de la position 1 lorsque l'exécution a commencé."
+      "value": "Les réservations ne peuvent pas être déplacées de la position 1 lorsque le traitement a commencé."
     }
   ],
   "ui-requests.requestQueue.confirmReorder.message2": [
     {
       "type": 0,
-      "value": "Les demandes ne peuvent pas être déplacées au-dessus des demandes de page, même si leur traitement n'a pas commencé."
+      "value": "Les réservations ne peuvent pas être déplacées au-dessus des réservations sur exemplaire disponible, même si leur traitement n'a pas commencé."
     }
   ],
   "ui-requests.requestQueue.confirmReorder.title": [
     {
       "type": 0,
-      "value": "Demande déplacée en position 2 de la file d'attente"
+      "value": "Réservation déplacée en position 2 de la file d'attente"
     }
   ],
   "ui-requests.requestQueue.deliveryType": [
     {
       "type": 0,
-      "value": "Livraison: "
+      "value": "Livraison : "
     },
     {
       "type": 1,
@@ -119532,7 +119590,7 @@
   "ui-requests.requestQueue.refresh": [
     {
       "type": 0,
-      "value": "Rafraîchir la file d'attente"
+      "value": "Actualiser la file d'attente"
     }
   ],
   "ui-requests.requestQueue.reorderSuccess": [
@@ -119544,13 +119602,13 @@
   "ui-requests.requestQueue.requestDate": [
     {
       "type": 0,
-      "value": "Date de la demande"
+      "value": "Date de la réservation"
     }
   ],
   "ui-requests.requestQueue.requestExpirationDate": [
     {
       "type": 0,
-      "value": "Expiration de la demande"
+      "value": "Expiration de la réservation"
     }
   ],
   "ui-requests.requestQueue.requestInProgress": [
@@ -132132,6 +132190,18 @@
       "value": "Utilisateurs : peut voir les photos de profil"
     }
   ],
+  "ui-users.permission.reading-room-access.edit": [
+    {
+      "type": 0,
+      "value": "Users: Can view, and edit reading room access"
+    }
+  ],
+  "ui-users.permission.reading-room-access.view": [
+    {
+      "type": 0,
+      "value": "Users: Can view reading room access"
+    }
+  ],
   "ui-users.permission.remove-patron-notice-print-jobs": [
     {
       "type": 0,
@@ -135237,6 +135307,26 @@
     {
       "type": 0,
       "value": "Search by name or email"
+    }
+  ],
+  "ui-users.stagingUser.createUser": [
+    {
+      "type": 0,
+      "value": "FOLIO user record "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "name"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " has been successfully created."
     }
   ],
   "ui-users.status": [

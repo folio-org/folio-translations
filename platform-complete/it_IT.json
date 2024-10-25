@@ -29847,7 +29847,19 @@
       "value": "Check out: Check out circulating items"
     }
   ],
+  "ui-checkout.permission.circulation.execute": [
+    {
+      "type": 0,
+      "value": "Check out: Check out circulating items"
+    }
+  ],
   "ui-checkout.permission.viewFeeFines": [
+    {
+      "type": 0,
+      "value": "Check out: View fees/fines"
+    }
+  ],
+  "ui-checkout.permission.viewFeeFines.view": [
     {
       "type": 0,
       "value": "Check out: View fees/fines"
@@ -29859,7 +29871,19 @@
       "value": "Check out: View loans"
     }
   ],
+  "ui-checkout.permission.viewLoans.view": [
+    {
+      "type": 0,
+      "value": "Check out: View loans"
+    }
+  ],
   "ui-checkout.permission.viewRequests": [
+    {
+      "type": 0,
+      "value": "Check out: View requests"
+    }
+  ],
+  "ui-checkout.permission.viewRequests.view": [
     {
       "type": 0,
       "value": "Check out: View requests"
@@ -117514,6 +117538,36 @@
       "value": "Mediated requests: Confirm item arrival"
     }
   ],
+  "ui-requests-mediated.permission.requests-mediated.confirm-item-arrival.execute": [
+    {
+      "type": 0,
+      "value": "Mediated requests: Confirm item arrival"
+    }
+  ],
+  "ui-requests-mediated.permission.requests-mediated.send-item-in-transit.execute": [
+    {
+      "type": 0,
+      "value": "Mediated requests: Send item in transit"
+    }
+  ],
+  "ui-requests-mediated.permission.requests-mediated.view-confirm.execute": [
+    {
+      "type": 0,
+      "value": "Mediated requests: View, confirm"
+    }
+  ],
+  "ui-requests-mediated.permission.requests-mediated.view-create-edit.execute": [
+    {
+      "type": 0,
+      "value": "Mediated requests: View, create, edit"
+    }
+  ],
+  "ui-requests-mediated.permission.requests-mediated.view-decline.execute": [
+    {
+      "type": 0,
+      "value": "Mediated requests: View, decline"
+    }
+  ],
   "ui-requests-mediated.permission.send-item-in-transit": [
     {
       "type": 0,
@@ -119092,10 +119146,22 @@
       "value": "Richieste: sposta la richiesta, riordina coda"
     }
   ],
+  "ui-requests.permission.moveRequest.execute": [
+    {
+      "type": 0,
+      "value": "Requests: Move to new item, reorder queue"
+    }
+  ],
   "ui-requests.permission.reorderQueue": [
     {
       "type": 0,
       "value": "Richieste: riordina coda"
+    }
+  ],
+  "ui-requests.permission.reorderQueue.execute": [
+    {
+      "type": 0,
+      "value": "Requests: Reorder queue"
     }
   ],
   "ui-requests.permission.view": [
@@ -132059,6 +132125,18 @@
       "value": "Users: Can view profile pictures"
     }
   ],
+  "ui-users.permission.reading-room-access.edit": [
+    {
+      "type": 0,
+      "value": "Users: Can view, and edit reading room access"
+    }
+  ],
+  "ui-users.permission.reading-room-access.view": [
+    {
+      "type": 0,
+      "value": "Users: Can view reading room access"
+    }
+  ],
   "ui-users.permission.remove-patron-notice-print-jobs": [
     {
       "type": 0,
@@ -135168,6 +135246,26 @@
     {
       "type": 0,
       "value": "Search by name or email"
+    }
+  ],
+  "ui-users.stagingUser.createUser": [
+    {
+      "type": 0,
+      "value": "FOLIO user record "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "name"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " has been successfully created."
     }
   ],
   "ui-users.status": [
