@@ -126208,7 +126208,35 @@
     },
     {
       "type": 0,
-      "value": " المواد المحددة. "
+      "value": " "
+    },
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "item"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "items"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "total"
+    },
+    {
+      "type": 0,
+      "value": " selected. "
     },
     {
       "style": null,
@@ -126226,7 +126254,7 @@
           "value": [
             {
               "type": 0,
-              "value": " مادة "
+              "value": "item"
             }
           ]
         },
@@ -126234,7 +126262,7 @@
           "value": [
             {
               "type": 0,
-              "value": " مادة "
+              "value": "items"
             }
           ]
         }
@@ -126245,7 +126273,7 @@
     },
     {
       "type": 0,
-      "value": " لا يمكن أن تكون "
+      "value": " cannot be "
     },
     {
       "type": 1,
@@ -126253,7 +126281,35 @@
     },
     {
       "type": 0,
-      "value": " لأنها مغلقة بالفعل."
+      "value": " because "
+    },
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "it is"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "they are"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "items"
+    },
+    {
+      "type": 0,
+      "value": " already closed."
     }
   ],
   "ui-users.accounts.warning.unpaidItemSelected": [

@@ -132167,13 +132167,13 @@
   "ui-users.permission.patron-pre-registrations.execute": [
     {
       "type": 0,
-      "value": "Users: Can merge patron preregistration data"
+      "value": "Usuarios: Pueden fusionar los datos de preinscripción de los usuarios"
     }
   ],
   "ui-users.permission.patron-pre-registrations.view": [
     {
       "type": 0,
-      "value": "Users: Can view patron pre-registration data"
+      "value": "Usuarios: Pueden ver los datos de preinscripción de los usuarios"
     }
   ],
   "ui-users.permission.patron_blocks": [
@@ -134851,21 +134851,13 @@
   "ui-users.settings.limits.callout.message": [
     {
       "type": 0,
-      "value": "El limite de bloqueo para el grupo "
+      "value": "The patron block limit for patron group "
     },
     {
       "children": [
-        {
-          "type": 0,
-          "value": " "
-        },
         {
           "type": 1,
-          "value": "title"
-        },
-        {
-          "type": 0,
-          "value": " "
+          "value": "patronGroup"
         }
       ],
       "type": 8,
@@ -134873,13 +134865,13 @@
     },
     {
       "type": 0,
-      "value": " fue actualizado con "
+      "value": " has been successfully "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "éxito "
+          "value": "updated"
         }
       ],
       "type": 8,
@@ -134887,7 +134879,7 @@
     },
     {
       "type": 0,
-      "value": " "
+      "value": "."
     }
   ],
   "ui-users.settings.limits.validation.message": [
@@ -135192,13 +135184,13 @@
   "ui-users.stagingRecords.duplicates.results.paneTitle": [
     {
       "type": 0,
-      "value": "Existing FOLIO user records"
+      "value": "Registros de usuarios de FOLIO existentes"
     }
   ],
   "ui-users.stagingRecords.duplicates.results.warning": [
     {
       "type": 0,
-      "value": "Please review existing FOLIO user records. Merging a preregistration record will replace corresponding fields in the FOLIO user record. Updates cannot be reverted."
+      "value": "Por favor, revisa los registros de usuario FOLIO existentes. La fusión de un registro de preinscripción sustituirá los campos correspondientes en el registro de usuario de FOLIO. Las actualizaciones no se pueden revertir."
     }
   ],
   "ui-users.stagingRecords.list.columnNames.action": [

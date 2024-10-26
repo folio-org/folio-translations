@@ -11654,7 +11654,7 @@
   "stripes-smart-components.address.alternate": [
     {
       "type": 0,
-      "value": "Alternate"
+      "value": "Alterno"
     }
   ],
   "stripes-smart-components.address.noAddressesStored": [
@@ -11666,7 +11666,7 @@
   "stripes-smart-components.address.primary": [
     {
       "type": 0,
-      "value": "Primary"
+      "value": "Principal"
     }
   ],
   "stripes-smart-components.addressEdit.label.addressLine1": [
@@ -11746,7 +11746,7 @@
   "stripes-smart-components.advancedSearch": [
     {
       "type": 0,
-      "value": "Búsqueda avanzada"
+      "value": "Búsqueda Avanzada"
     }
   ],
   "stripes-smart-components.assign": [
@@ -11776,13 +11776,13 @@
   "stripes-smart-components.cannotSaveNewTag": [
     {
       "type": 0,
-      "value": "Cannot create new tag: you may not have the required permissions."
+      "value": "No se puede crear una nueva etiqueta: es posible que no disponga de los permisos necesarios."
     }
   ],
   "stripes-smart-components.cannotSaveTagToRecord": [
     {
       "type": 0,
-      "value": "Cannot save tag data to record.  Check that you have the required permissions."
+      "value": "No se pueden guardar los datos de la etiqueta en el registro. Compruebe que tiene los permisos necesarios."
     }
   ],
   "stripes-smart-components.cddd.changeDueDate": [
@@ -11812,13 +11812,13 @@
   "stripes-smart-components.cddd.changeSucceededWithCount": [
     {
       "type": 0,
-      "value": "La fecha y hora de vencimiento ha sido "
+      "value": "La fecha y hora de vencimiento se han "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "correctamente"
+          "value": " cambiado correctamente "
         }
       ],
       "type": 8,
@@ -11826,14 +11826,22 @@
     },
     {
       "type": 0,
-      "value": " modificada "
+      "value": " "
     },
     {
       "children": [
         {
+          "type": 0,
+          "value": " "
+        },
+        {
           "style": null,
           "type": 2,
           "value": "succeeded"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -11850,7 +11858,7 @@
           "value": [
             {
               "type": 0,
-              "value": "item"
+              "value": " elemento "
             }
           ]
         },
@@ -11858,7 +11866,7 @@
           "value": [
             {
               "type": 0,
-              "value": "items"
+              "value": " elementos "
             }
           ]
         }
@@ -11869,7 +11877,7 @@
     },
     {
       "type": 0,
-      "value": "."
+      "value": " ."
     }
   ],
   "stripes-smart-components.cddd.changeSucceededWithFailures": [
@@ -11879,13 +11887,13 @@
     },
     {
       "type": 0,
-      "value": " fechas de vencimiento "
+      "value": " Las fechas de vencimiento "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "not"
+          "value": "no"
         }
       ],
       "type": 8,
@@ -11893,7 +11901,7 @@
     },
     {
       "type": 0,
-      "value": " cambiadas. "
+      "value": " han cambiado. "
     },
     {
       "type": 1,
@@ -11901,13 +11909,13 @@
     },
     {
       "type": 0,
-      "value": " fechas de vencimiento cambiadas "
+      "value": " Las fechas de vencimiento han sido "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "con éxito"
+          "value": "exitosamente"
         }
       ],
       "type": 8,
@@ -11915,7 +11923,7 @@
     },
     {
       "type": 0,
-      "value": "."
+      "value": " actualizadas."
     }
   ],
   "stripes-smart-components.cddd.date": [
@@ -11951,7 +11959,7 @@
   "stripes-smart-components.cddd.header.itemStatus": [
     {
       "type": 0,
-      "value": "Estado del ítem"
+      "value": "Estado del artículo"
     }
   ],
   "stripes-smart-components.cddd.header.loanPolicy": [
@@ -12017,7 +12025,7 @@
   "stripes-smart-components.cddd.itemHasRequestQueue": [
     {
       "type": 0,
-      "value": "El ítem tiene una cola de solicitudes"
+      "value": "El artículo tiene una cola de solicitudes"
     }
   ],
   "stripes-smart-components.cddd.itemsHaveWarnings": [
@@ -12043,7 +12051,7 @@
           "value": [
             {
               "type": 0,
-              "value": "item"
+              "value": "artículo"
             }
           ]
         },
@@ -12051,7 +12059,7 @@
           "value": [
             {
               "type": 0,
-              "value": "items"
+              "value": "ítems"
             }
           ]
         }
@@ -12062,13 +12070,13 @@
     },
     {
       "type": 0,
-      "value": " have "
+      "value": " tienen "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "warnings."
+          "value": "advertencias."
         }
       ],
       "type": 8,
@@ -12123,11 +12131,15 @@
       "children": [
         {
           "type": 0,
-          "value": "selected."
+          "value": "seleccionado(s)"
         }
       ],
       "type": 8,
       "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "."
     }
   ],
   "stripes-smart-components.cddd.selectAllLoans": [
@@ -12139,7 +12151,7 @@
   "stripes-smart-components.cddd.selectLoan": [
     {
       "type": 0,
-      "value": "Seleccione el préstamo \" "
+      "value": "Seleccione el préstamo \""
     },
     {
       "type": 1,
@@ -12147,7 +12159,7 @@
     },
     {
       "type": 0,
-      "value": " \""
+      "value": "\"."
     }
   ],
   "stripes-smart-components.cddd.time": [
@@ -12177,7 +12189,7 @@
   "stripes-smart-components.clipCopy.success": [
     {
       "type": 0,
-      "value": "Successfully copied \""
+      "value": "Copiado con éxito \""
     },
     {
       "type": 1,
@@ -12185,7 +12197,7 @@
     },
     {
       "type": 0,
-      "value": "\" to clipboard."
+      "value": "\" al portapapeles."
     }
   ],
   "stripes-smart-components.closeEntryDialog": [
@@ -12203,7 +12215,7 @@
   "stripes-smart-components.columnManager.showColumns": [
     {
       "type": 0,
-      "value": "Show columns"
+      "value": "Mostrar columnas"
     }
   ],
   "stripes-smart-components.customFields": [
@@ -12594,7 +12606,7 @@
   "stripes-smart-components.customFields.fieldValue.whitespace": [
     {
       "type": 0,
-      "value": "Whitespace only character(s) is not allowed."
+      "value": "No se permite el uso de espacios en blanco."
     }
   ],
   "stripes-smart-components.customFields.helpText.lengthExceeded": [
@@ -12642,29 +12654,25 @@
   "stripes-smart-components.customFields.new": [
     {
       "type": 0,
-      "value": "New"
+      "value": "Nuevo"
     }
   ],
   "stripes-smart-components.customFields.noCustomFieldsFound": [
     {
       "type": 0,
-      "value": "No custom fields found"
+      "value": "No se encontraron campos personalizados"
     }
   ],
   "stripes-smart-components.customFields.option.delete.warning": [
     {
       "type": 0,
-      "value": "Deleting the field "
+      "value": "Eliminar la opción "
     },
     {
       "children": [
         {
           "type": 1,
-          "value": "fieldName"
-        },
-        {
-          "type": 0,
-          "value": "'s"
+          "value": "optionName"
         }
       ],
       "type": 8,
@@ -12672,14 +12680,24 @@
     },
     {
       "type": 0,
-      "value": " option "
+      "value": " del campo "
     },
     {
       "children": [
         {
           "type": 1,
-          "value": "optionName"
-        },
+          "value": "fieldName"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " "
+    },
+    {
+      "children": [
         {
           "type": 0,
           "value": "."
@@ -12690,13 +12708,13 @@
     },
     {
       "type": 0,
-      "value": " No data stored for this options."
+      "value": " No hay datos almacenados para esta opción."
     }
   ],
   "stripes-smart-components.customFields.option.deleteLabel": [
     {
       "type": 0,
-      "value": "Delete"
+      "value": "Borrar"
     }
   ],
   "stripes-smart-components.customFields.option.duplicate": [
@@ -12817,13 +12835,13 @@
   "stripes-smart-components.customFields.save&Close": [
     {
       "type": 0,
-      "value": "Save & close"
+      "value": "Guardar y cerrar"
     }
   ],
   "stripes-smart-components.customFields.select.placeholder": [
     {
       "type": 0,
-      "value": "Select a "
+      "value": "Seleccione una "
     },
     {
       "type": 1,
@@ -12839,7 +12857,7 @@
   "stripes-smart-components.customFields.settings.accordionTitle": [
     {
       "type": 0,
-      "value": "Accordion title"
+      "value": "Título del acordeón"
     }
   ],
   "stripes-smart-components.customFields.settings.sectionTitle": [
@@ -12875,7 +12893,7 @@
   "stripes-smart-components.cv.lastUpdated": [
     {
       "type": 0,
-      "value": "Última actualización"
+      "value": "Última Actualización"
     }
   ],
   "stripes-smart-components.cv.noExistingTerms": [
@@ -13205,13 +13223,13 @@
   "stripes-smart-components.error.conflict": [
     {
       "type": 0,
-      "value": "You are editing an old version of this data. To load the latest version click cancel, "
+      "value": "Está editando una versión antigua de estos datos. Para cargar la versión más reciente, haga clic en cancelar, "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "refresh the page"
+          "value": "actualice la página e inténtelo de"
         }
       ],
       "type": 8,
@@ -13219,7 +13237,7 @@
     },
     {
       "type": 0,
-      "value": " and try again."
+      "value": " nuevo."
     }
   ],
   "stripes-smart-components.error.defaultRemoveError": [
@@ -13267,7 +13285,7 @@
   "stripes-smart-components.hideSearchPane": [
     {
       "type": 0,
-      "value": "Ocultar panel de Búsqueda y Filtros."
+      "value": "Contraer el panel de búsqueda y filtro"
     }
   ],
   "stripes-smart-components.isActingAs": [
@@ -13331,7 +13349,7 @@
   "stripes-smart-components.ll.remoteLabel": [
     {
       "type": 0,
-      "value": "Remote"
+      "value": "Remoto"
     }
   ],
   "stripes-smart-components.ll.saveAndClose": [
@@ -13453,7 +13471,7 @@
   "stripes-smart-components.notes.assigned": [
     {
       "type": 0,
-      "value": "Asignado"
+      "value": "AsIgnado"
     }
   ],
   "stripes-smart-components.notes.assigned.count": [
@@ -13489,13 +13507,13 @@
   "stripes-smart-components.notes.delete": [
     {
       "type": 0,
-      "value": "Eliminar"
+      "value": "Borrar"
     }
   ],
   "stripes-smart-components.notes.delete.confirm.message": [
     {
       "type": 0,
-      "value": "The note "
+      "value": "La nota "
     },
     {
       "children": [
@@ -13509,13 +13527,13 @@
     },
     {
       "type": 0,
-      "value": " will be permanently "
+      "value": " será "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "deleted"
+          "value": "eliminada"
         }
       ],
       "type": 8,
@@ -13523,7 +13541,7 @@
     },
     {
       "type": 0,
-      "value": ". This note is attached to "
+      "value": " permanentemente. Esta nota se adjunta a "
     },
     {
       "children": [
@@ -13563,6 +13581,10 @@
       "pluralType": "cardinal",
       "type": 6,
       "value": "resourcesNumber"
+    },
+    {
+      "type": 0,
+      "value": "."
     }
   ],
   "stripes-smart-components.notes.deleteNote": [
@@ -13574,7 +13596,7 @@
   "stripes-smart-components.notes.details.invalidCharacter": [
     {
       "type": 0,
-      "value": "Los detalles de la nota no acepta los siguientes caracteres: "
+      "value": "Los detalles en la nota no acepta los siguientes caracteres: "
     },
     {
       "type": 1,
@@ -13590,19 +13612,19 @@
   "stripes-smart-components.notes.displayAsPopup.checkout": [
     {
       "type": 0,
-      "value": "Check out app"
+      "value": "Consulta la aplicación"
     }
   ],
   "stripes-smart-components.notes.displayAsPopup.label": [
     {
       "type": 0,
-      "value": "Display note as a pop-up"
+      "value": "Mostrar la nota como una ventana emergente"
     }
   ],
   "stripes-smart-components.notes.displayAsPopup.users": [
     {
       "type": 0,
-      "value": "Users app"
+      "value": "Usuarios app"
     }
   ],
   "stripes-smart-components.notes.edit": [
@@ -13725,13 +13747,13 @@
   "stripes-smart-components.notes.popupModal.delete": [
     {
       "type": 0,
-      "value": "Delete note"
+      "value": "Borrar nota"
     }
   ],
   "stripes-smart-components.notes.popupModal.label": [
     {
       "type": 0,
-      "value": "Note for patron"
+      "value": "Nota para el usuario"
     }
   ],
   "stripes-smart-components.notes.saveAndClose": [
@@ -13749,7 +13771,7 @@
   "stripes-smart-components.notes.showMoreDetails": [
     {
       "type": 0,
-      "value": "Mostrar más"
+      "value": "Ver más"
     }
   ],
   "stripes-smart-components.notes.title.invalidCharacter": [
@@ -13777,7 +13799,7 @@
   "stripes-smart-components.notes.titleAndDetails": [
     {
       "type": 0,
-      "value": "Title and details"
+      "value": "Título y datos"
     }
   ],
   "stripes-smart-components.notes.type": [
@@ -13841,7 +13863,7 @@
   "stripes-smart-components.notes.unassignNote": [
     {
       "type": 0,
-      "value": "Desasignar nota"
+      "value": "Eliminar la nota"
     }
   ],
   "stripes-smart-components.numberOfFilters": [
@@ -14211,7 +14233,7 @@
   "stripes-smart-components.showSearchPane": [
     {
       "type": 0,
-      "value": "Mostrar panel Búsqueda y Filtros."
+      "value": "Expandir el panel de búsqueda y filtro"
     }
   ],
   "stripes-smart-components.status": [
@@ -14223,7 +14245,7 @@
   "stripes-smart-components.success.message": [
     {
       "type": 0,
-      "value": "The "
+      "value": "La "
     },
     {
       "type": 1,
@@ -14245,7 +14267,7 @@
     },
     {
       "type": 0,
-      "value": " was successfully "
+      "value": " se ha "
     },
     {
       "children": [
@@ -14259,7 +14281,7 @@
     },
     {
       "type": 0,
-      "value": "."
+      "value": " correctamente."
     }
   ],
   "stripes-smart-components.system": [
@@ -125179,7 +125201,7 @@
     },
     {
       "type": 0,
-      "value": " para "
+      "value": " for "
     },
     {
       "children": [
@@ -125193,7 +125215,7 @@
     },
     {
       "type": 0,
-      "value": " "
+      "value": " has been successfully "
     },
     {
       "children": [
@@ -125207,7 +125229,7 @@
     },
     {
       "type": 0,
-      "value": "se ha realizado con exito para "
+      "value": " for "
     },
     {
       "children": [
@@ -125241,7 +125263,7 @@
   "ui-users.accounts.actions.refundFeeFine": [
     {
       "type": 0,
-      "value": "Reembolsar tasas/multas"
+      "value": "Reembolsar tarifas/multas"
     }
   ],
   "ui-users.accounts.actions.tag.patron": [
@@ -125271,7 +125293,7 @@
   "ui-users.accounts.actions.waive": [
     {
       "type": 0,
-      "value": "renuncia"
+      "value": "renunciar"
     }
   ],
   "ui-users.accounts.actions.waiveFeeFine": [
@@ -125389,7 +125411,7 @@
   "ui-users.accounts.all": [
     {
       "type": 0,
-      "value": "Todos"
+      "value": "Todo"
     }
   ],
   "ui-users.accounts.button.error": [
@@ -125401,13 +125423,13 @@
   "ui-users.accounts.button.new": [
     {
       "type": 0,
-      "value": " Nueva tarifa/multa"
+      "value": "Nueva tarifa/multa"
     }
   ],
   "ui-users.accounts.cancelError": [
     {
       "type": 0,
-      "value": "Cancelado por error"
+      "value": "Cancelado como Error"
     }
   ],
   "ui-users.accounts.cancellation.error.comment": [
@@ -125525,7 +125547,7 @@
   "ui-users.accounts.comment.field.feeFineComment": [
     {
       "type": 0,
-      "value": "Información para el personal"
+      "value": "Información sobre el personal"
     }
   ],
   "ui-users.accounts.comment.field.save": [
@@ -125537,7 +125559,7 @@
   "ui-users.accounts.comment.staffInfo": [
     {
       "type": 0,
-      "value": "Información sólo para el personal"
+      "value": "Sólo información del personal"
     }
   ],
   "ui-users.accounts.commentStaff": [
@@ -125649,7 +125671,7 @@
   "ui-users.accounts.exportFeesFines": [
     {
       "type": 0,
-      "value": "Export fees/fines"
+      "value": "Exportar tarifas/multas"
     }
   ],
   "ui-users.accounts.feeFine": [
@@ -125767,31 +125789,31 @@
   "ui-users.accounts.history.columns.number": [
     {
       "type": 0,
-      "value": "Clasificación"
+      "value": "Número de clasificación"
     }
   ],
   "ui-users.accounts.history.columns.owner": [
     {
       "type": 0,
-      "value": "Propietario de la tarifa/multa"
+      "value": "Propietario de la multa/sanción"
     }
   ],
   "ui-users.accounts.history.columns.remaining": [
     {
       "type": 0,
-      "value": "Pendiente"
+      "value": "Restante"
     }
   ],
   "ui-users.accounts.history.columns.returned": [
     {
       "type": 0,
-      "value": "Fecha devuelto"
+      "value": "Fecha de devolución"
     }
   ],
   "ui-users.accounts.history.columns.status": [
     {
       "type": 0,
-      "value": "Estado de pago"
+      "value": "Estado del pago"
     }
   ],
   "ui-users.accounts.history.columns.title": [
@@ -125803,13 +125825,13 @@
   "ui-users.accounts.history.columns.type": [
     {
       "type": 0,
-      "value": "Tipo de tarifa/multa"
+      "value": "Tipo de Tarifa/multa"
     }
   ],
   "ui-users.accounts.history.columns.updated": [
     {
       "type": 0,
-      "value": "Fecha actualizado"
+      "value": "Fecha de actualización"
     }
   ],
   "ui-users.accounts.history.comment": [
@@ -125839,7 +125861,7 @@
   "ui-users.accounts.history.staff.info": [
     {
       "type": 0,
-      "value": "Staff info "
+      "value": "Información del personal "
     },
     {
       "style": null,
@@ -125848,7 +125870,7 @@
     },
     {
       "type": 0,
-      "value": " of "
+      "value": " de "
     },
     {
       "style": null,
@@ -125857,7 +125879,7 @@
     },
     {
       "type": 0,
-      "value": ":"
+      "value": " :"
     }
   ],
   "ui-users.accounts.history.statusLabel": [
@@ -125879,7 +125901,7 @@
   "ui-users.accounts.loading": [
     {
       "type": 0,
-      "value": "cargando cuentas"
+      "value": "Cargando cuentas"
     }
   ],
   "ui-users.accounts.notifyPatron": [
@@ -125905,7 +125927,7 @@
           "value": [
             {
               "type": 0,
-              "value": "suspended claim returned fee/fine"
+              "value": "suspensión de la tarifa/multa por reclamo de devolución"
             }
           ]
         },
@@ -125913,7 +125935,7 @@
           "value": [
             {
               "type": 0,
-              "value": "suspended claim returned fees/fines"
+              "value": "suspensión de las tarifas/multas por reclamo de devolución"
             }
           ]
         }
@@ -125940,7 +125962,7 @@
           "value": [
             {
               "type": 0,
-              "value": "closed fee/fine"
+              "value": "cerrado tarifa/multa"
             }
           ]
         },
@@ -125948,7 +125970,7 @@
           "value": [
             {
               "type": 0,
-              "value": "closed fees/fines"
+              "value": "cerrado tarifas/multas"
             }
           ]
         }
@@ -125975,7 +125997,7 @@
           "value": [
             {
               "type": 0,
-              "value": "open fee/fine"
+              "value": "abrir tarifa/multa"
             }
           ]
         },
@@ -125983,7 +126005,7 @@
           "value": [
             {
               "type": 0,
-              "value": "open fees/fines"
+              "value": "abrir tarifas/multas"
             }
           ]
         }
@@ -126010,7 +126032,7 @@
           "value": [
             {
               "type": 0,
-              "value": "refunded fee/fine"
+              "value": "tarifa/multa reembolsada"
             }
           ]
         },
@@ -126018,7 +126040,7 @@
           "value": [
             {
               "type": 0,
-              "value": "refunded fees/fines"
+              "value": "tarifas/multas reembolsadas"
             }
           ]
         }
@@ -126049,7 +126071,7 @@
   "ui-users.accounts.outstanding.page": [
     {
       "type": 0,
-      "value": "Outstanding balance for page: "
+      "value": "Saldo pendiente por página: "
     },
     {
       "type": 1,
@@ -126059,7 +126081,7 @@
   "ui-users.accounts.outstanding.total": [
     {
       "type": 0,
-      "value": "Total outstanding balance: "
+      "value": "Total de saldo pendiente: "
     },
     {
       "type": 1,
@@ -126087,7 +126109,7 @@
   "ui-users.accounts.payment.error.exceeds": [
     {
       "type": 0,
-      "value": "El importe de pago excede el importe seleccionado"
+      "value": "El importe del pago excede el importe seleccionado"
     }
   ],
   "ui-users.accounts.payment.error.select": [
@@ -126099,13 +126121,13 @@
   "ui-users.accounts.payment.field.ownerDesk": [
     {
       "type": 0,
-      "value": "Mostrador de propietario de la tarifa/multa"
+      "value": "Punto de servicio del propietario de la multa"
     }
   ],
   "ui-users.accounts.payment.field.transactionInfo": [
     {
       "type": 0,
-      "value": "Información de transacción"
+      "value": "Información de la transacción"
     }
   ],
   "ui-users.accounts.payment.method": [
@@ -126129,25 +126151,25 @@
   "ui-users.accounts.payment.owner.placeholder": [
     {
       "type": 0,
-      "value": "Seleccionar mostrador"
+      "value": "Seleccionar punto de servicio"
     }
   ],
   "ui-users.accounts.payment.summary.fully": [
     {
       "type": 0,
-      "value": "En proceso de pago"
+      "value": "Pagando"
     }
   ],
   "ui-users.accounts.payment.summary.partially": [
     {
       "type": 0,
-      "value": "En pago parcial"
+      "value": "Pagando parcialmente"
     }
   ],
   "ui-users.accounts.payment.transaction.placeholder": [
     {
       "type": 0,
-      "value": "Introducir comprobar #, etc."
+      "value": "Ingrese el número de cheque, etc."
     }
   ],
   "ui-users.accounts.refund": [
@@ -126201,7 +126223,7 @@
   "ui-users.accounts.remainingAmount": [
     {
       "type": 0,
-      "value": "Importe pendiente"
+      "value": "Importe restante"
     }
   ],
   "ui-users.accounts.required": [
@@ -126213,7 +126235,7 @@
   "ui-users.accounts.selected.balance": [
     {
       "type": 0,
-      "value": "Selected fees/fines balance: "
+      "value": "Saldo de tarifas/multas seleccionadas: "
     },
     {
       "type": 1,
@@ -126229,7 +126251,7 @@
   "ui-users.accounts.status.fully": [
     {
       "type": 0,
-      "value": "totalmente"
+      "value": "completamente"
     }
   ],
   "ui-users.accounts.status.outstanding": [
@@ -126256,8 +126278,16 @@
     {
       "children": [
         {
+          "type": 0,
+          "value": " "
+        },
+        {
           "type": 1,
           "value": "count"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -126274,7 +126304,7 @@
           "value": [
             {
               "type": 0,
-              "value": "fee/fine"
+              "value": " multa "
             }
           ]
         },
@@ -126282,7 +126312,7 @@
           "value": [
             {
               "type": 0,
-              "value": "fees/fines"
+              "value": " multas "
             }
           ]
         }
@@ -126293,13 +126323,21 @@
     },
     {
       "type": 0,
-      "value": " para un importe total de "
+      "value": " por un importe total de "
     },
     {
       "children": [
         {
+          "type": 0,
+          "value": " "
+        },
+        {
           "type": 1,
           "value": "amount"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -126309,13 +126347,13 @@
   "ui-users.accounts.suspended": [
     {
       "type": 0,
-      "value": "Suspended"
+      "value": "Suspendido/a"
     }
   ],
   "ui-users.accounts.suspended.page": [
     {
       "type": 0,
-      "value": "Suspended balance for page: "
+      "value": "Saldo suspendido por página: "
     },
     {
       "type": 1,
@@ -126325,7 +126363,7 @@
   "ui-users.accounts.suspended.total": [
     {
       "type": 0,
-      "value": "Total suspended balance: "
+      "value": "Total de saldo suspendido: "
     },
     {
       "type": 1,
@@ -126335,7 +126373,7 @@
   "ui-users.accounts.title.feeFine": [
     {
       "type": 0,
-      "value": "Fees/fines"
+      "value": "Tarifas/Multas"
     }
   ],
   "ui-users.accounts.totalOpenAccounts": [
@@ -126355,7 +126393,7 @@
   "ui-users.accounts.totalOwed": [
     {
       "type": 0,
-      "value": "Importe total adeudado"
+      "value": "Cantidad total adeudada"
     }
   ],
   "ui-users.accounts.totalPaid": [
@@ -126367,13 +126405,13 @@
   "ui-users.accounts.transfer": [
     {
       "type": 0,
-      "value": "Transferir"
+      "value": "Transferencia"
     }
   ],
   "ui-users.accounts.transfer.amount": [
     {
       "type": 0,
-      "value": "Importe de transferencia"
+      "value": "Importe de la transferencia"
     }
   ],
   "ui-users.accounts.transfer.error.amount": [
@@ -126415,13 +126453,13 @@
   "ui-users.accounts.transfer.summary.fully": [
     {
       "type": 0,
-      "value": "En transferencia"
+      "value": "Transfiriendo"
     }
   ],
   "ui-users.accounts.transfer.summary.partially": [
     {
       "type": 0,
-      "value": "Trasferir parcialmente"
+      "value": "Parcialmente transferido"
     }
   ],
   "ui-users.accounts.viewAllFeesFines": [
@@ -126433,13 +126471,13 @@
   "ui-users.accounts.waive": [
     {
       "type": 0,
-      "value": "Renuncia"
+      "value": "Renunciar"
     }
   ],
   "ui-users.accounts.waive.amount": [
     {
       "type": 0,
-      "value": "Importe de renuncia"
+      "value": "Cantidad de renuncia"
     }
   ],
   "ui-users.accounts.waive.error.amount": [
@@ -126463,13 +126501,13 @@
   "ui-users.accounts.waive.method": [
     {
       "type": 0,
-      "value": "Razón de la renuncia"
+      "value": "Motivo de renuncia"
     }
   ],
   "ui-users.accounts.waive.method.placeholder": [
     {
       "type": 0,
-      "value": "Seleccionar una razón"
+      "value": "Seleccionar motivo"
     }
   ],
   "ui-users.accounts.waive.modalLabel": [
@@ -126481,13 +126519,13 @@
   "ui-users.accounts.waive.summary.fully": [
     {
       "type": 0,
-      "value": "En renuncia"
+      "value": "Renunciando"
     }
   ],
   "ui-users.accounts.waive.summary.partially": [
     {
       "type": 0,
-      "value": "Renunciado parcialmente"
+      "value": "Parcialmente renunciado"
     }
   ],
   "ui-users.accounts.warning.itemSelected": [
@@ -126723,7 +126761,7 @@
   "ui-users.actionMenu.lostItems": [
     {
       "type": 0,
-      "value": "Lost items requiring actual cost"
+      "value": "Ítems perdidos que requieren un costo real"
     }
   ],
   "ui-users.actionMenu.patronNoticePrintJobs": [
@@ -126753,7 +126791,7 @@
   "ui-users.addAddressError": [
     {
       "type": 0,
-      "value": "Por favor, añadir al menos una dirección dentro de la sección \"Addresses\""
+      "value": "Por favor, agregue al menos una dirección dentro de la sección \"Direcciones\""
     }
   ],
   "ui-users.additionalInfo.label": [
@@ -126771,49 +126809,49 @@
   "ui-users.affiliations.manager.filter.assignment": [
     {
       "type": 0,
-      "value": "Affiliation assignment status"
+      "value": "Estado de asignación de la afiliación"
     }
   ],
   "ui-users.affiliations.manager.filter.assignment.assigned": [
     {
       "type": 0,
-      "value": "Assigned"
+      "value": "Asignado"
     }
   ],
   "ui-users.affiliations.manager.filter.assignment.unassigned": [
     {
       "type": 0,
-      "value": "Unassigned"
+      "value": "Sin asignar"
     }
   ],
   "ui-users.affiliations.manager.modal.aria.assign": [
     {
       "type": 0,
-      "value": "Assign affiliation"
+      "value": "Asignar afiliación"
     }
   ],
   "ui-users.affiliations.manager.modal.aria.assignAll": [
     {
       "type": 0,
-      "value": "Assign all affiliations"
+      "value": "Asignar todas las afiliaciones"
     }
   ],
   "ui-users.affiliations.manager.modal.aria.search": [
     {
       "type": 0,
-      "value": "Search affiliations"
+      "value": "Buscar afiliaciones"
     }
   ],
   "ui-users.affiliations.manager.modal.changes.error": [
     {
       "type": 0,
-      "value": "User affiliation changes could not be saved."
+      "value": "No se han podido guardar los cambios de afiliación de los usuarios."
     }
   ],
   "ui-users.affiliations.manager.modal.changes.error.hasPrimaryAffiliation": [
     {
       "type": 0,
-      "value": "User "
+      "value": "El usuario "
     },
     {
       "type": 1,
@@ -126821,17 +126859,21 @@
     },
     {
       "type": 0,
-      "value": " must have primary affiliation, cannot remove affiliation to "
+      "value": " debe tener afiliación primaria, no puede eliminar la afiliación a "
     },
     {
       "type": 1,
       "value": "tenantName"
+    },
+    {
+      "type": 0,
+      "value": "."
     }
   ],
   "ui-users.affiliations.manager.modal.changes.error.notFound": [
     {
       "type": 0,
-      "value": "User "
+      "value": "El usuario "
     },
     {
       "type": 1,
@@ -126839,41 +126881,45 @@
     },
     {
       "type": 0,
-      "value": " does not have a primary affiliation, a primary affiliation must be assigned before the user's affiliations can be changed."
+      "value": " no tiene una afiliación principal, se debe asignar una afiliación principal antes de poder cambiar las afiliaciones del usuario."
     }
   ],
   "ui-users.affiliations.manager.modal.changes.error.permissionRequired": [
     {
       "type": 0,
-      "value": "You do not have the necessary permission to edit the affiliation(s) of "
+      "value": "No tiene los permisos necesarios para editar la(s) afiliación(es) de "
     },
     {
       "type": 1,
       "value": "userName"
+    },
+    {
+      "type": 0,
+      "value": "."
     }
   ],
   "ui-users.affiliations.manager.modal.changes.success": [
     {
       "type": 0,
-      "value": "User affiliation changes have been saved successfully."
+      "value": "Los cambios de afiliación del usuario se han guardado correctamente."
     }
   ],
   "ui-users.affiliations.manager.modal.generic.error.generic": [
     {
       "type": 0,
-      "value": "Something went wrong."
+      "value": "Algo salió mal."
     }
   ],
   "ui-users.affiliations.manager.modal.title": [
     {
       "type": 0,
-      "value": "Assign / Unassign affiliations"
+      "value": "Asignar todas las afiliaciones"
     }
   ],
   "ui-users.affiliations.manager.modal.totalSelected": [
     {
       "type": 0,
-      "value": "Total selected: "
+      "value": "Total seleccionado: "
     },
     {
       "type": 1,
@@ -126883,7 +126929,7 @@
   "ui-users.affiliations.manager.modal.warning.unassigned": [
     {
       "type": 0,
-      "value": "Unassigning an affiliation will remove all permissions associated with that affiliation for this user record."
+      "value": "Al desasignar una afiliación se eliminarán todos los permisos asociados a esa afiliación para este registro de usuario."
     }
   ],
   "ui-users.affiliations.manager.result.subTitle": [
@@ -126893,22 +126939,16 @@
         "one": {
           "value": [
             {
-              "type": 7
-            },
-            {
               "type": 0,
-              "value": " affiliation found"
+              "value": "Uno"
             }
           ]
         },
         "other": {
           "value": [
             {
-              "type": 7
-            },
-            {
               "type": 0,
-              "value": " affiliations found"
+              "value": "Otro"
             }
           ]
         }
@@ -126921,67 +126961,67 @@
   "ui-users.affiliations.manager.result.title": [
     {
       "type": 0,
-      "value": "Affiliations"
+      "value": "Afiliaciones"
     }
   ],
   "ui-users.affiliations.primary.label": [
     {
       "type": 0,
-      "value": "(Primary)"
+      "value": "(Primaria)"
     }
   ],
   "ui-users.affiliations.section.action.edit": [
     {
       "type": 0,
-      "value": "Assign / Unassign"
+      "value": "Asignar / Desasignar"
     }
   ],
   "ui-users.affiliations.section.empty": [
     {
       "type": 0,
-      "value": "No affiliations found"
+      "value": "No se han encontrado afiliaciones"
     }
   ],
   "ui-users.affiliations.section.label": [
     {
       "type": 0,
-      "value": "Affiliations"
+      "value": "Afiliaciones"
     }
   ],
   "ui-users.affiliations.select.label": [
     {
       "type": 0,
-      "value": "Affiliation"
+      "value": "Afiliación"
     }
   ],
   "ui-users.anonymization.confirmation.cancel": [
     {
       "type": 0,
-      "value": "Cancel"
+      "value": "Cancelar"
     }
   ],
   "ui-users.anonymization.confirmation.confirm": [
     {
       "type": 0,
-      "value": "Confirm"
+      "value": "Confirme"
     }
   ],
   "ui-users.anonymization.confirmation.header": [
     {
       "type": 0,
-      "value": "Anonimización impedida"
+      "value": "Anonimización prevenida"
     }
   ],
   "ui-users.anonymization.confirmation.message": [
     {
       "type": 0,
-      "value": " All loans for this user will be anonymized. The loans will no longer appear in the user’s closed loans. Anonymizing loans cannot be reversed."
+      "value": " Todos los préstamos de este usuario serán anonimizados. Los préstamos ya no aparecerán en los préstamos cerrados del usuario. La anonimización de los préstamos no se puede revertir."
     }
   ],
   "ui-users.anonymization.error.header": [
     {
       "type": 0,
-      "value": "Anonymization prevented"
+      "value": "Se impide el anonimato"
     }
   ],
   "ui-users.anonymization.error.message": [
@@ -126991,7 +127031,7 @@
     },
     {
       "type": 0,
-      "value": " loan(s) had associated fees/fines and could not be anonymized."
+      "value": " préstamo(s) tenía(n) comisiones/multas asociadas y no pudo(n) ser anonimizado(s)."
     }
   ],
   "ui-users.anonymize": [
@@ -127003,13 +127043,13 @@
   "ui-users.appMenu.keyboardShortcuts": [
     {
       "type": 0,
-      "value": "Keyboard shortcuts"
+      "value": "Atajos del teclado"
     }
   ],
   "ui-users.blocks.additionalReasons": [
     {
       "type": 0,
-      "value": "Ver detalles del bloqueo para ver razones adicionales..."
+      "value": "Ver detalles de bloqueo para ver razones adicionales para el bloqueo..."
     }
   ],
   "ui-users.blocks.buttons.add": [
@@ -127141,7 +127181,7 @@
   "ui-users.blocks.form.label.requests": [
     {
       "type": 0,
-      "value": "Requests"
+      "value": "Solicitudes"
     }
   ],
   "ui-users.blocks.form.label.staff": [
@@ -127153,7 +127193,7 @@
   "ui-users.blocks.form.label.template": [
     {
       "type": 0,
-      "value": "Template name"
+      "value": "Nombre de la plantilla"
     }
   ],
   "ui-users.blocks.form.placeholder.desc": [
@@ -127225,7 +127265,7 @@
   "ui-users.blocks.modal.comment": [
     {
       "type": 0,
-      "value": "Comment"
+      "value": "Comentario"
     }
   ],
   "ui-users.blocks.modal.header": [
@@ -127237,31 +127277,31 @@
   "ui-users.blocks.modal.overridePatronBlock.header": [
     {
       "type": 0,
-      "value": "Override patron block"
+      "value": "Anular bloqueo de usuario"
     }
   ],
   "ui-users.blocks.overrideButton": [
     {
       "type": 0,
-      "value": "Override"
+      "value": "Anular"
     }
   ],
   "ui-users.blocks.reason": [
     {
       "type": 0,
-      "value": "Razón de bloqueo"
+      "value": "Motivo del bloqueo"
     }
   ],
   "ui-users.blocks.textField.place": [
     {
       "type": 0,
-      "value": "El usuario tiene bloqueo(s) establecidos"
+      "value": "El usuario tiene bloqueo(s) vigente(s)"
     }
   ],
   "ui-users.brd.failedRenewal": [
     {
       "type": 0,
-      "value": "Ejemplar no renovado"
+      "value": "Ítem no renovado"
     }
   ],
   "ui-users.brd.header.newDueDate": [
@@ -127312,7 +127352,7 @@
           "value": [
             {
               "type": 0,
-              "value": "item"
+              "value": "artículo"
             }
           ]
         },
@@ -127320,7 +127360,7 @@
           "value": [
             {
               "type": 0,
-              "value": "items"
+              "value": "ítems"
             }
           ]
         }
@@ -127378,7 +127418,7 @@
           "value": [
             {
               "type": 0,
-              "value": "item"
+              "value": "artículo"
             }
           ]
         },
@@ -127386,7 +127426,7 @@
           "value": [
             {
               "type": 0,
-              "value": "items"
+              "value": "ítems"
             }
           ]
         }
@@ -127481,13 +127521,13 @@
   "ui-users.brd.renewConfirmation": [
     {
       "type": 0,
-      "value": "Renovar la confirmación"
+      "value": "Renovar la Confirmación"
     }
   ],
   "ui-users.brd.successfulRenewal": [
     {
       "type": 0,
-      "value": "Ejemplar renovado con éxito"
+      "value": "Ítem renovado con éxito"
     }
   ],
   "ui-users.bulkActions.tooltip": [
@@ -127649,31 +127689,31 @@
   "ui-users.charge.Pay": [
     {
       "type": 0,
-      "value": "Cargar y pagar ahora"
+      "value": "Carga y paga ahora"
     }
   ],
   "ui-users.charge.amount": [
     {
       "type": 0,
-      "value": "Amount"
+      "value": "Importe"
     }
   ],
   "ui-users.charge.amount.label": [
     {
       "type": 0,
-      "value": "Importe de tarifa/multa*"
+      "value": "Monto de la tarifa/multa*"
     }
   ],
   "ui-users.charge.barcode": [
     {
       "type": 0,
-      "value": "Código de barras: "
+      "value": "Código de barras:"
     }
   ],
   "ui-users.charge.comment": [
     {
       "type": 0,
-      "value": "Información adicional para el personal"
+      "value": "Comentarios"
     }
   ],
   "ui-users.charge.comment.label": [
@@ -127685,13 +127725,13 @@
   "ui-users.charge.feefine.id": [
     {
       "type": 0,
-      "value": "Fee/fine id"
+      "value": "ID de la Tarifa/multa"
     }
   ],
   "ui-users.charge.feefine.label": [
     {
       "type": 0,
-      "value": "Tipo de tarifa/multa*"
+      "value": "Tipo de Tarifa/multa*"
     }
   ],
   "ui-users.charge.item.barcode": [
@@ -127703,43 +127743,43 @@
   "ui-users.charge.item.button": [
     {
       "type": 0,
-      "value": "Introducir"
+      "value": "Seleccionar artículo"
     }
   ],
   "ui-users.charge.item.callNumber": [
     {
       "type": 0,
-      "value": "Clasificación"
+      "value": "Número de llamada"
     }
   ],
   "ui-users.charge.item.instance": [
     {
       "type": 0,
-      "value": "Instancia"
+      "value": "Ejemplo"
     }
   ],
   "ui-users.charge.item.location": [
     {
       "type": 0,
-      "value": "Localización"
+      "value": "Ubicación"
     }
   ],
   "ui-users.charge.item.placeholder": [
     {
       "type": 0,
-      "value": "Escanear o introducir el código de barras"
+      "value": "Introduzca código de barras o título"
     }
   ],
   "ui-users.charge.item.status": [
     {
       "type": 0,
-      "value": "Estado del ítem"
+      "value": "Estado del Ítem"
     }
   ],
   "ui-users.charge.item.title": [
     {
       "type": 0,
-      "value": "Información del ítem"
+      "value": "Información del artículo"
     }
   ],
   "ui-users.charge.itemLookup.cancel": [
@@ -127763,7 +127803,7 @@
   "ui-users.charge.message.successfully": [
     {
       "type": 0,
-      "value": "The "
+      "value": "La tasa/multa de "
     },
     {
       "type": 1,
@@ -127771,7 +127811,7 @@
     },
     {
       "type": 0,
-      "value": " fee/fine of "
+      "value": " de "
     },
     {
       "children": [
@@ -127785,7 +127825,7 @@
     },
     {
       "type": 0,
-      "value": " has been successfully "
+      "value": " ha sido "
     },
     {
       "children": [
@@ -127799,7 +127839,7 @@
     },
     {
       "type": 0,
-      "value": " for "
+      "value": " de "
     },
     {
       "children": [
@@ -127810,6 +127850,10 @@
       ],
       "type": 8,
       "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": "."
     }
   ],
   "ui-users.charge.messageFor": [
@@ -127839,19 +127883,19 @@
   "ui-users.charge.onlyCharge": [
     {
       "type": 0,
-      "value": "Sólo carga"
+      "value": "Cargar solamente"
     }
   ],
   "ui-users.charge.owner.label": [
     {
       "type": 0,
-      "value": "Propietario de la tarifa/multa*"
+      "value": "Propietario de la tarifa/multa"
     }
   ],
   "ui-users.charge.patron": [
     {
       "type": 0,
-      "value": "Usuario"
+      "value": "Patrón"
     }
   ],
   "ui-users.charge.title": [
@@ -127904,19 +127948,19 @@
   "ui-users.comment.message": [
     {
       "type": 0,
-      "value": "La configuración de comentario requerido se actualizó con éxito."
+      "value": "La configuración requerida para los comentarios se actualizó con éxito"
     }
   ],
   "ui-users.comment.paid": [
     {
       "type": 0,
-      "value": "Se requiere comentario cuando la tarifa/multa se paga parcialmente/totalmente"
+      "value": "Solicitar comentarios cuando la tarifa/multa se pague total/parcialmente"
     }
   ],
   "ui-users.comment.refunded": [
     {
       "type": 0,
-      "value": "Se requiere comentario cuando la tarifa/multa se reembolsa parcialmente/totalmente"
+      "value": "Solicitar comentarios cuando la tarifa/multa se reembolse total/parcialmente"
     }
   ],
   "ui-users.comment.save": [
@@ -127928,19 +127972,19 @@
   "ui-users.comment.title": [
     {
       "type": 0,
-      "value": "Tarifa/multa: comentario requerido"
+      "value": "Tarifa/multa: Comentario requerido"
     }
   ],
   "ui-users.comment.transferred": [
     {
       "type": 0,
-      "value": "Se requiere comentario cuando la tarifa/multa se transfiere parcialmente/totalmente"
+      "value": "Solicitar comentarios cuando la tarifa/multa se transfiere total/parcialmente"
     }
   ],
   "ui-users.comment.waived": [
     {
       "type": 0,
-      "value": "Se requiere comentario cuando la tarifa/multa se renuncia parcialmente/totalmente"
+      "value": "Solicitar comentarios cuando la tarifa/multa se renuncie total/parcialmente"
     }
   ],
   "ui-users.confirm": [
@@ -127970,7 +128014,7 @@
   "ui-users.contact.contactInfo": [
     {
       "type": 0,
-      "value": "Contact information"
+      "value": "Información de contacto"
     }
   ],
   "ui-users.contact.email": [
@@ -128042,7 +128086,7 @@
   "ui-users.contextMenu.settings": [
     {
       "type": 0,
-      "value": "Configuraciones"
+      "value": "Ajustes"
     }
   ],
   "ui-users.contextMenu.usageTips": [
@@ -128072,13 +128116,13 @@
   "ui-users.custom.customFields": [
     {
       "type": 0,
-      "value": "Custom fields"
+      "value": "Campos Personalizados"
     }
   ],
   "ui-users.custom.noCustomFieldsFound": [
     {
       "type": 0,
-      "value": "No custom fields found"
+      "value": "No se encontraron campos personalizados"
     }
   ],
   "ui-users.data.contactTypes.email": [
@@ -128102,7 +128146,7 @@
   "ui-users.data.loanActionMap.checkedIn": [
     {
       "type": 0,
-      "value": "Registrado"
+      "value": "Devuelto"
     }
   ],
   "ui-users.data.loanActionMap.checkedInFoundByLibrary": [
@@ -128120,13 +128164,13 @@
   "ui-users.data.loanActionMap.checkedOut": [
     {
       "type": 0,
-      "value": "Comprobado"
+      "value": "Prestado"
     }
   ],
   "ui-users.data.loanActionMap.checkedOutThroughOverride": [
     {
       "type": 0,
-      "value": "Prestado con anulación de norma"
+      "value": "Prestado anulando la norma de préstamo"
     }
   ],
   "ui-users.data.loanActionMap.claimedReturned": [
@@ -128156,13 +128200,13 @@
   "ui-users.data.loanActionMap.holdRequested": [
     {
       "type": 0,
-      "value": "Petición de reserva"
+      "value": "Retención solicitada"
     }
   ],
   "ui-users.data.loanActionMap.itemAgedToLost": [
     {
       "type": 0,
-      "value": "Vencido a perdido"
+      "value": "Préstamo vencido a perdido"
     }
   ],
   "ui-users.data.loanActionMap.markedAsMissing": [
@@ -128174,19 +128218,19 @@
   "ui-users.data.loanActionMap.patronInfo": [
     {
       "type": 0,
-      "value": "Patron info only"
+      "value": "Solo información del usuario"
     }
   ],
   "ui-users.data.loanActionMap.patronInfo.superseded": [
     {
       "type": 0,
-      "value": "Patron info (SUPERSEDED)"
+      "value": "Patron info (SUPERSED)"
     }
   ],
   "ui-users.data.loanActionMap.recallRequested": [
     {
       "type": 0,
-      "value": "Petición de notificación"
+      "value": "Recordar petición"
     }
   ],
   "ui-users.data.loanActionMap.reminderFee": [
@@ -128216,13 +128260,13 @@
   "ui-users.data.loanActionMap.staffInfo": [
     {
       "type": 0,
-      "value": "Staff info only"
+      "value": "Sólo para el personal"
     }
   ],
   "ui-users.data.loanActionMap.staffInfo.superseded": [
     {
       "type": 0,
-      "value": "Staff info (SUPERSEDED)"
+      "value": "Información para el personal (SUPERSED)"
     }
   ],
   "ui-users.data.loanActionMap.unknownAction": [
@@ -128240,7 +128284,7 @@
   "ui-users.deleteProxyPrompt": [
     {
       "type": 0,
-      "value": "¿Eliminar representante?"
+      "value": "¿Eliminar proxy?"
     }
   ],
   "ui-users.deleteSponsorPrompt": [
@@ -128264,25 +128308,33 @@
   "ui-users.details.button.new": [
     {
       "type": 0,
-      "value": "Nueva información para el personal"
+      "value": "Nueva información del personal"
     }
   ],
   "ui-users.details.checkDelete": [
     {
       "type": 0,
-      "value": "Check for open transactions/delete user"
+      "value": "Verificar transacciones abiertas/borrar usuario"
     }
   ],
   "ui-users.details.checkDelete.confirmation": [
     {
       "type": 0,
-      "value": "No open transactions for user "
+      "value": "No hay transacciones abiertas para el usuario "
     },
     {
       "children": [
         {
+          "type": 0,
+          "value": " "
+        },
+        {
           "type": 1,
           "value": "name"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -128296,7 +128348,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Are you sure you want to delete this user?"
+          "value": " ¿Está seguro que desea borrar este usuario? "
         }
       ],
       "type": 8,
@@ -128312,7 +128364,7 @@
   "ui-users.details.columns.amount": [
     {
       "type": 0,
-      "value": "Importe"
+      "value": "Cantidad"
     }
   ],
   "ui-users.details.columns.balance": [
@@ -128324,19 +128376,19 @@
   "ui-users.details.columns.comments": [
     {
       "type": 0,
-      "value": "Información adicional"
+      "value": "comentarios"
     }
   ],
   "ui-users.details.columns.created": [
     {
       "type": 0,
-      "value": "Creado en"
+      "value": "Creado En"
     }
   ],
   "ui-users.details.columns.date": [
     {
       "type": 0,
-      "value": "Fecha de acción"
+      "value": "Fecha de Acción"
     }
   ],
   "ui-users.details.columns.source": [
@@ -128348,13 +128400,13 @@
   "ui-users.details.columns.transactioninfo": [
     {
       "type": 0,
-      "value": "Información de transacción"
+      "value": "Información de la transacción"
     }
   ],
   "ui-users.details.deleteUser.failed": [
     {
       "type": 0,
-      "value": "User "
+      "value": "El usuario "
     },
     {
       "children": [
@@ -128368,19 +128420,27 @@
     },
     {
       "type": 0,
-      "value": " could not be deleted."
+      "value": " no ha podido ser eliminado."
     }
   ],
   "ui-users.details.deleteUser.success": [
     {
       "type": 0,
-      "value": "User "
+      "value": "El usuario "
     },
     {
       "children": [
         {
+          "type": 0,
+          "value": " "
+        },
+        {
           "type": 1,
           "value": "name"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -128388,7 +128448,7 @@
     },
     {
       "type": 0,
-      "value": " deleted successfully."
+      "value": " se eliminó correctamente."
     }
   ],
   "ui-users.details.field.barcode": [
@@ -128404,7 +128464,7 @@
     },
     {
       "type": 0,
-      "value": " (not found)"
+      "value": " (no encontrado)"
     }
   ],
   "ui-users.details.field.billedamount": [
@@ -128500,13 +128560,13 @@
   "ui-users.details.openBlocks": [
     {
       "type": 0,
-      "value": "Bloqueos activos"
+      "value": "Bloques abiertos"
     }
   ],
   "ui-users.details.openFeesFines": [
     {
       "type": 0,
-      "value": "Multas activas"
+      "value": "Tarifas/multas abiertas"
     }
   ],
   "ui-users.details.openLoans": [
@@ -128530,13 +128590,21 @@
   "ui-users.details.openTransactions.info": [
     {
       "type": 0,
-      "value": "User "
+      "value": "El usuario "
     },
     {
       "children": [
         {
+          "type": 0,
+          "value": " "
+        },
+        {
           "type": 1,
           "value": "name"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -128544,19 +128612,19 @@
     },
     {
       "type": 0,
-      "value": " has the following open transactions:"
+      "value": " tiene las siguientes transacciones abiertas:"
     }
   ],
   "ui-users.details.openTransactions.resolve": [
     {
       "type": 0,
-      "value": "Please resolve the transactions to proceed to delete the user."
+      "value": "Por favor, resuelva las transacciones para proceder a la eliminación del usuario."
     }
   ],
   "ui-users.details.openUnexpiredProxy": [
     {
       "type": 0,
-      "value": "Open unexpired proxy"
+      "value": "Proxy abierto que no ha expirado"
     }
   ],
   "ui-users.details.paneTitle.feeFineDetails": [
@@ -128642,7 +128710,7 @@
   "ui-users.errors.affiliationsLoadFailed": [
     {
       "type": 0,
-      "value": "Affiliations loading for user "
+      "value": "La carga de afiliaciones para el usuario "
     },
     {
       "children": [
@@ -128656,7 +128724,7 @@
     },
     {
       "type": 0,
-      "value": " in "
+      "value": " en "
     },
     {
       "children": [
@@ -128670,7 +128738,7 @@
     },
     {
       "type": 0,
-      "value": " tenant was failed."
+      "value": " tenant ha fallado."
     }
   ],
   "ui-users.errors.barcodeUnavailable": [
@@ -128682,25 +128750,25 @@
   "ui-users.errors.currentUser.expired": [
     {
       "type": 0,
-      "value": "Registro actual de usuario expirado"
+      "value": "Actual registro de usuario expirado"
     }
   ],
   "ui-users.errors.expirationDate": [
     {
       "type": 0,
-      "value": "Please enter correct expiration date"
+      "value": "Introduzca la fecha de caducidad correcta"
     }
   ],
   "ui-users.errors.extended.dateEnrolled": [
     {
       "type": 0,
-      "value": "Please enter correct enrolled date"
+      "value": "Introduzca la fecha de inscripción correcta"
     }
   ],
   "ui-users.errors.generic": [
     {
       "type": 0,
-      "value": "Something went wrong. Please try again later."
+      "value": "Algo salió mal. Por favor, inténtelo de nuevo más tarde."
     }
   ],
   "ui-users.errors.loanNotRenewedReason": [
@@ -128776,19 +128844,19 @@
   "ui-users.errors.noMatch.oops": [
     {
       "type": 0,
-      "value": "¡Oh!"
+      "value": "¡UH oh!"
     }
   ],
   "ui-users.errors.permissionChangeFailed": [
     {
       "type": 0,
-      "value": "Permissions were not changed"
+      "value": "No se han modificado los permisos"
     }
   ],
   "ui-users.errors.permissionsLoadFailed": [
     {
       "type": 0,
-      "value": "Permissions loading for user "
+      "value": "Ha fallado la carga de permisos para el usuario "
     },
     {
       "children": [
@@ -128802,7 +128870,7 @@
     },
     {
       "type": 0,
-      "value": " in "
+      "value": " en "
     },
     {
       "children": [
@@ -128816,25 +128884,25 @@
     },
     {
       "type": 0,
-      "value": " tenant was failed."
+      "value": " tenant."
     }
   ],
   "ui-users.errors.personal.dateOfBirth": [
     {
       "type": 0,
-      "value": "Please enter correct birth date"
+      "value": "Introduzca la fecha de nacimiento correcta"
     }
   ],
   "ui-users.errors.proxies.duplicateUserMessage": [
     {
       "type": 0,
-      "value": "Duplicate proxy has been entered."
+      "value": "Se ha introducido un proxy duplicado."
     }
   ],
   "ui-users.errors.proxies.expired": [
     {
       "type": 0,
-      "value": "Registro de usuario representante vencido"
+      "value": "Registro de usuario de proxy vencido"
     }
   ],
   "ui-users.errors.proxies.invalidUserLabel": [
@@ -128846,25 +128914,25 @@
   "ui-users.errors.proxies.invalidUserMessage": [
     {
       "type": 0,
-      "value": "Los usuarios no pueden ser representantes para sí mismos."
+      "value": "Los usuarios no pueden ser proxies para sí mismos."
     }
   ],
   "ui-users.errors.proxyBorrowerNotFound": [
     {
       "type": 0,
-      "value": "Proxy borrower not found"
+      "value": "Usuario proxy no encontrado"
     }
   ],
   "ui-users.errors.proxyrelationship.expired": [
     {
       "type": 0,
-      "value": "La relación de representante y ha expirado"
+      "value": "La relación de proxy ha expirado"
     }
   ],
   "ui-users.errors.renewWithReminders": [
     {
       "type": 0,
-      "value": "Renewals not allowed for loans with reminders."
+      "value": "No se permiten renovaciones para préstamos con recordatorios."
     }
   ],
   "ui-users.errors.reviewBeforeRenewal": [
@@ -128888,13 +128956,13 @@
   "ui-users.errors.sponsors.duplicateUserMessage": [
     {
       "type": 0,
-      "value": "Duplicate sponsor has been entered."
+      "value": "Se ha introducido un patrocinador duplicado."
     }
   ],
   "ui-users.errors.sponsors.expired": [
     {
       "type": 0,
-      "value": "Registro de usuario patrocinador caducado"
+      "value": "Registro de usuario del patrocinador caducado"
     }
   ],
   "ui-users.errors.sponsors.invalidUserLabel": [
@@ -128918,7 +128986,7 @@
   "ui-users.errors.userNotFound": [
     {
       "type": 0,
-      "value": "User not found"
+      "value": "Usuario no encontrado"
     }
   ],
   "ui-users.errors.usernameUnavailable": [
@@ -128984,19 +129052,19 @@
   "ui-users.extended.department.add": [
     {
       "type": 0,
-      "value": "Añadir departamento"
+      "value": "Agregar departamento"
     }
   ],
   "ui-users.extended.department.default": [
     {
       "type": 0,
-      "value": "Select department"
+      "value": "Seleccionar Departamento"
     }
   ],
   "ui-users.extended.department.name": [
     {
       "type": 0,
-      "value": "Department name"
+      "value": "Nombre del Departamento"
     }
   ],
   "ui-users.extended.extendedInformation": [
@@ -129014,13 +129082,13 @@
   "ui-users.extended.folioNumber": [
     {
       "type": 0,
-      "value": "Número Folio"
+      "value": "Número de folio"
     }
   ],
   "ui-users.extended.folioPassword": [
     {
       "type": 0,
-      "value": "Contraseña Folio"
+      "value": "Contraseña de folio"
     }
   ],
   "ui-users.extended.resetPasswordModal.label": [
@@ -129064,7 +129132,7 @@
   "ui-users.feefines.callout": [
     {
       "type": 0,
-      "value": "El tipo de tarifa/multa "
+      "value": "El tipo de Tarifa/Multa "
     },
     {
       "children": [
@@ -129078,21 +129146,17 @@
     },
     {
       "type": 0,
-      "value": "fue eliminado "
+      "value": " fue con éxito "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "con éxito"
+          "value": "eliminado"
         }
       ],
       "type": 8,
       "value": "strong"
-    },
-    {
-      "type": 0,
-      "value": "."
     }
   ],
   "ui-users.feefines.columns.actionNotice": [
@@ -129104,7 +129168,7 @@
   "ui-users.feefines.columns.amount": [
     {
       "type": 0,
-      "value": "Cantidad por defecto"
+      "value": "Monto predeterminado"
     }
   ],
   "ui-users.feefines.columns.chargeNotice": [
@@ -129116,7 +129180,7 @@
   "ui-users.feefines.columns.type": [
     {
       "type": 0,
-      "value": "Tipo de tarifa/multa*"
+      "value": "Tipo de Tarifa/Multa"
     }
   ],
   "ui-users.feefines.defaultActionNotice": [
@@ -129140,43 +129204,43 @@
   "ui-users.feefines.disabledItem": [
     {
       "type": 0,
-      "value": "El tipo de tarifa/multa no se puede eliminar cuando está usado por una o más cuentas de usuario"
+      "value": "El tipo de tarifa/multa no puede ser borrado cuando es usado por una o más cuentas de usuario"
     }
   ],
   "ui-users.feefines.errors.amountNumeric": [
     {
       "type": 0,
-      "value": "La cantidad por defecto debe ser numérica"
+      "value": "El monto predeterminado debe ser numérico"
     }
   ],
   "ui-users.feefines.errors.amountPositive": [
     {
       "type": 0,
-      "value": "La cantidad por defecto debe ser positiva"
+      "value": "La cantidad predeterminada debe ser positiva"
     }
   ],
   "ui-users.feefines.errors.exist": [
     {
       "type": 0,
-      "value": "El tipo de tarifa/multa ya existe"
+      "value": "Tipos existentes de Tarifa/Multa"
     }
   ],
   "ui-users.feefines.errors.existOther": [
     {
       "type": 0,
-      "value": "Fee/fine type exists for other Fee/fine owner(s)"
+      "value": "El tipo de tasa/multa existe para otro(s) titular(es) de la tasa/multa"
     }
   ],
   "ui-users.feefines.errors.existShared": [
     {
       "type": 0,
-      "value": "El tipo de tarifa/multa ya existe para el propietario"
+      "value": "Tipo de tarifa/multa existente para el propietario"
     }
   ],
   "ui-users.feefines.errors.notBilledMessage": [
     {
       "type": 0,
-      "value": "Lost item fee(s) not billed to patron because 'Fee/fine owner' not found for item's 'Primary service point' in Setting 'Fee/fine: Owners'."
+      "value": "La(s) tarifa(s) de ítem perdido no fue facturada al usuario porque 'El propietario de la Tarifa/multa' no se encontró para 'El punto de servicio principal' en la configuración 'Tarifa/multa: Propietarios'."
     },
     {
       "children": [
@@ -129184,7 +129248,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Need to bill lost item fee(s) manually."
+              "value": "Necesita facturar manualmente la(s) multa(s) por ítem perdido."
             }
           ],
           "type": 8,
@@ -129198,19 +129262,19 @@
   "ui-users.feefines.errors.notBilledTitle": [
     {
       "type": 0,
-      "value": "Lost item fee(s) not billed to patron"
+      "value": "Tarifa(s) por ítem perdido no facturado al usuario"
     }
   ],
   "ui-users.feefines.errors.reservedName": [
     {
       "type": 0,
-      "value": "El tipo de tarifa / multa ya existe como tarifa / multa automatizada"
+      "value": "El tipo de tarifa/multa ya existe como tarifa/multa automatizada"
     }
   ],
   "ui-users.feefines.errors.updateOwnerMessage": [
     {
       "type": 0,
-      "value": "To avoid error in future, please request that appropriate administrator at institution update 'Fee/fine owner' setting to associate 'Primary service point' to 'Fee/fine owner'."
+      "value": "Para evitar errores en el futuro, solicite al administrador correspondiente en la institución que actualice la configuración de 'El propietario de la Tarifa/multa' asociando el 'Punto de servicio principal' al 'Propietario de la Tarifa/multa'."
     }
   ],
   "ui-users.feefines.modal.cancel": [
@@ -129222,7 +129286,7 @@
   "ui-users.feefines.modal.error": [
     {
       "type": 0,
-      "value": "Selecciona una para continuar"
+      "value": "Seleccione uno para continuar"
     }
   ],
   "ui-users.feefines.modal.no": [
@@ -129234,7 +129298,7 @@
   "ui-users.feefines.modal.placeholder": [
     {
       "type": 0,
-      "value": "Selecciona una"
+      "value": "Seleccione uno"
     }
   ],
   "ui-users.feefines.modal.submit": [
@@ -129246,7 +129310,7 @@
   "ui-users.feefines.modal.title": [
     {
       "type": 0,
-      "value": "Copiar las entradas de la tabla de tarifa/multa existente?"
+      "value": "¿Copiar entradas existentes en la tabla de propietarios de tarifa/multa?"
     }
   ],
   "ui-users.feefines.modal.yes": [
@@ -129258,13 +129322,13 @@
   "ui-users.feefines.modalHeader": [
     {
       "type": 0,
-      "value": "Eliminar tipo de tarifa/multa?"
+      "value": "¿Eliminar tipo de Tarifa/Multa?"
     }
   ],
   "ui-users.feefines.modalMessage": [
     {
       "type": 0,
-      "value": "El tipo de tarifa/multa "
+      "value": "El tipo de Tarifa/Multa "
     },
     {
       "children": [
@@ -129278,13 +129342,13 @@
     },
     {
       "type": 0,
-      "value": " se "
+      "value": " será "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "eliminará"
+          "value": "eliminado"
         }
       ],
       "type": 8,
@@ -129312,13 +129376,13 @@
   "ui-users.feefines.title": [
     {
       "type": 0,
-      "value": "Tarifa/Multa: cargos manuales"
+      "value": "Tarifa/multa: Cargos manuales"
     }
   ],
   "ui-users.field.disabled": [
     {
       "type": 0,
-      "value": "This field is disabled"
+      "value": "Este campo está deshabilitado"
     }
   ],
   "ui-users.filters.status.active": [
@@ -129348,7 +129412,7 @@
   "ui-users.index.all": [
     {
       "type": 0,
-      "value": "Palabra clave (nombre, email, identificador)"
+      "value": "Palabra clave (nombre, correo electrónico, identificador)"
     }
   ],
   "ui-users.index.barcode": [
@@ -129366,7 +129430,7 @@
   "ui-users.index.username": [
     {
       "type": 0,
-      "value": "Username"
+      "value": "Nombre de usuario"
     }
   ],
   "ui-users.information.barcode": [
@@ -129432,13 +129496,13 @@
   "ui-users.information.patronGroup.expirationOffset": [
     {
       "type": 0,
-      "value": "Expiration date offset (days)"
+      "value": "Fecha de expiración (días)"
     }
   ],
   "ui-users.information.patronGroup.expirationOffset.error": [
     {
       "type": 0,
-      "value": "Must be empty or an integer > 0"
+      "value": "Debe estar en blanco o un número mayor 0"
     }
   ],
   "ui-users.information.patronGroup.users": [
@@ -129456,7 +129520,7 @@
   "ui-users.information.preferredName": [
     {
       "type": 0,
-      "value": "Preferred first name"
+      "value": "Nombre preferido"
     }
   ],
   "ui-users.information.profile.label": [
@@ -129584,31 +129648,39 @@
   "ui-users.information.recalculate.expirationDate": [
     {
       "type": 0,
-      "value": "Re-set"
+      "value": "Reiniciar"
     }
   ],
   "ui-users.information.recalculate.modal.button": [
     {
       "type": 0,
-      "value": "Set"
+      "value": "Establecer"
     }
   ],
   "ui-users.information.recalculate.modal.label": [
     {
       "type": 0,
-      "value": "Set expiration date?"
+      "value": "¿Establecer fecha de vencimiento?"
     }
   ],
   "ui-users.information.recalculate.modal.text": [
     {
       "type": 0,
-      "value": "Library accounts with patron group "
+      "value": "Las cuentas de la biblioteca del grupo de usuarios "
     },
     {
       "children": [
         {
+          "type": 0,
+          "value": " "
+        },
+        {
           "type": 1,
           "value": "group"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -129616,17 +129688,21 @@
     },
     {
       "type": 0,
-      "value": " expire in "
+      "value": " caducan en "
     },
     {
       "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
         {
           "type": 1,
           "value": "offset"
         },
         {
           "type": 0,
-          "value": " days"
+          "value": " días "
         }
       ],
       "type": 8,
@@ -129634,13 +129710,21 @@
     },
     {
       "type": 0,
-      "value": ". Do you want to set this user’s account to expire on "
+      "value": " . ¿Quiere configurar la cuenta de este usuario para que caduque el "
     },
     {
       "children": [
         {
+          "type": 0,
+          "value": " "
+        },
+        {
           "type": 1,
           "value": "date"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -129648,13 +129732,13 @@
     },
     {
       "type": 0,
-      "value": "?"
+      "value": " ?"
     }
   ],
   "ui-users.information.recalculate.will.reactivate.user": [
     {
       "type": 0,
-      "value": "User will reactivate after saving"
+      "value": "El usuario se reactivará después de guardar"
     }
   ],
   "ui-users.information.selectPatronGroup": [
@@ -129666,7 +129750,7 @@
   "ui-users.information.selectUserType": [
     {
       "type": 0,
-      "value": "Select user type"
+      "value": "Seleccione tipo de usuario"
     }
   ],
   "ui-users.information.status": [
@@ -129714,7 +129798,7 @@
   "ui-users.information.userType.staff": [
     {
       "type": 0,
-      "value": "Staff"
+      "value": "Personal"
     }
   ],
   "ui-users.information.userType.system": [
@@ -129756,7 +129840,7 @@
   "ui-users.item.chronology": [
     {
       "type": 0,
-      "value": "Chronology"
+      "value": "Cronología"
     }
   ],
   "ui-users.item.contributors": [
@@ -129768,7 +129852,7 @@
   "ui-users.item.copyNumber": [
     {
       "type": 0,
-      "value": "Copy number"
+      "value": "Número de copia"
     }
   ],
   "ui-users.item.enumeration": [
@@ -129792,7 +129876,7 @@
   "ui-users.item.location.name": [
     {
       "type": 0,
-      "value": "Localización"
+      "value": "Ubicación"
     }
   ],
   "ui-users.item.materialType.name": [
@@ -129874,7 +129958,7 @@
   "ui-users.loanPolicyId": [
     {
       "type": 0,
-      "value": "ID de la política de préstamo"
+      "value": "ID de norma de préstamo"
     }
   ],
   "ui-users.loans.action.source.system": [
@@ -129886,13 +129970,13 @@
   "ui-users.loans.addInfo.patron": [
     {
       "type": 0,
-      "value": "Add new patron information"
+      "value": "Añadir información sobre nuevos usuarios"
     }
   ],
   "ui-users.loans.addInfo.staff": [
     {
       "type": 0,
-      "value": "Add new staff information"
+      "value": "Añadir nueva información sobre el personal"
     }
   ],
   "ui-users.loans.claimReturned": [
@@ -130063,25 +130147,25 @@
   "ui-users.loans.columns.feefineIncurred": [
     {
       "type": 0,
-      "value": "Tasas/multas incurridas"
+      "value": "Tarifas/multas incurridas"
     }
   ],
   "ui-users.loans.columns.itemStatus": [
     {
       "type": 0,
-      "value": "Estado del ítem"
+      "value": "Estado del artículo"
     }
   ],
   "ui-users.loans.columns.loanDate": [
     {
       "type": 0,
-      "value": "Fecha de préstamo"
+      "value": "Fecha del préstamo"
     }
   ],
   "ui-users.loans.columns.renewals": [
     {
       "type": 0,
-      "value": "Contador de renovaciones"
+      "value": "Recuento de renovación"
     }
   ],
   "ui-users.loans.columns.returnDate": [
@@ -130099,7 +130183,7 @@
   "ui-users.loans.columns.title": [
     {
       "type": 0,
-      "value": "Título del ítem"
+      "value": "Título del artículo"
     }
   ],
   "ui-users.loans.confirmAsMissing": [
@@ -130154,12 +130238,16 @@
     {
       "children": [
         {
+          "type": 0,
+          "value": " "
+        },
+        {
           "type": 1,
           "value": "title"
         },
         {
           "type": 0,
-          "value": " ("
+          "value": " ( "
         },
         {
           "type": 1,
@@ -130167,7 +130255,7 @@
         },
         {
           "type": 0,
-          "value": ")"
+          "value": " ) "
         }
       ],
       "type": 8,
@@ -130175,7 +130263,7 @@
     },
     {
       "type": 0,
-      "value": " (Barcode: "
+      "value": " (código de barras: "
     },
     {
       "type": 1,
@@ -130183,13 +130271,13 @@
     },
     {
       "type": 0,
-      "value": ") will be "
+      "value": " ) se "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Declared lost"
+          "value": " declarará perdido "
         }
       ],
       "type": 8,
@@ -130197,7 +130285,7 @@
     },
     {
       "type": 0,
-      "value": ". "
+      "value": " . "
     },
     {
       "offset": 0,
@@ -130206,7 +130294,7 @@
           "value": [
             {
               "type": 0,
-              "value": "There may be open requests for this item."
+              "value": "Puede haber solicitudes abiertas para este ítem."
             }
           ]
         },
@@ -130217,7 +130305,7 @@
           "value": [
             {
               "type": 0,
-              "value": "There is "
+              "value": " Hay "
             },
             {
               "type": 1,
@@ -130225,7 +130313,7 @@
             },
             {
               "type": 0,
-              "value": " for this item."
+              "value": " para este ítem."
             }
           ]
         },
@@ -130233,7 +130321,7 @@
           "value": [
             {
               "type": 0,
-              "value": "There are "
+              "value": " Hay "
             },
             {
               "type": 1,
@@ -130241,7 +130329,7 @@
             },
             {
               "type": 0,
-              "value": " for this item."
+              "value": " para este ítem."
             }
           ]
         }
@@ -130258,7 +130346,7 @@
     },
     {
       "type": 0,
-      "value": " Suspendido"
+      "value": " Suspendido/a"
     }
   ],
   "ui-users.loans.details.borrower": [
@@ -130276,7 +130364,7 @@
   "ui-users.loans.details.claimedReturned": [
     {
       "type": 0,
-      "value": "Devuelto vencido"
+      "value": "Reclamado devuelto"
     }
   ],
   "ui-users.loans.details.effectiveCallNumber": [
@@ -130288,13 +130376,13 @@
   "ui-users.loans.details.feeFine": [
     {
       "type": 0,
-      "value": "Cuota / multa"
+      "value": "Tarifa/multa"
     }
   ],
   "ui-users.loans.details.fineIncurred": [
     {
       "type": 0,
-      "value": "Tasas/multas incurridas"
+      "value": "Tarifas/multas incurridas"
     }
   ],
   "ui-users.loans.details.loanPolicy": [
@@ -130336,19 +130424,19 @@
   "ui-users.loans.details.proxyBorrower": [
     {
       "type": 0,
-      "value": "Prestatario delegado"
+      "value": "Prestatario Proxy"
     }
   ],
   "ui-users.loans.details.renewalCount": [
     {
       "type": 0,
-      "value": "Contador de renovaciones"
+      "value": "Recuento de renovación"
     }
   ],
   "ui-users.loans.details.requestQueue": [
     {
       "type": 0,
-      "value": "Cola de reservas"
+      "value": "Cola de petición"
     }
   ],
   "ui-users.loans.details.requests": [
@@ -130366,7 +130454,7 @@
   "ui-users.loans.history": [
     {
       "type": 0,
-      "value": "Historial de acciones de préstamo"
+      "value": "Historial de préstamos"
     }
   ],
   "ui-users.loans.item.nonRenewed.callout.verb": [
@@ -130383,8 +130471,16 @@
     {
       "children": [
         {
+          "type": 0,
+          "value": " "
+        },
+        {
           "type": 1,
           "value": "title"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -130392,13 +130488,13 @@
     },
     {
       "type": 0,
-      "value": " se renovó "
+      "value": " fue con éxito "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "con éxito"
+          "value": " renovado "
         }
       ],
       "type": 8,
@@ -130406,7 +130502,7 @@
     },
     {
       "type": 0,
-      "value": "."
+      "value": " "
     }
   ],
   "ui-users.loans.item.renewed.callout.verb": [
@@ -130493,7 +130589,7 @@
           "value": [
             {
               "type": 0,
-              "value": "loan"
+              "value": " préstamo "
             }
           ]
         },
@@ -130501,7 +130597,7 @@
           "value": [
             {
               "type": 0,
-              "value": "loans"
+              "value": " péstamos "
             }
           ]
         }
@@ -130520,7 +130616,7 @@
   "ui-users.loans.items.renewed.label": [
     {
       "type": 0,
-      "value": "Renovaciones realizadas con éxito"
+      "value": "Renovaciones exitosas"
     }
   ],
   "ui-users.loans.items.renewed.subHeading": [
@@ -130592,7 +130688,7 @@
           "value": [
             {
               "type": 0,
-              "value": "reminder fee"
+              "value": "tarifa de recordatorio"
             }
           ]
         },
@@ -130600,7 +130696,7 @@
           "value": [
             {
               "type": 0,
-              "value": "reminder fees"
+              "value": "tarifas de recordatorio"
             }
           ]
         }
@@ -130611,7 +130707,7 @@
     },
     {
       "type": 0,
-      "value": " billed"
+      "value": " facturadas"
     }
   ],
   "ui-users.loans.loanDetails": [
@@ -130651,7 +130747,7 @@
     },
     {
       "type": 0,
-      "value": " (Barcode: "
+      "value": " (Código de barras: "
     },
     {
       "type": 1,
@@ -130659,13 +130755,13 @@
     },
     {
       "type": 0,
-      "value": ") will be marked as "
+      "value": ") se marcará como "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Missing"
+          "value": "Falta"
         }
       ],
       "type": 8,
@@ -130673,7 +130769,7 @@
     },
     {
       "type": 0,
-      "value": ", and the patron will not be billed. "
+      "value": " y no se facturará al usuario. "
     },
     {
       "offset": 0,
@@ -130682,7 +130778,7 @@
           "value": [
             {
               "type": 0,
-              "value": "There may be open requests for this item."
+              "value": "Puede haber solicitudes abiertas para este artículo."
             }
           ]
         },
@@ -130693,7 +130789,7 @@
           "value": [
             {
               "type": 0,
-              "value": "There is "
+              "value": "Hay "
             },
             {
               "type": 1,
@@ -130701,7 +130797,7 @@
             },
             {
               "type": 0,
-              "value": " for this item."
+              "value": " para este artículo."
             }
           ]
         },
@@ -130709,7 +130805,7 @@
           "value": [
             {
               "type": 0,
-              "value": "There are "
+              "value": "Hay "
             },
             {
               "type": 1,
@@ -130717,7 +130813,7 @@
             },
             {
               "type": 0,
-              "value": " for this item."
+              "value": " para este artículo."
             }
           ]
         }
@@ -130736,13 +130832,13 @@
   "ui-users.loans.newPatronInfo": [
     {
       "type": 0,
-      "value": "New patron info"
+      "value": "Información sobre el nuevo patrón"
     }
   ],
   "ui-users.loans.newStaffInfo": [
     {
       "type": 0,
-      "value": "New staff info"
+      "value": "Información sobre el nuevo personal"
     }
   ],
   "ui-users.loans.numClaimedReturnedLoans": [
@@ -130805,7 +130901,7 @@
           "value": [
             {
               "type": 0,
-              "value": "closed loan"
+              "value": " préstamo cerrado "
             }
           ]
         },
@@ -130813,7 +130909,7 @@
           "value": [
             {
               "type": 0,
-              "value": "closed loans"
+              "value": " préstamos cerrados "
             }
           ]
         }
@@ -130840,7 +130936,7 @@
           "value": [
             {
               "type": 0,
-              "value": "open loan"
+              "value": " préstamo abierto "
             }
           ]
         },
@@ -130848,7 +130944,7 @@
           "value": [
             {
               "type": 0,
-              "value": "open loans"
+              "value": " préstamos abiertos "
             }
           ]
         }
@@ -130873,7 +130969,7 @@
   "ui-users.loans.patronInfoDialogBody": [
     {
       "type": 0,
-      "value": "Add new patron information for "
+      "value": "Añadir nueva información de cliente para "
     },
     {
       "children": [
@@ -130899,7 +130995,7 @@
     },
     {
       "type": 0,
-      "value": " (Barcode: "
+      "value": " (código de barras: "
     },
     {
       "type": 1,
@@ -130907,7 +131003,7 @@
     },
     {
       "type": 0,
-      "value": "). This will supersede any patron information added previously."
+      "value": "). Esto sustituirá a cualquier información de usuario añadida anteriormente."
     }
   ],
   "ui-users.loans.resolveClaim": [
@@ -130931,7 +131027,7 @@
   "ui-users.loans.staffInfoDialogBody": [
     {
       "type": 0,
-      "value": "Add new staff information for "
+      "value": "Añadir nueva información de personal para "
     },
     {
       "children": [
@@ -130957,7 +131053,7 @@
     },
     {
       "type": 0,
-      "value": " (Barcode: "
+      "value": " (código de barras: "
     },
     {
       "type": 1,
@@ -130965,7 +131061,7 @@
     },
     {
       "type": 0,
-      "value": ")."
+      "value": "). Esto reemplazará cualquier información de personal añadida anteriormente."
     }
   ],
   "ui-users.loans.title": [
@@ -130977,13 +131073,13 @@
   "ui-users.lostItems.feeFineAmount.error": [
     {
       "type": 0,
-      "value": "Actual cost to bill patron must be greater than 0.00 and less than 9999.99"
+      "value": "El coste real para facturar al usuario debe ser superior a 0,00 e inferior a 9999,99."
     }
   ],
   "ui-users.lostItems.list.columnName.action.actualCostDetails": [
     {
       "type": 0,
-      "value": "Actual cost details"
+      "value": "Detalles del coste real"
     }
   ],
   "ui-users.lostItems.list.columnName.action.bill": [
@@ -131001,55 +131097,55 @@
   "ui-users.lostItems.list.columnName.action.feeFineDetails": [
     {
       "type": 0,
-      "value": "Fee/fine details"
+      "value": "Detalles de la tasa/multa"
     }
   ],
   "ui-users.lostItems.list.columnName.action.itemDetails": [
     {
       "type": 0,
-      "value": "Item details"
+      "value": "Detalles del item"
     }
   ],
   "ui-users.lostItems.list.columnName.action.loanDetails": [
     {
       "type": 0,
-      "value": "Loan details"
+      "value": "Detalles préstamo"
     }
   ],
   "ui-users.lostItems.list.columnName.action.patronDetails": [
     {
       "type": 0,
-      "value": "Patron details"
+      "value": "Detalle tipo de usuarios"
     }
   ],
   "ui-users.lostItems.list.columnName.actions": [
     {
       "type": 0,
-      "value": "Actions"
+      "value": "Acciones"
     }
   ],
   "ui-users.lostItems.list.columnName.dateOfLoss": [
     {
       "type": 0,
-      "value": "Date of loss"
+      "value": "Fecha del siniestro"
     }
   ],
   "ui-users.lostItems.list.columnName.feeFineOwner": [
     {
       "type": 0,
-      "value": "Fee/fine owner"
+      "value": "Cuota/multa propietario"
     }
   ],
   "ui-users.lostItems.list.columnName.feeFineType": [
     {
       "type": 0,
-      "value": "Fee/fine type"
+      "value": "Tipo de tasa/multa"
     }
   ],
   "ui-users.lostItems.list.columnName.instance": [
     {
       "type": 0,
-      "value": "Instance"
+      "value": "Instancia"
     }
   ],
   "ui-users.lostItems.list.columnName.instance.subString.ISBN": [
@@ -131061,79 +131157,79 @@
   "ui-users.lostItems.list.columnName.instance.subString.effectiveCallNumber": [
     {
       "type": 0,
-      "value": "Effective call number string: "
+      "value": "Cadena de números de llamada efectiva: "
     }
   ],
   "ui-users.lostItems.list.columnName.instance.subString.loanType": [
     {
       "type": 0,
-      "value": "Loan type: "
+      "value": "Tipo de préstamo: "
     }
   ],
   "ui-users.lostItems.list.columnName.lossType": [
     {
       "type": 0,
-      "value": "Loss type"
+      "value": "Tipo de pérdida"
     }
   ],
   "ui-users.lostItems.list.columnName.patron": [
     {
       "type": 0,
-      "value": "Patron"
+      "value": "Patrón"
     }
   ],
   "ui-users.lostItems.list.columnName.permanentItemLocation": [
     {
       "type": 0,
-      "value": "Permanent item location"
+      "value": "Ubicación permanente del artículo"
     }
   ],
   "ui-users.lostItems.list.columnName.status": [
     {
       "type": 0,
-      "value": "Status"
+      "value": "Estado"
     }
   ],
   "ui-users.lostItems.list.filters": [
     {
       "type": 0,
-      "value": "Buscar & Filtrar"
+      "value": "Buscar y filtros"
     }
   ],
   "ui-users.lostItems.list.filters.lossType": [
     {
       "type": 0,
-      "value": "Loss type"
+      "value": "Tipo de pérdida"
     }
   ],
   "ui-users.lostItems.list.filters.lossType.agedToLost": [
     {
       "type": 0,
-      "value": "Aged to lost"
+      "value": "Envejecido a perdido"
     }
   ],
   "ui-users.lostItems.list.filters.lossType.declaredLost": [
     {
       "type": 0,
-      "value": "Declared lost"
+      "value": "Declarado perdido"
     }
   ],
   "ui-users.lostItems.list.filters.status": [
     {
       "type": 0,
-      "value": "Status"
+      "value": "Estado"
     }
   ],
   "ui-users.lostItems.list.filters.status.billed": [
     {
       "type": 0,
-      "value": "Billed"
+      "value": "Facturado"
     }
   ],
   "ui-users.lostItems.list.filters.status.cancelled": [
     {
       "type": 0,
-      "value": "Cancelled"
+      "value": "Cancelado"
     }
   ],
   "ui-users.lostItems.list.filters.status.expired": [
@@ -131145,19 +131241,19 @@
   "ui-users.lostItems.list.filters.status.open": [
     {
       "type": 0,
-      "value": "Open"
+      "value": "Abrir"
     }
   ],
   "ui-users.lostItems.list.searchResults": [
     {
       "type": 0,
-      "value": "Lost items requiring actual cost"
+      "value": "Objetos perdidos que requieren un coste real"
     }
   ],
   "ui-users.lostItems.message.noAccessToActualCostPage": [
     {
       "type": 0,
-      "value": "User does not have permission to access \"Lost items needing actual cost\" processing page"
+      "value": "El usuario no tiene permiso para acceder a la página de tramitación \"Objetos perdidos que necesitan coste real\"."
     }
   ],
   "ui-users.lostItems.modal.actualCostToBill": [
@@ -131213,7 +131309,7 @@
   "ui-users.lostItems.modal.button.close": [
     {
       "type": 0,
-      "value": "Close"
+      "value": "Cerrar"
     }
   ],
   "ui-users.lostItems.modal.button.confirm": [
@@ -131275,7 +131371,21 @@
   "ui-users.lostItems.modal.summaryMessageCharged": [
     {
       "type": 0,
-      "value": "A fee/fine of "
+      "value": "Se ha "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "cobrado"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " una tasa/multa de "
     },
     {
       "children": [
@@ -131289,21 +131399,7 @@
     },
     {
       "type": 0,
-      "value": " was "
-    },
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "charged"
-        }
-      ],
-      "type": 8,
-      "value": "strong"
-    },
-    {
-      "type": 0,
-      "value": " to "
+      "value": " a "
     },
     {
       "children": [
@@ -131317,7 +131413,7 @@
     },
     {
       "type": 0,
-      "value": " for "
+      "value": " por "
     },
     {
       "children": [
@@ -131327,7 +131423,7 @@
         },
         {
           "type": 0,
-          "value": " ("
+          "value": "("
         },
         {
           "type": 1,
@@ -131348,14 +131444,10 @@
   ],
   "ui-users.lostItems.modal.summaryMessageNotCharged": [
     {
-      "type": 0,
-      "value": "A fee/fine was "
-    },
-    {
       "children": [
         {
           "type": 0,
-          "value": "not charged"
+          "value": "No se ha cobrado"
         }
       ],
       "type": 8,
@@ -131363,7 +131455,7 @@
     },
     {
       "type": 0,
-      "value": " to "
+      "value": " una tasa/multa a "
     },
     {
       "children": [
@@ -131377,25 +131469,13 @@
     },
     {
       "type": 0,
-      "value": " for "
+      "value": " por "
     },
     {
       "children": [
         {
           "type": 1,
           "value": "instanceTitle"
-        },
-        {
-          "type": 0,
-          "value": " ("
-        },
-        {
-          "type": 1,
-          "value": "materialType"
-        },
-        {
-          "type": 0,
-          "value": ")"
         }
       ],
       "type": 8,
@@ -131403,13 +131483,35 @@
     },
     {
       "type": 0,
-      "value": "."
+      "value": "("
+    },
+    {
+      "type": 1,
+      "value": "materialType"
+    },
+    {
+      "type": 0,
+      "value": ")."
     }
   ],
   "ui-users.lostItems.notification.billed": [
     {
       "type": 0,
-      "value": "A fee/fine of "
+      "value": "Se ha "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "cobrado"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " correctamente una tasa/multa de "
     },
     {
       "children": [
@@ -131423,21 +131525,7 @@
     },
     {
       "type": 0,
-      "value": " has been successfully "
-    },
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "charged"
-        }
-      ],
-      "type": 8,
-      "value": "strong"
-    },
-    {
-      "type": 0,
-      "value": " to "
+      "value": " a "
     },
     {
       "children": [
@@ -131448,6 +131536,10 @@
       ],
       "type": 8,
       "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": "."
     }
   ],
   "ui-users.lostItems.notification.billedBefore": [
@@ -131463,19 +131555,15 @@
     },
     {
       "type": 0,
-      "value": " has already been billed for this item by another user"
+      "value": " ya ha sido facturado por este artículo por otro usuario"
     }
   ],
   "ui-users.lostItems.notification.cancelled": [
     {
-      "type": 0,
-      "value": "A lost item fee "
-    },
-    {
       "children": [
         {
           "type": 0,
-          "value": "will not be charged"
+          "value": "No se cobrará"
         }
       ],
       "type": 8,
@@ -131483,7 +131571,7 @@
     },
     {
       "type": 0,
-      "value": " to "
+      "value": " ninguna tasa por objetos perdidos a "
     },
     {
       "children": [
@@ -131494,18 +131582,22 @@
       ],
       "type": 8,
       "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": "."
     }
   ],
   "ui-users.lostItems.notification.serverError": [
     {
       "type": 0,
-      "value": "A system error has occurred - please try again later or contact your FOLIO support staff"
+      "value": "Se ha producido un error en el sistema. Inténtalo de nuevo más tarde o ponte en contacto con el personal de soporte de FOLIO."
     }
   ],
   "ui-users.lostItems.recordStatus.billed": [
     {
       "type": 0,
-      "value": "Billed: "
+      "value": "Facturado: "
     },
     {
       "type": 1,
@@ -131515,13 +131607,13 @@
   "ui-users.lostItems.recordStatus.cancelled": [
     {
       "type": 0,
-      "value": "Cancelled"
+      "value": "Cancelado"
     }
   ],
   "ui-users.lostItems.recordStatus.expired": [
     {
       "type": 0,
-      "value": "Caducado"
+      "value": "Caducado: "
     }
   ],
   "ui-users.lostItems.recordStatus.notBilled": [
@@ -131539,19 +131631,19 @@
   "ui-users.lostItems.recordStatus.open": [
     {
       "type": 0,
-      "value": "Open"
+      "value": "Abierto"
     }
   ],
   "ui-users.manualBlockTemplate": [
     {
       "type": 0,
-      "value": "patron block template"
+      "value": "Plantillas de bloqueo de usuarios"
     }
   ],
   "ui-users.manualBlockTemplate.deleteTemplate": [
     {
       "type": 0,
-      "value": "Delete patron block template?"
+      "value": "¿Eliminar plantilla de bloqueo de usuarios?"
     }
   ],
   "ui-users.manualBlockTemplate.deleteTemplateMessage": [
@@ -131561,55 +131653,55 @@
     },
     {
       "type": 0,
-      "value": " will be removed from patron block templates."
+      "value": " se eliminará de las plantillas de reglas de bloqueo"
     }
   ],
   "ui-users.manualBlockTemplate.untitledTemplate": [
     {
       "type": 0,
-      "value": "Untitled patron block template"
+      "value": "Plantillas de bloqueo de usuarios sin título"
     }
   ],
   "ui-users.manualBlockTemplates.blockActions": [
     {
       "type": 0,
-      "value": "Bloqueo acciones"
+      "value": "Acciones de bloqueo"
     }
   ],
   "ui-users.manualBlockTemplates.blockCode": [
     {
       "type": 0,
-      "value": "Block code"
+      "value": "Código de bloqueo"
     }
   ],
   "ui-users.manualBlockTemplates.blockInformation": [
     {
       "type": 0,
-      "value": "Block information"
+      "value": "Información de bloqueo"
     }
   ],
   "ui-users.manualBlockTemplates.closeManualBlockDialog": [
     {
       "type": 0,
-      "value": "Close patron block template dialog"
+      "value": "Cerrar cuadro de diálogo de la plantilla de bloqueo de usuarios"
     }
   ],
   "ui-users.manualBlockTemplates.newManualBlockTemplate": [
     {
       "type": 0,
-      "value": "New patron block template"
+      "value": "Nueva plantilla de bloqueo de usuarios"
     }
   ],
   "ui-users.manualBlockTemplates.templateInformation": [
     {
       "type": 0,
-      "value": "Template information"
+      "value": "Información de la plantilla"
     }
   ],
   "ui-users.manualBlockTemplates.templateName": [
     {
       "type": 0,
-      "value": "Template name"
+      "value": "Nombre de la plantilla"
     }
   ],
   "ui-users.meta.title": [
@@ -131659,7 +131751,7 @@
   "ui-users.notes.popupModal.label": [
     {
       "type": 0,
-      "value": "User note"
+      "value": "Nota del usuario"
     }
   ],
   "ui-users.okay": [
@@ -131683,7 +131775,7 @@
   "ui-users.owners.cannotDeleteOwner": [
     {
       "type": 0,
-      "value": "Este propietario de tarifa/multa no se puede eliminar porque tiene tarifas/multas sin pagar"
+      "value": "Este propietario de multa/sanción no se puede eliminar, ya que tiene una o más multas/sanciones asociadas"
     }
   ],
   "ui-users.owners.columns.asp": [
@@ -131713,13 +131805,13 @@
   "ui-users.owners.label": [
     {
       "type": 0,
-      "value": "Tarifa/Multa: Propietarios"
+      "value": "Tarifa/multa: Propietarios"
     }
   ],
   "ui-users.owners.noServicePoints": [
     {
       "type": 0,
-      "value": "Los puntos de servicio asociados no permiten propietarios de tarifa/multa compartida"
+      "value": "Puntos de servicio asociados no permitidos para tarifa compartida / propietario de la multa"
     }
   ],
   "ui-users.owners.nodata": [
@@ -131731,7 +131823,7 @@
   "ui-users.owners.select": [
     {
       "type": 0,
-      "value": "Select owner"
+      "value": "Seleccionar propietario"
     }
   ],
   "ui-users.owners.singular": [
@@ -131809,13 +131901,13 @@
   "ui-users.payments.label": [
     {
       "type": 0,
-      "value": "Tarifa/multa: métodos de pago"
+      "value": "Tarifa/multa: Métodos de pago"
     }
   ],
   "ui-users.payments.nodata": [
     {
       "type": 0,
-      "value": "No hay tarifa(s)/multa(s): métodos de pago"
+      "value": "No hay Tarifa/multa: Métodos de pago"
     }
   ],
   "ui-users.payments.singular": [
@@ -131827,31 +131919,31 @@
   "ui-users.permission.accounts": [
     {
       "type": 0,
-      "value": "Historial de tarifas / multas: puede crear, editar y eliminar cuentas"
+      "value": "Historial de tarifa/multa: puede crear, editar y eliminar cuentas"
     }
   ],
   "ui-users.permission.cashDrawerReport": [
     {
       "type": 0,
-      "value": "Users: Create and download Cash drawer reconciliation report"
+      "value": "Usuarios: Crear y descargar el informe de conciliación de caja"
     }
   ],
   "ui-users.permission.create": [
     {
       "type": 0,
-      "value": "Usuarios: Puede crear nuevo usuario"
+      "value": "Usuarios: puede crear un nuevo usuario"
     }
   ],
   "ui-users.permission.delete": [
     {
       "type": 0,
-      "value": "Users: Can delete user profile if user does not have any open transactions"
+      "value": "Usuarios: pueden eliminar el perfil de usuario, si el usuario no tiene ninguna transacción abierta"
     }
   ],
   "ui-users.permission.edit": [
     {
       "type": 0,
-      "value": "Usuarios: Puede editar el perfil de usuario"
+      "value": "Usuarios: puede editar el perfil de usuario"
     }
   ],
   "ui-users.permission.edit-reading-room-access": [
@@ -131863,13 +131955,13 @@
   "ui-users.permission.editperms": [
     {
       "type": 0,
-      "value": "Usuarios: Puede asignar y desasignar permisos a los usuarioas"
+      "value": "Usuarios: Pueden asignar y retirar los permisos a los usuarios"
     }
   ],
   "ui-users.permission.editproxies": [
     {
       "type": 0,
-      "value": "Usuarios: pueden crear, editar y eliminar representantes"
+      "value": "Usuarios: puede crear, editar y eliminar proxies"
     }
   ],
   "ui-users.permission.edituserservicepoints": [
@@ -131887,73 +131979,73 @@
   "ui-users.permission.feesfines.actions.all": [
     {
       "type": 0,
-      "value": "Usuarios: pueden crear, editar y eliminar tarifas / multas"
+      "value": "Usuarios: puede crear, editar y eliminar tarifas/multas"
     }
   ],
   "ui-users.permission.feesfines.view": [
     {
       "type": 0,
-      "value": "Users: Can view fees/fines and loans"
+      "value": "Usuarios: pueden ver tarifas/multas y préstamos"
     }
   ],
   "ui-users.permission.financialTransactionReport": [
     {
       "type": 0,
-      "value": "Users: Create and download Financial transaction detail report"
+      "value": "Usuarios: crear y descargar el informe detallado de transacciones financieras"
     }
   ],
   "ui-users.permission.loans.add-patron-info": [
     {
       "type": 0,
-      "value": "Users: User loans: add patron information"
+      "value": "Usuarios: Préstamos a usuarios: añadir información sobre los usuarios"
     }
   ],
   "ui-users.permission.loans.add-staff-info": [
     {
       "type": 0,
-      "value": "Users: User loans: add staff information"
+      "value": "Usuarios: Préstamos de usuarios: añadir información sobre el personal"
     }
   ],
   "ui-users.permission.loans.all": [
     {
       "type": 0,
-      "value": "Usuarios: préstamos de usuario ver, editar, renovar (todos)"
+      "value": "Usuarios: ver, editar, renovar (todo)"
     }
   ],
   "ui-users.permission.loans.anonymize": [
     {
       "type": 0,
-      "value": "Users: User loans anonymize"
+      "value": "Usuarios: préstamos anonimizados"
     }
   ],
   "ui-users.permission.loans.change-due-date": [
     {
       "type": 0,
-      "value": "Users: User loans change due date"
+      "value": "Usuarios: préstamo cambió la fecha de vencimiento"
     }
   ],
   "ui-users.permission.loans.claim-item-returned": [
     {
       "type": 0,
-      "value": "Usuarios: reclamación de préstamos de usuario devueltos"
+      "value": "Usuarios: el usuario afirma que se devolvió el ítem prestado"
     }
   ],
   "ui-users.permission.loans.declare-item-lost": [
     {
       "type": 0,
-      "value": "Usuarios: préstamos de usuarios declaran perdidos"
+      "value": "Usuarios: el usuario afirma que se el artículo ha sido perdido"
     }
   ],
   "ui-users.permission.loans.renew": [
     {
       "type": 0,
-      "value": "Usuarios: renovación de préstamos de usuario"
+      "value": "Usuarios: Renovar préstamos de usuario"
     }
   ],
   "ui-users.permission.loans.renew-override": [
     {
       "type": 0,
-      "value": "Usuarios: préstamos de usuario renovados mediante anulación"
+      "value": "Usuarios: renovar préstamos de usuario mediante anulación"
     }
   ],
   "ui-users.permission.loans.view": [
@@ -131965,13 +132057,13 @@
   "ui-users.permission.lost-items.requiring-actual-cost": [
     {
       "type": 0,
-      "value": "Users: Can process lost items requiring actual cost"
+      "value": "Usuarios: Pueden procesar ítems perdidos que requieran un coste real"
     }
   ],
   "ui-users.permission.manualProcessRefundsReport": [
     {
       "type": 0,
-      "value": "Users: Create and download Refunds to process manually report"
+      "value": "Usuarios: Crear y descargar reembolsos para procesar informes manualmente"
     }
   ],
   "ui-users.permission.manual_charge": [
@@ -131995,19 +132087,19 @@
   "ui-users.permission.opentransactions": [
     {
       "type": 0,
-      "value": "Users: Can check open transactions"
+      "value": "Usuarios: pueden verificar transacciones abiertas"
     }
   ],
   "ui-users.permission.overrideItemBlock": [
     {
       "type": 0,
-      "value": "Usuario: puede sobrepasar los bloqueos de item"
+      "value": "Anular bloqueo del ítem"
     }
   ],
   "ui-users.permission.overridePatronBlock": [
     {
       "type": 0,
-      "value": "Usuario: puede sobrepasar los bloqueos de usuario"
+      "value": "Anular reglas de bloqueo del ítem"
     }
   ],
   "ui-users.permission.patron-pre-registrations-view": [
@@ -132067,13 +132159,13 @@
   "ui-users.permission.requests.all": [
     {
       "type": 0,
-      "value": "Usuarios: ver solicitudes"
+      "value": "Usuarios: ver reservas"
     }
   ],
   "ui-users.permission.reset.password": [
     {
       "type": 0,
-      "value": "Cuentas de usuario: Crear/restablecer contraseña"
+      "value": "Usuarios: Crear/restablecer contraseña"
     }
   ],
   "ui-users.permission.settings.addresstypes": [
@@ -132085,13 +132177,13 @@
   "ui-users.permission.settings.addresstypes.all": [
     {
       "type": 0,
-      "value": "Settings (Users): Can create, edit and remove address types"
+      "value": "Configuración (Usuarios): Puede crear, editar y eliminar tipos de direcciones"
     }
   ],
   "ui-users.permission.settings.addresstypes.view": [
     {
       "type": 0,
-      "value": "Settings (Users): Can view address types"
+      "value": "Configuración (Usuarios): Puede ver los tipos de dirección"
     }
   ],
   "ui-users.permission.settings.comments": [
@@ -132103,13 +132195,13 @@
   "ui-users.permission.settings.comments.all": [
     {
       "type": 0,
-      "value": "Settings (Users): Can edit if comment required"
+      "value": "Configuración (Usuarios): Pueden crear, editar y eliminar comentarios"
     }
   ],
   "ui-users.permission.settings.comments.view": [
     {
       "type": 0,
-      "value": "Settings (Users): Can view if comment required"
+      "value": "Configuración (Usuarios): Puede ver los comentarios"
     }
   ],
   "ui-users.permission.settings.conditions": [
@@ -132121,13 +132213,13 @@
   "ui-users.permission.settings.conditions.edit": [
     {
       "type": 0,
-      "value": "Settings (Users): Can view and edit patron blocks conditions"
+      "value": "Configuración (Usuarios): Puede ver y editar las condiciones de los bloques de usuarios"
     }
   ],
   "ui-users.permission.settings.conditions.view": [
     {
       "type": 0,
-      "value": "Settings (Users): Can view patron blocks conditions"
+      "value": "Configuración (Usuarios): Puede ver las condiciones de bloqueo de los usuarios"
     }
   ],
   "ui-users.permission.settings.customfields.all": [
@@ -132151,37 +132243,37 @@
   "ui-users.permission.settings.departments.all": [
     {
       "type": 0,
-      "value": "Settings (Users): Can create, edit, view, and delete departments"
+      "value": "Configuración (usuarios): crear, editar, ver y eliminar departamentos"
     }
   ],
   "ui-users.permission.settings.departments.create": [
     {
       "type": 0,
-      "value": "Settings (Users): Create departments"
+      "value": "Configuración (usuarios): crear departamentos"
     }
   ],
   "ui-users.permission.settings.departments.create.edit.view": [
     {
       "type": 0,
-      "value": "Settings (Users): Can create, edit, and view departments"
+      "value": "Configuración (usuarios): crear, editar y ver departamentos"
     }
   ],
   "ui-users.permission.settings.departments.delete": [
     {
       "type": 0,
-      "value": "Settings (Users): Delete departments"
+      "value": "Configuración (Usuarios): Borrar departamentos"
     }
   ],
   "ui-users.permission.settings.departments.edit": [
     {
       "type": 0,
-      "value": "Settings (Users): Edit departments"
+      "value": "Configuración (usuarios): editar departamentos"
     }
   ],
   "ui-users.permission.settings.departments.view": [
     {
       "type": 0,
-      "value": "Settings (Users): Can view departments"
+      "value": "Configuración (usuarios): ver departamentos"
     }
   ],
   "ui-users.permission.settings.feefine": [
@@ -132199,13 +132291,13 @@
   "ui-users.permission.settings.feefines.view": [
     {
       "type": 0,
-      "value": "Settings (Users): Can view feefines-related entries"
+      "value": "Configuración (Usuarios): Puede ver las entradas relacionadas con las multas"
     }
   ],
   "ui-users.permission.settings.general.view": [
     {
       "type": 0,
-      "value": "Settings (Users): Can view general entries"
+      "value": "Configuración (Usuarios): Puede ver las entradas generales"
     }
   ],
   "ui-users.permission.settings.limits": [
@@ -132217,25 +132309,25 @@
   "ui-users.permission.settings.limits.all": [
     {
       "type": 0,
-      "value": "Settings (Users): Can create, edit and remove patron blocks limits"
+      "value": "Configuración (Usuarios): Puede crear, editar y eliminar los límites de los bloques de usuarios"
     }
   ],
   "ui-users.permission.settings.limits.view": [
     {
       "type": 0,
-      "value": "Settings (Users): Can view patron blocks limits"
+      "value": "Configuración (Usuarios): Puede ver los límites de bloqueo de usuarios"
     }
   ],
   "ui-users.permission.settings.manual-charges.all": [
     {
       "type": 0,
-      "value": "Settings (Users): Can create, edit and remove manual charges"
+      "value": "Configuración (Usuarios): Puede crear, editar y eliminar multas"
     }
   ],
   "ui-users.permission.settings.manual-charges.view": [
     {
       "type": 0,
-      "value": "Settings (Users): Can view manual charges"
+      "value": "Configuración (Usuarios): Puede ver las multas"
     }
   ],
   "ui-users.permission.settings.owners": [
@@ -132247,31 +132339,31 @@
   "ui-users.permission.settings.owners.all": [
     {
       "type": 0,
-      "value": "Settings (Users): Can create, edit and remove owners"
+      "value": "Configuración (Usuarios): Puede crear, editar y eliminar propietarios"
     }
   ],
   "ui-users.permission.settings.owners.view": [
     {
       "type": 0,
-      "value": "Settings (Users): Can view owners"
+      "value": "Configuración (Usuarios): Puede ver los propietarios"
     }
   ],
   "ui-users.permission.settings.patron-block-templates.all": [
     {
       "type": 0,
-      "value": "Settings (Users): Can create, edit and remove patron blocks templates"
+      "value": "Configuración (Usuarios): Puede crear, editar y eliminar plantillas de bloques de usuarios"
     }
   ],
   "ui-users.permission.settings.patron-block-templates.view": [
     {
       "type": 0,
-      "value": "Settings (Users): Can view patron blocks templates"
+      "value": "Configuración (Usuarios): Puede ver las plantillas de los bloques de usuarios"
     }
   ],
   "ui-users.permission.settings.patron-blocks.view": [
     {
       "type": 0,
-      "value": "Settings (Users): Can view all patron blocks entries"
+      "value": "Configuración (Usuarios): Puede ver todas las entradas de bloqueos de usuarios"
     }
   ],
   "ui-users.permission.settings.payments": [
@@ -132283,13 +132375,13 @@
   "ui-users.permission.settings.payments.all": [
     {
       "type": 0,
-      "value": "Settings (Users): Can create, edit and remove payment methods"
+      "value": "Configuración (Usuarios): Puede crear, editar y eliminar pagos"
     }
   ],
   "ui-users.permission.settings.payments.view": [
     {
       "type": 0,
-      "value": "Settings (Users): Can view payment methods"
+      "value": "Configuración (Usuarios): Puede ver los pagos"
     }
   ],
   "ui-users.permission.settings.permsets": [
@@ -132301,13 +132393,13 @@
   "ui-users.permission.settings.permsets.all": [
     {
       "type": 0,
-      "value": "Settings (Users): Can create, edit and remove permission sets"
+      "value": "Configuración (Usuarios): Puede crear, editar y eliminar conjuntos de permisos"
     }
   ],
   "ui-users.permission.settings.permsets.view": [
     {
       "type": 0,
-      "value": "Settings (Users): Can view permission sets"
+      "value": "Configuración (Usuarios): Puede ver los conjuntos de permisos"
     }
   ],
   "ui-users.permission.settings.refunds": [
@@ -132319,13 +132411,13 @@
   "ui-users.permission.settings.refunds.all": [
     {
       "type": 0,
-      "value": "Settings (Users): Can create, edit and remove refund reasons"
+      "value": "Configuración (Usuarios): Puede crear, editar y eliminar reembolsos"
     }
   ],
   "ui-users.permission.settings.refunds.view": [
     {
       "type": 0,
-      "value": "Settings (Users): Can view refund reasons"
+      "value": "Configuración (Usuarios): Puede ver los reembolsos"
     }
   ],
   "ui-users.permission.settings.transfers": [
@@ -132337,13 +132429,13 @@
   "ui-users.permission.settings.transfers.all": [
     {
       "type": 0,
-      "value": "Settings (Users): Can create, edit and remove transfer accounts "
+      "value": "Configuración (Usuarios): Puede crear, editar y eliminar cuentas de transferencia "
     }
   ],
   "ui-users.permission.settings.transfers.view": [
     {
       "type": 0,
-      "value": "Settings (Users): Can view transfer accounts "
+      "value": "Configuración (Usuarios): Puede ver las cuentas de transferencia "
     }
   ],
   "ui-users.permission.settings.transfertypes": [
@@ -132355,13 +132447,13 @@
   "ui-users.permission.settings.transfertypes.all": [
     {
       "type": 0,
-      "value": "Settings (Users): Can create, edit and remove transfer criteria"
+      "value": "Configuración (Usuarios): Puede crear, editar y eliminar criterios de transferencia"
     }
   ],
   "ui-users.permission.settings.transfertypes.view": [
     {
       "type": 0,
-      "value": "Settings (Users): Can view transfer criteria"
+      "value": "Configuración (Usuarios): Puede ver los criterios de transferencia"
     }
   ],
   "ui-users.permission.settings.usergroups": [
@@ -132373,19 +132465,19 @@
   "ui-users.permission.settings.usergroups.all": [
     {
       "type": 0,
-      "value": "Settings (Users): Can create, edit and remove patron groups"
+      "value": "Configuración (Usuarios): Puede crear, editar y eliminar grupos de usuarios"
     }
   ],
   "ui-users.permission.settings.usergroups.view": [
     {
       "type": 0,
-      "value": "Settings (Users): Can view patron groups"
+      "value": "Configuración (Usuarios): Puede ver los grupos de usuarios"
     }
   ],
   "ui-users.permission.settings.view": [
     {
       "type": 0,
-      "value": "Settings (Users): View all settings"
+      "value": "Configuración (Usuarios): Ver todos los ajustes"
     }
   ],
   "ui-users.permission.settings.waives": [
@@ -132397,19 +132489,19 @@
   "ui-users.permission.settings.waives.all": [
     {
       "type": 0,
-      "value": "Settings (Users): Can create, edit and remove waive reasons"
+      "value": "Configuración (Usuarios): Puede crear, editar y eliminar renuncias"
     }
   ],
   "ui-users.permission.settings.waives.view": [
     {
       "type": 0,
-      "value": "Settings (Users): Can view waive reasons"
+      "value": "Configuración (Usuarios): Puede ver las renuncias"
     }
   ],
   "ui-users.permission.view": [
     {
       "type": 0,
-      "value": "Usuarios: Puede ver perfil de usuario"
+      "value": "Usuarios: Pueden ver perfil de usuario"
     }
   ],
   "ui-users.permission.view-patron-notice-print-jobs": [
@@ -132451,19 +132543,19 @@
   "ui-users.permissions-accordion.confirm-continue": [
     {
       "type": 0,
-      "value": "Continue"
+      "value": "Continúe en"
     }
   ],
   "ui-users.permissions-accordion.confirm-heading": [
     {
       "type": 0,
-      "value": "Continue changing permissions? "
+      "value": "¿Seguir cambiando los permisos? "
     }
   ],
   "ui-users.permissions-accordion.confirm-message": [
     {
       "type": 0,
-      "value": "Invisible permissions are part of this set and will be removed when changes are saved. Would you like to continue?"
+      "value": "Los permisos invisibles forman parte de este conjunto y se eliminarán cuando se guarden los cambios. ¿Desea continuar?"
     }
   ],
   "ui-users.permissions.addAllPermissions": [
@@ -132481,19 +132573,19 @@
   "ui-users.permissions.assignUsers.actions.assign": [
     {
       "type": 0,
-      "value": "Assign/unassign"
+      "value": "Asignar/desasignar"
     }
   ],
   "ui-users.permissions.assignUsers.actions.assign.notAvailable": [
     {
       "type": 0,
-      "value": "Assign users is not available"
+      "value": "Asignar usuarios no está disponible"
     }
   ],
   "ui-users.permissions.assignUsers.actions.message.error": [
     {
       "type": 0,
-      "value": "Permissions set user assignment change not successful. "
+      "value": "El cambio de asignación de usuario de Permissions Set no se ha realizado correctamente. "
     },
     {
       "type": 1,
@@ -132503,13 +132595,13 @@
   "ui-users.permissions.assignUsers.actions.message.permission.error": [
     {
       "type": 0,
-      "value": "You do not have required permissions."
+      "value": "No dispone de los permisos necesarios."
     }
   ],
   "ui-users.permissions.assignUsers.actions.message.success": [
     {
       "type": 0,
-      "value": "Permissions set user assignment updated successfully"
+      "value": "Se ha actualizado correctamente la asignación de usuarios del conjunto de permisos"
     }
   ],
   "ui-users.permissions.assignedPermissions": [
@@ -132533,7 +132625,7 @@
   "ui-users.permissions.assignedUsers.patronGroup": [
     {
       "type": 0,
-      "value": "Patron group"
+      "value": "Grupo de patrocinadores"
     }
   ],
   "ui-users.permissions.availablePermissions": [
@@ -132545,7 +132637,7 @@
   "ui-users.permissions.calloutMessage": [
     {
       "type": 0,
-      "value": "Todos los permisos del usuario se han desasignado"
+      "value": "Los permisos del usuario están todos sin asignar."
     }
   ],
   "ui-users.permissions.closePermissionSetDialog": [
@@ -132568,16 +132660,12 @@
   ],
   "ui-users.permissions.deletePermissionSetMessage": [
     {
-      "type": 0,
-      "value": "se eliminará de los conjuntos de permisos "
-    },
-    {
       "type": 1,
       "value": "name"
     },
     {
       "type": 0,
-      "value": "."
+      "value": " se eliminará de los conjuntos de permisos."
     }
   ],
   "ui-users.permissions.empty": [
@@ -132600,22 +132688,22 @@
   ],
   "ui-users.permissions.isProxyFor": [
     {
-      "type": 0,
-      "value": "es representante de "
-    },
-    {
       "type": 1,
       "value": "name"
+    },
+    {
+      "type": 0,
+      "value": " es proxy para"
     }
   ],
   "ui-users.permissions.isSponsorOf": [
     {
-      "type": 0,
-      "value": "es patrocinador de "
-    },
-    {
       "type": 1,
       "value": "name"
+    },
+    {
+      "type": 0,
+      "value": " es patrocinador de"
     }
   ],
   "ui-users.permissions.modal.assigned": [
@@ -132800,7 +132888,7 @@
     },
     {
       "type": 0,
-      "value": " "
+      "value": ". "
     },
     {
       "children": [
@@ -132808,7 +132896,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Está seguro?"
+              "value": "¿Está seguro?"
             }
           ],
           "type": 8,
@@ -132834,7 +132922,7 @@
   "ui-users.permissions.noProxiesFound": [
     {
       "type": 0,
-      "value": "No se han encontrado representantes"
+      "value": "No se han encontrado proxies"
     }
   ],
   "ui-users.permissions.noSponsorsFound": [
@@ -132852,13 +132940,13 @@
   "ui-users.permissions.proxy.sponsor": [
     {
       "type": 0,
-      "value": "Proxy/sponsor"
+      "value": "Proxy/Patrocinador"
     }
   ],
   "ui-users.permissions.removePermission": [
     {
       "type": 0,
-      "value": "Eliminar permiso"
+      "value": "Quitar permiso"
     }
   ],
   "ui-users.permissions.unassignAllPermissions": [
@@ -132942,7 +133030,7 @@
   "ui-users.proxyWillBeDeleted": [
     {
       "type": 0,
-      "value": "La relación de representante de "
+      "value": "La relación de proxy de "
     },
     {
       "children": [
@@ -132976,13 +133064,13 @@
   "ui-users.readingRoom.access": [
     {
       "type": 0,
-      "value": "Access"
+      "value": "Acceso"
     }
   ],
   "ui-users.readingRoom.allowed": [
     {
       "type": 0,
-      "value": "Allowed"
+      "value": "Permitido"
     }
   ],
   "ui-users.readingRoom.filter": [
@@ -133004,7 +133092,7 @@
     },
     {
       "type": 0,
-      "value": " by "
+      "value": " por "
     },
     {
       "type": 1,
@@ -133014,25 +133102,25 @@
   "ui-users.readingRoom.name": [
     {
       "type": 0,
-      "value": "Name"
+      "value": "Nombre"
     }
   ],
   "ui-users.readingRoom.notAllowed": [
     {
       "type": 0,
-      "value": "Not allowed"
+      "value": "No autorizado"
     }
   ],
   "ui-users.readingRoom.note": [
     {
       "type": 0,
-      "value": "Note"
+      "value": "Nota"
     }
   ],
   "ui-users.readingRoom.readingRoomAccess": [
     {
       "type": 0,
-      "value": "Reading room access"
+      "value": "Acceso a la sala de lectura"
     }
   ],
   "ui-users.refunds.columns.description": [
@@ -133050,13 +133138,13 @@
   "ui-users.refunds.label": [
     {
       "type": 0,
-      "value": "Tarifa/multa: razón de reembolso"
+      "value": "Tarifa/multa: Motivos de reembolso"
     }
   ],
   "ui-users.refunds.singular": [
     {
       "type": 0,
-      "value": "Razón de reembolso"
+      "value": "Motivo de reembolso"
     }
   ],
   "ui-users.renew": [
@@ -133074,7 +133162,7 @@
   "ui-users.reports": [
     {
       "type": 0,
-      "value": "Reports"
+      "value": "Informes"
     }
   ],
   "ui-users.reports.borrower.barcode": [
@@ -133098,79 +133186,79 @@
   "ui-users.reports.callout.error": [
     {
       "type": 0,
-      "value": "Something went wrong."
+      "value": "Algo salió mal."
     }
   ],
   "ui-users.reports.cash.additionalPatronInfo": [
     {
       "type": 0,
-      "value": "Payment additional patron information"
+      "value": "Información adicional sobre el patrón de pago"
     }
   ],
   "ui-users.reports.cash.additionalStaffInfo": [
     {
       "type": 0,
-      "value": "Payment additional staff information"
+      "value": "Información adicional sobre el pago al personal"
     }
   ],
   "ui-users.reports.cash.document.name": [
     {
       "type": 0,
-      "value": "Cash Drawer Reconciliation Report"
+      "value": "Informe de conciliación de caja de efectivo"
     }
   ],
   "ui-users.reports.cash.drawer.modal.label": [
     {
       "type": 0,
-      "value": "Cash drawer reconciliation report"
+      "value": "Informe de conciliación del cajón de efectivo"
     }
   ],
   "ui-users.reports.cash.drawer.report.endDate.error": [
     {
       "type": 0,
-      "value": "\"End date\" must be greater than or equal to \"Start date\""
+      "value": "La \"Fecha de Finalización\" debe ser mayor o igual que la \"Fecha de Inicio\""
     }
   ],
   "ui-users.reports.cash.drawer.report.endDateWithoutStart.error": [
     {
       "type": 0,
-      "value": "\"Start date\" is required if \"End date\" entered\n"
+      "value": "Se requiere \"Fecha de Inicio\" si se ingresó \"Fecha de Finalización\""
     }
   ],
   "ui-users.reports.cash.drawer.report.format": [
     {
       "type": 0,
-      "value": "Report format"
+      "value": "Formato del informe"
     }
   ],
   "ui-users.reports.cash.drawer.report.format.both": [
     {
       "type": 0,
-      "value": "Both"
+      "value": "Ambos"
     }
   ],
   "ui-users.reports.cash.drawer.report.format.csv": [
     {
       "type": 0,
-      "value": "CSV"
+      "value": "Valores separados por comas"
     }
   ],
   "ui-users.reports.cash.drawer.report.format.pdf": [
     {
       "type": 0,
-      "value": "PDF (Read only)"
+      "value": "PDF (sólo lectura)"
     }
   ],
   "ui-users.reports.cash.drawer.report.servicePoint.error": [
     {
       "type": 0,
-      "value": "El \"punto de servicio\" es requerido"
+      "value": "Se requiere el \"Punto de servicio\""
     }
   ],
   "ui-users.reports.cash.drawer.report.startDate.error": [
     {
       "type": 0,
-      "value": "\"Start date\" is required"
+      "value": "Se requiere \"Fecha de inicio\""
     }
   ],
   "ui-users.reports.cash.drawer.servicePoint": [
@@ -133182,55 +133270,55 @@
   "ui-users.reports.cash.drawer.servicePoint.placeholder": [
     {
       "type": 0,
-      "value": "Seleccionar punto de servicio"
+      "value": "Seleccione punto de servicio"
     }
   ],
   "ui-users.reports.cash.drawer.sources": [
     {
       "type": 0,
-      "value": "Sources"
+      "value": "Fuentes"
     }
   ],
   "ui-users.reports.cash.drawer.sources.placeholder": [
     {
       "type": 0,
-      "value": "Select sources"
+      "value": "Seleccionar fuentes"
     }
   ],
   "ui-users.reports.cash.feeFineDetails": [
     {
       "type": 0,
-      "value": "Fee/fine details"
+      "value": "Detalles de tarifas/multas"
     }
   ],
   "ui-users.reports.cash.feeFineOwner": [
     {
       "type": 0,
-      "value": "Fee/fine owner"
+      "value": "Propietario de la Tarifa/multa"
     }
   ],
   "ui-users.reports.cash.feeFineType": [
     {
       "type": 0,
-      "value": "Fee/fine type"
+      "value": "Tipo de tarifa/multa"
     }
   ],
   "ui-users.reports.cash.header": [
     {
       "type": 0,
-      "value": "Cash Drawer Reconciliation Report for "
-    },
-    {
-      "type": 1,
-      "value": "servicePoint"
-    },
-    {
-      "type": 0,
-      "value": ", Source(s) "
+      "value": "Informe detallado de transacciones financieras para "
     },
     {
       "type": 1,
       "value": "sources"
+    },
+    {
+      "type": 0,
+      "value": ", punto (s) de servicio "
+    },
+    {
+      "type": 1,
+      "value": "servicePoint"
     },
     {
       "type": 0,
@@ -133242,7 +133330,7 @@
     },
     {
       "type": 0,
-      "value": " to "
+      "value": " a "
     },
     {
       "type": 1,
@@ -133252,79 +133340,79 @@
   "ui-users.reports.cash.ownerTotal": [
     {
       "type": 0,
-      "value": "Fee/fine owner totals"
+      "value": "Totales por propietario de la Tarifa/multa"
     }
   ],
   "ui-users.reports.cash.paymentAmount": [
     {
       "type": 0,
-      "value": "Payment amount"
+      "value": "Monto del pago"
     }
   ],
   "ui-users.reports.cash.paymentDateTime": [
     {
       "type": 0,
-      "value": "Fecha de pago"
+      "value": "Fecha/hora del pago"
     }
   ],
   "ui-users.reports.cash.paymentMethod": [
     {
       "type": 0,
-      "value": "Payment method"
+      "value": "Método de pago"
     }
   ],
   "ui-users.reports.cash.paymentStatus": [
     {
       "type": 0,
-      "value": "Payment status"
+      "value": "Estado del pago"
     }
   ],
   "ui-users.reports.cash.paymentTotal": [
     {
       "type": 0,
-      "value": "Payment method totals"
+      "value": "Totales del método de pago"
     }
   ],
   "ui-users.reports.cash.source": [
     {
       "type": 0,
-      "value": "Source"
+      "value": "Fuente"
     }
   ],
   "ui-users.reports.cash.sourceTotal": [
     {
       "type": 0,
-      "value": "Source totals"
+      "value": "Total de las fuentes"
     }
   ],
   "ui-users.reports.cash.totalAmount": [
     {
       "type": 0,
-      "value": "Total amount"
+      "value": "Cantidad total"
     }
   ],
   "ui-users.reports.cash.totalCount": [
     {
       "type": 0,
-      "value": "Total count"
+      "value": "Cuenta total"
     }
   ],
   "ui-users.reports.cash.transactionInfo": [
     {
       "type": 0,
-      "value": "Transaction information"
+      "value": "Información de la transacción"
     }
   ],
   "ui-users.reports.cash.typeTotal": [
     {
       "type": 0,
-      "value": "Fee/fine type totals"
+      "value": "Totales por tipo de Tarifa/multa"
     }
   ],
   "ui-users.reports.cashDrawer.label": [
     {
       "type": 0,
-      "value": "Cash drawer reconciliation report (CSV, PDF)"
+      "value": "Informe de conciliación de caja de efectivo (CSV, PDF)"
     }
   ],
   "ui-users.reports.claimReturned.label": [
@@ -133348,145 +133436,145 @@
   "ui-users.reports.feeFine.actionAmount": [
     {
       "type": 0,
-      "value": "Action amount"
+      "value": "Monto de la acción"
     }
   ],
   "ui-users.reports.feeFine.actionBalance": [
     {
       "type": 0,
-      "value": "Acción"
+      "value": "Saldo de la acción"
     }
   ],
   "ui-users.reports.feeFine.actionCreatedAt": [
     {
       "type": 0,
-      "value": "Action created at"
+      "value": "Acción creada en"
     }
   ],
   "ui-users.reports.feeFine.actionDate": [
     {
       "type": 0,
-      "value": "Action date"
+      "value": "Fecha de Acción"
     }
   ],
   "ui-users.reports.feeFine.actionDescription": [
     {
       "type": 0,
-      "value": "Action description"
+      "value": "Descripción de la acción"
     }
   ],
   "ui-users.reports.feeFine.actionInfoPatron": [
     {
       "type": 0,
-      "value": "Action additional information for patron"
+      "value": "Acción de información adicional para el usuario"
     }
   ],
   "ui-users.reports.feeFine.actionInfoStaff": [
     {
       "type": 0,
-      "value": "Action additional information for staff"
+      "value": "Acción de información adicional para el personal"
     }
   ],
   "ui-users.reports.feeFine.actionSource": [
     {
       "type": 0,
-      "value": "Action source"
+      "value": "Fuente de la acción"
     }
   ],
   "ui-users.reports.feeFine.actionTransactionInfo": [
     {
       "type": 0,
-      "value": "Action transaction information"
+      "value": "Información de la transacción de acción"
     }
   ],
   "ui-users.reports.feeFine.billedAmount": [
     {
       "type": 0,
-      "value": "Fee/fine billed amount"
+      "value": "Monto facturado de la Tarifa/multa"
     }
   ],
   "ui-users.reports.feeFine.billedDate": [
     {
       "type": 0,
-      "value": "Fee/fine billed date"
+      "value": "Fecha de facturación de la Tarifa/multa"
     }
   ],
   "ui-users.reports.feeFine.details": [
     {
       "type": 0,
-      "value": "Fee/fine details"
+      "value": "Detalles de tarifas/multas"
     }
   ],
   "ui-users.reports.feeFine.itemBarcode": [
     {
       "type": 0,
-      "value": "Código de barras del item"
+      "value": "Código de barras ítem"
     }
   ],
   "ui-users.reports.feeFine.itemCallNumber": [
     {
       "type": 0,
-      "value": "Signatura del item"
+      "value": "Número de pedido del ítem"
     }
   ],
   "ui-users.reports.feeFine.itemDueDate": [
     {
       "type": 0,
-      "value": "Item due date"
+      "value": "Fecha de vencimiento del ítem"
     }
   ],
   "ui-users.reports.feeFine.itemInstance": [
     {
       "type": 0,
-      "value": "Item instance"
+      "value": "Instancia del ítem"
     }
   ],
   "ui-users.reports.feeFine.itemLoanDetails": [
     {
       "type": 0,
-      "value": "Detalles del préstamo del item"
+      "value": "Detalles del ítem en préstamo"
     }
   ],
   "ui-users.reports.feeFine.itemLocation": [
     {
       "type": 0,
-      "value": "Item location"
+      "value": "Ubicación del ítem"
     }
   ],
   "ui-users.reports.feeFine.itemLostPolicy": [
     {
       "type": 0,
-      "value": "Item lost item policy"
+      "value": "Política de ítem perdido"
     }
   ],
   "ui-users.reports.feeFine.itemMaterialType": [
     {
       "type": 0,
-      "value": "Item material type"
+      "value": "Tipo de material del ítem"
     }
   ],
   "ui-users.reports.feeFine.itemOverduePolicy": [
     {
       "type": 0,
-      "value": "Norma de vencidos del item"
+      "value": "Política de ítem vencido"
     }
   ],
   "ui-users.reports.feeFine.itemReturnedDate": [
     {
       "type": 0,
-      "value": "Item returned date"
+      "value": "Fecha de devolución del ítem"
     }
   ],
   "ui-users.reports.feeFine.latestPaymentStatus": [
     {
       "type": 0,
-      "value": "Fee/fine latest payment status"
+      "value": "Último estado del pago de la Tarifa/multa"
     }
   ],
   "ui-users.reports.feeFine.owner": [
     {
       "type": 0,
-      "value": "Fee/fine owner"
+      "value": "Propietario de la tarifa/multa"
     }
   ],
   "ui-users.reports.feeFine.patronBarcode": [
@@ -133504,25 +133592,25 @@
   "ui-users.reports.feeFine.patronName": [
     {
       "type": 0,
-      "value": "Patron name"
+      "value": "Nombre del usuario"
     }
   ],
   "ui-users.reports.feeFine.remainingAmount": [
     {
       "type": 0,
-      "value": "Fee/fine remaining amount"
+      "value": "Monto restante de la Tarifa/multa"
     }
   ],
   "ui-users.reports.feeFine.type": [
     {
       "type": 0,
-      "value": "Fee/fine type"
+      "value": "Tipo de Tarifa/multa"
     }
   ],
   "ui-users.reports.feeFineExplanation": [
     {
       "type": 0,
-      "value": "Fee/Fine explanation"
+      "value": "Explicación de la tasa/multa"
     }
   ],
   "ui-users.reports.financial.action": [
@@ -133534,7 +133622,7 @@
   "ui-users.reports.financial.actionAmount": [
     {
       "type": 0,
-      "value": "Importe de la acción"
+      "value": "Monto de la acción"
     }
   ],
   "ui-users.reports.financial.actionCreated": [
@@ -133552,7 +133640,7 @@
   "ui-users.reports.financial.actionPatronInfo": [
     {
       "type": 0,
-      "value": "Información de usuario de acción adicional"
+      "value": "Acción de información adicional del usuario"
     }
   ],
   "ui-users.reports.financial.actionSource": [
@@ -133564,7 +133652,7 @@
   "ui-users.reports.financial.actionStaffInfo": [
     {
       "type": 0,
-      "value": "Información de personal de acción adicional"
+      "value": "Acción de información adicional del personal"
     }
   ],
   "ui-users.reports.financial.actionStatus": [
@@ -133576,7 +133664,7 @@
   "ui-users.reports.financial.callNumber": [
     {
       "type": 0,
-      "value": "Signatura"
+      "value": "Número de pedido"
     }
   ],
   "ui-users.reports.financial.contributors": [
@@ -133594,49 +133682,49 @@
   "ui-users.reports.financial.effectiveLocation": [
     {
       "type": 0,
-      "value": "Ubicación efectiva"
+      "value": "Localización efectiva"
     }
   ],
   "ui-users.reports.financial.feeFineBilledAmount": [
     {
       "type": 0,
-      "value": "Importe de la tasa/multa facturada"
+      "value": "Monto facturado de la Tarifa/multa"
     }
   ],
   "ui-users.reports.financial.feeFineBilledDate": [
     {
       "type": 0,
-      "value": "Fecha/hora de facturación de la tasa/multa"
+      "value": "Fecha/hora de facturación de la Tarifa/multa"
     }
   ],
   "ui-users.reports.financial.feeFineCreated": [
     {
       "type": 0,
-      "value": "Tasa/multa creada en"
+      "value": "Tarifa/multa creada en"
     }
   ],
   "ui-users.reports.financial.feeFineDetails": [
     {
       "type": 0,
-      "value": "Detalles de la tasa/multa"
+      "value": "Detalles de tarifas/multas"
     }
   ],
   "ui-users.reports.financial.feeFineOwner": [
     {
       "type": 0,
-      "value": "Propietario de la tarifa/multa"
+      "value": "Propietario de tarifa/multa"
     }
   ],
   "ui-users.reports.financial.feeFineSource": [
     {
       "type": 0,
-      "value": "Fuente de la tasa/multa"
+      "value": "Fuente de tarifa/multa"
     }
   ],
   "ui-users.reports.financial.feeFineType": [
     {
       "type": 0,
-      "value": "Tipo de tasa/multa"
+      "value": "Tipo de tarifa/multa"
     }
   ],
   "ui-users.reports.financial.header": [
@@ -133650,7 +133738,7 @@
     },
     {
       "type": 0,
-      "value": ", Puntos de servicio "
+      "value": " , punto (s) de servicio "
     },
     {
       "type": 1,
@@ -133682,13 +133770,13 @@
   "ui-users.reports.financial.itemBarcode": [
     {
       "type": 0,
-      "value": "Código de barras del item"
+      "value": "Código de barras ítem"
     }
   ],
   "ui-users.reports.financial.loanDate": [
     {
       "type": 0,
-      "value": "Fecha/hora del préstamo"
+      "value": "Fecha/Hora del préstamo"
     }
   ],
   "ui-users.reports.financial.loanDetails": [
@@ -133706,7 +133794,7 @@
   "ui-users.reports.financial.lostItemPolicy": [
     {
       "type": 0,
-      "value": "Norma de perdidos"
+      "value": "Política para ítem perdido"
     }
   ],
   "ui-users.reports.financial.name": [
@@ -133718,7 +133806,7 @@
   "ui-users.reports.financial.overduePolicy": [
     {
       "type": 0,
-      "value": "Norma de vencimiento"
+      "value": "Política de vencimientos"
     }
   ],
   "ui-users.reports.financial.patronBarcode": [
@@ -133730,7 +133818,7 @@
   "ui-users.reports.financial.patronBarcode.noBarcode": [
     {
       "type": 0,
-      "value": "[no barcode]"
+      "value": "[sin código de barras]"
     }
   ],
   "ui-users.reports.financial.patronEmail": [
@@ -133748,13 +133836,13 @@
   "ui-users.reports.financial.patronName": [
     {
       "type": 0,
-      "value": "Nombre de usuario"
+      "value": "Nombre del usuario"
     }
   ],
   "ui-users.reports.financial.paymentMethod": [
     {
       "type": 0,
-      "value": "Forma de pago"
+      "value": "Método de pago"
     }
   ],
   "ui-users.reports.financial.paymentTransInfo": [
@@ -133766,7 +133854,7 @@
   "ui-users.reports.financial.refundReason": [
     {
       "type": 0,
-      "value": "Motivo de la devolución"
+      "value": "Motivo del reembolso"
     }
   ],
   "ui-users.reports.financial.returnDate": [
@@ -133778,13 +133866,13 @@
   "ui-users.reports.financial.totalAmount": [
     {
       "type": 0,
-      "value": "Importe total"
+      "value": "Cantidad total"
     }
   ],
   "ui-users.reports.financial.totalCount": [
     {
       "type": 0,
-      "value": "Total count"
+      "value": "Cuenta total"
     }
   ],
   "ui-users.reports.financial.trans.modal.label": [
@@ -133796,19 +133884,19 @@
   "ui-users.reports.financial.trans.modal.owners": [
     {
       "type": 0,
-      "value": "Propietario de la tasa/multa"
+      "value": "Propietario de la Tarifa/multa"
     }
   ],
   "ui-users.reports.financial.trans.modal.owners.error": [
     {
       "type": 0,
-      "value": "\"Fee/fine owner\" is required"
+      "value": "Se requiere el propietario de la Tarifa/multa"
     }
   ],
   "ui-users.reports.financial.trans.modal.owners.placeholder": [
     {
       "type": 0,
-      "value": "Seleccionar el propietario de la tasa/multa"
+      "value": "Seleccione el propietario de la Tarifa/multa"
     }
   ],
   "ui-users.reports.financial.trans.modal.servicePoint": [
@@ -133820,7 +133908,7 @@
   "ui-users.reports.financial.trans.modal.servicePoint.placeholder": [
     {
       "type": 0,
-      "value": "Seleccionar punto(s) de servicio"
+      "value": "Seleccione punto(s) de servicio"
     }
   ],
   "ui-users.reports.financial.transferAccount": [
@@ -133832,7 +133920,7 @@
   "ui-users.reports.financial.waiveReason": [
     {
       "type": 0,
-      "value": "Razón de renuncia"
+      "value": "Motivo de renuncia"
     }
   ],
   "ui-users.reports.financialTransaction.label": [
@@ -133850,7 +133938,7 @@
   "ui-users.reports.includesReminderFees": [
     {
       "type": 0,
-      "value": "Includes reminder fee(s)"
+      "value": "Incluye tasa(s) de recordatorio"
     }
   ],
   "ui-users.reports.item.barcode": [
@@ -133994,19 +134082,19 @@
   "ui-users.reports.refunds.actionCompletionDate": [
     {
       "type": 0,
-      "value": "Date action completed"
+      "value": "Fecha de finalización de la acción"
     }
   ],
   "ui-users.reports.refunds.actionTaken": [
     {
       "type": 0,
-      "value": "Action taken"
+      "value": "Estado de la acción"
     }
   ],
   "ui-users.reports.refunds.billedAmount": [
     {
       "type": 0,
-      "value": "Billed amount"
+      "value": "Importe de facturación"
     }
   ],
   "ui-users.reports.refunds.dateBilled": [
@@ -134018,79 +134106,79 @@
   "ui-users.reports.refunds.feeFineId": [
     {
       "type": 0,
-      "value": "Fee/fine ID"
+      "value": "ID de la Tarifa/multa"
     }
   ],
   "ui-users.reports.refunds.feeFineOwner": [
     {
       "type": 0,
-      "value": "Fee/fine owner"
+      "value": "Propietario de la Tarifa/multa"
     }
   ],
   "ui-users.reports.refunds.feeFineType": [
     {
       "type": 0,
-      "value": "Fee/fine type"
+      "value": "Tipo de tarifa/multa"
     }
   ],
   "ui-users.reports.refunds.instance": [
     {
       "type": 0,
-      "value": "Instance"
+      "value": "Instancia"
     }
   ],
   "ui-users.reports.refunds.itemBarcode": [
     {
       "type": 0,
-      "value": "Código de barras del item"
+      "value": "Código de barras ítem"
     }
   ],
   "ui-users.reports.refunds.label": [
     {
       "type": 0,
-      "value": "Refunds to process manually report (CSV)"
+      "value": "Informe de reembolsos a procesar manualmente (CSV)"
     }
   ],
   "ui-users.reports.refunds.modal.endDate": [
     {
       "type": 0,
-      "value": "End date"
+      "value": "Fecha final"
     }
   ],
   "ui-users.reports.refunds.modal.label": [
     {
       "type": 0,
-      "value": "Refunds to process manually"
+      "value": "Reembolsos a procesar manualmente"
     }
   ],
   "ui-users.reports.refunds.modal.message": [
     {
       "type": 0,
-      "value": "Specify date refund entered range"
+      "value": "Fecha específica del rango de reembolso ingresado"
     }
   ],
   "ui-users.reports.refunds.modal.owner": [
     {
       "type": 0,
-      "value": "Fee/fine owner"
+      "value": "Propietario de la Tarifa/multa"
     }
   ],
   "ui-users.reports.refunds.modal.owner.placeholder": [
     {
       "type": 0,
-      "value": "Seleccionar el propietario de la tasa/multa"
+      "value": "Seleccione el propietario(s) de la Tarifa/multa"
     }
   ],
   "ui-users.reports.refunds.modal.startDate": [
     {
       "type": 0,
-      "value": "Start date"
+      "value": "Fecha inicio"
     }
   ],
   "ui-users.reports.refunds.paidAmount": [
     {
       "type": 0,
-      "value": "Paid amount"
+      "value": "Importe total pagado"
     }
   ],
   "ui-users.reports.refunds.patronBarcode": [
@@ -134102,103 +134190,103 @@
   "ui-users.reports.refunds.patronGroup": [
     {
       "type": 0,
-      "value": "Patron Group"
+      "value": "Grupo de Usuarios"
     }
   ],
   "ui-users.reports.refunds.patronId": [
     {
       "type": 0,
-      "value": "Patron ID"
+      "value": "ID del usuario"
     }
   ],
   "ui-users.reports.refunds.patronInfo": [
     {
       "type": 0,
-      "value": "Additional information for patron from refund 'action'"
+      "value": "Información adicional para el usuario de la \"acción\" de reembolso"
     }
   ],
   "ui-users.reports.refunds.patronName": [
     {
       "type": 0,
-      "value": "Patron name"
+      "value": "Nombre del usuario"
     }
   ],
   "ui-users.reports.refunds.paymentMethod": [
     {
       "type": 0,
-      "value": "Payment method"
+      "value": "Método de pago"
     }
   ],
   "ui-users.reports.refunds.refundAction": [
     {
       "type": 0,
-      "value": "Refund action"
+      "value": "Acción de reembolso"
     }
   ],
   "ui-users.reports.refunds.refundAmount": [
     {
       "type": 0,
-      "value": "Refunded amount"
+      "value": "Monto reembolsado"
     }
   ],
   "ui-users.reports.refunds.refundDate": [
     {
       "type": 0,
-      "value": "Date refund requested"
+      "value": "Fecha de solicitud de reembolso"
     }
   ],
   "ui-users.reports.refunds.refundReason": [
     {
       "type": 0,
-      "value": "Refund reason"
+      "value": "Motivo del reembolso"
     }
   ],
   "ui-users.reports.refunds.staffInfo": [
     {
       "type": 0,
-      "value": "Additional information for staff from refund 'action'"
+      "value": "Información adicional para el personal de la \"acción\" de reembolso"
     }
   ],
   "ui-users.reports.refunds.staffMemberName": [
     {
       "type": 0,
-      "value": "Staff member name"
+      "value": "Nombre del miembro del personal"
     }
   ],
   "ui-users.reports.refunds.transactionInfo": [
     {
       "type": 0,
-      "value": "Payment Transaction information"
+      "value": "Información de la transacción de pago"
     }
   ],
   "ui-users.reports.refunds.transferAccount": [
     {
       "type": 0,
-      "value": "Transfer account"
+      "value": "Cuenta de transferencia"
     }
   ],
   "ui-users.reports.refunds.transferredAmount": [
     {
       "type": 0,
-      "value": "Transferred amount"
+      "value": "Monto transferido"
     }
   ],
   "ui-users.reports.refunds.validation.endDate": [
     {
       "type": 0,
-      "value": "End date must be after Start date"
+      "value": "La fecha de finalización debe ser posterior a la fecha de inicio"
     }
   ],
   "ui-users.reports.refunds.validation.startDate": [
     {
       "type": 0,
-      "value": "Must enter Start date if End date provided"
+      "value": "Debe ingresar la fecha de inicio si se proporciona la fecha de finalización"
     }
   ],
   "ui-users.requests.createRequest": [
     {
       "type": 0,
-      "value": "Crear solicitud"
+      "value": "Crear reserva"
     }
   ],
   "ui-users.requests.defaultDeliveryAddress": [
@@ -134228,31 +134316,31 @@
   "ui-users.requests.deliveryYes": [
     {
       "type": 0,
-      "value": "Entrega- Sí"
+      "value": "Entrega - sí"
     }
   ],
   "ui-users.requests.fulfillmentPreference": [
     {
       "type": 0,
-      "value": "Peeferencia de cumplimentado"
+      "value": "Preferencia de cumplimiento"
     }
   ],
   "ui-users.requests.holdShelf": [
     {
       "type": 0,
-      "value": "Reserva en estantería"
+      "value": "Reservas en estantería"
     }
   ],
   "ui-users.requests.holdShelfNo": [
     {
       "type": 0,
-      "value": "Reserva en estantería - No"
+      "value": "Reservas en estantería - No"
     }
   ],
   "ui-users.requests.holdShelfYes": [
     {
       "type": 0,
-      "value": "Reserva en estantería - Sí"
+      "value": "Reservas en estantería - Sí"
     }
   ],
   "ui-users.requests.numClosedRequests": [
@@ -134272,7 +134360,7 @@
           "value": [
             {
               "type": 0,
-              "value": "closed request"
+              "value": " reserva cerradas "
             }
           ]
         },
@@ -134280,7 +134368,7 @@
           "value": [
             {
               "type": 0,
-              "value": "closed requests"
+              "value": " reservas cerradas "
             }
           ]
         }
@@ -134307,7 +134395,7 @@
           "value": [
             {
               "type": 0,
-              "value": "open request"
+              "value": " reserva abierta "
             }
           ]
         },
@@ -134315,7 +134403,7 @@
           "value": [
             {
               "type": 0,
-              "value": "open requests"
+              "value": " reservas abiertas "
             }
           ]
         }
@@ -134328,19 +134416,19 @@
   "ui-users.requests.preferences": [
     {
       "type": 0,
-      "value": "Solicitar preferencias"
+      "value": "Preferencias de reservas"
     }
   ],
   "ui-users.requests.selectDeliveryAddress": [
     {
       "type": 0,
-      "value": "Seleccionar dirección de entrega"
+      "value": "Seleccione la dirección de entrega"
     }
   ],
   "ui-users.requests.title": [
     {
       "type": 0,
-      "value": "Solicitudes"
+      "value": "Reservas"
     }
   ],
   "ui-users.resultCount": [
@@ -134611,55 +134699,55 @@
   "ui-users.settings.default": [
     {
       "type": 0,
-      "value": "Default"
+      "value": "Por defecto"
     }
   ],
   "ui-users.settings.department": [
     {
       "type": 0,
-      "value": "Department"
+      "value": "Departamento"
     }
   ],
   "ui-users.settings.departments": [
     {
       "type": 0,
-      "value": "Departments"
+      "value": "Departamentos"
     }
   ],
   "ui-users.settings.departments.code": [
     {
       "type": 0,
-      "value": "Code"
+      "value": "Código"
     }
   ],
   "ui-users.settings.departments.code.error": [
     {
       "type": 0,
-      "value": "Code already exists"
+      "value": "El código ya existe"
     }
   ],
   "ui-users.settings.departments.code.required": [
     {
       "type": 0,
-      "value": "Code is required"
+      "value": "Se requiere el código"
     }
   ],
   "ui-users.settings.departments.name": [
     {
       "type": 0,
-      "value": "Name"
+      "value": "Nombre"
     }
   ],
   "ui-users.settings.departments.name.error": [
     {
       "type": 0,
-      "value": "Name already exists"
+      "value": "El nombre ya existe"
     }
   ],
   "ui-users.settings.departments.users": [
     {
       "type": 0,
-      "value": "Users"
+      "value": "Usuarios"
     }
   ],
   "ui-users.settings.error.noCheckbox": [
@@ -134701,13 +134789,13 @@
   "ui-users.settings.limits.callout.error": [
     {
       "type": 0,
-      "value": "Algo falló"
+      "value": "Algo estuvo mal"
     }
   ],
   "ui-users.settings.limits.callout.message": [
     {
       "type": 0,
-      "value": "El límite de bloqueo de usuarios para el grupo de usuarios"
+      "value": "The patron block limit for patron group "
     },
     {
       "children": [
@@ -134721,13 +134809,13 @@
     },
     {
       "type": 0,
-      "value": " ha sido exitósamente "
+      "value": " has been successfully "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "actualizado"
+          "value": "updated"
         }
       ],
       "type": 8,
@@ -134741,7 +134829,7 @@
   "ui-users.settings.limits.validation.message": [
     {
       "type": 0,
-      "value": "Must be blank or a number from "
+      "value": "Debe estar en blanco o un número desde  "
     },
     {
       "type": 1,
@@ -134749,7 +134837,7 @@
     },
     {
       "type": 0,
-      "value": " to "
+      "value": " a "
     },
     {
       "style": null,
@@ -134760,13 +134848,13 @@
   "ui-users.settings.manualBlockTemplates": [
     {
       "type": 0,
-      "value": "Templates"
+      "value": "Plantillas de bloqueo de usuarios"
     }
   ],
   "ui-users.settings.manualBlockTemplates.paneTitle": [
     {
       "type": 0,
-      "value": "Plantillas de bloqueos de usuario"
+      "value": "Plantillas de bloques de patrón"
     }
   ],
   "ui-users.settings.manualCharges": [
@@ -134826,13 +134914,13 @@
   "ui-users.settings.transferCriteria": [
     {
       "type": 0,
-      "value": "Transferir criterios"
+      "value": "Criterios de transferencia"
     }
   ],
   "ui-users.settings.transferCriteria.notAvailable": [
     {
       "type": 0,
-      "value": "No plugin available!"
+      "value": "No hay plugin disponible!"
     }
   ],
   "ui-users.settings.users.title": [
@@ -134850,79 +134938,79 @@
   "ui-users.shortcut.closeModal": [
     {
       "type": 0,
-      "value": "Close a modal or pop-up"
+      "value": "Cerrar una ventana emergente o modal"
     }
   ],
   "ui-users.shortcut.collapseAll": [
     {
       "type": 0,
-      "value": "Collapse all accordions"
+      "value": "Colapsar todos las carpetas"
     }
   ],
   "ui-users.shortcut.copy": [
     {
       "type": 0,
-      "value": "Copy"
+      "value": "Copiar"
     }
   ],
   "ui-users.shortcut.createRecord": [
     {
       "type": 0,
-      "value": "Create a new record"
+      "value": "Crear un nuevo registro"
     }
   ],
   "ui-users.shortcut.cut": [
     {
       "type": 0,
-      "value": "Cut"
+      "value": "Cortar"
     }
   ],
   "ui-users.shortcut.editRecord": [
     {
       "type": 0,
-      "value": "Edit a record"
+      "value": "Editar un registro"
     }
   ],
   "ui-users.shortcut.expandAll": [
     {
       "type": 0,
-      "value": "Expand all accordions"
+      "value": "Expandir todas las carpetas"
     }
   ],
   "ui-users.shortcut.expandCollapse": [
     {
       "type": 0,
-      "value": "Expand or collapse an accordion"
+      "value": "Expandir o colapsar una carpeta"
     }
   ],
   "ui-users.shortcut.find": [
     {
       "type": 0,
-      "value": "Find"
+      "value": "Encontrar"
     }
   ],
   "ui-users.shortcut.goToSearchFilter": [
     {
       "type": 0,
-      "value": "Go to Search & Filter pane"
+      "value": "Ir al panel \"Buscar y Filtrar\""
     }
   ],
   "ui-users.shortcut.openShortcutModal": [
     {
       "type": 0,
-      "value": "Open keyboard shortcuts modal"
+      "value": "Abrir la modalidad de atajos de teclado"
     }
   ],
   "ui-users.shortcut.paste": [
     {
       "type": 0,
-      "value": "Paste"
+      "value": "Pegar"
     }
   ],
   "ui-users.shortcut.saveRecord": [
     {
       "type": 0,
-      "value": "Save a record"
+      "value": "Guardar el registro"
     }
   ],
   "ui-users.show": [
@@ -134934,13 +135022,13 @@
   "ui-users.showColumns": [
     {
       "type": 0,
-      "value": "Show columns"
+      "value": "Mostrar columnas"
     }
   ],
   "ui-users.showTags": [
     {
       "type": 0,
-      "value": "Mostrar etiquetas"
+      "value": "Mostrar Etiquetas"
     }
   ],
   "ui-users.sp.addServicePoints": [
@@ -134970,7 +135058,7 @@
   "ui-users.sp.noServicePoints": [
     {
       "type": 0,
-      "value": "No se encontraron puntos de servicio"
+      "value": "No se han encontrado puntos de servicio"
     }
   ],
   "ui-users.sp.preferredSPNone": [
@@ -134988,13 +135076,13 @@
   "ui-users.sp.selectAllServicePoints": [
     {
       "type": 0,
-      "value": "Seleccionar todos los puntos de servicio"
+      "value": "Selecciona todos los puntos de servicio"
     }
   ],
   "ui-users.sp.selectServicePoint": [
     {
       "type": 0,
-      "value": "Selecciona punto de servicio"
+      "value": "Seleccionar punto de servicio"
     }
   ],
   "ui-users.sp.servicePointPreference": [
@@ -135253,7 +135341,7 @@
           "value": [
             {
               "type": 0,
-              "value": "user"
+              "value": " usuario "
             }
           ]
         },
@@ -135261,7 +135349,7 @@
           "value": [
             {
               "type": 0,
-              "value": "users"
+              "value": " usuarios "
             }
           ]
         }
@@ -135274,25 +135362,25 @@
   "ui-users.user.unknown": [
     {
       "type": 0,
-      "value": "Unknown user"
+      "value": "Usuario desconocido"
     }
   ],
   "ui-users.userSearch": [
     {
       "type": 0,
-      "value": "Búsqueda de usuario"
+      "value": "Búsqueda de usuarios"
     }
   ],
   "ui-users.userSearchResults": [
     {
       "type": 0,
-      "value": "Resultado de búsqueda de usuario"
+      "value": "Resultados de búsqueda de usuarios"
     }
   ],
   "ui-users.userType": [
     {
       "type": 0,
-      "value": "Tipo de usuario"
+      "value": "User type"
     }
   ],
   "ui-users.waives.columns.desc": [
@@ -135316,7 +135404,7 @@
   "ui-users.waives.singular": [
     {
       "type": 0,
-      "value": "Razón de renuncia"
+      "value": "Renunciar a la razón"
     }
   ],
   "ui-users.yes": [

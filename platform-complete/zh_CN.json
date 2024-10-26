@@ -12984,16 +12984,7 @@
     },
     {
       "type": 0,
-      "value": "个"
-    },
-    {
-      "style": null,
-      "type": 2,
-      "value": "count"
-    },
-    {
-      "type": 0,
-      "value": " "
+      "value": "个 "
     },
     {
       "offset": 0,
@@ -13355,7 +13346,7 @@
   "stripes-smart-components.dateRange.invalidYear": [
     {
       "type": 0,
-      "value": "Please enter a valid year"
+      "value": "请输入有效的年份"
     }
   ],
   "stripes-smart-components.dateRange.missingEndDate": [
@@ -13439,7 +13430,7 @@
   "stripes-smart-components.error.badRequest": [
     {
       "type": 0,
-      "value": "Search could not be processed for "
+      "value": "无法针对"
     },
     {
       "type": 1,
@@ -13447,7 +13438,7 @@
     },
     {
       "type": 0,
-      "value": ". Please check your query and try again."
+      "value": "进行搜索。请检查您的查询并重试。"
     }
   ],
   "stripes-smart-components.error.conflict": [
@@ -138077,77 +138068,89 @@
   "ui-users.roles.addRoles": [
     {
       "type": 0,
-      "value": "Add user roles"
+      "value": "添加用户角色"
     }
   ],
   "ui-users.roles.deleteRole": [
     {
       "type": 0,
-      "value": "Delete user role"
+      "value": "删除用户角色"
     }
   ],
   "ui-users.roles.empty": [
     {
       "type": 0,
-      "value": "No user roles found"
+      "value": "未找到用户角色"
     }
   ],
   "ui-users.roles.modal.assigned": [
     {
       "type": 0,
-      "value": "Assigned"
+      "value": "已分配"
     }
   ],
   "ui-users.roles.modal.filter.status.label": [
     {
       "type": 0,
-      "value": "Role assigment status"
+      "value": "角色分配状态"
     }
   ],
   "ui-users.roles.modal.header": [
     {
       "type": 0,
-      "value": "Select user roles"
+      "value": "选择用户角色"
     }
   ],
   "ui-users.roles.modal.list.pane.subheader": [
+    {
+      "type": 0,
+      "value": "找到"
+    },
     {
       "type": 1,
       "value": "amount"
     },
     {
       "type": 0,
-      "value": " roles found"
+      "value": "个角色"
     }
   ],
   "ui-users.roles.modal.search.header": [
     {
       "type": 0,
-      "value": "Search & filter"
+      "value": "搜索和筛选"
     }
   ],
   "ui-users.roles.modal.search.resetAll": [
     {
       "type": 0,
-      "value": "Reset all"
+      "value": "全部重置"
     }
   ],
   "ui-users.roles.modal.unassignAll.header": [
     {
       "type": 0,
-      "value": "Unassign all user roles"
+      "value": "取消分配所有用户角色"
     }
   ],
   "ui-users.roles.modal.unassignAll.label": [
     {
       "type": 0,
-      "value": "You are unassigning all user roles "
+      "value": "正在取消分配所有用户角色"
     },
     {
       "children": [
         {
+          "type": 0,
+          "value": " "
+        },
+        {
           "type": 1,
           "value": "roles"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -138160,14 +138163,22 @@
     {
       "children": [
         {
+          "type": 0,
+          "value": " "
+        },
+        {
           "children": [
             {
               "type": 0,
-              "value": "Are you sure?"
+              "value": "确定吗？ "
             }
           ],
           "type": 8,
           "value": "strong"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -138177,19 +138188,19 @@
   "ui-users.roles.modal.unassigned": [
     {
       "type": 0,
-      "value": "Unassigned"
+      "value": "未分配"
     }
   ],
   "ui-users.roles.unassignAllRoles": [
     {
       "type": 0,
-      "value": "Unassign all user roles"
+      "value": "取消分配所有用户角色"
     }
   ],
   "ui-users.roles.userRoles": [
     {
       "type": 0,
-      "value": "User roles"
+      "value": "用户角色"
     }
   ],
   "ui-users.save": [

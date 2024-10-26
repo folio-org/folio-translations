@@ -12046,7 +12046,7 @@
   "stripes-smart-components.cddd.itemClaimedReturned": [
     {
       "type": 0,
-      "value": "Due date change failed: item is Claimed returned"
+      "value": "Impossible de modifier la date d'échéance : l'exemplaire est Déclaré rendu"
     }
   ],
   "stripes-smart-components.cddd.itemClaimedReturnedWarning": [
@@ -14219,7 +14219,7 @@
   "stripes-smart-components.searchReturnedResults": [
     {
       "type": 0,
-      "value": "La recherche a retourné "
+      "value": "La recherche a renvoyé "
     },
     {
       "style": null,
@@ -92694,7 +92694,7 @@
   "ui-orders.appMenu.ordersAppSearch": [
     {
       "type": 0,
-      "value": "Orders app Search"
+      "value": "Rechercher dans Commandes"
     }
   ],
   "ui-orders.assignedToMe": [
@@ -92712,7 +92712,7 @@
   "ui-orders.breakInstanceConnection.modal.message": [
     {
       "type": 0,
-      "value": "Cette modification supprimera le lien entre la ligne de commande et la notice de catalogue sélectionnée. Voulez-vous vraiment continuer avec cette modification et dissocier cette ligne de commande de la notice de catalogue \""
+      "value": "Cette modification supprimera le lien entre la ligne de bon de commande et la notice de catalogue sélectionnée. Voulez-vous vraiment continuer avec cette modification et dissocier cette ligne de bon de commande de la notice de catalogue \""
     },
     {
       "children": [
@@ -92732,7 +92732,7 @@
   "ui-orders.button.addLine": [
     {
       "type": 0,
-      "value": "Ajouter une ligne de commande"
+      "value": "Ajouter une ligne de bon de commande"
     }
   ],
   "ui-orders.button.confirm": [
@@ -92840,25 +92840,25 @@
   "ui-orders.checkIn.addPiece.error": [
     {
       "type": 0,
-      "value": "La pièce n'a pas été sauvegardée"
+      "value": "L'unité n'a pas été sauvegardée"
     }
   ],
   "ui-orders.checkIn.addPiece.success": [
     {
       "type": 0,
-      "value": "La pièce a été sauvegardée avec succès"
+      "value": "L'unité a été sauvegardée avec succès"
     }
   ],
   "ui-orders.checkIn.addPieceModal.editTitle": [
     {
       "type": 0,
-      "value": "Éditer la pièce"
+      "value": "Éditer l'unité"
     }
   ],
   "ui-orders.checkIn.addPieceModal.title": [
     {
       "type": 0,
-      "value": "Ajouter une pièce"
+      "value": "Ajouter une unité"
     }
   ],
   "ui-orders.checkIn.buttons.addItem": [
@@ -92870,7 +92870,7 @@
   "ui-orders.checkIn.buttons.addPiece": [
     {
       "type": 0,
-      "value": "Ajouter une pièce"
+      "value": "Ajouter une unité"
     }
   ],
   "ui-orders.checkIn.buttons.cancel": [
@@ -92918,13 +92918,13 @@
   "ui-orders.checkIn.deletePiece.error": [
     {
       "type": 0,
-      "value": "La pièce n'a pas été supprimée"
+      "value": "L'unité n'a pas été supprimée"
     }
   ],
   "ui-orders.checkIn.deletePiece.success": [
     {
       "type": 0,
-      "value": "La pièce a été supprimée avec succès"
+      "value": "L'unité a été supprimée avec succès"
     }
   ],
   "ui-orders.checkIn.expectedReceiptDate": [
@@ -92936,7 +92936,7 @@
   "ui-orders.checkIn.history.confirmation.message": [
     {
       "type": 0,
-      "value": "Voulez-vous vraiment supprimer la ou les pièces de l'historique d'enregistrement? Elles seront alors de nouveau au statut Attendu.es et tout exemplaire associé sera défini comme En commande."
+      "value": "Voulez-vous vraiment supprimer la ou les unités de l'historique des retours ? Elles reviendront au statut Attendu et tout exemplaire associé sera défini comme En commande."
     }
   ],
   "ui-orders.checkIn.history.title": [
@@ -92948,7 +92948,7 @@
   "ui-orders.checkIn.items.title": [
     {
       "type": 0,
-      "value": "Retour - n° de ligne de commande - "
+      "value": "Retour - n° de ligne de bon de commande - "
     },
     {
       "type": 1,
@@ -92992,13 +92992,13 @@
   "ui-orders.checkIn.piece": [
     {
       "type": 0,
-      "value": "Pièce (s)"
+      "value": "Unité"
     }
   ],
   "ui-orders.checkIn.pieceFormat": [
     {
       "type": 0,
-      "value": "Format de la pièce"
+      "value": "Format de l'unité"
     }
   ],
   "ui-orders.checkIn.pieceFormat.electronic": [
@@ -93016,7 +93016,7 @@
   "ui-orders.checkIn.pieceStatus": [
     {
       "type": 0,
-      "value": "Statut de la pièce"
+      "value": "Statut de l'unité"
     }
   ],
   "ui-orders.checkIn.receivedDate": [
@@ -93058,13 +93058,13 @@
   "ui-orders.closeOrderModal.closingReasons.cancelled": [
     {
       "type": 0,
-      "value": "Cancelled"
+      "value": "Annulé"
     }
   ],
   "ui-orders.closeOrderModal.closingReasons.ceased": [
     {
       "type": 0,
-      "value": "A cessé"
+      "value": "Interrompu"
     }
   ],
   "ui-orders.closeOrderModal.closingReasons.complete": [
@@ -93076,7 +93076,7 @@
   "ui-orders.closeOrderModal.closingReasons.duplication": [
     {
       "type": 0,
-      "value": "Dupliquée"
+      "value": "Dupliqué"
     }
   ],
   "ui-orders.closeOrderModal.closingReasons.error": [
@@ -93356,31 +93356,31 @@
   "ui-orders.deletePiece.delete.fail": [
     {
       "type": 0,
-      "value": "Les pièces sélectionnées n'ont pas été supprimées"
+      "value": "Les unités sélectionnées n'ont pas été supprimées"
     }
   ],
   "ui-orders.deletePiece.delete.success": [
     {
       "type": 0,
-      "value": "Les pièces sélectionnées ont été supprimées"
+      "value": "Les unités sélectionnées ont été supprimées"
     }
   ],
   "ui-orders.deletePiece.delete.thereAreRequestsOnItem": [
     {
       "type": 0,
-      "value": "Les pièces sélectionnées n'ont pas été supprimées. Il y a des demandes/réservations sur cet exemplaire"
+      "value": "Les unités sélectionnées n'ont pas été supprimées. Il y a des réservations sur cet exemplaire"
     }
   ],
   "ui-orders.deletePiece.title": [
     {
       "type": 0,
-      "value": "Pièce (s) à supprimer"
+      "value": "Unité(s) à supprimer"
     }
   ],
   "ui-orders.deletePiece.warning": [
     {
       "type": 0,
-      "value": "Les éléments sélectionnés et leur(s) notice(s) associée(s) dans le catalogue seront SUPPRIMÉS DÉFINITIVEMENT. Vous ne pouvez pas supprimer des exemplaires ayant des réservations en cours."
+      "value": "Les unités sélectionnées et leurs notices associées dans le catalogue seront SUPPRIMÉS DÉFINITIVEMENT. Vous ne pouvez PAS supprimer des exemplaires ayant des réservations en cours."
     }
   ],
   "ui-orders.differentAccounts.message": [
@@ -93432,7 +93432,7 @@
   "ui-orders.duplicateLines.confirmation.heading": [
     {
       "type": 0,
-      "value": "Enregistrer la ligne de commande"
+      "value": "Enregistrer la ligne de bon de commande"
     }
   ],
   "ui-orders.duplicateLines.confirmation.message": [
@@ -93504,13 +93504,13 @@
   "ui-orders.errors.InstanceIdNotAllowedForPackagePoLine": [
     {
       "type": 0,
-      "value": "L'identifiant d'instance n'est pas autorisé pour la ligne de commande du bouquet"
+      "value": "L'id de notice n'est pas autorisé pour la ligne de bon de commande du bouquet"
     }
   ],
   "ui-orders.errors.accessProviderIsInactive": [
     {
       "type": 0,
-      "value": "La ligne de commande "
+      "value": "La ligne de bon de commande "
     },
     {
       "type": 1,
@@ -93524,7 +93524,7 @@
   "ui-orders.errors.accessProviderNotFound": [
     {
       "type": 0,
-      "value": "La ligne de commande "
+      "value": "La ligne de bon de commande "
     },
     {
       "type": 1,
@@ -93662,7 +93662,7 @@
   "ui-orders.errors.currentFYearIdNotFound": [
     {
       "type": 0,
-      "value": "Current fiscal year not found for PO line"
+      "value": "Exercice en cours introuvable pour cette ligne de bon de commande"
     }
   ],
   "ui-orders.errors.currentFYearNotFound": [
@@ -93686,7 +93686,7 @@
   "ui-orders.errors.electronicLocCostQtyMismatch": [
     {
       "type": 0,
-      "value": "La quantité électronique de la ligne de commande et la quantité électronique des emplacements ne correspondent pas"
+      "value": "La quantité électronique de la ligne de bon de commande et la quantité électronique des emplacements ne correspondent pas"
     }
   ],
   "ui-orders.errors.encumbranceCreationFailure": [
@@ -93760,7 +93760,7 @@
   "ui-orders.errors.holdingsByIdNotFoundError": [
     {
       "type": 0,
-      "value": "Holdings with ids not found"
+      "value": "Localisations avec IDs introuvables"
     }
   ],
   "ui-orders.errors.idMismatch": [
@@ -93784,13 +93784,13 @@
   "ui-orders.errors.invalidISBN": [
     {
       "type": 0,
-      "value": "Le numéro d'identifiant du produit est incorrect à cause du type d'identifiant du produit. Vous pouvez utiliser \"Changer la connexion avec la notice\" pour actualiser l'identifiant du produit depuis la notice avant de modifier la ligne de commande."
+      "value": "Le numéro d'identifiant du produit est incorrect à cause du type d'identifiant du produit. Vous pouvez utiliser \"Changer la connexion avec la notice\" pour actualiser l'identifiant du produit depuis la notice avant de modifier la ligne de bon de commande."
     }
   ],
   "ui-orders.errors.invalidProductId": [
     {
       "type": 0,
-      "value": "Le numéro d'identifiant du produit est incorrect à cause du type d'identifiant du produit. Vous pouvez utiliser \"la connexion avec la notice\" pour actualiser l'identifiant du produit depuis la notice avant de modifier la ligne de commande."
+      "value": "Le numéro d'identifiant du produit est incorrect à cause du type d'identifiant du produit. Vous pouvez utiliser \"Changer la connexion avec la notice\" pour actualiser l'identifiant du produit depuis la notice avant de modifier la ligne de bon de commande."
     }
   ],
   "ui-orders.errors.itemCreationFailed": [
@@ -93826,13 +93826,13 @@
   "ui-orders.errors.lineWasNotCancelled": [
     {
       "type": 0,
-      "value": "Error while canceling PO Line"
+      "value": "Erreur lors de l'annulation de la ligne de bon de commande"
     }
   ],
   "ui-orders.errors.lineWasNotDeleted": [
     {
       "type": 0,
-      "value": "Erreur lors de la suppression de la ligne de commande"
+      "value": "Erreur lors de la suppression de la ligne de bon de commande"
     }
   ],
   "ui-orders.errors.locNotProvided": [
@@ -93856,19 +93856,19 @@
   "ui-orders.errors.locationIdAndHoldingIdAbsentError": [
     {
       "type": 0,
-      "value": "A holdings or location reference must present"
+      "value": "Une référence de localisation ou d'emplacement doit être présente"
     }
   ],
   "ui-orders.errors.materialTypeRequired": [
     {
       "type": 0,
-      "value": "Le type de matériel est obligatoire mais non disponible dans la ligne de commande"
+      "value": "Le type de matériel est obligatoire mais non disponible dans la ligne de bon de commande"
     }
   ],
   "ui-orders.errors.mayBeLinkToEitherHoldingOrLocationError": [
     {
       "type": 0,
-      "value": "There is a holdingsId and locationId presented already"
+      "value": "Il y a un ID de localisation et un ID d'emplacement déjà présents"
     }
   ],
   "ui-orders.errors.missingContributorNameType": [
@@ -93880,7 +93880,7 @@
   "ui-orders.errors.missingHoldingsSourceId": [
     {
       "type": 0,
-      "value": "Holdings not found in inventory"
+      "value": "Localisation introuvable dans le catalogue"
     }
   ],
   "ui-orders.errors.missingInstanceStatus": [
@@ -93940,7 +93940,7 @@
   "ui-orders.errors.multipleNonPackageTitles": [
     {
       "type": 0,
-      "value": "Non-package PO Line must not contain more than one title reference"
+      "value": "La ligne de bon de commande hors bouquet ne doit pas contenir plus d'une référence de titre"
     }
   ],
   "ui-orders.errors.noCreateItemPlugin": [
@@ -94112,13 +94112,13 @@
   "ui-orders.errors.orderIdRequired": [
     {
       "type": 0,
-      "value": "L'ID du bon de commande est manquant dans la ligne de commande"
+      "value": "L'ID du bon de commande est manquant dans la ligne de bon de commande"
     }
   ],
   "ui-orders.errors.orderLineGenericError": [
     {
       "type": 0,
-      "value": "La ligne de commande n'a pas pu être sauvegardée."
+      "value": "La ligne de bon de commande n'a pas pu être sauvegardée."
     }
   ],
   "ui-orders.errors.orderLinesNotLoaded": [
@@ -94172,7 +94172,7 @@
   "ui-orders.errors.partiallyReturnedCollection": [
     {
       "type": 0,
-      "value": "Not all holdings records could be found"
+      "value": "Toutes les notices de localisations n'ont pas pu être trouvées"
     }
   ],
   "ui-orders.errors.pgException": [
@@ -94184,13 +94184,13 @@
   "ui-orders.errors.physicalLocCostQtyMismatch": [
     {
       "type": 0,
-      "value": "La quantité physique de la ligne de commande et la quantité physique des emplacements ne correspondent pas"
+      "value": "La quantité physique de la ligne de bon de commande et la quantité physique des emplacements ne correspondent pas"
     }
   ],
   "ui-orders.errors.piecesNeedToBeCreated": [
     {
       "type": 0,
-      "value": "Les pièces doivent être créées"
+      "value": "Les unités doivent être créées"
     }
   ],
   "ui-orders.errors.poLineHasLocationRestrictedFund": [
@@ -94586,7 +94586,7 @@
   "ui-orders.find-po-line-plugin-unavailable": [
     {
       "type": 0,
-      "value": "Le plugin de recherche de ligne de commande n'est pas disponible"
+      "value": "Le plugin de recherche de ligne de bon de commande n'est pas disponible"
     }
   ],
   "ui-orders.fund.fundIdentifier": [
@@ -94730,7 +94730,7 @@
   "ui-orders.itemDetails.linkPackageLookUp": [
     {
       "type": 0,
-      "value": "Recherche de la ligne de commande du bouquet"
+      "value": "Recherche de la ligne de bon de commande du bouquet"
     }
   ],
   "ui-orders.itemDetails.notConnectedInfo": [
@@ -94832,7 +94832,7 @@
   "ui-orders.itemDetails.titleLookUpNoPlugin": [
     {
       "type": 0,
-      "value": "[pas de plugin de sélection d'instance]"
+      "value": "[pas de plugin de sélection de notice]"
     }
   ],
   "ui-orders.line.accordion.cost": [
@@ -94844,7 +94844,7 @@
   "ui-orders.line.accordion.details": [
     {
       "type": 0,
-      "value": "Détails de la ligne de commande"
+      "value": "Détails de la ligne de bon de commande"
     }
   ],
   "ui-orders.line.accordion.donor": [
@@ -94886,7 +94886,7 @@
   "ui-orders.line.accordion.linkedInstance": [
     {
       "type": 0,
-      "value": "Linked instance"
+      "value": "Notice liée"
     }
   ],
   "ui-orders.line.accordion.linkedInstances": [
@@ -94928,7 +94928,7 @@
   "ui-orders.line.accordion.poLine": [
     {
       "type": 0,
-      "value": "Ligne de commande"
+      "value": "ligne de bon de commande"
     }
   ],
   "ui-orders.line.accordion.relatedInvoiceLines": [
@@ -94952,7 +94952,7 @@
   "ui-orders.line.cancel.confirmLabel": [
     {
       "type": 0,
-      "value": "Annuler la ligne de commande"
+      "value": "Annuler la ligne de bon de commande"
     }
   ],
   "ui-orders.line.cancel.heading": [
@@ -95004,7 +95004,7 @@
   "ui-orders.line.changeInstance.detailedMessage": [
     {
       "type": 0,
-      "value": "You have changed the title information of this purchase order line from "
+      "value": "Vous modifiez les informations de titre de cette ligne de commande de "
     },
     {
       "children": [
@@ -95018,7 +95018,7 @@
     },
     {
       "type": 0,
-      "value": " to "
+      "value": " à "
     },
     {
       "children": [
@@ -95032,7 +95032,7 @@
     },
     {
       "type": 0,
-      "value": ". All related item records will be moved to the new instance. How would you like to address the related Holdings?"
+      "value": ". Toutes les notices d'exemplaires concernées seront déplacées vers la nouvelle notice. Que souhaitez-vous faire pour les localisations concernées ?"
     }
   ],
   "ui-orders.line.changeInstance.error": [
@@ -95060,7 +95060,7 @@
   "ui-orders.line.changeInstance.holdingOperations.field": [
     {
       "type": 0,
-      "value": "How to update Holdings"
+      "value": "Comment mettre à jour la localisation"
     }
   ],
   "ui-orders.line.changeInstance.holdingOperations.findOrCreate": [
@@ -95072,7 +95072,7 @@
   "ui-orders.line.changeInstance.holdingOperations.info": [
     {
       "type": 0,
-      "value": "If you choose to create new holdings or find matching holdings based on the current location of items, FOLIO will ask you if you want to delete the abandoned Holdings where possible."
+      "value": "Si vous choisissez de créer une nouvelle localisation ou de trouver une localisation adaptée en fonction de l'emplacement actuel des exemplaires, FOLIO vous demandera si vous souhaitez supprimer la localisation abandonnée quand cela est possible."
     }
   ],
   "ui-orders.line.changeInstance.holdingOperations.move": [
@@ -95084,7 +95084,7 @@
   "ui-orders.line.changeInstance.message": [
     {
       "type": 0,
-      "value": "You are changing the title information of this purchase order line. This will update the order lines reference to an instance in inventory if there is one. Are you sure you want to proceed?"
+      "value": "Vous modifiez les informations de titre de cette ligne de commande. Cela mettra à jour les références de lignes de commandes d'une notice du catalogue si elle existe. Êtes-vous sûr de vouloir continuer ?"
     }
   ],
   "ui-orders.line.changeInstance.notMovedItems": [
@@ -95128,19 +95128,19 @@
   "ui-orders.line.create.success": [
     {
       "type": 0,
-      "value": "La ligne de commande a été créée avec succès"
+      "value": "La ligne de bon de commande a été créée avec succès"
     }
   ],
   "ui-orders.line.delete.message": [
     {
       "type": 0,
-      "value": "Supprimer la ligne de commande?"
+      "value": "Supprimer la ligne de bon de commande?"
     }
   ],
   "ui-orders.line.delete.success": [
     {
       "type": 0,
-      "value": "La ligne de commande "
+      "value": "La ligne de bon de commande "
     },
     {
       "type": 1,
@@ -95154,7 +95154,7 @@
   "ui-orders.line.paneTitle.details": [
     {
       "type": 0,
-      "value": "Détails de la ligne de commande - "
+      "value": "Détails de la ligne de bon de commande - "
     },
     {
       "type": 1,
@@ -95174,13 +95174,13 @@
   "ui-orders.line.paneTitle.new": [
     {
       "type": 0,
-      "value": "Ajouter une ligne de commande"
+      "value": "Ajouter une ligne de bon de commande"
     }
   ],
   "ui-orders.line.update.success": [
     {
       "type": 0,
-      "value": "La ligne de commande "
+      "value": "La ligne de bon de commande "
     },
     {
       "type": 1,
@@ -95254,7 +95254,7 @@
   "ui-orders.location.createHolding": [
     {
       "type": 0,
-      "value": "Create new holdings for location"
+      "value": "Créer une nouvelle localisation pour l'emplacement"
     }
   ],
   "ui-orders.location.editInReceiving": [
@@ -95272,7 +95272,7 @@
   "ui-orders.location.holding": [
     {
       "type": 0,
-      "value": "Holding"
+      "value": "Localisation"
     }
   ],
   "ui-orders.location.nameCode": [
@@ -95290,13 +95290,13 @@
   "ui-orders.location.quantityElectronic.notMatch": [
     {
       "type": 0,
-      "value": "La quantité électronique de la ligne de commande et la quantité électronique des emplacements ne correspondent pas"
+      "value": "La quantité électronique de la ligne de bon de commande et la quantité électronique des emplacements ne correspondent pas"
     }
   ],
   "ui-orders.location.quantityElectronic.notMatchOrEmpty": [
     {
       "type": 0,
-      "value": "La quantité électronique des emplacements doit être vide ou correspondre à la quantité électronique de la ligne de commande"
+      "value": "La quantité électronique des emplacements doit être vide ou correspondre à la quantité électronique de la ligne de bon de commande"
     }
   ],
   "ui-orders.location.quantityPhysical": [
@@ -95308,13 +95308,13 @@
   "ui-orders.location.quantityPhysical.notMatch": [
     {
       "type": 0,
-      "value": "La quantité physique de la ligne de commande et la quantité physique des emplacements ne correspondent pas"
+      "value": "La quantité physique de la ligne de bon de commande et la quantité physique des emplacements ne correspondent pas"
     }
   ],
   "ui-orders.location.quantityPhysical.notMatchOrEmpty": [
     {
       "type": 0,
-      "value": "La quantité physique des emplacements doit être vide ou correspondre à la quantité physique de la ligne de commande"
+      "value": "La quantité physique des emplacements doit être vide ou correspondre à la quantité physique de la ligne de bon de commande"
     }
   ],
   "ui-orders.location.required": [
@@ -95326,7 +95326,7 @@
   "ui-orders.location.selectHoldings": [
     {
       "type": 0,
-      "value": "Select holdings"
+      "value": "Sélectionnez la localisation"
     }
   ],
   "ui-orders.meta.title": [
@@ -96068,7 +96068,7 @@
   "ui-orders.paneBlock.POLines": [
     {
       "type": 0,
-      "value": "Lignes de commande"
+      "value": "Lignes de bon de commande"
     }
   ],
   "ui-orders.paneBlock.POSummary": [
@@ -96458,13 +96458,13 @@
   "ui-orders.piece.delete.heading": [
     {
       "type": 0,
-      "value": "Supprimer la pièce?"
+      "value": "Supprimer l'unité ?"
     }
   ],
   "ui-orders.piece.delete.message": [
     {
       "type": 0,
-      "value": "Supprimer la pièce?"
+      "value": "Supprimer l'unité ?"
     }
   ],
   "ui-orders.pieceFormat.electronic": [
@@ -96488,7 +96488,7 @@
   "ui-orders.poLine": [
     {
       "type": 0,
-      "value": "Ligne de commande"
+      "value": "Ligne de bon de commande"
     }
   ],
   "ui-orders.poLine.acquisitionMethod": [
@@ -96560,7 +96560,7 @@
   "ui-orders.poLine.details": [
     {
       "type": 0,
-      "value": "Détails de la ligne de commande"
+      "value": "Détails de la ligne de bon de commande"
     }
   ],
   "ui-orders.poLine.donor": [
@@ -96584,7 +96584,7 @@
   "ui-orders.poLine.eResourceDetails": [
     {
       "type": 0,
-      "value": "Ligne de commande-Détails de la ressource électronique"
+      "value": "ligne de bon de commande-Détails de la ressource électronique"
     }
   ],
   "ui-orders.poLine.fundDistribution": [
@@ -96632,7 +96632,7 @@
   "ui-orders.poLine.number": [
     {
       "type": 0,
-      "value": "Numéro de ligne de commande"
+      "value": "Numéro de ligne de bon de commande"
     }
   ],
   "ui-orders.poLine.orderFormat": [
@@ -96656,7 +96656,7 @@
   "ui-orders.poLine.physicalResourceDetails": [
     {
       "type": 0,
-      "value": "Détails des ressources physiques de la ligne de commande"
+      "value": "Détails des ressources physiques de la ligne de bon de commande"
     }
   ],
   "ui-orders.poLine.pluralized": [
@@ -96675,7 +96675,7 @@
           "value": [
             {
               "type": 0,
-              "value": "ligne de commande"
+              "value": "ligne de bon de commande"
             }
           ]
         },
@@ -96683,7 +96683,7 @@
           "value": [
             {
               "type": 0,
-              "value": "lignes de commande"
+              "value": "lignes de bon de commande"
             }
           ]
         }
@@ -97032,7 +97032,7 @@
   "ui-orders.receiving.modalPaneTitle": [
     {
       "type": 0,
-      "value": "Ligne de commande "
+      "value": "ligne de bon de commande "
     },
     {
       "type": 1,
@@ -97068,7 +97068,7 @@
   "ui-orders.receiving.poLine": [
     {
       "type": 0,
-      "value": "Ligne de commande"
+      "value": "ligne de bon de commande"
     }
   ],
   "ui-orders.receiving.previousBtn": [
@@ -97140,7 +97140,7 @@
   "ui-orders.receivingHistory.confirmation.message": [
     {
       "type": 0,
-      "value": "Voulez-vous vraiment supprimer la ou les pièces de l'historique de réception? Ils reviendront au statut Attendu et tout exemplaire associé sera défini comme En commande."
+      "value": "Voulez-vous vraiment supprimer la ou les unités de l'historique de réception ? Ils reviendront au statut Attendu et tout exemplaire associé sera défini comme En commande."
     }
   ],
   "ui-orders.receivingHistory.dateReceived": [
@@ -97334,7 +97334,7 @@
   "ui-orders.relatedAgreementLines.actions.load.error": [
     {
       "type": 0,
-      "value": "Echec lors du chargement des données des lignes d'accord"
+      "value": "Échec lors du chargement des données des lignes d'accord"
     }
   ],
   "ui-orders.relatedAgreementLines.endDate": [
@@ -97632,7 +97632,7 @@
   "ui-orders.requests.request": [
     {
       "type": 0,
-      "value": "Demande"
+      "value": "Réservation"
     }
   ],
   "ui-orders.requests.request.isOpened": [
@@ -97837,7 +97837,7 @@
   "ui-orders.search.poLineNumber": [
     {
       "type": 0,
-      "value": "Numéro de ligne de commande"
+      "value": "Numéro de ligne de bon de commande"
     }
   ],
   "ui-orders.search.poNumber": [
@@ -98077,7 +98077,7 @@
   "ui-orders.settings.closingReasons.add": [
     {
       "type": 0,
-      "value": "Ajouter une raison"
+      "value": "Ajouter un motif"
     }
   ],
   "ui-orders.settings.closingReasons.addBtn": [
@@ -98095,19 +98095,19 @@
   "ui-orders.settings.closingReasons.cannotDeleteTermHeader": [
     {
       "type": 0,
-      "value": "Cannot delete the closing reason"
+      "value": "Impossible de supprimer le motif de clôture"
     }
   ],
   "ui-orders.settings.closingReasons.cannotDeleteTermMessage": [
     {
       "type": 0,
-      "value": "This closing reason cannot be deleted, as it is in use by one or more records."
+      "value": "Ce motif de clôture ne peut pas être supprimé car il est utilisé par une ou plusieurs notices."
     }
   ],
   "ui-orders.settings.closingReasons.deleteEntry": [
     {
       "type": 0,
-      "value": "Delete closing reason"
+      "value": "Supprimer le motif de clôture"
     }
   ],
   "ui-orders.settings.closingReasons.editBtn": [
@@ -98119,19 +98119,19 @@
   "ui-orders.settings.closingReasons.reason": [
     {
       "type": 0,
-      "value": "Raison"
+      "value": "Motif"
     }
   ],
   "ui-orders.settings.closingReasons.remove.error": [
     {
       "type": 0,
-      "value": "La raison n'a pas été supprimée"
+      "value": "Le motif n'a pas été supprimé"
     }
   ],
   "ui-orders.settings.closingReasons.remove.success": [
     {
       "type": 0,
-      "value": "La raison a été supprimée avec succès"
+      "value": "Le motif a été supprimé avec succès"
     }
   ],
   "ui-orders.settings.closingReasons.removeBtn": [
@@ -98143,13 +98143,13 @@
   "ui-orders.settings.closingReasons.save.error": [
     {
       "type": 0,
-      "value": "La raison n'a pas été sauvegardée"
+      "value": "Le motif n'a pas été sauvegardé"
     }
   ],
   "ui-orders.settings.closingReasons.save.success": [
     {
       "type": 0,
-      "value": "La raison a été sauvegardée avec succès"
+      "value": "Le motif a été sauvegardé avec succès"
     }
   ],
   "ui-orders.settings.closingReasons.saveBtn": [
@@ -98167,7 +98167,7 @@
   "ui-orders.settings.closingReasons.termDeleted": [
     {
       "type": 0,
-      "value": "The closing reason "
+      "value": "Le motif de clôture "
     },
     {
       "children": [
@@ -98181,23 +98181,27 @@
     },
     {
       "type": 0,
-      "value": " was successfully "
+      "value": " a été "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "deleted"
+          "value": "supprimé"
         }
       ],
       "type": 8,
       "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " avec succès"
     }
   ],
   "ui-orders.settings.closingReasons.termWillBeDeleted": [
     {
       "type": 0,
-      "value": "The closing reason "
+      "value": "Le motif de clôture "
     },
     {
       "children": [
@@ -98211,17 +98215,21 @@
     },
     {
       "type": 0,
-      "value": " will be "
+      "value": " sera "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "deleted."
+          "value": "supprimé"
         }
       ],
       "type": 8,
       "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "."
     }
   ],
   "ui-orders.settings.createInventory.eresource": [
@@ -98245,7 +98253,7 @@
   "ui-orders.settings.createInventory.recordType.all": [
     {
       "type": 0,
-      "value": "Notice, holdings, exemplaire"
+      "value": "Notice, localisation, exemplaire"
     }
   ],
   "ui-orders.settings.createInventory.recordType.instance": [
@@ -98257,7 +98265,7 @@
   "ui-orders.settings.createInventory.recordType.instanceAndHolding": [
     {
       "type": 0,
-      "value": "Notice, holdings"
+      "value": "Notice, localisation"
     }
   ],
   "ui-orders.settings.createInventory.recordType.none": [
@@ -98305,7 +98313,7 @@
   "ui-orders.settings.instanceMatching.toggle": [
     {
       "type": 0,
-      "value": "Désactiver la correspondance de la notice"
+      "value": "Désactiver la correspondance de notice"
     }
   ],
   "ui-orders.settings.instanceStatus": [
@@ -98383,7 +98391,7 @@
   "ui-orders.settings.openOrder.isOpenOrderEnabled": [
     {
       "type": 0,
-      "value": "Autoriser la sauvegarde et l'ouverture du bon de commande lors de la création ou de la modification d'une ligne de commande"
+      "value": "Autoriser la sauvegarde et l'ouverture du bon de commande lors de la création ou de la modification d'une ligne de bon de commande"
     }
   ],
   "ui-orders.settings.orderTemplates": [
@@ -98437,7 +98445,7 @@
   "ui-orders.settings.orderTemplates.accordion.polDetails": [
     {
       "type": 0,
-      "value": "Détails de la ligne de commande"
+      "value": "Détails de la ligne de bon de commande"
     }
   ],
   "ui-orders.settings.orderTemplates.accordion.polEResources": [
@@ -98479,7 +98487,7 @@
   "ui-orders.settings.orderTemplates.accordion.polTags": [
     {
       "type": 0,
-      "value": "Mots-clés de la ligne de commande"
+      "value": "Mots-clés de la ligne de bon de commande"
     }
   ],
   "ui-orders.settings.orderTemplates.accordion.polVendor": [
@@ -98995,7 +99003,7 @@
   "ui-orders.title.actions.save.error.genericError": [
     {
       "type": 0,
-      "value": "The title "
+      "value": "Le titre "
     },
     {
       "type": 1,
@@ -99003,7 +99011,7 @@
     },
     {
       "type": 0,
-      "value": " has not been added for PO line "
+      "value": " n'a pas été ajouté pour la ligne de bon de commande "
     },
     {
       "type": 1,
@@ -99013,7 +99021,7 @@
   "ui-orders.title.actions.save.error.titleExist": [
     {
       "type": 0,
-      "value": "The title "
+      "value": "Le titre "
     },
     {
       "type": 1,
@@ -99021,7 +99029,7 @@
     },
     {
       "type": 0,
-      "value": " for PO line "
+      "value": " pour la ligne de bon de commande "
     },
     {
       "type": 1,
@@ -99029,13 +99037,13 @@
     },
     {
       "type": 0,
-      "value": " already exists"
+      "value": " existe déjà"
     }
   ],
   "ui-orders.title.actions.save.success": [
     {
       "type": 0,
-      "value": "The title "
+      "value": "Le titre "
     },
     {
       "children": [
@@ -99049,13 +99057,13 @@
     },
     {
       "type": 0,
-      "value": " has been successfully added for "
+      "value": " a été ajouté avec succès pour la "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "PO line "
+          "value": "ligne de bon de commande "
         },
         {
           "type": 1,
@@ -99081,25 +99089,25 @@
   "ui-orders.unopenOrderModal.confirmLabel.deleteHoldings.independent": [
     {
       "type": 0,
-      "value": "Delete Holdings"
+      "value": "Supprimer les localisations"
     }
   ],
   "ui-orders.unopenOrderModal.confirmLabel.deleteHoldings.synchronized": [
     {
       "type": 0,
-      "value": "Delete Holdings and items"
+      "value": "Supprimer les localisations et exemplaires"
     }
   ],
   "ui-orders.unopenOrderModal.confirmLabel.keepHoldings.independent": [
     {
       "type": 0,
-      "value": "Keep Holdings"
+      "value": "Garder les localisations"
     }
   ],
   "ui-orders.unopenOrderModal.confirmLabel.keepHoldings.synchronized": [
     {
       "type": 0,
-      "value": "Delete items"
+      "value": "Supprimer les exemplaires"
     }
   ],
   "ui-orders.unopenOrderModal.message": [
@@ -99135,7 +99143,7 @@
   "ui-orders.unopenOrderModal.message.withoutPieces": [
     {
       "type": 0,
-      "value": "Are you sure you want to unopen the order?"
+      "value": "Voulez-vous vraiment passer la commande comme \"non-ouverte\" ?"
     }
   ],
   "ui-orders.unopenOrderModal.title": [
@@ -125159,7 +125167,7 @@
   "ui-users.accounts.actions.payFeeFine": [
     {
       "type": 0,
-      "value": "Payer les frais / amendes"
+      "value": "Payer les frais/amendes"
     }
   ],
   "ui-users.accounts.actions.payment": [
@@ -125177,7 +125185,7 @@
   "ui-users.accounts.actions.refundFeeFine": [
     {
       "type": 0,
-      "value": "Frais de remboursement / amendes"
+      "value": "Frais/amendes de remboursement"
     }
   ],
   "ui-users.accounts.actions.tag.patron": [
@@ -125213,7 +125221,7 @@
   "ui-users.accounts.actions.waiveFeeFine": [
     {
       "type": 0,
-      "value": "Effacer frais / amendes"
+      "value": "Renoncer aux frais/amendes"
     }
   ],
   "ui-users.accounts.actions.warning.alertDetails": [
@@ -125581,7 +125589,7 @@
   "ui-users.accounts.exportFeesFines": [
     {
       "type": 0,
-      "value": "Exporter les frais / amendes"
+      "value": "Exporter les frais/amendes"
     }
   ],
   "ui-users.accounts.feeFine": [
@@ -125593,7 +125601,7 @@
   "ui-users.accounts.feesFines": [
     {
       "type": 0,
-      "value": "Frais / amendes"
+      "value": "frais/amendes"
     }
   ],
   "ui-users.accounts.field.infoPatron": [
@@ -125693,7 +125701,7 @@
   "ui-users.accounts.history.columns.instance": [
     {
       "type": 0,
-      "value": "Instance (Type de matériel)"
+      "value": "Notice (Type de document)"
     }
   ],
   "ui-users.accounts.history.columns.number": [
@@ -125799,7 +125807,7 @@
     },
     {
       "type": 0,
-      "value": " frais / amendes pour"
+      "value": " frais/amendes pour"
     }
   ],
   "ui-users.accounts.infoPatron": [
@@ -125837,7 +125845,7 @@
           "value": [
             {
               "type": 0,
-              "value": "frais/amende pour exemplaire déclaré rendu en suspens"
+              "value": "frais/amende en suspens pour exemplaire déclaré rendu"
             }
           ]
         },
@@ -125845,7 +125853,7 @@
           "value": [
             {
               "type": 0,
-              "value": "frais/amendes pour exemplaire déclaré rendu en suspens"
+              "value": "frais/amendes en suspens pour exemplaire déclaré rendu"
             }
           ]
         }
@@ -125979,7 +125987,7 @@
   "ui-users.accounts.otherOwed": [
     {
       "type": 0,
-      "value": "Autres frais / amendes dûs"
+      "value": "Autres frais/amendes dûs"
     }
   ],
   "ui-users.accounts.outstanding.page": [
@@ -126149,7 +126157,7 @@
   "ui-users.accounts.selected.balance": [
     {
       "type": 0,
-      "value": "Solde des frais / amendes sélectionnés: "
+      "value": "Solde des frais/amendes sélectionnés : "
     },
     {
       "type": 1,
@@ -126271,7 +126279,7 @@
   "ui-users.accounts.title.feeFine": [
     {
       "type": 0,
-      "value": "Frais / amendes"
+      "value": "Frais/amendes"
     }
   ],
   "ui-users.accounts.totalOpenAccounts": [
@@ -126363,7 +126371,7 @@
   "ui-users.accounts.viewAllFeesFines": [
     {
       "type": 0,
-      "value": "Voir tous les frais / amendes"
+      "value": "Voir tous les frais/amendes"
     }
   ],
   "ui-users.accounts.waive": [
@@ -126927,7 +126935,7 @@
     },
     {
       "type": 0,
-      "value": " loan(s) had associated fees/fines and could not be anonymized."
+      "value": " prêt(s) ont des frais/amendes associé(e)s et ne peuvent pas être anonymisés."
     }
   ],
   "ui-users.anonymize": [
@@ -127465,13 +127473,13 @@
     },
     {
       "type": 0,
-      "value": " item(s) "
+      "value": " exemplaire(s) "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "not"
+          "value": "n'ont pas"
         }
       ],
       "type": 8,
@@ -127479,7 +127487,7 @@
     },
     {
       "type": 0,
-      "value": " claimed returned."
+      "value": " été déclaré(s) rendu(s)."
     }
   ],
   "ui-users.bulkClaimReturned.items.ok": [
@@ -127515,19 +127523,19 @@
   "ui-users.bulkClaimReturned.postConfirm": [
     {
       "type": 0,
-      "value": "Confirmer comme rendu"
+      "value": "Confirmation de déclaré rendu"
     }
   ],
   "ui-users.bulkClaimReturned.preConfirm": [
     {
       "type": 0,
-      "value": "Confirmer comme rendu"
+      "value": "Confirmer comme déclaré rendu"
     }
   ],
   "ui-users.bulkClaimReturned.status": [
     {
       "type": 0,
-      "value": "Statut-confirmé comme rendu"
+      "value": "Statut - déclaré rendu"
     }
   ],
   "ui-users.bulkClaimReturned.status.notOk": [
@@ -127926,7 +127934,7 @@
   "ui-users.contact.contactInfo": [
     {
       "type": 0,
-      "value": "Informations sur le contact"
+      "value": "Informations de contact"
     }
   ],
   "ui-users.contact.email": [
@@ -128070,7 +128078,7 @@
   "ui-users.data.loanActionMap.checkedInReturnedByPatron": [
     {
       "type": 0,
-      "value": "Rendu (retourné par l'usager)"
+      "value": "Rendu (restitué par l'usager)"
     }
   ],
   "ui-users.data.loanActionMap.checkedOut": [
@@ -128082,7 +128090,7 @@
   "ui-users.data.loanActionMap.checkedOutThroughOverride": [
     {
       "type": 0,
-      "value": "Checked out through override"
+      "value": "Emprunté en outrepassant"
     }
   ],
   "ui-users.data.loanActionMap.claimedReturned": [
@@ -128178,7 +128186,7 @@
   "ui-users.data.loanActionMap.staffInfo.superseded": [
     {
       "type": 0,
-      "value": "Staff info (SUPERSEDED)"
+      "value": "Informations personnel (OBSOLÈTE)"
     }
   ],
   "ui-users.data.loanActionMap.unknownAction": [
@@ -128396,7 +128404,7 @@
   "ui-users.details.field.instance.type": [
     {
       "type": 0,
-      "value": "Instance (Type de matériel)"
+      "value": "Notice (Type de document)"
     }
   ],
   "ui-users.details.field.latest": [
@@ -128480,7 +128488,7 @@
   "ui-users.details.openTransactions": [
     {
       "type": 0,
-      "value": "Transactions ouvertes"
+      "value": "Opérations en cours"
     }
   ],
   "ui-users.details.openTransactions.info": [
@@ -128500,13 +128508,13 @@
     },
     {
       "type": 0,
-      "value": " a les transactions ouvertes suivantes :"
+      "value": " a les opérations suivantes en cours :"
     }
   ],
   "ui-users.details.openTransactions.resolve": [
     {
       "type": 0,
-      "value": "Please resolve the transactions to proceed to delete the user."
+      "value": "Veuillez résoudre les opérations en cours afin de procéder à la suppression de l'utilisateur."
     }
   ],
   "ui-users.details.openUnexpiredProxy": [
@@ -128564,7 +128572,7 @@
   "ui-users.errorModal.currentUserServicePointAbsentee.message": [
     {
       "type": 0,
-      "value": "Vous devez selectionner un point de service pour créer et voir les "
+      "value": "Vous devez sélectionner un point de service pour créer et voir les "
     },
     {
       "children": [
@@ -129622,7 +129630,7 @@
   "ui-users.information.selectUserType": [
     {
       "type": 0,
-      "value": "Select user type"
+      "value": "Sélectionner le type d'utilisateur"
     }
   ],
   "ui-users.information.status": [
@@ -129646,7 +129654,7 @@
   "ui-users.information.userType": [
     {
       "type": 0,
-      "value": "User type"
+      "value": "Type d'utilisateur"
     }
   ],
   "ui-users.information.userType.dcb": [
@@ -129670,7 +129678,7 @@
   "ui-users.information.userType.staff": [
     {
       "type": 0,
-      "value": "Staff"
+      "value": "Personnel"
     }
   ],
   "ui-users.information.userType.system": [
@@ -129736,7 +129744,7 @@
   "ui-users.item.holdingsRecordId": [
     {
       "type": 0,
-      "value": "ID d'enregistrement des collections"
+      "value": "ID de notice de localisation"
     }
   ],
   "ui-users.item.instanceId": [
@@ -129854,7 +129862,7 @@
   "ui-users.loans.claimReturned": [
     {
       "type": 0,
-      "value": "Confirmé comme rendu"
+      "value": "Déclaré rendu"
     }
   ],
   "ui-users.loans.claimReturnedDialogBody": [
@@ -130015,7 +130023,7 @@
   "ui-users.loans.columns.feefineIncurred": [
     {
       "type": 0,
-      "value": "Frais / amendes encourus"
+      "value": "Frais/amendes encourus"
     }
   ],
   "ui-users.loans.columns.itemStatus": [
@@ -130063,7 +130071,7 @@
   "ui-users.loans.confirmClaimReturned": [
     {
       "type": 0,
-      "value": "Confirmer le retour (?)"
+      "value": "Confirmer comme déclaré rendu"
     }
   ],
   "ui-users.loans.confirmClaimedReturned": [
@@ -130246,7 +130254,7 @@
   "ui-users.loans.details.fineIncurred": [
     {
       "type": 0,
-      "value": "Frais / amendes encourus"
+      "value": "Frais/amendes encourus"
     }
   ],
   "ui-users.loans.details.loanPolicy": [
@@ -130407,7 +130415,7 @@
           "value": [
             {
               "type": 0,
-              "value": " instance a été "
+              "value": "notice a été"
             }
           ]
         },
@@ -130415,7 +130423,7 @@
           "value": [
             {
               "type": 0,
-              "value": " instances ont été "
+              "value": "notices ont été"
             }
           ]
         }
@@ -130730,7 +130738,7 @@
           "value": [
             {
               "type": 0,
-              "value": "claimed returned"
+              "value": "déclaré rendu"
             }
           ]
         },
@@ -130738,7 +130746,7 @@
           "value": [
             {
               "type": 0,
-              "value": "claimed returned"
+              "value": "déclarés rendus"
             }
           ]
         }
@@ -132121,19 +132129,19 @@
   "ui-users.permission.manual_charge": [
     {
       "type": 0,
-      "value": "Frais / amendes: OK pour facturer"
+      "value": "Frais/amendes : peut facturer"
     }
   ],
   "ui-users.permission.manual_pay": [
     {
       "type": 0,
-      "value": "Frais / amendes: peut payer"
+      "value": "Frais/amendes : peut payer"
     }
   ],
   "ui-users.permission.manual_waive": [
     {
       "type": 0,
-      "value": "Frais / amendes: peut renoncer"
+      "value": "Frais/amendes : peut renoncer aux frais/amendes"
     }
   ],
   "ui-users.permission.opentransactions": [
@@ -133084,7 +133092,7 @@
   "ui-users.proxy.requestForSponsor": [
     {
       "type": 0,
-      "value": "Le mandataire peut placer des demandes/réservations pour le garant"
+      "value": "Le mandataire peut placer des réservations pour le garant"
     }
   ],
   "ui-users.proxyWillBeDeleted": [
@@ -134052,7 +134060,7 @@
   "ui-users.reports.item.holdingsRecordId": [
     {
       "type": 0,
-      "value": "ID des collections"
+      "value": "ID Localisations"
     }
   ],
   "ui-users.reports.item.instanceId": [
@@ -134184,7 +134192,7 @@
   "ui-users.reports.refunds.instance": [
     {
       "type": 0,
-      "value": "Instance"
+      "value": "Notice"
     }
   ],
   "ui-users.reports.refunds.itemBarcode": [
@@ -134346,7 +134354,7 @@
   "ui-users.requests.createRequest": [
     {
       "type": 0,
-      "value": "Créer une demande"
+      "value": "Créer une réservation"
     }
   ],
   "ui-users.requests.defaultDeliveryAddress": [
@@ -134394,7 +134402,7 @@
   "ui-users.requests.holdShelfNo": [
     {
       "type": 0,
-      "value": "Rayon d'attente-Non"
+      "value": "Rayon d'attente - Non"
     }
   ],
   "ui-users.requests.holdShelfYes": [
@@ -134480,7 +134488,7 @@
   "ui-users.requests.preferences": [
     {
       "type": 0,
-      "value": "Préférence des retraits/réservations"
+      "value": "Préférence des réservations"
     }
   ],
   "ui-users.requests.selectDeliveryAddress": [
@@ -135444,7 +135452,7 @@
   "ui-users.userType": [
     {
       "type": 0,
-      "value": "User type"
+      "value": "Type d'utilisateur"
     }
   ],
   "ui-users.waives.columns.desc": [
