@@ -41620,7 +41620,7 @@
   "ui-data-export.error.binaryFile.notGenerated": [
     {
       "type": 0,
-      "value": "没有导出内容：未生成二进制文件"
+      "value": "无输出：未生成 .mrc 文件。"
     }
   ],
   "ui-data-export.error.callingUri": [
@@ -41678,7 +41678,7 @@
   "ui-data-export.error.deletedDuplicate.instance": [
     {
       "type": 0,
-      "value": "Instance record associated with "
+      "value": "与"
     },
     {
       "type": 1,
@@ -41686,13 +41686,13 @@
     },
     {
       "type": 0,
-      "value": " has been deleted."
+      "value": "关联的实例记录已删除。"
     }
   ],
   "ui-data-export.error.deletedTooLong.instance": [
     {
       "type": 0,
-      "value": "Instance with id "
+      "value": "ID 为"
     },
     {
       "type": 1,
@@ -41700,7 +41700,7 @@
     },
     {
       "type": 0,
-      "value": " has been deleted."
+      "value": "实例已删除。"
     }
   ],
   "ui-data-export.error.duplicateSRS": [
@@ -41720,7 +41720,7 @@
     },
     {
       "type": 0,
-      "value": " repeated "
+      "value": "重复"
     },
     {
       "type": 1,
@@ -41728,7 +41728,7 @@
     },
     {
       "type": 0,
-      "value": " times."
+      "value": "次。"
     }
   ],
   "ui-data-export.error.fileDefinition.fileAlreadyUploaded": [
@@ -41970,7 +41970,7 @@
   "ui-data-export.error.nonExisting.instance": [
     {
       "type": 0,
-      "value": "Instance record associated with "
+      "value": "与"
     },
     {
       "type": 1,
@@ -41978,7 +41978,7 @@
     },
     {
       "type": 0,
-      "value": " does not exist."
+      "value": "关联的实例记录不存在。"
     }
   ],
   "ui-data-export.error.nothingToExport": [
@@ -42038,11 +42038,15 @@
   "ui-data-export.error.someRecordsFailed": [
     {
       "type": 0,
-      "value": "导出已完成，但有错误：某些记录无法导出：失败的记录数： "
+      "value": "失败记录数： "
     },
     {
       "type": 1,
       "value": "value1"
+    },
+    {
+      "type": 0,
+      "value": " 。"
     }
   ],
   "ui-data-export.error.tenantNotFoundForHolding": [
@@ -42118,11 +42122,15 @@
   "ui-data-export.error.uuidsNotFound": [
     {
       "type": 0,
-      "value": "在SRS或典藏中找不到UUID： "
+      "value": "未找到记录： "
     },
     {
       "type": 1,
       "value": "value1"
+    },
+    {
+      "type": 0,
+      "value": " 。"
     }
   ],
   "ui-data-export.errorLogs.inventoryRecordLink": [
@@ -43924,7 +43932,7 @@
   "ui-data-export.mappingProfiles.transformations.field": [
     {
       "type": 0,
-      "value": "Field"
+      "value": "字段"
     }
   ],
   "ui-data-export.mappingProfiles.transformations.fieldName": [
@@ -43936,13 +43944,13 @@
   "ui-data-export.mappingProfiles.transformations.ind1": [
     {
       "type": 0,
-      "value": "In.1"
+      "value": "第1指示符"
     }
   ],
   "ui-data-export.mappingProfiles.transformations.ind2": [
     {
       "type": 0,
-      "value": "In.2"
+      "value": "第2指示符"
     }
   ],
   "ui-data-export.mappingProfiles.transformations.invalidTransformationMessage": [
@@ -44096,7 +44104,7 @@
   "ui-data-export.mappingProfiles.transformations.subfield": [
     {
       "type": 0,
-      "value": "Subfield"
+      "value": "子字段"
     }
   ],
   "ui-data-export.mappingProfiles.transformations.transformation": [
@@ -44214,7 +44222,7 @@
   "ui-data-export.permission.edit": [
     {
       "type": 0,
-      "value": "Data export: Can upload files, export, download files and view logs"
+      "value": "数据导出：可以上传文件、导出、下载文件和查看日志"
     }
   ],
   "ui-data-export.permission.module.data-export.enabled": [
@@ -44226,7 +44234,7 @@
   "ui-data-export.permission.settings.edit": [
     {
       "type": 0,
-      "value": "Settings (Data export): Can view, add, update profiles"
+      "value": "设置（数据导出）：可以查看、添加、更新配置文件"
     }
   ],
   "ui-data-export.permission.settings.enabled": [
@@ -44238,13 +44246,13 @@
   "ui-data-export.permission.settings.view": [
     {
       "type": 0,
-      "value": "设置（数据导出）：可以查看"
+      "value": "设置（数据导出）：只能查看"
     }
   ],
   "ui-data-export.permission.view": [
     {
       "type": 0,
-      "value": "Data export: Can view only"
+      "value": "数据导出：仅可查看"
     }
   ],
   "ui-data-export.placeholder.fileName": [
@@ -66227,13 +66235,21 @@
     },
     {
       "type": 0,
-      "value": " was not successfully allocated to the budget "
+      "value": "未成功分配至预算"
     },
     {
       "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
         {
           "type": 1,
           "value": "toBudgetName"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -66241,13 +66257,21 @@
     },
     {
       "type": 0,
-      "value": " because it exceeds the total allocation amount of "
+      "value": "因为它超出了"
     },
     {
       "children": [
         {
+          "type": 0,
+          "value": " "
+        },
+        {
           "type": 1,
           "value": "fromBudgetName"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -66255,7 +66279,7 @@
     },
     {
       "type": 0,
-      "value": " and ledger fund restrictions are active"
+      "value": "的总分配金额，并且总账经费限制处于激活状态"
     }
   ],
   "ui-finance.transaction.allocation.genericError": [
@@ -66477,7 +66501,7 @@
   "ui-finance.transaction.filter.encumbranceStatus": [
     {
       "type": 0,
-      "value": "Encumbrance status"
+      "value": "预支状态"
     }
   ],
   "ui-finance.transaction.fiscalYear": [
@@ -76620,7 +76644,7 @@
   "ui-inventory.permission.consortia.inventory.share.local.instance": [
     {
       "type": 0,
-      "value": "典藏：与联盟共享本地实例"
+      "value": "Inventory: Share local instance with consortium"
     }
   ],
   "ui-inventory.permission.consortia.inventory.update-ownership.item.post": [
@@ -76632,7 +76656,7 @@
   "ui-inventory.permission.consortia.inventory.update.ownership": [
     {
       "type": 0,
-      "value": "典藏：更新所有权"
+      "value": "Inventory: Update ownership"
     }
   ],
   "ui-inventory.permission.holdings.create": [

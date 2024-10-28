@@ -30032,7 +30032,7 @@
   "ui-circulation-log.logEvent.action.Age to lost": [
     {
       "type": 0,
-      "value": "Considérer comme perdu"
+      "value": "Considéré comme perdu"
     }
   ],
   "ui-circulation-log.logEvent.action.Anonymize": [
@@ -30092,7 +30092,7 @@
   "ui-circulation-log.logEvent.action.Checked out through override": [
     {
       "type": 0,
-      "value": "Checked out through override"
+      "value": "Emprunté en outrepassant"
     }
   ],
   "ui-circulation-log.logEvent.action.Claimed returned": [
@@ -30248,19 +30248,19 @@
   "ui-circulation-log.logEvent.action.Send": [
     {
       "type": 0,
-      "value": "Envoyer"
+      "value": "Envoyée"
     }
   ],
   "ui-circulation-log.logEvent.action.Send error": [
     {
       "type": 0,
-      "value": "Send error"
+      "value": "Erreur à l'envoi"
     }
   ],
   "ui-circulation-log.logEvent.action.Staff info added": [
     {
       "type": 0,
-      "value": "Staff info added"
+      "value": "Informations personnel ajoutées"
     }
   ],
   "ui-circulation-log.logEvent.action.Staff information only added": [
@@ -30326,7 +30326,7 @@
   "ui-circulation-log.logEvent.actions.requestDetails": [
     {
       "type": 0,
-      "value": "Détails de la demande"
+      "value": "Détails de la réservation"
     }
   ],
   "ui-circulation-log.logEvent.actions.templateDetails": [
@@ -40586,7 +40586,7 @@
   "ui-data-export.error.deletedDuplicate.instance": [
     {
       "type": 0,
-      "value": "Instance record associated with "
+      "value": "La notice bibliographique associée à "
     },
     {
       "type": 1,
@@ -40594,13 +40594,13 @@
     },
     {
       "type": 0,
-      "value": " has been deleted."
+      "value": " a été supprimée."
     }
   ],
   "ui-data-export.error.deletedTooLong.instance": [
     {
       "type": 0,
-      "value": "Instance with id "
+      "value": "La notice avec l'ID "
     },
     {
       "type": 1,
@@ -40608,7 +40608,7 @@
     },
     {
       "type": 0,
-      "value": " has been deleted."
+      "value": " a été supprimée."
     }
   ],
   "ui-data-export.error.duplicateSRS": [
@@ -40696,7 +40696,7 @@
   "ui-data-export.error.inventory.gettingHoldingsByInstanceId": [
     {
       "type": 0,
-      "value": "Error while getting holdings by instance id: "
+      "value": "Erreur de récupération des localisations par id de notice : "
     },
     {
       "type": 1,
@@ -40704,7 +40704,7 @@
     },
     {
       "type": 0,
-      "value": ", message: "
+      "value": " , message : "
     },
     {
       "type": 1,
@@ -40714,7 +40714,7 @@
   "ui-data-export.error.inventory.gettingInstancesByIds": [
     {
       "type": 0,
-      "value": "Erreur lors de l'obtention des instances par ID: "
+      "value": "Erreur lors de l'obtention des notices par ID: "
     },
     {
       "type": 1,
@@ -40724,7 +40724,7 @@
   "ui-data-export.error.inventory.gettingItemsByHoldingsId": [
     {
       "type": 0,
-      "value": "Error while getting items by holding ids "
+      "value": "Erreur lors de l'obtention des localisations par IDs "
     },
     {
       "type": 1,
@@ -40862,7 +40862,7 @@
   "ui-data-export.error.nonExisting.instance": [
     {
       "type": 0,
-      "value": "Instance record associated with "
+      "value": "La notice bibliographique associée à "
     },
     {
       "type": 1,
@@ -40870,7 +40870,7 @@
     },
     {
       "type": 0,
-      "value": " does not exist."
+      "value": " n'existe pas."
     }
   ],
   "ui-data-export.error.nothingToExport": [
@@ -41188,37 +41188,37 @@
   "ui-data-export.holdings": [
     {
       "type": 0,
-      "value": "Holdings"
+      "value": "Localisations"
     }
   ],
   "ui-data-export.holdings.callNumber": [
     {
       "type": 0,
-      "value": "Holdings - Cote - Cote"
+      "value": "Localisations - Cote - Cote"
     }
   ],
   "ui-data-export.holdings.callNumberPrefix": [
     {
       "type": 0,
-      "value": "Collections - Cote - Préfixe de la cote"
+      "value": "Localisations - Cote - Préfixe de la cote"
     }
   ],
   "ui-data-export.holdings.callNumberSuffix": [
     {
       "type": 0,
-      "value": "Collections - Cote - Suffixe de la cote"
+      "value": "Localisations - Cote - Suffixe de la cote"
     }
   ],
   "ui-data-export.holdings.callNumberType": [
     {
       "type": 0,
-      "value": "Collections - Cote - Type de cote"
+      "value": "Localisations - Cote - Type de cote"
     }
   ],
   "ui-data-export.holdings.electronic.access.linkText": [
     {
       "type": 0,
-      "value": "Collections - Accès électronique - "
+      "value": "Localisations - Accès électronique - "
     },
     {
       "type": 1,
@@ -41232,13 +41232,13 @@
   "ui-data-export.holdings.electronic.access.linkText.default": [
     {
       "type": 0,
-      "value": "Collections - Accès électronique - Texte du lien"
+      "value": "Localisations - Accès électronique - Texte du lien"
     }
   ],
   "ui-data-export.holdings.electronic.access.materialsSpecification": [
     {
       "type": 0,
-      "value": "Collections - Accès électronique - "
+      "value": "Localisations - Accès électronique - "
     },
     {
       "type": 1,
@@ -41252,13 +41252,13 @@
   "ui-data-export.holdings.electronic.access.materialsSpecification.default": [
     {
       "type": 0,
-      "value": "Collections - Accès électronique - Matériels spécifiés"
+      "value": "Localisations - Accès électronique - Matériels spécifiés"
     }
   ],
   "ui-data-export.holdings.electronic.access.publicNote": [
     {
       "type": 0,
-      "value": "Collections - Accès électronique - "
+      "value": "Localisations - Accès électronique - "
     },
     {
       "type": 1,
@@ -41272,13 +41272,13 @@
   "ui-data-export.holdings.electronic.access.publicNote.default": [
     {
       "type": 0,
-      "value": "Collections - Accès électronique - URL Note publique"
+      "value": "Localisations - Accès électronique - URL Note publique"
     }
   ],
   "ui-data-export.holdings.electronic.access.uri": [
     {
       "type": 0,
-      "value": "Collections - Accès électronique - "
+      "value": "Localisations - Accès électronique - "
     },
     {
       "type": 1,
@@ -41292,13 +41292,13 @@
   "ui-data-export.holdings.electronic.access.uri.default": [
     {
       "type": 0,
-      "value": "Collections - Accès électronique - URI"
+      "value": "Localisations - Accès électronique - URI"
     }
   ],
   "ui-data-export.holdings.holdingNoteTypeId": [
     {
       "type": 0,
-      "value": "Collections - Notes - "
+      "value": "Localisations - Notes - "
     },
     {
       "type": 1,
@@ -41308,7 +41308,7 @@
   "ui-data-export.holdings.holdingNoteTypeId.staffOnly": [
     {
       "type": 0,
-      "value": "Collections - Notes - "
+      "value": "Localisations - Notes - "
     },
     {
       "type": 1,
@@ -41322,193 +41322,193 @@
   "ui-data-export.holdings.holdingsStatements.note": [
     {
       "type": 0,
-      "value": "Holdings - Holdings statement note - public"
+      "value": "Localisations - Note sur l'état des localisations - Public"
     }
   ],
   "ui-data-export.holdings.holdingsStatements.staffNote": [
     {
       "type": 0,
-      "value": "Holdings - Holdings statement note - staff"
+      "value": "Localisations - Note sur l'état des localisations - Personnel"
     }
   ],
   "ui-data-export.holdings.holdingsStatements.statement": [
     {
       "type": 0,
-      "value": "Holdings - Holdings statement"
+      "value": "Localisations - État des localisations"
     }
   ],
   "ui-data-export.holdings.holdingsStatementsForIndexes.note": [
     {
       "type": 0,
-      "value": "Holdings - Holdings statement for indexes note - public"
+      "value": "Localisations - Note sur l'état des localisations pour les index - Public"
     }
   ],
   "ui-data-export.holdings.holdingsStatementsForIndexes.staffNote": [
     {
       "type": 0,
-      "value": "Holdings - Holdings statement for indexes note - staff"
+      "value": "Localisations - Note sur l'état des localisations pour les index - Personnel"
     }
   ],
   "ui-data-export.holdings.holdingsStatementsForIndexes.statement": [
     {
       "type": 0,
-      "value": "Holdings - Holdings statement for indexes"
+      "value": "Localisations - État des localisations pour les index"
     }
   ],
   "ui-data-export.holdings.holdingsStatementsForSupplements.note": [
     {
       "type": 0,
-      "value": "Holdings - Holdings statement for supplements note - public"
+      "value": "Localisations - Note sur l'état des localisations pour les suppléments - Public"
     }
   ],
   "ui-data-export.holdings.holdingsStatementsForSupplements.staffNote": [
     {
       "type": 0,
-      "value": "Holdings - Holdings statement for supplements note - staff"
+      "value": "Localisations - Note sur l'état des localisations pour les suppléments - Personnel"
     }
   ],
   "ui-data-export.holdings.holdingsStatementsForSupplements.statement": [
     {
       "type": 0,
-      "value": "Holdings - Holdings statement for supplements"
+      "value": "Localisations - État des localisations pour les suppléments"
     }
   ],
   "ui-data-export.holdings.hrid": [
     {
       "type": 0,
-      "value": "Collections - HRID"
+      "value": "Localisations - HRID"
     }
   ],
   "ui-data-export.holdings.id": [
     {
       "type": 0,
-      "value": "Collections - ID"
+      "value": "Localisations - ID"
     }
   ],
   "ui-data-export.holdings.instanceId": [
     {
       "type": 0,
-      "value": "Collections - Instance - ID"
+      "value": "Localisations - Notice bibliographique - ID"
     }
   ],
   "ui-data-export.holdings.metadata.createdByUserId": [
     {
       "type": 0,
-      "value": "Collections - Créé par"
+      "value": "Localisations - Créé par"
     }
   ],
   "ui-data-export.holdings.metadata.createdDate": [
     {
       "type": 0,
-      "value": "Collections - Date de création"
+      "value": "Localisations - Date de création"
     }
   ],
   "ui-data-export.holdings.metadata.updatedByUserId": [
     {
       "type": 0,
-      "value": "Collections - mise à jour par"
+      "value": "Localisations - mise à jour par"
     }
   ],
   "ui-data-export.holdings.metadata.updatedDate": [
     {
       "type": 0,
-      "value": "Collections - Date mise à jour"
+      "value": "Localisations - Date mise à jour"
     }
   ],
   "ui-data-export.holdings.permanentLocation.campus.code": [
     {
       "type": 0,
-      "value": "Collections - Emplacement permanent - Campus - Code"
+      "value": "Localisations - Emplacement permanent - Campus - Code"
     }
   ],
   "ui-data-export.holdings.permanentLocation.campus.name": [
     {
       "type": 0,
-      "value": "Collections - Emplacement permanent - Campus"
+      "value": "Localisations - Emplacement permanent - Campus"
     }
   ],
   "ui-data-export.holdings.permanentLocation.code": [
     {
       "type": 0,
-      "value": "Collections - Emplacement permanent - Code"
+      "value": "Localisations - Emplacement permanent - Code"
     }
   ],
   "ui-data-export.holdings.permanentLocation.institution.code": [
     {
       "type": 0,
-      "value": "Holdings - Permanent location - Institution - Code"
+      "value": "Localisations - Emplacement permanent - Institution - Code"
     }
   ],
   "ui-data-export.holdings.permanentLocation.institution.name": [
     {
       "type": 0,
-      "value": "Collections - Emplacement permanent - Institution"
+      "value": "Localisations - Emplacement permanent - Institution"
     }
   ],
   "ui-data-export.holdings.permanentLocation.library.code": [
     {
       "type": 0,
-      "value": "Collections - Emplacement permanent - Bibliothèque - Code"
+      "value": "Localisations - Emplacement permanent - Bibliothèque - Code"
     }
   ],
   "ui-data-export.holdings.permanentLocation.library.name": [
     {
       "type": 0,
-      "value": "Collections - Emplacement permanent - Bibliothèque"
+      "value": "Localisations - Emplacement permanent - Bibliothèque"
     }
   ],
   "ui-data-export.holdings.permanentLocation.name": [
     {
       "type": 0,
-      "value": "Collections - Emplacement permanent"
+      "value": "Localisations - Emplacement permanent"
     }
   ],
   "ui-data-export.holdings.temporaryLocation.campus.code": [
     {
       "type": 0,
-      "value": "Collections - Emplacement temporaire - Campus - Code"
+      "value": "Localisations - Emplacement temporaire - Campus - Code"
     }
   ],
   "ui-data-export.holdings.temporaryLocation.campus.name": [
     {
       "type": 0,
-      "value": "Collections - Emplacement temporaire - Campus"
+      "value": "Localisations - Emplacement temporaire - Campus"
     }
   ],
   "ui-data-export.holdings.temporaryLocation.code": [
     {
       "type": 0,
-      "value": "Collections - Localisation temporaire - Code"
+      "value": "Localisations - Localisation temporaire - Code"
     }
   ],
   "ui-data-export.holdings.temporaryLocation.institution.code": [
     {
       "type": 0,
-      "value": "Collections - Emplacement temporaire - Institution - Code"
+      "value": "Localisations - Emplacement temporaire - Institution - Code"
     }
   ],
   "ui-data-export.holdings.temporaryLocation.institution.name": [
     {
       "type": 0,
-      "value": "Collections - Emplacement temporaire - Institution"
+      "value": "Localisations - Emplacement temporaire - Institution"
     }
   ],
   "ui-data-export.holdings.temporaryLocation.library.code": [
     {
       "type": 0,
-      "value": "Collections - Emplacement temporaire - Bibliothèque - Code"
+      "value": "Localisations - Emplacement temporaire - Bibliothèque - Code"
     }
   ],
   "ui-data-export.holdings.temporaryLocation.library.name": [
     {
       "type": 0,
-      "value": "Collections - Emplacement temporaire - Bibliothèque"
+      "value": "Localisations - Emplacement temporaire - Bibliothèque"
     }
   ],
   "ui-data-export.holdings.temporaryLocation.name": [
     {
       "type": 0,
-      "value": "Collections - Emplacement temporaire"
+      "value": "Localisations - Emplacement temporaire"
     }
   ],
   "ui-data-export.inProgressStatus": [
@@ -41526,7 +41526,7 @@
   "ui-data-export.instance.alternativeTitleTypeName": [
     {
       "type": 0,
-      "value": "Instance - Titre alternatif - "
+      "value": "Notice bibliographique - Titre alternatif - "
     },
     {
       "type": 1,
@@ -41546,7 +41546,7 @@
   "ui-data-export.instance.contributorName.primary": [
     {
       "type": 0,
-      "value": "Instance - Contributeur principal - "
+      "value": "Notice bibliographique - Contributeur principal - "
     },
     {
       "type": 1,
@@ -41576,7 +41576,7 @@
   "ui-data-export.instance.electronic.access.linkText.default": [
     {
       "type": 0,
-      "value": "Instance - Accès électronique - Texte du lien"
+      "value": "Notice bibliographique - Accès électronique - Texte du lien"
     }
   ],
   "ui-data-export.instance.electronic.access.materialsSpecification": [
@@ -41636,7 +41636,7 @@
   "ui-data-export.instance.electronic.access.uri.default": [
     {
       "type": 0,
-      "value": "Instance - Accès électronique - URI"
+      "value": "Notice bibliographique - Accès électronique - URI"
     }
   ],
   "ui-data-export.instance.hrid": [
@@ -41654,7 +41654,7 @@
   "ui-data-export.instance.identifiers": [
     {
       "type": 0,
-      "value": "Instance - Identifiant - "
+      "value": "Notice bibliographique - Identifiant - "
     },
     {
       "type": 1,
@@ -41664,7 +41664,7 @@
   "ui-data-export.instance.instanceTypeId": [
     {
       "type": 0,
-      "value": "Instance - Type de ressource - "
+      "value": "Notice bibliographique - Type de ressource - "
     },
     {
       "type": 1,
@@ -41674,7 +41674,7 @@
   "ui-data-export.instance.languages": [
     {
       "type": 0,
-      "value": "Instance - Langue"
+      "value": "Notice bibliographique - Langue"
     }
   ],
   "ui-data-export.instance.metadata.createdByUserId": [
@@ -41686,13 +41686,13 @@
   "ui-data-export.instance.metadata.createdDate": [
     {
       "type": 0,
-      "value": "Instance - Date de création"
+      "value": "Notice bibliographique - Date de création"
     }
   ],
   "ui-data-export.instance.metadata.updatedByUserId": [
     {
       "type": 0,
-      "value": "Instance - Mise à jour par"
+      "value": "Notice bibliographique - Mise à jour par"
     }
   ],
   "ui-data-export.instance.metadata.updatedDate": [
@@ -41704,7 +41704,7 @@
   "ui-data-export.instance.modeOfIssuanceId": [
     {
       "type": 0,
-      "value": "Instance - Mode d'émission - "
+      "value": "Notice bibliographique - Mode d'émission - "
     },
     {
       "type": 1,
@@ -41726,7 +41726,7 @@
   "ui-data-export.instance.title": [
     {
       "type": 0,
-      "value": "Instance - Titre de la ressource"
+      "value": "Notice bibliographique - Titre de la ressource"
     }
   ],
   "ui-data-export.item.barcode": [
@@ -41786,7 +41786,7 @@
   "ui-data-export.item.descriptionOfPieces": [
     {
       "type": 0,
-      "value": "Exemplaire - Description des pièces"
+      "value": "Exemplaire - Description d'unités"
     }
   ],
   "ui-data-export.item.effectiveLocation.campus.code": [
@@ -41926,7 +41926,7 @@
   "ui-data-export.item.holdingsRecordId": [
     {
       "type": 0,
-      "value": "Exemplaire - Identifiant collections"
+      "value": "Exemplaire - ID Localisations"
     }
   ],
   "ui-data-export.item.hrid": [
@@ -41998,7 +41998,7 @@
   "ui-data-export.item.numberOfPieces": [
     {
       "type": 0,
-      "value": "Exemplaire - Nombre de pièces"
+      "value": "Exemplaire - Nombre d'unités"
     }
   ],
   "ui-data-export.item.permanentLoanTypeId": [
@@ -61608,7 +61608,7 @@
   "ui-finance.appMenu.financeAppSearch": [
     {
       "type": 0,
-      "value": "Finance app Search"
+      "value": "Recherche dans Finances"
     }
   ],
   "ui-finance.budget.actions.load.error": [
@@ -63912,7 +63912,7 @@
   "ui-finance.ledger.rollover.rolloverBudgetValue.none": [
     {
       "type": 0,
-      "value": "None"
+      "value": "Aucun"
     }
   ],
   "ui-finance.ledger.rollover.rolloverTest": [
@@ -65035,7 +65035,7 @@
   "ui-finance.transaction.source.PoLine": [
     {
       "type": 0,
-      "value": "Ligne de commande"
+      "value": "Ligne de bon de commande"
     }
   ],
   "ui-finance.transaction.source.PoLine.number": [
@@ -74778,7 +74778,7 @@
   "ui-inventory.permission.consortia.inventory.share.local.instance": [
     {
       "type": 0,
-      "value": "Catalogue : Partager une notice locale avec un consortium"
+      "value": "Inventory: Share local instance with consortium"
     }
   ],
   "ui-inventory.permission.consortia.inventory.update-ownership.item.post": [
