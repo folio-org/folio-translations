@@ -55677,6 +55677,12 @@
       "value": "eHoldings: Puede ver proveedores, paquetes, detalles de títulos"
     }
   ],
+  "ui-eholdings.permission.app.view": [
+    {
+      "type": 0,
+      "value": "eHoldings: Can view providers, packages, titles detail records"
+    }
+  ],
   "ui-eholdings.permission.costperuse.view": [
     {
       "type": 0,
@@ -55687,6 +55693,12 @@
     {
       "type": 0,
       "value": "eRecursos: Puede seleccionar/anular la selección de paquetes y títulos hacia/desde sus participaciones"
+    }
+  ],
+  "ui-eholdings.permission.package-title.select-unselect.execute": [
+    {
+      "type": 0,
+      "value": "eHoldings: Can select/unselect packages and titles to/from your holdings"
     }
   ],
   "ui-eholdings.permission.records.edit": [
@@ -55771,6 +55783,12 @@
     {
       "type": 0,
       "value": "eRecursos: puede editar proveedores, paquetes, registros de detalles de títulos"
+    }
+  ],
+  "ui-eholdings.permission.titles-packages.create-delete.manage": [
+    {
+      "type": 0,
+      "value": "eHoldings: Can create and delete custom packages and titles"
     }
   ],
   "ui-eholdings.previous": [
@@ -66522,7 +66540,12 @@
       "value": "Configuración de la integración GOBI"
     }
   ],
-  "ui-handler-stripes-registry.meta.title": "Resource registry",
+  "ui-handler-stripes-registry.meta.title": [
+    {
+      "type": 0,
+      "value": "Resource registry"
+    }
+  ],
   "ui-inn-reach.action.after-click-add": [
     {
       "type": 0,
@@ -88594,6 +88617,12 @@
       "value": "Notas: Puede asignar y desasignar una nota"
     }
   ],
+  "ui-notes.permission.item.assign-unassign.execute": [
+    {
+      "type": 0,
+      "value": "Notes: Can assign and unassign a note"
+    }
+  ],
   "ui-notes.permission.item.create": [
     {
       "type": 0,
@@ -108315,6 +108344,12 @@
       "value": "quickMARC: Crear un nuevo registro de autoridad MARC"
     }
   ],
+  "ui-quick-marc.permission.quick-marc-authority-records.link-unlink.execute": [
+    {
+      "type": 0,
+      "value": "quickMARC: Can Link/unlink authority records to bib records"
+    }
+  ],
   "ui-quick-marc.permission.quick-marc-authority-records.linkUnlink": [
     {
       "type": 0,
@@ -108331,6 +108366,12 @@
     {
       "type": 0,
       "value": "Cargar registros bibliográficos MARC."
+    }
+  ],
+  "ui-quick-marc.permission.quick-marc-editor.derive.execute": [
+    {
+      "type": 0,
+      "value": "quickMARC: Derive new MARC bibliographic record"
     }
   ],
   "ui-quick-marc.permission.quick-marc-editor.duplicate": [
@@ -123254,6 +123295,18 @@
       "value": "Postfix"
     }
   ],
+  "ui-service-interaction.settings.numberGeneratorSequences.preChecksumTemplate": [
+    {
+      "type": 0,
+      "value": "Pre-checksum template"
+    }
+  ],
+  "ui-service-interaction.settings.numberGeneratorSequences.preChecksumTemplate.info": [
+    {
+      "type": 0,
+      "value": "The pre-checksum template defines the rules applied to create the number from which the checksum digit will be calculated. Templates are formed using Groovy. See below for more information."
+    }
+  ],
   "ui-service-interaction.settings.numberGeneratorSequences.prefix": [
     {
       "type": 0,
@@ -126973,7 +127026,7 @@
   "ui-users.actionMenu.preRegistrationRecords": [
     {
       "type": 0,
-      "value": "Search patron pre-registration records"
+      "value": "Search patron preregistration records"
     }
   ],
   "ui-users.actions": [
@@ -135418,7 +135471,7 @@
   "ui-users.stagingRecords.list.searchResults": [
     {
       "type": 0,
-      "value": "Patron pre-registration record results"
+      "value": "Patron preregistration record results"
     }
   ],
   "ui-users.stagingRecords.merge": [

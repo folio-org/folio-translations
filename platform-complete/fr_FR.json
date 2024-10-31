@@ -9155,7 +9155,7 @@
   "stripes-erm-components.contacts.linkUserToStart": [
     {
       "type": 0,
-      "value": "Liez un utilisateur pour commencer"
+      "value": "Lier un utilisateur pour commencer"
     }
   ],
   "stripes-erm-components.contacts.name": [
@@ -9349,37 +9349,37 @@
   "stripes-erm-components.customProperties.supplementaryProperty": [
     {
       "type": 0,
-      "value": "Propriétés complémentaires"
+      "value": "Critère supplémentaire"
     }
   ],
   "stripes-erm-components.customProperties.supplementaryProperty.add": [
     {
       "type": 0,
-      "value": "Ajouter une propriété"
+      "value": "Ajouter un critère"
     }
   ],
   "stripes-erm-components.customProperties.supplementaryProperty.edit": [
     {
       "type": 0,
-      "value": "Modifier la propriété complémentaire"
+      "value": "Modifier le critère supplémentaire"
     }
   ],
   "stripes-erm-components.customProperties.supplementaryProperty.lowercase": [
     {
       "type": 0,
-      "value": "propriété supplémentaire"
+      "value": "critère supplémentaire"
     }
   ],
   "stripes-erm-components.customProperties.supplementaryProperty.new": [
     {
       "type": 0,
-      "value": "Nouvelle propriété complémentaire"
+      "value": "Nouveau critère supplémentaire"
     }
   ],
   "stripes-erm-components.customProperties.supplementaryProperty.primary": [
     {
       "type": 0,
-      "value": "Propriété principale"
+      "value": "Critère principal"
     }
   ],
   "stripes-erm-components.customProperties.term": [
@@ -9491,25 +9491,25 @@
   "stripes-erm-components.customProperty.filters.supplementaryProperty.addCustomPropertyFilter": [
     {
       "type": 0,
-      "value": "Ajouter un filtre de propriété complémentaire"
+      "value": "Ajouter un filtre de critère supplémentaire"
     }
   ],
   "stripes-erm-components.customProperty.filters.supplementaryProperty.builder": [
     {
       "type": 0,
-      "value": "Générateur de filtres de propriétés complémentaires"
+      "value": "Générateur des filtres de critère supplémentaire"
     }
   ],
   "stripes-erm-components.customProperty.filters.supplementaryProperty.editCustomPropertyFilters": [
     {
       "type": 0,
-      "value": "Modifier les filtres de propriétés complémentaires"
+      "value": "Modifier les filtres de critère supplémentaire"
     }
   ],
   "stripes-erm-components.customProperty.filters.supplementaryProperty.filterIndex": [
     {
       "type": 0,
-      "value": "Filtre de propriété complémentaire "
+      "value": "Filtre de critère supplémentaire "
     },
     {
       "type": 1,
@@ -9533,7 +9533,7 @@
           "value": [
             {
               "type": 0,
-              "value": " filtre de propriété complémentaire "
+              "value": "filtre de critère supplémentaire appliqué"
             }
           ]
         },
@@ -9541,7 +9541,7 @@
           "value": [
             {
               "type": 0,
-              "value": " filtres de propriétés complémentaires "
+              "value": "filtres de critère supplémentaire appliqués"
             }
           ]
         }
@@ -9549,16 +9549,12 @@
       "pluralType": "cardinal",
       "type": 6,
       "value": "count"
-    },
-    {
-      "type": 0,
-      "value": " appliqué"
     }
   ],
   "stripes-erm-components.customProperty.filters.supplementaryProperty.removeFilter": [
     {
       "type": 0,
-      "value": "Supprimer le filtre de propriété complémentaire"
+      "value": "Supprimer le filtre de critère supplémentaire "
     },
     {
       "type": 1,
@@ -9689,7 +9685,7 @@
           "value": [
             {
               "type": 0,
-              "value": "none"
+              "value": "aucun"
             }
           ]
         },
@@ -9697,7 +9693,7 @@
           "value": [
             {
               "type": 0,
-              "value": "propriété complémentaire"
+              "value": "critère supplémentaire"
             }
           ]
         },
@@ -9717,19 +9713,19 @@
   "stripes-erm-components.customProperty.supplementaryProperty": [
     {
       "type": 0,
-      "value": "Propriété complémentaire"
+      "value": "Critère supplémentaire"
     }
   ],
   "stripes-erm-components.customProperty.supplementaryProperty.plural": [
     {
       "type": 0,
-      "value": "Propriétés complémentaires"
+      "value": "Critères supplémentaires"
     }
   ],
   "stripes-erm-components.customProperty.supplementaryPropertyTitle": [
     {
       "type": 0,
-      "value": "Propriété "
+      "value": "Critère "
     },
     {
       "type": 1,
@@ -9773,13 +9769,13 @@
   "stripes-erm-components.dateFilter.activeFrom": [
     {
       "type": 0,
-      "value": "Active from"
+      "value": "Date de début"
     }
   ],
   "stripes-erm-components.dateFilter.activeTo": [
     {
       "type": 0,
-      "value": "Active to"
+      "value": "Date de fin"
     }
   ],
   "stripes-erm-components.dateFilter.cancellationDeadline": [
@@ -9791,7 +9787,7 @@
   "stripes-erm-components.dateFilter.cancellationDeadlineNotSet": [
     {
       "type": 0,
-      "value": "Include "
+      "value": "Inclure "
     },
     {
       "type": 1,
@@ -9799,7 +9795,7 @@
     },
     {
       "type": 0,
-      "value": " with no cancellation deadline set"
+      "value": " sans date limite d'annulation définie"
     }
   ],
   "stripes-erm-components.dateFilter.endDate": [
@@ -10106,13 +10102,13 @@
   "stripes-erm-components.documentFilter.supplementaryDocumentFilterBuilder": [
     {
       "type": 0,
-      "value": "Supplementary document filter builder"
+      "value": "Générateur des filtres de document complémentaire"
     }
   ],
   "stripes-erm-components.documentFilter.supplementaryDocuments": [
     {
       "type": 0,
-      "value": "Supplementary documents"
+      "value": "Documents complémentaires"
     }
   ],
   "stripes-erm-components.duplicateModal.errors.systemAdministrator": [
@@ -10635,7 +10631,7 @@
           "value": [
             {
               "type": 0,
-              "value": " mot-clé "
+              "value": "Mot-clé"
             }
           ]
         },
@@ -10643,7 +10639,7 @@
           "value": [
             {
               "type": 0,
-              "value": " mots-clés "
+              "value": "Mots-clés"
             }
           ]
         }
@@ -10774,7 +10770,7 @@
       "children": [
         {
           "type": 0,
-          "value": " Erreur : "
+          "value": "Erreur :"
         }
       ],
       "type": 8,
@@ -10782,7 +10778,7 @@
     },
     {
       "type": 0,
-      "value": " organisation \" "
+      "value": " l'organisation \""
     },
     {
       "type": 1,
@@ -10790,7 +10786,7 @@
     },
     {
       "type": 0,
-      "value": " \" n'a pas été associée car elle l'est déjà."
+      "value": "\" n'a pas été associée car elle l'est déjà."
     }
   ],
   "stripes-erm-components.organizations.linkOrganization": [
@@ -11008,13 +11004,13 @@
   "stripes-erm-components.supplementaryProperty.help.label": [
     {
       "type": 0,
-      "value": "Une \"étiquette\" de terme d'accord est utilisée lors de l'affichage de la propriété supplémentaire aux utilisateurs dans Folio et dans tout autre système qui affiche les propriétés supplémentaires de l'accord aux utilisateurs. Il doit s'agir d'un texte court qui communique clairement les informations enregistrées dans la propriété supplémentaire. La description doit être utilisée lorsqu'une explication supplémentaire est requise pour l'affichage aux utilisateurs."
+      "value": "Un terme d'accord \"étiquette\" est utilisé lors de l'affichage du critère supplémentaire aux utilisateurs dans Folio et dans tout autre système qui affiche les critères supplémentaires de l'accord aux utilisateurs. Il doit s'agir d'un texte court qui communique clairement les informations enregistrées dans le critère supplémentaire. La description doit être utilisée lorsqu'une explication supplémentaire est requise pour l'affichage aux utilisateurs."
     }
   ],
   "stripes-erm-components.supplementaryProperty.help.name": [
     {
       "type": 0,
-      "value": "Un terme d'accord \"nom\" est utilisé lors de l'édition des données propriétaires supplémentaires dans un format lisible par machine. Il n'est pas destiné à être accessible aux utilisateurs (personnel ou usagers). Il doit s'agir d'une chaîne courte de caractères en alphabet latin qui peut être utilisée par tous les systèmes ou programmes externes qui accèdent aux données propriétaires complémentaires de l'accord. L'utilisation de camelCase est suggérée mais pas obligatoire. Les modifications apportées au nom propriétaire supplémentaire de l'accord auront une incidence sur tous les systèmes externes qui utilisent les données propriétaire supplémentaire de l'accord et les modifications ne doivent pas être effectuées sans consulter les responsables des systèmes et logiciels externes concernés."
+      "value": "Un terme d'accord \"nom\" est utilisé lors de l'édition des données de critères supplémentaires dans un format lisible par machine. Il n'est pas destiné à être accessible aux utilisateurs (personnel ou usagers). Il doit s'agir d'une chaîne de caractères courte en alphabet latin qui peut être utilisée par tous les systèmes ou programmes externes qui accèdent aux données de critères supplémentaires de l'accord. L'utilisation de camelCase est suggérée mais n'est pas obligatoire. Les modifications apportées aux noms des critères supplémentaires de l'accord auront une incidence sur tous les systèmes externes qui utilisent les données des critères supplémentaires de l'accord et les modifications ne doivent pas être effectuées sans consulter les responsables des systèmes et logiciels externes concernés."
     }
   ],
   "stripes-erm-components.tags": [
@@ -11032,7 +11028,7 @@
   "stripes-erm-components.term.help.name": [
     {
       "type": 0,
-      "value": "Un \"nom\" de terme de licence est utilisé lors de la sortie des données du terme dans un format lisible par machine. Il n'est pas destiné à être affiché aux utilisateurs (personnel ou utilisateurs). Il doit s'agir d'une courte chaîne d'alphabet latin qui peut être utilisée par tous les systèmes ou programmes externes accédant aux données du terme de licence. L'utilisation de camelCase est suggérée mais non requise. Les modifications apportées au nom du terme de licence affectent tous les systèmes externes utilisant des données de terme de licence et ne doivent pas être apportées sans consulter les responsables des systèmes et logiciels externes pertinents."
+      "value": "Un \"nom\" de terme de licence est utilisé lors de la sortie des données du terme dans un format lisible par machine. Il n'est pas destiné à être affiché aux utilisateurs (personnel ou usagers). Il doit s'agir d'une courte chaîne de caractères en alphabet latin qui peut être utilisée par tous les systèmes ou programmes externes accédant aux données du terme de licence. L'utilisation de camelCase est suggérée mais non requise. Les modifications apportées au nom du terme de licence affectent tous les systèmes externes utilisant des données de terme de licence et ne doivent pas être apportées sans consulter les responsables des systèmes et logiciels externes pertinents."
     }
   ],
   "stripes-erm-components.title": [
@@ -55503,6 +55499,12 @@
       "value": "eHoldings : peut afficher les fournisseurs, les bouquets, les notices de détails des titres"
     }
   ],
+  "ui-eholdings.permission.app.view": [
+    {
+      "type": 0,
+      "value": "eHoldings: Can view providers, packages, titles detail records"
+    }
+  ],
   "ui-eholdings.permission.costperuse.view": [
     {
       "type": 0,
@@ -55513,6 +55515,12 @@
     {
       "type": 0,
       "value": "eHoldings : peut (dé)sélectionner des bouquets et des titres de/vers vos localisations"
+    }
+  ],
+  "ui-eholdings.permission.package-title.select-unselect.execute": [
+    {
+      "type": 0,
+      "value": "eHoldings: Can select/unselect packages and titles to/from your holdings"
     }
   ],
   "ui-eholdings.permission.records.edit": [
@@ -55597,6 +55605,12 @@
     {
       "type": 0,
       "value": "eHoldings : peut créer et supprimer des bouquets et des titres personnalisés"
+    }
+  ],
+  "ui-eholdings.permission.titles-packages.create-delete.manage": [
+    {
+      "type": 0,
+      "value": "eHoldings: Can create and delete custom packages and titles"
     }
   ],
   "ui-eholdings.previous": [
@@ -66312,7 +66326,12 @@
       "value": "GOBI Integration settings"
     }
   ],
-  "ui-handler-stripes-registry.meta.title": "Resource registry",
+  "ui-handler-stripes-registry.meta.title": [
+    {
+      "type": 0,
+      "value": "Resource registry"
+    }
+  ],
   "ui-inn-reach.action.after-click-add": [
     {
       "type": 0,
@@ -88436,6 +88455,12 @@
       "value": "Notes: peut affecter et annuler l'attribution d'une note"
     }
   ],
+  "ui-notes.permission.item.assign-unassign.execute": [
+    {
+      "type": 0,
+      "value": "Notes: Can assign and unassign a note"
+    }
+  ],
   "ui-notes.permission.item.create": [
     {
       "type": 0,
@@ -108045,6 +108070,12 @@
       "value": "quickMARC: Create a new MARC authority record"
     }
   ],
+  "ui-quick-marc.permission.quick-marc-authority-records.link-unlink.execute": [
+    {
+      "type": 0,
+      "value": "quickMARC: Can Link/unlink authority records to bib records"
+    }
+  ],
   "ui-quick-marc.permission.quick-marc-authority-records.linkUnlink": [
     {
       "type": 0,
@@ -108061,6 +108092,12 @@
     {
       "type": 0,
       "value": "quickMARC: Create a new MARC bibliographic record"
+    }
+  ],
+  "ui-quick-marc.permission.quick-marc-editor.derive.execute": [
+    {
+      "type": 0,
+      "value": "quickMARC: Derive new MARC bibliographic record"
     }
   ],
   "ui-quick-marc.permission.quick-marc-editor.duplicate": [
@@ -122998,6 +123035,18 @@
       "value": "Postfix"
     }
   ],
+  "ui-service-interaction.settings.numberGeneratorSequences.preChecksumTemplate": [
+    {
+      "type": 0,
+      "value": "Pre-checksum template"
+    }
+  ],
+  "ui-service-interaction.settings.numberGeneratorSequences.preChecksumTemplate.info": [
+    {
+      "type": 0,
+      "value": "The pre-checksum template defines the rules applied to create the number from which the checksum digit will be calculated. Templates are formed using Groovy. See below for more information."
+    }
+  ],
   "ui-service-interaction.settings.numberGeneratorSequences.prefix": [
     {
       "type": 0,
@@ -126715,7 +126764,7 @@
   "ui-users.actionMenu.preRegistrationRecords": [
     {
       "type": 0,
-      "value": "Search patron pre-registration records"
+      "value": "Search patron preregistration records"
     }
   ],
   "ui-users.actions": [
@@ -135326,7 +135375,7 @@
   "ui-users.stagingRecords.list.searchResults": [
     {
       "type": 0,
-      "value": "Patron pre-registration record results"
+      "value": "Patron preregistration record results"
     }
   ],
   "ui-users.stagingRecords.merge": [

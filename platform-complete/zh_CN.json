@@ -10258,25 +10258,25 @@
   "stripes-erm-components.errors.errorCard.defaultErrorHeader": [
     {
       "type": 0,
-      "value": "Error"
+      "value": "错误"
     }
   ],
   "stripes-erm-components.errors.errorCard.defaultTitle": [
     {
       "type": 0,
-      "value": "Something went wrong."
+      "value": "出了些问题。"
     }
   ],
   "stripes-erm-components.errors.errorCard.text": [
     {
       "type": 0,
-      "value": "Refresh the page. If the problem persists contact your administrator."
+      "value": "刷新页面。如果问题仍然存在，请联系管理员。"
     }
   ],
   "stripes-erm-components.errors.errorCard.title": [
     {
       "type": 0,
-      "value": "Error "
+      "value": "错误"
     },
     {
       "type": 1,
@@ -10284,7 +10284,7 @@
     },
     {
       "type": 0,
-      "value": ": "
+      "value": " ： "
     },
     {
       "type": 1,
@@ -56801,6 +56801,12 @@
       "value": "电子馆藏：可以查看提供者、资源包、标题详细记录"
     }
   ],
+  "ui-eholdings.permission.app.view": [
+    {
+      "type": 0,
+      "value": "eHoldings: Can view providers, packages, titles detail records"
+    }
+  ],
   "ui-eholdings.permission.costperuse.view": [
     {
       "type": 0,
@@ -56811,6 +56817,12 @@
     {
       "type": 0,
       "value": "电子馆藏：可以从馆藏中选择/取消选择资源包和标题"
+    }
+  ],
+  "ui-eholdings.permission.package-title.select-unselect.execute": [
+    {
+      "type": 0,
+      "value": "eHoldings: Can select/unselect packages and titles to/from your holdings"
     }
   ],
   "ui-eholdings.permission.records.edit": [
@@ -56895,6 +56907,12 @@
     {
       "type": 0,
       "value": "电子馆藏：可以创建和删除自定义资源包和标题"
+    }
+  ],
+  "ui-eholdings.permission.titles-packages.create-delete.manage": [
+    {
+      "type": 0,
+      "value": "eHoldings: Can create and delete custom packages and titles"
     }
   ],
   "ui-eholdings.previous": [
@@ -67922,7 +67940,12 @@
       "value": "GOBI 集成设置"
     }
   ],
-  "ui-handler-stripes-registry.meta.title": "资源注册",
+  "ui-handler-stripes-registry.meta.title": [
+    {
+      "type": 0,
+      "value": "资源注册"
+    }
+  ],
   "ui-inn-reach.action.after-click-add": [
     {
       "type": 0,
@@ -91046,6 +91069,12 @@
       "value": "附注：可以分配和取消分配附注"
     }
   ],
+  "ui-notes.permission.item.assign-unassign.execute": [
+    {
+      "type": 0,
+      "value": "Notes: Can assign and unassign a note"
+    }
+  ],
   "ui-notes.permission.item.create": [
     {
       "type": 0,
@@ -110870,6 +110899,12 @@
       "value": "QuickMARC：创建新的MARC规范记录"
     }
   ],
+  "ui-quick-marc.permission.quick-marc-authority-records.link-unlink.execute": [
+    {
+      "type": 0,
+      "value": "quickMARC: Can Link/unlink authority records to bib records"
+    }
+  ],
   "ui-quick-marc.permission.quick-marc-authority-records.linkUnlink": [
     {
       "type": 0,
@@ -110886,6 +110921,12 @@
     {
       "type": 0,
       "value": "quickMARC：创建新的MARC书目记录"
+    }
+  ],
+  "ui-quick-marc.permission.quick-marc-editor.derive.execute": [
+    {
+      "type": 0,
+      "value": "quickMARC: Derive new MARC bibliographic record"
     }
   ],
   "ui-quick-marc.permission.quick-marc-editor.duplicate": [
@@ -126257,6 +126298,18 @@
       "value": "后缀"
     }
   ],
+  "ui-service-interaction.settings.numberGeneratorSequences.preChecksumTemplate": [
+    {
+      "type": 0,
+      "value": "Pre-checksum template"
+    }
+  ],
+  "ui-service-interaction.settings.numberGeneratorSequences.preChecksumTemplate.info": [
+    {
+      "type": 0,
+      "value": "The pre-checksum template defines the rules applied to create the number from which the checksum digit will be calculated. Templates are formed using Groovy. See below for more information."
+    }
+  ],
   "ui-service-interaction.settings.numberGeneratorSequences.prefix": [
     {
       "type": 0,
@@ -130130,7 +130183,7 @@
   "ui-users.actionMenu.preRegistrationRecords": [
     {
       "type": 0,
-      "value": "Search patron pre-registration records"
+      "value": "Search patron preregistration records"
     }
   ],
   "ui-users.actions": [
@@ -138911,7 +138964,7 @@
   "ui-users.stagingRecords.list.searchResults": [
     {
       "type": 0,
-      "value": "Patron pre-registration record results"
+      "value": "Patron preregistration record results"
     }
   ],
   "ui-users.stagingRecords.merge": [

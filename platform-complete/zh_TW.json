@@ -56113,6 +56113,12 @@
       "value": "電子館藏：可以檢視供應商、資源包、題名詳細記錄"
     }
   ],
+  "ui-eholdings.permission.app.view": [
+    {
+      "type": 0,
+      "value": "eHoldings: Can view providers, packages, titles detail records"
+    }
+  ],
   "ui-eholdings.permission.costperuse.view": [
     {
       "type": 0,
@@ -56123,6 +56129,12 @@
     {
       "type": 0,
       "value": "電子館藏：可以從館藏中選擇/取消選擇資源包和題名"
+    }
+  ],
+  "ui-eholdings.permission.package-title.select-unselect.execute": [
+    {
+      "type": 0,
+      "value": "eHoldings: Can select/unselect packages and titles to/from your holdings"
     }
   ],
   "ui-eholdings.permission.records.edit": [
@@ -56207,6 +56219,12 @@
     {
       "type": 0,
       "value": "電子館藏：可以建立和刪除自訂的資源包和題名"
+    }
+  ],
+  "ui-eholdings.permission.titles-packages.create-delete.manage": [
+    {
+      "type": 0,
+      "value": "eHoldings: Can create and delete custom packages and titles"
     }
   ],
   "ui-eholdings.previous": [
@@ -67166,7 +67184,12 @@
       "value": "GOBI 整合設定"
     }
   ],
-  "ui-handler-stripes-registry.meta.title": "資源設定",
+  "ui-handler-stripes-registry.meta.title": [
+    {
+      "type": 0,
+      "value": "資源設定"
+    }
+  ],
   "ui-inn-reach.action.after-click-add": [
     {
       "type": 0,
@@ -90141,6 +90164,12 @@
       "value": "附註：可以指派和取消指派附註"
     }
   ],
+  "ui-notes.permission.item.assign-unassign.execute": [
+    {
+      "type": 0,
+      "value": "Notes: Can assign and unassign a note"
+    }
+  ],
   "ui-notes.permission.item.create": [
     {
       "type": 0,
@@ -109993,6 +110022,12 @@
       "value": "quickMARC：建立新的 MARC 權威紀錄"
     }
   ],
+  "ui-quick-marc.permission.quick-marc-authority-records.link-unlink.execute": [
+    {
+      "type": 0,
+      "value": "quickMARC: Can Link/unlink authority records to bib records"
+    }
+  ],
   "ui-quick-marc.permission.quick-marc-authority-records.linkUnlink": [
     {
       "type": 0,
@@ -110009,6 +110044,12 @@
     {
       "type": 0,
       "value": "quickMARC：建立新的 MARC 書目紀錄"
+    }
+  ],
+  "ui-quick-marc.permission.quick-marc-editor.derive.execute": [
+    {
+      "type": 0,
+      "value": "quickMARC: Derive new MARC bibliographic record"
     }
   ],
   "ui-quick-marc.permission.quick-marc-editor.duplicate": [
@@ -125314,6 +125355,18 @@
       "value": "後綴"
     }
   ],
+  "ui-service-interaction.settings.numberGeneratorSequences.preChecksumTemplate": [
+    {
+      "type": 0,
+      "value": "Pre-checksum template"
+    }
+  ],
+  "ui-service-interaction.settings.numberGeneratorSequences.preChecksumTemplate.info": [
+    {
+      "type": 0,
+      "value": "The pre-checksum template defines the rules applied to create the number from which the checksum digit will be calculated. Templates are formed using Groovy. See below for more information."
+    }
+  ],
   "ui-service-interaction.settings.numberGeneratorSequences.prefix": [
     {
       "type": 0,
@@ -129175,7 +129228,7 @@
   "ui-users.actionMenu.preRegistrationRecords": [
     {
       "type": 0,
-      "value": "Search patron pre-registration records"
+      "value": "Search patron preregistration records"
     }
   ],
   "ui-users.actions": [
@@ -137996,7 +138049,7 @@
   "ui-users.stagingRecords.list.searchResults": [
     {
       "type": 0,
-      "value": "Patron pre-registration record results"
+      "value": "Patron preregistration record results"
     }
   ],
   "ui-users.stagingRecords.merge": [

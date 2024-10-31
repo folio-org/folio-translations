@@ -55812,6 +55812,12 @@
       "value": "UI: 電子所蔵モジュールを有効にする"
     }
   ],
+  "ui-eholdings.permission.app.view": [
+    {
+      "type": 0,
+      "value": "eHoldings: Can view providers, packages, titles detail records"
+    }
+  ],
   "ui-eholdings.permission.costperuse.view": [
     {
       "type": 0,
@@ -55822,6 +55828,12 @@
     {
       "type": 0,
       "value": "電子所蔵：所蔵パッケージとタイトルを選択/選択解除できます"
+    }
+  ],
+  "ui-eholdings.permission.package-title.select-unselect.execute": [
+    {
+      "type": 0,
+      "value": "eHoldings: Can select/unselect packages and titles to/from your holdings"
     }
   ],
   "ui-eholdings.permission.records.edit": [
@@ -55906,6 +55918,12 @@
     {
       "type": 0,
       "value": "電子所蔵：カスタムパッケージとタイトルを作成および削除できます"
+    }
+  ],
+  "ui-eholdings.permission.titles-packages.create-delete.manage": [
+    {
+      "type": 0,
+      "value": "eHoldings: Can create and delete custom packages and titles"
     }
   ],
   "ui-eholdings.previous": [
@@ -66725,7 +66743,12 @@
       "value": "GOBI Integration settings"
     }
   ],
-  "ui-handler-stripes-registry.meta.title": "Resource registry",
+  "ui-handler-stripes-registry.meta.title": [
+    {
+      "type": 0,
+      "value": "Resource registry"
+    }
+  ],
   "ui-inn-reach.action.after-click-add": [
     {
       "type": 0,
@@ -89381,6 +89404,12 @@
       "value": "ノート: ノートの割り当て、解除ができます"
     }
   ],
+  "ui-notes.permission.item.assign-unassign.execute": [
+    {
+      "type": 0,
+      "value": "Notes: Can assign and unassign a note"
+    }
+  ],
   "ui-notes.permission.item.create": [
     {
       "type": 0,
@@ -106355,7 +106384,7 @@
   "ui-plugin-find-contact.contact.status.inactive": [
     {
       "type": 0,
-      "value": "非アクティブ"
+      "value": "無効"
     }
   ],
   "ui-plugin-find-contact.meta.pluginTitle": [
@@ -106379,7 +106408,7 @@
   "ui-plugin-find-contact.totalSelected": [
     {
       "type": 0,
-      "value": "Total selected: "
+      "value": "選択済合計:  "
     },
     {
       "type": 1,
@@ -109120,6 +109149,12 @@
       "value": "quickMARC: Create a new MARC authority record"
     }
   ],
+  "ui-quick-marc.permission.quick-marc-authority-records.link-unlink.execute": [
+    {
+      "type": 0,
+      "value": "quickMARC: Can Link/unlink authority records to bib records"
+    }
+  ],
   "ui-quick-marc.permission.quick-marc-authority-records.linkUnlink": [
     {
       "type": 0,
@@ -109136,6 +109171,12 @@
     {
       "type": 0,
       "value": "quickMARC: 新しい MARC 書誌レコードを作成する"
+    }
+  ],
+  "ui-quick-marc.permission.quick-marc-editor.derive.execute": [
+    {
+      "type": 0,
+      "value": "quickMARC: Derive new MARC bibliographic record"
     }
   ],
   "ui-quick-marc.permission.quick-marc-editor.duplicate": [
@@ -124121,6 +124162,18 @@
       "value": "Postfix"
     }
   ],
+  "ui-service-interaction.settings.numberGeneratorSequences.preChecksumTemplate": [
+    {
+      "type": 0,
+      "value": "Pre-checksum template"
+    }
+  ],
+  "ui-service-interaction.settings.numberGeneratorSequences.preChecksumTemplate.info": [
+    {
+      "type": 0,
+      "value": "The pre-checksum template defines the rules applied to create the number from which the checksum digit will be calculated. Templates are formed using Groovy. See below for more information."
+    }
+  ],
   "ui-service-interaction.settings.numberGeneratorSequences.prefix": [
     {
       "type": 0,
@@ -126734,7 +126787,7 @@
   "ui-users.accounts.comment.field.comment": [
     {
       "type": 0,
-      "value": "Additional information for staff"
+      "value": "スタッフ向け追加情報"
     }
   ],
   "ui-users.accounts.comment.field.feeFineComment": [
@@ -126870,7 +126923,7 @@
   "ui-users.accounts.error.comment": [
     {
       "type": 0,
-      "value": "Additional information for staff is required"
+      "value": "スタッフ向けの追加情報が必要です"
     }
   ],
   "ui-users.accounts.error.exceeds": [
@@ -127974,7 +128027,7 @@
   "ui-users.actionMenu.preRegistrationRecords": [
     {
       "type": 0,
-      "value": "Search patron pre-registration records"
+      "value": "Search patron preregistration records"
     }
   ],
   "ui-users.actions": [
@@ -128932,7 +128985,7 @@
   "ui-users.charge.comment": [
     {
       "type": 0,
-      "value": "Additional information for staff"
+      "value": "スタッフ向け追加情報"
     }
   ],
   "ui-users.charge.comment.label": [
@@ -129359,7 +129412,7 @@
   "ui-users.data.contactTypes.textMessage": [
     {
       "type": 0,
-      "value": "Text Message"
+      "value": "テキストメッセージ"
     }
   ],
   "ui-users.data.loanActionMap.checkedIn": [
@@ -129587,7 +129640,7 @@
   "ui-users.details.columns.comments": [
     {
       "type": 0,
-      "value": "Additional information"
+      "value": "追加情報"
     }
   ],
   "ui-users.details.columns.created": [
@@ -136679,7 +136732,7 @@
   "ui-users.stagingRecords.list.searchResults": [
     {
       "type": 0,
-      "value": "Patron pre-registration record results"
+      "value": "Patron preregistration record results"
     }
   ],
   "ui-users.stagingRecords.merge": [

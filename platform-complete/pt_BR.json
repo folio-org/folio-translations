@@ -10492,7 +10492,7 @@
   "stripes-erm-components.licenseCard.primaryOrg": [
     {
       "type": 0,
-      "value": "Organização primária"
+      "value": "Organização principal"
     }
   ],
   "stripes-erm-components.licenseCard.startDate": [
@@ -10874,7 +10874,7 @@
   "stripes-erm-components.organizations.setAsPrimary": [
     {
       "type": 0,
-      "value": "Definir como organização primária"
+      "value": "Definir como organização principal"
     }
   ],
   "stripes-erm-components.package": [
@@ -55863,6 +55863,12 @@
       "value": "Coleção eletrônica: Pode visualizar fornecedores, pacotes, registros detalhados de títulos"
     }
   ],
+  "ui-eholdings.permission.app.view": [
+    {
+      "type": 0,
+      "value": "eHoldings: Can view providers, packages, titles detail records"
+    }
+  ],
   "ui-eholdings.permission.costperuse.view": [
     {
       "type": 0,
@@ -55873,6 +55879,12 @@
     {
       "type": 0,
       "value": "Coleção eletrônica: Pode selecionar/desmarcar pacotes e títulos de/para sua coleção"
+    }
+  ],
+  "ui-eholdings.permission.package-title.select-unselect.execute": [
+    {
+      "type": 0,
+      "value": "eHoldings: Can select/unselect packages and titles to/from your holdings"
     }
   ],
   "ui-eholdings.permission.records.edit": [
@@ -55957,6 +55969,12 @@
     {
       "type": 0,
       "value": "Coleção eletrônica: Pode criar e excluir pacotes e títulos personalizados"
+    }
+  ],
+  "ui-eholdings.permission.titles-packages.create-delete.manage": [
+    {
+      "type": 0,
+      "value": "eHoldings: Can create and delete custom packages and titles"
     }
   ],
   "ui-eholdings.previous": [
@@ -66742,7 +66760,12 @@
       "value": "Configurações de integração GOBI"
     }
   ],
-  "ui-handler-stripes-registry.meta.title": "Registro de recurso",
+  "ui-handler-stripes-registry.meta.title": [
+    {
+      "type": 0,
+      "value": "Registro de recurso"
+    }
+  ],
   "ui-inn-reach.action.after-click-add": [
     {
       "type": 0,
@@ -89012,6 +89035,12 @@
       "value": "Notas: Pode atribuir e desatribuir uma nota"
     }
   ],
+  "ui-notes.permission.item.assign-unassign.execute": [
+    {
+      "type": 0,
+      "value": "Notes: Can assign and unassign a note"
+    }
+  ],
   "ui-notes.permission.item.create": [
     {
       "type": 0,
@@ -108841,6 +108870,12 @@
       "value": "quickMARC: Criar um novo registro de autoridade MARC"
     }
   ],
+  "ui-quick-marc.permission.quick-marc-authority-records.link-unlink.execute": [
+    {
+      "type": 0,
+      "value": "quickMARC: Can Link/unlink authority records to bib records"
+    }
+  ],
   "ui-quick-marc.permission.quick-marc-authority-records.linkUnlink": [
     {
       "type": 0,
@@ -108857,6 +108892,12 @@
     {
       "type": 0,
       "value": "quickMARC: Criar um novo registro MARC bibliográfico"
+    }
+  ],
+  "ui-quick-marc.permission.quick-marc-editor.derive.execute": [
+    {
+      "type": 0,
+      "value": "quickMARC: Derive new MARC bibliographic record"
     }
   ],
   "ui-quick-marc.permission.quick-marc-editor.duplicate": [
@@ -123982,6 +124023,18 @@
       "value": "Sufixo"
     }
   ],
+  "ui-service-interaction.settings.numberGeneratorSequences.preChecksumTemplate": [
+    {
+      "type": 0,
+      "value": "Pre-checksum template"
+    }
+  ],
+  "ui-service-interaction.settings.numberGeneratorSequences.preChecksumTemplate.info": [
+    {
+      "type": 0,
+      "value": "The pre-checksum template defines the rules applied to create the number from which the checksum digit will be calculated. Templates are formed using Groovy. See below for more information."
+    }
+  ],
   "ui-service-interaction.settings.numberGeneratorSequences.prefix": [
     {
       "type": 0,
@@ -136510,7 +136563,7 @@
   "ui-users.stagingRecords.message.noAccessToStagingRecordsPage": [
     {
       "type": 0,
-      "value": "User does not have permission to access \"Patron preregistration record results\" page"
+      "value": "O operador não tem permissão para acessar a página \"Resultado do registro de pré-cadastro de usuários\""
     }
   ],
   "ui-users.stagingRecords.notActivated": [
@@ -136522,7 +136575,7 @@
   "ui-users.stagingRecords.notLoadedMessage": [
     {
       "type": 0,
-      "value": "Enter a search query to show results."
+      "value": "Digite uma expressão de busca para mostrar os resultados."
     }
   ],
   "ui-users.stagingRecords.search.label": [
