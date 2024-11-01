@@ -34559,6 +34559,18 @@
       "value": "Should not begin with a space"
     }
   ],
+  "ui-claims.meta.title": [
+    {
+      "type": 0,
+      "value": "Claiming"
+    }
+  ],
+  "ui-claims.permission.claiming.view": [
+    {
+      "type": 0,
+      "value": "Claims: View claiming"
+    }
+  ],
   "ui-consortia-settings.affiliation.primary.suffix": [
     {
       "type": 0,
@@ -94512,6 +94524,12 @@
     {
       "type": 0,
       "value": "홀딩 또는 위치 참조가 제시되어야 합니다."
+    }
+  ],
+  "ui-orders.errors.locationUpdateWithoutAffiliation": [
+    {
+      "type": 0,
+      "value": "POL could not be saved. This record has location affiliations that your user does not have. These affiliations must be removed or the operation must be performed by a user who has the same affiliations as the record."
     }
   ],
   "ui-orders.errors.materialTypeRequired": [

@@ -34267,6 +34267,18 @@
       "value": "Should not begin with a space"
     }
   ],
+  "ui-claims.meta.title": [
+    {
+      "type": 0,
+      "value": "Claiming"
+    }
+  ],
+  "ui-claims.permission.claiming.view": [
+    {
+      "type": 0,
+      "value": "Claims: View claiming"
+    }
+  ],
   "ui-consortia-settings.affiliation.primary.suffix": [
     {
       "type": 0,
@@ -93920,6 +93932,12 @@
       "value": "Une référence de localisation ou d'emplacement doit être présente"
     }
   ],
+  "ui-orders.errors.locationUpdateWithoutAffiliation": [
+    {
+      "type": 0,
+      "value": "POL could not be saved. This record has location affiliations that your user does not have. These affiliations must be removed or the operation must be performed by a user who has the same affiliations as the record."
+    }
+  ],
   "ui-orders.errors.materialTypeRequired": [
     {
       "type": 0,
@@ -115914,7 +115932,7 @@
   "ui-remote-storage.accession-workflow.error.undefined": [
     {
       "type": 0,
-      "value": "Accession holdings workflow preference must be selected to save configuration"
+      "value": "Une préférence de workflow Acquisitions des localisations doit être sélectionnée pour enregistrer la configuration"
     }
   ],
   "ui-remote-storage.accession-workflow.option.change": [
@@ -115926,19 +115944,19 @@
   "ui-remote-storage.accession-workflow.option.duplicate": [
     {
       "type": 0,
-      "value": "Dupliquer les collections"
+      "value": "Dupliquer les localisations"
     }
   ],
   "ui-remote-storage.accession-workflow.title": [
     {
       "type": 0,
-      "value": "Préférence de workflow d'accès aux collections"
+      "value": "Préférence de workflow Acquisitions des localisations"
     }
   ],
   "ui-remote-storage.accession-workflow.tooltip": [
     {
       "type": 0,
-      "value": "Choisissez le flux approprié pour les collections"
+      "value": "Choisissez le workflow Acquisitions approprié pour les localisations"
     }
   ],
   "ui-remote-storage.cannotDeleteModal.header": [
@@ -116046,7 +116064,7 @@
   "ui-remote-storage.details.providerName.error": [
     {
       "type": 0,
-      "value": "Fournisseur obligatoire"
+      "value": "Le fournisseur est obligatoire"
     }
   ],
   "ui-remote-storage.details.statusUrl": [

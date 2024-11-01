@@ -14525,7 +14525,7 @@
   "ui-acquisition-units.accordion.memberships": [
     {
       "type": 0,
-      "value": "Usuario asignado"
+      "value": "Usuarios asignados"
     }
   ],
   "ui-acquisition-units.meta.title": [
@@ -14537,13 +14537,13 @@
   "ui-acquisition-units.permission.settings.all": [
     {
       "type": 0,
-      "value": "Settings (acquisition units): Can view, edit, create and delete acquisition units"
+      "value": "Ajustes (unidades de adquisición): Puede ver, editar, crear y eliminar unidades de adquisición."
     }
   ],
   "ui-acquisition-units.permission.settings.userAssignments": [
     {
       "type": 0,
-      "value": "Settings (acquisition units): Manage acquisition unit user assignments"
+      "value": "Ajustes (unidades de adquisición): Gestionar las asignaciones de usuarios de las unidades de adquisición"
     }
   ],
   "ui-acquisition-units.unit.actions.delete": [
@@ -14573,7 +14573,7 @@
   "ui-acquisition-units.unit.actions.delete.forbidden": [
     {
       "type": 0,
-      "value": "Eliminar (Las unidades de adquisición con usuarios no pueden eliminarse)"
+      "value": "Eliminar (las unidades de adquisición con usuarios no se pueden eliminar)"
     }
   ],
   "ui-acquisition-units.unit.actions.edit": [
@@ -14585,13 +14585,13 @@
   "ui-acquisition-units.unit.actions.errors.save.genericError": [
     {
       "type": 0,
-      "value": "Couldn't save acquisition unit"
+      "value": "No se ha podido guardar la unidad de adquisición"
     }
   ],
   "ui-acquisition-units.unit.actions.errors.save.uniqueFieldAcquisitionsUnitNameError": [
     {
       "type": 0,
-      "value": "Acquisition unit \""
+      "value": "La unidad de adquisición \""
     },
     {
       "type": 1,
@@ -14599,7 +14599,7 @@
     },
     {
       "type": 0,
-      "value": "\" already exists"
+      "value": "\" ya existe."
     }
   ],
   "ui-acquisition-units.unit.actions.new": [
@@ -34343,6 +34343,18 @@
     {
       "type": 0,
       "value": "No debe comenzar con un espacio"
+    }
+  ],
+  "ui-claims.meta.title": [
+    {
+      "type": 0,
+      "value": "Claiming"
+    }
+  ],
+  "ui-claims.permission.claiming.view": [
+    {
+      "type": 0,
+      "value": "Claims: View claiming"
     }
   ],
   "ui-consortia-settings.affiliation.primary.suffix": [
@@ -66423,7 +66435,7 @@
   "ui-handler-stripes-registry.meta.title": [
     {
       "type": 0,
-      "value": "Resource registry"
+      "value": "Registro de recursos"
     }
   ],
   "ui-inn-reach.action.after-click-add": [
@@ -88328,7 +88340,7 @@
   "ui-myprofile.label.settings": [
     {
       "type": 0,
-      "value": "My profile settings"
+      "value": "Configuración de mi perfil"
     }
   ],
   "ui-myprofile.meta.title": [
@@ -88352,25 +88364,25 @@
   "ui-myprofile.settings.changePassword.confirmPassword": [
     {
       "type": 0,
-      "value": "Confirmar contraseña FOLIO"
+      "value": "Confirmar contraseña"
     }
   ],
   "ui-myprofile.settings.changePassword.confirmPasswordMatchError": [
     {
       "type": 0,
-      "value": "Las contraseñas no coinciden. Vuelva a introducir la contraseña."
+      "value": "La contraseña nueva y de confirmación no coincide. Reescribe tu contraseña."
     }
   ],
   "ui-myprofile.settings.changePassword.currentPassword": [
     {
       "type": 0,
-      "value": "Contraseña FOLIO actual"
+      "value": "Contraseña actual"
     }
   ],
   "ui-myprofile.settings.changePassword.enterValue": [
     {
       "type": 0,
-      "value": "Por favor, introduzca un valor."
+      "value": "Por favor, introduzca un valor"
     }
   ],
   "ui-myprofile.settings.changePassword.hidePassword": [
@@ -88388,13 +88400,13 @@
   "ui-myprofile.settings.changePassword.lastTenPasswords": [
     {
       "type": 0,
-      "value": "Contraseña introducida anteriormente. Por favor, introduzca otra contraseña."
+      "value": "Contraseña utilizada anteriormente. Por favor, introduzca una nueva contraseña."
     }
   ],
   "ui-myprofile.settings.changePassword.newPassword": [
     {
       "type": 0,
-      "value": "Nueva contraseña FOLIO"
+      "value": "Nueva contraseña "
     }
   ],
   "ui-myprofile.settings.changePassword.save": [
@@ -88418,7 +88430,7 @@
       "children": [
         {
           "type": 0,
-          "value": "contraseña FOLIO"
+          "value": "contraseña de FOLIO"
         }
       ],
       "type": 8,
@@ -88426,13 +88438,13 @@
     },
     {
       "type": 0,
-      "value": "ha sido"
+      "value": " ha sido "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "modificada"
+          "value": "cambiada"
         }
       ],
       "type": 8,
@@ -88440,7 +88452,7 @@
     },
     {
       "type": 0,
-      "value": " para "
+      "value": " con éxito para "
     },
     {
       "children": [
@@ -88470,7 +88482,7 @@
   "ui-myprofile.settings.changePassword.wrongPassword": [
     {
       "type": 0,
-      "value": "Contraseña incorrecta. Vuelva a introducir la contraseña."
+      "value": "Contraseña incorrecta. Reescribe tu contraseña."
     }
   ],
   "ui-myprofile.settings.index.paneTitle": [
@@ -88482,7 +88494,7 @@
   "ui-myprofile.userDropdown.changePassword.caption": [
     {
       "type": 0,
-      "value": "Modificar contraseña"
+      "value": "Cambiar contraseña"
     }
   ],
   "ui-notes.meta.title": [
@@ -93972,6 +93984,12 @@
     {
       "type": 0,
       "value": "Una referencia de explotación o localización debe presentar"
+    }
+  ],
+  "ui-orders.errors.locationUpdateWithoutAffiliation": [
+    {
+      "type": 0,
+      "value": "POL could not be saved. This record has location affiliations that your user does not have. These affiliations must be removed or the operation must be performed by a user who has the same affiliations as the record."
     }
   ],
   "ui-orders.errors.materialTypeRequired": [
@@ -106740,13 +106758,13 @@
   "ui-plugin-find-organization.modal.label": [
     {
       "type": 0,
-      "value": "Seleccionar proveedor"
+      "value": "Select Vendor"
     }
   ],
   "ui-plugin-find-organization.searchButton.title": [
     {
       "type": 0,
-      "value": "Buscar proveedor"
+      "value": "Find Vendor"
     }
   ],
   "ui-plugin-find-package-title.defaultTriggerLabel": [
@@ -116044,61 +116062,61 @@
   "ui-remote-storage.accession-tables.empty": [
     {
       "type": 0,
-      "value": "CaiaSoft Accession tables are available after remote storage has been configured."
+      "value": "Las tablas de accesiones de CaiaSoft están disponibles después de que se haya configurado el almacenamiento remoto."
     }
   ],
   "ui-remote-storage.accession-tables.open": [
     {
       "type": 0,
-      "value": "Open Accession table"
+      "value": "Tabla de adhesión abierta"
     }
   ],
   "ui-remote-storage.accession-tables.title": [
     {
       "type": 0,
-      "value": "Accession tables"
+      "value": "Tablas de accesiones"
     }
   ],
   "ui-remote-storage.accession-workflow.error.undefined": [
     {
       "type": 0,
-      "value": "Accession holdings workflow preference must be selected to save configuration"
+      "value": "Se debe seleccionar la preferencia del flujo de trabajo del ingreso de los Holdings para guardar la configuración"
     }
   ],
   "ui-remote-storage.accession-workflow.option.change": [
     {
       "type": 0,
-      "value": "Change permanent location"
+      "value": "Cambiar ubicación permanente"
     }
   ],
   "ui-remote-storage.accession-workflow.option.duplicate": [
     {
       "type": 0,
-      "value": "Fondos duplicados"
+      "value": "Duplicar Holdings"
     }
   ],
   "ui-remote-storage.accession-workflow.title": [
     {
       "type": 0,
-      "value": "Accession holding workflow preference"
+      "value": "Flujo de trabajo preferente para el ingreso de los Holdings."
     }
   ],
   "ui-remote-storage.accession-workflow.tooltip": [
     {
       "type": 0,
-      "value": "Choose the appropriate accession workflow for holdings"
+      "value": "Elegir el flujo de trabajo adecuado de los ingresos para los Holdings."
     }
   ],
   "ui-remote-storage.cannotDeleteModal.header": [
     {
       "type": 0,
-      "value": "Cannot delete Remote Storage location"
+      "value": "No se puede eliminar la ubicación de almacenamiento remoto"
     }
   ],
   "ui-remote-storage.cannotDeleteModal.message": [
     {
       "type": 0,
-      "value": "One or more locations are associated with this configuration. The configuration cannot be deleted."
+      "value": "Una o varias ubicaciones están asociadas a esta configuración. La configuración no se puede eliminar."
     }
   ],
   "ui-remote-storage.configurations.title": [
@@ -116122,127 +116140,127 @@
   "ui-remote-storage.confirmationModal.create.message": [
     {
       "type": 0,
-      "value": "Are you sure you want to save the remote storage configuration?"
+      "value": "¿Está seguro de que desea guardar la configuración del almacenamiento remoto?"
     }
   ],
   "ui-remote-storage.confirmationModal.edit.message": [
     {
       "type": 0,
-      "value": "Are you sure you want to create this remote storage configuration?"
+      "value": "¿Está seguro de que desea crear esta configuración de almacenamiento remoto?"
     }
   ],
   "ui-remote-storage.confirmationModal.save": [
     {
       "type": 0,
-      "value": "Save"
+      "value": "Guardar"
     }
   ],
   "ui-remote-storage.create.error": [
     {
       "type": 0,
-      "value": "Error occurred while saving Remote storage configuration."
+      "value": "Se ha producido un error al guardar la configuración del almacenamiento remoto."
     }
   ],
   "ui-remote-storage.create.success": [
     {
       "type": 0,
-      "value": "Remote storage configuration was successfully created."
+      "value": "La configuración del almacenamiento remoto se ha creado correctamente."
     }
   ],
   "ui-remote-storage.createForm.title": [
     {
       "type": 0,
-      "value": "Create configuration"
+      "value": "Crear configuración"
     }
   ],
   "ui-remote-storage.days": [
     {
       "type": 0,
-      "value": "day(s)"
+      "value": "día(s)"
     }
   ],
   "ui-remote-storage.delete": [
     {
       "type": 0,
-      "value": "Delete"
+      "value": "Borrar"
     }
   ],
   "ui-remote-storage.details.credProperties": [
     {
       "type": 0,
-      "value": "Credential properties"
+      "value": "Propiedades de la credencial"
     }
   ],
   "ui-remote-storage.details.name": [
     {
       "type": 0,
-      "value": "Remote storage name"
+      "value": "Nombre del almacenamiento remoto"
     }
   ],
   "ui-remote-storage.details.name.error": [
     {
       "type": 0,
-      "value": "Name is required"
+      "value": "El nombre es requerido"
     }
   ],
   "ui-remote-storage.details.providerName": [
     {
       "type": 0,
-      "value": "Provider name"
+      "value": "Nombre del proveedor"
     }
   ],
   "ui-remote-storage.details.providerName.error": [
     {
       "type": 0,
-      "value": "Provider is required"
+      "value": "Proveedor es requerido"
     }
   ],
   "ui-remote-storage.details.statusUrl": [
     {
       "type": 0,
-      "value": "Status URL"
+      "value": "Estado URL"
     }
   ],
   "ui-remote-storage.details.title": [
     {
       "type": 0,
-      "value": "General information"
+      "value": "Información general"
     }
   ],
   "ui-remote-storage.details.url": [
     {
       "type": 0,
-      "value": "URL (domain)"
+      "value": "URL (dominio)"
     }
   ],
   "ui-remote-storage.edit": [
     {
       "type": 0,
-      "value": "Edit"
+      "value": "Editar"
     }
   ],
   "ui-remote-storage.edit.error": [
     {
       "type": 0,
-      "value": "Error occurred while saving Remote storage configuration."
+      "value": "Se produjo un error al guardar la configuración de almacenamiento remoto."
     }
   ],
   "ui-remote-storage.edit.success.changed": [
     {
       "type": 0,
-      "value": "Remote storage configuration was successfully changed."
+      "value": "La configuración del almacenamiento remoto ha sido modificada con éxito."
     }
   ],
   "ui-remote-storage.edit.success.created": [
     {
       "type": 0,
-      "value": "Remote storage configuration was successfully created."
+      "value": "La configuración del almacenamiento remoto se ha creado correctamente."
     }
   ],
   "ui-remote-storage.editForm.title": [
     {
       "type": 0,
-      "value": "Edit "
+      "value": "Editar "
     },
     {
       "type": 1,
@@ -116252,49 +116270,49 @@
   "ui-remote-storage.error": [
     {
       "type": 0,
-      "value": "Something went wrong"
+      "value": "Algo salió mal"
     }
   ],
   "ui-remote-storage.hours": [
     {
       "type": 0,
-      "value": "hour(s)"
+      "value": "hora(s)"
     }
   ],
   "ui-remote-storage.list.lastUpdate": [
     {
       "type": 0,
-      "value": "Last Update"
+      "value": "Última actualización"
     }
   ],
   "ui-remote-storage.list.name": [
     {
       "type": 0,
-      "value": "Name"
+      "value": "Nombre"
     }
   ],
   "ui-remote-storage.list.providerName": [
     {
       "type": 0,
-      "value": "Provider"
+      "value": "Proveedor"
     }
   ],
   "ui-remote-storage.loading": [
     {
       "type": 0,
-      "value": "Loading..."
+      "value": "Cargando..."
     }
   ],
   "ui-remote-storage.location.final": [
     {
       "type": 0,
-      "value": "Final location (Remote)"
+      "value": "Localización final (remota)"
     }
   ],
   "ui-remote-storage.location.original": [
     {
       "type": 0,
-      "value": "Original location"
+      "value": "Localización original"
     }
   ],
   "ui-remote-storage.meta.title": [
@@ -116306,49 +116324,49 @@
   "ui-remote-storage.minutes": [
     {
       "type": 0,
-      "value": "minute(s)"
+      "value": "minuto(s)"
     }
   ],
   "ui-remote-storage.months": [
     {
       "type": 0,
-      "value": "month(s)"
+      "value": "mes(es)"
     }
   ],
   "ui-remote-storage.permission.settings.remote-storages.edit": [
     {
       "type": 0,
-      "value": "Settings (Remote storage): Can create, edit, delete remote storage settings"
+      "value": "Almacenamiento remoto: crear, editar, borrar"
     }
   ],
   "ui-remote-storage.permission.settings.remote-storages.view": [
     {
       "type": 0,
-      "value": "Settings (Remote storage): Can view remote storage settings"
+      "value": "Almacenamiento remoto: Ver"
     }
   ],
   "ui-remote-storage.remove.error": [
     {
       "type": 0,
-      "value": "Remote storage configuration was not deleted."
+      "value": "No se ha eliminado la configuración del almacenamiento remoto."
     }
   ],
   "ui-remote-storage.remove.success": [
     {
       "type": 0,
-      "value": "Remote storage configuration was successfully deleted."
+      "value": "La configuración del almacenamiento remoto se ha eliminado correctamente."
     }
   ],
   "ui-remote-storage.removingModal.message": [
     {
       "type": 0,
-      "value": "Are you sure you want to delete the remote storage configuration?"
+      "value": "¿Está seguro de que desea eliminar la configuración del almacenamiento remoto?"
     }
   ],
   "ui-remote-storage.removingModal.title": [
     {
       "type": 0,
-      "value": "Remove "
+      "value": "Quitar "
     },
     {
       "type": 1,
@@ -116358,31 +116376,31 @@
   "ui-remote-storage.returning-workflow.error.undefined": [
     {
       "type": 0,
-      "value": "Returning workflow preference must be selected to save configuration"
+      "value": "Se debe seleccionar la preferencia de flujo de trabajo de retorno para guardar la configuración"
     }
   ],
   "ui-remote-storage.returning-workflow.option.ciasoft": [
     {
       "type": 0,
-      "value": "Items received at remote storage scanned into CaiaSoft"
+      "value": "Elementos recibidos en el almacenamiento remoto escaneados en CaiaSoft"
     }
   ],
   "ui-remote-storage.returning-workflow.option.folio": [
     {
       "type": 0,
-      "value": "Items received at remote storage scanned into FOLIO"
+      "value": "Elementos recibidos en el almacenamiento remoto escaneados en FOLIO"
     }
   ],
   "ui-remote-storage.returning-workflow.title": [
     {
       "type": 0,
-      "value": "Returning workflow preference"
+      "value": "Devolución de la preferencia de flujo de trabajo"
     }
   ],
   "ui-remote-storage.returning-workflow.tooltip": [
     {
       "type": 0,
-      "value": "Select the System items are scanned into upon receipt at remote storage"
+      "value": "Seleccione el Sistema en el que se escanean los ítems cuando se reciben en el almacenamiento remoto"
     }
   ],
   "ui-remote-storage.saveAndClose": [
@@ -116394,7 +116412,7 @@
   "ui-remote-storage.select": [
     {
       "type": 0,
-      "value": "Select"
+      "value": "Seleccionar"
     }
   ],
   "ui-remote-storage.settings.title": [
@@ -116406,13 +116424,13 @@
   "ui-remote-storage.synchronization.schedule.info": [
     {
       "type": 0,
-      "value": "Runs every"
+      "value": "Se ejecuta cada"
     }
   ],
   "ui-remote-storage.synchronization.schedule.info.days": [
     {
       "type": 0,
-      "value": "Runs every "
+      "value": "Se ejecuta cada "
     },
     {
       "type": 1,
@@ -116429,7 +116447,7 @@
           "value": [
             {
               "type": 0,
-              "value": "day"
+              "value": "día"
             }
           ]
         },
@@ -116437,7 +116455,7 @@
           "value": [
             {
               "type": 0,
-              "value": "days"
+              "value": "días"
             }
           ]
         }
@@ -116450,7 +116468,7 @@
   "ui-remote-storage.synchronization.schedule.info.hours": [
     {
       "type": 0,
-      "value": "Runs every "
+      "value": "Se ejecuta cada "
     },
     {
       "type": 1,
@@ -116467,7 +116485,7 @@
           "value": [
             {
               "type": 0,
-              "value": "hour"
+              "value": "hora"
             }
           ]
         },
@@ -116475,7 +116493,7 @@
           "value": [
             {
               "type": 0,
-              "value": "hours"
+              "value": "horas"
             }
           ]
         }
@@ -116488,7 +116506,7 @@
   "ui-remote-storage.synchronization.schedule.info.minutes": [
     {
       "type": 0,
-      "value": "Runs every "
+      "value": "Se ejecuta cada "
     },
     {
       "type": 1,
@@ -116505,7 +116523,7 @@
           "value": [
             {
               "type": 0,
-              "value": "minute"
+              "value": "minuto"
             }
           ]
         },
@@ -116513,7 +116531,7 @@
           "value": [
             {
               "type": 0,
-              "value": "minutes"
+              "value": "minutos"
             }
           ]
         }
@@ -116526,7 +116544,7 @@
   "ui-remote-storage.synchronization.schedule.info.months": [
     {
       "type": 0,
-      "value": "Runs every "
+      "value": "Se ejecuta cada "
     },
     {
       "type": 1,
@@ -116543,7 +116561,7 @@
           "value": [
             {
               "type": 0,
-              "value": "month"
+              "value": "mes"
             }
           ]
         },
@@ -116551,7 +116569,7 @@
           "value": [
             {
               "type": 0,
-              "value": "months"
+              "value": "meses"
             }
           ]
         }
@@ -116564,19 +116582,19 @@
   "ui-remote-storage.synchronization.schedule.info.notSet": [
     {
       "type": 0,
-      "value": "No establecido"
+      "value": "No configurado"
     }
   ],
   "ui-remote-storage.synchronization.schedule.info.notValid": [
     {
       "type": 0,
-      "value": "Value must be positive integer"
+      "value": "El valor debe ser un número entero positivo"
     }
   ],
   "ui-remote-storage.synchronization.schedule.info.weeks": [
     {
       "type": 0,
-      "value": "Runs every "
+      "value": "Se ejecuta cada "
     },
     {
       "type": 1,
@@ -116593,7 +116611,7 @@
           "value": [
             {
               "type": 0,
-              "value": "week"
+              "value": "semana"
             }
           ]
         },
@@ -116601,7 +116619,7 @@
           "value": [
             {
               "type": 0,
-              "value": "weeks"
+              "value": "semana"
             }
           ]
         }
@@ -116614,19 +116632,19 @@
   "ui-remote-storage.synchronization.schedule.title": [
     {
       "type": 0,
-      "value": "Data synchronization schedule"
+      "value": "Programa de sincronización de datos"
     }
   ],
   "ui-remote-storage.synchronization.title": [
     {
       "type": 0,
-      "value": "Data synchronization settings"
+      "value": "Configuración de sincronización de datos"
     }
   ],
   "ui-remote-storage.weeks": [
     {
       "type": 0,
-      "value": "week(s)"
+      "value": "semana(s)"
     }
   ],
   "ui-requests-mediated.app.confirmItemArrival.navigation": [

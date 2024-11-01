@@ -34817,6 +34817,18 @@
       "value": "不应以空格开头"
     }
   ],
+  "ui-claims.meta.title": [
+    {
+      "type": 0,
+      "value": "Claiming"
+    }
+  ],
+  "ui-claims.permission.claiming.view": [
+    {
+      "type": 0,
+      "value": "Claims: View claiming"
+    }
+  ],
   "ui-consortia-settings.affiliation.primary.suffix": [
     {
       "type": 0,
@@ -96610,6 +96622,12 @@
     {
       "type": 0,
       "value": "必须提供馆藏或位置参引"
+    }
+  ],
+  "ui-orders.errors.locationUpdateWithoutAffiliation": [
+    {
+      "type": 0,
+      "value": "POL could not be saved. This record has location affiliations that your user does not have. These affiliations must be removed or the operation must be performed by a user who has the same affiliations as the record."
     }
   ],
   "ui-orders.errors.materialTypeRequired": [

@@ -34270,6 +34270,18 @@
       "value": "Nemělo by začínat mezerou"
     }
   ],
+  "ui-claims.meta.title": [
+    {
+      "type": 0,
+      "value": "Claiming"
+    }
+  ],
+  "ui-claims.permission.claiming.view": [
+    {
+      "type": 0,
+      "value": "Claims: View claiming"
+    }
+  ],
   "ui-consortia-settings.affiliation.primary.suffix": [
     {
       "type": 0,
@@ -93806,6 +93818,12 @@
       "value": "Musí být uveden odkaz na holdingy nebo lokace"
     }
   ],
+  "ui-orders.errors.locationUpdateWithoutAffiliation": [
+    {
+      "type": 0,
+      "value": "POL could not be saved. This record has location affiliations that your user does not have. These affiliations must be removed or the operation must be performed by a user who has the same affiliations as the record."
+    }
+  ],
   "ui-orders.errors.materialTypeRequired": [
     {
       "type": 0,
@@ -101899,7 +101917,7 @@
   "ui-organizations.settings.bankingAccountTypes.cannotDeleteTermMessage": [
     {
       "type": 0,
-      "value": "Tento typ účtu nelze odstranit, protože je používán jedním nebo více záznamy."
+      "value": "Nelze smazat. Typ účtu používá jedna nebo více organizací."
     }
   ],
   "ui-organizations.settings.bankingAccountTypes.deleteEntry": [

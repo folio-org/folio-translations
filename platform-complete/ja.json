@@ -14680,7 +14680,7 @@
   "ui-acquisition-units.permission.settings.all": [
     {
       "type": 0,
-      "value": "Settings (acquisition units): Can view, edit, create and delete acquisition units"
+      "value": "設定（収集ユニット）: 収集ユニットの閲覧、編集、削除ができます"
     }
   ],
   "ui-acquisition-units.permission.settings.userAssignments": [
@@ -34566,6 +34566,18 @@
     {
       "type": 0,
       "value": "スペースで開始してはいけません"
+    }
+  ],
+  "ui-claims.meta.title": [
+    {
+      "type": 0,
+      "value": "Claiming"
+    }
+  ],
+  "ui-claims.permission.claiming.view": [
+    {
+      "type": 0,
+      "value": "Claims: View claiming"
     }
   ],
   "ui-consortia-settings.affiliation.primary.suffix": [
@@ -73255,7 +73267,7 @@
   "ui-inventory.instanceStatusUpdatedDate": [
     {
       "type": 0,
-      "value": "Status updated date"
+      "value": "ステータス更新日"
     }
   ],
   "ui-inventory.instanceTitle": [
@@ -94907,6 +94919,12 @@
       "value": "A holdings or location reference must present"
     }
   ],
+  "ui-orders.errors.locationUpdateWithoutAffiliation": [
+    {
+      "type": 0,
+      "value": "POL could not be saved. This record has location affiliations that your user does not have. These affiliations must be removed or the operation must be performed by a user who has the same affiliations as the record."
+    }
+  ],
   "ui-orders.errors.materialTypeRequired": [
     {
       "type": 0,
@@ -107406,13 +107424,13 @@
   "ui-plugin-find-interface.interface.type.admin": [
     {
       "type": 0,
-      "value": "Admin"
+      "value": "管理者"
     }
   ],
   "ui-plugin-find-interface.interface.type.endUser": [
     {
       "type": 0,
-      "value": "End user"
+      "value": "エンドユーザー"
     }
   ],
   "ui-plugin-find-interface.interface.type.invoices": [

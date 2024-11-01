@@ -34307,6 +34307,18 @@
       "value": "Não deve começar com um espaço"
     }
   ],
+  "ui-claims.meta.title": [
+    {
+      "type": 0,
+      "value": "Claiming"
+    }
+  ],
+  "ui-claims.permission.claiming.view": [
+    {
+      "type": 0,
+      "value": "Claims: View claiming"
+    }
+  ],
   "ui-consortia-settings.affiliation.primary.suffix": [
     {
       "type": 0,
@@ -55866,7 +55878,7 @@
   "ui-eholdings.permission.app.view": [
     {
       "type": 0,
-      "value": "eHoldings: Can view providers, packages, titles detail records"
+      "value": "Coleção eletrônica: Pode visualizar fornecedores, pacotes, registros detalhados de títulos"
     }
   ],
   "ui-eholdings.permission.costperuse.view": [
@@ -55884,7 +55896,7 @@
   "ui-eholdings.permission.package-title.select-unselect.execute": [
     {
       "type": 0,
-      "value": "eHoldings: Can select/unselect packages and titles to/from your holdings"
+      "value": "Coleção eletrônica: Pode selecionar/desmarcar pacotes e títulos de/para sua coleção"
     }
   ],
   "ui-eholdings.permission.records.edit": [
@@ -55974,7 +55986,7 @@
   "ui-eholdings.permission.titles-packages.create-delete.manage": [
     {
       "type": 0,
-      "value": "eHoldings: Can create and delete custom packages and titles"
+      "value": "Coleção eletrônica: Pode criar e excluir pacotes e títulos personalizados"
     }
   ],
   "ui-eholdings.previous": [
@@ -80386,13 +80398,13 @@
   "ui-invoice.permission.invoice.approve.execute": [
     {
       "type": 0,
-      "value": "Invoice: Approve invoices"
+      "value": "Fatura: Aprovar faturas"
     }
   ],
   "ui-invoice.permission.invoice.cancel.execute": [
     {
       "type": 0,
-      "value": "Invoice: Cancel invoices"
+      "value": "Fatura: Cancelar faturas"
     }
   ],
   "ui-invoice.permission.invoice.create": [
@@ -80416,13 +80428,13 @@
   "ui-invoice.permission.invoice.pay-different-fy.execute": [
     {
       "type": 0,
-      "value": "Invoice: Pay invoices in a different fiscal year"
+      "value": "Fatura: Pagar faturas em um ano fiscal diferente"
     }
   ],
   "ui-invoice.permission.invoice.pay.execute": [
     {
       "type": 0,
-      "value": "Invoice: Pay invoices"
+      "value": "Fatura: Pagar faturas"
     }
   ],
   "ui-invoice.permission.invoice.view": [
@@ -80452,7 +80464,7 @@
   "ui-invoice.permission.voucher.export.execute": [
     {
       "type": 0,
-      "value": "Invoice: Voucher export"
+      "value": "Fatura: Exportação de comprovante"
     }
   ],
   "ui-invoice.permission.voucherExport": [
@@ -89038,7 +89050,7 @@
   "ui-notes.permission.item.assign-unassign.execute": [
     {
       "type": 0,
-      "value": "Notes: Can assign and unassign a note"
+      "value": "Notas: Pode atribuir e desatribuir uma nota"
     }
   ],
   "ui-notes.permission.item.create": [
@@ -94538,6 +94550,12 @@
     {
       "type": 0,
       "value": "Uma referência de coleção ou localização deve estar presente"
+    }
+  ],
+  "ui-orders.errors.locationUpdateWithoutAffiliation": [
+    {
+      "type": 0,
+      "value": "Linha do Pedido de Compra não pôde ser salvo. Este registro tem afiliações de localização que seu usuário não tem. Essas afiliações devem ser removidas ou a operação deve ser realizada por um usuário que tenha as mesmas afiliações do registro."
     }
   ],
   "ui-orders.errors.materialTypeRequired": [
@@ -108873,7 +108891,7 @@
   "ui-quick-marc.permission.quick-marc-authority-records.link-unlink.execute": [
     {
       "type": 0,
-      "value": "quickMARC: Can Link/unlink authority records to bib records"
+      "value": "QuickMARC: pode vincular/desvincular registros de autoridade a registros bibliográficos"
     }
   ],
   "ui-quick-marc.permission.quick-marc-authority-records.linkUnlink": [
@@ -108897,7 +108915,7 @@
   "ui-quick-marc.permission.quick-marc-editor.derive.execute": [
     {
       "type": 0,
-      "value": "quickMARC: Derive new MARC bibliographic record"
+      "value": "quickMARC: Derivar novo registro MARC bibliográfico"
     }
   ],
   "ui-quick-marc.permission.quick-marc-editor.duplicate": [
@@ -124026,13 +124044,13 @@
   "ui-service-interaction.settings.numberGeneratorSequences.preChecksumTemplate": [
     {
       "type": 0,
-      "value": "Pre-checksum template"
+      "value": "Modelo de pré-soma de verificação"
     }
   ],
   "ui-service-interaction.settings.numberGeneratorSequences.preChecksumTemplate.info": [
     {
       "type": 0,
-      "value": "The pre-checksum template defines the rules applied to create the number from which the checksum digit will be calculated. Templates are formed using Groovy. See below for more information."
+      "value": "O modelo de pré-soma de verificação define as regras aplicadas para criar o número a partir do qual o dígito da soma de verificação será calculado. Os modelos são formados usando o Groovy. Veja abaixo mais informações."
     }
   ],
   "ui-service-interaction.settings.numberGeneratorSequences.prefix": [
@@ -136551,7 +136569,7 @@
   "ui-users.stagingRecords.list.searchResults": [
     {
       "type": 0,
-      "value": "Resultados do registro de pré-registro do usuário"
+      "value": "Resultados do registro de pré-cadastro do usuário"
     }
   ],
   "ui-users.stagingRecords.merge": [
