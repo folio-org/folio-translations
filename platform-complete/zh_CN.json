@@ -126390,6 +126390,24 @@
       "value": "前缀"
     }
   ],
+  "ui-service-interaction.settings.numberGeneratorSequences.section.checksumSettings": [
+    {
+      "type": 0,
+      "value": "Checksum settings"
+    }
+  ],
+  "ui-service-interaction.settings.numberGeneratorSequences.section.outputSettings": [
+    {
+      "type": 0,
+      "value": "Output settings"
+    }
+  ],
+  "ui-service-interaction.settings.numberGeneratorSequences.section.sequenceSettings": [
+    {
+      "type": 0,
+      "value": "Sequence settings"
+    }
+  ],
   "ui-service-interaction.settings.numberGeneratorSequences.tooltip.viewSequence": [
     {
       "type": 0,
@@ -135670,6 +135688,18 @@
       "value": "费用/罚款历史：可以创建、编辑和移除帐户"
     }
   ],
+  "ui-users.permission.accounts.all": [
+    {
+      "type": 0,
+      "value": "Fee/Fine History: Can create, edit and remove accounts"
+    }
+  ],
+  "ui-users.permission.cash-drawer-report.execute": [
+    {
+      "type": 0,
+      "value": "Users: Create and download Cash drawer reconciliation report"
+    }
+  ],
   "ui-users.permission.cashDrawerReport": [
     {
       "type": 0,
@@ -135718,6 +135748,12 @@
       "value": "用户：可以为用户分配和取消分配服务点"
     }
   ],
+  "ui-users.permission.fee-fine-actions.all": [
+    {
+      "type": 0,
+      "value": "Fee/Fine Details: Can create, edit and remove fee/fine actions"
+    }
+  ],
   "ui-users.permission.feefineactions": [
     {
       "type": 0,
@@ -135736,10 +135772,64 @@
       "value": "用户：可以查看费用/罚款和借阅"
     }
   ],
+  "ui-users.permission.financial-transaction-report.execute": [
+    {
+      "type": 0,
+      "value": "Users: Create and download Financial transaction detail report"
+    }
+  ],
   "ui-users.permission.financialTransactionReport": [
     {
       "type": 0,
       "value": "用户：创建并下载财务交易明细报告"
+    }
+  ],
+  "ui-users.permission.loans-add-info.create": [
+    {
+      "type": 0,
+      "value": "Users: User loans: add staff or patron information"
+    }
+  ],
+  "ui-users.permission.loans-anonymize.execute": [
+    {
+      "type": 0,
+      "value": "Users: User loans anonymize"
+    }
+  ],
+  "ui-users.permission.loans-claim-item-returned.execute": [
+    {
+      "type": 0,
+      "value": "Users: User loans claim returned"
+    }
+  ],
+  "ui-users.permission.loans-declare-claimed-returned-item-as-missing.execute": [
+    {
+      "type": 0,
+      "value": "Users: User loans mark claimed returned missing"
+    }
+  ],
+  "ui-users.permission.loans-declare-item-lost.execute": [
+    {
+      "type": 0,
+      "value": "Users: User loans declare lost"
+    }
+  ],
+  "ui-users.permission.loans-due-date.edit": [
+    {
+      "type": 0,
+      "value": "Users: User loans change due date"
+    }
+  ],
+  "ui-users.permission.loans-renew-override.create": [
+    {
+      "type": 0,
+      "value": "Users: User loans renew through override"
+    }
+  ],
+  "ui-users.permission.loans-renew.create": [
+    {
+      "type": 0,
+      "value": "Users: User loans renew"
     }
   ],
   "ui-users.permission.loans.add-patron-info": [
@@ -135802,10 +135892,40 @@
       "value": "用户：用户借阅视图"
     }
   ],
+  "ui-users.permission.lost-items-requiring-actual-cost.execute": [
+    {
+      "type": 0,
+      "value": "Users: Can process lost items requiring actual cost"
+    }
+  ],
   "ui-users.permission.lost-items.requiring-actual-cost": [
     {
       "type": 0,
       "value": "用户：可以处理需要实际费用的遗失单件"
+    }
+  ],
+  "ui-users.permission.manual-charge.execute": [
+    {
+      "type": 0,
+      "value": "Fees/Fines: Can charge"
+    }
+  ],
+  "ui-users.permission.manual-pay.execute": [
+    {
+      "type": 0,
+      "value": "Fees/Fines: Can pay"
+    }
+  ],
+  "ui-users.permission.manual-process-refunds-report.execute": [
+    {
+      "type": 0,
+      "value": "Users: Create and download Refunds to process manually report"
+    }
+  ],
+  "ui-users.permission.manual-waive.execute": [
+    {
+      "type": 0,
+      "value": "Fees/Fines: Can waive"
     }
   ],
   "ui-users.permission.manualProcessRefundsReport": [
@@ -135832,10 +135952,28 @@
       "value": "费用/罚款：可以豁免"
     }
   ],
+  "ui-users.permission.open-transactions.view": [
+    {
+      "type": 0,
+      "value": "Users: Can check open transactions"
+    }
+  ],
   "ui-users.permission.opentransactions": [
     {
       "type": 0,
       "value": "用户：可以查看未结事务"
+    }
+  ],
+  "ui-users.permission.override-item-block.execute": [
+    {
+      "type": 0,
+      "value": "User: Can override item blocks"
+    }
+  ],
+  "ui-users.permission.override-patron-block.execute": [
+    {
+      "type": 0,
+      "value": "User: Can override patron blocks"
     }
   ],
   "ui-users.permission.overrideItemBlock": [
@@ -135848,6 +135986,24 @@
     {
       "type": 0,
       "value": "用户：可越权读者冻结"
+    }
+  ],
+  "ui-users.permission.patron-blocks.all": [
+    {
+      "type": 0,
+      "value": "Users: Can create, edit and remove patron blocks"
+    }
+  ],
+  "ui-users.permission.patron-notice-print-jobs.delete": [
+    {
+      "type": 0,
+      "value": "Users: View and remove patron notice print jobs"
+    }
+  ],
+  "ui-users.permission.patron-notice-print-jobs.view": [
+    {
+      "type": 0,
+      "value": "Users: View patron notice print jobs"
     }
   ],
   "ui-users.permission.patron-pre-registrations-view": [
@@ -135874,6 +136030,18 @@
       "value": "用户：可以创建、编辑和移除读者冻结"
     }
   ],
+  "ui-users.permission.perms.edit": [
+    {
+      "type": 0,
+      "value": "Users: Can assign and unassign permissions to users"
+    }
+  ],
+  "ui-users.permission.perms.view": [
+    {
+      "type": 0,
+      "value": "Users: Can view permissions assigned to users"
+    }
+  ],
   "ui-users.permission.profile-pictures.all": [
     {
       "type": 0,
@@ -135884,6 +136052,18 @@
     {
       "type": 0,
       "value": "用户：可以查看简介图片"
+    }
+  ],
+  "ui-users.permission.proxies.edit": [
+    {
+      "type": 0,
+      "value": "Users: Can create, edit and remove proxies"
+    }
+  ],
+  "ui-users.permission.proxies.view": [
+    {
+      "type": 0,
+      "value": "Users: Can view proxies assigned to users"
     }
   ],
   "ui-users.permission.reading-room-access.edit": [
@@ -136244,6 +136424,18 @@
     {
       "type": 0,
       "value": "设置（用户）：可以查看豁免理由"
+    }
+  ],
+  "ui-users.permission.user-service-points.edit": [
+    {
+      "type": 0,
+      "value": "Users: Can assign and unassign service points to users"
+    }
+  ],
+  "ui-users.permission.user-service-points.view": [
+    {
+      "type": 0,
+      "value": "Users: Can view service points assigned to users"
     }
   ],
   "ui-users.permission.view": [

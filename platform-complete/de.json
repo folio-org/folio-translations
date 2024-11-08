@@ -25067,7 +25067,7 @@
   "ui-bulk-edit.uploaderSubTitle": [
     {
       "type": 0,
-      "value": "Select a file with record identifiers"
+      "value": "Select a file with record identifiers."
     }
   ],
   "ui-bulk-edit.uploaderSubTitle.BARCODE": [
@@ -25145,31 +25145,31 @@
   "ui-bulk-edit.uploaderSubTitle.instance": [
     {
       "type": 0,
-      "value": "Select a file with record identifiers"
+      "value": "Select a file with record identifiers."
     }
   ],
   "ui-bulk-edit.uploaderSubTitle.instance.HRID": [
     {
       "type": 0,
-      "value": "Select a file with instance HRIDs"
+      "value": "Select a file with instance HRIDs."
     }
   ],
   "ui-bulk-edit.uploaderSubTitle.instance.ID": [
     {
       "type": 0,
-      "value": "Select a file with instance UUIDs"
+      "value": "Select a file with instance UUIDs."
     }
   ],
   "ui-bulk-edit.uploaderSubTitle.instance.ISBN": [
     {
       "type": 0,
-      "value": "Select a file with ISBN"
+      "value": "Select a file with ISBN."
     }
   ],
   "ui-bulk-edit.uploaderSubTitle.instance.ISSN": [
     {
       "type": 0,
-      "value": "Select a file with ISSN"
+      "value": "Select a file with ISSN."
     }
   ],
   "ui-bulk-edit.uploaderSubTitle.item": [
@@ -25223,31 +25223,31 @@
   "ui-bulk-edit.uploaderSubTitle.user": [
     {
       "type": 0,
-      "value": "Select a file with record identifiers"
+      "value": "Select a file with record identifiers."
     }
   ],
   "ui-bulk-edit.uploaderSubTitle.user.BARCODE": [
     {
       "type": 0,
-      "value": "Select a file with User Barcodes"
+      "value": "Select a file with User Barcodes."
     }
   ],
   "ui-bulk-edit.uploaderSubTitle.user.EXTERNAL_SYSTEM_ID": [
     {
       "type": 0,
-      "value": "Select a file with External IDs"
+      "value": "Select a file with External IDs."
     }
   ],
   "ui-bulk-edit.uploaderSubTitle.user.ID": [
     {
       "type": 0,
-      "value": "Select a file with User UUIDs"
+      "value": "Select a file with User UUIDs."
     }
   ],
   "ui-bulk-edit.uploaderSubTitle.user.USER_NAME": [
     {
       "type": 0,
-      "value": "Select a file with Usernames"
+      "value": "Select a file with Usernames."
     }
   ],
   "ui-bulk-edit.uploaderTitle": [
@@ -123206,6 +123206,24 @@
       "value": "Präfix"
     }
   ],
+  "ui-service-interaction.settings.numberGeneratorSequences.section.checksumSettings": [
+    {
+      "type": 0,
+      "value": "Checksum settings"
+    }
+  ],
+  "ui-service-interaction.settings.numberGeneratorSequences.section.outputSettings": [
+    {
+      "type": 0,
+      "value": "Output settings"
+    }
+  ],
+  "ui-service-interaction.settings.numberGeneratorSequences.section.sequenceSettings": [
+    {
+      "type": 0,
+      "value": "Sequence settings"
+    }
+  ],
   "ui-service-interaction.settings.numberGeneratorSequences.tooltip.viewSequence": [
     {
       "type": 0,
@@ -132208,6 +132226,18 @@
       "value": "Forderungshistorie: Kann Accounts erstellen, bearbeiten und entfernen"
     }
   ],
+  "ui-users.permission.accounts.all": [
+    {
+      "type": 0,
+      "value": "Fee/Fine History: Can create, edit and remove accounts"
+    }
+  ],
+  "ui-users.permission.cash-drawer-report.execute": [
+    {
+      "type": 0,
+      "value": "Users: Create and download Cash drawer reconciliation report"
+    }
+  ],
   "ui-users.permission.cashDrawerReport": [
     {
       "type": 0,
@@ -132256,6 +132286,12 @@
       "value": "Personen: Kann Personen Servicestellen zuweisen und entziehen"
     }
   ],
+  "ui-users.permission.fee-fine-actions.all": [
+    {
+      "type": 0,
+      "value": "Fee/Fine Details: Can create, edit and remove fee/fine actions"
+    }
+  ],
   "ui-users.permission.feefineactions": [
     {
       "type": 0,
@@ -132274,10 +132310,64 @@
       "value": "Personen: Kann Forderungen ansehen"
     }
   ],
+  "ui-users.permission.financial-transaction-report.execute": [
+    {
+      "type": 0,
+      "value": "Users: Create and download Financial transaction detail report"
+    }
+  ],
   "ui-users.permission.financialTransactionReport": [
     {
       "type": 0,
       "value": "Personen: Bericht \"Finanztransaktionen\" erstellen und herunterladen"
+    }
+  ],
+  "ui-users.permission.loans-add-info.create": [
+    {
+      "type": 0,
+      "value": "Users: User loans: add staff or patron information"
+    }
+  ],
+  "ui-users.permission.loans-anonymize.execute": [
+    {
+      "type": 0,
+      "value": "Users: User loans anonymize"
+    }
+  ],
+  "ui-users.permission.loans-claim-item-returned.execute": [
+    {
+      "type": 0,
+      "value": "Users: User loans claim returned"
+    }
+  ],
+  "ui-users.permission.loans-declare-claimed-returned-item-as-missing.execute": [
+    {
+      "type": 0,
+      "value": "Users: User loans mark claimed returned missing"
+    }
+  ],
+  "ui-users.permission.loans-declare-item-lost.execute": [
+    {
+      "type": 0,
+      "value": "Users: User loans declare lost"
+    }
+  ],
+  "ui-users.permission.loans-due-date.edit": [
+    {
+      "type": 0,
+      "value": "Users: User loans change due date"
+    }
+  ],
+  "ui-users.permission.loans-renew-override.create": [
+    {
+      "type": 0,
+      "value": "Users: User loans renew through override"
+    }
+  ],
+  "ui-users.permission.loans-renew.create": [
+    {
+      "type": 0,
+      "value": "Users: User loans renew"
     }
   ],
   "ui-users.permission.loans.add-patron-info": [
@@ -132340,10 +132430,40 @@
       "value": "Personen: Ausleihen anzeigen"
     }
   ],
+  "ui-users.permission.lost-items-requiring-actual-cost.execute": [
+    {
+      "type": 0,
+      "value": "Users: Can process lost items requiring actual cost"
+    }
+  ],
   "ui-users.permission.lost-items.requiring-actual-cost": [
     {
       "type": 0,
       "value": "Personen: Kann verlorene Exemplare bearbeiten, die tatsächliche Kosten erfordern"
+    }
+  ],
+  "ui-users.permission.manual-charge.execute": [
+    {
+      "type": 0,
+      "value": "Fees/Fines: Can charge"
+    }
+  ],
+  "ui-users.permission.manual-pay.execute": [
+    {
+      "type": 0,
+      "value": "Fees/Fines: Can pay"
+    }
+  ],
+  "ui-users.permission.manual-process-refunds-report.execute": [
+    {
+      "type": 0,
+      "value": "Users: Create and download Refunds to process manually report"
+    }
+  ],
+  "ui-users.permission.manual-waive.execute": [
+    {
+      "type": 0,
+      "value": "Fees/Fines: Can waive"
     }
   ],
   "ui-users.permission.manualProcessRefundsReport": [
@@ -132370,10 +132490,28 @@
       "value": "Forderungen: Kann erlassen"
     }
   ],
+  "ui-users.permission.open-transactions.view": [
+    {
+      "type": 0,
+      "value": "Users: Can check open transactions"
+    }
+  ],
   "ui-users.permission.opentransactions": [
     {
       "type": 0,
       "value": "Personen: Kann offene Transaktionen öffnen"
+    }
+  ],
+  "ui-users.permission.override-item-block.execute": [
+    {
+      "type": 0,
+      "value": "User: Can override item blocks"
+    }
+  ],
+  "ui-users.permission.override-patron-block.execute": [
+    {
+      "type": 0,
+      "value": "User: Can override patron blocks"
     }
   ],
   "ui-users.permission.overrideItemBlock": [
@@ -132386,6 +132524,24 @@
     {
       "type": 0,
       "value": "Personen: Kann Kontosperren umgehen"
+    }
+  ],
+  "ui-users.permission.patron-blocks.all": [
+    {
+      "type": 0,
+      "value": "Users: Can create, edit and remove patron blocks"
+    }
+  ],
+  "ui-users.permission.patron-notice-print-jobs.delete": [
+    {
+      "type": 0,
+      "value": "Users: View and remove patron notice print jobs"
+    }
+  ],
+  "ui-users.permission.patron-notice-print-jobs.view": [
+    {
+      "type": 0,
+      "value": "Users: View patron notice print jobs"
     }
   ],
   "ui-users.permission.patron-pre-registrations-view": [
@@ -132412,6 +132568,18 @@
       "value": "Personen: Kann Kontosperren erstellen, bearbeiten und entfernen"
     }
   ],
+  "ui-users.permission.perms.edit": [
+    {
+      "type": 0,
+      "value": "Users: Can assign and unassign permissions to users"
+    }
+  ],
+  "ui-users.permission.perms.view": [
+    {
+      "type": 0,
+      "value": "Users: Can view permissions assigned to users"
+    }
+  ],
   "ui-users.permission.profile-pictures.all": [
     {
       "type": 0,
@@ -132422,6 +132590,18 @@
     {
       "type": 0,
       "value": "Personen: Kann Profilbilder einsehen"
+    }
+  ],
+  "ui-users.permission.proxies.edit": [
+    {
+      "type": 0,
+      "value": "Users: Can create, edit and remove proxies"
+    }
+  ],
+  "ui-users.permission.proxies.view": [
+    {
+      "type": 0,
+      "value": "Users: Can view proxies assigned to users"
     }
   ],
   "ui-users.permission.reading-room-access.edit": [
@@ -132782,6 +132962,18 @@
     {
       "type": 0,
       "value": "Einstellungen (Personen): Kann Gründe für einen Erlass von Forderungen einsehen"
+    }
+  ],
+  "ui-users.permission.user-service-points.edit": [
+    {
+      "type": 0,
+      "value": "Users: Can assign and unassign service points to users"
+    }
+  ],
+  "ui-users.permission.user-service-points.view": [
+    {
+      "type": 0,
+      "value": "Users: Can view service points assigned to users"
     }
   ],
   "ui-users.permission.view": [
