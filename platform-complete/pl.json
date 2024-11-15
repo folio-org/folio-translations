@@ -1550,6 +1550,12 @@
       "value": "Record deleted"
     }
   ],
+  "stripes-acq-components.versionHistory.noVersion": [
+    {
+      "type": 0,
+      "value": "No version history to display."
+    }
+  ],
   "stripes-acq-components.versionHistory.pane.header": [
     {
       "type": 0,
@@ -15005,7 +15011,7 @@
     },
     {
       "type": 0,
-      "value": " Agreement "
+      "value": " Umowa "
     },
     {
       "offset": 0,
@@ -15014,7 +15020,7 @@
           "value": [
             {
               "type": 0,
-              "value": "line"
+              "value": "pozycja"
             }
           ]
         },
@@ -15022,7 +15028,7 @@
           "value": [
             {
               "type": 0,
-              "value": "lines"
+              "value": "pozycje"
             }
           ]
         }
@@ -15141,7 +15147,7 @@
   "ui-agreements.agreementLines.createAnother": [
     {
       "type": 0,
-      "value": "Create another"
+      "value": "Utwórz jeszcze jeden"
     }
   ],
   "ui-agreements.agreementLines.createLine": [
@@ -15279,7 +15285,7 @@
   "ui-agreements.agreementLines.lineType.detached": [
     {
       "type": 0,
-      "value": "Unlinked"
+      "value": "Niepołączona"
     }
   ],
   "ui-agreements.agreementLines.lineType.external": [
@@ -15297,7 +15303,7 @@
   "ui-agreements.agreementLines.nameReference": [
     {
       "type": 0,
-      "value": "Name/Reference"
+      "value": "Nazwa/Odsyłacz"
     }
   ],
   "ui-agreements.agreementLines.net": [
@@ -15551,7 +15557,7 @@
   "ui-agreements.agreements.agreementLineCount": [
     {
       "type": 0,
-      "value": "Agreement has "
+      "value": "Umowa ma "
     },
     {
       "style": null,
@@ -15560,7 +15566,7 @@
     },
     {
       "type": 0,
-      "value": " agreement "
+      "value": " umowa "
     },
     {
       "offset": 0,
@@ -15569,7 +15575,7 @@
           "value": [
             {
               "type": 0,
-              "value": "line"
+              "value": "pozycja"
             }
           ]
         },
@@ -15577,7 +15583,7 @@
           "value": [
             {
               "type": 0,
-              "value": "lines"
+              "value": "pozycje"
             }
           ]
         }
@@ -15816,7 +15822,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Exporting agreement:"
+          "value": "Eksportowanie umowy:"
         }
       ],
       "type": 8,
@@ -15824,7 +15830,7 @@
     },
     {
       "type": 0,
-      "value": " The JSON file will download to your browser when complete. If the agreement has a large number of titles this may take some time."
+      "value": " Po zakończeniu pobierania plik JSON zostanie pobrany do przeglądarki. Jeśli umowa zawiera dużo tytułów, może to zająć trochę czasu."
     }
   ],
   "ui-agreements.agreements.financeReports": [
@@ -16048,7 +16054,7 @@
   "ui-agreements.alternativeName": [
     {
       "type": 0,
-      "value": "Alternative name"
+      "value": "Wariant nazwy"
     }
   ],
   "ui-agreements.alternativeNames": [
@@ -16695,7 +16701,7 @@
   "ui-agreements.customProperties.value": [
     {
       "type": 0,
-      "value": "Value(s)"
+      "value": "Wartość(i)"
     }
   ],
   "ui-agreements.customProperties.visibility": [
@@ -16966,7 +16972,7 @@
   "ui-agreements.documents.addDocs": [
     {
       "type": 0,
-      "value": "Add document"
+      "value": "Dodaj dokument"
     }
   ],
   "ui-agreements.duplicateAgreementModal.agreementInfo": [
@@ -17122,7 +17128,7 @@
   "ui-agreements.emptyAccordion.documents": [
     {
       "type": 0,
-      "value": "No documents for this agreement line "
+      "value": "Brak dokumentów dla tej pozycji umowy"
     }
   ],
   "ui-agreements.emptyAccordion.externalLicenses": [
@@ -17602,7 +17608,7 @@
   "ui-agreements.eresources.electronicTitle": [
     {
       "type": 0,
-      "value": "Electronic title \""
+      "value": "Tytuł elektroniczny \""
     },
     {
       "type": 1,
@@ -17836,7 +17842,7 @@
   "ui-agreements.eresources.relatedTitle.infoPopover": [
     {
       "type": 0,
-      "value": "Open the electronic title to view: options for acquiring the title, any linked agreements and further title details."
+      "value": "Otwórz tytuł elektroniczny aby wyświetlić: opcje nabycia tytułu, wszelkie powiązane umowy dalsze szczegóły dotyczące tytułu."
     }
   ],
   "ui-agreements.eresources.removePackage": [
@@ -18694,7 +18700,7 @@
   "ui-agreements.line.documents": [
     {
       "type": 0,
-      "value": "Documents"
+      "value": "Dokumenty"
     }
   ],
   "ui-agreements.line.edit": [
@@ -18851,7 +18857,7 @@
   "ui-agreements.open.linkInNewTab": [
     {
       "type": 0,
-      "value": "(opens in new tab)"
+      "value": "otwiera się w nowej karcie"
     }
   ],
   "ui-agreements.openAccessProperties": [
@@ -19079,7 +19085,7 @@
   "ui-agreements.packages.alternateResourceName": [
     {
       "type": 0,
-      "value": "Alternative name"
+      "value": "Wariant nazwy"
     }
   ],
   "ui-agreements.packages.description": [
@@ -19103,7 +19109,7 @@
   "ui-agreements.packages.source": [
     {
       "type": 0,
-      "value": "Source (external data source)"
+      "value": "Źródło (zewnętrzne źródło danych)"
     }
   ],
   "ui-agreements.pci.addCoverage": [
@@ -20163,19 +20169,19 @@
   "ui-agreements.relationship.inward.provides_post-cancellation_access_for": [
     {
       "type": 0,
-      "value": "has post-cancellation access in"
+      "value": "ma dostęp po anulowaniu"
     }
   ],
   "ui-agreements.relationship.inward.related_to": [
     {
       "type": 0,
-      "value": "related to"
+      "value": "związany z"
     }
   ],
   "ui-agreements.relationship.inward.supersedes": [
     {
       "type": 0,
-      "value": "is superseded by"
+      "value": "jest zastąpiony przez"
     }
   ],
   "ui-agreements.relationship.inward.tracks_demand-driven_acquisitions_for": [
@@ -20187,25 +20193,25 @@
   "ui-agreements.relationship.outward.has_backfile_in": [
     {
       "type": 0,
-      "value": "has backfile in"
+      "value": "ma plik archiwalny w"
     }
   ],
   "ui-agreements.relationship.outward.provides_post-cancellation_access_for": [
     {
       "type": 0,
-      "value": "provides post-cancellation access for"
+      "value": "zapewnia dostęp po anulowaniu"
     }
   ],
   "ui-agreements.relationship.outward.related_to": [
     {
       "type": 0,
-      "value": "related to"
+      "value": "związany z"
     }
   ],
   "ui-agreements.relationship.outward.supersedes": [
     {
       "type": 0,
-      "value": "supersedes"
+      "value": "zastępuje"
     }
   ],
   "ui-agreements.relationship.outward.tracks_demand-driven_acquisitions_for": [
@@ -20493,7 +20499,7 @@
   "ui-agreements.settings.pickListSelect": [
     {
       "type": 0,
-      "value": "Select pick list"
+      "value": "Wybierz listę wyboru"
     }
   ],
   "ui-agreements.settings.pickListValues": [
@@ -20904,7 +20910,7 @@
   "ui-agreements.titles.alternateResourceName": [
     {
       "type": 0,
-      "value": "Alternative name"
+      "value": "Wariant nazwy"
     }
   ],
   "ui-agreements.titles.description": [
@@ -22471,7 +22477,7 @@
   "ui-bulk-edit.columns.USER.User name": [
     {
       "type": 0,
-      "value": "Username"
+      "value": "Nazwa użytkownika"
     }
   ],
   "ui-bulk-edit.columns.accessionNumber": [
@@ -22645,7 +22651,7 @@
   "ui-bulk-edit.columns.logs.approach": [
     {
       "type": 0,
-      "value": "Editing"
+      "value": "Edytowanie"
     }
   ],
   "ui-bulk-edit.columns.logs.editing": [
@@ -22663,7 +22669,7 @@
   "ui-bulk-edit.columns.logs.entityType": [
     {
       "type": 0,
-      "value": "Record type"
+      "value": "Rodzaj rekordu"
     }
   ],
   "ui-bulk-edit.columns.logs.hrId": [
@@ -22687,13 +22693,13 @@
   "ui-bulk-edit.columns.logs.processedNumOfRecords": [
     {
       "type": 0,
-      "value": "Processed"
+      "value": "Przetworzony"
     }
   ],
   "ui-bulk-edit.columns.logs.startTime": [
     {
       "type": 0,
-      "value": "Started"
+      "value": "Rozpoczęcie"
     }
   ],
   "ui-bulk-edit.columns.logs.status": [
@@ -22705,13 +22711,13 @@
   "ui-bulk-edit.columns.logs.totalNumOfRecords": [
     {
       "type": 0,
-      "value": "# of records"
+      "value": "Liczba rekordów"
     }
   ],
   "ui-bulk-edit.columns.logs.userId": [
     {
       "type": 0,
-      "value": "Run by"
+      "value": "Uruchomione przez"
     }
   ],
   "ui-bulk-edit.columns.materialType": [
@@ -23316,7 +23322,7 @@
   "ui-bulk-edit.list.criteriaTitle": [
     {
       "type": 0,
-      "value": "Set criteria"
+      "value": "Ustaw kryteria"
     }
   ],
   "ui-bulk-edit.list.errors.info": [
@@ -23580,7 +23586,7 @@
   "ui-bulk-edit.list.filters.capabilities.title": [
     {
       "type": 0,
-      "value": "Record types"
+      "value": "Rodzaje rekordu"
     }
   ],
   "ui-bulk-edit.list.filters.capabilities.users": [
@@ -23616,7 +23622,7 @@
   "ui-bulk-edit.list.filters.recordIdentifier.externalIDs": [
     {
       "type": 0,
-      "value": "External IDs"
+      "value": "Identyfikatory zewnętrzne"
     }
   ],
   "ui-bulk-edit.list.filters.recordIdentifier.holdings.holdingsHRID": [
@@ -23724,7 +23730,7 @@
   "ui-bulk-edit.list.filters.recordIdentifier.usernames": [
     {
       "type": 0,
-      "value": "Usernames"
+      "value": "Nazwy użytkowników"
     }
   ],
   "ui-bulk-edit.list.logSubTitle": [
@@ -23848,7 +23854,7 @@
   "ui-bulk-edit.list.preview.table.status.true": [
     {
       "type": 0,
-      "value": "Aktywne"
+      "value": "Aktywny"
     }
   ],
   "ui-bulk-edit.list.preview.table.username": [
@@ -24262,7 +24268,7 @@
   "ui-bulk-edit.logs.filter.title.capability": [
     {
       "type": 0,
-      "value": "Record types"
+      "value": "Rodzaje rekordu"
     }
   ],
   "ui-bulk-edit.logs.filter.title.status": [
@@ -24286,7 +24292,7 @@
   "ui-bulk-edit.logs.filter.user.placeholder": [
     {
       "type": 0,
-      "value": "Choose user"
+      "value": "Wybierz użytkownika"
     }
   ],
   "ui-bulk-edit.logs.filter.user.placeholder.empty": [
@@ -24805,7 +24811,7 @@
   "ui-bulk-edit.previewModal.message.empty.marc": [
     {
       "type": 0,
-      "value": "All instances have source FOLIO.  Use “Instances and  Administrative data” option for bulk edit."
+      "value": "All instances have source FOLIO. Use “Instances and  Administrative data” option for bulk edit."
     }
   ],
   "ui-bulk-edit.previewModal.previewToBeChanged": [
@@ -25541,7 +25547,7 @@
   "ui-calendar.calendarForm.openClosedSelect.closed": [
     {
       "type": 0,
-      "value": "Zamknięte"
+      "value": "Zamknięty"
     }
   ],
   "ui-calendar.calendarForm.openClosedSelect.open": [
@@ -25853,7 +25859,7 @@
   "ui-calendar.currentStatus.closed.noNext": [
     {
       "type": 0,
-      "value": "Closed"
+      "value": "Zamknięty"
     }
   ],
   "ui-calendar.currentStatus.closed.otherWeekday": [
@@ -26061,7 +26067,7 @@
   "ui-calendar.currentStatus.open.noNext": [
     {
       "type": 0,
-      "value": "Open"
+      "value": "Otwarte"
     }
   ],
   "ui-calendar.currentStatus.open.otherWeekday": [
@@ -26347,7 +26353,7 @@
   "ui-calendar.infoPane.accordion.hours.open": [
     {
       "type": 0,
-      "value": "Open"
+      "value": "Otwarte"
     }
   ],
   "ui-calendar.infoPane.accordion.infoLabel": [
@@ -26441,7 +26447,7 @@
   "ui-calendar.infoPane.display.closed": [
     {
       "type": 0,
-      "value": "Closed"
+      "value": "Zamknięty"
     }
   ],
   "ui-calendar.infoPane.display.closesAfterMidnight": [
@@ -26565,7 +26571,7 @@
   "ui-calendar.monthlyCalendarView.day.closed": [
     {
       "type": 0,
-      "value": "Zamknięte"
+      "value": "Zamknięty"
     }
   ],
   "ui-calendar.monthlyCalendarView.day.timeRange": [
@@ -31024,7 +31030,7 @@
   "ui-circulation.settings.checkout.identifiers.username": [
     {
       "type": 0,
-      "value": "Username"
+      "value": "Nazwa użytkownika"
     }
   ],
   "ui-circulation.settings.checkout.minutes": [
@@ -32360,7 +32366,7 @@
   "ui-circulation.settings.loanPolicy.about": [
     {
       "type": 0,
-      "value": "O regule wypożyczeń"
+      "value": "Opis"
     }
   ],
   "ui-circulation.settings.loanPolicy.altFDDSDueDateLimit": [
@@ -48759,7 +48765,7 @@
   "ui-data-import.settings.mappingProfiles.map.order.donorInformation.donor": [
     {
       "type": 0,
-      "value": "Donor"
+      "value": "Darczyńca"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.order.donorInformation.field.donors.addLabel": [
@@ -49353,7 +49359,7 @@
   "ui-data-import.settings.mappingProfiles.map.order.orderInformation.field.open": [
     {
       "type": 0,
-      "value": "Open"
+      "value": "Otwarte"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.order.orderInformation.field.orderType": [
@@ -49695,7 +49701,7 @@
   "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.donor": [
     {
       "type": 0,
-      "value": "Donor"
+      "value": "Darczyńca"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.field.acquisitionMethod": [
@@ -49731,7 +49737,7 @@
   "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.field.donor": [
     {
       "type": 0,
-      "value": "Donor"
+      "value": "Darczyńca"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.field.electronicResource": [
@@ -53650,7 +53656,7 @@
   "ui-developer.userLocale.username": [
     {
       "type": 0,
-      "value": "Username"
+      "value": "Nazwa użytkownika"
     }
   ],
   "ui-eholdings.accessType.novalue": [
@@ -58975,7 +58981,7 @@
   "ui-erm-comparisons.meta.title": [
     {
       "type": 0,
-      "value": "Porównania e-zasobów"
+      "value": "Porównania e-Zasobów"
     }
   ],
   "ui-erm-comparisons.newComparison.addAgreement": [
@@ -62544,7 +62550,7 @@
   "ui-finance.budget.status.closed": [
     {
       "type": 0,
-      "value": "Zamknięte"
+      "value": "Zamknięty"
     }
   ],
   "ui-finance.budget.status.frozen": [
@@ -63838,7 +63844,7 @@
   "ui-finance.invoice.status.Open": [
     {
       "type": 0,
-      "value": "Open"
+      "value": "Otwarte"
     }
   ],
   "ui-finance.invoice.status.Reviewed": [
@@ -66215,7 +66221,7 @@
   "ui-gobi-settings.order.mappings.field.donor": [
     {
       "type": 0,
-      "value": "Donor"
+      "value": "Darczyńca"
     }
   ],
   "ui-gobi-settings.order.mappings.field.edition": [
@@ -70348,13 +70354,13 @@
   "ui-inventory.acq.orderStatus.Closed": [
     {
       "type": 0,
-      "value": "Closed"
+      "value": "Zamknięty"
     }
   ],
   "ui-inventory.acq.orderStatus.Open": [
     {
       "type": 0,
-      "value": "Open"
+      "value": "Otwarte"
     }
   ],
   "ui-inventory.acq.orderStatus.Pending": [
@@ -70420,7 +70426,7 @@
   "ui-inventory.acq.receiptStatus.Fully Received": [
     {
       "type": 0,
-      "value": "Fully received"
+      "value": "Otrzymane w całości"
     }
   ],
   "ui-inventory.acq.receiptStatus.Ongoing": [
@@ -81448,7 +81454,7 @@
   "ui-ldp.settings.dbinfo.pass": "Password (write-only)",
   "ui-ldp.settings.dbinfo.update.ok": "Updated database configuration",
   "ui-ldp.settings.dbinfo.url": "Database URL",
-  "ui-ldp.settings.dbinfo.user": "Username",
+  "ui-ldp.settings.dbinfo.user": "Nazwa użytkownika",
   "ui-ldp.settings.record-limits": "Record limits",
   "ui-ldp.settings.record-limits.default-show": "Default number to show",
   "ui-ldp.settings.record-limits.max-export": "Maximum number to export",
@@ -81466,7 +81472,7 @@
   "ui-ldp.settings.tqrepos.branch": "Branch of the specified repository",
   "ui-ldp.settings.tqrepos.directory": "Directory within repository",
   "ui-ldp.settings.tqrepos.repo": "Repository name within user's area",
-  "ui-ldp.settings.tqrepos.type": "Type",
+  "ui-ldp.settings.tqrepos.type": "Rodzaj",
   "ui-ldp.settings.tqrepos.user": "Git site user",
   "ui-ldp.something-went-wrong": "Something went wrong.",
   "ui-ldp.templated-queries.column.displayName": "Display name",
@@ -82130,7 +82136,7 @@
   "ui-licenses.customProperties.value": [
     {
       "type": 0,
-      "value": "Value(s)"
+      "value": "Wartość(i)"
     }
   ],
   "ui-licenses.customProperties.visibility": [
@@ -82771,7 +82777,7 @@
   "ui-licenses.license.linkLicense": [
     {
       "type": 0,
-      "value": "Link license"
+      "value": "Połącz licencje"
     }
   ],
   "ui-licenses.license.linkLicenseToStart": [
@@ -84024,7 +84030,7 @@
   "ui-licenses.valueOrValues": [
     {
       "type": 0,
-      "value": "Value(s)"
+      "value": "Wartość(i)"
     }
   ],
   "ui-licenses.warn.clearEndDate": [
@@ -84540,13 +84546,13 @@
   "ui-lists.create-list.aside.record-types": [
     {
       "type": 0,
-      "value": "Record type"
+      "value": "Rodzaj rekordu"
     }
   ],
   "ui-lists.create-list.aside.set-criteria": [
     {
       "type": 0,
-      "value": "Set criteria"
+      "value": "Ustaw kryteria"
     }
   ],
   "ui-lists.create-list.aside.set-criteria-to-build": [
@@ -84936,7 +84942,7 @@
   "ui-lists.filter-label.record-types": [
     {
       "type": 0,
-      "value": "Record types"
+      "value": "Rodzaje rekordu"
     }
   ],
   "ui-lists.filter-label.status": [
@@ -85232,13 +85238,13 @@
   "ui-lists.mainPane.title": [
     {
       "type": 0,
-      "value": "Lists"
+      "value": "Listy"
     }
   ],
   "ui-lists.meta.title": [
     {
       "type": 0,
-      "value": "Lists"
+      "value": "Listy"
     }
   ],
   "ui-lists.missing-all-entity-type-permissions.heading": [
@@ -86756,7 +86762,7 @@
   "ui-local-kb-admin.meta.title": [
     {
       "type": 0,
-      "value": "Administrator lokalnej bazy wiedzy"
+      "value": "Lokalna Baza Wiedzy Admin"
     }
   ],
   "ui-local-kb-admin.metaSection.cursor": [
@@ -89732,7 +89738,7 @@
   "ui-oa.charge.invoiceLine.status.open": [
     {
       "type": 0,
-      "value": "Open"
+      "value": "Otwarte"
     }
   ],
   "ui-oa.charge.invoiceLine.total": [
@@ -90455,7 +90461,7 @@
   "ui-oa.correspondence.status.closed": [
     {
       "type": 0,
-      "value": "Closed"
+      "value": "Zamknięty"
     }
   ],
   "ui-oa.correspondence.status.responseNeeded": [
@@ -92440,7 +92446,7 @@
   "ui-oa.valueOrValues": [
     {
       "type": 0,
-      "value": "Value(s)"
+      "value": "Wartość(i)"
     }
   ],
   "ui-oa.yes": [
@@ -92772,7 +92778,7 @@
   "ui-oai-pmh.settings.logs.columns.started": [
     {
       "type": 0,
-      "value": "Started"
+      "value": "Rozpoczęcie"
     }
   ],
   "ui-oai-pmh.settings.logs.download": [
@@ -95484,7 +95490,7 @@
   "ui-orders.line.accordion.donor": [
     {
       "type": 0,
-      "value": "Donor"
+      "value": "Darczyńca"
     }
   ],
   "ui-orders.line.accordion.donorInformation": [
@@ -97976,7 +97982,7 @@
   "ui-orders.relatedAgreementLines.status.closed": [
     {
       "type": 0,
-      "value": "Zamknięte"
+      "value": "Zamknięty"
     }
   ],
   "ui-orders.relatedAgreementLines.status.draft": [
@@ -99853,7 +99859,7 @@
   "ui-orders.workflowStatus.closed": [
     {
       "type": 0,
-      "value": "Zamknięte"
+      "value": "Zamknięty"
     }
   ],
   "ui-orders.workflowStatus.open": [
@@ -101615,7 +101621,7 @@
   "ui-organizations.integration.ftp.username": [
     {
       "type": 0,
-      "value": "Username"
+      "value": "Nazwa użytkownika"
     }
   ],
   "ui-organizations.integration.info": [
@@ -102101,7 +102107,7 @@
   "ui-organizations.linkedAgreements.agreement.agreementStatus.closed": [
     {
       "type": 0,
-      "value": "Closed"
+      "value": "Zamknięty"
     }
   ],
   "ui-organizations.linkedAgreements.agreement.agreementStatus.draft": [
@@ -102113,7 +102119,7 @@
   "ui-organizations.linkedAgreements.agreement.agreementStatus.in_negotiation": [
     {
       "type": 0,
-      "value": "In negotiation"
+      "value": "W negocjacjach"
     }
   ],
   "ui-organizations.linkedAgreements.agreement.agreementStatus.requested": [
@@ -102980,7 +102986,7 @@
   "ui-organizations.summary.isDonor": [
     {
       "type": 0,
-      "value": "Donor"
+      "value": "Darczyńca"
     }
   ],
   "ui-organizations.summary.isVendor": [
@@ -104192,7 +104198,7 @@
   "ui-plugin-bursar-export.bursarExports.token.userInfo.username": [
     {
       "type": 0,
-      "value": "Username"
+      "value": "Nazwa użytkownika"
     }
   ],
   "ui-plugin-bursar-export.bursarExports.token.value": [
@@ -105525,7 +105531,7 @@
   "ui-plugin-find-agreement.agreements.endDate": [
     {
       "type": 0,
-      "value": "Data zakończenia"
+      "value": "Data końcowa"
     }
   ],
   "ui-plugin-find-agreement.agreements.internalContacts": [
@@ -105703,7 +105709,7 @@
   "ui-plugin-find-authority.button.link": [
     {
       "type": 0,
-      "value": "Link"
+      "value": "Połącz"
     }
   ],
   "ui-plugin-find-authority.button.link.tooltip": [
@@ -105747,7 +105753,7 @@
   "ui-plugin-find-authority.search-results-list.link": [
     {
       "type": 0,
-      "value": "Link"
+      "value": "Połącz"
     }
   ],
   "ui-plugin-find-authority.search-results-list.paneSub": [
@@ -107589,13 +107595,13 @@
   "ui-plugin-find-po-line.filter.linkedPackagePOLine.accordion.label": [
     {
       "type": 0,
-      "value": "Linked package POL"
+      "value": "Połączony pakiet pozycji zamówienia"
     }
   ],
   "ui-plugin-find-po-line.filter.linkedPackagePOLine.lookup.label": [
     {
       "type": 0,
-      "value": "Linked package POL lookup"
+      "value": "Połącz znalezioną pozycję zamówionego pakietu"
     }
   ],
   "ui-plugin-find-po-line.meta.title": [
@@ -114351,7 +114357,7 @@
   "ui-reading-room.patronLookup": [
     {
       "type": 0,
-      "value": "Patron look-up"
+      "value": "Znajdź czytelnika"
     }
   ],
   "ui-reading-room.permission.all": [
@@ -114363,7 +114369,7 @@
   "ui-reading-room.scanOrEnterPatronBarcode": [
     {
       "type": 0,
-      "value": "Scan or enter patron barcode"
+      "value": "Wprowadź kod kreskowy z karty bibliotecznej czytelnika"
     }
   ],
   "ui-reading-room.scanPatronCard": [
@@ -117087,7 +117093,7 @@
   "ui-requests-mediated.confirmItemList.columnName.effectiveCallNumber": [
     {
       "type": 0,
-      "value": "Effective call number string"
+      "value": "Aktualna sygnatura całkowita"
     }
   ],
   "ui-requests-mediated.confirmItemList.columnName.inTransitDate": [
@@ -117471,7 +117477,7 @@
   "ui-requests-mediated.form.requesterLookup.username": [
     {
       "type": 0,
-      "value": "Username"
+      "value": "Nazwa użytkownika"
     }
   ],
   "ui-requests-mediated.form.saveRequest.error": [
@@ -117687,7 +117693,7 @@
   "ui-requests-mediated.itemDetails.callNumber": [
     {
       "type": 0,
-      "value": "Effective call number string"
+      "value": "Aktualna sygnatura całkowita"
     }
   ],
   "ui-requests-mediated.itemDetails.contributor": [
@@ -117936,7 +117942,7 @@
   "ui-requests-mediated.mediatedRequestList.columnName.effectiveCallNumber": [
     {
       "type": 0,
-      "value": "Effective call number string"
+      "value": "Aktualna sygnatura całkowita"
     }
   ],
   "ui-requests-mediated.mediatedRequestList.columnName.itemBarcode": [
@@ -123313,13 +123319,13 @@
   "ui-service-interaction.settings.numberGeneratorSequences.checkDigitAlgo": [
     {
       "type": 0,
-      "value": "Checksum"
+      "value": "Method"
     }
   ],
   "ui-service-interaction.settings.numberGeneratorSequences.checkDigitAlgo.info": [
     {
       "type": 0,
-      "value": "The check method for the check digit. Select “None” for no checksum calculation - please see documentation for further information on checksum."
+      "value": "The checksum method for the check digit. Use the checksum input template to define what needs to be included in the calculation e.g. prefix or suffix."
     }
   ],
   "ui-service-interaction.settings.numberGeneratorSequences.checksumError": [
@@ -123425,7 +123431,7 @@
   "ui-service-interaction.settings.numberGeneratorSequences.format.info": [
     {
       "type": 0,
-      "value": "The Format field defines the length of the generated number. Use # to define the length without padding, e.g. \"####\". Or use a character to include padding. E.g. \"0000\" will set the length to 4 and add zeros to produce outputs such as 0045."
+      "value": "The Format field defines the length of the generated number without check digit and pre- and suffix. Use # to define the length without padding, e.g. \"####\". Or use a character to include padding. E.g. \"0000\" will set the length to 4 and add zeros to produce outputs such as 0045."
     }
   ],
   "ui-service-interaction.settings.numberGeneratorSequences.generator": [
@@ -123589,13 +123595,29 @@
   "ui-service-interaction.settings.numberGeneratorSequences.preChecksumTemplate": [
     {
       "type": 0,
-      "value": "Pre-checksum template"
+      "value": "Input template"
     }
   ],
   "ui-service-interaction.settings.numberGeneratorSequences.preChecksumTemplate.info": [
     {
       "type": 0,
-      "value": "The pre-checksum template defines the rules applied to create the number from which the checksum digit will be calculated. Templates are formed using Groovy. See below for more information."
+      "value": "Create rules to define the number to be inputted when calculating the check digit. Both the prefix and suffix can be templated, using Groovy markup. Use $"
+    },
+    {
+      "type": 1,
+      "value": "generated_number"
+    },
+    {
+      "type": 0,
+      "value": " as placeholder for the generated number. E.g. 05$"
+    },
+    {
+      "type": 1,
+      "value": "generated_number"
+    },
+    {
+      "type": 0,
+      "value": "01"
     }
   ],
   "ui-service-interaction.settings.numberGeneratorSequences.prefix": [
@@ -124733,7 +124755,7 @@
   "ui-tenant-settings.settings.location.locations.active": [
     {
       "type": 0,
-      "value": "Aktywne"
+      "value": "Aktywny"
     }
   ],
   "ui-tenant-settings.settings.location.locations.addDetails": [
@@ -126091,7 +126113,7 @@
   "ui-users.accounts.closed": [
     {
       "type": 0,
-      "value": "Zamknięte"
+      "value": "Zamknięty"
     }
   ],
   "ui-users.accounts.comment.error.enterComment": [
@@ -130643,7 +130665,7 @@
   "ui-users.loans.closed": [
     {
       "type": 0,
-      "value": "Zamknięte"
+      "value": "Zamknięty"
     }
   ],
   "ui-users.loans.closedLoans": [
@@ -131787,7 +131809,7 @@
   "ui-users.lostItems.list.filters.status.open": [
     {
       "type": 0,
-      "value": "Open"
+      "value": "Otwarte"
     }
   ],
   "ui-users.lostItems.list.searchResults": [
@@ -132357,7 +132379,7 @@
   "ui-users.lostItems.recordStatus.open": [
     {
       "type": 0,
-      "value": "Open"
+      "value": "Otwarte"
     }
   ],
   "ui-users.manualBlockTemplate": [
@@ -136076,7 +136098,7 @@
   "ui-users.stagingRecords.list.columnNames.action": [
     {
       "type": 0,
-      "value": "Action"
+      "value": "Akcje"
     }
   ],
   "ui-users.stagingRecords.list.columnNames.address": [

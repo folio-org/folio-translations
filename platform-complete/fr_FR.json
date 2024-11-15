@@ -1554,6 +1554,12 @@
       "value": "Record deleted"
     }
   ],
+  "stripes-acq-components.versionHistory.noVersion": [
+    {
+      "type": 0,
+      "value": "No version history to display."
+    }
+  ],
   "stripes-acq-components.versionHistory.pane.header": [
     {
       "type": 0,
@@ -15772,7 +15778,7 @@
   "ui-agreements.agreements.renewalPriority": [
     {
       "type": 0,
-      "value": "Priorité de renouvellement"
+      "value": "Priorité de prolongation"
     }
   ],
   "ui-agreements.agreements.reviewDate": [
@@ -21251,7 +21257,7 @@
   "ui-bulk-edit.columns.HOLDINGS_RECORD.Former holdings Id": [
     {
       "type": 0,
-      "value": "Former holdings Id"
+      "value": "ID des localisations précédentes"
     }
   ],
   "ui-bulk-edit.columns.HOLDINGS_RECORD.Former ids": [
@@ -21269,31 +21275,31 @@
   "ui-bulk-edit.columns.HOLDINGS_RECORD.Holdings HRID": [
     {
       "type": 0,
-      "value": "Holdings HRID"
+      "value": "HRID de localisation"
     }
   ],
   "ui-bulk-edit.columns.HOLDINGS_RECORD.Holdings UUID": [
     {
       "type": 0,
-      "value": "Holdings UUID"
+      "value": "UUID des localisations"
     }
   ],
   "ui-bulk-edit.columns.HOLDINGS_RECORD.Holdings copy number": [
     {
       "type": 0,
-      "value": "Holdings copy number"
+      "value": "Localisations - Numéro d'exemplaire"
     }
   ],
   "ui-bulk-edit.columns.HOLDINGS_RECORD.Holdings level call number": [
     {
       "type": 0,
-      "value": "Holdings level call number"
+      "value": "Cote pour la localisation"
     }
   ],
   "ui-bulk-edit.columns.HOLDINGS_RECORD.Holdings level call number prefix": [
     {
       "type": 0,
-      "value": "Holdings level call number prefix"
+      "value": "Préfixe de cote pour la localisation"
     }
   ],
   "ui-bulk-edit.columns.HOLDINGS_RECORD.Holdings level call number suffix": [
@@ -21305,13 +21311,13 @@
   "ui-bulk-edit.columns.HOLDINGS_RECORD.Holdings level call number type": [
     {
       "type": 0,
-      "value": "Holdings level call number type"
+      "value": "Type de cote pour la localisation"
     }
   ],
   "ui-bulk-edit.columns.HOLDINGS_RECORD.Holdings permanent location": [
     {
       "type": 0,
-      "value": "Holdings permanent location"
+      "value": "Localisations - Emplacement permanent"
     }
   ],
   "ui-bulk-edit.columns.HOLDINGS_RECORD.Holdings record id": [
@@ -21359,7 +21365,7 @@
   "ui-bulk-edit.columns.HOLDINGS_RECORD.Holdings temporary location": [
     {
       "type": 0,
-      "value": "Holdings temporary location"
+      "value": "Localisations - Emplacement temporaire"
     }
   ],
   "ui-bulk-edit.columns.HOLDINGS_RECORD.Holdings type": [
@@ -22744,7 +22750,7 @@
   "ui-bulk-edit.layer.action.apply.STAFF_ONLY": [
     {
       "type": 0,
-      "value": "Staff only"
+      "value": "Pour le personnel uniquement"
     }
   ],
   "ui-bulk-edit.layer.action.applyItems": [
@@ -22996,7 +23002,7 @@
   "ui-bulk-edit.layer.options.items.markAsStaffOnly": [
     {
       "type": 0,
-      "value": "Mark as staff only"
+      "value": "Marquer comme pour le personnel uniquement"
     }
   ],
   "ui-bulk-edit.layer.options.items.removeAll": [
@@ -23942,7 +23948,7 @@
   "ui-bulk-edit.list.result.emptyMessage.user.ID": [
     {
       "type": 0,
-      "value": "Drag and drop or choose file with User UUIDs."
+      "value": "Glisser-déposer ou choisir un fichier avec les UUIDs des utilisateurs."
     }
   ],
   "ui-bulk-edit.list.result.emptyMessage.user.USER_NAME": [
@@ -24152,13 +24158,13 @@
   "ui-bulk-edit.logs.filter.title.user": [
     {
       "type": 0,
-      "value": "User"
+      "value": "Utilisateur"
     }
   ],
   "ui-bulk-edit.logs.filter.user.placeholder": [
     {
       "type": 0,
-      "value": "Choose user"
+      "value": "Choisir un utilisateur"
     }
   ],
   "ui-bulk-edit.logs.filter.user.placeholder.empty": [
@@ -24677,7 +24683,7 @@
   "ui-bulk-edit.previewModal.message.empty.marc": [
     {
       "type": 0,
-      "value": "All instances have source FOLIO.  Use “Instances and  Administrative data” option for bulk edit."
+      "value": "All instances have source FOLIO. Use “Instances and  Administrative data” option for bulk edit."
     }
   ],
   "ui-bulk-edit.previewModal.previewToBeChanged": [
@@ -30280,13 +30286,13 @@
   "ui-circulation-log.logEvent.action.Renewed": [
     {
       "type": 0,
-      "value": "Renouvelé"
+      "value": "Prolongé"
     }
   ],
   "ui-circulation-log.logEvent.action.Renewed through override": [
     {
       "type": 0,
-      "value": "Renouvelé en outrepassant"
+      "value": "Prolongé en outrepassant"
     }
   ],
   "ui-circulation-log.logEvent.action.Request status changed": [
@@ -30310,7 +30316,7 @@
   "ui-circulation-log.logEvent.action.Staff info added": [
     {
       "type": 0,
-      "value": "Informations personnel ajoutées"
+      "value": "Informations du personnel ajoutées"
     }
   ],
   "ui-circulation-log.logEvent.action.Staff information only added": [
@@ -30532,7 +30538,7 @@
   "ui-circulation-log.patronLookup": [
     {
       "type": 0,
-      "value": "Rechercher l'usager"
+      "value": "Rechercher un usager"
     }
   ],
   "ui-circulation-log.permission.log-event.all": [
@@ -31586,7 +31592,7 @@
   "ui-circulation.settings.finePolicy.forgiveOverdueFine": [
     {
       "type": 0,
-      "value": "Ignorer l'amende pour retard si l'exemplaire est renouvelé"
+      "value": "Ignorer l'amende pour retard si l'exemplaire est prolongé"
     }
   ],
   "ui-circulation.settings.finePolicy.generalInformation": [
@@ -32062,7 +32068,7 @@
   "ui-circulation.settings.index.staffSlips": [
     {
       "type": 0,
-      "value": "Bordereaux/tickets pour le personnel"
+      "value": "Bordereaux du personnel"
     }
   ],
   "ui-circulation.settings.index.titleLevelRequests": [
@@ -32238,13 +32244,13 @@
   "ui-circulation.settings.loanPolicy.altFDDSDueDateLimit": [
     {
       "type": 0,
-      "value": "Calendrier alternatif d'échéance fixe (date limite) pour les renouvellements"
+      "value": "Calendrier alternatif d'échéance fixe (date limite) pour les prolongations"
     }
   ],
   "ui-circulation.settings.loanPolicy.altFDDSforRenewals": [
     {
       "type": 0,
-      "value": "Calendrier alternatif d'échéance fixe pour les renouvellements"
+      "value": "Calendrier alternatif d'échéance fixe pour les prolongations"
     }
   ],
   "ui-circulation.settings.loanPolicy.alternateLoanPeriodExisting": [
@@ -32256,7 +32262,7 @@
   "ui-circulation.settings.loanPolicy.alternateLoanPeriodRenewals": [
     {
       "type": 0,
-      "value": "Autre période de prêt pour les renouvellements"
+      "value": "Autre période de prêt pour les prolongations"
     }
   ],
   "ui-circulation.settings.loanPolicy.closedDueDateMgmt": [
@@ -32394,7 +32400,7 @@
   "ui-circulation.settings.loanPolicy.numRenewalsAllowed": [
     {
       "type": 0,
-      "value": "Nombre de renouvellements autorisés"
+      "value": "Nombre de prolongations autorisés"
     }
   ],
   "ui-circulation.settings.loanPolicy.openingTimeOffset": [
@@ -32442,7 +32448,7 @@
   "ui-circulation.settings.loanPolicy.renewFrom": [
     {
       "type": 0,
-      "value": "Renouveler à partir du"
+      "value": "Prolonger à partir du"
     }
   ],
   "ui-circulation.settings.loanPolicy.renewFrom.currentDueDate": [
@@ -32460,19 +32466,19 @@
   "ui-circulation.settings.loanPolicy.renewable": [
     {
       "type": 0,
-      "value": "Renouvelable"
+      "value": "Prolongeable"
     }
   ],
   "ui-circulation.settings.loanPolicy.renewalPeriodDifferent": [
     {
       "type": 0,
-      "value": "Période de renouvellement différente du prêt initial"
+      "value": "Période de prolongation différente du prêt initial"
     }
   ],
   "ui-circulation.settings.loanPolicy.renewals": [
     {
       "type": 0,
-      "value": "Renouvellements"
+      "value": "Prolongations"
     }
   ],
   "ui-circulation.settings.loanPolicy.saveAndClose": [
@@ -32520,7 +32526,7 @@
   "ui-circulation.settings.loanPolicy.unlimitedRenewals": [
     {
       "type": 0,
-      "value": "Renouvellements illimités"
+      "value": "Prolongations illimités"
     }
   ],
   "ui-circulation.settings.loanPolicy.yes": [
@@ -32674,7 +32680,7 @@
   "ui-circulation.settings.lostItemFee.lostItemReturned": [
     {
       "type": 0,
-      "value": "Si l'exemplaire perdu est restitué ou renouvelé"
+      "value": "Si l'exemplaire perdu est restitué ou prolongé"
     }
   ],
   "ui-circulation.settings.lostItemFee.lostItemSection": [
@@ -32756,7 +32762,7 @@
   "ui-circulation.settings.lostItemFee.returnedLostItemProcessingFee": [
     {
       "type": 0,
-      "value": "Si l'exemplaire perdu est restitué ou renouvelé, supprimer les frais de traitement d'exemplaire perdu"
+      "value": "Si l'exemplaire perdu est restitué ou prolongé, supprimer les frais de traitement d'exemplaire perdu"
     }
   ],
   "ui-circulation.settings.lostItemFee.selectInterval": [
@@ -32958,7 +32964,7 @@
   "ui-circulation.settings.noticePolicy.feeFineNotices.renewed": [
     {
       "type": 0,
-      "value": "Amende pour retard, renouvelé"
+      "value": "Amende pour retard, prolongé"
     }
   ],
   "ui-circulation.settings.noticePolicy.feeFineNotices.returned": [
@@ -33018,7 +33024,7 @@
   "ui-circulation.settings.noticePolicy.loanNotices.renewed": [
     {
       "type": 0,
-      "value": "Exemplaire renouvelé"
+      "value": "Exemplaire prolongé"
     }
   ],
   "ui-circulation.settings.noticePolicy.notices.after": [
@@ -33514,7 +33520,7 @@
   "ui-circulation.settings.requestManagement.alternateRenewalLoanPeriod": [
     {
       "type": 0,
-      "value": "Autre période de prêt lors du renouvellement d'un exemplaire avec une réservation en attente"
+      "value": "Autre période de prêt lors de la prolongation d'un exemplaire avec une réservation en attente"
     }
   ],
   "ui-circulation.settings.requestManagement.holds": [
@@ -33544,7 +33550,7 @@
   "ui-circulation.settings.requestManagement.renewItemsWithRequest": [
     {
       "type": 0,
-      "value": "Permettre le renouvellement des exemplaires avec une réservation en attente"
+      "value": "Permettre la prolongation des exemplaires avec une réservation en attente"
     }
   ],
   "ui-circulation.settings.requestManagement.requestManagement": [
@@ -33666,7 +33672,7 @@
   "ui-circulation.settings.staffSlips.borrowerTokenHeader": [
     {
       "type": 0,
-      "value": "Borrower"
+      "value": "Emprunteur"
     }
   ],
   "ui-circulation.settings.staffSlips.createStaffSlip": [
@@ -33678,21 +33684,13 @@
   "ui-circulation.settings.staffSlips.deleteStaffSlipMessage": [
     {
       "type": 0,
-      "value": "Le bordereau/ticket pour le personnel "
+      "value": "Le bordereau pour le personnel "
     },
     {
       "children": [
         {
-          "type": 0,
-          "value": " "
-        },
-        {
           "type": 1,
           "value": "name"
-        },
-        {
-          "type": 0,
-          "value": " "
         }
       ],
       "type": 8,
@@ -33706,7 +33704,7 @@
       "children": [
         {
           "type": 0,
-          "value": " supprimé "
+          "value": "supprimé"
         }
       ],
       "type": 8,
@@ -33732,7 +33730,7 @@
   "ui-circulation.settings.staffSlips.editLabel": [
     {
       "type": 0,
-      "value": "Modifier: tickets/bordereaux - "
+      "value": "Modifier : bordereaux du personnel - "
     },
     {
       "type": 1,
@@ -33748,13 +33746,13 @@
   "ui-circulation.settings.staffSlips.form.previewLabel": [
     {
       "type": 0,
-      "value": "Aperçu du ticket/bordereau pour le personnel"
+      "value": "Aperçu du bordereau pour le personnel"
     }
   ],
   "ui-circulation.settings.staffSlips.generalInformation": [
     {
       "type": 0,
-      "value": "General information"
+      "value": "Informations générales"
     }
   ],
   "ui-circulation.settings.staffSlips.hold": [
@@ -33772,25 +33770,25 @@
   "ui-circulation.settings.staffSlips.label": [
     {
       "type": 0,
-      "value": "Bordereau/ticket pour le personnel"
+      "value": "Bordereaux du personnel"
     }
   ],
   "ui-circulation.settings.staffSlips.loanTokenHeader": [
     {
       "type": 0,
-      "value": "Loan"
+      "value": "Prêt"
     }
   ],
   "ui-circulation.settings.staffSlips.name": [
     {
       "type": 0,
-      "value": "Nom de la fiche du personnel"
+      "value": "Nom du bordereau du personnel"
     }
   ],
   "ui-circulation.settings.staffSlips.new": [
     {
       "type": 0,
-      "value": "Nouveau bordereau/ticket pour le personnel"
+      "value": "Nouveau bordereau pour le personnel"
     }
   ],
   "ui-circulation.settings.staffSlips.preview": [
@@ -33826,25 +33824,25 @@
   "ui-circulation.settings.staffSlips.staffSlipTokenHeader": [
     {
       "type": 0,
-      "value": "Fiche du personnel"
+      "value": "Bordereau du personnel"
     }
   ],
   "ui-circulation.settings.staffSlips.templateContent": [
     {
       "type": 0,
-      "value": "Template content"
+      "value": "Contenu du modèle"
     }
   ],
   "ui-circulation.settings.staffSlips.untitledStaffSlip": [
     {
       "type": 0,
-      "value": "Nom du bordereau/ticket"
+      "value": "Nom du bordereau"
     }
   ],
   "ui-circulation.settings.staffSlips.view.previewLabel": [
     {
       "type": 0,
-      "value": "Aperçu du ticket/bordereau pour le personnel - "
+      "value": "Aperçu du bordereau pour le personnel - "
     },
     {
       "type": 1,
@@ -34119,17 +34117,13 @@
   ],
   "ui-circulation.settings.title.staffSlips": [
     {
-      "type": 0,
-      "value": "Staff "
-    },
-    {
       "offset": 0,
       "options": {
         "one": {
           "value": [
             {
               "type": 0,
-              "value": "slip"
+              "value": "bordereau"
             }
           ]
         },
@@ -34137,7 +34131,7 @@
           "value": [
             {
               "type": 0,
-              "value": "slips"
+              "value": "bordereaux"
             }
           ]
         }
@@ -34145,6 +34139,10 @@
       "pluralType": "cardinal",
       "type": 6,
       "value": "optionNumber"
+    },
+    {
+      "type": 0,
+      "value": " du personnel"
     }
   ],
   "ui-circulation.settings.title.titleLevelRequests": [
@@ -48511,7 +48509,7 @@
   "ui-data-import.settings.mappingProfiles.map.item.status.longMissing": [
     {
       "type": 0,
-      "value": "Long missing"
+      "value": "Manquant depuis longtemps"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.item.status.missing": [
@@ -54032,7 +54030,7 @@
   "ui-eholdings.exportPackageResources.fields.package.holdingStatus": [
     {
       "type": 0,
-      "value": "Holdings status"
+      "value": "Statut de la localisation"
     }
   ],
   "ui-eholdings.exportPackageResources.fields.package.id": [
@@ -54176,7 +54174,7 @@
   "ui-eholdings.exportPackageResources.fields.title.holdingStatus": [
     {
       "type": 0,
-      "value": "Holdings Status"
+      "value": "Statut de la localisation"
     }
   ],
   "ui-eholdings.exportPackageResources.fields.title.isbn_online": [
@@ -64026,7 +64024,7 @@
   "ui-finance.ledger.rollover.allowableExpenditure": [
     {
       "type": 0,
-      "value": "Dépenses autorisées,%"
+      "value": "Dépenses autorisées, %"
     }
   ],
   "ui-finance.ledger.rollover.available": [
@@ -64294,25 +64292,25 @@
   "ui-finance.ledger.rollover.restrictEncumbrance": [
     {
       "type": 0,
-      "value": "Ne pas restreindre les engagements"
+      "value": "Appliquer toutes les limites de budgets"
     }
   ],
   "ui-finance.ledger.rollover.restrictEncumbranceDuringRollover": [
     {
       "type": 0,
-      "value": "Enforce all budget encumbrance limits during rollover"
+      "value": "Appliquer toutes les limites de budgets lors du report"
     }
   ],
   "ui-finance.ledger.rollover.restrictExpenditures": [
     {
       "type": 0,
-      "value": "Enforce all budget expenditure limits"
+      "value": "Appliquer toutes les limites de dépenses budgétaires"
     }
   ],
   "ui-finance.ledger.rollover.restrictExpendituresDuringRollover": [
     {
       "type": 0,
-      "value": "Enforce all budget expenditure limits during rollover"
+      "value": "Appliquer toutes les limites de dépenses budgétaires lors du report"
     }
   ],
   "ui-finance.ledger.rollover.rollover": [
@@ -65123,7 +65121,7 @@
     },
     {
       "type": 0,
-      "value": " was not successfully allocated to the budget "
+      "value": " n'a pas été alloué avec succès au budget "
     },
     {
       "children": [
@@ -65137,7 +65135,7 @@
     },
     {
       "type": 0,
-      "value": " because it exceeds the total allocation amount of "
+      "value": " car il excède le montant total de l'allocation de "
     },
     {
       "children": [
@@ -65151,7 +65149,7 @@
     },
     {
       "type": 0,
-      "value": " and ledger fund restrictions are active"
+      "value": " et des restrictions sont actives."
     }
   ],
   "ui-finance.transaction.allocation.genericError": [
@@ -65989,7 +65987,7 @@
   "ui-gobi-settings.order.mappings.field.claimActive": [
     {
       "type": 0,
-      "value": "Claiming active"
+      "value": "Réclamation enclenchée"
     }
   ],
   "ui-gobi-settings.order.mappings.field.claimInterval": [
@@ -70248,7 +70246,7 @@
   "ui-inventory.acq.orderType.One-Time": [
     {
       "type": 0,
-      "value": "One-time"
+      "value": "Unique"
     }
   ],
   "ui-inventory.acq.orderType.Ongoing": [
@@ -72880,7 +72878,7 @@
   "ui-inventory.info.effectiveCallNumber": [
     {
       "type": 0,
-      "value": "Ce champ contient la cote de l'exemplaire, qui est soit hérité de la notice de holdings, soit la cote mise à jour de la notice de l'exemplaire. En parcourant les cotes, ce champ sera recherché."
+      "value": "Ce champ contient la cote de l'exemplaire, qui est soit hérité de la notice de localisations, soit la cote mise à jour de la notice de l'exemplaire. En parcourant les cotes, ce champ sera parcouru."
     }
   ],
   "ui-inventory.info.shelvingOrder": [
@@ -73577,7 +73575,7 @@
   "ui-inventory.item.status.longMissing.lowercase": [
     {
       "type": 0,
-      "value": "long missing"
+      "value": "manquant depuis longtemps"
     }
   ],
   "ui-inventory.item.status.lostAndPaid": [
@@ -75375,7 +75373,7 @@
   "ui-inventory.permission.items.mark-long-missing.execute": [
     {
       "type": 0,
-      "value": "Inventory: Mark items long missing"
+      "value": "Inventaire: Marquer comme Manquant depuis longtemps"
     }
   ],
   "ui-inventory.permission.items.mark-restricted": [
@@ -93451,7 +93449,7 @@
   "ui-orders.checkIn.pieceFormat.physical": [
     {
       "type": 0,
-      "value": "Physique"
+      "value": "Objet"
     }
   ],
   "ui-orders.checkIn.pieceStatus": [
@@ -94085,7 +94083,7 @@
   "ui-orders.errors.costQtyPhysicalExceedsLoc": [
     {
       "type": 0,
-      "value": "Cost's physical quantity exceeds locations' physical quantity"
+      "value": "La quantité physique du coût dépasse la quantité physique de l'emplacement"
     }
   ],
   "ui-orders.errors.costUnitPriceElectronicInvalid": [
@@ -94291,7 +94289,7 @@
   "ui-orders.errors.locQtyPhysicalExceedsCost": [
     {
       "type": 0,
-      "value": "Locations physical quantity exceeds cost physical quantity"
+      "value": "La quantité physique des emplacements dépasse la quantité physique du coût"
     }
   ],
   "ui-orders.errors.locationIdAndHoldingIdAbsentError": [
@@ -94423,7 +94421,7 @@
   "ui-orders.errors.ongoingNotAllowed": [
     {
       "type": 0,
-      "value": "Ongoing field must be absent for One-time order"
+      "value": "Le champ \"En continu\" doit être vide pour une commande Unique"
     }
   ],
   "ui-orders.errors.openOrder": [
@@ -96503,7 +96501,7 @@
   "ui-orders.order_type.oneTime": [
     {
       "type": 0,
-      "value": "Une seule fois"
+      "value": "Unique"
     }
   ],
   "ui-orders.order_type.ongoing": [
@@ -96929,7 +96927,7 @@
   "ui-orders.pieceFormat.physical": [
     {
       "type": 0,
-      "value": "Physique"
+      "value": "Objet"
     }
   ],
   "ui-orders.poLine": [
@@ -96977,7 +96975,7 @@
   "ui-orders.poLine.claimingActive": [
     {
       "type": 0,
-      "value": "Claiming active"
+      "value": "Réclamation enclenchée"
     }
   ],
   "ui-orders.poLine.claimingInterval": [
@@ -99566,7 +99564,7 @@
   "ui-orders.unopenOrderModal.message.independent": [
     {
       "type": 0,
-      "value": "This order has at least one order line with related Holdings record(s) that do not reference any pieces or items. Holdings with no other related items can be deleted from inventory if desired. How would you like to proceed?"
+      "value": "Cette commande possède au moins une ligne de commande avec une ou des notices de localisations associées qui ne font références à aucun élément ou exemplaire. Les localisations sans aucun exemplaire relié peuvent être supprimées du catalogue si vous le souhaitez. Comment souhaitez-vous procéder ?"
     }
   ],
   "ui-orders.unopenOrderModal.message.synchronized": [
@@ -104001,7 +103999,7 @@
   "ui-plugin-bursar-export.bursarExports.token.userData": [
     {
       "type": 0,
-      "value": "User info"
+      "value": "Informations utlisateur"
     }
   ],
   "ui-plugin-bursar-export.bursarExports.token.userInfo.barcode": [
@@ -104013,19 +104011,19 @@
   "ui-plugin-bursar-export.bursarExports.token.userInfo.extId": [
     {
       "type": 0,
-      "value": "External ID"
+      "value": "ID externe"
     }
   ],
   "ui-plugin-bursar-export.bursarExports.token.userInfo.firstname": [
     {
       "type": 0,
-      "value": "First name"
+      "value": "Prénom"
     }
   ],
   "ui-plugin-bursar-export.bursarExports.token.userInfo.folioId": [
     {
       "type": 0,
-      "value": "Folio ID"
+      "value": "ID Folio"
     }
   ],
   "ui-plugin-bursar-export.bursarExports.token.userInfo.groupId": [
@@ -104037,19 +104035,19 @@
   "ui-plugin-bursar-export.bursarExports.token.userInfo.lastname": [
     {
       "type": 0,
-      "value": "Last name"
+      "value": "Nom de famille"
     }
   ],
   "ui-plugin-bursar-export.bursarExports.token.userInfo.middlename": [
     {
       "type": 0,
-      "value": "Middle name"
+      "value": "Deuxième prénom"
     }
   ],
   "ui-plugin-bursar-export.bursarExports.token.userInfo.username": [
     {
       "type": 0,
-      "value": "Username"
+      "value": "Nom d'utilisateur"
     }
   ],
   "ui-plugin-bursar-export.bursarExports.token.value": [
@@ -106481,7 +106479,7 @@
   "ui-plugin-find-instance.item.status.longMissing": [
     {
       "type": 0,
-      "value": "Long missing"
+      "value": "Manquant depuis longtemps"
     }
   ],
   "ui-plugin-find-instance.item.status.lostAndPaid": [
@@ -107686,7 +107684,7 @@
   "ui-plugin-query-builder.error.sww": [
     {
       "type": 0,
-      "value": "Quelque chose s'est mal déroulé"
+      "value": "Une erreur s'est produite"
     }
   ],
   "ui-plugin-query-builder.meta.title": [
@@ -114216,7 +114214,7 @@
   "ui-reading-room.patronLookup": [
     {
       "type": 0,
-      "value": "Rechercher l'usager"
+      "value": "Rechercher un usager"
     }
   ],
   "ui-reading-room.permission.all": [
@@ -114270,7 +114268,7 @@
   "ui-reading-room.userDetail.patronGroup": [
     {
       "type": 0,
-      "value": "Patron group"
+      "value": "Groupe usagers"
     }
   ],
   "ui-reading-room.userDetail.preferredFirstName": [
@@ -115894,7 +115892,7 @@
   "ui-receiving.title.claimingActive": [
     {
       "type": 0,
-      "value": "Claiming active"
+      "value": "Réclamation enclenchée"
     }
   ],
   "ui-receiving.title.claimingInterval": [
@@ -116054,7 +116052,7 @@
   "ui-receiving.title.orderType.One-Time": [
     {
       "type": 0,
-      "value": "Une seule fois"
+      "value": "Unique"
     }
   ],
   "ui-receiving.title.orderType.Ongoing": [
@@ -118031,13 +118029,13 @@
   "ui-requests-mediated.notes.newStaffNote": [
     {
       "type": 0,
-      "value": "New staff note"
+      "value": "Nouvelle note du personnel"
     }
   ],
   "ui-requests-mediated.notes.staffNotes": [
     {
       "type": 0,
-      "value": "Staff notes"
+      "value": "Notes du personnel"
     }
   ],
   "ui-requests-mediated.permission.all": [
@@ -118193,7 +118191,7 @@
   "ui-requests-mediated.report.patronComments": [
     {
       "type": 0,
-      "value": "Patron comments"
+      "value": "Commentaires usager"
     }
   ],
   "ui-requests-mediated.report.pickupServicePoint.name": [
@@ -118241,7 +118239,7 @@
   "ui-requests-mediated.report.requester.patronGroup.group": [
     {
       "type": 0,
-      "value": "Requester patron group"
+      "value": "Groupe usager du réservataire"
     }
   ],
   "ui-requests-mediated.report.status": [
@@ -118879,7 +118877,7 @@
   "ui-requests.errors.userCannotBeProxyForThemselves": [
     {
       "type": 0,
-      "value": "User cannot be proxy for themselves"
+      "value": "L'utilisateur ne peut pas être mandataire pour lui-même."
     }
   ],
   "ui-requests.exportExpiredHoldShelfToCsv": [
@@ -119255,7 +119253,7 @@
   "ui-requests.item.status.longMissing": [
     {
       "type": 0,
-      "value": "Long missing"
+      "value": "Manquant depuis longtemps"
     }
   ],
   "ui-requests.item.status.lostAndPaid": [
@@ -123210,13 +123208,13 @@
   "ui-service-interaction.settings.numberGeneratorSequences.checkDigitAlgo": [
     {
       "type": 0,
-      "value": "Checksum"
+      "value": "Method"
     }
   ],
   "ui-service-interaction.settings.numberGeneratorSequences.checkDigitAlgo.info": [
     {
       "type": 0,
-      "value": "The check method for the check digit. Select “None” for no checksum calculation - please see documentation for further information on checksum."
+      "value": "The checksum method for the check digit. Use the checksum input template to define what needs to be included in the calculation e.g. prefix or suffix."
     }
   ],
   "ui-service-interaction.settings.numberGeneratorSequences.checksumError": [
@@ -123322,7 +123320,7 @@
   "ui-service-interaction.settings.numberGeneratorSequences.format.info": [
     {
       "type": 0,
-      "value": "The Format field defines the length of the generated number. Use # to define the length without padding, e.g. \"####\". Or use a character to include padding. E.g. \"0000\" will set the length to 4 and add zeros to produce outputs such as 0045."
+      "value": "The Format field defines the length of the generated number without check digit and pre- and suffix. Use # to define the length without padding, e.g. \"####\". Or use a character to include padding. E.g. \"0000\" will set the length to 4 and add zeros to produce outputs such as 0045."
     }
   ],
   "ui-service-interaction.settings.numberGeneratorSequences.generator": [
@@ -123486,13 +123484,29 @@
   "ui-service-interaction.settings.numberGeneratorSequences.preChecksumTemplate": [
     {
       "type": 0,
-      "value": "Pre-checksum template"
+      "value": "Input template"
     }
   ],
   "ui-service-interaction.settings.numberGeneratorSequences.preChecksumTemplate.info": [
     {
       "type": 0,
-      "value": "The pre-checksum template defines the rules applied to create the number from which the checksum digit will be calculated. Templates are formed using Groovy. See below for more information."
+      "value": "Create rules to define the number to be inputted when calculating the check digit. Both the prefix and suffix can be templated, using Groovy markup. Use $"
+    },
+    {
+      "type": 1,
+      "value": "generated_number"
+    },
+    {
+      "type": 0,
+      "value": " as placeholder for the generated number. E.g. 05$"
+    },
+    {
+      "type": 1,
+      "value": "generated_number"
+    },
+    {
+      "type": 0,
+      "value": "01"
     }
   ],
   "ui-service-interaction.settings.numberGeneratorSequences.prefix": [
@@ -127302,13 +127316,13 @@
   "ui-users.affiliations.manager.modal.changes.error": [
     {
       "type": 0,
-      "value": "User affiliation changes could not be saved."
+      "value": "La modification d'affiliation de l'utilisateur n'a pas pu être enregistrée"
     }
   ],
   "ui-users.affiliations.manager.modal.changes.error.hasPrimaryAffiliation": [
     {
       "type": 0,
-      "value": "User "
+      "value": "L'utilisateur "
     },
     {
       "type": 1,
@@ -127316,7 +127330,7 @@
     },
     {
       "type": 0,
-      "value": " must have primary affiliation, cannot remove affiliation to "
+      "value": " doit avoir une affiliation principale, impossible de supprimer l'affiliation de "
     },
     {
       "type": 1,
@@ -127340,7 +127354,7 @@
   "ui-users.affiliations.manager.modal.changes.error.permissionRequired": [
     {
       "type": 0,
-      "value": "You do not have the necessary permission to edit the affiliation(s) of "
+      "value": "Vous n'êtes pas autorisé(e) à modifier les affiliations de "
     },
     {
       "type": 1,
@@ -127350,7 +127364,7 @@
   "ui-users.affiliations.manager.modal.changes.success": [
     {
       "type": 0,
-      "value": "User affiliation changes have been saved successfully."
+      "value": "La modification d'affiliation de l'utilisateur a été enregistrée avec succès."
     }
   ],
   "ui-users.affiliations.manager.modal.generic.error.generic": [
@@ -127378,7 +127392,7 @@
   "ui-users.affiliations.manager.modal.warning.unassigned": [
     {
       "type": 0,
-      "value": "Unassigning an affiliation will remove all permissions associated with that affiliation for this user record."
+      "value": "La suppression d'une affiliation entraînera la suppression de toutes les autorisations liées à cette affiliation pour cet utilisateur"
     }
   ],
   "ui-users.affiliations.manager.result.subTitle": [
@@ -127546,7 +127560,7 @@
   "ui-users.blocks.columns.renewals": [
     {
       "type": 0,
-      "value": "Renouvellements"
+      "value": "Prolongations"
     }
   ],
   "ui-users.blocks.columns.requests": [
@@ -127650,7 +127664,7 @@
   "ui-users.blocks.form.label.renewals": [
     {
       "type": 0,
-      "value": "Renouvellements"
+      "value": "Prolongations"
     }
   ],
   "ui-users.blocks.form.label.requests": [
@@ -127686,7 +127700,7 @@
   "ui-users.blocks.form.placeholder.message": [
     {
       "type": 0,
-      "value": "Saisir un message pour l'usager (optionnel)"
+      "value": "Saisir un message pour l'usager (facultatif)"
     }
   ],
   "ui-users.blocks.form.validate.any": [
@@ -127746,7 +127760,7 @@
   "ui-users.blocks.modal.header": [
     {
       "type": 0,
-      "value": "Usager bloqué pour les renouvellements"
+      "value": "Usager bloqué pour les prolongations"
     }
   ],
   "ui-users.blocks.modal.overridePatronBlock.header": [
@@ -127776,7 +127790,7 @@
   "ui-users.brd.failedRenewal": [
     {
       "type": 0,
-      "value": "Exemplaire non renouvelé"
+      "value": "Exemplaire non prolongé"
     }
   ],
   "ui-users.brd.header.newDueDate": [
@@ -127788,7 +127802,7 @@
   "ui-users.brd.header.renewalStatus": [
     {
       "type": 0,
-      "value": "Statut du renouvellement"
+      "value": "Statut de la prolongation"
     }
   ],
   "ui-users.brd.header.title": [
@@ -127833,7 +127847,7 @@
             },
             {
               "type": 0,
-              "value": " renouvelé"
+              "value": " prolongé"
             }
           ]
         },
@@ -127855,7 +127869,7 @@
             },
             {
               "type": 0,
-              "value": " renouvelés"
+              "value": " prolongés"
             }
           ]
         }
@@ -127891,7 +127905,7 @@
           "value": [
             {
               "type": 0,
-              "value": "exemplaire renouvelé"
+              "value": "exemplaire prolongé"
             }
           ]
         },
@@ -127899,7 +127913,7 @@
           "value": [
             {
               "type": 0,
-              "value": "exemplaires renouvelés"
+              "value": "exemplaires prolongés"
             }
           ]
         }
@@ -127990,19 +128004,19 @@
   "ui-users.brd.overrideAndRenew": [
     {
       "type": 0,
-      "value": "Outrepasser et renouveler"
+      "value": "Outrepasser et prolonger"
     }
   ],
   "ui-users.brd.renewConfirmation": [
     {
       "type": 0,
-      "value": "Confirmation du renouvellement"
+      "value": "Confirmation de la prolongation"
     }
   ],
   "ui-users.brd.successfulRenewal": [
     {
       "type": 0,
-      "value": "Exemplaire renouvelé avec succès"
+      "value": "Exemplaire prolongé avec succès"
     }
   ],
   "ui-users.bulkActions.tooltip": [
@@ -128713,13 +128727,13 @@
   "ui-users.data.loanActionMap.renewed": [
     {
       "type": 0,
-      "value": "Renouvelé"
+      "value": "Prolongé"
     }
   ],
   "ui-users.data.loanActionMap.renewedThroughOverride": [
     {
       "type": 0,
-      "value": "Renouvelé en outrepassant"
+      "value": "Prolongé en outrepassant"
     }
   ],
   "ui-users.data.loanActionMap.source": [
@@ -128731,13 +128745,13 @@
   "ui-users.data.loanActionMap.staffInfo": [
     {
       "type": 0,
-      "value": "Staff info only"
+      "value": "Infos pour le personnel uniquement"
     }
   ],
   "ui-users.data.loanActionMap.staffInfo.superseded": [
     {
       "type": 0,
-      "value": "Informations personnel (OBSOLÈTE)"
+      "value": "Infos personnel (OBSOLÈTE)"
     }
   ],
   "ui-users.data.loanActionMap.unknownAction": [
@@ -129221,7 +129235,7 @@
   "ui-users.errors.loanNotRenewedReason": [
     {
       "type": 0,
-      "value": "Le prêt ne peut être renouvelé car: "
+      "value": "Le prêt ne peut être prolongé car : "
     },
     {
       "type": 1,
@@ -129397,7 +129411,7 @@
     },
     {
       "type": 0,
-      "value": " avant de réessayer le renouvellement."
+      "value": " avant de réessayer de prolonger."
     }
   ],
   "ui-users.errors.sponsors.duplicateUserMessage": [
@@ -130235,7 +130249,7 @@
   "ui-users.information.userType.system": [
     {
       "type": 0,
-      "value": "System"
+      "value": "Système"
     }
   ],
   "ui-users.information.username": [
@@ -130383,7 +130397,7 @@
   "ui-users.loanNotRenewed": [
     {
       "type": 0,
-      "value": "Prêt non renouvelé"
+      "value": "Prêt non prolongé"
     }
   ],
   "ui-users.loanPolicyId": [
@@ -130407,7 +130421,7 @@
   "ui-users.loans.addInfo.staff": [
     {
       "type": 0,
-      "value": "Add new staff information"
+      "value": "Ajouter de nouvelles informations du personnel"
     }
   ],
   "ui-users.loans.claimReturned": [
@@ -130592,7 +130606,7 @@
   "ui-users.loans.columns.renewals": [
     {
       "type": 0,
-      "value": "Nombre de renouvellements"
+      "value": "Nombre de prolongations"
     }
   ],
   "ui-users.loans.columns.returnDate": [
@@ -130853,7 +130867,7 @@
   "ui-users.loans.details.renewalCount": [
     {
       "type": 0,
-      "value": "Nombre de renouvellements"
+      "value": "Nombre de prolongations"
     }
   ],
   "ui-users.loans.details.requestQueue": [
@@ -130883,7 +130897,7 @@
   "ui-users.loans.item.nonRenewed.callout.verb": [
     {
       "type": 0,
-      "value": "Non renouvelé"
+      "value": "non prolongé"
     }
   ],
   "ui-users.loans.item.renewed.callout": [
@@ -130894,16 +130908,8 @@
     {
       "children": [
         {
-          "type": 0,
-          "value": " "
-        },
-        {
           "type": 1,
           "value": "title"
-        },
-        {
-          "type": 0,
-          "value": " "
         }
       ],
       "type": 8,
@@ -130911,13 +130917,13 @@
     },
     {
       "type": 0,
-      "value": " a été renouvelé avec succès "
+      "value": " a été "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": " "
+          "value": "prolongé"
         }
       ],
       "type": 8,
@@ -130925,13 +130931,13 @@
     },
     {
       "type": 0,
-      "value": " ."
+      "value": " avec succès."
     }
   ],
   "ui-users.loans.item.renewed.callout.verb": [
     {
       "type": 0,
-      "value": "Renouvelé"
+      "value": "prolongé"
     }
   ],
   "ui-users.loans.items.closeLoans": [
@@ -130943,7 +130949,7 @@
   "ui-users.loans.items.nonRenewed.label": [
     {
       "type": 0,
-      "value": "Renouvellements échoués"
+      "value": "Prolongations échouées"
     }
   ],
   "ui-users.loans.items.nonRenewed.subHeading": [
@@ -130994,10 +131000,6 @@
   ],
   "ui-users.loans.items.renewed.callout": [
     {
-      "type": 0,
-      "value": "Renouvelé "
-    },
-    {
       "type": 1,
       "value": "strongCount"
     },
@@ -131012,7 +131014,7 @@
           "value": [
             {
               "type": 0,
-              "value": "prêt"
+              "value": "prêt prolongé"
             }
           ]
         },
@@ -131020,7 +131022,7 @@
           "value": [
             {
               "type": 0,
-              "value": "prêts"
+              "value": "prêts prolongés"
             }
           ]
         }
@@ -131039,7 +131041,7 @@
   "ui-users.loans.items.renewed.label": [
     {
       "type": 0,
-      "value": "Renouvellements réussis"
+      "value": "Prolongations réussies"
     }
   ],
   "ui-users.loans.items.renewed.subHeading": [
@@ -131265,7 +131267,7 @@
   "ui-users.loans.newStaffInfo": [
     {
       "type": 0,
-      "value": "New staff info"
+      "value": "Nouvelles infos pour le personnel"
     }
   ],
   "ui-users.loans.numClaimedReturnedLoans": [
@@ -131458,7 +131460,7 @@
   "ui-users.loans.staffInfoDialogBody": [
     {
       "type": 0,
-      "value": "Add new staff information for "
+      "value": "Ajouter de nouvelles informations du personnel pour "
     },
     {
       "children": [
@@ -131484,7 +131486,7 @@
     },
     {
       "type": 0,
-      "value": " (Barcode: "
+      "value": " (Code-barres : "
     },
     {
       "type": 1,
@@ -132202,7 +132204,7 @@
   "ui-users.lostItems.notification.serverError": [
     {
       "type": 0,
-      "value": "A system error has occurred - please try again later or contact your FOLIO support staff"
+      "value": "Une erreur système s'est produite - veuillez réessayer plus tard ou contacter votre support FOLIO"
     }
   ],
   "ui-users.lostItems.recordStatus.billed": [
@@ -132560,7 +132562,7 @@
   "ui-users.permission.delete": [
     {
       "type": 0,
-      "value": "Utilisateurs : peut supprimer le profil utilisateur si l'utilisateur n'a aucune transaction ouverte"
+      "value": "Utilisateurs : peut supprimer le profil utilisateur si l'utilisateur n'a aucune opérations en cours"
     }
   ],
   "ui-users.permission.edit": [
@@ -132692,7 +132694,7 @@
   "ui-users.permission.loans.all": [
     {
       "type": 0,
-      "value": "Utilisateurs : peut consulter les prêts, modifier les échéances, et renouveler"
+      "value": "Utilisateurs : peut consulter les prêts, modifier les échéances, et prolonger"
     }
   ],
   "ui-users.permission.loans.anonymize": [
@@ -132800,7 +132802,7 @@
   "ui-users.permission.open-transactions.view": [
     {
       "type": 0,
-      "value": "Users: Can check open transactions"
+      "value": "Utilisateurs : peut vérifier les opérations en cours"
     }
   ],
   "ui-users.permission.opentransactions": [
@@ -133404,13 +133406,13 @@
   "ui-users.permissions.assignedUsers.name": [
     {
       "type": 0,
-      "value": "Name"
+      "value": "Nom"
     }
   ],
   "ui-users.permissions.assignedUsers.patronGroup": [
     {
       "type": 0,
-      "value": "Groupe de l'usager"
+      "value": "Groupe usagers"
     }
   ],
   "ui-users.permissions.availablePermissions": [
@@ -133943,7 +133945,7 @@
   "ui-users.renew": [
     {
       "type": 0,
-      "value": "Renouveler"
+      "value": "Prolonger"
     }
   ],
   "ui-users.renewInProgress": [
@@ -135432,7 +135434,7 @@
   "ui-users.settings.block.renew": [
     {
       "type": 0,
-      "value": "Bloquer les renouvellements"
+      "value": "Bloquer les prolongations"
     }
   ],
   "ui-users.settings.block.request": [
@@ -136177,13 +136179,13 @@
   "ui-users.userSearch": [
     {
       "type": 0,
-      "value": "Recherche d'utilisateurs"
+      "value": "Chercher un utilisateur"
     }
   ],
   "ui-users.userSearchResults": [
     {
       "type": 0,
-      "value": "Résultats de recherche d'utilisateurs"
+      "value": "Utilisateurs trouvés"
     }
   ],
   "ui-users.userType": [

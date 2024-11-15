@@ -1558,6 +1558,12 @@
       "value": "Record deleted"
     }
   ],
+  "stripes-acq-components.versionHistory.noVersion": [
+    {
+      "type": 0,
+      "value": "No version history to display."
+    }
+  ],
   "stripes-acq-components.versionHistory.pane.header": [
     {
       "type": 0,
@@ -24749,7 +24755,7 @@
   "ui-bulk-edit.previewModal.message.empty.marc": [
     {
       "type": 0,
-      "value": "All instances have source FOLIO.  Use “Instances and  Administrative data” option for bulk edit."
+      "value": "All instances have source FOLIO. Use “Instances and  Administrative data” option for bulk edit."
     }
   ],
   "ui-bulk-edit.previewModal.previewToBeChanged": [
@@ -122914,13 +122920,13 @@
   "ui-service-interaction.settings.numberGeneratorSequences.checkDigitAlgo": [
     {
       "type": 0,
-      "value": "Checksum"
+      "value": "Method"
     }
   ],
   "ui-service-interaction.settings.numberGeneratorSequences.checkDigitAlgo.info": [
     {
       "type": 0,
-      "value": "The check method for the check digit. Select “None” for no checksum calculation - please see documentation for further information on checksum."
+      "value": "The checksum method for the check digit. Use the checksum input template to define what needs to be included in the calculation e.g. prefix or suffix."
     }
   ],
   "ui-service-interaction.settings.numberGeneratorSequences.checksumError": [
@@ -123026,7 +123032,7 @@
   "ui-service-interaction.settings.numberGeneratorSequences.format.info": [
     {
       "type": 0,
-      "value": "The Format field defines the length of the generated number. Use # to define the length without padding, e.g. \"####\". Or use a character to include padding. E.g. \"0000\" will set the length to 4 and add zeros to produce outputs such as 0045."
+      "value": "The Format field defines the length of the generated number without check digit and pre- and suffix. Use # to define the length without padding, e.g. \"####\". Or use a character to include padding. E.g. \"0000\" will set the length to 4 and add zeros to produce outputs such as 0045."
     }
   ],
   "ui-service-interaction.settings.numberGeneratorSequences.generator": [
@@ -123190,13 +123196,29 @@
   "ui-service-interaction.settings.numberGeneratorSequences.preChecksumTemplate": [
     {
       "type": 0,
-      "value": "Pre-checksum template"
+      "value": "Input template"
     }
   ],
   "ui-service-interaction.settings.numberGeneratorSequences.preChecksumTemplate.info": [
     {
       "type": 0,
-      "value": "The pre-checksum template defines the rules applied to create the number from which the checksum digit will be calculated. Templates are formed using Groovy. See below for more information."
+      "value": "Create rules to define the number to be inputted when calculating the check digit. Both the prefix and suffix can be templated, using Groovy markup. Use $"
+    },
+    {
+      "type": 1,
+      "value": "generated_number"
+    },
+    {
+      "type": 0,
+      "value": " as placeholder for the generated number. E.g. 05$"
+    },
+    {
+      "type": 1,
+      "value": "generated_number"
+    },
+    {
+      "type": 0,
+      "value": "01"
     }
   ],
   "ui-service-interaction.settings.numberGeneratorSequences.prefix": [

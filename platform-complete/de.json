@@ -1566,6 +1566,12 @@
       "value": "Datensatz gelöscht"
     }
   ],
+  "stripes-acq-components.versionHistory.noVersion": [
+    {
+      "type": 0,
+      "value": "No version history to display."
+    }
+  ],
   "stripes-acq-components.versionHistory.pane.header": [
     {
       "type": 0,
@@ -15189,7 +15195,7 @@
   "ui-agreements.agreementLines.customCoverageIndicator": [
     {
       "type": 0,
-      "value": "Custom coverage indicator"
+      "value": "Benutzerdefinierte Abdeckungsindikatoren"
     }
   ],
   "ui-agreements.agreementLines.customCoverageTitle": [
@@ -16994,7 +17000,7 @@
   "ui-agreements.documents.addDocs": [
     {
       "type": 0,
-      "value": "Add document"
+      "value": "Dokument hinzufügen"
     }
   ],
   "ui-agreements.duplicateAgreementModal.agreementInfo": [
@@ -17150,7 +17156,7 @@
   "ui-agreements.emptyAccordion.documents": [
     {
       "type": 0,
-      "value": "No documents for this agreement line "
+      "value": "Keine Dokumente für diese Vereinbarungskomponente "
     }
   ],
   "ui-agreements.emptyAccordion.externalLicenses": [
@@ -17630,7 +17636,7 @@
   "ui-agreements.eresources.electronicTitle": [
     {
       "type": 0,
-      "value": "Electronic title \""
+      "value": "Elektronischer Titel \""
     },
     {
       "type": 1,
@@ -17964,7 +17970,7 @@
   "ui-agreements.eresources.subType": [
     {
       "type": 0,
-      "value": "Material type"
+      "value": "Materialart"
     }
   ],
   "ui-agreements.eresources.suppressFromDiscovery": [
@@ -18730,7 +18736,7 @@
   "ui-agreements.line.documents": [
     {
       "type": 0,
-      "value": "Documents"
+      "value": "Dokumente"
     }
   ],
   "ui-agreements.line.edit": [
@@ -24873,7 +24879,7 @@
   "ui-bulk-edit.previewModal.message.empty.marc": [
     {
       "type": 0,
-      "value": "All instances have source FOLIO.  Use “Instances and  Administrative data” option for bulk edit."
+      "value": "All instances have source FOLIO. Use “Instances and  Administrative data” option for bulk edit."
     }
   ],
   "ui-bulk-edit.previewModal.previewToBeChanged": [
@@ -30910,7 +30916,7 @@
   "ui-circulation.settings.ViewPrintDetails.warningPopup.message": [
     {
       "type": 0,
-      "value": "Deaktivierung dieser Einstellung führt zum Verlust vorhandener Druckverlaufsprotokolle. Sicher?"
+      "value": "Durch die Auswahl \"Bestätigen\" wird die Aufzeichnung der Druckauftragsdetails beendet."
     }
   ],
   "ui-circulation.settings.ViewPrintDetails.warningPopup.message.cancel": [
@@ -37795,8 +37801,36 @@
   ],
   "ui-courses.accordion.reserves": [
     {
+      "type": 1,
+      "value": "count"
+    },
+    {
       "type": 0,
-      "value": "Exemplare"
+      "value": " "
+    },
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "Exemplar"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "Exemplare"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "count"
     }
   ],
   "ui-courses.accordion.reserves.help": [
@@ -38944,7 +38978,7 @@
   "ui-courses.reallyDelete": [
     {
       "type": 0,
-      "value": "Wirklich löschen?"
+      "value": "Löschen des Kurses bestätigen"
     }
   ],
   "ui-courses.removeInstructor": [
@@ -74723,7 +74757,7 @@
           "value": [
             {
               "type": 0,
-              "value": "Besände werden"
+              "value": "Bestände werden"
             }
           ]
         }
@@ -93579,7 +93613,7 @@
   "ui-orders.closeOrderModal.cancel": [
     {
       "type": 0,
-      "value": "Stornieren"
+      "value": "Abbrechen"
     }
   ],
   "ui-orders.closeOrderModal.closingReasons.canceled": [
@@ -105668,7 +105702,7 @@
   "ui-plugin-find-authority.linkToMarcAuthorityRecord": [
     {
       "type": 0,
-      "value": "Link zu MARC Normdatensatz"
+      "value": "Link zu MARC-Normdatensatz"
     }
   ],
   "ui-plugin-find-authority.meta.title": [
@@ -105680,7 +105714,7 @@
   "ui-plugin-find-authority.modal.title": [
     {
       "type": 0,
-      "value": "MARC Normdaten auswählen"
+      "value": "MARC-Normdaten auswählen"
     }
   ],
   "ui-plugin-find-authority.search-results-list.authRefType": [
@@ -119702,7 +119736,7 @@
   "ui-requests.permission.moveRequest.execute": [
     {
       "type": 0,
-      "value": "Requests: Move to new item, reorder queue"
+      "value": "Bestandsanfragen: Verschieben zu neuem Exemplar, Warteliste neu anordnen"
     }
   ],
   "ui-requests.permission.reorderQueue": [
@@ -119714,7 +119748,7 @@
   "ui-requests.permission.reorderQueue.execute": [
     {
       "type": 0,
-      "value": "Requests: Reorder queue"
+      "value": "Bestandsanfragen: Warteliste neu anordnen"
     }
   ],
   "ui-requests.permission.view": [
@@ -119750,7 +119784,7 @@
   "ui-requests.printDetails.printCount": [
     {
       "type": 0,
-      "value": "# Copies"
+      "value": "# Exemplare"
     }
   ],
   "ui-requests.printInProgress": [
@@ -120954,7 +120988,7 @@
   "ui-serials-management.cancelGeneration": [
     {
       "type": 0,
-      "value": "Cancel generation"
+      "value": "Erzeugung abbrechen"
     }
   ],
   "ui-serials-management.close": [
@@ -121841,13 +121875,13 @@
   "ui-serials-management.ruleset.copyAndDeprecate": [
     {
       "type": 0,
-      "value": "Copy and deprecate"
+      "value": "Kopieren und auf veraltet setzen"
     }
   ],
   "ui-serials-management.ruleset.copyAndDeprecatePublicationPattern": [
     {
       "type": 0,
-      "value": "Copy and deprecate publication pattern"
+      "value": "Erscheinungsmuster kopieren und auf veraltet setzen"
     }
   ],
   "ui-serials-management.ruleset.cycleLength": [
@@ -121967,13 +122001,13 @@
   "ui-serials-management.ruleset.editPublicationPattern": [
     {
       "type": 0,
-      "value": "Edit publication pattern"
+      "value": "Erscheinungsmuster bearbeiten"
     }
   ],
   "ui-serials-management.ruleset.enumeration": [
     {
       "type": 0,
-      "value": "Enumeration"
+      "value": "Zählung"
     }
   ],
   "ui-serials-management.ruleset.enumeration.numberFormat.number": [
@@ -122239,7 +122273,7 @@
   "ui-serials-management.ruleset.numberOfIssuesToCombine": [
     {
       "type": 0,
-      "value": "Number of issues to combine"
+      "value": "Zahl der zu kombinierenden Hefte"
     }
   ],
   "ui-serials-management.ruleset.numberOfTimeUnit": [
@@ -123289,13 +123323,13 @@
   "ui-service-interaction.settings.numberGeneratorSequences.checkDigitAlgo": [
     {
       "type": 0,
-      "value": "Prüfziffernmethode"
+      "value": "Methode"
     }
   ],
   "ui-service-interaction.settings.numberGeneratorSequences.checkDigitAlgo.info": [
     {
       "type": 0,
-      "value": "Die Methode für die Prüfziffern-Erstellung. \"None\" auswählen für keine Berechnung einer Prüfziffer. Weitere Informationen zur Prüfziffernmethode werden in der Dokumentation bereitgestellt."
+      "value": "Die Methode für die Prüfziffern-Erstellung. Um festzulegen, was in die Berechnung einbezogen werden soll, z.B. Präfix oder Suffix, bitte die Eingabevorlage verwenden."
     }
   ],
   "ui-service-interaction.settings.numberGeneratorSequences.checksumError": [
@@ -123401,7 +123435,7 @@
   "ui-service-interaction.settings.numberGeneratorSequences.format.info": [
     {
       "type": 0,
-      "value": "Das Feld Format definiert die Länge der generierten Nummer. # wird verwendet, um die Länge ohne Füllzeichen zu definieren, z. B. \"####\". Oder ein Zeichen wird verwendet, um Füllzeichen hinzuzufügen. Z. B. setzt \"0000\" die Länge auf 4 Zeichen und fügt Nullen hinzu, um Ausgaben wie 0045 zu erzeugen."
+      "value": "Das Feld Format definiert die Länge der generierten Nummer ohne Prüfziffer und Prä- und Suffix. # wird verwendet, um die Länge ohne Füllzeichen zu definieren, z. B. \"####\". Oder ein Zeichen wird verwendet, um Füllzeichen hinzuzufügen. Z. B. setzt \"0000\" die Länge auf 4 Zeichen und fügt Nullen hinzu, um Ausgaben wie 0045 zu erzeugen."
     }
   ],
   "ui-service-interaction.settings.numberGeneratorSequences.generator": [
@@ -123565,13 +123599,29 @@
   "ui-service-interaction.settings.numberGeneratorSequences.preChecksumTemplate": [
     {
       "type": 0,
-      "value": "Pre-checksum template"
+      "value": "Eingabevorlage"
     }
   ],
   "ui-service-interaction.settings.numberGeneratorSequences.preChecksumTemplate.info": [
     {
       "type": 0,
-      "value": "The pre-checksum template defines the rules applied to create the number from which the checksum digit will be calculated. Templates are formed using Groovy. See below for more information."
+      "value": "Erstellung der Regel, die die Nummer definiert, die für die Berechnung der Prüfziffer angewandt wird. Sowohl Präfix als auch Suffix können einbezogen werden. Groovy markup wird genutzt. Als Platzhalter für die generierte Nummer wird $"
+    },
+    {
+      "type": 1,
+      "value": "generated_number"
+    },
+    {
+      "type": 0,
+      "value": " verwendet z.B. 05$"
+    },
+    {
+      "type": 1,
+      "value": "generated_number"
+    },
+    {
+      "type": 0,
+      "value": "01"
     }
   ],
   "ui-service-interaction.settings.numberGeneratorSequences.prefix": [
@@ -123583,19 +123633,19 @@
   "ui-service-interaction.settings.numberGeneratorSequences.section.checksumSettings": [
     {
       "type": 0,
-      "value": "Checksum settings"
+      "value": "Prüfsummen-Einstellungen"
     }
   ],
   "ui-service-interaction.settings.numberGeneratorSequences.section.outputSettings": [
     {
       "type": 0,
-      "value": "Output settings"
+      "value": "Ausgabe-Einstellungen"
     }
   ],
   "ui-service-interaction.settings.numberGeneratorSequences.section.sequenceSettings": [
     {
       "type": 0,
-      "value": "Sequence settings"
+      "value": "Sequenz-Einstellungen"
     }
   ],
   "ui-service-interaction.settings.numberGeneratorSequences.tooltip.viewSequence": [
@@ -132609,7 +132659,7 @@
   "ui-users.permission.cash-drawer-report.execute": [
     {
       "type": 0,
-      "value": "Users: Create and download Cash drawer reconciliation report"
+      "value": "Personen: Kassen-Abschlussbericht erstellen und herunterladen"
     }
   ],
   "ui-users.permission.cashDrawerReport": [
@@ -132687,7 +132737,7 @@
   "ui-users.permission.financial-transaction-report.execute": [
     {
       "type": 0,
-      "value": "Users: Create and download Financial transaction detail report"
+      "value": "Personen: Finanztransaktionsdetailbericht erstellen und herunterladen"
     }
   ],
   "ui-users.permission.financialTransactionReport": [
@@ -132699,7 +132749,7 @@
   "ui-users.permission.loans-add-info.create": [
     {
       "type": 0,
-      "value": "Users: User loans: add staff or patron information"
+      "value": "Personen: Benutzer/-in Ausleihen: Kann Personal- oder Benutzer/-in-Informationen hinzufügen"
     }
   ],
   "ui-users.permission.loans-anonymize.execute": [
@@ -132717,13 +132767,13 @@
   "ui-users.permission.loans-declare-claimed-returned-item-as-missing.execute": [
     {
       "type": 0,
-      "value": "Users: User loans mark claimed returned missing"
+      "value": "Personen: Kann angeblich zurückgegebene Ausleihen als vermisst markieren"
     }
   ],
   "ui-users.permission.loans-declare-item-lost.execute": [
     {
       "type": 0,
-      "value": "Users: User loans declare lost"
+      "value": "Personen: Kann Ausleihen für verloren erklären"
     }
   ],
   "ui-users.permission.loans-due-date.edit": [
@@ -132735,13 +132785,13 @@
   "ui-users.permission.loans-renew-override.create": [
     {
       "type": 0,
-      "value": "Users: User loans renew through override"
+      "value": "Personen: Kann Ausleihen durch Umgehen verlängern"
     }
   ],
   "ui-users.permission.loans-renew.create": [
     {
       "type": 0,
-      "value": "Users: User loans renew"
+      "value": "Personen: Kann Ausleihen verlängern"
     }
   ],
   "ui-users.permission.loans.add-patron-info": [
@@ -132807,7 +132857,7 @@
   "ui-users.permission.lost-items-requiring-actual-cost.execute": [
     {
       "type": 0,
-      "value": "Users: Can process lost items requiring actual cost"
+      "value": "Personen: Kann verlorene Exemplare mit tatsächlichen Kosten bearbeiten"
     }
   ],
   "ui-users.permission.lost-items.requiring-actual-cost": [
@@ -132819,25 +132869,25 @@
   "ui-users.permission.manual-charge.execute": [
     {
       "type": 0,
-      "value": "Fees/Fines: Can charge"
+      "value": "Forderungen: Kann das Konto belasten"
     }
   ],
   "ui-users.permission.manual-pay.execute": [
     {
       "type": 0,
-      "value": "Fees/Fines: Can pay"
+      "value": "Forderungen: Kann zahlen"
     }
   ],
   "ui-users.permission.manual-process-refunds-report.execute": [
     {
       "type": 0,
-      "value": "Users: Create and download Refunds to process manually report"
+      "value": "Personen: Rückerstattungen erstellen und Bericht zum manuellen Verarbeiten herunterladen"
     }
   ],
   "ui-users.permission.manual-waive.execute": [
     {
       "type": 0,
-      "value": "Fees/Fines: Can waive"
+      "value": "Forderungen: Kann erlassen"
     }
   ],
   "ui-users.permission.manualProcessRefundsReport": [
@@ -132867,7 +132917,7 @@
   "ui-users.permission.open-transactions.view": [
     {
       "type": 0,
-      "value": "Users: Can check open transactions"
+      "value": "Personen: Kann offene Transaktionen öffnen"
     }
   ],
   "ui-users.permission.opentransactions": [
@@ -132879,13 +132929,13 @@
   "ui-users.permission.override-item-block.execute": [
     {
       "type": 0,
-      "value": "User: Can override item blocks"
+      "value": "Person: Kann Exemplar-Sperren umgehen"
     }
   ],
   "ui-users.permission.override-patron-block.execute": [
     {
       "type": 0,
-      "value": "User: Can override patron blocks"
+      "value": "Person: Kann Kontosperren umgehen"
     }
   ],
   "ui-users.permission.overrideItemBlock": [
@@ -132903,19 +132953,19 @@
   "ui-users.permission.patron-blocks.all": [
     {
       "type": 0,
-      "value": "Users: Can create, edit and remove patron blocks"
+      "value": "Personen: Kann Kontosperren für Benutzende erstellen, bearbeiten und entfernen"
     }
   ],
   "ui-users.permission.patron-notice-print-jobs.delete": [
     {
       "type": 0,
-      "value": "Users: View and remove patron notice print jobs"
+      "value": "Personen: Print-Jobs für Benachrichtigungen anzeigen und entfernen"
     }
   ],
   "ui-users.permission.patron-notice-print-jobs.view": [
     {
       "type": 0,
-      "value": "Users: View patron notice print jobs"
+      "value": "Personen: Print-Jobs für Benachrichtigungen anzeigen"
     }
   ],
   "ui-users.permission.patron-pre-registrations-view": [
@@ -132951,7 +133001,7 @@
   "ui-users.permission.perms.view": [
     {
       "type": 0,
-      "value": "Users: Can view permissions assigned to users"
+      "value": "Personen: Kann Berechtigungen anzeigen, die Personen zugewiesen sind"
     }
   ],
   "ui-users.permission.profile-pictures.all": [
@@ -132975,7 +133025,7 @@
   "ui-users.permission.proxies.view": [
     {
       "type": 0,
-      "value": "Users: Can view proxies assigned to users"
+      "value": "Personen: Kann Bevollmächtigte sehen, die Personen zugewiesen sind"
     }
   ],
   "ui-users.permission.reading-room-access.edit": [
@@ -133347,7 +133397,7 @@
   "ui-users.permission.user-service-points.view": [
     {
       "type": 0,
-      "value": "Users: Can view service points assigned to users"
+      "value": "Personen: Kann Servicestellen sehen, die Personen zugewiesen sind"
     }
   ],
   "ui-users.permission.view": [

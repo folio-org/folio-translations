@@ -1554,6 +1554,12 @@
       "value": "Registro excluído"
     }
   ],
+  "stripes-acq-components.versionHistory.noVersion": [
+    {
+      "type": 0,
+      "value": "No version history to display."
+    }
+  ],
   "stripes-acq-components.versionHistory.pane.header": [
     {
       "type": 0,
@@ -23562,7 +23568,7 @@
   "ui-bulk-edit.list.filters.recordIdentifier.item.barcode": [
     {
       "type": 0,
-      "value": "Código de barras do item"
+      "value": "Códigos de barras de exemplares"
     }
   ],
   "ui-bulk-edit.list.filters.recordIdentifier.item.former": [
@@ -23818,7 +23824,7 @@
   "ui-bulk-edit.list.result.emptyMessage.holdings.ITEM_BARCODE": [
     {
       "type": 0,
-      "value": "Arraste e solte ou escolha o arquivo com o código de barras do item."
+      "value": "Arraste e solte ou escolha o arquivo com o código de barras de exemplares."
     }
   ],
   "ui-bulk-edit.list.result.emptyMessage.holdings.query": [
@@ -23872,19 +23878,19 @@
   "ui-bulk-edit.list.result.emptyMessage.item.ACCESSION_NUMBER": [
     {
       "type": 0,
-      "value": "Arraste e solte ou escolha o arquivo com o número de acesso do item."
+      "value": "Arraste e solte ou escolha o arquivo com o número de acesso dos exemplares."
     }
   ],
   "ui-bulk-edit.list.result.emptyMessage.item.BARCODE": [
     {
       "type": 0,
-      "value": "Arraste e solte ou escolha o arquivo com o código de barras do item."
+      "value": "Arraste e solte ou escolha o arquivo com o código de barras de exemplares."
     }
   ],
   "ui-bulk-edit.list.result.emptyMessage.item.FORMER_IDS": [
     {
       "type": 0,
-      "value": "Arraste e solte ou escolha o arquivo com o identificador anterior do item."
+      "value": "Arraste e solte ou escolha o arquivo com o identificador anterior dos exemplares."
     }
   ],
   "ui-bulk-edit.list.result.emptyMessage.item.HOLDINGS_RECORD_ID": [
@@ -24941,13 +24947,13 @@
   "ui-bulk-edit.uploaderSubTitle.holdings.HRID": [
     {
       "type": 0,
-      "value": "Selecione um arquivo com HRIDs de coleção"
+      "value": "Selecione um arquivo com HRIDs de holdings"
     }
   ],
   "ui-bulk-edit.uploaderSubTitle.holdings.ID": [
     {
       "type": 0,
-      "value": "Selecione um arquivo com os UUIDs de coleção"
+      "value": "Selecione um arquivo com os UUIDs de holdings"
     }
   ],
   "ui-bulk-edit.uploaderSubTitle.holdings.INSTANCE_HRID": [
@@ -24959,7 +24965,7 @@
   "ui-bulk-edit.uploaderSubTitle.holdings.ITEM_BARCODE": [
     {
       "type": 0,
-      "value": "Selecione um arquivo com código de barras do item"
+      "value": "Selecione um arquivo com código de barras de exemplares"
     }
   ],
   "ui-bulk-edit.uploaderSubTitle.instance": [
@@ -24995,7 +25001,7 @@
   "ui-bulk-edit.uploaderSubTitle.item": [
     {
       "type": 0,
-      "value": "Selecione um arquivo com identificadores de registro"
+      "value": "Selecione um arquivo com identificadores de registro."
     }
   ],
   "ui-bulk-edit.uploaderSubTitle.item.ACCESSION_NUMBER": [
@@ -25007,7 +25013,7 @@
   "ui-bulk-edit.uploaderSubTitle.item.BARCODE": [
     {
       "type": 0,
-      "value": "Selecione um arquivo com código de barras de exemplares"
+      "value": "Selecione um arquivo com código de barras de exemplares."
     }
   ],
   "ui-bulk-edit.uploaderSubTitle.item.FORMER_IDS": [
@@ -25019,7 +25025,7 @@
   "ui-bulk-edit.uploaderSubTitle.item.HOLDINGS_RECORD_ID": [
     {
       "type": 0,
-      "value": "Selecione um arquivo com os UUIDs de coleção"
+      "value": "Selecione um arquivo com os UUIDs de holdings."
     }
   ],
   "ui-bulk-edit.uploaderSubTitle.item.HRID": [
@@ -25031,7 +25037,7 @@
   "ui-bulk-edit.uploaderSubTitle.item.ID": [
     {
       "type": 0,
-      "value": "Selecione um arquivo com UUIDs de exemplares"
+      "value": "Selecione um arquivo com UUIDs de exemplares."
     }
   ],
   "ui-bulk-edit.uploaderSubTitle.records": [
@@ -39518,7 +39524,7 @@
     },
     {
       "type": 0,
-      "value": ": o usuário conectado não possui autorização neste painel de controle. O acesso está sendo concedido por meio de uma permissão de alto nível do sistema (permissão de gateway Okapi \"servint.dashboard.admin\")."
+      "value": ": o usuário conectado não possui autorização neste painel de controle. O acesso está sendo concedido por meio de uma permissão de alto nível do sistema (via \"ui-dashboard.dashboards.admin.manage\")."
     }
   ],
   "ui-dashboard.dashboardUsers.addUser": [
@@ -41392,7 +41398,7 @@
     },
     {
       "type": 0,
-      "value": " the user "
+      "value": " o usuário "
     },
     {
       "type": 1,
@@ -41400,7 +41406,7 @@
     },
     {
       "type": 0,
-      "value": " does not have permissions to view holdings or items in "
+      "value": " não tem permissões para visualizar coleção ou itens no(s) locatário(s) de dados "
     },
     {
       "type": 1,
@@ -41408,7 +41414,7 @@
     },
     {
       "type": 0,
-      "value": " data tenant(s). Holdings and item records from this tenant were omitted during export."
+      "value": ". Os registros de coleção e itens desse locatário foram omitidos durante a exportação."
     }
   ],
   "ui-data-export.error.invalidCqlSyntax": [
@@ -50139,7 +50145,7 @@
   "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.field.rush": [
     {
       "type": 0,
-      "value": "Prioritário"
+      "value": "Urgente"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.field.selector": [
@@ -50211,7 +50217,7 @@
   "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.rush": [
     {
       "type": 0,
-      "value": "Prioritário"
+      "value": "Urgente"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.order.poLineDetails.section": [
@@ -51693,7 +51699,7 @@
   "ui-data-import.settings.matchProfiles.rush": [
     {
       "type": 0,
-      "value": "Rush"
+      "value": "Urgente"
     }
   ],
   "ui-data-import.settings.matchProfiles.selectAdjustment": [
@@ -66795,7 +66801,7 @@
   "ui-gobi-settings.order.mappings.field.rush": [
     {
       "type": 0,
-      "value": "Priotirário"
+      "value": "Urgente"
     }
   ],
   "ui-gobi-settings.order.mappings.field.selector": [
@@ -72072,7 +72078,7 @@
   "ui-inventory.copycat.externalTarget": [
     {
       "type": 0,
-      "value": "Alvo externo"
+      "value": "Catálogo externo"
     }
   ],
   "ui-inventory.copycat.import": [
@@ -95621,7 +95627,7 @@
   "ui-orders.filter.rush": [
     {
       "type": 0,
-      "value": "Rush"
+      "value": "Urgente"
     }
   ],
   "ui-orders.filter.trial": [
@@ -97813,7 +97819,7 @@
   "ui-orders.poLine.rush": [
     {
       "type": 0,
-      "value": "Pressa"
+      "value": "Urgente"
     }
   ],
   "ui-orders.poLine.selector": [
@@ -115720,7 +115726,7 @@
   "ui-receiving.filter.rush": [
     {
       "type": 0,
-      "value": "Prioritário"
+      "value": "Urgente"
     }
   ],
   "ui-receiving.filter.supplements": [
@@ -117972,13 +117978,13 @@
   "ui-requests-mediated.declineModal.back": [
     {
       "type": 0,
-      "value": "Back"
+      "value": "Voltar"
     }
   ],
   "ui-requests-mediated.declineModal.confirm": [
     {
       "type": 0,
-      "value": "Confirm"
+      "value": "Confirmar"
     }
   ],
   "ui-requests-mediated.declineModal.message": [
@@ -117994,13 +118000,13 @@
     },
     {
       "type": 0,
-      "value": " will be "
+      "value": " será "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "declined"
+          "value": "recusado"
         }
       ],
       "type": 8,
@@ -118010,7 +118016,7 @@
   "ui-requests-mediated.declineModal.title": [
     {
       "type": 0,
-      "value": "Confirm Mediated request decline"
+      "value": "Confirmar recusa de solicitação mediada"
     }
   ],
   "ui-requests-mediated.filters.mediatedRequestLevel.accordionTitle": [
@@ -118058,13 +118064,13 @@
   "ui-requests-mediated.form.create.title": [
     {
       "type": 0,
-      "value": "New mediated request"
+      "value": "Nova requisição mediada"
     }
   ],
   "ui-requests-mediated.form.createRequest.error": [
     {
       "type": 0,
-      "value": "Request was not successfully created"
+      "value": "A requisição não foi criada com sucesso"
     }
   ],
   "ui-requests-mediated.form.createRequest.success": [
@@ -118080,7 +118086,7 @@
   "ui-requests-mediated.form.edit.title": [
     {
       "type": 0,
-      "value": "Edit mediated request"
+      "value": "Editar requisição mediada"
     }
   ],
   "ui-requests-mediated.form.enterButton": [
@@ -124184,13 +124190,13 @@
   "ui-service-interaction.settings.numberGeneratorSequences.checkDigitAlgo": [
     {
       "type": 0,
-      "value": "Soma de verificação"
+      "value": "Método de verificação"
     }
   ],
   "ui-service-interaction.settings.numberGeneratorSequences.checkDigitAlgo.info": [
     {
       "type": 0,
-      "value": "O método de verificação para o dígito de verificação. Selecione \"Nenhum\" para nenhum cálculo de soma de verificação - consulte a documentação para obter mais informações sobre a soma de verificação."
+      "value": "O método de soma de verificação para o dígito de verificação. Use o modelo de entrada de soma de verificação para definir o que precisa ser incluído no cálculo, por exemplo, prefixo ou sufixo."
     }
   ],
   "ui-service-interaction.settings.numberGeneratorSequences.checksumError": [
@@ -124474,13 +124480,29 @@
   "ui-service-interaction.settings.numberGeneratorSequences.preChecksumTemplate": [
     {
       "type": 0,
-      "value": "Modelo de pré-soma de verificação"
+      "value": "Modelo de planilha de entrada"
     }
   ],
   "ui-service-interaction.settings.numberGeneratorSequences.preChecksumTemplate.info": [
     {
       "type": 0,
-      "value": "O modelo de pré-soma de verificação define as regras aplicadas para criar o número a partir do qual o dígito da soma de verificação será calculado. Os modelos são formados usando o Groovy. Veja abaixo mais informações."
+      "value": "Crie regras para definir o número a ser inserido ao calcular o dígito verificador. Tanto o prefixo quanto o sufixo podem ser modelados, usando a marcação Groovy. Use $ "
+    },
+    {
+      "type": 1,
+      "value": "generated_number"
+    },
+    {
+      "type": 0,
+      "value": " como espaço reservado para o número gerado. Por exemplo, 05$ "
+    },
+    {
+      "type": 1,
+      "value": "generated_number"
+    },
+    {
+      "type": 0,
+      "value": " 01"
     }
   ],
   "ui-service-interaction.settings.numberGeneratorSequences.prefix": [
@@ -124492,19 +124514,19 @@
   "ui-service-interaction.settings.numberGeneratorSequences.section.checksumSettings": [
     {
       "type": 0,
-      "value": "Checksum settings"
+      "value": "Configurações de soma de verificação"
     }
   ],
   "ui-service-interaction.settings.numberGeneratorSequences.section.outputSettings": [
     {
       "type": 0,
-      "value": "Output settings"
+      "value": "Configurações de saída"
     }
   ],
   "ui-service-interaction.settings.numberGeneratorSequences.section.sequenceSettings": [
     {
       "type": 0,
-      "value": "Sequence settings"
+      "value": "Configurações de sequência"
     }
   ],
   "ui-service-interaction.settings.numberGeneratorSequences.tooltip.viewSequence": [
@@ -133716,13 +133738,13 @@
   "ui-users.permission.accounts.all": [
     {
       "type": 0,
-      "value": "Fee/Fine History: Can create, edit and remove accounts"
+      "value": "Histórico de taxas/multas: Pode criar, editar e remover contas"
     }
   ],
   "ui-users.permission.cash-drawer-report.execute": [
     {
       "type": 0,
-      "value": "Users: Create and download Cash drawer reconciliation report"
+      "value": "Usuários: Criar e baixar o relatório de reconciliação do caixa de dinheiro"
     }
   ],
   "ui-users.permission.cashDrawerReport": [
@@ -133776,7 +133798,7 @@
   "ui-users.permission.fee-fine-actions.all": [
     {
       "type": 0,
-      "value": "Fee/Fine Details: Can create, edit and remove fee/fine actions"
+      "value": "Detalhes de taxas/multas: Pode criar, editar e remover ações de taxa/multa"
     }
   ],
   "ui-users.permission.feefineactions": [
@@ -133800,7 +133822,7 @@
   "ui-users.permission.financial-transaction-report.execute": [
     {
       "type": 0,
-      "value": "Users: Create and download Financial transaction detail report"
+      "value": "Usuários: Criar e fazer download do relatório detalhado de transações financeiras"
     }
   ],
   "ui-users.permission.financialTransactionReport": [
@@ -133812,49 +133834,49 @@
   "ui-users.permission.loans-add-info.create": [
     {
       "type": 0,
-      "value": "Users: User loans: add staff or patron information"
+      "value": "Usuários: Empréstimos de usuários: adicionar informações sobre funcionários ou usuários"
     }
   ],
   "ui-users.permission.loans-anonymize.execute": [
     {
       "type": 0,
-      "value": "Users: User loans anonymize"
+      "value": "Usuários: Anomnimizar empréstimos de usuário"
     }
   ],
   "ui-users.permission.loans-claim-item-returned.execute": [
     {
       "type": 0,
-      "value": "Users: User loans claim returned"
+      "value": "Usuários: Reivindicação de empréstimos de usuários devolvida"
     }
   ],
   "ui-users.permission.loans-declare-claimed-returned-item-as-missing.execute": [
     {
       "type": 0,
-      "value": "Users: User loans mark claimed returned missing"
+      "value": "Usuários: Empréstimos de usuários - marcados como reivindicados, devolvidos como desaparecidos"
     }
   ],
   "ui-users.permission.loans-declare-item-lost.execute": [
     {
       "type": 0,
-      "value": "Users: User loans declare lost"
+      "value": "Usuários: declarar como perdido empréstimos de usuários"
     }
   ],
   "ui-users.permission.loans-due-date.edit": [
     {
       "type": 0,
-      "value": "Users: User loans change due date"
+      "value": "Usuários: Empréstimos de usuários - alterar a data de vencimento"
     }
   ],
   "ui-users.permission.loans-renew-override.create": [
     {
       "type": 0,
-      "value": "Users: User loans renew through override"
+      "value": "Usuários: Renovação de empréstimos de usuários por meio de sobreposição"
     }
   ],
   "ui-users.permission.loans-renew.create": [
     {
       "type": 0,
-      "value": "Users: User loans renew"
+      "value": "Usuários: Renovação de empréstimos de usuários"
     }
   ],
   "ui-users.permission.loans.add-patron-info": [
@@ -133920,7 +133942,7 @@
   "ui-users.permission.lost-items-requiring-actual-cost.execute": [
     {
       "type": 0,
-      "value": "Users: Can process lost items requiring actual cost"
+      "value": "Usuários: Podem processar itens perdidos que exigem custo real"
     }
   ],
   "ui-users.permission.lost-items.requiring-actual-cost": [
@@ -133932,25 +133954,25 @@
   "ui-users.permission.manual-charge.execute": [
     {
       "type": 0,
-      "value": "Fees/Fines: Can charge"
+      "value": "Taxas/Multas: Pode cobrar"
     }
   ],
   "ui-users.permission.manual-pay.execute": [
     {
       "type": 0,
-      "value": "Fees/Fines: Can pay"
+      "value": "Taxas/Multas: Pode pagar"
     }
   ],
   "ui-users.permission.manual-process-refunds-report.execute": [
     {
       "type": 0,
-      "value": "Users: Create and download Refunds to process manually report"
+      "value": "Usuários: Criar e fazer o download de reembolsos para processar o relatório manualmente"
     }
   ],
   "ui-users.permission.manual-waive.execute": [
     {
       "type": 0,
-      "value": "Fees/Fines: Can waive"
+      "value": "Taxas/Multas: Pode abonar"
     }
   ],
   "ui-users.permission.manualProcessRefundsReport": [
@@ -133980,7 +134002,7 @@
   "ui-users.permission.open-transactions.view": [
     {
       "type": 0,
-      "value": "Users: Can check open transactions"
+      "value": "Usuários: Podem verificar as transações em aberto"
     }
   ],
   "ui-users.permission.opentransactions": [
@@ -133992,13 +134014,13 @@
   "ui-users.permission.override-item-block.execute": [
     {
       "type": 0,
-      "value": "User: Can override item blocks"
+      "value": "Usuário: pode sobrepor bloqueios de itens"
     }
   ],
   "ui-users.permission.override-patron-block.execute": [
     {
       "type": 0,
-      "value": "User: Can override patron blocks"
+      "value": "Usuário: Pode sobrepor bloqueios de usuários"
     }
   ],
   "ui-users.permission.overrideItemBlock": [
@@ -134016,19 +134038,19 @@
   "ui-users.permission.patron-blocks.all": [
     {
       "type": 0,
-      "value": "Users: Can create, edit and remove patron blocks"
+      "value": "Usuários: Podem criar, editar e remover bloqueios de usuários"
     }
   ],
   "ui-users.permission.patron-notice-print-jobs.delete": [
     {
       "type": 0,
-      "value": "Users: View and remove patron notice print jobs"
+      "value": "Usuários: Visualizar e remover trabalhos de impressão de avisos do usuário"
     }
   ],
   "ui-users.permission.patron-notice-print-jobs.view": [
     {
       "type": 0,
-      "value": "Users: View patron notice print jobs"
+      "value": "Usuários: Exibir trabalhos de impressão de avisos ao usuário"
     }
   ],
   "ui-users.permission.patron-pre-registrations-view": [
@@ -134058,13 +134080,13 @@
   "ui-users.permission.perms.edit": [
     {
       "type": 0,
-      "value": "Users: Can assign and unassign permissions to users"
+      "value": "Usuários: Pode atribuir e cancelar a atribuição de permissões a usuários"
     }
   ],
   "ui-users.permission.perms.view": [
     {
       "type": 0,
-      "value": "Users: Can view permissions assigned to users"
+      "value": "Usuários: Pode visualizar as permissões atribuídas aos usuários"
     }
   ],
   "ui-users.permission.profile-pictures.all": [
@@ -134082,13 +134104,13 @@
   "ui-users.permission.proxies.edit": [
     {
       "type": 0,
-      "value": "Users: Can create, edit and remove proxies"
+      "value": "Usuários: Podem criar, editar e remover procuradores"
     }
   ],
   "ui-users.permission.proxies.view": [
     {
       "type": 0,
-      "value": "Users: Can view proxies assigned to users"
+      "value": "Usuários: Pode visualizar os procuradores atribuídos aos usuários"
     }
   ],
   "ui-users.permission.reading-room-access.edit": [
@@ -134454,13 +134476,13 @@
   "ui-users.permission.user-service-points.edit": [
     {
       "type": 0,
-      "value": "Users: Can assign and unassign service points to users"
+      "value": "Usuários: Pode atribuir e cancelar a atribuição de pontos de serviço a usuários"
     }
   ],
   "ui-users.permission.user-service-points.view": [
     {
       "type": 0,
-      "value": "Users: Can view service points assigned to users"
+      "value": "Usuários: Podem visualizar pontos de serviço atribuídos aos usuários"
     }
   ],
   "ui-users.permission.view": [

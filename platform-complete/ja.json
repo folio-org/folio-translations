@@ -1566,6 +1566,12 @@
       "value": "Record deleted"
     }
   ],
+  "stripes-acq-components.versionHistory.noVersion": [
+    {
+      "type": 0,
+      "value": "No version history to display."
+    }
+  ],
   "stripes-acq-components.versionHistory.pane.header": [
     {
       "type": 0,
@@ -24877,7 +24883,7 @@
   "ui-bulk-edit.previewModal.message.empty.marc": [
     {
       "type": 0,
-      "value": "All instances have source FOLIO.  Use “Instances and  Administrative data” option for bulk edit."
+      "value": "All instances have source FOLIO. Use “Instances and  Administrative data” option for bulk edit."
     }
   ],
   "ui-bulk-edit.previewModal.previewToBeChanged": [
@@ -56135,7 +56141,7 @@
   "ui-eholdings.permission.app.view": [
     {
       "type": 0,
-      "value": "eHoldings: Can view providers, packages, titles detail records"
+      "value": "電子所蔵 : プロバイダー、パッケージ、タイトル詳細レコードが表示できます"
     }
   ],
   "ui-eholdings.permission.costperuse.view": [
@@ -56153,7 +56159,7 @@
   "ui-eholdings.permission.package-title.select-unselect.execute": [
     {
       "type": 0,
-      "value": "eHoldings: Can select/unselect packages and titles to/from your holdings"
+      "value": "電子所蔵：所蔵パッケージとタイトルを選択/選択解除できます"
     }
   ],
   "ui-eholdings.permission.records.edit": [
@@ -56243,7 +56249,7 @@
   "ui-eholdings.permission.titles-packages.create-delete.manage": [
     {
       "type": 0,
-      "value": "eHoldings: Can create and delete custom packages and titles"
+      "value": "電子所蔵：カスタムパッケージとタイトルを作成および削除できます"
     }
   ],
   "ui-eholdings.previous": [
@@ -107008,7 +107014,7 @@
   "ui-plugin-find-fund.meta.title": [
     {
       "type": 0,
-      "value": "Funds"
+      "value": "ファンド"
     }
   ],
   "ui-plugin-find-fund.modal.title": [
@@ -124613,13 +124619,29 @@
   "ui-service-interaction.settings.numberGeneratorSequences.preChecksumTemplate": [
     {
       "type": 0,
-      "value": "Pre-checksum template"
+      "value": "Input template"
     }
   ],
   "ui-service-interaction.settings.numberGeneratorSequences.preChecksumTemplate.info": [
     {
       "type": 0,
-      "value": "The pre-checksum template defines the rules applied to create the number from which the checksum digit will be calculated. Templates are formed using Groovy. See below for more information."
+      "value": "Create rules to define the number to be inputted when calculating the check digit. Both the prefix and suffix can be templated, using Groovy markup. Use $"
+    },
+    {
+      "type": 1,
+      "value": "generated_number"
+    },
+    {
+      "type": 0,
+      "value": " as placeholder for the generated number. E.g. 05$"
+    },
+    {
+      "type": 1,
+      "value": "generated_number"
+    },
+    {
+      "type": 0,
+      "value": "01"
     }
   ],
   "ui-service-interaction.settings.numberGeneratorSequences.prefix": [

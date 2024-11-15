@@ -1558,6 +1558,12 @@
       "value": "Záznam smazán"
     }
   ],
+  "stripes-acq-components.versionHistory.noVersion": [
+    {
+      "type": 0,
+      "value": "No version history to display."
+    }
+  ],
   "stripes-acq-components.versionHistory.pane.header": [
     {
       "type": 0,
@@ -16873,7 +16879,7 @@
   "ui-agreements.documents.addDocs": [
     {
       "type": 0,
-      "value": "Add document"
+      "value": "Přidat dokument"
     }
   ],
   "ui-agreements.duplicateAgreementModal.agreementInfo": [
@@ -18589,7 +18595,7 @@
   "ui-agreements.line.documents": [
     {
       "type": 0,
-      "value": "Documents"
+      "value": "Dokumenty"
     }
   ],
   "ui-agreements.line.edit": [
@@ -24696,7 +24702,7 @@
   "ui-bulk-edit.previewModal.message.empty.marc": [
     {
       "type": 0,
-      "value": "All instances have source FOLIO.  Use “Instances and  Administrative data” option for bulk edit."
+      "value": "All instances have source FOLIO. Use “Instances and  Administrative data” option for bulk edit."
     }
   ],
   "ui-bulk-edit.previewModal.previewToBeChanged": [
@@ -55833,7 +55839,7 @@
   "ui-eholdings.permission.app.view": [
     {
       "type": 0,
-      "value": "eHoldings: Can view providers, packages, titles detail records"
+      "value": "eHoldingy: Může zobrazit poskytovatele, balíčky, detailní záznamy o názvech"
     }
   ],
   "ui-eholdings.permission.costperuse.view": [
@@ -55851,7 +55857,7 @@
   "ui-eholdings.permission.package-title.select-unselect.execute": [
     {
       "type": 0,
-      "value": "eHoldings: Can select/unselect packages and titles to/from your holdings"
+      "value": "eHoldingy: Může vybrat/zrušit výběr balíčků a názvů do/z holdingů"
     }
   ],
   "ui-eholdings.permission.records.edit": [
@@ -55941,7 +55947,7 @@
   "ui-eholdings.permission.titles-packages.create-delete.manage": [
     {
       "type": 0,
-      "value": "eHoldings: Can create and delete custom packages and titles"
+      "value": "eHoldingy: Může vytvářet a mazat vlastní balíčky a názvy"
     }
   ],
   "ui-eholdings.previous": [
@@ -61975,7 +61981,7 @@
   "ui-export-manager.permission.jobs.downloadAndResend.execute": [
     {
       "type": 0,
-      "value": "Export manager: Download and resend files"
+      "value": "Správa exportu: Stahování a opětovné odesílání souborů"
     }
   ],
   "ui-export-manager.title.all": [
@@ -64603,7 +64609,7 @@
   "ui-finance.permission.encumbrance.release-manually.execute": [
     {
       "type": 0,
-      "value": "Finance: Manually release encumbrance"
+      "value": "Finance: Ručně uvolnit věcné břemeno"
     }
   ],
   "ui-finance.permission.encumbrance.unrelease": [
@@ -64615,7 +64621,7 @@
   "ui-finance.permission.encumbrance.unrelease.execute": [
     {
       "type": 0,
-      "value": "Finance: Unrelease encumbrance"
+      "value": "Finance: uvolnění věcného břemene"
     }
   ],
   "ui-finance.permission.exportCSV": [
@@ -64669,7 +64675,7 @@
   "ui-finance.permission.fund-budget.recalculate-totals.execute": [
     {
       "type": 0,
-      "value": "Finance: Recalculate budget totals"
+      "value": "Finance: Přepočítat celkové částky rozpočtu"
     }
   ],
   "ui-finance.permission.fund-budget.recalculateTotals": [
@@ -64735,7 +64741,7 @@
   "ui-finance.permission.ledger.rollover.execute": [
     {
       "type": 0,
-      "value": "Finance: Execute fiscal year rollover"
+      "value": "Finance: Provést převedení fiskálního roku"
     }
   ],
   "ui-finance.permission.ledger.view": [
@@ -75199,7 +75205,7 @@
   "ui-inventory.permission.consortia.inventory.share.local.instance": [
     {
       "type": 0,
-      "value": "Inventory: Share local instance with consortium"
+      "value": "Katalog: Sdílet místní titul s konsorciem"
     }
   ],
   "ui-inventory.permission.consortia.inventory.update-ownership.item.post": [
@@ -75211,7 +75217,7 @@
   "ui-inventory.permission.consortia.inventory.update.ownership": [
     {
       "type": 0,
-      "value": "Inventory: Update ownership"
+      "value": "Katalog: Aktualizace vlastnictví"
     }
   ],
   "ui-inventory.permission.holdings.create": [
@@ -75265,7 +75271,7 @@
   "ui-inventory.permission.instance.set-records-for-deletion.execute": [
     {
       "type": 0,
-      "value": "Inventory: Set records for deletion"
+      "value": "Katalog: Nastavit záznamy pro smazání"
     }
   ],
   "ui-inventory.permission.instance.view": [
@@ -75319,7 +75325,7 @@
   "ui-inventory.permission.items.in-transit-report.create": [
     {
       "type": 0,
-      "value": "Inventory: Create and download In transit items report"
+      "value": "Katalog: Vytvořit a stáhnout výstup Přepravované jednotky"
     }
   ],
   "ui-inventory.permission.items.mark-in-process-non-requestable": [
@@ -75331,7 +75337,7 @@
   "ui-inventory.permission.items.mark-in-process-non-requestable.execute": [
     {
       "type": 0,
-      "value": "Inventory: Mark items in process (non-requestable)"
+      "value": "Katalog: Označení jednotek v procesu (nevyžádané)"
     }
   ],
   "ui-inventory.permission.items.mark-intellectual-item": [
@@ -75343,7 +75349,7 @@
   "ui-inventory.permission.items.mark-intellectual-item.execute": [
     {
       "type": 0,
-      "value": "Inventory: Mark items intellectual item"
+      "value": "Katalog: Označit jednotky jako duševní jednotky"
     }
   ],
   "ui-inventory.permission.items.mark-items-withdrawn": [
@@ -75361,7 +75367,7 @@
   "ui-inventory.permission.items.mark-long-missing.execute": [
     {
       "type": 0,
-      "value": "Inventory: Mark items long missing"
+      "value": "Katalog: Označení jednotek, které dlouho chybí"
     }
   ],
   "ui-inventory.permission.items.mark-restricted": [
@@ -75373,7 +75379,7 @@
   "ui-inventory.permission.items.mark-restricted.execute": [
     {
       "type": 0,
-      "value": "Inventory: Mark items restricted"
+      "value": "Katalog: Označení jednotek jako omezené přístupem"
     }
   ],
   "ui-inventory.permission.items.mark-unavailable": [
@@ -75385,7 +75391,7 @@
   "ui-inventory.permission.items.mark-unavailable.execute": [
     {
       "type": 0,
-      "value": "Inventory: Mark items unavailable"
+      "value": "Katalog: Označení jednotek jako nedostupné"
     }
   ],
   "ui-inventory.permission.items.mark-unknown": [
@@ -75397,13 +75403,13 @@
   "ui-inventory.permission.items.mark-unknown.execute": [
     {
       "type": 0,
-      "value": "Inventory: Mark items unknown"
+      "value": "Katalog: Označení jednotek jako neznámé"
     }
   ],
   "ui-inventory.permission.items.mark-withdrawn.execute": [
     {
       "type": 0,
-      "value": "Inventory: Mark items withdrawn"
+      "value": "Katalog: Označení stažených jednotek"
     }
   ],
   "ui-inventory.permission.settings.alternative-title-types": [
@@ -75517,7 +75523,7 @@
   "ui-inventory.permission.settings.loan-types": [
     {
       "type": 0,
-      "value": "Settings (Inventory): Create, edit, delete loan types"
+      "value": "Nastavení (Katalog): Vytváření, úpravy, mazání typů výpůjček"
     }
   ],
   "ui-inventory.permission.settings.loantypes": [
@@ -75529,7 +75535,7 @@
   "ui-inventory.permission.settings.material-types": [
     {
       "type": 0,
-      "value": "Settings (Inventory): Create, edit, delete material types"
+      "value": "Nastavení (Katalog): Vytváření, úpravy, mazání typů materiálů"
     }
   ],
   "ui-inventory.permission.settings.materialtypes": [
@@ -88720,7 +88726,7 @@
   "ui-notes.permission.item.assign-unassign.execute": [
     {
       "type": 0,
-      "value": "Notes: Can assign and unassign a note"
+      "value": "Poznámky: Může přiřadit a zrušit přiřazení poznámky"
     }
   ],
   "ui-notes.permission.item.create": [
@@ -92135,19 +92141,19 @@
   "ui-oai-pmh.permission.settings.edit": [
     {
       "type": 0,
-      "value": "Settings (OAI-PMH): Can view and edit settings"
+      "value": "Nastavení (OAI-PMH): Umožňuje zobrazit a upravit nastavení"
     }
   ],
   "ui-oai-pmh.permission.settings.logs.view": [
     {
       "type": 0,
-      "value": "Settings (OAI-PMH): Can view logs"
+      "value": "Nastavení (OAI-PMH): Může zobrazit logy"
     }
   ],
   "ui-oai-pmh.permission.settings.view": [
     {
       "type": 0,
-      "value": "Settings (OAI-PMH): Can view"
+      "value": "Nastavení (OAI-PMH): Lze zobrazit"
     }
   ],
   "ui-oai-pmh.permission.view": [
@@ -108274,7 +108280,7 @@
   "ui-quick-marc.permission.quick-marc-authority-records.link-unlink.execute": [
     {
       "type": 0,
-      "value": "quickMARC: Can Link/unlink authority records to bib records"
+      "value": "quickMARC: Může propojit/odpojit záznamy autorit s bib. záznamy"
     }
   ],
   "ui-quick-marc.permission.quick-marc-authority-records.linkUnlink": [
@@ -108298,7 +108304,7 @@
   "ui-quick-marc.permission.quick-marc-editor.derive.execute": [
     {
       "type": 0,
-      "value": "quickMARC: Derive new MARC bibliographic record"
+      "value": "quickMARC: Odvození nového MARC bibliografického záznamu"
     }
   ],
   "ui-quick-marc.permission.quick-marc-editor.duplicate": [
@@ -117846,31 +117852,31 @@
   "ui-requests-mediated.permission.requests-mediated.confirm-item-arrival.execute": [
     {
       "type": 0,
-      "value": "Mediated requests: Confirm item arrival"
+      "value": "Zprostředkované žádanky: Potvrdit příchod jednotky"
     }
   ],
   "ui-requests-mediated.permission.requests-mediated.send-item-in-transit.execute": [
     {
       "type": 0,
-      "value": "Mediated requests: Send item in transit"
+      "value": "Zprostředkované žádanky: Odeslat jednotku v přepravě"
     }
   ],
   "ui-requests-mediated.permission.requests-mediated.view-confirm.execute": [
     {
       "type": 0,
-      "value": "Mediated requests: View, confirm"
+      "value": "Zprostředkované žádanky: Zobrazit, potvrdit"
     }
   ],
   "ui-requests-mediated.permission.requests-mediated.view-create-edit.execute": [
     {
       "type": 0,
-      "value": "Mediated requests: View, create, edit"
+      "value": "Zprostředkované žádanky: Zobrazit, vytvořit, upravit"
     }
   ],
   "ui-requests-mediated.permission.requests-mediated.view-decline.execute": [
     {
       "type": 0,
-      "value": "Mediated requests: View, decline"
+      "value": "Zprostředkované žádanky: Zobrazit, odmítnout"
     }
   ],
   "ui-requests-mediated.permission.send-item-in-transit": [
@@ -119446,7 +119452,7 @@
   "ui-requests.permission.moveRequest.execute": [
     {
       "type": 0,
-      "value": "Requests: Move to new item, reorder queue"
+      "value": "Požadavky: Přejít na novou jednotku, změnit pořadí fronty"
     }
   ],
   "ui-requests.permission.reorderQueue": [
@@ -119458,7 +119464,7 @@
   "ui-requests.permission.reorderQueue.execute": [
     {
       "type": 0,
-      "value": "Requests: Reorder queue"
+      "value": "Žádanky: Změna pořadí ve frontě"
     }
   ],
   "ui-requests.permission.view": [
@@ -123257,13 +123263,29 @@
   "ui-service-interaction.settings.numberGeneratorSequences.preChecksumTemplate": [
     {
       "type": 0,
-      "value": "Pre-checksum template"
+      "value": "Input template"
     }
   ],
   "ui-service-interaction.settings.numberGeneratorSequences.preChecksumTemplate.info": [
     {
       "type": 0,
-      "value": "The pre-checksum template defines the rules applied to create the number from which the checksum digit will be calculated. Templates are formed using Groovy. See below for more information."
+      "value": "Create rules to define the number to be inputted when calculating the check digit. Both the prefix and suffix can be templated, using Groovy markup. Use $"
+    },
+    {
+      "type": 1,
+      "value": "generated_number"
+    },
+    {
+      "type": 0,
+      "value": " as placeholder for the generated number. E.g. 05$"
+    },
+    {
+      "type": 1,
+      "value": "generated_number"
+    },
+    {
+      "type": 0,
+      "value": "01"
     }
   ],
   "ui-service-interaction.settings.numberGeneratorSequences.prefix": [
