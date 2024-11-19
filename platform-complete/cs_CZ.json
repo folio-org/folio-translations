@@ -21135,6 +21135,12 @@
       "value": "Zrušit"
     }
   ],
+  "ui-bulk-edit.category.administrativeData": [
+    {
+      "type": 0,
+      "value": "Administrative data"
+    }
+  ],
   "ui-bulk-edit.category.electronicAccess": [
     {
       "type": 0,
@@ -30664,10 +30670,28 @@
       "value": "Nastavení (Cirkulace): Úprava požadavku na úrovni názvu"
     }
   ],
+  "ui-circulation.permission.settings.view-cancellation-reasons": [
+    {
+      "type": 0,
+      "value": "Settings (Circulation): Can view cancellation reasons"
+    }
+  ],
   "ui-circulation.permission.settings.view-circulation-rules": [
     {
       "type": 0,
       "value": "Nastavení (Cirkulace): Zobrazit pravidla cirkulace"
+    }
+  ],
+  "ui-circulation.permission.settings.view-circulation-settings": [
+    {
+      "type": 0,
+      "value": "Settings (Circulation): Can view all circulation settings"
+    }
+  ],
+  "ui-circulation.permission.settings.view-fixed-due-date-schedules": [
+    {
+      "type": 0,
+      "value": "Settings (Circulation): Can view fixed due date schedules"
     }
   ],
   "ui-circulation.permission.settings.view-loan-policies": [
@@ -30682,16 +30706,46 @@
       "value": "Nastavení (Cirkulace): Může zobrazit pravidla poplatků za ztrátu"
     }
   ],
+  "ui-circulation.permission.settings.view-notice-policies": [
+    {
+      "type": 0,
+      "value": "Settings (Circulation): Can view notice policies"
+    }
+  ],
+  "ui-circulation.permission.settings.view-notice-templates": [
+    {
+      "type": 0,
+      "value": "Settings (Circulation): Can view patron notice templates"
+    }
+  ],
+  "ui-circulation.permission.settings.view-other-settings": [
+    {
+      "type": 0,
+      "value": "Settings (Circulation): Can view other settings"
+    }
+  ],
   "ui-circulation.permission.settings.view-overdue-fines-policies": [
     {
       "type": 0,
       "value": "Nastavení (Cirkulace): Může zobrazit pravidla pokut za pozdní vrácení"
     }
   ],
+  "ui-circulation.permission.settings.view-request-policies": [
+    {
+      "type": 0,
+      "value": "Settings (Circulation): Can view request policies"
+    }
+  ],
   "ui-circulation.permission.settings.view-staff-slips": [
     {
       "type": 0,
       "value": "Nastavení (Cirkulace): Může zobrazit cirkulační lístky"
+    }
+  ],
+  "ui-circulation.permission.settings.view-titleLevelRequests": [
+    {
+      "type": 0,
+      "value": "Settings (Circulation): Title level request view"
     }
   ],
   "ui-circulation.settings.PrintHoldRequests.allow": [
@@ -31322,6 +31376,32 @@
     {
       "type": 0,
       "value": "Ano"
+    }
+  ],
+  "ui-circulation.settings.consortiumTlr.allow": [
+    {
+      "type": 0,
+      "value": "Enable consortium title level requests (TLR)"
+    }
+  ],
+  "ui-circulation.settings.consortiumTlr.notification": [
+    {
+      "type": 0,
+      "value": "Consortium title level requests (TLR) is disabled. The setting will become active after the \"Allow title level requests\" checkbox is "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "checked and saved"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " in the title level requests (TLR) setting \"(Settings > Circulation > General > Title level requests (TLR))\"."
     }
   ],
   "ui-circulation.settings.fDDS.deleteDisabled": [
@@ -31978,6 +32058,12 @@
       "value": "Cirkulační pravidla"
     }
   ],
+  "ui-circulation.settings.index.consortiumTLR": [
+    {
+      "type": 0,
+      "value": "Consortium title level requests (TLR)"
+    }
+  ],
   "ui-circulation.settings.index.fdds": [
     {
       "type": 0,
@@ -32084,6 +32170,18 @@
     {
       "type": 0,
       "value": "Žádanky na úrovni názvu"
+    }
+  ],
+  "ui-circulation.settings.index.titleLevelRequestsTlr": [
+    {
+      "type": 0,
+      "value": "Title level requests (TLR)"
+    }
+  ],
+  "ui-circulation.settings.index.tlrPatronNotices": [
+    {
+      "type": 0,
+      "value": "TLR patron notice templates"
     }
   ],
   "ui-circulation.settings.index.viewPrintDetails": [
@@ -33872,6 +33970,12 @@
       "value": "Cirkulační pravidla"
     }
   ],
+  "ui-circulation.settings.title.consortiumTLR": [
+    {
+      "type": 0,
+      "value": "Consortium title level requests (TLR)"
+    }
+  ],
   "ui-circulation.settings.title.editRecord": [
     {
       "type": 0,
@@ -34168,6 +34272,18 @@
       "value": "Žádanky na úrovni názvu"
     }
   ],
+  "ui-circulation.settings.title.titleLevelRequestsTlr": [
+    {
+      "type": 0,
+      "value": "Title level requests (TLR)"
+    }
+  ],
+  "ui-circulation.settings.title.tlrPatronNotices": [
+    {
+      "type": 0,
+      "value": "TLR Patron notice templates"
+    }
+  ],
   "ui-circulation.settings.title.viewPrintDetails": [
     {
       "type": 0,
@@ -34244,6 +34360,18 @@
     {
       "type": 0,
       "value": "Nepodařilo se vytvořit blokaci na úrovni názvu, když je požadavek blokován pravidlem pro výpůjčky"
+    }
+  ],
+  "ui-circulation.settings.titleLevelRequestsTlr.paneTitle": [
+    {
+      "type": 0,
+      "value": "Title level requests (TLR)"
+    }
+  ],
+  "ui-circulation.settings.tlrPatronNotices.paneTitle": [
+    {
+      "type": 0,
+      "value": "TLR Patron notice templates"
     }
   ],
   "ui-circulation.settings.validate.fillIn": [

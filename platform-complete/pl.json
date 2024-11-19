@@ -15407,7 +15407,7 @@
   "ui-agreements.agreementLines.suppressFromDiscovery": [
     {
       "type": 0,
-      "value": "Ukryty w katalogu WWW"
+      "value": "Ukryte w katalogu WWW"
     }
   ],
   "ui-agreements.agreementLines.viewInSearch": [
@@ -17954,7 +17954,7 @@
   "ui-agreements.eresources.suppressFromDiscovery": [
     {
       "type": 0,
-      "value": "Ukryty w katalogu WWW"
+      "value": "Ukryte w katalogu WWW"
     }
   ],
   "ui-agreements.eresources.title": [
@@ -21242,6 +21242,12 @@
     {
       "type": 0,
       "value": "Anuluj"
+    }
+  ],
+  "ui-bulk-edit.category.administrativeData": [
+    {
+      "type": 0,
+      "value": "Administrative data"
     }
   ],
   "ui-bulk-edit.category.electronicAccess": [
@@ -30781,10 +30787,28 @@
       "value": "Settings (Circulation): Title level request edit"
     }
   ],
+  "ui-circulation.permission.settings.view-cancellation-reasons": [
+    {
+      "type": 0,
+      "value": "Settings (Circulation): Can view cancellation reasons"
+    }
+  ],
   "ui-circulation.permission.settings.view-circulation-rules": [
     {
       "type": 0,
       "value": "Settings (Circ): View circulation rules"
+    }
+  ],
+  "ui-circulation.permission.settings.view-circulation-settings": [
+    {
+      "type": 0,
+      "value": "Settings (Circulation): Can view all circulation settings"
+    }
+  ],
+  "ui-circulation.permission.settings.view-fixed-due-date-schedules": [
+    {
+      "type": 0,
+      "value": "Settings (Circulation): Can view fixed due date schedules"
     }
   ],
   "ui-circulation.permission.settings.view-loan-policies": [
@@ -30799,16 +30823,46 @@
       "value": "Ustawienia (Udostępnianie): Podgląd zasad dotyczących opłat za zagubiony egzemplarz"
     }
   ],
+  "ui-circulation.permission.settings.view-notice-policies": [
+    {
+      "type": 0,
+      "value": "Settings (Circulation): Can view notice policies"
+    }
+  ],
+  "ui-circulation.permission.settings.view-notice-templates": [
+    {
+      "type": 0,
+      "value": "Settings (Circulation): Can view patron notice templates"
+    }
+  ],
+  "ui-circulation.permission.settings.view-other-settings": [
+    {
+      "type": 0,
+      "value": "Settings (Circulation): Can view other settings"
+    }
+  ],
   "ui-circulation.permission.settings.view-overdue-fines-policies": [
     {
       "type": 0,
       "value": "Settings (Circ): Can view overdue fine policies"
     }
   ],
+  "ui-circulation.permission.settings.view-request-policies": [
+    {
+      "type": 0,
+      "value": "Settings (Circulation): Can view request policies"
+    }
+  ],
   "ui-circulation.permission.settings.view-staff-slips": [
     {
       "type": 0,
       "value": "Ustawienia (Circ): Może wyświetlać rewersy dla personelu"
+    }
+  ],
+  "ui-circulation.permission.settings.view-titleLevelRequests": [
+    {
+      "type": 0,
+      "value": "Settings (Circulation): Title level request view"
     }
   ],
   "ui-circulation.settings.PrintHoldRequests.allow": [
@@ -31439,6 +31493,32 @@
     {
       "type": 0,
       "value": "Tak"
+    }
+  ],
+  "ui-circulation.settings.consortiumTlr.allow": [
+    {
+      "type": 0,
+      "value": "Enable consortium title level requests (TLR)"
+    }
+  ],
+  "ui-circulation.settings.consortiumTlr.notification": [
+    {
+      "type": 0,
+      "value": "Consortium title level requests (TLR) is disabled. The setting will become active after the \"Allow title level requests\" checkbox is "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "checked and saved"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " in the title level requests (TLR) setting \"(Settings > Circulation > General > Title level requests (TLR))\"."
     }
   ],
   "ui-circulation.settings.fDDS.deleteDisabled": [
@@ -32095,6 +32175,12 @@
       "value": "Reguły udostępniania"
     }
   ],
+  "ui-circulation.settings.index.consortiumTLR": [
+    {
+      "type": 0,
+      "value": "Consortium title level requests (TLR)"
+    }
+  ],
   "ui-circulation.settings.index.fdds": [
     {
       "type": 0,
@@ -32201,6 +32287,18 @@
     {
       "type": 0,
       "value": "Rezerwacje tytułu"
+    }
+  ],
+  "ui-circulation.settings.index.titleLevelRequestsTlr": [
+    {
+      "type": 0,
+      "value": "Title level requests (TLR)"
+    }
+  ],
+  "ui-circulation.settings.index.tlrPatronNotices": [
+    {
+      "type": 0,
+      "value": "TLR patron notice templates"
     }
   ],
   "ui-circulation.settings.index.viewPrintDetails": [
@@ -33989,6 +34087,12 @@
       "value": "Reguły udostępniania"
     }
   ],
+  "ui-circulation.settings.title.consortiumTLR": [
+    {
+      "type": 0,
+      "value": "Consortium title level requests (TLR)"
+    }
+  ],
   "ui-circulation.settings.title.editRecord": [
     {
       "type": 0,
@@ -34285,6 +34389,18 @@
       "value": "Rezerwacje tytułu"
     }
   ],
+  "ui-circulation.settings.title.titleLevelRequestsTlr": [
+    {
+      "type": 0,
+      "value": "Title level requests (TLR)"
+    }
+  ],
+  "ui-circulation.settings.title.tlrPatronNotices": [
+    {
+      "type": 0,
+      "value": "TLR Patron notice templates"
+    }
+  ],
   "ui-circulation.settings.title.viewPrintDetails": [
     {
       "type": 0,
@@ -34361,6 +34477,18 @@
     {
       "type": 0,
       "value": "Fail to create title level hold when request is blocked by circulation rule"
+    }
+  ],
+  "ui-circulation.settings.titleLevelRequestsTlr.paneTitle": [
+    {
+      "type": 0,
+      "value": "Title level requests (TLR)"
+    }
+  ],
+  "ui-circulation.settings.tlrPatronNotices.paneTitle": [
+    {
+      "type": 0,
+      "value": "TLR Patron notice templates"
     }
   ],
   "ui-circulation.settings.validate.fillIn": [
@@ -39032,7 +39160,7 @@
   "ui-dashboard.allDashboards": [
     {
       "type": 0,
-      "value": "All dashboards"
+      "value": "Wszystkie panele"
     }
   ],
   "ui-dashboard.appMenu.keyboardShortcuts": [
@@ -39544,7 +39672,7 @@
   "ui-dashboard.deleteDashboard": [
     {
       "type": 0,
-      "value": "Delete dashboard"
+      "value": "Usuń panel"
     }
   ],
   "ui-dashboard.deleteDashboard.message": [
@@ -39614,7 +39742,7 @@
   "ui-dashboard.editDashboard": [
     {
       "type": 0,
-      "value": "Edit dashboard"
+      "value": "Edytuj panel"
     }
   ],
   "ui-dashboard.error": [
@@ -39712,19 +39840,19 @@
   "ui-dashboard.manageDashboards": [
     {
       "type": 0,
-      "value": "Manage dashboards"
+      "value": "Zarządzaj panelami"
     }
   ],
   "ui-dashboard.manageUserAccess": [
     {
       "type": 0,
-      "value": "Manage user access"
+      "value": "Zarządzaj dostępem użytkownika"
     }
   ],
   "ui-dashboard.manageWidgets": [
     {
       "type": 0,
-      "value": "Manage widgets"
+      "value": "Zarządzaj widżetami"
     }
   ],
   "ui-dashboard.meta.title": [
@@ -39742,7 +39870,7 @@
   "ui-dashboard.newDashboard": [
     {
       "type": 0,
-      "value": "New dashboard"
+      "value": "Nowy panel"
     }
   ],
   "ui-dashboard.newWidget": [
@@ -54574,13 +54702,13 @@
   "ui-eholdings.filter.contentType.ebook": [
     {
       "type": 0,
-      "value": "E-Book"
+      "value": "e-Book"
     }
   ],
   "ui-eholdings.filter.contentType.ejournal": [
     {
       "type": 0,
-      "value": "E-Dziennik"
+      "value": "e-Czasopismo"
     }
   ],
   "ui-eholdings.filter.contentType.mixedContent": [
@@ -54592,7 +54720,7 @@
   "ui-eholdings.filter.contentType.mixed_content": [
     {
       "type": 0,
-      "value": "Mixed Content"
+      "value": "Zawartość mieszana"
     }
   ],
   "ui-eholdings.filter.contentType.onlineReference": [
@@ -54610,7 +54738,7 @@
   "ui-eholdings.filter.contentType.print": [
     {
       "type": 0,
-      "value": "Drukuj"
+      "value": "Wydruk"
     }
   ],
   "ui-eholdings.filter.contentType.streamingMedia": [
@@ -54746,7 +54874,7 @@
   "ui-eholdings.filter.pubType.thesis_dissertation": [
     {
       "type": 0,
-      "value": "Thesis & Dissertation"
+      "value": "Rozprawy i dysertacje"
     }
   ],
   "ui-eholdings.filter.pubType.thesisdissertation": [
@@ -55546,7 +55674,7 @@
   "ui-eholdings.package.actionMenu.exportToCSV": [
     {
       "type": 0,
-      "value": "Export package (CSV)"
+      "value": "Eksport pakietu (CSV)"
     }
   ],
   "ui-eholdings.package.addToHoldings": [
@@ -56473,7 +56601,7 @@
   "ui-eholdings.search.searchByTagsOnly": [
     {
       "type": 0,
-      "value": "Wyszukiwanie tylko według etykiet"
+      "value": "Wyszukiwanie tylko według tagów"
     }
   ],
   "ui-eholdings.search.searchLink": [
@@ -85612,7 +85740,7 @@
   "ui-lists.title.infoList": [
     {
       "type": 0,
-      "value": "Lists - "
+      "value": "Listy - "
     },
     {
       "type": 1,
@@ -88160,7 +88288,7 @@
   "ui-marc-authorities.reports": [
     {
       "type": 0,
-      "value": "Reports"
+      "value": "Raporty"
     }
   ],
   "ui-marc-authorities.reports.FAILED_UPDATES.description": [
@@ -88208,7 +88336,7 @@
   "ui-marc-authorities.reports.HEADINGS_UPDATES.outputFormat": [
     {
       "type": 0,
-      "value": "MARC authority headings updates (CSV)"
+      "value": "Aktualizacje haseł KHW (CSV)"
     }
   ],
   "ui-marc-authorities.reports.HEADINGS_UPDATES.success": [
@@ -88244,13 +88372,13 @@
   "ui-marc-authorities.reports.failedUpdates": [
     {
       "type": 0,
-      "value": "Failed updates: linked bibliographic fields (CSV)"
+      "value": "Nieudane aktualizacje: połączeń haseł z opisami bibliograficznymi (CSV)"
     }
   ],
   "ui-marc-authorities.reports.marcAuthorityHeadings": [
     {
       "type": 0,
-      "value": "MARC authority headings updates (CSV)"
+      "value": "Aktualizacje haseł KHW (CSV)"
     }
   ],
   "ui-marc-authorities.search-results-list.authRefType": [
@@ -117135,7 +117263,7 @@
   "ui-requests-mediated.confirmItemList.columnName.title": [
     {
       "type": 0,
-      "value": "Title"
+      "value": "Tytuł"
     }
   ],
   "ui-requests-mediated.declineModal.back": [
@@ -117197,7 +117325,7 @@
   "ui-requests-mediated.filters.mediatedRequestLevel.title": [
     {
       "type": 0,
-      "value": "Title"
+      "value": "Tytuł"
     }
   ],
   "ui-requests-mediated.filters.mediatedRequestStatus.accordionTitle": [
@@ -117537,7 +117665,7 @@
   "ui-requests-mediated.instanceDetails.title": [
     {
       "type": 0,
-      "value": "Title"
+      "value": "Tytuł"
     }
   ],
   "ui-requests-mediated.item.status.agedToLost": [
@@ -117579,7 +117707,7 @@
   "ui-requests-mediated.item.status.claimedReturned": [
     {
       "type": 0,
-      "value": "Claimed returned"
+      "value": "Zapewniony że zwrócony"
     }
   ],
   "ui-requests-mediated.item.status.declaredLost": [
@@ -117735,7 +117863,7 @@
   "ui-requests-mediated.itemDetails.title": [
     {
       "type": 0,
-      "value": "Title"
+      "value": "Tytuł"
     }
   ],
   "ui-requests-mediated.itemsDialog.barcode": [
@@ -117900,7 +118028,7 @@
   "ui-requests-mediated.mediatedRequestInformation.level.title": [
     {
       "type": 0,
-      "value": "Title"
+      "value": "Tytuł"
     }
   ],
   "ui-requests-mediated.mediatedRequestInformation.patronComments": [
@@ -117984,7 +118112,7 @@
   "ui-requests-mediated.mediatedRequestList.columnName.title": [
     {
       "type": 0,
-      "value": "Title"
+      "value": "Tytuł"
     }
   ],
   "ui-requests-mediated.mediatedRequestStatus.closedCancelled": [
@@ -118260,7 +118388,7 @@
   "ui-requests-mediated.report.instance.title": [
     {
       "type": 0,
-      "value": "Title"
+      "value": "Tytuł"
     }
   ],
   "ui-requests-mediated.report.item.barcode": [
@@ -121086,7 +121214,7 @@
   "ui-serials-management.lastUpdated": [
     {
       "type": 0,
-      "value": "Last updated"
+      "value": "Ostatnia aktualizacja"
     }
   ],
   "ui-serials-management.learnMore": [
@@ -129126,7 +129254,7 @@
   "ui-users.details.label.loanAnonymized": [
     {
       "type": 0,
-      "value": "Anonymized"
+      "value": "Zanonimizowane"
     }
   ],
   "ui-users.details.label.loanDetails": [
@@ -134034,7 +134162,7 @@
   "ui-users.readingRoom.lastUpdated": [
     {
       "type": 0,
-      "value": "Last updated"
+      "value": "Ostatnia aktualizacja"
     }
   ],
   "ui-users.readingRoom.metaSection.lastUpdatedDetails": [
@@ -134114,7 +134242,7 @@
   "ui-users.reports": [
     {
       "type": 0,
-      "value": "Reports"
+      "value": "Raporty"
     }
   ],
   "ui-users.reports.borrower.barcode": [
