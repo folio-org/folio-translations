@@ -61156,6 +61156,3389 @@
       "value": "Bronregister"
     }
   ],
+  "ui-inn-reach.action.after-click-add": [
+    {
+      "type": 0,
+      "value": "Nieuwe rij toegevoegd. "
+    },
+    {
+      "type": 1,
+      "value": "fieldsLength"
+    },
+    {
+      "type": 0,
+      "value": " in totaal"
+    }
+  ],
+  "ui-inn-reach.action.after-click-remove": [
+    {
+      "type": 0,
+      "value": "Rij "
+    },
+    {
+      "type": 1,
+      "value": "index"
+    },
+    {
+      "type": 0,
+      "value": " is verwijderd. "
+    },
+    {
+      "type": 1,
+      "value": "fieldsLength"
+    },
+    {
+      "type": 0,
+      "value": " in totaal"
+    }
+  ],
+  "ui-inn-reach.action.focus.add": [
+    {
+      "type": 0,
+      "value": "Een nieuwe rij toevoegen"
+    }
+  ],
+  "ui-inn-reach.action.focus.remove": [
+    {
+      "type": 0,
+      "value": "Verwijder velden voor rij "
+    },
+    {
+      "type": 1,
+      "value": "num"
+    }
+  ],
+  "ui-inn-reach.action.swap": [
+    {
+      "type": 1,
+      "value": "label"
+    },
+    {
+      "type": 0,
+      "value": " "
+    },
+    {
+      "type": 1,
+      "value": "from"
+    },
+    {
+      "type": 0,
+      "value": " en "
+    },
+    {
+      "type": 1,
+      "value": "to"
+    },
+    {
+      "type": 0,
+      "value": " zijn verwisseld"
+    }
+  ],
+  "ui-inn-reach.available-actions": [
+    {
+      "type": 0,
+      "value": "beschikbare acties"
+    }
+  ],
+  "ui-inn-reach.banner.item-types": [
+    {
+      "type": 0,
+      "value": "Kan de INN-Reach item type instellingen niet ophalen van de centrale server. Controleer de configuratie van de geselecteerde centrale server."
+    }
+  ],
+  "ui-inn-reach.banner.local-servers": [
+    {
+      "type": 0,
+      "value": "Kan de instellingen van de lokale server niet ophalen van de centrale server. Controleer de configuratie van de geselecteerde centrale server."
+    }
+  ],
+  "ui-inn-reach.banner.patron-types": [
+    {
+      "type": 0,
+      "value": "Kan de waarden van het centrale type gebruiker niet ophalen. Controleer de configuratie van de geselecteerde centrale server."
+    }
+  ],
+  "ui-inn-reach.cancel-hold.callout.connection-problem.get.cancellation-reasons": [
+    {
+      "type": 0,
+      "value": "Kan annuleringsredenen niet ophalen!"
+    }
+  ],
+  "ui-inn-reach.cancel-hold.callout.connection-problem.post.cancel-hold": [
+    {
+      "type": 0,
+      "value": "Er is een probleem opgetreden bij het annuleren van het item"
+    }
+  ],
+  "ui-inn-reach.cancel-hold.callout.success.post.cancel-hold": [
+    {
+      "type": 0,
+      "value": "Item is succesvol geannuleerd"
+    }
+  ],
+  "ui-inn-reach.check-out-borrowing-site.action.change-due-date": [
+    {
+      "type": 0,
+      "value": "Vervaldatum wijzigen"
+    }
+  ],
+  "ui-inn-reach.check-out-borrowing-site.action.loan-detail": [
+    {
+      "type": 0,
+      "value": "Uitleningdetails"
+    }
+  ],
+  "ui-inn-reach.check-out-borrowing-site.action.transaction-detail": [
+    {
+      "type": 0,
+      "value": "Transactiedetails van Inn-Reach"
+    }
+  ],
+  "ui-inn-reach.check-out-borrowing-site.button.end-session": [
+    {
+      "type": 0,
+      "value": "Einde sessie"
+    }
+  ],
+  "ui-inn-reach.check-out-borrowing-site.button.enter": [
+    {
+      "type": 0,
+      "value": "Ga naar"
+    }
+  ],
+  "ui-inn-reach.check-out-borrowing-site.callout.connection-problem.get.transactions": [
+    {
+      "type": 0,
+      "value": "Kan geen gegevens ophalen vanwege een modulefout. Probeer het opnieuw. Als er een probleem blijft bestaan, neem dan contact op met uw systeembeheerder"
+    }
+  ],
+  "ui-inn-reach.check-out-borrowing-site.callout.connection-problem.post.check-out-borrowing-site": [
+    {
+      "type": 0,
+      "value": "Er is een probleem opgetreden bij het Uitchecken van het item."
+    }
+  ],
+  "ui-inn-reach.check-out-borrowing-site.callout.success.post.check-out-borrowing-site": [
+    {
+      "type": 0,
+      "value": "Item is succesvol uitgecheckt"
+    }
+  ],
+  "ui-inn-reach.check-out-borrowing-site.column.actions": [
+    {
+      "type": 0,
+      "value": "Acties"
+    }
+  ],
+  "ui-inn-reach.check-out-borrowing-site.column.barcode": [
+    {
+      "type": 0,
+      "value": "Barcode"
+    }
+  ],
+  "ui-inn-reach.check-out-borrowing-site.column.destination": [
+    {
+      "type": 0,
+      "value": "Bestemming"
+    }
+  ],
+  "ui-inn-reach.check-out-borrowing-site.column.due-date": [
+    {
+      "type": 0,
+      "value": "Vervaldatum"
+    }
+  ],
+  "ui-inn-reach.check-out-borrowing-site.column.loan-policy": [
+    {
+      "type": 0,
+      "value": "Uitleenbeleid"
+    }
+  ],
+  "ui-inn-reach.check-out-borrowing-site.column.no": [
+    {
+      "type": 0,
+      "value": "Nee."
+    }
+  ],
+  "ui-inn-reach.check-out-borrowing-site.column.time": [
+    {
+      "type": 0,
+      "value": "Tijd"
+    }
+  ],
+  "ui-inn-reach.check-out-borrowing-site.column.title": [
+    {
+      "type": 0,
+      "value": "Titel"
+    }
+  ],
+  "ui-inn-reach.check-out-borrowing-site.modal.button": [
+    {
+      "type": 0,
+      "value": "Sluiten"
+    }
+  ],
+  "ui-inn-reach.check-out-borrowing-site.modal.message": [
+    {
+      "type": 0,
+      "value": "Er kon geen INN-Reach transactie worden gevonden voor dit item."
+    }
+  ],
+  "ui-inn-reach.check-out-borrowing-site.placeholder.scan-or-enter-item-barcode": [
+    {
+      "type": 0,
+      "value": "Barcode van item scannen of invoeren"
+    }
+  ],
+  "ui-inn-reach.check-out-borrowing-site.title": [
+    {
+      "type": 0,
+      "value": "Geen overeenkomende INN-Reach transactie gevonden voor dit item"
+    }
+  ],
+  "ui-inn-reach.check-out-borrowing-site.title.check-out-borrowing-site": [
+    {
+      "type": 0,
+      "value": "Uitchecken naar leensite"
+    }
+  ],
+  "ui-inn-reach.check-out-borrowing-site.title.scan-items": [
+    {
+      "type": 0,
+      "value": "Items scannen"
+    }
+  ],
+  "ui-inn-reach.check-out-to-local-patron.callout.connection-problem.post.check-out-to-local-patron": [
+    {
+      "type": 0,
+      "value": "Er is een probleem opgetreden bij het Uitchecken van het item."
+    }
+  ],
+  "ui-inn-reach.check-out-to-local-patron.callout.success.post.check-out-to-local-patron": [
+    {
+      "type": 0,
+      "value": "Item is succesvol uitgecheckt"
+    }
+  ],
+  "ui-inn-reach.check-out-to-patron.callout.connection-problem.post.check-out-to-patron": [
+    {
+      "type": 0,
+      "value": "Er is een probleem opgetreden bij het uitchecken van het item."
+    }
+  ],
+  "ui-inn-reach.check-out-to-patron.callout.success.post.check-out-to-patron": [
+    {
+      "type": 0,
+      "value": "Item is succesvol uitgecheckt"
+    }
+  ],
+  "ui-inn-reach.final-check-in-item-hold.callout.connection-problem.post.final-check-in-item-hold": [
+    {
+      "type": 0,
+      "value": "Er is een probleem opgetreden bij het inchecken van het item."
+    }
+  ],
+  "ui-inn-reach.final-check-in-item-hold.callout.success.post.final-check-in-item-hold": [
+    {
+      "type": 0,
+      "value": "Item is succesvol ingecheckt"
+    }
+  ],
+  "ui-inn-reach.loan.callout.connection-problem.get.loan": [
+    {
+      "type": 0,
+      "value": "Er is een probleem opgetreden bij het invoeren van de uitlening"
+    }
+  ],
+  "ui-inn-reach.meta.title": [
+    {
+      "type": 0,
+      "value": "INN-Reach"
+    }
+  ],
+  "ui-inn-reach.modal.cancelLabel.closeWithoutSaving": [
+    {
+      "type": 0,
+      "value": "Sluiten zonder op te slaan"
+    }
+  ],
+  "ui-inn-reach.modal.confirmLabel.keepEditing": [
+    {
+      "type": 0,
+      "value": "Verdergaan met bewerken"
+    }
+  ],
+  "ui-inn-reach.modal.heading.areYouSure": [
+    {
+      "type": 0,
+      "value": "Weet u het zeker?"
+    }
+  ],
+  "ui-inn-reach.modal.message.unsavedChanges": [
+    {
+      "type": 0,
+      "value": "Er zijn niet-opgeslagen veranderingen"
+    }
+  ],
+  "ui-inn-reach.no-items-entered": [
+    {
+      "type": 0,
+      "value": "Er zijn nog geen items ingevoerd"
+    }
+  ],
+  "ui-inn-reach.no-selection": [
+    {
+      "type": 0,
+      "value": "Geen selectie"
+    }
+  ],
+  "ui-inn-reach.not-valid": [
+    {
+      "type": 0,
+      "value": "Niet geldig"
+    }
+  ],
+  "ui-inn-reach.paging-slips-template.callout.connection-problem.get.pagingSlipTemplate": [
+    {
+      "type": 0,
+      "value": "Er is een probleem opgetreden bij het Invoeren van de sjablonen voor inlegstroken."
+    }
+  ],
+  "ui-inn-reach.paging-slips.callout.connection-problem.get.pagingSlip": [
+    {
+      "type": 0,
+      "value": "Er is een probleem opgetreden bij het invoeren van de Invoerbonnen."
+    }
+  ],
+  "ui-inn-reach.patron-lookup": [
+    {
+      "type": 0,
+      "value": "Gebruiker opzoeken"
+    }
+  ],
+  "ui-inn-reach.printSlips.label": [
+    {
+      "type": 0,
+      "value": "INN-Reach paging slips voor "
+    },
+    {
+      "type": 1,
+      "value": "servicePoint"
+    }
+  ],
+  "ui-inn-reach.recall-item.callout.connection-problem.post.recall-item": [
+    {
+      "type": 0,
+      "value": "Er is een probleem opgetreden bij het terugroepen van het item"
+    }
+  ],
+  "ui-inn-reach.recall-item.callout.success.post.recall-item": [
+    {
+      "type": 0,
+      "value": "Item is succesvol teruggeroepen"
+    }
+  ],
+  "ui-inn-reach.receive-item.callout.connection-problem.post.receive-item": [
+    {
+      "type": 0,
+      "value": "Er is een probleem opgetreden bij het ontvangen van het item."
+    }
+  ],
+  "ui-inn-reach.receive-item.callout.success.post.receive-item": [
+    {
+      "type": 0,
+      "value": "Item is succesvol ontvangen"
+    }
+  ],
+  "ui-inn-reach.reports.callout.export-in-progress": [
+    {
+      "type": 0,
+      "value": "Export bezig"
+    }
+  ],
+  "ui-inn-reach.reports.callout.no-items-found": [
+    {
+      "type": 0,
+      "value": "Geen items gevonden."
+    }
+  ],
+  "ui-inn-reach.reports.dateRequested": [
+    {
+      "type": 0,
+      "value": "Datum aangevraagd"
+    }
+  ],
+  "ui-inn-reach.reports.dateReturned": [
+    {
+      "type": 0,
+      "value": "Datum teruggebracht"
+    }
+  ],
+  "ui-inn-reach.reports.dateShipped": [
+    {
+      "type": 0,
+      "value": "Datum verzonden"
+    }
+  ],
+  "ui-inn-reach.reports.effectiveLocation": [
+    {
+      "type": 0,
+      "value": "Effectieve locatie van item"
+    }
+  ],
+  "ui-inn-reach.reports.in-transit-too-long.label": [
+    {
+      "type": 0,
+      "value": "Rapport in afhandeling te lang (CSV)"
+    }
+  ],
+  "ui-inn-reach.reports.itemBarcode": [
+    {
+      "type": 0,
+      "value": "Barcode item"
+    }
+  ],
+  "ui-inn-reach.reports.itemCallNumber": [
+    {
+      "type": 0,
+      "value": "Etiketnummer item"
+    }
+  ],
+  "ui-inn-reach.reports.itemHRID": [
+    {
+      "type": 0,
+      "value": "Item-HRID"
+    }
+  ],
+  "ui-inn-reach.reports.itemLocation": [
+    {
+      "type": 0,
+      "value": "Locatie item"
+    }
+  ],
+  "ui-inn-reach.reports.itemTitle": [
+    {
+      "type": 0,
+      "value": "Titel item"
+    }
+  ],
+  "ui-inn-reach.reports.loanDueDate": [
+    {
+      "type": 0,
+      "value": "Uitlening vervaldatum"
+    }
+  ],
+  "ui-inn-reach.reports.modal.button.cancel": [
+    {
+      "type": 0,
+      "value": "Annuleren"
+    }
+  ],
+  "ui-inn-reach.reports.modal.button.save-and-close": [
+    {
+      "type": 0,
+      "value": "Opslaan & sluiten"
+    }
+  ],
+  "ui-inn-reach.reports.modal.field.minimum-days-overdue": [
+    {
+      "type": 0,
+      "value": "Minimaal aantal dagen te laat"
+    }
+  ],
+  "ui-inn-reach.reports.modal.field.minimum-days-paged": [
+    {
+      "type": 0,
+      "value": "Minimaal aantal opgeroepen dagen"
+    }
+  ],
+  "ui-inn-reach.reports.modal.field.minimum-days-requested": [
+    {
+      "type": 0,
+      "value": "Minimaal aantal dagen aangevraagd"
+    }
+  ],
+  "ui-inn-reach.reports.modal.field.minimum-days-returned": [
+    {
+      "type": 0,
+      "value": "Minimaal aantal dagen terug"
+    }
+  ],
+  "ui-inn-reach.reports.modal.field.minimum-days-shipped": [
+    {
+      "type": 0,
+      "value": "Minimum aantal verzonden dagen"
+    }
+  ],
+  "ui-inn-reach.reports.modal.title.in-transit-too-long-report": [
+    {
+      "type": 0,
+      "value": "In afhandeling te lang rapport"
+    }
+  ],
+  "ui-inn-reach.reports.modal.title.owning-site-overdue-report": [
+    {
+      "type": 0,
+      "value": "Eigen site te-laat-rapport"
+    }
+  ],
+  "ui-inn-reach.reports.modal.title.paged-too-long-report": [
+    {
+      "type": 0,
+      "value": "Rapport over te lange notificaties van eigen site"
+    }
+  ],
+  "ui-inn-reach.reports.modal.title.requested-too-long-report": [
+    {
+      "type": 0,
+      "value": "Te-lang-rapport aangevraagd"
+    }
+  ],
+  "ui-inn-reach.reports.modal.title.returned-too-long-report": [
+    {
+      "type": 0,
+      "value": "Te-lang-rapport teruggestuurd"
+    }
+  ],
+  "ui-inn-reach.reports.owning-site-overdue.label": [
+    {
+      "type": 0,
+      "value": "Te laat-rapport over eigen site (CSV)"
+    }
+  ],
+  "ui-inn-reach.reports.paged-too-long.label": [
+    {
+      "type": 0,
+      "value": "Rapport (CSV) over te lange notificaties eigen site"
+    }
+  ],
+  "ui-inn-reach.reports.pagedDate": [
+    {
+      "type": 0,
+      "value": "Opgeroepen datum"
+    }
+  ],
+  "ui-inn-reach.reports.patronAgency": [
+    {
+      "type": 0,
+      "value": "Gebruikers-agentschap"
+    }
+  ],
+  "ui-inn-reach.reports.patronHomeLibrary": [
+    {
+      "type": 0,
+      "value": "Thuisbibliotheek voor gebruikers"
+    }
+  ],
+  "ui-inn-reach.reports.patronIdField": [
+    {
+      "type": 0,
+      "value": "INN-Reach gebruiker-ID"
+    }
+  ],
+  "ui-inn-reach.reports.requested-too-long.label": [
+    {
+      "type": 0,
+      "value": "Te-lang-rapport (CSV) aangevraagd"
+    }
+  ],
+  "ui-inn-reach.reports.requestingPatronAgency": [
+    {
+      "type": 0,
+      "value": "Aanvraag gebruikers-agentschap"
+    }
+  ],
+  "ui-inn-reach.reports.requestingPatronId": [
+    {
+      "type": 0,
+      "value": "Aanvraag gebruiker-ID"
+    }
+  ],
+  "ui-inn-reach.reports.returned-too-long.label": [
+    {
+      "type": 0,
+      "value": "Te lang Rapport teruggestuurd (CSV)"
+    }
+  ],
+  "ui-inn-reach.resetAllFilters": [
+    {
+      "type": 0,
+      "value": "Alles resetten"
+    }
+  ],
+  "ui-inn-reach.return-patron-hold-item.callout.connection-problem.post.return-patron-hold-item": [
+    {
+      "type": 0,
+      "value": "Er was een probleem met het retourneren van het item"
+    }
+  ],
+  "ui-inn-reach.return-patron-hold-item.callout.success.post.return-patron-hold-item": [
+    {
+      "type": 0,
+      "value": "Item is met succes geretourneerd"
+    }
+  ],
+  "ui-inn-reach.search": [
+    {
+      "type": 0,
+      "value": "Zoeken"
+    }
+  ],
+  "ui-inn-reach.searchAndFilter": [
+    {
+      "type": 0,
+      "value": "Activiteit selecteren"
+    }
+  ],
+  "ui-inn-reach.settings.agency-to-folio-locations": [
+    {
+      "type": 0,
+      "value": "Agentschap naar Locatie FOLIO"
+    }
+  ],
+  "ui-inn-reach.settings.agency-to-folio-locations.button.save": [
+    {
+      "type": 0,
+      "value": "Opslaan"
+    }
+  ],
+  "ui-inn-reach.settings.agency-to-folio-locations.callout.connection-problem.get": [
+    {
+      "type": 0,
+      "value": "Kan geen gegevens ophalen vanwege een modulefout. Probeer het opnieuw. Als er een probleem blijft bestaan, neem dan contact op met uw systeembeheerder"
+    }
+  ],
+  "ui-inn-reach.settings.agency-to-folio-locations.callout.connection-problem.put": [
+    {
+      "type": 0,
+      "value": "Er is een probleem opgetreden en uw update is niet opgeslagen: "
+    },
+    {
+      "type": 1,
+      "value": "message"
+    },
+    {
+      "type": 0,
+      "value": ", statuscode "
+    },
+    {
+      "type": 1,
+      "value": "code"
+    }
+  ],
+  "ui-inn-reach.settings.agency-to-folio-locations.create.success": [
+    {
+      "type": 0,
+      "value": "De INN-Reach Agency naar FOLIO locatie mapping voor "
+    },
+    {
+      "type": 1,
+      "value": "name"
+    },
+    {
+      "type": 0,
+      "value": " is met succes aangemaakt."
+    }
+  ],
+  "ui-inn-reach.settings.agency-to-folio-locations.field.agency-code-description": [
+    {
+      "type": 0,
+      "value": "Code agentschap (Omschrijving)"
+    }
+  ],
+  "ui-inn-reach.settings.agency-to-folio-locations.field.folio-library": [
+    {
+      "type": 0,
+      "value": "FOLIO-bibliotheek (standaard)"
+    }
+  ],
+  "ui-inn-reach.settings.agency-to-folio-locations.field.folio-library-and-location": [
+    {
+      "type": 0,
+      "value": "FOLIO bibliotheek & Locatie"
+    }
+  ],
+  "ui-inn-reach.settings.agency-to-folio-locations.field.folio-location": [
+    {
+      "type": 0,
+      "value": "Locatie FOLIO (standaard)"
+    }
+  ],
+  "ui-inn-reach.settings.agency-to-folio-locations.field.local-server": [
+    {
+      "type": 0,
+      "value": "Lokale server"
+    }
+  ],
+  "ui-inn-reach.settings.agency-to-folio-locations.placeholder.folio-library": [
+    {
+      "type": 0,
+      "value": "Selecteer Instelling > Campus > Bibliotheek"
+    }
+  ],
+  "ui-inn-reach.settings.agency-to-folio-locations.placeholder.folio-location": [
+    {
+      "type": 0,
+      "value": "Locatie Selecteren"
+    }
+  ],
+  "ui-inn-reach.settings.agency-to-folio-locations.placeholder.local-server": [
+    {
+      "type": 0,
+      "value": "Lokale server selecteren"
+    }
+  ],
+  "ui-inn-reach.settings.agency-to-folio-locations.title": [
+    {
+      "type": 0,
+      "value": "Agentschap naar Locatie FOLIO"
+    }
+  ],
+  "ui-inn-reach.settings.agency-to-folio-locations.update.success": [
+    {
+      "type": 0,
+      "value": "De INN-Reach Agency naar FOLIO locatie mapping voor "
+    },
+    {
+      "type": 1,
+      "value": "name"
+    },
+    {
+      "type": 0,
+      "value": " is met succes bijgewerkt"
+    }
+  ],
+  "ui-inn-reach.settings.bib-transformation": [
+    {
+      "type": 0,
+      "value": "Bib transformatie opties"
+    }
+  ],
+  "ui-inn-reach.settings.bib-transformation.action.add-new-field": [
+    {
+      "type": 0,
+      "value": "rij met velden voor het wijzigen van de bijgedragen records"
+    }
+  ],
+  "ui-inn-reach.settings.bib-transformation.action.remove-fields": [
+    {
+      "type": 0,
+      "value": "rij"
+    }
+  ],
+  "ui-inn-reach.settings.bib-transformation.action.swap": [
+    {
+      "type": 0,
+      "value": "rij"
+    }
+  ],
+  "ui-inn-reach.settings.bib-transformation.button.add": [
+    {
+      "type": 0,
+      "value": "Een nieuwe rij met velden toevoegen na de huidige rij"
+    }
+  ],
+  "ui-inn-reach.settings.bib-transformation.button.down": [
+    {
+      "type": 0,
+      "value": "Het huidige veld met het volgende verwisselen"
+    }
+  ],
+  "ui-inn-reach.settings.bib-transformation.button.remove": [
+    {
+      "type": 0,
+      "value": "Verwijder velden voor rij "
+    },
+    {
+      "type": 1,
+      "value": "num"
+    }
+  ],
+  "ui-inn-reach.settings.bib-transformation.button.save": [
+    {
+      "type": 0,
+      "value": "Opslaan"
+    }
+  ],
+  "ui-inn-reach.settings.bib-transformation.button.up": [
+    {
+      "type": 0,
+      "value": "Het huidige veld met het vorige verwisselen"
+    }
+  ],
+  "ui-inn-reach.settings.bib-transformation.callout.connection-problem.post": [
+    {
+      "type": 0,
+      "value": "Er is een probleem opgetreden en uw creatie is niet opgeslagen: "
+    },
+    {
+      "type": 1,
+      "value": "message"
+    },
+    {
+      "type": 0,
+      "value": ", statuscode "
+    },
+    {
+      "type": 1,
+      "value": "code"
+    }
+  ],
+  "ui-inn-reach.settings.bib-transformation.callout.connection-problem.put": [
+    {
+      "type": 0,
+      "value": "Er is een probleem opgetreden en uw update is niet opgeslagen: "
+    },
+    {
+      "type": 1,
+      "value": "message"
+    },
+    {
+      "type": 0,
+      "value": ", statuscode "
+    },
+    {
+      "type": 1,
+      "value": "code"
+    }
+  ],
+  "ui-inn-reach.settings.bib-transformation.create.success": [
+    {
+      "type": 0,
+      "value": "Bib transformatie opties succesvol aangemaakt"
+    }
+  ],
+  "ui-inn-reach.settings.bib-transformation.field.identifier-type": [
+    {
+      "type": 0,
+      "value": "Type identificatiekenmerk"
+    }
+  ],
+  "ui-inn-reach.settings.bib-transformation.field.ignore-prefixes": [
+    {
+      "type": 0,
+      "value": "Voorvoegsels negeren"
+    }
+  ],
+  "ui-inn-reach.settings.bib-transformation.field.modify-MARC": [
+    {
+      "type": 0,
+      "value": "MARC 001 veld voor bijgedragen records wijzigen"
+    }
+  ],
+  "ui-inn-reach.settings.bib-transformation.field.strip-fields-and-subfields": [
+    {
+      "type": 0,
+      "value": "Strookvelden en subvelden"
+    }
+  ],
+  "ui-inn-reach.settings.bib-transformation.field.strip-prefix": [
+    {
+      "type": 0,
+      "value": "Strip voorvoegsel"
+    }
+  ],
+  "ui-inn-reach.settings.bib-transformation.placeholder.identifier-type": [
+    {
+      "type": 0,
+      "value": "Type identificatiekenmerk selecteren"
+    }
+  ],
+  "ui-inn-reach.settings.bib-transformation.placeholder.ignore-prefixes": [
+    {
+      "type": 0,
+      "value": "Voer door kommagescheiden voorvoegselreeksen in"
+    }
+  ],
+  "ui-inn-reach.settings.bib-transformation.placeholder.strip-fields-and-subfields": [
+    {
+      "type": 0,
+      "value": "Voer door kommagescheiden MARC velden en/of subvelden in die u wilt uitsluiten van getransformeerde MARC records."
+    }
+  ],
+  "ui-inn-reach.settings.bib-transformation.title": [
+    {
+      "type": 0,
+      "value": "Bib transformatie opties"
+    }
+  ],
+  "ui-inn-reach.settings.bib-transformation.update.success": [
+    {
+      "type": 0,
+      "value": "Bib transformatie opties succesvol bijgewerkt"
+    }
+  ],
+  "ui-inn-reach.settings.bib-transformation.validation.comma-separated-prefix": [
+    {
+      "type": 0,
+      "value": "Voer door kommagescheiden voorvoegselreeksen in"
+    }
+  ],
+  "ui-inn-reach.settings.central-item-type": [
+    {
+      "type": 0,
+      "value": "Centraal item type"
+    }
+  ],
+  "ui-inn-reach.settings.central-item-type.button.save": [
+    {
+      "type": 0,
+      "value": "Opslaan"
+    }
+  ],
+  "ui-inn-reach.settings.central-item-type.callout.connectionProblem.post": [
+    {
+      "type": 0,
+      "value": "Kan geen gegevens aanmaken vanwege een modulefout. Probeer het opnieuw. Als er een probleem blijft bestaan, neem dan contact op met uw systeembeheerder"
+    }
+  ],
+  "ui-inn-reach.settings.central-item-type.callout.connectionProblem.put": [
+    {
+      "type": 0,
+      "value": "Kan gegevens niet bijwerken vanwege een modulefout. Probeer het opnieuw. Als er een probleem blijft bestaan, neem dan contact op met uw systeembeheerder"
+    }
+  ],
+  "ui-inn-reach.settings.central-item-type.create.success": [
+    {
+      "type": 0,
+      "value": "Instellingen centrale item type succesvol aangemaakt"
+    }
+  ],
+  "ui-inn-reach.settings.central-item-type.field.folio-material-type": [
+    {
+      "type": 0,
+      "value": "Materiaalsoort FOLIO"
+    }
+  ],
+  "ui-inn-reach.settings.central-item-type.field.item-type": [
+    {
+      "type": 0,
+      "value": "Item type (Omschrijving)"
+    }
+  ],
+  "ui-inn-reach.settings.central-item-type.placeholder.material-type": [
+    {
+      "type": 0,
+      "value": "Materiaalsoort selecteren"
+    }
+  ],
+  "ui-inn-reach.settings.central-item-type.title": [
+    {
+      "type": 0,
+      "value": "Centraal item type"
+    }
+  ],
+  "ui-inn-reach.settings.central-item-type.update.success": [
+    {
+      "type": 0,
+      "value": "Instellingen centrale item type succesvol bijgewerkt"
+    }
+  ],
+  "ui-inn-reach.settings.central-patron-type": [
+    {
+      "type": 0,
+      "value": "Type centrale begunstiger"
+    }
+  ],
+  "ui-inn-reach.settings.central-patron-type.button.save": [
+    {
+      "type": 0,
+      "value": "Opslaan"
+    }
+  ],
+  "ui-inn-reach.settings.central-patron-type.callout.connectionProblem.post": [
+    {
+      "type": 0,
+      "value": "Kan geen gegevens aanmaken vanwege een modulefout. Probeer het opnieuw. Als er een probleem blijft bestaan, neem dan contact op met uw systeembeheerder"
+    }
+  ],
+  "ui-inn-reach.settings.central-patron-type.callout.connectionProblem.put": [
+    {
+      "type": 0,
+      "value": "Kan gegevens niet bijwerken vanwege een modulefout. Probeer het opnieuw. Als er een probleem blijft bestaan, neem dan contact op met uw systeembeheerder"
+    }
+  ],
+  "ui-inn-reach.settings.central-patron-type.create.success": [
+    {
+      "type": 0,
+      "value": "Centrale instellingen voor type gebruiker succesvol aangemaakt"
+    }
+  ],
+  "ui-inn-reach.settings.central-patron-type.field.folio-patron-groups": [
+    {
+      "type": 0,
+      "value": "FOLIO gebruikersgroepen"
+    }
+  ],
+  "ui-inn-reach.settings.central-patron-type.field.patron-type": [
+    {
+      "type": 0,
+      "value": "Type gebruiker (Omschrijving)"
+    }
+  ],
+  "ui-inn-reach.settings.central-patron-type.placeholder.patron-type": [
+    {
+      "type": 0,
+      "value": "Selecteer type gebruiker"
+    }
+  ],
+  "ui-inn-reach.settings.central-patron-type.title": [
+    {
+      "type": 0,
+      "value": "Type centrale begunstiger"
+    }
+  ],
+  "ui-inn-reach.settings.central-patron-type.update.success": [
+    {
+      "type": 0,
+      "value": "Centrale instellingen voor type gebruiker succesvol bijgewerkt"
+    }
+  ],
+  "ui-inn-reach.settings.central-server-configuration.action.delete": [
+    {
+      "type": 0,
+      "value": "Verwijderen"
+    }
+  ],
+  "ui-inn-reach.settings.central-server-configuration.action.edit": [
+    {
+      "type": 0,
+      "value": "Bewerken"
+    }
+  ],
+  "ui-inn-reach.settings.central-server-configuration.callout.connectionProblem.delete": [
+    {
+      "type": 0,
+      "value": "Kan niet verwijderen vanwege een modulefout. Probeer het opnieuw. Als er een probleem blijft bestaan, neem dan contact op met uw systeembeheerder"
+    }
+  ],
+  "ui-inn-reach.settings.central-server-configuration.callout.connectionProblem.get": [
+    {
+      "type": 0,
+      "value": "Kan geen gegevens ophalen vanwege een modulefout. Probeer het opnieuw. Als er een probleem blijft bestaan, neem dan contact op met uw systeembeheerder"
+    }
+  ],
+  "ui-inn-reach.settings.central-server-configuration.callout.connectionProblem.post": [
+    {
+      "type": 0,
+      "value": "Kan geen gegevens aanmaken vanwege een modulefout. Probeer het opnieuw. Als er een probleem blijft bestaan, neem dan contact op met uw systeembeheerder"
+    }
+  ],
+  "ui-inn-reach.settings.central-server-configuration.callout.connectionProblem.put": [
+    {
+      "type": 0,
+      "value": "Kan gegevens niet bijwerken vanwege een modulefout. Probeer het opnieuw. Als er een probleem blijft bestaan, neem dan contact op met uw systeembeheerder"
+    }
+  ],
+  "ui-inn-reach.settings.central-server-configuration.callout.deleted": [
+    {
+      "type": 0,
+      "value": "De configuratie van de centrale server is met succes verwijderd"
+    }
+  ],
+  "ui-inn-reach.settings.central-server-configuration.callout.failedToDelete.delete": [
+    {
+      "type": 0,
+      "value": "Het verwijderen van een centrale serverconfiguratie is mislukt"
+    }
+  ],
+  "ui-inn-reach.settings.central-server-configuration.callout.invalidData": [
+    {
+      "type": 0,
+      "value": "Ongeldige gegevens centrale server"
+    }
+  ],
+  "ui-inn-reach.settings.central-server-configuration.callout.notUnique": [
+    {
+      "type": 0,
+      "value": "Sommige van de ingevoerde waarden moeten uniek zijn"
+    }
+  ],
+  "ui-inn-reach.settings.central-server-configuration.create-edit.accordion.generalInformation.title": [
+    {
+      "type": 0,
+      "value": "Algemene informatie"
+    }
+  ],
+  "ui-inn-reach.settings.central-server-configuration.create-edit.accordion.serverConnection.title": [
+    {
+      "type": 0,
+      "value": "Serververbinding"
+    }
+  ],
+  "ui-inn-reach.settings.central-server-configuration.create-edit.button.cancel": [
+    {
+      "type": 0,
+      "value": "Annuleren"
+    }
+  ],
+  "ui-inn-reach.settings.central-server-configuration.create-edit.button.generateKeypair": [
+    {
+      "type": 0,
+      "value": "Sleutelpaar genereren"
+    }
+  ],
+  "ui-inn-reach.settings.central-server-configuration.create-edit.button.hide-secrets": [
+    {
+      "type": 0,
+      "value": "Secrets verbergen"
+    }
+  ],
+  "ui-inn-reach.settings.central-server-configuration.create-edit.button.save&close": [
+    {
+      "type": 0,
+      "value": "Opslaan & sluiten"
+    }
+  ],
+  "ui-inn-reach.settings.central-server-configuration.create-edit.button.show-secrets": [
+    {
+      "type": 0,
+      "value": "Secrets tonen"
+    }
+  ],
+  "ui-inn-reach.settings.central-server-configuration.create-edit.field.borrowedItemLoanType": [
+    {
+      "type": 0,
+      "value": "Type uitgeleend item"
+    }
+  ],
+  "ui-inn-reach.settings.central-server-configuration.create-edit.field.centralServerAddress": [
+    {
+      "type": 0,
+      "value": "Adres centrale server"
+    }
+  ],
+  "ui-inn-reach.settings.central-server-configuration.create-edit.field.centralServerCode": [
+    {
+      "type": 0,
+      "value": "Code centrale server"
+    }
+  ],
+  "ui-inn-reach.settings.central-server-configuration.create-edit.field.centralServerKey": [
+    {
+      "type": 0,
+      "value": "Sleutel centrale server"
+    }
+  ],
+  "ui-inn-reach.settings.central-server-configuration.create-edit.field.centralServerSecret": [
+    {
+      "type": 0,
+      "value": "Secret centrale server"
+    }
+  ],
+  "ui-inn-reach.settings.central-server-configuration.create-edit.field.description": [
+    {
+      "type": 0,
+      "value": "Omschrijving"
+    }
+  ],
+  "ui-inn-reach.settings.central-server-configuration.create-edit.field.localServerCode": [
+    {
+      "type": 0,
+      "value": "Lokale servercode"
+    }
+  ],
+  "ui-inn-reach.settings.central-server-configuration.create-edit.field.localServerKey": [
+    {
+      "type": 0,
+      "value": "Lokale serversleutel"
+    }
+  ],
+  "ui-inn-reach.settings.central-server-configuration.create-edit.field.localServerSecret": [
+    {
+      "type": 0,
+      "value": "Lokaal serversecret"
+    }
+  ],
+  "ui-inn-reach.settings.central-server-configuration.create-edit.field.name": [
+    {
+      "type": 0,
+      "value": "Naam"
+    }
+  ],
+  "ui-inn-reach.settings.central-server-configuration.create-edit.validation.fiveCharacterStringLowerCase": [
+    {
+      "type": 0,
+      "value": "Voer een tekenreeks van 5 tekens in kleine letters in"
+    }
+  ],
+  "ui-inn-reach.settings.central-server-configuration.create.success": [
+    {
+      "type": 0,
+      "value": "Centrale serverconfiguratie met succes aangemaakt"
+    }
+  ],
+  "ui-inn-reach.settings.central-server-configuration.create.title.newCentralServerConfig": [
+    {
+      "type": 0,
+      "value": "Nieuwe configuratie centrale server"
+    }
+  ],
+  "ui-inn-reach.settings.central-server-configuration.edit.modal-button.confirm": [
+    {
+      "type": 0,
+      "value": "Bevestigen"
+    }
+  ],
+  "ui-inn-reach.settings.central-server-configuration.edit.modal-button.keepEditing": [
+    {
+      "type": 0,
+      "value": "Verdergaan met bewerken"
+    }
+  ],
+  "ui-inn-reach.settings.central-server-configuration.edit.modal-heading.updateLocalServerKeyConfirmation": [
+    {
+      "type": 0,
+      "value": "Lokale server sleutel bijwerken bevestiging"
+    }
+  ],
+  "ui-inn-reach.settings.central-server-configuration.edit.modal-message.updateLocalServerKeypair": [
+    {
+      "type": 0,
+      "value": "U hebt het sleutel-/geheimpaar van de lokale server bijgewerkt. De INN-Reach circulatiefuncties worden onderbroken totdat deze informatie is bijgewerkt door de Central Server beheerder. Klik op \"Bevestigen\" om uw wijzigingen op te slaan en een JSON-bestand met de nieuwe sleutel- en geheimwaarden te downloaden."
+    }
+  ],
+  "ui-inn-reach.settings.central-server-configuration.edit.notFound.text": [
+    {
+      "type": 0,
+      "value": "Uw URL-adres is ongeldig. Beoordeel de syntaxis of parameters van het URL-pad en probeer een andere."
+    }
+  ],
+  "ui-inn-reach.settings.central-server-configuration.edit.notFound.title": [
+    {
+      "type": 0,
+      "value": "Bewerken"
+    }
+  ],
+  "ui-inn-reach.settings.central-server-configuration.edit.title.edit": [
+    {
+      "type": 0,
+      "value": "Bewerken"
+    }
+  ],
+  "ui-inn-reach.settings.central-server-configuration.list.field.name": [
+    {
+      "type": 0,
+      "value": "Naam"
+    }
+  ],
+  "ui-inn-reach.settings.central-server-configuration.local-agency.field.code": [
+    {
+      "type": 0,
+      "value": "Lokaal agentschap"
+    }
+  ],
+  "ui-inn-reach.settings.central-server-configuration.local-agency.field.libraries": [
+    {
+      "type": 0,
+      "value": "FOLIO-bibliotheken"
+    }
+  ],
+  "ui-inn-reach.settings.central-server-configuration.update.success": [
+    {
+      "type": 0,
+      "value": "De configuratie van de centrale server is bijgewerkt"
+    }
+  ],
+  "ui-inn-reach.settings.central-server-configuration.view.accordion.generalInformation.title": [
+    {
+      "type": 0,
+      "value": "Algemene informatie"
+    }
+  ],
+  "ui-inn-reach.settings.central-server-configuration.view.accordion.server-connection.title": [
+    {
+      "type": 0,
+      "value": "Serververbinding"
+    }
+  ],
+  "ui-inn-reach.settings.central-server-configuration.view.field.address": [
+    {
+      "type": 0,
+      "value": "Adres centrale server"
+    }
+  ],
+  "ui-inn-reach.settings.central-server-configuration.view.field.description": [
+    {
+      "type": 0,
+      "value": "Omschrijving"
+    }
+  ],
+  "ui-inn-reach.settings.central-server-configuration.view.field.loan-type": [
+    {
+      "type": 0,
+      "value": "Type uitgeleend item"
+    }
+  ],
+  "ui-inn-reach.settings.central-server-configuration.view.field.local-server-code": [
+    {
+      "type": 0,
+      "value": "Lokale servercode"
+    }
+  ],
+  "ui-inn-reach.settings.central-server-configuration.view.field.name": [
+    {
+      "type": 0,
+      "value": "Naam"
+    }
+  ],
+  "ui-inn-reach.settings.central-server-configuration.view.notFound.text": [
+    {
+      "type": 0,
+      "value": "Uw URL-adres is ongeldig. Beoordeel de syntaxis of parameters van het URL-pad en probeer een andere."
+    }
+  ],
+  "ui-inn-reach.settings.central-server-configuration.view.notFound.title": [
+    {
+      "type": 0,
+      "value": "Bekijk"
+    }
+  ],
+  "ui-inn-reach.settings.central-server.configuration": [
+    {
+      "type": 0,
+      "value": "Configuratie centrale server"
+    }
+  ],
+  "ui-inn-reach.settings.central-server.location": [
+    {
+      "type": 0,
+      "value": "Locatie INN-Reach"
+    }
+  ],
+  "ui-inn-reach.settings.central-server.locations": [
+    {
+      "type": 0,
+      "value": "Locaties INN-Reach"
+    }
+  ],
+  "ui-inn-reach.settings.central-servers.list.noItems": [
+    {
+      "type": 0,
+      "value": "Geen centrale servers"
+    }
+  ],
+  "ui-inn-reach.settings.central-servers.list.title": [
+    {
+      "type": 0,
+      "value": "Centrale servers"
+    }
+  ],
+  "ui-inn-reach.settings.central-servers.view.title": [
+    {
+      "type": 0,
+      "value": "Bekijk "
+    },
+    {
+      "type": 1,
+      "value": "name"
+    }
+  ],
+  "ui-inn-reach.settings.circulation-settings": [
+    {
+      "type": 0,
+      "value": "Instellingen circulatie"
+    }
+  ],
+  "ui-inn-reach.settings.confirmDeleteModal.central-server-configuration.cancel": [
+    {
+      "type": 0,
+      "value": "Annuleren"
+    }
+  ],
+  "ui-inn-reach.settings.confirmDeleteModal.central-server-configuration.confirm": [
+    {
+      "type": 0,
+      "value": "Verwijderen"
+    }
+  ],
+  "ui-inn-reach.settings.confirmDeleteModal.central-server-configuration.heading": [
+    {
+      "type": 0,
+      "value": "De verwijdering van de configuratie van de centrale server bevestigen"
+    }
+  ],
+  "ui-inn-reach.settings.confirmDeleteModal.central-server-configuration.message": [
+    {
+      "type": 0,
+      "value": "Centrale serverconfiguratie "
+    },
+    {
+      "type": 1,
+      "value": "name"
+    },
+    {
+      "type": 0,
+      "value": " wordt verwijderd."
+    }
+  ],
+  "ui-inn-reach.settings.contribution-criteria": [
+    {
+      "type": 0,
+      "value": "Criteria voor bijdragen"
+    }
+  ],
+  "ui-inn-reach.settings.contribution-criteria.button.save": [
+    {
+      "type": 0,
+      "value": "Opslaan"
+    }
+  ],
+  "ui-inn-reach.settings.contribution-criteria.callout.connectionProblem.post": [
+    {
+      "type": 0,
+      "value": "Kan geen gegevens aanmaken vanwege een modulefout. Probeer het opnieuw. Als er een probleem blijft bestaan, neem dan contact op met uw systeembeheerder"
+    }
+  ],
+  "ui-inn-reach.settings.contribution-criteria.callout.connectionProblem.put": [
+    {
+      "type": 0,
+      "value": "Kan gegevens niet bijwerken vanwege een modulefout. Probeer het opnieuw. Als er een probleem blijft bestaan, neem dan contact op met uw systeembeheerder"
+    }
+  ],
+  "ui-inn-reach.settings.contribution-criteria.create.success": [
+    {
+      "type": 0,
+      "value": "Instellingen bijdragecriteria succesvol aangemaakt"
+    }
+  ],
+  "ui-inn-reach.settings.contribution-criteria.field.contributeAsSystemOwned": [
+    {
+      "type": 0,
+      "value": "Statistische FOLIO-code voor INN-Reach bronaanduiding in eigendom van het systeem"
+    }
+  ],
+  "ui-inn-reach.settings.contribution-criteria.field.contributeButSuppress": [
+    {
+      "type": 0,
+      "value": "FOLIO-statistische code om bij te dragen aan centrale ontdekking, maar verberg in discovery"
+    }
+  ],
+  "ui-inn-reach.settings.contribution-criteria.field.doNotContribute": [
+    {
+      "type": 0,
+      "value": "FOLIO statistische code om uit te sluiten van bijdrage"
+    }
+  ],
+  "ui-inn-reach.settings.contribution-criteria.field.locations": [
+    {
+      "type": 0,
+      "value": "FOLIO-locaties uit te sluiten van bijdrage"
+    }
+  ],
+  "ui-inn-reach.settings.contribution-criteria.title": [
+    {
+      "type": 0,
+      "value": "Criteria voor bijdragen"
+    }
+  ],
+  "ui-inn-reach.settings.contribution-criteria.update.success": [
+    {
+      "type": 0,
+      "value": "Instellingen bijdragecriteria succesvol bijgewerkt"
+    }
+  ],
+  "ui-inn-reach.settings.contribution-options": [
+    {
+      "type": 0,
+      "value": "Circulatiestatus mapping"
+    }
+  ],
+  "ui-inn-reach.settings.contribution-options.button.save": [
+    {
+      "type": 0,
+      "value": "Opslaan"
+    }
+  ],
+  "ui-inn-reach.settings.contribution-options.callout.connectionProblem.post": [
+    {
+      "type": 0,
+      "value": "Kan geen gegevens aanmaken vanwege een modulefout. Probeer het opnieuw. Als er een probleem blijft bestaan, neem dan contact op met uw systeembeheerder"
+    }
+  ],
+  "ui-inn-reach.settings.contribution-options.callout.connectionProblem.put": [
+    {
+      "type": 0,
+      "value": "Kan gegevens niet bijwerken vanwege een modulefout. Probeer het opnieuw. Als er een probleem blijft bestaan, neem dan contact op met uw systeembeheerder"
+    }
+  ],
+  "ui-inn-reach.settings.contribution-options.create.success": [
+    {
+      "type": 0,
+      "value": "Circulatiestatus mapping instellingen succesvol aangemaakt"
+    }
+  ],
+  "ui-inn-reach.settings.contribution-options.field.loanTypes": [
+    {
+      "type": 0,
+      "value": "Soorten uitleningen die niet kunnen worden uitgeleend"
+    }
+  ],
+  "ui-inn-reach.settings.contribution-options.field.locations": [
+    {
+      "type": 0,
+      "value": "Niet-uitleenbare locaties"
+    }
+  ],
+  "ui-inn-reach.settings.contribution-options.field.materialTypes": [
+    {
+      "type": 0,
+      "value": "Materiaalsoorten die niet kunnen worden uitgeleend"
+    }
+  ],
+  "ui-inn-reach.settings.contribution-options.field.statuses": [
+    {
+      "type": 0,
+      "value": "Niet beschikbare statussen"
+    }
+  ],
+  "ui-inn-reach.settings.contribution-options.status.awaiting-delivery": [
+    {
+      "type": 0,
+      "value": "In afwachting van levering"
+    }
+  ],
+  "ui-inn-reach.settings.contribution-options.status.claimed-returned": [
+    {
+      "type": 0,
+      "value": "Teruggevorderd"
+    }
+  ],
+  "ui-inn-reach.settings.contribution-options.status.in-process": [
+    {
+      "type": 0,
+      "value": "In behandeling"
+    }
+  ],
+  "ui-inn-reach.settings.contribution-options.status.in-process-non-requestable": [
+    {
+      "type": 0,
+      "value": "In behandeling (niet opvraagbaar)"
+    }
+  ],
+  "ui-inn-reach.settings.contribution-options.status.intellectual-item": [
+    {
+      "type": 0,
+      "value": "Intellectueel item"
+    }
+  ],
+  "ui-inn-reach.settings.contribution-options.status.long-missing": [
+    {
+      "type": 0,
+      "value": "Lang ontbrekend"
+    }
+  ],
+  "ui-inn-reach.settings.contribution-options.status.lost-and-paid": [
+    {
+      "type": 0,
+      "value": "Verloren en betaald"
+    }
+  ],
+  "ui-inn-reach.settings.contribution-options.status.missing": [
+    {
+      "type": 0,
+      "value": "Ontbrekend"
+    }
+  ],
+  "ui-inn-reach.settings.contribution-options.status.on-order": [
+    {
+      "type": 0,
+      "value": "In bestelling"
+    }
+  ],
+  "ui-inn-reach.settings.contribution-options.status.order-closed": [
+    {
+      "type": 0,
+      "value": "Bestelling gesloten"
+    }
+  ],
+  "ui-inn-reach.settings.contribution-options.status.restricted": [
+    {
+      "type": 0,
+      "value": "Beperkt"
+    }
+  ],
+  "ui-inn-reach.settings.contribution-options.status.unavailable": [
+    {
+      "type": 0,
+      "value": "Niet beschikbaar"
+    }
+  ],
+  "ui-inn-reach.settings.contribution-options.status.unknown": [
+    {
+      "type": 0,
+      "value": "Onbekend"
+    }
+  ],
+  "ui-inn-reach.settings.contribution-options.title": [
+    {
+      "type": 0,
+      "value": "Circulatiestatus mapping"
+    }
+  ],
+  "ui-inn-reach.settings.contribution-options.update.success": [
+    {
+      "type": 0,
+      "value": "De instellingen voor het in kaart brengen van de circulatiestatus zijn bijgewerkt"
+    }
+  ],
+  "ui-inn-reach.settings.field.centralServer": [
+    {
+      "type": 0,
+      "value": "Centrale server"
+    }
+  ],
+  "ui-inn-reach.settings.folio-circulation-user": [
+    {
+      "type": 0,
+      "value": "FOLIO circulatie gebruiker voor INN-Reach type gebruiker"
+    }
+  ],
+  "ui-inn-reach.settings.folio-circulation-user.button.save": [
+    {
+      "type": 0,
+      "value": "Opslaan"
+    }
+  ],
+  "ui-inn-reach.settings.folio-circulation-user.callout.connectionProblem.post": [
+    {
+      "type": 0,
+      "value": "Kan geen gegevens aanmaken vanwege een modulefout. Probeer het opnieuw. Als er een probleem blijft bestaan, neem dan contact op met uw systeembeheerder"
+    }
+  ],
+  "ui-inn-reach.settings.folio-circulation-user.callout.connectionProblem.put": [
+    {
+      "type": 0,
+      "value": "Kan gegevens niet bijwerken vanwege een modulefout. Probeer het opnieuw. Als er een probleem blijft bestaan, neem dan contact op met uw systeembeheerder"
+    }
+  ],
+  "ui-inn-reach.settings.folio-circulation-user.create.success": [
+    {
+      "type": 0,
+      "value": "Centrale instellingen voor type gebruiker succesvol aangemaakt"
+    }
+  ],
+  "ui-inn-reach.settings.folio-circulation-user.field.barcode": [
+    {
+      "type": 0,
+      "value": "Barcode voor gebruiker die type gebruiker vertegenwoordigt"
+    }
+  ],
+  "ui-inn-reach.settings.folio-circulation-user.field.patron-type": [
+    {
+      "type": 0,
+      "value": "INN-Reach centraal type gebruiker"
+    }
+  ],
+  "ui-inn-reach.settings.folio-circulation-user.title": [
+    {
+      "type": 0,
+      "value": "FOLIO circulatie gebruiker voor INN-Reach type gebruiker"
+    }
+  ],
+  "ui-inn-reach.settings.folio-circulation-user.update.success": [
+    {
+      "type": 0,
+      "value": "Centrale instellingen type gebruiker succesvol bijgewerkt"
+    }
+  ],
+  "ui-inn-reach.settings.folio-to-inn-reach-locations": [
+    {
+      "type": 0,
+      "value": "FOLIO naar locaties INN-Reach"
+    }
+  ],
+  "ui-inn-reach.settings.folio-to-inn-reach-locations.button.save": [
+    {
+      "type": 0,
+      "value": "Opslaan"
+    }
+  ],
+  "ui-inn-reach.settings.folio-to-inn-reach-locations.create-edit.connectionProblem.post": [
+    {
+      "type": 0,
+      "value": "Kan geen gegevens aanmaken vanwege een modulefout. Probeer het opnieuw. Als er een probleem blijft bestaan, neem dan contact op met uw systeembeheerder"
+    }
+  ],
+  "ui-inn-reach.settings.folio-to-inn-reach-locations.create-edit.connectionProblem.put": [
+    {
+      "type": 0,
+      "value": "Kan gegevens niet bijwerken vanwege een modulefout. Probeer het opnieuw. Als er een probleem blijft bestaan, neem dan contact op met uw systeembeheerder"
+    }
+  ],
+  "ui-inn-reach.settings.folio-to-inn-reach-locations.create-edit.create.success": [
+    {
+      "type": 0,
+      "value": "FOLIO naar INN-Reach locaties instellingen succesvol aangemaakt"
+    }
+  ],
+  "ui-inn-reach.settings.folio-to-inn-reach-locations.create-edit.update.success": [
+    {
+      "type": 0,
+      "value": "FOLIO naar INN-Reach Locatie-instellingen succesvol bijgewerkt"
+    }
+  ],
+  "ui-inn-reach.settings.folio-to-inn-reach-locations.field-value.libraries": [
+    {
+      "type": 0,
+      "value": "Bibliotheken"
+    }
+  ],
+  "ui-inn-reach.settings.folio-to-inn-reach-locations.field-value.locations": [
+    {
+      "type": 0,
+      "value": "Locaties"
+    }
+  ],
+  "ui-inn-reach.settings.folio-to-inn-reach-locations.field.inn-reach-locations": [
+    {
+      "type": 0,
+      "value": "Locaties INN-Reach"
+    }
+  ],
+  "ui-inn-reach.settings.folio-to-inn-reach-locations.field.libraries": [
+    {
+      "type": 0,
+      "value": "Bibliotheken"
+    }
+  ],
+  "ui-inn-reach.settings.folio-to-inn-reach-locations.field.library": [
+    {
+      "type": 0,
+      "value": "Bibliotheek"
+    }
+  ],
+  "ui-inn-reach.settings.folio-to-inn-reach-locations.field.locations": [
+    {
+      "type": 0,
+      "value": "Locaties"
+    }
+  ],
+  "ui-inn-reach.settings.folio-to-inn-reach-locations.field.mapping-type": [
+    {
+      "type": 0,
+      "value": "Mapping type"
+    }
+  ],
+  "ui-inn-reach.settings.folio-to-inn-reach-locations.list-title.local-agency-code": [
+    {
+      "type": 0,
+      "value": "Lokale agentschapscode"
+    }
+  ],
+  "ui-inn-reach.settings.folio-to-inn-reach-locations.placeholder.select-library": [
+    {
+      "type": 0,
+      "value": "Selecteer bibliotheek"
+    }
+  ],
+  "ui-inn-reach.settings.folio-to-inn-reach-locations.placeholder.select-location": [
+    {
+      "type": 0,
+      "value": "Locatie selecteren"
+    }
+  ],
+  "ui-inn-reach.settings.folio-to-inn-reach-locations.placeholder.select-type-to-map": [
+    {
+      "type": 0,
+      "value": "Selecteer type voor mapping"
+    }
+  ],
+  "ui-inn-reach.settings.folio-to-inn-reach-locations.title": [
+    {
+      "type": 0,
+      "value": "FOLIO naar locaties INN-Reach"
+    }
+  ],
+  "ui-inn-reach.settings.general": [
+    {
+      "type": 0,
+      "value": "Algemeen"
+    }
+  ],
+  "ui-inn-reach.settings.inn-reach-recall-user": [
+    {
+      "type": 0,
+      "value": "INN-Reach terugroepingen gebruiker"
+    }
+  ],
+  "ui-inn-reach.settings.inn-reach-recall-user.button.save": [
+    {
+      "type": 0,
+      "value": "Opslaan"
+    }
+  ],
+  "ui-inn-reach.settings.inn-reach-recall-user.callout.connectionProblem.create": [
+    {
+      "type": 0,
+      "value": "Kan geen gegevens aanmaken vanwege een modulefout. Probeer het opnieuw. Als er een probleem blijft bestaan, neem dan contact op met uw systeembeheerder"
+    }
+  ],
+  "ui-inn-reach.settings.inn-reach-recall-user.callout.connectionProblem.update": [
+    {
+      "type": 0,
+      "value": "Kan gegevens niet bijwerken vanwege een modulefout. Probeer het opnieuw. Als er een probleem blijft bestaan, neem dan contact op met uw systeembeheerder"
+    }
+  ],
+  "ui-inn-reach.settings.inn-reach-recall-user.create.success": [
+    {
+      "type": 0,
+      "value": "INN-Reach terugroepen gebruikersinstellingen succesvol aangemaakt"
+    }
+  ],
+  "ui-inn-reach.settings.inn-reach-recall-user.field.recall-inn-reach-items-as-user": [
+    {
+      "type": 0,
+      "value": "Items van INN-Reach terugroepen als gebruiker"
+    }
+  ],
+  "ui-inn-reach.settings.inn-reach-recall-user.title": [
+    {
+      "type": 0,
+      "value": "INN-Reach roept gebruikersinstellingen terug"
+    }
+  ],
+  "ui-inn-reach.settings.inn-reach-recall-user.update.success": [
+    {
+      "type": 0,
+      "value": "INN-Reach terugroeping gebruikersinstellingen succesvol bijgewerkt"
+    }
+  ],
+  "ui-inn-reach.settings.innreach-locations.actions": [
+    {
+      "type": 0,
+      "value": "Acties"
+    }
+  ],
+  "ui-inn-reach.settings.innreach-locations.description": [
+    {
+      "type": 0,
+      "value": "Omschrijving"
+    }
+  ],
+  "ui-inn-reach.settings.innreach-locations.last-updated": [
+    {
+      "type": 0,
+      "value": "Laatst bijgewerkt"
+    }
+  ],
+  "ui-inn-reach.settings.innreach-locations.location-code": [
+    {
+      "type": 0,
+      "value": "Code locatie"
+    }
+  ],
+  "ui-inn-reach.settings.innreach-locations.locations": [
+    {
+      "type": 0,
+      "value": "Locatie"
+    }
+  ],
+  "ui-inn-reach.settings.innreach.locations": [
+    {
+      "type": 0,
+      "value": "Locaties INN-Reach"
+    }
+  ],
+  "ui-inn-reach.settings.manage-contribution": [
+    {
+      "type": 0,
+      "value": "Bijdrage beheren"
+    }
+  ],
+  "ui-inn-reach.settings.manage-contribution.button.cancel-contribution": [
+    {
+      "type": 0,
+      "value": "Bijdrage annuleren"
+    }
+  ],
+  "ui-inn-reach.settings.manage-contribution.button.initiate-contribution": [
+    {
+      "type": 0,
+      "value": "Bijdrage initiëren"
+    }
+  ],
+  "ui-inn-reach.settings.manage-contribution.button.pause-contribution": [
+    {
+      "type": 0,
+      "value": "Pauze"
+    }
+  ],
+  "ui-inn-reach.settings.manage-contribution.cancel.failed": [
+    {
+      "type": 0,
+      "value": "Bijdrage annuleren mislukt"
+    }
+  ],
+  "ui-inn-reach.settings.manage-contribution.cancel.success": [
+    {
+      "type": 0,
+      "value": "Bijdrage succesvol geannuleerd"
+    }
+  ],
+  "ui-inn-reach.settings.manage-contribution.contribution-status.cancelled": [
+    {
+      "type": 0,
+      "value": "Geannuleerd"
+    }
+  ],
+  "ui-inn-reach.settings.manage-contribution.contribution-status.complete": [
+    {
+      "type": 0,
+      "value": "Compleet"
+    }
+  ],
+  "ui-inn-reach.settings.manage-contribution.contribution-status.in-progress": [
+    {
+      "type": 0,
+      "value": "In uitvoering"
+    }
+  ],
+  "ui-inn-reach.settings.manage-contribution.contribution-status.not-started": [
+    {
+      "type": 0,
+      "value": "Niet gestart"
+    }
+  ],
+  "ui-inn-reach.settings.manage-contribution.contribution-status.paused": [
+    {
+      "type": 0,
+      "value": "Gepauzeerd"
+    }
+  ],
+  "ui-inn-reach.settings.manage-contribution.current.refresh": [
+    {
+      "type": 0,
+      "value": "Vernieuwen"
+    }
+  ],
+  "ui-inn-reach.settings.manage-contribution.history.field.contributed": [
+    {
+      "type": 0,
+      "value": "Bijgedragen"
+    }
+  ],
+  "ui-inn-reach.settings.manage-contribution.history.field.date": [
+    {
+      "type": 0,
+      "value": "Datum"
+    }
+  ],
+  "ui-inn-reach.settings.manage-contribution.history.field.decontributed": [
+    {
+      "type": 0,
+      "value": "Afgedragen"
+    }
+  ],
+  "ui-inn-reach.settings.manage-contribution.history.field.error": [
+    {
+      "type": 0,
+      "value": "Fout"
+    }
+  ],
+  "ui-inn-reach.settings.manage-contribution.history.field.evaluated": [
+    {
+      "type": 0,
+      "value": "Records geëvalueerd"
+    }
+  ],
+  "ui-inn-reach.settings.manage-contribution.history.field.status": [
+    {
+      "type": 0,
+      "value": "Status"
+    }
+  ],
+  "ui-inn-reach.settings.manage-contribution.history.field.total": [
+    {
+      "type": 0,
+      "value": "Totaal FOLIO instance records"
+    }
+  ],
+  "ui-inn-reach.settings.manage-contribution.history.field.updated": [
+    {
+      "type": 0,
+      "value": "Bijgewerkt"
+    }
+  ],
+  "ui-inn-reach.settings.manage-contribution.history.list.no.history": [
+    {
+      "type": 0,
+      "value": "Geen records over bijdrage geschiedenis"
+    }
+  ],
+  "ui-inn-reach.settings.manage-contribution.initaiate.failed": [
+    {
+      "type": 0,
+      "value": "Initiëren bijdrage mislukt"
+    }
+  ],
+  "ui-inn-reach.settings.manage-contribution.initaiate.success": [
+    {
+      "type": 0,
+      "value": "Bijdrage succesvol geïnitieerd"
+    }
+  ],
+  "ui-inn-reach.settings.manage-contribution.item-mapping-type-status.invalid": [
+    {
+      "type": 0,
+      "value": "Ongeldig"
+    }
+  ],
+  "ui-inn-reach.settings.manage-contribution.item-mapping-type-status.valid": [
+    {
+      "type": 0,
+      "value": "Geldig"
+    }
+  ],
+  "ui-inn-reach.settings.manage-contribution.label.contributed": [
+    {
+      "type": 0,
+      "value": "Bijgedragen"
+    }
+  ],
+  "ui-inn-reach.settings.manage-contribution.label.contribution-cancelled": [
+    {
+      "type": 0,
+      "value": "Bijdrage geannuleerd"
+    }
+  ],
+  "ui-inn-reach.settings.manage-contribution.label.contribution-cancelled-by": [
+    {
+      "type": 0,
+      "value": "Geannuleerd door"
+    }
+  ],
+  "ui-inn-reach.settings.manage-contribution.label.contribution-complete": [
+    {
+      "type": 0,
+      "value": "Bijdrage compleet"
+    }
+  ],
+  "ui-inn-reach.settings.manage-contribution.label.contribution-paused": [
+    {
+      "type": 0,
+      "value": "Bijdrage gepauzeerd"
+    }
+  ],
+  "ui-inn-reach.settings.manage-contribution.label.contribution-paused-by": [
+    {
+      "type": 0,
+      "value": "Gepauzeerd door"
+    }
+  ],
+  "ui-inn-reach.settings.manage-contribution.label.contribution-resumed": [
+    {
+      "type": 0,
+      "value": "Bijdrage hervat"
+    }
+  ],
+  "ui-inn-reach.settings.manage-contribution.label.contribution-resumed-by": [
+    {
+      "type": 0,
+      "value": "Hervat door"
+    }
+  ],
+  "ui-inn-reach.settings.manage-contribution.label.contribution-started": [
+    {
+      "type": 0,
+      "value": "Bijdrage gestart"
+    }
+  ],
+  "ui-inn-reach.settings.manage-contribution.label.contribution-started-by": [
+    {
+      "type": 0,
+      "value": "Gestart door"
+    }
+  ],
+  "ui-inn-reach.settings.manage-contribution.label.decontributed": [
+    {
+      "type": 0,
+      "value": "Afgedragen"
+    }
+  ],
+  "ui-inn-reach.settings.manage-contribution.label.error": [
+    {
+      "type": 0,
+      "value": "Fout"
+    }
+  ],
+  "ui-inn-reach.settings.manage-contribution.label.locations-mapping-status": [
+    {
+      "type": 0,
+      "value": "FOLIO naar locaties INN-Reach"
+    }
+  ],
+  "ui-inn-reach.settings.manage-contribution.label.matrial-mapping-status": [
+    {
+      "type": 0,
+      "value": "Materiaal naar item type mapping"
+    }
+  ],
+  "ui-inn-reach.settings.manage-contribution.label.records-evaluated": [
+    {
+      "type": 0,
+      "value": "Records geëvalueerd"
+    }
+  ],
+  "ui-inn-reach.settings.manage-contribution.label.status": [
+    {
+      "type": 0,
+      "value": "Status eerste bijdrage"
+    }
+  ],
+  "ui-inn-reach.settings.manage-contribution.label.total": [
+    {
+      "type": 0,
+      "value": "Totaal FOLIO instance records"
+    }
+  ],
+  "ui-inn-reach.settings.manage-contribution.label.updated": [
+    {
+      "type": 0,
+      "value": "BIjgewerkt"
+    }
+  ],
+  "ui-inn-reach.settings.manage-contribution.location-mapping-status.invalid": [
+    {
+      "type": 0,
+      "value": "Ongeldig"
+    }
+  ],
+  "ui-inn-reach.settings.manage-contribution.location-mapping-status.valid": [
+    {
+      "type": 0,
+      "value": "Geldig"
+    }
+  ],
+  "ui-inn-reach.settings.manage-contribution.navigation.current": [
+    {
+      "type": 0,
+      "value": "Huidige bijdrage"
+    }
+  ],
+  "ui-inn-reach.settings.manage-contribution.navigation.history": [
+    {
+      "type": 0,
+      "value": "Bijdragen geschiedenis"
+    }
+  ],
+  "ui-inn-reach.settings.manage-contribution.tab.current": [
+    {
+      "type": 0,
+      "value": "Huidige bijdrage"
+    }
+  ],
+  "ui-inn-reach.settings.manage-contribution.tab.history": [
+    {
+      "type": 0,
+      "value": "Bijdrage geschiedenis"
+    }
+  ],
+  "ui-inn-reach.settings.manage-contribution.title": [
+    {
+      "type": 0,
+      "value": "Bijdrage beheren"
+    }
+  ],
+  "ui-inn-reach.settings.manage-contribution.tooltip.check-mappings": [
+    {
+      "type": 0,
+      "value": "Geldige toewijzingen zijn vereist om een bijdrage te initiëren"
+    }
+  ],
+  "ui-inn-reach.settings.manage-contribution.updatedDatePattern": [
+    {
+      "type": 1,
+      "value": "date"
+    },
+    {
+      "type": 0,
+      "value": " "
+    },
+    {
+      "type": 1,
+      "value": "time"
+    }
+  ],
+  "ui-inn-reach.settings.material-type-mapping": [
+    {
+      "type": 0,
+      "value": "Materiaalsoorten voor items"
+    }
+  ],
+  "ui-inn-reach.settings.material-type-mapping.callout.connectionProblem.put": [
+    {
+      "type": 0,
+      "value": "Kan gegevens niet bijwerken vanwege een modulefout. Probeer het opnieuw. Als er een probleem blijft bestaan, neem dan contact op met uw systeembeheerder"
+    }
+  ],
+  "ui-inn-reach.settings.material-type-mapping.field.folio-material-types": [
+    {
+      "type": 0,
+      "value": "Materiaalsoorten FOLIO"
+    }
+  ],
+  "ui-inn-reach.settings.material-type-mapping.field.item-type": [
+    {
+      "type": 0,
+      "value": "Item type (Omschrijving)"
+    }
+  ],
+  "ui-inn-reach.settings.material-type-mapping.title": [
+    {
+      "type": 0,
+      "value": "Materiaal naar item type mapping"
+    }
+  ],
+  "ui-inn-reach.settings.material-type-mapping.update.success": [
+    {
+      "type": 0,
+      "value": "Materiaalsoorten succesvol bijgewerkt"
+    }
+  ],
+  "ui-inn-reach.settings.paging-slip-template": [
+    {
+      "type": 0,
+      "value": "INN-Reach sjablonen voor bonnen"
+    }
+  ],
+  "ui-inn-reach.settings.paging-slip-template.button.save": [
+    {
+      "type": 0,
+      "value": "Opslaan"
+    }
+  ],
+  "ui-inn-reach.settings.paging-slip-template.callout.connectionProblem.create": [
+    {
+      "type": 0,
+      "value": "Kan geen gegevens aanmaken vanwege een modulefout. Probeer het opnieuw. Als er een probleem blijft bestaan, neem dan contact op met uw systeembeheerder"
+    }
+  ],
+  "ui-inn-reach.settings.paging-slip-template.callout.connectionProblem.update": [
+    {
+      "type": 0,
+      "value": "Kan gegevens niet bijwerken vanwege een modulefout. Probeer het opnieuw. Als er een probleem blijft bestaan, neem dan contact op met uw systeembeheerder"
+    }
+  ],
+  "ui-inn-reach.settings.paging-slip-template.create.success": [
+    {
+      "type": 0,
+      "value": "INN-Reach sjablooninstellingen voor paginaslips succesvol aangemaakt"
+    }
+  ],
+  "ui-inn-reach.settings.paging-slip-template.field.description": [
+    {
+      "type": 0,
+      "value": "Omschrijving"
+    }
+  ],
+  "ui-inn-reach.settings.paging-slip-template.field.display": [
+    {
+      "type": 0,
+      "value": "Weergave"
+    }
+  ],
+  "ui-inn-reach.settings.paging-slip-template.preview-modal-header": [
+    {
+      "type": 0,
+      "value": "Voorbeeld van INN-Reach bon"
+    }
+  ],
+  "ui-inn-reach.settings.paging-slip-template.title": [
+    {
+      "type": 0,
+      "value": "INN-Reach sjablonen voor bonnen"
+    }
+  ],
+  "ui-inn-reach.settings.paging-slip-template.token-header.effective-location": [
+    {
+      "type": 0,
+      "value": "Effectieve locatie"
+    }
+  ],
+  "ui-inn-reach.settings.paging-slip-template.token-header.inn-reach-agency": [
+    {
+      "type": 0,
+      "value": "INN-Reach-agentschap"
+    }
+  ],
+  "ui-inn-reach.settings.paging-slip-template.token-header.inn-reach-patron": [
+    {
+      "type": 0,
+      "value": "INN-Reach gebruiker"
+    }
+  ],
+  "ui-inn-reach.settings.paging-slip-template.token-header.inn-reach-pickup-location": [
+    {
+      "type": 0,
+      "value": "Ophaallocatie INN-Reach"
+    }
+  ],
+  "ui-inn-reach.settings.paging-slip-template.token-header.inn-reach-server": [
+    {
+      "type": 0,
+      "value": "INN-Reach server"
+    }
+  ],
+  "ui-inn-reach.settings.paging-slip-template.token-header.item": [
+    {
+      "type": 0,
+      "value": "Item"
+    }
+  ],
+  "ui-inn-reach.settings.paging-slip-template.token-header.staff-slip": [
+    {
+      "type": 0,
+      "value": "Medewerkersbon"
+    }
+  ],
+  "ui-inn-reach.settings.paging-slip-template.update.success": [
+    {
+      "type": 0,
+      "value": "INN-Reach sjablooninstellingen voor paginaslips succesvol bijgewerkt"
+    }
+  ],
+  "ui-inn-reach.settings.patron-agency": [
+    {
+      "type": 0,
+      "value": "Gebruikers-agentschap"
+    }
+  ],
+  "ui-inn-reach.settings.patron-agency.button.save": [
+    {
+      "type": 0,
+      "value": "Opslaan"
+    }
+  ],
+  "ui-inn-reach.settings.patron-agency.callout.connectionProblem.create": [
+    {
+      "type": 0,
+      "value": "Kan geen gegevens aanmaken vanwege een modulefout. Probeer het opnieuw. Als er een probleem blijft bestaan, neem dan contact op met uw systeembeheerder"
+    }
+  ],
+  "ui-inn-reach.settings.patron-agency.callout.connectionProblem.update": [
+    {
+      "type": 0,
+      "value": "Kan gegevens niet bijwerken vanwege een modulefout. Probeer het opnieuw. Als er een probleem blijft bestaan, neem dan contact op met uw systeembeheerder"
+    }
+  ],
+  "ui-inn-reach.settings.patron-agency.create.success": [
+    {
+      "type": 0,
+      "value": "Instellingen gebruikers-agentschap succesvol aangemaakt"
+    }
+  ],
+  "ui-inn-reach.settings.patron-agency.field.agency-code": [
+    {
+      "type": 0,
+      "value": "Code agentschap"
+    }
+  ],
+  "ui-inn-reach.settings.patron-agency.field.custom-field": [
+    {
+      "type": 0,
+      "value": "Maatwerk"
+    }
+  ],
+  "ui-inn-reach.settings.patron-agency.field.custom-field-value": [
+    {
+      "type": 0,
+      "value": "Maatwerk veldwaarde"
+    }
+  ],
+  "ui-inn-reach.settings.patron-agency.placeholder.agency-code": [
+    {
+      "type": 0,
+      "value": "Agentschapscode selecteren"
+    }
+  ],
+  "ui-inn-reach.settings.patron-agency.title": [
+    {
+      "type": 0,
+      "value": "Gebruikers-agentschap"
+    }
+  ],
+  "ui-inn-reach.settings.patron-agency.update.success": [
+    {
+      "type": 0,
+      "value": "Instellingen gebruikers-agentschap succesvol bijgewerkt"
+    }
+  ],
+  "ui-inn-reach.settings.pickup-locations": [
+    {
+      "type": 0,
+      "value": "Ophaallocaties"
+    }
+  ],
+  "ui-inn-reach.settings.pickup-locations.button.save": [
+    {
+      "type": 0,
+      "value": "Opslaan"
+    }
+  ],
+  "ui-inn-reach.settings.pickup-locations.callout.connectionProblem.update": [
+    {
+      "type": 0,
+      "value": "Kan gegevens niet bijwerken vanwege een modulefout. Probeer het opnieuw. Als er een probleem blijft bestaan, neem dan contact op met uw systeembeheerder"
+    }
+  ],
+  "ui-inn-reach.settings.pickup-locations.field.enable-local-pickup-locations": [
+    {
+      "type": 0,
+      "value": "Lokale ophaallocaties voor item holdings inschakelen"
+    }
+  ],
+  "ui-inn-reach.settings.pickup-locations.title": [
+    {
+      "type": 0,
+      "value": "Ophaallocaties"
+    }
+  ],
+  "ui-inn-reach.settings.pickup-locations.update.success": [
+    {
+      "type": 0,
+      "value": "Lokale ophaallocaties succesvol bijgewerkt"
+    }
+  ],
+  "ui-inn-reach.settings.placeholder.centralServer": [
+    {
+      "type": 0,
+      "value": "Centrale server selecteren"
+    }
+  ],
+  "ui-inn-reach.settings.record-contribution": [
+    {
+      "type": 0,
+      "value": "Record bijdrage"
+    }
+  ],
+  "ui-inn-reach.settings.some-feature.message": [
+    {
+      "type": 0,
+      "value": "Dit zijn uw instellingen voor een bepaalde app-functie."
+    }
+  ],
+  "ui-inn-reach.settings.title": [
+    {
+      "type": 0,
+      "value": "INN-Reach"
+    }
+  ],
+  "ui-inn-reach.settings.visible-patron-id": [
+    {
+      "type": 0,
+      "value": "Zichtbaar gebruikers-ID"
+    }
+  ],
+  "ui-inn-reach.settings.visible-patron-id.button.save": [
+    {
+      "type": 0,
+      "value": "Opslaan"
+    }
+  ],
+  "ui-inn-reach.settings.visible-patron-id.callout.connectionProblem.create": [
+    {
+      "type": 0,
+      "value": "Kan geen gegevens aanmaken vanwege een modulefout. Probeer het opnieuw. Als er een probleem blijft bestaan, neem dan contact op met uw systeembeheerder"
+    }
+  ],
+  "ui-inn-reach.settings.visible-patron-id.callout.connectionProblem.update": [
+    {
+      "type": 0,
+      "value": "Kan gegevens niet bijwerken vanwege een modulefout. Probeer het opnieuw. Als er een probleem blijft bestaan, neem dan contact op met uw systeembeheerder"
+    }
+  ],
+  "ui-inn-reach.settings.visible-patron-id.create.success": [
+    {
+      "type": 0,
+      "value": "Zichtbare gebruikers-ID instellingen succesvol aangemaakt"
+    }
+  ],
+  "ui-inn-reach.settings.visible-patron-id.field.BARCODE": [
+    {
+      "type": 0,
+      "value": "Barcode"
+    }
+  ],
+  "ui-inn-reach.settings.visible-patron-id.field.EXTERNAL_SYSTEM_ID": [
+    {
+      "type": 0,
+      "value": "Extern systeem-ID"
+    }
+  ],
+  "ui-inn-reach.settings.visible-patron-id.field.FOLIO_RECORD_NUMBER": [
+    {
+      "type": 0,
+      "value": "FOLIO-recordnummer (UUID)"
+    }
+  ],
+  "ui-inn-reach.settings.visible-patron-id.field.USERNAME": [
+    {
+      "type": 0,
+      "value": "Gebruikersnaam"
+    }
+  ],
+  "ui-inn-reach.settings.visible-patron-id.field.user-custom-fields": [
+    {
+      "type": 0,
+      "value": "Maatwerkvelden voor gebruikers"
+    }
+  ],
+  "ui-inn-reach.settings.visible-patron-id.label.select-user-fields": [
+    {
+      "type": 0,
+      "value": "Selecteer gebruikersvelden waarop u wilt overeenkomen voor \"Zichtbaar ID van gebruikers\"."
+    }
+  ],
+  "ui-inn-reach.settings.visible-patron-id.no-valid-fields-are-defined": [
+    {
+      "type": 0,
+      "value": "Er zijn geen overeenkomende aangepaste velden geconfigureerd"
+    }
+  ],
+  "ui-inn-reach.settings.visible-patron-id.placeholder.none": [
+    {
+      "type": 0,
+      "value": "Geen"
+    }
+  ],
+  "ui-inn-reach.settings.visible-patron-id.title": [
+    {
+      "type": 0,
+      "value": "Zichtbaar gebruikers-ID"
+    }
+  ],
+  "ui-inn-reach.settings.visible-patron-id.update.success": [
+    {
+      "type": 0,
+      "value": "Zichtbare gebruikers-ID instellingen succesvol bijgewerkt"
+    }
+  ],
+  "ui-inn-reach.settings.visible-patron-id.validate.select-to-continue": [
+    {
+      "type": 0,
+      "value": "Selecteren om verder te gaan"
+    }
+  ],
+  "ui-inn-reach.shipped-items.action.print-hold-slip": [
+    {
+      "type": 0,
+      "value": "Reservering afdrukken"
+    }
+  ],
+  "ui-inn-reach.shipped-items.action.print-inn-reach-barcode": [
+    {
+      "type": 0,
+      "value": "Barcode INN-Reach afdrukken"
+    }
+  ],
+  "ui-inn-reach.shipped-items.action.print-transit-slip": [
+    {
+      "type": 0,
+      "value": "Transitbon afdrukken"
+    }
+  ],
+  "ui-inn-reach.shipped-items.actions-menu": [
+    {
+      "type": 0,
+      "value": "Item acties"
+    }
+  ],
+  "ui-inn-reach.shipped-items.button.end-session": [
+    {
+      "type": 0,
+      "value": "Einde sessie"
+    }
+  ],
+  "ui-inn-reach.shipped-items.button.enter": [
+    {
+      "type": 0,
+      "value": "Ga naar"
+    }
+  ],
+  "ui-inn-reach.shipped-items.callout.connection-problem.get.transactions": [
+    {
+      "type": 0,
+      "value": "Kan geen gegevens ophalen vanwege een modulefout. Probeer het opnieuw. Als er een probleem blijft bestaan, neem dan contact op met uw systeembeheerder"
+    }
+  ],
+  "ui-inn-reach.shipped-items.callout.connection-problem.put.receive-shipped-item": [
+    {
+      "type": 0,
+      "value": "Er is een probleem opgetreden bij het ontvangen van het item."
+    }
+  ],
+  "ui-inn-reach.shipped-items.column.actions": [
+    {
+      "type": 0,
+      "value": "Acties"
+    }
+  ],
+  "ui-inn-reach.shipped-items.column.barcode": [
+    {
+      "type": 0,
+      "value": "Barcode"
+    }
+  ],
+  "ui-inn-reach.shipped-items.column.no": [
+    {
+      "type": 0,
+      "value": "Nee."
+    }
+  ],
+  "ui-inn-reach.shipped-items.column.pickup-location": [
+    {
+      "type": 0,
+      "value": "Ophaallocatie"
+    }
+  ],
+  "ui-inn-reach.shipped-items.column.title": [
+    {
+      "type": 0,
+      "value": "Titel"
+    }
+  ],
+  "ui-inn-reach.shipped-items.field.print-barcode-slip": [
+    {
+      "type": 0,
+      "value": "Barcode-bon printen"
+    }
+  ],
+  "ui-inn-reach.shipped-items.field.print-slip": [
+    {
+      "type": 0,
+      "value": "Bon afdrukken"
+    }
+  ],
+  "ui-inn-reach.shipped-items.modal.barcode-augmented.heading": [
+    {
+      "type": 0,
+      "value": "De barcode voor dit item bestaat al in FOLIO"
+    }
+  ],
+  "ui-inn-reach.shipped-items.modal.button.close": [
+    {
+      "type": 0,
+      "value": "Sluiten"
+    }
+  ],
+  "ui-inn-reach.shipped-items.modal.hold.comment": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Gebruikers commentaar:"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " "
+    },
+    {
+      "type": 1,
+      "value": "comment"
+    }
+  ],
+  "ui-inn-reach.shipped-items.modal.hold.heading": [
+    {
+      "type": 0,
+      "value": "In afwachting van afhalen voor een aanvraag"
+    }
+  ],
+  "ui-inn-reach.shipped-items.modal.hold.message": [
+    {
+      "type": 0,
+      "value": "Plaats "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "title"
+        },
+        {
+          "type": 0,
+          "value": " ("
+        },
+        {
+          "type": 1,
+          "value": "materialType"
+        },
+        {
+          "type": 0,
+          "value": ")"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " (Barcode: "
+    },
+    {
+      "type": 1,
+      "value": "barcode"
+    },
+    {
+      "type": 0,
+      "value": ") in de wacht bij "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "pickupServicePoint"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " voor aanvraag."
+    }
+  ],
+  "ui-inn-reach.shipped-items.modal.message.barcode-augmented": [
+    {
+      "type": 0,
+      "value": "De agentschapscode voor dit item is toegevoegd aan de barcode. U moet deze geactualiseerde barcode gebruiken om circulatie-acties op deze transactie uit te voeren."
+    }
+  ],
+  "ui-inn-reach.shipped-items.modal.message.no-transaction": [
+    {
+      "type": 0,
+      "value": "Dit item is mogelijk niet uitgecheckt door de site die het in bezit heeft. Zoek de transactie voor dit item met de functie \"INN-Reach transacties\" op de landingspagina en voer een actie \"Onverzonden item ontvangen\" uit."
+    }
+  ],
+  "ui-inn-reach.shipped-items.modal.no-transaction.heading": [
+    {
+      "type": 0,
+      "value": "Geen overeenkomende INN-Reach transactie gevonden voor dit item"
+    }
+  ],
+  "ui-inn-reach.shipped-items.modal.transit.heading": [
+    {
+      "type": 0,
+      "value": "In afhandeling"
+    }
+  ],
+  "ui-inn-reach.shipped-items.modal.transit.message": [
+    {
+      "type": 0,
+      "value": "Verplaats "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "title"
+        },
+        {
+          "type": 0,
+          "value": " ("
+        },
+        {
+          "type": 1,
+          "value": "materialType"
+        },
+        {
+          "type": 0,
+          "value": ")"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " (Barcode: "
+    },
+    {
+      "type": 1,
+      "value": "barcode"
+    },
+    {
+      "type": 0,
+      "value": ") naar "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "servicePoint"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "ui-inn-reach.shipped-items.placeholder.scan-or-enter-item-barcode": [
+    {
+      "type": 0,
+      "value": "Barcode van item scannen of invoeren"
+    }
+  ],
+  "ui-inn-reach.shipped-items.title.receive-shipped-items": [
+    {
+      "type": 0,
+      "value": "Verzonden items ontvangen"
+    }
+  ],
+  "ui-inn-reach.shipped-items.title.scan-items": [
+    {
+      "type": 0,
+      "value": "Items scannen"
+    }
+  ],
+  "ui-inn-reach.title.list.transactions": [
+    {
+      "type": 0,
+      "value": "INN-Reach transacties"
+    }
+  ],
+  "ui-inn-reach.transaction-detail.accordion.item": [
+    {
+      "type": 0,
+      "value": "Informatie over item"
+    }
+  ],
+  "ui-inn-reach.transaction-detail.accordion.patron": [
+    {
+      "type": 0,
+      "value": "Informatie voor gebruikers"
+    }
+  ],
+  "ui-inn-reach.transaction-detail.accordion.transaction": [
+    {
+      "type": 0,
+      "value": "Overzicht transacties"
+    }
+  ],
+  "ui-inn-reach.transaction-detail.field.author": [
+    {
+      "type": 0,
+      "value": "Auteur"
+    }
+  ],
+  "ui-inn-reach.transaction-detail.field.callNo": [
+    {
+      "type": 0,
+      "value": "Etiketnummer"
+    }
+  ],
+  "ui-inn-reach.transaction-detail.field.centralItemType": [
+    {
+      "type": 0,
+      "value": "Centraal item type"
+    }
+  ],
+  "ui-inn-reach.transaction-detail.field.itemAgency": [
+    {
+      "type": 0,
+      "value": "Item agentschap code"
+    }
+  ],
+  "ui-inn-reach.transaction-detail.field.itemId": [
+    {
+      "type": 0,
+      "value": "Item-ID"
+    }
+  ],
+  "ui-inn-reach.transaction-detail.field.itemTitle": [
+    {
+      "type": 0,
+      "value": "Titel van item"
+    }
+  ],
+  "ui-inn-reach.transaction-detail.field.label.loan": [
+    {
+      "type": 0,
+      "value": "Uitlening detail"
+    }
+  ],
+  "ui-inn-reach.transaction-detail.field.label.request": [
+    {
+      "type": 0,
+      "value": "Aanvraag details"
+    }
+  ],
+  "ui-inn-reach.transaction-detail.field.label.time": [
+    {
+      "type": 1,
+      "value": "date"
+    },
+    {
+      "type": 0,
+      "value": ", "
+    },
+    {
+      "type": 1,
+      "value": "time"
+    }
+  ],
+  "ui-inn-reach.transaction-detail.field.loan": [
+    {
+      "type": 0,
+      "value": "Uitlening"
+    }
+  ],
+  "ui-inn-reach.transaction-detail.field.patronAgency": [
+    {
+      "type": 0,
+      "value": "Gebruikers-agentschap"
+    }
+  ],
+  "ui-inn-reach.transaction-detail.field.patronId": [
+    {
+      "type": 0,
+      "value": "Gebruiker-ID"
+    }
+  ],
+  "ui-inn-reach.transaction-detail.field.patronName": [
+    {
+      "type": 0,
+      "value": "Naam van de gebruiker"
+    }
+  ],
+  "ui-inn-reach.transaction-detail.field.patronType": [
+    {
+      "type": 0,
+      "value": "Type gebruikers"
+    }
+  ],
+  "ui-inn-reach.transaction-detail.field.pickupLocation": [
+    {
+      "type": 0,
+      "value": "Ophaallocatie"
+    }
+  ],
+  "ui-inn-reach.transaction-detail.field.request": [
+    {
+      "type": 0,
+      "value": "Aanvraag"
+    }
+  ],
+  "ui-inn-reach.transaction-detail.field.status": [
+    {
+      "type": 0,
+      "value": "Status"
+    }
+  ],
+  "ui-inn-reach.transaction-detail.field.time": [
+    {
+      "type": 0,
+      "value": "Transactie tijd"
+    }
+  ],
+  "ui-inn-reach.transaction-detail.field.trackingId": [
+    {
+      "type": 0,
+      "value": "Tracking-ID"
+    }
+  ],
+  "ui-inn-reach.transaction-detail.field.type": [
+    {
+      "type": 0,
+      "value": "Soort transactie"
+    }
+  ],
+  "ui-inn-reach.transaction-detail.item-type.action.cancel-hold": [
+    {
+      "type": 0,
+      "value": "Reservering annuleren"
+    }
+  ],
+  "ui-inn-reach.transaction-detail.item-type.action.check-out": [
+    {
+      "type": 0,
+      "value": "Uitchecken naar leensite"
+    }
+  ],
+  "ui-inn-reach.transaction-detail.item-type.action.final-check-in": [
+    {
+      "type": 0,
+      "value": "Definitief inchecken"
+    }
+  ],
+  "ui-inn-reach.transaction-detail.item-type.action.recall-item": [
+    {
+      "type": 0,
+      "value": "Item terugroepen"
+    }
+  ],
+  "ui-inn-reach.transaction-detail.item-type.action.transfer-hold": [
+    {
+      "type": 0,
+      "value": "Reservering naar een ander item overschrijven"
+    }
+  ],
+  "ui-inn-reach.transaction-detail.local-type.action.cancel-hold": [
+    {
+      "type": 0,
+      "value": "Reservering annuleren"
+    }
+  ],
+  "ui-inn-reach.transaction-detail.local-type.action.check-out": [
+    {
+      "type": 0,
+      "value": "Uitchecken bij lokale gebruiker"
+    }
+  ],
+  "ui-inn-reach.transaction-detail.local-type.action.transfer-hold": [
+    {
+      "type": 0,
+      "value": "Reservering naar een ander item overschrijven"
+    }
+  ],
+  "ui-inn-reach.transaction-detail.patron-type.action.cancel-hold": [
+    {
+      "type": 0,
+      "value": "Reservering annuleren"
+    }
+  ],
+  "ui-inn-reach.transaction-detail.patron-type.action.check-out": [
+    {
+      "type": 0,
+      "value": "Uitchecken naar gebruiker"
+    }
+  ],
+  "ui-inn-reach.transaction-detail.patron-type.action.receive-item": [
+    {
+      "type": 0,
+      "value": "Item ontvangen"
+    }
+  ],
+  "ui-inn-reach.transaction-detail.patron-type.action.receive-unshipped-item": [
+    {
+      "type": 0,
+      "value": "Onverzonden item ontvangen"
+    }
+  ],
+  "ui-inn-reach.transaction-detail.patron-type.action.return-item": [
+    {
+      "type": 0,
+      "value": "Item retourneren"
+    }
+  ],
+  "ui-inn-reach.transaction-detail.title": [
+    {
+      "type": 0,
+      "value": "Transactie detail"
+    }
+  ],
+  "ui-inn-reach.transaction.centralServer": [
+    {
+      "type": 0,
+      "value": "Centrale server"
+    }
+  ],
+  "ui-inn-reach.transaction.field.itemTitle": [
+    {
+      "type": 0,
+      "value": "Titel van item (Agentschapcode)"
+    }
+  ],
+  "ui-inn-reach.transaction.field.label.time": [
+    {
+      "type": 1,
+      "value": "date"
+    },
+    {
+      "type": 0,
+      "value": " "
+    },
+    {
+      "type": 1,
+      "value": "time"
+    }
+  ],
+  "ui-inn-reach.transaction.field.label.transactionType.item": [
+    {
+      "type": 0,
+      "value": "Item"
+    }
+  ],
+  "ui-inn-reach.transaction.field.label.transactionType.local": [
+    {
+      "type": 0,
+      "value": "Lokaal"
+    }
+  ],
+  "ui-inn-reach.transaction.field.label.transactionType.patron": [
+    {
+      "type": 0,
+      "value": "Gebruiker"
+    }
+  ],
+  "ui-inn-reach.transaction.field.patronName": [
+    {
+      "type": 0,
+      "value": "Naam gebruiker (Agentschapscode)"
+    }
+  ],
+  "ui-inn-reach.transaction.field.status": [
+    {
+      "type": 0,
+      "value": "Transactie status (INN-Reach)"
+    }
+  ],
+  "ui-inn-reach.transaction.field.time": [
+    {
+      "type": 0,
+      "value": "Transactie tijd"
+    }
+  ],
+  "ui-inn-reach.transaction.field.type": [
+    {
+      "type": 0,
+      "value": "Soort transactie"
+    }
+  ],
+  "ui-inn-reach.transaction.innReachItemType": [
+    {
+      "type": 0,
+      "value": "INN-Reach itemtype"
+    }
+  ],
+  "ui-inn-reach.transaction.itemAgency": [
+    {
+      "type": 0,
+      "value": "Item agentschap"
+    }
+  ],
+  "ui-inn-reach.transaction.list.itemTitle": [
+    {
+      "type": 1,
+      "value": "itemTitle"
+    },
+    {
+      "type": 0,
+      "value": " ("
+    },
+    {
+      "type": 1,
+      "value": "itemAgencyCode"
+    },
+    {
+      "type": 0,
+      "value": ")"
+    }
+  ],
+  "ui-inn-reach.transaction.list.patronName": [
+    {
+      "type": 1,
+      "value": "patronName"
+    },
+    {
+      "type": 0,
+      "value": " ("
+    },
+    {
+      "type": 1,
+      "value": "patronAgencyCode"
+    },
+    {
+      "type": 0,
+      "value": ")"
+    }
+  ],
+  "ui-inn-reach.transaction.patronAgency": [
+    {
+      "type": 0,
+      "value": "Gebruikers-agentschap"
+    }
+  ],
+  "ui-inn-reach.transaction.patronType": [
+    {
+      "type": 0,
+      "value": "INN-Reach type begunstiger"
+    }
+  ],
+  "ui-inn-reach.transaction.status": [
+    {
+      "type": 0,
+      "value": "Status"
+    }
+  ],
+  "ui-inn-reach.transaction.transactionStatus": [
+    {
+      "type": 0,
+      "value": "Transactie status"
+    }
+  ],
+  "ui-inn-reach.transaction.type": [
+    {
+      "type": 0,
+      "value": "Soort"
+    }
+  ],
+  "ui-inn-reach.transaction.type.item": [
+    {
+      "type": 0,
+      "value": "Item"
+    }
+  ],
+  "ui-inn-reach.transaction.type.local": [
+    {
+      "type": 0,
+      "value": "Lokaal"
+    }
+  ],
+  "ui-inn-reach.transaction.type.patron": [
+    {
+      "type": 0,
+      "value": "Gebruiker"
+    }
+  ],
+  "ui-inn-reach.transfer-hold.callout.connection-problem.post.transfer-hold": [
+    {
+      "type": 0,
+      "value": "Er is een probleem opgetreden bij het overschrijven van het item"
+    }
+  ],
+  "ui-inn-reach.transfer-hold.callout.success.post.transfer-hold": [
+    {
+      "type": 0,
+      "value": "Item is succesvol overgeschreven"
+    }
+  ],
+  "ui-inn-reach.transfer-hold.modal.column.barcode": [
+    {
+      "type": 0,
+      "value": "Barcode"
+    }
+  ],
+  "ui-inn-reach.transfer-hold.modal.column.item-status": [
+    {
+      "type": 0,
+      "value": "Itemstatus"
+    }
+  ],
+  "ui-inn-reach.transfer-hold.modal.column.loan-type": [
+    {
+      "type": 0,
+      "value": "Type lening"
+    }
+  ],
+  "ui-inn-reach.transfer-hold.modal.column.location": [
+    {
+      "type": 0,
+      "value": "Locatie"
+    }
+  ],
+  "ui-inn-reach.transfer-hold.modal.column.material-type": [
+    {
+      "type": 0,
+      "value": "Materiaalsoorten"
+    }
+  ],
+  "ui-inn-reach.transfer-hold.modal.column.request-queue": [
+    {
+      "type": 0,
+      "value": "Aanvraag wachtrij"
+    }
+  ],
+  "ui-inn-reach.transfer-hold.modal.label": [
+    {
+      "type": 0,
+      "value": "Item selecteren"
+    }
+  ],
+  "ui-inn-reach.transfer-hold.modal.list-of-items.notFound": [
+    {
+      "type": 0,
+      "value": "Geen items gevonden"
+    }
+  ],
+  "ui-inn-reach.transfer-hold.modal.result-count": [
+    {
+      "style": null,
+      "type": 2,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": " "
+    },
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "Record found"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "Records found"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "count"
+    }
+  ],
+  "ui-inn-reach.transfer-hold.modal.title": [
+    {
+      "type": 0,
+      "value": "Andere items in "
+    },
+    {
+      "type": 1,
+      "value": "title"
+    }
+  ],
+  "ui-inn-reach.unshipped-item.button.submit": [
+    {
+      "type": 0,
+      "value": "Indienen"
+    }
+  ],
+  "ui-inn-reach.unshipped-item.callout.connection-problem.post.receive-unshipped-item": [
+    {
+      "type": 0,
+      "value": "Er is een fout opgetreden bij het bijwerken van de barcode voor de transactie."
+    }
+  ],
+  "ui-inn-reach.unshipped-item.callout.success.post.receive-unshipped-item": [
+    {
+      "type": 0,
+      "value": "De barcode van de transactie is bijgewerkt."
+    }
+  ],
+  "ui-inn-reach.unshipped-item.modal.title": [
+    {
+      "type": 0,
+      "value": "Onverzonden item ontvangen"
+    }
+  ],
+  "ui-inn-reach.unshipped-item.placeholder.enter-item-barcode": [
+    {
+      "type": 0,
+      "value": "Barcode van item invoeren"
+    }
+  ],
+  "ui-inn-reach.validate.required": [
+    {
+      "type": 0,
+      "value": "Vereist"
+    }
+  ],
   "ui-inventory.ILLPolicy": [
     {
       "type": 0,
@@ -73612,6 +76995,12 @@
     {
       "type": 0,
       "value": "S3-bucketnaam"
+    }
+  ],
+  "ui-licenses.settings.fileStorage.s3BucketRegion": [
+    {
+      "type": 0,
+      "value": "S3 bucket region"
     }
   ],
   "ui-licenses.settings.fileStorage.s3Endpoint": [

@@ -67713,21 +67713,17 @@
   "ui-inn-reach.action.after-click-add": [
     {
       "type": 0,
-      "value": "Added a new row. "
+      "value": "新增了新行。總共"
     },
     {
       "type": 1,
       "value": "fieldsLength"
-    },
-    {
-      "type": 0,
-      "value": " in total"
     }
   ],
   "ui-inn-reach.action.after-click-remove": [
     {
       "type": 0,
-      "value": "Row "
+      "value": "第"
     },
     {
       "type": 1,
@@ -67735,31 +67731,31 @@
     },
     {
       "type": 0,
-      "value": " has been removed. "
+      "value": "行已刪除。總共"
     },
     {
       "type": 1,
       "value": "fieldsLength"
-    },
-    {
-      "type": 0,
-      "value": " in total"
     }
   ],
   "ui-inn-reach.action.focus.add": [
     {
       "type": 0,
-      "value": "Add a new row"
+      "value": "新增行"
     }
   ],
   "ui-inn-reach.action.focus.remove": [
     {
       "type": 0,
-      "value": "Remove fields for row "
+      "value": "刪除第"
     },
     {
       "type": 1,
       "value": "num"
+    },
+    {
+      "type": 0,
+      "value": "行的欄位"
     }
   ],
   "ui-inn-reach.action.swap": [
@@ -67777,7 +67773,7 @@
     },
     {
       "type": 0,
-      "value": " and "
+      "value": "和"
     },
     {
       "type": 1,
@@ -67785,61 +67781,61 @@
     },
     {
       "type": 0,
-      "value": " have been swapped"
+      "value": "已交換"
     }
   ],
   "ui-inn-reach.available-actions": [
     {
       "type": 0,
-      "value": "available actions"
+      "value": "可用操作"
     }
   ],
   "ui-inn-reach.banner.item-types": [
     {
       "type": 0,
-      "value": "Unable to retrieve INN-Reach item type settings from central server. Please verify the configuration of the selected central server."
+      "value": "無法從中央伺服器取得 INN-Reach 館藏類型設定。請驗證所選中央伺服器的設定。"
     }
   ],
   "ui-inn-reach.banner.local-servers": [
     {
       "type": 0,
-      "value": "Unable to retrieve local server settings from central server. Please verify the configuration of the selected central server."
+      "value": "無法從中央伺服器取得本機伺服器設定。請驗證所選中央伺服器的設定。"
     }
   ],
   "ui-inn-reach.banner.patron-types": [
     {
       "type": 0,
-      "value": "Unable to retrieve central patron type values. Please verify the configuration of the selected central server."
+      "value": "無法取得中心讀者類型值。請驗證所選中央伺服器的設定。"
     }
   ],
   "ui-inn-reach.cancel-hold.callout.connection-problem.get.cancellation-reasons": [
     {
       "type": 0,
-      "value": "Could not retrieve cancellation reasons!"
+      "value": "無法取得取消原因"
     }
   ],
   "ui-inn-reach.cancel-hold.callout.connection-problem.post.cancel-hold": [
     {
       "type": 0,
-      "value": "There was a problem canceling the item"
+      "value": "取消館藏出錯"
     }
   ],
   "ui-inn-reach.cancel-hold.callout.success.post.cancel-hold": [
     {
       "type": 0,
-      "value": "Item has been successfully canceled"
+      "value": "取消館藏成功"
     }
   ],
   "ui-inn-reach.check-out-borrowing-site.action.change-due-date": [
     {
       "type": 0,
-      "value": "Change due date"
+      "value": "更改到期日"
     }
   ],
   "ui-inn-reach.check-out-borrowing-site.action.loan-detail": [
     {
       "type": 0,
-      "value": "Loan detail"
+      "value": "借閱詳細資訊"
     }
   ],
   "ui-inn-reach.check-out-borrowing-site.action.request-detail": [
@@ -67851,43 +67847,43 @@
   "ui-inn-reach.check-out-borrowing-site.action.transaction-detail": [
     {
       "type": 0,
-      "value": "Inn-Reach transaction detail"
+      "value": "INN-Reach 交易詳細資訊"
     }
   ],
   "ui-inn-reach.check-out-borrowing-site.button.end-session": [
     {
       "type": 0,
-      "value": "End session"
+      "value": "結束工作階段"
     }
   ],
   "ui-inn-reach.check-out-borrowing-site.button.enter": [
     {
       "type": 0,
-      "value": "Enter"
+      "value": "輸入"
     }
   ],
   "ui-inn-reach.check-out-borrowing-site.callout.connection-problem.get.transactions": [
     {
       "type": 0,
-      "value": "Unable to get data due to a module error. Please try again. If a problem persists please contact your system administrator"
+      "value": "模組錯誤導致無法取得資料。請再試一次，如果問題依舊請聯繫您的系統管理員。"
     }
   ],
   "ui-inn-reach.check-out-borrowing-site.callout.connection-problem.post.check-out-borrowing-site": [
     {
       "type": 0,
-      "value": "There was a problem checking out the item"
+      "value": "借出此館藏出現問題"
     }
   ],
   "ui-inn-reach.check-out-borrowing-site.callout.success.post.check-out-borrowing-site": [
     {
       "type": 0,
-      "value": "Item has been successfully checked out"
+      "value": "館藏已成功借出"
     }
   ],
   "ui-inn-reach.check-out-borrowing-site.column.actions": [
     {
       "type": 0,
-      "value": "Actions"
+      "value": "操作"
     }
   ],
   "ui-inn-reach.check-out-borrowing-site.column.barcode": [
@@ -67899,115 +67895,115 @@
   "ui-inn-reach.check-out-borrowing-site.column.destination": [
     {
       "type": 0,
-      "value": "Destination"
+      "value": "目的地"
     }
   ],
   "ui-inn-reach.check-out-borrowing-site.column.due-date": [
     {
       "type": 0,
-      "value": "Due Date"
+      "value": "到期日"
     }
   ],
   "ui-inn-reach.check-out-borrowing-site.column.loan-policy": [
     {
       "type": 0,
-      "value": "Loan Policy"
+      "value": "借閱政策"
     }
   ],
   "ui-inn-reach.check-out-borrowing-site.column.no": [
     {
       "type": 0,
-      "value": "No."
+      "value": "編號"
     }
   ],
   "ui-inn-reach.check-out-borrowing-site.column.time": [
     {
       "type": 0,
-      "value": "Time"
+      "value": "時間"
     }
   ],
   "ui-inn-reach.check-out-borrowing-site.column.title": [
     {
       "type": 0,
-      "value": "Title"
+      "value": "題名"
     }
   ],
   "ui-inn-reach.check-out-borrowing-site.modal.button": [
     {
       "type": 0,
-      "value": "Close"
+      "value": "關閉"
     }
   ],
   "ui-inn-reach.check-out-borrowing-site.modal.message": [
     {
       "type": 0,
-      "value": "No INN-Reach transaction could be found for this item."
+      "value": "找不到此單件的 INN-Reach 交易"
     }
   ],
   "ui-inn-reach.check-out-borrowing-site.placeholder.scan-or-enter-item-barcode": [
     {
       "type": 0,
-      "value": "Scan or enter item barcode"
+      "value": "掃描或輸入館藏條碼"
     }
   ],
   "ui-inn-reach.check-out-borrowing-site.title": [
     {
       "type": 0,
-      "value": "No matching INN-Reach transaction found for this item"
+      "value": "找不到與單件相符的 INN-Reach 交易"
     }
   ],
   "ui-inn-reach.check-out-borrowing-site.title.check-out-borrowing-site": [
     {
       "type": 0,
-      "value": "Check out to borrowing site"
+      "value": "前往借閱網站查看"
     }
   ],
   "ui-inn-reach.check-out-borrowing-site.title.scan-items": [
     {
       "type": 0,
-      "value": "Scan Items"
+      "value": "掃描館藏"
     }
   ],
   "ui-inn-reach.check-out-to-local-patron.callout.connection-problem.post.check-out-to-local-patron": [
     {
       "type": 0,
-      "value": "There was a problem checking out the item"
+      "value": "歸還館藏出錯"
     }
   ],
   "ui-inn-reach.check-out-to-local-patron.callout.success.post.check-out-to-local-patron": [
     {
       "type": 0,
-      "value": "Item has been successfully checked out"
+      "value": "館藏借出成功"
     }
   ],
   "ui-inn-reach.check-out-to-patron.callout.connection-problem.post.check-out-to-patron": [
     {
       "type": 0,
-      "value": "There was a problem checking out the item"
+      "value": "借出館藏出錯"
     }
   ],
   "ui-inn-reach.check-out-to-patron.callout.success.post.check-out-to-patron": [
     {
       "type": 0,
-      "value": "Item has been successfully checked out"
+      "value": "館藏借出成功"
     }
   ],
   "ui-inn-reach.final-check-in-item-hold.callout.connection-problem.post.final-check-in-item-hold": [
     {
       "type": 0,
-      "value": "There was a problem checking in the item"
+      "value": "歸還館藏出錯"
     }
   ],
   "ui-inn-reach.final-check-in-item-hold.callout.success.post.final-check-in-item-hold": [
     {
       "type": 0,
-      "value": "Item has been successfully checked in"
+      "value": "館藏歸還成功"
     }
   ],
   "ui-inn-reach.loan.callout.connection-problem.get.loan": [
     {
       "type": 0,
-      "value": "There was a problem loading the loan"
+      "value": "讀取借閱出錯"
     }
   ],
   "ui-inn-reach.meta.title": [
@@ -68019,55 +68015,55 @@
   "ui-inn-reach.modal.cancelLabel.closeWithoutSaving": [
     {
       "type": 0,
-      "value": "Close without saving"
+      "value": "不儲存就關閉"
     }
   ],
   "ui-inn-reach.modal.confirmLabel.keepEditing": [
     {
       "type": 0,
-      "value": "Keep editing"
+      "value": "繼續編輯"
     }
   ],
   "ui-inn-reach.modal.heading.areYouSure": [
     {
       "type": 0,
-      "value": "Are you sure?"
+      "value": "您是否確定？"
     }
   ],
   "ui-inn-reach.modal.message.unsavedChanges": [
     {
       "type": 0,
-      "value": "There are unsaved changes"
+      "value": "有未儲存的變更"
     }
   ],
   "ui-inn-reach.no-items-entered": [
     {
       "type": 0,
-      "value": "No items have been entered yet"
+      "value": "尚未輸入單件"
     }
   ],
   "ui-inn-reach.no-selection": [
     {
       "type": 0,
-      "value": "No selection"
+      "value": "沒有選擇"
     }
   ],
   "ui-inn-reach.not-valid": [
     {
       "type": 0,
-      "value": "Not valid"
+      "value": "無效"
     }
   ],
   "ui-inn-reach.paging-slips-template.callout.connection-problem.get.pagingSlipTemplate": [
     {
       "type": 0,
-      "value": "There was a problem loading the paging slip templates"
+      "value": "讀取呼叫單範本出錯"
     }
   ],
   "ui-inn-reach.paging-slips.callout.connection-problem.get.pagingSlip": [
     {
       "type": 0,
-      "value": "There was a problem loading the paging slips"
+      "value": "讀取呼叫單出錯"
     }
   ],
   "ui-inn-reach.patron-lookup": [
@@ -68078,24 +68074,24 @@
   ],
   "ui-inn-reach.printSlips.label": [
     {
-      "type": 0,
-      "value": "INN-Reach paging slips for "
-    },
-    {
       "type": 1,
       "value": "servicePoint"
+    },
+    {
+      "type": 0,
+      "value": "的 INN-Reach 呼叫單"
     }
   ],
   "ui-inn-reach.recall-item.callout.connection-problem.post.recall-item": [
     {
       "type": 0,
-      "value": "There was a problem recalling the item"
+      "value": "催還館藏出錯"
     }
   ],
   "ui-inn-reach.recall-item.callout.success.post.recall-item": [
     {
       "type": 0,
-      "value": "Item has been successfully recalled"
+      "value": "館藏催還成功"
     }
   ],
   "ui-inn-reach.receive-item.callout.connection-problem.post.receive-item": [
@@ -68113,229 +68109,229 @@
   "ui-inn-reach.reports.callout.export-in-progress": [
     {
       "type": 0,
-      "value": "Export in progress"
+      "value": "匯出中"
     }
   ],
   "ui-inn-reach.reports.callout.no-items-found": [
     {
       "type": 0,
-      "value": "No items found."
+      "value": "沒有找到館藏"
     }
   ],
   "ui-inn-reach.reports.dateRequested": [
     {
       "type": 0,
-      "value": "Date Requested"
+      "value": "預約日期"
     }
   ],
   "ui-inn-reach.reports.dateReturned": [
     {
       "type": 0,
-      "value": "Date Returned"
+      "value": "歸還日期"
     }
   ],
   "ui-inn-reach.reports.dateShipped": [
     {
       "type": 0,
-      "value": "Date Shipped"
+      "value": "運送日期"
     }
   ],
   "ui-inn-reach.reports.effectiveLocation": [
     {
       "type": 0,
-      "value": "Item's Effective Location"
+      "value": "館藏有效館藏地"
     }
   ],
   "ui-inn-reach.reports.in-transit-too-long.label": [
     {
       "type": 0,
-      "value": "In-transit too long report (CSV)"
+      "value": "傳送過久報告(CSV)"
     }
   ],
   "ui-inn-reach.reports.itemBarcode": [
     {
       "type": 0,
-      "value": "Item Barcode"
+      "value": "館藏條碼"
     }
   ],
   "ui-inn-reach.reports.itemCallNumber": [
     {
       "type": 0,
-      "value": "Item call number"
+      "value": "館藏索書號"
     }
   ],
   "ui-inn-reach.reports.itemHRID": [
     {
       "type": 0,
-      "value": "Item HRID"
+      "value": "館藏HRID"
     }
   ],
   "ui-inn-reach.reports.itemLocation": [
     {
       "type": 0,
-      "value": "Item Location"
+      "value": "單件館藏地"
     }
   ],
   "ui-inn-reach.reports.itemTitle": [
     {
       "type": 0,
-      "value": "Item Title"
+      "value": "館藏題名"
     }
   ],
   "ui-inn-reach.reports.loanDueDate": [
     {
       "type": 0,
-      "value": "Loan Due Date"
+      "value": "借閱到期日"
     }
   ],
   "ui-inn-reach.reports.modal.button.cancel": [
     {
       "type": 0,
-      "value": "Cancel"
+      "value": "取消"
     }
   ],
   "ui-inn-reach.reports.modal.button.save-and-close": [
     {
       "type": 0,
-      "value": "Save & close"
+      "value": "儲存並關閉"
     }
   ],
   "ui-inn-reach.reports.modal.field.minimum-days-overdue": [
     {
       "type": 0,
-      "value": "Minimum days overdue"
+      "value": "最短逾期天數"
     }
   ],
   "ui-inn-reach.reports.modal.field.minimum-days-paged": [
     {
       "type": 0,
-      "value": "Minimum days paged"
+      "value": "呼叫最短天數"
     }
   ],
   "ui-inn-reach.reports.modal.field.minimum-days-requested": [
     {
       "type": 0,
-      "value": "Minimum days requested"
+      "value": "要求的最少天數"
     }
   ],
   "ui-inn-reach.reports.modal.field.minimum-days-returned": [
     {
       "type": 0,
-      "value": "Minimum days returned"
+      "value": "歸還最短天數"
     }
   ],
   "ui-inn-reach.reports.modal.field.minimum-days-shipped": [
     {
       "type": 0,
-      "value": "Minimum days shipped"
+      "value": "運送最短天數"
     }
   ],
   "ui-inn-reach.reports.modal.title.in-transit-too-long-report": [
     {
       "type": 0,
-      "value": "In-transit too long report"
+      "value": "傳送過久報告"
     }
   ],
   "ui-inn-reach.reports.modal.title.owning-site-overdue-report": [
     {
       "type": 0,
-      "value": "Owning site overdue report"
+      "value": "擁有網站逾期報告"
     }
   ],
   "ui-inn-reach.reports.modal.title.paged-too-long-report": [
     {
       "type": 0,
-      "value": "Owning site paged too long report"
+      "value": "擁有網站呼叫過久報告"
     }
   ],
   "ui-inn-reach.reports.modal.title.requested-too-long-report": [
     {
       "type": 0,
-      "value": "Requested too long report"
+      "value": "預約過久報告"
     }
   ],
   "ui-inn-reach.reports.modal.title.returned-too-long-report": [
     {
       "type": 0,
-      "value": "Returned too long report"
+      "value": "歸還過久報告"
     }
   ],
   "ui-inn-reach.reports.owning-site-overdue.label": [
     {
       "type": 0,
-      "value": "Owning site overdue report (CSV)"
+      "value": "擁有網站逾期報告 (CSV)"
     }
   ],
   "ui-inn-reach.reports.paged-too-long.label": [
     {
       "type": 0,
-      "value": "Owning site paged too long report (CSV)"
+      "value": "擁有網站呼叫過久報告(CSV)"
     }
   ],
   "ui-inn-reach.reports.pagedDate": [
     {
       "type": 0,
-      "value": "Paged Date"
+      "value": "呼叫日期"
     }
   ],
   "ui-inn-reach.reports.patronAgency": [
     {
       "type": 0,
-      "value": "Patron Agency"
+      "value": "讀者機構"
     }
   ],
   "ui-inn-reach.reports.patronHomeLibrary": [
     {
       "type": 0,
-      "value": "Patron Home Library"
+      "value": "讀者所屬圖書館"
     }
   ],
   "ui-inn-reach.reports.patronIdField": [
     {
       "type": 0,
-      "value": "INN-Reach Patron ID"
+      "value": "INN-Reach讀者ID"
     }
   ],
   "ui-inn-reach.reports.requested-too-long.label": [
     {
       "type": 0,
-      "value": "Requested too long report (CSV)"
+      "value": "預約過久報告 (CSV)"
     }
   ],
   "ui-inn-reach.reports.requestingPatronAgency": [
     {
       "type": 0,
-      "value": "Requesting Patron Agency"
+      "value": "預約讀者機構"
     }
   ],
   "ui-inn-reach.reports.requestingPatronId": [
     {
       "type": 0,
-      "value": "Requesting Patron ID"
+      "value": "預約讀者ID"
     }
   ],
   "ui-inn-reach.reports.returned-too-long.label": [
     {
       "type": 0,
-      "value": "Returned too long report (CSV)"
+      "value": "歸還過久報告(CSV)"
     }
   ],
   "ui-inn-reach.resetAllFilters": [
     {
       "type": 0,
-      "value": "Reset all"
+      "value": "全部重設"
     }
   ],
   "ui-inn-reach.return-patron-hold-item.callout.connection-problem.post.return-patron-hold-item": [
     {
       "type": 0,
-      "value": "There was a problem returning the item"
+      "value": "歸還館藏出錯"
     }
   ],
   "ui-inn-reach.return-patron-hold-item.callout.success.post.return-patron-hold-item": [
     {
       "type": 0,
-      "value": "Item has been successfully returned"
+      "value": "館藏歸還成功"
     }
   ],
   "ui-inn-reach.search": [
@@ -68347,31 +68343,31 @@
   "ui-inn-reach.searchAndFilter": [
     {
       "type": 0,
-      "value": "Select activity"
+      "value": "選擇活動"
     }
   ],
   "ui-inn-reach.settings.agency-to-folio-locations": [
     {
       "type": 0,
-      "value": "Agency to FOLIO location"
+      "value": "機構到FOLIO位置"
     }
   ],
   "ui-inn-reach.settings.agency-to-folio-locations.button.save": [
     {
       "type": 0,
-      "value": "Save"
+      "value": "儲存"
     }
   ],
   "ui-inn-reach.settings.agency-to-folio-locations.callout.connection-problem.get": [
     {
       "type": 0,
-      "value": "Unable to get data due to a module error. Please try again. If a problem persists please contact your system administrator"
+      "value": "模組錯誤導致無法取得資料。請再試一次，如果問題依舊請聯繫您的系統管理員。"
     }
   ],
   "ui-inn-reach.settings.agency-to-folio-locations.callout.connection-problem.put": [
     {
       "type": 0,
-      "value": "There was a problem and your update was not saved: "
+      "value": "出現問題，更新未儲存： "
     },
     {
       "type": 1,
@@ -68379,7 +68375,7 @@
     },
     {
       "type": 0,
-      "value": ", status code "
+      "value": " ，狀態代碼"
     },
     {
       "type": 1,
@@ -68388,148 +68384,144 @@
   ],
   "ui-inn-reach.settings.agency-to-folio-locations.create.success": [
     {
-      "type": 0,
-      "value": "The INN-Reach Agency to FOLIO Location Mapping for "
-    },
-    {
       "type": 1,
       "value": "name"
     },
     {
       "type": 0,
-      "value": " has been created successfully"
+      "value": "的 INN-Reach 代理機構到 FOLIO 位置對應建立成功"
     }
   ],
   "ui-inn-reach.settings.agency-to-folio-locations.field.agency-code-description": [
     {
       "type": 0,
-      "value": "Agency code (Description)"
+      "value": "機構代碼（描述）"
     }
   ],
   "ui-inn-reach.settings.agency-to-folio-locations.field.folio-library": [
     {
       "type": 0,
-      "value": "FOLIO library (default)"
+      "value": "FOLIO 圖書館（預設）"
     }
   ],
   "ui-inn-reach.settings.agency-to-folio-locations.field.folio-library-and-location": [
     {
       "type": 0,
-      "value": "FOLIO library & location"
+      "value": "FOLIO 圖書館及地點"
     }
   ],
   "ui-inn-reach.settings.agency-to-folio-locations.field.folio-location": [
     {
       "type": 0,
-      "value": "FOLIO location (default)"
+      "value": "FOLIO 位置（預設）"
     }
   ],
   "ui-inn-reach.settings.agency-to-folio-locations.field.local-server": [
     {
       "type": 0,
-      "value": "Local server"
+      "value": "本地伺服器"
     }
   ],
   "ui-inn-reach.settings.agency-to-folio-locations.placeholder.folio-library": [
     {
       "type": 0,
-      "value": "Select Institution > Campus > Library"
+      "value": "選擇機構>校園>圖書館"
     }
   ],
   "ui-inn-reach.settings.agency-to-folio-locations.placeholder.folio-location": [
     {
       "type": 0,
-      "value": "Select location"
+      "value": "選擇位置"
     }
   ],
   "ui-inn-reach.settings.agency-to-folio-locations.placeholder.local-server": [
     {
       "type": 0,
-      "value": "Select local server"
+      "value": "選擇本地伺服器"
     }
   ],
   "ui-inn-reach.settings.agency-to-folio-locations.title": [
     {
       "type": 0,
-      "value": "Agency to FOLIO location"
+      "value": "機構到FOLIO位置"
     }
   ],
   "ui-inn-reach.settings.agency-to-folio-locations.update.success": [
-    {
-      "type": 0,
-      "value": "The INN-Reach Agency to FOLIO Location Mapping for "
-    },
     {
       "type": 1,
       "value": "name"
     },
     {
       "type": 0,
-      "value": " has been updated successfully"
+      "value": "的 INN-Reach 代理機構到 FOLIO 位置對應更新成功"
     }
   ],
   "ui-inn-reach.settings.bib-transformation": [
     {
       "type": 0,
-      "value": "Bib transformation options"
+      "value": "書目轉換選項"
     }
   ],
   "ui-inn-reach.settings.bib-transformation.action.add-new-field": [
     {
       "type": 0,
-      "value": "row with fields for modifying the contributed records"
+      "value": "包含用於修改貢獻記錄的欄位的行"
     }
   ],
   "ui-inn-reach.settings.bib-transformation.action.remove-fields": [
     {
       "type": 0,
-      "value": "row"
+      "value": "行"
     }
   ],
   "ui-inn-reach.settings.bib-transformation.action.swap": [
     {
       "type": 0,
-      "value": "row"
+      "value": "行"
     }
   ],
   "ui-inn-reach.settings.bib-transformation.button.add": [
     {
       "type": 0,
-      "value": "Add a new row with fields after current one"
+      "value": "在當前行之後新增一個包含欄位的新行"
     }
   ],
   "ui-inn-reach.settings.bib-transformation.button.down": [
     {
       "type": 0,
-      "value": "Swap the current field with the next"
+      "value": "將目前欄位與下一個欄位交換"
     }
   ],
   "ui-inn-reach.settings.bib-transformation.button.remove": [
     {
       "type": 0,
-      "value": "Remove fields for row "
+      "value": "刪除第"
     },
     {
       "type": 1,
       "value": "num"
+    },
+    {
+      "type": 0,
+      "value": "行的欄位"
     }
   ],
   "ui-inn-reach.settings.bib-transformation.button.save": [
     {
       "type": 0,
-      "value": "Save"
+      "value": "儲存"
     }
   ],
   "ui-inn-reach.settings.bib-transformation.button.up": [
     {
       "type": 0,
-      "value": "Swap the current field with the previous one"
+      "value": "將目前欄位與前一個欄位交換"
     }
   ],
   "ui-inn-reach.settings.bib-transformation.callout.connection-problem.post": [
     {
       "type": 0,
-      "value": "There was a problem and your creation was not saved: "
+      "value": "出現問題，建立未儲存： "
     },
     {
       "type": 1,
@@ -68537,7 +68529,7 @@
     },
     {
       "type": 0,
-      "value": ", status code "
+      "value": " ，狀態代碼"
     },
     {
       "type": 1,
@@ -68547,7 +68539,7 @@
   "ui-inn-reach.settings.bib-transformation.callout.connection-problem.put": [
     {
       "type": 0,
-      "value": "There was a problem and your update was not saved: "
+      "value": "出現問題，更新未儲存： "
     },
     {
       "type": 1,
@@ -68555,7 +68547,7 @@
     },
     {
       "type": 0,
-      "value": ", status code "
+      "value": " ，狀態代碼"
     },
     {
       "type": 1,
@@ -68565,199 +68557,199 @@
   "ui-inn-reach.settings.bib-transformation.create.success": [
     {
       "type": 0,
-      "value": "Bib transformation options created successfully"
+      "value": "書目轉換選項建立成功"
     }
   ],
   "ui-inn-reach.settings.bib-transformation.field.identifier-type": [
     {
       "type": 0,
-      "value": "Identifier type"
+      "value": "識別號類型"
     }
   ],
   "ui-inn-reach.settings.bib-transformation.field.ignore-prefixes": [
     {
       "type": 0,
-      "value": "Ignore prefixes"
+      "value": "忽略前綴"
     }
   ],
   "ui-inn-reach.settings.bib-transformation.field.modify-MARC": [
     {
       "type": 0,
-      "value": "Modify MARC 001 field for contributed records"
+      "value": "修改貢獻記錄的 MARC 001 欄位"
     }
   ],
   "ui-inn-reach.settings.bib-transformation.field.strip-fields-and-subfields": [
     {
       "type": 0,
-      "value": "Strip fields and subfields"
+      "value": "去除欄位和子欄位"
     }
   ],
   "ui-inn-reach.settings.bib-transformation.field.strip-prefix": [
     {
       "type": 0,
-      "value": "Strip prefix"
+      "value": "去除前綴"
     }
   ],
   "ui-inn-reach.settings.bib-transformation.placeholder.identifier-type": [
     {
       "type": 0,
-      "value": "Select identifier type"
+      "value": "選擇識別號類型"
     }
   ],
   "ui-inn-reach.settings.bib-transformation.placeholder.ignore-prefixes": [
     {
       "type": 0,
-      "value": "Enter comma-separated prefix strings"
+      "value": "輸入以逗號分隔的前綴字串"
     }
   ],
   "ui-inn-reach.settings.bib-transformation.placeholder.strip-fields-and-subfields": [
     {
       "type": 0,
-      "value": "Enter comma-separated MARC fields and/or subfields to exclude from transformed MARC records"
+      "value": "輸入以逗號分隔的 MARC 欄位和/或子欄位以從轉換後的 MARC 記錄中排除"
     }
   ],
   "ui-inn-reach.settings.bib-transformation.title": [
     {
       "type": 0,
-      "value": "Bib transformation options"
+      "value": "書目轉換選項"
     }
   ],
   "ui-inn-reach.settings.bib-transformation.update.success": [
     {
       "type": 0,
-      "value": "Bib transformation options updated successfully"
+      "value": "書目轉換選項更新成功"
     }
   ],
   "ui-inn-reach.settings.bib-transformation.validation.comma-separated-prefix": [
     {
       "type": 0,
-      "value": "Enter comma-separated prefix strings"
+      "value": "輸入以逗號分隔的前綴字串"
     }
   ],
   "ui-inn-reach.settings.central-item-type": [
     {
       "type": 0,
-      "value": "Central item type"
+      "value": "中心單件類型"
     }
   ],
   "ui-inn-reach.settings.central-item-type.button.save": [
     {
       "type": 0,
-      "value": "Save"
+      "value": "儲存"
     }
   ],
   "ui-inn-reach.settings.central-item-type.callout.connectionProblem.post": [
     {
       "type": 0,
-      "value": "Unable to create data due to a module error. Please try again. If a problem persists please contact your system administrator"
+      "value": "由於模組錯誤，無法建立資料。請再試一次。如果問題仍然存在，請聯絡系統管理員"
     }
   ],
   "ui-inn-reach.settings.central-item-type.callout.connectionProblem.put": [
     {
       "type": 0,
-      "value": "Unable to updated data due to a module error. Please try again. If a problem persists please contact your system administrator"
+      "value": "由於模組錯誤，無法更新資料。請再試一次。如果問題仍然存在，請聯絡系統管理員"
     }
   ],
   "ui-inn-reach.settings.central-item-type.create.success": [
     {
       "type": 0,
-      "value": "Central item type settings created successfully"
+      "value": "中心單件類型設定建立成功"
     }
   ],
   "ui-inn-reach.settings.central-item-type.field.folio-material-type": [
     {
       "type": 0,
-      "value": "FOLIO material type"
+      "value": "FOLIO資料類型"
     }
   ],
   "ui-inn-reach.settings.central-item-type.field.item-type": [
     {
       "type": 0,
-      "value": "Item type (description)"
+      "value": "館藏類型（描述）"
     }
   ],
   "ui-inn-reach.settings.central-item-type.placeholder.material-type": [
     {
       "type": 0,
-      "value": "Select material type"
+      "value": "選擇資料類型"
     }
   ],
   "ui-inn-reach.settings.central-item-type.title": [
     {
       "type": 0,
-      "value": "Central item type"
+      "value": "中心單件類型"
     }
   ],
   "ui-inn-reach.settings.central-item-type.update.success": [
     {
       "type": 0,
-      "value": "Central item type settings updated successfully"
+      "value": "中心單件類型設定更新成功"
     }
   ],
   "ui-inn-reach.settings.central-patron-type": [
     {
       "type": 0,
-      "value": "Central patron type"
+      "value": "中心讀者類型"
     }
   ],
   "ui-inn-reach.settings.central-patron-type.button.save": [
     {
       "type": 0,
-      "value": "Save"
+      "value": "儲存"
     }
   ],
   "ui-inn-reach.settings.central-patron-type.callout.connectionProblem.post": [
     {
       "type": 0,
-      "value": "Unable to create data due to a module error. Please try again. If a problem persists please contact your system administrator"
+      "value": "由於模組錯誤，無法建立資料。請再試一次。如果問題仍然存在，請聯絡系統管理員"
     }
   ],
   "ui-inn-reach.settings.central-patron-type.callout.connectionProblem.put": [
     {
       "type": 0,
-      "value": "Unable to updated data due to a module error. Please try again. If a problem persists please contact your system administrator"
+      "value": "由於模組錯誤，無法更新資料。請再試一次。如果問題仍然存在，請聯絡系統管理員"
     }
   ],
   "ui-inn-reach.settings.central-patron-type.create.success": [
     {
       "type": 0,
-      "value": "Central patron type settings created successfully"
+      "value": "中心讀者類型設定建立成功"
     }
   ],
   "ui-inn-reach.settings.central-patron-type.field.folio-patron-groups": [
     {
       "type": 0,
-      "value": "FOLIO patron groups"
+      "value": "FOLIO讀者組"
     }
   ],
   "ui-inn-reach.settings.central-patron-type.field.patron-type": [
     {
       "type": 0,
-      "value": "Patron type (Description)"
+      "value": "讀者類型（描述）"
     }
   ],
   "ui-inn-reach.settings.central-patron-type.placeholder.patron-type": [
     {
       "type": 0,
-      "value": "Select patron type"
+      "value": "選擇讀者類型"
     }
   ],
   "ui-inn-reach.settings.central-patron-type.title": [
     {
       "type": 0,
-      "value": "Central patron type"
+      "value": "中心讀者類型"
     }
   ],
   "ui-inn-reach.settings.central-patron-type.update.success": [
     {
       "type": 0,
-      "value": "Central patron type settings updated successfully"
+      "value": "中心讀者類型設定更新成功"
     }
   ],
   "ui-inn-reach.settings.central-server-configuration.action.delete": [
     {
       "type": 0,
-      "value": "删除"
+      "value": "刪除"
     }
   ],
   "ui-inn-reach.settings.central-server-configuration.action.edit": [
@@ -68769,25 +68761,25 @@
   "ui-inn-reach.settings.central-server-configuration.callout.connectionProblem.delete": [
     {
       "type": 0,
-      "value": "Unable to delete due to a module error. Please try again. If a problem persists please contact your system administrator"
+      "value": "由於模組錯誤而無法刪除。請再試一次。如果問題仍然存在，請聯絡您的系統管理員"
     }
   ],
   "ui-inn-reach.settings.central-server-configuration.callout.connectionProblem.get": [
     {
       "type": 0,
-      "value": "模組錯誤導致無法取得資料。請再試一次，如果問題依舊請聯繫您的系統管理原。"
+      "value": "模組錯誤導致無法取得資料。請再試一次，如果問題依舊請聯繫您的系統管理員。"
     }
   ],
   "ui-inn-reach.settings.central-server-configuration.callout.connectionProblem.post": [
     {
       "type": 0,
-      "value": "模組錯誤導致無法取得資料。請再試一次，如果問題依舊請聯繫您的系統管理原。"
+      "value": "模組錯誤導致無法取得資料。請再試一次，如果問題依舊請聯繫您的系統管理員。"
     }
   ],
   "ui-inn-reach.settings.central-server-configuration.callout.connectionProblem.put": [
     {
       "type": 0,
-      "value": "Unable to updated data due to a module error. Please try again. If a problem persists please contact your system administrator"
+      "value": "由於模組錯誤，無法更新資料。請再試一次。如果問題仍然存在，請聯絡您的系統管理員"
     }
   ],
   "ui-inn-reach.settings.central-server-configuration.callout.deleted": [
@@ -68799,127 +68791,127 @@
   "ui-inn-reach.settings.central-server-configuration.callout.failedToDelete.delete": [
     {
       "type": 0,
-      "value": "Failed to delete a central server configuration"
+      "value": "無法刪除中央伺服器設定"
     }
   ],
   "ui-inn-reach.settings.central-server-configuration.callout.invalidData": [
     {
       "type": 0,
-      "value": "Invalid central server data"
+      "value": "無效的中央伺服器資料"
     }
   ],
   "ui-inn-reach.settings.central-server-configuration.callout.notUnique": [
     {
       "type": 0,
-      "value": "Some of the values entered must be unique"
+      "value": "輸入的某些值必須是唯一的"
     }
   ],
   "ui-inn-reach.settings.central-server-configuration.create-edit.accordion.generalInformation.title": [
     {
       "type": 0,
-      "value": "General information"
+      "value": "一般資訊"
     }
   ],
   "ui-inn-reach.settings.central-server-configuration.create-edit.accordion.serverConnection.title": [
     {
       "type": 0,
-      "value": "Server connection"
+      "value": "伺服器連線"
     }
   ],
   "ui-inn-reach.settings.central-server-configuration.create-edit.button.cancel": [
     {
       "type": 0,
-      "value": "Cancel"
+      "value": "取消"
     }
   ],
   "ui-inn-reach.settings.central-server-configuration.create-edit.button.generateKeypair": [
     {
       "type": 0,
-      "value": "Generate keypair"
+      "value": "產生密鑰組"
     }
   ],
   "ui-inn-reach.settings.central-server-configuration.create-edit.button.hide-secrets": [
     {
       "type": 0,
-      "value": "Hide secrets"
+      "value": "隱藏密鑰"
     }
   ],
   "ui-inn-reach.settings.central-server-configuration.create-edit.button.save&close": [
     {
       "type": 0,
-      "value": "Save & close"
+      "value": "儲存並關閉"
     }
   ],
   "ui-inn-reach.settings.central-server-configuration.create-edit.button.show-secrets": [
     {
       "type": 0,
-      "value": "Show secrets"
+      "value": "顯示密鑰"
     }
   ],
   "ui-inn-reach.settings.central-server-configuration.create-edit.field.borrowedItemLoanType": [
     {
       "type": 0,
-      "value": "Borrowed item loan type"
+      "value": "已借單件借閱類型"
     }
   ],
   "ui-inn-reach.settings.central-server-configuration.create-edit.field.centralServerAddress": [
     {
       "type": 0,
-      "value": "Central server address"
+      "value": "中央伺服器地址"
     }
   ],
   "ui-inn-reach.settings.central-server-configuration.create-edit.field.centralServerCode": [
     {
       "type": 0,
-      "value": "Central server code"
+      "value": "中央伺服器代碼"
     }
   ],
   "ui-inn-reach.settings.central-server-configuration.create-edit.field.centralServerKey": [
     {
       "type": 0,
-      "value": "Central server key"
+      "value": "中央伺服器金鑰"
     }
   ],
   "ui-inn-reach.settings.central-server-configuration.create-edit.field.centralServerSecret": [
     {
       "type": 0,
-      "value": "Central server secret"
+      "value": "中央伺服器密值"
     }
   ],
   "ui-inn-reach.settings.central-server-configuration.create-edit.field.description": [
     {
       "type": 0,
-      "value": "Description"
+      "value": "描述"
     }
   ],
   "ui-inn-reach.settings.central-server-configuration.create-edit.field.localServerCode": [
     {
       "type": 0,
-      "value": "Local server code"
+      "value": "本地伺服器代號"
     }
   ],
   "ui-inn-reach.settings.central-server-configuration.create-edit.field.localServerKey": [
     {
       "type": 0,
-      "value": "Local server key"
+      "value": "本地伺服器金鑰"
     }
   ],
   "ui-inn-reach.settings.central-server-configuration.create-edit.field.localServerSecret": [
     {
       "type": 0,
-      "value": "Local server secret"
+      "value": "本地伺服器密值"
     }
   ],
   "ui-inn-reach.settings.central-server-configuration.create-edit.field.name": [
     {
       "type": 0,
-      "value": "Name"
+      "value": "名稱"
     }
   ],
   "ui-inn-reach.settings.central-server-configuration.create-edit.validation.fiveCharacterStringLowerCase": [
     {
       "type": 0,
-      "value": "Please enter a 5 character string in lower case"
+      "value": "請輸入5個小寫字母的字串"
     }
   ],
   "ui-inn-reach.settings.central-server-configuration.create.success": [
@@ -68931,49 +68923,49 @@
   "ui-inn-reach.settings.central-server-configuration.create.title.newCentralServerConfig": [
     {
       "type": 0,
-      "value": "New central server configuration"
+      "value": "新增中央伺服器設定"
     }
   ],
   "ui-inn-reach.settings.central-server-configuration.edit.modal-button.confirm": [
     {
       "type": 0,
-      "value": "Confirm"
+      "value": "確認"
     }
   ],
   "ui-inn-reach.settings.central-server-configuration.edit.modal-button.keepEditing": [
     {
       "type": 0,
-      "value": "Keep editing"
+      "value": "繼續編輯"
     }
   ],
   "ui-inn-reach.settings.central-server-configuration.edit.modal-heading.updateLocalServerKeyConfirmation": [
     {
       "type": 0,
-      "value": "Update Local Server Key Confirmation"
+      "value": "更新本機伺服器金鑰確認"
     }
   ],
   "ui-inn-reach.settings.central-server-configuration.edit.modal-message.updateLocalServerKeypair": [
     {
       "type": 0,
-      "value": "You have updated the Local Server Key/Secret pair. INN-Reach circulation functions will be interrupted until this information is updated by the Central Server administrator. Click “Confirm” to save your changes and download a JSON file with the new key and secret values."
+      "value": "您已更新本機伺服器金鑰/密值組。在中央伺服器管理員更新此資訊之前，INN-Reach 流通功能將中斷。點擊「確認」儲存變更並下載包含新金鑰和密值的 JSON 檔案。"
     }
   ],
   "ui-inn-reach.settings.central-server-configuration.edit.notFound.text": [
     {
       "type": 0,
-      "value": "You have an invalid URL address. Please, review the syntax or parameters of the URL path and try another one."
+      "value": "URL 網址無效。請檢查 URL 路徑的語法或參數並嘗試另一種。"
     }
   ],
   "ui-inn-reach.settings.central-server-configuration.edit.notFound.title": [
     {
       "type": 0,
-      "value": "Edit"
+      "value": "編輯"
     }
   ],
   "ui-inn-reach.settings.central-server-configuration.edit.title.edit": [
     {
       "type": 0,
-      "value": "Edit"
+      "value": "編輯"
     }
   ],
   "ui-inn-reach.settings.central-server-configuration.list.field.name": [
@@ -68997,7 +68989,7 @@
   "ui-inn-reach.settings.central-server-configuration.update.success": [
     {
       "type": 0,
-      "value": "Central Server configuration updated successfully"
+      "value": "中央伺服器設定更新成功"
     }
   ],
   "ui-inn-reach.settings.central-server-configuration.view.accordion.generalInformation.title": [
@@ -69027,7 +69019,7 @@
   "ui-inn-reach.settings.central-server-configuration.view.field.loan-type": [
     {
       "type": 0,
-      "value": "Borrowed item loan type"
+      "value": "已借單件借閱類型"
     }
   ],
   "ui-inn-reach.settings.central-server-configuration.view.field.local-server-code": [
@@ -69045,7 +69037,7 @@
   "ui-inn-reach.settings.central-server-configuration.view.notFound.text": [
     {
       "type": 0,
-      "value": "You have an invalid URL address. Please, review the syntax or parameters of the URL path and try another one."
+      "value": "URL 網址無效。請檢查 URL 路徑的語法或參數，然後嘗試另一個。"
     }
   ],
   "ui-inn-reach.settings.central-server-configuration.view.notFound.title": [
@@ -69063,13 +69055,13 @@
   "ui-inn-reach.settings.central-server.location": [
     {
       "type": 0,
-      "value": "INN-Reach location"
+      "value": "INN-Reach館藏地"
     }
   ],
   "ui-inn-reach.settings.central-server.locations": [
     {
       "type": 0,
-      "value": "INN-Reach locations"
+      "value": "INN-Reach館藏地"
     }
   ],
   "ui-inn-reach.settings.central-servers.list.noItems": [
@@ -69103,7 +69095,7 @@
   "ui-inn-reach.settings.circulation-settings": [
     {
       "type": 0,
-      "value": "Circulation settings"
+      "value": "流通設定"
     }
   ],
   "ui-inn-reach.settings.confirmDeleteModal.central-server-configuration.cancel": [
@@ -69115,19 +69107,19 @@
   "ui-inn-reach.settings.confirmDeleteModal.central-server-configuration.confirm": [
     {
       "type": 0,
-      "value": "删除"
+      "value": "刪除"
     }
   ],
   "ui-inn-reach.settings.confirmDeleteModal.central-server-configuration.heading": [
     {
       "type": 0,
-      "value": "Confirm deletion of central server configuration"
+      "value": "確認刪除中央伺服器設定"
     }
   ],
   "ui-inn-reach.settings.confirmDeleteModal.central-server-configuration.message": [
     {
       "type": 0,
-      "value": "Central server configuration "
+      "value": "中央伺服器設定"
     },
     {
       "type": 1,
@@ -69135,259 +69127,259 @@
     },
     {
       "type": 0,
-      "value": " will be removed."
+      "value": "將被刪除。"
     }
   ],
   "ui-inn-reach.settings.contribution-criteria": [
     {
       "type": 0,
-      "value": "Contribution criteria"
+      "value": "貢獻標準"
     }
   ],
   "ui-inn-reach.settings.contribution-criteria.button.save": [
     {
       "type": 0,
-      "value": "Save"
+      "value": "儲存"
     }
   ],
   "ui-inn-reach.settings.contribution-criteria.callout.connectionProblem.post": [
     {
       "type": 0,
-      "value": "Unable to create data due to a module error. Please try again. If a problem persists please contact your system administrator"
+      "value": "由於模組錯誤，無法建立資料。請再試一次。如果問題仍然存在，請聯絡系統管理員"
     }
   ],
   "ui-inn-reach.settings.contribution-criteria.callout.connectionProblem.put": [
     {
       "type": 0,
-      "value": "Unable to updated data due to a module error. Please try again. If a problem persists please contact your system administrator"
+      "value": "由於模組錯誤，無法更新資料。請再試一次。如果問題仍然存在，請聯絡系統管理員"
     }
   ],
   "ui-inn-reach.settings.contribution-criteria.create.success": [
     {
       "type": 0,
-      "value": "Contribution Criteria settings created successfully"
+      "value": "貢獻標準設定創建成功"
     }
   ],
   "ui-inn-reach.settings.contribution-criteria.field.contributeAsSystemOwned": [
     {
       "type": 0,
-      "value": "FOLIO statistical code for INN-Reach system owned resource indication"
+      "value": "INN-Reach 系統擁有資源指示的 FOLIO 統計代碼"
     }
   ],
   "ui-inn-reach.settings.contribution-criteria.field.contributeButSuppress": [
     {
       "type": 0,
-      "value": "FOLIO statistical code to contribute but suppress from central discovery"
+      "value": "在貢獻中但排除中央發現的FOLIO統計代碼"
     }
   ],
   "ui-inn-reach.settings.contribution-criteria.field.doNotContribute": [
     {
       "type": 0,
-      "value": "FOLIO statistical code to exclude from contribution"
+      "value": "在貢獻中排除的FOLIO統計代碼"
     }
   ],
   "ui-inn-reach.settings.contribution-criteria.field.locations": [
     {
       "type": 0,
-      "value": "FOLIO locations to exclude from contribution"
+      "value": "從貢獻中排除的 FOLIO 位置"
     }
   ],
   "ui-inn-reach.settings.contribution-criteria.title": [
     {
       "type": 0,
-      "value": "Contribution criteria"
+      "value": "貢獻標準"
     }
   ],
   "ui-inn-reach.settings.contribution-criteria.update.success": [
     {
       "type": 0,
-      "value": "Contribution Criteria settings updated successfully"
+      "value": "貢獻標準設定更新成功"
     }
   ],
   "ui-inn-reach.settings.contribution-options": [
     {
       "type": 0,
-      "value": "Circulation status mapping"
+      "value": "流通狀態對應"
     }
   ],
   "ui-inn-reach.settings.contribution-options.button.save": [
     {
       "type": 0,
-      "value": "Save"
+      "value": "儲存"
     }
   ],
   "ui-inn-reach.settings.contribution-options.callout.connectionProblem.post": [
     {
       "type": 0,
-      "value": "Unable to create data due to a module error. Please try again. If a problem persists please contact your system administrator"
+      "value": "由於模組錯誤，無法建立資料。請再試一次。如果問題仍然存在，請聯絡系統管理員"
     }
   ],
   "ui-inn-reach.settings.contribution-options.callout.connectionProblem.put": [
     {
       "type": 0,
-      "value": "Unable to updated data due to a module error. Please try again. If a problem persists please contact your system administrator"
+      "value": "由於模組錯誤，無法更新資料。請再試一次。如果問題仍然存在，請聯絡系統管理員"
     }
   ],
   "ui-inn-reach.settings.contribution-options.create.success": [
     {
       "type": 0,
-      "value": "Circulation status mapping settings created successfully"
+      "value": "流通狀態對應設定建立成功"
     }
   ],
   "ui-inn-reach.settings.contribution-options.field.loanTypes": [
     {
       "type": 0,
-      "value": "Non-lendable loan types"
+      "value": "不可借出的借閱類型"
     }
   ],
   "ui-inn-reach.settings.contribution-options.field.locations": [
     {
       "type": 0,
-      "value": "Non-lendable locations"
+      "value": "不可出借的館藏地"
     }
   ],
   "ui-inn-reach.settings.contribution-options.field.materialTypes": [
     {
       "type": 0,
-      "value": "Non-lendable material types"
+      "value": "不可借出的資料類型"
     }
   ],
   "ui-inn-reach.settings.contribution-options.field.statuses": [
     {
       "type": 0,
-      "value": "Unavailable statuses"
+      "value": "不可用狀態"
     }
   ],
   "ui-inn-reach.settings.contribution-options.status.awaiting-delivery": [
     {
       "type": 0,
-      "value": "Awaiting delivery"
+      "value": "等待傳遞"
     }
   ],
   "ui-inn-reach.settings.contribution-options.status.claimed-returned": [
     {
       "type": 0,
-      "value": "Claimed returned"
+      "value": "宣稱已歸還"
     }
   ],
   "ui-inn-reach.settings.contribution-options.status.in-process": [
     {
       "type": 0,
-      "value": "In process"
+      "value": "處理中"
     }
   ],
   "ui-inn-reach.settings.contribution-options.status.in-process-non-requestable": [
     {
       "type": 0,
-      "value": "In process (non-requestable)"
+      "value": "處理中（不可預約）"
     }
   ],
   "ui-inn-reach.settings.contribution-options.status.intellectual-item": [
     {
       "type": 0,
-      "value": "Intellectual item"
+      "value": "虛擬館藏"
     }
   ],
   "ui-inn-reach.settings.contribution-options.status.long-missing": [
     {
       "type": 0,
-      "value": "Long missing"
+      "value": "長期遺失"
     }
   ],
   "ui-inn-reach.settings.contribution-options.status.lost-and-paid": [
     {
       "type": 0,
-      "value": "Lost and paid"
+      "value": "遺失已賠償"
     }
   ],
   "ui-inn-reach.settings.contribution-options.status.missing": [
     {
       "type": 0,
-      "value": "Missing"
+      "value": "遺失"
     }
   ],
   "ui-inn-reach.settings.contribution-options.status.on-order": [
     {
       "type": 0,
-      "value": "On order"
+      "value": "訂購中"
     }
   ],
   "ui-inn-reach.settings.contribution-options.status.order-closed": [
     {
       "type": 0,
-      "value": "Order closed"
+      "value": "訂單已關閉"
     }
   ],
   "ui-inn-reach.settings.contribution-options.status.restricted": [
     {
       "type": 0,
-      "value": "Restricted"
+      "value": "使用限制"
     }
   ],
   "ui-inn-reach.settings.contribution-options.status.unavailable": [
     {
       "type": 0,
-      "value": "Unavailable"
+      "value": "不可用"
     }
   ],
   "ui-inn-reach.settings.contribution-options.status.unknown": [
     {
       "type": 0,
-      "value": "Unknown"
+      "value": "未知"
     }
   ],
   "ui-inn-reach.settings.contribution-options.title": [
     {
       "type": 0,
-      "value": "Circulation status mapping"
+      "value": "流通狀態對應"
     }
   ],
   "ui-inn-reach.settings.contribution-options.update.success": [
     {
       "type": 0,
-      "value": "Circulation status mapping settings updated successfully"
+      "value": "流通狀態對應設定更新成功"
     }
   ],
   "ui-inn-reach.settings.field.centralServer": [
     {
       "type": 0,
-      "value": "Central server"
+      "value": "中央伺服器"
     }
   ],
   "ui-inn-reach.settings.folio-circulation-user": [
     {
       "type": 0,
-      "value": "FOLIO circulation user for INN-Reach patron type"
+      "value": "INN-Reach 讀者類型的 FOLIO 流通使用者"
     }
   ],
   "ui-inn-reach.settings.folio-circulation-user.button.save": [
     {
       "type": 0,
-      "value": "Save"
+      "value": "儲存"
     }
   ],
   "ui-inn-reach.settings.folio-circulation-user.callout.connectionProblem.post": [
     {
       "type": 0,
-      "value": "Unable to create data due to a module error. Please try again. If a problem persists please contact your system administrator"
+      "value": "由於模組錯誤，無法建立資料。請再試一次。如果問題仍然存在，請聯絡系統管理員"
     }
   ],
   "ui-inn-reach.settings.folio-circulation-user.callout.connectionProblem.put": [
     {
       "type": 0,
-      "value": "Unable to updated data due to a module error. Please try again. If a problem persists please contact your system administrator"
+      "value": "由於模組錯誤，無法更新資料。請再試一次。如果問題仍然存在，請聯絡系統管理員"
     }
   ],
   "ui-inn-reach.settings.folio-circulation-user.create.success": [
     {
       "type": 0,
-      "value": "Central patron type settings created successfully"
+      "value": "中心讀者類型設定建立成功"
     }
   ],
   "ui-inn-reach.settings.folio-circulation-user.field.barcode": [
     {
       "type": 0,
-      "value": "User barcode representing patron type"
+      "value": "代表讀者類型的使用者條碼"
     }
   ],
   "ui-inn-reach.settings.folio-circulation-user.field.central-server": [
@@ -69399,7 +69391,7 @@
   "ui-inn-reach.settings.folio-circulation-user.field.patron-type": [
     {
       "type": 0,
-      "value": "INN-Reach central patron type"
+      "value": "INN-Reach 中心讀者類型"
     }
   ],
   "ui-inn-reach.settings.folio-circulation-user.placeholder.central-server": [
@@ -69411,91 +69403,91 @@
   "ui-inn-reach.settings.folio-circulation-user.title": [
     {
       "type": 0,
-      "value": "FOLIO circulation user for INN-Reach patron type"
+      "value": "INN-Reach 讀者類型的 FOLIO 流通使用者"
     }
   ],
   "ui-inn-reach.settings.folio-circulation-user.update.success": [
     {
       "type": 0,
-      "value": "Central patron type settings updated successfully"
+      "value": "中心讀者類型設定更新成功"
     }
   ],
   "ui-inn-reach.settings.folio-to-inn-reach-locations": [
     {
       "type": 0,
-      "value": "FOLIO to INN-Reach locations"
+      "value": "FOLIO 到 INN-Reach 館藏地"
     }
   ],
   "ui-inn-reach.settings.folio-to-inn-reach-locations.button.save": [
     {
       "type": 0,
-      "value": "Save"
+      "value": "儲存"
     }
   ],
   "ui-inn-reach.settings.folio-to-inn-reach-locations.create-edit.connectionProblem.post": [
     {
       "type": 0,
-      "value": "Unable to create data due to a module error. Please try again. If a problem persists please contact your system administrator"
+      "value": "由於模組錯誤，無法建立資料。請再試一次。如果問題仍然存在，請聯絡系統管理員"
     }
   ],
   "ui-inn-reach.settings.folio-to-inn-reach-locations.create-edit.connectionProblem.put": [
     {
       "type": 0,
-      "value": "Unable to updated data due to a module error. Please try again. If a problem persists please contact your system administrator"
+      "value": "由於模組錯誤，無法更新資料。請再試一次。如果問題仍然存在，請聯絡系統管理員"
     }
   ],
   "ui-inn-reach.settings.folio-to-inn-reach-locations.create-edit.create.success": [
     {
       "type": 0,
-      "value": "FOLIO to INN-Reach locations settings created successfully"
+      "value": "FOLIO 到 INN-Reach 館藏地設定建立成功"
     }
   ],
   "ui-inn-reach.settings.folio-to-inn-reach-locations.create-edit.update.success": [
     {
       "type": 0,
-      "value": "FOLIO to INN-Reach locations settings updated successfully"
+      "value": "FOLIO 到 INN-Reach 館藏地設定更新成功"
     }
   ],
   "ui-inn-reach.settings.folio-to-inn-reach-locations.field-value.libraries": [
     {
       "type": 0,
-      "value": "Libraries"
+      "value": "圖書館"
     }
   ],
   "ui-inn-reach.settings.folio-to-inn-reach-locations.field-value.locations": [
     {
       "type": 0,
-      "value": "Locations"
+      "value": "位置"
     }
   ],
   "ui-inn-reach.settings.folio-to-inn-reach-locations.field.inn-reach-locations": [
     {
       "type": 0,
-      "value": "INN-Reach locations"
+      "value": "INN-Reach館藏地"
     }
   ],
   "ui-inn-reach.settings.folio-to-inn-reach-locations.field.libraries": [
     {
       "type": 0,
-      "value": "Libraries"
+      "value": "圖書館"
     }
   ],
   "ui-inn-reach.settings.folio-to-inn-reach-locations.field.library": [
     {
       "type": 0,
-      "value": "Library"
+      "value": "圖書館"
     }
   ],
   "ui-inn-reach.settings.folio-to-inn-reach-locations.field.locations": [
     {
       "type": 0,
-      "value": "Locations"
+      "value": "位置"
     }
   ],
   "ui-inn-reach.settings.folio-to-inn-reach-locations.field.mapping-type": [
     {
       "type": 0,
-      "value": "Mapping type"
+      "value": "對應類型"
     }
   ],
   "ui-inn-reach.settings.folio-to-inn-reach-locations.list-title.local-agency-code": [
@@ -69507,25 +69499,25 @@
   "ui-inn-reach.settings.folio-to-inn-reach-locations.placeholder.select-library": [
     {
       "type": 0,
-      "value": "Select library"
+      "value": "選擇圖書館"
     }
   ],
   "ui-inn-reach.settings.folio-to-inn-reach-locations.placeholder.select-location": [
     {
       "type": 0,
-      "value": "Select location"
+      "value": "選擇位置"
     }
   ],
   "ui-inn-reach.settings.folio-to-inn-reach-locations.placeholder.select-type-to-map": [
     {
       "type": 0,
-      "value": "Select type to map"
+      "value": "選擇要對應的類型"
     }
   ],
   "ui-inn-reach.settings.folio-to-inn-reach-locations.title": [
     {
       "type": 0,
-      "value": "FOLIO to INN-Reach locations"
+      "value": "FOLIO 到 INN-Reach 館藏地"
     }
   ],
   "ui-inn-reach.settings.general": [
@@ -69537,391 +69529,391 @@
   "ui-inn-reach.settings.inn-reach-recall-user": [
     {
       "type": 0,
-      "value": "INN-Reach recall user"
+      "value": "INN-Reach 催還使用者"
     }
   ],
   "ui-inn-reach.settings.inn-reach-recall-user.button.save": [
     {
       "type": 0,
-      "value": "Save"
+      "value": "儲存"
     }
   ],
   "ui-inn-reach.settings.inn-reach-recall-user.callout.connectionProblem.create": [
     {
       "type": 0,
-      "value": "Unable to create data due to a module error. Please try again. If a problem persists please contact your system administrator"
+      "value": "由於模組錯誤，無法建立資料。請再試一次。如果問題仍然存在，請聯絡系統管理員"
     }
   ],
   "ui-inn-reach.settings.inn-reach-recall-user.callout.connectionProblem.update": [
     {
       "type": 0,
-      "value": "Unable to updated data due to a module error. Please try again. If a problem persists please contact your system administrator"
+      "value": "由於模組錯誤，無法更新資料。請再試一次。如果問題仍然存在，請聯絡系統管理員"
     }
   ],
   "ui-inn-reach.settings.inn-reach-recall-user.create.success": [
     {
       "type": 0,
-      "value": "INN-Reach recall user settings created successfully"
+      "value": "INN-Reach 催還使用者設定建立成功"
     }
   ],
   "ui-inn-reach.settings.inn-reach-recall-user.field.recall-inn-reach-items-as-user": [
     {
       "type": 0,
-      "value": "Recall INN-Reach items as user"
+      "value": "以使用者身分催還 INN-Reach 館藏"
     }
   ],
   "ui-inn-reach.settings.inn-reach-recall-user.title": [
     {
       "type": 0,
-      "value": "INN-Reach recall user settings"
+      "value": "INN-Reach 催還使用者設定"
     }
   ],
   "ui-inn-reach.settings.inn-reach-recall-user.update.success": [
     {
       "type": 0,
-      "value": "INN-Reach recall user settings updated successfully"
+      "value": "INN-Reach 催還使用者設定更新成功"
     }
   ],
   "ui-inn-reach.settings.innreach-locations.actions": [
     {
       "type": 0,
-      "value": "Actions"
+      "value": "操作"
     }
   ],
   "ui-inn-reach.settings.innreach-locations.description": [
     {
       "type": 0,
-      "value": "Description"
+      "value": "描述"
     }
   ],
   "ui-inn-reach.settings.innreach-locations.last-updated": [
     {
       "type": 0,
-      "value": "Last updated"
+      "value": "上次更新"
     }
   ],
   "ui-inn-reach.settings.innreach-locations.location-code": [
     {
       "type": 0,
-      "value": "Location code"
+      "value": "館藏地代碼"
     }
   ],
   "ui-inn-reach.settings.innreach-locations.locations": [
     {
       "type": 0,
-      "value": "Loc"
+      "value": "位置"
     }
   ],
   "ui-inn-reach.settings.innreach.locations": [
     {
       "type": 0,
-      "value": "館藏地位置"
+      "value": "INN-Reach館藏地"
     }
   ],
   "ui-inn-reach.settings.manage-contribution": [
     {
       "type": 0,
-      "value": "Manage contribution"
+      "value": "管理貢獻"
     }
   ],
   "ui-inn-reach.settings.manage-contribution.button.cancel-contribution": [
     {
       "type": 0,
-      "value": "Cancel contribution"
+      "value": "取消貢獻"
     }
   ],
   "ui-inn-reach.settings.manage-contribution.button.initiate-contribution": [
     {
       "type": 0,
-      "value": "Initiate contribution"
+      "value": "發起貢獻"
     }
   ],
   "ui-inn-reach.settings.manage-contribution.button.pause-contribution": [
     {
       "type": 0,
-      "value": "Pause"
+      "value": "暫停"
     }
   ],
   "ui-inn-reach.settings.manage-contribution.cancel.failed": [
     {
       "type": 0,
-      "value": "Cancel contribution failed"
+      "value": "取消貢獻失敗"
     }
   ],
   "ui-inn-reach.settings.manage-contribution.cancel.success": [
     {
       "type": 0,
-      "value": "Contribution canceled successfully"
+      "value": "取消貢獻成功"
     }
   ],
   "ui-inn-reach.settings.manage-contribution.contribution-status.cancelled": [
     {
       "type": 0,
-      "value": "Cancelled"
+      "value": "已取消"
     }
   ],
   "ui-inn-reach.settings.manage-contribution.contribution-status.complete": [
     {
       "type": 0,
-      "value": "Complete"
+      "value": "已完成"
     }
   ],
   "ui-inn-reach.settings.manage-contribution.contribution-status.in-progress": [
     {
       "type": 0,
-      "value": "In progress"
+      "value": "處理中"
     }
   ],
   "ui-inn-reach.settings.manage-contribution.contribution-status.not-started": [
     {
       "type": 0,
-      "value": "Not started"
+      "value": "尚未開始"
     }
   ],
   "ui-inn-reach.settings.manage-contribution.contribution-status.paused": [
     {
       "type": 0,
-      "value": "Paused"
+      "value": "已暫停"
     }
   ],
   "ui-inn-reach.settings.manage-contribution.current.refresh": [
     {
       "type": 0,
-      "value": "Refresh"
+      "value": "重新整理"
     }
   ],
   "ui-inn-reach.settings.manage-contribution.history.field.contributed": [
     {
       "type": 0,
-      "value": "Contributed"
+      "value": "已貢獻"
     }
   ],
   "ui-inn-reach.settings.manage-contribution.history.field.date": [
     {
       "type": 0,
-      "value": "Date"
+      "value": "日期"
     }
   ],
   "ui-inn-reach.settings.manage-contribution.history.field.decontributed": [
     {
       "type": 0,
-      "value": "De-contributed"
+      "value": "取消貢獻"
     }
   ],
   "ui-inn-reach.settings.manage-contribution.history.field.error": [
     {
       "type": 0,
-      "value": "Error"
+      "value": "錯誤"
     }
   ],
   "ui-inn-reach.settings.manage-contribution.history.field.evaluated": [
     {
       "type": 0,
-      "value": "Records evaluated"
+      "value": "已評估記錄"
     }
   ],
   "ui-inn-reach.settings.manage-contribution.history.field.status": [
     {
       "type": 0,
-      "value": "Status"
+      "value": "狀態"
     }
   ],
   "ui-inn-reach.settings.manage-contribution.history.field.total": [
     {
       "type": 0,
-      "value": "Total FOLIO instance records"
+      "value": "FOLIO 實例記錄總數"
     }
   ],
   "ui-inn-reach.settings.manage-contribution.history.field.updated": [
     {
       "type": 0,
-      "value": "Updated"
+      "value": "已更新"
     }
   ],
   "ui-inn-reach.settings.manage-contribution.history.list.no.history": [
     {
       "type": 0,
-      "value": "No contribution history records"
+      "value": "無貢獻歷史記錄"
     }
   ],
   "ui-inn-reach.settings.manage-contribution.initaiate.failed": [
     {
       "type": 0,
-      "value": "Initiate contribution failed"
+      "value": "發起貢獻失敗"
     }
   ],
   "ui-inn-reach.settings.manage-contribution.initaiate.success": [
     {
       "type": 0,
-      "value": "Contribution successfully initiated"
+      "value": "貢獻成功發起"
     }
   ],
   "ui-inn-reach.settings.manage-contribution.item-mapping-type-status.invalid": [
     {
       "type": 0,
-      "value": "Invalid"
+      "value": "無效"
     }
   ],
   "ui-inn-reach.settings.manage-contribution.item-mapping-type-status.valid": [
     {
       "type": 0,
-      "value": "Valid"
+      "value": "有效"
     }
   ],
   "ui-inn-reach.settings.manage-contribution.label.contributed": [
     {
       "type": 0,
-      "value": "Contributed"
+      "value": "已貢獻"
     }
   ],
   "ui-inn-reach.settings.manage-contribution.label.contribution-cancelled": [
     {
       "type": 0,
-      "value": "Contribution cancelled"
+      "value": "貢獻已取消"
     }
   ],
   "ui-inn-reach.settings.manage-contribution.label.contribution-cancelled-by": [
     {
       "type": 0,
-      "value": "Cancelled by"
+      "value": "取消者"
     }
   ],
   "ui-inn-reach.settings.manage-contribution.label.contribution-complete": [
     {
       "type": 0,
-      "value": "Contribution complete"
+      "value": "貢獻完成"
     }
   ],
   "ui-inn-reach.settings.manage-contribution.label.contribution-paused": [
     {
       "type": 0,
-      "value": "Contribution paused"
+      "value": "貢獻已暫停"
     }
   ],
   "ui-inn-reach.settings.manage-contribution.label.contribution-paused-by": [
     {
       "type": 0,
-      "value": "Paused by"
+      "value": "暫停者"
     }
   ],
   "ui-inn-reach.settings.manage-contribution.label.contribution-resumed": [
     {
       "type": 0,
-      "value": "Contribution resumed"
+      "value": "貢獻已復原"
     }
   ],
   "ui-inn-reach.settings.manage-contribution.label.contribution-resumed-by": [
     {
       "type": 0,
-      "value": "Resumed by"
+      "value": "復原者"
     }
   ],
   "ui-inn-reach.settings.manage-contribution.label.contribution-started": [
     {
       "type": 0,
-      "value": "Contribution started"
+      "value": "貢獻開始"
     }
   ],
   "ui-inn-reach.settings.manage-contribution.label.contribution-started-by": [
     {
       "type": 0,
-      "value": "Started by"
+      "value": "開始人"
     }
   ],
   "ui-inn-reach.settings.manage-contribution.label.decontributed": [
     {
       "type": 0,
-      "value": "De-contributed"
+      "value": "取消貢獻"
     }
   ],
   "ui-inn-reach.settings.manage-contribution.label.error": [
     {
       "type": 0,
-      "value": "Error"
+      "value": "錯誤"
     }
   ],
   "ui-inn-reach.settings.manage-contribution.label.locations-mapping-status": [
     {
       "type": 0,
-      "value": "FOLIO to INN-Reach locations"
+      "value": "FOLIO 到 INN-Reach 館藏地"
     }
   ],
   "ui-inn-reach.settings.manage-contribution.label.matrial-mapping-status": [
     {
       "type": 0,
-      "value": "Material to item type mapping"
+      "value": "資料到單件類型對應"
     }
   ],
   "ui-inn-reach.settings.manage-contribution.label.records-evaluated": [
     {
       "type": 0,
-      "value": "Records evaluated"
+      "value": "已評估記錄"
     }
   ],
   "ui-inn-reach.settings.manage-contribution.label.status": [
     {
       "type": 0,
-      "value": "Initial contribution status"
+      "value": "初始貢獻狀態"
     }
   ],
   "ui-inn-reach.settings.manage-contribution.label.total": [
     {
       "type": 0,
-      "value": "Total FOLIO instance records"
+      "value": "FOLIO 實例記錄總數"
     }
   ],
   "ui-inn-reach.settings.manage-contribution.label.updated": [
     {
       "type": 0,
-      "value": "Updated"
+      "value": "已更新"
     }
   ],
   "ui-inn-reach.settings.manage-contribution.location-mapping-status.invalid": [
     {
       "type": 0,
-      "value": "Invalid"
+      "value": "無效"
     }
   ],
   "ui-inn-reach.settings.manage-contribution.location-mapping-status.valid": [
     {
       "type": 0,
-      "value": "Valid"
+      "value": "有效"
     }
   ],
   "ui-inn-reach.settings.manage-contribution.navigation.current": [
     {
       "type": 0,
-      "value": "Current contribution"
+      "value": "目前貢獻"
     }
   ],
   "ui-inn-reach.settings.manage-contribution.navigation.history": [
     {
       "type": 0,
-      "value": "Contribution history"
+      "value": "貢獻歷史"
     }
   ],
   "ui-inn-reach.settings.manage-contribution.tab.current": [
     {
       "type": 0,
-      "value": "Current contribution"
+      "value": "目前貢獻"
     }
   ],
   "ui-inn-reach.settings.manage-contribution.tab.history": [
     {
       "type": 0,
-      "value": "Contribution history"
+      "value": "貢獻歷史"
     }
   ],
   "ui-inn-reach.settings.manage-contribution.title": [
     {
       "type": 0,
-      "value": "Manage contribution"
+      "value": "管理貢獻"
     }
   ],
   "ui-inn-reach.settings.manage-contribution.tooltip.check-mappings": [
     {
       "type": 0,
-      "value": "Valid mappings are required to initiate contribution"
+      "value": "需要有效的對應才能發起貢獻"
     }
   ],
   "ui-inn-reach.settings.manage-contribution.updatedDatePattern": [
@@ -69941,445 +69933,445 @@
   "ui-inn-reach.settings.material-type-mapping": [
     {
       "type": 0,
-      "value": "Material to item type mappings"
+      "value": "資料到單件類型對應"
     }
   ],
   "ui-inn-reach.settings.material-type-mapping.callout.connectionProblem.put": [
     {
       "type": 0,
-      "value": "Unable to updated data due to a module error. Please try again. If a problem persists please contact your system administrator"
+      "value": "由於模組錯誤，無法更新資料。請再試一次。如果問題仍然存在，請聯絡系統管理員"
     }
   ],
   "ui-inn-reach.settings.material-type-mapping.field.folio-material-types": [
     {
       "type": 0,
-      "value": "FOLIO material types"
+      "value": "FOLIO資料類型"
     }
   ],
   "ui-inn-reach.settings.material-type-mapping.field.item-type": [
     {
       "type": 0,
-      "value": "Item type (Description)"
+      "value": "館藏類型（描述）"
     }
   ],
   "ui-inn-reach.settings.material-type-mapping.title": [
     {
       "type": 0,
-      "value": "Material to item type mapping"
+      "value": "資料到單件類型對應"
     }
   ],
   "ui-inn-reach.settings.material-type-mapping.update.success": [
     {
       "type": 0,
-      "value": "Material type mappings updated successfully"
+      "value": "資料類型對應更新成功"
     }
   ],
   "ui-inn-reach.settings.paging-slip-template": [
     {
       "type": 0,
-      "value": "INN-Reach paging slip templates"
+      "value": "INN-Reach呼叫單範本"
     }
   ],
   "ui-inn-reach.settings.paging-slip-template.button.save": [
     {
       "type": 0,
-      "value": "Save"
+      "value": "儲存"
     }
   ],
   "ui-inn-reach.settings.paging-slip-template.callout.connectionProblem.create": [
     {
       "type": 0,
-      "value": "Unable to create data due to a module error. Please try again. If a problem persists please contact your system administrator"
+      "value": "模組錯誤導致無法取得資料。請再試一次，如果問題依舊請聯繫您的系統管理員。"
     }
   ],
   "ui-inn-reach.settings.paging-slip-template.callout.connectionProblem.update": [
     {
       "type": 0,
-      "value": "Unable to updated data due to a module error. Please try again. If a problem persists please contact your system administrator"
+      "value": "由於模組錯誤，無法更新資料。請再試一次。如果問題仍然存在，請聯絡系統管理員"
     }
   ],
   "ui-inn-reach.settings.paging-slip-template.create.success": [
     {
       "type": 0,
-      "value": "INN-Reach paging slip template settings created successfully"
+      "value": "INN-Reach呼叫單範本設定建立成功"
     }
   ],
   "ui-inn-reach.settings.paging-slip-template.field.description": [
     {
       "type": 0,
-      "value": "Description"
+      "value": "描述"
     }
   ],
   "ui-inn-reach.settings.paging-slip-template.field.display": [
     {
       "type": 0,
-      "value": "Display"
+      "value": "顯示"
     }
   ],
   "ui-inn-reach.settings.paging-slip-template.preview-modal-header": [
     {
       "type": 0,
-      "value": "Preview of INN-Reach Paging Slip"
+      "value": "INN-Reach呼叫單範本預覽"
     }
   ],
   "ui-inn-reach.settings.paging-slip-template.title": [
     {
       "type": 0,
-      "value": "INN-Reach paging slip templates"
+      "value": "INN-Reach呼叫單範本"
     }
   ],
   "ui-inn-reach.settings.paging-slip-template.token-header.effective-location": [
     {
       "type": 0,
-      "value": "Effective location"
+      "value": "有效館藏地"
     }
   ],
   "ui-inn-reach.settings.paging-slip-template.token-header.inn-reach-agency": [
     {
       "type": 0,
-      "value": "INN-Reach agency"
+      "value": "INN-Reach 機構"
     }
   ],
   "ui-inn-reach.settings.paging-slip-template.token-header.inn-reach-patron": [
     {
       "type": 0,
-      "value": "INN-Reach patron"
+      "value": "INN-Reach 讀者"
     }
   ],
   "ui-inn-reach.settings.paging-slip-template.token-header.inn-reach-pickup-location": [
     {
       "type": 0,
-      "value": "INN-Reach pickup location"
+      "value": "INN-Reach 取件地"
     }
   ],
   "ui-inn-reach.settings.paging-slip-template.token-header.inn-reach-server": [
     {
       "type": 0,
-      "value": "INN-Reach server"
+      "value": "INN-Reach 伺服器"
     }
   ],
   "ui-inn-reach.settings.paging-slip-template.token-header.item": [
     {
       "type": 0,
-      "value": "Item"
+      "value": "館藏"
     }
   ],
   "ui-inn-reach.settings.paging-slip-template.token-header.staff-slip": [
     {
       "type": 0,
-      "value": "Staff slip"
+      "value": "館員單"
     }
   ],
   "ui-inn-reach.settings.paging-slip-template.update.success": [
     {
       "type": 0,
-      "value": "INN-Reach paging slip template settings updated successfully"
+      "value": "INN-Reach呼叫單範本設定更新成功"
     }
   ],
   "ui-inn-reach.settings.patron-agency": [
     {
       "type": 0,
-      "value": "Patron agency"
+      "value": "讀者機構"
     }
   ],
   "ui-inn-reach.settings.patron-agency.button.save": [
     {
       "type": 0,
-      "value": "Save"
+      "value": "儲存"
     }
   ],
   "ui-inn-reach.settings.patron-agency.callout.connectionProblem.create": [
     {
       "type": 0,
-      "value": "Unable to create data due to a module error. Please try again. If a problem persists please contact your system administrator"
+      "value": "由於模組錯誤，無法建立資料。請再試一次。如果問題仍然存在，請聯絡系統管理員"
     }
   ],
   "ui-inn-reach.settings.patron-agency.callout.connectionProblem.update": [
     {
       "type": 0,
-      "value": "Unable to updated data due to a module error. Please try again. If a problem persists please contact your system administrator"
+      "value": "由於模組錯誤，無法更新資料。請再試一次。如果問題仍然存在，請聯絡系統管理員"
     }
   ],
   "ui-inn-reach.settings.patron-agency.create.success": [
     {
       "type": 0,
-      "value": "Patron agency settings created successfully"
+      "value": "讀者機構設定建立成功"
     }
   ],
   "ui-inn-reach.settings.patron-agency.field.agency-code": [
     {
       "type": 0,
-      "value": "Agency code"
+      "value": "機構代碼"
     }
   ],
   "ui-inn-reach.settings.patron-agency.field.custom-field": [
     {
       "type": 0,
-      "value": "Custom field"
+      "value": "自訂欄位"
     }
   ],
   "ui-inn-reach.settings.patron-agency.field.custom-field-value": [
     {
       "type": 0,
-      "value": "Custom field value"
+      "value": "自訂欄位值"
     }
   ],
   "ui-inn-reach.settings.patron-agency.placeholder.agency-code": [
     {
       "type": 0,
-      "value": "Select agency code"
+      "value": "選擇機構代碼"
     }
   ],
   "ui-inn-reach.settings.patron-agency.title": [
     {
       "type": 0,
-      "value": "Patron agency"
+      "value": "讀者機構"
     }
   ],
   "ui-inn-reach.settings.patron-agency.update.success": [
     {
       "type": 0,
-      "value": "Patron agency settings updated successfully"
+      "value": "讀者機構設定更新成功"
     }
   ],
   "ui-inn-reach.settings.pickup-locations": [
     {
       "type": 0,
-      "value": "Pickup locations"
+      "value": "取書館藏地"
     }
   ],
   "ui-inn-reach.settings.pickup-locations.button.save": [
     {
       "type": 0,
-      "value": "Save"
+      "value": "儲存"
     }
   ],
   "ui-inn-reach.settings.pickup-locations.callout.connectionProblem.update": [
     {
       "type": 0,
-      "value": "Unable to updated data due to a module error. Please try again. If a problem persists please contact your system administrator"
+      "value": "由於模組錯誤，無法更新資料。請再試一次。如果問題仍然存在，請聯絡系統管理員"
     }
   ],
   "ui-inn-reach.settings.pickup-locations.field.enable-local-pickup-locations": [
     {
       "type": 0,
-      "value": "Enable local pickup locations for item holds"
+      "value": "為預約館藏啟用取書館藏地"
     }
   ],
   "ui-inn-reach.settings.pickup-locations.title": [
     {
       "type": 0,
-      "value": "Pickup locations"
+      "value": "取書館藏地"
     }
   ],
   "ui-inn-reach.settings.pickup-locations.update.success": [
     {
       "type": 0,
-      "value": "Local pickup locations updated successfully"
+      "value": "取書館藏地更新成功"
     }
   ],
   "ui-inn-reach.settings.placeholder.centralServer": [
     {
       "type": 0,
-      "value": "Select central server"
+      "value": "選擇中央伺服器"
     }
   ],
   "ui-inn-reach.settings.record-contribution": [
     {
       "type": 0,
-      "value": "Record contribution"
+      "value": "紀錄貢獻"
     }
   ],
   "ui-inn-reach.settings.some-feature.message": [
     {
       "type": 0,
-      "value": "These are your settings for some app feature."
+      "value": "這些是您對某些應用程式功能的設定。"
     }
   ],
   "ui-inn-reach.settings.title": [
     {
       "type": 0,
-      "value": "館藏地"
+      "value": "INN-Reach"
     }
   ],
   "ui-inn-reach.settings.visible-patron-id": [
     {
       "type": 0,
-      "value": "Visible patron ID"
+      "value": "可見讀者 ID"
     }
   ],
   "ui-inn-reach.settings.visible-patron-id.button.save": [
     {
       "type": 0,
-      "value": "Save"
+      "value": "儲存"
     }
   ],
   "ui-inn-reach.settings.visible-patron-id.callout.connectionProblem.create": [
     {
       "type": 0,
-      "value": "Unable to create data due to a module error. Please try again. If a problem persists please contact your system administrator"
+      "value": "模組錯誤導致無法取得資料。請再試一次，如果問題依舊請聯繫您的系統管理員。"
     }
   ],
   "ui-inn-reach.settings.visible-patron-id.callout.connectionProblem.update": [
     {
       "type": 0,
-      "value": "Unable to updated data due to a module error. Please try again. If a problem persists please contact your system administrator"
+      "value": "由於模組錯誤，無法更新資料。請再試一次。如果問題仍然存在，請聯絡系統管理員"
     }
   ],
   "ui-inn-reach.settings.visible-patron-id.create.success": [
     {
       "type": 0,
-      "value": "Visible patron id settings created successfully"
+      "value": "可見讀者 ID 設定建立成功"
     }
   ],
   "ui-inn-reach.settings.visible-patron-id.field.BARCODE": [
     {
       "type": 0,
-      "value": "Barcode"
+      "value": "條碼"
     }
   ],
   "ui-inn-reach.settings.visible-patron-id.field.EXTERNAL_SYSTEM_ID": [
     {
       "type": 0,
-      "value": "External system ID"
+      "value": "外部系統 ID"
     }
   ],
   "ui-inn-reach.settings.visible-patron-id.field.FOLIO_RECORD_NUMBER": [
     {
       "type": 0,
-      "value": "FOLIO record number (UUID)"
+      "value": "FOLIO 記錄編號 (UUID)"
     }
   ],
   "ui-inn-reach.settings.visible-patron-id.field.USERNAME": [
     {
       "type": 0,
-      "value": "Username"
+      "value": "使用者名稱"
     }
   ],
   "ui-inn-reach.settings.visible-patron-id.field.user-custom-fields": [
     {
       "type": 0,
-      "value": "User custom fields"
+      "value": "使用者自訂欄位"
     }
   ],
   "ui-inn-reach.settings.visible-patron-id.label.select-user-fields": [
     {
       "type": 0,
-      "value": "Select user fields to match on for \"Visible Patron ID\""
+      "value": "選擇要符合「可見讀者 ID」的使用者欄位"
     }
   ],
   "ui-inn-reach.settings.visible-patron-id.no-valid-fields-are-defined": [
     {
       "type": 0,
-      "value": "No matching custom fields have been configured"
+      "value": "沒有相同的自定義欄位已被設定"
     }
   ],
   "ui-inn-reach.settings.visible-patron-id.placeholder.none": [
     {
       "type": 0,
-      "value": "None"
+      "value": "没有"
     }
   ],
   "ui-inn-reach.settings.visible-patron-id.title": [
     {
       "type": 0,
-      "value": "Visible patron ID"
+      "value": "可見讀者 ID"
     }
   ],
   "ui-inn-reach.settings.visible-patron-id.update.success": [
     {
       "type": 0,
-      "value": "Visible patron id settings updated successfully"
+      "value": "可見讀者 ID 設定更新成功"
     }
   ],
   "ui-inn-reach.settings.visible-patron-id.validate.select-to-continue": [
     {
       "type": 0,
-      "value": "Please select to continue"
+      "value": "請選擇以繼續"
     }
   ],
   "ui-inn-reach.shipped-items.action.print-hold-slip": [
     {
       "type": 0,
-      "value": "Print hold slip"
+      "value": "列印預約單"
     }
   ],
   "ui-inn-reach.shipped-items.action.print-inn-reach-barcode": [
     {
       "type": 0,
-      "value": "Print INN-Reach barcode"
+      "value": "列印 INN-Reach 條碼"
     }
   ],
   "ui-inn-reach.shipped-items.action.print-transit-slip": [
     {
       "type": 0,
-      "value": "Print transit slip"
+      "value": "列印傳送單"
     }
   ],
   "ui-inn-reach.shipped-items.actions-menu": [
     {
       "type": 0,
-      "value": "Item actions"
+      "value": "單件操作"
     }
   ],
   "ui-inn-reach.shipped-items.button.end-session": [
     {
       "type": 0,
-      "value": "End session"
+      "value": "結束工作階段"
     }
   ],
   "ui-inn-reach.shipped-items.button.enter": [
     {
       "type": 0,
-      "value": "Enter"
+      "value": "輸入"
     }
   ],
   "ui-inn-reach.shipped-items.callout.connection-problem.get.transactions": [
     {
       "type": 0,
-      "value": "Unable to get data due to a module error. Please try again. If a problem persists please contact your system administrator"
+      "value": "模組錯誤導致無法取得資料。請再試一次，如果問題依舊請聯繫您的系統管理員。"
     }
   ],
   "ui-inn-reach.shipped-items.callout.connection-problem.put.receive-shipped-item": [
     {
       "type": 0,
-      "value": "There was a problem receiving the item"
+      "value": "接收館藏出現問題"
     }
   ],
   "ui-inn-reach.shipped-items.column.actions": [
     {
       "type": 0,
-      "value": "Actions"
+      "value": "操作"
     }
   ],
   "ui-inn-reach.shipped-items.column.barcode": [
     {
       "type": 0,
-      "value": "Barcode"
+      "value": "條碼"
     }
   ],
   "ui-inn-reach.shipped-items.column.no": [
     {
       "type": 0,
-      "value": "No."
+      "value": "編號"
     }
   ],
   "ui-inn-reach.shipped-items.column.pickup-location": [
     {
       "type": 0,
-      "value": "Pickup location"
+      "value": "取書館藏地"
     }
   ],
   "ui-inn-reach.shipped-items.column.title": [
     {
       "type": 0,
-      "value": "Title"
+      "value": "題名"
     }
   ],
   "ui-inn-reach.shipped-items.field.print-barcode-slip": [
     {
       "type": 0,
-      "value": "Print barcode slip"
+      "value": "列印條碼單"
     }
   ],
   "ui-inn-reach.shipped-items.field.print-slip": [
@@ -70391,13 +70383,13 @@
   "ui-inn-reach.shipped-items.modal.barcode-augmented.heading": [
     {
       "type": 0,
-      "value": "The barcode for this item already exists in FOLIO"
+      "value": "該館藏的條碼已存在於 FOLIO 中"
     }
   ],
   "ui-inn-reach.shipped-items.modal.button.close": [
     {
       "type": 0,
-      "value": "Close"
+      "value": "關閉"
     }
   ],
   "ui-inn-reach.shipped-items.modal.hold.comment": [
@@ -70405,7 +70397,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Patron comments:"
+          "value": "讀者備註： "
         }
       ],
       "type": 8,
@@ -70423,23 +70415,27 @@
   "ui-inn-reach.shipped-items.modal.hold.heading": [
     {
       "type": 0,
-      "value": "Awaiting pickup for a request"
+      "value": "等待預約取件"
     }
   ],
   "ui-inn-reach.shipped-items.modal.hold.message": [
     {
       "type": 0,
-      "value": "Place "
+      "value": "將"
     },
     {
       "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
         {
           "type": 1,
           "value": "title"
         },
         {
           "type": 0,
-          "value": " ("
+          "value": " ( "
         },
         {
           "type": 1,
@@ -70447,7 +70443,7 @@
         },
         {
           "type": 0,
-          "value": ")"
+          "value": " ) "
         }
       ],
       "type": 8,
@@ -70455,7 +70451,7 @@
     },
     {
       "type": 0,
-      "value": " (Barcode: "
+      "value": " （條碼： "
     },
     {
       "type": 1,
@@ -70463,13 +70459,21 @@
     },
     {
       "type": 0,
-      "value": ") on Hold Shelf at "
+      "value": " ）放在"
     },
     {
       "children": [
         {
+          "type": 0,
+          "value": " "
+        },
+        {
           "type": 1,
           "value": "pickupServicePoint"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -70477,47 +70481,51 @@
     },
     {
       "type": 0,
-      "value": " for request."
+      "value": "處的預約架上。"
     }
   ],
   "ui-inn-reach.shipped-items.modal.message.barcode-augmented": [
     {
       "type": 0,
-      "value": "The agency code for this item has been appended to the barcode. You will need to use this updated barcode to perform circulation actions on this transaction"
+      "value": "該館藏的機構代碼已附加到條碼中。您將需要使用此更新的條碼來執行此交易的流通操作"
     }
   ],
   "ui-inn-reach.shipped-items.modal.message.no-transaction": [
     {
       "type": 0,
-      "value": "This item may not have been checked out by the owning site. Please locate the transaction for this item using the search \"INN-Reach transactions\" function on the landing page and perform a \"Receive unshipped item\" action."
+      "value": "該館藏可能尚未被所屬網站借出。請使用登入頁面上的搜尋「INN-Reach 交易」功能找到該館藏的交易，並執行「接收未出貨館藏」操作。"
     }
   ],
   "ui-inn-reach.shipped-items.modal.no-transaction.heading": [
     {
       "type": 0,
-      "value": "No matching INN-Reach transaction found for this item"
+      "value": "找不到與單件相符的 INN-Reach 交易"
     }
   ],
   "ui-inn-reach.shipped-items.modal.transit.heading": [
     {
       "type": 0,
-      "value": "In transit"
+      "value": "傳送中"
     }
   ],
   "ui-inn-reach.shipped-items.modal.transit.message": [
     {
       "type": 0,
-      "value": "Route "
+      "value": "將"
     },
     {
       "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
         {
           "type": 1,
           "value": "title"
         },
         {
           "type": 0,
-          "value": " ("
+          "value": " （ "
         },
         {
           "type": 1,
@@ -70525,7 +70533,7 @@
         },
         {
           "type": 0,
-          "value": ")"
+          "value": " ） "
         }
       ],
       "type": 8,
@@ -70533,7 +70541,7 @@
     },
     {
       "type": 0,
-      "value": " (Barcode: "
+      "value": " （條碼： "
     },
     {
       "type": 1,
@@ -70541,13 +70549,21 @@
     },
     {
       "type": 0,
-      "value": ") to "
+      "value": " ）傳送到"
     },
     {
       "children": [
         {
+          "type": 0,
+          "value": " "
+        },
+        {
           "type": 1,
           "value": "servicePoint"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -70555,97 +70571,97 @@
     },
     {
       "type": 0,
-      "value": "."
+      "value": " 。"
     }
   ],
   "ui-inn-reach.shipped-items.placeholder.scan-or-enter-item-barcode": [
     {
       "type": 0,
-      "value": "Scan or enter item barcode"
+      "value": "掃描或輸入館藏條碼"
     }
   ],
   "ui-inn-reach.shipped-items.title.receive-shipped-items": [
     {
       "type": 0,
-      "value": "Receive shipped items"
+      "value": "接收已出貨的館藏"
     }
   ],
   "ui-inn-reach.shipped-items.title.scan-items": [
     {
       "type": 0,
-      "value": "Scan items"
+      "value": "掃描館藏"
     }
   ],
   "ui-inn-reach.title.list.transactions": [
     {
       "type": 0,
-      "value": "INN-Reach transactions"
+      "value": "INN-Reach 交易"
     }
   ],
   "ui-inn-reach.transaction-detail.accordion.item": [
     {
       "type": 0,
-      "value": "Item information"
+      "value": "單件資訊"
     }
   ],
   "ui-inn-reach.transaction-detail.accordion.patron": [
     {
       "type": 0,
-      "value": "Patron information"
+      "value": "讀者資訊"
     }
   ],
   "ui-inn-reach.transaction-detail.accordion.transaction": [
     {
       "type": 0,
-      "value": "Transaction summary"
+      "value": "交易概要"
     }
   ],
   "ui-inn-reach.transaction-detail.field.author": [
     {
       "type": 0,
-      "value": "Author"
+      "value": "作者"
     }
   ],
   "ui-inn-reach.transaction-detail.field.callNo": [
     {
       "type": 0,
-      "value": "Call no."
+      "value": "索書號"
     }
   ],
   "ui-inn-reach.transaction-detail.field.centralItemType": [
     {
       "type": 0,
-      "value": "Central item type"
+      "value": "中心單件類型"
     }
   ],
   "ui-inn-reach.transaction-detail.field.itemAgency": [
     {
       "type": 0,
-      "value": "Item agency code"
+      "value": "單件機構代碼"
     }
   ],
   "ui-inn-reach.transaction-detail.field.itemId": [
     {
       "type": 0,
-      "value": "Item ID"
+      "value": "單件 ID"
     }
   ],
   "ui-inn-reach.transaction-detail.field.itemTitle": [
     {
       "type": 0,
-      "value": "Item title"
+      "value": "單件題名"
     }
   ],
   "ui-inn-reach.transaction-detail.field.label.loan": [
     {
       "type": 0,
-      "value": "Loan detail"
+      "value": "借閱詳細資訊"
     }
   ],
   "ui-inn-reach.transaction-detail.field.label.request": [
     {
       "type": 0,
-      "value": "Request detail"
+      "value": "預約詳細資訊"
     }
   ],
   "ui-inn-reach.transaction-detail.field.label.time": [
@@ -70655,7 +70671,7 @@
     },
     {
       "type": 0,
-      "value": ", "
+      "value": "， "
     },
     {
       "type": 1,
@@ -70665,163 +70681,163 @@
   "ui-inn-reach.transaction-detail.field.loan": [
     {
       "type": 0,
-      "value": "Loan"
+      "value": "借閱"
     }
   ],
   "ui-inn-reach.transaction-detail.field.patronAgency": [
     {
       "type": 0,
-      "value": "Patron agency"
+      "value": "讀者機構"
     }
   ],
   "ui-inn-reach.transaction-detail.field.patronId": [
     {
       "type": 0,
-      "value": "Patron ID"
+      "value": "讀者ID"
     }
   ],
   "ui-inn-reach.transaction-detail.field.patronName": [
     {
       "type": 0,
-      "value": "Patron name"
+      "value": "讀者姓名"
     }
   ],
   "ui-inn-reach.transaction-detail.field.patronType": [
     {
       "type": 0,
-      "value": "Patron type"
+      "value": "讀者類型"
     }
   ],
   "ui-inn-reach.transaction-detail.field.pickupLocation": [
     {
       "type": 0,
-      "value": "Pickup location"
+      "value": "取書館藏地"
     }
   ],
   "ui-inn-reach.transaction-detail.field.request": [
     {
       "type": 0,
-      "value": "Request"
+      "value": "請求"
     }
   ],
   "ui-inn-reach.transaction-detail.field.status": [
     {
       "type": 0,
-      "value": "Status"
+      "value": "狀態"
     }
   ],
   "ui-inn-reach.transaction-detail.field.time": [
     {
       "type": 0,
-      "value": "Transaction time"
+      "value": "交易時間"
     }
   ],
   "ui-inn-reach.transaction-detail.field.trackingId": [
     {
       "type": 0,
-      "value": "Tracking ID"
+      "value": "追蹤ID"
     }
   ],
   "ui-inn-reach.transaction-detail.field.type": [
     {
       "type": 0,
-      "value": "Transaction type"
+      "value": "交易類型"
     }
   ],
   "ui-inn-reach.transaction-detail.item-type.action.cancel-hold": [
     {
       "type": 0,
-      "value": "Cancel hold"
+      "value": "取消預約"
     }
   ],
   "ui-inn-reach.transaction-detail.item-type.action.check-out": [
     {
       "type": 0,
-      "value": "Check out to borrowing site"
+      "value": "前往借閱網站查看"
     }
   ],
   "ui-inn-reach.transaction-detail.item-type.action.final-check-in": [
     {
       "type": 0,
-      "value": "Final check-in"
+      "value": "最後歸還"
     }
   ],
   "ui-inn-reach.transaction-detail.item-type.action.recall-item": [
     {
       "type": 0,
-      "value": "Recall item"
+      "value": "催還館藏"
     }
   ],
   "ui-inn-reach.transaction-detail.item-type.action.transfer-hold": [
     {
       "type": 0,
-      "value": "Transfer hold to another item"
+      "value": "將預約轉移到另一個館藏"
     }
   ],
   "ui-inn-reach.transaction-detail.local-type.action.cancel-hold": [
     {
       "type": 0,
-      "value": "Cancel hold"
+      "value": "取消預約"
     }
   ],
   "ui-inn-reach.transaction-detail.local-type.action.check-out": [
     {
       "type": 0,
-      "value": "Check out to local patron"
+      "value": "借出給讀者"
     }
   ],
   "ui-inn-reach.transaction-detail.local-type.action.transfer-hold": [
     {
       "type": 0,
-      "value": "Transfer hold to another item"
+      "value": "將預約轉移到另一個館藏"
     }
   ],
   "ui-inn-reach.transaction-detail.patron-type.action.cancel-hold": [
     {
       "type": 0,
-      "value": "Cancel hold"
+      "value": "取消預約"
     }
   ],
   "ui-inn-reach.transaction-detail.patron-type.action.check-out": [
     {
       "type": 0,
-      "value": "Check out to patron"
+      "value": "借出給讀者"
     }
   ],
   "ui-inn-reach.transaction-detail.patron-type.action.receive-item": [
     {
       "type": 0,
-      "value": "Receive item"
+      "value": "接收單件"
     }
   ],
   "ui-inn-reach.transaction-detail.patron-type.action.receive-unshipped-item": [
     {
       "type": 0,
-      "value": "Receive unshipped item"
+      "value": "收到未出貨的單件"
     }
   ],
   "ui-inn-reach.transaction-detail.patron-type.action.return-item": [
     {
       "type": 0,
-      "value": "Return item"
+      "value": "歸還單件"
     }
   ],
   "ui-inn-reach.transaction-detail.title": [
     {
       "type": 0,
-      "value": "Transaction detail"
+      "value": "交易詳情"
     }
   ],
   "ui-inn-reach.transaction.centralServer": [
     {
       "type": 0,
-      "value": "Central server"
+      "value": "中央伺服器"
     }
   ],
   "ui-inn-reach.transaction.field.itemTitle": [
     {
       "type": 0,
-      "value": "Item title (Agency code)"
+      "value": "單件題名（機構代碼）"
     }
   ],
   "ui-inn-reach.transaction.field.label.time": [
@@ -70859,7 +70875,7 @@
   "ui-inn-reach.transaction.field.label.transactionType.item": [
     {
       "type": 0,
-      "value": "Item"
+      "value": "館藏"
     }
   ],
   "ui-inn-reach.transaction.field.label.transactionType.local": [
@@ -70871,43 +70887,43 @@
   "ui-inn-reach.transaction.field.label.transactionType.patron": [
     {
       "type": 0,
-      "value": "Patron"
+      "value": "讀者"
     }
   ],
   "ui-inn-reach.transaction.field.patronName": [
     {
       "type": 0,
-      "value": "Patron name (Agency code)"
+      "value": "讀者名稱（機構代碼）"
     }
   ],
   "ui-inn-reach.transaction.field.status": [
     {
       "type": 0,
-      "value": "Transaction status (INN-Reach)"
+      "value": "交易狀態（INN-Reach）"
     }
   ],
   "ui-inn-reach.transaction.field.time": [
     {
       "type": 0,
-      "value": "Transaction time"
+      "value": "交易時間"
     }
   ],
   "ui-inn-reach.transaction.field.type": [
     {
       "type": 0,
-      "value": "Transaction type"
+      "value": "交易類型"
     }
   ],
   "ui-inn-reach.transaction.innReachItemType": [
     {
       "type": 0,
-      "value": "INN-Reach item type"
+      "value": "INN-Reach 館藏類型"
     }
   ],
   "ui-inn-reach.transaction.itemAgency": [
     {
       "type": 0,
-      "value": "Item agency"
+      "value": "館藏機構"
     }
   ],
   "ui-inn-reach.transaction.itemType": [
@@ -70923,7 +70939,7 @@
     },
     {
       "type": 0,
-      "value": " ("
+      "value": " ( "
     },
     {
       "type": 1,
@@ -70931,7 +70947,7 @@
     },
     {
       "type": 0,
-      "value": ")"
+      "value": " )"
     }
   ],
   "ui-inn-reach.transaction.list.patronName": [
@@ -70941,7 +70957,7 @@
     },
     {
       "type": 0,
-      "value": " ("
+      "value": " ( "
     },
     {
       "type": 1,
@@ -70949,31 +70965,31 @@
     },
     {
       "type": 0,
-      "value": ")"
+      "value": " )"
     }
   ],
   "ui-inn-reach.transaction.patronAgency": [
     {
       "type": 0,
-      "value": "Patron agency"
+      "value": "讀者機構"
     }
   ],
   "ui-inn-reach.transaction.patronType": [
     {
       "type": 0,
-      "value": "INN-Reach patron type"
+      "value": "INN-Reach 讀者類型"
     }
   ],
   "ui-inn-reach.transaction.status": [
     {
       "type": 0,
-      "value": "Transaction status"
+      "value": "交易狀態"
     }
   ],
   "ui-inn-reach.transaction.transactionStatus": [
     {
       "type": 0,
-      "value": "Transaction status"
+      "value": "交易狀態"
     }
   ],
   "ui-inn-reach.transaction.transactionType": [
@@ -71003,13 +71019,13 @@
   "ui-inn-reach.transaction.type": [
     {
       "type": 0,
-      "value": "Transaction type"
+      "value": "交易類型"
     }
   ],
   "ui-inn-reach.transaction.type.item": [
     {
       "type": 0,
-      "value": "Item"
+      "value": "館藏"
     }
   ],
   "ui-inn-reach.transaction.type.local": [
@@ -71021,70 +71037,74 @@
   "ui-inn-reach.transaction.type.patron": [
     {
       "type": 0,
-      "value": "Patron"
+      "value": "讀者"
     }
   ],
   "ui-inn-reach.transfer-hold.callout.connection-problem.post.transfer-hold": [
     {
       "type": 0,
-      "value": "There was a problem transferring the item"
+      "value": "館藏運送出錯"
     }
   ],
   "ui-inn-reach.transfer-hold.callout.success.post.transfer-hold": [
     {
       "type": 0,
-      "value": "Item has been successfully transferred"
+      "value": "館藏運送成功"
     }
   ],
   "ui-inn-reach.transfer-hold.modal.column.barcode": [
     {
       "type": 0,
-      "value": "Barcode"
+      "value": "條碼"
     }
   ],
   "ui-inn-reach.transfer-hold.modal.column.item-status": [
     {
       "type": 0,
-      "value": "Item status"
+      "value": "單件狀態"
     }
   ],
   "ui-inn-reach.transfer-hold.modal.column.loan-type": [
     {
       "type": 0,
-      "value": "Loan type"
+      "value": "借閱類型"
     }
   ],
   "ui-inn-reach.transfer-hold.modal.column.location": [
     {
       "type": 0,
-      "value": "Location"
+      "value": "館藏地"
     }
   ],
   "ui-inn-reach.transfer-hold.modal.column.material-type": [
     {
       "type": 0,
-      "value": "Material type"
+      "value": "資料類型"
     }
   ],
   "ui-inn-reach.transfer-hold.modal.column.request-queue": [
     {
       "type": 0,
-      "value": "Request queue"
+      "value": "預約隊伍"
     }
   ],
   "ui-inn-reach.transfer-hold.modal.label": [
     {
       "type": 0,
-      "value": "Select item"
+      "value": "選擇館藏"
     }
   ],
   "ui-inn-reach.transfer-hold.modal.list-of-items.notFound": [
     {
       "type": 0,
-      "value": "No items found"
+      "value": "沒有找到單件"
     }
   ],
   "ui-inn-reach.transfer-hold.modal.result-count": [
+    {
+      "type": 0,
+      "value": "找到 "
+    },
     {
       "style": null,
       "type": 2,
@@ -71101,7 +71121,7 @@
           "value": [
             {
               "type": 0,
-              "value": "Record found"
+              "value": "筆紀錄"
             }
           ]
         },
@@ -71109,7 +71129,7 @@
           "value": [
             {
               "type": 0,
-              "value": "Records found"
+              "value": "筆紀錄"
             }
           ]
         }
@@ -71121,48 +71141,48 @@
   ],
   "ui-inn-reach.transfer-hold.modal.title": [
     {
-      "type": 0,
-      "value": "Other items in "
-    },
-    {
       "type": 1,
       "value": "title"
+    },
+    {
+      "type": 0,
+      "value": "中的其他館藏"
     }
   ],
   "ui-inn-reach.unshipped-item.button.submit": [
     {
       "type": 0,
-      "value": "Submit"
+      "value": "送出"
     }
   ],
   "ui-inn-reach.unshipped-item.callout.connection-problem.post.receive-unshipped-item": [
     {
       "type": 0,
-      "value": "There was an error updating the barcode for the transaction"
+      "value": "更新交易條碼出錯"
     }
   ],
   "ui-inn-reach.unshipped-item.callout.success.post.receive-unshipped-item": [
     {
       "type": 0,
-      "value": "The barcode associated with the transaction has been updated"
+      "value": "與交易關聯的條碼已更新"
     }
   ],
   "ui-inn-reach.unshipped-item.modal.title": [
     {
       "type": 0,
-      "value": "Receive unshipped item"
+      "value": "收到未出貨的單件"
     }
   ],
   "ui-inn-reach.unshipped-item.placeholder.enter-item-barcode": [
     {
       "type": 0,
-      "value": "Enter item barcode"
+      "value": "輸入館藏條碼"
     }
   ],
   "ui-inn-reach.validate.required": [
     {
       "type": 0,
-      "value": "Required"
+      "value": "必填"
     }
   ],
   "ui-inventory.ILLPolicy": [
@@ -84676,6 +84696,12 @@
     {
       "type": 0,
       "value": "S3 儲存桶名稱"
+    }
+  ],
+  "ui-licenses.settings.fileStorage.s3BucketRegion": [
+    {
+      "type": 0,
+      "value": "S3 bucket region"
     }
   ],
   "ui-licenses.settings.fileStorage.s3Endpoint": [

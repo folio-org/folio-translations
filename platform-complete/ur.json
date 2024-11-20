@@ -21219,7 +21219,7 @@
   "ui-bulk-edit.category.loanType": [
     {
       "type": 0,
-      "value": "Loan type"
+      "value": "Loan and availability"
     }
   ],
   "ui-bulk-edit.category.location": [
@@ -60067,7 +60067,7 @@
   "ui-erm-usage.permission.generalSettings.manage": [
     {
       "type": 0,
-      "value": "Settings (eUsage): Can view and edit settings"
+      "value": "Settings (eUsage): Can view and edit all settings"
     }
   ],
   "ui-erm-usage.permission.harvester.all": [
@@ -60151,7 +60151,7 @@
   "ui-erm-usage.permission.view": [
     {
       "type": 0,
-      "value": "eUsage: Can view usage data providers and usage reports"
+      "value": "eUsage: Can view usage data providers and view/download usage reports"
     }
   ],
   "ui-erm-usage.permission.view-create": [
@@ -83297,6 +83297,12 @@
     {
       "type": 0,
       "value": "S3 bucket name"
+    }
+  ],
+  "ui-licenses.settings.fileStorage.s3BucketRegion": [
+    {
+      "type": 0,
+      "value": "S3 bucket region"
     }
   ],
   "ui-licenses.settings.fileStorage.s3Endpoint": [
