@@ -72704,6 +72704,28 @@
       "value": "Exportar instâncias (MARC)"
     }
   ],
+  "ui-inventory.exportInstancesInMARC.complete": [
+    {
+      "type": 0,
+      "value": "The export is complete. The downloaded "
+    },
+    {
+      "type": 1,
+      "value": "csvFileName"
+    },
+    {
+      "type": 0,
+      "value": ".csv contains selected record's UIID. To retrieve the "
+    },
+    {
+      "type": 1,
+      "value": "marcFileName"
+    },
+    {
+      "type": 0,
+      "value": ".mrc file, please go to the Data export app."
+    }
+  ],
   "ui-inventory.exportInstancesInMARCLimitExceeded": [
     {
       "type": 0,
@@ -78454,7 +78476,7 @@
   "ui-invoice.appMenu.invoicesAppSearch": [
     {
       "type": 0,
-      "value": "Busca no aplicativo de Faturas"
+      "value": "Buscar no aplicativo de Faturas"
     }
   ],
   "ui-invoice.button.addAdjustment": [
@@ -78552,7 +78574,7 @@
     },
     {
       "type": 0,
-      "value": " - Pesquisar"
+      "value": " - Buscar"
     }
   ],
   "ui-invoice.errors.cantLoadAdjustment": [
@@ -80483,6 +80505,12 @@
       "value": "Nome do fornecedor"
     }
   ],
+  "ui-invoice.invoice.versionHistory.noVersion": [
+    {
+      "type": 0,
+      "value": "Nenhum histórico de versões para exibir."
+    }
+  ],
   "ui-invoice.invoice.voucherNumber": [
     {
       "type": 0,
@@ -80900,7 +80928,7 @@
   "ui-invoice.permission.exportCSV": [
     {
       "type": 0,
-      "value": "Fatura: exportar resultados de pesquisa"
+      "value": "Fatura: exportar resultados de busca"
     }
   ],
   "ui-invoice.permission.invoice.approve.execute": [
@@ -81050,7 +81078,7 @@
   "ui-invoice.search": [
     {
       "type": 0,
-      "value": "Pesquisa"
+      "value": "Buscar"
     }
   ],
   "ui-invoice.search.accountingCode": [
@@ -115362,7 +115390,7 @@
   "ui-receiving.appMenu.receivingAppSearch": [
     {
       "type": 0,
-      "value": "Busca no aplicativo Recebimento"
+      "value": "Buscar no aplicativo Recebimento"
     }
   ],
   "ui-receiving.bind.pieces.create.error.barcodeIsNotUnique": [
@@ -115514,7 +115542,7 @@
     },
     {
       "type": 0,
-      "value": " - Pesquisa"
+      "value": " - Buscar"
     }
   ],
   "ui-receiving.errors.barcodeIsNotUnique": [
@@ -115956,7 +115984,7 @@
   "ui-receiving.permission.exportCSV": [
     {
       "type": 0,
-      "value": "Recebimento: Exportar resultados de pesquisa"
+      "value": "Recebimento: Exportar resultados de busca"
     }
   ],
   "ui-receiving.permission.view": [
@@ -117368,7 +117396,7 @@
   "ui-receiving.titles.search": [
     {
       "type": 0,
-      "value": "Pesquisa"
+      "value": "Buscar"
     }
   ],
   "ui-receiving.titles.title": [

@@ -72612,6 +72612,28 @@
       "value": "인스턴스 내보내기 (MARC)"
     }
   ],
+  "ui-inventory.exportInstancesInMARC.complete": [
+    {
+      "type": 0,
+      "value": "The export is complete. The downloaded "
+    },
+    {
+      "type": 1,
+      "value": "csvFileName"
+    },
+    {
+      "type": 0,
+      "value": ".csv contains selected record's UIID. To retrieve the "
+    },
+    {
+      "type": 1,
+      "value": "marcFileName"
+    },
+    {
+      "type": 0,
+      "value": ".mrc file, please go to the Data export app."
+    }
+  ],
   "ui-inventory.exportInstancesInMARCLimitExceeded": [
     {
       "type": 0,
@@ -80366,6 +80388,12 @@
     {
       "type": 0,
       "value": "공급 업체 이름"
+    }
+  ],
+  "ui-invoice.invoice.versionHistory.noVersion": [
+    {
+      "type": 0,
+      "value": "No version history to display."
     }
   ],
   "ui-invoice.invoice.voucherNumber": [

@@ -72224,6 +72224,28 @@
       "value": "Export titulů (MARC)"
     }
   ],
+  "ui-inventory.exportInstancesInMARC.complete": [
+    {
+      "type": 0,
+      "value": "The export is complete. The downloaded "
+    },
+    {
+      "type": 1,
+      "value": "csvFileName"
+    },
+    {
+      "type": 0,
+      "value": ".csv contains selected record's UIID. To retrieve the "
+    },
+    {
+      "type": 1,
+      "value": "marcFileName"
+    },
+    {
+      "type": 0,
+      "value": ".mrc file, please go to the Data export app."
+    }
+  ],
   "ui-inventory.exportInstancesInMARCLimitExceeded": [
     {
       "type": 0,
@@ -79913,6 +79935,12 @@
       "value": "Název prodejce"
     }
   ],
+  "ui-invoice.invoice.versionHistory.noVersion": [
+    {
+      "type": 0,
+      "value": "No version history to display."
+    }
+  ],
   "ui-invoice.invoice.voucherNumber": [
     {
       "type": 0,
@@ -80332,13 +80360,13 @@
   "ui-invoice.permission.invoice.approve.execute": [
     {
       "type": 0,
-      "value": "Invoice: Approve invoices"
+      "value": "Faktura: Schválení faktur"
     }
   ],
   "ui-invoice.permission.invoice.cancel.execute": [
     {
       "type": 0,
-      "value": "Invoice: Cancel invoices"
+      "value": "Faktura: Zrušení faktur"
     }
   ],
   "ui-invoice.permission.invoice.create": [
@@ -80362,13 +80390,13 @@
   "ui-invoice.permission.invoice.pay-different-fy.execute": [
     {
       "type": 0,
-      "value": "Invoice: Pay invoices in a different fiscal year"
+      "value": "Faktury: Zaplatit faktury v jiném fiskálním roce"
     }
   ],
   "ui-invoice.permission.invoice.pay.execute": [
     {
       "type": 0,
-      "value": "Invoice: Pay invoices"
+      "value": "Faktura: Plaťte faktury"
     }
   ],
   "ui-invoice.permission.invoice.view": [
@@ -80398,7 +80426,7 @@
   "ui-invoice.permission.voucher.export.execute": [
     {
       "type": 0,
-      "value": "Invoice: Voucher export"
+      "value": "Faktura: Export poukazu"
     }
   ],
   "ui-invoice.permission.voucherExport": [

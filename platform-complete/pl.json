@@ -72416,6 +72416,28 @@
       "value": "Eksportuj instancje (MARC)"
     }
   ],
+  "ui-inventory.exportInstancesInMARC.complete": [
+    {
+      "type": 0,
+      "value": "The export is complete. The downloaded "
+    },
+    {
+      "type": 1,
+      "value": "csvFileName"
+    },
+    {
+      "type": 0,
+      "value": ".csv contains selected record's UIID. To retrieve the "
+    },
+    {
+      "type": 1,
+      "value": "marcFileName"
+    },
+    {
+      "type": 0,
+      "value": ".mrc file, please go to the Data export app."
+    }
+  ],
   "ui-inventory.exportInstancesInMARCLimitExceeded": [
     {
       "type": 0,
@@ -80141,6 +80163,12 @@
       "value": "Nazwa sprzedawcy"
     }
   ],
+  "ui-invoice.invoice.versionHistory.noVersion": [
+    {
+      "type": 0,
+      "value": "No version history to display."
+    }
+  ],
   "ui-invoice.invoice.voucherNumber": [
     {
       "type": 0,
@@ -81342,7 +81370,7 @@
   "ui-invoice.status.Open": [
     {
       "type": 0,
-      "value": "Otwarty"
+      "value": "Otwarte"
     }
   ],
   "ui-invoice.tag": [
@@ -115645,7 +115673,7 @@
   "ui-receiving.piece.discoverySuppress": [
     {
       "type": 0,
-      "value": "Ukryty w katalogu WWW"
+      "value": "Ukryte w katalogu WWW"
     }
   ],
   "ui-receiving.piece.displayOnHolding": [
@@ -115789,7 +115817,7 @@
   "ui-receiving.piece.permanentLocationId": [
     {
       "type": 0,
-      "value": "Permanent location"
+      "value": "Lokalizacja stała"
     }
   ],
   "ui-receiving.piece.pieceForm.create.title": [
