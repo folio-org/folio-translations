@@ -116593,6 +116593,100 @@
       "value": "Instance cannot be updated. Depricated instance version."
     }
   ],
+  "ui-quick-marc.record.save.error.fail": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Please scroll to view the entire record. Resolve issues as needed and save to revalidate the record."
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 1,
+      "value": "breakingLine"
+    },
+    {
+      "type": 0,
+      "value": "Fail errors: "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "failCount"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 1,
+      "value": "breakingLine"
+    },
+    {
+      "type": 0,
+      "value": "Record cannot be saved with a fail error."
+    }
+  ],
+  "ui-quick-marc.record.save.error.failAndWarn": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Please scroll to view the entire record. Resolve issues as needed and save to revalidate the record."
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 1,
+      "value": "breakingLine"
+    },
+    {
+      "type": 0,
+      "value": "Warn errors: "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "warnCount"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 1,
+      "value": "breakingLine"
+    },
+    {
+      "type": 0,
+      "value": "Fail errors: "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "failCount"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 1,
+      "value": "breakingLine"
+    },
+    {
+      "type": 0,
+      "value": "Record cannot be saved with a fail error."
+    }
+  ],
   "ui-quick-marc.record.save.error.generic": [
     {
       "type": 0,
@@ -116609,6 +116703,36 @@
     {
       "type": 0,
       "value": "此记录已被其他用户删除。不能再编辑此记录。点击取消按钮返回上一页。"
+    }
+  ],
+  "ui-quick-marc.record.save.error.warn": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Please scroll to view the entire record. Resolve ussyes as needed and save to revalidate the record."
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 1,
+      "value": "breakingLine"
+    },
+    {
+      "type": 0,
+      "value": "Warn errors: "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "warnCount"
+        }
+      ],
+      "type": 8,
+      "value": "b"
     }
   ],
   "ui-quick-marc.record.save.success.processing": [
