@@ -8361,7 +8361,7 @@
   "stripes-core.errors.username.incorrect": [
     {
       "type": 0,
-      "value": "Dieses FOLIO-Konto kann nicht gefunden werden. Bitte wenden Sie sich an Ihre Folio-Systemadministration."
+      "value": "Dieses FOLIO-Konto kann nicht gefunden werden. Bitte wenden Sie sich an Ihre FOLIO-Systemadministration."
     }
   ],
   "stripes-core.folioSettings": [
@@ -10060,7 +10060,7 @@
   "stripes-erm-components.documentFilter.documentFilterBuilder": [
     {
       "type": 0,
-      "value": "Document filter builder"
+      "value": "Dokumentfilter-Baukasten"
     }
   ],
   "stripes-erm-components.documentFilter.documentFilterIndex": [
@@ -10088,25 +10088,25 @@
   "stripes-erm-components.documentFilter.filterBuilder.coreDocuments": [
     {
       "type": 0,
-      "value": "Core document filter builder"
+      "value": "Hauptdokumentfilter-Baukasten"
     }
   ],
   "stripes-erm-components.documentFilter.filterBuilder.supplementaryDocuments": [
     {
       "type": 0,
-      "value": "Supplementary document filter builder"
+      "value": "Ergänzende Dokumentfilter-Baukasten"
     }
   ],
   "stripes-erm-components.documentFilter.filterName.coreDocuments": [
     {
       "type": 0,
-      "value": "Core documents"
+      "value": "Hauptdokumente"
     }
   ],
   "stripes-erm-components.documentFilter.filterName.supplementaryDocuments": [
     {
       "type": 0,
-      "value": "Supplementary documents"
+      "value": "Ergänzende Dokumente"
     }
   ],
   "stripes-erm-components.documentFilter.filtersApplied": [
@@ -10322,7 +10322,7 @@
   "stripes-erm-components.errors.invalidDate": [
     {
       "type": 0,
-      "value": "Please enter a valid date to continue"
+      "value": "Bitte gültiges Datum eingeben, um fortzufahren"
     }
   ],
   "stripes-erm-components.errors.invalidNumber": [
@@ -11273,7 +11273,7 @@
   "stripes-inventory-components.facet.nameType": [
     {
       "type": 0,
-      "value": "Name type"
+      "value": "Namenstyp"
     }
   ],
   "stripes-inventory-components.facet.natureOfContentTerms": [
@@ -25019,7 +25019,7 @@
   "ui-bulk-edit.start.edit.instance": [
     {
       "type": 0,
-      "value": "Instances and Administrative data"
+      "value": "FOLIO Instances"
     }
   ],
   "ui-bulk-edit.start.edit.marc": [
@@ -60279,13 +60279,13 @@
   "ui-erm-usage.permission.harvester.jobs.view": [
     {
       "type": 0,
-      "value": "eUsage: Can view harvesting jobs"
+      "value": "eUsage: Kann die Harvesting jobs anzeigen"
     }
   ],
   "ui-erm-usage.permission.harvester.start.single": [
     {
       "type": 0,
-      "value": "eUsage: Can start harvesting for a single provider"
+      "value": "eUsage: Kann den Harvester bei einzelnen Datennutzungsanbietern starten"
     }
   ],
   "ui-erm-usage.permission.harvester.view": [
@@ -60303,49 +60303,49 @@
   "ui-erm-usage.permission.module.erm-usage.enabled": [
     {
       "type": 0,
-      "value": "UI: eUsage module is enabled"
+      "value": "UI: Das Modul eUsage ist freigeschaltet"
     }
   ],
   "ui-erm-usage.permission.reports.create": [
     {
       "type": 0,
-      "value": "eUsage: Can upload usage reports"
+      "value": "eUsage: Kann Nutzungsberichte hochladen"
     }
   ],
   "ui-erm-usage.permission.reports.delete": [
     {
       "type": 0,
-      "value": "eUsage: Can delete usage reports"
+      "value": "eUsage: Kann Nutzungsberichte löschen"
     }
   ],
   "ui-erm-usage.permission.settings.erm-usage.enabled": [
     {
       "type": 0,
-      "value": "Settings (eUsage): Display list of settings pages"
+      "value": "Einstellungen (eUsage): Seite für Einstellungen anzeigen"
     }
   ],
   "ui-erm-usage.permission.udp.create": [
     {
       "type": 0,
-      "value": "eUsage: Can create usage data providers"
+      "value": "eUsage: Kann Datensätze für Nutzungsdatenanbieter erstellen"
     }
   ],
   "ui-erm-usage.permission.udp.create-edit": [
     {
       "type": 0,
-      "value": "eUsage: Can create and edit usage data providers"
+      "value": "eUsage: Kann Datensätze für Datennutzungsanbieter erstellen und diese bearbeiten"
     }
   ],
   "ui-erm-usage.permission.udp.delete": [
     {
       "type": 0,
-      "value": "eUsage: Can delete usage data providers"
+      "value": "eUsage: Kann Datensätze von Nutzungsdatenanbietern löschen"
     }
   ],
   "ui-erm-usage.permission.udp.edit": [
     {
       "type": 0,
-      "value": "eUsage: Can edit usage data providers"
+      "value": "eUsage: Kann Datensätze von Nutzungsdatenanbietern bearbeiten"
     }
   ],
   "ui-erm-usage.permission.view": [
@@ -60583,7 +60583,7 @@
   "ui-erm-usage.report.error.sushiException": [
     {
       "type": 0,
-      "value": "SUSHI Ausnahmefall"
+      "value": "SUSHI Fehlerinformation"
     }
   ],
   "ui-erm-usage.report.upload.completed": [
@@ -60637,7 +60637,7 @@
   "ui-erm-usage.report.upload.reportExists": [
     {
       "type": 0,
-      "value": "Der Bericht existiert bereits. Soll überschrieben werden?"
+      "value": "Der Bericht existiert bereits. Soll er überschrieben werden?"
     }
   ],
   "ui-erm-usage.report.upload.selectFile": [
@@ -60673,7 +60673,7 @@
   "ui-erm-usage.reportOverview.confirmDeleteReport": [
     {
       "type": 0,
-      "value": "Delete report?"
+      "value": "Bericht löschen?"
     }
   ],
   "ui-erm-usage.reportOverview.deleteTemplateMessage": [
@@ -60791,7 +60791,7 @@
   "ui-erm-usage.reportOverview.month.09": [
     {
       "type": 0,
-      "value": "Sep"
+      "value": "Sept"
     }
   ],
   "ui-erm-usage.reportOverview.month.10": [
@@ -60821,7 +60821,7 @@
   "ui-erm-usage.reportOverview.release": [
     {
       "type": 0,
-      "value": "Release"
+      "value": "Version"
     }
   ],
   "ui-erm-usage.reportOverview.report": [
@@ -61752,7 +61752,7 @@
   "ui-erm-usage.udp.form.selectedReports.confirmClearMessage": [
     {
       "type": 0,
-      "value": "Sollen alle ausgewählten Berichte zurückgesetzt werden, wenn  die COUNTER-Version geändert wird?"
+      "value": "Sollen alle ausgewählten Berichte zurückgesetzt werden, wenn die COUNTER-Version geändert wird?"
     }
   ],
   "ui-erm-usage.udp.form.udpInfo.providerName": [
@@ -85441,7 +85441,7 @@
   "ui-lists.pane.dropdown.export-visible": [
     {
       "type": 0,
-      "value": "Export visible columns (CSV)"
+      "value": "Export selected columns (CSV)"
     }
   ],
   "ui-lists.pane.dropdown.refresh": [
@@ -108201,6 +108201,12 @@
     {
       "type": 0,
       "value": "Wert auswählen"
+    }
+  ],
+  "ui-plugin-query-builder.error.occurredMessage": [
+    {
+      "type": 0,
+      "value": "Ein Fehler ist aufgetreten."
     }
   ],
   "ui-plugin-query-builder.error.sww": [

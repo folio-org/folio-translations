@@ -9184,7 +9184,7 @@
     },
     {
       "type": 1,
-      "value": "usuario"
+      "value": "user"
     }
   ],
   "stripes-erm-components.contacts.role": [
@@ -10017,7 +10017,7 @@
   "stripes-erm-components.documentFilter.documents": [
     {
       "type": 0,
-      "value": "Core documents"
+      "value": "Documents"
     }
   ],
   "stripes-erm-components.documentFilter.editDocumentFilters": [
@@ -11198,7 +11198,7 @@
   "stripes-inventory-components.facet.nameType": [
     {
       "type": 0,
-      "value": "Name type"
+      "value": "Tipo de nombre"
     }
   ],
   "stripes-inventory-components.facet.natureOfContentTerms": [
@@ -30194,7 +30194,7 @@
   "ui-circulation-log.logEvent.action.Billed": [
     {
       "type": 0,
-      "value": "Facturado"
+      "value": "Pendiente por pagar"
     }
   ],
   "ui-circulation-log.logEvent.action.Cancelled": [
@@ -32936,7 +32936,7 @@
   "ui-circulation.settings.lostItemFee.patronBilledAfterRecalledAgedLost": [
     {
       "type": 0,
-      "value": "Patrón facturado para el retiro después de envejecer a perdido"
+      "value": "Monto creado por reclamación después de pasar de estado de extraviado a perdido"
     }
   ],
   "ui-circulation.settings.lostItemFee.replacedLostItemProcessingFee": [
@@ -33008,13 +33008,13 @@
   "ui-circulation.settings.lostItemFee.validate.hasPatronBilledAfterAgedToLostValue": [
     {
       "type": 0,
-      "value": "Se requiere la entrada si se ingresó el monto 'Facturado al usuario después de envejecido a perdido'"
+      "value": "Se requiere la entrada si se ingresó el monto \"pendiente por pagar al usuario después de extraviado a perdido\""
     }
   ],
   "ui-circulation.settings.lostItemFee.validate.hasPatronBilledAfterRecalledAgedToLostValue": [
     {
       "type": 0,
-      "value": "Se requiere la entrada si se ingresa el monto de 'Patrón facturado por retiro después de haber envejecido a perdido'"
+      "value": "Se requiere la entrada si se ingresa el monto de pendiente por pagar por retiro después de haber pasado de extraviado a perdido."
     }
   ],
   "ui-circulation.settings.lostItemFee.validate.hasPositiveItemsAgedToLostAfterOverdueAmount": [
@@ -85411,7 +85411,7 @@
   "ui-lists.pane.dropdown.export-visible": [
     {
       "type": 0,
-      "value": "Export visible columns (CSV)"
+      "value": "Export selected columns (CSV)"
     }
   ],
   "ui-lists.pane.dropdown.refresh": [
@@ -108284,6 +108284,12 @@
     {
       "type": 0,
       "value": "Seleccionar valor"
+    }
+  ],
+  "ui-plugin-query-builder.error.occurredMessage": [
+    {
+      "type": 0,
+      "value": "Se ha producido un error."
     }
   ],
   "ui-plugin-query-builder.error.sww": [

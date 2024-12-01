@@ -9259,7 +9259,7 @@
   "stripes-erm-components.customProperties.defaultVisibility": [
     {
       "type": 0,
-      "value": "デフォルトの表示（visibility）"
+      "value": "デフォルトの参照範囲"
     }
   ],
   "stripes-erm-components.customProperties.delete.confirmHeading": [
@@ -9771,7 +9771,7 @@
   "stripes-erm-components.customProperty.visibility": [
     {
       "type": 0,
-      "value": "可視性（visibility）"
+      "value": "参照範囲"
     }
   ],
   "stripes-erm-components.dateFilter.activeFrom": [
@@ -9795,7 +9795,7 @@
   "stripes-erm-components.dateFilter.cancellationDeadlineNotSet": [
     {
       "type": 0,
-      "value": "Include "
+      "value": "キャンセル期限が設定されていない "
     },
     {
       "type": 1,
@@ -9803,7 +9803,7 @@
     },
     {
       "type": 0,
-      "value": " with no cancellation deadline set"
+      "value": " を含める"
     }
   ],
   "stripes-erm-components.dateFilter.endDate": [
@@ -9940,13 +9940,13 @@
   "stripes-erm-components.doc.file": [
     {
       "type": 0,
-      "value": "File"
+      "value": "ファイル"
     }
   ],
   "stripes-erm-components.doc.location": [
     {
       "type": 0,
-      "value": "保管場所"
+      "value": "保管所在"
     }
   ],
   "stripes-erm-components.doc.name": [
@@ -10260,7 +10260,7 @@
   "stripes-erm-components.errors.errorCard.defaultTitle": [
     {
       "type": 0,
-      "value": "何かがうまくいきませんでした"
+      "value": "問題が発生しました"
     }
   ],
   "stripes-erm-components.errors.errorCard.text": [
@@ -10296,7 +10296,7 @@
   "stripes-erm-components.errors.invalidDate": [
     {
       "type": 0,
-      "value": "Please enter a valid date to continue"
+      "value": "続行するには有効な日付を入力してください"
     }
   ],
   "stripes-erm-components.errors.invalidNumber": [
@@ -10414,7 +10414,7 @@
   "stripes-erm-components.fuf.uploading": [
     {
       "type": 0,
-      "value": "Please wait for the file to be uploaded"
+      "value": "ファイルがアップロードされるまでお待ちください"
     }
   ],
   "stripes-erm-components.infoLog": [
@@ -10609,7 +10609,7 @@
   "stripes-erm-components.newTagCreated": [
     {
       "type": 0,
-      "value": "New tag created"
+      "value": "新規タグの作成"
     }
   ],
   "stripes-erm-components.no": [
@@ -10656,7 +10656,7 @@
   "stripes-erm-components.operator.contains": [
     {
       "type": 0,
-      "value": "contains"
+      "value": "含む"
     }
   ],
   "stripes-erm-components.operator.doesNotContain": [
@@ -10674,7 +10674,7 @@
   "stripes-erm-components.operator.equals": [
     {
       "type": 0,
-      "value": "equals"
+      "value": "等しい"
     }
   ],
   "stripes-erm-components.operator.is": [
@@ -10686,13 +10686,13 @@
   "stripes-erm-components.operator.isGreaterThanOrEqual": [
     {
       "type": 0,
-      "value": "is greater than or equals"
+      "value": "以上である"
     }
   ],
   "stripes-erm-components.operator.isLessThanOrEqual": [
     {
       "type": 0,
-      "value": "is less than or equals"
+      "value": "以下である"
     }
   ],
   "stripes-erm-components.operator.isNot": [
@@ -10962,7 +10962,7 @@
   "stripes-erm-components.prop.customPropertyVisibility": [
     {
       "type": 0,
-      "value": "可視性（visibility）"
+      "value": "参照範囲"
     }
   ],
   "stripes-erm-components.pti.accessTitleOnPlatform": [
@@ -11004,7 +11004,7 @@
   "stripes-erm-components.saveChanges": [
     {
       "type": 0,
-      "value": "変更を保存"
+      "value": "変更の保存"
     }
   ],
   "stripes-erm-components.selectAll": [
@@ -11078,7 +11078,7 @@
   "stripes-erm-components.value": [
     {
       "type": 0,
-      "value": "Value"
+      "value": "値"
     }
   ],
   "stripes-erm-components.viewOrg.name": [
@@ -11239,7 +11239,7 @@
   "stripes-inventory-components.facet.nameType": [
     {
       "type": 0,
-      "value": "Name type"
+      "value": "名称タイプ"
     }
   ],
   "stripes-inventory-components.facet.natureOfContentTerms": [
@@ -109168,6 +109168,12 @@
     {
       "type": 0,
       "value": "Select value"
+    }
+  ],
+  "ui-plugin-query-builder.error.occurredMessage": [
+    {
+      "type": 0,
+      "value": "エラーが発生しました"
     }
   ],
   "ui-plugin-query-builder.error.sww": [
