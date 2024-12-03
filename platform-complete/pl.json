@@ -1532,6 +1532,12 @@
       "value": "Zobacz tę wersję"
     }
   ],
+  "stripes-acq-components.versionHistory.card.systemChange": [
+    {
+      "type": 0,
+      "value": "System maintenance update"
+    }
+  ],
   "stripes-acq-components.versionHistory.card.version.current": [
     {
       "type": 0,
@@ -22429,7 +22435,7 @@
   "ui-bulk-edit.columns.USER.Patron group": [
     {
       "type": 0,
-      "value": "Grupa czytelników"
+      "value": "Grupa czytelnika"
     }
   ],
   "ui-bulk-edit.columns.USER.Phone": [
@@ -23190,7 +23196,7 @@
   "ui-bulk-edit.layer.options.patronGroup": [
     {
       "type": 0,
-      "value": "Grupa czytelników"
+      "value": "Grupa czytelnika"
     }
   ],
   "ui-bulk-edit.layer.options.permanent": [
@@ -30176,7 +30182,7 @@
   "ui-checkout.user.patronGroup": [
     {
       "type": 0,
-      "value": "Grupa czytelników"
+      "value": "Grupa czytelnika"
     }
   ],
   "ui-checkout.user.username": [
@@ -37794,7 +37800,7 @@
   "ui-courses.accordion.courseFormListing": [
     {
       "type": 0,
-      "value": "Informacje o liście kursów"
+      "value": "Informacje o liście zajęć"
     }
   ],
   "ui-courses.accordion.courseFormListing.help": [
@@ -37818,7 +37824,7 @@
   "ui-courses.accordion.data": [
     {
       "type": 0,
-      "value": "Dane kursu"
+      "value": "Dane zajęć"
     }
   ],
   "ui-courses.accordion.data.help": [
@@ -37878,7 +37884,7 @@
   "ui-courses.accordion.term": [
     {
       "type": 0,
-      "value": "Warunek"
+      "value": "Semestr"
     }
   ],
   "ui-courses.accordion.term.help": [
@@ -37896,7 +37902,7 @@
   "ui-courses.addFastAddItem.title": [
     {
       "type": 0,
-      "value": "Dodaj egzemplarz szybkiego dodawania"
+      "value": "Dodaj skrócony egzemplarz"
     }
   ],
   "ui-courses.addFastAddItem.tooltip": [
@@ -37954,7 +37960,7 @@
   "ui-courses.addItem.existing": [
     {
       "type": 0,
-      "value": "Dodaj obecny inwentarz jako zarezerwowany"
+      "value": "Dodaj obecny egzemplarz jako zarezerwowany"
     }
   ],
   "ui-courses.addItem.failure": [
@@ -37984,7 +37990,7 @@
   "ui-courses.addItem.new": [
     {
       "type": 0,
-      "value": "Utwórz nowy inwentarz i dodaj jako zarezerwowany"
+      "value": "Utwórz nowy egzemplarz i dodaj jako zarezerwowany"
     }
   ],
   "ui-courses.appMenu.coursesAppSearch": [
@@ -38110,7 +38116,7 @@
   "ui-courses.column.endDate": [
     {
       "type": 0,
-      "value": "Data końcowa"
+      "value": "Data zakończenia"
     }
   ],
   "ui-courses.column.instructor": [
@@ -38128,7 +38134,7 @@
   "ui-courses.column.permanentLocation": [
     {
       "type": 0,
-      "value": "Stała lokalizacja"
+      "value": "Lokalizacja stała"
     }
   ],
   "ui-courses.column.processingStatus": [
@@ -38158,7 +38164,7 @@
   "ui-courses.column.startDate": [
     {
       "type": 0,
-      "value": "Data początkowa"
+      "value": "Data rozpoczęcia"
     }
   ],
   "ui-courses.column.status": [
@@ -38488,13 +38494,13 @@
   "ui-courses.field.endDate": [
     {
       "type": 0,
-      "value": "Data końcowa"
+      "value": "Data zakończenia"
     }
   ],
   "ui-courses.field.enumeration": [
     {
       "type": 0,
-      "value": "Wyliczenie"
+      "value": "Numeracja"
     }
   ],
   "ui-courses.field.externalId": [
@@ -38560,7 +38566,7 @@
   "ui-courses.field.permanentLocation": [
     {
       "type": 0,
-      "value": "Stała lokalizacja"
+      "value": "Lokalizacja stała"
     }
   ],
   "ui-courses.field.processingStatus": [
@@ -38590,7 +38596,7 @@
   "ui-courses.field.startDate": [
     {
       "type": 0,
-      "value": "Data początkowa"
+      "value": "Data rozpoczęcia"
     }
   ],
   "ui-courses.field.status": [
@@ -38614,7 +38620,7 @@
   "ui-courses.field.term": [
     {
       "type": 0,
-      "value": "Warunek"
+      "value": "Semestr"
     }
   ],
   "ui-courses.field.totalPagesInItem": [
@@ -38680,7 +38686,7 @@
   "ui-courses.filters.permanentLocation": [
     {
       "type": 0,
-      "value": "Stała lokalizacja"
+      "value": "Lokalizacja stała"
     }
   ],
   "ui-courses.filters.processingstatus": [
@@ -38710,7 +38716,7 @@
   "ui-courses.filters.term": [
     {
       "type": 0,
-      "value": "Warunek"
+      "value": "Semestr"
     }
   ],
   "ui-courses.front.welcome": [
@@ -38906,7 +38912,7 @@
   "ui-courses.objectName.coursetypes": [
     {
       "type": 0,
-      "value": "Rodzaje kursu"
+      "value": "Rodzaje zajęć"
     }
   ],
   "ui-courses.objectName.department": [
@@ -38918,7 +38924,7 @@
   "ui-courses.objectName.departments": [
     {
       "type": 0,
-      "value": "Wydziały"
+      "value": "Działy"
     }
   ],
   "ui-courses.objectName.processingstatus": [
@@ -38948,13 +38954,13 @@
   "ui-courses.objectName.term": [
     {
       "type": 0,
-      "value": "Warunek"
+      "value": "Semestr"
     }
   ],
   "ui-courses.objectName.terms": [
     {
       "type": 0,
-      "value": "Warunki"
+      "value": "Semestry"
     }
   ],
   "ui-courses.options.noneRequired": [
@@ -38966,49 +38972,49 @@
   "ui-courses.permission.add-edit-items": [
     {
       "type": 0,
-      "value": "Courses: Add and edit courses' reserved items"
+      "value": "Zajęcia: dodawanie i edycja zarezerwowanych egzemplarzy na zajęcia"
     }
   ],
   "ui-courses.permission.all": [
     {
       "type": 0,
-      "value": "Courses: All permissions"
+      "value": "Zajęcia: wszystkie uprawnienia"
     }
   ],
   "ui-courses.permission.maintain-courses": [
     {
       "type": 0,
-      "value": "Kursy: odczyt, dodawanie, edycja i usuwanie kursów"
+      "value": "Zajęcia: odczyt, dodawanie, edycja i usuwanie zajęć"
     }
   ],
   "ui-courses.permission.maintain-items": [
     {
       "type": 0,
-      "value": "Courses: Add, edit, and remove courses' reserved items"
+      "value": "Zajęcia: dodawanie, edycja i usuwanie zarezerwowanych egzemplarzy na zajęcia"
     }
   ],
   "ui-courses.permission.maintain-settings": [
     {
       "type": 0,
-      "value": "Settings (Courses): Can create, edit and delete course settings"
+      "value": "Ustawienia (Zajęcia): można tworzyć, edytować i usuwać ustawienia zajęć"
     }
   ],
   "ui-courses.permission.read-add-edit": [
     {
       "type": 0,
-      "value": "Courses: Read, add, and edit courses"
+      "value": "Zajęcia: czytanie, dodawanie i edycja zajęć"
     }
   ],
   "ui-courses.permission.read-all": [
     {
       "type": 0,
-      "value": "Courses: Read all"
+      "value": "Zajęcia: czytanie wszystkiego"
     }
   ],
   "ui-courses.permission.view-settings": [
     {
       "type": 0,
-      "value": "Settings (Courses): Can view course settings"
+      "value": "Ustawienia (Zajęcia): można przeglądać ustawienia zajęć"
     }
   ],
   "ui-courses.reallyDelete": [
@@ -39070,7 +39076,7 @@
   "ui-courses.settings.departments": [
     {
       "type": 0,
-      "value": "Wydziały kursu"
+      "value": "Wydziały zajęć"
     }
   ],
   "ui-courses.settings.display.duplicateCrosslistedCourses": [
@@ -39118,7 +39124,7 @@
   "ui-courses.settings.terms": [
     {
       "type": 0,
-      "value": "Warunki"
+      "value": "Semestry"
     }
   ],
   "ui-courses.status.active": [
@@ -51647,7 +51653,7 @@
   "ui-data-import.settings.matchProfiles.totalAmount": [
     {
       "type": 0,
-      "value": "Całkowita kwota"
+      "value": "Kwota całkowita"
     }
   ],
   "ui-data-import.settings.matchProfiles.trial": [
@@ -57059,7 +57065,7 @@
   "ui-eholdings.settings.assignedUsers.list.patronGroup": [
     {
       "type": 0,
-      "value": "Grupa czytelników"
+      "value": "Grupa czytelnika"
     }
   ],
   "ui-eholdings.settings.assignedUsers.list.unassignUser": [
@@ -59694,6 +59700,12 @@
       "value": "Data końcowa musi być większa niż data początkowa"
     }
   ],
+  "ui-erm-usage.errors.enterValidUrl": [
+    {
+      "type": 0,
+      "value": "Please enter a valid URL"
+    }
+  ],
   "ui-erm-usage.errors.required": [
     {
       "type": 0,
@@ -61271,6 +61283,12 @@
     {
       "type": 0,
       "value": "URL linku"
+    }
+  ],
+  "ui-erm-usage.statistics.custom.linkUrlFilePath": [
+    {
+      "type": 0,
+      "value": "Link URL / File path"
     }
   ],
   "ui-erm-usage.statistics.custom.selectFileFirst": [
@@ -76583,7 +76601,7 @@
   "ui-inventory.reports.inTransitItem.requesterPatronGroup": [
     {
       "type": 0,
-      "value": "Grupa czytelników rezerwującego"
+      "value": "Grupa czytelnika rezerwującego"
     }
   ],
   "ui-inventory.reports.inTransitItem.shelvingLocation": [
@@ -85286,7 +85304,7 @@
   "ui-lists.lists.columns.patron-group": [
     {
       "type": 0,
-      "value": "Grupa czytelników"
+      "value": "Grupa czytelnika"
     }
   ],
   "ui-lists.lists.columns.record-type": [
@@ -89227,37 +89245,37 @@
   "ui-notes.permission.item.assign-unassign.execute": [
     {
       "type": 0,
-      "value": "Notes: Can assign and unassign a note"
+      "value": "Uwagi: można przypisać i odpisać uwagę"
     }
   ],
   "ui-notes.permission.item.create": [
     {
       "type": 0,
-      "value": "Uwagi: Może tworzyć uwagi"
+      "value": "Uwagi: można tworzyć uwagę"
     }
   ],
   "ui-notes.permission.item.delete": [
     {
       "type": 0,
-      "value": "Uwagi: Może usunąć uwagę"
+      "value": "Uwagi: można usunąć uwagę"
     }
   ],
   "ui-notes.permission.item.edit": [
     {
       "type": 0,
-      "value": "Uwagi: Może edytować uwagę"
+      "value": "Uwagi: można edytować uwagę"
     }
   ],
   "ui-notes.permission.item.view": [
     {
       "type": 0,
-      "value": "Uwagi: Może wyświetlać uwagę"
+      "value": "Uwagi: można wyświetlać uwagę"
     }
   ],
   "ui-notes.permission.module.notes.enabled": [
     {
       "type": 0,
-      "value": "UI: moduł ui-notes jest włączony"
+      "value": "UI: moduł ui-uwagi jest włączony"
     }
   ],
   "ui-notes.permission.notes.enabled": [
@@ -89269,13 +89287,13 @@
   "ui-notes.permission.settings.edit": [
     {
       "type": 0,
-      "value": "Settings (Notes): Edit and View General settings"
+      "value": "Ustawienia (Uwagi): edycja i wyświetlanie ustawień ogólnych"
     }
   ],
   "ui-notes.permission.settings.view": [
     {
       "type": 0,
-      "value": "Settings (Notes): View General settings"
+      "value": "Ustawienia (Uwagi): wyświetlanie ustawień ogólnych"
     }
   ],
   "ui-notes.settings.duplicated": [
@@ -93528,7 +93546,7 @@
   "ui-orders.appMenu.ordersAppSearch": [
     {
       "type": 0,
-      "value": "Orders app Search"
+      "value": "Szukaj w aplikacji Zamówienia"
     }
   ],
   "ui-orders.assignedToMe": [
@@ -93626,7 +93644,7 @@
   "ui-orders.buttons.line.changeInstance": [
     {
       "type": 0,
-      "value": "Change instance connection"
+      "value": "Zmień połączoną instancję"
     }
   ],
   "ui-orders.buttons.line.close": [
@@ -94142,13 +94160,13 @@
   "ui-orders.createInvoice.confirmationModal.order.message": [
     {
       "type": 0,
-      "value": "Do you want to create an invoice from this order?"
+      "value": "Czy chcesz utworzyć fakturę na podstawie tego zamówienia?"
     }
   ],
   "ui-orders.createInvoice.confirmationModal.title": [
     {
       "type": 0,
-      "value": "Create invoice"
+      "value": "Utwórz fakturę"
     }
   ],
   "ui-orders.createdDateAndTime": [
@@ -94302,7 +94320,7 @@
   "ui-orders.eresource.createInventory": [
     {
       "type": 0,
-      "value": "Utwórz rekord inwentarza"
+      "value": "Utwórz rekord katalogowy"
     }
   ],
   "ui-orders.eresource.expectedActivation": [
@@ -95640,7 +95658,7 @@
   "ui-orders.itemDetails.titleLookUp": [
     {
       "type": 0,
-      "value": "Wyszukiwanie tytułu"
+      "value": "Znajdź tytuł"
     }
   ],
   "ui-orders.itemDetails.titleLookUpNoPlugin": [
@@ -95670,7 +95688,7 @@
   "ui-orders.line.accordion.donorInformation": [
     {
       "type": 0,
-      "value": "Donor information"
+      "value": "Informacja o darczyńcy"
     }
   ],
   "ui-orders.line.accordion.eresource": [
@@ -95700,7 +95718,7 @@
   "ui-orders.line.accordion.linkedInstance": [
     {
       "type": 0,
-      "value": "Linked instance"
+      "value": "Połączone instancje"
     }
   ],
   "ui-orders.line.accordion.linkedInstances": [
@@ -95748,7 +95766,7 @@
   "ui-orders.line.accordion.relatedInvoiceLines": [
     {
       "type": 0,
-      "value": "Related invoice lines"
+      "value": "Faktura powiązana z pozycjami"
     }
   ],
   "ui-orders.line.accordion.relatedInvoices": [
@@ -96256,7 +96274,7 @@
   "ui-orders.order.clone.message": [
     {
       "type": 0,
-      "value": "Czy na pewno chcesz sklonować to zamówienie i wszystkie jego pozycje?"
+      "value": "Czy na pewno chcesz powielić to zamówienie i wszystkie jego pozycje?"
     }
   ],
   "ui-orders.order.clone.success": [
@@ -96896,7 +96914,7 @@
   "ui-orders.paneBlock.donorInformation": [
     {
       "type": 0,
-      "value": "Donor information"
+      "value": "Informacja o darczyńcy"
     }
   ],
   "ui-orders.paneBlock.exportDetails": [
@@ -97022,19 +97040,19 @@
   "ui-orders.permission.acq.unit.assignment.assign": [
     {
       "type": 0,
-      "value": "Zamówienia: Przypisywanie działów gromadzenia do nowego zamówienia"
+      "value": "Zamówienia: przypisywanie jednostek gromadzenia do nowego zamówienia"
     }
   ],
   "ui-orders.permission.acq.unit.assignment.manage": [
     {
       "type": 0,
-      "value": "Zamówienia: Zarządzanie działami gromadzenia"
+      "value": "Zamówienia: zarządzanie jednostkami gromadzenia"
     }
   ],
   "ui-orders.permission.order-lines.cancel": [
     {
       "type": 0,
-      "value": "Orders: Cancel order lines"
+      "value": "Zamówienia: anulowanie pozycji zamówienia"
     }
   ],
   "ui-orders.permission.order-lines.create": [
@@ -97064,13 +97082,13 @@
   "ui-orders.permission.order.approve": [
     {
       "type": 0,
-      "value": "Orders: Approve purchase orders"
+      "value": "Zamówienia: zatwierdzanie zamówień zakupu"
     }
   ],
   "ui-orders.permission.order.cancel": [
     {
       "type": 0,
-      "value": "Orders: Cancel purchase orders"
+      "value": "Zamówienia: anulowanie zamówień zakupu"
     }
   ],
   "ui-orders.permission.order.create": [
@@ -97094,19 +97112,19 @@
   "ui-orders.permission.order.exportCSV": [
     {
       "type": 0,
-      "value": "Zamówienia: Eksportowanie wyników wyszukiwania"
+      "value": "Zamówienia: eksportowanie wyników wyszukiwania"
     }
   ],
   "ui-orders.permission.order.reopen": [
     {
       "type": 0,
-      "value": "Zamówienia: Ponowne otwieranie zamówień"
+      "value": "Zamówienia: ponowne otwieranie zamówień"
     }
   ],
   "ui-orders.permission.order.showHidden": [
     {
       "type": 0,
-      "value": "Orders: Show all hidden fields"
+      "value": "Zamówienia: wyświetl wszystkie ukryte pola"
     }
   ],
   "ui-orders.permission.order.unopen": [
@@ -97130,61 +97148,61 @@
   "ui-orders.permission.orders.create": [
     {
       "type": 0,
-      "value": "Orders: Can create new Orders and Order lines"
+      "value": "Zamówienia: można tworzyć nowe zamówienia i pozycje zamówienia"
     }
   ],
   "ui-orders.permission.orders.delete": [
     {
       "type": 0,
-      "value": "Orders: Can delete Orders and Order lines"
+      "value": "Zamówienia: można usuwać zamówienia i pozycje zamówienia"
     }
   ],
   "ui-orders.permission.orders.edit": [
     {
       "type": 0,
-      "value": "Orders: Can edit Orders and Order lines"
+      "value": "Zamówienia: można edytować zamówienia i pozycje zamówienia"
     }
   ],
   "ui-orders.permission.orders.view": [
     {
       "type": 0,
-      "value": "Orders: Can view Orders and Order lines"
+      "value": "Zamówienia: można wyświetlać zamówienia i pozycje zamówienia"
     }
   ],
   "ui-orders.permission.settings.all": [
     {
       "type": 0,
-      "value": "Ustawienia (Zamówienia): Może wyświetlać i edytować wszystkie ustawienia"
+      "value": "Ustawienia (Zamówienia): może wyświetlać i edytować wszystkie ustawienia"
     }
   ],
   "ui-orders.permission.settings.order-templates.create": [
     {
       "type": 0,
-      "value": "Ustawienia (Zamówienia): Może wyświetlać, edytować, tworzyć nowe Szablony Zamówień"
+      "value": "Ustawienia (Zamówienia): można wyświetlać, edytować, tworzyć nowe szablony zamówień"
     }
   ],
   "ui-orders.permission.settings.order-templates.delete": [
     {
       "type": 0,
-      "value": "Ustawienia (Zamówienia): Może wyświetlać, edytować, usuwać Szablony Zamówień"
+      "value": "Ustawienia (Zamówienia): można wyświetlać, edytować, usuwać szablony zamówień"
     }
   ],
   "ui-orders.permission.settings.order-templates.edit": [
     {
       "type": 0,
-      "value": "Ustawienia (Zamówienia): Może wyświetlać, edytować Szablony Zamówień"
+      "value": "Ustawienia (Zamówienia): można wyświetlać, edytować szablony zamówień"
     }
   ],
   "ui-orders.permission.settings.order-templates.view": [
     {
       "type": 0,
-      "value": "Ustawienia (Zamówienia): Może wyświetlać Szablony Zamówień"
+      "value": "Ustawienia (Zamówienia): można wyświetlać szablony zamówień"
     }
   ],
   "ui-orders.permission.settings.view": [
     {
       "type": 0,
-      "value": "Ustawienia (Zamówienia): Może wyświetlać wszystkie ustawienia"
+      "value": "Ustawienia (Zamówienia): można wyświetlać wszystkie ustawienia"
     }
   ],
   "ui-orders.physical.addVolume": [
@@ -97202,7 +97220,7 @@
   "ui-orders.physical.createInventory": [
     {
       "type": 0,
-      "value": "Utwórz rekord inwentarza"
+      "value": "Utwórz rekord katalogowy"
     }
   ],
   "ui-orders.physical.expectedReceiptDate": [
@@ -97238,7 +97256,7 @@
   "ui-orders.physical.volumes": [
     {
       "type": 0,
-      "value": "Woluminów"
+      "value": "Woluminy"
     }
   ],
   "ui-orders.piece.delete.heading": [
@@ -97316,7 +97334,7 @@
   "ui-orders.poLine.claimingActive": [
     {
       "type": 0,
-      "value": "Claiming active"
+      "value": "Aktywny monit"
     }
   ],
   "ui-orders.poLine.claimingInterval": [
@@ -97512,7 +97530,7 @@
   "ui-orders.poLine.receivingWorkflow": [
     {
       "type": 0,
-      "value": "Receiving workflow"
+      "value": "Przepływ dostaw"
     }
   ],
   "ui-orders.poLine.receivingWorkflow.independent": [
@@ -99961,7 +99979,7 @@
   "ui-orders.user.patronGroup": [
     {
       "type": 0,
-      "value": "Grupa czytelników"
+      "value": "Grupa czytelnika"
     }
   ],
   "ui-orders.user.username": [
@@ -103610,43 +103628,43 @@
   "ui-plugin-bursar-export.bursarExports.aggregate.filter": [
     {
       "type": 0,
-      "value": "Filter type"
+      "value": "Rodzaj filtra"
     }
   ],
   "ui-plugin-bursar-export.bursarExports.aggregate.filter.description": [
     {
       "type": 0,
-      "value": "This will be applied after accounts are evaluated per the “Criteria” specified above."
+      "value": "Opcja ta zostanie zastosowana po dokonaniu oceny kont zgodnie z Kryteriami określonymi powyżej"
     }
   ],
   "ui-plugin-bursar-export.bursarExports.aggregate.filter.header": [
     {
       "type": 0,
-      "value": "Only include patrons with:"
+      "value": "Uwzględnij tylko czytelników z:"
     }
   ],
   "ui-plugin-bursar-export.bursarExports.aggregate.filter.none": [
     {
       "type": 0,
-      "value": "None (include all patrons)"
+      "value": "Brak (uwzględnij wszystkich czytelników)"
     }
   ],
   "ui-plugin-bursar-export.bursarExports.aggregate.filter.numAccounts": [
     {
       "type": 0,
-      "value": "Number of accounts"
+      "value": "Liczba kont"
     }
   ],
   "ui-plugin-bursar-export.bursarExports.aggregate.filter.numAccounts.amount": [
     {
       "type": 0,
-      "value": "Number of accounts"
+      "value": "Liczba kont"
     }
   ],
   "ui-plugin-bursar-export.bursarExports.aggregate.filter.operator": [
     {
       "type": 0,
-      "value": "Comparison operator"
+      "value": "Operator porównania"
     }
   ],
   "ui-plugin-bursar-export.bursarExports.aggregate.filter.operator.greater": [
@@ -103676,7 +103694,7 @@
   "ui-plugin-bursar-export.bursarExports.aggregate.filter.totalAmount": [
     {
       "type": 0,
-      "value": "Total amount"
+      "value": "Kwota całkowita"
     }
   ],
   "ui-plugin-bursar-export.bursarExports.aggregate.filter.totalAmount.amount": [
@@ -103718,7 +103736,7 @@
   "ui-plugin-bursar-export.bursarExports.criteria.accordion": [
     {
       "type": 0,
-      "value": "Criteria"
+      "value": "Kryteria"
     }
   ],
   "ui-plugin-bursar-export.bursarExports.criteria.age.value": [
@@ -103754,7 +103772,7 @@
   "ui-plugin-bursar-export.bursarExports.criteria.select.age": [
     {
       "type": 0,
-      "value": "Age"
+      "value": "Wiek"
     }
   ],
   "ui-plugin-bursar-export.bursarExports.criteria.select.allOf": [
@@ -103772,13 +103790,13 @@
   "ui-plugin-bursar-export.bursarExports.criteria.select.anyOf": [
     {
       "type": 0,
-      "value": "Any of:"
+      "value": "Którykolwiek z:"
     }
   ],
   "ui-plugin-bursar-export.bursarExports.criteria.select.label": [
     {
       "type": 0,
-      "value": "Criteria"
+      "value": "Kryteria"
     }
   ],
   "ui-plugin-bursar-export.bursarExports.criteria.select.location": [
@@ -103790,13 +103808,13 @@
   "ui-plugin-bursar-export.bursarExports.criteria.select.none": [
     {
       "type": 0,
-      "value": "No criteria (always run)"
+      "value": "Brak kryteriów (zawsze uruchamiaj)"
     }
   ],
   "ui-plugin-bursar-export.bursarExports.criteria.select.noneOf": [
     {
       "type": 0,
-      "value": "None of:"
+      "value": "Żaden z:"
     }
   ],
   "ui-plugin-bursar-export.bursarExports.criteria.select.owner": [
@@ -103808,7 +103826,7 @@
   "ui-plugin-bursar-export.bursarExports.criteria.select.patronGroup": [
     {
       "type": 0,
-      "value": "Grupa czytelników"
+      "value": "Grupa czytelnika"
     }
   ],
   "ui-plugin-bursar-export.bursarExports.criteria.select.servicePoint": [
@@ -103844,7 +103862,7 @@
   "ui-plugin-bursar-export.bursarExports.data.accordion.patron": [
     {
       "type": 0,
-      "value": "Patron data format"
+      "value": "Format danych czytelnika"
     }
   ],
   "ui-plugin-bursar-export.bursarExports.daysOutstanding": [
@@ -103862,13 +103880,13 @@
   "ui-plugin-bursar-export.bursarExports.footer.accordion": [
     {
       "type": 0,
-      "value": "Footer format"
+      "value": "Format stopki"
     }
   ],
   "ui-plugin-bursar-export.bursarExports.header.accordion": [
     {
       "type": 0,
-      "value": "Header format"
+      "value": "Format nagłówka"
     }
   ],
   "ui-plugin-bursar-export.bursarExports.itemCode": [
@@ -104234,7 +104252,7 @@
   "ui-plugin-bursar-export.bursarExports.token.accountAmount.enableDecimal": [
     {
       "type": 0,
-      "value": "Include the decimal point"
+      "value": "Uwzględnij przecinek po dziesiątkach"
     }
   ],
   "ui-plugin-bursar-export.bursarExports.token.accountAmount.enableDecimal.description": [
@@ -104318,7 +104336,7 @@
   "ui-plugin-bursar-export.bursarExports.token.currentDate": [
     {
       "type": 0,
-      "value": "Current date"
+      "value": "Aktualna data"
     }
   ],
   "ui-plugin-bursar-export.bursarExports.token.currentDate.format": [
@@ -104420,7 +104438,7 @@
   "ui-plugin-bursar-export.bursarExports.token.currentDate.timezone": [
     {
       "type": 0,
-      "value": "Timezone"
+      "value": "Strefa czasowa"
     }
   ],
   "ui-plugin-bursar-export.bursarExports.token.dataType.typeSelect": [
@@ -104534,7 +104552,7 @@
   "ui-plugin-bursar-export.bursarExports.token.numAccounts": [
     {
       "type": 0,
-      "value": "Number of accounts"
+      "value": "Liczba kont"
     }
   ],
   "ui-plugin-bursar-export.bursarExports.token.tab": [
@@ -104546,7 +104564,7 @@
   "ui-plugin-bursar-export.bursarExports.token.totalAmount": [
     {
       "type": 0,
-      "value": "Total amount"
+      "value": "Kwota całkowita"
     }
   ],
   "ui-plugin-bursar-export.bursarExports.token.userData": [
@@ -104624,7 +104642,7 @@
   "ui-plugin-bursar-export.bursarExports.transfer.accordion": [
     {
       "type": 0,
-      "value": "Transfer accounts to"
+      "value": "Przenieś konta do"
     }
   ],
   "ui-plugin-bursar-export.bursarExports.transfer.account": [
@@ -114943,7 +114961,7 @@
   "ui-reading-room.userDetail.patronGroup": [
     {
       "type": 0,
-      "value": "Patron group"
+      "value": "Grupa czytelnika"
     }
   ],
   "ui-reading-room.userDetail.preferredFirstName": [
@@ -118009,7 +118027,7 @@
   "ui-requests-mediated.form.requesterLookup.patronGroup": [
     {
       "type": 0,
-      "value": "Requester patron group"
+      "value": "Grupa czytelnika rezerwującego"
     }
   ],
   "ui-requests-mediated.form.requesterLookup.username": [
@@ -118900,7 +118918,7 @@
   "ui-requests-mediated.report.requester.patronGroup.group": [
     {
       "type": 0,
-      "value": "Requester patron group"
+      "value": "Grupa czytelnika rezerwującego"
     }
   ],
   "ui-requests-mediated.report.status": [
@@ -118930,7 +118948,7 @@
   "ui-requests-mediated.requesterDetails.patronGroup": [
     {
       "type": 0,
-      "value": "Requester patron group"
+      "value": "Grupa czytelnika rezerwującego"
     }
   ],
   "ui-requests-mediated.requesterDetails.pickupServicePoint": [
@@ -130620,7 +130638,7 @@
   "ui-users.information.patronGroup": [
     {
       "type": 0,
-      "value": "Grupa czytelników"
+      "value": "Grupa czytelnika"
     }
   ],
   "ui-users.information.patronGroup.expirationOffset": [
@@ -130644,7 +130662,7 @@
   "ui-users.information.patronGroups": [
     {
       "type": 0,
-      "value": "Grupy czytelników"
+      "value": "Grupy czytelnika"
     }
   ],
   "ui-users.information.preferredName": [
@@ -134081,7 +134099,7 @@
   "ui-users.permissions.assignedUsers.patronGroup": [
     {
       "type": 0,
-      "value": "Grupa czytelników"
+      "value": "Grupa czytelnika"
     }
   ],
   "ui-users.permissions.availablePermissions": [
@@ -134872,7 +134890,7 @@
   "ui-users.reports.cash.totalAmount": [
     {
       "type": 0,
-      "value": "Całkowita kwota"
+      "value": "Kwota całkowita"
     }
   ],
   "ui-users.reports.cash.totalCount": [
@@ -135070,7 +135088,7 @@
   "ui-users.reports.feeFine.patronGroup": [
     {
       "type": 0,
-      "value": "Grupa czytelników"
+      "value": "Grupa czytelnika"
     }
   ],
   "ui-users.reports.feeFine.patronName": [
@@ -135314,7 +135332,7 @@
   "ui-users.reports.financial.patronGroup": [
     {
       "type": 0,
-      "value": "Grupa czytelników"
+      "value": "Grupa czytelnika"
     }
   ],
   "ui-users.reports.financial.patronName": [
@@ -135350,7 +135368,7 @@
   "ui-users.reports.financial.totalAmount": [
     {
       "type": 0,
-      "value": "Total amount"
+      "value": "Kwota całkowita"
     }
   ],
   "ui-users.reports.financial.totalCount": [
@@ -136370,7 +136388,7 @@
   "ui-users.settings.patronGroups": [
     {
       "type": 0,
-      "value": "Grupy czytelników"
+      "value": "Grupy czytelnika"
     }
   ],
   "ui-users.settings.paymentMethods": [
