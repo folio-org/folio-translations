@@ -24349,6 +24349,12 @@
       "value": "Modyfikacja danych"
     }
   ],
+  "ui-bulk-edit.logs.status.DATA_MODIFICATION_IN_PROGRESS": [
+    {
+      "type": 0,
+      "value": "Data modification"
+    }
+  ],
   "ui-bulk-edit.logs.status.EXECUTING_QUERY": [
     {
       "type": 0,
@@ -32298,7 +32304,7 @@
   "ui-circulation.settings.index.titleLevelRequests": [
     {
       "type": 0,
-      "value": "Rezerwacje tytułu"
+      "value": "Title level requests"
     }
   ],
   "ui-circulation.settings.index.titleLevelRequestsTlr": [
@@ -34398,7 +34404,7 @@
   "ui-circulation.settings.title.titleLevelRequests": [
     {
       "type": 0,
-      "value": "Rezerwacje tytułu"
+      "value": "Title level requests"
     }
   ],
   "ui-circulation.settings.title.titleLevelRequestsTlr": [
@@ -34482,7 +34488,7 @@
   "ui-circulation.settings.titleLevelRequests.paneTitle": [
     {
       "type": 0,
-      "value": "Rezerwacje tytułu"
+      "value": "Title level requests"
     }
   ],
   "ui-circulation.settings.titleLevelRequests.tlrHoldShouldFollowCirculationRules": [
@@ -41233,6 +41239,84 @@
     {
       "type": 0,
       "value": "Błąd ogólny"
+    }
+  ],
+  "ui-data-export.error.holdings.noAffiliation": [
+    {
+      "type": 1,
+      "value": "value1"
+    },
+    {
+      "type": 0,
+      "value": " - the user "
+    },
+    {
+      "type": 1,
+      "value": "value2"
+    },
+    {
+      "type": 0,
+      "value": " is not affiliated with "
+    },
+    {
+      "type": 1,
+      "value": "value3"
+    },
+    {
+      "type": 0,
+      "value": " data tenant and holdings records from this tenant were omitted during export."
+    }
+  ],
+  "ui-data-export.error.holdings.noPermission": [
+    {
+      "type": 1,
+      "value": "value1"
+    },
+    {
+      "type": 0,
+      "value": " - the user "
+    },
+    {
+      "type": 1,
+      "value": "value2"
+    },
+    {
+      "type": 0,
+      "value": " does not have permissions to access the holdings record in "
+    },
+    {
+      "type": 1,
+      "value": "value3"
+    },
+    {
+      "type": 0,
+      "value": " data tenant."
+    }
+  ],
+  "ui-data-export.error.instance.noAffiliation": [
+    {
+      "type": 1,
+      "value": "value1"
+    },
+    {
+      "type": 0,
+      "value": " - the user "
+    },
+    {
+      "type": 1,
+      "value": "value2"
+    },
+    {
+      "type": 0,
+      "value": " is not affiliated with "
+    },
+    {
+      "type": 1,
+      "value": "value3"
+    },
+    {
+      "type": 0,
+      "value": " data tenant(s) and holdings and item records from this tenant were omitted during export."
     }
   ],
   "ui-data-export.error.instance.noPermission": [
@@ -62277,6 +62361,12 @@
       "value": "Organizacje"
     }
   ],
+  "ui-finance.actions.downloadAllocationWorksheet": [
+    {
+      "type": 0,
+      "value": "Download allocation worksheet (CSV)"
+    }
+  ],
   "ui-finance.actions.edit": [
     {
       "type": 0,
@@ -62311,6 +62401,18 @@
     {
       "type": 0,
       "value": "Rollover logs"
+    }
+  ],
+  "ui-finance.allocation.worksheet.download.error": [
+    {
+      "type": 0,
+      "value": "An error occurred during file generation."
+    }
+  ],
+  "ui-finance.allocation.worksheet.download.start": [
+    {
+      "type": 0,
+      "value": "Please wait while the worksheet is generated. Your download will start automatically"
     }
   ],
   "ui-finance.appMenu.financeAppSearch": [
@@ -63464,7 +63566,7 @@
   "ui-finance.fund.information.donorInformation": [
     {
       "type": 0,
-      "value": "Donor information"
+      "value": "Informacja o darczyńcy"
     }
   ],
   "ui-finance.fund.information.externalAccount": [
@@ -64897,6 +64999,12 @@
       "value": "Niedostępny"
     }
   ],
+  "ui-finance.menuSection.allocationTools": [
+    {
+      "type": 0,
+      "value": "Allocation tools"
+    }
+  ],
   "ui-finance.meta.title": [
     {
       "type": 0,
@@ -64918,19 +65026,19 @@
   "ui-finance.permission.acq.unit.assignment.manage": [
     {
       "type": 0,
-      "value": "Finanse: Zarządzanie działami gromadzenia"
+      "value": "Finanse: zarządzanie jednostkami gromadzenia"
     }
   ],
   "ui-finance.permission.allocations.create": [
     {
       "type": 0,
-      "value": "Finanse: Tworzenie przydziałów"
+      "value": "Finanse: tworzenie przydziałów"
     }
   ],
   "ui-finance.permission.encumbrance.release-manually.execute": [
     {
       "type": 0,
-      "value": "Finance: Manually release encumbrance"
+      "value": "Finanse: ręczne zwolnienie obciążenia"
     }
   ],
   "ui-finance.permission.encumbrance.unrelease": [
@@ -64942,61 +65050,61 @@
   "ui-finance.permission.encumbrance.unrelease.execute": [
     {
       "type": 0,
-      "value": "Finance: Unrelease encumbrance"
+      "value": "Finanse: odblokowanie obciążenia"
     }
   ],
   "ui-finance.permission.exportCSV": [
     {
       "type": 0,
-      "value": "Finance: Export finance records"
+      "value": "Finanse: eksport rekordów finansowych"
     }
   ],
   "ui-finance.permission.fiscal-year.create": [
     {
       "type": 0,
-      "value": "Finanse: Wyświetlanie, edycja, tworzenie roku budżetowego"
+      "value": "Finanse: wyświetlanie, edycja, tworzenie roku podatkowego"
     }
   ],
   "ui-finance.permission.fiscal-year.delete": [
     {
       "type": 0,
-      "value": "Finanse: Wyświetlanie, edycja, usuwanie roku budżetowego"
+      "value": "Finanse: wyświetlanie, edycja, usuwanie roku podatkowego"
     }
   ],
   "ui-finance.permission.fiscal-year.edit": [
     {
       "type": 0,
-      "value": "Finanse: Wyświetlanie, edycja roku budżetowego"
+      "value": "Finanse: wyświetlanie, edycja roku podatkowego"
     }
   ],
   "ui-finance.permission.fiscal-year.view": [
     {
       "type": 0,
-      "value": "Finanse: Wyświetlanie roku budżetowego"
+      "value": "Finanse: wyświetlanie roku podatkowego"
     }
   ],
   "ui-finance.permission.fund-budget.create": [
     {
       "type": 0,
-      "value": "Finanse: Wyświetlanie, edycja, tworzenie funduszu i budżetu"
+      "value": "Finanse: wyświetlanie, edycja, tworzenie funduszu i budżetu"
     }
   ],
   "ui-finance.permission.fund-budget.delete": [
     {
       "type": 0,
-      "value": "Finanse: Wyświetlanie, edycja, usuwanie funduszu i budżetu"
+      "value": "Finanse: wyświetlanie, edycja, usuwanie funduszu i budżetu"
     }
   ],
   "ui-finance.permission.fund-budget.edit": [
     {
       "type": 0,
-      "value": "Finanse: Wyświetlanie, edycja funduszu i budżetu"
+      "value": "Finanse: wyświetlanie, edycja funduszu i budżetu"
     }
   ],
   "ui-finance.permission.fund-budget.recalculate-totals.execute": [
     {
       "type": 0,
-      "value": "Finance: Recalculate budget totals"
+      "value": "Finanse: przeliczanie całkowitego budżetu"
     }
   ],
   "ui-finance.permission.fund-budget.recalculateTotals": [
@@ -65008,49 +65116,49 @@
   "ui-finance.permission.fund-budget.view": [
     {
       "type": 0,
-      "value": "Finanse: Wyświetlanie funduszu i budżetu"
+      "value": "Finanse: wyświetlanie funduszu i budżetu"
     }
   ],
   "ui-finance.permission.group.create": [
     {
       "type": 0,
-      "value": "Finanse: Wyświetlanie, edycja, tworzenie grupy"
+      "value": "Finanse: wyświetlanie, edycja, tworzenie grupy"
     }
   ],
   "ui-finance.permission.group.delete": [
     {
       "type": 0,
-      "value": "Finanse: Wyświetlanie, edycja, usuwanie grupy"
+      "value": "Finanse: wyświetlanie, edycja, usuwanie grupy"
     }
   ],
   "ui-finance.permission.group.edit": [
     {
       "type": 0,
-      "value": "Finanse: Wyświetlanie, edycja grupy"
+      "value": "Finanse: wyświetlanie, edycja grupy"
     }
   ],
   "ui-finance.permission.group.view": [
     {
       "type": 0,
-      "value": "Finanse: Wyświetlanie grupy"
+      "value": "Finanse: wyświetlanie grupy"
     }
   ],
   "ui-finance.permission.ledger.create": [
     {
       "type": 0,
-      "value": "Finanse: Wyświetlanie, edycja, tworzenie księgi głównej"
+      "value": "Finanse: wyświetlanie, edycja, tworzenie rejestru"
     }
   ],
   "ui-finance.permission.ledger.delete": [
     {
       "type": 0,
-      "value": "Finanse: Wyświetlanie, edycja, usuwanie księgi głównej"
+      "value": "Finanse: wyświetlanie, edycja, usuwanie rejestru"
     }
   ],
   "ui-finance.permission.ledger.edit": [
     {
       "type": 0,
-      "value": "Finanse: Wyświetlanie, edycja księgi głównej"
+      "value": "Finanse: wyświetlanie, edycja rejestru"
     }
   ],
   "ui-finance.permission.ledger.rollover": [
@@ -65062,13 +65170,13 @@
   "ui-finance.permission.ledger.rollover.execute": [
     {
       "type": 0,
-      "value": "Finance: Execute fiscal year rollover"
+      "value": "Finanse: wykonywanie przeniesienia roku podatkowego"
     }
   ],
   "ui-finance.permission.ledger.view": [
     {
       "type": 0,
-      "value": "Finanse: Wyświetlanie księgi głównej"
+      "value": "Finanse: wyświetlanie rejestru"
     }
   ],
   "ui-finance.permission.manually-release-encumbrances": [
@@ -65080,7 +65188,7 @@
   "ui-finance.permission.settings.all": [
     {
       "type": 0,
-      "value": "Ustawienia (Finanse): Wyświetlanie, edycja, tworzenie, usuwanie"
+      "value": "Ustawienia (Finanse): wyświetlanie, edycja, tworzenie, usuwanie"
     }
   ],
   "ui-finance.permission.settings.exportFundAndExpenseClassCodes": [
@@ -65092,13 +65200,13 @@
   "ui-finance.permission.settings.view": [
     {
       "type": 0,
-      "value": "Settings (Finance): View settings"
+      "value": "Ustawienia (Finanse): wyświetlanie ustawień"
     }
   ],
   "ui-finance.permission.transfers.create": [
     {
       "type": 0,
-      "value": "Finanse: Tworzenie przelewów"
+      "value": "Finanse: tworzenie transferów"
     }
   ],
   "ui-finance.plugin.findFund.notFound": [
@@ -65158,6 +65266,12 @@
     {
       "type": 0,
       "value": "Szukaj"
+    }
+  ],
+  "ui-finance.selectFiscalYear": [
+    {
+      "type": 0,
+      "value": "Select fiscal year"
     }
   ],
   "ui-finance.settings.button.export": [
@@ -120766,7 +120880,7 @@
   "ui-requests.requestQueue.patronGroup": [
     {
       "type": 0,
-      "value": "Grupa czytelników"
+      "value": "Grupa czytelnika"
     }
   ],
   "ui-requests.requestQueue.pickup": [
@@ -120920,7 +121034,7 @@
   "ui-requests.requester.patronGroup.group": [
     {
       "type": 0,
-      "value": "Grupa czytelników rezerwującego"
+      "value": "Grupa czytelnika rezerwującego"
     }
   ],
   "ui-requests.requester.pickupLocation": [
@@ -121039,6 +121153,12 @@
     {
       "type": 0,
       "value": "Kod kreskowy rezerwującego"
+    }
+  ],
+  "ui-requests.requests.retrievalServicePoint": [
+    {
+      "type": 0,
+      "value": "Retrieval service point"
     }
   ],
   "ui-requests.requests.servicePoint": [

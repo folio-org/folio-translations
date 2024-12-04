@@ -23183,6 +23183,12 @@
       "value": "Wijziging van gegevens"
     }
   ],
+  "ui-bulk-edit.logs.status.DATA_MODIFICATION_IN_PROGRESS": [
+    {
+      "type": 0,
+      "value": "Data modification"
+    }
+  ],
   "ui-bulk-edit.logs.status.EXECUTING_QUERY": [
     {
       "type": 0,
@@ -30140,7 +30146,7 @@
   "ui-circulation.settings.index.titleLevelRequests": [
     {
       "type": 0,
-      "value": "Aanvragen op titelniveau"
+      "value": "Title level requests"
     }
   ],
   "ui-circulation.settings.index.titleLevelRequestsTlr": [
@@ -32232,7 +32238,7 @@
   "ui-circulation.settings.title.titleLevelRequests": [
     {
       "type": 0,
-      "value": "Aanvragen op titelniveau"
+      "value": "Title level requests"
     }
   ],
   "ui-circulation.settings.title.titleLevelRequestsTlr": [
@@ -32316,7 +32322,7 @@
   "ui-circulation.settings.titleLevelRequests.paneTitle": [
     {
       "type": 0,
-      "value": "Aanvragen op titelniveau"
+      "value": "Title level requests"
     }
   ],
   "ui-circulation.settings.titleLevelRequests.tlrHoldShouldFollowCirculationRules": [
@@ -36135,6 +36141,84 @@
     {
       "type": 0,
       "value": "Algemene fout"
+    }
+  ],
+  "ui-data-export.error.holdings.noAffiliation": [
+    {
+      "type": 1,
+      "value": "value1"
+    },
+    {
+      "type": 0,
+      "value": " - the user "
+    },
+    {
+      "type": 1,
+      "value": "value2"
+    },
+    {
+      "type": 0,
+      "value": " is not affiliated with "
+    },
+    {
+      "type": 1,
+      "value": "value3"
+    },
+    {
+      "type": 0,
+      "value": " data tenant and holdings records from this tenant were omitted during export."
+    }
+  ],
+  "ui-data-export.error.holdings.noPermission": [
+    {
+      "type": 1,
+      "value": "value1"
+    },
+    {
+      "type": 0,
+      "value": " - the user "
+    },
+    {
+      "type": 1,
+      "value": "value2"
+    },
+    {
+      "type": 0,
+      "value": " does not have permissions to access the holdings record in "
+    },
+    {
+      "type": 1,
+      "value": "value3"
+    },
+    {
+      "type": 0,
+      "value": " data tenant."
+    }
+  ],
+  "ui-data-export.error.instance.noAffiliation": [
+    {
+      "type": 1,
+      "value": "value1"
+    },
+    {
+      "type": 0,
+      "value": " - the user "
+    },
+    {
+      "type": 1,
+      "value": "value2"
+    },
+    {
+      "type": 0,
+      "value": " is not affiliated with "
+    },
+    {
+      "type": 1,
+      "value": "value3"
+    },
+    {
+      "type": 0,
+      "value": " data tenant(s) and holdings and item records from this tenant were omitted during export."
     }
   ],
   "ui-data-export.error.instance.noPermission": [
@@ -56581,6 +56665,12 @@
       "value": "Organisaties"
     }
   ],
+  "ui-finance.actions.downloadAllocationWorksheet": [
+    {
+      "type": 0,
+      "value": "Download allocation worksheet (CSV)"
+    }
+  ],
   "ui-finance.actions.edit": [
     {
       "type": 0,
@@ -56615,6 +56705,18 @@
     {
       "type": 0,
       "value": "Rolloverlogs"
+    }
+  ],
+  "ui-finance.allocation.worksheet.download.error": [
+    {
+      "type": 0,
+      "value": "An error occurred during file generation."
+    }
+  ],
+  "ui-finance.allocation.worksheet.download.start": [
+    {
+      "type": 0,
+      "value": "Please wait while the worksheet is generated. Your download will start automatically"
     }
   ],
   "ui-finance.appMenu.financeAppSearch": [
@@ -59147,6 +59249,12 @@
       "value": "Niet beschikbaar"
     }
   ],
+  "ui-finance.menuSection.allocationTools": [
+    {
+      "type": 0,
+      "value": "Allocation tools"
+    }
+  ],
   "ui-finance.meta.title": [
     {
       "type": 0,
@@ -59378,6 +59486,12 @@
     {
       "type": 0,
       "value": "Zoeken"
+    }
+  ],
+  "ui-finance.selectFiscalYear": [
+    {
+      "type": 0,
+      "value": "Select fiscal year"
     }
   ],
   "ui-finance.settings.button.export": [
@@ -112639,6 +112753,12 @@
     {
       "type": 0,
       "value": "Barcode aanvrager"
+    }
+  ],
+  "ui-requests.requests.retrievalServicePoint": [
+    {
+      "type": 0,
+      "value": "Retrieval service point"
     }
   ],
   "ui-requests.requests.servicePoint": [
