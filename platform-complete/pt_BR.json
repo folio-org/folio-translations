@@ -1607,7 +1607,7 @@
   "stripes-authority-components.authorities.error.forbidden": [
     {
       "type": 0,
-      "value": "O usuário não tem permissão para pesquisar registros de autoridade."
+      "value": "O usuário não tem permissão para buscar registros de autoridade."
     }
   ],
   "stripes-authority-components.authority.view.error.notFound": [
@@ -1746,7 +1746,7 @@
   "stripes-authority-components.label.search.textArea": [
     {
       "type": 0,
-      "value": "Digite consulta de pesquisa"
+      "value": "Digite consulta de busca"
     }
   ],
   "stripes-authority-components.lccn": [
@@ -1820,6 +1820,20 @@
     {
       "type": 0,
       "value": "Fonte da autoridade"
+    }
+  ],
+  "stripes-authority-components.search-results-list.error.badRequest": [
+    {
+      "type": 0,
+      "value": "Search could not be processed for "
+    },
+    {
+      "type": 1,
+      "value": "query"
+    },
+    {
+      "type": 0,
+      "value": ". Please check your query and try again."
     }
   ],
   "stripes-authority-components.search-results-list.headingRef": [
@@ -1938,7 +1952,7 @@
   "stripes-authority-components.search.subjectHeadings": [
     {
       "type": 0,
-      "value": "Thesaurus"
+      "value": "Tesauro"
     }
   ],
   "stripes-authority-components.search.updatedDate": [
@@ -100922,7 +100936,7 @@
   "ui-organizations.appMenu.organizationsAppSearch": [
     {
       "type": 0,
-      "value": "Pesquisa no aplicativo Organizações"
+      "value": "Buscar no aplicativo Organizações"
     }
   ],
   "ui-organizations.bankingInformation": [
@@ -102529,10 +102543,52 @@
       "value": "Nome da integração"
     }
   ],
+  "ui-organizations.integration.info.fileFormat": [
+    {
+      "type": 0,
+      "value": "File format"
+    }
+  ],
+  "ui-organizations.integration.info.integrationType": [
+    {
+      "type": 0,
+      "value": "Integration type"
+    }
+  ],
+  "ui-organizations.integration.info.integrationType.claiming": [
+    {
+      "type": 0,
+      "value": "Claiming"
+    }
+  ],
+  "ui-organizations.integration.info.integrationType.ordering": [
+    {
+      "type": 0,
+      "value": "Ordering"
+    }
+  ],
   "ui-organizations.integration.info.isDefaultConfig": [
     {
       "type": 0,
       "value": "Integração padrão"
+    }
+  ],
+  "ui-organizations.integration.info.transmissionMethod": [
+    {
+      "type": 0,
+      "value": "Transmission method"
+    }
+  ],
+  "ui-organizations.integration.info.transmissionMethod.fileDownLoad": [
+    {
+      "type": 0,
+      "value": "File download"
+    }
+  ],
+  "ui-organizations.integration.info.transmissionMethod.ftp": [
+    {
+      "type": 0,
+      "value": "FTP"
     }
   ],
   "ui-organizations.integration.message.delete.error": [
@@ -103405,7 +103461,7 @@
   "ui-organizations.search": [
     {
       "type": 0,
-      "value": "Pesquisa"
+      "value": "Buscar"
     }
   ],
   "ui-organizations.search.aliases": [
@@ -103465,7 +103521,7 @@
   "ui-organizations.search.placeholder.language": [
     {
       "type": 0,
-      "value": "Pesquise com código de idioma"
+      "value": "Busca com código de idioma"
     }
   ],
   "ui-organizations.search.taxId": [
@@ -104085,13 +104141,13 @@
   "ui-organizations.versionHistory.field.accessProvider": [
     {
       "type": 0,
-      "value": "Access provider"
+      "value": "Provedor de acesso"
     }
   ],
   "ui-organizations.versionHistory.field.accounts.acqUnitsIds": [
     {
       "type": 0,
-      "value": "Account acquisition units"
+      "value": "Unidades de aquisição de contas"
     }
   ],
   "ui-organizations.versionHistory.field.accounts.description": [
@@ -104145,37 +104201,37 @@
   "ui-organizations.versionHistory.field.alias.description": [
     {
       "type": 0,
-      "value": "Alias description"
+      "value": "Descrição do alias"
     }
   ],
   "ui-organizations.versionHistory.field.edi.ediJob.notifyAllEdi": [
     {
       "type": 0,
-      "value": "Notify all"
+      "value": "Notificar tudo"
     }
   ],
   "ui-organizations.versionHistory.field.edi.ediJob.notifyErrorOnly": [
     {
       "type": 0,
-      "value": "Notify error only"
+      "value": "Notificação de erro somente"
     }
   ],
   "ui-organizations.versionHistory.field.edi.ediJob.notifyInvoiceOnly": [
     {
       "type": 0,
-      "value": "Notify invoice only"
+      "value": "Notificação de fatura somente"
     }
   ],
   "ui-organizations.versionHistory.field.edi.ediJob.schedulingNotes": [
     {
       "type": 0,
-      "value": "Scheduling notes"
+      "value": "Notas de programação"
     }
   ],
   "ui-organizations.versionHistory.field.edi.ediJob.sendToEmails": [
     {
       "type": 0,
-      "value": "Send to emails"
+      "value": "Emails enviados"
     }
   ],
   "ui-organizations.versionHistory.field.edi.notes": [
@@ -104187,13 +104243,13 @@
   "ui-organizations.versionHistory.field.edi.prorateFees": [
     {
       "type": 0,
-      "value": "Prorate fees"
+      "value": "Taxas de pró rateio"
     }
   ],
   "ui-organizations.versionHistory.field.edi.prorateTax": [
     {
       "type": 0,
-      "value": "Prorate tax"
+      "value": "Taxa de rateio"
     }
   ],
   "ui-organizations.versionHistory.field.emails.categories": [
@@ -104223,37 +104279,37 @@
   "ui-organizations.versionHistory.field.governmental": [
     {
       "type": 0,
-      "value": "Governmental"
+      "value": "Governamental"
     }
   ],
   "ui-organizations.versionHistory.field.licensor": [
     {
       "type": 0,
-      "value": "Licensor"
+      "value": "Licenciador"
     }
   ],
   "ui-organizations.versionHistory.field.metadata.createdByUserId": [
     {
       "type": 0,
-      "value": "Created by"
+      "value": "Criado por"
     }
   ],
   "ui-organizations.versionHistory.field.metadata.createdDate": [
     {
       "type": 0,
-      "value": "Created date"
+      "value": "Data de criação"
     }
   ],
   "ui-organizations.versionHistory.field.metadata.updatedByUserId": [
     {
       "type": 0,
-      "value": "Updated by"
+      "value": "Atualizado por"
     }
   ],
   "ui-organizations.versionHistory.field.metadata.updatedDate": [
     {
       "type": 0,
-      "value": "Updated date"
+      "value": "Data de atualização"
     }
   ],
   "ui-organizations.versionHistory.field.phoneNumbers.categories": [
@@ -104283,7 +104339,7 @@
   "ui-organizations.versionHistory.field.sanCode": [
     {
       "type": 0,
-      "value": "SAN Code"
+      "value": "Código SAN"
     }
   ],
   "ui-organizations.versionHistory.field.urls.categories": [

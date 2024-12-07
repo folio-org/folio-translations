@@ -1824,6 +1824,20 @@
       "value": "Źródło kartoteki"
     }
   ],
+  "stripes-authority-components.search-results-list.error.badRequest": [
+    {
+      "type": 0,
+      "value": "Search could not be processed for "
+    },
+    {
+      "type": 1,
+      "value": "query"
+    },
+    {
+      "type": 0,
+      "value": ". Please check your query and try again."
+    }
+  ],
   "stripes-authority-components.search-results-list.headingRef": [
     {
       "type": 0,
@@ -101673,7 +101687,7 @@
   "ui-organizations.filterConfig.isDonor": [
     {
       "type": 0,
-      "value": "Is donor"
+      "value": "Jest darczyńcą"
     }
   ],
   "ui-organizations.filterConfig.isVendor": [
@@ -101703,7 +101717,7 @@
   "ui-organizations.filterConfig.types": [
     {
       "type": 0,
-      "value": "Types"
+      "value": "Rodzaje"
     }
   ],
   "ui-organizations.filterConfig.updatedBy": [
@@ -101948,10 +101962,52 @@
       "value": "Integration name"
     }
   ],
+  "ui-organizations.integration.info.fileFormat": [
+    {
+      "type": 0,
+      "value": "File format"
+    }
+  ],
+  "ui-organizations.integration.info.integrationType": [
+    {
+      "type": 0,
+      "value": "Integration type"
+    }
+  ],
+  "ui-organizations.integration.info.integrationType.claiming": [
+    {
+      "type": 0,
+      "value": "Claiming"
+    }
+  ],
+  "ui-organizations.integration.info.integrationType.ordering": [
+    {
+      "type": 0,
+      "value": "Ordering"
+    }
+  ],
   "ui-organizations.integration.info.isDefaultConfig": [
     {
       "type": 0,
       "value": "Default integration"
+    }
+  ],
+  "ui-organizations.integration.info.transmissionMethod": [
+    {
+      "type": 0,
+      "value": "Transmission method"
+    }
+  ],
+  "ui-organizations.integration.info.transmissionMethod.fileDownLoad": [
+    {
+      "type": 0,
+      "value": "File download"
+    }
+  ],
+  "ui-organizations.integration.info.transmissionMethod.ftp": [
+    {
+      "type": 0,
+      "value": "FTP"
     }
   ],
   "ui-organizations.integration.message.delete.error": [
@@ -102013,7 +102069,7 @@
   "ui-organizations.integration.scheduling.scheduleDay": [
     {
       "type": 0,
-      "value": "Day"
+      "value": "Dzień"
     }
   ],
   "ui-organizations.integration.scheduling.scheduleEDI": [
@@ -102115,43 +102171,43 @@
   "ui-organizations.integration.scheduling.scheduleWeekdaysView.FRIDAY": [
     {
       "type": 0,
-      "value": "Friday"
+      "value": "Piątek"
     }
   ],
   "ui-organizations.integration.scheduling.scheduleWeekdaysView.MONDAY": [
     {
       "type": 0,
-      "value": "Monday"
+      "value": "Poniedziałek"
     }
   ],
   "ui-organizations.integration.scheduling.scheduleWeekdaysView.SATURDAY": [
     {
       "type": 0,
-      "value": "Saturday"
+      "value": "Sobota"
     }
   ],
   "ui-organizations.integration.scheduling.scheduleWeekdaysView.SUNDAY": [
     {
       "type": 0,
-      "value": "Sunday"
+      "value": "Niedziela"
     }
   ],
   "ui-organizations.integration.scheduling.scheduleWeekdaysView.THURSDAY": [
     {
       "type": 0,
-      "value": "Thursday"
+      "value": "Czwartek"
     }
   ],
   "ui-organizations.integration.scheduling.scheduleWeekdaysView.TUESDAY": [
     {
       "type": 0,
-      "value": "Tuesday"
+      "value": "Wtorek"
     }
   ],
   "ui-organizations.integration.scheduling.scheduleWeekdaysView.WEDNESDAY": [
     {
       "type": 0,
-      "value": "Wednesday"
+      "value": "Środa"
     }
   ],
   "ui-organizations.integrationDetails": [
@@ -102589,109 +102645,109 @@
   "ui-organizations.permission.acqUnits.assign": [
     {
       "type": 0,
-      "value": "Organizacje: Przypisanie jednostek gromadzenia do nowej organizacji"
+      "value": "Organizacje: przypisanie jednostek gromadzenia do nowej organizacji"
     }
   ],
   "ui-organizations.permission.acqUnits.manage": [
     {
       "type": 0,
-      "value": "Organizacje: Zarządzanie jednostkami gromadzenia"
+      "value": "Organizacje: zarządzanie jednostkami gromadzenia"
     }
   ],
   "ui-organizations.permission.banking-information.create": [
     {
       "type": 0,
-      "value": "Organizacje: Podgląd, modyfikacja, tworzenie informacji bankowych"
+      "value": "Organizacje: wyświetlanie, edycja i tworzenie informacji bankowych"
     }
   ],
   "ui-organizations.permission.banking-information.delete": [
     {
       "type": 0,
-      "value": "Organizacje: Podgląd, modyfikacja, tworzenie i usuwanie informacji bankowych"
+      "value": "Organizacje: wyświetlanie, edycja, tworzenie i usuwanie informacji bankowych"
     }
   ],
   "ui-organizations.permission.banking-information.edit": [
     {
       "type": 0,
-      "value": "Organizacje: Podgląd, modyfikacja informacji bankowych"
+      "value": "Organizacje: wyświetlanie i edycja informacji bankowych"
     }
   ],
   "ui-organizations.permission.banking-information.view": [
     {
       "type": 0,
-      "value": "Organizacje: Podgląd informacji bankowych"
+      "value": "Organizacje: wyświetlanie informacji bankowych"
     }
   ],
   "ui-organizations.permission.create": [
     {
       "type": 0,
-      "value": "Organizacje: Podgląd, modyfikacja, tworzenie"
+      "value": "Organizacje: wyświetlanie, edycja, tworzenie"
     }
   ],
   "ui-organizations.permission.creds.manage": [
     {
       "type": 0,
-      "value": "Organizations: Interface usernames and passwords: view, edit, create, delete"
+      "value": "Organizacje: interfejs nazw użytkowników i haseł: wyświetlanie, edycja, tworzenie, usuwanie"
     }
   ],
   "ui-organizations.permission.creds.view": [
     {
       "type": 0,
-      "value": "Organizations: Interface usernames and passwords: view"
+      "value": "Organizacje: interfejs nazw użytkowników i haseł: wyświetlanie"
     }
   ],
   "ui-organizations.permission.delete": [
     {
       "type": 0,
-      "value": "Organizacje: Podgląd, modyfikacja, usuwanie"
+      "value": "Organizacje: wyświetlanie, edycja, usuwanie"
     }
   ],
   "ui-organizations.permission.edit": [
     {
       "type": 0,
-      "value": "Organizacje: Podgląd, modyfikacja"
+      "value": "Organizacje: wyświetlanie, edycja"
     }
   ],
   "ui-organizations.permission.integrations.creds.edit": [
     {
       "type": 0,
-      "value": "Organizacje: Integracja użytkowników i haseł: podgląd, modyfikacja"
+      "value": "Organizacje: integracja użytkowników i haseł: podgląd, modyfikacja"
     }
   ],
   "ui-organizations.permission.integrations.creds.view": [
     {
       "type": 0,
-      "value": "Organizacje: Integracja użytkowników i haseł: podgląd"
+      "value": "Organizacje: integracja użytkowników i haseł: podgląd"
     }
   ],
   "ui-organizations.permission.privileged-contacts.edit": [
     {
       "type": 0,
-      "value": "Organizations: can view, create, edit, delete privileged donor information"
+      "value": "Organizacje: można wyświetlać, tworzyć, edytować, usuwać informacje o uprzywilejowanym darczyńcy"
     }
   ],
   "ui-organizations.permission.privileged-contacts.view": [
     {
       "type": 0,
-      "value": "Organizations: can view privileged donor information"
+      "value": "Organizacje: można wyświetlać informacje o uprzywilejowanym darczyńcy"
     }
   ],
   "ui-organizations.permission.settings": [
     {
       "type": 0,
-      "value": "Ustawienia (Organizacje): Podgląd i modyfikacja ustawień"
+      "value": "Ustawienia (Organizacje): wyświetlanie i edycja ustawień"
     }
   ],
   "ui-organizations.permission.settings.view": [
     {
       "type": 0,
-      "value": "Ustawienia (Organizacje): Podgląd ustawień"
+      "value": "Ustawienia (Organizacje): wyświetlanie ustawień"
     }
   ],
   "ui-organizations.permission.view": [
     {
       "type": 0,
-      "value": "Organizacje: Podgląd"
+      "value": "Organizacje: wyświetlanie"
     }
   ],
   "ui-organizations.primaryItem": [
@@ -102703,7 +102759,7 @@
   "ui-organizations.privilegedDonorInformation": [
     {
       "type": 0,
-      "value": "Privileged donor information"
+      "value": "Informacje o uprzywilejowanym darczyńcy"
     }
   ],
   "ui-organizations.resultCount": [
@@ -103142,7 +103198,7 @@
   "ui-organizations.settings.types": [
     {
       "type": 0,
-      "value": "Types"
+      "value": "Rodzaje"
     }
   ],
   "ui-organizations.settings.types.cannotDeleteTermHeader": [

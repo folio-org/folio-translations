@@ -1842,6 +1842,20 @@
       "value": "Zdroj autority"
     }
   ],
+  "stripes-authority-components.search-results-list.error.badRequest": [
+    {
+      "type": 0,
+      "value": "Vyhledávání pro "
+    },
+    {
+      "type": 1,
+      "value": "query"
+    },
+    {
+      "type": 0,
+      "value": " nebylo možné zpracovat. Zkontrolujte prosím svůj dotaz a zkuste to znovu."
+    }
+  ],
   "stripes-authority-components.search-results-list.headingRef": [
     {
       "type": 0,
@@ -101611,10 +101625,52 @@
       "value": "Název integrace"
     }
   ],
+  "ui-organizations.integration.info.fileFormat": [
+    {
+      "type": 0,
+      "value": "File format"
+    }
+  ],
+  "ui-organizations.integration.info.integrationType": [
+    {
+      "type": 0,
+      "value": "Integration type"
+    }
+  ],
+  "ui-organizations.integration.info.integrationType.claiming": [
+    {
+      "type": 0,
+      "value": "Claiming"
+    }
+  ],
+  "ui-organizations.integration.info.integrationType.ordering": [
+    {
+      "type": 0,
+      "value": "Ordering"
+    }
+  ],
   "ui-organizations.integration.info.isDefaultConfig": [
     {
       "type": 0,
       "value": "Výchozí integrace"
+    }
+  ],
+  "ui-organizations.integration.info.transmissionMethod": [
+    {
+      "type": 0,
+      "value": "Transmission method"
+    }
+  ],
+  "ui-organizations.integration.info.transmissionMethod.fileDownLoad": [
+    {
+      "type": 0,
+      "value": "File download"
+    }
+  ],
+  "ui-organizations.integration.info.transmissionMethod.ftp": [
+    {
+      "type": 0,
+      "value": "FTP"
     }
   ],
   "ui-organizations.integration.message.delete.error": [
@@ -101664,7 +101720,7 @@
   "ui-organizations.integration.scheduling": [
     {
       "type": 0,
-      "value": "Rozvrhování"
+      "value": "Plánování"
     }
   ],
   "ui-organizations.integration.scheduling.scheduleDate": [
@@ -101682,13 +101738,13 @@
   "ui-organizations.integration.scheduling.scheduleEDI": [
     {
       "type": 0,
-      "value": "Rozvrh EDI"
+      "value": "Plán EDI"
     }
   ],
   "ui-organizations.integration.scheduling.scheduleFrequency": [
     {
       "type": 0,
-      "value": "Frekvence rozvrhu"
+      "value": "Frekvence plánování"
     }
   ],
   "ui-organizations.integration.scheduling.schedulePeriod": [
@@ -101718,7 +101774,7 @@
   "ui-organizations.integration.scheduling.schedulePeriod.none": [
     {
       "type": 0,
-      "value": "Vyberte prosím období rozvrhu"
+      "value": "Vyberte prosím období plánu"
     }
   ],
   "ui-organizations.integration.scheduling.schedulePeriod.weeks": [
@@ -103107,229 +103163,229 @@
   "ui-organizations.versionHistory.field.accessProvider": [
     {
       "type": 0,
-      "value": "Access provider"
+      "value": "Poskytovatel přístupu"
     }
   ],
   "ui-organizations.versionHistory.field.accounts.acqUnitsIds": [
     {
       "type": 0,
-      "value": "Account acquisition units"
+      "value": "Účetní akviziční jednotky"
     }
   ],
   "ui-organizations.versionHistory.field.accounts.description": [
     {
       "type": 0,
-      "value": "Description (Account)"
+      "value": "Popis (účet)"
     }
   ],
   "ui-organizations.versionHistory.field.accounts.name": [
     {
       "type": 0,
-      "value": "Name (Account)"
+      "value": "Název (účet)"
     }
   ],
   "ui-organizations.versionHistory.field.accounts.notes": [
     {
       "type": 0,
-      "value": "Notes (Account)"
+      "value": "Poznámky (Účet)"
     }
   ],
   "ui-organizations.versionHistory.field.address.categories": [
     {
       "type": 0,
-      "value": "Categories (Address)"
+      "value": "Kategorie (Adresa)"
     }
   ],
   "ui-organizations.versionHistory.field.address.isPrimary": [
     {
       "type": 0,
-      "value": "Primary (Address)"
+      "value": "Hlavní (Adresa)"
     }
   ],
   "ui-organizations.versionHistory.field.address.language": [
     {
       "type": 0,
-      "value": "Language (Address)"
+      "value": "Jazyk (Adresa)"
     }
   ],
   "ui-organizations.versionHistory.field.agreements.name": [
     {
       "type": 0,
-      "value": "Name (Agreement)"
+      "value": "Jméno (Smlouva)"
     }
   ],
   "ui-organizations.versionHistory.field.agreements.notes": [
     {
       "type": 0,
-      "value": "Notes (Agreement)"
+      "value": "Poznámky (Smlouva)"
     }
   ],
   "ui-organizations.versionHistory.field.alias.description": [
     {
       "type": 0,
-      "value": "Alias description"
+      "value": "Popis aliasu"
     }
   ],
   "ui-organizations.versionHistory.field.edi.ediJob.notifyAllEdi": [
     {
       "type": 0,
-      "value": "Notify all"
+      "value": "Upozornit všechny"
     }
   ],
   "ui-organizations.versionHistory.field.edi.ediJob.notifyErrorOnly": [
     {
       "type": 0,
-      "value": "Notify error only"
+      "value": "Oznámit pouze chybu"
     }
   ],
   "ui-organizations.versionHistory.field.edi.ediJob.notifyInvoiceOnly": [
     {
       "type": 0,
-      "value": "Notify invoice only"
+      "value": "Upozornit při faktuře"
     }
   ],
   "ui-organizations.versionHistory.field.edi.ediJob.schedulingNotes": [
     {
       "type": 0,
-      "value": "Scheduling notes"
+      "value": "Poznámky k plánování"
     }
   ],
   "ui-organizations.versionHistory.field.edi.ediJob.sendToEmails": [
     {
       "type": 0,
-      "value": "Send to emails"
+      "value": "Odeslat na e-maily"
     }
   ],
   "ui-organizations.versionHistory.field.edi.notes": [
     {
       "type": 0,
-      "value": "Notes (EDI)"
+      "value": "Poznámky (EDI)"
     }
   ],
   "ui-organizations.versionHistory.field.edi.prorateFees": [
     {
       "type": 0,
-      "value": "Prorate fees"
+      "value": "Poměrné poplatky"
     }
   ],
   "ui-organizations.versionHistory.field.edi.prorateTax": [
     {
       "type": 0,
-      "value": "Prorate tax"
+      "value": "Poměrná daň"
     }
   ],
   "ui-organizations.versionHistory.field.emails.categories": [
     {
       "type": 0,
-      "value": "Categories (Email)"
+      "value": "Kategorie (E-mail)"
     }
   ],
   "ui-organizations.versionHistory.field.emails.description": [
     {
       "type": 0,
-      "value": "Description (Email)"
+      "value": "Popis (E-mail)"
     }
   ],
   "ui-organizations.versionHistory.field.emails.isPrimary": [
     {
       "type": 0,
-      "value": "Primary (Email)"
+      "value": "Hlavní (E-mail)"
     }
   ],
   "ui-organizations.versionHistory.field.emails.language": [
     {
       "type": 0,
-      "value": "Language (Email)"
+      "value": "Jazyk (E-mail)"
     }
   ],
   "ui-organizations.versionHistory.field.governmental": [
     {
       "type": 0,
-      "value": "Governmental"
+      "value": "Vládní"
     }
   ],
   "ui-organizations.versionHistory.field.licensor": [
     {
       "type": 0,
-      "value": "Licensor"
+      "value": "Poskytovatel licence"
     }
   ],
   "ui-organizations.versionHistory.field.metadata.createdByUserId": [
     {
       "type": 0,
-      "value": "Created by"
+      "value": "Vytvořil"
     }
   ],
   "ui-organizations.versionHistory.field.metadata.createdDate": [
     {
       "type": 0,
-      "value": "Created date"
+      "value": "Datum vytvoření"
     }
   ],
   "ui-organizations.versionHistory.field.metadata.updatedByUserId": [
     {
       "type": 0,
-      "value": "Updated by"
+      "value": "Aktualizoval"
     }
   ],
   "ui-organizations.versionHistory.field.metadata.updatedDate": [
     {
       "type": 0,
-      "value": "Updated date"
+      "value": "Aktualizované datum"
     }
   ],
   "ui-organizations.versionHistory.field.phoneNumbers.categories": [
     {
       "type": 0,
-      "value": "Categories (Phone number)"
+      "value": "Kategorie (Telefonní číslo)"
     }
   ],
   "ui-organizations.versionHistory.field.phoneNumbers.isPrimary": [
     {
       "type": 0,
-      "value": "Primary (Phone number)"
+      "value": "Hlavní (Telefonní číslo)"
     }
   ],
   "ui-organizations.versionHistory.field.phoneNumbers.language": [
     {
       "type": 0,
-      "value": "Language (Phone number)"
+      "value": "Jazyk (Telefonní číslo)"
     }
   ],
   "ui-organizations.versionHistory.field.phoneNumbers.type": [
     {
       "type": 0,
-      "value": "Type (Phone number)"
+      "value": "Typ (Telefonní číslo)"
     }
   ],
   "ui-organizations.versionHistory.field.sanCode": [
     {
       "type": 0,
-      "value": "SAN Code"
+      "value": "Kód SAN"
     }
   ],
   "ui-organizations.versionHistory.field.urls.categories": [
     {
       "type": 0,
-      "value": "Categories (URL)"
+      "value": "Kategorie (URL)"
     }
   ],
   "ui-organizations.versionHistory.field.urls.description": [
     {
       "type": 0,
-      "value": "Description (URL)"
+      "value": "Popis (URL)"
     }
   ],
   "ui-organizations.versionHistory.field.urls.isPrimary": [
     {
       "type": 0,
-      "value": "Primary (URL)"
+      "value": "Hlavní (URL)"
     }
   ],
   "ui-organizations.versionHistory.field.urls.language": [
     {
       "type": 0,
-      "value": "Language (URL)"
+      "value": "Jazyk (URL)"
     }
   ],
   "ui-organizations.view.delete": [

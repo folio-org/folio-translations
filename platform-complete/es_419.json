@@ -1738,7 +1738,7 @@
   "stripes-authority-components.label.browse": [
     {
       "type": 0,
-      "value": "Visite"
+      "value": "Indices"
     }
   ],
   "stripes-authority-components.label.search": [
@@ -1799,6 +1799,20 @@
     {
       "type": 0,
       "value": "Authority source"
+    }
+  ],
+  "stripes-authority-components.search-results-list.error.badRequest": [
+    {
+      "type": 0,
+      "value": "Search could not be processed for "
+    },
+    {
+      "type": 1,
+      "value": "query"
+    },
+    {
+      "type": 0,
+      "value": ". Please check your query and try again."
     }
   ],
   "stripes-authority-components.search-results-list.headingRef": [
@@ -101953,10 +101967,52 @@
       "value": "Nombre de la integración"
     }
   ],
+  "ui-organizations.integration.info.fileFormat": [
+    {
+      "type": 0,
+      "value": "File format"
+    }
+  ],
+  "ui-organizations.integration.info.integrationType": [
+    {
+      "type": 0,
+      "value": "Integration type"
+    }
+  ],
+  "ui-organizations.integration.info.integrationType.claiming": [
+    {
+      "type": 0,
+      "value": "Claiming"
+    }
+  ],
+  "ui-organizations.integration.info.integrationType.ordering": [
+    {
+      "type": 0,
+      "value": "Ordering"
+    }
+  ],
   "ui-organizations.integration.info.isDefaultConfig": [
     {
       "type": 0,
       "value": "Integración por defecto"
+    }
+  ],
+  "ui-organizations.integration.info.transmissionMethod": [
+    {
+      "type": 0,
+      "value": "Transmission method"
+    }
+  ],
+  "ui-organizations.integration.info.transmissionMethod.fileDownLoad": [
+    {
+      "type": 0,
+      "value": "File download"
+    }
+  ],
+  "ui-organizations.integration.info.transmissionMethod.ftp": [
+    {
+      "type": 0,
+      "value": "FTP"
     }
   ],
   "ui-organizations.integration.message.delete.error": [

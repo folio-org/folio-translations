@@ -1825,6 +1825,20 @@
       "value": "權威來源"
     }
   ],
+  "stripes-authority-components.search-results-list.error.badRequest": [
+    {
+      "type": 0,
+      "value": "Search could not be processed for "
+    },
+    {
+      "type": 1,
+      "value": "query"
+    },
+    {
+      "type": 0,
+      "value": ". Please check your query and try again."
+    }
+  ],
   "stripes-authority-components.search-results-list.headingRef": [
     {
       "type": 0,
@@ -103680,10 +103694,52 @@
       "value": "整合名稱"
     }
   ],
+  "ui-organizations.integration.info.fileFormat": [
+    {
+      "type": 0,
+      "value": "File format"
+    }
+  ],
+  "ui-organizations.integration.info.integrationType": [
+    {
+      "type": 0,
+      "value": "Integration type"
+    }
+  ],
+  "ui-organizations.integration.info.integrationType.claiming": [
+    {
+      "type": 0,
+      "value": "Claiming"
+    }
+  ],
+  "ui-organizations.integration.info.integrationType.ordering": [
+    {
+      "type": 0,
+      "value": "Ordering"
+    }
+  ],
   "ui-organizations.integration.info.isDefaultConfig": [
     {
       "type": 0,
       "value": "預設整合方式"
+    }
+  ],
+  "ui-organizations.integration.info.transmissionMethod": [
+    {
+      "type": 0,
+      "value": "Transmission method"
+    }
+  ],
+  "ui-organizations.integration.info.transmissionMethod.fileDownLoad": [
+    {
+      "type": 0,
+      "value": "File download"
+    }
+  ],
+  "ui-organizations.integration.info.transmissionMethod.ftp": [
+    {
+      "type": 0,
+      "value": "FTP"
     }
   ],
   "ui-organizations.integration.message.delete.error": [
