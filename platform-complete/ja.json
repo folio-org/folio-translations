@@ -23409,6 +23409,18 @@
       "value": "一括編集"
     }
   ],
+  "ui-bulk-edit.layer.title.administrative": [
+    {
+      "type": 0,
+      "value": "Bulk edits for administrative data"
+    }
+  ],
+  "ui-bulk-edit.layer.title.marc": [
+    {
+      "type": 0,
+      "value": "Bulk edits for instances with source MARC"
+    }
+  ],
   "ui-bulk-edit.list.actions.download": [
     {
       "type": 0,
@@ -24517,6 +24529,12 @@
       "value": "一括編集クエリ"
     }
   ],
+  "ui-bulk-edit.meta.query.title.marc": [
+    {
+      "type": 0,
+      "value": "Bulk edit MARC fields query"
+    }
+  ],
   "ui-bulk-edit.meta.query.title.mark": [
     {
       "type": 0,
@@ -24557,6 +24575,22 @@
     {
       "type": 0,
       "value": "一括編集"
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "fileName"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
+  "ui-bulk-edit.meta.title.uploadedFile.marc": [
+    {
+      "type": 0,
+      "value": "Bulk edit MARC fields - "
     },
     {
       "children": [
@@ -25092,6 +25126,12 @@
     {
       "type": 0,
       "value": "ログ"
+    }
+  ],
+  "ui-bulk-edit.title.marc": [
+    {
+      "type": 0,
+      "value": "Bulk edit MARC fields"
     }
   ],
   "ui-bulk-edit.title.mark": [
