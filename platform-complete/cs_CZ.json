@@ -24269,7 +24269,7 @@
   "ui-bulk-edit.logs.status.DATA_MODIFICATION_IN_PROGRESS": [
     {
       "type": 0,
-      "value": "Data modification"
+      "value": "Úprava dat"
     }
   ],
   "ui-bulk-edit.logs.status.EXECUTING_QUERY": [
@@ -101919,6 +101919,68 @@
       "value": "Detaily integrace"
     }
   ],
+  "ui-organizations.integrationDetails.duplicate.confirmModal.heading": [
+    {
+      "type": 0,
+      "value": "Duplicate integration config"
+    }
+  ],
+  "ui-organizations.integrationDetails.duplicate.confirmModal.message": [
+    {
+      "type": 0,
+      "value": "Are you sure you want to duplicate the "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "term"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " integration config?"
+    }
+  ],
+  "ui-organizations.integrationDetails.duplicate.error": [
+    {
+      "type": 0,
+      "value": "Integration was not duplicated"
+    }
+  ],
+  "ui-organizations.integrationDetails.duplicate.name": [
+    {
+      "type": 0,
+      "value": "Copy of "
+    },
+    {
+      "type": 1,
+      "value": "term"
+    }
+  ],
+  "ui-organizations.integrationDetails.duplicate.success": [
+    {
+      "type": 0,
+      "value": "Integration "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "term"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " was successfully duplicated"
+    }
+  ],
   "ui-organizations.interface": [
     {
       "type": 0,
@@ -102275,6 +102337,18 @@
     {
       "type": 0,
       "value": "Organizace"
+    }
+  ],
+  "ui-organizations.numberGenerator.generateVendorCode": [
+    {
+      "type": 0,
+      "value": "Generate vendor code"
+    }
+  ],
+  "ui-organizations.numberGenerator.vendorCodeGenerator": [
+    {
+      "type": 0,
+      "value": "Vendor code generator"
     }
   ],
   "ui-organizations.organization.delete.confirmLabel": [
@@ -102864,6 +102938,48 @@
       "value": "název"
     }
   ],
+  "ui-organizations.settings.numberGeneratorOptions": [
+    {
+      "type": 0,
+      "value": "Number generator options"
+    }
+  ],
+  "ui-organizations.settings.numberGeneratorOptions.info": [
+    {
+      "type": 0,
+      "value": "Fields which are usually filled using a numeric sequence can use the number generator. When the generator is switched on the field can either be fixed to prevent manual update, or made fully editable. When switched off, the field must be filled manually."
+    }
+  ],
+  "ui-organizations.settings.numberGeneratorOptions.save.error": [
+    {
+      "type": 0,
+      "value": "Error saving setting"
+    }
+  ],
+  "ui-organizations.settings.numberGeneratorOptions.save.success": [
+    {
+      "type": 0,
+      "value": "Setting was successfully saved"
+    }
+  ],
+  "ui-organizations.settings.numberGeneratorOptions.useBothForVendor": [
+    {
+      "type": 0,
+      "value": "Number generator on, editable: the vendor code can be filled using the generator and be edited, or filled manually."
+    }
+  ],
+  "ui-organizations.settings.numberGeneratorOptions.useGeneratorForVendor": [
+    {
+      "type": 0,
+      "value": "Number generator on, fixed: the vendor code can be filled using the generator only."
+    }
+  ],
+  "ui-organizations.settings.numberGeneratorOptions.useTextFieldForVendor": [
+    {
+      "type": 0,
+      "value": "Number generator off: the vendor code can be filled manually only."
+    }
+  ],
   "ui-organizations.settings.type": [
     {
       "type": 0,
@@ -103444,6 +103560,12 @@
     {
       "type": 0,
       "value": "Detaily"
+    }
+  ],
+  "ui-organizations.view.duplicate": [
+    {
+      "type": 0,
+      "value": "Duplicate"
     }
   ],
   "ui-organizations.view.duplicateAccounts": [

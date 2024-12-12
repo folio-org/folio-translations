@@ -21856,19 +21856,19 @@
   "ui-bulk-edit.error.mod-bulk-operations.not.confirm.changes.s3.issue": [
     {
       "type": 0,
-      "value": "There is a problem to retrieve data from S3.   Please contact your hosting provider to check S3 configuration.  Further details are available in Bulk edit app logs (mod-bulk-operations and mod-data-export-worker modules)."
+      "value": "Er is een probleem met het ophalen van gegevens van S3. Neem contact op met uw hostingprovider om de S3-configuratie te controleren. Verdere details zijn beschikbaar in de Bulk edit app logs (mod-bulk-operations en mod-data-export-worker modules)."
     }
   ],
   "ui-bulk-edit.error.mod-bulk-operations.not.download.file.from.s3": [
     {
       "type": 0,
-      "value": "There is a problem to retrieve data from S3.   Please contact your hosting provider to check S3 configuration.  Further details are available in Bulk edit app logs (mod-bulk-operations and mod-data-export-worker modules)."
+      "value": "Er is een probleem met het ophalen van gegevens van S3. Neem contact op met uw hostingprovider om de S3-configuratie te controleren. Verdere details zijn beschikbaar in de logs van de Bulk edit-app (mod-bulk-operations en mod-data-export-worker modules)."
     }
   ],
   "ui-bulk-edit.error.mod-bulk-operations.not.upload.file.s3.invalid.configuration": [
     {
       "type": 0,
-      "value": "There is a problem with S3 configuration that prevents Bulk edit module to save files.  Please contact your hosting provider to check if the Bulk edit app has been configured correctly."
+      "value": "Er is een probleem met de S3-configuratie waardoor de Bulk bewerken-module geen bestanden kan opslaan. Neem contact op met uw hostingprovider om te controleren of de Bulk bewerken-app correct is geconfigureerd."
     }
   ],
   "ui-bulk-edit.error.sww": [
@@ -23212,7 +23212,7 @@
   "ui-bulk-edit.logs.status.DATA_MODIFICATION_IN_PROGRESS": [
     {
       "type": 0,
-      "value": "Data modification"
+      "value": "Gegevenswijziging"
     }
   ],
   "ui-bulk-edit.logs.status.EXECUTING_QUERY": [
@@ -23284,7 +23284,7 @@
   "ui-bulk-edit.menuGroup.startEdit": [
     {
       "type": 0,
-      "value": "Start bulk edit"
+      "value": "Bulkbewerking starten"
     }
   ],
   "ui-bulk-edit.meta.logs.title": [
@@ -23805,7 +23805,7 @@
   "ui-bulk-edit.start.edit.marc": [
     {
       "type": 0,
-      "value": "Instances with source MARC"
+      "value": "Instances met bron MARC"
     }
   ],
   "ui-bulk-edit.start.edit.mark": [
@@ -94564,6 +94564,68 @@
       "value": "Integratiedetails"
     }
   ],
+  "ui-organizations.integrationDetails.duplicate.confirmModal.heading": [
+    {
+      "type": 0,
+      "value": "Duplicate integration config"
+    }
+  ],
+  "ui-organizations.integrationDetails.duplicate.confirmModal.message": [
+    {
+      "type": 0,
+      "value": "Are you sure you want to duplicate the "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "term"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " integration config?"
+    }
+  ],
+  "ui-organizations.integrationDetails.duplicate.error": [
+    {
+      "type": 0,
+      "value": "Integration was not duplicated"
+    }
+  ],
+  "ui-organizations.integrationDetails.duplicate.name": [
+    {
+      "type": 0,
+      "value": "Copy of "
+    },
+    {
+      "type": 1,
+      "value": "term"
+    }
+  ],
+  "ui-organizations.integrationDetails.duplicate.success": [
+    {
+      "type": 0,
+      "value": "Integration "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "term"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " was successfully duplicated"
+    }
+  ],
   "ui-organizations.interface": [
     {
       "type": 0,
@@ -94920,6 +94982,18 @@
     {
       "type": 0,
       "value": "Organisaties"
+    }
+  ],
+  "ui-organizations.numberGenerator.generateVendorCode": [
+    {
+      "type": 0,
+      "value": "Generate vendor code"
+    }
+  ],
+  "ui-organizations.numberGenerator.vendorCodeGenerator": [
+    {
+      "type": 0,
+      "value": "Vendor code generator"
     }
   ],
   "ui-organizations.organization.delete.confirmLabel": [
@@ -95517,6 +95591,48 @@
       "value": "Naam"
     }
   ],
+  "ui-organizations.settings.numberGeneratorOptions": [
+    {
+      "type": 0,
+      "value": "Number generator options"
+    }
+  ],
+  "ui-organizations.settings.numberGeneratorOptions.info": [
+    {
+      "type": 0,
+      "value": "Fields which are usually filled using a numeric sequence can use the number generator. When the generator is switched on the field can either be fixed to prevent manual update, or made fully editable. When switched off, the field must be filled manually."
+    }
+  ],
+  "ui-organizations.settings.numberGeneratorOptions.save.error": [
+    {
+      "type": 0,
+      "value": "Error saving setting"
+    }
+  ],
+  "ui-organizations.settings.numberGeneratorOptions.save.success": [
+    {
+      "type": 0,
+      "value": "Setting was successfully saved"
+    }
+  ],
+  "ui-organizations.settings.numberGeneratorOptions.useBothForVendor": [
+    {
+      "type": 0,
+      "value": "Number generator on, editable: the vendor code can be filled using the generator and be edited, or filled manually."
+    }
+  ],
+  "ui-organizations.settings.numberGeneratorOptions.useGeneratorForVendor": [
+    {
+      "type": 0,
+      "value": "Number generator on, fixed: the vendor code can be filled using the generator only."
+    }
+  ],
+  "ui-organizations.settings.numberGeneratorOptions.useTextFieldForVendor": [
+    {
+      "type": 0,
+      "value": "Number generator off: the vendor code can be filled manually only."
+    }
+  ],
   "ui-organizations.settings.type": [
     {
       "type": 0,
@@ -96097,6 +96213,12 @@
     {
       "type": 0,
       "value": "Details"
+    }
+  ],
+  "ui-organizations.view.duplicate": [
+    {
+      "type": 0,
+      "value": "Duplicate"
     }
   ],
   "ui-organizations.view.duplicateAccounts": [

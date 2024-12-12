@@ -22852,7 +22852,7 @@
   "ui-bulk-edit.layer.marc.error": [
     {
       "type": 0,
-      "value": "Apenas edições nos campos 5xx e 9xx são suportadas atualmente"
+      "value": "A edição em massa dos campos de controle MARC 00X não é permitida."
     }
   ],
   "ui-bulk-edit.layer.marc.error.ind": [
@@ -22864,7 +22864,7 @@
   "ui-bulk-edit.layer.marc.error.limited": [
     {
       "type": 0,
-      "value": "Limitado a 5xx e 9xx."
+      "value": "A edição em massa de campos 00x não é permitida."
     }
   ],
   "ui-bulk-edit.layer.marc.error.protected": [
@@ -23218,13 +23218,13 @@
   "ui-bulk-edit.layer.title.administrative": [
     {
       "type": 0,
-      "value": "Bulk edits for administrative data"
+      "value": "Edições em massa para dados administrativos"
     }
   ],
   "ui-bulk-edit.layer.title.marc": [
     {
       "type": 0,
-      "value": "Bulk edits for instances with source MARC"
+      "value": "Edições em massa para instâncias com MARC de origem"
     }
   ],
   "ui-bulk-edit.list.actions.download": [
@@ -24252,7 +24252,7 @@
   "ui-bulk-edit.logs.status.DATA_MODIFICATION_IN_PROGRESS": [
     {
       "type": 0,
-      "value": "Data modification"
+      "value": "Modificação de dados"
     }
   ],
   "ui-bulk-edit.logs.status.EXECUTING_QUERY": [
@@ -24342,7 +24342,7 @@
   "ui-bulk-edit.meta.query.title.marc": [
     {
       "type": 0,
-      "value": "Bulk edit MARC fields query"
+      "value": "Consulta de edição em massa de campos MARC"
     }
   ],
   "ui-bulk-edit.meta.query.title.mark": [
@@ -24392,7 +24392,7 @@
   "ui-bulk-edit.meta.title.uploadedFile.marc": [
     {
       "type": 0,
-      "value": "Bulk edit MARC fields - "
+      "value": "Edição em massa de campos MARC - "
     },
     {
       "children": [
@@ -24893,13 +24893,13 @@
   "ui-bulk-edit.start.edit.instance": [
     {
       "type": 0,
-      "value": "Instâncias e dados administrativos"
+      "value": "Instâncias FOLIO"
     }
   ],
   "ui-bulk-edit.start.edit.marc": [
     {
       "type": 0,
-      "value": "Instances with source MARC"
+      "value": "Instâncias com MARC de origem"
     }
   ],
   "ui-bulk-edit.start.edit.mark": [
@@ -24941,7 +24941,7 @@
   "ui-bulk-edit.title.marc": [
     {
       "type": 0,
-      "value": "Bulk edit MARC fields"
+      "value": "Edição em massa de campos MARC"
     }
   ],
   "ui-bulk-edit.title.mark": [
@@ -102841,6 +102841,68 @@
       "value": "Detalhes da integração"
     }
   ],
+  "ui-organizations.integrationDetails.duplicate.confirmModal.heading": [
+    {
+      "type": 0,
+      "value": "Duplicate integration config"
+    }
+  ],
+  "ui-organizations.integrationDetails.duplicate.confirmModal.message": [
+    {
+      "type": 0,
+      "value": "Are you sure you want to duplicate the "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "term"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " integration config?"
+    }
+  ],
+  "ui-organizations.integrationDetails.duplicate.error": [
+    {
+      "type": 0,
+      "value": "Integration was not duplicated"
+    }
+  ],
+  "ui-organizations.integrationDetails.duplicate.name": [
+    {
+      "type": 0,
+      "value": "Copy of "
+    },
+    {
+      "type": 1,
+      "value": "term"
+    }
+  ],
+  "ui-organizations.integrationDetails.duplicate.success": [
+    {
+      "type": 0,
+      "value": "Integration "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "term"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " was successfully duplicated"
+    }
+  ],
   "ui-organizations.interface": [
     {
       "type": 0,
@@ -103197,6 +103259,18 @@
     {
       "type": 0,
       "value": "Organizações"
+    }
+  ],
+  "ui-organizations.numberGenerator.generateVendorCode": [
+    {
+      "type": 0,
+      "value": "Generate vendor code"
+    }
+  ],
+  "ui-organizations.numberGenerator.vendorCodeGenerator": [
+    {
+      "type": 0,
+      "value": "Vendor code generator"
     }
   ],
   "ui-organizations.organization.delete.confirmLabel": [
@@ -103822,6 +103896,48 @@
       "value": "nome"
     }
   ],
+  "ui-organizations.settings.numberGeneratorOptions": [
+    {
+      "type": 0,
+      "value": "Number generator options"
+    }
+  ],
+  "ui-organizations.settings.numberGeneratorOptions.info": [
+    {
+      "type": 0,
+      "value": "Fields which are usually filled using a numeric sequence can use the number generator. When the generator is switched on the field can either be fixed to prevent manual update, or made fully editable. When switched off, the field must be filled manually."
+    }
+  ],
+  "ui-organizations.settings.numberGeneratorOptions.save.error": [
+    {
+      "type": 0,
+      "value": "Error saving setting"
+    }
+  ],
+  "ui-organizations.settings.numberGeneratorOptions.save.success": [
+    {
+      "type": 0,
+      "value": "Setting was successfully saved"
+    }
+  ],
+  "ui-organizations.settings.numberGeneratorOptions.useBothForVendor": [
+    {
+      "type": 0,
+      "value": "Number generator on, editable: the vendor code can be filled using the generator and be edited, or filled manually."
+    }
+  ],
+  "ui-organizations.settings.numberGeneratorOptions.useGeneratorForVendor": [
+    {
+      "type": 0,
+      "value": "Number generator on, fixed: the vendor code can be filled using the generator only."
+    }
+  ],
+  "ui-organizations.settings.numberGeneratorOptions.useTextFieldForVendor": [
+    {
+      "type": 0,
+      "value": "Number generator off: the vendor code can be filled manually only."
+    }
+  ],
   "ui-organizations.settings.type": [
     {
       "type": 0,
@@ -104422,6 +104538,12 @@
     {
       "type": 0,
       "value": "Detalhes"
+    }
+  ],
+  "ui-organizations.view.duplicate": [
+    {
+      "type": 0,
+      "value": "Duplicate"
     }
   ],
   "ui-organizations.view.duplicateAccounts": [
