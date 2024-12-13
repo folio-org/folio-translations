@@ -32238,7 +32238,7 @@
   "ui-circulation.settings.index.titleLevelRequests": [
     {
       "type": 0,
-      "value": "Title level requests"
+      "value": "Réservations au niveau du titre"
     }
   ],
   "ui-circulation.settings.index.titleLevelRequestsTlr": [
@@ -34330,7 +34330,7 @@
   "ui-circulation.settings.title.titleLevelRequests": [
     {
       "type": 0,
-      "value": "Title level requests"
+      "value": "Réservations au niveau du titre"
     }
   ],
   "ui-circulation.settings.title.titleLevelRequestsTlr": [
@@ -34414,7 +34414,7 @@
   "ui-circulation.settings.titleLevelRequests.paneTitle": [
     {
       "type": 0,
-      "value": "Title level requests"
+      "value": "Réservations au niveau du titre"
     }
   ],
   "ui-circulation.settings.titleLevelRequests.tlrHoldShouldFollowCirculationRules": [
@@ -41288,7 +41288,7 @@
     },
     {
       "type": 0,
-      "value": " the user "
+      "value": " - the user "
     },
     {
       "type": 1,
@@ -47381,7 +47381,7 @@
   "ui-data-import.settings.mappingProfiles.map.administrativeData.field.staffSuppress": [
     {
       "type": 0,
-      "value": "Supprimer de la vue du personnel"
+      "value": "Masquer de l'interface professionnelle"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.administrativeData.field.statisticalCode": [
@@ -56104,7 +56104,7 @@
   "ui-eholdings.permission.app.view": [
     {
       "type": 0,
-      "value": "eHoldings: Can view providers, packages, titles detail records"
+      "value": "eHoldings : peut afficher les fournisseurs, les bouquets, les notices de détails des titres"
     }
   ],
   "ui-eholdings.permission.costperuse.view": [
@@ -56122,7 +56122,7 @@
   "ui-eholdings.permission.package-title.select-unselect.execute": [
     {
       "type": 0,
-      "value": "eHoldings: Can select/unselect packages and titles to/from your holdings"
+      "value": "eHoldings : peut (dé)sélectionner des bouquets et des titres de/vers vos localisations"
     }
   ],
   "ui-eholdings.permission.records.edit": [
@@ -56212,7 +56212,7 @@
   "ui-eholdings.permission.titles-packages.create-delete.manage": [
     {
       "type": 0,
-      "value": "eHoldings: Can create and delete custom packages and titles"
+      "value": "eHoldings : peut créer et supprimer des bouquets et des titres personnalisés"
     }
   ],
   "ui-eholdings.previous": [
@@ -72636,7 +72636,7 @@
   "ui-inventory.hasLinkedLocalOrderLine.modal.message": [
     {
       "type": 0,
-      "value": "This holding or item is referenced by a local purchase order line, it's affiliation cannot be changed at this time."
+      "value": "Cette localisation ou cet exemplaire est référencé dans une ligne de commande locale, son affiliation ne peut être modifiée pour le moment."
     }
   ],
   "ui-inventory.holdingRecord": [
@@ -73781,7 +73781,7 @@
   "ui-inventory.item.status.agedToLost.lowercase": [
     {
       "type": 0,
-      "value": "aged to lost"
+      "value": "considéré comme perdu"
     }
   ],
   "ui-inventory.item.status.available": [
@@ -73889,7 +73889,7 @@
   "ui-inventory.item.status.inTransit.lowercase": [
     {
       "type": 0,
-      "value": "in transit"
+      "value": "en transit"
     }
   ],
   "ui-inventory.item.status.inTransitTo": [
@@ -75637,7 +75637,7 @@
   "ui-inventory.permission.instance.view-staff-suppressed-records": [
     {
       "type": 0,
-      "value": "Catalogue : afficher les notices supprimés de la vue du personnel"
+      "value": "Catalogue : afficher les notices masquées de l'interface professionnelle"
     }
   ],
   "ui-inventory.permission.item.create": [
@@ -76969,7 +76969,7 @@
     },
     {
       "type": 0,
-      "value": ". Quand une notice est marquée à supprimer, la notice sera masquée dans l'outil de découverte et supprimée de la vue du personnel. Si la notice est en MARC, alors le MARC LDR 05 sera défini sur \"d\"."
+      "value": ". Quand une notice est marquée à supprimer, la notice sera masquée dans l'outil de découverte et dans l'interface professionnelle. Si la notice est en MARC, alors le MARC LDR 05 sera défini sur \"d\"."
     }
   ],
   "ui-inventory.setForDeletion.toast.successful": [
@@ -77283,13 +77283,13 @@
   "ui-inventory.staffSuppress": [
     {
       "type": 0,
-      "value": "Supprimer de la vue du personnel"
+      "value": "Masquer de l'interface professionnelle"
     }
   ],
   "ui-inventory.staffSuppressed": [
     {
       "type": 0,
-      "value": "Supprimé de la vue du personnel"
+      "value": "Masqué de l'interface professionnelle"
     }
   ],
   "ui-inventory.statisticalCode": [
@@ -77887,7 +77887,7 @@
   "ui-inventory.warning.instance.staffSuppressed": [
     {
       "type": 0,
-      "value": "Avertissement : la notice est marquée comme étant supprimée de la vue du personnel"
+      "value": "Avertissement : la notice est marquée comme étant masquée de l'interface professionnelle"
     }
   ],
   "ui-inventory.warning.instance.suppressedFromDiscovery": [
@@ -77899,7 +77899,7 @@
   "ui-inventory.warning.instance.suppressedFromDiscoveryAndStaffSuppressed": [
     {
       "type": 0,
-      "value": "Avertissement : la notice est marquée comme masquée dans l'outil de découverte ainsi que supprimée de la vue du personnel"
+      "value": "Avertissement : la notice est marquée comme masquée dans l'outil de découverte ainsi que dans l'interface professionnelle"
     }
   ],
   "ui-inventory.warning.item.suppressedFromDiscovery": [
@@ -109275,7 +109275,7 @@
   "ui-quick-marc.print": [
     {
       "type": 0,
-      "value": "Papier"
+      "value": "Imprimer"
     }
   ],
   "ui-quick-marc.record.addField": [
@@ -132532,7 +132532,7 @@
   "ui-users.lostItems.list.filters.lossType.agedToLost": [
     {
       "type": 0,
-      "value": "Aged to lost"
+      "value": "Considéré comme perdu"
     }
   ],
   "ui-users.lostItems.list.filters.lossType.declaredLost": [

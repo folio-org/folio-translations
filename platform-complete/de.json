@@ -30934,7 +30934,7 @@
   "ui-circulation.permission.settings.view-cancellation-reasons": [
     {
       "type": 0,
-      "value": "Settings (Circulation): Can view cancellation reasons"
+      "value": "Einstellungen (Ausleihe): Kann Stornierungsgründe anzeigen"
     }
   ],
   "ui-circulation.permission.settings.view-circulation-rules": [
@@ -30946,7 +30946,7 @@
   "ui-circulation.permission.settings.view-circulation-settings": [
     {
       "type": 0,
-      "value": "Settings (Circulation): Can view all circulation settings"
+      "value": "Einstellungen (Ausleihe): Kann alle Ausleih-Einstellungen anzeigen"
     }
   ],
   "ui-circulation.permission.settings.view-fixed-due-date-schedules": [
@@ -32444,7 +32444,7 @@
   "ui-circulation.settings.index.titleLevelRequestsTlr": [
     {
       "type": 0,
-      "value": "Title level requests (TLR)"
+      "value": "Bestandsanfragen auf Titelebene"
     }
   ],
   "ui-circulation.settings.index.tlrPatronNotices": [
@@ -34540,7 +34540,7 @@
   "ui-circulation.settings.title.titleLevelRequestsTlr": [
     {
       "type": 0,
-      "value": "Title level requests (TLR)"
+      "value": "Bestandsanfragen auf Titelebene"
     }
   ],
   "ui-circulation.settings.title.tlrPatronNotices": [
@@ -34630,7 +34630,7 @@
   "ui-circulation.settings.titleLevelRequestsTlr.paneTitle": [
     {
       "type": 0,
-      "value": "Title level requests (TLR)"
+      "value": "Bestandsanfragen auf Titelebene"
     }
   ],
   "ui-circulation.settings.tlrPatronNotices.paneTitle": [
@@ -41496,7 +41496,7 @@
     },
     {
       "type": 0,
-      "value": " the user "
+      "value": " - the user "
     },
     {
       "type": 1,
@@ -70866,7 +70866,7 @@
   "ui-inventory.actions.menuSection.sortBy.date": [
     {
       "type": 0,
-      "value": "Date"
+      "value": "Datum"
     }
   ],
   "ui-inventory.actions.menuSection.sortBy.relevance": [
@@ -71068,7 +71068,7 @@
   "ui-inventory.addPublicationFrequency": [
     {
       "type": 0,
-      "value": "Erscheinungsweise hinzufügen"
+      "value": "Erscheinungsfrequenz hinzufügen"
     }
   ],
   "ui-inventory.addPublicationRange": [
@@ -72601,7 +72601,7 @@
   "ui-inventory.exportInstancesInMARC.complete": [
     {
       "type": 0,
-      "value": "The export is complete. The downloaded "
+      "value": "Der Export ist abgeschlossen. Die heruntergeladene "
     },
     {
       "type": 1,
@@ -72609,7 +72609,7 @@
     },
     {
       "type": 0,
-      "value": ".csv contains selected record's UUID. To retrieve the "
+      "value": ".csv-Datei enthält die UUIDs der ausgewählten Datensätze. Um die "
     },
     {
       "type": 1,
@@ -72617,7 +72617,7 @@
     },
     {
       "type": 0,
-      "value": ".mrc file, please go to the Data export app."
+      "value": ".mrc-Datei abzurufen, gehen Sie bitte zur App Datenexport."
     }
   ],
   "ui-inventory.exportInstancesInMARCLimitExceeded": [
@@ -72782,13 +72782,13 @@
   "ui-inventory.hasLinkedLocalOrderLine.modal.heading": [
     {
       "type": 0,
-      "value": "Linked order line"
+      "value": "Verknüpfter Bestellposten"
     }
   ],
   "ui-inventory.hasLinkedLocalOrderLine.modal.message": [
     {
       "type": 0,
-      "value": "This holding or item is referenced by a local purchase order line, it's affiliation cannot be changed at this time."
+      "value": "Dieser Bestand oder dieses Exemplar wird von einem lokalen Bestellposten referenziert, seine Zugehörigkeit kann derzeit nicht geändert werden."
     }
   ],
   "ui-inventory.holdingRecord": [
@@ -75077,7 +75077,7 @@
   "ui-inventory.moveItems.modal.message.hasLinkedPOLsOrHoldings": [
     {
       "type": 0,
-      "value": "This holdings is linked to a purchase order line. Moving this holdings to a new instance will move any other holdings and items that are linked to this purchase order line to the new instance as well. The purchase order line will also be linked to the new instance. Do you want to continue?"
+      "value": "Dieser Bestand ist mit einem Bestellposten verknüpft. Wenn Sie diesen Bestand in eine neue Instanz verschieben, werden alle anderen Bestände und Exemplare, die mit diesem Bestellposten verknüpft sind, ebenfalls in die neue Instanz verschoben. Der Bestellposten wird ebenfalls mit der neuen Instanz verknüpft. Möchten Sie fortfahren?"
     }
   ],
   "ui-inventory.moveItems.modal.message.holdings": [
@@ -75745,7 +75745,7 @@
   "ui-inventory.permission.consortia.inventory.share.local.instance": [
     {
       "type": 0,
-      "value": "Inventory: Share local instance with consortium"
+      "value": "Katalog: Lokale Instanz mit dem Konsortium teilen"
     }
   ],
   "ui-inventory.permission.consortia.inventory.update-ownership.item.post": [
@@ -75757,7 +75757,7 @@
   "ui-inventory.permission.consortia.inventory.update.ownership": [
     {
       "type": 0,
-      "value": "Inventory: Update ownership"
+      "value": "Katalog: Eigentümerschaft aktualisieren"
     }
   ],
   "ui-inventory.permission.holdings.create": [
@@ -75811,7 +75811,7 @@
   "ui-inventory.permission.instance.set-records-for-deletion.execute": [
     {
       "type": 0,
-      "value": "Inventory: Set records for deletion"
+      "value": "Katalog: Datensätze zum Löschen markieren"
     }
   ],
   "ui-inventory.permission.instance.view": [
@@ -75865,7 +75865,7 @@
   "ui-inventory.permission.items.in-transit-report.create": [
     {
       "type": 0,
-      "value": "Inventory: Create and download In transit items report"
+      "value": "Katalog: Bericht über Exemplare in Transport erstellen und herunterladen"
     }
   ],
   "ui-inventory.permission.items.mark-in-process-non-requestable": [
@@ -75877,7 +75877,7 @@
   "ui-inventory.permission.items.mark-in-process-non-requestable.execute": [
     {
       "type": 0,
-      "value": "Inventory: Mark items in process (non-requestable)"
+      "value": "Katalog: Exemplare als in Bearbeitung markieren (nicht bestellbar)"
     }
   ],
   "ui-inventory.permission.items.mark-intellectual-item": [
@@ -75889,7 +75889,7 @@
   "ui-inventory.permission.items.mark-intellectual-item.execute": [
     {
       "type": 0,
-      "value": "Inventory: Mark items intellectual item"
+      "value": "Katalog: Exemplare als Arbeitsdatensatz markieren"
     }
   ],
   "ui-inventory.permission.items.mark-items-withdrawn": [
@@ -75907,7 +75907,7 @@
   "ui-inventory.permission.items.mark-long-missing.execute": [
     {
       "type": 0,
-      "value": "Inventory: Mark items long missing"
+      "value": "Katalog: Exemplare als lange vermisst markieren"
     }
   ],
   "ui-inventory.permission.items.mark-restricted": [
@@ -75919,7 +75919,7 @@
   "ui-inventory.permission.items.mark-restricted.execute": [
     {
       "type": 0,
-      "value": "Inventory: Mark items restricted"
+      "value": "Katalog: Exemplare als beschränkt markieren"
     }
   ],
   "ui-inventory.permission.items.mark-unavailable": [
@@ -75931,7 +75931,7 @@
   "ui-inventory.permission.items.mark-unavailable.execute": [
     {
       "type": 0,
-      "value": "Inventory: Mark items unavailable"
+      "value": "Katalog: Exemplare als nicht verfügbar markieren"
     }
   ],
   "ui-inventory.permission.items.mark-unknown": [
@@ -75943,13 +75943,13 @@
   "ui-inventory.permission.items.mark-unknown.execute": [
     {
       "type": 0,
-      "value": "Inventory: Mark items unknown"
+      "value": "Katalog: Exemplare als unbekannt markieren"
     }
   ],
   "ui-inventory.permission.items.mark-withdrawn.execute": [
     {
       "type": 0,
-      "value": "Inventory: Mark items withdrawn"
+      "value": "Katalog: Exemplare als ausgesondert markieren"
     }
   ],
   "ui-inventory.permission.settings.alternative-title-types": [
@@ -76063,7 +76063,7 @@
   "ui-inventory.permission.settings.loan-types": [
     {
       "type": 0,
-      "value": "Settings (Inventory): Create, edit, delete loan types"
+      "value": "Einstellungen (Katalog): Ausleihtypen erstellen, bearbeiten, löschen"
     }
   ],
   "ui-inventory.permission.settings.loantypes": [
@@ -76075,7 +76075,7 @@
   "ui-inventory.permission.settings.material-types": [
     {
       "type": 0,
-      "value": "Settings (Inventory): Create, edit, delete material types"
+      "value": "Einstellungen (Katalog): Materialarten erstellen, bearbeiten, löschen"
     }
   ],
   "ui-inventory.permission.settings.materialtypes": [
@@ -76231,7 +76231,7 @@
   "ui-inventory.publicationFrequency": [
     {
       "type": 0,
-      "value": "Erscheinungsweise"
+      "value": "Erscheinungsfrequenz"
     }
   ],
   "ui-inventory.publicationRange": [
