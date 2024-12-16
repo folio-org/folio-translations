@@ -30357,7 +30357,7 @@
   "ui-checkout.permission.circulation.execute": [
     {
       "type": 0,
-      "value": "Check out: Check out circulating items"
+      "value": "借出：借出流通单件"
     }
   ],
   "ui-checkout.permission.viewFeeFines": [
@@ -30369,7 +30369,7 @@
   "ui-checkout.permission.viewFeeFines.view": [
     {
       "type": 0,
-      "value": "Check out: View fees/fines"
+      "value": "借出：查看费用/罚款"
     }
   ],
   "ui-checkout.permission.viewLoans": [
@@ -30381,7 +30381,7 @@
   "ui-checkout.permission.viewLoans.view": [
     {
       "type": 0,
-      "value": "Check out: View loans"
+      "value": "借出：查看借阅"
     }
   ],
   "ui-checkout.permission.viewRequests": [
@@ -30393,7 +30393,7 @@
   "ui-checkout.permission.viewRequests.view": [
     {
       "type": 0,
-      "value": "Check out: View requests"
+      "value": "借出：查看请求"
     }
   ],
   "ui-checkout.presentation": [
@@ -55080,31 +55080,31 @@
   "ui-developer.rtr.activityEvents": [
     {
       "type": 0,
-      "value": "activityEvents: which DOM events constitute user activity (comma-separated, e.g. 'mousemove,keydown')"
+      "value": "活动事件：构成用户活动的 DOM 事件（以逗号分隔，例如 \"鼠标移动、按键下移“）"
     }
   ],
   "ui-developer.rtr.fixedLengthSessionWarningTTL": [
     {
       "type": 0,
-      "value": "fixedLengthSessionWarningTTL: how long the “your session is going to die!” warning should be shown before the session is killed (e.g. 1h, 1m, 5s, 10ms)"
+      "value": "定长会话警告TTL：在会话终止前应显示“您的会话即将终止！”警告多长时间（例如 1 小时、1 分钟、5 秒、10 毫秒）"
     }
   ],
   "ui-developer.rtr.forceRefresh": [
     {
       "type": 0,
-      "value": "Force refresh"
+      "value": "强制刷新"
     }
   ],
   "ui-developer.rtr.idleModalTTL": [
     {
       "type": 0,
-      "value": "idleModalTTL: duration the idle modal should be shown before session is killed (e.g. 1h, 1m, 5s, 10ms)"
+      "value": "空闲模式TTL：会话终止前应显示空闲模式的持续时间（例如 1 小时、1 分钟、5 秒、10 毫秒）"
     }
   ],
   "ui-developer.rtr.idleSessionTTL": [
     {
       "type": 0,
-      "value": "idleSessionTTL: duration an idle session lasts before being killed (e.g. 1h, 1m, 5s, 10ms)"
+      "value": "空闲会话TTL：空闲会话在被终止之前持续的时长（例如 1 小时、1 分钟、5 秒、10 毫秒）"
     }
   ],
   "ui-developer.rtr.invalidateAT": [
@@ -55128,7 +55128,7 @@
   "ui-developer.rtr.rotationIntervalFraction": [
     {
       "type": 0,
-      "value": "rotationIntervalFraction: decimal fraction of how early to refresh the access token (e.g. 0.6 is 60% into the lifetime of the token)"
+      "value": "轮换间隔分数: 十进制分数，表示刷新访问令牌的时间（例如，0.6 表示访问令牌有效期的 60%）。"
     }
   ],
   "ui-developer.rtr.unregisterServiceWorker": [
@@ -63692,7 +63692,7 @@
   "ui-export-manager.permission.jobs.downloadAndResend.execute": [
     {
       "type": 0,
-      "value": "Export manager: Download and resend files"
+      "value": "导出管理：下载并重新发送文件"
     }
   ],
   "ui-export-manager.title.all": [
@@ -123788,7 +123788,7 @@
   "ui-requests.permission.moveRequest.execute": [
     {
       "type": 0,
-      "value": "Requests: Move to new item, reorder queue"
+      "value": "请求：移至新单件，重新排序队列"
     }
   ],
   "ui-requests.permission.reorderQueue": [
@@ -123800,7 +123800,7 @@
   "ui-requests.permission.reorderQueue.execute": [
     {
       "type": 0,
-      "value": "Requests: Reorder queue"
+      "value": "请求：重新排序队列"
     }
   ],
   "ui-requests.permission.view": [
@@ -124508,7 +124508,7 @@
   "ui-requests.requests.retrievalServicePoint": [
     {
       "type": 0,
-      "value": "Retrieval service point"
+      "value": "检索服务点"
     }
   ],
   "ui-requests.requests.servicePoint": [
