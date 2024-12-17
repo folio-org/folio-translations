@@ -21113,6 +21113,12 @@
       "value": "Patron group select"
     }
   ],
+  "ui-bulk-edit.ariaLabel.statisticalCode": [
+    {
+      "type": 0,
+      "value": "Statistical code select"
+    }
+  ],
   "ui-bulk-edit.ariaLabel.statusSelect": [
     {
       "type": 0,
@@ -21687,6 +21693,12 @@
     {
       "type": 0,
       "value": "Staff suppress"
+    }
+  ],
+  "ui-bulk-edit.columns.INSTANCE.Statistical code": [
+    {
+      "type": 0,
+      "value": "Statistical code"
     }
   ],
   "ui-bulk-edit.columns.INSTANCE.Suppress from discovery": [
@@ -23006,6 +23018,12 @@
       "value": "Staff suppress"
     }
   ],
+  "ui-bulk-edit.layer.options.instances.statisticalCode": [
+    {
+      "type": 0,
+      "value": "Statistical code"
+    }
+  ],
   "ui-bulk-edit.layer.options.instances.suppress": [
     {
       "type": 0,
@@ -23220,6 +23238,12 @@
     {
       "type": 0,
       "value": "Select note type"
+    }
+  ],
+  "ui-bulk-edit.layer.statisticalCode": [
+    {
+      "type": 0,
+      "value": "Select statistical code"
     }
   ],
   "ui-bulk-edit.layer.title": [
@@ -121704,6 +121728,12 @@
       "value": "New"
     }
   ],
+  "ui-serials-management.numberOfCycles.infoPopover": [
+    {
+      "type": 0,
+      "value": "This controls the number of years of predicted pieces that are to be generated, except in the case of multi-year cycles (e.g. 1 issue every 2 years) where it controls the number of multi-year cycles to be used for prediction. The total number of issues to be predicted cannot be >366 (e.g. one year of daily issues or 30 years of monthly issues). Note that it is recommend not to predict large numbers of years in one go in case the serial changes publication frequency in the future."
+    }
+  ],
   "ui-serials-management.piece.label": [
     {
       "type": 0,
@@ -122865,6 +122895,12 @@
       "value": "No omission rules for this publication pattern"
     }
   ],
+  "ui-serials-management.ruleset.numberOfCycles": [
+    {
+      "type": 0,
+      "value": "Number of years/cycles"
+    }
+  ],
   "ui-serials-management.ruleset.numberOfIssues": [
     {
       "type": 0,
@@ -123353,6 +123389,20 @@
     {
       "type": 0,
       "value": "Status"
+    }
+  ],
+  "ui-serials-management.validate.allowedCycles": [
+    {
+      "type": 0,
+      "value": "For this publication pattern it is only possible to generate issues for up to "
+    },
+    {
+      "type": 1,
+      "value": "maxValue"
+    },
+    {
+      "type": 0,
+      "value": " years/cycles at one time to avoid generating very large piece sets"
     }
   ],
   "ui-serials-management.validate.greaterThanOne": [
