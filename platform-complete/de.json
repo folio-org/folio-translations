@@ -71529,6 +71529,12 @@
       "value": "Signatur"
     }
   ],
+  "ui-inventory.callNumberBrowse": [
+    {
+      "type": 0,
+      "value": "Call number browse"
+    }
+  ],
   "ui-inventory.callNumberEyeReadable": [
     {
       "type": 0,
@@ -75982,6 +75988,12 @@
       "value": "Einstellungen (Katalog): alternative Titeltypen erstellen, bearbeiten, löschen"
     }
   ],
+  "ui-inventory.permission.settings.call-number-browse": [
+    {
+      "type": 0,
+      "value": "Settings (Inventory): Configure call number browse"
+    }
+  ],
   "ui-inventory.permission.settings.call-number-types": [
     {
       "type": 0,
@@ -77244,6 +77256,62 @@
     {
       "type": 0,
       "value": "Allgemein"
+    }
+  ],
+  "ui-inventory.settings.instanceCallNumber.all": [
+    {
+      "type": 0,
+      "value": "Call numbers (all)"
+    }
+  ],
+  "ui-inventory.settings.instanceCallNumber.dewey": [
+    {
+      "type": 0,
+      "value": "Dewey Decimal classification"
+    }
+  ],
+  "ui-inventory.settings.instanceCallNumber.identifierTypesPopover": [
+    {
+      "type": 0,
+      "value": "Please note that if no call number types are selected for a browse option, this option will display all call number types."
+    }
+  ],
+  "ui-inventory.settings.instanceCallNumber.lc": [
+    {
+      "type": 0,
+      "value": "Library of Congress classification"
+    }
+  ],
+  "ui-inventory.settings.instanceCallNumber.nlm": [
+    {
+      "type": 0,
+      "value": "National Library of Medicine classification"
+    }
+  ],
+  "ui-inventory.settings.instanceCallNumber.other": [
+    {
+      "type": 0,
+      "value": "Other scheme"
+    }
+  ],
+  "ui-inventory.settings.instanceCallNumber.sudoc": [
+    {
+      "type": 0,
+      "value": "Superintendent of Documents classification"
+    }
+  ],
+  "ui-inventory.settings.instanceCallNumber.termUpdated": [
+    {
+      "type": 0,
+      "value": "The call number browse type "
+    },
+    {
+      "type": 1,
+      "value": "term"
+    },
+    {
+      "type": 0,
+      "value": " was successfully updated"
     }
   ],
   "ui-inventory.settings.instanceClassification.all": [
@@ -85948,6 +86016,12 @@
       "value": "listName"
     }
   ],
+  "ui-lists.unexpected.error": [
+    {
+      "type": 0,
+      "value": "Unable to complete action. Query is no longer valid due to a deleted field(s). Please edit the list query or delete the list."
+    }
+  ],
   "ui-lists.update-export.in.progress": [
     {
       "type": 0,
@@ -85966,6 +86040,12 @@
     {
       "type": 0,
       "value": " were not saved. Lists can't be updated while an export is in progress."
+    }
+  ],
+  "ui-lists.update-fql.query.invalid": [
+    {
+      "type": 0,
+      "value": "Unable to complete action. Query is no longer valid due to a deleted field(s). Please edit the list query or delete the list."
     }
   ],
   "ui-lists.update-list.not.found": [
@@ -121440,6 +121520,12 @@
       "pluralType": "cardinal",
       "type": 6,
       "value": "count"
+    }
+  ],
+  "ui-requests.retrievalServicePoint.name": [
+    {
+      "type": 0,
+      "value": "Retrieval service point"
     }
   ],
   "ui-requests.routingError": [

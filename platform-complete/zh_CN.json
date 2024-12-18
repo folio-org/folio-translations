@@ -72999,6 +72999,12 @@
       "value": "索书号"
     }
   ],
+  "ui-inventory.callNumberBrowse": [
+    {
+      "type": 0,
+      "value": "Call number browse"
+    }
+  ],
   "ui-inventory.callNumberEyeReadable": [
     {
       "type": 0,
@@ -77674,6 +77680,12 @@
       "value": "设置（典藏）：创建、编辑、删除交替题名类型"
     }
   ],
+  "ui-inventory.permission.settings.call-number-browse": [
+    {
+      "type": 0,
+      "value": "Settings (Inventory): Configure call number browse"
+    }
+  ],
   "ui-inventory.permission.settings.call-number-types": [
     {
       "type": 0,
@@ -78959,6 +78971,62 @@
     {
       "type": 0,
       "value": "通用"
+    }
+  ],
+  "ui-inventory.settings.instanceCallNumber.all": [
+    {
+      "type": 0,
+      "value": "Call numbers (all)"
+    }
+  ],
+  "ui-inventory.settings.instanceCallNumber.dewey": [
+    {
+      "type": 0,
+      "value": "Dewey Decimal classification"
+    }
+  ],
+  "ui-inventory.settings.instanceCallNumber.identifierTypesPopover": [
+    {
+      "type": 0,
+      "value": "Please note that if no call number types are selected for a browse option, this option will display all call number types."
+    }
+  ],
+  "ui-inventory.settings.instanceCallNumber.lc": [
+    {
+      "type": 0,
+      "value": "Library of Congress classification"
+    }
+  ],
+  "ui-inventory.settings.instanceCallNumber.nlm": [
+    {
+      "type": 0,
+      "value": "National Library of Medicine classification"
+    }
+  ],
+  "ui-inventory.settings.instanceCallNumber.other": [
+    {
+      "type": 0,
+      "value": "Other scheme"
+    }
+  ],
+  "ui-inventory.settings.instanceCallNumber.sudoc": [
+    {
+      "type": 0,
+      "value": "Superintendent of Documents classification"
+    }
+  ],
+  "ui-inventory.settings.instanceCallNumber.termUpdated": [
+    {
+      "type": 0,
+      "value": "The call number browse type "
+    },
+    {
+      "type": 1,
+      "value": "term"
+    },
+    {
+      "type": 0,
+      "value": " was successfully updated"
     }
   ],
   "ui-inventory.settings.instanceClassification.all": [
@@ -87197,7 +87265,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Lists with cross-tenant query can only be set to Private."
+          "value": "跨租户查询的列表只能设置为私有。 "
         }
       ],
       "type": 8,
@@ -87355,7 +87423,7 @@
   "ui-lists.cross-tenant-message": [
     {
       "type": 0,
-      "value": "This list may contain records from multiple tenants."
+      "value": "该列表可能包含来自多个租户的记录。"
     }
   ],
   "ui-lists.delete-export.in.progress": [
@@ -88029,7 +88097,7 @@
   "ui-lists.pane.dropdown.export-visible": [
     {
       "type": 0,
-      "value": "导出可见列（CSV）"
+      "value": "导出选定的列（CSV）"
     }
   ],
   "ui-lists.pane.dropdown.refresh": [
@@ -88406,6 +88474,12 @@
       "value": "listName"
     }
   ],
+  "ui-lists.unexpected.error": [
+    {
+      "type": 0,
+      "value": "Unable to complete action. Query is no longer valid due to a deleted field(s). Please edit the list query or delete the list."
+    }
+  ],
   "ui-lists.update-export.in.progress": [
     {
       "type": 0,
@@ -88432,6 +88506,12 @@
     {
       "type": 0,
       "value": "的更改未保存。导出过程中无法更新列表。"
+    }
+  ],
+  "ui-lists.update-fql.query.invalid": [
+    {
+      "type": 0,
+      "value": "Unable to complete action. Query is no longer valid due to a deleted field(s). Please edit the list query or delete the list."
     }
   ],
   "ui-lists.update-list.not.found": [
@@ -124604,6 +124684,12 @@
       "pluralType": "cardinal",
       "type": 6,
       "value": "count"
+    }
+  ],
+  "ui-requests.retrievalServicePoint.name": [
+    {
+      "type": 0,
+      "value": "Retrieval service point"
     }
   ],
   "ui-requests.routingError": [

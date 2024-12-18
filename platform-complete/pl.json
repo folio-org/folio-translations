@@ -71499,6 +71499,12 @@
       "value": "Sygnatura"
     }
   ],
+  "ui-inventory.callNumberBrowse": [
+    {
+      "type": 0,
+      "value": "Call number browse"
+    }
+  ],
   "ui-inventory.callNumberEyeReadable": [
     {
       "type": 0,
@@ -76088,6 +76094,12 @@
       "value": "Ustawienia (Katalogowanie): tworzenie, edycja, usuwanie rodzajów wariantu typów tytułu"
     }
   ],
+  "ui-inventory.permission.settings.call-number-browse": [
+    {
+      "type": 0,
+      "value": "Settings (Inventory): Configure call number browse"
+    }
+  ],
   "ui-inventory.permission.settings.call-number-types": [
     {
       "type": 0,
@@ -77349,6 +77361,62 @@
     {
       "type": 0,
       "value": "Ogólne"
+    }
+  ],
+  "ui-inventory.settings.instanceCallNumber.all": [
+    {
+      "type": 0,
+      "value": "Call numbers (all)"
+    }
+  ],
+  "ui-inventory.settings.instanceCallNumber.dewey": [
+    {
+      "type": 0,
+      "value": "Dewey Decimal classification"
+    }
+  ],
+  "ui-inventory.settings.instanceCallNumber.identifierTypesPopover": [
+    {
+      "type": 0,
+      "value": "Please note that if no call number types are selected for a browse option, this option will display all call number types."
+    }
+  ],
+  "ui-inventory.settings.instanceCallNumber.lc": [
+    {
+      "type": 0,
+      "value": "Library of Congress classification"
+    }
+  ],
+  "ui-inventory.settings.instanceCallNumber.nlm": [
+    {
+      "type": 0,
+      "value": "National Library of Medicine classification"
+    }
+  ],
+  "ui-inventory.settings.instanceCallNumber.other": [
+    {
+      "type": 0,
+      "value": "Other scheme"
+    }
+  ],
+  "ui-inventory.settings.instanceCallNumber.sudoc": [
+    {
+      "type": 0,
+      "value": "Superintendent of Documents classification"
+    }
+  ],
+  "ui-inventory.settings.instanceCallNumber.termUpdated": [
+    {
+      "type": 0,
+      "value": "The call number browse type "
+    },
+    {
+      "type": 1,
+      "value": "term"
+    },
+    {
+      "type": 0,
+      "value": " was successfully updated"
     }
   ],
   "ui-inventory.settings.instanceClassification.all": [
@@ -85997,6 +86065,12 @@
       "value": "listName"
     }
   ],
+  "ui-lists.unexpected.error": [
+    {
+      "type": 0,
+      "value": "Unable to complete action. Query is no longer valid due to a deleted field(s). Please edit the list query or delete the list."
+    }
+  ],
   "ui-lists.update-export.in.progress": [
     {
       "type": 0,
@@ -86015,6 +86089,12 @@
     {
       "type": 0,
       "value": " were not saved. Lists can't be updated while an export is in progress."
+    }
+  ],
+  "ui-lists.update-fql.query.invalid": [
+    {
+      "type": 0,
+      "value": "Unable to complete action. Query is no longer valid due to a deleted field(s). Please edit the list query or delete the list."
     }
   ],
   "ui-lists.update-list.not.found": [
@@ -121474,6 +121554,12 @@
       "value": "count"
     }
   ],
+  "ui-requests.retrievalServicePoint.name": [
+    {
+      "type": 0,
+      "value": "Retrieval service point"
+    }
+  ],
   "ui-requests.routingError": [
     {
       "type": 0,
@@ -124981,19 +125067,19 @@
   "ui-tenant-settings.permission.module.enabled": [
     {
       "type": 0,
-      "value": "UI: Moduł ustawień dzierżawcy jest włączony"
+      "value": "UI: moduł ustawień tenanta jest włączony"
     }
   ],
   "ui-tenant-settings.permission.settings.addresses": [
     {
       "type": 0,
-      "value": "Ustawienia (dzierżawca): może zarządzać adresami dzierżawcy"
+      "value": "Ustawienia (Tenant): można zarządzać adresami tenanta"
     }
   ],
   "ui-tenant-settings.permission.settings.addresses.view": [
     {
       "type": 0,
-      "value": "Settings (tenant): Can view tenant addresses"
+      "value": "Ustawienia (Tenant): można wyświetlać adresy tenanta"
     }
   ],
   "ui-tenant-settings.permission.settings.bursar-exports": [
@@ -125011,85 +125097,85 @@
   "ui-tenant-settings.permission.settings.key-bindings": [
     {
       "type": 0,
-      "value": "Ustawienia (dzierżawca): może obsługiwać przypisania klawiszy"
+      "value": "Ustawienia (Tenant): można obsługiwać przypisania klawiszy"
     }
   ],
   "ui-tenant-settings.permission.settings.locale": [
     {
       "type": 0,
-      "value": "Ustawienia (dzierżawa): może edytować język, lokalizację i walutę"
+      "value": "Ustawienia (Tenant): można edytować język, lokalizację i walutę"
     }
   ],
   "ui-tenant-settings.permission.settings.locale.view": [
     {
       "type": 0,
-      "value": "Settings (tenant): Can view language, localization, and currency"
+      "value": "Ustawienia (Tenant): można wyświetlać język, lokalizacje i walutę"
     }
   ],
   "ui-tenant-settings.permission.settings.location": [
     {
       "type": 0,
-      "value": "Ustawienia (dzierżawa): może tworzyć, edytować i usuwać lokalizacje"
+      "value": "Ustawienia (Tenant): można tworzyć, edytować i usuwać lokalizacje"
     }
   ],
   "ui-tenant-settings.permission.settings.location.view": [
     {
       "type": 0,
-      "value": "Settings (Tenant): View locations"
+      "value": "Ustawienia (Tenant): wyświetlanie lokalizacji"
     }
   ],
   "ui-tenant-settings.permission.settings.plugins": [
     {
       "type": 0,
-      "value": "Ustawienia (dzierżawa): może obsługiwać preferowane wtyczki"
+      "value": "Ustawienia (Tenant): można obsługiwać preferowane wtyczki"
     }
   ],
   "ui-tenant-settings.permission.settings.plugins.view": [
     {
       "type": 0,
-      "value": "Settings (tenant): Can view preferred plugins"
+      "value": "Ustawienia (Tenant): można wyświetlać preferowane wtyczki"
     }
   ],
   "ui-tenant-settings.permission.settings.reading-room-access.all": [
     {
       "type": 0,
-      "value": "Settings (tenant): Can create, edit and remove reading room access"
+      "value": "Ustawienia (Tenant): można tworzyć, edytować i usuwać dostęp do czytelni"
     }
   ],
   "ui-tenant-settings.permission.settings.reading-room-access.view": [
     {
       "type": 0,
-      "value": "Settings (tenant): Can view reading room access"
+      "value": "Ustawienia (Tenant): można wyświetlać dostęp do czytelni"
     }
   ],
   "ui-tenant-settings.permission.settings.servicepoints": [
     {
       "type": 0,
-      "value": "Ustawienia (dzierżawa): może tworzyć, edytować i usuwać punkty obsługi"
+      "value": "Ustawienia (Tenant): można tworzyć i edytować punkty obsługi"
     }
   ],
   "ui-tenant-settings.permission.settings.servicepoints.view": [
     {
       "type": 0,
-      "value": "Settings (tenant): Can view service points"
+      "value": "Ustawienia (Tenant): można wyświetlać punkty obsługi"
     }
   ],
   "ui-tenant-settings.permission.settings.sso": [
     {
       "type": 0,
-      "value": "Ustawienia (dzierżawca): może obsługiwać ustawienia SSO"
+      "value": "Ustawienia (Tenant): można obsługiwać ustawienia SSO"
     }
   ],
   "ui-tenant-settings.permission.settings.sso.view": [
     {
       "type": 0,
-      "value": "Settings (tenant): Can view SSO settings"
+      "value": "Ustawienia (Tenant): można wyświetlać ustawienia SSO"
     }
   ],
   "ui-tenant-settings.permission.settings.tenant-settings.view": [
     {
       "type": 0,
-      "value": "Settings (tenant): View"
+      "value": "Ustawienia (Tenant): wyświetlanie"
     }
   ],
   "ui-tenant-settings.settings.address.title": [
@@ -125931,7 +126017,7 @@
   "ui-tenant-settings.settings.pluginNames.create-inventory-records": [
     {
       "type": 0,
-      "value": "Tworzenie rekordów w aplikacji Inventory"
+      "value": "Tworzenie rekordów w aplikacji Katalogowanie"
     }
   ],
   "ui-tenant-settings.settings.pluginNames.create-item": [

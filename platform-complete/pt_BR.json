@@ -32516,7 +32516,7 @@
   "ui-circulation.settings.loanPolicy.closedDueDateMgmt": [
     {
       "type": 0,
-      "value": "Gestão da data de vencimento da biblioteca fechada"
+      "value": "Gestão da data de vencimento quando a biblioteca está fechada"
     }
   ],
   "ui-circulation.settings.loanPolicy.createEntryLabel": [
@@ -32708,7 +32708,7 @@
   "ui-circulation.settings.loanPolicy.renewFrom.systemDate": [
     {
       "type": 0,
-      "value": "Data do sistema"
+      "value": "Data atual"
     }
   ],
   "ui-circulation.settings.loanPolicy.renewable": [
@@ -71815,6 +71815,12 @@
       "value": "Número de chamada"
     }
   ],
+  "ui-inventory.callNumberBrowse": [
+    {
+      "type": 0,
+      "value": "Percorrer número de chamada"
+    }
+  ],
   "ui-inventory.callNumberEyeReadable": [
     {
       "type": 0,
@@ -76340,6 +76346,12 @@
       "value": "Configurações (Inventário): Criar, editar e excluir tipos de títulos alternativos"
     }
   ],
+  "ui-inventory.permission.settings.call-number-browse": [
+    {
+      "type": 0,
+      "value": "Configurações (Inventário): Configurar a pesquisa de número de chamada"
+    }
+  ],
   "ui-inventory.permission.settings.call-number-types": [
     {
       "type": 0,
@@ -77585,6 +77597,62 @@
     {
       "type": 0,
       "value": "Geral"
+    }
+  ],
+  "ui-inventory.settings.instanceCallNumber.all": [
+    {
+      "type": 0,
+      "value": "Números de chamada (todos)"
+    }
+  ],
+  "ui-inventory.settings.instanceCallNumber.dewey": [
+    {
+      "type": 0,
+      "value": "Classificação decimal de Dewey"
+    }
+  ],
+  "ui-inventory.settings.instanceCallNumber.identifierTypesPopover": [
+    {
+      "type": 0,
+      "value": "Observe que, se nenhum tipo de número de chamada for selecionado para uma opção de pesquisa, essa opção exibirá todos os tipos de número de chamada."
+    }
+  ],
+  "ui-inventory.settings.instanceCallNumber.lc": [
+    {
+      "type": 0,
+      "value": "Classificação da Biblioteca do Congresso"
+    }
+  ],
+  "ui-inventory.settings.instanceCallNumber.nlm": [
+    {
+      "type": 0,
+      "value": "Classificação da Biblioteca Nacional de Medicina"
+    }
+  ],
+  "ui-inventory.settings.instanceCallNumber.other": [
+    {
+      "type": 0,
+      "value": "Outro esquema"
+    }
+  ],
+  "ui-inventory.settings.instanceCallNumber.sudoc": [
+    {
+      "type": 0,
+      "value": "Superintendente de Classificação de Documentos"
+    }
+  ],
+  "ui-inventory.settings.instanceCallNumber.termUpdated": [
+    {
+      "type": 0,
+      "value": "O tipo de pesquisa do número de chamada "
+    },
+    {
+      "type": 1,
+      "value": "term"
+    },
+    {
+      "type": 0,
+      "value": " foi atualizado com sucesso"
     }
   ],
   "ui-inventory.settings.instanceClassification.all": [
@@ -86111,7 +86179,7 @@
   "ui-lists.pane.dropdown.export-visible": [
     {
       "type": 0,
-      "value": "Exportar colunas visíveis (CSV)"
+      "value": "Exportar colunas selecionadas (CSV)"
     }
   ],
   "ui-lists.pane.dropdown.refresh": [
@@ -86408,6 +86476,12 @@
       "value": "listName"
     }
   ],
+  "ui-lists.unexpected.error": [
+    {
+      "type": 0,
+      "value": "Não foi possível concluir a ação. A consulta não é mais válida devido a um ou mais campos excluídos. Edite a consulta da lista ou exclua a lista."
+    }
+  ],
   "ui-lists.update-export.in.progress": [
     {
       "type": 0,
@@ -86426,6 +86500,12 @@
     {
       "type": 0,
       "value": " não foram salvas. As listas não podem ser atualizadas enquanto uma exportação estiver em andamento."
+    }
+  ],
+  "ui-lists.update-fql.query.invalid": [
+    {
+      "type": 0,
+      "value": "Não foi possível concluir a ação. A consulta não é mais válida devido a um ou mais campos excluídos. Edite a consulta da lista ou exclua a lista."
     }
   ],
   "ui-lists.update-list.not.found": [
@@ -122329,6 +122409,12 @@
       "value": "count"
     }
   ],
+  "ui-requests.retrievalServicePoint.name": [
+    {
+      "type": 0,
+      "value": "Retrieval service point"
+    }
+  ],
   "ui-requests.routingError": [
     {
       "type": 0,
@@ -122883,7 +122969,7 @@
   "ui-serials-management.numberOfCycles.infoPopover": [
     {
       "type": 0,
-      "value": "This controls the number of years of predicted pieces that are to be generated, except in the case of multi-year cycles (e.g. 1 issue every 2 years) where it controls the number of multi-year cycles to be used for prediction. The total number of issues to be predicted cannot be >366 (e.g. one year of daily issues or 30 years of monthly issues). Note that it is recommend not to predict large numbers of years in one go in case the serial changes publication frequency in the future."
+      "value": "Isso controla o número de anos de peças previstas que devem ser geradas, exceto no caso de ciclos multianuais (por exemplo, 1 edição a cada 2 anos), onde controla o número de ciclos multianuais a serem usados para previsão. O número total de edições a serem previstas não pode ser >366 (por exemplo, um ano de edições diárias ou 30 anos de edições mensais). Observe que é recomendável não prever grandes números de anos de uma só vez, caso a série altere a frequência de publicação no futuro."
     }
   ],
   "ui-serials-management.piece.label": [
@@ -124070,7 +124156,7 @@
   "ui-serials-management.ruleset.numberOfCycles": [
     {
       "type": 0,
-      "value": "Number of years/cycles"
+      "value": "Número de anos/ciclos"
     }
   ],
   "ui-serials-management.ruleset.numberOfIssues": [
@@ -124566,7 +124652,7 @@
   "ui-serials-management.validate.allowedCycles": [
     {
       "type": 0,
-      "value": "For this publication pattern it is only possible to generate issues for up to "
+      "value": "Para este padrão de publicação, só é possível gerar edições de até "
     },
     {
       "type": 1,
@@ -124574,7 +124660,7 @@
     },
     {
       "type": 0,
-      "value": " years/cycles at one time to avoid generating very large piece sets"
+      "value": " anos/ciclos de uma vez para evitar a geração de conjuntos de peças muito grandes"
     }
   ],
   "ui-serials-management.validate.greaterThanOne": [
