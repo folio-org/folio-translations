@@ -123,6 +123,144 @@
       "value": "Save"
     }
   ],
+  "stripes-acq-components.claiming.action.delayClaim": [
+    {
+      "type": 0,
+      "value": "Delay claim"
+    }
+  ],
+  "stripes-acq-components.claiming.action.sendClaim": [
+    {
+      "type": 0,
+      "value": "Send claim"
+    }
+  ],
+  "stripes-acq-components.claiming.action.unreceivable": [
+    {
+      "type": 0,
+      "value": "Unreceivable"
+    }
+  ],
+  "stripes-acq-components.claiming.modal.delayClaim.field.delayTo": [
+    {
+      "type": 0,
+      "value": "Delay to"
+    }
+  ],
+  "stripes-acq-components.claiming.modal.delayClaim.heading": [
+    {
+      "options": {
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "Delay "
+            },
+            {
+              "offset": 0,
+              "options": {
+                "one": {
+                  "value": [
+                    {
+                      "type": 0,
+                      "value": "claim"
+                    }
+                  ]
+                },
+                "other": {
+                  "value": [
+                    {
+                      "type": 0,
+                      "value": "claims"
+                    }
+                  ]
+                }
+              },
+              "pluralType": "cardinal",
+              "type": 6,
+              "value": "count"
+            }
+          ]
+        },
+        "undefined": {
+          "value": [
+            {
+              "type": 0,
+              "value": "Delay claim"
+            }
+          ]
+        }
+      },
+      "type": 5,
+      "value": "count"
+    }
+  ],
+  "stripes-acq-components.claiming.modal.sendClaim.field.claimExpiryDate": [
+    {
+      "type": 0,
+      "value": "Claim expiry date"
+    }
+  ],
+  "stripes-acq-components.claiming.modal.sendClaim.field.externalNote": [
+    {
+      "type": 0,
+      "value": "External note"
+    }
+  ],
+  "stripes-acq-components.claiming.modal.sendClaim.field.internalNote": [
+    {
+      "type": 0,
+      "value": "Internal note"
+    }
+  ],
+  "stripes-acq-components.claiming.modal.sendClaim.heading": [
+    {
+      "options": {
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "Send "
+            },
+            {
+              "offset": 0,
+              "options": {
+                "one": {
+                  "value": [
+                    {
+                      "type": 0,
+                      "value": "claim"
+                    }
+                  ]
+                },
+                "other": {
+                  "value": [
+                    {
+                      "type": 0,
+                      "value": "claims"
+                    }
+                  ]
+                }
+              },
+              "pluralType": "cardinal",
+              "type": 6,
+              "value": "count"
+            }
+          ]
+        },
+        "undefined": {
+          "value": [
+            {
+              "type": 0,
+              "value": "Send claim"
+            }
+          ]
+        }
+      },
+      "type": 5,
+      "value": "count"
+    }
+  ],
   "stripes-acq-components.consortia.affiliations.primary.label": [
     {
       "type": 0,
@@ -1458,6 +1596,12 @@
     {
       "type": 0,
       "value": "Spaces aren't allowed"
+    }
+  ],
+  "stripes-acq-components.validation.dateAfter": [
+    {
+      "type": 0,
+      "value": "Selected date must be later than the current date"
     }
   ],
   "stripes-acq-components.validation.fundDistribution.uniqueFunds": [
@@ -30720,91 +30864,97 @@
   "ui-circulation.permission.settings.cancellation-reasons": [
     {
       "type": 0,
-      "value": "Settings (Circ): Can create, edit and remove cancellation reasons"
+      "value": "Settings (Circulation): Can create, edit and remove cancellation reasons"
     }
   ],
   "ui-circulation.permission.settings.circulation-rules": [
     {
       "type": 0,
-      "value": "Settings (Circ): Can create, edit and remove circulation rules [LEGACY]"
+      "value": "Settings (Circulation): Can create, edit and remove circulation rules [LEGACY]"
     }
   ],
   "ui-circulation.permission.settings.edit-circulation-rules": [
     {
       "type": 0,
-      "value": "Settings (Circ): Can create, edit and remove circulation rules"
+      "value": "Settings (Circulation): Can create, edit and remove circulation rules"
+    }
+  ],
+  "ui-circulation.permission.settings.edit-loan-history": [
+    {
+      "type": 0,
+      "value": "Settings (Circulation): Can edit loan history"
     }
   ],
   "ui-circulation.permission.settings.edit-staff-slips": [
     {
       "type": 0,
-      "value": "Settings (Circ): Can edit staff slips"
+      "value": "Settings (Circulation): Can edit staff slips"
     }
   ],
   "ui-circulation.permission.settings.fixed-due-date-schedules": [
     {
       "type": 0,
-      "value": "Settings (Circ): Can create, edit and remove fixed due date schedules"
+      "value": "Settings (Circulation): Can create, edit and remove fixed due date schedules"
     }
   ],
   "ui-circulation.permission.settings.loan-history": [
     {
       "type": 0,
-      "value": "Settings (Circ): Can view loan history"
+      "value": "Settings (Circulation): Can view loan history"
     }
   ],
   "ui-circulation.permission.settings.loan-policies": [
     {
       "type": 0,
-      "value": "Settings (Circ): Can create, edit and remove loan policies"
+      "value": "Settings (Circulation): Can create, edit and remove loan policies"
     }
   ],
   "ui-circulation.permission.settings.lost-item-fees-policies": [
     {
       "type": 0,
-      "value": "Settings (Circ): Can create, edit and remove lost item fee policies"
+      "value": "Settings (Circulation): Can create, edit and remove lost item fee policies"
     }
   ],
   "ui-circulation.permission.settings.notice-policies": [
     {
       "type": 0,
-      "value": "Settings (Circ): Can create, edit and remove notice policies"
+      "value": "Settings (Circulation): Can create, edit and remove notice policies"
     }
   ],
   "ui-circulation.permission.settings.notice-templates": [
     {
       "type": 0,
-      "value": "Settings (Circ): Can create, edit and remove patron notice templates"
+      "value": "Settings (Circulation): Can create, edit and remove patron notice templates"
     }
   ],
   "ui-circulation.permission.settings.other-settings": [
     {
       "type": 0,
-      "value": "Settings (Circ): Can create, edit and remove other settings"
+      "value": "Settings (Circulation): Can create, edit and remove other settings"
     }
   ],
   "ui-circulation.permission.settings.overdue-fines-policies": [
     {
       "type": 0,
-      "value": "Settings (Circ): Can create, edit and remove overdue fine policies"
+      "value": "Settings (Circulation): Can create, edit and remove overdue fine policies"
     }
   ],
   "ui-circulation.permission.settings.request-policies": [
     {
       "type": 0,
-      "value": "Settings (Circ): Can create, edit and remove request policies"
+      "value": "Settings (Circulation): Can create, edit and remove request policies"
     }
   ],
   "ui-circulation.permission.settings.request-print-details": [
     {
       "type": 0,
-      "value": "Settings (Circ): Can enable request print details"
+      "value": "Settings (Circulation): Can enable request print details"
     }
   ],
   "ui-circulation.permission.settings.staff-slips": [
     {
       "type": 0,
-      "value": "Settings (Circ): Can create, edit and remove staff slips"
+      "value": "Settings (Circulation): Can create, edit and remove staff slips"
     }
   ],
   "ui-circulation.permission.settings.titleLevelRequests": [
@@ -30822,7 +30972,7 @@
   "ui-circulation.permission.settings.view-circulation-rules": [
     {
       "type": 0,
-      "value": "Settings (Circ): View circulation rules"
+      "value": "Settings (Circulation): View circulation rules"
     }
   ],
   "ui-circulation.permission.settings.view-circulation-settings": [
@@ -30840,13 +30990,13 @@
   "ui-circulation.permission.settings.view-loan-policies": [
     {
       "type": 0,
-      "value": "Settings (Circ): Can view loan policies"
+      "value": "Settings (Circulation): Can view loan policies"
     }
   ],
   "ui-circulation.permission.settings.view-lost-item-fees-policies": [
     {
       "type": 0,
-      "value": "Settings (Circ): Can view lost item fee policies"
+      "value": "Settings (Circulation): Can view lost item fee policies"
     }
   ],
   "ui-circulation.permission.settings.view-notice-policies": [
@@ -30870,7 +31020,7 @@
   "ui-circulation.permission.settings.view-overdue-fines-policies": [
     {
       "type": 0,
-      "value": "Settings (Circ): Can view overdue fine policies"
+      "value": "Settings (Circulation): Can view overdue fine policies"
     }
   ],
   "ui-circulation.permission.settings.view-request-policies": [
@@ -115593,6 +115743,12 @@
     {
       "type": 0,
       "value": "Expect"
+    }
+  ],
+  "ui-receiving.piece.action.button.markLate": [
+    {
+      "type": 0,
+      "value": "Mark late"
     }
   ],
   "ui-receiving.piece.action.button.quickReceive": [

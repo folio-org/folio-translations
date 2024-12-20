@@ -123,6 +123,144 @@
       "value": "保存"
     }
   ],
+  "stripes-acq-components.claiming.action.delayClaim": [
+    {
+      "type": 0,
+      "value": "Delay claim"
+    }
+  ],
+  "stripes-acq-components.claiming.action.sendClaim": [
+    {
+      "type": 0,
+      "value": "Send claim"
+    }
+  ],
+  "stripes-acq-components.claiming.action.unreceivable": [
+    {
+      "type": 0,
+      "value": "Unreceivable"
+    }
+  ],
+  "stripes-acq-components.claiming.modal.delayClaim.field.delayTo": [
+    {
+      "type": 0,
+      "value": "Delay to"
+    }
+  ],
+  "stripes-acq-components.claiming.modal.delayClaim.heading": [
+    {
+      "options": {
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "Delay "
+            },
+            {
+              "offset": 0,
+              "options": {
+                "one": {
+                  "value": [
+                    {
+                      "type": 0,
+                      "value": "claim"
+                    }
+                  ]
+                },
+                "other": {
+                  "value": [
+                    {
+                      "type": 0,
+                      "value": "claims"
+                    }
+                  ]
+                }
+              },
+              "pluralType": "cardinal",
+              "type": 6,
+              "value": "count"
+            }
+          ]
+        },
+        "undefined": {
+          "value": [
+            {
+              "type": 0,
+              "value": "Delay claim"
+            }
+          ]
+        }
+      },
+      "type": 5,
+      "value": "count"
+    }
+  ],
+  "stripes-acq-components.claiming.modal.sendClaim.field.claimExpiryDate": [
+    {
+      "type": 0,
+      "value": "Claim expiry date"
+    }
+  ],
+  "stripes-acq-components.claiming.modal.sendClaim.field.externalNote": [
+    {
+      "type": 0,
+      "value": "External note"
+    }
+  ],
+  "stripes-acq-components.claiming.modal.sendClaim.field.internalNote": [
+    {
+      "type": 0,
+      "value": "Internal note"
+    }
+  ],
+  "stripes-acq-components.claiming.modal.sendClaim.heading": [
+    {
+      "options": {
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "Send "
+            },
+            {
+              "offset": 0,
+              "options": {
+                "one": {
+                  "value": [
+                    {
+                      "type": 0,
+                      "value": "claim"
+                    }
+                  ]
+                },
+                "other": {
+                  "value": [
+                    {
+                      "type": 0,
+                      "value": "claims"
+                    }
+                  ]
+                }
+              },
+              "pluralType": "cardinal",
+              "type": 6,
+              "value": "count"
+            }
+          ]
+        },
+        "undefined": {
+          "value": [
+            {
+              "type": 0,
+              "value": "Send claim"
+            }
+          ]
+        }
+      },
+      "type": 5,
+      "value": "count"
+    }
+  ],
   "stripes-acq-components.consortia.affiliations.primary.label": [
     {
       "type": 0,
@@ -1458,6 +1596,12 @@
     {
       "type": 0,
       "value": "スペースは使用できません"
+    }
+  ],
+  "stripes-acq-components.validation.dateAfter": [
+    {
+      "type": 0,
+      "value": "Selected date must be later than the current date"
     }
   ],
   "stripes-acq-components.validation.fundDistribution.uniqueFunds": [
@@ -30952,6 +31096,12 @@
     {
       "type": 0,
       "value": "設定（貸出/返却）: 貸出/返却ルールの作成、編集、削除ができます"
+    }
+  ],
+  "ui-circulation.permission.settings.edit-loan-history": [
+    {
+      "type": 0,
+      "value": "Settings (Circulation): Can edit loan history"
     }
   ],
   "ui-circulation.permission.settings.edit-staff-slips": [
@@ -117020,6 +117170,12 @@
     {
       "type": 0,
       "value": "Expect"
+    }
+  ],
+  "ui-receiving.piece.action.button.markLate": [
+    {
+      "type": 0,
+      "value": "Mark late"
     }
   ],
   "ui-receiving.piece.action.button.quickReceive": [
