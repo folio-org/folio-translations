@@ -34737,6 +34737,18 @@
       "value": "Claiming app Search"
     }
   ],
+  "ui-claims.claiming.delayClaim.error.message": [
+    {
+      "type": 0,
+      "value": "Failure on delay claims."
+    }
+  ],
+  "ui-claims.claiming.delayClaim.success.message": [
+    {
+      "type": 0,
+      "value": "Claims are successfully delayed."
+    }
+  ],
   "ui-claims.claiming.filters.metadata.createdByUserId": [
     {
       "type": 0,
@@ -34857,6 +34869,73 @@
       "value": "Date updated (Title)"
     }
   ],
+  "ui-claims.claiming.markUnreceivable.error.message": [
+    {
+      "type": 0,
+      "value": "Failure on mark unreceivable"
+    }
+  ],
+  "ui-claims.claiming.markUnreceivable.modal.heading": [
+    {
+      "type": 0,
+      "value": "Mark unreceivable"
+    }
+  ],
+  "ui-claims.claiming.markUnreceivable.modal.message": [
+    {
+      "type": 0,
+      "value": "Mark "
+    },
+    {
+      "children": [
+        {
+          "style": null,
+          "type": 2,
+          "value": "count"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " "
+    },
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "piece"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "pieces"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": " unreceivable?"
+    }
+  ],
+  "ui-claims.claiming.markUnreceivable.success.message": [
+    {
+      "type": 0,
+      "value": "Claims are successfully marked unreceivable"
+    }
+  ],
   "ui-claims.claiming.results.columns.chronology": [
     {
       "type": 0,
@@ -34939,6 +35018,67 @@
       "value": "Claiming"
     }
   ],
+  "ui-claims.claiming.sendClaim.error.message": [
+    {
+      "type": 0,
+      "value": "Failure on send claims."
+    }
+  ],
+  "ui-claims.claiming.sendClaim.modal.message": [
+    {
+      "type": 0,
+      "value": "Claim "
+    },
+    {
+      "children": [
+        {
+          "style": null,
+          "type": 2,
+          "value": "count"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " "
+    },
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "piece"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "pieces"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": "?"
+    }
+  ],
+  "ui-claims.claiming.sendClaim.success.message": [
+    {
+      "type": 0,
+      "value": "Claims are currently being processed. Please check Export manager for job status."
+    }
+  ],
   "ui-claims.document.title.search": [
     {
       "type": 0,
@@ -34951,6 +35091,32 @@
     {
       "type": 0,
       "value": " - Search"
+    }
+  ],
+  "ui-claims.error.code.cannotFindPiecesWithLatestStatusToProcess": [
+    {
+      "type": 0,
+      "value": "Cannot find pieces with \"Late\" status to process."
+    }
+  ],
+  "ui-claims.error.code.unableToGenerateClaimsForOrgNoIntegrationDetails": [
+    {
+      "type": 0,
+      "value": "Unable to generate claims for "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "orgCodes"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " because no claim integrations exist."
     }
   ],
   "ui-claims.meta.title": [
@@ -120048,6 +120214,12 @@
     {
       "type": 0,
       "value": "Requests on item"
+    }
+  ],
+  "ui-requests.item.retrievalServicePointName": [
+    {
+      "type": 0,
+      "value": "Retrieval service point"
     }
   ],
   "ui-requests.item.scanOrEnterBarcode": [
