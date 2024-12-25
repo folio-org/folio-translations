@@ -23469,35 +23469,15 @@
       "value": "Set criteria"
     }
   ],
+  "ui-bulk-edit.list.errors.checkbox": [
+    {
+      "type": 0,
+      "value": "Show warnings"
+    }
+  ],
   "ui-bulk-edit.list.errors.info": [
     {
       "children": [
-        {
-          "type": 1,
-          "value": "fileName"
-        },
-        {
-          "type": 0,
-          "value": ": "
-        },
-        {
-          "style": null,
-          "type": 2,
-          "value": "entries"
-        },
-        {
-          "type": 0,
-          "value": " entries * "
-        },
-        {
-          "style": null,
-          "type": 2,
-          "value": "matched"
-        },
-        {
-          "type": 0,
-          "value": " records matched * "
-        },
         {
           "style": null,
           "type": 2,
@@ -23505,7 +23485,68 @@
         },
         {
           "type": 0,
-          "value": " errors"
+          "value": " "
+        },
+        {
+          "offset": 0,
+          "options": {
+            "one": {
+              "value": [
+                {
+                  "type": 0,
+                  "value": "error"
+                }
+              ]
+            },
+            "other": {
+              "value": [
+                {
+                  "type": 0,
+                  "value": "errors"
+                }
+              ]
+            }
+          },
+          "pluralType": "cardinal",
+          "type": 6,
+          "value": "errors"
+        },
+        {
+          "type": 0,
+          "value": " * "
+        },
+        {
+          "style": null,
+          "type": 2,
+          "value": "warnings"
+        },
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "offset": 0,
+          "options": {
+            "one": {
+              "value": [
+                {
+                  "type": 0,
+                  "value": "warning"
+                }
+              ]
+            },
+            "other": {
+              "value": [
+                {
+                  "type": 0,
+                  "value": "warnings"
+                }
+              ]
+            }
+          },
+          "pluralType": "cardinal",
+          "type": 6,
+          "value": "warnings"
         }
       ],
       "type": 8,
@@ -23688,13 +23729,31 @@
   "ui-bulk-edit.list.errors.table.message": [
     {
       "type": 0,
-      "value": "Reason for error"
+      "value": "Reason"
+    }
+  ],
+  "ui-bulk-edit.list.errors.table.status": [
+    {
+      "type": 0,
+      "value": "Status"
+    }
+  ],
+  "ui-bulk-edit.list.errors.table.status.ERROR": [
+    {
+      "type": 0,
+      "value": "Error"
+    }
+  ],
+  "ui-bulk-edit.list.errors.table.status.WARNING": [
+    {
+      "type": 0,
+      "value": "Warning"
     }
   ],
   "ui-bulk-edit.list.errors.title": [
     {
       "type": 0,
-      "value": "Errors"
+      "value": "Errors & warnings"
     }
   ],
   "ui-bulk-edit.list.filters.capabilities.acquisition": [
@@ -23891,6 +23950,14 @@
     },
     {
       "type": 0,
+      "value": " "
+    },
+    {
+      "type": 1,
+      "value": "recordType"
+    },
+    {
+      "type": 0,
       "value": " records changed"
     }
   ],
@@ -23902,7 +23969,15 @@
     },
     {
       "type": 0,
-      "value": " records match"
+      "value": " "
+    },
+    {
+      "type": 1,
+      "value": "recordType"
+    },
+    {
+      "type": 0,
+      "value": " records matched"
     }
   ],
   "ui-bulk-edit.list.preview.electronicAccess.linkText": [
@@ -108681,6 +108756,16 @@
     {
       "type": 0,
       "value": "Retrieving..."
+    }
+  ],
+  "ui-plugin-query-builder.warning.deletedField": [
+    {
+      "type": 1,
+      "value": "value"
+    },
+    {
+      "type": 0,
+      "value": " in your query is unavailable. Please revise your query. "
     }
   ],
   "ui-quick-marc.Inventory": [
