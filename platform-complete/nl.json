@@ -1957,7 +1957,7 @@
   "stripes-authority-components.search-results-list.error.badRequest": [
     {
       "type": 0,
-      "value": "Search could not be processed for "
+      "value": "Zoeken kon niet worden verwerkt voor "
     },
     {
       "type": 1,
@@ -1965,7 +1965,7 @@
     },
     {
       "type": 0,
-      "value": ". Please check your query and try again."
+      "value": ". Controleer uw zoekopdracht en probeer het opnieuw."
     }
   ],
   "stripes-authority-components.search-results-list.headingRef": [
@@ -57092,7 +57092,7 @@
   "ui-finance.actions.downloadAllocationWorksheet": [
     {
       "type": 0,
-      "value": "Download allocation worksheet (CSV)"
+      "value": "Allocation"
     }
   ],
   "ui-finance.actions.edit": [
@@ -57134,13 +57134,13 @@
   "ui-finance.allocation.worksheet.download.error": [
     {
       "type": 0,
-      "value": "An error occurred during file generation."
+      "value": "Er is een fout opgetreden tijdens het genereren van het bestand."
     }
   ],
   "ui-finance.allocation.worksheet.download.start": [
     {
       "type": 0,
-      "value": "Please wait while the worksheet is generated. Your download will start automatically"
+      "value": "Even geduld terwijl het werkblad wordt gegenereerd. Uw download start automatisch."
     }
   ],
   "ui-finance.appMenu.financeAppSearch": [
@@ -59676,7 +59676,7 @@
   "ui-finance.menuSection.allocationTools": [
     {
       "type": 0,
-      "value": "Allocation tools"
+      "value": "Toewijzingshulpmiddelen"
     }
   ],
   "ui-finance.meta.title": [
@@ -59915,7 +59915,7 @@
   "ui-finance.selectFiscalYear": [
     {
       "type": 0,
-      "value": "Select fiscal year"
+      "value": "Selecteer boekjaar"
     }
   ],
   "ui-finance.settings.button.export": [
@@ -60389,7 +60389,7 @@
   "ui-finance.transaction.filter.encumbranceStatus": [
     {
       "type": 0,
-      "value": "Encumbrance status"
+      "value": "Status budgetreservering "
     }
   ],
   "ui-finance.transaction.fiscalYear": [
@@ -107796,6 +107796,12 @@
       "value": "Barcode moet uniek zijn, stuk- en itemgegevens konden niet bijgewerkt worden."
     }
   ],
+  "ui-receiving.errors.cannotFindPiecesWithLatestStatusToProcess": [
+    {
+      "type": 0,
+      "value": "The piece must have \"Late\" status to process."
+    }
+  ],
   "ui-receiving.errors.createItemForPieceIsNotAllowedError": [
     {
       "type": 0,
@@ -107934,6 +107940,12 @@
     {
       "type": 0,
       "value": "De ontvangen titel(s) konden niet worden gevonden"
+    }
+  ],
+  "ui-receiving.errors.unableToGenerateClaimsForOrgNoIntegrationDetails": [
+    {
+      "type": 0,
+      "value": "Unable to generate claims because no claim integrations exist for the organization."
     }
   ],
   "ui-receiving.errors.userHasNoPermission": [
@@ -108886,6 +108898,18 @@
     {
       "type": 0,
       "value": "Ja"
+    }
+  ],
+  "ui-receiving.piece.sendClaim.withIntegration.message": [
+    {
+      "type": 0,
+      "value": "This will generate a claim job which can be viewed in Export manager. Continue?"
+    }
+  ],
+  "ui-receiving.piece.sendClaim.withoutIntegration.message": [
+    {
+      "type": 0,
+      "value": "No claiming integration exists for this organization. Piece will be set to \"Claim sent\" status. Continue?"
     }
   ],
   "ui-receiving.piece.status": [
@@ -112107,6 +112131,20 @@
       "value": "Gebruikers kunnen geen proxy voor zichzelf zijn"
     }
   ],
+  "ui-requests.exportExpiredHoldShelfCsv": [
+    {
+      "type": 0,
+      "value": "Hold shelf clearance report "
+    },
+    {
+      "type": 1,
+      "value": "currentServicePoint"
+    },
+    {
+      "type": 0,
+      "value": " (CSV)"
+    }
+  ],
   "ui-requests.exportExpiredHoldShelfToCsv": [
     {
       "type": 0,
@@ -112115,6 +112153,12 @@
     {
       "type": 1,
       "value": "currentServicePoint"
+    }
+  ],
+  "ui-requests.exportSearchResultsCsv": [
+    {
+      "type": 0,
+      "value": "Export search results (CSV)"
     }
   ],
   "ui-requests.exportSearchResultsToCsv": [
@@ -112879,6 +112923,16 @@
       "value": "sp"
     }
   ],
+  "ui-requests.printPickSlipsForSp": [
+    {
+      "type": 0,
+      "value": "Print pick slips "
+    },
+    {
+      "type": 1,
+      "value": "sp"
+    }
+  ],
   "ui-requests.printPickSlipsSelected": [
     {
       "type": 0,
@@ -112901,6 +112955,26 @@
     {
       "type": 0,
       "value": " printen"
+    }
+  ],
+  "ui-requests.printSearchSlipsForSp": [
+    {
+      "type": 0,
+      "value": "Print search slips "
+    },
+    {
+      "type": 1,
+      "value": "sp"
+    }
+  ],
+  "ui-requests.printSelectedPickSlipsForSp": [
+    {
+      "type": 0,
+      "value": "Print selected pick slips "
+    },
+    {
+      "type": 1,
+      "value": "sp"
     }
   ],
   "ui-requests.proxy.barcode": [

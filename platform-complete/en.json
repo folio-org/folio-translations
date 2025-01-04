@@ -115520,6 +115520,12 @@
       "value": "Barcode must be unique, piece and item data could not be updated."
     }
   ],
+  "ui-receiving.errors.cannotFindPiecesWithLatestStatusToProcess": [
+    {
+      "type": 0,
+      "value": "The piece must have \"Late\" status to process."
+    }
+  ],
   "ui-receiving.errors.createItemForPieceIsNotAllowedError": [
     {
       "type": 0,
@@ -115658,6 +115664,12 @@
     {
       "type": 0,
       "value": "The receiving title(s) could not be found"
+    }
+  ],
+  "ui-receiving.errors.unableToGenerateClaimsForOrgNoIntegrationDetails": [
+    {
+      "type": 0,
+      "value": "Unable to generate claims because no claim integrations exist for the organization."
     }
   ],
   "ui-receiving.errors.userHasNoPermission": [
@@ -116624,6 +116636,18 @@
     {
       "type": 0,
       "value": "Yes"
+    }
+  ],
+  "ui-receiving.piece.sendClaim.withIntegration.message": [
+    {
+      "type": 0,
+      "value": "This will generate a claim job which can be viewed in Export manager. Continue?"
+    }
+  ],
+  "ui-receiving.piece.sendClaim.withoutIntegration.message": [
+    {
+      "type": 0,
+      "value": "No claiming integration exists for this organization. Piece will be set to \"Claim sent\" status. Continue?"
     }
   ],
   "ui-receiving.piece.status": [
@@ -119927,6 +119951,20 @@
       "value": "User cannot be proxy for themselves"
     }
   ],
+  "ui-requests.exportExpiredHoldShelfCsv": [
+    {
+      "type": 0,
+      "value": "Hold shelf clearance report "
+    },
+    {
+      "type": 1,
+      "value": "currentServicePoint"
+    },
+    {
+      "type": 0,
+      "value": " (CSV)"
+    }
+  ],
   "ui-requests.exportExpiredHoldShelfToCsv": [
     {
       "type": 0,
@@ -119935,6 +119973,12 @@
     {
       "type": 1,
       "value": "currentServicePoint"
+    }
+  ],
+  "ui-requests.exportSearchResultsCsv": [
+    {
+      "type": 0,
+      "value": "Export search results (CSV)"
     }
   ],
   "ui-requests.exportSearchResultsToCsv": [
@@ -120781,6 +120825,16 @@
       "value": "sp"
     }
   ],
+  "ui-requests.printPickSlipsForSp": [
+    {
+      "type": 0,
+      "value": "Print pick slips "
+    },
+    {
+      "type": 1,
+      "value": "sp"
+    }
+  ],
   "ui-requests.printPickSlipsSelected": [
     {
       "type": 0,
@@ -120795,6 +120849,26 @@
     {
       "type": 0,
       "value": "Print search slips for "
+    },
+    {
+      "type": 1,
+      "value": "sp"
+    }
+  ],
+  "ui-requests.printSearchSlipsForSp": [
+    {
+      "type": 0,
+      "value": "Print search slips "
+    },
+    {
+      "type": 1,
+      "value": "sp"
+    }
+  ],
+  "ui-requests.printSelectedPickSlipsForSp": [
+    {
+      "type": 0,
+      "value": "Print selected pick slips "
     },
     {
       "type": 1,

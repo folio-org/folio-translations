@@ -22449,39 +22449,74 @@
     {
       "children": [
         {
-          "type": 1,
-          "value": "fileName"
-        },
-        {
-          "type": 0,
-          "value": ": "
-        },
-        {
-          "style": null,
-          "type": 2,
-          "value": "entries"
-        },
-        {
-          "type": 0,
-          "value": " entries * "
-        },
-        {
-          "style": null,
-          "type": 2,
-          "value": "matched"
-        },
-        {
-          "type": 0,
-          "value": " records matched * "
-        },
-        {
           "style": null,
           "type": 2,
           "value": "errors"
         },
         {
           "type": 0,
-          "value": " errors"
+          "value": " "
+        },
+        {
+          "offset": 0,
+          "options": {
+            "one": {
+              "value": [
+                {
+                  "type": 0,
+                  "value": "error"
+                }
+              ]
+            },
+            "other": {
+              "value": [
+                {
+                  "type": 0,
+                  "value": "errors"
+                }
+              ]
+            }
+          },
+          "pluralType": "cardinal",
+          "type": 6,
+          "value": "errors"
+        },
+        {
+          "type": 0,
+          "value": " * "
+        },
+        {
+          "style": null,
+          "type": 2,
+          "value": "warnings"
+        },
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "offset": 0,
+          "options": {
+            "one": {
+              "value": [
+                {
+                  "type": 0,
+                  "value": "warning"
+                }
+              ]
+            },
+            "other": {
+              "value": [
+                {
+                  "type": 0,
+                  "value": "warnings"
+                }
+              ]
+            }
+          },
+          "pluralType": "cardinal",
+          "type": 6,
+          "value": "warnings"
         }
       ],
       "type": 8,
@@ -22624,7 +22659,7 @@
   "ui-bulk-edit.list.errors.table.message": [
     {
       "type": 0,
-      "value": "Reason for error"
+      "value": "Reason"
     }
   ],
   "ui-bulk-edit.list.errors.table.status": [
@@ -22648,7 +22683,7 @@
   "ui-bulk-edit.list.errors.title": [
     {
       "type": 0,
-      "value": "Errors"
+      "value": "Errors & warnings"
     }
   ],
   "ui-bulk-edit.list.filters.capabilities.acquisition": [
@@ -22845,6 +22880,14 @@
     },
     {
       "type": 0,
+      "value": " "
+    },
+    {
+      "type": 1,
+      "value": "recordType"
+    },
+    {
+      "type": 0,
       "value": " records changed"
     }
   ],
@@ -22856,7 +22899,15 @@
     },
     {
       "type": 0,
-      "value": " records match"
+      "value": " "
+    },
+    {
+      "type": 1,
+      "value": "recordType"
+    },
+    {
+      "type": 0,
+      "value": " records matched"
     }
   ],
   "ui-bulk-edit.list.preview.electronicAccess.linkText": [
@@ -28768,19 +28819,19 @@
   "ui-circulation.permission.settings.cancellation-reasons": [
     {
       "type": 0,
-      "value": "Settings (Circ): Can create, edit and remove cancellation reasons"
+      "value": "Settings (Circulation): Can create, edit and remove cancellation reasons"
     }
   ],
   "ui-circulation.permission.settings.circulation-rules": [
     {
       "type": 0,
-      "value": "Settings (Circ): Can create, edit and remove circulation rules [LEGACY]"
+      "value": "Settings (Circulation): Can create, edit and remove circulation rules [LEGACY]"
     }
   ],
   "ui-circulation.permission.settings.edit-circulation-rules": [
     {
       "type": 0,
-      "value": "Settings (Circ): Can create, edit and remove circulation rules"
+      "value": "Settings (Circulation): Can create, edit and remove circulation rules"
     }
   ],
   "ui-circulation.permission.settings.edit-loan-history": [
@@ -28792,73 +28843,73 @@
   "ui-circulation.permission.settings.edit-staff-slips": [
     {
       "type": 0,
-      "value": "Settings (Circ): Can edit staff slips"
+      "value": "Settings (Circulation): Can edit staff slips"
     }
   ],
   "ui-circulation.permission.settings.fixed-due-date-schedules": [
     {
       "type": 0,
-      "value": "Settings (Circ): Can create, edit and remove fixed due date schedules"
+      "value": "Settings (Circulation): Can create, edit and remove fixed due date schedules"
     }
   ],
   "ui-circulation.permission.settings.loan-history": [
     {
       "type": 0,
-      "value": "Settings (Circ): Can view loan history"
+      "value": "Settings (Circulation): Can view loan history"
     }
   ],
   "ui-circulation.permission.settings.loan-policies": [
     {
       "type": 0,
-      "value": "Settings (Circ): Can create, edit and remove loan policies"
+      "value": "Settings (Circulation): Can create, edit and remove loan policies"
     }
   ],
   "ui-circulation.permission.settings.lost-item-fees-policies": [
     {
       "type": 0,
-      "value": "Settings (Circ): Can create, edit and remove lost item fee policies"
+      "value": "Settings (Circulation): Can create, edit and remove lost item fee policies"
     }
   ],
   "ui-circulation.permission.settings.notice-policies": [
     {
       "type": 0,
-      "value": "Settings (Circ): Can create, edit and remove notice policies"
+      "value": "Settings (Circulation): Can create, edit and remove notice policies"
     }
   ],
   "ui-circulation.permission.settings.notice-templates": [
     {
       "type": 0,
-      "value": "Settings (Circ): Can create, edit and remove patron notice templates"
+      "value": "Settings (Circulation): Can create, edit and remove patron notice templates"
     }
   ],
   "ui-circulation.permission.settings.other-settings": [
     {
       "type": 0,
-      "value": "Settings (Circ): Can create, edit and remove other settings"
+      "value": "Settings (Circulation): Can create, edit and remove other settings"
     }
   ],
   "ui-circulation.permission.settings.overdue-fines-policies": [
     {
       "type": 0,
-      "value": "Settings (Circ): Can create, edit and remove overdue fine policies"
+      "value": "Settings (Circulation): Can create, edit and remove overdue fine policies"
     }
   ],
   "ui-circulation.permission.settings.request-policies": [
     {
       "type": 0,
-      "value": "Settings (Circ): Can create, edit and remove request policies"
+      "value": "Settings (Circulation): Can create, edit and remove request policies"
     }
   ],
   "ui-circulation.permission.settings.request-print-details": [
     {
       "type": 0,
-      "value": "Settings (Circ): Can enable request print details"
+      "value": "Settings (Circulation): Can enable request print details"
     }
   ],
   "ui-circulation.permission.settings.staff-slips": [
     {
       "type": 0,
-      "value": "Settings (Circ): Can create, edit and remove staff slips"
+      "value": "Settings (Circulation): Can create, edit and remove staff slips"
     }
   ],
   "ui-circulation.permission.settings.titleLevelRequests": [
@@ -28876,7 +28927,7 @@
   "ui-circulation.permission.settings.view-circulation-rules": [
     {
       "type": 0,
-      "value": "Settings (Circ): View circulation rules"
+      "value": "Settings (Circulation): View circulation rules"
     }
   ],
   "ui-circulation.permission.settings.view-circulation-settings": [
@@ -28894,13 +28945,13 @@
   "ui-circulation.permission.settings.view-loan-policies": [
     {
       "type": 0,
-      "value": "Settings (Circ): Can view loan policies"
+      "value": "Settings (Circulation): Can view loan policies"
     }
   ],
   "ui-circulation.permission.settings.view-lost-item-fees-policies": [
     {
       "type": 0,
-      "value": "Settings (Circ): Can view lost item fee policies"
+      "value": "Settings (Circulation): Can view lost item fee policies"
     }
   ],
   "ui-circulation.permission.settings.view-notice-policies": [
@@ -28924,7 +28975,7 @@
   "ui-circulation.permission.settings.view-overdue-fines-policies": [
     {
       "type": 0,
-      "value": "Settings (Circ): Can view overdue fine policies"
+      "value": "Settings (Circulation): Can view overdue fine policies"
     }
   ],
   "ui-circulation.permission.settings.view-request-policies": [
@@ -107500,6 +107551,12 @@
       "value": "Barcode must be unique, piece and item data could not be updated."
     }
   ],
+  "ui-receiving.errors.cannotFindPiecesWithLatestStatusToProcess": [
+    {
+      "type": 0,
+      "value": "The piece must have \"Late\" status to process."
+    }
+  ],
   "ui-receiving.errors.createItemForPieceIsNotAllowedError": [
     {
       "type": 0,
@@ -107638,6 +107695,12 @@
     {
       "type": 0,
       "value": "The receiving title(s) could not be found"
+    }
+  ],
+  "ui-receiving.errors.unableToGenerateClaimsForOrgNoIntegrationDetails": [
+    {
+      "type": 0,
+      "value": "Unable to generate claims because no claim integrations exist for the organization."
     }
   ],
   "ui-receiving.errors.userHasNoPermission": [
@@ -108574,6 +108637,18 @@
     {
       "type": 0,
       "value": "Yes"
+    }
+  ],
+  "ui-receiving.piece.sendClaim.withIntegration.message": [
+    {
+      "type": 0,
+      "value": "This will generate a claim job which can be viewed in Export manager. Continue?"
+    }
+  ],
+  "ui-receiving.piece.sendClaim.withoutIntegration.message": [
+    {
+      "type": 0,
+      "value": "No claiming integration exists for this organization. Piece will be set to \"Claim sent\" status. Continue?"
     }
   ],
   "ui-receiving.piece.status": [
@@ -111771,6 +111846,20 @@
       "value": "User cannot be proxy for themselves"
     }
   ],
+  "ui-requests.exportExpiredHoldShelfCsv": [
+    {
+      "type": 0,
+      "value": "Hold shelf clearance report "
+    },
+    {
+      "type": 1,
+      "value": "currentServicePoint"
+    },
+    {
+      "type": 0,
+      "value": " (CSV)"
+    }
+  ],
   "ui-requests.exportExpiredHoldShelfToCsv": [
     {
       "type": 0,
@@ -111779,6 +111868,12 @@
     {
       "type": 1,
       "value": "currentServicePoint"
+    }
+  ],
+  "ui-requests.exportSearchResultsCsv": [
+    {
+      "type": 0,
+      "value": "Export search results (CSV)"
     }
   ],
   "ui-requests.exportSearchResultsToCsv": [
@@ -112543,6 +112638,16 @@
       "value": "sp"
     }
   ],
+  "ui-requests.printPickSlipsForSp": [
+    {
+      "type": 0,
+      "value": "Print pick slips "
+    },
+    {
+      "type": 1,
+      "value": "sp"
+    }
+  ],
   "ui-requests.printPickSlipsSelected": [
     {
       "type": 0,
@@ -112557,6 +112662,26 @@
     {
       "type": 0,
       "value": "Print search slips for "
+    },
+    {
+      "type": 1,
+      "value": "sp"
+    }
+  ],
+  "ui-requests.printSearchSlipsForSp": [
+    {
+      "type": 0,
+      "value": "Print search slips "
+    },
+    {
+      "type": 1,
+      "value": "sp"
+    }
+  ],
+  "ui-requests.printSelectedPickSlipsForSp": [
+    {
+      "type": 0,
+      "value": "Print selected pick slips "
     },
     {
       "type": 1,
