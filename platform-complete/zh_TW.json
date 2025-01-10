@@ -63095,6 +63095,12 @@
       "value": "更新失敗：已連結的書目欄位"
     }
   ],
+  "ui-export-manager.exportJob.download": [
+    {
+      "type": 0,
+      "value": "Download"
+    }
+  ],
   "ui-export-manager.exportJob.endTime": [
     {
       "type": 0,
@@ -63117,6 +63123,24 @@
     {
       "type": 0,
       "value": "檔案名稱"
+    }
+  ],
+  "ui-export-manager.exportJob.integrationType": [
+    {
+      "type": 0,
+      "value": "Integration type"
+    }
+  ],
+  "ui-export-manager.exportJob.integrationType.claiming": [
+    {
+      "type": 0,
+      "value": "Claims"
+    }
+  ],
+  "ui-export-manager.exportJob.integrationType.ordering": [
+    {
+      "type": 0,
+      "value": "Orders"
     }
   ],
   "ui-export-manager.exportJob.jobId": [
@@ -63243,6 +63267,18 @@
     {
       "type": 0,
       "value": "電子館藏"
+    }
+  ],
+  "ui-export-manager.exportJob.type.ORDERS_CSV": [
+    {
+      "type": 0,
+      "value": "Orders (CSV)"
+    }
+  ],
+  "ui-export-manager.exportJob.type.ORDERS_EDI": [
+    {
+      "type": 0,
+      "value": "Orders (EDI)"
     }
   ],
   "ui-export-manager.exportJobs": [
@@ -79942,31 +79978,31 @@
   "ui-invoice.filter.invoiceLine.createdBy": [
     {
       "type": 0,
-      "value": "建立者（發票細項）"
+      "value": "建立者 ( 發票細項 )"
     }
   ],
   "ui-invoice.filter.invoiceLine.dateCreated": [
     {
       "type": 0,
-      "value": "建立日期（發票細項）"
+      "value": "建立日期 ( 發票細項 )"
     }
   ],
   "ui-invoice.filter.invoiceLine.dateUpdated": [
     {
       "type": 0,
-      "value": "更新日期（發票細項）"
+      "value": "更新日期 ( 發票細項 )"
     }
   ],
   "ui-invoice.filter.invoiceLine.updatedBy": [
     {
       "type": 0,
-      "value": "更新者（發票細項）"
+      "value": "更新者 ( 發票細項 )"
     }
   ],
   "ui-invoice.filter.updatedBy": [
     {
       "type": 0,
-      "value": "最後更新："
+      "value": "最後更新 : "
     }
   ],
   "ui-invoice.find-po-line-plugin-unavailable": [
@@ -79996,7 +80032,7 @@
   "ui-invoice.invoice.accountingCode.default": [
     {
       "type": 0,
-      "value": "預設（ "
+      "value": "預設 ("
     },
     {
       "type": 1,
@@ -80004,7 +80040,7 @@
     },
     {
       "type": 0,
-      "value": " ）"
+      "value": ")"
     }
   ],
   "ui-invoice.invoice.actions.addLine.confirmLabel": [
@@ -80016,7 +80052,7 @@
   "ui-invoice.invoice.actions.addLine.currencyMessage": [
     {
       "type": 0,
-      "value": "您正在新增一個或多個採購訂單細項，這些採購訂單細項的幣別與此發票上標識的幣別不同。如果您仍想新增這些，請點選確認。注意：費用將以發票上確定的幣別記錄。"
+      "value": "您正在新增一個或多個採購訂單細項，這些採購訂單細項的幣別與此發票上標識的幣別不同。如果您仍想新增這些，請點選確認。注意：費用將以發票上確定的幣別紀錄。"
     }
   ],
   "ui-invoice.invoice.actions.addLine.heading": [
@@ -80064,7 +80100,7 @@
   "ui-invoice.invoice.actions.approve.error.accountingCodeNotPresent": [
     {
       "type": 0,
-      "value": "無法批准（已支付）發票，因為已識別的供應商必須具有此發票的會計代碼才能匯出到會計"
+      "value": "發票無法被批准 ( 已支付 )，因為已識別的供應商必須具有此發票的會計代碼才能匯出到會計"
     }
   ],
   "ui-invoice.invoice.actions.approve.error.adjustmentFundDistributionsNotPresent": [
@@ -81072,7 +81108,7 @@
   "ui-invoice.invoice.details.information.calculatedTotalExchangeAmount": [
     {
       "type": 0,
-      "value": "計算總金額（兌換）"
+      "value": "計算總金額 ( 兌換 )"
     }
   ],
   "ui-invoice.invoice.details.information.fiscalYear": [
@@ -81586,7 +81622,7 @@
   "ui-invoice.invoice.list.total": [
     {
       "type": 0,
-      "value": "總計（系統）"
+      "value": "總計 ( 系統 )"
     }
   ],
   "ui-invoice.invoice.list.vendor": [
@@ -81888,7 +81924,7 @@
   "ui-invoice.invoiceLine.poLineId": [
     {
       "type": 0,
-      "value": "訂單細項（PO line）"
+      "value": "訂單細項 ( PO line )"
     }
   ],
   "ui-invoice.invoiceLine.poLineNumber": [
@@ -82092,7 +82128,7 @@
   "ui-invoice.permission.acq.unit.assignment.assign": [
     {
       "type": 0,
-      "value": "發票：將採購單位分配給新記錄"
+      "value": "發票：將採購單位分配給新紀錄"
     }
   ],
   "ui-invoice.permission.acq.unit.assignment.manage": [
@@ -82110,19 +82146,19 @@
   "ui-invoice.permission.batchVoucher.download": [
     {
       "type": 0,
-      "value": "發票：從發票記錄中下載批次處理文件"
+      "value": "發票：從發票紀錄中下載批次處理文件"
     }
   ],
   "ui-invoice.permission.batchVoucher.exportConfigs.credentials.edit": [
     {
       "type": 0,
-      "value": "設定（發票）：批次群組使用者名稱和密碼：檢視和編輯"
+      "value": "設定 ( 發票 ) : 批次群組使用者名稱和密碼 : 檢視和編輯"
     }
   ],
   "ui-invoice.permission.batchVoucher.exportConfigs.credentials.view": [
     {
       "type": 0,
-      "value": "設定（發票）：批次群組使用者名稱和密碼：檢視"
+      "value": "設定 ( 發票 ) : 批次群組使用者名稱和密碼 : 檢視"
     }
   ],
   "ui-invoice.permission.cancel": [
@@ -82200,7 +82236,7 @@
   "ui-invoice.permission.settings.all": [
     {
       "type": 0,
-      "value": "設定（發票）：可以查看和編輯所有設定"
+      "value": "設定 ( 發票 ) : 可以查看和編輯設定"
     }
   ],
   "ui-invoice.permission.voucher.export.execute": [
@@ -82224,7 +82260,7 @@
   "ui-invoice.receivingHistory": [
     {
       "type": 0,
-      "value": "接收歷史記錄"
+      "value": "接收歷史紀錄"
     }
   ],
   "ui-invoice.receivingHistory.caption": [
@@ -82736,7 +82772,7 @@
   "ui-invoice.settings.batchGroups.cannotDeleteTermMessage": [
     {
       "type": 0,
-      "value": "無法刪除該批次群組，因為它正被一條或多筆記錄使用。"
+      "value": "無法刪除該批次群組，因為它正被一條或多筆紀錄使用。"
     }
   ],
   "ui-invoice.settings.batchGroups.column.description": [
