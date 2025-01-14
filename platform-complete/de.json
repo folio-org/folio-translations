@@ -16244,7 +16244,7 @@
   "ui-agreements.alternativeName": [
     {
       "type": 0,
-      "value": "Alternative Namen"
+      "value": "Alternativer Name"
     }
   ],
   "ui-agreements.alternativeNames": [
@@ -21881,7 +21881,7 @@
   "ui-bulk-edit.columns.HOLDINGS_RECORD.Statistical codes": [
     {
       "type": 0,
-      "value": "Statistikcodes"
+      "value": "Statistische Codes"
     }
   ],
   "ui-bulk-edit.columns.HOLDINGS_RECORD.Suppress from discovery": [
@@ -47893,19 +47893,19 @@
   "ui-data-import.settings.mappingProfiles.map.administrativeData.field.statisticalCode": [
     {
       "type": 0,
-      "value": "Statistikcode"
+      "value": "Statistischer Code"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.administrativeData.field.statisticalCodes.addLabel": [
     {
       "type": 0,
-      "value": "Statistikcode hinzufügen"
+      "value": "Statistischen Code hinzufügen"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.administrativeData.field.statisticalCodes.legend": [
     {
       "type": 0,
-      "value": "Statistikcodes"
+      "value": "Statistische Codes"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.administrativeData.field.unmarkAllAffectedRecords": [
@@ -85879,7 +85879,7 @@
   "ui-lists.lists.columns.barcode": [
     {
       "type": 0,
-      "value": "Strichcode"
+      "value": "Barcode"
     }
   ],
   "ui-lists.lists.columns.first-name": [
@@ -116595,7 +116595,7 @@
   "ui-receiving.piece.actions.edit.deleteHoldings.message": [
     {
       "type": 0,
-      "value": "Dieses Teil ist mit Datensätzen im Katalog verbunden. Nach dieser Bearbeitung gibt es keine anderen Teile ODER Exemplare zu den zugehörigen Bestandsdatensätzen. Möchten Sie nach dieser Änderung, dass FOLIO die Bestandsdatensätze löscht?"
+      "value": "Dieses Teil ist mit Datensätzen in der Katalog-App verbunden. Nach dieser Bearbeitung werden keine anderen Teile ODER Exemplare mit den zugehörigen Bestandsdatensätzen verknüpft sein. Möchten Sie, dass FOLIO nach dieser Änderung die Bestandsdatensätze löscht?"
     }
   ],
   "ui-receiving.piece.actions.edit.keepHoldings": [
@@ -116839,7 +116839,7 @@
   "ui-receiving.piece.delete.deleteHoldingsAndItem.message": [
     {
       "type": 0,
-      "value": "Dieses Teil ist mit Datensätzen im Katalog verbunden. Es gibt keine weiteren Exemplare, die mit diesen Bestandsdatensätzen verbunden sind. Möchten Sie nach dem Löschen des Teiles, dass FOLIO die Bestandsdatensätze löscht?"
+      "value": "Dieses Teil ist mit Datensätzen in der Katalog-App verbunden. Es gibt keine weiteren Exemplare, die mit diesem Bestandsdatensatz verbunden sind. Möchten Sie, dass FOLIO nach dem Löschen des Teiles den Bestandsdatensatz löscht?"
     }
   ],
   "ui-receiving.piece.delete.heading": [
@@ -125039,7 +125039,7 @@
   "ui-service-interaction.settings.numberGeneratorSequences.maximumNumberThreshold.info": [
     {
       "type": 0,
-      "value": "Wenn diese Einstellung festgelegt wird, wird den Benutzenden des Nummernkreises eine Warnung angezeigt, wenn dieser Wert erreicht ist. Muss niedriger sein als der maximale Wert."
+      "value": "Wenn diese Einstellung festgelegt wird, wird den Benutzenden des Nummernkreises eine Warnung angezeigt, wenn dieser Wert erreicht ist. Dieser muss niedriger sein als der maximale Wert."
     }
   ],
   "ui-service-interaction.settings.numberGeneratorSequences.maximumNumberThreshold.thresholdMustBeLowerThanMaximum": [
@@ -127910,6 +127910,12 @@
     {
       "type": 0,
       "value": "Erlass"
+    }
+  ],
+  "ui-users.accounts.history.columns.actions": [
+    {
+      "type": 0,
+      "value": "Actions"
     }
   ],
   "ui-users.accounts.history.columns.amount": [
@@ -137713,6 +137719,18 @@
     {
       "type": 0,
       "value": "Tags"
+    }
+  ],
+  "ui-users.title.patronBlock.create": [
+    {
+      "type": 0,
+      "value": "Users - Create a new patron block"
+    }
+  ],
+  "ui-users.title.patronBlock.edit": [
+    {
+      "type": 0,
+      "value": "Users - Edit a patron block"
     }
   ],
   "ui-users.transfers.columns.desc": [
