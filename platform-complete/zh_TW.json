@@ -102935,7 +102935,7 @@
   "ui-organizations.contactPeople.errors.noPrimaryRecord": [
     {
       "type": 0,
-      "value": "未選擇主要記錄"
+      "value": "未選擇主要紀錄"
     }
   ],
   "ui-organizations.contactPeople.inactive": [
@@ -103441,7 +103441,7 @@
   "ui-organizations.data.contactTypes.mail": [
     {
       "type": 0,
-      "value": "電子郵件（主要地址）"
+      "value": "電子郵件 ( 主要 )"
     }
   ],
   "ui-organizations.data.contactTypes.noAddressInfo": [
@@ -103909,7 +103909,7 @@
   "ui-organizations.filterConfig.updatedBy": [
     {
       "type": 0,
-      "value": "最後更新："
+      "value": "最後更新 : "
     }
   ],
   "ui-organizations.filterConfig.vendorStatus": [
@@ -105019,7 +105019,7 @@
   "ui-organizations.permission.settings": [
     {
       "type": 0,
-      "value": "設定（組織機構）：可以查看和編輯設定"
+      "value": "設定 ( 組織機構 ) : 可以查看和編輯設定"
     }
   ],
   "ui-organizations.permission.settings.view": [
@@ -105278,7 +105278,7 @@
   "ui-organizations.settings.bankingAccountTypes.cannotDeleteTermMessage": [
     {
       "type": 0,
-      "value": "此帳戶類型無法刪除，因為它正被一筆或多筆記錄使用。"
+      "value": "此帳戶類型無法刪除，因為它正被一筆或多筆紀錄使用。"
     }
   ],
   "ui-organizations.settings.bankingAccountTypes.deleteEntry": [
@@ -105390,7 +105390,7 @@
   "ui-organizations.settings.categories.cannotDeleteTermMessage": [
     {
       "type": 0,
-      "value": "該類別無法刪除，因為它正被一條或多筆記錄使用。"
+      "value": "該類別無法刪除，因為它正被一條或多筆紀錄使用。"
     }
   ],
   "ui-organizations.settings.categories.deleteEntry": [
@@ -105493,6 +105493,28 @@
       "value": "Fields which are usually filled using a numeric sequence can use the number generator. When the generator is switched on the field can either be fixed to prevent manual update, or made fully editable. When switched off, the field must be filled manually."
     }
   ],
+  "ui-organizations.settings.numberGeneratorOptions.infoAdditional": [
+    {
+      "type": 0,
+      "value": "Additional number generator settings are available under "
+    },
+    {
+      "type": 1,
+      "value": "serviceInteractionLink"
+    },
+    {
+      "type": 0,
+      "value": ".  At "
+    },
+    {
+      "type": 1,
+      "value": "numberGeneratorSequencesLink"
+    },
+    {
+      "type": 0,
+      "value": " sequences can be defined by selecting the appropriate generator via the drop-down menu."
+    }
+  ],
   "ui-organizations.settings.numberGeneratorOptions.save.error": [
     {
       "type": 0,
@@ -105568,7 +105590,7 @@
   "ui-organizations.settings.types.cannotDeleteTermMessage": [
     {
       "type": 0,
-      "value": "該類型無法刪除，因為它正被一條或多筆記錄使用。"
+      "value": "該類型無法刪除，因為它正被一條或多筆紀錄使用。"
     }
   ],
   "ui-organizations.settings.types.deleteEntry": [

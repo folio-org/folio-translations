@@ -24983,7 +24983,7 @@
   "ui-bulk-edit.previewModal.downloadPreview": [
     {
       "type": 0,
-      "value": "Baixar pré-visualização"
+      "value": "Baixar a pré-visualização em formato CSV"
     }
   ],
   "ui-bulk-edit.previewModal.downloadPreview.marc": [
@@ -30817,7 +30817,7 @@
   "ui-circulation-log.logEvent.object.Patron Block": [
     {
       "type": 0,
-      "value": "Bloquear usuário"
+      "value": "Suspender usuário"
     }
   ],
   "ui-circulation-log.logEvent.object.Request": [
@@ -32209,13 +32209,13 @@
   "ui-circulation.settings.finePolicy.reminderFees.blockTemplate": [
     {
       "type": 0,
-      "value": "Modelo de bloqueio"
+      "value": "Modelo de suspensão"
     }
   ],
   "ui-circulation.settings.finePolicy.reminderFees.clearPatronBlockWhenPaid": [
     {
       "type": 0,
-      "value": "Limpar o bloqueio do usuário quando estiver pago"
+      "value": "Limpar a suspensão do usuário quando estiver pago"
     }
   ],
   "ui-circulation.settings.finePolicy.reminderFees.countClosed": [
@@ -32263,7 +32263,7 @@
   "ui-circulation.settings.finePolicy.reminderFees.noBlock": [
     {
       "type": 0,
-      "value": "Sem bloqueio"
+      "value": "Sem suspensão"
     }
   ],
   "ui-circulation.settings.finePolicy.reminderFees.noticeMethod": [
@@ -32311,7 +32311,7 @@
   "ui-circulation.settings.finePolicy.reminderFees.selectBlockTemplate": [
     {
       "type": 0,
-      "value": "Selecionar modelo de bloqueio"
+      "value": "Selecionar modelo de suspensão"
     }
   ],
   "ui-circulation.settings.finePolicy.reminderFees.selectNoticeMethod": [
@@ -49098,7 +49098,7 @@
   "ui-data-import.settings.mappingProfiles.map.invoice.invoiceInformation.field.isLockTotal": [
     {
       "type": 0,
-      "value": "Total de bloqueio"
+      "value": "Total de suspensão"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.invoice.invoiceInformation.field.lockTotal": [
@@ -54761,7 +54761,7 @@
     },
     {
       "type": 0,
-      "value": " applied "
+      "value": " aplicado "
     },
     {
       "offset": 0,
@@ -54770,7 +54770,7 @@
           "value": [
             {
               "type": 0,
-              "value": "filter"
+              "value": "filtro"
             }
           ]
         },
@@ -54778,7 +54778,7 @@
           "value": [
             {
               "type": 0,
-              "value": "filters"
+              "value": "filtros"
             }
           ]
         }
@@ -54791,7 +54791,7 @@
   "ui-eholdings.actionMenu.label": [
     {
       "type": 0,
-      "value": "Actions"
+      "value": "Ações"
     }
   ],
   "ui-eholdings.add": [
@@ -81177,7 +81177,7 @@
   "ui-invoice.invoice.lockTotalAmount.tooltip": [
     {
       "type": 0,
-      "value": "Verifique o total do bloqueio para interagir com este campo"
+      "value": "Verifique o total do suspensão para interagir com este campo"
     }
   ],
   "ui-invoice.invoice.note": [
@@ -103187,7 +103187,7 @@
   "ui-organizations.integration.info.integrationType.claiming": [
     {
       "type": 0,
-      "value": "Reivindicação"
+      "value": "Reclamação"
     }
   ],
   "ui-organizations.integration.info.integrationType.ordering": [
@@ -104495,6 +104495,28 @@
     {
       "type": 0,
       "value": "Os campos que normalmente são preenchidos com uma sequência numérica podem usar o gerador de números. Quando o gerador é ativado, o campo pode ser fixo para impedir a atualização manual ou pode ser totalmente editável. Quando desativado, o campo deve ser preenchido manualmente."
+    }
+  ],
+  "ui-organizations.settings.numberGeneratorOptions.infoAdditional": [
+    {
+      "type": 0,
+      "value": "Configurações adicionais do gerador de números estão disponíveis em "
+    },
+    {
+      "type": 1,
+      "value": "serviceInteractionLink"
+    },
+    {
+      "type": 0,
+      "value": ".  Em "
+    },
+    {
+      "type": 1,
+      "value": "numberGeneratorSequencesLink"
+    },
+    {
+      "type": 0,
+      "value": ", as sequências podem ser definidas selecionando-se o gerador apropriado no menu suspenso."
     }
   ],
   "ui-organizations.settings.numberGeneratorOptions.save.error": [
@@ -128891,7 +128913,7 @@
   "ui-users.accounts.history.columns.actions": [
     {
       "type": 0,
-      "value": "Actions"
+      "value": "Ações"
     }
   ],
   "ui-users.accounts.history.columns.amount": [
@@ -130415,7 +130437,7 @@
   "ui-users.blocks.modal.overridePatronBlock.header": [
     {
       "type": 0,
-      "value": "Sobrescrever bloqueio de usuário"
+      "value": "Sobrescrever suspensão de usuário"
     }
   ],
   "ui-users.blocks.overrideButton": [
@@ -135077,13 +135099,13 @@
   "ui-users.manualBlockTemplate": [
     {
       "type": 0,
-      "value": "modelo de bloqueio de usuário"
+      "value": "modelo de suspensão de usuário"
     }
   ],
   "ui-users.manualBlockTemplate.deleteTemplate": [
     {
       "type": 0,
-      "value": "Excluir modelo de bloqueio de usuário?"
+      "value": "Excluir modelo de suspensão de usuário?"
     }
   ],
   "ui-users.manualBlockTemplate.deleteTemplateMessage": [
@@ -135093,43 +135115,43 @@
     },
     {
       "type": 0,
-      "value": " será removido dos modelos de bloqueio de usuário."
+      "value": " será removido dos modelos de suspensão de usuário."
     }
   ],
   "ui-users.manualBlockTemplate.untitledTemplate": [
     {
       "type": 0,
-      "value": "Modelo de bloqueio de usuário sem título"
+      "value": "Modelo de suspensão de usuário sem título"
     }
   ],
   "ui-users.manualBlockTemplates.blockActions": [
     {
       "type": 0,
-      "value": "Ações de bloqueio"
+      "value": "Ações de suspensão"
     }
   ],
   "ui-users.manualBlockTemplates.blockCode": [
     {
       "type": 0,
-      "value": "Código do bloqueio"
+      "value": "Código do suspensão"
     }
   ],
   "ui-users.manualBlockTemplates.blockInformation": [
     {
       "type": 0,
-      "value": "Informações de bloqueio"
+      "value": "Informações de suspensão"
     }
   ],
   "ui-users.manualBlockTemplates.closeManualBlockDialog": [
     {
       "type": 0,
-      "value": "Fechar janela de modelo de bloqueio de usuário"
+      "value": "Fechar janela de modelo de suspensão de usuário"
     }
   ],
   "ui-users.manualBlockTemplates.newManualBlockTemplate": [
     {
       "type": 0,
-      "value": "Novo modelo de bloqueio de usuário"
+      "value": "Novo modelo de suspensão de usuário"
     }
   ],
   "ui-users.manualBlockTemplates.templateInformation": [
@@ -135641,13 +135663,13 @@
   "ui-users.permission.override-item-block.execute": [
     {
       "type": 0,
-      "value": "Usuário: pode sobrepor bloqueios de itens"
+      "value": "Usuário: pode sobrepor suspensão de itens"
     }
   ],
   "ui-users.permission.override-patron-block.execute": [
     {
       "type": 0,
-      "value": "Usuário: Pode sobrepor bloqueios de usuários"
+      "value": "Usuário: Pode sobrepor suspensão de usuários"
     }
   ],
   "ui-users.permission.overrideItemBlock": [
@@ -135665,7 +135687,7 @@
   "ui-users.permission.patron-blocks.all": [
     {
       "type": 0,
-      "value": "Usuários: Podem criar, editar e remover bloqueios de usuários"
+      "value": "Usuários: Podem criar, editar e remover suspensão de usuários"
     }
   ],
   "ui-users.permission.patron-notice-print-jobs.delete": [
@@ -135815,13 +135837,13 @@
   "ui-users.permission.settings.conditions.edit": [
     {
       "type": 0,
-      "value": "Configurações (Usuários): Pode visualizar e editar as condições de bloqueio do usuário"
+      "value": "Configurações (Usuários): Pode visualizar e editar as condições de suspensão do usuário"
     }
   ],
   "ui-users.permission.settings.conditions.view": [
     {
       "type": 0,
-      "value": "Configurações (Usuários): Pode visualizar as condições de bloqueio do usuário"
+      "value": "Configurações (Usuários): Pode visualizar as condições de suspensão do usuário"
     }
   ],
   "ui-users.permission.settings.customfields.all": [
@@ -135911,13 +135933,13 @@
   "ui-users.permission.settings.limits.all": [
     {
       "type": 0,
-      "value": "Configurações (usuários): Pode criar, editar e remover limites de bloqueios de usuários"
+      "value": "Configurações (usuários): Pode criar, editar e remover limites de suspensão de usuários"
     }
   ],
   "ui-users.permission.settings.limits.view": [
     {
       "type": 0,
-      "value": "Configurações (Usuários): Pode visualizar os limites de bloqueios do usuário"
+      "value": "Configurações (Usuários): Pode visualizar os limites de suspensão do usuário"
     }
   ],
   "ui-users.permission.settings.manual-charges.all": [
@@ -135953,19 +135975,19 @@
   "ui-users.permission.settings.patron-block-templates.all": [
     {
       "type": 0,
-      "value": "Configurações (Usuários): Pode criar, editar e remover modelos de bloqueios de usuários"
+      "value": "Configurações (Usuários): Pode criar, editar e remover modelos de suspensão de usuários"
     }
   ],
   "ui-users.permission.settings.patron-block-templates.view": [
     {
       "type": 0,
-      "value": "Configurações (Usuários): Pode visualizar modelos de bloqueios de usuários"
+      "value": "Configurações (Usuários): Pode visualizar modelos de suspensão de usuários"
     }
   ],
   "ui-users.permission.settings.patron-blocks.view": [
     {
       "type": 0,
-      "value": "Configurações (Usuários): Pode visualizar todos os registros de bloqueios de usuários"
+      "value": "Configurações (Usuários): Pode visualizar todos os registros de suspensão de usuários"
     }
   ],
   "ui-users.permission.settings.payments": [
@@ -138269,7 +138291,7 @@
   "ui-users.settings.callout.message": [
     {
       "type": 0,
-      "value": "A condição do bloco de usuário "
+      "value": "A condição de suspensão do usuário "
     },
     {
       "children": [
@@ -138417,7 +138439,7 @@
   "ui-users.settings.limits.callout.message": [
     {
       "type": 0,
-      "value": "O limite do bloco de usuário para o grupo de usuário "
+      "value": "O limite de suspensão do usuário para o grupo de usuário "
     },
     {
       "children": [
@@ -138470,13 +138492,13 @@
   "ui-users.settings.manualBlockTemplates": [
     {
       "type": 0,
-      "value": "Modelos de bloqueio de usuário"
+      "value": "Modelos de suspensão de usuário"
     }
   ],
   "ui-users.settings.manualBlockTemplates.paneTitle": [
     {
       "type": 0,
-      "value": "Modelos de bloqueios de usuário"
+      "value": "Modelos de suspensão de usuário"
     }
   ],
   "ui-users.settings.manualCharges": [
@@ -138920,13 +138942,13 @@
   "ui-users.title.patronBlock.create": [
     {
       "type": 0,
-      "value": "Users - Create a new patron block"
+      "value": "Usuários - Criar uma nova suspensão de usuário"
     }
   ],
   "ui-users.title.patronBlock.edit": [
     {
       "type": 0,
-      "value": "Users - Edit a patron block"
+      "value": "Usuários - Editar uma suspensão de usuário"
     }
   ],
   "ui-users.transfers.columns.desc": [

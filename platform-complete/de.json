@@ -31060,7 +31060,7 @@
   "ui-circulation.permission.settings.edit-loan-history": [
     {
       "type": 0,
-      "value": "Settings (Circulation): Can edit loan history"
+      "value": "Einstellungen (Ausleihe): Kann Ausleihhistorie bearbeiten"
     }
   ],
   "ui-circulation.permission.settings.edit-staff-slips": [
@@ -31090,7 +31090,7 @@
   "ui-circulation.permission.settings.lost-item-fees-policies": [
     {
       "type": 0,
-      "value": "Einstellungen (Ausleihe): Kann Richtlinien (Gebühren für verlorene Exemplare) erstellen, bearbeiten und entfernen"
+      "value": "Einstellungen (Ausleihe): Kann Gebührenrichtlinien für Ersatz erstellen, bearbeiten und entfernen"
     }
   ],
   "ui-circulation.permission.settings.notice-policies": [
@@ -31162,7 +31162,7 @@
   "ui-circulation.permission.settings.view-fixed-due-date-schedules": [
     {
       "type": 0,
-      "value": "Settings (Circulation): Can view fixed due date schedules"
+      "value": "Einstellungen (Ausleihe): Kann feste Fälligkeitszeitpläne anzeigen"
     }
   ],
   "ui-circulation.permission.settings.view-loan-policies": [
@@ -31174,25 +31174,25 @@
   "ui-circulation.permission.settings.view-lost-item-fees-policies": [
     {
       "type": 0,
-      "value": "Einstellungen (Ausleihe): Kann Richtlinien (Gebühren für verlorene Exemplare) anzeigen"
+      "value": "Einstellungen (Ausleihe): Kann Gebührenrichtlinien für Ersatz anzeigen"
     }
   ],
   "ui-circulation.permission.settings.view-notice-policies": [
     {
       "type": 0,
-      "value": "Settings (Circulation): Can view notice policies"
+      "value": "Einstellungen (Ausleihe): Kann Benachrichtigungsrichtlinien anzeigen"
     }
   ],
   "ui-circulation.permission.settings.view-notice-templates": [
     {
       "type": 0,
-      "value": "Settings (Circulation): Can view patron notice templates"
+      "value": "Einstellungen (Ausleihe): Kann Vorlagen für Benutzerbenachrichtigungen anzeigen"
     }
   ],
   "ui-circulation.permission.settings.view-other-settings": [
     {
       "type": 0,
-      "value": "Settings (Circulation): Can view other settings"
+      "value": "Einstellungen (Ausleihe): Kann andere Einstellungen anzeigen"
     }
   ],
   "ui-circulation.permission.settings.view-overdue-fines-policies": [
@@ -31204,7 +31204,7 @@
   "ui-circulation.permission.settings.view-request-policies": [
     {
       "type": 0,
-      "value": "Settings (Circulation): Can view request policies"
+      "value": "Einstellungen (Ausleihe): Kann Bestandsanfragenrichtlinien anzeigen"
     }
   ],
   "ui-circulation.permission.settings.view-staff-slips": [
@@ -31216,7 +31216,7 @@
   "ui-circulation.permission.settings.view-titleLevelRequests": [
     {
       "type": 0,
-      "value": "Settings (Circulation): Title level request view"
+      "value": "Einstellungen (Ausleihe): Bestandsanfragen auf Titelebene anzeigen"
     }
   ],
   "ui-circulation.settings.PrintHoldRequests.allow": [
@@ -31628,7 +31628,7 @@
   "ui-circulation.settings.circulationRules.lostItemFeePolicies": [
     {
       "type": 0,
-      "value": "Gebührenrichtlinien für verlorene Exemplare"
+      "value": "Gebührenrichtlinien für Ersatz"
     }
   ],
   "ui-circulation.settings.circulationRules.materialTypes": [
@@ -31856,19 +31856,19 @@
   "ui-circulation.settings.consortiumTlr.allow": [
     {
       "type": 0,
-      "value": "Enable consortium title level requests (TLR)"
+      "value": "konsortiale Bestandsanfragen auf Titelebene aktivieren"
     }
   ],
   "ui-circulation.settings.consortiumTlr.notification": [
     {
       "type": 0,
-      "value": "Consortium title level requests (TLR) is disabled. The setting will become active after the \"Allow title level requests\" checkbox is "
+      "value": "Konsortiale Bestandsanfragen auf Titelebene sind deaktiviert. Die Einstellung wird aktiv nachdem das Kontrollkästchen \"Bestandsanfragen auf Titelebene zulassen\" in den Einstellungen der Bestandsanfragen auf Titelebene \"(Einstellungen > Ausleihe > Bestandsanfragen > Bestandsanfragen auf Titelebene)\" "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "checked and saved"
+          "value": "aktiviert und gespeichert wurde"
         }
       ],
       "type": 8,
@@ -31876,7 +31876,7 @@
     },
     {
       "type": 0,
-      "value": " in the title level requests (TLR) setting \"(Settings > Circulation > General > Title level requests (TLR))\"."
+      "value": "."
     }
   ],
   "ui-circulation.settings.fDDS.deleteDisabled": [
@@ -32540,7 +32540,7 @@
   "ui-circulation.settings.index.consortiumTLR": [
     {
       "type": 0,
-      "value": "Consortium title level requests (TLR)"
+      "value": "konsortiale Bestandsanfragen auf Titelebene"
     }
   ],
   "ui-circulation.settings.index.fdds": [
@@ -32648,7 +32648,7 @@
   "ui-circulation.settings.index.titleLevelRequests": [
     {
       "type": 0,
-      "value": "Title level requests"
+      "value": "Bestandsanfrage auf Titelebene"
     }
   ],
   "ui-circulation.settings.index.titleLevelRequestsTlr": [
@@ -32660,7 +32660,7 @@
   "ui-circulation.settings.index.tlrPatronNotices": [
     {
       "type": 0,
-      "value": "TLR patron notice templates"
+      "value": "Bestandsanfrage auf Titelebene Benachrichtigungsvorlagen"
     }
   ],
   "ui-circulation.settings.index.viewPrintDetails": [
@@ -33172,7 +33172,7 @@
   "ui-circulation.settings.lostItemFee.deleteFeePolicy": [
     {
       "type": 0,
-      "value": "Gebührenrichtlinie für verlorene Exemplare löschen"
+      "value": "Gebührenrichtlinie für Ersatz löschen"
     }
   ],
   "ui-circulation.settings.lostItemFee.description": [
@@ -33194,7 +33194,7 @@
   "ui-circulation.settings.lostItemFee.entryLabel": [
     {
       "type": 0,
-      "value": "Neue Gebührenrichtlinie für verlorene Exemplare"
+      "value": "Neue Gebührenrichtlinie für Ersatz"
     }
   ],
   "ui-circulation.settings.lostItemFee.feesFinesShallRefunded": [
@@ -33242,7 +33242,7 @@
   "ui-circulation.settings.lostItemFee.lostItemFeePolicyName": [
     {
       "type": 0,
-      "value": "Name der Gebührenrichtlinie für verlorene Exemplare"
+      "value": "Name der Gebührenrichtlinie für Ersatz"
     }
   ],
   "ui-circulation.settings.lostItemFee.lostItemNotChargeFeesFine": [
@@ -33272,7 +33272,7 @@
   "ui-circulation.settings.lostItemFee.lostItemSection": [
     {
       "type": 0,
-      "value": "Gebühr für verlorene Exemplare"
+      "value": "Ersatzgebühr"
     }
   ],
   "ui-circulation.settings.lostItemFee.minutes": [
@@ -33310,7 +33310,7 @@
   "ui-circulation.settings.lostItemFee.paneTitle": [
     {
       "type": 0,
-      "value": "Gebührenrichtlinien für verlorene Exemplare"
+      "value": "Gebührenrichtlinien für Ersatz"
     }
   ],
   "ui-circulation.settings.lostItemFee.patronBilledAfterAgedLost": [
@@ -33460,7 +33460,7 @@
   "ui-circulation.settings.lostItemPolicy.denyDelete.header": [
     {
       "type": 0,
-      "value": "Gebührenrichtlinie für verlorene Exemplare kann nicht gelöscht werden."
+      "value": "Gebührenrichtlinie für Ersatz kann nicht gelöscht werden."
     }
   ],
   "ui-circulation.settings.noticePolicy.active": [
@@ -33530,7 +33530,7 @@
   "ui-circulation.settings.noticePolicy.feeFineNotices.atl.fineCharged": [
     {
       "type": 0,
-      "value": "Forderung(en) für verlorene Exemplare (belastet)"
+      "value": "Forderung(en) für Ersatz (belastet)"
     }
   ],
   "ui-circulation.settings.noticePolicy.feeFineNotices.atl.itemReturned": [
@@ -33542,13 +33542,13 @@
   "ui-circulation.settings.noticePolicy.feeFineNotices.realTime.longTerm": [
     {
       "type": 0,
-      "value": "Wird über Nacht versendet mit mehreren Gebühren für verlorene Exemplare pro Benutzenden"
+      "value": "Wird über Nacht versendet mit mehreren Gebühren für Ersatz pro Benutzenden"
     }
   ],
   "ui-circulation.settings.noticePolicy.feeFineNotices.realTime.shortTerm": [
     {
       "type": 0,
-      "value": "Wird über den ganzen Tag verteilt versendet mit einem Gebührvorgang eines verlorenen Exemplars pro Benachrichtigung."
+      "value": "Wird über den ganzen Tag verteilt versendet mit einem Gebührvorgang für Ersatz pro Benachrichtigung."
     }
   ],
   "ui-circulation.settings.noticePolicy.feeFineNotices.renewed": [
@@ -34448,7 +34448,7 @@
   "ui-circulation.settings.title.consortiumTLR": [
     {
       "type": 0,
-      "value": "Consortium title level requests (TLR)"
+      "value": "konsortiale Bestandsanfragen auf Titelebene"
     }
   ],
   "ui-circulation.settings.title.editRecord": [
@@ -34535,17 +34535,13 @@
   ],
   "ui-circulation.settings.title.lostItemFeePolicies": [
     {
-      "type": 0,
-      "value": "Forderung für verlorene Exemplare "
-    },
-    {
       "offset": 0,
       "options": {
         "one": {
           "value": [
             {
               "type": 0,
-              "value": "Richtlinie"
+              "value": "Gebührenrichtlinie"
             }
           ]
         },
@@ -34553,7 +34549,7 @@
           "value": [
             {
               "type": 0,
-              "value": "Richtlinien"
+              "value": "Gebührenrichtlinien"
             }
           ]
         }
@@ -34561,6 +34557,10 @@
       "pluralType": "cardinal",
       "type": 6,
       "value": "optionNumber"
+    },
+    {
+      "type": 0,
+      "value": " für Ersatz"
     }
   ],
   "ui-circulation.settings.title.newRecord": [
@@ -34581,17 +34581,13 @@
   ],
   "ui-circulation.settings.title.overdueFinePolicies": [
     {
-      "type": 0,
-      "value": "Forderung für überfällige Exemplare "
-    },
-    {
       "offset": 0,
       "options": {
         "one": {
           "value": [
             {
               "type": 0,
-              "value": "Richtlinie"
+              "value": "Gebührenrichtlinie"
             }
           ]
         },
@@ -34599,7 +34595,7 @@
           "value": [
             {
               "type": 0,
-              "value": "Richtlinien"
+              "value": "Gebührenrichtlinien"
             }
           ]
         }
@@ -34607,6 +34603,10 @@
       "pluralType": "cardinal",
       "type": 6,
       "value": "optionNumber"
+    },
+    {
+      "type": 0,
+      "value": " für überfällige Exemplare"
     }
   ],
   "ui-circulation.settings.title.patronNoticePolicies": [
@@ -34744,7 +34744,7 @@
   "ui-circulation.settings.title.titleLevelRequests": [
     {
       "type": 0,
-      "value": "Title level requests"
+      "value": "Bestandsanfragen auf Titelebene"
     }
   ],
   "ui-circulation.settings.title.titleLevelRequestsTlr": [
@@ -34756,7 +34756,7 @@
   "ui-circulation.settings.title.tlrPatronNotices": [
     {
       "type": 0,
-      "value": "TLR Patron notice templates"
+      "value": "Bestandsanfrage auf Titelebene Benachrichtigungsvorlagen"
     }
   ],
   "ui-circulation.settings.title.viewPrintDetails": [
@@ -34828,7 +34828,7 @@
   "ui-circulation.settings.titleLevelRequests.paneTitle": [
     {
       "type": 0,
-      "value": "Title level requests"
+      "value": "Bestandsanfragen auf Titelebene"
     }
   ],
   "ui-circulation.settings.titleLevelRequests.tlrHoldShouldFollowCirculationRules": [
@@ -34846,7 +34846,7 @@
   "ui-circulation.settings.tlrPatronNotices.paneTitle": [
     {
       "type": 0,
-      "value": "TLR Patron notice templates"
+      "value": "Bestandsanfrage auf Titelebene Benachrichtigungsvorlagen"
     }
   ],
   "ui-circulation.settings.validate.fillIn": [
@@ -90369,7 +90369,7 @@
   "ui-oa.charge.invoice.total": [
     {
       "type": 0,
-      "value": "Gesamt"
+      "value": "Gesamtnettobetrag"
     }
   ],
   "ui-oa.charge.invoice.unlink": [
@@ -90521,7 +90521,7 @@
   "ui-oa.charge.invoiceLine.total": [
     {
       "type": 0,
-      "value": "Gesamt"
+      "value": "Gesamtnettobetrag"
     }
   ],
   "ui-oa.charge.invoiceLineNotLinked": [
@@ -98383,7 +98383,7 @@
   "ui-orders.receiving.cancelBtn": [
     {
       "type": 0,
-      "value": "Stornieren"
+      "value": "Abbrechen"
     }
   ],
   "ui-orders.receiving.comment": [
@@ -103798,6 +103798,28 @@
     {
       "type": 0,
       "value": "Felder, die normalerweise Nummernkreise nutzen, könnten einen Nummerngenerator verwenden. Wenn der Generator aktiviert ist, kann das Feld entweder vor manueller Aktualisierung geschützt werden oder editierbar sein. Wenn der Generator deaktiviert ist, kann das Feld nur manuell verwendet werden."
+    }
+  ],
+  "ui-organizations.settings.numberGeneratorOptions.infoAdditional": [
+    {
+      "type": 0,
+      "value": "Additional number generator settings are available under "
+    },
+    {
+      "type": 1,
+      "value": "serviceInteractionLink"
+    },
+    {
+      "type": 0,
+      "value": ".  At "
+    },
+    {
+      "type": 1,
+      "value": "numberGeneratorSequencesLink"
+    },
+    {
+      "type": 0,
+      "value": " sequences can be defined by selecting the appropriate generator via the drop-down menu."
     }
   ],
   "ui-organizations.settings.numberGeneratorOptions.save.error": [
