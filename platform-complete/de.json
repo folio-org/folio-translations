@@ -11380,6 +11380,12 @@
       "value": "Datumsbereich"
     }
   ],
+  "stripes-inventory-components.error.badRequest": [
+    {
+      "type": 0,
+      "value": "Search could not be processed. Please check your query and try again."
+    }
+  ],
   "stripes-inventory-components.facet.discoverySuppress": [
     {
       "type": 0,
@@ -34939,6 +34945,12 @@
       "value": "Claiming app Search"
     }
   ],
+  "ui-claims.claiming.action.groupByOrganization": [
+    {
+      "type": 0,
+      "value": "Group by organization"
+    }
+  ],
   "ui-claims.claiming.delayClaim.error.message": [
     {
       "type": 0,
@@ -34973,6 +34985,48 @@
     {
       "type": 0,
       "value": "Date updated (Piece)"
+    }
+  ],
+  "ui-claims.claiming.filters.piece.metadata.createdByUserId": [
+    {
+      "type": 0,
+      "value": "Created by (Piece)"
+    }
+  ],
+  "ui-claims.claiming.filters.piece.metadata.createdDate": [
+    {
+      "type": 0,
+      "value": "Date created (Piece)"
+    }
+  ],
+  "ui-claims.claiming.filters.piece.metadata.updatedByUserId": [
+    {
+      "type": 0,
+      "value": "Updated by (Piece)"
+    }
+  ],
+  "ui-claims.claiming.filters.piece.metadata.updatedDate": [
+    {
+      "type": 0,
+      "value": "Date updated (Piece)"
+    }
+  ],
+  "ui-claims.claiming.filters.piece.receiptDate": [
+    {
+      "type": 0,
+      "value": "Expected receipt date"
+    }
+  ],
+  "ui-claims.claiming.filters.piece.receivedDate": [
+    {
+      "type": 0,
+      "value": "Received date"
+    }
+  ],
+  "ui-claims.claiming.filters.piece.receivingStatus": [
+    {
+      "type": 0,
+      "value": "Receiving status"
     }
   ],
   "ui-claims.claiming.filters.poLine.claimingActive": [
@@ -35039,6 +35093,36 @@
     {
       "type": 0,
       "value": "Receiving status"
+    }
+  ],
+  "ui-claims.claiming.filters.title.materialType": [
+    {
+      "type": 0,
+      "value": "Material type"
+    }
+  ],
+  "ui-claims.claiming.filters.title.metadata.createdByUserId": [
+    {
+      "type": 0,
+      "value": "Created by (Title)"
+    }
+  ],
+  "ui-claims.claiming.filters.title.metadata.createdDate": [
+    {
+      "type": 0,
+      "value": "Date created (Title)"
+    }
+  ],
+  "ui-claims.claiming.filters.title.metadata.updatedByUserId": [
+    {
+      "type": 0,
+      "value": "Updated by (Title)"
+    }
+  ],
+  "ui-claims.claiming.filters.title.metadata.updatedDate": [
+    {
+      "type": 0,
+      "value": "Date updated (Title)"
     }
   ],
   "ui-claims.claiming.filters.titles.materialType": [
@@ -35205,13 +35289,13 @@
   "ui-claims.claiming.results.columns.vendorCode": [
     {
       "type": 0,
-      "value": "Organization name"
+      "value": "Organization code"
     }
   ],
   "ui-claims.claiming.results.columns.vendorName": [
     {
       "type": 0,
-      "value": "Organization code"
+      "value": "Organization name"
     }
   ],
   "ui-claims.claiming.results.title": [
@@ -35361,6 +35445,18 @@
     {
       "type": 0,
       "value": "PO number"
+    }
+  ],
+  "ui-claims.search.index.title.productIds": [
+    {
+      "type": 0,
+      "value": "Product ID (For the specific title or the package)"
+    }
+  ],
+  "ui-claims.search.index.title.title": [
+    {
+      "type": 0,
+      "value": "Title (Receiving titles)"
     }
   ],
   "ui-claims.search.index.titles.productIds": [
@@ -78445,7 +78541,7 @@
   "ui-inventory.updateOwnership.items.message.error": [
     {
       "type": 0,
-      "value": "Item ownership could not be updated because it contains local-specific reference data."
+      "value": "Item ownership could not be updated because the record contains local-specific reference data."
     }
   ],
   "ui-inventory.updateOwnership.items.modal.heading": [
@@ -80876,6 +80972,12 @@
     {
       "type": 0,
       "value": "Überprüft"
+    }
+  ],
+  "ui-invoice.invoice.totalAmount": [
+    {
+      "type": 0,
+      "value": "Total Amount"
     }
   ],
   "ui-invoice.invoice.validation.accountingCode": [
