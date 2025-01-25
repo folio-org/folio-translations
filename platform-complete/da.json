@@ -79926,21 +79926,7 @@
   "ui-invoice.invoice.actions.saveLine.error.budgetNotFoundByFundId": [
     {
       "type": 0,
-      "value": "Invoice line cannot be saved because Fund "
-    },
-    {
-      "children": [
-        {
-          "type": 1,
-          "value": "fundCode"
-        }
-      ],
-      "type": 8,
-      "value": "b"
-    },
-    {
-      "type": 0,
-      "value": " has no current budget."
+      "value": "Invoice line cannot be saved because invoice is not assigned to a Fiscal year."
     }
   ],
   "ui-invoice.invoice.actions.saveLine.error.budgetNotFoundByFundIdAndFiscalYearId": [
