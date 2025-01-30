@@ -28819,7 +28819,7 @@
   "ui-checkout.borrower.ariaLabel": [
     {
       "type": 0,
-      "value": "View borrower record"
+      "value": "Ver registro do usuário"
     }
   ],
   "ui-checkout.borrowerProxy": [
@@ -29533,7 +29533,7 @@
   "ui-checkout.loanDetails.ariaLabel": [
     {
       "type": 0,
-      "value": "View open loan details"
+      "value": "Ver detalhes do empréstimo em aberto"
     }
   ],
   "ui-checkout.loanPolicy": [
@@ -30030,7 +30030,7 @@
   "ui-checkout.openRequests.ariaLabel": [
     {
       "type": 0,
-      "value": "View open requests"
+      "value": "Ver requisições abertas"
     }
   ],
   "ui-checkout.orActingAsProxy": [
@@ -30078,7 +30078,7 @@
   "ui-checkout.patronBlocks.ariaLabel": [
     {
       "type": 0,
-      "value": "View patron blocks"
+      "value": "Ver suspensão do usuário"
     }
   ],
   "ui-checkout.patronBlocksCount": [
@@ -30176,7 +30176,7 @@
   "ui-checkout.proxy.ariaLabel": [
     {
       "type": 0,
-      "value": "View borrower's proxy record"
+      "value": "Ver registro de procuração do usuário"
     }
   ],
   "ui-checkout.proxy.expiration": [
@@ -58796,19 +58796,19 @@
   "ui-eholdings.titlesList.customCoverage": [
     {
       "type": 0,
-      "value": "Custom coverage dates"
+      "value": "Datas de cobertura personalizadas"
     }
   ],
   "ui-eholdings.titlesList.managedCoverage": [
     {
       "type": 0,
-      "value": "Managed coverage dates"
+      "value": "Datas de cobertura gerenciadas"
     }
   ],
   "ui-eholdings.titlesList.managedEmbargo": [
     {
       "type": 0,
-      "value": "Managed embargo period"
+      "value": "Período de embargo gerenciado"
     }
   ],
   "ui-eholdings.titlesList.status": [
@@ -58820,7 +58820,7 @@
   "ui-eholdings.titlesList.title": [
     {
       "type": 0,
-      "value": "Title"
+      "value": "Título"
     }
   ],
   "ui-eholdings.type": [
@@ -78947,7 +78947,7 @@
   "ui-inventory.updateOwnership.items.message.error": [
     {
       "type": 0,
-      "value": "Item ownership could not be updated because the record contains local-specific reference data."
+      "value": "A propriedade do item não pôde ser atualizada porque o registro contém dados de referência específicos do local."
     }
   ],
   "ui-inventory.updateOwnership.items.modal.heading": [
@@ -80525,21 +80525,7 @@
   "ui-invoice.invoice.actions.saveLine.error.budgetNotFoundByFundId": [
     {
       "type": 0,
-      "value": "A linha de fatura não pode ser salva porque o Fundo "
-    },
-    {
-      "children": [
-        {
-          "type": 1,
-          "value": "fundCode"
-        }
-      ],
-      "type": 8,
-      "value": "b"
-    },
-    {
-      "type": 0,
-      "value": " não tem orçamento atual."
+      "value": "A linha da fatura não pode ser salva porque a fatura não está atribuída a um ano fiscal."
     }
   ],
   "ui-invoice.invoice.actions.saveLine.error.budgetNotFoundByFundIdAndFiscalYearId": [
@@ -81421,7 +81407,7 @@
   "ui-invoice.invoice.totalAmount": [
     {
       "type": 0,
-      "value": "Total Amount"
+      "value": "Valor total"
     }
   ],
   "ui-invoice.invoice.validation.accountingCode": [
@@ -95004,7 +94990,7 @@
   "ui-orders.buttons.line.saveAndCreateAnother": [
     {
       "type": 0,
-      "value": "Save & create another"
+      "value": "Salvar e criar outro"
     }
   ],
   "ui-orders.buttons.line.saveAndOpen": [
@@ -120259,7 +120245,7 @@
   "ui-requests-mediated.itemDetails.barcode.ariaLabel": [
     {
       "type": 0,
-      "value": "View item record"
+      "value": "Exibir registro de item"
     }
   ],
   "ui-requests-mediated.itemDetails.callNumber": [
@@ -120952,7 +120938,7 @@
   "ui-requests-mediated.requesterDetails.barcode.ariaLabel": [
     {
       "type": 0,
-      "value": "View requester record"
+      "value": "Exibir registro do solicitante"
     }
   ],
   "ui-requests-mediated.requesterDetails.deliveryAddress": [
@@ -126803,13 +126789,13 @@
   "ui-tenant-settings.permission.settings.location.floating.edit": [
     {
       "type": 0,
-      "value": "Settings (tenant): Can view and edit floating collection flag"
+      "value": "Configurações (tenant): Pode visualizar e editar o sinalizador de coleção flutuante"
     }
   ],
   "ui-tenant-settings.permission.settings.location.floating.view": [
     {
       "type": 0,
-      "value": "Settings (tenant): Can view floating collection flag"
+      "value": "Configurações (tenant): Pode visualizar o sinalizador de coleção flutuante"
     }
   ],
   "ui-tenant-settings.permission.settings.location.view": [
@@ -127297,13 +127283,13 @@
   "ui-tenant-settings.settings.location.floating": [
     {
       "type": 0,
-      "value": "Floating collection"
+      "value": "Coleção flutuante"
     }
   ],
   "ui-tenant-settings.settings.location.floating.enabled": [
     {
       "type": 0,
-      "value": "Enabled"
+      "value": "Habilitado"
     }
   ],
   "ui-tenant-settings.settings.location.institutions": [
@@ -127645,7 +127631,7 @@
   "ui-tenant-settings.settings.location.locations.floating": [
     {
       "type": 0,
-      "value": "Enable floating collection"
+      "value": "Habilitar coleção flutuante"
     }
   ],
   "ui-tenant-settings.settings.location.locations.generalInformation": [
@@ -131105,7 +131091,7 @@
   "ui-users.charge.item.barcode.error": [
     {
       "type": 0,
-      "value": "No item with barcode "
+      "value": "Nenhum item com código de barras "
     },
     {
       "type": 1,
@@ -131113,7 +131099,7 @@
     },
     {
       "type": 0,
-      "value": " could be found"
+      "value": " foi encontrado"
     }
   ],
   "ui-users.charge.item.button": [

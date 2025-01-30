@@ -21872,7 +21872,7 @@
   "ui-bulk-edit.columns.INSTANCE.Statistical code": [
     {
       "type": 0,
-      "value": "Statistical code"
+      "value": "Statistický kód"
     }
   ],
   "ui-bulk-edit.columns.INSTANCE.Suppress from discovery": [
@@ -23191,7 +23191,7 @@
   "ui-bulk-edit.layer.options.instances.statisticalCode": [
     {
       "type": 0,
-      "value": "Statistical code"
+      "value": "Statistický kód"
     }
   ],
   "ui-bulk-edit.layer.options.instances.suppress": [
@@ -23456,39 +23456,74 @@
     {
       "children": [
         {
-          "type": 1,
-          "value": "fileName"
-        },
-        {
-          "type": 0,
-          "value": ": "
-        },
-        {
-          "style": null,
-          "type": 2,
-          "value": "entries"
-        },
-        {
-          "type": 0,
-          "value": " položek * "
-        },
-        {
-          "style": null,
-          "type": 2,
-          "value": "matched"
-        },
-        {
-          "type": 0,
-          "value": " záznamů odpovídá * "
-        },
-        {
           "style": null,
           "type": 2,
           "value": "errors"
         },
         {
           "type": 0,
-          "value": " chyb"
+          "value": " "
+        },
+        {
+          "offset": 0,
+          "options": {
+            "one": {
+              "value": [
+                {
+                  "type": 0,
+                  "value": "chyba"
+                }
+              ]
+            },
+            "other": {
+              "value": [
+                {
+                  "type": 0,
+                  "value": "chyby"
+                }
+              ]
+            }
+          },
+          "pluralType": "cardinal",
+          "type": 6,
+          "value": "errors"
+        },
+        {
+          "type": 0,
+          "value": " * "
+        },
+        {
+          "style": null,
+          "type": 2,
+          "value": "warnings"
+        },
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "offset": 0,
+          "options": {
+            "one": {
+              "value": [
+                {
+                  "type": 0,
+                  "value": "varování"
+                }
+              ]
+            },
+            "other": {
+              "value": [
+                {
+                  "type": 0,
+                  "value": "varování"
+                }
+              ]
+            }
+          },
+          "pluralType": "cardinal",
+          "type": 6,
+          "value": "warnings"
         }
       ],
       "type": 8,
@@ -23671,31 +23706,31 @@
   "ui-bulk-edit.list.errors.table.message": [
     {
       "type": 0,
-      "value": "Důvod chyby"
+      "value": "Důvod"
     }
   ],
   "ui-bulk-edit.list.errors.table.status": [
     {
       "type": 0,
-      "value": "Status"
+      "value": "Stav"
     }
   ],
   "ui-bulk-edit.list.errors.table.status.ERROR": [
     {
       "type": 0,
-      "value": "Error"
+      "value": "Chyba"
     }
   ],
   "ui-bulk-edit.list.errors.table.status.WARNING": [
     {
       "type": 0,
-      "value": "Warning"
+      "value": "Varování"
     }
   ],
   "ui-bulk-edit.list.errors.title": [
     {
       "type": 0,
-      "value": "Chyby"
+      "value": "Chyby a varování"
     }
   ],
   "ui-bulk-edit.list.filters.capabilities.acquisition": [
@@ -23892,6 +23927,14 @@
     },
     {
       "type": 0,
+      "value": " "
+    },
+    {
+      "type": 1,
+      "value": "recordType"
+    },
+    {
+      "type": 0,
       "value": " záznamů změněno"
     }
   ],
@@ -23900,6 +23943,14 @@
       "style": null,
       "type": 2,
       "value": "count"
+    },
+    {
+      "type": 0,
+      "value": " "
+    },
+    {
+      "type": 1,
+      "value": "recordType"
     },
     {
       "type": 0,
@@ -24757,7 +24808,7 @@
   "ui-bulk-edit.permission.query.execute": [
     {
       "type": 0,
-      "value": "Bulk edit: Can build query"
+      "value": "Hromadná úprava: Může sestavit dotaz"
     }
   ],
   "ui-bulk-edit.permission.users.csv.edit": [
@@ -24955,7 +25006,7 @@
   "ui-bulk-edit.previewModal.downloadPreview": [
     {
       "type": 0,
-      "value": "Stáhnout náhled"
+      "value": "Stáhnout náhled ve formátu CSV"
     }
   ],
   "ui-bulk-edit.previewModal.downloadPreview.marc": [
@@ -54420,12 +54471,16 @@
   ],
   "ui-eholdings.actionMenu.filterBadgeTooltip": [
     {
+      "type": 0,
+      "value": "Použito "
+    },
+    {
       "type": 1,
       "value": "count"
     },
     {
       "type": 0,
-      "value": " applied "
+      "value": " "
     },
     {
       "offset": 0,
@@ -54434,7 +54489,7 @@
           "value": [
             {
               "type": 0,
-              "value": "filter"
+              "value": "filtr"
             }
           ]
         },
@@ -54442,7 +54497,7 @@
           "value": [
             {
               "type": 0,
-              "value": "filters"
+              "value": "filtrů"
             }
           ]
         }
@@ -54455,7 +54510,7 @@
   "ui-eholdings.actionMenu.label": [
     {
       "type": 0,
-      "value": "Actions"
+      "value": "Akce"
     }
   ],
   "ui-eholdings.add": [
@@ -58392,31 +58447,31 @@
   "ui-eholdings.titlesList.customCoverage": [
     {
       "type": 0,
-      "value": "Custom coverage dates"
+      "value": "Vlastní data pokrytí"
     }
   ],
   "ui-eholdings.titlesList.managedCoverage": [
     {
       "type": 0,
-      "value": "Managed coverage dates"
+      "value": "Data řízeného pokrytí"
     }
   ],
   "ui-eholdings.titlesList.managedEmbargo": [
     {
       "type": 0,
-      "value": "Managed embargo period"
+      "value": "Období řízeného embarga"
     }
   ],
   "ui-eholdings.titlesList.status": [
     {
       "type": 0,
-      "value": "Status"
+      "value": "Stav"
     }
   ],
   "ui-eholdings.titlesList.title": [
     {
       "type": 0,
-      "value": "Title"
+      "value": "Název"
     }
   ],
   "ui-eholdings.type": [
@@ -60472,7 +60527,7 @@
   "ui-erm-usage.general.reportReleases": [
     {
       "type": 0,
-      "value": "Výstup o vydání"
+      "value": "Hlásit vydání"
     }
   ],
   "ui-erm-usage.general.reportTypes": [
@@ -62657,7 +62712,7 @@
   "ui-export-manager.exportJob.download": [
     {
       "type": 0,
-      "value": "Download"
+      "value": "Stáhnout"
     }
   ],
   "ui-export-manager.exportJob.endTime": [
@@ -62687,19 +62742,19 @@
   "ui-export-manager.exportJob.integrationType": [
     {
       "type": 0,
-      "value": "Integration type"
+      "value": "Typ integrace"
     }
   ],
   "ui-export-manager.exportJob.integrationType.claiming": [
     {
       "type": 0,
-      "value": "Claims"
+      "value": "Nároky"
     }
   ],
   "ui-export-manager.exportJob.integrationType.ordering": [
     {
       "type": 0,
-      "value": "Orders"
+      "value": "Objednávky"
     }
   ],
   "ui-export-manager.exportJob.jobId": [
@@ -62831,13 +62886,13 @@
   "ui-export-manager.exportJob.type.ORDERS_CSV": [
     {
       "type": 0,
-      "value": "Orders (CSV)"
+      "value": "Objednávky (CSV)"
     }
   ],
   "ui-export-manager.exportJob.type.ORDERS_EDI": [
     {
       "type": 0,
-      "value": "Orders (EDI)"
+      "value": "Objednávky (EDI)"
     }
   ],
   "ui-export-manager.exportJobs": [
@@ -76167,7 +76222,7 @@
   "ui-inventory.permission.consortia.inventory.local.sharing-instances.execute": [
     {
       "type": 0,
-      "value": "Inventory: Share local instance with consortium"
+      "value": "Katalog: Sdílet místní titul s konsorciem"
     }
   ],
   "ui-inventory.permission.consortia.inventory.share.local.instance": [
@@ -77658,13 +77713,13 @@
   "ui-inventory.settings.instanceCallNumber.all": [
     {
       "type": 0,
-      "value": "Call numbers (all)"
+      "value": "Signatury (všechny)"
     }
   ],
   "ui-inventory.settings.instanceCallNumber.dewey": [
     {
       "type": 0,
-      "value": "Dewey Decimal classification"
+      "value": "Deweyho desítková klasifikace"
     }
   ],
   "ui-inventory.settings.instanceCallNumber.identifierTypesPopover": [
@@ -77676,13 +77731,13 @@
   "ui-inventory.settings.instanceCallNumber.lc": [
     {
       "type": 0,
-      "value": "Library of Congress classification"
+      "value": "Klasifikace Kongresové knihovny"
     }
   ],
   "ui-inventory.settings.instanceCallNumber.nlm": [
     {
       "type": 0,
-      "value": "National Library of Medicine classification"
+      "value": "Klasifikace Národní lékařské knihovny"
     }
   ],
   "ui-inventory.settings.instanceCallNumber.other": [
@@ -85339,7 +85394,7 @@
   "ui-lists.create-fql.query.invalid": [
     {
       "type": 0,
-      "value": "Unable to complete action. Query is no longer valid due to a deleted field(s). Please edit the list query or delete the list."
+      "value": "Akci nelze dokončit. Dotaz již není platný kvůli smazaným polím. Upravte prosím dotaz na seznam nebo seznam odstraňte."
     }
   ],
   "ui-lists.create-list.aside.build-query": [
@@ -85377,7 +85432,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Lists with cross-tenant query can only be set to Private."
+          "value": "Seznamy s dotazem napříč nájemci lze nastavit pouze na hodnotu Soukromé."
         }
       ],
       "type": 8,
@@ -86425,7 +86480,7 @@
   "ui-lists.unexpected.error": [
     {
       "type": 0,
-      "value": "Unable to complete action. Query is no longer valid due to a deleted field(s). Please edit the list query or delete the list."
+      "value": "Akci nelze dokončit. Dotaz již není platný kvůli smazaným polím. Upravte prosím dotaz na seznam nebo seznam odstraňte."
     }
   ],
   "ui-lists.update-export.in.progress": [
@@ -86451,7 +86506,7 @@
   "ui-lists.update-fql.query.invalid": [
     {
       "type": 0,
-      "value": "Unable to complete action. Query is no longer valid due to a deleted field(s). Please edit the list query or delete the list."
+      "value": "Akci nelze dokončit. Dotaz již není platný kvůli smazaným polím. Upravte prosím dotaz na seznam nebo seznam odstraňte."
     }
   ],
   "ui-lists.update-list.not.found": [
@@ -94227,7 +94282,7 @@
   "ui-orders.buttons.line.saveAndCreateAnother": [
     {
       "type": 0,
-      "value": "Save & create another"
+      "value": "Uložit a vytvořit další"
     }
   ],
   "ui-orders.buttons.line.saveAndOpen": [
@@ -109135,7 +109190,7 @@
     },
     {
       "type": 0,
-      "value": " in your query is unavailable. Please revise your query. "
+      "value": " ve vašem dotazu není k dispozici. Upravte svůj dotaz."
     }
   ],
   "ui-quick-marc.Inventory": [
@@ -119037,7 +119092,7 @@
   "ui-requests-mediated.itemDetails.barcode.ariaLabel": [
     {
       "type": 0,
-      "value": "View item record"
+      "value": "Zobrazit záznam jednotky"
     }
   ],
   "ui-requests-mediated.itemDetails.callNumber": [
@@ -119730,7 +119785,7 @@
   "ui-requests-mediated.requesterDetails.barcode.ariaLabel": [
     {
       "type": 0,
-      "value": "View requester record"
+      "value": "Zobrazit záznam čtenáře"
     }
   ],
   "ui-requests-mediated.requesterDetails.deliveryAddress": [
@@ -120354,7 +120409,7 @@
   "ui-requests.exportExpiredHoldShelfCsv": [
     {
       "type": 0,
-      "value": "Hold shelf clearance report "
+      "value": "Výstup o vyklizení regálu nevyzvednutých rezervací "
     },
     {
       "type": 1,
@@ -120378,7 +120433,7 @@
   "ui-requests.exportSearchResultsCsv": [
     {
       "type": 0,
-      "value": "Export search results (CSV)"
+      "value": "Export výsledků vyhledávání (CSV)"
     }
   ],
   "ui-requests.exportSearchResultsToCsv": [
@@ -121228,7 +121283,7 @@
   "ui-requests.printPickSlipsForSp": [
     {
       "type": 0,
-      "value": "Print pick slips "
+      "value": "Vytisknout cirkulační lístky žádanek "
     },
     {
       "type": 1,
@@ -121258,7 +121313,7 @@
   "ui-requests.printSearchSlipsForSp": [
     {
       "type": 0,
-      "value": "Print search slips "
+      "value": "Vytisknout vyhledávací lístky "
     },
     {
       "type": 1,
@@ -121268,7 +121323,7 @@
   "ui-requests.printSelectedPickSlipsForSp": [
     {
       "type": 0,
-      "value": "Print selected pick slips "
+      "value": "Vytisknout vybrané cirkulační lístky žádanek "
     },
     {
       "type": 1,
@@ -122552,7 +122607,7 @@
   "ui-serials-management.pieceSets.affiliation": [
     {
       "type": 0,
-      "value": "Affiliation"
+      "value": "Pobočka"
     }
   ],
   "ui-serials-management.pieceSets.combinedPieces": [
@@ -125531,13 +125586,13 @@
   "ui-tenant-settings.permission.settings.location.floating.edit": [
     {
       "type": 0,
-      "value": "Settings (tenant): Can view and edit floating collection flag"
+      "value": "Nastavení (Nájemce): Může zobrazit a upravit příznak Výměnný fond"
     }
   ],
   "ui-tenant-settings.permission.settings.location.floating.view": [
     {
       "type": 0,
-      "value": "Settings (tenant): Can view floating collection flag"
+      "value": "Nastavení (Nájemce): Může zobrazit příznak Výměnný fond"
     }
   ],
   "ui-tenant-settings.permission.settings.location.view": [
@@ -125985,13 +126040,13 @@
   "ui-tenant-settings.settings.location.floating": [
     {
       "type": 0,
-      "value": "Floating collection"
+      "value": "Výměnný fond"
     }
   ],
   "ui-tenant-settings.settings.location.floating.enabled": [
     {
       "type": 0,
-      "value": "Enabled"
+      "value": "Povoleno"
     }
   ],
   "ui-tenant-settings.settings.location.institutions": [
@@ -126293,7 +126348,7 @@
   "ui-tenant-settings.settings.location.locations.floating": [
     {
       "type": 0,
-      "value": "Enable floating collection"
+      "value": "Povolit Výměnný fond"
     }
   ],
   "ui-tenant-settings.settings.location.locations.generalInformation": [
@@ -127787,7 +127842,7 @@
   "ui-users.accounts.history.columns.actions": [
     {
       "type": 0,
-      "value": "Actions"
+      "value": "Akce"
     }
   ],
   "ui-users.accounts.history.columns.amount": [
