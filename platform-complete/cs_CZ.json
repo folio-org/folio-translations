@@ -198,19 +198,19 @@
   "stripes-acq-components.claiming.modal.sendClaim.field.claimExpiryDate": [
     {
       "type": 0,
-      "value": "Claim expiry date"
+      "value": "Datum vypršení platnosti nároku"
     }
   ],
   "stripes-acq-components.claiming.modal.sendClaim.field.externalNote": [
     {
       "type": 0,
-      "value": "External note"
+      "value": "Externí poznámka"
     }
   ],
   "stripes-acq-components.claiming.modal.sendClaim.field.internalNote": [
     {
       "type": 0,
-      "value": "Internal note"
+      "value": "Vnitřní poznámka"
     }
   ],
   "stripes-acq-components.claiming.modal.sendClaim.heading": [
@@ -1601,7 +1601,7 @@
   "stripes-acq-components.validation.dateAfter": [
     {
       "type": 0,
-      "value": "Selected date must be later than the current date"
+      "value": "Vybrané datum musí být pozdější než aktuální datum"
     }
   ],
   "stripes-acq-components.validation.fundDistribution.uniqueFunds": [
@@ -2389,7 +2389,7 @@
   "stripes-components.advancedSearch.fieldLabel": [
     {
       "type": 0,
-      "value": "Enter search term"
+      "value": "Zadat hledaný výraz"
     }
   ],
   "stripes-components.advancedSearch.footer.cancel": [
@@ -8477,13 +8477,13 @@
   "stripes-core.errors.saml.missingToken": [
     {
       "type": 0,
-      "value": "No "
+      "value": "Žádný parametr dotazu "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "code"
+          "value": " code "
         }
       ],
       "type": 8,
@@ -8491,7 +8491,7 @@
     },
     {
       "type": 0,
-      "value": " query parameter."
+      "value": "."
     }
   ],
   "stripes-core.errors.sso.session.failed": [
@@ -9108,6 +9108,12 @@
     {
       "type": 0,
       "value": "Odhlásit se"
+    }
+  ],
+  "stripes-core.title.logoutTimeout": [
+    {
+      "type": 0,
+      "value": "Inactivity log out"
     }
   ],
   "stripes-core.title.noPermission": [
@@ -131718,6 +131724,12 @@
     {
       "type": 0,
       "value": "Aktualizace"
+    }
+  ],
+  "ui-users.information.pronouns": [
+    {
+      "type": 0,
+      "value": "Pronouns"
     }
   ],
   "ui-users.information.recalculate.expirationDate": [
