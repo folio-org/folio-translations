@@ -25305,6 +25305,32 @@
       "value": "所有实例都有来源 FOLIO。使用“实例和管理数据”选项进行批量编辑。"
     }
   ],
+  "ui-bulk-edit.previewModal.message.empty.notSupported": [
+    {
+      "type": 0,
+      "value": "No instances can be updated because none have source MARC."
+    }
+  ],
+  "ui-bulk-edit.previewModal.message.empty.partlySupported": [
+    {
+      "style": null,
+      "type": 2,
+      "value": "numberOfSupportedEntities"
+    },
+    {
+      "type": 0,
+      "value": " records will be changed when the Commit changes button is clicked. You may choose Download preview to review all changes prior to saving. "
+    },
+    {
+      "style": null,
+      "type": 2,
+      "value": "numberOfUnsupportedEntities"
+    },
+    {
+      "type": 0,
+      "value": " instances have source that is not supported by MARC records bulk edit and cannot be updated."
+    }
+  ],
   "ui-bulk-edit.previewModal.previewToBeChanged": [
     {
       "type": 0,
@@ -64337,6 +64363,12 @@
       "value": "组织"
     }
   ],
+  "ui-finance.actions.allocations.batch": [
+    {
+      "type": 0,
+      "value": "Batch allocations"
+    }
+  ],
   "ui-finance.actions.downloadAllocationWorksheet": [
     {
       "type": 0,
@@ -64377,6 +64409,36 @@
     {
       "type": 0,
       "value": "展期日志"
+    }
+  ],
+  "ui-finance.allocation.batch.form.footer.recalculate": [
+    {
+      "type": 0,
+      "value": "Recalculate"
+    }
+  ],
+  "ui-finance.allocation.batch.form.title.edit": [
+    {
+      "type": 0,
+      "value": "Batch edit budgets"
+    }
+  ],
+  "ui-finance.allocation.batch.status.active": [
+    {
+      "type": 0,
+      "value": "Active"
+    }
+  ],
+  "ui-finance.allocation.batch.status.frozen": [
+    {
+      "type": 0,
+      "value": "Frozen"
+    }
+  ],
+  "ui-finance.allocation.batch.status.inactive": [
+    {
+      "type": 0,
+      "value": "Inactive"
     }
   ],
   "ui-finance.allocation.worksheet.download.error": [
@@ -67590,6 +67652,72 @@
     {
       "type": 0,
       "value": "不能在这两个经费之间进行此交易，因为对一个或多个经费的“允许进出”经费设置过于严格。"
+    }
+  ],
+  "ui-finance.transaction.allocation.batch.columns.allocationIncreaseDecrease": [
+    {
+      "type": 0,
+      "value": "Allocation increase/decrease"
+    }
+  ],
+  "ui-finance.transaction.allocation.batch.columns.budgetAllowableEncumbrance": [
+    {
+      "type": 0,
+      "value": "Allowable encumbrance %"
+    }
+  ],
+  "ui-finance.transaction.allocation.batch.columns.budgetAllowableExpenditure": [
+    {
+      "type": 0,
+      "value": "Allowable expenditure %"
+    }
+  ],
+  "ui-finance.transaction.allocation.batch.columns.budgetInitialAllocation": [
+    {
+      "type": 0,
+      "value": "Total allocated (before)"
+    }
+  ],
+  "ui-finance.transaction.allocation.batch.columns.budgetName": [
+    {
+      "type": 0,
+      "value": "Budget Name"
+    }
+  ],
+  "ui-finance.transaction.allocation.batch.columns.budgetStatus": [
+    {
+      "type": 0,
+      "value": "Budget status"
+    }
+  ],
+  "ui-finance.transaction.allocation.batch.columns.fundName": [
+    {
+      "type": 0,
+      "value": "Fund name"
+    }
+  ],
+  "ui-finance.transaction.allocation.batch.columns.fundStatus": [
+    {
+      "type": 0,
+      "value": "Fund status"
+    }
+  ],
+  "ui-finance.transaction.allocation.batch.columns.fundTags": [
+    {
+      "type": 0,
+      "value": "Transaction tags"
+    }
+  ],
+  "ui-finance.transaction.allocation.batch.columns.totalAllocatedAfter": [
+    {
+      "type": 0,
+      "value": "Total allocated (after)"
+    }
+  ],
+  "ui-finance.transaction.allocation.batch.columns.transactionDescription": [
+    {
+      "type": 0,
+      "value": "Transaction description"
     }
   ],
   "ui-finance.transaction.allocation.budgetNotFoundForTransaction": [
@@ -84473,135 +84601,977 @@
       "value": "凭证信息"
     }
   ],
-  "ui-ldp.SENTINEL": "空",
-  "ui-ldp.button.add-filter": "添加筛选",
-  "ui-ldp.button.add-join-table": "添加连接表",
-  "ui-ldp.button.add-ordering-criterion": "添加订购标准",
-  "ui-ldp.button.cancel": "取消",
-  "ui-ldp.button.clear": "清除",
-  "ui-ldp.button.copy-query": "复制查询",
-  "ui-ldp.button.csv": "CSV",
-  "ui-ldp.button.download-csv": "下载为CSV",
-  "ui-ldp.button.new-query": "新建查询",
-  "ui-ldp.button.save": "保存",
-  "ui-ldp.button.save-query": "保存查询",
-  "ui-ldp.button.submit": "提交",
-  "ui-ldp.copy-of": "{string}的副本",
-  "ui-ldp.dbinfo.logs.error_severity": "Severity",
-  "ui-ldp.dbinfo.logs.log_time": "Timestamp",
-  "ui-ldp.dbinfo.logs.message": "Message",
-  "ui-ldp.dbinfo.nav.logs": "Logs",
-  "ui-ldp.dbinfo.nav.processes": "Long-running processes",
-  "ui-ldp.dbinfo.nav.updates": "Last updates of tables",
-  "ui-ldp.dbinfo.processes.databaseName": "Database",
-  "ui-ldp.dbinfo.processes.query": "Query",
-  "ui-ldp.dbinfo.processes.realTime": "Real time",
-  "ui-ldp.dbinfo.processes.state": "Status",
-  "ui-ldp.dbinfo.processes.userName": "User",
-  "ui-ldp.dbinfo.updates.elapsedRealTime": "Elapsed",
-  "ui-ldp.dbinfo.updates.lastUpdate": "Last updated",
-  "ui-ldp.dbinfo.updates.tableName": "Table",
-  "ui-ldp.dbinfo.updates.tableSchema": "Schema",
-  "ui-ldp.dbinfo.version": "Metadb version {version}",
-  "ui-ldp.desc.copy-query": "这会将当前查询复制到一个可以编辑、运行和保存的新查询。",
-  "ui-ldp.desc.new-query": "这将清除当前查询以准备创建一个新查询。",
-  "ui-ldp.devinfo": "开发者信息",
-  "ui-ldp.direction": "排序方向",
-  "ui-ldp.direction.asc": "升序",
-  "ui-ldp.direction.desc": "降序",
-  "ui-ldp.error.fetch-reject": "fetch() 被拒绝（从来没有发生过）： {error}",
-  "ui-ldp.error.http": "HTTP错误：状态{status} ({text}) -- {detail}",
-  "ui-ldp.error.load-columns": "无法加载列： {error}",
-  "ui-ldp.error.load-config": "无法加载配置： {error}",
-  "ui-ldp.error.load-queries": "无法加载保存的查询： {error}",
-  "ui-ldp.error.load-report": "无法运行报告： {error}",
-  "ui-ldp.error.load-results": "无法加载结果：{error}",
-  "ui-ldp.error.load-tables": "无法加载表：{error}",
-  "ui-ldp.error.load-version": "Could not load Metadb version: {error}",
-  "ui-ldp.error.no-such-query": "没有这样的报告： {qname}",
-  "ui-ldp.found-more-than": "找到超过{count}条记录",
-  "ui-ldp.found-records": "找到{count}条记录",
-  "ui-ldp.heading.current-settings": "当前设置",
-  "ui-ldp.label.end-date": "终止日期",
-  "ui-ldp.label.filter-by-column": "按列筛选",
-  "ui-ldp.label.limit-results": "限制结果数量",
-  "ui-ldp.label.order-by-column": "按列排序",
-  "ui-ldp.label.schema": "模式",
-  "ui-ldp.label.show-columns": "显示列",
-  "ui-ldp.label.start-date": "起始日期",
-  "ui-ldp.label.table": "表",
-  "ui-ldp.meta.title": "报告",
-  "ui-ldp.more-records": "...更多记录...",
-  "ui-ldp.nav": "导航",
-  "ui-ldp.nav.info": "Database info",
-  "ui-ldp.nav.logs": "日志",
-  "ui-ldp.nav.playground": "操场",
-  "ui-ldp.nav.query-builder": "构建查询",
-  "ui-ldp.nav.saved-queries": "加载查询",
-  "ui-ldp.nav.templated-queries": "运行报告",
-  "ui-ldp.nulls": "排序空值",
-  "ui-ldp.nulls.end": "结尾为空",
-  "ui-ldp.nulls.start": "开始时为空",
-  "ui-ldp.permission.settings.dbinfo": "设置（报告）：可以修改报告数据库连接详情",
-  "ui-ldp.permission.settings.record-limits": "设置（报告）：可以修改默认记录限制",
-  "ui-ldp.permission.settings.sqconfig": "设置（报告）：可以修改保存的查询配置详情",
-  "ui-ldp.permission.settings.table-availability": "设置（报告）：可以选择可搜索的表",
-  "ui-ldp.placeholder.column": "（列）",
-  "ui-ldp.placeholder.columns.all": "（全部）",
-  "ui-ldp.placeholder.hidden": "[已隐藏]",
-  "ui-ldp.placeholder.value": "（值）",
-  "ui-ldp.refresh": "刷新",
-  "ui-ldp.save-query": "保存查询",
-  "ui-ldp.save-query.update.fail": "无法保存查询{displayName} ：错误{code} （ {statusText} ）： {detail}",
-  "ui-ldp.save-query.update.notFound": "您加载的查询已删除。复制并保存。",
-  "ui-ldp.save-query.update.ok": "已保存查询{displayName}",
-  "ui-ldp.saved-queries.autoRun": "自动运行？",
-  "ui-ldp.saved-queries.comment": "备注",
-  "ui-ldp.saved-queries.created": "创建日期",
-  "ui-ldp.saved-queries.creator": "创建者",
-  "ui-ldp.saved-queries.delete.confirm": "确认",
-  "ui-ldp.saved-queries.delete.createdBy": "由<code> {creator} </code>创建， {created}",
-  "ui-ldp.saved-queries.delete.deleteQuery": "删除查询？",
-  "ui-ldp.saved-queries.delete.deleted": "删除查询<b> {name} </b> 。",
-  "ui-ldp.saved-queries.delete.updatedBy": "最后由<code> {updater} </code>更新， {updated}",
-  "ui-ldp.saved-queries.displayName": "显示名称",
+  "ui-ldp.SENTINEL": [
+    {
+      "type": 0,
+      "value": "空"
+    }
+  ],
+  "ui-ldp.button.add-filter": [
+    {
+      "type": 0,
+      "value": "添加筛选"
+    }
+  ],
+  "ui-ldp.button.add-join-table": [
+    {
+      "type": 0,
+      "value": "添加连接表"
+    }
+  ],
+  "ui-ldp.button.add-ordering-criterion": [
+    {
+      "type": 0,
+      "value": "添加订购标准"
+    }
+  ],
+  "ui-ldp.button.cancel": [
+    {
+      "type": 0,
+      "value": "取消"
+    }
+  ],
+  "ui-ldp.button.clear": [
+    {
+      "type": 0,
+      "value": "清除"
+    }
+  ],
+  "ui-ldp.button.copy-query": [
+    {
+      "type": 0,
+      "value": "复制查询"
+    }
+  ],
+  "ui-ldp.button.csv": [
+    {
+      "type": 0,
+      "value": "CSV"
+    }
+  ],
+  "ui-ldp.button.download-csv": [
+    {
+      "type": 0,
+      "value": "下载为CSV"
+    }
+  ],
+  "ui-ldp.button.new-query": [
+    {
+      "type": 0,
+      "value": "新建查询"
+    }
+  ],
+  "ui-ldp.button.save": [
+    {
+      "type": 0,
+      "value": "保存"
+    }
+  ],
+  "ui-ldp.button.save-query": [
+    {
+      "type": 0,
+      "value": "保存查询"
+    }
+  ],
+  "ui-ldp.button.submit": [
+    {
+      "type": 0,
+      "value": "提交"
+    }
+  ],
+  "ui-ldp.copy-of": [
+    {
+      "type": 1,
+      "value": "string"
+    },
+    {
+      "type": 0,
+      "value": "的副本"
+    }
+  ],
+  "ui-ldp.dbinfo.logs.error_severity": [
+    {
+      "type": 0,
+      "value": "Severity"
+    }
+  ],
+  "ui-ldp.dbinfo.logs.log_time": [
+    {
+      "type": 0,
+      "value": "Timestamp"
+    }
+  ],
+  "ui-ldp.dbinfo.logs.message": [
+    {
+      "type": 0,
+      "value": "Message"
+    }
+  ],
+  "ui-ldp.dbinfo.nav.logs": [
+    {
+      "type": 0,
+      "value": "Logs"
+    }
+  ],
+  "ui-ldp.dbinfo.nav.processes": [
+    {
+      "type": 0,
+      "value": "Long-running processes"
+    }
+  ],
+  "ui-ldp.dbinfo.nav.updates": [
+    {
+      "type": 0,
+      "value": "Last updates of tables"
+    }
+  ],
+  "ui-ldp.dbinfo.processes.databaseName": [
+    {
+      "type": 0,
+      "value": "Database"
+    }
+  ],
+  "ui-ldp.dbinfo.processes.empty": [
+    {
+      "type": 0,
+      "value": "There are currently no long-running processes"
+    }
+  ],
+  "ui-ldp.dbinfo.processes.query": [
+    {
+      "type": 0,
+      "value": "Query"
+    }
+  ],
+  "ui-ldp.dbinfo.processes.realTime": [
+    {
+      "type": 0,
+      "value": "Real time"
+    }
+  ],
+  "ui-ldp.dbinfo.processes.state": [
+    {
+      "type": 0,
+      "value": "Status"
+    }
+  ],
+  "ui-ldp.dbinfo.processes.userName": [
+    {
+      "type": 0,
+      "value": "User"
+    }
+  ],
+  "ui-ldp.dbinfo.updates.elapsedRealTime": [
+    {
+      "type": 0,
+      "value": "Elapsed"
+    }
+  ],
+  "ui-ldp.dbinfo.updates.lastUpdate": [
+    {
+      "type": 0,
+      "value": "Last updated"
+    }
+  ],
+  "ui-ldp.dbinfo.updates.tableName": [
+    {
+      "type": 0,
+      "value": "Table"
+    }
+  ],
+  "ui-ldp.dbinfo.updates.tableSchema": [
+    {
+      "type": 0,
+      "value": "Schema"
+    }
+  ],
+  "ui-ldp.dbinfo.version": [
+    {
+      "type": 0,
+      "value": "Metadb version "
+    },
+    {
+      "type": 1,
+      "value": "version"
+    }
+  ],
+  "ui-ldp.desc.copy-query": [
+    {
+      "type": 0,
+      "value": "这会将当前查询复制到一个可以编辑、运行和保存的新查询。"
+    }
+  ],
+  "ui-ldp.desc.new-query": [
+    {
+      "type": 0,
+      "value": "这将清除当前查询以准备创建一个新查询。"
+    }
+  ],
+  "ui-ldp.devinfo": [
+    {
+      "type": 0,
+      "value": "开发者信息"
+    }
+  ],
+  "ui-ldp.direction": [
+    {
+      "type": 0,
+      "value": "排序方向"
+    }
+  ],
+  "ui-ldp.direction.asc": [
+    {
+      "type": 0,
+      "value": "升序"
+    }
+  ],
+  "ui-ldp.direction.desc": [
+    {
+      "type": 0,
+      "value": "降序"
+    }
+  ],
+  "ui-ldp.error.fetch-reject": [
+    {
+      "type": 0,
+      "value": "fetch() 被拒绝（从来没有发生过）： "
+    },
+    {
+      "type": 1,
+      "value": "error"
+    }
+  ],
+  "ui-ldp.error.http": [
+    {
+      "type": 0,
+      "value": "HTTP错误：状态"
+    },
+    {
+      "type": 1,
+      "value": "status"
+    },
+    {
+      "type": 0,
+      "value": " ("
+    },
+    {
+      "type": 1,
+      "value": "text"
+    },
+    {
+      "type": 0,
+      "value": ") -- "
+    },
+    {
+      "type": 1,
+      "value": "detail"
+    }
+  ],
+  "ui-ldp.error.load-columns": [
+    {
+      "type": 0,
+      "value": "无法加载列： "
+    },
+    {
+      "type": 1,
+      "value": "error"
+    }
+  ],
+  "ui-ldp.error.load-config": [
+    {
+      "type": 0,
+      "value": "无法加载配置： "
+    },
+    {
+      "type": 1,
+      "value": "error"
+    }
+  ],
+  "ui-ldp.error.load-queries": [
+    {
+      "type": 0,
+      "value": "无法加载保存的查询： "
+    },
+    {
+      "type": 1,
+      "value": "error"
+    }
+  ],
+  "ui-ldp.error.load-report": [
+    {
+      "type": 0,
+      "value": "无法运行报告： "
+    },
+    {
+      "type": 1,
+      "value": "error"
+    }
+  ],
+  "ui-ldp.error.load-results": [
+    {
+      "type": 0,
+      "value": "无法加载结果："
+    },
+    {
+      "type": 1,
+      "value": "error"
+    }
+  ],
+  "ui-ldp.error.load-tables": [
+    {
+      "type": 0,
+      "value": "无法加载表："
+    },
+    {
+      "type": 1,
+      "value": "error"
+    }
+  ],
+  "ui-ldp.error.load-version": [
+    {
+      "type": 0,
+      "value": "Could not load Metadb version: "
+    },
+    {
+      "type": 1,
+      "value": "error"
+    }
+  ],
+  "ui-ldp.error.no-such-query": [
+    {
+      "type": 0,
+      "value": "没有这样的报告： "
+    },
+    {
+      "type": 1,
+      "value": "qname"
+    }
+  ],
+  "ui-ldp.found-more-than": [
+    {
+      "type": 0,
+      "value": "找到超过"
+    },
+    {
+      "type": 1,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": "条记录"
+    }
+  ],
+  "ui-ldp.found-records": [
+    {
+      "type": 0,
+      "value": "找到"
+    },
+    {
+      "type": 1,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": "条记录"
+    }
+  ],
+  "ui-ldp.heading.current-settings": [
+    {
+      "type": 0,
+      "value": "当前设置"
+    }
+  ],
+  "ui-ldp.label.end-date": [
+    {
+      "type": 0,
+      "value": "终止日期"
+    }
+  ],
+  "ui-ldp.label.filter-by-column": [
+    {
+      "type": 0,
+      "value": "按列筛选"
+    }
+  ],
+  "ui-ldp.label.limit-results": [
+    {
+      "type": 0,
+      "value": "限制结果数量"
+    }
+  ],
+  "ui-ldp.label.order-by-column": [
+    {
+      "type": 0,
+      "value": "按列排序"
+    }
+  ],
+  "ui-ldp.label.schema": [
+    {
+      "type": 0,
+      "value": "模式"
+    }
+  ],
+  "ui-ldp.label.show-columns": [
+    {
+      "type": 0,
+      "value": "显示列"
+    }
+  ],
+  "ui-ldp.label.start-date": [
+    {
+      "type": 0,
+      "value": "起始日期"
+    }
+  ],
+  "ui-ldp.label.table": [
+    {
+      "type": 0,
+      "value": "表"
+    }
+  ],
+  "ui-ldp.meta.title": [
+    {
+      "type": 0,
+      "value": "报告"
+    }
+  ],
+  "ui-ldp.more-records": [
+    {
+      "type": 0,
+      "value": "...更多记录..."
+    }
+  ],
+  "ui-ldp.nav": [
+    {
+      "type": 0,
+      "value": "导航"
+    }
+  ],
+  "ui-ldp.nav.info": [
+    {
+      "type": 0,
+      "value": "Database info"
+    }
+  ],
+  "ui-ldp.nav.logs": [
+    {
+      "type": 0,
+      "value": "日志"
+    }
+  ],
+  "ui-ldp.nav.playground": [
+    {
+      "type": 0,
+      "value": "操场"
+    }
+  ],
+  "ui-ldp.nav.query-builder": [
+    {
+      "type": 0,
+      "value": "构建查询"
+    }
+  ],
+  "ui-ldp.nav.saved-queries": [
+    {
+      "type": 0,
+      "value": "加载查询"
+    }
+  ],
+  "ui-ldp.nav.templated-queries": [
+    {
+      "type": 0,
+      "value": "运行报告"
+    }
+  ],
+  "ui-ldp.nulls": [
+    {
+      "type": 0,
+      "value": "排序空值"
+    }
+  ],
+  "ui-ldp.nulls.end": [
+    {
+      "type": 0,
+      "value": "结尾为空"
+    }
+  ],
+  "ui-ldp.nulls.start": [
+    {
+      "type": 0,
+      "value": "开始时为空"
+    }
+  ],
+  "ui-ldp.permission.settings.dbinfo": [
+    {
+      "type": 0,
+      "value": "设置（报告）：可以修改报告数据库连接详情"
+    }
+  ],
+  "ui-ldp.permission.settings.record-limits": [
+    {
+      "type": 0,
+      "value": "设置（报告）：可以修改默认记录限制"
+    }
+  ],
+  "ui-ldp.permission.settings.sqconfig": [
+    {
+      "type": 0,
+      "value": "设置（报告）：可以修改保存的查询配置详情"
+    }
+  ],
+  "ui-ldp.permission.settings.table-availability": [
+    {
+      "type": 0,
+      "value": "设置（报告）：可以选择可搜索的表"
+    }
+  ],
+  "ui-ldp.placeholder.column": [
+    {
+      "type": 0,
+      "value": "（列）"
+    }
+  ],
+  "ui-ldp.placeholder.columns.all": [
+    {
+      "type": 0,
+      "value": "（全部）"
+    }
+  ],
+  "ui-ldp.placeholder.hidden": [
+    {
+      "type": 0,
+      "value": "[已隐藏]"
+    }
+  ],
+  "ui-ldp.placeholder.value": [
+    {
+      "type": 0,
+      "value": "（值）"
+    }
+  ],
+  "ui-ldp.refresh": [
+    {
+      "type": 0,
+      "value": "刷新"
+    }
+  ],
+  "ui-ldp.save-query": [
+    {
+      "type": 0,
+      "value": "保存查询"
+    }
+  ],
+  "ui-ldp.save-query.update.fail": [
+    {
+      "type": 0,
+      "value": "无法保存查询"
+    },
+    {
+      "type": 1,
+      "value": "displayName"
+    },
+    {
+      "type": 0,
+      "value": " ：错误"
+    },
+    {
+      "type": 1,
+      "value": "code"
+    },
+    {
+      "type": 0,
+      "value": " （ "
+    },
+    {
+      "type": 1,
+      "value": "statusText"
+    },
+    {
+      "type": 0,
+      "value": " ）： "
+    },
+    {
+      "type": 1,
+      "value": "detail"
+    }
+  ],
+  "ui-ldp.save-query.update.notFound": [
+    {
+      "type": 0,
+      "value": "您加载的查询已删除。复制并保存。"
+    }
+  ],
+  "ui-ldp.save-query.update.ok": [
+    {
+      "type": 0,
+      "value": "已保存查询"
+    },
+    {
+      "type": 1,
+      "value": "displayName"
+    }
+  ],
+  "ui-ldp.saved-queries.autoRun": [
+    {
+      "type": 0,
+      "value": "自动运行？"
+    }
+  ],
+  "ui-ldp.saved-queries.comment": [
+    {
+      "type": 0,
+      "value": "备注"
+    }
+  ],
+  "ui-ldp.saved-queries.created": [
+    {
+      "type": 0,
+      "value": "创建日期"
+    }
+  ],
+  "ui-ldp.saved-queries.creator": [
+    {
+      "type": 0,
+      "value": "创建者"
+    }
+  ],
+  "ui-ldp.saved-queries.delete.confirm": [
+    {
+      "type": 0,
+      "value": "确认"
+    }
+  ],
+  "ui-ldp.saved-queries.delete.createdBy": [
+    {
+      "type": 0,
+      "value": "由"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "creator"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "code"
+    },
+    {
+      "type": 0,
+      "value": "创建， "
+    },
+    {
+      "type": 1,
+      "value": "created"
+    }
+  ],
+  "ui-ldp.saved-queries.delete.deleteQuery": [
+    {
+      "type": 0,
+      "value": "删除查询？"
+    }
+  ],
+  "ui-ldp.saved-queries.delete.deleted": [
+    {
+      "type": 0,
+      "value": "删除查询"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "name"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " 。"
+    }
+  ],
+  "ui-ldp.saved-queries.delete.updatedBy": [
+    {
+      "type": 0,
+      "value": "最后由"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "updater"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "code"
+    },
+    {
+      "type": 0,
+      "value": "更新， "
+    },
+    {
+      "type": 1,
+      "value": "updated"
+    }
+  ],
+  "ui-ldp.saved-queries.displayName": [
+    {
+      "type": 0,
+      "value": "显示名称"
+    }
+  ],
   "ui-ldp.saved-queries.name": "文件名",
-  "ui-ldp.saved-queries.updated": "上次更新日期",
-  "ui-ldp.saved-queries.updater": "上次更新者",
-  "ui-ldp.settings.dbinfo": "数据库配置",
-  "ui-ldp.settings.dbinfo.pass": "密码（只可写入）",
-  "ui-ldp.settings.dbinfo.update.ok": "已更新数据库配置",
-  "ui-ldp.settings.dbinfo.url": "数据库URL",
-  "ui-ldp.settings.dbinfo.user": "用户名",
-  "ui-ldp.settings.record-limits": "记录限制",
-  "ui-ldp.settings.record-limits.default-show": "要显示的默认数量",
-  "ui-ldp.settings.record-limits.max-export": "导出的最大数量",
-  "ui-ldp.settings.record-limits.max-show": "显示的最大数量",
-  "ui-ldp.settings.sqconfig": "已保存查询配置",
-  "ui-ldp.settings.sqconfig.branch": "分支",
-  "ui-ldp.settings.sqconfig.owner": "Git存储库所有者",
-  "ui-ldp.settings.sqconfig.repo": "存储库名称",
-  "ui-ldp.settings.sqconfig.token": "用于访问存储库的OAuth令牌（只可写入）",
-  "ui-ldp.settings.sqconfig.update.ok": "已更新保存的查询配置",
-  "ui-ldp.settings.table-availability": "表的可用性",
-  "ui-ldp.settings.table-availability.check-to-disable": "检查表以禁用查询",
-  "ui-ldp.settings.table-availability.schema": "模式<code>{name}</code>",
-  "ui-ldp.settings.tqrepos": "报告存储库",
-  "ui-ldp.settings.tqrepos.branch": "指定存储库的分支",
-  "ui-ldp.settings.tqrepos.directory": "存储库内的目录",
-  "ui-ldp.settings.tqrepos.repo": "用户区域内的存储库名称",
-  "ui-ldp.settings.tqrepos.type": "类型",
-  "ui-ldp.settings.tqrepos.user": "Git 站点用户",
-  "ui-ldp.something-went-wrong": "出了些问题。",
-  "ui-ldp.templated-queries.column.displayName": "显示名称",
-  "ui-ldp.templated-queries.column.filename": "文件名",
-  "ui-ldp.templated-queries.column.repo": "Git存储库",
-  "ui-ldp.templated-queries.instructions": "说明",
-  "ui-ldp.templated-queries.no-json": "此报告没有关联的JSON元数据，因此无法提供用于填写其参数的表单。",
-  "ui-ldp.templated-queries.select": "选择报告",
-  "ui-ldp.templated-queries.source": "来源",
-  "ui-ldp.templated-queries.source.json": "JSON元数据",
-  "ui-ldp.templated-queries.source.sql": "SQL查询",
+  "ui-ldp.saved-queries.updated": [
+    {
+      "type": 0,
+      "value": "上次更新日期"
+    }
+  ],
+  "ui-ldp.saved-queries.updater": [
+    {
+      "type": 0,
+      "value": "上次更新者"
+    }
+  ],
+  "ui-ldp.settings.dbinfo": [
+    {
+      "type": 0,
+      "value": "数据库配置"
+    }
+  ],
+  "ui-ldp.settings.dbinfo.pass": [
+    {
+      "type": 0,
+      "value": "密码（只可写入）"
+    }
+  ],
+  "ui-ldp.settings.dbinfo.update.ok": [
+    {
+      "type": 0,
+      "value": "已更新数据库配置"
+    }
+  ],
+  "ui-ldp.settings.dbinfo.url": [
+    {
+      "type": 0,
+      "value": "数据库URL"
+    }
+  ],
+  "ui-ldp.settings.dbinfo.user": [
+    {
+      "type": 0,
+      "value": "用户名"
+    }
+  ],
+  "ui-ldp.settings.record-limits": [
+    {
+      "type": 0,
+      "value": "记录限制"
+    }
+  ],
+  "ui-ldp.settings.record-limits.default-show": [
+    {
+      "type": 0,
+      "value": "要显示的默认数量"
+    }
+  ],
+  "ui-ldp.settings.record-limits.max-export": [
+    {
+      "type": 0,
+      "value": "导出的最大数量"
+    }
+  ],
+  "ui-ldp.settings.record-limits.max-show": [
+    {
+      "type": 0,
+      "value": "显示的最大数量"
+    }
+  ],
+  "ui-ldp.settings.sqconfig": [
+    {
+      "type": 0,
+      "value": "已保存查询配置"
+    }
+  ],
+  "ui-ldp.settings.sqconfig.branch": [
+    {
+      "type": 0,
+      "value": "分支"
+    }
+  ],
+  "ui-ldp.settings.sqconfig.owner": [
+    {
+      "type": 0,
+      "value": "Git存储库所有者"
+    }
+  ],
+  "ui-ldp.settings.sqconfig.repo": [
+    {
+      "type": 0,
+      "value": "存储库名称"
+    }
+  ],
+  "ui-ldp.settings.sqconfig.token": [
+    {
+      "type": 0,
+      "value": "用于访问存储库的OAuth令牌（只可写入）"
+    }
+  ],
+  "ui-ldp.settings.sqconfig.update.ok": [
+    {
+      "type": 0,
+      "value": "已更新保存的查询配置"
+    }
+  ],
+  "ui-ldp.settings.table-availability": [
+    {
+      "type": 0,
+      "value": "表的可用性"
+    }
+  ],
+  "ui-ldp.settings.table-availability.check-to-disable": [
+    {
+      "type": 0,
+      "value": "检查表以禁用查询"
+    }
+  ],
+  "ui-ldp.settings.table-availability.schema": [
+    {
+      "type": 0,
+      "value": "模式"
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "name"
+        }
+      ],
+      "type": 8,
+      "value": "code"
+    }
+  ],
+  "ui-ldp.settings.tqrepos": [
+    {
+      "type": 0,
+      "value": "报告存储库"
+    }
+  ],
+  "ui-ldp.settings.tqrepos.branch": [
+    {
+      "type": 0,
+      "value": "指定存储库的分支"
+    }
+  ],
+  "ui-ldp.settings.tqrepos.directory": [
+    {
+      "type": 0,
+      "value": "存储库内的目录"
+    }
+  ],
+  "ui-ldp.settings.tqrepos.repo": [
+    {
+      "type": 0,
+      "value": "用户区域内的存储库名称"
+    }
+  ],
+  "ui-ldp.settings.tqrepos.type": [
+    {
+      "type": 0,
+      "value": "类型"
+    }
+  ],
+  "ui-ldp.settings.tqrepos.user": [
+    {
+      "type": 0,
+      "value": "Git 站点用户"
+    }
+  ],
+  "ui-ldp.something-went-wrong": [
+    {
+      "type": 0,
+      "value": "出了些问题。"
+    }
+  ],
+  "ui-ldp.templated-queries.column.displayName": [
+    {
+      "type": 0,
+      "value": "显示名称"
+    }
+  ],
+  "ui-ldp.templated-queries.column.filename": [
+    {
+      "type": 0,
+      "value": "文件名"
+    }
+  ],
+  "ui-ldp.templated-queries.column.repo": [
+    {
+      "type": 0,
+      "value": "Git存储库"
+    }
+  ],
+  "ui-ldp.templated-queries.instructions": [
+    {
+      "type": 0,
+      "value": "说明"
+    }
+  ],
+  "ui-ldp.templated-queries.no-json": [
+    {
+      "type": 0,
+      "value": "此报告没有关联的JSON元数据，因此无法提供用于填写其参数的表单。"
+    }
+  ],
+  "ui-ldp.templated-queries.select": [
+    {
+      "type": 0,
+      "value": "选择报告"
+    }
+  ],
+  "ui-ldp.templated-queries.source": [
+    {
+      "type": 0,
+      "value": "来源"
+    }
+  ],
+  "ui-ldp.templated-queries.source.json": [
+    {
+      "type": 0,
+      "value": "JSON元数据"
+    }
+  ],
+  "ui-ldp.templated-queries.source.sql": [
+    {
+      "type": 0,
+      "value": "SQL查询"
+    }
+  ],
   "ui-licenses.AND": [
     {
       "type": 0,
@@ -126746,6 +127716,12 @@
       "value": "类别"
     }
   ],
+  "ui-serials-management.ruleset.addChronologyLabel": [
+    {
+      "type": 0,
+      "value": "Add chronology label"
+    }
+  ],
   "ui-serials-management.ruleset.addCombination": [
     {
       "type": 0,
@@ -126756,6 +127732,12 @@
     {
       "type": 0,
       "value": "由于存在省略规则，无法添加组合规则"
+    }
+  ],
+  "ui-serials-management.ruleset.addEnumerationLabel": [
+    {
+      "type": 0,
+      "value": "Add enumeration label"
     }
   ],
   "ui-serials-management.ruleset.addLabel": [
@@ -126870,6 +127852,16 @@
     {
       "type": 0,
       "value": "年表格式"
+    }
+  ],
+  "ui-serials-management.ruleset.chronologyLabelIndex": [
+    {
+      "type": 0,
+      "value": "Chronology label "
+    },
+    {
+      "type": 1,
+      "value": "index"
     }
   ],
   "ui-serials-management.ruleset.chronologyLabels": [
@@ -127090,6 +128082,16 @@
       "value": "期次格式"
     }
   ],
+  "ui-serials-management.ruleset.enumerationLabelIndex": [
+    {
+      "type": 0,
+      "value": "Enumeration label "
+    },
+    {
+      "type": 1,
+      "value": "index"
+    }
+  ],
   "ui-serials-management.ruleset.enumerationLabels": [
     {
       "type": 0,
@@ -127292,10 +128294,22 @@
       "value": "月"
     }
   ],
+  "ui-serials-management.ruleset.noChronologyLabels": [
+    {
+      "type": 0,
+      "value": "No chronology labels for this publication pattern"
+    }
+  ],
   "ui-serials-management.ruleset.noCombinationRules": [
     {
       "type": 0,
       "value": "此出版模式没有组合规则"
+    }
+  ],
+  "ui-serials-management.ruleset.noEnumerationLabels": [
+    {
+      "type": 0,
+      "value": "No enumeration labels for this publication pattern"
     }
   ],
   "ui-serials-management.ruleset.noLabels": [
@@ -127478,10 +128492,30 @@
       "value": "出版周期"
     }
   ],
+  "ui-serials-management.ruleset.removeChronologyLabelIndex": [
+    {
+      "type": 0,
+      "value": "Remove chronology label "
+    },
+    {
+      "type": 1,
+      "value": "index"
+    }
+  ],
   "ui-serials-management.ruleset.removeCombinationRule": [
     {
       "type": 0,
       "value": "移除组合规则"
+    },
+    {
+      "type": 1,
+      "value": "index"
+    }
+  ],
+  "ui-serials-management.ruleset.removeEnumerationLabelIndex": [
+    {
+      "type": 0,
+      "value": "Remove enumeration label "
     },
     {
       "type": 1,

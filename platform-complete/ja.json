@@ -25231,6 +25231,32 @@
       "value": "All instances have source FOLIO. Use “Instances and  Administrative data” option for bulk edit."
     }
   ],
+  "ui-bulk-edit.previewModal.message.empty.notSupported": [
+    {
+      "type": 0,
+      "value": "No instances can be updated because none have source MARC."
+    }
+  ],
+  "ui-bulk-edit.previewModal.message.empty.partlySupported": [
+    {
+      "style": null,
+      "type": 2,
+      "value": "numberOfSupportedEntities"
+    },
+    {
+      "type": 0,
+      "value": " records will be changed when the Commit changes button is clicked. You may choose Download preview to review all changes prior to saving. "
+    },
+    {
+      "style": null,
+      "type": 2,
+      "value": "numberOfUnsupportedEntities"
+    },
+    {
+      "type": 0,
+      "value": " instances have source that is not supported by MARC records bulk edit and cannot be updated."
+    }
+  ],
   "ui-bulk-edit.previewModal.previewToBeChanged": [
     {
       "type": 0,
@@ -63327,6 +63353,12 @@
       "value": "組織"
     }
   ],
+  "ui-finance.actions.allocations.batch": [
+    {
+      "type": 0,
+      "value": "Batch allocations"
+    }
+  ],
   "ui-finance.actions.downloadAllocationWorksheet": [
     {
       "type": 0,
@@ -63367,6 +63399,36 @@
     {
       "type": 0,
       "value": "ロールオーバーログ"
+    }
+  ],
+  "ui-finance.allocation.batch.form.footer.recalculate": [
+    {
+      "type": 0,
+      "value": "Recalculate"
+    }
+  ],
+  "ui-finance.allocation.batch.form.title.edit": [
+    {
+      "type": 0,
+      "value": "Batch edit budgets"
+    }
+  ],
+  "ui-finance.allocation.batch.status.active": [
+    {
+      "type": 0,
+      "value": "Active"
+    }
+  ],
+  "ui-finance.allocation.batch.status.frozen": [
+    {
+      "type": 0,
+      "value": "Frozen"
+    }
+  ],
+  "ui-finance.allocation.batch.status.inactive": [
+    {
+      "type": 0,
+      "value": "Inactive"
     }
   ],
   "ui-finance.allocation.worksheet.download.error": [
@@ -66492,6 +66554,72 @@
     {
       "type": 0,
       "value": "This transaction cannot be made between these two Funds as the \"allow transfer to or from\" Fund setting on one or more of the Funds is too restrictive."
+    }
+  ],
+  "ui-finance.transaction.allocation.batch.columns.allocationIncreaseDecrease": [
+    {
+      "type": 0,
+      "value": "Allocation increase/decrease"
+    }
+  ],
+  "ui-finance.transaction.allocation.batch.columns.budgetAllowableEncumbrance": [
+    {
+      "type": 0,
+      "value": "Allowable encumbrance %"
+    }
+  ],
+  "ui-finance.transaction.allocation.batch.columns.budgetAllowableExpenditure": [
+    {
+      "type": 0,
+      "value": "Allowable expenditure %"
+    }
+  ],
+  "ui-finance.transaction.allocation.batch.columns.budgetInitialAllocation": [
+    {
+      "type": 0,
+      "value": "Total allocated (before)"
+    }
+  ],
+  "ui-finance.transaction.allocation.batch.columns.budgetName": [
+    {
+      "type": 0,
+      "value": "Budget Name"
+    }
+  ],
+  "ui-finance.transaction.allocation.batch.columns.budgetStatus": [
+    {
+      "type": 0,
+      "value": "Budget status"
+    }
+  ],
+  "ui-finance.transaction.allocation.batch.columns.fundName": [
+    {
+      "type": 0,
+      "value": "Fund name"
+    }
+  ],
+  "ui-finance.transaction.allocation.batch.columns.fundStatus": [
+    {
+      "type": 0,
+      "value": "Fund status"
+    }
+  ],
+  "ui-finance.transaction.allocation.batch.columns.fundTags": [
+    {
+      "type": 0,
+      "value": "Transaction tags"
+    }
+  ],
+  "ui-finance.transaction.allocation.batch.columns.totalAllocatedAfter": [
+    {
+      "type": 0,
+      "value": "Total allocated (after)"
+    }
+  ],
+  "ui-finance.transaction.allocation.batch.columns.transactionDescription": [
+    {
+      "type": 0,
+      "value": "Transaction description"
     }
   ],
   "ui-finance.transaction.allocation.budgetNotFoundForTransaction": [
@@ -82894,135 +83022,968 @@
       "value": "支払伝票情報"
     }
   ],
-  "ui-ldp.SENTINEL": "",
-  "ui-ldp.button.add-filter": "Add filter",
-  "ui-ldp.button.add-join-table": "結合テーブルの追加",
-  "ui-ldp.button.add-ordering-criterion": "Add ordering criterion",
-  "ui-ldp.button.cancel": "キャンセル",
-  "ui-ldp.button.clear": "クリア",
-  "ui-ldp.button.copy-query": "クエリのコピー",
-  "ui-ldp.button.csv": "CSV",
-  "ui-ldp.button.download-csv": "CSVとしてダウンロード",
-  "ui-ldp.button.new-query": "新しいクエリ",
-  "ui-ldp.button.save": "保存",
-  "ui-ldp.button.save-query": "クエリの保存",
-  "ui-ldp.button.submit": "送信",
-  "ui-ldp.copy-of": "{string}のコピー",
-  "ui-ldp.dbinfo.logs.error_severity": "Severity",
-  "ui-ldp.dbinfo.logs.log_time": "Timestamp",
-  "ui-ldp.dbinfo.logs.message": "Message",
-  "ui-ldp.dbinfo.nav.logs": "Logs",
-  "ui-ldp.dbinfo.nav.processes": "Long-running processes",
-  "ui-ldp.dbinfo.nav.updates": "Last updates of tables",
-  "ui-ldp.dbinfo.processes.databaseName": "Database",
-  "ui-ldp.dbinfo.processes.query": "Query",
-  "ui-ldp.dbinfo.processes.realTime": "Real time",
-  "ui-ldp.dbinfo.processes.state": "Status",
-  "ui-ldp.dbinfo.processes.userName": "User",
-  "ui-ldp.dbinfo.updates.elapsedRealTime": "Elapsed",
-  "ui-ldp.dbinfo.updates.lastUpdate": "Last updated",
-  "ui-ldp.dbinfo.updates.tableName": "Table",
-  "ui-ldp.dbinfo.updates.tableSchema": "Schema",
-  "ui-ldp.dbinfo.version": "Metadb version {version}",
-  "ui-ldp.desc.copy-query": "これにより、現在のクエリが新しいクエリにコピーされ、編集、実行、保存できるようになります。",
-  "ui-ldp.desc.new-query": "This will clear the present query ready to create a new one.",
-  "ui-ldp.devinfo": "Developer information",
-  "ui-ldp.direction": "Sort direction",
-  "ui-ldp.direction.asc": "Ascending",
-  "ui-ldp.direction.desc": "Descending",
-  "ui-ldp.error.fetch-reject": "fetch() rejected (never happens): {error}",
-  "ui-ldp.error.http": "HTTP エラー{status} ( {text} ) -- {detail}",
-  "ui-ldp.error.load-columns": "Could not load columns: {error}",
-  "ui-ldp.error.load-config": "Could not load configuration: {error}",
-  "ui-ldp.error.load-queries": "Could not load saved queries: {error}",
-  "ui-ldp.error.load-report": "Could not run report: {error}",
-  "ui-ldp.error.load-results": "Could not load results: {error}",
-  "ui-ldp.error.load-tables": "Could not load tables: {error}",
-  "ui-ldp.error.load-version": "Could not load Metadb version: {error}",
-  "ui-ldp.error.no-such-query": "No such report: {qname}",
-  "ui-ldp.found-more-than": "Found more than {count} records",
-  "ui-ldp.found-records": "Found {count} records",
-  "ui-ldp.heading.current-settings": "現在の設定",
-  "ui-ldp.label.end-date": "終了日",
-  "ui-ldp.label.filter-by-column": "Filter by column",
-  "ui-ldp.label.limit-results": "Limit number of results",
-  "ui-ldp.label.order-by-column": "Order by column",
-  "ui-ldp.label.schema": "スキーマ",
-  "ui-ldp.label.show-columns": "カラムを表示",
-  "ui-ldp.label.start-date": "開始日",
-  "ui-ldp.label.table": "Table",
-  "ui-ldp.meta.title": "Reporting",
-  "ui-ldp.more-records": "... More records ...",
-  "ui-ldp.nav": "Navigation",
-  "ui-ldp.nav.info": "Database info",
-  "ui-ldp.nav.logs": "ログ",
-  "ui-ldp.nav.playground": "Playground",
-  "ui-ldp.nav.query-builder": "クエリの構築",
-  "ui-ldp.nav.saved-queries": "Load query",
-  "ui-ldp.nav.templated-queries": "Run report",
-  "ui-ldp.nulls": "Sort nulls",
-  "ui-ldp.nulls.end": "Nulls at end",
-  "ui-ldp.nulls.start": "Nulls at start",
-  "ui-ldp.permission.settings.dbinfo": "Settings (Reporting): Can modify Reporting database connection details",
-  "ui-ldp.permission.settings.record-limits": "Settings (Reporting): Can modify default record limits",
-  "ui-ldp.permission.settings.sqconfig": "Settings (Reporting): Can modify saved-query configuration details",
-  "ui-ldp.permission.settings.table-availability": "Settings (Reporting): Can select which tables are available to search",
-  "ui-ldp.placeholder.column": "(Column)",
-  "ui-ldp.placeholder.columns.all": "(All)",
-  "ui-ldp.placeholder.hidden": "[Hidden]",
-  "ui-ldp.placeholder.value": "(値)",
-  "ui-ldp.refresh": "Refresh",
-  "ui-ldp.save-query": "クエリの保存",
-  "ui-ldp.save-query.update.fail": "Could not save query {displayName}: error {code} ({statusText}): {detail}",
-  "ui-ldp.save-query.update.notFound": "読み込んだクエリは削除されました。コピーを作成して保存してください。",
-  "ui-ldp.save-query.update.ok": "保存されたクエリ{displayName}",
-  "ui-ldp.saved-queries.autoRun": "Auto-run?",
-  "ui-ldp.saved-queries.comment": "コメント",
-  "ui-ldp.saved-queries.created": "作成日",
-  "ui-ldp.saved-queries.creator": "Creator",
-  "ui-ldp.saved-queries.delete.confirm": "確認する",
-  "ui-ldp.saved-queries.delete.createdBy": "<code> {creator} </code>によって作成された {created}",
-  "ui-ldp.saved-queries.delete.deleteQuery": "クエリの削除",
-  "ui-ldp.saved-queries.delete.deleted": "Deleted query <b>{name}</b>.",
-  "ui-ldp.saved-queries.delete.updatedBy": "最終更新者: <code> {updater} </code> 、 {updated}",
-  "ui-ldp.saved-queries.displayName": "表示名",
+  "ui-ldp.SENTINEL": [],
+  "ui-ldp.button.add-filter": [
+    {
+      "type": 0,
+      "value": "Add filter"
+    }
+  ],
+  "ui-ldp.button.add-join-table": [
+    {
+      "type": 0,
+      "value": "結合テーブルの追加"
+    }
+  ],
+  "ui-ldp.button.add-ordering-criterion": [
+    {
+      "type": 0,
+      "value": "Add ordering criterion"
+    }
+  ],
+  "ui-ldp.button.cancel": [
+    {
+      "type": 0,
+      "value": "キャンセル"
+    }
+  ],
+  "ui-ldp.button.clear": [
+    {
+      "type": 0,
+      "value": "クリア"
+    }
+  ],
+  "ui-ldp.button.copy-query": [
+    {
+      "type": 0,
+      "value": "クエリのコピー"
+    }
+  ],
+  "ui-ldp.button.csv": [
+    {
+      "type": 0,
+      "value": "CSV"
+    }
+  ],
+  "ui-ldp.button.download-csv": [
+    {
+      "type": 0,
+      "value": "CSVとしてダウンロード"
+    }
+  ],
+  "ui-ldp.button.new-query": [
+    {
+      "type": 0,
+      "value": "新しいクエリ"
+    }
+  ],
+  "ui-ldp.button.save": [
+    {
+      "type": 0,
+      "value": "保存"
+    }
+  ],
+  "ui-ldp.button.save-query": [
+    {
+      "type": 0,
+      "value": "クエリの保存"
+    }
+  ],
+  "ui-ldp.button.submit": [
+    {
+      "type": 0,
+      "value": "送信"
+    }
+  ],
+  "ui-ldp.copy-of": [
+    {
+      "type": 1,
+      "value": "string"
+    },
+    {
+      "type": 0,
+      "value": "のコピー"
+    }
+  ],
+  "ui-ldp.dbinfo.logs.error_severity": [
+    {
+      "type": 0,
+      "value": "Severity"
+    }
+  ],
+  "ui-ldp.dbinfo.logs.log_time": [
+    {
+      "type": 0,
+      "value": "Timestamp"
+    }
+  ],
+  "ui-ldp.dbinfo.logs.message": [
+    {
+      "type": 0,
+      "value": "Message"
+    }
+  ],
+  "ui-ldp.dbinfo.nav.logs": [
+    {
+      "type": 0,
+      "value": "Logs"
+    }
+  ],
+  "ui-ldp.dbinfo.nav.processes": [
+    {
+      "type": 0,
+      "value": "Long-running processes"
+    }
+  ],
+  "ui-ldp.dbinfo.nav.updates": [
+    {
+      "type": 0,
+      "value": "Last updates of tables"
+    }
+  ],
+  "ui-ldp.dbinfo.processes.databaseName": [
+    {
+      "type": 0,
+      "value": "Database"
+    }
+  ],
+  "ui-ldp.dbinfo.processes.empty": [
+    {
+      "type": 0,
+      "value": "There are currently no long-running processes"
+    }
+  ],
+  "ui-ldp.dbinfo.processes.query": [
+    {
+      "type": 0,
+      "value": "Query"
+    }
+  ],
+  "ui-ldp.dbinfo.processes.realTime": [
+    {
+      "type": 0,
+      "value": "Real time"
+    }
+  ],
+  "ui-ldp.dbinfo.processes.state": [
+    {
+      "type": 0,
+      "value": "Status"
+    }
+  ],
+  "ui-ldp.dbinfo.processes.userName": [
+    {
+      "type": 0,
+      "value": "User"
+    }
+  ],
+  "ui-ldp.dbinfo.updates.elapsedRealTime": [
+    {
+      "type": 0,
+      "value": "Elapsed"
+    }
+  ],
+  "ui-ldp.dbinfo.updates.lastUpdate": [
+    {
+      "type": 0,
+      "value": "Last updated"
+    }
+  ],
+  "ui-ldp.dbinfo.updates.tableName": [
+    {
+      "type": 0,
+      "value": "Table"
+    }
+  ],
+  "ui-ldp.dbinfo.updates.tableSchema": [
+    {
+      "type": 0,
+      "value": "Schema"
+    }
+  ],
+  "ui-ldp.dbinfo.version": [
+    {
+      "type": 0,
+      "value": "Metadb version "
+    },
+    {
+      "type": 1,
+      "value": "version"
+    }
+  ],
+  "ui-ldp.desc.copy-query": [
+    {
+      "type": 0,
+      "value": "これにより、現在のクエリが新しいクエリにコピーされ、編集、実行、保存できるようになります。"
+    }
+  ],
+  "ui-ldp.desc.new-query": [
+    {
+      "type": 0,
+      "value": "This will clear the present query ready to create a new one."
+    }
+  ],
+  "ui-ldp.devinfo": [
+    {
+      "type": 0,
+      "value": "Developer information"
+    }
+  ],
+  "ui-ldp.direction": [
+    {
+      "type": 0,
+      "value": "Sort direction"
+    }
+  ],
+  "ui-ldp.direction.asc": [
+    {
+      "type": 0,
+      "value": "Ascending"
+    }
+  ],
+  "ui-ldp.direction.desc": [
+    {
+      "type": 0,
+      "value": "Descending"
+    }
+  ],
+  "ui-ldp.error.fetch-reject": [
+    {
+      "type": 0,
+      "value": "fetch() rejected (never happens): "
+    },
+    {
+      "type": 1,
+      "value": "error"
+    }
+  ],
+  "ui-ldp.error.http": [
+    {
+      "type": 0,
+      "value": "HTTP エラー"
+    },
+    {
+      "type": 1,
+      "value": "status"
+    },
+    {
+      "type": 0,
+      "value": " ( "
+    },
+    {
+      "type": 1,
+      "value": "text"
+    },
+    {
+      "type": 0,
+      "value": " ) -- "
+    },
+    {
+      "type": 1,
+      "value": "detail"
+    }
+  ],
+  "ui-ldp.error.load-columns": [
+    {
+      "type": 0,
+      "value": "Could not load columns: "
+    },
+    {
+      "type": 1,
+      "value": "error"
+    }
+  ],
+  "ui-ldp.error.load-config": [
+    {
+      "type": 0,
+      "value": "Could not load configuration: "
+    },
+    {
+      "type": 1,
+      "value": "error"
+    }
+  ],
+  "ui-ldp.error.load-queries": [
+    {
+      "type": 0,
+      "value": "Could not load saved queries: "
+    },
+    {
+      "type": 1,
+      "value": "error"
+    }
+  ],
+  "ui-ldp.error.load-report": [
+    {
+      "type": 0,
+      "value": "Could not run report: "
+    },
+    {
+      "type": 1,
+      "value": "error"
+    }
+  ],
+  "ui-ldp.error.load-results": [
+    {
+      "type": 0,
+      "value": "Could not load results: "
+    },
+    {
+      "type": 1,
+      "value": "error"
+    }
+  ],
+  "ui-ldp.error.load-tables": [
+    {
+      "type": 0,
+      "value": "Could not load tables: "
+    },
+    {
+      "type": 1,
+      "value": "error"
+    }
+  ],
+  "ui-ldp.error.load-version": [
+    {
+      "type": 0,
+      "value": "Could not load Metadb version: "
+    },
+    {
+      "type": 1,
+      "value": "error"
+    }
+  ],
+  "ui-ldp.error.no-such-query": [
+    {
+      "type": 0,
+      "value": "No such report: "
+    },
+    {
+      "type": 1,
+      "value": "qname"
+    }
+  ],
+  "ui-ldp.found-more-than": [
+    {
+      "type": 0,
+      "value": "Found more than "
+    },
+    {
+      "type": 1,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": " records"
+    }
+  ],
+  "ui-ldp.found-records": [
+    {
+      "type": 0,
+      "value": "Found "
+    },
+    {
+      "type": 1,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": " records"
+    }
+  ],
+  "ui-ldp.heading.current-settings": [
+    {
+      "type": 0,
+      "value": "現在の設定"
+    }
+  ],
+  "ui-ldp.label.end-date": [
+    {
+      "type": 0,
+      "value": "終了日"
+    }
+  ],
+  "ui-ldp.label.filter-by-column": [
+    {
+      "type": 0,
+      "value": "Filter by column"
+    }
+  ],
+  "ui-ldp.label.limit-results": [
+    {
+      "type": 0,
+      "value": "Limit number of results"
+    }
+  ],
+  "ui-ldp.label.order-by-column": [
+    {
+      "type": 0,
+      "value": "Order by column"
+    }
+  ],
+  "ui-ldp.label.schema": [
+    {
+      "type": 0,
+      "value": "スキーマ"
+    }
+  ],
+  "ui-ldp.label.show-columns": [
+    {
+      "type": 0,
+      "value": "カラムを表示"
+    }
+  ],
+  "ui-ldp.label.start-date": [
+    {
+      "type": 0,
+      "value": "開始日"
+    }
+  ],
+  "ui-ldp.label.table": [
+    {
+      "type": 0,
+      "value": "Table"
+    }
+  ],
+  "ui-ldp.meta.title": [
+    {
+      "type": 0,
+      "value": "Reporting"
+    }
+  ],
+  "ui-ldp.more-records": [
+    {
+      "type": 0,
+      "value": "... More records ..."
+    }
+  ],
+  "ui-ldp.nav": [
+    {
+      "type": 0,
+      "value": "Navigation"
+    }
+  ],
+  "ui-ldp.nav.info": [
+    {
+      "type": 0,
+      "value": "Database info"
+    }
+  ],
+  "ui-ldp.nav.logs": [
+    {
+      "type": 0,
+      "value": "ログ"
+    }
+  ],
+  "ui-ldp.nav.playground": [
+    {
+      "type": 0,
+      "value": "Playground"
+    }
+  ],
+  "ui-ldp.nav.query-builder": [
+    {
+      "type": 0,
+      "value": "クエリの構築"
+    }
+  ],
+  "ui-ldp.nav.saved-queries": [
+    {
+      "type": 0,
+      "value": "Load query"
+    }
+  ],
+  "ui-ldp.nav.templated-queries": [
+    {
+      "type": 0,
+      "value": "Run report"
+    }
+  ],
+  "ui-ldp.nulls": [
+    {
+      "type": 0,
+      "value": "Sort nulls"
+    }
+  ],
+  "ui-ldp.nulls.end": [
+    {
+      "type": 0,
+      "value": "Nulls at end"
+    }
+  ],
+  "ui-ldp.nulls.start": [
+    {
+      "type": 0,
+      "value": "Nulls at start"
+    }
+  ],
+  "ui-ldp.permission.settings.dbinfo": [
+    {
+      "type": 0,
+      "value": "Settings (Reporting): Can modify Reporting database connection details"
+    }
+  ],
+  "ui-ldp.permission.settings.record-limits": [
+    {
+      "type": 0,
+      "value": "Settings (Reporting): Can modify default record limits"
+    }
+  ],
+  "ui-ldp.permission.settings.sqconfig": [
+    {
+      "type": 0,
+      "value": "Settings (Reporting): Can modify saved-query configuration details"
+    }
+  ],
+  "ui-ldp.permission.settings.table-availability": [
+    {
+      "type": 0,
+      "value": "Settings (Reporting): Can select which tables are available to search"
+    }
+  ],
+  "ui-ldp.placeholder.column": [
+    {
+      "type": 0,
+      "value": "(Column)"
+    }
+  ],
+  "ui-ldp.placeholder.columns.all": [
+    {
+      "type": 0,
+      "value": "(All)"
+    }
+  ],
+  "ui-ldp.placeholder.hidden": [
+    {
+      "type": 0,
+      "value": "[Hidden]"
+    }
+  ],
+  "ui-ldp.placeholder.value": [
+    {
+      "type": 0,
+      "value": "(値)"
+    }
+  ],
+  "ui-ldp.refresh": [
+    {
+      "type": 0,
+      "value": "Refresh"
+    }
+  ],
+  "ui-ldp.save-query": [
+    {
+      "type": 0,
+      "value": "クエリの保存"
+    }
+  ],
+  "ui-ldp.save-query.update.fail": [
+    {
+      "type": 0,
+      "value": "Could not save query "
+    },
+    {
+      "type": 1,
+      "value": "displayName"
+    },
+    {
+      "type": 0,
+      "value": ": error "
+    },
+    {
+      "type": 1,
+      "value": "code"
+    },
+    {
+      "type": 0,
+      "value": " ("
+    },
+    {
+      "type": 1,
+      "value": "statusText"
+    },
+    {
+      "type": 0,
+      "value": "): "
+    },
+    {
+      "type": 1,
+      "value": "detail"
+    }
+  ],
+  "ui-ldp.save-query.update.notFound": [
+    {
+      "type": 0,
+      "value": "読み込んだクエリは削除されました。コピーを作成して保存してください。"
+    }
+  ],
+  "ui-ldp.save-query.update.ok": [
+    {
+      "type": 0,
+      "value": "保存されたクエリ"
+    },
+    {
+      "type": 1,
+      "value": "displayName"
+    }
+  ],
+  "ui-ldp.saved-queries.autoRun": [
+    {
+      "type": 0,
+      "value": "Auto-run?"
+    }
+  ],
+  "ui-ldp.saved-queries.comment": [
+    {
+      "type": 0,
+      "value": "コメント"
+    }
+  ],
+  "ui-ldp.saved-queries.created": [
+    {
+      "type": 0,
+      "value": "作成日"
+    }
+  ],
+  "ui-ldp.saved-queries.creator": [
+    {
+      "type": 0,
+      "value": "Creator"
+    }
+  ],
+  "ui-ldp.saved-queries.delete.confirm": [
+    {
+      "type": 0,
+      "value": "確認する"
+    }
+  ],
+  "ui-ldp.saved-queries.delete.createdBy": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "creator"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "code"
+    },
+    {
+      "type": 0,
+      "value": "によって作成された "
+    },
+    {
+      "type": 1,
+      "value": "created"
+    }
+  ],
+  "ui-ldp.saved-queries.delete.deleteQuery": [
+    {
+      "type": 0,
+      "value": "クエリの削除"
+    }
+  ],
+  "ui-ldp.saved-queries.delete.deleted": [
+    {
+      "type": 0,
+      "value": "Deleted query "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "name"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "ui-ldp.saved-queries.delete.updatedBy": [
+    {
+      "type": 0,
+      "value": "最終更新者: "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "updater"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "code"
+    },
+    {
+      "type": 0,
+      "value": " 、 "
+    },
+    {
+      "type": 1,
+      "value": "updated"
+    }
+  ],
+  "ui-ldp.saved-queries.displayName": [
+    {
+      "type": 0,
+      "value": "表示名"
+    }
+  ],
   "ui-ldp.saved-queries.name": "Filename",
-  "ui-ldp.saved-queries.updated": "最終更新日",
-  "ui-ldp.saved-queries.updater": "最終更新者",
-  "ui-ldp.settings.dbinfo": "Database configuration",
-  "ui-ldp.settings.dbinfo.pass": "Password (write-only)",
-  "ui-ldp.settings.dbinfo.update.ok": "データベース設定の更新",
-  "ui-ldp.settings.dbinfo.url": "データベースURL",
-  "ui-ldp.settings.dbinfo.user": "ユーザー名",
-  "ui-ldp.settings.record-limits": "Record limits",
-  "ui-ldp.settings.record-limits.default-show": "Default number to show",
-  "ui-ldp.settings.record-limits.max-export": "Maximum number to export",
-  "ui-ldp.settings.record-limits.max-show": "Maximum number to show",
-  "ui-ldp.settings.sqconfig": "Saved queries configuration",
-  "ui-ldp.settings.sqconfig.branch": "Branch",
-  "ui-ldp.settings.sqconfig.owner": "Git repository owner",
-  "ui-ldp.settings.sqconfig.repo": "Repository name",
-  "ui-ldp.settings.sqconfig.token": "OAuth token for access to repository (write-only)",
-  "ui-ldp.settings.sqconfig.update.ok": "保存されたクエリ設定の更新",
-  "ui-ldp.settings.table-availability": "Table availability",
-  "ui-ldp.settings.table-availability.check-to-disable": "Check the tables to disable for querying",
-  "ui-ldp.settings.table-availability.schema": "スキーマ<code> {name} </code>",
-  "ui-ldp.settings.tqrepos": "Report repositories",
-  "ui-ldp.settings.tqrepos.branch": "Branch of the specified repository",
-  "ui-ldp.settings.tqrepos.directory": "Directory within repository",
-  "ui-ldp.settings.tqrepos.repo": "Repository name within user's area",
-  "ui-ldp.settings.tqrepos.type": "タイプ",
-  "ui-ldp.settings.tqrepos.user": "GitHub ユーザー",
-  "ui-ldp.something-went-wrong": "問題が発生しました",
-  "ui-ldp.templated-queries.column.displayName": "Display name",
-  "ui-ldp.templated-queries.column.filename": "ファイル名",
-  "ui-ldp.templated-queries.column.repo": "Git repository",
-  "ui-ldp.templated-queries.instructions": "Instructions",
-  "ui-ldp.templated-queries.no-json": "This report has no associated JSON metadata, so it is not possible to present a form for filling in its parameters.",
-  "ui-ldp.templated-queries.select": "レポートの選択",
-  "ui-ldp.templated-queries.source": "ソース",
-  "ui-ldp.templated-queries.source.json": "JSONメタデータ",
-  "ui-ldp.templated-queries.source.sql": "SQLクエリ",
+  "ui-ldp.saved-queries.updated": [
+    {
+      "type": 0,
+      "value": "最終更新日"
+    }
+  ],
+  "ui-ldp.saved-queries.updater": [
+    {
+      "type": 0,
+      "value": "最終更新者"
+    }
+  ],
+  "ui-ldp.settings.dbinfo": [
+    {
+      "type": 0,
+      "value": "Database configuration"
+    }
+  ],
+  "ui-ldp.settings.dbinfo.pass": [
+    {
+      "type": 0,
+      "value": "Password (write-only)"
+    }
+  ],
+  "ui-ldp.settings.dbinfo.update.ok": [
+    {
+      "type": 0,
+      "value": "データベース設定の更新"
+    }
+  ],
+  "ui-ldp.settings.dbinfo.url": [
+    {
+      "type": 0,
+      "value": "データベースURL"
+    }
+  ],
+  "ui-ldp.settings.dbinfo.user": [
+    {
+      "type": 0,
+      "value": "ユーザー名"
+    }
+  ],
+  "ui-ldp.settings.record-limits": [
+    {
+      "type": 0,
+      "value": "Record limits"
+    }
+  ],
+  "ui-ldp.settings.record-limits.default-show": [
+    {
+      "type": 0,
+      "value": "Default number to show"
+    }
+  ],
+  "ui-ldp.settings.record-limits.max-export": [
+    {
+      "type": 0,
+      "value": "Maximum number to export"
+    }
+  ],
+  "ui-ldp.settings.record-limits.max-show": [
+    {
+      "type": 0,
+      "value": "Maximum number to show"
+    }
+  ],
+  "ui-ldp.settings.sqconfig": [
+    {
+      "type": 0,
+      "value": "Saved queries configuration"
+    }
+  ],
+  "ui-ldp.settings.sqconfig.branch": [
+    {
+      "type": 0,
+      "value": "Branch"
+    }
+  ],
+  "ui-ldp.settings.sqconfig.owner": [
+    {
+      "type": 0,
+      "value": "Git repository owner"
+    }
+  ],
+  "ui-ldp.settings.sqconfig.repo": [
+    {
+      "type": 0,
+      "value": "Repository name"
+    }
+  ],
+  "ui-ldp.settings.sqconfig.token": [
+    {
+      "type": 0,
+      "value": "OAuth token for access to repository (write-only)"
+    }
+  ],
+  "ui-ldp.settings.sqconfig.update.ok": [
+    {
+      "type": 0,
+      "value": "保存されたクエリ設定の更新"
+    }
+  ],
+  "ui-ldp.settings.table-availability": [
+    {
+      "type": 0,
+      "value": "Table availability"
+    }
+  ],
+  "ui-ldp.settings.table-availability.check-to-disable": [
+    {
+      "type": 0,
+      "value": "Check the tables to disable for querying"
+    }
+  ],
+  "ui-ldp.settings.table-availability.schema": [
+    {
+      "type": 0,
+      "value": "スキーマ"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "name"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "code"
+    }
+  ],
+  "ui-ldp.settings.tqrepos": [
+    {
+      "type": 0,
+      "value": "Report repositories"
+    }
+  ],
+  "ui-ldp.settings.tqrepos.branch": [
+    {
+      "type": 0,
+      "value": "Branch of the specified repository"
+    }
+  ],
+  "ui-ldp.settings.tqrepos.directory": [
+    {
+      "type": 0,
+      "value": "Directory within repository"
+    }
+  ],
+  "ui-ldp.settings.tqrepos.repo": [
+    {
+      "type": 0,
+      "value": "Repository name within user's area"
+    }
+  ],
+  "ui-ldp.settings.tqrepos.type": [
+    {
+      "type": 0,
+      "value": "タイプ"
+    }
+  ],
+  "ui-ldp.settings.tqrepos.user": [
+    {
+      "type": 0,
+      "value": "GitHub ユーザー"
+    }
+  ],
+  "ui-ldp.something-went-wrong": [
+    {
+      "type": 0,
+      "value": "問題が発生しました"
+    }
+  ],
+  "ui-ldp.templated-queries.column.displayName": [
+    {
+      "type": 0,
+      "value": "Display name"
+    }
+  ],
+  "ui-ldp.templated-queries.column.filename": [
+    {
+      "type": 0,
+      "value": "ファイル名"
+    }
+  ],
+  "ui-ldp.templated-queries.column.repo": [
+    {
+      "type": 0,
+      "value": "Git repository"
+    }
+  ],
+  "ui-ldp.templated-queries.instructions": [
+    {
+      "type": 0,
+      "value": "Instructions"
+    }
+  ],
+  "ui-ldp.templated-queries.no-json": [
+    {
+      "type": 0,
+      "value": "This report has no associated JSON metadata, so it is not possible to present a form for filling in its parameters."
+    }
+  ],
+  "ui-ldp.templated-queries.select": [
+    {
+      "type": 0,
+      "value": "レポートの選択"
+    }
+  ],
+  "ui-ldp.templated-queries.source": [
+    {
+      "type": 0,
+      "value": "ソース"
+    }
+  ],
+  "ui-ldp.templated-queries.source.json": [
+    {
+      "type": 0,
+      "value": "JSONメタデータ"
+    }
+  ],
+  "ui-ldp.templated-queries.source.sql": [
+    {
+      "type": 0,
+      "value": "SQLクエリ"
+    }
+  ],
   "ui-licenses.AND": [
     {
       "type": 0,
@@ -124583,6 +125544,12 @@
       "value": "カテゴリー"
     }
   ],
+  "ui-serials-management.ruleset.addChronologyLabel": [
+    {
+      "type": 0,
+      "value": "Add chronology label"
+    }
+  ],
   "ui-serials-management.ruleset.addCombination": [
     {
       "type": 0,
@@ -124593,6 +125560,12 @@
     {
       "type": 0,
       "value": "Combination rules cannot be added because an omission rule exists"
+    }
+  ],
+  "ui-serials-management.ruleset.addEnumerationLabel": [
+    {
+      "type": 0,
+      "value": "Add enumeration label"
     }
   ],
   "ui-serials-management.ruleset.addLabel": [
@@ -124707,6 +125680,16 @@
     {
       "type": 0,
       "value": "Chronology format"
+    }
+  ],
+  "ui-serials-management.ruleset.chronologyLabelIndex": [
+    {
+      "type": 0,
+      "value": "Chronology label "
+    },
+    {
+      "type": 1,
+      "value": "index"
     }
   ],
   "ui-serials-management.ruleset.chronologyLabels": [
@@ -124927,6 +125910,16 @@
       "value": "Enumeration format"
     }
   ],
+  "ui-serials-management.ruleset.enumerationLabelIndex": [
+    {
+      "type": 0,
+      "value": "Enumeration label "
+    },
+    {
+      "type": 1,
+      "value": "index"
+    }
+  ],
   "ui-serials-management.ruleset.enumerationLabels": [
     {
       "type": 0,
@@ -125133,10 +126126,22 @@
       "value": "月"
     }
   ],
+  "ui-serials-management.ruleset.noChronologyLabels": [
+    {
+      "type": 0,
+      "value": "No chronology labels for this publication pattern"
+    }
+  ],
   "ui-serials-management.ruleset.noCombinationRules": [
     {
       "type": 0,
       "value": "No combination rules for this publication pattern"
+    }
+  ],
+  "ui-serials-management.ruleset.noEnumerationLabels": [
+    {
+      "type": 0,
+      "value": "No enumeration labels for this publication pattern"
     }
   ],
   "ui-serials-management.ruleset.noLabels": [
@@ -125319,10 +126324,30 @@
       "value": "Publication cycle"
     }
   ],
+  "ui-serials-management.ruleset.removeChronologyLabelIndex": [
+    {
+      "type": 0,
+      "value": "Remove chronology label "
+    },
+    {
+      "type": 1,
+      "value": "index"
+    }
+  ],
   "ui-serials-management.ruleset.removeCombinationRule": [
     {
       "type": 0,
       "value": "Remove combination rule "
+    },
+    {
+      "type": 1,
+      "value": "index"
+    }
+  ],
+  "ui-serials-management.ruleset.removeEnumerationLabelIndex": [
+    {
+      "type": 0,
+      "value": "Remove enumeration label "
     },
     {
       "type": 1,

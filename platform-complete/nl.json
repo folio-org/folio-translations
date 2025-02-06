@@ -23906,6 +23906,32 @@
       "value": "All instances have source FOLIO. Use “Instances and  Administrative data” option for bulk edit."
     }
   ],
+  "ui-bulk-edit.previewModal.message.empty.notSupported": [
+    {
+      "type": 0,
+      "value": "No instances can be updated because none have source MARC."
+    }
+  ],
+  "ui-bulk-edit.previewModal.message.empty.partlySupported": [
+    {
+      "style": null,
+      "type": 2,
+      "value": "numberOfSupportedEntities"
+    },
+    {
+      "type": 0,
+      "value": " records will be changed when the Commit changes button is clicked. You may choose Download preview to review all changes prior to saving. "
+    },
+    {
+      "style": null,
+      "type": 2,
+      "value": "numberOfUnsupportedEntities"
+    },
+    {
+      "type": 0,
+      "value": " instances have source that is not supported by MARC records bulk edit and cannot be updated."
+    }
+  ],
   "ui-bulk-edit.previewModal.previewToBeChanged": [
     {
       "type": 0,
@@ -57351,6 +57377,12 @@
       "value": "Organisaties"
     }
   ],
+  "ui-finance.actions.allocations.batch": [
+    {
+      "type": 0,
+      "value": "Batch allocations"
+    }
+  ],
   "ui-finance.actions.downloadAllocationWorksheet": [
     {
       "type": 0,
@@ -57391,6 +57423,36 @@
     {
       "type": 0,
       "value": "Rolloverlogs"
+    }
+  ],
+  "ui-finance.allocation.batch.form.footer.recalculate": [
+    {
+      "type": 0,
+      "value": "Recalculate"
+    }
+  ],
+  "ui-finance.allocation.batch.form.title.edit": [
+    {
+      "type": 0,
+      "value": "Batch edit budgets"
+    }
+  ],
+  "ui-finance.allocation.batch.status.active": [
+    {
+      "type": 0,
+      "value": "Active"
+    }
+  ],
+  "ui-finance.allocation.batch.status.frozen": [
+    {
+      "type": 0,
+      "value": "Frozen"
+    }
+  ],
+  "ui-finance.allocation.batch.status.inactive": [
+    {
+      "type": 0,
+      "value": "Inactive"
     }
   ],
   "ui-finance.allocation.worksheet.download.error": [
@@ -60396,6 +60458,72 @@
     {
       "type": 0,
       "value": "Deze transactie kan niet worden uitgevoerd tussen deze twee fondsen, omdat de instelling \"Overschrijving toestaan naar of vanuit\" fonds op een of meer van de fondsen te beperkt is."
+    }
+  ],
+  "ui-finance.transaction.allocation.batch.columns.allocationIncreaseDecrease": [
+    {
+      "type": 0,
+      "value": "Allocation increase/decrease"
+    }
+  ],
+  "ui-finance.transaction.allocation.batch.columns.budgetAllowableEncumbrance": [
+    {
+      "type": 0,
+      "value": "Allowable encumbrance %"
+    }
+  ],
+  "ui-finance.transaction.allocation.batch.columns.budgetAllowableExpenditure": [
+    {
+      "type": 0,
+      "value": "Allowable expenditure %"
+    }
+  ],
+  "ui-finance.transaction.allocation.batch.columns.budgetInitialAllocation": [
+    {
+      "type": 0,
+      "value": "Total allocated (before)"
+    }
+  ],
+  "ui-finance.transaction.allocation.batch.columns.budgetName": [
+    {
+      "type": 0,
+      "value": "Budget Name"
+    }
+  ],
+  "ui-finance.transaction.allocation.batch.columns.budgetStatus": [
+    {
+      "type": 0,
+      "value": "Budget status"
+    }
+  ],
+  "ui-finance.transaction.allocation.batch.columns.fundName": [
+    {
+      "type": 0,
+      "value": "Fund name"
+    }
+  ],
+  "ui-finance.transaction.allocation.batch.columns.fundStatus": [
+    {
+      "type": 0,
+      "value": "Fund status"
+    }
+  ],
+  "ui-finance.transaction.allocation.batch.columns.fundTags": [
+    {
+      "type": 0,
+      "value": "Transaction tags"
+    }
+  ],
+  "ui-finance.transaction.allocation.batch.columns.totalAllocatedAfter": [
+    {
+      "type": 0,
+      "value": "Total allocated (after)"
+    }
+  ],
+  "ui-finance.transaction.allocation.batch.columns.transactionDescription": [
+    {
+      "type": 0,
+      "value": "Transaction description"
     }
   ],
   "ui-finance.transaction.allocation.budgetNotFoundForTransaction": [
@@ -75884,134 +76012,948 @@
       "value": "Informatie voucher"
     }
   ],
-  "ui-ldp.SENTINEL": "SENTINEL",
-  "ui-ldp.button.add-filter": "Filter toevoegen",
-  "ui-ldp.button.add-join-table": "Voeg tabel toe",
-  "ui-ldp.button.add-ordering-criterion": "Volgordecriterium toevoegen",
-  "ui-ldp.button.cancel": "Annuleren",
-  "ui-ldp.button.clear": "Leegmaken",
-  "ui-ldp.button.copy-query": "Query kopiëren",
-  "ui-ldp.button.csv": "CSV",
-  "ui-ldp.button.download-csv": "Downloaden als CSV",
-  "ui-ldp.button.new-query": "Nieuwe query",
-  "ui-ldp.button.save": "Opslaan",
-  "ui-ldp.button.save-query": "Query opslaan",
-  "ui-ldp.button.submit": "Indienen",
-  "ui-ldp.copy-of": "Kopie van {string}",
-  "ui-ldp.dbinfo.logs.error_severity": "Severity",
-  "ui-ldp.dbinfo.logs.log_time": "Timestamp",
-  "ui-ldp.dbinfo.logs.message": "Message",
-  "ui-ldp.dbinfo.nav.logs": "Logs",
-  "ui-ldp.dbinfo.nav.processes": "Long-running processes",
-  "ui-ldp.dbinfo.nav.updates": "Last updates of tables",
-  "ui-ldp.dbinfo.processes.databaseName": "Database",
-  "ui-ldp.dbinfo.processes.query": "Query",
-  "ui-ldp.dbinfo.processes.realTime": "Real time",
-  "ui-ldp.dbinfo.processes.state": "Status",
-  "ui-ldp.dbinfo.processes.userName": "User",
-  "ui-ldp.dbinfo.updates.elapsedRealTime": "Elapsed",
-  "ui-ldp.dbinfo.updates.lastUpdate": "Last updated",
-  "ui-ldp.dbinfo.updates.tableName": "Table",
-  "ui-ldp.dbinfo.updates.tableSchema": "Schema",
-  "ui-ldp.dbinfo.version": "Metadb version {version}",
-  "ui-ldp.desc.copy-query": "Hiermee wordt de huidige query gekopieerd naar een nieuwe query die bewerkt, uitgevoerd en opgeslagen kan worden.",
-  "ui-ldp.desc.new-query": "Hierdoor wordt de huidige query gewist, zodat er een nieuwe query kan worden aangemaakt.",
-  "ui-ldp.devinfo": "Informatie voor ontwikkelaars",
-  "ui-ldp.direction": "Sorteerrichting",
-  "ui-ldp.direction.asc": "Oplopend",
-  "ui-ldp.direction.desc": "Aflopend",
-  "ui-ldp.error.fetch-reject": "fetch() afgewezen (gebeurt nooit): {error}",
-  "ui-ldp.error.http": "HTTP-fout {status} ({text}) -- {detail}",
-  "ui-ldp.error.load-columns": "Kon kolommen niet laden: {error}",
-  "ui-ldp.error.load-config": "Kon configuratie niet laden: {error}",
-  "ui-ldp.error.load-queries": "Opgeslagen queries konden niet worden geladen: {error}",
-  "ui-ldp.error.load-report": "Rapport kon niet worden uitgevoerd: {error}",
-  "ui-ldp.error.load-results": "Kon resultaten niet laden: {error}",
-  "ui-ldp.error.load-tables": "Kon tabellen niet laden: {error}",
-  "ui-ldp.error.load-version": "Could not load Metadb version: {error}",
-  "ui-ldp.error.no-such-query": "Geen dergelijk rapport: {qname}",
-  "ui-ldp.found-more-than": "Meer dan {count} records gevonden",
-  "ui-ldp.found-records": "{count} records gevonden",
-  "ui-ldp.heading.current-settings": "Huidige instellingen",
-  "ui-ldp.label.end-date": "Einddatum",
-  "ui-ldp.label.filter-by-column": "Filter op kolom",
-  "ui-ldp.label.limit-results": "Aantal resultaten beperken",
-  "ui-ldp.label.order-by-column": "Sorteer op kolom",
-  "ui-ldp.label.schema": "Schema",
-  "ui-ldp.label.show-columns": "Kolommen weergeven",
-  "ui-ldp.label.start-date": "Startdatum",
-  "ui-ldp.label.table": "Tabel",
-  "ui-ldp.meta.title": "Rapportage",
-  "ui-ldp.more-records": "... Meer records ...",
-  "ui-ldp.nav": "Navigatie",
-  "ui-ldp.nav.info": "Database info",
-  "ui-ldp.nav.logs": "Logs",
-  "ui-ldp.nav.playground": "Playground",
-  "ui-ldp.nav.query-builder": "Query samenstellen",
-  "ui-ldp.nav.saved-queries": "Laden query",
-  "ui-ldp.nav.templated-queries": "Rapport uitvoeren",
-  "ui-ldp.nulls": "Nullen sorteren",
-  "ui-ldp.nulls.end": "Nullen op het einde",
-  "ui-ldp.nulls.start": "Nullen bij de start",
-  "ui-ldp.permission.settings.dbinfo": "Instellingen (Rapportage): Kan de verbindingsgegevens van de rapportagedatabase wijzigen",
-  "ui-ldp.permission.settings.record-limits": "Instellingen (Rapportage): Kan standaard recordlimieten wijzigen",
-  "ui-ldp.permission.settings.sqconfig": "Instellingen (Rapportage): Kan configuratiedetails van opgeslagen queries wijzigen",
-  "ui-ldp.permission.settings.table-availability": "Instellingen (Rapportage): Kan selecteren welke tabellen beschikbaar zijn om te zoeken",
-  "ui-ldp.placeholder.column": "(Kolom)",
-  "ui-ldp.placeholder.columns.all": "(Alle)",
-  "ui-ldp.placeholder.hidden": "[Verborgen]",
-  "ui-ldp.placeholder.value": "(Waarde)",
-  "ui-ldp.refresh": "Verversen",
-  "ui-ldp.save-query": "Query opslaan",
-  "ui-ldp.save-query.update.fail": "Kon query {displayName} niet opslaan: fout {code} ({statusText}): {detail}",
-  "ui-ldp.save-query.update.notFound": "De geladen query is verwijderd. Maak een kopie en sla die op.",
-  "ui-ldp.save-query.update.ok": "Opgeslagen query {displayName}",
-  "ui-ldp.saved-queries.autoRun": "Auto-run?",
-  "ui-ldp.saved-queries.comment": "Opmerking",
-  "ui-ldp.saved-queries.created": "Datum aangemaakt",
-  "ui-ldp.saved-queries.creator": "Maker",
-  "ui-ldp.saved-queries.delete.confirm": "Bevestigen",
-  "ui-ldp.saved-queries.delete.createdBy": "Aangemaakt door <code>{creator}</code>, {created}",
-  "ui-ldp.saved-queries.delete.deleteQuery": "Query verwijderen?",
-  "ui-ldp.saved-queries.delete.deleted": "Query <b>{name}</b> verwijderd.",
-  "ui-ldp.saved-queries.delete.updatedBy": "Laatst bijgewerkt door <code>{updater}</code>, {updated}",
-  "ui-ldp.saved-queries.displayName": "Naam weergeven",
-  "ui-ldp.saved-queries.updated": "Datum laatst bijgewerkt",
-  "ui-ldp.saved-queries.updater": "Laatst bijgewerkt door",
-  "ui-ldp.settings.dbinfo": "Databaseconfiguratie",
-  "ui-ldp.settings.dbinfo.pass": "Wachtwoord (alleen schrijven)",
-  "ui-ldp.settings.dbinfo.update.ok": "Databaseconfiguratie bijwerken",
-  "ui-ldp.settings.dbinfo.url": "Database-URL",
-  "ui-ldp.settings.dbinfo.user": "Gebruikersnaam",
-  "ui-ldp.settings.record-limits": "Limieten voor records",
-  "ui-ldp.settings.record-limits.default-show": "Standaard aantal om te tonen",
-  "ui-ldp.settings.record-limits.max-export": "Maximum aantal om te exporteren",
-  "ui-ldp.settings.record-limits.max-show": "Maximum aantal om te tonen",
-  "ui-ldp.settings.sqconfig": "Configuratie opgeslagen queries",
-  "ui-ldp.settings.sqconfig.branch": "Branch",
-  "ui-ldp.settings.sqconfig.owner": "Eigenaar GitHub-repository",
-  "ui-ldp.settings.sqconfig.repo": "Naam repository",
-  "ui-ldp.settings.sqconfig.token": "OAuth token voor toegang tot repository (alleen schrijven)",
-  "ui-ldp.settings.sqconfig.update.ok": "Configuratie opgeslagen queries bijgewerkt",
-  "ui-ldp.settings.table-availability": "Tabel beschikbaarheid",
-  "ui-ldp.settings.table-availability.check-to-disable": "Controleer de tabellen die uitgeschakeld moeten worden voor opvragen",
-  "ui-ldp.settings.table-availability.schema": "Schema <code>{name}</code>",
-  "ui-ldp.settings.tqrepos": "Rapportrepositories",
-  "ui-ldp.settings.tqrepos.branch": "Branch van de opgegeven repository",
-  "ui-ldp.settings.tqrepos.directory": "Directory binnen repository",
-  "ui-ldp.settings.tqrepos.repo": "De naam van het repository binnen het gebied van de gebruiker",
-  "ui-ldp.settings.tqrepos.type": "Soort",
-  "ui-ldp.settings.tqrepos.user": "GitHub-gebruiker",
-  "ui-ldp.something-went-wrong": "Er ging iets mis.",
-  "ui-ldp.templated-queries.column.displayName": "Weergavenaam",
-  "ui-ldp.templated-queries.column.filename": "Bestandsnaam",
-  "ui-ldp.templated-queries.column.repo": "GitHub-repository",
-  "ui-ldp.templated-queries.instructions": "Instructies",
-  "ui-ldp.templated-queries.no-json": "Dit rapport heeft geen bijbehorende JSON-metadata, dus het is niet mogelijk om een formulier te presenteren voor het invullen van de parameters.",
-  "ui-ldp.templated-queries.select": "Rapport selecteren",
-  "ui-ldp.templated-queries.source": "Bron",
-  "ui-ldp.templated-queries.source.json": "JSON-metadata",
-  "ui-ldp.templated-queries.source.sql": "SQL-query",
+  "ui-ldp.SENTINEL": [
+    {
+      "type": 0,
+      "value": "SENTINEL"
+    }
+  ],
+  "ui-ldp.button.add-filter": [
+    {
+      "type": 0,
+      "value": "Filter toevoegen"
+    }
+  ],
+  "ui-ldp.button.add-join-table": [
+    {
+      "type": 0,
+      "value": "Voeg tabel toe"
+    }
+  ],
+  "ui-ldp.button.add-ordering-criterion": [
+    {
+      "type": 0,
+      "value": "Volgordecriterium toevoegen"
+    }
+  ],
+  "ui-ldp.button.cancel": [
+    {
+      "type": 0,
+      "value": "Annuleren"
+    }
+  ],
+  "ui-ldp.button.clear": [
+    {
+      "type": 0,
+      "value": "Leegmaken"
+    }
+  ],
+  "ui-ldp.button.copy-query": [
+    {
+      "type": 0,
+      "value": "Query kopiëren"
+    }
+  ],
+  "ui-ldp.button.csv": [
+    {
+      "type": 0,
+      "value": "CSV"
+    }
+  ],
+  "ui-ldp.button.download-csv": [
+    {
+      "type": 0,
+      "value": "Downloaden als CSV"
+    }
+  ],
+  "ui-ldp.button.new-query": [
+    {
+      "type": 0,
+      "value": "Nieuwe query"
+    }
+  ],
+  "ui-ldp.button.save": [
+    {
+      "type": 0,
+      "value": "Opslaan"
+    }
+  ],
+  "ui-ldp.button.save-query": [
+    {
+      "type": 0,
+      "value": "Query opslaan"
+    }
+  ],
+  "ui-ldp.button.submit": [
+    {
+      "type": 0,
+      "value": "Indienen"
+    }
+  ],
+  "ui-ldp.copy-of": [
+    {
+      "type": 0,
+      "value": "Kopie van "
+    },
+    {
+      "type": 1,
+      "value": "string"
+    }
+  ],
+  "ui-ldp.dbinfo.logs.error_severity": [
+    {
+      "type": 0,
+      "value": "Severity"
+    }
+  ],
+  "ui-ldp.dbinfo.logs.log_time": [
+    {
+      "type": 0,
+      "value": "Timestamp"
+    }
+  ],
+  "ui-ldp.dbinfo.logs.message": [
+    {
+      "type": 0,
+      "value": "Message"
+    }
+  ],
+  "ui-ldp.dbinfo.nav.logs": [
+    {
+      "type": 0,
+      "value": "Logs"
+    }
+  ],
+  "ui-ldp.dbinfo.nav.processes": [
+    {
+      "type": 0,
+      "value": "Long-running processes"
+    }
+  ],
+  "ui-ldp.dbinfo.nav.updates": [
+    {
+      "type": 0,
+      "value": "Last updates of tables"
+    }
+  ],
+  "ui-ldp.dbinfo.processes.databaseName": [
+    {
+      "type": 0,
+      "value": "Database"
+    }
+  ],
+  "ui-ldp.dbinfo.processes.empty": [
+    {
+      "type": 0,
+      "value": "There are currently no long-running processes"
+    }
+  ],
+  "ui-ldp.dbinfo.processes.query": [
+    {
+      "type": 0,
+      "value": "Query"
+    }
+  ],
+  "ui-ldp.dbinfo.processes.realTime": [
+    {
+      "type": 0,
+      "value": "Real time"
+    }
+  ],
+  "ui-ldp.dbinfo.processes.state": [
+    {
+      "type": 0,
+      "value": "Status"
+    }
+  ],
+  "ui-ldp.dbinfo.processes.userName": [
+    {
+      "type": 0,
+      "value": "User"
+    }
+  ],
+  "ui-ldp.dbinfo.updates.elapsedRealTime": [
+    {
+      "type": 0,
+      "value": "Elapsed"
+    }
+  ],
+  "ui-ldp.dbinfo.updates.lastUpdate": [
+    {
+      "type": 0,
+      "value": "Last updated"
+    }
+  ],
+  "ui-ldp.dbinfo.updates.tableName": [
+    {
+      "type": 0,
+      "value": "Table"
+    }
+  ],
+  "ui-ldp.dbinfo.updates.tableSchema": [
+    {
+      "type": 0,
+      "value": "Schema"
+    }
+  ],
+  "ui-ldp.dbinfo.version": [
+    {
+      "type": 0,
+      "value": "Metadb version "
+    },
+    {
+      "type": 1,
+      "value": "version"
+    }
+  ],
+  "ui-ldp.desc.copy-query": [
+    {
+      "type": 0,
+      "value": "Hiermee wordt de huidige query gekopieerd naar een nieuwe query die bewerkt, uitgevoerd en opgeslagen kan worden."
+    }
+  ],
+  "ui-ldp.desc.new-query": [
+    {
+      "type": 0,
+      "value": "Hierdoor wordt de huidige query gewist, zodat er een nieuwe query kan worden aangemaakt."
+    }
+  ],
+  "ui-ldp.devinfo": [
+    {
+      "type": 0,
+      "value": "Informatie voor ontwikkelaars"
+    }
+  ],
+  "ui-ldp.direction": [
+    {
+      "type": 0,
+      "value": "Sorteerrichting"
+    }
+  ],
+  "ui-ldp.direction.asc": [
+    {
+      "type": 0,
+      "value": "Oplopend"
+    }
+  ],
+  "ui-ldp.direction.desc": [
+    {
+      "type": 0,
+      "value": "Aflopend"
+    }
+  ],
+  "ui-ldp.error.fetch-reject": [
+    {
+      "type": 0,
+      "value": "fetch() afgewezen (gebeurt nooit): "
+    },
+    {
+      "type": 1,
+      "value": "error"
+    }
+  ],
+  "ui-ldp.error.http": [
+    {
+      "type": 0,
+      "value": "HTTP-fout "
+    },
+    {
+      "type": 1,
+      "value": "status"
+    },
+    {
+      "type": 0,
+      "value": " ("
+    },
+    {
+      "type": 1,
+      "value": "text"
+    },
+    {
+      "type": 0,
+      "value": ") -- "
+    },
+    {
+      "type": 1,
+      "value": "detail"
+    }
+  ],
+  "ui-ldp.error.load-columns": [
+    {
+      "type": 0,
+      "value": "Kon kolommen niet laden: "
+    },
+    {
+      "type": 1,
+      "value": "error"
+    }
+  ],
+  "ui-ldp.error.load-config": [
+    {
+      "type": 0,
+      "value": "Kon configuratie niet laden: "
+    },
+    {
+      "type": 1,
+      "value": "error"
+    }
+  ],
+  "ui-ldp.error.load-queries": [
+    {
+      "type": 0,
+      "value": "Opgeslagen queries konden niet worden geladen: "
+    },
+    {
+      "type": 1,
+      "value": "error"
+    }
+  ],
+  "ui-ldp.error.load-report": [
+    {
+      "type": 0,
+      "value": "Rapport kon niet worden uitgevoerd: "
+    },
+    {
+      "type": 1,
+      "value": "error"
+    }
+  ],
+  "ui-ldp.error.load-results": [
+    {
+      "type": 0,
+      "value": "Kon resultaten niet laden: "
+    },
+    {
+      "type": 1,
+      "value": "error"
+    }
+  ],
+  "ui-ldp.error.load-tables": [
+    {
+      "type": 0,
+      "value": "Kon tabellen niet laden: "
+    },
+    {
+      "type": 1,
+      "value": "error"
+    }
+  ],
+  "ui-ldp.error.load-version": [
+    {
+      "type": 0,
+      "value": "Could not load Metadb version: "
+    },
+    {
+      "type": 1,
+      "value": "error"
+    }
+  ],
+  "ui-ldp.error.no-such-query": [
+    {
+      "type": 0,
+      "value": "Geen dergelijk rapport: "
+    },
+    {
+      "type": 1,
+      "value": "qname"
+    }
+  ],
+  "ui-ldp.found-more-than": [
+    {
+      "type": 0,
+      "value": "Meer dan "
+    },
+    {
+      "type": 1,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": " records gevonden"
+    }
+  ],
+  "ui-ldp.found-records": [
+    {
+      "type": 1,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": " records gevonden"
+    }
+  ],
+  "ui-ldp.heading.current-settings": [
+    {
+      "type": 0,
+      "value": "Huidige instellingen"
+    }
+  ],
+  "ui-ldp.label.end-date": [
+    {
+      "type": 0,
+      "value": "Einddatum"
+    }
+  ],
+  "ui-ldp.label.filter-by-column": [
+    {
+      "type": 0,
+      "value": "Filter op kolom"
+    }
+  ],
+  "ui-ldp.label.limit-results": [
+    {
+      "type": 0,
+      "value": "Aantal resultaten beperken"
+    }
+  ],
+  "ui-ldp.label.order-by-column": [
+    {
+      "type": 0,
+      "value": "Sorteer op kolom"
+    }
+  ],
+  "ui-ldp.label.schema": [
+    {
+      "type": 0,
+      "value": "Schema"
+    }
+  ],
+  "ui-ldp.label.show-columns": [
+    {
+      "type": 0,
+      "value": "Kolommen weergeven"
+    }
+  ],
+  "ui-ldp.label.start-date": [
+    {
+      "type": 0,
+      "value": "Startdatum"
+    }
+  ],
+  "ui-ldp.label.table": [
+    {
+      "type": 0,
+      "value": "Tabel"
+    }
+  ],
+  "ui-ldp.meta.title": [
+    {
+      "type": 0,
+      "value": "Rapportage"
+    }
+  ],
+  "ui-ldp.more-records": [
+    {
+      "type": 0,
+      "value": "... Meer records ..."
+    }
+  ],
+  "ui-ldp.nav": [
+    {
+      "type": 0,
+      "value": "Navigatie"
+    }
+  ],
+  "ui-ldp.nav.info": [
+    {
+      "type": 0,
+      "value": "Database info"
+    }
+  ],
+  "ui-ldp.nav.logs": [
+    {
+      "type": 0,
+      "value": "Logs"
+    }
+  ],
+  "ui-ldp.nav.playground": [
+    {
+      "type": 0,
+      "value": "Playground"
+    }
+  ],
+  "ui-ldp.nav.query-builder": [
+    {
+      "type": 0,
+      "value": "Query samenstellen"
+    }
+  ],
+  "ui-ldp.nav.saved-queries": [
+    {
+      "type": 0,
+      "value": "Laden query"
+    }
+  ],
+  "ui-ldp.nav.templated-queries": [
+    {
+      "type": 0,
+      "value": "Rapport uitvoeren"
+    }
+  ],
+  "ui-ldp.nulls": [
+    {
+      "type": 0,
+      "value": "Nullen sorteren"
+    }
+  ],
+  "ui-ldp.nulls.end": [
+    {
+      "type": 0,
+      "value": "Nullen op het einde"
+    }
+  ],
+  "ui-ldp.nulls.start": [
+    {
+      "type": 0,
+      "value": "Nullen bij de start"
+    }
+  ],
+  "ui-ldp.permission.settings.dbinfo": [
+    {
+      "type": 0,
+      "value": "Instellingen (Rapportage): Kan de verbindingsgegevens van de rapportagedatabase wijzigen"
+    }
+  ],
+  "ui-ldp.permission.settings.record-limits": [
+    {
+      "type": 0,
+      "value": "Instellingen (Rapportage): Kan standaard recordlimieten wijzigen"
+    }
+  ],
+  "ui-ldp.permission.settings.sqconfig": [
+    {
+      "type": 0,
+      "value": "Instellingen (Rapportage): Kan configuratiedetails van opgeslagen queries wijzigen"
+    }
+  ],
+  "ui-ldp.permission.settings.table-availability": [
+    {
+      "type": 0,
+      "value": "Instellingen (Rapportage): Kan selecteren welke tabellen beschikbaar zijn om te zoeken"
+    }
+  ],
+  "ui-ldp.placeholder.column": [
+    {
+      "type": 0,
+      "value": "(Kolom)"
+    }
+  ],
+  "ui-ldp.placeholder.columns.all": [
+    {
+      "type": 0,
+      "value": "(Alle)"
+    }
+  ],
+  "ui-ldp.placeholder.hidden": [
+    {
+      "type": 0,
+      "value": "[Verborgen]"
+    }
+  ],
+  "ui-ldp.placeholder.value": [
+    {
+      "type": 0,
+      "value": "(Waarde)"
+    }
+  ],
+  "ui-ldp.refresh": [
+    {
+      "type": 0,
+      "value": "Verversen"
+    }
+  ],
+  "ui-ldp.save-query": [
+    {
+      "type": 0,
+      "value": "Query opslaan"
+    }
+  ],
+  "ui-ldp.save-query.update.fail": [
+    {
+      "type": 0,
+      "value": "Kon query "
+    },
+    {
+      "type": 1,
+      "value": "displayName"
+    },
+    {
+      "type": 0,
+      "value": " niet opslaan: fout "
+    },
+    {
+      "type": 1,
+      "value": "code"
+    },
+    {
+      "type": 0,
+      "value": " ("
+    },
+    {
+      "type": 1,
+      "value": "statusText"
+    },
+    {
+      "type": 0,
+      "value": "): "
+    },
+    {
+      "type": 1,
+      "value": "detail"
+    }
+  ],
+  "ui-ldp.save-query.update.notFound": [
+    {
+      "type": 0,
+      "value": "De geladen query is verwijderd. Maak een kopie en sla die op."
+    }
+  ],
+  "ui-ldp.save-query.update.ok": [
+    {
+      "type": 0,
+      "value": "Opgeslagen query "
+    },
+    {
+      "type": 1,
+      "value": "displayName"
+    }
+  ],
+  "ui-ldp.saved-queries.autoRun": [
+    {
+      "type": 0,
+      "value": "Auto-run?"
+    }
+  ],
+  "ui-ldp.saved-queries.comment": [
+    {
+      "type": 0,
+      "value": "Opmerking"
+    }
+  ],
+  "ui-ldp.saved-queries.created": [
+    {
+      "type": 0,
+      "value": "Datum aangemaakt"
+    }
+  ],
+  "ui-ldp.saved-queries.creator": [
+    {
+      "type": 0,
+      "value": "Maker"
+    }
+  ],
+  "ui-ldp.saved-queries.delete.confirm": [
+    {
+      "type": 0,
+      "value": "Bevestigen"
+    }
+  ],
+  "ui-ldp.saved-queries.delete.createdBy": [
+    {
+      "type": 0,
+      "value": "Aangemaakt door "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "creator"
+        }
+      ],
+      "type": 8,
+      "value": "code"
+    },
+    {
+      "type": 0,
+      "value": ", "
+    },
+    {
+      "type": 1,
+      "value": "created"
+    }
+  ],
+  "ui-ldp.saved-queries.delete.deleteQuery": [
+    {
+      "type": 0,
+      "value": "Query verwijderen?"
+    }
+  ],
+  "ui-ldp.saved-queries.delete.deleted": [
+    {
+      "type": 0,
+      "value": "Query "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "name"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " verwijderd."
+    }
+  ],
+  "ui-ldp.saved-queries.delete.updatedBy": [
+    {
+      "type": 0,
+      "value": "Laatst bijgewerkt door "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "updater"
+        }
+      ],
+      "type": 8,
+      "value": "code"
+    },
+    {
+      "type": 0,
+      "value": ", "
+    },
+    {
+      "type": 1,
+      "value": "updated"
+    }
+  ],
+  "ui-ldp.saved-queries.displayName": [
+    {
+      "type": 0,
+      "value": "Naam weergeven"
+    }
+  ],
+  "ui-ldp.saved-queries.updated": [
+    {
+      "type": 0,
+      "value": "Datum laatst bijgewerkt"
+    }
+  ],
+  "ui-ldp.saved-queries.updater": [
+    {
+      "type": 0,
+      "value": "Laatst bijgewerkt door"
+    }
+  ],
+  "ui-ldp.settings.dbinfo": [
+    {
+      "type": 0,
+      "value": "Databaseconfiguratie"
+    }
+  ],
+  "ui-ldp.settings.dbinfo.pass": [
+    {
+      "type": 0,
+      "value": "Wachtwoord (alleen schrijven)"
+    }
+  ],
+  "ui-ldp.settings.dbinfo.update.ok": [
+    {
+      "type": 0,
+      "value": "Databaseconfiguratie bijwerken"
+    }
+  ],
+  "ui-ldp.settings.dbinfo.url": [
+    {
+      "type": 0,
+      "value": "Database-URL"
+    }
+  ],
+  "ui-ldp.settings.dbinfo.user": [
+    {
+      "type": 0,
+      "value": "Gebruikersnaam"
+    }
+  ],
+  "ui-ldp.settings.record-limits": [
+    {
+      "type": 0,
+      "value": "Limieten voor records"
+    }
+  ],
+  "ui-ldp.settings.record-limits.default-show": [
+    {
+      "type": 0,
+      "value": "Standaard aantal om te tonen"
+    }
+  ],
+  "ui-ldp.settings.record-limits.max-export": [
+    {
+      "type": 0,
+      "value": "Maximum aantal om te exporteren"
+    }
+  ],
+  "ui-ldp.settings.record-limits.max-show": [
+    {
+      "type": 0,
+      "value": "Maximum aantal om te tonen"
+    }
+  ],
+  "ui-ldp.settings.sqconfig": [
+    {
+      "type": 0,
+      "value": "Configuratie opgeslagen queries"
+    }
+  ],
+  "ui-ldp.settings.sqconfig.branch": [
+    {
+      "type": 0,
+      "value": "Branch"
+    }
+  ],
+  "ui-ldp.settings.sqconfig.owner": [
+    {
+      "type": 0,
+      "value": "Eigenaar GitHub-repository"
+    }
+  ],
+  "ui-ldp.settings.sqconfig.repo": [
+    {
+      "type": 0,
+      "value": "Naam repository"
+    }
+  ],
+  "ui-ldp.settings.sqconfig.token": [
+    {
+      "type": 0,
+      "value": "OAuth token voor toegang tot repository (alleen schrijven)"
+    }
+  ],
+  "ui-ldp.settings.sqconfig.update.ok": [
+    {
+      "type": 0,
+      "value": "Configuratie opgeslagen queries bijgewerkt"
+    }
+  ],
+  "ui-ldp.settings.table-availability": [
+    {
+      "type": 0,
+      "value": "Tabel beschikbaarheid"
+    }
+  ],
+  "ui-ldp.settings.table-availability.check-to-disable": [
+    {
+      "type": 0,
+      "value": "Controleer de tabellen die uitgeschakeld moeten worden voor opvragen"
+    }
+  ],
+  "ui-ldp.settings.table-availability.schema": [
+    {
+      "type": 0,
+      "value": "Schema "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "name"
+        }
+      ],
+      "type": 8,
+      "value": "code"
+    }
+  ],
+  "ui-ldp.settings.tqrepos": [
+    {
+      "type": 0,
+      "value": "Rapportrepositories"
+    }
+  ],
+  "ui-ldp.settings.tqrepos.branch": [
+    {
+      "type": 0,
+      "value": "Branch van de opgegeven repository"
+    }
+  ],
+  "ui-ldp.settings.tqrepos.directory": [
+    {
+      "type": 0,
+      "value": "Directory binnen repository"
+    }
+  ],
+  "ui-ldp.settings.tqrepos.repo": [
+    {
+      "type": 0,
+      "value": "De naam van het repository binnen het gebied van de gebruiker"
+    }
+  ],
+  "ui-ldp.settings.tqrepos.type": [
+    {
+      "type": 0,
+      "value": "Soort"
+    }
+  ],
+  "ui-ldp.settings.tqrepos.user": [
+    {
+      "type": 0,
+      "value": "GitHub-gebruiker"
+    }
+  ],
+  "ui-ldp.something-went-wrong": [
+    {
+      "type": 0,
+      "value": "Er ging iets mis."
+    }
+  ],
+  "ui-ldp.templated-queries.column.displayName": [
+    {
+      "type": 0,
+      "value": "Weergavenaam"
+    }
+  ],
+  "ui-ldp.templated-queries.column.filename": [
+    {
+      "type": 0,
+      "value": "Bestandsnaam"
+    }
+  ],
+  "ui-ldp.templated-queries.column.repo": [
+    {
+      "type": 0,
+      "value": "GitHub-repository"
+    }
+  ],
+  "ui-ldp.templated-queries.instructions": [
+    {
+      "type": 0,
+      "value": "Instructies"
+    }
+  ],
+  "ui-ldp.templated-queries.no-json": [
+    {
+      "type": 0,
+      "value": "Dit rapport heeft geen bijbehorende JSON-metadata, dus het is niet mogelijk om een formulier te presenteren voor het invullen van de parameters."
+    }
+  ],
+  "ui-ldp.templated-queries.select": [
+    {
+      "type": 0,
+      "value": "Rapport selecteren"
+    }
+  ],
+  "ui-ldp.templated-queries.source": [
+    {
+      "type": 0,
+      "value": "Bron"
+    }
+  ],
+  "ui-ldp.templated-queries.source.json": [
+    {
+      "type": 0,
+      "value": "JSON-metadata"
+    }
+  ],
+  "ui-ldp.templated-queries.source.sql": [
+    {
+      "type": 0,
+      "value": "SQL-query"
+    }
+  ],
   "ui-licenses.AND": [
     {
       "type": 0,
@@ -114817,6 +115759,12 @@
       "value": "Categorie"
     }
   ],
+  "ui-serials-management.ruleset.addChronologyLabel": [
+    {
+      "type": 0,
+      "value": "Add chronology label"
+    }
+  ],
   "ui-serials-management.ruleset.addCombination": [
     {
       "type": 0,
@@ -114827,6 +115775,12 @@
     {
       "type": 0,
       "value": "Combinatieregels kunnen niet worden toegevoegd omdat er een weglatingsregel bestaat"
+    }
+  ],
+  "ui-serials-management.ruleset.addEnumerationLabel": [
+    {
+      "type": 0,
+      "value": "Add enumeration label"
     }
   ],
   "ui-serials-management.ruleset.addLabel": [
@@ -114941,6 +115895,16 @@
     {
       "type": 0,
       "value": "Format chronologie"
+    }
+  ],
+  "ui-serials-management.ruleset.chronologyLabelIndex": [
+    {
+      "type": 0,
+      "value": "Chronology label "
+    },
+    {
+      "type": 1,
+      "value": "index"
     }
   ],
   "ui-serials-management.ruleset.chronologyLabels": [
@@ -115161,6 +116125,16 @@
       "value": "Format opsomming"
     }
   ],
+  "ui-serials-management.ruleset.enumerationLabelIndex": [
+    {
+      "type": 0,
+      "value": "Enumeration label "
+    },
+    {
+      "type": 1,
+      "value": "index"
+    }
+  ],
   "ui-serials-management.ruleset.enumerationLabels": [
     {
       "type": 0,
@@ -115367,10 +116341,22 @@
       "value": "Maand(en)"
     }
   ],
+  "ui-serials-management.ruleset.noChronologyLabels": [
+    {
+      "type": 0,
+      "value": "No chronology labels for this publication pattern"
+    }
+  ],
   "ui-serials-management.ruleset.noCombinationRules": [
     {
       "type": 0,
       "value": "Geen combinatieregels voor dit publicatiepatroon"
+    }
+  ],
+  "ui-serials-management.ruleset.noEnumerationLabels": [
+    {
+      "type": 0,
+      "value": "No enumeration labels for this publication pattern"
     }
   ],
   "ui-serials-management.ruleset.noLabels": [
@@ -115557,6 +116543,16 @@
       "value": "Publicatiecyclus"
     }
   ],
+  "ui-serials-management.ruleset.removeChronologyLabelIndex": [
+    {
+      "type": 0,
+      "value": "Remove chronology label "
+    },
+    {
+      "type": 1,
+      "value": "index"
+    }
+  ],
   "ui-serials-management.ruleset.removeCombinationRule": [
     {
       "type": 0,
@@ -115569,6 +116565,16 @@
     {
       "type": 0,
       "value": " verwijderen"
+    }
+  ],
+  "ui-serials-management.ruleset.removeEnumerationLabelIndex": [
+    {
+      "type": 0,
+      "value": "Remove enumeration label "
+    },
+    {
+      "type": 1,
+      "value": "index"
     }
   ],
   "ui-serials-management.ruleset.removeLabel": [

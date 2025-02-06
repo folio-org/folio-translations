@@ -25050,6 +25050,32 @@
       "value": "All instances have source FOLIO. Use “Instances and  Administrative data” option for bulk edit."
     }
   ],
+  "ui-bulk-edit.previewModal.message.empty.notSupported": [
+    {
+      "type": 0,
+      "value": "No instances can be updated because none have source MARC."
+    }
+  ],
+  "ui-bulk-edit.previewModal.message.empty.partlySupported": [
+    {
+      "style": null,
+      "type": 2,
+      "value": "numberOfSupportedEntities"
+    },
+    {
+      "type": 0,
+      "value": " records will be changed when the Commit changes button is clicked. You may choose Download preview to review all changes prior to saving. "
+    },
+    {
+      "style": null,
+      "type": 2,
+      "value": "numberOfUnsupportedEntities"
+    },
+    {
+      "type": 0,
+      "value": " instances have source that is not supported by MARC records bulk edit and cannot be updated."
+    }
+  ],
   "ui-bulk-edit.previewModal.previewToBeChanged": [
     {
       "type": 0,
@@ -62973,6 +62999,12 @@
       "value": "Organizace"
     }
   ],
+  "ui-finance.actions.allocations.batch": [
+    {
+      "type": 0,
+      "value": "Batch allocations"
+    }
+  ],
   "ui-finance.actions.downloadAllocationWorksheet": [
     {
       "type": 0,
@@ -63013,6 +63045,36 @@
     {
       "type": 0,
       "value": "Logy převedení"
+    }
+  ],
+  "ui-finance.allocation.batch.form.footer.recalculate": [
+    {
+      "type": 0,
+      "value": "Recalculate"
+    }
+  ],
+  "ui-finance.allocation.batch.form.title.edit": [
+    {
+      "type": 0,
+      "value": "Batch edit budgets"
+    }
+  ],
+  "ui-finance.allocation.batch.status.active": [
+    {
+      "type": 0,
+      "value": "Active"
+    }
+  ],
+  "ui-finance.allocation.batch.status.frozen": [
+    {
+      "type": 0,
+      "value": "Frozen"
+    }
+  ],
+  "ui-finance.allocation.batch.status.inactive": [
+    {
+      "type": 0,
+      "value": "Inactive"
     }
   ],
   "ui-finance.allocation.worksheet.download.error": [
@@ -66062,6 +66124,72 @@
     {
       "type": 0,
       "value": "Tuto transakci nelze provést mezi těmito dvěma prostředky, protože nastavení \"povolit převod do nebo z\" Prostředku na jednom nebo více prostředcích je příliš omezující."
+    }
+  ],
+  "ui-finance.transaction.allocation.batch.columns.allocationIncreaseDecrease": [
+    {
+      "type": 0,
+      "value": "Allocation increase/decrease"
+    }
+  ],
+  "ui-finance.transaction.allocation.batch.columns.budgetAllowableEncumbrance": [
+    {
+      "type": 0,
+      "value": "Allowable encumbrance %"
+    }
+  ],
+  "ui-finance.transaction.allocation.batch.columns.budgetAllowableExpenditure": [
+    {
+      "type": 0,
+      "value": "Allowable expenditure %"
+    }
+  ],
+  "ui-finance.transaction.allocation.batch.columns.budgetInitialAllocation": [
+    {
+      "type": 0,
+      "value": "Total allocated (before)"
+    }
+  ],
+  "ui-finance.transaction.allocation.batch.columns.budgetName": [
+    {
+      "type": 0,
+      "value": "Budget Name"
+    }
+  ],
+  "ui-finance.transaction.allocation.batch.columns.budgetStatus": [
+    {
+      "type": 0,
+      "value": "Budget status"
+    }
+  ],
+  "ui-finance.transaction.allocation.batch.columns.fundName": [
+    {
+      "type": 0,
+      "value": "Fund name"
+    }
+  ],
+  "ui-finance.transaction.allocation.batch.columns.fundStatus": [
+    {
+      "type": 0,
+      "value": "Fund status"
+    }
+  ],
+  "ui-finance.transaction.allocation.batch.columns.fundTags": [
+    {
+      "type": 0,
+      "value": "Transaction tags"
+    }
+  ],
+  "ui-finance.transaction.allocation.batch.columns.totalAllocatedAfter": [
+    {
+      "type": 0,
+      "value": "Total allocated (after)"
+    }
+  ],
+  "ui-finance.transaction.allocation.batch.columns.transactionDescription": [
+    {
+      "type": 0,
+      "value": "Transaction description"
     }
   ],
   "ui-finance.transaction.allocation.budgetNotFoundForTransaction": [
@@ -82260,135 +82388,957 @@
       "value": "Informace o poukazu"
     }
   ],
-  "ui-ldp.SENTINEL": "Prázdné",
-  "ui-ldp.button.add-filter": "Přidat filtr",
-  "ui-ldp.button.add-join-table": "Přidat tabulku spojení",
-  "ui-ldp.button.add-ordering-criterion": "Přidat objednací kritérium",
-  "ui-ldp.button.cancel": "Zrušit",
-  "ui-ldp.button.clear": "Vymazat",
-  "ui-ldp.button.copy-query": "Kopírovat dotaz",
-  "ui-ldp.button.csv": "CSV",
-  "ui-ldp.button.download-csv": "Stáhnout jako CSV",
-  "ui-ldp.button.new-query": "Nový dotaz",
-  "ui-ldp.button.save": "Uložit",
-  "ui-ldp.button.save-query": "Uložit dotaz",
-  "ui-ldp.button.submit": "Odeslat",
-  "ui-ldp.copy-of": "Kopie {string}",
-  "ui-ldp.dbinfo.logs.error_severity": "Severity",
-  "ui-ldp.dbinfo.logs.log_time": "Timestamp",
-  "ui-ldp.dbinfo.logs.message": "Message",
-  "ui-ldp.dbinfo.nav.logs": "Logs",
-  "ui-ldp.dbinfo.nav.processes": "Long-running processes",
-  "ui-ldp.dbinfo.nav.updates": "Last updates of tables",
-  "ui-ldp.dbinfo.processes.databaseName": "Database",
-  "ui-ldp.dbinfo.processes.query": "Query",
-  "ui-ldp.dbinfo.processes.realTime": "Real time",
-  "ui-ldp.dbinfo.processes.state": "Status",
-  "ui-ldp.dbinfo.processes.userName": "User",
-  "ui-ldp.dbinfo.updates.elapsedRealTime": "Elapsed",
-  "ui-ldp.dbinfo.updates.lastUpdate": "Last updated",
-  "ui-ldp.dbinfo.updates.tableName": "Table",
-  "ui-ldp.dbinfo.updates.tableSchema": "Schema",
-  "ui-ldp.dbinfo.version": "Metadb version {version}",
-  "ui-ldp.desc.copy-query": "Tím se aktuální dotaz zkopíruje do nového, který lze upravovat, spouštět a ukládat.",
-  "ui-ldp.desc.new-query": "Tím vymažete aktuální dotaz a vytvoří se nový.",
-  "ui-ldp.devinfo": "Informace pro vývojáře",
-  "ui-ldp.direction": "Směr seřazení",
-  "ui-ldp.direction.asc": "Vzestupně",
-  "ui-ldp.direction.desc": "Sestupně",
-  "ui-ldp.error.fetch-reject": "dotáhnutí() odmítnuto (nikdy se nestane): {error}",
-  "ui-ldp.error.http": "Chyba HTTP {status} ({text}) -- {detail}",
-  "ui-ldp.error.load-columns": "Nelze načíst sloupce: {error}.",
-  "ui-ldp.error.load-config": "Nelze načíst konfiguraci: {error}",
-  "ui-ldp.error.load-queries": "Nelze načíst uložené dotazy: {error}",
-  "ui-ldp.error.load-report": "Výstup nelze spustit: {error}",
-  "ui-ldp.error.load-results": "Nelze načíst výsledky: {error}",
-  "ui-ldp.error.load-tables": "Nelze načíst tabulky: {error}",
-  "ui-ldp.error.load-version": "Could not load Metadb version: {error}",
-  "ui-ldp.error.no-such-query": "Žádný takový výstup: {qname}",
-  "ui-ldp.found-more-than": "Nalezeno více než {count} záznamů",
-  "ui-ldp.found-records": "Nalezeno {count} záznamů",
-  "ui-ldp.heading.current-settings": "Aktuální nastavení",
-  "ui-ldp.label.end-date": "Datum ukončení",
-  "ui-ldp.label.filter-by-column": "Filtrovat podle sloupce",
-  "ui-ldp.label.limit-results": "Omezení počtu výsledků",
-  "ui-ldp.label.order-by-column": "Seřadit podle sloupce",
-  "ui-ldp.label.schema": "Schéma",
-  "ui-ldp.label.show-columns": "Zobrazit sloupce",
-  "ui-ldp.label.start-date": "Datum zahájení",
-  "ui-ldp.label.table": "Tabulka",
-  "ui-ldp.meta.title": "Sestavování výstupu",
-  "ui-ldp.more-records": "... Další záznamy ...",
-  "ui-ldp.nav": "Navigace",
-  "ui-ldp.nav.info": "Database info",
-  "ui-ldp.nav.logs": "Logy",
-  "ui-ldp.nav.playground": "Hřiště",
-  "ui-ldp.nav.query-builder": "Sestavit dotaz",
-  "ui-ldp.nav.saved-queries": "Načíst dotaz",
-  "ui-ldp.nav.templated-queries": "Spustit výstup",
-  "ui-ldp.nulls": "Seřadit nuly",
-  "ui-ldp.nulls.end": "Nuly na konci",
-  "ui-ldp.nulls.start": "Nuly na začátku",
-  "ui-ldp.permission.settings.dbinfo": "Nastavení (Výstupy): Může upravit podrobnosti připojení k databázi výstupů",
-  "ui-ldp.permission.settings.record-limits": "Nastavení (Výstupy): Může upravit výchozí limity záznamů",
-  "ui-ldp.permission.settings.sqconfig": "Nastavení (Výstupy): Může upravit podrobnosti konfigurace uloženého dotazu",
-  "ui-ldp.permission.settings.table-availability": "Nastavení (Výstupy): Může vybrat, které tabulky jsou k dispozici pro vyhledávání",
-  "ui-ldp.placeholder.column": "(Sloupec)",
-  "ui-ldp.placeholder.columns.all": "(Všechny)",
-  "ui-ldp.placeholder.hidden": "[Skryté]",
-  "ui-ldp.placeholder.value": "(Hodnota)",
-  "ui-ldp.refresh": "Obnovit",
-  "ui-ldp.save-query": "Uložit dotaz",
-  "ui-ldp.save-query.update.fail": "Nelze uložit dotaz {displayName}: chyba {code} ({statusText}): {detail}",
-  "ui-ldp.save-query.update.notFound": "Načtený dotaz byl smazán. Vytvořte kopii a uložte ji.",
-  "ui-ldp.save-query.update.ok": "Uložený dotaz {displayName}",
-  "ui-ldp.saved-queries.autoRun": "Spuštěno automaticky?",
-  "ui-ldp.saved-queries.comment": "Komentář",
-  "ui-ldp.saved-queries.created": "Datum vytvoření",
-  "ui-ldp.saved-queries.creator": "Tvůrce",
-  "ui-ldp.saved-queries.delete.confirm": "Potvrdit",
-  "ui-ldp.saved-queries.delete.createdBy": "Vytvořil <code>{creator}</code>, {created}",
-  "ui-ldp.saved-queries.delete.deleteQuery": "Smazat dotaz?",
-  "ui-ldp.saved-queries.delete.deleted": "Smazaný dotaz <b>{name}</b>.",
-  "ui-ldp.saved-queries.delete.updatedBy": "Naposledy aktualizoval <code>{updater}</code>, {updated}",
-  "ui-ldp.saved-queries.displayName": "Zobrazení názvu",
+  "ui-ldp.SENTINEL": [
+    {
+      "type": 0,
+      "value": "Prázdné"
+    }
+  ],
+  "ui-ldp.button.add-filter": [
+    {
+      "type": 0,
+      "value": "Přidat filtr"
+    }
+  ],
+  "ui-ldp.button.add-join-table": [
+    {
+      "type": 0,
+      "value": "Přidat tabulku spojení"
+    }
+  ],
+  "ui-ldp.button.add-ordering-criterion": [
+    {
+      "type": 0,
+      "value": "Přidat objednací kritérium"
+    }
+  ],
+  "ui-ldp.button.cancel": [
+    {
+      "type": 0,
+      "value": "Zrušit"
+    }
+  ],
+  "ui-ldp.button.clear": [
+    {
+      "type": 0,
+      "value": "Vymazat"
+    }
+  ],
+  "ui-ldp.button.copy-query": [
+    {
+      "type": 0,
+      "value": "Kopírovat dotaz"
+    }
+  ],
+  "ui-ldp.button.csv": [
+    {
+      "type": 0,
+      "value": "CSV"
+    }
+  ],
+  "ui-ldp.button.download-csv": [
+    {
+      "type": 0,
+      "value": "Stáhnout jako CSV"
+    }
+  ],
+  "ui-ldp.button.new-query": [
+    {
+      "type": 0,
+      "value": "Nový dotaz"
+    }
+  ],
+  "ui-ldp.button.save": [
+    {
+      "type": 0,
+      "value": "Uložit"
+    }
+  ],
+  "ui-ldp.button.save-query": [
+    {
+      "type": 0,
+      "value": "Uložit dotaz"
+    }
+  ],
+  "ui-ldp.button.submit": [
+    {
+      "type": 0,
+      "value": "Odeslat"
+    }
+  ],
+  "ui-ldp.copy-of": [
+    {
+      "type": 0,
+      "value": "Kopie "
+    },
+    {
+      "type": 1,
+      "value": "string"
+    }
+  ],
+  "ui-ldp.dbinfo.logs.error_severity": [
+    {
+      "type": 0,
+      "value": "Severity"
+    }
+  ],
+  "ui-ldp.dbinfo.logs.log_time": [
+    {
+      "type": 0,
+      "value": "Timestamp"
+    }
+  ],
+  "ui-ldp.dbinfo.logs.message": [
+    {
+      "type": 0,
+      "value": "Message"
+    }
+  ],
+  "ui-ldp.dbinfo.nav.logs": [
+    {
+      "type": 0,
+      "value": "Logs"
+    }
+  ],
+  "ui-ldp.dbinfo.nav.processes": [
+    {
+      "type": 0,
+      "value": "Long-running processes"
+    }
+  ],
+  "ui-ldp.dbinfo.nav.updates": [
+    {
+      "type": 0,
+      "value": "Last updates of tables"
+    }
+  ],
+  "ui-ldp.dbinfo.processes.databaseName": [
+    {
+      "type": 0,
+      "value": "Database"
+    }
+  ],
+  "ui-ldp.dbinfo.processes.empty": [
+    {
+      "type": 0,
+      "value": "There are currently no long-running processes"
+    }
+  ],
+  "ui-ldp.dbinfo.processes.query": [
+    {
+      "type": 0,
+      "value": "Query"
+    }
+  ],
+  "ui-ldp.dbinfo.processes.realTime": [
+    {
+      "type": 0,
+      "value": "Real time"
+    }
+  ],
+  "ui-ldp.dbinfo.processes.state": [
+    {
+      "type": 0,
+      "value": "Status"
+    }
+  ],
+  "ui-ldp.dbinfo.processes.userName": [
+    {
+      "type": 0,
+      "value": "User"
+    }
+  ],
+  "ui-ldp.dbinfo.updates.elapsedRealTime": [
+    {
+      "type": 0,
+      "value": "Elapsed"
+    }
+  ],
+  "ui-ldp.dbinfo.updates.lastUpdate": [
+    {
+      "type": 0,
+      "value": "Last updated"
+    }
+  ],
+  "ui-ldp.dbinfo.updates.tableName": [
+    {
+      "type": 0,
+      "value": "Table"
+    }
+  ],
+  "ui-ldp.dbinfo.updates.tableSchema": [
+    {
+      "type": 0,
+      "value": "Schema"
+    }
+  ],
+  "ui-ldp.dbinfo.version": [
+    {
+      "type": 0,
+      "value": "Metadb version "
+    },
+    {
+      "type": 1,
+      "value": "version"
+    }
+  ],
+  "ui-ldp.desc.copy-query": [
+    {
+      "type": 0,
+      "value": "Tím se aktuální dotaz zkopíruje do nového, který lze upravovat, spouštět a ukládat."
+    }
+  ],
+  "ui-ldp.desc.new-query": [
+    {
+      "type": 0,
+      "value": "Tím vymažete aktuální dotaz a vytvoří se nový."
+    }
+  ],
+  "ui-ldp.devinfo": [
+    {
+      "type": 0,
+      "value": "Informace pro vývojáře"
+    }
+  ],
+  "ui-ldp.direction": [
+    {
+      "type": 0,
+      "value": "Směr seřazení"
+    }
+  ],
+  "ui-ldp.direction.asc": [
+    {
+      "type": 0,
+      "value": "Vzestupně"
+    }
+  ],
+  "ui-ldp.direction.desc": [
+    {
+      "type": 0,
+      "value": "Sestupně"
+    }
+  ],
+  "ui-ldp.error.fetch-reject": [
+    {
+      "type": 0,
+      "value": "dotáhnutí() odmítnuto (nikdy se nestane): "
+    },
+    {
+      "type": 1,
+      "value": "error"
+    }
+  ],
+  "ui-ldp.error.http": [
+    {
+      "type": 0,
+      "value": "Chyba HTTP "
+    },
+    {
+      "type": 1,
+      "value": "status"
+    },
+    {
+      "type": 0,
+      "value": " ("
+    },
+    {
+      "type": 1,
+      "value": "text"
+    },
+    {
+      "type": 0,
+      "value": ") -- "
+    },
+    {
+      "type": 1,
+      "value": "detail"
+    }
+  ],
+  "ui-ldp.error.load-columns": [
+    {
+      "type": 0,
+      "value": "Nelze načíst sloupce: "
+    },
+    {
+      "type": 1,
+      "value": "error"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "ui-ldp.error.load-config": [
+    {
+      "type": 0,
+      "value": "Nelze načíst konfiguraci: "
+    },
+    {
+      "type": 1,
+      "value": "error"
+    }
+  ],
+  "ui-ldp.error.load-queries": [
+    {
+      "type": 0,
+      "value": "Nelze načíst uložené dotazy: "
+    },
+    {
+      "type": 1,
+      "value": "error"
+    }
+  ],
+  "ui-ldp.error.load-report": [
+    {
+      "type": 0,
+      "value": "Výstup nelze spustit: "
+    },
+    {
+      "type": 1,
+      "value": "error"
+    }
+  ],
+  "ui-ldp.error.load-results": [
+    {
+      "type": 0,
+      "value": "Nelze načíst výsledky: "
+    },
+    {
+      "type": 1,
+      "value": "error"
+    }
+  ],
+  "ui-ldp.error.load-tables": [
+    {
+      "type": 0,
+      "value": "Nelze načíst tabulky: "
+    },
+    {
+      "type": 1,
+      "value": "error"
+    }
+  ],
+  "ui-ldp.error.load-version": [
+    {
+      "type": 0,
+      "value": "Could not load Metadb version: "
+    },
+    {
+      "type": 1,
+      "value": "error"
+    }
+  ],
+  "ui-ldp.error.no-such-query": [
+    {
+      "type": 0,
+      "value": "Žádný takový výstup: "
+    },
+    {
+      "type": 1,
+      "value": "qname"
+    }
+  ],
+  "ui-ldp.found-more-than": [
+    {
+      "type": 0,
+      "value": "Nalezeno více než "
+    },
+    {
+      "type": 1,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": " záznamů"
+    }
+  ],
+  "ui-ldp.found-records": [
+    {
+      "type": 0,
+      "value": "Nalezeno "
+    },
+    {
+      "type": 1,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": " záznamů"
+    }
+  ],
+  "ui-ldp.heading.current-settings": [
+    {
+      "type": 0,
+      "value": "Aktuální nastavení"
+    }
+  ],
+  "ui-ldp.label.end-date": [
+    {
+      "type": 0,
+      "value": "Datum ukončení"
+    }
+  ],
+  "ui-ldp.label.filter-by-column": [
+    {
+      "type": 0,
+      "value": "Filtrovat podle sloupce"
+    }
+  ],
+  "ui-ldp.label.limit-results": [
+    {
+      "type": 0,
+      "value": "Omezení počtu výsledků"
+    }
+  ],
+  "ui-ldp.label.order-by-column": [
+    {
+      "type": 0,
+      "value": "Seřadit podle sloupce"
+    }
+  ],
+  "ui-ldp.label.schema": [
+    {
+      "type": 0,
+      "value": "Schéma"
+    }
+  ],
+  "ui-ldp.label.show-columns": [
+    {
+      "type": 0,
+      "value": "Zobrazit sloupce"
+    }
+  ],
+  "ui-ldp.label.start-date": [
+    {
+      "type": 0,
+      "value": "Datum zahájení"
+    }
+  ],
+  "ui-ldp.label.table": [
+    {
+      "type": 0,
+      "value": "Tabulka"
+    }
+  ],
+  "ui-ldp.meta.title": [
+    {
+      "type": 0,
+      "value": "Sestavování výstupu"
+    }
+  ],
+  "ui-ldp.more-records": [
+    {
+      "type": 0,
+      "value": "... Další záznamy ..."
+    }
+  ],
+  "ui-ldp.nav": [
+    {
+      "type": 0,
+      "value": "Navigace"
+    }
+  ],
+  "ui-ldp.nav.info": [
+    {
+      "type": 0,
+      "value": "Database info"
+    }
+  ],
+  "ui-ldp.nav.logs": [
+    {
+      "type": 0,
+      "value": "Logy"
+    }
+  ],
+  "ui-ldp.nav.playground": [
+    {
+      "type": 0,
+      "value": "Hřiště"
+    }
+  ],
+  "ui-ldp.nav.query-builder": [
+    {
+      "type": 0,
+      "value": "Sestavit dotaz"
+    }
+  ],
+  "ui-ldp.nav.saved-queries": [
+    {
+      "type": 0,
+      "value": "Načíst dotaz"
+    }
+  ],
+  "ui-ldp.nav.templated-queries": [
+    {
+      "type": 0,
+      "value": "Spustit výstup"
+    }
+  ],
+  "ui-ldp.nulls": [
+    {
+      "type": 0,
+      "value": "Seřadit nuly"
+    }
+  ],
+  "ui-ldp.nulls.end": [
+    {
+      "type": 0,
+      "value": "Nuly na konci"
+    }
+  ],
+  "ui-ldp.nulls.start": [
+    {
+      "type": 0,
+      "value": "Nuly na začátku"
+    }
+  ],
+  "ui-ldp.permission.settings.dbinfo": [
+    {
+      "type": 0,
+      "value": "Nastavení (Výstupy): Může upravit podrobnosti připojení k databázi výstupů"
+    }
+  ],
+  "ui-ldp.permission.settings.record-limits": [
+    {
+      "type": 0,
+      "value": "Nastavení (Výstupy): Může upravit výchozí limity záznamů"
+    }
+  ],
+  "ui-ldp.permission.settings.sqconfig": [
+    {
+      "type": 0,
+      "value": "Nastavení (Výstupy): Může upravit podrobnosti konfigurace uloženého dotazu"
+    }
+  ],
+  "ui-ldp.permission.settings.table-availability": [
+    {
+      "type": 0,
+      "value": "Nastavení (Výstupy): Může vybrat, které tabulky jsou k dispozici pro vyhledávání"
+    }
+  ],
+  "ui-ldp.placeholder.column": [
+    {
+      "type": 0,
+      "value": "(Sloupec)"
+    }
+  ],
+  "ui-ldp.placeholder.columns.all": [
+    {
+      "type": 0,
+      "value": "(Všechny)"
+    }
+  ],
+  "ui-ldp.placeholder.hidden": [
+    {
+      "type": 0,
+      "value": "[Skryté]"
+    }
+  ],
+  "ui-ldp.placeholder.value": [
+    {
+      "type": 0,
+      "value": "(Hodnota)"
+    }
+  ],
+  "ui-ldp.refresh": [
+    {
+      "type": 0,
+      "value": "Obnovit"
+    }
+  ],
+  "ui-ldp.save-query": [
+    {
+      "type": 0,
+      "value": "Uložit dotaz"
+    }
+  ],
+  "ui-ldp.save-query.update.fail": [
+    {
+      "type": 0,
+      "value": "Nelze uložit dotaz "
+    },
+    {
+      "type": 1,
+      "value": "displayName"
+    },
+    {
+      "type": 0,
+      "value": ": chyba "
+    },
+    {
+      "type": 1,
+      "value": "code"
+    },
+    {
+      "type": 0,
+      "value": " ("
+    },
+    {
+      "type": 1,
+      "value": "statusText"
+    },
+    {
+      "type": 0,
+      "value": "): "
+    },
+    {
+      "type": 1,
+      "value": "detail"
+    }
+  ],
+  "ui-ldp.save-query.update.notFound": [
+    {
+      "type": 0,
+      "value": "Načtený dotaz byl smazán. Vytvořte kopii a uložte ji."
+    }
+  ],
+  "ui-ldp.save-query.update.ok": [
+    {
+      "type": 0,
+      "value": "Uložený dotaz "
+    },
+    {
+      "type": 1,
+      "value": "displayName"
+    }
+  ],
+  "ui-ldp.saved-queries.autoRun": [
+    {
+      "type": 0,
+      "value": "Spuštěno automaticky?"
+    }
+  ],
+  "ui-ldp.saved-queries.comment": [
+    {
+      "type": 0,
+      "value": "Komentář"
+    }
+  ],
+  "ui-ldp.saved-queries.created": [
+    {
+      "type": 0,
+      "value": "Datum vytvoření"
+    }
+  ],
+  "ui-ldp.saved-queries.creator": [
+    {
+      "type": 0,
+      "value": "Tvůrce"
+    }
+  ],
+  "ui-ldp.saved-queries.delete.confirm": [
+    {
+      "type": 0,
+      "value": "Potvrdit"
+    }
+  ],
+  "ui-ldp.saved-queries.delete.createdBy": [
+    {
+      "type": 0,
+      "value": "Vytvořil "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "creator"
+        }
+      ],
+      "type": 8,
+      "value": "code"
+    },
+    {
+      "type": 0,
+      "value": ", "
+    },
+    {
+      "type": 1,
+      "value": "created"
+    }
+  ],
+  "ui-ldp.saved-queries.delete.deleteQuery": [
+    {
+      "type": 0,
+      "value": "Smazat dotaz?"
+    }
+  ],
+  "ui-ldp.saved-queries.delete.deleted": [
+    {
+      "type": 0,
+      "value": "Smazaný dotaz "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "name"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "ui-ldp.saved-queries.delete.updatedBy": [
+    {
+      "type": 0,
+      "value": "Naposledy aktualizoval "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "updater"
+        }
+      ],
+      "type": 8,
+      "value": "code"
+    },
+    {
+      "type": 0,
+      "value": ", "
+    },
+    {
+      "type": 1,
+      "value": "updated"
+    }
+  ],
+  "ui-ldp.saved-queries.displayName": [
+    {
+      "type": 0,
+      "value": "Zobrazení názvu"
+    }
+  ],
   "ui-ldp.saved-queries.name": "Název souboru",
-  "ui-ldp.saved-queries.updated": "Datum poslední aktualizace",
-  "ui-ldp.saved-queries.updater": "Naposledy aktualizoval",
-  "ui-ldp.settings.dbinfo": "Konfigurace databáze",
-  "ui-ldp.settings.dbinfo.pass": "Heslo (pouze pro zápis)",
-  "ui-ldp.settings.dbinfo.update.ok": "Nastavení databáze bylo aktualizováno",
-  "ui-ldp.settings.dbinfo.url": "Adresa URL databáze",
-  "ui-ldp.settings.dbinfo.user": "Uživatelské jméno",
-  "ui-ldp.settings.record-limits": "Omezení záznamů",
-  "ui-ldp.settings.record-limits.default-show": "Výchozí číslo k zobrazení",
-  "ui-ldp.settings.record-limits.max-export": "Maximální počet k exportu",
-  "ui-ldp.settings.record-limits.max-show": "Maximální počet k zobrazení",
-  "ui-ldp.settings.sqconfig": "Konfigurace uložených dotazů",
-  "ui-ldp.settings.sqconfig.branch": "Pobočka",
-  "ui-ldp.settings.sqconfig.owner": "Vlastník úložiště Git",
-  "ui-ldp.settings.sqconfig.repo": "Název úložiště",
-  "ui-ldp.settings.sqconfig.token": "Token OAuth pro přístup k úložišti (pouze pro zápis)",
-  "ui-ldp.settings.sqconfig.update.ok": "Konfigurace uložených dotazů aktualizována",
-  "ui-ldp.settings.table-availability": "Dostupnost tabulky",
-  "ui-ldp.settings.table-availability.check-to-disable": "Zaškrtněte tabulky, které chcete zakázat pro dotazování.",
-  "ui-ldp.settings.table-availability.schema": "Schéma <code>{name}</code>",
-  "ui-ldp.settings.tqrepos": "Úložiště výstupů",
-  "ui-ldp.settings.tqrepos.branch": "Větev zadaného úložiště",
-  "ui-ldp.settings.tqrepos.directory": "Adresář v úložišti",
-  "ui-ldp.settings.tqrepos.repo": "Název úložiště v uživatelské oblasti",
-  "ui-ldp.settings.tqrepos.type": "Typ",
-  "ui-ldp.settings.tqrepos.user": "Uživatel webu Git",
-  "ui-ldp.something-went-wrong": "Něco se pokazilo.",
-  "ui-ldp.templated-queries.column.displayName": "Zobrazení názvu",
-  "ui-ldp.templated-queries.column.filename": "Název souboru",
-  "ui-ldp.templated-queries.column.repo": "Úložiště Git",
-  "ui-ldp.templated-queries.instructions": "Pokyny",
-  "ui-ldp.templated-queries.no-json": "Tento výstup nemá přidružená metadata JSON, takže není možné předložit formulář pro vyplnění jeho parametrů.",
-  "ui-ldp.templated-queries.select": "Vybrat výstup",
-  "ui-ldp.templated-queries.source": "Zdroj",
-  "ui-ldp.templated-queries.source.json": "Metadata JSON",
-  "ui-ldp.templated-queries.source.sql": "SQL dotaz",
+  "ui-ldp.saved-queries.updated": [
+    {
+      "type": 0,
+      "value": "Datum poslední aktualizace"
+    }
+  ],
+  "ui-ldp.saved-queries.updater": [
+    {
+      "type": 0,
+      "value": "Naposledy aktualizoval"
+    }
+  ],
+  "ui-ldp.settings.dbinfo": [
+    {
+      "type": 0,
+      "value": "Konfigurace databáze"
+    }
+  ],
+  "ui-ldp.settings.dbinfo.pass": [
+    {
+      "type": 0,
+      "value": "Heslo (pouze pro zápis)"
+    }
+  ],
+  "ui-ldp.settings.dbinfo.update.ok": [
+    {
+      "type": 0,
+      "value": "Nastavení databáze bylo aktualizováno"
+    }
+  ],
+  "ui-ldp.settings.dbinfo.url": [
+    {
+      "type": 0,
+      "value": "Adresa URL databáze"
+    }
+  ],
+  "ui-ldp.settings.dbinfo.user": [
+    {
+      "type": 0,
+      "value": "Uživatelské jméno"
+    }
+  ],
+  "ui-ldp.settings.record-limits": [
+    {
+      "type": 0,
+      "value": "Omezení záznamů"
+    }
+  ],
+  "ui-ldp.settings.record-limits.default-show": [
+    {
+      "type": 0,
+      "value": "Výchozí číslo k zobrazení"
+    }
+  ],
+  "ui-ldp.settings.record-limits.max-export": [
+    {
+      "type": 0,
+      "value": "Maximální počet k exportu"
+    }
+  ],
+  "ui-ldp.settings.record-limits.max-show": [
+    {
+      "type": 0,
+      "value": "Maximální počet k zobrazení"
+    }
+  ],
+  "ui-ldp.settings.sqconfig": [
+    {
+      "type": 0,
+      "value": "Konfigurace uložených dotazů"
+    }
+  ],
+  "ui-ldp.settings.sqconfig.branch": [
+    {
+      "type": 0,
+      "value": "Pobočka"
+    }
+  ],
+  "ui-ldp.settings.sqconfig.owner": [
+    {
+      "type": 0,
+      "value": "Vlastník úložiště Git"
+    }
+  ],
+  "ui-ldp.settings.sqconfig.repo": [
+    {
+      "type": 0,
+      "value": "Název úložiště"
+    }
+  ],
+  "ui-ldp.settings.sqconfig.token": [
+    {
+      "type": 0,
+      "value": "Token OAuth pro přístup k úložišti (pouze pro zápis)"
+    }
+  ],
+  "ui-ldp.settings.sqconfig.update.ok": [
+    {
+      "type": 0,
+      "value": "Konfigurace uložených dotazů aktualizována"
+    }
+  ],
+  "ui-ldp.settings.table-availability": [
+    {
+      "type": 0,
+      "value": "Dostupnost tabulky"
+    }
+  ],
+  "ui-ldp.settings.table-availability.check-to-disable": [
+    {
+      "type": 0,
+      "value": "Zaškrtněte tabulky, které chcete zakázat pro dotazování."
+    }
+  ],
+  "ui-ldp.settings.table-availability.schema": [
+    {
+      "type": 0,
+      "value": "Schéma "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "name"
+        }
+      ],
+      "type": 8,
+      "value": "code"
+    }
+  ],
+  "ui-ldp.settings.tqrepos": [
+    {
+      "type": 0,
+      "value": "Úložiště výstupů"
+    }
+  ],
+  "ui-ldp.settings.tqrepos.branch": [
+    {
+      "type": 0,
+      "value": "Větev zadaného úložiště"
+    }
+  ],
+  "ui-ldp.settings.tqrepos.directory": [
+    {
+      "type": 0,
+      "value": "Adresář v úložišti"
+    }
+  ],
+  "ui-ldp.settings.tqrepos.repo": [
+    {
+      "type": 0,
+      "value": "Název úložiště v uživatelské oblasti"
+    }
+  ],
+  "ui-ldp.settings.tqrepos.type": [
+    {
+      "type": 0,
+      "value": "Typ"
+    }
+  ],
+  "ui-ldp.settings.tqrepos.user": [
+    {
+      "type": 0,
+      "value": "Uživatel webu Git"
+    }
+  ],
+  "ui-ldp.something-went-wrong": [
+    {
+      "type": 0,
+      "value": "Něco se pokazilo."
+    }
+  ],
+  "ui-ldp.templated-queries.column.displayName": [
+    {
+      "type": 0,
+      "value": "Zobrazení názvu"
+    }
+  ],
+  "ui-ldp.templated-queries.column.filename": [
+    {
+      "type": 0,
+      "value": "Název souboru"
+    }
+  ],
+  "ui-ldp.templated-queries.column.repo": [
+    {
+      "type": 0,
+      "value": "Úložiště Git"
+    }
+  ],
+  "ui-ldp.templated-queries.instructions": [
+    {
+      "type": 0,
+      "value": "Pokyny"
+    }
+  ],
+  "ui-ldp.templated-queries.no-json": [
+    {
+      "type": 0,
+      "value": "Tento výstup nemá přidružená metadata JSON, takže není možné předložit formulář pro vyplnění jeho parametrů."
+    }
+  ],
+  "ui-ldp.templated-queries.select": [
+    {
+      "type": 0,
+      "value": "Vybrat výstup"
+    }
+  ],
+  "ui-ldp.templated-queries.source": [
+    {
+      "type": 0,
+      "value": "Zdroj"
+    }
+  ],
+  "ui-ldp.templated-queries.source.json": [
+    {
+      "type": 0,
+      "value": "Metadata JSON"
+    }
+  ],
+  "ui-ldp.templated-queries.source.sql": [
+    {
+      "type": 0,
+      "value": "SQL dotaz"
+    }
+  ],
   "ui-licenses.AND": [
     {
       "type": 0,
@@ -123239,6 +124189,12 @@
       "value": "Kategorie"
     }
   ],
+  "ui-serials-management.ruleset.addChronologyLabel": [
+    {
+      "type": 0,
+      "value": "Add chronology label"
+    }
+  ],
   "ui-serials-management.ruleset.addCombination": [
     {
       "type": 0,
@@ -123249,6 +124205,12 @@
     {
       "type": 0,
       "value": "Pravidla spojení nelze přidat, protože existuje pravidlo vynechání"
+    }
+  ],
+  "ui-serials-management.ruleset.addEnumerationLabel": [
+    {
+      "type": 0,
+      "value": "Add enumeration label"
     }
   ],
   "ui-serials-management.ruleset.addLabel": [
@@ -123363,6 +124325,16 @@
     {
       "type": 0,
       "value": "Formát chronologie"
+    }
+  ],
+  "ui-serials-management.ruleset.chronologyLabelIndex": [
+    {
+      "type": 0,
+      "value": "Chronology label "
+    },
+    {
+      "type": 1,
+      "value": "index"
     }
   ],
   "ui-serials-management.ruleset.chronologyLabels": [
@@ -123583,6 +124555,16 @@
       "value": "Formát výčtu"
     }
   ],
+  "ui-serials-management.ruleset.enumerationLabelIndex": [
+    {
+      "type": 0,
+      "value": "Enumeration label "
+    },
+    {
+      "type": 1,
+      "value": "index"
+    }
+  ],
   "ui-serials-management.ruleset.enumerationLabels": [
     {
       "type": 0,
@@ -123789,10 +124771,22 @@
       "value": "Měsíc(e)"
     }
   ],
+  "ui-serials-management.ruleset.noChronologyLabels": [
+    {
+      "type": 0,
+      "value": "No chronology labels for this publication pattern"
+    }
+  ],
   "ui-serials-management.ruleset.noCombinationRules": [
     {
       "type": 0,
       "value": "Pro tento vzor publikace neexistují žádná pravidla spojení"
+    }
+  ],
+  "ui-serials-management.ruleset.noEnumerationLabels": [
+    {
+      "type": 0,
+      "value": "No enumeration labels for this publication pattern"
     }
   ],
   "ui-serials-management.ruleset.noLabels": [
@@ -123971,10 +124965,30 @@
       "value": "Cyklus publikace"
     }
   ],
+  "ui-serials-management.ruleset.removeChronologyLabelIndex": [
+    {
+      "type": 0,
+      "value": "Remove chronology label "
+    },
+    {
+      "type": 1,
+      "value": "index"
+    }
+  ],
   "ui-serials-management.ruleset.removeCombinationRule": [
     {
       "type": 0,
       "value": "Odebrat pravidlo spojení "
+    },
+    {
+      "type": 1,
+      "value": "index"
+    }
+  ],
+  "ui-serials-management.ruleset.removeEnumerationLabelIndex": [
+    {
+      "type": 0,
+      "value": "Remove enumeration label "
     },
     {
       "type": 1,

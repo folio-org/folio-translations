@@ -25037,6 +25037,32 @@
       "value": "Todas as instâncias têm fonte FOLIO.  Use a opção \"Instâncias e dados administrativos\" para edição em massa."
     }
   ],
+  "ui-bulk-edit.previewModal.message.empty.notSupported": [
+    {
+      "type": 0,
+      "value": "No instances can be updated because none have source MARC."
+    }
+  ],
+  "ui-bulk-edit.previewModal.message.empty.partlySupported": [
+    {
+      "style": null,
+      "type": 2,
+      "value": "numberOfSupportedEntities"
+    },
+    {
+      "type": 0,
+      "value": " records will be changed when the Commit changes button is clicked. You may choose Download preview to review all changes prior to saving. "
+    },
+    {
+      "style": null,
+      "type": 2,
+      "value": "numberOfUnsupportedEntities"
+    },
+    {
+      "type": 0,
+      "value": " instances have source that is not supported by MARC records bulk edit and cannot be updated."
+    }
+  ],
   "ui-bulk-edit.previewModal.previewToBeChanged": [
     {
       "type": 0,
@@ -63336,6 +63362,12 @@
       "value": "Organizações"
     }
   ],
+  "ui-finance.actions.allocations.batch": [
+    {
+      "type": 0,
+      "value": "Batch allocations"
+    }
+  ],
   "ui-finance.actions.downloadAllocationWorksheet": [
     {
       "type": 0,
@@ -63376,6 +63408,36 @@
     {
       "type": 0,
       "value": "Registros de prorrogação"
+    }
+  ],
+  "ui-finance.allocation.batch.form.footer.recalculate": [
+    {
+      "type": 0,
+      "value": "Recalculate"
+    }
+  ],
+  "ui-finance.allocation.batch.form.title.edit": [
+    {
+      "type": 0,
+      "value": "Batch edit budgets"
+    }
+  ],
+  "ui-finance.allocation.batch.status.active": [
+    {
+      "type": 0,
+      "value": "Active"
+    }
+  ],
+  "ui-finance.allocation.batch.status.frozen": [
+    {
+      "type": 0,
+      "value": "Frozen"
+    }
+  ],
+  "ui-finance.allocation.batch.status.inactive": [
+    {
+      "type": 0,
+      "value": "Inactive"
     }
   ],
   "ui-finance.allocation.worksheet.download.error": [
@@ -66493,6 +66555,72 @@
     {
       "type": 0,
       "value": "Esta transação não pode ser feita entre esses dois fundos, pois a configuração \"permitir transferência de / para\" o fundo em um ou mais fundos é muito restritiva."
+    }
+  ],
+  "ui-finance.transaction.allocation.batch.columns.allocationIncreaseDecrease": [
+    {
+      "type": 0,
+      "value": "Allocation increase/decrease"
+    }
+  ],
+  "ui-finance.transaction.allocation.batch.columns.budgetAllowableEncumbrance": [
+    {
+      "type": 0,
+      "value": "Allowable encumbrance %"
+    }
+  ],
+  "ui-finance.transaction.allocation.batch.columns.budgetAllowableExpenditure": [
+    {
+      "type": 0,
+      "value": "Allowable expenditure %"
+    }
+  ],
+  "ui-finance.transaction.allocation.batch.columns.budgetInitialAllocation": [
+    {
+      "type": 0,
+      "value": "Total allocated (before)"
+    }
+  ],
+  "ui-finance.transaction.allocation.batch.columns.budgetName": [
+    {
+      "type": 0,
+      "value": "Budget Name"
+    }
+  ],
+  "ui-finance.transaction.allocation.batch.columns.budgetStatus": [
+    {
+      "type": 0,
+      "value": "Budget status"
+    }
+  ],
+  "ui-finance.transaction.allocation.batch.columns.fundName": [
+    {
+      "type": 0,
+      "value": "Fund name"
+    }
+  ],
+  "ui-finance.transaction.allocation.batch.columns.fundStatus": [
+    {
+      "type": 0,
+      "value": "Fund status"
+    }
+  ],
+  "ui-finance.transaction.allocation.batch.columns.fundTags": [
+    {
+      "type": 0,
+      "value": "Transaction tags"
+    }
+  ],
+  "ui-finance.transaction.allocation.batch.columns.totalAllocatedAfter": [
+    {
+      "type": 0,
+      "value": "Total allocated (after)"
+    }
+  ],
+  "ui-finance.transaction.allocation.batch.columns.transactionDescription": [
+    {
+      "type": 0,
+      "value": "Transaction description"
     }
   ],
   "ui-finance.transaction.allocation.budgetNotFoundForTransaction": [
@@ -82828,135 +82956,964 @@
       "value": "Informações sobre o comprovante"
     }
   ],
-  "ui-ldp.SENTINEL": "",
-  "ui-ldp.button.add-filter": "Adicionar filtro",
-  "ui-ldp.button.add-join-table": "Adicionar tabela de junção",
-  "ui-ldp.button.add-ordering-criterion": "Adicionar critério de pedido",
-  "ui-ldp.button.cancel": "Cancelar",
-  "ui-ldp.button.clear": "Limpar",
-  "ui-ldp.button.copy-query": "Copiar consulta",
-  "ui-ldp.button.csv": "CSV",
-  "ui-ldp.button.download-csv": "Baixar como CSV",
-  "ui-ldp.button.new-query": "Nova consulta",
-  "ui-ldp.button.save": "Salvar",
-  "ui-ldp.button.save-query": "Salvar consulta",
-  "ui-ldp.button.submit": "Enviar",
-  "ui-ldp.copy-of": "Cópia de {string}",
-  "ui-ldp.dbinfo.logs.error_severity": "Severity",
-  "ui-ldp.dbinfo.logs.log_time": "Timestamp",
-  "ui-ldp.dbinfo.logs.message": "Message",
-  "ui-ldp.dbinfo.nav.logs": "Logs",
-  "ui-ldp.dbinfo.nav.processes": "Long-running processes",
-  "ui-ldp.dbinfo.nav.updates": "Last updates of tables",
-  "ui-ldp.dbinfo.processes.databaseName": "Database",
-  "ui-ldp.dbinfo.processes.query": "Query",
-  "ui-ldp.dbinfo.processes.realTime": "Real time",
-  "ui-ldp.dbinfo.processes.state": "Status",
-  "ui-ldp.dbinfo.processes.userName": "User",
-  "ui-ldp.dbinfo.updates.elapsedRealTime": "Elapsed",
-  "ui-ldp.dbinfo.updates.lastUpdate": "Last updated",
-  "ui-ldp.dbinfo.updates.tableName": "Table",
-  "ui-ldp.dbinfo.updates.tableSchema": "Schema",
-  "ui-ldp.dbinfo.version": "Metadb version {version}",
-  "ui-ldp.desc.copy-query": "Isso copiará a consulta atual para uma nova que pode ser editada, executada e salva.",
-  "ui-ldp.desc.new-query": "Isso limpará a consulta atual pronta, para criar uma nova.",
-  "ui-ldp.devinfo": "Informações do desenvolvedor",
-  "ui-ldp.direction": "Ordem de Classificação",
-  "ui-ldp.direction.asc": "Ascendente",
-  "ui-ldp.direction.desc": "Descendente",
-  "ui-ldp.error.fetch-reject": "fetch() rejeitado (nunca acontece): {error}",
-  "ui-ldp.error.http": "Erro de HTTP: status {status} ({text}) -- {detail}",
-  "ui-ldp.error.load-columns": "Não foi possível carregar colunas: {error}",
-  "ui-ldp.error.load-config": "Não foi possível carregar a configuração: {error}",
-  "ui-ldp.error.load-queries": "Não foi possível carregar as consultas salvas: {error}",
-  "ui-ldp.error.load-report": "Não foi possível executar o relatório: {error}",
-  "ui-ldp.error.load-results": "Não foi possível carregar os resultados: {error}",
-  "ui-ldp.error.load-tables": "Não foi possível carregar as tabelas: {error}",
-  "ui-ldp.error.load-version": "Could not load Metadb version: {error}",
-  "ui-ldp.error.no-such-query": "Nenhum relatório: {qname}",
-  "ui-ldp.found-more-than": "Encontrados mais de {count} registros",
-  "ui-ldp.found-records": "Encontrados {count} registros",
-  "ui-ldp.heading.current-settings": "Configurações atuais",
-  "ui-ldp.label.end-date": "Data de término",
-  "ui-ldp.label.filter-by-column": "Filtrar por coluna",
-  "ui-ldp.label.limit-results": "Limitar o número de resultados",
-  "ui-ldp.label.order-by-column": "Classificar por coluna",
-  "ui-ldp.label.schema": "Esquema",
-  "ui-ldp.label.show-columns": "Mostrar colunas",
-  "ui-ldp.label.start-date": "Data de início",
-  "ui-ldp.label.table": "Tabela",
-  "ui-ldp.meta.title": "Relatórios",
-  "ui-ldp.more-records": "... Mais registros ...",
-  "ui-ldp.nav": "Navegação",
-  "ui-ldp.nav.info": "Database info",
-  "ui-ldp.nav.logs": "Logs",
-  "ui-ldp.nav.playground": "Playground",
-  "ui-ldp.nav.query-builder": "Criar consulta",
-  "ui-ldp.nav.saved-queries": "Carregar consulta",
-  "ui-ldp.nav.templated-queries": "Executar relatório",
-  "ui-ldp.nulls": "Classificar nulos",
-  "ui-ldp.nulls.end": "Nulos no final",
-  "ui-ldp.nulls.start": "Nulos no início",
-  "ui-ldp.permission.settings.dbinfo": "Configurações (Relatórios): Pode modificar detalhes de conexão do banco de dados de relatórios",
-  "ui-ldp.permission.settings.record-limits": "Configurações (Relatórios): Pode modificar os limites de registro padrão",
-  "ui-ldp.permission.settings.sqconfig": "Configurações (Relatórios): Pode modificar os detalhes de configuração da consulta salva",
-  "ui-ldp.permission.settings.table-availability": "Configurações (Relatórios): Pode selecionar quais tabelas estão disponíveis para busca",
-  "ui-ldp.placeholder.column": "(Coluna)",
-  "ui-ldp.placeholder.columns.all": "(Todos)",
-  "ui-ldp.placeholder.hidden": "[Oculto]",
-  "ui-ldp.placeholder.value": "(Valor)",
-  "ui-ldp.refresh": "Atualizar",
-  "ui-ldp.save-query": "Salvar consulta",
-  "ui-ldp.save-query.update.fail": "Não foi possível salvar a consulta {displayName}: erro {code} ({statusText}): {detail}",
-  "ui-ldp.save-query.update.notFound": "A consulta que você carregou foi apagada. Faça uma cópia e salve-a.",
-  "ui-ldp.save-query.update.ok": "Consulta salva {displayName}",
-  "ui-ldp.saved-queries.autoRun": "Auto-execução?",
-  "ui-ldp.saved-queries.comment": "Comentário",
-  "ui-ldp.saved-queries.created": "Data de criação",
-  "ui-ldp.saved-queries.creator": "Criador",
-  "ui-ldp.saved-queries.delete.confirm": "Confirmar",
-  "ui-ldp.saved-queries.delete.createdBy": "Criado por <code> {creator} </code> , {created}",
-  "ui-ldp.saved-queries.delete.deleteQuery": "Deletar a consulta?",
-  "ui-ldp.saved-queries.delete.deleted": "Consulta excluída <b> {name} </b> .",
-  "ui-ldp.saved-queries.delete.updatedBy": "Última atualização por <code>{updater}</code>, {updated}",
-  "ui-ldp.saved-queries.displayName": "Nome de exibição",
+  "ui-ldp.SENTINEL": [],
+  "ui-ldp.button.add-filter": [
+    {
+      "type": 0,
+      "value": "Adicionar filtro"
+    }
+  ],
+  "ui-ldp.button.add-join-table": [
+    {
+      "type": 0,
+      "value": "Adicionar tabela de junção"
+    }
+  ],
+  "ui-ldp.button.add-ordering-criterion": [
+    {
+      "type": 0,
+      "value": "Adicionar critério de pedido"
+    }
+  ],
+  "ui-ldp.button.cancel": [
+    {
+      "type": 0,
+      "value": "Cancelar"
+    }
+  ],
+  "ui-ldp.button.clear": [
+    {
+      "type": 0,
+      "value": "Limpar"
+    }
+  ],
+  "ui-ldp.button.copy-query": [
+    {
+      "type": 0,
+      "value": "Copiar consulta"
+    }
+  ],
+  "ui-ldp.button.csv": [
+    {
+      "type": 0,
+      "value": "CSV"
+    }
+  ],
+  "ui-ldp.button.download-csv": [
+    {
+      "type": 0,
+      "value": "Baixar como CSV"
+    }
+  ],
+  "ui-ldp.button.new-query": [
+    {
+      "type": 0,
+      "value": "Nova consulta"
+    }
+  ],
+  "ui-ldp.button.save": [
+    {
+      "type": 0,
+      "value": "Salvar"
+    }
+  ],
+  "ui-ldp.button.save-query": [
+    {
+      "type": 0,
+      "value": "Salvar consulta"
+    }
+  ],
+  "ui-ldp.button.submit": [
+    {
+      "type": 0,
+      "value": "Enviar"
+    }
+  ],
+  "ui-ldp.copy-of": [
+    {
+      "type": 0,
+      "value": "Cópia de "
+    },
+    {
+      "type": 1,
+      "value": "string"
+    }
+  ],
+  "ui-ldp.dbinfo.logs.error_severity": [
+    {
+      "type": 0,
+      "value": "Severity"
+    }
+  ],
+  "ui-ldp.dbinfo.logs.log_time": [
+    {
+      "type": 0,
+      "value": "Timestamp"
+    }
+  ],
+  "ui-ldp.dbinfo.logs.message": [
+    {
+      "type": 0,
+      "value": "Message"
+    }
+  ],
+  "ui-ldp.dbinfo.nav.logs": [
+    {
+      "type": 0,
+      "value": "Logs"
+    }
+  ],
+  "ui-ldp.dbinfo.nav.processes": [
+    {
+      "type": 0,
+      "value": "Long-running processes"
+    }
+  ],
+  "ui-ldp.dbinfo.nav.updates": [
+    {
+      "type": 0,
+      "value": "Last updates of tables"
+    }
+  ],
+  "ui-ldp.dbinfo.processes.databaseName": [
+    {
+      "type": 0,
+      "value": "Database"
+    }
+  ],
+  "ui-ldp.dbinfo.processes.empty": [
+    {
+      "type": 0,
+      "value": "There are currently no long-running processes"
+    }
+  ],
+  "ui-ldp.dbinfo.processes.query": [
+    {
+      "type": 0,
+      "value": "Query"
+    }
+  ],
+  "ui-ldp.dbinfo.processes.realTime": [
+    {
+      "type": 0,
+      "value": "Real time"
+    }
+  ],
+  "ui-ldp.dbinfo.processes.state": [
+    {
+      "type": 0,
+      "value": "Status"
+    }
+  ],
+  "ui-ldp.dbinfo.processes.userName": [
+    {
+      "type": 0,
+      "value": "User"
+    }
+  ],
+  "ui-ldp.dbinfo.updates.elapsedRealTime": [
+    {
+      "type": 0,
+      "value": "Elapsed"
+    }
+  ],
+  "ui-ldp.dbinfo.updates.lastUpdate": [
+    {
+      "type": 0,
+      "value": "Last updated"
+    }
+  ],
+  "ui-ldp.dbinfo.updates.tableName": [
+    {
+      "type": 0,
+      "value": "Table"
+    }
+  ],
+  "ui-ldp.dbinfo.updates.tableSchema": [
+    {
+      "type": 0,
+      "value": "Schema"
+    }
+  ],
+  "ui-ldp.dbinfo.version": [
+    {
+      "type": 0,
+      "value": "Metadb version "
+    },
+    {
+      "type": 1,
+      "value": "version"
+    }
+  ],
+  "ui-ldp.desc.copy-query": [
+    {
+      "type": 0,
+      "value": "Isso copiará a consulta atual para uma nova que pode ser editada, executada e salva."
+    }
+  ],
+  "ui-ldp.desc.new-query": [
+    {
+      "type": 0,
+      "value": "Isso limpará a consulta atual pronta, para criar uma nova."
+    }
+  ],
+  "ui-ldp.devinfo": [
+    {
+      "type": 0,
+      "value": "Informações do desenvolvedor"
+    }
+  ],
+  "ui-ldp.direction": [
+    {
+      "type": 0,
+      "value": "Ordem de Classificação"
+    }
+  ],
+  "ui-ldp.direction.asc": [
+    {
+      "type": 0,
+      "value": "Ascendente"
+    }
+  ],
+  "ui-ldp.direction.desc": [
+    {
+      "type": 0,
+      "value": "Descendente"
+    }
+  ],
+  "ui-ldp.error.fetch-reject": [
+    {
+      "type": 0,
+      "value": "fetch() rejeitado (nunca acontece): "
+    },
+    {
+      "type": 1,
+      "value": "error"
+    }
+  ],
+  "ui-ldp.error.http": [
+    {
+      "type": 0,
+      "value": "Erro de HTTP: status "
+    },
+    {
+      "type": 1,
+      "value": "status"
+    },
+    {
+      "type": 0,
+      "value": " ("
+    },
+    {
+      "type": 1,
+      "value": "text"
+    },
+    {
+      "type": 0,
+      "value": ") -- "
+    },
+    {
+      "type": 1,
+      "value": "detail"
+    }
+  ],
+  "ui-ldp.error.load-columns": [
+    {
+      "type": 0,
+      "value": "Não foi possível carregar colunas: "
+    },
+    {
+      "type": 1,
+      "value": "error"
+    }
+  ],
+  "ui-ldp.error.load-config": [
+    {
+      "type": 0,
+      "value": "Não foi possível carregar a configuração: "
+    },
+    {
+      "type": 1,
+      "value": "error"
+    }
+  ],
+  "ui-ldp.error.load-queries": [
+    {
+      "type": 0,
+      "value": "Não foi possível carregar as consultas salvas: "
+    },
+    {
+      "type": 1,
+      "value": "error"
+    }
+  ],
+  "ui-ldp.error.load-report": [
+    {
+      "type": 0,
+      "value": "Não foi possível executar o relatório: "
+    },
+    {
+      "type": 1,
+      "value": "error"
+    }
+  ],
+  "ui-ldp.error.load-results": [
+    {
+      "type": 0,
+      "value": "Não foi possível carregar os resultados: "
+    },
+    {
+      "type": 1,
+      "value": "error"
+    }
+  ],
+  "ui-ldp.error.load-tables": [
+    {
+      "type": 0,
+      "value": "Não foi possível carregar as tabelas: "
+    },
+    {
+      "type": 1,
+      "value": "error"
+    }
+  ],
+  "ui-ldp.error.load-version": [
+    {
+      "type": 0,
+      "value": "Could not load Metadb version: "
+    },
+    {
+      "type": 1,
+      "value": "error"
+    }
+  ],
+  "ui-ldp.error.no-such-query": [
+    {
+      "type": 0,
+      "value": "Nenhum relatório: "
+    },
+    {
+      "type": 1,
+      "value": "qname"
+    }
+  ],
+  "ui-ldp.found-more-than": [
+    {
+      "type": 0,
+      "value": "Encontrados mais de "
+    },
+    {
+      "type": 1,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": " registros"
+    }
+  ],
+  "ui-ldp.found-records": [
+    {
+      "type": 0,
+      "value": "Encontrados "
+    },
+    {
+      "type": 1,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": " registros"
+    }
+  ],
+  "ui-ldp.heading.current-settings": [
+    {
+      "type": 0,
+      "value": "Configurações atuais"
+    }
+  ],
+  "ui-ldp.label.end-date": [
+    {
+      "type": 0,
+      "value": "Data de término"
+    }
+  ],
+  "ui-ldp.label.filter-by-column": [
+    {
+      "type": 0,
+      "value": "Filtrar por coluna"
+    }
+  ],
+  "ui-ldp.label.limit-results": [
+    {
+      "type": 0,
+      "value": "Limitar o número de resultados"
+    }
+  ],
+  "ui-ldp.label.order-by-column": [
+    {
+      "type": 0,
+      "value": "Classificar por coluna"
+    }
+  ],
+  "ui-ldp.label.schema": [
+    {
+      "type": 0,
+      "value": "Esquema"
+    }
+  ],
+  "ui-ldp.label.show-columns": [
+    {
+      "type": 0,
+      "value": "Mostrar colunas"
+    }
+  ],
+  "ui-ldp.label.start-date": [
+    {
+      "type": 0,
+      "value": "Data de início"
+    }
+  ],
+  "ui-ldp.label.table": [
+    {
+      "type": 0,
+      "value": "Tabela"
+    }
+  ],
+  "ui-ldp.meta.title": [
+    {
+      "type": 0,
+      "value": "Relatórios"
+    }
+  ],
+  "ui-ldp.more-records": [
+    {
+      "type": 0,
+      "value": "... Mais registros ..."
+    }
+  ],
+  "ui-ldp.nav": [
+    {
+      "type": 0,
+      "value": "Navegação"
+    }
+  ],
+  "ui-ldp.nav.info": [
+    {
+      "type": 0,
+      "value": "Database info"
+    }
+  ],
+  "ui-ldp.nav.logs": [
+    {
+      "type": 0,
+      "value": "Logs"
+    }
+  ],
+  "ui-ldp.nav.playground": [
+    {
+      "type": 0,
+      "value": "Playground"
+    }
+  ],
+  "ui-ldp.nav.query-builder": [
+    {
+      "type": 0,
+      "value": "Criar consulta"
+    }
+  ],
+  "ui-ldp.nav.saved-queries": [
+    {
+      "type": 0,
+      "value": "Carregar consulta"
+    }
+  ],
+  "ui-ldp.nav.templated-queries": [
+    {
+      "type": 0,
+      "value": "Executar relatório"
+    }
+  ],
+  "ui-ldp.nulls": [
+    {
+      "type": 0,
+      "value": "Classificar nulos"
+    }
+  ],
+  "ui-ldp.nulls.end": [
+    {
+      "type": 0,
+      "value": "Nulos no final"
+    }
+  ],
+  "ui-ldp.nulls.start": [
+    {
+      "type": 0,
+      "value": "Nulos no início"
+    }
+  ],
+  "ui-ldp.permission.settings.dbinfo": [
+    {
+      "type": 0,
+      "value": "Configurações (Relatórios): Pode modificar detalhes de conexão do banco de dados de relatórios"
+    }
+  ],
+  "ui-ldp.permission.settings.record-limits": [
+    {
+      "type": 0,
+      "value": "Configurações (Relatórios): Pode modificar os limites de registro padrão"
+    }
+  ],
+  "ui-ldp.permission.settings.sqconfig": [
+    {
+      "type": 0,
+      "value": "Configurações (Relatórios): Pode modificar os detalhes de configuração da consulta salva"
+    }
+  ],
+  "ui-ldp.permission.settings.table-availability": [
+    {
+      "type": 0,
+      "value": "Configurações (Relatórios): Pode selecionar quais tabelas estão disponíveis para busca"
+    }
+  ],
+  "ui-ldp.placeholder.column": [
+    {
+      "type": 0,
+      "value": "(Coluna)"
+    }
+  ],
+  "ui-ldp.placeholder.columns.all": [
+    {
+      "type": 0,
+      "value": "(Todos)"
+    }
+  ],
+  "ui-ldp.placeholder.hidden": [
+    {
+      "type": 0,
+      "value": "[Oculto]"
+    }
+  ],
+  "ui-ldp.placeholder.value": [
+    {
+      "type": 0,
+      "value": "(Valor)"
+    }
+  ],
+  "ui-ldp.refresh": [
+    {
+      "type": 0,
+      "value": "Atualizar"
+    }
+  ],
+  "ui-ldp.save-query": [
+    {
+      "type": 0,
+      "value": "Salvar consulta"
+    }
+  ],
+  "ui-ldp.save-query.update.fail": [
+    {
+      "type": 0,
+      "value": "Não foi possível salvar a consulta "
+    },
+    {
+      "type": 1,
+      "value": "displayName"
+    },
+    {
+      "type": 0,
+      "value": ": erro "
+    },
+    {
+      "type": 1,
+      "value": "code"
+    },
+    {
+      "type": 0,
+      "value": " ("
+    },
+    {
+      "type": 1,
+      "value": "statusText"
+    },
+    {
+      "type": 0,
+      "value": "): "
+    },
+    {
+      "type": 1,
+      "value": "detail"
+    }
+  ],
+  "ui-ldp.save-query.update.notFound": [
+    {
+      "type": 0,
+      "value": "A consulta que você carregou foi apagada. Faça uma cópia e salve-a."
+    }
+  ],
+  "ui-ldp.save-query.update.ok": [
+    {
+      "type": 0,
+      "value": "Consulta salva "
+    },
+    {
+      "type": 1,
+      "value": "displayName"
+    }
+  ],
+  "ui-ldp.saved-queries.autoRun": [
+    {
+      "type": 0,
+      "value": "Auto-execução?"
+    }
+  ],
+  "ui-ldp.saved-queries.comment": [
+    {
+      "type": 0,
+      "value": "Comentário"
+    }
+  ],
+  "ui-ldp.saved-queries.created": [
+    {
+      "type": 0,
+      "value": "Data de criação"
+    }
+  ],
+  "ui-ldp.saved-queries.creator": [
+    {
+      "type": 0,
+      "value": "Criador"
+    }
+  ],
+  "ui-ldp.saved-queries.delete.confirm": [
+    {
+      "type": 0,
+      "value": "Confirmar"
+    }
+  ],
+  "ui-ldp.saved-queries.delete.createdBy": [
+    {
+      "type": 0,
+      "value": "Criado por "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "creator"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "code"
+    },
+    {
+      "type": 0,
+      "value": " , "
+    },
+    {
+      "type": 1,
+      "value": "created"
+    }
+  ],
+  "ui-ldp.saved-queries.delete.deleteQuery": [
+    {
+      "type": 0,
+      "value": "Deletar a consulta?"
+    }
+  ],
+  "ui-ldp.saved-queries.delete.deleted": [
+    {
+      "type": 0,
+      "value": "Consulta excluída "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "name"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " ."
+    }
+  ],
+  "ui-ldp.saved-queries.delete.updatedBy": [
+    {
+      "type": 0,
+      "value": "Última atualização por "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "updater"
+        }
+      ],
+      "type": 8,
+      "value": "code"
+    },
+    {
+      "type": 0,
+      "value": ", "
+    },
+    {
+      "type": 1,
+      "value": "updated"
+    }
+  ],
+  "ui-ldp.saved-queries.displayName": [
+    {
+      "type": 0,
+      "value": "Nome de exibição"
+    }
+  ],
   "ui-ldp.saved-queries.name": "Nome do arquivo",
-  "ui-ldp.saved-queries.updated": "Data da última atualização",
-  "ui-ldp.saved-queries.updater": "Última atualização por",
-  "ui-ldp.settings.dbinfo": "Configuração do banco de dados",
-  "ui-ldp.settings.dbinfo.pass": "Senha (somente escrita)",
-  "ui-ldp.settings.dbinfo.update.ok": "Configuração de banco de dados atualizada",
-  "ui-ldp.settings.dbinfo.url": "URL do banco de dados",
-  "ui-ldp.settings.dbinfo.user": "Nome de usuário",
-  "ui-ldp.settings.record-limits": "Limites de registro",
-  "ui-ldp.settings.record-limits.default-show": "Número padrão para mostrar",
-  "ui-ldp.settings.record-limits.max-export": "Número máximo para exportar",
-  "ui-ldp.settings.record-limits.max-show": "Número máximo para mostrar",
-  "ui-ldp.settings.sqconfig": "Configuração de consultas salvas",
-  "ui-ldp.settings.sqconfig.branch": "Ramo",
-  "ui-ldp.settings.sqconfig.owner": "Proprietário do repositório GitHub",
-  "ui-ldp.settings.sqconfig.repo": "Nome do repositório",
-  "ui-ldp.settings.sqconfig.token": "Token OAuth para acesso ao repositório (somente para escrita)",
-  "ui-ldp.settings.sqconfig.update.ok": "Configuração atualizada de consultas salvas",
-  "ui-ldp.settings.table-availability": "Disponibilidade da tabela",
-  "ui-ldp.settings.table-availability.check-to-disable": "Verifique as tabelas a serem desabilitadas para consulta",
-  "ui-ldp.settings.table-availability.schema": "Esquema <code>{name}</code>",
-  "ui-ldp.settings.tqrepos": "Repositórios de relatórios",
-  "ui-ldp.settings.tqrepos.branch": "Branch do repositório especificado",
-  "ui-ldp.settings.tqrepos.directory": "Diretório dentro do repositório",
-  "ui-ldp.settings.tqrepos.repo": "Nome do repositório na área do usuário",
-  "ui-ldp.settings.tqrepos.type": "Tipo",
-  "ui-ldp.settings.tqrepos.user": "Usuário do site GitHub",
-  "ui-ldp.something-went-wrong": "Algo deu errado.",
-  "ui-ldp.templated-queries.column.displayName": "Nome de exibição",
-  "ui-ldp.templated-queries.column.filename": "Nome do arquivo",
-  "ui-ldp.templated-queries.column.repo": "Repositório GitHub",
-  "ui-ldp.templated-queries.instructions": "Instruções",
-  "ui-ldp.templated-queries.no-json": "Esse relatório não tem metadados JSON associados, portanto, não é possível apresentar um formulário para preenchimento de seus parâmetros.",
-  "ui-ldp.templated-queries.select": "Selecionar relatório",
-  "ui-ldp.templated-queries.source": "Fonte",
-  "ui-ldp.templated-queries.source.json": "Metadados JSON",
-  "ui-ldp.templated-queries.source.sql": "Consulta SQL",
+  "ui-ldp.saved-queries.updated": [
+    {
+      "type": 0,
+      "value": "Data da última atualização"
+    }
+  ],
+  "ui-ldp.saved-queries.updater": [
+    {
+      "type": 0,
+      "value": "Última atualização por"
+    }
+  ],
+  "ui-ldp.settings.dbinfo": [
+    {
+      "type": 0,
+      "value": "Configuração do banco de dados"
+    }
+  ],
+  "ui-ldp.settings.dbinfo.pass": [
+    {
+      "type": 0,
+      "value": "Senha (somente escrita)"
+    }
+  ],
+  "ui-ldp.settings.dbinfo.update.ok": [
+    {
+      "type": 0,
+      "value": "Configuração de banco de dados atualizada"
+    }
+  ],
+  "ui-ldp.settings.dbinfo.url": [
+    {
+      "type": 0,
+      "value": "URL do banco de dados"
+    }
+  ],
+  "ui-ldp.settings.dbinfo.user": [
+    {
+      "type": 0,
+      "value": "Nome de usuário"
+    }
+  ],
+  "ui-ldp.settings.record-limits": [
+    {
+      "type": 0,
+      "value": "Limites de registro"
+    }
+  ],
+  "ui-ldp.settings.record-limits.default-show": [
+    {
+      "type": 0,
+      "value": "Número padrão para mostrar"
+    }
+  ],
+  "ui-ldp.settings.record-limits.max-export": [
+    {
+      "type": 0,
+      "value": "Número máximo para exportar"
+    }
+  ],
+  "ui-ldp.settings.record-limits.max-show": [
+    {
+      "type": 0,
+      "value": "Número máximo para mostrar"
+    }
+  ],
+  "ui-ldp.settings.sqconfig": [
+    {
+      "type": 0,
+      "value": "Configuração de consultas salvas"
+    }
+  ],
+  "ui-ldp.settings.sqconfig.branch": [
+    {
+      "type": 0,
+      "value": "Ramo"
+    }
+  ],
+  "ui-ldp.settings.sqconfig.owner": [
+    {
+      "type": 0,
+      "value": "Proprietário do repositório GitHub"
+    }
+  ],
+  "ui-ldp.settings.sqconfig.repo": [
+    {
+      "type": 0,
+      "value": "Nome do repositório"
+    }
+  ],
+  "ui-ldp.settings.sqconfig.token": [
+    {
+      "type": 0,
+      "value": "Token OAuth para acesso ao repositório (somente para escrita)"
+    }
+  ],
+  "ui-ldp.settings.sqconfig.update.ok": [
+    {
+      "type": 0,
+      "value": "Configuração atualizada de consultas salvas"
+    }
+  ],
+  "ui-ldp.settings.table-availability": [
+    {
+      "type": 0,
+      "value": "Disponibilidade da tabela"
+    }
+  ],
+  "ui-ldp.settings.table-availability.check-to-disable": [
+    {
+      "type": 0,
+      "value": "Verifique as tabelas a serem desabilitadas para consulta"
+    }
+  ],
+  "ui-ldp.settings.table-availability.schema": [
+    {
+      "type": 0,
+      "value": "Esquema "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "name"
+        }
+      ],
+      "type": 8,
+      "value": "code"
+    }
+  ],
+  "ui-ldp.settings.tqrepos": [
+    {
+      "type": 0,
+      "value": "Repositórios de relatórios"
+    }
+  ],
+  "ui-ldp.settings.tqrepos.branch": [
+    {
+      "type": 0,
+      "value": "Branch do repositório especificado"
+    }
+  ],
+  "ui-ldp.settings.tqrepos.directory": [
+    {
+      "type": 0,
+      "value": "Diretório dentro do repositório"
+    }
+  ],
+  "ui-ldp.settings.tqrepos.repo": [
+    {
+      "type": 0,
+      "value": "Nome do repositório na área do usuário"
+    }
+  ],
+  "ui-ldp.settings.tqrepos.type": [
+    {
+      "type": 0,
+      "value": "Tipo"
+    }
+  ],
+  "ui-ldp.settings.tqrepos.user": [
+    {
+      "type": 0,
+      "value": "Usuário do site GitHub"
+    }
+  ],
+  "ui-ldp.something-went-wrong": [
+    {
+      "type": 0,
+      "value": "Algo deu errado."
+    }
+  ],
+  "ui-ldp.templated-queries.column.displayName": [
+    {
+      "type": 0,
+      "value": "Nome de exibição"
+    }
+  ],
+  "ui-ldp.templated-queries.column.filename": [
+    {
+      "type": 0,
+      "value": "Nome do arquivo"
+    }
+  ],
+  "ui-ldp.templated-queries.column.repo": [
+    {
+      "type": 0,
+      "value": "Repositório GitHub"
+    }
+  ],
+  "ui-ldp.templated-queries.instructions": [
+    {
+      "type": 0,
+      "value": "Instruções"
+    }
+  ],
+  "ui-ldp.templated-queries.no-json": [
+    {
+      "type": 0,
+      "value": "Esse relatório não tem metadados JSON associados, portanto, não é possível apresentar um formulário para preenchimento de seus parâmetros."
+    }
+  ],
+  "ui-ldp.templated-queries.select": [
+    {
+      "type": 0,
+      "value": "Selecionar relatório"
+    }
+  ],
+  "ui-ldp.templated-queries.source": [
+    {
+      "type": 0,
+      "value": "Fonte"
+    }
+  ],
+  "ui-ldp.templated-queries.source.json": [
+    {
+      "type": 0,
+      "value": "Metadados JSON"
+    }
+  ],
+  "ui-ldp.templated-queries.source.sql": [
+    {
+      "type": 0,
+      "value": "Consulta SQL"
+    }
+  ],
   "ui-licenses.AND": [
     {
       "type": 0,
@@ -124420,6 +125377,12 @@
       "value": "Categoria"
     }
   ],
+  "ui-serials-management.ruleset.addChronologyLabel": [
+    {
+      "type": 0,
+      "value": "Add chronology label"
+    }
+  ],
   "ui-serials-management.ruleset.addCombination": [
     {
       "type": 0,
@@ -124430,6 +125393,12 @@
     {
       "type": 0,
       "value": "As regras de combinação não podem ser adicionadas porque existe uma regra de omissão"
+    }
+  ],
+  "ui-serials-management.ruleset.addEnumerationLabel": [
+    {
+      "type": 0,
+      "value": "Add enumeration label"
     }
   ],
   "ui-serials-management.ruleset.addLabel": [
@@ -124544,6 +125513,16 @@
     {
       "type": 0,
       "value": "Formato de cronologia"
+    }
+  ],
+  "ui-serials-management.ruleset.chronologyLabelIndex": [
+    {
+      "type": 0,
+      "value": "Chronology label "
+    },
+    {
+      "type": 1,
+      "value": "index"
     }
   ],
   "ui-serials-management.ruleset.chronologyLabels": [
@@ -124764,6 +125743,16 @@
       "value": "Formato de enumeração"
     }
   ],
+  "ui-serials-management.ruleset.enumerationLabelIndex": [
+    {
+      "type": 0,
+      "value": "Enumeration label "
+    },
+    {
+      "type": 1,
+      "value": "index"
+    }
+  ],
   "ui-serials-management.ruleset.enumerationLabels": [
     {
       "type": 0,
@@ -124970,10 +125959,22 @@
       "value": "Mês(es)"
     }
   ],
+  "ui-serials-management.ruleset.noChronologyLabels": [
+    {
+      "type": 0,
+      "value": "No chronology labels for this publication pattern"
+    }
+  ],
   "ui-serials-management.ruleset.noCombinationRules": [
     {
       "type": 0,
       "value": "Não há regras de combinação para esse padrão de publicação"
+    }
+  ],
+  "ui-serials-management.ruleset.noEnumerationLabels": [
+    {
+      "type": 0,
+      "value": "No enumeration labels for this publication pattern"
     }
   ],
   "ui-serials-management.ruleset.noLabels": [
@@ -125156,10 +126157,30 @@
       "value": "Ciclo de publicação"
     }
   ],
+  "ui-serials-management.ruleset.removeChronologyLabelIndex": [
+    {
+      "type": 0,
+      "value": "Remove chronology label "
+    },
+    {
+      "type": 1,
+      "value": "index"
+    }
+  ],
   "ui-serials-management.ruleset.removeCombinationRule": [
     {
       "type": 0,
       "value": "Remover regra de combinação "
+    },
+    {
+      "type": 1,
+      "value": "index"
+    }
+  ],
+  "ui-serials-management.ruleset.removeEnumerationLabelIndex": [
+    {
+      "type": 0,
+      "value": "Remove enumeration label "
     },
     {
       "type": 1,
