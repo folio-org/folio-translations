@@ -63002,6 +63002,12 @@
       "value": "Rollover logs"
     }
   ],
+  "ui-finance.actions.uploadAllocationWorksheet": [
+    {
+      "type": 0,
+      "value": "Upload allocation worksheet (CSV)"
+    }
+  ],
   "ui-finance.allocation.batch.form.footer.recalculate": [
     {
       "type": 0,
@@ -63012,6 +63018,18 @@
     {
       "type": 0,
       "value": "Batch edit budgets"
+    }
+  ],
+  "ui-finance.allocation.batch.form.validation.error.invalidFunds": [
+    {
+      "type": 0,
+      "value": "The following funds are not associated with this ledger (or group) and will NOT be updated."
+    }
+  ],
+  "ui-finance.allocation.batch.form.validation.error.missedFund": [
+    {
+      "type": 0,
+      "value": "Fund has not been changed and will not be updated."
     }
   ],
   "ui-finance.allocation.batch.status.active": [
@@ -63048,6 +63066,96 @@
     {
       "type": 0,
       "value": "Finance app Search"
+    }
+  ],
+  "ui-finance.batchAllocations.upload.error.notFound": [
+    {
+      "type": 0,
+      "value": "Could not find the file to upload. Please try to upload the file again."
+    }
+  ],
+  "ui-finance.batchAllocations.uploadWorksheet.modal.heading": [
+    {
+      "type": 0,
+      "value": "Upload worksheet"
+    }
+  ],
+  "ui-finance.batchAllocations.uploadWorksheet.modal.message": [
+    {
+      "type": 0,
+      "value": "Please choose a budget worksheet to upload"
+    }
+  ],
+  "ui-finance.batchAllocations.uploadWorksheet.validation.error.emptyFile": [
+    {
+      "type": 0,
+      "value": "File has no rows."
+    }
+  ],
+  "ui-finance.batchAllocations.uploadWorksheet.validation.error.fiscalYearNotResolved": [
+    {
+      "type": 0,
+      "value": "Could not determine the fiscal year from the uploaded file."
+    }
+  ],
+  "ui-finance.batchAllocations.uploadWorksheet.validation.error.inconsistentField": [
+    {
+      "type": 0,
+      "value": "Inconsistent values found in field: "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "field"
+        }
+      ],
+      "type": 8,
+      "value": "code"
+    },
+    {
+      "type": 0,
+      "value": ". All rows must have the same value."
+    }
+  ],
+  "ui-finance.batchAllocations.uploadWorksheet.validation.error.invalidFileType": [
+    {
+      "type": 0,
+      "value": "Invalid file type. Only "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": ".csv"
+        }
+      ],
+      "type": 8,
+      "value": "code"
+    },
+    {
+      "type": 0,
+      "value": " files are allowed."
+    }
+  ],
+  "ui-finance.batchAllocations.uploadWorksheet.validation.error.requiredHeaders": [
+    {
+      "type": 0,
+      "value": "Missing required header(s): "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "headers"
+        }
+      ],
+      "type": 8,
+      "value": "code"
+    },
+    {
+      "type": 0,
+      "value": "."
     }
   ],
   "ui-finance.budget.actions.load.error": [
@@ -131922,6 +132030,12 @@
     {
       "type": 0,
       "value": "Please enter correct birth date"
+    }
+  ],
+  "ui-users.errors.personal.pronounsCharLimit": [
+    {
+      "type": 0,
+      "value": "Pronouns are limited to 300 characters"
     }
   ],
   "ui-users.errors.proxies.duplicateUserMessage": [
