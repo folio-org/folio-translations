@@ -82596,6 +82596,26 @@
       "value": "error"
     }
   ],
+  "ui-ldp.error.load-logs": [
+    {
+      "type": 0,
+      "value": "Could not load Metadb logs: "
+    },
+    {
+      "type": 1,
+      "value": "error"
+    }
+  ],
+  "ui-ldp.error.load-processes": [
+    {
+      "type": 0,
+      "value": "Could not load long-running processes: "
+    },
+    {
+      "type": 1,
+      "value": "error"
+    }
+  ],
   "ui-ldp.error.load-queries": [
     {
       "type": 0,
@@ -82636,6 +82656,16 @@
       "value": "error"
     }
   ],
+  "ui-ldp.error.load-updates": [
+    {
+      "type": 0,
+      "value": "Could not load recent updates: "
+    },
+    {
+      "type": 1,
+      "value": "error"
+    }
+  ],
   "ui-ldp.error.load-version": [
     {
       "type": 0,
@@ -82654,6 +82684,12 @@
     {
       "type": 1,
       "value": "qname"
+    }
+  ],
+  "ui-ldp.error.not-metadb": [
+    {
+      "type": 0,
+      "value": "This facility is only available from a Metadb database, but this app is connected to LDP Classic"
     }
   ],
   "ui-ldp.found-more-than": [
