@@ -8604,6 +8604,12 @@
       "value": "ようこそ、図書館の未来はオープンです!"
     }
   ],
+  "stripes-core.help": [
+    {
+      "type": 0,
+      "value": "Help"
+    }
+  ],
   "stripes-core.label.caution.email": [
     {
       "type": 0,
@@ -63371,6 +63377,12 @@
       "value": "Batch allocations"
     }
   ],
+  "ui-finance.actions.allocations.batch.logs": [
+    {
+      "type": 0,
+      "value": "Batch allocation logs"
+    }
+  ],
   "ui-finance.actions.downloadAllocationWorksheet": [
     {
       "type": 0,
@@ -63425,6 +63437,12 @@
       "value": "Recalculate"
     }
   ],
+  "ui-finance.allocation.batch.form.recalculate.error": [
+    {
+      "type": 0,
+      "value": "An error occurred while recalculating amounts."
+    }
+  ],
   "ui-finance.allocation.batch.form.title.edit": [
     {
       "type": 0,
@@ -63437,10 +63455,114 @@
       "value": "The following funds are not associated with this ledger (or group) and will NOT be updated."
     }
   ],
+  "ui-finance.allocation.batch.form.validation.error.invalidStatus": [
+    {
+      "type": 0,
+      "value": "Invalid status value."
+    }
+  ],
   "ui-finance.allocation.batch.form.validation.error.missedFund": [
     {
       "type": 0,
       "value": "Fund has not been changed and will not be updated."
+    }
+  ],
+  "ui-finance.allocation.batch.form.validation.error.negativeAllocation": [
+    {
+      "type": 0,
+      "value": "New total allocation cannot be negative."
+    }
+  ],
+  "ui-finance.allocation.batch.form.validation.error.numeric": [
+    {
+      "type": 0,
+      "value": "The field must be numeric value."
+    }
+  ],
+  "ui-finance.allocation.batch.logs.actions.delete": [
+    {
+      "type": 0,
+      "value": "Delete selected logs"
+    }
+  ],
+  "ui-finance.allocation.batch.logs.actions.delete.fail": [
+    {
+      "type": 0,
+      "value": "Log with id "
+    },
+    {
+      "type": 1,
+      "value": "id"
+    },
+    {
+      "type": 0,
+      "value": " was not deleted"
+    }
+  ],
+  "ui-finance.allocation.batch.logs.actions.delete.success": [
+    {
+      "type": 0,
+      "value": "Logs successfully deleted"
+    }
+  ],
+  "ui-finance.allocation.batch.logs.columns.createdByUsername": [
+    {
+      "type": 0,
+      "value": "Run by"
+    }
+  ],
+  "ui-finance.allocation.batch.logs.columns.createdDate": [
+    {
+      "type": 0,
+      "value": "Started running"
+    }
+  ],
+  "ui-finance.allocation.batch.logs.columns.jobName": [
+    {
+      "type": 0,
+      "value": "Job name"
+    }
+  ],
+  "ui-finance.allocation.batch.logs.columns.jobNumber": [
+    {
+      "type": 0,
+      "value": "ID"
+    }
+  ],
+  "ui-finance.allocation.batch.logs.columns.recordsCount": [
+    {
+      "type": 0,
+      "value": "Records"
+    }
+  ],
+  "ui-finance.allocation.batch.logs.columns.status": [
+    {
+      "type": 0,
+      "value": "Status"
+    }
+  ],
+  "ui-finance.allocation.batch.logs.columns.updatedDate": [
+    {
+      "type": 0,
+      "value": "Ended running"
+    }
+  ],
+  "ui-finance.allocation.batch.logs.modal.delete.description": [
+    {
+      "type": 0,
+      "value": "This action will cause selected logs to be deleted PERMANENTLY. Do you wish to proceed?"
+    }
+  ],
+  "ui-finance.allocation.batch.logs.modal.delete.title": [
+    {
+      "type": 0,
+      "value": "Delete Log"
+    }
+  ],
+  "ui-finance.allocation.batch.logs.title": [
+    {
+      "type": 0,
+      "value": "Logs"
     }
   ],
   "ui-finance.allocation.batch.status.active": [
@@ -63547,6 +63669,22 @@
     {
       "type": 0,
       "value": " files are allowed."
+    }
+  ],
+  "ui-finance.batchAllocations.uploadWorksheet.validation.error.parseFailed": [
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "fileName"
+        }
+      ],
+      "type": 8,
+      "value": "code"
+    },
+    {
+      "type": 0,
+      "value": " could not be parsed. Please download the latest worksheet and resubmit."
     }
   ],
   "ui-finance.batchAllocations.uploadWorksheet.validation.error.requiredHeaders": [
@@ -66682,6 +66820,18 @@
       "value": "Allocation increase/decrease"
     }
   ],
+  "ui-finance.transaction.allocation.batch.columns.budgetAfterAllocation": [
+    {
+      "type": 0,
+      "value": "Total allocated (after)"
+    }
+  ],
+  "ui-finance.transaction.allocation.batch.columns.budgetAllocationChange": [
+    {
+      "type": 0,
+      "value": "Allocation increase/decrease"
+    }
+  ],
   "ui-finance.transaction.allocation.batch.columns.budgetAllowableEncumbrance": [
     {
       "type": 0,
@@ -66692,6 +66842,12 @@
     {
       "type": 0,
       "value": "Allowable expenditure %"
+    }
+  ],
+  "ui-finance.transaction.allocation.batch.columns.budgetCurrentAllocation": [
+    {
+      "type": 0,
+      "value": "Total allocated (before)"
     }
   ],
   "ui-finance.transaction.allocation.batch.columns.budgetInitialAllocation": [
@@ -66740,6 +66896,12 @@
     {
       "type": 0,
       "value": "Transaction description"
+    }
+  ],
+  "ui-finance.transaction.allocation.batch.columns.transactionTag": [
+    {
+      "type": 0,
+      "value": "Transaction tags"
     }
   ],
   "ui-finance.transaction.allocation.budgetNotFoundForTransaction": [
@@ -76978,6 +77140,102 @@
       "value": "Number"
     }
   ],
+  "ui-inventory.numberGenerator.accessionNumber": [
+    {
+      "type": 0,
+      "value": "Accession number"
+    }
+  ],
+  "ui-inventory.numberGenerator.accessionNumberEqualCallNumber": [
+    {
+      "type": 0,
+      "value": "Use the same generated number for accession number and call number"
+    }
+  ],
+  "ui-inventory.numberGenerator.accessionNumberEqualCallNumber.warning": [
+    {
+      "type": 0,
+      "value": "Warning: The checkbox has been disabled because the accession number and/or the call number have been set to manual completion."
+    }
+  ],
+  "ui-inventory.numberGenerator.barcode": [
+    {
+      "type": 0,
+      "value": "Barcode"
+    }
+  ],
+  "ui-inventory.numberGenerator.callNumber": [
+    {
+      "type": 0,
+      "value": "Call number"
+    }
+  ],
+  "ui-inventory.numberGenerator.info": [
+    {
+      "type": 0,
+      "value": "Fields which are usually filled using a numeric sequence can use the number generator. When the generator is switched on the field can either be fixed to prevent manual update, or made fully editable. When switched off, the field must be filled manually."
+    }
+  ],
+  "ui-inventory.numberGenerator.options": [
+    {
+      "type": 0,
+      "value": "Number generator options"
+    }
+  ],
+  "ui-inventory.numberGenerator.save.error": [
+    {
+      "type": 0,
+      "value": "Error saving setting"
+    }
+  ],
+  "ui-inventory.numberGenerator.save.success": [
+    {
+      "type": 0,
+      "value": "Setting was successfully saved"
+    }
+  ],
+  "ui-inventory.numberGenerator.setGenerator": [
+    {
+      "type": 0,
+      "value": "Number generator on, fixed: The "
+    },
+    {
+      "type": 1,
+      "value": "number"
+    },
+    {
+      "type": 0,
+      "value": " can be filled using the generator only."
+    }
+  ],
+  "ui-inventory.numberGenerator.setGeneratorOrManually": [
+    {
+      "type": 0,
+      "value": "Number generator on, editable: The "
+    },
+    {
+      "type": 1,
+      "value": "number"
+    },
+    {
+      "type": 0,
+      "value": " can be filled using the generator and be edited, or filled manually."
+    }
+  ],
+  "ui-inventory.numberGenerator.setManually": [
+    {
+      "type": 0,
+      "value": "Number generator off: The "
+    },
+    {
+      "type": 1,
+      "value": "number"
+    },
+    {
+      "type": 0,
+      "value": " can be filled manually only."
+    }
+  ],
   "ui-inventory.numberOfItems": [
     {
       "type": 0,
@@ -77384,6 +77642,12 @@
     {
       "type": 0,
       "value": "設定（インベントリ）：貸出タイプの作成、編集、削除"
+    }
+  ],
+  "ui-inventory.permission.settings.manage-number-generator-options": [
+    {
+      "type": 0,
+      "value": "Settings (Inventory): Manage number generator options"
     }
   ],
   "ui-inventory.permission.settings.material-types": [
@@ -78436,6 +78700,12 @@
       "value": "サービスポイント"
     }
   ],
+  "ui-inventory.setForDeletion": [
+    {
+      "type": 0,
+      "value": "Set for deletion"
+    }
+  ],
   "ui-inventory.setForDeletion.modal.header": [
     {
       "type": 0,
@@ -79470,6 +79740,26 @@
     {
       "type": 0,
       "value": "You do not currently have permission to access details of shared instances. Contact your FOLIO administrator for more information."
+    }
+  ],
+  "ui-inventory.warning.instance.setForDeletionAndSuppressedFromDiscoveryAndStaffSuppressed": [
+    {
+      "type": 0,
+      "value": "Warning: "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Instance is set for deletion"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": ", suppressed from discovery, and staff suppressed"
     }
   ],
   "ui-inventory.warning.instance.sharingLocalInstance": [
@@ -117910,6 +118200,18 @@
     {
       "type": 0,
       "value": "典拠ファイルの選択"
+    }
+  ],
+  "ui-quick-marc.sourceFileSelect.fieldLabel": [
+    {
+      "type": 0,
+      "value": "Authority file name"
+    }
+  ],
+  "ui-quick-marc.sourceFileSelect.placeholder": [
+    {
+      "type": 0,
+      "value": "Select authority file"
     }
   ],
   "ui-quick-marc.update-linked-bib-fields.modal.keep-editing": [
