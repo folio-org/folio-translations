@@ -9187,62 +9187,370 @@
       "value": "使用者名稱"
     }
   ],
-  "stripes-data-transfer-components.create": "建立",
-  "stripes-data-transfer-components.delete": "刪除",
-  "stripes-data-transfer-components.duplicate": "複製",
-  "stripes-data-transfer-components.edit": "編輯",
-  "stripes-data-transfer-components.fileName": "資料夾名稱",
-  "stripes-data-transfer-components.filter.chooseJobProfile": "選擇工作檔案",
-  "stripes-data-transfer-components.filter.chooseUser": "選擇使用者",
+  "stripes-data-transfer-components.create": [
+    {
+      "type": 0,
+      "value": "建立"
+    }
+  ],
+  "stripes-data-transfer-components.delete": [
+    {
+      "type": 0,
+      "value": "刪除"
+    }
+  ],
+  "stripes-data-transfer-components.duplicate": [
+    {
+      "type": 0,
+      "value": "複製"
+    }
+  ],
+  "stripes-data-transfer-components.edit": [
+    {
+      "type": 0,
+      "value": "編輯"
+    }
+  ],
+  "stripes-data-transfer-components.fileName": [
+    {
+      "type": 0,
+      "value": "資料夾名稱"
+    }
+  ],
+  "stripes-data-transfer-components.filter.chooseJobProfile": [
+    {
+      "type": 0,
+      "value": "選擇工作檔案"
+    }
+  ],
+  "stripes-data-transfer-components.filter.chooseUser": [
+    {
+      "type": 0,
+      "value": "選擇使用者"
+    }
+  ],
   "stripes-data-transfer-components.filter.date": [
     {
       "type": 0,
       "value": "Date"
     }
   ],
-  "stripes-data-transfer-components.filter.endedDate": "已結束運行",
-  "stripes-data-transfer-components.filter.errors": "匯出發生錯誤",
-  "stripes-data-transfer-components.filter.jobProfile": "工作檔案",
-  "stripes-data-transfer-components.filter.option.no": "否",
-  "stripes-data-transfer-components.filter.option.yes": "是",
-  "stripes-data-transfer-components.filter.singleRecordImports": "館藏庫單一紀錄匯入",
-  "stripes-data-transfer-components.filter.startedDate": "處理中",
-  "stripes-data-transfer-components.filter.user": "使用者",
-  "stripes-data-transfer-components.folioRecordType": "FOLIO 紀錄類型",
-  "stripes-data-transfer-components.jobCompletedDate": "結束運行",
-  "stripes-data-transfer-components.jobExecutionHrId": "ID",
-  "stripes-data-transfer-components.jobProfileName": "工作檔案",
-  "stripes-data-transfer-components.jobProfilesCount": "{count, number}工作{count, plural, one {檔案} other {檔案}}",
-  "stripes-data-transfer-components.jobProfilesTitle": "工作檔案",
-  "stripes-data-transfer-components.learnMore": "了解更多資訊",
-  "stripes-data-transfer-components.loading": "載入中",
-  "stripes-data-transfer-components.mappingProfilesCount": "{count, number}欄位對應{count, plural, one { 檔案 } other { 檔案 }}",
-  "stripes-data-transfer-components.mappingProfilesTitle": "欄位對應檔案",
-  "stripes-data-transfer-components.modify": "修改",
-  "stripes-data-transfer-components.name": "名稱",
-  "stripes-data-transfer-components.new": "新增",
-  "stripes-data-transfer-components.profiles": "檔案",
-  "stripes-data-transfer-components.recordTypes.authority": "權威",
-  "stripes-data-transfer-components.recordTypes.holdings": "館藏",
-  "stripes-data-transfer-components.recordTypes.instance": "實例",
-  "stripes-data-transfer-components.recordTypes.invoice": "發票",
-  "stripes-data-transfer-components.recordTypes.item": "館藏",
-  "stripes-data-transfer-components.recordTypes.items": "館藏",
-  "stripes-data-transfer-components.recordTypes.marc-auth": "MARC 權威控制",
-  "stripes-data-transfer-components.recordTypes.marc-bib": "MARC 書目",
-  "stripes-data-transfer-components.recordTypes.marc-hold": "MARC 館藏",
-  "stripes-data-transfer-components.recordTypes.order": "訂單",
-  "stripes-data-transfer-components.recordTypes.orderLine": "訂單細項",
-  "stripes-data-transfer-components.recordTypes.srs": "來源紀錄儲存 ( 整筆紀錄 )",
-  "stripes-data-transfer-components.records": "紀錄",
-  "stripes-data-transfer-components.runBy": "由......運行",
-  "stripes-data-transfer-components.search": "查詢",
-  "stripes-data-transfer-components.settings.fileExtension.allowImport": "允許匯入",
-  "stripes-data-transfer-components.settings.fileExtension.blockImport": "禁止匯入",
-  "stripes-data-transfer-components.update": "更新",
-  "stripes-data-transfer-components.updated": "已更新",
-  "stripes-data-transfer-components.updatedBy": "更新者",
-  "stripes-data-transfer-components.validation.enterValue": "請輸入一個值",
+  "stripes-data-transfer-components.filter.endedDate": [
+    {
+      "type": 0,
+      "value": "已結束運行"
+    }
+  ],
+  "stripes-data-transfer-components.filter.errors": [
+    {
+      "type": 0,
+      "value": "匯出發生錯誤"
+    }
+  ],
+  "stripes-data-transfer-components.filter.jobProfile": [
+    {
+      "type": 0,
+      "value": "工作檔案"
+    }
+  ],
+  "stripes-data-transfer-components.filter.option.no": [
+    {
+      "type": 0,
+      "value": "否"
+    }
+  ],
+  "stripes-data-transfer-components.filter.option.yes": [
+    {
+      "type": 0,
+      "value": "是"
+    }
+  ],
+  "stripes-data-transfer-components.filter.singleRecordImports": [
+    {
+      "type": 0,
+      "value": "館藏庫單一紀錄匯入"
+    }
+  ],
+  "stripes-data-transfer-components.filter.startedDate": [
+    {
+      "type": 0,
+      "value": "處理中"
+    }
+  ],
+  "stripes-data-transfer-components.filter.user": [
+    {
+      "type": 0,
+      "value": "使用者"
+    }
+  ],
+  "stripes-data-transfer-components.folioRecordType": [
+    {
+      "type": 0,
+      "value": "FOLIO 紀錄類型"
+    }
+  ],
+  "stripes-data-transfer-components.jobCompletedDate": [
+    {
+      "type": 0,
+      "value": "結束運行"
+    }
+  ],
+  "stripes-data-transfer-components.jobExecutionHrId": [
+    {
+      "type": 0,
+      "value": "ID"
+    }
+  ],
+  "stripes-data-transfer-components.jobProfileName": [
+    {
+      "type": 0,
+      "value": "工作檔案"
+    }
+  ],
+  "stripes-data-transfer-components.jobProfilesCount": [
+    {
+      "style": null,
+      "type": 2,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": "工作"
+    },
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "檔案"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "檔案"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "count"
+    }
+  ],
+  "stripes-data-transfer-components.jobProfilesTitle": [
+    {
+      "type": 0,
+      "value": "工作檔案"
+    }
+  ],
+  "stripes-data-transfer-components.learnMore": [
+    {
+      "type": 0,
+      "value": "了解更多資訊"
+    }
+  ],
+  "stripes-data-transfer-components.loading": [
+    {
+      "type": 0,
+      "value": "載入中"
+    }
+  ],
+  "stripes-data-transfer-components.mappingProfilesCount": [
+    {
+      "style": null,
+      "type": 2,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": "欄位對應"
+    },
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": " 檔案 "
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": " 檔案 "
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "count"
+    }
+  ],
+  "stripes-data-transfer-components.mappingProfilesTitle": [
+    {
+      "type": 0,
+      "value": "欄位對應檔案"
+    }
+  ],
+  "stripes-data-transfer-components.modify": [
+    {
+      "type": 0,
+      "value": "修改"
+    }
+  ],
+  "stripes-data-transfer-components.name": [
+    {
+      "type": 0,
+      "value": "名稱"
+    }
+  ],
+  "stripes-data-transfer-components.new": [
+    {
+      "type": 0,
+      "value": "新增"
+    }
+  ],
+  "stripes-data-transfer-components.profiles": [
+    {
+      "type": 0,
+      "value": "檔案"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.authority": [
+    {
+      "type": 0,
+      "value": "權威"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.holdings": [
+    {
+      "type": 0,
+      "value": "館藏"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.instance": [
+    {
+      "type": 0,
+      "value": "實例"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.invoice": [
+    {
+      "type": 0,
+      "value": "發票"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.item": [
+    {
+      "type": 0,
+      "value": "館藏"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.items": [
+    {
+      "type": 0,
+      "value": "館藏"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.marc-auth": [
+    {
+      "type": 0,
+      "value": "MARC 權威控制"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.marc-bib": [
+    {
+      "type": 0,
+      "value": "MARC 書目"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.marc-hold": [
+    {
+      "type": 0,
+      "value": "MARC 館藏"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.order": [
+    {
+      "type": 0,
+      "value": "訂單"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.orderLine": [
+    {
+      "type": 0,
+      "value": "訂單細項"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.srs": [
+    {
+      "type": 0,
+      "value": "來源紀錄儲存 ( 整筆紀錄 )"
+    }
+  ],
+  "stripes-data-transfer-components.records": [
+    {
+      "type": 0,
+      "value": "紀錄"
+    }
+  ],
+  "stripes-data-transfer-components.runBy": [
+    {
+      "type": 0,
+      "value": "由......運行"
+    }
+  ],
+  "stripes-data-transfer-components.search": [
+    {
+      "type": 0,
+      "value": "查詢"
+    }
+  ],
+  "stripes-data-transfer-components.settings.fileExtension.allowImport": [
+    {
+      "type": 0,
+      "value": "允許匯入"
+    }
+  ],
+  "stripes-data-transfer-components.settings.fileExtension.blockImport": [
+    {
+      "type": 0,
+      "value": "禁止匯入"
+    }
+  ],
+  "stripes-data-transfer-components.update": [
+    {
+      "type": 0,
+      "value": "更新"
+    }
+  ],
+  "stripes-data-transfer-components.updated": [
+    {
+      "type": 0,
+      "value": "已更新"
+    }
+  ],
+  "stripes-data-transfer-components.updatedBy": [
+    {
+      "type": 0,
+      "value": "更新者"
+    }
+  ],
+  "stripes-data-transfer-components.validation.enterValue": [
+    {
+      "type": 0,
+      "value": "請輸入一個值"
+    }
+  ],
   "stripes-erm-components.AND": [
     {
       "type": 0,
@@ -23070,6 +23378,30 @@
     {
       "type": 0,
       "value": "大量更新：(CSV) 編輯"
+    }
+  ],
+  "ui-bulk-edit.entityType.composite_holdings_record": [
+    {
+      "type": 0,
+      "value": "Holdings"
+    }
+  ],
+  "ui-bulk-edit.entityType.composite_instances": [
+    {
+      "type": 0,
+      "value": "Instances"
+    }
+  ],
+  "ui-bulk-edit.entityType.composite_item_details": [
+    {
+      "type": 0,
+      "value": "Items"
+    }
+  ],
+  "ui-bulk-edit.entityType.composite_user_details": [
+    {
+      "type": 0,
+      "value": "Users"
     }
   ],
   "ui-bulk-edit.error.incorrectFormatted": [
@@ -63773,6 +64105,24 @@
     {
       "type": 0,
       "value": "Status"
+    }
+  ],
+  "ui-finance.allocation.batch.logs.columns.status.completed": [
+    {
+      "type": 0,
+      "value": "Completed"
+    }
+  ],
+  "ui-finance.allocation.batch.logs.columns.status.error": [
+    {
+      "type": 0,
+      "value": "Error"
+    }
+  ],
+  "ui-finance.allocation.batch.logs.columns.status.inProgress": [
+    {
+      "type": 0,
+      "value": "In Progress"
     }
   ],
   "ui-finance.allocation.batch.logs.columns.updatedDate": [

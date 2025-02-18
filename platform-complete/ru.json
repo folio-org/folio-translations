@@ -9174,62 +9174,370 @@
       "value": "Имя пользователя"
     }
   ],
-  "stripes-data-transfer-components.create": "Create",
-  "stripes-data-transfer-components.delete": "Удалить",
-  "stripes-data-transfer-components.duplicate": "Дубликат",
-  "stripes-data-transfer-components.edit": "Редактировать",
-  "stripes-data-transfer-components.fileName": "File name",
-  "stripes-data-transfer-components.filter.chooseJobProfile": "Choose job profile",
-  "stripes-data-transfer-components.filter.chooseUser": "Choose user",
+  "stripes-data-transfer-components.create": [
+    {
+      "type": 0,
+      "value": "Create"
+    }
+  ],
+  "stripes-data-transfer-components.delete": [
+    {
+      "type": 0,
+      "value": "Удалить"
+    }
+  ],
+  "stripes-data-transfer-components.duplicate": [
+    {
+      "type": 0,
+      "value": "Дубликат"
+    }
+  ],
+  "stripes-data-transfer-components.edit": [
+    {
+      "type": 0,
+      "value": "Редактировать"
+    }
+  ],
+  "stripes-data-transfer-components.fileName": [
+    {
+      "type": 0,
+      "value": "File name"
+    }
+  ],
+  "stripes-data-transfer-components.filter.chooseJobProfile": [
+    {
+      "type": 0,
+      "value": "Choose job profile"
+    }
+  ],
+  "stripes-data-transfer-components.filter.chooseUser": [
+    {
+      "type": 0,
+      "value": "Choose user"
+    }
+  ],
   "stripes-data-transfer-components.filter.date": [
     {
       "type": 0,
       "value": "Date"
     }
   ],
-  "stripes-data-transfer-components.filter.endedDate": "Ended running",
-  "stripes-data-transfer-components.filter.errors": "Errors in export",
-  "stripes-data-transfer-components.filter.jobProfile": "Job profile",
-  "stripes-data-transfer-components.filter.option.no": "No",
-  "stripes-data-transfer-components.filter.option.yes": "Yes",
-  "stripes-data-transfer-components.filter.singleRecordImports": "Inventory single record imports",
-  "stripes-data-transfer-components.filter.startedDate": "Started running",
-  "stripes-data-transfer-components.filter.user": "User",
-  "stripes-data-transfer-components.folioRecordType": "Тип записи в FOLIO",
-  "stripes-data-transfer-components.jobCompletedDate": "Выполнение завершено",
-  "stripes-data-transfer-components.jobExecutionHrId": "ID",
-  "stripes-data-transfer-components.jobProfileName": "Профиль задания",
-  "stripes-data-transfer-components.jobProfilesCount": "{count, number} задания(ий) {count, plural, one {profile} other {profiles}}",
-  "stripes-data-transfer-components.jobProfilesTitle": "Профили заданий",
-  "stripes-data-transfer-components.learnMore": "Подробнее",
-  "stripes-data-transfer-components.loading": "Loading",
-  "stripes-data-transfer-components.mappingProfilesCount": "{count, number} field mapping {count, plural, one {profile} other {profiles}}",
-  "stripes-data-transfer-components.mappingProfilesTitle": "Field mapping profiles",
-  "stripes-data-transfer-components.modify": "Modify",
-  "stripes-data-transfer-components.name": "Название",
-  "stripes-data-transfer-components.new": "New",
-  "stripes-data-transfer-components.profiles": "Профили",
-  "stripes-data-transfer-components.recordTypes.authority": "Authority",
-  "stripes-data-transfer-components.recordTypes.holdings": "Холдинги",
-  "stripes-data-transfer-components.recordTypes.instance": "Экземпляр",
-  "stripes-data-transfer-components.recordTypes.invoice": "Счет",
-  "stripes-data-transfer-components.recordTypes.item": "Экземпляр",
-  "stripes-data-transfer-components.recordTypes.items": "Экземпляры",
-  "stripes-data-transfer-components.recordTypes.marc-auth": "Авторитетная MARC-запись",
-  "stripes-data-transfer-components.recordTypes.marc-bib": "Библиографическая MARC-запись",
-  "stripes-data-transfer-components.recordTypes.marc-hold": "Холдинговые MARC-записи",
-  "stripes-data-transfer-components.recordTypes.order": "Заказ",
-  "stripes-data-transfer-components.recordTypes.orderLine": "Заказ и строка заказа",
-  "stripes-data-transfer-components.recordTypes.srs": "Source record storage (entire record)",
-  "stripes-data-transfer-components.records": "Records",
-  "stripes-data-transfer-components.runBy": "Run by",
-  "stripes-data-transfer-components.search": "Поиск",
-  "stripes-data-transfer-components.settings.fileExtension.allowImport": "Allow import",
-  "stripes-data-transfer-components.settings.fileExtension.blockImport": "Block import",
-  "stripes-data-transfer-components.update": "Update",
-  "stripes-data-transfer-components.updated": "Обновлён",
-  "stripes-data-transfer-components.updatedBy": "Обновлён к",
-  "stripes-data-transfer-components.validation.enterValue": "Пожалуйста, введите значение",
+  "stripes-data-transfer-components.filter.endedDate": [
+    {
+      "type": 0,
+      "value": "Ended running"
+    }
+  ],
+  "stripes-data-transfer-components.filter.errors": [
+    {
+      "type": 0,
+      "value": "Errors in export"
+    }
+  ],
+  "stripes-data-transfer-components.filter.jobProfile": [
+    {
+      "type": 0,
+      "value": "Job profile"
+    }
+  ],
+  "stripes-data-transfer-components.filter.option.no": [
+    {
+      "type": 0,
+      "value": "No"
+    }
+  ],
+  "stripes-data-transfer-components.filter.option.yes": [
+    {
+      "type": 0,
+      "value": "Yes"
+    }
+  ],
+  "stripes-data-transfer-components.filter.singleRecordImports": [
+    {
+      "type": 0,
+      "value": "Inventory single record imports"
+    }
+  ],
+  "stripes-data-transfer-components.filter.startedDate": [
+    {
+      "type": 0,
+      "value": "Started running"
+    }
+  ],
+  "stripes-data-transfer-components.filter.user": [
+    {
+      "type": 0,
+      "value": "User"
+    }
+  ],
+  "stripes-data-transfer-components.folioRecordType": [
+    {
+      "type": 0,
+      "value": "Тип записи в FOLIO"
+    }
+  ],
+  "stripes-data-transfer-components.jobCompletedDate": [
+    {
+      "type": 0,
+      "value": "Выполнение завершено"
+    }
+  ],
+  "stripes-data-transfer-components.jobExecutionHrId": [
+    {
+      "type": 0,
+      "value": "ID"
+    }
+  ],
+  "stripes-data-transfer-components.jobProfileName": [
+    {
+      "type": 0,
+      "value": "Профиль задания"
+    }
+  ],
+  "stripes-data-transfer-components.jobProfilesCount": [
+    {
+      "style": null,
+      "type": 2,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": " задания(ий) "
+    },
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "profile"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "profiles"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "count"
+    }
+  ],
+  "stripes-data-transfer-components.jobProfilesTitle": [
+    {
+      "type": 0,
+      "value": "Профили заданий"
+    }
+  ],
+  "stripes-data-transfer-components.learnMore": [
+    {
+      "type": 0,
+      "value": "Подробнее"
+    }
+  ],
+  "stripes-data-transfer-components.loading": [
+    {
+      "type": 0,
+      "value": "Loading"
+    }
+  ],
+  "stripes-data-transfer-components.mappingProfilesCount": [
+    {
+      "style": null,
+      "type": 2,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": " field mapping "
+    },
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "profile"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "profiles"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "count"
+    }
+  ],
+  "stripes-data-transfer-components.mappingProfilesTitle": [
+    {
+      "type": 0,
+      "value": "Field mapping profiles"
+    }
+  ],
+  "stripes-data-transfer-components.modify": [
+    {
+      "type": 0,
+      "value": "Modify"
+    }
+  ],
+  "stripes-data-transfer-components.name": [
+    {
+      "type": 0,
+      "value": "Название"
+    }
+  ],
+  "stripes-data-transfer-components.new": [
+    {
+      "type": 0,
+      "value": "New"
+    }
+  ],
+  "stripes-data-transfer-components.profiles": [
+    {
+      "type": 0,
+      "value": "Профили"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.authority": [
+    {
+      "type": 0,
+      "value": "Authority"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.holdings": [
+    {
+      "type": 0,
+      "value": "Холдинги"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.instance": [
+    {
+      "type": 0,
+      "value": "Экземпляр"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.invoice": [
+    {
+      "type": 0,
+      "value": "Счет"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.item": [
+    {
+      "type": 0,
+      "value": "Экземпляр"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.items": [
+    {
+      "type": 0,
+      "value": "Экземпляры"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.marc-auth": [
+    {
+      "type": 0,
+      "value": "Авторитетная MARC-запись"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.marc-bib": [
+    {
+      "type": 0,
+      "value": "Библиографическая MARC-запись"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.marc-hold": [
+    {
+      "type": 0,
+      "value": "Холдинговые MARC-записи"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.order": [
+    {
+      "type": 0,
+      "value": "Заказ"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.orderLine": [
+    {
+      "type": 0,
+      "value": "Заказ и строка заказа"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.srs": [
+    {
+      "type": 0,
+      "value": "Source record storage (entire record)"
+    }
+  ],
+  "stripes-data-transfer-components.records": [
+    {
+      "type": 0,
+      "value": "Records"
+    }
+  ],
+  "stripes-data-transfer-components.runBy": [
+    {
+      "type": 0,
+      "value": "Run by"
+    }
+  ],
+  "stripes-data-transfer-components.search": [
+    {
+      "type": 0,
+      "value": "Поиск"
+    }
+  ],
+  "stripes-data-transfer-components.settings.fileExtension.allowImport": [
+    {
+      "type": 0,
+      "value": "Allow import"
+    }
+  ],
+  "stripes-data-transfer-components.settings.fileExtension.blockImport": [
+    {
+      "type": 0,
+      "value": "Block import"
+    }
+  ],
+  "stripes-data-transfer-components.update": [
+    {
+      "type": 0,
+      "value": "Update"
+    }
+  ],
+  "stripes-data-transfer-components.updated": [
+    {
+      "type": 0,
+      "value": "Обновлён"
+    }
+  ],
+  "stripes-data-transfer-components.updatedBy": [
+    {
+      "type": 0,
+      "value": "Обновлён к"
+    }
+  ],
+  "stripes-data-transfer-components.validation.enterValue": [
+    {
+      "type": 0,
+      "value": "Пожалуйста, введите значение"
+    }
+  ],
   "stripes-erm-components.AND": [
     {
       "type": 0,
@@ -22973,6 +23281,30 @@
     {
       "type": 0,
       "value": "Bulk Edit: (CSV) Edit"
+    }
+  ],
+  "ui-bulk-edit.entityType.composite_holdings_record": [
+    {
+      "type": 0,
+      "value": "Holdings"
+    }
+  ],
+  "ui-bulk-edit.entityType.composite_instances": [
+    {
+      "type": 0,
+      "value": "Instances"
+    }
+  ],
+  "ui-bulk-edit.entityType.composite_item_details": [
+    {
+      "type": 0,
+      "value": "Items"
+    }
+  ],
+  "ui-bulk-edit.entityType.composite_user_details": [
+    {
+      "type": 0,
+      "value": "Users"
     }
   ],
   "ui-bulk-edit.error.incorrectFormatted": [
@@ -63199,6 +63531,24 @@
     {
       "type": 0,
       "value": "Status"
+    }
+  ],
+  "ui-finance.allocation.batch.logs.columns.status.completed": [
+    {
+      "type": 0,
+      "value": "Completed"
+    }
+  ],
+  "ui-finance.allocation.batch.logs.columns.status.error": [
+    {
+      "type": 0,
+      "value": "Error"
+    }
+  ],
+  "ui-finance.allocation.batch.logs.columns.status.inProgress": [
+    {
+      "type": 0,
+      "value": "In Progress"
     }
   ],
   "ui-finance.allocation.batch.logs.columns.updatedDate": [

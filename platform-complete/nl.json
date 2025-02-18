@@ -9115,56 +9115,364 @@
       "value": "Gebruikersnaam"
     }
   ],
-  "stripes-data-transfer-components.create": "Aanmaken",
-  "stripes-data-transfer-components.delete": "Verwijderen",
-  "stripes-data-transfer-components.duplicate": "Dupliceren",
-  "stripes-data-transfer-components.edit": "Bewerken",
-  "stripes-data-transfer-components.fileName": "Bestandsnaam",
-  "stripes-data-transfer-components.filter.chooseJobProfile": "Taakprofiel kiezen",
-  "stripes-data-transfer-components.filter.chooseUser": "Gebruiker kiezen",
-  "stripes-data-transfer-components.filter.endedDate": "Uitvoeren beëindigd",
-  "stripes-data-transfer-components.filter.errors": "Fouten bij het exporteren",
-  "stripes-data-transfer-components.filter.jobProfile": "Taakprofiel",
-  "stripes-data-transfer-components.filter.option.no": "Nee",
-  "stripes-data-transfer-components.filter.option.yes": "Ja",
-  "stripes-data-transfer-components.filter.singleRecordImports": "Individuele recordsimport collectiebezit",
-  "stripes-data-transfer-components.filter.startedDate": "Uitvoeren gestart",
-  "stripes-data-transfer-components.filter.user": "Gebruiker",
-  "stripes-data-transfer-components.folioRecordType": "FOLIO-recordtype",
-  "stripes-data-transfer-components.jobCompletedDate": "Uitvoeren beëindigd",
-  "stripes-data-transfer-components.jobExecutionHrId": "ID",
-  "stripes-data-transfer-components.jobProfileName": "Taakprofiel",
-  "stripes-data-transfer-components.jobProfilesCount": "{count, number} taak {count, plural, one {profile} other {profiles}}",
-  "stripes-data-transfer-components.jobProfilesTitle": "Taakprofielen",
-  "stripes-data-transfer-components.learnMore": "Meer informatie",
-  "stripes-data-transfer-components.loading": "Laden",
-  "stripes-data-transfer-components.mappingProfilesCount": "{count, number} veldkoppeling {count, plural, one {profile} other {profiles}}",
-  "stripes-data-transfer-components.mappingProfilesTitle": "Profielen voor het koppelen van velden",
-  "stripes-data-transfer-components.modify": "Wijzigen",
-  "stripes-data-transfer-components.name": "Naam",
-  "stripes-data-transfer-components.new": "Nieuw",
-  "stripes-data-transfer-components.profiles": "Profielen",
-  "stripes-data-transfer-components.recordTypes.authority": "Authority",
-  "stripes-data-transfer-components.recordTypes.holdings": "Holdings",
-  "stripes-data-transfer-components.recordTypes.instance": "Instance",
-  "stripes-data-transfer-components.recordTypes.invoice": "Factuur",
-  "stripes-data-transfer-components.recordTypes.item": "Item",
-  "stripes-data-transfer-components.recordTypes.items": "Items",
-  "stripes-data-transfer-components.recordTypes.marc-auth": "MARC Authority",
-  "stripes-data-transfer-components.recordTypes.marc-bib": "MARC Bibliographic",
-  "stripes-data-transfer-components.recordTypes.marc-hold": "MARC Holdings",
-  "stripes-data-transfer-components.recordTypes.order": "Bestelling",
-  "stripes-data-transfer-components.recordTypes.orderLine": "Bestelling en bestelregel",
-  "stripes-data-transfer-components.recordTypes.srs": "Opslag bronrecord (gehele record)",
-  "stripes-data-transfer-components.records": "Records",
-  "stripes-data-transfer-components.runBy": "Uitgevoerd door",
-  "stripes-data-transfer-components.search": "Zoeken",
-  "stripes-data-transfer-components.settings.fileExtension.allowImport": "Import toestaan",
-  "stripes-data-transfer-components.settings.fileExtension.blockImport": "Import blokkeren",
-  "stripes-data-transfer-components.update": "Update",
-  "stripes-data-transfer-components.updated": "Bijgewerkt",
-  "stripes-data-transfer-components.updatedBy": "Bijgewerkt door",
-  "stripes-data-transfer-components.validation.enterValue": "Voer een waarde in",
+  "stripes-data-transfer-components.create": [
+    {
+      "type": 0,
+      "value": "Aanmaken"
+    }
+  ],
+  "stripes-data-transfer-components.delete": [
+    {
+      "type": 0,
+      "value": "Verwijderen"
+    }
+  ],
+  "stripes-data-transfer-components.duplicate": [
+    {
+      "type": 0,
+      "value": "Dupliceren"
+    }
+  ],
+  "stripes-data-transfer-components.edit": [
+    {
+      "type": 0,
+      "value": "Bewerken"
+    }
+  ],
+  "stripes-data-transfer-components.fileName": [
+    {
+      "type": 0,
+      "value": "Bestandsnaam"
+    }
+  ],
+  "stripes-data-transfer-components.filter.chooseJobProfile": [
+    {
+      "type": 0,
+      "value": "Taakprofiel kiezen"
+    }
+  ],
+  "stripes-data-transfer-components.filter.chooseUser": [
+    {
+      "type": 0,
+      "value": "Gebruiker kiezen"
+    }
+  ],
+  "stripes-data-transfer-components.filter.endedDate": [
+    {
+      "type": 0,
+      "value": "Uitvoeren beëindigd"
+    }
+  ],
+  "stripes-data-transfer-components.filter.errors": [
+    {
+      "type": 0,
+      "value": "Fouten bij het exporteren"
+    }
+  ],
+  "stripes-data-transfer-components.filter.jobProfile": [
+    {
+      "type": 0,
+      "value": "Taakprofiel"
+    }
+  ],
+  "stripes-data-transfer-components.filter.option.no": [
+    {
+      "type": 0,
+      "value": "Nee"
+    }
+  ],
+  "stripes-data-transfer-components.filter.option.yes": [
+    {
+      "type": 0,
+      "value": "Ja"
+    }
+  ],
+  "stripes-data-transfer-components.filter.singleRecordImports": [
+    {
+      "type": 0,
+      "value": "Individuele recordsimport collectiebezit"
+    }
+  ],
+  "stripes-data-transfer-components.filter.startedDate": [
+    {
+      "type": 0,
+      "value": "Uitvoeren gestart"
+    }
+  ],
+  "stripes-data-transfer-components.filter.user": [
+    {
+      "type": 0,
+      "value": "Gebruiker"
+    }
+  ],
+  "stripes-data-transfer-components.folioRecordType": [
+    {
+      "type": 0,
+      "value": "FOLIO-recordtype"
+    }
+  ],
+  "stripes-data-transfer-components.jobCompletedDate": [
+    {
+      "type": 0,
+      "value": "Uitvoeren beëindigd"
+    }
+  ],
+  "stripes-data-transfer-components.jobExecutionHrId": [
+    {
+      "type": 0,
+      "value": "ID"
+    }
+  ],
+  "stripes-data-transfer-components.jobProfileName": [
+    {
+      "type": 0,
+      "value": "Taakprofiel"
+    }
+  ],
+  "stripes-data-transfer-components.jobProfilesCount": [
+    {
+      "style": null,
+      "type": 2,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": " taak "
+    },
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "profile"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "profiles"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "count"
+    }
+  ],
+  "stripes-data-transfer-components.jobProfilesTitle": [
+    {
+      "type": 0,
+      "value": "Taakprofielen"
+    }
+  ],
+  "stripes-data-transfer-components.learnMore": [
+    {
+      "type": 0,
+      "value": "Meer informatie"
+    }
+  ],
+  "stripes-data-transfer-components.loading": [
+    {
+      "type": 0,
+      "value": "Laden"
+    }
+  ],
+  "stripes-data-transfer-components.mappingProfilesCount": [
+    {
+      "style": null,
+      "type": 2,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": " veldkoppeling "
+    },
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "profile"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "profiles"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "count"
+    }
+  ],
+  "stripes-data-transfer-components.mappingProfilesTitle": [
+    {
+      "type": 0,
+      "value": "Profielen voor het koppelen van velden"
+    }
+  ],
+  "stripes-data-transfer-components.modify": [
+    {
+      "type": 0,
+      "value": "Wijzigen"
+    }
+  ],
+  "stripes-data-transfer-components.name": [
+    {
+      "type": 0,
+      "value": "Naam"
+    }
+  ],
+  "stripes-data-transfer-components.new": [
+    {
+      "type": 0,
+      "value": "Nieuw"
+    }
+  ],
+  "stripes-data-transfer-components.profiles": [
+    {
+      "type": 0,
+      "value": "Profielen"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.authority": [
+    {
+      "type": 0,
+      "value": "Authority"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.holdings": [
+    {
+      "type": 0,
+      "value": "Holdings"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.instance": [
+    {
+      "type": 0,
+      "value": "Instance"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.invoice": [
+    {
+      "type": 0,
+      "value": "Factuur"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.item": [
+    {
+      "type": 0,
+      "value": "Item"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.items": [
+    {
+      "type": 0,
+      "value": "Items"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.marc-auth": [
+    {
+      "type": 0,
+      "value": "MARC Authority"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.marc-bib": [
+    {
+      "type": 0,
+      "value": "MARC Bibliographic"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.marc-hold": [
+    {
+      "type": 0,
+      "value": "MARC Holdings"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.order": [
+    {
+      "type": 0,
+      "value": "Bestelling"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.orderLine": [
+    {
+      "type": 0,
+      "value": "Bestelling en bestelregel"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.srs": [
+    {
+      "type": 0,
+      "value": "Opslag bronrecord (gehele record)"
+    }
+  ],
+  "stripes-data-transfer-components.records": [
+    {
+      "type": 0,
+      "value": "Records"
+    }
+  ],
+  "stripes-data-transfer-components.runBy": [
+    {
+      "type": 0,
+      "value": "Uitgevoerd door"
+    }
+  ],
+  "stripes-data-transfer-components.search": [
+    {
+      "type": 0,
+      "value": "Zoeken"
+    }
+  ],
+  "stripes-data-transfer-components.settings.fileExtension.allowImport": [
+    {
+      "type": 0,
+      "value": "Import toestaan"
+    }
+  ],
+  "stripes-data-transfer-components.settings.fileExtension.blockImport": [
+    {
+      "type": 0,
+      "value": "Import blokkeren"
+    }
+  ],
+  "stripes-data-transfer-components.update": [
+    {
+      "type": 0,
+      "value": "Update"
+    }
+  ],
+  "stripes-data-transfer-components.updated": [
+    {
+      "type": 0,
+      "value": "Bijgewerkt"
+    }
+  ],
+  "stripes-data-transfer-components.updatedBy": [
+    {
+      "type": 0,
+      "value": "Bijgewerkt door"
+    }
+  ],
+  "stripes-data-transfer-components.validation.enterValue": [
+    {
+      "type": 0,
+      "value": "Voer een waarde in"
+    }
+  ],
   "stripes-erm-components.AND": [
     {
       "type": 0,
@@ -22045,6 +22353,30 @@
     {
       "type": 0,
       "value": " wordt geklikt."
+    }
+  ],
+  "ui-bulk-edit.entityType.composite_holdings_record": [
+    {
+      "type": 0,
+      "value": "Holdings"
+    }
+  ],
+  "ui-bulk-edit.entityType.composite_instances": [
+    {
+      "type": 0,
+      "value": "Instances"
+    }
+  ],
+  "ui-bulk-edit.entityType.composite_item_details": [
+    {
+      "type": 0,
+      "value": "Items"
+    }
+  ],
+  "ui-bulk-edit.entityType.composite_user_details": [
+    {
+      "type": 0,
+      "value": "Users"
     }
   ],
   "ui-bulk-edit.error.incorrectFormatted": [
@@ -57563,6 +57895,24 @@
     {
       "type": 0,
       "value": "Status"
+    }
+  ],
+  "ui-finance.allocation.batch.logs.columns.status.completed": [
+    {
+      "type": 0,
+      "value": "Completed"
+    }
+  ],
+  "ui-finance.allocation.batch.logs.columns.status.error": [
+    {
+      "type": 0,
+      "value": "Error"
+    }
+  ],
+  "ui-finance.allocation.batch.logs.columns.status.inProgress": [
+    {
+      "type": 0,
+      "value": "In Progress"
     }
   ],
   "ui-finance.allocation.batch.logs.columns.updatedDate": [

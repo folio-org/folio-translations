@@ -9137,62 +9137,370 @@
       "value": "اسم المستخدم"
     }
   ],
-  "stripes-data-transfer-components.create": "Create",
-  "stripes-data-transfer-components.delete": "حذف",
-  "stripes-data-transfer-components.duplicate": "تكرار",
-  "stripes-data-transfer-components.edit": "تحرير",
-  "stripes-data-transfer-components.fileName": "اسم الملف",
-  "stripes-data-transfer-components.filter.chooseJobProfile": "اختر بروفايل المهمة",
-  "stripes-data-transfer-components.filter.chooseUser": "اختر مستخدم",
+  "stripes-data-transfer-components.create": [
+    {
+      "type": 0,
+      "value": "Create"
+    }
+  ],
+  "stripes-data-transfer-components.delete": [
+    {
+      "type": 0,
+      "value": "حذف"
+    }
+  ],
+  "stripes-data-transfer-components.duplicate": [
+    {
+      "type": 0,
+      "value": "تكرار"
+    }
+  ],
+  "stripes-data-transfer-components.edit": [
+    {
+      "type": 0,
+      "value": "تحرير"
+    }
+  ],
+  "stripes-data-transfer-components.fileName": [
+    {
+      "type": 0,
+      "value": "اسم الملف"
+    }
+  ],
+  "stripes-data-transfer-components.filter.chooseJobProfile": [
+    {
+      "type": 0,
+      "value": "اختر بروفايل المهمة"
+    }
+  ],
+  "stripes-data-transfer-components.filter.chooseUser": [
+    {
+      "type": 0,
+      "value": "اختر مستخدم"
+    }
+  ],
   "stripes-data-transfer-components.filter.date": [
     {
       "type": 0,
       "value": "التاريخ"
     }
   ],
-  "stripes-data-transfer-components.filter.endedDate": "Ended running",
-  "stripes-data-transfer-components.filter.errors": "أخطاء في الاستيراد",
-  "stripes-data-transfer-components.filter.jobProfile": "بروفايل المهمة",
-  "stripes-data-transfer-components.filter.option.no": "لا",
-  "stripes-data-transfer-components.filter.option.yes": "نعم",
-  "stripes-data-transfer-components.filter.singleRecordImports": "استيرادات تسجيلة مفردة بالمخزون",
-  "stripes-data-transfer-components.filter.startedDate": "Started running",
-  "stripes-data-transfer-components.filter.user": "المستخدم",
-  "stripes-data-transfer-components.folioRecordType": "نوع تسجيلة فوليو",
-  "stripes-data-transfer-components.jobCompletedDate": "انتهى التشغيل",
-  "stripes-data-transfer-components.jobExecutionHrId": "المعرّف",
-  "stripes-data-transfer-components.jobProfileName": "بروفايل المهمة",
-  "stripes-data-transfer-components.jobProfilesCount": "{count, number} مهمة {count, plural, one {بروفايل} other {بروفايلات}}",
-  "stripes-data-transfer-components.jobProfilesTitle": "بروفايلات المهام",
-  "stripes-data-transfer-components.learnMore": "تعرف على المزيد",
-  "stripes-data-transfer-components.loading": "جاري التحميل",
-  "stripes-data-transfer-components.mappingProfilesCount": "{count, number} تخطيط حقل {count, plural, one {وضعًا} other {وضعًا}}",
-  "stripes-data-transfer-components.mappingProfilesTitle": "أوضاع تخطيط الحقل",
-  "stripes-data-transfer-components.modify": "Modify",
-  "stripes-data-transfer-components.name": "الاسم",
-  "stripes-data-transfer-components.new": "جديد",
-  "stripes-data-transfer-components.profiles": "أوضاع",
-  "stripes-data-transfer-components.recordTypes.authority": "استناد",
-  "stripes-data-transfer-components.recordTypes.holdings": "المقتنيات",
-  "stripes-data-transfer-components.recordTypes.instance": "وعاء",
-  "stripes-data-transfer-components.recordTypes.invoice": "الفاتورة",
-  "stripes-data-transfer-components.recordTypes.item": "المادة",
-  "stripes-data-transfer-components.recordTypes.items": "مواد",
-  "stripes-data-transfer-components.recordTypes.marc-auth": "استناد مارك",
-  "stripes-data-transfer-components.recordTypes.marc-bib": "تسجيلة مارك البيبلوغرافية",
-  "stripes-data-transfer-components.recordTypes.marc-hold": "مقتنيات مارك",
-  "stripes-data-transfer-components.recordTypes.order": "طلبية",
-  "stripes-data-transfer-components.recordTypes.orderLine": "الطلبية وسطر الطلبية",
-  "stripes-data-transfer-components.recordTypes.srs": "تخزين تسجيلة المصدر (التسجيلة بأكملها)",
-  "stripes-data-transfer-components.records": "تسجيلات",
-  "stripes-data-transfer-components.runBy": "تشغيل بواسطة",
-  "stripes-data-transfer-components.search": "بحث",
-  "stripes-data-transfer-components.settings.fileExtension.allowImport": "Allow import",
-  "stripes-data-transfer-components.settings.fileExtension.blockImport": "Block import",
-  "stripes-data-transfer-components.update": "Update",
-  "stripes-data-transfer-components.updated": "محدّث",
-  "stripes-data-transfer-components.updatedBy": "تم تحديثه بواسطة",
-  "stripes-data-transfer-components.validation.enterValue": "يرجى إدخال قيمة",
+  "stripes-data-transfer-components.filter.endedDate": [
+    {
+      "type": 0,
+      "value": "Ended running"
+    }
+  ],
+  "stripes-data-transfer-components.filter.errors": [
+    {
+      "type": 0,
+      "value": "أخطاء في الاستيراد"
+    }
+  ],
+  "stripes-data-transfer-components.filter.jobProfile": [
+    {
+      "type": 0,
+      "value": "بروفايل المهمة"
+    }
+  ],
+  "stripes-data-transfer-components.filter.option.no": [
+    {
+      "type": 0,
+      "value": "لا"
+    }
+  ],
+  "stripes-data-transfer-components.filter.option.yes": [
+    {
+      "type": 0,
+      "value": "نعم"
+    }
+  ],
+  "stripes-data-transfer-components.filter.singleRecordImports": [
+    {
+      "type": 0,
+      "value": "استيرادات تسجيلة مفردة بالمخزون"
+    }
+  ],
+  "stripes-data-transfer-components.filter.startedDate": [
+    {
+      "type": 0,
+      "value": "Started running"
+    }
+  ],
+  "stripes-data-transfer-components.filter.user": [
+    {
+      "type": 0,
+      "value": "المستخدم"
+    }
+  ],
+  "stripes-data-transfer-components.folioRecordType": [
+    {
+      "type": 0,
+      "value": "نوع تسجيلة فوليو"
+    }
+  ],
+  "stripes-data-transfer-components.jobCompletedDate": [
+    {
+      "type": 0,
+      "value": "انتهى التشغيل"
+    }
+  ],
+  "stripes-data-transfer-components.jobExecutionHrId": [
+    {
+      "type": 0,
+      "value": "المعرّف"
+    }
+  ],
+  "stripes-data-transfer-components.jobProfileName": [
+    {
+      "type": 0,
+      "value": "بروفايل المهمة"
+    }
+  ],
+  "stripes-data-transfer-components.jobProfilesCount": [
+    {
+      "style": null,
+      "type": 2,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": " مهمة "
+    },
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "بروفايل"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "بروفايلات"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "count"
+    }
+  ],
+  "stripes-data-transfer-components.jobProfilesTitle": [
+    {
+      "type": 0,
+      "value": "بروفايلات المهام"
+    }
+  ],
+  "stripes-data-transfer-components.learnMore": [
+    {
+      "type": 0,
+      "value": "تعرف على المزيد"
+    }
+  ],
+  "stripes-data-transfer-components.loading": [
+    {
+      "type": 0,
+      "value": "جاري التحميل"
+    }
+  ],
+  "stripes-data-transfer-components.mappingProfilesCount": [
+    {
+      "style": null,
+      "type": 2,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": " تخطيط حقل "
+    },
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "وضعًا"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "وضعًا"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "count"
+    }
+  ],
+  "stripes-data-transfer-components.mappingProfilesTitle": [
+    {
+      "type": 0,
+      "value": "أوضاع تخطيط الحقل"
+    }
+  ],
+  "stripes-data-transfer-components.modify": [
+    {
+      "type": 0,
+      "value": "Modify"
+    }
+  ],
+  "stripes-data-transfer-components.name": [
+    {
+      "type": 0,
+      "value": "الاسم"
+    }
+  ],
+  "stripes-data-transfer-components.new": [
+    {
+      "type": 0,
+      "value": "جديد"
+    }
+  ],
+  "stripes-data-transfer-components.profiles": [
+    {
+      "type": 0,
+      "value": "أوضاع"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.authority": [
+    {
+      "type": 0,
+      "value": "استناد"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.holdings": [
+    {
+      "type": 0,
+      "value": "المقتنيات"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.instance": [
+    {
+      "type": 0,
+      "value": "وعاء"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.invoice": [
+    {
+      "type": 0,
+      "value": "الفاتورة"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.item": [
+    {
+      "type": 0,
+      "value": "المادة"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.items": [
+    {
+      "type": 0,
+      "value": "مواد"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.marc-auth": [
+    {
+      "type": 0,
+      "value": "استناد مارك"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.marc-bib": [
+    {
+      "type": 0,
+      "value": "تسجيلة مارك البيبلوغرافية"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.marc-hold": [
+    {
+      "type": 0,
+      "value": "مقتنيات مارك"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.order": [
+    {
+      "type": 0,
+      "value": "طلبية"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.orderLine": [
+    {
+      "type": 0,
+      "value": "الطلبية وسطر الطلبية"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.srs": [
+    {
+      "type": 0,
+      "value": "تخزين تسجيلة المصدر (التسجيلة بأكملها)"
+    }
+  ],
+  "stripes-data-transfer-components.records": [
+    {
+      "type": 0,
+      "value": "تسجيلات"
+    }
+  ],
+  "stripes-data-transfer-components.runBy": [
+    {
+      "type": 0,
+      "value": "تشغيل بواسطة"
+    }
+  ],
+  "stripes-data-transfer-components.search": [
+    {
+      "type": 0,
+      "value": "بحث"
+    }
+  ],
+  "stripes-data-transfer-components.settings.fileExtension.allowImport": [
+    {
+      "type": 0,
+      "value": "Allow import"
+    }
+  ],
+  "stripes-data-transfer-components.settings.fileExtension.blockImport": [
+    {
+      "type": 0,
+      "value": "Block import"
+    }
+  ],
+  "stripes-data-transfer-components.update": [
+    {
+      "type": 0,
+      "value": "Update"
+    }
+  ],
+  "stripes-data-transfer-components.updated": [
+    {
+      "type": 0,
+      "value": "محدّث"
+    }
+  ],
+  "stripes-data-transfer-components.updatedBy": [
+    {
+      "type": 0,
+      "value": "تم تحديثه بواسطة"
+    }
+  ],
+  "stripes-data-transfer-components.validation.enterValue": [
+    {
+      "type": 0,
+      "value": "يرجى إدخال قيمة"
+    }
+  ],
   "stripes-erm-components.AND": [
     {
       "type": 0,
@@ -22928,6 +23236,30 @@
     {
       "type": 0,
       "value": "التحرير بالدفعة: (CSV) حرّر"
+    }
+  ],
+  "ui-bulk-edit.entityType.composite_holdings_record": [
+    {
+      "type": 0,
+      "value": "Holdings"
+    }
+  ],
+  "ui-bulk-edit.entityType.composite_instances": [
+    {
+      "type": 0,
+      "value": "Instances"
+    }
+  ],
+  "ui-bulk-edit.entityType.composite_item_details": [
+    {
+      "type": 0,
+      "value": "Items"
+    }
+  ],
+  "ui-bulk-edit.entityType.composite_user_details": [
+    {
+      "type": 0,
+      "value": "Users"
     }
   ],
   "ui-bulk-edit.error.incorrectFormatted": [
@@ -63032,6 +63364,24 @@
     {
       "type": 0,
       "value": "Status"
+    }
+  ],
+  "ui-finance.allocation.batch.logs.columns.status.completed": [
+    {
+      "type": 0,
+      "value": "Completed"
+    }
+  ],
+  "ui-finance.allocation.batch.logs.columns.status.error": [
+    {
+      "type": 0,
+      "value": "Error"
+    }
+  ],
+  "ui-finance.allocation.batch.logs.columns.status.inProgress": [
+    {
+      "type": 0,
+      "value": "In Progress"
     }
   ],
   "ui-finance.allocation.batch.logs.columns.updatedDate": [

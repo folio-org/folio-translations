@@ -9164,62 +9164,370 @@
       "value": "Uživatelské jméno"
     }
   ],
-  "stripes-data-transfer-components.create": "Vytvořit",
-  "stripes-data-transfer-components.delete": "Smazat",
-  "stripes-data-transfer-components.duplicate": "Duplikovat",
-  "stripes-data-transfer-components.edit": "Upravit",
-  "stripes-data-transfer-components.fileName": "Název souboru",
-  "stripes-data-transfer-components.filter.chooseJobProfile": "Vybrat profil úlohy",
-  "stripes-data-transfer-components.filter.chooseUser": "Vybrat uživatele",
+  "stripes-data-transfer-components.create": [
+    {
+      "type": 0,
+      "value": "Vytvořit"
+    }
+  ],
+  "stripes-data-transfer-components.delete": [
+    {
+      "type": 0,
+      "value": "Smazat"
+    }
+  ],
+  "stripes-data-transfer-components.duplicate": [
+    {
+      "type": 0,
+      "value": "Duplikovat"
+    }
+  ],
+  "stripes-data-transfer-components.edit": [
+    {
+      "type": 0,
+      "value": "Upravit"
+    }
+  ],
+  "stripes-data-transfer-components.fileName": [
+    {
+      "type": 0,
+      "value": "Název souboru"
+    }
+  ],
+  "stripes-data-transfer-components.filter.chooseJobProfile": [
+    {
+      "type": 0,
+      "value": "Vybrat profil úlohy"
+    }
+  ],
+  "stripes-data-transfer-components.filter.chooseUser": [
+    {
+      "type": 0,
+      "value": "Vybrat uživatele"
+    }
+  ],
   "stripes-data-transfer-components.filter.date": [
     {
       "type": 0,
       "value": "Datum"
     }
   ],
-  "stripes-data-transfer-components.filter.endedDate": "Dokončeno",
-  "stripes-data-transfer-components.filter.errors": "Chyby při exportu",
-  "stripes-data-transfer-components.filter.jobProfile": "Profil úlohy",
-  "stripes-data-transfer-components.filter.option.no": "Ne",
-  "stripes-data-transfer-components.filter.option.yes": "Ano",
-  "stripes-data-transfer-components.filter.singleRecordImports": "Import jednoho záznamu katalogu",
-  "stripes-data-transfer-components.filter.startedDate": "Spuštěno",
-  "stripes-data-transfer-components.filter.user": "Uživatel",
-  "stripes-data-transfer-components.folioRecordType": "Typ záznamu FOLIO",
-  "stripes-data-transfer-components.jobCompletedDate": "Dokončeno",
-  "stripes-data-transfer-components.jobExecutionHrId": "ID",
-  "stripes-data-transfer-components.jobProfileName": "Profil úlohy",
-  "stripes-data-transfer-components.jobProfilesCount": "{count, number} akce {count, plural, one {profil} other {profilů}}",
-  "stripes-data-transfer-components.jobProfilesTitle": "Profily úloh",
-  "stripes-data-transfer-components.learnMore": "Zjistit více",
-  "stripes-data-transfer-components.loading": "Načítání",
-  "stripes-data-transfer-components.mappingProfilesCount": "{count, number} mapování polí {count, plural, one {profil} other {profilů}}",
-  "stripes-data-transfer-components.mappingProfilesTitle": "Profily mapování polí",
-  "stripes-data-transfer-components.modify": "Upravit",
-  "stripes-data-transfer-components.name": "Jméno",
-  "stripes-data-transfer-components.new": "Nový",
-  "stripes-data-transfer-components.profiles": "Profily",
-  "stripes-data-transfer-components.recordTypes.authority": "Autorita",
-  "stripes-data-transfer-components.recordTypes.holdings": "Holdingy",
-  "stripes-data-transfer-components.recordTypes.instance": "Titul",
-  "stripes-data-transfer-components.recordTypes.invoice": "Faktura",
-  "stripes-data-transfer-components.recordTypes.item": "Jednotka",
-  "stripes-data-transfer-components.recordTypes.items": "Jednotky",
-  "stripes-data-transfer-components.recordTypes.marc-auth": "MARC autority",
-  "stripes-data-transfer-components.recordTypes.marc-bib": "MARC Bibliografické",
-  "stripes-data-transfer-components.recordTypes.marc-hold": "MARC holdingy",
-  "stripes-data-transfer-components.recordTypes.order": "Objednávka",
-  "stripes-data-transfer-components.recordTypes.orderLine": "Objednávka a řádek objednávky",
-  "stripes-data-transfer-components.recordTypes.srs": "Úložiště zdrojového záznamu (celý záznam)",
-  "stripes-data-transfer-components.records": "Záznamy",
-  "stripes-data-transfer-components.runBy": "Provozuje",
-  "stripes-data-transfer-components.search": "Vyhledat",
-  "stripes-data-transfer-components.settings.fileExtension.allowImport": "Povolit import",
-  "stripes-data-transfer-components.settings.fileExtension.blockImport": "Blokovat import",
-  "stripes-data-transfer-components.update": "Aktualizace",
-  "stripes-data-transfer-components.updated": "Aktualizováno",
-  "stripes-data-transfer-components.updatedBy": "Aktualizoval",
-  "stripes-data-transfer-components.validation.enterValue": "Zadejte prosím hodnotu",
+  "stripes-data-transfer-components.filter.endedDate": [
+    {
+      "type": 0,
+      "value": "Dokončeno"
+    }
+  ],
+  "stripes-data-transfer-components.filter.errors": [
+    {
+      "type": 0,
+      "value": "Chyby při exportu"
+    }
+  ],
+  "stripes-data-transfer-components.filter.jobProfile": [
+    {
+      "type": 0,
+      "value": "Profil úlohy"
+    }
+  ],
+  "stripes-data-transfer-components.filter.option.no": [
+    {
+      "type": 0,
+      "value": "Ne"
+    }
+  ],
+  "stripes-data-transfer-components.filter.option.yes": [
+    {
+      "type": 0,
+      "value": "Ano"
+    }
+  ],
+  "stripes-data-transfer-components.filter.singleRecordImports": [
+    {
+      "type": 0,
+      "value": "Import jednoho záznamu katalogu"
+    }
+  ],
+  "stripes-data-transfer-components.filter.startedDate": [
+    {
+      "type": 0,
+      "value": "Spuštěno"
+    }
+  ],
+  "stripes-data-transfer-components.filter.user": [
+    {
+      "type": 0,
+      "value": "Uživatel"
+    }
+  ],
+  "stripes-data-transfer-components.folioRecordType": [
+    {
+      "type": 0,
+      "value": "Typ záznamu FOLIO"
+    }
+  ],
+  "stripes-data-transfer-components.jobCompletedDate": [
+    {
+      "type": 0,
+      "value": "Dokončeno"
+    }
+  ],
+  "stripes-data-transfer-components.jobExecutionHrId": [
+    {
+      "type": 0,
+      "value": "ID"
+    }
+  ],
+  "stripes-data-transfer-components.jobProfileName": [
+    {
+      "type": 0,
+      "value": "Profil úlohy"
+    }
+  ],
+  "stripes-data-transfer-components.jobProfilesCount": [
+    {
+      "style": null,
+      "type": 2,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": " akce "
+    },
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "profil"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "profilů"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "count"
+    }
+  ],
+  "stripes-data-transfer-components.jobProfilesTitle": [
+    {
+      "type": 0,
+      "value": "Profily úloh"
+    }
+  ],
+  "stripes-data-transfer-components.learnMore": [
+    {
+      "type": 0,
+      "value": "Zjistit více"
+    }
+  ],
+  "stripes-data-transfer-components.loading": [
+    {
+      "type": 0,
+      "value": "Načítání"
+    }
+  ],
+  "stripes-data-transfer-components.mappingProfilesCount": [
+    {
+      "style": null,
+      "type": 2,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": " mapování polí "
+    },
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "profil"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "profilů"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "count"
+    }
+  ],
+  "stripes-data-transfer-components.mappingProfilesTitle": [
+    {
+      "type": 0,
+      "value": "Profily mapování polí"
+    }
+  ],
+  "stripes-data-transfer-components.modify": [
+    {
+      "type": 0,
+      "value": "Upravit"
+    }
+  ],
+  "stripes-data-transfer-components.name": [
+    {
+      "type": 0,
+      "value": "Jméno"
+    }
+  ],
+  "stripes-data-transfer-components.new": [
+    {
+      "type": 0,
+      "value": "Nový"
+    }
+  ],
+  "stripes-data-transfer-components.profiles": [
+    {
+      "type": 0,
+      "value": "Profily"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.authority": [
+    {
+      "type": 0,
+      "value": "Autorita"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.holdings": [
+    {
+      "type": 0,
+      "value": "Holdingy"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.instance": [
+    {
+      "type": 0,
+      "value": "Titul"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.invoice": [
+    {
+      "type": 0,
+      "value": "Faktura"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.item": [
+    {
+      "type": 0,
+      "value": "Jednotka"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.items": [
+    {
+      "type": 0,
+      "value": "Jednotky"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.marc-auth": [
+    {
+      "type": 0,
+      "value": "MARC autority"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.marc-bib": [
+    {
+      "type": 0,
+      "value": "MARC Bibliografické"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.marc-hold": [
+    {
+      "type": 0,
+      "value": "MARC holdingy"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.order": [
+    {
+      "type": 0,
+      "value": "Objednávka"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.orderLine": [
+    {
+      "type": 0,
+      "value": "Objednávka a řádek objednávky"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.srs": [
+    {
+      "type": 0,
+      "value": "Úložiště zdrojového záznamu (celý záznam)"
+    }
+  ],
+  "stripes-data-transfer-components.records": [
+    {
+      "type": 0,
+      "value": "Záznamy"
+    }
+  ],
+  "stripes-data-transfer-components.runBy": [
+    {
+      "type": 0,
+      "value": "Provozuje"
+    }
+  ],
+  "stripes-data-transfer-components.search": [
+    {
+      "type": 0,
+      "value": "Vyhledat"
+    }
+  ],
+  "stripes-data-transfer-components.settings.fileExtension.allowImport": [
+    {
+      "type": 0,
+      "value": "Povolit import"
+    }
+  ],
+  "stripes-data-transfer-components.settings.fileExtension.blockImport": [
+    {
+      "type": 0,
+      "value": "Blokovat import"
+    }
+  ],
+  "stripes-data-transfer-components.update": [
+    {
+      "type": 0,
+      "value": "Aktualizace"
+    }
+  ],
+  "stripes-data-transfer-components.updated": [
+    {
+      "type": 0,
+      "value": "Aktualizováno"
+    }
+  ],
+  "stripes-data-transfer-components.updatedBy": [
+    {
+      "type": 0,
+      "value": "Aktualizoval"
+    }
+  ],
+  "stripes-data-transfer-components.validation.enterValue": [
+    {
+      "type": 0,
+      "value": "Zadejte prosím hodnotu"
+    }
+  ],
   "stripes-erm-components.AND": [
     {
       "type": 0,
@@ -22936,6 +23244,30 @@
     {
       "type": 0,
       "value": "Hromadná úprava: (CSV) Upravit"
+    }
+  ],
+  "ui-bulk-edit.entityType.composite_holdings_record": [
+    {
+      "type": 0,
+      "value": "Holdings"
+    }
+  ],
+  "ui-bulk-edit.entityType.composite_instances": [
+    {
+      "type": 0,
+      "value": "Instances"
+    }
+  ],
+  "ui-bulk-edit.entityType.composite_item_details": [
+    {
+      "type": 0,
+      "value": "Items"
+    }
+  ],
+  "ui-bulk-edit.entityType.composite_user_details": [
+    {
+      "type": 0,
+      "value": "Users"
     }
   ],
   "ui-bulk-edit.error.incorrectFormatted": [
@@ -63185,6 +63517,24 @@
     {
       "type": 0,
       "value": "Status"
+    }
+  ],
+  "ui-finance.allocation.batch.logs.columns.status.completed": [
+    {
+      "type": 0,
+      "value": "Completed"
+    }
+  ],
+  "ui-finance.allocation.batch.logs.columns.status.error": [
+    {
+      "type": 0,
+      "value": "Error"
+    }
+  ],
+  "ui-finance.allocation.batch.logs.columns.status.inProgress": [
+    {
+      "type": 0,
+      "value": "In Progress"
     }
   ],
   "ui-finance.allocation.batch.logs.columns.updatedDate": [

@@ -9127,62 +9127,370 @@
       "value": "Nombre de usuario"
     }
   ],
-  "stripes-data-transfer-components.create": "Crear",
-  "stripes-data-transfer-components.delete": "Eliminar",
-  "stripes-data-transfer-components.duplicate": "Duplicar",
-  "stripes-data-transfer-components.edit": "Editar",
-  "stripes-data-transfer-components.fileName": "Nombre del fichero",
-  "stripes-data-transfer-components.filter.chooseJobProfile": "Elegir perfil profesional",
-  "stripes-data-transfer-components.filter.chooseUser": "Elegir usuario",
+  "stripes-data-transfer-components.create": [
+    {
+      "type": 0,
+      "value": "Crear"
+    }
+  ],
+  "stripes-data-transfer-components.delete": [
+    {
+      "type": 0,
+      "value": "Eliminar"
+    }
+  ],
+  "stripes-data-transfer-components.duplicate": [
+    {
+      "type": 0,
+      "value": "Duplicar"
+    }
+  ],
+  "stripes-data-transfer-components.edit": [
+    {
+      "type": 0,
+      "value": "Editar"
+    }
+  ],
+  "stripes-data-transfer-components.fileName": [
+    {
+      "type": 0,
+      "value": "Nombre del fichero"
+    }
+  ],
+  "stripes-data-transfer-components.filter.chooseJobProfile": [
+    {
+      "type": 0,
+      "value": "Elegir perfil profesional"
+    }
+  ],
+  "stripes-data-transfer-components.filter.chooseUser": [
+    {
+      "type": 0,
+      "value": "Elegir usuario"
+    }
+  ],
   "stripes-data-transfer-components.filter.date": [
     {
       "type": 0,
       "value": "Date"
     }
   ],
-  "stripes-data-transfer-components.filter.endedDate": "Fin de la carrera",
-  "stripes-data-transfer-components.filter.errors": "Errores en la exportación",
-  "stripes-data-transfer-components.filter.jobProfile": "Perfil del puesto",
-  "stripes-data-transfer-components.filter.option.no": "NO",
-  "stripes-data-transfer-components.filter.option.yes": "SÍ",
-  "stripes-data-transfer-components.filter.singleRecordImports": "Importación de registros individuales de inventario",
-  "stripes-data-transfer-components.filter.startedDate": "Empezó a correr",
-  "stripes-data-transfer-components.filter.user": "Usuario",
-  "stripes-data-transfer-components.folioRecordType": "Tipo de registro FOLIO",
-  "stripes-data-transfer-components.jobCompletedDate": "Fin en proceso",
-  "stripes-data-transfer-components.jobExecutionHrId": "ID",
-  "stripes-data-transfer-components.jobProfileName": "Perfil de proceso",
-  "stripes-data-transfer-components.jobProfilesCount": "{count, number} trabajo {count, plural, one {profile} other {profiles}}",
-  "stripes-data-transfer-components.jobProfilesTitle": "Perfiles de trabajo",
-  "stripes-data-transfer-components.learnMore": "Saber más",
-  "stripes-data-transfer-components.loading": "Cargando...",
-  "stripes-data-transfer-components.mappingProfilesCount": "{count, number} field mapping {count, plural, one {profile} other {profiles}}",
-  "stripes-data-transfer-components.mappingProfilesTitle": "Perfiles de mapeo de campo",
-  "stripes-data-transfer-components.modify": "Modificar",
-  "stripes-data-transfer-components.name": "Nombre",
-  "stripes-data-transfer-components.new": "Nuevo",
-  "stripes-data-transfer-components.profiles": "Perfiles",
-  "stripes-data-transfer-components.recordTypes.authority": "Autoridad",
-  "stripes-data-transfer-components.recordTypes.holdings": "Recursos",
-  "stripes-data-transfer-components.recordTypes.instance": "Instancia",
-  "stripes-data-transfer-components.recordTypes.invoice": "Factura",
-  "stripes-data-transfer-components.recordTypes.item": "Ítem",
-  "stripes-data-transfer-components.recordTypes.items": "Ejemplares",
-  "stripes-data-transfer-components.recordTypes.marc-auth": "MARC de Autoridades",
-  "stripes-data-transfer-components.recordTypes.marc-bib": "MARC Bibliográfico",
-  "stripes-data-transfer-components.recordTypes.marc-hold": "MARC de Fondos",
-  "stripes-data-transfer-components.recordTypes.order": "Pedido",
-  "stripes-data-transfer-components.recordTypes.orderLine": "Pedido y línea de pedido",
-  "stripes-data-transfer-components.recordTypes.srs": "Almacenamiento del registro de origen (registro completo)",
-  "stripes-data-transfer-components.records": "Registros",
-  "stripes-data-transfer-components.runBy": "Revisado por",
-  "stripes-data-transfer-components.search": "Buscar",
-  "stripes-data-transfer-components.settings.fileExtension.allowImport": "Permitir la importación",
-  "stripes-data-transfer-components.settings.fileExtension.blockImport": "Importación en bloque",
-  "stripes-data-transfer-components.update": "Actualizar",
-  "stripes-data-transfer-components.updated": "Actualizado",
-  "stripes-data-transfer-components.updatedBy": "Actualizado por",
-  "stripes-data-transfer-components.validation.enterValue": "Por favor, introduzca un valor",
+  "stripes-data-transfer-components.filter.endedDate": [
+    {
+      "type": 0,
+      "value": "Fin de la carrera"
+    }
+  ],
+  "stripes-data-transfer-components.filter.errors": [
+    {
+      "type": 0,
+      "value": "Errores en la exportación"
+    }
+  ],
+  "stripes-data-transfer-components.filter.jobProfile": [
+    {
+      "type": 0,
+      "value": "Perfil del puesto"
+    }
+  ],
+  "stripes-data-transfer-components.filter.option.no": [
+    {
+      "type": 0,
+      "value": "NO"
+    }
+  ],
+  "stripes-data-transfer-components.filter.option.yes": [
+    {
+      "type": 0,
+      "value": "SÍ"
+    }
+  ],
+  "stripes-data-transfer-components.filter.singleRecordImports": [
+    {
+      "type": 0,
+      "value": "Importación de registros individuales de inventario"
+    }
+  ],
+  "stripes-data-transfer-components.filter.startedDate": [
+    {
+      "type": 0,
+      "value": "Empezó a correr"
+    }
+  ],
+  "stripes-data-transfer-components.filter.user": [
+    {
+      "type": 0,
+      "value": "Usuario"
+    }
+  ],
+  "stripes-data-transfer-components.folioRecordType": [
+    {
+      "type": 0,
+      "value": "Tipo de registro FOLIO"
+    }
+  ],
+  "stripes-data-transfer-components.jobCompletedDate": [
+    {
+      "type": 0,
+      "value": "Fin en proceso"
+    }
+  ],
+  "stripes-data-transfer-components.jobExecutionHrId": [
+    {
+      "type": 0,
+      "value": "ID"
+    }
+  ],
+  "stripes-data-transfer-components.jobProfileName": [
+    {
+      "type": 0,
+      "value": "Perfil de proceso"
+    }
+  ],
+  "stripes-data-transfer-components.jobProfilesCount": [
+    {
+      "style": null,
+      "type": 2,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": " trabajo "
+    },
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "profile"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "profiles"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "count"
+    }
+  ],
+  "stripes-data-transfer-components.jobProfilesTitle": [
+    {
+      "type": 0,
+      "value": "Perfiles de trabajo"
+    }
+  ],
+  "stripes-data-transfer-components.learnMore": [
+    {
+      "type": 0,
+      "value": "Saber más"
+    }
+  ],
+  "stripes-data-transfer-components.loading": [
+    {
+      "type": 0,
+      "value": "Cargando..."
+    }
+  ],
+  "stripes-data-transfer-components.mappingProfilesCount": [
+    {
+      "style": null,
+      "type": 2,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": " field mapping "
+    },
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "profile"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "profiles"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "count"
+    }
+  ],
+  "stripes-data-transfer-components.mappingProfilesTitle": [
+    {
+      "type": 0,
+      "value": "Perfiles de mapeo de campo"
+    }
+  ],
+  "stripes-data-transfer-components.modify": [
+    {
+      "type": 0,
+      "value": "Modificar"
+    }
+  ],
+  "stripes-data-transfer-components.name": [
+    {
+      "type": 0,
+      "value": "Nombre"
+    }
+  ],
+  "stripes-data-transfer-components.new": [
+    {
+      "type": 0,
+      "value": "Nuevo"
+    }
+  ],
+  "stripes-data-transfer-components.profiles": [
+    {
+      "type": 0,
+      "value": "Perfiles"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.authority": [
+    {
+      "type": 0,
+      "value": "Autoridad"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.holdings": [
+    {
+      "type": 0,
+      "value": "Recursos"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.instance": [
+    {
+      "type": 0,
+      "value": "Instancia"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.invoice": [
+    {
+      "type": 0,
+      "value": "Factura"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.item": [
+    {
+      "type": 0,
+      "value": "Ítem"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.items": [
+    {
+      "type": 0,
+      "value": "Ejemplares"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.marc-auth": [
+    {
+      "type": 0,
+      "value": "MARC de Autoridades"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.marc-bib": [
+    {
+      "type": 0,
+      "value": "MARC Bibliográfico"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.marc-hold": [
+    {
+      "type": 0,
+      "value": "MARC de Fondos"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.order": [
+    {
+      "type": 0,
+      "value": "Pedido"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.orderLine": [
+    {
+      "type": 0,
+      "value": "Pedido y línea de pedido"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.srs": [
+    {
+      "type": 0,
+      "value": "Almacenamiento del registro de origen (registro completo)"
+    }
+  ],
+  "stripes-data-transfer-components.records": [
+    {
+      "type": 0,
+      "value": "Registros"
+    }
+  ],
+  "stripes-data-transfer-components.runBy": [
+    {
+      "type": 0,
+      "value": "Revisado por"
+    }
+  ],
+  "stripes-data-transfer-components.search": [
+    {
+      "type": 0,
+      "value": "Buscar"
+    }
+  ],
+  "stripes-data-transfer-components.settings.fileExtension.allowImport": [
+    {
+      "type": 0,
+      "value": "Permitir la importación"
+    }
+  ],
+  "stripes-data-transfer-components.settings.fileExtension.blockImport": [
+    {
+      "type": 0,
+      "value": "Importación en bloque"
+    }
+  ],
+  "stripes-data-transfer-components.update": [
+    {
+      "type": 0,
+      "value": "Actualizar"
+    }
+  ],
+  "stripes-data-transfer-components.updated": [
+    {
+      "type": 0,
+      "value": "Actualizado"
+    }
+  ],
+  "stripes-data-transfer-components.updatedBy": [
+    {
+      "type": 0,
+      "value": "Actualizado por"
+    }
+  ],
+  "stripes-data-transfer-components.validation.enterValue": [
+    {
+      "type": 0,
+      "value": "Por favor, introduzca un valor"
+    }
+  ],
   "stripes-erm-components.AND": [
     {
       "type": 0,
@@ -22876,6 +23184,30 @@
     {
       "type": 0,
       "value": "Bulk Edit: (CSV) Edit"
+    }
+  ],
+  "ui-bulk-edit.entityType.composite_holdings_record": [
+    {
+      "type": 0,
+      "value": "Holdings"
+    }
+  ],
+  "ui-bulk-edit.entityType.composite_instances": [
+    {
+      "type": 0,
+      "value": "Instances"
+    }
+  ],
+  "ui-bulk-edit.entityType.composite_item_details": [
+    {
+      "type": 0,
+      "value": "Items"
+    }
+  ],
+  "ui-bulk-edit.entityType.composite_user_details": [
+    {
+      "type": 0,
+      "value": "Users"
     }
   ],
   "ui-bulk-edit.error.incorrectFormatted": [
@@ -63201,6 +63533,24 @@
     {
       "type": 0,
       "value": "Status"
+    }
+  ],
+  "ui-finance.allocation.batch.logs.columns.status.completed": [
+    {
+      "type": 0,
+      "value": "Completed"
+    }
+  ],
+  "ui-finance.allocation.batch.logs.columns.status.error": [
+    {
+      "type": 0,
+      "value": "Error"
+    }
+  ],
+  "ui-finance.allocation.batch.logs.columns.status.inProgress": [
+    {
+      "type": 0,
+      "value": "In Progress"
     }
   ],
   "ui-finance.allocation.batch.logs.columns.updatedDate": [

@@ -9174,62 +9174,370 @@
       "value": "Systemkennung"
     }
   ],
-  "stripes-data-transfer-components.create": "Erstellen",
-  "stripes-data-transfer-components.delete": "Löschen",
-  "stripes-data-transfer-components.duplicate": "Duplizieren",
-  "stripes-data-transfer-components.edit": "Bearbeiten",
-  "stripes-data-transfer-components.fileName": "Dateiname",
-  "stripes-data-transfer-components.filter.chooseJobProfile": "Jobprofil auswählen",
-  "stripes-data-transfer-components.filter.chooseUser": "Person auswählen",
+  "stripes-data-transfer-components.create": [
+    {
+      "type": 0,
+      "value": "Erstellen"
+    }
+  ],
+  "stripes-data-transfer-components.delete": [
+    {
+      "type": 0,
+      "value": "Löschen"
+    }
+  ],
+  "stripes-data-transfer-components.duplicate": [
+    {
+      "type": 0,
+      "value": "Duplizieren"
+    }
+  ],
+  "stripes-data-transfer-components.edit": [
+    {
+      "type": 0,
+      "value": "Bearbeiten"
+    }
+  ],
+  "stripes-data-transfer-components.fileName": [
+    {
+      "type": 0,
+      "value": "Dateiname"
+    }
+  ],
+  "stripes-data-transfer-components.filter.chooseJobProfile": [
+    {
+      "type": 0,
+      "value": "Jobprofil auswählen"
+    }
+  ],
+  "stripes-data-transfer-components.filter.chooseUser": [
+    {
+      "type": 0,
+      "value": "Person auswählen"
+    }
+  ],
   "stripes-data-transfer-components.filter.date": [
     {
       "type": 0,
       "value": "Datum"
     }
   ],
-  "stripes-data-transfer-components.filter.endedDate": "Lauf beendet",
-  "stripes-data-transfer-components.filter.errors": "Exportfehler",
-  "stripes-data-transfer-components.filter.jobProfile": "Jobprofil",
-  "stripes-data-transfer-components.filter.option.no": "nein",
-  "stripes-data-transfer-components.filter.option.yes": "ja",
-  "stripes-data-transfer-components.filter.singleRecordImports": "Einzeldatensatzimport Katalog",
-  "stripes-data-transfer-components.filter.startedDate": "Ausführung gestartet",
-  "stripes-data-transfer-components.filter.user": "Person",
-  "stripes-data-transfer-components.folioRecordType": "FOLIO-Datensatztyp",
-  "stripes-data-transfer-components.jobCompletedDate": "Lauf beendet",
-  "stripes-data-transfer-components.jobExecutionHrId": "ID",
-  "stripes-data-transfer-components.jobProfileName": "Jobprofil",
-  "stripes-data-transfer-components.jobProfilesCount": "{count, number} job {count, plural, one {profile} other {profiles}}",
-  "stripes-data-transfer-components.jobProfilesTitle": "Jobprofile",
-  "stripes-data-transfer-components.learnMore": "Mehr erfahren",
-  "stripes-data-transfer-components.loading": "Wird geladen...",
-  "stripes-data-transfer-components.mappingProfilesCount": "{count, number} Feldmapping {count, plural, one { profile } other { profiles }}",
-  "stripes-data-transfer-components.mappingProfilesTitle": "Feldmappingprofile",
-  "stripes-data-transfer-components.modify": "Ändern",
-  "stripes-data-transfer-components.name": "Name",
-  "stripes-data-transfer-components.new": "Neu",
-  "stripes-data-transfer-components.profiles": "Profile",
-  "stripes-data-transfer-components.recordTypes.authority": "Normdaten",
-  "stripes-data-transfer-components.recordTypes.holdings": "Bestand",
-  "stripes-data-transfer-components.recordTypes.instance": "Instanz",
-  "stripes-data-transfer-components.recordTypes.invoice": "Rechnung",
-  "stripes-data-transfer-components.recordTypes.item": "Exemplar",
-  "stripes-data-transfer-components.recordTypes.items": "Exemplare",
-  "stripes-data-transfer-components.recordTypes.marc-auth": "MARC Normdaten",
-  "stripes-data-transfer-components.recordTypes.marc-bib": "MARC Bibliografische Daten",
-  "stripes-data-transfer-components.recordTypes.marc-hold": "MARC Bestandsdaten",
-  "stripes-data-transfer-components.recordTypes.order": "Bestellung",
-  "stripes-data-transfer-components.recordTypes.orderLine": "Bestellung & Bestellposten",
-  "stripes-data-transfer-components.recordTypes.srs": "Quelldatensatzspeicher (gesamter Datensatz)",
-  "stripes-data-transfer-components.records": "Datensätze",
-  "stripes-data-transfer-components.runBy": "Ausgeführt von",
-  "stripes-data-transfer-components.search": "Suchen",
-  "stripes-data-transfer-components.settings.fileExtension.allowImport": "Import zulassen",
-  "stripes-data-transfer-components.settings.fileExtension.blockImport": "Import blockieren",
-  "stripes-data-transfer-components.update": "Aktualisieren",
-  "stripes-data-transfer-components.updated": "Aktualisiert",
-  "stripes-data-transfer-components.updatedBy": "Aktualisiert von",
-  "stripes-data-transfer-components.validation.enterValue": "Bitte einen Wert eingeben",
+  "stripes-data-transfer-components.filter.endedDate": [
+    {
+      "type": 0,
+      "value": "Lauf beendet"
+    }
+  ],
+  "stripes-data-transfer-components.filter.errors": [
+    {
+      "type": 0,
+      "value": "Exportfehler"
+    }
+  ],
+  "stripes-data-transfer-components.filter.jobProfile": [
+    {
+      "type": 0,
+      "value": "Jobprofil"
+    }
+  ],
+  "stripes-data-transfer-components.filter.option.no": [
+    {
+      "type": 0,
+      "value": "nein"
+    }
+  ],
+  "stripes-data-transfer-components.filter.option.yes": [
+    {
+      "type": 0,
+      "value": "ja"
+    }
+  ],
+  "stripes-data-transfer-components.filter.singleRecordImports": [
+    {
+      "type": 0,
+      "value": "Einzeldatensatzimport Katalog"
+    }
+  ],
+  "stripes-data-transfer-components.filter.startedDate": [
+    {
+      "type": 0,
+      "value": "Ausführung gestartet"
+    }
+  ],
+  "stripes-data-transfer-components.filter.user": [
+    {
+      "type": 0,
+      "value": "Person"
+    }
+  ],
+  "stripes-data-transfer-components.folioRecordType": [
+    {
+      "type": 0,
+      "value": "FOLIO-Datensatztyp"
+    }
+  ],
+  "stripes-data-transfer-components.jobCompletedDate": [
+    {
+      "type": 0,
+      "value": "Lauf beendet"
+    }
+  ],
+  "stripes-data-transfer-components.jobExecutionHrId": [
+    {
+      "type": 0,
+      "value": "ID"
+    }
+  ],
+  "stripes-data-transfer-components.jobProfileName": [
+    {
+      "type": 0,
+      "value": "Jobprofil"
+    }
+  ],
+  "stripes-data-transfer-components.jobProfilesCount": [
+    {
+      "style": null,
+      "type": 2,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": " job "
+    },
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "profile"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "profiles"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "count"
+    }
+  ],
+  "stripes-data-transfer-components.jobProfilesTitle": [
+    {
+      "type": 0,
+      "value": "Jobprofile"
+    }
+  ],
+  "stripes-data-transfer-components.learnMore": [
+    {
+      "type": 0,
+      "value": "Mehr erfahren"
+    }
+  ],
+  "stripes-data-transfer-components.loading": [
+    {
+      "type": 0,
+      "value": "Wird geladen..."
+    }
+  ],
+  "stripes-data-transfer-components.mappingProfilesCount": [
+    {
+      "style": null,
+      "type": 2,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": " Feldmapping "
+    },
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": " profile "
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": " profiles "
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "count"
+    }
+  ],
+  "stripes-data-transfer-components.mappingProfilesTitle": [
+    {
+      "type": 0,
+      "value": "Feldmappingprofile"
+    }
+  ],
+  "stripes-data-transfer-components.modify": [
+    {
+      "type": 0,
+      "value": "Ändern"
+    }
+  ],
+  "stripes-data-transfer-components.name": [
+    {
+      "type": 0,
+      "value": "Name"
+    }
+  ],
+  "stripes-data-transfer-components.new": [
+    {
+      "type": 0,
+      "value": "Neu"
+    }
+  ],
+  "stripes-data-transfer-components.profiles": [
+    {
+      "type": 0,
+      "value": "Profile"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.authority": [
+    {
+      "type": 0,
+      "value": "Normdaten"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.holdings": [
+    {
+      "type": 0,
+      "value": "Bestand"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.instance": [
+    {
+      "type": 0,
+      "value": "Instanz"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.invoice": [
+    {
+      "type": 0,
+      "value": "Rechnung"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.item": [
+    {
+      "type": 0,
+      "value": "Exemplar"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.items": [
+    {
+      "type": 0,
+      "value": "Exemplare"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.marc-auth": [
+    {
+      "type": 0,
+      "value": "MARC Normdaten"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.marc-bib": [
+    {
+      "type": 0,
+      "value": "MARC Bibliografische Daten"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.marc-hold": [
+    {
+      "type": 0,
+      "value": "MARC Bestandsdaten"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.order": [
+    {
+      "type": 0,
+      "value": "Bestellung"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.orderLine": [
+    {
+      "type": 0,
+      "value": "Bestellung & Bestellposten"
+    }
+  ],
+  "stripes-data-transfer-components.recordTypes.srs": [
+    {
+      "type": 0,
+      "value": "Quelldatensatzspeicher (gesamter Datensatz)"
+    }
+  ],
+  "stripes-data-transfer-components.records": [
+    {
+      "type": 0,
+      "value": "Datensätze"
+    }
+  ],
+  "stripes-data-transfer-components.runBy": [
+    {
+      "type": 0,
+      "value": "Ausgeführt von"
+    }
+  ],
+  "stripes-data-transfer-components.search": [
+    {
+      "type": 0,
+      "value": "Suchen"
+    }
+  ],
+  "stripes-data-transfer-components.settings.fileExtension.allowImport": [
+    {
+      "type": 0,
+      "value": "Import zulassen"
+    }
+  ],
+  "stripes-data-transfer-components.settings.fileExtension.blockImport": [
+    {
+      "type": 0,
+      "value": "Import blockieren"
+    }
+  ],
+  "stripes-data-transfer-components.update": [
+    {
+      "type": 0,
+      "value": "Aktualisieren"
+    }
+  ],
+  "stripes-data-transfer-components.updated": [
+    {
+      "type": 0,
+      "value": "Aktualisiert"
+    }
+  ],
+  "stripes-data-transfer-components.updatedBy": [
+    {
+      "type": 0,
+      "value": "Aktualisiert von"
+    }
+  ],
+  "stripes-data-transfer-components.validation.enterValue": [
+    {
+      "type": 0,
+      "value": "Bitte einen Wert eingeben"
+    }
+  ],
   "stripes-erm-components.AND": [
     {
       "type": 0,
@@ -23113,6 +23421,30 @@
     {
       "type": 0,
       "value": "Massenbearbeitung: (CSV) Bearbeiten"
+    }
+  ],
+  "ui-bulk-edit.entityType.composite_holdings_record": [
+    {
+      "type": 0,
+      "value": "Holdings"
+    }
+  ],
+  "ui-bulk-edit.entityType.composite_instances": [
+    {
+      "type": 0,
+      "value": "Instances"
+    }
+  ],
+  "ui-bulk-edit.entityType.composite_item_details": [
+    {
+      "type": 0,
+      "value": "Items"
+    }
+  ],
+  "ui-bulk-edit.entityType.composite_user_details": [
+    {
+      "type": 0,
+      "value": "Users"
     }
   ],
   "ui-bulk-edit.error.incorrectFormatted": [
@@ -63271,6 +63603,24 @@
     {
       "type": 0,
       "value": "Status"
+    }
+  ],
+  "ui-finance.allocation.batch.logs.columns.status.completed": [
+    {
+      "type": 0,
+      "value": "Completed"
+    }
+  ],
+  "ui-finance.allocation.batch.logs.columns.status.error": [
+    {
+      "type": 0,
+      "value": "Error"
+    }
+  ],
+  "ui-finance.allocation.batch.logs.columns.status.inProgress": [
+    {
+      "type": 0,
+      "value": "In Progress"
     }
   ],
   "ui-finance.allocation.batch.logs.columns.updatedDate": [
