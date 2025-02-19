@@ -90875,6 +90875,12 @@
       "value": "Settings (MARC authority): View authority files"
     }
   ],
+  "ui-marc-authorities.permission.settings.version-history.view": [
+    {
+      "type": 0,
+      "value": "Settings (MARC authority): Configure version history"
+    }
+  ],
   "ui-marc-authorities.personalName": [
     {
       "type": 0,
@@ -91574,6 +91580,24 @@
       "value": "General"
     }
   ],
+  "ui-marc-authorities.settings.versionHistory.field.pageSize": [
+    {
+      "type": 0,
+      "value": "Cards to display per page on Version history"
+    }
+  ],
+  "ui-marc-authorities.settings.versionHistory.loadError": [
+    {
+      "type": 0,
+      "value": "Version history Cards per page settings failed to load."
+    }
+  ],
+  "ui-marc-authorities.settings.versionHistory.pane.title": [
+    {
+      "type": 0,
+      "value": "Version history"
+    }
+  ],
   "ui-marc-authorities.shortcut.closeModal": [
     {
       "type": 0,
@@ -91658,6 +91682,88 @@
       "value": "Uniform title"
     }
   ],
+  "ui-myprofile.draggableList.announcements.dragCancel": [
+    {
+      "type": 1,
+      "value": "active"
+    },
+    {
+      "type": 0,
+      "value": " dropped"
+    }
+  ],
+  "ui-myprofile.draggableList.announcements.dragEnd": [
+    {
+      "type": 0,
+      "value": "Dropped "
+    },
+    {
+      "type": 1,
+      "value": "active"
+    },
+    {
+      "type": 0,
+      "value": " at position "
+    },
+    {
+      "type": 1,
+      "value": "position"
+    }
+  ],
+  "ui-myprofile.draggableList.announcements.dragOver": [
+    {
+      "type": 0,
+      "value": "Moved "
+    },
+    {
+      "type": 1,
+      "value": "active"
+    },
+    {
+      "type": 0,
+      "value": " to position "
+    },
+    {
+      "type": 1,
+      "value": "position"
+    }
+  ],
+  "ui-myprofile.draggableList.announcements.dragStart": [
+    {
+      "type": 0,
+      "value": "Picked up "
+    },
+    {
+      "type": 1,
+      "value": "active"
+    },
+    {
+      "type": 0,
+      "value": " in position "
+    },
+    {
+      "type": 1,
+      "value": "position"
+    },
+    {
+      "type": 0,
+      "value": " of "
+    },
+    {
+      "type": 1,
+      "value": "total"
+    },
+    {
+      "type": 0,
+      "value": " items"
+    }
+  ],
+  "ui-myprofile.draggableList.instructions": [
+    {
+      "type": 0,
+      "value": "Reorderable list. Press space or enter to activate an item for reordering. Use the up and down arrow keys to change the position of the active item."
+    }
+  ],
   "ui-myprofile.label.settings": [
     {
       "type": 0,
@@ -91680,6 +91786,60 @@
     {
       "type": 0,
       "value": "Ajustes (Mi perfil): presentar la lista de páginas de ajustes"
+    }
+  ],
+  "ui-myprofile.settings.appNavOrder.label": [
+    {
+      "type": 0,
+      "value": "Application display order"
+    }
+  ],
+  "ui-myprofile.settings.appNavOrder.newItem": [
+    {
+      "type": 0,
+      "value": "New"
+    }
+  ],
+  "ui-myprofile.settings.appNavOrder.reset": [
+    {
+      "type": 0,
+      "value": "Reset to default"
+    }
+  ],
+  "ui-myprofile.settings.appNavOrder.resetError": [
+    {
+      "type": 0,
+      "value": "There was a problem resetting the app order."
+    }
+  ],
+  "ui-myprofile.settings.appNavOrder.resetSuccess": [
+    {
+      "type": 0,
+      "value": "Application display order reset to default."
+    }
+  ],
+  "ui-myprofile.settings.appNavOrder.save": [
+    {
+      "type": 0,
+      "value": "Save"
+    }
+  ],
+  "ui-myprofile.settings.appNavOrder.saveError": [
+    {
+      "type": 0,
+      "value": "There was a problem saving app list order."
+    }
+  ],
+  "ui-myprofile.settings.appNavOrder.saveSuccess": [
+    {
+      "type": 0,
+      "value": "Application display order has been successfully updated."
+    }
+  ],
+  "ui-myprofile.settings.appNavOrder.visibleInstruction": [
+    {
+      "type": 0,
+      "value": "Drag & drop to change the display order of FOLIO applications."
     }
   ],
   "ui-myprofile.settings.changePassword.confirmPassword": [
