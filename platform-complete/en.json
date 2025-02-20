@@ -17797,6 +17797,12 @@
       "value": "E-resources"
     }
   ],
+  "ui-agreements.eresources.SynchronisationStatus": [
+    {
+      "type": 0,
+      "value": "Synchronisation status"
+    }
+  ],
   "ui-agreements.eresources.accessEnd": [
     {
       "type": 0,
@@ -18401,6 +18407,18 @@
     {
       "type": 0,
       "value": "Suppress from discovery"
+    }
+  ],
+  "ui-agreements.eresources.syncContentsFromSource.false": [
+    {
+      "type": 0,
+      "value": "Paused"
+    }
+  ],
+  "ui-agreements.eresources.syncContentsFromSource.true": [
+    {
+      "type": 0,
+      "value": "Synchronising"
     }
   ],
   "ui-agreements.eresources.title": [
@@ -74636,6 +74654,12 @@
       "value": "Instance details"
     }
   ],
+  "ui-inventory.instanceForm": [
+    {
+      "type": 0,
+      "value": "Instance form"
+    }
+  ],
   "ui-inventory.instanceFormat": [
     {
       "type": 0,
@@ -78605,10 +78629,34 @@
       "value": "Inventory settings"
     }
   ],
+  "ui-inventory.settings.section.cardsPerPage": [
+    {
+      "type": 0,
+      "value": "Cards per page"
+    }
+  ],
   "ui-inventory.settings.section.displaySettings": [
     {
       "type": 0,
       "value": "Display settings"
+    }
+  ],
+  "ui-inventory.settings.section.versionHistory": [
+    {
+      "type": 0,
+      "value": "Version history"
+    }
+  ],
+  "ui-inventory.settings.versionHistory.versionHistoryCardsPerPage": [
+    {
+      "type": 0,
+      "value": "Cards to display per page on Version history"
+    }
+  ],
+  "ui-inventory.settings.versionHistory.versionHistoryCardsPerPage.loadError": [
+    {
+      "type": 0,
+      "value": "Failed to load Version history cards per page settings"
     }
   ],
   "ui-inventory.shareLocalInstance": [
@@ -99596,6 +99644,12 @@
       "value": "Settings (Orders): Can view and edit all settings"
     }
   ],
+  "ui-orders.permission.settings.number-generator.manage": [
+    {
+      "type": 0,
+      "value": "Settings (Orders): Manage number generator options"
+    }
+  ],
   "ui-orders.permission.settings.order-templates.create": [
     {
       "type": 0,
@@ -101579,6 +101633,84 @@
     {
       "type": 0,
       "value": "New"
+    }
+  ],
+  "ui-orders.settings.numberGenerator.accessionNumber": [
+    {
+      "type": 0,
+      "value": "Accession number"
+    }
+  ],
+  "ui-orders.settings.numberGenerator.accessionNumberEqualCallNumber": [
+    {
+      "type": 0,
+      "value": "Use the same generated number for accession number and call number"
+    }
+  ],
+  "ui-orders.settings.numberGenerator.accessionNumberEqualCallNumber.warning": [
+    {
+      "type": 0,
+      "value": "Warning: The checkbox has been disabled because the accession number and/or the call number have been set to manual completion."
+    }
+  ],
+  "ui-orders.settings.numberGenerator.barcode": [
+    {
+      "type": 0,
+      "value": "Barcode"
+    }
+  ],
+  "ui-orders.settings.numberGenerator.callNumber": [
+    {
+      "type": 0,
+      "value": "Call number"
+    }
+  ],
+  "ui-orders.settings.numberGenerator.info": [
+    {
+      "type": 0,
+      "value": "Fields which are usually filled using a numeric sequence can use the number generator. When the generator is switched on the field can either be fixed to prevent manual update, or made fully editable. When switched off, the field must be filled manually."
+    }
+  ],
+  "ui-orders.settings.numberGenerator.options": [
+    {
+      "type": 0,
+      "value": "Number generator options"
+    }
+  ],
+  "ui-orders.settings.numberGenerator.options.off": [
+    {
+      "type": 0,
+      "value": "Off"
+    }
+  ],
+  "ui-orders.settings.numberGenerator.options.onEditable": [
+    {
+      "type": 0,
+      "value": "On, field editable"
+    }
+  ],
+  "ui-orders.settings.numberGenerator.options.onNotEditable": [
+    {
+      "type": 0,
+      "value": "On, field not editable"
+    }
+  ],
+  "ui-orders.settings.numberGenerator.receiving": [
+    {
+      "type": 0,
+      "value": "Receiving"
+    }
+  ],
+  "ui-orders.settings.numberGenerator.submit.error": [
+    {
+      "type": 0,
+      "value": "Number generator setting update failed"
+    }
+  ],
+  "ui-orders.settings.numberGenerator.submit.success": [
+    {
+      "type": 0,
+      "value": "Number generator setting was successfully updated"
     }
   ],
   "ui-orders.settings.openOrder": [

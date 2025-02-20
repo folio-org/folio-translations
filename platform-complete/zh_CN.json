@@ -126,25 +126,25 @@
   "stripes-acq-components.claiming.action.delayClaim": [
     {
       "type": 0,
-      "value": "Delay claim"
+      "value": "延迟催缺"
     }
   ],
   "stripes-acq-components.claiming.action.sendClaim": [
     {
       "type": 0,
-      "value": "Send claim"
+      "value": "发送催缺"
     }
   ],
   "stripes-acq-components.claiming.action.unreceivable": [
     {
       "type": 0,
-      "value": "Unreceivable"
+      "value": "不可接收"
     }
   ],
   "stripes-acq-components.claiming.modal.delayClaim.field.delayTo": [
     {
       "type": 0,
-      "value": "Delay to"
+      "value": "延迟至"
     }
   ],
   "stripes-acq-components.claiming.modal.delayClaim.heading": [
@@ -154,7 +154,7 @@
           "value": [
             {
               "type": 0,
-              "value": "Delay "
+              "value": "延迟"
             },
             {
               "offset": 0,
@@ -163,7 +163,7 @@
                   "value": [
                     {
                       "type": 0,
-                      "value": "claim"
+                      "value": "催缺"
                     }
                   ]
                 },
@@ -171,7 +171,7 @@
                   "value": [
                     {
                       "type": 0,
-                      "value": "claims"
+                      "value": "催缺"
                     }
                   ]
                 }
@@ -186,7 +186,7 @@
           "value": [
             {
               "type": 0,
-              "value": "Delay claim"
+              "value": "延迟催缺"
             }
           ]
         }
@@ -198,19 +198,19 @@
   "stripes-acq-components.claiming.modal.sendClaim.field.claimExpiryDate": [
     {
       "type": 0,
-      "value": "Claim expiry date"
+      "value": "催缺到期日"
     }
   ],
   "stripes-acq-components.claiming.modal.sendClaim.field.externalNote": [
     {
       "type": 0,
-      "value": "External note"
+      "value": "外部附注"
     }
   ],
   "stripes-acq-components.claiming.modal.sendClaim.field.internalNote": [
     {
       "type": 0,
-      "value": "Internal note"
+      "value": "内部附注"
     }
   ],
   "stripes-acq-components.claiming.modal.sendClaim.heading": [
@@ -220,7 +220,7 @@
           "value": [
             {
               "type": 0,
-              "value": "Send "
+              "value": "发送"
             },
             {
               "offset": 0,
@@ -229,7 +229,7 @@
                   "value": [
                     {
                       "type": 0,
-                      "value": "claim"
+                      "value": "催缺"
                     }
                   ]
                 },
@@ -237,7 +237,7 @@
                   "value": [
                     {
                       "type": 0,
-                      "value": "claims"
+                      "value": "催缺"
                     }
                   ]
                 }
@@ -252,7 +252,7 @@
           "value": [
             {
               "type": 0,
-              "value": "Send claim"
+              "value": "发送催缺"
             }
           ]
         }
@@ -480,13 +480,13 @@
   "stripes-acq-components.find-location.modal.label": [
     {
       "type": 0,
-      "value": "选择位置"
+      "value": "选择馆藏地"
     }
   ],
   "stripes-acq-components.find-location.results.column.assignment": [
     {
       "type": 0,
-      "value": "位置分配状态"
+      "value": "馆藏地分配状态"
     }
   ],
   "stripes-acq-components.find-location.results.column.campus": [
@@ -522,7 +522,7 @@
   "stripes-acq-components.find-location.results.column.status": [
     {
       "type": 0,
-      "value": "位置状态"
+      "value": "馆藏地状态"
     }
   ],
   "stripes-acq-components.find-location.results.column.status.active": [
@@ -540,7 +540,7 @@
   "stripes-acq-components.find-location.results.heading": [
     {
       "type": 0,
-      "value": "位置"
+      "value": "馆藏地"
     }
   ],
   "stripes-acq-components.fundDistribution.addBtn": [
@@ -1525,7 +1525,7 @@
   "stripes-acq-components.shortcut.search": [
     {
       "type": 0,
-      "value": "转到搜索和筛选窗格"
+      "value": "转到搜索和筛选面板"
     }
   ],
   "stripes-acq-components.showTags": [
@@ -1609,7 +1609,7 @@
   "stripes-acq-components.validation.dateAfter": [
     {
       "type": 0,
-      "value": "Selected date must be later than the current date"
+      "value": "所选日期必须晚于当前日期"
     }
   ],
   "stripes-acq-components.validation.fundDistribution.uniqueFunds": [
@@ -2363,7 +2363,7 @@
   "stripes-components.advancedSearch.booleanLabel": [
     {
       "type": 0,
-      "value": "Select Boolean operator"
+      "value": "选择布尔运算符"
     }
   ],
   "stripes-components.advancedSearch.button": [
@@ -2387,7 +2387,7 @@
   "stripes-components.advancedSearch.fieldLabel": [
     {
       "type": 0,
-      "value": "Enter search term"
+      "value": "输入搜索词"
     }
   ],
   "stripes-components.advancedSearch.footer.cancel": [
@@ -7595,7 +7595,7 @@
   "stripes-components.shortcut.goToSearchFilter": [
     {
       "type": 0,
-      "value": "转到“搜索和筛选”窗格"
+      "value": "转到“搜索和筛选”面板"
     }
   ],
   "stripes-components.shortcut.modalLabel": [
@@ -9141,7 +9141,7 @@
   "stripes-core.title.logoutTimeout": [
     {
       "type": 0,
-      "value": "Inactivity log out"
+      "value": "不活动注销"
     }
   ],
   "stripes-core.title.noPermission": [
@@ -11699,7 +11699,7 @@
   "stripes-inventory-components.error.badRequest": [
     {
       "type": 0,
-      "value": "Search could not be processed. Please check your query and try again."
+      "value": "无法处理搜索。请检查您的查询并重试。"
     }
   ],
   "stripes-inventory-components.facet.discoverySuppress": [
@@ -11723,7 +11723,7 @@
   "stripes-inventory-components.facet.holdingsPermanentLocation": [
     {
       "type": 0,
-      "value": "馆藏永久位置"
+      "value": "馆藏永久馆藏地"
     }
   ],
   "stripes-inventory-components.facet.holdingsType": [
@@ -12748,13 +12748,13 @@
   "stripes-smart-components.cddd.itemClaimedReturned": [
     {
       "type": 0,
-      "value": "到期日更改失败：单件声称已还"
+      "value": "到期日更改失败：单件声称已归还"
     }
   ],
   "stripes-smart-components.cddd.itemClaimedReturnedWarning": [
     {
       "type": 0,
-      "value": "单件声称已还"
+      "value": "单件声称已归还"
     }
   ],
   "stripes-smart-components.cddd.itemDeclaredLost": [
@@ -14200,7 +14200,7 @@
   "stripes-smart-components.ls.locationPlaceholder": [
     {
       "type": 0,
-      "value": "选择位置名称或代码"
+      "value": "选择馆藏地名称或代码"
     }
   ],
   "stripes-smart-components.ls.permanentLocation": [
@@ -17978,6 +17978,12 @@
       "value": "电子资源"
     }
   ],
+  "ui-agreements.eresources.SynchronisationStatus": [
+    {
+      "type": 0,
+      "value": "Synchronisation status"
+    }
+  ],
   "ui-agreements.eresources.accessEnd": [
     {
       "type": 0,
@@ -18582,6 +18588,18 @@
     {
       "type": 0,
       "value": "在发现中隐藏"
+    }
+  ],
+  "ui-agreements.eresources.syncContentsFromSource.false": [
+    {
+      "type": 0,
+      "value": "Paused"
+    }
+  ],
+  "ui-agreements.eresources.syncContentsFromSource.true": [
+    {
+      "type": 0,
+      "value": "Synchronising"
     }
   ],
   "ui-agreements.eresources.title": [
@@ -21100,31 +21118,31 @@
   "ui-agreements.settings.mcl.agreementEresources": [
     {
       "type": 0,
-      "value": "协议视图窗格>本协议涵盖的电子资源"
+      "value": "协议视图面板 > 本协议涵盖的电子资源"
     }
   ],
   "ui-agreements.settings.mcl.agreementLines": [
     {
       "type": 0,
-      "value": "协议视图窗格>协议行"
+      "value": "协议视图面板 > 协议行"
     }
   ],
   "ui-agreements.settings.mcl.entitlementOptions": [
     {
       "type": 0,
-      "value": "电子资源视图窗格>用于获取电子资源的选项"
+      "value": "电子资源视图面板 > 用于获取电子资源的选项"
     }
   ],
   "ui-agreements.settings.mcl.entitlements": [
     {
       "type": 0,
-      "value": "电子资源视图窗格>此电子资源的协议"
+      "value": "电子资源视图面板 > 此电子资源的协议"
     }
   ],
   "ui-agreements.settings.mcl.packageContents": [
     {
       "type": 0,
-      "value": "资源包视图窗格>资源包中的电子资源"
+      "value": "资源包视图面板 > 资源包中的电子资源"
     }
   ],
   "ui-agreements.settings.mcl.pageSize": [
@@ -21876,7 +21894,7 @@
   "ui-bulk-edit.ariaLabel.location": [
     {
       "type": 0,
-      "value": "位置"
+      "value": "馆藏地"
     }
   ],
   "ui-bulk-edit.ariaLabel.patronGroupSelect": [
@@ -21888,7 +21906,7 @@
   "ui-bulk-edit.ariaLabel.statisticalCode": [
     {
       "type": 0,
-      "value": "Statistical code select"
+      "value": "统计代码选择"
     }
   ],
   "ui-bulk-edit.ariaLabel.statusSelect": [
@@ -21936,7 +21954,7 @@
   "ui-bulk-edit.category.holdingsLocation": [
     {
       "type": 0,
-      "value": "馆藏位置"
+      "value": "馆藏 馆藏地"
     }
   ],
   "ui-bulk-edit.category.holdingsNotes": [
@@ -21966,7 +21984,7 @@
   "ui-bulk-edit.category.location": [
     {
       "type": 0,
-      "value": "位置"
+      "value": "馆藏地"
     }
   ],
   "ui-bulk-edit.columns.HOLDINGS_RECORD.Acquisition format": [
@@ -22134,7 +22152,7 @@
   "ui-bulk-edit.columns.HOLDINGS_RECORD.Holdings permanent location": [
     {
       "type": 0,
-      "value": "馆藏永久位置"
+      "value": "馆藏 永久馆藏地"
     }
   ],
   "ui-bulk-edit.columns.HOLDINGS_RECORD.Holdings record id": [
@@ -22170,7 +22188,7 @@
   "ui-bulk-edit.columns.HOLDINGS_RECORD.Holdings statements for indexes": [
     {
       "type": 0,
-      "value": "索引的馆藏说明"
+      "value": "馆藏 索引说明"
     }
   ],
   "ui-bulk-edit.columns.HOLDINGS_RECORD.Holdings statements for supplements": [
@@ -22182,7 +22200,7 @@
   "ui-bulk-edit.columns.HOLDINGS_RECORD.Holdings temporary location": [
     {
       "type": 0,
-      "value": "馆藏临时位置"
+      "value": "馆藏 临时馆藏地"
     }
   ],
   "ui-bulk-edit.columns.HOLDINGS_RECORD.Holdings type": [
@@ -22470,7 +22488,7 @@
   "ui-bulk-edit.columns.INSTANCE.Statistical code": [
     {
       "type": 0,
-      "value": "Statistical code"
+      "value": "统计代码"
     }
   ],
   "ui-bulk-edit.columns.INSTANCE.Suppress from discovery": [
@@ -22656,7 +22674,7 @@
   "ui-bulk-edit.columns.ITEM.Holdings (Location, Call number)": [
     {
       "type": 0,
-      "value": "馆藏（位置、索书号）"
+      "value": "馆藏（馆藏地、索书号）"
     }
   ],
   "ui-bulk-edit.columns.ITEM.Holdings Record Id": [
@@ -22764,7 +22782,7 @@
   "ui-bulk-edit.columns.ITEM.Item effective location": [
     {
       "type": 0,
-      "value": "单件有效馆藏地"
+      "value": "单件 有效馆藏地"
     }
   ],
   "ui-bulk-edit.columns.ITEM.Item id": [
@@ -22806,13 +22824,13 @@
   "ui-bulk-edit.columns.ITEM.Item permanent location": [
     {
       "type": 0,
-      "value": "单件永久馆藏地"
+      "value": "单件 永久馆藏地"
     }
   ],
   "ui-bulk-edit.columns.ITEM.Item temporary location": [
     {
       "type": 0,
-      "value": "单件临时馆藏地"
+      "value": "单件 临时馆藏地"
     }
   ],
   "ui-bulk-edit.columns.ITEM.Last CheckIn": [
@@ -23673,7 +23691,7 @@
   "ui-bulk-edit.layer.marc.error": [
     {
       "type": 0,
-      "value": "目前仅支持 5xx 和 9xx 编辑。"
+      "value": "不支持批量编辑 MARC 控制字段 00X。"
     }
   ],
   "ui-bulk-edit.layer.marc.error.ind": [
@@ -23685,7 +23703,7 @@
   "ui-bulk-edit.layer.marc.error.limited": [
     {
       "type": 0,
-      "value": "限制为 5xx 和 9xx。"
+      "value": "不支持批量编辑 00x 字段。"
     }
   ],
   "ui-bulk-edit.layer.marc.error.protected": [
@@ -23817,7 +23835,7 @@
   "ui-bulk-edit.layer.options.instances.statisticalCode": [
     {
       "type": 0,
-      "value": "Statistical code"
+      "value": "统计代码"
     }
   ],
   "ui-bulk-edit.layer.options.instances.suppress": [
@@ -24015,7 +24033,7 @@
   "ui-bulk-edit.layer.selectLocation": [
     {
       "type": 0,
-      "value": "选择位置"
+      "value": "选择馆藏地"
     }
   ],
   "ui-bulk-edit.layer.selectNoteType": [
@@ -24039,7 +24057,7 @@
   "ui-bulk-edit.layer.statisticalCode": [
     {
       "type": 0,
-      "value": "Select statistical code"
+      "value": "选择统计代码"
     }
   ],
   "ui-bulk-edit.layer.title": [
@@ -24051,13 +24069,13 @@
   "ui-bulk-edit.layer.title.administrative": [
     {
       "type": 0,
-      "value": "Bulk edits for administrative data"
+      "value": "批量编辑管理数据"
     }
   ],
   "ui-bulk-edit.layer.title.marc": [
     {
       "type": 0,
-      "value": "Bulk edits for instances with source MARC"
+      "value": "批量编辑有来源MARC的实例"
     }
   ],
   "ui-bulk-edit.list.actions.download": [
@@ -24075,7 +24093,7 @@
   "ui-bulk-edit.list.errors.checkbox": [
     {
       "type": 0,
-      "value": "Show warnings"
+      "value": "显示警告"
     }
   ],
   "ui-bulk-edit.list.errors.info": [
@@ -24086,39 +24104,78 @@
           "value": " "
         },
         {
-          "type": 1,
-          "value": "fileName"
-        },
-        {
-          "type": 0,
-          "value": " : "
-        },
-        {
-          "style": null,
-          "type": 2,
-          "value": "entries"
-        },
-        {
-          "type": 0,
-          "value": "个款目 * "
-        },
-        {
-          "style": null,
-          "type": 2,
-          "value": "matched"
-        },
-        {
-          "type": 0,
-          "value": "条记录匹配 * "
-        },
-        {
           "style": null,
           "type": 2,
           "value": "errors"
         },
         {
           "type": 0,
-          "value": "个错误"
+          "value": " "
+        },
+        {
+          "offset": 0,
+          "options": {
+            "one": {
+              "value": [
+                {
+                  "type": 0,
+                  "value": "错误"
+                }
+              ]
+            },
+            "other": {
+              "value": [
+                {
+                  "type": 0,
+                  "value": "错误"
+                }
+              ]
+            }
+          },
+          "pluralType": "cardinal",
+          "type": 6,
+          "value": "errors"
+        },
+        {
+          "type": 0,
+          "value": " * "
+        },
+        {
+          "style": null,
+          "type": 2,
+          "value": "warnings"
+        },
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "offset": 0,
+          "options": {
+            "one": {
+              "value": [
+                {
+                  "type": 0,
+                  "value": "警告"
+                }
+              ]
+            },
+            "other": {
+              "value": [
+                {
+                  "type": 0,
+                  "value": "警告"
+                }
+              ]
+            }
+          },
+          "pluralType": "cardinal",
+          "type": 6,
+          "value": "warnings"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -24309,31 +24366,31 @@
   "ui-bulk-edit.list.errors.table.message": [
     {
       "type": 0,
-      "value": "错误原因"
+      "value": "原因"
     }
   ],
   "ui-bulk-edit.list.errors.table.status": [
     {
       "type": 0,
-      "value": "Status"
+      "value": "状态"
     }
   ],
   "ui-bulk-edit.list.errors.table.status.ERROR": [
     {
       "type": 0,
-      "value": "Error"
+      "value": "错误"
     }
   ],
   "ui-bulk-edit.list.errors.table.status.WARNING": [
     {
       "type": 0,
-      "value": "Warning"
+      "value": "警告"
     }
   ],
   "ui-bulk-edit.list.errors.title": [
     {
       "type": 0,
-      "value": "错误"
+      "value": "错误和警告"
     }
   ],
   "ui-bulk-edit.list.filters.capabilities.acquisition": [
@@ -24524,24 +24581,48 @@
   ],
   "ui-bulk-edit.list.logSubTitle.changed": [
     {
+      "type": 0,
+      "value": "已更改"
+    },
+    {
       "style": null,
       "type": 2,
       "value": "count"
     },
     {
       "type": 0,
-      "value": "条记录已更改"
+      "value": " "
+    },
+    {
+      "type": 1,
+      "value": "recordType"
+    },
+    {
+      "type": 0,
+      "value": "记录"
     }
   ],
   "ui-bulk-edit.list.logSubTitle.matched": [
     {
+      "type": 0,
+      "value": "匹配"
+    },
+    {
       "style": null,
       "type": 2,
       "value": "count"
     },
     {
       "type": 0,
-      "value": "条记录匹配"
+      "value": " "
+    },
+    {
+      "type": 1,
+      "value": "recordType"
+    },
+    {
+      "type": 0,
+      "value": "条记录"
     }
   ],
   "ui-bulk-edit.list.preview.electronicAccess.linkText": [
@@ -24883,13 +24964,13 @@
   "ui-bulk-edit.logs.actions.linkToCommittedRecordsCsvFile": [
     {
       "type": 0,
-      "value": "包含已更新记录的文件"
+      "value": "包含更新记录的文件 (CSV)"
     }
   ],
   "ui-bulk-edit.logs.actions.linkToCommittedRecordsCsvFile.QUERY": [
     {
       "type": 0,
-      "value": "包含已更新记录的文件"
+      "value": "包含更新记录的文件 (CSV)"
     }
   ],
   "ui-bulk-edit.logs.actions.linkToCommittedRecordsErrorsCsvFile": [
@@ -24907,13 +24988,13 @@
   "ui-bulk-edit.logs.actions.linkToCommittedRecordsMarcFile": [
     {
       "type": 0,
-      "value": "包含已更新记录的文件"
+      "value": "更新记录文件 (MARC)"
     }
   ],
   "ui-bulk-edit.logs.actions.linkToCommittedRecordsMarcFile.QUERY": [
     {
       "type": 0,
-      "value": "包含已更新记录的文件"
+      "value": "更新记录文件 (MARC)"
     }
   ],
   "ui-bulk-edit.logs.actions.linkToMatchedRecordsCsvFile": [
@@ -24943,25 +25024,25 @@
   "ui-bulk-edit.logs.actions.linkToModifiedRecordsCsvFile": [
     {
       "type": 0,
-      "value": "包含建议更改预览的文件"
+      "value": "包含建议更改预览的文件 (CSV)"
     }
   ],
   "ui-bulk-edit.logs.actions.linkToModifiedRecordsCsvFile.QUERY": [
     {
       "type": 0,
-      "value": "包含建议更改预览的文件"
+      "value": "包含建议更改预览的文件 (CSV)"
     }
   ],
   "ui-bulk-edit.logs.actions.linkToModifiedRecordsMarcFile": [
     {
       "type": 0,
-      "value": "包含建议更改预览的文件"
+      "value": "包含拟议变更预览的文件 (MARC)"
     }
   ],
   "ui-bulk-edit.logs.actions.linkToModifiedRecordsMarcFile.QUERY": [
     {
       "type": 0,
-      "value": "包含建议更改预览的文件"
+      "value": "包含拟议变更预览的文件 (MARC)"
     }
   ],
   "ui-bulk-edit.logs.actions.linkToTriggeringCsvFile": [
@@ -25099,7 +25180,7 @@
   "ui-bulk-edit.logs.status.APPLY_MARC_CHANGES": [
     {
       "type": 0,
-      "value": "Apply changes"
+      "value": "应用更改"
     }
   ],
   "ui-bulk-edit.logs.status.COMPLETED": [
@@ -25213,7 +25294,7 @@
   "ui-bulk-edit.meta.query.title.marc": [
     {
       "type": 0,
-      "value": "Bulk edit MARC fields query"
+      "value": "批量编辑 MARC 字段 查询"
     }
   ],
   "ui-bulk-edit.meta.query.title.mark": [
@@ -25271,13 +25352,21 @@
   "ui-bulk-edit.meta.title.uploadedFile.marc": [
     {
       "type": 0,
-      "value": "Bulk edit MARC fields - "
+      "value": "批量编辑 MARC 字段 - "
     },
     {
       "children": [
         {
+          "type": 0,
+          "value": " "
+        },
+        {
           "type": 1,
           "value": "fileName"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -25619,7 +25708,7 @@
   "ui-bulk-edit.previewModal.downloadPreview": [
     {
       "type": 0,
-      "value": "下载预览"
+      "value": "以 CSV 格式下载预览"
     }
   ],
   "ui-bulk-edit.previewModal.downloadPreview.marc": [
@@ -25792,7 +25881,7 @@
   "ui-bulk-edit.start.downloadMatchedRecords": [
     {
       "type": 0,
-      "value": "Download matched records (CSV)"
+      "value": "下载匹配的记录(CSV)"
     }
   ],
   "ui-bulk-edit.start.downloadMathcedRecords": [
@@ -25864,7 +25953,7 @@
   "ui-bulk-edit.title.marc": [
     {
       "type": 0,
-      "value": "Bulk edit MARC fields"
+      "value": "批量编辑 MARC 字段"
     }
   ],
   "ui-bulk-edit.title.mark": [
@@ -28302,7 +28391,7 @@
   "ui-checkin.claimedReturnedModal.label": [
     {
       "type": 0,
-      "value": "归还声称已还单件"
+      "value": "归还声称已归还单件"
     }
   ],
   "ui-checkin.claimedReturnedModal.message": [
@@ -28362,7 +28451,7 @@
       "children": [
         {
           "type": 0,
-          "value": "声称已还"
+          "value": "声称已归还"
         }
       ],
       "type": 8,
@@ -28960,7 +29049,7 @@
   "ui-checkin.selectItemModal.location": [
     {
       "type": 0,
-      "value": "位置"
+      "value": "馆藏地"
     }
   ],
   "ui-checkin.selectItemModal.materialType": [
@@ -29583,7 +29672,7 @@
   "ui-checkout.borrower.ariaLabel": [
     {
       "type": 0,
-      "value": "View borrower record"
+      "value": "查看借阅者记录"
     }
   ],
   "ui-checkout.borrowerProxy": [
@@ -30337,7 +30426,7 @@
   "ui-checkout.loanDetails.ariaLabel": [
     {
       "type": 0,
-      "value": "View open loan details"
+      "value": "查看未结借阅详情"
     }
   ],
   "ui-checkout.loanPolicy": [
@@ -30891,7 +30980,7 @@
   "ui-checkout.openRequests.ariaLabel": [
     {
       "type": 0,
-      "value": "View open requests"
+      "value": "查看未结请求"
     }
   ],
   "ui-checkout.orActingAsProxy": [
@@ -30939,7 +31028,7 @@
   "ui-checkout.patronBlocks.ariaLabel": [
     {
       "type": 0,
-      "value": "View patron blocks"
+      "value": "查看读者块"
     }
   ],
   "ui-checkout.patronBlocksCount": [
@@ -31037,7 +31126,7 @@
   "ui-checkout.proxy.ariaLabel": [
     {
       "type": 0,
-      "value": "View borrower's proxy record"
+      "value": "查看借阅者的代理记录"
     }
   ],
   "ui-checkout.proxy.expiration": [
@@ -31406,7 +31495,7 @@
   "ui-circulation-log.logEvent.action.Claimed returned": [
     {
       "type": 0,
-      "value": "声称已还"
+      "value": "声称已归还"
     }
   ],
   "ui-circulation-log.logEvent.action.Closed loan": [
@@ -31832,7 +31921,7 @@
   "ui-circulation.permission.settings.edit-loan-history": [
     {
       "type": 0,
-      "value": "Settings (Circulation): Can edit loan history"
+      "value": "设置（流通）：可以编辑借阅历史"
     }
   ],
   "ui-circulation.permission.settings.edit-staff-slips": [
@@ -44146,7 +44235,7 @@
   "ui-data-export.holdings.temporaryLocation.institution.code": [
     {
       "type": 0,
-      "value": "馆藏-临时位置馆藏地-机构-代码"
+      "value": "馆藏-临时馆藏地-机构-代码"
     }
   ],
   "ui-data-export.holdings.temporaryLocation.institution.name": [
@@ -49681,7 +49770,7 @@
   "ui-data-import.settings.mappingProfiles.map.field.publicDisplay": [
     {
       "type": 0,
-      "value": "公开展示"
+      "value": "公开显示"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.field.receiptStatus": [
@@ -49819,13 +49908,13 @@
   "ui-data-import.settings.mappingProfiles.map.holdings.statements.field.holdingsStatementPublicNote": [
     {
       "type": 0,
-      "value": "说明的公共附注"
+      "value": "说明 公共附注"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.holdings.statements.field.holdingsStatementStaffNote": [
     {
       "type": 0,
-      "value": "说明的员工附注"
+      "value": "说明 员工附注"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.identifiers.section": [
@@ -51577,7 +51666,7 @@
   "ui-data-import.settings.mappingProfiles.map.order.location.section": [
     {
       "type": 0,
-      "value": "位置"
+      "value": "馆藏地"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.order.orderDetails.contributors.contributor": [
@@ -52471,7 +52560,7 @@
   "ui-data-import.settings.mappingProfiles.map.statements.field.holdingsStatementsForIndexes.legend": [
     {
       "type": 0,
-      "value": "索引的馆藏说明"
+      "value": "馆藏 索引说明"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.statements.field.holdingsStatementsForSupplements.addLabel": [
@@ -56188,7 +56277,7 @@
     },
     {
       "type": 0,
-      "value": " applied "
+      "value": "应用了"
     },
     {
       "offset": 0,
@@ -56197,7 +56286,7 @@
           "value": [
             {
               "type": 0,
-              "value": "filter"
+              "value": " filter "
             }
           ]
         },
@@ -56205,7 +56294,7 @@
           "value": [
             {
               "type": 0,
-              "value": "filters"
+              "value": " filters "
             }
           ]
         }
@@ -56218,7 +56307,7 @@
   "ui-eholdings.actionMenu.label": [
     {
       "type": 0,
-      "value": "Actions"
+      "value": "操作"
     }
   ],
   "ui-eholdings.add": [
@@ -59885,7 +59974,7 @@
   "ui-eholdings.shortcut.goToSearchFilter": [
     {
       "type": 0,
-      "value": "转到搜索和筛选窗格"
+      "value": "转到搜索和筛选面板"
     }
   ],
   "ui-eholdings.shortcut.openShortcutModal": [
@@ -60135,31 +60224,31 @@
   "ui-eholdings.titlesList.customCoverage": [
     {
       "type": 0,
-      "value": "Custom coverage dates"
+      "value": "自定义覆盖日期"
     }
   ],
   "ui-eholdings.titlesList.managedCoverage": [
     {
       "type": 0,
-      "value": "Managed coverage dates"
+      "value": "管理覆盖日期"
     }
   ],
   "ui-eholdings.titlesList.managedEmbargo": [
     {
       "type": 0,
-      "value": "Managed embargo period"
+      "value": "管理排除时期"
     }
   ],
   "ui-eholdings.titlesList.status": [
     {
       "type": 0,
-      "value": "Status"
+      "value": "状态"
     }
   ],
   "ui-eholdings.titlesList.title": [
     {
       "type": 0,
-      "value": "Title"
+      "value": "题名"
     }
   ],
   "ui-eholdings.type": [
@@ -60573,13 +60662,13 @@
   "ui-eholdings.validate.errors.coverageStatement.blank": [
     {
       "type": 0,
-      "value": "如果选择声明，则声明不能为空。"
+      "value": "如果已选，则说明不能为空。"
     }
   ],
   "ui-eholdings.validate.errors.coverageStatement.length": [
     {
       "type": 0,
-      "value": "声明必须不超过350个字符。"
+      "value": "说明必须不超过350个字符。"
     }
   ],
   "ui-eholdings.validate.errors.customLabels.length": [
@@ -64464,7 +64553,7 @@
   "ui-export-manager.exportJob.download": [
     {
       "type": 0,
-      "value": "Download"
+      "value": "下载"
     }
   ],
   "ui-export-manager.exportJob.endTime": [
@@ -64494,19 +64583,19 @@
   "ui-export-manager.exportJob.integrationType": [
     {
       "type": 0,
-      "value": "Integration type"
+      "value": "集成类型"
     }
   ],
   "ui-export-manager.exportJob.integrationType.claiming": [
     {
       "type": 0,
-      "value": "Claims"
+      "value": "催缺"
     }
   ],
   "ui-export-manager.exportJob.integrationType.ordering": [
     {
       "type": 0,
-      "value": "Orders"
+      "value": "订单"
     }
   ],
   "ui-export-manager.exportJob.jobId": [
@@ -64638,13 +64727,13 @@
   "ui-export-manager.exportJob.type.ORDERS_CSV": [
     {
       "type": 0,
-      "value": "Orders (CSV)"
+      "value": "订单（CSV）"
     }
   ],
   "ui-export-manager.exportJob.type.ORDERS_EDI": [
     {
       "type": 0,
-      "value": "Orders (EDI)"
+      "value": "订单（EDI）"
     }
   ],
   "ui-export-manager.exportJobs": [
@@ -66260,31 +66349,31 @@
   "ui-finance.fund.information.locations": [
     {
       "type": 0,
-      "value": "位置"
+      "value": "馆藏地"
     }
   ],
   "ui-finance.fund.information.locations.action.add": [
     {
       "type": 0,
-      "value": "添加位置"
+      "value": "添加馆藏地"
     }
   ],
   "ui-finance.fund.information.locations.action.remove": [
     {
       "type": 0,
-      "value": "移除位置"
+      "value": "移除馆藏地"
     }
   ],
   "ui-finance.fund.information.locations.action.removeAll": [
     {
       "type": 0,
-      "value": "取消分配所有位置"
+      "value": "取消分配所有馆藏地"
     }
   ],
   "ui-finance.fund.information.locations.action.removeAll.confirm.message": [
     {
       "type": 0,
-      "value": "确定要从资金中取消分配所有位置吗？"
+      "value": "确定要从经费中取消分配所有馆藏地吗？"
     }
   ],
   "ui-finance.fund.information.locations.empty": [
@@ -66302,7 +66391,7 @@
   "ui-finance.fund.information.restrictByLocations": [
     {
       "type": 0,
-      "value": "按位置限制使用"
+      "value": "按馆藏地限制使用"
     }
   ],
   "ui-finance.fund.information.status": [
@@ -69023,7 +69112,7 @@
   "ui-finance.validation.locationsRequired": [
     {
       "type": 0,
-      "value": "必须指定位置"
+      "value": "必须指定馆藏地"
     }
   ],
   "ui-finance.validation.mustNotIncludeColon": [
@@ -69217,7 +69306,7 @@
   "ui-gobi-settings.order.mappings.accordion.polLocation": [
     {
       "type": 0,
-      "value": "位置"
+      "value": "馆藏地"
     }
   ],
   "ui-gobi-settings.order.mappings.accordion.polOngoingOrder": [
@@ -69493,7 +69582,7 @@
   "ui-gobi-settings.order.mappings.field.location": [
     {
       "type": 0,
-      "value": "位置"
+      "value": "馆藏地"
     }
   ],
   "ui-gobi-settings.order.mappings.field.manualPo": [
@@ -69889,7 +69978,7 @@
   "ui-gobi-settings.order.mappings.translator.lookupLocationId": [
     {
       "type": 0,
-      "value": "查询（典藏）位置记录的UUID"
+      "value": "查询（典藏）馆藏地记录的UUID"
     }
   ],
   "ui-gobi-settings.order.mappings.translator.lookupMaterialTypeId": [
@@ -74368,7 +74457,7 @@
   "ui-inventory.callNumberBrowse": [
     {
       "type": 0,
-      "value": "Call number browse"
+      "value": "索书号浏览"
     }
   ],
   "ui-inventory.callNumberEyeReadable": [
@@ -75397,7 +75486,7 @@
   "ui-inventory.editMARCHoldings.paneTitle": [
     {
       "type": 0,
-      "value": "位置： "
+      "value": "馆藏地： "
     },
     {
       "type": 1,
@@ -75449,7 +75538,7 @@
   "ui-inventory.effectiveLocationHoldings": [
     {
       "type": 0,
-      "value": "有效馆藏位置"
+      "value": "馆藏的有效馆藏地"
     }
   ],
   "ui-inventory.effectiveLocationShort": [
@@ -76004,13 +76093,13 @@
   "ui-inventory.holdingsStatementsForIndexes": [
     {
       "type": 0,
-      "value": "索引的馆藏说明"
+      "value": "馆藏 索引说明"
     }
   ],
   "ui-inventory.holdingsStatementsForIndexesNote": [
     {
       "type": 0,
-      "value": "索引的馆藏说明附注"
+      "value": "馆藏 索引说明 附注"
     }
   ],
   "ui-inventory.holdingsStatementsForSupplements": [
@@ -76405,6 +76494,12 @@
     {
       "type": 0,
       "value": "实例详情"
+    }
+  ],
+  "ui-inventory.instanceForm": [
+    {
+      "type": 0,
+      "value": "Instance form"
     }
   ],
   "ui-inventory.instanceFormat": [
@@ -78923,7 +79018,7 @@
   "ui-inventory.permission.consortia.inventory.local.sharing-instances.execute": [
     {
       "type": 0,
-      "value": "Inventory: Share local instance with consortium"
+      "value": "典藏：与联盟共享本地实例"
     }
   ],
   "ui-inventory.permission.consortia.inventory.share.local.instance": [
@@ -79145,7 +79240,7 @@
   "ui-inventory.permission.settings.call-number-browse": [
     {
       "type": 0,
-      "value": "Settings (Inventory): Configure call number browse"
+      "value": "设置（典藏）：配置索书号浏览"
     }
   ],
   "ui-inventory.permission.settings.call-number-types": [
@@ -79409,7 +79504,7 @@
   "ui-inventory.publicDisplay": [
     {
       "type": 0,
-      "value": "公开展示"
+      "value": "公开显示"
     }
   ],
   "ui-inventory.publicNote": [
@@ -79505,7 +79600,7 @@
   "ui-inventory.receivingHistory.displayToPublic": [
     {
       "type": 0,
-      "value": "公开展示"
+      "value": "公开显示"
     }
   ],
   "ui-inventory.receivingHistory.receivedDate": [
@@ -79865,13 +79960,13 @@
   "ui-inventory.reports.inTransitItem.shelvingLocation": [
     {
       "type": 0,
-      "value": "排架位置"
+      "value": "排架地"
     }
   ],
   "ui-inventory.reports.inTransitItem.shelvingLocationCode": [
     {
       "type": 0,
-      "value": "排架位置代码"
+      "value": "排架地代码"
     }
   ],
   "ui-inventory.reports.inTransitItem.tags": [
@@ -80450,49 +80545,49 @@
   "ui-inventory.settings.instanceCallNumber.all": [
     {
       "type": 0,
-      "value": "Call numbers (all)"
+      "value": "索书号（全部）"
     }
   ],
   "ui-inventory.settings.instanceCallNumber.dewey": [
     {
       "type": 0,
-      "value": "Dewey Decimal classification"
+      "value": "杜威十进分类法"
     }
   ],
   "ui-inventory.settings.instanceCallNumber.identifierTypesPopover": [
     {
       "type": 0,
-      "value": "Please note that if no call number types are selected for a browse option, this option will display all call number types."
+      "value": "请注意，如果浏览选项中未选择任何索书号类型，则此选项将显示所有索书号类型。"
     }
   ],
   "ui-inventory.settings.instanceCallNumber.lc": [
     {
       "type": 0,
-      "value": "Library of Congress classification"
+      "value": "美国国会图书馆分类法"
     }
   ],
   "ui-inventory.settings.instanceCallNumber.nlm": [
     {
       "type": 0,
-      "value": "National Library of Medicine classification"
+      "value": "美国国家医学图书馆分类法"
     }
   ],
   "ui-inventory.settings.instanceCallNumber.other": [
     {
       "type": 0,
-      "value": "Other scheme"
+      "value": "其他方案"
     }
   ],
   "ui-inventory.settings.instanceCallNumber.sudoc": [
     {
       "type": 0,
-      "value": "Superintendent of Documents classification"
+      "value": "文件分类主管"
     }
   ],
   "ui-inventory.settings.instanceCallNumber.termUpdated": [
     {
       "type": 0,
-      "value": "The call number browse type "
+      "value": "索书号浏览类型"
     },
     {
       "type": 1,
@@ -80500,7 +80595,7 @@
     },
     {
       "type": 0,
-      "value": " was successfully updated"
+      "value": "已成功更新"
     }
   ],
   "ui-inventory.settings.instanceClassification.all": [
@@ -80571,10 +80666,34 @@
       "value": "典藏设置"
     }
   ],
+  "ui-inventory.settings.section.cardsPerPage": [
+    {
+      "type": 0,
+      "value": "Cards per page"
+    }
+  ],
   "ui-inventory.settings.section.displaySettings": [
     {
       "type": 0,
       "value": "显示设置"
+    }
+  ],
+  "ui-inventory.settings.section.versionHistory": [
+    {
+      "type": 0,
+      "value": "Version history"
+    }
+  ],
+  "ui-inventory.settings.versionHistory.versionHistoryCardsPerPage": [
+    {
+      "type": 0,
+      "value": "Cards to display per page on Version history"
+    }
+  ],
+  "ui-inventory.settings.versionHistory.versionHistoryCardsPerPage.loadError": [
+    {
+      "type": 0,
+      "value": "Failed to load Version history cards per page settings"
     }
   ],
   "ui-inventory.shareLocalInstance": [
@@ -81214,7 +81333,7 @@
   "ui-inventory.updateOwnership.items.message.error": [
     {
       "type": 0,
-      "value": "Item ownership could not be updated because the record contains local-specific reference data."
+      "value": "无法更新单件所有权，因为记录包含特定于本地的参考数据。"
     }
   ],
   "ui-inventory.updateOwnership.items.modal.heading": [
@@ -83024,29 +83143,7 @@
   "ui-invoice.invoice.actions.saveLine.error.budgetNotFoundByFundId": [
     {
       "type": 0,
-      "value": "无法保存发票行，因为经费"
-    },
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": " "
-        },
-        {
-          "type": 1,
-          "value": "fundCode"
-        },
-        {
-          "type": 0,
-          "value": " "
-        }
-      ],
-      "type": 8,
-      "value": "b"
-    },
-    {
-      "type": 0,
-      "value": "没有当前预算。"
+      "value": "无法保存发票行，因为发票未分配到财务年度。"
     }
   ],
   "ui-invoice.invoice.actions.saveLine.error.budgetNotFoundByFundIdAndFiscalYearId": [
@@ -83944,7 +84041,7 @@
   "ui-invoice.invoice.totalAmount": [
     {
       "type": 0,
-      "value": "Total Amount"
+      "value": "总金额"
     }
   ],
   "ui-invoice.invoice.validation.accountingCode": [
@@ -84816,7 +84913,7 @@
   "ui-invoice.settings.batchGroupConfiguration.locationType": [
     {
       "type": 0,
-      "value": "位置类型"
+      "value": "馆藏地类型"
     }
   ],
   "ui-invoice.settings.batchGroupConfiguration.locationType.FTP": [
@@ -86425,7 +86522,7 @@
   "ui-licenses.amendments.closePane": [
     {
       "type": 0,
-      "value": "关闭编辑修改窗格"
+      "value": "关闭编辑修改面板"
     }
   ],
   "ui-licenses.amendments.create": [
@@ -86625,7 +86722,7 @@
   "ui-licenses.closeEditLicense": [
     {
       "type": 0,
-      "value": "关闭编辑许可证窗格"
+      "value": "关闭编辑许可证面板"
     }
   ],
   "ui-licenses.comparator": [
@@ -89635,7 +89732,7 @@
   "ui-lists.create-fql.query.invalid": [
     {
       "type": 0,
-      "value": "Unable to complete action. Query is no longer valid due to a deleted field(s). Please edit the list query or delete the list."
+      "value": "无法完成操作。由于删除了字段，查询不再有效。请编辑列表查询或删除列表。"
     }
   ],
   "ui-lists.create-list.aside.build-query": [
@@ -90885,7 +90982,7 @@
   "ui-lists.unexpected.error": [
     {
       "type": 0,
-      "value": "Unable to complete action. Query is no longer valid due to a deleted field(s). Please edit the list query or delete the list."
+      "value": "无法完成操作。由于删除了字段，查询不再有效。请编辑列表查询或删除列表。"
     }
   ],
   "ui-lists.update-export.in.progress": [
@@ -90919,7 +91016,7 @@
   "ui-lists.update-fql.query.invalid": [
     {
       "type": 0,
-      "value": "Unable to complete action. Query is no longer valid due to a deleted field(s). Please edit the list query or delete the list."
+      "value": "无法完成操作。由于删除了字段，查询不再有效。请编辑列表查询或删除列表。"
     }
   ],
   "ui-lists.update-list.not.found": [
@@ -92823,7 +92920,7 @@
   "ui-local-kb-admin.shortcut.goToSearchFilter": [
     {
       "type": 0,
-      "value": "转到“搜索和筛选”窗格"
+      "value": "转到“搜索和筛选”面板"
     }
   ],
   "ui-local-kb-admin.shortcut.saveRecord": [
@@ -94210,7 +94307,7 @@
   "ui-marc-authorities.shortcut.goToSearchFilter": [
     {
       "type": 0,
-      "value": "转到搜索和筛选窗格"
+      "value": "转到搜索和筛选面板"
     }
   ],
   "ui-marc-authorities.shortcut.nextSubfield": [
@@ -95564,7 +95661,7 @@
   "ui-oa.checklist.closeChecklistPane": [
     {
       "type": 0,
-      "value": "关闭检查表窗格"
+      "value": "关闭检查表面板"
     }
   ],
   "ui-oa.checklist.created": [
@@ -95660,7 +95757,7 @@
   "ui-oa.checklist.openChecklistPane": [
     {
       "type": 0,
-      "value": "打开检查表窗格"
+      "value": "打开检查表面板"
     }
   ],
   "ui-oa.checklist.outcome.met": [
@@ -99051,7 +99148,7 @@
   "ui-orders.buttons.line.saveAndCreateAnother": [
     {
       "type": 0,
-      "value": "Save & create another"
+      "value": "保存并创建另一个"
     }
   ],
   "ui-orders.buttons.line.saveAndOpen": [
@@ -100143,13 +100240,13 @@
   "ui-orders.errors.locationIdAndHoldingIdAbsentError": [
     {
       "type": 0,
-      "value": "必须提供馆藏或位置参引"
+      "value": "必须提供馆藏或馆藏地参引"
     }
   ],
   "ui-orders.errors.locationUpdateWithoutAffiliation": [
     {
       "type": 0,
-      "value": "无法保存采购订单行。此记录具有您的用户没有的位置关联。必须删除这些关联，或者必须由具有与记录相同关联的用户执行此操作。"
+      "value": "无法保存采购订单行。此记录具有您的用户没有的馆藏地关联。必须删除这些关联，或者必须由具有与记录相同关联的用户执行此操作。"
     }
   ],
   "ui-orders.errors.materialTypeRequired": [
@@ -100161,7 +100258,7 @@
   "ui-orders.errors.mayBeLinkToEitherHoldingOrLocationError": [
     {
       "type": 0,
-      "value": "已经提供了馆藏Id和位置Id"
+      "value": "已经提供了馆藏Id和馆藏地Id"
     }
   ],
   "ui-orders.errors.missingContributorNameType": [
@@ -100331,7 +100428,7 @@
     },
     {
       "type": 0,
-      "value": "的一笔或多笔经费在所选位置无效"
+      "value": "的一笔或多笔经费在所选馆藏地无效"
     }
   ],
   "ui-orders.errors.openOrder.inactiveExpenseClass": [
@@ -100493,7 +100590,7 @@
   "ui-orders.errors.poLineHasLocationRestrictedFund": [
     {
       "type": 0,
-      "value": "位置限制经费应用于无效位置"
+      "value": "位置限制经费应用于无效馆藏地"
     }
   ],
   "ui-orders.errors.poLineHasRelatedApprovedInvoice": [
@@ -100589,7 +100686,7 @@
   "ui-orders.errors.userHasMissedAffiliations": [
     {
       "type": 0,
-      "value": "操作失败。此记录具有您的用户没有的位置附属关系。必须移除这些附属关系，或者必须由具有与该记录相同附属关系的用户执行此操作。"
+      "value": "操作失败。此记录具有您的用户没有的馆藏地附属关系。必须移除这些附属关系，或者必须由具有与该记录相同附属关系的用户执行此操作。"
     }
   ],
   "ui-orders.errors.userHasNoAcqUnitsPermission": [
@@ -101393,7 +101490,7 @@
   "ui-orders.line.changeInstance.holdingOperations.info": [
     {
       "type": 0,
-      "value": "如果选择创建新馆藏或根据单件的当前位置查找匹配馆藏，FOLIO 将询问是否要尽可能删除废弃的馆藏。"
+      "value": "如果选择创建新馆藏或根据单件的当前馆藏地查找匹配馆藏，FOLIO 将询问是否要尽可能删除废弃的馆藏。"
     }
   ],
   "ui-orders.line.changeInstance.holdingOperations.move": [
@@ -102666,6 +102763,12 @@
     {
       "type": 0,
       "value": "设置（订单）：可查看和编辑所有设置"
+    }
+  ],
+  "ui-orders.permission.settings.number-generator.manage": [
+    {
+      "type": 0,
+      "value": "Settings (Orders): Manage number generator options"
     }
   ],
   "ui-orders.permission.settings.order-templates.create": [
@@ -104687,6 +104790,84 @@
     {
       "type": 0,
       "value": "新建"
+    }
+  ],
+  "ui-orders.settings.numberGenerator.accessionNumber": [
+    {
+      "type": 0,
+      "value": "Accession number"
+    }
+  ],
+  "ui-orders.settings.numberGenerator.accessionNumberEqualCallNumber": [
+    {
+      "type": 0,
+      "value": "Use the same generated number for accession number and call number"
+    }
+  ],
+  "ui-orders.settings.numberGenerator.accessionNumberEqualCallNumber.warning": [
+    {
+      "type": 0,
+      "value": "Warning: The checkbox has been disabled because the accession number and/or the call number have been set to manual completion."
+    }
+  ],
+  "ui-orders.settings.numberGenerator.barcode": [
+    {
+      "type": 0,
+      "value": "Barcode"
+    }
+  ],
+  "ui-orders.settings.numberGenerator.callNumber": [
+    {
+      "type": 0,
+      "value": "Call number"
+    }
+  ],
+  "ui-orders.settings.numberGenerator.info": [
+    {
+      "type": 0,
+      "value": "Fields which are usually filled using a numeric sequence can use the number generator. When the generator is switched on the field can either be fixed to prevent manual update, or made fully editable. When switched off, the field must be filled manually."
+    }
+  ],
+  "ui-orders.settings.numberGenerator.options": [
+    {
+      "type": 0,
+      "value": "Number generator options"
+    }
+  ],
+  "ui-orders.settings.numberGenerator.options.off": [
+    {
+      "type": 0,
+      "value": "Off"
+    }
+  ],
+  "ui-orders.settings.numberGenerator.options.onEditable": [
+    {
+      "type": 0,
+      "value": "On, field editable"
+    }
+  ],
+  "ui-orders.settings.numberGenerator.options.onNotEditable": [
+    {
+      "type": 0,
+      "value": "On, field not editable"
+    }
+  ],
+  "ui-orders.settings.numberGenerator.receiving": [
+    {
+      "type": 0,
+      "value": "Receiving"
+    }
+  ],
+  "ui-orders.settings.numberGenerator.submit.error": [
+    {
+      "type": 0,
+      "value": "Number generator setting update failed"
+    }
+  ],
+  "ui-orders.settings.numberGenerator.submit.success": [
+    {
+      "type": 0,
+      "value": "Number generator setting was successfully updated"
     }
   ],
   "ui-orders.settings.openOrder": [
@@ -107656,19 +107837,27 @@
   "ui-organizations.integrationDetails.duplicate.confirmModal.heading": [
     {
       "type": 0,
-      "value": "Duplicate integration config"
+      "value": "复制集成配置"
     }
   ],
   "ui-organizations.integrationDetails.duplicate.confirmModal.message": [
     {
       "type": 0,
-      "value": "Are you sure you want to duplicate the "
+      "value": "确定要复制"
     },
     {
       "children": [
         {
+          "type": 0,
+          "value": " "
+        },
+        {
           "type": 1,
           "value": "term"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -107676,35 +107865,43 @@
     },
     {
       "type": 0,
-      "value": " integration config?"
+      "value": "集成配置吗？"
     }
   ],
   "ui-organizations.integrationDetails.duplicate.error": [
     {
       "type": 0,
-      "value": "Integration was not duplicated"
+      "value": "集成没有复制"
     }
   ],
   "ui-organizations.integrationDetails.duplicate.name": [
     {
-      "type": 0,
-      "value": "Copy of "
-    },
-    {
       "type": 1,
       "value": "term"
+    },
+    {
+      "type": 0,
+      "value": "的副本"
     }
   ],
   "ui-organizations.integrationDetails.duplicate.success": [
     {
       "type": 0,
-      "value": "Integration "
+      "value": "集成"
     },
     {
       "children": [
         {
+          "type": 0,
+          "value": " "
+        },
+        {
           "type": 1,
           "value": "term"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -107712,7 +107909,7 @@
     },
     {
       "type": 0,
-      "value": " was successfully duplicated"
+      "value": "已成功复制"
     }
   ],
   "ui-organizations.interface": [
@@ -108076,13 +108273,13 @@
   "ui-organizations.numberGenerator.generateVendorCode": [
     {
       "type": 0,
-      "value": "Generate vendor code"
+      "value": "生成供应商代码"
     }
   ],
   "ui-organizations.numberGenerator.vendorCodeGenerator": [
     {
       "type": 0,
-      "value": "Vendor code generator"
+      "value": "供应商代码生成器"
     }
   ],
   "ui-organizations.organization.delete.confirmLabel": [
@@ -108715,27 +108912,23 @@
   "ui-organizations.settings.numberGeneratorOptions": [
     {
       "type": 0,
-      "value": "Number generator options"
+      "value": "数字生成器选项"
     }
   ],
   "ui-organizations.settings.numberGeneratorOptions.info": [
     {
       "type": 0,
-      "value": "Fields which are usually filled using a numeric sequence can use the number generator. When the generator is switched on the field can either be fixed to prevent manual update, or made fully editable. When switched off, the field must be filled manually."
+      "value": "通常使用数字序列填写的字段可以使用数字生成器。当生成器打开时，可以固定该字段以防止手动更新，或使其完全可编辑。当关闭时，必须手动填写该字段。"
     }
   ],
   "ui-organizations.settings.numberGeneratorOptions.infoAdditional": [
-    {
-      "type": 0,
-      "value": "Additional number generator settings are available under "
-    },
     {
       "type": 1,
       "value": "serviceInteractionLink"
     },
     {
       "type": 0,
-      "value": ".  At "
+      "value": "下有其他数字生成器设置。在"
     },
     {
       "type": 1,
@@ -108743,37 +108936,37 @@
     },
     {
       "type": 0,
-      "value": " sequences can be defined by selecting the appropriate generator via the drop-down menu."
+      "value": "中，可以通过下拉菜单选择适当的生成器来定义序列。"
     }
   ],
   "ui-organizations.settings.numberGeneratorOptions.save.error": [
     {
       "type": 0,
-      "value": "Error saving setting"
+      "value": "保存设置错误"
     }
   ],
   "ui-organizations.settings.numberGeneratorOptions.save.success": [
     {
       "type": 0,
-      "value": "Setting was successfully saved"
+      "value": "设置已成功保存"
     }
   ],
   "ui-organizations.settings.numberGeneratorOptions.useBothForVendor": [
     {
       "type": 0,
-      "value": "Number generator on, editable: the vendor code can be filled using the generator and be edited, or filled manually."
+      "value": "数字生成器开启，可编辑：可以使用生成器填写供应商代码并进行编辑，也可以手动填写。"
     }
   ],
   "ui-organizations.settings.numberGeneratorOptions.useGeneratorForVendor": [
     {
       "type": 0,
-      "value": "Number generator on, fixed: the vendor code can be filled using the generator only."
+      "value": "数字生成器开启，已固定：供应商代码只能使用生成器来填充。"
     }
   ],
   "ui-organizations.settings.numberGeneratorOptions.useTextFieldForVendor": [
     {
       "type": 0,
-      "value": "Number generator off: the vendor code can be filled manually only."
+      "value": "数字生成器关闭：只能手动填写供应商代码。"
     }
   ],
   "ui-organizations.settings.type": [
@@ -109373,7 +109566,7 @@
   "ui-organizations.view.duplicate": [
     {
       "type": 0,
-      "value": "Duplicate"
+      "value": "复制"
     }
   ],
   "ui-organizations.view.duplicateAccounts": [
@@ -109565,7 +109758,7 @@
   "ui-plugin-bursar-export.bursarExports.criteria.location.loc": [
     {
       "type": 0,
-      "value": "位置"
+      "value": "馆藏地"
     }
   ],
   "ui-plugin-bursar-export.bursarExports.criteria.select.age": [
@@ -109601,7 +109794,7 @@
   "ui-plugin-bursar-export.bursarExports.criteria.select.location": [
     {
       "type": 0,
-      "value": "单件位置"
+      "value": "单件馆藏地"
     }
   ],
   "ui-plugin-bursar-export.bursarExports.criteria.select.none": [
@@ -110321,7 +110514,7 @@
   "ui-plugin-bursar-export.bursarExports.token.itemInfo.locId": [
     {
       "type": 0,
-      "value": "位置ID"
+      "value": "馆藏地ID"
     }
   ],
   "ui-plugin-bursar-export.bursarExports.token.itemInfo.material": [
@@ -112724,7 +112917,7 @@
   "ui-plugin-find-instance.holdings.permanentLocation": [
     {
       "type": 0,
-      "value": "馆藏永久馆藏地"
+      "value": "馆藏 永久馆藏地"
     }
   ],
   "ui-plugin-find-instance.holdingsHrid": [
@@ -114214,12 +114407,16 @@
   ],
   "ui-plugin-query-builder.warning.deletedField": [
     {
+      "type": 0,
+      "value": "查询中的"
+    },
+    {
       "type": 1,
       "value": "value"
     },
     {
       "type": 0,
-      "value": " in your query is unavailable. Please revise your query. "
+      "value": "不可用。请修改查询。"
     }
   ],
   "ui-quick-marc.Inventory": [
@@ -114454,7 +114651,7 @@
   "ui-quick-marc.holdings-record.edit.title": [
     {
       "type": 0,
-      "value": "编辑MARC馆藏 - 位置： "
+      "value": "编辑MARC馆藏 - 馆藏地： "
     },
     {
       "type": 1,
@@ -114854,7 +115051,7 @@
   "ui-quick-marc.permanentLocationLookup": [
     {
       "type": 0,
-      "value": "永久位置查询"
+      "value": "永久馆藏地查询"
     }
   ],
   "ui-quick-marc.permission.quick-marc-authorities-editor.all": [
@@ -115556,19 +115753,19 @@
   "ui-quick-marc.record.error.location.empty": [
     {
       "type": 0,
-      "value": "记录无法保存。需要一个852字段。"
+      "value": "记录无法保存。852字段必备。"
     }
   ],
   "ui-quick-marc.record.error.location.invalid": [
     {
       "type": 0,
-      "value": "852$b包含无效的位置代码。请再试一次。"
+      "value": "852$b包含无效的馆藏地代码。请再试一次。"
     }
   ],
   "ui-quick-marc.record.error.location.multiple": [
     {
       "type": 0,
-      "value": "记录无法保存。只能有一个MARC 852。"
+      "value": "记录无法保存。只能有一个MARC 852字段。"
     }
   ],
   "ui-quick-marc.record.error.subfield": [
@@ -121081,7 +121278,7 @@
   "ui-receiving.bind.pieces.create.error.bindItemMustIncludeEitherHoldingIdOrLocationId": [
     {
       "type": 0,
-      "value": "必须提供馆藏或位置参引"
+      "value": "必须提供馆藏或馆藏地参引"
     }
   ],
   "ui-receiving.bind.pieces.create.error.generic": [
@@ -121255,7 +121452,7 @@
   "ui-receiving.errors.cannotFindPiecesWithLatestStatusToProcess": [
     {
       "type": 0,
-      "value": "The piece must have \"Late\" status to process."
+      "value": "该件必须具有“延迟”状态才能处理。"
     }
   ],
   "ui-receiving.errors.createItemForPieceIsNotAllowedError": [
@@ -121325,13 +121522,13 @@
   "ui-receiving.errors.locationIdAndHoldingIdAbsentError": [
     {
       "type": 0,
-      "value": "必须提供馆藏或位置参引"
+      "value": "必须提供馆藏或馆藏地参引"
     }
   ],
   "ui-receiving.errors.mayBeLinkToEitherHoldingOrLocationError": [
     {
       "type": 0,
-      "value": "已经提供了馆藏Id和位置Id"
+      "value": "已经提供了馆藏Id和馆藏地Id"
     }
   ],
   "ui-receiving.errors.missingHoldingsSourceId": [
@@ -121409,7 +121606,7 @@
   "ui-receiving.errors.unableToGenerateClaimsForOrgNoIntegrationDetails": [
     {
       "type": 0,
-      "value": "Unable to generate claims because no claim integrations exist for the organization."
+      "value": "无法生成催缺，因为该组织不存在催缺集成。"
     }
   ],
   "ui-receiving.errors.userHasNoPermission": [
@@ -121751,7 +121948,7 @@
   "ui-receiving.piece.action.button.markLate": [
     {
       "type": 0,
-      "value": "Mark late"
+      "value": "标记延误"
     }
   ],
   "ui-receiving.piece.action.button.quickReceive": [
@@ -122365,7 +122562,7 @@
   "ui-receiving.piece.permanentLocationId": [
     {
       "type": 0,
-      "value": "永久位置"
+      "value": "永久馆藏地"
     }
   ],
   "ui-receiving.piece.pieceForm.create.title": [
@@ -122413,13 +122610,13 @@
   "ui-receiving.piece.sendClaim.withIntegration.message": [
     {
       "type": 0,
-      "value": "This will generate a claim job which can be viewed in Export manager. Continue?"
+      "value": "这将生成一个可以在导出管理器中查看的催缺任务。继续吗？"
     }
   ],
   "ui-receiving.piece.sendClaim.withoutIntegration.message": [
     {
       "type": 0,
-      "value": "No claiming integration exists for this organization. Piece will be set to \"Claim sent\" status. Continue?"
+      "value": "此组织不存在催缺集成。件将设置为“催缺已发送”状态。继续吗？"
     }
   ],
   "ui-receiving.piece.status": [
@@ -123163,7 +123360,7 @@
   "ui-remote-storage.accession-workflow.option.change": [
     {
       "type": 0,
-      "value": "更改永久位置"
+      "value": "更改永久馆藏地"
     }
   ],
   "ui-remote-storage.accession-workflow.option.duplicate": [
@@ -123383,13 +123580,13 @@
   "ui-remote-storage.location.final": [
     {
       "type": 0,
-      "value": "最终位置（远程）"
+      "value": "最终馆藏地（远程）"
     }
   ],
   "ui-remote-storage.location.original": [
     {
       "type": 0,
-      "value": "原位置"
+      "value": "原馆藏地"
     }
   ],
   "ui-remote-storage.meta.title": [
@@ -124447,7 +124644,7 @@
   "ui-requests-mediated.itemDetails.barcode.ariaLabel": [
     {
       "type": 0,
-      "value": "View item record"
+      "value": "查看单件记录"
     }
   ],
   "ui-requests-mediated.itemDetails.callNumber": [
@@ -124517,7 +124714,7 @@
   "ui-requests-mediated.itemsDialog.location": [
     {
       "type": 0,
-      "value": "位置"
+      "value": "馆藏地"
     }
   ],
   "ui-requests-mediated.itemsDialog.materialType": [
@@ -125140,7 +125337,7 @@
   "ui-requests-mediated.requesterDetails.barcode.ariaLabel": [
     {
       "type": 0,
-      "value": "View requester record"
+      "value": "查看请求者记录"
     }
   ],
   "ui-requests-mediated.requesterDetails.deliveryAddress": [
@@ -125682,7 +125879,7 @@
   "ui-requests.errors.requestPickupServicePointIsNotAllowed": [
     {
       "type": 0,
-      "value": "一个或多个取件地点不再可用"
+      "value": "一个或多个取件地不再可用"
     }
   ],
   "ui-requests.errors.requestType.itemLevelRequest": [
@@ -125742,7 +125939,7 @@
   "ui-requests.errors.servicePointIsNotPickupLocation": [
     {
       "type": 0,
-      "value": "服务点不是取件位置"
+      "value": "服务点不是取件地"
     }
   ],
   "ui-requests.errors.sync.requestQueueBody": [
@@ -125784,7 +125981,7 @@
   "ui-requests.exportExpiredHoldShelfCsv": [
     {
       "type": 0,
-      "value": "Hold shelf clearance report "
+      "value": "预约架清理报告"
     },
     {
       "type": 1,
@@ -125812,7 +126009,7 @@
   "ui-requests.exportSearchResultsCsv": [
     {
       "type": 0,
-      "value": "Export search results (CSV)"
+      "value": "导出搜索结果（CSV）"
     }
   ],
   "ui-requests.exportSearchResultsToCsv": [
@@ -126058,7 +126255,7 @@
   "ui-requests.item.location.code": [
     {
       "type": 0,
-      "value": "有效位置代码"
+      "value": "有效馆藏地代码"
     }
   ],
   "ui-requests.item.location.libraryName": [
@@ -126094,7 +126291,7 @@
   "ui-requests.item.retrievalServicePointName": [
     {
       "type": 0,
-      "value": "Retrieval service point"
+      "value": "检索服务点"
     }
   ],
   "ui-requests.item.scanOrEnterBarcode": [
@@ -126674,7 +126871,7 @@
   "ui-requests.printPickSlipsForSp": [
     {
       "type": 0,
-      "value": "Print pick slips "
+      "value": "打印选取单"
     },
     {
       "type": 1,
@@ -126712,7 +126909,7 @@
   "ui-requests.printSearchSlipsForSp": [
     {
       "type": 0,
-      "value": "Print search slips "
+      "value": "打印搜索单"
     },
     {
       "type": 1,
@@ -126722,7 +126919,7 @@
   "ui-requests.printSelectedPickSlipsForSp": [
     {
       "type": 0,
-      "value": "Print selected pick slips "
+      "value": "打印选定的选取单"
     },
     {
       "type": 1,
@@ -127996,19 +128193,19 @@
   "ui-serials-management.numberOfCycles.infoPopover": [
     {
       "type": 0,
-      "value": "This controls the number of years of predicted pieces that are to be generated, except in the case of multi-year cycles (e.g. 1 issue every 2 years) where it controls the number of multi-year cycles to be used for prediction. The total number of issues to be predicted cannot be >366 (e.g. one year of daily issues or 30 years of monthly issues). Note that it is recommend not to predict large numbers of years in one go in case the serial changes publication frequency in the future."
+      "value": "这控制要生成的预测件的年数，但在多年周期（例如每2年1期）的情况下除外，在这种情形下，它控制用于预测的多年周期数。要预测的总期数不能超过366（例如日刊1年或月刊30年）。注意，建议不要一次性预测大量年份，以防将来期刊的出版频率发生变化。"
     }
   ],
   "ui-serials-management.patternTemplate": [
     {
       "type": 0,
-      "value": "Pattern template (replaces content in the form below with pre-defined values)"
+      "value": "模式模板（用预定义值替换下表中的内容）"
     }
   ],
   "ui-serials-management.patternTemplatePopover": [
     {
       "type": 0,
-      "value": "Search for a pattern template name or description. Then select from the filter list to apply the template and fill out the form below with pre-defined values"
+      "value": "搜索模式模板名称或说明。然后从筛选列表中选择以应用模板，并使用预定义值填写下面的表格"
     }
   ],
   "ui-serials-management.piece.label": [
@@ -128026,7 +128223,7 @@
   "ui-serials-management.pieceSets.affiliation": [
     {
       "type": 0,
-      "value": "Affiliation"
+      "value": "隶属关系"
     }
   ],
   "ui-serials-management.pieceSets.combinedPieces": [
@@ -128167,13 +128364,13 @@
   "ui-serials-management.pieceSets.location": [
     {
       "type": 0,
-      "value": "位置"
+      "value": "馆藏地"
     }
   ],
   "ui-serials-management.pieceSets.noOrderLineLocationsOrHoldings": [
     {
       "type": 0,
-      "value": "链接的订单行没有位置或馆藏，并且将创建没有位置或馆藏的接收件。要添加位置或馆藏，请更新订单行。"
+      "value": "链接的订单行没有馆藏地或馆藏，并且将创建没有馆藏地或馆藏的接收件。要添加馆藏地或馆藏，请更新订单行。"
     }
   ],
   "ui-serials-management.pieceSets.note": [
@@ -128359,7 +128556,7 @@
   "ui-serials-management.pieceSets.timeBetweenPublicationAndReceiptPopover": [
     {
       "type": 0,
-      "value": "件出版日期与该位置收到该件之间的时间间隔"
+      "value": "件出版日期与该馆藏地收到该件之间的时间间隔"
     }
   ],
   "ui-serials-management.pieceSets.title": [
@@ -129189,7 +129386,7 @@
   "ui-serials-management.ruleset.labelTemplate": [
     {
       "type": 0,
-      "value": "Label template"
+      "value": "标签模板"
     }
   ],
   "ui-serials-management.ruleset.labelText": [
@@ -129295,7 +129492,7 @@
   "ui-serials-management.ruleset.numberOfCycles": [
     {
       "type": 0,
-      "value": "Number of years/cycles"
+      "value": "年数/周期数"
     }
   ],
   "ui-serials-management.ruleset.numberOfIssues": [
@@ -129693,7 +129890,7 @@
   "ui-serials-management.serials.location": [
     {
       "type": 0,
-      "value": "位置"
+      "value": "馆藏地"
     }
   ],
   "ui-serials-management.serials.newSerial": [
@@ -129811,7 +130008,7 @@
   "ui-serials-management.validate.allowedCycles": [
     {
       "type": 0,
-      "value": "For this publication pattern it is only possible to generate issues for up to "
+      "value": "对于此出版模式，一次最多只能生成"
     },
     {
       "type": 1,
@@ -129819,7 +130016,7 @@
     },
     {
       "type": 0,
-      "value": " years/cycles at one time to avoid generating very large piece sets"
+      "value": "年/周期的期，以避免生成非常大的件集合"
     }
   ],
   "ui-serials-management.validate.greaterThanOne": [
@@ -131283,19 +131480,19 @@
   "ui-tenant-settings.permission.settings.location.floating.edit": [
     {
       "type": 0,
-      "value": "Settings (tenant): Can view and edit floating collection flag"
+      "value": "设置（租户）：可以查看和编辑浮动收藏标志"
     }
   ],
   "ui-tenant-settings.permission.settings.location.floating.view": [
     {
       "type": 0,
-      "value": "Settings (tenant): Can view floating collection flag"
+      "value": "设置（租户）：可以查看浮动收藏标志"
     }
   ],
   "ui-tenant-settings.permission.settings.location.view": [
     {
       "type": 0,
-      "value": "设置（租户）：查看位置"
+      "value": "设置（租户）：查看馆藏地"
     }
   ],
   "ui-tenant-settings.permission.settings.plugins": [
@@ -131507,13 +131704,13 @@
   "ui-tenant-settings.settings.confirmPickupLocationChangeModal.message": [
     {
       "type": 0,
-      "value": "将此取件位置从“是”更改为“否”将从现有请求策略中移除它，并影响使用这些策略的所有流通规则。"
+      "value": "将此取件地从“是”更改为“否”将从现有请求策略中移除它，并影响使用这些策略的所有流通规则。"
     }
   ],
   "ui-tenant-settings.settings.confirmPickupLocationChangeModal.title": [
     {
       "type": 0,
-      "value": "确认取件地点更改"
+      "value": "确认取件地更改"
     }
   ],
   "ui-tenant-settings.settings.general.label": [
@@ -131767,19 +131964,19 @@
   "ui-tenant-settings.settings.location.createNew.title": [
     {
       "type": 0,
-      "value": "租户设置 - 新位置"
+      "value": "租户设置 - 新建馆藏地"
     }
   ],
   "ui-tenant-settings.settings.location.floating": [
     {
       "type": 0,
-      "value": "Floating collection"
+      "value": "浮动收藏"
     }
   ],
   "ui-tenant-settings.settings.location.floating.enabled": [
     {
       "type": 0,
-      "value": "Enabled"
+      "value": "已启用"
     }
   ],
   "ui-tenant-settings.settings.location.institutions": [
@@ -132121,7 +132318,7 @@
   "ui-tenant-settings.settings.location.locations.floating": [
     {
       "type": 0,
-      "value": "Enable floating collection"
+      "value": "启用浮动收藏"
     }
   ],
   "ui-tenant-settings.settings.location.locations.generalInformation": [
@@ -132211,7 +132408,7 @@
   "ui-tenant-settings.settings.location.locations.title": [
     {
       "type": 0,
-      "value": "租户设置 - 位置"
+      "value": "租户设置 - 馆藏地"
     }
   ],
   "ui-tenant-settings.settings.location.locations.untitledLocation": [
@@ -132223,13 +132420,13 @@
   "ui-tenant-settings.settings.location.locations.validation.code.unique": [
     {
       "type": 0,
-      "value": "位置代码必须是唯一的"
+      "value": "馆藏地代码必须是唯一的"
     }
   ],
   "ui-tenant-settings.settings.location.locations.validation.name.unique": [
     {
       "type": 0,
-      "value": "位置名称必须是唯一的"
+      "value": "馆藏地名称必须是唯一的"
     }
   ],
   "ui-tenant-settings.settings.location.remotes.failed": [
@@ -132911,7 +133108,7 @@
   "ui-tenant-settings.settings.servicePoints.selectLocation": [
     {
       "type": 0,
-      "value": "选择位置名称或代码"
+      "value": "选择馆藏地名称或代码"
     }
   ],
   "ui-tenant-settings.settings.servicePoints.shelvingLagTime": [
@@ -132959,7 +133156,7 @@
   "ui-tenant-settings.settings.shelvingLocations.label": [
     {
       "type": 0,
-      "value": "排架位置"
+      "value": "排架地"
     }
   ],
   "ui-tenant-settings.settings.sso.title": [

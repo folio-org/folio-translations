@@ -126,25 +126,25 @@
   "stripes-acq-components.claiming.action.delayClaim": [
     {
       "type": 0,
-      "value": "Delay claim"
+      "value": "Zpozdit nárok"
     }
   ],
   "stripes-acq-components.claiming.action.sendClaim": [
     {
       "type": 0,
-      "value": "Send claim"
+      "value": "Odeslat nárok"
     }
   ],
   "stripes-acq-components.claiming.action.unreceivable": [
     {
       "type": 0,
-      "value": "Unreceivable"
+      "value": "Nepřijatelné"
     }
   ],
   "stripes-acq-components.claiming.modal.delayClaim.field.delayTo": [
     {
       "type": 0,
-      "value": "Delay to"
+      "value": "Zpoždění do"
     }
   ],
   "stripes-acq-components.claiming.modal.delayClaim.heading": [
@@ -724,7 +724,7 @@
   "stripes-acq-components.label.emptyValue": [
     {
       "type": 0,
-      "value": " "
+      "value": "."
     }
   ],
   "stripes-acq-components.label.productId": [
@@ -4137,15 +4137,11 @@
   "stripes-components.filterGroups.clearFilterSetLabel": [
     {
       "type": 0,
-      "value": "Clear selected "
+      "value": "Vymazat vybrané filtry "
     },
     {
       "type": 1,
       "value": "labelText"
-    },
-    {
-      "type": 0,
-      "value": " filters"
     }
   ],
   "stripes-components.goToNextMonth": [
@@ -7479,7 +7475,7 @@
   "stripes-components.selection.enterFilter": [
     {
       "type": 0,
-      "value": "Enter a value to load options"
+      "value": "Pro načtení možností zadejte hodnotu"
     }
   ],
   "stripes-components.selection.filterOptionsLabel": [
@@ -8619,7 +8615,7 @@
   "stripes-core.help": [
     {
       "type": 0,
-      "value": "Help"
+      "value": "Nápověda"
     }
   ],
   "stripes-core.label.caution.email": [
@@ -17772,6 +17768,12 @@
       "value": "E-zdroje"
     }
   ],
+  "ui-agreements.eresources.SynchronisationStatus": [
+    {
+      "type": 0,
+      "value": "Synchronisation status"
+    }
+  ],
   "ui-agreements.eresources.accessEnd": [
     {
       "type": 0,
@@ -18376,6 +18378,18 @@
     {
       "type": 0,
       "value": "Vyřadit z vyhledávání"
+    }
+  ],
+  "ui-agreements.eresources.syncContentsFromSource.false": [
+    {
+      "type": 0,
+      "value": "Paused"
+    }
+  ],
+  "ui-agreements.eresources.syncContentsFromSource.true": [
+    {
+      "type": 0,
+      "value": "Synchronising"
     }
   ],
   "ui-agreements.eresources.title": [
@@ -24652,13 +24666,13 @@
   "ui-bulk-edit.logs.actions.linkToCommittedRecordsCsvFile": [
     {
       "type": 0,
-      "value": "Soubor s aktualizovanými záznamy"
+      "value": "Soubor s aktualizovanými záznamy (CSV)"
     }
   ],
   "ui-bulk-edit.logs.actions.linkToCommittedRecordsCsvFile.QUERY": [
     {
       "type": 0,
-      "value": "Soubor s aktualizovanými záznamy"
+      "value": "Soubor s aktualizovanými záznamy (CSV)"
     }
   ],
   "ui-bulk-edit.logs.actions.linkToCommittedRecordsErrorsCsvFile": [
@@ -24676,13 +24690,13 @@
   "ui-bulk-edit.logs.actions.linkToCommittedRecordsMarcFile": [
     {
       "type": 0,
-      "value": "Soubor s aktualizovanými záznamy"
+      "value": "Soubor s aktualizovanými záznamy (MARC)"
     }
   ],
   "ui-bulk-edit.logs.actions.linkToCommittedRecordsMarcFile.QUERY": [
     {
       "type": 0,
-      "value": "Soubor s aktualizovanými záznamy"
+      "value": "Soubor s aktualizovanými záznamy (MARC)"
     }
   ],
   "ui-bulk-edit.logs.actions.linkToMatchedRecordsCsvFile": [
@@ -24712,25 +24726,25 @@
   "ui-bulk-edit.logs.actions.linkToModifiedRecordsCsvFile": [
     {
       "type": 0,
-      "value": "Soubor s náhledem navrhovaných změn"
+      "value": "Soubor s náhledem navrhovaných změn (CSV)"
     }
   ],
   "ui-bulk-edit.logs.actions.linkToModifiedRecordsCsvFile.QUERY": [
     {
       "type": 0,
-      "value": "Soubor s náhledem navrhovaných změn"
+      "value": "Soubor s náhledem navrhovaných změn (CSV)"
     }
   ],
   "ui-bulk-edit.logs.actions.linkToModifiedRecordsMarcFile": [
     {
       "type": 0,
-      "value": "Soubor s náhledem navrhovaných změn"
+      "value": "Soubor s náhledem navrhovaných změn (MARC)"
     }
   ],
   "ui-bulk-edit.logs.actions.linkToModifiedRecordsMarcFile.QUERY": [
     {
       "type": 0,
-      "value": "Soubor s náhledem navrhovaných změn"
+      "value": "Soubor s náhledem navrhovaných změn (MARC)"
     }
   ],
   "ui-bulk-edit.logs.actions.linkToTriggeringCsvFile": [
@@ -32012,7 +32026,7 @@
   "ui-circulation.settings.common.blankPlaceholder": [
     {
       "type": 0,
-      "value": " "
+      "value": "."
     }
   ],
   "ui-circulation.settings.common.cancel": [
@@ -38672,7 +38686,7 @@
   "ui-courses.accordion.courseFormInfo.help": [
     {
       "type": 0,
-      "value": " "
+      "value": "."
     }
   ],
   "ui-courses.accordion.courseFormInstructors": [
@@ -38684,7 +38698,7 @@
   "ui-courses.accordion.courseFormInstructors.help": [
     {
       "type": 0,
-      "value": " "
+      "value": "."
     }
   ],
   "ui-courses.accordion.courseFormListing": [
@@ -38696,7 +38710,7 @@
   "ui-courses.accordion.courseFormListing.help": [
     {
       "type": 0,
-      "value": " "
+      "value": "."
     }
   ],
   "ui-courses.accordion.crosslistings": [
@@ -54668,7 +54682,7 @@
   "ui-developer.rtr.forceRefresh": [
     {
       "type": 0,
-      "value": "Force refresh"
+      "value": "Vynutit obnovení"
     }
   ],
   "ui-developer.rtr.idleModalTTL": [
@@ -63406,7 +63420,7 @@
   "ui-finance.actions.uploadAllocationWorksheet": [
     {
       "type": 0,
-      "value": "Upload allocation worksheet (CSV)"
+      "value": "Nahrát alokační list (CSV)"
     }
   ],
   "ui-finance.allocation.batch.form.footer.recalculate": [
@@ -63600,7 +63614,7 @@
   "ui-finance.batchAllocations.upload.error.notFound": [
     {
       "type": 0,
-      "value": "Could not find the file to upload. Please try to upload the file again."
+      "value": "Nepodařilo se najít soubor k nahrání. Zkuste soubor nahrát znovu."
     }
   ],
   "ui-finance.batchAllocations.uploadWorksheet.modal.heading": [
@@ -63618,7 +63632,7 @@
   "ui-finance.batchAllocations.uploadWorksheet.validation.error.emptyFile": [
     {
       "type": 0,
-      "value": "File has no rows."
+      "value": "Soubor je prázdný."
     }
   ],
   "ui-finance.batchAllocations.uploadWorksheet.validation.error.fiscalYearNotResolved": [
@@ -63630,7 +63644,7 @@
   "ui-finance.batchAllocations.uploadWorksheet.validation.error.inconsistentField": [
     {
       "type": 0,
-      "value": "Inconsistent values found in field: "
+      "value": "V poli "
     },
     {
       "children": [
@@ -63644,13 +63658,13 @@
     },
     {
       "type": 0,
-      "value": ". All rows must have the same value."
+      "value": " byly nalezeny nekonzistentní hodnoty. Všechny řádky musí mít stejnou hodnotu."
     }
   ],
   "ui-finance.batchAllocations.uploadWorksheet.validation.error.invalidFileType": [
     {
       "type": 0,
-      "value": "Invalid file type. Only "
+      "value": "Nesprávný typ souboru. Pouze "
     },
     {
       "children": [
@@ -63664,7 +63678,7 @@
     },
     {
       "type": 0,
-      "value": " files are allowed."
+      "value": " soubory jsou povoleny."
     }
   ],
   "ui-finance.batchAllocations.uploadWorksheet.validation.error.parseFailed": [
@@ -63686,7 +63700,7 @@
   "ui-finance.batchAllocations.uploadWorksheet.validation.error.requiredHeaders": [
     {
       "type": 0,
-      "value": "Missing required header(s): "
+      "value": "Chybějící požadovaná hlavička(y): "
     },
     {
       "children": [
@@ -74730,6 +74744,12 @@
       "value": "Detaily titulu"
     }
   ],
+  "ui-inventory.instanceForm": [
+    {
+      "type": 0,
+      "value": "Instance form"
+    }
+  ],
   "ui-inventory.instanceFormat": [
     {
       "type": 0,
@@ -78706,10 +78726,34 @@
       "value": "Nastavení katalogu"
     }
   ],
+  "ui-inventory.settings.section.cardsPerPage": [
+    {
+      "type": 0,
+      "value": "Cards per page"
+    }
+  ],
   "ui-inventory.settings.section.displaySettings": [
     {
       "type": 0,
       "value": "Nastavení obrazovky"
+    }
+  ],
+  "ui-inventory.settings.section.versionHistory": [
+    {
+      "type": 0,
+      "value": "Version history"
+    }
+  ],
+  "ui-inventory.settings.versionHistory.versionHistoryCardsPerPage": [
+    {
+      "type": 0,
+      "value": "Cards to display per page on Version history"
+    }
+  ],
+  "ui-inventory.settings.versionHistory.versionHistoryCardsPerPage.loadError": [
+    {
+      "type": 0,
+      "value": "Failed to load Version history cards per page settings"
     }
   ],
   "ui-inventory.shareLocalInstance": [
@@ -80867,21 +80911,7 @@
   "ui-invoice.invoice.actions.saveLine.error.budgetNotFoundByFundId": [
     {
       "type": 0,
-      "value": "Řádek faktury nelze uložit, protože prostředek "
-    },
-    {
-      "children": [
-        {
-          "type": 1,
-          "value": "fundCode"
-        }
-      ],
-      "type": 8,
-      "value": "b"
-    },
-    {
-      "type": 0,
-      "value": " nemá aktuální rozpočet."
+      "value": "Řádek faktury nelze uložit, protože faktura není přiřazena k fiskálnímu roku."
     }
   ],
   "ui-invoice.invoice.actions.saveLine.error.budgetNotFoundByFundIdAndFiscalYearId": [
@@ -81755,7 +81785,7 @@
   "ui-invoice.invoice.totalAmount": [
     {
       "type": 0,
-      "value": "Total Amount"
+      "value": "Celková částka"
     }
   ],
   "ui-invoice.invoice.validation.accountingCode": [
@@ -82045,7 +82075,7 @@
   "ui-invoice.label.backToInvoice": [
     {
       "type": 0,
-      "value": "Back to Invoice"
+      "value": "Faktura"
     }
   ],
   "ui-invoice.links": [
@@ -83441,7 +83471,7 @@
   "ui-ldp.error.load-logs": [
     {
       "type": 0,
-      "value": "Could not load Metadb logs: "
+      "value": "Nepodařilo se načíst logy Metadb: "
     },
     {
       "type": 1,
@@ -83451,7 +83481,7 @@
   "ui-ldp.error.load-processes": [
     {
       "type": 0,
-      "value": "Could not load long-running processes: "
+      "value": "Nepodařilo se načíst dlouhodobé procesy: "
     },
     {
       "type": 1,
@@ -83501,7 +83531,7 @@
   "ui-ldp.error.load-updates": [
     {
       "type": 0,
-      "value": "Could not load recent updates: "
+      "value": "Nepodařilo se načíst poslední aktualizace: "
     },
     {
       "type": 1,
@@ -99715,6 +99745,12 @@
       "value": "Nastavení (Objednávky): Může zobrazit a upravit všechna nastavení"
     }
   ],
+  "ui-orders.permission.settings.number-generator.manage": [
+    {
+      "type": 0,
+      "value": "Settings (Orders): Manage number generator options"
+    }
+  ],
   "ui-orders.permission.settings.order-templates.create": [
     {
       "type": 0,
@@ -101710,6 +101746,84 @@
     {
       "type": 0,
       "value": "Nový"
+    }
+  ],
+  "ui-orders.settings.numberGenerator.accessionNumber": [
+    {
+      "type": 0,
+      "value": "Accession number"
+    }
+  ],
+  "ui-orders.settings.numberGenerator.accessionNumberEqualCallNumber": [
+    {
+      "type": 0,
+      "value": "Use the same generated number for accession number and call number"
+    }
+  ],
+  "ui-orders.settings.numberGenerator.accessionNumberEqualCallNumber.warning": [
+    {
+      "type": 0,
+      "value": "Warning: The checkbox has been disabled because the accession number and/or the call number have been set to manual completion."
+    }
+  ],
+  "ui-orders.settings.numberGenerator.barcode": [
+    {
+      "type": 0,
+      "value": "Barcode"
+    }
+  ],
+  "ui-orders.settings.numberGenerator.callNumber": [
+    {
+      "type": 0,
+      "value": "Call number"
+    }
+  ],
+  "ui-orders.settings.numberGenerator.info": [
+    {
+      "type": 0,
+      "value": "Fields which are usually filled using a numeric sequence can use the number generator. When the generator is switched on the field can either be fixed to prevent manual update, or made fully editable. When switched off, the field must be filled manually."
+    }
+  ],
+  "ui-orders.settings.numberGenerator.options": [
+    {
+      "type": 0,
+      "value": "Number generator options"
+    }
+  ],
+  "ui-orders.settings.numberGenerator.options.off": [
+    {
+      "type": 0,
+      "value": "Off"
+    }
+  ],
+  "ui-orders.settings.numberGenerator.options.onEditable": [
+    {
+      "type": 0,
+      "value": "On, field editable"
+    }
+  ],
+  "ui-orders.settings.numberGenerator.options.onNotEditable": [
+    {
+      "type": 0,
+      "value": "On, field not editable"
+    }
+  ],
+  "ui-orders.settings.numberGenerator.receiving": [
+    {
+      "type": 0,
+      "value": "Receiving"
+    }
+  ],
+  "ui-orders.settings.numberGenerator.submit.error": [
+    {
+      "type": 0,
+      "value": "Number generator setting update failed"
+    }
+  ],
+  "ui-orders.settings.numberGenerator.submit.success": [
+    {
+      "type": 0,
+      "value": "Number generator setting was successfully updated"
     }
   ],
   "ui-orders.settings.openOrder": [
@@ -124615,7 +124729,7 @@
   "ui-serials-management.pieceSets.deletePredictedPieceSet": [
     {
       "type": 0,
-      "value": "Delete predicted piece set"
+      "value": "Smazat předpokládanou sadu kusů"
     }
   ],
   "ui-serials-management.pieceSets.deletePredictedPieceSet.confirmMessage": [
@@ -132997,7 +133111,7 @@
   "ui-users.errors.personal.pronounsCharLimit": [
     {
       "type": 0,
-      "value": "Pronouns are limited to 300 characters"
+      "value": "Zájmena jsou omezena na 300 znaků"
     }
   ],
   "ui-users.errors.proxies.duplicateUserMessage": [
@@ -133759,7 +133873,7 @@
   "ui-users.information.pronouns": [
     {
       "type": 0,
-      "value": "Pronouns"
+      "value": "Zájmena"
     }
   ],
   "ui-users.information.recalculate.expirationDate": [
@@ -134507,7 +134621,7 @@
   "ui-users.loans.details.printDueDateReceipt": [
     {
       "type": 0,
-      "value": "Print due date receipt"
+      "value": "Tisk stvrzenky data splatnosti"
     }
   ],
   "ui-users.loans.details.proxyBorrower": [
@@ -138986,7 +139100,7 @@
   "ui-users.roles.modal.unassignAll.label": [
     {
       "type": 0,
-      "value": "You are unassigning all user roles "
+      "value": "Rušíte přiřazení všech uživatelských rolí "
     },
     {
       "children": [
@@ -139008,7 +139122,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Are you sure?"
+              "value": "Jste si jisti?"
             }
           ],
           "type": 8,

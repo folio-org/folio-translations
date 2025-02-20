@@ -17893,6 +17893,12 @@
       "value": "E-Ressourcen"
     }
   ],
+  "ui-agreements.eresources.SynchronisationStatus": [
+    {
+      "type": 0,
+      "value": "Synchronisation status"
+    }
+  ],
   "ui-agreements.eresources.accessEnd": [
     {
       "type": 0,
@@ -18497,6 +18503,18 @@
     {
       "type": 0,
       "value": "Nachweis unterdrückt"
+    }
+  ],
+  "ui-agreements.eresources.syncContentsFromSource.false": [
+    {
+      "type": 0,
+      "value": "Paused"
+    }
+  ],
+  "ui-agreements.eresources.syncContentsFromSource.true": [
+    {
+      "type": 0,
+      "value": "Synchronising"
     }
   ],
   "ui-agreements.eresources.title": [
@@ -61509,17 +61527,21 @@
   "ui-erm-usage.report.action.download.jsonxml": [
     {
       "type": 0,
-      "value": "Bericht herunterladen als "
+      "value": "Bericht als "
     },
     {
       "type": 1,
       "value": "filetype"
+    },
+    {
+      "type": 0,
+      "value": " herunterladen"
     }
   ],
   "ui-erm-usage.report.action.download.xlsx": [
     {
       "type": 0,
-      "value": "Bericht als XSLX herunterladen"
+      "value": "Bericht als XLSX herunterladen"
     }
   ],
   "ui-erm-usage.report.action.failedAttempts": [
@@ -74859,6 +74881,12 @@
       "value": "Instanzdetails"
     }
   ],
+  "ui-inventory.instanceForm": [
+    {
+      "type": 0,
+      "value": "Instance form"
+    }
+  ],
   "ui-inventory.instanceFormat": [
     {
       "type": 0,
@@ -77065,19 +77093,19 @@
   "ui-inventory.numberGenerator.accessionNumber": [
     {
       "type": 0,
-      "value": "Accession number"
+      "value": "Zugangsnummer"
     }
   ],
   "ui-inventory.numberGenerator.accessionNumberEqualCallNumber": [
     {
       "type": 0,
-      "value": "Use the same generated number for accession number and call number"
+      "value": "Dieselbe generierte Nummer für Zugangsnummer und Signatur verwenden"
     }
   ],
   "ui-inventory.numberGenerator.accessionNumberEqualCallNumber.warning": [
     {
       "type": 0,
-      "value": "Warning: The checkbox has been disabled because the accession number and/or the call number have been set to manual completion."
+      "value": "Warnung: Checkbox ist deaktiviert, da Zugangsnummer und/oder Signatur auf manuelle Bearbeitung eingestellt wurden"
     }
   ],
   "ui-inventory.numberGenerator.barcode": [
@@ -77089,37 +77117,37 @@
   "ui-inventory.numberGenerator.callNumber": [
     {
       "type": 0,
-      "value": "Call number"
+      "value": "Signatur"
     }
   ],
   "ui-inventory.numberGenerator.info": [
     {
       "type": 0,
-      "value": "Fields which are usually filled using a numeric sequence can use the number generator. When the generator is switched on the field can either be fixed to prevent manual update, or made fully editable. When switched off, the field must be filled manually."
+      "value": "Felder, die normalerweise Nummernkreise nutzen, könnten einen Nummerngenerator verwenden. Wenn der Generator aktiviert ist, kann das Feld entweder vor manueller Aktualisierung geschützt werden oder editierbar sein. Wenn der Generator deaktiviert ist, kann das Feld nur manuell verwendet werden."
     }
   ],
   "ui-inventory.numberGenerator.options": [
     {
       "type": 0,
-      "value": "Number generator options"
+      "value": "Nummerngenerator-Optionen"
     }
   ],
   "ui-inventory.numberGenerator.save.error": [
     {
       "type": 0,
-      "value": "Error saving setting"
+      "value": "Fehler beim Speichern der Einstellung"
     }
   ],
   "ui-inventory.numberGenerator.save.success": [
     {
       "type": 0,
-      "value": "Setting was successfully saved"
+      "value": "Einstellung wurde erfolgreich gespeichert"
     }
   ],
   "ui-inventory.numberGenerator.setGenerator": [
     {
       "type": 0,
-      "value": "Number generator on, fixed: The "
+      "value": "Nummerngenerator aktiviert, nicht-editierbar: "
     },
     {
       "type": 1,
@@ -77127,13 +77155,13 @@
     },
     {
       "type": 0,
-      "value": " can be filled using the generator only."
+      "value": " kann nur anhand des Nummerngenerators generiert werden."
     }
   ],
   "ui-inventory.numberGenerator.setGeneratorOrManually": [
     {
       "type": 0,
-      "value": "Number generator on, editable: The "
+      "value": "Nummerngenerator aktiviert, editierbar: "
     },
     {
       "type": 1,
@@ -77141,13 +77169,13 @@
     },
     {
       "type": 0,
-      "value": " can be filled using the generator and be edited, or filled manually."
+      "value": " kann durch den Nummerngenerator generiert und editiert, oder manuell eingegeben werden."
     }
   ],
   "ui-inventory.numberGenerator.setManually": [
     {
       "type": 0,
-      "value": "Number generator off: The "
+      "value": "Nummerngenerator deaktiviert: "
     },
     {
       "type": 1,
@@ -77155,7 +77183,7 @@
     },
     {
       "type": 0,
-      "value": " can be filled manually only."
+      "value": " kann nur manuell eingegeben werden."
     }
   ],
   "ui-inventory.numberOfItems": [
@@ -77569,7 +77597,7 @@
   "ui-inventory.permission.settings.manage-number-generator-options": [
     {
       "type": 0,
-      "value": "Settings (Inventory): Manage number generator options"
+      "value": "Einstellungen (Katalog): Nummerngenerator-Optionen verwalten"
     }
   ],
   "ui-inventory.permission.settings.material-types": [
@@ -78852,10 +78880,34 @@
       "value": "Katalogeinstellungen"
     }
   ],
+  "ui-inventory.settings.section.cardsPerPage": [
+    {
+      "type": 0,
+      "value": "Cards per page"
+    }
+  ],
   "ui-inventory.settings.section.displaySettings": [
     {
       "type": 0,
       "value": "Anzeigeeinstellungen"
+    }
+  ],
+  "ui-inventory.settings.section.versionHistory": [
+    {
+      "type": 0,
+      "value": "Version history"
+    }
+  ],
+  "ui-inventory.settings.versionHistory.versionHistoryCardsPerPage": [
+    {
+      "type": 0,
+      "value": "Cards to display per page on Version history"
+    }
+  ],
+  "ui-inventory.settings.versionHistory.versionHistoryCardsPerPage.loadError": [
+    {
+      "type": 0,
+      "value": "Failed to load Version history cards per page settings"
     }
   ],
   "ui-inventory.shareLocalInstance": [
@@ -87240,13 +87292,13 @@
   "ui-lists.commands-error.permission": [
     {
       "type": 0,
-      "value": "User does not have permission to take this action"
+      "value": "Benutzer hat keine Berechtigung, diese Aktion durchzuführen"
     }
   ],
   "ui-lists.commands-error.unavailable": [
     {
       "type": 0,
-      "value": "This action is unavailable"
+      "value": "Diese Aktion ist nicht verfügbar"
     }
   ],
   "ui-lists.commands-label.close-modal-pop-up": [
@@ -87270,7 +87322,7 @@
   "ui-lists.commands-label.create": [
     {
       "type": 0,
-      "value": "Create a new list"
+      "value": "Neue Liste erstellen"
     }
   ],
   "ui-lists.commands-label.cut": [
@@ -87282,13 +87334,13 @@
   "ui-lists.commands-label.duplicate": [
     {
       "type": 0,
-      "value": "Duplicate a list"
+      "value": "Liste duplizieren"
     }
   ],
   "ui-lists.commands-label.edit": [
     {
       "type": 0,
-      "value": "Edit a list"
+      "value": "Liste bearbeiten"
     }
   ],
   "ui-lists.commands-label.expand-list-detail-accordions": [
@@ -87324,7 +87376,7 @@
   "ui-lists.commands-label.save": [
     {
       "type": 0,
-      "value": "Save a list"
+      "value": "Liste speichern"
     }
   ],
   "ui-lists.commands-label.toggle-lists-detail-accordion": [
@@ -87336,7 +87388,7 @@
   "ui-lists.create-fql.query.invalid": [
     {
       "type": 0,
-      "value": "Unable to complete action. Query is no longer valid due to a deleted field(s). Please edit the list query or delete the list."
+      "value": "Aktion kann nicht abgeschlossen werden. Die Abfrage ist aufgrund eines gelöschten Feldes bzw. gelöschter Felder nicht mehr gültig. Bitte bearbeiten Sie die Abfrage oder löschen Sie die Liste."
     }
   ],
   "ui-lists.create-list.aside.build-query": [
@@ -87371,14 +87423,8 @@
   ],
   "ui-lists.create-list.cross-tenant-tip": [
     {
-      "children": [
-        {
-          "type": 0,
-          "value": "Lists with cross-tenant query can only be set to Private."
-        }
-      ],
-      "type": 8,
-      "value": "strong"
+      "type": 0,
+      "value": "Listen mit mandantenübergreifenden Abfragen können nur auf Privat gesetzt werden."
     }
   ],
   "ui-lists.create-list.main.collapse-all": [
@@ -87528,7 +87574,7 @@
   "ui-lists.cross-tenant-message": [
     {
       "type": 0,
-      "value": "This list may contain records from multiple tenants."
+      "value": "Diese Liste kann Datensätze von mehreren Tenants enthalten."
     }
   ],
   "ui-lists.delete-export.in.progress": [
@@ -87614,13 +87660,13 @@
   "ui-lists.error-component.invalid.request": [
     {
       "type": 0,
-      "value": "List not found"
+      "value": "Liste nicht gefunden"
     }
   ],
   "ui-lists.error-component.read-entity.type.restricted": [
     {
       "type": 0,
-      "value": "You do not have permission to view this list"
+      "value": "Sie haben keine Berechtigung, diese Liste zu sehen"
     }
   ],
   "ui-lists.error-component.read-list.is.private": [
@@ -87632,7 +87678,7 @@
   "ui-lists.error-component.read-list.not.found": [
     {
       "type": 0,
-      "value": "List not found"
+      "value": "Liste nicht gefunden"
     }
   ],
   "ui-lists.error-component.unknown": [
@@ -87768,7 +87814,7 @@
   "ui-lists.form.field.empty-error": [
     {
       "type": 0,
-      "value": "Bitte dies ausfüllen, um fortzufahren"
+      "value": "Bitte ausfüllen, um fortzufahren"
     }
   ],
   "ui-lists.list.info.description": [
@@ -87860,7 +87906,7 @@
   "ui-lists.list.modal.edit-query": [
     {
       "type": 0,
-      "value": "Edit query"
+      "value": "Anfrage bearbeiten"
     }
   ],
   "ui-lists.list.modal.keep-edit": [
@@ -87950,7 +87996,7 @@
   "ui-lists.lists.copy.name-postfix": [
     {
       "type": 0,
-      "value": "copy"
+      "value": "Kopieren"
     }
   ],
   "ui-lists.lists.copy.title": [
@@ -87972,7 +88018,7 @@
   "ui-lists.lists.edit.saving": [
     {
       "type": 0,
-      "value": "Speichere"
+      "value": "Speichern"
     }
   ],
   "ui-lists.lists.edit.title": [
@@ -88052,7 +88098,7 @@
   "ui-lists.missing-all-entity-type-permissions.heading": [
     {
       "type": 0,
-      "value": "You do not have the required permissions to use the Lists app"
+      "value": "Sie haben nicht die erforderlichen Berechtigungen, um die Lists-App zu nutzen"
     }
   ],
   "ui-lists.missing-all-entity-type-permissions.message": [
@@ -88070,7 +88116,7 @@
   "ui-lists.pane.dropdown.available-permissions": [
     {
       "type": 0,
-      "value": "Available permissions"
+      "value": "Verfügbare Berechtigungen"
     }
   ],
   "ui-lists.pane.dropdown.cancel-export": [
@@ -88112,13 +88158,13 @@
   "ui-lists.pane.dropdown.export-all": [
     {
       "type": 0,
-      "value": "Export all columns (CSV)"
+      "value": "Alle Spalten exportieren (CSV)"
     }
   ],
   "ui-lists.pane.dropdown.export-visible": [
     {
       "type": 0,
-      "value": "Export selected columns (CSV)"
+      "value": "Ausgewählte Spalten exportieren (CSV)"
     }
   ],
   "ui-lists.pane.dropdown.refresh": [
@@ -88382,7 +88428,7 @@
   "ui-lists.title.createList": [
     {
       "type": 0,
-      "value": "New list"
+      "value": "Neue Liste"
     }
   ],
   "ui-lists.title.duplicateList": [
@@ -88418,7 +88464,7 @@
   "ui-lists.unexpected.error": [
     {
       "type": 0,
-      "value": "Unable to complete action. Query is no longer valid due to a deleted field(s). Please edit the list query or delete the list."
+      "value": "Aktion kann nicht abgeschlossen werden. Die Abfrage ist aufgrund eines gelöschten Feldes bzw. gelöschter Felder nicht mehr gültig. Bitte bearbeiten Sie die Abfrage oder löschen Sie die Liste."
     }
   ],
   "ui-lists.update-export.in.progress": [
@@ -88444,7 +88490,7 @@
   "ui-lists.update-fql.query.invalid": [
     {
       "type": 0,
-      "value": "Unable to complete action. Query is no longer valid due to a deleted field(s). Please edit the list query or delete the list."
+      "value": "Aktion kann nicht abgeschlossen werden. Die Abfrage ist aufgrund eines gelöschten Feldes bzw. gelöschter Felder nicht mehr gültig. Bitte bearbeiten Sie die Abfrage oder löschen Sie die Liste."
     }
   ],
   "ui-lists.update-list.not.found": [
@@ -90776,13 +90822,13 @@
   "ui-marc-authorities.permission.settings.authority-files.all": [
     {
       "type": 0,
-      "value": "Einstellunge (MARC Normdaten): Normdateien anzeigen, erstellen, bearbeiten, löschen"
+      "value": "Einstellungen (MARC Normdaten): Normdateien anzeigen, erstellen, bearbeiten, löschen"
     }
   ],
   "ui-marc-authorities.permission.settings.authority-files.view": [
     {
       "type": 0,
-      "value": "Einstellunge (MARC Normdaten): Normdateien anzeigen"
+      "value": "Einstellungen (MARC Normdaten): Normdateien anzeigen"
     }
   ],
   "ui-marc-authorities.permission.settings.version-history.view": [
@@ -99943,6 +99989,12 @@
       "value": "Einstellungen (Bestellungen): Kann alle Einstellungen anzeigen und bearbeiten"
     }
   ],
+  "ui-orders.permission.settings.number-generator.manage": [
+    {
+      "type": 0,
+      "value": "Einstellungen (Bestellungen): Nummerngenerator-Optionen verwalten"
+    }
+  ],
   "ui-orders.permission.settings.order-templates.create": [
     {
       "type": 0,
@@ -101970,6 +102022,84 @@
     {
       "type": 0,
       "value": "Neu"
+    }
+  ],
+  "ui-orders.settings.numberGenerator.accessionNumber": [
+    {
+      "type": 0,
+      "value": "Zugangsnummer"
+    }
+  ],
+  "ui-orders.settings.numberGenerator.accessionNumberEqualCallNumber": [
+    {
+      "type": 0,
+      "value": "Dieselbe generierte Nummer für Zugangsnummer und Signatur verwenden"
+    }
+  ],
+  "ui-orders.settings.numberGenerator.accessionNumberEqualCallNumber.warning": [
+    {
+      "type": 0,
+      "value": "Warnung: Checkbox ist deaktiviert, da Zugangsnummer und/oder Signatur auf manuelle Bearbeitung eingestellt wurden"
+    }
+  ],
+  "ui-orders.settings.numberGenerator.barcode": [
+    {
+      "type": 0,
+      "value": "Barcode"
+    }
+  ],
+  "ui-orders.settings.numberGenerator.callNumber": [
+    {
+      "type": 0,
+      "value": "Signatur"
+    }
+  ],
+  "ui-orders.settings.numberGenerator.info": [
+    {
+      "type": 0,
+      "value": "Felder, die normalerweise Nummernkreise nutzen, könnten einen Nummerngenerator verwenden. Wenn der Generator aktiviert ist, kann das Feld entweder vor manueller Aktualisierung geschützt werden oder editierbar sein. Wenn der Generator deaktiviert ist, kann das Feld nur manuell verwendet werden."
+    }
+  ],
+  "ui-orders.settings.numberGenerator.options": [
+    {
+      "type": 0,
+      "value": "Nummerngenerator-Optionen"
+    }
+  ],
+  "ui-orders.settings.numberGenerator.options.off": [
+    {
+      "type": 0,
+      "value": "Deaktiviert"
+    }
+  ],
+  "ui-orders.settings.numberGenerator.options.onEditable": [
+    {
+      "type": 0,
+      "value": "Aktiviert, Feld editierbar"
+    }
+  ],
+  "ui-orders.settings.numberGenerator.options.onNotEditable": [
+    {
+      "type": 0,
+      "value": "Aktiviert, Feld nicht editierbar"
+    }
+  ],
+  "ui-orders.settings.numberGenerator.receiving": [
+    {
+      "type": 0,
+      "value": "Inventarisierung"
+    }
+  ],
+  "ui-orders.settings.numberGenerator.submit.error": [
+    {
+      "type": 0,
+      "value": "Aktualisierung der Nummerngenerator-Einstellung fehlgeschlagen"
+    }
+  ],
+  "ui-orders.settings.numberGenerator.submit.success": [
+    {
+      "type": 0,
+      "value": "Nummerngenerator-Einstellung wurde erfolgreich aktualisiert"
     }
   ],
   "ui-orders.settings.openOrder": [
@@ -105325,7 +105455,7 @@
   "ui-organizations.numberGenerator.vendorCodeGenerator": [
     {
       "type": 0,
-      "value": "Code Nummerngenerator"
+      "value": "Code-Nummerngenerator"
     }
   ],
   "ui-organizations.organization.delete.confirmLabel": [

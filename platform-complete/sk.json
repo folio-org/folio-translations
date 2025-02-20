@@ -618,7 +618,7 @@
   "stripes-acq-components.fundDistribution.remainingAmount": [
     {
       "type": 0,
-      "value": "Remaining amount to be distributed: "
+      "value": "Zostávajúca suma na rozdelenie: "
     },
     {
       "type": 1,
@@ -1607,7 +1607,7 @@
   "stripes-acq-components.validation.shouldBeEqualToTotalAmount": [
     {
       "type": 0,
-      "value": "The percentage or amount(s) should be equal 100% of the total"
+      "value": "Percentá alebo čiastky sa majú rovnať 100 % z celkovej sumy"
     }
   ],
   "stripes-acq-components.validation.shouldBeGreaterThan": [
@@ -2106,31 +2106,31 @@
   "stripes-components.Datepicker.calendarDaysList": [
     {
       "type": 0,
-      "value": "calendar days list."
+      "value": "zoznam kalendárnych dní."
     }
   ],
   "stripes-components.Datepicker.calendarDaysListDescription": [
     {
       "type": 0,
-      "value": "Use arrow keys to move cursor, press enter to select day."
+      "value": "Pomocou klávesov so šípkami posúvajte kurzor, stlačením klávesu Enter vyberte deň."
     }
   ],
   "stripes-components.Datepicker.calenderRole": [
     {
       "type": 0,
-      "value": "datepicker"
+      "value": "výber dátumu"
     }
   ],
   "stripes-components.Datepicker.monthControl": [
     {
       "type": 0,
-      "value": "month"
+      "value": "mesiac"
     }
   ],
   "stripes-components.Datepicker.unavailable": [
     {
       "type": 0,
-      "value": "unavailable"
+      "value": "nedostupné"
     }
   ],
   "stripes-components.Datepicker.yearControl": [
@@ -7454,7 +7454,7 @@
   "stripes-components.selection.filterOptionsPlaceholder": [
     {
       "type": 0,
-      "value": "Filter options list"
+      "value": "Zoznam možností filtrovania"
     }
   ],
   "stripes-components.selection.filterResultFeedback": [
@@ -9366,7 +9366,7 @@
   "stripes-data-transfer-components.recordTypes.item": [
     {
       "type": 0,
-      "value": "Item"
+      "value": "Exemplár"
     }
   ],
   "stripes-data-transfer-components.recordTypes.items": [
@@ -11816,7 +11816,7 @@
   "stripes-inventory-components.meta.title": [
     {
       "type": 0,
-      "value": "Inventory"
+      "value": "Katalóg/zdroje"
     }
   ],
   "stripes-inventory-components.more": [
@@ -17415,6 +17415,12 @@
       "value": "E-resources"
     }
   ],
+  "ui-agreements.eresources.SynchronisationStatus": [
+    {
+      "type": 0,
+      "value": "Synchronisation status"
+    }
+  ],
   "ui-agreements.eresources.accessEnd": [
     {
       "type": 0,
@@ -18019,6 +18025,18 @@
     {
       "type": 0,
       "value": "Suppress from discovery"
+    }
+  ],
+  "ui-agreements.eresources.syncContentsFromSource.false": [
+    {
+      "type": 0,
+      "value": "Paused"
+    }
+  ],
+  "ui-agreements.eresources.syncContentsFromSource.true": [
+    {
+      "type": 0,
+      "value": "Synchronising"
     }
   ],
   "ui-agreements.eresources.title": [
@@ -32095,7 +32113,7 @@
   "ui-circulation.settings.patronNotices.itemTokenHeader": [
     {
       "type": 0,
-      "value": "Item"
+      "value": "Exemplár"
     }
   ],
   "ui-circulation.settings.patronNotices.loanTokenHeader": [
@@ -32511,7 +32529,7 @@
   "ui-circulation.settings.staffSlips.itemTokenHeader": [
     {
       "type": 0,
-      "value": "Item"
+      "value": "Exemplár"
     }
   ],
   "ui-circulation.settings.staffSlips.label": [
@@ -40667,7 +40685,7 @@
   "ui-data-import.logViewer.filter.item": [
     {
       "type": 0,
-      "value": "Item"
+      "value": "Exemplár"
     }
   ],
   "ui-data-import.logViewer.filter.label": [
@@ -41001,13 +41019,13 @@
   "ui-data-import.match.incoming.part": [
     {
       "type": 0,
-      "value": "Only compare part of the value"
+      "value": "Porovnať len časť hodnoty"
     }
   ],
   "ui-data-import.match.incoming.qualifier": [
     {
       "type": 0,
-      "value": "Use a qualifier"
+      "value": "Použiť kvalifikátor"
     }
   ],
   "ui-data-import.match.incoming.record": [
@@ -41965,7 +41983,7 @@
   "ui-data-import.recordTypes.item": [
     {
       "type": 0,
-      "value": "Item"
+      "value": "Exemplár"
     }
   ],
   "ui-data-import.recordTypes.marc-auth": [
@@ -42311,7 +42329,7 @@
   "ui-data-import.settings.actionProfiles.title": [
     {
       "type": 0,
-      "value": "Action profiles"
+      "value": "Profily akcií"
     }
   ],
   "ui-data-import.settings.associatedActionProfiles": [
@@ -42454,7 +42472,7 @@
   "ui-data-import.settings.fileExtensions.title": [
     {
       "type": 0,
-      "value": "File extensions"
+      "value": "Prípony súborov"
     }
   ],
   "ui-data-import.settings.getStarted": [
@@ -42567,7 +42585,7 @@
   "ui-data-import.settings.jobProfiles.title": [
     {
       "type": 0,
-      "value": "Job profiles"
+      "value": "Pracovné profily"
     }
   ],
   "ui-data-import.settings.learnMore": [
@@ -44168,7 +44186,7 @@
   "ui-data-import.settings.mappingProfiles.map.item": [
     {
       "type": 0,
-      "value": "Item"
+      "value": "Exemplár"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.item.acquisitionsData.field.purchaseOrderLineNumber": [
@@ -46148,7 +46166,7 @@
   "ui-data-import.settings.mappingProfiles.title": [
     {
       "type": 0,
-      "value": "Field mapping profiles"
+      "value": "Profily mapovania polí"
     }
   ],
   "ui-data-import.settings.marcFieldProtection.actions": [
@@ -47372,7 +47390,7 @@
   "ui-data-import.settings.matchProfiles.title": [
     {
       "type": 0,
-      "value": "Match profiles"
+      "value": "Profily zhody"
     }
   ],
   "ui-data-import.settings.matchProfiles.titleData": [
@@ -48146,7 +48164,7 @@
   "ui-developer.configuration": [
     {
       "type": 0,
-      "value": "Configuration"
+      "value": "Konfigurácia"
     }
   ],
   "ui-developer.configuration.actAsRoot": [
@@ -49431,7 +49449,7 @@
   "ui-developer.sessionLocale": [
     {
       "type": 0,
-      "value": "Session locale"
+      "value": "Miestne nastavenie relácie"
     }
   ],
   "ui-developer.sessionLocale.temporarySessionLocale": [
@@ -49443,7 +49461,7 @@
   "ui-developer.setToken": [
     {
       "type": 0,
-      "value": "Set token"
+      "value": "Nastaviť token"
     }
   ],
   "ui-developer.setToken.authenticationToken": [
@@ -49455,7 +49473,7 @@
   "ui-developer.stripesInspector": [
     {
       "type": 0,
-      "value": "Stripes inspector"
+      "value": "Inšpektor pruhov"
     }
   ],
   "ui-developer.translations": [
@@ -49467,7 +49485,7 @@
   "ui-developer.userLocale": [
     {
       "type": 0,
-      "value": "User locale"
+      "value": "Miestne nastavenie používateľa"
     }
   ],
   "ui-developer.userLocale.currency": [
@@ -67539,13 +67557,13 @@
   "ui-inventory.createdDateAndTime": [
     {
       "type": 0,
-      "value": "Created date and time"
+      "value": "Dátum a čas vytvorenia"
     }
   ],
   "ui-inventory.createdSource": [
     {
       "type": 0,
-      "value": "Created source"
+      "value": "Vytvorený zdroj"
     }
   ],
   "ui-inventory.date": [
@@ -67641,7 +67659,7 @@
   "ui-inventory.discoverySuppress": [
     {
       "type": 0,
-      "value": "Suppress from discovery"
+      "value": "Skryť v katalógu WWW"
     }
   ],
   "ui-inventory.discoverySuppressed": [
@@ -68011,7 +68029,7 @@
   "ui-inventory.filters.items": [
     {
       "type": 0,
-      "value": "Item"
+      "value": "Exemplár"
     }
   ],
   "ui-inventory.filters.nameType": [
@@ -68451,7 +68469,7 @@
   "ui-inventory.hridHandling": [
     {
       "type": 0,
-      "value": "HRID handling"
+      "value": "Spracovanie HRID"
     }
   ],
   "ui-inventory.hridHandling.checkbox.label": [
@@ -68463,19 +68481,19 @@
   "ui-inventory.hridHandling.description.line1": [
     {
       "type": 0,
-      "value": "After initial data migration, new FOLIO HRIDs are assigned sequentially, based on the starting number in these settings"
+      "value": "Po úvodnej migrácii údajov sa nové FOLIO HRID (ľudsky čitateľné identifikátory) prideľujú postupne na základe začiatočného čísla v týchto nastaveniach"
     }
   ],
   "ui-inventory.hridHandling.description.line2": [
     {
       "type": 0,
-      "value": "Unless changed or removed, the default prefix will be assigned to new FOLIO HRIDs"
+      "value": "Ak sa nezmení alebo neodstráni, predvolený prefix sa priradí novým identifikátorom FOLIO HRID"
     }
   ],
   "ui-inventory.hridHandling.description.line3": [
     {
       "type": 0,
-      "value": "HRIDs in existing FOLIO Inventory and MARC records cannot be changed"
+      "value": "HRID v existujúcom katalógu FOLIO a záznamoch MARC nie je možné zmeniť"
     }
   ],
   "ui-inventory.hridHandling.label.assignPrefix": [
@@ -68766,6 +68784,12 @@
     {
       "type": 0,
       "value": "Instance details"
+    }
+  ],
+  "ui-inventory.instanceForm": [
+    {
+      "type": 0,
+      "value": "Instance form"
     }
   ],
   "ui-inventory.instanceFormat": [
@@ -69118,7 +69142,7 @@
   "ui-inventory.inventory.label": [
     {
       "type": 0,
-      "value": "Inventory"
+      "value": "Katalóg/zdroje"
     }
   ],
   "ui-inventory.isbn": [
@@ -69908,7 +69932,7 @@
   "ui-inventory.meta.title": [
     {
       "type": 0,
-      "value": "Inventory"
+      "value": "Katalóg/zdroje"
     }
   ],
   "ui-inventory.metadataSource": [
@@ -72373,10 +72397,34 @@
       "value": "Inventory settings"
     }
   ],
+  "ui-inventory.settings.section.cardsPerPage": [
+    {
+      "type": 0,
+      "value": "Cards per page"
+    }
+  ],
   "ui-inventory.settings.section.displaySettings": [
     {
       "type": 0,
       "value": "Display settings"
+    }
+  ],
+  "ui-inventory.settings.section.versionHistory": [
+    {
+      "type": 0,
+      "value": "Version history"
+    }
+  ],
+  "ui-inventory.settings.versionHistory.versionHistoryCardsPerPage": [
+    {
+      "type": 0,
+      "value": "Cards to display per page on Version history"
+    }
+  ],
+  "ui-inventory.settings.versionHistory.versionHistoryCardsPerPage.loadError": [
+    {
+      "type": 0,
+      "value": "Failed to load Version history cards per page settings"
     }
   ],
   "ui-inventory.shareLocalInstance": [
@@ -72526,7 +72574,7 @@
   "ui-inventory.staffSuppress": [
     {
       "type": 0,
-      "value": "Staff suppress"
+      "value": "Skryť pred personálom"
     }
   ],
   "ui-inventory.staffSuppressed": [
@@ -72984,13 +73032,13 @@
   "ui-inventory.updatedDateAndTime": [
     {
       "type": 0,
-      "value": "Updated date and time"
+      "value": "Aktualizovaný dátum a čas"
     }
   ],
   "ui-inventory.updatedSource": [
     {
       "type": 0,
-      "value": "Updated source"
+      "value": "Aktualizovaný dátum a čas"
     }
   ],
   "ui-inventory.uri": [
@@ -73274,13 +73322,13 @@
   "ui-invoice.adjustment.type": [
     {
       "type": 0,
-      "value": "Select adjustment"
+      "value": "Vybrať úpravu"
     }
   ],
   "ui-invoice.adjustment.type.sign.amount": [
     {
       "type": 0,
-      "value": "$"
+      "value": "EUR"
     }
   ],
   "ui-invoice.adjustment.type.sign.percent": [
@@ -92377,6 +92425,12 @@
       "value": "Settings (Orders): Can view and edit all settings"
     }
   ],
+  "ui-orders.permission.settings.number-generator.manage": [
+    {
+      "type": 0,
+      "value": "Settings (Orders): Manage number generator options"
+    }
+  ],
   "ui-orders.permission.settings.order-templates.create": [
     {
       "type": 0,
@@ -92638,7 +92692,7 @@
   "ui-orders.poLine.number": [
     {
       "type": 0,
-      "value": "POL number"
+      "value": "Číslo riadku objednávky"
     }
   ],
   "ui-orders.poLine.orderFormat": [
@@ -94344,6 +94398,84 @@
       "value": "New"
     }
   ],
+  "ui-orders.settings.numberGenerator.accessionNumber": [
+    {
+      "type": 0,
+      "value": "Accession number"
+    }
+  ],
+  "ui-orders.settings.numberGenerator.accessionNumberEqualCallNumber": [
+    {
+      "type": 0,
+      "value": "Use the same generated number for accession number and call number"
+    }
+  ],
+  "ui-orders.settings.numberGenerator.accessionNumberEqualCallNumber.warning": [
+    {
+      "type": 0,
+      "value": "Warning: The checkbox has been disabled because the accession number and/or the call number have been set to manual completion."
+    }
+  ],
+  "ui-orders.settings.numberGenerator.barcode": [
+    {
+      "type": 0,
+      "value": "Barcode"
+    }
+  ],
+  "ui-orders.settings.numberGenerator.callNumber": [
+    {
+      "type": 0,
+      "value": "Call number"
+    }
+  ],
+  "ui-orders.settings.numberGenerator.info": [
+    {
+      "type": 0,
+      "value": "Fields which are usually filled using a numeric sequence can use the number generator. When the generator is switched on the field can either be fixed to prevent manual update, or made fully editable. When switched off, the field must be filled manually."
+    }
+  ],
+  "ui-orders.settings.numberGenerator.options": [
+    {
+      "type": 0,
+      "value": "Number generator options"
+    }
+  ],
+  "ui-orders.settings.numberGenerator.options.off": [
+    {
+      "type": 0,
+      "value": "Off"
+    }
+  ],
+  "ui-orders.settings.numberGenerator.options.onEditable": [
+    {
+      "type": 0,
+      "value": "On, field editable"
+    }
+  ],
+  "ui-orders.settings.numberGenerator.options.onNotEditable": [
+    {
+      "type": 0,
+      "value": "On, field not editable"
+    }
+  ],
+  "ui-orders.settings.numberGenerator.receiving": [
+    {
+      "type": 0,
+      "value": "Receiving"
+    }
+  ],
+  "ui-orders.settings.numberGenerator.submit.error": [
+    {
+      "type": 0,
+      "value": "Number generator setting update failed"
+    }
+  ],
+  "ui-orders.settings.numberGenerator.submit.success": [
+    {
+      "type": 0,
+      "value": "Number generator setting was successfully updated"
+    }
+  ],
   "ui-orders.settings.openOrder": [
     {
       "type": 0,
@@ -95451,13 +95583,13 @@
   "ui-organizations.contactInfo.categories": [
     {
       "type": 0,
-      "value": "Categories"
+      "value": "Kategórie"
     }
   ],
   "ui-organizations.contactInfo.description": [
     {
       "type": 0,
-      "value": "Description"
+      "value": "Popis"
     }
   ],
   "ui-organizations.contactInfo.email": [
@@ -95469,13 +95601,13 @@
   "ui-organizations.contactInfo.emailAddress": [
     {
       "type": 0,
-      "value": "Email address"
+      "value": "E-mailová adresa"
     }
   ],
   "ui-organizations.contactInfo.language": [
     {
       "type": 0,
-      "value": "Language"
+      "value": "Jazyk"
     }
   ],
   "ui-organizations.contactInfo.phoneNumber": [
@@ -99808,7 +99940,7 @@
   "ui-plugin-create-inventory-records.itemRecord": [
     {
       "type": 0,
-      "value": "Item"
+      "value": "Exemplár"
     }
   ],
   "ui-plugin-create-inventory-records.materialType": [
@@ -101718,7 +101850,7 @@
   "ui-plugin-find-instance.filters.items": [
     {
       "type": 0,
-      "value": "Item"
+      "value": "Exemplár"
     }
   ],
   "ui-plugin-find-instance.filters.nameType": [
@@ -102861,7 +102993,7 @@
   "ui-plugin-find-po-line.meta.title": [
     {
       "type": 0,
-      "value": "Order lines"
+      "value": "Riadky objednávok"
     }
   ],
   "ui-plugin-find-po-line.modal.footer.close": [
@@ -103227,7 +103359,7 @@
   "ui-quick-marc.Inventory": [
     {
       "type": 0,
-      "value": "Inventory"
+      "value": "Katalóg/zdroje"
     }
   ],
   "ui-quick-marc.MARC-authority": [
@@ -105844,7 +105976,7 @@
   "ui-quick-marc.record.fixedField.Item": [
     {
       "type": 0,
-      "value": "Item"
+      "value": "Exemplár"
     }
   ],
   "ui-quick-marc.record.fixedField.Item is a music sound recording": [
@@ -112339,7 +112471,7 @@
   "ui-requests-mediated.filters.mediatedRequestLevel.item": [
     {
       "type": 0,
-      "value": "Item"
+      "value": "Exemplár"
     }
   ],
   "ui-requests-mediated.filters.mediatedRequestLevel.title": [
@@ -113054,7 +113186,7 @@
   "ui-requests-mediated.mediatedRequestInformation.level.item": [
     {
       "type": 0,
-      "value": "Item"
+      "value": "Exemplár"
     }
   ],
   "ui-requests-mediated.mediatedRequestInformation.level.title": [
@@ -114124,7 +114256,7 @@
   "ui-requests.filters.requestLevel.item": [
     {
       "type": 0,
-      "value": "Item"
+      "value": "Exemplár"
     }
   ],
   "ui-requests.filters.requestLevel.title": [
@@ -114556,7 +114688,7 @@
   "ui-requests.itemLevel": [
     {
       "type": 0,
-      "value": "Item"
+      "value": "Exemplár"
     }
   ],
   "ui-requests.items.instanceItems": [
@@ -120676,7 +120808,7 @@
   "ui-users.accounts.actions.warning.item": [
     {
       "type": 0,
-      "value": "Item"
+      "value": "Exemplár"
     }
   ],
   "ui-users.accounts.actions.warning.paymentAction": [
@@ -130250,7 +130382,7 @@
   "ui-users.settings.label": [
     {
       "type": 0,
-      "value": "Users"
+      "value": "Používatelia"
     }
   ],
   "ui-users.settings.limits": [

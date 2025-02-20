@@ -8605,7 +8605,7 @@
   "stripes-core.help": [
     {
       "type": 0,
-      "value": "Help"
+      "value": "Pomoc"
     }
   ],
   "stripes-core.label.caution.email": [
@@ -11663,7 +11663,7 @@
   "stripes-inventory-components.error.badRequest": [
     {
       "type": 0,
-      "value": "Search could not be processed. Please check your query and try again."
+      "value": "Nie można przetworzyć wyszukiwania. Sprawdź zapytanie i spróbuj ponownie."
     }
   ],
   "stripes-inventory-components.facet.discoverySuppress": [
@@ -11747,7 +11747,7 @@
   "stripes-inventory-components.facet.shared": [
     {
       "type": 0,
-      "value": "Shared"
+      "value": "Wspólny"
     }
   ],
   "stripes-inventory-components.facet.source": [
@@ -11777,7 +11777,7 @@
   "stripes-inventory-components.facet.tenantId": [
     {
       "type": 0,
-      "value": "Held by"
+      "value": "Trzymany przez"
     }
   ],
   "stripes-inventory-components.holdingsCreatedDate": [
@@ -17865,6 +17865,12 @@
       "value": "E-zasoby"
     }
   ],
+  "ui-agreements.eresources.SynchronisationStatus": [
+    {
+      "type": 0,
+      "value": "Status synchronizacji"
+    }
+  ],
   "ui-agreements.eresources.accessEnd": [
     {
       "type": 0,
@@ -18469,6 +18475,18 @@
     {
       "type": 0,
       "value": "Ukryte w katalogu WWW"
+    }
+  ],
+  "ui-agreements.eresources.syncContentsFromSource.false": [
+    {
+      "type": 0,
+      "value": "Wstrzymano"
+    }
+  ],
+  "ui-agreements.eresources.syncContentsFromSource.true": [
+    {
+      "type": 0,
+      "value": "Synchronizacja"
     }
   ],
   "ui-agreements.eresources.title": [
@@ -23358,25 +23376,25 @@
   "ui-bulk-edit.entityType.composite_holdings_record": [
     {
       "type": 0,
-      "value": "Holdings"
+      "value": "Zasoby"
     }
   ],
   "ui-bulk-edit.entityType.composite_instances": [
     {
       "type": 0,
-      "value": "Instances"
+      "value": "Instancje"
     }
   ],
   "ui-bulk-edit.entityType.composite_item_details": [
     {
       "type": 0,
-      "value": "Items"
+      "value": "Egzemplarze"
     }
   ],
   "ui-bulk-edit.entityType.composite_user_details": [
     {
       "type": 0,
-      "value": "Users"
+      "value": "Użytkownicy"
     }
   ],
   "ui-bulk-edit.error.incorrectFormatted": [
@@ -25504,7 +25522,7 @@
   "ui-bulk-edit.previewModal.message.empty.notSupported": [
     {
       "type": 0,
-      "value": "No instances can be updated because none have source MARC."
+      "value": "Żadnej instancji nie można zaktualizować, ponieważ żadna nie ma źródła MARC."
     }
   ],
   "ui-bulk-edit.previewModal.message.empty.partlySupported": [
@@ -25515,7 +25533,7 @@
     },
     {
       "type": 0,
-      "value": " records will be changed when the Commit changes button is clicked. You may choose Download preview to review all changes prior to saving. "
+      "value": " rekordy zostaną zmienione po kliknięciu przycisku Zatwierdź zmiany. Możesz wybrać opcję Pobierz podgląd, aby przejrzeć wszystkie zmiany przed zapisaniem. "
     },
     {
       "style": null,
@@ -25524,7 +25542,7 @@
     },
     {
       "type": 0,
-      "value": " instances have source that is not supported by MARC records bulk edit and cannot be updated."
+      "value": " instancje mają źródło, które nie jest obsługiwane przez edycję masową rekordów MARC i nie mogą zostać zaktualizowane."
     }
   ],
   "ui-bulk-edit.previewModal.previewToBeChanged": [
@@ -63469,7 +63487,7 @@
   "ui-finance.actions.allocations.batch.logs": [
     {
       "type": 0,
-      "value": "Batch allocation logs"
+      "value": "Dzienniki przydziału partii"
     }
   ],
   "ui-finance.actions.downloadAllocationWorksheet": [
@@ -63517,13 +63535,13 @@
   "ui-finance.actions.uploadAllocationWorksheet": [
     {
       "type": 0,
-      "value": "Upload allocation worksheet (CSV)"
+      "value": "Prześlij arkusz przydziałów (CSV)"
     }
   ],
   "ui-finance.allocation.batch.form.footer.recalculate": [
     {
       "type": 0,
-      "value": "Recalculate"
+      "value": "Przelicz"
     }
   ],
   "ui-finance.allocation.batch.form.recalculate.error": [
@@ -63535,13 +63553,13 @@
   "ui-finance.allocation.batch.form.title.edit": [
     {
       "type": 0,
-      "value": "Batch edit budgets"
+      "value": "Edycja zbiorcza budżetów"
     }
   ],
   "ui-finance.allocation.batch.form.validation.error.invalidFunds": [
     {
       "type": 0,
-      "value": "The following funds are not associated with this ledger (or group) and will NOT be updated."
+      "value": "Następujące fundusze nie są powiązane z tym rejestrem (lub grupą) i NIE będą aktualizowane."
     }
   ],
   "ui-finance.allocation.batch.form.validation.error.invalidStatus": [
@@ -63553,7 +63571,7 @@
   "ui-finance.allocation.batch.form.validation.error.missedFund": [
     {
       "type": 0,
-      "value": "Fund has not been changed and will not be updated."
+      "value": "Fundusz nie uległ zmianie i nie będzie aktualizowany."
     }
   ],
   "ui-finance.allocation.batch.form.validation.error.negativeAllocation": [
@@ -63615,13 +63633,13 @@
   "ui-finance.allocation.batch.logs.columns.jobNumber": [
     {
       "type": 0,
-      "value": "ID"
+      "value": "Identyfikator"
     }
   ],
   "ui-finance.allocation.batch.logs.columns.recordsCount": [
     {
       "type": 0,
-      "value": "Records"
+      "value": "Rekordy"
     }
   ],
   "ui-finance.allocation.batch.logs.columns.status": [
@@ -63633,61 +63651,61 @@
   "ui-finance.allocation.batch.logs.columns.status.completed": [
     {
       "type": 0,
-      "value": "Completed"
+      "value": "Zakończony"
     }
   ],
   "ui-finance.allocation.batch.logs.columns.status.error": [
     {
       "type": 0,
-      "value": "Error"
+      "value": "Błąd"
     }
   ],
   "ui-finance.allocation.batch.logs.columns.status.inProgress": [
     {
       "type": 0,
-      "value": "In Progress"
+      "value": "W toku"
     }
   ],
   "ui-finance.allocation.batch.logs.columns.updatedDate": [
     {
       "type": 0,
-      "value": "Ended running"
+      "value": "Zakończono działanie"
     }
   ],
   "ui-finance.allocation.batch.logs.modal.delete.description": [
     {
       "type": 0,
-      "value": "This action will cause selected logs to be deleted PERMANENTLY. Do you wish to proceed?"
+      "value": "Ta akcja spowoduje trwałe usunięcie wybranych dzienników. Czy chcesz kontynuować?"
     }
   ],
   "ui-finance.allocation.batch.logs.modal.delete.title": [
     {
       "type": 0,
-      "value": "Delete Log"
+      "value": "Usuń dziennik"
     }
   ],
   "ui-finance.allocation.batch.logs.title": [
     {
       "type": 0,
-      "value": "Logs"
+      "value": "Dzienniki"
     }
   ],
   "ui-finance.allocation.batch.status.active": [
     {
       "type": 0,
-      "value": "Active"
+      "value": "Aktywne"
     }
   ],
   "ui-finance.allocation.batch.status.frozen": [
     {
       "type": 0,
-      "value": "Frozen"
+      "value": "Zamrożony"
     }
   ],
   "ui-finance.allocation.batch.status.inactive": [
     {
       "type": 0,
-      "value": "Inactive"
+      "value": "Nieaktywne"
     }
   ],
   "ui-finance.allocation.worksheet.download.error": [
@@ -63711,37 +63729,37 @@
   "ui-finance.batchAllocations.upload.error.notFound": [
     {
       "type": 0,
-      "value": "Could not find the file to upload. Please try to upload the file again."
+      "value": "Nie można znaleźć pliku do przesłania. Spróbuj przesłać plik ponownie."
     }
   ],
   "ui-finance.batchAllocations.uploadWorksheet.modal.heading": [
     {
       "type": 0,
-      "value": "Upload worksheet"
+      "value": "Prześlij arkusz"
     }
   ],
   "ui-finance.batchAllocations.uploadWorksheet.modal.message": [
     {
       "type": 0,
-      "value": "Please choose a budget worksheet to upload"
+      "value": "Wybierz arkusz budżetu do przesłania"
     }
   ],
   "ui-finance.batchAllocations.uploadWorksheet.validation.error.emptyFile": [
     {
       "type": 0,
-      "value": "File has no rows."
+      "value": "Plik nie zawiera wierszy."
     }
   ],
   "ui-finance.batchAllocations.uploadWorksheet.validation.error.fiscalYearNotResolved": [
     {
       "type": 0,
-      "value": "Could not determine the fiscal year from the uploaded file."
+      "value": "Nie można ustalić roku budżetowego na podstawie przesłanego pliku."
     }
   ],
   "ui-finance.batchAllocations.uploadWorksheet.validation.error.inconsistentField": [
     {
       "type": 0,
-      "value": "Inconsistent values found in field: "
+      "value": "Znaleziono niespójne wartości w polu: "
     },
     {
       "children": [
@@ -63755,13 +63773,13 @@
     },
     {
       "type": 0,
-      "value": ". All rows must have the same value."
+      "value": ". Wszystkie wiersze muszą mieć tę samą wartość."
     }
   ],
   "ui-finance.batchAllocations.uploadWorksheet.validation.error.invalidFileType": [
     {
       "type": 0,
-      "value": "Invalid file type. Only "
+      "value": "Nieprawidłowy typ pliku. Dozwolone są tylko pliki "
     },
     {
       "children": [
@@ -63775,7 +63793,7 @@
     },
     {
       "type": 0,
-      "value": " files are allowed."
+      "value": "."
     }
   ],
   "ui-finance.batchAllocations.uploadWorksheet.validation.error.parseFailed": [
@@ -63797,7 +63815,7 @@
   "ui-finance.batchAllocations.uploadWorksheet.validation.error.requiredHeaders": [
     {
       "type": 0,
-      "value": "Missing required header(s): "
+      "value": "Brak wymaganego nagłówka: "
     },
     {
       "children": [
@@ -66922,7 +66940,7 @@
   "ui-finance.transaction.allocation.batch.columns.budgetName": [
     {
       "type": 0,
-      "value": "Budget Name"
+      "value": "Nazwa budżetu"
     }
   ],
   "ui-finance.transaction.allocation.batch.columns.budgetStatus": [
@@ -66934,13 +66952,13 @@
   "ui-finance.transaction.allocation.batch.columns.fundName": [
     {
       "type": 0,
-      "value": "Fund name"
+      "value": "Nazwa funduszu"
     }
   ],
   "ui-finance.transaction.allocation.batch.columns.fundStatus": [
     {
       "type": 0,
-      "value": "Fund status"
+      "value": "Status funduszu"
     }
   ],
   "ui-finance.transaction.allocation.batch.columns.fundTags": [
@@ -72097,7 +72115,7 @@
   "ui-inventory.acq.orderSentDate": [
     {
       "type": 0,
-      "value": "Order sent date"
+      "value": "Data wysłania zamówienia"
     }
   ],
   "ui-inventory.acq.orderStatus": [
@@ -72145,7 +72163,7 @@
   "ui-inventory.acq.orderType.Ongoing": [
     {
       "type": 0,
-      "value": "Ongoing"
+      "value": "W trakcie realizacji"
     }
   ],
   "ui-inventory.acq.polNumber": [
@@ -72157,25 +72175,25 @@
   "ui-inventory.acq.receiptDate": [
     {
       "type": 0,
-      "value": "Piece receipt date"
+      "value": "Data otrzymania części"
     }
   ],
   "ui-inventory.acq.receiptStatus": [
     {
       "type": 0,
-      "value": "POL receipt status"
+      "value": "Status odbioru pozycji zamówienia"
     }
   ],
   "ui-inventory.acq.receiptStatus.Awaiting Receipt": [
     {
       "type": 0,
-      "value": "Awaiting receipt"
+      "value": "Oczekiwanie na odbiór"
     }
   ],
   "ui-inventory.acq.receiptStatus.Cancelled": [
     {
       "type": 0,
-      "value": "Cancelled"
+      "value": "Anulowany"
     }
   ],
   "ui-inventory.acq.receiptStatus.Fully Received": [
@@ -72187,13 +72205,13 @@
   "ui-inventory.acq.receiptStatus.Ongoing": [
     {
       "type": 0,
-      "value": "Ongoing"
+      "value": "W trakcie realizacji"
     }
   ],
   "ui-inventory.acq.receiptStatus.Partially Received": [
     {
       "type": 0,
-      "value": "Partially received"
+      "value": "Częściowo otrzymano"
     }
   ],
   "ui-inventory.acq.receiptStatus.Pending": [
@@ -72205,13 +72223,13 @@
   "ui-inventory.acq.receiptStatus.Receipt Not Required": [
     {
       "type": 0,
-      "value": "Receipt not required"
+      "value": "Paragon nie jest wymagany"
     }
   ],
   "ui-inventory.acq.vendorCode": [
     {
       "type": 0,
-      "value": "Organization code"
+      "value": "Kod organizacji"
     }
   ],
   "ui-inventory.acquisition": [
@@ -72539,7 +72557,7 @@
   "ui-inventory.administrativeNotes": [
     {
       "type": 0,
-      "value": "Administrative notes"
+      "value": "Uwagi administracyjne"
     }
   ],
   "ui-inventory.advancedSearch": [
@@ -72615,7 +72633,7 @@
   "ui-inventory.ariaLabel.createJobProfile": [
     {
       "type": 0,
-      "value": "Set "
+      "value": "Ustaw "
     },
     {
       "type": 1,
@@ -72623,13 +72641,13 @@
     },
     {
       "type": 0,
-      "value": " job profile for create as default"
+      "value": " profil zadania do tworzenia jako domyślny"
     }
   ],
   "ui-inventory.ariaLabel.updateJobProfile": [
     {
       "type": 0,
-      "value": "Set "
+      "value": "Ustaw "
     },
     {
       "type": 1,
@@ -72637,7 +72655,7 @@
     },
     {
       "type": 0,
-      "value": " job profile for update as default"
+      "value": " profil zadania do aktualizacji jako domyślny"
     }
   ],
   "ui-inventory.authentication": [
@@ -72709,7 +72727,7 @@
   "ui-inventory.boundWith": [
     {
       "type": 0,
-      "value": "and "
+      "value": "i "
     },
     {
       "offset": 0,
@@ -72718,7 +72736,7 @@
           "value": [
             {
               "type": 0,
-              "value": "one more title"
+              "value": "jeszcze jeden tytuł"
             }
           ]
         },
@@ -72726,7 +72744,7 @@
           "value": [
             {
               "type": 0,
-              "value": "other titles"
+              "value": "inne tytuły"
             }
           ]
         }
@@ -72829,7 +72847,7 @@
   "ui-inventory.browse.other": [
     {
       "type": 0,
-      "value": "Other scheme"
+      "value": "Inny schemat"
     }
   ],
   "ui-inventory.browse.searchableIndexesPlaceholder": [
@@ -72847,13 +72865,13 @@
   "ui-inventory.browse.superintendent": [
     {
       "type": 0,
-      "value": "Superintendent of Documents classification"
+      "value": "Nadzorca klasyfikacji dokumentów"
     }
   ],
   "ui-inventory.browseCallNumbers": [
     {
       "type": 0,
-      "value": "Browse call numbers"
+      "value": "Przeglądaj sygnatury"
     }
   ],
   "ui-inventory.browseCallNumbers.missedMatch": [
@@ -72883,7 +72901,7 @@
   "ui-inventory.button.addCreateJobProfileId": [
     {
       "type": 0,
-      "value": "Add job profile for import/create"
+      "value": "Dodaj profil zadania do importu/tworzenia"
     }
   ],
   "ui-inventory.button.addTargetOption": [
@@ -72895,7 +72913,7 @@
   "ui-inventory.button.addUpdateJobProfileId": [
     {
       "type": 0,
-      "value": "Add job profile for overlay/update"
+      "value": "Dodaj profil zadania do nadpisania/aktualizacji"
     }
   ],
   "ui-inventory.callNumber": [
@@ -72907,7 +72925,7 @@
   "ui-inventory.callNumberBrowse": [
     {
       "type": 0,
-      "value": "Call number browse"
+      "value": "Przeglądanie sygnatur"
     }
   ],
   "ui-inventory.callNumberEyeReadable": [
@@ -73330,7 +73348,7 @@
           "value": [
             {
               "type": 0,
-              "value": "Local"
+              "value": "Lokalny"
             }
           ]
         },
@@ -73341,7 +73359,7 @@
           "value": [
             {
               "type": 0,
-              "value": "Shared"
+              "value": "Współdzielony"
             }
           ]
         }
@@ -73351,7 +73369,7 @@
     },
     {
       "type": 0,
-      "value": " instance • "
+      "value": " instancja • "
     },
     {
       "type": 1,
@@ -73469,7 +73487,7 @@
   "ui-inventory.copycat.callout.no-id.created": [
     {
       "type": 0,
-      "value": "Record "
+      "value": "Rekord "
     },
     {
       "type": 1,
@@ -73477,13 +73495,13 @@
     },
     {
       "type": 0,
-      "value": " has been queued for import, but is not yet available"
+      "value": " został umieszczony w kolejce do importu, ale nie jest jeszcze dostępny"
     }
   ],
   "ui-inventory.copycat.callout.no-id.updated": [
     {
       "type": 0,
-      "value": "Record "
+      "value": "Rekord "
     },
     {
       "type": 1,
@@ -73491,7 +73509,7 @@
     },
     {
       "type": 0,
-      "value": " has been queued for update, but the process is not yet complete"
+      "value": " został umieszczony w kolejce do aktualizacji, ale proces nie został jeszcze ukończony"
     }
   ],
   "ui-inventory.copycat.callout.simpleError": [
@@ -73521,7 +73539,7 @@
     },
     {
       "type": 0,
-      "value": " (Default)"
+      "value": " (Domyślny)"
     }
   ],
   "ui-inventory.copycat.enterIdentifier": [
@@ -73707,7 +73725,7 @@
   "ui-inventory.defaultJobProfile": [
     {
       "type": 0,
-      "value": "Default"
+      "value": "Domyślny"
     }
   ],
   "ui-inventory.deleteHoldingsRecord": [
@@ -73849,7 +73867,7 @@
   "ui-inventory.editInstance.consortia.title": [
     {
       "type": 0,
-      "value": "Edit "
+      "value": "Edycja "
     },
     {
       "options": {
@@ -73857,7 +73875,7 @@
           "value": [
             {
               "type": 0,
-              "value": "local"
+              "value": "lokalny"
             }
           ]
         },
@@ -73868,7 +73886,7 @@
           "value": [
             {
               "type": 0,
-              "value": "shared"
+              "value": "współdzielony"
             }
           ]
         }
@@ -73878,7 +73896,7 @@
     },
     {
       "type": 0,
-      "value": " instance • "
+      "value": " instancja • "
     },
     {
       "type": 1,
@@ -74022,7 +74040,7 @@
   "ui-inventory.exportInProgress": [
     {
       "type": 0,
-      "value": "Export in progress"
+      "value": "Eksport w toku"
     }
   ],
   "ui-inventory.exportInstanceInMARC": [
@@ -74327,7 +74345,7 @@
   "ui-inventory.holdingsLabelShort": [
     {
       "type": 0,
-      "value": "Holdings:"
+      "value": "Zasoby:"
     }
   ],
   "ui-inventory.holdingsLocation": [
@@ -74386,24 +74404,6 @@
   ],
   "ui-inventory.holdingsRecord.successfullySaved": [
     {
-      "type": 0,
-      "value": "The "
-    },
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "holdings"
-        }
-      ],
-      "type": 8,
-      "value": "strong"
-    },
-    {
-      "type": 0,
-      "value": " - HRID "
-    },
-    {
       "children": [
         {
           "type": 1,
@@ -74415,7 +74415,21 @@
     },
     {
       "type": 0,
-      "value": " has been successfully saved."
+      "value": " HRID - "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "zasobu"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " został pomyślnie zapisany."
     }
   ],
   "ui-inventory.holdingsSource": [
@@ -74571,7 +74585,7 @@
   "ui-inventory.hridCopied": [
     {
       "type": 0,
-      "value": "The instance HRID "
+      "value": "HRID "
     },
     {
       "type": 1,
@@ -74579,7 +74593,7 @@
     },
     {
       "type": 0,
-      "value": " was successfully copied to the clipboard"
+      "value": " instancji został pomyślnie skopiowany do schowka"
     }
   ],
   "ui-inventory.hridHandling": [
@@ -74627,7 +74641,7 @@
   "ui-inventory.hridHandling.modal.body": [
     {
       "type": 0,
-      "value": "OSTRZEŻENIE: Zmiana ustawienia HRID może powodować konflikty, jeśli rekordy już istnieją w Inwentarzu."
+      "value": "UWAGA: Zmiana ustawienia HRID może powodować konflikty, jeśli rekordy już istnieją w Katalogu."
     }
   ],
   "ui-inventory.hridHandling.modal.button.close": [
@@ -74761,7 +74775,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Inactive"
+              "value": "Nieaktywny"
             }
           ],
           "type": 8,
@@ -74785,7 +74799,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Inactive"
+          "value": "Nieaktywny"
         }
       ],
       "type": 8,
@@ -74854,24 +74868,6 @@
   ],
   "ui-inventory.instance.successfullySaved": [
     {
-      "type": 0,
-      "value": "The "
-    },
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "instance"
-        }
-      ],
-      "type": 8,
-      "value": "strong"
-    },
-    {
-      "type": 0,
-      "value": " - HRID "
-    },
-    {
       "children": [
         {
           "type": 1,
@@ -74883,7 +74879,21 @@
     },
     {
       "type": 0,
-      "value": " has been successfully saved."
+      "value": " HRID - "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "instancji"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " został pomyślnie zapisany."
     }
   ],
   "ui-inventory.instance.suppressedFromDiscovery": [
@@ -74902,6 +74912,12 @@
     {
       "type": 0,
       "value": "Szczegóły instancji"
+    }
+  ],
+  "ui-inventory.instanceForm": [
+    {
+      "type": 0,
+      "value": "Instance form"
     }
   ],
   "ui-inventory.instanceFormat": [
@@ -75119,7 +75135,7 @@
   "ui-inventory.instanceTitleLabel": [
     {
       "type": 0,
-      "value": "Instance title"
+      "value": "Tytuł instancji"
     }
   ],
   "ui-inventory.instances": [
@@ -75637,24 +75653,6 @@
   ],
   "ui-inventory.item.successfullySaved": [
     {
-      "type": 0,
-      "value": "The "
-    },
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": "item"
-        }
-      ],
-      "type": 8,
-      "value": "strong"
-    },
-    {
-      "type": 0,
-      "value": " - HRID "
-    },
-    {
       "children": [
         {
           "type": 1,
@@ -75666,7 +75664,21 @@
     },
     {
       "type": 0,
-      "value": " has been successfully saved."
+      "value": " HRID - "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "egzemplarza"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " został pomyślnie zapisany."
     }
   ],
   "ui-inventory.itemBarcode": [
@@ -75872,7 +75884,7 @@
   "ui-inventory.itemRecordWithDescriptionBW": [
     {
       "type": 0,
-      "value": "Item record ("
+      "value": "Rekord egzemplarza ("
     },
     {
       "type": 1,
@@ -75888,7 +75900,7 @@
     },
     {
       "type": 0,
-      "value": ", bound with)"
+      "value": ", macierzyste)"
     }
   ],
   "ui-inventory.itemStatusModal.heading": [
@@ -76044,7 +76056,7 @@
   "ui-inventory.linkedToMarcAuthority": [
     {
       "type": 0,
-      "value": "Linked to MARC authority"
+      "value": "Połacz z Kartoteką Haseł Wzorcowych"
     }
   ],
   "ui-inventory.loanType": [
@@ -76140,7 +76152,7 @@
   "ui-inventory.marcHoldingsRecord.paneTitle": [
     {
       "type": 0,
-      "value": "Holdings record - "
+      "value": "Rekord zasobów - "
     },
     {
       "type": 1,
@@ -76160,7 +76172,7 @@
           "value": [
             {
               "type": 0,
-              "value": "Local"
+              "value": "Lokalny"
             }
           ]
         },
@@ -76171,7 +76183,7 @@
           "value": [
             {
               "type": 0,
-              "value": "Shared"
+              "value": "Współdzielony"
             }
           ]
         }
@@ -76181,7 +76193,7 @@
     },
     {
       "type": 0,
-      "value": " MARC bibliographic record"
+      "value": " rekord bibliograficzny MARC"
     }
   ],
   "ui-inventory.marcSourceRecord.holdings": [
@@ -76191,7 +76203,7 @@
           "value": [
             {
               "type": 0,
-              "value": "Local"
+              "value": "Lokalny"
             }
           ]
         },
@@ -76202,7 +76214,7 @@
           "value": [
             {
               "type": 0,
-              "value": "Shared"
+              "value": "Współdzielony"
             }
           ]
         }
@@ -76212,7 +76224,7 @@
     },
     {
       "type": 0,
-      "value": " MARC holdings record"
+      "value": " rekord zasobu MARC"
     }
   ],
   "ui-inventory.marcSourceRecord.notFoundError": [
@@ -76822,7 +76834,7 @@
   "ui-inventory.newOrder.modal.PONumber.doesNotExist": [
     {
       "type": 0,
-      "value": "PO number does not exist"
+      "value": "Numer zamówienia nie istnieje"
     }
   ],
   "ui-inventory.newOrder.modal.create": [
@@ -76834,13 +76846,13 @@
   "ui-inventory.newOrder.modal.label": [
     {
       "type": 0,
-      "value": "Create order"
+      "value": "Utwórz zamówienie"
     }
   ],
   "ui-inventory.newOrder.modal.message": [
     {
       "type": 0,
-      "value": "Selecting an existing order before clicking \"Create\", will add a new order line to the selected order for this title. Leaving the order number field blank and clicking \"Create\" will allow you to create a new purchase order and purchase order line for this title."
+      "value": "Wybranie istniejącego zamówienia przed kliknięciem \"Utwórz\", spowoduje dodanie nowej pozycji zamówienia do wybranego zamówienia dla tego tytułu. Pozostawienie pustego pola dla pozycji zamówienia i kliknięcie „Utwórz” umożliwi utworzenie nowego zamówienia zakupu i pozycji zamówienia zakupu dla tego tytułu."
     }
   ],
   "ui-inventory.newRequest": [
@@ -76852,7 +76864,7 @@
   "ui-inventory.newSharedRecord": [
     {
       "type": 0,
-      "value": "New shared record"
+      "value": "Nowy współdzielony rekord"
     }
   ],
   "ui-inventory.no": [
@@ -76920,7 +76932,7 @@
   "ui-inventory.noItemDeleteModal.awaitingPickupMessage": [
     {
       "type": 0,
-      "value": "Item HRID "
+      "value": "HRID egzemplarza "
     },
     {
       "children": [
@@ -76934,7 +76946,7 @@
     },
     {
       "type": 0,
-      "value": " with barcode "
+      "value": " z kodem kreskowym "
     },
     {
       "children": [
@@ -76948,7 +76960,7 @@
     },
     {
       "type": 0,
-      "value": " is checked out and can not be deleted until checked in again, and item status is 'Available'"
+      "value": " jest wypożyczony i nie może być usunięty dopóki nie zostanie zwrócony, a status egzemplarza nie jest 'Dostępny'."
     }
   ],
   "ui-inventory.noItemDeleteModal.checkoutMessage": [
@@ -77118,7 +77130,7 @@
   "ui-inventory.noItemDeleteModal.statusMessage": [
     {
       "type": 0,
-      "value": "Item HRID "
+      "value": "HRID egzemplarza "
     },
     {
       "children": [
@@ -77132,7 +77144,7 @@
     },
     {
       "type": 0,
-      "value": " with barcode "
+      "value": " z kodem kreskowym "
     },
     {
       "children": [
@@ -77146,7 +77158,7 @@
     },
     {
       "type": 0,
-      "value": " has the item status "
+      "value": " ma status egzemplarza "
     },
     {
       "children": [
@@ -77160,7 +77172,7 @@
     },
     {
       "type": 0,
-      "value": " and cannot be deleted until the item status is set to 'Available'."
+      "value": " i nie może być usunięty dopóki status egzemplarza nie zostanie ustawiony na 'Dostępny'."
     }
   ],
   "ui-inventory.noMatchingOptions": [
@@ -77214,61 +77226,61 @@
   "ui-inventory.numberGenerator.accessionNumber": [
     {
       "type": 0,
-      "value": "Accession number"
+      "value": "Nr dowodu wpływu"
     }
   ],
   "ui-inventory.numberGenerator.accessionNumberEqualCallNumber": [
     {
       "type": 0,
-      "value": "Use the same generated number for accession number and call number"
+      "value": "Użyj tego samego wygenerowanego numeru dla nr dowodu wpływu i sygnatury"
     }
   ],
   "ui-inventory.numberGenerator.accessionNumberEqualCallNumber.warning": [
     {
       "type": 0,
-      "value": "Warning: The checkbox has been disabled because the accession number and/or the call number have been set to manual completion."
+      "value": "Ostrzeżenie: Pole checkbox jest nieaktywne, ponieważ nr dowodu wpływu i/lub sygnatura zostały ustawione na uzupełnianie ręczne."
     }
   ],
   "ui-inventory.numberGenerator.barcode": [
     {
       "type": 0,
-      "value": "Barcode"
+      "value": "Kod kreskowy"
     }
   ],
   "ui-inventory.numberGenerator.callNumber": [
     {
       "type": 0,
-      "value": "Call number"
+      "value": "Sygnatura"
     }
   ],
   "ui-inventory.numberGenerator.info": [
     {
       "type": 0,
-      "value": "Fields which are usually filled using a numeric sequence can use the number generator. When the generator is switched on the field can either be fixed to prevent manual update, or made fully editable. When switched off, the field must be filled manually."
+      "value": "Pola, które są zwykle wypełniane za pomocą sekwencji numerycznej, mogą używać generatora liczb. Gdy generator jest włączony, pole może być albo naprawione, aby zapobiec ręcznej aktualizacji, albo w pełni edytowalne. Gdy jest wyłączony, pole musi być wypełnione ręcznie."
     }
   ],
   "ui-inventory.numberGenerator.options": [
     {
       "type": 0,
-      "value": "Number generator options"
+      "value": "Opcje generatora liczb"
     }
   ],
   "ui-inventory.numberGenerator.save.error": [
     {
       "type": 0,
-      "value": "Error saving setting"
+      "value": "Błąd podczas zapisywania ustawień"
     }
   ],
   "ui-inventory.numberGenerator.save.success": [
     {
       "type": 0,
-      "value": "Setting was successfully saved"
+      "value": "Ustawienie zostało pomyślnie zapisane"
     }
   ],
   "ui-inventory.numberGenerator.setGenerator": [
     {
       "type": 0,
-      "value": "Number generator on, fixed: The "
+      "value": "Generator liczb włączony, naprawiony: "
     },
     {
       "type": 1,
@@ -77276,13 +77288,13 @@
     },
     {
       "type": 0,
-      "value": " can be filled using the generator only."
+      "value": " można wypełnić tylko za pomocą generatora."
     }
   ],
   "ui-inventory.numberGenerator.setGeneratorOrManually": [
     {
       "type": 0,
-      "value": "Number generator on, editable: The "
+      "value": "Generator liczb włączony, edytowalny: "
     },
     {
       "type": 1,
@@ -77290,13 +77302,13 @@
     },
     {
       "type": 0,
-      "value": " can be filled using the generator and be edited, or filled manually."
+      "value": " można wypełnić za pomocą generatora i edytować lub wypełnić ręcznie."
     }
   ],
   "ui-inventory.numberGenerator.setManually": [
     {
       "type": 0,
-      "value": "Number generator off: The "
+      "value": "Generator liczb wyłączony: "
     },
     {
       "type": 1,
@@ -77304,7 +77316,7 @@
     },
     {
       "type": 0,
-      "value": " can be filled manually only."
+      "value": " można wypełnić tylko ręcznie."
     }
   ],
   "ui-inventory.numberOfItems": [
@@ -77376,7 +77388,7 @@
   "ui-inventory.permission.consortia.inventory.local.sharing-instances.execute": [
     {
       "type": 0,
-      "value": "Inventory: Share local instance with consortium"
+      "value": "Katalogowanie: udostępnij lokalną instancje konsorcjum"
     }
   ],
   "ui-inventory.permission.consortia.inventory.share.local.instance": [
@@ -77598,7 +77610,7 @@
   "ui-inventory.permission.settings.call-number-browse": [
     {
       "type": 0,
-      "value": "Settings (Inventory): Configure call number browse"
+      "value": "Ustawienia (Katalogowanie): konfiguruj przeglądanie sygnatury"
     }
   ],
   "ui-inventory.permission.settings.call-number-types": [
@@ -77718,7 +77730,7 @@
   "ui-inventory.permission.settings.manage-number-generator-options": [
     {
       "type": 0,
-      "value": "Settings (Inventory): Manage number generator options"
+      "value": "Ustawienia (Katalogowanie): zarządzaj opcjami generatora liczb"
     }
   ],
   "ui-inventory.permission.settings.material-types": [
@@ -78082,7 +78094,7 @@
   "ui-inventory.remote.warning.common.items": [
     {
       "type": 0,
-      "value": "Item has been successfully moved in FOLIO. To complete removing this item from remote storage, run an exception report or communicate this directly to your remote storage location."
+      "value": "Egzemplarz został pomyślnie przeniesiony w Folio. Aby dokończyć usuwanie tego egzemplarza z magazynu zdalnego, wygeneruj raport z wyjątkami lub przekaż go bezpośrednio do lokalizacji Twojego magazynu zdalnego."
     }
   ],
   "ui-inventory.remote.warning.titles": [
@@ -78473,13 +78485,13 @@
   "ui-inventory.saveHoldingsUIIDS.error": [
     {
       "type": 0,
-      "value": "Error occurred while saving holdings UUIDs. Please try again."
+      "value": "Wystąpił błąd podczas zapisywania UUID zasobów. Spróbuj ponownie."
     }
   ],
   "ui-inventory.saveHoldingsUIIDS.info": [
     {
       "type": 0,
-      "value": "Request to save holdings UUIDs has been received. File download may take a few minutes."
+      "value": "Otrzymano prośbę o zapisanie UUID zasobów. Pobieranie pliku może potrwać kilka minut."
     }
   ],
   "ui-inventory.saveInstancesCQLQuery": [
@@ -78777,7 +78789,7 @@
   "ui-inventory.setForDeletion": [
     {
       "type": 0,
-      "value": "Set for deletion"
+      "value": "Ustaw do usunięcia"
     }
   ],
   "ui-inventory.setForDeletion.modal.header": [
@@ -78879,49 +78891,49 @@
   "ui-inventory.settings.instanceCallNumber.all": [
     {
       "type": 0,
-      "value": "Call numbers (all)"
+      "value": "Sygnatury (wszystkie)"
     }
   ],
   "ui-inventory.settings.instanceCallNumber.dewey": [
     {
       "type": 0,
-      "value": "Dewey Decimal classification"
+      "value": "Klasyfikacja Dziesiętna Deweya"
     }
   ],
   "ui-inventory.settings.instanceCallNumber.identifierTypesPopover": [
     {
       "type": 0,
-      "value": "Please note that if no call number types are selected for a browse option, this option will display all call number types."
+      "value": "Należy pamiętać, że jeśli dla opcji przeglądania nie zostanie wybrany żaden rodzaj sygnatury, opcja ta wyświetli wszystkie rodzaje sygnatur."
     }
   ],
   "ui-inventory.settings.instanceCallNumber.lc": [
     {
       "type": 0,
-      "value": "Library of Congress classification"
+      "value": "Klasyfikacja Biblioteki Kongresu"
     }
   ],
   "ui-inventory.settings.instanceCallNumber.nlm": [
     {
       "type": 0,
-      "value": "National Library of Medicine classification"
+      "value": "Klasyfikacja National Library of Medicine"
     }
   ],
   "ui-inventory.settings.instanceCallNumber.other": [
     {
       "type": 0,
-      "value": "Other scheme"
+      "value": "Inny schemat"
     }
   ],
   "ui-inventory.settings.instanceCallNumber.sudoc": [
     {
       "type": 0,
-      "value": "Superintendent of Documents classification"
+      "value": "Nadzorca klasyfikacji dokumentów"
     }
   ],
   "ui-inventory.settings.instanceCallNumber.termUpdated": [
     {
       "type": 0,
-      "value": "The call number browse type "
+      "value": "Rodzaj przeglądanej sygnatury "
     },
     {
       "type": 1,
@@ -78929,7 +78941,7 @@
     },
     {
       "type": 0,
-      "value": " was successfully updated"
+      "value": " został pomyślnie zaktualizowany"
     }
   ],
   "ui-inventory.settings.instanceClassification.all": [
@@ -78992,10 +79004,34 @@
       "value": "Ustawienia katalogowania"
     }
   ],
+  "ui-inventory.settings.section.cardsPerPage": [
+    {
+      "type": 0,
+      "value": "Cards per page"
+    }
+  ],
   "ui-inventory.settings.section.displaySettings": [
     {
       "type": 0,
       "value": "Ustawienia wyświetlania"
+    }
+  ],
+  "ui-inventory.settings.section.versionHistory": [
+    {
+      "type": 0,
+      "value": "Version history"
+    }
+  ],
+  "ui-inventory.settings.versionHistory.versionHistoryCardsPerPage": [
+    {
+      "type": 0,
+      "value": "Cards to display per page on Version history"
+    }
+  ],
+  "ui-inventory.settings.versionHistory.versionHistoryCardsPerPage.loadError": [
+    {
+      "type": 0,
+      "value": "Failed to load Version history cards per page settings"
     }
   ],
   "ui-inventory.shareLocalInstance": [
@@ -79435,7 +79471,7 @@
   "ui-inventory.unlinkLocalMarcAuthorities.modal.proceed": [
     {
       "type": 0,
-      "value": "Proceed"
+      "value": "Kontynuować"
     }
   ],
   "ui-inventory.update": [
@@ -79567,7 +79603,7 @@
   "ui-inventory.updateOwnership.items.message.error": [
     {
       "type": 0,
-      "value": "Item ownership could not be updated because the record contains local-specific reference data."
+      "value": "Nie można zaktualizować własności egzemplarza, ponieważ rekord zawiera dane referencyjne specyficzne dla lokalizacji."
     }
   ],
   "ui-inventory.updateOwnership.items.modal.heading": [
@@ -79717,7 +79753,7 @@
   "ui-inventory.viewAndReorderRequestsQueue": [
     {
       "type": 0,
-      "value": "View requests & reorder ("
+      "value": "Wyświetl rezerwacje i zmień kolejność ("
     },
     {
       "type": 1,
@@ -79791,13 +79827,13 @@
   "ui-inventory.warning.instance.setForDeletionAndSuppressedFromDiscoveryAndStaffSuppressed": [
     {
       "type": 0,
-      "value": "Warning: "
+      "value": "Ostrzeżenie: "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Instance is set for deletion"
+          "value": "Instancja jest ustawiona do usunięcia"
         }
       ],
       "type": 8,
@@ -79805,7 +79841,7 @@
     },
     {
       "type": 0,
-      "value": ", suppressed from discovery, and staff suppressed"
+      "value": ", ukryta w katalogu WWW i przed personelem"
     }
   ],
   "ui-inventory.warning.instance.sharingLocalInstance": [
@@ -79817,7 +79853,7 @@
   "ui-inventory.warning.instance.staffSuppressed": [
     {
       "type": 0,
-      "value": "Warning: Instance is marked staff suppressed"
+      "value": "Uwaga: instancja jest zaznaczona jako ukryta przed personelem"
     }
   ],
   "ui-inventory.warning.instance.suppressedFromDiscovery": [
@@ -79829,7 +79865,7 @@
   "ui-inventory.warning.instance.suppressedFromDiscoveryAndStaffSuppressed": [
     {
       "type": 0,
-      "value": "Warning: Instance is marked suppressed from discovery and staff suppressed"
+      "value": "Uwaga: instancja jest zaznaczona jako ukryta w katalogu WWW i ukryta przed personelem"
     }
   ],
   "ui-inventory.warning.item.suppressedFromDiscovery": [
@@ -83436,61 +83472,61 @@
   "ui-ldp.dbinfo.logs.error_severity": [
     {
       "type": 0,
-      "value": "Severity"
+      "value": "Powaga"
     }
   ],
   "ui-ldp.dbinfo.logs.log_time": [
     {
       "type": 0,
-      "value": "Timestamp"
+      "value": "Znacznik czasu"
     }
   ],
   "ui-ldp.dbinfo.logs.message": [
     {
       "type": 0,
-      "value": "Message"
+      "value": "Wiadomość"
     }
   ],
   "ui-ldp.dbinfo.nav.logs": [
     {
       "type": 0,
-      "value": "Logs"
+      "value": "Dzienniki"
     }
   ],
   "ui-ldp.dbinfo.nav.processes": [
     {
       "type": 0,
-      "value": "Long-running processes"
+      "value": "Procesy długotrwałe"
     }
   ],
   "ui-ldp.dbinfo.nav.updates": [
     {
       "type": 0,
-      "value": "Last updates of tables"
+      "value": "Ostatnie aktualizacje tabel"
     }
   ],
   "ui-ldp.dbinfo.processes.databaseName": [
     {
       "type": 0,
-      "value": "Database"
+      "value": "Baza danych"
     }
   ],
   "ui-ldp.dbinfo.processes.empty": [
     {
       "type": 0,
-      "value": "There are currently no long-running processes"
+      "value": "Obecnie nie ma żadnych długotrwałych procesów"
     }
   ],
   "ui-ldp.dbinfo.processes.query": [
     {
       "type": 0,
-      "value": "Query"
+      "value": "Zapytanie"
     }
   ],
   "ui-ldp.dbinfo.processes.realTime": [
     {
       "type": 0,
-      "value": "Real time"
+      "value": "W czasie rzeczywistym"
     }
   ],
   "ui-ldp.dbinfo.processes.state": [
@@ -83502,37 +83538,37 @@
   "ui-ldp.dbinfo.processes.userName": [
     {
       "type": 0,
-      "value": "User"
+      "value": "Użytkownik"
     }
   ],
   "ui-ldp.dbinfo.updates.elapsedRealTime": [
     {
       "type": 0,
-      "value": "Elapsed"
+      "value": "Upłynęło"
     }
   ],
   "ui-ldp.dbinfo.updates.lastUpdate": [
     {
       "type": 0,
-      "value": "Last updated"
+      "value": "Ostatnia aktualizacja"
     }
   ],
   "ui-ldp.dbinfo.updates.tableName": [
     {
       "type": 0,
-      "value": "Table"
+      "value": "Tabela"
     }
   ],
   "ui-ldp.dbinfo.updates.tableSchema": [
     {
       "type": 0,
-      "value": "Schema"
+      "value": "Schemat"
     }
   ],
   "ui-ldp.dbinfo.version": [
     {
       "type": 0,
-      "value": "Metadb version "
+      "value": "Metadb wersja "
     },
     {
       "type": 1,
@@ -83634,7 +83670,7 @@
   "ui-ldp.error.load-logs": [
     {
       "type": 0,
-      "value": "Could not load Metadb logs: "
+      "value": "Nie można załadować dzienników Metadb: "
     },
     {
       "type": 1,
@@ -83644,7 +83680,7 @@
   "ui-ldp.error.load-processes": [
     {
       "type": 0,
-      "value": "Could not load long-running processes: "
+      "value": "Nie można załadować długotrwałych procesów: "
     },
     {
       "type": 1,
@@ -83694,7 +83730,7 @@
   "ui-ldp.error.load-updates": [
     {
       "type": 0,
-      "value": "Could not load recent updates: "
+      "value": "Nie można załadować ostatnich aktualizacji: "
     },
     {
       "type": 1,
@@ -83704,7 +83740,7 @@
   "ui-ldp.error.load-version": [
     {
       "type": 0,
-      "value": "Could not load Metadb version: "
+      "value": "Nie można załadować wersji Metadb: "
     },
     {
       "type": 1,
@@ -83724,7 +83760,7 @@
   "ui-ldp.error.not-metadb": [
     {
       "type": 0,
-      "value": "This facility is only available from a Metadb database, but this app is connected to LDP Classic"
+      "value": "Ta funkcja jest dostępna tylko w bazie danych Metadb, ale ta aplikacja jest połączona z LDP Classic"
     }
   ],
   "ui-ldp.found-more-than": [
@@ -83830,7 +83866,7 @@
   "ui-ldp.nav.info": [
     {
       "type": 0,
-      "value": "Database info"
+      "value": "Informacje o bazie danych"
     }
   ],
   "ui-ldp.nav.logs": [
@@ -100017,6 +100053,12 @@
       "value": "Ustawienia (Zamówienia): może wyświetlać i edytować wszystkie ustawienia"
     }
   ],
+  "ui-orders.permission.settings.number-generator.manage": [
+    {
+      "type": 0,
+      "value": "Settings (Orders): Manage number generator options"
+    }
+  ],
   "ui-orders.permission.settings.order-templates.create": [
     {
       "type": 0,
@@ -102012,6 +102054,84 @@
     {
       "type": 0,
       "value": "Nowy"
+    }
+  ],
+  "ui-orders.settings.numberGenerator.accessionNumber": [
+    {
+      "type": 0,
+      "value": "Accession number"
+    }
+  ],
+  "ui-orders.settings.numberGenerator.accessionNumberEqualCallNumber": [
+    {
+      "type": 0,
+      "value": "Use the same generated number for accession number and call number"
+    }
+  ],
+  "ui-orders.settings.numberGenerator.accessionNumberEqualCallNumber.warning": [
+    {
+      "type": 0,
+      "value": "Warning: The checkbox has been disabled because the accession number and/or the call number have been set to manual completion."
+    }
+  ],
+  "ui-orders.settings.numberGenerator.barcode": [
+    {
+      "type": 0,
+      "value": "Barcode"
+    }
+  ],
+  "ui-orders.settings.numberGenerator.callNumber": [
+    {
+      "type": 0,
+      "value": "Call number"
+    }
+  ],
+  "ui-orders.settings.numberGenerator.info": [
+    {
+      "type": 0,
+      "value": "Fields which are usually filled using a numeric sequence can use the number generator. When the generator is switched on the field can either be fixed to prevent manual update, or made fully editable. When switched off, the field must be filled manually."
+    }
+  ],
+  "ui-orders.settings.numberGenerator.options": [
+    {
+      "type": 0,
+      "value": "Number generator options"
+    }
+  ],
+  "ui-orders.settings.numberGenerator.options.off": [
+    {
+      "type": 0,
+      "value": "Off"
+    }
+  ],
+  "ui-orders.settings.numberGenerator.options.onEditable": [
+    {
+      "type": 0,
+      "value": "On, field editable"
+    }
+  ],
+  "ui-orders.settings.numberGenerator.options.onNotEditable": [
+    {
+      "type": 0,
+      "value": "On, field not editable"
+    }
+  ],
+  "ui-orders.settings.numberGenerator.receiving": [
+    {
+      "type": 0,
+      "value": "Receiving"
+    }
+  ],
+  "ui-orders.settings.numberGenerator.submit.error": [
+    {
+      "type": 0,
+      "value": "Number generator setting update failed"
+    }
+  ],
+  "ui-orders.settings.numberGenerator.submit.success": [
+    {
+      "type": 0,
+      "value": "Number generator setting was successfully updated"
     }
   ],
   "ui-orders.settings.openOrder": [
@@ -117729,13 +117849,13 @@
   "ui-quick-marc.sourceFileSelect.fieldLabel": [
     {
       "type": 0,
-      "value": "Authority file name"
+      "value": "Nazwa Kartoteki Haseł Wzorcowych"
     }
   ],
   "ui-quick-marc.sourceFileSelect.placeholder": [
     {
       "type": 0,
-      "value": "Select authority file"
+      "value": "Wybuerz Kartotekę Haseł Wzorcowych"
     }
   ],
   "ui-quick-marc.update-linked-bib-fields.modal.keep-editing": [
@@ -133340,7 +133460,7 @@
   "ui-users.errors.personal.pronounsCharLimit": [
     {
       "type": 0,
-      "value": "Pronouns are limited to 300 characters"
+      "value": "Zaimki są ograniczone do 300 znaków"
     }
   ],
   "ui-users.errors.proxies.duplicateUserMessage": [
