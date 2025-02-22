@@ -63745,6 +63745,12 @@
       "value": "Allocations have been updated successfully."
     }
   ],
+  "ui-finance.actions.allocations.download": [
+    {
+      "type": 0,
+      "value": "Download log"
+    }
+  ],
   "ui-finance.actions.downloadAllocationWorksheet": [
     {
       "type": 0,
@@ -63867,6 +63873,18 @@
       "value": "Logs successfully deleted"
     }
   ],
+  "ui-finance.allocation.batch.logs.actions.remove.heading": [
+    {
+      "type": 0,
+      "value": "Delete batch allocation log"
+    }
+  ],
+  "ui-finance.allocation.batch.logs.actions.remove.message": [
+    {
+      "type": 0,
+      "value": "This log will be permanently deleted. Are you sure you want to delete it?"
+    }
+  ],
   "ui-finance.allocation.batch.logs.columns.createdByUsername": [
     {
       "type": 0,
@@ -63895,6 +63913,22 @@
     {
       "type": 0,
       "value": "Records"
+    }
+  ],
+  "ui-finance.allocation.batch.logs.columns.select": [
+    {
+      "type": 0,
+      "value": "Select log $"
+    },
+    {
+      "type": 1,
+      "value": "id"
+    }
+  ],
+  "ui-finance.allocation.batch.logs.columns.selectAll": [
+    {
+      "type": 0,
+      "value": "Select all logs"
     }
   ],
   "ui-finance.allocation.batch.logs.columns.status": [
@@ -63927,6 +63961,36 @@
       "value": "Ended running"
     }
   ],
+  "ui-finance.allocation.batch.logs.filters.fiscalYearId": [
+    {
+      "type": 0,
+      "value": "Fiscal Year"
+    }
+  ],
+  "ui-finance.allocation.batch.logs.filters.groupId": [
+    {
+      "type": 0,
+      "value": "Group"
+    }
+  ],
+  "ui-finance.allocation.batch.logs.filters.ledgerId": [
+    {
+      "type": 0,
+      "value": "Ledger"
+    }
+  ],
+  "ui-finance.allocation.batch.logs.filters.metadata.createdByUserId": [
+    {
+      "type": 0,
+      "value": "User"
+    }
+  ],
+  "ui-finance.allocation.batch.logs.filters.metadata.createdDate": [
+    {
+      "type": 0,
+      "value": "Date"
+    }
+  ],
   "ui-finance.allocation.batch.logs.modal.delete.description": [
     {
       "type": 0,
@@ -63937,6 +64001,24 @@
     {
       "type": 0,
       "value": "Delete Log"
+    }
+  ],
+  "ui-finance.allocation.batch.logs.search.jobName": [
+    {
+      "type": 0,
+      "value": "Job name"
+    }
+  ],
+  "ui-finance.allocation.batch.logs.search.jobNumber": [
+    {
+      "type": 0,
+      "value": "ID"
+    }
+  ],
+  "ui-finance.allocation.batch.logs.search.keyword": [
+    {
+      "type": 0,
+      "value": "All"
     }
   ],
   "ui-finance.allocation.batch.logs.title": [
