@@ -18139,6 +18139,12 @@
       "value": "Detalhes do pacote pai"
     }
   ],
+  "ui-agreements.eresources.pauseSync": [
+    {
+      "type": 0,
+      "value": "Pause synchronisation"
+    }
+  ],
   "ui-agreements.eresources.platform": [
     {
       "type": 0,
@@ -18289,6 +18295,12 @@
       "value": "Última atualização da Fonte"
     }
   ],
+  "ui-agreements.eresources.startSync": [
+    {
+      "type": 0,
+      "value": "Start synchronisation"
+    }
+  ],
   "ui-agreements.eresources.status": [
     {
       "type": 0,
@@ -18317,6 +18329,76 @@
     {
       "type": 0,
       "value": "Sincronizando"
+    }
+  ],
+  "ui-agreements.eresources.syncPackageError": [
+    {
+      "type": 0,
+      "value": "Error. Unable to update the synchronisation status of the package."
+    }
+  ],
+  "ui-agreements.eresources.syncPackageSuccess.PAUSED": [
+    {
+      "type": 0,
+      "value": "Package: "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "packageName"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " has been paused"
+    }
+  ],
+  "ui-agreements.eresources.syncPackageSuccess.SYNCHRONIZING": [
+    {
+      "type": 0,
+      "value": "Package: "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "packageName"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " will synchronise"
+    }
+  ],
+  "ui-agreements.eresources.syncStatus.false": [
+    {
+      "type": 0,
+      "value": "Paused"
+    }
+  ],
+  "ui-agreements.eresources.syncStatus.notSet": [
+    {
+      "type": 0,
+      "value": "Not set"
+    }
+  ],
+  "ui-agreements.eresources.syncStatus.true": [
+    {
+      "type": 0,
+      "value": "Synchronising"
+    }
+  ],
+  "ui-agreements.eresources.synchronisationStatus": [
+    {
+      "type": 0,
+      "value": "Synchronisation status"
     }
   ],
   "ui-agreements.eresources.title": [
@@ -91085,6 +91167,12 @@
     {
       "type": 0,
       "value": "Exportar (MARC)"
+    }
+  ],
+  "ui-marc-authorities.authority-record.menuOptions": [
+    {
+      "type": 0,
+      "value": "Available options"
     }
   ],
   "ui-marc-authorities.authority-record.print": [

@@ -18247,6 +18247,12 @@
       "value": "Parent package details"
     }
   ],
+  "ui-agreements.eresources.pauseSync": [
+    {
+      "type": 0,
+      "value": "Pause synchronisation"
+    }
+  ],
   "ui-agreements.eresources.platform": [
     {
       "type": 0,
@@ -18397,6 +18403,12 @@
       "value": "Source last updated"
     }
   ],
+  "ui-agreements.eresources.startSync": [
+    {
+      "type": 0,
+      "value": "Start synchronisation"
+    }
+  ],
   "ui-agreements.eresources.status": [
     {
       "type": 0,
@@ -18425,6 +18437,76 @@
     {
       "type": 0,
       "value": "Synchronising"
+    }
+  ],
+  "ui-agreements.eresources.syncPackageError": [
+    {
+      "type": 0,
+      "value": "Error. Unable to update the synchronisation status of the package."
+    }
+  ],
+  "ui-agreements.eresources.syncPackageSuccess.PAUSED": [
+    {
+      "type": 0,
+      "value": "Package: "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "packageName"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " has been paused"
+    }
+  ],
+  "ui-agreements.eresources.syncPackageSuccess.SYNCHRONIZING": [
+    {
+      "type": 0,
+      "value": "Package: "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "packageName"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " will synchronise"
+    }
+  ],
+  "ui-agreements.eresources.syncStatus.false": [
+    {
+      "type": 0,
+      "value": "Paused"
+    }
+  ],
+  "ui-agreements.eresources.syncStatus.notSet": [
+    {
+      "type": 0,
+      "value": "Not set"
+    }
+  ],
+  "ui-agreements.eresources.syncStatus.true": [
+    {
+      "type": 0,
+      "value": "Synchronising"
+    }
+  ],
+  "ui-agreements.eresources.synchronisationStatus": [
+    {
+      "type": 0,
+      "value": "Synchronisation status"
     }
   ],
   "ui-agreements.eresources.title": [
@@ -90405,6 +90487,12 @@
       "value": "Export (MARC)"
     }
   ],
+  "ui-marc-authorities.authority-record.menuOptions": [
+    {
+      "type": 0,
+      "value": "Available options"
+    }
+  ],
   "ui-marc-authorities.authority-record.print": [
     {
       "type": 0,
@@ -127350,23 +127438,7 @@
   "ui-service-interaction.settings.numberGeneratorSequences.preChecksumTemplate.info": [
     {
       "type": 0,
-      "value": "Create rules to define the number to be inputted when calculating the check digit. Both the prefix and suffix can be templated, using Groovy markup. Use $"
-    },
-    {
-      "type": 1,
-      "value": "generated_number"
-    },
-    {
-      "type": 0,
-      "value": " as placeholder for the generated number. E.g. 05$"
-    },
-    {
-      "type": 1,
-      "value": "generated_number"
-    },
-    {
-      "type": 0,
-      "value": "01"
+      "value": "Create rules to define the number to be inputted when calculating the check digit. Both the prefix and suffix can be templated, using Groovy markup. Use ${generated_number} as placeholder for the generated number. E.g. 05${generated_number}01"
     }
   ],
   "ui-service-interaction.settings.numberGeneratorSequences.prefix": [
