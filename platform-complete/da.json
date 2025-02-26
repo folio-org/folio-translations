@@ -86317,6 +86317,12 @@
       "value": "Label"
     }
   ],
+  "ui-licenses.settings.noCurrentValue": [
+    {
+      "type": 0,
+      "value": "No current value"
+    }
+  ],
   "ui-licenses.settings.noOfValues": [
     {
       "type": 0,
@@ -126409,6 +126415,74 @@
     {
       "type": 0,
       "value": "Add publication pattern"
+    }
+  ],
+  "ui-serials-management.serials.deleteSerial": [
+    {
+      "type": 0,
+      "value": "Delete serial"
+    }
+  ],
+  "ui-serials-management.serials.deleteSerial.confirmMessage": [
+    {
+      "type": 0,
+      "value": "Serial "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "serial"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " will be deleted"
+    }
+  ],
+  "ui-serials-management.serials.deleteSerial.error.hasPublicationPattern": [
+    {
+      "type": 0,
+      "value": "Serial was not deleted because it has one or more publication patterns."
+    }
+  ],
+  "ui-serials-management.serials.deleteSerial.error.noDeleteSerialBackendError": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Serial was not deleted:"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " "
+    },
+    {
+      "type": 1,
+      "value": "message"
+    }
+  ],
+  "ui-serials-management.serials.deleteSerial.success": [
+    {
+      "type": 0,
+      "value": "Serial deleted: "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "serial"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
     }
   ],
   "ui-serials-management.serials.description": [
