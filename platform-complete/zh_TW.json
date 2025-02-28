@@ -26804,7 +26804,7 @@
   "ui-calendar.currentStatus.open.exceptional.noNext": [
     {
       "type": 0,
-      "value": "開放（ "
+      "value": "開放 ( "
     },
     {
       "type": 1,
@@ -26812,7 +26812,7 @@
     },
     {
       "type": 0,
-      "value": " ）"
+      "value": " )"
     }
   ],
   "ui-calendar.currentStatus.open.exceptional.otherWeekday": [
@@ -27560,13 +27560,13 @@
   "ui-calendar.permission.create": [
     {
       "type": 0,
-      "value": "設定（日曆）：可以建立和指派新日曆"
+      "value": "設定 ( 日曆 ) : 可以建立和指派新日曆"
     }
   ],
   "ui-calendar.permission.delete": [
     {
       "type": 0,
-      "value": "設定（日曆）：可以刪除現有日曆"
+      "value": "設定 ( 日曆 ) : 可以刪除現有日曆"
     }
   ],
   "ui-calendar.permission.edit": [
@@ -27578,13 +27578,13 @@
   "ui-calendar.permission.update": [
     {
       "type": 0,
-      "value": "設定（日曆）：可以編輯和重新指派現有日曆"
+      "value": "設定 ( 日曆 ) : 可以編輯和重新指派現有日曆"
     }
   ],
   "ui-calendar.permission.view": [
     {
       "type": 0,
-      "value": "設定（日曆）：可以檢視現有日曆"
+      "value": "設定 ( 日曆 ) : 可以檢視現有日曆"
     }
   ],
   "ui-calendar.previous": [
@@ -103904,6 +103904,40 @@
       "value": "Fields which are usually filled using a numeric sequence can use the number generator. When the generator is switched on the field can either be fixed to prevent manual update, or made fully editable. When switched off, the field must be filled manually."
     }
   ],
+  "ui-orders.settings.numberGenerator.infoAdditional": [
+    {
+      "type": 0,
+      "value": "Additional number generator settings are available under "
+    },
+    {
+      "type": 1,
+      "value": "serviceInteractionLink"
+    },
+    {
+      "type": 0,
+      "value": ". At "
+    },
+    {
+      "type": 1,
+      "value": "numberGeneratorSequencesLink"
+    },
+    {
+      "type": 0,
+      "value": " sequences can be defined by selecting the appropriate generator via the drop-down menu."
+    }
+  ],
+  "ui-orders.settings.numberGenerator.infoAdditional.numberGeneratorSequences": [
+    {
+      "type": 0,
+      "value": "Number generator sequences"
+    }
+  ],
+  "ui-orders.settings.numberGenerator.infoAdditional.serviceInteraction": [
+    {
+      "type": 0,
+      "value": "Service interaction"
+    }
+  ],
   "ui-orders.settings.numberGenerator.options": [
     {
       "type": 0,
@@ -120839,6 +120873,52 @@
     {
       "type": 0,
       "value": "發送催缺"
+    }
+  ],
+  "ui-receiving.numberGenerator.accessionAndCallNumberSequence": [
+    {
+      "type": 0,
+      "value": "Accession and call number sequence"
+    }
+  ],
+  "ui-receiving.numberGenerator.accessionNumberSequence": [
+    {
+      "type": 0,
+      "value": "Accession number sequence"
+    }
+  ],
+  "ui-receiving.numberGenerator.barcodeSequence": [
+    {
+      "type": 0,
+      "value": "Barcode sequence"
+    }
+  ],
+  "ui-receiving.numberGenerator.callNumberSequence": [
+    {
+      "type": 0,
+      "value": "Call number sequence"
+    }
+  ],
+  "ui-receiving.numberGenerator.generateForRow": [
+    {
+      "type": 0,
+      "value": "Generate numbers for row "
+    },
+    {
+      "type": 1,
+      "value": "rowIndex"
+    }
+  ],
+  "ui-receiving.numberGenerator.generateHelpText": [
+    {
+      "type": 0,
+      "value": "The selected sequences will be used to generate new numbers. Select \"Generate numbers\" to go ahead."
+    }
+  ],
+  "ui-receiving.numberGenerator.generateNumbers": [
+    {
+      "type": 0,
+      "value": "Generate numbers"
     }
   ],
   "ui-receiving.permission.acq-units.assignment.assign": [
