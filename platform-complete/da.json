@@ -63561,7 +63561,7 @@
   "ui-finance.allocation.batch.logs.actions.delete.success": [
     {
       "type": 0,
-      "value": "Logs successfully deleted"
+      "value": "Log(s) successfully deleted"
     }
   ],
   "ui-finance.allocation.batch.logs.actions.remove.heading": [
@@ -63603,7 +63603,7 @@
   "ui-finance.allocation.batch.logs.columns.recordsCount": [
     {
       "type": 0,
-      "value": "Records"
+      "value": "Updated records"
     }
   ],
   "ui-finance.allocation.batch.logs.columns.select": [
@@ -127566,23 +127566,7 @@
   "ui-service-interaction.settings.numberGeneratorSequences.preChecksumTemplate.info": [
     {
       "type": 0,
-      "value": "Create rules to define the number to be inputted when calculating the check digit. Both the prefix and suffix can be templated, using Groovy markup. Use $"
-    },
-    {
-      "type": 1,
-      "value": "generated_number"
-    },
-    {
-      "type": 0,
-      "value": " as placeholder for the generated number. E.g. 05$"
-    },
-    {
-      "type": 1,
-      "value": "generated_number"
-    },
-    {
-      "type": 0,
-      "value": "01"
+      "value": "Create rules to define the number to be inputted when calculating the check digit. Both the prefix and suffix can be templated, using Groovy markup. Use ${generated_number} as placeholder for the generated number. E.g. 05${generated_number}01"
     }
   ],
   "ui-service-interaction.settings.numberGeneratorSequences.prefix": [

@@ -63688,7 +63688,7 @@
   "ui-finance.allocation.batch.logs.actions.delete.success": [
     {
       "type": 0,
-      "value": "Logs successfully deleted"
+      "value": "Log(s) successfully deleted"
     }
   ],
   "ui-finance.allocation.batch.logs.actions.remove.heading": [
@@ -63730,7 +63730,7 @@
   "ui-finance.allocation.batch.logs.columns.recordsCount": [
     {
       "type": 0,
-      "value": "Records"
+      "value": "Updated records"
     }
   ],
   "ui-finance.allocation.batch.logs.columns.select": [
@@ -77317,19 +77317,19 @@
   "ui-inventory.numberGenerator.options.off": [
     {
       "type": 0,
-      "value": "Off"
+      "value": "Deaktiviert"
     }
   ],
   "ui-inventory.numberGenerator.options.onEditable": [
     {
       "type": 0,
-      "value": "On, field editable"
+      "value": "Aktiviert, Feld editierbar"
     }
   ],
   "ui-inventory.numberGenerator.options.onNotEditable": [
     {
       "type": 0,
-      "value": "On, field not editable"
+      "value": "Aktiviert, Feld nicht editierbar"
     }
   ],
   "ui-inventory.numberGenerator.save.error": [
@@ -79473,7 +79473,7 @@
   "ui-inventory.title.subTitle.browseCall": [
     {
       "type": 0,
-      "value": "Suchkriterien eingeben, um das browsen zu starten"
+      "value": "Suchkriterien eingeben, um das Browsen zu starten"
     }
   ],
   "ui-inventory.titleData": [
@@ -102275,7 +102275,7 @@
   "ui-orders.settings.numberGenerator.infoAdditional": [
     {
       "type": 0,
-      "value": "Additional number generator settings are available under "
+      "value": "Weitere Einstellungen für Nummerngeneratoren sind unter "
     },
     {
       "type": 1,
@@ -102283,7 +102283,7 @@
     },
     {
       "type": 0,
-      "value": ". At "
+      "value": " verfügbar. Unter "
     },
     {
       "type": 1,
@@ -102291,19 +102291,19 @@
     },
     {
       "type": 0,
-      "value": " sequences can be defined by selecting the appropriate generator via the drop-down menu."
+      "value": " können Nummernkreise definiert werden, indem der entsprechende Generator über das Dropdown-Menü ausgewählt wird."
     }
   ],
   "ui-orders.settings.numberGenerator.infoAdditional.numberGeneratorSequences": [
     {
       "type": 0,
-      "value": "Number generator sequences"
+      "value": "Nummernkreise"
     }
   ],
   "ui-orders.settings.numberGenerator.infoAdditional.serviceInteraction": [
     {
       "type": 0,
-      "value": "Service interaction"
+      "value": "Service Interaktion"
     }
   ],
   "ui-orders.settings.numberGenerator.options": [
@@ -111641,7 +111641,7 @@
   "ui-plugin-query-builder.modal.banner.limit": [
     {
       "type": 0,
-      "value": "Warnung: Diese Abfrage liefert mehr Datensätze als die maximal zulässige Anzahl. Abfrage ändern, um die Ergebnisse einzuschränken."
+      "value": "Warnung: Diese Abfrage liefert mehr Datensätze als die maximal zulässige Anzahl von 100000. Bitte Abfrage ändern, um die Ergebnisse einzuschränken."
     }
   ],
   "ui-plugin-query-builder.modal.cancel": [
@@ -118910,31 +118910,31 @@
   "ui-receiving.numberGenerator.accessionAndCallNumberSequence": [
     {
       "type": 0,
-      "value": "Accession and call number sequence"
+      "value": "Zugangsnummer und Signatur"
     }
   ],
   "ui-receiving.numberGenerator.accessionNumberSequence": [
     {
       "type": 0,
-      "value": "Accession number sequence"
+      "value": "Zugangsnummer"
     }
   ],
   "ui-receiving.numberGenerator.barcodeSequence": [
     {
       "type": 0,
-      "value": "Barcode sequence"
+      "value": "Barcode"
     }
   ],
   "ui-receiving.numberGenerator.callNumberSequence": [
     {
       "type": 0,
-      "value": "Call number sequence"
+      "value": "Signatur"
     }
   ],
   "ui-receiving.numberGenerator.generateForRow": [
     {
       "type": 0,
-      "value": "Generate numbers for row "
+      "value": "Nummern generieren für Zeile "
     },
     {
       "type": 1,
@@ -118944,13 +118944,13 @@
   "ui-receiving.numberGenerator.generateHelpText": [
     {
       "type": 0,
-      "value": "The selected sequences will be used to generate new numbers. Select \"Generate numbers\" to go ahead."
+      "value": "Ausgewählte Nummernkreise werden zum Generieren neuer Nummern verwendet. \"Nummern generieren\" auswählen, um fortzufahren."
     }
   ],
   "ui-receiving.numberGenerator.generateNumbers": [
     {
       "type": 0,
-      "value": "Generate numbers"
+      "value": "Nummern generieren"
     }
   ],
   "ui-receiving.permission.acq-units.assignment.assign": [
@@ -127920,23 +127920,7 @@
   "ui-service-interaction.settings.numberGeneratorSequences.preChecksumTemplate.info": [
     {
       "type": 0,
-      "value": "Erstellung der Regel, die die Nummer definiert, die für die Berechnung der Prüfziffer angewandt wird. Sowohl Präfix als auch Suffix können einbezogen werden. Groovy markup wird genutzt. Als Platzhalter für die generierte Nummer wird $"
-    },
-    {
-      "type": 1,
-      "value": "generated_number"
-    },
-    {
-      "type": 0,
-      "value": " verwendet z.B. 05$"
-    },
-    {
-      "type": 1,
-      "value": "generated_number"
-    },
-    {
-      "type": 0,
-      "value": "01"
+      "value": "Erstellung der Regel, die die Nummer definiert, die für die Berechnung der Prüfziffer angewandt wird. Sowohl Präfix als auch Suffix können einbezogen werden. Groovy markup wird genutzt. Als Platzhalter für die generierte Nummer wird ${generated_number} verwendet z.B. 05${generated_number}01"
     }
   ],
   "ui-service-interaction.settings.numberGeneratorSequences.prefix": [

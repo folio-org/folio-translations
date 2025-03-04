@@ -21718,7 +21718,7 @@
   "ui-bulk-edit.ariaLabel.statisticalCode": [
     {
       "type": 0,
-      "value": "Statistical code select"
+      "value": "Výběr statistického kódu"
     }
   ],
   "ui-bulk-edit.ariaLabel.statusSelect": [
@@ -22318,7 +22318,7 @@
   "ui-bulk-edit.columns.ITEM.Accession number": [
     {
       "type": 0,
-      "value": "Přístupové číslo"
+      "value": "Přírůstkové číslo"
     }
   ],
   "ui-bulk-edit.columns.ITEM.Administrative Notes": [
@@ -23345,25 +23345,25 @@
   "ui-bulk-edit.entityType.composite_holdings_record": [
     {
       "type": 0,
-      "value": "Holdings"
+      "value": "Holdingy"
     }
   ],
   "ui-bulk-edit.entityType.composite_instances": [
     {
       "type": 0,
-      "value": "Instances"
+      "value": "Tituly"
     }
   ],
   "ui-bulk-edit.entityType.composite_item_details": [
     {
       "type": 0,
-      "value": "Items"
+      "value": "Jednotky"
     }
   ],
   "ui-bulk-edit.entityType.composite_user_details": [
     {
       "type": 0,
-      "value": "Users"
+      "value": "Uživatelé"
     }
   ],
   "ui-bulk-edit.error.incorrectFormatted": [
@@ -23865,7 +23865,7 @@
   "ui-bulk-edit.layer.statisticalCode": [
     {
       "type": 0,
-      "value": "Select statistical code"
+      "value": "Vyberte statistický kód"
     }
   ],
   "ui-bulk-edit.layer.title": [
@@ -23877,7 +23877,7 @@
   "ui-bulk-edit.layer.title.administrative": [
     {
       "type": 0,
-      "value": "Bulk edits for administrative data"
+      "value": "Hromadné úpravy administrativních údajů"
     }
   ],
   "ui-bulk-edit.layer.title.marc": [
@@ -23901,7 +23901,7 @@
   "ui-bulk-edit.list.errors.checkbox": [
     {
       "type": 0,
-      "value": "Show warnings"
+      "value": "Zobrazit varování"
     }
   ],
   "ui-bulk-edit.list.errors.info": [
@@ -24652,7 +24652,7 @@
   "ui-bulk-edit.list.result.emptyMessage.item.ACCESSION_NUMBER": [
     {
       "type": 0,
-      "value": "Přetáhnout nebo vybrat soubor s přístupovými čísly jednotky."
+      "value": "Přetáhnout nebo vybrat soubor s přírůstkovými čísly jednotky."
     }
   ],
   "ui-bulk-edit.list.result.emptyMessage.item.BARCODE": [
@@ -24964,7 +24964,7 @@
   "ui-bulk-edit.logs.status.APPLY_MARC_CHANGES": [
     {
       "type": 0,
-      "value": "Apply changes"
+      "value": "Použít změny"
     }
   ],
   "ui-bulk-edit.logs.status.COMPLETED": [
@@ -25499,7 +25499,7 @@
   "ui-bulk-edit.previewModal.message.empty.notSupported": [
     {
       "type": 0,
-      "value": "No instances can be updated because none have source MARC."
+      "value": "Žádné instance nelze aktualizovat, protože žádná nemá zdrojový MARC."
     }
   ],
   "ui-bulk-edit.previewModal.message.empty.partlySupported": [
@@ -25633,7 +25633,7 @@
   "ui-bulk-edit.start.downloadMatchedRecords": [
     {
       "type": 0,
-      "value": "Download matched records (CSV)"
+      "value": "Stažení odpovídajících záznamů (CSV)"
     }
   ],
   "ui-bulk-edit.start.downloadMathcedRecords": [
@@ -29292,7 +29292,7 @@
   "ui-checkout.borrower.ariaLabel": [
     {
       "type": 0,
-      "value": "View borrower record"
+      "value": "Zobrazit záznam vypůjčitele"
     }
   ],
   "ui-checkout.borrowerProxy": [
@@ -29982,7 +29982,7 @@
   "ui-checkout.loanDetails.ariaLabel": [
     {
       "type": 0,
-      "value": "View open loan details"
+      "value": "Zobrazit podrobnosti o otevřené výpůjčce"
     }
   ],
   "ui-checkout.loanPolicy": [
@@ -30507,7 +30507,7 @@
   "ui-checkout.openRequests.ariaLabel": [
     {
       "type": 0,
-      "value": "View open requests"
+      "value": "Zobrazit otevřené žádanky"
     }
   ],
   "ui-checkout.orActingAsProxy": [
@@ -30555,7 +30555,7 @@
   "ui-checkout.patronBlocks.ariaLabel": [
     {
       "type": 0,
-      "value": "View patron blocks"
+      "value": "Zobrazit bloky čtenářů"
     }
   ],
   "ui-checkout.patronBlocksCount": [
@@ -30653,7 +30653,7 @@
   "ui-checkout.proxy.ariaLabel": [
     {
       "type": 0,
-      "value": "View borrower's proxy record"
+      "value": "Zobrazit proxy záznam vypůjčitele"
     }
   ],
   "ui-checkout.proxy.expiration": [
@@ -31448,7 +31448,7 @@
   "ui-circulation.permission.settings.edit-loan-history": [
     {
       "type": 0,
-      "value": "Settings (Circulation): Can edit loan history"
+      "value": "Nastavení (cirkulace): Může upravovat historii výpůjček"
     }
   ],
   "ui-circulation.permission.settings.edit-staff-slips": [
@@ -42244,7 +42244,7 @@
     },
     {
       "type": 0,
-      "value": " - the user "
+      "value": " - uživatel "
     },
     {
       "type": 1,
@@ -42252,7 +42252,7 @@
     },
     {
       "type": 0,
-      "value": " is not affiliated with "
+      "value": " není spojen se "
     },
     {
       "type": 1,
@@ -42260,7 +42260,7 @@
     },
     {
       "type": 0,
-      "value": " data tenant and holdings records from this tenant were omitted during export."
+      "value": " záznamy dat čtenáře a holdingů z tohoto čtenáře byly při exportu vynechány."
     }
   ],
   "ui-data-export.error.holdings.noPermission": [
@@ -44620,7 +44620,7 @@
   "ui-data-export.permission.module.data-export.enabled": [
     {
       "type": 0,
-      "value": "Data export: Module enabled"
+      "value": "Export dat: Modul povolen"
     }
   ],
   "ui-data-export.permission.settings.edit": [
@@ -54770,13 +54770,13 @@
   "ui-developer.rtr.idleModalTTL": [
     {
       "type": 0,
-      "value": "idleModalTTL: duration the idle modal should be shown before session is killed (e.g. 1h, 1m, 5s, 10ms)"
+      "value": "idleModalTTL: doba před ukončením relace, po kterou by se měl zobrazit režim nečinnosti (např. 1h, 1m, 5s, 10ms)"
     }
   ],
   "ui-developer.rtr.idleSessionTTL": [
     {
       "type": 0,
-      "value": "idleSessionTTL: duration an idle session lasts before being killed (e.g. 1h, 1m, 5s, 10ms)"
+      "value": "idleSessionTTL: doba trvání nečinné relace před jejím ukončením (např. 1h, 1m, 5s, 10ms)"
     }
   ],
   "ui-developer.rtr.invalidateAT": [
@@ -63448,19 +63448,19 @@
   "ui-finance.actions.allocations.batch": [
     {
       "type": 0,
-      "value": "Batch allocations"
+      "value": "Dávkové alokace"
     }
   ],
   "ui-finance.actions.allocations.batch.error": [
     {
       "type": 0,
-      "value": "Allocations have not been updated."
+      "value": "Alokace nebyly aktualizovány."
     }
   ],
   "ui-finance.actions.allocations.batch.logs": [
     {
       "type": 0,
-      "value": "Batch allocation logs"
+      "value": "Logy dávkové alokace"
     }
   ],
   "ui-finance.actions.allocations.batch.success": [
@@ -63478,7 +63478,7 @@
   "ui-finance.actions.downloadAllocationWorksheet": [
     {
       "type": 0,
-      "value": "Download allocation worksheet (CSV)"
+      "value": "Stáhnout alokační list (CSV)"
     }
   ],
   "ui-finance.actions.edit": [
@@ -63526,25 +63526,25 @@
   "ui-finance.allocation.batch.form.footer.recalculate": [
     {
       "type": 0,
-      "value": "Recalculate"
+      "value": "Přepočítat"
     }
   ],
   "ui-finance.allocation.batch.form.recalculate.error": [
     {
       "type": 0,
-      "value": "An error occurred while recalculating amounts."
+      "value": "Při přepočítávání částek došlo k chybě."
     }
   ],
   "ui-finance.allocation.batch.form.title.edit": [
     {
       "type": 0,
-      "value": "Batch edit budgets"
+      "value": "Dávková úprava rozpočtů"
     }
   ],
   "ui-finance.allocation.batch.form.validation.error.invalidFunds": [
     {
       "type": 0,
-      "value": "The following funds are not associated with this ledger (or group) and will NOT be updated."
+      "value": "Následující fondy nejsou s touto účetní knihou (nebo skupinou) spojeny a NEBUDOU aktualizovány."
     }
   ],
   "ui-finance.allocation.batch.form.validation.error.invalidStatus": [
@@ -63556,31 +63556,31 @@
   "ui-finance.allocation.batch.form.validation.error.missedFund": [
     {
       "type": 0,
-      "value": "Fund has not been changed and will not be updated."
+      "value": "Prostředky  nebyly změněny a nebudou aktualizovány."
     }
   ],
   "ui-finance.allocation.batch.form.validation.error.negativeAllocation": [
     {
       "type": 0,
-      "value": "New total allocation cannot be negative."
+      "value": "Nová celková alokace nemůže být záporná."
     }
   ],
   "ui-finance.allocation.batch.form.validation.error.numeric": [
     {
       "type": 0,
-      "value": "The field must be numeric value."
+      "value": "Pole musí obsahovat číselnou hodnotu."
     }
   ],
   "ui-finance.allocation.batch.logs.actions.delete": [
     {
       "type": 0,
-      "value": "Delete selected logs"
+      "value": "Smazat vybrané logy"
     }
   ],
   "ui-finance.allocation.batch.logs.actions.delete.fail": [
     {
       "type": 0,
-      "value": "Log with id "
+      "value": "Protokol s ID "
     },
     {
       "type": 1,
@@ -63588,19 +63588,19 @@
     },
     {
       "type": 0,
-      "value": " was not deleted"
+      "value": " nebyl smazán"
     }
   ],
   "ui-finance.allocation.batch.logs.actions.delete.success": [
     {
       "type": 0,
-      "value": "Logs successfully deleted"
+      "value": "Logy byly úspěšně smazány"
     }
   ],
   "ui-finance.allocation.batch.logs.actions.remove.heading": [
     {
       "type": 0,
-      "value": "Delete batch allocation log"
+      "value": "Smazat log hromadné alokace"
     }
   ],
   "ui-finance.allocation.batch.logs.actions.remove.message": [
@@ -63612,19 +63612,19 @@
   "ui-finance.allocation.batch.logs.columns.createdByUsername": [
     {
       "type": 0,
-      "value": "Run by"
+      "value": "Provozuje"
     }
   ],
   "ui-finance.allocation.batch.logs.columns.createdDate": [
     {
       "type": 0,
-      "value": "Started running"
+      "value": "Spuštěno"
     }
   ],
   "ui-finance.allocation.batch.logs.columns.jobName": [
     {
       "type": 0,
-      "value": "Job name"
+      "value": "Název úlohy"
     }
   ],
   "ui-finance.allocation.batch.logs.columns.jobNumber": [
@@ -63636,7 +63636,7 @@
   "ui-finance.allocation.batch.logs.columns.recordsCount": [
     {
       "type": 0,
-      "value": "Records"
+      "value": "Záznamy"
     }
   ],
   "ui-finance.allocation.batch.logs.columns.select": [
@@ -63658,31 +63658,31 @@
   "ui-finance.allocation.batch.logs.columns.status": [
     {
       "type": 0,
-      "value": "Status"
+      "value": "Stav"
     }
   ],
   "ui-finance.allocation.batch.logs.columns.status.completed": [
     {
       "type": 0,
-      "value": "Completed"
+      "value": "Dokončeno"
     }
   ],
   "ui-finance.allocation.batch.logs.columns.status.error": [
     {
       "type": 0,
-      "value": "Error"
+      "value": "Chyba"
     }
   ],
   "ui-finance.allocation.batch.logs.columns.status.inProgress": [
     {
       "type": 0,
-      "value": "In Progress"
+      "value": "Probíhá"
     }
   ],
   "ui-finance.allocation.batch.logs.columns.updatedDate": [
     {
       "type": 0,
-      "value": "Ended running"
+      "value": "Dokončeno"
     }
   ],
   "ui-finance.allocation.batch.logs.filters.fiscalYearId": [
@@ -63718,13 +63718,13 @@
   "ui-finance.allocation.batch.logs.modal.delete.description": [
     {
       "type": 0,
-      "value": "This action will cause selected logs to be deleted PERMANENTLY. Do you wish to proceed?"
+      "value": "Tato akce způsobí, že vybrané logy budou trvale odstraněny. Přejete si pokračovat?"
     }
   ],
   "ui-finance.allocation.batch.logs.modal.delete.title": [
     {
       "type": 0,
-      "value": "Delete Log"
+      "value": "Smazat log"
     }
   ],
   "ui-finance.allocation.batch.logs.search.jobName": [
@@ -63748,31 +63748,31 @@
   "ui-finance.allocation.batch.logs.title": [
     {
       "type": 0,
-      "value": "Logs"
+      "value": "Logy"
     }
   ],
   "ui-finance.allocation.batch.status.active": [
     {
       "type": 0,
-      "value": "Active"
+      "value": "Aktivní"
     }
   ],
   "ui-finance.allocation.batch.status.frozen": [
     {
       "type": 0,
-      "value": "Frozen"
+      "value": "Zamrzlý"
     }
   ],
   "ui-finance.allocation.batch.status.inactive": [
     {
       "type": 0,
-      "value": "Inactive"
+      "value": "Neaktivní"
     }
   ],
   "ui-finance.allocation.worksheet.download.error": [
     {
       "type": 0,
-      "value": "An error occurred during file generation."
+      "value": "Při generování souboru došlo k chybě."
     }
   ],
   "ui-finance.allocation.worksheet.download.start": [
@@ -63796,13 +63796,13 @@
   "ui-finance.batchAllocations.uploadWorksheet.modal.heading": [
     {
       "type": 0,
-      "value": "Upload worksheet"
+      "value": "Nahrát pracovní list"
     }
   ],
   "ui-finance.batchAllocations.uploadWorksheet.modal.message": [
     {
       "type": 0,
-      "value": "Please choose a budget worksheet to upload"
+      "value": "Vyberte prosím tabulku rozpočtu, kterou chcete nahrát"
     }
   ],
   "ui-finance.batchAllocations.uploadWorksheet.validation.error.emptyFile": [
@@ -63814,7 +63814,7 @@
   "ui-finance.batchAllocations.uploadWorksheet.validation.error.fiscalYearNotResolved": [
     {
       "type": 0,
-      "value": "Could not determine the fiscal year from the uploaded file."
+      "value": "Z nahraného souboru se nepodařilo určit fiskální rok."
     }
   ],
   "ui-finance.batchAllocations.uploadWorksheet.validation.error.inconsistentField": [
@@ -63870,7 +63870,7 @@
     },
     {
       "type": 0,
-      "value": " could not be parsed. Please download the latest worksheet and resubmit."
+      "value": " nebylo možné analyzovat. Stáhněte si prosím nejnovější pracovní list a znovu jej odešlete."
     }
   ],
   "ui-finance.batchAllocations.uploadWorksheet.validation.error.requiredHeaders": [
@@ -63986,7 +63986,7 @@
   "ui-finance.budget.batch.create.success": [
     {
       "type": 0,
-      "value": "Budgets have been created successfully."
+      "value": "Rozpočty byly úspěšně vytvořeny."
     }
   ],
   "ui-finance.budget.button.cancel": [
@@ -66709,7 +66709,7 @@
   "ui-finance.selectFiscalYear": [
     {
       "type": 0,
-      "value": "Select fiscal year"
+      "value": "Zvolte fiskální rok"
     }
   ],
   "ui-finance.settings.button.export": [
@@ -66939,31 +66939,31 @@
   "ui-finance.transaction.allocation.batch.columns.budgetAfterAllocation": [
     {
       "type": 0,
-      "value": "Total allocated (after)"
+      "value": "Celkem alokováno (po)"
     }
   ],
   "ui-finance.transaction.allocation.batch.columns.budgetAllocationChange": [
     {
       "type": 0,
-      "value": "Allocation increase/decrease"
+      "value": "Zvýšení/snížení alokace"
     }
   ],
   "ui-finance.transaction.allocation.batch.columns.budgetAllowableEncumbrance": [
     {
       "type": 0,
-      "value": "Allowable encumbrance %"
+      "value": "Povolené zatížení %"
     }
   ],
   "ui-finance.transaction.allocation.batch.columns.budgetAllowableExpenditure": [
     {
       "type": 0,
-      "value": "Allowable expenditure %"
+      "value": "Přípustné výdaje %"
     }
   ],
   "ui-finance.transaction.allocation.batch.columns.budgetCurrentAllocation": [
     {
       "type": 0,
-      "value": "Total allocated (before)"
+      "value": "Celkem alokováno (před)"
     }
   ],
   "ui-finance.transaction.allocation.batch.columns.budgetInitialAllocation": [
@@ -66975,25 +66975,25 @@
   "ui-finance.transaction.allocation.batch.columns.budgetName": [
     {
       "type": 0,
-      "value": "Budget Name"
+      "value": "Název rozpočtu"
     }
   ],
   "ui-finance.transaction.allocation.batch.columns.budgetStatus": [
     {
       "type": 0,
-      "value": "Budget status"
+      "value": "Stav rozpočtu"
     }
   ],
   "ui-finance.transaction.allocation.batch.columns.fundName": [
     {
       "type": 0,
-      "value": "Fund name"
+      "value": "Název prostředků"
     }
   ],
   "ui-finance.transaction.allocation.batch.columns.fundStatus": [
     {
       "type": 0,
-      "value": "Fund status"
+      "value": "Stav prostředků"
     }
   ],
   "ui-finance.transaction.allocation.batch.columns.fundTags": [
@@ -67011,13 +67011,13 @@
   "ui-finance.transaction.allocation.batch.columns.transactionDescription": [
     {
       "type": 0,
-      "value": "Transaction description"
+      "value": "Popis transakce"
     }
   ],
   "ui-finance.transaction.allocation.batch.columns.transactionTag": [
     {
       "type": 0,
-      "value": "Transaction tags"
+      "value": "Štítky transakcí"
     }
   ],
   "ui-finance.transaction.allocation.budgetNotFoundForTransaction": [
@@ -68618,13 +68618,13 @@
   "ui-gobi-settings.permission.settings.edit": [
     {
       "type": 0,
-      "value": "Settings (GOBI Integration): Can view and edit settings"
+      "value": "Nastavení (integrace GOBI): Nastavení lze zobrazit a upravit"
     }
   ],
   "ui-gobi-settings.permission.settings.view": [
     {
       "type": 0,
-      "value": "Settings (GOBI Integration): Can view only"
+      "value": "Nastavení (Integrace GOBI): Může zobrazit pouze"
     }
   ],
   "ui-gobi-settings.restore.error": [
@@ -72121,7 +72121,7 @@
   "ui-inventory.accessionNumber": [
     {
       "type": 0,
-      "value": "Přístupové číslo"
+      "value": "Přírůstkové číslo"
     }
   ],
   "ui-inventory.acq.acqUnit": [
@@ -72955,7 +72955,7 @@
   "ui-inventory.callNumberBrowse": [
     {
       "type": 0,
-      "value": "Call number browse"
+      "value": "Procházet signatury"
     }
   ],
   "ui-inventory.callNumberEyeReadable": [
@@ -74243,7 +74243,7 @@
   "ui-inventory.hasLinkedLocalOrderLine.modal.heading": [
     {
       "type": 0,
-      "value": "Linked order line"
+      "value": "Propojený řádek objednávky"
     }
   ],
   "ui-inventory.hasLinkedLocalOrderLine.modal.message": [
@@ -74929,7 +74929,7 @@
   "ui-inventory.instanceForm": [
     {
       "type": 0,
-      "value": "Instance form"
+      "value": "Formulář titulu"
     }
   ],
   "ui-inventory.instanceFormat": [
@@ -77130,31 +77130,31 @@
   "ui-inventory.numberGenerator.accessionNumber": [
     {
       "type": 0,
-      "value": "Accession number"
+      "value": "Přírůstkové číslo"
     }
   ],
   "ui-inventory.numberGenerator.accessionNumberEqualCallNumber": [
     {
       "type": 0,
-      "value": "Use the same generated number for accession number and call number"
+      "value": "Použijte stejné vygenerované číslo pro přírůstkové číslo a signaturu"
     }
   ],
   "ui-inventory.numberGenerator.accessionNumberEqualCallNumber.warning": [
     {
       "type": 0,
-      "value": "Warning: The checkbox has been disabled because the accession number and/or the call number have been set to manual completion."
+      "value": "Upozornění: Zaškrtávací políčko bylo deaktivováno, protože přírůstkové číslo a/nebo signatura jsou nastaveny na ruční vyplňování."
     }
   ],
   "ui-inventory.numberGenerator.barcode": [
     {
       "type": 0,
-      "value": "Barcode"
+      "value": "Čárový kód"
     }
   ],
   "ui-inventory.numberGenerator.callNumber": [
     {
       "type": 0,
-      "value": "Call number"
+      "value": "Signatura"
     }
   ],
   "ui-inventory.numberGenerator.info": [
@@ -77166,7 +77166,7 @@
   "ui-inventory.numberGenerator.options": [
     {
       "type": 0,
-      "value": "Number generator options"
+      "value": "Možnosti generátoru čísel"
     }
   ],
   "ui-inventory.numberGenerator.options.off": [
@@ -77532,7 +77532,7 @@
   "ui-inventory.permission.settings.call-number-browse": [
     {
       "type": 0,
-      "value": "Settings (Inventory): Configure call number browse"
+      "value": "Nastavení (Katalog): Nastavit procházení signatur"
     }
   ],
   "ui-inventory.permission.settings.call-number-types": [
@@ -77652,7 +77652,7 @@
   "ui-inventory.permission.settings.manage-number-generator-options": [
     {
       "type": 0,
-      "value": "Settings (Inventory): Manage number generator options"
+      "value": "Nastavení (Katalog): Správa možností generátoru čísel"
     }
   ],
   "ui-inventory.permission.settings.material-types": [
@@ -78711,7 +78711,7 @@
   "ui-inventory.setForDeletion": [
     {
       "type": 0,
-      "value": "Set for deletion"
+      "value": "Nastavit pro smazání"
     }
   ],
   "ui-inventory.setForDeletion.modal.header": [
@@ -78843,19 +78843,19 @@
   "ui-inventory.settings.instanceCallNumber.other": [
     {
       "type": 0,
-      "value": "Other scheme"
+      "value": "Jiné schéma"
     }
   ],
   "ui-inventory.settings.instanceCallNumber.sudoc": [
     {
       "type": 0,
-      "value": "Superintendent of Documents classification"
+      "value": "Vedoucí klasifikace dokumentů"
     }
   ],
   "ui-inventory.settings.instanceCallNumber.termUpdated": [
     {
       "type": 0,
-      "value": "The call number browse type "
+      "value": "Typ procházení signatury "
     },
     {
       "type": 1,
@@ -78863,7 +78863,7 @@
     },
     {
       "type": 0,
-      "value": " was successfully updated"
+      "value": " byl úspěšně aktualizován"
     }
   ],
   "ui-inventory.settings.instanceClassification.all": [
@@ -78929,7 +78929,7 @@
   "ui-inventory.settings.section.cardsPerPage": [
     {
       "type": 0,
-      "value": "Cards per page"
+      "value": "Karty na stránku"
     }
   ],
   "ui-inventory.settings.section.displaySettings": [
@@ -78941,19 +78941,19 @@
   "ui-inventory.settings.section.versionHistory": [
     {
       "type": 0,
-      "value": "Version history"
+      "value": "Historie verzí"
     }
   ],
   "ui-inventory.settings.versionHistory.versionHistoryCardsPerPage": [
     {
       "type": 0,
-      "value": "Cards to display per page on Version history"
+      "value": "Karty k zobrazení na stránce v historii verzí"
     }
   ],
   "ui-inventory.settings.versionHistory.versionHistoryCardsPerPage.loadError": [
     {
       "type": 0,
-      "value": "Failed to load Version history cards per page settings"
+      "value": "Nepodařilo se načíst karty historie verzí podle nastavení stránky"
     }
   ],
   "ui-inventory.shareLocalInstance": [
@@ -79525,7 +79525,7 @@
   "ui-inventory.updateOwnership.items.message.error": [
     {
       "type": 0,
-      "value": "Item ownership could not be updated because the record contains local-specific reference data."
+      "value": "Vlastnictví položky nebylo možné aktualizovat, protože záznam obsahuje lokální referenční data."
     }
   ],
   "ui-inventory.updateOwnership.items.modal.heading": [
@@ -79749,13 +79749,13 @@
   "ui-inventory.warning.instance.setForDeletionAndSuppressedFromDiscoveryAndStaffSuppressed": [
     {
       "type": 0,
-      "value": "Warning: "
+      "value": "Upozornění: "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Instance is set for deletion"
+          "value": " Titul ke smazání "
         }
       ],
       "type": 8,
@@ -79763,7 +79763,7 @@
     },
     {
       "type": 0,
-      "value": ", suppressed from discovery, and staff suppressed"
+      "value": ", je vyřazený z vyhledávání a z vyhledávání zaměstnanci"
     }
   ],
   "ui-inventory.warning.instance.sharingLocalInstance": [
@@ -83469,103 +83469,103 @@
   "ui-ldp.dbinfo.logs.error_severity": [
     {
       "type": 0,
-      "value": "Severity"
+      "value": "Závažnost"
     }
   ],
   "ui-ldp.dbinfo.logs.log_time": [
     {
       "type": 0,
-      "value": "Timestamp"
+      "value": "Časové razítko"
     }
   ],
   "ui-ldp.dbinfo.logs.message": [
     {
       "type": 0,
-      "value": "Message"
+      "value": "Zpráva"
     }
   ],
   "ui-ldp.dbinfo.nav.logs": [
     {
       "type": 0,
-      "value": "Logs"
+      "value": "Logy"
     }
   ],
   "ui-ldp.dbinfo.nav.processes": [
     {
       "type": 0,
-      "value": "Long-running processes"
+      "value": "Dlouhodobě probíhající procesy"
     }
   ],
   "ui-ldp.dbinfo.nav.updates": [
     {
       "type": 0,
-      "value": "Last updates of tables"
+      "value": "Poslední aktualizace tabulek"
     }
   ],
   "ui-ldp.dbinfo.processes.databaseName": [
     {
       "type": 0,
-      "value": "Database"
+      "value": "Databáze"
     }
   ],
   "ui-ldp.dbinfo.processes.empty": [
     {
       "type": 0,
-      "value": "There are currently no long-running processes"
+      "value": "V současné době neexistují žádné dlouhodobé procesy"
     }
   ],
   "ui-ldp.dbinfo.processes.query": [
     {
       "type": 0,
-      "value": "Query"
+      "value": "Dotaz"
     }
   ],
   "ui-ldp.dbinfo.processes.realTime": [
     {
       "type": 0,
-      "value": "Real time"
+      "value": "Skutečný čas"
     }
   ],
   "ui-ldp.dbinfo.processes.state": [
     {
       "type": 0,
-      "value": "Status"
+      "value": "Stav"
     }
   ],
   "ui-ldp.dbinfo.processes.userName": [
     {
       "type": 0,
-      "value": "User"
+      "value": "Uživatel"
     }
   ],
   "ui-ldp.dbinfo.updates.elapsedRealTime": [
     {
       "type": 0,
-      "value": "Elapsed"
+      "value": "Uplynulá doba"
     }
   ],
   "ui-ldp.dbinfo.updates.lastUpdate": [
     {
       "type": 0,
-      "value": "Last updated"
+      "value": "Poslední aktualizace"
     }
   ],
   "ui-ldp.dbinfo.updates.tableName": [
     {
       "type": 0,
-      "value": "Table"
+      "value": "Tabulka"
     }
   ],
   "ui-ldp.dbinfo.updates.tableSchema": [
     {
       "type": 0,
-      "value": "Schema"
+      "value": "Schéma"
     }
   ],
   "ui-ldp.dbinfo.version": [
     {
       "type": 0,
-      "value": "Metadb version "
+      "value": "Verze Metadb "
     },
     {
       "type": 1,
@@ -83741,7 +83741,7 @@
   "ui-ldp.error.load-version": [
     {
       "type": 0,
-      "value": "Could not load Metadb version: "
+      "value": "Nepodařilo se načíst verzi Metadb: "
     },
     {
       "type": 1,
@@ -83867,7 +83867,7 @@
   "ui-ldp.nav.info": [
     {
       "type": 0,
-      "value": "Database info"
+      "value": "Informace o databázi"
     }
   ],
   "ui-ldp.nav.logs": [
@@ -86375,7 +86375,7 @@
   "ui-licenses.settings.noCurrentValue": [
     {
       "type": 0,
-      "value": "No current value"
+      "value": "Žádná aktuální hodnota"
     }
   ],
   "ui-licenses.settings.noOfValues": [
@@ -87602,7 +87602,7 @@
   "ui-lists.cross-tenant-message": [
     {
       "type": 0,
-      "value": "This list may contain records from multiple tenants."
+      "value": "Tento seznam může obsahovat záznamy od více nájemců."
     }
   ],
   "ui-lists.delete-export.in.progress": [
@@ -90511,7 +90511,7 @@
   "ui-marc-authorities.authority-record.menuOptions": [
     {
       "type": 0,
-      "value": "Available options"
+      "value": "Dostupné možnosti"
     }
   ],
   "ui-marc-authorities.authority-record.print": [
@@ -90916,7 +90916,7 @@
   "ui-marc-authorities.permission.settings.version-history.view": [
     {
       "type": 0,
-      "value": "Settings (MARC authority): Configure version history"
+      "value": "Nastavení (autorita MARC): Konfigurace historie verzí"
     }
   ],
   "ui-marc-authorities.personalName": [
@@ -91621,19 +91621,19 @@
   "ui-marc-authorities.settings.versionHistory.field.pageSize": [
     {
       "type": 0,
-      "value": "Cards to display per page on Version history"
+      "value": "Karty k zobrazení na stránce v historii verzí"
     }
   ],
   "ui-marc-authorities.settings.versionHistory.loadError": [
     {
       "type": 0,
-      "value": "Version history Cards per page settings failed to load."
+      "value": "Nastavení historie verzí Karet se nepodařilo načíst."
     }
   ],
   "ui-marc-authorities.settings.versionHistory.pane.title": [
     {
       "type": 0,
-      "value": "Version history"
+      "value": "Historie verzí"
     }
   ],
   "ui-marc-authorities.shortcut.closeModal": [
@@ -91727,13 +91727,13 @@
     },
     {
       "type": 0,
-      "value": " dropped"
+      "value": " vyřazený"
     }
   ],
   "ui-myprofile.draggableList.announcements.dragEnd": [
     {
       "type": 0,
-      "value": "Dropped "
+      "value": "Přesunuto "
     },
     {
       "type": 1,
@@ -91741,7 +91741,7 @@
     },
     {
       "type": 0,
-      "value": " at position "
+      "value": " na pozici "
     },
     {
       "type": 1,
@@ -91751,7 +91751,7 @@
   "ui-myprofile.draggableList.announcements.dragOver": [
     {
       "type": 0,
-      "value": "Moved "
+      "value": "Přesunuto "
     },
     {
       "type": 1,
@@ -91759,7 +91759,7 @@
     },
     {
       "type": 0,
-      "value": " to position "
+      "value": " na pozici "
     },
     {
       "type": 1,
@@ -91769,7 +91769,7 @@
   "ui-myprofile.draggableList.announcements.dragStart": [
     {
       "type": 0,
-      "value": "Picked up "
+      "value": "Vyzvednuto "
     },
     {
       "type": 1,
@@ -91777,7 +91777,7 @@
     },
     {
       "type": 0,
-      "value": " in position "
+      "value": " na pozici "
     },
     {
       "type": 1,
@@ -91785,7 +91785,7 @@
     },
     {
       "type": 0,
-      "value": " of "
+      "value": " z "
     },
     {
       "type": 1,
@@ -91793,7 +91793,7 @@
     },
     {
       "type": 0,
-      "value": " items"
+      "value": " položek"
     }
   ],
   "ui-myprofile.draggableList.instructions": [
@@ -91829,55 +91829,55 @@
   "ui-myprofile.settings.appNavOrder.label": [
     {
       "type": 0,
-      "value": "Application display order"
+      "value": "Pořadí zobrazení aplikace"
     }
   ],
   "ui-myprofile.settings.appNavOrder.newItem": [
     {
       "type": 0,
-      "value": "New"
+      "value": "Nový"
     }
   ],
   "ui-myprofile.settings.appNavOrder.reset": [
     {
       "type": 0,
-      "value": "Reset to default"
+      "value": "Obnovení výchozího nastavení"
     }
   ],
   "ui-myprofile.settings.appNavOrder.resetError": [
     {
       "type": 0,
-      "value": "There was a problem resetting the app order."
+      "value": "Při resetování pořadí aplikací došlo k problému."
     }
   ],
   "ui-myprofile.settings.appNavOrder.resetSuccess": [
     {
       "type": 0,
-      "value": "Application display order reset to default."
+      "value": "Obnoveno výchozí pořadí při zobrazení aplikace."
     }
   ],
   "ui-myprofile.settings.appNavOrder.save": [
     {
       "type": 0,
-      "value": "Save"
+      "value": "Uložit"
     }
   ],
   "ui-myprofile.settings.appNavOrder.saveError": [
     {
       "type": 0,
-      "value": "There was a problem saving app list order."
+      "value": "Při ukládání pořadí seznamu aplikací došlo k problému."
     }
   ],
   "ui-myprofile.settings.appNavOrder.saveSuccess": [
     {
       "type": 0,
-      "value": "Application display order has been successfully updated."
+      "value": "Pořadí zobrazení aplikace bylo úspěšně aktualizováno."
     }
   ],
   "ui-myprofile.settings.appNavOrder.visibleInstruction": [
     {
       "type": 0,
-      "value": "Drag & drop to change the display order of FOLIO applications."
+      "value": "Přetažením změníte pořadí zobrazení aplikací FOLIO."
     }
   ],
   "ui-myprofile.settings.changePassword.confirmPassword": [
@@ -99960,7 +99960,7 @@
   "ui-orders.permission.settings.number-generator.manage": [
     {
       "type": 0,
-      "value": "Settings (Orders): Manage number generator options"
+      "value": "Nastavení (objednávky): Správa možností generátoru čísel"
     }
   ],
   "ui-orders.permission.settings.order-templates.create": [
@@ -101963,31 +101963,31 @@
   "ui-orders.settings.numberGenerator.accessionNumber": [
     {
       "type": 0,
-      "value": "Accession number"
+      "value": "Přírůstkové číslo"
     }
   ],
   "ui-orders.settings.numberGenerator.accessionNumberEqualCallNumber": [
     {
       "type": 0,
-      "value": "Use the same generated number for accession number and call number"
+      "value": "Použijte stejné vygenerované číslo pro přírůstkové číslo a signaturu"
     }
   ],
   "ui-orders.settings.numberGenerator.accessionNumberEqualCallNumber.warning": [
     {
       "type": 0,
-      "value": "Warning: The checkbox has been disabled because the accession number and/or the call number have been set to manual completion."
+      "value": "Upozornění: Zaškrtávací políčko bylo deaktivováno, protože přírůstkové číslo a/nebo signatura jsou nastaveny na ruční vyplňování."
     }
   ],
   "ui-orders.settings.numberGenerator.barcode": [
     {
       "type": 0,
-      "value": "Barcode"
+      "value": "Čárový kód"
     }
   ],
   "ui-orders.settings.numberGenerator.callNumber": [
     {
       "type": 0,
-      "value": "Call number"
+      "value": "Signatura"
     }
   ],
   "ui-orders.settings.numberGenerator.info": [
@@ -102033,43 +102033,43 @@
   "ui-orders.settings.numberGenerator.options": [
     {
       "type": 0,
-      "value": "Number generator options"
+      "value": "Možnosti generátoru čísel"
     }
   ],
   "ui-orders.settings.numberGenerator.options.off": [
     {
       "type": 0,
-      "value": "Off"
+      "value": "Vypnuto"
     }
   ],
   "ui-orders.settings.numberGenerator.options.onEditable": [
     {
       "type": 0,
-      "value": "On, field editable"
+      "value": "Zapnuto, pole lze upravovat"
     }
   ],
   "ui-orders.settings.numberGenerator.options.onNotEditable": [
     {
       "type": 0,
-      "value": "On, field not editable"
+      "value": "Zapnuto, pole nelze upravovat"
     }
   ],
   "ui-orders.settings.numberGenerator.receiving": [
     {
       "type": 0,
-      "value": "Receiving"
+      "value": "Příjem"
     }
   ],
   "ui-orders.settings.numberGenerator.submit.error": [
     {
       "type": 0,
-      "value": "Number generator setting update failed"
+      "value": "Aktualizace nastavení generátoru čísel se nezdařila"
     }
   ],
   "ui-orders.settings.numberGenerator.submit.success": [
     {
       "type": 0,
-      "value": "Number generator setting was successfully updated"
+      "value": "Nastavení generátoru čísel bylo úspěšně aktualizováno"
     }
   ],
   "ui-orders.settings.openOrder": [
@@ -117800,13 +117800,13 @@
   "ui-quick-marc.sourceFileSelect.fieldLabel": [
     {
       "type": 0,
-      "value": "Authority file name"
+      "value": "Název souboru autority"
     }
   ],
   "ui-quick-marc.sourceFileSelect.placeholder": [
     {
       "type": 0,
-      "value": "Select authority file"
+      "value": "Vybrat soubor autority"
     }
   ],
   "ui-quick-marc.update-linked-bib-fields.modal.keep-editing": [
@@ -118268,7 +118268,7 @@
   "ui-receiving.errors.cannotFindPiecesWithLatestStatusToProcess": [
     {
       "type": 0,
-      "value": "The piece must have \"Late\" status to process."
+      "value": "Pro zpracování musí mít kus stav „Pozdní“."
     }
   ],
   "ui-receiving.errors.createItemForPieceIsNotAllowedError": [
@@ -118754,7 +118754,7 @@
   "ui-receiving.piece.accessionNumber": [
     {
       "type": 0,
-      "value": "Přístupové číslo"
+      "value": "Přírůstkové číslo"
     }
   ],
   "ui-receiving.piece.accordion.itemDetails": [
@@ -118802,7 +118802,7 @@
   "ui-receiving.piece.action.button.markLate": [
     {
       "type": 0,
-      "value": "Mark late"
+      "value": "Označit jako zpožděné"
     }
   ],
   "ui-receiving.piece.action.button.quickReceive": [
@@ -123069,7 +123069,7 @@
   "ui-requests.item.retrievalServicePointName": [
     {
       "type": 0,
-      "value": "Retrieval service point"
+      "value": "Výdejní pult služeb"
     }
   ],
   "ui-requests.item.scanOrEnterBarcode": [
@@ -124305,7 +124305,7 @@
   "ui-requests.requests.retrievalServicePoint": [
     {
       "type": 0,
-      "value": "Retrieval service point"
+      "value": "Výdejní pult služeb"
     }
   ],
   "ui-requests.requests.servicePoint": [
@@ -124949,7 +124949,7 @@
   "ui-serials-management.patternTemplate": [
     {
       "type": 0,
-      "value": "Pattern template (replaces content in the form below with pre-defined values)"
+      "value": "Šablona vzoru (nahradí obsah v níže uvedeném formuláři předem definovanými hodnotami)"
     }
   ],
   "ui-serials-management.patternTemplatePopover": [
@@ -125027,7 +125027,7 @@
   "ui-serials-management.pieceSets.deletePredictedPieceSet.confirmMessage": [
     {
       "type": 0,
-      "value": "Are you sure you wish to delete this predicted piece set?"
+      "value": "Opravdu chcete smazat tuto předpokládanou sadu kusů?"
     }
   ],
   "ui-serials-management.pieceSets.displayInHolding": [
@@ -125566,7 +125566,7 @@
   "ui-serials-management.ruleset.addChronologyLabel": [
     {
       "type": 0,
-      "value": "Add chronology label"
+      "value": "Přidat chronologický štítek"
     }
   ],
   "ui-serials-management.ruleset.addCombination": [
@@ -125584,7 +125584,7 @@
   "ui-serials-management.ruleset.addEnumerationLabel": [
     {
       "type": 0,
-      "value": "Add enumeration label"
+      "value": "Přidat štítek výčtu"
     }
   ],
   "ui-serials-management.ruleset.addLabel": [
@@ -125704,7 +125704,7 @@
   "ui-serials-management.ruleset.chronologyLabelIndex": [
     {
       "type": 0,
-      "value": "Chronology label "
+      "value": "Chronologický štítek "
     },
     {
       "type": 1,
@@ -125764,19 +125764,19 @@
   "ui-serials-management.ruleset.confirmGeneration": [
     {
       "type": 0,
-      "value": "Confirm generation of overlapping piece sets"
+      "value": "Potvrzení generování překrývajících se sad kusů"
     }
   ],
   "ui-serials-management.ruleset.copyAndDeprecate": [
     {
       "type": 0,
-      "value": "Copy and deprecate"
+      "value": "Kopírovat a vyřadit"
     }
   ],
   "ui-serials-management.ruleset.copyAndDeprecatePublicationPattern": [
     {
       "type": 0,
-      "value": "Copy and deprecate publication pattern"
+      "value": "Zkopírujte a vyřaďte vzor publikace"
     }
   ],
   "ui-serials-management.ruleset.cycleLength": [
@@ -125932,7 +125932,7 @@
   "ui-serials-management.ruleset.enumerationLabelIndex": [
     {
       "type": 0,
-      "value": "Enumeration label "
+      "value": "Štítek výčtu "
     },
     {
       "type": 1,
@@ -126072,7 +126072,7 @@
   "ui-serials-management.ruleset.labelTemplate": [
     {
       "type": 0,
-      "value": "Label template"
+      "value": "Šablona štítku"
     }
   ],
   "ui-serials-management.ruleset.labelText": [
@@ -126148,7 +126148,7 @@
   "ui-serials-management.ruleset.noChronologyLabels": [
     {
       "type": 0,
-      "value": "No chronology labels for this publication pattern"
+      "value": "Žádné chronologické štítky pro tento vzor publikace"
     }
   ],
   "ui-serials-management.ruleset.noCombinationRules": [
@@ -126160,7 +126160,7 @@
   "ui-serials-management.ruleset.noEnumerationLabels": [
     {
       "type": 0,
-      "value": "No enumeration labels for this publication pattern"
+      "value": "Žádné štítky výčtu pro tento vzor publikace"
     }
   ],
   "ui-serials-management.ruleset.noLabels": [
@@ -126178,7 +126178,7 @@
   "ui-serials-management.ruleset.numberOfCycles": [
     {
       "type": 0,
-      "value": "Number of years/cycles"
+      "value": "Počet let/cyklů"
     }
   ],
   "ui-serials-management.ruleset.numberOfIssues": [
@@ -126330,7 +126330,7 @@
   "ui-serials-management.ruleset.previewPredictedPieces": [
     {
       "type": 0,
-      "value": "Preview predicted pieces"
+      "value": "Náhled předpokládaných kusů"
     }
   ],
   "ui-serials-management.ruleset.publicationCycle": [
@@ -126342,7 +126342,7 @@
   "ui-serials-management.ruleset.removeChronologyLabelIndex": [
     {
       "type": 0,
-      "value": "Remove chronology label "
+      "value": "Odebrat chronologický štítek "
     },
     {
       "type": 1,
@@ -126362,7 +126362,7 @@
   "ui-serials-management.ruleset.removeEnumerationLabelIndex": [
     {
       "type": 0,
-      "value": "Remove enumeration label "
+      "value": "Odebrat štítek výčtu "
     },
     {
       "type": 1,
@@ -126560,13 +126560,13 @@
   "ui-serials-management.serials.deleteSerial": [
     {
       "type": 0,
-      "value": "Delete serial"
+      "value": "Smazat periodikum"
     }
   ],
   "ui-serials-management.serials.deleteSerial.confirmMessage": [
     {
       "type": 0,
-      "value": "Serial "
+      "value": "Periodikum "
     },
     {
       "children": [
@@ -126580,13 +126580,13 @@
     },
     {
       "type": 0,
-      "value": " will be deleted"
+      "value": " bude smazáno"
     }
   ],
   "ui-serials-management.serials.deleteSerial.error.hasPublicationPattern": [
     {
       "type": 0,
-      "value": "Serial was not deleted because it has one or more publication patterns."
+      "value": "Periodikum nebylo smazáno, protože obsahuje jeden, nebo více vzorů zveřejnění."
     }
   ],
   "ui-serials-management.serials.deleteSerial.error.noDeleteSerialBackendError": [
@@ -126594,7 +126594,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Serial was not deleted:"
+          "value": "Periodikum nebylo smazáno:"
         }
       ],
       "type": 8,
@@ -126612,7 +126612,7 @@
   "ui-serials-management.serials.deleteSerial.success": [
     {
       "type": 0,
-      "value": "Serial deleted: "
+      "value": "Periodikum smazáno: "
     },
     {
       "children": [
@@ -127602,7 +127602,7 @@
   "ui-service-interaction.settings.numberGeneratorSequences.preChecksumTemplate": [
     {
       "type": 0,
-      "value": "Input template"
+      "value": "Vstupní šablona"
     }
   ],
   "ui-service-interaction.settings.numberGeneratorSequences.preChecksumTemplate.info": [
@@ -131350,7 +131350,7 @@
   "ui-users.actionMenu.preRegistrationRecords": [
     {
       "type": 0,
-      "value": "Search patron preregistration records"
+      "value": "Prohledat záznamy předregistrace čtenáře"
     }
   ],
   "ui-users.actions": [
@@ -132332,15 +132332,11 @@
   "ui-users.charge.item.barcode.error": [
     {
       "type": 0,
-      "value": "No item with barcode "
+      "value": "Nepodařilo se najít žádnou položku s čárovým kódem "
     },
     {
       "type": 1,
       "value": "barcode"
-    },
-    {
-      "type": 0,
-      "value": " could be found"
     }
   ],
   "ui-users.charge.item.button": [
@@ -134483,19 +134479,27 @@
   "ui-users.keycloak.modal.confirmationHeading": [
     {
       "type": 0,
-      "value": "Keycloak user record"
+      "value": "Keycloak záznam uživatele"
     }
   ],
   "ui-users.keycloak.modal.creation": [
     {
       "type": 0,
-      "value": "This operation will create new record in Keycloak for "
+      "value": "Tato operace vytvoří nový záznam v Keycloak pro "
     },
     {
       "children": [
         {
+          "type": 0,
+          "value": " "
+        },
+        {
           "type": 1,
           "value": "user"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -136774,7 +136778,7 @@
   "ui-users.permission.loans-declare-claimed-returned-item-as-missing.execute": [
     {
       "type": 0,
-      "value": "Users: User loans mark claimed returned missing"
+      "value": "Uživatelé: Uživatelské výpůjčky označit jako vrácené chybějící"
     }
   ],
   "ui-users.permission.loans-declare-item-lost.execute": [
@@ -136984,13 +136988,13 @@
   "ui-users.permission.patron-pre-registrations.execute": [
     {
       "type": 0,
-      "value": "Users: Can merge patron preregistration data"
+      "value": "Uživatelé: Může sloučit údaje o předběžné registraci čtenáře"
     }
   ],
   "ui-users.permission.patron-pre-registrations.view": [
     {
       "type": 0,
-      "value": "Users: Can view patron pre-registration data"
+      "value": "Uživatelé: Mohou zobrazit údaje o předběžné registraci čtenáře"
     }
   ],
   "ui-users.permission.patron_blocks": [
@@ -140049,7 +140053,7 @@
   "ui-users.stagingRecords.duplicates.results.paneTitle": [
     {
       "type": 0,
-      "value": "Existing FOLIO user records"
+      "value": "Stávající záznamy uživatelů FOLIO"
     }
   ],
   "ui-users.stagingRecords.duplicates.results.warning": [
@@ -140079,13 +140083,13 @@
   "ui-users.stagingRecords.list.columnNames.emailCommunicationPreferences": [
     {
       "type": 0,
-      "value": "Email communication preferences"
+      "value": "Předvolby e-mailové komunikace"
     }
   ],
   "ui-users.stagingRecords.list.columnNames.emailVerification": [
     {
       "type": 0,
-      "value": "Email verification"
+      "value": "Ověření e-mailu"
     }
   ],
   "ui-users.stagingRecords.list.columnNames.firstName": [
@@ -140109,7 +140113,7 @@
   "ui-users.stagingRecords.list.columnNames.mobileNumber": [
     {
       "type": 0,
-      "value": "Mobile number"
+      "value": "Číslo mobilního telefonu"
     }
   ],
   "ui-users.stagingRecords.list.columnNames.phoneNumber": [
@@ -140127,7 +140131,7 @@
   "ui-users.stagingRecords.list.columnNames.submissionDate": [
     {
       "type": 0,
-      "value": "Submission date"
+      "value": "Datum odevzdání"
     }
   ],
   "ui-users.stagingRecords.list.search": [
@@ -140139,7 +140143,7 @@
   "ui-users.stagingRecords.list.searchResults": [
     {
       "type": 0,
-      "value": "Patron preregistration record results"
+      "value": "Výsledky předběžné registrace čtenáře"
     }
   ],
   "ui-users.stagingRecords.merge": [
@@ -140151,13 +140155,13 @@
   "ui-users.stagingRecords.message.noAccessToStagingRecordsPage": [
     {
       "type": 0,
-      "value": "User does not have permission to access \"Patron preregistration record results\" page"
+      "value": "Uživatel nemá oprávnění k přístupu na stránku \"Výsledky záznamů předběžné registrace čtenáře\""
     }
   ],
   "ui-users.stagingRecords.notActivated": [
     {
       "type": 0,
-      "value": "Not activated"
+      "value": "Neaktivováno"
     }
   ],
   "ui-users.stagingRecords.notLoadedMessage": [
@@ -140175,13 +140179,13 @@
   "ui-users.stagingRecords.search.placeholder": [
     {
       "type": 0,
-      "value": "Search by name or email"
+      "value": "Vyhledat podle jména nebo e-mailu"
     }
   ],
   "ui-users.stagingUser.createUser": [
     {
       "type": 0,
-      "value": "FOLIO user record "
+      "value": "Záznam FOLIO uživatele "
     },
     {
       "children": [
@@ -140195,7 +140199,7 @@
     },
     {
       "type": 0,
-      "value": " has been successfully created."
+      "value": " byl úspěšně vytvořen."
     }
   ],
   "ui-users.status": [
@@ -140219,13 +140223,13 @@
   "ui-users.title.patronBlock.create": [
     {
       "type": 0,
-      "value": "Users - Create a new patron block"
+      "value": "Uživatelé - Vytvořit novou blokaci čtenáře"
     }
   ],
   "ui-users.title.patronBlock.edit": [
     {
       "type": 0,
-      "value": "Users - Edit a patron block"
+      "value": "Uživatelé – Upravit blokaci čtenáře"
     }
   ],
   "ui-users.transfers.columns.desc": [

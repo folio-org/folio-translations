@@ -25069,7 +25069,7 @@
   "ui-bulk-edit.logs.status.APPLY_MARC_CHANGES": [
     {
       "type": 0,
-      "value": "Apply changes"
+      "value": "Zastosuj zmiany"
     }
   ],
   "ui-bulk-edit.logs.status.COMPLETED": [
@@ -63587,7 +63587,7 @@
   "ui-finance.actions.allocations.download": [
     {
       "type": 0,
-      "value": "Download log"
+      "value": "Pobierz dziennik"
     }
   ],
   "ui-finance.actions.downloadAllocationWorksheet": [
@@ -63647,7 +63647,7 @@
   "ui-finance.allocation.batch.form.recalculate.error": [
     {
       "type": 0,
-      "value": "An error occurred while recalculating amounts."
+      "value": "Wystąpił błąd podczas przeliczania kwot."
     }
   ],
   "ui-finance.allocation.batch.form.title.edit": [
@@ -63683,19 +63683,19 @@
   "ui-finance.allocation.batch.form.validation.error.numeric": [
     {
       "type": 0,
-      "value": "The field must be numeric value."
+      "value": "Pole musi zawierać wartość liczbową."
     }
   ],
   "ui-finance.allocation.batch.logs.actions.delete": [
     {
       "type": 0,
-      "value": "Delete selected logs"
+      "value": "Usuń wybrane dzienniki"
     }
   ],
   "ui-finance.allocation.batch.logs.actions.delete.fail": [
     {
       "type": 0,
-      "value": "Log with id "
+      "value": "Dziennik o identyfikatorze "
     },
     {
       "type": 1,
@@ -63703,13 +63703,13 @@
     },
     {
       "type": 0,
-      "value": " was not deleted"
+      "value": " nie został usunięty"
     }
   ],
   "ui-finance.allocation.batch.logs.actions.delete.success": [
     {
       "type": 0,
-      "value": "Logs successfully deleted"
+      "value": "Pomyślnie usunięto dziennik(i)"
     }
   ],
   "ui-finance.allocation.batch.logs.actions.remove.heading": [
@@ -63721,25 +63721,25 @@
   "ui-finance.allocation.batch.logs.actions.remove.message": [
     {
       "type": 0,
-      "value": "This log will be permanently deleted. Are you sure you want to delete it?"
+      "value": "Ten dziennik zostanie trwale usunięty. Czy na pewno chcesz go usunąć?"
     }
   ],
   "ui-finance.allocation.batch.logs.columns.createdByUsername": [
     {
       "type": 0,
-      "value": "Run by"
+      "value": "Uruchomiony przez"
     }
   ],
   "ui-finance.allocation.batch.logs.columns.createdDate": [
     {
       "type": 0,
-      "value": "Started running"
+      "value": "Data i godzina rozpoczęcia importu"
     }
   ],
   "ui-finance.allocation.batch.logs.columns.jobName": [
     {
       "type": 0,
-      "value": "Job name"
+      "value": "Nazwa zadania"
     }
   ],
   "ui-finance.allocation.batch.logs.columns.jobNumber": [
@@ -63751,13 +63751,13 @@
   "ui-finance.allocation.batch.logs.columns.recordsCount": [
     {
       "type": 0,
-      "value": "Rekordy"
+      "value": "Zaktualizowane rekordy"
     }
   ],
   "ui-finance.allocation.batch.logs.columns.select": [
     {
       "type": 0,
-      "value": "Select log $"
+      "value": "Wybierz dziennik $"
     },
     {
       "type": 1,
@@ -63767,7 +63767,7 @@
   "ui-finance.allocation.batch.logs.columns.selectAll": [
     {
       "type": 0,
-      "value": "Select all logs"
+      "value": "Wybierz wszystkie dzienniki"
     }
   ],
   "ui-finance.allocation.batch.logs.columns.status": [
@@ -63803,31 +63803,31 @@
   "ui-finance.allocation.batch.logs.filters.fiscalYearId": [
     {
       "type": 0,
-      "value": "Fiscal Year"
+      "value": "Rok budżetowy"
     }
   ],
   "ui-finance.allocation.batch.logs.filters.groupId": [
     {
       "type": 0,
-      "value": "Group"
+      "value": "Grupa"
     }
   ],
   "ui-finance.allocation.batch.logs.filters.ledgerId": [
     {
       "type": 0,
-      "value": "Ledger"
+      "value": "Rejestr"
     }
   ],
   "ui-finance.allocation.batch.logs.filters.metadata.createdByUserId": [
     {
       "type": 0,
-      "value": "User"
+      "value": "Użytkownik"
     }
   ],
   "ui-finance.allocation.batch.logs.filters.metadata.createdDate": [
     {
       "type": 0,
-      "value": "Date"
+      "value": "Data"
     }
   ],
   "ui-finance.allocation.batch.logs.modal.delete.description": [
@@ -63845,19 +63845,19 @@
   "ui-finance.allocation.batch.logs.search.jobName": [
     {
       "type": 0,
-      "value": "Job name"
+      "value": "Nazwa zadania"
     }
   ],
   "ui-finance.allocation.batch.logs.search.jobNumber": [
     {
       "type": 0,
-      "value": "ID"
+      "value": "Identyfikator"
     }
   ],
   "ui-finance.allocation.batch.logs.search.keyword": [
     {
       "type": 0,
-      "value": "All"
+      "value": "Wszystko"
     }
   ],
   "ui-finance.allocation.batch.logs.title": [
@@ -63985,7 +63985,7 @@
     },
     {
       "type": 0,
-      "value": " could not be parsed. Please download the latest worksheet and resubmit."
+      "value": " nie można przeanalizować. Proszę pobrać najnowszy arkusz i przesłać ponownie."
     }
   ],
   "ui-finance.batchAllocations.uploadWorksheet.validation.error.requiredHeaders": [
@@ -64101,7 +64101,7 @@
   "ui-finance.budget.batch.create.success": [
     {
       "type": 0,
-      "value": "Budgets have been created successfully."
+      "value": "Budżety zostały pomyślnie utworzone."
     }
   ],
   "ui-finance.budget.button.cancel": [
@@ -67098,13 +67098,13 @@
   "ui-finance.transaction.allocation.batch.columns.budgetAllowableEncumbrance": [
     {
       "type": 0,
-      "value": "Allowable encumbrance %"
+      "value": "Dopuszczalne obciążenie %"
     }
   ],
   "ui-finance.transaction.allocation.batch.columns.budgetAllowableExpenditure": [
     {
       "type": 0,
-      "value": "Allowable expenditure %"
+      "value": "Dopuszczalny wydatek %"
     }
   ],
   "ui-finance.transaction.allocation.batch.columns.budgetCurrentAllocation": [
@@ -67128,7 +67128,7 @@
   "ui-finance.transaction.allocation.batch.columns.budgetStatus": [
     {
       "type": 0,
-      "value": "Budget status"
+      "value": "Status budżetu"
     }
   ],
   "ui-finance.transaction.allocation.batch.columns.fundName": [
@@ -67158,13 +67158,13 @@
   "ui-finance.transaction.allocation.batch.columns.transactionDescription": [
     {
       "type": 0,
-      "value": "Transaction description"
+      "value": "Opis transakcji"
     }
   ],
   "ui-finance.transaction.allocation.batch.columns.transactionTag": [
     {
       "type": 0,
-      "value": "Transaction tags"
+      "value": "Tagi transakcji"
     }
   ],
   "ui-finance.transaction.allocation.budgetNotFoundForTransaction": [
@@ -75099,7 +75099,7 @@
   "ui-inventory.instanceForm": [
     {
       "type": 0,
-      "value": "Instance form"
+      "value": "Formularz instancji"
     }
   ],
   "ui-inventory.instanceFormat": [
@@ -76238,7 +76238,7 @@
   "ui-inventory.linkedToMarcAuthority": [
     {
       "type": 0,
-      "value": "Połacz z Kartoteką Haseł Wzorcowych"
+      "value": "Połącz z Kartoteką Haseł Wzorcowych"
     }
   ],
   "ui-inventory.loanType": [
@@ -77450,19 +77450,19 @@
   "ui-inventory.numberGenerator.options.off": [
     {
       "type": 0,
-      "value": "Off"
+      "value": "Wyłączone"
     }
   ],
   "ui-inventory.numberGenerator.options.onEditable": [
     {
       "type": 0,
-      "value": "On, field editable"
+      "value": "Włączone, pole edytowalne"
     }
   ],
   "ui-inventory.numberGenerator.options.onNotEditable": [
     {
       "type": 0,
-      "value": "On, field not editable"
+      "value": "Włączone, pole nieedytowalne"
     }
   ],
   "ui-inventory.numberGenerator.save.error": [
@@ -79207,7 +79207,7 @@
   "ui-inventory.settings.section.cardsPerPage": [
     {
       "type": 0,
-      "value": "Cards per page"
+      "value": "Karty na stronę"
     }
   ],
   "ui-inventory.settings.section.displaySettings": [
@@ -79219,19 +79219,19 @@
   "ui-inventory.settings.section.versionHistory": [
     {
       "type": 0,
-      "value": "Version history"
+      "value": "Historia wersji"
     }
   ],
   "ui-inventory.settings.versionHistory.versionHistoryCardsPerPage": [
     {
       "type": 0,
-      "value": "Cards to display per page on Version history"
+      "value": "Karty do wyświetlania historii wersji na stronę"
     }
   ],
   "ui-inventory.settings.versionHistory.versionHistoryCardsPerPage.loadError": [
     {
       "type": 0,
-      "value": "Failed to load Version history cards per page settings"
+      "value": "Nie udało sie załadować kart historii wersji ustawień na stronę"
     }
   ],
   "ui-inventory.shareLocalInstance": [
@@ -86593,7 +86593,7 @@
   "ui-licenses.settings.noCurrentValue": [
     {
       "type": 0,
-      "value": "No current value"
+      "value": "Brak aktualnej wartości"
     }
   ],
   "ui-licenses.settings.noOfValues": [
@@ -90805,7 +90805,7 @@
   "ui-marc-authorities.authority-record.menuOptions": [
     {
       "type": 0,
-      "value": "Available options"
+      "value": "Dostępne opcje"
     }
   ],
   "ui-marc-authorities.authority-record.print": [
@@ -91210,7 +91210,7 @@
   "ui-marc-authorities.permission.settings.version-history.view": [
     {
       "type": 0,
-      "value": "Settings (MARC authority): Configure version history"
+      "value": "Ustawienia (KHW): Konfigurowanie historii wersji"
     }
   ],
   "ui-marc-authorities.personalName": [
@@ -91907,19 +91907,19 @@
   "ui-marc-authorities.settings.versionHistory.field.pageSize": [
     {
       "type": 0,
-      "value": "Cards to display per page on Version history"
+      "value": "Karty do wyświetlania na stronie w historii wersji"
     }
   ],
   "ui-marc-authorities.settings.versionHistory.loadError": [
     {
       "type": 0,
-      "value": "Version history Cards per page settings failed to load."
+      "value": "Historia wersji ustawienia kart na stronę nie została załadowana."
     }
   ],
   "ui-marc-authorities.settings.versionHistory.pane.title": [
     {
       "type": 0,
-      "value": "Version history"
+      "value": "Historia wersji"
     }
   ],
   "ui-marc-authorities.shortcut.closeModal": [
@@ -92013,13 +92013,13 @@
     },
     {
       "type": 0,
-      "value": " dropped"
+      "value": " upuszczony"
     }
   ],
   "ui-myprofile.draggableList.announcements.dragEnd": [
     {
       "type": 0,
-      "value": "Dropped "
+      "value": "Upuszczono "
     },
     {
       "type": 1,
@@ -92027,7 +92027,7 @@
     },
     {
       "type": 0,
-      "value": " at position "
+      "value": " na pozycję "
     },
     {
       "type": 1,
@@ -92037,7 +92037,7 @@
   "ui-myprofile.draggableList.announcements.dragOver": [
     {
       "type": 0,
-      "value": "Moved "
+      "value": "Przeniesiono "
     },
     {
       "type": 1,
@@ -92045,7 +92045,7 @@
     },
     {
       "type": 0,
-      "value": " to position "
+      "value": " na pozycję "
     },
     {
       "type": 1,
@@ -92055,7 +92055,7 @@
   "ui-myprofile.draggableList.announcements.dragStart": [
     {
       "type": 0,
-      "value": "Picked up "
+      "value": "Podniesiono "
     },
     {
       "type": 1,
@@ -92063,7 +92063,7 @@
     },
     {
       "type": 0,
-      "value": " in position "
+      "value": " na pozycji "
     },
     {
       "type": 1,
@@ -92071,7 +92071,7 @@
     },
     {
       "type": 0,
-      "value": " of "
+      "value": " z "
     },
     {
       "type": 1,
@@ -92079,13 +92079,13 @@
     },
     {
       "type": 0,
-      "value": " items"
+      "value": " egzemplarzy"
     }
   ],
   "ui-myprofile.draggableList.instructions": [
     {
       "type": 0,
-      "value": "Reorderable list. Press space or enter to activate an item for reordering. Use the up and down arrow keys to change the position of the active item."
+      "value": "Lista z możliwością zmiany kolejności. Naciśnij spację lub enter, aby aktywować egzemplarz do zmiany kolejności. Użyj klawiszy strzałek w górę i w dół, aby zmienić pozycję aktywnego egzemplarza."
     }
   ],
   "ui-myprofile.label.settings": [
@@ -92115,55 +92115,55 @@
   "ui-myprofile.settings.appNavOrder.label": [
     {
       "type": 0,
-      "value": "Application display order"
+      "value": "Kolejność wyświetlania aplikacji"
     }
   ],
   "ui-myprofile.settings.appNavOrder.newItem": [
     {
       "type": 0,
-      "value": "New"
+      "value": "Nowy"
     }
   ],
   "ui-myprofile.settings.appNavOrder.reset": [
     {
       "type": 0,
-      "value": "Reset to default"
+      "value": "Przywróć domyślne"
     }
   ],
   "ui-myprofile.settings.appNavOrder.resetError": [
     {
       "type": 0,
-      "value": "There was a problem resetting the app order."
+      "value": "Wystąpił problem podczas resetowania kolejności aplikacji."
     }
   ],
   "ui-myprofile.settings.appNavOrder.resetSuccess": [
     {
       "type": 0,
-      "value": "Application display order reset to default."
+      "value": "Przywrócono domyślną kolejność wyświetlania aplikacji."
     }
   ],
   "ui-myprofile.settings.appNavOrder.save": [
     {
       "type": 0,
-      "value": "Save"
+      "value": "Zapisz"
     }
   ],
   "ui-myprofile.settings.appNavOrder.saveError": [
     {
       "type": 0,
-      "value": "There was a problem saving app list order."
+      "value": "Wystąpił problem podczas zapisywania kolejności aplikacji."
     }
   ],
   "ui-myprofile.settings.appNavOrder.saveSuccess": [
     {
       "type": 0,
-      "value": "Application display order has been successfully updated."
+      "value": "Kolejność wyświetlania aplikacji została pomyślnie zaktualizowana."
     }
   ],
   "ui-myprofile.settings.appNavOrder.visibleInstruction": [
     {
       "type": 0,
-      "value": "Drag & drop to change the display order of FOLIO applications."
+      "value": "Przeciągnij i upuść aby zmienić kolejność wyświetlania aplikacji Folio."
     }
   ],
   "ui-myprofile.settings.changePassword.confirmPassword": [
@@ -100268,7 +100268,7 @@
   "ui-orders.permission.settings.number-generator.manage": [
     {
       "type": 0,
-      "value": "Settings (Orders): Manage number generator options"
+      "value": "Ustawienia (Zamówienia): zarządzaj opcjami generatora liczb"
     }
   ],
   "ui-orders.permission.settings.order-templates.create": [
@@ -102271,43 +102271,43 @@
   "ui-orders.settings.numberGenerator.accessionNumber": [
     {
       "type": 0,
-      "value": "Accession number"
+      "value": "Numer dowodu wpływu"
     }
   ],
   "ui-orders.settings.numberGenerator.accessionNumberEqualCallNumber": [
     {
       "type": 0,
-      "value": "Use the same generated number for accession number and call number"
+      "value": "Użyj tego samego wygenerowanego numeru dla numeru dowodu wpływu i sygnatury"
     }
   ],
   "ui-orders.settings.numberGenerator.accessionNumberEqualCallNumber.warning": [
     {
       "type": 0,
-      "value": "Warning: The checkbox has been disabled because the accession number and/or the call number have been set to manual completion."
+      "value": "Ostrzeżenie: Pole checkbox jest wyłączone, ponieważ numer dowodu wpływu i/lub sygnatura zostały ustawione na uzupełnianie ręczne."
     }
   ],
   "ui-orders.settings.numberGenerator.barcode": [
     {
       "type": 0,
-      "value": "Barcode"
+      "value": "Kod kreskowy"
     }
   ],
   "ui-orders.settings.numberGenerator.callNumber": [
     {
       "type": 0,
-      "value": "Call number"
+      "value": "Sygnatura"
     }
   ],
   "ui-orders.settings.numberGenerator.info": [
     {
       "type": 0,
-      "value": "Fields which are usually filled using a numeric sequence can use the number generator. When the generator is switched on the field can either be fixed to prevent manual update, or made fully editable. When switched off, the field must be filled manually."
+      "value": "Pola, które są zwykle wypełniane za pomocą sekwencji numerycznej, mogą używać generatora liczb. Po włączeniu generatora pole można zablokować, aby uniemożliwić ręczną aktualizację lub ustawić je jako całkowicie edytowalne. Gdy jest wyłączony, pole musi być wypełnione ręcznie."
     }
   ],
   "ui-orders.settings.numberGenerator.infoAdditional": [
     {
       "type": 0,
-      "value": "Additional number generator settings are available under "
+      "value": "Dodatkowe ustawienia generatora liczb są dostępne w "
     },
     {
       "type": 1,
@@ -102315,7 +102315,7 @@
     },
     {
       "type": 0,
-      "value": ". At "
+      "value": ". W "
     },
     {
       "type": 1,
@@ -102323,61 +102323,61 @@
     },
     {
       "type": 0,
-      "value": " sequences can be defined by selecting the appropriate generator via the drop-down menu."
+      "value": " można zdefiniować sekwencje, wybierając odpowiedni generator z rozwijanego menu."
     }
   ],
   "ui-orders.settings.numberGenerator.infoAdditional.numberGeneratorSequences": [
     {
       "type": 0,
-      "value": "Number generator sequences"
+      "value": "Kolejność generatora liczb"
     }
   ],
   "ui-orders.settings.numberGenerator.infoAdditional.serviceInteraction": [
     {
       "type": 0,
-      "value": "Service interaction"
+      "value": "Interakcja usług"
     }
   ],
   "ui-orders.settings.numberGenerator.options": [
     {
       "type": 0,
-      "value": "Number generator options"
+      "value": "Opcje generatora liczb"
     }
   ],
   "ui-orders.settings.numberGenerator.options.off": [
     {
       "type": 0,
-      "value": "Off"
+      "value": "Wyłączony"
     }
   ],
   "ui-orders.settings.numberGenerator.options.onEditable": [
     {
       "type": 0,
-      "value": "On, field editable"
+      "value": "Włączone, można edytować pole"
     }
   ],
   "ui-orders.settings.numberGenerator.options.onNotEditable": [
     {
       "type": 0,
-      "value": "On, field not editable"
+      "value": "Włączone, nie można edytować pola"
     }
   ],
   "ui-orders.settings.numberGenerator.receiving": [
     {
       "type": 0,
-      "value": "Receiving"
+      "value": "Dostawy"
     }
   ],
   "ui-orders.settings.numberGenerator.submit.error": [
     {
       "type": 0,
-      "value": "Number generator setting update failed"
+      "value": "Aktualizacja ustawienia generatora liczb została pomyślnie zaktualizowana"
     }
   ],
   "ui-orders.settings.numberGenerator.submit.success": [
     {
       "type": 0,
-      "value": "Number generator setting was successfully updated"
+      "value": "Ustawienie generatora liczb zostało pomyślnie zaktualizowane"
     }
   ],
   "ui-orders.settings.openOrder": [
@@ -108372,7 +108372,7 @@
   "ui-plugin-create-inventory-records.permission.create": [
     {
       "type": 0,
-      "value": "Parametry rekordu skórconego: Utwórz"
+      "value": "Parametry rekordu skróconego: Utwórz"
     }
   ],
   "ui-plugin-create-inventory-records.publicationDate": [
@@ -118961,31 +118961,31 @@
   "ui-receiving.numberGenerator.accessionAndCallNumberSequence": [
     {
       "type": 0,
-      "value": "Accession and call number sequence"
+      "value": "Kolejność numeru dowodu wpływu i sygnatury"
     }
   ],
   "ui-receiving.numberGenerator.accessionNumberSequence": [
     {
       "type": 0,
-      "value": "Accession number sequence"
+      "value": "Kolejność numeru dowodu wpływu"
     }
   ],
   "ui-receiving.numberGenerator.barcodeSequence": [
     {
       "type": 0,
-      "value": "Barcode sequence"
+      "value": "Kolejność kodu kreskowego"
     }
   ],
   "ui-receiving.numberGenerator.callNumberSequence": [
     {
       "type": 0,
-      "value": "Call number sequence"
+      "value": "Kolejność sygnatury"
     }
   ],
   "ui-receiving.numberGenerator.generateForRow": [
     {
       "type": 0,
-      "value": "Generate numbers for row "
+      "value": "Wygeneruj liczby dla wiersza "
     },
     {
       "type": 1,
@@ -118995,13 +118995,13 @@
   "ui-receiving.numberGenerator.generateHelpText": [
     {
       "type": 0,
-      "value": "The selected sequences will be used to generate new numbers. Select \"Generate numbers\" to go ahead."
+      "value": "Wybrane sekwencje zostaną użyte do wygenerowania nowych liczb. Wybierz „Generuj liczby” aby kontynuować."
     }
   ],
   "ui-receiving.numberGenerator.generateNumbers": [
     {
       "type": 0,
-      "value": "Generate numbers"
+      "value": "Generuj liczby"
     }
   ],
   "ui-receiving.permission.acq-units.assignment.assign": [
@@ -125248,13 +125248,13 @@
   "ui-serials-management.patternTemplate": [
     {
       "type": 0,
-      "value": "Pattern template (replaces content in the form below with pre-defined values)"
+      "value": "Szablon wzoru (zastępuje zawartość poniższego formularza wstępnie zdefiniowanymi wartościami)"
     }
   ],
   "ui-serials-management.patternTemplatePopover": [
     {
       "type": 0,
-      "value": "Search for a pattern template name or description. Then select from the filter list to apply the template and fill out the form below with pre-defined values"
+      "value": "Wyszukaj nazwę lub opis szablonu wzoru. Następnie wybierz z listy filtrów, aby zastosować szablon i wypełnij poniższy formularz wstępnie zdefiniowanymi wartościami"
     }
   ],
   "ui-serials-management.piece.label": [
@@ -125865,7 +125865,7 @@
   "ui-serials-management.ruleset.addChronologyLabel": [
     {
       "type": 0,
-      "value": "Add chronology label"
+      "value": "Dodaj etykietę chronologiczną"
     }
   ],
   "ui-serials-management.ruleset.addCombination": [
@@ -125883,7 +125883,7 @@
   "ui-serials-management.ruleset.addEnumerationLabel": [
     {
       "type": 0,
-      "value": "Add enumeration label"
+      "value": "Dodaj numerację etykiety"
     }
   ],
   "ui-serials-management.ruleset.addLabel": [
@@ -126003,7 +126003,7 @@
   "ui-serials-management.ruleset.chronologyLabelIndex": [
     {
       "type": 0,
-      "value": "Chronology label "
+      "value": "Chronologia etykiet "
     },
     {
       "type": 1,
@@ -126231,7 +126231,7 @@
   "ui-serials-management.ruleset.enumerationLabelIndex": [
     {
       "type": 0,
-      "value": "Enumeration label "
+      "value": "Numeracja etykiet "
     },
     {
       "type": 1,
@@ -126371,7 +126371,7 @@
   "ui-serials-management.ruleset.labelTemplate": [
     {
       "type": 0,
-      "value": "Label template"
+      "value": "Szablon etykiety"
     }
   ],
   "ui-serials-management.ruleset.labelText": [
@@ -126447,7 +126447,7 @@
   "ui-serials-management.ruleset.noChronologyLabels": [
     {
       "type": 0,
-      "value": "No chronology labels for this publication pattern"
+      "value": "Brak chronologii etykiet dla tego wzoru publikacji"
     }
   ],
   "ui-serials-management.ruleset.noCombinationRules": [
@@ -126459,7 +126459,7 @@
   "ui-serials-management.ruleset.noEnumerationLabels": [
     {
       "type": 0,
-      "value": "No enumeration labels for this publication pattern"
+      "value": "Brak numeracji etykiet dla tego wzoru publikacji"
     }
   ],
   "ui-serials-management.ruleset.noLabels": [
@@ -126645,7 +126645,7 @@
   "ui-serials-management.ruleset.removeChronologyLabelIndex": [
     {
       "type": 0,
-      "value": "Remove chronology label "
+      "value": "Usuń chronologię etykiet "
     },
     {
       "type": 1,
@@ -126665,7 +126665,7 @@
   "ui-serials-management.ruleset.removeEnumerationLabelIndex": [
     {
       "type": 0,
-      "value": "Remove enumeration label "
+      "value": "Usuń numerację etykiet "
     },
     {
       "type": 1,
@@ -126863,13 +126863,13 @@
   "ui-serials-management.serials.deleteSerial": [
     {
       "type": 0,
-      "value": "Delete serial"
+      "value": "Usuń wydawnictwo ciągłe"
     }
   ],
   "ui-serials-management.serials.deleteSerial.confirmMessage": [
     {
       "type": 0,
-      "value": "Serial "
+      "value": "Wydanictwo ciągłe "
     },
     {
       "children": [
@@ -126883,13 +126883,13 @@
     },
     {
       "type": 0,
-      "value": " will be deleted"
+      "value": " zostanie usunięte"
     }
   ],
   "ui-serials-management.serials.deleteSerial.error.hasPublicationPattern": [
     {
       "type": 0,
-      "value": "Serial was not deleted because it has one or more publication patterns."
+      "value": "Wydawnictwo ciągłe nie zostało usunięte, ponieważ zawiera jeden lub więcej wzorów publikacji."
     }
   ],
   "ui-serials-management.serials.deleteSerial.error.noDeleteSerialBackendError": [
@@ -126897,7 +126897,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Serial was not deleted:"
+          "value": "Wydawnictwo ciągłe nie zostało usunięte:"
         }
       ],
       "type": 8,
@@ -126915,7 +126915,7 @@
   "ui-serials-management.serials.deleteSerial.success": [
     {
       "type": 0,
-      "value": "Serial deleted: "
+      "value": "Wydawnictwo ciągłe zostało usunięte: "
     },
     {
       "children": [
@@ -127911,23 +127911,7 @@
   "ui-service-interaction.settings.numberGeneratorSequences.preChecksumTemplate.info": [
     {
       "type": 0,
-      "value": "Create rules to define the number to be inputted when calculating the check digit. Both the prefix and suffix can be templated, using Groovy markup. Use $"
-    },
-    {
-      "type": 1,
-      "value": "generated_number"
-    },
-    {
-      "type": 0,
-      "value": " as placeholder for the generated number. E.g. 05$"
-    },
-    {
-      "type": 1,
-      "value": "generated_number"
-    },
-    {
-      "type": 0,
-      "value": "01"
+      "value": "Create rules to define the number to be inputted when calculating the check digit. Both the prefix and suffix can be templated, using Groovy markup. Use ${generated_number} as placeholder for the generated number. E.g. 05${generated_number}01"
     }
   ],
   "ui-service-interaction.settings.numberGeneratorSequences.prefix": [
@@ -134606,7 +134590,7 @@
   "ui-users.information.pronouns": [
     {
       "type": 0,
-      "value": "Pronouns"
+      "value": "Zaimki"
     }
   ],
   "ui-users.information.recalculate.expirationDate": [
