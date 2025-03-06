@@ -7668,6 +7668,80 @@
       "value": "Validating..."
     }
   ],
+  "stripes-components.versionHistory.card.changed": [
+    {
+      "type": 0,
+      "value": "Changed"
+    }
+  ],
+  "stripes-components.versionHistory.modal.action": [
+    {
+      "type": 0,
+      "value": "Action"
+    }
+  ],
+  "stripes-components.versionHistory.modal.changedFrom": [
+    {
+      "type": 0,
+      "value": "Changed from"
+    }
+  ],
+  "stripes-components.versionHistory.modal.changedTo": [
+    {
+      "type": 0,
+      "value": "Changed to"
+    }
+  ],
+  "stripes-components.versionHistory.modal.field": [
+    {
+      "type": 0,
+      "value": "Field"
+    }
+  ],
+  "stripes-components.versionHistory.pane.header": [
+    {
+      "type": 0,
+      "value": "Version history"
+    }
+  ],
+  "stripes-components.versionHistory.pane.loadingLabel": [
+    {
+      "type": 0,
+      "value": "Loading"
+    }
+  ],
+  "stripes-components.versionHistory.pane.sub": [
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " version"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " versions"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "count"
+    }
+  ],
   "stripes-components.zipOrPostalCode": [
     {
       "type": 0,
@@ -12338,6 +12412,40 @@
     {
       "type": 0,
       "value": "MARC records"
+    }
+  ],
+  "stripes-marc-components.versionHistory.action.added": [
+    {
+      "type": 0,
+      "value": "Added"
+    }
+  ],
+  "stripes-marc-components.versionHistory.action.edited": [
+    {
+      "type": 0,
+      "value": "Edited"
+    }
+  ],
+  "stripes-marc-components.versionHistory.action.removed": [
+    {
+      "type": 0,
+      "value": "Removed"
+    }
+  ],
+  "stripes-marc-components.versionHistory.anonymousUser": [
+    {
+      "type": 0,
+      "value": "Anonymous user"
+    }
+  ],
+  "stripes-marc-components.versionHistory.fieldPrefix": [
+    {
+      "type": 0,
+      "value": "Field "
+    },
+    {
+      "type": 1,
+      "value": "field"
     }
   ],
   "stripes-smart-components.actingAsProxyFor": [
@@ -18247,6 +18355,12 @@
       "value": "Pause synchronisation"
     }
   ],
+  "ui-agreements.eresources.pauseSyncSelectedPackages": [
+    {
+      "type": 0,
+      "value": "Pause synchronisation of selected packages"
+    }
+  ],
   "ui-agreements.eresources.platform": [
     {
       "type": 0,
@@ -18403,6 +18517,12 @@
       "value": "Start synchronisation"
     }
   ],
+  "ui-agreements.eresources.startSyncSelectedPackages": [
+    {
+      "type": 0,
+      "value": "Start synchronisation of selected packages"
+    }
+  ],
   "ui-agreements.eresources.status": [
     {
       "type": 0,
@@ -18431,6 +18551,24 @@
     {
       "type": 0,
       "value": "Synchronising"
+    }
+  ],
+  "ui-agreements.eresources.syncMultiplePackagesError": [
+    {
+      "type": 0,
+      "value": "Error. Unable to update the synchronisation status of the packages."
+    }
+  ],
+  "ui-agreements.eresources.syncMultiplePackagesSuccess.PAUSED": [
+    {
+      "type": 0,
+      "value": "Packages have been paused"
+    }
+  ],
+  "ui-agreements.eresources.syncMultiplePackagesSuccess.SYNCHRONIZING": [
+    {
+      "type": 0,
+      "value": "Packages will synchronise"
     }
   ],
   "ui-agreements.eresources.syncPackageError": [
@@ -67521,6 +67659,12 @@
       "value": "Encumbrance was unreleased"
     }
   ],
+  "ui-finance.transaction.validation.totalAllocatedExceeded": [
+    {
+      "type": 0,
+      "value": "Total allocation cannot be less than zero"
+    }
+  ],
   "ui-finance.transaction.voided": [
     {
       "type": 0,
@@ -77067,6 +77211,36 @@
       "value": "Call number"
     }
   ],
+  "ui-inventory.numberGenerator.generateAccessionAndCallNumber": [
+    {
+      "type": 0,
+      "value": "Generate accession and call numbers"
+    }
+  ],
+  "ui-inventory.numberGenerator.generateAccessionAndCallNumberWarning": [
+    {
+      "type": 0,
+      "value": "Both accession number and call number will be filled from this action, using a sequence from the Inventory: Accession number generator."
+    }
+  ],
+  "ui-inventory.numberGenerator.generateAccessionNumber": [
+    {
+      "type": 0,
+      "value": "Generate accession number"
+    }
+  ],
+  "ui-inventory.numberGenerator.generateBarcode": [
+    {
+      "type": 0,
+      "value": "Generate barcode"
+    }
+  ],
+  "ui-inventory.numberGenerator.generateCallNumber": [
+    {
+      "type": 0,
+      "value": "Generate call number"
+    }
+  ],
   "ui-inventory.numberGenerator.info": [
     {
       "type": 0,
@@ -79573,6 +79747,30 @@
     {
       "type": 0,
       "value": "Error saving data. Name must be unique."
+    }
+  ],
+  "ui-inventory.versionHistory.action.added": [
+    {
+      "type": 0,
+      "value": "Added"
+    }
+  ],
+  "ui-inventory.versionHistory.action.edited": [
+    {
+      "type": 0,
+      "value": "Edited"
+    }
+  ],
+  "ui-inventory.versionHistory.action.removed": [
+    {
+      "type": 0,
+      "value": "Removed"
+    }
+  ],
+  "ui-inventory.versionHistory.anonymousUser": [
+    {
+      "type": 0,
+      "value": "Anonymous user"
     }
   ],
   "ui-inventory.viewAndReorderRequestsQueue": [
