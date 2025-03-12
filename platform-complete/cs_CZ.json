@@ -126,13 +126,13 @@
   "stripes-acq-components.claiming.action.delayClaim": [
     {
       "type": 0,
-      "value": "Zpozdit nárok"
+      "value": "Reklamace zpoždění"
     }
   ],
   "stripes-acq-components.claiming.action.sendClaim": [
     {
       "type": 0,
-      "value": "Odeslat nárok"
+      "value": "Odeslat reklamaci"
     }
   ],
   "stripes-acq-components.claiming.action.unreceivable": [
@@ -154,7 +154,7 @@
           "value": [
             {
               "type": 0,
-              "value": "Delay "
+              "value": "Zpoždění "
             },
             {
               "offset": 0,
@@ -163,7 +163,7 @@
                   "value": [
                     {
                       "type": 0,
-                      "value": "claim"
+                      "value": "reklamace"
                     }
                   ]
                 },
@@ -171,7 +171,7 @@
                   "value": [
                     {
                       "type": 0,
-                      "value": "claims"
+                      "value": "reklamace"
                     }
                   ]
                 }
@@ -186,7 +186,7 @@
           "value": [
             {
               "type": 0,
-              "value": "Delay claim"
+              "value": "Zpožděná reklamace"
             }
           ]
         }
@@ -220,7 +220,7 @@
           "value": [
             {
               "type": 0,
-              "value": "Send "
+              "value": "Odeslat "
             },
             {
               "offset": 0,
@@ -229,7 +229,7 @@
                   "value": [
                     {
                       "type": 0,
-                      "value": "claim"
+                      "value": "reklamace"
                     }
                   ]
                 },
@@ -237,7 +237,7 @@
                   "value": [
                     {
                       "type": 0,
-                      "value": "claims"
+                      "value": "reklamace"
                     }
                   ]
                 }
@@ -252,7 +252,7 @@
           "value": [
             {
               "type": 0,
-              "value": "Send claim"
+              "value": "Odeslat reklamaci"
             }
           ]
         }
@@ -962,7 +962,7 @@
   "stripes-acq-components.piece.pieceStatus.claimDelayed": [
     {
       "type": 0,
-      "value": "Nárokování zpožděno"
+      "value": "Reklamace zpoždění"
     }
   ],
   "stripes-acq-components.piece.pieceStatus.claimSent": [
@@ -2473,80 +2473,90 @@
   "stripes-components.auditLog.card.changed": [
     {
       "type": 0,
-      "value": "Changed"
+      "value": "Změněno"
     }
   ],
   "stripes-components.auditLog.card.currentVersion": [
     {
       "type": 0,
-      "value": "Current version"
+      "value": "Aktuální verze"
     }
   ],
   "stripes-components.auditLog.card.originalVersion": [
     {
       "type": 0,
-      "value": "Original version"
+      "value": "Původní verze"
     }
   ],
   "stripes-components.auditLog.modal.action": [
     {
       "type": 0,
-      "value": "Action"
+      "value": "Akce"
     }
   ],
   "stripes-components.auditLog.modal.changedFrom": [
     {
       "type": 0,
-      "value": "Changed from"
+      "value": "Změněno z"
     }
   ],
   "stripes-components.auditLog.modal.changedTo": [
     {
       "type": 0,
-      "value": "Changed to"
+      "value": "Změněno na"
     }
   ],
   "stripes-components.auditLog.modal.field": [
     {
       "type": 0,
-      "value": "Field"
+      "value": "Pole"
     }
   ],
   "stripes-components.auditLog.pane.header": [
     {
       "type": 0,
-      "value": "Version history"
+      "value": "Historie verzí"
     }
   ],
   "stripes-components.auditLog.pane.loadingLabel": [
     {
       "type": 0,
-      "value": "Loading"
+      "value": "Načítání"
     }
   ],
   "stripes-components.auditLog.pane.sub": [
     {
       "offset": 0,
       "options": {
+        "few": {
+          "value": [
+            {
+              "type": 0,
+              "value": "NĚKOLIK"
+            }
+          ]
+        },
+        "many": {
+          "value": [
+            {
+              "type": 0,
+              "value": "MNOHO"
+            }
+          ]
+        },
         "one": {
           "value": [
             {
-              "type": 7
-            },
-            {
               "type": 0,
-              "value": " version"
+              "value": "JEDNY"
             }
           ]
         },
         "other": {
           "value": [
             {
-              "type": 7
-            },
-            {
               "type": 0,
-              "value": " versions"
+              "value": "OSTATNÍ"
             }
           ]
         }
@@ -12011,7 +12021,7 @@
   "stripes-inventory-components.item.status.claimedReturned": [
     {
       "type": 0,
-      "value": "Údajně vráceno"
+      "value": "Prohlášeno za vrácené"
     }
   ],
   "stripes-inventory-components.item.status.declaredLost": [
@@ -12491,31 +12501,31 @@
   "stripes-marc-components.versionHistory.action.added": [
     {
       "type": 0,
-      "value": "Added"
+      "value": "Přidáno"
     }
   ],
   "stripes-marc-components.versionHistory.action.edited": [
     {
       "type": 0,
-      "value": "Edited"
+      "value": "Upraveno"
     }
   ],
   "stripes-marc-components.versionHistory.action.removed": [
     {
       "type": 0,
-      "value": "Removed"
+      "value": "Odstraněno"
     }
   ],
   "stripes-marc-components.versionHistory.anonymousUser": [
     {
       "type": 0,
-      "value": "Anonymous user"
+      "value": "Anonymní uživatel"
     }
   ],
   "stripes-marc-components.versionHistory.fieldPrefix": [
     {
       "type": 0,
-      "value": "Field "
+      "value": "Pole "
     },
     {
       "type": 1,
@@ -12906,7 +12916,7 @@
   "stripes-smart-components.cddd.itemClaimedReturnedWarning": [
     {
       "type": 0,
-      "value": "Jednotka je označena jako údajně vrácená"
+      "value": "Jednotka je označena jako prohlášena za vrácenou"
     }
   ],
   "stripes-smart-components.cddd.itemDeclaredLost": [

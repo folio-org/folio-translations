@@ -2455,80 +2455,90 @@
   "stripes-components.auditLog.card.changed": [
     {
       "type": 0,
-      "value": "Changed"
+      "value": "Zmieniono"
     }
   ],
   "stripes-components.auditLog.card.currentVersion": [
     {
       "type": 0,
-      "value": "Current version"
+      "value": "Aktualna wersja"
     }
   ],
   "stripes-components.auditLog.card.originalVersion": [
     {
       "type": 0,
-      "value": "Original version"
+      "value": "Oryginalna wersja"
     }
   ],
   "stripes-components.auditLog.modal.action": [
     {
       "type": 0,
-      "value": "Action"
+      "value": "Akcja"
     }
   ],
   "stripes-components.auditLog.modal.changedFrom": [
     {
       "type": 0,
-      "value": "Changed from"
+      "value": "Zmieniono z"
     }
   ],
   "stripes-components.auditLog.modal.changedTo": [
     {
       "type": 0,
-      "value": "Changed to"
+      "value": "Zmieniono na"
     }
   ],
   "stripes-components.auditLog.modal.field": [
     {
       "type": 0,
-      "value": "Field"
+      "value": "Pole"
     }
   ],
   "stripes-components.auditLog.pane.header": [
     {
       "type": 0,
-      "value": "Version history"
+      "value": "Historia wersji"
     }
   ],
   "stripes-components.auditLog.pane.loadingLabel": [
     {
       "type": 0,
-      "value": "Loading"
+      "value": "Ładowanie"
     }
   ],
   "stripes-components.auditLog.pane.sub": [
     {
       "offset": 0,
       "options": {
+        "few": {
+          "value": [
+            {
+              "type": 0,
+              "value": "wersji"
+            }
+          ]
+        },
+        "many": {
+          "value": [
+            {
+              "type": 0,
+              "value": "wersji"
+            }
+          ]
+        },
         "one": {
           "value": [
             {
-              "type": 7
-            },
-            {
               "type": 0,
-              "value": " version"
+              "value": "wersja"
             }
           ]
         },
         "other": {
           "value": [
             {
-              "type": 7
-            },
-            {
               "type": 0,
-              "value": " versions"
+              "value": "wersje"
             }
           ]
         }
@@ -12489,31 +12499,31 @@
   "stripes-marc-components.versionHistory.action.added": [
     {
       "type": 0,
-      "value": "Added"
+      "value": "Dodany"
     }
   ],
   "stripes-marc-components.versionHistory.action.edited": [
     {
       "type": 0,
-      "value": "Edited"
+      "value": "Edytowany"
     }
   ],
   "stripes-marc-components.versionHistory.action.removed": [
     {
       "type": 0,
-      "value": "Removed"
+      "value": "Usunięty"
     }
   ],
   "stripes-marc-components.versionHistory.anonymousUser": [
     {
       "type": 0,
-      "value": "Anonymous user"
+      "value": "Użytkownik anonimowy"
     }
   ],
   "stripes-marc-components.versionHistory.fieldPrefix": [
     {
       "type": 0,
-      "value": "Field "
+      "value": "Pole "
     },
     {
       "type": 1,
