@@ -18336,13 +18336,13 @@
   "ui-agreements.eresources.pauseSync": [
     {
       "type": 0,
-      "value": "Pause synchronisation"
+      "value": "Pausar sincronização"
     }
   ],
   "ui-agreements.eresources.pauseSyncSelectedPackages": [
     {
       "type": 0,
-      "value": "Pause synchronisation of selected packages"
+      "value": "Pausar a sincronização dos pacotes selecionados"
     }
   ],
   "ui-agreements.eresources.platform": [
@@ -18498,13 +18498,13 @@
   "ui-agreements.eresources.startSync": [
     {
       "type": 0,
-      "value": "Start synchronisation"
+      "value": "Iniciar sincronização"
     }
   ],
   "ui-agreements.eresources.startSyncSelectedPackages": [
     {
       "type": 0,
-      "value": "Start synchronisation of selected packages"
+      "value": "Iniciar sincronização dos pacotes selecionados"
     }
   ],
   "ui-agreements.eresources.status": [
@@ -18540,31 +18540,31 @@
   "ui-agreements.eresources.syncMultiplePackagesError": [
     {
       "type": 0,
-      "value": "Error. Unable to update the synchronisation status of the packages."
+      "value": "Erro. Não é possível atualizar o status de sincronização dos pacotes."
     }
   ],
   "ui-agreements.eresources.syncMultiplePackagesSuccess.PAUSED": [
     {
       "type": 0,
-      "value": "Packages have been paused"
+      "value": "Os pacotes foram pausados"
     }
   ],
   "ui-agreements.eresources.syncMultiplePackagesSuccess.SYNCHRONIZING": [
     {
       "type": 0,
-      "value": "Packages will synchronise"
+      "value": "Os pacotes serão sincronizados"
     }
   ],
   "ui-agreements.eresources.syncPackageError": [
     {
       "type": 0,
-      "value": "Error. Unable to update the synchronisation status of the package."
+      "value": "Erro. Não é possível atualizar o status de sincronização do pacote."
     }
   ],
   "ui-agreements.eresources.syncPackageSuccess.PAUSED": [
     {
       "type": 0,
-      "value": "Package: "
+      "value": "Pacote: "
     },
     {
       "children": [
@@ -18578,13 +18578,13 @@
     },
     {
       "type": 0,
-      "value": " has been paused"
+      "value": " foi pausado"
     }
   ],
   "ui-agreements.eresources.syncPackageSuccess.SYNCHRONIZING": [
     {
       "type": 0,
-      "value": "Package: "
+      "value": "Pacote: "
     },
     {
       "children": [
@@ -18598,31 +18598,31 @@
     },
     {
       "type": 0,
-      "value": " will synchronise"
+      "value": " será sincronizado"
     }
   ],
   "ui-agreements.eresources.syncStatus.false": [
     {
       "type": 0,
-      "value": "Paused"
+      "value": "Pausado"
     }
   ],
   "ui-agreements.eresources.syncStatus.notSet": [
     {
       "type": 0,
-      "value": "Not set"
+      "value": "Não definido"
     }
   ],
   "ui-agreements.eresources.syncStatus.true": [
     {
       "type": 0,
-      "value": "Synchronising"
+      "value": "Sincronizando"
     }
   ],
   "ui-agreements.eresources.synchronisationStatus": [
     {
       "type": 0,
-      "value": "Synchronisation status"
+      "value": "Status de sincronização"
     }
   ],
   "ui-agreements.eresources.title": [
@@ -68314,7 +68314,7 @@
   "ui-finance.transaction.validation.totalAllocatedExceeded": [
     {
       "type": 0,
-      "value": "Total allocation cannot be less than zero"
+      "value": "A alocação total não pode ser menor que zero"
     }
   ],
   "ui-finance.transaction.voided": [
@@ -77944,37 +77944,59 @@
   "ui-inventory.numberGenerator.generateAccessionAndCallNumber": [
     {
       "type": 0,
-      "value": "Generate accession and call numbers"
+      "value": "Gerar números de acesso e de chamada"
     }
   ],
   "ui-inventory.numberGenerator.generateAccessionAndCallNumberWarning": [
     {
       "type": 0,
-      "value": "Both accession number and call number will be filled from this action, using a sequence from the Inventory: Accession number generator."
+      "value": "Tanto o número de acesso quanto o número de chamada serão preenchidos a partir desta ação, usando uma sequência do Inventário: Gerador de números de acesso."
     }
   ],
   "ui-inventory.numberGenerator.generateAccessionNumber": [
     {
       "type": 0,
-      "value": "Generate accession number"
+      "value": "Gerar número de acesso"
     }
   ],
   "ui-inventory.numberGenerator.generateBarcode": [
     {
       "type": 0,
-      "value": "Generate barcode"
+      "value": "Gerar código de barras"
     }
   ],
   "ui-inventory.numberGenerator.generateCallNumber": [
     {
       "type": 0,
-      "value": "Generate call number"
+      "value": "Gerar número de chamada"
     }
   ],
   "ui-inventory.numberGenerator.info": [
     {
       "type": 0,
       "value": "Os campos que normalmente são preenchidos com uma sequência numérica podem usar o gerador de números. Quando o gerador é ativado, o campo pode ser fixo para impedir a atualização manual ou pode ser totalmente editável. Quando desativado, o campo deve ser preenchido manualmente."
+    }
+  ],
+  "ui-inventory.numberGenerator.infoAdditional": [
+    {
+      "type": 0,
+      "value": "Additional number generator settings are available under "
+    },
+    {
+      "type": 1,
+      "value": "serviceInteractionLink"
+    },
+    {
+      "type": 0,
+      "value": ". At "
+    },
+    {
+      "type": 1,
+      "value": "numberGeneratorSequencesLink"
+    },
+    {
+      "type": 0,
+      "value": " sequences can be defined by selecting the appropriate generator via the drop-down menu."
     }
   ],
   "ui-inventory.numberGenerator.options": [
@@ -80493,25 +80515,25 @@
   "ui-inventory.versionHistory.action.added": [
     {
       "type": 0,
-      "value": "Added"
+      "value": "Adicionado"
     }
   ],
   "ui-inventory.versionHistory.action.edited": [
     {
       "type": 0,
-      "value": "Edited"
+      "value": "Editado"
     }
   ],
   "ui-inventory.versionHistory.action.removed": [
     {
       "type": 0,
-      "value": "Removed"
+      "value": "Removido"
     }
   ],
   "ui-inventory.versionHistory.anonymousUser": [
     {
       "type": 0,
-      "value": "Anonymous user"
+      "value": "Usuário anônimo"
     }
   ],
   "ui-inventory.viewAndReorderRequestsQueue": [
@@ -125609,7 +125631,7 @@
   "ui-requests.requestUuid": [
     {
       "type": 0,
-      "value": "Request UUID"
+      "value": "UUID da solicitação"
     }
   ],
   "ui-requests.requester.barcode": [

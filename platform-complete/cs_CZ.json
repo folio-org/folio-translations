@@ -17975,7 +17975,7 @@
   "ui-agreements.eresources.SynchronisationStatus": [
     {
       "type": 0,
-      "value": "Synchronisation status"
+      "value": "Stav synchronizace"
     }
   ],
   "ui-agreements.eresources.accessEnd": [
@@ -18419,13 +18419,13 @@
   "ui-agreements.eresources.pauseSync": [
     {
       "type": 0,
-      "value": "Pause synchronisation"
+      "value": "Pozastavit synchronizaci"
     }
   ],
   "ui-agreements.eresources.pauseSyncSelectedPackages": [
     {
       "type": 0,
-      "value": "Pause synchronisation of selected packages"
+      "value": "Pozastavit synchronizaci vybraných balíčků"
     }
   ],
   "ui-agreements.eresources.platform": [
@@ -18581,13 +18581,13 @@
   "ui-agreements.eresources.startSync": [
     {
       "type": 0,
-      "value": "Start synchronisation"
+      "value": "Spustit synchronizaci"
     }
   ],
   "ui-agreements.eresources.startSyncSelectedPackages": [
     {
       "type": 0,
-      "value": "Start synchronisation of selected packages"
+      "value": "Spuštění synchronizace vybraných balíčků"
     }
   ],
   "ui-agreements.eresources.status": [
@@ -18611,49 +18611,57 @@
   "ui-agreements.eresources.syncContentsFromSource.false": [
     {
       "type": 0,
-      "value": "Paused"
+      "value": "Pozastaveno"
     }
   ],
   "ui-agreements.eresources.syncContentsFromSource.true": [
     {
       "type": 0,
-      "value": "Synchronising"
+      "value": "Probíhá synchronizace"
     }
   ],
   "ui-agreements.eresources.syncMultiplePackagesError": [
     {
       "type": 0,
-      "value": "Error. Unable to update the synchronisation status of the packages."
+      "value": "Chyba. Nelze aktualizovat stav synchronizace balíčků."
     }
   ],
   "ui-agreements.eresources.syncMultiplePackagesSuccess.PAUSED": [
     {
       "type": 0,
-      "value": "Packages have been paused"
+      "value": "Balíčky byly pozastaveny"
     }
   ],
   "ui-agreements.eresources.syncMultiplePackagesSuccess.SYNCHRONIZING": [
     {
       "type": 0,
-      "value": "Packages will synchronise"
+      "value": "Balíčky se synchronizují"
     }
   ],
   "ui-agreements.eresources.syncPackageError": [
     {
       "type": 0,
-      "value": "Error. Unable to update the synchronisation status of the package."
+      "value": "Chyba. Nelze aktualizovat stav synchronizace balíčku."
     }
   ],
   "ui-agreements.eresources.syncPackageSuccess.PAUSED": [
     {
       "type": 0,
-      "value": "Package: "
+      "value": "Balíček: "
     },
     {
       "children": [
         {
+          "type": 0,
+          "value": " "
+        },
+        {
           "type": 1,
           "value": "packageName"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -18661,13 +18669,13 @@
     },
     {
       "type": 0,
-      "value": " has been paused"
+      "value": " byl pozastaven"
     }
   ],
   "ui-agreements.eresources.syncPackageSuccess.SYNCHRONIZING": [
     {
       "type": 0,
-      "value": "Package: "
+      "value": "Balení: "
     },
     {
       "children": [
@@ -18681,31 +18689,31 @@
     },
     {
       "type": 0,
-      "value": " will synchronise"
+      "value": " bude synchronizovat"
     }
   ],
   "ui-agreements.eresources.syncStatus.false": [
     {
       "type": 0,
-      "value": "Paused"
+      "value": "Pozastaveno"
     }
   ],
   "ui-agreements.eresources.syncStatus.notSet": [
     {
       "type": 0,
-      "value": "Not set"
+      "value": "Nenastaveno"
     }
   ],
   "ui-agreements.eresources.syncStatus.true": [
     {
       "type": 0,
-      "value": "Synchronising"
+      "value": "Probíhá synchronizace"
     }
   ],
   "ui-agreements.eresources.synchronisationStatus": [
     {
       "type": 0,
-      "value": "Synchronisation status"
+      "value": "Stav synchronizace"
     }
   ],
   "ui-agreements.eresources.title": [
@@ -22516,7 +22524,7 @@
   "ui-bulk-edit.columns.INSTANCE.Series statements": [
     {
       "type": 0,
-      "value": "Sady prohlášení"
+      "value": "Údaje o edici"
     }
   ],
   "ui-bulk-edit.columns.INSTANCE.Source": [
@@ -24117,7 +24125,7 @@
   "ui-bulk-edit.layer.title.marc": [
     {
       "type": 0,
-      "value": "Bulk edits for instances with source MARC"
+      "value": "Hromadné úpravy titulů se zdrojovým kódem MARC"
     }
   ],
   "ui-bulk-edit.list.actions.download": [
@@ -25738,13 +25746,17 @@
   ],
   "ui-bulk-edit.previewModal.message.empty.partlySupported": [
     {
+      "type": 0,
+      "value": "Záznamy "
+    },
+    {
       "style": null,
       "type": 2,
       "value": "numberOfSupportedEntities"
     },
     {
       "type": 0,
-      "value": " records will be changed when the Commit changes button is clicked. You may choose Download preview to review all changes prior to saving. "
+      "value": " se změní po kliknutí na tlačítko Potvrdit změny. Můžete zvolit Stáhnout náhled a zkontrolovat všechny změny před uložením. Tituly "
     },
     {
       "style": null,
@@ -25753,7 +25765,7 @@
     },
     {
       "type": 0,
-      "value": " instances have source that is not supported by MARC records bulk edit and cannot be updated."
+      "value": " mají zdroj, který není podporován hromadnou úpravou záznamů MARC a nelze jej aktualizovat."
     }
   ],
   "ui-bulk-edit.previewModal.previewToBeChanged": [
@@ -28337,7 +28349,7 @@
   "ui-checkin.claimedReturnedModal.label": [
     {
       "type": 0,
-      "value": "Vrácení jednotky označené jako údajně vrácená"
+      "value": "Vrácení jednotky označené jako prohlášena za vrácenou"
     }
   ],
   "ui-checkin.claimedReturnedModal.message": [
@@ -31256,7 +31268,7 @@
   "ui-circulation-log.logEvent.action.Claimed returned": [
     {
       "type": 0,
-      "value": "Údajně vráceno"
+      "value": "Prohlášeno za vrácené"
     }
   ],
   "ui-circulation-log.logEvent.action.Closed loan": [
@@ -42530,7 +42542,7 @@
     },
     {
       "type": 0,
-      "value": " - the user "
+      "value": " - uživatel "
     },
     {
       "type": 1,
@@ -42538,7 +42550,7 @@
     },
     {
       "type": 0,
-      "value": " is not affiliated with "
+      "value": " není přidružen k nájemci (nájemcům) dat "
     },
     {
       "type": 1,
@@ -42546,7 +42558,7 @@
     },
     {
       "type": 0,
-      "value": " data tenant(s) and holdings and item records from this tenant were omitted during export."
+      "value": " a záznamy o holdinzích a jednotkách tohoto nájemce byly při exportu vynechány."
     }
   ],
   "ui-data-export.error.instance.noPermission": [
@@ -42556,7 +42568,7 @@
     },
     {
       "type": 0,
-      "value": " - the user "
+      "value": " – uživatel "
     },
     {
       "type": 1,
@@ -42564,7 +42576,7 @@
     },
     {
       "type": 0,
-      "value": " does not have permissions to view holdings or items in "
+      "value": " nemá oprávnění k zobrazení holdingů nebo položek v "
     },
     {
       "type": 1,
@@ -42572,7 +42584,7 @@
     },
     {
       "type": 0,
-      "value": " data tenant(s). Holdings and item records from this tenant were omitted during export."
+      "value": " detech nájemce. Při exportu byly vynechány záznamy o holdinzích a jednotkách od tohoto nájemce."
     }
   ],
   "ui-data-export.error.invalidCqlSyntax": [
@@ -43322,7 +43334,7 @@
   "ui-data-export.holdings.metadata.updatedDate": [
     {
       "type": 0,
-      "value": "Holdingy - aktualizované datum"
+      "value": "Holdings - Datum aktualizace"
     }
   ],
   "ui-data-export.holdings.permanentLocation.campus.code": [
@@ -43612,7 +43624,7 @@
   "ui-data-export.instance.metadata.updatedDate": [
     {
       "type": 0,
-      "value": "Titul – Aktualizované datum"
+      "value": "Titul – Datum aktualizace"
     }
   ],
   "ui-data-export.instance.modeOfIssuanceId": [
@@ -43906,7 +43918,7 @@
   "ui-data-export.item.metadata.updatedDate": [
     {
       "type": 0,
-      "value": "Jednotka – Aktualizované datum"
+      "value": "Jednotka - Datum aktualizace"
     }
   ],
   "ui-data-export.item.numberOfPieces": [
@@ -49055,7 +49067,7 @@
   "ui-data-import.settings.mappingProfiles.map.instance.descriptiveData.field.editions.addLabel": [
     {
       "type": 0,
-      "value": "Přidat vydání"
+      "value": "Přidat edici"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.instance.descriptiveData.field.editions.legend": [
@@ -49795,7 +49807,7 @@
   "ui-data-import.settings.mappingProfiles.map.item.administrativeData.field.accessionNumber": [
     {
       "type": 0,
-      "value": "Přístupové číslo"
+      "value": "Přírůstkové číslo"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.item.administrativeData.field.barcode": [
@@ -54986,13 +54998,13 @@
   "ui-developer.rtr.activityEvents": [
     {
       "type": 0,
-      "value": "activityEvents: which DOM events constitute user activity (comma-separated, e.g. 'mousemove,keydown')"
+      "value": "activityEvents: které události DOM představují aktivitu uživatele (oddělené čárkou, např. \"mousemove,keydown\")"
     }
   ],
   "ui-developer.rtr.fixedLengthSessionWarningTTL": [
     {
       "type": 0,
-      "value": "fixedLengthSessionWarningTTL: how long the “your session is going to die!” warning should be shown before the session is killed (e.g. 1h, 1m, 5s, 10ms)"
+      "value": "FixedLengthSessionWarningTTL: jak dlouho před ukončením relace (např. 1h, 1m, 5s, 10ms)  by se mělo zobrazit varování „dojde k ukončí vaší relace!“"
     }
   ],
   "ui-developer.rtr.forceRefresh": [
@@ -55034,7 +55046,7 @@
   "ui-developer.rtr.rotationIntervalFraction": [
     {
       "type": 0,
-      "value": "rotationIntervalFraction: decimal fraction of how early to refresh the access token (e.g. 0.6 is 60% into the lifetime of the token)"
+      "value": "rotationIntervalFraction: desetinný zlomek, který udává, jak brzy se má přístupový token obnovit (např. 0,6 je 60 % životnosti tokenu)"
     }
   ],
   "ui-developer.rtr.unregisterServiceWorker": [
@@ -62654,7 +62666,7 @@
   "ui-erm-usage.statistics.custom.linkUrlFilePath": [
     {
       "type": 0,
-      "value": "Link URL / File path"
+      "value": "URL odkazu / cesta k souboru"
     }
   ],
   "ui-erm-usage.statistics.custom.selectFileFirst": [
@@ -63466,7 +63478,7 @@
   "ui-export-manager.exportJob.integrationType.claiming": [
     {
       "type": 0,
-      "value": "Nároky"
+      "value": "Reklamace"
     }
   ],
   "ui-export-manager.exportJob.integrationType.ordering": [
@@ -63700,13 +63712,13 @@
   "ui-finance.actions.allocations.batch.success": [
     {
       "type": 0,
-      "value": "Allocations have been updated successfully."
+      "value": "Přidělení byla úspěšně aktualizována."
     }
   ],
   "ui-finance.actions.allocations.download": [
     {
       "type": 0,
-      "value": "Download log"
+      "value": "Stáhnout log"
     }
   ],
   "ui-finance.actions.downloadAllocationWorksheet": [
@@ -63828,7 +63840,7 @@
   "ui-finance.allocation.batch.logs.actions.delete.success": [
     {
       "type": 0,
-      "value": "Logy byly úspěšně smazány"
+      "value": "Log(y) byly úspěšně smazány"
     }
   ],
   "ui-finance.allocation.batch.logs.actions.remove.heading": [
@@ -63840,7 +63852,7 @@
   "ui-finance.allocation.batch.logs.actions.remove.message": [
     {
       "type": 0,
-      "value": "This log will be permanently deleted. Are you sure you want to delete it?"
+      "value": "Tento log bude trvale smazán. Opravdu jej chcete smazat?"
     }
   ],
   "ui-finance.allocation.batch.logs.columns.createdByUsername": [
@@ -63876,7 +63888,7 @@
   "ui-finance.allocation.batch.logs.columns.select": [
     {
       "type": 0,
-      "value": "Select log $"
+      "value": "Vybrat log $"
     },
     {
       "type": 1,
@@ -63886,7 +63898,7 @@
   "ui-finance.allocation.batch.logs.columns.selectAll": [
     {
       "type": 0,
-      "value": "Select all logs"
+      "value": "Vybrat všechny logy"
     }
   ],
   "ui-finance.allocation.batch.logs.columns.status": [
@@ -63922,31 +63934,31 @@
   "ui-finance.allocation.batch.logs.filters.fiscalYearId": [
     {
       "type": 0,
-      "value": "Fiscal Year"
+      "value": "Fiskální rok"
     }
   ],
   "ui-finance.allocation.batch.logs.filters.groupId": [
     {
       "type": 0,
-      "value": "Group"
+      "value": "Skupina"
     }
   ],
   "ui-finance.allocation.batch.logs.filters.ledgerId": [
     {
       "type": 0,
-      "value": "Ledger"
+      "value": "Účetní kniha"
     }
   ],
   "ui-finance.allocation.batch.logs.filters.metadata.createdByUserId": [
     {
       "type": 0,
-      "value": "User"
+      "value": "Uživatel"
     }
   ],
   "ui-finance.allocation.batch.logs.filters.metadata.createdDate": [
     {
       "type": 0,
-      "value": "Date"
+      "value": "Datum"
     }
   ],
   "ui-finance.allocation.batch.logs.modal.delete.description": [
@@ -63964,7 +63976,7 @@
   "ui-finance.allocation.batch.logs.search.jobName": [
     {
       "type": 0,
-      "value": "Job name"
+      "value": "Název úlohy"
     }
   ],
   "ui-finance.allocation.batch.logs.search.jobNumber": [
@@ -63976,7 +63988,7 @@
   "ui-finance.allocation.batch.logs.search.keyword": [
     {
       "type": 0,
-      "value": "All"
+      "value": "Všechny"
     }
   ],
   "ui-finance.allocation.batch.logs.title": [
@@ -64012,7 +64024,7 @@
   "ui-finance.allocation.worksheet.download.start": [
     {
       "type": 0,
-      "value": "Please wait while the worksheet is generated. Your download will start automatically"
+      "value": "Počkejte prosím, než se tabulka vygeneruje. Stahování se spustí automaticky"
     }
   ],
   "ui-finance.appMenu.financeAppSearch": [
@@ -64864,7 +64876,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Financování celkem"
+          "value": "Celkové financování"
         }
       ],
       "type": 8,
@@ -67285,13 +67297,21 @@
     },
     {
       "type": 0,
-      "value": " was not successfully allocated to the budget "
+      "value": " nebyla úspěšně přidělena do rozpočtu "
     },
     {
       "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
         {
           "type": 1,
           "value": "toBudgetName"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -67299,13 +67319,21 @@
     },
     {
       "type": 0,
-      "value": " because it exceeds the total allocation amount of "
+      "value": ", protože překračuje přidělenou celkovou částku "
     },
     {
       "children": [
         {
+          "type": 0,
+          "value": " "
+        },
+        {
           "type": 1,
           "value": "fromBudgetName"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -67313,7 +67341,7 @@
     },
     {
       "type": 0,
-      "value": " and ledger fund restrictions are active"
+      "value": " a omezení finančních prostředků účetní knihy jsou aktivní"
     }
   ],
   "ui-finance.transaction.allocation.genericError": [
@@ -67864,7 +67892,7 @@
   "ui-finance.transaction.validation.totalAllocatedExceeded": [
     {
       "type": 0,
-      "value": "Total allocation cannot be less than zero"
+      "value": "Celkový příděl nesmí být menší než nula"
     }
   ],
   "ui-finance.transaction.voided": [
@@ -68822,7 +68850,7 @@
   "ui-gobi-settings.order.mappings.type.listedElectronicSerial": [
     {
       "type": 0,
-      "value": "Zařazený elektronický seriál"
+      "value": "Zařazené elektronické periodikum"
     }
   ],
   "ui-gobi-settings.order.mappings.type.listedPrintMonograph": [
@@ -68834,7 +68862,7 @@
   "ui-gobi-settings.order.mappings.type.listedPrintSerial": [
     {
       "type": 0,
-      "value": "Zařazený tištěný seriál"
+      "value": "Zařazené tištěné periodikum"
     }
   ],
   "ui-gobi-settings.order.mappings.type.unlistedPrintMonograph": [
@@ -68846,7 +68874,7 @@
   "ui-gobi-settings.order.mappings.type.unlistedPrintSerial": [
     {
       "type": 0,
-      "value": "Nezařazený tištěný seriál"
+      "value": "Nezařazené tištěné periodikum"
     }
   ],
   "ui-gobi-settings.permission.settings": [
@@ -70448,7 +70476,7 @@
   "ui-inn-reach.settings.contribution-options.status.claimed-returned": [
     {
       "type": 0,
-      "value": "Údajně vráceno"
+      "value": "Prohlášeno za vrácené"
     }
   ],
   "ui-inn-reach.settings.contribution-options.status.in-process": [
@@ -72625,7 +72653,7 @@
   "ui-inventory.addEdition": [
     {
       "type": 0,
-      "value": "Přidat vydání"
+      "value": "Přidat edici"
     }
   ],
   "ui-inventory.addElectronicAccess": [
@@ -74302,7 +74330,7 @@
   "ui-inventory.exportInstancesInMARC.complete": [
     {
       "type": 0,
-      "value": "The export is complete. The downloaded "
+      "value": "Export je dokončen. Stažený soubor "
     },
     {
       "type": 1,
@@ -74310,7 +74338,7 @@
     },
     {
       "type": 0,
-      "value": ".csv contains selected record's UUID. To retrieve the "
+      "value": ".csv obsahuje UUID vybraného záznamu. Chcete-li stáhnout soubor "
     },
     {
       "type": 1,
@@ -74318,7 +74346,7 @@
     },
     {
       "type": 0,
-      "value": ".mrc file, please go to the Data export app."
+      "value": ".mrc, přejděte do aplikace Export dat."
     }
   ],
   "ui-inventory.exportInstancesInMARCLimitExceeded": [
@@ -75696,7 +75724,7 @@
   "ui-inventory.item.status.claimedReturned.lowercase": [
     {
       "type": 0,
-      "value": "údajně vráceno"
+      "value": "prohlášeno za vrácené"
     }
   ],
   "ui-inventory.item.status.declaredLost": [
@@ -76782,7 +76810,7 @@
   "ui-inventory.moveItems.modal.message.hasLinkedPOLsOrHoldings": [
     {
       "type": 0,
-      "value": "This holdings is linked to a purchase order line. Moving this holdings to a new instance will move any other holdings and items that are linked to this purchase order line to the new instance as well. The purchase order line will also be linked to the new instance. Do you want to continue?"
+      "value": "Tento holding je propojen s řádkem nákupní objednávky. Přesunutím tohoto holdingu k novému titulu dojde ke stejnému přesunu u všech dalších jednotek a holdingů, které jsou propojeny s tímto řádkem nákupní objednávky. Řádek nákupní objednávky bude také propojen s novým titulem. Chcete pokračovat?"
     }
   ],
   "ui-inventory.moveItems.modal.message.holdings": [
@@ -77400,37 +77428,59 @@
   "ui-inventory.numberGenerator.generateAccessionAndCallNumber": [
     {
       "type": 0,
-      "value": "Generate accession and call numbers"
+      "value": "Vygenerovat signatury a přístupové čísla"
     }
   ],
   "ui-inventory.numberGenerator.generateAccessionAndCallNumberWarning": [
     {
       "type": 0,
-      "value": "Both accession number and call number will be filled from this action, using a sequence from the Inventory: Accession number generator."
+      "value": "Přístupové číslo i signatura budou vyplněny z této akce pomocí sekvence z Katalogu: Generátor přístupových čísel."
     }
   ],
   "ui-inventory.numberGenerator.generateAccessionNumber": [
     {
       "type": 0,
-      "value": "Generate accession number"
+      "value": "Vygenerovat přístupové číslo"
     }
   ],
   "ui-inventory.numberGenerator.generateBarcode": [
     {
       "type": 0,
-      "value": "Generate barcode"
+      "value": "Vygenerovat čárový kód"
     }
   ],
   "ui-inventory.numberGenerator.generateCallNumber": [
     {
       "type": 0,
-      "value": "Generate call number"
+      "value": "Vygenerovat signaturu"
     }
   ],
   "ui-inventory.numberGenerator.info": [
     {
       "type": 0,
-      "value": "Fields which are usually filled using a numeric sequence can use the number generator. When the generator is switched on the field can either be fixed to prevent manual update, or made fully editable. When switched off, the field must be filled manually."
+      "value": "Pole, která se obvykle vyplňují pomocí číselné posloupnosti, mohou používat generátor čísel. Po zapnutí generátoru lze pole buď uzamknout, aby se zabránilo ruční aktualizaci, nebo jej lze plně upravovat. Když je generátor vypnutý, je třeba pole vyplnit ručně."
+    }
+  ],
+  "ui-inventory.numberGenerator.infoAdditional": [
+    {
+      "type": 0,
+      "value": "Additional number generator settings are available under "
+    },
+    {
+      "type": 1,
+      "value": "serviceInteractionLink"
+    },
+    {
+      "type": 0,
+      "value": ". At "
+    },
+    {
+      "type": 1,
+      "value": "numberGeneratorSequencesLink"
+    },
+    {
+      "type": 0,
+      "value": " sequences can be defined by selecting the appropriate generator via the drop-down menu."
     }
   ],
   "ui-inventory.numberGenerator.options": [
@@ -77442,19 +77492,19 @@
   "ui-inventory.numberGenerator.options.off": [
     {
       "type": 0,
-      "value": "Off"
+      "value": "Vypnuto"
     }
   ],
   "ui-inventory.numberGenerator.options.onEditable": [
     {
       "type": 0,
-      "value": "On, field editable"
+      "value": "Zapnuto, pole lze upravovat"
     }
   ],
   "ui-inventory.numberGenerator.options.onNotEditable": [
     {
       "type": 0,
-      "value": "On, field not editable"
+      "value": "Zapnuto, pole nelze upravovat"
     }
   ],
   "ui-inventory.numberGenerator.save.error": [
@@ -79095,7 +79145,7 @@
   "ui-inventory.settings.instanceCallNumber.identifierTypesPopover": [
     {
       "type": 0,
-      "value": "Please note that if no call number types are selected for a browse option, this option will display all call number types."
+      "value": "Vezměte prosím na vědomí, že pokud pro možnost procházení nejsou vybrány žádné typy signatur, zobrazí se touto možností všechny typy signatur."
     }
   ],
   "ui-inventory.settings.instanceCallNumber.lc": [
@@ -79945,25 +79995,25 @@
   "ui-inventory.versionHistory.action.added": [
     {
       "type": 0,
-      "value": "Added"
+      "value": "Přidáno"
     }
   ],
   "ui-inventory.versionHistory.action.edited": [
     {
       "type": 0,
-      "value": "Edited"
+      "value": "Upraveno"
     }
   ],
   "ui-inventory.versionHistory.action.removed": [
     {
       "type": 0,
-      "value": "Removed"
+      "value": "Odstraněno"
     }
   ],
   "ui-inventory.versionHistory.anonymousUser": [
     {
       "type": 0,
-      "value": "Anonymous user"
+      "value": "Anonymní uživatel"
     }
   ],
   "ui-inventory.viewAndReorderRequestsQueue": [
@@ -84055,7 +84105,7 @@
   "ui-ldp.error.not-metadb": [
     {
       "type": 0,
-      "value": "This facility is only available from a Metadb database, but this app is connected to LDP Classic"
+      "value": "Tato funkce je k dispozici pouze z databáze Metadb, ale tato aplikace je připojena k LDP Classic"
     }
   ],
   "ui-ldp.found-more-than": [
@@ -92093,7 +92143,7 @@
   "ui-myprofile.draggableList.instructions": [
     {
       "type": 0,
-      "value": "Reorderable list. Press space or enter to activate an item for reordering. Use the up and down arrow keys to change the position of the active item."
+      "value": "Seznam s možností změny pořadí. Stisknutím mezerníku nebo enteru aktivujete položku pro změnu pořadí. Pomocí kláves se šipkami nahoru a dolů můžete měnit pozici aktivní položky."
     }
   ],
   "ui-myprofile.label.settings": [
@@ -105031,19 +105081,19 @@
   "ui-organizations.integration.info.fileFormat": [
     {
       "type": 0,
-      "value": "File format"
+      "value": "Formát souboru"
     }
   ],
   "ui-organizations.integration.info.integrationType": [
     {
       "type": 0,
-      "value": "Integration type"
+      "value": "Typ integrace"
     }
   ],
   "ui-organizations.integration.info.integrationType.claiming": [
     {
       "type": 0,
-      "value": "Claiming"
+      "value": "Reklamace"
     }
   ],
   "ui-organizations.integration.info.integrationType.ordering": [
@@ -105061,13 +105111,13 @@
   "ui-organizations.integration.info.transmissionMethod": [
     {
       "type": 0,
-      "value": "Transmission method"
+      "value": "Způsob přenosu"
     }
   ],
   "ui-organizations.integration.info.transmissionMethod.fileDownLoad": [
     {
       "type": 0,
-      "value": "File download"
+      "value": "Stáhnout soubor"
     }
   ],
   "ui-organizations.integration.info.transmissionMethod.ftp": [
@@ -105285,19 +105335,27 @@
   "ui-organizations.integrationDetails.duplicate.confirmModal.heading": [
     {
       "type": 0,
-      "value": "Duplicate integration config"
+      "value": "Duplikovat nastavení integrace"
     }
   ],
   "ui-organizations.integrationDetails.duplicate.confirmModal.message": [
     {
       "type": 0,
-      "value": "Are you sure you want to duplicate the "
+      "value": "Opravdu chcete duplikovat konfiguraci integrace "
     },
     {
       "children": [
         {
+          "type": 0,
+          "value": " "
+        },
+        {
           "type": 1,
           "value": "term"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -105305,13 +105363,13 @@
     },
     {
       "type": 0,
-      "value": " integration config?"
+      "value": "?"
     }
   ],
   "ui-organizations.integrationDetails.duplicate.error": [
     {
       "type": 0,
-      "value": "Integration was not duplicated"
+      "value": "Integrace nebyla duplikována"
     }
   ],
   "ui-organizations.integrationDetails.duplicate.name": [
@@ -105327,13 +105385,21 @@
   "ui-organizations.integrationDetails.duplicate.success": [
     {
       "type": 0,
-      "value": "Integration "
+      "value": "Integrace "
     },
     {
       "children": [
         {
+          "type": 0,
+          "value": " "
+        },
+        {
           "type": 1,
           "value": "term"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -105341,7 +105407,7 @@
     },
     {
       "type": 0,
-      "value": " was successfully duplicated"
+      "value": " byla úspěšně duplikována"
     }
   ],
   "ui-organizations.interface": [
@@ -105705,13 +105771,13 @@
   "ui-organizations.numberGenerator.generateVendorCode": [
     {
       "type": 0,
-      "value": "Generate vendor code"
+      "value": "Generování kódu prodejce"
     }
   ],
   "ui-organizations.numberGenerator.vendorCodeGenerator": [
     {
       "type": 0,
-      "value": "Vendor code generator"
+      "value": "Generátor kódu prodejce"
     }
   ],
   "ui-organizations.organization.delete.confirmLabel": [
@@ -106304,19 +106370,19 @@
   "ui-organizations.settings.numberGeneratorOptions": [
     {
       "type": 0,
-      "value": "Number generator options"
+      "value": "Možnosti generátoru čísel"
     }
   ],
   "ui-organizations.settings.numberGeneratorOptions.info": [
     {
       "type": 0,
-      "value": "Fields which are usually filled using a numeric sequence can use the number generator. When the generator is switched on the field can either be fixed to prevent manual update, or made fully editable. When switched off, the field must be filled manually."
+      "value": "Pole, která se obvykle vyplňují pomocí číselné posloupnosti, mohou používat generátor čísel. Po zapnutí generátoru lze pole buď uzamknout, aby se zabránilo ruční aktualizaci, nebo jej lze plně upravovat. Když je generátor vypnutý, je třeba pole vyplnit ručně."
     }
   ],
   "ui-organizations.settings.numberGeneratorOptions.infoAdditional": [
     {
       "type": 0,
-      "value": "Additional number generator settings are available under "
+      "value": "Další nastavení generátoru čísel jsou k dispozici v části "
     },
     {
       "type": 1,
@@ -106324,7 +106390,7 @@
     },
     {
       "type": 0,
-      "value": ".  At "
+      "value": ". Na stránce "
     },
     {
       "type": 1,
@@ -106332,37 +106398,37 @@
     },
     {
       "type": 0,
-      "value": " sequences can be defined by selecting the appropriate generator via the drop-down menu."
+      "value": " lze sekvence definovat výběrem příslušného generátoru z rozbalovací nabídky."
     }
   ],
   "ui-organizations.settings.numberGeneratorOptions.save.error": [
     {
       "type": 0,
-      "value": "Error saving setting"
+      "value": "Při ukládání nastavení došlo k chybě"
     }
   ],
   "ui-organizations.settings.numberGeneratorOptions.save.success": [
     {
       "type": 0,
-      "value": "Setting was successfully saved"
+      "value": "Nastavení bylo úspěšně uloženo"
     }
   ],
   "ui-organizations.settings.numberGeneratorOptions.useBothForVendor": [
     {
       "type": 0,
-      "value": "Number generator on, editable: the vendor code can be filled using the generator and be edited, or filled manually."
+      "value": "Zapnutý generátor čísel, možnost úprav: kód prodejce lze vyplnit pomocí generátoru a upravit jej, nebo vyplnit ručně."
     }
   ],
   "ui-organizations.settings.numberGeneratorOptions.useGeneratorForVendor": [
     {
       "type": 0,
-      "value": "Number generator on, fixed: the vendor code can be filled using the generator only."
+      "value": "Zapnutý generátor čísel, nastaven napevno: kód prodejce lze vyplnit pouze pomocí generátoru."
     }
   ],
   "ui-organizations.settings.numberGeneratorOptions.useTextFieldForVendor": [
     {
       "type": 0,
-      "value": "Number generator off: the vendor code can be filled manually only."
+      "value": "Generátor čísel vypnutý: kód prodejce lze vyplnit pouze ručně."
     }
   ],
   "ui-organizations.settings.type": [
@@ -106872,7 +106938,7 @@
   "ui-organizations.versionHistory.field.metadata.updatedDate": [
     {
       "type": 0,
-      "value": "Aktualizované datum"
+      "value": "Datum aktualizace"
     }
   ],
   "ui-organizations.versionHistory.field.phoneNumbers.categories": [
@@ -110403,7 +110469,7 @@
   "ui-plugin-find-instance.item.status.claimedReturned": [
     {
       "type": 0,
-      "value": "Údajně vráceno"
+      "value": "Prohlášeno za vrácené"
     }
   ],
   "ui-plugin-find-instance.item.status.declaredLost": [
@@ -112337,7 +112403,7 @@
   "ui-quick-marc.leader.Serial": [
     {
       "type": 0,
-      "value": "Seriál"
+      "value": "Sériový"
     }
   ],
   "ui-quick-marc.leader.Serial component part": [
@@ -117505,11 +117571,15 @@
       "children": [
         {
           "type": 0,
-          "value": "Please scroll to view the entire record. Resolve issues as needed and save to revalidate the record."
+          "value": " Pro zobrazení celého záznamu prosím skrolujte. Vyřešte problémy podle potřeby a uložte, abyste znovu ověřili záznam. "
         }
       ],
       "type": 8,
       "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " "
     },
     {
       "type": 1,
@@ -117517,17 +117587,29 @@
     },
     {
       "type": 0,
-      "value": "Fail errors: "
+      "value": " Chyby selhání: "
     },
     {
       "children": [
         {
+          "type": 0,
+          "value": " "
+        },
+        {
           "type": 1,
           "value": "failCount"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
       "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " "
     },
     {
       "type": 1,
@@ -117535,7 +117617,7 @@
     },
     {
       "type": 0,
-      "value": "Record cannot be saved with a fail error."
+      "value": " Záznam nelze uložit s chybou selhání."
     }
   ],
   "ui-quick-marc.record.save.error.failAndWarn": [
@@ -117543,7 +117625,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Please scroll to view the entire record. Resolve issues as needed and save to revalidate the record."
+          "value": "Pro zobrazení celého záznamu skrolujte. Podle potřeby vyřešte problémy a uložením záznam znovu ověřte."
         }
       ],
       "type": 8,
@@ -117555,7 +117637,7 @@
     },
     {
       "type": 0,
-      "value": "Warn errors: "
+      "value": "Upozornění na chyby: "
     },
     {
       "children": [
@@ -117573,7 +117655,7 @@
     },
     {
       "type": 0,
-      "value": "Fail errors: "
+      "value": "Chyby při selhání: "
     },
     {
       "children": [
@@ -117591,7 +117673,7 @@
     },
     {
       "type": 0,
-      "value": "Record cannot be saved with a fail error."
+      "value": " Záznam nelze uložit s chybou selhání."
     }
   ],
   "ui-quick-marc.record.save.error.generic": [
@@ -117617,11 +117699,15 @@
       "children": [
         {
           "type": 0,
-          "value": "Please scroll to view the entire record. Resolve issues as needed and save to revalidate the record."
+          "value": " Pro zobrazení celého záznamu prosím skrolujte. Vyřešte problémy podle potřeby a uložte, abyste znovu ověřili záznam. "
         }
       ],
       "type": 8,
       "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " "
     },
     {
       "type": 1,
@@ -117629,13 +117715,21 @@
     },
     {
       "type": 0,
-      "value": "Warn errors: "
+      "value": " Varovat chyby: "
     },
     {
       "children": [
         {
+          "type": 0,
+          "value": " "
+        },
+        {
           "type": 1,
           "value": "warnCount"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -118708,7 +118802,7 @@
   "ui-receiving.errors.unableToGenerateClaimsForOrgNoIntegrationDetails": [
     {
       "type": 0,
-      "value": "Unable to generate claims because no claim integrations exist for the organization."
+      "value": "Nelze generovat reklamace, protože pro organizaci neexistují žádné integrace reklamace."
     }
   ],
   "ui-receiving.errors.userHasNoPermission": [
@@ -118960,31 +119054,31 @@
   "ui-receiving.numberGenerator.accessionAndCallNumberSequence": [
     {
       "type": 0,
-      "value": "Accession and call number sequence"
+      "value": "Sekvence přístupových čísel a signatur"
     }
   ],
   "ui-receiving.numberGenerator.accessionNumberSequence": [
     {
       "type": 0,
-      "value": "Accession number sequence"
+      "value": "Sekvence přístupových čísel"
     }
   ],
   "ui-receiving.numberGenerator.barcodeSequence": [
     {
       "type": 0,
-      "value": "Barcode sequence"
+      "value": "Sekvence čárových kódů"
     }
   ],
   "ui-receiving.numberGenerator.callNumberSequence": [
     {
       "type": 0,
-      "value": "Call number sequence"
+      "value": "Sekvence signatur"
     }
   ],
   "ui-receiving.numberGenerator.generateForRow": [
     {
       "type": 0,
-      "value": "Generate numbers for row "
+      "value": "Vygenerovat čísla pro řádek "
     },
     {
       "type": 1,
@@ -118994,13 +119088,13 @@
   "ui-receiving.numberGenerator.generateHelpText": [
     {
       "type": 0,
-      "value": "The selected sequences will be used to generate new numbers. Select \"Generate numbers\" to go ahead."
+      "value": "Vybrané sekvence budou použity ke generování nových čísel. Chcete-li pokračovat, vyberte možnost \"Generovat čísla\"."
     }
   ],
   "ui-receiving.numberGenerator.generateNumbers": [
     {
       "type": 0,
-      "value": "Generate numbers"
+      "value": "Generovat čísla"
     }
   ],
   "ui-receiving.permission.acq-units.assignment.assign": [
@@ -119726,13 +119820,13 @@
   "ui-receiving.piece.sendClaim.withIntegration.message": [
     {
       "type": 0,
-      "value": "This will generate a claim job which can be viewed in Export manager. Continue?"
+      "value": "Tím se vygeneruje úloha reklamace, kterou lze zobrazit ve správci exportu. Pokračovat?"
     }
   ],
   "ui-receiving.piece.sendClaim.withoutIntegration.message": [
     {
       "type": 0,
-      "value": "No claiming integration exists for this organization. Piece will be set to \"Claim sent\" status. Continue?"
+      "value": "Pro tuto organizaci není dostupná žádná integrace reklamací. Položka bude označena jako \"Reklamace odeslána\". Chcete pokračovat?"
     }
   ],
   "ui-receiving.piece.status": [
@@ -121620,7 +121714,7 @@
   "ui-requests-mediated.item.status.claimedReturned": [
     {
       "type": 0,
-      "value": "Údajně vráceno"
+      "value": "Prohlášeno za vrácené"
     }
   ],
   "ui-requests-mediated.item.status.declaredLost": [
@@ -123417,7 +123511,7 @@
   "ui-requests.item.status.claimedReturned": [
     {
       "type": 0,
-      "value": "Údajně vráceno"
+      "value": "Prohlášeno za vrácené"
     }
   ],
   "ui-requests.item.status.declaredLost": [
@@ -124433,7 +124527,7 @@
   "ui-requests.requestUuid": [
     {
       "type": 0,
-      "value": "Request UUID"
+      "value": "UUID požadavku"
     }
   ],
   "ui-requests.requester.barcode": [
@@ -125221,7 +125315,7 @@
   "ui-serials-management.meta.title": [
     {
       "type": 0,
-      "value": "Seriály"
+      "value": "Periodika"
     }
   ],
   "ui-serials-management.month.issue": [
@@ -125243,7 +125337,7 @@
   "ui-serials-management.numberOfCycles.infoPopover": [
     {
       "type": 0,
-      "value": "This controls the number of years of predicted pieces that are to be generated, except in the case of multi-year cycles (e.g. 1 issue every 2 years) where it controls the number of multi-year cycles to be used for prediction. The total number of issues to be predicted cannot be >366 (e.g. one year of daily issues or 30 years of monthly issues). Note that it is recommend not to predict large numbers of years in one go in case the serial changes publication frequency in the future."
+      "value": "Toto řídí počet let predikovaných kusů, které mají být generovány, s výjimkou víceletých cyklů (např. 1 vydání každé 2 roky), kde toto řídí počet víceletých cyklů, které mají být použity pro odhad. Celkový počet odhadovaných výtisků nemůže být >366 (např. jeden rok denních výtisků nebo 30 let měsíčních výtisků). Všimněte si, že se doporučuje odhadovat velký počet let najednou pro případ, že by periodikum v budoucnu změnilo frekvenci vydávání."
     }
   ],
   "ui-serials-management.patternTemplate": [
@@ -125255,7 +125349,7 @@
   "ui-serials-management.patternTemplatePopover": [
     {
       "type": 0,
-      "value": "Search for a pattern template name or description. Then select from the filter list to apply the template and fill out the form below with pre-defined values"
+      "value": "Vyhledejte název nebo popis šablony vzoru. Poté vyberte ze seznamu filtrů šablonu, kterou chcete použít, a vyplňte níže uvedený formulář s předdefinovanými hodnotami"
     }
   ],
   "ui-serials-management.piece.label": [
@@ -125434,7 +125528,7 @@
   "ui-serials-management.pieceSets.overlappingDates.dialog": [
     {
       "type": 0,
-      "value": "A predicted piece set with the start date "
+      "value": "Předpokládaná sada kusů s datem zahájení "
     },
     {
       "children": [
@@ -125448,7 +125542,7 @@
     },
     {
       "type": 0,
-      "value": " already exists for the serial "
+      "value": " již existuje pro periodikum "
     },
     {
       "children": [
@@ -125470,19 +125564,27 @@
     },
     {
       "type": 0,
-      "value": " Generating a new set will result in some overlap between piece sets. If this is acceptable select \"Generate\" to continue."
+      "value": " Vygenerování nové sady povede k určitému překrytí sad kusů. Pokud je toto přijatelné, pokračujte výběrem možnosti \"Generovat\"."
     }
   ],
   "ui-serials-management.pieceSets.overlappingDates.warning": [
     {
       "type": 0,
-      "value": "Warning: A predicted piece set with the start date "
+      "value": "Upozornění: Předpokládaná sada s počátečním datem "
     },
     {
       "children": [
         {
+          "type": 0,
+          "value": " "
+        },
+        {
           "type": 1,
           "value": "startDate"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -125490,13 +125592,21 @@
     },
     {
       "type": 0,
-      "value": " already exists for the serial "
+      "value": " již existuje pro periodikum "
     },
     {
       "children": [
         {
+          "type": 0,
+          "value": " "
+        },
+        {
           "type": 1,
           "value": "serialName"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -126042,7 +126152,7 @@
   "ui-serials-management.ruleset.combinationRulesPopover": [
     {
       "type": 0,
-      "value": "Spuštění tohoto publikačního vzoru vygeneruje předpokládané vydání minimálně za jeden rok. Pravidla spojení lze použít ke spojení sekvencí vydání do jednoho vydání. "
+      "value": "Spuštění tohoto kalendáře publikování vygeneruje předpokládané vydání minimálně za jeden rok. Pravidla spojení lze použít ke spojení sekvencí vydání do jednoho vydání. "
     },
     {
       "type": 1,
@@ -126076,7 +126186,7 @@
   "ui-serials-management.ruleset.copyAndDeprecatePublicationPattern": [
     {
       "type": 0,
-      "value": "Zkopírujte a vyřaďte vzor publikace"
+      "value": "Zkopírujte a vyřaďte kalendář publikování"
     }
   ],
   "ui-serials-management.ruleset.cycleLength": [
@@ -126088,7 +126198,7 @@
   "ui-serials-management.ruleset.cycleLengthPopover": [
     {
       "type": 0,
-      "value": "Doba, kterou trvá dokončení jednoho cyklu vzorce publikace. Například u dvoutýdenní publikace bude délka cyklu dva týdny: \"Časová jednotka\"=Týden a \"Počet týdnů\" = 2"
+      "value": "Doba, kterou trvá dokončení jednoho cyklu kalendáře publikování. Například u dvoutýdenní publikace bude délka cyklu dva týdny: \"Časová jednotka\"=Týden a \"Počet týdnů\" = 2"
     }
   ],
   "ui-serials-management.ruleset.day": [
@@ -126124,7 +126234,7 @@
   "ui-serials-management.ruleset.daysOfPublicationPerCyclePopover": [
     {
       "type": 0,
-      "value": "Den (dny), kdy je vydání publikováno, v rámci jednoho cyklu vzoru publikace. Například: "
+      "value": "Den (dny), kdy je vydání publikováno, v rámci jednoho cyklu kalendáře publikování. Například: "
     },
     {
       "type": 1,
@@ -126178,7 +126288,7 @@
   "ui-serials-management.ruleset.deprecatedPublicationPatterns": [
     {
       "type": 0,
-      "value": "Zastaralé vzory publikování"
+      "value": "Zastaralé kalendáře publikování"
     }
   ],
   "ui-serials-management.ruleset.displaySummaryTemplate": [
@@ -126196,7 +126306,7 @@
   "ui-serials-management.ruleset.editPublicationPattern": [
     {
       "type": 0,
-      "value": "Upravit vzor publikace"
+      "value": "Upravit kalendář publikování"
     }
   ],
   "ui-serials-management.ruleset.enumeration": [
@@ -126448,31 +126558,31 @@
   "ui-serials-management.ruleset.noChronologyLabels": [
     {
       "type": 0,
-      "value": "Žádné chronologické štítky pro tento vzor publikace"
+      "value": "Žádné chronologické štítky pro tento kalendáře publikování"
     }
   ],
   "ui-serials-management.ruleset.noCombinationRules": [
     {
       "type": 0,
-      "value": "Pro tento vzor publikace neexistují žádná pravidla spojení"
+      "value": "Pro tento kalendář publikování neexistují žádná pravidla spojení"
     }
   ],
   "ui-serials-management.ruleset.noEnumerationLabels": [
     {
       "type": 0,
-      "value": "Žádné štítky výčtu pro tento vzor publikace"
+      "value": "Žádné štítky výčtu pro tento kalendář publikování"
     }
   ],
   "ui-serials-management.ruleset.noLabels": [
     {
       "type": 0,
-      "value": "Žádné štítky pro tento vzor publikace"
+      "value": "Žádné štítky pro tento kalendář publikování"
     }
   ],
   "ui-serials-management.ruleset.noOmissionRules": [
     {
       "type": 0,
-      "value": "Žádná pravidla pro vynechání tohoto vzoru publikace"
+      "value": "Žádná pravidla pro vynechání tohoto kalendáře publikování"
     }
   ],
   "ui-serials-management.ruleset.numberOfCycles": [
@@ -126564,7 +126674,7 @@
   "ui-serials-management.ruleset.omissionRulesPopover": [
     {
       "type": 0,
-      "value": "Spuštění tohoto publikačního vzoru vygeneruje předpokládané vydání minimálně za jeden rok. K odstranění jednotlivých vydání lze použít pravidla pro vynechání. "
+      "value": "Spuštění tohoto kalendáře publikování vygeneruje předpokládané vydání minimálně za jeden rok. K odstranění jednotlivých vydání lze použít pravidla pro vynechání. "
     },
     {
       "type": 1,
@@ -126830,7 +126940,7 @@
   "ui-serials-management.rulesets.newPublicationPattern": [
     {
       "type": 0,
-      "value": "Nový vzor publikace"
+      "value": "Nový kalendář publikování"
     }
   ],
   "ui-serials-management.save": [
@@ -126842,7 +126952,7 @@
   "ui-serials-management.serials": [
     {
       "type": 0,
-      "value": "Seriály"
+      "value": "Periodika"
     }
   ],
   "ui-serials-management.serials.addNote": [
@@ -126854,7 +126964,7 @@
   "ui-serials-management.serials.addPublicationPattern": [
     {
       "type": 0,
-      "value": "Přidat vzor publikace"
+      "value": "Přidat kalendář publikování"
     }
   ],
   "ui-serials-management.serials.deleteSerial": [
@@ -126886,7 +126996,7 @@
   "ui-serials-management.serials.deleteSerial.error.hasPublicationPattern": [
     {
       "type": 0,
-      "value": "Periodikum nebylo smazáno, protože obsahuje jeden, nebo více vzorů zveřejnění."
+      "value": "Periodikum nebylo smazáno, protože obsahuje jeden, nebo více kalendáře publikování."
     }
   ],
   "ui-serials-management.serials.deleteSerial.error.noDeleteSerialBackendError": [
@@ -126934,7 +127044,7 @@
   "ui-serials-management.serials.editSerial": [
     {
       "type": 0,
-      "value": "Upravit seriál"
+      "value": "Upravit periodikum"
     }
   ],
   "ui-serials-management.serials.location": [
@@ -126946,7 +127056,7 @@
   "ui-serials-management.serials.newSerial": [
     {
       "type": 0,
-      "value": "Nový seriál"
+      "value": "Nové periodikum"
     }
   ],
   "ui-serials-management.serials.note": [
@@ -126964,7 +127074,7 @@
   "ui-serials-management.serials.notes.isEmptyMessage": [
     {
       "type": 0,
-      "value": "S tímto seriálem nejsou spojeny žádné poznámky"
+      "value": "S tímto periodikem nejsou spojeny žádné poznámky"
     }
   ],
   "ui-serials-management.serials.poLineNumber": [
@@ -126988,13 +127098,13 @@
   "ui-serials-management.serials.publicationPattern": [
     {
       "type": 0,
-      "value": "Vzor publikace"
+      "value": "kalendář publikování"
     }
   ],
   "ui-serials-management.serials.publicationPattern.noActivePattern": [
     {
       "type": 0,
-      "value": "Seriál nemá žádné aktivní vzory publikování"
+      "value": "Periodikum nemá žádné aktivní kalendáře publikování"
     }
   ],
   "ui-serials-management.serials.removeNoteIndex": [
@@ -127010,7 +127120,7 @@
   "ui-serials-management.serials.serial": [
     {
       "type": 0,
-      "value": "Seriál"
+      "value": "Periodikum"
     }
   ],
   "ui-serials-management.serials.status": [
@@ -127058,7 +127168,7 @@
   "ui-serials-management.validate.allowedCycles": [
     {
       "type": 0,
-      "value": "For this publication pattern it is only possible to generate issues for up to "
+      "value": "U tohoto kalendáře publikování je možné generovat vydání pouze pro maximálně "
     },
     {
       "type": 1,
@@ -127066,7 +127176,7 @@
     },
     {
       "type": 0,
-      "value": " years/cycles at one time to avoid generating very large piece sets"
+      "value": " let/cyklů najednou, aby se zabránilo generování velmi velkých sad kusů"
     }
   ],
   "ui-serials-management.validate.greaterThanOne": [
@@ -127908,23 +128018,7 @@
   "ui-service-interaction.settings.numberGeneratorSequences.preChecksumTemplate.info": [
     {
       "type": 0,
-      "value": "Vytvořit pravidla pro definování čísla, které se má zadat při výpočtu kontrolní číslice. Prefix i suffix lze šablonovat pomocí značky Groovy. Jako zástupný symbol pro vygenerované číslo použijte $ "
-    },
-    {
-      "type": 1,
-      "value": "generated_number"
-    },
-    {
-      "type": 0,
-      "value": ". Např. 05 $ "
-    },
-    {
-      "type": 1,
-      "value": "generated_number"
-    },
-    {
-      "type": 0,
-      "value": " 01"
+      "value": "Vytvoření pravidel pro definování čísla, které se má zadat při výpočtu kontrolní číslice. Prefix i sufix lze vytvořit pomocí značek Groovy. Jako zástupný znak pro generované číslo použijte ${generated_number}. Např. 05${generated_number}01"
     }
   ],
   "ui-service-interaction.settings.numberGeneratorSequences.prefix": [
@@ -132452,7 +132546,7 @@
     },
     {
       "type": 0,
-      "value": " údajně vrácena(é)."
+      "value": " prohlášena za vrácenou(né)."
     }
   ],
   "ui-users.bulkClaimReturned.items.ok": [
@@ -132476,25 +132570,25 @@
     },
     {
       "type": 0,
-      "value": " je/jsou vrácena(é)."
+      "value": " prohlášena za vrácenou(né)."
     }
   ],
   "ui-users.bulkClaimReturned.moreInfoPlaceholder": [
     {
       "type": 0,
-      "value": "Zadat další informace o nároku (povinné)"
+      "value": "Zadat další informace o prohlášení (povinné)"
     }
   ],
   "ui-users.bulkClaimReturned.postConfirm": [
     {
       "type": 0,
-      "value": "Potvrzení údajného vrácení"
+      "value": "Potvrzení prohlášení za vrácené"
     }
   ],
   "ui-users.bulkClaimReturned.preConfirm": [
     {
       "type": 0,
-      "value": "Potvrdit údajné vrácení"
+      "value": "Potvrdit prohlášení za vrácené"
     }
   ],
   "ui-users.bulkClaimReturned.status": [
@@ -132506,13 +132600,13 @@
   "ui-users.bulkClaimReturned.status.notOk": [
     {
       "type": 0,
-      "value": "Jednotku nebylo možné reklamovat jako vrácenou: jednotka již byla údajně vrácena"
+      "value": "Jednotku nebylo možné reklamovat jako vrácenou: jednotka již byla prohlášena za vrácenou"
     }
   ],
   "ui-users.bulkClaimReturned.status.ok": [
     {
       "type": 0,
-      "value": "Jednotka byla úspěšně vrácená"
+      "value": "Jednotka byla úspěšně prohlášena za vrácenou"
     }
   ],
   "ui-users.bulkClaimReturned.summary": [
@@ -133071,7 +133165,7 @@
   "ui-users.data.loanActionMap.claimedReturned": [
     {
       "type": 0,
-      "value": "Údajně vráceno"
+      "value": "Prohlášeno za vrácené"
     }
   ],
   "ui-users.data.loanActionMap.closedLoan": [
@@ -135066,13 +135160,13 @@
   "ui-users.loans.confirmClaimReturned": [
     {
       "type": 0,
-      "value": "Potvrdit údajné vrácení"
+      "value": "Potvrdit prohlášení za vrácenou"
     }
   ],
   "ui-users.loans.confirmClaimedReturned": [
     {
       "type": 0,
-      "value": "Potvrďte stav jednotky: Údajně vrácená"
+      "value": "Potvrďte stav jednotky: Prohlášeno za vrácené"
     }
   ],
   "ui-users.loans.confirmDeclaredLost": [
@@ -135868,7 +135962,7 @@
   "ui-users.loans.resolveClaim": [
     {
       "type": 0,
-      "value": "Vyřešit nárok"
+      "value": "Vyřešit reklamaci"
     }
   ],
   "ui-users.loans.rows.select": [
@@ -136768,7 +136862,7 @@
   "ui-users.metadata.updatedDate": [
     {
       "type": 0,
-      "value": "Aktualizované datum"
+      "value": "Datum aktualizace"
     }
   ],
   "ui-users.no": [
@@ -137072,7 +137166,7 @@
   "ui-users.permission.loans-claim-item-returned.execute": [
     {
       "type": 0,
-      "value": "Uživatelé: Uživatelské výpůjčky vráceny"
+      "value": "Uživatelé: Uživatelské výpůjčky prohlášeny za vrácené"
     }
   ],
   "ui-users.permission.loans-declare-claimed-returned-item-as-missing.execute": [
@@ -138643,7 +138737,7 @@
   "ui-users.reports.claimReturned.label": [
     {
       "type": 0,
-      "value": "Výstup výpůjček označených jako údajně vrácené (CSV)"
+      "value": "Výstup výpůjček označených jako prohlášeno za vrácené (CSV)"
     }
   ],
   "ui-users.reports.dueDate": [
@@ -140359,7 +140453,7 @@
   "ui-users.stagingRecords.duplicates.results.warning": [
     {
       "type": 0,
-      "value": "Please review existing FOLIO user records. Merging a preregistration record will replace corresponding fields in the FOLIO user record. Updates cannot be reverted."
+      "value": "Zkontrolujte prosím stávající uživatelské záznamy FOLIO. Sloučení záznamu o předběžné registraci nahradí odpovídající pole v uživatelském záznamu FOLIO. Aktualizace nelze vrátit zpět."
     }
   ],
   "ui-users.stagingRecords.list.columnNames.action": [
@@ -140473,7 +140567,7 @@
   "ui-users.stagingRecords.search.label": [
     {
       "type": 0,
-      "value": "Staging records search"
+      "value": "Vyhledávání etapových záznamů"
     }
   ],
   "ui-users.stagingRecords.search.placeholder": [

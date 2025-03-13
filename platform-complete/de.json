@@ -77535,37 +77535,59 @@
   "ui-inventory.numberGenerator.generateAccessionAndCallNumber": [
     {
       "type": 0,
-      "value": "Generate accession and call numbers"
+      "value": "Zugangsnummer und Signatur generieren"
     }
   ],
   "ui-inventory.numberGenerator.generateAccessionAndCallNumberWarning": [
     {
       "type": 0,
-      "value": "Both accession number and call number will be filled from this action, using a sequence from the Inventory: Accession number generator."
+      "value": "Zugangsnummer und Signatur werden beide gleichzeitig durch einen Nummernkreis vom Zugangsnummer-Generator ausgefüllt."
     }
   ],
   "ui-inventory.numberGenerator.generateAccessionNumber": [
     {
       "type": 0,
-      "value": "Generate accession number"
+      "value": "Zugangsnummer generieren"
     }
   ],
   "ui-inventory.numberGenerator.generateBarcode": [
     {
       "type": 0,
-      "value": "Generate barcode"
+      "value": "Barcode generieren"
     }
   ],
   "ui-inventory.numberGenerator.generateCallNumber": [
     {
       "type": 0,
-      "value": "Generate call number"
+      "value": "Signatur generieren"
     }
   ],
   "ui-inventory.numberGenerator.info": [
     {
       "type": 0,
       "value": "Felder, die normalerweise Nummernkreise nutzen, könnten einen Nummerngenerator verwenden. Wenn der Generator aktiviert ist, kann das Feld entweder vor manueller Aktualisierung geschützt werden oder editierbar sein. Wenn der Generator deaktiviert ist, kann das Feld nur manuell verwendet werden."
+    }
+  ],
+  "ui-inventory.numberGenerator.infoAdditional": [
+    {
+      "type": 0,
+      "value": "Additional number generator settings are available under "
+    },
+    {
+      "type": 1,
+      "value": "serviceInteractionLink"
+    },
+    {
+      "type": 0,
+      "value": ". At "
+    },
+    {
+      "type": 1,
+      "value": "numberGeneratorSequencesLink"
+    },
+    {
+      "type": 0,
+      "value": " sequences can be defined by selecting the appropriate generator via the drop-down menu."
     }
   ],
   "ui-inventory.numberGenerator.options": [

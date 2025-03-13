@@ -15628,7 +15628,7 @@
   "ui-agreements.agreementLines.customCoverageIndicator": [
     {
       "type": 0,
-      "value": "Maatwerkdekkingsindicator"
+      "value": "Indicator maatwerkdekking "
     }
   ],
   "ui-agreements.agreementLines.customCoverageTitle": [
@@ -18134,7 +18134,7 @@
   "ui-agreements.eresources.pauseSyncSelectedPackages": [
     {
       "type": 0,
-      "value": "Pause synchronisation of selected packages"
+      "value": "Pauzeer synchronisatie van geselecteerde pakketten"
     }
   ],
   "ui-agreements.eresources.platform": [
@@ -18296,7 +18296,7 @@
   "ui-agreements.eresources.startSyncSelectedPackages": [
     {
       "type": 0,
-      "value": "Start synchronisation of selected packages"
+      "value": "Start synchronisatie van geselecteerde pakketten"
     }
   ],
   "ui-agreements.eresources.status": [
@@ -18332,25 +18332,25 @@
   "ui-agreements.eresources.syncMultiplePackagesError": [
     {
       "type": 0,
-      "value": "Error. Unable to update the synchronisation status of the packages."
+      "value": "Fout. Kan de synchronisatiestatus van de pakketten niet bijwerken."
     }
   ],
   "ui-agreements.eresources.syncMultiplePackagesSuccess.PAUSED": [
     {
       "type": 0,
-      "value": "Packages have been paused"
+      "value": "Pakketten zijn gepauzeerd"
     }
   ],
   "ui-agreements.eresources.syncMultiplePackagesSuccess.SYNCHRONIZING": [
     {
       "type": 0,
-      "value": "Packages will synchronise"
+      "value": "Pakketten worden gesynchroniseerd"
     }
   ],
   "ui-agreements.eresources.syncPackageError": [
     {
       "type": 0,
-      "value": "Error. Unable to update the synchronisation status of the package."
+      "value": "Fout. Kan de synchronisatiestatus van het pakket niet bijwerken."
     }
   ],
   "ui-agreements.eresources.syncPackageSuccess.PAUSED": [
@@ -62181,7 +62181,7 @@
   "ui-finance.transaction.validation.totalAllocatedExceeded": [
     {
       "type": 0,
-      "value": "Total allocation cannot be less than zero"
+      "value": "De totale toewijzing kan niet minder dan nul zijn"
     }
   ],
   "ui-finance.transaction.voided": [
@@ -67416,7 +67416,7 @@
   "ui-inventory.callNumberBrowse": [
     {
       "type": 0,
-      "value": "Call number browse"
+      "value": "Etiketnummer zoeken"
     }
   ],
   "ui-inventory.callNumberPrefix": [
@@ -71319,13 +71319,13 @@
   "ui-inventory.numberGenerator.accessionNumber": [
     {
       "type": 0,
-      "value": "Accession number"
+      "value": "Registratienummer"
     }
   ],
   "ui-inventory.numberGenerator.accessionNumberEqualCallNumber": [
     {
       "type": 0,
-      "value": "Use the same generated number for accession number and call number"
+      "value": "Gebruik hetzelfde gegenereerde nummer voor registratienummer en vindplaats"
     }
   ],
   "ui-inventory.numberGenerator.accessionNumberEqualCallNumber.warning": [
@@ -71343,7 +71343,7 @@
   "ui-inventory.numberGenerator.callNumber": [
     {
       "type": 0,
-      "value": "Call number"
+      "value": "Etiketnummer"
     }
   ],
   "ui-inventory.numberGenerator.generateAccessionAndCallNumber": [
@@ -71355,7 +71355,7 @@
   "ui-inventory.numberGenerator.generateAccessionAndCallNumberWarning": [
     {
       "type": 0,
-      "value": "Both accession number and call number will be filled from this action, using a sequence from the Inventory: Accession number generator."
+      "value": "Zowel het registratienummer als de vindplaats worden vanuit deze actie ingevuld, met behulp van een reeks uit het Collectiebezit: Registratienummer generator."
     }
   ],
   "ui-inventory.numberGenerator.generateAccessionNumber": [
@@ -71379,7 +71379,29 @@
   "ui-inventory.numberGenerator.info": [
     {
       "type": 0,
-      "value": "Fields which are usually filled using a numeric sequence can use the number generator. When the generator is switched on the field can either be fixed to prevent manual update, or made fully editable. When switched off, the field must be filled manually."
+      "value": "Velden die gewoonlijk worden ingevuld met een numerieke reeks kunnen de nummergenerator gebruiken. Wanneer de generator is ingeschakeld, kan het veld worden vastgezet om een handmatige update te voorkomen, of het kan volledig bewerkbaar worden gemaakt. Wanneer uitgeschakeld, moet het veld handmatig worden ingevuld."
+    }
+  ],
+  "ui-inventory.numberGenerator.infoAdditional": [
+    {
+      "type": 0,
+      "value": "Additional number generator settings are available under "
+    },
+    {
+      "type": 1,
+      "value": "serviceInteractionLink"
+    },
+    {
+      "type": 0,
+      "value": ". At "
+    },
+    {
+      "type": 1,
+      "value": "numberGeneratorSequencesLink"
+    },
+    {
+      "type": 0,
+      "value": " sequences can be defined by selecting the appropriate generator via the drop-down menu."
     }
   ],
   "ui-inventory.numberGenerator.options": [
@@ -72873,7 +72895,7 @@
   "ui-inventory.settings.instanceCallNumber.all": [
     {
       "type": 0,
-      "value": "Call numbers (all)"
+      "value": "Etiketnummers (alle)"
     }
   ],
   "ui-inventory.settings.instanceCallNumber.dewey": [
@@ -73683,25 +73705,25 @@
   "ui-inventory.versionHistory.action.added": [
     {
       "type": 0,
-      "value": "Added"
+      "value": "Toegevoegd"
     }
   ],
   "ui-inventory.versionHistory.action.edited": [
     {
       "type": 0,
-      "value": "Edited"
+      "value": "Bewerkt"
     }
   ],
   "ui-inventory.versionHistory.action.removed": [
     {
       "type": 0,
-      "value": "Removed"
+      "value": "Verwijderd"
     }
   ],
   "ui-inventory.versionHistory.anonymousUser": [
     {
       "type": 0,
-      "value": "Anonymous user"
+      "value": "Anonieme gebruiker"
     }
   ],
   "ui-inventory.viewAndReorderRequestsQueue": [
@@ -98920,7 +98942,7 @@
   "ui-organizations.settings.numberGeneratorOptions.info": [
     {
       "type": 0,
-      "value": "Fields which are usually filled using a numeric sequence can use the number generator. When the generator is switched on the field can either be fixed to prevent manual update, or made fully editable. When switched off, the field must be filled manually."
+      "value": "Velden die gewoonlijk worden ingevuld met een numerieke reeks kunnen de nummergenerator gebruiken. Wanneer de generator is ingeschakeld, kan het veld worden vastgezet om een handmatige update te voorkomen, of het kan volledig bewerkbaar worden gemaakt. Wanneer uitgeschakeld, moet het veld handmatig worden ingevuld."
     }
   ],
   "ui-organizations.settings.numberGeneratorOptions.infoAdditional": [
@@ -111095,7 +111117,7 @@
   "ui-receiving.numberGenerator.accessionNumberSequence": [
     {
       "type": 0,
-      "value": "Accession number sequence"
+      "value": "Registratienummer volgorde"
     }
   ],
   "ui-receiving.numberGenerator.barcodeSequence": [
@@ -111107,7 +111129,7 @@
   "ui-receiving.numberGenerator.callNumberSequence": [
     {
       "type": 0,
-      "value": "Call number sequence"
+      "value": "Etiketnummer volgorde"
     }
   ],
   "ui-receiving.numberGenerator.generateForRow": [
@@ -119514,7 +119536,7 @@
   "ui-service-interaction.settings.numberGeneratorSequences.preChecksumTemplate.info": [
     {
       "type": 0,
-      "value": "Create rules to define the number to be inputted when calculating the check digit. Both the prefix and suffix can be templated, using Groovy markup. Use ${generated_number} as placeholder for the generated number. E.g. 05${generated_number}01"
+      "value": "Maak regels aan om het nummer te definiëren dat moet worden ingevoerd bij het berekenen van het controlecijfer. Zowel het voorvoegsel als het achtervoegsel kunnen worden getemplate, met behulp van Groovy-markup. Gebruik ${generated_number} als placeholder voor het gegenereerde nummer. Bijv. 05${generated_number}01"
     }
   ],
   "ui-service-interaction.settings.numberGeneratorSequences.prefix": [

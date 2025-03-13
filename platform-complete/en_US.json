@@ -61994,7 +61994,7 @@
   "ui-erm-usage.report.upload.info": [
     {
       "type": 0,
-      "value": "It is possible to upload Counter 4 (XML & CSV) or Counter 5 (JSON & CSV) usage statistics"
+      "value": "It is possible to upload Counter 4 (XML & CSV) or Counter 5 (JSON & CSV) or Counter 5.1 (JSON) usage statistics"
     }
   ],
   "ui-erm-usage.report.upload.modal.label": [
@@ -77445,6 +77445,28 @@
     {
       "type": 0,
       "value": "Fields which are usually filled using a numeric sequence can use the number generator. When the generator is switched on the field can either be fixed to prevent manual update, or made fully editable. When switched off, the field must be filled manually."
+    }
+  ],
+  "ui-inventory.numberGenerator.infoAdditional": [
+    {
+      "type": 0,
+      "value": "Additional number generator settings are available under "
+    },
+    {
+      "type": 1,
+      "value": "serviceInteractionLink"
+    },
+    {
+      "type": 0,
+      "value": ". At "
+    },
+    {
+      "type": 1,
+      "value": "numberGeneratorSequencesLink"
+    },
+    {
+      "type": 0,
+      "value": " sequences can be defined by selecting the appropriate generator via the drop-down menu."
     }
   ],
   "ui-inventory.numberGenerator.options": [
