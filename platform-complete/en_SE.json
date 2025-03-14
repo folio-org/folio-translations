@@ -67137,6 +67137,30 @@
       "value": " and ledger fund restrictions are active"
     }
   ],
+  "ui-finance.transaction.allocation.decrease.hasBeenCreated": [
+    {
+      "type": 0,
+      "value": "Budget "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "budgetName"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " allocation was successfully decreased by "
+    },
+    {
+      "type": 1,
+      "value": "amount"
+    }
+  ],
   "ui-finance.transaction.allocation.genericError": [
     {
       "type": 1,
@@ -67163,6 +67187,26 @@
     {
       "type": 1,
       "value": "budgetName"
+    }
+  ],
+  "ui-finance.transaction.allocation.increase.hasBeenCreated": [
+    {
+      "type": 1,
+      "value": "amount"
+    },
+    {
+      "type": 0,
+      "value": " was successfully allocated to the budget "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "budgetName"
+        }
+      ],
+      "type": 8,
+      "value": "b"
     }
   ],
   "ui-finance.transaction.allocation.notEnoughMoneyForAllocationError": [
