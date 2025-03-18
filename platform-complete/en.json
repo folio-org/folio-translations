@@ -33344,6 +33344,20 @@
       "value": " closes"
     }
   ],
+  "ui-circulation.settings.loanHistory.afterCloseOrSuspended": [
+    {
+      "type": 0,
+      "value": "after "
+    },
+    {
+      "type": 1,
+      "value": "name"
+    },
+    {
+      "type": 0,
+      "value": " closes (or is suspended)"
+    }
+  ],
   "ui-circulation.settings.loanHistory.anonymize": [
     {
       "type": 0,
@@ -33398,6 +33412,20 @@
     {
       "type": 0,
       "value": " closes"
+    }
+  ],
+  "ui-circulation.settings.loanHistory.immediatelyAfterCloseOrSuspended": [
+    {
+      "type": 0,
+      "value": "Immediately after "
+    },
+    {
+      "type": 1,
+      "value": "name"
+    },
+    {
+      "type": 0,
+      "value": " closes (or is suspended)"
     }
   ],
   "ui-circulation.settings.loanHistory.interval": [
@@ -59064,13 +59092,13 @@
   "ui-eholdings.titlesList.customCoverage": [
     {
       "type": 0,
-      "value": "Custom coverage dates"
+      "value": "Custom coverage"
     }
   ],
   "ui-eholdings.titlesList.managedCoverage": [
     {
       "type": 0,
-      "value": "Managed coverage dates"
+      "value": "Managed coverage"
     }
   ],
   "ui-eholdings.titlesList.managedEmbargo": [
@@ -59083,6 +59111,12 @@
     {
       "type": 0,
       "value": "Status"
+    }
+  ],
+  "ui-eholdings.titlesList.tags": [
+    {
+      "type": 0,
+      "value": "Tag(s)"
     }
   ],
   "ui-eholdings.titlesList.title": [
