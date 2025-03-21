@@ -59146,13 +59146,13 @@
   "ui-eholdings.titlesList.customCoverage": [
     {
       "type": 0,
-      "value": "Custom coverage dates"
+      "value": "Custom coverage"
     }
   ],
   "ui-eholdings.titlesList.managedCoverage": [
     {
       "type": 0,
-      "value": "Managed coverage dates"
+      "value": "Managed coverage"
     }
   ],
   "ui-eholdings.titlesList.managedEmbargo": [
@@ -67333,8 +67333,14 @@
       "value": " was not successfully allocated to the budget "
     },
     {
-      "type": 1,
-      "value": "budgetName"
+      "children": [
+        {
+          "type": 1,
+          "value": "budgetName"
+        }
+      ],
+      "type": 8,
+      "value": "b"
     }
   ],
   "ui-finance.transaction.allocation.hasBeenCreated": [
@@ -67751,8 +67757,14 @@
       "value": " was not successfully transferred to the budget "
     },
     {
-      "type": 1,
-      "value": "budgetName"
+      "children": [
+        {
+          "type": 1,
+          "value": "budgetName"
+        }
+      ],
+      "type": 8,
+      "value": "b"
     }
   ],
   "ui-finance.transaction.transfer.hasBeenCreated": [
@@ -67765,8 +67777,14 @@
       "value": " was successfully transferred to the budget "
     },
     {
-      "type": 1,
-      "value": "budgetName"
+      "children": [
+        {
+          "type": 1,
+          "value": "budgetName"
+        }
+      ],
+      "type": 8,
+      "value": "b"
     }
   ],
   "ui-finance.transaction.transfer.missingFundId": [
@@ -130428,7 +130446,7 @@
   "ui-users.accounts.chargeManual": [
     {
       "type": 0,
-      "value": "Create fee/fine"
+      "value": "New fee/fine"
     }
   ],
   "ui-users.accounts.closed": [
@@ -130578,7 +130596,7 @@
   "ui-users.accounts.exportFeesFines": [
     {
       "type": 0,
-      "value": "Export fees/fines"
+      "value": "Export fees/fines (CSV)"
     }
   ],
   "ui-users.accounts.feeFine": [
@@ -131950,7 +131968,7 @@
   "ui-users.blocks.buttons.add": [
     {
       "type": 0,
-      "value": "Create block"
+      "value": "New block"
     }
   ],
   "ui-users.blocks.closeButton": [
@@ -139513,7 +139531,7 @@
   "ui-users.requests.createRequest": [
     {
       "type": 0,
-      "value": "Create request"
+      "value": "New request"
     }
   ],
   "ui-users.requests.defaultDeliveryAddress": [

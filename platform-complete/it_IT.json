@@ -59229,13 +59229,13 @@
   "ui-eholdings.titlesList.customCoverage": [
     {
       "type": 0,
-      "value": "Custom coverage dates"
+      "value": "Custom coverage"
     }
   ],
   "ui-eholdings.titlesList.managedCoverage": [
     {
       "type": 0,
-      "value": "Managed coverage dates"
+      "value": "Managed coverage"
     }
   ],
   "ui-eholdings.titlesList.managedEmbargo": [
@@ -67894,8 +67894,14 @@
       "value": " was not successfully transferred to the budget "
     },
     {
-      "type": 1,
-      "value": "budgetName"
+      "children": [
+        {
+          "type": 1,
+          "value": "budgetName"
+        }
+      ],
+      "type": 8,
+      "value": "b"
     }
   ],
   "ui-finance.transaction.transfer.hasBeenCreated": [
@@ -130859,7 +130865,7 @@
   "ui-users.accounts.exportFeesFines": [
     {
       "type": 0,
-      "value": "Export fees/fines"
+      "value": "Export fees/fines (CSV)"
     }
   ],
   "ui-users.accounts.feeFine": [

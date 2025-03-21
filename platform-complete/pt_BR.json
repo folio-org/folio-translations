@@ -33341,15 +33341,11 @@
   "ui-circulation.settings.loanHistory.afterCloseOrSuspended": [
     {
       "type": 0,
-      "value": "after "
+      "value": "após fechamento (ou suspensão) de "
     },
     {
       "type": 1,
       "value": "name"
-    },
-    {
-      "type": 0,
-      "value": " closes (or is suspended)"
     }
   ],
   "ui-circulation.settings.loanHistory.anonymize": [
@@ -33411,15 +33407,11 @@
   "ui-circulation.settings.loanHistory.immediatelyAfterCloseOrSuspended": [
     {
       "type": 0,
-      "value": "Immediately after "
+      "value": "Imediatamente após o fechamento (ou suspensão) de "
     },
     {
       "type": 1,
       "value": "name"
-    },
-    {
-      "type": 0,
-      "value": " closes (or is suspended)"
     }
   ],
   "ui-circulation.settings.loanHistory.interval": [
@@ -59540,13 +59532,13 @@
   "ui-eholdings.titlesList.customCoverage": [
     {
       "type": 0,
-      "value": "Datas de cobertura personalizadas"
+      "value": "Cobertura personalizada"
     }
   ],
   "ui-eholdings.titlesList.managedCoverage": [
     {
       "type": 0,
-      "value": "Datas de cobertura gerenciadas"
+      "value": "Cobertura gerenciada"
     }
   ],
   "ui-eholdings.titlesList.managedEmbargo": [
@@ -62386,7 +62378,7 @@
   "ui-erm-usage.report.upload.info": [
     {
       "type": 0,
-      "value": "É possível carregar estatísticas de uso Counter 4 (XML & CSV) ou Counter 5 (JSON & CSV)"
+      "value": "É possível carregar estatísticas de uso Counter 4 (XML e CSV) ou Counter 5 (JSON e CSV) ou Counter 5.1 (JSON)"
     }
   ],
   "ui-erm-usage.report.upload.modal.label": [
@@ -67790,7 +67782,7 @@
   "ui-finance.transaction.allocation.decrease.hasBeenCreated": [
     {
       "type": 0,
-      "value": "Budget "
+      "value": "Orçamento "
     },
     {
       "children": [
@@ -67804,7 +67796,7 @@
     },
     {
       "type": 0,
-      "value": " allocation was successfully decreased by "
+      "value": " foi reduzido com sucesso em "
     },
     {
       "type": 1,
@@ -67818,11 +67810,17 @@
     },
     {
       "type": 0,
-      "value": " não foi alocado com sucesso para o orçamento "
+      "value": " não foi alocado com sucesso no orçamento "
     },
     {
-      "type": 1,
-      "value": "budgetName"
+      "children": [
+        {
+          "type": 1,
+          "value": "budgetName"
+        }
+      ],
+      "type": 8,
+      "value": "b"
     }
   ],
   "ui-finance.transaction.allocation.hasBeenCreated": [
@@ -67846,7 +67844,7 @@
     },
     {
       "type": 0,
-      "value": " was successfully allocated to the budget "
+      "value": " foi alocado com sucesso no orçamento "
     },
     {
       "children": [
@@ -68263,8 +68261,14 @@
       "value": " não foi transferido com sucesso para o orçamento "
     },
     {
-      "type": 1,
-      "value": "budgetName"
+      "children": [
+        {
+          "type": 1,
+          "value": "budgetName"
+        }
+      ],
+      "type": 8,
+      "value": "b"
     }
   ],
   "ui-finance.transaction.transfer.hasBeenCreated": [
@@ -68277,8 +68281,14 @@
       "value": " foi transferido com sucesso para o orçamento "
     },
     {
-      "type": 1,
-      "value": "budgetName"
+      "children": [
+        {
+          "type": 1,
+          "value": "budgetName"
+        }
+      ],
+      "type": 8,
+      "value": "b"
     }
   ],
   "ui-finance.transaction.transfer.missingFundId": [
@@ -78058,7 +78068,7 @@
   "ui-inventory.numberGenerator.infoAdditional": [
     {
       "type": 0,
-      "value": "Additional number generator settings are available under "
+      "value": "Configurações adicionais do gerador de números estão disponíveis em "
     },
     {
       "type": 1,
@@ -78066,7 +78076,7 @@
     },
     {
       "type": 0,
-      "value": ". At "
+      "value": ". Em "
     },
     {
       "type": 1,
@@ -78074,7 +78084,7 @@
     },
     {
       "type": 0,
-      "value": " sequences can be defined by selecting the appropriate generator via the drop-down menu."
+      "value": " as sequências podem ser definidas selecionando o gerador apropriado no menu suspenso."
     }
   ],
   "ui-inventory.numberGenerator.options": [
@@ -131782,7 +131792,7 @@
   "ui-users.accounts.chargeManual": [
     {
       "type": 0,
-      "value": "Criar taxa/multa"
+      "value": "Nova taxa/multa"
     }
   ],
   "ui-users.accounts.closed": [
@@ -131932,7 +131942,7 @@
   "ui-users.accounts.exportFeesFines": [
     {
       "type": 0,
-      "value": "Exportar taxas/multa"
+      "value": "Exportar taxas/multa (CSV)"
     }
   ],
   "ui-users.accounts.feeFine": [
@@ -133298,7 +133308,7 @@
   "ui-users.blocks.buttons.add": [
     {
       "type": 0,
-      "value": "Criar suspensão"
+      "value": "Nova suspensão"
     }
   ],
   "ui-users.blocks.closeButton": [
@@ -141063,7 +141073,7 @@
   "ui-users.requests.createRequest": [
     {
       "type": 0,
-      "value": "Criar requisição"
+      "value": "Nova requisição"
     }
   ],
   "ui-users.requests.defaultDeliveryAddress": [
