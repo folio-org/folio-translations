@@ -136802,6 +136802,18 @@
       "value": "User note"
     }
   ],
+  "ui-users.numberGenerator.barcodeGenerator": [
+    {
+      "type": 0,
+      "value": "User barcode generator"
+    }
+  ],
+  "ui-users.numberGenerator.generateBarcode": [
+    {
+      "type": 0,
+      "value": "Generate user barcode"
+    }
+  ],
   "ui-users.okay": [
     {
       "type": 0,
@@ -137538,6 +137550,12 @@
     {
       "type": 0,
       "value": "Settings (Users): Can view manual charges"
+    }
+  ],
+  "ui-users.permission.settings.number-generator-options.all": [
+    {
+      "type": 0,
+      "value": "Settings (Users): Can create, edit, and view  number generator options"
     }
   ],
   "ui-users.permission.settings.owners": [
@@ -140091,6 +140109,64 @@
     {
       "type": 0,
       "value": "Manual charges"
+    }
+  ],
+  "ui-users.settings.numberGenerator.barcode": [
+    {
+      "type": 0,
+      "value": "Barcode"
+    }
+  ],
+  "ui-users.settings.numberGenerator.info": [
+    {
+      "type": 0,
+      "value": "Fields which are usually filled using a numeric sequence can use the number generator. When the generator is switched on the field can either be fixed to prevent manual update, or made fully editable. When switched off, the field must be filled manually."
+    }
+  ],
+  "ui-users.settings.numberGenerator.infoAdditional": [
+    {
+      "type": 0,
+      "value": "Additional number generator settings are available under "
+    },
+    {
+      "type": 1,
+      "value": "serviceInteractionLink"
+    },
+    {
+      "type": 0,
+      "value": ". At "
+    },
+    {
+      "type": 1,
+      "value": "numberGeneratorSequencesLink"
+    },
+    {
+      "type": 0,
+      "value": " sequences can be defined by selecting the appropriate generator via the drop-down menu."
+    }
+  ],
+  "ui-users.settings.numberGenerator.options": [
+    {
+      "type": 0,
+      "value": "Number generator options"
+    }
+  ],
+  "ui-users.settings.numberGenerator.options.off": [
+    {
+      "type": 0,
+      "value": "Off"
+    }
+  ],
+  "ui-users.settings.numberGenerator.options.onEditable": [
+    {
+      "type": 0,
+      "value": "On, field editable"
+    }
+  ],
+  "ui-users.settings.numberGenerator.options.onNotEditable": [
+    {
+      "type": 0,
+      "value": "On, field not editable"
     }
   ],
   "ui-users.settings.owners": [
