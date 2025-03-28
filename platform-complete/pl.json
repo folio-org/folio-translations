@@ -62001,6 +62001,12 @@
       "value": "Żądający nie ma uprawnień dostępu do danych o użyciu dla instytucji"
     }
   ],
+  "ui-erm-usage.report.error.2011": [
+    {
+      "type": 0,
+      "value": "Global Reports Not Supported"
+    }
+  ],
   "ui-erm-usage.report.error.2020": [
     {
       "type": 0,
@@ -62037,6 +62043,12 @@
       "value": "Dane o użyciu nie są gotowe do żądanych dat"
     }
   ],
+  "ui-erm-usage.report.error.3032": [
+    {
+      "type": 0,
+      "value": "Usage No Longer Available for Requested Dates"
+    }
+  ],
   "ui-erm-usage.report.error.3040": [
     {
       "type": 0,
@@ -62065,6 +62077,12 @@
     {
       "type": 0,
       "value": "Nieprawidłowa wartość ReportAttribute"
+    }
+  ],
+  "ui-erm-usage.report.error.3063": [
+    {
+      "type": 0,
+      "value": "Components Not Supported"
     }
   ],
   "ui-erm-usage.report.error.3070": [
@@ -72663,13 +72681,13 @@
   "ui-inventory.acq.orderType.One-Time": [
     {
       "type": 0,
-      "value": "Jednorazowo"
+      "value": "Jednorazowy"
     }
   ],
   "ui-inventory.acq.orderType.Ongoing": [
     {
       "type": 0,
-      "value": "W trakcie realizacji"
+      "value": "Trwający"
     }
   ],
   "ui-inventory.acq.polNumber": [
@@ -72681,13 +72699,13 @@
   "ui-inventory.acq.receiptDate": [
     {
       "type": 0,
-      "value": "Data otrzymania części"
+      "value": "Piece receipt date"
     }
   ],
   "ui-inventory.acq.receiptStatus": [
     {
       "type": 0,
-      "value": "Status odbioru pozycji zamówienia"
+      "value": "Status rachunku pozycji zamówienia"
     }
   ],
   "ui-inventory.acq.receiptStatus.Awaiting Receipt": [
@@ -75353,11 +75371,15 @@
   "ui-inventory.instance.linked.id": [
     {
       "type": 0,
-      "value": "Połączony ID instancji - "
+      "value": "ID - "
     },
     {
       "type": 1,
       "value": "id"
+    },
+    {
+      "type": 0,
+      "value": " połączonej instancji"
     }
   ],
   "ui-inventory.instance.saveError": [
@@ -77798,7 +77820,7 @@
   "ui-inventory.numberGenerator.infoAdditional": [
     {
       "type": 0,
-      "value": "Additional number generator settings are available under "
+      "value": "Dodatkowe ustawienia generatora liczb są dostępne pod "
     },
     {
       "type": 1,
@@ -77806,7 +77828,7 @@
     },
     {
       "type": 0,
-      "value": ". At "
+      "value": ". W "
     },
     {
       "type": 1,
@@ -77814,7 +77836,7 @@
     },
     {
       "type": 0,
-      "value": " sequences can be defined by selecting the appropriate generator via the drop-down menu."
+      "value": " sekwencje można zdefiniować, wybierając odpowiedni generator za pomocą menu rozwijanego."
     }
   ],
   "ui-inventory.numberGenerator.options": [
@@ -78522,13 +78544,13 @@
   "ui-inventory.receiptDate": [
     {
       "type": 0,
-      "value": "Przewidywana data odbioru"
+      "value": "Przewidywana data rachunku"
     }
   ],
   "ui-inventory.receiptStatus": [
     {
       "type": 0,
-      "value": "Status odbioru"
+      "value": "Status rachunku"
     }
   ],
   "ui-inventory.receivingHistory": [
@@ -78552,7 +78574,7 @@
   "ui-inventory.receivingHistory.receivedDate": [
     {
       "type": 0,
-      "value": "Data odbioru"
+      "value": "Data rachunku"
     }
   ],
   "ui-inventory.receivingHistory.source": [

@@ -62452,6 +62452,12 @@
       "value": "請求者無權存取機構的使用情況"
     }
   ],
+  "ui-erm-usage.report.error.2011": [
+    {
+      "type": 0,
+      "value": "Global Reports Not Supported"
+    }
+  ],
   "ui-erm-usage.report.error.2020": [
     {
       "type": 0,
@@ -62488,6 +62494,12 @@
       "value": "在要求的日期使用還沒準備好"
     }
   ],
+  "ui-erm-usage.report.error.3032": [
+    {
+      "type": 0,
+      "value": "Usage No Longer Available for Requested Dates"
+    }
+  ],
   "ui-erm-usage.report.error.3040": [
     {
       "type": 0,
@@ -62516,6 +62528,12 @@
     {
       "type": 0,
       "value": "報告屬性值無效"
+    }
+  ],
+  "ui-erm-usage.report.error.3063": [
+    {
+      "type": 0,
+      "value": "Components Not Supported"
     }
   ],
   "ui-erm-usage.report.error.3070": [
@@ -73998,7 +74016,7 @@
   "ui-inventory.button.addCreateJobProfileId": [
     {
       "type": 0,
-      "value": "新增用於匯入/建立的工作設定檔"
+      "value": "新增用於匯入 / 建立的工作設定檔"
     }
   ],
   "ui-inventory.button.addTargetOption": [
@@ -74010,7 +74028,7 @@
   "ui-inventory.button.addUpdateJobProfileId": [
     {
       "type": 0,
-      "value": "新增工作設定檔以進行覆蓋/更新"
+      "value": "新增工作設定檔以進行覆蓋 / 更新"
     }
   ],
   "ui-inventory.callNumber": [
@@ -74548,7 +74566,7 @@
   "ui-inventory.copycat.callout.complexError": [
     {
       "type": 0,
-      "value": "發生了一些問題："
+      "value": "發生了一些問題 : "
     },
     {
       "type": 1,
@@ -74556,7 +74574,7 @@
     },
     {
       "type": 0,
-      "value": " ： "
+      "value": "  :  "
     },
     {
       "type": 1,
@@ -74608,7 +74626,7 @@
   "ui-inventory.copycat.callout.simpleError": [
     {
       "type": 0,
-      "value": "發生了一些問題："
+      "value": "發生了一些問題 : "
     },
     {
       "type": 1,
@@ -74736,7 +74754,7 @@
   "ui-inventory.createJobProfileIds": [
     {
       "type": 0,
-      "value": "用於匯入/建立的工作設定檔"
+      "value": "用於匯入 / 建立的工作設定檔"
     }
   ],
   "ui-inventory.createMARCHoldings": [
@@ -75047,7 +75065,7 @@
   "ui-inventory.editMARCHoldings.paneTitle": [
     {
       "type": 0,
-      "value": "館藏地： "
+      "value": "館藏地 :  "
     },
     {
       "type": 1,
@@ -75402,7 +75420,7 @@
   "ui-inventory.holdingsHeader": [
     {
       "type": 0,
-      "value": "館藏："
+      "value": "館藏 : "
     },
     {
       "type": 1,
@@ -75446,7 +75464,7 @@
   "ui-inventory.holdingsLabelShort": [
     {
       "type": 0,
-      "value": "館藏："
+      "value": "館藏 : "
     }
   ],
   "ui-inventory.holdingsLocation": [
@@ -75664,7 +75682,7 @@
   "ui-inventory.holdingsTitle": [
     {
       "type": 0,
-      "value": " 館藏： "
+      "value": " 館藏 :  "
     },
     {
       "type": 1,
@@ -75750,7 +75768,7 @@
   "ui-inventory.hridHandling.modal.body": [
     {
       "type": 0,
-      "value": "警告：如果館藏庫中已存在紀錄，則更改 HRID 設定可能會產生衝突。"
+      "value": "警告 : 如果館藏庫中已存在紀錄，則更改 HRID 設定可能會產生衝突。"
     }
   ],
   "ui-inventory.hridHandling.modal.button.close": [
@@ -75962,7 +75980,7 @@
   "ui-inventory.instance": [
     {
       "type": 0,
-      "value": "實例： "
+      "value": "實例 :  "
     }
   ],
   "ui-inventory.instance.linked.id": [
@@ -76148,7 +76166,7 @@
     },
     {
       "type": 0,
-      "value": " • 最後更新時間： "
+      "value": " • 最後更新時間 :  "
     },
     {
       "type": 1,
@@ -76250,7 +76268,7 @@
   "ui-inventory.instanceTitle": [
     {
       "type": 0,
-      "value": "實例： "
+      "value": "實例 :  "
     },
     {
       "type": 1,
@@ -76405,7 +76423,7 @@
   "ui-inventory.instances.typeOfRelation": [
     {
       "type": 0,
-      "value": "關係類型： "
+      "value": "關係類型 :  "
     },
     {
       "type": 1,
@@ -76487,7 +76505,7 @@
   "ui-inventory.item.barcode": [
     {
       "type": 0,
-      "value": "館藏：條碼"
+      "value": "館藏 : 條碼"
     }
   ],
   "ui-inventory.item.loanAndAvailability": [
@@ -77043,7 +77061,7 @@
   "ui-inventory.itemStatusModal.heading": [
     {
       "type": 0,
-      "value": "確認館藏狀態： "
+      "value": "確認館藏狀態 :  "
     },
     {
       "type": 1,
@@ -77539,7 +77557,7 @@
   "ui-inventory.moveItems": [
     {
       "type": 0,
-      "value": "將館藏/單件移至另一個實例"
+      "value": "將館藏 / 單件移至另一個實例"
     }
   ],
   "ui-inventory.moveItems.instance.actionMenu.disable": [
@@ -77801,7 +77819,7 @@
   "ui-inventory.moveItems.move.holdings.count": [
     {
       "type": 0,
-      "value": "移動： "
+      "value": "移動 :  "
     },
     {
       "style": null,
@@ -77840,7 +77858,7 @@
   "ui-inventory.moveItems.move.items.count": [
     {
       "type": 0,
-      "value": "移動： "
+      "value": "移動 :  "
     },
     {
       "style": null,
@@ -77885,7 +77903,7 @@
   "ui-inventory.moveItems.selectAll": [
     {
       "type": 0,
-      "value": "選擇/取消選擇所有要移動的館藏"
+      "value": "選擇 / 取消選擇所有要移動的館藏"
     }
   ],
   "ui-inventory.moveItems.selectHolding": [
@@ -77897,7 +77915,7 @@
   "ui-inventory.moveItems.selectItem": [
     {
       "type": 0,
-      "value": "選擇/取消選擇要移動的館藏"
+      "value": "選擇 / 取消選擇要移動的館藏"
     }
   ],
   "ui-inventory.name": [
@@ -78183,7 +78201,7 @@
     },
     {
       "type": 0,
-      "value": " 的館藏 HRID： "
+      "value": " 的館藏 HRID :  "
     },
     {
       "children": [
@@ -78413,13 +78431,13 @@
   "ui-inventory.numberGenerator.barcode": [
     {
       "type": 0,
-      "value": "Barcode"
+      "value": "條碼"
     }
   ],
   "ui-inventory.numberGenerator.callNumber": [
     {
       "type": 0,
-      "value": "Call number"
+      "value": "索書號"
     }
   ],
   "ui-inventory.numberGenerator.generateAccessionAndCallNumber": [
@@ -78437,7 +78455,7 @@
   "ui-inventory.numberGenerator.generateAccessionNumber": [
     {
       "type": 0,
-      "value": "Generate accession number"
+      "value": "產生登錄號"
     }
   ],
   "ui-inventory.numberGenerator.generateBarcode": [
@@ -78621,7 +78639,7 @@
   "ui-inventory.permission.all-permissions.TEMPORARY": [
     {
       "type": 0,
-      "value": "館藏庫：所有權限"
+      "value": "館藏庫 : 所有權限"
     }
   ],
   "ui-inventory.permission.consortia.inventory.local.sharing-instances.execute": [
@@ -78651,43 +78669,43 @@
   "ui-inventory.permission.holdings.create": [
     {
       "type": 0,
-      "value": "館藏庫：檢視、建立館藏"
+      "value": "館藏庫 : 檢視、建立館藏"
     }
   ],
   "ui-inventory.permission.holdings.delete": [
     {
       "type": 0,
-      "value": "館藏庫：檢視、建立、編輯、刪除館藏"
+      "value": "館藏庫 : 檢視、建立、編輯、刪除館藏"
     }
   ],
   "ui-inventory.permission.holdings.edit": [
     {
       "type": 0,
-      "value": "館藏庫：檢視、建立、編輯館藏"
+      "value": "館藏庫 : 檢視、建立、編輯館藏"
     }
   ],
   "ui-inventory.permission.holdings.move": [
     {
       "type": 0,
-      "value": "館藏庫：移動館藏"
+      "value": "館藏庫 : 移動館藏"
     }
   ],
   "ui-inventory.permission.instance.create": [
     {
       "type": 0,
-      "value": "館藏庫：檢視、建立實例"
+      "value": "館藏庫 : 檢視、建立實例"
     }
   ],
   "ui-inventory.permission.instance.createOrder": [
     {
       "type": 0,
-      "value": "館藏庫：從實例建立訂單"
+      "value": "館藏庫 : 從實例建立訂單"
     }
   ],
   "ui-inventory.permission.instance.edit": [
     {
       "type": 0,
-      "value": "館藏庫：檢視、建立、編輯實例"
+      "value": "館藏庫 : 檢視、建立、編輯實例"
     }
   ],
   "ui-inventory.permission.instance.set-deletion-and-staff-suppress": [
@@ -78705,43 +78723,43 @@
   "ui-inventory.permission.instance.view": [
     {
       "type": 0,
-      "value": "館藏庫：查看實例、館藏和館藏"
+      "value": "館藏庫 : 查看實例、館藏和館藏"
     }
   ],
   "ui-inventory.permission.instance.view-staff-suppressed-records": [
     {
       "type": 0,
-      "value": "館藏庫：啟用職員隱藏方面"
+      "value": "館藏庫 : 啟用職員隱藏方面"
     }
   ],
   "ui-inventory.permission.item.create": [
     {
       "type": 0,
-      "value": "館藏庫：檢視、建立館藏"
+      "value": "館藏庫 : 檢視、建立館藏"
     }
   ],
   "ui-inventory.permission.item.delete": [
     {
       "type": 0,
-      "value": "館藏庫：檢視、建立、編輯、刪除館藏"
+      "value": "館藏庫 : 檢視、建立、編輯、刪除館藏"
     }
   ],
   "ui-inventory.permission.item.edit": [
     {
       "type": 0,
-      "value": "館藏庫：檢視、建立、編輯館藏"
+      "value": "館藏庫 : 檢視、建立、編輯館藏"
     }
   ],
   "ui-inventory.permission.item.markasmissing": [
     {
       "type": 0,
-      "value": "館藏庫：檢視、建立、編輯、標記遺失館藏"
+      "value": "館藏庫 : 檢視、建立、編輯、標記遺失館藏"
     }
   ],
   "ui-inventory.permission.item.move": [
     {
       "type": 0,
-      "value": "館藏庫：移動館藏"
+      "value": "館藏庫 : 移動館藏"
     }
   ],
   "ui-inventory.permission.items.create-in-transit-report": [
@@ -79029,7 +79047,7 @@
   "ui-inventory.permission.single-record-import": [
     {
       "type": 0,
-      "value": "館藏庫：匯入單一書目紀錄"
+      "value": "館藏庫 : 匯入單一書目紀錄"
     }
   ],
   "ui-inventory.physicalDescription": [
@@ -79856,13 +79874,13 @@
   "ui-inventory.select.createJobProfileId": [
     {
       "type": 0,
-      "value": "選擇要匯入/建立的工作設定檔"
+      "value": "選擇要匯入 / 建立的工作設定檔"
     }
   ],
   "ui-inventory.select.updateJobProfileId": [
     {
       "type": 0,
-      "value": "選擇要覆蓋/更新的工作設定檔"
+      "value": "選擇要覆蓋 / 更新的工作設定檔"
     }
   ],
   "ui-inventory.selectAlternativeTitleType": [
@@ -80298,7 +80316,7 @@
   "ui-inventory.settings.section.versionHistory": [
     {
       "type": 0,
-      "value": "Version history"
+      "value": "版本歷史"
     }
   ],
   "ui-inventory.settings.versionHistory.versionHistoryCardsPerPage": [
@@ -80814,7 +80832,7 @@
   "ui-inventory.updateJobProfileIds": [
     {
       "type": 0,
-      "value": "用於覆蓋/更新的工作設定檔"
+      "value": "用於覆蓋 / 更新的工作設定檔"
     }
   ],
   "ui-inventory.updateOwnership": [
@@ -81060,25 +81078,25 @@
   "ui-inventory.versionHistory.action.added": [
     {
       "type": 0,
-      "value": "Added"
+      "value": "已增加"
     }
   ],
   "ui-inventory.versionHistory.action.edited": [
     {
       "type": 0,
-      "value": "Edited"
+      "value": "已編輯"
     }
   ],
   "ui-inventory.versionHistory.action.removed": [
     {
       "type": 0,
-      "value": "Removed"
+      "value": "已移除"
     }
   ],
   "ui-inventory.versionHistory.anonymousUser": [
     {
       "type": 0,
-      "value": "Anonymous user"
+      "value": "匿名使用者"
     }
   ],
   "ui-inventory.viewAndReorderRequestsQueue": [
@@ -81146,7 +81164,7 @@
   "ui-inventory.warning.holdingsRecord.suppressedFromDiscovery": [
     {
       "type": 0,
-      "value": "警告：館藏被標記在探索服務中隱藏"
+      "value": "警告 : 館藏被標記在探索服務中隱藏"
     }
   ],
   "ui-inventory.warning.instance.accessSharedInstance": [
@@ -81184,25 +81202,25 @@
   "ui-inventory.warning.instance.staffSuppressed": [
     {
       "type": 0,
-      "value": "警告：實例被標記為對館員隱藏"
+      "value": "警告 : 實例被標記為對館員隱藏"
     }
   ],
   "ui-inventory.warning.instance.suppressedFromDiscovery": [
     {
       "type": 0,
-      "value": "警告：實例被標記為在探索服務中隱藏"
+      "value": "警告 : 實例被標記為在探索服務中隱藏"
     }
   ],
   "ui-inventory.warning.instance.suppressedFromDiscoveryAndStaffSuppressed": [
     {
       "type": 0,
-      "value": "警告：實例被標記為在探索服務及館員隱藏"
+      "value": "警告 : 實例被標記為在探索服務及館員隱藏"
     }
   ],
   "ui-inventory.warning.item.suppressedFromDiscovery": [
     {
       "type": 0,
-      "value": "警告：館藏被標記為在探索服務中隱藏"
+      "value": "警告 : 館藏被標記為在探索服務中隱藏"
     }
   ],
   "ui-inventory.withdrawnModal.confirm": [

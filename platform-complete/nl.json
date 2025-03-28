@@ -56388,6 +56388,12 @@
       "value": "Aanvrager heeft geen autorisatie voor toegang tot gebruik voor instelling"
     }
   ],
+  "ui-erm-usage.report.error.2011": [
+    {
+      "type": 0,
+      "value": "Global Reports Not Supported"
+    }
+  ],
   "ui-erm-usage.report.error.2020": [
     {
       "type": 0,
@@ -56424,6 +56430,12 @@
       "value": "Gebruik niet gereed voor aangevraagde data"
     }
   ],
+  "ui-erm-usage.report.error.3032": [
+    {
+      "type": 0,
+      "value": "Usage No Longer Available for Requested Dates"
+    }
+  ],
   "ui-erm-usage.report.error.3040": [
     {
       "type": 0,
@@ -56452,6 +56464,12 @@
     {
       "type": 0,
       "value": "Ongeldige rapportattributenwaarde"
+    }
+  ],
+  "ui-erm-usage.report.error.3063": [
+    {
+      "type": 0,
+      "value": "Components Not Supported"
     }
   ],
   "ui-erm-usage.report.error.3070": [
@@ -66890,7 +66908,7 @@
   "ui-inventory.actions.menuSection.sortBy.date": [
     {
       "type": 0,
-      "value": "Date"
+      "value": "Datum"
     }
   ],
   "ui-inventory.actions.menuSection.sortBy.relevance": [
@@ -68748,13 +68766,13 @@
   "ui-inventory.hasLinkedLocalOrderLine.modal.heading": [
     {
       "type": 0,
-      "value": "Linked order line"
+      "value": "Gekoppelde Bestelregel"
     }
   ],
   "ui-inventory.hasLinkedLocalOrderLine.modal.message": [
     {
       "type": 0,
-      "value": "This holding or item is referenced by a local purchase order line, it's affiliation cannot be changed at this time."
+      "value": "Naar dit bedrijf of item wordt verwezen door een lokale Regel purchase order, de aansluiting kan op dit moment niet worden gewijzigd."
     }
   ],
   "ui-inventory.holdingRecord": [
@@ -69430,7 +69448,7 @@
   "ui-inventory.instanceForm": [
     {
       "type": 0,
-      "value": "Instance form"
+      "value": "Instance vorm"
     }
   ],
   "ui-inventory.instanceFormat": [
@@ -70841,7 +70859,7 @@
   "ui-inventory.moveItems.modal.message.hasLinkedPOLsOrHoldings": [
     {
       "type": 0,
-      "value": "This holdings is linked to a purchase order line. Moving this holdings to a new instance will move any other holdings and items that are linked to this purchase order line to the new instance as well. The purchase order line will also be linked to the new instance. Do you want to continue?"
+      "value": "Deze holdings zijn Gekoppeld aan een Regel purchase order. Als u deze holdings naar een nieuwe instantie verplaatst, worden alle andere holdings en items die aan deze Regel purchase order gekoppeld zijn, ook naar de nieuwe instantie verplaatst. De Regel purchase order zal ook aan de nieuwe instantie worden gekoppeld. Wilt u verdergaan?"
     }
   ],
   "ui-inventory.moveItems.modal.message.holdings": [
@@ -71435,7 +71453,7 @@
   "ui-inventory.numberGenerator.accessionNumberEqualCallNumber.warning": [
     {
       "type": 0,
-      "value": "Warning: The checkbox has been disabled because the accession number and/or the call number have been set to manual completion."
+      "value": "Waarschuwing: Het selectievakje is uitgeschakeld omdat het toetredingsnummer en/of het Vindplaatsnummer zijn ingesteld op handmatig invullen."
     }
   ],
   "ui-inventory.numberGenerator.barcode": [
@@ -71453,7 +71471,7 @@
   "ui-inventory.numberGenerator.generateAccessionAndCallNumber": [
     {
       "type": 0,
-      "value": "Generate accession and call numbers"
+      "value": "Registratienummer en oproepnummer genereren"
     }
   ],
   "ui-inventory.numberGenerator.generateAccessionAndCallNumberWarning": [
@@ -71465,19 +71483,19 @@
   "ui-inventory.numberGenerator.generateAccessionNumber": [
     {
       "type": 0,
-      "value": "Generate accession number"
+      "value": "Registratienummer genereren"
     }
   ],
   "ui-inventory.numberGenerator.generateBarcode": [
     {
       "type": 0,
-      "value": "Generate barcode"
+      "value": "Barcode genereren"
     }
   ],
   "ui-inventory.numberGenerator.generateCallNumber": [
     {
       "type": 0,
-      "value": "Generate call number"
+      "value": "Vindplaats genereren"
     }
   ],
   "ui-inventory.numberGenerator.info": [
@@ -71489,7 +71507,7 @@
   "ui-inventory.numberGenerator.infoAdditional": [
     {
       "type": 0,
-      "value": "Additional number generator settings are available under "
+      "value": "Extra instellingen voor de nummergenerator zijn beschikbaar onder "
     },
     {
       "type": 1,
@@ -71497,7 +71515,7 @@
     },
     {
       "type": 0,
-      "value": ". At "
+      "value": ". Op "
     },
     {
       "type": 1,
@@ -71505,31 +71523,31 @@
     },
     {
       "type": 0,
-      "value": " sequences can be defined by selecting the appropriate generator via the drop-down menu."
+      "value": " sequenties kunnen worden gedefinieerd door de juiste generator via het vervolgkeuzemenu te selecteren."
     }
   ],
   "ui-inventory.numberGenerator.options": [
     {
       "type": 0,
-      "value": "Number generator options"
+      "value": "Nummergenerator opties"
     }
   ],
   "ui-inventory.numberGenerator.options.off": [
     {
       "type": 0,
-      "value": "Off"
+      "value": "Uit"
     }
   ],
   "ui-inventory.numberGenerator.options.onEditable": [
     {
       "type": 0,
-      "value": "On, field editable"
+      "value": "Aan, veld bewerkbaar"
     }
   ],
   "ui-inventory.numberGenerator.options.onNotEditable": [
     {
       "type": 0,
-      "value": "On, field not editable"
+      "value": "Aan, veld niet bewerkbaar"
     }
   ],
   "ui-inventory.numberGenerator.save.error": [
@@ -71655,7 +71673,7 @@
   "ui-inventory.permission.consortia.inventory.local.sharing-instances.execute": [
     {
       "type": 0,
-      "value": "Inventory: Share local instance with consortium"
+      "value": "Collectiebezit: Lokale Instance delen met consortium"
     }
   ],
   "ui-inventory.permission.consortia.inventory.share.local.instance": [
@@ -71667,7 +71685,7 @@
   "ui-inventory.permission.consortia.inventory.update.ownership": [
     {
       "type": 0,
-      "value": "Inventory: Update ownership"
+      "value": "Collectiebezit: Eigendom updaten"
     }
   ],
   "ui-inventory.permission.holdings.create": [
@@ -71715,7 +71733,7 @@
   "ui-inventory.permission.instance.set-records-for-deletion.execute": [
     {
       "type": 0,
-      "value": "Inventory: Set records for deletion"
+      "value": "Collectiebezit: Stel records in om te verwijderen"
     }
   ],
   "ui-inventory.permission.instance.view": [
@@ -71763,49 +71781,49 @@
   "ui-inventory.permission.items.in-transit-report.create": [
     {
       "type": 0,
-      "value": "Inventory: Create and download In transit items report"
+      "value": "Collectiebezit: Rapport In afhandeling items Aanmaken en downloaden"
     }
   ],
   "ui-inventory.permission.items.mark-in-process-non-requestable.execute": [
     {
       "type": 0,
-      "value": "Inventory: Mark items in process (non-requestable)"
+      "value": "Collectiebezit: Markeer items in behandeling (niet opvraagbaar)"
     }
   ],
   "ui-inventory.permission.items.mark-intellectual-item.execute": [
     {
       "type": 0,
-      "value": "Inventory: Mark items intellectual item"
+      "value": "Collectiebezit: Markeer items Intellectueel item"
     }
   ],
   "ui-inventory.permission.items.mark-long-missing.execute": [
     {
       "type": 0,
-      "value": "Inventory: Mark items long missing"
+      "value": "Collectiebezit: Item lang ontbrekend markeren"
     }
   ],
   "ui-inventory.permission.items.mark-restricted.execute": [
     {
       "type": 0,
-      "value": "Inventory: Mark items restricted"
+      "value": "Collectiebezit: Item Beperkt markeren"
     }
   ],
   "ui-inventory.permission.items.mark-unavailable.execute": [
     {
       "type": 0,
-      "value": "Inventory: Mark items unavailable"
+      "value": "Collectiebezit: Markeer items niet beschikbaar"
     }
   ],
   "ui-inventory.permission.items.mark-unknown.execute": [
     {
       "type": 0,
-      "value": "Inventory: Mark items unknown"
+      "value": "Collectiebezit: Item markeren onbekend"
     }
   ],
   "ui-inventory.permission.items.mark-withdrawn.execute": [
     {
       "type": 0,
-      "value": "Inventory: Mark items withdrawn"
+      "value": "Collectiebezit: Ingetrokken items markeren"
     }
   ],
   "ui-inventory.permission.settings.alternative-title-types": [
@@ -71817,7 +71835,7 @@
   "ui-inventory.permission.settings.call-number-browse": [
     {
       "type": 0,
-      "value": "Settings (Inventory): Configure call number browse"
+      "value": "Instellingen (Collectiebezit): Vindplaats bladeren configureren"
     }
   ],
   "ui-inventory.permission.settings.call-number-types": [
@@ -71925,19 +71943,19 @@
   "ui-inventory.permission.settings.loan-types": [
     {
       "type": 0,
-      "value": "Settings (Inventory): Create, edit, delete loan types"
+      "value": "Instellingen (Collectiebezit): Soorten uitleningen Aanmaken, bewerken, verwijderen"
     }
   ],
   "ui-inventory.permission.settings.manage-number-generator-options": [
     {
       "type": 0,
-      "value": "Settings (Inventory): Manage number generator options"
+      "value": "Instellingen (Collectiebezit): Nummergeneratoropties Beheren"
     }
   ],
   "ui-inventory.permission.settings.material-types": [
     {
       "type": 0,
-      "value": "Settings (Inventory): Create, edit, delete material types"
+      "value": "Instellingen (Collectiebezit): Materiaalsoorten Aanmaken, bewerken, verwijderen"
     }
   ],
   "ui-inventory.permission.settings.modes-of-issuance": [
@@ -72897,7 +72915,7 @@
   "ui-inventory.setForDeletion": [
     {
       "type": 0,
-      "value": "Set for deletion"
+      "value": "Instellen voor verwijdering"
     }
   ],
   "ui-inventory.setForDeletion.modal.header": [
@@ -73005,43 +73023,43 @@
   "ui-inventory.settings.instanceCallNumber.dewey": [
     {
       "type": 0,
-      "value": "Dewey Decimal classification"
+      "value": "Dewey Decimale classificatie"
     }
   ],
   "ui-inventory.settings.instanceCallNumber.identifierTypesPopover": [
     {
       "type": 0,
-      "value": "Please note that if no call number types are selected for a browse option, this option will display all call number types."
+      "value": "Opmerking: als er geen typen oproepnummers zijn geselecteerd voor een bladeroptie, geeft deze optie alle typen oproepnummers weer."
     }
   ],
   "ui-inventory.settings.instanceCallNumber.lc": [
     {
       "type": 0,
-      "value": "Library of Congress classification"
+      "value": "Classificatie van de Library of Congress"
     }
   ],
   "ui-inventory.settings.instanceCallNumber.nlm": [
     {
       "type": 0,
-      "value": "National Library of Medicine classification"
+      "value": "Classificatie van de Nationale Bibliotheek voor Geneeskunde"
     }
   ],
   "ui-inventory.settings.instanceCallNumber.other": [
     {
       "type": 0,
-      "value": "Other scheme"
+      "value": "Andere regeling"
     }
   ],
   "ui-inventory.settings.instanceCallNumber.sudoc": [
     {
       "type": 0,
-      "value": "Superintendent of Documents classification"
+      "value": "Classificatie van de hoofdinspecteur van documenten"
     }
   ],
   "ui-inventory.settings.instanceCallNumber.termUpdated": [
     {
       "type": 0,
-      "value": "The call number browse type "
+      "value": "Het type Vindplaats Bladeren "
     },
     {
       "type": 1,
@@ -73049,7 +73067,7 @@
     },
     {
       "type": 0,
-      "value": " was successfully updated"
+      "value": " is succesvol geüpdatet"
     }
   ],
   "ui-inventory.settings.instanceClassification.all": [
@@ -73119,7 +73137,7 @@
   "ui-inventory.settings.section.cardsPerPage": [
     {
       "type": 0,
-      "value": "Cards per page"
+      "value": "Kaarten per pagina"
     }
   ],
   "ui-inventory.settings.section.displaySettings": [
@@ -73131,19 +73149,19 @@
   "ui-inventory.settings.section.versionHistory": [
     {
       "type": 0,
-      "value": "Version history"
+      "value": "Versiegeschiedenis"
     }
   ],
   "ui-inventory.settings.versionHistory.versionHistoryCardsPerPage": [
     {
       "type": 0,
-      "value": "Cards to display per page on Version history"
+      "value": "Weer te geven kaarten per pagina op Versiegeschiedenis"
     }
   ],
   "ui-inventory.settings.versionHistory.versionHistoryCardsPerPage.loadError": [
     {
       "type": 0,
-      "value": "Failed to load Version history cards per page settings"
+      "value": "Invoer van kaarten met versiegeschiedenis per pagina-instellingen mislukt"
     }
   ],
   "ui-inventory.shareLocalInstance": [
@@ -73661,7 +73679,7 @@
   "ui-inventory.updateOwnership.items.message.error": [
     {
       "type": 0,
-      "value": "Item ownership could not be updated because the record contains local-specific reference data."
+      "value": "Item ownership kon niet geüpdatet worden omdat het Record local-specifieke referentiegegevens bevat."
     }
   ],
   "ui-inventory.updateOwnership.items.modal.heading": [
@@ -73907,13 +73925,13 @@
   "ui-inventory.warning.instance.setForDeletionAndSuppressedFromDiscoveryAndStaffSuppressed": [
     {
       "type": 0,
-      "value": "Warning: "
+      "value": "Waarschuwing: "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Instance is set for deletion"
+          "value": "Instance is ingesteld voor verwijdering"
         }
       ],
       "type": 8,
@@ -73921,7 +73939,7 @@
     },
     {
       "type": 0,
-      "value": ", suppressed from discovery, and staff suppressed"
+      "value": ", Verberg in discovery, en Medewerkers onderdrukt"
     }
   ],
   "ui-inventory.warning.instance.sharingLocalInstance": [
