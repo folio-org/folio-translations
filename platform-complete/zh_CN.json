@@ -117,6 +117,18 @@
       "value": "关闭"
     }
   ],
+  "stripes-acq-components.button.credentials.hide": [
+    {
+      "type": 0,
+      "value": "Hide credentials"
+    }
+  ],
+  "stripes-acq-components.button.credentials.show": [
+    {
+      "type": 0,
+      "value": "Show credentials"
+    }
+  ],
   "stripes-acq-components.button.save": [
     {
       "type": 0,
@@ -71320,7 +71332,7 @@
   "ui-inn-reach.settings.agency-to-folio-locations.callout.connection-problem.put": [
     {
       "type": 0,
-      "value": "出现问题，更新未保存： "
+      "value": "出现问题，更新未保存 :  "
     },
     {
       "type": 1,
@@ -71348,13 +71360,13 @@
   "ui-inn-reach.settings.agency-to-folio-locations.field.agency-code-description": [
     {
       "type": 0,
-      "value": "机构代码（说明）"
+      "value": "机构代码 : 说明 ) "
     }
   ],
   "ui-inn-reach.settings.agency-to-folio-locations.field.folio-library": [
     {
       "type": 0,
-      "value": "FOLIO图书馆（默认）"
+      "value": "FOLIO图书馆 : 默认 ) "
     }
   ],
   "ui-inn-reach.settings.agency-to-folio-locations.field.folio-library-and-location": [
@@ -71366,7 +71378,7 @@
   "ui-inn-reach.settings.agency-to-folio-locations.field.folio-location": [
     {
       "type": 0,
-      "value": "FOLIO馆藏地（默认）"
+      "value": "FOLIO馆藏地 : 默认 ) "
     }
   ],
   "ui-inn-reach.settings.agency-to-folio-locations.field.local-server": [
@@ -71474,7 +71486,7 @@
   "ui-inn-reach.settings.bib-transformation.callout.connection-problem.post": [
     {
       "type": 0,
-      "value": "出现问题，创建未保存： "
+      "value": "出现问题，创建未保存 :  "
     },
     {
       "type": 1,
@@ -71492,7 +71504,7 @@
   "ui-inn-reach.settings.bib-transformation.callout.connection-problem.put": [
     {
       "type": 0,
-      "value": "出现问题，更新未保存： "
+      "value": "出现问题，更新未保存 :  "
     },
     {
       "type": 1,
@@ -71618,7 +71630,7 @@
   "ui-inn-reach.settings.central-item-type.field.item-type": [
     {
       "type": 0,
-      "value": "单件类型（描述）"
+      "value": "单件类型 : 描述 ) "
     }
   ],
   "ui-inn-reach.settings.central-item-type.placeholder.material-type": [
@@ -71678,7 +71690,7 @@
   "ui-inn-reach.settings.central-patron-type.field.patron-type": [
     {
       "type": 0,
-      "value": "读者类型（描述）"
+      "value": "读者类型 : 描述 ) "
     }
   ],
   "ui-inn-reach.settings.central-patron-type.placeholder.patron-type": [
@@ -72224,7 +72236,7 @@
   "ui-inn-reach.settings.contribution-options.status.in-process-non-requestable": [
     {
       "type": 0,
-      "value": "处理中（不可请求）"
+      "value": "处理中 : 不可请求 ) "
     }
   ],
   "ui-inn-reach.settings.contribution-options.status.intellectual-item": [
@@ -72904,7 +72916,7 @@
   "ui-inn-reach.settings.material-type-mapping.field.item-type": [
     {
       "type": 0,
-      "value": "单件类型（描述）"
+      "value": "单件类型 : 描述 ) "
     }
   ],
   "ui-inn-reach.settings.material-type-mapping.title": [
@@ -73350,7 +73362,7 @@
       "children": [
         {
           "type": 0,
-          "value": "读者备注： "
+          "value": "读者备注 :  "
         }
       ],
       "type": 8,
@@ -73388,7 +73400,7 @@
         },
         {
           "type": 0,
-          "value": " （ "
+          "value": "  :  "
         },
         {
           "type": 1,
@@ -73396,7 +73408,7 @@
         },
         {
           "type": 0,
-          "value": " ） "
+          "value": "  )  "
         }
       ],
       "type": 8,
@@ -73404,7 +73416,7 @@
     },
     {
       "type": 0,
-      "value": " （条码： "
+      "value": "  : 条码 :  "
     },
     {
       "type": 1,
@@ -73412,7 +73424,7 @@
     },
     {
       "type": 0,
-      "value": " ）放在预约架"
+      "value": "  ) 放在预约架"
     },
     {
       "children": [
@@ -73478,7 +73490,7 @@
         },
         {
           "type": 0,
-          "value": " （ "
+          "value": "  :  "
         },
         {
           "type": 1,
@@ -73486,7 +73498,7 @@
         },
         {
           "type": 0,
-          "value": " ） "
+          "value": "  )  "
         }
       ],
       "type": 8,
@@ -73494,7 +73506,7 @@
     },
     {
       "type": 0,
-      "value": " （条码： "
+      "value": "  : 条码 :  "
     },
     {
       "type": 1,
@@ -73502,7 +73514,7 @@
     },
     {
       "type": 0,
-      "value": " ）到"
+      "value": "  ) 到"
     },
     {
       "children": [
@@ -73790,7 +73802,7 @@
   "ui-inn-reach.transaction.field.itemTitle": [
     {
       "type": 0,
-      "value": "单件题名（机构代码）"
+      "value": "单件题名 : 机构代码 ) "
     }
   ],
   "ui-inn-reach.transaction.field.label.time": [
@@ -73846,13 +73858,13 @@
   "ui-inn-reach.transaction.field.patronName": [
     {
       "type": 0,
-      "value": "读者名称（机构代码）"
+      "value": "读者名称 : 机构代码 ) "
     }
   ],
   "ui-inn-reach.transaction.field.status": [
     {
       "type": 0,
-      "value": "交易状态（INN-Reach）"
+      "value": "交易状态 : INN-Reach ) "
     }
   ],
   "ui-inn-reach.transaction.field.time": [
@@ -110322,13 +110334,13 @@
   "ui-plugin-bursar-export.bursarExports.aggregate.filter.header": [
     {
       "type": 0,
-      "value": "仅含有以下特征的读者："
+      "value": "仅含有以下特征的读者 : "
     }
   ],
   "ui-plugin-bursar-export.bursarExports.aggregate.filter.none": [
     {
       "type": 0,
-      "value": "无（含所有读者）"
+      "value": "无 : 含所有读者 ) "
     }
   ],
   "ui-plugin-bursar-export.bursarExports.aggregate.filter.numAccounts": [
@@ -110412,7 +110424,7 @@
   "ui-plugin-bursar-export.bursarExports.conditional.card.header": [
     {
       "type": 0,
-      "value": "如果："
+      "value": "如果 : "
     }
   ],
   "ui-plugin-bursar-export.bursarExports.criteria.accordion": [
@@ -110460,7 +110472,7 @@
   "ui-plugin-bursar-export.bursarExports.criteria.select.allOf": [
     {
       "type": 0,
-      "value": "所有的："
+      "value": "所有的 : "
     }
   ],
   "ui-plugin-bursar-export.bursarExports.criteria.select.amount": [
@@ -110472,7 +110484,7 @@
   "ui-plugin-bursar-export.bursarExports.criteria.select.anyOf": [
     {
       "type": 0,
-      "value": "以下任一："
+      "value": "以下任一 : "
     }
   ],
   "ui-plugin-bursar-export.bursarExports.criteria.select.label": [
@@ -110490,13 +110502,13 @@
   "ui-plugin-bursar-export.bursarExports.criteria.select.none": [
     {
       "type": 0,
-      "value": "无准则（始终运行）"
+      "value": "无准则 : 始终运行 ) "
     }
   ],
   "ui-plugin-bursar-export.bursarExports.criteria.select.noneOf": [
     {
       "type": 0,
-      "value": "都不是："
+      "value": "都不是 : "
     }
   ],
   "ui-plugin-bursar-export.bursarExports.criteria.select.owner": [
@@ -110652,7 +110664,7 @@
   "ui-plugin-bursar-export.bursarExports.otherwise": [
     {
       "type": 0,
-      "value": "否则："
+      "value": "否则 : "
     }
   ],
   "ui-plugin-bursar-export.bursarExports.owner": [
@@ -110688,7 +110700,7 @@
   "ui-plugin-bursar-export.bursarExports.preview.enableInvisibleChar": [
     {
       "type": 0,
-      "value": "显示不可见字符（换行符、制表符和空格）"
+      "value": "显示不可见字符 : 换行符、制表符和空格 ) "
     }
   ],
   "ui-plugin-bursar-export.bursarExports.preview.header": [
@@ -110886,7 +110898,7 @@
   "ui-plugin-bursar-export.bursarExports.scheduling.frequency.manual": [
     {
       "type": 0,
-      "value": "从不（手动运行）"
+      "value": "从不 : 手动运行 ) "
     }
   ],
   "ui-plugin-bursar-export.bursarExports.scheduling.frequency.weeks": [
@@ -111012,7 +111024,7 @@
   "ui-plugin-bursar-export.bursarExports.token.constantConditional.value": [
     {
       "type": 0,
-      "value": "然后使用："
+      "value": "然后使用 : "
     }
   ],
   "ui-plugin-bursar-export.bursarExports.token.currentDate": [
@@ -111108,13 +111120,13 @@
   "ui-plugin-bursar-export.bursarExports.token.currentDate.format.yearLong": [
     {
       "type": 0,
-      "value": "年份（4位数字）"
+      "value": "年份 : 4位数字 ) "
     }
   ],
   "ui-plugin-bursar-export.bursarExports.token.currentDate.format.yearShort": [
     {
       "type": 0,
-      "value": "年份（2位数字）"
+      "value": "年份 : 2位数字 ) "
     }
   ],
   "ui-plugin-bursar-export.bursarExports.token.currentDate.timezone": [
@@ -111228,7 +111240,7 @@
   "ui-plugin-bursar-export.bursarExports.token.newlineMicrosoft": [
     {
       "type": 0,
-      "value": "换行符（微软、CRLF）"
+      "value": "换行符 : 微软、CRLF ) "
     }
   ],
   "ui-plugin-bursar-export.bursarExports.token.numAccounts": [
@@ -111348,7 +111360,7 @@
   "ui-plugin-bursar-export.bursarExports.transfer.transferTo": [
     {
       "type": 0,
-      "value": "转账到："
+      "value": "转账到 : "
     }
   ],
   "ui-plugin-bursar-export.bursarExports.transferAccount": [
@@ -111372,19 +111384,19 @@
   "ui-plugin-bursar-export.permission.bursar-exports.all": [
     {
       "type": 0,
-      "value": "转移导出：修改配置并启动任务"
+      "value": "转移导出 : 修改配置并启动任务"
     }
   ],
   "ui-plugin-bursar-export.permission.bursar-exports.manual": [
     {
       "type": 0,
-      "value": "转运导出：开始手工任务"
+      "value": "转运导出 : 开始手工任务"
     }
   ],
   "ui-plugin-bursar-export.permission.bursar-exports.view": [
     {
       "type": 0,
-      "value": "转运导出：查看配置"
+      "value": "转运导出 : 查看配置"
     }
   ],
   "ui-plugin-bursar-export.settings.title": [
@@ -114990,7 +115002,7 @@
   "ui-plugin-query-builder.modal.banner.limit": [
     {
       "type": 0,
-      "value": "警告：此查询返回的记录数超过允许的最大值。修改查询以限制结果。"
+      "value": "警告 : 此查询返回的记录数超过允许的最大值。修改查询以限制结果。"
     }
   ],
   "ui-plugin-query-builder.modal.cancel": [

@@ -117,6 +117,18 @@
       "value": "Zavřít"
     }
   ],
+  "stripes-acq-components.button.credentials.hide": [
+    {
+      "type": 0,
+      "value": "Hide credentials"
+    }
+  ],
+  "stripes-acq-components.button.credentials.show": [
+    {
+      "type": 0,
+      "value": "Show credentials"
+    }
+  ],
   "stripes-acq-components.button.save": [
     {
       "type": 0,
@@ -22446,13 +22458,13 @@
   "ui-bulk-edit.columns.INSTANCE.Electronic access": [
     {
       "type": 0,
-      "value": "Electronic access"
+      "value": "Elektronický přístup"
     }
   ],
   "ui-bulk-edit.columns.INSTANCE.Formats": [
     {
       "type": 0,
-      "value": "Formáty"
+      "value": "Typ média -- Typ nosiče"
     }
   ],
   "ui-bulk-edit.columns.INSTANCE.Index title": [
@@ -22476,7 +22488,7 @@
   "ui-bulk-edit.columns.INSTANCE.Instance status term": [
     {
       "type": 0,
-      "value": "Termín stavu titulu"
+      "value": "Stav titulu"
     }
   ],
   "ui-bulk-edit.columns.INSTANCE.Languages": [
@@ -23759,7 +23771,7 @@
   "ui-bulk-edit.layer.marc.error": [
     {
       "type": 0,
-      "value": "V současné době jsou podporovány pouze úpravy 5xx a 9xx."
+      "value": "Hromadná úprava kontrolních polí MARC 00X není podporována."
     }
   ],
   "ui-bulk-edit.layer.marc.error.ind": [
@@ -23771,7 +23783,7 @@
   "ui-bulk-edit.layer.marc.error.limited": [
     {
       "type": 0,
-      "value": "Omezeno na 5xx a 9xx."
+      "value": "Hromadné úpravy polí 00x nejsou podporovány."
     }
   ],
   "ui-bulk-edit.layer.marc.error.protected": [
@@ -31700,7 +31712,7 @@
   "ui-circulation.permission.settings.circulation-rules": [
     {
       "type": 0,
-      "value": "Nastavení (Cirkulace): Může vytvářet, upravovat a odstraňovat pravidla cirkulace [LEGACY]"
+      "value": "Nastavení (Cirkulace): Může vytvářet, upravovat a odstraňovat cirkulační pravidla [LEGACY]"
     }
   ],
   "ui-circulation.permission.settings.edit-circulation-rules": [
@@ -31736,7 +31748,7 @@
   "ui-circulation.permission.settings.loan-policies": [
     {
       "type": 0,
-      "value": "Nastavení (Cirkulace): Může vytvářet, upravovat a odstraňovat pravidla pro výpůjčky"
+      "value": "Nastavení (Cirkulace): Může vytvářet, upravovat a odstraňovat výpůjčková pravidla"
     }
   ],
   "ui-circulation.permission.settings.lost-item-fees-policies": [
@@ -49009,7 +49021,7 @@
   "ui-data-import.settings.mappingProfiles.map.instance.administrationData.field.statusId": [
     {
       "type": 0,
-      "value": "Termín stavu titulu"
+      "value": "Stav titulu"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.instance.childInstances.field.instanceRelationshipTypeId": [
@@ -49045,7 +49057,7 @@
   "ui-data-import.settings.mappingProfiles.map.instance.contributors.field.contributorNameTypeId": [
     {
       "type": 0,
-      "value": "Typ jména"
+      "value": "Typ autority"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.instance.contributors.field.contributorTypeId": [
@@ -49057,7 +49069,7 @@
   "ui-data-import.settings.mappingProfiles.map.instance.contributors.field.contributorTypeText": [
     {
       "type": 0,
-      "value": "Typ, volný text"
+      "value": "Role - volný text"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.instance.contributors.field.primary": [
@@ -49129,7 +49141,7 @@
   "ui-data-import.settings.mappingProfiles.map.instance.descriptiveData.field.instanceFormatIds.legend": [
     {
       "type": 0,
-      "value": "Formáty"
+      "value": "Typ média -- Typ nosiče"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.instance.descriptiveData.field.instanceTypeId": [
@@ -49159,7 +49171,7 @@
   "ui-data-import.settings.mappingProfiles.map.instance.descriptiveData.field.natureOfContentTermId": [
     {
       "type": 0,
-      "value": "Povaha obsahového pojmu"
+      "value": "Termín(y) povahy obsahu"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.instance.descriptiveData.field.natureOfContentTermsIds.addLabel": [
@@ -51639,13 +51651,13 @@
   "ui-data-import.settings.mappingProfiles.map.titleData.field.precedingTitles.addLabel": [
     {
       "type": 0,
-      "value": "Přidat předchozí název"
+      "value": "Přidat předcházející záhlaví"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.titleData.field.precedingTitles.legend": [
     {
       "type": 0,
-      "value": "Předchozí názvy"
+      "value": "Předcházející záhlaví"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.titleData.field.series.addLabel": [
@@ -52815,7 +52827,7 @@
   "ui-data-import.settings.matchProfiles.precedingTitle": [
     {
       "type": 0,
-      "value": "Předchozí název"
+      "value": "Předcházející záhlaví"
     }
   ],
   "ui-data-import.settings.matchProfiles.presetAdjustment": [
@@ -61905,7 +61917,7 @@
   "ui-erm-usage.report.error.2011": [
     {
       "type": 0,
-      "value": "Global Reports Not Supported"
+      "value": "Globální výstup Nepodporován"
     }
   ],
   "ui-erm-usage.report.error.2020": [
@@ -61947,7 +61959,7 @@
   "ui-erm-usage.report.error.3032": [
     {
       "type": 0,
-      "value": "Usage No Longer Available for Requested Dates"
+      "value": "Použití Již Není k Dispozici pro Požadovaná Data"
     }
   ],
   "ui-erm-usage.report.error.3040": [
@@ -61983,7 +61995,7 @@
   "ui-erm-usage.report.error.3063": [
     {
       "type": 0,
-      "value": "Components Not Supported"
+      "value": "Komponenty Nepodporovány"
     }
   ],
   "ui-erm-usage.report.error.3070": [
@@ -62055,7 +62067,7 @@
   "ui-erm-usage.report.upload.info": [
     {
       "type": 0,
-      "value": "Je možné nahrát statistiky využití Pult 4 (XML & CSV) nebo Pult 5 (JSON & CSV)"
+      "value": "Je možné nahrát statistiky využití Pult 4 (XML & CSV), nebo Pult 5 (JSON & CSV), nebo Pult 5.1 (JSON)"
     }
   ],
   "ui-erm-usage.report.upload.modal.label": [
@@ -63944,7 +63956,7 @@
   "ui-finance.allocation.batch.logs.columns.recordsCount": [
     {
       "type": 0,
-      "value": "Záznamy"
+      "value": "Aktualizované záznamy"
     }
   ],
   "ui-finance.allocation.batch.logs.columns.select": [
@@ -67448,8 +67460,14 @@
       "value": " nebyl úspěšně přidělen do rozpočtu "
     },
     {
-      "type": 1,
-      "value": "budgetName"
+      "children": [
+        {
+          "type": 1,
+          "value": "budgetName"
+        }
+      ],
+      "type": 8,
+      "value": "b"
     }
   ],
   "ui-finance.transaction.allocation.hasBeenCreated": [
@@ -67877,8 +67895,14 @@
       "value": " nebyla úspěšně převedena do rozpočtu "
     },
     {
-      "type": 1,
-      "value": "budgetName"
+      "children": [
+        {
+          "type": 1,
+          "value": "budgetName"
+        }
+      ],
+      "type": 8,
+      "value": "b"
     }
   ],
   "ui-finance.transaction.transfer.hasBeenCreated": [
@@ -67888,11 +67912,17 @@
     },
     {
       "type": 0,
-      "value": " byla úspěšně převedena do rozpočtu "
+      "value": " bylo úspěšně převedeno do rozpočtu "
     },
     {
-      "type": 1,
-      "value": "budgetName"
+      "children": [
+        {
+          "type": 1,
+          "value": "budgetName"
+        }
+      ],
+      "type": 8,
+      "value": "b"
     }
   ],
   "ui-finance.transaction.transfer.missingFundId": [
@@ -72885,7 +72915,7 @@
   "ui-inventory.addPrecedingTitle": [
     {
       "type": 0,
-      "value": "Přidat předchozí název"
+      "value": "Přidat předcházející záhlaví"
     }
   ],
   "ui-inventory.addPublication": [
@@ -74589,7 +74619,7 @@
   "ui-inventory.formatSource": [
     {
       "type": 0,
-      "value": "Zdroj formátu"
+      "value": "Zdroj Typu média -- Typu nosiče"
     }
   ],
   "ui-inventory.formatTerm": [
@@ -74601,7 +74631,7 @@
   "ui-inventory.formats": [
     {
       "type": 0,
-      "value": "Formáty"
+      "value": "Typ média -- Typ nosiče"
     }
   ],
   "ui-inventory.formerHoldingsId": [
@@ -75323,7 +75353,7 @@
   "ui-inventory.instanceFormats": [
     {
       "type": 0,
-      "value": "Formáty"
+      "value": "Typ média -- Typ nosiče"
     }
   ],
   "ui-inventory.instanceHoldingsItem": [
@@ -75463,7 +75493,7 @@
   "ui-inventory.instanceStatus": [
     {
       "type": 0,
-      "value": "Termín stavu titulu"
+      "value": "Stav titulu"
     }
   ],
   "ui-inventory.instanceStatusCode": [
@@ -75487,19 +75517,19 @@
   "ui-inventory.instanceStatusTerm": [
     {
       "type": 0,
-      "value": "Termín stavu titulu"
+      "value": "Stav titulu"
     }
   ],
   "ui-inventory.instanceStatusType": [
     {
       "type": 0,
-      "value": "Typ stavu titulu"
+      "value": "Stavy titulů"
     }
   ],
   "ui-inventory.instanceStatusTypes": [
     {
       "type": 0,
-      "value": "Typy stavu titulu"
+      "value": "Stavy titulů"
     }
   ],
   "ui-inventory.instanceStatusUpdatedDate": [
@@ -75555,7 +75585,7 @@
   "ui-inventory.instances.columns.contributorType": [
     {
       "type": 0,
-      "value": "Typ"
+      "value": "Role"
     }
   ],
   "ui-inventory.instances.columns.contributors": [
@@ -77130,13 +77160,13 @@
   "ui-inventory.nameType": [
     {
       "type": 0,
-      "value": "Typ jména"
+      "value": "Typ autority"
     }
   ],
   "ui-inventory.natureOfContentTerm": [
     {
       "type": 0,
-      "value": "Povaha obsahového pojmu"
+      "value": "Termín(y) povahy obsahu"
     }
   ],
   "ui-inventory.natureOfContentTerms": [
@@ -77572,7 +77602,7 @@
   "ui-inventory.numberGenerator.info": [
     {
       "type": 0,
-      "value": "Pole, která se obvykle vyplňují pomocí číselné posloupnosti, mohou používat generátor čísel. Po zapnutí generátoru lze pole buď uzamknout, aby se zabránilo ruční aktualizaci, nebo jej lze plně upravovat. Když je generátor vypnutý, je třeba pole vyplnit ručně."
+      "value": "Pole, která se obvykle vyplňují pomocí číselné posloupnosti, mohou používat generátor čísel. Po zapnutí generátoru lze pole buď uzamknout, aby se zabránilo ruční aktualizaci, nebo jej lze nechat upravovatelné. Když je generátor vypnutý, je třeba pole vyplnit ručně."
     }
   ],
   "ui-inventory.numberGenerator.infoAdditional": [
@@ -78038,7 +78068,7 @@
   "ui-inventory.permission.settings.instance-formats": [
     {
       "type": 0,
-      "value": "Nastavení (Katalog): Vytváření, úpravy, mazání formátů"
+      "value": "Nastavení (Katalog): Vytváření, úpravy, mazání Typ média -- Typ nosiče"
     }
   ],
   "ui-inventory.permission.settings.instance-note-types": [
@@ -78050,7 +78080,7 @@
   "ui-inventory.permission.settings.instance-statuses": [
     {
       "type": 0,
-      "value": "Nastavení (Katalog): Vytvoření, úprava, smazání typů stavu titulu"
+      "value": "Nastavení (Katalog): Vytvoření, úprava, smazání stavů titulů"
     }
   ],
   "ui-inventory.permission.settings.instance-types": [
@@ -78194,13 +78224,13 @@
   "ui-inventory.precedingTitle": [
     {
       "type": 0,
-      "value": "Předchozí název"
+      "value": "Předcházející záhlaví"
     }
   ],
   "ui-inventory.precedingTitles": [
     {
       "type": 0,
-      "value": "Předchozí názvy"
+      "value": "Předcházející záhlaví"
     }
   ],
   "ui-inventory.previouslyHeld": [
@@ -79675,7 +79705,7 @@
   "ui-inventory.subjectTypes": [
     {
       "type": 0,
-      "value": "Typy předmětů"
+      "value": "Zdroje předmětových hesel"
     }
   ],
   "ui-inventory.subjects": [
@@ -79687,13 +79717,13 @@
   "ui-inventory.succeedingTitle": [
     {
       "type": 0,
-      "value": "Následný název"
+      "value": "Následující záhlaví"
     }
   ],
   "ui-inventory.succeedingTitles": [
     {
       "type": 0,
-      "value": "Následné názvy"
+      "value": "Následující záhlaví"
     }
   ],
   "ui-inventory.targetOptions": [
@@ -79771,7 +79801,7 @@
   "ui-inventory.typeFreeText": [
     {
       "type": 0,
-      "value": "Typ, volný text"
+      "value": "Role - volný text"
     }
   ],
   "ui-inventory.typeOfRelation": [
@@ -102467,7 +102497,7 @@
   "ui-orders.settings.numberGenerator.info": [
     {
       "type": 0,
-      "value": "Pole, která se obvykle vyplňují pomocí číselné posloupnosti, mohou používat generátor čísel. Po zapnutí generátoru lze pole buď uzamknout, aby se zabránilo ruční aktualizaci, nebo jej lze plně upravovat. Když je generátor vypnutý, je třeba pole vyplnit ručně."
+      "value": "Pole, která se obvykle vyplňují pomocí číselné posloupnosti, mohou používat generátor čísel. Po zapnutí generátoru lze pole buď uzamknout, aby se zabránilo ruční aktualizaci, nebo jej lze nechat upravovatelné. Když je generátor vypnutý, je třeba pole vyplnit ručně."
     }
   ],
   "ui-orders.settings.numberGenerator.infoAdditional": [
@@ -106506,13 +106536,13 @@
   "ui-organizations.settings.numberGeneratorOptions.code": [
     {
       "type": 0,
-      "value": "Code"
+      "value": "Kód"
     }
   ],
   "ui-organizations.settings.numberGeneratorOptions.info": [
     {
       "type": 0,
-      "value": "Pole, která se obvykle vyplňují pomocí číselné posloupnosti, mohou používat generátor čísel. Po zapnutí generátoru lze pole buď uzamknout, aby se zabránilo ruční aktualizaci, nebo jej lze plně upravovat. Když je generátor vypnutý, je třeba pole vyplnit ručně."
+      "value": "Pole, která se obvykle vyplňují pomocí číselné posloupnosti, mohou používat generátor čísel. Po zapnutí generátoru lze pole buď uzamknout, aby se zabránilo ruční aktualizaci, nebo jej lze nechat upravovatelné. Když je generátor vypnutý, je třeba pole vyplnit ručně."
     }
   ],
   "ui-organizations.settings.numberGeneratorOptions.infoAdditional": [
@@ -106540,19 +106570,19 @@
   "ui-organizations.settings.numberGeneratorOptions.off": [
     {
       "type": 0,
-      "value": "Off"
+      "value": "Vypnuto"
     }
   ],
   "ui-organizations.settings.numberGeneratorOptions.onEditable": [
     {
       "type": 0,
-      "value": "On, field editable"
+      "value": "Zapnuto, pole lze upravovat"
     }
   ],
   "ui-organizations.settings.numberGeneratorOptions.onNotEditable": [
     {
       "type": 0,
-      "value": "On, field not editable"
+      "value": "Zapnuto, pole nelze upravovat"
     }
   ],
   "ui-organizations.settings.numberGeneratorOptions.save.error": [
@@ -108424,7 +108454,7 @@
   "ui-plugin-create-inventory-records.contributors.nameType": [
     {
       "type": 0,
-      "value": "Typ jména"
+      "value": "Typ autority"
     }
   ],
   "ui-plugin-create-inventory-records.contributors.primary": [
@@ -108508,7 +108538,7 @@
   "ui-plugin-create-inventory-records.instanceStatusTerm": [
     {
       "type": 0,
-      "value": "Termín stavu titulu"
+      "value": "Stav titulu"
     }
   ],
   "ui-plugin-create-inventory-records.instanceStatusTerm.uncataloged": [
@@ -108550,7 +108580,7 @@
   "ui-plugin-create-inventory-records.numberGenerator.generateBarcode": [
     {
       "type": 0,
-      "value": "Generate barcode"
+      "value": "Vygenerovat čárový kód"
     }
   ],
   "ui-plugin-create-inventory-records.onSave.error": [
@@ -110491,7 +110521,7 @@
   "ui-plugin-find-instance.filters.nameType": [
     {
       "type": 0,
-      "value": "Typ jména"
+      "value": "Typ autority"
     }
   ],
   "ui-plugin-find-instance.filters.shared": [
@@ -112053,7 +112083,7 @@
     },
     {
       "type": 0,
-      "value": " MARC záznam autority"
+      "value": " autoritní MARC  záznam"
     }
   ],
   "ui-quick-marc.authority-record.edit.title": [
@@ -126778,35 +126808,31 @@
   "ui-serials-management.ruleset.numberOfTimeUnit": [
     {
       "type": 0,
-      "value": "Počet "
-    },
-    {
-      "type": 1,
-      "value": "timeUnit"
+      "value": "Počet časových jednotek"
     }
   ],
   "ui-serials-management.ruleset.numberOfTimeUnit.day": [
     {
       "type": 0,
-      "value": "Number of days"
+      "value": "Počet dní"
     }
   ],
   "ui-serials-management.ruleset.numberOfTimeUnit.month": [
     {
       "type": 0,
-      "value": "Number of months"
+      "value": "Počet měsíců"
     }
   ],
   "ui-serials-management.ruleset.numberOfTimeUnit.week": [
     {
       "type": 0,
-      "value": "Number of weeks"
+      "value": "Počet týdnů"
     }
   ],
   "ui-serials-management.ruleset.numberOfTimeUnit.year": [
     {
       "type": 0,
-      "value": "Number of years"
+      "value": "Počet let"
     }
   ],
   "ui-serials-management.ruleset.numberOfUnits": [
@@ -130836,7 +130862,7 @@
   "ui-users.accounts.exportFeesFines": [
     {
       "type": 0,
-      "value": "Export poplatků/pokut"
+      "value": "Export poplatků/pokut (CSV)"
     }
   ],
   "ui-users.accounts.feeFine": [
@@ -137074,13 +137100,13 @@
   "ui-users.numberGenerator.barcodeGenerator": [
     {
       "type": 0,
-      "value": "User barcode generator"
+      "value": "Generátor čárových kódů pro uživatele"
     }
   ],
   "ui-users.numberGenerator.generateBarcode": [
     {
       "type": 0,
-      "value": "Generate user barcode"
+      "value": "Vygenerovat čárový kód pro uživatele"
     }
   ],
   "ui-users.okay": [
@@ -137824,7 +137850,7 @@
   "ui-users.permission.settings.number-generator-options.all": [
     {
       "type": 0,
-      "value": "Settings (Users): Can create, edit, and view  number generator options"
+      "value": "Nastavení (Uživatelé): Může vytvářet, upravovat a zobrazovat možnosti generátoru čísel"
     }
   ],
   "ui-users.permission.settings.owners": [
@@ -140387,19 +140413,19 @@
   "ui-users.settings.numberGenerator.barcode": [
     {
       "type": 0,
-      "value": "Barcode"
+      "value": "Čárový kód"
     }
   ],
   "ui-users.settings.numberGenerator.info": [
     {
       "type": 0,
-      "value": "Fields which are usually filled using a numeric sequence can use the number generator. When the generator is switched on the field can either be fixed to prevent manual update, or made fully editable. When switched off, the field must be filled manually."
+      "value": "Pole, která se obvykle vyplňují pomocí číselné posloupnosti, mohou používat generátor čísel. Po zapnutí generátoru lze pole buď uzamknout, aby se zabránilo ruční aktualizaci, nebo jej lze nechat upravovatelné. Když je generátor vypnutý, je třeba pole vyplnit ručně."
     }
   ],
   "ui-users.settings.numberGenerator.infoAdditional": [
     {
       "type": 0,
-      "value": "Additional number generator settings are available under "
+      "value": "Další nastavení generátoru čísel jsou k dispozici v části "
     },
     {
       "type": 1,
@@ -140407,7 +140433,7 @@
     },
     {
       "type": 0,
-      "value": ". At "
+      "value": ". Na adrese "
     },
     {
       "type": 1,
@@ -140415,31 +140441,31 @@
     },
     {
       "type": 0,
-      "value": " sequences can be defined by selecting the appropriate generator via the drop-down menu."
+      "value": " lze definovat sekvence výběrem příslušného generátoru prostřednictvím rozbalovací nabídky."
     }
   ],
   "ui-users.settings.numberGenerator.options": [
     {
       "type": 0,
-      "value": "Number generator options"
+      "value": "Možnosti generátoru čísel"
     }
   ],
   "ui-users.settings.numberGenerator.options.off": [
     {
       "type": 0,
-      "value": "Off"
+      "value": "Vypnuto"
     }
   ],
   "ui-users.settings.numberGenerator.options.onEditable": [
     {
       "type": 0,
-      "value": "On, field editable"
+      "value": "Zapnuto, pole lze upravovat"
     }
   ],
   "ui-users.settings.numberGenerator.options.onNotEditable": [
     {
       "type": 0,
-      "value": "On, field not editable"
+      "value": "Zapnuto, pole nelze upravovat"
     }
   ],
   "ui-users.settings.owners": [

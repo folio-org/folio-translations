@@ -117,6 +117,18 @@
       "value": "إغلاق"
     }
   ],
+  "stripes-acq-components.button.credentials.hide": [
+    {
+      "type": 0,
+      "value": "Hide credentials"
+    }
+  ],
+  "stripes-acq-components.button.credentials.show": [
+    {
+      "type": 0,
+      "value": "Show credentials"
+    }
+  ],
   "stripes-acq-components.button.save": [
     {
       "type": 0,
@@ -17961,7 +17973,7 @@
   "ui-agreements.eresources.SynchronisationStatus": [
     {
       "type": 0,
-      "value": "Synchronisation status"
+      "value": "حالة المزامنة"
     }
   ],
   "ui-agreements.eresources.accessEnd": [
@@ -18405,13 +18417,13 @@
   "ui-agreements.eresources.pauseSync": [
     {
       "type": 0,
-      "value": "Pause synchronisation"
+      "value": "إيقاف المزامنة"
     }
   ],
   "ui-agreements.eresources.pauseSyncSelectedPackages": [
     {
       "type": 0,
-      "value": "Pause synchronisation of selected packages"
+      "value": "إيقاف مزامنة الحزم المحددة مؤقتاً"
     }
   ],
   "ui-agreements.eresources.platform": [
@@ -18567,13 +18579,13 @@
   "ui-agreements.eresources.startSync": [
     {
       "type": 0,
-      "value": "Start synchronisation"
+      "value": "بدء المزامنة"
     }
   ],
   "ui-agreements.eresources.startSyncSelectedPackages": [
     {
       "type": 0,
-      "value": "Start synchronisation of selected packages"
+      "value": "بدء مزامنة الحزم المحددة"
     }
   ],
   "ui-agreements.eresources.status": [
@@ -18597,49 +18609,57 @@
   "ui-agreements.eresources.syncContentsFromSource.false": [
     {
       "type": 0,
-      "value": "Paused"
+      "value": "متوقف"
     }
   ],
   "ui-agreements.eresources.syncContentsFromSource.true": [
     {
       "type": 0,
-      "value": "Synchronising"
+      "value": "جاري المزامنة"
     }
   ],
   "ui-agreements.eresources.syncMultiplePackagesError": [
     {
       "type": 0,
-      "value": "Error. Unable to update the synchronisation status of the packages."
+      "value": "خطأ. تعذر تحديث حالة مزامنة الحزم."
     }
   ],
   "ui-agreements.eresources.syncMultiplePackagesSuccess.PAUSED": [
     {
       "type": 0,
-      "value": "Packages have been paused"
+      "value": "تم إيقاف الحزم مؤقتاً"
     }
   ],
   "ui-agreements.eresources.syncMultiplePackagesSuccess.SYNCHRONIZING": [
     {
       "type": 0,
-      "value": "Packages will synchronise"
+      "value": "ستتم مزامنة الحزم"
     }
   ],
   "ui-agreements.eresources.syncPackageError": [
     {
       "type": 0,
-      "value": "Error. Unable to update the synchronisation status of the package."
+      "value": "خطأ. تعذر تحديث حالة المزامنة للحزمة."
     }
   ],
   "ui-agreements.eresources.syncPackageSuccess.PAUSED": [
     {
       "type": 0,
-      "value": "Package: "
+      "value": "تم إيقاف الحزمة: "
     },
     {
       "children": [
         {
+          "type": 0,
+          "value": " "
+        },
+        {
           "type": 1,
           "value": "packageName"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -18647,19 +18667,23 @@
     },
     {
       "type": 0,
-      "value": " has been paused"
+      "value": " مؤقتاً"
     }
   ],
   "ui-agreements.eresources.syncPackageSuccess.SYNCHRONIZING": [
     {
       "type": 0,
-      "value": "Package: "
+      "value": "الحزمة: "
     },
     {
       "children": [
         {
           "type": 1,
           "value": "packageName"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -18667,31 +18691,31 @@
     },
     {
       "type": 0,
-      "value": " will synchronise"
+      "value": " ستتم مزامنة"
     }
   ],
   "ui-agreements.eresources.syncStatus.false": [
     {
       "type": 0,
-      "value": "Paused"
+      "value": "متوقف"
     }
   ],
   "ui-agreements.eresources.syncStatus.notSet": [
     {
       "type": 0,
-      "value": "Not set"
+      "value": "لم يتم تعيينه"
     }
   ],
   "ui-agreements.eresources.syncStatus.true": [
     {
       "type": 0,
-      "value": "Synchronising"
+      "value": "جاري المزامنة"
     }
   ],
   "ui-agreements.eresources.synchronisationStatus": [
     {
       "type": 0,
-      "value": "Synchronisation status"
+      "value": "حالة المزامنة"
     }
   ],
   "ui-agreements.eresources.title": [
@@ -22420,7 +22444,7 @@
   "ui-bulk-edit.columns.INSTANCE.Electronic access": [
     {
       "type": 0,
-      "value": "Electronic access"
+      "value": "وصول إلكتروني"
     }
   ],
   "ui-bulk-edit.columns.INSTANCE.Formats": [
@@ -23583,25 +23607,25 @@
   "ui-bulk-edit.entityType.composite_holdings_record": [
     {
       "type": 0,
-      "value": "Holdings"
+      "value": "المقتنيات"
     }
   ],
   "ui-bulk-edit.entityType.composite_instances": [
     {
       "type": 0,
-      "value": "Instances"
+      "value": "الأوعية"
     }
   ],
   "ui-bulk-edit.entityType.composite_item_details": [
     {
       "type": 0,
-      "value": "Items"
+      "value": "المواد"
     }
   ],
   "ui-bulk-edit.entityType.composite_user_details": [
     {
       "type": 0,
-      "value": "Users"
+      "value": "المستخدمين"
     }
   ],
   "ui-bulk-edit.error.incorrectFormatted": [
@@ -25702,10 +25726,14 @@
   "ui-bulk-edit.previewModal.message.empty.notSupported": [
     {
       "type": 0,
-      "value": "No instances can be updated because none have source MARC."
+      "value": "لا يمكن تحديث أي أوعية لأنه لا يوجد أي منها يحتوي على مصدر مارك."
     }
   ],
   "ui-bulk-edit.previewModal.message.empty.partlySupported": [
+    {
+      "type": 0,
+      "value": "سيتم تغيير "
+    },
     {
       "style": null,
       "type": 2,
@@ -25713,7 +25741,7 @@
     },
     {
       "type": 0,
-      "value": " records will be changed when the Commit changes button is clicked. You may choose Download preview to review all changes prior to saving. "
+      "value": " تسجيلة عند النقر على زر تأكيد التغييرات. يمكنك اختيار تنزيل المعاينة لمراجعة جميع التغييرات قبل الحفظ. تحتوي "
     },
     {
       "style": null,
@@ -25722,7 +25750,7 @@
     },
     {
       "type": 0,
-      "value": " instances have source that is not supported by MARC records bulk edit and cannot be updated."
+      "value": " وعاء على مصدر غير مدعوم من تسجيلات مارك، ولا يمكن تحديثه."
     }
   ],
   "ui-bulk-edit.previewModal.previewToBeChanged": [
@@ -33127,7 +33155,7 @@
   "ui-circulation.settings.loanHistory.afterCloseOrSuspended": [
     {
       "type": 0,
-      "value": "after "
+      "value": "بعد إغلاق "
     },
     {
       "type": 1,
@@ -33135,7 +33163,7 @@
     },
     {
       "type": 0,
-      "value": " closes (or is suspended)"
+      "value": " (أو تعليقه)"
     }
   ],
   "ui-circulation.settings.loanHistory.anonymize": [
@@ -33193,7 +33221,7 @@
   "ui-circulation.settings.loanHistory.immediatelyAfterCloseOrSuspended": [
     {
       "type": 0,
-      "value": "Immediately after "
+      "value": "مباشرةً بعد إغلاق "
     },
     {
       "type": 1,
@@ -33201,7 +33229,7 @@
     },
     {
       "type": 0,
-      "value": " closes (or is suspended)"
+      "value": " (أو تعليقه)"
     }
   ],
   "ui-circulation.settings.loanHistory.interval": [
@@ -61738,7 +61766,7 @@
   "ui-erm-usage.report.error.2011": [
     {
       "type": 0,
-      "value": "Global Reports Not Supported"
+      "value": "التقارير العامة غير مدعومة"
     }
   ],
   "ui-erm-usage.report.error.2020": [
@@ -61780,7 +61808,7 @@
   "ui-erm-usage.report.error.3032": [
     {
       "type": 0,
-      "value": "Usage No Longer Available for Requested Dates"
+      "value": "لم يعد الاستخدام متاحاً للتواريخ المطلوبة"
     }
   ],
   "ui-erm-usage.report.error.3040": [
@@ -61816,7 +61844,7 @@
   "ui-erm-usage.report.error.3063": [
     {
       "type": 0,
-      "value": "Components Not Supported"
+      "value": "المكونات غير مدعومة"
     }
   ],
   "ui-erm-usage.report.error.3070": [
@@ -63593,31 +63621,31 @@
   "ui-finance.actions.allocations.batch": [
     {
       "type": 0,
-      "value": "Batch allocations"
+      "value": "تخصيصات الدفعات"
     }
   ],
   "ui-finance.actions.allocations.batch.error": [
     {
       "type": 0,
-      "value": "Allocations have not been updated."
+      "value": "لم يتم تحديث التخصيصات."
     }
   ],
   "ui-finance.actions.allocations.batch.logs": [
     {
       "type": 0,
-      "value": "Batch allocation logs"
+      "value": "سجلات تخصيص الدفعات"
     }
   ],
   "ui-finance.actions.allocations.batch.success": [
     {
       "type": 0,
-      "value": "Allocations have been updated successfully."
+      "value": "تم تحديث التخصيصات بنجاح."
     }
   ],
   "ui-finance.actions.allocations.download": [
     {
       "type": 0,
-      "value": "Download log"
+      "value": "تنزيل السجل"
     }
   ],
   "ui-finance.actions.downloadAllocationWorksheet": [
@@ -63665,31 +63693,31 @@
   "ui-finance.actions.uploadAllocationWorksheet": [
     {
       "type": 0,
-      "value": "Upload allocation worksheet (CSV)"
+      "value": "تحميل ورقة عمل التخصيص (CSV)"
     }
   ],
   "ui-finance.allocation.batch.form.footer.recalculate": [
     {
       "type": 0,
-      "value": "Recalculate"
+      "value": "إعادة حساب"
     }
   ],
   "ui-finance.allocation.batch.form.recalculate.error": [
     {
       "type": 0,
-      "value": "An error occurred while recalculating amounts."
+      "value": "حدث خطأ أثناء إعادة حساب المبالغ."
     }
   ],
   "ui-finance.allocation.batch.form.title.edit": [
     {
       "type": 0,
-      "value": "Batch edit budgets"
+      "value": "تحرير الميزانيات بالدفعة"
     }
   ],
   "ui-finance.allocation.batch.form.validation.error.invalidFunds": [
     {
       "type": 0,
-      "value": "The following funds are not associated with this ledger (or group) and will NOT be updated."
+      "value": "التمويلات التالية ليست مرتبطة بهذا الدفتر (أو المجموعة) ولن يتم تحديثها."
     }
   ],
   "ui-finance.allocation.batch.form.validation.error.invalidStatus": [
@@ -63701,93 +63729,89 @@
   "ui-finance.allocation.batch.form.validation.error.missedFund": [
     {
       "type": 0,
-      "value": "Fund has not been changed and will not be updated."
+      "value": "لم يتم تغيير التمويل ولن يتم تحديثه."
     }
   ],
   "ui-finance.allocation.batch.form.validation.error.negativeAllocation": [
     {
       "type": 0,
-      "value": "New total allocation cannot be negative."
+      "value": "لا يمكن أن يكون إجمالي التخصيص الجديد سالباً."
     }
   ],
   "ui-finance.allocation.batch.form.validation.error.numeric": [
     {
       "type": 0,
-      "value": "The field must be numeric value."
+      "value": "يجب أن يكون الحقل قيمة عددية."
     }
   ],
   "ui-finance.allocation.batch.logs.actions.delete": [
     {
       "type": 0,
-      "value": "Delete selected logs"
+      "value": "حذف السجلات المحددة"
     }
   ],
   "ui-finance.allocation.batch.logs.actions.delete.fail": [
     {
       "type": 0,
-      "value": "Log with id "
+      "value": "لم يتم حذف السجل الذي يحمل المعرف "
     },
     {
       "type": 1,
       "value": "id"
-    },
-    {
-      "type": 0,
-      "value": " was not deleted"
     }
   ],
   "ui-finance.allocation.batch.logs.actions.delete.success": [
     {
       "type": 0,
-      "value": "Log(s) successfully deleted"
+      "value": "تم حذف السجلات بنجاح"
     }
   ],
   "ui-finance.allocation.batch.logs.actions.remove.heading": [
     {
       "type": 0,
-      "value": "Delete batch allocation log"
+      "value": "حذف سجل تخصيص الدفعات"
     }
   ],
   "ui-finance.allocation.batch.logs.actions.remove.message": [
     {
       "type": 0,
-      "value": "This log will be permanently deleted. Are you sure you want to delete it?"
+      "value": "سيتم حذف هذا السجل نهائياً. هل أنت متأكد من رغبتك في حذفه؟"
     }
   ],
   "ui-finance.allocation.batch.logs.columns.createdByUsername": [
     {
       "type": 0,
-      "value": "Run by"
+      "value": "تشغيل بواسطة"
     }
   ],
   "ui-finance.allocation.batch.logs.columns.createdDate": [
     {
       "type": 0,
-      "value": "Started running"
+      "value": "بدء التشغيل"
     }
   ],
   "ui-finance.allocation.batch.logs.columns.jobName": [
     {
       "type": 0,
-      "value": "Job name"
+      "value": "اسم المهمة"
     }
   ],
   "ui-finance.allocation.batch.logs.columns.jobNumber": [
     {
       "type": 0,
-      "value": "ID"
+      "value": "المعرّف"
     }
   ],
   "ui-finance.allocation.batch.logs.columns.recordsCount": [
     {
       "type": 0,
-      "value": "Updated records"
+      "value": "السجلات المحدثة"
     }
   ],
   "ui-finance.allocation.batch.logs.columns.select": [
     {
       "type": 0,
-      "value": "Select log $"
+      "value": "حدد السجل $"
     },
     {
       "type": 1,
@@ -63797,121 +63821,121 @@
   "ui-finance.allocation.batch.logs.columns.selectAll": [
     {
       "type": 0,
-      "value": "Select all logs"
+      "value": "تحديد كل السجلات"
     }
   ],
   "ui-finance.allocation.batch.logs.columns.status": [
     {
       "type": 0,
-      "value": "Status"
+      "value": "الحالة"
     }
   ],
   "ui-finance.allocation.batch.logs.columns.status.completed": [
     {
       "type": 0,
-      "value": "Completed"
+      "value": "اكتمل"
     }
   ],
   "ui-finance.allocation.batch.logs.columns.status.error": [
     {
       "type": 0,
-      "value": "Error"
+      "value": "خطأ"
     }
   ],
   "ui-finance.allocation.batch.logs.columns.status.inProgress": [
     {
       "type": 0,
-      "value": "In Progress"
+      "value": "قيد التقدم"
     }
   ],
   "ui-finance.allocation.batch.logs.columns.updatedDate": [
     {
       "type": 0,
-      "value": "Ended running"
+      "value": "انتهى التشغيل"
     }
   ],
   "ui-finance.allocation.batch.logs.filters.fiscalYearId": [
     {
       "type": 0,
-      "value": "Fiscal Year"
+      "value": "السنة المالية"
     }
   ],
   "ui-finance.allocation.batch.logs.filters.groupId": [
     {
       "type": 0,
-      "value": "Group"
+      "value": "مجموعة"
     }
   ],
   "ui-finance.allocation.batch.logs.filters.ledgerId": [
     {
       "type": 0,
-      "value": "Ledger"
+      "value": "دفتر"
     }
   ],
   "ui-finance.allocation.batch.logs.filters.metadata.createdByUserId": [
     {
       "type": 0,
-      "value": "User"
+      "value": "المستخدم"
     }
   ],
   "ui-finance.allocation.batch.logs.filters.metadata.createdDate": [
     {
       "type": 0,
-      "value": "Date"
+      "value": "التاريخ"
     }
   ],
   "ui-finance.allocation.batch.logs.modal.delete.description": [
     {
       "type": 0,
-      "value": "This action will cause selected logs to be deleted PERMANENTLY. Do you wish to proceed?"
+      "value": "سيؤدي هذا الإجراء إلى حذف السجلات المحددة نهائياً. هل ترغب في المتابعة؟"
     }
   ],
   "ui-finance.allocation.batch.logs.modal.delete.title": [
     {
       "type": 0,
-      "value": "Delete Log"
+      "value": "حذف السجل"
     }
   ],
   "ui-finance.allocation.batch.logs.search.jobName": [
     {
       "type": 0,
-      "value": "Job name"
+      "value": "اسم المهمة"
     }
   ],
   "ui-finance.allocation.batch.logs.search.jobNumber": [
     {
       "type": 0,
-      "value": "ID"
+      "value": "المعرّف"
     }
   ],
   "ui-finance.allocation.batch.logs.search.keyword": [
     {
       "type": 0,
-      "value": "All"
+      "value": "الكل"
     }
   ],
   "ui-finance.allocation.batch.logs.title": [
     {
       "type": 0,
-      "value": "Logs"
+      "value": "سجلات"
     }
   ],
   "ui-finance.allocation.batch.status.active": [
     {
       "type": 0,
-      "value": "Active"
+      "value": "نشط"
     }
   ],
   "ui-finance.allocation.batch.status.frozen": [
     {
       "type": 0,
-      "value": "Frozen"
+      "value": "مجمّد"
     }
   ],
   "ui-finance.allocation.batch.status.inactive": [
     {
       "type": 0,
-      "value": "Inactive"
+      "value": "غير نشط"
     }
   ],
   "ui-finance.allocation.worksheet.download.error": [
@@ -63935,43 +63959,47 @@
   "ui-finance.batchAllocations.upload.error.notFound": [
     {
       "type": 0,
-      "value": "Could not find the file to upload. Please try to upload the file again."
+      "value": "تعذر العثور على الملف المراد تحميله. يرجى محاولة تحميل الملف مرة أخرى."
     }
   ],
   "ui-finance.batchAllocations.uploadWorksheet.modal.heading": [
     {
       "type": 0,
-      "value": "Upload worksheet"
+      "value": "تحميل ورقة العمل"
     }
   ],
   "ui-finance.batchAllocations.uploadWorksheet.modal.message": [
     {
       "type": 0,
-      "value": "Please choose a budget worksheet to upload"
+      "value": "يرجى اختيار ورقة عمل الميزانية لتحميلها"
     }
   ],
   "ui-finance.batchAllocations.uploadWorksheet.validation.error.emptyFile": [
     {
       "type": 0,
-      "value": "File has no rows."
+      "value": "لا يحتوي الملف على صفوف."
     }
   ],
   "ui-finance.batchAllocations.uploadWorksheet.validation.error.fiscalYearNotResolved": [
     {
       "type": 0,
-      "value": "Could not determine the fiscal year from the uploaded file."
+      "value": "تعذر تحديد السنة المالية من الملف الذي تم تحميله."
     }
   ],
   "ui-finance.batchAllocations.uploadWorksheet.validation.error.inconsistentField": [
     {
       "type": 0,
-      "value": "Inconsistent values found in field: "
+      "value": "تم العثور على قيم غير متسقة في الحقل: "
     },
     {
       "children": [
         {
           "type": 1,
           "value": "field"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -63979,13 +64007,13 @@
     },
     {
       "type": 0,
-      "value": ". All rows must have the same value."
+      "value": " . يجب أن يكون لجميع الصفوف نفس القيمة."
     }
   ],
   "ui-finance.batchAllocations.uploadWorksheet.validation.error.invalidFileType": [
     {
       "type": 0,
-      "value": "Invalid file type. Only "
+      "value": "نوع الملف غير صالح. مسموح فقط بملفات "
     },
     {
       "children": [
@@ -63999,15 +64027,27 @@
     },
     {
       "type": 0,
-      "value": " files are allowed."
+      "value": "."
     }
   ],
   "ui-finance.batchAllocations.uploadWorksheet.validation.error.parseFailed": [
     {
+      "type": 0,
+      "value": "تعذر تحليل الملف "
+    },
+    {
       "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
         {
           "type": 1,
           "value": "fileName"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -64015,19 +64055,27 @@
     },
     {
       "type": 0,
-      "value": " could not be parsed. Please download the latest worksheet and resubmit."
+      "value": ". رجى تنزيل أحدث ورقة عمل وإعادة إرسالها."
     }
   ],
   "ui-finance.batchAllocations.uploadWorksheet.validation.error.requiredHeaders": [
     {
       "type": 0,
-      "value": "Missing required header(s): "
+      "value": "الرؤوس المطلوبة المفقودة: "
     },
     {
       "children": [
         {
+          "type": 0,
+          "value": " "
+        },
+        {
           "type": 1,
           "value": "headers"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -64131,7 +64179,7 @@
   "ui-finance.budget.batch.create.success": [
     {
       "type": 0,
-      "value": "Budgets have been created successfully."
+      "value": "تم إنشاء الميزانيات بنجاح."
     }
   ],
   "ui-finance.budget.button.cancel": [
@@ -67072,31 +67120,31 @@
   "ui-finance.transaction.allocation.batch.columns.budgetAfterAllocation": [
     {
       "type": 0,
-      "value": "Total allocated (after)"
+      "value": "إجمالي المخصص (بعد)"
     }
   ],
   "ui-finance.transaction.allocation.batch.columns.budgetAllocationChange": [
     {
       "type": 0,
-      "value": "Allocation increase/decrease"
+      "value": "زيادة/تخفيض التخصيص"
     }
   ],
   "ui-finance.transaction.allocation.batch.columns.budgetAllowableEncumbrance": [
     {
       "type": 0,
-      "value": "Allowable encumbrance %"
+      "value": "التكاليف المسموح بها %"
     }
   ],
   "ui-finance.transaction.allocation.batch.columns.budgetAllowableExpenditure": [
     {
       "type": 0,
-      "value": "Allowable expenditure %"
+      "value": "النفقات المسموح بها %"
     }
   ],
   "ui-finance.transaction.allocation.batch.columns.budgetCurrentAllocation": [
     {
       "type": 0,
-      "value": "Total allocated (before)"
+      "value": "إجمالي المخصص (قبل)"
     }
   ],
   "ui-finance.transaction.allocation.batch.columns.budgetInitialAllocation": [
@@ -67108,25 +67156,25 @@
   "ui-finance.transaction.allocation.batch.columns.budgetName": [
     {
       "type": 0,
-      "value": "Budget Name"
+      "value": "اسم الميزانية"
     }
   ],
   "ui-finance.transaction.allocation.batch.columns.budgetStatus": [
     {
       "type": 0,
-      "value": "Budget status"
+      "value": "حالة الميزانية"
     }
   ],
   "ui-finance.transaction.allocation.batch.columns.fundName": [
     {
       "type": 0,
-      "value": "Fund name"
+      "value": "اسم التمويل"
     }
   ],
   "ui-finance.transaction.allocation.batch.columns.fundStatus": [
     {
       "type": 0,
-      "value": "Fund status"
+      "value": "حالة التمويل"
     }
   ],
   "ui-finance.transaction.allocation.batch.columns.fundTags": [
@@ -67144,13 +67192,13 @@
   "ui-finance.transaction.allocation.batch.columns.transactionDescription": [
     {
       "type": 0,
-      "value": "Transaction description"
+      "value": "وصف المعاملة"
     }
   ],
   "ui-finance.transaction.allocation.batch.columns.transactionTag": [
     {
       "type": 0,
-      "value": "Transaction tags"
+      "value": "وسوم المعاملات"
     }
   ],
   "ui-finance.transaction.allocation.budgetNotFoundForTransaction": [
@@ -67218,7 +67266,7 @@
   "ui-finance.transaction.allocation.decrease.hasBeenCreated": [
     {
       "type": 0,
-      "value": "Budget "
+      "value": "تم تخصيص مخصص الميزانية "
     },
     {
       "children": [
@@ -67232,7 +67280,7 @@
     },
     {
       "type": 0,
-      "value": " allocation was successfully decreased by "
+      "value": " allocation بنجاح بمقدار "
     },
     {
       "type": 1,
@@ -67277,12 +67325,16 @@
   ],
   "ui-finance.transaction.allocation.increase.hasBeenCreated": [
     {
+      "type": 0,
+      "value": "تم تخصيص "
+    },
+    {
       "type": 1,
       "value": "amount"
     },
     {
       "type": 0,
-      "value": " was successfully allocated to the budget "
+      "value": " بنجاح إلى الميزانية"
     },
     {
       "children": [
@@ -67812,7 +67864,7 @@
   "ui-finance.transaction.validation.totalAllocatedExceeded": [
     {
       "type": 0,
-      "value": "Total allocation cannot be less than zero"
+      "value": "لا يمكن أن يكون إجمالي التخصيص أقل من صفر"
     }
   ],
   "ui-finance.transaction.voided": [
@@ -75107,7 +75159,7 @@
   "ui-inventory.instanceForm": [
     {
       "type": 0,
-      "value": "Instance form"
+      "value": "نموذج الوعاء"
     }
   ],
   "ui-inventory.instanceFormat": [
@@ -77324,73 +77376,73 @@
   "ui-inventory.numberGenerator.accessionNumber": [
     {
       "type": 0,
-      "value": "Accession number"
+      "value": "رقم الانضمام"
     }
   ],
   "ui-inventory.numberGenerator.accessionNumberEqualCallNumber": [
     {
       "type": 0,
-      "value": "Use the same generated number for accession number and call number"
+      "value": "استخدام نفس الرقم الذي تم توليده لرقم الانضمام ورقم الاستدعاء"
     }
   ],
   "ui-inventory.numberGenerator.accessionNumberEqualCallNumber.warning": [
     {
       "type": 0,
-      "value": "Warning: The checkbox has been disabled because the accession number and/or the call number have been set to manual completion."
+      "value": "تحذير: تم تعطيل مربع التحديد لأنه تم تعيين رقم الانضمام و/أو رقم الاستدعاء على الإكمال اليدوي."
     }
   ],
   "ui-inventory.numberGenerator.barcode": [
     {
       "type": 0,
-      "value": "Barcode"
+      "value": "باركود"
     }
   ],
   "ui-inventory.numberGenerator.callNumber": [
     {
       "type": 0,
-      "value": "Call number"
+      "value": "رقم الاستدعاء"
     }
   ],
   "ui-inventory.numberGenerator.generateAccessionAndCallNumber": [
     {
       "type": 0,
-      "value": "Generate accession and call numbers"
+      "value": "توليد أرقام انضمام وأرقام استدعاء"
     }
   ],
   "ui-inventory.numberGenerator.generateAccessionAndCallNumberWarning": [
     {
       "type": 0,
-      "value": "Both accession number and call number will be filled from this action, using a sequence from the Inventory: Accession number generator."
+      "value": "سيتم ملء كل من رقم الانضمام ورقم الاستدعاء من هذا الإجراء، باستخدام تسلسل من قائمة المخزون: مولد رقم الانضمام."
     }
   ],
   "ui-inventory.numberGenerator.generateAccessionNumber": [
     {
       "type": 0,
-      "value": "Generate accession number"
+      "value": "توليد رقم انضمام"
     }
   ],
   "ui-inventory.numberGenerator.generateBarcode": [
     {
       "type": 0,
-      "value": "Generate barcode"
+      "value": "توليد باركود"
     }
   ],
   "ui-inventory.numberGenerator.generateCallNumber": [
     {
       "type": 0,
-      "value": "Generate call number"
+      "value": "توليد رقم استدعاء"
     }
   ],
   "ui-inventory.numberGenerator.info": [
     {
       "type": 0,
-      "value": "Fields which are usually filled using a numeric sequence can use the number generator. When the generator is switched on the field can either be fixed to prevent manual update, or made fully editable. When switched off, the field must be filled manually."
+      "value": "يمكن استخدام مولد الأرقام للحقول التي يتم ملؤها عادةً بتسلسل رقمي. عند تشغيل المولد، يمكن إما تثبيت الحقل لمنع التحديث اليدوي، أو جعله قابلاً للتحرير بالكامل. عند إيقاف تشغيله، يجب ملء الحقل يدوياً."
     }
   ],
   "ui-inventory.numberGenerator.infoAdditional": [
     {
       "type": 0,
-      "value": "Additional number generator settings are available under "
+      "value": "تتوفر إعدادات إضافية لمولد الأرقام أدنى "
     },
     {
       "type": 1,
@@ -77398,7 +77450,7 @@
     },
     {
       "type": 0,
-      "value": ". At "
+      "value": ". في "
     },
     {
       "type": 1,
@@ -77406,31 +77458,31 @@
     },
     {
       "type": 0,
-      "value": " sequences can be defined by selecting the appropriate generator via the drop-down menu."
+      "value": "، يمكن تحديد التسلسلات باختيار المولد المناسب من القائمة المنسدلة."
     }
   ],
   "ui-inventory.numberGenerator.options": [
     {
       "type": 0,
-      "value": "Number generator options"
+      "value": "خيارات مولد الأرقام"
     }
   ],
   "ui-inventory.numberGenerator.options.off": [
     {
       "type": 0,
-      "value": "Off"
+      "value": "إيقاف"
     }
   ],
   "ui-inventory.numberGenerator.options.onEditable": [
     {
       "type": 0,
-      "value": "On, field editable"
+      "value": "قيد التشغيل، الحقل قابل للتحرير"
     }
   ],
   "ui-inventory.numberGenerator.options.onNotEditable": [
     {
       "type": 0,
-      "value": "On, field not editable"
+      "value": "قيد التشغيل، الحقل غير قابل للتحرير"
     }
   ],
   "ui-inventory.numberGenerator.save.error": [
@@ -77898,7 +77950,7 @@
   "ui-inventory.permission.settings.manage-number-generator-options": [
     {
       "type": 0,
-      "value": "Settings (Inventory): Manage number generator options"
+      "value": "الإعدادات (المخزون): إدارة خيارات مولد الأرقام"
     }
   ],
   "ui-inventory.permission.settings.material-types": [
@@ -78977,7 +79029,7 @@
   "ui-inventory.setForDeletion": [
     {
       "type": 0,
-      "value": "Set for deletion"
+      "value": "تعيين للحذف"
     }
   ],
   "ui-inventory.setForDeletion.modal.header": [
@@ -79195,7 +79247,7 @@
   "ui-inventory.settings.section.cardsPerPage": [
     {
       "type": 0,
-      "value": "Cards per page"
+      "value": "البطاقات لكل صفحة"
     }
   ],
   "ui-inventory.settings.section.displaySettings": [
@@ -79207,19 +79259,19 @@
   "ui-inventory.settings.section.versionHistory": [
     {
       "type": 0,
-      "value": "Version history"
+      "value": "سجل الإصدارات"
     }
   ],
   "ui-inventory.settings.versionHistory.versionHistoryCardsPerPage": [
     {
       "type": 0,
-      "value": "Cards to display per page on Version history"
+      "value": "بطاقات للعرض لكل صفحة في سجل الإصدارات"
     }
   ],
   "ui-inventory.settings.versionHistory.versionHistoryCardsPerPage.loadError": [
     {
       "type": 0,
-      "value": "Failed to load Version history cards per page settings"
+      "value": "فشل تحميل بطاقات سجل الإصدار لكل صفحة إعدادات الصفحة"
     }
   ],
   "ui-inventory.shareLocalInstance": [
@@ -79941,25 +79993,25 @@
   "ui-inventory.versionHistory.action.added": [
     {
       "type": 0,
-      "value": "Added"
+      "value": "تمت الإضافة"
     }
   ],
   "ui-inventory.versionHistory.action.edited": [
     {
       "type": 0,
-      "value": "Edited"
+      "value": "تم التحرير"
     }
   ],
   "ui-inventory.versionHistory.action.removed": [
     {
       "type": 0,
-      "value": "Removed"
+      "value": "تمت الإزالة"
     }
   ],
   "ui-inventory.versionHistory.anonymousUser": [
     {
       "type": 0,
-      "value": "Anonymous user"
+      "value": "مستخدم بدون تحديد هوية"
     }
   ],
   "ui-inventory.viewAndReorderRequestsQueue": [
@@ -80039,13 +80091,13 @@
   "ui-inventory.warning.instance.setForDeletionAndSuppressedFromDiscoveryAndStaffSuppressed": [
     {
       "type": 0,
-      "value": "Warning: "
+      "value": "تحذير: "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Instance is set for deletion"
+          "value": "تم تعيين الوعاء للحذف"
         }
       ],
       "type": 8,
@@ -80053,7 +80105,7 @@
     },
     {
       "type": 0,
-      "value": ", suppressed from discovery, and staff suppressed"
+      "value": "، حجب من الاكتشاف، وتم حجب الموظفين"
     }
   ],
   "ui-inventory.warning.instance.sharingLocalInstance": [
@@ -83774,97 +83826,97 @@
   "ui-ldp.dbinfo.logs.error_severity": [
     {
       "type": 0,
-      "value": "Severity"
+      "value": "الخطورة"
     }
   ],
   "ui-ldp.dbinfo.logs.log_time": [
     {
       "type": 0,
-      "value": "Timestamp"
+      "value": "الطابع الزمني"
     }
   ],
   "ui-ldp.dbinfo.logs.message": [
     {
       "type": 0,
-      "value": "Message"
+      "value": "رسالة"
     }
   ],
   "ui-ldp.dbinfo.nav.logs": [
     {
       "type": 0,
-      "value": "Logs"
+      "value": "سجلات"
     }
   ],
   "ui-ldp.dbinfo.nav.processes": [
     {
       "type": 0,
-      "value": "Long-running processes"
+      "value": "العمليات طويلة الأمد"
     }
   ],
   "ui-ldp.dbinfo.nav.updates": [
     {
       "type": 0,
-      "value": "Last updates of tables"
+      "value": "آخر تحديثات الجداول"
     }
   ],
   "ui-ldp.dbinfo.processes.databaseName": [
     {
       "type": 0,
-      "value": "Database"
+      "value": "قاعدة البيانات"
     }
   ],
   "ui-ldp.dbinfo.processes.empty": [
     {
       "type": 0,
-      "value": "There are currently no long-running processes"
+      "value": "لا توجد حالياً أي عمليات طويلة الأمد"
     }
   ],
   "ui-ldp.dbinfo.processes.query": [
     {
       "type": 0,
-      "value": "Query"
+      "value": "استعلام"
     }
   ],
   "ui-ldp.dbinfo.processes.realTime": [
     {
       "type": 0,
-      "value": "Real time"
+      "value": "الوقت الفعلي"
     }
   ],
   "ui-ldp.dbinfo.processes.state": [
     {
       "type": 0,
-      "value": "Status"
+      "value": "الحالة"
     }
   ],
   "ui-ldp.dbinfo.processes.userName": [
     {
       "type": 0,
-      "value": "User"
+      "value": "المستخدم"
     }
   ],
   "ui-ldp.dbinfo.updates.elapsedRealTime": [
     {
       "type": 0,
-      "value": "Elapsed"
+      "value": "منقضي"
     }
   ],
   "ui-ldp.dbinfo.updates.lastUpdate": [
     {
       "type": 0,
-      "value": "Last updated"
+      "value": "آخر تحديث"
     }
   ],
   "ui-ldp.dbinfo.updates.tableName": [
     {
       "type": 0,
-      "value": "Table"
+      "value": "جدول"
     }
   ],
   "ui-ldp.dbinfo.updates.tableSchema": [
     {
       "type": 0,
-      "value": "Schema"
+      "value": "مخطط"
     }
   ],
   "ui-ldp.dbinfo.version": [
@@ -83972,7 +84024,7 @@
   "ui-ldp.error.load-logs": [
     {
       "type": 0,
-      "value": "Could not load Metadb logs: "
+      "value": "تعذر تحميل سجلات Metadb: "
     },
     {
       "type": 1,
@@ -83982,7 +84034,7 @@
   "ui-ldp.error.load-processes": [
     {
       "type": 0,
-      "value": "Could not load long-running processes: "
+      "value": "تعذر تحميل العمليات طويلة الأمد: "
     },
     {
       "type": 1,
@@ -84032,7 +84084,7 @@
   "ui-ldp.error.load-updates": [
     {
       "type": 0,
-      "value": "Could not load recent updates: "
+      "value": "تعذر تحميل التحديثات الأخيرة: "
     },
     {
       "type": 1,
@@ -84062,7 +84114,7 @@
   "ui-ldp.error.not-metadb": [
     {
       "type": 0,
-      "value": "This facility is only available from a Metadb database, but this app is connected to LDP Classic"
+      "value": "هذه الميزة متاحة فقط من قاعدة بيانات Metadb، ولكن هذا التطبيق متصل بـ LDP Classic"
     }
   ],
   "ui-ldp.found-more-than": [
@@ -86683,7 +86735,7 @@
   "ui-licenses.settings.noCurrentValue": [
     {
       "type": 0,
-      "value": "No current value"
+      "value": "لا توجد قيمة حالية"
     }
   ],
   "ui-licenses.settings.noOfValues": [
@@ -90795,7 +90847,7 @@
   "ui-marc-authorities.authority-record.menuOptions": [
     {
       "type": 0,
-      "value": "Available options"
+      "value": "الخيارات المتاحة"
     }
   ],
   "ui-marc-authorities.authority-record.print": [
@@ -91196,7 +91248,7 @@
   "ui-marc-authorities.permission.settings.version-history.view": [
     {
       "type": 0,
-      "value": "Settings (MARC authority): Configure version history"
+      "value": "الإعدادات (استناد مارك): تهيئة سجل الإصدار"
     }
   ],
   "ui-marc-authorities.personalName": [
@@ -91897,19 +91949,19 @@
   "ui-marc-authorities.settings.versionHistory.field.pageSize": [
     {
       "type": 0,
-      "value": "Cards to display per page on Version history"
+      "value": "بطاقات للعرض لكل صفحة في سجل الإصدارات"
     }
   ],
   "ui-marc-authorities.settings.versionHistory.loadError": [
     {
       "type": 0,
-      "value": "Version history Cards per page settings failed to load."
+      "value": "فشل تحميل إعدادات البطاقات لكل صفحة في سجل الإصدارات."
     }
   ],
   "ui-marc-authorities.settings.versionHistory.pane.title": [
     {
       "type": 0,
-      "value": "Version history"
+      "value": "سجل الإصدارات"
     }
   ],
   "ui-marc-authorities.shortcut.closeModal": [
@@ -91998,18 +92050,18 @@
   ],
   "ui-myprofile.draggableList.announcements.dragCancel": [
     {
-      "type": 1,
-      "value": "active"
+      "type": 0,
+      "value": "تم إفلات "
     },
     {
-      "type": 0,
-      "value": " dropped"
+      "type": 1,
+      "value": "active"
     }
   ],
   "ui-myprofile.draggableList.announcements.dragEnd": [
     {
       "type": 0,
-      "value": "Dropped "
+      "value": "تم إفلات "
     },
     {
       "type": 1,
@@ -92017,7 +92069,7 @@
     },
     {
       "type": 0,
-      "value": " at position "
+      "value": " في الموضع "
     },
     {
       "type": 1,
@@ -92027,7 +92079,7 @@
   "ui-myprofile.draggableList.announcements.dragOver": [
     {
       "type": 0,
-      "value": "Moved "
+      "value": "تم نقل "
     },
     {
       "type": 1,
@@ -92035,7 +92087,7 @@
     },
     {
       "type": 0,
-      "value": " to position "
+      "value": " إلى الموضع "
     },
     {
       "type": 1,
@@ -92045,7 +92097,7 @@
   "ui-myprofile.draggableList.announcements.dragStart": [
     {
       "type": 0,
-      "value": "Picked up "
+      "value": "تم التقاط "
     },
     {
       "type": 1,
@@ -92053,7 +92105,7 @@
     },
     {
       "type": 0,
-      "value": " in position "
+      "value": " في الموضع "
     },
     {
       "type": 1,
@@ -92061,7 +92113,7 @@
     },
     {
       "type": 0,
-      "value": " of "
+      "value": " من "
     },
     {
       "type": 1,
@@ -92069,13 +92121,13 @@
     },
     {
       "type": 0,
-      "value": " items"
+      "value": " مادة"
     }
   ],
   "ui-myprofile.draggableList.instructions": [
     {
       "type": 0,
-      "value": "Reorderable list. Press space or enter to activate an item for reordering. Use the up and down arrow keys to change the position of the active item."
+      "value": "قائمة قابلة لإعادة الترتيب. قم بالضغط على مفتاح المسافة أو مفتاح الإدخال لتفعيل إعادة ترتيب مادة. استخدم مفاتيح الأسهم لأعلى ولأسفل لتغيير موضع المادة النشطة."
     }
   ],
   "ui-myprofile.label.settings": [
@@ -92105,55 +92157,55 @@
   "ui-myprofile.settings.appNavOrder.label": [
     {
       "type": 0,
-      "value": "Application display order"
+      "value": "ترتيب عرض التطبيقات"
     }
   ],
   "ui-myprofile.settings.appNavOrder.newItem": [
     {
       "type": 0,
-      "value": "New"
+      "value": "جديد"
     }
   ],
   "ui-myprofile.settings.appNavOrder.reset": [
     {
       "type": 0,
-      "value": "Reset to default"
+      "value": "إعادة التعيين إلى الوضع الافتراضي"
     }
   ],
   "ui-myprofile.settings.appNavOrder.resetError": [
     {
       "type": 0,
-      "value": "There was a problem resetting the app order."
+      "value": "حدثت مشكلة أثناء إعادة تعيين ترتيب التطبيقات."
     }
   ],
   "ui-myprofile.settings.appNavOrder.resetSuccess": [
     {
       "type": 0,
-      "value": "Application display order reset to default."
+      "value": "إعادة تعيين ترتيب عرض التطبيقات إلى الوضع الافتراضي."
     }
   ],
   "ui-myprofile.settings.appNavOrder.save": [
     {
       "type": 0,
-      "value": "Save"
+      "value": "حفظ"
     }
   ],
   "ui-myprofile.settings.appNavOrder.saveError": [
     {
       "type": 0,
-      "value": "There was a problem saving app list order."
+      "value": "حدثت مشكلة أثناء حفظ ترتيب قائمة التطبيقات."
     }
   ],
   "ui-myprofile.settings.appNavOrder.saveSuccess": [
     {
       "type": 0,
-      "value": "Application display order has been successfully updated."
+      "value": "تم تحديث ترتيب عرض التطبيقات بنجاح."
     }
   ],
   "ui-myprofile.settings.appNavOrder.visibleInstruction": [
     {
       "type": 0,
-      "value": "Drag & drop to change the display order of FOLIO applications."
+      "value": "قم بالسحب والإفلات لتغيير ترتيب عرض تطبيقات فوليو."
     }
   ],
   "ui-myprofile.settings.changePassword.confirmPassword": [
@@ -100300,7 +100352,7 @@
   "ui-orders.permission.settings.number-generator.manage": [
     {
       "type": 0,
-      "value": "Settings (Orders): Manage number generator options"
+      "value": "الإعدادات (أوامر الشراء): إدارة خيارات مولد الأرقام"
     }
   ],
   "ui-orders.permission.settings.order-templates.create": [
@@ -102307,43 +102359,43 @@
   "ui-orders.settings.numberGenerator.accessionNumber": [
     {
       "type": 0,
-      "value": "Accession number"
+      "value": "رقم الانضمام"
     }
   ],
   "ui-orders.settings.numberGenerator.accessionNumberEqualCallNumber": [
     {
       "type": 0,
-      "value": "Use the same generated number for accession number and call number"
+      "value": "استخدام نفس الرقم الذي تم توليده لرقم الانضمام ورقم الاستدعاء"
     }
   ],
   "ui-orders.settings.numberGenerator.accessionNumberEqualCallNumber.warning": [
     {
       "type": 0,
-      "value": "Warning: The checkbox has been disabled because the accession number and/or the call number have been set to manual completion."
+      "value": "تحذير: تم تعطيل مربع التحديد لأنه تم تعيين رقم الانضمام و/أو رقم الاستدعاء على الإكمال اليدوي."
     }
   ],
   "ui-orders.settings.numberGenerator.barcode": [
     {
       "type": 0,
-      "value": "Barcode"
+      "value": "باركود"
     }
   ],
   "ui-orders.settings.numberGenerator.callNumber": [
     {
       "type": 0,
-      "value": "Call number"
+      "value": "رقم الاستدعاء"
     }
   ],
   "ui-orders.settings.numberGenerator.info": [
     {
       "type": 0,
-      "value": "Fields which are usually filled using a numeric sequence can use the number generator. When the generator is switched on the field can either be fixed to prevent manual update, or made fully editable. When switched off, the field must be filled manually."
+      "value": "يمكن استخدام مولد الأرقام للحقول التي يتم ملؤها عادةً بتسلسل رقمي. عند تشغيل المولد، يمكن إما تثبيت الحقل لمنع التحديث اليدوي، أو جعله قابلاً للتحرير بالكامل. عند إيقاف تشغيله، يجب ملء الحقل يدوياً."
     }
   ],
   "ui-orders.settings.numberGenerator.infoAdditional": [
     {
       "type": 0,
-      "value": "Additional number generator settings are available under "
+      "value": "تتوفر إعدادات إضافية لمولد الأرقام أدنى "
     },
     {
       "type": 1,
@@ -102351,7 +102403,7 @@
     },
     {
       "type": 0,
-      "value": ". At "
+      "value": ". في "
     },
     {
       "type": 1,
@@ -102359,61 +102411,61 @@
     },
     {
       "type": 0,
-      "value": " sequences can be defined by selecting the appropriate generator via the drop-down menu."
+      "value": "، يمكن تحديد التسلسلات باختيار المولد المناسب من القائمة المنسدلة."
     }
   ],
   "ui-orders.settings.numberGenerator.infoAdditional.numberGeneratorSequences": [
     {
       "type": 0,
-      "value": "Number generator sequences"
+      "value": "تسلسل مولد الأرقام"
     }
   ],
   "ui-orders.settings.numberGenerator.infoAdditional.serviceInteraction": [
     {
       "type": 0,
-      "value": "Service interaction"
+      "value": "تفاعل الخدمة"
     }
   ],
   "ui-orders.settings.numberGenerator.options": [
     {
       "type": 0,
-      "value": "Number generator options"
+      "value": "خيارات مولد الأرقام"
     }
   ],
   "ui-orders.settings.numberGenerator.options.off": [
     {
       "type": 0,
-      "value": "Off"
+      "value": "إيقاف"
     }
   ],
   "ui-orders.settings.numberGenerator.options.onEditable": [
     {
       "type": 0,
-      "value": "On, field editable"
+      "value": "قيد التشغيل، الحقل قابل للتحرير"
     }
   ],
   "ui-orders.settings.numberGenerator.options.onNotEditable": [
     {
       "type": 0,
-      "value": "On, field not editable"
+      "value": "قيد التشغيل، الحقل غير قابل للتحرير"
     }
   ],
   "ui-orders.settings.numberGenerator.receiving": [
     {
       "type": 0,
-      "value": "Receiving"
+      "value": "جاري استلام"
     }
   ],
   "ui-orders.settings.numberGenerator.submit.error": [
     {
       "type": 0,
-      "value": "Number generator setting update failed"
+      "value": "فشل تحديث إعدادات مولد الأرقام"
     }
   ],
   "ui-orders.settings.numberGenerator.submit.success": [
     {
       "type": 0,
-      "value": "Number generator setting was successfully updated"
+      "value": "تم تحديث إعداد مولد الأرقام بنجاح"
     }
   ],
   "ui-orders.settings.openOrder": [
@@ -106380,7 +106432,7 @@
   "ui-organizations.settings.numberGeneratorOptions.code": [
     {
       "type": 0,
-      "value": "Code"
+      "value": "الرمز"
     }
   ],
   "ui-organizations.settings.numberGeneratorOptions.info": [
@@ -106414,19 +106466,19 @@
   "ui-organizations.settings.numberGeneratorOptions.off": [
     {
       "type": 0,
-      "value": "Off"
+      "value": "إيقاف"
     }
   ],
   "ui-organizations.settings.numberGeneratorOptions.onEditable": [
     {
       "type": 0,
-      "value": "On, field editable"
+      "value": "قيد التشغيل، الحقل قابل للتحرير"
     }
   ],
   "ui-organizations.settings.numberGeneratorOptions.onNotEditable": [
     {
       "type": 0,
-      "value": "On, field not editable"
+      "value": "قيد التشغيل، الحقل غير قابل للتحرير"
     }
   ],
   "ui-organizations.settings.numberGeneratorOptions.save.error": [
@@ -108424,7 +108476,7 @@
   "ui-plugin-create-inventory-records.numberGenerator.generateBarcode": [
     {
       "type": 0,
-      "value": "Generate barcode"
+      "value": "توليد باركود"
     }
   ],
   "ui-plugin-create-inventory-records.onSave.error": [
@@ -118197,13 +118249,13 @@
   "ui-quick-marc.sourceFileSelect.fieldLabel": [
     {
       "type": 0,
-      "value": "Authority file name"
+      "value": "اسم ملف الاستناد"
     }
   ],
   "ui-quick-marc.sourceFileSelect.placeholder": [
     {
       "type": 0,
-      "value": "Select authority file"
+      "value": "حدد ملف استناد"
     }
   ],
   "ui-quick-marc.update-linked-bib-fields.modal.keep-editing": [
@@ -119063,31 +119115,31 @@
   "ui-receiving.numberGenerator.accessionAndCallNumberSequence": [
     {
       "type": 0,
-      "value": "Accession and call number sequence"
+      "value": "تسلسل أرقام انضمام وأرقام استدعاء"
     }
   ],
   "ui-receiving.numberGenerator.accessionNumberSequence": [
     {
       "type": 0,
-      "value": "Accession number sequence"
+      "value": "تسلسل رقم الانضمام"
     }
   ],
   "ui-receiving.numberGenerator.barcodeSequence": [
     {
       "type": 0,
-      "value": "Barcode sequence"
+      "value": "تسلسل الباركود"
     }
   ],
   "ui-receiving.numberGenerator.callNumberSequence": [
     {
       "type": 0,
-      "value": "Call number sequence"
+      "value": "تسلسل أرقام الاستدعاء"
     }
   ],
   "ui-receiving.numberGenerator.generateForRow": [
     {
       "type": 0,
-      "value": "Generate numbers for row "
+      "value": "توليد أرقام للصف "
     },
     {
       "type": 1,
@@ -119097,13 +119149,13 @@
   "ui-receiving.numberGenerator.generateHelpText": [
     {
       "type": 0,
-      "value": "The selected sequences will be used to generate new numbers. Select \"Generate numbers\" to go ahead."
+      "value": "سيتم استخدام التسلسلات المحددة لتوليد أرقام جديدة. حدد \"توليد الأرقام\" للمتابعة."
     }
   ],
   "ui-receiving.numberGenerator.generateNumbers": [
     {
       "type": 0,
-      "value": "Generate numbers"
+      "value": "توليد الأرقام"
     }
   ],
   "ui-receiving.permission.acq-units.assignment.assign": [
@@ -124560,7 +124612,7 @@
   "ui-requests.requestUuid": [
     {
       "type": 0,
-      "value": "Request UUID"
+      "value": "طلب معرف عمومي فريد"
     }
   ],
   "ui-requests.requester.barcode": [
@@ -125997,7 +126049,7 @@
   "ui-serials-management.ruleset.addChronologyLabel": [
     {
       "type": 0,
-      "value": "Add chronology label"
+      "value": "إضافة تسمية التسلسل الزمني"
     }
   ],
   "ui-serials-management.ruleset.addCombination": [
@@ -126015,7 +126067,7 @@
   "ui-serials-management.ruleset.addEnumerationLabel": [
     {
       "type": 0,
-      "value": "Add enumeration label"
+      "value": "إضافة تسمية الترقيم"
     }
   ],
   "ui-serials-management.ruleset.addLabel": [
@@ -126135,7 +126187,7 @@
   "ui-serials-management.ruleset.chronologyLabelIndex": [
     {
       "type": 0,
-      "value": "Chronology label "
+      "value": "تسمية التسلسل الزمني "
     },
     {
       "type": 1,
@@ -126363,7 +126415,7 @@
   "ui-serials-management.ruleset.enumerationLabelIndex": [
     {
       "type": 0,
-      "value": "Enumeration label "
+      "value": "تسمية الترقيم "
     },
     {
       "type": 1,
@@ -126579,7 +126631,7 @@
   "ui-serials-management.ruleset.noChronologyLabels": [
     {
       "type": 0,
-      "value": "No chronology labels for this publication pattern"
+      "value": "لا توجد تسميات تسلسل زمني لنمط النشر هذا"
     }
   ],
   "ui-serials-management.ruleset.noCombinationRules": [
@@ -126591,7 +126643,7 @@
   "ui-serials-management.ruleset.noEnumerationLabels": [
     {
       "type": 0,
-      "value": "No enumeration labels for this publication pattern"
+      "value": "لا توجد تسميات ترقيم لهذا النمط من المنشورات"
     }
   ],
   "ui-serials-management.ruleset.noLabels": [
@@ -126639,39 +126691,31 @@
   "ui-serials-management.ruleset.numberOfTimeUnit": [
     {
       "type": 0,
-      "value": "Number of "
-    },
-    {
-      "type": 1,
-      "value": "timeUnit"
-    },
-    {
-      "type": 0,
-      "value": "s"
+      "value": "Number of time units"
     }
   ],
   "ui-serials-management.ruleset.numberOfTimeUnit.day": [
     {
       "type": 0,
-      "value": "Number of days"
+      "value": "عدد الأيام"
     }
   ],
   "ui-serials-management.ruleset.numberOfTimeUnit.month": [
     {
       "type": 0,
-      "value": "Number of months"
+      "value": "عدد الشهور"
     }
   ],
   "ui-serials-management.ruleset.numberOfTimeUnit.week": [
     {
       "type": 0,
-      "value": "Number of weeks"
+      "value": "عدد الأسابيع"
     }
   ],
   "ui-serials-management.ruleset.numberOfTimeUnit.year": [
     {
       "type": 0,
-      "value": "Number of years"
+      "value": "عدد السنوات"
     }
   ],
   "ui-serials-management.ruleset.numberOfUnits": [
@@ -126801,7 +126845,7 @@
   "ui-serials-management.ruleset.removeChronologyLabelIndex": [
     {
       "type": 0,
-      "value": "Remove chronology label "
+      "value": "إزالة تسمية التسلسل الزمني "
     },
     {
       "type": 1,
@@ -126821,7 +126865,7 @@
   "ui-serials-management.ruleset.removeEnumerationLabelIndex": [
     {
       "type": 0,
-      "value": "Remove enumeration label "
+      "value": "إزالة تسمية الترقيم "
     },
     {
       "type": 1,
@@ -127019,13 +127063,13 @@
   "ui-serials-management.serials.deleteSerial": [
     {
       "type": 0,
-      "value": "Delete serial"
+      "value": "حذف الدورية"
     }
   ],
   "ui-serials-management.serials.deleteSerial.confirmMessage": [
     {
       "type": 0,
-      "value": "Serial "
+      "value": "سيتم حذف الدورية "
     },
     {
       "children": [
@@ -127039,13 +127083,13 @@
     },
     {
       "type": 0,
-      "value": " will be deleted"
+      "value": " "
     }
   ],
   "ui-serials-management.serials.deleteSerial.error.hasPublicationPattern": [
     {
       "type": 0,
-      "value": "Serial was not deleted because it has one or more publication patterns."
+      "value": "لم يتم حذف الدورية لأنها تحتوي على نمط نشر واحد أو أكثر."
     }
   ],
   "ui-serials-management.serials.deleteSerial.error.noDeleteSerialBackendError": [
@@ -127053,7 +127097,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Serial was not deleted:"
+          "value": "لم يتم حذف الدورية"
         }
       ],
       "type": 8,
@@ -127071,7 +127115,7 @@
   "ui-serials-management.serials.deleteSerial.success": [
     {
       "type": 0,
-      "value": "Serial deleted: "
+      "value": "تم حذف الدورية "
     },
     {
       "children": [
@@ -133912,7 +133956,7 @@
   "ui-users.errors.personal.pronounsCharLimit": [
     {
       "type": 0,
-      "value": "Pronouns are limited to 300 characters"
+      "value": "تقتصر الضمائر الشخصية على 300 حرف"
     }
   ],
   "ui-users.errors.proxies.duplicateUserMessage": [
@@ -136929,13 +136973,13 @@
   "ui-users.numberGenerator.barcodeGenerator": [
     {
       "type": 0,
-      "value": "User barcode generator"
+      "value": "مولد الباركود للمستخدم"
     }
   ],
   "ui-users.numberGenerator.generateBarcode": [
     {
       "type": 0,
-      "value": "Generate user barcode"
+      "value": "توليد باركود للمستخدم"
     }
   ],
   "ui-users.okay": [
@@ -137679,7 +137723,7 @@
   "ui-users.permission.settings.number-generator-options.all": [
     {
       "type": 0,
-      "value": "Settings (Users): Can create, edit, and view  number generator options"
+      "value": "الإعدادات (المستخدمين): إمكانية إنشاء، وتحرير، وعرض خيارات توليد الأرقام"
     }
   ],
   "ui-users.permission.settings.owners": [
@@ -140242,19 +140286,19 @@
   "ui-users.settings.numberGenerator.barcode": [
     {
       "type": 0,
-      "value": "Barcode"
+      "value": "باركود"
     }
   ],
   "ui-users.settings.numberGenerator.info": [
     {
       "type": 0,
-      "value": "Fields which are usually filled using a numeric sequence can use the number generator. When the generator is switched on the field can either be fixed to prevent manual update, or made fully editable. When switched off, the field must be filled manually."
+      "value": "يمكن استخدام مولد الأرقام للحقول التي يتم ملؤها عادةً بتسلسل رقمي. عند تشغيل المولد، يمكن إما تثبيت الحقل لمنع التحديث اليدوي، أو جعله قابلاً للتحرير بالكامل. عند إيقاف تشغيله، يجب ملء الحقل يدوياً."
     }
   ],
   "ui-users.settings.numberGenerator.infoAdditional": [
     {
       "type": 0,
-      "value": "Additional number generator settings are available under "
+      "value": "تتوفر إعدادات إضافية لمولد الأرقام أدنى "
     },
     {
       "type": 1,
@@ -140262,7 +140306,7 @@
     },
     {
       "type": 0,
-      "value": ". At "
+      "value": ". في "
     },
     {
       "type": 1,
@@ -140270,31 +140314,31 @@
     },
     {
       "type": 0,
-      "value": " sequences can be defined by selecting the appropriate generator via the drop-down menu."
+      "value": "، يمكن تحديد التسلسلات باختيار المولد المناسب من القائمة المنسدلة."
     }
   ],
   "ui-users.settings.numberGenerator.options": [
     {
       "type": 0,
-      "value": "Number generator options"
+      "value": "خيارات مولد الأرقام"
     }
   ],
   "ui-users.settings.numberGenerator.options.off": [
     {
       "type": 0,
-      "value": "Off"
+      "value": "إيقاف"
     }
   ],
   "ui-users.settings.numberGenerator.options.onEditable": [
     {
       "type": 0,
-      "value": "On, field editable"
+      "value": "قيد التشغيل، الحقل قابل للتحرير"
     }
   ],
   "ui-users.settings.numberGenerator.options.onNotEditable": [
     {
       "type": 0,
-      "value": "On, field not editable"
+      "value": "قيد التشغيل، الحقل غير قابل للتحرير"
     }
   ],
   "ui-users.settings.owners": [

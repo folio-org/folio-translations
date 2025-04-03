@@ -117,6 +117,18 @@
       "value": "Zamknij"
     }
   ],
+  "stripes-acq-components.button.credentials.hide": [
+    {
+      "type": 0,
+      "value": "Hide credentials"
+    }
+  ],
+  "stripes-acq-components.button.credentials.show": [
+    {
+      "type": 0,
+      "value": "Show credentials"
+    }
+  ],
   "stripes-acq-components.button.save": [
     {
       "type": 0,
@@ -70222,7 +70234,7 @@
   "ui-inn-reach.settings.central-server-configuration.callout.connectionProblem.get": [
     {
       "type": 0,
-      "value": "Unable to get data due to a module error. Please try again. If a problem persists please contact your system administrator"
+      "value": "Nie można pobrać danych z powodu błędu modułu. Spróbuj ponownie. Jeśli problem będzie się powtarzał, skontaktuj się z administratorem systemu"
     }
   ],
   "ui-inn-reach.settings.central-server-configuration.callout.connectionProblem.post": [
@@ -70504,7 +70516,7 @@
   "ui-inn-reach.settings.central-server.configuration": [
     {
       "type": 0,
-      "value": "Central server configuration"
+      "value": "Konfiguracja serwera centralnego"
     }
   ],
   "ui-inn-reach.settings.central-server.location": [
@@ -70522,13 +70534,13 @@
   "ui-inn-reach.settings.central-servers.list.noItems": [
     {
       "type": 0,
-      "value": "No central servers"
+      "value": "Brak serwerów centralnych"
     }
   ],
   "ui-inn-reach.settings.central-servers.list.title": [
     {
       "type": 0,
-      "value": "Central servers"
+      "value": "Serwery centralne"
     }
   ],
   "ui-inn-reach.settings.central-servers.view.title": [
@@ -71062,7 +71074,7 @@
   "ui-inn-reach.settings.innreach.locations": [
     {
       "type": 0,
-      "value": "INN-Reach locations"
+      "value": "Lokalizacje INN-Reach"
     }
   ],
   "ui-inn-reach.settings.manage-contribution": [
@@ -71724,7 +71736,7 @@
   "ui-inn-reach.settings.visible-patron-id.placeholder.none": [
     {
       "type": 0,
-      "value": "None"
+      "value": "Brak"
     }
   ],
   "ui-inn-reach.settings.visible-patron-id.title": [
@@ -86407,7 +86419,7 @@
   "ui-licenses.notSet": [
     {
       "type": 0,
-      "value": "Not set"
+      "value": "Nie ustawiono"
     }
   ],
   "ui-licenses.operator.contains": [
@@ -97108,7 +97120,7 @@
   "ui-orders.button.confirm": [
     {
       "type": 0,
-      "value": "Confirm"
+      "value": "Potwierdzać"
     }
   ],
   "ui-orders.button.delete": [
@@ -97150,7 +97162,7 @@
   "ui-orders.button.reexport": [
     {
       "type": 0,
-      "value": "Reexport"
+      "value": "Ponowny eksport"
     }
   ],
   "ui-orders.buttons.line.cancel": [
@@ -101542,7 +101554,7 @@
   "ui-orders.reexport.order.confirmModal.message": [
     {
       "type": 0,
-      "value": "This order was previously sent to "
+      "value": "To zamówienie zostało wcześniej wysłane do "
     },
     {
       "children": [
@@ -101556,7 +101568,7 @@
     },
     {
       "type": 0,
-      "value": " via "
+      "value": " przez "
     },
     {
       "children": [
@@ -101570,7 +101582,7 @@
     },
     {
       "type": 0,
-      "value": ". Would you like this order to be sent to "
+      "value": ". Czy chcesz, aby to zamówienie zostało wysłane do "
     },
     {
       "children": [
@@ -101584,19 +101596,19 @@
     },
     {
       "type": 0,
-      "value": " with the next export?"
+      "value": " podczas następnego eksportu?"
     }
   ],
   "ui-orders.reexport.order.fail": [
     {
       "type": 0,
-      "value": "Order reexport was failed"
+      "value": "Ponowny eksport zamówienia nie powiódł się"
     }
   ],
   "ui-orders.reexport.order.success": [
     {
       "type": 0,
-      "value": "Order reexport was successfully completed"
+      "value": "Ponowny eksport zamówienia został pomyślnie ukończony"
     }
   ],
   "ui-orders.reexport.orderLine.confirmModal.heading": [
@@ -101608,7 +101620,7 @@
   "ui-orders.reexport.orderLine.confirmModal.message": [
     {
       "type": 0,
-      "value": "This order line was previously sent to "
+      "value": "Ta pozycja zamówienia została wcześniej wysłana do "
     },
     {
       "children": [
@@ -101622,7 +101634,7 @@
     },
     {
       "type": 0,
-      "value": " via "
+      "value": " przez "
     },
     {
       "children": [
@@ -101636,7 +101648,7 @@
     },
     {
       "type": 0,
-      "value": ". Would you like this order line to be sent to "
+      "value": ". Czy chcesz, aby ta pozycja zamówienia została wysłana do "
     },
     {
       "children": [
@@ -101650,19 +101662,19 @@
     },
     {
       "type": 0,
-      "value": " with the next export?"
+      "value": " podczas następnego eksportu?"
     }
   ],
   "ui-orders.reexport.orderLine.fail": [
     {
       "type": 0,
-      "value": "Order line reexport was failed"
+      "value": "Ponowny eksport pozycji zamówienia nie powiódł się"
     }
   ],
   "ui-orders.reexport.orderLine.success": [
     {
       "type": 0,
-      "value": "Order line reexport was successfully completed"
+      "value": "Ponowny eksport pozycji zamówienia został pomyślnie ukończony"
     }
   ],
   "ui-orders.relatedAgreementLines.actions.load.error": [
@@ -107558,7 +107570,7 @@
   "ui-plugin-bursar-export.bursarExports.button.add": [
     {
       "type": 0,
-      "value": "Add"
+      "value": "Dodaj"
     }
   ],
   "ui-plugin-bursar-export.bursarExports.button.addCondition": [
@@ -108044,13 +108056,13 @@
   "ui-plugin-bursar-export.bursarExports.scheduling.frequency.days": [
     {
       "type": 0,
-      "value": "Days"
+      "value": "Dni"
     }
   ],
   "ui-plugin-bursar-export.bursarExports.scheduling.frequency.hours": [
     {
       "type": 0,
-      "value": "Hours"
+      "value": "Godziny"
     }
   ],
   "ui-plugin-bursar-export.bursarExports.scheduling.frequency.manual": [
@@ -108062,7 +108074,7 @@
   "ui-plugin-bursar-export.bursarExports.scheduling.frequency.weeks": [
     {
       "type": 0,
-      "value": "Weeks"
+      "value": "Tygodnie"
     }
   ],
   "ui-plugin-bursar-export.bursarExports.scheduling.interval.DAY": [
@@ -112210,13 +112222,13 @@
   "ui-plugin-query-builder.options.false": [
     {
       "type": 0,
-      "value": "False"
+      "value": "Nieprawidłowy"
     }
   ],
   "ui-plugin-query-builder.options.true": [
     {
       "type": 0,
-      "value": "True"
+      "value": "Prawidłowy"
     }
   ],
   "ui-plugin-query-builder.result.emptyMessage": [
@@ -112250,7 +112262,7 @@
     },
     {
       "type": 0,
-      "value": " in your query is unavailable. Please revise your query. "
+      "value": " w Twoim zapytaniu jest niedostępna. Proszę poprawić swoje zapytanie."
     }
   ],
   "ui-quick-marc.Inventory": [
@@ -126982,15 +126994,7 @@
   "ui-serials-management.ruleset.numberOfTimeUnit": [
     {
       "type": 0,
-      "value": "Number of "
-    },
-    {
-      "type": 1,
-      "value": "timeUnit"
-    },
-    {
-      "type": 0,
-      "value": "s"
+      "value": "Number of time units"
     }
   ],
   "ui-serials-management.ruleset.numberOfTimeUnit.day": [
@@ -134165,7 +134169,7 @@
   "ui-users.errors.extended.dateEnrolled": [
     {
       "type": 0,
-      "value": "Please enter correct enrolled date"
+      "value": "Proszę wpisać prawidłową datę rejestracji"
     }
   ],
   "ui-users.errors.generic": [
@@ -134293,7 +134297,7 @@
   "ui-users.errors.personal.dateOfBirth": [
     {
       "type": 0,
-      "value": "Please enter correct birth date"
+      "value": "Proszę wpisać prawidłową datę urodzenia"
     }
   ],
   "ui-users.errors.personal.pronounsCharLimit": [
@@ -137352,13 +137356,13 @@
   "ui-users.numberGenerator.barcodeGenerator": [
     {
       "type": 0,
-      "value": "User barcode generator"
+      "value": "Generator kodów kreskowych użytkownika"
     }
   ],
   "ui-users.numberGenerator.generateBarcode": [
     {
       "type": 0,
-      "value": "Generate user barcode"
+      "value": "Generator kodów kreskowych użytkownika"
     }
   ],
   "ui-users.okay": [
@@ -138102,7 +138106,7 @@
   "ui-users.permission.settings.number-generator-options.all": [
     {
       "type": 0,
-      "value": "Settings (Users): Can create, edit, and view  number generator options"
+      "value": "Ustawienia (użytkownicy): tworzenie, edytowanie i przeglądanie opcji generatora liczb"
     }
   ],
   "ui-users.permission.settings.owners": [
@@ -140689,19 +140693,19 @@
   "ui-users.settings.numberGenerator.barcode": [
     {
       "type": 0,
-      "value": "Barcode"
+      "value": "Kod kreskowy"
     }
   ],
   "ui-users.settings.numberGenerator.info": [
     {
       "type": 0,
-      "value": "Fields which are usually filled using a numeric sequence can use the number generator. When the generator is switched on the field can either be fixed to prevent manual update, or made fully editable. When switched off, the field must be filled manually."
+      "value": "Pola, które są zwykle wypełniane za pomocą sekwencji numerycznej, mogą używać generatora liczb. Gdy generator jest włączony pole można zablokować, aby uniemożliwić ręczną aktualizację lub można je ustawić jako całkowicie edytowalne. Gdy generator jest wyłączony, pole musi być wypełnione ręcznie."
     }
   ],
   "ui-users.settings.numberGenerator.infoAdditional": [
     {
       "type": 0,
-      "value": "Additional number generator settings are available under "
+      "value": "Dodatkowe ustawienia generatora liczb są dostępne pod "
     },
     {
       "type": 1,
@@ -140709,7 +140713,7 @@
     },
     {
       "type": 0,
-      "value": ". At "
+      "value": ". W "
     },
     {
       "type": 1,
@@ -140717,31 +140721,31 @@
     },
     {
       "type": 0,
-      "value": " sequences can be defined by selecting the appropriate generator via the drop-down menu."
+      "value": " sekwencje można zdefiniować, wybierając odpowiedni generator za pomocą rozwijanego menu."
     }
   ],
   "ui-users.settings.numberGenerator.options": [
     {
       "type": 0,
-      "value": "Number generator options"
+      "value": "Opcje generatora liczb"
     }
   ],
   "ui-users.settings.numberGenerator.options.off": [
     {
       "type": 0,
-      "value": "Off"
+      "value": "Wyłączone"
     }
   ],
   "ui-users.settings.numberGenerator.options.onEditable": [
     {
       "type": 0,
-      "value": "On, field editable"
+      "value": "Włączone, pole edytowalne"
     }
   ],
   "ui-users.settings.numberGenerator.options.onNotEditable": [
     {
       "type": 0,
-      "value": "On, field not editable"
+      "value": "Włączone, pole nieedytowalne"
     }
   ],
   "ui-users.settings.owners": [
@@ -141271,7 +141275,7 @@
   "ui-users.user.unknown": [
     {
       "type": 0,
-      "value": "Unknown user"
+      "value": "Nieznany użytkownik"
     }
   ],
   "ui-users.userSearch": [

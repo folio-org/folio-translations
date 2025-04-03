@@ -121,6 +121,18 @@
       "value": "Schließen"
     }
   ],
+  "stripes-acq-components.button.credentials.hide": [
+    {
+      "type": 0,
+      "value": "Hide credentials"
+    }
+  ],
+  "stripes-acq-components.button.credentials.show": [
+    {
+      "type": 0,
+      "value": "Show credentials"
+    }
+  ],
   "stripes-acq-components.button.save": [
     {
       "type": 0,
@@ -61989,7 +62001,7 @@
   "ui-erm-usage.report.error.2011": [
     {
       "type": 0,
-      "value": "Global Reports Not Supported"
+      "value": "Global Reports werden nicht unterstützt"
     }
   ],
   "ui-erm-usage.report.error.2020": [
@@ -62031,7 +62043,7 @@
   "ui-erm-usage.report.error.3032": [
     {
       "type": 0,
-      "value": "Usage No Longer Available for Requested Dates"
+      "value": "Nutzungsdaten für angefragten Zeitraum nicht mehr verfügbar"
     }
   ],
   "ui-erm-usage.report.error.3040": [
@@ -62067,7 +62079,7 @@
   "ui-erm-usage.report.error.3063": [
     {
       "type": 0,
-      "value": "Components Not Supported"
+      "value": "Components werden nicht unterstützt"
     }
   ],
   "ui-erm-usage.report.error.3070": [
@@ -86983,7 +86995,7 @@
   "ui-licenses.settings.noCurrentValue": [
     {
       "type": 0,
-      "value": "No current value"
+      "value": "Kein aktueller Wert"
     }
   ],
   "ui-licenses.settings.noOfValues": [
@@ -106758,19 +106770,19 @@
   "ui-organizations.settings.numberGeneratorOptions.off": [
     {
       "type": 0,
-      "value": "Off"
+      "value": "Deaktiviert"
     }
   ],
   "ui-organizations.settings.numberGeneratorOptions.onEditable": [
     {
       "type": 0,
-      "value": "On, field editable"
+      "value": "Aktiviert, Feld editierbar"
     }
   ],
   "ui-organizations.settings.numberGeneratorOptions.onNotEditable": [
     {
       "type": 0,
-      "value": "On, field not editable"
+      "value": "Aktiviert, Feld nicht editierbar"
     }
   ],
   "ui-organizations.settings.numberGeneratorOptions.save.error": [
@@ -108768,7 +108780,7 @@
   "ui-plugin-create-inventory-records.numberGenerator.generateBarcode": [
     {
       "type": 0,
-      "value": "Generate barcode"
+      "value": "Barcode generieren"
     }
   ],
   "ui-plugin-create-inventory-records.onSave.error": [
@@ -137326,13 +137338,13 @@
   "ui-users.numberGenerator.barcodeGenerator": [
     {
       "type": 0,
-      "value": "User barcode generator"
+      "value": "Barcode-Nummerngenerator"
     }
   ],
   "ui-users.numberGenerator.generateBarcode": [
     {
       "type": 0,
-      "value": "Generate user barcode"
+      "value": "Barcode generieren"
     }
   ],
   "ui-users.okay": [
@@ -138076,7 +138088,7 @@
   "ui-users.permission.settings.number-generator-options.all": [
     {
       "type": 0,
-      "value": "Settings (Users): Can create, edit, and view  number generator options"
+      "value": "Einstellungen (Personen): Nummerngenerator-Optionen verwalten"
     }
   ],
   "ui-users.permission.settings.owners": [
@@ -140625,13 +140637,13 @@
   "ui-users.settings.numberGenerator.info": [
     {
       "type": 0,
-      "value": "Fields which are usually filled using a numeric sequence can use the number generator. When the generator is switched on the field can either be fixed to prevent manual update, or made fully editable. When switched off, the field must be filled manually."
+      "value": "Felder, die normalerweise Nummernkreise nutzen, könnten einen Nummerngenerator verwenden. Wenn der Generator aktiviert ist, kann das Feld entweder vor manueller Aktualisierung geschützt werden oder editierbar sein. Wenn der Generator deaktiviert ist, kann das Feld nur manuell verwendet werden."
     }
   ],
   "ui-users.settings.numberGenerator.infoAdditional": [
     {
       "type": 0,
-      "value": "Additional number generator settings are available under "
+      "value": "Weitere Einstellungen für Nummerngeneratoren sind unter "
     },
     {
       "type": 1,
@@ -140639,7 +140651,7 @@
     },
     {
       "type": 0,
-      "value": ". At "
+      "value": " verfügbar. Unter "
     },
     {
       "type": 1,
@@ -140647,31 +140659,31 @@
     },
     {
       "type": 0,
-      "value": " sequences can be defined by selecting the appropriate generator via the drop-down menu."
+      "value": " können Nummernkreise definiert werden, indem der entsprechende Generator über das Dropdown-Menü ausgewählt wird."
     }
   ],
   "ui-users.settings.numberGenerator.options": [
     {
       "type": 0,
-      "value": "Number generator options"
+      "value": "Nummerngenerator-Optionen"
     }
   ],
   "ui-users.settings.numberGenerator.options.off": [
     {
       "type": 0,
-      "value": "Off"
+      "value": "Deaktiviert"
     }
   ],
   "ui-users.settings.numberGenerator.options.onEditable": [
     {
       "type": 0,
-      "value": "On, field editable"
+      "value": "Aktiviert, Feld editierbar"
     }
   ],
   "ui-users.settings.numberGenerator.options.onNotEditable": [
     {
       "type": 0,
-      "value": "On, field not editable"
+      "value": "Aktiviert, Feld nicht editierbar"
     }
   ],
   "ui-users.settings.owners": [

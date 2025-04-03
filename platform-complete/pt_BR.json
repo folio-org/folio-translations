@@ -117,6 +117,18 @@
       "value": "Fechar"
     }
   ],
+  "stripes-acq-components.button.credentials.hide": [
+    {
+      "type": 0,
+      "value": "Hide credentials"
+    }
+  ],
+  "stripes-acq-components.button.credentials.show": [
+    {
+      "type": 0,
+      "value": "Show credentials"
+    }
+  ],
   "stripes-acq-components.button.save": [
     {
       "type": 0,
@@ -62264,7 +62276,7 @@
   "ui-erm-usage.report.error.2011": [
     {
       "type": 0,
-      "value": "Global Reports Not Supported"
+      "value": "Relatórios globais não suportados"
     }
   ],
   "ui-erm-usage.report.error.2020": [
@@ -62306,7 +62318,7 @@
   "ui-erm-usage.report.error.3032": [
     {
       "type": 0,
-      "value": "Usage No Longer Available for Requested Dates"
+      "value": "O uso não está mais disponível para as datas solicitadas"
     }
   ],
   "ui-erm-usage.report.error.3040": [
@@ -62342,7 +62354,7 @@
   "ui-erm-usage.report.error.3063": [
     {
       "type": 0,
-      "value": "Components Not Supported"
+      "value": "Componentes não suportados"
     }
   ],
   "ui-erm-usage.report.error.3070": [
@@ -107407,7 +107419,7 @@
   "ui-organizations.settings.numberGeneratorOptions.code": [
     {
       "type": 0,
-      "value": "Code"
+      "value": "Código"
     }
   ],
   "ui-organizations.settings.numberGeneratorOptions.info": [
@@ -107441,19 +107453,19 @@
   "ui-organizations.settings.numberGeneratorOptions.off": [
     {
       "type": 0,
-      "value": "Off"
+      "value": "Desligado"
     }
   ],
   "ui-organizations.settings.numberGeneratorOptions.onEditable": [
     {
       "type": 0,
-      "value": "On, field editable"
+      "value": "Ligado, campo editável"
     }
   ],
   "ui-organizations.settings.numberGeneratorOptions.onNotEditable": [
     {
       "type": 0,
-      "value": "On, field not editable"
+      "value": "Ligado, campo não editável"
     }
   ],
   "ui-organizations.settings.numberGeneratorOptions.save.error": [
@@ -109471,7 +109483,7 @@
   "ui-plugin-create-inventory-records.numberGenerator.generateBarcode": [
     {
       "type": 0,
-      "value": "Generate barcode"
+      "value": "Gerar código de barras"
     }
   ],
   "ui-plugin-create-inventory-records.onSave.error": [
@@ -127880,39 +127892,31 @@
   "ui-serials-management.ruleset.numberOfTimeUnit": [
     {
       "type": 0,
-      "value": "Número de "
-    },
-    {
-      "type": 1,
-      "value": "timeUnit"
-    },
-    {
-      "type": 0,
-      "value": " s"
+      "value": "Número de unidades de tempo"
     }
   ],
   "ui-serials-management.ruleset.numberOfTimeUnit.day": [
     {
       "type": 0,
-      "value": "Number of days"
+      "value": "Número de dias"
     }
   ],
   "ui-serials-management.ruleset.numberOfTimeUnit.month": [
     {
       "type": 0,
-      "value": "Number of months"
+      "value": "Número de meses"
     }
   ],
   "ui-serials-management.ruleset.numberOfTimeUnit.week": [
     {
       "type": 0,
-      "value": "Number of weeks"
+      "value": "Número de semanas"
     }
   ],
   "ui-serials-management.ruleset.numberOfTimeUnit.year": [
     {
       "type": 0,
-      "value": "Number of years"
+      "value": "Número de anos"
     }
   ],
   "ui-serials-management.ruleset.numberOfUnits": [
@@ -138456,13 +138460,13 @@
   "ui-users.numberGenerator.barcodeGenerator": [
     {
       "type": 0,
-      "value": "User barcode generator"
+      "value": "Gerador de código de barras do usuário"
     }
   ],
   "ui-users.numberGenerator.generateBarcode": [
     {
       "type": 0,
-      "value": "Generate user barcode"
+      "value": "Gerar código de barras do usuário"
     }
   ],
   "ui-users.okay": [
@@ -139206,7 +139210,7 @@
   "ui-users.permission.settings.number-generator-options.all": [
     {
       "type": 0,
-      "value": "Settings (Users): Can create, edit, and view  number generator options"
+      "value": "Configurações (usuários): Pode criar, editar e visualizar as opções do gerador de números"
     }
   ],
   "ui-users.permission.settings.owners": [
@@ -141765,19 +141769,19 @@
   "ui-users.settings.numberGenerator.barcode": [
     {
       "type": 0,
-      "value": "Barcode"
+      "value": "Código de barras"
     }
   ],
   "ui-users.settings.numberGenerator.info": [
     {
       "type": 0,
-      "value": "Fields which are usually filled using a numeric sequence can use the number generator. When the generator is switched on the field can either be fixed to prevent manual update, or made fully editable. When switched off, the field must be filled manually."
+      "value": "Os campos que normalmente são preenchidos com uma sequência numérica podem usar o gerador de números. Quando o gerador é ativado, o campo pode ser fixo para impedir a atualização manual ou pode ser totalmente editável. Quando desativado, o campo deve ser preenchido manualmente."
     }
   ],
   "ui-users.settings.numberGenerator.infoAdditional": [
     {
       "type": 0,
-      "value": "Additional number generator settings are available under "
+      "value": "Configurações adicionais do gerador de números estão disponíveis em "
     },
     {
       "type": 1,
@@ -141785,7 +141789,7 @@
     },
     {
       "type": 0,
-      "value": ". At "
+      "value": ". Em "
     },
     {
       "type": 1,
@@ -141793,31 +141797,31 @@
     },
     {
       "type": 0,
-      "value": " sequences can be defined by selecting the appropriate generator via the drop-down menu."
+      "value": " as sequências podem ser definidas selecionando o gerador apropriado no menu suspenso."
     }
   ],
   "ui-users.settings.numberGenerator.options": [
     {
       "type": 0,
-      "value": "Number generator options"
+      "value": "Opções do gerador de números"
     }
   ],
   "ui-users.settings.numberGenerator.options.off": [
     {
       "type": 0,
-      "value": "Off"
+      "value": "Desligado"
     }
   ],
   "ui-users.settings.numberGenerator.options.onEditable": [
     {
       "type": 0,
-      "value": "On, field editable"
+      "value": "Ligado, campo editável"
     }
   ],
   "ui-users.settings.numberGenerator.options.onNotEditable": [
     {
       "type": 0,
-      "value": "On, field not editable"
+      "value": "Ligado, campo não editável"
     }
   ],
   "ui-users.settings.owners": [

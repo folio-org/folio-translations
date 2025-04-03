@@ -121,6 +121,18 @@
       "value": "關閉"
     }
   ],
+  "stripes-acq-components.button.credentials.hide": [
+    {
+      "type": 0,
+      "value": "Hide credentials"
+    }
+  ],
+  "stripes-acq-components.button.credentials.show": [
+    {
+      "type": 0,
+      "value": "Show credentials"
+    }
+  ],
   "stripes-acq-components.button.save": [
     {
       "type": 0,
@@ -70409,7 +70421,7 @@
   "ui-inn-reach.settings.agency-to-folio-locations.callout.connection-problem.put": [
     {
       "type": 0,
-      "value": "出現問題，更新未儲存： "
+      "value": "出現問題，更新未儲存 :  "
     },
     {
       "type": 1,
@@ -70563,7 +70575,7 @@
   "ui-inn-reach.settings.bib-transformation.callout.connection-problem.post": [
     {
       "type": 0,
-      "value": "出現問題，建立未儲存： "
+      "value": "出現問題，建立未儲存 :  "
     },
     {
       "type": 1,
@@ -70581,7 +70593,7 @@
   "ui-inn-reach.settings.bib-transformation.callout.connection-problem.put": [
     {
       "type": 0,
-      "value": "出現問題，更新未儲存： "
+      "value": "出現問題，更新未儲存 :  "
     },
     {
       "type": 1,
@@ -72439,7 +72451,7 @@
       "children": [
         {
           "type": 0,
-          "value": "讀者備註： "
+          "value": "讀者備註 :  "
         }
       ],
       "type": 8,
@@ -109316,7 +109328,7 @@
   "ui-plugin-bursar-export.bursarExports.criteria.select.allOf": [
     {
       "type": 0,
-      "value": "所有的："
+      "value": "所有的 : "
     }
   ],
   "ui-plugin-bursar-export.bursarExports.criteria.select.amount": [
@@ -109328,7 +109340,7 @@
   "ui-plugin-bursar-export.bursarExports.criteria.select.anyOf": [
     {
       "type": 0,
-      "value": "任何："
+      "value": "任何 : "
     }
   ],
   "ui-plugin-bursar-export.bursarExports.criteria.select.label": [
@@ -109472,7 +109484,7 @@
   "ui-plugin-bursar-export.bursarExports.lengthControl.direction.addOrTruncate": [
     {
       "type": 0,
-      "value": "新增/刪除字元"
+      "value": "新增 / 刪除字元"
     }
   ],
   "ui-plugin-bursar-export.bursarExports.lengthControl.direction.back": [
@@ -109508,7 +109520,7 @@
   "ui-plugin-bursar-export.bursarExports.otherwise": [
     {
       "type": 0,
-      "value": "否則："
+      "value": "否則 : "
     }
   ],
   "ui-plugin-bursar-export.bursarExports.owner": [
@@ -109838,7 +109850,7 @@
   "ui-plugin-bursar-export.bursarExports.token.accountDate.fallback.description": [
     {
       "type": 0,
-      "value": "如果所選日期不可用/不適用，則將使用替代值。"
+      "value": "如果所選日期不可用 / 不適用，則將使用替代值。"
     }
   ],
   "ui-plugin-bursar-export.bursarExports.token.arbitraryText": [
@@ -109994,7 +110006,7 @@
   "ui-plugin-bursar-export.bursarExports.token.fallback.description": [
     {
       "type": 0,
-      "value": "如果所選值不可用/不適用，則將使用替代值。"
+      "value": "如果所選值不可用 / 不適用，則將使用替代值。"
     }
   ],
   "ui-plugin-bursar-export.bursarExports.token.feeFineType": [
@@ -110024,7 +110036,7 @@
   "ui-plugin-bursar-export.bursarExports.token.headerFooter.typeSelect": [
     {
       "type": 0,
-      "value": "頁首/頁尾類型選擇"
+      "value": "頁首 / 頁尾類型選擇"
     }
   ],
   "ui-plugin-bursar-export.bursarExports.token.itemInfo": [
@@ -110228,7 +110240,7 @@
   "ui-plugin-bursar-export.permission.bursar-exports.all": [
     {
       "type": 0,
-      "value": "轉帳匯出：修改設置並開始作業"
+      "value": "轉帳匯出 : 修改設置並開始作業"
     }
   ],
   "ui-plugin-bursar-export.permission.bursar-exports.manual": [
@@ -113850,7 +113862,7 @@
   "ui-plugin-query-builder.modal.banner.limit": [
     {
       "type": 0,
-      "value": "警告：此查詢回傳的結果筆數超過允許的最大值。請修改查詢來縮小檢索結果。"
+      "value": "警告 : 此查詢回傳的結果筆數超過允許的最大值。請修改查詢來縮小檢索結果。"
     }
   ],
   "ui-plugin-query-builder.modal.cancel": [
