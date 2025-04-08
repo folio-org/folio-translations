@@ -22710,7 +22710,7 @@
   "ui-bulk-edit.columns.INSTANCE.Electronic access": [
     {
       "type": 0,
-      "value": "Electronic access"
+      "value": "电子访问"
     }
   ],
   "ui-bulk-edit.columns.INSTANCE.Formats": [
@@ -23879,25 +23879,25 @@
   "ui-bulk-edit.entityType.composite_holdings_record": [
     {
       "type": 0,
-      "value": "Holdings"
+      "value": "馆藏"
     }
   ],
   "ui-bulk-edit.entityType.composite_instances": [
     {
       "type": 0,
-      "value": "Instances"
+      "value": "实例"
     }
   ],
   "ui-bulk-edit.entityType.composite_item_details": [
     {
       "type": 0,
-      "value": "Items"
+      "value": "单件"
     }
   ],
   "ui-bulk-edit.entityType.composite_user_details": [
     {
       "type": 0,
-      "value": "Users"
+      "value": "用户"
     }
   ],
   "ui-bulk-edit.error.incorrectFormatted": [
@@ -26107,10 +26107,14 @@
   "ui-bulk-edit.previewModal.message.empty.notSupported": [
     {
       "type": 0,
-      "value": "No instances can be updated because none have source MARC."
+      "value": "由于没有源 MARC，因此无法更新任何实例。"
     }
   ],
   "ui-bulk-edit.previewModal.message.empty.partlySupported": [
+    {
+      "type": 0,
+      "value": "单击“提交更改”按钮后，将更改"
+    },
     {
       "style": null,
       "type": 2,
@@ -26118,7 +26122,7 @@
     },
     {
       "type": 0,
-      "value": " records will be changed when the Commit changes button is clicked. You may choose Download preview to review all changes prior to saving. "
+      "value": "个记录。可以选择下载预览，在保存之前查看所有更改。 "
     },
     {
       "style": null,
@@ -26127,7 +26131,7 @@
     },
     {
       "type": 0,
-      "value": " instances have source that is not supported by MARC records bulk edit and cannot be updated."
+      "value": "个实例的来源不受 MARC 记录批量编辑支持，因此无法更新。"
     }
   ],
   "ui-bulk-edit.previewModal.previewToBeChanged": [
@@ -91707,6 +91711,12 @@
       "value": "无法完成操作。由于删除了字段，查询不再有效。请编辑列表查询或删除列表。"
     }
   ],
+  "ui-lists.unhandled.error": [
+    {
+      "type": 0,
+      "value": "An error occurred."
+    }
+  ],
   "ui-lists.update-export.in.progress": [
     {
       "type": 0,
@@ -138810,6 +138820,18 @@
     {
       "type": 0,
       "value": "缩放"
+    }
+  ],
+  "ui-users.information.profilePicture.retakePhoto": [
+    {
+      "type": 0,
+      "value": "Retake photo"
+    }
+  ],
+  "ui-users.information.profilePicture.takePhoto": [
+    {
+      "type": 0,
+      "value": "Take photo"
     }
   ],
   "ui-users.information.profilePicture.update": [
