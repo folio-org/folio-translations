@@ -112315,6 +112315,12 @@
       "value": "Test query"
     }
   ],
+  "ui-plugin-query-builder.noOptionsAvailable": [
+    {
+      "type": 0,
+      "value": "No matches! Try Organization look-up"
+    }
+  ],
   "ui-plugin-query-builder.options.false": [
     {
       "type": 0,
@@ -112343,6 +112349,30 @@
     {
       "type": 0,
       "value": "Build query"
+    }
+  ],
+  "ui-plugin-query-builder.userFriendlyQuery.boolean.$and": [
+    {
+      "type": 1,
+      "value": "query1"
+    },
+    {
+      "type": 0,
+      "value": " and "
+    },
+    {
+      "type": 1,
+      "value": "query2"
+    }
+  ],
+  "ui-plugin-query-builder.viewer.accordion.title.query": [
+    {
+      "type": 0,
+      "value": "Query: "
+    },
+    {
+      "type": 1,
+      "value": "query"
     }
   ],
   "ui-plugin-query-builder.viewer.retrieving": [

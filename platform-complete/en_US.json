@@ -112080,7 +112080,7 @@
   "ui-plugin-query-builder.modal.banner.limit": [
     {
       "type": 0,
-      "value": "Warning: this query returns more records than the maximum allowed. Modify the query to limit your results."
+      "value": "This query returns more records than the maximum allowed; please modify the query to reduce the results."
     }
   ],
   "ui-plugin-query-builder.modal.cancel": [
@@ -112092,49 +112092,143 @@
   "ui-plugin-query-builder.modal.preview.countingInProgress": [
     {
       "type": 0,
-      "value": "Counting in progress"
+      "value": "Counting results..."
     }
   ],
   "ui-plugin-query-builder.modal.preview.queryInProgress": [
     {
       "type": 0,
-      "value": "Test query in progress"
+      "value": "Executing test query..."
     }
   ],
   "ui-plugin-query-builder.modal.preview.title": [
     {
       "type": 0,
-      "value": "Query would return "
+      "value": "Query returns "
     },
     {
-      "type": 1,
+      "offset": 0,
+      "options": {
+        "=0": {
+          "value": [
+            {
+              "type": 0,
+              "value": "no records"
+            }
+          ]
+        },
+        "one": {
+          "value": [
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " record"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " records"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
       "value": "total"
     },
     {
       "type": 0,
-      "value": " records. Preview of first "
+      "value": ". Previewing the first "
     },
     {
-      "type": 1,
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " record"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " records"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
       "value": "limit"
     },
     {
       "type": 0,
-      "value": " records."
+      "value": ":"
     }
   ],
   "ui-plugin-query-builder.modal.preview.title.empty": [
     {
       "type": 0,
-      "value": "Query would return "
+      "value": "Query returns "
     },
     {
-      "type": 1,
+      "offset": 0,
+      "options": {
+        "=0": {
+          "value": [
+            {
+              "type": 0,
+              "value": "no records"
+            }
+          ]
+        },
+        "one": {
+          "value": [
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " record"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " records"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
       "value": "total"
     },
     {
       "type": 0,
-      "value": " records."
+      "value": "."
     }
   ],
   "ui-plugin-query-builder.modal.query": [
@@ -112153,6 +112247,12 @@
     {
       "type": 0,
       "value": "Test query"
+    }
+  ],
+  "ui-plugin-query-builder.noOptionsAvailable": [
+    {
+      "type": 0,
+      "value": "No matches! Try Organization look-up"
     }
   ],
   "ui-plugin-query-builder.options.false": [
@@ -112183,6 +112283,30 @@
     {
       "type": 0,
       "value": "Build query"
+    }
+  ],
+  "ui-plugin-query-builder.userFriendlyQuery.boolean.$and": [
+    {
+      "type": 1,
+      "value": "query1"
+    },
+    {
+      "type": 0,
+      "value": " and "
+    },
+    {
+      "type": 1,
+      "value": "query2"
+    }
+  ],
+  "ui-plugin-query-builder.viewer.accordion.title.query": [
+    {
+      "type": 0,
+      "value": "Query: "
+    },
+    {
+      "type": 1,
+      "value": "query"
     }
   ],
   "ui-plugin-query-builder.viewer.retrieving": [
