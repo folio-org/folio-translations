@@ -22608,6 +22608,12 @@
       "value": "Cataloged date"
     }
   ],
+  "ui-bulk-edit.columns.INSTANCE.Classification": [
+    {
+      "type": 0,
+      "value": "Classification"
+    }
+  ],
   "ui-bulk-edit.columns.INSTANCE.Contributors": [
     {
       "type": 0,
@@ -24850,6 +24856,18 @@
     {
       "type": 0,
       "value": " records matched"
+    }
+  ],
+  "ui-bulk-edit.list.preview.classification.classification": [
+    {
+      "type": 0,
+      "value": "Classification"
+    }
+  ],
+  "ui-bulk-edit.list.preview.classification.identifierType": [
+    {
+      "type": 0,
+      "value": "Classification identifier type"
     }
   ],
   "ui-bulk-edit.list.preview.electronicAccess.linkText": [
@@ -100778,6 +100796,18 @@
     {
       "type": 0,
       "value": "POL fund distribution"
+    }
+  ],
+  "ui-orders.poLine.fundDistribution.expenseClass.modal.description": [
+    {
+      "type": 0,
+      "value": "Changing this expense class will not update the related invoice line. If you want the invoice approval/payment to release the encumbrance transaction then the related invoices' expense class must be updated as well."
+    }
+  ],
+  "ui-orders.poLine.fundDistribution.expenseClass.modal.title": [
+    {
+      "type": 0,
+      "value": "Update expense class"
     }
   ],
   "ui-orders.poLine.isBinderyActive": [

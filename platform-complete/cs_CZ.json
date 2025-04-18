@@ -120,13 +120,13 @@
   "stripes-acq-components.button.credentials.hide": [
     {
       "type": 0,
-      "value": "Hide credentials"
+      "value": "Skrýt přihlašovací údaje"
     }
   ],
   "stripes-acq-components.button.credentials.show": [
     {
       "type": 0,
-      "value": "Show credentials"
+      "value": "Zobrazit přihlašovací údaje"
     }
   ],
   "stripes-acq-components.button.save": [
@@ -2413,7 +2413,7 @@
   "stripes-components.advancedSearch.footer.resetAll": [
     {
       "type": 0,
-      "value": "Reset all"
+      "value": "Obnovit vše"
     }
   ],
   "stripes-components.advancedSearch.footer.search": [
@@ -2509,7 +2509,7 @@
   "stripes-components.auditLog.card.shared": [
     {
       "type": 0,
-      "value": "Shared"
+      "value": "Sdíleno"
     }
   ],
   "stripes-components.auditLog.modal.action": [
@@ -4303,7 +4303,7 @@
   "stripes-components.languages.9bu": [
     {
       "type": 0,
-      "value": "Bugurdzi"
+      "value": "Bugurdži"
     }
   ],
   "stripes-components.languages.9ca": [
@@ -4315,19 +4315,19 @@
   "stripes-components.languages.9fd": [
     {
       "type": 0,
-      "value": "Forndanska"
+      "value": "Staroseverská dánština"
     }
   ],
   "stripes-components.languages.9fs": [
     {
       "type": 0,
-      "value": "Fornsvenska"
+      "value": "Staroseverská švédština"
     }
   ],
   "stripes-components.languages.9ft": [
     {
       "type": 0,
-      "value": "Fornlågtyska"
+      "value": "Stará dolnoněmčina"
     }
   ],
   "stripes-components.languages.9gu": [
@@ -4339,7 +4339,7 @@
   "stripes-components.languages.9kd": [
     {
       "type": 0,
-      "value": "Kelderash"
+      "value": "kelderašská romština"
     }
   ],
   "stripes-components.languages.9ke": [
@@ -4351,13 +4351,13 @@
   "stripes-components.languages.9ki": [
     {
       "type": 0,
-      "value": "Kildinsamiska "
+      "value": "Kildinská sámština"
     }
   ],
   "stripes-components.languages.9kv": [
     {
       "type": 0,
-      "value": "Kvänska"
+      "value": "Kvenština"
     }
   ],
   "stripes-components.languages.9lo": [
@@ -4375,7 +4375,7 @@
   "stripes-components.languages.9pr": [
     {
       "type": 0,
-      "value": "Polsk romani"
+      "value": "Polská romština"
     }
   ],
   "stripes-components.languages.9si": [
@@ -4387,31 +4387,31 @@
   "stripes-components.languages.9sj": [
     {
       "type": 0,
-      "value": "Pitesamiska"
+      "value": "Pitejská sámština"
     }
   ],
   "stripes-components.languages.9so": [
     {
       "type": 0,
-      "value": "Östsamiska"
+      "value": "Východosámské jazyky"
     }
   ],
   "stripes-components.languages.9sr": [
     {
       "type": 0,
-      "value": "Svensk romani"
+      "value": "Švédská romština"
     }
   ],
   "stripes-components.languages.9su": [
     {
       "type": 0,
-      "value": "Umesamiska"
+      "value": "Umejská sámština"
     }
   ],
   "stripes-components.languages.9te": [
     {
       "type": 0,
-      "value": "Tersamiska"
+      "value": "Terská sámština"
     }
   ],
   "stripes-components.languages.aar": [
@@ -6691,7 +6691,7 @@
   "stripes-components.languages.sia": [
     {
       "type": 0,
-      "value": "Akkalasamiska"
+      "value": "Akkalská sámština"
     }
   ],
   "stripes-components.languages.sid": [
@@ -6721,7 +6721,7 @@
   "stripes-components.languages.sjk": [
     {
       "type": 0,
-      "value": "Kemisamiska"
+      "value": "Kemijská sámština"
     }
   ],
   "stripes-components.languages.sla": [
@@ -12375,7 +12375,7 @@
   "stripes-inventory-components.search.holdingsNotes": [
     {
       "type": 0,
-      "value": "Poznámky holdingů (všechny)"
+      "value": "Poznámky k holdingům (všechny)"
     }
   ],
   "stripes-inventory-components.search.holdingsUuid": [
@@ -22170,7 +22170,7 @@
   "ui-bulk-edit.category.holdingsLocation": [
     {
       "type": 0,
-      "value": "Lokace holdingů"
+      "value": "Lokace holdingu"
     }
   ],
   "ui-bulk-edit.category.holdingsNotes": [
@@ -22579,6 +22579,12 @@
     {
       "type": 0,
       "value": "Katalogizované datum"
+    }
+  ],
+  "ui-bulk-edit.columns.INSTANCE.Classification": [
+    {
+      "type": 0,
+      "value": "Classification"
     }
   ],
   "ui-bulk-edit.columns.INSTANCE.Contributors": [
@@ -24823,6 +24829,18 @@
     {
       "type": 0,
       "value": " záznamů se shoduje"
+    }
+  ],
+  "ui-bulk-edit.list.preview.classification.classification": [
+    {
+      "type": 0,
+      "value": "Classification"
+    }
+  ],
+  "ui-bulk-edit.list.preview.classification.identifierType": [
+    {
+      "type": 0,
+      "value": "Classification identifier type"
     }
   ],
   "ui-bulk-edit.list.preview.electronicAccess.linkText": [
@@ -28853,7 +28871,7 @@
   "ui-checkin.itemNotCheckedIn": [
     {
       "type": 0,
-      "value": "Jednotka není vrácena"
+      "value": "Jednotka nebyla vrácena"
     }
   ],
   "ui-checkin.itemNotFound": [
@@ -30402,7 +30420,7 @@
   "ui-checkout.itemNotCheckedOut": [
     {
       "type": 0,
-      "value": "Jednotka není vypůjčena"
+      "value": "Jednotka nebyla vypůjčena"
     }
   ],
   "ui-checkout.itemNotFoundError": [
@@ -35196,7 +35214,7 @@
   "ui-circulation.settings.staffSlips.isRawHtml": [
     {
       "type": 0,
-      "value": "Maintained as raw HTML?"
+      "value": "Udržovat jako surové HTML?"
     }
   ],
   "ui-circulation.settings.staffSlips.itemTokenHeader": [
@@ -48955,7 +48973,7 @@
   "ui-data-import.settings.mappingProfiles.map.field.holdingsNotes.legend": [
     {
       "type": 0,
-      "value": "Poznámky holdingů"
+      "value": "Poznámky k holdingům"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.field.notes.note": [
@@ -49087,7 +49105,7 @@
   "ui-data-import.settings.mappingProfiles.map.holdings.holdingsNotes.section": [
     {
       "type": 0,
-      "value": "Poznámky holdingů"
+      "value": "Poznámky k holdingům"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.holdings.location.field.shelvingOrder": [
@@ -49483,7 +49501,7 @@
   "ui-data-import.settings.mappingProfiles.map.instance.field.parentInstances.legend": [
     {
       "type": 0,
-      "value": "Nadřazený titul"
+      "value": "Nadřazené tituly"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.instance.instanceNotes.section": [
@@ -52599,7 +52617,7 @@
   "ui-data-import.settings.matchProfiles.holdingsNotes": [
     {
       "type": 0,
-      "value": "Poznámky holdingů"
+      "value": "Poznámky k holdingům"
     }
   ],
   "ui-data-import.settings.matchProfiles.holdingsStatementForIndexes": [
@@ -62187,7 +62205,7 @@
   "ui-erm-usage.report.error.htmlResponse": [
     {
       "type": 0,
-      "value": "An error has occured"
+      "value": "Došlo k chybě"
     }
   ],
   "ui-erm-usage.report.error.other": [
@@ -64816,7 +64834,7 @@
   "ui-finance.document.settings.title": [
     {
       "type": 0,
-      "value": "Finance settings"
+      "value": "Nastavení financí"
     }
   ],
   "ui-finance.document.title.search": [
@@ -67221,49 +67239,49 @@
   "ui-finance.settings.exchangeRateSource.description": [
     {
       "type": 0,
-      "value": "FOLIO retrieves exchange rates from the European Central Bank. If your institution wishes to use an alternate source for exchange rates, please check the \"Specify exchange rate provider\" box and fill in the details below."
+      "value": "FOLIO získává směnné kurzy od Evropské centrální banky. Pokud si vaše instituce přeje používat alternativní zdroj pro směnné kurzy, zaškrtněte prosím políčko „Určit poskytovatele směnných kurzů“ a vyplňte údaje níže."
     }
   ],
   "ui-finance.settings.exchangeRateSource.form.field.apiKey": [
     {
       "type": 0,
-      "value": "API Key or Login"
+      "value": "API klíč nebo přihlašovací jméno"
     }
   ],
   "ui-finance.settings.exchangeRateSource.form.field.apiSecret": [
     {
       "type": 0,
-      "value": "API Secret or Password"
+      "value": "API tajemství nebo heslo"
     }
   ],
   "ui-finance.settings.exchangeRateSource.form.field.enabled": [
     {
       "type": 0,
-      "value": "Specify exchange rate provider"
+      "value": "Zadejte poskytovatele směnného kurzu"
     }
   ],
   "ui-finance.settings.exchangeRateSource.form.field.providerUri": [
     {
       "type": 0,
-      "value": "Exchange rate provider URI"
+      "value": "URI poskytovatele směnného kurzu"
     }
   ],
   "ui-finance.settings.exchangeRateSource.submit.error.generic": [
     {
       "type": 0,
-      "value": "Exchange rate source was not updated."
+      "value": "Zdroj směnného kurzu nebyl aktualizován."
     }
   ],
   "ui-finance.settings.exchangeRateSource.submit.success": [
     {
       "type": 0,
-      "value": "Settings successfully updated."
+      "value": "Nastavení byla úspěšně aktualizována."
     }
   ],
   "ui-finance.settings.exchangeRateSource.title": [
     {
       "type": 0,
-      "value": "Exchange rate source"
+      "value": "Zdroj směnného kurzu"
     }
   ],
   "ui-finance.settings.expenseClasses.cannotDeleteTermHeader": [
@@ -73279,7 +73297,7 @@
   "ui-inventory.alternativeTitleTypes": [
     {
       "type": 0,
-      "value": "Alternativní typy názvů"
+      "value": "Variantní názvy"
     }
   ],
   "ui-inventory.alternativeTitles": [
@@ -73709,7 +73727,7 @@
   "ui-inventory.classificationIdentifierTypes": [
     {
       "type": 0,
-      "value": "Typy identifikátorů klasifikace"
+      "value": "Klasifikační systémy"
     }
   ],
   "ui-inventory.classifications": [
@@ -74041,7 +74059,7 @@
   "ui-inventory.contributorTypes": [
     {
       "type": 0,
-      "value": "Typy autorů"
+      "value": "Autorské role"
     }
   ],
   "ui-inventory.contributors": [
@@ -74630,7 +74648,7 @@
   "ui-inventory.effectiveLocation": [
     {
       "type": 0,
-      "value": "Efektivní lokace pro jednotku"
+      "value": "Efektivní lokace jednotky"
     }
   ],
   "ui-inventory.effectiveLocationHoldings": [
@@ -74999,25 +75017,25 @@
   "ui-inventory.holdingsLocation": [
     {
       "type": 0,
-      "value": "Lokace holdingů"
+      "value": "Lokace holdingu"
     }
   ],
   "ui-inventory.holdingsNoteType": [
     {
       "type": 0,
-      "value": "Typ poznámky holdingů"
+      "value": "Poznámky k holdingům"
     }
   ],
   "ui-inventory.holdingsNoteTypes": [
     {
       "type": 0,
-      "value": "Typy poznámek holdingů"
+      "value": "Poznámky k holdingům"
     }
   ],
   "ui-inventory.holdingsNotes": [
     {
       "type": 0,
-      "value": "Poznámky holdingů"
+      "value": "Poznámky k holdingům"
     }
   ],
   "ui-inventory.holdingsPaneTitle": [
@@ -75617,7 +75635,7 @@
   "ui-inventory.instanceNoteTypes": [
     {
       "type": 0,
-      "value": "Typy poznámek titulů"
+      "value": "Typy poznámek"
     }
   ],
   "ui-inventory.instanceNotes": [
@@ -75751,13 +75769,13 @@
   "ui-inventory.instanceStatusType": [
     {
       "type": 0,
-      "value": "Stavy titulů"
+      "value": "Stav záznamu"
     }
   ],
   "ui-inventory.instanceStatusTypes": [
     {
       "type": 0,
-      "value": "Stavy titulů"
+      "value": "Stavy záznamu"
     }
   ],
   "ui-inventory.instanceStatusUpdatedDate": [
@@ -77000,7 +77018,7 @@
   "ui-inventory.modesOfIssuance": [
     {
       "type": 0,
-      "value": "Způsoby vydání"
+      "value": "Bibliografická úroveň"
     }
   ],
   "ui-inventory.more": [
@@ -77012,7 +77030,7 @@
   "ui-inventory.mostRecentCheckIn": [
     {
       "type": 0,
-      "value": "Nejnovější návrat"
+      "value": "Poslední návrat"
     }
   ],
   "ui-inventory.moveItems": [
@@ -77972,7 +77990,7 @@
   "ui-inventory.parentInstances": [
     {
       "type": 0,
-      "value": "Nadřazený titul"
+      "value": "Nadřazené tituly"
     }
   ],
   "ui-inventory.permanent": [
@@ -77990,7 +78008,7 @@
   "ui-inventory.permanentLocation": [
     {
       "type": 0,
-      "value": "Trvalé"
+      "value": "Trvalá"
     }
   ],
   "ui-inventory.permission.all-permissions.TEMPORARY": [
@@ -78218,7 +78236,7 @@
   "ui-inventory.permission.settings.alternative-title-types": [
     {
       "type": 0,
-      "value": "Nastavení (Katalog): Vytváření, úpravy, mazání alternativních typů názvů"
+      "value": "Nastavení (Katalog): Vytváření, úpravy, mazání Variantních názvů"
     }
   ],
   "ui-inventory.permission.settings.call-number-browse": [
@@ -78392,13 +78410,13 @@
   "ui-inventory.permission.settings.subject-sources": [
     {
       "type": 0,
-      "value": "Nastavení (Katalog): Vytváření, úpravy, mazání zdrojů předmětů"
+      "value": "Nastavení (Katalog): Vytváření, úpravy, mazání heslář/tezaurus"
     }
   ],
   "ui-inventory.permission.settings.subject-types": [
     {
       "type": 0,
-      "value": "Nastavení (Katalog): Vytváření, úpravy, mazání typů předmětů"
+      "value": "Nastavení (Katalog): Vytváření, úpravy, mazání předmětových kategorií"
     }
   ],
   "ui-inventory.permission.single-record-import": [
@@ -78998,7 +79016,7 @@
   "ui-inventory.resourceIdentifierTypes": [
     {
       "type": 0,
-      "value": "Typy identifikátorů zdrojů"
+      "value": "Identifikátory"
     }
   ],
   "ui-inventory.resourceTitle": [
@@ -79034,7 +79052,7 @@
   "ui-inventory.resourceTypes": [
     {
       "type": 0,
-      "value": "Typy zdrojů"
+      "value": "Typy obsahu"
     }
   ],
   "ui-inventory.resultCount": [
@@ -79573,7 +79591,7 @@
   "ui-inventory.settings.instanceClassification.identifierTypesPopover": [
     {
       "type": 0,
-      "value": "Vezměte prosím na vědomí, že pokud nejsou pro volbu procházení vybrány žádné typy identifikátorů klasifikace, tato možnost zobrazí všechny typy identifikátorů klasifikace."
+      "value": "Vezměte prosím na vědomí, že pokud nejsou pro volbu procházení vybrány žádné klasifikační systémy, tato možnost zobrazí všechny klasifikační systémy."
     }
   ],
   "ui-inventory.settings.instanceClassification.lc": [
@@ -79903,7 +79921,7 @@
   "ui-inventory.subjectSource": [
     {
       "type": 0,
-      "value": "Zdroj předmětu"
+      "value": "Heslář/tezaurus"
     }
   ],
   "ui-inventory.subjectSource.placeholder": [
@@ -79915,13 +79933,13 @@
   "ui-inventory.subjectSources": [
     {
       "type": 0,
-      "value": "Zdroje předmětu"
+      "value": "Heslář/tezaurus"
     }
   ],
   "ui-inventory.subjectType": [
     {
       "type": 0,
-      "value": "Typ předmětu"
+      "value": "Předmětová kategorie"
     }
   ],
   "ui-inventory.subjectType.placeholder": [
@@ -79933,7 +79951,7 @@
   "ui-inventory.subjectTypes": [
     {
       "type": 0,
-      "value": "Zdroje předmětových hesel"
+      "value": "Předmětové kategorie"
     }
   ],
   "ui-inventory.subjects": [
@@ -79993,7 +80011,7 @@
   "ui-inventory.temporaryLocation": [
     {
       "type": 0,
-      "value": "Dočasné"
+      "value": "Dočasná"
     }
   ],
   "ui-inventory.title": [
@@ -89214,7 +89232,7 @@
   "ui-lists.unhandled.error": [
     {
       "type": 0,
-      "value": "An error occurred."
+      "value": "Došlo k chybě."
     }
   ],
   "ui-lists.update-export.in.progress": [
@@ -98274,7 +98292,7 @@
   "ui-orders.errors.missingContributorNameType": [
     {
       "type": 0,
-      "value": "Zadané jména a typy autorů nebyly nalezeny v úložišti katalogu."
+      "value": "Zadané jména a autorské role nebyly nalezeny v úložišti katalogu."
     }
   ],
   "ui-orders.errors.missingHoldingsSourceId": [
@@ -100933,6 +100951,18 @@
     {
       "type": 0,
       "value": "ŘNO rozdělení prostředků"
+    }
+  ],
+  "ui-orders.poLine.fundDistribution.expenseClass.modal.description": [
+    {
+      "type": 0,
+      "value": "Changing this expense class will not update the related invoice line. If you want the invoice approval/payment to release the encumbrance transaction then the related invoices' expense class must be updated as well."
+    }
+  ],
+  "ui-orders.poLine.fundDistribution.expenseClass.modal.title": [
+    {
+      "type": 0,
+      "value": "Update expense class"
     }
   ],
   "ui-orders.poLine.isBinderyActive": [
@@ -112242,7 +112272,7 @@
   "ui-plugin-query-builder.noOptionsAvailable": [
     {
       "type": 0,
-      "value": "No matches! Try Organization look-up"
+      "value": "Žádné shody! Vyzkoušejte vyhledávání organizace"
     }
   ],
   "ui-plugin-query-builder.options.false": [
@@ -112282,7 +112312,7 @@
     },
     {
       "type": 0,
-      "value": " and "
+      "value": " a "
     },
     {
       "type": 1,
@@ -112292,7 +112322,7 @@
   "ui-plugin-query-builder.viewer.accordion.title.query": [
     {
       "type": 0,
-      "value": "Query: "
+      "value": "Dotaz: "
     },
     {
       "type": 1,
@@ -135103,13 +135133,13 @@
   "ui-users.information.profilePicture.retakePhoto": [
     {
       "type": 0,
-      "value": "Retake photo"
+      "value": "Vyfotit znovu"
     }
   ],
   "ui-users.information.profilePicture.takePhoto": [
     {
       "type": 0,
-      "value": "Take photo"
+      "value": "Vyfotit"
     }
   ],
   "ui-users.information.profilePicture.update": [

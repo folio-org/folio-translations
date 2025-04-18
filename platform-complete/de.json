@@ -8575,7 +8575,7 @@
   "stripes-core.button.new": [
     {
       "type": 0,
-      "value": "Neu"
+      "value": "+ Neu"
     }
   ],
   "stripes-core.button.new_tooltip": [
@@ -14388,7 +14388,7 @@
   "stripes-smart-components.hideSearchPane": [
     {
       "type": 0,
-      "value": "Such- und Filterbereich ausblenden."
+      "value": "Such- und Filterbereich ausblenden"
     }
   ],
   "stripes-smart-components.isActingAs": [
@@ -22744,6 +22744,12 @@
       "value": "Cataloged date"
     }
   ],
+  "ui-bulk-edit.columns.INSTANCE.Classification": [
+    {
+      "type": 0,
+      "value": "Classification"
+    }
+  ],
   "ui-bulk-edit.columns.INSTANCE.Contributors": [
     {
       "type": 0,
@@ -24935,6 +24941,18 @@
     {
       "type": 0,
       "value": " übereinstimmende Datensätze"
+    }
+  ],
+  "ui-bulk-edit.list.preview.classification.classification": [
+    {
+      "type": 0,
+      "value": "Classification"
+    }
+  ],
+  "ui-bulk-edit.list.preview.classification.identifierType": [
+    {
+      "type": 0,
+      "value": "Classification identifier type"
     }
   ],
   "ui-bulk-edit.list.preview.electronicAccess.linkText": [
@@ -33624,17 +33642,21 @@
   "ui-circulation.settings.loanHistory.afterClose": [
     {
       "type": 0,
-      "value": "Nach dem Schließen von "
+      "value": "Nachdem "
     },
     {
       "type": 1,
       "value": "name"
+    },
+    {
+      "type": 0,
+      "value": " geschlossen wurde"
     }
   ],
   "ui-circulation.settings.loanHistory.afterCloseOrSuspended": [
     {
       "type": 0,
-      "value": "after "
+      "value": "Nachdem "
     },
     {
       "type": 1,
@@ -33642,7 +33664,7 @@
     },
     {
       "type": 0,
-      "value": " closes (or is suspended)"
+      "value": " geschlossen (oder ausgesetzt) wurde"
     }
   ],
   "ui-circulation.settings.loanHistory.anonymize": [
@@ -33690,17 +33712,21 @@
   "ui-circulation.settings.loanHistory.immediatelyAfterClose": [
     {
       "type": 0,
-      "value": "Unmittelbar nach dem Schließen von "
+      "value": "Unmittelbar nachdem "
     },
     {
       "type": 1,
       "value": "name"
+    },
+    {
+      "type": 0,
+      "value": " geschlossen wurde"
     }
   ],
   "ui-circulation.settings.loanHistory.immediatelyAfterCloseOrSuspended": [
     {
       "type": 0,
-      "value": "Immediately after "
+      "value": "Unmittelbar nachdem "
     },
     {
       "type": 1,
@@ -33708,7 +33734,7 @@
     },
     {
       "type": 0,
-      "value": " closes (or is suspended)"
+      "value": " geschlossen (oder ausgesetzt) wurde"
     }
   ],
   "ui-circulation.settings.loanHistory.interval": [
@@ -35838,7 +35864,7 @@
   "ui-circulation.settings.validate.greaterThanOrEqualToZero": [
     {
       "type": 0,
-      "value": "Wert muss größer oder gleich Null sein"
+      "value": "Wert muss größer oder gleich 0 sein"
     }
   ],
   "ui-circulation.settings.validate.greaterThanZero": [
@@ -67784,8 +67810,14 @@
       "value": " wurden dem Budget "
     },
     {
-      "type": 1,
-      "value": "budgetName"
+      "children": [
+        {
+          "type": 1,
+          "value": "budgetName"
+        }
+      ],
+      "type": 8,
+      "value": "b"
     },
     {
       "type": 0,
@@ -68210,8 +68242,14 @@
       "value": " wurden nicht erfolgreich auf das Budget "
     },
     {
-      "type": 1,
-      "value": "budgetName"
+      "children": [
+        {
+          "type": 1,
+          "value": "budgetName"
+        }
+      ],
+      "type": 8,
+      "value": "b"
     },
     {
       "type": 0,
@@ -68228,8 +68266,14 @@
       "value": " wurden erfolgreich auf das Budget "
     },
     {
-      "type": 1,
-      "value": "budgetName"
+      "children": [
+        {
+          "type": 1,
+          "value": "budgetName"
+        }
+      ],
+      "type": 8,
+      "value": "b"
     },
     {
       "type": 0,
@@ -75021,28 +75065,34 @@
   ],
   "ui-inventory.holdingsHeader": [
     {
-      "type": 0,
-      "value": "Bestand: "
-    },
-    {
-      "type": 1,
-      "value": "location"
-    },
-    {
-      "type": 0,
-      "value": " > "
-    },
-    {
-      "type": 1,
-      "value": "callNumber"
-    },
-    {
-      "type": 0,
-      "value": " "
-    },
-    {
-      "type": 1,
-      "value": "copyNumber"
+      "children": [
+        {
+          "type": 0,
+          "value": "Bestand: "
+        },
+        {
+          "type": 1,
+          "value": "location"
+        },
+        {
+          "type": 0,
+          "value": " > "
+        },
+        {
+          "type": 1,
+          "value": "callNumber"
+        },
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "copyNumber"
+        }
+      ],
+      "type": 8,
+      "value": "span"
     }
   ],
   "ui-inventory.holdingsHrid": [
@@ -76447,7 +76497,7 @@
   "ui-inventory.itemDotStatus": [
     {
       "type": 0,
-      "value": "Exemplar . "
+      "value": "Exemplar • "
     },
     {
       "type": 1,
@@ -76455,7 +76505,7 @@
     },
     {
       "type": 0,
-      "value": " "
+      "value": " • "
     },
     {
       "type": 1,
@@ -89336,7 +89386,7 @@
   "ui-lists.unhandled.error": [
     {
       "type": 0,
-      "value": "An error occurred."
+      "value": "Ein Fehler ist aufgetreten."
     }
   ],
   "ui-lists.update-export.in.progress": [
@@ -101107,6 +101157,18 @@
       "value": "Fondsverteilung"
     }
   ],
+  "ui-orders.poLine.fundDistribution.expenseClass.modal.description": [
+    {
+      "type": 0,
+      "value": "Changing this expense class will not update the related invoice line. If you want the invoice approval/payment to release the encumbrance transaction then the related invoices' expense class must be updated as well."
+    }
+  ],
+  "ui-orders.poLine.fundDistribution.expenseClass.modal.title": [
+    {
+      "type": 0,
+      "value": "Update expense class"
+    }
+  ],
   "ui-orders.poLine.isBinderyActive": [
     {
       "type": 0,
@@ -112313,7 +112375,7 @@
   "ui-plugin-query-builder.control.search.placeholder": [
     {
       "type": 0,
-      "value": "Search column name"
+      "value": "Search fields"
     }
   ],
   "ui-plugin-query-builder.control.selection.placeholder": [
@@ -112361,7 +112423,7 @@
   "ui-plugin-query-builder.modal.preview.countingInProgress": [
     {
       "type": 0,
-      "value": "Counting in progress"
+      "value": "Counting results..."
     }
   ],
   "ui-plugin-query-builder.modal.preview.queryInProgress": [
@@ -112395,15 +112457,49 @@
   "ui-plugin-query-builder.modal.preview.title.empty": [
     {
       "type": 0,
-      "value": "Query would return "
+      "value": "Query returns "
     },
     {
-      "type": 1,
+      "offset": 0,
+      "options": {
+        "=0": {
+          "value": [
+            {
+              "type": 0,
+              "value": "no records"
+            }
+          ]
+        },
+        "one": {
+          "value": [
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " record"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " records"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
       "value": "total"
     },
     {
       "type": 0,
-      "value": " records."
+      "value": "."
     }
   ],
   "ui-plugin-query-builder.modal.query": [
@@ -112497,7 +112593,7 @@
     },
     {
       "type": 0,
-      "value": " in your query is unavailable. Please revise your query. "
+      "value": " in your query is no longer available. Please revise your query."
     }
   ],
   "ui-quick-marc.Inventory": [
@@ -127236,11 +127332,7 @@
   "ui-serials-management.ruleset.numberOfTimeUnit": [
     {
       "type": 0,
-      "value": "Anzahl der "
-    },
-    {
-      "type": 1,
-      "value": "timeUnit"
+      "value": "Anzahl der Zeiteinheiten"
     }
   ],
   "ui-serials-management.ruleset.numberOfTimeUnit.day": [
@@ -128688,7 +128780,7 @@
   "ui-service-interaction.settings.numberGeneratorSequences.preChecksumTemplate.info": [
     {
       "type": 0,
-      "value": "Erstellung der Regel, die die Nummer definiert, die für die Berechnung der Prüfziffer angewandt wird. Sowohl Präfix als auch Suffix können einbezogen werden. Groovy markup wird genutzt. Als Platzhalter für die generierte Nummer wird ${generated_number} verwendet z.B. 05${generated_number}01"
+      "value": "Erstellung der Regel, die die Nummer definiert, die für die Berechnung der Prüfziffer angewandt wird. Sowohl Präfix als auch Suffix können einbezogen werden. Groovymarkup wird genutzt. Als Platzhalter für die generierte Nummer wird ${generated_number} verwendet, z.B. 05${generated_number}01"
     }
   ],
   "ui-service-interaction.settings.numberGeneratorSequences.prefix": [

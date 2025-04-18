@@ -22620,6 +22620,12 @@
       "value": "Cataloged date"
     }
   ],
+  "ui-bulk-edit.columns.INSTANCE.Classification": [
+    {
+      "type": 0,
+      "value": "Classification"
+    }
+  ],
   "ui-bulk-edit.columns.INSTANCE.Contributors": [
     {
       "type": 0,
@@ -24862,6 +24868,18 @@
     {
       "type": 0,
       "value": " records matched"
+    }
+  ],
+  "ui-bulk-edit.list.preview.classification.classification": [
+    {
+      "type": 0,
+      "value": "Classification"
+    }
+  ],
+  "ui-bulk-edit.list.preview.classification.identifierType": [
+    {
+      "type": 0,
+      "value": "Classification identifier type"
     }
   ],
   "ui-bulk-edit.list.preview.electronicAccess.linkText": [
@@ -74795,7 +74813,7 @@
   "ui-inventory.hasLinkedLocalOrderLine.modal.message": [
     {
       "type": 0,
-      "value": "This holding or item is referenced by a local purchase order line, it's affiliation cannot be changed at this time."
+      "value": "This holding or item is referenced by a local purchase order line, its affiliation cannot be changed at this time."
     }
   ],
   "ui-inventory.holdingRecord": [
@@ -100822,6 +100840,18 @@
       "value": "POL fund distribution"
     }
   ],
+  "ui-orders.poLine.fundDistribution.expenseClass.modal.description": [
+    {
+      "type": 0,
+      "value": "Changing this expense class will not update the related invoice line. If you want the invoice approval/payment to release the encumbrance transaction then the related invoices' expense class must be updated as well."
+    }
+  ],
+  "ui-orders.poLine.fundDistribution.expenseClass.modal.title": [
+    {
+      "type": 0,
+      "value": "Update expense class"
+    }
+  ],
   "ui-orders.poLine.isBinderyActive": [
     {
       "type": 0,
@@ -111978,7 +112008,7 @@
   "ui-plugin-query-builder.control.search.placeholder": [
     {
       "type": 0,
-      "value": "Search column name"
+      "value": "Search fields"
     }
   ],
   "ui-plugin-query-builder.control.selection.placeholder": [
@@ -112014,7 +112044,7 @@
   "ui-plugin-query-builder.modal.banner.limit": [
     {
       "type": 0,
-      "value": "Warning: this query returns more records than the maximum allowed. Modify the query to limit your results."
+      "value": "This query returns more records than the maximum allowed; please modify the query to reduce the results."
     }
   ],
   "ui-plugin-query-builder.modal.cancel": [
@@ -112026,49 +112056,143 @@
   "ui-plugin-query-builder.modal.preview.countingInProgress": [
     {
       "type": 0,
-      "value": "Counting in progress"
+      "value": "Counting results..."
     }
   ],
   "ui-plugin-query-builder.modal.preview.queryInProgress": [
     {
       "type": 0,
-      "value": "Test query in progress"
+      "value": "Executing test query..."
     }
   ],
   "ui-plugin-query-builder.modal.preview.title": [
     {
       "type": 0,
-      "value": "Query would return "
+      "value": "Query returns "
     },
     {
-      "type": 1,
+      "offset": 0,
+      "options": {
+        "=0": {
+          "value": [
+            {
+              "type": 0,
+              "value": "no records"
+            }
+          ]
+        },
+        "one": {
+          "value": [
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " record"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " records"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
       "value": "total"
     },
     {
       "type": 0,
-      "value": " records. Preview of first "
+      "value": ". Previewing the first "
     },
     {
-      "type": 1,
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " record"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " records"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
       "value": "limit"
     },
     {
       "type": 0,
-      "value": " records."
+      "value": ":"
     }
   ],
   "ui-plugin-query-builder.modal.preview.title.empty": [
     {
       "type": 0,
-      "value": "Query would return "
+      "value": "Query returns "
     },
     {
-      "type": 1,
+      "offset": 0,
+      "options": {
+        "=0": {
+          "value": [
+            {
+              "type": 0,
+              "value": "no records"
+            }
+          ]
+        },
+        "one": {
+          "value": [
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " record"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " records"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
       "value": "total"
     },
     {
       "type": 0,
-      "value": " records."
+      "value": "."
     }
   ],
   "ui-plugin-query-builder.modal.query": [
@@ -112162,7 +112286,7 @@
     },
     {
       "type": 0,
-      "value": " in your query is unavailable. Please revise your query. "
+      "value": " in your query is no longer available. Please revise your query."
     }
   ],
   "ui-quick-marc.Inventory": [

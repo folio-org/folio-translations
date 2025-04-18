@@ -9125,7 +9125,7 @@
   "stripes-core.logoutPending": [
     {
       "type": 0,
-      "value": "Log out in process..."
+      "value": "Déconnexion en cours…"
     }
   ],
   "stripes-core.mainnav.appContextMenu": [
@@ -22548,6 +22548,12 @@
       "value": "Date de catalogage"
     }
   ],
+  "ui-bulk-edit.columns.INSTANCE.Classification": [
+    {
+      "type": 0,
+      "value": "Classification"
+    }
+  ],
   "ui-bulk-edit.columns.INSTANCE.Contributors": [
     {
       "type": 0,
@@ -24014,7 +24020,7 @@
   "ui-bulk-edit.layer.options.inProcess": [
     {
       "type": 0,
-      "value": "In process"
+      "value": "En traitement"
     }
   ],
   "ui-bulk-edit.layer.options.instances.staffSuppress": [
@@ -24080,7 +24086,7 @@
   "ui-bulk-edit.layer.options.items.removeMarkAsStaffOnly": [
     {
       "type": 0,
-      "value": "Remove mark as staff only"
+      "value": "Retirer \"marqué comme pour le personnel uniquement\""
     }
   ],
   "ui-bulk-edit.layer.options.items.removeNote": [
@@ -24140,7 +24146,7 @@
   "ui-bulk-edit.layer.options.placeholder": [
     {
       "type": 0,
-      "value": "Select item status"
+      "value": "Sélectionner le statut d'exemplaire"
     }
   ],
   "ui-bulk-edit.layer.options.removeField": [
@@ -24790,6 +24796,18 @@
     {
       "type": 0,
       "value": " records matched"
+    }
+  ],
+  "ui-bulk-edit.list.preview.classification.classification": [
+    {
+      "type": 0,
+      "value": "Classification"
+    }
+  ],
+  "ui-bulk-edit.list.preview.classification.identifierType": [
+    {
+      "type": 0,
+      "value": "Classification identifier type"
     }
   ],
   "ui-bulk-edit.list.preview.electronicAccess.linkText": [
@@ -29110,13 +29128,13 @@
   "ui-checkin.selectItemModal.heading": [
     {
       "type": 0,
-      "value": "Select item"
+      "value": "Sélectionner l'exemplaire"
     }
   ],
   "ui-checkin.selectItemModal.itemListHeader": [
     {
       "type": 0,
-      "value": "List of items: choose one"
+      "value": "Listes d'exemplaires : choisissez-en un"
     }
   ],
   "ui-checkin.selectItemModal.itemStatus": [
@@ -31144,7 +31162,7 @@
   "ui-checkout.selectItemModal.itemListHeader": [
     {
       "type": 0,
-      "value": "List of items: choose one"
+      "value": "Listes d'exemplaires : choisissez-en un"
     }
   ],
   "ui-checkout.selectItemModal.itemStatus": [
@@ -66675,7 +66693,7 @@
   "ui-finance.ledger.rollover.rolloverBudgetValue.available": [
     {
       "type": 0,
-      "value": "Available"
+      "value": "Disponible"
     }
   ],
   "ui-finance.ledger.rollover.rolloverBudgetValue.cashBalance": [
@@ -69452,7 +69470,7 @@
   "ui-inn-reach.check-out-borrowing-site.column.due-date": [
     {
       "type": 0,
-      "value": "Date de retour"
+      "value": "Date d'échéance"
     }
   ],
   "ui-inn-reach.check-out-borrowing-site.column.loan-policy": [
@@ -72622,7 +72640,7 @@
   "ui-inn-reach.transfer-hold.modal.label": [
     {
       "type": 0,
-      "value": "Select item"
+      "value": "Sélectionner l'exemplaire"
     }
   ],
   "ui-inn-reach.transfer-hold.modal.list-of-items.notFound": [
@@ -76026,7 +76044,7 @@
   "ui-inventory.item.status.available.lowercase": [
     {
       "type": 0,
-      "value": "available"
+      "value": "disponible"
     }
   ],
   "ui-inventory.item.status.awaitingDelivery": [
@@ -76316,7 +76334,7 @@
   "ui-inventory.itemDotStatus": [
     {
       "type": 0,
-      "value": "Enregistrement de l'exemplaire "
+      "value": "Exemplaire • "
     },
     {
       "type": 1,
@@ -76324,7 +76342,7 @@
     },
     {
       "type": 0,
-      "value": " "
+      "value": " • "
     },
     {
       "type": 1,
@@ -76448,7 +76466,7 @@
   "ui-inventory.itemRecordWithDescription": [
     {
       "type": 0,
-      "value": "Enregistrement de l'exemplaire ( "
+      "value": "Notice de l'exemplaire ("
     },
     {
       "type": 1,
@@ -76456,7 +76474,7 @@
     },
     {
       "type": 0,
-      "value": " , "
+      "value": ", "
     },
     {
       "type": 1,
@@ -76464,7 +76482,7 @@
     },
     {
       "type": 0,
-      "value": " )"
+      "value": ")"
     }
   ],
   "ui-inventory.itemRecordWithDescriptionBW": [
@@ -76816,7 +76834,7 @@
   "ui-inventory.markAsHeader": [
     {
       "type": 0,
-      "value": "Mark as"
+      "value": "Marquer comme"
     }
   ],
   "ui-inventory.markAsMissing": [
@@ -78090,7 +78108,7 @@
   "ui-inventory.permission.items.mark-in-process-non-requestable.execute": [
     {
       "type": 0,
-      "value": "Inventory: Mark items in process (non-requestable)"
+      "value": "Catalogue : Marquer les exemplaires comme en traitement (non réservable)"
     }
   ],
   "ui-inventory.permission.items.mark-intellectual-item": [
@@ -89187,7 +89205,7 @@
   "ui-lists.unhandled.error": [
     {
       "type": 0,
-      "value": "An error occurred."
+      "value": "Une erreur s'est produite."
     }
   ],
   "ui-lists.update-export.in.progress": [
@@ -98223,7 +98241,7 @@
   "ui-orders.errors.itemCreationFailed": [
     {
       "type": 0,
-      "value": "L'enregistrement de l'exemplaire n'a pas pu être créé"
+      "value": "La notice de l'exemplaire n'a pas pu être créé"
     }
   ],
   "ui-orders.errors.itemNotFound": [
@@ -98235,13 +98253,13 @@
   "ui-orders.errors.itemNotRetrieved": [
     {
       "type": 0,
-      "value": "L'enregistrement de l'exemplaire n'est pas récupéré"
+      "value": "La notice de l'exemplaire n'a pas pu être récupérée"
     }
   ],
   "ui-orders.errors.itemUpdateFailed": [
     {
       "type": 0,
-      "value": "L'enregistrement de l'exemplaire n'a pas pu être mis à jour"
+      "value": "La notice de l'exemplaire n'a pas pu être mise à jour"
     }
   ],
   "ui-orders.errors.ledgerNotFoundForTransaction": [
@@ -101030,6 +101048,18 @@
     {
       "type": 0,
       "value": "Répartition budgétaire"
+    }
+  ],
+  "ui-orders.poLine.fundDistribution.expenseClass.modal.description": [
+    {
+      "type": 0,
+      "value": "Changing this expense class will not update the related invoice line. If you want the invoice approval/payment to release the encumbrance transaction then the related invoices' expense class must be updated as well."
+    }
+  ],
+  "ui-orders.poLine.fundDistribution.expenseClass.modal.title": [
+    {
+      "type": 0,
+      "value": "Update expense class"
     }
   ],
   "ui-orders.poLine.isBinderyActive": [
@@ -110969,7 +110999,7 @@
   "ui-plugin-find-instance.item.status.available": [
     {
       "type": 0,
-      "value": "Available"
+      "value": "Disponible"
     }
   ],
   "ui-plugin-find-instance.item.status.awaitingDelivery": [
@@ -112252,7 +112282,7 @@
   "ui-plugin-query-builder.modal.banner.limit": [
     {
       "type": 0,
-      "value": "Warning: this query returns more records than the maximum allowed. Modify the query to limit your results."
+      "value": "This query returns more records than the maximum allowed; please modify the query to reduce the results."
     }
   ],
   "ui-plugin-query-builder.modal.cancel": [
@@ -112264,49 +112294,143 @@
   "ui-plugin-query-builder.modal.preview.countingInProgress": [
     {
       "type": 0,
-      "value": "Counting in progress"
+      "value": "Counting results..."
     }
   ],
   "ui-plugin-query-builder.modal.preview.queryInProgress": [
     {
       "type": 0,
-      "value": "Test query in progress"
+      "value": "Executing test query..."
     }
   ],
   "ui-plugin-query-builder.modal.preview.title": [
     {
       "type": 0,
-      "value": "Query would return "
+      "value": "Query returns "
     },
     {
-      "type": 1,
+      "offset": 0,
+      "options": {
+        "=0": {
+          "value": [
+            {
+              "type": 0,
+              "value": "no records"
+            }
+          ]
+        },
+        "one": {
+          "value": [
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " record"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " records"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
       "value": "total"
     },
     {
       "type": 0,
-      "value": " records. Preview of first "
+      "value": ". Previewing the first "
     },
     {
-      "type": 1,
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " record"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " records"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
       "value": "limit"
     },
     {
       "type": 0,
-      "value": " records."
+      "value": ":"
     }
   ],
   "ui-plugin-query-builder.modal.preview.title.empty": [
     {
       "type": 0,
-      "value": "Query would return "
+      "value": "Query returns "
     },
     {
-      "type": 1,
+      "offset": 0,
+      "options": {
+        "=0": {
+          "value": [
+            {
+              "type": 0,
+              "value": "no records"
+            }
+          ]
+        },
+        "one": {
+          "value": [
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " record"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " records"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
       "value": "total"
     },
     {
       "type": 0,
-      "value": " records."
+      "value": "."
     }
   ],
   "ui-plugin-query-builder.modal.query": [
@@ -112400,7 +112524,7 @@
     },
     {
       "type": 0,
-      "value": " in your query is unavailable. Please revise your query. "
+      "value": " in your query is no longer available. Please revise your query."
     }
   ],
   "ui-quick-marc.Inventory": [
@@ -118299,7 +118423,7 @@
   "ui-quick-marc.record.save.updatingLinkedBibRecords": [
     {
       "type": 0,
-      "value": "This record has successfully saved and is in process. "
+      "value": "Cette notice a été sauvegardée avec succès et est en traitement. "
     },
     {
       "children": [
@@ -118313,7 +118437,7 @@
     },
     {
       "type": 0,
-      "value": " linked bibliographic record(s) updates have begun."
+      "value": " mise(s) à jour de notice(s) bibliographique(s) liée(s) ont commencé."
     }
   ],
   "ui-quick-marc.record.saveNew.delay": [
@@ -124227,7 +124351,7 @@
   "ui-requests.items.selectItem": [
     {
       "type": 0,
-      "value": "Select item"
+      "value": "Sélectionner l'exemplaire"
     }
   ],
   "ui-requests.loan.dueDate": [
@@ -128430,13 +128554,13 @@
   "ui-service-interaction.settings.numberGeneratorSequences.markDisabled": [
     {
       "type": 0,
-      "value": "Mark as disabled"
+      "value": "Marquer comme désactivé"
     }
   ],
   "ui-service-interaction.settings.numberGeneratorSequences.markEnabled": [
     {
       "type": 0,
-      "value": "Mark as enabled"
+      "value": "Marquer comme activé"
     }
   ],
   "ui-service-interaction.settings.numberGeneratorSequences.maximumCheck": [
@@ -133925,7 +134049,7 @@
   "ui-users.details.button.new": [
     {
       "type": 0,
-      "value": "Nouvelles informations pour le personnel"
+      "value": "Ajouter des infos pour le personnel"
     }
   ],
   "ui-users.details.checkDelete": [
@@ -136411,19 +136535,19 @@
   "ui-users.loans.newFeeFine": [
     {
       "type": 0,
-      "value": "Nouveau frais/amende"
+      "value": "Ajouter des frais/amendes"
     }
   ],
   "ui-users.loans.newPatronInfo": [
     {
       "type": 0,
-      "value": "Nouvelles infos usager"
+      "value": "Ajouter des infos usager"
     }
   ],
   "ui-users.loans.newStaffInfo": [
     {
       "type": 0,
-      "value": "Nouvelles infos pour le personnel"
+      "value": "Ajouter des infos pour le personnel"
     }
   ],
   "ui-users.loans.numClaimedReturnedLoans": [
@@ -138650,7 +138774,7 @@
   "ui-users.permissions.isProxyFor": [
     {
       "type": 0,
-      "value": "Le.s garant.s ( "
+      "value": "Mandants ("
     },
     {
       "type": 1,
@@ -138658,13 +138782,13 @@
     },
     {
       "type": 0,
-      "value": " peut.vent emprunter au nom de ces personnes)"
+      "value": " peut emprunter au nom de ces personnes)"
     }
   ],
   "ui-users.permissions.isSponsorOf": [
     {
       "type": 0,
-      "value": "Mandataires (ces personnes peuvent emprunter pour le compte de "
+      "value": "Mandataires (Ces personnes peuvent emprunter pour le compte de "
     },
     {
       "type": 1,
@@ -138909,7 +139033,7 @@
   "ui-users.permissions.proxy.sponsor": [
     {
       "type": 0,
-      "value": "Mandataires/Garants"
+      "value": "Mandataires/Mandants"
     }
   ],
   "ui-users.permissions.removePermission": [

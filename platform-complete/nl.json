@@ -138,25 +138,25 @@
   "stripes-acq-components.claiming.action.delayClaim": [
     {
       "type": 0,
-      "value": "Delay claim"
+      "value": "Vertragingsclaim"
     }
   ],
   "stripes-acq-components.claiming.action.sendClaim": [
     {
       "type": 0,
-      "value": "Send claim"
+      "value": "Claim verzenden"
     }
   ],
   "stripes-acq-components.claiming.action.unreceivable": [
     {
       "type": 0,
-      "value": "Unreceivable"
+      "value": "Oninbaar"
     }
   ],
   "stripes-acq-components.claiming.modal.delayClaim.field.delayTo": [
     {
       "type": 0,
-      "value": "Delay to"
+      "value": "Vertraging tot"
     }
   ],
   "stripes-acq-components.claiming.modal.delayClaim.heading": [
@@ -166,7 +166,7 @@
           "value": [
             {
               "type": 0,
-              "value": "Delay "
+              "value": "Vertraging "
             },
             {
               "offset": 0,
@@ -183,7 +183,7 @@
                   "value": [
                     {
                       "type": 0,
-                      "value": "claims"
+                      "value": "vorderingen"
                     }
                   ]
                 }
@@ -198,7 +198,7 @@
           "value": [
             {
               "type": 0,
-              "value": "Delay claim"
+              "value": "Vertraging claim"
             }
           ]
         }
@@ -210,19 +210,19 @@
   "stripes-acq-components.claiming.modal.sendClaim.field.claimExpiryDate": [
     {
       "type": 0,
-      "value": "Claim expiry date"
+      "value": "Vervaldatum claim"
     }
   ],
   "stripes-acq-components.claiming.modal.sendClaim.field.externalNote": [
     {
       "type": 0,
-      "value": "External note"
+      "value": "Externe Opmerking"
     }
   ],
   "stripes-acq-components.claiming.modal.sendClaim.field.internalNote": [
     {
       "type": 0,
-      "value": "Internal note"
+      "value": "Interne Opmerking"
     }
   ],
   "stripes-acq-components.claiming.modal.sendClaim.heading": [
@@ -232,7 +232,7 @@
           "value": [
             {
               "type": 0,
-              "value": "Send "
+              "value": "Versturen "
             },
             {
               "offset": 0,
@@ -249,7 +249,7 @@
                   "value": [
                     {
                       "type": 0,
-                      "value": "claims"
+                      "value": "vorderingen"
                     }
                   ]
                 }
@@ -264,7 +264,7 @@
           "value": [
             {
               "type": 0,
-              "value": "Send claim"
+              "value": "Stuur claim"
             }
           ]
         }
@@ -1583,7 +1583,7 @@
   "stripes-acq-components.validation.dateAfter": [
     {
       "type": 0,
-      "value": "Selected date must be later than the current date"
+      "value": "Geselecteerde datum moet later zijn dan de Huidige datum"
     }
   ],
   "stripes-acq-components.validation.fundDistribution.uniqueFunds": [
@@ -1701,7 +1701,7 @@
   "stripes-acq-components.versionHistory.noVersion": [
     {
       "type": 0,
-      "value": "No version history to display."
+      "value": "Geen versiegeschiedenis om weer te geven."
     }
   ],
   "stripes-acq-components.versionHistory.pane.header": [
@@ -2344,7 +2344,7 @@
   "stripes-components.advancedSearch.booleanLabel": [
     {
       "type": 0,
-      "value": "Select Boolean operator"
+      "value": "Booleaanse operator selecteren"
     }
   ],
   "stripes-components.advancedSearch.button": [
@@ -2368,7 +2368,7 @@
   "stripes-components.advancedSearch.fieldLabel": [
     {
       "type": 0,
-      "value": "Enter search term"
+      "value": "Voorwaarde invoeren"
     }
   ],
   "stripes-components.advancedSearch.footer.cancel": [
@@ -2458,19 +2458,19 @@
   "stripes-components.auditLog.card.changed": [
     {
       "type": 0,
-      "value": "Changed"
+      "value": "Gewijzigd"
     }
   ],
   "stripes-components.auditLog.card.currentVersion": [
     {
       "type": 0,
-      "value": "Current version"
+      "value": "Huidige versie"
     }
   ],
   "stripes-components.auditLog.card.originalVersion": [
     {
       "type": 0,
-      "value": "Original version"
+      "value": "Originele versie"
     }
   ],
   "stripes-components.auditLog.card.shared": [
@@ -2482,37 +2482,37 @@
   "stripes-components.auditLog.modal.action": [
     {
       "type": 0,
-      "value": "Action"
+      "value": "Actie"
     }
   ],
   "stripes-components.auditLog.modal.changedFrom": [
     {
       "type": 0,
-      "value": "Changed from"
+      "value": "Gewijzigd van"
     }
   ],
   "stripes-components.auditLog.modal.changedTo": [
     {
       "type": 0,
-      "value": "Changed to"
+      "value": "Veranderd in"
     }
   ],
   "stripes-components.auditLog.modal.field": [
     {
       "type": 0,
-      "value": "Field"
+      "value": "Veld"
     }
   ],
   "stripes-components.auditLog.pane.header": [
     {
       "type": 0,
-      "value": "Version history"
+      "value": "Versiegeschiedenis"
     }
   ],
   "stripes-components.auditLog.pane.loadingLabel": [
     {
       "type": 0,
-      "value": "Loading"
+      "value": "Invoer"
     }
   ],
   "stripes-components.auditLog.pane.sub": [
@@ -4214,7 +4214,7 @@
   "stripes-components.filterGroups.clearFilterSetLabel": [
     {
       "type": 0,
-      "value": "Clear selected "
+      "value": "Selectie wissen "
     },
     {
       "type": 1,
@@ -7694,7 +7694,7 @@
   "stripes-components.selection.enterFilter": [
     {
       "type": 0,
-      "value": "Enter a value to load options"
+      "value": "Voer een waarde in om opties in te voeren"
     }
   ],
   "stripes-components.selection.filterOptionsLabel": [
@@ -8015,13 +8015,13 @@
     },
     {
       "type": 0,
-      "value": " applications"
+      "value": " toepassingen"
     }
   ],
   "stripes-core.about.applicationsVersionsTitle": [
     {
       "type": 0,
-      "value": "Applications/modules/interfaces"
+      "value": "Toepassingen/modules/interfaces"
     }
   ],
   "stripes-core.about.forTenant": [
@@ -8670,7 +8670,7 @@
   "stripes-core.errors.oidc": [
     {
       "type": 0,
-      "value": "Error: server is forbidden, unreachable, or unavailable."
+      "value": "Fout: server is verboden, onbereikbaar of niet beschikbaar."
     }
   ],
   "stripes-core.errors.password.alphabetical.invalid": [
@@ -8766,7 +8766,7 @@
   "stripes-core.errors.saml.missingToken": [
     {
       "type": 0,
-      "value": "No "
+      "value": "Geen "
     },
     {
       "children": [
@@ -8780,7 +8780,7 @@
     },
     {
       "type": 0,
-      "value": " query parameter."
+      "value": " queryparameter."
     }
   ],
   "stripes-core.errors.unable.locate.account": [
@@ -9050,7 +9050,7 @@
   "stripes-core.logoutComplete": [
     {
       "type": 0,
-      "value": "You have logged out."
+      "value": "U bent uitgelogd."
     }
   ],
   "stripes-core.logoutKeepSso": [
@@ -9206,7 +9206,7 @@
   "stripes-core.rtr.fixedLengthSession.timeRemaining": [
     {
       "type": 0,
-      "value": "Your session will end soon! Time remaining:"
+      "value": "Uw sessie is binnenkort afgelopen! Resterende tijd:"
     }
   ],
   "stripes-core.rtr.idleSession.keepWorking": [
@@ -9326,13 +9326,13 @@
   "stripes-core.tenantChoose": [
     {
       "type": 0,
-      "value": "Select your tenant/library"
+      "value": "Selecteer uw huurder/bibliotheek"
     }
   ],
   "stripes-core.tenantLibrary": [
     {
       "type": 0,
-      "value": "Tenant/Library"
+      "value": "Huurder/Bibliotheek"
     }
   ],
   "stripes-core.title.CreateResetPassword": [
@@ -9386,13 +9386,13 @@
   "stripes-core.title.logout": [
     {
       "type": 0,
-      "value": "Log out"
+      "value": "Afmelden"
     }
   ],
   "stripes-core.title.logoutTimeout": [
     {
       "type": 0,
-      "value": "Inactivity log out"
+      "value": "Inactiviteit uitloggen"
     }
   ],
   "stripes-core.title.noPermission": [
@@ -11884,7 +11884,7 @@
   "stripes-inventory-components.error.badRequest": [
     {
       "type": 0,
-      "value": "Search could not be processed. Please check your query and try again."
+      "value": "Zoeken kon niet worden verwerkt. Controleer uw zoekopdracht en probeer het opnieuw."
     }
   ],
   "stripes-inventory-components.facet.discoverySuppress": [
@@ -13955,7 +13955,7 @@
   "stripes-smart-components.dateRange.invalidYear": [
     {
       "type": 0,
-      "value": "Please enter a valid year"
+      "value": "Voer een geldig jaar in"
     }
   ],
   "stripes-smart-components.dateRange.missingEndDate": [
@@ -22120,6 +22120,12 @@
       "value": "Datum gecatalogiseerd"
     }
   ],
+  "ui-bulk-edit.columns.INSTANCE.Classification": [
+    {
+      "type": 0,
+      "value": "Classification"
+    }
+  ],
   "ui-bulk-edit.columns.INSTANCE.Contributors": [
     {
       "type": 0,
@@ -23809,6 +23815,18 @@
     {
       "type": 0,
       "value": " records komen overeen"
+    }
+  ],
+  "ui-bulk-edit.list.preview.classification.classification": [
+    {
+      "type": 0,
+      "value": "Classification"
+    }
+  ],
+  "ui-bulk-edit.list.preview.classification.identifierType": [
+    {
+      "type": 0,
+      "value": "Classification identifier type"
     }
   ],
   "ui-bulk-edit.list.preview.electronicAccess.linkText": [
@@ -82506,7 +82524,7 @@
   "ui-lists.unhandled.error": [
     {
       "type": 0,
-      "value": "An error occurred."
+      "value": "Er heeft zich een fout voorgedaan."
     }
   ],
   "ui-lists.update-export.in.progress": [
@@ -93797,6 +93815,18 @@
     {
       "type": 0,
       "value": "PO-regel verdeling fondsen"
+    }
+  ],
+  "ui-orders.poLine.fundDistribution.expenseClass.modal.description": [
+    {
+      "type": 0,
+      "value": "Changing this expense class will not update the related invoice line. If you want the invoice approval/payment to release the encumbrance transaction then the related invoices' expense class must be updated as well."
+    }
+  ],
+  "ui-orders.poLine.fundDistribution.expenseClass.modal.title": [
+    {
+      "type": 0,
+      "value": "Update expense class"
     }
   ],
   "ui-orders.poLine.isBinderyActive": [
