@@ -119188,31 +119188,31 @@
   "ui-receiving.bind.pieces.create.error.barcodeIsNotUnique": [
     {
       "type": 0,
-      "value": "Barcode must be unique, piece and item data could not be updated."
+      "value": "يجب أن يكون الباركود فريداً. تعذر تحديث بيانات القطعة والمادة."
     }
   ],
   "ui-receiving.bind.pieces.create.error.bindItemMustIncludeEitherHoldingIdOrLocationId": [
     {
       "type": 0,
-      "value": "A holdings or location reference must present"
+      "value": "يجب تقديم مرجع للمقتنيات أو الموقع"
     }
   ],
   "ui-receiving.bind.pieces.create.error.generic": [
     {
       "type": 0,
-      "value": "Failed to create bind pieces"
+      "value": "فشل إنشاء قطع الربط"
     }
   ],
   "ui-receiving.bind.pieces.create.success.noBarcode": [
     {
       "type": 0,
-      "value": "Item created successfully"
+      "value": "تم إنشاء المادة بنجاح"
     }
   ],
   "ui-receiving.bind.pieces.create.success.withBarcode": [
     {
       "type": 0,
-      "value": "Item "
+      "value": "تم إنشاء المادة "
     },
     {
       "children": [
@@ -119226,19 +119226,19 @@
     },
     {
       "type": 0,
-      "value": " created successfully"
+      "value": " بنجاح"
     }
   ],
   "ui-receiving.bind.pieces.modal.button.not.transfer": [
     {
       "type": 0,
-      "value": "Do not transfer"
+      "value": "لا تنقل"
     }
   ],
   "ui-receiving.bind.pieces.modal.button.transfer": [
     {
       "type": 0,
-      "value": "Transfer"
+      "value": "نقل"
     }
   ],
   "ui-receiving.bind.pieces.modal.delete.message": [
@@ -119318,7 +119318,7 @@
   "ui-receiving.document.title.search": [
     {
       "type": 0,
-      "value": "Receiving - "
+      "value": "الاستلام - "
     },
     {
       "type": 1,
@@ -119326,13 +119326,13 @@
     },
     {
       "type": 0,
-      "value": " - Search"
+      "value": " - بحث"
     }
   ],
   "ui-receiving.errors.barcodeIsNotUnique": [
     {
       "type": 0,
-      "value": "Barcode must be unique, piece and item data could not be updated."
+      "value": "يجب أن يكون الباركود فريداً. تعذر تحديث بيانات القطعة والمادة."
     }
   ],
   "ui-receiving.errors.barcodeMustBeUnique": [
@@ -119344,13 +119344,13 @@
   "ui-receiving.errors.cannotFindPiecesWithLatestStatusToProcess": [
     {
       "type": 0,
-      "value": "The piece must have \"Late\" status to process."
+      "value": "يجب أن يكون للقطعة حالة \"متأخرة\" لتتم معالجتها."
     }
   ],
   "ui-receiving.errors.createItemForPieceIsNotAllowedError": [
     {
       "type": 0,
-      "value": "Create item for piece format is not allowed. Please check \"create inventory\" value in the purchase order line"
+      "value": "غير مسموح بإنشاء مادة لتنسيق القطعة. يرجى التحقق من قيمة \"إنشاء مخزون\" في سطر أمر الشراء"
     }
   ],
   "ui-receiving.errors.createPiecePendingOrderError": [
@@ -119368,7 +119368,7 @@
   "ui-receiving.errors.forbiddenDeleteUsedValue": [
     {
       "type": 0,
-      "value": "This value can not be deleted"
+      "value": "لا يمكن حذف هذه القيمة"
     }
   ],
   "ui-receiving.errors.holdingsByIdNotFoundError": [
@@ -119406,7 +119406,7 @@
   "ui-receiving.errors.locationIdAndHoldingIdAbsentError": [
     {
       "type": 0,
-      "value": "A holdings or location reference must present"
+      "value": "يجب تقديم مرجع للمقتنيات أو الموقع"
     }
   ],
   "ui-receiving.errors.mayBeLinkToEitherHoldingOrLocationError": [
@@ -119496,13 +119496,13 @@
   "ui-receiving.errors.userHasNoPermission": [
     {
       "type": 0,
-      "value": "Action is restricted by acquisition unit. User is not assigned to the specified acquisitions unit."
+      "value": "الإجراء مقيد بواسطة وحدة التزويد. المستخدم غير معيّن لوحدة التزويد المحددة."
     }
   ],
   "ui-receiving.errors.userNotAMemberOfTheAcq": [
     {
       "type": 0,
-      "value": "Action is restricted by acquisition unit. User is not assigned to the specified acquisitions unit."
+      "value": "الإجراء مقيد بواسطة وحدة التزويد. المستخدم غير معيّن لوحدة التزويد المحددة."
     }
   ],
   "ui-receiving.exportSettings.error": [
@@ -119586,19 +119586,19 @@
   "ui-receiving.filter.createdBy": [
     {
       "type": 0,
-      "value": "Created by"
+      "value": "تم الإنشاء بواسطة"
     }
   ],
   "ui-receiving.filter.dateCreated": [
     {
       "type": 0,
-      "value": "Date created"
+      "value": "تاريخ الإنشاء"
     }
   ],
   "ui-receiving.filter.dateUpdated": [
     {
       "type": 0,
-      "value": "Date updated"
+      "value": "تاريخ التحديث"
     }
   ],
   "ui-receiving.filter.isBinderyActive": [
@@ -119640,7 +119640,7 @@
   "ui-receiving.filter.orderStatus": [
     {
       "type": 0,
-      "value": "حالة الطلبية"
+      "value": "حالة أمر الشراء"
     }
   ],
   "ui-receiving.filter.orderType": [
@@ -119652,25 +119652,25 @@
   "ui-receiving.filter.piece.createdBy": [
     {
       "type": 0,
-      "value": "Created by (Piece)"
+      "value": "تم الإنشاء بواسطة (القطعة)"
     }
   ],
   "ui-receiving.filter.piece.dateCreated": [
     {
       "type": 0,
-      "value": "Date created (Piece)"
+      "value": "تاريخ الإنشاء (القطعة)"
     }
   ],
   "ui-receiving.filter.piece.dateUpdated": [
     {
       "type": 0,
-      "value": "Date updated (Piece)"
+      "value": "تاريخ التحديث (القطعة)"
     }
   ],
   "ui-receiving.filter.piece.updatedBy": [
     {
       "type": 0,
-      "value": "Updated by (Piece)"
+      "value": "تم التحديث بواسطة (القطعة)"
     }
   ],
   "ui-receiving.filter.receivingStatus": [
@@ -119694,7 +119694,7 @@
   "ui-receiving.filter.updatedBy": [
     {
       "type": 0,
-      "value": "Updated by"
+      "value": "تم التحديث بواسطة"
     }
   ],
   "ui-receiving.filter.vendor": [
@@ -119788,31 +119788,31 @@
   "ui-receiving.permission.acq-units.assignment.assign": [
     {
       "type": 0,
-      "value": "Receiving: Assign acquisition units to new receiving title"
+      "value": "الاستلام: تعيين وحدات التزويد إلى عنوان الاستلام الجديد"
     }
   ],
   "ui-receiving.permission.acq-units.assignment.manage": [
     {
       "type": 0,
-      "value": "Receiving: Manage acquisition units"
+      "value": "الاستلام: إدارة وحدات التزويد"
     }
   ],
   "ui-receiving.permission.create": [
     {
       "type": 0,
-      "value": "الاستلام: اعرض، حرّر، أنشئ"
+      "value": "الاستلام: عرض، وتحرير، وإنشاء"
     }
   ],
   "ui-receiving.permission.delete": [
     {
       "type": 0,
-      "value": "الاستلام: اعرض، حرّر، احذف"
+      "value": "الاستلام: عرض وتحرير وحذف"
     }
   ],
   "ui-receiving.permission.edit": [
     {
       "type": 0,
-      "value": "الاستلام: اعرض، حرّر"
+      "value": "الاستلام: عرض وتحرير"
     }
   ],
   "ui-receiving.permission.exportCSV": [
@@ -119824,7 +119824,7 @@
   "ui-receiving.permission.view": [
     {
       "type": 0,
-      "value": "الاستلام: اعرض"
+      "value": "الاستلام: عرض"
     }
   ],
   "ui-receiving.piece.accessionNumber": [
@@ -119866,7 +119866,7 @@
   "ui-receiving.piece.action.button.delete": [
     {
       "type": 0,
-      "value": "Delete"
+      "value": "حذف"
     }
   ],
   "ui-receiving.piece.action.button.expect": [
@@ -119878,7 +119878,7 @@
   "ui-receiving.piece.action.button.markLate": [
     {
       "type": 0,
-      "value": "Mark late"
+      "value": "الإشارة بالتأخير"
     }
   ],
   "ui-receiving.piece.action.button.quickReceive": [
@@ -120336,7 +120336,7 @@
   "ui-receiving.piece.displaySummary": [
     {
       "type": 0,
-      "value": "Display summary"
+      "value": "عرض الملخص"
     }
   ],
   "ui-receiving.piece.displayToPublic": [
@@ -120354,7 +120354,7 @@
   "ui-receiving.piece.externalNote": [
     {
       "type": 0,
-      "value": "External note"
+      "value": "ملاحظة خارجية"
     }
   ],
   "ui-receiving.piece.format": [
@@ -120366,7 +120366,7 @@
   "ui-receiving.piece.internalNote": [
     {
       "type": 0,
-      "value": "Internal note"
+      "value": "ملاحظة داخلية"
     }
   ],
   "ui-receiving.piece.isBound": [
@@ -120426,7 +120426,7 @@
   "ui-receiving.piece.lineLocations": [
     {
       "type": 0,
-      "value": "مواقع سطر الطلببية"
+      "value": "مواقع سطر أمر الشراء"
     }
   ],
   "ui-receiving.piece.location": [
@@ -120468,7 +120468,7 @@
   "ui-receiving.piece.permanentLocationId": [
     {
       "type": 0,
-      "value": "Permanent location"
+      "value": "الموقع الدائم"
     }
   ],
   "ui-receiving.piece.pieceForm.create.title": [
@@ -120480,7 +120480,7 @@
   "ui-receiving.piece.pieceForm.edit.title": [
     {
       "type": 0,
-      "value": "Edit piece"
+      "value": "تحرير القطعة"
     }
   ],
   "ui-receiving.piece.receiptDate": [
@@ -120552,7 +120552,7 @@
   "ui-receiving.piece.statusChangeLog.column.updatedBy": [
     {
       "type": 0,
-      "value": "Updated by"
+      "value": "تم التحديث بواسطة"
     }
   ],
   "ui-receiving.piece.supplement": [
@@ -120688,7 +120688,7 @@
   "ui-receiving.systemUser.label": [
     {
       "type": 0,
-      "value": "System"
+      "value": "النظام"
     }
   ],
   "ui-receiving.title.accessProvider": [
@@ -120852,7 +120852,7 @@
   "ui-receiving.title.claimingInterval": [
     {
       "type": 0,
-      "value": "Claiming interval"
+      "value": "الفاصل الزمني للمطالبة"
     }
   ],
   "ui-receiving.title.closedOrderMessage": [
@@ -121228,7 +121228,7 @@
   "ui-receiving.validation.dateAfter": [
     {
       "type": 0,
-      "value": "Selected date must be later than the current date"
+      "value": "يجب أن يكون التاريخ المحدد بعد التاريخ الحالي"
     }
   ],
   "ui-remote-storage.accession-tables.empty": [
