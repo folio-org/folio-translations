@@ -81970,6 +81970,48 @@
       "value": " está inactiva."
     }
   ],
+  "ui-invoice.invoice.actions.updateOrderStatus.heading": [
+    {
+      "type": 0,
+      "value": "Update order status"
+    }
+  ],
+  "ui-invoice.invoice.actions.updateOrderStatus.message": [
+    {
+      "type": 0,
+      "value": "You are processing this invoice against a previous fiscal year and \"release encumbrance\" equals true for one or more invoice lines. One or more related orders has a type of One-time. Please indicate how the payment status of these order lines should be updated?"
+    }
+  ],
+  "ui-invoice.invoice.actions.updateOrderStatus.status.awaitingPayment": [
+    {
+      "type": 0,
+      "value": "Awaiting payment"
+    }
+  ],
+  "ui-invoice.invoice.actions.updateOrderStatus.status.cancelled": [
+    {
+      "type": 0,
+      "value": "Cancelled"
+    }
+  ],
+  "ui-invoice.invoice.actions.updateOrderStatus.status.fullyPaid": [
+    {
+      "type": 0,
+      "value": "Fully paid"
+    }
+  ],
+  "ui-invoice.invoice.actions.updateOrderStatus.status.noChange": [
+    {
+      "type": 0,
+      "value": "No change"
+    }
+  ],
+  "ui-invoice.invoice.actions.updateOrderStatus.status.partiallyPaid": [
+    {
+      "type": 0,
+      "value": "Partially paid"
+    }
+  ],
   "ui-invoice.invoice.address": [
     {
       "type": 0,
@@ -92534,6 +92576,12 @@
       "value": "Uniform title"
     }
   ],
+  "ui-mosaic-settings.document.settings.title": [
+    {
+      "type": 0,
+      "value": "Mosaic integration settings"
+    }
+  ],
   "ui-mosaic-settings.meta.title": [
     {
       "type": 0,
@@ -92544,6 +92592,30 @@
     {
       "type": 0,
       "value": "Configuration options"
+    }
+  ],
+  "ui-mosaic-settings.sections.configuration-options.description": [
+    {
+      "type": 0,
+      "value": "You are able to choose the default order template that is applied when Mosaic creates an order in FOLIO. If a template is chosen while ordering in Mosaic that will override this selection, if no template is chosen this one will be applied. You can edit the default template in order settings under \"Order templates\". When Mosaic is configured to retrieve order templates from FOLIO in real-time you can decide to limit the templates that are retrieved by category. To do this select one or more category with the dropdown below."
+    }
+  ],
+  "ui-mosaic-settings.sections.configuration-options.field.template": [
+    {
+      "type": 0,
+      "value": "Select default order template"
+    }
+  ],
+  "ui-mosaic-settings.sections.configuration-options.submit.error": [
+    {
+      "type": 0,
+      "value": "Mosaic integration settings was not updated."
+    }
+  ],
+  "ui-mosaic-settings.sections.configuration-options.submit.success": [
+    {
+      "type": 0,
+      "value": "Mosaic integration settings successfully updated."
     }
   ],
   "ui-myprofile.draggableList.announcements.dragCancel": [
