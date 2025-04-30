@@ -728,13 +728,13 @@
   "stripes-acq-components.label.contributor": [
     {
       "type": 0,
-      "value": "Mitwirkende/-r"
+      "value": "Name"
     }
   ],
   "stripes-acq-components.label.contributorType": [
     {
       "type": 0,
-      "value": "Mitwirkungstyp"
+      "value": "Namenstyp"
     }
   ],
   "stripes-acq-components.label.emptyValue": [
@@ -18252,7 +18252,7 @@
   "ui-agreements.eresources.SynchronisationStatus": [
     {
       "type": 0,
-      "value": "Synchronisation status"
+      "value": "Synchronisierungsstatus"
     }
   ],
   "ui-agreements.eresources.accessEnd": [
@@ -18696,13 +18696,13 @@
   "ui-agreements.eresources.pauseSync": [
     {
       "type": 0,
-      "value": "Pause synchronisation"
+      "value": "Synchronisierung pausieren"
     }
   ],
   "ui-agreements.eresources.pauseSyncSelectedPackages": [
     {
       "type": 0,
-      "value": "Pause synchronisation of selected packages"
+      "value": "Synchronisierung ausgewählter Pakete pausieren"
     }
   ],
   "ui-agreements.eresources.platform": [
@@ -18858,13 +18858,13 @@
   "ui-agreements.eresources.startSync": [
     {
       "type": 0,
-      "value": "Start synchronisation"
+      "value": "Synchronisation starten"
     }
   ],
   "ui-agreements.eresources.startSyncSelectedPackages": [
     {
       "type": 0,
-      "value": "Start synchronisation of selected packages"
+      "value": "Synchronisation ausgewählter Pakete starten"
     }
   ],
   "ui-agreements.eresources.status": [
@@ -18888,43 +18888,43 @@
   "ui-agreements.eresources.syncContentsFromSource.false": [
     {
       "type": 0,
-      "value": "Paused"
+      "value": "Pausiert"
     }
   ],
   "ui-agreements.eresources.syncContentsFromSource.true": [
     {
       "type": 0,
-      "value": "Synchronising"
+      "value": "Wird synchronisiert"
     }
   ],
   "ui-agreements.eresources.syncMultiplePackagesError": [
     {
       "type": 0,
-      "value": "Error. Unable to update the synchronisation status of the packages."
+      "value": "Fehler. Der Synchronisierungsstatus der Pakete konnte nicht aktualisiert werden."
     }
   ],
   "ui-agreements.eresources.syncMultiplePackagesSuccess.PAUSED": [
     {
       "type": 0,
-      "value": "Packages have been paused"
+      "value": "Pakete wurden pausiert"
     }
   ],
   "ui-agreements.eresources.syncMultiplePackagesSuccess.SYNCHRONIZING": [
     {
       "type": 0,
-      "value": "Packages will synchronise"
+      "value": "Pakete werden synchronisiert werden"
     }
   ],
   "ui-agreements.eresources.syncPackageError": [
     {
       "type": 0,
-      "value": "Error. Unable to update the synchronisation status of the package."
+      "value": "Fehler. Der Synchronisierungsstatus des Pakets konnte nicht aktualisiert werden."
     }
   ],
   "ui-agreements.eresources.syncPackageSuccess.PAUSED": [
     {
       "type": 0,
-      "value": "Package: "
+      "value": "Paket: "
     },
     {
       "children": [
@@ -18938,13 +18938,13 @@
     },
     {
       "type": 0,
-      "value": " has been paused"
+      "value": " wurde pausiert"
     }
   ],
   "ui-agreements.eresources.syncPackageSuccess.SYNCHRONIZING": [
     {
       "type": 0,
-      "value": "Package: "
+      "value": "Paket: "
     },
     {
       "children": [
@@ -18958,31 +18958,31 @@
     },
     {
       "type": 0,
-      "value": " will synchronise"
+      "value": " wird synchronisiert werden"
     }
   ],
   "ui-agreements.eresources.syncStatus.false": [
     {
       "type": 0,
-      "value": "Paused"
+      "value": "Pausiert"
     }
   ],
   "ui-agreements.eresources.syncStatus.notSet": [
     {
       "type": 0,
-      "value": "Not set"
+      "value": "[kein Wert gewählt]"
     }
   ],
   "ui-agreements.eresources.syncStatus.true": [
     {
       "type": 0,
-      "value": "Synchronising"
+      "value": "Wird synchronisiert"
     }
   ],
   "ui-agreements.eresources.synchronisationStatus": [
     {
       "type": 0,
-      "value": "Synchronisation status"
+      "value": "Synchronisierungsstatus"
     }
   ],
   "ui-agreements.eresources.title": [
@@ -29856,7 +29856,7 @@
   "ui-checkout.borrower.ariaLabel": [
     {
       "type": 0,
-      "value": "View borrower record"
+      "value": "Datensatz Entleiher/-in anzeigen"
     }
   ],
   "ui-checkout.borrowerProxy": [
@@ -30558,7 +30558,7 @@
   "ui-checkout.loanDetails.ariaLabel": [
     {
       "type": 0,
-      "value": "View open loan details"
+      "value": "Aktuelle Ausleihen: Ausleihdetails anzeigen"
     }
   ],
   "ui-checkout.loanPolicy": [
@@ -31079,7 +31079,7 @@
   "ui-checkout.openRequests.ariaLabel": [
     {
       "type": 0,
-      "value": "View open requests"
+      "value": "Offene Bestandsanfragen anzeigen"
     }
   ],
   "ui-checkout.orActingAsProxy": [
@@ -31127,7 +31127,7 @@
   "ui-checkout.patronBlocks.ariaLabel": [
     {
       "type": 0,
-      "value": "View patron blocks"
+      "value": "Kontosperren anzeigen"
     }
   ],
   "ui-checkout.patronBlocksCount": [
@@ -31229,7 +31229,7 @@
   "ui-checkout.proxy.ariaLabel": [
     {
       "type": 0,
-      "value": "View borrower's proxy record"
+      "value": "Datensatz Vollmachtnehmer/-in anzeigen"
     }
   ],
   "ui-checkout.proxy.expiration": [
@@ -35354,7 +35354,7 @@
   "ui-circulation.settings.staffSlips.isRawHtml": [
     {
       "type": 0,
-      "value": "Maintained as raw HTML?"
+      "value": "Als reines HTML beibehalten?"
     }
   ],
   "ui-circulation.settings.staffSlips.itemTokenHeader": [
@@ -36384,7 +36384,7 @@
   "ui-claims.permission.claiming.view": [
     {
       "type": 0,
-      "value": "Claims: View claiming"
+      "value": "Claims: View claims"
     }
   ],
   "ui-claims.search.index.keyword": [
@@ -42796,7 +42796,7 @@
   "ui-data-export.error.deletedDuplicate.instance": [
     {
       "type": 0,
-      "value": "Instance record associated with "
+      "value": "Der mit "
     },
     {
       "type": 1,
@@ -42804,13 +42804,13 @@
     },
     {
       "type": 0,
-      "value": " has been deleted."
+      "value": " verknüpfte Instanzdatensatz wurde gelöscht."
     }
   ],
   "ui-data-export.error.deletedTooLong.instance": [
     {
       "type": 0,
-      "value": "Instance with id "
+      "value": "Instanz mit ID "
     },
     {
       "type": 1,
@@ -42818,7 +42818,7 @@
     },
     {
       "type": 0,
-      "value": " has been deleted."
+      "value": " wurde gelöscht."
     }
   ],
   "ui-data-export.error.duplicateSRS": [
@@ -42838,7 +42838,7 @@
     },
     {
       "type": 0,
-      "value": " repeated "
+      "value": " wiederholt sich "
     },
     {
       "type": 1,
@@ -42846,7 +42846,7 @@
     },
     {
       "type": 0,
-      "value": " times."
+      "value": " mal."
     }
   ],
   "ui-data-export.error.fileDefinition.fileAlreadyUploaded": [
@@ -42890,7 +42890,7 @@
     },
     {
       "type": 0,
-      "value": " - the user "
+      "value": " – diePerson "
     },
     {
       "type": 1,
@@ -42898,7 +42898,7 @@
     },
     {
       "type": 0,
-      "value": " is not affiliated with "
+      "value": " ist nicht mit dem Datenmandanten "
     },
     {
       "type": 1,
@@ -42906,7 +42906,7 @@
     },
     {
       "type": 0,
-      "value": " data tenant and holdings records from this tenant were omitted during export."
+      "value": " verbunden und Bestandsdatensätze dieses Mandanten wurden beim Export ausgelassen."
     }
   ],
   "ui-data-export.error.holdings.noPermission": [
@@ -42916,7 +42916,7 @@
     },
     {
       "type": 0,
-      "value": " - the user "
+      "value": " – die Person "
     },
     {
       "type": 1,
@@ -42924,7 +42924,7 @@
     },
     {
       "type": 0,
-      "value": " does not have permissions to access the holdings record in "
+      "value": " hat keine Berechtigung, auf den Bestandsdatensatz im Datenmandanten "
     },
     {
       "type": 1,
@@ -42932,7 +42932,7 @@
     },
     {
       "type": 0,
-      "value": " data tenant."
+      "value": " zuzugreifen."
     }
   ],
   "ui-data-export.error.instance.noAffiliation": [
@@ -42942,7 +42942,7 @@
     },
     {
       "type": 0,
-      "value": " - the user "
+      "value": " – die Person "
     },
     {
       "type": 1,
@@ -42950,7 +42950,7 @@
     },
     {
       "type": 0,
-      "value": " is not affiliated with "
+      "value": " ist nicht mit "
     },
     {
       "type": 1,
@@ -42958,7 +42958,7 @@
     },
     {
       "type": 0,
-      "value": " data tenant(s) and holdings and item records from this tenant were omitted during export."
+      "value": " Datenmandanten verbunden und Bestände und Exemplardatensätze dieses Mandanten wurden beim Export ausgelassen."
     }
   ],
   "ui-data-export.error.instance.noPermission": [
@@ -42968,7 +42968,7 @@
     },
     {
       "type": 0,
-      "value": " - the user "
+      "value": " – Die PErson "
     },
     {
       "type": 1,
@@ -42976,7 +42976,7 @@
     },
     {
       "type": 0,
-      "value": " does not have permissions to view holdings or items in "
+      "value": " ist nicht berechtigt, Bestände oder Exemplare in "
     },
     {
       "type": 1,
@@ -42984,7 +42984,7 @@
     },
     {
       "type": 0,
-      "value": " data tenant(s). Holdings and item records from this tenant were omitted during export."
+      "value": " Mandanten anzuzeigen. Bestände und Exemplardatensätze dieses Mandanten wurden beim Export ausgelassen."
     }
   ],
   "ui-data-export.error.invalidCqlSyntax": [
@@ -43176,7 +43176,7 @@
   "ui-data-export.error.nonExisting.instance": [
     {
       "type": 0,
-      "value": "Instance record associated with "
+      "value": "Der mit "
     },
     {
       "type": 1,
@@ -43184,7 +43184,7 @@
     },
     {
       "type": 0,
-      "value": " does not exist."
+      "value": " verknüpfte Instanzdatensatz ist nicht vorhanden."
     }
   ],
   "ui-data-export.error.nothingToExport": [
@@ -43196,13 +43196,13 @@
   "ui-data-export.error.onlyForSetToDeletion": [
     {
       "type": 0,
-      "value": "This profile can only be used to export authority records set for deletion"
+      "value": "Dieses Profil kann nur verwendet werden, um zum Löschen vorgesehene Normdatensätze zu exportieren"
     }
   ],
   "ui-data-export.error.profileUsedToNonDeleted": [
     {
       "type": 0,
-      "value": "This profile can only be used to export authority records not deleted"
+      "value": "Dieses Profil kann nur zum Exportieren von nicht gelöschten Normdatensätzen verwendet werden."
     }
   ],
   "ui-data-export.error.readingFromInputFile": [
@@ -43254,7 +43254,7 @@
   "ui-data-export.error.tenantNotFoundForHolding": [
     {
       "type": 0,
-      "value": "No tenant can be found for holdings record "
+      "value": "Für den Bestandsdatensatz "
     },
     {
       "type": 1,
@@ -43262,7 +43262,7 @@
     },
     {
       "type": 0,
-      "value": "."
+      "value": " konnte kein Mandant gefunden werden."
     }
   ],
   "ui-data-export.error.uploadedFile.invalidExtension": [
@@ -43302,7 +43302,7 @@
     },
     {
       "type": 0,
-      "value": " - the user "
+      "value": " – die Person "
     },
     {
       "type": 1,
@@ -43310,7 +43310,7 @@
     },
     {
       "type": 0,
-      "value": " does not have permissions to access the holdings record in "
+      "value": " hat keine Berechtigung, auf den Bestandsdatensatz im Datenmandanten "
     },
     {
       "type": 1,
@@ -43318,7 +43318,7 @@
     },
     {
       "type": 0,
-      "value": " data tenant."
+      "value": " zuzugreifen."
     }
   ],
   "ui-data-export.error.uuidsNotFound": [
@@ -43484,7 +43484,7 @@
   "ui-data-export.fieldsSuppression": [
     {
       "type": 0,
-      "value": "Fields suppression"
+      "value": "Felder unterdrücken"
     }
   ],
   "ui-data-export.fileName": [
@@ -44086,7 +44086,7 @@
   "ui-data-export.item.checkOutNote": [
     {
       "type": 0,
-      "value": "Check out note"
+      "value": "Ausleihanmerkung"
     }
   ],
   "ui-data-export.item.chronology": [
@@ -44708,13 +44708,13 @@
   "ui-data-export.jobStatus.inProgress": [
     {
       "type": 0,
-      "value": "In progress"
+      "value": "In Bearbeitung"
     }
   ],
   "ui-data-export.jobStatus.new": [
     {
       "type": 0,
-      "value": "New"
+      "value": "Neu"
     }
   ],
   "ui-data-export.jobsPaneTitle": [
@@ -44978,7 +44978,7 @@
   "ui-data-export.mappingProfiles.transformations.field": [
     {
       "type": 0,
-      "value": "Field"
+      "value": "Feld"
     }
   ],
   "ui-data-export.mappingProfiles.transformations.fieldName": [
@@ -45134,7 +45134,7 @@
   "ui-data-export.mappingProfiles.transformations.subfield": [
     {
       "type": 0,
-      "value": "Subfield"
+      "value": "Unterfeld"
     }
   ],
   "ui-data-export.mappingProfiles.transformations.transformation": [
@@ -45152,7 +45152,7 @@
   "ui-data-export.mappingProfiles.validation.fieldsSuppression": [
     {
       "type": 0,
-      "value": "Suppressed fields can be represented by three digits only and need to be separated by a comma."
+      "value": "Unterdrückte Felder können nur durch drei Ziffern dargestellt werden und müssen durch ein Komma getrennt werden."
     }
   ],
   "ui-data-export.mappingProfiles.validation.recordTypeMismatch": [
@@ -45252,19 +45252,19 @@
   "ui-data-export.permission.edit": [
     {
       "type": 0,
-      "value": "Data export: Can upload files, export, download files and view logs"
+      "value": "Einstellungen (Datenexport): Kann Dateien hochladen, exportieren, herunterladen und Protokolle anzeigen"
     }
   ],
   "ui-data-export.permission.module.data-export.enabled": [
     {
       "type": 0,
-      "value": "Data export: Module enabled"
+      "value": "Datenexport: Modul aktiviert"
     }
   ],
   "ui-data-export.permission.settings.edit": [
     {
       "type": 0,
-      "value": "Settings (Data export): Can view, add, update profiles"
+      "value": "Einstellungen (Datenexport): Kann Profile anzeigen, hinzufügen und aktualisieren"
     }
   ],
   "ui-data-export.permission.settings.enabled": [
@@ -45282,7 +45282,7 @@
   "ui-data-export.permission.view": [
     {
       "type": 0,
-      "value": "Data export: Can view only"
+      "value": "Einstellungen (Datenexport): Kann nur anzeigen"
     }
   ],
   "ui-data-export.placeholder.fileName": [
@@ -45447,19 +45447,19 @@
   "ui-data-export.suppress999ff": [
     {
       "type": 0,
-      "value": "Suppress 999 ff"
+      "value": "Unterdrücke 999 ff"
     }
   ],
   "ui-data-export.suppressInfo": [
     {
       "type": 0,
-      "value": "List of MARC fields to be excluded from the export. The fields are represented by three digits and separated by a comma. For example: 902,903"
+      "value": "Liste der MARC-Felder, die vom Export ausgeschlossen werden sollen. Die Felder werden durch drei Ziffern dargestellt und durch ein Komma getrennt. Zum Beispiel: 902,903"
     }
   ],
   "ui-data-export.title.logs": [
     {
       "type": 0,
-      "value": "Logs"
+      "value": "Protokoll"
     }
   ],
   "ui-data-export.today": [
@@ -46015,22 +46015,16 @@
         "one": {
           "value": [
             {
-              "type": 7
-            },
-            {
               "type": 0,
-              "value": " error found"
+              "value": "Fehler gefunden"
             }
           ]
         },
         "other": {
           "value": [
             {
-              "type": 7
-            },
-            {
               "type": 0,
-              "value": " errors found"
+              "value": "Fehler gefunden"
             }
           ]
         }
@@ -47886,7 +47880,7 @@
   "ui-data-import.reactTo": [
     {
       "type": 0,
-      "value": "React to"
+      "value": "Reagieren auf"
     }
   ],
   "ui-data-import.readyForPreview": [
@@ -50617,19 +50611,19 @@
   "ui-data-import.settings.mappingProfiles.map.order.donorInformation.donor": [
     {
       "type": 0,
-      "value": "Donor"
+      "value": "Spender/in"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.order.donorInformation.field.donors.addLabel": [
     {
       "type": 0,
-      "value": "Add donor"
+      "value": "Spender/in hinzufügen"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.order.donorInformation.section": [
     {
       "type": 0,
-      "value": "Donor information"
+      "value": "Informationen zur spendenden Person"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.order.eResourcesDetails.accessProvider": [
@@ -50845,7 +50839,7 @@
   "ui-data-import.settings.mappingProfiles.map.order.itemDetails.field.contributorType": [
     {
       "type": 0,
-      "value": "Mitwirkungstyp"
+      "value": "Namenstyp"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.order.itemDetails.field.edition": [
@@ -51013,7 +51007,7 @@
   "ui-data-import.settings.mappingProfiles.map.order.orderDetails.contributors.contributorType": [
     {
       "type": 0,
-      "value": "Mitwirkungstyp"
+      "value": "Namenstyp"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.order.orderDetails.contributors.section": [
@@ -53769,7 +53763,7 @@
   "ui-data-import.uploadDefinitionError": [
     {
       "type": 0,
-      "value": "Upload definition was deleted by another user. Please try again."
+      "value": "Die Upload-Definition wurde von einer anderen Person gelöscht. Bitte erneut versuchen."
     }
   ],
   "ui-data-import.uploadError": [
@@ -55584,7 +55578,7 @@
     },
     {
       "type": 0,
-      "value": " applied "
+      "value": " "
     },
     {
       "offset": 0,
@@ -55593,7 +55587,7 @@
           "value": [
             {
               "type": 0,
-              "value": "filter"
+              "value": " angewendeter Filter "
             }
           ]
         },
@@ -55601,7 +55595,7 @@
           "value": [
             {
               "type": 0,
-              "value": "filters"
+              "value": " angewendete Filter "
             }
           ]
         }
@@ -55614,7 +55608,7 @@
   "ui-eholdings.actionMenu.label": [
     {
       "type": 0,
-      "value": "Actions"
+      "value": "Aktionen"
     }
   ],
   "ui-eholdings.add": [
@@ -55650,43 +55644,51 @@
   "ui-eholdings.agreements.accordion.add": [
     {
       "type": 0,
-      "value": "Adds eHoldings package/title record as an Agreement Line to another Agreement"
+      "value": "Fügt einen eHoldings-Paket/Titeldatensatz als Vereinbarungskomponente zu einer anderen Vereinbarung hinzu"
     }
   ],
   "ui-eholdings.agreements.accordion.new": [
     {
       "type": 0,
-      "value": "Creates a new agreement and then adds eHoldings package/title record as an Agreement Line to it"
+      "value": "Erstellte eine neue Vereinbarung und fügt einen eHoldings-Paket/Titeldatensatz als Vereinbarungskomponente hinzu"
     }
   ],
   "ui-eholdings.agreements.delete": [
     {
       "type": 0,
-      "value": "Delete agreement line"
+      "value": "Vereinbarungskomponente löschen"
     }
   ],
   "ui-eholdings.agreements.deleteModal.cancel": [
     {
       "type": 0,
-      "value": "Cancel"
+      "value": "Abbrechen"
     }
   ],
   "ui-eholdings.agreements.deleteModal.delete": [
     {
       "type": 0,
-      "value": "Delete"
+      "value": "Löschen"
     }
   ],
   "ui-eholdings.agreements.deleteModal.description": [
     {
       "type": 0,
-      "value": "Are you sure you want to delete this agreement line: "
+      "value": "Soll diese Vereinbarungskomponente wirklich glöscht werden: "
     },
     {
       "children": [
         {
+          "type": 0,
+          "value": " "
+        },
+        {
           "type": 1,
           "value": "recordName"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -55700,7 +55702,7 @@
   "ui-eholdings.agreements.deleteModal.header": [
     {
       "type": 0,
-      "value": "Delete agreement line"
+      "value": "Vereinbarungskomponente löschen"
     }
   ],
   "ui-eholdings.agreements.notFound": [
@@ -56216,7 +56218,7 @@
   "ui-eholdings.exportPackageResources.fields.title.titleName": [
     {
       "type": 0,
-      "value": "Title name"
+      "value": "Haupttitel"
     }
   ],
   "ui-eholdings.exportPackageResources.fields.title.titleType": [
@@ -57766,7 +57768,7 @@
   "ui-eholdings.permission.app.view": [
     {
       "type": 0,
-      "value": "eHoldings: Can view providers, packages, titles detail records"
+      "value": "eHoldings: Kann Anbieter-, Pakete- und Titeldatensatzdetails anzeigen"
     }
   ],
   "ui-eholdings.permission.costperuse.view": [
@@ -57784,7 +57786,7 @@
   "ui-eholdings.permission.package-title.select-unselect.execute": [
     {
       "type": 0,
-      "value": "eHoldings: Can select/unselect packages and titles to/from your holdings"
+      "value": "eHoldings: Kann Pakete und Titel für Bestand aus- und abwählen"
     }
   ],
   "ui-eholdings.permission.records.edit": [
@@ -57874,7 +57876,7 @@
   "ui-eholdings.permission.titles-packages.create-delete.manage": [
     {
       "type": 0,
-      "value": "eHoldings: Can create and delete custom packages and titles"
+      "value": "eHoldings: Kann benutzerdefinierte Pakete und Titel erstellen und löschen"
     }
   ],
   "ui-eholdings.previous": [
@@ -57966,7 +57968,7 @@
   "ui-eholdings.proxiedUrl": [
     {
       "type": 0,
-      "value": "Proxied URL"
+      "value": "Proxy-URL"
     }
   ],
   "ui-eholdings.proxy": [
@@ -58779,7 +58781,7 @@
   "ui-eholdings.settings.assignedUsers.noPluginFindUser": [
     {
       "type": 0,
-      "value": "[find-user plugin is not available]"
+      "value": "[Plugin „Person suchen“ ist nicht verfügbar]"
     }
   ],
   "ui-eholdings.settings.assignedUsers.pluginButtonMessage": [
@@ -59501,19 +59503,19 @@
   "ui-eholdings.titlesList.customCoverage": [
     {
       "type": 0,
-      "value": "Custom coverage"
+      "value": "Benutzerdefinierte Abdeckung"
     }
   ],
   "ui-eholdings.titlesList.managedCoverage": [
     {
       "type": 0,
-      "value": "Managed coverage"
+      "value": "Verwaltete Abdeckung"
     }
   ],
   "ui-eholdings.titlesList.managedEmbargo": [
     {
       "type": 0,
-      "value": "Managed embargo period"
+      "value": "Verwaltete Embargofrist"
     }
   ],
   "ui-eholdings.titlesList.status": [
@@ -59531,7 +59533,7 @@
   "ui-eholdings.titlesList.title": [
     {
       "type": 0,
-      "value": "Title"
+      "value": "Titel"
     }
   ],
   "ui-eholdings.type": [
@@ -67406,6 +67408,12 @@
     {
       "type": 0,
       "value": "Specify exchange rate provider"
+    }
+  ],
+  "ui-finance.settings.exchangeRateSource.form.field.providerType": [
+    {
+      "type": 0,
+      "value": "Exchange rate provider type"
     }
   ],
   "ui-finance.settings.exchangeRateSource.form.field.providerUri": [
@@ -86869,7 +86877,7 @@
   "ui-licenses.prop.agreementStatus": [
     {
       "type": 0,
-      "value": "Vereinbarungsstatus"
+      "value": "Vereinbarungs­status"
     }
   ],
   "ui-licenses.prop.amendmentLinkStatus": [
@@ -87888,7 +87896,7 @@
   "ui-lists.app-menu.list-app-home": [
     {
       "type": 0,
-      "value": "Lists app home"
+      "value": "Lists App Startseite"
     }
   ],
   "ui-lists.button.cancel": [
@@ -88280,7 +88288,7 @@
   "ui-lists.commands-label.collapse-list-detail-accordions": [
     {
       "type": 0,
-      "value": "Collapse all List detail accordions"
+      "value": "Alle Listendetails einklappen"
     }
   ],
   "ui-lists.commands-label.copy": [
@@ -88316,7 +88324,7 @@
   "ui-lists.commands-label.expand-list-detail-accordions": [
     {
       "type": 0,
-      "value": "Expand all List detail accordions"
+      "value": "Alle Listendetails ausklappen"
     }
   ],
   "ui-lists.commands-label.find": [
@@ -88328,7 +88336,7 @@
   "ui-lists.commands-label.go-to-filter-pane": [
     {
       "type": 0,
-      "value": "Go to Lists Filter pane"
+      "value": "Zum Lists Filterbereich gehen"
     }
   ],
   "ui-lists.commands-label.open-shortcuts-modal": [
@@ -88352,7 +88360,7 @@
   "ui-lists.commands-label.toggle-lists-detail-accordion": [
     {
       "type": 0,
-      "value": "Expand or collapse a Lists detail accordion"
+      "value": "Alle Listendetails einklappen oder ausklappen"
     }
   ],
   "ui-lists.create-fql.query.invalid": [
@@ -88654,7 +88662,7 @@
   "ui-lists.error-component.unknown": [
     {
       "type": 0,
-      "value": "An unknown error ocurred"
+      "value": "Ein unbekannter Fehler ist aufgetreten"
     }
   ],
   "ui-lists.export-export.in.progress": [
@@ -88972,7 +88980,7 @@
   "ui-lists.lists.copy.title": [
     {
       "type": 0,
-      "value": "Duplicate List: "
+      "value": "Liste kopieren: "
     },
     {
       "type": 1,
@@ -89074,13 +89082,13 @@
   "ui-lists.missing-all-entity-type-permissions.message": [
     {
       "type": 0,
-      "value": "Please contact your system administrator for help"
+      "value": "Bitte kontaktieren Sie Ihren Systemadministrator."
     }
   ],
   "ui-lists.pane.dropdown.ariaLabel.columnFilter": [
     {
       "type": 0,
-      "value": "Column filter input"
+      "value": "Eingabe Spaltenfilter"
     }
   ],
   "ui-lists.pane.dropdown.available-permissions": [
@@ -89104,7 +89112,7 @@
   "ui-lists.pane.dropdown.copy": [
     {
       "type": 0,
-      "value": "Duplicate list"
+      "value": "Liste duplizieren"
     }
   ],
   "ui-lists.pane.dropdown.delete": [
@@ -89146,7 +89154,7 @@
   "ui-lists.pane.dropdown.search.placeholder": [
     {
       "type": 0,
-      "value": "Search column name"
+      "value": "Spaltenname suchen"
     }
   ],
   "ui-lists.pane.dropdown.show-columns": [
@@ -89404,7 +89412,7 @@
   "ui-lists.title.duplicateList": [
     {
       "type": 0,
-      "value": "Duplicate List "
+      "value": "Liste kopieren "
     },
     {
       "type": 1,
@@ -89414,7 +89422,7 @@
   "ui-lists.title.editList": [
     {
       "type": 0,
-      "value": "Edit "
+      "value": "Bearbeiten "
     },
     {
       "type": 1,
@@ -89424,7 +89432,7 @@
   "ui-lists.title.infoList": [
     {
       "type": 0,
-      "value": "Lists - "
+      "value": "Listen "
     },
     {
       "type": 1,
@@ -91413,13 +91421,13 @@
   "ui-marc-authorities.authority-record.export": [
     {
       "type": 0,
-      "value": "Export (MARC)"
+      "value": "Exportieren (MARC)"
     }
   ],
   "ui-marc-authorities.authority-record.menuOptions": [
     {
       "type": 0,
-      "value": "Available options"
+      "value": "Verfügbare Optionen"
     }
   ],
   "ui-marc-authorities.authority-record.print": [
@@ -91584,7 +91592,7 @@
   "ui-marc-authorities.documentTitle.browse": [
     {
       "type": 0,
-      "value": "MARC authority - "
+      "value": "MARC Normdaten - "
     },
     {
       "type": 1,
@@ -91592,7 +91600,7 @@
     },
     {
       "type": 0,
-      "value": " - Browse"
+      "value": " - Browsen"
     }
   ],
   "ui-marc-authorities.documentTitle.record": [
@@ -91662,7 +91670,7 @@
   "ui-marc-authorities.goBack": [
     {
       "type": 0,
-      "value": "Go back"
+      "value": "Zurück"
     }
   ],
   "ui-marc-authorities.identifier": [
@@ -91816,7 +91824,7 @@
   "ui-marc-authorities.permission.settings.version-history.view": [
     {
       "type": 0,
-      "value": "Settings (MARC authority): Configure version history"
+      "value": "Einstellungen (MARC Normdaten): Versionsgeschichte konfigurieren"
     }
   ],
   "ui-marc-authorities.personalName": [
@@ -92553,19 +92561,19 @@
   "ui-marc-authorities.settings.versionHistory.field.pageSize": [
     {
       "type": 0,
-      "value": "Cards to display per page on Version history"
+      "value": "Karten, die pro Seite der Versionsgeschichte angezeigt werden"
     }
   ],
   "ui-marc-authorities.settings.versionHistory.loadError": [
     {
       "type": 0,
-      "value": "Version history Cards per page settings failed to load."
+      "value": "Einstellungen für Karten pro Seite der Versionsgeschichte konnten nicht geladen werden."
     }
   ],
   "ui-marc-authorities.settings.versionHistory.pane.title": [
     {
       "type": 0,
-      "value": "Version history"
+      "value": "Versionsgeschichte"
     }
   ],
   "ui-marc-authorities.shortcut.closeModal": [
@@ -92613,7 +92621,7 @@
   "ui-marc-authorities.shortcut.nextSubfield": [
     {
       "type": 0,
-      "value": "quickMARC only: Move to the next subfield in a text box"
+      "value": "Nur quickMARC: Zum nächsten Unterfeld in einem Textfeld wechseln"
     }
   ],
   "ui-marc-authorities.shortcut.openShortcutModal": [
@@ -92631,7 +92639,7 @@
   "ui-marc-authorities.shortcut.prevSubfield": [
     {
       "type": 0,
-      "value": "quickMARC only: Move to the previous subfield in a text box"
+      "value": "Nur quickMARC: Zum vorherigen Unterfeld in einem Textfeld wechseln"
     }
   ],
   "ui-marc-authorities.shortcut.saveRecord": [
@@ -99332,7 +99340,7 @@
   "ui-orders.itemDetails.contributor": [
     {
       "type": 0,
-      "value": "Mitwirkende/-r"
+      "value": "Name"
     }
   ],
   "ui-orders.itemDetails.contributorType": [
@@ -102481,7 +102489,7 @@
   "ui-orders.search.contributors": [
     {
       "type": 0,
-      "value": "Mitwirkende/-r"
+      "value": "Name"
     }
   ],
   "ui-orders.search.dateOpened": [
@@ -103188,6 +103196,168 @@
     {
       "type": 0,
       "value": "Speichern und Öffnen der Bestellung zulassen, wenn ein Bestellposten erstellt oder bearbeitet wird"
+    }
+  ],
+  "ui-orders.settings.orderTemplateCategories": [
+    {
+      "type": 0,
+      "value": "Order template categories"
+    }
+  ],
+  "ui-orders.settings.orderTemplateCategories.cannotDeleteTermHeader": [
+    {
+      "type": 0,
+      "value": "Cannot delete the order template category"
+    }
+  ],
+  "ui-orders.settings.orderTemplateCategories.cannotDeleteTermMessage": [
+    {
+      "type": 0,
+      "value": "This order template category cannot be deleted, as it is in use by one or more records."
+    }
+  ],
+  "ui-orders.settings.orderTemplateCategories.deleteEntry": [
+    {
+      "type": 0,
+      "value": "Delete order template category"
+    }
+  ],
+  "ui-orders.settings.orderTemplateCategories.field.name": [
+    {
+      "type": 0,
+      "value": "Name"
+    }
+  ],
+  "ui-orders.settings.orderTemplateCategories.sub": [
+    {
+      "type": 0,
+      "value": "Categories"
+    }
+  ],
+  "ui-orders.settings.orderTemplateCategories.termCreated": [
+    {
+      "type": 0,
+      "value": "The category "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "term"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " was successfully "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "created"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
+  "ui-orders.settings.orderTemplateCategories.termDeleted": [
+    {
+      "type": 0,
+      "value": "The category "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "term"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " was successfully "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "deleted"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
+  "ui-orders.settings.orderTemplateCategories.termUpdated": [
+    {
+      "type": 0,
+      "value": "The category "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "term"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " was successfully "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "updated"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
+  "ui-orders.settings.orderTemplateCategories.termWillBeDeleted": [
+    {
+      "type": 0,
+      "value": "The order template category "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "term"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " will be "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "deleted."
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
+  "ui-orders.settings.orderTemplateCategories.validation.duplicates": [
+    {
+      "type": 0,
+      "value": "Category name must be unique"
     }
   ],
   "ui-orders.settings.orderTemplates": [
@@ -120951,6 +121121,30 @@
       "value": "reason"
     }
   ],
+  "ui-receiving.title.confirmationModal.removeFromPackage.confirm": [
+    {
+      "type": 0,
+      "value": "Confirm"
+    }
+  ],
+  "ui-receiving.title.confirmationModal.removeFromPackage.message": [
+    {
+      "type": 0,
+      "value": "Removing this title from the package will delete all related pieces and any related inventory Holdings and Items."
+    }
+  ],
+  "ui-receiving.title.confirmationModal.removeFromPackage.success": [
+    {
+      "type": 0,
+      "value": "Related pieces and any related inventory Holdings and Items have been deleted."
+    }
+  ],
+  "ui-receiving.title.confirmationModal.removeHolding.message": [
+    {
+      "type": 0,
+      "value": "Related Holdings do not reference any other pieces or items. Do you want to delete them?"
+    }
+  ],
   "ui-receiving.title.contributors": [
     {
       "type": 0,
@@ -120966,7 +121160,7 @@
   "ui-receiving.title.contributors.contributor": [
     {
       "type": 0,
-      "value": "Mitwirkende/-r"
+      "value": "Name"
     }
   ],
   "ui-receiving.title.contributors.contributorType": [
@@ -121111,6 +121305,12 @@
     {
       "type": 0,
       "value": "Neuer Titel"
+    }
+  ],
+  "ui-receiving.title.paneTitle.removeFromPackage": [
+    {
+      "type": 0,
+      "value": "Remove from package"
     }
   ],
   "ui-receiving.title.polDetails": [
@@ -123937,7 +124137,7 @@
   "ui-requests.exportExpiredHoldShelfCsv": [
     {
       "type": 0,
-      "value": "Hold shelf clearance report "
+      "value": "Abräumliste für das Abholregal "
     },
     {
       "type": 1,
@@ -123965,7 +124165,7 @@
   "ui-requests.exportSearchResultsCsv": [
     {
       "type": 0,
-      "value": "Export search results (CSV)"
+      "value": "Suchergebnisse exportieren (CSV)"
     }
   ],
   "ui-requests.exportSearchResultsToCsv": [
@@ -124247,7 +124447,7 @@
   "ui-requests.item.retrievalServicePointName": [
     {
       "type": 0,
-      "value": "Retrieval service point"
+      "value": "Abruf Servicestelle"
     }
   ],
   "ui-requests.item.scanOrEnterBarcode": [
@@ -124819,7 +125019,7 @@
   "ui-requests.printPickSlipsForSp": [
     {
       "type": 0,
-      "value": "Print pick slips "
+      "value": "Entnahmezettel drucken "
     },
     {
       "type": 1,
@@ -124857,7 +125057,7 @@
   "ui-requests.printSearchSlipsForSp": [
     {
       "type": 0,
-      "value": "Print search slips "
+      "value": "Suchzettel drucken "
     },
     {
       "type": 1,
@@ -124867,7 +125067,7 @@
   "ui-requests.printSelectedPickSlipsForSp": [
     {
       "type": 0,
-      "value": "Print selected pick slips "
+      "value": "Ausgewählte Entnahmezettel drucken "
     },
     {
       "type": 1,
@@ -125329,7 +125529,7 @@
   "ui-requests.requestUuid": [
     {
       "type": 0,
-      "value": "Request UUID"
+      "value": "Bestandsanfrage-UUID"
     }
   ],
   "ui-requests.requester.barcode": [
@@ -125501,7 +125701,7 @@
   "ui-requests.requests.retrievalServicePoint": [
     {
       "type": 0,
-      "value": "Retrieval service point"
+      "value": "Abruf Servicestelle"
     }
   ],
   "ui-requests.requests.servicePoint": [
@@ -129376,13 +129576,13 @@
   "ui-tenant-settings.permission.settings.reading-room-access.all": [
     {
       "type": 0,
-      "value": "Settings (tenant): Can create, edit and remove reading room access"
+      "value": "Einstellungen (Mandant): Kann Lesesaalzugänge erstellen, bearbeiten und entfernen"
     }
   ],
   "ui-tenant-settings.permission.settings.reading-room-access.view": [
     {
       "type": 0,
-      "value": "Settings (tenant): Can view reading room access"
+      "value": "Einstellungen (Mandant): Kann Lesesaalzugänge anzeigen"
     }
   ],
   "ui-tenant-settings.permission.settings.servicepoints": [
@@ -129838,7 +130038,7 @@
   "ui-tenant-settings.settings.location.floating.enabled": [
     {
       "type": 0,
-      "value": "Enabled"
+      "value": "Aktiviert"
     }
   ],
   "ui-tenant-settings.settings.location.institutions": [
@@ -130442,55 +130642,63 @@
   "ui-tenant-settings.settings.reading-room-access.asp": [
     {
       "type": 0,
-      "value": "Associated service points"
+      "value": "Zugehörige Servicestellen"
     }
   ],
   "ui-tenant-settings.settings.reading-room-access.cannotDeleteTermHeader": [
     {
       "type": 0,
-      "value": "Cannot delete reading room access"
+      "value": "Lesesaalzugang kann nicht gelöscht werden"
     }
   ],
   "ui-tenant-settings.settings.reading-room-access.cannotDeleteTermMessage": [
     {
       "type": 0,
-      "value": "This reading room access cannot be deleted, as it is in use by one or more records."
+      "value": "Dieser Lesesaalzugang kann nicht gelöscht werden, da er von einem oder mehreren Datensätzen verwendet wird."
     }
   ],
   "ui-tenant-settings.settings.reading-room-access.deleteEntry": [
     {
       "type": 0,
-      "value": "Delete reading room access"
+      "value": "Lesesaalzugang löschen"
     }
   ],
   "ui-tenant-settings.settings.reading-room-access.label": [
     {
       "type": 0,
-      "value": "Reading room access"
+      "value": "Lesesaalzugang"
     }
   ],
   "ui-tenant-settings.settings.reading-room-access.name": [
     {
       "type": 0,
-      "value": "Room name"
+      "value": "Lesesaalname"
     }
   ],
   "ui-tenant-settings.settings.reading-room-access.public": [
     {
       "type": 0,
-      "value": "Public"
+      "value": "Öffentlich"
     }
   ],
   "ui-tenant-settings.settings.reading-room-access.termDeleted": [
     {
       "type": 0,
-      "value": "The reading room access "
+      "value": "Der Lesesaalzugang "
     },
     {
       "children": [
         {
+          "type": 0,
+          "value": " "
+        },
+        {
           "type": 1,
           "value": "term"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -130498,13 +130706,13 @@
     },
     {
       "type": 0,
-      "value": " was successfully "
+      "value": " wurde erfolgreich "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "deleted"
+          "value": " gelöscht "
         }
       ],
       "type": 8,
@@ -130514,13 +130722,21 @@
   "ui-tenant-settings.settings.reading-room-access.termWillBeDeleted": [
     {
       "type": 0,
-      "value": "The reading room "
+      "value": "Der Lesesaal "
     },
     {
       "children": [
         {
+          "type": 0,
+          "value": " "
+        },
+        {
           "type": 1,
           "value": "term"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -130528,13 +130744,13 @@
     },
     {
       "type": 0,
-      "value": " will be "
+      "value": " wird "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "deleted"
+          "value": " gelöscht "
         }
       ],
       "type": 8,
@@ -130544,7 +130760,7 @@
   "ui-tenant-settings.settings.reading-room.title": [
     {
       "type": 0,
-      "value": "Tenant settings - Reading room access"
+      "value": "Mandanten-Einstellungen - Lesesaalzugang"
     }
   ],
   "ui-tenant-settings.settings.saml.attribute": [
@@ -130888,7 +131104,7 @@
   "ui-tenant-settings.settings.servicePoints.placeholder": [
     {
       "type": 0,
-      "value": "Select service point"
+      "value": "Servicestelle auswählen"
     }
   ],
   "ui-tenant-settings.settings.servicePoints.primary": [
@@ -135357,7 +135573,7 @@
   "ui-users.information.profilePicture.externalLink.modal.externalURL.invalidURLErrorMessage": [
     {
       "type": 0,
-      "value": "Invalid image URL"
+      "value": "Ungültige Bild-URL"
     }
   ],
   "ui-users.information.profilePicture.externalLink.modal.updateProfilePicture": [

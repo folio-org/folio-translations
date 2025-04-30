@@ -36110,13 +36110,13 @@
   "ui-claims.claiming.filters.poLine.locations": [
     {
       "type": 0,
-      "value": "Location"
+      "value": "館藏地"
     }
   ],
   "ui-claims.claiming.filters.poLine.orderFormat": [
     {
       "type": 0,
-      "value": "Order format"
+      "value": "訂單格式"
     }
   ],
   "ui-claims.claiming.filters.poLine.physical.receiptDue": [
@@ -36128,13 +36128,13 @@
   "ui-claims.claiming.filters.poLine.rush": [
     {
       "type": 0,
-      "value": "Rush"
+      "value": "急件"
     }
   ],
   "ui-claims.claiming.filters.purchaseOrder.orderType": [
     {
       "type": 0,
-      "value": "Order type"
+      "value": "訂單類型"
     }
   ],
   "ui-claims.claiming.filters.purchaseOrder.shipTo": [
@@ -36146,7 +36146,7 @@
   "ui-claims.claiming.filters.purchaseOrder.vendor": [
     {
       "type": 0,
-      "value": "Vendor"
+      "value": "供應商"
     }
   ],
   "ui-claims.claiming.filters.receiptDate": [
@@ -36303,7 +36303,7 @@
   "ui-claims.claiming.results.columns.displaySummary": [
     {
       "type": 0,
-      "value": "Display summary"
+      "value": "顯示摘要"
     }
   ],
   "ui-claims.claiming.results.columns.enumeration": [
@@ -36333,7 +36333,7 @@
   "ui-claims.claiming.results.columns.receivingStatus": [
     {
       "type": 0,
-      "value": "Status"
+      "value": "狀態"
     }
   ],
   "ui-claims.claiming.results.columns.select": [
@@ -36349,7 +36349,7 @@
   "ui-claims.claiming.results.columns.selectAll": [
     {
       "type": 0,
-      "value": "Select all claims"
+      "value": "選擇所有催缺"
     }
   ],
   "ui-claims.claiming.results.columns.title": [
@@ -36361,19 +36361,19 @@
   "ui-claims.claiming.results.columns.vendorCode": [
     {
       "type": 0,
-      "value": "Organization code"
+      "value": "機構名稱"
     }
   ],
   "ui-claims.claiming.results.columns.vendorName": [
     {
       "type": 0,
-      "value": "Organization name"
+      "value": "組織機構代碼"
     }
   ],
   "ui-claims.claiming.results.title": [
     {
       "type": 0,
-      "value": "Claiming"
+      "value": "催缺"
     }
   ],
   "ui-claims.claiming.sendClaim.error.message": [
@@ -36480,19 +36480,19 @@
   "ui-claims.meta.title": [
     {
       "type": 0,
-      "value": "Claiming"
+      "value": "催缺"
     }
   ],
   "ui-claims.permission.claiming.view": [
     {
       "type": 0,
-      "value": "Claims: View claiming"
+      "value": "Claims: View claims"
     }
   ],
   "ui-claims.search.index.keyword": [
     {
       "type": 0,
-      "value": "Keyword"
+      "value": "關鍵字"
     }
   ],
   "ui-claims.search.index.poLine.poLineNumber": [
@@ -67940,6 +67940,12 @@
     {
       "type": 0,
       "value": "Specify exchange rate provider"
+    }
+  ],
+  "ui-finance.settings.exchangeRateSource.form.field.providerType": [
+    {
+      "type": 0,
+      "value": "Exchange rate provider type"
     }
   ],
   "ui-finance.settings.exchangeRateSource.form.field.providerUri": [
@@ -104790,6 +104796,168 @@
       "value": "在新增或編輯採購訂單子項目時，允許儲存並開啟採購訂單"
     }
   ],
+  "ui-orders.settings.orderTemplateCategories": [
+    {
+      "type": 0,
+      "value": "Order template categories"
+    }
+  ],
+  "ui-orders.settings.orderTemplateCategories.cannotDeleteTermHeader": [
+    {
+      "type": 0,
+      "value": "Cannot delete the order template category"
+    }
+  ],
+  "ui-orders.settings.orderTemplateCategories.cannotDeleteTermMessage": [
+    {
+      "type": 0,
+      "value": "This order template category cannot be deleted, as it is in use by one or more records."
+    }
+  ],
+  "ui-orders.settings.orderTemplateCategories.deleteEntry": [
+    {
+      "type": 0,
+      "value": "Delete order template category"
+    }
+  ],
+  "ui-orders.settings.orderTemplateCategories.field.name": [
+    {
+      "type": 0,
+      "value": "Name"
+    }
+  ],
+  "ui-orders.settings.orderTemplateCategories.sub": [
+    {
+      "type": 0,
+      "value": "Categories"
+    }
+  ],
+  "ui-orders.settings.orderTemplateCategories.termCreated": [
+    {
+      "type": 0,
+      "value": "The category "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "term"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " was successfully "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "created"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
+  "ui-orders.settings.orderTemplateCategories.termDeleted": [
+    {
+      "type": 0,
+      "value": "The category "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "term"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " was successfully "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "deleted"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
+  "ui-orders.settings.orderTemplateCategories.termUpdated": [
+    {
+      "type": 0,
+      "value": "The category "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "term"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " was successfully "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "updated"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
+  "ui-orders.settings.orderTemplateCategories.termWillBeDeleted": [
+    {
+      "type": 0,
+      "value": "The order template category "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "term"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " will be "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "deleted."
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
+  "ui-orders.settings.orderTemplateCategories.validation.duplicates": [
+    {
+      "type": 0,
+      "value": "Category name must be unique"
+    }
+  ],
   "ui-orders.settings.orderTemplates": [
     {
       "type": 0,
@@ -122873,6 +123041,30 @@
       "value": "reason"
     }
   ],
+  "ui-receiving.title.confirmationModal.removeFromPackage.confirm": [
+    {
+      "type": 0,
+      "value": "Confirm"
+    }
+  ],
+  "ui-receiving.title.confirmationModal.removeFromPackage.message": [
+    {
+      "type": 0,
+      "value": "Removing this title from the package will delete all related pieces and any related inventory Holdings and Items."
+    }
+  ],
+  "ui-receiving.title.confirmationModal.removeFromPackage.success": [
+    {
+      "type": 0,
+      "value": "Related pieces and any related inventory Holdings and Items have been deleted."
+    }
+  ],
+  "ui-receiving.title.confirmationModal.removeHolding.message": [
+    {
+      "type": 0,
+      "value": "Related Holdings do not reference any other pieces or items. Do you want to delete them?"
+    }
+  ],
   "ui-receiving.title.contributors": [
     {
       "type": 0,
@@ -123033,6 +123225,12 @@
     {
       "type": 0,
       "value": "新增題名"
+    }
+  ],
+  "ui-receiving.title.paneTitle.removeFromPackage": [
+    {
+      "type": 0,
+      "value": "Remove from package"
     }
   ],
   "ui-receiving.title.polDetails": [

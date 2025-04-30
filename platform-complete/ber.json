@@ -36171,7 +36171,7 @@
   "ui-claims.permission.claiming.view": [
     {
       "type": 0,
-      "value": "Claims: View claiming"
+      "value": "Claims: View claims"
     }
   ],
   "ui-claims.search.index.keyword": [
@@ -67095,6 +67095,12 @@
     {
       "type": 0,
       "value": "Specify exchange rate provider"
+    }
+  ],
+  "ui-finance.settings.exchangeRateSource.form.field.providerType": [
+    {
+      "type": 0,
+      "value": "Exchange rate provider type"
     }
   ],
   "ui-finance.settings.exchangeRateSource.form.field.providerUri": [
@@ -102731,6 +102737,168 @@
       "value": "Allow save and open purchase order when creating or editing a purchase order line"
     }
   ],
+  "ui-orders.settings.orderTemplateCategories": [
+    {
+      "type": 0,
+      "value": "Order template categories"
+    }
+  ],
+  "ui-orders.settings.orderTemplateCategories.cannotDeleteTermHeader": [
+    {
+      "type": 0,
+      "value": "Cannot delete the order template category"
+    }
+  ],
+  "ui-orders.settings.orderTemplateCategories.cannotDeleteTermMessage": [
+    {
+      "type": 0,
+      "value": "This order template category cannot be deleted, as it is in use by one or more records."
+    }
+  ],
+  "ui-orders.settings.orderTemplateCategories.deleteEntry": [
+    {
+      "type": 0,
+      "value": "Delete order template category"
+    }
+  ],
+  "ui-orders.settings.orderTemplateCategories.field.name": [
+    {
+      "type": 0,
+      "value": "Name"
+    }
+  ],
+  "ui-orders.settings.orderTemplateCategories.sub": [
+    {
+      "type": 0,
+      "value": "Categories"
+    }
+  ],
+  "ui-orders.settings.orderTemplateCategories.termCreated": [
+    {
+      "type": 0,
+      "value": "The category "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "term"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " was successfully "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "created"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
+  "ui-orders.settings.orderTemplateCategories.termDeleted": [
+    {
+      "type": 0,
+      "value": "The category "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "term"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " was successfully "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "deleted"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
+  "ui-orders.settings.orderTemplateCategories.termUpdated": [
+    {
+      "type": 0,
+      "value": "The category "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "term"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " was successfully "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "updated"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
+  "ui-orders.settings.orderTemplateCategories.termWillBeDeleted": [
+    {
+      "type": 0,
+      "value": "The order template category "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "term"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " will be "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "deleted."
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
+  "ui-orders.settings.orderTemplateCategories.validation.duplicates": [
+    {
+      "type": 0,
+      "value": "Category name must be unique"
+    }
+  ],
   "ui-orders.settings.orderTemplates": [
     {
       "type": 0,
@@ -120555,6 +120723,30 @@
       "value": "reason"
     }
   ],
+  "ui-receiving.title.confirmationModal.removeFromPackage.confirm": [
+    {
+      "type": 0,
+      "value": "Confirm"
+    }
+  ],
+  "ui-receiving.title.confirmationModal.removeFromPackage.message": [
+    {
+      "type": 0,
+      "value": "Removing this title from the package will delete all related pieces and any related inventory Holdings and Items."
+    }
+  ],
+  "ui-receiving.title.confirmationModal.removeFromPackage.success": [
+    {
+      "type": 0,
+      "value": "Related pieces and any related inventory Holdings and Items have been deleted."
+    }
+  ],
+  "ui-receiving.title.confirmationModal.removeHolding.message": [
+    {
+      "type": 0,
+      "value": "Related Holdings do not reference any other pieces or items. Do you want to delete them?"
+    }
+  ],
   "ui-receiving.title.contributors": [
     {
       "type": 0,
@@ -120715,6 +120907,12 @@
     {
       "type": 0,
       "value": "New title"
+    }
+  ],
+  "ui-receiving.title.paneTitle.removeFromPackage": [
+    {
+      "type": 0,
+      "value": "Remove from package"
     }
   ],
   "ui-receiving.title.polDetails": [

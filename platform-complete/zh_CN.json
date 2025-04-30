@@ -36345,25 +36345,25 @@
   "ui-claims.appMenu.claimingAppSearch": [
     {
       "type": 0,
-      "value": "Claiming app Search"
+      "value": "催缺应用程序搜索"
     }
   ],
   "ui-claims.claiming.action.groupByOrganization": [
     {
       "type": 0,
-      "value": "Group by organization"
+      "value": "按组织分组"
     }
   ],
   "ui-claims.claiming.delayClaim.error.message": [
     {
       "type": 0,
-      "value": "Failure on delay claims."
+      "value": "延迟催缺失败。"
     }
   ],
   "ui-claims.claiming.delayClaim.success.message": [
     {
       "type": 0,
-      "value": "Claims are successfully delayed."
+      "value": "催缺已成功延迟。"
     }
   ],
   "ui-claims.claiming.filters.metadata.createdByUserId": [
@@ -36393,91 +36393,91 @@
   "ui-claims.claiming.filters.piece.metadata.createdByUserId": [
     {
       "type": 0,
-      "value": "Created by (Piece)"
+      "value": "创建（件）"
     }
   ],
   "ui-claims.claiming.filters.piece.metadata.createdDate": [
     {
       "type": 0,
-      "value": "Date created (Piece)"
+      "value": "创建日期（件）"
     }
   ],
   "ui-claims.claiming.filters.piece.metadata.updatedByUserId": [
     {
       "type": 0,
-      "value": "Updated by (Piece)"
+      "value": "更新（件）"
     }
   ],
   "ui-claims.claiming.filters.piece.metadata.updatedDate": [
     {
       "type": 0,
-      "value": "Date updated (Piece)"
+      "value": "更新日期（件）"
     }
   ],
   "ui-claims.claiming.filters.piece.receiptDate": [
     {
       "type": 0,
-      "value": "Expected receipt date"
+      "value": "预期接收日期"
     }
   ],
   "ui-claims.claiming.filters.piece.receivedDate": [
     {
       "type": 0,
-      "value": "Received date"
+      "value": "收到日期"
     }
   ],
   "ui-claims.claiming.filters.piece.receivingStatus": [
     {
       "type": 0,
-      "value": "Receiving status"
+      "value": "接收状态"
     }
   ],
   "ui-claims.claiming.filters.poLine.claimingActive": [
     {
       "type": 0,
-      "value": "POL claim active"
+      "value": "订单行催缺激活"
     }
   ],
   "ui-claims.claiming.filters.poLine.locations": [
     {
       "type": 0,
-      "value": "Location"
+      "value": "馆藏地"
     }
   ],
   "ui-claims.claiming.filters.poLine.orderFormat": [
     {
       "type": 0,
-      "value": "Order format"
+      "value": "订单格式"
     }
   ],
   "ui-claims.claiming.filters.poLine.physical.receiptDue": [
     {
       "type": 0,
-      "value": "Receipt due"
+      "value": "接收到期"
     }
   ],
   "ui-claims.claiming.filters.poLine.rush": [
     {
       "type": 0,
-      "value": "Rush"
+      "value": "忙碌"
     }
   ],
   "ui-claims.claiming.filters.purchaseOrder.orderType": [
     {
       "type": 0,
-      "value": "Order type"
+      "value": "订购类型"
     }
   ],
   "ui-claims.claiming.filters.purchaseOrder.shipTo": [
     {
       "type": 0,
-      "value": "Ship to"
+      "value": "运送到"
     }
   ],
   "ui-claims.claiming.filters.purchaseOrder.vendor": [
     {
       "type": 0,
-      "value": "Vendor"
+      "value": "供应商"
     }
   ],
   "ui-claims.claiming.filters.receiptDate": [
@@ -36501,31 +36501,31 @@
   "ui-claims.claiming.filters.title.materialType": [
     {
       "type": 0,
-      "value": "Material type"
+      "value": "资料类型"
     }
   ],
   "ui-claims.claiming.filters.title.metadata.createdByUserId": [
     {
       "type": 0,
-      "value": "Created by (Title)"
+      "value": "创建者（标题）"
     }
   ],
   "ui-claims.claiming.filters.title.metadata.createdDate": [
     {
       "type": 0,
-      "value": "Date created (Title)"
+      "value": "创建日期（标题）"
     }
   ],
   "ui-claims.claiming.filters.title.metadata.updatedByUserId": [
     {
       "type": 0,
-      "value": "Updated by (Title)"
+      "value": "更新（标题）"
     }
   ],
   "ui-claims.claiming.filters.title.metadata.updatedDate": [
     {
       "type": 0,
-      "value": "Date updated (Title)"
+      "value": "更新日期（标题）"
     }
   ],
   "ui-claims.claiming.filters.titles.materialType": [
@@ -36561,26 +36561,34 @@
   "ui-claims.claiming.markUnreceivable.error.message": [
     {
       "type": 0,
-      "value": "Failure on mark unreceivable"
+      "value": "标记不可受理失败"
     }
   ],
   "ui-claims.claiming.markUnreceivable.modal.heading": [
     {
       "type": 0,
-      "value": "Mark unreceivable"
+      "value": "标记为不可受理"
     }
   ],
   "ui-claims.claiming.markUnreceivable.modal.message": [
     {
       "type": 0,
-      "value": "Mark "
+      "value": "标记"
     },
     {
       "children": [
         {
+          "type": 0,
+          "value": " "
+        },
+        {
           "style": null,
           "type": 2,
           "value": "count"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -36597,7 +36605,7 @@
           "value": [
             {
               "type": 0,
-              "value": "piece"
+              "value": " piece "
             }
           ]
         },
@@ -36605,7 +36613,7 @@
           "value": [
             {
               "type": 0,
-              "value": "pieces"
+              "value": " parts "
             }
           ]
         }
@@ -36616,61 +36624,61 @@
     },
     {
       "type": 0,
-      "value": " unreceivable?"
+      "value": "不可受理？"
     }
   ],
   "ui-claims.claiming.markUnreceivable.success.message": [
     {
       "type": 0,
-      "value": "Claims are successfully marked unreceivable"
+      "value": "催缺已成功标记为不可受理"
     }
   ],
   "ui-claims.claiming.results.columns.chronology": [
     {
       "type": 0,
-      "value": "Chronology"
+      "value": "年表"
     }
   ],
   "ui-claims.claiming.results.columns.displaySummary": [
     {
       "type": 0,
-      "value": "Display summary"
+      "value": "显示摘要"
     }
   ],
   "ui-claims.claiming.results.columns.enumeration": [
     {
       "type": 0,
-      "value": "Enumeration"
+      "value": "期数"
     }
   ],
   "ui-claims.claiming.results.columns.piecesToClaim": [
     {
       "type": 0,
-      "value": "Pieces to claim"
+      "value": "催缺件"
     }
   ],
   "ui-claims.claiming.results.columns.poLineNumber": [
     {
       "type": 0,
-      "value": "POL number"
+      "value": "订单行号"
     }
   ],
   "ui-claims.claiming.results.columns.receiptDate": [
     {
       "type": 0,
-      "value": "Expected date"
+      "value": "预期日期"
     }
   ],
   "ui-claims.claiming.results.columns.receivingStatus": [
     {
       "type": 0,
-      "value": "Status"
+      "value": "状态"
     }
   ],
   "ui-claims.claiming.results.columns.select": [
     {
       "type": 0,
-      "value": "Select claim $"
+      "value": "选择催缺 $ "
     },
     {
       "type": 1,
@@ -36680,50 +36688,58 @@
   "ui-claims.claiming.results.columns.selectAll": [
     {
       "type": 0,
-      "value": "Select all claims"
+      "value": "选择所有催缺"
     }
   ],
   "ui-claims.claiming.results.columns.title": [
     {
       "type": 0,
-      "value": "Title"
+      "value": "题名"
     }
   ],
   "ui-claims.claiming.results.columns.vendorCode": [
     {
       "type": 0,
-      "value": "Organization code"
+      "value": "组织代码"
     }
   ],
   "ui-claims.claiming.results.columns.vendorName": [
     {
       "type": 0,
-      "value": "Organization name"
+      "value": "组织名称"
     }
   ],
   "ui-claims.claiming.results.title": [
     {
       "type": 0,
-      "value": "Claiming"
+      "value": "催缺"
     }
   ],
   "ui-claims.claiming.sendClaim.error.message": [
     {
       "type": 0,
-      "value": "Failure on send claims."
+      "value": "发送催缺失败。"
     }
   ],
   "ui-claims.claiming.sendClaim.modal.message": [
     {
       "type": 0,
-      "value": "Claim "
+      "value": "催缺"
     },
     {
       "children": [
         {
+          "type": 0,
+          "value": " "
+        },
+        {
           "style": null,
           "type": 2,
           "value": "count"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -36740,7 +36756,7 @@
           "value": [
             {
               "type": 0,
-              "value": "piece"
+              "value": " piece "
             }
           ]
         },
@@ -36748,7 +36764,7 @@
           "value": [
             {
               "type": 0,
-              "value": "pieces"
+              "value": " piece "
             }
           ]
         }
@@ -36759,19 +36775,19 @@
     },
     {
       "type": 0,
-      "value": "?"
+      "value": " ？"
     }
   ],
   "ui-claims.claiming.sendClaim.success.message": [
     {
       "type": 0,
-      "value": "Claims are currently being processed. Please check Export manager for job status."
+      "value": "催缺目前正在处理中。请检查导出管理以了解任务状态。"
     }
   ],
   "ui-claims.document.title.search": [
     {
       "type": 0,
-      "value": "Claiming - "
+      "value": "催缺 - "
     },
     {
       "type": 1,
@@ -36779,25 +36795,33 @@
     },
     {
       "type": 0,
-      "value": " - Search"
+      "value": " - 搜索"
     }
   ],
   "ui-claims.error.code.cannotFindPiecesWithLatestStatusToProcess": [
     {
       "type": 0,
-      "value": "Cannot find pieces with \"Late\" status to process."
+      "value": "无法找到要处理的具有“延迟”状态的件。"
     }
   ],
   "ui-claims.error.code.unableToGenerateClaimsForOrgNoIntegrationDetails": [
     {
       "type": 0,
-      "value": "Unable to generate claims for "
+      "value": "无法为"
     },
     {
       "children": [
         {
+          "type": 0,
+          "value": " "
+        },
+        {
           "type": 1,
           "value": "orgCodes"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -36805,61 +36829,61 @@
     },
     {
       "type": 0,
-      "value": " because no claim integrations exist."
+      "value": "生成催缺，因为不存在催缺集成。"
     }
   ],
   "ui-claims.meta.title": [
     {
       "type": 0,
-      "value": "Claiming"
+      "value": "催缺"
     }
   ],
   "ui-claims.permission.claiming.view": [
     {
       "type": 0,
-      "value": "Claims: View claiming"
+      "value": "催缺：查看催缺"
     }
   ],
   "ui-claims.search.index.keyword": [
     {
       "type": 0,
-      "value": "Keyword"
+      "value": "关键词"
     }
   ],
   "ui-claims.search.index.poLine.poLineNumber": [
     {
       "type": 0,
-      "value": "POL number"
+      "value": "订单行号"
     }
   ],
   "ui-claims.search.index.poLine.titleOrPackage": [
     {
       "type": 0,
-      "value": "Package (POL Package name)"
+      "value": "资源包（订单行包名称）"
     }
   ],
   "ui-claims.search.index.poLine.vendorDetail.referenceNumbers": [
     {
       "type": 0,
-      "value": "Vendor reference number"
+      "value": "供应商参考号"
     }
   ],
   "ui-claims.search.index.purchaseOrder.poNumber": [
     {
       "type": 0,
-      "value": "PO number"
+      "value": "订单号"
     }
   ],
   "ui-claims.search.index.title.productIds": [
     {
       "type": 0,
-      "value": "Product ID (For the specific title or the package)"
+      "value": "产品ID（用于特定标题或资源包）"
     }
   ],
   "ui-claims.search.index.title.title": [
     {
       "type": 0,
-      "value": "Title (Receiving titles)"
+      "value": "标题（接收标题）"
     }
   ],
   "ui-claims.search.index.titles.productIds": [
@@ -68871,6 +68895,12 @@
     {
       "type": 0,
       "value": "Specify exchange rate provider"
+    }
+  ],
+  "ui-finance.settings.exchangeRateSource.form.field.providerType": [
+    {
+      "type": 0,
+      "value": "Exchange rate provider type"
     }
   ],
   "ui-finance.settings.exchangeRateSource.form.field.providerUri": [
@@ -106012,6 +106042,168 @@
       "value": "在创建或编辑订单行时，允许保存并打开订单"
     }
   ],
+  "ui-orders.settings.orderTemplateCategories": [
+    {
+      "type": 0,
+      "value": "Order template categories"
+    }
+  ],
+  "ui-orders.settings.orderTemplateCategories.cannotDeleteTermHeader": [
+    {
+      "type": 0,
+      "value": "Cannot delete the order template category"
+    }
+  ],
+  "ui-orders.settings.orderTemplateCategories.cannotDeleteTermMessage": [
+    {
+      "type": 0,
+      "value": "This order template category cannot be deleted, as it is in use by one or more records."
+    }
+  ],
+  "ui-orders.settings.orderTemplateCategories.deleteEntry": [
+    {
+      "type": 0,
+      "value": "Delete order template category"
+    }
+  ],
+  "ui-orders.settings.orderTemplateCategories.field.name": [
+    {
+      "type": 0,
+      "value": "Name"
+    }
+  ],
+  "ui-orders.settings.orderTemplateCategories.sub": [
+    {
+      "type": 0,
+      "value": "Categories"
+    }
+  ],
+  "ui-orders.settings.orderTemplateCategories.termCreated": [
+    {
+      "type": 0,
+      "value": "The category "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "term"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " was successfully "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "created"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
+  "ui-orders.settings.orderTemplateCategories.termDeleted": [
+    {
+      "type": 0,
+      "value": "The category "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "term"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " was successfully "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "deleted"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
+  "ui-orders.settings.orderTemplateCategories.termUpdated": [
+    {
+      "type": 0,
+      "value": "The category "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "term"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " was successfully "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "updated"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
+  "ui-orders.settings.orderTemplateCategories.termWillBeDeleted": [
+    {
+      "type": 0,
+      "value": "The order template category "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "term"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " will be "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "deleted."
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
+  "ui-orders.settings.orderTemplateCategories.validation.duplicates": [
+    {
+      "type": 0,
+      "value": "Category name must be unique"
+    }
+  ],
   "ui-orders.settings.orderTemplates": [
     {
       "type": 0,
@@ -124201,6 +124393,30 @@
       "value": "reason"
     }
   ],
+  "ui-receiving.title.confirmationModal.removeFromPackage.confirm": [
+    {
+      "type": 0,
+      "value": "Confirm"
+    }
+  ],
+  "ui-receiving.title.confirmationModal.removeFromPackage.message": [
+    {
+      "type": 0,
+      "value": "Removing this title from the package will delete all related pieces and any related inventory Holdings and Items."
+    }
+  ],
+  "ui-receiving.title.confirmationModal.removeFromPackage.success": [
+    {
+      "type": 0,
+      "value": "Related pieces and any related inventory Holdings and Items have been deleted."
+    }
+  ],
+  "ui-receiving.title.confirmationModal.removeHolding.message": [
+    {
+      "type": 0,
+      "value": "Related Holdings do not reference any other pieces or items. Do you want to delete them?"
+    }
+  ],
   "ui-receiving.title.contributors": [
     {
       "type": 0,
@@ -124361,6 +124577,12 @@
     {
       "type": 0,
       "value": "新建标题"
+    }
+  ],
+  "ui-receiving.title.paneTitle.removeFromPackage": [
+    {
+      "type": 0,
+      "value": "Remove from package"
     }
   ],
   "ui-receiving.title.polDetails": [
