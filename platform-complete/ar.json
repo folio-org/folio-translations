@@ -64117,13 +64117,13 @@
   "ui-finance.actions.rollover": [
     {
       "type": 0,
-      "value": "تمديد"
+      "value": "ترحيل"
     }
   ],
   "ui-finance.actions.rolloverLogs": [
     {
       "type": 0,
-      "value": "سجلات التمديد"
+      "value": "سجلات الترحيل"
     }
   ],
   "ui-finance.actions.uploadAllocationWorksheet": [
@@ -64687,7 +64687,7 @@
   "ui-finance.budget.expenseClasses.percentageExpended.undefined": [
     {
       "type": 0,
-      "value": "غير معرّف"
+      "value": "غير محدد"
     }
   ],
   "ui-finance.budget.expenseClasses.status": [
@@ -65191,7 +65191,7 @@
   "ui-finance.financialSummary.credited": [
     {
       "type": 0,
-      "value": "Credited"
+      "value": "تمت إضافتها إلى الرصيد الدائن"
     }
   ],
   "ui-finance.financialSummary.description": [
@@ -65335,7 +65335,7 @@
   "ui-finance.fiscalYear.code.isInUse": [
     {
       "type": 0,
-      "value": "كود السنة المالية هذا قيد الاستخدام بالفعل"
+      "value": "رمز السنة المالية هذا قيد الاستخدام بالفعل"
     }
   ],
   "ui-finance.fiscalYear.details.financialSummary": [
@@ -65419,7 +65419,7 @@
   "ui-finance.fiscalYear.information.periodEndUTC": [
     {
       "type": 0,
-      "value": "Period End Date (UTC)"
+      "value": "تاريخ انتهاء الفترة (بالتوقيت العالمي)"
     }
   ],
   "ui-finance.fiscalYear.information.periodStart": [
@@ -65431,7 +65431,7 @@
   "ui-finance.fiscalYear.information.periodStartUTC": [
     {
       "type": 0,
-      "value": "Period Begin Date (UTC)"
+      "value": "تاريخ بداية الفترة (بالتوقيت العالمي)"
     }
   ],
   "ui-finance.fiscalYear.information.unavailable": [
@@ -66449,13 +66449,13 @@
   "ui-finance.ledger.rollover.adjustAllocation": [
     {
       "type": 0,
-      "value": "ضبط التخصيص ، %"
+      "value": "ضبط التخصيص، %"
     }
   ],
   "ui-finance.ledger.rollover.allocation": [
     {
       "type": 0,
-      "value": "تخصيص التمديد"
+      "value": "تخصيص الترحيل"
     }
   ],
   "ui-finance.ledger.rollover.allowableEncumbrance": [
@@ -66473,7 +66473,7 @@
   "ui-finance.ledger.rollover.available": [
     {
       "type": 0,
-      "value": "تمديد متاح"
+      "value": "ترحيل متاح"
     }
   ],
   "ui-finance.ledger.rollover.basedOn": [
@@ -66521,7 +66521,7 @@
   "ui-finance.ledger.rollover.confirm.heading": [
     {
       "type": 0,
-      "value": "تمديد السنة المالية"
+      "value": "ترحيل السنة المالية"
     }
   ],
   "ui-finance.ledger.rollover.confirm.message": [
@@ -66555,7 +66555,7 @@
     },
     {
       "type": 0,
-      "value": " سيتم تمديده إلى "
+      "value": " سيتم ترحيله إلى "
     },
     {
       "children": [
@@ -66569,16 +66569,20 @@
     },
     {
       "type": 0,
-      "value": ". يرجى تأكيد قيامك باستكمال التفاصيل اللازمة واستعدادك لمتابعة التمديد. قد تستغرق هذه العملية عدة دقائق للإتمام ولا يمكن التراجع فيها."
+      "value": ". يرجى تأكيد قيامك باستكمال التفاصيل اللازمة واستعدادك لمتابعة الترحيل. قد تستغرق هذه العملية عدة دقائق للإتمام ولا يمكن التراجع فيها."
     }
   ],
   "ui-finance.ledger.rollover.encumbrances": [
     {
       "type": 0,
-      "value": "تمديد التكاليف"
+      "value": "ترحيل التكاليف"
     }
   ],
   "ui-finance.ledger.rollover.error.conflict": [
+    {
+      "type": 0,
+      "value": "تم بالفعل ترحيل "
+    },
     {
       "children": [
         {
@@ -66591,7 +66595,7 @@
     },
     {
       "type": 0,
-      "value": " was already rolled over from the fiscal year "
+      "value": " من السنة المالية "
     },
     {
       "children": [
@@ -66605,7 +66609,7 @@
     },
     {
       "type": 0,
-      "value": " to the fiscal year "
+      "value": " إلى السنة المالية "
     },
     {
       "children": [
@@ -66621,7 +66625,7 @@
   "ui-finance.ledger.rollover.errorExecute": [
     {
       "type": 0,
-      "value": "خطأ أثناء تنفيذ عملية التمديد"
+      "value": "خطأ أثناء تنفيذ عملية الترحيل"
     }
   ],
   "ui-finance.ledger.rollover.fundType": [
@@ -66651,7 +66655,7 @@
   "ui-finance.ledger.rollover.logs.export.failed": [
     {
       "type": 0,
-      "value": "فشل تصدير سجلات التمديد"
+      "value": "فشل تصدير سجلات الترحيل"
     }
   ],
   "ui-finance.ledger.rollover.logs.results": [
@@ -66663,13 +66667,13 @@
   "ui-finance.ledger.rollover.logs.results.export.start": [
     {
       "type": 0,
-      "value": "Export of budget results has been started"
+      "value": "تم البدء في تصدير نتائج الميزانية"
     }
   ],
   "ui-finance.ledger.rollover.logs.settings": [
     {
       "type": 0,
-      "value": "Settings"
+      "value": "الإعدادات"
     }
   ],
   "ui-finance.ledger.rollover.logs.source": [
@@ -66699,7 +66703,7 @@
   "ui-finance.ledger.rollover.orderType": [
     {
       "type": 0,
-      "value": "نوع الطلبية"
+      "value": "نوع أمر الشراء"
     }
   ],
   "ui-finance.ledger.rollover.orderType.onetime": [
@@ -66717,7 +66721,7 @@
   "ui-finance.ledger.rollover.orderType.ongoingSubscription": [
     {
       "type": 0,
-      "value": "نكاليف الاشتراك الجارية"
+      "value": "تكاليف الاشتراك الجارية"
     }
   ],
   "ui-finance.ledger.rollover.periodBeginDate": [
@@ -66735,13 +66739,13 @@
   "ui-finance.ledger.rollover.restrictEncumbrance": [
     {
       "type": 0,
-      "value": "فرض كل حدود أعباء الميزانية"
+      "value": "فرض كل حدود تكاليف الميزانية"
     }
   ],
   "ui-finance.ledger.rollover.restrictEncumbranceDuringRollover": [
     {
       "type": 0,
-      "value": "Enforce all budget encumbrance limits during rollover"
+      "value": "فرض كل حدود تكاليف الميزانية أثناء الترحيل"
     }
   ],
   "ui-finance.ledger.rollover.restrictExpenditures": [
@@ -66753,19 +66757,19 @@
   "ui-finance.ledger.rollover.restrictExpendituresDuringRollover": [
     {
       "type": 0,
-      "value": "Enforce all budget expenditure limits during rollover"
+      "value": "فرض كل حدود نفقات الميزانية أثناء الترحيل"
     }
   ],
   "ui-finance.ledger.rollover.rollover": [
     {
       "type": 0,
-      "value": "تمديد"
+      "value": "ترحيل"
     }
   ],
   "ui-finance.ledger.rollover.rolloverBudgetValue": [
     {
       "type": 0,
-      "value": "قيمة ميزانية التمديد"
+      "value": "قيمة ميزانية الترحيل"
     }
   ],
   "ui-finance.ledger.rollover.rolloverBudgetValue.available": [
@@ -66789,19 +66793,19 @@
   "ui-finance.ledger.rollover.rolloverTest": [
     {
       "type": 0,
-      "value": "اختبار التمديد"
+      "value": "اختبار الترحيل"
     }
   ],
   "ui-finance.ledger.rollover.rolloverValueAs": [
     {
       "type": 0,
-      "value": "تمديد القيمة كـ"
+      "value": "ترحيل القيمة كـ"
     }
   ],
   "ui-finance.ledger.rollover.saveBtn": [
     {
       "type": 0,
-      "value": "تمديد"
+      "value": "ترحيل"
     }
   ],
   "ui-finance.ledger.rollover.setAllowances": [
@@ -66837,13 +66841,13 @@
   "ui-finance.ledger.rollover.testBtn": [
     {
       "type": 0,
-      "value": "اختبار التمديد"
+      "value": "اختبار الترحيل"
     }
   ],
   "ui-finance.ledger.rollover.title": [
     {
       "type": 0,
-      "value": "تمديد "
+      "value": "ترحيل "
     },
     {
       "type": 1,
@@ -66853,13 +66857,13 @@
   "ui-finance.ledger.rolloverErrors": [
     {
       "type": 0,
-      "value": "سجل أخطاء التمديد"
+      "value": "سجل أخطاء الترحيل"
     }
   ],
   "ui-finance.ledger.rolloverErrorsLabel": [
     {
       "type": 0,
-      "value": "أخطاء التمديد"
+      "value": "أخطاء الترحيل"
     }
   ],
   "ui-finance.ledger.rolloverInProgress.close": [
@@ -66871,7 +66875,7 @@
   "ui-finance.ledger.rolloverInProgress.errorLoadingRolloverProgress": [
     {
       "type": 0,
-      "value": "خطأ في تحميل تقدم تمديد الدفتر"
+      "value": "خطأ في تحميل تقدم ترحيل الدفتر"
     }
   ],
   "ui-finance.ledger.rolloverInProgress.errorLoadingToFiscalYear": [
@@ -66889,7 +66893,7 @@
       "children": [
         {
           "type": 0,
-          "value": "التمديد"
+          "value": "الترحيل"
         }
       ],
       "type": 8,
@@ -66917,7 +66921,7 @@
   "ui-finance.ledger.rolloverInProgress.header": [
     {
       "type": 0,
-      "value": "تمديد "
+      "value": "ترحيل "
     },
     {
       "type": 1,
@@ -66935,19 +66939,19 @@
   "ui-finance.ledger.rolloverInProgress.rollingOver": [
     {
       "type": 0,
-      "value": "تمديد"
+      "value": "ترحيل"
     }
   ],
   "ui-finance.ledger.rolloverInProgress.rollingOverFinished": [
     {
       "type": 0,
-      "value": "اكتمل التمديد"
+      "value": "اكتمل الترحيل"
     }
   ],
   "ui-finance.ledger.rolloverInProgress.rollingOverFinished.withErrors": [
     {
       "type": 0,
-      "value": "Rollover has completed with errors, Budget close "
+      "value": "اكتمل الترحيل مع وجود أخطاء، إغلاق الميزانية "
     },
     {
       "type": 1,
@@ -66955,7 +66959,7 @@
     },
     {
       "type": 0,
-      "value": ", Order rollover "
+      "value": "، ترحيل أمر الشراء "
     },
     {
       "type": 1,
@@ -66963,7 +66967,7 @@
     },
     {
       "type": 0,
-      "value": ", Financial rollover "
+      "value": "، الترحيل المالي "
     },
     {
       "type": 1,
@@ -66977,13 +66981,13 @@
   "ui-finance.ledger.rolloverTest.confirm.heading": [
     {
       "type": 0,
-      "value": "اختيار تمديد السنة المالية"
+      "value": "اختبار ترحيل السنة المالية"
     }
   ],
   "ui-finance.ledger.rolloverTest.confirm.message": [
     {
       "type": 0,
-      "value": "Please confirm that you have completed the necessary details and are ready to proceed with your rollover TEST. This process may take several minutes to complete. A link to the results will be sent to "
+      "value": "يرجى التأكد من أنك قد أكملت التفاصيل اللازمة وجاهز لمتابعة اختبار الترحيل. قد تستغرق هذه العملية عدة دقائق حتى تكتمل. سيتم إرسال رابط للنتائج إلى "
     },
     {
       "children": [
@@ -66997,10 +67001,14 @@
     },
     {
       "type": 0,
-      "value": " when the process is complete."
+      "value": " عند اكتمال العملية."
     }
   ],
   "ui-finance.ledger.rolloverTest.start.success": [
+    {
+      "type": 0,
+      "value": "تم بدء اختبار ترحيل "
+    },
     {
       "children": [
         {
@@ -67013,7 +67021,7 @@
     },
     {
       "type": 0,
-      "value": " rollover test has started successfully"
+      "value": " بنجاح"
     }
   ],
   "ui-finance.ledger.search.code": [
@@ -67085,7 +67093,7 @@
   "ui-finance.permission.acq.unit.assignment.assign": [
     {
       "type": 0,
-      "value": "الشؤون المالية: عيّن وحدات التزويد إلى تسجيلة جديدة"
+      "value": "الشؤون المالية: تعيين وحدات التزويد إلى تسجيلة جديدة"
     }
   ],
   "ui-finance.permission.acq.unit.assignment.manage": [
@@ -67103,7 +67111,7 @@
   "ui-finance.permission.encumbrance.release-manually.execute": [
     {
       "type": 0,
-      "value": "Finance: Manually release encumbrance"
+      "value": "الشؤون المالية: إصدار التكاليف يدوياً"
     }
   ],
   "ui-finance.permission.encumbrance.unrelease": [
@@ -67145,7 +67153,7 @@
   "ui-finance.permission.fiscal-year.view": [
     {
       "type": 0,
-      "value": "الشؤون المالية: اعرض السنة المالية"
+      "value": "الشؤون المالية: عرض السنة المالية"
     }
   ],
   "ui-finance.permission.fund-budget.create": [
@@ -67235,7 +67243,7 @@
   "ui-finance.permission.ledger.rollover.execute": [
     {
       "type": 0,
-      "value": "Finance: Execute fiscal year rollover"
+      "value": "الشؤون المالية: استثناء ترحيل السنة المالية"
     }
   ],
   "ui-finance.permission.ledger.view": [
@@ -67418,7 +67426,7 @@
   "ui-finance.settings.expenseClasses.deleteEntry": [
     {
       "type": 0,
-      "value": "Delete expense class"
+      "value": "حذف فئة المصروفات"
     }
   ],
   "ui-finance.settings.expenseClasses.termDeleted": [
@@ -67526,7 +67534,7 @@
   "ui-finance.settings.fundTypes.deleteEntry": [
     {
       "type": 0,
-      "value": "Delete fund type"
+      "value": "حذف نوع التمويل"
     }
   ],
   "ui-finance.settings.fundTypes.termDeleted": [
@@ -67916,7 +67924,7 @@
   "ui-finance.transaction.confirmModal.negativeAvailableAmount.heading": [
     {
       "type": 0,
-      "value": "Negative available amount"
+      "value": "المبلغ المتاح السلبي"
     }
   ],
   "ui-finance.transaction.confirmModal.negativeAvailableAmount.message": [
@@ -68322,7 +68330,7 @@
   "ui-finance.transaction.type.Rollover transfer": [
     {
       "type": 0,
-      "value": "تمديد التحويل"
+      "value": "نقل الترحيل"
     }
   ],
   "ui-finance.transaction.type.Transfer": [
@@ -68334,7 +68342,7 @@
   "ui-finance.transaction.unreleaseEncumbrance.button": [
     {
       "type": 0,
-      "value": "إلغاء إصدار  التكاليف"
+      "value": "إلغاء إصدار التكاليف"
     }
   ],
   "ui-finance.transaction.unreleaseEncumbrance.error.genericError": [
@@ -68358,7 +68366,7 @@
   "ui-finance.transaction.unreleaseEncumbrance.success": [
     {
       "type": 0,
-      "value": "Encumbrance was unreleased"
+      "value": "تم إلغاء إصدار التكاليف"
     }
   ],
   "ui-finance.transaction.validation.totalAllocatedExceeded": [
