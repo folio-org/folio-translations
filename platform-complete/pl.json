@@ -12424,6 +12424,12 @@
       "value": "ISSN"
     }
   ],
+  "stripes-inventory-components.search.item.keyword": [
+    {
+      "type": 0,
+      "value": "Keyword (title, contributor, identifier, HRID, UUID, barcode)"
+    }
+  ],
   "stripes-inventory-components.search.itemAdministrativeNotes": [
     {
       "type": 0,
@@ -22137,7 +22143,7 @@
   "ui-bulk-edit.File uploading failed, reason: Cannot upload a file. Reason: file is empty.": [
     {
       "type": 0,
-      "value": "The uploaded file is empty."
+      "value": "Przesłany plik jest pusty."
     }
   ],
   "ui-bulk-edit.actionMenu.placeholder": [
@@ -22203,7 +22209,7 @@
   "ui-bulk-edit.ariaLabel.date": [
     {
       "type": 0,
-      "value": "Date"
+      "value": "Data"
     }
   ],
   "ui-bulk-edit.ariaLabel.loanTypeSelect": [
@@ -22221,13 +22227,13 @@
   "ui-bulk-edit.ariaLabel.patronGroupSelect": [
     {
       "type": 0,
-      "value": "Patron group select"
+      "value": "Wybierz grupę czytelników"
     }
   ],
   "ui-bulk-edit.ariaLabel.statisticalCode": [
     {
       "type": 0,
-      "value": "Statistical code select"
+      "value": "Wybór kodu statystycznego"
     }
   ],
   "ui-bulk-edit.ariaLabel.statusSelect": [
@@ -22431,13 +22437,13 @@
   "ui-bulk-edit.columns.HOLDINGS_RECORD.Holdings HRID": [
     {
       "type": 0,
-      "value": "Holdings HRID"
+      "value": "HRID zasobu"
     }
   ],
   "ui-bulk-edit.columns.HOLDINGS_RECORD.Holdings UUID": [
     {
       "type": 0,
-      "value": "Holdings UUID"
+      "value": "UUID zasobu"
     }
   ],
   "ui-bulk-edit.columns.HOLDINGS_RECORD.Holdings copy number": [
@@ -22473,7 +22479,7 @@
   "ui-bulk-edit.columns.HOLDINGS_RECORD.Holdings permanent location": [
     {
       "type": 0,
-      "value": "Holdings permanent location"
+      "value": "Stała lokalizacja zasobu"
     }
   ],
   "ui-bulk-edit.columns.HOLDINGS_RECORD.Holdings record id": [
@@ -22485,7 +22491,7 @@
   "ui-bulk-edit.columns.HOLDINGS_RECORD.Holdings statement": [
     {
       "type": 0,
-      "value": "Holdings statement"
+      "value": "Określenie zasobów"
     }
   ],
   "ui-bulk-edit.columns.HOLDINGS_RECORD.Holdings statement for indexes": [
@@ -22521,7 +22527,7 @@
   "ui-bulk-edit.columns.HOLDINGS_RECORD.Holdings temporary location": [
     {
       "type": 0,
-      "value": "Holdings temporary location"
+      "value": "Tymczasowa lokalizacja zasobu"
     }
   ],
   "ui-bulk-edit.columns.HOLDINGS_RECORD.Holdings type": [
@@ -22947,7 +22953,7 @@
   "ui-bulk-edit.columns.ITEM.Description of pieces": [
     {
       "type": 0,
-      "value": "Description of pieces"
+      "value": "Opis części"
     }
   ],
   "ui-bulk-edit.columns.ITEM.Discovery Suppress": [
@@ -22977,7 +22983,7 @@
   "ui-bulk-edit.columns.ITEM.Effective call number": [
     {
       "type": 0,
-      "value": "Effective call number"
+      "value": "Aktualna sygnatura"
     }
   ],
   "ui-bulk-edit.columns.ITEM.Electronic Access": [
@@ -22989,7 +22995,7 @@
   "ui-bulk-edit.columns.ITEM.Electronic access": [
     {
       "type": 0,
-      "value": "Electronic access"
+      "value": "Dostęp elektroniczny"
     }
   ],
   "ui-bulk-edit.columns.ITEM.Enumeration": [
@@ -23025,7 +23031,7 @@
   "ui-bulk-edit.columns.ITEM.Holdings UUID": [
     {
       "type": 0,
-      "value": "Holdings UUID"
+      "value": "UUID zasobu"
     }
   ],
   "ui-bulk-edit.columns.ITEM.In Transit Destination Service Point": [
@@ -23037,7 +23043,7 @@
   "ui-bulk-edit.columns.ITEM.Instance (Title, Publisher, Publication date)": [
     {
       "type": 0,
-      "value": "Instance (Title, Publisher, Publication date)"
+      "value": "Instancja (tytuł, wydawca, data wydania)"
     }
   ],
   "ui-bulk-edit.columns.ITEM.Is Bound With": [
@@ -23109,19 +23115,19 @@
   "ui-bulk-edit.columns.ITEM.Item damaged status": [
     {
       "type": 0,
-      "value": "Item damaged status"
+      "value": "Status uszkodzonego egzemplarza"
     }
   ],
   "ui-bulk-edit.columns.ITEM.Item damaged status date": [
     {
       "type": 0,
-      "value": "Item damaged status date"
+      "value": "Data statusu uszkodzenia egzemplarza"
     }
   ],
   "ui-bulk-edit.columns.ITEM.Item effective location": [
     {
       "type": 0,
-      "value": "Item effective location"
+      "value": "Aktualna lokalizacja egzemplarza"
     }
   ],
   "ui-bulk-edit.columns.ITEM.Item id": [
@@ -23133,7 +23139,7 @@
   "ui-bulk-edit.columns.ITEM.Item identifier": [
     {
       "type": 0,
-      "value": "Item identifier"
+      "value": "Identyfikator egzemplarza"
     }
   ],
   "ui-bulk-edit.columns.ITEM.Item level call number": [
@@ -23169,7 +23175,7 @@
   "ui-bulk-edit.columns.ITEM.Item temporary location": [
     {
       "type": 0,
-      "value": "Item temporary location"
+      "value": "Tymczasowa lokalizacja egzemplarza"
     }
   ],
   "ui-bulk-edit.columns.ITEM.Last CheckIn": [
@@ -23217,7 +23223,7 @@
   "ui-bulk-edit.columns.ITEM.Missing pieces": [
     {
       "type": 0,
-      "value": "Missing pieces"
+      "value": "Brakujące części"
     }
   ],
   "ui-bulk-edit.columns.ITEM.Missing pieces date": [
@@ -23247,13 +23253,13 @@
   "ui-bulk-edit.columns.ITEM.Number of missing pieces": [
     {
       "type": 0,
-      "value": "Number of missing pieces"
+      "value": "Liczba brakujących części"
     }
   ],
   "ui-bulk-edit.columns.ITEM.Number of pieces": [
     {
       "type": 0,
-      "value": "Number of pieces"
+      "value": "Liczba części"
     }
   ],
   "ui-bulk-edit.columns.ITEM.Permanent Loan Type": [
@@ -23295,7 +23301,7 @@
   "ui-bulk-edit.columns.ITEM.Statistical codes": [
     {
       "type": 0,
-      "value": "Statistical codes"
+      "value": "Kody statystyczne"
     }
   ],
   "ui-bulk-edit.columns.ITEM.Status": [
@@ -23451,7 +23457,7 @@
   "ui-bulk-edit.columns.USER.Link to the profile picture": [
     {
       "type": 0,
-      "value": "Link to the profile picture"
+      "value": "Link do zdjęcia profilowego"
     }
   ],
   "ui-bulk-edit.columns.USER.Middle name": [
@@ -24188,7 +24194,7 @@
   "ui-bulk-edit.layer.options.items.addNote": [
     {
       "type": 0,
-      "value": "Add note"
+      "value": "Dodaj uwagę"
     }
   ],
   "ui-bulk-edit.layer.options.items.changeNote": [
@@ -24224,7 +24230,7 @@
   "ui-bulk-edit.layer.options.items.removeMarkAsStaffOnly": [
     {
       "type": 0,
-      "value": "Remove mark as staff only"
+      "value": "Usuń oznaczenie tylko dla personelu"
     }
   ],
   "ui-bulk-edit.layer.options.items.removeNote": [
@@ -25243,7 +25249,7 @@
   "ui-bulk-edit.list.result.emptyMessage.logs": [
     {
       "type": 0,
-      "value": "Choose a filter to show results."
+      "value": "Wybierz filtr, aby wyświetlić wyniki."
     }
   ],
   "ui-bulk-edit.list.result.emptyMessage.query": [
@@ -25477,7 +25483,7 @@
   "ui-bulk-edit.logs.filter.title.types": [
     {
       "type": 0,
-      "value": "Bulk operation type"
+      "value": "Typ operacji masowej"
     }
   ],
   "ui-bulk-edit.logs.filter.title.user": [
@@ -25609,7 +25615,7 @@
   "ui-bulk-edit.menuGroup.startEdit": [
     {
       "type": 0,
-      "value": "Start bulk edit"
+      "value": "Rozpocznij edycję masową"
     }
   ],
   "ui-bulk-edit.meta.logs.title": [
@@ -26262,7 +26268,7 @@
   "ui-bulk-edit.title.query": [
     {
       "type": 0,
-      "value": "Query"
+      "value": "Zapytanie"
     }
   ],
   "ui-bulk-edit.type.placeholder": [
@@ -59505,6 +59511,12 @@
     {
       "type": 0,
       "value": "Custom coverage"
+    }
+  ],
+  "ui-eholdings.titlesList.hidden": [
+    {
+      "type": 0,
+      "value": "Title is set to hide"
     }
   ],
   "ui-eholdings.titlesList.managedCoverage": [
