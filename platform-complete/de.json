@@ -10940,13 +10940,13 @@
   "stripes-erm-components.documentFilter.has": [
     {
       "type": 0,
-      "value": "Has"
+      "value": "Hat"
     }
   ],
   "stripes-erm-components.documentFilter.hasNot": [
     {
       "type": 0,
-      "value": "Has not"
+      "value": "Hat nicht"
     }
   ],
   "stripes-erm-components.documentFilter.removeRule": [
@@ -11875,6 +11875,12 @@
     {
       "type": 0,
       "value": "Alle auswählen / Auswahl aufheben"
+    }
+  ],
+  "stripes-erm-components.showTags": [
+    {
+      "type": 0,
+      "value": "Show tags"
     }
   ],
   "stripes-erm-components.supplementaryProperty.help.label": [
@@ -32060,7 +32066,7 @@
   "ui-circulation.permission.settings.lost-item-fees-policies": [
     {
       "type": 0,
-      "value": "Einstellungen (Ausleihe): Kann Gebührenrichtlinien für Ersatz erstellen, bearbeiten und entfernen"
+      "value": "Einstellungen (Ausleihe): Kann Richtlinien für Ersatzgebühr erstellen, bearbeiten und entfernen"
     }
   ],
   "ui-circulation.permission.settings.notice-policies": [
@@ -32084,7 +32090,7 @@
   "ui-circulation.permission.settings.overdue-fines-policies": [
     {
       "type": 0,
-      "value": "Einstellungen (Ausleihe): Kann Gebührenrichtlinien für überfällige Exemplare erstellen, bearbeiten und entfernen"
+      "value": "Einstellungen (Ausleihe): Kann Säumnisgebühren-Richtlinien erstellen, bearbeiten und entfernen"
     }
   ],
   "ui-circulation.permission.settings.request-policies": [
@@ -32144,7 +32150,7 @@
   "ui-circulation.permission.settings.view-lost-item-fees-policies": [
     {
       "type": 0,
-      "value": "Einstellungen (Ausleihe): Kann Gebührenrichtlinien für Ersatz anzeigen"
+      "value": "Einstellungen (Ausleihe): Kann Richtlinien für Ersatzgebühr anzeigen"
     }
   ],
   "ui-circulation.permission.settings.view-notice-policies": [
@@ -32168,7 +32174,7 @@
   "ui-circulation.permission.settings.view-overdue-fines-policies": [
     {
       "type": 0,
-      "value": "Einstellungen (Ausleihe): Kann Gebührenrichtlinien für überfällige Exemplare anzeigen"
+      "value": "Einstellungen (Ausleihe): Kann Säumnisgebühren-Richtlinien für überfällige Exemplare anzeigen"
     }
   ],
   "ui-circulation.permission.settings.view-request-policies": [
@@ -32216,13 +32222,13 @@
   "ui-circulation.settings.ViewPrintDetails.enable": [
     {
       "type": 0,
-      "value": "Aktivieren der Druckdetails Anzeige (Entnahmezettel)"
+      "value": "Anzeige der Druckdetails aktivieren (Bestellzettel)"
     }
   ],
   "ui-circulation.settings.ViewPrintDetails.warningPopup.heading": [
     {
       "type": 0,
-      "value": "Deaktivieren der Druckdetails Anzeige (Entnahmezettel)"
+      "value": "Anzeige der Druckdetails deaktivieren (Bestellzettel)"
     }
   ],
   "ui-circulation.settings.ViewPrintDetails.warningPopup.message": [
@@ -32598,7 +32604,7 @@
   "ui-circulation.settings.circulationRules.lostItemFeePolicies": [
     {
       "type": 0,
-      "value": "Gebührenrichtlinien für Ersatz"
+      "value": "Richtlinien für Ersatzgebühr"
     }
   ],
   "ui-circulation.settings.circulationRules.materialTypes": [
@@ -32628,19 +32634,19 @@
   "ui-circulation.settings.circulationRules.overdueFine.period": [
     {
       "type": 0,
-      "value": "Frist Säumnisgebühr für überfälliges Exemplar"
+      "value": "Frist Säumnisgebühr"
     }
   ],
   "ui-circulation.settings.circulationRules.overdueFine.quantity": [
     {
       "type": 0,
-      "value": "Menge Säumnisgebühr für überfälliges Exemplar"
+      "value": "Menge Säumnisgebühr"
     }
   ],
   "ui-circulation.settings.circulationRules.overdueFinePolicies": [
     {
       "type": 0,
-      "value": "Gebührenrichtlinien für überfällige Exemplare"
+      "value": "Säumnisgebühren-Richtlinien"
     }
   ],
   "ui-circulation.settings.circulationRules.paneTitle": [
@@ -33094,7 +33100,7 @@
   "ui-circulation.settings.finePolicy.createEntryLabel": [
     {
       "type": 0,
-      "value": "Neue Gebührenrichtlinie für überfällige Exemplare"
+      "value": "Neue Säumnisgebühren-Richtlinie"
     }
   ],
   "ui-circulation.settings.finePolicy.day": [
@@ -33106,7 +33112,7 @@
   "ui-circulation.settings.finePolicy.deletefinePolicy": [
     {
       "type": 0,
-      "value": "Gebührenrichtlinie für überfällige Exemplare löschen"
+      "value": "Säumnisgebühren-Richtlinie löschen"
     }
   ],
   "ui-circulation.settings.finePolicy.description": [
@@ -33124,13 +33130,13 @@
   "ui-circulation.settings.finePolicy.entryLabel": [
     {
       "type": 0,
-      "value": "Gebührenrichtlinien für überfällige Exemplare"
+      "value": "Säumnisgebühr-Richtlinien"
     }
   ],
   "ui-circulation.settings.finePolicy.forgiveOverdueFine": [
     {
       "type": 0,
-      "value": "Erlass der Säumnisgebühr für überfälliges Exemplar, wenn Exemplar verlängert wurde"
+      "value": "Erlass der Säumnisgebühr, wenn Exemplar verlängert wurde"
     }
   ],
   "ui-circulation.settings.finePolicy.generalInformation": [
@@ -33160,13 +33166,13 @@
   "ui-circulation.settings.finePolicy.maximumOverdueFine": [
     {
       "type": 0,
-      "value": "Maximale Säumnisgebühr für überfälliges Exemplar"
+      "value": "Maximale Säumnisgebühr"
     }
   ],
   "ui-circulation.settings.finePolicy.maximumRecallOverdueFine": [
     {
       "type": 0,
-      "value": "Maximale Säumnisgebühr für überfälliges Exemplar bei Rückruf"
+      "value": "Maximale Säumnisgebühr bei Rückruf"
     }
   ],
   "ui-circulation.settings.finePolicy.minute": [
@@ -33184,7 +33190,7 @@
   "ui-circulation.settings.finePolicy.newOverdueFinePolicy": [
     {
       "type": 0,
-      "value": "Neue Gebührenrichtlinie für überfällige Exemplare"
+      "value": "Neue Säumnisgebühren-Richtlinie"
     }
   ],
   "ui-circulation.settings.finePolicy.no": [
@@ -33196,25 +33202,25 @@
   "ui-circulation.settings.finePolicy.overdueFine": [
     {
       "type": 0,
-      "value": "Säumnisgebühr für überfälliges Exemplar"
+      "value": "Säumnisgebühr"
     }
   ],
   "ui-circulation.settings.finePolicy.overdueFinePolicyName": [
     {
       "type": 0,
-      "value": "Name Gebührenrichtlinie für überfällige Exemplare"
+      "value": "Name Säumnisgebühr-Richtlinie"
     }
   ],
   "ui-circulation.settings.finePolicy.overdueFineTitle": [
     {
       "type": 0,
-      "value": "Säumnisgebühr für überfällige Exemplare"
+      "value": "Säumnisgebühr"
     }
   ],
   "ui-circulation.settings.finePolicy.overdueFines": [
     {
       "type": 0,
-      "value": "Säumnisgebühren für überfällige Exemplare"
+      "value": "Säumnisgebühren"
     }
   ],
   "ui-circulation.settings.finePolicy.overdueRecallFine": [
@@ -33226,7 +33232,7 @@
   "ui-circulation.settings.finePolicy.paneTitle": [
     {
       "type": 0,
-      "value": "Gebührenrichtlinien für überfällige Exemplare"
+      "value": "Säumnisgebühr-Richtlinien"
     }
   ],
   "ui-circulation.settings.finePolicy.per": [
@@ -33258,7 +33264,7 @@
   "ui-circulation.settings.finePolicy.quantity": [
     {
       "type": 0,
-      "value": "Menge Säumnisgebühr für überfälliges Exemplar"
+      "value": "Menge Säumnisgebühr"
     }
   ],
   "ui-circulation.settings.finePolicy.reminderFees.actions": [
@@ -33438,7 +33444,7 @@
   "ui-circulation.settings.finePolicy.select": [
     {
       "type": 0,
-      "value": "Säumnisgebühr für überfälliges Exemplar auswählen"
+      "value": "Säumnisgebühr auswählen"
     }
   ],
   "ui-circulation.settings.finePolicy.selectInterval": [
@@ -33450,7 +33456,7 @@
   "ui-circulation.settings.finePolicy.validate.hasOverdueFineInterval": [
     {
       "type": 0,
-      "value": "Säumnisgebühr für überfälliges Exemplar muss größer 0 sein, wenn ein Intervall ausgewählt wurde"
+      "value": "Säumnisgebühr muss größer 0 sein, wenn ein Intervall ausgewählt wurde"
     }
   ],
   "ui-circulation.settings.finePolicy.validate.hasOverdueRecallFineInterval": [
@@ -33462,7 +33468,7 @@
   "ui-circulation.settings.finePolicy.validate.invalidMaximumOverdueFine": [
     {
       "type": 0,
-      "value": "Bitte einen Betrag für Säumnisgebühr für überfälliges Exemplar eingeben oder maximale Säumnisgebühr für überfälliges Exemplar auf 0 setzen"
+      "value": "Bitte einen Betrag für Säumnisgebühr eingeben oder maximale Säumnisgebühr auf 0 setzen"
     }
   ],
   "ui-circulation.settings.finePolicy.validate.invalidMaximumRecallOverdueFine": [
@@ -33474,7 +33480,7 @@
   "ui-circulation.settings.finePolicy.validate.maximumOverdueFine": [
     {
       "type": 0,
-      "value": "Maximale Säumnisgebühr für überfälliges Exemplar muss größer oder gleich der Säumnisgebühr für überfälliges Exemplar sein"
+      "value": "Maximale Säumnisgebühr muss größer oder gleich der Säumnisgebühr sein"
     }
   ],
   "ui-circulation.settings.finePolicy.validate.maximumRecallOverdueFine": [
@@ -34160,13 +34166,13 @@
   "ui-circulation.settings.lostItemFee.chargeAmountItemPatron": [
     {
       "type": 0,
-      "value": "Bearbeitungsgebühr Verlust erheben, wenn Exemplar vom Benutzer/-in als verloren gemeldet wurde"
+      "value": "Ersatzgebühr erheben, wenn Exemplar vom Benutzer/-in als verloren gemeldet wurde"
     }
   ],
   "ui-circulation.settings.lostItemFee.chargeAmountItemSystem": [
     {
       "type": 0,
-      "value": "Bearbeitungsgebühr Verlust erheben, wenn Exemplar vom System automatisch für verloren erklärt wurde"
+      "value": "Ersatzgebühr erheben, wenn Exemplar vom System automatisch für verloren erklärt wurde"
     }
   ],
   "ui-circulation.settings.lostItemFee.days": [
@@ -34178,7 +34184,7 @@
   "ui-circulation.settings.lostItemFee.deleteFeePolicy": [
     {
       "type": 0,
-      "value": "Gebührenrichtlinie für Ersatz löschen"
+      "value": "Richtlinie für Ersatzgebühr löschen"
     }
   ],
   "ui-circulation.settings.lostItemFee.description": [
@@ -34200,7 +34206,7 @@
   "ui-circulation.settings.lostItemFee.entryLabel": [
     {
       "type": 0,
-      "value": "Neue Gebührenrichtlinie für Ersatz"
+      "value": "Neue Richtlinie für Ersatzgebühr"
     }
   ],
   "ui-circulation.settings.lostItemFee.feesFinesShallRefunded": [
@@ -34248,7 +34254,7 @@
   "ui-circulation.settings.lostItemFee.lostItemFeePolicyName": [
     {
       "type": 0,
-      "value": "Name der Gebührenrichtlinie für Ersatz"
+      "value": "Name der Richtlinie für Ersatzgebühr"
     }
   ],
   "ui-circulation.settings.lostItemFee.lostItemNotChargeFeesFine": [
@@ -34260,7 +34266,7 @@
   "ui-circulation.settings.lostItemFee.lostItemProcessingFee": [
     {
       "type": 0,
-      "value": "Bearbeitungsgebühr Verlust"
+      "value": "Ersatzgebühr"
     }
   ],
   "ui-circulation.settings.lostItemFee.lostItemRemoveOverdueFines": [
@@ -34316,7 +34322,7 @@
   "ui-circulation.settings.lostItemFee.paneTitle": [
     {
       "type": 0,
-      "value": "Gebührenrichtlinien für Ersatz"
+      "value": "Richtlinien für Ersatzgebühr"
     }
   ],
   "ui-circulation.settings.lostItemFee.patronBilledAfterAgedLost": [
@@ -34334,7 +34340,7 @@
   "ui-circulation.settings.lostItemFee.replacedLostItemProcessingFee": [
     {
       "type": 0,
-      "value": "Wenn verlorenes Exemplar ersetzt wurde, Bearbeitungsgebühr Verlust entfernen?"
+      "value": "Wenn verlorenes Exemplar ersetzt wurde, Ersatzgebühr entfernen?"
     }
   ],
   "ui-circulation.settings.lostItemFee.replacementAllowed": [
@@ -34358,7 +34364,7 @@
   "ui-circulation.settings.lostItemFee.returnedLostItemProcessingFee": [
     {
       "type": 0,
-      "value": "Wenn verlorenes Exemplar zurückgegeben oder verlängert wird, Bearbeitungsgebühr Verlust entfernen?"
+      "value": "Wenn verlorenes Exemplar zurückgegeben oder verlängert wird, Ersatzgebühr entfernen?"
     }
   ],
   "ui-circulation.settings.lostItemFee.selectInterval": [
@@ -34376,7 +34382,7 @@
   "ui-circulation.settings.lostItemFee.validate.chargeAmountItemSystemSelected": [
     {
       "type": 0,
-      "value": "Eingabe erforderlich, wenn 'Bearbeitungsgebühr Verlust erheben, wenn Exemplar vom System automatisch für verloren erklärt wurde' ausgewählt wurde"
+      "value": "Eingabe erforderlich, wenn 'Ersatzgebühr' erheben, wenn Exemplar vom System automatisch für verloren erklärt wurde' ausgewählt wurde"
     }
   ],
   "ui-circulation.settings.lostItemFee.validate.emptyAmount": [
@@ -34388,13 +34394,13 @@
   "ui-circulation.settings.lostItemFee.validate.hasLostItemProcessingFeeValue": [
     {
       "type": 0,
-      "value": "'Bearbeitungsgebühr Verlust' muss für diese Auswahl > 0 sein"
+      "value": "'Ersatzgebühr' muss für diese Auswahl > 0 sein"
     }
   ],
   "ui-circulation.settings.lostItemFee.validate.hasNoChargeLostItemProcessingFee": [
     {
       "type": 0,
-      "value": "'Bearbeitungsgebühr Verlust' kann nur dann > 0 sein, wenn 'Bearbeitungsgebühr Verlust erheben, wenn Exemplar vom Benutzer/-in als verloren gemeldet wurde' und/oder 'Bearbeitungsgebühr Verlust erheben, wenn Exemplar vom System automatisch für verloren erklärt wurde' mit 'Ja' eingestellt wurde."
+      "value": "'Ersatzgebühr' kann nur dann > 0 sein, wenn 'Ersatzgebühr' erheben, wenn Exemplar vom Benutzer/-in als verloren gemeldet wurde' und/oder 'Ersatzgebühr' erheben, wenn Exemplar vom System automatisch für verloren erklärt wurde' mit 'Ja' eingestellt wurde."
     }
   ],
   "ui-circulation.settings.lostItemFee.validate.hasPatronBilledAfterAgedToLostValue": [
@@ -34412,13 +34418,13 @@
   "ui-circulation.settings.lostItemFee.validate.hasPositiveItemsAgedToLostAfterOverdueAmount": [
     {
       "type": 0,
-      "value": "'Kosten festlegen' muss > 0 oder 'Bearbeitungsgebühr Verlust erheben, wenn Exemplar vom System automatisch für verloren erklärt wurde' muss 'Ja' sein, wenn 'Exemplare werden automatisch für verloren erklärt nach Überfälligkeitszeitraum' ist > 0 oder 'Zurückgerufene Exemplare, die automatisch für verloren erklärt wurden nach Überfälligkeitszeitraum' ist > 0"
+      "value": "'Kosten festlegen' muss > 0 oder 'Ersatzgebühr erheben, wenn Exemplar vom System automatisch für verloren erklärt wurde' muss 'Ja' sein, wenn 'Exemplare werden automatisch für verloren erklärt nach Überfälligkeitszeitraum' ist > 0 oder 'Zurückgerufene Exemplare, die automatisch für verloren erklärt wurden nach Überfälligkeitszeitraum' ist > 0"
     }
   ],
   "ui-circulation.settings.lostItemFee.validate.hasPositiveLostItemProcessingFeeAndItemsAgedToLostAfterOverdue": [
     {
       "type": 0,
-      "value": "'Bearbeitungsgebühr Verlust' muss > 0 und 'Exemplare werden automatisch für verloren erklärt nach Überfälligkeitszeitraum' Betrag muss > 0 sein für diese Auswahl"
+      "value": "'Ersatzgebühr' muss > 0 und 'Exemplare werden automatisch für verloren erklärt nach Überfälligkeitszeitraum' Betrag muss > 0 sein für diese Auswahl"
     }
   ],
   "ui-circulation.settings.lostItemFee.validate.hasPositiveLostItemProcessingFeeValue": [
@@ -34442,7 +34448,7 @@
   "ui-circulation.settings.lostItemFee.validate.hasReplacementAllowedAndPositiveLostItemPolicyFee": [
     {
       "type": 0,
-      "value": "'Bearbeitungsgebühr Verlust' muss > 0 sein und 'Ersetzen erlaubt' muss für diese Auswahl 'Ja' sein"
+      "value": "'Ersatzgebühr' muss > 0 sein und 'Ersetzen erlaubt' muss für diese Auswahl 'Ja' sein"
     }
   ],
   "ui-circulation.settings.lostItemFee.weeks": [
@@ -34466,7 +34472,7 @@
   "ui-circulation.settings.lostItemPolicy.denyDelete.header": [
     {
       "type": 0,
-      "value": "Gebührenrichtlinie für Ersatz kann nicht gelöscht werden."
+      "value": "Gebührenrichtlinie für Ersatzgebühr kann nicht gelöscht werden."
     }
   ],
   "ui-circulation.settings.noticePolicy.active": [
@@ -34536,7 +34542,7 @@
   "ui-circulation.settings.noticePolicy.feeFineNotices.atl.fineCharged": [
     {
       "type": 0,
-      "value": "Forderung(en) für Ersatz (belastet)"
+      "value": "Ersatzgebühr(en) erhoben"
     }
   ],
   "ui-circulation.settings.noticePolicy.feeFineNotices.atl.itemReturned": [
@@ -34548,25 +34554,25 @@
   "ui-circulation.settings.noticePolicy.feeFineNotices.realTime.longTerm": [
     {
       "type": 0,
-      "value": "Wird über Nacht versendet mit mehreren Gebühren für Ersatz pro Benutzenden"
+      "value": "Wird über Nacht mit mehreren Ersatzgebühren pro Benutzenden versendet."
     }
   ],
   "ui-circulation.settings.noticePolicy.feeFineNotices.realTime.shortTerm": [
     {
       "type": 0,
-      "value": "Wird über den ganzen Tag verteilt versendet mit einem Gebührvorgang für Ersatz pro Benachrichtigung."
+      "value": "Wird tagsüber mit einer Ersatzgebühr pro Benachrichtigung gesendet."
     }
   ],
   "ui-circulation.settings.noticePolicy.feeFineNotices.renewed": [
     {
       "type": 0,
-      "value": "Forderungen für verlängerte überfällige Exemplare"
+      "value": "Säumnisgebühr, verlängert"
     }
   ],
   "ui-circulation.settings.noticePolicy.feeFineNotices.returned": [
     {
       "type": 0,
-      "value": "Forderungen für zurückgegebene überfällige Exemplare"
+      "value": "Säumnisgebühren, zurückgegeben"
     }
   ],
   "ui-circulation.settings.noticePolicy.generalInformation": [
@@ -34812,7 +34818,7 @@
   "ui-circulation.settings.overdueFinePolicy.denyDelete.header": [
     {
       "type": 0,
-      "value": "Gebührenrichtlinie für überfällige Exemplare kann nicht gelöscht werden."
+      "value": "Richtlinie für Säumnisgebühren kann nicht gelöscht werden"
     }
   ],
   "ui-circulation.settings.patronNotices.addToken": [
@@ -35547,13 +35553,17 @@
   ],
   "ui-circulation.settings.title.lostItemFeePolicies": [
     {
+      "type": 0,
+      "value": "Ersatzgebühr-"
+    },
+    {
       "offset": 0,
       "options": {
         "one": {
           "value": [
             {
               "type": 0,
-              "value": "Gebührenrichtlinie"
+              "value": "Richtlinie"
             }
           ]
         },
@@ -35561,7 +35571,7 @@
           "value": [
             {
               "type": 0,
-              "value": "Gebührenrichtlinien"
+              "value": "Richtlinien"
             }
           ]
         }
@@ -35569,10 +35579,6 @@
       "pluralType": "cardinal",
       "type": 6,
       "value": "optionNumber"
-    },
-    {
-      "type": 0,
-      "value": " für Ersatz"
     }
   ],
   "ui-circulation.settings.title.newRecord": [
@@ -35593,13 +35599,17 @@
   ],
   "ui-circulation.settings.title.overdueFinePolicies": [
     {
+      "type": 0,
+      "value": "Säumnisgebühren "
+    },
+    {
       "offset": 0,
       "options": {
         "one": {
           "value": [
             {
               "type": 0,
-              "value": "Gebührenrichtlinie"
+              "value": "Richtlinie"
             }
           ]
         },
@@ -35607,7 +35617,7 @@
           "value": [
             {
               "type": 0,
-              "value": "Gebührenrichtlinien"
+              "value": "Richtlinien"
             }
           ]
         }
@@ -35615,10 +35625,6 @@
       "pluralType": "cardinal",
       "type": 6,
       "value": "optionNumber"
-    },
-    {
-      "type": 0,
-      "value": " für überfällige Exemplare"
     }
   ],
   "ui-circulation.settings.title.patronNoticePolicies": [
@@ -39520,7 +39526,7 @@
   "ui-courses.accordion.reserves.help": [
     {
       "type": 0,
-      "value": "Für diesen Kurs reservierte Exemplare"
+      "value": "Exemplare, mit dem dieser Kurs verknüpft ist"
     }
   ],
   "ui-courses.accordion.term": [
@@ -39550,7 +39556,7 @@
   "ui-courses.addFastAddItem.tooltip": [
     {
       "type": 0,
-      "value": "Neuer Katalogdatensatz durch Kurztitelaufnahme erstellen und als Reservierung zu diesem Kurs hinzufügen"
+      "value": "Neuer Katalogdatensatz durch Kurztitelaufnahme erstellen und zu diesem Kurs hinzufügen"
     }
   ],
   "ui-courses.addInstructor": [
@@ -39562,7 +39568,7 @@
   "ui-courses.addItem": [
     {
       "type": 0,
-      "value": "Exemplar zu diesem Kurs reservieren"
+      "value": "Exemplar zu diesem Kurs hinzufügen"
     }
   ],
   "ui-courses.addItem.addedItem": [
@@ -39590,7 +39596,7 @@
     },
     {
       "type": 0,
-      "value": " duplizieren: Dieses Exemplar ist bereits für diesen Kurs reserviert"
+      "value": " duplizieren: Dieses Exemplar ist bereits diesem Kurs hinzugefügt"
     }
   ],
   "ui-courses.addItem.enterBarcode": [
@@ -39602,7 +39608,7 @@
   "ui-courses.addItem.existing": [
     {
       "type": 0,
-      "value": "Vorhandene Exemplare als Reservierung hinzufügen"
+      "value": "Vorhandenes Exemplar hinzufügen"
     }
   ],
   "ui-courses.addItem.failure": [
@@ -39632,7 +39638,7 @@
   "ui-courses.addItem.new": [
     {
       "type": 0,
-      "value": "Neuer Exemplardatensatz erstellen und als Reservierung hinzufügen"
+      "value": "Neuen Exemplardatensatz erstellen und hinzufügen"
     }
   ],
   "ui-courses.appMenu.coursesAppSearch": [
@@ -39704,7 +39710,7 @@
   "ui-courses.button.editReserve": [
     {
       "type": 0,
-      "value": "Reservierung bearbeiten"
+      "value": "Bearbeiten"
     }
   ],
   "ui-courses.button.removeReserve": [
@@ -39728,7 +39734,7 @@
   "ui-courses.closeEditReserve": [
     {
       "type": 0,
-      "value": "Bearbeitung der Reservierung schließen"
+      "value": "Bearbeitung schließen"
     }
   ],
   "ui-courses.column.barcode": [
@@ -40064,7 +40070,7 @@
   "ui-courses.editReserve": [
     {
       "type": 0,
-      "value": "Reservierung bearbeiten"
+      "value": "Bearbeiten"
     }
   ],
   "ui-courses.errors.mustBeInteger": [
@@ -40250,7 +40256,7 @@
   "ui-courses.field.temporaryLoanType": [
     {
       "type": 0,
-      "value": "temporärer Ausleihtyp"
+      "value": "Temporärer Ausleihtyp"
     }
   ],
   "ui-courses.field.temporaryLocation": [
@@ -40340,7 +40346,7 @@
   "ui-courses.filters.reserves": [
     {
       "type": 0,
-      "value": "Reservierte Exemplare"
+      "value": "Exemplare"
     }
   ],
   "ui-courses.filters.status": [
@@ -40394,7 +40400,7 @@
   "ui-courses.headings.reserveCourses": [
     {
       "type": 0,
-      "value": "Kurse, für die dieses Exemplar reserviert ist"
+      "value": "Kurse, mit dem dieses Exemplar verknüpft ist"
     }
   ],
   "ui-courses.headings.startDate": [
@@ -40614,7 +40620,7 @@
   "ui-courses.permission.add-edit-items": [
     {
       "type": 0,
-      "value": "Semesterapparate: reservierte Exemplare hinzufügen und bearbeiten"
+      "value": "Semesterapparate: Exemplare hinzufügen und bearbeiten"
     }
   ],
   "ui-courses.permission.all": [
@@ -40632,7 +40638,7 @@
   "ui-courses.permission.maintain-items": [
     {
       "type": 0,
-      "value": "Semesterapparate: reservierte Exemplare hinzufügen, bearbeiten und entfernen"
+      "value": "Semesterapparate: Exemplare hinzufügen, bearbeiten und entfernen"
     }
   ],
   "ui-courses.permission.maintain-settings": [
@@ -40684,13 +40690,13 @@
   "ui-courses.removeReserve": [
     {
       "type": 0,
-      "value": "Reservierung entfernen"
+      "value": "Entfernen"
     }
   ],
   "ui-courses.removeReserve.failure": [
     {
       "type": 0,
-      "value": "Reservierung entfernen ist fehlgeschlagen: "
+      "value": "Entfernen ist fehlgeschlagen: "
     },
     {
       "type": 1,
@@ -63822,7 +63828,7 @@
   "ui-export-manager.exportJob.download": [
     {
       "type": 0,
-      "value": "Download"
+      "value": "Herunterladen"
     }
   ],
   "ui-export-manager.exportJob.endTime": [
@@ -63864,7 +63870,7 @@
   "ui-export-manager.exportJob.integrationType.ordering": [
     {
       "type": 0,
-      "value": "Orders"
+      "value": "Bestellungen"
     }
   ],
   "ui-export-manager.exportJob.jobId": [
@@ -63996,13 +64002,13 @@
   "ui-export-manager.exportJob.type.ORDERS_CSV": [
     {
       "type": 0,
-      "value": "Orders (CSV)"
+      "value": "Bestellungen (CSV)"
     }
   ],
   "ui-export-manager.exportJob.type.ORDERS_EDI": [
     {
       "type": 0,
-      "value": "Orders (EDI)"
+      "value": "Bestellungen (EDI)"
     }
   ],
   "ui-export-manager.exportJobs": [
@@ -64056,19 +64062,19 @@
   "ui-export-manager.permission.jobs.downloadAndResend.execute": [
     {
       "type": 0,
-      "value": "Export manager: Download and resend files"
+      "value": "Exportmanager: Herunterladen und erneutes Versenden der Dateien"
     }
   ],
   "ui-export-manager.title.all": [
     {
       "type": 0,
-      "value": "All"
+      "value": "Alles"
     }
   ],
   "ui-export-manager.title.organizations": [
     {
       "type": 0,
-      "value": "Organizations"
+      "value": "Organisationen"
     }
   ],
   "ui-finance.actions.allocations.batch": [
@@ -80179,7 +80185,7 @@
   "ui-inventory.temporaryLocation": [
     {
       "type": 0,
-      "value": "Vorläufiger Standort"
+      "value": "Temporärer Standort"
     }
   ],
   "ui-inventory.title": [

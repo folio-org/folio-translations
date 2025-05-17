@@ -10924,13 +10924,13 @@
   "stripes-erm-components.documentFilter.has": [
     {
       "type": 0,
-      "value": "Has"
+      "value": "Má"
     }
   ],
   "stripes-erm-components.documentFilter.hasNot": [
     {
       "type": 0,
-      "value": "Has not"
+      "value": "Nemá"
     }
   ],
   "stripes-erm-components.documentFilter.removeRule": [
@@ -11835,6 +11835,12 @@
     {
       "type": 0,
       "value": "Vybrat vše / zrušit výběr všech"
+    }
+  ],
+  "stripes-erm-components.showTags": [
+    {
+      "type": 0,
+      "value": "Show tags"
     }
   ],
   "stripes-erm-components.supplementaryProperty.help.label": [
@@ -31988,7 +31994,7 @@
   "ui-circulation.permission.settings.titleLevelRequests": [
     {
       "type": 0,
-      "value": "Nastavení (Cirkulace): Úprava požadavku na úrovni názvu"
+      "value": "Nastavení (Cirkulace): Úprava žádanky/rezervace na titul"
     }
   ],
   "ui-circulation.permission.settings.view-cancellation-reasons": [
@@ -32066,7 +32072,7 @@
   "ui-circulation.permission.settings.view-titleLevelRequests": [
     {
       "type": 0,
-      "value": "Nastavení (Cirkulace): Zobrazení požadavku na úrovni názvu"
+      "value": "Nastavení (Cirkulace): Zobrazení žádanky/rezervace na titul"
     }
   ],
   "ui-circulation.settings.PrintHoldRequests.allow": [
@@ -32702,7 +32708,7 @@
   "ui-circulation.settings.consortiumTlr.allow": [
     {
       "type": 0,
-      "value": "Povolit požadavky na úrovni názvů konsorcia (PÚN)"
+      "value": "Žádanky/Rezervace na titul konsorcia (ZRÚN)"
     }
   ],
   "ui-circulation.settings.consortiumTlr.notification": [
@@ -32722,7 +32728,7 @@
     },
     {
       "type": 0,
-      "value": " políčko „Povolit požadavky na úrovni názvu“ v nastavení požadavků na úrovni názvu (PÚN) „(Nastavení > Výpůjčky > Obecné > Požadavky na úrovni názvů (PÚN))“."
+      "value": " políčko „Povolit požadavky na úrovni názvu“ v nastavení požadavků na úrovni názvu (PÚN) „(Nastavení > Výpůjčky > Obecné > Žádanky/Rezervace na titul (ZRÚN))“."
     }
   ],
   "ui-circulation.settings.fDDS.deleteDisabled": [
@@ -33382,7 +33388,7 @@
   "ui-circulation.settings.index.consortiumTLR": [
     {
       "type": 0,
-      "value": "Požadavky na úrovni názvů konsorcia (PÚN)"
+      "value": "Žádanky/Rezervace na titul pro konsorcia (ZRÚN)"
     }
   ],
   "ui-circulation.settings.index.fdds": [
@@ -33490,13 +33496,13 @@
   "ui-circulation.settings.index.titleLevelRequests": [
     {
       "type": 0,
-      "value": "Žádanky na úrovni názvu"
+      "value": "Žádanky/Rezervace na titul"
     }
   ],
   "ui-circulation.settings.index.titleLevelRequestsTlr": [
     {
       "type": 0,
-      "value": "Požadavky na úrovni názvů (PÚN)"
+      "value": "Žádanky/Rezervace na titul (ZRÚN)"
     }
   ],
   "ui-circulation.settings.index.tlrPatronNotices": [
@@ -35090,7 +35096,7 @@
   "ui-circulation.settings.requestPolicy.policyTypes.hold.infoPopover.content": [
     {
       "type": 0,
-      "value": "Pokud je nastavení \"Nepodařilo se vytvořit rezervaci na úrovni názvu, když je žádost blokována pravidlem cirkulace\" "
+      "value": "Pokud je nastavení \"Nepodařilo se vytvořit rezervaci na titul, když je žádost blokována pravidlem cirkulace\" "
     },
     {
       "children": [
@@ -35104,7 +35110,7 @@
     },
     {
       "type": 0,
-      "value": ", rezervace na úrovni názvu budou vždy povoleny. (Nastavení > Cirkulace > Žádosti na úrovni názvu)"
+      "value": ", rezervace na titul budou vždy povoleny. (Nastavení > Cirkulace > Žádanky/Rezervace na titul)"
     }
   ],
   "ui-circulation.settings.requestPolicy.requestTypes.allowAll": [
@@ -35320,7 +35326,7 @@
   "ui-circulation.settings.title.consortiumTLR": [
     {
       "type": 0,
-      "value": "Požadavky na úrovni názvů konsorcia (PÚN)"
+      "value": "Žádanky/Rezervace na titul pro konsorcia (ZRÚN)"
     }
   ],
   "ui-circulation.settings.title.editRecord": [
@@ -35616,13 +35622,13 @@
   "ui-circulation.settings.title.titleLevelRequests": [
     {
       "type": 0,
-      "value": "Žádanky na úrovni názvu"
+      "value": "Žádanky/Rezervace na titul"
     }
   ],
   "ui-circulation.settings.title.titleLevelRequestsTlr": [
     {
       "type": 0,
-      "value": "Požadavky na úrovni názvů (PÚN)"
+      "value": "Žádanky/Rezervace na titul (ZRÚN)"
     }
   ],
   "ui-circulation.settings.title.tlrPatronNotices": [
@@ -35640,7 +35646,7 @@
   "ui-circulation.settings.titleLevelRequests.allow": [
     {
       "type": 0,
-      "value": "Povolit žádanky na úrovni názvu"
+      "value": "Povolit žádanky/rezervace na titul"
     }
   ],
   "ui-circulation.settings.titleLevelRequests.cancellationNotice": [
@@ -35658,7 +35664,7 @@
   "ui-circulation.settings.titleLevelRequests.createTLR": [
     {
       "type": 0,
-      "value": "Ve výchozím nastavení je vybrána možnost „Vytvořit žádanku na úrovni názvu“."
+      "value": "Ve výchozím nastavení je vybrána možnost „Vytvořit žádanku/rezervaci na titul“."
     }
   ],
   "ui-circulation.settings.titleLevelRequests.defaultTemplateValue": [
@@ -35682,13 +35688,13 @@
   "ui-circulation.settings.titleLevelRequests.forbiddenDisableTlrModal.description": [
     {
       "type": 0,
-      "value": "\"Povolit žádanky na úrovni názvu\" nelze změnit, protože je používáno jedním nebo více žádankami"
+      "value": "\"Povolit žádanky/rezervace na titul\" nelze změnit, protože je používáno jedním nebo více žádankami"
     }
   ],
   "ui-circulation.settings.titleLevelRequests.forbiddenDisableTlrModal.title": [
     {
       "type": 0,
-      "value": "Nelze změnit „Povolit žádanky na úrovni názvu“"
+      "value": "Nelze změnit „Povolit žádanky/rezervace na titul“"
     }
   ],
   "ui-circulation.settings.titleLevelRequests.noticeTemplates": [
@@ -35700,19 +35706,19 @@
   "ui-circulation.settings.titleLevelRequests.paneTitle": [
     {
       "type": 0,
-      "value": "Žádanky na úrovni názvu"
+      "value": "Žádanky/Rezervace na titul"
     }
   ],
   "ui-circulation.settings.titleLevelRequests.tlrHoldShouldFollowCirculationRules": [
     {
       "type": 0,
-      "value": "Nepodařilo se vytvořit blokaci na úrovni názvu, když je požadavek blokován pravidlem pro výpůjčky"
+      "value": "Nepodařilo se vytvořit rezervaci na titul, protože požadavek je blokován výpůjčkovým pravidlem"
     }
   ],
   "ui-circulation.settings.titleLevelRequestsTlr.paneTitle": [
     {
       "type": 0,
-      "value": "Požadavky na úrovni názvů (PÚN)"
+      "value": "Žádanky/Rezervace na titul (ZRÚN)"
     }
   ],
   "ui-circulation.settings.tlrPatronNotices.paneTitle": [
@@ -46568,7 +46574,7 @@
   "ui-data-import.logViewer.invoiceLine": [
     {
       "type": 0,
-      "value": "Řádek faktury"
+      "value": "Položka faktury"
     }
   ],
   "ui-data-import.logViewer.order": [
@@ -49903,7 +49909,7 @@
   "ui-data-import.settings.mappingProfiles.map.invoice.invoiceLineAdjustments.section": [
     {
       "type": 0,
-      "value": "Úprava řádků faktury"
+      "value": "Úprava položky faktury"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.invoice.invoiceLineFundDistribution.field.fundDistributionSource.legend": [
@@ -49915,7 +49921,7 @@
   "ui-data-import.settings.mappingProfiles.map.invoice.invoiceLineFundDistribution.section": [
     {
       "type": 0,
-      "value": "Rozdělení prostředků na řádku faktury"
+      "value": "Rozdělení prostředků položky faktury"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.invoice.invoiceLineInformation.field.POLineNumber": [
@@ -49951,13 +49957,13 @@
   "ui-data-import.settings.mappingProfiles.map.invoice.invoiceLineInformation.field.invoiceLineNumber": [
     {
       "type": 0,
-      "value": "Číslo řádku faktury"
+      "value": "Číslo položky faktury"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.invoice.invoiceLineInformation.field.invoiceLineStatus": [
     {
       "type": 0,
-      "value": "Stav řádku faktury"
+      "value": "Stav položky faktury"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.invoice.invoiceLineInformation.field.quantity": [
@@ -50011,7 +50017,7 @@
   "ui-data-import.settings.mappingProfiles.map.invoice.invoiceLineInformation.section": [
     {
       "type": 0,
-      "value": "Informace o řádku faktury"
+      "value": "Informace o položce faktury"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.invoice.invoiceLineInformation.vendorRefNumber.addLabel": [
@@ -52765,43 +52771,43 @@
   "ui-data-import.settings.matchProfiles.invoiceLine.adjustments": [
     {
       "type": 0,
-      "value": "Úprava řádků faktury"
+      "value": "Úprava položky faktury"
     }
   ],
   "ui-data-import.settings.matchProfiles.invoiceLine.adminData": [
     {
       "type": 0,
-      "value": "Údaje o správci řádku faktury"
+      "value": "Údaje o správci položky faktury"
     }
   ],
   "ui-data-import.settings.matchProfiles.invoiceLine.fundDistribution": [
     {
       "type": 0,
-      "value": "Rozdělení prostředků na řádku faktury"
+      "value": "Rozdělení prostředků položky faktury"
     }
   ],
   "ui-data-import.settings.matchProfiles.invoiceLine.information": [
     {
       "type": 0,
-      "value": "Informace o řádku faktury"
+      "value": "Informace o položce faktury"
     }
   ],
   "ui-data-import.settings.matchProfiles.invoiceLine.tags": [
     {
       "type": 0,
-      "value": "Štítky řádků faktury"
+      "value": "Štítky položky faktury"
     }
   ],
   "ui-data-import.settings.matchProfiles.invoiceLineNumber": [
     {
       "type": 0,
-      "value": "Číslo řádku faktury"
+      "value": "Číslo položky faktury"
     }
   ],
   "ui-data-import.settings.matchProfiles.invoiceLineStatus": [
     {
       "type": 0,
-      "value": "Stav řádku faktury"
+      "value": "Stav položky faktury"
     }
   ],
   "ui-data-import.settings.matchProfiles.itemData": [
@@ -59441,7 +59447,7 @@
   "ui-eholdings.titlesList.hidden": [
     {
       "type": 0,
-      "value": "Title is set to hide"
+      "value": "Titul je skrytý"
     }
   ],
   "ui-eholdings.titlesList.managedCoverage": [
@@ -67190,7 +67196,7 @@
   "ui-finance.permission.settings.exchange_rate_source.manage": [
     {
       "type": 0,
-      "value": "Settings (Finance): Manage external exchange rate source"
+      "value": "Nastavení (finance): Správa externího zdroje směnných kurzů"
     }
   ],
   "ui-finance.permission.settings.exportFundAndExpenseClassCodes": [
@@ -67309,7 +67315,7 @@
   "ui-finance.settings.exchangeRateSource.form.field.providerType": [
     {
       "type": 0,
-      "value": "Exchange rate provider type"
+      "value": "Typ poskytovatele směnných kurzů"
     }
   ],
   "ui-finance.settings.exchangeRateSource.form.field.providerUri": [
@@ -74277,7 +74283,7 @@
   "ui-inventory.copycat.externalTarget": [
     {
       "type": 0,
-      "value": "Externí cíl"
+      "value": "Externí zdroj"
     }
   ],
   "ui-inventory.copycat.import": [
@@ -80903,7 +80909,7 @@
   "ui-invoice.errors.cantLoadInvoiceLine": [
     {
       "type": 0,
-      "value": "Chyba při načítání řádku faktury"
+      "value": "Chyba při načítání položky faktury"
     }
   ],
   "ui-invoice.errors.cantLoadVendor": [
@@ -80977,7 +80983,7 @@
   "ui-invoice.errors.invoiceLineHasNotBeenSaved": [
     {
       "type": 0,
-      "value": "Řádek faktury nebyl uložen"
+      "value": "Položka faktury nebyla uložena"
     }
   ],
   "ui-invoice.errors.voucherHasNotBeenSaved": [
@@ -81037,19 +81043,19 @@
   "ui-invoice.exportSettings.invoiceLine.all": [
     {
       "type": 0,
-      "value": "Exportujte všechna pole řádků faktury"
+      "value": "Exportujte všechna pole faktury"
     }
   ],
   "ui-invoice.exportSettings.invoiceLine.selected": [
     {
       "type": 0,
-      "value": "Exportujte vybraná pole řádku faktury"
+      "value": "Exportujte vybraná pole faktury"
     }
   ],
   "ui-invoice.exportSettings.invoiceLineFieldsLabel": [
     {
       "type": 0,
-      "value": "Pole řádků faktury k exportu"
+      "value": "Položky faktury k exportu"
     }
   ],
   "ui-invoice.exportSettings.label": [
@@ -81061,7 +81067,7 @@
   "ui-invoice.exportSettings.message": [
     {
       "type": 0,
-      "value": "Tento export může trvat několik minut. Pokud stránku znovu načtete nebo zavřete, export se nedokončí. Jakmile je soubor připraven, může trvat další minutu, než prohlížeč dokončí stahování souboru. V případě potřeby můžete pokračovat v práci s fakturami a řádky faktur na jiné kartě prohlížeče."
+      "value": "Tento export může trvat několik minut. Pokud stránku znovu načtete nebo zavřete, export se nedokončí. Jakmile je soubor připraven, může trvat další minutu, než prohlížeč dokončí stahování souboru. V případě potřeby můžete pokračovat v práci s fakturami a s položkami faktury na jiné kartě prohlížeče."
     }
   ],
   "ui-invoice.exportSettings.success": [
@@ -81097,25 +81103,25 @@
   "ui-invoice.filter.invoiceLine.createdBy": [
     {
       "type": 0,
-      "value": "Vytvořil (řádek faktury)"
+      "value": "Vytvořil (Položka faktury)"
     }
   ],
   "ui-invoice.filter.invoiceLine.dateCreated": [
     {
       "type": 0,
-      "value": "Datum vytvoření (řádek faktury)"
+      "value": "Datum vytvoření (Položka faktury)"
     }
   ],
   "ui-invoice.filter.invoiceLine.dateUpdated": [
     {
       "type": 0,
-      "value": "Datum aktualizace (řádek faktury)"
+      "value": "Datum aktualizace (Položka faktury)"
     }
   ],
   "ui-invoice.filter.invoiceLine.updatedBy": [
     {
       "type": 0,
-      "value": "Aktualizoval (řádek faktury)"
+      "value": "Aktualizoval (Položka faktury)"
     }
   ],
   "ui-invoice.filter.updatedBy": [
@@ -81359,7 +81365,7 @@
   "ui-invoice.invoice.actions.approve.error.fundDistributionsNotPresent": [
     {
       "type": 0,
-      "value": "U každého souvisejícího řádku faktury by mělo být uvedeno alespoň jedno rozdělení prostředků"
+      "value": "U každé související položky faktury by mělo být uvedeno alespoň jedno rozdělení prostředků"
     }
   ],
   "ui-invoice.invoice.actions.approve.error.fundsNotFound": [
@@ -81405,7 +81411,7 @@
   "ui-invoice.invoice.actions.approve.error.incorrectFundDistributionTotal": [
     {
       "type": 0,
-      "value": "Nelze schválit ani zaplatit fakturu. Celkové rozdělení prostředků musí být na řádku faktury "
+      "value": "Nelze schválit ani zaplatit fakturu. Celkové rozdělení prostředků musí být v položce faktury "
     },
     {
       "type": 1,
@@ -81413,19 +81419,19 @@
     },
     {
       "type": 0,
-      "value": " rozděleno na 100 procent. Pro pokračování aktualizujte detaily rozdělení prostředků pro daný řádek faktury."
+      "value": " rozděleno na 100 procent. Pro pokračování aktualizujte detaily rozdělení prostředků pro danou položku faktury."
     }
   ],
   "ui-invoice.invoice.actions.approve.error.lineFundDistributionsSummaryMismatch": [
     {
       "type": 0,
-      "value": "Shrnutí rozdělení prostředků by měl být 100 % nebo roven mezisoučtu pro každý přidružený řádek faktury"
+      "value": "Shrnutí rozdělení prostředků by mělo být 100 % nebo rovno mezisoučtu pro každou přidruženou položku faktury"
     }
   ],
   "ui-invoice.invoice.actions.approve.error.lockCalculatedTotalsMismatch": [
     {
       "type": 0,
-      "value": "Fakturu nelze schválit. Celková částka zamknutí faktury neodpovídá vypočtené celkové částce řádků a úprav faktury."
+      "value": "Fakturu nelze schválit. Celková částka pro zamknutí faktury neodpovídá vypočtené celkové částce položek faktury a jejích úprav."
     }
   ],
   "ui-invoice.invoice.actions.approve.error.multipleFiscalYears": [
@@ -81449,7 +81455,7 @@
   "ui-invoice.invoice.actions.approve.error.outdatedFundIdInEncumbrance": [
     {
       "type": 0,
-      "value": "Fakturu nebylo možné schválit. ID prostředku věcného břemene se neshoduje s ID prostředku v řádku faktury. Chybu je třeba opravit v databázi."
+      "value": "Fakturu nebylo možné schválit. ID prostředku věcného břemene se neshoduje s ID prostředku v položce faktury. Chybu je třeba opravit v databázi."
     }
   ],
   "ui-invoice.invoice.actions.approve.error.pendingPaymentError": [
@@ -81861,7 +81867,7 @@
   "ui-invoice.invoice.actions.saveLine.error": [
     {
       "type": 0,
-      "value": "Řádek faktury nebyl uložen"
+      "value": "Položka faktury nebyla uložena"
     }
   ],
   "ui-invoice.invoice.actions.saveLine.error.budgetExpenseClassNotFound": [
@@ -81897,13 +81903,13 @@
   "ui-invoice.invoice.actions.saveLine.error.budgetNotFoundByFundId": [
     {
       "type": 0,
-      "value": "Řádek faktury nelze uložit, protože faktura není přiřazena k fiskálnímu roku."
+      "value": "Položku faktury nelze uložit, protože faktura není přiřazena k fiskálnímu roku."
     }
   ],
   "ui-invoice.invoice.actions.saveLine.error.budgetNotFoundByFundIdAndFiscalYearId": [
     {
       "type": 0,
-      "value": "Řádek faktury nelze uložit, protože prostředek "
+      "value": "Položka faktury nelze uložit, protože prostředek "
     },
     {
       "children": [
@@ -81937,7 +81943,7 @@
   "ui-invoice.invoice.actions.saveLine.error.inactiveExpenseClass": [
     {
       "type": 0,
-      "value": "Řádek faktury nelze uložit, protože třída výdajů "
+      "value": "Položka faktury nelze uložit, protože třída výdajů "
     },
     {
       "children": [
@@ -81957,43 +81963,43 @@
   "ui-invoice.invoice.actions.updateOrderStatus.heading": [
     {
       "type": 0,
-      "value": "Update order status"
+      "value": "Aktualizovat stav objednávky"
     }
   ],
   "ui-invoice.invoice.actions.updateOrderStatus.message": [
     {
       "type": 0,
-      "value": "You are processing this invoice against a previous fiscal year and \"release encumbrance\" equals true for one or more invoice lines. One or more related orders has a type of One-time. Please indicate how the payment status of these order lines should be updated?"
+      "value": "Zpracováváte tuto fakturu za předchozí fiskální rok a u jedné nebo více položek faktury je nastaveno „uvolnit břemeno“. Jedna nebo více souvisejících objednávek má typ Jednorázová. Uveďte prosím, jak má být aktualizován stav platby těchto položek objednávky."
     }
   ],
   "ui-invoice.invoice.actions.updateOrderStatus.status.awaitingPayment": [
     {
       "type": 0,
-      "value": "Awaiting payment"
+      "value": "Čeká se na platbu"
     }
   ],
   "ui-invoice.invoice.actions.updateOrderStatus.status.cancelled": [
     {
       "type": 0,
-      "value": "Cancelled"
+      "value": "Zrušeno"
     }
   ],
   "ui-invoice.invoice.actions.updateOrderStatus.status.fullyPaid": [
     {
       "type": 0,
-      "value": "Fully paid"
+      "value": "Zcela uhrazeno"
     }
   ],
   "ui-invoice.invoice.actions.updateOrderStatus.status.noChange": [
     {
       "type": 0,
-      "value": "No change"
+      "value": "Beze změny"
     }
   ],
   "ui-invoice.invoice.actions.updateOrderStatus.status.partiallyPaid": [
     {
       "type": 0,
-      "value": "Partially paid"
+      "value": "Částečně zaplaceno"
     }
   ],
   "ui-invoice.invoice.address": [
@@ -82067,7 +82073,7 @@
   "ui-invoice.invoice.delete.message": [
     {
       "type": 0,
-      "value": "Opravdu chcete smazat tuto fakturu a všechny její řádky? Tím se také odstraní všechny připojené dokumenty."
+      "value": "Opravdu chcete smazat tuto fakturu a všechny její položky? Tím se také odstraní všechny připojené dokumenty."
     }
   ],
   "ui-invoice.invoice.details.accordion.adjustments": [
@@ -82145,7 +82151,7 @@
   "ui-invoice.invoice.details.hasFullyPaidPOLine": [
     {
       "type": 0,
-      "value": "Stav řádku nákupní objednávky je Plně uhrazeno."
+      "value": "Stav řádku nákupní objednávky je Zcela uhrazeno."
     }
   ],
   "ui-invoice.invoice.details.hasPendingOrders": [
@@ -82301,7 +82307,7 @@
   "ui-invoice.invoice.details.lines.list.lineNumber.extended": [
     {
       "type": 0,
-      "value": "Číslo řádku faktury"
+      "value": "Číslo položky faktury"
     }
   ],
   "ui-invoice.invoice.details.lines.list.paymentStatus": [
@@ -82355,7 +82361,7 @@
   "ui-invoice.invoice.details.lines.title": [
     {
       "type": 0,
-      "value": "Fakturační řádky"
+      "value": "Položky faktury"
     }
   ],
   "ui-invoice.invoice.details.paneTitle": [
@@ -82695,7 +82701,7 @@
   "ui-invoice.invoice.list.folioInvoiceNo": [
     {
       "type": 0,
-      "value": "FOLIO invoice number"
+      "value": "Číslo faktury FOLIO"
     }
   ],
   "ui-invoice.invoice.list.invoiceDate": [
@@ -82731,7 +82737,7 @@
   "ui-invoice.invoice.list.vendorName": [
     {
       "type": 0,
-      "value": "Vendor name"
+      "value": "Název prodejce"
     }
   ],
   "ui-invoice.invoice.lockTotal": [
@@ -82885,13 +82891,13 @@
   "ui-invoice.invoiceLine.adjustments": [
     {
       "type": 0,
-      "value": "Úprava řádků faktury"
+      "value": "Úprava položky faktury"
     }
   ],
   "ui-invoice.invoiceLine.adminData": [
     {
       "type": 0,
-      "value": "Údaje o správci řádku faktury"
+      "value": "Údaje o správci položky faktury"
     }
   ],
   "ui-invoice.invoiceLine.comment": [
@@ -82923,7 +82929,7 @@
   "ui-invoice.invoiceLine.delete.message": [
     {
       "type": 0,
-      "value": "Smazat řádek faktury?"
+      "value": "Smazat položku faktury?"
     }
   ],
   "ui-invoice.invoiceLine.description": [
@@ -82935,13 +82941,13 @@
   "ui-invoice.invoiceLine.editLayer": [
     {
       "type": 0,
-      "value": "Upravit řádek faktury"
+      "value": "Upravit položku faktury"
     }
   ],
   "ui-invoice.invoiceLine.fundDistribution": [
     {
       "type": 0,
-      "value": "Rozdělení prostředků na řádku faktury"
+      "value": "Rozdělení prostředků položky faktury"
     }
   ],
   "ui-invoice.invoiceLine.fundId": [
@@ -82953,25 +82959,25 @@
   "ui-invoice.invoiceLine.hasBeenDeleted": [
     {
       "type": 0,
-      "value": "Řádek faktury byl smazán"
+      "value": "Položka faktury byla smazána"
     }
   ],
   "ui-invoice.invoiceLine.hasBeenSaved": [
     {
       "type": 0,
-      "value": "Řádek faktury byl uložen"
+      "value": "Položka faktury byla uložena"
     }
   ],
   "ui-invoice.invoiceLine.invoiceLineNumber": [
     {
       "type": 0,
-      "value": "Číslo řádku faktury"
+      "value": "Číslo položky faktury"
     }
   ],
   "ui-invoice.invoiceLine.invoiceLineStatus": [
     {
       "type": 0,
-      "value": "Stav řádku faktury"
+      "value": "Stav položky faktury"
     }
   ],
   "ui-invoice.invoiceLine.linesSequence.paneSubTitle": [
@@ -82987,7 +82993,7 @@
   "ui-invoice.invoiceLine.linesSequence.paneTitle": [
     {
       "type": 0,
-      "value": "Upravit pořadí řádků faktury • Číslo faktury prodejce "
+      "value": "Upravit pořadí položek faktury • Číslo faktury prodejce "
     },
     {
       "type": 1,
@@ -82997,13 +83003,13 @@
   "ui-invoice.invoiceLine.paneTitle.create": [
     {
       "type": 0,
-      "value": "Vytvořit řádek faktury prodejce"
+      "value": "Vytvořit položku faktury prodejce"
     }
   ],
   "ui-invoice.invoiceLine.paneTitle.edit": [
     {
       "type": 0,
-      "value": "Upravit řádek faktury - "
+      "value": "Upravit položku faktury - "
     },
     {
       "type": 1,
@@ -83013,7 +83019,7 @@
   "ui-invoice.invoiceLine.paneTitle.view": [
     {
       "type": 0,
-      "value": "Zobrazit řádek faktury - "
+      "value": "Zobrazit položku faktury - "
     },
     {
       "type": 1,
@@ -83053,7 +83059,7 @@
   "ui-invoice.invoiceLine.relink.success": [
     {
       "type": 0,
-      "value": "Řádek faktury byl propojen s ŘNO "
+      "value": "Položka faktury byla propojena s ŘNO "
     },
     {
       "type": 1,
@@ -83087,13 +83093,13 @@
   "ui-invoice.invoiceLine.tags": [
     {
       "type": 0,
-      "value": "Štítky řádků faktury"
+      "value": "Štítky položky faktury"
     }
   ],
   "ui-invoice.invoiceLine.total": [
     {
       "type": 0,
-      "value": "Celkový počet řádků faktury: "
+      "value": "Celkový počet položek faktury: "
     },
     {
       "type": 1,
@@ -83109,7 +83115,7 @@
   "ui-invoice.invoiceLineInformation": [
     {
       "type": 0,
-      "value": "Informace o řádku faktury"
+      "value": "Informace o položce faktury"
     }
   ],
   "ui-invoice.label.backToInvoice": [
@@ -83139,7 +83145,7 @@
   "ui-invoice.otherRelatedInvoiceLines": [
     {
       "type": 0,
-      "value": "Další související fakturační řádky"
+      "value": "Další související položky faktury"
     }
   ],
   "ui-invoice.otherRelatedInvoiceLines.amount": [
@@ -83169,7 +83175,7 @@
   "ui-invoice.otherRelatedInvoiceLines.invoiceLine": [
     {
       "type": 0,
-      "value": "Řádek faktury #"
+      "value": "Položka faktury #"
     }
   ],
   "ui-invoice.otherRelatedInvoiceLines.quantity": [
@@ -83283,19 +83289,19 @@
   "ui-invoice.permission.invoice.create": [
     {
       "type": 0,
-      "value": "Faktura: Může prohlížet, upravovat a vytvářet nové faktury a řádky faktur"
+      "value": "Faktura: Lze prohlížet, upravovat a vytvářet nové faktury a položky faktur"
     }
   ],
   "ui-invoice.permission.invoice.delete": [
     {
       "type": 0,
-      "value": "Faktura: Může prohlížet, upravovat a mazat faktury a řádky faktur"
+      "value": "Faktura: Lze prohlížet, upravovat a mazat faktury a položky faktur"
     }
   ],
   "ui-invoice.permission.invoice.edit": [
     {
       "type": 0,
-      "value": "Faktura: Může prohlížet a upravovat faktury a řádky faktur"
+      "value": "Faktura: Lze prohlížet a upravovat faktury a položky faktur"
     }
   ],
   "ui-invoice.permission.invoice.pay-different-fy.execute": [
@@ -83313,7 +83319,7 @@
   "ui-invoice.permission.invoice.view": [
     {
       "type": 0,
-      "value": "Faktura: Může zobrazit faktury a řádky faktur"
+      "value": "Faktura: Lze zobrazit faktury a položky faktur"
     }
   ],
   "ui-invoice.permission.pay": [
@@ -91574,7 +91580,7 @@
   "ui-marc-authorities.export-cql-query": [
     {
       "type": 0,
-      "value": "Save authorities CQL query"
+      "value": "Uložit CQL dotaz na autority"
     }
   ],
   "ui-marc-authorities.export-selected-records": [
@@ -92907,19 +92913,19 @@
   "ui-myprofile.settings.languageLocalization.fieldLocale.label": [
     {
       "type": 0,
-      "value": "Locale (for language display, date format etc.)"
+      "value": "Uživatelské prostředí (pro zobrazení jazyka, formátu data atd.)"
     }
   ],
   "ui-myprofile.settings.languageLocalization.label": [
     {
       "type": 0,
-      "value": "Language & localization"
+      "value": "Jazyk a lokalizace"
     }
   ],
   "ui-myprofile.settings.languageLocalization.tenantDefault": [
     {
       "type": 0,
-      "value": "Tenant default"
+      "value": "Výchozí nastavení nájemce"
     }
   ],
   "ui-myprofile.userDropdown.changePassword.caption": [
@@ -93438,7 +93444,7 @@
   "ui-oa.charge.invoice.invoiceHelperMessage": [
     {
       "type": 0,
-      "value": "Poplatek lze propojit s existující fakturou a řádkem faktury nebo lze do aplikace Faktury okamžitě přidat nové záznamy pomocí možností \"Nová faktura\" a \"Nový řádek faktury\". Smazáním faktury nebo řádku faktury prostřednictvím této obrazovky se záznam z aplikace Faktury nesmaže."
+      "value": "Poplatek lze propojit s existující fakturou a položkou faktury nebo lze do aplikace Faktury okamžitě přidat nové záznamy pomocí možností \"Nová faktura\" a \"Nová položka faktury\". Smazáním faktury nebo položky faktury prostřednictvím této obrazovky se záznam z aplikace Faktury nesmaže."
     }
   ],
   "ui-oa.charge.invoice.invoiceNumber": [
@@ -93450,13 +93456,13 @@
   "ui-oa.charge.invoice.linkInvoiceLine": [
     {
       "type": 0,
-      "value": "Propojit řádek faktury"
+      "value": "Propojit položku faktury"
     }
   ],
   "ui-oa.charge.invoice.linkInvoiceLineToCharge": [
     {
       "type": 0,
-      "value": "Propojit řádek faktury s poplatkem"
+      "value": "Propojit položku faktury s poplatkem"
     }
   ],
   "ui-oa.charge.invoice.newInvoice": [
@@ -93498,13 +93504,13 @@
   "ui-oa.charge.invoice.unlinkInvoiceLine": [
     {
       "type": 0,
-      "value": "Odpojit řádek faktury"
+      "value": "Odpojit položku faktury"
     }
   ],
   "ui-oa.charge.invoice.unlinkInvoiceLineMessage": [
     {
       "type": 0,
-      "value": "Přidružená faktura a řádek faktury budou od tohoto poplatku odpojeny."
+      "value": "Přidružená faktura a položka faktury budou od tohoto poplatku odpojeny."
     }
   ],
   "ui-oa.charge.invoice.useChargeExchange": [
@@ -93528,13 +93534,13 @@
   "ui-oa.charge.invoiceLine": [
     {
       "type": 0,
-      "value": "Řádek faktury"
+      "value": "Položka faktury"
     }
   ],
   "ui-oa.charge.invoiceLine.addInvoiceLine": [
     {
       "type": 0,
-      "value": "Přidat řádek faktury"
+      "value": "Přidat položku faktury"
     }
   ],
   "ui-oa.charge.invoiceLine.currencyDifferenceMessage": [
@@ -93562,7 +93568,7 @@
     },
     {
       "type": 0,
-      "value": ". Tento řádek faktury bude vytvořen pomocí měny na faktuře: "
+      "value": ". Tato položka faktury bude vytvořena pomocí měny na faktuře: "
     },
     {
       "type": 1,
@@ -93578,7 +93584,7 @@
   "ui-oa.charge.invoiceLine.newInvoiceLine": [
     {
       "type": 0,
-      "value": "Nový řádek faktury"
+      "value": "Nová položka faktury"
     }
   ],
   "ui-oa.charge.invoiceLine.newInvoiceLineConfirmMessage": [
@@ -93598,13 +93604,13 @@
     },
     {
       "type": 0,
-      "value": " bude přidán nový řádek faktury s následujícími detaily:"
+      "value": " bude přidána nová položka faktury s následujícími detaily:"
     }
   ],
   "ui-oa.charge.invoiceLine.noNewInvoiceLine": [
     {
       "type": 0,
-      "value": "Nelze generovat nové řádky ve fakturách, které jsou schváleny, zrušeny nebo zaplaceny"
+      "value": "Nelze generovat nové položky faktury pro faktury, které jsou schváleny, zrušeny nebo zaplaceny"
     }
   ],
   "ui-oa.charge.invoiceLine.quantity": [
@@ -93616,7 +93622,7 @@
   "ui-oa.charge.invoiceLine.removeInvoiceLine": [
     {
       "type": 0,
-      "value": "Odebrat řádek faktury"
+      "value": "Odebrat položku faktury"
     }
   ],
   "ui-oa.charge.invoiceLine.status": [
@@ -93640,7 +93646,7 @@
   "ui-oa.charge.invoiceLineNotLinked": [
     {
       "type": 0,
-      "value": "Řádek faktury není propojen"
+      "value": "Položka faktury není propojena"
     }
   ],
   "ui-oa.charge.invoiceNotLinked": [
@@ -93652,7 +93658,7 @@
   "ui-oa.charge.linkToInvoiceLineIndex": [
     {
       "type": 0,
-      "value": "Zobrazení řádku faktury pro náklady "
+      "value": "Zobrazení položky faktury pro náklady "
     },
     {
       "type": 1,
@@ -98276,7 +98282,7 @@
   "ui-orders.errors.errorRemovingInvoiceLineEncumbrances": [
     {
       "type": 0,
-      "value": "Chyba při odstraňování odkazů věcných břemen řádků faktur po odstranění věcných břemen"
+      "value": "Chyba při odstraňování odkazů věcných břemen položky faktury po odstranění věcných břemen"
     }
   ],
   "ui-orders.errors.errorRetrievingPoLines": [
@@ -98764,7 +98770,7 @@
   "ui-orders.errors.poLineHasRelatedApprovedInvoice": [
     {
       "type": 0,
-      "value": "Rozdělení prostředků na řádku objednávky nelze změnit, protože řádek objednávky je propojen s řádkem faktury, který má aktuálně stav \"schváleno\"."
+      "value": "Rozdělení prostředků na řádku objednávky nelze změnit, protože položka objednávky je propojena s položkou faktury, který má aktuálně stav \"schváleno\"."
     }
   ],
   "ui-orders.errors.poNumberNotUnique": [
@@ -99496,7 +99502,7 @@
   "ui-orders.line.accordion.relatedInvoiceLines": [
     {
       "type": 0,
-      "value": "Související řádky faktur"
+      "value": "Související položky faktury"
     }
   ],
   "ui-orders.line.accordion.relatedInvoices": [
@@ -100720,7 +100726,7 @@
   "ui-orders.payment_status.fullyPaid": [
     {
       "type": 0,
-      "value": "Plně zaplaceno"
+      "value": "Zcela uhrazeno"
     }
   ],
   "ui-orders.payment_status.ongoing": [
@@ -101116,7 +101122,7 @@
   "ui-orders.poLine.fundDistribution.expenseClass.modal.description": [
     {
       "type": 0,
-      "value": "Změna této třídy výdajů neaktualizuje související polžku faktury. Pokud chcete, aby schválení/zaplacení faktury uvolnilo transakci věcného břemene, musí být aktualizována i třída výdajů souvisejících faktur."
+      "value": "Změna této třídy výdajů neaktualizuje související položku faktury. Pokud chcete, aby schválení/zaplacení faktury uvolnilo transakci věcného břemene, musí být aktualizována i třída výdajů souvisejících faktur."
     }
   ],
   "ui-orders.poLine.fundDistribution.expenseClass.modal.title": [
@@ -101944,7 +101950,7 @@
   "ui-orders.relatedInvoiceLines.invoiceLine": [
     {
       "type": 0,
-      "value": "Řádek faktury #"
+      "value": "Položka faktury #"
     }
   ],
   "ui-orders.relatedInvoiceLines.quantity": [
@@ -103033,49 +103039,57 @@
   "ui-orders.settings.orderTemplateCategories": [
     {
       "type": 0,
-      "value": "Order template categories"
+      "value": "Kategorie šablon objednávek"
     }
   ],
   "ui-orders.settings.orderTemplateCategories.cannotDeleteTermHeader": [
     {
       "type": 0,
-      "value": "Cannot delete the order template category"
+      "value": "Nelze odstranit kategorii šablony objednávky"
     }
   ],
   "ui-orders.settings.orderTemplateCategories.cannotDeleteTermMessage": [
     {
       "type": 0,
-      "value": "This order template category cannot be deleted, as it is in use by one or more records."
+      "value": "Tuto šablonu kategorie objednávky nelze smazat, protože ji používá jeden nebo více záznamů."
     }
   ],
   "ui-orders.settings.orderTemplateCategories.deleteEntry": [
     {
       "type": 0,
-      "value": "Delete order template category"
+      "value": "Odstranění kategorie šablony objednávky"
     }
   ],
   "ui-orders.settings.orderTemplateCategories.field.name": [
     {
       "type": 0,
-      "value": "Name"
+      "value": "Název"
     }
   ],
   "ui-orders.settings.orderTemplateCategories.sub": [
     {
       "type": 0,
-      "value": "Categories"
+      "value": "Kategorie"
     }
   ],
   "ui-orders.settings.orderTemplateCategories.termCreated": [
     {
       "type": 0,
-      "value": "The category "
+      "value": "Kategorie "
     },
     {
       "children": [
         {
+          "type": 0,
+          "value": " "
+        },
+        {
           "type": 1,
           "value": "term"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -103083,13 +103097,13 @@
     },
     {
       "type": 0,
-      "value": " was successfully "
+      "value": " byla úspěšně "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "created"
+          "value": " vytvořena "
         }
       ],
       "type": 8,
@@ -103099,13 +103113,21 @@
   "ui-orders.settings.orderTemplateCategories.termDeleted": [
     {
       "type": 0,
-      "value": "The category "
+      "value": "Kategorie "
     },
     {
       "children": [
         {
+          "type": 0,
+          "value": " "
+        },
+        {
           "type": 1,
           "value": "term"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -103113,13 +103135,13 @@
     },
     {
       "type": 0,
-      "value": " was successfully "
+      "value": " byla úspěšně "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "deleted"
+          "value": " smazána "
         }
       ],
       "type": 8,
@@ -103129,13 +103151,21 @@
   "ui-orders.settings.orderTemplateCategories.termUpdated": [
     {
       "type": 0,
-      "value": "The category "
+      "value": "Kategorie "
     },
     {
       "children": [
         {
+          "type": 0,
+          "value": " "
+        },
+        {
           "type": 1,
           "value": "term"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -103143,13 +103173,13 @@
     },
     {
       "type": 0,
-      "value": " was successfully "
+      "value": " byla úspěšně "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "updated"
+          "value": " aktualizována "
         }
       ],
       "type": 8,
@@ -103159,37 +103189,49 @@
   "ui-orders.settings.orderTemplateCategories.termWillBeDeleted": [
     {
       "type": 0,
-      "value": "The order template category "
-    },
-    {
-      "children": [
-        {
-          "type": 1,
-          "value": "term"
-        }
-      ],
-      "type": 8,
-      "value": "b"
-    },
-    {
-      "type": 0,
-      "value": " will be "
+      "value": "Šablona kategorie objednávky "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "deleted."
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "term"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
       "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " bude "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "smazána"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "."
     }
   ],
   "ui-orders.settings.orderTemplateCategories.validation.duplicates": [
     {
       "type": 0,
-      "value": "Category name must be unique"
+      "value": "Název kategorie musí být jedinečný"
     }
   ],
   "ui-orders.settings.orderTemplates": [
@@ -103357,7 +103399,7 @@
   "ui-orders.settings.orderTemplates.editor.template.categories": [
     {
       "type": 0,
-      "value": "Order template categories"
+      "value": "Kategorie šablon objednávek"
     }
   ],
   "ui-orders.settings.orderTemplates.editor.template.code": [
@@ -119240,55 +119282,55 @@
   "ui-reading-room.notes.label": [
     {
       "type": 0,
-      "value": "User notes"
+      "value": "Poznámky uživatele"
     }
   ],
   "ui-reading-room.patronBlocks.columns.automated.type": [
     {
       "type": 0,
-      "value": "Automated (cannot be edited)"
+      "value": "Automatizované (nelze upravovat)"
     }
   ],
   "ui-reading-room.patronBlocks.columns.blocked": [
     {
       "type": 0,
-      "value": "Blocked actions"
+      "value": "Blokované akce"
     }
   ],
   "ui-reading-room.patronBlocks.columns.borrowing": [
     {
       "type": 0,
-      "value": "Borrowing"
+      "value": "Výpůjčky"
     }
   ],
   "ui-reading-room.patronBlocks.columns.desc": [
     {
       "type": 0,
-      "value": "Display description"
+      "value": "Zobrazit popis"
     }
   ],
   "ui-reading-room.patronBlocks.columns.renewals": [
     {
       "type": 0,
-      "value": "Renewals"
+      "value": "Prodloužení"
     }
   ],
   "ui-reading-room.patronBlocks.columns.requests": [
     {
       "type": 0,
-      "value": "Requests"
+      "value": "Žádanky"
     }
   ],
   "ui-reading-room.patronBlocks.columns.type": [
     {
       "type": 0,
-      "value": "Type"
+      "value": "Typ"
     }
   ],
   "ui-reading-room.patronBlocks.label": [
     {
       "type": 0,
-      "value": "Patron blocks"
+      "value": "Blokace čtenářů"
     }
   ],
   "ui-reading-room.patronLookup": [
@@ -121050,25 +121092,25 @@
   "ui-receiving.title.confirmationModal.removeFromPackage.confirm": [
     {
       "type": 0,
-      "value": "Confirm"
+      "value": "Potvrdit"
     }
   ],
   "ui-receiving.title.confirmationModal.removeFromPackage.message": [
     {
       "type": 0,
-      "value": "Removing this title from the package will delete all related pieces and any related inventory Holdings and Items."
+      "value": "Odebráním tohoto titulu z balíčku smažete všechny související kusy a veškeré související Holdingy a Jednotky z katalogu."
     }
   ],
   "ui-receiving.title.confirmationModal.removeFromPackage.success": [
     {
       "type": 0,
-      "value": "Related pieces and any related inventory Holdings and Items have been deleted."
+      "value": "Související kusy a veškeré související Holdingy a Jednotky v kataloku byly smazány."
     }
   ],
   "ui-receiving.title.confirmationModal.removeHolding.message": [
     {
       "type": 0,
-      "value": "Related Holdings do not reference any other pieces or items. Do you want to delete them?"
+      "value": "Související Holdingy neodkazují na žádné jiné kusy nebo jednotky. Chcete je odstranit?"
     }
   ],
   "ui-receiving.title.contributors": [
@@ -121236,7 +121278,7 @@
   "ui-receiving.title.paneTitle.removeFromPackage": [
     {
       "type": 0,
-      "value": "Remove from package"
+      "value": "Odebrat z balíčku"
     }
   ],
   "ui-receiving.title.polDetails": [
@@ -122550,7 +122592,7 @@
   "ui-requests-mediated.form.tlrCheckboxLabel": [
     {
       "type": 0,
-      "value": "Vytvořit žádanku na úrovni názvu"
+      "value": "Vytvořit požadavek (žádanku/rezervaci) na titul"
     }
   ],
   "ui-requests-mediated.instanceDetails.contributor": [
@@ -123855,7 +123897,7 @@
   "ui-requests.errors.cannotCreatePageTlrWithoutItemId": [
     {
       "type": 0,
-      "value": "Nelze vytvořit požadavek na stránku na úrovni názvu pro toto ID titulu bez ID jednotky"
+      "value": "Nelze vytvořit žádanku na titul pro toto ID titulu bez ID jednotky"
     }
   ],
   "ui-requests.errors.closingAlreadyClosedRequest": [
@@ -123873,7 +123915,7 @@
   "ui-requests.errors.holdAndRecallTlrNotAllowedPageableAvailableItemFound": [
     {
       "type": 0,
-      "value": "Požadavek Rezervace/Stažení na úroveň názvu není povolen: nalezen stránkovatelný dostupný titul jednotky"
+      "value": "Rezervace/Stažení na titul není povoleno: nalezen stránkovatelný dostupný titul jednotky"
     }
   ],
   "ui-requests.errors.holdShelfRequestsRequirePickupServicePoint": [
@@ -123921,7 +123963,7 @@
   "ui-requests.errors.movingRequestToTheSameItem": [
     {
       "type": 0,
-      "value": "Není povoleno přesunout požadavek na úroveň názvu stránky na stejnou jednotku"
+      "value": "Žádanku na titul není povoleno změnit na žádanku na jednotku"
     }
   ],
   "ui-requests.errors.onlyCheckedOutForHold": [
@@ -125541,7 +125583,7 @@
   "ui-requests.requests.createTitleLevelRequest": [
     {
       "type": 0,
-      "value": "Vytvořit žádanku na úrovni názvu"
+      "value": "Vytvořit žádanku/rezervaci na titul"
     }
   ],
   "ui-requests.requests.instances.rows.select": [
@@ -125809,7 +125851,7 @@
   "ui-requests.titleInformation.titleLevelRequests": [
     {
       "type": 0,
-      "value": "Žádanky na úrovni názvu"
+      "value": "Žádanky/Rezervace na titul"
     }
   ],
   "ui-requests.titleLevel": [

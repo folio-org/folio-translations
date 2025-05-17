@@ -10910,13 +10910,13 @@
   "stripes-erm-components.documentFilter.has": [
     {
       "type": 0,
-      "value": "Has"
+      "value": "Tem"
     }
   ],
   "stripes-erm-components.documentFilter.hasNot": [
     {
       "type": 0,
-      "value": "Has not"
+      "value": "Não tem"
     }
   ],
   "stripes-erm-components.documentFilter.removeRule": [
@@ -11825,6 +11825,12 @@
     {
       "type": 0,
       "value": "Selecionar tudo / desmarcar tudo"
+    }
+  ],
+  "stripes-erm-components.showTags": [
+    {
+      "type": 0,
+      "value": "Show tags"
     }
   ],
   "stripes-erm-components.supplementaryProperty.help.label": [
@@ -43723,7 +43729,7 @@
   "ui-data-export.fieldsSuppression": [
     {
       "type": 0,
-      "value": "Ocultação de campos"
+      "value": "Campos a suprimir da exportação"
     }
   ],
   "ui-data-export.fileName": [
@@ -59760,7 +59766,7 @@
   "ui-eholdings.titlesList.hidden": [
     {
       "type": 0,
-      "value": "Title is set to hide"
+      "value": "O título está definido como oculto"
     }
   ],
   "ui-eholdings.titlesList.managedCoverage": [
@@ -67575,7 +67581,7 @@
   "ui-finance.permission.settings.exchange_rate_source.manage": [
     {
       "type": 0,
-      "value": "Settings (Finance): Manage external exchange rate source"
+      "value": "Configurações (Finanças): Gerenciar fonte de taxa de câmbio externa"
     }
   ],
   "ui-finance.permission.settings.exportFundAndExpenseClassCodes": [
@@ -67694,7 +67700,7 @@
   "ui-finance.settings.exchangeRateSource.form.field.providerType": [
     {
       "type": 0,
-      "value": "Exchange rate provider type"
+      "value": "Tipo de provedor de taxa de câmbio"
     }
   ],
   "ui-finance.settings.exchangeRateSource.form.field.providerUri": [
@@ -83207,7 +83213,7 @@
   "ui-invoice.invoice.list.folioInvoiceNo": [
     {
       "type": 0,
-      "value": "FOLIO invoice number"
+      "value": "Número da fatura FOLIO"
     }
   ],
   "ui-invoice.invoice.list.invoiceDate": [
@@ -83243,7 +83249,7 @@
   "ui-invoice.invoice.list.vendorName": [
     {
       "type": 0,
-      "value": "Vendor name"
+      "value": "Nome do fornecedor"
     }
   ],
   "ui-invoice.invoice.lockTotal": [
@@ -92205,7 +92211,7 @@
   "ui-marc-authorities.export-cql-query": [
     {
       "type": 0,
-      "value": "Save authorities CQL query"
+      "value": "Salvar consulta CQL de autoridades"
     }
   ],
   "ui-marc-authorities.export-selected-records": [
@@ -93554,19 +93560,19 @@
   "ui-myprofile.settings.languageLocalization.fieldLocale.label": [
     {
       "type": 0,
-      "value": "Locale (for language display, date format etc.)"
+      "value": "Informações locais (para exibição do idioma, formato da data, etc.)"
     }
   ],
   "ui-myprofile.settings.languageLocalization.label": [
     {
       "type": 0,
-      "value": "Language & localization"
+      "value": "Idioma e localização"
     }
   ],
   "ui-myprofile.settings.languageLocalization.tenantDefault": [
     {
       "type": 0,
-      "value": "Tenant default"
+      "value": "Padrão do tenant"
     }
   ],
   "ui-myprofile.userDropdown.changePassword.caption": [
@@ -103820,43 +103826,43 @@
   "ui-orders.settings.orderTemplateCategories": [
     {
       "type": 0,
-      "value": "Order template categories"
+      "value": "Categorias de modelos de pedidos"
     }
   ],
   "ui-orders.settings.orderTemplateCategories.cannotDeleteTermHeader": [
     {
       "type": 0,
-      "value": "Cannot delete the order template category"
+      "value": "Não é possível excluir a categoria do modelo de pedido"
     }
   ],
   "ui-orders.settings.orderTemplateCategories.cannotDeleteTermMessage": [
     {
       "type": 0,
-      "value": "This order template category cannot be deleted, as it is in use by one or more records."
+      "value": "Esta categoria de modelo de pedido não pode ser excluída, pois está sendo usada por um ou mais registros."
     }
   ],
   "ui-orders.settings.orderTemplateCategories.deleteEntry": [
     {
       "type": 0,
-      "value": "Delete order template category"
+      "value": "Excluir categoria de modelo de pedido"
     }
   ],
   "ui-orders.settings.orderTemplateCategories.field.name": [
     {
       "type": 0,
-      "value": "Name"
+      "value": "Nome"
     }
   ],
   "ui-orders.settings.orderTemplateCategories.sub": [
     {
       "type": 0,
-      "value": "Categories"
+      "value": "Categorias"
     }
   ],
   "ui-orders.settings.orderTemplateCategories.termCreated": [
     {
       "type": 0,
-      "value": "The category "
+      "value": "A categoria "
     },
     {
       "children": [
@@ -103870,23 +103876,27 @@
     },
     {
       "type": 0,
-      "value": " was successfully "
+      "value": " foi "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "created"
+          "value": "criada"
         }
       ],
       "type": 8,
       "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " com sucesso"
     }
   ],
   "ui-orders.settings.orderTemplateCategories.termDeleted": [
     {
       "type": 0,
-      "value": "The category "
+      "value": "A categoria "
     },
     {
       "children": [
@@ -103900,23 +103910,27 @@
     },
     {
       "type": 0,
-      "value": " was successfully "
+      "value": " foi "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "deleted"
+          "value": "excluída"
         }
       ],
       "type": 8,
       "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " com sucesso"
     }
   ],
   "ui-orders.settings.orderTemplateCategories.termUpdated": [
     {
       "type": 0,
-      "value": "The category "
+      "value": "A categoria "
     },
     {
       "children": [
@@ -103930,23 +103944,27 @@
     },
     {
       "type": 0,
-      "value": " was successfully "
+      "value": " foi "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "updated"
+          "value": "atualizada"
         }
       ],
       "type": 8,
       "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " com sucesso"
     }
   ],
   "ui-orders.settings.orderTemplateCategories.termWillBeDeleted": [
     {
       "type": 0,
-      "value": "The order template category "
+      "value": "A categoria de modelo de pedido "
     },
     {
       "children": [
@@ -103960,13 +103978,13 @@
     },
     {
       "type": 0,
-      "value": " will be "
+      "value": " será "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "deleted."
+          "value": "excluída."
         }
       ],
       "type": 8,
@@ -103976,7 +103994,7 @@
   "ui-orders.settings.orderTemplateCategories.validation.duplicates": [
     {
       "type": 0,
-      "value": "Category name must be unique"
+      "value": "O nome da categoria deve ser único"
     }
   ],
   "ui-orders.settings.orderTemplates": [
@@ -104144,7 +104162,7 @@
   "ui-orders.settings.orderTemplates.editor.template.categories": [
     {
       "type": 0,
-      "value": "Order template categories"
+      "value": "Categorias de modelos de pedidos"
     }
   ],
   "ui-orders.settings.orderTemplates.editor.template.code": [
@@ -120330,55 +120348,55 @@
   "ui-reading-room.notes.label": [
     {
       "type": 0,
-      "value": "User notes"
+      "value": "Notas do usuário"
     }
   ],
   "ui-reading-room.patronBlocks.columns.automated.type": [
     {
       "type": 0,
-      "value": "Automated (cannot be edited)"
+      "value": "Automatizado (não pode ser editado)"
     }
   ],
   "ui-reading-room.patronBlocks.columns.blocked": [
     {
       "type": 0,
-      "value": "Blocked actions"
+      "value": "Ações bloqueadas"
     }
   ],
   "ui-reading-room.patronBlocks.columns.borrowing": [
     {
       "type": 0,
-      "value": "Borrowing"
+      "value": "Empréstimo"
     }
   ],
   "ui-reading-room.patronBlocks.columns.desc": [
     {
       "type": 0,
-      "value": "Display description"
+      "value": "Exibir descrição"
     }
   ],
   "ui-reading-room.patronBlocks.columns.renewals": [
     {
       "type": 0,
-      "value": "Renewals"
+      "value": "Renovações"
     }
   ],
   "ui-reading-room.patronBlocks.columns.requests": [
     {
       "type": 0,
-      "value": "Requests"
+      "value": "Requisições"
     }
   ],
   "ui-reading-room.patronBlocks.columns.type": [
     {
       "type": 0,
-      "value": "Type"
+      "value": "Tipo"
     }
   ],
   "ui-reading-room.patronBlocks.label": [
     {
       "type": 0,
-      "value": "Patron blocks"
+      "value": "Suspensões do usuário"
     }
   ],
   "ui-reading-room.patronLookup": [
@@ -122196,25 +122214,25 @@
   "ui-receiving.title.confirmationModal.removeFromPackage.confirm": [
     {
       "type": 0,
-      "value": "Confirm"
+      "value": "Confirmar"
     }
   ],
   "ui-receiving.title.confirmationModal.removeFromPackage.message": [
     {
       "type": 0,
-      "value": "Removing this title from the package will delete all related pieces and any related inventory Holdings and Items."
+      "value": "A remoção deste título do pacote excluirá todas as peças relacionadas e quaisquer coleções e itens de inventário relacionados."
     }
   ],
   "ui-receiving.title.confirmationModal.removeFromPackage.success": [
     {
       "type": 0,
-      "value": "Related pieces and any related inventory Holdings and Items have been deleted."
+      "value": "As peças relacionadas de todas as coleções e os itens de inventário relacionados foram excluídos."
     }
   ],
   "ui-receiving.title.confirmationModal.removeHolding.message": [
     {
       "type": 0,
-      "value": "Related Holdings do not reference any other pieces or items. Do you want to delete them?"
+      "value": "As Coleções Relacionadas não fazem referência a nenhuma outra peça ou item. Deseja excluí-los?"
     }
   ],
   "ui-receiving.title.contributors": [
@@ -122382,7 +122400,7 @@
   "ui-receiving.title.paneTitle.removeFromPackage": [
     {
       "type": 0,
-      "value": "Remove from package"
+      "value": "Remover do pacote"
     }
   ],
   "ui-receiving.title.polDetails": [

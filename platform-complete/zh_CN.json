@@ -10675,13 +10675,13 @@
   "stripes-erm-components.dateFilter.onOrAfter": [
     {
       "type": 0,
-      "value": "在或之后（≥）"
+      "value": "在或之后 : ≥ ) "
     }
   ],
   "stripes-erm-components.dateFilter.onOrBefore": [
     {
       "type": 0,
-      "value": "在或之前（≤）"
+      "value": "在或之前 : ≤ ) "
     }
   ],
   "stripes-erm-components.dateFilter.startDate": [
@@ -10940,13 +10940,13 @@
   "stripes-erm-components.documentFilter.has": [
     {
       "type": 0,
-      "value": "Has"
+      "value": "有"
     }
   ],
   "stripes-erm-components.documentFilter.hasNot": [
     {
       "type": 0,
-      "value": "Has not"
+      "value": "没有"
     }
   ],
   "stripes-erm-components.documentFilter.removeRule": [
@@ -10992,13 +10992,13 @@
   "stripes-erm-components.embargo.end": [
     {
       "type": 0,
-      "value": "移动结束端："
+      "value": "移动结束端 : "
     }
   ],
   "stripes-erm-components.embargo.start": [
     {
       "type": 0,
-      "value": "移动开始端："
+      "value": "移动开始端 : "
     }
   ],
   "stripes-erm-components.errorLog": [
@@ -11132,7 +11132,7 @@
     },
     {
       "type": 0,
-      "value": " ： "
+      "value": "  :  "
     },
     {
       "type": 1,
@@ -11142,7 +11142,7 @@
   "stripes-erm-components.errors.hasNonAlphaName": [
     {
       "type": 0,
-      "value": "名称只能包含拉丁字母字符（a-z）和非前导数字字符。"
+      "value": "名称只能包含拉丁字母字符 : a-z ) 和非前导数字字符。"
     }
   ],
   "stripes-erm-components.errors.invalidDate": [
@@ -11168,7 +11168,7 @@
       "children": [
         {
           "type": 0,
-          "value": "错误： "
+          "value": "错误 :  "
         }
       ],
       "type": 8,
@@ -11240,7 +11240,7 @@
   "stripes-erm-components.fuf.maxFileSize": [
     {
       "type": 0,
-      "value": "最大文件大小：200 MB"
+      "value": "最大文件大小 : 200 MB"
     }
   ],
   "stripes-erm-components.fuf.removeUploaded": [
@@ -11414,7 +11414,7 @@
   "stripes-erm-components.logs.title": [
     {
       "type": 0,
-      "value": "标题： "
+      "value": "标题 :  "
     },
     {
       "type": 1,
@@ -11630,7 +11630,7 @@
       "children": [
         {
           "type": 0,
-          "value": "错误： "
+          "value": "错误 :  "
         }
       ],
       "type": 8,
@@ -11772,7 +11772,7 @@
   "stripes-erm-components.packageReference": [
     {
       "type": 0,
-      "value": "资源包参考： "
+      "value": "资源包参考 :  "
     },
     {
       "type": 1,
@@ -11782,7 +11782,7 @@
   "stripes-erm-components.packageSource": [
     {
       "type": 0,
-      "value": "资源包来源： "
+      "value": "资源包来源 :  "
     },
     {
       "type": 1,
@@ -11832,7 +11832,7 @@
   "stripes-erm-components.recordNumber": [
     {
       "type": 0,
-      "value": "记录号： "
+      "value": "记录号 :  "
     },
     {
       "type": 1,
@@ -11842,7 +11842,7 @@
   "stripes-erm-components.rowNumber": [
     {
       "type": 0,
-      "value": "行号： "
+      "value": "行号 :  "
     },
     {
       "type": 1,
@@ -11861,6 +11861,12 @@
       "value": "全选/取消全选"
     }
   ],
+  "stripes-erm-components.showTags": [
+    {
+      "type": 0,
+      "value": "Show tags"
+    }
+  ],
   "stripes-erm-components.supplementaryProperty.help.label": [
     {
       "type": 0,
@@ -11870,7 +11876,7 @@
   "stripes-erm-components.supplementaryProperty.help.name": [
     {
       "type": 0,
-      "value": "当以机器可读格式输出补充属性数据时，使用协议条款“名称”。不应将其显示给用户（员工或读者）。它应该是短的拉丁字母字符串，可供访问协议补充属性数据的任何外部系统或程序使用。建议但不要求使用驼峰命名法。协议补充属性名称的更改将影响使用协议补充属性数据的任何外部系统，并且在未咨询负责相关外部系统和软件的人员的情况下不得进行更改。"
+      "value": "当以机器可读格式输出补充属性数据时，使用协议条款“名称”。不应将其显示给用户 : 员工或读者 ) 。它应该是短的拉丁字母字符串，可供访问协议补充属性数据的任何外部系统或程序使用。建议但不要求使用驼峰命名法。协议补充属性名称的更改将影响使用协议补充属性数据的任何外部系统，并且在未咨询负责相关外部系统和软件的人员的情况下不得进行更改。"
     }
   ],
   "stripes-erm-components.tags": [
@@ -11888,7 +11894,7 @@
   "stripes-erm-components.term.help.name": [
     {
       "type": 0,
-      "value": "当以机器可读格式输出条款数据时，使用许可证条款“名称”。它不打算显示给用户（员工或读者）。它应该是一个简短的拉丁字母字符串，可供访问许可证条款数据的任何外部系统或程序使用。建议使用驼峰命名法，但不是必需的。许可证条款名称的更改将影响使用许可证条款数据的任何外部系统，如果没有咨询负责相关外部系统和软件的人员，则不应进行更改。"
+      "value": "当以机器可读格式输出条款数据时，使用许可证条款“名称”。它不打算显示给用户 : 员工或读者 ) 。它应该是一个简短的拉丁字母字符串，可供访问许可证条款数据的任何外部系统或程序使用。建议使用驼峰命名法，但不是必需的。许可证条款名称的更改将影响使用许可证条款数据的任何外部系统，如果没有咨询负责相关外部系统和软件的人员，则不应进行更改。"
     }
   ],
   "stripes-erm-components.title": [
@@ -11920,7 +11926,7 @@
   "stripes-erm-components.url.error.invalidURL": [
     {
       "type": 0,
-      "value": "请输入有效的URL（包括“http”或“https”）。"
+      "value": "请输入有效的URL : 包括“http”或“https” ) 。"
     }
   ],
   "stripes-erm-components.value": [
@@ -95817,7 +95823,7 @@
   "ui-myprofile.settings.languageLocalization.tenantDefault": [
     {
       "type": 0,
-      "value": "Tenant default"
+      "value": "租户默认"
     }
   ],
   "ui-myprofile.userDropdown.changePassword.caption": [
@@ -122630,49 +122636,49 @@
   "ui-reading-room.patronBlocks.columns.automated.type": [
     {
       "type": 0,
-      "value": "Automated (cannot be edited)"
+      "value": "自动（无法编辑）"
     }
   ],
   "ui-reading-room.patronBlocks.columns.blocked": [
     {
       "type": 0,
-      "value": "Blocked actions"
+      "value": "操作被阻止"
     }
   ],
   "ui-reading-room.patronBlocks.columns.borrowing": [
     {
       "type": 0,
-      "value": "Borrowing"
+      "value": "外借中"
     }
   ],
   "ui-reading-room.patronBlocks.columns.desc": [
     {
       "type": 0,
-      "value": "Display description"
+      "value": "显示描述"
     }
   ],
   "ui-reading-room.patronBlocks.columns.renewals": [
     {
       "type": 0,
-      "value": "Renewals"
+      "value": "续借"
     }
   ],
   "ui-reading-room.patronBlocks.columns.requests": [
     {
       "type": 0,
-      "value": "Requests"
+      "value": "请求"
     }
   ],
   "ui-reading-room.patronBlocks.columns.type": [
     {
       "type": 0,
-      "value": "Type"
+      "value": "类别"
     }
   ],
   "ui-reading-room.patronBlocks.label": [
     {
       "type": 0,
-      "value": "Patron blocks"
+      "value": "客户模块组"
     }
   ],
   "ui-reading-room.patronLookup": [
