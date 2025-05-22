@@ -12358,6 +12358,12 @@
       "value": "Keine übereinstimmenden Optionen"
     }
   ],
+  "stripes-inventory-components.search.advanced.keyword": [
+    {
+      "type": 0,
+      "value": "Keyword (title, contributor)"
+    }
+  ],
   "stripes-inventory-components.search.advancedSearch": [
     {
       "type": 0,
@@ -63519,10 +63525,28 @@
       "value": "Sollen alle ausgewählten Berichte zurückgesetzt werden, wenn die COUNTER-Version geändert wird?"
     }
   ],
+  "ui-erm-usage.udp.form.udpInfo.changeStatusHeading": [
+    {
+      "type": 0,
+      "value": "Change of harvesting status?"
+    }
+  ],
+  "ui-erm-usage.udp.form.udpInfo.changeStatusMessage": [
+    {
+      "type": 0,
+      "value": "The harvesting status is still active, although the provider status has been set to inactive."
+    }
+  ],
   "ui-erm-usage.udp.form.udpInfo.providerName": [
     {
       "type": 0,
       "value": "Name"
+    }
+  ],
+  "ui-erm-usage.udp.form.udpInfo.setHarvestingStatusInactive": [
+    {
+      "type": 0,
+      "value": "Set harvesting status to inactive"
     }
   ],
   "ui-erm-usage.udp.form.udpInfo.title": [
@@ -131598,7 +131622,7 @@
   "ui-users.accounts.actions.warning.remaining": [
     {
       "type": 0,
-      "value": "Verbleibend"
+      "value": "Restbetrag"
     }
   ],
   "ui-users.accounts.actions.warning.summary": [
@@ -131940,7 +131964,7 @@
   "ui-users.accounts.header": [
     {
       "type": 0,
-      "value": "Gebührendetails - "
+      "value": "Forderungsdetails - "
     },
     {
       "type": 1,
@@ -132052,7 +132076,7 @@
   "ui-users.accounts.history.columns.remaining": [
     {
       "type": 0,
-      "value": "Verbleibend"
+      "value": "Restbetrag"
     }
   ],
   "ui-users.accounts.history.columns.returned": [
@@ -132070,7 +132094,7 @@
   "ui-users.accounts.history.columns.title": [
     {
       "type": 0,
-      "value": "Instanz (Exemplartyp)"
+      "value": "Titel"
     }
   ],
   "ui-users.accounts.history.columns.type": [
@@ -132474,7 +132498,7 @@
   "ui-users.accounts.remainingAmount": [
     {
       "type": 0,
-      "value": "Verbleibender Betrag"
+      "value": "Restbetrag"
     }
   ],
   "ui-users.accounts.required": [
@@ -132508,7 +132532,7 @@
   "ui-users.accounts.status.outstanding": [
     {
       "type": 0,
-      "value": "ausstehend"
+      "value": "Ausstehend"
     }
   ],
   "ui-users.accounts.status.partially": [
@@ -133192,7 +133216,7 @@
   "ui-users.blocks.columns.automated.type": [
     {
       "type": 0,
-      "value": "Automatisch (kann nicht bearbeitet werden)"
+      "value": "Automatisch (nicht editierbar)"
     }
   ],
   "ui-users.blocks.columns.blocked": [
@@ -134653,7 +134677,7 @@
   "ui-users.details.field.remainingamount": [
     {
       "type": 0,
-      "value": "Verbleibender Betrag"
+      "value": "Restbetrag"
     }
   ],
   "ui-users.details.field.returnedate": [
@@ -134741,7 +134765,7 @@
   "ui-users.details.paneTitle.feeFineDetails": [
     {
       "type": 0,
-      "value": "Einzelheiten zu den Forderungen"
+      "value": "Forderungsdetails"
     }
   ],
   "ui-users.dueDate": [
@@ -135357,7 +135381,7 @@
   "ui-users.feefines.errors.notBilledMessage": [
     {
       "type": 0,
-      "value": "Die Forderung(en) für verlorene Exemplare wurde(n) nicht in Rechnung gestellt, da der/die \"Forderungseigentümer/-in\" für die \"Primäre Servicestelle\" des Exemplars in der Einstellung \"Forderungseigentümer/-in\" nicht gefunden wurde: Forderungseigentümer/-in."
+      "value": "Die Ersatzgebühren wurde(n) nicht in Rechnung gestellt, da der/die \"Forderungseigentümer/-in\" für die \"Primäre Servicestelle\" des Exemplars in der Einstellung \"Forderungseigentümer/-in\" nicht gefunden wurde: Forderungseigentümer/-in."
     },
     {
       "children": [
@@ -135379,7 +135403,7 @@
   "ui-users.feefines.errors.notBilledTitle": [
     {
       "type": 0,
-      "value": "Rechnung für Forderung(en) für verlorene Exemplare nicht gestellt"
+      "value": "Ersatzgebühr(en) nicht in Rechnung gestellt"
     }
   ],
   "ui-users.feefines.errors.reservedName": [
@@ -136525,13 +136549,13 @@
   "ui-users.loans.details.lostItemPolicy": [
     {
       "type": 0,
-      "value": "Ausleihrichtlinie für verlorene Exemplare"
+      "value": "Richtlinie für Ersatzgebühr"
     }
   ],
   "ui-users.loans.details.overduePolicy": [
     {
       "type": 0,
-      "value": "Ausleihrichtlinie für überfällige Exemplare"
+      "value": "Säumnisgebühren-Richtlinie"
     }
   ],
   "ui-users.loans.details.printDueDateReceipt": [
@@ -136567,7 +136591,7 @@
   "ui-users.loans.feeFineDetails": [
     {
       "type": 0,
-      "value": "Einzelheiten zu den Forderungen"
+      "value": "Forderungsdetails"
     }
   ],
   "ui-users.loans.history": [
@@ -137220,7 +137244,7 @@
   "ui-users.lostItems.list.columnName.action.feeFineDetails": [
     {
       "type": 0,
-      "value": "Einzelheiten zu den Forderungen"
+      "value": "Forderungsdetails"
     }
   ],
   "ui-users.lostItems.list.columnName.action.itemDetails": [
@@ -137588,7 +137612,7 @@
         },
         {
           "type": 0,
-          "value": " eine Verlust-Gebühr in Rechnung gestellt "
+          "value": " eine Ersatzgebühr erhoben "
         },
         {
           "children": [
@@ -137935,10 +137959,6 @@
   ],
   "ui-users.lostItems.notification.cancelled": [
     {
-      "type": 0,
-      "value": "Eine Gebühr für verlorene Exemplare für "
-    },
-    {
       "children": [
         {
           "type": 0,
@@ -137964,7 +137984,7 @@
       "children": [
         {
           "type": 0,
-          "value": " nicht erhoben "
+          "value": "keine"
         }
       ],
       "type": 8,
@@ -137972,7 +137992,7 @@
     },
     {
       "type": 0,
-      "value": "."
+      "value": " Ersatzgebühr berechnet."
     }
   ],
   "ui-users.lostItems.notification.serverError": [
@@ -138234,7 +138254,7 @@
   "ui-users.owners.warning": [
     {
       "type": 0,
-      "value": "Achtung: Forderungen für verlorene Exemplare werden ohne Servicestelle nicht erhoben"
+      "value": "Achtung: Säumnisgebühren/Ersatzgebühren werden ohne Servicestelle nicht erhoben"
     }
   ],
   "ui-users.patronNoticePrintJobs.actions": [
@@ -138384,7 +138404,7 @@
   "ui-users.permission.fee-fine-actions.all": [
     {
       "type": 0,
-      "value": "Fee/Fine Details: Can create, edit and remove fee/fine actions"
+      "value": "Forderungsdetails: Kann Forderungsaktionen erstellen, bearbeiten und entfernen"
     }
   ],
   "ui-users.permission.feefineactions": [
@@ -139855,7 +139875,7 @@
   "ui-users.reports.cash.feeFineDetails": [
     {
       "type": 0,
-      "value": "Einzelheiten zu den Forderungen"
+      "value": "Forderungsdetails"
     }
   ],
   "ui-users.reports.cash.feeFineOwner": [
@@ -140069,7 +140089,7 @@
   "ui-users.reports.feeFine.details": [
     {
       "type": 0,
-      "value": "Einzelheiten zu den Forderungen"
+      "value": "Forderungsdetails"
     }
   ],
   "ui-users.reports.feeFine.itemBarcode": [
@@ -140273,7 +140293,7 @@
   "ui-users.reports.financial.feeFineDetails": [
     {
       "type": 0,
-      "value": "Gebührendetails"
+      "value": "Forderungsdetails"
     }
   ],
   "ui-users.reports.financial.feeFineOwner": [

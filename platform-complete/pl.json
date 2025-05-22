@@ -12312,6 +12312,12 @@
       "value": "Brak pasujących opcji"
     }
   ],
+  "stripes-inventory-components.search.advanced.keyword": [
+    {
+      "type": 0,
+      "value": "Keyword (title, contributor)"
+    }
+  ],
   "stripes-inventory-components.search.advancedSearch": [
     {
       "type": 0,
@@ -63536,10 +63542,28 @@
       "value": "Czy chcesz wyczyścić wybrane raporty przy zmianie wersji COUNTER?"
     }
   ],
+  "ui-erm-usage.udp.form.udpInfo.changeStatusHeading": [
+    {
+      "type": 0,
+      "value": "Change of harvesting status?"
+    }
+  ],
+  "ui-erm-usage.udp.form.udpInfo.changeStatusMessage": [
+    {
+      "type": 0,
+      "value": "The harvesting status is still active, although the provider status has been set to inactive."
+    }
+  ],
   "ui-erm-usage.udp.form.udpInfo.providerName": [
     {
       "type": 0,
       "value": "Nazwa dostawcy"
+    }
+  ],
+  "ui-erm-usage.udp.form.udpInfo.setHarvestingStatusInactive": [
+    {
+      "type": 0,
+      "value": "Set harvesting status to inactive"
     }
   ],
   "ui-erm-usage.udp.form.udpInfo.title": [
@@ -133118,7 +133142,7 @@
   "ui-users.affiliations.manager.modal.generic.error.generic": [
     {
       "type": 0,
-      "value": "Something went wrong."
+      "value": "Coś poszło nie tak."
     }
   ],
   "ui-users.affiliations.manager.modal.title": [
@@ -134259,25 +134283,25 @@
   "ui-users.contact.preferredEmailCommunication": [
     {
       "type": 0,
-      "value": "Preferred email communications"
+      "value": "Preferowany sposób komunikacji emailowej"
     }
   ],
   "ui-users.contact.preferredEmailCommunication.programs": [
     {
       "type": 0,
-      "value": "Programs"
+      "value": "Programy"
     }
   ],
   "ui-users.contact.preferredEmailCommunication.services": [
     {
       "type": 0,
-      "value": "Services"
+      "value": "Usługi"
     }
   ],
   "ui-users.contact.preferredEmailCommunication.support": [
     {
       "type": 0,
-      "value": "Support"
+      "value": "Wsparcie"
     }
   ],
   "ui-users.contact.selectAddressType": [
@@ -134439,7 +134463,7 @@
   "ui-users.data.loanActionMap.patronInfo.superseded": [
     {
       "type": 0,
-      "value": "Patron info (SUPERSEDED)"
+      "value": "Informacje o czytelniku (ZASTĄPIONE)"
     }
   ],
   "ui-users.data.loanActionMap.recallRequested": [
@@ -134481,7 +134505,7 @@
   "ui-users.data.loanActionMap.staffInfo.superseded": [
     {
       "type": 0,
-      "value": "Staff info (SUPERSEDED)"
+      "value": "Informacje o personelu (ZASTĄPIONE)"
     }
   ],
   "ui-users.data.loanActionMap.unknownAction": [
@@ -137184,7 +137208,7 @@
   "ui-users.loans.patronInfoDialogBody": [
     {
       "type": 0,
-      "value": "Add new patron information for "
+      "value": "Dodaj nowe informacje o czytelniku dla "
     },
     {
       "children": [
@@ -137210,7 +137234,7 @@
     },
     {
       "type": 0,
-      "value": " (Barcode: "
+      "value": " (Kod kreskowy: "
     },
     {
       "type": 1,
@@ -137218,7 +137242,7 @@
     },
     {
       "type": 0,
-      "value": "). This will supersede any patron information added previously."
+      "value": "). Spowoduje to zastąpienie wszelkich informacji o czytelniku dodanych wcześniej."
     }
   ],
   "ui-users.loans.resolveClaim": [
@@ -141100,13 +141124,13 @@
   "ui-users.roles.deleteRole": [
     {
       "type": 0,
-      "value": "Delete user role"
+      "value": "Usuń rolę użytkownika"
     }
   ],
   "ui-users.roles.empty": [
     {
       "type": 0,
-      "value": "No user roles found"
+      "value": "Nie znaleziono żadnych ról użytkownika"
     }
   ],
   "ui-users.roles.modal.assigned": [
@@ -141206,7 +141230,7 @@
   "ui-users.roles.userRoles": [
     {
       "type": 0,
-      "value": "User roles"
+      "value": "Role użytkownika"
     }
   ],
   "ui-users.save": [
@@ -141549,7 +141573,7 @@
   "ui-users.settings.patronBlocks": [
     {
       "type": 0,
-      "value": "Blokady czytelnika"
+      "value": "Blokady czytelników"
     }
   ],
   "ui-users.settings.patronGroups": [
@@ -141893,13 +141917,13 @@
   "ui-users.stagingRecords.list.search": [
     {
       "type": 0,
-      "value": "Search"
+      "value": "Szukaj"
     }
   ],
   "ui-users.stagingRecords.list.searchResults": [
     {
       "type": 0,
-      "value": "Patron preregistration record results"
+      "value": "Wyniki wstępnej rejestracji czytelników"
     }
   ],
   "ui-users.stagingRecords.merge": [
@@ -141911,7 +141935,7 @@
   "ui-users.stagingRecords.message.noAccessToStagingRecordsPage": [
     {
       "type": 0,
-      "value": "User does not have permission to access \"Patron preregistration record results\" page"
+      "value": "Użytkownik nie ma uprawnień dostępu do strony „Wyniki wstępnej rejestracji czytelników”"
     }
   ],
   "ui-users.stagingRecords.notActivated": [
@@ -141923,7 +141947,7 @@
   "ui-users.stagingRecords.notLoadedMessage": [
     {
       "type": 0,
-      "value": "Enter a search query to show results."
+      "value": "Wprowadź zapytanie, aby wyświetlić wyniki."
     }
   ],
   "ui-users.stagingRecords.search.label": [
@@ -141935,7 +141959,7 @@
   "ui-users.stagingRecords.search.placeholder": [
     {
       "type": 0,
-      "value": "Search by name or email"
+      "value": "Szukaj według nazwy lub adresu email"
     }
   ],
   "ui-users.stagingUser.createUser": [
