@@ -26297,6 +26297,36 @@
       "value": "Query"
     }
   ],
+  "ui-bulk-edit.titleManager.settings": [
+    {
+      "type": 0,
+      "value": "Bulk edit settings"
+    }
+  ],
+  "ui-bulk-edit.titleManager.settings.holdingsProfiles": [
+    {
+      "type": 0,
+      "value": "Bulk edit settings - Holdings bulk edit profiles"
+    }
+  ],
+  "ui-bulk-edit.titleManager.settings.instancesProfiles": [
+    {
+      "type": 0,
+      "value": "Bulk edit settings - Instances bulk edit profiles"
+    }
+  ],
+  "ui-bulk-edit.titleManager.settings.itemsProfiles": [
+    {
+      "type": 0,
+      "value": "Bulk edit settings - Items bulk edit profiles"
+    }
+  ],
+  "ui-bulk-edit.titleManager.settings.usersProfiles": [
+    {
+      "type": 0,
+      "value": "Bulk edit settings - Users bulk edit profiles"
+    }
+  ],
   "ui-bulk-edit.type.placeholder": [
     {
       "type": 0,
@@ -121100,7 +121130,7 @@
   "ui-receiving.title.confirmationModal.removeFromPackage.message": [
     {
       "type": 0,
-      "value": "Removing this title from the package will delete all related pieces and any related inventory Holdings and Items."
+      "value": "Removing this title from the package will delete all related pieces and delete any related inventory Holdings and Items. Holdings that contain items that are not related to this order and receiving title will not be deleted."
     }
   ],
   "ui-receiving.title.confirmationModal.removeFromPackage.success": [
@@ -121112,7 +121142,7 @@
   "ui-receiving.title.confirmationModal.removeHolding.message": [
     {
       "type": 0,
-      "value": "Related Holdings do not reference any other pieces or items. Do you want to delete them?"
+      "value": "One or more related Holdings do not reference any other pieces or items. Do you want to delete them?"
     }
   ],
   "ui-receiving.title.contributors": [
