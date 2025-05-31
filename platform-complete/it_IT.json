@@ -40046,25 +40046,25 @@
   "ui-courses.cv.cannotDeleteTermHeader": [
     {
       "type": 0,
-      "value": "Cannot delete the patron group"
+      "value": "Cannot delete the term"
     }
   ],
   "ui-courses.cv.cannotDeleteTermMessage": [
     {
       "type": 0,
-      "value": "This patron group cannot be deleted, as it is in use by one or more records."
+      "value": "This term cannot be deleted, as it is in use by one or more records."
     }
   ],
   "ui-courses.cv.deleteEntry": [
     {
       "type": 0,
-      "value": "Delete patron group"
+      "value": "Delete term"
     }
   ],
   "ui-courses.cv.termDeleted": [
     {
       "type": 0,
-      "value": "The patron group "
+      "value": "The term "
     },
     {
       "children": [
@@ -40094,7 +40094,7 @@
   "ui-courses.cv.termWillBeDeleted": [
     {
       "type": 0,
-      "value": "The patron group "
+      "value": "The term "
     },
     {
       "children": [
@@ -80100,6 +80100,12 @@
     {
       "type": 0,
       "value": "Fonte"
+    }
+  ],
+  "ui-inventory.sourceUri": [
+    {
+      "type": 0,
+      "value": "Instance source URI"
     }
   ],
   "ui-inventory.staffOnly": [
@@ -121421,7 +121427,7 @@
   "ui-receiving.title.confirmationModal.removeFromPackage.message": [
     {
       "type": 0,
-      "value": "Removing this title from the package will delete all related pieces and any related inventory Holdings and Items."
+      "value": "Removing this title from the package will delete all related pieces and delete any related inventory Holdings and Items. Holdings that contain items that are not related to this order and receiving title will not be deleted."
     }
   ],
   "ui-receiving.title.confirmationModal.removeFromPackage.success": [
@@ -121433,7 +121439,7 @@
   "ui-receiving.title.confirmationModal.removeHolding.message": [
     {
       "type": 0,
-      "value": "Related Holdings do not reference any other pieces or items. Do you want to delete them?"
+      "value": "One or more related Holdings do not reference any other pieces or items. Do you want to delete them?"
     }
   ],
   "ui-receiving.title.contributors": [

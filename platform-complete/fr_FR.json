@@ -19777,13 +19777,13 @@
   "ui-agreements.operator.contains": [
     {
       "type": 0,
-      "value": "Contains"
+      "value": "Contient"
     }
   ],
   "ui-agreements.operator.doesNotContain": [
     {
       "type": 0,
-      "value": "Does not contain"
+      "value": "Ne contient pas"
     }
   ],
   "ui-agreements.operator.doesNotEqual": [
@@ -19801,7 +19801,7 @@
   "ui-agreements.operator.is": [
     {
       "type": 0,
-      "value": "Is"
+      "value": "Est"
     }
   ],
   "ui-agreements.operator.isGreaterThanOrEqual": [
@@ -19819,7 +19819,7 @@
   "ui-agreements.operator.isNot": [
     {
       "type": 0,
-      "value": "Is not"
+      "value": "N'est pas"
     }
   ],
   "ui-agreements.operator.isNotSet": [
@@ -76484,7 +76484,7 @@
   "ui-inventory.item.status.unknown.lowercase": [
     {
       "type": 0,
-      "value": "unknown"
+      "value": "inconnu"
     }
   ],
   "ui-inventory.item.status.withdrawn": [
@@ -77960,7 +77960,7 @@
   "ui-inventory.numberGenerator.barcode": [
     {
       "type": 0,
-      "value": "Barcode"
+      "value": "Code-barres"
     }
   ],
   "ui-inventory.numberGenerator.callNumber": [
@@ -79991,6 +79991,12 @@
     {
       "type": 0,
       "value": "Source"
+    }
+  ],
+  "ui-inventory.sourceUri": [
+    {
+      "type": 0,
+      "value": "Instance source URI"
     }
   ],
   "ui-inventory.staffOnly": [
@@ -86764,7 +86770,7 @@
   "ui-licenses.operator.is": [
     {
       "type": 0,
-      "value": "Is"
+      "value": "Est"
     }
   ],
   "ui-licenses.operator.isGreaterThanOrEqual": [
@@ -86782,7 +86788,7 @@
   "ui-licenses.operator.isNot": [
     {
       "type": 0,
-      "value": "Is not"
+      "value": "N'est pas"
     }
   ],
   "ui-licenses.operator.isNotSet": [
@@ -94414,13 +94420,13 @@
   "ui-oa.checklistFilter.operator.is": [
     {
       "type": 0,
-      "value": "Is"
+      "value": "Est"
     }
   ],
   "ui-oa.checklistFilter.operator.isNot": [
     {
       "type": 0,
-      "value": "Is not"
+      "value": "N'est pas"
     }
   ],
   "ui-oa.checklistFilter.reapplyFilters": [
@@ -103196,7 +103202,7 @@
   "ui-orders.settings.numberGenerator.barcode": [
     {
       "type": 0,
-      "value": "Barcode"
+      "value": "Code-barres"
     }
   ],
   "ui-orders.settings.numberGenerator.callNumber": [
@@ -111605,7 +111611,7 @@
   "ui-plugin-find-instance.item.status.unknown": [
     {
       "type": 0,
-      "value": "Unknown"
+      "value": "Inconnu"
     }
   ],
   "ui-plugin-find-instance.item.status.withdrawn": [
@@ -121404,7 +121410,7 @@
   "ui-receiving.title.confirmationModal.removeFromPackage.message": [
     {
       "type": 0,
-      "value": "Removing this title from the package will delete all related pieces and any related inventory Holdings and Items."
+      "value": "Removing this title from the package will delete all related pieces and delete any related inventory Holdings and Items. Holdings that contain items that are not related to this order and receiving title will not be deleted."
     }
   ],
   "ui-receiving.title.confirmationModal.removeFromPackage.success": [
@@ -121416,7 +121422,7 @@
   "ui-receiving.title.confirmationModal.removeHolding.message": [
     {
       "type": 0,
-      "value": "Related Holdings do not reference any other pieces or items. Do you want to delete them?"
+      "value": "One or more related Holdings do not reference any other pieces or items. Do you want to delete them?"
     }
   ],
   "ui-receiving.title.contributors": [
@@ -122454,7 +122460,7 @@
   "ui-requests-mediated.confirmItem.mainSection.itemBarcodeInput.placeholder": [
     {
       "type": 0,
-      "value": "Scan or enter item barcode"
+      "value": "Scanner ou saisir le code-barres de l'exemplaire"
     }
   ],
   "ui-requests-mediated.confirmItem.mainSection.listItems.isEmptyMessage": [
@@ -122496,7 +122502,7 @@
   "ui-requests-mediated.confirmItemList.columnName.itemBarcode": [
     {
       "type": 0,
-      "value": "Item barcode"
+      "value": "Code-barres de l'exemplaire"
     }
   ],
   "ui-requests-mediated.confirmItemList.columnName.mediatedRequestStatus": [
@@ -123663,7 +123669,7 @@
   "ui-requests-mediated.report.item.barcode": [
     {
       "type": 0,
-      "value": "Item barcode"
+      "value": "Code-barres de l'exemplaire"
     }
   ],
   "ui-requests-mediated.report.item.callNumberComponents.callNumber": [
@@ -123753,7 +123759,7 @@
   "ui-requests-mediated.report.requester.barcode": [
     {
       "type": 0,
-      "value": "Requester barcode"
+      "value": "Code-barres du réservataire"
     }
   ],
   "ui-requests-mediated.report.requester.name": [
