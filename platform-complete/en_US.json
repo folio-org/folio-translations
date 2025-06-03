@@ -133298,7 +133298,35 @@
   "ui-users.blocks.textField.place": [
     {
       "type": 0,
-      "value": "Patron has block(s) in place"
+      "value": "Patron has "
+    },
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "block"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "blocks"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": " in place."
     }
   ],
   "ui-users.brd.failedRenewal": [
