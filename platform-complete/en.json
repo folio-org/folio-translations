@@ -62316,7 +62316,43 @@
   "ui-erm-usage.report.upload.info": [
     {
       "type": 0,
-      "value": "It is possible to upload Counter 4 (XML & CSV) or Counter 5 (JSON & CSV) or Counter 5.1 (JSON) usage statistics"
+      "value": "It is possible to upload usage statistics for"
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Counter 4 (XML, CSV)"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Counter 5 (JSON, CSV)"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Counter 5.1 (JSON, CSV, TSV, XLSX)"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        }
+      ],
+      "type": 8,
+      "value": "ul"
     }
   ],
   "ui-erm-usage.report.upload.modal.label": [
@@ -63234,6 +63270,12 @@
     {
       "type": 0,
       "value": ")"
+    }
+  ],
+  "ui-erm-usage.statistics.selectedFile": [
+    {
+      "type": 0,
+      "value": "Selected file"
     }
   ],
   "ui-erm-usage.sushiCreds.apiKey": [
@@ -124272,6 +124314,12 @@
     {
       "type": 0,
       "value": "Recalls"
+    }
+  ],
+  "ui-requests.forUseAtLocation": [
+    {
+      "type": 0,
+      "value": "For use at location"
     }
   ],
   "ui-requests.fulfillmentPreference": [
