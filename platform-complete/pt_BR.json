@@ -11830,7 +11830,7 @@
   "stripes-erm-components.showTags": [
     {
       "type": 0,
-      "value": "Show tags"
+      "value": "Mostrar tags"
     }
   ],
   "stripes-erm-components.supplementaryProperty.help.label": [
@@ -12311,7 +12311,7 @@
   "stripes-inventory-components.search.advanced.keyword": [
     {
       "type": 0,
-      "value": "Keyword (title, contributor)"
+      "value": "Palavra-chave (título, colaborador)"
     }
   ],
   "stripes-inventory-components.search.advancedSearch": [
@@ -12431,7 +12431,7 @@
   "stripes-inventory-components.search.item.keyword": [
     {
       "type": 0,
-      "value": "Keyword (title, contributor, identifier, HRID, UUID, barcode)"
+      "value": "Palavra-chave (título, colaborador, identificador, HRID, UUID, código de barras)"
     }
   ],
   "stripes-inventory-components.search.itemAdministrativeNotes": [
@@ -33939,7 +33939,7 @@
   "ui-circulation.settings.loanPolicy.forUseAtLocation": [
     {
       "type": 0,
-      "value": "For use at location"
+      "value": "Para uso no local"
     }
   ],
   "ui-circulation.settings.loanPolicy.generalInformation": [
@@ -33957,7 +33957,7 @@
   "ui-circulation.settings.loanPolicy.holdShelfExpirationPeriod": [
     {
       "type": 0,
-      "value": "Hold shelf expiration period"
+      "value": "Período de vencimento da reserva"
     }
   ],
   "ui-circulation.settings.loanPolicy.itemLimit": [
@@ -34791,7 +34791,7 @@
   "ui-circulation.settings.noticePolicy.requestNotices.holdExpiration": [
     {
       "type": 0,
-      "value": "Expiração da reserva"
+      "value": "Vencimento da reserva"
     }
   ],
   "ui-circulation.settings.noticePolicy.requestNotices.holdRequest": [
@@ -62784,7 +62784,43 @@
   "ui-erm-usage.report.upload.info": [
     {
       "type": 0,
-      "value": "É possível carregar estatísticas de uso Counter 4 (XML e CSV) ou Counter 5 (JSON e CSV) ou Counter 5.1 (JSON)"
+      "value": "É possível fazer upload de estatísticas de uso para"
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": " Counter 4 (XML, CSV)"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": " Counter 5 (JSON, CSV)"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": " Counter 5.1 (JSON, CSV, TSV, XLSX)"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        }
+      ],
+      "type": 8,
+      "value": "ul"
     }
   ],
   "ui-erm-usage.report.upload.modal.label": [
@@ -63689,7 +63725,7 @@
   "ui-erm-usage.statistics.selectedFile": [
     {
       "type": 0,
-      "value": "Selected file"
+      "value": "Arquivo selecionado"
     }
   ],
   "ui-erm-usage.sushiCreds.apiKey": [
@@ -80571,7 +80607,7 @@
   "ui-inventory.sourceUri": [
     {
       "type": 0,
-      "value": "Instance source URI"
+      "value": "URI da fonte da instância"
     }
   ],
   "ui-inventory.staffOnly": [
@@ -123790,7 +123826,7 @@
   "ui-requests-mediated.form.request.fulfillment.holdShelf": [
     {
       "type": 0,
-      "value": "Prateleira de espera"
+      "value": "Reserva"
     }
   ],
   "ui-requests-mediated.form.request.fulfilmentPreference": [
@@ -125239,7 +125275,7 @@
   "ui-requests.errors.fulfillmentPreferenceIsNotAllowed": [
     {
       "type": 0,
-      "value": "A preferência de atendimento deve ser uma das seguintes: Prateleira de espera, Entrega"
+      "value": "A preferência de atendimento deve ser uma das seguintes: Reserva, Entrega"
     }
   ],
   "ui-requests.errors.holdAndRecallTlrNotAllowedPageableAvailableItemFound": [
@@ -125431,7 +125467,7 @@
   "ui-requests.exportExpiredHoldShelfCsv": [
     {
       "type": 0,
-      "value": "Relatório de liberação de prateleira de reserva "
+      "value": "Relatório de liberação de reserva "
     },
     {
       "type": 1,
@@ -125557,7 +125593,7 @@
   "ui-requests.forUseAtLocation": [
     {
       "type": 0,
-      "value": "For use at location"
+      "value": "Para uso no local"
     }
   ],
   "ui-requests.fulfillmentPreference": [
@@ -125575,13 +125611,13 @@
   "ui-requests.holdShelfExpirationDate": [
     {
       "type": 0,
-      "value": "Data de vencimento da estante de reservas"
+      "value": "Data de vencimento da reserva"
     }
   ],
   "ui-requests.holdShelfExpirationTime": [
     {
       "type": 0,
-      "value": "holdShelfExpirationTime"
+      "value": "Tempo de vencimento da reserva"
     }
   ],
   "ui-requests.instance.contributorNames": [
@@ -126099,7 +126135,7 @@
   "ui-requests.noServicePoint.errorMessage": [
     {
       "type": 0,
-      "value": "Você deve estar logado em um ponto de serviço para acessar o relatório de liberação de prateleira da reserva. Por favor, adicione um ou mais pontos de serviço ao seu registro de usuário no aplicativo Usuários. Entre em contato com um administrador se você não tiver a capacidade de adicionar pontos de serviço ao seu registro."
+      "value": "Você deve estar logado em um ponto de serviço para acessar o relatório de liberação da reserva. Por favor, adicione um ou mais pontos de serviço ao seu registro de usuário no aplicativo Usuários. Entre em contato com um administrador se você não tiver a capacidade de adicionar pontos de serviço ao seu registro."
     }
   ],
   "ui-requests.noServicePoint.label": [
@@ -126415,7 +126451,7 @@
   "ui-requests.requestMeta.fulfillment.holdShelf": [
     {
       "type": 0,
-      "value": "Prateleira de espera"
+      "value": "Reserva"
     }
   ],
   "ui-requests.requestMeta.fulfilment.delivery": [
@@ -126433,7 +126469,7 @@
   "ui-requests.requestMeta.holdShelfExpirationDate": [
     {
       "type": 0,
-      "value": "Data de vencimento da estante de reservas"
+      "value": "Data de vencimento da reserva"
     }
   ],
   "ui-requests.requestMeta.information": [
@@ -126671,7 +126707,7 @@
   "ui-requests.requestQueue.holdShelfExpirationDate": [
     {
       "type": 0,
-      "value": "Expiração na prateleira de espera"
+      "value": "Vencimento da reserva"
     }
   ],
   "ui-requests.requestQueue.itemBarcode": [
@@ -132268,7 +132304,7 @@
   "ui-tenant-settings.settings.servicePoints.expirationPeriod": [
     {
       "type": 0,
-      "value": "Período da estante de reservas"
+      "value": "Período de vencimento da reserva"
     }
   ],
   "ui-tenant-settings.settings.servicePoints.feeFineOwner": [
@@ -132286,7 +132322,7 @@
   "ui-tenant-settings.settings.servicePoints.holdShelfClosedLibraryDateManagement": [
     {
       "type": 0,
-      "value": "Gerenciamento de data da biblioteca está fechada para cálculo da data de validade da estante de reserva"
+      "value": "Gerenciamento de data da biblioteca está fechada para cálculo da data de vencimento da reserva"
     }
   ],
   "ui-tenant-settings.settings.servicePoints.holdShelfClosedLibraryDateManagement.MoveToTheBeginningOfTheNextOpenServicePointHours": [
@@ -134694,7 +134730,35 @@
   "ui-users.blocks.textField.place": [
     {
       "type": 0,
-      "value": "Usuário tem suspensões ativas"
+      "value": "O usuário tem "
+    },
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "bloqueio"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "bloqueios"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": " no lugar."
     }
   ],
   "ui-users.brd.failedRenewal": [
@@ -142267,7 +142331,7 @@
   "ui-users.requests.holdShelf": [
     {
       "type": 0,
-      "value": "Prateleira de espera"
+      "value": "Reserva"
     }
   ],
   "ui-users.requests.holdShelfNo": [

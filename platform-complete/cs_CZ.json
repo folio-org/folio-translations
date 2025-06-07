@@ -11840,7 +11840,7 @@
   "stripes-erm-components.showTags": [
     {
       "type": 0,
-      "value": "Show tags"
+      "value": "Zobrazit štítky"
     }
   ],
   "stripes-erm-components.supplementaryProperty.help.label": [
@@ -12321,7 +12321,7 @@
   "stripes-inventory-components.search.advanced.keyword": [
     {
       "type": 0,
-      "value": "Keyword (title, contributor)"
+      "value": "Klíčové slovo (název, autorita)"
     }
   ],
   "stripes-inventory-components.search.advancedSearch": [
@@ -12441,7 +12441,7 @@
   "stripes-inventory-components.search.item.keyword": [
     {
       "type": 0,
-      "value": "Keyword (title, contributor, identifier, HRID, UUID, barcode)"
+      "value": "Klíčové slovo (název, přispěvatel, identifikátor, HRID, UUID, čárový kód)"
     }
   ],
   "stripes-inventory-components.search.itemAdministrativeNotes": [
@@ -25014,7 +25014,7 @@
   "ui-bulk-edit.list.preview.title": [
     {
       "type": 0,
-      "value": "Náhled porovnaného záznamu"
+      "value": "Náhled odpovídajících záznamů"
     }
   ],
   "ui-bulk-edit.list.preview.titleChanged": [
@@ -80087,7 +80087,7 @@
   "ui-inventory.sourceUri": [
     {
       "type": 0,
-      "value": "Instance source URI"
+      "value": "Zdroj titulu (URI)"
     }
   ],
   "ui-inventory.staffOnly": [
@@ -133618,7 +133618,39 @@
   "ui-users.blocks.textField.place": [
     {
       "type": 0,
-      "value": "U čtenáře existují blokace"
+      "value": "Čtenář má "
+    },
+    {
+      "offset": 0,
+      "options": {
+        "few": {
+          "value": [
+            {
+              "type": 0,
+              "value": "blokace"
+            }
+          ]
+        },
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "blokaci"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "blokací"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "count"
     }
   ],
   "ui-users.brd.failedRenewal": [

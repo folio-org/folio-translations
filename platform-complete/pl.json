@@ -282,7 +282,7 @@
   "stripes-acq-components.consortia.affiliations.select.label": [
     {
       "type": 0,
-      "value": "Affiliation"
+      "value": "Afiliacja"
     }
   ],
   "stripes-acq-components.currency": [
@@ -724,13 +724,13 @@
   "stripes-acq-components.label.contributor": [
     {
       "type": 0,
-      "value": "Współtwórca"
+      "value": "Współautor"
     }
   ],
   "stripes-acq-components.label.contributorType": [
     {
       "type": 0,
-      "value": "Rodzaj współtwórcy"
+      "value": "Rodzaj współautora"
     }
   ],
   "stripes-acq-components.label.emptyValue": [
@@ -1225,13 +1225,13 @@
   "stripes-acq-components.routing.list.actions.printRoutingList": [
     {
       "type": 0,
-      "value": "Print all routing lists"
+      "value": "Drukuj wszystkie listy routingu"
     }
   ],
   "stripes-acq-components.routing.list.actions.printRoutingList.error": [
     {
       "type": 0,
-      "value": "Something went wrong. Make sure the routing list configuration is set up correctly."
+      "value": "Coś poszło nie tak. Upewnij się, że konfiguracja listy routingu jest prawidłowa."
     }
   ],
   "stripes-acq-components.routing.list.addUsers": [
@@ -1273,7 +1273,7 @@
   "stripes-acq-components.routing.list.create.error": [
     {
       "type": 0,
-      "value": "Something went wrong. The Routing list was not created."
+      "value": "Coś poszło nie tak. Lista routingu nie została utworzona."
     }
   ],
   "stripes-acq-components.routing.list.create.error.nameMustBeUnique": [
@@ -1285,7 +1285,7 @@
   "stripes-acq-components.routing.list.create.label": [
     {
       "type": 0,
-      "value": "Create routing list"
+      "value": "Utwórz listę routingu"
     }
   ],
   "stripes-acq-components.routing.list.create.paneMenu.save": [
@@ -1297,7 +1297,7 @@
   "stripes-acq-components.routing.list.create.success": [
     {
       "type": 0,
-      "value": "The Routing list was successfully created."
+      "value": "Lista routingu została pomyślnie utworzona."
     }
   ],
   "stripes-acq-components.routing.list.create.unassign.confirm-continue": [
@@ -1315,7 +1315,7 @@
   "stripes-acq-components.routing.list.create.unassign.confirm-message": [
     {
       "type": 0,
-      "value": "You are unassigning all users from the routing list "
+      "value": "Anulujesz przypisanie wszystkich użytkowników do listy routingu "
     },
     {
       "children": [
@@ -1323,7 +1323,7 @@
           "children": [
             {
               "type": 0,
-              "value": "Are you sure?"
+              "value": "Czy na pewno?"
             }
           ],
           "type": 8,
@@ -1349,19 +1349,19 @@
   "stripes-acq-components.routing.list.delete.confirm.title": [
     {
       "type": 0,
-      "value": "Delete Routing list"
+      "value": "Usuń listę routingu"
     }
   ],
   "stripes-acq-components.routing.list.delete.error": [
     {
       "type": 0,
-      "value": "Something went wrong. The Routing list was not deleted."
+      "value": "Coś poszło nie tak. Lista routingu nie została usunięta."
     }
   ],
   "stripes-acq-components.routing.list.delete.success": [
     {
       "type": 0,
-      "value": "The Routing list was successfully deleted."
+      "value": "Lista routingu została pomyślnie usunięta."
     }
   ],
   "stripes-acq-components.routing.list.generalInformation": [
@@ -1373,7 +1373,7 @@
   "stripes-acq-components.routing.list.label": [
     {
       "type": 0,
-      "value": "Routing lists"
+      "value": "Listy routingu"
     }
   ],
   "stripes-acq-components.routing.list.name": [
@@ -1385,7 +1385,7 @@
   "stripes-acq-components.routing.list.noRoutingLists": [
     {
       "type": 0,
-      "value": "No routing lists"
+      "value": "Brak list routingu"
     }
   ],
   "stripes-acq-components.routing.list.notes": [
@@ -1415,7 +1415,7 @@
   "stripes-acq-components.routing.list.update.success": [
     {
       "type": 0,
-      "value": "The Routing list was successfully updated."
+      "value": "Lista routingu została pomyślnie zaktualizowana."
     }
   ],
   "stripes-acq-components.routing.list.users": [
@@ -1765,7 +1765,7 @@
   "stripes-authority-components.authorities.error.forbidden": [
     {
       "type": 0,
-      "value": "User does not have permission to search authority records."
+      "value": "Użytkownik nie ma uprawnień do przeszukiwania rekordów KHW"
     }
   ],
   "stripes-authority-components.authority.view.error.notFound": [
@@ -1920,7 +1920,7 @@
           "value": [
             {
               "type": 0,
-              "value": "Local"
+              "value": "Lokalny"
             }
           ]
         },
@@ -1931,7 +1931,7 @@
           "value": [
             {
               "type": 0,
-              "value": "Shared"
+              "value": "Współdzielony"
             }
           ]
         }
@@ -1941,7 +1941,7 @@
     },
     {
       "type": 0,
-      "value": " MARC authority record"
+      "value": " rekord KHW"
     }
   ],
   "stripes-authority-components.meta.title": [
@@ -2491,7 +2491,7 @@
   "stripes-components.auditLog.card.shared": [
     {
       "type": 0,
-      "value": "Shared"
+      "value": "Współdzielony"
     }
   ],
   "stripes-components.auditLog.modal.action": [
@@ -9165,7 +9165,7 @@
   "stripes-core.mainnav.profileDropdown.locale": [
     {
       "type": 0,
-      "value": "Locale"
+      "value": "Lokalne"
     }
   ],
   "stripes-core.mainnav.profileDropdown.permissions": [
@@ -9779,7 +9779,7 @@
   "stripes-data-transfer-components.recordTypes.marc-hold": [
     {
       "type": 0,
-      "value": "MARC rekordu zasobu "
+      "value": "MARC zasobów"
     }
   ],
   "stripes-data-transfer-components.recordTypes.order": [
@@ -10900,7 +10900,7 @@
   "stripes-erm-components.documentFilter.filterName.coreDocuments": [
     {
       "type": 0,
-      "value": "Core documents"
+      "value": "Dokumenty podstawowe"
     }
   ],
   "stripes-erm-components.documentFilter.filterName.supplementaryDocuments": [
@@ -11834,7 +11834,7 @@
   "stripes-erm-components.showTags": [
     {
       "type": 0,
-      "value": "Show tags"
+      "value": "Pokaż tagi"
     }
   ],
   "stripes-erm-components.supplementaryProperty.help.label": [
@@ -12069,7 +12069,7 @@
   "stripes-inventory-components.facet.nameType": [
     {
       "type": 0,
-      "value": "Rodzaj autora"
+      "value": "Rodzaj nazwy"
     }
   ],
   "stripes-inventory-components.facet.natureOfContentTerms": [
@@ -12111,7 +12111,7 @@
   "stripes-inventory-components.facet.tenantId": [
     {
       "type": 0,
-      "value": "Trzymany przez"
+      "value": "Przechowywany przez"
     }
   ],
   "stripes-inventory-components.holdingsCreatedDate": [
@@ -12129,7 +12129,7 @@
   "stripes-inventory-components.instances.columns.contributors": [
     {
       "type": 0,
-      "value": "Współtwórcy"
+      "value": "Współautorzy"
     }
   ],
   "stripes-inventory-components.instances.columns.date": [
@@ -12315,7 +12315,7 @@
   "stripes-inventory-components.search.advanced.keyword": [
     {
       "type": 0,
-      "value": "Keyword (title, contributor)"
+      "value": "Słowo kluczowe (tytuł, współautor)"
     }
   ],
   "stripes-inventory-components.search.advancedSearch": [
@@ -12357,7 +12357,7 @@
   "stripes-inventory-components.search.contributor": [
     {
       "type": 0,
-      "value": "Współtwórca"
+      "value": "Współautor"
     }
   ],
   "stripes-inventory-components.search.effectiveCallNumberShelving": [
@@ -12435,7 +12435,7 @@
   "stripes-inventory-components.search.item.keyword": [
     {
       "type": 0,
-      "value": "Keyword (title, contributor, identifier, HRID, UUID, barcode)"
+      "value": "Słowo kluczowe (tytuł, współautor, identyfikator, HRID, UUID, kod kreskowy)"
     }
   ],
   "stripes-inventory-components.search.itemAdministrativeNotes": [
@@ -13980,7 +13980,7 @@
   "stripes-smart-components.customFields.settings.accordionTitle": [
     {
       "type": 0,
-      "value": "Tytuł harmonijki"
+      "value": "Tytuł sekcji"
     }
   ],
   "stripes-smart-components.customFields.settings.sectionTitle": [
@@ -135647,7 +135647,7 @@
   "ui-users.feefines.errors.existShared": [
     {
       "type": 0,
-      "value": "Dla właściciela istnieje już rodzaj opłaty/kary"
+      "value": "Istnieje typ opłaty/kary dla właściciela współdzielonej opłaty/kary"
     }
   ],
   "ui-users.feefines.errors.notBilledMessage": [
@@ -136273,7 +136273,7 @@
   "ui-users.item.contributors": [
     {
       "type": 0,
-      "value": "Nazwy współtwórcy"
+      "value": "Nazwy współautorów"
     }
   ],
   "ui-users.item.copyNumber": [
@@ -136562,7 +136562,7 @@
   "ui-users.loans.columns.contributors": [
     {
       "type": 0,
-      "value": "Współtwórcy"
+      "value": "Współautorzy"
     }
   ],
   "ui-users.loans.columns.dueDate": [
@@ -138422,7 +138422,7 @@
   "ui-users.owners.noServicePoints": [
     {
       "type": 0,
-      "value": "Powiązane punkty obsługi nie są dozwolone dla Współdzielenia właściciela opłaty/kary"
+      "value": "Powiązane punkty obsługi nie są dozwolone dla właściciela współdzielonej opłaty/kary"
     }
   ],
   "ui-users.owners.nodata": [
@@ -138644,13 +138644,13 @@
   "ui-users.permission.loans-claim-item-returned.execute": [
     {
       "type": 0,
-      "value": "Użytkownicy: wypożyczenia użytkownika zapewnione że zwrócone"
+      "value": "Użytkownicy: zmiana statusu wypożyczeń na \"zapewnione że zwrócone\""
     }
   ],
   "ui-users.permission.loans-declare-claimed-returned-item-as-missing.execute": [
     {
       "type": 0,
-      "value": "Użytkownicy: oznaczanie wypożyczeń użytkownika zapewnionych że zwrócone i brakujące"
+      "value": "Użytkownicy: zmiana statusu wypożyczeń użytkownika z \"zapewnione że zwrócone\" na \"brakujące\""
     }
   ],
   "ui-users.permission.loans-declare-item-lost.execute": [
@@ -138662,7 +138662,7 @@
   "ui-users.permission.loans-due-date.edit": [
     {
       "type": 0,
-      "value": "Użytkownicy: wypożyczenia użytkownika zmiana terminu zwrotu"
+      "value": "Użytkownicy: zmiana terminu zwrotu wypożyczeń"
     }
   ],
   "ui-users.permission.loans-renew-override.create": [
@@ -140489,7 +140489,7 @@
   "ui-users.reports.financial.contributors": [
     {
       "type": 0,
-      "value": "Współtwórcy"
+      "value": "Współautorzy"
     }
   ],
   "ui-users.reports.financial.dueDate": [
@@ -140793,7 +140793,7 @@
   "ui-users.reports.item.contributors": [
     {
       "type": 0,
-      "value": "Współtwórcy"
+      "value": "Współautorzy"
     }
   ],
   "ui-users.reports.item.copyNumber": [
@@ -140889,7 +140889,7 @@
   "ui-users.reports.overdue.item.contributors": [
     {
       "type": 0,
-      "value": "Współtwórcy"
+      "value": "Współautorzy"
     }
   ],
   "ui-users.reports.overdue.label": [

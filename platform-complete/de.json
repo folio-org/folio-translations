@@ -9269,7 +9269,7 @@
   "stripes-core.rtr.fixedLengthSession.timeRemaining": [
     {
       "type": 0,
-      "value": "Your session will end soon! Time remaining:"
+      "value": "Die Session endet bald! Verbleibende Zeit:"
     }
   ],
   "stripes-core.rtr.idleSession.keepWorking": [
@@ -14400,7 +14400,7 @@
   "stripes-smart-components.feesfines.policy.lost.duplicate": [
     {
       "type": 0,
-      "value": "Der eingegebene Name der Gebührenrichtlinie für Ersatz existiert bereits. Bitte anderen Namen eingeben."
+      "value": "Der eingegebene Name der Richtlinie für Ersatzgebühr existiert bereits. Bitte anderen Namen eingeben."
     }
   ],
   "stripes-smart-components.hideSearchPane": [
@@ -62461,7 +62461,7 @@
   "ui-erm-usage.report.error.htmlResponse": [
     {
       "type": 0,
-      "value": "An error has occured"
+      "value": "Es ist ein Fehler aufgetreten"
     }
   ],
   "ui-erm-usage.report.error.other": [
@@ -62515,7 +62515,43 @@
   "ui-erm-usage.report.upload.info": [
     {
       "type": 0,
-      "value": "Berichte können als COUNTER 4 (XML & CSV) oder COUNTER 5 (JSON & CSV) hochgeladen werden."
+      "value": "Es ist möglich, Nutzungsstatistiken hochzuladen für"
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Counter 4 (XML, CSV)"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Counter 5 (JSON, CSV)"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Counter 5.1 (JSON, CSV, TSV, XLSX)"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        }
+      ],
+      "type": 8,
+      "value": "ul"
     }
   ],
   "ui-erm-usage.report.upload.modal.label": [

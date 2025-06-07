@@ -62242,7 +62242,43 @@
   "ui-erm-usage.report.upload.info": [
     {
       "type": 0,
-      "value": "It is possible to upload Counter 4 (XML & CSV) or Counter 5 (JSON & CSV) or Counter 5.1 (JSON) usage statistics"
+      "value": "It is possible to upload usage statistics for"
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Counter 4 (XML, CSV)"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Counter 5 (JSON, CSV)"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Counter 5.1 (JSON, CSV, TSV, XLSX)"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        }
+      ],
+      "type": 8,
+      "value": "ul"
     }
   ],
   "ui-erm-usage.report.upload.modal.label": [
@@ -133194,7 +133230,35 @@
   "ui-users.blocks.textField.place": [
     {
       "type": 0,
-      "value": "Patron has block(s) in place"
+      "value": "Patron has "
+    },
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "block"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "blocks"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": " in place."
     }
   ],
   "ui-users.brd.failedRenewal": [
