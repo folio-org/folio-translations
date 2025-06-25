@@ -12321,7 +12321,7 @@
   "stripes-inventory-components.search.advanced.keyword": [
     {
       "type": 0,
-      "value": "Klíčové slovo (název, autorita)"
+      "value": "Klíčové slovo (název, autor, identifikátor)"
     }
   ],
   "stripes-inventory-components.search.advancedSearch": [
@@ -12441,7 +12441,7 @@
   "stripes-inventory-components.search.item.keyword": [
     {
       "type": 0,
-      "value": "Klíčové slovo (název, přispěvatel, identifikátor, HRID, UUID, čárový kód)"
+      "value": "Klíčové slovo (název, autor, identifikátor, HRID, UUID, čárový kód)"
     }
   ],
   "stripes-inventory-components.search.itemAdministrativeNotes": [
@@ -131111,6 +131111,30 @@
     {
       "type": 0,
       "value": "Vytvořit"
+    }
+  ],
+  "ui-tenant-settings.settings.servicePoints.defaultCheckinAction": [
+    {
+      "type": 0,
+      "value": "Default check-in action for use at location"
+    }
+  ],
+  "ui-tenant-settings.settings.servicePoints.defaultCheckinAction.Ask_for_action": [
+    {
+      "type": 0,
+      "value": "Ask for action"
+    }
+  ],
+  "ui-tenant-settings.settings.servicePoints.defaultCheckinAction.Close_loan_and_return_item": [
+    {
+      "type": 0,
+      "value": "Close loan and return item"
+    }
+  ],
+  "ui-tenant-settings.settings.servicePoints.defaultCheckinAction.Keep_on_hold_shelf": [
+    {
+      "type": 0,
+      "value": "Keep on hold shelf"
     }
   ],
   "ui-tenant-settings.settings.servicePoints.delete": [

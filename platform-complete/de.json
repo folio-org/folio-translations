@@ -11880,7 +11880,7 @@
   "stripes-erm-components.showTags": [
     {
       "type": 0,
-      "value": "Show tags"
+      "value": "Tags anzeigen"
     }
   ],
   "stripes-erm-components.supplementaryProperty.help.label": [
@@ -12043,7 +12043,7 @@
   "stripes-inventory-components.error.badRequest": [
     {
       "type": 0,
-      "value": "Search could not be processed. Please check your query and try again."
+      "value": "Die Suche konnte nicht verarbeitet werden. Bitte überprüfen Sie Ihre Anfrage und versuchen Sie es erneut."
     }
   ],
   "stripes-inventory-components.facet.discoverySuppress": [
@@ -12361,7 +12361,7 @@
   "stripes-inventory-components.search.advanced.keyword": [
     {
       "type": 0,
-      "value": "Keyword (title, contributor)"
+      "value": "Stichwort (Titel, Mitwirkende/-r, Identifikator)"
     }
   ],
   "stripes-inventory-components.search.advancedSearch": [
@@ -12481,7 +12481,7 @@
   "stripes-inventory-components.search.item.keyword": [
     {
       "type": 0,
-      "value": "Keyword (title, contributor, identifier, HRID, UUID, barcode)"
+      "value": "Stichwort (Titel, Mitwirkende/-r, Identifikator, HRID, UUID, Barcode)"
     }
   ],
   "stripes-inventory-components.search.itemAdministrativeNotes": [
@@ -131295,6 +131295,30 @@
     {
       "type": 0,
       "value": "Erstellen"
+    }
+  ],
+  "ui-tenant-settings.settings.servicePoints.defaultCheckinAction": [
+    {
+      "type": 0,
+      "value": "Default check-in action for use at location"
+    }
+  ],
+  "ui-tenant-settings.settings.servicePoints.defaultCheckinAction.Ask_for_action": [
+    {
+      "type": 0,
+      "value": "Ask for action"
+    }
+  ],
+  "ui-tenant-settings.settings.servicePoints.defaultCheckinAction.Close_loan_and_return_item": [
+    {
+      "type": 0,
+      "value": "Close loan and return item"
+    }
+  ],
+  "ui-tenant-settings.settings.servicePoints.defaultCheckinAction.Keep_on_hold_shelf": [
+    {
+      "type": 0,
+      "value": "Keep on hold shelf"
     }
   ],
   "ui-tenant-settings.settings.servicePoints.delete": [
