@@ -102272,6 +102272,18 @@
       "value": "Fluxo de recebimento"
     }
   ],
+  "ui-orders.poLine.receivingWorkflow.confirmModal.heading": [
+    {
+      "type": 0,
+      "value": "Update receiving workflow"
+    }
+  ],
+  "ui-orders.poLine.receivingWorkflow.confirmModal.message": [
+    {
+      "type": 0,
+      "value": "You are about to change the receiving workflow to “Independent order and receipt quantity”. This change cannot be undone unless the order is unopened. Are you sure you want to continue?"
+    }
+  ],
   "ui-orders.poLine.receivingWorkflow.independent": [
     {
       "type": 0,
@@ -102282,6 +102294,12 @@
     {
       "type": 0,
       "value": "A seleção sincronizada manterá a quantidade do pedido e o número de partes a serem recebidas, em sincronia. Isto também significa que ao atualizar um, também atualizará o outro. Quando o pedido é aberto, o sistema gerará partes com base na quantidade pedida."
+    }
+  ],
+  "ui-orders.poLine.receivingWorkflow.infoPopover": [
+    {
+      "type": 0,
+      "value": "Selecting synchronized will keep the order quantity and the number of pieces to be received, in sync. This also means updating one will update the other. When the order is opened, the system will generate pieces based on the quantity order. Selecting “independent order and receipt quantity” will allow you to manage the number of receiving pieces and their locations independently. You can convert a POL to independent at anytime but you cannot convert back to synchronized when the order is open or closed."
     }
   ],
   "ui-orders.poLine.receivingWorkflow.synchronized": [

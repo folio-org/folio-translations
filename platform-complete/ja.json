@@ -102631,6 +102631,18 @@
       "value": "受入ワークフロー"
     }
   ],
+  "ui-orders.poLine.receivingWorkflow.confirmModal.heading": [
+    {
+      "type": 0,
+      "value": "Update receiving workflow"
+    }
+  ],
+  "ui-orders.poLine.receivingWorkflow.confirmModal.message": [
+    {
+      "type": 0,
+      "value": "You are about to change the receiving workflow to “Independent order and receipt quantity”. This change cannot be undone unless the order is unopened. Are you sure you want to continue?"
+    }
+  ],
   "ui-orders.poLine.receivingWorkflow.independent": [
     {
       "type": 0,
@@ -102641,6 +102653,12 @@
     {
       "type": 0,
       "value": "同期を選択すると、注文数量と受入個数が同期された状態になります。これは、一方を更新すると、もう一方も更新されることを意味します。注文がオープンになると、システムは注文数量に基づいて「個数」を生成します。"
+    }
+  ],
+  "ui-orders.poLine.receivingWorkflow.infoPopover": [
+    {
+      "type": 0,
+      "value": "Selecting synchronized will keep the order quantity and the number of pieces to be received, in sync. This also means updating one will update the other. When the order is opened, the system will generate pieces based on the quantity order. Selecting “independent order and receipt quantity” will allow you to manage the number of receiving pieces and their locations independently. You can convert a POL to independent at anytime but you cannot convert back to synchronized when the order is open or closed."
     }
   ],
   "ui-orders.poLine.receivingWorkflow.synchronized": [
