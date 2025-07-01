@@ -11,6 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: git clone --depth=1 --branch snapshot https://github.com/folio-org/platform-complete build
+      - run: cp build/yarn.lock .
       - uses: actions/setup-node@v4
         with:
           node-version: '18'
