@@ -19,7 +19,7 @@ for FILE in ./*-*.json ; do
   if [ -z $LANG ] ; then
     continue
   fi
-  URL="https://raw.githubusercontent.com/gbv/folio-translations/main/platform-complete/$LANG.json"
+  URL="https://raw.githubusercontent.com/folio-org/folio-translations/refs/heads/main/platform-complete/$LANG.json"
   if wget "$URL" -O "$LANG.json"; then
     echo "$URL"
   else
