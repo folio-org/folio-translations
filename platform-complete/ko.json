@@ -21408,6 +21408,24 @@
       "value": "화면 설정"
     }
   ],
+  "ui-agreements.settings.displaySuppressFromDiscovery.agreementLine": [
+    {
+      "type": 0,
+      "value": "Display \"Suppress from discovery\" setting on Agreement lines"
+    }
+  ],
+  "ui-agreements.settings.displaySuppressFromDiscovery.pci": [
+    {
+      "type": 0,
+      "value": "Display \"Suppress from discovery\" setting on Titles in packages"
+    }
+  ],
+  "ui-agreements.settings.displaySuppressFromDiscovery.title": [
+    {
+      "type": 0,
+      "value": "Display \"Suppress from discovery\" setting on Titles"
+    }
+  ],
   "ui-agreements.settings.error.valueNotInRange": [
     {
       "type": 0,
@@ -21502,6 +21520,18 @@
       "value": "계약 품목 (Agreement Lines)"
     }
   ],
+  "ui-agreements.settings.general.hideAccordions.description": [
+    {
+      "type": 0,
+      "value": "Hide accordions in agreement edit view"
+    }
+  ],
+  "ui-agreements.settings.general.hideAccordions.usageData": [
+    {
+      "type": 0,
+      "value": "Usage data"
+    }
+  ],
   "ui-agreements.settings.general.hideEResourcesFunctionality.description": [
     {
       "type": 0,
@@ -21542,6 +21572,12 @@
     {
       "type": 0,
       "value": "개별 계약에서 \"이 계약이 적용되는 전자자원\" 아코디언 숨기기"
+    }
+  ],
+  "ui-agreements.settings.hideEResourcesFunctionality": [
+    {
+      "type": 0,
+      "value": "Hide internal agreements knowledgebase"
     }
   ],
   "ui-agreements.settings.label": [
@@ -21614,6 +21650,48 @@
     {
       "type": 0,
       "value": "역할"
+    }
+  ],
+  "ui-agreements.settings.pageSize": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Page size"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    }
+  ],
+  "ui-agreements.settings.pageSize.agreementEresources": [
+    {
+      "type": 0,
+      "value": "Agreement view pane > E-resources covered by this agreement"
+    }
+  ],
+  "ui-agreements.settings.pageSize.agreementLines": [
+    {
+      "type": 0,
+      "value": "Agreement view pane > Agreement lines"
+    }
+  ],
+  "ui-agreements.settings.pageSize.entitlementOptions": [
+    {
+      "type": 0,
+      "value": "E-resource view pane > Options for acquiring e-resource"
+    }
+  ],
+  "ui-agreements.settings.pageSize.entitlements": [
+    {
+      "type": 0,
+      "value": "E-resource view pane > Agreements for this e-resource"
+    }
+  ],
+  "ui-agreements.settings.pageSize.packageContents": [
+    {
+      "type": 0,
+      "value": "Package view pane > E-resources in package"
     }
   ],
   "ui-agreements.settings.pickList": [
@@ -21734,6 +21812,38 @@
       ],
       "type": 8,
       "value": "strong"
+    }
+  ],
+  "ui-agreements.settings.update.error": [
+    {
+      "type": 0,
+      "value": "Setting \""
+    },
+    {
+      "type": 1,
+      "value": "settingLabel"
+    },
+    {
+      "type": 0,
+      "value": "\" could not be updated"
+    }
+  ],
+  "ui-agreements.settings.update.success": [
+    {
+      "type": 0,
+      "value": "Setting \""
+    },
+    {
+      "type": 1,
+      "value": "settingLabel"
+    },
+    {
+      "type": 0,
+      "value": "\" was updated to "
+    },
+    {
+      "type": 1,
+      "value": "newValue"
     }
   ],
   "ui-agreements.settings.value": [

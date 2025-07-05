@@ -21229,6 +21229,24 @@
       "value": "Nastavení obrazovky"
     }
   ],
+  "ui-agreements.settings.displaySuppressFromDiscovery.agreementLine": [
+    {
+      "type": 0,
+      "value": "Display \"Suppress from discovery\" setting on Agreement lines"
+    }
+  ],
+  "ui-agreements.settings.displaySuppressFromDiscovery.pci": [
+    {
+      "type": 0,
+      "value": "Display \"Suppress from discovery\" setting on Titles in packages"
+    }
+  ],
+  "ui-agreements.settings.displaySuppressFromDiscovery.title": [
+    {
+      "type": 0,
+      "value": "Display \"Suppress from discovery\" setting on Titles"
+    }
+  ],
   "ui-agreements.settings.error.valueNotInRange": [
     {
       "type": 0,
@@ -21319,6 +21337,18 @@
       "value": "Řádky smlouvy"
     }
   ],
+  "ui-agreements.settings.general.hideAccordions.description": [
+    {
+      "type": 0,
+      "value": "Hide accordions in agreement edit view"
+    }
+  ],
+  "ui-agreements.settings.general.hideAccordions.usageData": [
+    {
+      "type": 0,
+      "value": "Usage data"
+    }
+  ],
   "ui-agreements.settings.general.hideEResourcesFunctionality.description": [
     {
       "type": 0,
@@ -21359,6 +21389,12 @@
     {
       "type": 0,
       "value": "Skrytí hlášky \"E-zdroje, na které se vztahuje tato smlouva\" v jednotlivých smlouvách"
+    }
+  ],
+  "ui-agreements.settings.hideEResourcesFunctionality": [
+    {
+      "type": 0,
+      "value": "Hide internal agreements knowledgebase"
     }
   ],
   "ui-agreements.settings.label": [
@@ -21431,6 +21467,48 @@
     {
       "type": 0,
       "value": "Role"
+    }
+  ],
+  "ui-agreements.settings.pageSize": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Page size"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    }
+  ],
+  "ui-agreements.settings.pageSize.agreementEresources": [
+    {
+      "type": 0,
+      "value": "Agreement view pane > E-resources covered by this agreement"
+    }
+  ],
+  "ui-agreements.settings.pageSize.agreementLines": [
+    {
+      "type": 0,
+      "value": "Agreement view pane > Agreement lines"
+    }
+  ],
+  "ui-agreements.settings.pageSize.entitlementOptions": [
+    {
+      "type": 0,
+      "value": "E-resource view pane > Options for acquiring e-resource"
+    }
+  ],
+  "ui-agreements.settings.pageSize.entitlements": [
+    {
+      "type": 0,
+      "value": "E-resource view pane > Agreements for this e-resource"
+    }
+  ],
+  "ui-agreements.settings.pageSize.packageContents": [
+    {
+      "type": 0,
+      "value": "Package view pane > E-resources in package"
     }
   ],
   "ui-agreements.settings.pickList": [
@@ -21551,6 +21629,38 @@
       ],
       "type": 8,
       "value": "strong"
+    }
+  ],
+  "ui-agreements.settings.update.error": [
+    {
+      "type": 0,
+      "value": "Setting \""
+    },
+    {
+      "type": 1,
+      "value": "settingLabel"
+    },
+    {
+      "type": 0,
+      "value": "\" could not be updated"
+    }
+  ],
+  "ui-agreements.settings.update.success": [
+    {
+      "type": 0,
+      "value": "Setting \""
+    },
+    {
+      "type": 1,
+      "value": "settingLabel"
+    },
+    {
+      "type": 0,
+      "value": "\" was updated to "
+    },
+    {
+      "type": 1,
+      "value": "newValue"
     }
   ],
   "ui-agreements.settings.value": [
