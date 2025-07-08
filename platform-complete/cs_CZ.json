@@ -80,7 +80,7 @@
   "stripes-acq-components.acquisition_method.purchaseAtVendorSystem": [
     {
       "type": 0,
-      "value": "Nákup v systému prodejce"
+      "value": "Nákup v systému distributora"
     }
   ],
   "stripes-acq-components.acquisition_method.technical": [
@@ -1124,49 +1124,49 @@
   "stripes-acq-components.referenceNumbers.addReferenceNumbers": [
     {
       "type": 0,
-      "value": "Přidání referenčního čísla prodejce"
+      "value": "Přidat referenční číslo distributora"
     }
   ],
   "stripes-acq-components.referenceNumbers.refNumber": [
     {
       "type": 0,
-      "value": "Referenční číslo prodejce"
+      "value": "Referenční číslo distributora"
     }
   ],
   "stripes-acq-components.referenceNumbers.refNumberType": [
     {
       "type": 0,
-      "value": "Referenční typ prodejce"
+      "value": "Referenční typ distributora"
     }
   ],
   "stripes-acq-components.referenceNumbers.refNumberType.continuationRefNumber": [
     {
       "type": 0,
-      "value": "Referenční číslo pokračování prodejce"
+      "value": "Referenční číslo distributora pro pokračování"
     }
   ],
   "stripes-acq-components.referenceNumbers.refNumberType.internalNumber": [
     {
       "type": 0,
-      "value": "Vnitřní číslo prodejce"
+      "value": "Interní číslo distributora"
     }
   ],
   "stripes-acq-components.referenceNumbers.refNumberType.refNumber": [
     {
       "type": 0,
-      "value": "Referenční číslo objednávky prodejce"
+      "value": "Referenční číslo objednávky distributora"
     }
   ],
   "stripes-acq-components.referenceNumbers.refNumberType.subscriptionRefNumber": [
     {
       "type": 0,
-      "value": "Referenční číslo předplatného prodejce"
+      "value": "Referenční číslo předplatného distributora"
     }
   ],
   "stripes-acq-components.referenceNumbers.refNumberType.titleNumber": [
     {
       "type": 0,
-      "value": "Číslo názvu prodejce"
+      "value": "Číslo názvu distributora"
     }
   ],
   "stripes-acq-components.resetAllFilters": [
@@ -13474,6 +13474,12 @@
       ],
       "type": 8,
       "value": "b"
+    }
+  ],
+  "stripes-smart-components.customFields.displayInAccordion": [
+    {
+      "type": 0,
+      "value": "Display in accordion"
     }
   ],
   "stripes-smart-components.customFields.dragDrop": [
@@ -137515,6 +137521,32 @@
       "pluralType": "cardinal",
       "type": 6,
       "value": "count"
+    }
+  ],
+  "ui-users.loans.numOpenLoans.held": [
+    {
+      "type": 0,
+      "value": "Held: "
+    },
+    {
+      "type": 1,
+      "value": "count"
+    }
+  ],
+  "ui-users.loans.numOpenLoans.inUse": [
+    {
+      "type": 0,
+      "value": "In use: "
+    },
+    {
+      "type": 1,
+      "value": "count"
+    }
+  ],
+  "ui-users.loans.numOpenLoans.useAtLocation": [
+    {
+      "type": 0,
+      "value": "Use at location"
     }
   ],
   "ui-users.loans.open": [

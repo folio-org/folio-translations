@@ -50,7 +50,7 @@
   "stripes-acq-components.acquisition_method.gift": [
     {
       "type": 0,
-      "value": "Gift"
+      "value": "Dar"
     }
   ],
   "stripes-acq-components.acquisition_method.internalTransfer": [
@@ -74,19 +74,19 @@
   "stripes-acq-components.acquisition_method.purchase": [
     {
       "type": 0,
-      "value": "Purchase"
+      "value": "Zakup"
     }
   ],
   "stripes-acq-components.acquisition_method.purchaseAtVendorSystem": [
     {
       "type": 0,
-      "value": "Purchase at vendor system"
+      "value": "Zakup w systemie dostawcy"
     }
   ],
   "stripes-acq-components.acquisition_method.technical": [
     {
       "type": 0,
-      "value": "Technical"
+      "value": "Techniczny"
     }
   ],
   "stripes-acq-components.addTagFor": [
@@ -138,13 +138,13 @@
   "stripes-acq-components.claiming.action.delayClaim": [
     {
       "type": 0,
-      "value": "Delay claim"
+      "value": "Opóźnij monit"
     }
   ],
   "stripes-acq-components.claiming.action.sendClaim": [
     {
       "type": 0,
-      "value": "Send claim"
+      "value": "Wyślij monit"
     }
   ],
   "stripes-acq-components.claiming.action.unreceivable": [
@@ -166,7 +166,7 @@
           "value": [
             {
               "type": 0,
-              "value": "Delay "
+              "value": "Opóźnij "
             },
             {
               "offset": 0,
@@ -175,7 +175,7 @@
                   "value": [
                     {
                       "type": 0,
-                      "value": "claim"
+                      "value": "monit"
                     }
                   ]
                 },
@@ -183,7 +183,7 @@
                   "value": [
                     {
                       "type": 0,
-                      "value": "claims"
+                      "value": "monity"
                     }
                   ]
                 }
@@ -198,7 +198,7 @@
           "value": [
             {
               "type": 0,
-              "value": "Delay claim"
+              "value": "Opóźnij monit"
             }
           ]
         }
@@ -210,7 +210,7 @@
   "stripes-acq-components.claiming.modal.sendClaim.field.claimExpiryDate": [
     {
       "type": 0,
-      "value": "Claim expiry date"
+      "value": "Data wygaśnięcia monitu"
     }
   ],
   "stripes-acq-components.claiming.modal.sendClaim.field.externalNote": [
@@ -232,7 +232,7 @@
           "value": [
             {
               "type": 0,
-              "value": "Send "
+              "value": "Wyślij "
             },
             {
               "offset": 0,
@@ -241,7 +241,7 @@
                   "value": [
                     {
                       "type": 0,
-                      "value": "claim"
+                      "value": "monit"
                     }
                   ]
                 },
@@ -249,7 +249,7 @@
                   "value": [
                     {
                       "type": 0,
-                      "value": "claims"
+                      "value": "monity"
                     }
                   ]
                 }
@@ -264,7 +264,7 @@
           "value": [
             {
               "type": 0,
-              "value": "Send claim"
+              "value": "Wyślij monit"
             }
           ]
         }
@@ -600,7 +600,7 @@
   "stripes-acq-components.fundDistribution.fundStatus.Frozen": [
     {
       "type": 0,
-      "value": "Frozen"
+      "value": "Zamrożony"
     }
   ],
   "stripes-acq-components.fundDistribution.fundStatus.Inactive": [
@@ -1076,7 +1076,7 @@
   "stripes-acq-components.privilegedContacts.status.inactive": [
     {
       "type": 0,
-      "value": "Inactive"
+      "value": "Nieaktywny"
     }
   ],
   "stripes-acq-components.receiving.itemStatus.Available": [
@@ -1192,7 +1192,7 @@
           "value": [
             {
               "type": 0,
-              "value": "record found"
+              "value": "znaleziono rekord"
             }
           ]
         },
@@ -1200,7 +1200,7 @@
           "value": [
             {
               "type": 0,
-              "value": "records found"
+              "value": "znaleziono rekordy"
             }
           ]
         }
@@ -1613,7 +1613,7 @@
   "stripes-acq-components.validation.dateAfter": [
     {
       "type": 0,
-      "value": "Selected date must be later than the current date"
+      "value": "Wybrana data musi być późniejsza niż bieżąca data"
     }
   ],
   "stripes-acq-components.validation.fundDistribution.uniqueFunds": [
@@ -1709,13 +1709,13 @@
   "stripes-acq-components.versionHistory.deletedRecord": [
     {
       "type": 0,
-      "value": "Record deleted"
+      "value": "Rekord usunięty"
     }
   ],
   "stripes-acq-components.versionHistory.noVersion": [
     {
       "type": 0,
-      "value": "No version history to display."
+      "value": "Brak historii wersji do wyświetlenia."
     }
   ],
   "stripes-acq-components.versionHistory.pane.header": [
@@ -2231,17 +2231,21 @@
   "stripes-components.Timepicker.PeriodLabel": [
     {
       "type": 0,
-      "value": "AM or PM"
+      "value": "Rano lub popołudniu"
     }
   ],
   "stripes-components.Timepicker.ScreenReaderLabel": [
+    {
+      "type": 0,
+      "value": "Format "
+    },
     {
       "type": 1,
       "value": "label"
     },
     {
       "type": 0,
-      "value": " format is "
+      "value": " to "
     },
     {
       "type": 1,
@@ -2249,11 +2253,15 @@
     },
     {
       "type": 0,
-      "value": " use down arrow to enter timepicker dialog. "
+      "value": ". Użyj strzałki w dół, aby wejść do okna dialogowego wyboru czasu "
     },
     {
       "type": 1,
       "value": "screenReaderMessage"
+    },
+    {
+      "type": 0,
+      "value": "."
     }
   ],
   "stripes-components.Timepicker.SetTimeLabel": [
@@ -2277,13 +2285,13 @@
   "stripes-components.Timepicker.hoursLabel": [
     {
       "type": 0,
-      "value": "Hours"
+      "value": "Godziny"
     }
   ],
   "stripes-components.Timepicker.minutesLabel": [
     {
       "type": 0,
-      "value": "Minutes"
+      "value": "Minuty"
     }
   ],
   "stripes-components.addNew": [
@@ -2443,7 +2451,7 @@
   "stripes-components.advancedSearch.searchIn": [
     {
       "type": 0,
-      "value": "in"
+      "value": "w"
     }
   ],
   "stripes-components.advancedSearch.searchOptions.label": [
@@ -9707,7 +9715,7 @@
   "stripes-data-transfer-components.modify": [
     {
       "type": 0,
-      "value": "Modify"
+      "value": "Modyfikować"
     }
   ],
   "stripes-data-transfer-components.name": [
@@ -9833,7 +9841,7 @@
   "stripes-data-transfer-components.update": [
     {
       "type": 0,
-      "value": "Update"
+      "value": "Aktualizacja"
     }
   ],
   "stripes-data-transfer-components.updated": [
@@ -10826,7 +10834,7 @@
   "stripes-erm-components.documentFilter.addRule": [
     {
       "type": 0,
-      "value": "Add rule"
+      "value": "Dodaj regułę"
     }
   ],
   "stripes-erm-components.documentFilter.attribute": [
@@ -10838,7 +10846,7 @@
   "stripes-erm-components.documentFilter.comparator": [
     {
       "type": 0,
-      "value": "Comparator"
+      "value": "Porównywarka"
     }
   ],
   "stripes-erm-components.documentFilter.coreDocumentFilterBuilder": [
@@ -10866,7 +10874,7 @@
   "stripes-erm-components.documentFilter.documentFilterIndex": [
     {
       "type": 0,
-      "value": "Document filter "
+      "value": "Filtr dokumentu "
     },
     {
       "type": 1,
@@ -10911,12 +10919,12 @@
   ],
   "stripes-erm-components.documentFilter.filtersApplied": [
     {
-      "type": 1,
-      "value": "filtersLength"
+      "type": 0,
+      "value": "Zastosowano filtry dokumentu "
     },
     {
-      "type": 0,
-      "value": " document filters applied"
+      "type": 1,
+      "value": "filtersLength"
     }
   ],
   "stripes-erm-components.documentFilter.has": [
@@ -10934,7 +10942,7 @@
   "stripes-erm-components.documentFilter.removeRule": [
     {
       "type": 0,
-      "value": "Remove rule "
+      "value": "Usuń regułę "
     },
     {
       "type": 1,
@@ -11384,7 +11392,7 @@
   "stripes-erm-components.logs.title": [
     {
       "type": 0,
-      "value": "Title: "
+      "value": "Tytuł: "
     },
     {
       "type": 1,
@@ -13264,7 +13272,7 @@
   "stripes-smart-components.cddd.selectLoan": [
     {
       "type": 0,
-      "value": "Select \""
+      "value": "Wybierz wypożyczenie „"
     },
     {
       "type": 1,
@@ -13272,7 +13280,7 @@
     },
     {
       "type": 0,
-      "value": "\" loan"
+      "value": "”"
     }
   ],
   "stripes-smart-components.cddd.time": [
@@ -13520,6 +13528,12 @@
       ],
       "type": 8,
       "value": "b"
+    }
+  ],
+  "stripes-smart-components.customFields.displayInAccordion": [
+    {
+      "type": 0,
+      "value": "Display in accordion"
     }
   ],
   "stripes-smart-components.customFields.dragDrop": [
@@ -137617,6 +137631,32 @@
       "pluralType": "cardinal",
       "type": 6,
       "value": "count"
+    }
+  ],
+  "ui-users.loans.numOpenLoans.held": [
+    {
+      "type": 0,
+      "value": "Held: "
+    },
+    {
+      "type": 1,
+      "value": "count"
+    }
+  ],
+  "ui-users.loans.numOpenLoans.inUse": [
+    {
+      "type": 0,
+      "value": "In use: "
+    },
+    {
+      "type": 1,
+      "value": "count"
+    }
+  ],
+  "ui-users.loans.numOpenLoans.useAtLocation": [
+    {
+      "type": 0,
+      "value": "Use at location"
     }
   ],
   "ui-users.loans.open": [

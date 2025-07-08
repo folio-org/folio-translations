@@ -12179,7 +12179,7 @@
   "stripes-inventory-components.item.status.claimedReturned": [
     {
       "type": 0,
-      "value": "Alegou ter devolvido"
+      "value": "Supostamente devolvido"
     }
   ],
   "stripes-inventory-components.item.status.declaredLost": [
@@ -13352,6 +13352,12 @@
       ],
       "type": 8,
       "value": "b"
+    }
+  ],
+  "stripes-smart-components.customFields.displayInAccordion": [
+    {
+      "type": 0,
+      "value": "Display in accordion"
     }
   ],
   "stripes-smart-components.customFields.dragDrop": [
@@ -138707,6 +138713,32 @@
       "pluralType": "cardinal",
       "type": 6,
       "value": "count"
+    }
+  ],
+  "ui-users.loans.numOpenLoans.held": [
+    {
+      "type": 0,
+      "value": "Held: "
+    },
+    {
+      "type": 1,
+      "value": "count"
+    }
+  ],
+  "ui-users.loans.numOpenLoans.inUse": [
+    {
+      "type": 0,
+      "value": "In use: "
+    },
+    {
+      "type": 1,
+      "value": "count"
+    }
+  ],
+  "ui-users.loans.numOpenLoans.useAtLocation": [
+    {
+      "type": 0,
+      "value": "Use at location"
     }
   ],
   "ui-users.loans.open": [
