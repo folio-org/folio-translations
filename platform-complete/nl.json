@@ -29740,7 +29740,7 @@
   "ui-circulation-log.logEvent.action.Held for use at location": [
     {
       "type": 0,
-      "value": "Held"
+      "value": "Holdings"
     }
   ],
   "ui-circulation-log.logEvent.action.Marked as missing": [
@@ -29794,7 +29794,7 @@
   "ui-circulation-log.logEvent.action.Picked up for use at location": [
     {
       "type": 0,
-      "value": "In use"
+      "value": "In gebruik"
     }
   ],
   "ui-circulation-log.logEvent.action.Pickup expired": [
@@ -31970,7 +31970,7 @@
   "ui-circulation.settings.loanPolicy.forUseAtLocation": [
     {
       "type": 0,
-      "value": "For use at location"
+      "value": "Voor gebruik op Locatie"
     }
   ],
   "ui-circulation.settings.loanPolicy.generalInformation": [
@@ -31988,7 +31988,7 @@
   "ui-circulation.settings.loanPolicy.holdShelfExpirationPeriod": [
     {
       "type": 0,
-      "value": "Hold shelf expiration period"
+      "value": "Reservering vervaldatum schap"
     }
   ],
   "ui-circulation.settings.loanPolicy.itemLimit": [
@@ -57894,7 +57894,7 @@
   "ui-erm-usage.statistics.selectedFile": [
     {
       "type": 0,
-      "value": "Selected file"
+      "value": "Geselecteerd bestand"
     }
   ],
   "ui-erm-usage.sushiCreds.apiKey": [
@@ -73949,7 +73949,7 @@
   "ui-inventory.sourceUri": [
     {
       "type": 0,
-      "value": "Instance source URI"
+      "value": "Bron URI van Instance"
     }
   ],
   "ui-inventory.staffOnly": [
@@ -84852,19 +84852,19 @@
   "ui-marc-authorities.actions.saveAuthoritiesUIIDS": [
     {
       "type": 0,
-      "value": "Save authorities UUIDs"
+      "value": "Autoriteiten UUID's Opslaan"
     }
   ],
   "ui-marc-authorities.actions.saveAuthoritiesUIIDS.error": [
     {
       "type": 0,
-      "value": "Error occurred while saving authorities UUIDs. Please try again."
+      "value": "Fout opgetreden tijdens het opslaan van Authorities UUIDs. Probeer het opnieuw."
     }
   ],
   "ui-marc-authorities.actions.saveAuthoritiesUIIDS.info": [
     {
       "type": 0,
-      "value": "Request to save authorities UUIDs has been received. File download may take a few minutes."
+      "value": "Aanvraag voor het Opslaan van Authoriteiten UUID's is ontvangen. Het downloaden van het bestand kan enkele minuten duren."
     }
   ],
   "ui-marc-authorities.authorities.rows.recordsSelected": [
@@ -93708,7 +93708,7 @@
   "ui-orders.orderDetails.yearOpened": [
     {
       "type": 0,
-      "value": "Year opened"
+      "value": "Jaar geopend"
     }
   ],
   "ui-orders.orderLineList.funCodes": [
@@ -116388,7 +116388,7 @@
   "ui-requests.errors.user.unknown": [
     {
       "type": 0,
-      "value": "Unknown user"
+      "value": "Onbekende gebruiker"
     }
   ],
   "ui-requests.errors.userBarcodeDoesNotExist": [
@@ -116532,7 +116532,7 @@
   "ui-requests.forUseAtLocation": [
     {
       "type": 0,
-      "value": "For use at location"
+      "value": "Voor gebruik op Locatie"
     }
   ],
   "ui-requests.fulfillmentPreference": [
@@ -122584,25 +122584,25 @@
   "ui-tenant-settings.settings.servicePoints.defaultCheckinAction": [
     {
       "type": 0,
-      "value": "Default check-in action for use at location"
+      "value": "Standaard incheckactie voor gebruik op Locatie"
     }
   ],
   "ui-tenant-settings.settings.servicePoints.defaultCheckinAction.Ask_for_action": [
     {
       "type": 0,
-      "value": "Ask for action"
+      "value": "Vraag om actie"
     }
   ],
   "ui-tenant-settings.settings.servicePoints.defaultCheckinAction.Close_loan_and_return_item": [
     {
       "type": 0,
-      "value": "Close loan and return item"
+      "value": "Uitlening sluiten en item retourneren"
     }
   ],
   "ui-tenant-settings.settings.servicePoints.defaultCheckinAction.Keep_on_hold_shelf": [
     {
       "type": 0,
-      "value": "Keep on hold shelf"
+      "value": "In de wacht bewaren"
     }
   ],
   "ui-tenant-settings.settings.servicePoints.delete": [
@@ -127952,25 +127952,25 @@
   "ui-users.loans.columns.useAtLocation": [
     {
       "type": 0,
-      "value": "Use at location"
+      "value": "Gebruik op Locatie"
     }
   ],
   "ui-users.loans.columns.useAtLocation.Held": [
     {
       "type": 0,
-      "value": "Held"
+      "value": "Holdings"
     }
   ],
   "ui-users.loans.columns.useAtLocation.In use": [
     {
       "type": 0,
-      "value": "In use"
+      "value": "In gebruik"
     }
   ],
   "ui-users.loans.columns.useAtLocation.Returned": [
     {
       "type": 0,
-      "value": "Returned"
+      "value": "Geretourneerd"
     }
   ],
   "ui-users.loans.confirmAsMissing": [
@@ -132417,13 +132417,13 @@
   "ui-users.requests.fulfillmentPreference.info": [
     {
       "type": 0,
-      "value": "Select the "
+      "value": "Selecteer het selectievakje "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Delivery"
+          "value": "Levering"
         }
       ],
       "type": 8,
@@ -132431,13 +132431,13 @@
     },
     {
       "type": 0,
-      "value": " checkbox to choose "
+      "value": " om "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Fulfillment preference"
+          "value": "Voorkeur voor levering"
         }
       ],
       "type": 8,
@@ -132445,13 +132445,13 @@
     },
     {
       "type": 0,
-      "value": " and "
+      "value": " en "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Default delivery address"
+          "value": "Standaard leveringsadres"
         }
       ],
       "type": 8,
@@ -132459,7 +132459,7 @@
     },
     {
       "type": 0,
-      "value": "."
+      "value": " te kiezen."
     }
   ],
   "ui-users.requests.holdShelf": [
