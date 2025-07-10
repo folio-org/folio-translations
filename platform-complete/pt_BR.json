@@ -68508,11 +68508,17 @@
     },
     {
       "type": 0,
-      "value": " foi alocado com sucesso para o orçamento "
+      "value": " was successfully allocated to the budget "
     },
     {
-      "type": 1,
-      "value": "budgetName"
+      "children": [
+        {
+          "type": 1,
+          "value": "budgetName"
+        }
+      ],
+      "type": 8,
+      "value": "b"
     }
   ],
   "ui-finance.transaction.allocation.increase.hasBeenCreated": [

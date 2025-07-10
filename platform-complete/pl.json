@@ -68209,20 +68209,22 @@
   ],
   "ui-finance.transaction.allocation.hasBeenCreated": [
     {
-      "type": 0,
-      "value": "Kwota "
-    },
-    {
       "type": 1,
       "value": "amount"
     },
     {
       "type": 0,
-      "value": " została pomyślnie przydzielona do budżetu "
+      "value": " was successfully allocated to the budget "
     },
     {
-      "type": 1,
-      "value": "budgetName"
+      "children": [
+        {
+          "type": 1,
+          "value": "budgetName"
+        }
+      ],
+      "type": 8,
+      "value": "b"
     }
   ],
   "ui-finance.transaction.allocation.increase.hasBeenCreated": [
