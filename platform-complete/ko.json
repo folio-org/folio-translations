@@ -18455,6 +18455,134 @@
       "value": "기본 커버리지"
     }
   ],
+  "ui-agreements.eresources.deleteConfirmationMessage.default": [
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "numberDeleted"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " out of "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "totalCount"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " e-resources will be deleted from the package "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "pkgName"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "ui-agreements.eresources.deleteConfirmationMessage.information": [
+    {
+      "type": 0,
+      "value": "Related information in the knowledgebase that is no longer needed will also be deleted."
+    }
+  ],
+  "ui-agreements.eresources.deleteConfirmationMessage.noDeletion": [
+    {
+      "type": 0,
+      "value": "No e-resources can be deleted from the package "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "pkgName"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": ", most likely because they are linked directly to one or more Agreement Lines."
+    }
+  ],
+  "ui-agreements.eresources.deleteConfirmationMessage.pciNotDeleted": [
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "numberNotDeleted"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " e-resources can not be deleted, most likely because they are linked directly to one or more Agreement Lines."
+    }
+  ],
+  "ui-agreements.eresources.deleteConfirmationMessage.selectDelete": [
+    {
+      "type": 0,
+      "value": "Select \"Delete\" to create the deletion job."
+    }
+  ],
+  "ui-agreements.eresources.deleteJob": [
+    {
+      "type": 0,
+      "value": "Create job to delete package contents"
+    }
+  ],
+  "ui-agreements.eresources.deleteJob.success": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Package contents deletion job created:"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " for "
+    },
+    {
+      "type": 1,
+      "value": "pkgName"
+    },
+    {
+      "type": 0,
+      "value": ". Updates will be displayed in the Local KB Admin app."
+    }
+  ],
+  "ui-agreements.eresources.deletePackageContents": [
+    {
+      "type": 0,
+      "value": "Delete package contents"
+    }
+  ],
   "ui-agreements.eresources.description": [
     {
       "type": 0,
@@ -19043,6 +19171,12 @@
     {
       "type": 0,
       "value": "URL"
+    }
+  ],
+  "ui-agreements.eresources.viewJobLink": [
+    {
+      "type": 0,
+      "value": "View Local KB Admin job"
     }
   ],
   "ui-agreements.eresources.volume": [
@@ -19928,6 +20062,12 @@
     {
       "type": 0,
       "value": "노트"
+    }
+  ],
+  "ui-agreements.okay": [
+    {
+      "type": 0,
+      "value": "Okay"
     }
   ],
   "ui-agreements.open.linkInNewTab": [
