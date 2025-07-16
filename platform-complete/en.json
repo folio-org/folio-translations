@@ -26501,7 +26501,31 @@
     },
     {
       "type": 0,
-      "value": " profiles found"
+      "value": " "
+    },
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "profile found"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "profiles found"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "count"
     }
   ],
   "ui-bulk-edit.settings.profiles.search.label": [
@@ -62262,6 +62286,30 @@
     {
       "type": 0,
       "value": "eUsage"
+    }
+  ],
+  "ui-erm-usage.monthpicker.monthSelection": [
+    {
+      "type": 0,
+      "value": "Month selection"
+    }
+  ],
+  "ui-erm-usage.monthpicker.yearMonthInput": [
+    {
+      "type": 0,
+      "value": "Year and month input"
+    }
+  ],
+  "ui-erm-usage.monthpicker.yearMonthSelection": [
+    {
+      "type": 0,
+      "value": "Calender: Year and month selection"
+    }
+  ],
+  "ui-erm-usage.monthpicker.yearSelection": [
+    {
+      "type": 0,
+      "value": "Year selection"
     }
   ],
   "ui-erm-usage.noSourceYet": [
@@ -104385,7 +104433,7 @@
   "ui-orders.unopenOrderModal.message.synchronized": [
     {
       "type": 0,
-      "value": "This order has at least one order line with receiving workflow \"Synchronized order and receipt quantity\". Such POLs with related receiving records will have any unreceived pieces deleted, and any \"On order\" Item records related to those pieces will also be deleted from inventory. Holdings linked to those items that have no other related items can also be deleted from inventory. How would you like to proceed?"
+      "value": "This order has at least one order line with receiving workflow \"Synchronized order and receipt quantity\". Such POLs with related receiving records will have any unreceived pieces, with no current requests pending, deleted, and any \"On order\" Item records related to those pieces will also be deleted from inventory. Holdings linked to those items that have no other related items can also be deleted from inventory. How would you like to proceed?"
     }
   ],
   "ui-orders.unopenOrderModal.message.withPieces": [

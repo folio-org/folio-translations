@@ -26505,7 +26505,31 @@
     },
     {
       "type": 0,
-      "value": " profiles found"
+      "value": " "
+    },
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "profile found"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "profiles found"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "count"
     }
   ],
   "ui-bulk-edit.settings.profiles.search.label": [
@@ -62304,6 +62328,30 @@
     {
       "type": 0,
       "value": "eUsage"
+    }
+  ],
+  "ui-erm-usage.monthpicker.monthSelection": [
+    {
+      "type": 0,
+      "value": "Month selection"
+    }
+  ],
+  "ui-erm-usage.monthpicker.yearMonthInput": [
+    {
+      "type": 0,
+      "value": "Year and month input"
+    }
+  ],
+  "ui-erm-usage.monthpicker.yearMonthSelection": [
+    {
+      "type": 0,
+      "value": "Calender: Year and month selection"
+    }
+  ],
+  "ui-erm-usage.monthpicker.yearSelection": [
+    {
+      "type": 0,
+      "value": "Year selection"
     }
   ],
   "ui-erm-usage.noSourceYet": [
