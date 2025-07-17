@@ -20259,13 +20259,13 @@
   "ui-agreements.packageIdentifiers.gokbId": [
     {
       "type": 0,
-      "value": "GOKb-ID"
+      "value": "GOKB-ID"
     }
   ],
   "ui-agreements.packageIdentifiers.gokbUUID": [
     {
       "type": 0,
-      "value": "GOKb-UUID"
+      "value": "GOKB-UUID"
     }
   ],
   "ui-agreements.packageIdentifiers.identifier": [
@@ -23759,7 +23759,7 @@
   "ui-bulk-edit.columns.USER.Date of birth": [
     {
       "type": 0,
-      "value": "Geburtsdatum"
+      "value": "Birth date"
     }
   ],
   "ui-bulk-edit.columns.USER.Departments": [
@@ -32555,7 +32555,7 @@
   "ui-circulation.permission.settings.lost-item-fees-policies": [
     {
       "type": 0,
-      "value": "Einstellungen (Ausleihe): Kann Richtlinien für Ersatzgebühr erstellen, bearbeiten und entfernen"
+      "value": "Einstellungen (Ausleihe): Kann Richtlinien Kosten Verlust/Ersatz erstellen, bearbeiten und entfernen"
     }
   ],
   "ui-circulation.permission.settings.notice-policies": [
@@ -32639,7 +32639,7 @@
   "ui-circulation.permission.settings.view-lost-item-fees-policies": [
     {
       "type": 0,
-      "value": "Einstellungen (Ausleihe): Kann Richtlinien für Ersatzgebühr anzeigen"
+      "value": "Einstellungen (Ausleihe): Kann Richtlinien Kosten Verlust/Ersatz anzeigen"
     }
   ],
   "ui-circulation.permission.settings.view-notice-policies": [
@@ -33093,7 +33093,7 @@
   "ui-circulation.settings.circulationRules.lostItemFeePolicies": [
     {
       "type": 0,
-      "value": "Richtlinien für Ersatzgebühr"
+      "value": "Richtlinien Kosten Verlust/Ersatz"
     }
   ],
   "ui-circulation.settings.circulationRules.materialTypes": [
@@ -34667,13 +34667,13 @@
   "ui-circulation.settings.lostItemFee.chargeAmountItemPatron": [
     {
       "type": 0,
-      "value": "Ersatzgebühr erheben, wenn Exemplar vom Benutzer/-in als verloren gemeldet wurde"
+      "value": "Bearbeitungsgebühr Verlust erheben, wenn Exemplar vom Benutzer/-in als verloren gemeldet wurde"
     }
   ],
   "ui-circulation.settings.lostItemFee.chargeAmountItemSystem": [
     {
       "type": 0,
-      "value": "Ersatzgebühr erheben, wenn Exemplar vom System automatisch für verloren erklärt wurde"
+      "value": "Bearbeitungsgebühr Verlust erheben, wenn Exemplar vom System automatisch für verloren erklärt wurde"
     }
   ],
   "ui-circulation.settings.lostItemFee.days": [
@@ -34685,7 +34685,7 @@
   "ui-circulation.settings.lostItemFee.deleteFeePolicy": [
     {
       "type": 0,
-      "value": "Richtlinie für Ersatzgebühr löschen"
+      "value": "Richtlinie Kosten Verlust/Ersatz löschen"
     }
   ],
   "ui-circulation.settings.lostItemFee.description": [
@@ -34707,7 +34707,7 @@
   "ui-circulation.settings.lostItemFee.entryLabel": [
     {
       "type": 0,
-      "value": "Neue Richtlinie für Ersatzgebühr"
+      "value": "Neue Richtlinie Kosten Verlust/Ersatz"
     }
   ],
   "ui-circulation.settings.lostItemFee.feesFinesShallRefunded": [
@@ -34755,7 +34755,7 @@
   "ui-circulation.settings.lostItemFee.lostItemFeePolicyName": [
     {
       "type": 0,
-      "value": "Name der Richtlinie für Ersatzgebühr"
+      "value": "Name der Richtlinie Kosten Verlust/Ersatz"
     }
   ],
   "ui-circulation.settings.lostItemFee.lostItemNotChargeFeesFine": [
@@ -34767,7 +34767,7 @@
   "ui-circulation.settings.lostItemFee.lostItemProcessingFee": [
     {
       "type": 0,
-      "value": "Ersatzgebühr"
+      "value": "Bearbeitungsgebühr Verlust"
     }
   ],
   "ui-circulation.settings.lostItemFee.lostItemRemoveOverdueFines": [
@@ -34785,7 +34785,7 @@
   "ui-circulation.settings.lostItemFee.lostItemSection": [
     {
       "type": 0,
-      "value": "Ersatzgebühr"
+      "value": "Kosten Verlust/Ersatz"
     }
   ],
   "ui-circulation.settings.lostItemFee.minutes": [
@@ -34823,7 +34823,7 @@
   "ui-circulation.settings.lostItemFee.paneTitle": [
     {
       "type": 0,
-      "value": "Richtlinien für Ersatzgebühr"
+      "value": "Richtlinien Kosten Verlust/Ersatz"
     }
   ],
   "ui-circulation.settings.lostItemFee.patronBilledAfterAgedLost": [
@@ -34841,7 +34841,7 @@
   "ui-circulation.settings.lostItemFee.replacedLostItemProcessingFee": [
     {
       "type": 0,
-      "value": "Wenn verlorenes Exemplar ersetzt wurde, Ersatzgebühr entfernen?"
+      "value": "Wenn verlorenes Exemplar ersetzt wurde, Bearbeitungsgebühr Verlust entfernen?"
     }
   ],
   "ui-circulation.settings.lostItemFee.replacementAllowed": [
@@ -34865,7 +34865,7 @@
   "ui-circulation.settings.lostItemFee.returnedLostItemProcessingFee": [
     {
       "type": 0,
-      "value": "Wenn verlorenes Exemplar zurückgegeben oder verlängert wird, Ersatzgebühr entfernen?"
+      "value": "Wenn verlorenes Exemplar zurückgegeben oder verlängert wird, Bearbeitungsgebühr Verlust entfernen?"
     }
   ],
   "ui-circulation.settings.lostItemFee.selectInterval": [
@@ -34883,7 +34883,7 @@
   "ui-circulation.settings.lostItemFee.validate.chargeAmountItemSystemSelected": [
     {
       "type": 0,
-      "value": "Eingabe erforderlich, wenn 'Ersatzgebühr' erheben, wenn Exemplar vom System automatisch für verloren erklärt wurde' ausgewählt wurde"
+      "value": "Eingabe erforderlich, wenn 'Bearbeitungsgebühr Verlust erheben, wenn Exemplar vom System automatisch für verloren erklärt wurde' ausgewählt wurde"
     }
   ],
   "ui-circulation.settings.lostItemFee.validate.emptyAmount": [
@@ -34895,13 +34895,13 @@
   "ui-circulation.settings.lostItemFee.validate.hasLostItemProcessingFeeValue": [
     {
       "type": 0,
-      "value": "'Ersatzgebühr' muss für diese Auswahl > 0 sein"
+      "value": "'Bearbeitungsgebühr Verlust' muss für diese Auswahl > 0 sein"
     }
   ],
   "ui-circulation.settings.lostItemFee.validate.hasNoChargeLostItemProcessingFee": [
     {
       "type": 0,
-      "value": "'Ersatzgebühr' kann nur dann > 0 sein, wenn 'Ersatzgebühr' erheben, wenn Exemplar vom Benutzer/-in als verloren gemeldet wurde' und/oder 'Ersatzgebühr' erheben, wenn Exemplar vom System automatisch für verloren erklärt wurde' mit 'Ja' eingestellt wurde."
+      "value": "'Bearbeitungsgebühr Verlust' kann nur dann > 0 sein, wenn 'Bearbeitungsgebühr Verlust erheben, wenn Exemplar vom Benutzer/-in als verloren gemeldet wurde' und/oder 'Bearbeitungsgebühr Verlust erheben, wenn Exemplar vom System automatisch für verloren erklärt wurde' mit 'Ja' eingestellt wurde."
     }
   ],
   "ui-circulation.settings.lostItemFee.validate.hasPatronBilledAfterAgedToLostValue": [
@@ -34919,13 +34919,13 @@
   "ui-circulation.settings.lostItemFee.validate.hasPositiveItemsAgedToLostAfterOverdueAmount": [
     {
       "type": 0,
-      "value": "'Kosten festlegen' muss > 0 oder 'Ersatzgebühr erheben, wenn Exemplar vom System automatisch für verloren erklärt wurde' muss 'Ja' sein, wenn 'Exemplare werden automatisch für verloren erklärt nach Überfälligkeitszeitraum' ist > 0 oder 'Zurückgerufene Exemplare, die automatisch für verloren erklärt wurden nach Überfälligkeitszeitraum' ist > 0"
+      "value": "'Kosten festlegen' muss > 0 oder 'Bearbeitungsgebühr Verlust erheben, wenn Exemplar vom System automatisch für verloren erklärt wurde' muss 'Ja' sein, wenn 'Exemplare werden automatisch für verloren erklärt nach Überfälligkeitszeitraum' ist > 0 oder 'Zurückgerufene Exemplare, die automatisch für verloren erklärt wurden nach Überfälligkeitszeitraum' ist > 0"
     }
   ],
   "ui-circulation.settings.lostItemFee.validate.hasPositiveLostItemProcessingFeeAndItemsAgedToLostAfterOverdue": [
     {
       "type": 0,
-      "value": "'Ersatzgebühr' muss > 0 und 'Exemplare werden automatisch für verloren erklärt nach Überfälligkeitszeitraum' Betrag muss > 0 sein für diese Auswahl"
+      "value": "'Bearbeitungsgebühr Verlust' muss > 0 und 'Exemplare werden automatisch für verloren erklärt nach Überfälligkeitszeitraum' Betrag muss > 0 sein für diese Auswahl"
     }
   ],
   "ui-circulation.settings.lostItemFee.validate.hasPositiveLostItemProcessingFeeValue": [
@@ -34949,7 +34949,7 @@
   "ui-circulation.settings.lostItemFee.validate.hasReplacementAllowedAndPositiveLostItemPolicyFee": [
     {
       "type": 0,
-      "value": "'Ersatzgebühr' muss > 0 sein und 'Ersetzen erlaubt' muss für diese Auswahl 'Ja' sein"
+      "value": "'Bearbeitungsgebühr Verlust' muss > 0 sein und 'Ersetzen erlaubt' muss für diese Auswahl 'Ja' sein"
     }
   ],
   "ui-circulation.settings.lostItemFee.weeks": [
@@ -34973,7 +34973,7 @@
   "ui-circulation.settings.lostItemPolicy.denyDelete.header": [
     {
       "type": 0,
-      "value": "Gebührenrichtlinie für Ersatzgebühr kann nicht gelöscht werden."
+      "value": "Richtlinie Kosten Verlust/Ersatz kann nicht gelöscht werden."
     }
   ],
   "ui-circulation.settings.noticePolicy.active": [
@@ -35043,7 +35043,7 @@
   "ui-circulation.settings.noticePolicy.feeFineNotices.atl.fineCharged": [
     {
       "type": 0,
-      "value": "Ersatzgebühr(en) erhoben"
+      "value": "Kosten Verlust/Ersatz erhoben"
     }
   ],
   "ui-circulation.settings.noticePolicy.feeFineNotices.atl.itemReturned": [
@@ -35055,13 +35055,13 @@
   "ui-circulation.settings.noticePolicy.feeFineNotices.realTime.longTerm": [
     {
       "type": 0,
-      "value": "Wird über Nacht mit mehreren Ersatzgebühren pro Benutzenden versendet."
+      "value": "Wird über Nacht mit mehreren Kosten Verlust/Ersatz pro Benutzenden versendet."
     }
   ],
   "ui-circulation.settings.noticePolicy.feeFineNotices.realTime.shortTerm": [
     {
       "type": 0,
-      "value": "Wird tagsüber mit einer Ersatzgebühr pro Benachrichtigung gesendet."
+      "value": "Wird tagsüber mit einer Kosten Verlust/Ersatz pro Benachrichtigung gesendet."
     }
   ],
   "ui-circulation.settings.noticePolicy.feeFineNotices.renewed": [
@@ -36055,7 +36055,7 @@
   "ui-circulation.settings.title.lostItemFeePolicies": [
     {
       "type": 0,
-      "value": "Ersatzgebühr-"
+      "value": "Kosten Verlust/Ersatz "
     },
     {
       "offset": 0,
@@ -40457,25 +40457,25 @@
   "ui-courses.cv.cannotDeleteTermHeader": [
     {
       "type": 0,
-      "value": "Personengruppe kann nicht gelöscht werden"
+      "value": "Laufzeit kann nicht gelöscht werden"
     }
   ],
   "ui-courses.cv.cannotDeleteTermMessage": [
     {
       "type": 0,
-      "value": "Diese Personengruppe kann nicht gelöscht werden, da diese von einem oder mehreren Datensätzen verwendet wird."
+      "value": "Diese Laufzeit kann nicht gelöscht werden, da diese von einem oder mehreren Datensätzen verwendet wird."
     }
   ],
   "ui-courses.cv.deleteEntry": [
     {
       "type": 0,
-      "value": "Personengruppe löschen"
+      "value": "Laufzeit löschen"
     }
   ],
   "ui-courses.cv.termDeleted": [
     {
       "type": 0,
-      "value": "Personengruppe "
+      "value": "Laufzeit "
     },
     {
       "children": [
@@ -40505,7 +40505,7 @@
   "ui-courses.cv.termWillBeDeleted": [
     {
       "type": 0,
-      "value": "Personengruppe "
+      "value": "Laufzeit "
     },
     {
       "children": [
@@ -64665,37 +64665,37 @@
   "ui-finance.actions.allocations.batch": [
     {
       "type": 0,
-      "value": "Batch allocations"
+      "value": "Batch-Zuweisungen"
     }
   ],
   "ui-finance.actions.allocations.batch.error": [
     {
       "type": 0,
-      "value": "Allocations have not been updated."
+      "value": "Zuweisungen wurden nicht aktualisiert"
     }
   ],
   "ui-finance.actions.allocations.batch.logs": [
     {
       "type": 0,
-      "value": "Batch allocation logs"
+      "value": "Protokolle der Batch-Zuweisungen"
     }
   ],
   "ui-finance.actions.allocations.batch.success": [
     {
       "type": 0,
-      "value": "Allocations have been updated successfully."
+      "value": "Zuweisungen wurden erfolgreich aktualisiert"
     }
   ],
   "ui-finance.actions.allocations.download": [
     {
       "type": 0,
-      "value": "Download log"
+      "value": "Protokoll herunterladen"
     }
   ],
   "ui-finance.actions.downloadAllocationWorksheet": [
     {
       "type": 0,
-      "value": "Download allocation worksheet (CSV)"
+      "value": "Arbeitsblatt für die Zuweisung herunterladen (CSV)"
     }
   ],
   "ui-finance.actions.edit": [
@@ -64737,31 +64737,31 @@
   "ui-finance.actions.uploadAllocationWorksheet": [
     {
       "type": 0,
-      "value": "Upload allocation worksheet (CSV)"
+      "value": "Arbeitsblatt für die Zuweisung hochladen (CSV)"
     }
   ],
   "ui-finance.allocation.batch.form.footer.recalculate": [
     {
       "type": 0,
-      "value": "Recalculate"
+      "value": "Neu berechnen"
     }
   ],
   "ui-finance.allocation.batch.form.recalculate.error": [
     {
       "type": 0,
-      "value": "An error occurred while recalculating amounts."
+      "value": "Beim Neuberechnen der Beträge ist ein Fehler aufgetreten"
     }
   ],
   "ui-finance.allocation.batch.form.title.edit": [
     {
       "type": 0,
-      "value": "Batch edit budgets"
+      "value": "Budgets stapelweise bearbeiten"
     }
   ],
   "ui-finance.allocation.batch.form.validation.error.invalidFunds": [
     {
       "type": 0,
-      "value": "The following funds are not associated with this ledger (or group) and will NOT be updated."
+      "value": "Die folgenden Fonds sind nicht mit diesem Etat (oder dieser Gruppe) verbunden und werden NICHT aktualisiert."
     }
   ],
   "ui-finance.allocation.batch.form.validation.error.invalidStatus": [
@@ -64773,31 +64773,31 @@
   "ui-finance.allocation.batch.form.validation.error.missedFund": [
     {
       "type": 0,
-      "value": "Fund has not been changed and will not be updated."
+      "value": "Der Fonds wurde nicht geändert und wird nicht aktualisiert."
     }
   ],
   "ui-finance.allocation.batch.form.validation.error.negativeAllocation": [
     {
       "type": 0,
-      "value": "New total allocation cannot be negative."
+      "value": "Neue Gesamtzuweisung kann nicht negativ sein"
     }
   ],
   "ui-finance.allocation.batch.form.validation.error.numeric": [
     {
       "type": 0,
-      "value": "The field must be numeric value."
+      "value": "Bitte einen numerischen Wert eingeben"
     }
   ],
   "ui-finance.allocation.batch.logs.actions.delete": [
     {
       "type": 0,
-      "value": "Delete selected logs"
+      "value": "Ausgewählte Protokolle löschen"
     }
   ],
   "ui-finance.allocation.batch.logs.actions.delete.fail": [
     {
       "type": 0,
-      "value": "Log with id "
+      "value": "Protokoll mit ID "
     },
     {
       "type": 1,
@@ -64805,43 +64805,43 @@
     },
     {
       "type": 0,
-      "value": " was not deleted"
+      "value": " wurde nicht gelöscht"
     }
   ],
   "ui-finance.allocation.batch.logs.actions.delete.success": [
     {
       "type": 0,
-      "value": "Log(s) successfully deleted"
+      "value": "Protokolle erfolgreich gelöscht"
     }
   ],
   "ui-finance.allocation.batch.logs.actions.remove.heading": [
     {
       "type": 0,
-      "value": "Delete batch allocation log"
+      "value": "Protokoll der Batch-Zuweisung löschen"
     }
   ],
   "ui-finance.allocation.batch.logs.actions.remove.message": [
     {
       "type": 0,
-      "value": "This log will be permanently deleted. Are you sure you want to delete it?"
+      "value": "Dieses Protokoll wird endgültig gelöscht. Wollen Sie wirklich löschen?"
     }
   ],
   "ui-finance.allocation.batch.logs.columns.createdByUsername": [
     {
       "type": 0,
-      "value": "Run by"
+      "value": "Ausgeführt von"
     }
   ],
   "ui-finance.allocation.batch.logs.columns.createdDate": [
     {
       "type": 0,
-      "value": "Started running"
+      "value": "Ausführung gestartet"
     }
   ],
   "ui-finance.allocation.batch.logs.columns.jobName": [
     {
       "type": 0,
-      "value": "Job name"
+      "value": "Jobname"
     }
   ],
   "ui-finance.allocation.batch.logs.columns.jobNumber": [
@@ -64853,23 +64853,27 @@
   "ui-finance.allocation.batch.logs.columns.recordsCount": [
     {
       "type": 0,
-      "value": "Updated records"
+      "value": "Aktualisierte Datensätze"
     }
   ],
   "ui-finance.allocation.batch.logs.columns.select": [
     {
       "type": 0,
-      "value": "Select log $"
+      "value": "Protokoll $"
     },
     {
       "type": 1,
       "value": "id"
+    },
+    {
+      "type": 0,
+      "value": " auswählen"
     }
   ],
   "ui-finance.allocation.batch.logs.columns.selectAll": [
     {
       "type": 0,
-      "value": "Select all logs"
+      "value": "Alle Protokolle auswählen"
     }
   ],
   "ui-finance.allocation.batch.logs.columns.status": [
@@ -64881,73 +64885,73 @@
   "ui-finance.allocation.batch.logs.columns.status.completed": [
     {
       "type": 0,
-      "value": "Completed"
+      "value": "Abgeschlossen"
     }
   ],
   "ui-finance.allocation.batch.logs.columns.status.error": [
     {
       "type": 0,
-      "value": "Error"
+      "value": "Fehler"
     }
   ],
   "ui-finance.allocation.batch.logs.columns.status.inProgress": [
     {
       "type": 0,
-      "value": "In Progress"
+      "value": "In Bearbeitung"
     }
   ],
   "ui-finance.allocation.batch.logs.columns.updatedDate": [
     {
       "type": 0,
-      "value": "Ended running"
+      "value": "Lauf beendet"
     }
   ],
   "ui-finance.allocation.batch.logs.filters.fiscalYearId": [
     {
       "type": 0,
-      "value": "Fiscal Year"
+      "value": "Haushaltsjahr"
     }
   ],
   "ui-finance.allocation.batch.logs.filters.groupId": [
     {
       "type": 0,
-      "value": "Group"
+      "value": "Gruppe"
     }
   ],
   "ui-finance.allocation.batch.logs.filters.ledgerId": [
     {
       "type": 0,
-      "value": "Ledger"
+      "value": "Etat"
     }
   ],
   "ui-finance.allocation.batch.logs.filters.metadata.createdByUserId": [
     {
       "type": 0,
-      "value": "User"
+      "value": "Person"
     }
   ],
   "ui-finance.allocation.batch.logs.filters.metadata.createdDate": [
     {
       "type": 0,
-      "value": "Date"
+      "value": "Datum"
     }
   ],
   "ui-finance.allocation.batch.logs.modal.delete.description": [
     {
       "type": 0,
-      "value": "This action will cause selected logs to be deleted PERMANENTLY. Do you wish to proceed?"
+      "value": "Durch diese Aktion werden ausgewählte Protokolle DAUERHAFT gelöscht. Möchten Sie fortfahren?"
     }
   ],
   "ui-finance.allocation.batch.logs.modal.delete.title": [
     {
       "type": 0,
-      "value": "Delete Log"
+      "value": "Protokoll löschen"
     }
   ],
   "ui-finance.allocation.batch.logs.search.jobName": [
     {
       "type": 0,
-      "value": "Job name"
+      "value": "Jobname"
     }
   ],
   "ui-finance.allocation.batch.logs.search.jobNumber": [
@@ -64959,43 +64963,43 @@
   "ui-finance.allocation.batch.logs.search.keyword": [
     {
       "type": 0,
-      "value": "All"
+      "value": "Alles"
     }
   ],
   "ui-finance.allocation.batch.logs.title": [
     {
       "type": 0,
-      "value": "Logs"
+      "value": "Protokolle"
     }
   ],
   "ui-finance.allocation.batch.status.active": [
     {
       "type": 0,
-      "value": "Active"
+      "value": "Aktiv"
     }
   ],
   "ui-finance.allocation.batch.status.frozen": [
     {
       "type": 0,
-      "value": "Frozen"
+      "value": "Gesperrt"
     }
   ],
   "ui-finance.allocation.batch.status.inactive": [
     {
       "type": 0,
-      "value": "Inactive"
+      "value": "Inaktiv"
     }
   ],
   "ui-finance.allocation.worksheet.download.error": [
     {
       "type": 0,
-      "value": "An error occurred during file generation."
+      "value": "Bei der Dateierstellung ist ein Fehler aufgetreten."
     }
   ],
   "ui-finance.allocation.worksheet.download.start": [
     {
       "type": 0,
-      "value": "Please wait while the worksheet is generated. Your download will start automatically"
+      "value": "Bitte warten Sie, während das Arbeitsblatt generiert wird. Ihr Download wird automatisch gestartet"
     }
   ],
   "ui-finance.appMenu.financeAppSearch": [
@@ -65007,43 +65011,47 @@
   "ui-finance.batchAllocations.upload.error.notFound": [
     {
       "type": 0,
-      "value": "Could not find the file to upload. Please try to upload the file again."
+      "value": "Die hochzuladende Datei konnte nicht gefunden werden. Bitte versuchen Sie, die Datei erneut hochzuladen."
     }
   ],
   "ui-finance.batchAllocations.uploadWorksheet.modal.heading": [
     {
       "type": 0,
-      "value": "Upload worksheet"
+      "value": "Arbeitsblatt hochladen"
     }
   ],
   "ui-finance.batchAllocations.uploadWorksheet.modal.message": [
     {
       "type": 0,
-      "value": "Please choose a budget worksheet to upload"
+      "value": "Bitte wählen Sie ein Budgetarbeitsblatt zum Hochladen aus"
     }
   ],
   "ui-finance.batchAllocations.uploadWorksheet.validation.error.emptyFile": [
     {
       "type": 0,
-      "value": "File has no rows."
+      "value": "Datei hat keine Zeilen."
     }
   ],
   "ui-finance.batchAllocations.uploadWorksheet.validation.error.fiscalYearNotResolved": [
     {
       "type": 0,
-      "value": "Could not determine the fiscal year from the uploaded file."
+      "value": "Das Geschäftsjahr konnte aus der hochgeladenen Datei nicht ermittelt werden."
     }
   ],
   "ui-finance.batchAllocations.uploadWorksheet.validation.error.inconsistentField": [
     {
       "type": 0,
-      "value": "Inconsistent values found in field: "
+      "value": "Inkonsistente Werte im Feld gefunden: "
     },
     {
       "children": [
         {
           "type": 1,
           "value": "field"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -65051,13 +65059,13 @@
     },
     {
       "type": 0,
-      "value": ". All rows must have the same value."
+      "value": " . Alle Zeilen müssen den gleichen Wert haben."
     }
   ],
   "ui-finance.batchAllocations.uploadWorksheet.validation.error.invalidFileType": [
     {
       "type": 0,
-      "value": "Invalid file type. Only "
+      "value": "Ungültiger Dateityp. Nur "
     },
     {
       "children": [
@@ -65071,7 +65079,7 @@
     },
     {
       "type": 0,
-      "value": " files are allowed."
+      "value": " Dateien sind erlaubt."
     }
   ],
   "ui-finance.batchAllocations.uploadWorksheet.validation.error.parseFailed": [
@@ -65087,19 +65095,27 @@
     },
     {
       "type": 0,
-      "value": " could not be parsed. Please download the latest worksheet and resubmit."
+      "value": " konnte nicht geparst werden. Bitte laden Sie das neueste Arbeitsblatt herunter und reichen Sie es erneut ein."
     }
   ],
   "ui-finance.batchAllocations.uploadWorksheet.validation.error.requiredHeaders": [
     {
       "type": 0,
-      "value": "Missing required header(s): "
+      "value": "Fehlende erforderliche Header: "
     },
     {
       "children": [
         {
+          "type": 0,
+          "value": " "
+        },
+        {
           "type": 1,
           "value": "headers"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -65203,7 +65219,7 @@
   "ui-finance.budget.batch.create.success": [
     {
       "type": 0,
-      "value": "Budgets have been created successfully."
+      "value": "Budgets wurden erfolgreich erstellt."
     }
   ],
   "ui-finance.budget.button.cancel": [
@@ -65539,7 +65555,7 @@
   "ui-finance.document.settings.title": [
     {
       "type": 0,
-      "value": "Finance settings"
+      "value": "Finanzeinstellungen"
     }
   ],
   "ui-finance.document.title.search": [
@@ -67707,7 +67723,7 @@
   "ui-finance.menuSection.allocationTools": [
     {
       "type": 0,
-      "value": "Allocation tools"
+      "value": "Zuweisungs-Tools"
     }
   ],
   "ui-finance.meta.title": [
@@ -67743,7 +67759,7 @@
   "ui-finance.permission.encumbrance.release-manually.execute": [
     {
       "type": 0,
-      "value": "Finance: Manually release encumbrance"
+      "value": "Finanzen: Bindung manuell auflösen"
     }
   ],
   "ui-finance.permission.encumbrance.unrelease": [
@@ -67755,7 +67771,7 @@
   "ui-finance.permission.encumbrance.unrelease.execute": [
     {
       "type": 0,
-      "value": "Finance: Unrelease encumbrance"
+      "value": "Finanzen: Bindung wiederherstellen"
     }
   ],
   "ui-finance.permission.exportCSV": [
@@ -67809,7 +67825,7 @@
   "ui-finance.permission.fund-budget.recalculate-totals.execute": [
     {
       "type": 0,
-      "value": "Finance: Recalculate budget totals"
+      "value": "Finanzen: Budgetsummen neu berechnen"
     }
   ],
   "ui-finance.permission.fund-budget.recalculateTotals": [
@@ -67875,7 +67891,7 @@
   "ui-finance.permission.ledger.rollover.execute": [
     {
       "type": 0,
-      "value": "Finance: Execute fiscal year rollover"
+      "value": "Finanzen: Jahresübergang ausführen"
     }
   ],
   "ui-finance.permission.ledger.view": [
@@ -67899,7 +67915,7 @@
   "ui-finance.permission.settings.exchange_rate_source.manage": [
     {
       "type": 0,
-      "value": "Settings (Finance): Manage external exchange rate source"
+      "value": "Einstellungen (Finanzen); externe Wechselkursquelle verwalten"
     }
   ],
   "ui-finance.permission.settings.exportFundAndExpenseClassCodes": [
@@ -67986,7 +68002,7 @@
   "ui-finance.selectFiscalYear": [
     {
       "type": 0,
-      "value": "Select fiscal year"
+      "value": "Haushaltsjahr auswählen"
     }
   ],
   "ui-finance.settings.button.export": [
@@ -67998,55 +68014,55 @@
   "ui-finance.settings.exchangeRateSource.description": [
     {
       "type": 0,
-      "value": "FOLIO retrieves exchange rates from the European Central Bank. If your institution wishes to use an alternate source for exchange rates, please check the \"Specify exchange rate provider\" box and fill in the details below."
+      "value": "FOLIO bezieht die Wechselkurse von der Europäischen Zentralbank. Wenn Ihre Einrichtung eine andere Quelle für Wechselkurse verwenden möchte, kreuzen Sie bitte das Kästchen \"Anbieter von Wechselkursen angeben\" an und geben Sie die Einzelheiten unten an."
     }
   ],
   "ui-finance.settings.exchangeRateSource.form.field.apiKey": [
     {
       "type": 0,
-      "value": "API Key or Login"
+      "value": "API Key oder Login"
     }
   ],
   "ui-finance.settings.exchangeRateSource.form.field.apiSecret": [
     {
       "type": 0,
-      "value": "API Secret or Password"
+      "value": "API Secret oder Passwort"
     }
   ],
   "ui-finance.settings.exchangeRateSource.form.field.enabled": [
     {
       "type": 0,
-      "value": "Specify exchange rate provider"
+      "value": "Anbieter des Wechselkurses angeben"
     }
   ],
   "ui-finance.settings.exchangeRateSource.form.field.providerType": [
     {
       "type": 0,
-      "value": "Exchange rate provider type"
+      "value": "Anbietertyp des Wechselkurses"
     }
   ],
   "ui-finance.settings.exchangeRateSource.form.field.providerUri": [
     {
       "type": 0,
-      "value": "Exchange rate provider URI"
+      "value": "URI des Anbieters des Wechselkurses"
     }
   ],
   "ui-finance.settings.exchangeRateSource.submit.error.generic": [
     {
       "type": 0,
-      "value": "Exchange rate source was not updated."
+      "value": "Wechselkursquelle wurde nicht aktualisiert"
     }
   ],
   "ui-finance.settings.exchangeRateSource.submit.success": [
     {
       "type": 0,
-      "value": "Settings successfully updated."
+      "value": "Einstellungen erfolgreich aktualisiert"
     }
   ],
   "ui-finance.settings.exchangeRateSource.title": [
     {
       "type": 0,
-      "value": "Exchange rate source"
+      "value": "Wechselkursquelle"
     }
   ],
   "ui-finance.settings.expenseClasses.cannotDeleteTermHeader": [
@@ -68262,31 +68278,31 @@
   "ui-finance.transaction.allocation.batch.columns.budgetAfterAllocation": [
     {
       "type": 0,
-      "value": "Total allocated (after)"
+      "value": "Insgesamt zugewiesen (danach)"
     }
   ],
   "ui-finance.transaction.allocation.batch.columns.budgetAllocationChange": [
     {
       "type": 0,
-      "value": "Allocation increase/decrease"
+      "value": "Zuweisung erhöhen/verringern"
     }
   ],
   "ui-finance.transaction.allocation.batch.columns.budgetAllowableEncumbrance": [
     {
       "type": 0,
-      "value": "Allowable encumbrance %"
+      "value": "Zulässige Bindungen %"
     }
   ],
   "ui-finance.transaction.allocation.batch.columns.budgetAllowableExpenditure": [
     {
       "type": 0,
-      "value": "Allowable expenditure %"
+      "value": "Zulässige Ausgaben %"
     }
   ],
   "ui-finance.transaction.allocation.batch.columns.budgetCurrentAllocation": [
     {
       "type": 0,
-      "value": "Total allocated (before)"
+      "value": "Insgesamt zugewiesen (zuvor)"
     }
   ],
   "ui-finance.transaction.allocation.batch.columns.budgetInitialAllocation": [
@@ -68298,25 +68314,25 @@
   "ui-finance.transaction.allocation.batch.columns.budgetName": [
     {
       "type": 0,
-      "value": "Budget Name"
+      "value": "Budgetname"
     }
   ],
   "ui-finance.transaction.allocation.batch.columns.budgetStatus": [
     {
       "type": 0,
-      "value": "Budget status"
+      "value": "Budgetstatus"
     }
   ],
   "ui-finance.transaction.allocation.batch.columns.fundName": [
     {
       "type": 0,
-      "value": "Fund name"
+      "value": "Fondsname"
     }
   ],
   "ui-finance.transaction.allocation.batch.columns.fundStatus": [
     {
       "type": 0,
-      "value": "Fund status"
+      "value": "Fondsstatus"
     }
   ],
   "ui-finance.transaction.allocation.batch.columns.fundTags": [
@@ -68334,13 +68350,13 @@
   "ui-finance.transaction.allocation.batch.columns.transactionDescription": [
     {
       "type": 0,
-      "value": "Transaction description"
+      "value": "Beschreibung der Transaktion"
     }
   ],
   "ui-finance.transaction.allocation.batch.columns.transactionTag": [
     {
       "type": 0,
-      "value": "Transaction tags"
+      "value": "Transaktions-Tags"
     }
   ],
   "ui-finance.transaction.allocation.budgetNotFoundForTransaction": [
@@ -68374,13 +68390,21 @@
     },
     {
       "type": 0,
-      "value": " was not successfully allocated to the budget "
+      "value": " wurde dem Budget "
     },
     {
       "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
         {
           "type": 1,
           "value": "toBudgetName"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -68388,13 +68412,21 @@
     },
     {
       "type": 0,
-      "value": " because it exceeds the total allocation amount of "
+      "value": " nicht erfolgreich zugewiesen, da es den Gesamtzuweisungsbetrag von "
     },
     {
       "children": [
         {
+          "type": 0,
+          "value": " "
+        },
+        {
           "type": 1,
           "value": "fromBudgetName"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -68402,19 +68434,27 @@
     },
     {
       "type": 0,
-      "value": " and ledger fund restrictions are active"
+      "value": " überschreitet und Fondsbeschränkungen bei diesem Etat aktiv sind"
     }
   ],
   "ui-finance.transaction.allocation.decrease.hasBeenCreated": [
     {
       "type": 0,
-      "value": "Budget "
+      "value": "Die Zuweisung von Budget "
     },
     {
       "children": [
         {
+          "type": 0,
+          "value": " "
+        },
+        {
           "type": 1,
           "value": "budgetName"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -68422,11 +68462,15 @@
     },
     {
       "type": 0,
-      "value": " allocation was successfully decreased by "
+      "value": " wurde erfolgreich um "
     },
     {
       "type": 1,
       "value": "amount"
+    },
+    {
+      "type": 0,
+      "value": " verringert"
     }
   ],
   "ui-finance.transaction.allocation.genericError": [
@@ -68460,7 +68504,7 @@
     },
     {
       "type": 0,
-      "value": " was successfully allocated to the budget "
+      "value": " wurde dem Budget "
     },
     {
       "children": [
@@ -68471,6 +68515,10 @@
       ],
       "type": 8,
       "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " erfolgreich zugewiesen"
     }
   ],
   "ui-finance.transaction.allocation.increase.hasBeenCreated": [
@@ -68480,7 +68528,7 @@
     },
     {
       "type": 0,
-      "value": " was successfully allocated to the budget "
+      "value": " wurde dem Budget "
     },
     {
       "children": [
@@ -68491,6 +68539,10 @@
       ],
       "type": 8,
       "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " erfolgreich zugewiesen"
     }
   ],
   "ui-finance.transaction.allocation.notEnoughMoneyForAllocationError": [
@@ -68656,7 +68708,7 @@
   "ui-finance.transaction.filter.encumbranceStatus": [
     {
       "type": 0,
-      "value": "Encumbrance status"
+      "value": "Bindungsstatus"
     }
   ],
   "ui-finance.transaction.fiscalYear": [
@@ -69022,7 +69074,7 @@
   "ui-finance.transaction.validation.totalAllocatedExceeded": [
     {
       "type": 0,
-      "value": "Total allocation cannot be less than zero"
+      "value": "Gesamtzuweisung kann nicht negativ sein"
     }
   ],
   "ui-finance.transaction.voided": [
@@ -81592,7 +81644,7 @@
   "ui-invoice.button.duplicate": [
     {
       "type": 0,
-      "value": "Duplicate"
+      "value": "Duplizieren"
     }
   ],
   "ui-invoice.button.edit": [
@@ -81716,7 +81768,7 @@
   "ui-invoice.errors.invoiceLine.duplicate": [
     {
       "type": 0,
-      "value": "The invoice line "
+      "value": "Rechnungsposten "
     },
     {
       "children": [
@@ -81730,7 +81782,7 @@
     },
     {
       "type": 0,
-      "value": " failed to duplicate."
+      "value": " konnte nicht dupliziert werden"
     }
   ],
   "ui-invoice.errors.invoiceLineHasNotBeenDeleted": [
@@ -82424,31 +82476,31 @@
   "ui-invoice.invoice.actions.duplicate.confirmLabel": [
     {
       "type": 0,
-      "value": "Duplicate"
+      "value": "Duplizieren"
     }
   ],
   "ui-invoice.invoice.actions.duplicate.confirmation.heading": [
     {
       "type": 0,
-      "value": "Duplicate invoice?"
+      "value": "Rechnung duplizieren?"
     }
   ],
   "ui-invoice.invoice.actions.duplicate.confirmation.message": [
     {
       "type": 0,
-      "value": "Are you sure you want to create a duplicate of this invoice and all of its invoice lines?"
+      "value": "Rechnung und alle dazugehörigen Rechnungsposten wirklich duplizieren?"
     }
   ],
   "ui-invoice.invoice.actions.duplicate.error.message": [
     {
       "type": 0,
-      "value": "The invoice has not been duplicated"
+      "value": "Rechnung wurde nicht dupliziert"
     }
   ],
   "ui-invoice.invoice.actions.duplicate.success.message": [
     {
       "type": 0,
-      "value": "The invoice has been duplicated successfully"
+      "value": "Rechnung wurde erfolgreich dupliziert"
     }
   ],
   "ui-invoice.invoice.actions.error.userHasNoPermission": [
@@ -82702,43 +82754,43 @@
   "ui-invoice.invoice.actions.updateOrderStatus.heading": [
     {
       "type": 0,
-      "value": "Update order status"
+      "value": "Bestellungsstatus aktualisieren"
     }
   ],
   "ui-invoice.invoice.actions.updateOrderStatus.message": [
     {
       "type": 0,
-      "value": "You are processing this invoice against a previous fiscal year and \"release encumbrance\" equals true for one or more invoice lines. One or more related orders has a type of One-time. Please indicate how the payment status of these order lines should be updated?"
+      "value": "Sie verarbeiten diese Rechnung für ein vorheriges Haushaltsjahr und für einen oder mehrere Rechnungsposten ist die Option „Bindung auflösen“ aktiviert. Eine oder mehrere zugehörige Bestellungen haben den Typ „Einmalig“. Bitte geben Sie an, wie der Zahlungsstatus dieser Bestellposten aktualisiert werden soll."
     }
   ],
   "ui-invoice.invoice.actions.updateOrderStatus.status.awaitingPayment": [
     {
       "type": 0,
-      "value": "Awaiting payment"
+      "value": "Zur Bezahlung vorgesehen"
     }
   ],
   "ui-invoice.invoice.actions.updateOrderStatus.status.cancelled": [
     {
       "type": 0,
-      "value": "Cancelled"
+      "value": "storniert"
     }
   ],
   "ui-invoice.invoice.actions.updateOrderStatus.status.fullyPaid": [
     {
       "type": 0,
-      "value": "Fully paid"
+      "value": "Vollständig bezahlt"
     }
   ],
   "ui-invoice.invoice.actions.updateOrderStatus.status.noChange": [
     {
       "type": 0,
-      "value": "No change"
+      "value": "Keine Änderung"
     }
   ],
   "ui-invoice.invoice.actions.updateOrderStatus.status.partiallyPaid": [
     {
       "type": 0,
-      "value": "Partially paid"
+      "value": "Teilweise bezahlt"
     }
   ],
   "ui-invoice.invoice.address": [
@@ -83436,7 +83488,7 @@
   "ui-invoice.invoice.list.folioInvoiceNo": [
     {
       "type": 0,
-      "value": "FOLIO invoice number"
+      "value": "FOLIO Rechnungsnummer"
     }
   ],
   "ui-invoice.invoice.list.invoiceDate": [
@@ -83472,7 +83524,7 @@
   "ui-invoice.invoice.list.vendorName": [
     {
       "type": 0,
-      "value": "Vendor name"
+      "value": "Lieferantenname"
     }
   ],
   "ui-invoice.invoice.lockTotal": [
@@ -83566,7 +83618,7 @@
   "ui-invoice.invoice.totalAmount": [
     {
       "type": 0,
-      "value": "Total Amount"
+      "value": "Gesamtbetrag"
     }
   ],
   "ui-invoice.invoice.validation.accountingCode": [
@@ -83590,7 +83642,7 @@
   "ui-invoice.invoice.versionHistory.noVersion": [
     {
       "type": 0,
-      "value": "No version history to display."
+      "value": "Keine Versionsverlauf anzuzeigen."
     }
   ],
   "ui-invoice.invoice.voucherNumber": [
@@ -83784,7 +83836,7 @@
   "ui-invoice.invoiceLine.releaseEncumbrance": [
     {
       "type": 0,
-      "value": "Bindungen lösen"
+      "value": "Bindung auflösen"
     }
   ],
   "ui-invoice.invoiceLine.relink.success": [
@@ -83856,7 +83908,7 @@
   "ui-invoice.label.backToInvoice": [
     {
       "type": 0,
-      "value": "Back to Invoice"
+      "value": "Zurück zur Rechnung"
     }
   ],
   "ui-invoice.links": [
@@ -84012,13 +84064,13 @@
   "ui-invoice.permission.invoice.approve.execute": [
     {
       "type": 0,
-      "value": "Invoice: Approve invoices"
+      "value": "Rechnung: Rechnungen freigeben"
     }
   ],
   "ui-invoice.permission.invoice.cancel.execute": [
     {
       "type": 0,
-      "value": "Invoice: Cancel invoices"
+      "value": "Rechnung: Rechnung stornieren"
     }
   ],
   "ui-invoice.permission.invoice.create": [
@@ -84042,13 +84094,13 @@
   "ui-invoice.permission.invoice.pay-different-fy.execute": [
     {
       "type": 0,
-      "value": "Invoice: Pay invoices in a different fiscal year"
+      "value": "Rechnung: Rechnungen in einem anderen Haushaltsjahr bezahlen"
     }
   ],
   "ui-invoice.permission.invoice.pay.execute": [
     {
       "type": 0,
-      "value": "Invoice: Pay invoices"
+      "value": "Rechnung: Rechnungen bezahlen"
     }
   ],
   "ui-invoice.permission.invoice.view": [
@@ -84078,7 +84130,7 @@
   "ui-invoice.permission.voucher.export.execute": [
     {
       "type": 0,
-      "value": "Invoice: Voucher export"
+      "value": "Rechnungen: Belegexport"
     }
   ],
   "ui-invoice.permission.voucherExport": [
@@ -84168,7 +84220,7 @@
   "ui-invoice.search.folioInvoiceNo": [
     {
       "type": 0,
-      "value": "FOLIO invoice number"
+      "value": "FOLIO Rechnungsnummer"
     }
   ],
   "ui-invoice.search.keyword": [
@@ -114124,7 +114176,7 @@
   "ui-quick-marc.leader.Serial": [
     {
       "type": 0,
-      "value": "Serial"
+      "value": "Fortsetzung"
     }
   ],
   "ui-quick-marc.leader.Serial component part": [
@@ -127789,7 +127841,7 @@
   "ui-serials-management.ruleset.addChronologyLabel": [
     {
       "type": 0,
-      "value": "Add chronology label"
+      "value": "Label für Chronologie hinzufügen"
     }
   ],
   "ui-serials-management.ruleset.addCombination": [
@@ -127807,7 +127859,7 @@
   "ui-serials-management.ruleset.addEnumerationLabel": [
     {
       "type": 0,
-      "value": "Add enumeration label"
+      "value": "Label für Zählung hinzufügen"
     }
   ],
   "ui-serials-management.ruleset.addLabel": [
@@ -127927,7 +127979,7 @@
   "ui-serials-management.ruleset.chronologyLabelIndex": [
     {
       "type": 0,
-      "value": "Chronology label "
+      "value": "Label für Chronologie "
     },
     {
       "type": 1,
@@ -127937,7 +127989,7 @@
   "ui-serials-management.ruleset.chronologyLabels": [
     {
       "type": 0,
-      "value": "Chronology labels"
+      "value": "Labels für Chronologie"
     }
   ],
   "ui-serials-management.ruleset.combinationRuleIndex": [
@@ -128155,7 +128207,7 @@
   "ui-serials-management.ruleset.enumerationLabelIndex": [
     {
       "type": 0,
-      "value": "Enumeration label "
+      "value": "Label für Zählung "
     },
     {
       "type": 1,
@@ -128165,7 +128217,7 @@
   "ui-serials-management.ruleset.enumerationLabels": [
     {
       "type": 0,
-      "value": "Enumeration labels"
+      "value": "Labels für Zählung"
     }
   ],
   "ui-serials-management.ruleset.firstIssue": [
@@ -128295,7 +128347,7 @@
   "ui-serials-management.ruleset.labelTemplate": [
     {
       "type": 0,
-      "value": "Label template"
+      "value": "Vorlage für Label"
     }
   ],
   "ui-serials-management.ruleset.labelText": [
@@ -128371,7 +128423,7 @@
   "ui-serials-management.ruleset.noChronologyLabels": [
     {
       "type": 0,
-      "value": "No chronology labels for this publication pattern"
+      "value": "Keine Labels für die Chronologie bei diesem Erscheinungsmuster"
     }
   ],
   "ui-serials-management.ruleset.noCombinationRules": [
@@ -128383,7 +128435,7 @@
   "ui-serials-management.ruleset.noEnumerationLabels": [
     {
       "type": 0,
-      "value": "No enumeration labels for this publication pattern"
+      "value": "Keine Labels für die Zählung bei diesem Erscheinungsmuster"
     }
   ],
   "ui-serials-management.ruleset.noLabels": [
@@ -128437,25 +128489,25 @@
   "ui-serials-management.ruleset.numberOfTimeUnit.day": [
     {
       "type": 0,
-      "value": "Number of days"
+      "value": "Anzahl der Tage"
     }
   ],
   "ui-serials-management.ruleset.numberOfTimeUnit.month": [
     {
       "type": 0,
-      "value": "Number of months"
+      "value": "Anzahl der Monate"
     }
   ],
   "ui-serials-management.ruleset.numberOfTimeUnit.week": [
     {
       "type": 0,
-      "value": "Number of weeks"
+      "value": "Anzahl der Wochen"
     }
   ],
   "ui-serials-management.ruleset.numberOfTimeUnit.year": [
     {
       "type": 0,
-      "value": "Number of years"
+      "value": "Anzahl der Jahre"
     }
   ],
   "ui-serials-management.ruleset.numberOfUnits": [
@@ -128541,7 +128593,7 @@
   "ui-serials-management.ruleset.parentSerial": [
     {
       "type": 0,
-      "value": "Parent serial"
+      "value": "Übergeordnete Fortsetzung"
     }
   ],
   "ui-serials-management.ruleset.patternDescription": [
@@ -128589,11 +128641,15 @@
   "ui-serials-management.ruleset.removeChronologyLabelIndex": [
     {
       "type": 0,
-      "value": "Remove chronology label "
+      "value": "Label für Chronologie "
     },
     {
       "type": 1,
       "value": "index"
+    },
+    {
+      "type": 0,
+      "value": " entfernen"
     }
   ],
   "ui-serials-management.ruleset.removeCombinationRule": [
@@ -128613,11 +128669,15 @@
   "ui-serials-management.ruleset.removeEnumerationLabelIndex": [
     {
       "type": 0,
-      "value": "Remove enumeration label "
+      "value": "Label für Zählung "
     },
     {
       "type": 1,
       "value": "index"
+    },
+    {
+      "type": 0,
+      "value": " entfernen"
     }
   ],
   "ui-serials-management.ruleset.removeLabel": [
@@ -128801,7 +128861,7 @@
   "ui-serials-management.serials": [
     {
       "type": 0,
-      "value": "Serials"
+      "value": "Fortsetzungen"
     }
   ],
   "ui-serials-management.serials.addNote": [
@@ -128819,13 +128879,13 @@
   "ui-serials-management.serials.deleteSerial": [
     {
       "type": 0,
-      "value": "Delete serial"
+      "value": "Fortsetzung löschen"
     }
   ],
   "ui-serials-management.serials.deleteSerial.confirmMessage": [
     {
       "type": 0,
-      "value": "Serial "
+      "value": "Fortsetzung "
     },
     {
       "children": [
@@ -128839,13 +128899,13 @@
     },
     {
       "type": 0,
-      "value": " will be deleted"
+      "value": " wird gelöscht"
     }
   ],
   "ui-serials-management.serials.deleteSerial.error.hasPublicationPattern": [
     {
       "type": 0,
-      "value": "Serial was not deleted because it has one or more publication patterns."
+      "value": "Fortsetzung wurde nicht gelöscht, weil sie mit einem oder mehreren Erscheinungsmustern verknüpft ist"
     }
   ],
   "ui-serials-management.serials.deleteSerial.error.noDeleteSerialBackendError": [
@@ -128853,7 +128913,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Serial was not deleted:"
+          "value": "Fortsetzung wurde nicht gelöscht:"
         }
       ],
       "type": 8,
@@ -128871,7 +128931,7 @@
   "ui-serials-management.serials.deleteSerial.success": [
     {
       "type": 0,
-      "value": "Serial deleted: "
+      "value": "Fortsetzung gelöscht: "
     },
     {
       "children": [
@@ -128893,7 +128953,7 @@
   "ui-serials-management.serials.editSerial": [
     {
       "type": 0,
-      "value": "Serial bearbeiten"
+      "value": "Fortsetzung bearbeiten"
     }
   ],
   "ui-serials-management.serials.location": [
@@ -128905,7 +128965,7 @@
   "ui-serials-management.serials.newSerial": [
     {
       "type": 0,
-      "value": "Neues Serial"
+      "value": "Neue Fortsetzung"
     }
   ],
   "ui-serials-management.serials.note": [

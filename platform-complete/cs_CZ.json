@@ -18354,38 +18354,22 @@
   ],
   "ui-agreements.eresources.deleteConfirmationMessage.default": [
     {
-      "children": [
-        {
-          "type": 1,
-          "value": "numberDeleted"
-        }
-      ],
-      "type": 8,
-      "value": "strong"
-    },
-    {
       "type": 0,
-      "value": " out of "
+      "value": "Z balíčku "
     },
     {
       "children": [
         {
-          "type": 1,
-          "value": "totalCount"
-        }
-      ],
-      "type": 8,
-      "value": "strong"
-    },
-    {
-      "type": 0,
-      "value": " e-resources will be deleted from the package "
-    },
-    {
-      "children": [
+          "type": 0,
+          "value": " "
+        },
         {
           "type": 1,
           "value": "pkgName"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -18393,25 +18377,77 @@
     },
     {
       "type": 0,
-      "value": "."
+      "value": " bude smazáno "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "numberDeleted"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " z "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "totalCount"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " elektronických zdrojů."
     }
   ],
   "ui-agreements.eresources.deleteConfirmationMessage.information": [
     {
       "type": 0,
-      "value": "Related information in the knowledgebase that is no longer needed will also be deleted."
+      "value": "Související informace v databázi znalostí, které již nejsou potřeba, budou rovněž odstraněny."
     }
   ],
   "ui-agreements.eresources.deleteConfirmationMessage.noDeletion": [
     {
       "type": 0,
-      "value": "No e-resources can be deleted from the package "
+      "value": "Z balíčku "
     },
     {
       "children": [
         {
+          "type": 0,
+          "value": " "
+        },
+        {
           "type": 1,
           "value": "pkgName"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -18419,7 +18455,7 @@
     },
     {
       "type": 0,
-      "value": ", most likely because they are linked directly to one or more Agreement Lines."
+      "value": " nelze smazat žádné e-zdroje, pravděpodobně proto, že jsou přímo propojeny s jednou nebo více položkami smluv."
     }
   ],
   "ui-agreements.eresources.deleteConfirmationMessage.pciNotDeleted": [
@@ -18435,19 +18471,19 @@
     },
     {
       "type": 0,
-      "value": " e-resources can not be deleted, most likely because they are linked directly to one or more Agreement Lines."
+      "value": " e-zdroje nelze smazat, pravděpodobně proto, že jsou přímo spojeny s jednou nebo více položkami smluv."
     }
   ],
   "ui-agreements.eresources.deleteConfirmationMessage.selectDelete": [
     {
       "type": 0,
-      "value": "Select \"Delete\" to create the deletion job."
+      "value": "Vyberte možnost „Odstranit“ pro vytvoření úlohy odstranění."
     }
   ],
   "ui-agreements.eresources.deleteJob": [
     {
       "type": 0,
-      "value": "Create job to delete package contents"
+      "value": "Vytvoření úlohy pro smazání obsahu balíčku"
     }
   ],
   "ui-agreements.eresources.deleteJob.success": [
@@ -18455,7 +18491,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Package contents deletion job created:"
+          "value": " Vytvořena úloha smazání obsahu balíčku: "
         }
       ],
       "type": 8,
@@ -18463,7 +18499,7 @@
     },
     {
       "type": 0,
-      "value": " for "
+      "value": " pro "
     },
     {
       "type": 1,
@@ -18471,13 +18507,13 @@
     },
     {
       "type": 0,
-      "value": ". Updates will be displayed in the Local KB Admin app."
+      "value": ". Aktualizace se zobrazí v aplikaci Lokální administrace znalostní databáze."
     }
   ],
   "ui-agreements.eresources.deletePackageContents": [
     {
       "type": 0,
-      "value": "Delete package contents"
+      "value": "Smazat obsah balíčku"
     }
   ],
   "ui-agreements.eresources.description": [
@@ -19081,7 +19117,7 @@
   "ui-agreements.eresources.viewJobLink": [
     {
       "type": 0,
-      "value": "View Local KB Admin job"
+      "value": "Zobrazit úlohu lokálního admina KB"
     }
   ],
   "ui-agreements.eresources.volume": [
@@ -19319,7 +19355,7 @@
   "ui-agreements.gokbSearch": [
     {
       "type": 0,
-      "value": "GOKb search"
+      "value": "Vyhledávání GOKb"
     }
   ],
   "ui-agreements.identifier.doi": [
@@ -19940,7 +19976,7 @@
   "ui-agreements.okay": [
     {
       "type": 0,
-      "value": "Okay"
+      "value": "Dobře"
     }
   ],
   "ui-agreements.open.linkInNewTab": [
@@ -21378,19 +21414,19 @@
   "ui-agreements.settings.displaySuppressFromDiscovery.agreementLine": [
     {
       "type": 0,
-      "value": "Display \"Suppress from discovery\" setting on Agreement lines"
+      "value": "Zobrazit nastavení „Potlačit při zobrazování“ na položkách smlouvy"
     }
   ],
   "ui-agreements.settings.displaySuppressFromDiscovery.pci": [
     {
       "type": 0,
-      "value": "Display \"Suppress from discovery\" setting on Titles in packages"
+      "value": "Zobrazit nastavení „Potlačit při zobrazování“ u titulů v balíčcích"
     }
   ],
   "ui-agreements.settings.displaySuppressFromDiscovery.title": [
     {
       "type": 0,
-      "value": "Display \"Suppress from discovery\" setting on Titles"
+      "value": "Zobrazit nastavení „Potlačit při zobrazování“ u titulů"
     }
   ],
   "ui-agreements.settings.error.valueNotInRange": [
@@ -21486,13 +21522,13 @@
   "ui-agreements.settings.general.hideAccordions.description": [
     {
       "type": 0,
-      "value": "Hide accordions in agreement edit view"
+      "value": "Skrýt akordeony v zobrazení pro úpravy smluv"
     }
   ],
   "ui-agreements.settings.general.hideAccordions.usageData": [
     {
       "type": 0,
-      "value": "Usage data"
+      "value": "Údaje o využití"
     }
   ],
   "ui-agreements.settings.general.hideEResourcesFunctionality.description": [
@@ -21516,7 +21552,7 @@
   "ui-agreements.settings.hideAccordions.usageData": [
     {
       "type": 0,
-      "value": "Údaje o využití"
+      "value": "Skrýt akordeony v zobrazení úprav smlouvy pro Data o používání"
     }
   ],
   "ui-agreements.settings.hideEResources.result.1": [
@@ -21540,7 +21576,7 @@
   "ui-agreements.settings.hideEResourcesFunctionality": [
     {
       "type": 0,
-      "value": "Hide internal agreements knowledgebase"
+      "value": "Skrýt vnitřní znalostní bázi smluv"
     }
   ],
   "ui-agreements.settings.label": [
@@ -21620,7 +21656,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Page size"
+          "value": "Velikost stránky"
         }
       ],
       "type": 8,
@@ -21630,31 +21666,31 @@
   "ui-agreements.settings.pageSize.agreementEresources": [
     {
       "type": 0,
-      "value": "Agreement view pane > E-resources covered by this agreement"
+      "value": "Podokno zobrazení Smlouvy > E-zdroje, na které se vztahuje tato smlouva"
     }
   ],
   "ui-agreements.settings.pageSize.agreementLines": [
     {
       "type": 0,
-      "value": "Agreement view pane > Agreement lines"
+      "value": "Podokno zobrazení smlouvy > Položky smlouvy"
     }
   ],
   "ui-agreements.settings.pageSize.entitlementOptions": [
     {
       "type": 0,
-      "value": "E-resource view pane > Options for acquiring e-resource"
+      "value": "Panel zobrazení E-zdroje > Možnosti získání e-zdroje"
     }
   ],
   "ui-agreements.settings.pageSize.entitlements": [
     {
       "type": 0,
-      "value": "E-resource view pane > Agreements for this e-resource"
+      "value": "Podokno zobrazení E-zdroje > Smlouvy pro tento e-zdroj"
     }
   ],
   "ui-agreements.settings.pageSize.packageContents": [
     {
       "type": 0,
-      "value": "Package view pane > E-resources in package"
+      "value": "Podokno zobrazení balíčku > E-zdroje v balíčku"
     }
   ],
   "ui-agreements.settings.pickList": [
@@ -21780,7 +21816,7 @@
   "ui-agreements.settings.update.error": [
     {
       "type": 0,
-      "value": "Setting \""
+      "value": "Nastavení „"
     },
     {
       "type": 1,
@@ -21788,13 +21824,13 @@
     },
     {
       "type": 0,
-      "value": "\" could not be updated"
+      "value": "“ se nepodařilo aktualizovat."
     }
   ],
   "ui-agreements.settings.update.success": [
     {
       "type": 0,
-      "value": "Setting \""
+      "value": "Nastavení „"
     },
     {
       "type": 1,
@@ -21802,7 +21838,7 @@
     },
     {
       "type": 0,
-      "value": "\" was updated to "
+      "value": "“ bylo aktualizováno na "
     },
     {
       "type": 1,
@@ -26435,31 +26471,31 @@
   "ui-bulk-edit.settings.profiles.columns.description": [
     {
       "type": 0,
-      "value": "Description"
+      "value": "Popis"
     }
   ],
   "ui-bulk-edit.settings.profiles.columns.name": [
     {
       "type": 0,
-      "value": "Name"
+      "value": "Název"
     }
   ],
   "ui-bulk-edit.settings.profiles.columns.status": [
     {
       "type": 0,
-      "value": "Status"
+      "value": "Stav"
     }
   ],
   "ui-bulk-edit.settings.profiles.columns.updated": [
     {
       "type": 0,
-      "value": "Updated"
+      "value": "Aktualizováno"
     }
   ],
   "ui-bulk-edit.settings.profiles.columns.updatedBy": [
     {
       "type": 0,
-      "value": "Updated by"
+      "value": "Aktualizoval"
     }
   ],
   "ui-bulk-edit.settings.profiles.empty": [
@@ -26467,7 +26503,7 @@
       "children": [
         {
           "type": 0,
-          "value": "No profiles available."
+          "value": "Nejsou k dispozici žádné profily."
         }
       ],
       "type": 8,
@@ -26487,11 +26523,19 @@
     {
       "offset": 0,
       "options": {
+        "few": {
+          "value": [
+            {
+              "type": 0,
+              "value": "nalezené profily"
+            }
+          ]
+        },
         "one": {
           "value": [
             {
               "type": 0,
-              "value": "profile found"
+              "value": " nalezený profil "
             }
           ]
         },
@@ -26499,7 +26543,7 @@
           "value": [
             {
               "type": 0,
-              "value": "profiles found"
+              "value": " nalezených profilů "
             }
           ]
         }
@@ -26512,7 +26556,7 @@
   "ui-bulk-edit.settings.profiles.search.label": [
     {
       "type": 0,
-      "value": "Search bulk edit profiles"
+      "value": "Prohledávání profilů hromadných úprav"
     }
   ],
   "ui-bulk-edit.settings.userProfiles": [
@@ -62412,25 +62456,25 @@
   "ui-erm-usage.monthpicker.monthSelection": [
     {
       "type": 0,
-      "value": "Month selection"
+      "value": "Výběr měsíce"
     }
   ],
   "ui-erm-usage.monthpicker.yearMonthInput": [
     {
       "type": 0,
-      "value": "Year and month input"
+      "value": "Zadání roku a měsíce"
     }
   ],
   "ui-erm-usage.monthpicker.yearMonthSelection": [
     {
       "type": 0,
-      "value": "Calender: Year and month selection"
+      "value": "Kalendář: Výběr roku a měsíce"
     }
   ],
   "ui-erm-usage.monthpicker.yearSelection": [
     {
       "type": 0,
-      "value": "Year selection"
+      "value": "Výběr roku"
     }
   ],
   "ui-erm-usage.noSourceYet": [
@@ -68382,7 +68426,7 @@
     },
     {
       "type": 0,
-      "value": " was successfully allocated to the budget "
+      "value": " bylo úspěšně přiděleno do rozpočtu "
     },
     {
       "children": [
@@ -101117,7 +101161,7 @@
   "ui-orders.orderDetails.yearOpened": [
     {
       "type": 0,
-      "value": "Year opened"
+      "value": "Otevřený rok"
     }
   ],
   "ui-orders.orderLineList.funCodes": [
@@ -101955,13 +101999,13 @@
   "ui-orders.poLine.receivingWorkflow.confirmModal.heading": [
     {
       "type": 0,
-      "value": "Update receiving workflow"
+      "value": "Aktualizovat pracovní postup příjmu"
     }
   ],
   "ui-orders.poLine.receivingWorkflow.confirmModal.message": [
     {
       "type": 0,
-      "value": "You are about to change the receiving workflow to “Independent order and receipt quantity”. This change cannot be undone unless the order is unopened. Are you sure you want to continue?"
+      "value": "Chystáte se změnit pracovní postup příjmu na „Nezávislé množství objednávek a množství pro příjem“. Tuto změnu nelze vrátit zpět, pokud není objednávka uzavřená. Jste si jisti, že chcete pokračovat?"
     }
   ],
   "ui-orders.poLine.receivingWorkflow.independent": [
@@ -101979,7 +102023,7 @@
   "ui-orders.poLine.receivingWorkflow.infoPopover": [
     {
       "type": 0,
-      "value": "Selecting synchronized will keep the order quantity and the number of pieces to be received, in sync. This also means updating one will update the other. When the order is opened, the system will generate pieces based on the quantity order. Selecting “independent order and receipt quantity” will allow you to manage the number of receiving pieces and their locations independently. You can convert a POL to independent at anytime but you cannot convert back to synchronized when the order is open or closed."
+      "value": "Výběrem možnosti „synchronizované“ se množství kusů v objednávce a počet přijatých kusů udrží synchronizované. To také znamená, že aktualizace jedné položky aktualizuje i druhou. Po otevření objednávky systém vygeneruje kusy na základě objednaného množství. Výběrem možnosti „nezávislé množství objednávek a množství pro příjem“ budete moci nezávisle spravovat počet přijímaných kusů a jejich umístění. Objednávku POL můžete kdykoli převést na nezávislou, ale nelze ji převést zpět na synchronizovanou, když je objednávka otevřená nebo uzavřená."
     }
   ],
   "ui-orders.poLine.receivingWorkflow.synchronized": [
@@ -104674,7 +104718,7 @@
   "ui-orders.unopenOrderModal.message.synchronized": [
     {
       "type": 0,
-      "value": "Tato objednávka má alespoň jeden řádek objednávky s pracovním postupem příjmu \"Synchronizované množství objednávky a příjmu\". U takových ŘNO se souvisejícími záznamy o příjmu budou vymazány všechny nepřijaté kusy a všechny záznamy jednotek „na objednávku“ související s těmito kusy budou také vymazány z katalogu. Z katalogu lze také odstranit jednotky spojené s jednotkami, které nemají žádné další související jednotky. Jak byste chtěli postupovat?"
+      "value": "Tato objednávka má alespoň jeden řádek objednávky s pracovním postupem příjmu \"Synchronizované množství objednávky a příjmu\". U takovýchto ŘNO se souvisejícími záznamy o příjmu budou vymazány všechny nepřijaté kusy a všechny záznamy jednotek „na objednávku“ související s těmito kusy budou také vymazány z katalogu. Z katalogu lze také odstranit jednotky spojené s jednotkami, které nemají žádné další související jednotky. Jak byste chtěli postupovat?"
     }
   ],
   "ui-orders.unopenOrderModal.message.withPieces": [
@@ -137051,25 +137095,25 @@
   "ui-users.loans.columns.useAtLocation": [
     {
       "type": 0,
-      "value": "Use at location"
+      "value": "Použít na místě"
     }
   ],
   "ui-users.loans.columns.useAtLocation.Held": [
     {
       "type": 0,
-      "value": "Held"
+      "value": "Podrženo"
     }
   ],
   "ui-users.loans.columns.useAtLocation.In use": [
     {
       "type": 0,
-      "value": "In use"
+      "value": "V provozu"
     }
   ],
   "ui-users.loans.columns.useAtLocation.Returned": [
     {
       "type": 0,
-      "value": "Returned"
+      "value": "Vráceno"
     }
   ],
   "ui-users.loans.confirmAsMissing": [
@@ -137831,7 +137875,7 @@
   "ui-users.loans.numOpenLoans.held": [
     {
       "type": 0,
-      "value": "Held: "
+      "value": "Drženo: "
     },
     {
       "type": 1,
@@ -137841,7 +137885,7 @@
   "ui-users.loans.numOpenLoans.inUse": [
     {
       "type": 0,
-      "value": "In use: "
+      "value": "Používá se: "
     },
     {
       "type": 1,
@@ -137851,7 +137895,7 @@
   "ui-users.loans.numOpenLoans.useAtLocation": [
     {
       "type": 0,
-      "value": "Use at location"
+      "value": "Použít na místě"
     }
   ],
   "ui-users.loans.open": [
