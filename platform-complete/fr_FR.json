@@ -56,7 +56,7 @@
   "stripes-acq-components.acquisition_method.internalTransfer": [
     {
       "type": 0,
-      "value": "Internal transfer"
+      "value": "Transfert interne"
     }
   ],
   "stripes-acq-components.acquisition_method.membership": [
@@ -216,13 +216,13 @@
   "stripes-acq-components.claiming.modal.sendClaim.field.externalNote": [
     {
       "type": 0,
-      "value": "External note"
+      "value": "Note externe"
     }
   ],
   "stripes-acq-components.claiming.modal.sendClaim.field.internalNote": [
     {
       "type": 0,
-      "value": "Internal note"
+      "value": "Note interne"
     }
   ],
   "stripes-acq-components.claiming.modal.sendClaim.heading": [
@@ -1842,7 +1842,7 @@
   "stripes-authority-components.browseSelectPlaceholder": [
     {
       "type": 0,
-      "value": "Select a browse option"
+      "value": "Parcourir par"
     }
   ],
   "stripes-authority-components.childrenSubjectHeading": [
@@ -1854,7 +1854,7 @@
   "stripes-authority-components.corporateConferenceName": [
     {
       "type": 0,
-      "value": "Corporate/Conference name"
+      "value": "Nom de collectivité/conférence"
     }
   ],
   "stripes-authority-components.filter.false": [
@@ -1963,7 +1963,7 @@
   "stripes-authority-components.personalName": [
     {
       "type": 0,
-      "value": "Personal name"
+      "value": "Nom de personne"
     }
   ],
   "stripes-authority-components.query": [
@@ -12081,7 +12081,7 @@
   "stripes-inventory-components.facet.modeOfIssuance": [
     {
       "type": 0,
-      "value": "Mode d'émission"
+      "value": "Type de parution"
     }
   ],
   "stripes-inventory-components.facet.nameType": [
@@ -12171,7 +12171,7 @@
   "stripes-inventory-components.item.status.agedToLost": [
     {
       "type": 0,
-      "value": "Considéré comme perdu"
+      "value": "Perdu"
     }
   ],
   "stripes-inventory-components.item.status.available": [
@@ -12333,7 +12333,7 @@
   "stripes-inventory-components.search.advanced.keyword": [
     {
       "type": 0,
-      "value": "Keyword (title, contributor, identifier)"
+      "value": "Mot-clé (titre, contributeur, identifiant)"
     }
   ],
   "stripes-inventory-components.search.advancedSearch": [
@@ -12453,7 +12453,7 @@
   "stripes-inventory-components.search.item.keyword": [
     {
       "type": 0,
-      "value": "Keyword (title, contributor, identifier, HRID, UUID, barcode)"
+      "value": "Mot-clé (titre, contributeur, identifiant, HRID, UUID, code-barres)"
     }
   ],
   "stripes-inventory-components.search.itemAdministrativeNotes": [
@@ -12501,7 +12501,7 @@
   "stripes-inventory-components.search.keyword": [
     {
       "type": 0,
-      "value": "Keyword (title, contributor, identifier, HRID, UUID)"
+      "value": "Mot-clé (titre, contributeur, identifiant, HRID, UUID)"
     }
   ],
   "stripes-inventory-components.search.lccn": [
@@ -24165,6 +24165,12 @@
       "value": "In.2"
     }
   ],
+  "ui-bulk-edit.layer.column.name": [
+    {
+      "type": 0,
+      "value": "Actions select"
+    }
+  ],
   "ui-bulk-edit.layer.column.options": [
     {
       "type": 0,
@@ -24175,6 +24181,12 @@
     {
       "type": 0,
       "value": "Subfield"
+    }
+  ],
+  "ui-bulk-edit.layer.column.value": [
+    {
+      "type": 0,
+      "value": "Data"
     }
   ],
   "ui-bulk-edit.layer.confirmChanges": [
@@ -93622,6 +93634,12 @@
       "value": "Language & localization"
     }
   ],
+  "ui-myprofile.settings.languageLocalization.resetToDefault": [
+    {
+      "type": 0,
+      "value": "Reset to default"
+    }
+  ],
   "ui-myprofile.settings.languageLocalization.tenantDefault": [
     {
       "type": 0,
@@ -101129,6 +101147,12 @@
     {
       "type": 0,
       "value": "Note"
+    }
+  ],
+  "ui-orders.orderDetails.openedBy": [
+    {
+      "type": 0,
+      "value": "Opened by"
     }
   ],
   "ui-orders.orderDetails.orderNumberPrefix": [

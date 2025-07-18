@@ -1112,7 +1112,7 @@
   "stripes-acq-components.receiving.itemStatus.Unavailable": [
     {
       "type": 0,
-      "value": "Unavailable"
+      "value": "Niedostępny"
     }
   ],
   "stripes-acq-components.receiving.itemStatus.Undefined": [
@@ -4247,15 +4247,11 @@
   "stripes-components.filterGroups.clearFilterSetLabel": [
     {
       "type": 0,
-      "value": "Clear selected "
+      "value": "Wyczyść wybrane filtry "
     },
     {
       "type": 1,
       "value": "labelText"
-    },
-    {
-      "type": 0,
-      "value": " filters"
     }
   ],
   "stripes-components.goToNextMonth": [
@@ -9668,7 +9664,7 @@
   "stripes-data-transfer-components.loading": [
     {
       "type": 0,
-      "value": "Ładowania"
+      "value": "Ładowanie"
     }
   ],
   "stripes-data-transfer-components.mappingProfilesCount": [
@@ -11094,7 +11090,7 @@
   "stripes-erm-components.errors.errorCard.defaultTitle": [
     {
       "type": 0,
-      "value": "Something went wrong."
+      "value": "Coś poszło nie tak."
     }
   ],
   "stripes-erm-components.errors.errorCard.text": [
@@ -11106,7 +11102,7 @@
   "stripes-erm-components.errors.errorCard.title": [
     {
       "type": 0,
-      "value": "Error "
+      "value": "Błąd "
     },
     {
       "type": 1,
@@ -12371,7 +12367,7 @@
   "stripes-inventory-components.search.effectiveCallNumberShelving": [
     {
       "type": 0,
-      "value": "Effective call number (item), shelving order"
+      "value": "Efektywna sygnatura (egzemplarz), kolejność na półce"
     }
   ],
   "stripes-inventory-components.search.holdingsAdministrativeNotes": [
@@ -12461,13 +12457,13 @@
   "stripes-inventory-components.search.itemEffectiveCallNumberEyeReadable": [
     {
       "type": 0,
-      "value": "Aktualna sygnatura (egzemplarz), nieznormalizowana "
+      "value": "Efektywna sygnatura (egzemplarz), nieznormalizowana"
     }
   ],
   "stripes-inventory-components.search.itemEffectiveCallNumberNormalized": [
     {
       "type": 0,
-      "value": "Aktualna sygnatura (egzemplarz), znormalizowana"
+      "value": "Efektywna sygnatura (egzemplarz), znormalizowana"
     }
   ],
   "stripes-inventory-components.search.itemHrid": [
@@ -13058,7 +13054,7 @@
   "stripes-smart-components.cddd.header.effectiveCallNumber": [
     {
       "type": 0,
-      "value": "Aktualna sygnatura całkowita"
+      "value": "Efektywna sygnatura całkowita"
     }
   ],
   "stripes-smart-components.cddd.header.itemStatus": [
@@ -13533,7 +13529,7 @@
   "stripes-smart-components.customFields.displayInAccordion": [
     {
       "type": 0,
-      "value": "Display in accordion"
+      "value": "Wyświetl w sekcji"
     }
   ],
   "stripes-smart-components.customFields.dragDrop": [
@@ -13769,7 +13765,7 @@
   "stripes-smart-components.customFields.helperText": [
     {
       "type": 0,
-      "value": "Tekst pomocy"
+      "value": "Treść pomocy"
     }
   ],
   "stripes-smart-components.customFields.helperText.description": [
@@ -14254,7 +14250,7 @@
   "stripes-smart-components.dateRange.invalidYear": [
     {
       "type": 0,
-      "value": "Please enter a valid year"
+      "value": "Proszę podać prawidłowy rok"
     }
   ],
   "stripes-smart-components.dateRange.missingEndDate": [
@@ -14394,7 +14390,7 @@
   "stripes-smart-components.error.requestUrlLimit": [
     {
       "type": 0,
-      "value": "Search URI request character limit has been exceeded. The character limit is "
+      "value": "Przekroczono limit znaków żądania URI wyszukiwania. Limit znaków wynosi "
     },
     {
       "type": 1,
@@ -14402,7 +14398,7 @@
     },
     {
       "type": 0,
-      "value": ". Please revise your search and/or facet selections."
+      "value": ". Proszę poprawić swoje wyszukiwanie i/lub wybór fasety."
     }
   ],
   "stripes-smart-components.feesfines.policy.lost.duplicate": [
@@ -24307,6 +24303,12 @@
       "value": "In.2"
     }
   ],
+  "ui-bulk-edit.layer.column.name": [
+    {
+      "type": 0,
+      "value": "Actions select"
+    }
+  ],
   "ui-bulk-edit.layer.column.options": [
     {
       "type": 0,
@@ -24317,6 +24319,12 @@
     {
       "type": 0,
       "value": "Podpole"
+    }
+  ],
+  "ui-bulk-edit.layer.column.value": [
+    {
+      "type": 0,
+      "value": "Data"
     }
   ],
   "ui-bulk-edit.layer.confirmChanges": [
@@ -93788,6 +93796,12 @@
       "value": "Język i lokalizacja"
     }
   ],
+  "ui-myprofile.settings.languageLocalization.resetToDefault": [
+    {
+      "type": 0,
+      "value": "Reset to default"
+    }
+  ],
   "ui-myprofile.settings.languageLocalization.tenantDefault": [
     {
       "type": 0,
@@ -101245,6 +101259,12 @@
     {
       "type": 0,
       "value": "Uwaga"
+    }
+  ],
+  "ui-orders.orderDetails.openedBy": [
+    {
+      "type": 0,
+      "value": "Opened by"
     }
   ],
   "ui-orders.orderDetails.orderNumberPrefix": [
