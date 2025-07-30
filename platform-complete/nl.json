@@ -13250,7 +13250,7 @@
   "stripes-smart-components.customFields.displayInAccordion": [
     {
       "type": 0,
-      "value": "Display in accordion"
+      "value": "Weergave in Uitklapmenu"
     }
   ],
   "stripes-smart-components.customFields.dragDrop": [
@@ -18066,7 +18066,7 @@
       "children": [
         {
           "type": 1,
-          "value": "numberDeleted"
+          "value": "aantalVerwijderd"
         }
       ],
       "type": 8,
@@ -18074,7 +18074,7 @@
     },
     {
       "type": 0,
-      "value": " out of "
+      "value": " uit "
     },
     {
       "children": [
@@ -18088,10 +18088,14 @@
     },
     {
       "type": 0,
-      "value": " e-resources will be deleted from the package "
+      "value": " Digitale bronnen worden verwijderd uit het pakket "
     },
     {
       "children": [
+        {
+          "type": 0,
+          "value": "."
+        },
         {
           "type": 1,
           "value": "pkgName"
@@ -18108,16 +18112,20 @@
   "ui-agreements.eresources.deleteConfirmationMessage.information": [
     {
       "type": 0,
-      "value": "Related information in the knowledgebase that is no longer needed will also be deleted."
+      "value": "Gerelateerde informatie in de knowledgebase die niet langer nodig is, wordt ook verwijderd."
     }
   ],
   "ui-agreements.eresources.deleteConfirmationMessage.noDeletion": [
     {
       "type": 0,
-      "value": "No e-resources can be deleted from the package "
+      "value": "Er kunnen geen Digitale bronnen uit het pakket "
     },
     {
       "children": [
+        {
+          "type": 0,
+          "value": " worden verwijderd."
+        },
         {
           "type": 1,
           "value": "pkgName"
@@ -18128,7 +18136,7 @@
     },
     {
       "type": 0,
-      "value": ", most likely because they are linked directly to one or more Agreement Lines."
+      "value": ", waarschijnlijk omdat ze direct aan een of meer Overeenkomstregels zijn Gekoppeld."
     }
   ],
   "ui-agreements.eresources.deleteConfirmationMessage.pciNotDeleted": [
@@ -18144,19 +18152,19 @@
     },
     {
       "type": 0,
-      "value": " e-resources can not be deleted, most likely because they are linked directly to one or more Agreement Lines."
+      "value": " Digitale bronnen kunnen niet worden verwijderd, waarschijnlijk omdat ze direct aan een of meer Overeenkomstregels zijn Gekoppeld."
     }
   ],
   "ui-agreements.eresources.deleteConfirmationMessage.selectDelete": [
     {
       "type": 0,
-      "value": "Select \"Delete\" to create the deletion job."
+      "value": "Selecteer \"Aanmaken\" om de verwijdertaak aan te maken."
     }
   ],
   "ui-agreements.eresources.deleteJob": [
     {
       "type": 0,
-      "value": "Create job to delete package contents"
+      "value": "Functie Aanmaken om de inhoud van pakketten te verwijderen"
     }
   ],
   "ui-agreements.eresources.deleteJob.success": [
@@ -18164,7 +18172,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Package contents deletion job created:"
+          "value": "Actie voor verwijderen van inhoud van pakket gemaakt:"
         }
       ],
       "type": 8,
@@ -18172,7 +18180,7 @@
     },
     {
       "type": 0,
-      "value": " for "
+      "value": " voor "
     },
     {
       "type": 1,
@@ -18180,13 +18188,13 @@
     },
     {
       "type": 0,
-      "value": ". Updates will be displayed in the Local KB Admin app."
+      "value": ". Updates worden weergegeven in de Local KB Admin app."
     }
   ],
   "ui-agreements.eresources.deletePackageContents": [
     {
       "type": 0,
-      "value": "Delete package contents"
+      "value": "Inhoud van pakket verwijderen"
     }
   ],
   "ui-agreements.eresources.description": [
@@ -18782,7 +18790,7 @@
   "ui-agreements.eresources.viewJobLink": [
     {
       "type": 0,
-      "value": "View Local KB Admin job"
+      "value": "Bekijk lokale KB Admin functie"
     }
   ],
   "ui-agreements.eresources.volume": [
@@ -19028,7 +19036,7 @@
   "ui-agreements.gokbSearch": [
     {
       "type": 0,
-      "value": "GOKb search"
+      "value": "GOKb Zoeken"
     }
   ],
   "ui-agreements.identifier.doi": [
@@ -19649,7 +19657,7 @@
   "ui-agreements.okay": [
     {
       "type": 0,
-      "value": "Okay"
+      "value": "Oké"
     }
   ],
   "ui-agreements.open.linkInNewTab": [
@@ -21089,19 +21097,19 @@
   "ui-agreements.settings.displaySuppressFromDiscovery.agreementLine": [
     {
       "type": 0,
-      "value": "Display \"Suppress from discovery\" setting on Agreement lines"
+      "value": "De instelling \"Verberg in discovery\" weergeven op Overeenkomstregels"
     }
   ],
   "ui-agreements.settings.displaySuppressFromDiscovery.pci": [
     {
       "type": 0,
-      "value": "Display \"Suppress from discovery\" setting on Titles in packages"
+      "value": "Toon \"Verberg in discovery\" instelling op Titels in pakketten"
     }
   ],
   "ui-agreements.settings.displaySuppressFromDiscovery.title": [
     {
       "type": 0,
-      "value": "Display \"Suppress from discovery\" setting on Titles"
+      "value": "Toon de instelling \"Verberg in discovery\" op Titels"
     }
   ],
   "ui-agreements.settings.error.valueNotInRange": [
@@ -21201,13 +21209,13 @@
   "ui-agreements.settings.general.hideAccordions.description": [
     {
       "type": 0,
-      "value": "Hide accordions in agreement edit view"
+      "value": "Verberg accordeons in de bewerkingsweergave van overeenkomsten"
     }
   ],
   "ui-agreements.settings.general.hideAccordions.usageData": [
     {
       "type": 0,
-      "value": "Usage data"
+      "value": "Gebruik"
     }
   ],
   "ui-agreements.settings.general.hideEResourcesFunctionality.description": [
@@ -21255,7 +21263,7 @@
   "ui-agreements.settings.hideEResourcesFunctionality": [
     {
       "type": 0,
-      "value": "Hide internal agreements knowledgebase"
+      "value": "Verbergen interne overeenkomsten kennisbank"
     }
   ],
   "ui-agreements.settings.label": [
@@ -21335,7 +21343,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Page size"
+          "value": "Paginagrootte"
         }
       ],
       "type": 8,
@@ -21345,31 +21353,31 @@
   "ui-agreements.settings.pageSize.agreementEresources": [
     {
       "type": 0,
-      "value": "Agreement view pane > E-resources covered by this agreement"
+      "value": "Venster voor Overeenkomst > Digitale bronnen die onder deze overeenkomst vallen"
     }
   ],
   "ui-agreements.settings.pageSize.agreementLines": [
     {
       "type": 0,
-      "value": "Agreement view pane > Agreement lines"
+      "value": "Venster Weergave Overeenkomst > Overeenkomstregels"
     }
   ],
   "ui-agreements.settings.pageSize.entitlementOptions": [
     {
       "type": 0,
-      "value": "E-resource view pane > Options for acquiring e-resource"
+      "value": "Venster Weergave e-bronnen > Opties voor het verwerven van e-bronnen"
     }
   ],
   "ui-agreements.settings.pageSize.entitlements": [
     {
       "type": 0,
-      "value": "E-resource view pane > Agreements for this e-resource"
+      "value": "Venster voor weergave Digitale bronnen > Overeenkomsten voor deze e-bronnen"
     }
   ],
   "ui-agreements.settings.pageSize.packageContents": [
     {
       "type": 0,
-      "value": "Package view pane > E-resources in package"
+      "value": "Venster met pakketweergave > Digitale bronnen in pakket"
     }
   ],
   "ui-agreements.settings.pickList": [
@@ -21441,7 +21449,7 @@
   "ui-agreements.settings.update.error": [
     {
       "type": 0,
-      "value": "Setting \""
+      "value": "Instelling \""
     },
     {
       "type": 1,
@@ -21449,13 +21457,13 @@
     },
     {
       "type": 0,
-      "value": "\" could not be updated"
+      "value": "\" kon niet worden geüpdatet"
     }
   ],
   "ui-agreements.settings.update.success": [
     {
       "type": 0,
-      "value": "Setting \""
+      "value": "Instelling \""
     },
     {
       "type": 1,
@@ -21463,11 +21471,11 @@
     },
     {
       "type": 0,
-      "value": "\" was updated to "
+      "value": "\" werd geüpdatet naar "
     },
     {
       "type": 1,
-      "value": "newValue"
+      "value": "nieuwWaarde"
     }
   ],
   "ui-agreements.settings.value": [
@@ -57110,25 +57118,25 @@
   "ui-erm-usage.monthpicker.monthSelection": [
     {
       "type": 0,
-      "value": "Month selection"
+      "value": "Maand selecteren"
     }
   ],
   "ui-erm-usage.monthpicker.yearMonthInput": [
     {
       "type": 0,
-      "value": "Year and month input"
+      "value": "Jaar en maand invoer"
     }
   ],
   "ui-erm-usage.monthpicker.yearMonthSelection": [
     {
       "type": 0,
-      "value": "Calender: Year and month selection"
+      "value": "Kalender: Selectie van jaar en maand"
     }
   ],
   "ui-erm-usage.monthpicker.yearSelection": [
     {
       "type": 0,
-      "value": "Year selection"
+      "value": "Jaar selecteren"
     }
   ],
   "ui-erm-usage.noSourceYet": [
@@ -62836,17 +62844,21 @@
   "ui-finance.transaction.allocation.hasBeenCreated": [
     {
       "type": 1,
-      "value": "amount"
+      "value": "Bedrag"
     },
     {
       "type": 0,
-      "value": " was successfully allocated to the budget "
+      "value": " is succesvol toegewezen aan het budget "
     },
     {
       "children": [
         {
+          "type": 0,
+          "value": "."
+        },
+        {
           "type": 1,
-          "value": "budgetName"
+          "value": "budgetNaam"
         }
       ],
       "type": 8,
@@ -62944,7 +62956,7 @@
   "ui-finance.transaction.button.switchFunds": [
     {
       "type": 0,
-      "value": "Switch funds"
+      "value": "Wisselfondsen"
     }
   ],
   "ui-finance.transaction.button.transfer": [
@@ -68045,7 +68057,7 @@
   "ui-inventory.addAdditionalCallNumber": [
     {
       "type": 0,
-      "value": "Add additional call number"
+      "value": "Extra Vindplaats Toevoegen"
     }
   ],
   "ui-inventory.addAdministrativeNote": [
@@ -68283,7 +68295,7 @@
   "ui-inventory.additionalCallNumbers": [
     {
       "type": 0,
-      "value": "Additional call numbers"
+      "value": "Extra Vindplaatsen"
     }
   ],
   "ui-inventory.adminData": [
@@ -72292,7 +72304,7 @@
   "ui-inventory.noAdditionalCallNumbers": [
     {
       "type": 0,
-      "value": "No additional call numbers"
+      "value": "Geen extra Vindplaatsen"
     }
   ],
   "ui-inventory.noBarcode": [
@@ -74574,7 +74586,7 @@
   "ui-inventory.swapWithPrimaryCallNumber": [
     {
       "type": 0,
-      "value": "Change with primary call number"
+      "value": "Wijziging met Primair Vindplaatsnummer"
     }
   ],
   "ui-inventory.targetOptions": [
@@ -86777,7 +86789,7 @@
   "ui-myprofile.settings.languageLocalization.resetToDefault": [
     {
       "type": 0,
-      "value": "Reset to default"
+      "value": "Terugzetten naar standaard"
     }
   ],
   "ui-myprofile.settings.languageLocalization.tenantDefault": [
@@ -94177,7 +94189,7 @@
   "ui-orders.orderDetails.openedBy": [
     {
       "type": 0,
-      "value": "Opened by"
+      "value": "Geopend door"
     }
   ],
   "ui-orders.orderDetails.orderNumberPrefix": [
@@ -95009,13 +95021,13 @@
   "ui-orders.poLine.receivingWorkflow.confirmModal.heading": [
     {
       "type": 0,
-      "value": "Update receiving workflow"
+      "value": "Ontvangstworkflow updaten"
     }
   ],
   "ui-orders.poLine.receivingWorkflow.confirmModal.message": [
     {
       "type": 0,
-      "value": "You are about to change the receiving workflow to “Independent order and receipt quantity”. This change cannot be undone unless the order is unopened. Are you sure you want to continue?"
+      "value": "U staat op het punt om het Werkproces Ontvangst te wijzigen in \"Onafhankelijke order en Aantal ontvangen\". Deze wijziging kan niet ongedaan worden gemaakt, tenzij de order Openen ongedaan is gemaakt. Weet u zeker dat u wilt doorgaan?"
     }
   ],
   "ui-orders.poLine.receivingWorkflow.independent": [
@@ -95033,7 +95045,7 @@
   "ui-orders.poLine.receivingWorkflow.infoPopover": [
     {
       "type": 0,
-      "value": "Selecting synchronized will keep the order quantity and the number of pieces to be received, in sync. This also means updating one will update the other. When the order is opened, the system will generate pieces based on the quantity order. Selecting “independent order and receipt quantity” will allow you to manage the number of receiving pieces and their locations independently. You can convert a POL to independent at anytime but you cannot convert back to synchronized when the order is open or closed."
+      "value": "Als u Gesynchroniseerd selecteert, blijven het aantal orders en het aantal te ontvangen Stukken synchroon. Dit betekent ook dat het updaten van de ene de andere zal updaten. Wanneer de bestelling wordt geopend, genereert het systeem Stukken op basis van de bestelde hoeveelheid. Als u \"onafhankelijke bestelling en ontvangsthoeveelheid\" selecteert, kunt u het aantal ontvangen Stukken en hun Locatie onafhankelijk Beheren. U kunt een RPO op elk moment naar onafhankelijk converteren, maar u kunt niet terug converteren naar gesynchroniseerd wanneer de order geopend of gesloten is."
     }
   ],
   "ui-orders.poLine.receivingWorkflow.synchronized": [
@@ -107159,7 +107171,7 @@
   "ui-quick-marc.record.fixedField.AACR 2 compatible heading": [
     {
       "type": 0,
-      "value": "AACR 2 compatible heading"
+      "value": "AACR 2-compatibele heading"
     }
   ],
   "ui-quick-marc.record.fixedField.Abstracts/summaries": [
@@ -107267,7 +107279,7 @@
   "ui-quick-marc.record.fixedField.Appropriate": [
     {
       "type": 0,
-      "value": "Appropriate"
+      "value": "Toepasselijk"
     }
   ],
   "ui-quick-marc.record.fixedField.Arabic": [
@@ -107291,7 +107303,7 @@
   "ui-quick-marc.record.fixedField.Art and Architecture Thesaurus": [
     {
       "type": 0,
-      "value": "Art and Architecture Thesaurus"
+      "value": "Thesaurus Kunst en Architectuur"
     }
   ],
   "ui-quick-marc.record.fixedField.Art original": [
@@ -107531,7 +107543,7 @@
   "ui-quick-marc.record.fixedField.Canadian Subject Headings": [
     {
       "type": 0,
-      "value": "Canadian Subject Headings"
+      "value": "Canadese Onderwerp Heading"
     }
   ],
   "ui-quick-marc.record.fixedField.Canons and rounds": [
@@ -107663,7 +107675,7 @@
   "ui-quick-marc.record.fixedField.Chronological": [
     {
       "type": 0,
-      "value": "Chronological"
+      "value": "Chronologisch"
     }
   ],
   "ui-quick-marc.record.fixedField.Class of braille writing": [
@@ -107867,7 +107879,7 @@
   "ui-quick-marc.record.fixedField.Conventional romanization or conventional form of name in language of cataloging agency": [
     {
       "type": 0,
-      "value": "Conventional romanization or conventional form of name in language of cataloging agency"
+      "value": "Conventionele romanisering of conventionele vorm van naam in de taal van de catalogiserende instantie"
     }
   ],
   "ui-quick-marc.record.fixedField.Cooperative cataloging program": [
@@ -108011,7 +108023,7 @@
   "ui-quick-marc.record.fixedField.Differentiated personal name": [
     {
       "type": 0,
-      "value": "Differentiated personal name"
+      "value": "Onderscheiden persoonsnaam"
     }
   ],
   "ui-quick-marc.record.fixedField.Dimaxion": [
@@ -108101,7 +108113,7 @@
   "ui-quick-marc.record.fixedField.Earlier rules": [
     {
       "type": 0,
-      "value": "Earlier rules"
+      "value": "Eerdere regels"
     }
   ],
   "ui-quick-marc.record.fixedField.Eckert": [
@@ -108131,13 +108143,13 @@
   "ui-quick-marc.record.fixedField.English and French": [
     {
       "type": 0,
-      "value": "English and French"
+      "value": "Engels en Frans"
     }
   ],
   "ui-quick-marc.record.fixedField.English only": [
     {
       "type": 0,
-      "value": "English only"
+      "value": "Alleen Engels"
     }
   ],
   "ui-quick-marc.record.fixedField.EntW": [
@@ -108167,13 +108179,13 @@
   "ui-quick-marc.record.fixedField.Established heading": [
     {
       "type": 0,
-      "value": "Established heading"
+      "value": "Vastgestelde heading"
     }
   ],
   "ui-quick-marc.record.fixedField.Established heading and subdivision": [
     {
       "type": 0,
-      "value": "Established heading and subdivision"
+      "value": "Gevestigde heading en onderverdeling"
     }
   ],
   "ui-quick-marc.record.fixedField.Ethnological information": [
@@ -108317,7 +108329,7 @@
   "ui-quick-marc.record.fixedField.French only": [
     {
       "type": 0,
-      "value": "French only"
+      "value": "Alleen Frans"
     }
   ],
   "ui-quick-marc.record.fixedField.Freq": [
@@ -108341,7 +108353,7 @@
   "ui-quick-marc.record.fixedField.Fully established": [
     {
       "type": 0,
-      "value": "Fully established"
+      "value": "Volledig gevestigd"
     }
   ],
   "ui-quick-marc.record.fixedField.GPub": [
@@ -108407,7 +108419,7 @@
   "ui-quick-marc.record.fixedField.Geographic": [
     {
       "type": 0,
-      "value": "Geographic"
+      "value": "Geografisch"
     }
   ],
   "ui-quick-marc.record.fixedField.Globe": [
@@ -108443,7 +108455,7 @@
   "ui-quick-marc.record.fixedField.Government agency-type undetermined": [
     {
       "type": 0,
-      "value": "Government agency-type undetermined"
+      "value": "Type overheidsinstelling onbepaald"
     }
   ],
   "ui-quick-marc.record.fixedField.Government publication-level undetermined": [
@@ -108623,7 +108635,7 @@
   "ui-quick-marc.record.fixedField.International standard": [
     {
       "type": 0,
-      "value": "International standard"
+      "value": "Internationale standaard"
     }
   ],
   "ui-quick-marc.record.fixedField.Interviews": [
@@ -108761,7 +108773,7 @@
   "ui-quick-marc.record.fixedField.Language": [
     {
       "type": 0,
-      "value": "Language"
+      "value": "Taal"
     }
   ],
   "ui-quick-marc.record.fixedField.Language instruction": [
@@ -108845,13 +108857,13 @@
   "ui-quick-marc.record.fixedField.Library of Congress Children's and Young Adults' Subject Headings": [
     {
       "type": 0,
-      "value": "Library of Congress Children's and Young Adults' Subject Headings"
+      "value": "Library of Congress Kinderen en jonge volwassenen Onderwerp Heading"
     }
   ],
   "ui-quick-marc.record.fixedField.Library of Congress Subject Headings": [
     {
       "type": 0,
-      "value": "Library of Congress Subject Headings"
+      "value": "Library of Congress Onderwerp Heading"
     }
   ],
   "ui-quick-marc.record.fixedField.Libretto or text": [
@@ -108881,7 +108893,7 @@
   "ui-quick-marc.record.fixedField.Local standard": [
     {
       "type": 0,
-      "value": "Local standard"
+      "value": "Lokale standaard"
     }
   ],
   "ui-quick-marc.record.fixedField.Loose-leaf": [
@@ -108959,7 +108971,7 @@
   "ui-quick-marc.record.fixedField.Medical Subject Headings": [
     {
       "type": 0,
-      "value": "Medical Subject Headings"
+      "value": "Medische Onderwerp Heading"
     }
   ],
   "ui-quick-marc.record.fixedField.Medium for sound": [
@@ -109121,7 +109133,7 @@
   "ui-quick-marc.record.fixedField.Multipart item": [
     {
       "type": 0,
-      "value": "Multipart item"
+      "value": "Meervoudig item"
     }
   ],
   "ui-quick-marc.record.fixedField.Multiple dates": [
@@ -109163,7 +109175,7 @@
   "ui-quick-marc.record.fixedField.National Agricultural Library subject authority file": [
     {
       "type": 0,
-      "value": "National Agricultural Library subject authority file"
+      "value": "Nationale agrarische bibliotheek onderwerp autoriteit bestand"
     }
   ],
   "ui-quick-marc.record.fixedField.National bibliographic agency": [
@@ -109175,19 +109187,19 @@
   "ui-quick-marc.record.fixedField.National library association standard": [
     {
       "type": 0,
-      "value": "National library association standard"
+      "value": "Standaard van de nationale bibliotheekvereniging"
     }
   ],
   "ui-quick-marc.record.fixedField.National library or bibliographic agency standard": [
     {
       "type": 0,
-      "value": "National library or bibliographic agency standard"
+      "value": "Standaard van nationale bibliotheken of bibliografische agentschappen"
     }
   ],
   "ui-quick-marc.record.fixedField.National standard": [
     {
       "type": 0,
-      "value": "National standard"
+      "value": "Nationale norm"
     }
   ],
   "ui-quick-marc.record.fixedField.Newsletter": [
@@ -109259,7 +109271,7 @@
   "ui-quick-marc.record.fixedField.No information provided": [
     {
       "type": 0,
-      "value": "No information provided"
+      "value": "Geen informatie verstrekt"
     }
   ],
   "ui-quick-marc.record.fixedField.No parts in hand or not specified": [
@@ -109295,7 +109307,7 @@
   "ui-quick-marc.record.fixedField.Node label": [
     {
       "type": 0,
-      "value": "Node label"
+      "value": "Label knooppunt"
     }
   ],
   "ui-quick-marc.record.fixedField.None of the following": [
@@ -109325,7 +109337,7 @@
   "ui-quick-marc.record.fixedField.Not a government agency": [
     {
       "type": 0,
-      "value": "Not a government agency"
+      "value": "Geen overheidsinstantie"
     }
   ],
   "ui-quick-marc.record.fixedField.Not a government publication": [
@@ -109343,7 +109355,7 @@
   "ui-quick-marc.record.fixedField.Not appropriate": [
     {
       "type": 0,
-      "value": "Not appropriate"
+      "value": "Niet geschikt"
     }
   ],
   "ui-quick-marc.record.fixedField.Not arrangement or transposition or not specified": [
@@ -109373,7 +109385,7 @@
   "ui-quick-marc.record.fixedField.Not subdivided geographically": [
     {
       "type": 0,
-      "value": "Not subdivided geographically"
+      "value": "Niet geografisch onderverdeeld"
     }
   ],
   "ui-quick-marc.record.fixedField.Novels": [
@@ -109391,13 +109403,13 @@
   "ui-quick-marc.record.fixedField.Numbered": [
     {
       "type": 0,
-      "value": "Numbered"
+      "value": "Genummerd"
     }
   ],
   "ui-quick-marc.record.fixedField.Numbering varies": [
     {
       "type": 0,
-      "value": "Numbering varies"
+      "value": "Nummering varieert"
     }
   ],
   "ui-quick-marc.record.fixedField.Numeric data": [
@@ -109643,7 +109655,7 @@
   "ui-quick-marc.record.fixedField.Preliminary": [
     {
       "type": 0,
-      "value": "Preliminary"
+      "value": "Voorlopig"
     }
   ],
   "ui-quick-marc.record.fixedField.Preludes": [
@@ -109709,7 +109721,7 @@
   "ui-quick-marc.record.fixedField.Provisional": [
     {
       "type": 0,
-      "value": "Provisional"
+      "value": "Voorlopig"
     }
   ],
   "ui-quick-marc.record.fixedField.Publication date and copyright date": [
@@ -109775,13 +109787,13 @@
   "ui-quick-marc.record.fixedField.Record can be used": [
     {
       "type": 0,
-      "value": "Record can be used"
+      "value": "Record kan worden gebruikt"
     }
   ],
   "ui-quick-marc.record.fixedField.Record is being updated": [
     {
       "type": 0,
-      "value": "Record is being updated"
+      "value": "Record wordt geüpdatet"
     }
   ],
   "ui-quick-marc.record.fixedField.Record length": [
@@ -109805,7 +109817,7 @@
   "ui-quick-marc.record.fixedField.Reference and subdivision": [
     {
       "type": 0,
-      "value": "Reference and subdivision"
+      "value": "Reference en onderverdeling"
     }
   ],
   "ui-quick-marc.record.fixedField.Refined categories of color": [
@@ -109943,7 +109955,7 @@
   "ui-quick-marc.record.fixedField.Répertoire de vedettes-matière": [
     {
       "type": 0,
-      "value": "Répertoire de vedettes-matière"
+      "value": "Vedettes-matière-repertoire"
     }
   ],
   "ui-quick-marc.record.fixedField.S/L": [
@@ -109979,7 +109991,7 @@
   "ui-quick-marc.record.fixedField.Sears List of Subject Heading": [
     {
       "type": 0,
-      "value": "Sears List of Subject Heading"
+      "value": "Sears Lijst van Onderwerp Heading"
     }
   ],
   "ui-quick-marc.record.fixedField.Secondary support material": [
@@ -110039,7 +110051,7 @@
   "ui-quick-marc.record.fixedField.Series-like phrase": [
     {
       "type": 0,
-      "value": "Series-like phrase"
+      "value": "Serie-achtige zin"
     }
   ],
   "ui-quick-marc.record.fixedField.Shading": [
@@ -110195,7 +110207,7 @@
   "ui-quick-marc.record.fixedField.Standard of unknown origin": [
     {
       "type": 0,
-      "value": "Standard of unknown origin"
+      "value": "Standaard van onbekende oorsprong"
     }
   ],
   "ui-quick-marc.record.fixedField.Standards/specifications": [
@@ -110237,19 +110249,19 @@
   "ui-quick-marc.record.fixedField.Subdivided geographically-direct": [
     {
       "type": 0,
-      "value": "Subdivided geographically-direct"
+      "value": "Geografisch-direct onderverdeeld"
     }
   ],
   "ui-quick-marc.record.fixedField.Subdivided geographically-indirect": [
     {
       "type": 0,
-      "value": "Subdivided geographically-indirect"
+      "value": "Geografisch-indirect onderverdeeld"
     }
   ],
   "ui-quick-marc.record.fixedField.Subdivision": [
     {
       "type": 0,
-      "value": "Subdivision"
+      "value": "Onderdeling"
     }
   ],
   "ui-quick-marc.record.fixedField.Subj use": [
@@ -110399,7 +110411,7 @@
   "ui-quick-marc.record.fixedField.Topical": [
     {
       "type": 0,
-      "value": "Topical"
+      "value": "Actueel"
     }
   ],
   "ui-quick-marc.record.fixedField.Toy": [
@@ -110417,19 +110429,19 @@
   "ui-quick-marc.record.fixedField.Traced reference": [
     {
       "type": 0,
-      "value": "Traced reference"
+      "value": "Getraceerde referentie"
     }
   ],
   "ui-quick-marc.record.fixedField.Tracings are consistent with the heading": [
     {
       "type": 0,
-      "value": "Tracings are consistent with the heading"
+      "value": "Tracings zijn consistent met de heading"
     }
   ],
   "ui-quick-marc.record.fixedField.Tracings are not necessarily consistent with the heading": [
     {
       "type": 0,
-      "value": "Tracings are not necessarily consistent with the heading"
+      "value": "Tracings zijn niet noodzakelijk consistent met de heading"
     }
   ],
   "ui-quick-marc.record.fixedField.Transparency": [
@@ -110489,7 +110501,7 @@
   "ui-quick-marc.record.fixedField.Undifferentiated personal name": [
     {
       "type": 0,
-      "value": "Undifferentiated personal name"
+      "value": "Onderscheiden persoonsnaam"
     }
   ],
   "ui-quick-marc.record.fixedField.Unknown": [
@@ -110501,7 +110513,7 @@
   "ui-quick-marc.record.fixedField.Unknown if heading is government agency": [
     {
       "type": 0,
-      "value": "Unknown if heading is government agency"
+      "value": "Onbekend of de heading een overheidsinstantie is"
     }
   ],
   "ui-quick-marc.record.fixedField.Unknown if item is government publication": [
@@ -110525,13 +110537,13 @@
   "ui-quick-marc.record.fixedField.Unnumbered": [
     {
       "type": 0,
-      "value": "Unnumbered"
+      "value": "Ongenummerd"
     }
   ],
   "ui-quick-marc.record.fixedField.Untraced reference": [
     {
       "type": 0,
-      "value": "Untraced reference"
+      "value": "Ongetraceerde referentie"
     }
   ],
   "ui-quick-marc.record.fixedField.Updating Web site": [
@@ -129597,7 +129609,7 @@
   "ui-users.loans.numOpenLoans.held": [
     {
       "type": 0,
-      "value": "Held: "
+      "value": "Reservering: "
     },
     {
       "type": 1,
@@ -129607,7 +129619,7 @@
   "ui-users.loans.numOpenLoans.inUse": [
     {
       "type": 0,
-      "value": "In use: "
+      "value": "In gebruik: "
     },
     {
       "type": 1,
@@ -129617,7 +129629,7 @@
   "ui-users.loans.numOpenLoans.useAtLocation": [
     {
       "type": 0,
-      "value": "Use at location"
+      "value": "Gebruik op Locatie"
     }
   ],
   "ui-users.loans.open": [
