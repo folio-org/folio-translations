@@ -26261,6 +26261,12 @@
       "value": " úspěšně nahrán."
     }
   ],
+  "ui-bulk-edit.options.empty": [
+    {
+      "type": 0,
+      "value": "No options found"
+    }
+  ],
   "ui-bulk-edit.options.placeholder": [
     {
       "type": 0,
@@ -26797,15 +26803,11 @@
   "ui-bulk-edit.settings.profiles.details.action.delete.modal.heading": [
     {
       "type": 0,
-      "value": "Delete "
+      "value": "Smazat profil hromadných úprav záznamů pro "
     },
     {
       "type": 1,
       "value": "entityType"
-    },
-    {
-      "type": 0,
-      "value": " records bulk edit profile"
     }
   ],
   "ui-bulk-edit.settings.profiles.details.action.delete.modal.heading.holdings": [
@@ -26866,6 +26868,12 @@
       "value": "Profil byl úspěšně smazán."
     }
   ],
+  "ui-bulk-edit.settings.profiles.details.bulkEdits": [
+    {
+      "type": 0,
+      "value": "Bulk edits"
+    }
+  ],
   "ui-bulk-edit.settings.profiles.details.summary": [
     {
       "type": 0,
@@ -26917,13 +26925,13 @@
   "ui-bulk-edit.settings.profiles.form.update.error": [
     {
       "type": 0,
-      "value": "Following error prevented updating the profile:"
+      "value": "Následující chyba zabránila aktualizaci profilu:"
     }
   ],
   "ui-bulk-edit.settings.profiles.form.update.success": [
     {
       "type": 0,
-      "value": "Profile successfully updated."
+      "value": "Profil úspěšně aktualizován."
     }
   ],
   "ui-bulk-edit.settings.profiles.paneSub": [
@@ -69945,7 +69953,7 @@
   "ui-gobi-settings.order.mappings.accordion.polVendor": [
     {
       "type": 0,
-      "value": "Prodejce"
+      "value": "Distributor"
     }
   ],
   "ui-gobi-settings.order.mappings.accordion.relatedAgreements": [
@@ -70497,7 +70505,7 @@
   "ui-gobi-settings.order.mappings.field.vendor": [
     {
       "type": 0,
-      "value": "Prodejce"
+      "value": "Distributor"
     }
   ],
   "ui-gobi-settings.order.mappings.field.vendorAccount": [
@@ -70509,19 +70517,19 @@
   "ui-gobi-settings.order.mappings.field.vendorInstructions": [
     {
       "type": 0,
-      "value": "Pokyny pro prodejce"
+      "value": "Pokyny pro distributora"
     }
   ],
   "ui-gobi-settings.order.mappings.field.vendorRefNo": [
     {
       "type": 0,
-      "value": "Referenční číslo prodejce"
+      "value": "Referenční číslo distributora"
     }
   ],
   "ui-gobi-settings.order.mappings.field.vendorRefNoType": [
     {
       "type": 0,
-      "value": "Referenční typ prodejce"
+      "value": "Referenční typ distributora"
     }
   ],
   "ui-gobi-settings.order.mappings.field.volumes": [
@@ -77522,6 +77530,12 @@
     {
       "type": 0,
       "value": "Výpůjčka a dostupnost"
+    }
+  ],
+  "ui-inventory.item.order": [
+    {
+      "type": 0,
+      "value": "Order"
     }
   ],
   "ui-inventory.item.requestQueue": [
@@ -117872,13 +117886,13 @@
   "ui-quick-marc.record.fixedField.National library association standard": [
     {
       "type": 0,
-      "value": "National library association standard"
+      "value": "Standard Národní knihovnické asociace"
     }
   ],
   "ui-quick-marc.record.fixedField.National library or bibliographic agency standard": [
     {
       "type": 0,
-      "value": "National library or bibliographic agency standard"
+      "value": "Standard národní knihovny nebo bibliografické agentury"
     }
   ],
   "ui-quick-marc.record.fixedField.National standard": [

@@ -18556,8 +18556,16 @@
     {
       "children": [
         {
+          "type": 0,
+          "value": " "
+        },
+        {
           "type": 1,
           "value": "numberDeleted"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -18565,13 +18573,21 @@
     },
     {
       "type": 0,
-      "value": " out of "
+      "value": "个（共"
     },
     {
       "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
         {
           "type": 1,
           "value": "totalCount"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -18579,13 +18595,21 @@
     },
     {
       "type": 0,
-      "value": " e-resources will be deleted from the package "
+      "value": "个）电子资源将从资源包"
     },
     {
       "children": [
         {
+          "type": 0,
+          "value": " "
+        },
+        {
           "type": 1,
           "value": "pkgName"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -18593,25 +18617,33 @@
     },
     {
       "type": 0,
-      "value": "."
+      "value": "中删除。"
     }
   ],
   "ui-agreements.eresources.deleteConfirmationMessage.information": [
     {
       "type": 0,
-      "value": "Related information in the knowledgebase that is no longer needed will also be deleted."
+      "value": "知识库中不再需要的相关信息也将被删除。"
     }
   ],
   "ui-agreements.eresources.deleteConfirmationMessage.noDeletion": [
     {
       "type": 0,
-      "value": "No e-resources can be deleted from the package "
+      "value": "无法从资源包"
     },
     {
       "children": [
         {
+          "type": 0,
+          "value": " "
+        },
+        {
           "type": 1,
           "value": "pkgName"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -18619,15 +18651,23 @@
     },
     {
       "type": 0,
-      "value": ", most likely because they are linked directly to one or more Agreement Lines."
+      "value": "中删除任何电子资源，很可能是因为它们直接链接到一个或多个协议行。"
     }
   ],
   "ui-agreements.eresources.deleteConfirmationMessage.pciNotDeleted": [
     {
       "children": [
         {
+          "type": 0,
+          "value": " "
+        },
+        {
           "type": 1,
           "value": "numberNotDeleted"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -18635,19 +18675,19 @@
     },
     {
       "type": 0,
-      "value": " e-resources can not be deleted, most likely because they are linked directly to one or more Agreement Lines."
+      "value": "电子资源无法删除，很可能是因为它们直接链接到一个或多个协议行。"
     }
   ],
   "ui-agreements.eresources.deleteConfirmationMessage.selectDelete": [
     {
       "type": 0,
-      "value": "Select \"Delete\" to create the deletion job."
+      "value": "选择“删除”来创建删除任务。"
     }
   ],
   "ui-agreements.eresources.deleteJob": [
     {
       "type": 0,
-      "value": "Create job to delete package contents"
+      "value": "创建任务以删除资源包内容"
     }
   ],
   "ui-agreements.eresources.deleteJob.success": [
@@ -18655,7 +18695,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Package contents deletion job created:"
+          "value": "已创建资源包内容删除任务： "
         }
       ],
       "type": 8,
@@ -18663,7 +18703,7 @@
     },
     {
       "type": 0,
-      "value": " for "
+      "value": "针对"
     },
     {
       "type": 1,
@@ -18671,13 +18711,13 @@
     },
     {
       "type": 0,
-      "value": ". Updates will be displayed in the Local KB Admin app."
+      "value": " 。更新将显示在本地知识库管理应用中。"
     }
   ],
   "ui-agreements.eresources.deletePackageContents": [
     {
       "type": 0,
-      "value": "Delete package contents"
+      "value": "删除 资源包内容"
     }
   ],
   "ui-agreements.eresources.description": [
@@ -19289,7 +19329,7 @@
   "ui-agreements.eresources.viewJobLink": [
     {
       "type": 0,
-      "value": "View Local KB Admin job"
+      "value": "查看本地知识库管理任务"
     }
   ],
   "ui-agreements.eresources.volume": [
@@ -19675,7 +19715,7 @@
   "ui-agreements.gokbSearch": [
     {
       "type": 0,
-      "value": "GOKb search"
+      "value": "GOKb搜索"
     }
   ],
   "ui-agreements.gokbSearch.column.name": [
@@ -20398,7 +20438,7 @@
   "ui-agreements.okay": [
     {
       "type": 0,
-      "value": "Okay"
+      "value": "确定"
     }
   ],
   "ui-agreements.open.linkInNewTab": [
@@ -21872,19 +21912,19 @@
   "ui-agreements.settings.displaySuppressFromDiscovery.agreementLine": [
     {
       "type": 0,
-      "value": "Display \"Suppress from discovery\" setting on Agreement lines"
+      "value": "在协议行上显示“在发现中隐藏”设置"
     }
   ],
   "ui-agreements.settings.displaySuppressFromDiscovery.pci": [
     {
       "type": 0,
-      "value": "Display \"Suppress from discovery\" setting on Titles in packages"
+      "value": "在资源包的标题上显示“在发现中隐藏”设置"
     }
   ],
   "ui-agreements.settings.displaySuppressFromDiscovery.title": [
     {
       "type": 0,
-      "value": "Display \"Suppress from discovery\" setting on Titles"
+      "value": "在标题上显示“在发现中隐藏”设置"
     }
   ],
   "ui-agreements.settings.error.valueNotInRange": [
@@ -21984,13 +22024,13 @@
   "ui-agreements.settings.general.hideAccordions.description": [
     {
       "type": 0,
-      "value": "Hide accordions in agreement edit view"
+      "value": "在协议编辑视图中折叠隐藏"
     }
   ],
   "ui-agreements.settings.general.hideAccordions.usageData": [
     {
       "type": 0,
-      "value": "Usage data"
+      "value": "使用数据"
     }
   ],
   "ui-agreements.settings.general.hideEResourcesFunctionality.description": [
@@ -22014,7 +22054,7 @@
   "ui-agreements.settings.hideAccordions.usageData": [
     {
       "type": 0,
-      "value": "使用数据"
+      "value": "在协议编辑视图中隐藏使用情况数据的折叠面板"
     }
   ],
   "ui-agreements.settings.hideEResources.result.1": [
@@ -22038,7 +22078,7 @@
   "ui-agreements.settings.hideEResourcesFunctionality": [
     {
       "type": 0,
-      "value": "Hide internal agreements knowledgebase"
+      "value": "隐藏内部协议 知识库"
     }
   ],
   "ui-agreements.settings.label": [
@@ -22118,7 +22158,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Page size"
+          "value": "页面大小"
         }
       ],
       "type": 8,
@@ -22128,31 +22168,31 @@
   "ui-agreements.settings.pageSize.agreementEresources": [
     {
       "type": 0,
-      "value": "Agreement view pane > E-resources covered by this agreement"
+      "value": "协议视图面板 > 本协议涵盖的电子资源"
     }
   ],
   "ui-agreements.settings.pageSize.agreementLines": [
     {
       "type": 0,
-      "value": "Agreement view pane > Agreement lines"
+      "value": "协议视图面板 > 协议行"
     }
   ],
   "ui-agreements.settings.pageSize.entitlementOptions": [
     {
       "type": 0,
-      "value": "E-resource view pane > Options for acquiring e-resource"
+      "value": "电子资源视图面板 > 用于获取电子资源的选项"
     }
   ],
   "ui-agreements.settings.pageSize.entitlements": [
     {
       "type": 0,
-      "value": "E-resource view pane > Agreements for this e-resource"
+      "value": "电子资源视图面板 > 此电子资源的协议"
     }
   ],
   "ui-agreements.settings.pageSize.packageContents": [
     {
       "type": 0,
-      "value": "Package view pane > E-resources in package"
+      "value": "资源包视图面板 > 资源包中的电子资源"
     }
   ],
   "ui-agreements.settings.pickList": [
@@ -22278,7 +22318,7 @@
   "ui-agreements.settings.update.error": [
     {
       "type": 0,
-      "value": "Setting \""
+      "value": "无法更新设置“ "
     },
     {
       "type": 1,
@@ -22286,13 +22326,13 @@
     },
     {
       "type": 0,
-      "value": "\" could not be updated"
+      "value": " ”"
     }
   ],
   "ui-agreements.settings.update.success": [
     {
       "type": 0,
-      "value": "Setting \""
+      "value": "设置“ "
     },
     {
       "type": 1,
@@ -22300,7 +22340,7 @@
     },
     {
       "type": 0,
-      "value": "\" was updated to "
+      "value": " ”已更新为"
     },
     {
       "type": 1,
@@ -22822,7 +22862,7 @@
   "ui-bulk-edit.File uploading failed : Cannot upload a file. Reason: file is empty.": [
     {
       "type": 0,
-      "value": "The uploaded file is empty."
+      "value": "上传文件为空。"
     }
   ],
   "ui-bulk-edit.File uploading failed, reason: Cannot upload a file. Reason: file is empty.": [
@@ -24106,7 +24146,7 @@
   "ui-bulk-edit.columns.USER.Date of birth": [
     {
       "type": 0,
-      "value": "Birth date"
+      "value": "生日"
     }
   ],
   "ui-bulk-edit.columns.USER.Departments": [
@@ -24715,7 +24755,7 @@
   "ui-bulk-edit.layer.column.name": [
     {
       "type": 0,
-      "value": "Actions select"
+      "value": "操作选择"
     }
   ],
   "ui-bulk-edit.layer.column.options": [
@@ -24733,7 +24773,7 @@
   "ui-bulk-edit.layer.column.value": [
     {
       "type": 0,
-      "value": "Data"
+      "value": "数据"
     }
   ],
   "ui-bulk-edit.layer.confirmChanges": [
@@ -26545,6 +26585,12 @@
       "value": "已成功上传。"
     }
   ],
+  "ui-bulk-edit.options.empty": [
+    {
+      "type": 0,
+      "value": "No options found"
+    }
+  ],
   "ui-bulk-edit.options.placeholder": [
     {
       "type": 0,
@@ -26828,7 +26874,7 @@
   "ui-bulk-edit.previewModal.closeWithoutSaving": [
     {
       "type": 0,
-      "value": "Close without saving"
+      "value": "关闭而不保存"
     }
   ],
   "ui-bulk-edit.previewModal.downloadPreview": [
@@ -26915,7 +26961,7 @@
   "ui-bulk-edit.previewModal.unsavedChanges": [
     {
       "type": 0,
-      "value": "There are unsaved changes"
+      "value": "有未保存的更改"
     }
   ],
   "ui-bulk-edit.progressBar.committing": [
@@ -26993,7 +27039,7 @@
   "ui-bulk-edit.settings.holdings": [
     {
       "type": 0,
-      "value": "Holdings bulk edit profiles"
+      "value": "馆藏批量编辑配置文件"
     }
   ],
   "ui-bulk-edit.settings.holdingsProfiles": [
@@ -27005,7 +27051,7 @@
   "ui-bulk-edit.settings.instance": [
     {
       "type": 0,
-      "value": "Instances bulk edit profiles"
+      "value": "实例批量编辑配置文件"
     }
   ],
   "ui-bulk-edit.settings.instanceProfiles": [
@@ -27023,7 +27069,7 @@
   "ui-bulk-edit.settings.item": [
     {
       "type": 0,
-      "value": "Items bulk edit profiles"
+      "value": "单件批量编辑配置文件"
     }
   ],
   "ui-bulk-edit.settings.itemProfiles": [
@@ -27047,49 +27093,49 @@
   "ui-bulk-edit.settings.profiles.button.new": [
     {
       "type": 0,
-      "value": "New"
+      "value": "新建"
     }
   ],
   "ui-bulk-edit.settings.profiles.columns.description": [
     {
       "type": 0,
-      "value": "Description"
+      "value": "描述"
     }
   ],
   "ui-bulk-edit.settings.profiles.columns.name": [
     {
       "type": 0,
-      "value": "Name"
+      "value": "名称"
     }
   ],
   "ui-bulk-edit.settings.profiles.columns.status": [
     {
       "type": 0,
-      "value": "Status"
+      "value": "状态"
     }
   ],
   "ui-bulk-edit.settings.profiles.columns.updated": [
     {
       "type": 0,
-      "value": "Updated"
+      "value": "已更新"
     }
   ],
   "ui-bulk-edit.settings.profiles.columns.updatedBy": [
     {
       "type": 0,
-      "value": "Updated by"
+      "value": "更新者"
     }
   ],
   "ui-bulk-edit.settings.profiles.details.action.delete.error": [
     {
       "type": 0,
-      "value": "Failed to delete profile."
+      "value": "删除配置文件失败。"
     }
   ],
   "ui-bulk-edit.settings.profiles.details.action.delete.modal.heading": [
     {
       "type": 0,
-      "value": "Delete "
+      "value": "删除"
     },
     {
       "type": 1,
@@ -27097,7 +27143,7 @@
     },
     {
       "type": 0,
-      "value": " records bulk edit profile"
+      "value": "记录批量编辑配置文件"
     }
   ],
   "ui-bulk-edit.settings.profiles.details.action.delete.modal.heading.holdings": [
@@ -27127,13 +27173,21 @@
   "ui-bulk-edit.settings.profiles.details.action.delete.modal.message": [
     {
       "type": 0,
-      "value": "Delete \""
+      "value": "删除“ "
     },
     {
       "children": [
         {
+          "type": 0,
+          "value": " "
+        },
+        {
           "type": 1,
           "value": "name"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -27141,19 +27195,25 @@
     },
     {
       "type": 0,
-      "value": "\" profile?"
+      "value": " ”配置文件？"
     }
   ],
   "ui-bulk-edit.settings.profiles.details.action.delete.success": [
     {
       "type": 0,
-      "value": "Profile successfully deleted."
+      "value": "配置文件已成功删除。"
+    }
+  ],
+  "ui-bulk-edit.settings.profiles.details.bulkEdits": [
+    {
+      "type": 0,
+      "value": "Bulk edits"
     }
   ],
   "ui-bulk-edit.settings.profiles.details.summary": [
     {
       "type": 0,
-      "value": "Summary"
+      "value": "摘要"
     }
   ],
   "ui-bulk-edit.settings.profiles.empty": [
@@ -27161,7 +27221,7 @@
       "children": [
         {
           "type": 0,
-          "value": "No profiles available."
+          "value": "没有可用的配置文件。 "
         }
       ],
       "type": 8,
@@ -27171,43 +27231,43 @@
   "ui-bulk-edit.settings.profiles.form.create.error": [
     {
       "type": 0,
-      "value": "Following error prevented saving the profile:"
+      "value": "以下错误导致无法保存配置文件："
     }
   ],
   "ui-bulk-edit.settings.profiles.form.create.success": [
     {
       "type": 0,
-      "value": "Profile successfully created."
+      "value": "配置文件已成功创建。"
     }
   ],
   "ui-bulk-edit.settings.profiles.form.description": [
     {
       "type": 0,
-      "value": "Description"
+      "value": "描述"
     }
   ],
   "ui-bulk-edit.settings.profiles.form.lockProfile": [
     {
       "type": 0,
-      "value": "Lock profile"
+      "value": "锁定配置文件"
     }
   ],
   "ui-bulk-edit.settings.profiles.form.name": [
     {
       "type": 0,
-      "value": "Name"
+      "value": "名称"
     }
   ],
   "ui-bulk-edit.settings.profiles.form.update.error": [
     {
       "type": 0,
-      "value": "Following error prevented updating the profile:"
+      "value": "以下错误导致无法更新配置文件："
     }
   ],
   "ui-bulk-edit.settings.profiles.form.update.success": [
     {
       "type": 0,
-      "value": "Profile successfully updated."
+      "value": "配置文件成功更新。"
     }
   ],
   "ui-bulk-edit.settings.profiles.paneSub": [
@@ -27227,7 +27287,7 @@
           "value": [
             {
               "type": 0,
-              "value": "profile found"
+              "value": "找到配置文件"
             }
           ]
         },
@@ -27235,7 +27295,7 @@
           "value": [
             {
               "type": 0,
-              "value": "profiles found"
+              "value": "找到配置文件"
             }
           ]
         }
@@ -27248,13 +27308,13 @@
   "ui-bulk-edit.settings.profiles.search.label": [
     {
       "type": 0,
-      "value": "Search bulk edit profiles"
+      "value": "搜索 批量编辑配置文件"
     }
   ],
   "ui-bulk-edit.settings.profiles.title.new": [
     {
       "type": 0,
-      "value": "New "
+      "value": "新建"
     },
     {
       "type": 1,
@@ -27262,19 +27322,19 @@
     },
     {
       "type": 0,
-      "value": " bulk edit profile"
+      "value": "批量编辑配置文件"
     }
   ],
   "ui-bulk-edit.settings.profiles.title.summary": [
     {
       "type": 0,
-      "value": "Summary"
+      "value": "摘要"
     }
   ],
   "ui-bulk-edit.settings.user": [
     {
       "type": 0,
-      "value": "Users bulk edit profiles"
+      "value": "用户批量编辑配置文件"
     }
   ],
   "ui-bulk-edit.settings.userProfiles": [
@@ -27406,7 +27466,7 @@
   "ui-bulk-edit.titleManager.settings.holdings": [
     {
       "type": 0,
-      "value": "Bulk edit settings - Holdings bulk edit profiles"
+      "value": "批量编辑设置 - 馆藏批量编辑配置文件"
     }
   ],
   "ui-bulk-edit.titleManager.settings.holdingsProfiles": [
@@ -27418,7 +27478,7 @@
   "ui-bulk-edit.titleManager.settings.instance": [
     {
       "type": 0,
-      "value": "Bulk edit settings - Instances bulk edit profiles"
+      "value": "批量编辑设置 - 实例批量编辑配置文件"
     }
   ],
   "ui-bulk-edit.titleManager.settings.instancesProfiles": [
@@ -27430,7 +27490,7 @@
   "ui-bulk-edit.titleManager.settings.item": [
     {
       "type": 0,
-      "value": "Bulk edit settings - Items bulk edit profiles"
+      "value": "批量编辑设置 - 单件批量编辑配置文件"
     }
   ],
   "ui-bulk-edit.titleManager.settings.itemsProfiles": [
@@ -27442,7 +27502,7 @@
   "ui-bulk-edit.titleManager.settings.user": [
     {
       "type": 0,
-      "value": "Bulk edit settings - Users bulk edit profiles"
+      "value": "批量编辑设置 - 用户批量编辑配置文件"
     }
   ],
   "ui-bulk-edit.titleManager.settings.usersProfiles": [
@@ -32825,7 +32885,7 @@
   "ui-checkout.suspendedAccounts": [
     {
       "type": 0,
-      "value": " :  "
+      "value": "（ "
     },
     {
       "type": 1,
@@ -32833,7 +32893,7 @@
     },
     {
       "type": 0,
-      "value": "暂停 ) "
+      "value": "已暂停）"
     }
   ],
   "ui-checkout.time": [
@@ -33056,7 +33116,7 @@
   "ui-circulation-log.logEvent.action.Held for use at location": [
     {
       "type": 0,
-      "value": "Held"
+      "value": "已预约"
     }
   ],
   "ui-circulation-log.logEvent.action.Marked as missing": [
@@ -33110,7 +33170,7 @@
   "ui-circulation-log.logEvent.action.Picked up for use at location": [
     {
       "type": 0,
-      "value": "In use"
+      "value": "使用中"
     }
   ],
   "ui-circulation-log.logEvent.action.Pickup expired": [
@@ -34692,7 +34752,7 @@
   "ui-circulation.settings.finePolicy.reminderFees.add": [
     {
       "type": 0,
-      "value": "添加提醒费"
+      "value": "添加提醒费用"
     }
   ],
   "ui-circulation.settings.finePolicy.reminderFees.after": [
@@ -34704,7 +34764,7 @@
   "ui-circulation.settings.finePolicy.reminderFees.allowRenewalOfItemsWithReminderFees": [
     {
       "type": 0,
-      "value": "允许续借带有提醒费的单件"
+      "value": "允许续借带有提醒费用的单件"
     }
   ],
   "ui-circulation.settings.finePolicy.reminderFees.blockTemplate": [
@@ -34758,7 +34818,7 @@
   "ui-circulation.settings.finePolicy.reminderFees.label": [
     {
       "type": 0,
-      "value": "提醒费"
+      "value": "提醒费用"
     }
   ],
   "ui-circulation.settings.finePolicy.reminderFees.noBlock": [
@@ -35332,7 +35392,7 @@
   "ui-circulation.settings.loanPolicy.forUseAtLocation": [
     {
       "type": 0,
-      "value": "For use at location"
+      "value": "在现场使用"
     }
   ],
   "ui-circulation.settings.loanPolicy.generalInformation": [
@@ -35350,7 +35410,7 @@
   "ui-circulation.settings.loanPolicy.holdShelfExpirationPeriod": [
     {
       "type": 0,
-      "value": "Hold shelf expiration period"
+      "value": "预约书架到期有效期"
     }
   ],
   "ui-circulation.settings.loanPolicy.itemLimit": [
@@ -63577,7 +63637,7 @@
   "ui-erm-usage.aggregator.config.accountConfig": [
     {
       "type": 0,
-      "value": "帐户配置"
+      "value": "账户配置"
     }
   ],
   "ui-erm-usage.aggregator.config.accountConfig.contact": [
@@ -64351,25 +64411,25 @@
   "ui-erm-usage.monthpicker.monthSelection": [
     {
       "type": 0,
-      "value": "Month selection"
+      "value": "月份选择"
     }
   ],
   "ui-erm-usage.monthpicker.yearMonthInput": [
     {
       "type": 0,
-      "value": "Year and month input"
+      "value": "年份和月份输入"
     }
   ],
   "ui-erm-usage.monthpicker.yearMonthSelection": [
     {
       "type": 0,
-      "value": "Calender: Year and month selection"
+      "value": "日历：年份和月份选择"
     }
   ],
   "ui-erm-usage.monthpicker.yearSelection": [
     {
       "type": 0,
-      "value": "Year selection"
+      "value": "年份选择"
     }
   ],
   "ui-erm-usage.noSourceYet": [
@@ -64775,7 +64835,59 @@
   "ui-erm-usage.report.upload.info": [
     {
       "type": 0,
-      "value": "可以上传 Counter 4 (XML 和 CSV) 或 Counter 5 (JSON 和 CSV) 或 Counter 5.1 (JSON) 使用情况统计数据"
+      "value": "可以上传以下使用统计： "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Counter 4（XML、CSV） "
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Counter  5（JSON、CSV） "
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Counter 5.1（JSON、CSV、TSV、XLSX） "
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "type": 0,
+          "value": " "
+        }
+      ],
+      "type": 8,
+      "value": "ul"
     }
   ],
   "ui-erm-usage.report.upload.modal.label": [
@@ -65706,7 +65818,7 @@
   "ui-erm-usage.statistics.selectedFile": [
     {
       "type": 0,
-      "value": "Selected file"
+      "value": "所选文件"
     }
   ],
   "ui-erm-usage.sushiCreds.apiKey": [
@@ -70703,13 +70815,21 @@
     },
     {
       "type": 0,
-      "value": " was successfully allocated to the budget "
+      "value": "已成功分配至预算"
     },
     {
       "children": [
         {
+          "type": 0,
+          "value": " "
+        },
+        {
           "type": 1,
           "value": "budgetName"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -70831,7 +70951,7 @@
   "ui-finance.transaction.button.switchFunds": [
     {
       "type": 0,
-      "value": "Switch funds"
+      "value": "转换经费"
     }
   ],
   "ui-finance.transaction.button.transfer": [
@@ -72159,13 +72279,13 @@
   "ui-gobi-settings.order.mappings.translator.lookupAcquisitionUnitDefaultAcqUnitName": [
     {
       "type": 0,
-      "value": "查找与此组织帐户关联的采购单位 UUID"
+      "value": "查找与此组织账户关联的采购单位 UUID"
     }
   ],
   "ui-gobi-settings.order.mappings.translator.lookupAcquisitionUnitIdsByAccount": [
     {
       "type": 0,
-      "value": "查找与帐户关联的采购单位 UUID"
+      "value": "查找与账户关联的采购单位 UUID"
     }
   ],
   "ui-gobi-settings.order.mappings.translator.lookupAcquisitionUnitIdsByName": [
@@ -76098,7 +76218,7 @@
   "ui-inventory.addAdditionalCallNumber": [
     {
       "type": 0,
-      "value": "Add additional call number"
+      "value": "添加附加索书号"
     }
   ],
   "ui-inventory.addAdministrativeNote": [
@@ -76336,7 +76456,7 @@
   "ui-inventory.additionalCallNumbers": [
     {
       "type": 0,
-      "value": "Additional call numbers"
+      "value": "附加索书号"
     }
   ],
   "ui-inventory.adminData": [
@@ -79030,7 +79150,7 @@
   "ui-inventory.instances.columns.instanceHRID": [
     {
       "type": 0,
-      "value": "Instance HRID"
+      "value": "实例HRID"
     }
   ],
   "ui-inventory.instances.columns.numberOfTitles": [
@@ -79224,6 +79344,12 @@
     {
       "type": 0,
       "value": "借阅和可用性"
+    }
+  ],
+  "ui-inventory.item.order": [
+    {
+      "type": 0,
+      "value": "Order"
     }
   ],
   "ui-inventory.item.requestQueue": [
@@ -80743,7 +80869,7 @@
   "ui-inventory.noAdditionalCallNumbers": [
     {
       "type": 0,
-      "value": "No additional call numbers"
+      "value": "无附加索书号"
     }
   ],
   "ui-inventory.noBarcode": [
@@ -81151,7 +81277,7 @@
   "ui-inventory.numberGenerator.accessionNumberEqualCallNumber.warning": [
     {
       "type": 0,
-      "value": "警告：由于入藏号和/或索书号已设置为手动完成，因此复选框已被禁用。"
+      "value": "警告：由于入藏号和/或索书号已设置为人工完成，因此复选框已被禁用。"
     }
   ],
   "ui-inventory.numberGenerator.barcode": [
@@ -81199,7 +81325,7 @@
   "ui-inventory.numberGenerator.info": [
     {
       "type": 0,
-      "value": "通常使用数字序列填写的字段可以使用数字生成器。当生成器打开时，可以固定该字段以防止手动更新，或使其完全可编辑。当关闭时，必须手动填写该字段。"
+      "value": "通常使用数字序列填写的字段可以使用数字生成器。当生成器打开时，可以固定该字段以防止人工更新，或使其完全可编辑。当关闭时，必须人工填写该字段。"
     }
   ],
   "ui-inventory.numberGenerator.infoAdditional": [
@@ -83380,7 +83506,7 @@
   "ui-inventory.swapWithPrimaryCallNumber": [
     {
       "type": 0,
-      "value": "Change with primary call number"
+      "value": "更改为主要索书号"
     }
   ],
   "ui-inventory.targetOptions": [
@@ -84610,7 +84736,7 @@
   "ui-invoice.invoice.accountingCode.default": [
     {
       "type": 0,
-      "value": "默认 :  "
+      "value": "默认（ "
     },
     {
       "type": 1,
@@ -84618,7 +84744,7 @@
     },
     {
       "type": 0,
-      "value": "  ) "
+      "value": "）"
     }
   ],
   "ui-invoice.invoice.actions.addLine.confirmLabel": [
@@ -84678,7 +84804,7 @@
   "ui-invoice.invoice.actions.approve.error.accountingCodeNotPresent": [
     {
       "type": 0,
-      "value": "无法批准 : 已付款 ) 发票，因为已识别的供应商必须具有该发票的会计代码才能导出到会计中"
+      "value": "无法批准（已付款 ) 发票，因为已识别的供应商必须具有该发票的会计代码才能导出到会计中"
     }
   ],
   "ui-invoice.invoice.actions.approve.error.adjustmentFundDistributionsNotPresent": [
@@ -86260,13 +86386,13 @@
   "ui-invoice.invoice.form.fromPO.currency.confirmModal.heading": [
     {
       "type": 0,
-      "value": "Confirm currency change"
+      "value": "确认货币变更"
     }
   ],
   "ui-invoice.invoice.form.fromPO.currency.confirmModal.message": [
     {
       "type": 0,
-      "value": "You are changing the currency of this invoice but the amounts are not being exchanged from the POL currency to the new invoice currency. If you would still like proceed please click confirm."
+      "value": "正在更改此发票的货币，但金额尚未从采购订单行货币兑换为新的发票货币。如果仍想继续，请点击“确认”。"
     }
   ],
   "ui-invoice.invoice.invoiceAdjustments": [
@@ -86540,7 +86666,7 @@
   "ui-invoice.invoiceLine.accountNumber.inactive": [
     {
       "type": 0,
-      "value": "所选帐号处于非激活状态。"
+      "value": "所选账号处于非激活状态。"
     }
   ],
   "ui-invoice.invoiceLine.accountingCode": [
@@ -95449,19 +95575,19 @@
   "ui-marc-authorities.actions.saveAuthoritiesUIIDS": [
     {
       "type": 0,
-      "value": "Save authorities UUIDs"
+      "value": "保存规范UUID"
     }
   ],
   "ui-marc-authorities.actions.saveAuthoritiesUIIDS.error": [
     {
       "type": 0,
-      "value": "Error occurred while saving authorities UUIDs. Please try again."
+      "value": "保存规范UUID时出错。请重试。"
     }
   ],
   "ui-marc-authorities.actions.saveAuthoritiesUIIDS.info": [
     {
       "type": 0,
-      "value": "Request to save authorities UUIDs has been received. File download may take a few minutes."
+      "value": "已收到保存规范UUID的请求。文件下载可能需要几分钟。"
     }
   ],
   "ui-marc-authorities.advancedSearch": [
@@ -97222,7 +97348,7 @@
   "ui-myprofile.settings.languageLocalization.resetToDefault": [
     {
       "type": 0,
-      "value": "Reset to default"
+      "value": "重置为默认值"
     }
   ],
   "ui-myprofile.settings.languageLocalization.tenantDefault": [
@@ -98184,7 +98310,7 @@
     },
     {
       "type": 0,
-      "value": "的汇率未知，请手动输入"
+      "value": "的汇率未知，请人工输入"
     }
   ],
   "ui-oa.charge.validate.fourDigits": [
@@ -102317,7 +102443,7 @@
     },
     {
       "type": 0,
-      "value": "个用于导出的唯一帐号。如果订单行具有不同的账号，则不能打开具有多个订单行集的订单以导出。打开前请编辑这些订单行的账号信息或将不同账号的订单行移到不同的订单中。"
+      "value": "个用于导出的唯一账号。如果订单行具有不同的账号，则不能打开具有多个订单行集的订单以导出。打开前请编辑这些订单行的账号信息或将不同账号的订单行移到不同的订单中。"
     }
   ],
   "ui-orders.differentAccounts.title": [
@@ -104841,7 +104967,7 @@
   "ui-orders.orderDetails.openedBy": [
     {
       "type": 0,
-      "value": "Opened by"
+      "value": "开启者"
     }
   ],
   "ui-orders.orderDetails.orderNumberPrefix": [
@@ -104895,7 +105021,7 @@
   "ui-orders.orderDetails.yearOpened": [
     {
       "type": 0,
-      "value": "Year opened"
+      "value": "开放年份"
     }
   ],
   "ui-orders.orderLineList.funCodes": [
@@ -105733,13 +105859,13 @@
   "ui-orders.poLine.receivingWorkflow.confirmModal.heading": [
     {
       "type": 0,
-      "value": "Update receiving workflow"
+      "value": "更新接收工作流程"
     }
   ],
   "ui-orders.poLine.receivingWorkflow.confirmModal.message": [
     {
       "type": 0,
-      "value": "You are about to change the receiving workflow to “Independent order and receipt quantity”. This change cannot be undone unless the order is unopened. Are you sure you want to continue?"
+      "value": "即将把接收流程更改为“独立订单和接收数量”。除非订单未打开，否则此更改无法撤消。确定要继续吗？"
     }
   ],
   "ui-orders.poLine.receivingWorkflow.independent": [
@@ -105757,7 +105883,7 @@
   "ui-orders.poLine.receivingWorkflow.infoPopover": [
     {
       "type": 0,
-      "value": "Selecting synchronized will keep the order quantity and the number of pieces to be received, in sync. This also means updating one will update the other. When the order is opened, the system will generate pieces based on the quantity order. Selecting “independent order and receipt quantity” will allow you to manage the number of receiving pieces and their locations independently. You can convert a POL to independent at anytime but you cannot convert back to synchronized when the order is open or closed."
+      "value": "选择“已同步”将使订单数量和待收件数保持同步。这意味着更新其中一个也会更新另一个。订单创建后，系统将根据订单数量生成件数。选择“独立订单和接收数量”将允许您独立管理接收件数及其馆藏地。您可以随时将采购订单转换至独立订单，但在订单为开放或关闭时无法转换回已同步。"
     }
   ],
   "ui-orders.poLine.receivingWorkflow.synchronized": [
@@ -107438,7 +107564,7 @@
   "ui-orders.settings.numberGenerator.accessionNumberEqualCallNumber.warning": [
     {
       "type": 0,
-      "value": "警告：由于入藏号和/或索书号已设置为手动完成，因此复选框已被禁用。"
+      "value": "警告：由于入藏号和/或索书号已设置为人工完成，因此复选框已被禁用。"
     }
   ],
   "ui-orders.settings.numberGenerator.barcode": [
@@ -107456,7 +107582,7 @@
   "ui-orders.settings.numberGenerator.info": [
     {
       "type": 0,
-      "value": "通常使用数字序列填写的字段可以使用数字生成器。当生成器打开时，可以固定该字段以防止手动更新，或使其完全可编辑。当关闭时，必须手动填写该字段。"
+      "value": "通常使用数字序列填写的字段可以使用数字生成器。当生成器打开时，可以固定该字段以防止人工更新，或使其完全可编辑。当关闭时，必须人工填写该字段。"
     }
   ],
   "ui-orders.settings.numberGenerator.infoAdditional": [
@@ -108520,7 +108646,7 @@
   "ui-orders.unopenOrderModal.message.synchronized": [
     {
       "type": 0,
-      "value": "此订单至少有一个带有接收工作流程“已同步订单和接收数量”的订单行。此类具有相关接收记录的订单行将删除所有未接收件，并且与这些件相关的任何“订购中”单件记录也将从典藏中删除。链接到那些没有其他相关单件的单件的馆藏也可以从典藏中删除。你想如何进行？"
+      "value": "此订单至少有一个订单行的接收工作流程为“同步订单和接收数量”。此类包含相关接收记录的采购订单行将删除所有未接收且当前没有待处理请求的件，并且与这些件相关的任何“订购中”单件记录也将从典藏中删除。与这些单件关联且没有其他相关单件的馆藏也将被从典藏中删除。您希望如何继续？"
     }
   ],
   "ui-orders.unopenOrderModal.message.withPieces": [
@@ -108602,7 +108728,7 @@
   "ui-orders.vendor.accountNumber.inActive": [
     {
       "type": 0,
-      "value": "所选帐号处于非激活状态。"
+      "value": "所选账号处于非激活状态。"
     }
   ],
   "ui-orders.vendor.instructions": [
@@ -112493,7 +112619,7 @@
   "ui-plugin-bursar-export.bursarExports.aggregate.description": [
     {
       "type": 0,
-      "value": "如启用，每个输出行将对应一个读者及其所有帐户，而非仅一个帐户。"
+      "value": "如启用，每个输出行将对应一个读者及其所有账户，而非仅一个账户。"
     }
   ],
   "ui-plugin-bursar-export.bursarExports.aggregate.enabler": [
@@ -113081,7 +113207,7 @@
   "ui-plugin-bursar-export.bursarExports.scheduling.frequency.manual": [
     {
       "type": 0,
-      "value": "从不 : 手动运行 ) "
+      "value": "从不（人工运行）"
     }
   ],
   "ui-plugin-bursar-export.bursarExports.scheduling.frequency.weeks": [
@@ -113573,7 +113699,7 @@
   "ui-plugin-bursar-export.permission.bursar-exports.manual": [
     {
       "type": 0,
-      "value": "转运导出 : 开始手工任务"
+      "value": "转运导出 : 开始人工任务"
     }
   ],
   "ui-plugin-bursar-export.permission.bursar-exports.view": [
@@ -118934,7 +119060,7 @@
   "ui-quick-marc.record.fixedField.AACR 2 compatible heading": [
     {
       "type": 0,
-      "value": "AACR 2 compatible heading"
+      "value": "AACR 2 兼容标目"
     }
   ],
   "ui-quick-marc.record.fixedField.Abstracts/summaries": [
@@ -119042,7 +119168,7 @@
   "ui-quick-marc.record.fixedField.Appropriate": [
     {
       "type": 0,
-      "value": "Appropriate"
+      "value": "合适"
     }
   ],
   "ui-quick-marc.record.fixedField.Arabic": [
@@ -119066,7 +119192,7 @@
   "ui-quick-marc.record.fixedField.Art and Architecture Thesaurus": [
     {
       "type": 0,
-      "value": "Art and Architecture Thesaurus"
+      "value": "艺术与建筑叙词表"
     }
   ],
   "ui-quick-marc.record.fixedField.Art original": [
@@ -119306,7 +119432,7 @@
   "ui-quick-marc.record.fixedField.Canadian Subject Headings": [
     {
       "type": 0,
-      "value": "Canadian Subject Headings"
+      "value": "加拿大主题词表"
     }
   ],
   "ui-quick-marc.record.fixedField.Canons and rounds": [
@@ -119438,7 +119564,7 @@
   "ui-quick-marc.record.fixedField.Chronological": [
     {
       "type": 0,
-      "value": "Chronological"
+      "value": "年表"
     }
   ],
   "ui-quick-marc.record.fixedField.Class of braille writing": [
@@ -119642,7 +119768,7 @@
   "ui-quick-marc.record.fixedField.Conventional romanization or conventional form of name in language of cataloging agency": [
     {
       "type": 0,
-      "value": "Conventional romanization or conventional form of name in language of cataloging agency"
+      "value": "常规罗马化或编目机构语言的常规名称形式"
     }
   ],
   "ui-quick-marc.record.fixedField.Cooperative cataloging program": [
@@ -119786,7 +119912,7 @@
   "ui-quick-marc.record.fixedField.Differentiated personal name": [
     {
       "type": 0,
-      "value": "Differentiated personal name"
+      "value": "已未区分个人名称"
     }
   ],
   "ui-quick-marc.record.fixedField.Dimaxion": [
@@ -119876,7 +120002,7 @@
   "ui-quick-marc.record.fixedField.Earlier rules": [
     {
       "type": 0,
-      "value": "Earlier rules"
+      "value": "早期规则"
     }
   ],
   "ui-quick-marc.record.fixedField.Eckert": [
@@ -119906,13 +120032,13 @@
   "ui-quick-marc.record.fixedField.English and French": [
     {
       "type": 0,
-      "value": "English and French"
+      "value": "英语和法语"
     }
   ],
   "ui-quick-marc.record.fixedField.English only": [
     {
       "type": 0,
-      "value": "English only"
+      "value": "仅英语"
     }
   ],
   "ui-quick-marc.record.fixedField.EntW": [
@@ -119942,13 +120068,13 @@
   "ui-quick-marc.record.fixedField.Established heading": [
     {
       "type": 0,
-      "value": "Established heading"
+      "value": "已建立标目"
     }
   ],
   "ui-quick-marc.record.fixedField.Established heading and subdivision": [
     {
       "type": 0,
-      "value": "Established heading and subdivision"
+      "value": "已建立标题和细分"
     }
   ],
   "ui-quick-marc.record.fixedField.Ethnological information": [
@@ -120092,7 +120218,7 @@
   "ui-quick-marc.record.fixedField.French only": [
     {
       "type": 0,
-      "value": "French only"
+      "value": "仅法语"
     }
   ],
   "ui-quick-marc.record.fixedField.Freq": [
@@ -120116,7 +120242,7 @@
   "ui-quick-marc.record.fixedField.Fully established": [
     {
       "type": 0,
-      "value": "Fully established"
+      "value": "完整的"
     }
   ],
   "ui-quick-marc.record.fixedField.GPub": [
@@ -120188,7 +120314,7 @@
   "ui-quick-marc.record.fixedField.Geographic": [
     {
       "type": 0,
-      "value": "Geographic"
+      "value": "地理"
     }
   ],
   "ui-quick-marc.record.fixedField.Globe": [
@@ -120224,7 +120350,7 @@
   "ui-quick-marc.record.fixedField.Government agency-type undetermined": [
     {
       "type": 0,
-      "value": "Government agency-type undetermined"
+      "value": "政府机构类型未确定"
     }
   ],
   "ui-quick-marc.record.fixedField.Government publication-level undetermined": [
@@ -120404,7 +120530,7 @@
   "ui-quick-marc.record.fixedField.International standard": [
     {
       "type": 0,
-      "value": "International standard"
+      "value": "国际标准"
     }
   ],
   "ui-quick-marc.record.fixedField.Interviews": [
@@ -120542,7 +120668,7 @@
   "ui-quick-marc.record.fixedField.Language": [
     {
       "type": 0,
-      "value": "Language"
+      "value": "语言"
     }
   ],
   "ui-quick-marc.record.fixedField.Language instruction": [
@@ -120626,13 +120752,13 @@
   "ui-quick-marc.record.fixedField.Library of Congress Children's and Young Adults' Subject Headings": [
     {
       "type": 0,
-      "value": "Library of Congress Children's and Young Adults' Subject Headings"
+      "value": "美国国会图书馆儿童和青少年主题词表"
     }
   ],
   "ui-quick-marc.record.fixedField.Library of Congress Subject Headings": [
     {
       "type": 0,
-      "value": "Library of Congress Subject Headings"
+      "value": "美国国会图书馆主题词表"
     }
   ],
   "ui-quick-marc.record.fixedField.Libretto or text": [
@@ -120662,7 +120788,7 @@
   "ui-quick-marc.record.fixedField.Local standard": [
     {
       "type": 0,
-      "value": "Local standard"
+      "value": "地方标准"
     }
   ],
   "ui-quick-marc.record.fixedField.Loose-leaf": [
@@ -120740,7 +120866,7 @@
   "ui-quick-marc.record.fixedField.Medical Subject Headings": [
     {
       "type": 0,
-      "value": "Medical Subject Headings"
+      "value": "医学主题词表"
     }
   ],
   "ui-quick-marc.record.fixedField.Medium for sound": [
@@ -120758,7 +120884,7 @@
   "ui-quick-marc.record.fixedField.Memorandum": [
     {
       "type": 0,
-      "value": "Memorandum"
+      "value": "备忘"
     }
   ],
   "ui-quick-marc.record.fixedField.Mercator": [
@@ -120902,7 +121028,7 @@
   "ui-quick-marc.record.fixedField.Multipart item": [
     {
       "type": 0,
-      "value": "Multipart item"
+      "value": "多部分单件"
     }
   ],
   "ui-quick-marc.record.fixedField.Multiple dates": [
@@ -120944,7 +121070,7 @@
   "ui-quick-marc.record.fixedField.National Agricultural Library subject authority file": [
     {
       "type": 0,
-      "value": "National Agricultural Library subject authority file"
+      "value": "美国国家农业图书馆主题规范档"
     }
   ],
   "ui-quick-marc.record.fixedField.National bibliographic agency": [
@@ -120956,19 +121082,19 @@
   "ui-quick-marc.record.fixedField.National library association standard": [
     {
       "type": 0,
-      "value": "National library association standard"
+      "value": "国家图书馆协会标准"
     }
   ],
   "ui-quick-marc.record.fixedField.National library or bibliographic agency standard": [
     {
       "type": 0,
-      "value": "National library or bibliographic agency standard"
+      "value": "国家图书馆或书目机构标准"
     }
   ],
   "ui-quick-marc.record.fixedField.National standard": [
     {
       "type": 0,
-      "value": "National standard"
+      "value": "国家标准"
     }
   ],
   "ui-quick-marc.record.fixedField.Newsletter": [
@@ -121040,7 +121166,7 @@
   "ui-quick-marc.record.fixedField.No information provided": [
     {
       "type": 0,
-      "value": "No information provided"
+      "value": "未提供信息"
     }
   ],
   "ui-quick-marc.record.fixedField.No parts in hand or not specified": [
@@ -121076,7 +121202,7 @@
   "ui-quick-marc.record.fixedField.Node label": [
     {
       "type": 0,
-      "value": "Node label"
+      "value": "节点标签"
     }
   ],
   "ui-quick-marc.record.fixedField.None of the following": [
@@ -121106,7 +121232,7 @@
   "ui-quick-marc.record.fixedField.Not a government agency": [
     {
       "type": 0,
-      "value": "Not a government agency"
+      "value": "非政府机构"
     }
   ],
   "ui-quick-marc.record.fixedField.Not a government publication": [
@@ -121124,7 +121250,7 @@
   "ui-quick-marc.record.fixedField.Not appropriate": [
     {
       "type": 0,
-      "value": "Not appropriate"
+      "value": "不合适"
     }
   ],
   "ui-quick-marc.record.fixedField.Not arrangement or transposition or not specified": [
@@ -121154,7 +121280,7 @@
   "ui-quick-marc.record.fixedField.Not subdivided geographically": [
     {
       "type": 0,
-      "value": "Not subdivided geographically"
+      "value": "未按地理细分"
     }
   ],
   "ui-quick-marc.record.fixedField.Novels": [
@@ -121172,13 +121298,13 @@
   "ui-quick-marc.record.fixedField.Numbered": [
     {
       "type": 0,
-      "value": "Numbered"
+      "value": "编号"
     }
   ],
   "ui-quick-marc.record.fixedField.Numbering varies": [
     {
       "type": 0,
-      "value": "Numbering varies"
+      "value": "编号不同"
     }
   ],
   "ui-quick-marc.record.fixedField.Numeric data": [
@@ -121424,7 +121550,7 @@
   "ui-quick-marc.record.fixedField.Preliminary": [
     {
       "type": 0,
-      "value": "Preliminary"
+      "value": "初步的"
     }
   ],
   "ui-quick-marc.record.fixedField.Preludes": [
@@ -121490,7 +121616,7 @@
   "ui-quick-marc.record.fixedField.Provisional": [
     {
       "type": 0,
-      "value": "Provisional"
+      "value": "临时的"
     }
   ],
   "ui-quick-marc.record.fixedField.Publication date and copyright date": [
@@ -121556,13 +121682,13 @@
   "ui-quick-marc.record.fixedField.Record can be used": [
     {
       "type": 0,
-      "value": "Record can be used"
+      "value": "记录可用"
     }
   ],
   "ui-quick-marc.record.fixedField.Record is being updated": [
     {
       "type": 0,
-      "value": "Record is being updated"
+      "value": "记录已在更新。"
     }
   ],
   "ui-quick-marc.record.fixedField.Record length": [
@@ -121586,7 +121712,7 @@
   "ui-quick-marc.record.fixedField.Reference and subdivision": [
     {
       "type": 0,
-      "value": "Reference and subdivision"
+      "value": "参照和细分"
     }
   ],
   "ui-quick-marc.record.fixedField.Refined categories of color": [
@@ -121730,7 +121856,7 @@
   "ui-quick-marc.record.fixedField.Répertoire de vedettes-matière": [
     {
       "type": 0,
-      "value": "Répertoire de vedettes-matière"
+      "value": "主题词目录（Répertoire de vedettes-matière）"
     }
   ],
   "ui-quick-marc.record.fixedField.S/L": [
@@ -121766,7 +121892,7 @@
   "ui-quick-marc.record.fixedField.Sears List of Subject Heading": [
     {
       "type": 0,
-      "value": "Sears List of Subject Heading"
+      "value": "西尔斯主题词表"
     }
   ],
   "ui-quick-marc.record.fixedField.Secondary support material": [
@@ -121826,7 +121952,7 @@
   "ui-quick-marc.record.fixedField.Series-like phrase": [
     {
       "type": 0,
-      "value": "Series-like phrase"
+      "value": "丛编短语"
     }
   ],
   "ui-quick-marc.record.fixedField.Shading": [
@@ -121982,7 +122108,7 @@
   "ui-quick-marc.record.fixedField.Standard of unknown origin": [
     {
       "type": 0,
-      "value": "Standard of unknown origin"
+      "value": "来源不明的标准"
     }
   ],
   "ui-quick-marc.record.fixedField.Standards/specifications": [
@@ -122024,19 +122150,19 @@
   "ui-quick-marc.record.fixedField.Subdivided geographically-direct": [
     {
       "type": 0,
-      "value": "Subdivided geographically-direct"
+      "value": "按地理直接细分"
     }
   ],
   "ui-quick-marc.record.fixedField.Subdivided geographically-indirect": [
     {
       "type": 0,
-      "value": "Subdivided geographically-indirect"
+      "value": "按地理间接细分"
     }
   ],
   "ui-quick-marc.record.fixedField.Subdivision": [
     {
       "type": 0,
-      "value": "Subdivision"
+      "value": "细分"
     }
   ],
   "ui-quick-marc.record.fixedField.Subj use": [
@@ -122186,7 +122312,7 @@
   "ui-quick-marc.record.fixedField.Topical": [
     {
       "type": 0,
-      "value": "Topical"
+      "value": "论题"
     }
   ],
   "ui-quick-marc.record.fixedField.Toy": [
@@ -122204,19 +122330,19 @@
   "ui-quick-marc.record.fixedField.Traced reference": [
     {
       "type": 0,
-      "value": "Traced reference"
+      "value": "根查参照"
     }
   ],
   "ui-quick-marc.record.fixedField.Tracings are consistent with the heading": [
     {
       "type": 0,
-      "value": "Tracings are consistent with the heading"
+      "value": "根查与标目一致"
     }
   ],
   "ui-quick-marc.record.fixedField.Tracings are not necessarily consistent with the heading": [
     {
       "type": 0,
-      "value": "Tracings are not necessarily consistent with the heading"
+      "value": "根查不一定与标目一致"
     }
   ],
   "ui-quick-marc.record.fixedField.Transparency": [
@@ -122276,7 +122402,7 @@
   "ui-quick-marc.record.fixedField.Undifferentiated personal name": [
     {
       "type": 0,
-      "value": "Undifferentiated personal name"
+      "value": "未区分个人名称"
     }
   ],
   "ui-quick-marc.record.fixedField.Unknown": [
@@ -122288,7 +122414,7 @@
   "ui-quick-marc.record.fixedField.Unknown if heading is government agency": [
     {
       "type": 0,
-      "value": "Unknown if heading is government agency"
+      "value": "未知标目是否为政府机构"
     }
   ],
   "ui-quick-marc.record.fixedField.Unknown if item is government publication": [
@@ -122312,13 +122438,13 @@
   "ui-quick-marc.record.fixedField.Unnumbered": [
     {
       "type": 0,
-      "value": "Unnumbered"
+      "value": "未编号"
     }
   ],
   "ui-quick-marc.record.fixedField.Untraced reference": [
     {
       "type": 0,
-      "value": "Untraced reference"
+      "value": "无根查参照"
     }
   ],
   "ui-quick-marc.record.fixedField.Updating Web site": [
@@ -124146,7 +124272,7 @@
     },
     {
       "type": 0,
-      "value": "必须通过选择链接图标手动设置。"
+      "value": "必须通过选择链接图标人工设置。"
     }
   ],
   "ui-quick-marc.records.autoLink.notLinkedFields.multiple": [
@@ -124249,7 +124375,7 @@
     },
     {
       "type": 0,
-      "value": "必须通过选择链接图标手动设置。有多个规范记录可以与该书目字段匹配。"
+      "value": "必须通过选择链接图标人工设置。有多个规范记录可以与该书目字段匹配。"
     }
   ],
   "ui-quick-marc.records.error.autoLinking": [
@@ -125373,7 +125499,7 @@
   "ui-receiving.piece.accordion.originalItemDetails": [
     {
       "type": 0,
-      "value": "单件详情 : 原始 ) "
+      "value": "单件详情（ 原始 ）"
     }
   ],
   "ui-receiving.piece.accordion.pieceDetails": [
@@ -129460,7 +129586,7 @@
   "ui-requests.errors.user.unknown": [
     {
       "type": 0,
-      "value": "Unknown user"
+      "value": "未知用户"
     }
   ],
   "ui-requests.errors.userBarcodeDoesNotExist": [
@@ -129608,7 +129734,7 @@
   "ui-requests.forUseAtLocation": [
     {
       "type": 0,
-      "value": "For use at location"
+      "value": "在现场使用"
     }
   ],
   "ui-requests.fulfillmentPreference": [
@@ -134549,7 +134675,7 @@
     },
     {
       "type": 0,
-      "value": " 。可以手动将其设置为新序列的起始值。"
+      "value": " 。可以人工将其设置为新序列的起始值。"
     }
   ],
   "ui-service-interaction.settings.numberGeneratorSequences.outputTemplate": [
@@ -136423,25 +136549,25 @@
   "ui-tenant-settings.settings.servicePoints.defaultCheckinAction": [
     {
       "type": 0,
-      "value": "Default check-in action for use at location"
+      "value": "对现场使用默认归还操作"
     }
   ],
   "ui-tenant-settings.settings.servicePoints.defaultCheckinAction.Ask_for_action": [
     {
       "type": 0,
-      "value": "Ask for action"
+      "value": "请求操作"
     }
   ],
   "ui-tenant-settings.settings.servicePoints.defaultCheckinAction.Close_loan_and_return_item": [
     {
       "type": 0,
-      "value": "Close loan and return item"
+      "value": "结束借阅并归还单件"
     }
   ],
   "ui-tenant-settings.settings.servicePoints.defaultCheckinAction.Keep_on_hold_shelf": [
     {
       "type": 0,
-      "value": "Keep on hold shelf"
+      "value": "保留在预约架上"
     }
   ],
   "ui-tenant-settings.settings.servicePoints.delete": [
@@ -137657,7 +137783,7 @@
   "ui-users.accounts.loading": [
     {
       "type": 0,
-      "value": "正在加载帐户"
+      "value": "正在加载账户"
     }
   ],
   "ui-users.accounts.notifyPatron": [
@@ -138135,7 +138261,7 @@
   "ui-users.accounts.totalOpenAccounts": [
     {
       "type": 0,
-      "value": " : 总计 :  "
+      "value": "（总计："
     },
     {
       "type": 1,
@@ -138143,7 +138269,7 @@
     },
     {
       "type": 0,
-      "value": "  ) "
+      "value": "）"
     }
   ],
   "ui-users.accounts.totalOwed": [
@@ -138197,7 +138323,7 @@
   "ui-users.accounts.transfer.method.placeholder": [
     {
       "type": 0,
-      "value": "选择帐户"
+      "value": "选择账户"
     }
   ],
   "ui-users.accounts.transfer.modalLabel": [
@@ -139085,7 +139211,35 @@
   "ui-users.blocks.textField.place": [
     {
       "type": 0,
-      "value": "读者有地点冻结"
+      "value": "读者在地点有"
+    },
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": " 冻结 "
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": " 冻结 "
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": " 。"
     }
   ],
   "ui-users.brd.failedRenewal": [
@@ -140044,7 +140198,7 @@
   "ui-users.data.loanActionMap.reminderFee": [
     {
       "type": 0,
-      "value": "提醒费"
+      "value": "提醒费用"
     }
   ],
   "ui-users.data.loanActionMap.renewed": [
@@ -141050,7 +141204,7 @@
   "ui-users.feefines.disabledItem": [
     {
       "type": 0,
-      "value": "一个或多个用户帐户使用时，无法删除费用/罚款类型"
+      "value": "一个或多个用户账户使用时，无法删除费用/罚款类型"
     }
   ],
   "ui-users.feefines.errors.amountNumeric": [
@@ -141308,7 +141462,7 @@
   "ui-users.information.change.userType.modal.text": [
     {
       "type": 0,
-      "value": "进行此更改将更新用户的从属关系以及单击“保存并关闭”时为这些从属关系授予的权限。此操作无法轻易撤消，需要手动更新用户的从属关系和权限才能撤消所产生的更改。想继续吗？"
+      "value": "进行此更改将更新用户的从属关系以及单击“保存并关闭”时为这些从属关系授予的权限。此操作无法轻易撤消，需要人工更新用户的从属关系和权限才能撤消所产生的更改。想继续吗？"
     }
   ],
   "ui-users.information.expirationDate": [
@@ -141564,7 +141718,7 @@
     },
     {
       "type": 0,
-      "value": "的图书馆帐户将在"
+      "value": "的图书馆账户将在"
     },
     {
       "children": [
@@ -141586,7 +141740,7 @@
     },
     {
       "type": 0,
-      "value": "到期。是否要将此用户的帐户设置为在"
+      "value": "到期。是否要将此用户的账户设置为在"
     },
     {
       "children": [
@@ -142077,25 +142231,25 @@
   "ui-users.loans.columns.useAtLocation": [
     {
       "type": 0,
-      "value": "Use at location"
+      "value": "在现场使用"
     }
   ],
   "ui-users.loans.columns.useAtLocation.Held": [
     {
       "type": 0,
-      "value": "Held"
+      "value": "已预约"
     }
   ],
   "ui-users.loans.columns.useAtLocation.In use": [
     {
       "type": 0,
-      "value": "In use"
+      "value": "使用中"
     }
   ],
   "ui-users.loans.columns.useAtLocation.Returned": [
     {
       "type": 0,
-      "value": "Returned"
+      "value": "已还"
     }
   ],
   "ui-users.loans.confirmAsMissing": [
@@ -142869,7 +143023,7 @@
   "ui-users.loans.numOpenLoans.held": [
     {
       "type": 0,
-      "value": "Held: "
+      "value": "已预约： "
     },
     {
       "type": 1,
@@ -142879,7 +143033,7 @@
   "ui-users.loans.numOpenLoans.inUse": [
     {
       "type": 0,
-      "value": "In use: "
+      "value": "使用中： "
     },
     {
       "type": 1,
@@ -142889,7 +143043,7 @@
   "ui-users.loans.numOpenLoans.useAtLocation": [
     {
       "type": 0,
-      "value": "Use at location"
+      "value": "在现场使用"
     }
   ],
   "ui-users.loans.open": [
@@ -144619,13 +144773,13 @@
   "ui-users.permission.settings.manual-charges.all": [
     {
       "type": 0,
-      "value": "设置 : 用户 )  : 可以创建、编辑和移除人工收费"
+      "value": "设置（用户）：可以创建、编辑和移除人工收费"
     }
   ],
   "ui-users.permission.settings.manual-charges.view": [
     {
       "type": 0,
-      "value": "设置 : 用户 )  : 可以查看人工收费"
+      "value": "设置（用户）：可以查看人工收费"
     }
   ],
   "ui-users.permission.settings.number-generator-options.all": [
@@ -144733,13 +144887,13 @@
   "ui-users.permission.settings.transfers.all": [
     {
       "type": 0,
-      "value": "设置 : 用户 )  : 可以创建、编辑和移除转账账户"
+      "value": "设置（用户） : 可以创建、编辑和移除转账账户"
     }
   ],
   "ui-users.permission.settings.transfers.view": [
     {
       "type": 0,
-      "value": "设置 : 用户 )  : 可以查看转账账户"
+      "value": "设置（用户） : 可以查看转账账户"
     }
   ],
   "ui-users.permission.settings.transfertypes": [
@@ -146286,7 +146440,7 @@
   "ui-users.reports.includesReminderFees": [
     {
       "type": 0,
-      "value": "包括提醒费"
+      "value": "包括提醒费用"
     }
   ],
   "ui-users.reports.item.barcode": [
@@ -146676,13 +146830,13 @@
   "ui-users.requests.fulfillmentPreference.info": [
     {
       "type": 0,
-      "value": "Select the "
+      "value": "选中"
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Delivery"
+          "value": "发送"
         }
       ],
       "type": 8,
@@ -146690,13 +146844,13 @@
     },
     {
       "type": 0,
-      "value": " checkbox to choose "
+      "value": "复选框以选择"
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Fulfillment preference"
+          "value": "履行偏好"
         }
       ],
       "type": 8,
@@ -146704,13 +146858,13 @@
     },
     {
       "type": 0,
-      "value": " and "
+      "value": "和"
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Default delivery address"
+          "value": "默认发送地址"
         }
       ],
       "type": 8,
@@ -146718,7 +146872,7 @@
     },
     {
       "type": 0,
-      "value": "."
+      "value": " 。"
     }
   ],
   "ui-users.requests.holdShelf": [
@@ -147304,7 +147458,7 @@
   "ui-users.settings.numberGenerator.info": [
     {
       "type": 0,
-      "value": "通常使用数字序列填写的字段可以使用数字生成器。当生成器打开时，可以固定该字段以防止手动更新，或使其完全可编辑。当关闭时，必须手动填写该字段。"
+      "value": "通常使用数字序列填写的字段可以使用数字生成器。当生成器打开时，可以固定该字段以防止人工更新，或使其完全可编辑。当关闭时，必须人工填写该字段。"
     }
   ],
   "ui-users.settings.numberGenerator.infoAdditional": [
@@ -147826,7 +147980,7 @@
   "ui-users.transfers.modalHeader": [
     {
       "type": 0,
-      "value": "删除转移帐户"
+      "value": "删除转移账户"
     }
   ],
   "ui-users.transfers.nodata": [

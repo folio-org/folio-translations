@@ -20401,13 +20401,13 @@
   "ui-agreements.packageIdentifiers.gokbId": [
     {
       "type": 0,
-      "value": "GOKb ID"
+      "value": "GOKB ID"
     }
   ],
   "ui-agreements.packageIdentifiers.gokbUUID": [
     {
       "type": 0,
-      "value": "GOKb UUID"
+      "value": "GOKB UUID"
     }
   ],
   "ui-agreements.packageIdentifiers.identifier": [
@@ -26256,6 +26256,12 @@
       "value": " successfully uploaded."
     }
   ],
+  "ui-bulk-edit.options.empty": [
+    {
+      "type": 0,
+      "value": "No options found"
+    }
+  ],
   "ui-bulk-edit.options.placeholder": [
     {
       "type": 0,
@@ -26843,6 +26849,12 @@
     {
       "type": 0,
       "value": "Profile successfully deleted."
+    }
+  ],
+  "ui-bulk-edit.settings.profiles.details.bulkEdits": [
+    {
+      "type": 0,
+      "value": "Bulk edits"
     }
   ],
   "ui-bulk-edit.settings.profiles.details.summary": [
@@ -63774,7 +63786,7 @@
   "ui-erm-usage.settings.hideCredentials": [
     {
       "type": 0,
-      "value": "Hide sushi credentials in detail views"
+      "value": "Hide credentials in detail views"
     }
   ],
   "ui-erm-usage.settings.section.display.settings": [
@@ -77360,6 +77372,12 @@
     {
       "type": 0,
       "value": "Loan and availability"
+    }
+  ],
+  "ui-inventory.item.order": [
+    {
+      "type": 0,
+      "value": "Order"
     }
   ],
   "ui-inventory.item.requestQueue": [
@@ -104201,7 +104219,7 @@
   "ui-orders.settings.instanceMatching.description": [
     {
       "type": 0,
-      "value": "When active, instance matching will cause purchase order lines that are set to create instances, but are not manually linked to an instance record, to first search instances to find a match for one or more of the product IDs provided on the POL. If a product ID is found, that instance will be linked to the POL, and the system will NOT create a new instance for that POL. If no matches are found, the system will create a new instance record and link the POL to that instance."
+      "value": "With instance matching disabled, purchase order lines will create new instances and will not be linked with existing instance records. With instance matching enabled, FOLIO will first search instances to find a match for one or more product IDs provided on the PO Line. If a product ID is found, that instance will be linked to the POL and FOLIO will NOT create a new instance for that POL. If no matches are found, the system will create a new instance record and link the POL to that instance."
     }
   ],
   "ui-orders.settings.instanceMatching.toggle": [

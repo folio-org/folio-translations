@@ -17332,13 +17332,13 @@
   "ui-agreements.customProperties.config.delete.confirmHeading": [
     {
       "type": 0,
-      "value": "Delete supplementary property"
+      "value": "Usuń dodatkową właściwość"
     }
   ],
   "ui-agreements.customProperties.config.delete.confirmMessage": [
     {
       "type": 0,
-      "value": "Supplementary property "
+      "value": "Dodatkowa właściwość "
     },
     {
       "children": [
@@ -17352,13 +17352,13 @@
     },
     {
       "type": 0,
-      "value": " will be "
+      "value": " zostanie "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "deleted"
+          "value": "usunięta"
         }
       ],
       "type": 8,
@@ -17372,7 +17372,7 @@
   "ui-agreements.customProperties.config.delete.errorMessage": [
     {
       "type": 0,
-      "value": "There was an error deleting supplementary property: "
+      "value": "Wystąpił błąd podczas usuwania dodatkowej właściwości: "
     },
     {
       "children": [
@@ -17396,7 +17396,7 @@
   "ui-agreements.customProperties.config.editModal": [
     {
       "type": 0,
-      "value": "Edit "
+      "value": "Edytuj "
     },
     {
       "type": 1,
@@ -17406,7 +17406,7 @@
   "ui-agreements.customProperties.config.newModal": [
     {
       "type": 0,
-      "value": "New supplementary property"
+      "value": "Nowa dodatkowa właściwość"
     }
   ],
   "ui-agreements.customProperties.ctx": [
@@ -17424,7 +17424,7 @@
   "ui-agreements.customProperties.ctx.addContext": [
     {
       "type": 0,
-      "value": "Add category "
+      "value": "Dodaj kategorię "
     },
     {
       "type": 1,
@@ -17435,7 +17435,7 @@
   "ui-agreements.customProperties.defaultTitle": [
     {
       "type": 0,
-      "value": "Supplementary properties ("
+      "value": "Dodatkowe właściwości ("
     },
     {
       "type": 1,
@@ -17461,7 +17461,7 @@
   "ui-agreements.customProperties.errors.customPropertyNoteInvalidNumber": [
     {
       "type": 0,
-      "value": "A valid number must be entered in order to save a note"
+      "value": "Aby zapisać uwagę, należy wprowadzić prawidłowy numer"
     }
   ],
   "ui-agreements.customProperties.errors.customPropertyNoteWithoutValue": [
@@ -17473,13 +17473,13 @@
   "ui-agreements.customProperties.errors.primaryRetired": [
     {
       "type": 0,
-      "value": "A supplementary property cannot be both primary and deprecated"
+      "value": "Dodatkowa właściwość nie może być jednocześnie główna i wycofana"
     }
   ],
   "ui-agreements.customProperties.internalFalse": [
     {
       "type": 0,
-      "value": "Public"
+      "value": "Publiczny"
     }
   ],
   "ui-agreements.customProperties.internalNote": [
@@ -17509,7 +17509,7 @@
   "ui-agreements.customProperties.noCtxFound": [
     {
       "type": 0,
-      "value": "No matching category found"
+      "value": "Nie znaleziono pasującej kategorii"
     }
   ],
   "ui-agreements.customProperties.optionalProperties": [
@@ -17569,13 +17569,13 @@
   "ui-agreements.customProperties.type.com.k_int.web.toolkit.custprops.types.CustomPropertyDecimal": [
     {
       "type": 0,
-      "value": "Decimal"
+      "value": "Dziesiętny"
     }
   ],
   "ui-agreements.customProperties.type.com.k_int.web.toolkit.custprops.types.CustomPropertyInteger": [
     {
       "type": 0,
-      "value": "Integer"
+      "value": "Całość"
     }
   ],
   "ui-agreements.customProperties.type.com.k_int.web.toolkit.custprops.types.CustomPropertyLocalDate": [
@@ -17605,7 +17605,7 @@
   "ui-agreements.customProperties.type.com.k_int.web.toolkit.custprops.types.CustomPropertyText": [
     {
       "type": 0,
-      "value": "Text"
+      "value": "Tekst"
     }
   ],
   "ui-agreements.customProperties.value": [
@@ -17662,18 +17662,22 @@
   ],
   "ui-agreements.customProperty.filtersApplied": [
     {
+      "type": 0,
+      "value": "Zastosowano "
+    },
+    {
       "type": 1,
       "value": "count"
     },
     {
       "type": 0,
-      "value": " supplementary property filters applied"
+      "value": " filtrów dodatkowych właściwości"
     }
   ],
   "ui-agreements.customProperty.optionalPropertyHeader": [
     {
       "type": 0,
-      "value": "Supplementary property "
+      "value": "Dodatkowa właściwość "
     },
     {
       "type": 1,
@@ -17683,7 +17687,7 @@
   "ui-agreements.customProperty.remove": [
     {
       "type": 0,
-      "value": "Remove supplementary property "
+      "value": "Usuń dodatkową właściwość "
     },
     {
       "type": 1,
@@ -17709,7 +17713,7 @@
   "ui-agreements.customProperty.retiredName": [
     {
       "type": 0,
-      "value": "DEPRECATED: "
+      "value": "WYCOFANY: "
     },
     {
       "type": 1,
@@ -19236,7 +19240,7 @@
   "ui-agreements.errors.decimalValueNotInRange": [
     {
       "type": 0,
-      "value": "Please enter a number in the range "
+      "value": "Aby kontynuować, wprowadź liczbę z zakresu od "
     },
     {
       "type": 1,
@@ -19244,15 +19248,11 @@
     },
     {
       "type": 0,
-      "value": " to "
+      "value": " do "
     },
     {
       "type": 1,
       "value": "max"
-    },
-    {
-      "type": 0,
-      "value": " to continue"
     }
   ],
   "ui-agreements.errors.endDateGreaterThanStartDate": [
@@ -19270,13 +19270,13 @@
   "ui-agreements.errors.invalidNumber": [
     {
       "type": 0,
-      "value": "Please enter a valid number to continue"
+      "value": "Aby kontynuować, wprowadź prawidłowy numer"
     }
   ],
   "ui-agreements.errors.maxTwoDecimals": [
     {
       "type": 0,
-      "value": "Please enter a number with a maximum of 2 decimals places"
+      "value": "Proszę wpisać liczbę z maksymalnie 2 miejscami po przecinku"
     }
   ],
   "ui-agreements.errors.multipleOpenEndedCoverages": [
@@ -19388,7 +19388,7 @@
   "ui-agreements.errors.valueNotInRange": [
     {
       "type": 0,
-      "value": "Please enter a whole number in the range "
+      "value": "Aby kontynuować, wprowadź liczbę całkowitą z zakresu od "
     },
     {
       "type": 1,
@@ -19396,15 +19396,11 @@
     },
     {
       "type": 0,
-      "value": " to "
+      "value": " do "
     },
     {
       "type": 1,
       "value": "max"
-    },
-    {
-      "type": 0,
-      "value": " to continue"
     }
   ],
   "ui-agreements.finances.none": [
@@ -19416,7 +19412,7 @@
   "ui-agreements.found#Values": [
     {
       "type": 0,
-      "value": "Found "
+      "value": "Znaleziono "
     },
     {
       "type": 1,
@@ -19424,7 +19420,7 @@
     },
     {
       "type": 0,
-      "value": " results"
+      "value": " wyników"
     }
   ],
   "ui-agreements.gokb": [
@@ -19448,25 +19444,25 @@
   "ui-agreements.gokb.firstAuthor": [
     {
       "type": 0,
-      "value": "First author"
+      "value": "Pierwszy autor"
     }
   ],
   "ui-agreements.gokb.firstEditor": [
     {
       "type": 0,
-      "value": "First editor"
+      "value": "Pierwszy redaktor"
     }
   ],
   "ui-agreements.gokb.gokbid": [
     {
       "type": 0,
-      "value": "GOKB ID"
+      "value": "ID GOKB"
     }
   ],
   "ui-agreements.gokb.gokbuuid": [
     {
       "type": 0,
-      "value": "GOKB UUID"
+      "value": "UUID GOKB"
     }
   ],
   "ui-agreements.gokb.isbns": [
@@ -19484,19 +19480,19 @@
   "ui-agreements.gokb.name": [
     {
       "type": 0,
-      "value": "Name"
+      "value": "Nazwa"
     }
   ],
   "ui-agreements.gokb.otherIds": [
     {
       "type": 0,
-      "value": "Other IDs"
+      "value": "Inne identyfikatory"
     }
   ],
   "ui-agreements.gokb.publicationDates": [
     {
       "type": 0,
-      "value": "Publication dates"
+      "value": "Daty publikacji"
     }
   ],
   "ui-agreements.gokb.publicationDates.firstInPrint": [
@@ -19514,37 +19510,37 @@
   "ui-agreements.gokb.publicationDates.publishedFromTo": [
     {
       "type": 0,
-      "value": "Published from/to"
+      "value": "Opublikowano od/do"
     }
   ],
   "ui-agreements.gokb.publicationType": [
     {
       "type": 0,
-      "value": "Publication type"
+      "value": "Rodzaj publikacji"
     }
   ],
   "ui-agreements.gokb.publisher": [
     {
       "type": 0,
-      "value": "Publisher"
+      "value": "Wydawca"
     }
   ],
   "ui-agreements.gokb.subjects": [
     {
       "type": 0,
-      "value": "Subjects"
+      "value": "Hasła przedmiotowe"
     }
   ],
   "ui-agreements.gokb.titles": [
     {
       "type": 0,
-      "value": "GOKB titles"
+      "value": "Tytuły GOKB"
     }
   ],
   "ui-agreements.gokb.volume": [
     {
       "type": 0,
-      "value": "Volume"
+      "value": "Wolumin"
     }
   ],
   "ui-agreements.gokb.zdbids": [
@@ -19562,31 +19558,31 @@
   "ui-agreements.gokbSearch.column.name": [
     {
       "type": 0,
-      "value": "Name"
+      "value": "Nazwa"
     }
   ],
   "ui-agreements.gokbSearch.column.publicationType": [
     {
       "type": 0,
-      "value": "Publication type"
+      "value": "Rodzaj publikacji"
     }
   ],
   "ui-agreements.gokbSearch.searchBy": [
     {
       "type": 0,
-      "value": "Search by"
+      "value": "Szukaj według"
     }
   ],
   "ui-agreements.gokbSearch.searchIndex.altname": [
     {
       "type": 0,
-      "value": "Alternative names only"
+      "value": "Tylko warianty nazw"
     }
   ],
   "ui-agreements.gokbSearch.searchIndex.authorEditor": [
     {
       "type": 0,
-      "value": "Author/Editor"
+      "value": "Autor/Redaktor"
     }
   ],
   "ui-agreements.gokbSearch.searchIndex.eisbn": [
@@ -19610,13 +19606,13 @@
   "ui-agreements.gokbSearch.searchIndex.gokbId": [
     {
       "type": 0,
-      "value": "GOKb ID"
+      "value": "ID GOKb"
     }
   ],
   "ui-agreements.gokbSearch.searchIndex.identifiers": [
     {
       "type": 0,
-      "value": "Identifiers (all)"
+      "value": "Identyfikatory (wszystkie)"
     }
   ],
   "ui-agreements.gokbSearch.searchIndex.isbn": [
@@ -19634,25 +19630,25 @@
   "ui-agreements.gokbSearch.searchIndex.keyword": [
     {
       "type": 0,
-      "value": "Keyword (Name, Alternative names, Identifiers)"
+      "value": "Słowo kluczowe (nazwa, warianty nazw, identyfikatory)"
     }
   ],
   "ui-agreements.gokbSearch.searchIndex.name": [
     {
       "type": 0,
-      "value": "Name only"
+      "value": "Tylko nazwa"
     }
   ],
   "ui-agreements.gokbSearch.searchIndex.nameAndAltNames": [
     {
       "type": 0,
-      "value": "Name and alternative names"
+      "value": "Nazwa i warianty nazw"
     }
   ],
   "ui-agreements.gokbSearch.searchIndex.uuid": [
     {
       "type": 0,
-      "value": "GOKb UUID"
+      "value": "UUID GOKb"
     }
   ],
   "ui-agreements.gokbSearch.searchIndex.zdb": [
@@ -21705,7 +21701,7 @@
   "ui-agreements.settings.default": [
     {
       "type": 0,
-      "value": "default"
+      "value": "domyślny"
     }
   ],
   "ui-agreements.settings.displaySettings": [
@@ -21933,7 +21929,7 @@
   "ui-agreements.settings.noCurrentValue": [
     {
       "type": 0,
-      "value": "No current value"
+      "value": "Brak aktualnej wartości"
     }
   ],
   "ui-agreements.settings.orgRoles": [
@@ -22157,7 +22153,7 @@
   "ui-agreements.settings.valueFor": [
     {
       "type": 0,
-      "value": "Value for setting "
+      "value": "Wartość ustawienia "
     },
     {
       "type": 1,
@@ -23067,7 +23063,7 @@
   "ui-bulk-edit.columns.HOLDINGS_RECORD.ILL policy": [
     {
       "type": 0,
-      "value": "ILL policy"
+      "value": "Reguła ILL"
     }
   ],
   "ui-bulk-edit.columns.HOLDINGS_RECORD.Ill policy": [
@@ -24536,19 +24532,19 @@
   "ui-bulk-edit.layer.column.ind1": [
     {
       "type": 0,
-      "value": "In.1"
+      "value": "Wskaźnik 1"
     }
   ],
   "ui-bulk-edit.layer.column.ind2": [
     {
       "type": 0,
-      "value": "In.2"
+      "value": "Wskaźnik 2"
     }
   ],
   "ui-bulk-edit.layer.column.name": [
     {
       "type": 0,
-      "value": "Actions select"
+      "value": "Wybierz akcje"
     }
   ],
   "ui-bulk-edit.layer.column.options": [
@@ -24566,7 +24562,7 @@
   "ui-bulk-edit.layer.column.value": [
     {
       "type": 0,
-      "value": "Data"
+      "value": "Dane"
     }
   ],
   "ui-bulk-edit.layer.confirmChanges": [
@@ -24710,7 +24706,7 @@
   "ui-bulk-edit.layer.options.inProcess": [
     {
       "type": 0,
-      "value": "In process"
+      "value": "W toku"
     }
   ],
   "ui-bulk-edit.layer.options.instances.staffSuppress": [
@@ -25945,13 +25941,13 @@
   "ui-bulk-edit.logs.actions.linkToModifiedRecordsMarcFile": [
     {
       "type": 0,
-      "value": "File with the preview of proposed changes (MARC)"
+      "value": "Plik z podglądem proponowanych zmian (MARC)"
     }
   ],
   "ui-bulk-edit.logs.actions.linkToModifiedRecordsMarcFile.QUERY": [
     {
       "type": 0,
-      "value": "File with the preview of proposed changes (MARC)"
+      "value": "Plik z podglądem proponowanych zmian (MARC)"
     }
   ],
   "ui-bulk-edit.logs.actions.linkToTriggeringCsvFile": [
@@ -25999,7 +25995,7 @@
   "ui-bulk-edit.logs.entityType.INSTANCE_MARC": [
     {
       "type": 0,
-      "value": "Inventory - instances (MARC)"
+      "value": "Katalogowanie - instancje (MARC)"
     }
   ],
   "ui-bulk-edit.logs.entityType.ITEM": [
@@ -26322,6 +26318,12 @@
       "value": " załadowany pomyślnie"
     }
   ],
+  "ui-bulk-edit.options.empty": [
+    {
+      "type": 0,
+      "value": "No options found"
+    }
+  ],
   "ui-bulk-edit.options.placeholder": [
     {
       "type": 0,
@@ -26613,7 +26615,7 @@
   "ui-bulk-edit.previewModal.downloadPreview.marc": [
     {
       "type": 0,
-      "value": "Download preview in MARC format"
+      "value": "Pobierz podgląd w formacie MARC"
     }
   ],
   "ui-bulk-edit.previewModal.keepEditing": [
@@ -26909,6 +26911,12 @@
     {
       "type": 0,
       "value": "Profil został pomyślnie usunięty."
+    }
+  ],
+  "ui-bulk-edit.settings.profiles.details.bulkEdits": [
+    {
+      "type": 0,
+      "value": "Bulk edits"
     }
   ],
   "ui-bulk-edit.settings.profiles.details.summary": [
@@ -27901,7 +27909,7 @@
   "ui-calendar.currentStatus.closed.exceptional.nextDay": [
     {
       "type": 0,
-      "value": "Closed ("
+      "value": "Zamknięte ("
     },
     {
       "type": 1,
@@ -27909,7 +27917,7 @@
     },
     {
       "type": 0,
-      "value": ") until tomorrow at "
+      "value": ") do jutra o "
     },
     {
       "type": 1,
@@ -27919,7 +27927,7 @@
   "ui-calendar.currentStatus.closed.exceptional.nextWeek": [
     {
       "type": 0,
-      "value": "Closed ("
+      "value": "Zamknięte ("
     },
     {
       "type": 1,
@@ -27927,7 +27935,7 @@
     },
     {
       "type": 0,
-      "value": ") until "
+      "value": ") do "
     },
     {
       "type": 1,
@@ -27935,7 +27943,7 @@
     },
     {
       "type": 0,
-      "value": " at "
+      "value": " o "
     },
     {
       "type": 1,
@@ -27959,7 +27967,7 @@
   "ui-calendar.currentStatus.closed.exceptional.otherWeekday": [
     {
       "type": 0,
-      "value": "Closed ("
+      "value": "Zamknięte ("
     },
     {
       "type": 1,
@@ -27967,7 +27975,7 @@
     },
     {
       "type": 0,
-      "value": ") until "
+      "value": ") do "
     },
     {
       "type": 1,
@@ -27975,7 +27983,7 @@
     },
     {
       "type": 0,
-      "value": " at "
+      "value": " o "
     },
     {
       "type": 1,
@@ -27985,7 +27993,7 @@
   "ui-calendar.currentStatus.closed.exceptional.sameDay": [
     {
       "type": 0,
-      "value": "Closed ("
+      "value": "Zamknięte ("
     },
     {
       "type": 1,
@@ -27993,7 +28001,7 @@
     },
     {
       "type": 0,
-      "value": ") until "
+      "value": ") do "
     },
     {
       "type": 1,
@@ -28003,7 +28011,7 @@
   "ui-calendar.currentStatus.closed.exceptional.sameElse": [
     {
       "type": 0,
-      "value": "Closed ("
+      "value": "Zamknięte ("
     },
     {
       "type": 1,
@@ -28011,7 +28019,7 @@
     },
     {
       "type": 0,
-      "value": ") until "
+      "value": ") do "
     },
     {
       "type": 1,
@@ -28019,7 +28027,7 @@
     },
     {
       "type": 0,
-      "value": " at "
+      "value": " o "
     },
     {
       "type": 1,
@@ -28963,7 +28971,7 @@
   "ui-calendar.purgeModal.criteria.age.year1": [
     {
       "type": 0,
-      "value": "more than 1 year ago"
+      "value": "ponad rok temu"
     }
   ],
   "ui-calendar.purgeModal.criteria.age.years2": [
@@ -29813,7 +29821,7 @@
   "ui-checkin.defaultCheckinAction.Close_loan_and_return_item": [
     {
       "type": 0,
-      "value": "Close loan and return item"
+      "value": "Zamknij wypożyczenie i zwróć egzemplarz"
     }
   ],
   "ui-checkin.defaultCheckinAction.Keep_on_hold_shelf": [
@@ -32113,7 +32121,7 @@
   "ui-checkout.permission.circulation.execute": [
     {
       "type": 0,
-      "value": "Check out: Check out circulating items"
+      "value": "Wypożyczenia: wypożycz udostępniane egzemplarze"
     }
   ],
   "ui-checkout.permission.viewFeeFines": [
@@ -34172,7 +34180,7 @@
     },
     {
       "type": 0,
-      "value": " per "
+      "value": " na "
     },
     {
       "type": 1,
@@ -36766,7 +36774,7 @@
   "ui-circulation.settings.titleLevelRequests.forbiddenDisableTlrModal.title": [
     {
       "type": 0,
-      "value": "Nie można zmienić parametru: \"Zezwól na zamówienia na poziomie Tytułu\""
+      "value": "Nie można zmienić parametru: \"Zezwól na rezerwacje tytułu\""
     }
   ],
   "ui-circulation.settings.titleLevelRequests.noticeTemplates": [
@@ -43700,7 +43708,7 @@
   "ui-data-export.error.deletedDuplicate.instance": [
     {
       "type": 0,
-      "value": "Instance record associated with "
+      "value": "Rekord instancji powiązany z "
     },
     {
       "type": 1,
@@ -43708,7 +43716,7 @@
     },
     {
       "type": 0,
-      "value": " has been deleted."
+      "value": " został usunięty."
     }
   ],
   "ui-data-export.error.deletedTooLong.instance": [
@@ -43742,7 +43750,7 @@
     },
     {
       "type": 0,
-      "value": " repeated "
+      "value": " powtórzony "
     },
     {
       "type": 1,
@@ -43750,7 +43758,7 @@
     },
     {
       "type": 0,
-      "value": " times."
+      "value": " razy."
     }
   ],
   "ui-data-export.error.fileDefinition.fileAlreadyUploaded": [
@@ -43872,7 +43880,7 @@
     },
     {
       "type": 0,
-      "value": " - the user "
+      "value": " – użytkownik "
     },
     {
       "type": 1,
@@ -43880,7 +43888,7 @@
     },
     {
       "type": 0,
-      "value": " does not have permissions to view holdings or items in "
+      "value": " nie ma uprawnień do przeglądania zasobów ani egzemplarzy w "
     },
     {
       "type": 1,
@@ -43888,7 +43896,7 @@
     },
     {
       "type": 0,
-      "value": " data tenant(s). Holdings and item records from this tenant were omitted during export."
+      "value": " danych tenanta(ów). Rekordy zasobów i egzemplarzy od tego tenanta zostały pominięte podczas eksportu."
     }
   ],
   "ui-data-export.error.invalidCqlSyntax": [
@@ -45626,7 +45634,7 @@
   "ui-data-export.keyword": [
     {
       "type": 0,
-      "value": "Keyword (ID, File name)"
+      "value": "Słowo kluczowe (ID, nazwa pliku)"
     }
   ],
   "ui-data-export.logsPaneTitle": [
@@ -60351,7 +60359,7 @@
   "ui-eholdings.title.alternateTitle": [
     {
       "type": 0,
-      "value": "Alternate title(s)"
+      "value": "Wariant tytułu(ów)"
     }
   ],
   "ui-eholdings.title.chooseAPackage": [
@@ -62413,37 +62421,37 @@
   "ui-erm-usage.credentials.apiKey": [
     {
       "type": 0,
-      "value": "API key"
+      "value": "Klucz API"
     }
   ],
   "ui-erm-usage.credentials.customerId": [
     {
       "type": 0,
-      "value": "Customer ID"
+      "value": "ID klienta"
     }
   ],
   "ui-erm-usage.credentials.platform": [
     {
       "type": 0,
-      "value": "Platform"
+      "value": "Platforma"
     }
   ],
   "ui-erm-usage.credentials.requestorId": [
     {
       "type": 0,
-      "value": "Requestor ID"
+      "value": "ID rezerwującego"
     }
   ],
   "ui-erm-usage.credentials.requestorMail": [
     {
       "type": 0,
-      "value": "Requestor mail"
+      "value": "E-mail rezerwującego"
     }
   ],
   "ui-erm-usage.credentials.requestorName": [
     {
       "type": 0,
-      "value": "Requestor name"
+      "value": "Nazwa rezerwującego"
     }
   ],
   "ui-erm-usage.erm-usage": [
@@ -63391,7 +63399,7 @@
   "ui-erm-usage.report.error.exception": [
     {
       "type": 0,
-      "value": "Exception"
+      "value": "Wyjątek"
     }
   ],
   "ui-erm-usage.report.error.htmlResponse": [
@@ -64476,13 +64484,13 @@
   "ui-erm-usage.udp.form.placeholder.apiKey": [
     {
       "type": 0,
-      "value": "Enter the API key"
+      "value": "Wprowadź klucz API"
     }
   ],
   "ui-erm-usage.udp.form.placeholder.customerId": [
     {
       "type": 0,
-      "value": "Enter the customer ID"
+      "value": "Wprowadź ID klienta"
     }
   ],
   "ui-erm-usage.udp.form.placeholder.harvestingStatus": [
@@ -64512,19 +64520,19 @@
   "ui-erm-usage.udp.form.placeholder.requestorId": [
     {
       "type": 0,
-      "value": "Enter the requestor ID"
+      "value": "Wprowadź ID rezerwującego"
     }
   ],
   "ui-erm-usage.udp.form.placeholder.requestorMail": [
     {
       "type": 0,
-      "value": "Enter the requestor mail"
+      "value": "Wprowadź e-mail rezerwującego"
     }
   ],
   "ui-erm-usage.udp.form.placeholder.requestorName": [
     {
       "type": 0,
-      "value": "Enter the requestor name"
+      "value": "Wprowadź nazwę rezerwującego"
     }
   ],
   "ui-erm-usage.udp.form.placeholder.sushi.apiKey": [
@@ -64702,7 +64710,7 @@
   "ui-erm-usage.udpHarvestingConfig.credentials": [
     {
       "type": 0,
-      "value": "Credentials"
+      "value": "Dane uwierzytelniające"
     }
   ],
   "ui-erm-usage.udpHarvestingConfig.deleteThisItem": [
@@ -65206,25 +65214,25 @@
   "ui-export-manager.permission.settings.edit": [
     {
       "type": 0,
-      "value": "Settings (Export manager): Can view and edit settings"
+      "value": "Ustawienia (Menedżer eksportu): możliwość przeglądania i edytowania ustawień"
     }
   ],
   "ui-export-manager.permission.settings.view": [
     {
       "type": 0,
-      "value": "Settings (Export manager): Can view only settings"
+      "value": "Ustawienia (Menedżer eksportu): można przeglądać tylko ustawienia"
     }
   ],
   "ui-export-manager.settings.jobs": [
     {
       "type": 0,
-      "value": "Jobs"
+      "value": "zadania"
     }
   ],
   "ui-export-manager.settings.jobs.deletionIntervals": [
     {
       "type": 0,
-      "value": "Job deletion intervals (days)"
+      "value": "Interwały usuwania zadania (dni)"
     }
   ],
   "ui-export-manager.settings.jobs.update.error": [
@@ -65235,7 +65243,7 @@
           "value": [
             {
               "type": 0,
-              "value": "Deletion interval for "
+              "value": "Interwał usuwania dla "
             },
             {
               "children": [
@@ -65249,7 +65257,7 @@
             },
             {
               "type": 0,
-              "value": " was not updated"
+              "value": " nie został zaktualizowany"
             }
           ]
         },
@@ -65257,7 +65265,7 @@
           "value": [
             {
               "type": 0,
-              "value": "Deletion intervals for "
+              "value": "Interwały usuwania dla "
             },
             {
               "children": [
@@ -65271,7 +65279,7 @@
             },
             {
               "type": 0,
-              "value": " were not updated"
+              "value": " nie zostały zaktualizowane"
             }
           ]
         }
@@ -65293,7 +65301,7 @@
           "value": [
             {
               "type": 0,
-              "value": "Deletion interval for "
+              "value": "Interwał usuwania dla "
             },
             {
               "children": [
@@ -65307,7 +65315,7 @@
             },
             {
               "type": 0,
-              "value": " was successfully updated"
+              "value": " został pomyślnie zaktualizowany"
             }
           ]
         },
@@ -65315,7 +65323,7 @@
           "value": [
             {
               "type": 0,
-              "value": "Deletion intervals for "
+              "value": "Interwały usuwania dla "
             },
             {
               "children": [
@@ -65329,7 +65337,7 @@
             },
             {
               "type": 0,
-              "value": " were successfully updated"
+              "value": " zostały pomyślnie zaktualizowane"
             }
           ]
         }
@@ -65346,7 +65354,7 @@
   "ui-export-manager.settings.title": [
     {
       "type": 0,
-      "value": "Export manager settings"
+      "value": "Ustawienia menedżera eksportu"
     }
   ],
   "ui-export-manager.title.all": [
@@ -66004,13 +66012,13 @@
   "ui-finance.budget.expenseClasses.unassigned": [
     {
       "type": 0,
-      "value": "Unassigned"
+      "value": "Nieprzypisane"
     }
   ],
   "ui-finance.budget.expenseClasses.unassigned.tooltip": [
     {
       "type": 0,
-      "value": "\"Unassigned\" applies to transactions completed prior to the inclusion of expense classes on the budget, if there are any that exist."
+      "value": "„Nieprzypisane” dotyczy transakcji zakończonych przed uwzględnieniem klas wydatków w budżecie, jeśli takowe istnieją."
     }
   ],
   "ui-finance.budget.fiscalEnd": [
@@ -66534,7 +66542,7 @@
   "ui-finance.financialSummary.credited": [
     {
       "type": 0,
-      "value": "Credited"
+      "value": "Zaliczona"
     }
   ],
   "ui-finance.financialSummary.description": [
@@ -70437,7 +70445,7 @@
   "ui-gobi-settings.order.mappings.field.suppressInstanceFromDiscovery": [
     {
       "type": 0,
-      "value": "Suppress instance from discovery when generated by order"
+      "value": "Ukryj instancję w katalogu WWW, gdy jest generowana przez zamówienie"
     }
   ],
   "ui-gobi-settings.order.mappings.field.tags": [
@@ -71357,13 +71365,13 @@
   "ui-inn-reach.return-patron-hold-item.callout.connection-problem.post.return-patron-hold-item": [
     {
       "type": 0,
-      "value": "There was a problem returning the item"
+      "value": "Wystąpił problem ze zwrotem egzemplarza"
     }
   ],
   "ui-inn-reach.return-patron-hold-item.callout.success.post.return-patron-hold-item": [
     {
       "type": 0,
-      "value": "Item has been successfully returned"
+      "value": "Egzemplarz został pomyślnie zwrócony"
     }
   ],
   "ui-inn-reach.search": [
@@ -72721,7 +72729,7 @@
   "ui-inn-reach.settings.manage-contribution.history.field.contributed": [
     {
       "type": 0,
-      "value": "Contributed"
+      "value": "Przyczynił się"
     }
   ],
   "ui-inn-reach.settings.manage-contribution.history.field.date": [
@@ -72763,13 +72771,13 @@
   "ui-inn-reach.settings.manage-contribution.history.field.updated": [
     {
       "type": 0,
-      "value": "Updated"
+      "value": "Zaktualizowano"
     }
   ],
   "ui-inn-reach.settings.manage-contribution.history.list.no.history": [
     {
       "type": 0,
-      "value": "No contribution history records"
+      "value": "Brak rekordów historii wkładu"
     }
   ],
   "ui-inn-reach.settings.manage-contribution.initaiate.failed": [
@@ -72799,7 +72807,7 @@
   "ui-inn-reach.settings.manage-contribution.label.contributed": [
     {
       "type": 0,
-      "value": "Contributed"
+      "value": "Przyczynił się"
     }
   ],
   "ui-inn-reach.settings.manage-contribution.label.contribution-cancelled": [
@@ -72817,7 +72825,7 @@
   "ui-inn-reach.settings.manage-contribution.label.contribution-complete": [
     {
       "type": 0,
-      "value": "Contribution complete"
+      "value": "Wkład ukończony"
     }
   ],
   "ui-inn-reach.settings.manage-contribution.label.contribution-paused": [
@@ -72859,7 +72867,7 @@
   "ui-inn-reach.settings.manage-contribution.label.decontributed": [
     {
       "type": 0,
-      "value": "De-contributed"
+      "value": "Wycofane z wkładu"
     }
   ],
   "ui-inn-reach.settings.manage-contribution.label.error": [
@@ -72919,13 +72927,13 @@
   "ui-inn-reach.settings.manage-contribution.navigation.current": [
     {
       "type": 0,
-      "value": "Current contribution"
+      "value": "Bieżący wkład"
     }
   ],
   "ui-inn-reach.settings.manage-contribution.navigation.history": [
     {
       "type": 0,
-      "value": "Contribution history"
+      "value": "Historia wkładu"
     }
   ],
   "ui-inn-reach.settings.manage-contribution.tab.current": [
@@ -73329,19 +73337,19 @@
   "ui-inn-reach.shipped-items.action.print-hold-slip": [
     {
       "type": 0,
-      "value": "Print hold slip"
+      "value": "Drukuj rewers rezerwacji"
     }
   ],
   "ui-inn-reach.shipped-items.action.print-inn-reach-barcode": [
     {
       "type": 0,
-      "value": "Print INN-Reach barcode"
+      "value": "Drukuj kod kreskowy INN-Reach"
     }
   ],
   "ui-inn-reach.shipped-items.action.print-transit-slip": [
     {
       "type": 0,
-      "value": "Print transit slip"
+      "value": "Drukuj rewers tranzytowy"
     }
   ],
   "ui-inn-reach.shipped-items.actions-menu": [
@@ -73407,7 +73415,7 @@
   "ui-inn-reach.shipped-items.field.print-barcode-slip": [
     {
       "type": 0,
-      "value": "Print barcode slip"
+      "value": "Drukuj kod kreskowy rewersu"
     }
   ],
   "ui-inn-reach.shipped-items.field.print-slip": [
@@ -73433,7 +73441,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Patron comments:"
+          "value": "Komentarz czytelnika:"
         }
       ],
       "type": 8,
@@ -73511,7 +73519,7 @@
   "ui-inn-reach.shipped-items.modal.message.barcode-augmented": [
     {
       "type": 0,
-      "value": "The agency code for this item has been appended to the barcode. You will need to use this updated barcode to perform circulation actions on this transaction"
+      "value": "Kod agencji dla tego egzemplarza został dodany do kodu kreskowego. Będziesz musiał użyć tego zaktualizowanego kodu kreskowego, aby wykonać czynności związane z udostępnianiem w ramach tej transakcji"
     }
   ],
   "ui-inn-reach.shipped-items.modal.message.no-transaction": [
@@ -77528,6 +77536,12 @@
     {
       "type": 0,
       "value": "Wypożyczanie i dostępność"
+    }
+  ],
+  "ui-inventory.item.order": [
+    {
+      "type": 0,
+      "value": "Order"
     }
   ],
   "ui-inventory.item.requestQueue": [
@@ -84628,7 +84642,7 @@
   "ui-invoice.label.backToInvoice": [
     {
       "type": 0,
-      "value": "Back to Invoice"
+      "value": "Powrót do modułu Faktura"
     }
   ],
   "ui-invoice.links": [
@@ -85952,7 +85966,7 @@
   "ui-ldp.devinfo": [
     {
       "type": 0,
-      "value": "Developer information"
+      "value": "Informacje dla programistów"
     }
   ],
   "ui-ldp.direction": [
@@ -86705,7 +86719,7 @@
   "ui-ldp.templated-queries.no-json": [
     {
       "type": 0,
-      "value": "This report has no associated JSON metadata, so it is not possible to present a form for filling in its parameters."
+      "value": "Do tego raportu nie są przypisane żadne metadane JSON, dlatego nie można wyświetlić formularza umożliwiającego wypełnienie jego parametrów."
     }
   ],
   "ui-ldp.templated-queries.select": [
@@ -89326,7 +89340,7 @@
   "ui-lists.app-menu.list-app-home": [
     {
       "type": 0,
-      "value": "Lists app home"
+      "value": "Strona główna aplikacji Listy"
     }
   ],
   "ui-lists.button.cancel": [
@@ -89834,7 +89848,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Lists with cross-tenant query can only be set to Private."
+          "value": "Listy z zapytaniami międzynajemcami można ustawić tylko jako prywatne."
         }
       ],
       "type": 8,
@@ -90526,7 +90540,7 @@
   "ui-lists.missing-all-entity-type-permissions.message": [
     {
       "type": 0,
-      "value": "Please contact your system administrator for help"
+      "value": "Aby uzyskać pomoc, skontaktuj się z administratorem systemu"
     }
   ],
   "ui-lists.pane.dropdown.ariaLabel.columnFilter": [
@@ -92995,7 +93009,7 @@
   "ui-marc-authorities.authority-record.export": [
     {
       "type": 0,
-      "value": "Export (MARC)"
+      "value": "Eksport (MARC)"
     }
   ],
   "ui-marc-authorities.authority-record.menuOptions": [
@@ -93250,7 +93264,7 @@
   "ui-marc-authorities.goBack": [
     {
       "type": 0,
-      "value": "Go back"
+      "value": "Wróć"
     }
   ],
   "ui-marc-authorities.identifier": [
@@ -94559,13 +94573,13 @@
   "ui-myprofile.settings.languageLocalization.resetToDefault": [
     {
       "type": 0,
-      "value": "Reset to default"
+      "value": "Przywróć ustawienia domyślne"
     }
   ],
   "ui-myprofile.settings.languageLocalization.tenantDefault": [
     {
       "type": 0,
-      "value": "Tenant default"
+      "value": "Domyślny tenant"
     }
   ],
   "ui-myprofile.userDropdown.changePassword.caption": [
@@ -94787,13 +94801,13 @@
   "ui-oa.affiliation.addAffiliation": [
     {
       "type": 0,
-      "value": "Add affiliation"
+      "value": "Dodaj afiliację"
     }
   ],
   "ui-oa.affiliation.affiliationTitle": [
     {
       "type": 0,
-      "value": "Affiliation "
+      "value": "Afiliacja "
     },
     {
       "type": 1,
@@ -94827,7 +94841,7 @@
   "ui-oa.affiliation.removeAffiliation": [
     {
       "type": 0,
-      "value": "Remove affiliation "
+      "value": "Usuń afiliację "
     },
     {
       "type": 1,
@@ -95667,7 +95681,7 @@
   "ui-oa.checklist.openChecklistPane": [
     {
       "type": 0,
-      "value": "Open checklist pane"
+      "value": "Otwórz panel listy kontrolnej"
     }
   ],
   "ui-oa.checklist.outcome.met": [
@@ -96131,7 +96145,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Error:"
+          "value": "Błąd:"
         }
       ],
       "type": 8,
@@ -96139,7 +96153,7 @@
     },
     {
       "type": 0,
-      "value": " Unable to create a new journal, please check the details and try again"
+      "value": " Nie można utworzyć nowego czasopisma. Sprawdź szczegóły i spróbuj ponownie"
     }
   ],
   "ui-oa.journal.creationSuccess": [
@@ -96147,7 +96161,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Journal created:"
+          "value": "Utworzono czasopismo:"
         }
       ],
       "type": 8,
@@ -97025,7 +97039,7 @@
   "ui-oa.publicationRequest.closeForm": [
     {
       "type": 0,
-      "value": "Close form"
+      "value": "Zamknij formularz"
     }
   ],
   "ui-oa.publicationRequest.closureReason": [
@@ -97412,13 +97426,13 @@
   "ui-oa.publicationRequest.statusDate": [
     {
       "type": 0,
-      "value": "Status date"
+      "value": "Data statusu"
     }
   ],
   "ui-oa.publicationRequest.statusNote": [
     {
       "type": 0,
-      "value": "Status note"
+      "value": "Uwaga o statusie"
     }
   ],
   "ui-oa.publicationRequest.streetAddresses": [
@@ -97484,19 +97498,19 @@
   "ui-oa.publicationStatus.addPublicationStatus": [
     {
       "type": 0,
-      "value": "Add publication status"
+      "value": "Dodaj status publikacji"
     }
   ],
   "ui-oa.publicationStatus.publicationStatusDate": [
     {
       "type": 0,
-      "value": "Status Date"
+      "value": "Data statusu"
     }
   ],
   "ui-oa.publicationStatus.publicationStatusNote": [
     {
       "type": 0,
-      "value": "Status Note"
+      "value": "Uwaga o statusie"
     }
   ],
   "ui-oa.publicationStatus.removePublicationStatusIndex": [
@@ -97512,7 +97526,7 @@
   "ui-oa.publicationStatus.requestHasNone": [
     {
       "type": 0,
-      "value": "No publication statuses for this publication request"
+      "value": "Brak statusów publikacji dla rezerwacji na tę publikację"
     }
   ],
   "ui-oa.publicationStatus.status": [
@@ -99978,7 +99992,7 @@
   "ui-orders.errors.invalidProductId": [
     {
       "type": 0,
-      "value": "Product ID number invalid based on product ID type. You can use \"Change instance connection\" to refresh product IDs from the instance record before editing the POL."
+      "value": "Numer ID produktu jest nieprawidłowy ze względu na rodzaj ID produktu. Możesz użyć opcji „Zmień połączoną instancję”, aby odświeżyć identyfikatory produktów w rekordzie instancji przed edycją pozycji zamówienia."
     }
   ],
   "ui-orders.errors.itemCreationFailed": [
@@ -100050,7 +100064,7 @@
   "ui-orders.errors.locationUpdateWithoutAffiliation": [
     {
       "type": 0,
-      "value": "POL could not be saved. This record has location affiliations that your user does not have. These affiliations must be removed or the operation must be performed by a user who has the same affiliations as the record."
+      "value": "Nie można zapisać pozycji zamówienia. Ten rekord ma lokalizacje afiliacji, których nie ma Twój użytkownik. Te afiliacje muszą zostać usunięte lub operacja musi zostać wykonana przez użytkownika, który ma takie same afiliacje jak rekord."
     }
   ],
   "ui-orders.errors.materialTypeRequired": [
@@ -102024,7 +102038,7 @@
   "ui-orders.orderDetails.openedBy": [
     {
       "type": 0,
-      "value": "Opened by"
+      "value": "Otwarte przez"
     }
   ],
   "ui-orders.orderDetails.orderNumberPrefix": [
@@ -102982,7 +102996,7 @@
   "ui-orders.poLine.suppressFromDiscovery": [
     {
       "type": 0,
-      "value": "Suppress instance from discovery when generated by order"
+      "value": "Ukryj instancję w katalogu WWW, gdy jest generowana przez zamówienie"
     }
   ],
   "ui-orders.poLine.suppressFromDiscovery.tooltip": [
@@ -104513,7 +104527,7 @@
   "ui-orders.settings.instanceMatching.description": [
     {
       "type": 0,
-      "value": "When active, instance matching will cause purchase order lines that are set to create instances, but are not manually linked to an instance record, to first search instances to find a match for one or more of the product IDs provided on the POL. If a product ID is found, that instance will be linked to the POL, and the system will NOT create a new instance for that POL. If no matches are found, the system will create a new instance record and link the POL to that instance."
+      "value": "With instance matching disabled, purchase order lines will create new instances and will not be linked with existing instance records. With instance matching enabled, FOLIO will first search instances to find a match for one or more product IDs provided on the PO Line. If a product ID is found, that instance will be linked to the POL and FOLIO will NOT create a new instance for that POL. If no matches are found, the system will create a new instance record and link the POL to that instance."
     }
   ],
   "ui-orders.settings.instanceMatching.toggle": [
@@ -111150,7 +111164,7 @@
   "ui-plugin-eusage-reports.button.download-csv": [
     {
       "type": 0,
-      "value": "Download CSV"
+      "value": "Pobierz plik CSV"
     }
   ],
   "ui-plugin-eusage-reports.button.update-matches": [
@@ -111561,6 +111575,28 @@
     {
       "offset": 0,
       "options": {
+        "few": {
+          "value": [
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " miesięcy"
+            }
+          ]
+        },
+        "many": {
+          "value": [
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " miesięcy"
+            }
+          ]
+        },
         "one": {
           "value": [
             {
@@ -111568,7 +111604,7 @@
             },
             {
               "type": 0,
-              "value": " month"
+              "value": " miesiąc"
             }
           ]
         },
@@ -111579,7 +111615,7 @@
             },
             {
               "type": 0,
-              "value": " months"
+              "value": " miesiąc"
             }
           ]
         }
@@ -111593,6 +111629,28 @@
     {
       "offset": 0,
       "options": {
+        "few": {
+          "value": [
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " lat"
+            }
+          ]
+        },
+        "many": {
+          "value": [
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " lat"
+            }
+          ]
+        },
         "one": {
           "value": [
             {
@@ -111600,7 +111658,7 @@
             },
             {
               "type": 0,
-              "value": " year"
+              "value": " rok"
             }
           ]
         },
@@ -111611,7 +111669,7 @@
             },
             {
               "type": 0,
-              "value": " years"
+              "value": " rok"
             }
           ]
         }
@@ -115063,7 +115121,7 @@
   "ui-quick-marc.permission.quick-marc-authorities-editor.all": [
     {
       "type": 0,
-      "value": "quickMARC: View, edit MARC authorities record"
+      "value": "quickMARC: wyświetl i edytuj rekord KHW"
     }
   ],
   "ui-quick-marc.permission.quick-marc-authorities-editor.create": [
@@ -115075,7 +115133,7 @@
   "ui-quick-marc.permission.quick-marc-authority-records.link-unlink.execute": [
     {
       "type": 0,
-      "value": "quickMARC: Can Link/unlink authority records to bib records"
+      "value": "quickMARC: można łączyć/odłączać rekordy KHW od rekordów bibliograficznych"
     }
   ],
   "ui-quick-marc.permission.quick-marc-authority-records.linkUnlink": [
@@ -115099,7 +115157,7 @@
   "ui-quick-marc.permission.quick-marc-editor.derive.execute": [
     {
       "type": 0,
-      "value": "quickMARC: Derive new MARC bibliographic record"
+      "value": "quickMARC: duplikuj nowy rekord bibliograficzny MARC"
     }
   ],
   "ui-quick-marc.permission.quick-marc-editor.duplicate": [
@@ -124110,7 +124168,7 @@
   "ui-requests-mediated.app.filterPane.confirmItemArrival": [
     {
       "type": 0,
-      "value": "Confirm item arrival"
+      "value": "Potwierdź otrzymanie egzemplarza"
     }
   ],
   "ui-requests-mediated.app.filterPane.selectActivity": [
@@ -124122,7 +124180,7 @@
   "ui-requests-mediated.app.filterPane.sendItemInTransit": [
     {
       "type": 0,
-      "value": "Send item in transit"
+      "value": "Wyślij egzemplarz w statusie W drodze"
     }
   ],
   "ui-requests-mediated.app.mediatedRequestsActivities.navigation": [
@@ -124146,25 +124204,25 @@
   "ui-requests-mediated.confirmItem.errorModal.confirmItemArrival.message": [
     {
       "type": 0,
-      "value": "No \"Confirm item arrival\" transaction could be found for this item"
+      "value": "Nie znaleziono transakcji „Potwierdź otrzymanie egzemplarza” dla tego egzemplarza"
     }
   ],
   "ui-requests-mediated.confirmItem.errorModal.confirmItemArrival.title": [
     {
       "type": 0,
-      "value": "Item not confirmed as arrived"
+      "value": "Egzemplarz nie został potwierdzony jako dostarczony"
     }
   ],
   "ui-requests-mediated.confirmItem.errorModal.sendItemInTransit.message": [
     {
       "type": 0,
-      "value": "No \"Send item in transit\" transaction could be found for this item"
+      "value": "Nie znaleziono transakcji „Wyślij egzemplarz w statusie w drodze” dla tego egzemplarza"
     }
   ],
   "ui-requests-mediated.confirmItem.errorModal.sendItemInTransit.title": [
     {
       "type": 0,
-      "value": "Item not sent in transit"
+      "value": "Egzemplarz nie został wysłany w statusie W drodze"
     }
   ],
   "ui-requests-mediated.confirmItem.mainSection.enter": [
@@ -124182,7 +124240,7 @@
   "ui-requests-mediated.confirmItem.mainSection.listItems.isEmptyMessage": [
     {
       "type": 0,
-      "value": "No items have been entered yet"
+      "value": "Nie wprowadzono jeszcze żadnych egzemplarzy"
     }
   ],
   "ui-requests-mediated.confirmItem.mainSection.paneTitle": [
@@ -124194,7 +124252,7 @@
   "ui-requests-mediated.confirmItemArrival.paneTitle": [
     {
       "type": 0,
-      "value": "Confirm item arrival"
+      "value": "Potwierdź otrzymanie egzemplarza"
     }
   ],
   "ui-requests-mediated.confirmItemList.columnName.arrivalDate": [
@@ -124298,7 +124356,7 @@
   "ui-requests-mediated.filters.mediatedRequestLevel.item": [
     {
       "type": 0,
-      "value": "Item"
+      "value": "Egzemplarz"
     }
   ],
   "ui-requests-mediated.filters.mediatedRequestLevel.title": [
@@ -124470,7 +124528,7 @@
   "ui-requests-mediated.form.request.accordionLabel": [
     {
       "type": 0,
-      "value": "Request information"
+      "value": "Informacje o rezerwacji"
     }
   ],
   "ui-requests-mediated.form.request.delivery": [
@@ -124494,13 +124552,13 @@
   "ui-requests-mediated.form.request.fulfilmentPreference": [
     {
       "type": 0,
-      "value": "Fulfillment preference"
+      "value": "Preferencje realizacji"
     }
   ],
   "ui-requests-mediated.form.request.patronComments": [
     {
       "type": 0,
-      "value": "Patron comments"
+      "value": "Komentarze czytelnika"
     }
   ],
   "ui-requests-mediated.form.request.pickupServicePoint": [
@@ -124524,7 +124582,7 @@
   "ui-requests-mediated.form.request.selectServicePoint": [
     {
       "type": 0,
-      "value": "Select pickup service point"
+      "value": "Wybierz punkt obsługi"
     }
   ],
   "ui-requests-mediated.form.request.status": [
@@ -124656,13 +124714,13 @@
   "ui-requests-mediated.item.status.agedToLost": [
     {
       "type": 0,
-      "value": "Aged to lost"
+      "value": "Uznany za zagubiony"
     }
   ],
   "ui-requests-mediated.item.status.available": [
     {
       "type": 0,
-      "value": "Available"
+      "value": "Dostępny"
     }
   ],
   "ui-requests-mediated.item.status.availableInASR": [
@@ -124674,19 +124732,19 @@
   "ui-requests-mediated.item.status.awaitingDelivery": [
     {
       "type": 0,
-      "value": "Awaiting delivery"
+      "value": "Oczekujący na dostawę"
     }
   ],
   "ui-requests-mediated.item.status.awaitingPickup": [
     {
       "type": 0,
-      "value": "Awaiting pickup"
+      "value": "Oczekujący na odbiór"
     }
   ],
   "ui-requests-mediated.item.status.checkedOut": [
     {
       "type": 0,
-      "value": "Checked out"
+      "value": "Wypożyczony"
     }
   ],
   "ui-requests-mediated.item.status.claimedReturned": [
@@ -124698,25 +124756,25 @@
   "ui-requests-mediated.item.status.declaredLost": [
     {
       "type": 0,
-      "value": "Declared lost"
+      "value": "Zadeklarowany jako zagubiony"
     }
   ],
   "ui-requests-mediated.item.status.inProcess": [
     {
       "type": 0,
-      "value": "In process"
+      "value": "W toku"
     }
   ],
   "ui-requests-mediated.item.status.inProcessNonRequestable": [
     {
       "type": 0,
-      "value": "In process (non-requestable)"
+      "value": "W toku (niewymagany)"
     }
   ],
   "ui-requests-mediated.item.status.inTransit": [
     {
       "type": 0,
-      "value": "In transit"
+      "value": "W drodze"
     }
   ],
   "ui-requests-mediated.item.status.intellectualItem": [
@@ -124728,19 +124786,19 @@
   "ui-requests-mediated.item.status.longMissing": [
     {
       "type": 0,
-      "value": "Long missing"
+      "value": "Długotrwały brak"
     }
   ],
   "ui-requests-mediated.item.status.lostAndPaid": [
     {
       "type": 0,
-      "value": "Lost and paid"
+      "value": "Zagubiony i opłacony"
     }
   ],
   "ui-requests-mediated.item.status.missing": [
     {
       "type": 0,
-      "value": "Missing"
+      "value": "Brakujący"
     }
   ],
   "ui-requests-mediated.item.status.missingFromASR": [
@@ -125043,7 +125101,7 @@
   "ui-requests-mediated.mediatedRequestInformation.viewDetailsLink": [
     {
       "type": 0,
-      "value": "View details in Requests"
+      "value": "Wyświetl szczegóły w Rezerwacjach"
     }
   ],
   "ui-requests-mediated.mediatedRequestList.actionMenu.exportResults": [
@@ -125145,13 +125203,13 @@
   "ui-requests-mediated.mediatedRequestStatus.openInTransitForApproval": [
     {
       "type": 0,
-      "value": "Open - In transit for approval"
+      "value": "Otwarta - W drodze do zatwierdzenia"
     }
   ],
   "ui-requests-mediated.mediatedRequestStatus.openInTransitToBeCheckedOut": [
     {
       "type": 0,
-      "value": "Open - In transit to be checked out"
+      "value": "Otwarta - W drodze do wypożyczenia"
     }
   ],
   "ui-requests-mediated.mediatedRequestStatus.openItemArrived": [
@@ -125301,31 +125359,31 @@
   "ui-requests-mediated.permission.requests-mediated.confirm-item-arrival.execute": [
     {
       "type": 0,
-      "value": "Mediated requests: Confirm item arrival"
+      "value": "Rezerwacje pośrednie: potwierdź otrzymanie egzemplarza"
     }
   ],
   "ui-requests-mediated.permission.requests-mediated.send-item-in-transit.execute": [
     {
       "type": 0,
-      "value": "Mediated requests: Send item in transit"
+      "value": "Rezerwacje pośrednie: wyślij egzemplarz w statusie w drodze"
     }
   ],
   "ui-requests-mediated.permission.requests-mediated.view-confirm.execute": [
     {
       "type": 0,
-      "value": "Mediated requests: View, confirm"
+      "value": "Rezerwacje pośrednie: wyświetl, potwierdź"
     }
   ],
   "ui-requests-mediated.permission.requests-mediated.view-create-edit.execute": [
     {
       "type": 0,
-      "value": "Mediated requests: View, create, edit"
+      "value": "Rezerwacje pośrednie: wyświetl, utwórz, edytuj"
     }
   ],
   "ui-requests-mediated.permission.requests-mediated.view-decline.execute": [
     {
       "type": 0,
-      "value": "Mediated requests: View, decline"
+      "value": "Rezerwacje pośrednie: wyświetl, odrzuć"
     }
   ],
   "ui-requests-mediated.permission.send-item-in-transit": [
@@ -125439,7 +125497,7 @@
   "ui-requests-mediated.report.patronComments": [
     {
       "type": 0,
-      "value": "Patron comments"
+      "value": "Komentarze czytelnika"
     }
   ],
   "ui-requests-mediated.report.pickupServicePoint.name": [
@@ -125451,25 +125509,25 @@
   "ui-requests-mediated.report.proxy.barcode": [
     {
       "type": 0,
-      "value": "Requester's proxy barcode"
+      "value": "Kod kreskowy proxy rezerwującego"
     }
   ],
   "ui-requests-mediated.report.proxy.name": [
     {
       "type": 0,
-      "value": "Requester's proxy name"
+      "value": "Nazwa proxy rezerwującego"
     }
   ],
   "ui-requests-mediated.report.requestDate": [
     {
       "type": 0,
-      "value": "Mediated request date"
+      "value": "Data rezerwacji pośredniej"
     }
   ],
   "ui-requests-mediated.report.requestType": [
     {
       "type": 0,
-      "value": "Mediated request type"
+      "value": "Typ rezerwacji pośredniej"
     }
   ],
   "ui-requests-mediated.report.requester.barcode": [
@@ -125493,13 +125551,13 @@
   "ui-requests-mediated.report.status": [
     {
       "type": 0,
-      "value": "Mediated request status"
+      "value": "Status rezerwacji pośredniej"
     }
   ],
   "ui-requests-mediated.requesterDetails.barcode": [
     {
       "type": 0,
-      "value": "Barcode"
+      "value": "Kod kreskowy"
     }
   ],
   "ui-requests-mediated.requesterDetails.barcode.ariaLabel": [
@@ -125547,7 +125605,7 @@
   "ui-requests-mediated.sendItemInTransit.paneTitle": [
     {
       "type": 0,
-      "value": "Send item in transit"
+      "value": "Wyślij egzemplarz w statusie W drodze"
     }
   ],
   "ui-requests.actions.cancelNewRequest": [
@@ -127633,7 +127691,7 @@
   "ui-requests.requests.instances.rows.select": [
     {
       "type": 0,
-      "value": "Select instance"
+      "value": "Wybierz instancję"
     }
   ],
   "ui-requests.requests.itemBarcode": [
@@ -127810,7 +127868,7 @@
           "value": [
             {
               "type": 0,
-              "value": "record"
+              "value": "rekord"
             }
           ]
         },
@@ -127818,7 +127876,7 @@
           "value": [
             {
               "type": 0,
-              "value": "records"
+              "value": "rekordy"
             }
           ]
         }
@@ -127829,7 +127887,7 @@
     },
     {
       "type": 0,
-      "value": " selected"
+      "value": " wybrane"
     }
   ],
   "ui-requests.searchSlipsLoading": [
@@ -128255,7 +128313,7 @@
   "ui-serials-management.day.issue": [
     {
       "type": 0,
-      "value": "Day, Issue "
+      "value": "Dzień, zeszyt "
     },
     {
       "type": 1,
@@ -128303,7 +128361,7 @@
   "ui-serials-management.learnMore": [
     {
       "type": 0,
-      "value": "Learn more"
+      "value": "Dowiedz się więcej"
     }
   ],
   "ui-serials-management.meta.title": [
@@ -128315,7 +128373,7 @@
   "ui-serials-management.month.issue": [
     {
       "type": 0,
-      "value": "Month, Issue "
+      "value": "Miesiąc, zeszyt "
     },
     {
       "type": 1,
@@ -128415,7 +128473,7 @@
   "ui-serials-management.pieceSets.deletePredictedPieceSet.confirmMessage": [
     {
       "type": 0,
-      "value": "Are you sure you wish to delete this predicted piece set?"
+      "value": "Czy na pewno chcesz usunąć ten przewidywany zestaw elementów?"
     }
   ],
   "ui-serials-management.pieceSets.displayInHolding": [
@@ -128522,7 +128580,7 @@
   "ui-serials-management.pieceSets.overlappingDates.dialog": [
     {
       "type": 0,
-      "value": "A predicted piece set with the start date "
+      "value": "Przewidywany zestaw elementów z datą rozpoczęcia "
     },
     {
       "children": [
@@ -128536,7 +128594,7 @@
     },
     {
       "type": 0,
-      "value": " already exists for the serial "
+      "value": " już istnieje dla wydawnictwa ciągłego "
     },
     {
       "children": [
@@ -128558,13 +128616,13 @@
     },
     {
       "type": 0,
-      "value": " Generating a new set will result in some overlap between piece sets. If this is acceptable select \"Generate\" to continue."
+      "value": " Wygenerowanie nowego zestawu spowoduje nakładanie się pewnych elementów zestawów na siebie. Jeśli jest to dopuszczalne, wybierz „Generuj”, aby kontynuować."
     }
   ],
   "ui-serials-management.pieceSets.overlappingDates.warning": [
     {
       "type": 0,
-      "value": "Warning: A predicted piece set with the start date "
+      "value": "Ostrzeżenie: Przewidywany zestaw elementów z datą rozpoczęcia "
     },
     {
       "children": [
@@ -128578,7 +128636,7 @@
     },
     {
       "type": 0,
-      "value": " already exists for the serial "
+      "value": " już istnieje dla wydawnictwa ciągłego "
     },
     {
       "children": [
@@ -129152,7 +129210,7 @@
   "ui-serials-management.ruleset.confirmGeneration": [
     {
       "type": 0,
-      "value": "Confirm generation of overlapping piece sets"
+      "value": "Potwierdź generowanie nakładających się na siebie elementów zestawów"
     }
   ],
   "ui-serials-management.ruleset.copyAndDeprecate": [
@@ -129738,7 +129796,7 @@
   "ui-serials-management.ruleset.previewPredictedPieces": [
     {
       "type": 0,
-      "value": "Preview predicted pieces"
+      "value": "Podgląd przewidywanych elementów"
     }
   ],
   "ui-serials-management.ruleset.publicationCycle": [
@@ -130226,7 +130284,7 @@
   "ui-serials-management.week.issue": [
     {
       "type": 0,
-      "value": "Week, Issue "
+      "value": "Tydzień, zeszyt "
     },
     {
       "type": 1,
@@ -130236,7 +130294,7 @@
   "ui-serials-management.year.issue": [
     {
       "type": 0,
-      "value": "Year, Issue "
+      "value": "Rok, zeszyt "
     },
     {
       "type": 1,
@@ -138525,7 +138583,7 @@
   "ui-users.loans.details.printDueDateReceipt": [
     {
       "type": 0,
-      "value": "Print due date receipt"
+      "value": "Drukuj rachunek z terminem zwrotu"
     }
   ],
   "ui-users.loans.details.proxyBorrower": [
@@ -143875,7 +143933,7 @@
   "ui-users.stagingRecords.merge": [
     {
       "type": 0,
-      "value": "Merge"
+      "value": "Scalać"
     }
   ],
   "ui-users.stagingRecords.message.noAccessToStagingRecordsPage": [
@@ -143911,7 +143969,7 @@
   "ui-users.stagingUser.createUser": [
     {
       "type": 0,
-      "value": "FOLIO user record "
+      "value": "Rekord użytkownika FOLIO "
     },
     {
       "children": [
@@ -143925,7 +143983,7 @@
     },
     {
       "type": 0,
-      "value": " has been successfully created."
+      "value": " został pomyślnie utworzony."
     }
   ],
   "ui-users.status": [
