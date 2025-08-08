@@ -26182,10 +26182,28 @@
       "value": "Bulk edit: Can build query"
     }
   ],
+  "ui-bulk-edit.permission.settings.create": [
+    {
+      "type": 0,
+      "value": "Settings (Bulk edit): Can view, add, update profiles"
+    }
+  ],
+  "ui-bulk-edit.permission.settings.delete": [
+    {
+      "type": 0,
+      "value": "Settings (Bulk edit): Can delete profiles"
+    }
+  ],
   "ui-bulk-edit.permission.settings.edit": [
     {
       "type": 0,
       "value": "Settings (Bulk edit): Can view, add, update profiles"
+    }
+  ],
+  "ui-bulk-edit.permission.settings.lock.edit": [
+    {
+      "type": 0,
+      "value": "Settings (Bulk edit): Can lock and unlock profiles"
     }
   ],
   "ui-bulk-edit.permission.settings.view": [
@@ -80949,6 +80967,42 @@
       "value": "Set record for deletion"
     }
   ],
+  "ui-inventory.settings.displaySettings.defaultColumns": [
+    {
+      "type": 0,
+      "value": "Default columns"
+    }
+  ],
+  "ui-inventory.settings.displaySettings.defaultColumns.options.contributors": [
+    {
+      "type": 0,
+      "value": "Contributors"
+    }
+  ],
+  "ui-inventory.settings.displaySettings.defaultColumns.options.hrid": [
+    {
+      "type": 0,
+      "value": "Instance HRID"
+    }
+  ],
+  "ui-inventory.settings.displaySettings.defaultColumns.options.normalizedDate1": [
+    {
+      "type": 0,
+      "value": "Date"
+    }
+  ],
+  "ui-inventory.settings.displaySettings.defaultColumns.options.publishers": [
+    {
+      "type": 0,
+      "value": "Publishers"
+    }
+  ],
+  "ui-inventory.settings.displaySettings.defaultColumns.options.relation": [
+    {
+      "type": 0,
+      "value": "Relation"
+    }
+  ],
   "ui-inventory.settings.displaySettings.defaultSort": [
     {
       "type": 0,
@@ -101910,6 +101964,16 @@
       "value": "Número de orden de compra"
     }
   ],
+  "ui-orders.orderDetails.prefix.deprecated": [
+    {
+      "type": 1,
+      "value": "name"
+    },
+    {
+      "type": 0,
+      "value": " (deprecated)"
+    }
+  ],
   "ui-orders.orderDetails.reEncumber": [
     {
       "type": 0,
@@ -101926,6 +101990,16 @@
     {
       "type": 0,
       "value": "Enviar a"
+    }
+  ],
+  "ui-orders.orderDetails.suffix.deprecated": [
+    {
+      "type": 1,
+      "value": "name"
+    },
+    {
+      "type": 0,
+      "value": " (deprecated)"
     }
   ],
   "ui-orders.orderDetails.vendor": [
@@ -105055,6 +105129,12 @@
       "value": "Número de orden de compra"
     }
   ],
+  "ui-orders.settings.poNumber.modifier.deprecated": [
+    {
+      "type": 0,
+      "value": "Deprecated"
+    }
+  ],
   "ui-orders.settings.poNumber.modifier.description": [
     {
       "type": 0,
@@ -105077,6 +105157,20 @@
     {
       "type": 0,
       "value": "Prefijo"
+    }
+  ],
+  "ui-orders.settings.poNumber.prefix.aria-label.deprecated": [
+    {
+      "type": 0,
+      "value": "Mark "
+    },
+    {
+      "type": 1,
+      "value": "name"
+    },
+    {
+      "type": 0,
+      "value": " as deprecated"
     }
   ],
   "ui-orders.settings.poNumber.prefix.cannotDeleteTermHeader": [
@@ -105187,6 +105281,20 @@
     {
       "type": 0,
       "value": "Sufijo"
+    }
+  ],
+  "ui-orders.settings.poNumber.suffix.aria-label.deprecated": [
+    {
+      "type": 0,
+      "value": "Mark "
+    },
+    {
+      "type": 1,
+      "value": "name"
+    },
+    {
+      "type": 0,
+      "value": " as deprecated"
     }
   ],
   "ui-orders.settings.poNumber.suffix.cannotDeleteTermHeader": [
@@ -113952,6 +114060,26 @@
     {
       "type": 0,
       "value": "Linked package POL lookup"
+    }
+  ],
+  "ui-plugin-find-po-line.filter.prefixFilter.deprecated": [
+    {
+      "type": 1,
+      "value": "name"
+    },
+    {
+      "type": 0,
+      "value": " (deprecated)"
+    }
+  ],
+  "ui-plugin-find-po-line.filter.suffixFilter.deprecated": [
+    {
+      "type": 1,
+      "value": "name"
+    },
+    {
+      "type": 0,
+      "value": " (deprecated)"
     }
   ],
   "ui-plugin-find-po-line.meta.title": [
