@@ -24831,6 +24831,12 @@
       "value": "Restricted"
     }
   ],
+  "ui-bulk-edit.layer.options.setRecordsForDelete": [
+    {
+      "type": 0,
+      "value": "Set records for deletion"
+    }
+  ],
   "ui-bulk-edit.layer.options.statusLabel": [
     {
       "type": 0,
@@ -26675,6 +26681,20 @@
     {
       "type": 0,
       "value": "Commit changes"
+    }
+  ],
+  "ui-bulk-edit.previewModal.selectProfiles": [
+    {
+      "type": 0,
+      "value": "Select "
+    },
+    {
+      "type": 1,
+      "value": "entityType"
+    },
+    {
+      "type": 0,
+      "value": " bulk edit profile"
     }
   ],
   "ui-bulk-edit.previewModal.unsavedChanges": [
@@ -56116,6 +56136,12 @@
       "value": "Settings (developer): plugin surface for developing plugins"
     }
   ],
+  "ui-developer.permission.settings.sessionTimezone": [
+    {
+      "type": 0,
+      "value": "Settings (Developer): set session timezone"
+    }
+  ],
   "ui-developer.permission.settings.stripesInspector": [
     {
       "type": 0,
@@ -56385,6 +56411,54 @@
     {
       "type": 0,
       "value": "TEMPORARY Session locale"
+    }
+  ],
+  "ui-developer.sessionTimezone": [
+    {
+      "type": 0,
+      "value": "Session timezone"
+    }
+  ],
+  "ui-developer.sessionTimezone.currentDateTime": [
+    {
+      "type": 0,
+      "value": "The session timezone is "
+    },
+    {
+      "type": 1,
+      "value": "timezone"
+    },
+    {
+      "type": 0,
+      "value": ", where the current date is "
+    },
+    {
+      "type": 1,
+      "value": "date"
+    },
+    {
+      "type": 0,
+      "value": " and the current time is "
+    },
+    {
+      "type": 1,
+      "value": "time"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "ui-developer.sessionTimezone.temporarySessionTimezone": [
+    {
+      "type": 0,
+      "value": "TEMPORARY Session timezone"
+    }
+  ],
+  "ui-developer.sessionTimezone.timeZone": [
+    {
+      "type": 0,
+      "value": "Time zone (time zone used when showing date time information)"
     }
   ],
   "ui-developer.setToken": [
@@ -105314,6 +105388,12 @@
       "value": "Please enter a whole number greater than 0 and less than 1000 to continue"
     }
   ],
+  "ui-orders.settings.update.error": [
+    {
+      "type": 0,
+      "value": "Failed to update the settings."
+    }
+  ],
   "ui-orders.shortcut.addPOL": [
     {
       "type": 0,
@@ -114016,6 +114096,12 @@
     {
       "type": 0,
       "value": "Select value"
+    }
+  ],
+  "ui-plugin-query-builder.control.value.placeholder.organizations": [
+    {
+      "type": 0,
+      "value": "Use the “Organization look-up” below to add organizations"
     }
   ],
   "ui-plugin-query-builder.error.occurredMessage": [

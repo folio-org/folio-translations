@@ -24765,6 +24765,12 @@
       "value": "Restrito"
     }
   ],
+  "ui-bulk-edit.layer.options.setRecordsForDelete": [
+    {
+      "type": 0,
+      "value": "Set records for deletion"
+    }
+  ],
   "ui-bulk-edit.layer.options.statusLabel": [
     {
       "type": 0,
@@ -26617,6 +26623,20 @@
     {
       "type": 0,
       "value": "Confirmar as alterações"
+    }
+  ],
+  "ui-bulk-edit.previewModal.selectProfiles": [
+    {
+      "type": 0,
+      "value": "Select "
+    },
+    {
+      "type": 1,
+      "value": "entityType"
+    },
+    {
+      "type": 0,
+      "value": " bulk edit profile"
     }
   ],
   "ui-bulk-edit.previewModal.unsavedChanges": [
@@ -56490,6 +56510,12 @@
       "value": "Configurações (desenvolvedor): superfície de plug-in para desenvolver plug-ins"
     }
   ],
+  "ui-developer.permission.settings.sessionTimezone": [
+    {
+      "type": 0,
+      "value": "Settings (Developer): set session timezone"
+    }
+  ],
   "ui-developer.permission.settings.stripesInspector": [
     {
       "type": 0,
@@ -56783,6 +56809,54 @@
     {
       "type": 0,
       "value": "Idioma da sessão TEMPORÁRIO"
+    }
+  ],
+  "ui-developer.sessionTimezone": [
+    {
+      "type": 0,
+      "value": "Session timezone"
+    }
+  ],
+  "ui-developer.sessionTimezone.currentDateTime": [
+    {
+      "type": 0,
+      "value": "The session timezone is "
+    },
+    {
+      "type": 1,
+      "value": "timezone"
+    },
+    {
+      "type": 0,
+      "value": ", where the current date is "
+    },
+    {
+      "type": 1,
+      "value": "date"
+    },
+    {
+      "type": 0,
+      "value": " and the current time is "
+    },
+    {
+      "type": 1,
+      "value": "time"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "ui-developer.sessionTimezone.temporarySessionTimezone": [
+    {
+      "type": 0,
+      "value": "TEMPORARY Session timezone"
+    }
+  ],
+  "ui-developer.sessionTimezone.timeZone": [
+    {
+      "type": 0,
+      "value": "Time zone (time zone used when showing date time information)"
     }
   ],
   "ui-developer.setToken": [
@@ -106276,6 +106350,12 @@
       "value": "Por favor insira um número inteiro maior que 0 e menor que 1000 para continuar"
     }
   ],
+  "ui-orders.settings.update.error": [
+    {
+      "type": 0,
+      "value": "Failed to update the settings."
+    }
+  ],
   "ui-orders.shortcut.addPOL": [
     {
       "type": 0,
@@ -115086,6 +115166,12 @@
     {
       "type": 0,
       "value": "Selecione o valor"
+    }
+  ],
+  "ui-plugin-query-builder.control.value.placeholder.organizations": [
+    {
+      "type": 0,
+      "value": "Use the “Organization look-up” below to add organizations"
     }
   ],
   "ui-plugin-query-builder.error.occurredMessage": [
