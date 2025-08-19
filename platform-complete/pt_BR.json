@@ -17531,7 +17531,7 @@
   "ui-agreements.customProperty.retiredName": [
     {
       "type": 0,
-      "value": "OBSOLETO: "
+      "value": "DESCONTINUADO: "
     },
     {
       "type": 1,
@@ -19270,37 +19270,37 @@
   "ui-agreements.gokb.filters.type": [
     {
       "type": 0,
-      "value": "Type"
+      "value": "Tipo"
     }
   ],
   "ui-agreements.gokb.filters.type.all": [
     {
       "type": 0,
-      "value": "All"
+      "value": "Todos"
     }
   ],
   "ui-agreements.gokb.filters.type.book": [
     {
       "type": 0,
-      "value": "Book"
+      "value": "Livro"
     }
   ],
   "ui-agreements.gokb.filters.type.database": [
     {
       "type": 0,
-      "value": "Database"
+      "value": "Base de dados"
     }
   ],
   "ui-agreements.gokb.filters.type.journal": [
     {
       "type": 0,
-      "value": "Journal"
+      "value": "Periódico"
     }
   ],
   "ui-agreements.gokb.filters.type.other": [
     {
       "type": 0,
-      "value": "Other"
+      "value": "Outro"
     }
   ],
   "ui-agreements.gokb.firstAuthor": [
@@ -23241,7 +23241,7 @@
   "ui-bulk-edit.columns.INSTANCE.Set for deletion": [
     {
       "type": 0,
-      "value": "Set for deletion"
+      "value": "Definido para exclusão"
     }
   ],
   "ui-bulk-edit.columns.INSTANCE.Source": [
@@ -24774,7 +24774,7 @@
   "ui-bulk-edit.layer.options.setRecordsForDelete": [
     {
       "type": 0,
-      "value": "Set records for deletion"
+      "value": "Definir registros para exclusão"
     }
   ],
   "ui-bulk-edit.layer.options.statusLabel": [
@@ -26329,13 +26329,13 @@
   "ui-bulk-edit.permission.settings.create": [
     {
       "type": 0,
-      "value": "Settings (Bulk edit): Can view, add, update profiles"
+      "value": "Configurações (Edição em massa): Pode visualizar, adicionar e atualizar perfis"
     }
   ],
   "ui-bulk-edit.permission.settings.delete": [
     {
       "type": 0,
-      "value": "Settings (Bulk edit): Can delete profiles"
+      "value": "Configurações (Edição em massa): Pode excluir perfis"
     }
   ],
   "ui-bulk-edit.permission.settings.edit": [
@@ -26347,7 +26347,7 @@
   "ui-bulk-edit.permission.settings.lock.edit": [
     {
       "type": 0,
-      "value": "Settings (Bulk edit): Can lock and unlock profiles"
+      "value": "Configurações (Edição em massa): Pode bloquear e desbloquear perfis"
     }
   ],
   "ui-bulk-edit.permission.settings.view": [
@@ -26634,15 +26634,11 @@
   "ui-bulk-edit.previewModal.selectProfiles": [
     {
       "type": 0,
-      "value": "Select "
+      "value": "Selecione o perfil de edição em massa "
     },
     {
       "type": 1,
       "value": "entityType"
-    },
-    {
-      "type": 0,
-      "value": " bulk edit profile"
     }
   ],
   "ui-bulk-edit.previewModal.unsavedChanges": [
@@ -56519,7 +56515,7 @@
   "ui-developer.permission.settings.sessionTimezone": [
     {
       "type": 0,
-      "value": "Settings (Developer): set session timezone"
+      "value": "Configurações (Desenvolvedor): definir o fuso horário da sessão"
     }
   ],
   "ui-developer.permission.settings.stripesInspector": [
@@ -56820,13 +56816,13 @@
   "ui-developer.sessionTimezone": [
     {
       "type": 0,
-      "value": "Session timezone"
+      "value": "Fuso horário da sessão"
     }
   ],
   "ui-developer.sessionTimezone.currentDateTime": [
     {
       "type": 0,
-      "value": "The session timezone is "
+      "value": "O fuso horário da sessão é "
     },
     {
       "type": 1,
@@ -56834,7 +56830,7 @@
     },
     {
       "type": 0,
-      "value": ", where the current date is "
+      "value": ", em que a data atual é "
     },
     {
       "type": 1,
@@ -56842,7 +56838,7 @@
     },
     {
       "type": 0,
-      "value": " and the current time is "
+      "value": " e a hora atual é "
     },
     {
       "type": 1,
@@ -56856,13 +56852,13 @@
   "ui-developer.sessionTimezone.temporarySessionTimezone": [
     {
       "type": 0,
-      "value": "TEMPORARY Session timezone"
+      "value": "Fuso horário da sessão TEMPORÁRIA"
     }
   ],
   "ui-developer.sessionTimezone.timeZone": [
     {
       "type": 0,
-      "value": "Time zone (time zone used when showing date time information)"
+      "value": "Fuso horário (fuso horário utilizado para mostrar informações de data e hora)"
     }
   ],
   "ui-developer.setToken": [
@@ -81572,37 +81568,37 @@
   "ui-inventory.settings.displaySettings.defaultColumns": [
     {
       "type": 0,
-      "value": "Default columns"
+      "value": "Colunas padrão"
     }
   ],
   "ui-inventory.settings.displaySettings.defaultColumns.options.contributors": [
     {
       "type": 0,
-      "value": "Contributors"
+      "value": "Colaboradores"
     }
   ],
   "ui-inventory.settings.displaySettings.defaultColumns.options.hrid": [
     {
       "type": 0,
-      "value": "Instance HRID"
+      "value": "HRID da instância"
     }
   ],
   "ui-inventory.settings.displaySettings.defaultColumns.options.normalizedDate1": [
     {
       "type": 0,
-      "value": "Date"
+      "value": "Data"
     }
   ],
   "ui-inventory.settings.displaySettings.defaultColumns.options.publishers": [
     {
       "type": 0,
-      "value": "Publishers"
+      "value": "Editoras"
     }
   ],
   "ui-inventory.settings.displaySettings.defaultColumns.options.relation": [
     {
       "type": 0,
-      "value": "Relation"
+      "value": "Relação"
     }
   ],
   "ui-inventory.settings.displaySettings.defaultSort": [
@@ -88120,7 +88116,7 @@
   "ui-licenses.customProperty.retiredName": [
     {
       "type": 0,
-      "value": "OBSOLETO: "
+      "value": "DESCONTINUADO: "
     },
     {
       "type": 1,
@@ -102766,7 +102762,7 @@
     },
     {
       "type": 0,
-      "value": " (deprecated)"
+      "value": " (descontinuado)"
     }
   ],
   "ui-orders.orderDetails.reEncumber": [
@@ -102794,7 +102790,7 @@
     },
     {
       "type": 0,
-      "value": " (deprecated)"
+      "value": " (descontinuado)"
     }
   ],
   "ui-orders.orderDetails.vendor": [
@@ -104803,7 +104799,7 @@
   "ui-orders.search.donor": [
     {
       "type": 0,
-      "value": "Doador (Obsoleto)"
+      "value": "Doador (Descontinuado)"
     }
   ],
   "ui-orders.search.keyword": [
@@ -105961,7 +105957,7 @@
   "ui-orders.settings.poNumber.modifier.deprecated": [
     {
       "type": 0,
-      "value": "Deprecated"
+      "value": "Descontinuado"
     }
   ],
   "ui-orders.settings.poNumber.modifier.description": [
@@ -105991,7 +105987,7 @@
   "ui-orders.settings.poNumber.prefix.aria-label.deprecated": [
     {
       "type": 0,
-      "value": "Mark "
+      "value": "Marcar "
     },
     {
       "type": 1,
@@ -105999,7 +105995,7 @@
     },
     {
       "type": 0,
-      "value": " as deprecated"
+      "value": " como descontinuado"
     }
   ],
   "ui-orders.settings.poNumber.prefix.cannotDeleteTermHeader": [
@@ -106115,7 +106111,7 @@
   "ui-orders.settings.poNumber.suffix.aria-label.deprecated": [
     {
       "type": 0,
-      "value": "Mark "
+      "value": "Marcar "
     },
     {
       "type": 1,
@@ -106123,7 +106119,7 @@
     },
     {
       "type": 0,
-      "value": " as deprecated"
+      "value": " como descontinuado"
     }
   ],
   "ui-orders.settings.poNumber.suffix.cannotDeleteTermHeader": [
@@ -106359,7 +106355,7 @@
   "ui-orders.settings.update.error": [
     {
       "type": 0,
-      "value": "Failed to update the settings."
+      "value": "Falha ao atualizar as configurações."
     }
   ],
   "ui-orders.shortcut.addPOL": [
@@ -112985,7 +112981,7 @@
   "ui-plugin-find-agreement.supplementaryProperties.deprecated": [
     {
       "type": 0,
-      "value": "OBSOLETO: "
+      "value": "DESCONTINUADO: "
     },
     {
       "type": 1,
@@ -114356,7 +114352,7 @@
   "ui-plugin-find-license.terms.deprecated": [
     {
       "type": 0,
-      "value": "OBSOLETO: "
+      "value": "DESCONTINUADO: "
     },
     {
       "type": 1,
@@ -114937,7 +114933,7 @@
     },
     {
       "type": 0,
-      "value": " (deprecated)"
+      "value": " (descontinuado)"
     }
   ],
   "ui-plugin-find-po-line.filter.suffixFilter.deprecated": [
@@ -114947,7 +114943,7 @@
     },
     {
       "type": 0,
-      "value": " (deprecated)"
+      "value": " (descontinuado)"
     }
   ],
   "ui-plugin-find-po-line.meta.title": [
@@ -115177,7 +115173,7 @@
   "ui-plugin-query-builder.control.value.placeholder.organizations": [
     {
       "type": 0,
-      "value": "Use the “Organization look-up” below to add organizations"
+      "value": "Use a “Pesquisa de organização” abaixo para adicionar organizações"
     }
   ],
   "ui-plugin-query-builder.error.occurredMessage": [
@@ -130489,7 +130485,7 @@
   "ui-serials-management.ruleset.deprecatedPublicationPatterns": [
     {
       "type": 0,
-      "value": "Padrões de publicação obsoletos"
+      "value": "Padrões de publicação descontinuados"
     }
   ],
   "ui-serials-management.ruleset.displaySummaryTemplate": [
@@ -145238,7 +145234,7 @@
   "ui-users.stagingRecords.list.columnNames.minor": [
     {
       "type": 0,
-      "value": "Minor"
+      "value": "Menor"
     }
   ],
   "ui-users.stagingRecords.list.columnNames.mobileNumber": [
@@ -145292,7 +145288,7 @@
   "ui-users.stagingRecords.minor.yes": [
     {
       "type": 0,
-      "value": "Yes"
+      "value": "Sim"
     }
   ],
   "ui-users.stagingRecords.notActivated": [
