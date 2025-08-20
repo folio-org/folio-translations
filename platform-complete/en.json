@@ -68881,7 +68881,7 @@
   "ui-finance.transaction.actions.load.error": [
     {
       "type": 0,
-      "value": "Failed to load transaction data"
+      "value": "Failed to load transaction data."
     }
   ],
   "ui-finance.transaction.allocation.allowableAllocationIdsMismatch": [
@@ -69001,7 +69001,7 @@
     },
     {
       "type": 0,
-      "value": " has no budget"
+      "value": " has no budget."
     }
   ],
   "ui-finance.transaction.allocation.budgetRestrictedExpendituresError": [
@@ -69039,7 +69039,7 @@
     },
     {
       "type": 0,
-      "value": " and ledger fund restrictions are active"
+      "value": " and ledger fund restrictions are active."
     }
   ],
   "ui-finance.transaction.allocation.decrease.hasBeenCreated": [
@@ -69064,6 +69064,10 @@
     {
       "type": 1,
       "value": "amount"
+    },
+    {
+      "type": 0,
+      "value": "."
     }
   ],
   "ui-finance.transaction.allocation.genericError": [
@@ -69084,6 +69088,10 @@
       ],
       "type": 8,
       "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "."
     }
   ],
   "ui-finance.transaction.allocation.hasBeenCreated": [
@@ -69104,6 +69112,10 @@
       ],
       "type": 8,
       "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "."
     }
   ],
   "ui-finance.transaction.allocation.increase.hasBeenCreated": [
@@ -69124,6 +69136,10 @@
       ],
       "type": 8,
       "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "."
     }
   ],
   "ui-finance.transaction.allocation.notEnoughMoneyForAllocationError": [
@@ -69158,6 +69174,10 @@
       ],
       "type": 8,
       "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "."
     }
   ],
   "ui-finance.transaction.allocation.title": [
@@ -69499,7 +69519,45 @@
     },
     {
       "type": 0,
-      "value": " has no budget"
+      "value": " has no budget."
+    }
+  ],
+  "ui-finance.transaction.transfer.budgetRestrictedExpendituresError": [
+    {
+      "type": 1,
+      "value": "amount"
+    },
+    {
+      "type": 0,
+      "value": " could not be transferred to the budget "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "toBudgetName"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " because it exceeds the allowable expenditure limit for "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "fromBudgetName"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " and ledger fund restrictions are active."
     }
   ],
   "ui-finance.transaction.transfer.genericError": [
@@ -69520,6 +69578,10 @@
       ],
       "type": 8,
       "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "."
     }
   ],
   "ui-finance.transaction.transfer.hasBeenCreated": [
@@ -69540,6 +69602,10 @@
       ],
       "type": 8,
       "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "."
     }
   ],
   "ui-finance.transaction.transfer.missingFundId": [
@@ -114041,7 +114107,7 @@
   "ui-plugin-query-builder.control.value.placeholder.organizations": [
     {
       "type": 0,
-      "value": "Use the “Organization look-up” below to add organizations"
+      "value": "Use the “Organization look-up” below to add values"
     }
   ],
   "ui-plugin-query-builder.error.occurredMessage": [

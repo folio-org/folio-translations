@@ -69548,6 +69548,44 @@
       "value": " has no budget"
     }
   ],
+  "ui-finance.transaction.transfer.budgetRestrictedExpendituresError": [
+    {
+      "type": 1,
+      "value": "amount"
+    },
+    {
+      "type": 0,
+      "value": " could not be transferred to the budget "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "toBudgetName"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " because it exceeds the allowable expenditure limit for "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "fromBudgetName"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " and ledger fund restrictions are active."
+    }
+  ],
   "ui-finance.transaction.transfer.genericError": [
     {
       "type": 1,
