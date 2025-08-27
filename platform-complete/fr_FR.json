@@ -9876,6 +9876,78 @@
       "value": "OU"
     }
   ],
+  "stripes-erm-components.accesscontrol.acquisitionunits.protectCreate": [
+    {
+      "type": 0,
+      "value": "Create"
+    }
+  ],
+  "stripes-erm-components.accesscontrol.acquisitionunits.protectDelete": [
+    {
+      "type": 0,
+      "value": "Delete"
+    }
+  ],
+  "stripes-erm-components.accesscontrol.acquisitionunits.protectRead": [
+    {
+      "type": 0,
+      "value": "View"
+    }
+  ],
+  "stripes-erm-components.accesscontrol.acquisitionunits.protectUpdate": [
+    {
+      "type": 0,
+      "value": "Edit"
+    }
+  ],
+  "stripes-erm-components.accesscontrol.description": [
+    {
+      "type": 0,
+      "value": "Description"
+    }
+  ],
+  "stripes-erm-components.accesscontrol.error.noAccess": [
+    {
+      "type": 0,
+      "value": "Access to this resource is restricted, please speak to your system administrator"
+    }
+  ],
+  "stripes-erm-components.accesscontrol.error.pane.title": [
+    {
+      "type": 0,
+      "value": "Access control error"
+    }
+  ],
+  "stripes-erm-components.accesscontrol.label": [
+    {
+      "type": 0,
+      "value": "Acquisition units"
+    }
+  ],
+  "stripes-erm-components.accesscontrol.name": [
+    {
+      "type": 0,
+      "value": "Name"
+    }
+  ],
+  "stripes-erm-components.accesscontrol.remove": [
+    {
+      "type": 0,
+      "value": "Remove"
+    }
+  ],
+  "stripes-erm-components.accesscontrol.restrictions": [
+    {
+      "type": 0,
+      "value": "Access"
+    }
+  ],
+  "stripes-erm-components.accesscontrol.typedown.label": [
+    {
+      "type": 0,
+      "value": "Add acquisition unit"
+    }
+  ],
   "stripes-erm-components.alternativeNames": [
     {
       "type": 0,
@@ -11847,6 +11919,12 @@
     {
       "type": 0,
       "value": "Tout sélectionner / tout désélectionner"
+    }
+  ],
+  "stripes-erm-components.separator": [
+    {
+      "type": 0,
+      "value": "·"
     }
   ],
   "stripes-erm-components.showTags": [
@@ -69256,6 +69334,30 @@
       ],
       "type": 8,
       "value": "b"
+    }
+  ],
+  "ui-finance.transaction.allocation.move.hasBeenCreated": [
+    {
+      "type": 1,
+      "value": "amount"
+    },
+    {
+      "type": 0,
+      "value": " was successfully allocated to the budget "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "budgetName"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "."
     }
   ],
   "ui-finance.transaction.allocation.notEnoughMoneyForAllocationError": [
