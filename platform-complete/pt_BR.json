@@ -682,31 +682,31 @@
   "stripes-acq-components.holding.createFromLocation": [
     {
       "type": 0,
-      "value": "Criar nova coleção para localização"
+      "value": "Criar nova acervo para localização"
     }
   ],
   "stripes-acq-components.holding.label": [
     {
       "type": 0,
-      "value": "Selecionar coleção"
+      "value": "Selecionar acervo"
     }
   ],
   "stripes-acq-components.holdings.deleteModal.heading": [
     {
       "type": 0,
-      "value": "Excluir coleção"
+      "value": "Excluir acervo"
     }
   ],
   "stripes-acq-components.holdings.deleteModal.keepHoldings": [
     {
       "type": 0,
-      "value": "Manter coleções"
+      "value": "Manter acervos"
     }
   ],
   "stripes-acq-components.holdings.deleteModal.message": [
     {
       "type": 0,
-      "value": "Esta parte está conectada aos registros na app Inventário. Após esta edição não haverá outras partes OU itens ligados ao(s) registro(s) de coleção relacionado(s). Após esta mudança, você gostaria que o FOLIO apagasse o(s) registro(s) de coleção?"
+      "value": "Esta parte está conectada aos registros na app Inventário. Após esta edição não haverá outras partes OU itens ligados ao(s) registro(s) de acervo relacionado(s). Após esta mudança, você gostaria que o FOLIO apagasse o(s) registro(s) de acervo?"
     }
   ],
   "stripes-acq-components.invalidReference": [
@@ -9725,7 +9725,7 @@
   "stripes-data-transfer-components.recordTypes.holdings": [
     {
       "type": 0,
-      "value": "Coleção"
+      "value": "Acervo"
     }
   ],
   "stripes-data-transfer-components.recordTypes.instance": [
@@ -9767,7 +9767,7 @@
   "stripes-data-transfer-components.recordTypes.marc-hold": [
     {
       "type": 0,
-      "value": "Coleção MARC"
+      "value": "Acervo MARC"
     }
   ],
   "stripes-data-transfer-components.recordTypes.order": [
@@ -9857,73 +9857,73 @@
   "stripes-erm-components.accesscontrol.acquisitionunits.protectCreate": [
     {
       "type": 0,
-      "value": "Create"
+      "value": "Criar"
     }
   ],
   "stripes-erm-components.accesscontrol.acquisitionunits.protectDelete": [
     {
       "type": 0,
-      "value": "Delete"
+      "value": "Excluir"
     }
   ],
   "stripes-erm-components.accesscontrol.acquisitionunits.protectRead": [
     {
       "type": 0,
-      "value": "View"
+      "value": "Visualizar"
     }
   ],
   "stripes-erm-components.accesscontrol.acquisitionunits.protectUpdate": [
     {
       "type": 0,
-      "value": "Edit"
+      "value": "Editar"
     }
   ],
   "stripes-erm-components.accesscontrol.description": [
     {
       "type": 0,
-      "value": "Description"
+      "value": "Descrição"
     }
   ],
   "stripes-erm-components.accesscontrol.error.noAccess": [
     {
       "type": 0,
-      "value": "Access to this resource is restricted, please speak to your system administrator"
+      "value": "O acesso a este recurso é restrito, fale com o administrador do sistema"
     }
   ],
   "stripes-erm-components.accesscontrol.error.pane.title": [
     {
       "type": 0,
-      "value": "Access control error"
+      "value": "Erro de controle de acesso"
     }
   ],
   "stripes-erm-components.accesscontrol.label": [
     {
       "type": 0,
-      "value": "Acquisition units"
+      "value": "Unidades de aquisição"
     }
   ],
   "stripes-erm-components.accesscontrol.name": [
     {
       "type": 0,
-      "value": "Name"
+      "value": "Nome"
     }
   ],
   "stripes-erm-components.accesscontrol.remove": [
     {
       "type": 0,
-      "value": "Remove"
+      "value": "Remover"
     }
   ],
   "stripes-erm-components.accesscontrol.restrictions": [
     {
       "type": 0,
-      "value": "Access"
+      "value": "Acesso"
     }
   ],
   "stripes-erm-components.accesscontrol.typedown.label": [
     {
       "type": 0,
-      "value": "Add acquisition unit"
+      "value": "Adicionar unidade de aquisição"
     }
   ],
   "stripes-erm-components.alternativeNames": [
@@ -12077,7 +12077,7 @@
   "stripes-inventory-components.facet.discoverySuppress": [
     {
       "type": 0,
-      "value": "Oculto da descoberta"
+      "value": "Ocultar da descoberta"
     }
   ],
   "stripes-inventory-components.facet.effectiveLocation": [
@@ -12095,7 +12095,7 @@
   "stripes-inventory-components.facet.holdingsPermanentLocation": [
     {
       "type": 0,
-      "value": "Local permanente da coleção"
+      "value": "Local permanente da acervo"
     }
   ],
   "stripes-inventory-components.facet.holdingsType": [
@@ -12215,7 +12215,7 @@
   "stripes-inventory-components.instances.columns.hrid": [
     {
       "type": 0,
-      "value": "Instance HRID"
+      "value": "HRID da instância"
     }
   ],
   "stripes-inventory-components.instances.columns.publishers": [
@@ -12449,7 +12449,7 @@
   "stripes-inventory-components.search.holdingsAdministrativeNotes": [
     {
       "type": 0,
-      "value": "Notas administrativas de coleção"
+      "value": "Notas administrativas de acervo"
     }
   ],
   "stripes-inventory-components.search.holdingsHrid": [
@@ -12461,13 +12461,13 @@
   "stripes-inventory-components.search.holdingsNotes": [
     {
       "type": 0,
-      "value": "Notas de coleção (todas)"
+      "value": "Notas de acervo (todas)"
     }
   ],
   "stripes-inventory-components.search.holdingsUuid": [
     {
       "type": 0,
-      "value": "UUID da coleção"
+      "value": "UUID da acervo"
     }
   ],
   "stripes-inventory-components.search.identifierAll": [
@@ -15774,7 +15774,7 @@
   "ui-agreements.agreementLine.eholdings": [
     {
       "type": 0,
-      "value": "Coleção eletrônica"
+      "value": "Acervo eletrônico"
     }
   ],
   "ui-agreements.agreementLine.linkEresource": [
@@ -16211,7 +16211,7 @@
   "ui-agreements.agreementLines.suppressFromDiscovery": [
     {
       "type": 0,
-      "value": "Oculto da descoberta"
+      "value": "Ocultar da descoberta"
     }
   ],
   "ui-agreements.agreementLines.viewInSearch": [
@@ -18624,7 +18624,7 @@
   "ui-agreements.eresources.holdingStatus": [
     {
       "type": 0,
-      "value": "Status da coleção"
+      "value": "Status da acervo"
     }
   ],
   "ui-agreements.eresources.isPackage": [
@@ -18920,7 +18920,7 @@
   "ui-agreements.eresources.suppressFromDiscovery": [
     {
       "type": 0,
-      "value": "Oculto da descoberta"
+      "value": "Ocultar da descoberta"
     }
   ],
   "ui-agreements.eresources.syncContentsFromSource.false": [
@@ -21821,7 +21821,7 @@
   "ui-agreements.settings.general.hideEResourcesFunctionality.description": [
     {
       "type": 0,
-      "value": "Se você estiver usando outro aplicativo (por exemplo, Coleção eletrônica) como sua base de conhecimento e desejar ocultar a base de conhecimento de contratos internos, poderá selecionar essa configuração. Especificamente, isso irá:"
+      "value": "Se você estiver usando outro aplicativo (por exemplo, Acervo eletrônico) como sua base de conhecimento e desejar ocultar a base de conhecimento de contratos internos, poderá selecionar essa configuração. Especificamente, isso irá:"
     }
   ],
   "ui-agreements.settings.general.hideEResourcesFunctionality.title": [
@@ -22779,13 +22779,13 @@
   "ui-bulk-edit.category.holdingsLocation": [
     {
       "type": 0,
-      "value": "Localização do coleção"
+      "value": "Localização do acervo"
     }
   ],
   "ui-bulk-edit.category.holdingsNotes": [
     {
       "type": 0,
-      "value": "Notas de coleção"
+      "value": "Notas de acervo"
     }
   ],
   "ui-bulk-edit.category.instanceNotes": [
@@ -22893,7 +22893,7 @@
   "ui-bulk-edit.columns.HOLDINGS_RECORD.Discovery suppress": [
     {
       "type": 0,
-      "value": "Oculto da descoberta"
+      "value": "Ocultar da descoberta"
     }
   ],
   "ui-bulk-edit.columns.HOLDINGS_RECORD.Effective location": [
@@ -22917,7 +22917,7 @@
   "ui-bulk-edit.columns.HOLDINGS_RECORD.Former holdings Id": [
     {
       "type": 0,
-      "value": "ID de coleção anterior"
+      "value": "ID de acervo anterior"
     }
   ],
   "ui-bulk-edit.columns.HOLDINGS_RECORD.Former ids": [
@@ -22929,109 +22929,109 @@
   "ui-bulk-edit.columns.HOLDINGS_RECORD.HRID": [
     {
       "type": 0,
-      "value": "HRID de coleção"
+      "value": "HRID de acervo"
     }
   ],
   "ui-bulk-edit.columns.HOLDINGS_RECORD.Holdings HRID": [
     {
       "type": 0,
-      "value": "HRID de coleção"
+      "value": "HRID de acervo"
     }
   ],
   "ui-bulk-edit.columns.HOLDINGS_RECORD.Holdings UUID": [
     {
       "type": 0,
-      "value": "UUID da coleção"
+      "value": "UUID da acervo"
     }
   ],
   "ui-bulk-edit.columns.HOLDINGS_RECORD.Holdings copy number": [
     {
       "type": 0,
-      "value": "Número da cópia da coleção"
+      "value": "Número da cópia da acervo"
     }
   ],
   "ui-bulk-edit.columns.HOLDINGS_RECORD.Holdings level call number": [
     {
       "type": 0,
-      "value": "Número de chamada de coleção"
+      "value": "Número de chamada de acervo"
     }
   ],
   "ui-bulk-edit.columns.HOLDINGS_RECORD.Holdings level call number prefix": [
     {
       "type": 0,
-      "value": "Prefixo do número de chamada de coleção"
+      "value": "Prefixo do número de chamada de acervo"
     }
   ],
   "ui-bulk-edit.columns.HOLDINGS_RECORD.Holdings level call number suffix": [
     {
       "type": 0,
-      "value": "Sufixo do número de chamada de coleção"
+      "value": "Sufixo do número de chamada de acervo"
     }
   ],
   "ui-bulk-edit.columns.HOLDINGS_RECORD.Holdings level call number type": [
     {
       "type": 0,
-      "value": "Tipo de número de chamada de coleção"
+      "value": "Tipo de número de chamada de acervo"
     }
   ],
   "ui-bulk-edit.columns.HOLDINGS_RECORD.Holdings permanent location": [
     {
       "type": 0,
-      "value": "Localização permanente da coleção"
+      "value": "Localização permanente da acervo"
     }
   ],
   "ui-bulk-edit.columns.HOLDINGS_RECORD.Holdings record id": [
     {
       "type": 0,
-      "value": "ID da coleção"
+      "value": "ID da acervo"
     }
   ],
   "ui-bulk-edit.columns.HOLDINGS_RECORD.Holdings statement": [
     {
       "type": 0,
-      "value": "Declaração de coleção"
+      "value": "Declaração de acervo"
     }
   ],
   "ui-bulk-edit.columns.HOLDINGS_RECORD.Holdings statement for indexes": [
     {
       "type": 0,
-      "value": "Declaração de coleção para índices"
+      "value": "Declaração de acervo para índices"
     }
   ],
   "ui-bulk-edit.columns.HOLDINGS_RECORD.Holdings statement for supplements": [
     {
       "type": 0,
-      "value": "Declaração de coleção para suplementos"
+      "value": "Declaração de acervo para suplementos"
     }
   ],
   "ui-bulk-edit.columns.HOLDINGS_RECORD.Holdings statements": [
     {
       "type": 0,
-      "value": "Declaração de coleção"
+      "value": "Declaração de acervo"
     }
   ],
   "ui-bulk-edit.columns.HOLDINGS_RECORD.Holdings statements for indexes": [
     {
       "type": 0,
-      "value": "Declaração de coleção para índices"
+      "value": "Declaração de acervo para índices"
     }
   ],
   "ui-bulk-edit.columns.HOLDINGS_RECORD.Holdings statements for supplements": [
     {
       "type": 0,
-      "value": "Declaração de coleção para suplementos"
+      "value": "Declaração de acervo para suplementos"
     }
   ],
   "ui-bulk-edit.columns.HOLDINGS_RECORD.Holdings temporary location": [
     {
       "type": 0,
-      "value": "Localização temporária da coleção"
+      "value": "Localização temporária da acervo"
     }
   ],
   "ui-bulk-edit.columns.HOLDINGS_RECORD.Holdings type": [
     {
       "type": 0,
-      "value": "Tipo de coleção"
+      "value": "Tipo de acervo"
     }
   ],
   "ui-bulk-edit.columns.HOLDINGS_RECORD.Hrid": [
@@ -23157,7 +23157,7 @@
   "ui-bulk-edit.columns.HOLDINGS_RECORD.Suppress from discovery": [
     {
       "type": 0,
-      "value": "Oculto da descoberta"
+      "value": "Ocultar da descoberta"
     }
   ],
   "ui-bulk-edit.columns.HOLDINGS_RECORD.Tags": [
@@ -23349,7 +23349,7 @@
   "ui-bulk-edit.columns.INSTANCE.Suppress from discovery": [
     {
       "type": 0,
-      "value": "Oculto da descoberta"
+      "value": "Ocultar da descoberta"
     }
   ],
   "ui-bulk-edit.columns.ITEM.Accession Number": [
@@ -23529,19 +23529,19 @@
   "ui-bulk-edit.columns.ITEM.Holdings (Location, Call number)": [
     {
       "type": 0,
-      "value": "Coleção (localização, número de chamada)"
+      "value": "Acervo (localização, número de chamada)"
     }
   ],
   "ui-bulk-edit.columns.ITEM.Holdings Record Id": [
     {
       "type": 0,
-      "value": "ID dos registros de coleção"
+      "value": "ID dos registros de acervo"
     }
   ],
   "ui-bulk-edit.columns.ITEM.Holdings UUID": [
     {
       "type": 0,
-      "value": "UUID da coleção"
+      "value": "UUID da acervo"
     }
   ],
   "ui-bulk-edit.columns.ITEM.In Transit Destination Service Point": [
@@ -23823,7 +23823,7 @@
   "ui-bulk-edit.columns.ITEM.Suppress from discovery": [
     {
       "type": 0,
-      "value": "Oculto da descoberta"
+      "value": "Ocultar da descoberta"
     }
   ],
   "ui-bulk-edit.columns.ITEM.Tags": [
@@ -24398,7 +24398,7 @@
   "ui-bulk-edit.entityType.composite_holdings_record": [
     {
       "type": 0,
-      "value": "Coleções"
+      "value": "Acervos"
     }
   ],
   "ui-bulk-edit.entityType.composite_instances": [
@@ -24462,7 +24462,7 @@
   "ui-bulk-edit.layer.action.apply.APPLY_TO_HOLDINGS": [
     {
       "type": 0,
-      "value": "Aplicar a todos os registros de coleção"
+      "value": "Aplicar a todos os registros de acervo"
     }
   ],
   "ui-bulk-edit.layer.action.apply.APPLY_TO_ITEMS": [
@@ -24660,19 +24660,19 @@
   "ui-bulk-edit.layer.options.holdings.permanentLocation": [
     {
       "type": 0,
-      "value": "Localização da coleção permanente"
+      "value": "Localização da acervo permanente"
     }
   ],
   "ui-bulk-edit.layer.options.holdings.suppress": [
     {
       "type": 0,
-      "value": "Oculto da descoberta"
+      "value": "Ocultar da descoberta"
     }
   ],
   "ui-bulk-edit.layer.options.holdings.temporaryLocation": [
     {
       "type": 0,
-      "value": "Localização da coleção temporária"
+      "value": "Localização da acervo temporária"
     }
   ],
   "ui-bulk-edit.layer.options.holdings.uri": [
@@ -24714,7 +24714,7 @@
   "ui-bulk-edit.layer.options.instances.suppress": [
     {
       "type": 0,
-      "value": "Oculto da descoberta"
+      "value": "Ocultar da descoberta"
     }
   ],
   "ui-bulk-edit.layer.options.intellectual": [
@@ -24864,7 +24864,7 @@
   "ui-bulk-edit.layer.options.suppressFromDiscovery": [
     {
       "type": 0,
-      "value": "Oculto da descoberta"
+      "value": "Ocultar da descoberta"
     }
   ],
   "ui-bulk-edit.layer.options.temporary": [
@@ -25275,7 +25275,7 @@
   "ui-bulk-edit.list.filters.capabilities.holdings": [
     {
       "type": 0,
-      "value": "Inventário - Coleções"
+      "value": "Inventário - Acervos"
     }
   ],
   "ui-bulk-edit.list.filters.capabilities.instances": [
@@ -25335,13 +25335,13 @@
   "ui-bulk-edit.list.filters.recordIdentifier.holdings.holdingsHRID": [
     {
       "type": 0,
-      "value": "HRIDs de coleção"
+      "value": "HRIDs de acervo"
     }
   ],
   "ui-bulk-edit.list.filters.recordIdentifier.holdings.holdingsUUID": [
     {
       "type": 0,
-      "value": "UUIDs da coleção"
+      "value": "UUIDs da acervo"
     }
   ],
   "ui-bulk-edit.list.filters.recordIdentifier.holdings.instanceHRID": [
@@ -25413,7 +25413,7 @@
   "ui-bulk-edit.list.filters.recordIdentifier.item.holdingsUUID": [
     {
       "type": 0,
-      "value": "UUIDs da coleção"
+      "value": "UUIDs da acervo"
     }
   ],
   "ui-bulk-edit.list.filters.recordIdentifier.placeholder": [
@@ -25715,7 +25715,7 @@
   "ui-bulk-edit.list.result.emptyMessage.holdings.ID": [
     {
       "type": 0,
-      "value": "Arraste e solte ou escolha o arquivo com UUIDs de coleção."
+      "value": "Arraste e solte ou escolha o arquivo com UUIDs de acervo."
     }
   ],
   "ui-bulk-edit.list.result.emptyMessage.holdings.INSTANCE_HRID": [
@@ -25799,7 +25799,7 @@
   "ui-bulk-edit.list.result.emptyMessage.item.HOLDINGS_RECORD_ID": [
     {
       "type": 0,
-      "value": "Arraste e solte ou escolha o arquivo com UUIDs de coleção."
+      "value": "Arraste e solte ou escolha o arquivo com UUIDs de acervo."
     }
   ],
   "ui-bulk-edit.list.result.emptyMessage.item.HRID": [
@@ -25991,7 +25991,7 @@
   "ui-bulk-edit.logs.entityType.HOLDINGS_RECORD": [
     {
       "type": 0,
-      "value": "Inventário - Coleções"
+      "value": "Inventário - Acervos"
     }
   ],
   "ui-bulk-edit.logs.entityType.INSTANCE": [
@@ -26800,7 +26800,7 @@
   "ui-bulk-edit.settings.holdings": [
     {
       "type": 0,
-      "value": "Perfis de edição em massa de coleções"
+      "value": "Perfis de edição em massa de acervos"
     }
   ],
   "ui-bulk-edit.settings.holdingsProfiles": [
@@ -27014,7 +27014,7 @@
   "ui-bulk-edit.settings.profiles.form.name.copy": [
     {
       "type": 0,
-      "value": "Copy of "
+      "value": "Cópia de "
     },
     {
       "type": 1,
@@ -27229,7 +27229,7 @@
   "ui-bulk-edit.titleManager.settings.holdings": [
     {
       "type": 0,
-      "value": "Configurações de edição em massa - perfis de edição em massa de coleções"
+      "value": "Configurações de edição em massa - perfis de edição em massa de acervos"
     }
   ],
   "ui-bulk-edit.titleManager.settings.holdingsProfiles": [
@@ -44308,7 +44308,7 @@
     },
     {
       "type": 0,
-      "value": " e os registros de coleções desse locatário foram omitidos durante a exportação."
+      "value": " e os registros de acervos desse locatário foram omitidos durante a exportação."
     }
   ],
   "ui-data-export.error.holdings.noPermission": [
@@ -44326,7 +44326,7 @@
     },
     {
       "type": 0,
-      "value": " não tem permissões para acessar o registro de coleção no locatário de dados "
+      "value": " não tem permissões para acessar o registro de acervo no locatário de dados "
     },
     {
       "type": 1,
@@ -44360,7 +44360,7 @@
     },
     {
       "type": 0,
-      "value": " e as coleções e registros de itens desse locatário foram omitidos durante a exportação."
+      "value": " e as acervos e registros de itens desse locatário foram omitidos durante a exportação."
     }
   ],
   "ui-data-export.error.instance.noPermission": [
@@ -44378,7 +44378,7 @@
     },
     {
       "type": 0,
-      "value": " não tem permissões para visualizar coleções ou itens no(s) locatário(s) de dados "
+      "value": " não tem permissões para visualizar acervos ou itens no(s) locatário(s) de dados "
     },
     {
       "type": 1,
@@ -44386,7 +44386,7 @@
     },
     {
       "type": 0,
-      "value": ". Os registros de coleções e itens desse locatário foram omitidos durante a exportação."
+      "value": ". Os registros de acervos e itens desse locatário foram omitidos durante a exportação."
     }
   ],
   "ui-data-export.error.invalidCqlSyntax": [
@@ -44412,7 +44412,7 @@
   "ui-data-export.error.inventory.gettingHoldingsByInstanceId": [
     {
       "type": 0,
-      "value": "Erro ao obter coleções por ID de instância: "
+      "value": "Erro ao obter acervos por ID de instância: "
     },
     {
       "type": 1,
@@ -44440,7 +44440,7 @@
   "ui-data-export.error.inventory.gettingItemsByHoldingsId": [
     {
       "type": 0,
-      "value": "Erro ao obter itens pelo ID de coleção "
+      "value": "Erro ao obter itens pelo ID de acervo "
     },
     {
       "type": 1,
@@ -44660,7 +44660,7 @@
   "ui-data-export.error.tenantNotFoundForHolding": [
     {
       "type": 0,
-      "value": "Nenhum locatário pode ser encontrado para o registro de coleção "
+      "value": "Nenhum locatário pode ser encontrado para o registro de acervo "
     },
     {
       "type": 1,
@@ -44716,7 +44716,7 @@
     },
     {
       "type": 0,
-      "value": " não tem permissões para acessar o registro de coleção no locatário de dados "
+      "value": " não tem permissões para acessar o registro de acervo no locatário de dados "
     },
     {
       "type": 1,
@@ -44912,37 +44912,37 @@
   "ui-data-export.holdings": [
     {
       "type": 0,
-      "value": "Coleção"
+      "value": "Acervo"
     }
   ],
   "ui-data-export.holdings.callNumber": [
     {
       "type": 0,
-      "value": "Coleção - Número de chamada - Número de chamada"
+      "value": "Acervo - Número de chamada - Número de chamada"
     }
   ],
   "ui-data-export.holdings.callNumberPrefix": [
     {
       "type": 0,
-      "value": "Coleção - Número de chamada - Prefixo de número de chamada"
+      "value": "Acervo - Número de chamada - Prefixo de número de chamada"
     }
   ],
   "ui-data-export.holdings.callNumberSuffix": [
     {
       "type": 0,
-      "value": "Coleção - Número da chamada - Sufixo do número da chamada"
+      "value": "Acervo - Número da chamada - Sufixo do número da chamada"
     }
   ],
   "ui-data-export.holdings.callNumberType": [
     {
       "type": 0,
-      "value": "Coleção - Número da chamada - Tipo de número da chamada"
+      "value": "Acervo - Número da chamada - Tipo de número da chamada"
     }
   ],
   "ui-data-export.holdings.electronic.access.linkText": [
     {
       "type": 0,
-      "value": "Coleção - Acesso eletrônico - "
+      "value": "Acervo - Acesso eletrônico - "
     },
     {
       "type": 1,
@@ -44956,13 +44956,13 @@
   "ui-data-export.holdings.electronic.access.linkText.default": [
     {
       "type": 0,
-      "value": "Coleção - Acesso eletrônico - Link Text"
+      "value": "Acervo - Acesso eletrônico - Link Text"
     }
   ],
   "ui-data-export.holdings.electronic.access.materialsSpecification": [
     {
       "type": 0,
-      "value": "Coleção - Acesso eletrônico - "
+      "value": "Acervo - Acesso eletrônico - "
     },
     {
       "type": 1,
@@ -44976,13 +44976,13 @@
   "ui-data-export.holdings.electronic.access.materialsSpecification.default": [
     {
       "type": 0,
-      "value": "Coleção - Acesso eletrônico - Materiais especificados"
+      "value": "Acervo - Acesso eletrônico - Materiais especificados"
     }
   ],
   "ui-data-export.holdings.electronic.access.publicNote": [
     {
       "type": 0,
-      "value": "Coleção - Acesso eletrônico - "
+      "value": "Acervo - Acesso eletrônico - "
     },
     {
       "type": 1,
@@ -44996,13 +44996,13 @@
   "ui-data-export.holdings.electronic.access.publicNote.default": [
     {
       "type": 0,
-      "value": "Coleção - Acesso eletrônico - Nota pública do URL"
+      "value": "Acervo - Acesso eletrônico - Nota pública do URL"
     }
   ],
   "ui-data-export.holdings.electronic.access.uri": [
     {
       "type": 0,
-      "value": "Coleção - Acesso eletrônico - "
+      "value": "Acervo - Acesso eletrônico - "
     },
     {
       "type": 1,
@@ -45016,13 +45016,13 @@
   "ui-data-export.holdings.electronic.access.uri.default": [
     {
       "type": 0,
-      "value": "Coleção - Acesso eletrônico - URI"
+      "value": "Acervo - Acesso eletrônico - URI"
     }
   ],
   "ui-data-export.holdings.holdingNoteTypeId": [
     {
       "type": 0,
-      "value": "Coleção - Notas - "
+      "value": "Acervo - Notas - "
     },
     {
       "type": 1,
@@ -45032,7 +45032,7 @@
   "ui-data-export.holdings.holdingNoteTypeId.staffOnly": [
     {
       "type": 0,
-      "value": "Coleção - Notas - "
+      "value": "Acervo - Notas - "
     },
     {
       "type": 1,
@@ -45046,193 +45046,193 @@
   "ui-data-export.holdings.holdingsStatements.note": [
     {
       "type": 0,
-      "value": "Coleção - Nota de declaração de coleção - público"
+      "value": "Acervo - Nota de declaração de acervo - público"
     }
   ],
   "ui-data-export.holdings.holdingsStatements.staffNote": [
     {
       "type": 0,
-      "value": "Coleção - Nota de declaração de coleção - equipe"
+      "value": "Acervo - Nota de declaração de acervo - equipe"
     }
   ],
   "ui-data-export.holdings.holdingsStatements.statement": [
     {
       "type": 0,
-      "value": "Coleção - Declaração de coleção"
+      "value": "Acervo - Declaração de acervo"
     }
   ],
   "ui-data-export.holdings.holdingsStatementsForIndexes.note": [
     {
       "type": 0,
-      "value": "Coleção - Demonstração de coleção para notas de índices - público"
+      "value": "Acervo - Demonstração de acervo para notas de índices - público"
     }
   ],
   "ui-data-export.holdings.holdingsStatementsForIndexes.staffNote": [
     {
       "type": 0,
-      "value": "Coleção - Declaração de coleção para nota de índices - equipe"
+      "value": "Acervo - Declaração de acervo para nota de índices - equipe"
     }
   ],
   "ui-data-export.holdings.holdingsStatementsForIndexes.statement": [
     {
       "type": 0,
-      "value": "Coleção - Declaração de coleção para índices"
+      "value": "Acervo - Declaração de acervo para índices"
     }
   ],
   "ui-data-export.holdings.holdingsStatementsForSupplements.note": [
     {
       "type": 0,
-      "value": "Coleção - Declaração de coleção para nota de suplementos - público"
+      "value": "Acervo - Declaração de acervo para nota de suplementos - público"
     }
   ],
   "ui-data-export.holdings.holdingsStatementsForSupplements.staffNote": [
     {
       "type": 0,
-      "value": "Coleção - Declaração de coleção para nota de suplementos - equipe"
+      "value": "Acervo - Declaração de acervo para nota de suplementos - equipe"
     }
   ],
   "ui-data-export.holdings.holdingsStatementsForSupplements.statement": [
     {
       "type": 0,
-      "value": "Coleção - Declaração de coleção para suplementos"
+      "value": "Acervo - Declaração de acervo para suplementos"
     }
   ],
   "ui-data-export.holdings.hrid": [
     {
       "type": 0,
-      "value": "Coleção - HRID"
+      "value": "Acervo - HRID"
     }
   ],
   "ui-data-export.holdings.id": [
     {
       "type": 0,
-      "value": "Coleção - ID"
+      "value": "Acervo - ID"
     }
   ],
   "ui-data-export.holdings.instanceId": [
     {
       "type": 0,
-      "value": "Coleção - Instância - ID"
+      "value": "Acervo - Instância - ID"
     }
   ],
   "ui-data-export.holdings.metadata.createdByUserId": [
     {
       "type": 0,
-      "value": "Coleção - Criado por"
+      "value": "Acervo - Criado por"
     }
   ],
   "ui-data-export.holdings.metadata.createdDate": [
     {
       "type": 0,
-      "value": "Coleção - Data de criação"
+      "value": "Acervo - Data de criação"
     }
   ],
   "ui-data-export.holdings.metadata.updatedByUserId": [
     {
       "type": 0,
-      "value": "Coleção - Atualizado por"
+      "value": "Acervo - Atualizado por"
     }
   ],
   "ui-data-export.holdings.metadata.updatedDate": [
     {
       "type": 0,
-      "value": "Coleção - Data de atualização"
+      "value": "Acervo - Data de atualização"
     }
   ],
   "ui-data-export.holdings.permanentLocation.campus.code": [
     {
       "type": 0,
-      "value": "Coleção - Localização permanente - Campus - Código"
+      "value": "Acervo - Localização permanente - Campus - Código"
     }
   ],
   "ui-data-export.holdings.permanentLocation.campus.name": [
     {
       "type": 0,
-      "value": "Coleção - Localização permanente - Campus"
+      "value": "Acervo - Localização permanente - Campus"
     }
   ],
   "ui-data-export.holdings.permanentLocation.code": [
     {
       "type": 0,
-      "value": "Coleção - Localização permanente - Código"
+      "value": "Acervo - Localização permanente - Código"
     }
   ],
   "ui-data-export.holdings.permanentLocation.institution.code": [
     {
       "type": 0,
-      "value": "Coleção - Localização permanente - Instituição - Código"
+      "value": "Acervo - Localização permanente - Instituição - Código"
     }
   ],
   "ui-data-export.holdings.permanentLocation.institution.name": [
     {
       "type": 0,
-      "value": "Coleção - Localização permanente - Instituição"
+      "value": "Acervo - Localização permanente - Instituição"
     }
   ],
   "ui-data-export.holdings.permanentLocation.library.code": [
     {
       "type": 0,
-      "value": "Coleção - Localização permanente - Biblioteca - Código"
+      "value": "Acervo - Localização permanente - Biblioteca - Código"
     }
   ],
   "ui-data-export.holdings.permanentLocation.library.name": [
     {
       "type": 0,
-      "value": "Coleção - Localização permanente - Biblioteca"
+      "value": "Acervo - Localização permanente - Biblioteca"
     }
   ],
   "ui-data-export.holdings.permanentLocation.name": [
     {
       "type": 0,
-      "value": "Coleção - Localização permanente"
+      "value": "Acervo - Localização permanente"
     }
   ],
   "ui-data-export.holdings.temporaryLocation.campus.code": [
     {
       "type": 0,
-      "value": "Coleção - Localização temporária - Campus - Código"
+      "value": "Acervo - Localização temporária - Campus - Código"
     }
   ],
   "ui-data-export.holdings.temporaryLocation.campus.name": [
     {
       "type": 0,
-      "value": "Coleção - Localização temporária - Campus"
+      "value": "Acervo - Localização temporária - Campus"
     }
   ],
   "ui-data-export.holdings.temporaryLocation.code": [
     {
       "type": 0,
-      "value": "Coleção - Localização temporária - Código"
+      "value": "Acervo - Localização temporária - Código"
     }
   ],
   "ui-data-export.holdings.temporaryLocation.institution.code": [
     {
       "type": 0,
-      "value": "Coleção - Localização temporária - Instituição - Código"
+      "value": "Acervo - Localização temporária - Instituição - Código"
     }
   ],
   "ui-data-export.holdings.temporaryLocation.institution.name": [
     {
       "type": 0,
-      "value": "Coleção - Localização temporária - Instituição"
+      "value": "Acervo - Localização temporária - Instituição"
     }
   ],
   "ui-data-export.holdings.temporaryLocation.library.code": [
     {
       "type": 0,
-      "value": "Coleção - Localização temporária - Biblioteca - Código"
+      "value": "Acervo - Localização temporária - Biblioteca - Código"
     }
   ],
   "ui-data-export.holdings.temporaryLocation.library.name": [
     {
       "type": 0,
-      "value": "Coleção - Localização temporária - Biblioteca"
+      "value": "Acervo - Localização temporária - Biblioteca"
     }
   ],
   "ui-data-export.holdings.temporaryLocation.name": [
     {
       "type": 0,
-      "value": "Coleção - Localização temporária"
+      "value": "Acervo - Localização temporária"
     }
   ],
   "ui-data-export.inProgressStatus": [
@@ -45654,7 +45654,7 @@
   "ui-data-export.item.holdingsRecordId": [
     {
       "type": 0,
-      "value": "Item - ID de coleção"
+      "value": "Item - ID de acervo"
     }
   ],
   "ui-data-export.item.hrid": [
@@ -47015,7 +47015,7 @@
   "ui-data-import.actionProfilesForm.recordTypes.marc-hold": [
     {
       "type": 0,
-      "value": "Coleção MARC"
+      "value": "Acervo MARC"
     }
   ],
   "ui-data-import.actionSelect.create": [
@@ -48028,7 +48028,7 @@
   "ui-data-import.logViewer.filter.holdings": [
     {
       "type": 0,
-      "value": "Coleção"
+      "value": "Acervo"
     }
   ],
   "ui-data-import.logViewer.filter.incomingRecord": [
@@ -49330,7 +49330,7 @@
   "ui-data-import.recordTypes.holdings": [
     {
       "type": 0,
-      "value": "Coleção"
+      "value": "Acervo"
     }
   ],
   "ui-data-import.recordTypes.instance": [
@@ -49366,7 +49366,7 @@
   "ui-data-import.recordTypes.marc-hold": [
     {
       "type": 0,
-      "value": "Coleção MARC"
+      "value": "Acervo MARC"
     }
   ],
   "ui-data-import.recordTypes.order": [
@@ -49562,7 +49562,7 @@
   "ui-data-import.selectAction.create": [
     {
       "type": 0,
-      "value": "Criar (todos os tipos de registro, exceto MARC Bibliográfico, MARC Autoridade ou MARC Coleções)"
+      "value": "Criar (todos os tipos de registro, exceto MARC Bibliográfico, MARC Autoridade ou MARC Acervos)"
     }
   ],
   "ui-data-import.selectAction.modify": [
@@ -49574,7 +49574,7 @@
   "ui-data-import.selectAction.update": [
     {
       "type": 0,
-      "value": "Atualizar (todos os tipos de registros exceto Pedidos, Faturas ou MARC coleções)"
+      "value": "Atualizar (todos os tipos de registros exceto Pedidos, Faturas ou MARC acervos)"
     }
   ],
   "ui-data-import.selectAll": [
@@ -50379,7 +50379,7 @@
   "ui-data-import.settings.mappingProfiles.map.administrativeData.field.discoverySuppress": [
     {
       "type": 0,
-      "value": "Oculto da descoberta"
+      "value": "Ocultar da descoberta"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.administrativeData.field.keepAllAffectedRecords": [
@@ -50499,13 +50499,13 @@
   "ui-data-import.settings.mappingProfiles.map.field.holdingsNotes.addLabel": [
     {
       "type": 0,
-      "value": "Adicionar nota de coleção"
+      "value": "Adicionar nota de acervo"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.field.holdingsNotes.legend": [
     {
       "type": 0,
-      "value": "Notas de coleção"
+      "value": "Notas de acervo"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.field.notes.note": [
@@ -50553,7 +50553,7 @@
   "ui-data-import.settings.mappingProfiles.map.holdings": [
     {
       "type": 0,
-      "value": "Coleção"
+      "value": "Acervo"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.holdings.acquisitionsData.field.purchaseOrderLineNumber": [
@@ -50571,37 +50571,37 @@
   "ui-data-import.settings.mappingProfiles.map.holdings.administrativeData.field.formerId": [
     {
       "type": 0,
-      "value": "ID da coleção anteriores"
+      "value": "ID da acervo anteriores"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.holdings.administrativeData.field.formerId.addLabel": [
     {
       "type": 0,
-      "value": "Adicionar identificador da coleção anteriores"
+      "value": "Adicionar identificador da acervo anteriores"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.holdings.administrativeData.field.formerId.legend": [
     {
       "type": 0,
-      "value": "Coleções anteriores"
+      "value": "Acervos anteriores"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.holdings.administrativeData.field.holdingsTypeId": [
     {
       "type": 0,
-      "value": "Tipo de coleção"
+      "value": "Tipo de acervo"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.holdings.administrativeData.field.hrid": [
     {
       "type": 0,
-      "value": "HRID da coleção"
+      "value": "HRID da acervo"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.holdings.administrativeData.field.id": [
     {
       "type": 0,
-      "value": "UUID de coleção"
+      "value": "UUID de acervo"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.holdings.details.field.numberOfItems": [
@@ -50613,7 +50613,7 @@
   "ui-data-import.settings.mappingProfiles.map.holdings.details.section": [
     {
       "type": 0,
-      "value": "Detalhes de coleção"
+      "value": "Detalhes de acervo"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.holdings.field.digitizationPolicy": [
@@ -50637,7 +50637,7 @@
   "ui-data-import.settings.mappingProfiles.map.holdings.holdingsNotes.section": [
     {
       "type": 0,
-      "value": "Notas de coleção"
+      "value": "Notas de acervo"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.holdings.location.field.shelvingOrder": [
@@ -50655,19 +50655,19 @@
   "ui-data-import.settings.mappingProfiles.map.holdings.statements.field.holdingsStatement": [
     {
       "type": 0,
-      "value": "Declaração de coleção"
+      "value": "Declaração de acervo"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.holdings.statements.field.holdingsStatement.addLabel": [
     {
       "type": 0,
-      "value": "Adicionar declaração de coleção"
+      "value": "Adicionar declaração de acervo"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.holdings.statements.field.holdingsStatement.legend": [
     {
       "type": 0,
-      "value": "Declaração de coleção"
+      "value": "Declaração de acervo"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.holdings.statements.field.holdingsStatementPublicNote": [
@@ -51773,7 +51773,7 @@
   "ui-data-import.settings.mappingProfiles.map.item.requiredWhenCreatingHoldings.info": [
     {
       "type": 0,
-      "value": "Necessário ao criar Coleção"
+      "value": "Necessário ao criar Acervo"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.item.requiredWhenCreatingItem.info": [
@@ -51899,7 +51899,7 @@
   "ui-data-import.settings.mappingProfiles.map.marcHoldings": [
     {
       "type": 0,
-      "value": "Coleção MARC"
+      "value": "Acervo MARC"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.order": [
@@ -52133,7 +52133,7 @@
   "ui-data-import.settings.mappingProfiles.map.order.eResourcesDetails.field.materialType.info": [
     {
       "type": 0,
-      "value": "Necessário quando o formato do pedido é recurso eletrônico ou misto Impresso/Eletrônico; e Criar inventário é Instância, coleção, item"
+      "value": "Necessário quando o formato do pedido é recurso eletrônico ou misto Impresso/Eletrônico; e Criar inventário é Instância, acervo, item"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.order.eResourcesDetails.field.trial": [
@@ -52379,7 +52379,7 @@
   "ui-data-import.settings.mappingProfiles.map.order.location.field.name.info": [
     {
       "type": 0,
-      "value": "Necessário quando Criar inventário para Instância, coleção, item ou Instância, coleção"
+      "value": "Necessário quando Criar inventário para Instância, acervo, item ou Instância, acervo"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.order.location.field.quantityElectronic": [
@@ -52391,7 +52391,7 @@
   "ui-data-import.settings.mappingProfiles.map.order.location.field.quantityElectronic.info": [
     {
       "type": 0,
-      "value": "Necessário quando Criar inventário é Instância, coleção, item ou Instância, coleção; e o formato do pedido é recurso eletrônico ou misto de Impresso/Eletrônico"
+      "value": "Necessário quando Criar inventário é Instância, acervo, item ou Instância, acervo; e o formato do pedido é recurso eletrônico ou misto de Impresso/Eletrônico"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.order.location.field.quantityPhysical": [
@@ -52403,7 +52403,7 @@
   "ui-data-import.settings.mappingProfiles.map.order.location.field.quantityPhysical.info": [
     {
       "type": 0,
-      "value": "Necessário quando Criar inventário para Instância, coleção, item ou Instância, coleção; e o formato adquirido é recurso físico, misto de impresso/eletrônico ou outro"
+      "value": "Necessário quando Criar inventário para Instância, acervo, item ou Instância, acervo; e o formato adquirido é recurso físico, misto de impresso/eletrônico ou outro"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.order.location.locationId": [
@@ -52883,13 +52883,13 @@
   "ui-data-import.settings.mappingProfiles.map.order.physicalResourceDetails.field.instanceHoldings": [
     {
       "type": 0,
-      "value": "Instância, coleção"
+      "value": "Instância, acervo"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.order.physicalResourceDetails.field.instanceHoldingsItems": [
     {
       "type": 0,
-      "value": "Instância, coleção, item"
+      "value": "Instância, acervo, item"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.order.physicalResourceDetails.field.materialSupplier": [
@@ -52907,7 +52907,7 @@
   "ui-data-import.settings.mappingProfiles.map.order.physicalResourceDetails.field.materialType.info": [
     {
       "type": 0,
-      "value": "Necessário quando o formato do pedido for recurso físico, misto de Impresso/Eletrônico ou outro; e Criar inventário é Instância, coleção, item"
+      "value": "Necessário quando o formato do pedido for recurso físico, misto de Impresso/Eletrônico ou outro; e Criar inventário é Instância, acervo, item"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.order.physicalResourceDetails.field.none": [
@@ -53315,25 +53315,25 @@
   "ui-data-import.settings.mappingProfiles.map.statements.field.holdingsStatementsForIndexes.addLabel": [
     {
       "type": 0,
-      "value": "Adicionar declaração de coleção para índices"
+      "value": "Adicionar declaração de acervo para índices"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.statements.field.holdingsStatementsForIndexes.legend": [
     {
       "type": 0,
-      "value": "Declaração de coleção para índices"
+      "value": "Declaração de acervo para índices"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.statements.field.holdingsStatementsForSupplements.addLabel": [
     {
       "type": 0,
-      "value": "Adicionar declaração de coleção para suplemento"
+      "value": "Adicionar declaração de acervo para suplemento"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.statements.field.holdingsStatementsForSupplements.legend": [
     {
       "type": 0,
-      "value": "Declaração de coleção para suplemento"
+      "value": "Declaração de acervo para suplemento"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.titleData.alternativeTitles.field.alternativeTitle": [
@@ -54155,43 +54155,43 @@
   "ui-data-import.settings.matchProfiles.holdingsDetails": [
     {
       "type": 0,
-      "value": "Detalhes da coleção"
+      "value": "Detalhes da acervo"
     }
   ],
   "ui-data-import.settings.matchProfiles.holdingsNotes": [
     {
       "type": 0,
-      "value": "Notas de coleção"
+      "value": "Notas de acervo"
     }
   ],
   "ui-data-import.settings.matchProfiles.holdingsStatementForIndexes": [
     {
       "type": 0,
-      "value": "Declaração de coleção para índices"
+      "value": "Declaração de acervo para índices"
     }
   ],
   "ui-data-import.settings.matchProfiles.holdingsStatementForIndexesNote": [
     {
       "type": 0,
-      "value": "Nota de declaração de coleção para índices"
+      "value": "Nota de declaração de acervo para índices"
     }
   ],
   "ui-data-import.settings.matchProfiles.holdingsStatementForSupplements": [
     {
       "type": 0,
-      "value": "Declaração de coleção para suplementos"
+      "value": "Declaração de acervo para suplementos"
     }
   ],
   "ui-data-import.settings.matchProfiles.holdingsStatementForSupplementsNote": [
     {
       "type": 0,
-      "value": "Nota de declaração de coleção para suplementos"
+      "value": "Nota de declaração de acervo para suplementos"
     }
   ],
   "ui-data-import.settings.matchProfiles.holdingsStatementNote": [
     {
       "type": 0,
-      "value": "Nota de declaração de coleção"
+      "value": "Nota de declaração de acervo"
     }
   ],
   "ui-data-import.settings.matchProfiles.identifier": [
@@ -57118,19 +57118,19 @@
   "ui-eholdings.addAllToHoldings": [
     {
       "type": 0,
-      "value": "Adicionar todos os títulos a coleção"
+      "value": "Adicionar todos os títulos a acervo"
     }
   ],
   "ui-eholdings.addPackageToHoldings": [
     {
       "type": 0,
-      "value": "Adicionar pacote a coleção"
+      "value": "Adicionar pacote a acervo"
     }
   ],
   "ui-eholdings.addToHoldings": [
     {
       "type": 0,
-      "value": "Adicionar a coleção"
+      "value": "Adicionar a acervo"
     }
   ],
   "ui-eholdings.agreements": [
@@ -57142,13 +57142,13 @@
   "ui-eholdings.agreements.accordion.add": [
     {
       "type": 0,
-      "value": "Adiciona registro de pacote/título Coleção eletrônica como uma Linha de Contrato para outro Contrato"
+      "value": "Adiciona registro de pacote/título Acervo eletrônico como uma Linha de Contrato para outro Contrato"
     }
   ],
   "ui-eholdings.agreements.accordion.new": [
     {
       "type": 0,
-      "value": "Cria um novo contrato e, em seguida, adiciona o registro de pacote/título Coleção eletrônica como uma Linha de Contrato a ele"
+      "value": "Cria um novo contrato e, em seguida, adiciona o registro de pacote/título Acervo eletrônico como uma Linha de Contrato a ele"
     }
   ],
   "ui-eholdings.agreements.delete": [
@@ -57468,7 +57468,7 @@
   "ui-eholdings.exportPackageResources.fields.package.holdingStatus": [
     {
       "type": 0,
-      "value": "Status da coleção"
+      "value": "Status da acervo"
     }
   ],
   "ui-eholdings.exportPackageResources.fields.package.id": [
@@ -57612,7 +57612,7 @@
   "ui-eholdings.exportPackageResources.fields.title.holdingStatus": [
     {
       "type": 0,
-      "value": "Status da coleção"
+      "value": "Status da acervo"
     }
   ],
   "ui-eholdings.exportPackageResources.fields.title.isbn_online": [
@@ -57854,7 +57854,7 @@
       "children": [
         {
           "type": 0,
-          "value": "exportação de coleção eletrônica (ID do trabalho: "
+          "value": "exportação de acervo eletrônica (ID do trabalho: "
         },
         {
           "type": 1,
@@ -58270,7 +58270,7 @@
   "ui-eholdings.label.holdingStatus": [
     {
       "type": 0,
-      "value": "Status da coleção"
+      "value": "Status da acervo"
     }
   ],
   "ui-eholdings.label.icon.closeX": [
@@ -58468,7 +58468,7 @@
   "ui-eholdings.label.settings": [
     {
       "type": 0,
-      "value": "Configurações de Coleção eletrônica"
+      "value": "Configurações de Acervo eletrônico"
     }
   ],
   "ui-eholdings.label.showToPatrons": [
@@ -58588,7 +58588,7 @@
   "ui-eholdings.meta.title": [
     {
       "type": 0,
-      "value": "Coleção eletrônica"
+      "value": "Acervo eletrônico"
     }
   ],
   "ui-eholdings.name": [
@@ -58642,7 +58642,7 @@
   "ui-eholdings.navigation.app": [
     {
       "type": 0,
-      "value": "Buscar do aplicativo Coleção eletrônica"
+      "value": "Buscar do aplicativo Acervo eletrônico"
     }
   ],
   "ui-eholdings.navigation.content": [
@@ -58886,7 +58886,7 @@
   "ui-eholdings.package.addToHoldings": [
     {
       "type": 0,
-      "value": "Adicionar a coleção"
+      "value": "Adicionar a acervo"
     }
   ],
   "ui-eholdings.package.addToken": [
@@ -58928,7 +58928,7 @@
   "ui-eholdings.package.customCoverage.notSelected": [
     {
       "type": 0,
-      "value": "Adicione o pacote a coleção para definir datas de cobertura personalizadas."
+      "value": "Adicione o pacote a acervo para definir datas de cobertura personalizadas."
     }
   ],
   "ui-eholdings.package.customCoverage.notSet": [
@@ -58952,7 +58952,7 @@
   "ui-eholdings.package.modal.body": [
     {
       "type": 0,
-      "value": "Tem certeza de que deseja remover este pacote e todos os seus títulos de sua coleção? Todas as personalizações serão perdidas."
+      "value": "Tem certeza de que deseja remover este pacote e todos os seus títulos de sua acervo? Todas as personalizações serão perdidas."
     }
   ],
   "ui-eholdings.package.modal.body.isCustom": [
@@ -59000,7 +59000,7 @@
   "ui-eholdings.package.modal.header": [
     {
       "type": 0,
-      "value": "Remover pacote da coleção?"
+      "value": "Remover pacote da acervo?"
     }
   ],
   "ui-eholdings.package.modal.header.isCustom": [
@@ -59012,7 +59012,7 @@
   "ui-eholdings.package.modalMessageBody": [
     {
       "type": 0,
-      "value": "Tem certeza de que deseja remover este pacote e todos os seus títulos de sua coleção? Todas as personalizações serão perdidas."
+      "value": "Tem certeza de que deseja remover este pacote e todos os seus títulos de sua acervo? Todas as personalizações serão perdidas."
     }
   ],
   "ui-eholdings.package.modalMessageBody.isCustom": [
@@ -59060,7 +59060,7 @@
   "ui-eholdings.package.modalMessageHeader": [
     {
       "type": 0,
-      "value": "Remover pacote da coleção?"
+      "value": "Remover pacote da acervo?"
     }
   ],
   "ui-eholdings.package.modalMessageHeader.isCustom": [
@@ -59150,7 +59150,7 @@
   "ui-eholdings.package.removeFromHoldings": [
     {
       "type": 0,
-      "value": "Remover da coleção"
+      "value": "Remover da acervo"
     }
   ],
   "ui-eholdings.package.resultsNotFound": [
@@ -59240,7 +59240,7 @@
   "ui-eholdings.package.visibility.notSelected": [
     {
       "type": 0,
-      "value": "Adicione o pacote a coleção para personalizar as configurações do pacote."
+      "value": "Adicione o pacote a acervo para personalizar as configurações do pacote."
     }
   ],
   "ui-eholdings.packages.filter": [
@@ -59258,13 +59258,13 @@
   "ui-eholdings.permission.app.view": [
     {
       "type": 0,
-      "value": "Coleção eletrônica: Pode visualizar fornecedores, pacotes, registros detalhados de títulos"
+      "value": "Acervo eletrônico: Pode visualizar fornecedores, pacotes, registros detalhados de títulos"
     }
   ],
   "ui-eholdings.permission.costperuse.view": [
     {
       "type": 0,
-      "value": "Coleção eletrônica: Pode visualizar dados de uso e análise de pacotes, títulos e recursos"
+      "value": "Acervo eletrônico: Pode visualizar dados de uso e análise de pacotes, títulos e recursos"
     }
   ],
   "ui-eholdings.permission.package-title.select-unselect": [
@@ -59276,85 +59276,85 @@
   "ui-eholdings.permission.package-title.select-unselect.execute": [
     {
       "type": 0,
-      "value": "Coleção eletrônica: Pode selecionar/desmarcar pacotes e títulos de/para sua coleção"
+      "value": "Acervo eletrônico: Pode selecionar/desmarcar pacotes e títulos de/para sua acervo"
     }
   ],
   "ui-eholdings.permission.records.edit": [
     {
       "type": 0,
-      "value": "Coleção eletrônica: Pode editar provedores, pacotes, registros detalhados de títulos"
+      "value": "Acervo eletrônico: Pode editar provedores, pacotes, registros detalhados de títulos"
     }
   ],
   "ui-eholdings.permission.settings.access-types.all": [
     {
       "type": 0,
-      "value": "Configurações (Coleção eletrônica): Pode criar, editar, visualizar e excluir tipos de status de acesso"
+      "value": "Configurações (Acervo eletrônico): Pode criar, editar, visualizar e excluir tipos de status de acesso"
     }
   ],
   "ui-eholdings.permission.settings.access-types.create-edit": [
     {
       "type": 0,
-      "value": "Configurações (Coleção eletrônica): Pode criar, editar e visualizar tipos de status de acesso"
+      "value": "Configurações (Acervo eletrônico): Pode criar, editar e visualizar tipos de status de acesso"
     }
   ],
   "ui-eholdings.permission.settings.access-types.view": [
     {
       "type": 0,
-      "value": "Configurações (Coleção eletrônica): Pode ver os tipos de status de acesso"
+      "value": "Configurações (Acervo eletrônico): Pode ver os tipos de status de acesso"
     }
   ],
   "ui-eholdings.permission.settings.assignedUser": [
     {
       "type": 0,
-      "value": "Configurações (Coleção eletrônica): Pode atribuir/cancelar a atribuição de um usuário de uma base de conhecimento"
+      "value": "Configurações (Acervo eletrônico): Pode atribuir/cancelar a atribuição de um usuário de uma base de conhecimento"
     }
   ],
   "ui-eholdings.permission.settings.custom-labels.all": [
     {
       "type": 0,
-      "value": "Configurações (Coleção eletrônica): Pode criar, editar, visualizar e excluir etiquetas personalizadas"
+      "value": "Configurações (Acervo eletrônico): Pode criar, editar, visualizar e excluir etiquetas personalizadas"
     }
   ],
   "ui-eholdings.permission.settings.custom-labels.view": [
     {
       "type": 0,
-      "value": "Configurações (Coleção eletrônica): Pode visualizar etiquetas personalizadas"
+      "value": "Configurações (Acervo eletrônico): Pode visualizar etiquetas personalizadas"
     }
   ],
   "ui-eholdings.permission.settings.enabled": [
     {
       "type": 0,
-      "value": "Configurações (Coleção eletrônica): Ver configurações"
+      "value": "Configurações (Acervo eletrônico): Ver configurações"
     }
   ],
   "ui-eholdings.permission.settings.kb": [
     {
       "type": 0,
-      "value": "Configurações (Coleção eletrônica): Podem criar, editar e visualizar credenciais da base de conhecimento"
+      "value": "Configurações (Acervo eletrônico): Podem criar, editar e visualizar credenciais da base de conhecimento"
     }
   ],
   "ui-eholdings.permission.settings.kb.delete": [
     {
       "type": 0,
-      "value": "Configurações (Coleção eletrônica): Pode excluir credenciais da Base de Conhecimento"
+      "value": "Configurações (Acervo eletrônico): Pode excluir credenciais da Base de Conhecimento"
     }
   ],
   "ui-eholdings.permission.settings.root-proxy": [
     {
       "type": 0,
-      "value": "Configurações (Coleção eletrônica): define a configuração da raiz do procurador"
+      "value": "Configurações (Acervo eletrônico): define a configuração da raiz do procurador"
     }
   ],
   "ui-eholdings.permission.settings.usage-consolidation.create-edit": [
     {
       "type": 0,
-      "value": "Configurações (Coleção eletrônica): Criar, editar e visualizar as credenciais API de consolidação de uso"
+      "value": "Configurações (Acervo eletrônico): Criar, editar e visualizar as credenciais API de consolidação de uso"
     }
   ],
   "ui-eholdings.permission.settings.usage-consolidation.view": [
     {
       "type": 0,
-      "value": "Configurações (Coleção eletrônica): Exibir credenciais de API de consolidação de uso"
+      "value": "Configurações (Acervo eletrônico): Exibir credenciais de API de consolidação de uso"
     }
   ],
   "ui-eholdings.permission.titles-packages.create-delete": [
@@ -59366,7 +59366,7 @@
   "ui-eholdings.permission.titles-packages.create-delete.manage": [
     {
       "type": 0,
-      "value": "Coleção eletrônica: Pode criar e excluir pacotes e títulos personalizados"
+      "value": "Acervo eletrônico: Pode criar e excluir pacotes e títulos personalizados"
     }
   ],
   "ui-eholdings.previous": [
@@ -59384,7 +59384,7 @@
   "ui-eholdings.provider.noPackagesSelected": [
     {
       "type": 0,
-      "value": "Adicione qualquer pacote deste fornecedor a coleção para personalizar as configurações do fornecedor."
+      "value": "Adicione qualquer pacote deste fornecedor a acervo para personalizar as configurações do fornecedor."
     }
   ],
   "ui-eholdings.provider.noTokenSet": [
@@ -59486,7 +59486,7 @@
   "ui-eholdings.resource.actionMenu.addHolding": [
     {
       "type": 0,
-      "value": "Adicionar a coleção"
+      "value": "Adicionar a acervo"
     }
   ],
   "ui-eholdings.resource.actionMenu.cancelEditing": [
@@ -59504,7 +59504,7 @@
   "ui-eholdings.resource.actionMenu.removeHolding": [
     {
       "type": 0,
-      "value": "Remover título da coleção"
+      "value": "Remover título da acervo"
     }
   ],
   "ui-eholdings.resource.coverage.noCustomizations": [
@@ -59516,7 +59516,7 @@
   "ui-eholdings.resource.coverage.notSelected": [
     {
       "type": 0,
-      "value": "Adicione o recurso a coleção para personalizar a cobertura."
+      "value": "Adicione o recurso a acervo para personalizar a cobertura."
     }
   ],
   "ui-eholdings.resource.coverageDates.notSet": [
@@ -59628,13 +59628,13 @@
   "ui-eholdings.resource.modal.body": [
     {
       "type": 0,
-      "value": "Tem certeza de que deseja remover este título de sua coleção? Ao remover este título, você perderá toda a personalização deste título apenas neste pacote."
+      "value": "Tem certeza de que deseja remover este título de sua acervo? Ao remover este título, você perderá toda a personalização deste título apenas neste pacote."
     }
   ],
   "ui-eholdings.resource.modal.body.isCustom.lastTitle": [
     {
       "type": 0,
-      "value": "Tem certeza de que deseja remover este título de sua coleção? É também o último título selecionado neste pacote. Ao remover este título, você também removerá este pacote de sua coleção e todas as personalizações serão perdidas."
+      "value": "Tem certeza de que deseja remover este título de sua acervo? É também o último título selecionado neste pacote. Ao remover este título, você também removerá este pacote de sua acervo e todas as personalizações serão perdidas."
     }
   ],
   "ui-eholdings.resource.modal.buttonCancel": [
@@ -59658,7 +59658,7 @@
   "ui-eholdings.resource.modal.header": [
     {
       "type": 0,
-      "value": "Remover título da coleção?"
+      "value": "Remover título da acervo?"
     }
   ],
   "ui-eholdings.resource.packageContentType": [
@@ -59682,19 +59682,19 @@
   "ui-eholdings.resource.resourceSettings.notSelected": [
     {
       "type": 0,
-      "value": "Adicione o recurso a coleção para personalizar a configuração dos recursos."
+      "value": "Adicione o recurso a acervo para personalizar a configuração dos recursos."
     }
   ],
   "ui-eholdings.resource.show.modal.body": [
     {
       "type": 0,
-      "value": "Tem certeza de que deseja remover este título de sua coleção? Todas as personalizações serão perdidas."
+      "value": "Tem certeza de que deseja remover este título de sua acervo? Todas as personalizações serão perdidas."
     }
   ],
   "ui-eholdings.resource.show.modal.header": [
     {
       "type": 0,
-      "value": "Remover recurso da coleção?"
+      "value": "Remover recurso da acervo?"
     }
   ],
   "ui-eholdings.resource.toast.isFreshlySaved": [
@@ -59857,13 +59857,13 @@
   "ui-eholdings.selectPackage.confirmationModal.confirmationButtonText": [
     {
       "type": 0,
-      "value": "Adicionar pacote (todos os títulos) a coleção"
+      "value": "Adicionar pacote (todos os títulos) a acervo"
     }
   ],
   "ui-eholdings.selectPackage.confirmationModal.label": [
     {
       "type": 0,
-      "value": "Adicionar todos os títulos em um pacote a coleção"
+      "value": "Adicionar todos os títulos em um pacote a acervo"
     }
   ],
   "ui-eholdings.selectPackage.confirmationModal.message": [
@@ -59883,13 +59883,13 @@
     },
     {
       "type": 0,
-      "value": " neste pacote aos sua coleção. Para continuar esta ação, selecione "
+      "value": " neste pacote aos sua acervo. Para continuar esta ação, selecione "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Adicionar pacote (todos os títulos) a coleção"
+          "value": "Adicionar pacote (todos os títulos) a acervo"
         }
       ],
       "type": 8,
@@ -59951,13 +59951,13 @@
   "ui-eholdings.server.errors.configureKbLinkText": [
     {
       "type": 0,
-      "value": "Configurações/Coleção eletrônica"
+      "value": "Configurações/Acervo eletrônico"
     }
   ],
   "ui-eholdings.server.errors.detectedUnconfiguredKb": [
     {
       "type": 0,
-      "value": "O aplicativo Coleção eletrônica detectou a presença de uma Base de Conhecimento, mas a Base de Conhecimento não parece estar configurada."
+      "value": "O aplicativo Acervo eletrônico detectou a presença de uma Base de Conhecimento, mas a Base de Conhecimento não parece estar configurada."
     }
   ],
   "ui-eholdings.server.errors.errorDuringFetch": [
@@ -59975,7 +59975,7 @@
   "ui-eholdings.server.errors.failedBackend": [
     {
       "type": 0,
-      "value": "O aplicativo Coleção eletrônica não está disponível no momento."
+      "value": "O aplicativo Acervo eletrônico não está disponível no momento."
     }
   ],
   "ui-eholdings.server.errors.installBackend": [
@@ -59993,7 +59993,7 @@
   "ui-eholdings.server.errors.kbRequired": [
     {
       "type": 0,
-      "value": "O pacote Coleção eletrônica requer que uma Base de Conhecimento esteja presente para funcionar adequadamente."
+      "value": "O pacote Acervo eletrônico requer que uma Base de Conhecimento esteja presente para funcionar adequadamente."
     }
   ],
   "ui-eholdings.server.errors.noKbDetected": [
@@ -60011,7 +60011,7 @@
   "ui-eholdings.server.errors.userNotAssignedToKb": [
     {
       "type": 0,
-      "value": "Não foi possível conceder acesso ao aplicativo Coleção eletrônica. Entre em contato com o administrador do sistema FOLIO para conceder acesso."
+      "value": "Não foi possível conceder acesso ao aplicativo Acervo eletrônico. Entre em contato com o administrador do sistema FOLIO para conceder acesso."
     }
   ],
   "ui-eholdings.settings.accessStatusTypes": [
@@ -60349,7 +60349,7 @@
   "ui-eholdings.settings.goBackToEholdings": [
     {
       "type": 0,
-      "value": "Volte para as configurações do Coleção eletrônica"
+      "value": "Volte para as configurações do Acervo eletrônico"
     }
   ],
   "ui-eholdings.settings.kb": [
@@ -60507,7 +60507,7 @@
   "ui-eholdings.settings.kb.url.ebsco.customer.message": [
     {
       "type": 0,
-      "value": "Clientes da API Base de Conhecimento EBSCO: a configuração permite buscar nos aplicativos Coleção eletrônica e busca do Codex."
+      "value": "Clientes da API Base de Conhecimento EBSCO: a configuração permite buscar nos aplicativos Acervo eletrônico e busca do Codex."
     }
   ],
   "ui-eholdings.settings.rootProxy": [
@@ -61171,7 +61171,7 @@
   "ui-eholdings.usageConsolidation.holdingsSummary": [
     {
       "type": 0,
-      "value": "Resumo da coleção"
+      "value": "Resumo da acervo"
     }
   ],
   "ui-eholdings.usageConsolidation.infoPopover.buttonLabel": [
@@ -61183,7 +61183,7 @@
   "ui-eholdings.usageConsolidation.infoPopover.content": [
     {
       "type": 0,
-      "value": "Acesso a informações de custo e uso para os pacotes e títulos que fazem parte da coleção de sua biblioteca."
+      "value": "Acesso a informações de custo e uso para os pacotes e títulos que fazem parte da acervo de sua biblioteca."
     }
   ],
   "ui-eholdings.usageConsolidation.summary.actions": [
@@ -65462,7 +65462,7 @@
   "ui-export-manager.exportJob.details.type.E_HOLDINGS": [
     {
       "type": 0,
-      "value": "Coleção eletrônica"
+      "value": "Acervo eletrônico"
     }
   ],
   "ui-export-manager.exportJob.details.type.FAILED_LINKED_BIB_UPDATES": [
@@ -65642,7 +65642,7 @@
   "ui-export-manager.exportJob.type.E_HOLDINGS": [
     {
       "type": 0,
-      "value": "Coleção eletrônica"
+      "value": "Acervo eletrônico"
     }
   ],
   "ui-export-manager.exportJob.type.ORDERS_CSV": [
@@ -69254,6 +69254,18 @@
       "value": "URI do provedor de taxa de câmbio"
     }
   ],
+  "ui-finance.settings.exchangeRateSource.providerType.keyRequired": [
+    {
+      "type": 0,
+      "value": "Key required"
+    }
+  ],
+  "ui-finance.settings.exchangeRateSource.providerType.noKeyRequired": [
+    {
+      "type": 0,
+      "value": "No key required"
+    }
+  ],
   "ui-finance.settings.exchangeRateSource.submit.error.generic": [
     {
       "type": 0,
@@ -69751,13 +69763,17 @@
     },
     {
       "type": 0,
-      "value": " was successfully allocated to the budget "
+      "value": " foi alocado com sucesso no orçamento "
     },
     {
       "children": [
         {
           "type": 1,
           "value": "budgetName"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -70175,7 +70191,7 @@
     },
     {
       "type": 0,
-      "value": " could not be transferred to the budget "
+      "value": " não pôde ser transferido para o orçamento "
     },
     {
       "children": [
@@ -70189,7 +70205,7 @@
     },
     {
       "type": 0,
-      "value": " because it exceeds the allowable expenditure limit for "
+      "value": " porque excede o limite de despesa permitido para "
     },
     {
       "children": [
@@ -70203,7 +70219,7 @@
     },
     {
       "type": 0,
-      "value": " and ledger fund restrictions are active."
+      "value": " e as restrições de fundos contábeis estão ativas."
     }
   ],
   "ui-finance.transaction.transfer.genericError": [
@@ -71796,6 +71812,18 @@
     {
       "type": 0,
       "value": "O item foi recebido com sucesso"
+    }
+  ],
+  "ui-inn-reach.remove-hold.callout.connection-problem.post.remove-hold": [
+    {
+      "type": 0,
+      "value": "There was a problem removing the hold"
+    }
+  ],
+  "ui-inn-reach.remove-hold.callout.success.post.remove-hold": [
+    {
+      "type": 0,
+      "value": "Hold has been successfully removed"
     }
   ],
   "ui-inn-reach.reports.callout.export-in-progress": [
@@ -74500,6 +74528,12 @@
       "value": "Receber item não enviado"
     }
   ],
+  "ui-inn-reach.transaction-detail.patron-type.action.remove-hold": [
+    {
+      "type": 0,
+      "value": "Remove hold"
+    }
+  ],
   "ui-inn-reach.transaction-detail.patron-type.action.return-item": [
     {
       "type": 0,
@@ -75186,7 +75220,7 @@
   "ui-inventory.addFormerHoldingsId": [
     {
       "type": 0,
-      "value": "Adicionar ID anterior de coleção"
+      "value": "Adicionar ID anterior de acervo"
     }
   ],
   "ui-inventory.addFormerId": [
@@ -75198,25 +75232,25 @@
   "ui-inventory.addHoldings": [
     {
       "type": 0,
-      "value": "Adicionar coleção"
+      "value": "Adicionar acervo"
     }
   ],
   "ui-inventory.addHoldingsStatement": [
     {
       "type": 0,
-      "value": "Adicionar declaração de coleção"
+      "value": "Adicionar declaração de acervo"
     }
   ],
   "ui-inventory.addHoldingsStatementForIndexes": [
     {
       "type": 0,
-      "value": "Adicionar declaração de coleção para índices"
+      "value": "Adicionar declaração de acervo para índices"
     }
   ],
   "ui-inventory.addHoldingsStatementForSupplements": [
     {
       "type": 0,
-      "value": "Adicionar declaração de coleção para suplementos"
+      "value": "Adicionar declaração de acervo para suplementos"
     }
   ],
   "ui-inventory.addIdentifier": [
@@ -75594,7 +75628,7 @@
   "ui-inventory.boundWithTitles.enterHoldingsHrid": [
     {
       "type": 0,
-      "value": "Digite o HRID da coleção"
+      "value": "Digite o HRID da acervo"
     }
   ],
   "ui-inventory.browse": [
@@ -75918,13 +75952,13 @@
   "ui-inventory.confirmHoldingsRecordDeleteModal.heading": [
     {
       "type": 0,
-      "value": "Confirme a exclusão do registro de coleção"
+      "value": "Confirme a exclusão do registro de acervo"
     }
   ],
   "ui-inventory.confirmHoldingsRecordDeleteModal.message": [
     {
       "type": 0,
-      "value": "Registros de coleção HRID "
+      "value": "Registros de acervo HRID "
     },
     {
       "children": [
@@ -76212,7 +76246,7 @@
   "ui-inventory.copyHoldingsRecordDialog": [
     {
       "type": 0,
-      "value": "Copiar caixa de diálogo de registro de coleção"
+      "value": "Copiar caixa de diálogo de registro de acervo"
     }
   ],
   "ui-inventory.copyItem": [
@@ -76408,7 +76442,7 @@
   "ui-inventory.createHoldingsRecord": [
     {
       "type": 0,
-      "value": "Criar registro de coleção"
+      "value": "Criar registro de acervo"
     }
   ],
   "ui-inventory.createInstance": [
@@ -76438,13 +76472,13 @@
   "ui-inventory.createMARCHoldings": [
     {
       "type": 0,
-      "value": "Adicionar registro de coleção MARC"
+      "value": "Adicionar registro de acervo MARC"
     }
   ],
   "ui-inventory.createNewHoldingsRecord": [
     {
       "type": 0,
-      "value": "Criar um registro de coleção"
+      "value": "Criar um registro de acervo"
     }
   ],
   "ui-inventory.createNewItem": [
@@ -76564,7 +76598,7 @@
   "ui-inventory.discoverySuppress": [
     {
       "type": 0,
-      "value": "Oculto da descoberta"
+      "value": "Ocultar da descoberta"
     }
   ],
   "ui-inventory.discoverySuppressed": [
@@ -76646,7 +76680,7 @@
   "ui-inventory.editHoldingsRecordDialog": [
     {
       "type": 0,
-      "value": "Editar caixa de diálogo de registro de coleção"
+      "value": "Editar caixa de diálogo de registro de acervo"
     }
   ],
   "ui-inventory.editInLinkedDataEditor": [
@@ -76795,7 +76829,7 @@
   "ui-inventory.effectiveLocationHoldings": [
     {
       "type": 0,
-      "value": "Localização efetiva da coleção"
+      "value": "Localização efetiva da acervo"
     }
   ],
   "ui-inventory.effectiveLocationShort": [
@@ -76940,7 +76974,7 @@
   "ui-inventory.filters.holdings": [
     {
       "type": 0,
-      "value": "Coleção"
+      "value": "Acervo"
     }
   ],
   "ui-inventory.filters.instances": [
@@ -77024,7 +77058,7 @@
   "ui-inventory.formerHoldingsId": [
     {
       "type": 0,
-      "value": "ID de coleção anterior"
+      "value": "ID de acervo anterior"
     }
   ],
   "ui-inventory.formerId": [
@@ -77048,13 +77082,13 @@
   "ui-inventory.hasLinkedLocalOrderLine.modal.message": [
     {
       "type": 0,
-      "value": "Essa coleção ou item é referenciado por uma linha de pedido de compra local e sua afiliação não pode ser alterada no momento."
+      "value": "Essa acervo ou item é referenciado por uma linha de pedido de compra local e sua afiliação não pode ser alterada no momento."
     }
   ],
   "ui-inventory.holdingRecord": [
     {
       "type": 0,
-      "value": "Registo de coleção "
+      "value": "Registo de acervo "
     },
     {
       "type": 1,
@@ -77072,7 +77106,7 @@
   "ui-inventory.holdings": [
     {
       "type": 0,
-      "value": "Coleção"
+      "value": "Acervo"
     }
   ],
   "ui-inventory.holdings.permanentLocation": [
@@ -77084,25 +77118,25 @@
   "ui-inventory.holdingsCallNumber": [
     {
       "type": 0,
-      "value": "Número de chamada de coleção"
+      "value": "Número de chamada de acervo"
     }
   ],
   "ui-inventory.holdingsData": [
     {
       "type": 0,
-      "value": "Dados de coleção"
+      "value": "Dados de acervo"
     }
   ],
   "ui-inventory.holdingsDetails": [
     {
       "type": 0,
-      "value": "Detalhes da coleção"
+      "value": "Detalhes da acervo"
     }
   ],
   "ui-inventory.holdingsHeader": [
     {
       "type": 0,
-      "value": "Coleção: "
+      "value": "Acervo: "
     },
     {
       "type": 1,
@@ -77128,55 +77162,55 @@
   "ui-inventory.holdingsHrid": [
     {
       "type": 0,
-      "value": "HRID de coleção"
+      "value": "HRID de acervo"
     }
   ],
   "ui-inventory.holdingsId": [
     {
       "type": 0,
-      "value": "ID da coleção"
+      "value": "ID da acervo"
     }
   ],
   "ui-inventory.holdingsItems": [
     {
       "type": 0,
-      "value": "Coleções, itens"
+      "value": "Acervos, itens"
     }
   ],
   "ui-inventory.holdingsLabelShort": [
     {
       "type": 0,
-      "value": "Coleção:"
+      "value": "Acervo:"
     }
   ],
   "ui-inventory.holdingsLocation": [
     {
       "type": 0,
-      "value": "Localização da coleção"
+      "value": "Localização da acervo"
     }
   ],
   "ui-inventory.holdingsNoteType": [
     {
       "type": 0,
-      "value": "Tipo de nota de coleção"
+      "value": "Tipo de nota de acervo"
     }
   ],
   "ui-inventory.holdingsNoteTypes": [
     {
       "type": 0,
-      "value": "Tipos de notas de coleção"
+      "value": "Tipos de notas de acervo"
     }
   ],
   "ui-inventory.holdingsNotes": [
     {
       "type": 0,
-      "value": "Notas de coleção"
+      "value": "Notas de acervo"
     }
   ],
   "ui-inventory.holdingsPaneTitle": [
     {
       "type": 0,
-      "value": "Coleção • "
+      "value": "Acervo • "
     },
     {
       "type": 1,
@@ -77194,7 +77228,7 @@
   "ui-inventory.holdingsRecord": [
     {
       "type": 0,
-      "value": "Registro de coleção"
+      "value": "Registro de acervo"
     }
   ],
   "ui-inventory.holdingsRecord.awaitingResources": [
@@ -77212,7 +77246,7 @@
       "children": [
         {
           "type": 0,
-          "value": "coleção"
+          "value": "acervo"
         }
       ],
       "type": 8,
@@ -77240,7 +77274,7 @@
   "ui-inventory.holdingsSource": [
     {
       "type": 0,
-      "value": "Fonte da coleção"
+      "value": "Fonte da acervo"
     }
   ],
   "ui-inventory.holdingsSourceLabel": [
@@ -77252,115 +77286,115 @@
   "ui-inventory.holdingsSources": [
     {
       "type": 0,
-      "value": "Fontes da coleção"
+      "value": "Fontes da acervo"
     }
   ],
   "ui-inventory.holdingsStatement": [
     {
       "type": 0,
-      "value": "Declaração de coleção"
+      "value": "Declaração de acervo"
     }
   ],
   "ui-inventory.holdingsStatementForIndexes": [
     {
       "type": 0,
-      "value": "Declaração de coleção para índices"
+      "value": "Declaração de acervo para índices"
     }
   ],
   "ui-inventory.holdingsStatementForIndexesNote": [
     {
       "type": 0,
-      "value": "Nota de declaração de coleção para índices"
+      "value": "Nota de declaração de acervo para índices"
     }
   ],
   "ui-inventory.holdingsStatementForIndexesPublicNote": [
     {
       "type": 0,
-      "value": "Nota pública de declaração de coleção para índices"
+      "value": "Nota pública de declaração de acervo para índices"
     }
   ],
   "ui-inventory.holdingsStatementForIndexesStaffNote": [
     {
       "type": 0,
-      "value": "Nota de equipe para declaração de coleção para índices"
+      "value": "Nota de equipe para declaração de acervo para índices"
     }
   ],
   "ui-inventory.holdingsStatementForSupplements": [
     {
       "type": 0,
-      "value": "Declaração de coleção para suplementos"
+      "value": "Declaração de acervo para suplementos"
     }
   ],
   "ui-inventory.holdingsStatementForSupplementsNote": [
     {
       "type": 0,
-      "value": "Nota de declaração de coleção para suplementos"
+      "value": "Nota de declaração de acervo para suplementos"
     }
   ],
   "ui-inventory.holdingsStatementForSupplementsPublicNote": [
     {
       "type": 0,
-      "value": "Nota pública de declaração de coleção para suplementos"
+      "value": "Nota pública de declaração de acervo para suplementos"
     }
   ],
   "ui-inventory.holdingsStatementForSupplementsStaffNote": [
     {
       "type": 0,
-      "value": "Nota de equipe para declaração de coleção para suplementos"
+      "value": "Nota de equipe para declaração de acervo para suplementos"
     }
   ],
   "ui-inventory.holdingsStatementNote": [
     {
       "type": 0,
-      "value": "Nota de declaração de coleção"
+      "value": "Nota de declaração de acervo"
     }
   ],
   "ui-inventory.holdingsStatementPublicNote": [
     {
       "type": 0,
-      "value": "Nota pública de declaração de coleção"
+      "value": "Nota pública de declaração de acervo"
     }
   ],
   "ui-inventory.holdingsStatementStaffNote": [
     {
       "type": 0,
-      "value": "Nota da equipe de declaração de coleção"
+      "value": "Nota da equipe de declaração de acervo"
     }
   ],
   "ui-inventory.holdingsStatements": [
     {
       "type": 0,
-      "value": "Declaração de coleção"
+      "value": "Declaração de acervo"
     }
   ],
   "ui-inventory.holdingsStatementsForIndexes": [
     {
       "type": 0,
-      "value": "Declaração de coleção para índices"
+      "value": "Declaração de acervo para índices"
     }
   ],
   "ui-inventory.holdingsStatementsForIndexesNote": [
     {
       "type": 0,
-      "value": "Nota de declaração de coleção para índices"
+      "value": "Nota de declaração de acervo para índices"
     }
   ],
   "ui-inventory.holdingsStatementsForSupplements": [
     {
       "type": 0,
-      "value": "Declaração de coleção para suplementos"
+      "value": "Declaração de acervo para suplementos"
     }
   ],
   "ui-inventory.holdingsStatementsForSupplementsNote": [
     {
       "type": 0,
-      "value": "Notas de declaração de coleção para suplementos"
+      "value": "Notas de declaração de acervo para suplementos"
     }
   ],
   "ui-inventory.holdingsTitle": [
     {
       "type": 0,
-      "value": "Coleção: "
+      "value": "Acervo: "
     },
     {
       "type": 1,
@@ -77378,13 +77412,13 @@
   "ui-inventory.holdingsType": [
     {
       "type": 0,
-      "value": "Tipo de coleção"
+      "value": "Tipo de acervo"
     }
   ],
   "ui-inventory.holdingsTypes": [
     {
       "type": 0,
-      "value": "Tipos de coleção"
+      "value": "Tipos de acervo"
     }
   ],
   "ui-inventory.hridCopied": [
@@ -77476,7 +77510,7 @@
   "ui-inventory.hridHandling.sectionHeader2": [
     {
       "type": 0,
-      "value": "Coleções de inventário e registros de coleção MARC"
+      "value": "Acervos de inventário e registros de acervo MARC"
     }
   ],
   "ui-inventory.hridHandling.sectionHeader3": [
@@ -77652,7 +77686,7 @@
   "ui-inventory.inheritFromHoldings": [
     {
       "type": 0,
-      "value": "Herdar da coleção"
+      "value": "Herdar da acervo"
     }
   ],
   "ui-inventory.instance": [
@@ -77764,7 +77798,7 @@
   "ui-inventory.instanceHoldingsItem": [
     {
       "type": 0,
-      "value": "Instâncias, Coleções, Itens"
+      "value": "Instâncias, Acervos, Itens"
     }
   ],
   "ui-inventory.instanceHrid": [
@@ -78623,7 +78657,7 @@
   "ui-inventory.itemOnHoldingsRecordDeleteModal.message": [
     {
       "type": 0,
-      "value": "Registros de coleção HRID "
+      "value": "Registros de acervo HRID "
     },
     {
       "children": [
@@ -78665,7 +78699,7 @@
     },
     {
       "type": 0,
-      "value": " registro de item associado. Para poder continuar com a exclusão desse registro de coleção, o registro do item associado deve ser excluído."
+      "value": " registro de item associado. Para poder continuar com a exclusão desse registro de acervo, o registro do item associado deve ser excluído."
     }
   ],
   "ui-inventory.itemPublicNote": [
@@ -78769,7 +78803,7 @@
   "ui-inventory.itemsOnHoldingsRecordDeleteModal.message": [
     {
       "type": 0,
-      "value": "O registro de coleção HRID "
+      "value": "O registro de acervo HRID "
     },
     {
       "children": [
@@ -78811,13 +78845,13 @@
     },
     {
       "type": 0,
-      "value": ". Para poder continuar com a exclusão desse registro de coleção, todos os registros de itens associados devem ser excluídos."
+      "value": ". Para poder continuar com a exclusão desse registro de acervo, todos os registros de itens associados devem ser excluídos."
     }
   ],
   "ui-inventory.jobProfiles.info": [
     {
       "type": 0,
-      "value": "Revise cuidadosamente os perfis de trabalho listados antes de atribuir para o Inventário importações de registro único. Somente os perfis de trabalho MARC Bibliográficos podem ser atribuídos, não os perfis de trabalho MARC Coleções ou MARC Autoridades."
+      "value": "Revise cuidadosamente os perfis de trabalho listados antes de atribuir para o Inventário importações de registro único. Somente os perfis de trabalho MARC Bibliográficos podem ser atribuídos, não os perfis de trabalho MARC Acervos ou MARC Autoridades."
     }
   ],
   "ui-inventory.language": [
@@ -78949,7 +78983,7 @@
   "ui-inventory.marcHoldingsRecord.paneTitle": [
     {
       "type": 0,
-      "value": "Registro de coleção - "
+      "value": "Registro de acervo - "
     },
     {
       "type": 1,
@@ -79021,7 +79055,7 @@
     },
     {
       "type": 0,
-      "value": " Registro de coleção MARC"
+      "value": " Registro de acervo MARC"
     }
   ],
   "ui-inventory.marcSourceRecord.notFoundError": [
@@ -79203,7 +79237,7 @@
   "ui-inventory.moveItems": [
     {
       "type": 0,
-      "value": "Mover coleções/itens para outra instância"
+      "value": "Mover acervos/itens para outra instância"
     }
   ],
   "ui-inventory.moveItems.instance.actionMenu.disable": [
@@ -79221,13 +79255,13 @@
   "ui-inventory.moveItems.instance.dropZone": [
     {
       "type": 0,
-      "value": "Soltar coleção"
+      "value": "Soltar acervo"
     }
   ],
   "ui-inventory.moveItems.instance.holdings.error": [
     {
       "type": 0,
-      "value": "Os seguintes coleções não puderam ser movidas "
+      "value": "Os seguintes acervos não puderam ser movidas "
     },
     {
       "type": 1,
@@ -79241,7 +79275,7 @@
   "ui-inventory.moveItems.instance.holdings.error.server": [
     {
       "type": 0,
-      "value": "Ocorreu um problema ao atualizar os seguintes coleções "
+      "value": "Ocorreu um problema ao atualizar os seguintes acervos "
     },
     {
       "type": 1,
@@ -79269,7 +79303,7 @@
           "value": [
             {
               "type": 0,
-              "value": "coleção foi"
+              "value": "acervo foi"
             }
           ]
         },
@@ -79277,7 +79311,7 @@
           "value": [
             {
               "type": 0,
-              "value": "coleções foram"
+              "value": "acervos foram"
             }
           ]
         }
@@ -79367,7 +79401,7 @@
   "ui-inventory.moveItems.modal.message.hasLinkedPOLsOrHoldings": [
     {
       "type": 0,
-      "value": "Esse coleção está vinculada a uma linha de pedido de compra. Mover essa coleção para uma nova instância moverá quaisquer outras coleções e itens que estejam vinculados a essa linha de pedido de compra para a nova instância também. A linha do pedido de compra também será vinculada à nova instância. Deseja continuar?"
+      "value": "Esse acervo está vinculada a uma linha de pedido de compra. Mover essa acervo para uma nova instância moverá quaisquer outras acervos e itens que estejam vinculados a essa linha de pedido de compra para a nova instância também. A linha do pedido de compra também será vinculada à nova instância. Deseja continuar?"
     }
   ],
   "ui-inventory.moveItems.modal.message.holdings": [
@@ -79387,7 +79421,7 @@
           "value": [
             {
               "type": 0,
-              "value": "coleção"
+              "value": "acervo"
             }
           ]
         },
@@ -79395,7 +79429,7 @@
           "value": [
             {
               "type": 0,
-              "value": "coleções"
+              "value": "acervos"
             }
           ]
         }
@@ -79483,7 +79517,7 @@
           "value": [
             {
               "type": 0,
-              "value": "coleção"
+              "value": "acervo"
             }
           ]
         },
@@ -79491,7 +79525,7 @@
           "value": [
             {
               "type": 0,
-              "value": "coleções"
+              "value": "acervos"
             }
           ]
         }
@@ -79555,7 +79589,7 @@
   "ui-inventory.moveItems.selectHolding": [
     {
       "type": 0,
-      "value": "Selecionar coleção"
+      "value": "Selecionar acervo"
     }
   ],
   "ui-inventory.moveItems.selectItem": [
@@ -79681,7 +79715,7 @@
   "ui-inventory.noHoldingsRecordDeleteModal.message": [
     {
       "type": 0,
-      "value": "Registro de coleção HRID "
+      "value": "Registro de acervo HRID "
     },
     {
       "children": [
@@ -80273,25 +80307,25 @@
   "ui-inventory.permission.holdings.create": [
     {
       "type": 0,
-      "value": "Inventário: Ver, criar coleções"
+      "value": "Inventário: Ver, criar acervos"
     }
   ],
   "ui-inventory.permission.holdings.delete": [
     {
       "type": 0,
-      "value": "Inventário: Ver, criar, editar, excluir coleções"
+      "value": "Inventário: Ver, criar, editar, excluir acervos"
     }
   ],
   "ui-inventory.permission.holdings.edit": [
     {
       "type": 0,
-      "value": "Inventário: Ver, criar, editar coleções"
+      "value": "Inventário: Ver, criar, editar acervos"
     }
   ],
   "ui-inventory.permission.holdings.move": [
     {
       "type": 0,
-      "value": "Inventário: Mover coleções"
+      "value": "Inventário: Mover acervos"
     }
   ],
   "ui-inventory.permission.instance.create": [
@@ -80327,7 +80361,7 @@
   "ui-inventory.permission.instance.view": [
     {
       "type": 0,
-      "value": "Inventário: Ver instâncias, coleções e itens"
+      "value": "Inventário: Ver instâncias, acervos e itens"
     }
   ],
   "ui-inventory.permission.instance.view-staff-suppressed-records": [
@@ -80513,13 +80547,13 @@
   "ui-inventory.permission.settings.holdings-note-types": [
     {
       "type": 0,
-      "value": "Configurações (Inventário): Criar, editar e excluir tipos de notas de coleção"
+      "value": "Configurações (Inventário): Criar, editar e excluir tipos de notas de acervo"
     }
   ],
   "ui-inventory.permission.settings.holdings-types": [
     {
       "type": 0,
-      "value": "Configurações (Inventário): Criar, editar e excluir tipos de coleção"
+      "value": "Configurações (Inventário): Criar, editar e excluir tipos de acervo"
     }
   ],
   "ui-inventory.permission.settings.hrid-handling": [
@@ -80893,7 +80927,7 @@
   "ui-inventory.remote.holdings": [
     {
       "type": 0,
-      "value": "a coleção"
+      "value": "a acervo"
     }
   ],
   "ui-inventory.remote.items": [
@@ -81324,19 +81358,19 @@
   "ui-inventory.saveHoldingsUIIDS": [
     {
       "type": 0,
-      "value": "Salvar UUIDs da coleção"
+      "value": "Salvar UUIDs da acervo"
     }
   ],
   "ui-inventory.saveHoldingsUIIDS.error": [
     {
       "type": 0,
-      "value": "Ocorreu um erro ao salvar UUIDs de coleção. Por favor, tente novamente."
+      "value": "Ocorreu um erro ao salvar UUIDs de acervo. Por favor, tente novamente."
     }
   ],
   "ui-inventory.saveHoldingsUIIDS.info": [
     {
       "type": 0,
-      "value": "A requisição para salvar UUIDs de coleção foi recebida. O download do arquivo pode demorar alguns minutos."
+      "value": "A requisição para salvar UUIDs de acervo foi recebida. O download do arquivo pode demorar alguns minutos."
     }
   ],
   "ui-inventory.saveInstancesCQLQuery": [
@@ -81496,13 +81530,13 @@
   "ui-inventory.selectHoldingsSource": [
     {
       "type": 0,
-      "value": "Selecione a fonte da coleção"
+      "value": "Selecione a fonte da acervo"
     }
   ],
   "ui-inventory.selectHoldingsType": [
     {
       "type": 0,
-      "value": "Selecione o tipo de coleção"
+      "value": "Selecione o tipo de acervo"
     }
   ],
   "ui-inventory.selectIdentifierType": [
@@ -82380,7 +82414,7 @@
   "ui-inventory.updateHoldingsRecord": [
     {
       "type": 0,
-      "value": "Atualizar registro de coleção"
+      "value": "Atualizar registro de acervo"
     }
   ],
   "ui-inventory.updateInstance": [
@@ -82416,13 +82450,13 @@
   "ui-inventory.updateOwnership.holdings.modal.heading": [
     {
       "type": 0,
-      "value": "Atualizar propriedade da coleção"
+      "value": "Atualizar propriedade da acervo"
     }
   ],
   "ui-inventory.updateOwnership.holdings.modal.message": [
     {
       "type": 0,
-      "value": "Você gostaria de atualizar a propriedade da coleção "
+      "value": "Você gostaria de atualizar a propriedade da acervo "
     },
     {
       "children": [
@@ -82476,7 +82510,7 @@
     },
     {
       "type": 0,
-      "value": " ? Observe que a atualização da propriedade da coleção também migrará todos os itens vinculados."
+      "value": " ? Observe que a atualização da propriedade da acervo também migrará todos os itens vinculados."
     }
   ],
   "ui-inventory.updateOwnership.item.message.success": [
@@ -82572,7 +82606,7 @@
   "ui-inventory.updateOwnership.message.success": [
     {
       "type": 0,
-      "value": "A propriedade da coleção "
+      "value": "A propriedade da acervo "
     },
     {
       "children": [
@@ -82704,13 +82738,13 @@
   "ui-inventory.viewHoldings": [
     {
       "type": 0,
-      "value": "Visualizar coleções"
+      "value": "Visualizar acervos"
     }
   ],
   "ui-inventory.viewHoldingsRecord": [
     {
       "type": 0,
-      "value": "Ver registro de coleção"
+      "value": "Ver registro de acervo"
     }
   ],
   "ui-inventory.viewItem": [
@@ -82752,7 +82786,7 @@
   "ui-inventory.warning.holdingsRecord.suppressedFromDiscovery": [
     {
       "type": 0,
-      "value": "Aviso: essa Coleção está marcada como oculta da descoberta"
+      "value": "Aviso: essa Acervo está marcada como oculta da descoberta"
     }
   ],
   "ui-inventory.warning.instance.accessSharedInstance": [
@@ -84594,7 +84628,7 @@
   "ui-invoice.invoice.details.lines.list.total.exchanged": [
     {
       "type": 0,
-      "value": "Total (Exchanged)"
+      "value": "Total (Trocado)"
     }
   ],
   "ui-invoice.invoice.details.lines.list.vendorRefNumber": [
@@ -90825,6 +90859,26 @@
       "value": "Essa lista pode conter registros de vários locatários."
     }
   ],
+  "ui-lists.delete-entity.not.found": [
+    {
+      "type": 0,
+      "value": "Error: "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "listName"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " was not deleted because the list's entity type is no longer available. Verify the entity type exists and try again."
+    }
+  ],
   "ui-lists.delete-export.in.progress": [
     {
       "type": 0,
@@ -90911,6 +90965,12 @@
       "value": "Lista não encontrada"
     }
   ],
+  "ui-lists.error-component.read-entity.not.found": [
+    {
+      "type": 0,
+      "value": "This list's entity type is no longer available"
+    }
+  ],
   "ui-lists.error-component.read-entity.type.restricted": [
     {
       "type": 0,
@@ -90933,6 +90993,26 @@
     {
       "type": 0,
       "value": "Ocorreu um erro desconhecido"
+    }
+  ],
+  "ui-lists.export-entity.not.found": [
+    {
+      "type": 0,
+      "value": "Error: export of "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "listName"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " failed because the list's entity type is no longer available. Verify the entity type exists and try again."
     }
   ],
   "ui-lists.export-export.in.progress": [
@@ -91445,6 +91525,26 @@
       "value": "Novo"
     }
   ],
+  "ui-lists.read-entity.not.found": [
+    {
+      "type": 0,
+      "value": "Error: "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "listName"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": "'s entity type was not found. Verify the entity type exists and try again."
+    }
+  ],
   "ui-lists.read-list.is.private": [
     {
       "type": 0,
@@ -91483,6 +91583,26 @@
     {
       "type": 0,
       "value": " não foi encontrado. Verifique o local da lista e tente novamente."
+    }
+  ],
+  "ui-lists.refresh-entity.not.found": [
+    {
+      "type": 0,
+      "value": "Error: "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "listName"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " was not refreshed because the list's entity type is no longer available. Verify the entity type exists and try again."
     }
   ],
   "ui-lists.refresh-export.in.progress": [
@@ -91719,6 +91839,26 @@
     {
       "type": 0,
       "value": "Ocorreu um erro."
+    }
+  ],
+  "ui-lists.update-entity.not.found": [
+    {
+      "type": 0,
+      "value": "Error: changes to "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "listName"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " were not saved because the list's entity type is no longer available. Verify the entity type exists and try again."
     }
   ],
   "ui-lists.update-export.in.progress": [
@@ -95359,7 +95499,7 @@
   "ui-myprofile.settings.languageLocalization.tenantDefault": [
     {
       "type": 0,
-      "value": "Padrão do tenant"
+      "value": "Padrão do locatário"
     }
   ],
   "ui-myprofile.userDropdown.changePassword.caption": [
@@ -111870,7 +112010,7 @@
   "ui-plugin-create-inventory-records.discoverySuppress": [
     {
       "type": 0,
-      "value": "Oculto da descoberta"
+      "value": "Ocultar da descoberta"
     }
   ],
   "ui-plugin-create-inventory-records.electronicAccess": [
@@ -111924,7 +112064,7 @@
   "ui-plugin-create-inventory-records.holdingsRecord": [
     {
       "type": 0,
-      "value": "Coleção"
+      "value": "Acervo"
     }
   ],
   "ui-plugin-create-inventory-records.instanceRecord": [
@@ -113894,7 +114034,7 @@
   "ui-plugin-find-instance.discoverySuppress": [
     {
       "type": 0,
-      "value": "Oculto da descoberta"
+      "value": "Ocultar da descoberta"
     }
   ],
   "ui-plugin-find-instance.filter.tags": [
@@ -113912,7 +114052,7 @@
   "ui-plugin-find-instance.filters.holdings": [
     {
       "type": 0,
-      "value": "Coleção"
+      "value": "Acervo"
     }
   ],
   "ui-plugin-find-instance.filters.instances": [
@@ -113954,13 +114094,13 @@
   "ui-plugin-find-instance.holdings.permanentLocation": [
     {
       "type": 0,
-      "value": "Local permanente da coleção"
+      "value": "Local permanente da acervo"
     }
   ],
   "ui-plugin-find-instance.holdingsHrid": [
     {
       "type": 0,
-      "value": "HRID da coleção"
+      "value": "HRID da acervo"
     }
   ],
   "ui-plugin-find-instance.identifierAll": [
@@ -115820,13 +115960,13 @@
   "ui-quick-marc.holdings-record.create.title": [
     {
       "type": 0,
-      "value": "Novo registro de coleção MARC"
+      "value": "Novo registro de acervo MARC"
     }
   ],
   "ui-quick-marc.holdings-record.edit.title": [
     {
       "type": 0,
-      "value": "Editar MARC coleções - Localização: "
+      "value": "Editar MARC acervos - Localização: "
     },
     {
       "type": 1,
@@ -115914,31 +116054,31 @@
   "ui-quick-marc.leader.Holdings level 1": [
     {
       "type": 0,
-      "value": "Coleção nível 1"
+      "value": "Acervo nível 1"
     }
   ],
   "ui-quick-marc.leader.Holdings level 2": [
     {
       "type": 0,
-      "value": "Coleção nível 2"
+      "value": "Acervo nível 2"
     }
   ],
   "ui-quick-marc.leader.Holdings level 3": [
     {
       "type": 0,
-      "value": "Coleção nível 3"
+      "value": "Acervo nível 3"
     }
   ],
   "ui-quick-marc.leader.Holdings level 4": [
     {
       "type": 0,
-      "value": "Coleção nível 4"
+      "value": "Acervo nível 4"
     }
   ],
   "ui-quick-marc.leader.Holdings level 4 with piece designation": [
     {
       "type": 0,
-      "value": "Coleção nível 4 com designação de parte"
+      "value": "Acervo nível 4 com designação de parte"
     }
   ],
   "ui-quick-marc.leader.ISBD punctuation included": [
@@ -116040,7 +116180,7 @@
   "ui-quick-marc.leader.Multipart item holdings": [
     {
       "type": 0,
-      "value": "Coleção de itens com várias partes"
+      "value": "Acervo de itens com várias partes"
     }
   ],
   "ui-quick-marc.leader.Musical sound recording": [
@@ -116160,7 +116300,7 @@
   "ui-quick-marc.leader.Serial item holdings": [
     {
       "type": 0,
-      "value": "Coleção de itens seriados"
+      "value": "Acervo de itens seriados"
     }
   ],
   "ui-quick-marc.leader.Set": [
@@ -116172,7 +116312,7 @@
   "ui-quick-marc.leader.Single-part item holdings": [
     {
       "type": 0,
-      "value": "Coleção de item de única parte"
+      "value": "Acervo de item de única parte"
     }
   ],
   "ui-quick-marc.leader.Subunit": [
@@ -116286,19 +116426,19 @@
   "ui-quick-marc.permission.quick-marc-holdings-editor.all": [
     {
       "type": 0,
-      "value": "quickMARC: Ver, editar registro de coleção MARC"
+      "value": "quickMARC: Ver, editar registro de acervo MARC"
     }
   ],
   "ui-quick-marc.permission.quick-marc-holdings-editor.create": [
     {
       "type": 0,
-      "value": "quickMARC: Criar um novo registro  de coleção MARC"
+      "value": "quickMARC: Criar um novo registro  de acervo MARC"
     }
   ],
   "ui-quick-marc.permission.quick-marc-holdings-editor.view": [
     {
       "type": 0,
-      "value": "quickMARC: Ver registro de coleção MARC"
+      "value": "quickMARC: Ver registro de acervo MARC"
     }
   ],
   "ui-quick-marc.print": [
@@ -118838,7 +118978,7 @@
   "ui-quick-marc.record.fixedField.Map series": [
     {
       "type": 0,
-      "value": "Série ou coleção de mapas"
+      "value": "Série ou acervo de mapas"
     }
   ],
   "ui-quick-marc.record.fixedField.Maps": [
@@ -121682,7 +121822,7 @@
   "ui-quick-marc.record.save.error.derive": [
     {
       "type": 0,
-      "value": "A instância não pode ser atualizada. Versão de instância obsoleta."
+      "value": "A instância não pode ser atualizada. Versão de instância descontinuada."
     }
   ],
   "ui-quick-marc.record.save.error.dublicate": [
@@ -122755,7 +122895,7 @@
   "ui-receiving.bind.pieces.create.error.bindItemMustIncludeEitherHoldingIdOrLocationId": [
     {
       "type": 0,
-      "value": "Uma referência da localização ou coleção deve ser incluída"
+      "value": "Uma referência da localização ou acervo deve ser incluída"
     }
   ],
   "ui-receiving.bind.pieces.create.error.generic": [
@@ -122943,7 +123083,7 @@
   "ui-receiving.errors.holdingsByIdNotFoundError": [
     {
       "type": 0,
-      "value": "Coleção com IDs não encontrados"
+      "value": "Acervo com IDs não encontrados"
     }
   ],
   "ui-receiving.errors.instanceId": [
@@ -122983,19 +123123,19 @@
   "ui-receiving.errors.locationIdAndHoldingIdAbsentError": [
     {
       "type": 0,
-      "value": "Uma referência de coleção ou localização deve estar presente"
+      "value": "Uma referência de acervo ou localização deve estar presente"
     }
   ],
   "ui-receiving.errors.mayBeLinkToEitherHoldingOrLocationError": [
     {
       "type": 0,
-      "value": "Existe um Id de coleção e Id de localização já apresentados"
+      "value": "Existe um Id de acervo e Id de localização já apresentados"
     }
   ],
   "ui-receiving.errors.missingHoldingsSourceId": [
     {
       "type": 0,
-      "value": "Registro de Coleção não encontrada no App Inventário"
+      "value": "Registro de Acervo não encontrada no App Inventário"
     }
   ],
   "ui-receiving.errors.multipleNonPackageTitles": [
@@ -123561,13 +123701,13 @@
   "ui-receiving.piece.actions.delete.deleteHoldings": [
     {
       "type": 0,
-      "value": "Excluir coleção"
+      "value": "Excluir acervo"
     }
   ],
   "ui-receiving.piece.actions.delete.deleteHoldingsAndItem": [
     {
       "type": 0,
-      "value": "Excluir Coleção e Item"
+      "value": "Excluir Acervo e Item"
     }
   ],
   "ui-receiving.piece.actions.delete.deleteItem": [
@@ -123655,13 +123795,13 @@
   "ui-receiving.piece.actions.edit.deleteHoldings.message": [
     {
       "type": 0,
-      "value": "Esta parte está conectada aos registros no App Inventário. Após esta edição, não haverá outras partes OU itens ligados ao registro de coleção relacionado. Depois de fazer esta mudança, você gostaria que o FOLIO excluísse os registros de coleção?"
+      "value": "Esta parte está conectada aos registros no App Inventário. Após esta edição, não haverá outras partes OU itens ligados ao registro de acervo relacionado. Depois de fazer esta mudança, você gostaria que o FOLIO excluísse os registros de acervo?"
     }
   ],
   "ui-receiving.piece.actions.edit.keepHoldings": [
     {
       "type": 0,
-      "value": "Manter coleção"
+      "value": "Manter acervo"
     }
   ],
   "ui-receiving.piece.actions.load.error": [
@@ -123915,7 +124055,7 @@
   "ui-receiving.piece.delete.deleteHoldingsAndItem.message": [
     {
       "type": 0,
-      "value": "Esta parte está conectada aos registros em inventário. Não há outros itens ligados ao registro de coleção relacionado. Após apagar esta parte, você gostaria que o FOLIO apagasse a coleção?"
+      "value": "Esta parte está conectada aos registros em inventário. Não há outros itens ligados ao registro de acervo relacionado. Após apagar esta parte, você gostaria que o FOLIO apagasse a acervo?"
     }
   ],
   "ui-receiving.piece.delete.heading": [
@@ -123933,13 +124073,13 @@
   "ui-receiving.piece.discoverySuppress": [
     {
       "type": 0,
-      "value": "Oculto da descoberta"
+      "value": "Ocultar da descoberta"
     }
   ],
   "ui-receiving.piece.displayOnHolding": [
     {
       "type": 0,
-      "value": "Exibição na coleção"
+      "value": "Exibição na acervo"
     }
   ],
   "ui-receiving.piece.displaySummary": [
@@ -124065,19 +124205,19 @@
   "ui-receiving.piece.modal.expectedDateRange.endDate": [
     {
       "type": 0,
-      "value": "End date"
+      "value": "Data final"
     }
   ],
   "ui-receiving.piece.modal.expectedDateRange.heading": [
     {
       "type": 0,
-      "value": "Select expected date range"
+      "value": "Selecione o intervalo de datas esperado"
     }
   ],
   "ui-receiving.piece.modal.expectedDateRange.startDate": [
     {
       "type": 0,
-      "value": "Start date"
+      "value": "Data de início"
     }
   ],
   "ui-receiving.piece.permanentLoanTypeId": [
@@ -124119,7 +124259,7 @@
   "ui-receiving.piece.receiveForm.limited.action.receiveAndLoad": [
     {
       "type": 0,
-      "value": "Receive & load more"
+      "value": "Receba e carregue mais"
     }
   ],
   "ui-receiving.piece.receiveForm.limited.paneSub": [
@@ -124129,7 +124269,7 @@
     },
     {
       "type": 0,
-      "value": " of "
+      "value": " de "
     },
     {
       "type": 1,
@@ -124137,7 +124277,7 @@
     },
     {
       "type": 0,
-      "value": " receiving pieces"
+      "value": " partes recebidas"
     }
   ],
   "ui-receiving.piece.receivedDate": [
@@ -124525,19 +124665,19 @@
   "ui-receiving.title.confirmationModal.removeFromPackage.message": [
     {
       "type": 0,
-      "value": "Remover este título do pacote excluirá todas as partes relacionadas e excluirá todos as coleções de inventário e itens relacionados. As coleções que contêm itens que não estão relacionados a esse pedido e ao título de recebimento não serão excluídos."
+      "value": "Remover este título do pacote excluirá todas as partes relacionadas e excluirá todos as acervos de inventário e itens relacionados. As acervos que contêm itens que não estão relacionados a esse pedido e ao título de recebimento não serão excluídos."
     }
   ],
   "ui-receiving.title.confirmationModal.removeFromPackage.success": [
     {
       "type": 0,
-      "value": "As partes relacionadas de todas as coleções e os itens de inventário relacionados foram excluídos."
+      "value": "As partes relacionadas de todas as acervos e os itens de inventário relacionados foram excluídos."
     }
   ],
   "ui-receiving.title.confirmationModal.removeHolding.message": [
     {
       "type": 0,
-      "value": "Uma ou mais coleções relacionadas não fazem referência a nenhuma outra parte ou item. Deseja excluí-los?"
+      "value": "Uma ou mais acervos relacionadas não fazem referência a nenhuma outra parte ou item. Deseja excluí-los?"
     }
   ],
   "ui-receiving.title.contributors": [
@@ -124915,13 +125055,13 @@
   "ui-receiving.validation.dateRange.endDate.afterStartDate": [
     {
       "type": 0,
-      "value": "End date must be later than or equal to the start date."
+      "value": "A data final deve ser posterior ou igual à data inicial."
     }
   ],
   "ui-receiving.validation.dateRange.startDate.beforeEndDate": [
     {
       "type": 0,
-      "value": "Start date must be earlier than or equal to the end date"
+      "value": "A data de início deve ser anterior ou igual à data de término"
     }
   ],
   "ui-remote-storage.accession-tables.empty": [
@@ -132935,13 +133075,13 @@
   "ui-tenant-settings.permission.settings.location.floating.edit": [
     {
       "type": 0,
-      "value": "Configurações (tenant): Pode visualizar e editar o sinalizador de coleção flutuante"
+      "value": "Configurações (locatário): Pode visualizar e editar o sinalizador de coleção flutuante"
     }
   ],
   "ui-tenant-settings.permission.settings.location.floating.view": [
     {
       "type": 0,
-      "value": "Configurações (tenant): Pode visualizar o sinalizador de coleção flutuante"
+      "value": "Configurações (locatário): Pode visualizar o sinalizador de coleção flutuante"
     }
   ],
   "ui-tenant-settings.permission.settings.location.view": [
@@ -133909,7 +134049,7 @@
   "ui-tenant-settings.settings.location.remotes.readonly": [
     {
       "type": 0,
-      "value": "só pode ser alterado quando não houver coleções permanentes ou itens associados a este local"
+      "value": "só pode ser alterado quando não houver acervos permanentes ou itens associados a este local"
     }
   ],
   "ui-tenant-settings.settings.location.remotes.remote": [
@@ -139484,7 +139624,7 @@
   "ui-users.item.holdingsRecordId": [
     {
       "type": 0,
-      "value": "ID dos registros de coleção"
+      "value": "ID dos registros de acervo"
     }
   ],
   "ui-users.item.instanceId": [
@@ -144148,7 +144288,7 @@
   "ui-users.reports.item.holdingsRecordId": [
     {
       "type": 0,
-      "value": "ID de coleção"
+      "value": "ID de acervo"
     }
   ],
   "ui-users.reports.item.instanceId": [

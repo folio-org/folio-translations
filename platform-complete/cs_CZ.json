@@ -12225,7 +12225,7 @@
   "stripes-inventory-components.instances.columns.hrid": [
     {
       "type": 0,
-      "value": "Instance HRID"
+      "value": "Titul (HRID)"
     }
   ],
   "stripes-inventory-components.instances.columns.publishers": [
@@ -12495,7 +12495,7 @@
   "stripes-inventory-components.search.instanceHrid": [
     {
       "type": 0,
-      "value": "HRID titulu"
+      "value": "Titul (HRID)"
     }
   ],
   "stripes-inventory-components.search.instanceId": [
@@ -65445,25 +65445,25 @@
   "ui-export-manager.permission.settings.edit": [
     {
       "type": 0,
-      "value": "Settings (Export manager): Can view and edit settings"
+      "value": "Nastavení (Správce exportu): Může zobrazit a upravit nastavení"
     }
   ],
   "ui-export-manager.permission.settings.view": [
     {
       "type": 0,
-      "value": "Settings (Export manager): Can view only settings"
+      "value": "Nastavení (Správce exportu): Může pouze zobrazit nastavení"
     }
   ],
   "ui-export-manager.settings.jobs": [
     {
       "type": 0,
-      "value": "Jobs"
+      "value": "Úlohy"
     }
   ],
   "ui-export-manager.settings.jobs.deletionIntervals": [
     {
       "type": 0,
-      "value": "Job deletion intervals (days)"
+      "value": "Intervaly mazání úloh (dny)"
     }
   ],
   "ui-export-manager.settings.jobs.update.error": [
@@ -65474,13 +65474,17 @@
           "value": [
             {
               "type": 0,
-              "value": "Deletion interval for "
+              "value": "Interval mazání pro "
             },
             {
               "children": [
                 {
                   "type": 1,
                   "value": "entities"
+                },
+                {
+                  "type": 0,
+                  "value": " "
                 }
               ],
               "type": 8,
@@ -65488,7 +65492,7 @@
             },
             {
               "type": 0,
-              "value": " was not updated"
+              "value": " nebyl aktualizován"
             }
           ]
         },
@@ -65496,13 +65500,17 @@
           "value": [
             {
               "type": 0,
-              "value": "Deletion intervals for "
+              "value": "Intervaly mazání pro "
             },
             {
               "children": [
                 {
                   "type": 1,
                   "value": "entities"
+                },
+                {
+                  "type": 0,
+                  "value": " "
                 }
               ],
               "type": 8,
@@ -65510,7 +65518,7 @@
             },
             {
               "type": 0,
-              "value": " were not updated"
+              "value": " nebyly aktualizovány"
             }
           ]
         }
@@ -65532,13 +65540,17 @@
           "value": [
             {
               "type": 0,
-              "value": "Deletion interval for "
+              "value": "Interval mazání pro "
             },
             {
               "children": [
                 {
                   "type": 1,
                   "value": "entities"
+                },
+                {
+                  "type": 0,
+                  "value": " "
                 }
               ],
               "type": 8,
@@ -65546,7 +65558,7 @@
             },
             {
               "type": 0,
-              "value": " was successfully updated"
+              "value": " byl úspěšně aktualizován"
             }
           ]
         },
@@ -65554,13 +65566,17 @@
           "value": [
             {
               "type": 0,
-              "value": "Deletion intervals for "
+              "value": "Intervaly mazání pro "
             },
             {
               "children": [
                 {
                   "type": 1,
                   "value": "entities"
+                },
+                {
+                  "type": 0,
+                  "value": " "
                 }
               ],
               "type": 8,
@@ -65568,7 +65584,7 @@
             },
             {
               "type": 0,
-              "value": " were successfully updated"
+              "value": " byly úspěšně aktualizovány"
             }
           ]
         }
@@ -65585,7 +65601,7 @@
   "ui-export-manager.settings.title": [
     {
       "type": 0,
-      "value": "Export manager settings"
+      "value": "Nastavení správce exportu"
     }
   ],
   "ui-export-manager.title.all": [
@@ -68933,6 +68949,18 @@
       "value": "URI poskytovatele směnného kurzu"
     }
   ],
+  "ui-finance.settings.exchangeRateSource.providerType.keyRequired": [
+    {
+      "type": 0,
+      "value": "Key required"
+    }
+  ],
+  "ui-finance.settings.exchangeRateSource.providerType.noKeyRequired": [
+    {
+      "type": 0,
+      "value": "No key required"
+    }
+  ],
   "ui-finance.settings.exchangeRateSource.submit.error.generic": [
     {
       "type": 0,
@@ -71454,6 +71482,18 @@
     {
       "type": 0,
       "value": "Jednotka byla úspěšně přijata"
+    }
+  ],
+  "ui-inn-reach.remove-hold.callout.connection-problem.post.remove-hold": [
+    {
+      "type": 0,
+      "value": "There was a problem removing the hold"
+    }
+  ],
+  "ui-inn-reach.remove-hold.callout.success.post.remove-hold": [
+    {
+      "type": 0,
+      "value": "Hold has been successfully removed"
     }
   ],
   "ui-inn-reach.reports.callout.export-in-progress": [
@@ -74144,6 +74184,12 @@
     {
       "type": 0,
       "value": "Přijmout neodeslanou jednotku"
+    }
+  ],
+  "ui-inn-reach.transaction-detail.patron-type.action.remove-hold": [
+    {
+      "type": 0,
+      "value": "Remove hold"
     }
   ],
   "ui-inn-reach.transaction-detail.patron-type.action.return-item": [
@@ -90278,6 +90324,26 @@
       "value": "Tento seznam může obsahovat záznamy od více nájemců."
     }
   ],
+  "ui-lists.delete-entity.not.found": [
+    {
+      "type": 0,
+      "value": "Error: "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "listName"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " was not deleted because the list's entity type is no longer available. Verify the entity type exists and try again."
+    }
+  ],
   "ui-lists.delete-export.in.progress": [
     {
       "type": 0,
@@ -90364,6 +90430,12 @@
       "value": "Seznam nenalezen"
     }
   ],
+  "ui-lists.error-component.read-entity.not.found": [
+    {
+      "type": 0,
+      "value": "This list's entity type is no longer available"
+    }
+  ],
   "ui-lists.error-component.read-entity.type.restricted": [
     {
       "type": 0,
@@ -90386,6 +90458,26 @@
     {
       "type": 0,
       "value": "Nastala neznámá chyba"
+    }
+  ],
+  "ui-lists.export-entity.not.found": [
+    {
+      "type": 0,
+      "value": "Error: export of "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "listName"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " failed because the list's entity type is no longer available. Verify the entity type exists and try again."
     }
   ],
   "ui-lists.export-export.in.progress": [
@@ -90898,6 +90990,26 @@
       "value": "Nový"
     }
   ],
+  "ui-lists.read-entity.not.found": [
+    {
+      "type": 0,
+      "value": "Error: "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "listName"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": "'s entity type was not found. Verify the entity type exists and try again."
+    }
+  ],
   "ui-lists.read-list.is.private": [
     {
       "type": 0,
@@ -90936,6 +91048,26 @@
     {
       "type": 0,
       "value": " nebyl nalezen. Ověřte umístění seznamu a zkuste to znovu."
+    }
+  ],
+  "ui-lists.refresh-entity.not.found": [
+    {
+      "type": 0,
+      "value": "Error: "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "listName"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " was not refreshed because the list's entity type is no longer available. Verify the entity type exists and try again."
     }
   ],
   "ui-lists.refresh-export.in.progress": [
@@ -91172,6 +91304,26 @@
     {
       "type": 0,
       "value": "Došlo k chybě."
+    }
+  ],
+  "ui-lists.update-entity.not.found": [
+    {
+      "type": 0,
+      "value": "Error: changes to "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "listName"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " were not saved because the list's entity type is no longer available. Verify the entity type exists and try again."
     }
   ],
   "ui-lists.update-export.in.progress": [
@@ -107568,7 +107720,7 @@
   "ui-organizations.filterConfig.isVendor": [
     {
       "type": 0,
-      "value": "Je prodejce"
+      "value": "Je distributor"
     }
   ],
   "ui-organizations.filterConfig.languages": [
@@ -107710,7 +107862,7 @@
   "ui-organizations.integration.edi.receiveNotifications": [
     {
       "type": 0,
-      "value": "Jaké zprávy se očekávají od tohoto prodejce?"
+      "value": "Jaké zprávy se očekávají od tohoto distributora?"
     }
   ],
   "ui-organizations.integration.edi.sendAccountNumber": [
@@ -107722,13 +107874,13 @@
   "ui-organizations.integration.edi.vendorEDICode": [
     {
       "type": 0,
-      "value": "Kód EDI prodejce"
+      "value": "Kód EDI distributora"
     }
   ],
   "ui-organizations.integration.edi.vendorEDIType": [
     {
       "type": 0,
-      "value": "Typ EDI prodejce"
+      "value": "Typ EDI distributora"
     }
   ],
   "ui-organizations.integration.edit.paneTitle": [
@@ -108482,7 +108634,7 @@
   "ui-organizations.main.isVendor": [
     {
       "type": 0,
-      "value": "Prodejce"
+      "value": "Distributor"
     }
   ],
   "ui-organizations.main.isVendor.no": [
@@ -108530,13 +108682,13 @@
   "ui-organizations.numberGenerator.generateVendorCode": [
     {
       "type": 0,
-      "value": "Generování kódu prodejce"
+      "value": "Generování kódu distributora"
     }
   ],
   "ui-organizations.numberGenerator.vendorCodeGenerator": [
     {
       "type": 0,
-      "value": "Generátor kódu prodejce"
+      "value": "Generátor kódu distributora"
     }
   ],
   "ui-organizations.organization.delete.confirmLabel": [
@@ -109403,7 +109555,7 @@
   "ui-organizations.summary.isVendor": [
     {
       "type": 0,
-      "value": "Prodejce"
+      "value": "Distributor"
     }
   ],
   "ui-organizations.summary.name": [
@@ -109445,13 +109597,13 @@
   "ui-organizations.vendor.confirmation.heading": [
     {
       "type": 0,
-      "value": "Potvrďte vymazání dat prodejce"
+      "value": "Potvrďte vymazání dat distributora"
     }
   ],
   "ui-organizations.vendor.confirmation.message": [
     {
       "type": 0,
-      "value": "Varování. Všechny informace o prodejci, podmínky prodejce, informace EDI a účty budou z tohoto záznamu smazány."
+      "value": "Varování. Všechny informace o distributorovi, podmínky distributora, informace EDI a účty budou z tohoto záznamu smazány."
     }
   ],
   "ui-organizations.vendorInfo.claimingInterval": [
@@ -109535,19 +109687,19 @@
   "ui-organizations.vendorInfo.vendorCurrencies": [
     {
       "type": 0,
-      "value": "Měny prodejců"
+      "value": "Měny distributora"
     }
   ],
   "ui-organizations.vendorInformation": [
     {
       "type": 0,
-      "value": "Informace o prodejci"
+      "value": "Informace o distributorovi"
     }
   ],
   "ui-organizations.vendorTerms": [
     {
       "type": 0,
-      "value": "Podmínky prodejce"
+      "value": "Podmínky distributora"
     }
   ],
   "ui-organizations.versionHistory.field.accessProvider": [
@@ -109817,7 +109969,7 @@
   "ui-organizations.view.editVendorDialog": [
     {
       "type": 0,
-      "value": "Dialogové okno Upravit prodejce"
+      "value": "Dialogové okno - Upravit distributora"
     }
   ],
   "ui-organizations.view.exportLog": [
@@ -117290,13 +117442,13 @@
   "ui-quick-marc.record.fixedField.Established heading": [
     {
       "type": 0,
-      "value": "Established heading"
+      "value": "Zavedené záhlaví"
     }
   ],
   "ui-quick-marc.record.fixedField.Established heading and subdivision": [
     {
       "type": 0,
-      "value": "Established heading and subdivision"
+      "value": "Zavedené záhlaví a podheslo"
     }
   ],
   "ui-quick-marc.record.fixedField.Ethnological information": [
@@ -118298,7 +118450,7 @@
   "ui-quick-marc.record.fixedField.National Agricultural Library subject authority file": [
     {
       "type": 0,
-      "value": "National Agricultural Library subject authority file"
+      "value": "Soubor věcné autority National Agricultural Library"
     }
   ],
   "ui-quick-marc.record.fixedField.National bibliographic agency": [
@@ -118508,7 +118660,7 @@
   "ui-quick-marc.record.fixedField.Not subdivided geographically": [
     {
       "type": 0,
-      "value": "Not subdivided geographically"
+      "value": "Rozděleno geograficky"
     }
   ],
   "ui-quick-marc.record.fixedField.Novels": [
@@ -119378,19 +119530,19 @@
   "ui-quick-marc.record.fixedField.Subdivided geographically-direct": [
     {
       "type": 0,
-      "value": "Subdivided geographically-direct"
+      "value": "Rozděleno geograficky - přímo"
     }
   ],
   "ui-quick-marc.record.fixedField.Subdivided geographically-indirect": [
     {
       "type": 0,
-      "value": "Subdivided geographically-indirect"
+      "value": "Rozděleno geograficky - nepřímo"
     }
   ],
   "ui-quick-marc.record.fixedField.Subdivision": [
     {
       "type": 0,
-      "value": "Subdivision"
+      "value": "Podheslo"
     }
   ],
   "ui-quick-marc.record.fixedField.Subj use": [
@@ -119564,13 +119716,13 @@
   "ui-quick-marc.record.fixedField.Tracings are consistent with the heading": [
     {
       "type": 0,
-      "value": "Tracings are consistent with the heading"
+      "value": "Směrování záhlaví jsou shodná se záhlavím"
     }
   ],
   "ui-quick-marc.record.fixedField.Tracings are not necessarily consistent with the heading": [
     {
       "type": 0,
-      "value": "Tracings are not necessarily consistent with the heading"
+      "value": "Směrování záhlaví nejsou nutně shodná se záhlavím"
     }
   ],
   "ui-quick-marc.record.fixedField.Transparency": [

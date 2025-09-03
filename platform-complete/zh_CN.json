@@ -8671,13 +8671,13 @@
   "stripes-core.errors.forgotten.password.found.multiple.users": [
     {
       "type": 0,
-      "value": "提供的信息与多个 FOLIO 帐户相关联。请联系您的 FOLIO 系统管理员重置您的密码。"
+      "value": "提供的信息与多个 FOLIO 账户相关联。请联系您的 FOLIO 系统管理员重置您的密码。"
     }
   ],
   "stripes-core.errors.forgotten.username.found.multiple.users": [
     {
       "type": 0,
-      "value": "此电子邮件或电话号码与多个 FOLIO 帐户绑定。请联系您的 FOLIO 系统管理员。"
+      "value": "此电子邮件或电话号码与多个 FOLIO 账户绑定。请联系您的 FOLIO 系统管理员。"
     }
   ],
   "stripes-core.errors.link.expired": [
@@ -8731,7 +8731,7 @@
   "stripes-core.errors.password.incorrect.block.user": [
     {
       "type": 0,
-      "value": "出于安全考虑，您的帐户已被锁定。请联系您的FOLIO系统管理员以重置密码。"
+      "value": "出于安全考虑，您的账户已被锁定。请联系您的FOLIO系统管理员以重置密码。"
     }
   ],
   "stripes-core.errors.password.incorrect.warn.user": [
@@ -8823,19 +8823,19 @@
   "stripes-core.errors.unable.locate.account": [
     {
       "type": 0,
-      "value": "无法找到您的帐户。请输入有效的电子邮件地址或电话号码。"
+      "value": "无法找到您的账户。请输入有效的电子邮件地址或电话号码。"
     }
   ],
   "stripes-core.errors.unable.locate.account.password": [
     {
       "type": 0,
-      "value": "无法找到您的帐户。请输入有效的电子邮件地址，电话号码或用户名。"
+      "value": "无法找到您的账户。请输入有效的电子邮件地址，电话号码或用户名。"
     }
   ],
   "stripes-core.errors.user.blocked": [
     {
       "type": 0,
-      "value": "出于安全考虑，您的帐户已被锁定。请重试或联系您的FOLIO系统管理员。"
+      "value": "出于安全考虑，您的账户已被锁定。请重试或联系您的FOLIO系统管理员。"
     }
   ],
   "stripes-core.errors.user.timeout": [
@@ -12249,7 +12249,7 @@
   "stripes-inventory-components.instances.columns.hrid": [
     {
       "type": 0,
-      "value": "Instance HRID"
+      "value": "实例HRID"
     }
   ],
   "stripes-inventory-components.instances.columns.publishers": [
@@ -12429,7 +12429,7 @@
   "stripes-inventory-components.search.advanced.keyword": [
     {
       "type": 0,
-      "value": "关键词（题名，贡献者）"
+      "value": "关键词（题名，贡献者，标识符）"
     }
   ],
   "stripes-inventory-components.search.advancedSearch": [
@@ -70546,6 +70546,18 @@
       "value": "汇率提供商 URI"
     }
   ],
+  "ui-finance.settings.exchangeRateSource.providerType.keyRequired": [
+    {
+      "type": 0,
+      "value": "Key required"
+    }
+  ],
+  "ui-finance.settings.exchangeRateSource.providerType.noKeyRequired": [
+    {
+      "type": 0,
+      "value": "No key required"
+    }
+  ],
   "ui-finance.settings.exchangeRateSource.submit.error.generic": [
     {
       "type": 0,
@@ -73176,6 +73188,18 @@
     {
       "type": 0,
       "value": "单件已成功接收"
+    }
+  ],
+  "ui-inn-reach.remove-hold.callout.connection-problem.post.remove-hold": [
+    {
+      "type": 0,
+      "value": "There was a problem removing the hold"
+    }
+  ],
+  "ui-inn-reach.remove-hold.callout.success.post.remove-hold": [
+    {
+      "type": 0,
+      "value": "Hold has been successfully removed"
     }
   ],
   "ui-inn-reach.reports.callout.export-in-progress": [
@@ -75886,6 +75910,12 @@
     {
       "type": 0,
       "value": "接受未发货单件"
+    }
+  ],
+  "ui-inn-reach.transaction-detail.patron-type.action.remove-hold": [
+    {
+      "type": 0,
+      "value": "Remove hold"
     }
   ],
   "ui-inn-reach.transaction-detail.patron-type.action.return-item": [
@@ -92864,6 +92894,26 @@
       "value": "该列表可能包含来自多个租户的记录。"
     }
   ],
+  "ui-lists.delete-entity.not.found": [
+    {
+      "type": 0,
+      "value": "Error: "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "listName"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " was not deleted because the list's entity type is no longer available. Verify the entity type exists and try again."
+    }
+  ],
   "ui-lists.delete-export.in.progress": [
     {
       "type": 0,
@@ -92982,6 +93032,12 @@
       "value": "未找到列表"
     }
   ],
+  "ui-lists.error-component.read-entity.not.found": [
+    {
+      "type": 0,
+      "value": "This list's entity type is no longer available"
+    }
+  ],
   "ui-lists.error-component.read-entity.type.restricted": [
     {
       "type": 0,
@@ -93004,6 +93060,26 @@
     {
       "type": 0,
       "value": "发生未知错误"
+    }
+  ],
+  "ui-lists.export-entity.not.found": [
+    {
+      "type": 0,
+      "value": "Error: export of "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "listName"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " failed because the list's entity type is no longer available. Verify the entity type exists and try again."
     }
   ],
   "ui-lists.export-export.in.progress": [
@@ -93568,6 +93644,26 @@
       "value": "+新建"
     }
   ],
+  "ui-lists.read-entity.not.found": [
+    {
+      "type": 0,
+      "value": "Error: "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "listName"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": "'s entity type was not found. Verify the entity type exists and try again."
+    }
+  ],
   "ui-lists.read-list.is.private": [
     {
       "type": 0,
@@ -93622,6 +93718,26 @@
     {
       "type": 0,
       "value": " 。验证列表位置并重试。"
+    }
+  ],
+  "ui-lists.refresh-entity.not.found": [
+    {
+      "type": 0,
+      "value": "Error: "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "listName"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " was not refreshed because the list's entity type is no longer available. Verify the entity type exists and try again."
     }
   ],
   "ui-lists.refresh-export.in.progress": [
@@ -93922,6 +94038,26 @@
     {
       "type": 0,
       "value": "发生错误。"
+    }
+  ],
+  "ui-lists.update-entity.not.found": [
+    {
+      "type": 0,
+      "value": "Error: changes to "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "listName"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " were not saved because the list's entity type is no longer available. Verify the entity type exists and try again."
     }
   ],
   "ui-lists.update-export.in.progress": [
@@ -111895,7 +112031,7 @@
   "ui-organizations.save.error.accountNumberMustBeUnique": [
     {
       "type": 0,
-      "value": "组织不能有重复的帐号"
+      "value": "组织不能有重复的账号"
     }
   ],
   "ui-organizations.save.error.assignInterface": [
@@ -112049,7 +112185,7 @@
   "ui-organizations.settings.accountTypes.save.error.accountTypeMustBeUnique": [
     {
       "type": 0,
-      "value": "帐户类型必须唯一。"
+      "value": "账户类型必须唯一。"
     }
   ],
   "ui-organizations.settings.accountTypes.save.error.generic.message": [
@@ -112303,7 +112439,7 @@
   "ui-organizations.settings.numberGeneratorOptions.info": [
     {
       "type": 0,
-      "value": "通常使用数字序列填写的字段可以使用数字生成器。当生成器打开时，可以固定该字段以防止手动更新，或使其完全可编辑。当关闭时，必须手动填写该字段。"
+      "value": "通常使用数字序列填写的字段可以使用数字生成器。当生成器打开时，可以固定该字段以防止人工更新，或使其完全可编辑。当关闭时，必须人工填写该字段。"
     }
   ],
   "ui-organizations.settings.numberGeneratorOptions.infoAdditional": [
@@ -112621,7 +112757,7 @@
   "ui-organizations.vendor.confirmation.message": [
     {
       "type": 0,
-      "value": "警告。将从此记录中删除所有供应商信息、供应商条款、EDI信息和帐户。"
+      "value": "警告。将从此记录中删除所有供应商信息、供应商条款、EDI信息和账户。"
     }
   ],
   "ui-organizations.vendorInfo.claimingInterval": [
@@ -112729,25 +112865,25 @@
   "ui-organizations.versionHistory.field.accounts.acqUnitsIds": [
     {
       "type": 0,
-      "value": "帐户采购单位"
+      "value": "账户采购单位"
     }
   ],
   "ui-organizations.versionHistory.field.accounts.description": [
     {
       "type": 0,
-      "value": "描述 : 账户 ) "
+      "value": "描述（账户）"
     }
   ],
   "ui-organizations.versionHistory.field.accounts.name": [
     {
       "type": 0,
-      "value": "姓名 : 账户 ) "
+      "value": "名称（账户 ）"
     }
   ],
   "ui-organizations.versionHistory.field.accounts.notes": [
     {
       "type": 0,
-      "value": "附注 : 账户 ) "
+      "value": "附注（账户）"
     }
   ],
   "ui-organizations.versionHistory.field.address.categories": [
@@ -117705,7 +117841,7 @@
   "ui-plugin-query-builder.control.value.placeholder.organizations": [
     {
       "type": 0,
-      "value": "Use the “Organization look-up” below to add organizations"
+      "value": "Use the “Organization look-up” below to add values"
     }
   ],
   "ui-plugin-query-builder.error.occurredMessage": [

@@ -652,7 +652,7 @@
   "stripes-acq-components.fundDistribution.type.percent": [
     {
       "type": 0,
-      "value": "Percent"
+      "value": "パーセント"
     }
   ],
   "stripes-acq-components.fundDistribution.type.sign.percent": [
@@ -12231,7 +12231,7 @@
   "stripes-inventory-components.instances.columns.hrid": [
     {
       "type": 0,
-      "value": "Instance HRID"
+      "value": "インスタンス HRID"
     }
   ],
   "stripes-inventory-components.instances.columns.publishers": [
@@ -15652,7 +15652,7 @@
   "stripes-template-editor.toolbar.token": [
     {
       "type": 0,
-      "value": "token"
+      "value": "トークン"
     }
   ],
   "ui-acquisition-units.accordion.actionPermissions": [
@@ -69249,6 +69249,18 @@
       "value": "Exchange rate provider URI"
     }
   ],
+  "ui-finance.settings.exchangeRateSource.providerType.keyRequired": [
+    {
+      "type": 0,
+      "value": "Key required"
+    }
+  ],
+  "ui-finance.settings.exchangeRateSource.providerType.noKeyRequired": [
+    {
+      "type": 0,
+      "value": "No key required"
+    }
+  ],
   "ui-finance.settings.exchangeRateSource.submit.error.generic": [
     {
       "type": 0,
@@ -69652,7 +69664,7 @@
     },
     {
       "type": 0,
-      "value": " and ledger fund restrictions are active"
+      "value": " and ledger fund restrictions are active."
     }
   ],
   "ui-finance.transaction.allocation.decrease.hasBeenCreated": [
@@ -69677,6 +69689,10 @@
     {
       "type": 1,
       "value": "amount"
+    },
+    {
+      "type": 0,
+      "value": "."
     }
   ],
   "ui-finance.transaction.allocation.genericError": [
@@ -69735,6 +69751,10 @@
       ],
       "type": 8,
       "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "."
     }
   ],
   "ui-finance.transaction.allocation.move.hasBeenCreated": [
@@ -69793,6 +69813,10 @@
       ],
       "type": 8,
       "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "."
     }
   ],
   "ui-finance.transaction.allocation.title": [
@@ -70134,7 +70158,7 @@
     },
     {
       "type": 0,
-      "value": " has no budget"
+      "value": " has no budget."
     }
   ],
   "ui-finance.transaction.transfer.budgetRestrictedExpendituresError": [
@@ -71753,6 +71777,18 @@
     {
       "type": 0,
       "value": "資料がすべて正常に受入されました"
+    }
+  ],
+  "ui-inn-reach.remove-hold.callout.connection-problem.post.remove-hold": [
+    {
+      "type": 0,
+      "value": "There was a problem removing the hold"
+    }
+  ],
+  "ui-inn-reach.remove-hold.callout.success.post.remove-hold": [
+    {
+      "type": 0,
+      "value": "Hold has been successfully removed"
     }
   ],
   "ui-inn-reach.reports.callout.export-in-progress": [
@@ -74443,6 +74479,12 @@
     {
       "type": 0,
       "value": "Receive unshipped item"
+    }
+  ],
+  "ui-inn-reach.transaction-detail.patron-type.action.remove-hold": [
+    {
+      "type": 0,
+      "value": "Remove hold"
     }
   ],
   "ui-inn-reach.transaction-detail.patron-type.action.return-item": [
@@ -90998,6 +91040,26 @@
       "value": "This list may contain records from multiple tenants."
     }
   ],
+  "ui-lists.delete-entity.not.found": [
+    {
+      "type": 0,
+      "value": "Error: "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "listName"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " was not deleted because the list's entity type is no longer available. Verify the entity type exists and try again."
+    }
+  ],
   "ui-lists.delete-export.in.progress": [
     {
       "type": 0,
@@ -91116,6 +91178,12 @@
       "value": "リストが見つかりません"
     }
   ],
+  "ui-lists.error-component.read-entity.not.found": [
+    {
+      "type": 0,
+      "value": "This list's entity type is no longer available"
+    }
+  ],
   "ui-lists.error-component.read-entity.type.restricted": [
     {
       "type": 0,
@@ -91138,6 +91206,26 @@
     {
       "type": 0,
       "value": "不明なエラーが発生しました"
+    }
+  ],
+  "ui-lists.export-entity.not.found": [
+    {
+      "type": 0,
+      "value": "Error: export of "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "listName"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " failed because the list's entity type is no longer available. Verify the entity type exists and try again."
     }
   ],
   "ui-lists.export-export.in.progress": [
@@ -91682,6 +91770,26 @@
       "value": "新規"
     }
   ],
+  "ui-lists.read-entity.not.found": [
+    {
+      "type": 0,
+      "value": "Error: "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "listName"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": "'s entity type was not found. Verify the entity type exists and try again."
+    }
+  ],
   "ui-lists.read-list.is.private": [
     {
       "type": 0,
@@ -91720,6 +91828,26 @@
     {
       "type": 0,
       "value": " was not found. Verify the list location and try again."
+    }
+  ],
+  "ui-lists.refresh-entity.not.found": [
+    {
+      "type": 0,
+      "value": "Error: "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "listName"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " was not refreshed because the list's entity type is no longer available. Verify the entity type exists and try again."
     }
   ],
   "ui-lists.refresh-export.in.progress": [
@@ -92012,6 +92140,26 @@
     {
       "type": 0,
       "value": "エラーが発生しました"
+    }
+  ],
+  "ui-lists.update-entity.not.found": [
+    {
+      "type": 0,
+      "value": "Error: changes to "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "listName"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " were not saved because the list's entity type is no longer available. Verify the entity type exists and try again."
     }
   ],
   "ui-lists.update-export.in.progress": [
@@ -107186,7 +107334,7 @@
   "ui-organizations.accounts.accountStatus": [
     {
       "type": 0,
-      "value": "Account status"
+      "value": "アカウントステータス"
     }
   ],
   "ui-organizations.accounts.add": [
@@ -115596,7 +115744,7 @@
   "ui-plugin-query-builder.control.value.placeholder.organizations": [
     {
       "type": 0,
-      "value": "Use the “Organization look-up” below to add organizations"
+      "value": "Use the “Organization look-up” below to add values"
     }
   ],
   "ui-plugin-query-builder.error.occurredMessage": [
@@ -118079,7 +118227,7 @@
   "ui-quick-marc.record.fixedField.Data type": [
     {
       "type": 0,
-      "value": "Data type"
+      "value": "データタイプ"
     }
   ],
   "ui-quick-marc.record.fixedField.Date of distribution/release/issue and production/recording session when different": [
@@ -118625,7 +118773,7 @@
   "ui-quick-marc.record.fixedField.Handbooks": [
     {
       "type": 0,
-      "value": "Handbooks"
+      "value": "ハンドブック"
     }
   ],
   "ui-quick-marc.record.fixedField.Hebrew": [
@@ -118895,7 +119043,7 @@
   "ui-quick-marc.record.fixedField.Language": [
     {
       "type": 0,
-      "value": "Language"
+      "value": "言語"
     }
   ],
   "ui-quick-marc.record.fixedField.Language instruction": [
@@ -122494,7 +122642,7 @@
   "ui-quick-marc.sourceFileSelect.fieldLabel": [
     {
       "type": 0,
-      "value": "Authority file name"
+      "value": "典拠ファイル名称"
     }
   ],
   "ui-quick-marc.sourceFileSelect.placeholder": [

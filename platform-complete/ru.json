@@ -12233,7 +12233,7 @@
   "stripes-inventory-components.instances.columns.hrid": [
     {
       "type": 0,
-      "value": "Instance HRID"
+      "value": "HRID экземпляра"
     }
   ],
   "stripes-inventory-components.instances.columns.publishers": [
@@ -68869,6 +68869,18 @@
       "value": "Exchange rate provider URI"
     }
   ],
+  "ui-finance.settings.exchangeRateSource.providerType.keyRequired": [
+    {
+      "type": 0,
+      "value": "Key required"
+    }
+  ],
+  "ui-finance.settings.exchangeRateSource.providerType.noKeyRequired": [
+    {
+      "type": 0,
+      "value": "No key required"
+    }
+  ],
   "ui-finance.settings.exchangeRateSource.submit.error.generic": [
     {
       "type": 0,
@@ -69082,7 +69094,7 @@
   "ui-finance.transaction.actions.load.error": [
     {
       "type": 0,
-      "value": "Failed to load transaction data"
+      "value": "Failed to load transaction data."
     }
   ],
   "ui-finance.transaction.allocation.allowableAllocationIdsMismatch": [
@@ -69202,7 +69214,7 @@
     },
     {
       "type": 0,
-      "value": " has no budget"
+      "value": " has no budget."
     }
   ],
   "ui-finance.transaction.allocation.budgetRestrictedExpendituresError": [
@@ -69240,7 +69252,7 @@
     },
     {
       "type": 0,
-      "value": " and ledger fund restrictions are active"
+      "value": " and ledger fund restrictions are active."
     }
   ],
   "ui-finance.transaction.allocation.decrease.hasBeenCreated": [
@@ -69265,6 +69277,10 @@
     {
       "type": 1,
       "value": "amount"
+    },
+    {
+      "type": 0,
+      "value": "."
     }
   ],
   "ui-finance.transaction.allocation.genericError": [
@@ -69285,6 +69301,10 @@
       ],
       "type": 8,
       "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "."
     }
   ],
   "ui-finance.transaction.allocation.hasBeenCreated": [
@@ -69325,6 +69345,10 @@
       ],
       "type": 8,
       "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "."
     }
   ],
   "ui-finance.transaction.allocation.move.hasBeenCreated": [
@@ -69383,6 +69407,10 @@
       ],
       "type": 8,
       "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "."
     }
   ],
   "ui-finance.transaction.allocation.title": [
@@ -69724,7 +69752,7 @@
     },
     {
       "type": 0,
-      "value": " has no budget"
+      "value": " has no budget."
     }
   ],
   "ui-finance.transaction.transfer.budgetRestrictedExpendituresError": [
@@ -69783,6 +69811,10 @@
       ],
       "type": 8,
       "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "."
     }
   ],
   "ui-finance.transaction.transfer.hasBeenCreated": [
@@ -69803,6 +69835,10 @@
       ],
       "type": 8,
       "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "."
     }
   ],
   "ui-finance.transaction.transfer.missingFundId": [
@@ -71347,6 +71383,18 @@
     {
       "type": 0,
       "value": "Item has been successfully received"
+    }
+  ],
+  "ui-inn-reach.remove-hold.callout.connection-problem.post.remove-hold": [
+    {
+      "type": 0,
+      "value": "There was a problem removing the hold"
+    }
+  ],
+  "ui-inn-reach.remove-hold.callout.success.post.remove-hold": [
+    {
+      "type": 0,
+      "value": "Hold has been successfully removed"
     }
   ],
   "ui-inn-reach.reports.callout.export-in-progress": [
@@ -74037,6 +74085,12 @@
     {
       "type": 0,
       "value": "Receive unshipped item"
+    }
+  ],
+  "ui-inn-reach.transaction-detail.patron-type.action.remove-hold": [
+    {
+      "type": 0,
+      "value": "Remove hold"
     }
   ],
   "ui-inn-reach.transaction-detail.patron-type.action.return-item": [
@@ -90146,6 +90200,26 @@
       "value": "This list may contain records from multiple tenants."
     }
   ],
+  "ui-lists.delete-entity.not.found": [
+    {
+      "type": 0,
+      "value": "Error: "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "listName"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " was not deleted because the list's entity type is no longer available. Verify the entity type exists and try again."
+    }
+  ],
   "ui-lists.delete-export.in.progress": [
     {
       "type": 0,
@@ -90232,6 +90306,12 @@
       "value": "List not found"
     }
   ],
+  "ui-lists.error-component.read-entity.not.found": [
+    {
+      "type": 0,
+      "value": "This list's entity type is no longer available"
+    }
+  ],
   "ui-lists.error-component.read-entity.type.restricted": [
     {
       "type": 0,
@@ -90254,6 +90334,26 @@
     {
       "type": 0,
       "value": "An unknown error ocurred"
+    }
+  ],
+  "ui-lists.export-entity.not.found": [
+    {
+      "type": 0,
+      "value": "Error: export of "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "listName"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " failed because the list's entity type is no longer available. Verify the entity type exists and try again."
     }
   ],
   "ui-lists.export-export.in.progress": [
@@ -90766,6 +90866,26 @@
       "value": "Новое"
     }
   ],
+  "ui-lists.read-entity.not.found": [
+    {
+      "type": 0,
+      "value": "Error: "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "listName"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": "'s entity type was not found. Verify the entity type exists and try again."
+    }
+  ],
   "ui-lists.read-list.is.private": [
     {
       "type": 0,
@@ -90804,6 +90924,26 @@
     {
       "type": 0,
       "value": " was not found. Verify the list location and try again."
+    }
+  ],
+  "ui-lists.refresh-entity.not.found": [
+    {
+      "type": 0,
+      "value": "Error: "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "listName"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " was not refreshed because the list's entity type is no longer available. Verify the entity type exists and try again."
     }
   ],
   "ui-lists.refresh-export.in.progress": [
@@ -91040,6 +91180,26 @@
     {
       "type": 0,
       "value": "An error occurred."
+    }
+  ],
+  "ui-lists.update-entity.not.found": [
+    {
+      "type": 0,
+      "value": "Error: changes to "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "listName"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " were not saved because the list's entity type is no longer available. Verify the entity type exists and try again."
     }
   ],
   "ui-lists.update-export.in.progress": [
@@ -114304,7 +114464,7 @@
   "ui-plugin-query-builder.control.value.placeholder.organizations": [
     {
       "type": 0,
-      "value": "Use the “Organization look-up” below to add organizations"
+      "value": "Use the “Organization look-up” below to add values"
     }
   ],
   "ui-plugin-query-builder.error.occurredMessage": [
