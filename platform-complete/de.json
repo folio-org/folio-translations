@@ -82835,6 +82835,12 @@
       "value": "Belegexport"
     }
   ],
+  "ui-invoice.document.settings.title": [
+    {
+      "type": 0,
+      "value": "Invoices settings"
+    }
+  ],
   "ui-invoice.document.title.search": [
     {
       "type": 0,
@@ -85513,6 +85519,32 @@
       "value": "Zusatzkosten löschen?"
     }
   ],
+  "ui-invoice.settings.adjustments.create.error": [
+    {
+      "type": 0,
+      "value": "Failed to create adjustment."
+    }
+  ],
+  "ui-invoice.settings.adjustments.create.success": [
+    {
+      "type": 0,
+      "value": "The adjustment "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "name"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " was created."
+    }
+  ],
   "ui-invoice.settings.adjustments.defaultAmount": [
     {
       "type": 0,
@@ -85571,6 +85603,46 @@
     {
       "type": 0,
       "value": "Typ"
+    }
+  ],
+  "ui-invoice.settings.adjustments.update.error": [
+    {
+      "type": 0,
+      "value": "Failed to update "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "name"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " adjustment."
+    }
+  ],
+  "ui-invoice.settings.adjustments.update.success": [
+    {
+      "type": 0,
+      "value": "The adjustment "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "name"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " was updated."
     }
   ],
   "ui-invoice.settings.adjustments.value": [
