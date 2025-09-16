@@ -13366,7 +13366,7 @@
   "stripes-smart-components.cddd.time": [
     {
       "type": 0,
-      "value": "Czas"
+      "value": "Godzina"
     }
   ],
   "stripes-smart-components.cddd.warning.dueDateAfterPatronExpiration": [
@@ -14322,7 +14322,7 @@
   "stripes-smart-components.dateRange.from": [
     {
       "type": 0,
-      "value": "Od"
+      "value": "Z"
     }
   ],
   "stripes-smart-components.dateRange.invalidDate": [
@@ -14418,7 +14418,7 @@
   "stripes-smart-components.error.badRequest": [
     {
       "type": 0,
-      "value": "Search could not be processed for "
+      "value": "Nie udało się przetworzyć wyszukiwania "
     },
     {
       "type": 1,
@@ -14426,7 +14426,7 @@
     },
     {
       "type": 0,
-      "value": ". Please check your query and try again."
+      "value": ". Sprawdź zapytanie i spróbuj ponownie."
     }
   ],
   "stripes-smart-components.error.conflict": [
@@ -15314,7 +15314,7 @@
   "stripes-smart-components.searchAndFilter": [
     {
       "type": 0,
-      "value": "Wyszukaj i filtruj"
+      "value": "Szukaj i filtruj"
     }
   ],
   "stripes-smart-components.searchCriteria": [
@@ -114999,6 +114999,12 @@
       "value": "E-mail"
     }
   ],
+  "ui-plugin-find-user.filter.userType": [
+    {
+      "type": 0,
+      "value": "User type"
+    }
+  ],
   "ui-plugin-find-user.inactive": [
     {
       "type": 0,
@@ -115081,10 +115087,28 @@
       "value": "Szukaj"
     }
   ],
+  "ui-plugin-find-user.shadow": [
+    {
+      "type": 0,
+      "value": "Shadow"
+    }
+  ],
+  "ui-plugin-find-user.staff": [
+    {
+      "type": 0,
+      "value": "Staff"
+    }
+  ],
   "ui-plugin-find-user.status": [
     {
       "type": 0,
       "value": "Status"
+    }
+  ],
+  "ui-plugin-find-user.system": [
+    {
+      "type": 0,
+      "value": "System"
     }
   ],
   "ui-plugin-find-user.unassigned": [
@@ -115186,7 +115210,7 @@
   "ui-plugin-query-builder.error.needsRefresh": [
     {
       "type": 0,
-      "value": "The record type used by this list has changed; please refresh the list."
+      "value": "The record type used by this list has changed; please refresh the list, and if needed, modify the query."
     }
   ],
   "ui-plugin-query-builder.error.occurredMessage": [

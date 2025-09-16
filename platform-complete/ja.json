@@ -13607,7 +13607,7 @@
   "stripes-smart-components.customFields.dragDrop.moved": [
     {
       "type": 0,
-      "value": "You have moved field "
+      "value": "フィールド"
     },
     {
       "type": 1,
@@ -13615,7 +13615,7 @@
     },
     {
       "type": 0,
-      "value": " from position "
+      "value": " を"
     },
     {
       "type": 1,
@@ -13623,17 +13623,21 @@
     },
     {
       "type": 0,
-      "value": " to position "
+      "value": " の位置から"
     },
     {
       "type": 1,
       "value": "end"
+    },
+    {
+      "type": 0,
+      "value": "の位置に移動しました。"
     }
   ],
   "stripes-smart-components.customFields.dragDrop.moving": [
     {
       "type": 0,
-      "value": "You have moved field "
+      "value": "フィールド"
     },
     {
       "type": 1,
@@ -13641,23 +13645,27 @@
     },
     {
       "type": 0,
-      "value": " to position "
+      "value": "を位置"
     },
     {
       "type": 1,
       "value": "position"
+    },
+    {
+      "type": 0,
+      "value": "に移動しました。"
     }
   ],
   "stripes-smart-components.customFields.dragDrop.notOverDroppable": [
     {
       "type": 0,
-      "value": "You are currently not over a droppable area"
+      "value": "現在、ドロップ可能なエリア上にいません。"
     }
   ],
   "stripes-smart-components.customFields.dragDrop.returned": [
     {
       "type": 0,
-      "value": "Field "
+      "value": "フィールド"
     },
     {
       "type": 1,
@@ -13665,11 +13673,15 @@
     },
     {
       "type": 0,
-      "value": " has been returned to its starting position of "
+      "value": "は開始位置"
     },
     {
       "type": 1,
       "value": "position"
+    },
+    {
+      "type": 0,
+      "value": "に戻されました。"
     }
   ],
   "stripes-smart-components.customFields.dropdown.code": [
@@ -14290,7 +14302,7 @@
   "stripes-smart-components.date": [
     {
       "type": 0,
-      "value": "Date"
+      "value": "日付"
     }
   ],
   "stripes-smart-components.dateRange.apply": [
@@ -14886,13 +14898,13 @@
   "stripes-smart-components.notes.navModal.modalLabel": [
     {
       "type": 0,
-      "value": "Please confirm"
+      "value": "ご確認ください。"
     }
   ],
   "stripes-smart-components.notes.navModal.unsavedChangesMsg": [
     {
       "type": 0,
-      "value": "Your changes have not been saved. Are you sure you want to leave this page?"
+      "value": "変更内容は保存されていません。このページから離れますか?"
     }
   ],
   "stripes-smart-components.notes.newNote": [
@@ -115975,6 +115987,12 @@
       "value": "Eメール"
     }
   ],
+  "ui-plugin-find-user.filter.userType": [
+    {
+      "type": 0,
+      "value": "User type"
+    }
+  ],
   "ui-plugin-find-user.inactive": [
     {
       "type": 0,
@@ -116057,10 +116075,28 @@
       "value": "検索"
     }
   ],
+  "ui-plugin-find-user.shadow": [
+    {
+      "type": 0,
+      "value": "Shadow"
+    }
+  ],
+  "ui-plugin-find-user.staff": [
+    {
+      "type": 0,
+      "value": "Staff"
+    }
+  ],
   "ui-plugin-find-user.status": [
     {
       "type": 0,
       "value": "ステータス"
+    }
+  ],
+  "ui-plugin-find-user.system": [
+    {
+      "type": 0,
+      "value": "System"
     }
   ],
   "ui-plugin-find-user.unassigned": [
@@ -116162,7 +116198,7 @@
   "ui-plugin-query-builder.error.needsRefresh": [
     {
       "type": 0,
-      "value": "The record type used by this list has changed; please refresh the list."
+      "value": "The record type used by this list has changed; please refresh the list, and if needed, modify the query."
     }
   ],
   "ui-plugin-query-builder.error.occurredMessage": [

@@ -114902,6 +114902,12 @@
       "value": "E-mail"
     }
   ],
+  "ui-plugin-find-user.filter.userType": [
+    {
+      "type": 0,
+      "value": "User type"
+    }
+  ],
   "ui-plugin-find-user.inactive": [
     {
       "type": 0,
@@ -114984,10 +114990,28 @@
       "value": "Vyhledávání"
     }
   ],
+  "ui-plugin-find-user.shadow": [
+    {
+      "type": 0,
+      "value": "Shadow"
+    }
+  ],
+  "ui-plugin-find-user.staff": [
+    {
+      "type": 0,
+      "value": "Staff"
+    }
+  ],
   "ui-plugin-find-user.status": [
     {
       "type": 0,
       "value": "Stav"
+    }
+  ],
+  "ui-plugin-find-user.system": [
+    {
+      "type": 0,
+      "value": "System"
     }
   ],
   "ui-plugin-find-user.unassigned": [
@@ -115089,7 +115113,7 @@
   "ui-plugin-query-builder.error.needsRefresh": [
     {
       "type": 0,
-      "value": "The record type used by this list has changed; please refresh the list."
+      "value": "The record type used by this list has changed; please refresh the list, and if needed, modify the query."
     }
   ],
   "ui-plugin-query-builder.error.occurredMessage": [
