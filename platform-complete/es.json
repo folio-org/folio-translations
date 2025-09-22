@@ -115521,13 +115521,13 @@
   "ui-plugin-query-builder.viewer.accordion.title.query.showLess": [
     {
       "type": 0,
-      "value": "Show less"
+      "value": "Mostrar menos"
     }
   ],
   "ui-plugin-query-builder.viewer.accordion.title.query.showMore": [
     {
       "type": 0,
-      "value": "Show more"
+      "value": "Ver más"
     }
   ],
   "ui-plugin-query-builder.viewer.retrieving": [
@@ -139460,13 +139460,29 @@
   "ui-users.loans.columns.useAtLocation.Held": [
     {
       "type": 0,
-      "value": "Held"
+      "value": "Held in "
+    },
+    {
+      "type": 1,
+      "value": "servicePoint"
+    },
+    {
+      "type": 0,
+      "value": " until "
+    },
+    {
+      "type": 1,
+      "value": "expiry"
     }
   ],
   "ui-users.loans.columns.useAtLocation.In use": [
     {
       "type": 0,
-      "value": "In use"
+      "value": "In use in "
+    },
+    {
+      "type": 1,
+      "value": "servicePoint"
     }
   ],
   "ui-users.loans.columns.useAtLocation.Returned": [

@@ -79089,7 +79089,7 @@
   "ui-inventory.moveItems.instance.dropZone": [
     {
       "type": 0,
-      "value": "Drop holding"
+      "value": "Drop holdings here"
     }
   ],
   "ui-inventory.moveItems.instance.holdings.error": [
@@ -85687,13 +85687,13 @@
   "ui-invoice.settings.adjustments.remove.error": [
     {
       "type": 0,
-      "value": "The adjustment was not deleted"
+      "value": "The adjustment was not deleted."
     }
   ],
   "ui-invoice.settings.adjustments.remove.success": [
     {
       "type": 0,
-      "value": "The adjustment was deleted"
+      "value": "The adjustment was deleted."
     }
   ],
   "ui-invoice.settings.adjustments.title.new": [
@@ -139029,13 +139029,29 @@
   "ui-users.loans.columns.useAtLocation.Held": [
     {
       "type": 0,
-      "value": "Held"
+      "value": "Held in "
+    },
+    {
+      "type": 1,
+      "value": "servicePoint"
+    },
+    {
+      "type": 0,
+      "value": " until "
+    },
+    {
+      "type": 1,
+      "value": "expiry"
     }
   ],
   "ui-users.loans.columns.useAtLocation.In use": [
     {
       "type": 0,
-      "value": "In use"
+      "value": "In use in "
+    },
+    {
+      "type": 1,
+      "value": "servicePoint"
     }
   ],
   "ui-users.loans.columns.useAtLocation.Returned": [

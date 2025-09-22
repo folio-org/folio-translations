@@ -9861,25 +9861,25 @@
   "stripes-erm-components.accesscontrol.acquisitionunits.protectCreate": [
     {
       "type": 0,
-      "value": "Create"
+      "value": "作成"
     }
   ],
   "stripes-erm-components.accesscontrol.acquisitionunits.protectDelete": [
     {
       "type": 0,
-      "value": "Delete"
+      "value": "削除"
     }
   ],
   "stripes-erm-components.accesscontrol.acquisitionunits.protectRead": [
     {
       "type": 0,
-      "value": "View"
+      "value": "表示"
     }
   ],
   "stripes-erm-components.accesscontrol.acquisitionunits.protectUpdate": [
     {
       "type": 0,
-      "value": "Edit"
+      "value": "編集"
     }
   ],
   "stripes-erm-components.accesscontrol.description": [
@@ -9891,7 +9891,7 @@
   "stripes-erm-components.accesscontrol.error.noAccess": [
     {
       "type": 0,
-      "value": "Access to this resource is restricted, please speak to your system administrator"
+      "value": "このリソースへのアクセスは制限されています。システム管理者にお問い合わせください"
     }
   ],
   "stripes-erm-components.accesscontrol.error.pane.title": [
@@ -9915,7 +9915,7 @@
   "stripes-erm-components.accesscontrol.remove": [
     {
       "type": 0,
-      "value": "Remove"
+      "value": "削除"
     }
   ],
   "stripes-erm-components.accesscontrol.restrictions": [
@@ -24491,7 +24491,7 @@
   "ui-bulk-edit.columns.USER.External system id": [
     {
       "type": 0,
-      "value": "学部システムID"
+      "value": "外部システムID"
     }
   ],
   "ui-bulk-edit.columns.USER.First name": [
@@ -34073,7 +34073,7 @@
   "ui-circulation.settings.checkout.identifiers.externalSystemId": [
     {
       "type": 0,
-      "value": "学部システムID"
+      "value": "外部システムID"
     }
   ],
   "ui-circulation.settings.checkout.identifiers.id": [
@@ -63264,7 +63264,7 @@
   "ui-erm-usage.credentials.platform": [
     {
       "type": 0,
-      "value": "Platform"
+      "value": "プラットフォーム"
     }
   ],
   "ui-erm-usage.credentials.requestorId": [
@@ -65315,7 +65315,7 @@
   "ui-erm-usage.udp.form.placeholder.apiKey": [
     {
       "type": 0,
-      "value": "Enter the API key"
+      "value": "APIキーを入力"
     }
   ],
   "ui-erm-usage.udp.form.placeholder.customerId": [
@@ -74270,7 +74270,7 @@
   "ui-inn-reach.settings.visible-patron-id.field.EXTERNAL_SYSTEM_ID": [
     {
       "type": 0,
-      "value": "学部システムID"
+      "value": "外部システムID"
     }
   ],
   "ui-inn-reach.settings.visible-patron-id.field.FOLIO_RECORD_NUMBER": [
@@ -79620,7 +79620,7 @@
   "ui-inventory.moveItems.instance.dropZone": [
     {
       "type": 0,
-      "value": "Drop holding"
+      "value": "Drop holdings here"
     }
   ],
   "ui-inventory.moveItems.instance.holdings.error": [
@@ -86352,13 +86352,13 @@
   "ui-invoice.settings.adjustments.remove.error": [
     {
       "type": 0,
-      "value": "The adjustment was not deleted"
+      "value": "The adjustment was not deleted."
     }
   ],
   "ui-invoice.settings.adjustments.remove.success": [
     {
       "type": 0,
-      "value": "The adjustment was deleted"
+      "value": "The adjustment was deleted."
     }
   ],
   "ui-invoice.settings.adjustments.title.new": [
@@ -116446,13 +116446,13 @@
   "ui-plugin-query-builder.viewer.accordion.title.query.showLess": [
     {
       "type": 0,
-      "value": "Show less"
+      "value": "表示を減らす"
     }
   ],
   "ui-plugin-query-builder.viewer.accordion.title.query.showMore": [
     {
       "type": 0,
-      "value": "Show more"
+      "value": "もっと表示"
     }
   ],
   "ui-plugin-query-builder.viewer.retrieving": [
@@ -139499,7 +139499,7 @@
   "ui-users.extended.externalSystemId": [
     {
       "type": 0,
-      "value": "学部システムID"
+      "value": "外部システムID"
     }
   ],
   "ui-users.extended.folioNumber": [
@@ -140660,13 +140660,29 @@
   "ui-users.loans.columns.useAtLocation.Held": [
     {
       "type": 0,
-      "value": "Held"
+      "value": "Held in "
+    },
+    {
+      "type": 1,
+      "value": "servicePoint"
+    },
+    {
+      "type": 0,
+      "value": " until "
+    },
+    {
+      "type": 1,
+      "value": "expiry"
     }
   ],
   "ui-users.loans.columns.useAtLocation.In use": [
     {
       "type": 0,
-      "value": "In use"
+      "value": "In use in "
+    },
+    {
+      "type": 1,
+      "value": "servicePoint"
     }
   ],
   "ui-users.loans.columns.useAtLocation.Returned": [

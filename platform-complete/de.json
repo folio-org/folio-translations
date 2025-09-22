@@ -30376,7 +30376,7 @@
   "ui-checkin.defaultCheckinAction.Ask_for_action": [
     {
       "type": 0,
-      "value": "Ask for action"
+      "value": "Aktion erforderlich"
     }
   ],
   "ui-checkin.defaultCheckinAction.Close_loan_and_return_item": [
@@ -75219,7 +75219,7 @@
   "ui-inventory.addAdditionalCallNumber": [
     {
       "type": 0,
-      "value": "Add additional call number"
+      "value": "Weitere Signatur hinzufügen"
     }
   ],
   "ui-inventory.addAdministrativeNote": [
@@ -75457,7 +75457,7 @@
   "ui-inventory.additionalCallNumbers": [
     {
       "type": 0,
-      "value": "Additional call numbers"
+      "value": "Weitere Signaturen"
     }
   ],
   "ui-inventory.adminData": [
@@ -78278,7 +78278,7 @@
   "ui-inventory.item.order": [
     {
       "type": 0,
-      "value": "Order"
+      "value": "Reihenfolge"
     }
   ],
   "ui-inventory.item.requestQueue": [
@@ -79442,7 +79442,7 @@
   "ui-inventory.moveItems.items.dropZone": [
     {
       "type": 0,
-      "value": "Drop items here"
+      "value": "Exemplare hier ablegen"
     }
   ],
   "ui-inventory.moveItems.modal.confirmLabel": [
@@ -81774,37 +81774,37 @@
   "ui-inventory.settings.displaySettings.defaultColumns": [
     {
       "type": 0,
-      "value": "Default columns"
+      "value": "Standardspalten"
     }
   ],
   "ui-inventory.settings.displaySettings.defaultColumns.options.contributors": [
     {
       "type": 0,
-      "value": "Contributors"
+      "value": "Mitwirkende"
     }
   ],
   "ui-inventory.settings.displaySettings.defaultColumns.options.hrid": [
     {
       "type": 0,
-      "value": "Instance HRID"
+      "value": "Instanz-HRID"
     }
   ],
   "ui-inventory.settings.displaySettings.defaultColumns.options.normalizedDate1": [
     {
       "type": 0,
-      "value": "Date"
+      "value": "Datum"
     }
   ],
   "ui-inventory.settings.displaySettings.defaultColumns.options.publishers": [
     {
       "type": 0,
-      "value": "Publishers"
+      "value": "Verlage"
     }
   ],
   "ui-inventory.settings.displaySettings.defaultColumns.options.relation": [
     {
       "type": 0,
-      "value": "Relation"
+      "value": "Beziehung"
     }
   ],
   "ui-inventory.settings.displaySettings.defaultSort": [
@@ -82294,7 +82294,7 @@
   "ui-inventory.swapWithPrimaryCallNumber": [
     {
       "type": 0,
-      "value": "Change with primary call number"
+      "value": "Mit Hauptsignatur wechseln"
     }
   ],
   "ui-inventory.targetOptions": [
@@ -115474,13 +115474,13 @@
   "ui-plugin-query-builder.viewer.accordion.title.query.showLess": [
     {
       "type": 0,
-      "value": "Show less"
+      "value": "Weniger anzeigen"
     }
   ],
   "ui-plugin-query-builder.viewer.accordion.title.query.showMore": [
     {
       "type": 0,
-      "value": "Show more"
+      "value": "Mehr anzeigen"
     }
   ],
   "ui-plugin-query-builder.viewer.retrieving": [
@@ -139339,13 +139339,29 @@
   "ui-users.loans.columns.useAtLocation.Held": [
     {
       "type": 0,
-      "value": "Held"
+      "value": "Held in "
+    },
+    {
+      "type": 1,
+      "value": "servicePoint"
+    },
+    {
+      "type": 0,
+      "value": " until "
+    },
+    {
+      "type": 1,
+      "value": "expiry"
     }
   ],
   "ui-users.loans.columns.useAtLocation.In use": [
     {
       "type": 0,
-      "value": "In use"
+      "value": "In use in "
+    },
+    {
+      "type": 1,
+      "value": "servicePoint"
     }
   ],
   "ui-users.loans.columns.useAtLocation.Returned": [

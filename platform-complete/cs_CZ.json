@@ -9871,73 +9871,73 @@
   "stripes-erm-components.accesscontrol.acquisitionunits.protectCreate": [
     {
       "type": 0,
-      "value": "Create"
+      "value": "Vytvořit"
     }
   ],
   "stripes-erm-components.accesscontrol.acquisitionunits.protectDelete": [
     {
       "type": 0,
-      "value": "Delete"
+      "value": "Smazat"
     }
   ],
   "stripes-erm-components.accesscontrol.acquisitionunits.protectRead": [
     {
       "type": 0,
-      "value": "View"
+      "value": "Zobrazit"
     }
   ],
   "stripes-erm-components.accesscontrol.acquisitionunits.protectUpdate": [
     {
       "type": 0,
-      "value": "Edit"
+      "value": "Upravit"
     }
   ],
   "stripes-erm-components.accesscontrol.description": [
     {
       "type": 0,
-      "value": "Description"
+      "value": "Popis"
     }
   ],
   "stripes-erm-components.accesscontrol.error.noAccess": [
     {
       "type": 0,
-      "value": "Access to this resource is restricted, please speak to your system administrator"
+      "value": "Přístup k tomuto zdroji je omezen, obraťte se prosím na správce systému."
     }
   ],
   "stripes-erm-components.accesscontrol.error.pane.title": [
     {
       "type": 0,
-      "value": "Access control error"
+      "value": "Chyba řízení přístupu"
     }
   ],
   "stripes-erm-components.accesscontrol.label": [
     {
       "type": 0,
-      "value": "Acquisition units"
+      "value": "Akviziční jednotky"
     }
   ],
   "stripes-erm-components.accesscontrol.name": [
     {
       "type": 0,
-      "value": "Name"
+      "value": "Název"
     }
   ],
   "stripes-erm-components.accesscontrol.remove": [
     {
       "type": 0,
-      "value": "Remove"
+      "value": "Odstranit"
     }
   ],
   "stripes-erm-components.accesscontrol.restrictions": [
     {
       "type": 0,
-      "value": "Access"
+      "value": "Přístup"
     }
   ],
   "stripes-erm-components.accesscontrol.typedown.label": [
     {
       "type": 0,
-      "value": "Add acquisition unit"
+      "value": "Přidat akviziční jednotku"
     }
   ],
   "stripes-erm-components.alternativeNames": [
@@ -23100,13 +23100,13 @@
   "ui-bulk-edit.ariaLabel.createInstanceMarcProfile": [
     {
       "type": 0,
-      "value": "Create Instance MARC profile"
+      "value": "Vytvořit profil MARC titulu"
     }
   ],
   "ui-bulk-edit.ariaLabel.createInstanceProfile": [
     {
       "type": 0,
-      "value": "Create Instance FOLIO profile"
+      "value": "Vytvořit profil FOLIO titulu"
     }
   ],
   "ui-bulk-edit.ariaLabel.date": [
@@ -27275,7 +27275,7 @@
   "ui-bulk-edit.settings.profiles.columns.status.active": [
     {
       "type": 0,
-      "value": "Active"
+      "value": "Aktivní"
     }
   ],
   "ui-bulk-edit.settings.profiles.columns.updated": [
@@ -27425,7 +27425,7 @@
   "ui-bulk-edit.settings.profiles.form.name.copy": [
     {
       "type": 0,
-      "value": "Copy of "
+      "value": "Kopie "
     },
     {
       "type": 1,
@@ -69288,13 +69288,13 @@
   "ui-finance.settings.exchangeRateSource.providerType.keyRequired": [
     {
       "type": 0,
-      "value": "Key required"
+      "value": "Vyžadován klíč"
     }
   ],
   "ui-finance.settings.exchangeRateSource.providerType.noKeyRequired": [
     {
       "type": 0,
-      "value": "No key required"
+      "value": "Není vyžadován žádný klíč"
     }
   ],
   "ui-finance.settings.exchangeRateSource.submit.error.generic": [
@@ -69518,7 +69518,7 @@
   "ui-finance.transaction.actions.load.error": [
     {
       "type": 0,
-      "value": "Nepodařilo se načíst data transakce"
+      "value": "Nepodařilo se načíst data transakce."
     }
   ],
   "ui-finance.transaction.allocation.allowableAllocationIdsMismatch": [
@@ -69638,7 +69638,7 @@
     },
     {
       "type": 0,
-      "value": " nemá žádný rozpočet"
+      "value": " nemá žádný rozpočet."
     }
   ],
   "ui-finance.transaction.allocation.budgetRestrictedExpendituresError": [
@@ -69692,7 +69692,7 @@
     },
     {
       "type": 0,
-      "value": " a omezení finančních prostředků účetní knihy jsou aktivní"
+      "value": " a omezení finančních prostředků účetní knihy jsou aktivní."
     }
   ],
   "ui-finance.transaction.allocation.decrease.hasBeenCreated": [
@@ -69725,6 +69725,10 @@
     {
       "type": 1,
       "value": "amount"
+    },
+    {
+      "type": 0,
+      "value": "."
     }
   ],
   "ui-finance.transaction.allocation.genericError": [
@@ -69745,6 +69749,10 @@
       ],
       "type": 8,
       "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "."
     }
   ],
   "ui-finance.transaction.allocation.hasBeenCreated": [
@@ -69785,6 +69793,10 @@
       ],
       "type": 8,
       "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "."
     }
   ],
   "ui-finance.transaction.allocation.move.hasBeenCreated": [
@@ -69794,13 +69806,17 @@
     },
     {
       "type": 0,
-      "value": " was successfully allocated to the budget "
+      "value": " bylo úspěšně přiděleno do rozpočtu "
     },
     {
       "children": [
         {
           "type": 1,
           "value": "budgetName"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -69808,7 +69824,7 @@
     },
     {
       "type": 0,
-      "value": "."
+      "value": " ."
     }
   ],
   "ui-finance.transaction.allocation.notEnoughMoneyForAllocationError": [
@@ -69818,15 +69834,21 @@
     },
     {
       "type": 0,
-      "value": " nebyl úspěšně přidělen do rozpočtu "
+      "value": " se nepodařilo přidělit do rozpočtu "
     },
     {
-      "type": 1,
-      "value": "toBudgetName"
+      "children": [
+        {
+          "type": 1,
+          "value": "toBudgetName"
+        }
+      ],
+      "type": 8,
+      "value": "b"
     },
     {
       "type": 0,
-      "value": ", protože překračuje celkovou částku alokace "
+      "value": ", protože přesahuje celkovou částku přidělení "
     },
     {
       "children": [
@@ -69840,12 +69862,7 @@
     },
     {
       "type": 0,
-      "value": " "
-    },
-    {
-      "children": [],
-      "type": 8,
-      "value": "b"
+      "value": "."
     }
   ],
   "ui-finance.transaction.allocation.title": [
@@ -70195,7 +70212,7 @@
     },
     {
       "type": 0,
-      "value": " nemá žádný rozpočet"
+      "value": " nemá žádný rozpočet."
     }
   ],
   "ui-finance.transaction.transfer.budgetRestrictedExpendituresError": [
@@ -70205,7 +70222,7 @@
     },
     {
       "type": 0,
-      "value": " could not be transferred to the budget "
+      "value": " nelze převést do rozpočtu "
     },
     {
       "children": [
@@ -70219,7 +70236,7 @@
     },
     {
       "type": 0,
-      "value": " because it exceeds the allowable expenditure limit for "
+      "value": ", protože překračuje povolený limit výdajů pro "
     },
     {
       "children": [
@@ -70233,7 +70250,7 @@
     },
     {
       "type": 0,
-      "value": " and ledger fund restrictions are active."
+      "value": " a jsou aktivní omezení fondu účetní knihy."
     }
   ],
   "ui-finance.transaction.transfer.genericError": [
@@ -70254,6 +70271,10 @@
       ],
       "type": 8,
       "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "."
     }
   ],
   "ui-finance.transaction.transfer.hasBeenCreated": [
@@ -71823,13 +71844,13 @@
   "ui-inn-reach.remove-hold.callout.connection-problem.post.remove-hold": [
     {
       "type": 0,
-      "value": "There was a problem removing the hold"
+      "value": "Při rušení rezervace došlo k problému."
     }
   ],
   "ui-inn-reach.remove-hold.callout.success.post.remove-hold": [
     {
       "type": 0,
-      "value": "Hold has been successfully removed"
+      "value": "Rezervace byla úspěšně zrušena"
     }
   ],
   "ui-inn-reach.reports.callout.export-in-progress": [
@@ -74525,7 +74546,7 @@
   "ui-inn-reach.transaction-detail.patron-type.action.remove-hold": [
     {
       "type": 0,
-      "value": "Remove hold"
+      "value": "Zrušit rezervaci"
     }
   ],
   "ui-inn-reach.transaction-detail.patron-type.action.return-item": [
@@ -79231,7 +79252,7 @@
   "ui-inventory.moveItems.instance.dropZone": [
     {
       "type": 0,
-      "value": "Pustit holding"
+      "value": "Přetáhněte holdingy sem"
     }
   ],
   "ui-inventory.moveItems.instance.holdings.error": [
@@ -79371,7 +79392,7 @@
   "ui-inventory.moveItems.items.dropZone": [
     {
       "type": 0,
-      "value": "Drop items here"
+      "value": "Přetáhněte soubory sem"
     }
   ],
   "ui-inventory.moveItems.modal.confirmLabel": [
@@ -83062,7 +83083,7 @@
   "ui-invoice.document.settings.title": [
     {
       "type": 0,
-      "value": "Invoices settings"
+      "value": "Nastavení faktur"
     }
   ],
   "ui-invoice.document.title.search": [
@@ -84540,7 +84561,7 @@
   "ui-invoice.invoice.details.lines.list.total.exchanged": [
     {
       "type": 0,
-      "value": "Total (Exchanged)"
+      "value": "Celkem (vyměněno)"
     }
   ],
   "ui-invoice.invoice.details.lines.list.vendorRefNumber": [
@@ -85778,19 +85799,23 @@
   "ui-invoice.settings.adjustments.create.error": [
     {
       "type": 0,
-      "value": "Failed to create adjustment."
+      "value": "Nepodařilo se vytvořit úpravu."
     }
   ],
   "ui-invoice.settings.adjustments.create.success": [
     {
       "type": 0,
-      "value": "The adjustment "
+      "value": "Byla vytvořena úprava "
     },
     {
       "children": [
         {
           "type": 1,
           "value": "name"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -85798,7 +85823,7 @@
     },
     {
       "type": 0,
-      "value": " was created."
+      "value": " ."
     }
   ],
   "ui-invoice.settings.adjustments.defaultAmount": [
@@ -85864,13 +85889,17 @@
   "ui-invoice.settings.adjustments.update.error": [
     {
       "type": 0,
-      "value": "Failed to update "
+      "value": "Nepodařilo se aktualizovat nastavení "
     },
     {
       "children": [
         {
           "type": 1,
           "value": "name"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -85878,19 +85907,23 @@
     },
     {
       "type": 0,
-      "value": " adjustment."
+      "value": " ."
     }
   ],
   "ui-invoice.settings.adjustments.update.success": [
     {
       "type": 0,
-      "value": "The adjustment "
+      "value": "Byla aktualizována úprava "
     },
     {
       "children": [
         {
           "type": 1,
           "value": "name"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -85898,7 +85931,7 @@
     },
     {
       "type": 0,
-      "value": " was updated."
+      "value": " ."
     }
   ],
   "ui-invoice.settings.adjustments.value": [
@@ -90741,13 +90774,17 @@
   "ui-lists.delete-entity.not.found": [
     {
       "type": 0,
-      "value": "Error: "
+      "value": "Chyba: "
     },
     {
       "children": [
         {
           "type": 1,
           "value": "listName"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -90755,7 +90792,7 @@
     },
     {
       "type": 0,
-      "value": " was not deleted because the list's entity type is no longer available. Verify the entity type exists and try again."
+      "value": " nebyl odstraněn, protože typ entity seznamu již není k dispozici. Ověřte, zda typ entity existuje, a zkuste to znovu."
     }
   ],
   "ui-lists.delete-export.in.progress": [
@@ -90847,7 +90884,7 @@
   "ui-lists.error-component.read-entity.not.found": [
     {
       "type": 0,
-      "value": "This list's entity type is no longer available"
+      "value": "Typ entity tohoto seznamu již není k dispozici"
     }
   ],
   "ui-lists.error-component.read-entity.type.restricted": [
@@ -90877,13 +90914,17 @@
   "ui-lists.export-entity.not.found": [
     {
       "type": 0,
-      "value": "Error: export of "
+      "value": "Chyba: export "
     },
     {
       "children": [
         {
           "type": 1,
           "value": "listName"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -90891,7 +90932,7 @@
     },
     {
       "type": 0,
-      "value": " failed because the list's entity type is no longer available. Verify the entity type exists and try again."
+      "value": " selhal, protože typ entity seznamu již není k dispozici. Ověřte, zda typ entity existuje, a zkuste to znovu."
     }
   ],
   "ui-lists.export-export.in.progress": [
@@ -91407,13 +91448,17 @@
   "ui-lists.read-entity.not.found": [
     {
       "type": 0,
-      "value": "Error: "
+      "value": "Chyba: "
     },
     {
       "children": [
         {
           "type": 1,
           "value": "listName"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -91421,7 +91466,7 @@
     },
     {
       "type": 0,
-      "value": "'s entity type was not found. Verify the entity type exists and try again."
+      "value": " 'typ entity nebyl nalezen. Ověřte, zda typ entity existuje, a zkuste to znovu."
     }
   ],
   "ui-lists.read-list.is.private": [
@@ -91467,13 +91512,17 @@
   "ui-lists.refresh-entity.not.found": [
     {
       "type": 0,
-      "value": "Error: "
+      "value": "Chyba: "
     },
     {
       "children": [
         {
           "type": 1,
           "value": "listName"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -91481,7 +91530,7 @@
     },
     {
       "type": 0,
-      "value": " was not refreshed because the list's entity type is no longer available. Verify the entity type exists and try again."
+      "value": " nebyl obnoven, protože typ entity seznamu již není k dispozici. Ověřte, zda typ entity existuje, a zkuste to znovu."
     }
   ],
   "ui-lists.refresh-export.in.progress": [
@@ -91723,13 +91772,17 @@
   "ui-lists.update-entity.not.found": [
     {
       "type": 0,
-      "value": "Error: changes to "
+      "value": "Chyba: změny na "
     },
     {
       "children": [
         {
           "type": 1,
           "value": "listName"
+        },
+        {
+          "type": 0,
+          "value": " "
         }
       ],
       "type": 8,
@@ -91737,7 +91790,7 @@
     },
     {
       "type": 0,
-      "value": " were not saved because the list's entity type is no longer available. Verify the entity type exists and try again."
+      "value": " nebyly uloženy, protože typ entity seznamu již není k dispozici. Ověřte, zda typ entity existuje, a zkuste to znovu."
     }
   ],
   "ui-lists.update-export.in.progress": [
@@ -102481,19 +102534,19 @@
   "ui-orders.order.fiscalYear": [
     {
       "type": 0,
-      "value": "Fiscal year"
+      "value": "Fiskální rok"
     }
   ],
   "ui-orders.order.fiscalYear.current": [
     {
       "type": 0,
-      "value": "Current"
+      "value": "Současný"
     }
   ],
   "ui-orders.order.fiscalYear.previous": [
     {
       "type": 0,
-      "value": "Previous"
+      "value": "Předchozí"
     }
   ],
   "ui-orders.order.hideField": [
@@ -114931,7 +114984,7 @@
   "ui-plugin-find-user.filter.userType": [
     {
       "type": 0,
-      "value": "User type"
+      "value": "Typ uživatele"
     }
   ],
   "ui-plugin-find-user.inactive": [
@@ -115019,13 +115072,13 @@
   "ui-plugin-find-user.shadow": [
     {
       "type": 0,
-      "value": "Shadow"
+      "value": "Stín"
     }
   ],
   "ui-plugin-find-user.staff": [
     {
       "type": 0,
-      "value": "Staff"
+      "value": "Zaměstnanci"
     }
   ],
   "ui-plugin-find-user.status": [
@@ -115037,7 +115090,7 @@
   "ui-plugin-find-user.system": [
     {
       "type": 0,
-      "value": "System"
+      "value": "Systém"
     }
   ],
   "ui-plugin-find-user.unassigned": [
@@ -115133,13 +115186,13 @@
   "ui-plugin-query-builder.error.invalidEntity": [
     {
       "type": 0,
-      "value": "The record type used by this list is currently unable to be used; please verify its definition."
+      "value": "Typ záznamu, který tento seznam používá, nelze v současné době použít; ověřte prosím jeho definici."
     }
   ],
   "ui-plugin-query-builder.error.needsRefresh": [
     {
       "type": 0,
-      "value": "The record type used by this list has changed; please refresh the list, and if needed, modify the query."
+      "value": "Typ záznamu používaný v tomto seznamu se změnil; obnovte prosím seznam, případně upravte dotaz."
     }
   ],
   "ui-plugin-query-builder.error.occurredMessage": [
@@ -115445,13 +115498,13 @@
   "ui-plugin-query-builder.viewer.accordion.title.query.showLess": [
     {
       "type": 0,
-      "value": "Show less"
+      "value": "Zobrazit méně"
     }
   ],
   "ui-plugin-query-builder.viewer.accordion.title.query.showMore": [
     {
       "type": 0,
-      "value": "Show more"
+      "value": "Zobrazit více"
     }
   ],
   "ui-plugin-query-builder.viewer.retrieving": [
@@ -123591,7 +123644,7 @@
   "ui-receiving.piece.columns.location": [
     {
       "type": 0,
-      "value": "Holdings location"
+      "value": "Lokace holdingu"
     }
   ],
   "ui-receiving.piece.comment": [
@@ -123789,19 +123842,19 @@
   "ui-receiving.piece.modal.expectedDateRange.endDate": [
     {
       "type": 0,
-      "value": "End date"
+      "value": "Datum ukončení"
     }
   ],
   "ui-receiving.piece.modal.expectedDateRange.heading": [
     {
       "type": 0,
-      "value": "Select expected date range"
+      "value": "Zvolte očekávaný rozsah dat"
     }
   ],
   "ui-receiving.piece.modal.expectedDateRange.startDate": [
     {
       "type": 0,
-      "value": "Start date"
+      "value": "Datum zahájení"
     }
   ],
   "ui-receiving.piece.permanentLoanTypeId": [
@@ -123843,7 +123896,7 @@
   "ui-receiving.piece.receiveForm.limited.action.receiveAndLoad": [
     {
       "type": 0,
-      "value": "Receive & load more"
+      "value": "Přijímat a načítat další"
     }
   ],
   "ui-receiving.piece.receiveForm.limited.paneSub": [
@@ -123853,7 +123906,7 @@
     },
     {
       "type": 0,
-      "value": " of "
+      "value": " z "
     },
     {
       "type": 1,
@@ -123861,7 +123914,7 @@
     },
     {
       "type": 0,
-      "value": " receiving pieces"
+      "value": " přijímání kusů"
     }
   ],
   "ui-receiving.piece.receivedDate": [
@@ -124639,13 +124692,13 @@
   "ui-receiving.validation.dateRange.endDate.afterStartDate": [
     {
       "type": 0,
-      "value": "End date must be later than or equal to the start date."
+      "value": "Datum ukončení musí být pozdější nebo rovno datu zahájení."
     }
   ],
   "ui-receiving.validation.dateRange.startDate.beforeEndDate": [
     {
       "type": 0,
-      "value": "Start date must be earlier than or equal to the end date"
+      "value": "Datum zahájení musí být dřívější nebo rovno datu ukončení"
     }
   ],
   "ui-remote-storage.accession-tables.empty": [
@@ -139373,13 +139426,29 @@
   "ui-users.loans.columns.useAtLocation.Held": [
     {
       "type": 0,
-      "value": "Podrženo"
+      "value": "Drženo na "
+    },
+    {
+      "type": 1,
+      "value": "servicePoint"
+    },
+    {
+      "type": 0,
+      "value": " do "
+    },
+    {
+      "type": 1,
+      "value": "expiry"
     }
   ],
   "ui-users.loans.columns.useAtLocation.In use": [
     {
       "type": 0,
-      "value": "V provozu"
+      "value": "Používá se v "
+    },
+    {
+      "type": 1,
+      "value": "servicePoint"
     }
   ],
   "ui-users.loans.columns.useAtLocation.Returned": [

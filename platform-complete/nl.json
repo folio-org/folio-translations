@@ -9810,73 +9810,73 @@
   "stripes-erm-components.accesscontrol.acquisitionunits.protectCreate": [
     {
       "type": 0,
-      "value": "Create"
+      "value": "Aanmaken"
     }
   ],
   "stripes-erm-components.accesscontrol.acquisitionunits.protectDelete": [
     {
       "type": 0,
-      "value": "Delete"
+      "value": "Verwijder"
     }
   ],
   "stripes-erm-components.accesscontrol.acquisitionunits.protectRead": [
     {
       "type": 0,
-      "value": "View"
+      "value": "Bekijk"
     }
   ],
   "stripes-erm-components.accesscontrol.acquisitionunits.protectUpdate": [
     {
       "type": 0,
-      "value": "Edit"
+      "value": "Editie"
     }
   ],
   "stripes-erm-components.accesscontrol.description": [
     {
       "type": 0,
-      "value": "Description"
+      "value": "Omschrijving"
     }
   ],
   "stripes-erm-components.accesscontrol.error.noAccess": [
     {
       "type": 0,
-      "value": "Access to this resource is restricted, please speak to your system administrator"
+      "value": "De toegang tot deze bron is Beperkt, neem contact op met uw systeembeheerder"
     }
   ],
   "stripes-erm-components.accesscontrol.error.pane.title": [
     {
       "type": 0,
-      "value": "Access control error"
+      "value": "Fout bij toegangscontrole"
     }
   ],
   "stripes-erm-components.accesscontrol.label": [
     {
       "type": 0,
-      "value": "Acquisition units"
+      "value": "Acquisitie-eenheden"
     }
   ],
   "stripes-erm-components.accesscontrol.name": [
     {
       "type": 0,
-      "value": "Name"
+      "value": "Naam"
     }
   ],
   "stripes-erm-components.accesscontrol.remove": [
     {
       "type": 0,
-      "value": "Remove"
+      "value": "Verwijder"
     }
   ],
   "stripes-erm-components.accesscontrol.restrictions": [
     {
       "type": 0,
-      "value": "Access"
+      "value": "Toegang"
     }
   ],
   "stripes-erm-components.accesscontrol.typedown.label": [
     {
       "type": 0,
-      "value": "Add acquisition unit"
+      "value": "Acquisitie-afdeling Toevoegen"
     }
   ],
   "stripes-erm-components.alternativeNames": [
@@ -11799,7 +11799,7 @@
   "stripes-erm-components.separator": [
     {
       "type": 0,
-      "value": "·"
+      "value": "-"
     }
   ],
   "stripes-erm-components.showTags": [
@@ -24429,39 +24429,78 @@
     {
       "children": [
         {
-          "type": 1,
-          "value": "fileName"
-        },
-        {
-          "type": 0,
-          "value": ": "
-        },
-        {
-          "style": null,
-          "type": 2,
-          "value": "entries"
-        },
-        {
-          "type": 0,
-          "value": " entries * "
-        },
-        {
-          "style": null,
-          "type": 2,
-          "value": "matched"
-        },
-        {
-          "type": 0,
-          "value": " records gematched * "
-        },
-        {
           "style": null,
           "type": 2,
           "value": "errors"
         },
         {
           "type": 0,
-          "value": " fouten"
+          "value": " "
+        },
+        {
+          "offset": 0,
+          "options": {
+            "one": {
+              "value": [
+                {
+                  "type": 0,
+                  "value": "fout"
+                }
+              ]
+            },
+            "other": {
+              "value": [
+                {
+                  "type": 0,
+                  "value": "fouten"
+                }
+              ]
+            }
+          },
+          "pluralType": "cardinal",
+          "type": 6,
+          "value": "errors"
+        },
+        {
+          "type": 0,
+          "value": " * "
+        },
+        {
+          "style": null,
+          "type": 2,
+          "value": "warnings"
+        },
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "offset": 0,
+          "options": {
+            "one": {
+              "value": [
+                {
+                  "type": 0,
+                  "value": "waarschuwing"
+                }
+              ]
+            },
+            "other": {
+              "value": [
+                {
+                  "type": 0,
+                  "value": "waarschuwingen"
+                }
+              ]
+            }
+          },
+          "pluralType": "cardinal",
+          "type": 6,
+          "value": "warnings"
+        },
+        {
+          "type": 0,
+          "value": "\n"
         }
       ],
       "type": 8,
@@ -24825,6 +24864,14 @@
     },
     {
       "type": 0,
+      "value": " "
+    },
+    {
+      "type": 1,
+      "value": "recordType"
+    },
+    {
+      "type": 0,
       "value": " records gewijzigd"
     }
   ],
@@ -24836,7 +24883,15 @@
     },
     {
       "type": 0,
-      "value": " records komen overeen"
+      "value": " "
+    },
+    {
+      "type": 1,
+      "value": "recordType"
+    },
+    {
+      "type": 0,
+      "value": "records komen overeen"
     }
   ],
   "ui-bulk-edit.list.preview.classification.classification": [
@@ -25927,7 +25982,7 @@
     },
     {
       "type": 1,
-      "value": "entiteittype"
+      "value": "entityType"
     },
     {
       "type": 0,
@@ -26085,7 +26140,7 @@
   "ui-bulk-edit.settings.profiles.columns.status.active": [
     {
       "type": 0,
-      "value": "Active"
+      "value": "Actief"
     }
   ],
   "ui-bulk-edit.settings.profiles.columns.updated": [
@@ -26113,7 +26168,7 @@
     },
     {
       "type": 1,
-      "value": "entiteittype"
+      "value": "entityType"
     },
     {
       "type": 0,
@@ -26153,7 +26208,7 @@
       "children": [
         {
           "type": 1,
-          "value": "naam"
+          "value": "name"
         }
       ],
       "type": 8,
@@ -26231,7 +26286,7 @@
     },
     {
       "type": 1,
-      "value": "naam"
+      "value": "name"
     }
   ],
   "ui-bulk-edit.settings.profiles.form.update.error": [
@@ -39277,7 +39332,7 @@
   "ui-data-export.error.instance.noPermission": [
     {
       "type": 1,
-      "value": "waarde1"
+      "value": "value1"
     },
     {
       "type": 0,
@@ -51669,7 +51724,7 @@
     },
     {
       "type": 1,
-      "value": "tijdzone"
+      "value": "timezone"
     },
     {
       "type": 0,
@@ -60084,7 +60139,7 @@
               "children": [
                 {
                   "type": 1,
-                  "value": "entiteiten"
+                  "value": "entities"
                 }
               ],
               "type": 8,
@@ -60106,7 +60161,7 @@
               "children": [
                 {
                   "type": 1,
-                  "value": "entiteiten"
+                  "value": "entities"
                 }
               ],
               "type": 8,
@@ -60142,7 +60197,7 @@
               "children": [
                 {
                   "type": 1,
-                  "value": "entiteiten"
+                  "value": "entities"
                 }
               ],
               "type": 8,
@@ -60164,7 +60219,7 @@
               "children": [
                 {
                   "type": 1,
-                  "value": "entiteiten"
+                  "value": "entities"
                 }
               ],
               "type": 8,
@@ -63496,13 +63551,13 @@
   "ui-finance.settings.exchangeRateSource.providerType.keyRequired": [
     {
       "type": 0,
-      "value": "Key required"
+      "value": "Vereiste sleutel"
     }
   ],
   "ui-finance.settings.exchangeRateSource.providerType.noKeyRequired": [
     {
       "type": 0,
-      "value": "No key required"
+      "value": "Geen sleutel Vereist"
     }
   ],
   "ui-finance.settings.exchangeRateSource.submit.error.generic": [
@@ -63978,7 +64033,7 @@
         },
         {
           "type": 1,
-          "value": "budgetNaam"
+          "value": "budgetName"
         }
       ],
       "type": 8,
@@ -63992,10 +64047,14 @@
     },
     {
       "type": 0,
-      "value": " was successfully allocated to the budget "
+      "value": " is succesvol toegewezen aan het budget "
     },
     {
       "children": [
+        {
+          "type": 0,
+          "value": "."
+        },
         {
           "type": 1,
           "value": "budgetName"
@@ -64388,7 +64447,7 @@
   "ui-finance.transaction.transfer.budgetRestrictedExpendituresError": [
     {
       "type": 1,
-      "value": "Bedrag"
+      "value": "amount"
     },
     {
       "type": 0,
@@ -65994,13 +66053,13 @@
   "ui-inn-reach.remove-hold.callout.connection-problem.post.remove-hold": [
     {
       "type": 0,
-      "value": "There was a problem removing the hold"
+      "value": "Er is een probleem opgetreden bij het verwijderen van de Reservering."
     }
   ],
   "ui-inn-reach.remove-hold.callout.success.post.remove-hold": [
     {
       "type": 0,
-      "value": "Hold has been successfully removed"
+      "value": "Reservering is succesvol verwijderd"
     }
   ],
   "ui-inn-reach.reports.callout.export-in-progress": [
@@ -68678,7 +68737,7 @@
   "ui-inn-reach.transaction-detail.patron-type.action.remove-hold": [
     {
       "type": 0,
-      "value": "Remove hold"
+      "value": "Reservering verwijderen"
     }
   ],
   "ui-inn-reach.transaction-detail.patron-type.action.return-item": [
@@ -73192,7 +73251,7 @@
   "ui-inventory.moveItems.items.dropZone": [
     {
       "type": 0,
-      "value": "Drop items here"
+      "value": "Drop items hier"
     }
   ],
   "ui-inventory.moveItems.modal.confirmLabel": [
@@ -76654,7 +76713,7 @@
   "ui-invoice.document.settings.title": [
     {
       "type": 0,
-      "value": "Invoices settings"
+      "value": "Factuur instellingen"
     }
   ],
   "ui-invoice.document.title.search": [
@@ -77670,21 +77729,7 @@
   "ui-invoice.invoice.actions.saveLine.error.budgetNotFoundByFundId": [
     {
       "type": 0,
-      "value": "Factuurregel kan niet worden opgeslagen omdat fonds "
-    },
-    {
-      "children": [
-        {
-          "type": 1,
-          "value": "fundCode"
-        }
-      ],
-      "type": 8,
-      "value": "b"
-    },
-    {
-      "type": 0,
-      "value": " geen huidig budget heeft."
+      "value": "De factuurregel kan niet worden opgeslagen omdat de factuur niet aan een boekjaar is toegewezen."
     }
   ],
   "ui-invoice.invoice.actions.saveLine.error.budgetNotFoundByFundIdAndFiscalYearId": [
@@ -79278,13 +79323,13 @@
   "ui-invoice.settings.adjustments.create.error": [
     {
       "type": 0,
-      "value": "Failed to create adjustment."
+      "value": "Aanmaken mislukt."
     }
   ],
   "ui-invoice.settings.adjustments.create.success": [
     {
       "type": 0,
-      "value": "The adjustment "
+      "value": "De aanpassing "
     },
     {
       "children": [
@@ -79298,7 +79343,7 @@
     },
     {
       "type": 0,
-      "value": " was created."
+      "value": " werd aangemaakt."
     }
   ],
   "ui-invoice.settings.adjustments.description": [
@@ -79358,10 +79403,14 @@
   "ui-invoice.settings.adjustments.update.error": [
     {
       "type": 0,
-      "value": "Failed to update "
+      "value": "Update mislukt "
     },
     {
       "children": [
+        {
+          "type": 0,
+          "value": "."
+        },
         {
           "type": 1,
           "value": "name"
@@ -79372,13 +79421,13 @@
     },
     {
       "type": 0,
-      "value": " adjustment."
+      "value": " aanpassing."
     }
   ],
   "ui-invoice.settings.adjustments.update.success": [
     {
       "type": 0,
-      "value": "The adjustment "
+      "value": "De aanpassing "
     },
     {
       "children": [
@@ -79392,7 +79441,7 @@
     },
     {
       "type": 0,
-      "value": " was updated."
+      "value": " is bijgewerkt."
     }
   ],
   "ui-invoice.settings.adjustments.value": [
@@ -83931,7 +83980,7 @@
   "ui-lists.delete-entity.not.found": [
     {
       "type": 0,
-      "value": "Error: "
+      "value": "Fout: "
     },
     {
       "children": [
@@ -83945,7 +83994,7 @@
     },
     {
       "type": 0,
-      "value": " was not deleted because the list's entity type is no longer available. Verify the entity type exists and try again."
+      "value": " is niet verwijderd omdat het entiteittype van de lijst niet langer beschikbaar is. Controleer of het entiteittype bestaat en probeer het opnieuw."
     }
   ],
   "ui-lists.delete-export.in.progress": [
@@ -84037,7 +84086,7 @@
   "ui-lists.error-component.read-entity.not.found": [
     {
       "type": 0,
-      "value": "This list's entity type is no longer available"
+      "value": "Het entiteittype van deze lijst is niet langer Beschikbaar"
     }
   ],
   "ui-lists.error-component.read-entity.type.restricted": [
@@ -84067,7 +84116,7 @@
   "ui-lists.export-entity.not.found": [
     {
       "type": 0,
-      "value": "Error: export of "
+      "value": "Fout: export van "
     },
     {
       "children": [
@@ -84081,7 +84130,7 @@
     },
     {
       "type": 0,
-      "value": " failed because the list's entity type is no longer available. Verify the entity type exists and try again."
+      "value": " is mislukt omdat het entiteittype van de lijst niet langer beschikbaar is. Controleer of het entiteittype bestaat en probeer het opnieuw."
     }
   ],
   "ui-lists.export-export.in.progress": [
@@ -84591,7 +84640,7 @@
   "ui-lists.read-entity.not.found": [
     {
       "type": 0,
-      "value": "Error: "
+      "value": "Fout: "
     },
     {
       "children": [
@@ -84605,7 +84654,7 @@
     },
     {
       "type": 0,
-      "value": "'s entity type was not found. Verify the entity type exists and try again."
+      "value": "'s entiteittype is niet gevonden. Controleer of het entiteittype bestaat en probeer het opnieuw."
     }
   ],
   "ui-lists.read-list.is.private": [
@@ -84651,7 +84700,7 @@
   "ui-lists.refresh-entity.not.found": [
     {
       "type": 0,
-      "value": "Error: "
+      "value": "Fout: "
     },
     {
       "children": [
@@ -84665,7 +84714,7 @@
     },
     {
       "type": 0,
-      "value": " was not refreshed because the list's entity type is no longer available. Verify the entity type exists and try again."
+      "value": " is niet ververst omdat het entiteittype van de lijst niet langer beschikbaar is. Controleer of het entiteittype bestaat en probeer het opnieuw."
     }
   ],
   "ui-lists.refresh-export.in.progress": [
@@ -84907,7 +84956,7 @@
   "ui-lists.update-entity.not.found": [
     {
       "type": 0,
-      "value": "Error: changes to "
+      "value": "Fout: wijzigingen in "
     },
     {
       "children": [
@@ -84921,7 +84970,7 @@
     },
     {
       "type": 0,
-      "value": " were not saved because the list's entity type is no longer available. Verify the entity type exists and try again."
+      "value": " zijn niet opgeslagen omdat het entiteittype van de lijst niet langer beschikbaar is. Controleer of het entiteittype bestaat en probeer het opnieuw."
     }
   ],
   "ui-lists.update-export.in.progress": [
@@ -95259,19 +95308,19 @@
   "ui-orders.order.fiscalYear": [
     {
       "type": 0,
-      "value": "Fiscal year"
+      "value": "Boekjaar"
     }
   ],
   "ui-orders.order.fiscalYear.current": [
     {
       "type": 0,
-      "value": "Current"
+      "value": "Huidige"
     }
   ],
   "ui-orders.order.fiscalYear.previous": [
     {
       "type": 0,
-      "value": "Previous"
+      "value": "Vorige"
     }
   ],
   "ui-orders.order.hideField": [
@@ -95663,7 +95712,7 @@
     },
     {
       "type": 0,
-      "value": " (deprecated)"
+      "value": " (verouderd)"
     }
   ],
   "ui-orders.orderDetails.reEncumber": [
@@ -95691,7 +95740,7 @@
     },
     {
       "type": 0,
-      "value": " (deprecated)"
+      "value": " (verouderd)"
     }
   ],
   "ui-orders.orderDetails.vendor": [
@@ -96547,13 +96596,13 @@
   "ui-orders.poLine.suppressFromDiscovery": [
     {
       "type": 0,
-      "value": "Suppress instance from discovery when generated by order"
+      "value": "Verberg instantie in discovery wanneer gegenereerd door order"
     }
   ],
   "ui-orders.poLine.suppressFromDiscovery.tooltip": [
     {
       "type": 0,
-      "value": "When true this will suppress any instance record that is created when this order is Opened. If the order line is linked to an existing instance using the Title Lookup or it is matched to an existing instance by product identifier. This flag will not suppress the existing instance."
+      "value": "Als dit waar is, onderdrukt dit elk Instance Record dat wordt aangemaakt wanneer deze order wordt geopend. Als de Bestelregel is Gekoppeld aan een bestaande instantie met behulp van de Titel Opzoeken of het is Gekoppeld aan een bestaande instantie op basis van productidentificatiekenmerk. Deze vlag zal de bestaande instantie niet onderdrukken."
     }
   ],
   "ui-orders.poLine.vendor": [
@@ -98700,7 +98749,7 @@
   "ui-orders.settings.poNumber.modifier.deprecated": [
     {
       "type": 0,
-      "value": "Deprecated"
+      "value": "Afgeschreven"
     }
   ],
   "ui-orders.settings.poNumber.modifier.description": [
@@ -98738,7 +98787,7 @@
     },
     {
       "type": 0,
-      "value": " as deprecated"
+      "value": " als afgeschreven"
     }
   ],
   "ui-orders.settings.poNumber.prefix.cannotDeleteTermHeader": [
@@ -98842,7 +98891,7 @@
     },
     {
       "type": 0,
-      "value": " as deprecated"
+      "value": " als afgeschreven"
     }
   ],
   "ui-orders.settings.poNumber.suffix.cannotDeleteTermHeader": [
@@ -99058,7 +99107,7 @@
   "ui-orders.settings.update.error": [
     {
       "type": 0,
-      "value": "Failed to update the settings."
+      "value": "Update van de instellingen mislukt."
     }
   ],
   "ui-orders.shortcut.addPOL": [
@@ -101108,17 +101157,13 @@
   "ui-organizations.integrationDetails.duplicate.confirmModal.message": [
     {
       "type": 0,
-      "value": "Weet u zeker dat u de "
+      "value": "Weet u zeker dat u de wilt dupliceren "
     },
     {
       "children": [
         {
-          "type": 0,
-          "value": " wilt dupliceren?"
-        },
-        {
           "type": 1,
-          "value": "Voorwaarde"
+          "value": "term"
         }
       ],
       "type": 8,
@@ -101142,7 +101187,7 @@
     },
     {
       "type": 1,
-      "value": "Voorwaarde"
+      "value": "term"
     }
   ],
   "ui-organizations.integrationDetails.duplicate.success": [
@@ -107028,7 +107073,7 @@
   "ui-plugin-find-po-line.filter.prefixFilter.deprecated": [
     {
       "type": 1,
-      "value": "naam"
+      "value": "name"
     },
     {
       "type": 0,
@@ -107038,7 +107083,7 @@
   "ui-plugin-find-po-line.filter.suffixFilter.deprecated": [
     {
       "type": 1,
-      "value": "naam"
+      "value": "name"
     },
     {
       "type": 0,
@@ -107302,13 +107347,13 @@
   "ui-plugin-query-builder.error.invalidEntity": [
     {
       "type": 0,
-      "value": "The record type used by this list is currently unable to be used; please verify its definition."
+      "value": "Het type Record dat door deze lijst wordt gebruikt, kan momenteel niet worden gebruikt; controleer de definitie ervan."
     }
   ],
   "ui-plugin-query-builder.error.needsRefresh": [
     {
       "type": 0,
-      "value": "The record type used by this list has changed; please refresh the list, and if needed, modify the query."
+      "value": "Het type Record dat door deze lijst wordt gebruikt is veranderd; vernieuw de lijst."
     }
   ],
   "ui-plugin-query-builder.error.occurredMessage": [
@@ -107359,34 +107404,128 @@
       "value": "Query retourneert "
     },
     {
-      "type": 1,
+      "offset": 0,
+      "options": {
+        "=0": {
+          "value": [
+            {
+              "type": 0,
+              "value": "geen records"
+            }
+          ]
+        },
+        "one": {
+          "value": [
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " record"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " records"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
       "value": "total"
     },
     {
       "type": 0,
-      "value": " records. Voorbeeld van eerste "
+      "value": ". Voorbeeld van de eerste "
     },
     {
-      "type": 1,
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " record"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " records"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
       "value": "limit"
     },
     {
       "type": 0,
-      "value": " records."
+      "value": ":"
     }
   ],
   "ui-plugin-query-builder.modal.preview.title.empty": [
     {
       "type": 0,
-      "value": "Query zou "
+      "value": "Query retourneert "
     },
     {
-      "type": 1,
+      "offset": 0,
+      "options": {
+        "=0": {
+          "value": [
+            {
+              "type": 0,
+              "value": "geen records"
+            }
+          ]
+        },
+        "one": {
+          "value": [
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " record"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " records"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
       "value": "total"
     },
     {
       "type": 0,
-      "value": " records opleveren."
+      "value": "."
     }
   ],
   "ui-plugin-query-builder.modal.query": [
@@ -107446,7 +107585,7 @@
   "ui-plugin-query-builder.userFriendlyQuery.boolean.$and": [
     {
       "type": 1,
-      "value": "zoekopdracht1"
+      "value": "query1"
     },
     {
       "type": 0,
@@ -107454,7 +107593,7 @@
     },
     {
       "type": 1,
-      "value": "zoekopdracht2"
+      "value": "query2"
     }
   ],
   "ui-plugin-query-builder.viewer.accordion.title.query": [
@@ -107470,13 +107609,13 @@
   "ui-plugin-query-builder.viewer.accordion.title.query.showLess": [
     {
       "type": 0,
-      "value": "Show less"
+      "value": "Minder tonen"
     }
   ],
   "ui-plugin-query-builder.viewer.accordion.title.query.showMore": [
     {
       "type": 0,
-      "value": "Show more"
+      "value": "Meer tonen"
     }
   ],
   "ui-plugin-query-builder.viewer.retrieving": [
@@ -115542,19 +115681,19 @@
   "ui-receiving.piece.modal.expectedDateRange.endDate": [
     {
       "type": 0,
-      "value": "End date"
+      "value": "Einddatum"
     }
   ],
   "ui-receiving.piece.modal.expectedDateRange.heading": [
     {
       "type": 0,
-      "value": "Select expected date range"
+      "value": "Selecteer het verwachte datumbereik"
     }
   ],
   "ui-receiving.piece.modal.expectedDateRange.startDate": [
     {
       "type": 0,
-      "value": "Start date"
+      "value": "Begindatum"
     }
   ],
   "ui-receiving.piece.permanentLoanTypeId": [
@@ -115596,7 +115735,7 @@
   "ui-receiving.piece.receiveForm.limited.action.receiveAndLoad": [
     {
       "type": 0,
-      "value": "Receive & load more"
+      "value": "Ontvangen & Meer Invoeren"
     }
   ],
   "ui-receiving.piece.receiveForm.limited.paneSub": [
@@ -115606,7 +115745,7 @@
     },
     {
       "type": 0,
-      "value": " of "
+      "value": " van "
     },
     {
       "type": 1,
@@ -115614,7 +115753,7 @@
     },
     {
       "type": 0,
-      "value": " receiving pieces"
+      "value": " Ontvangen Stukken"
     }
   ],
   "ui-receiving.piece.receivedDate": [
@@ -116384,13 +116523,13 @@
   "ui-receiving.validation.dateRange.endDate.afterStartDate": [
     {
       "type": 0,
-      "value": "End date must be later than or equal to the start date."
+      "value": "De einddatum moet later zijn dan of gelijk aan de begindatum."
     }
   ],
   "ui-receiving.validation.dateRange.startDate.beforeEndDate": [
     {
       "type": 0,
-      "value": "Start date must be earlier than or equal to the end date"
+      "value": "De begindatum moet eerder zijn dan of gelijk aan de einddatum"
     }
   ],
   "ui-remote-storage.accession-tables.empty": [
@@ -127637,7 +127776,35 @@
   "ui-users.blocks.textField.place": [
     {
       "type": 0,
-      "value": "Er bestaat een blokkering voor deze gebruiker"
+      "value": "Patron heeft "
+    },
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "blok"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "blokken"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": " op zijn plaats."
     }
   ],
   "ui-users.brd.failedRenewal": [
@@ -130487,13 +130654,29 @@
   "ui-users.loans.columns.useAtLocation.Held": [
     {
       "type": 0,
-      "value": "Holdings"
+      "value": "Bewaard in "
+    },
+    {
+      "type": 1,
+      "value": "servicePoint"
+    },
+    {
+      "type": 0,
+      "value": " tot "
+    },
+    {
+      "type": 1,
+      "value": "expiry"
     }
   ],
   "ui-users.loans.columns.useAtLocation.In use": [
     {
       "type": 0,
-      "value": "In gebruik"
+      "value": "In gebruik bij "
+    },
+    {
+      "type": 1,
+      "value": "servicePoint"
     }
   ],
   "ui-users.loans.columns.useAtLocation.Returned": [
