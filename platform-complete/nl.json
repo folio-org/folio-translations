@@ -115792,6 +115792,22 @@
       "value": "Er bestaat geen claimintegratie voor deze Organisatie. Stuk krijgt de status \"Claim verzonden\". Verder gaan?"
     }
   ],
+  "ui-receiving.piece.sequence": [
+    {
+      "type": 0,
+      "value": "Sequence"
+    }
+  ],
+  "ui-receiving.piece.sequence.scope": [
+    {
+      "type": 0,
+      "value": "of "
+    },
+    {
+      "type": 1,
+      "value": "count"
+    }
+  ],
   "ui-receiving.piece.status": [
     {
       "type": 0,
@@ -116530,6 +116546,28 @@
     {
       "type": 0,
       "value": "De begindatum moet eerder zijn dan of gelijk aan de einddatum"
+    }
+  ],
+  "ui-receiving.validation.numberRange": [
+    {
+      "type": 0,
+      "value": "Please enter a number between "
+    },
+    {
+      "type": 1,
+      "value": "min"
+    },
+    {
+      "type": 0,
+      "value": " and "
+    },
+    {
+      "type": 1,
+      "value": "max"
+    },
+    {
+      "type": 0,
+      "value": "."
     }
   ],
   "ui-remote-storage.accession-tables.empty": [
@@ -125271,6 +125309,12 @@
     {
       "type": 0,
       "value": "In de wacht bewaren"
+    }
+  ],
+  "ui-tenant-settings.settings.servicePoints.defaultCheckinAction.select": [
+    {
+      "type": 0,
+      "value": "Select an action"
     }
   ],
   "ui-tenant-settings.settings.servicePoints.delete": [

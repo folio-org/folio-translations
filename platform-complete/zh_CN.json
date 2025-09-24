@@ -127294,6 +127294,22 @@
       "value": "此组织不存在催缺集成。件将设置为“催缺已发送”状态。继续吗？"
     }
   ],
+  "ui-receiving.piece.sequence": [
+    {
+      "type": 0,
+      "value": "Sequence"
+    }
+  ],
+  "ui-receiving.piece.sequence.scope": [
+    {
+      "type": 0,
+      "value": "of "
+    },
+    {
+      "type": 1,
+      "value": "count"
+    }
+  ],
   "ui-receiving.piece.status": [
     {
       "type": 0,
@@ -128048,6 +128064,28 @@
     {
       "type": 0,
       "value": "Start date must be earlier than or equal to the end date"
+    }
+  ],
+  "ui-receiving.validation.numberRange": [
+    {
+      "type": 0,
+      "value": "Please enter a number between "
+    },
+    {
+      "type": 1,
+      "value": "min"
+    },
+    {
+      "type": 0,
+      "value": " and "
+    },
+    {
+      "type": 1,
+      "value": "max"
+    },
+    {
+      "type": 0,
+      "value": "."
     }
   ],
   "ui-remote-storage.accession-tables.empty": [
@@ -137668,6 +137706,12 @@
     {
       "type": 0,
       "value": "保留在预约架上"
+    }
+  ],
+  "ui-tenant-settings.settings.servicePoints.defaultCheckinAction.select": [
+    {
+      "type": 0,
+      "value": "Select an action"
     }
   ],
   "ui-tenant-settings.settings.servicePoints.delete": [
