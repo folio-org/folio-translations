@@ -37334,6 +37334,12 @@
       "value": "Selezionare i modelli per i seguenti avvisi agli avventori. Se non viene selezionato alcun modello, non verrà inviato alcun avviso."
     }
   ],
+  "ui-circulation.settings.titleLevelRequests.excludeTenants": [
+    {
+      "type": 0,
+      "value": "Exclude tenants"
+    }
+  ],
   "ui-circulation.settings.titleLevelRequests.expirationNotice": [
     {
       "type": 0,
@@ -123369,6 +123375,36 @@
       "value": "Salva e chiudi"
     }
   ],
+  "ui-receiving.piece.actions.savePiece.changeSequenceNumber.success": [
+    {
+      "type": 0,
+      "value": "The sequence of the piece was successfully changed from "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "oldSequenceNumber"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " to "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "newSequenceNumber"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
   "ui-receiving.piece.actions.savePiece.error": [
     {
       "type": 0,
@@ -137348,6 +137384,12 @@
       "value": "Data di scadenza variata"
     }
   ],
+  "ui-users.data.loanActionMap.heldForUseAtLocation": [
+    {
+      "type": 0,
+      "value": "Held for use at location"
+    }
+  ],
   "ui-users.data.loanActionMap.holdRequested": [
     {
       "type": 0,
@@ -137376,6 +137418,12 @@
     {
       "type": 0,
       "value": "Patron info (SUPERSEDED)"
+    }
+  ],
+  "ui-users.data.loanActionMap.pickedUpForUseAtLocation": [
+    {
+      "type": 0,
+      "value": "Picked up for use at location"
     }
   ],
   "ui-users.data.loanActionMap.recallRequested": [

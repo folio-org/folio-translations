@@ -37438,6 +37438,12 @@
       "value": "為以下讀者通知選擇範本。如果未選擇範本，則不會發送通知。"
     }
   ],
+  "ui-circulation.settings.titleLevelRequests.excludeTenants": [
+    {
+      "type": 0,
+      "value": "Exclude tenants"
+    }
+  ],
   "ui-circulation.settings.titleLevelRequests.expirationNotice": [
     {
       "type": 0,
@@ -125262,6 +125268,36 @@
       "value": "Save & close"
     }
   ],
+  "ui-receiving.piece.actions.savePiece.changeSequenceNumber.success": [
+    {
+      "type": 0,
+      "value": "The sequence of the piece was successfully changed from "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "oldSequenceNumber"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " to "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "newSequenceNumber"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
   "ui-receiving.piece.actions.savePiece.error": [
     {
       "type": 0,
@@ -139673,6 +139709,12 @@
       "value": "到期日已更改"
     }
   ],
+  "ui-users.data.loanActionMap.heldForUseAtLocation": [
+    {
+      "type": 0,
+      "value": "Held for use at location"
+    }
+  ],
   "ui-users.data.loanActionMap.holdRequested": [
     {
       "type": 0,
@@ -139701,6 +139743,12 @@
     {
       "type": 0,
       "value": "讀者資訊 ( 已取代 )"
+    }
+  ],
+  "ui-users.data.loanActionMap.pickedUpForUseAtLocation": [
+    {
+      "type": 0,
+      "value": "Picked up for use at location"
     }
   ],
   "ui-users.data.loanActionMap.recallRequested": [
