@@ -78152,6 +78152,24 @@
       "value": "Order"
     }
   ],
+  "ui-inventory.item.order.update.error": [
+    {
+      "type": 0,
+      "value": "Failed to update item orders"
+    }
+  ],
+  "ui-inventory.item.order.validation.duplicate": [
+    {
+      "type": 0,
+      "value": "Order number already exists"
+    }
+  ],
+  "ui-inventory.item.order.validation.positiveNumber": [
+    {
+      "type": 0,
+      "value": "Order must be a positive number"
+    }
+  ],
   "ui-inventory.item.requestQueue": [
     {
       "type": 0,
@@ -100612,7 +100630,7 @@
   "ui-orders.errors.cannotConvertAmountInvalidCurrency": [
     {
       "type": 0,
-      "value": "The selected currency cannot be converted. Please enter an exchange rate manually or configure an exchange rate provider that supports this currency."
+      "value": "The selected currency cannot be converted. Please configure an exchange rate provider that supports this currency."
     }
   ],
   "ui-orders.errors.clone.error": [
