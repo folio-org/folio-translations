@@ -18176,7 +18176,7 @@
       "children": [
         {
           "type": 1,
-          "value": "aantalVerwijderd"
+          "value": "numberDeleted"
         }
       ],
       "type": 8,
@@ -20026,7 +20026,11 @@
   "ui-agreements.line.update.callout": [
     {
       "type": 0,
-      "value": "Overeenkomstregel bijgewerkt"
+      "value": "Overeenkomstregel bijgewerkt: "
+    },
+    {
+      "type": 1,
+      "value": "name"
     }
   ],
   "ui-agreements.loading": [
@@ -21511,49 +21515,49 @@
   "ui-agreements.remoteKb.altNames": [
     {
       "type": 0,
-      "value": "Alternative names"
+      "value": "Alternatieve namen"
     }
   ],
   "ui-agreements.remoteKb.dois": [
     {
       "type": 0,
-      "value": "DOIs"
+      "value": "DOI's"
     }
   ],
   "ui-agreements.remoteKb.edition": [
     {
       "type": 0,
-      "value": "Edition"
+      "value": "Editie"
     }
   ],
   "ui-agreements.remoteKb.extendedTitleInformation": [
     {
       "type": 0,
-      "value": "Extended title information"
+      "value": "Uitgebreide Titelinformatie"
     }
   ],
   "ui-agreements.remoteKb.ezbids": [
     {
       "type": 0,
-      "value": "EZB-IDs"
+      "value": "EZB-ID's"
     }
   ],
   "ui-agreements.remoteKb.filters.type": [
     {
       "type": 0,
-      "value": "Type"
+      "value": "Soorten"
     }
   ],
   "ui-agreements.remoteKb.filters.type.all": [
     {
       "type": 0,
-      "value": "All"
+      "value": "Alle"
     }
   ],
   "ui-agreements.remoteKb.filters.type.book": [
     {
       "type": 0,
-      "value": "Book"
+      "value": "Boek"
     }
   ],
   "ui-agreements.remoteKb.filters.type.database": [
@@ -21565,31 +21569,31 @@
   "ui-agreements.remoteKb.filters.type.journal": [
     {
       "type": 0,
-      "value": "Journal"
+      "value": "Tijdschriften"
     }
   ],
   "ui-agreements.remoteKb.filters.type.other": [
     {
       "type": 0,
-      "value": "Other"
+      "value": "Andere"
     }
   ],
   "ui-agreements.remoteKb.firstAuthor": [
     {
       "type": 0,
-      "value": "First author"
+      "value": "Eerste Auteur"
     }
   ],
   "ui-agreements.remoteKb.firstEditor": [
     {
       "type": 0,
-      "value": "First editor"
+      "value": "Eerste redacteur"
     }
   ],
   "ui-agreements.remoteKb.gokbTitles": [
     {
       "type": 0,
-      "value": "GOKB titles"
+      "value": "GOKB titels"
     }
   ],
   "ui-agreements.remoteKb.gokbid": [
@@ -21613,31 +21617,31 @@
   "ui-agreements.remoteKb.identifier": [
     {
       "type": 0,
-      "value": "Identifier"
+      "value": "Identificatiekenmerk"
     }
   ],
   "ui-agreements.remoteKb.isbns": [
     {
       "type": 0,
-      "value": "ISBNs"
+      "value": "ISBN's"
     }
   ],
   "ui-agreements.remoteKb.issns": [
     {
       "type": 0,
-      "value": "ISSNs"
+      "value": "ISSN's"
     }
   ],
   "ui-agreements.remoteKb.name": [
     {
       "type": 0,
-      "value": "Name"
+      "value": "Naam"
     }
   ],
   "ui-agreements.remoteKb.noAccordionContent": [
     {
       "type": 0,
-      "value": "No "
+      "value": "Geen "
     },
     {
       "type": 1,
@@ -21645,25 +21649,25 @@
     },
     {
       "type": 0,
-      "value": " content available."
+      "value": " Beschikbare inhoud."
     }
   ],
   "ui-agreements.remoteKb.otherIds": [
     {
       "type": 0,
-      "value": "Other IDs"
+      "value": "Andere ID's"
     }
   ],
   "ui-agreements.remoteKb.publicationDates": [
     {
       "type": 0,
-      "value": "Publication dates"
+      "value": "Publicatiedata"
     }
   ],
   "ui-agreements.remoteKb.publicationDates.coverage": [
     {
       "type": 0,
-      "value": "Coverage"
+      "value": "Dekking"
     }
   ],
   "ui-agreements.remoteKb.publicationDates.online": [
@@ -21681,31 +21685,31 @@
   "ui-agreements.remoteKb.publicationType": [
     {
       "type": 0,
-      "value": "Publication type"
+      "value": "Soorten publicaties"
     }
   ],
   "ui-agreements.remoteKb.publisher": [
     {
       "type": 0,
-      "value": "Publisher"
+      "value": "Uitgever"
     }
   ],
   "ui-agreements.remoteKb.scheme": [
     {
       "type": 0,
-      "value": "Scheme"
+      "value": "Regeling"
     }
   ],
   "ui-agreements.remoteKb.subjects": [
     {
       "type": 0,
-      "value": "Subjects"
+      "value": "Onderwerpen"
     }
   ],
   "ui-agreements.remoteKb.type": [
     {
       "type": 0,
-      "value": "Type"
+      "value": "Soorten"
     }
   ],
   "ui-agreements.remoteKb.volume": [
@@ -21717,7 +21721,7 @@
   "ui-agreements.remoteKb.zdbids": [
     {
       "type": 0,
-      "value": "ZDB-IDs"
+      "value": "ZDB-ID's"
     }
   ],
   "ui-agreements.remove": [
@@ -22167,7 +22171,7 @@
     },
     {
       "type": 1,
-      "value": "nieuwWaarde"
+      "value": "newValue"
     }
   ],
   "ui-agreements.settings.value": [
@@ -87954,43 +87958,43 @@
   "ui-mosaic-settings.document.settings.title": [
     {
       "type": 0,
-      "value": "Mosaic integration settings"
+      "value": "Mosaic integratie-instellingen"
     }
   ],
   "ui-mosaic-settings.meta.title": [
     {
       "type": 0,
-      "value": "Mosaic integration"
+      "value": "Mozaïek integratie"
     }
   ],
   "ui-mosaic-settings.sections.configuration-options": [
     {
       "type": 0,
-      "value": "Configuration options"
+      "value": "Configuratie-opties"
     }
   ],
   "ui-mosaic-settings.sections.configuration-options.description": [
     {
       "type": 0,
-      "value": "You are able to choose the default order template that is applied when Mosaic creates an order in FOLIO. If a template is chosen while ordering in Mosaic that will override this selection, if no template is chosen this one will be applied. You can edit the default template in order settings under \"Order templates\". When Mosaic is configured to retrieve order templates from FOLIO in real-time you can decide to limit the templates that are retrieved by category. To do this select one or more category with the dropdown below."
+      "value": "U kunt de standaard bestelsjabloon kiezen die wordt toegepast wanneer Mosaic een bestelling aanmaakt in FOLIO. Als er tijdens het bestellen in Mosaic een sjabloon wordt gekozen, wordt deze selectie Overschreven, als er geen sjabloon is gekozen, wordt deze toegepast. U kunt de standaard sjabloon aanpassen in de bestelinstellingen onder \"Bestelsjablonen\". Wanneer Mosaic geconfigureerd is om in real-time bestelsjablonen van FOLIO op te halen, kunt u de sjablonen die worden opgehaald per categorie beperken. Selecteer hiervoor één of meer categorieën met de onderstaande dropdown."
     }
   ],
   "ui-mosaic-settings.sections.configuration-options.field.template": [
     {
       "type": 0,
-      "value": "Select default order template"
+      "value": "Standaard bestelsjabloon selecteren"
     }
   ],
   "ui-mosaic-settings.sections.configuration-options.submit.error": [
     {
       "type": 0,
-      "value": "Mosaic integration settings was not updated."
+      "value": "Mosaic integratie-instellingen is niet geüpdatet."
     }
   ],
   "ui-mosaic-settings.sections.configuration-options.submit.success": [
     {
       "type": 0,
-      "value": "Mosaic integration settings successfully updated."
+      "value": "Mosaic integratie-instellingen succesvol geüpdatet."
     }
   ],
   "ui-myprofile.draggableList.announcements.dragCancel": [

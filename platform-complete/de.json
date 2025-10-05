@@ -9887,49 +9887,49 @@
   "stripes-erm-components.accesscontrol.acquisitionunits.protectCreate": [
     {
       "type": 0,
-      "value": "Create"
+      "value": "Erstellen"
     }
   ],
   "stripes-erm-components.accesscontrol.acquisitionunits.protectDelete": [
     {
       "type": 0,
-      "value": "Delete"
+      "value": "Löschen"
     }
   ],
   "stripes-erm-components.accesscontrol.acquisitionunits.protectRead": [
     {
       "type": 0,
-      "value": "View"
+      "value": "Anzeigen"
     }
   ],
   "stripes-erm-components.accesscontrol.acquisitionunits.protectUpdate": [
     {
       "type": 0,
-      "value": "Edit"
+      "value": "Bearbeiten"
     }
   ],
   "stripes-erm-components.accesscontrol.description": [
     {
       "type": 0,
-      "value": "Description"
+      "value": "Beschreibung"
     }
   ],
   "stripes-erm-components.accesscontrol.error.noAccess": [
     {
       "type": 0,
-      "value": "Access to this resource is restricted, please speak to your system administrator"
+      "value": "Zugriff auf diese Ressource ist eingeschränkt, bitte an Systemadministration wenden"
     }
   ],
   "stripes-erm-components.accesscontrol.error.pane.title": [
     {
       "type": 0,
-      "value": "Access control error"
+      "value": "Fehler bei Zugriffskontrolle"
     }
   ],
   "stripes-erm-components.accesscontrol.label": [
     {
       "type": 0,
-      "value": "Acquisition units"
+      "value": "Erwerbungsteams"
     }
   ],
   "stripes-erm-components.accesscontrol.name": [
@@ -9941,19 +9941,19 @@
   "stripes-erm-components.accesscontrol.remove": [
     {
       "type": 0,
-      "value": "Remove"
+      "value": "Entfernen"
     }
   ],
   "stripes-erm-components.accesscontrol.restrictions": [
     {
       "type": 0,
-      "value": "Access"
+      "value": "Zugang"
     }
   ],
   "stripes-erm-components.accesscontrol.typedown.label": [
     {
       "type": 0,
-      "value": "Add acquisition unit"
+      "value": "Erwerbungsteam hinzufügen"
     }
   ],
   "stripes-erm-components.alternativeNames": [
@@ -11964,7 +11964,7 @@
   "stripes-erm-components.separator": [
     {
       "type": 0,
-      "value": "·"
+      "value": "."
     }
   ],
   "stripes-erm-components.showTags": [
@@ -18590,7 +18590,7 @@
     },
     {
       "type": 0,
-      "value": " out of "
+      "value": " von "
     },
     {
       "children": [
@@ -18604,7 +18604,7 @@
     },
     {
       "type": 0,
-      "value": " e-resources will be deleted from the package "
+      "value": " E-Ressourcen werden aus dem Paket "
     },
     {
       "children": [
@@ -18618,19 +18618,19 @@
     },
     {
       "type": 0,
-      "value": "."
+      "value": " gelöscht."
     }
   ],
   "ui-agreements.eresources.deleteConfirmationMessage.information": [
     {
       "type": 0,
-      "value": "Related information in the knowledgebase that is no longer needed will also be deleted."
+      "value": "Zugehörige Informationen in der Knowledgebase, die nicht mehr benötigt werden, werden ebenfalls gelöscht."
     }
   ],
   "ui-agreements.eresources.deleteConfirmationMessage.noDeletion": [
     {
       "type": 0,
-      "value": "No e-resources can be deleted from the package "
+      "value": "Aus dem Paket "
     },
     {
       "children": [
@@ -18644,7 +18644,7 @@
     },
     {
       "type": 0,
-      "value": ", most likely because they are linked directly to one or more Agreement Lines."
+      "value": " können keine E-Ressourcen gelöscht werden, höchstwahrscheinlich, weil sie direkt mit einer oder mehreren Vereinbarungskomponenten verknüpft sind."
     }
   ],
   "ui-agreements.eresources.deleteConfirmationMessage.pciNotDeleted": [
@@ -18660,19 +18660,19 @@
     },
     {
       "type": 0,
-      "value": " e-resources can not be deleted, most likely because they are linked directly to one or more Agreement Lines."
+      "value": " E-Ressourcen können nicht gelöscht werden, höchstwahrscheinlich, weil sie direkt mit einer oder mehreren Vereinbarungskomponenten verknüpft sind."
     }
   ],
   "ui-agreements.eresources.deleteConfirmationMessage.selectDelete": [
     {
       "type": 0,
-      "value": "Select \"Delete\" to create the deletion job."
+      "value": "\"Löschen\" auswählen, um den Löschjob zu erstellen."
     }
   ],
   "ui-agreements.eresources.deleteJob": [
     {
       "type": 0,
-      "value": "Create job to delete package contents"
+      "value": "Job zum Löschen von Paketinhalten erstellen"
     }
   ],
   "ui-agreements.eresources.deleteJob.success": [
@@ -18680,7 +18680,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Package contents deletion job created:"
+          "value": " Job zum Löschen von Paketinhalten erstellt: "
         }
       ],
       "type": 8,
@@ -18688,7 +18688,7 @@
     },
     {
       "type": 0,
-      "value": " for "
+      "value": " für "
     },
     {
       "type": 1,
@@ -18696,13 +18696,13 @@
     },
     {
       "type": 0,
-      "value": ". Updates will be displayed in the Local KB Admin app."
+      "value": ". Aktualisierungen werden in der Lokalen-KB-Verwaltung-App angezeigt."
     }
   ],
   "ui-agreements.eresources.deletePackageContents": [
     {
       "type": 0,
-      "value": "Delete package contents"
+      "value": "Paketinhalt löschen"
     }
   ],
   "ui-agreements.eresources.description": [
@@ -19298,7 +19298,7 @@
   "ui-agreements.eresources.viewJobLink": [
     {
       "type": 0,
-      "value": "View Local KB Admin job"
+      "value": "Lokalen KB-Verwaltungsjob anzeigen"
     }
   ],
   "ui-agreements.eresources.volume": [
@@ -19543,16 +19543,12 @@
   ],
   "ui-agreements.found#Values": [
     {
-      "type": 0,
-      "value": "Found "
-    },
-    {
       "type": 1,
       "value": "total"
     },
     {
       "type": 0,
-      "value": " results"
+      "value": " Ergebnisse gefunden"
     }
   ],
   "ui-agreements.gokb": [
@@ -19720,41 +19716,45 @@
   "ui-agreements.gokbSearch": [
     {
       "type": 0,
-      "value": "GOKb search"
+      "value": "GOKB-Suche"
     }
   ],
   "ui-agreements.gokbSearch.basket.addPackageToBasket": [
     {
       "type": 0,
-      "value": "Add package to basket"
+      "value": "Paket zu Merkliste hinzufügen"
     }
   ],
   "ui-agreements.gokbSearch.basket.addTitleToBasket": [
     {
       "type": 0,
-      "value": "Add title to basket"
+      "value": "Titel zur Merkliste hinzufügen"
     }
   ],
   "ui-agreements.gokbSearch.basket.manageBasketForPackageName": [
     {
       "type": 0,
-      "value": "Manage basket for "
+      "value": "Merkliste für "
     },
     {
       "type": 1,
       "value": "name"
+    },
+    {
+      "type": 0,
+      "value": " verwalten"
     }
   ],
   "ui-agreements.gokbSearch.basket.multiplePackageMatches": [
     {
       "type": 0,
-      "value": "Multiple packages matched, cannot add"
+      "value": "Mehrere Pakete matchen, kann nicht hinzufügen"
     }
   ],
   "ui-agreements.gokbSearch.basket.noPackageMatches": [
     {
       "type": 0,
-      "value": "No packages matched, cannot add"
+      "value": "Kein Paket matcht, kann nicht hinzufügen"
     }
   ],
   "ui-agreements.gokbSearch.basket.packageNameNotInKB": [
@@ -19764,55 +19764,55 @@
     },
     {
       "type": 0,
-      "value": " not in local KB"
+      "value": " nicht in der lokalen KB"
     }
   ],
   "ui-agreements.gokbSearch.basket.packageNotInKB": [
     {
       "type": 0,
-      "value": "Package not in local KB"
+      "value": "Paket nicht in lokaler KB"
     }
   ],
   "ui-agreements.gokbSearch.basket.pkgName": [
     {
       "type": 0,
-      "value": "Package name"
+      "value": "Paketname"
     }
   ],
   "ui-agreements.gokbSearch.basket.removePackageFromBasket": [
     {
       "type": 0,
-      "value": "Remove package from basket"
+      "value": "Paket aus der Merkliste entfernen"
     }
   ],
   "ui-agreements.gokbSearch.basket.removeTitleFromBasket": [
     {
       "type": 0,
-      "value": "Remove title from basket"
+      "value": "Titel aus Merkliste entfernen"
     }
   ],
   "ui-agreements.gokbSearch.basket.syncStatus": [
     {
       "type": 0,
-      "value": "Sync status"
+      "value": "Synchronisierungsstatus"
     }
   ],
   "ui-agreements.gokbSearch.basket.titleInKB": [
     {
       "type": 0,
-      "value": "Title in KB"
+      "value": "Titel in KB"
     }
   ],
   "ui-agreements.gokbSearch.basket.titleNotInKB": [
     {
       "type": 0,
-      "value": "Title not in local KB"
+      "value": "Titel nicht in lokaler KB"
     }
   ],
   "ui-agreements.gokbSearch.basket.viewInKB": [
     {
       "type": 0,
-      "value": "View in local KB"
+      "value": "In lokaler KB anzeigen"
     }
   ],
   "ui-agreements.gokbSearch.column.name": [
@@ -19824,97 +19824,97 @@
   "ui-agreements.gokbSearch.column.publicationType": [
     {
       "type": 0,
-      "value": "Publication type"
+      "value": "Publikationstyp"
     }
   ],
   "ui-agreements.gokbSearch.searchBy": [
     {
       "type": 0,
-      "value": "Search by"
+      "value": "Suche nach"
     }
   ],
   "ui-agreements.gokbSearch.searchIndex.altname": [
     {
       "type": 0,
-      "value": "Alternative names only"
+      "value": "Nur alternative Namen"
     }
   ],
   "ui-agreements.gokbSearch.searchIndex.authorEditor": [
     {
       "type": 0,
-      "value": "Author/Editor"
+      "value": "Autor/-in/Herausgeber/-in"
     }
   ],
   "ui-agreements.gokbSearch.searchIndex.eisbn": [
     {
       "type": 0,
-      "value": "EISBN"
+      "value": "e-ISBN"
     }
   ],
   "ui-agreements.gokbSearch.searchIndex.eissn": [
     {
       "type": 0,
-      "value": "EISSN"
+      "value": "e-ISSN"
     }
   ],
   "ui-agreements.gokbSearch.searchIndex.ezb": [
     {
       "type": 0,
-      "value": "EZB ID"
+      "value": "EZB-ID"
     }
   ],
   "ui-agreements.gokbSearch.searchIndex.gokbId": [
     {
       "type": 0,
-      "value": "GOKb ID"
+      "value": "GOKB-ID"
     }
   ],
   "ui-agreements.gokbSearch.searchIndex.identifiers": [
     {
       "type": 0,
-      "value": "Identifiers (all)"
+      "value": "Identifikatoren (alle)"
     }
   ],
   "ui-agreements.gokbSearch.searchIndex.isbn": [
     {
       "type": 0,
-      "value": "PISBN"
+      "value": "p-ISBN"
     }
   ],
   "ui-agreements.gokbSearch.searchIndex.issn": [
     {
       "type": 0,
-      "value": "PISSN"
+      "value": "p-ISSN"
     }
   ],
   "ui-agreements.gokbSearch.searchIndex.keyword": [
     {
       "type": 0,
-      "value": "Keyword (Name, Alternative names, Identifiers)"
+      "value": "Stichwort (Name, alternative Namen, Identifikatoren)"
     }
   ],
   "ui-agreements.gokbSearch.searchIndex.name": [
     {
       "type": 0,
-      "value": "Name only"
+      "value": "Nur Name"
     }
   ],
   "ui-agreements.gokbSearch.searchIndex.nameAndAltNames": [
     {
       "type": 0,
-      "value": "Name and alternative names"
+      "value": "Name und alternative Namen"
     }
   ],
   "ui-agreements.gokbSearch.searchIndex.uuid": [
     {
       "type": 0,
-      "value": "GOKb UUID"
+      "value": "GOKB-UUID"
     }
   ],
   "ui-agreements.gokbSearch.searchIndex.zdb": [
     {
       "type": 0,
-      "value": "ZDB ID"
+      "value": "ZDB-ID"
     }
   ],
   "ui-agreements.identifier.doi": [
@@ -21947,7 +21947,7 @@
   "ui-agreements.remoteKb.altNames": [
     {
       "type": 0,
-      "value": "Alternative names"
+      "value": "Alternative Namen"
     }
   ],
   "ui-agreements.remoteKb.dois": [
@@ -21959,13 +21959,13 @@
   "ui-agreements.remoteKb.edition": [
     {
       "type": 0,
-      "value": "Edition"
+      "value": "Ausgabe"
     }
   ],
   "ui-agreements.remoteKb.extendedTitleInformation": [
     {
       "type": 0,
-      "value": "Extended title information"
+      "value": "Erweiterte Titelinformationen"
     }
   ],
   "ui-agreements.remoteKb.ezbids": [
@@ -21977,79 +21977,79 @@
   "ui-agreements.remoteKb.filters.type": [
     {
       "type": 0,
-      "value": "Type"
+      "value": "Typ"
     }
   ],
   "ui-agreements.remoteKb.filters.type.all": [
     {
       "type": 0,
-      "value": "All"
+      "value": "Alle"
     }
   ],
   "ui-agreements.remoteKb.filters.type.book": [
     {
       "type": 0,
-      "value": "Book"
+      "value": "Buch"
     }
   ],
   "ui-agreements.remoteKb.filters.type.database": [
     {
       "type": 0,
-      "value": "Database"
+      "value": "Datenbank"
     }
   ],
   "ui-agreements.remoteKb.filters.type.journal": [
     {
       "type": 0,
-      "value": "Journal"
+      "value": "Zeitschrift"
     }
   ],
   "ui-agreements.remoteKb.filters.type.other": [
     {
       "type": 0,
-      "value": "Other"
+      "value": "Andere"
     }
   ],
   "ui-agreements.remoteKb.firstAuthor": [
     {
       "type": 0,
-      "value": "First author"
+      "value": "Erste/-r Autor/-in"
     }
   ],
   "ui-agreements.remoteKb.firstEditor": [
     {
       "type": 0,
-      "value": "First editor"
+      "value": "Erste/-r Herausgeber/-in"
     }
   ],
   "ui-agreements.remoteKb.gokbTitles": [
     {
       "type": 0,
-      "value": "GOKB titles"
+      "value": "GOKB-Titel"
     }
   ],
   "ui-agreements.remoteKb.gokbid": [
     {
       "type": 0,
-      "value": "GOKB ID"
+      "value": "GOKB-ID"
     }
   ],
   "ui-agreements.remoteKb.gokbuuid": [
     {
       "type": 0,
-      "value": "GOKB UUID"
+      "value": "GOKB-UUID"
     }
   ],
   "ui-agreements.remoteKb.heading": [
     {
       "type": 0,
-      "value": "Heading"
+      "value": "Überschrift"
     }
   ],
   "ui-agreements.remoteKb.identifier": [
     {
       "type": 0,
-      "value": "Identifier"
+      "value": "Identifikator"
     }
   ],
   "ui-agreements.remoteKb.isbns": [
@@ -22073,7 +22073,7 @@
   "ui-agreements.remoteKb.noAccordionContent": [
     {
       "type": 0,
-      "value": "No "
+      "value": "Kein "
     },
     {
       "type": 1,
@@ -22081,25 +22081,25 @@
     },
     {
       "type": 0,
-      "value": " content available."
+      "value": " Inhalt verfügbar"
     }
   ],
   "ui-agreements.remoteKb.otherIds": [
     {
       "type": 0,
-      "value": "Other IDs"
+      "value": "Andere IDs"
     }
   ],
   "ui-agreements.remoteKb.publicationDates": [
     {
       "type": 0,
-      "value": "Publication dates"
+      "value": "Erscheinungsdaten"
     }
   ],
   "ui-agreements.remoteKb.publicationDates.coverage": [
     {
       "type": 0,
-      "value": "Coverage"
+      "value": "Abdeckung"
     }
   ],
   "ui-agreements.remoteKb.publicationDates.online": [
@@ -22117,37 +22117,37 @@
   "ui-agreements.remoteKb.publicationType": [
     {
       "type": 0,
-      "value": "Publication type"
+      "value": "Publikationstyp"
     }
   ],
   "ui-agreements.remoteKb.publisher": [
     {
       "type": 0,
-      "value": "Publisher"
+      "value": "Verlag"
     }
   ],
   "ui-agreements.remoteKb.scheme": [
     {
       "type": 0,
-      "value": "Scheme"
+      "value": "Schema"
     }
   ],
   "ui-agreements.remoteKb.subjects": [
     {
       "type": 0,
-      "value": "Subjects"
+      "value": "Schlagwörter"
     }
   ],
   "ui-agreements.remoteKb.type": [
     {
       "type": 0,
-      "value": "Type"
+      "value": "Typ"
     }
   ],
   "ui-agreements.remoteKb.volume": [
     {
       "type": 0,
-      "value": "Volume"
+      "value": "Band"
     }
   ],
   "ui-agreements.remoteKb.zdbids": [
@@ -22225,19 +22225,19 @@
   "ui-agreements.settings.displaySuppressFromDiscovery.agreementLine": [
     {
       "type": 0,
-      "value": "Display \"Suppress from discovery\" setting on Agreement lines"
+      "value": "Einstellung \"Nachweis unterdrückt\" für Vereinbarungskomponenten anzeigen"
     }
   ],
   "ui-agreements.settings.displaySuppressFromDiscovery.pci": [
     {
       "type": 0,
-      "value": "Display \"Suppress from discovery\" setting on Titles in packages"
+      "value": "Einstellung \"Nachweis unterdrückt\" für Titel in Paketen anzeigen"
     }
   ],
   "ui-agreements.settings.displaySuppressFromDiscovery.title": [
     {
       "type": 0,
-      "value": "Display \"Suppress from discovery\" setting on Titles"
+      "value": "Einstellung \"Nachweis unterdrückt\" für Titel anzeigen"
     }
   ],
   "ui-agreements.settings.error.valueNotInRange": [
@@ -22337,13 +22337,13 @@
   "ui-agreements.settings.general.hideAccordions.description": [
     {
       "type": 0,
-      "value": "Hide accordions in agreement edit view"
+      "value": "Akkordeons in der Bearbeitungsansicht von Vereinbarungen ausblenden"
     }
   ],
   "ui-agreements.settings.general.hideAccordions.usageData": [
     {
       "type": 0,
-      "value": "Usage data"
+      "value": "Nutzungsdaten"
     }
   ],
   "ui-agreements.settings.general.hideEResourcesFunctionality.description": [
@@ -22391,7 +22391,7 @@
   "ui-agreements.settings.hideEResourcesFunctionality": [
     {
       "type": 0,
-      "value": "Hide internal agreements knowledgebase"
+      "value": "Interne eManagement-Knowledgebase ausblenden"
     }
   ],
   "ui-agreements.settings.label": [
@@ -22471,7 +22471,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Page size"
+          "value": "Seitengröße"
         }
       ],
       "type": 8,
@@ -22481,31 +22481,31 @@
   "ui-agreements.settings.pageSize.agreementEresources": [
     {
       "type": 0,
-      "value": "Agreement view pane > E-resources covered by this agreement"
+      "value": "Bereich Vereinbarungsansicht > Unter diese Vereinbarung fallende E-Ressourcen"
     }
   ],
   "ui-agreements.settings.pageSize.agreementLines": [
     {
       "type": 0,
-      "value": "Agreement view pane > Agreement lines"
+      "value": "Bereich Vereinbarungsansicht > Vereinbarungskomponenten"
     }
   ],
   "ui-agreements.settings.pageSize.entitlementOptions": [
     {
       "type": 0,
-      "value": "E-resource view pane > Options for acquiring e-resource"
+      "value": "Bereich E-Ressourcen-Ansicht > Optionen für den Erwerb dieser E-Ressource"
     }
   ],
   "ui-agreements.settings.pageSize.entitlements": [
     {
       "type": 0,
-      "value": "E-resource view pane > Agreements for this e-resource"
+      "value": "Bereich E-Ressourcen-Ansicht > Vereinbarungen für diese E-Ressouce"
     }
   ],
   "ui-agreements.settings.pageSize.packageContents": [
     {
       "type": 0,
-      "value": "Package view pane > E-resources in package"
+      "value": "Bereich Paketansicht > E-Ressourcen im Paket"
     }
   ],
   "ui-agreements.settings.pickList": [
@@ -22631,7 +22631,7 @@
   "ui-agreements.settings.update.error": [
     {
       "type": 0,
-      "value": "Setting \""
+      "value": "Einstellung \""
     },
     {
       "type": 1,
@@ -22639,13 +22639,13 @@
     },
     {
       "type": 0,
-      "value": "\" could not be updated"
+      "value": "\" konnte nicht aktualisiert werden"
     }
   ],
   "ui-agreements.settings.update.success": [
     {
       "type": 0,
-      "value": "Setting \""
+      "value": "Einstellung \""
     },
     {
       "type": 1,
@@ -22653,11 +22653,15 @@
     },
     {
       "type": 0,
-      "value": "\" was updated to "
+      "value": "\" wurde auf "
     },
     {
       "type": 1,
       "value": "newValue"
+    },
+    {
+      "type": 0,
+      "value": " aktualisiert"
     }
   ],
   "ui-agreements.settings.value": [
@@ -65603,7 +65607,7 @@
   "ui-export-manager.exportJob.integrationType": [
     {
       "type": 0,
-      "value": "Integration type"
+      "value": "Integrationstyp"
     }
   ],
   "ui-export-manager.exportJob.integrationType.claiming": [
@@ -65831,7 +65835,7 @@
   "ui-export-manager.settings.jobs.deletionIntervals": [
     {
       "type": 0,
-      "value": "Job deletion intervals (days)"
+      "value": "Job-Löschintervalle (Tage)"
     }
   ],
   "ui-export-manager.settings.jobs.update.error": [
@@ -75237,7 +75241,7 @@
   "ui-inventory.addAdditionalCallNumber": [
     {
       "type": 0,
-      "value": "Weitere Signatur hinzufügen"
+      "value": "Zusätzliche Signatur hinzufügen"
     }
   ],
   "ui-inventory.addAdministrativeNote": [
@@ -75475,7 +75479,7 @@
   "ui-inventory.additionalCallNumbers": [
     {
       "type": 0,
-      "value": "Weitere Signaturen"
+      "value": "Zusätzliche Signaturen"
     }
   ],
   "ui-inventory.adminData": [
@@ -76307,13 +76311,13 @@
   "ui-inventory.contributorType": [
     {
       "type": 0,
-      "value": "Typen von Mitwirkenden"
+      "value": "Mitwirkendentypen"
     }
   ],
   "ui-inventory.contributorTypes": [
     {
       "type": 0,
-      "value": "Typen von Mitwirkenden"
+      "value": "Mitwirkendentypen"
     }
   ],
   "ui-inventory.contributors": [
@@ -80570,7 +80574,7 @@
   "ui-inventory.permission.settings.contributor-types": [
     {
       "type": 0,
-      "value": "Einstellungen (Katalog): Typen von Mitwirkenden erstellen, bearbeiten, löschen"
+      "value": "Einstellungen (Katalog): Mitwirkendentypen erstellen, bearbeiten, löschen"
     }
   ],
   "ui-inventory.permission.settings.displaySettings": [
@@ -82330,7 +82334,7 @@
   "ui-inventory.swapWithPrimaryCallNumber": [
     {
       "type": 0,
-      "value": "Mit Hauptsignatur wechseln"
+      "value": "Zur Hauptsignatur machen"
     }
   ],
   "ui-inventory.targetOptions": [
@@ -83138,7 +83142,7 @@
   "ui-invoice.button.cancel": [
     {
       "type": 0,
-      "value": "Abbrechen"
+      "value": "Stornieren"
     }
   ],
   "ui-invoice.button.continue": [
@@ -95130,19 +95134,19 @@
   "ui-mosaic-settings.document.settings.title": [
     {
       "type": 0,
-      "value": "Mosaic integration settings"
+      "value": "Einstellungen für die Mosaic-Integration"
     }
   ],
   "ui-mosaic-settings.meta.title": [
     {
       "type": 0,
-      "value": "Mosaic integration"
+      "value": "Mosaic-Integration"
     }
   ],
   "ui-mosaic-settings.sections.configuration-options": [
     {
       "type": 0,
-      "value": "Configuration options"
+      "value": "Konfigurationsoptionen"
     }
   ],
   "ui-mosaic-settings.sections.configuration-options.description": [
@@ -95154,19 +95158,19 @@
   "ui-mosaic-settings.sections.configuration-options.field.template": [
     {
       "type": 0,
-      "value": "Select default order template"
+      "value": "Standard-Bestellvorlage auswählen"
     }
   ],
   "ui-mosaic-settings.sections.configuration-options.submit.error": [
     {
       "type": 0,
-      "value": "Mosaic integration settings was not updated."
+      "value": "Die Einstellungen für die Mosaic-Integrations wurden nicht aktualisiert."
     }
   ],
   "ui-mosaic-settings.sections.configuration-options.submit.success": [
     {
       "type": 0,
-      "value": "Mosaic integration settings successfully updated."
+      "value": "Die Einstellungen für die Mosaic-Integration wurden erfolgreich aktualisiert."
     }
   ],
   "ui-myprofile.draggableList.announcements.dragCancel": [
@@ -98174,7 +98178,7 @@
   "ui-oa.publicationRequest.publicationDate": [
     {
       "type": 0,
-      "value": "Veröffentlichungsdatum"
+      "value": "Erscheinungsdatum"
     }
   ],
   "ui-oa.publicationRequest.publicationPlace": [
@@ -123713,7 +123717,7 @@
   "ui-receiving.piece.displayOnHolding": [
     {
       "type": 0,
-      "value": "Anzeige"
+      "value": "Anzeige im Bestandsdatensatz"
     }
   ],
   "ui-receiving.piece.displaySummary": [
