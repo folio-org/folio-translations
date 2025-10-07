@@ -9214,6 +9214,24 @@
       "value": "Główny"
     }
   ],
+  "stripes-core.oidc.initializingSession": [
+    {
+      "type": 0,
+      "value": "Initializing session..."
+    }
+  ],
+  "stripes-core.oidc.otp.missingCode": [
+    {
+      "type": 0,
+      "value": "The query parameter 'code' is missing."
+    }
+  ],
+  "stripes-core.oidc.validatingAuthenticationToken": [
+    {
+      "type": 0,
+      "value": "Validating authentication token..."
+    }
+  ],
   "stripes-core.password": [
     {
       "type": 0,
@@ -9940,6 +9958,20 @@
     {
       "type": 0,
       "value": "Usuń"
+    }
+  ],
+  "stripes-erm-components.accesscontrol.removeAcqUnit": [
+    {
+      "type": 0,
+      "value": "Remove \""
+    },
+    {
+      "type": 1,
+      "value": "acqUnitName"
+    },
+    {
+      "type": 0,
+      "value": "\""
     }
   ],
   "stripes-erm-components.accesscontrol.restrictions": [
@@ -21900,6 +21932,12 @@
       "value": "Wydanie"
     }
   ],
+  "ui-agreements.remoteKb.eresourceAgreements": [
+    {
+      "type": 0,
+      "value": "Agreements for this e-resource"
+    }
+  ],
   "ui-agreements.remoteKb.extendedTitleInformation": [
     {
       "type": 0,
@@ -22062,6 +22100,12 @@
     {
       "type": 0,
       "value": "Wydawca"
+    }
+  ],
+  "ui-agreements.remoteKb.remoteTitleNotFound": [
+    {
+      "type": 0,
+      "value": "Title not currently present in Local KB. To add the title, synchronise one of the packages listed in the Packages accordion"
     }
   ],
   "ui-agreements.remoteKb.scheme": [
@@ -83213,6 +83257,12 @@
     {
       "type": 0,
       "value": " - Szukaj"
+    }
+  ],
+  "ui-invoice.errors.cannotConvertAmountInvalidCurrency": [
+    {
+      "type": 0,
+      "value": "The selected currency cannot be converted. Please configure an exchange rate provider that supports this currency."
     }
   ],
   "ui-invoice.errors.cantLoadAdjustment": [
