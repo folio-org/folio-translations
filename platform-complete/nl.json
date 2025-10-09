@@ -16382,6 +16382,54 @@
       "value": "Uiterste annuleringsdatum"
     }
   ],
+  "ui-agreements.agreements.claimPolicies.update.callout": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Agreement acquisition units updated:"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " "
+    },
+    {
+      "type": 1,
+      "value": "name"
+    }
+  ],
+  "ui-agreements.agreements.claimPolicies.update.error.callout": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Error:"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " Acquisition units for agreement "
+    },
+    {
+      "type": 1,
+      "value": "name"
+    },
+    {
+      "type": 0,
+      "value": " were not updated: "
+    },
+    {
+      "type": 1,
+      "value": "error"
+    }
+  ],
   "ui-agreements.agreements.closeEdit": [
     {
       "type": 0,
@@ -16770,6 +16818,34 @@
     {
       "type": 1,
       "value": "name"
+    }
+  ],
+  "ui-agreements.agreements.update.error.callout": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Error:"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " Agreement "
+    },
+    {
+      "type": 1,
+      "value": "name"
+    },
+    {
+      "type": 0,
+      "value": " was not updated: "
+    },
+    {
+      "type": 1,
+      "value": "error"
     }
   ],
   "ui-agreements.agreements.vendor": [
@@ -24764,6 +24840,12 @@
     {
       "type": 0,
       "value": "Collectiebezit - items"
+    }
+  ],
+  "ui-bulk-edit.list.filters.capabilities.items": [
+    {
+      "type": 0,
+      "value": "Inventory - items"
     }
   ],
   "ui-bulk-edit.list.filters.capabilities.title": [
@@ -84487,6 +84569,16 @@
       "value": "Verder gaan met bewerken"
     }
   ],
+  "ui-lists.list.modal.pane-sub": [
+    {
+      "type": 0,
+      "value": "List name: "
+    },
+    {
+      "type": 1,
+      "value": "listName"
+    }
+  ],
   "ui-lists.list.modal.run-query-and-save": [
     {
       "type": 0,
@@ -107516,6 +107608,12 @@
     {
       "type": 0,
       "value": "Annuleren"
+    }
+  ],
+  "ui-plugin-query-builder.modal.entityType": [
+    {
+      "type": 0,
+      "value": "Record type:"
     }
   ],
   "ui-plugin-query-builder.modal.preview.countingInProgress": [
