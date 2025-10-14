@@ -91620,6 +91620,84 @@
       "value": " was not found. Verify the list location and try again."
     }
   ],
+  "ui-lists.record-types.label.deduplication.built-in": [
+    {
+      "type": 1,
+      "value": "label"
+    },
+    {
+      "type": 0,
+      "value": " (built-in)"
+    }
+  ],
+  "ui-lists.record-types.label.deduplication.custom.no-built-in": [
+    {
+      "type": 1,
+      "value": "label"
+    },
+    {
+      "offset": 0,
+      "options": {
+        "=1": {
+          "value": []
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": " ("
+            },
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": ")"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "number"
+    }
+  ],
+  "ui-lists.record-types.label.deduplication.custom.with-built-in": [
+    {
+      "type": 1,
+      "value": "label"
+    },
+    {
+      "type": 0,
+      "value": " (custom)"
+    },
+    {
+      "offset": 0,
+      "options": {
+        "=1": {
+          "value": []
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": " ("
+            },
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": ")"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "number"
+    }
+  ],
   "ui-lists.refresh-entity.not.found": [
     {
       "type": 0,
