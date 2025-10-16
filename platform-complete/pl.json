@@ -10095,7 +10095,7 @@
   "stripes-erm-components.contacts.linkUser": [
     {
       "type": 0,
-      "value": "Połącz użytkownik"
+      "value": "Połącz użytkownika"
     }
   ],
   "stripes-erm-components.contacts.linkUserToStart": [
@@ -10283,7 +10283,7 @@
   "stripes-erm-components.customProperties.orderWeight": [
     {
       "type": 0,
-      "value": "Waga zamówienia"
+      "value": "Kolejność zamówienia"
     }
   ],
   "stripes-erm-components.customProperties.pickList": [
@@ -10373,7 +10373,7 @@
   "stripes-erm-components.customProperties.type.decimal": [
     {
       "type": 0,
-      "value": "Dziesiętny"
+      "value": "Liczba dziesiętna"
     }
   ],
   "stripes-erm-components.customProperties.type.integer": [
@@ -11042,13 +11042,13 @@
   "stripes-erm-components.documentFilter.has": [
     {
       "type": 0,
-      "value": "Ma"
+      "value": "Zawiera"
     }
   ],
   "stripes-erm-components.documentFilter.hasNot": [
     {
       "type": 0,
-      "value": "Nie ma"
+      "value": "Nie zawiera"
     }
   ],
   "stripes-erm-components.documentFilter.removeRule": [
@@ -11984,13 +11984,13 @@
   "stripes-erm-components.term.help.label": [
     {
       "type": 0,
-      "value": "Warunek licencji „etykieta” jest używany podczas wyświetlania tego warunku użytkownikom w ramach Folio i we wszelkich innych systemach, które wyświetlają warunki licencji użytkownikom. Powinien to być krótki ciąg tekstowy, który jasno określa, jakie informacje są zapisane w warunkach. Opis powinien być używany, gdy wymagane jest dalsze wyjaśnienie warunków w celu wyświetlenia go użytkownikom."
+      "value": "Warunek licencji „etykieta” jest używany podczas wyświetlania go użytkownikom w Folio i w innych systemach pokazujących warunki licencji. Powinien to być krótki ciąg tekstowy, który jasno określa czego dotyczy warunek. Jeśli wymagane jest dalsze wyjaśnienie warunku, to należy wprowadzić te dane do pola Opis."
     }
   ],
   "stripes-erm-components.term.help.name": [
     {
       "type": 0,
-      "value": "Warunek licencyjny „nazwa” jest używany podczas wyprowadzania warunków danych  w formacie czytelnym dla komputera. Nie jest przeznaczone do wyświetlania użytkownikom (personelowi lub czytelnikom). Powinien to być krótki ciąg alfabetu łacińskiego, który może być używany przez dowolne zewnętrzne systemy lub programy, które mają dostęp do danych okresu licencji. Korzystanie z camelCase jest zalecane, ale nie jest wymagane. Zmiany warunków licencji wpłyną na wszelkie systemy zewnętrzne korzystające z danych okresu licencji i nie należy ich wprowadzać bez konsultacji z osobami odpowiedzialnymi za zewnętrzne systemy i oprogramowanie."
+      "value": "Warunek licencji \"nazwa\" jest to techniczna nazwa używana przez komputery do odczytu danych o warunku. Nie jest widoczna dla użytkowników (ani pracowników, ani czytelników). Nazwa powinna być krótka i zapisana alfabetem łacińskim (bez polskich znaków). Można używać zapisu camelCase, ale nie jest to obowiązkowe. Zmiana tej nazwy może spowodować problemy w innych systemach korzystających z tych danych, dlatego można je wprowadzać tylko po uzgodnieniu z osobami odpowiedzialnymi za te systemy."
     }
   ],
   "stripes-erm-components.title": [
@@ -15986,13 +15986,13 @@
   "ui-agreements.agreementContent.filter.has": [
     {
       "type": 0,
-      "value": "Posiada"
+      "value": "Zawiera"
     }
   ],
   "ui-agreements.agreementContent.filter.hasNot": [
     {
       "type": 0,
-      "value": "Nie posiada"
+      "value": "Nie zawiera"
     }
   ],
   "ui-agreements.agreementLine": [
@@ -17787,13 +17787,13 @@
   "ui-agreements.customProperties.type.com.k_int.web.toolkit.custprops.types.CustomPropertyDecimal": [
     {
       "type": 0,
-      "value": "Dziesiętny"
+      "value": "Liczba dziesiętna"
     }
   ],
   "ui-agreements.customProperties.type.com.k_int.web.toolkit.custprops.types.CustomPropertyInteger": [
     {
       "type": 0,
-      "value": "Całość"
+      "value": "Liczba całkowita"
     }
   ],
   "ui-agreements.customProperties.type.com.k_int.web.toolkit.custprops.types.CustomPropertyLocalDate": [
@@ -17841,7 +17841,7 @@
   "ui-agreements.customProperties.weight": [
     {
       "type": 0,
-      "value": "Waga zamówienia"
+      "value": "Kolejność zamówienia"
     }
   ],
   "ui-agreements.customProperty": [
@@ -21990,10 +21990,26 @@
       "value": "śledzi zakupy sterowane popytem dla"
     }
   ],
+  "ui-agreements.remoteKb.actions.viewInLocalKb": [
+    {
+      "type": 0,
+      "value": "View title in local KB"
+    }
+  ],
+  "ui-agreements.remoteKb.actions.viewInRemoteKb": [
+    {
+      "type": 0,
+      "value": "View title in "
+    },
+    {
+      "type": 1,
+      "value": "remoteKbName"
+    }
+  ],
   "ui-agreements.remoteKb.altNames": [
     {
       "type": 0,
-      "value": "Alternative names"
+      "value": "Warianty nazw"
     }
   ],
   "ui-agreements.remoteKb.dois": [
@@ -22029,7 +22045,7 @@
   "ui-agreements.remoteKb.filters.type": [
     {
       "type": 0,
-      "value": "Type"
+      "value": "Rodzaj"
     }
   ],
   "ui-agreements.remoteKb.filters.type.all": [
@@ -22205,7 +22221,7 @@
   "ui-agreements.remoteKb.type": [
     {
       "type": 0,
-      "value": "Type"
+      "value": "Rodzaj"
     }
   ],
   "ui-agreements.remoteKb.volume": [
@@ -22583,7 +22599,7 @@
   "ui-agreements.settings.pickListValues": [
     {
       "type": 0,
-      "value": "Wartości z listy wyboru"
+      "value": "Wartości listy wyboru"
     }
   ],
   "ui-agreements.settings.pickLists": [
@@ -25878,6 +25894,12 @@
       "value": "Katalogowanie - zasoby"
     }
   ],
+  "ui-bulk-edit.list.filters.capabilities.instance": [
+    {
+      "type": 0,
+      "value": "Inventory - instances"
+    }
+  ],
   "ui-bulk-edit.list.filters.capabilities.instances": [
     {
       "type": 0,
@@ -25890,6 +25912,12 @@
       "value": "Katalogowanie - egzemplarze"
     }
   ],
+  "ui-bulk-edit.list.filters.capabilities.item": [
+    {
+      "type": 0,
+      "value": "Inventory - items"
+    }
+  ],
   "ui-bulk-edit.list.filters.capabilities.items": [
     {
       "type": 0,
@@ -25900,6 +25928,12 @@
     {
       "type": 0,
       "value": "Rodzaje rekordu"
+    }
+  ],
+  "ui-bulk-edit.list.filters.capabilities.user": [
+    {
+      "type": 0,
+      "value": "Users"
     }
   ],
   "ui-bulk-edit.list.filters.capabilities.users": [
@@ -27472,7 +27506,7 @@
   "ui-bulk-edit.settings.profiles.columns.status.active": [
     {
       "type": 0,
-      "value": "Active"
+      "value": "Aktywny"
     }
   ],
   "ui-bulk-edit.settings.profiles.columns.updated": [
@@ -86738,7 +86772,7 @@
   "ui-ldp.button.add-filter": [
     {
       "type": 0,
-      "value": "Add filter"
+      "value": "Dodaj filtr"
     }
   ],
   "ui-ldp.button.add-join-table": [
@@ -87769,7 +87803,7 @@
   "ui-licenses.amendments": [
     {
       "type": 0,
-      "value": "Amendments"
+      "value": "Poprawki"
     }
   ],
   "ui-licenses.amendments.add": [
@@ -88005,25 +88039,25 @@
   "ui-licenses.content.filter.amendmentContent": [
     {
       "type": 0,
-      "value": "Amendment content"
+      "value": "Treść poprawki"
     }
   ],
   "ui-licenses.content.filter.has": [
     {
       "type": 0,
-      "value": "Has"
+      "value": "Zawiera"
     }
   ],
   "ui-licenses.content.filter.hasNot": [
     {
       "type": 0,
-      "value": "Has not"
+      "value": "Nie zawiera"
     }
   ],
   "ui-licenses.content.filter.licenseContent": [
     {
       "type": 0,
-      "value": "License content"
+      "value": "Zawartość licencji"
     }
   ],
   "ui-licenses.coreDocs.add": [
@@ -88079,13 +88113,13 @@
   "ui-licenses.customProperties": [
     {
       "type": 0,
-      "value": "Semestry"
+      "value": "Warunki"
     }
   ],
   "ui-licenses.customProperties.addProperty": [
     {
       "type": 0,
-      "value": "Add term"
+      "value": "Dodaj warunek"
     }
   ],
   "ui-licenses.customProperties.category": [
@@ -88286,7 +88320,7 @@
   "ui-licenses.customProperties.optionalProperties": [
     {
       "type": 0,
-      "value": "Optional terms"
+      "value": "Warunki dodatkowe"
     }
   ],
   "ui-licenses.customProperties.primary": [
@@ -88298,7 +88332,7 @@
   "ui-licenses.customProperties.primaryProperties": [
     {
       "type": 0,
-      "value": "Primary terms"
+      "value": "Warunki podstawowe"
     }
   ],
   "ui-licenses.customProperties.publicNote": [
@@ -88340,7 +88374,7 @@
   "ui-licenses.customProperties.type.com.k_int.web.toolkit.custprops.types.CustomPropertyDecimal": [
     {
       "type": 0,
-      "value": "Dziesiętny"
+      "value": "Liczba dziesiętna"
     }
   ],
   "ui-licenses.customProperties.type.com.k_int.web.toolkit.custprops.types.CustomPropertyInteger": [
@@ -88394,7 +88428,7 @@
   "ui-licenses.customProperties.weight": [
     {
       "type": 0,
-      "value": "Waga zamówienia"
+      "value": "Kolejność zamówienia"
     }
   ],
   "ui-licenses.customProperty": [
@@ -88586,7 +88620,7 @@
   "ui-licenses.duplicateAmendmentModal.coreDocs": [
     {
       "type": 0,
-      "value": "Podstawowe dokumenty"
+      "value": "Dokumenty podstawowe"
     }
   ],
   "ui-licenses.duplicateAmendmentModal.duplicateAmendment": [
@@ -88622,7 +88656,7 @@
   "ui-licenses.duplicateAmendmentModal.terms": [
     {
       "type": 0,
-      "value": "Semestry"
+      "value": "Warunki"
     }
   ],
   "ui-licenses.duplicateLicenseModal.cloneEndpointError": [
@@ -88634,7 +88668,7 @@
   "ui-licenses.duplicateLicenseModal.coreDocs": [
     {
       "type": 0,
-      "value": "Podstawowe dokumenty"
+      "value": "Dokumenty podstawowe"
     }
   ],
   "ui-licenses.duplicateLicenseModal.duplicateLicense": [
@@ -88694,7 +88728,7 @@
   "ui-licenses.duplicateLicenseModal.terms": [
     {
       "type": 0,
-      "value": "Semestry"
+      "value": "Warunki"
     }
   ],
   "ui-licenses.edit": [
@@ -88977,7 +89011,7 @@
   "ui-licenses.exportLicensesModal.terms": [
     {
       "type": 0,
-      "value": "Semestry"
+      "value": "Warunki"
     }
   ],
   "ui-licenses.exportLicensesModal.type": [
@@ -89629,7 +89663,7 @@
   "ui-licenses.section.coreDocs": [
     {
       "type": 0,
-      "value": "Podstawowe dokumenty"
+      "value": "Dokumenty podstawowe"
     }
   ],
   "ui-licenses.section.internalContacts": [
@@ -89671,7 +89705,7 @@
   "ui-licenses.section.terms": [
     {
       "type": 0,
-      "value": "Semestry"
+      "value": "Warunki"
     }
   ],
   "ui-licenses.settings.actions": [
@@ -89809,7 +89843,7 @@
   "ui-licenses.settings.pickListValues": [
     {
       "type": 0,
-      "value": "Wartości z listy wyboru"
+      "value": "Wartości listy wyboru"
     }
   ],
   "ui-licenses.settings.pickListValues.deletePickListValue": [
@@ -89857,7 +89891,7 @@
   "ui-licenses.settings.termPickList": [
     {
       "type": 0,
-      "value": "Konfiguracja listy wyboru terminów licencji"
+      "value": "Konfiguracja listy wyboru warunków licencji"
     }
   ],
   "ui-licenses.settings.value": [
@@ -90182,7 +90216,7 @@
   "ui-licenses.terms.help.label": [
     {
       "type": 0,
-      "value": "A license term 'label' is used when displaying the term to users within Folio and in any other systems that display license terms to users. It should be a short text string that clearly communicates what information is recorded in the term. The Description should be used where further explanation of the term is required for display to users."
+      "value": "Warunek licencji „etykieta” jest używany podczas wyświetlania go użytkownikom w Folio i w innych systemach pokazujących warunki licencji. Powinien to być krótki ciąg tekstowy, który jasno określa czego dotyczy warunek. Jeśli wymagane jest dalsze wyjaśnienie warunku, to należy wprowadzić te dane do pola Opis."
     }
   ],
   "ui-licenses.terms.help.name": [
@@ -96883,7 +96917,7 @@
   "ui-oa.checklist.outcome.notSet": [
     {
       "type": 0,
-      "value": "Not set"
+      "value": "Nie ustawiono"
     }
   ],
   "ui-oa.checklist.outcome.other": [
@@ -96939,7 +96973,7 @@
   "ui-oa.checklistFilter.addFilter": [
     {
       "type": 0,
-      "value": "Add filter"
+      "value": "Dodaj filtr"
     }
   ],
   "ui-oa.checklistFilter.addRule": [
@@ -97063,7 +97097,7 @@
   "ui-oa.checklistFilter.value.notSet": [
     {
       "type": 0,
-      "value": "Not set"
+      "value": "Nie ustawiono"
     }
   ],
   "ui-oa.correspondence.category": [
@@ -99151,7 +99185,7 @@
   "ui-oa.settings.refdata.picklistValues": [
     {
       "type": 0,
-      "value": "Wartości z listy wyboru"
+      "value": "Wartości listy wyboru"
     }
   ],
   "ui-oa.settings.settingsSection.publicationRequests": [
@@ -106377,7 +106411,7 @@
   "ui-orders.settings.poNumber.modifier.deprecated": [
     {
       "type": 0,
-      "value": "Deprecated"
+      "value": "Wycofany"
     }
   ],
   "ui-orders.settings.poNumber.modifier.description": [
@@ -114671,7 +114705,7 @@
   "ui-plugin-find-license.terms": [
     {
       "type": 0,
-      "value": "Semestry"
+      "value": "Warunki"
     }
   ],
   "ui-plugin-find-license.terms.deprecated": [
@@ -114687,7 +114721,7 @@
   "ui-plugin-find-license.terms.editCustomPropertyFilters": [
     {
       "type": 0,
-      "value": "Edit term filters"
+      "value": "Edytuj filtry warunków"
     }
   ],
   "ui-plugin-find-license.terms.filterBuilder": [
@@ -124146,7 +124180,7 @@
   "ui-receiving.piece.modal.expectedDateRange.endDate": [
     {
       "type": 0,
-      "value": "End date"
+      "value": "Data zakończenia"
     }
   ],
   "ui-receiving.piece.modal.expectedDateRange.heading": [
@@ -124158,7 +124192,7 @@
   "ui-receiving.piece.modal.expectedDateRange.startDate": [
     {
       "type": 0,
-      "value": "Start date"
+      "value": "Data rozpoczęcia"
     }
   ],
   "ui-receiving.piece.permanentLoanTypeId": [

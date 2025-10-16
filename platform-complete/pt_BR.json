@@ -9947,7 +9947,7 @@
   "stripes-erm-components.accesscontrol.removeAcqUnit": [
     {
       "type": 0,
-      "value": "Remove \""
+      "value": "Remover \""
     },
     {
       "type": 1,
@@ -16496,7 +16496,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Agreement acquisition units updated:"
+          "value": "Unidades de aquisição de contratos atualizadas:"
         }
       ],
       "type": 8,
@@ -16516,7 +16516,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Error:"
+          "value": "Erro:"
         }
       ],
       "type": 8,
@@ -16524,7 +16524,7 @@
     },
     {
       "type": 0,
-      "value": " Acquisition units for agreement "
+      "value": " As unidades de aquisição do contrato "
     },
     {
       "type": 1,
@@ -16532,7 +16532,7 @@
     },
     {
       "type": 0,
-      "value": " were not updated: "
+      "value": " não foram atualizadas: "
     },
     {
       "type": 1,
@@ -16940,7 +16940,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Error:"
+          "value": "Erro:"
         }
       ],
       "type": 8,
@@ -16948,7 +16948,7 @@
     },
     {
       "type": 0,
-      "value": " Agreement "
+      "value": " O contrato "
     },
     {
       "type": 1,
@@ -16956,7 +16956,7 @@
     },
     {
       "type": 0,
-      "value": " was not updated: "
+      "value": " não foi atualizado: "
     },
     {
       "type": 1,
@@ -21854,6 +21854,22 @@
       "value": "rastreia aquisições orientadas pela demanda para"
     }
   ],
+  "ui-agreements.remoteKb.actions.viewInLocalKb": [
+    {
+      "type": 0,
+      "value": "Ver título na Base de Conhecimento local"
+    }
+  ],
+  "ui-agreements.remoteKb.actions.viewInRemoteKb": [
+    {
+      "type": 0,
+      "value": "Ver título em "
+    },
+    {
+      "type": 1,
+      "value": "remoteKbName"
+    }
+  ],
   "ui-agreements.remoteKb.altNames": [
     {
       "type": 0,
@@ -21875,7 +21891,7 @@
   "ui-agreements.remoteKb.eresourceAgreements": [
     {
       "type": 0,
-      "value": "Agreements for this e-resource"
+      "value": "Contratos para este recurso eletrônico"
     }
   ],
   "ui-agreements.remoteKb.extendedTitleInformation": [
@@ -22009,7 +22025,7 @@
   "ui-agreements.remoteKb.packageTitles": [
     {
       "type": 0,
-      "value": "Package titles"
+      "value": "Títulos de pacotes"
     }
   ],
   "ui-agreements.remoteKb.publicationDates": [
@@ -22051,7 +22067,7 @@
   "ui-agreements.remoteKb.remoteTitleNotFound": [
     {
       "type": 0,
-      "value": "Title not currently present in Local KB. To add the title, synchronise one of the packages listed in the Packages accordion"
+      "value": "Título não presente atualmente na Base de Conhecimento Local. Para adicionar o título, sincronize um dos pacotes listados na opção Pacotes"
     }
   ],
   "ui-agreements.remoteKb.scheme": [
@@ -25746,6 +25762,12 @@
       "value": "Inventário - Acervos"
     }
   ],
+  "ui-bulk-edit.list.filters.capabilities.instance": [
+    {
+      "type": 0,
+      "value": "Inventário - instâncias"
+    }
+  ],
   "ui-bulk-edit.list.filters.capabilities.instances": [
     {
       "type": 0,
@@ -25753,6 +25775,12 @@
     }
   ],
   "ui-bulk-edit.list.filters.capabilities.inventory": [
+    {
+      "type": 0,
+      "value": "Inventário - itens"
+    }
+  ],
+  "ui-bulk-edit.list.filters.capabilities.item": [
     {
       "type": 0,
       "value": "Inventário - itens"
@@ -25768,6 +25796,12 @@
     {
       "type": 0,
       "value": "Tipos de registro"
+    }
+  ],
+  "ui-bulk-edit.list.filters.capabilities.user": [
+    {
+      "type": 0,
+      "value": "Usuários"
     }
   ],
   "ui-bulk-edit.list.filters.capabilities.users": [
@@ -51057,13 +51091,13 @@
   "ui-data-import.settings.mappingProfiles.map.holdings.administrativeData.field.formerId": [
     {
       "type": 0,
-      "value": "ID da acervo anteriores"
+      "value": "IDs anteriores do acervo"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.holdings.administrativeData.field.formerId.addLabel": [
     {
       "type": 0,
-      "value": "Adicionar identificador da acervo anteriores"
+      "value": "Adicionar identificador do acervo anteriores"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.holdings.administrativeData.field.formerId.legend": [
@@ -51081,7 +51115,7 @@
   "ui-data-import.settings.mappingProfiles.map.holdings.administrativeData.field.hrid": [
     {
       "type": 0,
-      "value": "HRID da acervo"
+      "value": "HRID do acervo"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.holdings.administrativeData.field.id": [
@@ -51225,7 +51259,7 @@
   "ui-data-import.settings.mappingProfiles.map.instance.administrationData.field.statusId": [
     {
       "type": 0,
-      "value": "Termo do status da instância"
+      "value": "Status da instância"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.instance.childInstances.field.instanceRelationshipTypeId": [
@@ -54641,7 +54675,7 @@
   "ui-data-import.settings.matchProfiles.holdingsDetails": [
     {
       "type": 0,
-      "value": "Detalhes da acervo"
+      "value": "Detalhes do acervo"
     }
   ],
   "ui-data-import.settings.matchProfiles.holdingsNotes": [
@@ -75876,13 +75910,13 @@
   "ui-inventory.additionalHoldingsCallNumbers": [
     {
       "type": 0,
-      "value": "Additional holdings call numbers"
+      "value": "Números de chamada de acervos adicionais"
     }
   ],
   "ui-inventory.additionalItemCallNumbers": [
     {
       "type": 0,
-      "value": "Additional item call numbers"
+      "value": "Números de chamada de itens adicionais"
     }
   ],
   "ui-inventory.adminData": [
@@ -81271,13 +81305,13 @@
   "ui-inventory.primaryHoldingsCallNumber": [
     {
       "type": 0,
-      "value": "Primary holdings call number"
+      "value": "Número de chamada dos acervos primários"
     }
   ],
   "ui-inventory.primaryItemCallNumber": [
     {
       "type": 0,
-      "value": "Primary item call number"
+      "value": "Número de chamada do item primário"
     }
   ],
   "ui-inventory.print": [
@@ -91860,7 +91894,7 @@
   "ui-lists.list.modal.pane-sub": [
     {
       "type": 0,
-      "value": "List name: "
+      "value": "Nome da lista: "
     },
     {
       "type": 1,
@@ -92027,12 +92061,39 @@
   ],
   "ui-lists.mainPane.subTitle": [
     {
-      "type": 1,
+      "offset": 0,
+      "options": {
+        "=0": {
+          "value": [
+            {
+              "type": 0,
+              "value": " Nenhum registro encontrado "
+            }
+          ]
+        },
+        "=1": {
+          "value": [
+            {
+              "type": 0,
+              "value": " 1 registro encontrado "
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " registros encontrados "
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
       "value": "count"
-    },
-    {
-      "type": 0,
-      "value": " registros encontrados"
     }
   ],
   "ui-lists.mainPane.title": [
@@ -92216,7 +92277,7 @@
     },
     {
       "type": 0,
-      "value": " (built-in)"
+      "value": " (integrado)"
     }
   ],
   "ui-lists.record-types.label.deduplication.custom.no-built-in": [
@@ -92258,7 +92319,7 @@
     },
     {
       "type": 0,
-      "value": " (custom)"
+      "value": " (personalizado)"
     },
     {
       "offset": 0,
@@ -116267,7 +116328,7 @@
   "ui-plugin-query-builder.modal.entityType": [
     {
       "type": 0,
-      "value": "Record type:"
+      "value": "Tipo de registro:"
     }
   ],
   "ui-plugin-query-builder.modal.preview.countingInProgress": [

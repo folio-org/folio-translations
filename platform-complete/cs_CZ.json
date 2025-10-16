@@ -9961,7 +9961,7 @@
   "stripes-erm-components.accesscontrol.removeAcqUnit": [
     {
       "type": 0,
-      "value": "Remove \""
+      "value": "Odebrat „"
     },
     {
       "type": 1,
@@ -9969,7 +9969,7 @@
     },
     {
       "type": 0,
-      "value": "\""
+      "value": "“"
     }
   ],
   "stripes-erm-components.accesscontrol.restrictions": [
@@ -21933,6 +21933,22 @@
       "value": "sleduje poptávkou řízené akvizice pro"
     }
   ],
+  "ui-agreements.remoteKb.actions.viewInLocalKb": [
+    {
+      "type": 0,
+      "value": "View title in local KB"
+    }
+  ],
+  "ui-agreements.remoteKb.actions.viewInRemoteKb": [
+    {
+      "type": 0,
+      "value": "View title in "
+    },
+    {
+      "type": 1,
+      "value": "remoteKbName"
+    }
+  ],
   "ui-agreements.remoteKb.altNames": [
     {
       "type": 0,
@@ -21954,7 +21970,7 @@
   "ui-agreements.remoteKb.eresourceAgreements": [
     {
       "type": 0,
-      "value": "Agreements for this e-resource"
+      "value": "Smlouvy pro tento e-zdroj"
     }
   ],
   "ui-agreements.remoteKb.extendedTitleInformation": [
@@ -25813,6 +25829,12 @@
       "value": "Katalog - holdingy"
     }
   ],
+  "ui-bulk-edit.list.filters.capabilities.instance": [
+    {
+      "type": 0,
+      "value": "Inventory - instances"
+    }
+  ],
   "ui-bulk-edit.list.filters.capabilities.instances": [
     {
       "type": 0,
@@ -25825,6 +25847,12 @@
       "value": "Katalog - jednotky"
     }
   ],
+  "ui-bulk-edit.list.filters.capabilities.item": [
+    {
+      "type": 0,
+      "value": "Inventory - items"
+    }
+  ],
   "ui-bulk-edit.list.filters.capabilities.items": [
     {
       "type": 0,
@@ -25835,6 +25863,12 @@
     {
       "type": 0,
       "value": "Typy záznamů"
+    }
+  ],
+  "ui-bulk-edit.list.filters.capabilities.user": [
+    {
+      "type": 0,
+      "value": "Users"
     }
   ],
   "ui-bulk-edit.list.filters.capabilities.users": [
@@ -27968,7 +28002,7 @@
   "ui-bulk-edit.uploaderSubTitle.item.ACCESSION_NUMBER": [
     {
       "type": 0,
-      "value": "Vybrat soubor s přístupovými čísly jednotky."
+      "value": "Vybrat soubor s přírůstkovými čísly jednotky."
     }
   ],
   "ui-bulk-edit.uploaderSubTitle.item.BARCODE": [
@@ -37375,7 +37409,7 @@
   "ui-circulation.settings.titleLevelRequests.excludeTenants": [
     {
       "type": 0,
-      "value": "Exclude tenants"
+      "value": "Vyloučení nájemců"
     }
   ],
   "ui-circulation.settings.titleLevelRequests.expirationNotice": [
@@ -52490,13 +52524,13 @@
   "ui-data-import.settings.mappingProfiles.map.order.itemDetails.field.productId": [
     {
       "type": 0,
-      "value": "ID produktu"
+      "value": "Produkt (ID)"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.order.itemDetails.field.productIdType": [
     {
       "type": 0,
-      "value": "Typ ID produktu"
+      "value": "Typ produktu (ID)"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.order.itemDetails.field.productIdentifiers.addLabel": [
@@ -52664,13 +52698,13 @@
   "ui-data-import.settings.mappingProfiles.map.order.orderDetails.productIdentifiers.productId": [
     {
       "type": 0,
-      "value": "ID produktu"
+      "value": "Produkt (ID)"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.order.orderDetails.productIdentifiers.productIdType": [
     {
       "type": 0,
-      "value": "Typ ID produktu"
+      "value": "Typ produktu (ID)"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.order.orderDetails.productIdentifiers.qualifier": [
@@ -54752,13 +54786,13 @@
   "ui-data-import.settings.matchProfiles.productId": [
     {
       "type": 0,
-      "value": "ID produktu"
+      "value": "Produkt (ID)"
     }
   ],
   "ui-data-import.settings.matchProfiles.productIdType": [
     {
       "type": 0,
-      "value": "Typ ID produktu"
+      "value": "Typ produktu (ID)"
     }
   ],
   "ui-data-import.settings.matchProfiles.prorate": [
@@ -71150,13 +71184,13 @@
   "ui-gobi-settings.order.mappings.field.productId": [
     {
       "type": 0,
-      "value": "ID produktu"
+      "value": "Produkt (ID)"
     }
   ],
   "ui-gobi-settings.order.mappings.field.productIdType": [
     {
       "type": 0,
-      "value": "Typ ID produktu"
+      "value": "Typ produktu (ID)"
     }
   ],
   "ui-gobi-settings.order.mappings.field.productQualifier": [
@@ -71420,7 +71454,7 @@
   "ui-gobi-settings.order.mappings.translator.lookupFundId": [
     {
       "type": 0,
-      "value": "Vyhledat UUID prostředků"
+      "value": "Vyhledat fond (UUID)"
     }
   ],
   "ui-gobi-settings.order.mappings.translator.lookupLinkedPackage": [
@@ -75563,13 +75597,13 @@
   "ui-inventory.additionalHoldingsCallNumbers": [
     {
       "type": 0,
-      "value": "Additional holdings call numbers"
+      "value": "Další signatury holdingu"
     }
   ],
   "ui-inventory.additionalItemCallNumbers": [
     {
       "type": 0,
-      "value": "Additional item call numbers"
+      "value": "Další signatury jednotky"
     }
   ],
   "ui-inventory.adminData": [
@@ -80208,7 +80242,7 @@
   "ui-inventory.numberGenerator.generateAccessionAndCallNumber": [
     {
       "type": 0,
-      "value": "Vygenerovat signatury a přístupové čísla"
+      "value": "Vygenerovat signatury a přírůstkové čísla"
     }
   ],
   "ui-inventory.numberGenerator.generateAccessionAndCallNumberWarning": [
@@ -80220,7 +80254,7 @@
   "ui-inventory.numberGenerator.generateAccessionNumber": [
     {
       "type": 0,
-      "value": "Vygenerovat přístupové číslo"
+      "value": "Vygenerovat přírůstkové číslo"
     }
   ],
   "ui-inventory.numberGenerator.generateBarcode": [
@@ -80884,13 +80918,13 @@
   "ui-inventory.primaryHoldingsCallNumber": [
     {
       "type": 0,
-      "value": "Primary holdings call number"
+      "value": "Primární signatura holdingu"
     }
   ],
   "ui-inventory.primaryItemCallNumber": [
     {
       "type": 0,
-      "value": "Primary item call number"
+      "value": "Primární signatura jednotky"
     }
   ],
   "ui-inventory.print": [
@@ -102090,13 +102124,13 @@
   "ui-orders.itemDetails.productId": [
     {
       "type": 0,
-      "value": "ID produktu"
+      "value": "Produkt (ID)"
     }
   ],
   "ui-orders.itemDetails.productIdType": [
     {
       "type": 0,
-      "value": "Typ ID produktu"
+      "value": "Typ produktu (ID)"
     }
   ],
   "ui-orders.itemDetails.productIds": [
@@ -102536,7 +102570,7 @@
   "ui-orders.lineListing.productId": [
     {
       "type": 0,
-      "value": "ID produktu"
+      "value": "Produkt (ID)"
     }
   ],
   "ui-orders.lineListing.refNumber": [
@@ -103274,7 +103308,7 @@
   "ui-orders.orderLineList.productIds": [
     {
       "type": 0,
-      "value": "ID produktu"
+      "value": "Produkt (ID)"
     }
   ],
   "ui-orders.orderLineList.titleOrPackage": [
@@ -105193,7 +105227,7 @@
   "ui-orders.search.details.productIds": [
     {
       "type": 0,
-      "value": "ID produktu"
+      "value": "Produkt (ID)"
     }
   ],
   "ui-orders.search.donor": [
@@ -119167,7 +119201,7 @@
   "ui-quick-marc.record.fixedField.Mod Rec": [
     {
       "type": 0,
-      "value": "Mod Rec"
+      "value": "Modul Rec"
     }
   ],
   "ui-quick-marc.record.fixedField.Mod Rec Est": [
@@ -123434,13 +123468,13 @@
   "ui-receiving.numberGenerator.accessionAndCallNumberSequence": [
     {
       "type": 0,
-      "value": "Sekvence přístupových čísel a signatur"
+      "value": "Sekvence přírůstkových čísel a signatur"
     }
   ],
   "ui-receiving.numberGenerator.accessionNumberSequence": [
     {
       "type": 0,
-      "value": "Sekvence přístupových čísel"
+      "value": "Sekvence přírůstkových čísel"
     }
   ],
   "ui-receiving.numberGenerator.barcodeSequence": [
@@ -124290,13 +124324,13 @@
   "ui-receiving.piece.sequence": [
     {
       "type": 0,
-      "value": "Sequence"
+      "value": "Pořadí"
     }
   ],
   "ui-receiving.piece.sequence.scope": [
     {
       "type": 0,
-      "value": "of "
+      "value": "z "
     },
     {
       "type": 1,
@@ -124862,13 +124896,13 @@
   "ui-receiving.title.productIds.productId": [
     {
       "type": 0,
-      "value": "ID produktu"
+      "value": "Produkt (ID)"
     }
   ],
   "ui-receiving.title.productIds.productIdType": [
     {
       "type": 0,
-      "value": "Typ ID produktu"
+      "value": "Typ produktu (ID)"
     }
   ],
   "ui-receiving.title.productIds.qualifier": [
@@ -125054,7 +125088,7 @@
   "ui-receiving.validation.numberRange": [
     {
       "type": 0,
-      "value": "Please enter a number between "
+      "value": "Zadejte prosím číslo mezi "
     },
     {
       "type": 1,
@@ -125062,7 +125096,7 @@
     },
     {
       "type": 0,
-      "value": " and "
+      "value": " a "
     },
     {
       "type": 1,
@@ -137821,7 +137855,7 @@
   "ui-users.data.loanActionMap.heldForUseAtLocation": [
     {
       "type": 0,
-      "value": "Held for use at location"
+      "value": "Drženo pro použití na místě"
     }
   ],
   "ui-users.data.loanActionMap.holdRequested": [
@@ -137857,7 +137891,7 @@
   "ui-users.data.loanActionMap.pickedUpForUseAtLocation": [
     {
       "type": 0,
-      "value": "Picked up for use at location"
+      "value": "Vyzvednuto k použití na místě"
     }
   ],
   "ui-users.data.loanActionMap.recallRequested": [

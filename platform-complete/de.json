@@ -9965,7 +9965,7 @@
   "stripes-erm-components.accesscontrol.removeAcqUnit": [
     {
       "type": 0,
-      "value": "Remove \""
+      "value": "\""
     },
     {
       "type": 1,
@@ -9973,7 +9973,7 @@
     },
     {
       "type": 0,
-      "value": "\""
+      "value": "\" entfernen"
     }
   ],
   "stripes-erm-components.accesscontrol.restrictions": [
@@ -22052,6 +22052,22 @@
       "value": "erfasst Demand-Driven-Acquisition für"
     }
   ],
+  "ui-agreements.remoteKb.actions.viewInLocalKb": [
+    {
+      "type": 0,
+      "value": "View title in local KB"
+    }
+  ],
+  "ui-agreements.remoteKb.actions.viewInRemoteKb": [
+    {
+      "type": 0,
+      "value": "View title in "
+    },
+    {
+      "type": 1,
+      "value": "remoteKbName"
+    }
+  ],
   "ui-agreements.remoteKb.altNames": [
     {
       "type": 0,
@@ -25909,6 +25925,12 @@
       "value": "Katalog – Bestände"
     }
   ],
+  "ui-bulk-edit.list.filters.capabilities.instance": [
+    {
+      "type": 0,
+      "value": "Inventory - instances"
+    }
+  ],
   "ui-bulk-edit.list.filters.capabilities.instances": [
     {
       "type": 0,
@@ -25921,6 +25943,12 @@
       "value": "Katalog - Exemplare"
     }
   ],
+  "ui-bulk-edit.list.filters.capabilities.item": [
+    {
+      "type": 0,
+      "value": "Inventory - items"
+    }
+  ],
   "ui-bulk-edit.list.filters.capabilities.items": [
     {
       "type": 0,
@@ -25931,6 +25959,12 @@
     {
       "type": 0,
       "value": "Datensatztypen"
+    }
+  ],
+  "ui-bulk-edit.list.filters.capabilities.user": [
+    {
+      "type": 0,
+      "value": "Users"
     }
   ],
   "ui-bulk-edit.list.filters.capabilities.users": [
@@ -37475,7 +37509,7 @@
   "ui-circulation.settings.titleLevelRequests.excludeTenants": [
     {
       "type": 0,
-      "value": "Exclude tenants"
+      "value": "Mandanten ausschließen"
     }
   ],
   "ui-circulation.settings.titleLevelRequests.expirationNotice": [
@@ -91612,12 +91646,39 @@
   ],
   "ui-lists.mainPane.subTitle": [
     {
-      "type": 1,
+      "offset": 0,
+      "options": {
+        "=0": {
+          "value": [
+            {
+              "type": 0,
+              "value": "No records found"
+            }
+          ]
+        },
+        "=1": {
+          "value": [
+            {
+              "type": 0,
+              "value": "1 record found"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " records found"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
       "value": "count"
-    },
-    {
-      "type": 0,
-      "value": " records found"
     }
   ],
   "ui-lists.mainPane.title": [
