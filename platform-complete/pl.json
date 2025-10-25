@@ -31503,6 +31503,55 @@
       "value": " oczekuje na odbiór w tym punkcie."
     }
   ],
+  "ui-checkout.awaitingPickupMessageHeld": [
+    {
+      "type": 0,
+      "value": "Borrower has "
+    },
+    {
+      "children": [
+        {
+          "style": null,
+          "type": 2,
+          "value": "count"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " "
+    },
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "item"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "items"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": " held for use at location at this service point."
+    }
+  ],
   "ui-checkout.barcode": [
     {
       "type": 0,
@@ -50668,6 +50717,12 @@
     {
       "type": 0,
       "value": "Wybierz mapowanie pola wyboru"
+    }
+  ],
+  "ui-data-import.settings.mappingProfiles.map.administrativeData.field.setForDeletion": [
+    {
+      "type": 0,
+      "value": "Set for deletion"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.administrativeData.field.staffSuppress": [
