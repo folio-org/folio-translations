@@ -22811,13 +22811,13 @@
   "ui-bulk-edit.ariaLabel.createInstanceMarcProfile": [
     {
       "type": 0,
-      "value": "Create Instance MARC profile"
+      "value": "Instance MARC profiel Aanmaken"
     }
   ],
   "ui-bulk-edit.ariaLabel.createInstanceProfile": [
     {
       "type": 0,
-      "value": "Create Instance FOLIO profile"
+      "value": "Instance FOLIO profiel Aanmaken"
     }
   ],
   "ui-bulk-edit.ariaLabel.date": [
@@ -24873,7 +24873,7 @@
   "ui-bulk-edit.list.filters.capabilities.instance": [
     {
       "type": 0,
-      "value": "Inventory - instances"
+      "value": "Collectiebezit - instances"
     }
   ],
   "ui-bulk-edit.list.filters.capabilities.instances": [
@@ -24891,7 +24891,7 @@
   "ui-bulk-edit.list.filters.capabilities.item": [
     {
       "type": 0,
-      "value": "Inventory - items"
+      "value": "Collectiebezit - items"
     }
   ],
   "ui-bulk-edit.list.filters.capabilities.items": [
@@ -24909,7 +24909,7 @@
   "ui-bulk-edit.list.filters.capabilities.user": [
     {
       "type": 0,
-      "value": "Users"
+      "value": "Gebruikers"
     }
   ],
   "ui-bulk-edit.list.filters.capabilities.users": [
@@ -25391,13 +25391,13 @@
   "ui-bulk-edit.logs.actions.linkToCommittedRecordsCsvFile": [
     {
       "type": 0,
-      "value": "Bestand met bijgewerkte records"
+      "value": "Bestand met bijgewerkte records (CSV)"
     }
   ],
   "ui-bulk-edit.logs.actions.linkToCommittedRecordsCsvFile.QUERY": [
     {
       "type": 0,
-      "value": "Bestand met bijgewerkte records"
+      "value": "Bestand met bijgewerkte records (CSV)"
     }
   ],
   "ui-bulk-edit.logs.actions.linkToCommittedRecordsErrorsCsvFile": [
@@ -25451,25 +25451,25 @@
   "ui-bulk-edit.logs.actions.linkToModifiedRecordsCsvFile": [
     {
       "type": 0,
-      "value": "Bestand met preview van voorgestelde wijzigingen"
+      "value": "Bestand met preview van voorgestelde wijzigingen (CSV)"
     }
   ],
   "ui-bulk-edit.logs.actions.linkToModifiedRecordsCsvFile.QUERY": [
     {
       "type": 0,
-      "value": "Bestand met preview van voorgestelde wijzigingen"
+      "value": "Bestand met preview van voorgestelde wijzigingen (CSV)"
     }
   ],
   "ui-bulk-edit.logs.actions.linkToModifiedRecordsMarcFile": [
     {
       "type": 0,
-      "value": "Bestand met preview van voorgestelde wijzigingen"
+      "value": "Bestand met preview van voorgestelde wijzigingen (MARC)"
     }
   ],
   "ui-bulk-edit.logs.actions.linkToModifiedRecordsMarcFile.QUERY": [
     {
       "type": 0,
-      "value": "Bestand met preview van voorgestelde wijzigingen"
+      "value": "Bestand met preview van voorgestelde wijzigingen (MARC)"
     }
   ],
   "ui-bulk-edit.logs.actions.linkToTriggeringCsvFile": [
@@ -32483,13 +32483,13 @@
   "ui-circulation.settings.consortiumTlr.notification": [
     {
       "type": 0,
-      "value": "Consortium titel niveau aanvragen is uitgeschakeld. De instelling wordt actief nadat het selectievakje \"Sta titel niveau aanvragen toe\" is "
+      "value": "Consortium titel niveau aanvragen (TLR) is uitgeschakeld. De instelling wordt actief nadat het selectievakje \"Sta titel niveau aanvragen toe\" is "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "aangevinkt en opgeslagen"
+          "value": "checked and saved"
         }
       ],
       "type": 8,
@@ -32497,7 +32497,7 @@
     },
     {
       "type": 0,
-      "value": " in de titel niveau aanvragen instelling \"(Instellingen > Circulatie > Algemeen > Titel niveau aanvragen)\"."
+      "value": " in de titel niveau aanvragen instelling \"(Instellingen > Circulatie > Algemeen > Titel niveau aanvragen (TRL))\"."
     }
   ],
   "ui-circulation.settings.fDDS.deleteDisabled": [
@@ -35067,7 +35067,7 @@
   "ui-circulation.settings.title.consortiumTLR": [
     {
       "type": 0,
-      "value": "Consortium titel niveau aanvragen"
+      "value": "Consortium titel niveau aanvragen (TRL)"
     }
   ],
   "ui-circulation.settings.title.editRecord": [
@@ -35423,7 +35423,7 @@
   "ui-circulation.settings.titleLevelRequests.excludeTenants": [
     {
       "type": 0,
-      "value": "Exclude tenants"
+      "value": "Huurders uitsluiten"
     }
   ],
   "ui-circulation.settings.titleLevelRequests.expirationNotice": [
@@ -45838,7 +45838,7 @@
   "ui-data-import.settings.mappingProfiles.map.instance.acquisitionsData.field.purchaseOrderLineNumber": [
     {
       "type": 0,
-      "value": "PO-regel"
+      "value": "PO-regel (POL)"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.instance.acquisitionsData.field.vendorReferenceNumber": [
@@ -46198,7 +46198,7 @@
   "ui-data-import.settings.mappingProfiles.map.instance.relationship.section": [
     {
       "type": 0,
-      "value": "Instancerelatie (analytisch en verbonden aan)"
+      "value": "Instance-relatie"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.instance.subheader": [
@@ -77114,7 +77114,7 @@
   "ui-invoice.errors.cannotConvertAmountInvalidCurrency": [
     {
       "type": 0,
-      "value": "The selected currency cannot be converted. Please configure an exchange rate provider that supports this currency."
+      "value": "De geselecteerde valuta kan niet worden geconverteerd. Configureer een Leverancier van wisselkoersen die deze valuta ondersteunt."
     }
   ],
   "ui-invoice.errors.cantLoadAdjustment": [
@@ -77365,6 +77365,12 @@
     {
       "type": 0,
       "value": "Inactief"
+    }
+  ],
+  "ui-invoice.invoice.accountNumber": [
+    {
+      "type": 0,
+      "value": "Account number"
     }
   ],
   "ui-invoice.invoice.accountingCode": [
@@ -80275,6 +80281,78 @@
     {
       "type": 0,
       "value": "Leveranciersinformatie"
+    }
+  ],
+  "ui-invoice.versionHistory.label.adjustments.adjustmentId": [
+    {
+      "type": 0,
+      "value": "Adjustment ID"
+    }
+  ],
+  "ui-invoice.versionHistory.label.adjustments.description": [
+    {
+      "type": 0,
+      "value": "Adjustment description"
+    }
+  ],
+  "ui-invoice.versionHistory.label.adjustments.exportToAccounting": [
+    {
+      "type": 0,
+      "value": "Adjustment export to accounting"
+    }
+  ],
+  "ui-invoice.versionHistory.label.adjustments.prorate": [
+    {
+      "type": 0,
+      "value": "Adjustment pro rate"
+    }
+  ],
+  "ui-invoice.versionHistory.label.adjustments.relationToTotal": [
+    {
+      "type": 0,
+      "value": "Adjustment relation to total"
+    }
+  ],
+  "ui-invoice.versionHistory.label.adjustments.type": [
+    {
+      "type": 0,
+      "value": "Adjustment type"
+    }
+  ],
+  "ui-invoice.versionHistory.label.adjustments.value": [
+    {
+      "type": 0,
+      "value": "Adjustment value"
+    }
+  ],
+  "ui-invoice.versionHistory.label.fundDistributions.code": [
+    {
+      "type": 0,
+      "value": "Fund distribution code"
+    }
+  ],
+  "ui-invoice.versionHistory.label.fundDistributions.distributionType": [
+    {
+      "type": 0,
+      "value": "Fund distribution type"
+    }
+  ],
+  "ui-invoice.versionHistory.label.fundDistributions.expenseClassId": [
+    {
+      "type": 0,
+      "value": "Fund distribution expense class"
+    }
+  ],
+  "ui-invoice.versionHistory.label.fundDistributions.fundId": [
+    {
+      "type": 0,
+      "value": "Fund distribution ID"
+    }
+  ],
+  "ui-invoice.versionHistory.label.fundDistributions.value": [
+    {
+      "type": 0,
+      "value": "Fund distribution value"
     }
   ],
   "ui-invoice.voucher.paneSubTitle": [
@@ -84751,7 +84829,7 @@
   "ui-lists.list.modal.pane-sub": [
     {
       "type": 0,
-      "value": "List name: "
+      "value": "Naam lijst: "
     },
     {
       "type": 1,
@@ -84918,12 +84996,39 @@
   ],
   "ui-lists.mainPane.subTitle": [
     {
-      "type": 1,
+      "offset": 0,
+      "options": {
+        "=0": {
+          "value": [
+            {
+              "type": 0,
+              "value": "Geen records gevonden"
+            }
+          ]
+        },
+        "=1": {
+          "value": [
+            {
+              "type": 0,
+              "value": "1 record gevonden"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " records gevonden"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
       "value": "count"
-    },
-    {
-      "type": 0,
-      "value": " records gevonden"
     }
   ],
   "ui-lists.mainPane.title": [
@@ -85101,7 +85206,7 @@
     },
     {
       "type": 0,
-      "value": " (built-in)"
+      "value": " (ingebouwd)"
     }
   ],
   "ui-lists.record-types.label.deduplication.custom.no-built-in": [
@@ -85143,7 +85248,7 @@
     },
     {
       "type": 0,
-      "value": " (custom)"
+      "value": " (Maatwerk)"
     },
     {
       "offset": 0,
@@ -89577,7 +89682,7 @@
   "ui-oa.charge.paymentMethod.eft": [
     {
       "type": 0,
-      "value": "Electronische overboeking (EFT)"
+      "value": "EFT"
     }
   ],
   "ui-oa.charge.paymentMethod.internalTransfer": [
@@ -93915,7 +94020,7 @@
   "ui-orders.errors.cannotConvertAmountInvalidCurrency": [
     {
       "type": 0,
-      "value": "The selected currency cannot be converted. Please configure an exchange rate provider that supports this currency."
+      "value": "De geselecteerde valuta kan niet worden geconverteerd. Configureer een Leverancier van wisselkoersen die deze valuta ondersteunt."
     }
   ],
   "ui-orders.errors.clone.error": [
@@ -96323,7 +96428,7 @@
   "ui-orders.orderSummary.totalEstimatedPrice.exchanged": [
     {
       "type": 0,
-      "value": "Total estimated price (Exchanged)"
+      "value": "Geschatte prijs Totaal (Omgewisseld)"
     }
   ],
   "ui-orders.orderSummary.totalExpended": [
@@ -98110,7 +98215,7 @@
   "ui-orders.search.donor": [
     {
       "type": 0,
-      "value": "Donateur"
+      "value": "Donor (verouderd)"
     }
   ],
   "ui-orders.search.keyword": [
@@ -107632,7 +107737,7 @@
   "ui-plugin-find-user.filter.userType": [
     {
       "type": 0,
-      "value": "User type"
+      "value": "Type gebruiker"
     }
   ],
   "ui-plugin-find-user.inactive": [
@@ -107720,13 +107825,13 @@
   "ui-plugin-find-user.shadow": [
     {
       "type": 0,
-      "value": "Shadow"
+      "value": "Schaduw"
     }
   ],
   "ui-plugin-find-user.staff": [
     {
       "type": 0,
-      "value": "Staff"
+      "value": "Medewerkers"
     }
   ],
   "ui-plugin-find-user.status": [
@@ -107738,7 +107843,7 @@
   "ui-plugin-find-user.system": [
     {
       "type": 0,
-      "value": "System"
+      "value": "Systeem"
     }
   ],
   "ui-plugin-find-user.unassigned": [
@@ -107810,13 +107915,13 @@
   "ui-plugin-query-builder.control.search.button.donor_organization": [
     {
       "type": 0,
-      "value": "Donor organization look-up"
+      "value": "Donor Organisatie opzoeken"
     }
   ],
   "ui-plugin-query-builder.control.search.button.organization": [
     {
       "type": 0,
-      "value": "Organization look-up"
+      "value": "Organisatie opzoeken"
     }
   ],
   "ui-plugin-query-builder.control.search.placeholder": [
@@ -107840,13 +107945,13 @@
   "ui-plugin-query-builder.control.value.placeholder.donor_organization": [
     {
       "type": 0,
-      "value": "Use the “Donor organization look-up” below to add values"
+      "value": "Gebruik de \"Donor Organisatie opzoeken\" hieronder om waarden toe te voegen"
     }
   ],
   "ui-plugin-query-builder.control.value.placeholder.organization": [
     {
       "type": 0,
-      "value": "Use the “Organization look-up” below to add values"
+      "value": "Gebruik de \"Organisatie opzoeken\" hieronder om waarden toe te voegen"
     }
   ],
   "ui-plugin-query-builder.control.value.placeholder.organizations": [
@@ -107900,7 +108005,7 @@
   "ui-plugin-query-builder.modal.entityType": [
     {
       "type": 0,
-      "value": "Record type:"
+      "value": "Type record:"
     }
   ],
   "ui-plugin-query-builder.modal.preview.countingInProgress": [
@@ -108072,13 +108177,13 @@
   "ui-plugin-query-builder.noOptionsAvailable.donor_organization": [
     {
       "type": 0,
-      "value": "No matches! Use the “Donor organization look-up” below to add organizations"
+      "value": "Geen overeenkomsten! Gebruik de \"Donor organisatie opzoeken\" hieronder om organisaties toe te voegen"
     }
   ],
   "ui-plugin-query-builder.noOptionsAvailable.organization": [
     {
       "type": 0,
-      "value": "No matches! Use the “Organization look-up” below to add organizations"
+      "value": "Geen overeenkomsten! Gebruik de \"Organization look-up\" hieronder om Organisaties toe te voegen"
     }
   ],
   "ui-plugin-query-builder.options.false": [
@@ -115856,10 +115961,14 @@
   "ui-receiving.piece.actions.savePiece.changeSequenceNumber.success": [
     {
       "type": 0,
-      "value": "The sequence of the piece was successfully changed from "
+      "value": "De volgorde van het Stuk is succesvol veranderd van "
     },
     {
       "children": [
+        {
+          "type": 0,
+          "value": "."
+        },
         {
           "type": 1,
           "value": "oldSequenceNumber"
@@ -115870,7 +115979,7 @@
     },
     {
       "type": 0,
-      "value": " to "
+      "value": " naar "
     },
     {
       "children": [
@@ -116042,7 +116151,7 @@
   "ui-receiving.piece.columns.location": [
     {
       "type": 0,
-      "value": "Holdings location"
+      "value": "Locatie Holdings"
     }
   ],
   "ui-receiving.piece.comment": [
@@ -116354,13 +116463,13 @@
   "ui-receiving.piece.sequence": [
     {
       "type": 0,
-      "value": "Sequence"
+      "value": "Volgorde"
     }
   ],
   "ui-receiving.piece.sequence.scope": [
     {
       "type": 0,
-      "value": "of "
+      "value": "van "
     },
     {
       "type": 1,
@@ -117110,7 +117219,7 @@
   "ui-receiving.validation.numberRange": [
     {
       "type": 0,
-      "value": "Please enter a number between "
+      "value": "Voer een getal in tussen "
     },
     {
       "type": 1,
@@ -117118,7 +117227,7 @@
     },
     {
       "type": 0,
-      "value": " and "
+      "value": " en "
     },
     {
       "type": 1,
@@ -129292,7 +129401,7 @@
   "ui-users.data.loanActionMap.heldForUseAtLocation": [
     {
       "type": 0,
-      "value": "Held for use at location"
+      "value": "Gereserveerd voor gebruik op locatie"
     }
   ],
   "ui-users.data.loanActionMap.holdRequested": [
@@ -129328,7 +129437,7 @@
   "ui-users.data.loanActionMap.pickedUpForUseAtLocation": [
     {
       "type": 0,
-      "value": "Picked up for use at location"
+      "value": "Afgehaald voor gebruik op Locatie"
     }
   ],
   "ui-users.data.loanActionMap.recallRequested": [
@@ -133735,13 +133844,13 @@
   "ui-users.permission.settings.departments.view": [
     {
       "type": 0,
-      "value": "Gebruikers: Afdelingen bekijken"
+      "value": "Instellingen (gebruikers): kan afdelingen bekijken"
     }
   ],
   "ui-users.permission.settings.feefine": [
     {
       "type": 0,
-      "value": "Gebruikers: Kan instellingen voor kosten/boetes aanmaken, bewerken en verwijderen"
+      "value": "Instellingen (gebruikers): Kan instellingen voor kosten/boetes aanmaken, bewerken en verwijderen"
     }
   ],
   "ui-users.permission.settings.feefines.view": [
@@ -133783,7 +133892,7 @@
   "ui-users.permission.settings.number-generator-options.all": [
     {
       "type": 0,
-      "value": "Gebruikers: Kan nummergeneratoropties aanmaken, bewerken en bekijken"
+      "value": "Instellingen (gebruikers): kan opties voor nummergenerator maken, bewerken en bekijken"
     }
   ],
   "ui-users.permission.settings.owners.all": [

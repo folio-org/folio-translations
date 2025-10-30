@@ -73806,13 +73806,13 @@
   "ui-inn-reach.remove-hold.callout.connection-problem.post.remove-hold": [
     {
       "type": 0,
-      "value": "There was a problem removing the hold"
+      "value": "移除预约时遇到问题"
     }
   ],
   "ui-inn-reach.remove-hold.callout.success.post.remove-hold": [
     {
       "type": 0,
-      "value": "Hold has been successfully removed"
+      "value": "预约已成功移除"
     }
   ],
   "ui-inn-reach.reports.callout.export-in-progress": [
@@ -76528,7 +76528,7 @@
   "ui-inn-reach.transaction-detail.patron-type.action.remove-hold": [
     {
       "type": 0,
-      "value": "Remove hold"
+      "value": "移除预约"
     }
   ],
   "ui-inn-reach.transaction-detail.patron-type.action.return-item": [
@@ -85762,6 +85762,12 @@
       "value": "未激活"
     }
   ],
+  "ui-invoice.invoice.accountNumber": [
+    {
+      "type": 0,
+      "value": "Account number"
+    }
+  ],
   "ui-invoice.invoice.accountingCode": [
     {
       "type": 0,
@@ -88990,6 +88996,78 @@
     {
       "type": 0,
       "value": "供应商信息"
+    }
+  ],
+  "ui-invoice.versionHistory.label.adjustments.adjustmentId": [
+    {
+      "type": 0,
+      "value": "Adjustment ID"
+    }
+  ],
+  "ui-invoice.versionHistory.label.adjustments.description": [
+    {
+      "type": 0,
+      "value": "Adjustment description"
+    }
+  ],
+  "ui-invoice.versionHistory.label.adjustments.exportToAccounting": [
+    {
+      "type": 0,
+      "value": "Adjustment export to accounting"
+    }
+  ],
+  "ui-invoice.versionHistory.label.adjustments.prorate": [
+    {
+      "type": 0,
+      "value": "Adjustment pro rate"
+    }
+  ],
+  "ui-invoice.versionHistory.label.adjustments.relationToTotal": [
+    {
+      "type": 0,
+      "value": "Adjustment relation to total"
+    }
+  ],
+  "ui-invoice.versionHistory.label.adjustments.type": [
+    {
+      "type": 0,
+      "value": "Adjustment type"
+    }
+  ],
+  "ui-invoice.versionHistory.label.adjustments.value": [
+    {
+      "type": 0,
+      "value": "Adjustment value"
+    }
+  ],
+  "ui-invoice.versionHistory.label.fundDistributions.code": [
+    {
+      "type": 0,
+      "value": "Fund distribution code"
+    }
+  ],
+  "ui-invoice.versionHistory.label.fundDistributions.distributionType": [
+    {
+      "type": 0,
+      "value": "Fund distribution type"
+    }
+  ],
+  "ui-invoice.versionHistory.label.fundDistributions.expenseClassId": [
+    {
+      "type": 0,
+      "value": "Fund distribution expense class"
+    }
+  ],
+  "ui-invoice.versionHistory.label.fundDistributions.fundId": [
+    {
+      "type": 0,
+      "value": "Fund distribution ID"
+    }
+  ],
+  "ui-invoice.versionHistory.label.fundDistributions.value": [
+    {
+      "type": 0,
+      "value": "Fund distribution value"
     }
   ],
   "ui-invoice.voucher.paneSubTitle": [
@@ -118716,7 +118794,7 @@
   "ui-plugin-query-builder.control.search.button.organization": [
     {
       "type": 0,
-      "value": "Organization look-up"
+      "value": "组织查询"
     }
   ],
   "ui-plugin-query-builder.control.search.placeholder": [
@@ -118746,7 +118824,7 @@
   "ui-plugin-query-builder.control.value.placeholder.organization": [
     {
       "type": 0,
-      "value": "Use the “Organization look-up” below to add values"
+      "value": "使用下面的“组织查找”添加值"
     }
   ],
   "ui-plugin-query-builder.control.value.placeholder.organizations": [
@@ -118978,7 +119056,7 @@
   "ui-plugin-query-builder.noOptionsAvailable.organization": [
     {
       "type": 0,
-      "value": "No matches! Use the “Organization look-up” below to add organizations"
+      "value": "没有匹配！使用下方的“组织查找”添加组织"
     }
   ],
   "ui-plugin-query-builder.options.false": [

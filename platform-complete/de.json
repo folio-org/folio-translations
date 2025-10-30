@@ -25952,7 +25952,7 @@
   "ui-bulk-edit.list.filters.capabilities.instance": [
     {
       "type": 0,
-      "value": "Inventory - instances"
+      "value": "Katalog - Instanzen"
     }
   ],
   "ui-bulk-edit.list.filters.capabilities.instances": [
@@ -25970,7 +25970,7 @@
   "ui-bulk-edit.list.filters.capabilities.item": [
     {
       "type": 0,
-      "value": "Inventory - items"
+      "value": "Katalog - Exemplare"
     }
   ],
   "ui-bulk-edit.list.filters.capabilities.items": [
@@ -25988,7 +25988,7 @@
   "ui-bulk-edit.list.filters.capabilities.user": [
     {
       "type": 0,
-      "value": "Users"
+      "value": "Personen"
     }
   ],
   "ui-bulk-edit.list.filters.capabilities.users": [
@@ -26334,7 +26334,7 @@
   "ui-bulk-edit.list.result.emptyMessage": [
     {
       "type": 0,
-      "value": "Select a record type and then a record identifier."
+      "value": "Einen Datensatzidentifikator auswählen"
     }
   ],
   "ui-bulk-edit.list.result.emptyMessage.BARCODE": [
@@ -26454,7 +26454,7 @@
   "ui-bulk-edit.list.result.emptyMessage.item": [
     {
       "type": 0,
-      "value": "Select a record identifier."
+      "value": "Einen Datensatzidentifikator auswählen"
     }
   ],
   "ui-bulk-edit.list.result.emptyMessage.item.ACCESSION_NUMBER": [
@@ -30662,19 +30662,19 @@
   "ui-checkin.forUseAtLocation": [
     {
       "type": 0,
-      "value": "For use at location"
+      "value": "Zur Nutzung am Standort"
     }
   ],
   "ui-checkin.forUseAtLocation.Held": [
     {
       "type": 0,
-      "value": "Keep on hold shelf"
+      "value": "Im Abholregal belassen"
     }
   ],
   "ui-checkin.forUseAtLocation.Returned": [
     {
       "type": 0,
-      "value": "Close loan and return item"
+      "value": "Ausleihe schließen und Exemplar zurückgeben"
     }
   ],
   "ui-checkin.inHouseUse": [
@@ -31549,7 +31549,7 @@
   "ui-checkout.awaitingPickupMessageHeld": [
     {
       "type": 0,
-      "value": "Borrower has "
+      "value": "Entleiher/-in hat "
     },
     {
       "children": [
@@ -31592,7 +31592,7 @@
     },
     {
       "type": 0,
-      "value": " held for use at location at this service point."
+      "value": " zur Nutzung am Standort an dieser Servicestelle bereitliegen."
     }
   ],
   "ui-checkout.barcode": [
@@ -32701,7 +32701,7 @@
   "ui-checkout.missingDataError": [
     {
       "type": 0,
-      "value": "Bitte dieses ausfüllen, um fortzufahren"
+      "value": "Bitte ausfüllen um fortzufahren"
     }
   ],
   "ui-checkout.missingIdentifierError": [
@@ -32803,7 +32803,7 @@
   "ui-checkout.noItemsEntered": [
     {
       "type": 0,
-      "value": "Keine Exemplare wurden eingegeben"
+      "value": "Es wurde noch kein Exemplarbarcode eingegeben"
     }
   ],
   "ui-checkout.note": [
@@ -83828,6 +83828,12 @@
       "value": "Inaktiv"
     }
   ],
+  "ui-invoice.invoice.accountNumber": [
+    {
+      "type": 0,
+      "value": "Account number"
+    }
+  ],
   "ui-invoice.invoice.accountingCode": [
     {
       "type": 0,
@@ -86808,6 +86814,78 @@
     {
       "type": 0,
       "value": "Informationen zum Lieferanten"
+    }
+  ],
+  "ui-invoice.versionHistory.label.adjustments.adjustmentId": [
+    {
+      "type": 0,
+      "value": "Adjustment ID"
+    }
+  ],
+  "ui-invoice.versionHistory.label.adjustments.description": [
+    {
+      "type": 0,
+      "value": "Adjustment description"
+    }
+  ],
+  "ui-invoice.versionHistory.label.adjustments.exportToAccounting": [
+    {
+      "type": 0,
+      "value": "Adjustment export to accounting"
+    }
+  ],
+  "ui-invoice.versionHistory.label.adjustments.prorate": [
+    {
+      "type": 0,
+      "value": "Adjustment pro rate"
+    }
+  ],
+  "ui-invoice.versionHistory.label.adjustments.relationToTotal": [
+    {
+      "type": 0,
+      "value": "Adjustment relation to total"
+    }
+  ],
+  "ui-invoice.versionHistory.label.adjustments.type": [
+    {
+      "type": 0,
+      "value": "Adjustment type"
+    }
+  ],
+  "ui-invoice.versionHistory.label.adjustments.value": [
+    {
+      "type": 0,
+      "value": "Adjustment value"
+    }
+  ],
+  "ui-invoice.versionHistory.label.fundDistributions.code": [
+    {
+      "type": 0,
+      "value": "Fund distribution code"
+    }
+  ],
+  "ui-invoice.versionHistory.label.fundDistributions.distributionType": [
+    {
+      "type": 0,
+      "value": "Fund distribution type"
+    }
+  ],
+  "ui-invoice.versionHistory.label.fundDistributions.expenseClassId": [
+    {
+      "type": 0,
+      "value": "Fund distribution expense class"
+    }
+  ],
+  "ui-invoice.versionHistory.label.fundDistributions.fundId": [
+    {
+      "type": 0,
+      "value": "Fund distribution ID"
+    }
+  ],
+  "ui-invoice.versionHistory.label.fundDistributions.value": [
+    {
+      "type": 0,
+      "value": "Fund distribution value"
     }
   ],
   "ui-invoice.voucher.paneSubTitle": [
@@ -96002,7 +96080,7 @@
   "ui-notes.permission.settings.edit": [
     {
       "type": 0,
-      "value": "Einstellungen (Notizen): Liste der Einstellungsseiten anzeigen"
+      "value": "Einstellungen (Notizen): Einstellungsseiten bearbeiten"
     }
   ],
   "ui-notes.permission.settings.view": [
@@ -106012,7 +106090,7 @@
   "ui-orders.settings.customFields.purchaseOrderLines": [
     {
       "type": 0,
-      "value": "Benutzerdefinierte Felder - Bestellpositionen"
+      "value": "Benutzerdefinierte Felder - Bestellposten"
     }
   ],
   "ui-orders.settings.customFields.purchaseOrders": [
@@ -107194,7 +107272,7 @@
   "ui-orders.unopenOrderModal.message.withPieces": [
     {
       "type": 0,
-      "value": "Diese Bestellung hat mindestens eine Bestellposition mit Inventarisierungsworkflow „Synchronisierte Bestell- und Eingangsmenge“. Bei solchen POLs mit zugehörigen Inventarisierungsdatensätzen werden alle nicht inventarisierten Stücke gelöscht, und alle Bestellexemplare, die sich auf diese Exemplare beziehen, werden ebenfalls aus dem Katalog gelöscht. Bestände, die mit solchen Exemplaren verknüpft sind, und die keine anderen verknüpften Exemplare haben, werden ebenfalls aus dem Katalog gelöscht. Soll das Öffnen der Bestellung wirklich rückgängig gemacht werden?"
+      "value": "Diese Bestellung hat mindestens einen Bestellposten mit Inventarisierungsworkflow „Synchronisierte Bestell- und Eingangsmenge“. Bei solchen POLs mit zugehörigen Inventarisierungsdatensätzen werden alle nicht inventarisierten Stücke gelöscht, und alle Bestellexemplare, die sich auf diese Exemplare beziehen, werden ebenfalls aus dem Katalog gelöscht. Bestände, die mit solchen Exemplaren verknüpft sind, und die keine anderen verknüpften Exemplare haben, werden ebenfalls aus dem Katalog gelöscht. Soll das Öffnen der Bestellung wirklich rückgängig gemacht werden?"
     }
   ],
   "ui-orders.unopenOrderModal.message.withoutPiceses": [
@@ -115768,7 +115846,7 @@
   "ui-plugin-query-builder.control.search.button.organization": [
     {
       "type": 0,
-      "value": "Organization look-up"
+      "value": "Organisationssuche"
     }
   ],
   "ui-plugin-query-builder.control.search.placeholder": [

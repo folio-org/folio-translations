@@ -30519,19 +30519,19 @@
   "ui-checkin.forUseAtLocation": [
     {
       "type": 0,
-      "value": "For use at location"
+      "value": "Para uso no local"
     }
   ],
   "ui-checkin.forUseAtLocation.Held": [
     {
       "type": 0,
-      "value": "Keep on hold shelf"
+      "value": "Manter na prateleira de reserva"
     }
   ],
   "ui-checkin.forUseAtLocation.Returned": [
     {
       "type": 0,
-      "value": "Close loan and return item"
+      "value": "Fechar empréstimo e devolver item"
     }
   ],
   "ui-checkin.inHouseUse": [
@@ -31426,7 +31426,7 @@
   "ui-checkout.awaitingPickupMessageHeld": [
     {
       "type": 0,
-      "value": "Borrower has "
+      "value": "O usuário tem "
     },
     {
       "children": [
@@ -31458,7 +31458,7 @@
           "value": [
             {
               "type": 0,
-              "value": "items"
+              "value": "itens"
             }
           ]
         }
@@ -31469,7 +31469,7 @@
     },
     {
       "type": 0,
-      "value": " held for use at location at this service point."
+      "value": " reservados para uso no local neste ponto de serviço."
     }
   ],
   "ui-checkout.barcode": [
@@ -32790,7 +32790,7 @@
   "ui-checkout.patronLookup": [
     {
       "type": 0,
-      "value": "Procurar usuário"
+      "value": "Consultar usuário"
     }
   ],
   "ui-checkout.permission.all": [
@@ -33617,7 +33617,7 @@
   "ui-circulation-log.patronLookup": [
     {
       "type": 0,
-      "value": "Procurar usuário"
+      "value": "Consultar usuário"
     }
   ],
   "ui-circulation-log.permission.log-event.all": [
@@ -34149,7 +34149,7 @@
   "ui-circulation.settings.checkout.wildcardLookup": [
     {
       "type": 0,
-      "value": "Realizar pesquisa curinga de itens por código de barras em aplicativos de circulação (Empréstimo, Devolução)"
+      "value": "Realizar consulta curinga de itens por código de barras em aplicativos de circulação (Empréstimo, Devolução)"
     }
   ],
   "ui-circulation.settings.checkout.yes": [
@@ -42475,7 +42475,7 @@
   "ui-courses.lookUpUser": [
     {
       "type": 0,
-      "value": "Procurar usuário"
+      "value": "Consultar usuário"
     }
   ],
   "ui-courses.meta.title": [
@@ -44971,7 +44971,7 @@
     },
     {
       "type": 0,
-      "value": " e as acervos e registros de itens desse locatário foram omitidos durante a exportação."
+      "value": " e os acervos e registros de itens desse locatário foram omitidos durante a exportação."
     }
   ],
   "ui-data-export.error.instance.noPermission": [
@@ -51020,7 +51020,7 @@
   "ui-data-import.settings.mappingProfiles.map.administrativeData.field.setForDeletion": [
     {
       "type": 0,
-      "value": "Set for deletion"
+      "value": "Definido para exclusão"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.administrativeData.field.staffSuppress": [
@@ -63512,49 +63512,49 @@
   "ui-erm-usage.counter.upload.error.INVALID_REPORT_CONTENT": [
     {
       "type": 0,
-      "value": "The report content is invalid."
+      "value": "O conteúdo do relatório é inválido."
     }
   ],
   "ui-erm-usage.counter.upload.error.MAXIMUM_FILESIZE_EXCEEDED": [
     {
       "type": 0,
-      "value": "The file size exceeds the maximum allowed size."
+      "value": "O tamanho do arquivo excede o tamanho máximo permitido."
     }
   ],
   "ui-erm-usage.counter.upload.error.MULTIPLE_FILES_NOT_SUPPORTED": [
     {
       "type": 0,
-      "value": "Upload of multiple files is not supported."
+      "value": "Carregar de vários arquivos não é permitido."
     }
   ],
   "ui-erm-usage.counter.upload.error.OTHER": [
     {
       "type": 0,
-      "value": "The report could not be processed."
+      "value": "O relatório não pôde ser processado."
     }
   ],
   "ui-erm-usage.counter.upload.error.REPORTS_ALREADY_PRESENT": [
     {
       "type": 0,
-      "value": "One or more reports already exist for the time period."
+      "value": "Já existem um ou mais relatórios para o período."
     }
   ],
   "ui-erm-usage.counter.upload.error.UNSUPPORTED_FILE_FORMAT": [
     {
       "type": 0,
-      "value": "The file format is not supported."
+      "value": "O formato do arquivo não é compatível."
     }
   ],
   "ui-erm-usage.counter.upload.error.UNSUPPORTED_REPORT_RELEASE": [
     {
       "type": 0,
-      "value": "The COUNTER Release version is not supported."
+      "value": "A versão de lançamento do COUNTER não é compatível."
     }
   ],
   "ui-erm-usage.counter.upload.error.UNSUPPORTED_REPORT_TYPE": [
     {
       "type": 0,
-      "value": "The report type is not supported."
+      "value": "O tipo de relatório não é suportado."
     }
   ],
   "ui-erm-usage.credentials.apiKey": [
@@ -63712,7 +63712,7 @@
   "ui-erm-usage.general.error": [
     {
       "type": 0,
-      "value": "Ops. Algo deu errado..."
+      "value": "Ocorreu um erro inesperado"
     }
   ],
   "ui-erm-usage.general.error2": [
@@ -83871,7 +83871,7 @@
   "ui-invoice.errors.cannotConvertAmountInvalidCurrency": [
     {
       "type": 0,
-      "value": "The selected currency cannot be converted. Please configure an exchange rate provider that supports this currency."
+      "value": "A moeda selecionada não pode ser convertida. Configure um provedor de taxa de câmbio que suporte essa moeda."
     }
   ],
   "ui-invoice.errors.cantLoadAdjustment": [
@@ -84126,6 +84126,12 @@
     {
       "type": 0,
       "value": "Inativo"
+    }
+  ],
+  "ui-invoice.invoice.accountNumber": [
+    {
+      "type": 0,
+      "value": "Número de conta"
     }
   ],
   "ui-invoice.invoice.accountingCode": [
@@ -86373,7 +86379,7 @@
   "ui-invoice.poLineLookup": [
     {
       "type": 0,
-      "value": "Consulta linha do pedido de compra"
+      "value": "Consultar linha do pedido de compra"
     }
   ],
   "ui-invoice.receivingHistory": [
@@ -87168,6 +87174,78 @@
     {
       "type": 0,
       "value": "Informações do fornecedor"
+    }
+  ],
+  "ui-invoice.versionHistory.label.adjustments.adjustmentId": [
+    {
+      "type": 0,
+      "value": "ID de ajuste"
+    }
+  ],
+  "ui-invoice.versionHistory.label.adjustments.description": [
+    {
+      "type": 0,
+      "value": "Descrição do ajuste"
+    }
+  ],
+  "ui-invoice.versionHistory.label.adjustments.exportToAccounting": [
+    {
+      "type": 0,
+      "value": "Exportação de ajuste para contabilidade"
+    }
+  ],
+  "ui-invoice.versionHistory.label.adjustments.prorate": [
+    {
+      "type": 0,
+      "value": "Taxa de ajuste proporcional"
+    }
+  ],
+  "ui-invoice.versionHistory.label.adjustments.relationToTotal": [
+    {
+      "type": 0,
+      "value": "Relação de ajuste com o total"
+    }
+  ],
+  "ui-invoice.versionHistory.label.adjustments.type": [
+    {
+      "type": 0,
+      "value": "Tipo de ajuste"
+    }
+  ],
+  "ui-invoice.versionHistory.label.adjustments.value": [
+    {
+      "type": 0,
+      "value": "Valor de ajuste"
+    }
+  ],
+  "ui-invoice.versionHistory.label.fundDistributions.code": [
+    {
+      "type": 0,
+      "value": "Código de distribuição do fundo"
+    }
+  ],
+  "ui-invoice.versionHistory.label.fundDistributions.distributionType": [
+    {
+      "type": 0,
+      "value": "Tipo de distribuição do fundo"
+    }
+  ],
+  "ui-invoice.versionHistory.label.fundDistributions.expenseClassId": [
+    {
+      "type": 0,
+      "value": "Classe de despesa de distribuição de fundos"
+    }
+  ],
+  "ui-invoice.versionHistory.label.fundDistributions.fundId": [
+    {
+      "type": 0,
+      "value": "ID de distribuição do fundo"
+    }
+  ],
+  "ui-invoice.versionHistory.label.fundDistributions.value": [
+    {
+      "type": 0,
+      "value": "Valor de distribuição do fundo"
     }
   ],
   "ui-invoice.voucher.paneSubTitle": [
@@ -98855,7 +98933,7 @@
   "ui-oa.publicationRequest.authorLookup": [
     {
       "type": 0,
-      "value": "Buscar autor"
+      "value": "Consultar autor"
     }
   ],
   "ui-oa.publicationRequest.authorNames": [
@@ -99003,7 +99081,7 @@
   "ui-oa.publicationRequest.journalLookup": [
     {
       "type": 0,
-      "value": "Buscar revista"
+      "value": "Consultar periódico"
     }
   ],
   "ui-oa.publicationRequest.license": [
@@ -99021,7 +99099,7 @@
   "ui-oa.publicationRequest.lookupPublication": [
     {
       "type": 0,
-      "value": "Buscar Publicação"
+      "value": "Consultar publicação"
     }
   ],
   "ui-oa.publicationRequest.mainEmail": [
@@ -102806,7 +102884,7 @@
   "ui-orders.itemDetails.linkPackageLookUp": [
     {
       "type": 0,
-      "value": "Buscar linhas do pedido do pacote"
+      "value": "Consultar linhas do pedido de compra do pacote"
     }
   ],
   "ui-orders.itemDetails.notConnectedInfo": [
@@ -102902,7 +102980,7 @@
   "ui-orders.itemDetails.titleLookUp": [
     {
       "type": 0,
-      "value": "Pesquisa de título"
+      "value": "Consultar título"
     }
   ],
   "ui-orders.itemDetails.titleLookUpNoPlugin": [
@@ -104120,7 +104198,7 @@
   "ui-orders.orderSummary.totalEstimatedPrice.exchanged": [
     {
       "type": 0,
-      "value": "Total estimated price (Exchanged)"
+      "value": "Preço total estimado (Trocado)"
     }
   ],
   "ui-orders.orderSummary.totalExpended": [
@@ -104946,7 +105024,7 @@
   "ui-orders.poLine.suppressFromDiscovery.tooltip": [
     {
       "type": 0,
-      "value": "Quando verdadeiro, isso oculta qualquer registro de instância criado quando esse pedido for aberto. Se a linha do pedido estiver vinculada a uma instância existente usando a Pesquisa de Título ou se corresponder a uma instância existente por identificador de produto. Esse sinalizador não oculta a instância existente."
+      "value": "Quando verdadeiro, isso oculta qualquer registro de instância criado quando esse pedido for aberto. Se a linha do pedido estiver vinculada a uma instância existente usando a Consulta de Título ou se corresponder a uma instância existente por identificador de produto. Esse sinalizador não oculta a instância existente."
     }
   ],
   "ui-orders.poLine.vendor": [
@@ -106551,7 +106629,7 @@
   "ui-orders.settings.instanceMatching.description": [
     {
       "type": 0,
-      "value": "Com a correspondência de instâncias desabilitada, as linhas de pedido de compra criarão novas instâncias e não serão vinculadas aos registros de instância existentes. Com a correspondência de instâncias habilitada, o FOLIO primeiro pesquisará as instâncias para encontrar uma correspondência para um ou mais IDs de produto fornecidos na Linha de Pedido de Compra. Se um ID de produto for encontrado, essa instância será vinculada a Linha de Pedido de Compra e o FOLIO NÃO criará uma nova instância para esse Linha de Pedido de Compra. Se nenhuma correspondência for encontrada, o sistema criará um novo registro de instância e vinculará a Linha de Pedido de Compra a essa instância."
+      "value": "Com a correspondência de instâncias desabilitada, as linhas de pedido de compra criarão novas instâncias e não serão vinculadas aos registros de instância existentes. Com a correspondência de instâncias habilitada, o FOLIO primeiro buscará as instâncias para encontrar uma correspondência para um ou mais IDs de produto fornecidos na Linha de Pedido de Compra. Se um ID de produto for encontrado, essa instância será vinculada a Linha de Pedido de Compra e o FOLIO NÃO criará uma nova instância para esse Linha de Pedido de Compra. Se nenhuma correspondência for encontrada, o sistema criará um novo registro de instância e vinculará a Linha de Pedido de Compra a essa instância."
     }
   ],
   "ui-orders.settings.instanceMatching.toggle": [
@@ -116157,7 +116235,7 @@
   "ui-plugin-find-po-line.filter.linkedPackagePOLine.lookup.label": [
     {
       "type": 0,
-      "value": "Buscar na linha do pedido de compra por pacote vinculado"
+      "value": "Consultar linha do pedido de compra por pacote vinculado"
     }
   ],
   "ui-plugin-find-po-line.filter.prefixFilter.deprecated": [
@@ -116413,13 +116491,13 @@
   "ui-plugin-query-builder.control.search.button.donor_organization": [
     {
       "type": 0,
-      "value": "Donor organization look-up"
+      "value": "Consultar organização doadora"
     }
   ],
   "ui-plugin-query-builder.control.search.button.organization": [
     {
       "type": 0,
-      "value": "Organization look-up"
+      "value": "Consultar organização"
     }
   ],
   "ui-plugin-query-builder.control.search.placeholder": [
@@ -116443,13 +116521,13 @@
   "ui-plugin-query-builder.control.value.placeholder.donor_organization": [
     {
       "type": 0,
-      "value": "Use the “Donor organization look-up” below to add values"
+      "value": "Use a “Consulta de organização doadora” abaixo para adicionar valores"
     }
   ],
   "ui-plugin-query-builder.control.value.placeholder.organization": [
     {
       "type": 0,
-      "value": "Use the “Organization look-up” below to add values"
+      "value": "Use a \"Consulta de organização\" abaixo para adicionar valores"
     }
   ],
   "ui-plugin-query-builder.control.value.placeholder.organizations": [
@@ -116671,13 +116749,13 @@
   "ui-plugin-query-builder.noOptionsAvailable.donor_organization": [
     {
       "type": 0,
-      "value": "No matches! Use the “Donor organization look-up” below to add organizations"
+      "value": "Nenhuma correspondência! Use a opção \"Consultar organização doadora\" abaixo para adicionar organizações."
     }
   ],
   "ui-plugin-query-builder.noOptionsAvailable.organization": [
     {
       "type": 0,
-      "value": "No matches! Use the “Organization look-up” below to add organizations"
+      "value": "Nenhuma correspondência! Use a \"Consulta de organização\" abaixo para adicionar organizações"
     }
   ],
   "ui-plugin-query-builder.options.false": [
@@ -117394,7 +117472,7 @@
   "ui-quick-marc.permanentLocationLookup": [
     {
       "type": 0,
-      "value": "Pesquisa de localização permanente"
+      "value": "Consultar localização permanente"
     }
   ],
   "ui-quick-marc.permission.quick-marc-authorities-editor.all": [
@@ -123833,7 +123911,7 @@
   "ui-reading-room.patronLookup": [
     {
       "type": 0,
-      "value": "Procurar usuário"
+      "value": "Consultar usuário"
     }
   ],
   "ui-reading-room.permission.all": [
@@ -125871,7 +125949,7 @@
   "ui-receiving.title.lineLookUp": [
     {
       "type": 0,
-      "value": "Consulta do número da linha do pedido"
+      "value": "Consultar número da linha do pedido de compra"
     }
   ],
   "ui-receiving.title.locations": [
@@ -126069,7 +126147,7 @@
   "ui-receiving.title.titleLookUp": [
     {
       "type": 0,
-      "value": "Pesquisa de título"
+      "value": "Consultar título"
     }
   ],
   "ui-receiving.title.titleLookUpNoPlugin": [
@@ -127099,7 +127177,7 @@
   "ui-requests-mediated.form.instance.lookupLabel": [
     {
       "type": 0,
-      "value": "Pesquisa de título"
+      "value": "Consultar título"
     }
   ],
   "ui-requests-mediated.form.item.accordionLabel": [
@@ -127225,7 +127303,7 @@
   "ui-requests-mediated.form.requester.lookupLabel": [
     {
       "type": 0,
-      "value": "Busca de solicitante"
+      "value": "Consultar solicitante"
     }
   ],
   "ui-requests-mediated.form.requesterLookup.barcode": [
@@ -130194,7 +130272,7 @@
   "ui-requests.requester.findUserPluginLabel": [
     {
       "type": 0,
-      "value": "Busca de solicitante"
+      "value": "Consultar solicitante"
     }
   ],
   "ui-requests.requester.firstName": [
@@ -130568,7 +130646,7 @@
   "ui-requests.titleLookupPlugin": [
     {
       "type": 0,
-      "value": "Pesquisa de título"
+      "value": "Consultar título"
     }
   ],
   "ui-search.filters.holdingStatus": [
@@ -134111,7 +134189,7 @@
   "ui-tags.settings.saveError": [
     {
       "type": 0,
-      "value": "An error occurred while saving the tags configuration."
+      "value": "Ocorreu um erro ao salvar a configuração de tags."
     }
   ],
   "ui-tags.settings.tags.label": [
@@ -138611,7 +138689,7 @@
   "ui-users.charge.itemLookup.modalLabel": [
     {
       "type": 0,
-      "value": "Pesquisa de item"
+      "value": "Consultar item"
     }
   ],
   "ui-users.charge.message.successfully": [

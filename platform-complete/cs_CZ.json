@@ -742,13 +742,13 @@
   "stripes-acq-components.label.productId": [
     {
       "type": 0,
-      "value": "ID produktu"
+      "value": "Produkt (ID)"
     }
   ],
   "stripes-acq-components.label.productIdType": [
     {
       "type": 0,
-      "value": "Typ ID produktu"
+      "value": "Typ produktu (ID)"
     }
   ],
   "stripes-acq-components.label.qualifier": [
@@ -25856,7 +25856,7 @@
   "ui-bulk-edit.list.filters.capabilities.instance": [
     {
       "type": 0,
-      "value": "Inventory - instances"
+      "value": "Katalog - tituly"
     }
   ],
   "ui-bulk-edit.list.filters.capabilities.instances": [
@@ -25874,7 +25874,7 @@
   "ui-bulk-edit.list.filters.capabilities.item": [
     {
       "type": 0,
-      "value": "Inventory - items"
+      "value": "Katalog - jednotky"
     }
   ],
   "ui-bulk-edit.list.filters.capabilities.items": [
@@ -25892,7 +25892,7 @@
   "ui-bulk-edit.list.filters.capabilities.user": [
     {
       "type": 0,
-      "value": "Users"
+      "value": "Uživatelé"
     }
   ],
   "ui-bulk-edit.list.filters.capabilities.users": [
@@ -83737,6 +83737,12 @@
       "value": "Neaktivní"
     }
   ],
+  "ui-invoice.invoice.accountNumber": [
+    {
+      "type": 0,
+      "value": "Account number"
+    }
+  ],
   "ui-invoice.invoice.accountingCode": [
     {
       "type": 0,
@@ -86757,6 +86763,78 @@
     {
       "type": 0,
       "value": "Informace o distributorovi"
+    }
+  ],
+  "ui-invoice.versionHistory.label.adjustments.adjustmentId": [
+    {
+      "type": 0,
+      "value": "Adjustment ID"
+    }
+  ],
+  "ui-invoice.versionHistory.label.adjustments.description": [
+    {
+      "type": 0,
+      "value": "Adjustment description"
+    }
+  ],
+  "ui-invoice.versionHistory.label.adjustments.exportToAccounting": [
+    {
+      "type": 0,
+      "value": "Adjustment export to accounting"
+    }
+  ],
+  "ui-invoice.versionHistory.label.adjustments.prorate": [
+    {
+      "type": 0,
+      "value": "Adjustment pro rate"
+    }
+  ],
+  "ui-invoice.versionHistory.label.adjustments.relationToTotal": [
+    {
+      "type": 0,
+      "value": "Adjustment relation to total"
+    }
+  ],
+  "ui-invoice.versionHistory.label.adjustments.type": [
+    {
+      "type": 0,
+      "value": "Adjustment type"
+    }
+  ],
+  "ui-invoice.versionHistory.label.adjustments.value": [
+    {
+      "type": 0,
+      "value": "Adjustment value"
+    }
+  ],
+  "ui-invoice.versionHistory.label.fundDistributions.code": [
+    {
+      "type": 0,
+      "value": "Fund distribution code"
+    }
+  ],
+  "ui-invoice.versionHistory.label.fundDistributions.distributionType": [
+    {
+      "type": 0,
+      "value": "Fund distribution type"
+    }
+  ],
+  "ui-invoice.versionHistory.label.fundDistributions.expenseClassId": [
+    {
+      "type": 0,
+      "value": "Fund distribution expense class"
+    }
+  ],
+  "ui-invoice.versionHistory.label.fundDistributions.fundId": [
+    {
+      "type": 0,
+      "value": "Fund distribution ID"
+    }
+  ],
+  "ui-invoice.versionHistory.label.fundDistributions.value": [
+    {
+      "type": 0,
+      "value": "Fund distribution value"
     }
   ],
   "ui-invoice.voucher.paneSubTitle": [
@@ -115651,7 +115729,7 @@
   "ui-plugin-query-builder.control.search.button.organization": [
     {
       "type": 0,
-      "value": "Organization look-up"
+      "value": "Vyhledat organizace"
     }
   ],
   "ui-plugin-query-builder.control.search.placeholder": [
@@ -115963,7 +116041,7 @@
   "ui-plugin-query-builder.noOptionsAvailable.organization": [
     {
       "type": 0,
-      "value": "No matches! Use the “Organization look-up” below to add organizations"
+      "value": "Žádné shody! Pro přidání organizací použijte níže uvedený \"Vyhledávač organizací\""
     }
   ],
   "ui-plugin-query-builder.options.false": [
