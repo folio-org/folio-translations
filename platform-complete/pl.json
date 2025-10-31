@@ -126,7 +126,7 @@
   "stripes-acq-components.button.credentials.show": [
     {
       "type": 0,
-      "value": "Pokaż dane uwierzytelniające"
+      "value": "Pokaż dane logowania"
     }
   ],
   "stripes-acq-components.button.save": [
@@ -1367,7 +1367,7 @@
   "stripes-acq-components.routing.list.generalInformation": [
     {
       "type": 0,
-      "value": "General information"
+      "value": "Informacje ogólne"
     }
   ],
   "stripes-acq-components.routing.list.label": [
@@ -9975,7 +9975,7 @@
   "stripes-erm-components.accesscontrol.removeAcqUnit": [
     {
       "type": 0,
-      "value": "Remove \""
+      "value": "Usuń „"
     },
     {
       "type": 1,
@@ -9983,7 +9983,7 @@
     },
     {
       "type": 0,
-      "value": "\""
+      "value": "”"
     }
   ],
   "stripes-erm-components.accesscontrol.restrictions": [
@@ -10924,7 +10924,7 @@
   "stripes-erm-components.doc.reference": [
     {
       "type": 0,
-      "value": "Odniesienie"
+      "value": "Odsyłacz"
     }
   ],
   "stripes-erm-components.doc.title": [
@@ -11402,7 +11402,7 @@
   "stripes-erm-components.interface.noCredentialsPermission": [
     {
       "type": 0,
-      "value": "Nie masz odpowiednich uprawnień, aby zobaczyć dane uwierzytelniające platformy"
+      "value": "Nie masz odpowiednich uprawnień, aby zobaczyć dane logowania platformy"
     }
   ],
   "stripes-erm-components.interface.notFound": [
@@ -11426,7 +11426,7 @@
   "stripes-erm-components.interface.showCredentials": [
     {
       "type": 0,
-      "value": "Pokaż dane uwierzytelniające"
+      "value": "Pokaż dane logowania"
     }
   ],
   "stripes-erm-components.interface.type": [
@@ -18802,7 +18802,7 @@
     },
     {
       "type": 0,
-      "value": ". Aktualizacje będą wyświetlane w aplikacji Lokalna Baza Wiedzy Admina."
+      "value": ". Aktualizacje będą wyświetlane w aplikacji Lokalna Baza Wiedzy - panel administracyjny."
     }
   ],
   "ui-agreements.eresources.deletePackageContents": [
@@ -19124,7 +19124,7 @@
   "ui-agreements.eresources.reference": [
     {
       "type": 0,
-      "value": "Odniesienie"
+      "value": "Odsyłacz"
     }
   ],
   "ui-agreements.eresources.relatedTitle": [
@@ -19416,7 +19416,7 @@
   "ui-agreements.eresources.viewJobLink": [
     {
       "type": 0,
-      "value": "Wyświetl zadanie Lokalnej Bazy Wiedzy Admina"
+      "value": "Wyświetl zadanie Lokalnej Bazy Wiedzy - panel administracyjny"
     }
   ],
   "ui-agreements.eresources.volume": [
@@ -19836,13 +19836,13 @@
   "ui-agreements.gokbSearch.basket.addPackageToBasket": [
     {
       "type": 0,
-      "value": "Add package to basket"
+      "value": "Dodaj pakiet do koszyka"
     }
   ],
   "ui-agreements.gokbSearch.basket.addTitleToBasket": [
     {
       "type": 0,
-      "value": "Add title to basket"
+      "value": "Dodaj tytuł do koszyka"
     }
   ],
   "ui-agreements.gokbSearch.basket.manageBasketForPackageName": [
@@ -19858,13 +19858,13 @@
   "ui-agreements.gokbSearch.basket.multiplePackageMatches": [
     {
       "type": 0,
-      "value": "Multiple packages matched, cannot add"
+      "value": "Nie można dodać, bo dopasowano wiele pakietów"
     }
   ],
   "ui-agreements.gokbSearch.basket.noPackageMatches": [
     {
       "type": 0,
-      "value": "No packages matched, cannot add"
+      "value": "Nie można dodać, bo brak dopasowanych pakietów"
     }
   ],
   "ui-agreements.gokbSearch.basket.packageNameNotInKB": [
@@ -19874,31 +19874,31 @@
     },
     {
       "type": 0,
-      "value": " not in local KB"
+      "value": " nie znajduje się w lokalnej bazie wiedzy"
     }
   ],
   "ui-agreements.gokbSearch.basket.packageNotInKB": [
     {
       "type": 0,
-      "value": "Package not in local KB"
+      "value": "Pakiet nie znajduje się w lokalnej bazie wiedzy"
     }
   ],
   "ui-agreements.gokbSearch.basket.pkgName": [
     {
       "type": 0,
-      "value": "Package name"
+      "value": "Nazwa pakietu"
     }
   ],
   "ui-agreements.gokbSearch.basket.removePackageFromBasket": [
     {
       "type": 0,
-      "value": "Remove package from basket"
+      "value": "Usuń pakiet z koszyka"
     }
   ],
   "ui-agreements.gokbSearch.basket.removeTitleFromBasket": [
     {
       "type": 0,
-      "value": "Remove title from basket"
+      "value": "Usuń tytuł z koszyka"
     }
   ],
   "ui-agreements.gokbSearch.basket.syncStatus": [
@@ -19910,19 +19910,19 @@
   "ui-agreements.gokbSearch.basket.titleInKB": [
     {
       "type": 0,
-      "value": "Title in KB"
+      "value": "Tytuł w Bazie Wiedzy"
     }
   ],
   "ui-agreements.gokbSearch.basket.titleNotInKB": [
     {
       "type": 0,
-      "value": "Title not in local KB"
+      "value": "Tytuł nie znajduje się w lokalnej bazie wiedzy"
     }
   ],
   "ui-agreements.gokbSearch.basket.viewInKB": [
     {
       "type": 0,
-      "value": "View in local KB"
+      "value": "Wyświetl w lokalnej bazie wiedzy"
     }
   ],
   "ui-agreements.gokbSearch.column.name": [
@@ -22017,13 +22017,13 @@
   "ui-agreements.remoteKb.actions.viewInLocalKb": [
     {
       "type": 0,
-      "value": "View title in local KB"
+      "value": "Wyświetl tytuł w lokalnej bazie wiedzy"
     }
   ],
   "ui-agreements.remoteKb.actions.viewInRemoteKb": [
     {
       "type": 0,
-      "value": "View title in "
+      "value": "Wyświetl tytuł w "
     },
     {
       "type": 1,
@@ -22123,13 +22123,13 @@
   "ui-agreements.remoteKb.gokbid": [
     {
       "type": 0,
-      "value": "GOKB ID"
+      "value": "ID GOKB"
     }
   ],
   "ui-agreements.remoteKb.gokbuuid": [
     {
       "type": 0,
-      "value": "GOKB UUID"
+      "value": "UUID GOKB"
     }
   ],
   "ui-agreements.remoteKb.heading": [
@@ -22141,7 +22141,7 @@
   "ui-agreements.remoteKb.identifier": [
     {
       "type": 0,
-      "value": "Identifier"
+      "value": "Identyfikator"
     }
   ],
   "ui-agreements.remoteKb.isbns": [
@@ -22165,7 +22165,7 @@
   "ui-agreements.remoteKb.noAccordionContent": [
     {
       "type": 0,
-      "value": "No "
+      "value": "Brak dostępnej zawartości "
     },
     {
       "type": 1,
@@ -22173,7 +22173,7 @@
     },
     {
       "type": 0,
-      "value": " content available."
+      "value": "."
     }
   ],
   "ui-agreements.remoteKb.otherIds": [
@@ -22491,7 +22491,7 @@
   "ui-agreements.settings.hideEResourcesFunctionality": [
     {
       "type": 0,
-      "value": "Ukryj wewnętrzną bazę wiedzy dotyczącą umów"
+      "value": "Ukryj wewnętrzną bazę wiedzy umów"
     }
   ],
   "ui-agreements.settings.label": [
