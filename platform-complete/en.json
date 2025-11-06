@@ -79383,6 +79383,376 @@
       "value": "Most recent check in"
     }
   ],
+  "ui-inventory.moveEntity": [
+    {
+      "type": 0,
+      "value": "Move holdings/items to another instance"
+    }
+  ],
+  "ui-inventory.moveEntity.instance.actionMenu.disable": [
+    {
+      "type": 0,
+      "value": "Stop items movement within an instance"
+    }
+  ],
+  "ui-inventory.moveEntity.instance.actionMenu.enable": [
+    {
+      "type": 0,
+      "value": "Move items within an instance"
+    }
+  ],
+  "ui-inventory.moveEntity.instance.dropZone": [
+    {
+      "type": 0,
+      "value": "Drop holdings here"
+    }
+  ],
+  "ui-inventory.moveEntity.instance.holdings.error": [
+    {
+      "type": 0,
+      "value": "The following holdings could not be moved "
+    },
+    {
+      "type": 1,
+      "value": "holdings"
+    },
+    {
+      "type": 0,
+      "value": ". Check the instance record fields and try again or notify your systems administrator."
+    }
+  ],
+  "ui-inventory.moveEntity.instance.holdings.error.server": [
+    {
+      "type": 0,
+      "value": "There was a problem updating the following holdings "
+    },
+    {
+      "type": 1,
+      "value": "holdings"
+    },
+    {
+      "type": 0,
+      "value": ". Please try again or notify your systems administrator."
+    }
+  ],
+  "ui-inventory.moveEntity.instance.holdings.success": [
+    {
+      "style": null,
+      "type": 2,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": " "
+    },
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "holding has"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "holdings have"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": " been successfully moved."
+    }
+  ],
+  "ui-inventory.moveEntity.instance.items.error": [
+    {
+      "type": 0,
+      "value": "The following items could not be moved "
+    },
+    {
+      "type": 1,
+      "value": "items"
+    },
+    {
+      "type": 0,
+      "value": ". Check the instance record fields and try again or notify your systems administrator."
+    }
+  ],
+  "ui-inventory.moveEntity.instance.items.error.server": [
+    {
+      "type": 0,
+      "value": "There was a problem updating the following items "
+    },
+    {
+      "type": 1,
+      "value": "items"
+    },
+    {
+      "type": 0,
+      "value": ". Please try again or notify your systems administrator."
+    }
+  ],
+  "ui-inventory.moveEntity.instance.items.success": [
+    {
+      "style": null,
+      "type": 2,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": " "
+    },
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "item has"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "items have"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": " been successfully moved."
+    }
+  ],
+  "ui-inventory.moveEntity.items.dropZone": [
+    {
+      "type": 0,
+      "value": "Drop items here"
+    }
+  ],
+  "ui-inventory.moveEntity.modal.confirmLabel": [
+    {
+      "type": 0,
+      "value": "Continue"
+    }
+  ],
+  "ui-inventory.moveEntity.modal.message.hasLinkedPOLsOrHoldings": [
+    {
+      "type": 0,
+      "value": "This holdings is linked to a purchase order line. Moving this holdings to a new instance will move any other holdings and items that are linked to this purchase order line to the new instance as well. The purchase order line will also be linked to the new instance. Do you want to continue?"
+    }
+  ],
+  "ui-inventory.moveEntity.modal.message.holdings": [
+    {
+      "style": null,
+      "type": 2,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": " "
+    },
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "holding"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "holdings"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": " will be moved to "
+    },
+    {
+      "type": 1,
+      "value": "targetName"
+    }
+  ],
+  "ui-inventory.moveEntity.modal.message.items": [
+    {
+      "style": null,
+      "type": 2,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": " "
+    },
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "item"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "items"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": " will be moved to "
+    },
+    {
+      "type": 1,
+      "value": "targetName"
+    }
+  ],
+  "ui-inventory.moveEntity.modal.title": [
+    {
+      "type": 0,
+      "value": "Confirm move"
+    }
+  ],
+  "ui-inventory.moveEntity.move.holdings.count": [
+    {
+      "type": 0,
+      "value": "Move: "
+    },
+    {
+      "style": null,
+      "type": 2,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": " "
+    },
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "holding"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "holdings"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "count"
+    }
+  ],
+  "ui-inventory.moveEntity.move.items.count": [
+    {
+      "type": 0,
+      "value": "Move: "
+    },
+    {
+      "style": null,
+      "type": 2,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": " "
+    },
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "item"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "items"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "count"
+    }
+  ],
+  "ui-inventory.moveEntity.moveButton": [
+    {
+      "type": 0,
+      "value": "Move to"
+    }
+  ],
+  "ui-inventory.moveEntity.selectAll": [
+    {
+      "type": 0,
+      "value": "Select/unselect all items for movement"
+    }
+  ],
+  "ui-inventory.moveEntity.selectHolding": [
+    {
+      "type": 0,
+      "value": "Select holdings"
+    }
+  ],
+  "ui-inventory.moveEntity.selectItem": [
+    {
+      "type": 0,
+      "value": "Select/unselect item for movement"
+    }
+  ],
   "ui-inventory.moveItems": [
     {
       "type": 0,
