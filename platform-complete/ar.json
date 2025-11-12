@@ -27718,6 +27718,30 @@
       "value": "Search bulk edit profiles"
     }
   ],
+  "ui-bulk-edit.settings.profiles.title.details": [
+    {
+      "type": 1,
+      "value": "entityType"
+    },
+    {
+      "type": 0,
+      "value": " bulk edit profile details"
+    }
+  ],
+  "ui-bulk-edit.settings.profiles.title.edit": [
+    {
+      "type": 0,
+      "value": "Edit "
+    },
+    {
+      "type": 1,
+      "value": "entityType"
+    },
+    {
+      "type": 0,
+      "value": " bulk edit profile"
+    }
+  ],
   "ui-bulk-edit.settings.profiles.title.new": [
     {
       "type": 0,
@@ -30088,6 +30112,66 @@
     {
       "type": 0,
       "value": "طباعة كعب النقل"
+    }
+  ],
+  "ui-checkin.actionChoiceModal.text": [
+    {
+      "type": 0,
+      "value": "Item "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "title"
+        },
+        {
+          "type": 0,
+          "value": " ("
+        },
+        {
+          "type": 1,
+          "value": "materialType"
+        },
+        {
+          "type": 0,
+          "value": ")"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " (Barcode "
+    },
+    {
+      "type": 1,
+      "value": "barcode"
+    },
+    {
+      "type": 0,
+      "value": ") is for use at location at "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "servicePoint"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "ui-checkin.actionChoiceModal.title": [
+    {
+      "type": 0,
+      "value": "For use at location"
     }
   ],
   "ui-checkin.actions": [
