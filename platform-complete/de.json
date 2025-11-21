@@ -26,7 +26,7 @@
   "stripes-acq-components.acquisition_method.depository": [
     {
       "type": 0,
-      "value": "Pflichtexemplar"
+      "value": "Pflicht"
     }
   ],
   "stripes-acq-components.acquisition_method.eba": [
@@ -1793,19 +1793,19 @@
   "stripes-authority-components.authorities.error.forbidden": [
     {
       "type": 0,
-      "value": "User does not have permission to search authority records."
+      "value": "Person hat keine Berechtigung, Normdaten-Datensätze zu durchsuchen."
     }
   ],
   "stripes-authority-components.authority.view.error.notFound": [
     {
       "type": 0,
-      "value": "Authority record not found"
+      "value": "Normdatensatz nicht gefunden"
     }
   ],
   "stripes-authority-components.authority.view.error.unknown": [
     {
       "type": 0,
-      "value": "An unknown error occurred"
+      "value": "Ein unbekannter Fehler ist aufgetreten"
     }
   ],
   "stripes-authority-components.authorityRecordSubtitle": [
@@ -1815,7 +1815,7 @@
     },
     {
       "type": 0,
-      "value": " • Last updated: "
+      "value": " • Zuletzt aktualisiert: "
     },
     {
       "type": 1,
@@ -1829,7 +1829,7 @@
           "value": [
             {
               "type": 0,
-              "value": "Local •"
+              "value": "Lokal •"
             }
           ]
         },
@@ -1840,7 +1840,7 @@
           "value": [
             {
               "type": 0,
-              "value": "Shared •"
+              "value": "Geteilt •"
             }
           ]
         }
@@ -1860,37 +1860,37 @@
   "stripes-authority-components.browse.noMatch.wouldBeHereLabel": [
     {
       "type": 0,
-      "value": "would be here"
+      "value": "wäre hier"
     }
   ],
   "stripes-authority-components.browseSelectPlaceholder": [
     {
       "type": 0,
-      "value": "Select a browse option"
+      "value": "Browseoption auswählen"
     }
   ],
   "stripes-authority-components.childrenSubjectHeading": [
     {
       "type": 0,
-      "value": "Children's subject heading"
+      "value": "Kinder-Schlagwort"
     }
   ],
   "stripes-authority-components.corporateConferenceName": [
     {
       "type": 0,
-      "value": "Corporate/Conference name"
+      "value": "Körperschafts-/Konferenzname"
     }
   ],
   "stripes-authority-components.filter.false": [
     {
       "type": 0,
-      "value": "No"
+      "value": "Nein"
     }
   ],
   "stripes-authority-components.filter.true": [
     {
       "type": 0,
-      "value": "Yes"
+      "value": "Ja"
     }
   ],
   "stripes-authority-components.genre": [
@@ -1902,25 +1902,25 @@
   "stripes-authority-components.geographicName": [
     {
       "type": 0,
-      "value": "Geographic name"
+      "value": "Geografischer Name"
     }
   ],
   "stripes-authority-components.identifier": [
     {
       "type": 0,
-      "value": "Identifier (all)"
+      "value": "Identifikator (alle)"
     }
   ],
   "stripes-authority-components.keyword": [
     {
       "type": 0,
-      "value": "Keyword"
+      "value": "Stichwort"
     }
   ],
   "stripes-authority-components.label.browse": [
     {
       "type": 0,
-      "value": "Browse"
+      "value": "Durchstöbern"
     }
   ],
   "stripes-authority-components.label.search": [
@@ -1932,7 +1932,7 @@
   "stripes-authority-components.label.search.textArea": [
     {
       "type": 0,
-      "value": "Enter search query"
+      "value": "Suchanfrage eingeben"
     }
   ],
   "stripes-authority-components.lccn": [
@@ -1948,7 +1948,7 @@
           "value": [
             {
               "type": 0,
-              "value": "Local"
+              "value": "Lokaler"
             }
           ]
         },
@@ -1959,7 +1959,7 @@
           "value": [
             {
               "type": 0,
-              "value": "Shared"
+              "value": "Geteilter"
             }
           ]
         }
@@ -1969,49 +1969,49 @@
     },
     {
       "type": 0,
-      "value": " MARC authority record"
+      "value": " MARC-Normdaten-Datensatz"
     }
   ],
   "stripes-authority-components.meta.title": [
     {
       "type": 0,
-      "value": "MARC authority"
+      "value": "MARC Normdaten"
     }
   ],
   "stripes-authority-components.nameTitle": [
     {
       "type": 0,
-      "value": "Name-title"
+      "value": "Name-Titel"
     }
   ],
   "stripes-authority-components.personalName": [
     {
       "type": 0,
-      "value": "Personal name"
+      "value": "Personenname"
     }
   ],
   "stripes-authority-components.query": [
     {
       "type": 0,
-      "value": "Query"
+      "value": "Abfrage"
     }
   ],
   "stripes-authority-components.search-results-list.authRefType": [
     {
       "type": 0,
-      "value": "Authorized/Reference"
+      "value": "Normiert/Verweisung"
     }
   ],
   "stripes-authority-components.search-results-list.authoritySource": [
     {
       "type": 0,
-      "value": "Authority source"
+      "value": "Normdatenquelle"
     }
   ],
   "stripes-authority-components.search-results-list.error.badRequest": [
     {
       "type": 0,
-      "value": "Search could not be processed for "
+      "value": "Die Suche konnte für "
     },
     {
       "type": 1,
@@ -2019,19 +2019,19 @@
     },
     {
       "type": 0,
-      "value": ". Please check your query and try again."
+      "value": " nicht verarbeitet werden. Bitte überprüfen Sie Ihre Abfrage und versuchen Sie es erneut."
     }
   ],
   "stripes-authority-components.search-results-list.headingRef": [
     {
       "type": 0,
-      "value": "Heading/Reference"
+      "value": "Ansetzung/Verweisung "
     }
   ],
   "stripes-authority-components.search-results-list.headingType": [
     {
       "type": 0,
-      "value": "Type of heading"
+      "value": "Typ der Ansetzung"
     }
   ],
   "stripes-authority-components.search-results-list.paneSub": [
@@ -2051,7 +2051,7 @@
           "value": [
             {
               "type": 0,
-              "value": "record found"
+              "value": "Datensatz gefunden"
             }
           ]
         },
@@ -2059,7 +2059,7 @@
           "value": [
             {
               "type": 0,
-              "value": "records found"
+              "value": "Datensätze gefunden"
             }
           ]
         }
@@ -2072,43 +2072,43 @@
   "stripes-authority-components.search-results-list.selectAll": [
     {
       "type": 0,
-      "value": "Unselect all records on this page"
+      "value": "Alle Datensätze auf dieser Seite abwählen"
     }
   ],
   "stripes-authority-components.search-results-list.unselectAll": [
     {
       "type": 0,
-      "value": "Select all records on this page"
+      "value": "Alle Datensätze auf dieser Seite auswählen"
     }
   ],
   "stripes-authority-components.search.createdDate": [
     {
       "type": 0,
-      "value": "Date created"
+      "value": "Erstellungsdatum"
     }
   ],
   "stripes-authority-components.search.excludeSeeFrom": [
     {
       "type": 0,
-      "value": "Exclude see from"
+      "value": "Siehe-Verweisungen ausschließen"
     }
   ],
   "stripes-authority-components.search.excludeSeeFromAlso": [
     {
       "type": 0,
-      "value": "Exclude see from also"
+      "value": "Siehe-Auch-Verweisungen ausschließen"
     }
   ],
   "stripes-authority-components.search.headingType": [
     {
       "type": 0,
-      "value": "Type of heading"
+      "value": "Typ der Ansetzung"
     }
   ],
   "stripes-authority-components.search.references": [
     {
       "type": 0,
-      "value": "References"
+      "value": "Verweisungen"
     }
   ],
   "stripes-authority-components.search.searchAndFilter": [
@@ -2120,19 +2120,19 @@
   "stripes-authority-components.search.shared": [
     {
       "type": 0,
-      "value": "Shared"
+      "value": "Geteilt"
     }
   ],
   "stripes-authority-components.search.sourceFileId": [
     {
       "type": 0,
-      "value": "Authority source"
+      "value": "Normdatenquelle"
     }
   ],
   "stripes-authority-components.search.sourceFileId.nullOption": [
     {
       "type": 0,
-      "value": "Not specified"
+      "value": "Nicht spezifiziert"
     }
   ],
   "stripes-authority-components.search.subjectHeadings": [
@@ -2144,13 +2144,13 @@
   "stripes-authority-components.search.updatedDate": [
     {
       "type": 0,
-      "value": "Date updated"
+      "value": "Aktualisierungsdatum"
     }
   ],
   "stripes-authority-components.subject": [
     {
       "type": 0,
-      "value": "Subject"
+      "value": "Schlagwort"
     }
   ],
   "stripes-authority-components.uniformTitle": [
@@ -37816,25 +37816,25 @@
   "ui-claims.appMenu.claimingAppSearch": [
     {
       "type": 0,
-      "value": "Claiming app Search"
+      "value": "Mahnungs-App-Suche"
     }
   ],
   "ui-claims.claiming.action.groupByOrganization": [
     {
       "type": 0,
-      "value": "Group by organization"
+      "value": "Nach Organisation gruppieren"
     }
   ],
   "ui-claims.claiming.delayClaim.error.message": [
     {
       "type": 0,
-      "value": "Failure on delay claims."
+      "value": "Fehler bei der Verzögerung von Mahnungen."
     }
   ],
   "ui-claims.claiming.delayClaim.success.message": [
     {
       "type": 0,
-      "value": "Claims are successfully delayed."
+      "value": "Mahnungen wurden erfolgreich verzögert."
     }
   ],
   "ui-claims.claiming.filters.metadata.createdByUserId": [
@@ -37864,91 +37864,91 @@
   "ui-claims.claiming.filters.piece.metadata.createdByUserId": [
     {
       "type": 0,
-      "value": "Created by (Piece)"
+      "value": "Erstellt von (Teil)"
     }
   ],
   "ui-claims.claiming.filters.piece.metadata.createdDate": [
     {
       "type": 0,
-      "value": "Date created (Piece)"
+      "value": "Erstellungsdatum (Teil)"
     }
   ],
   "ui-claims.claiming.filters.piece.metadata.updatedByUserId": [
     {
       "type": 0,
-      "value": "Updated by (Piece)"
+      "value": "Aktualisiert von (Teil)"
     }
   ],
   "ui-claims.claiming.filters.piece.metadata.updatedDate": [
     {
       "type": 0,
-      "value": "Date updated (Piece)"
+      "value": "Aktualisierungsdatum (Teil)"
     }
   ],
   "ui-claims.claiming.filters.piece.receiptDate": [
     {
       "type": 0,
-      "value": "Expected receipt date"
+      "value": "Erwartetes Eingangsdatum"
     }
   ],
   "ui-claims.claiming.filters.piece.receivedDate": [
     {
       "type": 0,
-      "value": "Received date"
+      "value": "Inventarisierungsdatum"
     }
   ],
   "ui-claims.claiming.filters.piece.receivingStatus": [
     {
       "type": 0,
-      "value": "Receiving status"
+      "value": "Inventari­sierungs­status"
     }
   ],
   "ui-claims.claiming.filters.poLine.claimingActive": [
     {
       "type": 0,
-      "value": "POL claim active"
+      "value": "Bestellpostenanspruch aktiv"
     }
   ],
   "ui-claims.claiming.filters.poLine.locations": [
     {
       "type": 0,
-      "value": "Location"
+      "value": "Standort"
     }
   ],
   "ui-claims.claiming.filters.poLine.orderFormat": [
     {
       "type": 0,
-      "value": "Order format"
+      "value": "Bestellungsformat"
     }
   ],
   "ui-claims.claiming.filters.poLine.physical.receiptDue": [
     {
       "type": 0,
-      "value": "Receipt due"
+      "value": "Eingang fällig"
     }
   ],
   "ui-claims.claiming.filters.poLine.rush": [
     {
       "type": 0,
-      "value": "Rush"
+      "value": "Eilt"
     }
   ],
   "ui-claims.claiming.filters.purchaseOrder.orderType": [
     {
       "type": 0,
-      "value": "Order type"
+      "value": "Bestellungstyp"
     }
   ],
   "ui-claims.claiming.filters.purchaseOrder.shipTo": [
     {
       "type": 0,
-      "value": "Ship to"
+      "value": "Lieferadresse"
     }
   ],
   "ui-claims.claiming.filters.purchaseOrder.vendor": [
     {
       "type": 0,
-      "value": "Vendor"
+      "value": "Lieferant"
     }
   ],
   "ui-claims.claiming.filters.receiptDate": [
@@ -37972,31 +37972,31 @@
   "ui-claims.claiming.filters.title.materialType": [
     {
       "type": 0,
-      "value": "Material type"
+      "value": "Materialart"
     }
   ],
   "ui-claims.claiming.filters.title.metadata.createdByUserId": [
     {
       "type": 0,
-      "value": "Created by (Title)"
+      "value": "Erstellt von (Titel)"
     }
   ],
   "ui-claims.claiming.filters.title.metadata.createdDate": [
     {
       "type": 0,
-      "value": "Date created (Title)"
+      "value": "Erstellungsdatum (Titel)"
     }
   ],
   "ui-claims.claiming.filters.title.metadata.updatedByUserId": [
     {
       "type": 0,
-      "value": "Updated by (Title)"
+      "value": "Aktualisiert von (Titel)"
     }
   ],
   "ui-claims.claiming.filters.title.metadata.updatedDate": [
     {
       "type": 0,
-      "value": "Date updated (Title)"
+      "value": "Aktualisierungsdatum (Titel)"
     }
   ],
   "ui-claims.claiming.filters.titles.materialType": [
@@ -38032,30 +38032,20 @@
   "ui-claims.claiming.markUnreceivable.error.message": [
     {
       "type": 0,
-      "value": "Failure on mark unreceivable"
+      "value": "Fehler beim Markieren als nicht empfangbar"
     }
   ],
   "ui-claims.claiming.markUnreceivable.modal.heading": [
     {
       "type": 0,
-      "value": "Mark unreceivable"
+      "value": "Als nicht empfangbar markieren"
     }
   ],
   "ui-claims.claiming.markUnreceivable.modal.message": [
     {
-      "type": 0,
-      "value": "Mark "
-    },
-    {
-      "children": [
-        {
-          "style": null,
-          "type": 2,
-          "value": "count"
-        }
-      ],
-      "type": 8,
-      "value": "b"
+      "style": null,
+      "type": 2,
+      "value": "count"
     },
     {
       "type": 0,
@@ -38068,7 +38058,7 @@
           "value": [
             {
               "type": 0,
-              "value": "piece"
+              "value": "Teil"
             }
           ]
         },
@@ -38076,7 +38066,7 @@
           "value": [
             {
               "type": 0,
-              "value": "pieces"
+              "value": "Teile"
             }
           ]
         }
@@ -38087,49 +38077,49 @@
     },
     {
       "type": 0,
-      "value": " unreceivable?"
+      "value": " als nicht empfangbar markieren?"
     }
   ],
   "ui-claims.claiming.markUnreceivable.success.message": [
     {
       "type": 0,
-      "value": "Claims are successfully marked unreceivable"
+      "value": "Anforderungen erfolgreich als nicht empfangbar markiert."
     }
   ],
   "ui-claims.claiming.results.columns.chronology": [
     {
       "type": 0,
-      "value": "Chronology"
+      "value": "Chronologie"
     }
   ],
   "ui-claims.claiming.results.columns.displaySummary": [
     {
       "type": 0,
-      "value": "Display summary"
+      "value": "Anzeigeübersicht"
     }
   ],
   "ui-claims.claiming.results.columns.enumeration": [
     {
       "type": 0,
-      "value": "Enumeration"
+      "value": "Zählung"
     }
   ],
   "ui-claims.claiming.results.columns.piecesToClaim": [
     {
       "type": 0,
-      "value": "Pieces to claim"
+      "value": "Teile zum Mahnen"
     }
   ],
   "ui-claims.claiming.results.columns.poLineNumber": [
     {
       "type": 0,
-      "value": "POL number"
+      "value": "Bestellpostennummer"
     }
   ],
   "ui-claims.claiming.results.columns.receiptDate": [
     {
       "type": 0,
-      "value": "Expected date"
+      "value": "Erwartetes Datum"
     }
   ],
   "ui-claims.claiming.results.columns.receivingStatus": [
@@ -38141,54 +38131,54 @@
   "ui-claims.claiming.results.columns.select": [
     {
       "type": 0,
-      "value": "Select claim $"
+      "value": "Mahnung $"
     },
     {
       "type": 1,
       "value": "term"
+    },
+    {
+      "type": 0,
+      "value": " auswählen"
     }
   ],
   "ui-claims.claiming.results.columns.selectAll": [
     {
       "type": 0,
-      "value": "Select all claims"
+      "value": "Alle Mahnungen auswählen"
     }
   ],
   "ui-claims.claiming.results.columns.title": [
     {
       "type": 0,
-      "value": "Title"
+      "value": "Titel"
     }
   ],
   "ui-claims.claiming.results.columns.vendorCode": [
     {
       "type": 0,
-      "value": "Organization code"
+      "value": "Organisationscode"
     }
   ],
   "ui-claims.claiming.results.columns.vendorName": [
     {
       "type": 0,
-      "value": "Organization name"
+      "value": "Organisationsname"
     }
   ],
   "ui-claims.claiming.results.title": [
     {
       "type": 0,
-      "value": "Claiming"
+      "value": "Mahnungen"
     }
   ],
   "ui-claims.claiming.sendClaim.error.message": [
     {
       "type": 0,
-      "value": "Failure on send claims."
+      "value": "Fehler beim Senden von Mahnungen."
     }
   ],
   "ui-claims.claiming.sendClaim.modal.message": [
-    {
-      "type": 0,
-      "value": "Claim "
-    },
     {
       "children": [
         {
@@ -38230,19 +38220,19 @@
     },
     {
       "type": 0,
-      "value": "?"
+      "value": " mahnen?"
     }
   ],
   "ui-claims.claiming.sendClaim.success.message": [
     {
       "type": 0,
-      "value": "Claims are currently being processed. Please check Export manager for job status."
+      "value": "Mahnungen werden gerade verarbeitet. Bitte überprüfen Sie den Exportmanager für den Auftragsstatus."
     }
   ],
   "ui-claims.document.title.search": [
     {
       "type": 0,
-      "value": "Claiming - "
+      "value": "Mahnung – "
     },
     {
       "type": 1,
@@ -38250,19 +38240,19 @@
     },
     {
       "type": 0,
-      "value": " - Search"
+      "value": " – Suche"
     }
   ],
   "ui-claims.error.code.cannotFindPiecesWithLatestStatusToProcess": [
     {
       "type": 0,
-      "value": "Cannot find pieces with \"Late\" status to process."
+      "value": "Kann keine Teile mit dem Status „Überfällig“ zur Bearbeitung finden."
     }
   ],
   "ui-claims.error.code.unableToGenerateClaimsForOrgNoIntegrationDetails": [
     {
       "type": 0,
-      "value": "Unable to generate claims for "
+      "value": "Mahnungen für "
     },
     {
       "children": [
@@ -38276,61 +38266,61 @@
     },
     {
       "type": 0,
-      "value": " because no claim integrations exist."
+      "value": " können nicht generiert werden, da keine Mahnungsintegrationen vorhanden sind."
     }
   ],
   "ui-claims.meta.title": [
     {
       "type": 0,
-      "value": "Claiming"
+      "value": "Mahnungen"
     }
   ],
   "ui-claims.permission.claiming.view": [
     {
       "type": 0,
-      "value": "Claims: View claims"
+      "value": "Mahnungen: Mahnungen anzeigen"
     }
   ],
   "ui-claims.search.index.keyword": [
     {
       "type": 0,
-      "value": "Keyword"
+      "value": "Stichwort"
     }
   ],
   "ui-claims.search.index.poLine.poLineNumber": [
     {
       "type": 0,
-      "value": "POL number"
+      "value": "Bestellpostennummer"
     }
   ],
   "ui-claims.search.index.poLine.titleOrPackage": [
     {
       "type": 0,
-      "value": "Package (POL Package name)"
+      "value": "Paket (Bestellposten-Paketname)"
     }
   ],
   "ui-claims.search.index.poLine.vendorDetail.referenceNumbers": [
     {
       "type": 0,
-      "value": "Vendor reference number"
+      "value": "Lieferantenreferenznummer"
     }
   ],
   "ui-claims.search.index.purchaseOrder.poNumber": [
     {
       "type": 0,
-      "value": "PO number"
+      "value": "Bestellnummer"
     }
   ],
   "ui-claims.search.index.title.productIds": [
     {
       "type": 0,
-      "value": "Product ID (For the specific title or the package)"
+      "value": "Produkt-ID (Für den spezifischen Titel oder das Paket)"
     }
   ],
   "ui-claims.search.index.title.title": [
     {
       "type": 0,
-      "value": "Title (Receiving titles)"
+      "value": "Titel (Inventarisierte Titel)"
     }
   ],
   "ui-claims.search.index.titles.productIds": [
@@ -65984,7 +65974,7 @@
   "ui-export-manager.exportJob.details.type.BURSAR_FEES_FINES": [
     {
       "type": 0,
-      "value": "Bursar"
+      "value": "Finanzverwaltung"
     }
   ],
   "ui-export-manager.exportJob.details.type.CIRCULATION_LOG": [
@@ -66050,7 +66040,7 @@
   "ui-export-manager.exportJob.integrationType.claiming": [
     {
       "type": 0,
-      "value": "Claims"
+      "value": "Mahnungen"
     }
   ],
   "ui-export-manager.exportJob.integrationType.ordering": [
@@ -66164,7 +66154,7 @@
   "ui-export-manager.exportJob.type.BURSAR_FEES_FINES": [
     {
       "type": 0,
-      "value": "Bursar"
+      "value": "Finanzverwaltung"
     }
   ],
   "ui-export-manager.exportJob.type.CIRCULATION_LOG": [
@@ -66254,13 +66244,13 @@
   "ui-export-manager.permission.settings.edit": [
     {
       "type": 0,
-      "value": "Settings (Export manager): Can view and edit settings"
+      "value": "Einstellungen (Exportmanager): Kann Einstellungen anzeigen und bearbeiten"
     }
   ],
   "ui-export-manager.permission.settings.view": [
     {
       "type": 0,
-      "value": "Settings (Export manager): Can view only settings"
+      "value": "Einstellungen (Exportmanager): Kann nur Einstellungen anzeigen"
     }
   ],
   "ui-export-manager.settings.jobs": [
@@ -66283,7 +66273,7 @@
           "value": [
             {
               "type": 0,
-              "value": "Deletion interval for "
+              "value": "Löschintervall für "
             },
             {
               "children": [
@@ -66297,7 +66287,7 @@
             },
             {
               "type": 0,
-              "value": " was not updated"
+              "value": " wurde nicht aktualisiert"
             }
           ]
         },
@@ -66305,7 +66295,7 @@
           "value": [
             {
               "type": 0,
-              "value": "Deletion intervals for "
+              "value": "Löschintervalle für "
             },
             {
               "children": [
@@ -66319,7 +66309,7 @@
             },
             {
               "type": 0,
-              "value": " were not updated"
+              "value": " wurden nicht aktualisiert"
             }
           ]
         }
@@ -66341,7 +66331,7 @@
           "value": [
             {
               "type": 0,
-              "value": "Deletion interval for "
+              "value": "Löschintervall für "
             },
             {
               "children": [
@@ -66355,7 +66345,7 @@
             },
             {
               "type": 0,
-              "value": " was successfully updated"
+              "value": " wurde erfolgreich aktualisiert"
             }
           ]
         },
@@ -66363,7 +66353,7 @@
           "value": [
             {
               "type": 0,
-              "value": "Deletion intervals for "
+              "value": "Löschintervalle für "
             },
             {
               "children": [
@@ -66377,7 +66367,7 @@
             },
             {
               "type": 0,
-              "value": " were successfully updated"
+              "value": " wurden erfolgreich aktualisiert"
             }
           ]
         }
@@ -66394,7 +66384,7 @@
   "ui-export-manager.settings.title": [
     {
       "type": 0,
-      "value": "Export manager settings"
+      "value": "Exportmanager-Einstellungen"
     }
   ],
   "ui-export-manager.title.all": [
@@ -87540,7 +87530,12 @@
       "value": "Beleginformationen"
     }
   ],
-  "ui-ldp.SENTINEL": [],
+  "ui-ldp.SENTINEL": [
+    {
+      "type": 0,
+      "value": "Leer"
+    }
+  ],
   "ui-ldp.button.add-filter": [
     {
       "type": 0,
@@ -87592,7 +87587,7 @@
   "ui-ldp.button.download-excel": [
     {
       "type": 0,
-      "value": "Download as Excel"
+      "value": "Als Excel herunterladen"
     }
   ],
   "ui-ldp.button.excel": [
@@ -87638,61 +87633,61 @@
   "ui-ldp.dbinfo.logs.error_severity": [
     {
       "type": 0,
-      "value": "Severity"
+      "value": "Schweregrad"
     }
   ],
   "ui-ldp.dbinfo.logs.log_time": [
     {
       "type": 0,
-      "value": "Timestamp"
+      "value": "Zeitstempel"
     }
   ],
   "ui-ldp.dbinfo.logs.message": [
     {
       "type": 0,
-      "value": "Message"
+      "value": "Nachricht"
     }
   ],
   "ui-ldp.dbinfo.nav.logs": [
     {
       "type": 0,
-      "value": "Logs"
+      "value": "Protokolle"
     }
   ],
   "ui-ldp.dbinfo.nav.processes": [
     {
       "type": 0,
-      "value": "Long-running processes"
+      "value": "Langlaufende Prozesse"
     }
   ],
   "ui-ldp.dbinfo.nav.updates": [
     {
       "type": 0,
-      "value": "Last updates of tables"
+      "value": "Letzte Aktualisierungen der Tabellen"
     }
   ],
   "ui-ldp.dbinfo.processes.databaseName": [
     {
       "type": 0,
-      "value": "Database"
+      "value": "Datenbank"
     }
   ],
   "ui-ldp.dbinfo.processes.empty": [
     {
       "type": 0,
-      "value": "There are currently no long-running processes"
+      "value": "Derzeit gibt es keine langlaufenden Prozesse."
     }
   ],
   "ui-ldp.dbinfo.processes.query": [
     {
       "type": 0,
-      "value": "Query"
+      "value": "Abfrage"
     }
   ],
   "ui-ldp.dbinfo.processes.realTime": [
     {
       "type": 0,
-      "value": "Real time"
+      "value": "Echtzeit"
     }
   ],
   "ui-ldp.dbinfo.processes.state": [
@@ -87704,25 +87699,25 @@
   "ui-ldp.dbinfo.processes.userName": [
     {
       "type": 0,
-      "value": "User"
+      "value": "Person"
     }
   ],
   "ui-ldp.dbinfo.updates.elapsedRealTime": [
     {
       "type": 0,
-      "value": "Elapsed"
+      "value": "Vergangen"
     }
   ],
   "ui-ldp.dbinfo.updates.lastUpdate": [
     {
       "type": 0,
-      "value": "Last updated"
+      "value": "Zuletzt aktualisiert"
     }
   ],
   "ui-ldp.dbinfo.updates.tableName": [
     {
       "type": 0,
-      "value": "Table"
+      "value": "Tabelle"
     }
   ],
   "ui-ldp.dbinfo.updates.tableSchema": [
@@ -87734,7 +87729,7 @@
   "ui-ldp.dbinfo.version": [
     {
       "type": 0,
-      "value": "Metadb version "
+      "value": "Metadb-Version "
     },
     {
       "type": 1,
@@ -87836,7 +87831,7 @@
   "ui-ldp.error.load-logs": [
     {
       "type": 0,
-      "value": "Could not load Metadb logs: "
+      "value": "Metadb-Protokolle konnten nicht geladen werden: "
     },
     {
       "type": 1,
@@ -87846,7 +87841,7 @@
   "ui-ldp.error.load-processes": [
     {
       "type": 0,
-      "value": "Could not load long-running processes: "
+      "value": "Langlaufende Prozesse konnten nicht geladen werden: "
     },
     {
       "type": 1,
@@ -87866,7 +87861,7 @@
   "ui-ldp.error.load-report": [
     {
       "type": 0,
-      "value": "Could not run report: "
+      "value": "Bericht konnte nicht ausgeführt werden: "
     },
     {
       "type": 1,
@@ -87896,7 +87891,7 @@
   "ui-ldp.error.load-updates": [
     {
       "type": 0,
-      "value": "Could not load recent updates: "
+      "value": "Die letzten Aktualisierungen konnten nicht geladen werden: "
     },
     {
       "type": 1,
@@ -87906,7 +87901,7 @@
   "ui-ldp.error.load-version": [
     {
       "type": 0,
-      "value": "Could not load Metadb version: "
+      "value": "Metadb-Version konnte nicht geladen werden: "
     },
     {
       "type": 1,
@@ -87916,7 +87911,7 @@
   "ui-ldp.error.no-such-query": [
     {
       "type": 0,
-      "value": "No such report: "
+      "value": "Diesen Bericht gibt es nicht: "
     },
     {
       "type": 1,
@@ -87926,7 +87921,7 @@
   "ui-ldp.error.not-metadb": [
     {
       "type": 0,
-      "value": "This facility is only available from a Metadb database, but this app is connected to LDP Classic"
+      "value": "Diese Funktion ist nur über eine Metadb-Datenbank verfügbar, aber diese App ist mit LDP Classic verbunden"
     }
   ],
   "ui-ldp.found-more-than": [
@@ -88028,7 +88023,7 @@
   "ui-ldp.nav.info": [
     {
       "type": 0,
-      "value": "Database info"
+      "value": "Datenbank-Info"
     }
   ],
   "ui-ldp.nav.logs": [
@@ -88058,7 +88053,7 @@
   "ui-ldp.nav.templated-queries": [
     {
       "type": 0,
-      "value": "Run report"
+      "value": "Bericht ausführen"
     }
   ],
   "ui-ldp.nulls": [
@@ -88461,13 +88456,13 @@
   "ui-ldp.settings.tqrepos": [
     {
       "type": 0,
-      "value": "Report repositories"
+      "value": "Berichtsablagen"
     }
   ],
   "ui-ldp.settings.tqrepos.baseUrl": [
     {
       "type": 0,
-      "value": "Base URL of repository"
+      "value": "Basis-URL des Repository"
     }
   ],
   "ui-ldp.settings.tqrepos.branch": [
@@ -88485,13 +88480,13 @@
   "ui-ldp.settings.tqrepos.repo": [
     {
       "type": 0,
-      "value": "Repository name within user's area"
+      "value": "Repository-Name im Bereich der Person"
     }
   ],
   "ui-ldp.settings.tqrepos.type": [
     {
       "type": 0,
-      "value": "Type"
+      "value": "Typ"
     }
   ],
   "ui-ldp.settings.tqrepos.user": [
@@ -88527,25 +88522,25 @@
   "ui-ldp.templated-queries.filter": [
     {
       "type": 0,
-      "value": "Filter listed reports"
+      "value": "Gelistete Berichte filtern"
     }
   ],
   "ui-ldp.templated-queries.instructions": [
     {
       "type": 0,
-      "value": "Instructions"
+      "value": "Anweisungen"
     }
   ],
   "ui-ldp.templated-queries.no-json": [
     {
       "type": 0,
-      "value": "This report has no associated JSON metadata, so it is not possible to present a form for filling in its parameters."
+      "value": "Dieser Bericht verfügt über keine zugehörigen JSON-Metadaten, daher ist es nicht möglich, ein Formular zur Eingabe seiner Parameter anzuzeigen."
     }
   ],
   "ui-ldp.templated-queries.select": [
     {
       "type": 0,
-      "value": "Select report"
+      "value": "Bericht auswählen"
     }
   ],
   "ui-ldp.templated-queries.source": [
@@ -96240,57 +96235,53 @@
     },
     {
       "type": 0,
-      "value": " dropped"
+      "value": " fallengelassen"
     }
   ],
   "ui-myprofile.draggableList.announcements.dragEnd": [
     {
-      "type": 0,
-      "value": "Dropped "
-    },
-    {
       "type": 1,
       "value": "active"
     },
     {
       "type": 0,
-      "value": " at position "
+      "value": " an Position "
     },
     {
       "type": 1,
       "value": "position"
+    },
+    {
+      "type": 0,
+      "value": " abgelegt"
     }
   ],
   "ui-myprofile.draggableList.announcements.dragOver": [
     {
-      "type": 0,
-      "value": "Moved "
-    },
-    {
       "type": 1,
       "value": "active"
     },
     {
       "type": 0,
-      "value": " to position "
+      "value": " auf Position "
     },
     {
       "type": 1,
       "value": "position"
+    },
+    {
+      "type": 0,
+      "value": " verschoben"
     }
   ],
   "ui-myprofile.draggableList.announcements.dragStart": [
     {
-      "type": 0,
-      "value": "Picked up "
-    },
-    {
       "type": 1,
       "value": "active"
     },
     {
       "type": 0,
-      "value": " in position "
+      "value": " in Position "
     },
     {
       "type": 1,
@@ -96298,7 +96289,7 @@
     },
     {
       "type": 0,
-      "value": " of "
+      "value": " von "
     },
     {
       "type": 1,
@@ -96306,13 +96297,13 @@
     },
     {
       "type": 0,
-      "value": " items"
+      "value": " Exemplaren aufgenommen"
     }
   ],
   "ui-myprofile.draggableList.instructions": [
     {
       "type": 0,
-      "value": "Reorderable list. Press space or enter to activate an item for reordering. Use the up and down arrow keys to change the position of the active item."
+      "value": "Neu anordnungsfähige Liste. Drücken Sie die Leertaste oder Eingabetaste, um ein Exemplar zur Neuordnung zu aktivieren. Verwenden Sie die Pfeiltasten nach oben und unten, um die Position des aktiven Exemplars zu ändern."
     }
   ],
   "ui-myprofile.label.settings": [
@@ -96342,55 +96333,55 @@
   "ui-myprofile.settings.appNavOrder.label": [
     {
       "type": 0,
-      "value": "Application display order"
+      "value": "Anwendungsanzeigereihenfolge"
     }
   ],
   "ui-myprofile.settings.appNavOrder.newItem": [
     {
       "type": 0,
-      "value": "New"
+      "value": "Neu"
     }
   ],
   "ui-myprofile.settings.appNavOrder.reset": [
     {
       "type": 0,
-      "value": "Reset to default"
+      "value": "Auf Standard zurücksetzen"
     }
   ],
   "ui-myprofile.settings.appNavOrder.resetError": [
     {
       "type": 0,
-      "value": "There was a problem resetting the app order."
+      "value": "Beim Zurücksetzen der App-Reihenfolge ist ein Problem aufgetreten."
     }
   ],
   "ui-myprofile.settings.appNavOrder.resetSuccess": [
     {
       "type": 0,
-      "value": "Application display order reset to default."
+      "value": "Die Anzeigereihenfolge der Anwendung wurde auf den Standard zurückgesetzt."
     }
   ],
   "ui-myprofile.settings.appNavOrder.save": [
     {
       "type": 0,
-      "value": "Save"
+      "value": "Speichern"
     }
   ],
   "ui-myprofile.settings.appNavOrder.saveError": [
     {
       "type": 0,
-      "value": "There was a problem saving app list order."
+      "value": "Beim Speichern der App-Listenreihenfolge ist ein Problem aufgetreten."
     }
   ],
   "ui-myprofile.settings.appNavOrder.saveSuccess": [
     {
       "type": 0,
-      "value": "Application display order has been successfully updated."
+      "value": "Die Anwendungsanzeigereihenfolge wurde erfolgreich aktualisiert."
     }
   ],
   "ui-myprofile.settings.appNavOrder.visibleInstruction": [
     {
       "type": 0,
-      "value": "Drag & drop to change the display order of FOLIO applications."
+      "value": "Zum Ändern der Anzeigereihenfolge der FOLIO-Anwendungen ziehen und ablegen."
     }
   ],
   "ui-myprofile.settings.changePassword.confirmPassword": [
@@ -96522,25 +96513,25 @@
   "ui-myprofile.settings.languageLocalization.fieldLocale.label": [
     {
       "type": 0,
-      "value": "Locale (for language display, date format etc.)"
+      "value": "Gebietsschema (für Sprachanzeige, Datumsformat usw.)"
     }
   ],
   "ui-myprofile.settings.languageLocalization.label": [
     {
       "type": 0,
-      "value": "Language & localization"
+      "value": "Sprache & Lokalisierung"
     }
   ],
   "ui-myprofile.settings.languageLocalization.resetToDefault": [
     {
       "type": 0,
-      "value": "Reset to default"
+      "value": "Auf Standard zurücksetzen"
     }
   ],
   "ui-myprofile.settings.languageLocalization.tenantDefault": [
     {
       "type": 0,
-      "value": "Tenant default"
+      "value": "Mandantenstandard"
     }
   ],
   "ui-myprofile.userDropdown.changePassword.caption": [
@@ -96564,7 +96555,7 @@
   "ui-notes.permission.item.assign-unassign.execute": [
     {
       "type": 0,
-      "value": "Notes: Can assign and unassign a note"
+      "value": "Notizen: Kann eine Notiz zuweisen und die Zuweisung aufheben"
     }
   ],
   "ui-notes.permission.item.create": [
@@ -96640,7 +96631,7 @@
   "ui-notes.settings.label": [
     {
       "type": 0,
-      "value": "Notes settings"
+      "value": "Notizeinstellungen"
     }
   ],
   "ui-notes.settings.maxAmount": [
@@ -111325,7 +111316,7 @@
   "ui-organizations.vendorInfo.claimingInterval": [
     {
       "type": 0,
-      "value": "Forderungsintervall"
+      "value": "Mahnintervall"
     }
   ],
   "ui-organizations.vendorInfo.discountPercent": [
@@ -123439,7 +123430,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Allowed"
+          "value": "Zulässig"
         }
       ],
       "type": 8,
@@ -123449,17 +123440,21 @@
   "ui-reading-room.allowedActionSuccess": [
     {
       "type": 0,
-      "value": "Permitted entry to "
+      "value": "Zutritt zu "
     },
     {
       "type": 1,
       "value": "readingRoom"
+    },
+    {
+      "type": 0,
+      "value": " gestattet."
     }
   ],
   "ui-reading-room.cancel": [
     {
       "type": 0,
-      "value": "Cancel"
+      "value": "Abbrechen"
     }
   ],
   "ui-reading-room.denyAccess": [
@@ -123467,7 +123462,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Not allowed"
+          "value": "Nicht zulässig"
         }
       ],
       "type": 8,
@@ -123477,13 +123472,13 @@
   "ui-reading-room.enter": [
     {
       "type": 0,
-      "value": "Enter"
+      "value": "Eingeben"
     }
   ],
   "ui-reading-room.findUserPluginNotAvailable": [
     {
       "type": 0,
-      "value": "Plugin not available"
+      "value": "Plugin nicht verfügbar"
     }
   ],
   "ui-reading-room.inactiveUser": [
@@ -123491,7 +123486,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Inactive user"
+          "value": "Inaktive Person"
         }
       ],
       "type": 8,
@@ -123501,25 +123496,25 @@
   "ui-reading-room.meta.title": [
     {
       "type": 0,
-      "value": "Reading room access"
+      "value": "Lesesaalzugang"
     }
   ],
   "ui-reading-room.noReadingRoomDefined": [
     {
       "type": 0,
-      "value": "No reading rooms defined for the current service point"
+      "value": "Für die aktuelle Ausgabestelle sind keine Lesesäle definiert."
     }
   ],
   "ui-reading-room.notAllowedActionSuccess": [
     {
       "type": 0,
-      "value": "Action was successfully saved"
+      "value": "Aktion wurde erfolgreich gespeichert."
     }
   ],
   "ui-reading-room.note": [
     {
       "type": 0,
-      "value": "Note: "
+      "value": "Notiz: "
     },
     {
       "type": 1,
@@ -123529,85 +123524,85 @@
   "ui-reading-room.notes.label": [
     {
       "type": 0,
-      "value": "User notes"
+      "value": "Personen-Notizen"
     }
   ],
   "ui-reading-room.patronBlocks.columns.automated.type": [
     {
       "type": 0,
-      "value": "Automated (cannot be edited)"
+      "value": "Automatisch (nicht editierbar)"
     }
   ],
   "ui-reading-room.patronBlocks.columns.blocked": [
     {
       "type": 0,
-      "value": "Blocked actions"
+      "value": "Gesperrte Aktionen"
     }
   ],
   "ui-reading-room.patronBlocks.columns.borrowing": [
     {
       "type": 0,
-      "value": "Borrowing"
+      "value": "Ausleihen"
     }
   ],
   "ui-reading-room.patronBlocks.columns.desc": [
     {
       "type": 0,
-      "value": "Display description"
+      "value": "Beschreibung anzeigen"
     }
   ],
   "ui-reading-room.patronBlocks.columns.renewals": [
     {
       "type": 0,
-      "value": "Renewals"
+      "value": "Verlängerungen"
     }
   ],
   "ui-reading-room.patronBlocks.columns.requests": [
     {
       "type": 0,
-      "value": "Requests"
+      "value": "Bestandsanfragen"
     }
   ],
   "ui-reading-room.patronBlocks.columns.type": [
     {
       "type": 0,
-      "value": "Type"
+      "value": "Typ"
     }
   ],
   "ui-reading-room.patronBlocks.label": [
     {
       "type": 0,
-      "value": "Patron blocks"
+      "value": "Kontosperren"
     }
   ],
   "ui-reading-room.patronLookup": [
     {
       "type": 0,
-      "value": "Patron look-up"
+      "value": "Personensuche"
     }
   ],
   "ui-reading-room.permission.all": [
     {
       "type": 0,
-      "value": "Reading room access: In app - track access"
+      "value": "Lesesaal-Zugang: In App – Zugang verfolgen"
     }
   ],
   "ui-reading-room.scanOrEnterPatronBarcode": [
     {
       "type": 0,
-      "value": "Scan or enter patron barcode"
+      "value": "Barcode des/der Benutzer/-in scannen oder eingeben"
     }
   ],
   "ui-reading-room.scanPatronCard": [
     {
       "type": 0,
-      "value": "Scan patron card"
+      "value": "Benutzendenausweis scannen"
     }
   ],
   "ui-reading-room.somethingWentWrong": [
     {
       "type": 0,
-      "value": "SomethingWentWrong"
+      "value": "Es ist ein Fehler aufgetreten."
     }
   ],
   "ui-reading-room.userDetail.barcode": [
@@ -123619,43 +123614,43 @@
   "ui-reading-room.userDetail.expiration": [
     {
       "type": 0,
-      "value": "User expiration"
+      "value": "Ablauf Nutzungsberechtigung"
     }
   ],
   "ui-reading-room.userDetail.firstName": [
     {
       "type": 0,
-      "value": "First name"
+      "value": "Vorname"
     }
   ],
   "ui-reading-room.userDetail.lastName": [
     {
       "type": 0,
-      "value": "Last name"
+      "value": "Nachname"
     }
   ],
   "ui-reading-room.userDetail.patronGroup": [
     {
       "type": 0,
-      "value": "Patron group"
+      "value": "Benutzendengruppe"
     }
   ],
   "ui-reading-room.userDetail.preferredFirstName": [
     {
       "type": 0,
-      "value": "Preferred first name"
+      "value": "Bevorzugter Vorname"
     }
   ],
   "ui-reading-room.userDetail.userType": [
     {
       "type": 0,
-      "value": "User type"
+      "value": "Personentyp"
     }
   ],
   "ui-reading-room.userDoesn'tExist": [
     {
       "type": 0,
-      "value": "User with this barcode does not exist"
+      "value": "Person mit diesem Barcode existiert nicht"
     }
   ],
   "ui-receiving.appMenu.receivingAppSearch": [
@@ -129470,7 +129465,7 @@
   "ui-requests.requestLevel": [
     {
       "type": 0,
-      "value": "Request level"
+      "value": "Ebene der Bestandsanfrage"
     }
   ],
   "ui-requests.requestMeta.detailLabel": [
@@ -129992,7 +129987,7 @@
   "ui-requests.requests.copies": [
     {
       "type": 0,
-      "value": "# Copies"
+      "value": "# Exemplare"
     }
   ],
   "ui-requests.requests.createTitleLevelRequest": [

@@ -9955,7 +9955,7 @@
   "stripes-erm-components.accesscontrol.filter.simple.label": [
     {
       "type": 0,
-      "value": "Acquisition unit"
+      "value": "Akviziční jednotka"
     }
   ],
   "stripes-erm-components.accesscontrol.filter.simple.noPolicy": [
@@ -17098,7 +17098,7 @@
   "ui-agreements.agreementsSearch": [
     {
       "type": 0,
-      "value": "Hledání smluv"
+      "value": "Smlouvy"
     }
   ],
   "ui-agreements.alternativeName": [
@@ -18895,13 +18895,13 @@
   "ui-agreements.eresources.gokbPackageUuid": [
     {
       "type": 0,
-      "value": "GOKB package UUID"
+      "value": "Balíček GOKB (UUID)"
     }
   ],
   "ui-agreements.eresources.gokbTitleUuid": [
     {
       "type": 0,
-      "value": "GOKB title UUID"
+      "value": "Název GOKB (UUID)"
     }
   ],
   "ui-agreements.eresources.haveAccess": [
@@ -19023,13 +19023,13 @@
   "ui-agreements.eresources.pauseSync": [
     {
       "type": 0,
-      "value": "Pozastavit synchronizaci"
+      "value": "Zakázat synchronizaci"
     }
   ],
   "ui-agreements.eresources.pauseSyncSelectedPackages": [
     {
       "type": 0,
-      "value": "Pozastavit synchronizaci vybraných balíčků"
+      "value": "Zakázat synchronizaci vybraných balíčků"
     }
   ],
   "ui-agreements.eresources.platform": [
@@ -19191,13 +19191,13 @@
   "ui-agreements.eresources.startSync": [
     {
       "type": 0,
-      "value": "Spustit synchronizaci"
+      "value": "Povolit synchronizaci"
     }
   ],
   "ui-agreements.eresources.startSyncSelectedPackages": [
     {
       "type": 0,
-      "value": "Spuštění synchronizace vybraných balíčků"
+      "value": "Povolit synchronizaci vybraných balíčků"
     }
   ],
   "ui-agreements.eresources.status": [
@@ -19221,13 +19221,13 @@
   "ui-agreements.eresources.syncContentsFromSource.false": [
     {
       "type": 0,
-      "value": "Pozastaveno"
+      "value": "Zakázáno"
     }
   ],
   "ui-agreements.eresources.syncContentsFromSource.true": [
     {
       "type": 0,
-      "value": "Probíhá synchronizace"
+      "value": "Povoleno"
     }
   ],
   "ui-agreements.eresources.syncMultiplePackagesError": [
@@ -19239,13 +19239,13 @@
   "ui-agreements.eresources.syncMultiplePackagesSuccess.PAUSED": [
     {
       "type": 0,
-      "value": "Balíčky byly pozastaveny"
+      "value": "Synchronizace balíčků byla zakázána."
     }
   ],
   "ui-agreements.eresources.syncMultiplePackagesSuccess.SYNCHRONIZING": [
     {
       "type": 0,
-      "value": "Balíčky se synchronizují"
+      "value": "Synchronizace balíčků byla povolena"
     }
   ],
   "ui-agreements.eresources.syncPackageError": [
@@ -19257,21 +19257,13 @@
   "ui-agreements.eresources.syncPackageSuccess.PAUSED": [
     {
       "type": 0,
-      "value": "Balíček: "
+      "value": "Balíček: Synchronizace "
     },
     {
       "children": [
         {
-          "type": 0,
-          "value": " "
-        },
-        {
           "type": 1,
           "value": "packageName"
-        },
-        {
-          "type": 0,
-          "value": " "
         }
       ],
       "type": 8,
@@ -19279,13 +19271,13 @@
     },
     {
       "type": 0,
-      "value": " byl pozastaven"
+      "value": " byla zakázána."
     }
   ],
   "ui-agreements.eresources.syncPackageSuccess.SYNCHRONIZING": [
     {
       "type": 0,
-      "value": "Balení: "
+      "value": "Balíček: Synchronizace "
     },
     {
       "children": [
@@ -19299,13 +19291,13 @@
     },
     {
       "type": 0,
-      "value": " bude synchronizovat"
+      "value": " byla povolena"
     }
   ],
   "ui-agreements.eresources.syncStatus.false": [
     {
       "type": 0,
-      "value": "Pozastaveno"
+      "value": "Zakázáno"
     }
   ],
   "ui-agreements.eresources.syncStatus.notSet": [
@@ -19317,7 +19309,7 @@
   "ui-agreements.eresources.syncStatus.true": [
     {
       "type": 0,
-      "value": "Probíhá synchronizace"
+      "value": "Povoleno"
     }
   ],
   "ui-agreements.eresources.synchronisationStatus": [
@@ -19791,7 +19783,7 @@
   "ui-agreements.gokbSearch": [
     {
       "type": 0,
-      "value": "Vyhledávání GOKB"
+      "value": "GOKB"
     }
   ],
   "ui-agreements.gokbSearch.basket.addPackageToBasket": [
@@ -20507,7 +20499,7 @@
   "ui-agreements.localKBSearch": [
     {
       "type": 0,
-      "value": "Vyhledávání místní KB"
+      "value": "Místní KB"
     }
   ],
   "ui-agreements.meta.title": [
@@ -21978,13 +21970,13 @@
   "ui-agreements.remoteKb.actions.viewInLocalKb": [
     {
       "type": 0,
-      "value": "View title in local KB"
+      "value": "Zobrazit název v místní databázi"
     }
   ],
   "ui-agreements.remoteKb.actions.viewInRemoteKb": [
     {
       "type": 0,
-      "value": "View title in "
+      "value": "Zobrazit název v "
     },
     {
       "type": 1,
@@ -27507,7 +27499,7 @@
   "ui-bulk-edit.settings.profiles.columns.updatedBy": [
     {
       "type": 0,
-      "value": "Aktualizoval"
+      "value": "Aktualizoval/a"
     }
   ],
   "ui-bulk-edit.settings.profiles.details.action.delete.error": [
@@ -31583,7 +31575,7 @@
   "ui-checkout.awaitingPickupMessageHeld": [
     {
       "type": 0,
-      "value": "Borrower has "
+      "value": "Vypůjčitel má na tomto pultu služeb "
     },
     {
       "children": [
@@ -31607,7 +31599,7 @@
           "value": [
             {
               "type": 0,
-              "value": "item"
+              "value": "drženou položku"
             }
           ]
         },
@@ -31615,7 +31607,7 @@
           "value": [
             {
               "type": 0,
-              "value": "items"
+              "value": "držené položky"
             }
           ]
         }
@@ -31626,7 +31618,7 @@
     },
     {
       "type": 0,
-      "value": " held for use at location at this service point."
+      "value": "."
     }
   ],
   "ui-checkout.barcode": [
@@ -37776,7 +37768,7 @@
   "ui-claims.claiming.filters.piece.metadata.updatedByUserId": [
     {
       "type": 0,
-      "value": "Aktualizoval (kus)"
+      "value": "Aktualizoval/a (kus)"
     }
   ],
   "ui-claims.claiming.filters.piece.metadata.updatedDate": [
@@ -37848,7 +37840,7 @@
   "ui-claims.claiming.filters.purchaseOrder.vendor": [
     {
       "type": 0,
-      "value": "Prodejce"
+      "value": "Distributor"
     }
   ],
   "ui-claims.claiming.filters.receiptDate": [
@@ -37890,7 +37882,7 @@
   "ui-claims.claiming.filters.title.metadata.updatedByUserId": [
     {
       "type": 0,
-      "value": "Aktualizoval (Název)"
+      "value": "Aktualizoval/a (Název)"
     }
   ],
   "ui-claims.claiming.filters.title.metadata.updatedDate": [
@@ -38228,7 +38220,7 @@
   "ui-claims.search.index.poLine.vendorDetail.referenceNumbers": [
     {
       "type": 0,
-      "value": "Referenční číslo prodejce"
+      "value": "Referenční číslo distributora"
     }
   ],
   "ui-claims.search.index.purchaseOrder.poNumber": [
@@ -45524,7 +45516,7 @@
   "ui-data-export.holdings.metadata.updatedByUserId": [
     {
       "type": 0,
-      "value": "Holdingy - Aktualizoval"
+      "value": "Holdingy - Aktualizoval/a"
     }
   ],
   "ui-data-export.holdings.metadata.updatedDate": [
@@ -45814,7 +45806,7 @@
   "ui-data-export.instance.metadata.updatedByUserId": [
     {
       "type": 0,
-      "value": "Titul - Aktualizoval"
+      "value": "Titul - Aktualizoval/a"
     }
   ],
   "ui-data-export.instance.metadata.updatedDate": [
@@ -46108,7 +46100,7 @@
   "ui-data-export.item.metadata.updatedByUserId": [
     {
       "type": 0,
-      "value": "Jednotka - Aktualizoval"
+      "value": "Jednotka - Aktualizoval/a"
     }
   ],
   "ui-data-export.item.metadata.updatedDate": [
@@ -50837,7 +50829,7 @@
   "ui-data-import.settings.mappingProfiles.map.administrativeData.field.setForDeletion": [
     {
       "type": 0,
-      "value": "Set for deletion"
+      "value": "Nastavit pro smazání"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.administrativeData.field.staffSuppress": [
@@ -55583,7 +55575,7 @@
   "ui-data-import.updatedBy": [
     {
       "type": 0,
-      "value": "Aktualizoval"
+      "value": "Aktualizoval/a"
     }
   ],
   "ui-data-import.upload.fileSize.invalid": [
@@ -63325,49 +63317,49 @@
   "ui-erm-usage.counter.upload.error.INVALID_REPORT_CONTENT": [
     {
       "type": 0,
-      "value": "The report content is invalid."
+      "value": "Obsah zprávy je neplatný."
     }
   ],
   "ui-erm-usage.counter.upload.error.MAXIMUM_FILESIZE_EXCEEDED": [
     {
       "type": 0,
-      "value": "The file size exceeds the maximum allowed size."
+      "value": "Velikost souboru překračuje maximální povolenou velikost."
     }
   ],
   "ui-erm-usage.counter.upload.error.MULTIPLE_FILES_NOT_SUPPORTED": [
     {
       "type": 0,
-      "value": "Upload of multiple files is not supported."
+      "value": "Nahrávání více souborů není podporováno."
     }
   ],
   "ui-erm-usage.counter.upload.error.OTHER": [
     {
       "type": 0,
-      "value": "The report could not be processed."
+      "value": "Výstup se nepodařilo zpracovat."
     }
   ],
   "ui-erm-usage.counter.upload.error.REPORTS_ALREADY_PRESENT": [
     {
       "type": 0,
-      "value": "One or more reports already exist for the time period."
+      "value": "Pro dané časové období již existuje jeden nebo více výstupů."
     }
   ],
   "ui-erm-usage.counter.upload.error.UNSUPPORTED_FILE_FORMAT": [
     {
       "type": 0,
-      "value": "The file format is not supported."
+      "value": "Formát souboru není podporován."
     }
   ],
   "ui-erm-usage.counter.upload.error.UNSUPPORTED_REPORT_RELEASE": [
     {
       "type": 0,
-      "value": "The COUNTER Release version is not supported."
+      "value": "Verze ČÍTAČE není podporována."
     }
   ],
   "ui-erm-usage.counter.upload.error.UNSUPPORTED_REPORT_TYPE": [
     {
       "type": 0,
-      "value": "The report type is not supported."
+      "value": "Typ výstupu není podporován."
     }
   ],
   "ui-erm-usage.credentials.apiKey": [
@@ -78713,13 +78705,13 @@
   "ui-inventory.item.order.validation.duplicate": [
     {
       "type": 0,
-      "value": "Order number already exists"
+      "value": "Číslo objednávky již existuje"
     }
   ],
   "ui-inventory.item.order.validation.positiveNumber": [
     {
       "type": 0,
-      "value": "Order must be a positive number"
+      "value": "Počty v objednávce musí být kladné čísla"
     }
   ],
   "ui-inventory.item.requestQueue": [
@@ -84212,13 +84204,13 @@
   "ui-invoice.filter.invoiceLine.updatedBy": [
     {
       "type": 0,
-      "value": "Aktualizoval (Položka faktury)"
+      "value": "Aktualizoval/a (Položku faktury)"
     }
   ],
   "ui-invoice.filter.updatedBy": [
     {
       "type": 0,
-      "value": "Aktualizoval"
+      "value": "Aktualizoval/a"
     }
   ],
   "ui-invoice.find-po-line-plugin-unavailable": [
@@ -84242,7 +84234,7 @@
   "ui-invoice.invoice.accountNumber": [
     {
       "type": 0,
-      "value": "Account number"
+      "value": "Číslo účtu"
     }
   ],
   "ui-invoice.invoice.accountingCode": [
@@ -87270,13 +87262,13 @@
   "ui-invoice.versionHistory.label.adjustments.adjustmentId": [
     {
       "type": 0,
-      "value": "Adjustment ID"
+      "value": "Úprava (ID)"
     }
   ],
   "ui-invoice.versionHistory.label.adjustments.description": [
     {
       "type": 0,
-      "value": "Adjustment description"
+      "value": "Popis úpravy"
     }
   ],
   "ui-invoice.versionHistory.label.adjustments.exportToAccounting": [
@@ -87300,25 +87292,25 @@
   "ui-invoice.versionHistory.label.adjustments.type": [
     {
       "type": 0,
-      "value": "Adjustment type"
+      "value": "Typ úpravy"
     }
   ],
   "ui-invoice.versionHistory.label.adjustments.value": [
     {
       "type": 0,
-      "value": "Adjustment value"
+      "value": "Hodnota úpravy"
     }
   ],
   "ui-invoice.versionHistory.label.fundDistributions.code": [
     {
       "type": 0,
-      "value": "Fund distribution code"
+      "value": "Kód rozdělení fondu"
     }
   ],
   "ui-invoice.versionHistory.label.fundDistributions.distributionType": [
     {
       "type": 0,
-      "value": "Fund distribution type"
+      "value": "Typ distribuce fondu"
     }
   ],
   "ui-invoice.versionHistory.label.fundDistributions.expenseClassId": [
@@ -87330,13 +87322,13 @@
   "ui-invoice.versionHistory.label.fundDistributions.fundId": [
     {
       "type": 0,
-      "value": "Fund distribution ID"
+      "value": "Distribuce fondu (ID)"
     }
   ],
   "ui-invoice.versionHistory.label.fundDistributions.value": [
     {
       "type": 0,
-      "value": "Fund distribution value"
+      "value": "Hodnota rozdělení fondu"
     }
   ],
   "ui-invoice.voucher.paneSubTitle": [
@@ -88234,7 +88226,7 @@
   "ui-ldp.saved-queries.delete.updatedBy": [
     {
       "type": 0,
-      "value": "Naposledy aktualizoval "
+      "value": "Naposledy aktualizoval/a "
     },
     {
       "children": [
@@ -88271,7 +88263,7 @@
   "ui-ldp.saved-queries.updater": [
     {
       "type": 0,
-      "value": "Naposledy aktualizoval"
+      "value": "Naposledy aktualizoval/a"
     }
   ],
   "ui-ldp.settings.dbinfo": [
@@ -88401,7 +88393,7 @@
   "ui-ldp.settings.tqrepos.baseUrl": [
     {
       "type": 0,
-      "value": "Base URL of repository"
+      "value": "Základní adresa URL úložiště"
     }
   ],
   "ui-ldp.settings.tqrepos.branch": [
@@ -92135,7 +92127,7 @@
   "ui-lists.list.modal.pane-sub": [
     {
       "type": 0,
-      "value": "List name: "
+      "value": "Název seznamu: "
     },
     {
       "type": 1,
@@ -95622,7 +95614,7 @@
   "ui-marc-authorities.settings.manageAuthoritySourceFiles.column.lastUpdated": [
     {
       "type": 0,
-      "value": "Naposledy aktualizoval"
+      "value": "Naposledy aktualizoval/a"
     }
   ],
   "ui-marc-authorities.settings.manageAuthoritySourceFiles.column.name": [
@@ -102711,7 +102703,7 @@
   "ui-orders.filter.updatedBy": [
     {
       "type": 0,
-      "value": "Aktualizoval"
+      "value": "Aktualizoval/a"
     }
   ],
   "ui-orders.find-po-line-plugin-unavailable": [
@@ -104135,7 +104127,7 @@
   "ui-orders.orderSummary.totalEstimatedPrice.exchanged": [
     {
       "type": 0,
-      "value": "Total estimated price (Exchanged)"
+      "value": "Celková odhadovaná cena (Směněná)"
     }
   ],
   "ui-orders.orderSummary.totalExpended": [
@@ -107778,7 +107770,7 @@
   "ui-orders.versionHistory.updatedByUserId": [
     {
       "type": 0,
-      "value": "Aktualizoval"
+      "value": "Aktualizoval/a"
     }
   ],
   "ui-orders.workflowStatus": [
@@ -109334,7 +109326,7 @@
   "ui-organizations.filterConfig.updatedBy": [
     {
       "type": 0,
-      "value": "Aktualizoval"
+      "value": "Aktualizoval/a"
     }
   ],
   "ui-organizations.filterConfig.vendorStatus": [
@@ -111451,7 +111443,7 @@
   "ui-organizations.versionHistory.field.metadata.updatedByUserId": [
     {
       "type": 0,
-      "value": "Aktualizoval"
+      "value": "Aktualizoval/a"
     }
   ],
   "ui-organizations.versionHistory.field.metadata.updatedDate": [
@@ -116261,7 +116253,7 @@
   "ui-plugin-query-builder.control.search.button.donor_organization": [
     {
       "type": 0,
-      "value": "Donor organization look-up"
+      "value": "Vyhledávání dárcovské organizace"
     }
   ],
   "ui-plugin-query-builder.control.search.button.organization": [
@@ -116291,13 +116283,13 @@
   "ui-plugin-query-builder.control.value.placeholder.donor_organization": [
     {
       "type": 0,
-      "value": "Use the “Donor organization look-up” below to add values"
+      "value": "Pro přidání hodnot použijte \"vyhledávání dárcovských organizací\" níže"
     }
   ],
   "ui-plugin-query-builder.control.value.placeholder.organization": [
     {
       "type": 0,
-      "value": "Use the “Organization look-up” below to add values"
+      "value": "Pro přidání hodnot použijte „Vyhledávání organizace“ níže."
     }
   ],
   "ui-plugin-query-builder.control.value.placeholder.organizations": [
@@ -116351,7 +116343,7 @@
   "ui-plugin-query-builder.modal.entityType": [
     {
       "type": 0,
-      "value": "Record type:"
+      "value": "Typ záznamu:"
     }
   ],
   "ui-plugin-query-builder.modal.preview.countingInProgress": [
@@ -116573,7 +116565,7 @@
   "ui-plugin-query-builder.noOptionsAvailable.donor_organization": [
     {
       "type": 0,
-      "value": "No matches! Use the “Donor organization look-up” below to add organizations"
+      "value": "Žádná shoda! Pro přidání organizací použijte níže uvedenou možnost \"Vyhledávání dárcovských organizací\""
     }
   ],
   "ui-plugin-query-builder.noOptionsAvailable.organization": [
@@ -131147,7 +131139,7 @@
   "ui-serials-management.poLine.productIds": [
     {
       "type": 0,
-      "value": "ID produktů"
+      "value": "Produkty (ID)"
     }
   ],
   "ui-serials-management.poLine.publisher": [
@@ -132499,7 +132491,7 @@
   "ui-serials-management.serials.productIDs": [
     {
       "type": 0,
-      "value": "ID produktů"
+      "value": "Produkty (ID)"
     }
   ],
   "ui-serials-management.serials.publicationPattern": [
@@ -135205,7 +135197,7 @@
   "ui-tenant-settings.settings.servicePoints.defaultCheckinAction.select": [
     {
       "type": 0,
-      "value": "Select an action"
+      "value": "Vybrat akci"
     }
   ],
   "ui-tenant-settings.settings.servicePoints.delete": [
@@ -142451,7 +142443,7 @@
   "ui-users.metadata.updatedByUserId": [
     {
       "type": 0,
-      "value": "Aktualizoval"
+      "value": "Aktualizoval/a"
     }
   ],
   "ui-users.metadata.updatedDate": [
