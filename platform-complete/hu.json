@@ -102083,6 +102083,12 @@
       "value": "Error while deleting purchase order"
     }
   ],
+  "ui-orders.errors.ordersNotLoadedGeneric": [
+    {
+      "type": 0,
+      "value": "Error while loading purchase orders."
+    }
+  ],
   "ui-orders.errors.organizationNotAVendor": [
     {
       "type": 0,
@@ -102207,6 +102213,12 @@
     {
       "type": 0,
       "value": "The receiving title(s) could not be found"
+    }
+  ],
+  "ui-orders.errors.tooLargeRequest": [
+    {
+      "type": 0,
+      "value": "The search request is too large. Please reduce the number of filters or shorten the search term and try again."
     }
   ],
   "ui-orders.errors.userHasMissedAffiliations": [

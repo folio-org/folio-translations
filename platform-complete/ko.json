@@ -102797,6 +102797,12 @@
       "value": "Purchase order를 삭제하는 동안 오류가 발생했습니다."
     }
   ],
+  "ui-orders.errors.ordersNotLoadedGeneric": [
+    {
+      "type": 0,
+      "value": "Error while loading purchase orders."
+    }
+  ],
   "ui-orders.errors.organizationNotAVendor": [
     {
       "type": 0,
@@ -102921,6 +102927,12 @@
     {
       "type": 0,
       "value": "수신 타이틀을 찾을 수 없습니다."
+    }
+  ],
+  "ui-orders.errors.tooLargeRequest": [
+    {
+      "type": 0,
+      "value": "The search request is too large. Please reduce the number of filters or shorten the search term and try again."
     }
   ],
   "ui-orders.errors.userHasMissedAffiliations": [
