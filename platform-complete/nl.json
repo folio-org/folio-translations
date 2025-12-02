@@ -1677,13 +1677,13 @@
   "stripes-acq-components.versionHistory.card.showAll": [
     {
       "type": 0,
-      "value": "Show all"
+      "value": "Alles weergeven"
     }
   ],
   "stripes-acq-components.versionHistory.card.showLess": [
     {
       "type": 0,
-      "value": "Show less"
+      "value": "Minder tonen"
     }
   ],
   "stripes-acq-components.versionHistory.card.systemChange": [
@@ -9894,13 +9894,13 @@
   "stripes-erm-components.accesscontrol.filter.simple.label": [
     {
       "type": 0,
-      "value": "Acquisition unit"
+      "value": "Acquisitie-afdeling"
     }
   ],
   "stripes-erm-components.accesscontrol.filter.simple.noPolicy": [
     {
       "type": 0,
-      "value": "No acquisition unit"
+      "value": "Geen Acquisitie-afdeling"
     }
   ],
   "stripes-erm-components.accesscontrol.label": [
@@ -17050,7 +17050,7 @@
   "ui-agreements.basket.update.error.callout": [
     {
       "type": 0,
-      "value": "Unable to add resource(s) to agreement: "
+      "value": "Kan bron(nen) niet Toevoegen aan Overeenkomst: "
     },
     {
       "type": 1,
@@ -18876,7 +18876,7 @@
   "ui-agreements.eresources.sourceTitleCount": [
     {
       "type": 0,
-      "value": "Source title count"
+      "value": "Bron titel tellen"
     }
   ],
   "ui-agreements.eresources.startSync": [
@@ -26583,13 +26583,13 @@
     },
     {
       "type": 0,
-      "value": " bulk edit profile details"
+      "value": " Profielgegevens in bulk bewerken"
     }
   ],
   "ui-bulk-edit.settings.profiles.title.edit": [
     {
       "type": 0,
-      "value": "Edit "
+      "value": "Editie "
     },
     {
       "type": 1,
@@ -26597,7 +26597,7 @@
     },
     {
       "type": 0,
-      "value": " bulk edit profile"
+      "value": " profiel in bulk bewerken"
     }
   ],
   "ui-bulk-edit.settings.profiles.title.new": [
@@ -26607,7 +26607,7 @@
     },
     {
       "type": 1,
-      "value": "entiteittype"
+      "value": "entityType"
     },
     {
       "type": 0,
@@ -28129,10 +28129,14 @@
     },
     {
       "type": 0,
-      "value": ") is for use at location at "
+      "value": ") is voor gebruik op Locatie op "
     },
     {
       "children": [
+        {
+          "type": 0,
+          "value": "."
+        },
         {
           "type": 1,
           "value": "servicePoint"
@@ -28149,7 +28153,7 @@
   "ui-checkin.actionChoiceModal.title": [
     {
       "type": 0,
-      "value": "For use at location"
+      "value": "Voor gebruik op Locatie"
     }
   ],
   "ui-checkin.actions": [
@@ -28687,19 +28691,19 @@
   "ui-checkin.forUseAtLocation": [
     {
       "type": 0,
-      "value": "For use at location"
+      "value": "Voor gebruik op Locatie"
     }
   ],
   "ui-checkin.forUseAtLocation.Held": [
     {
       "type": 0,
-      "value": "Keep on hold shelf"
+      "value": "In de wacht bewaren"
     }
   ],
   "ui-checkin.forUseAtLocation.Returned": [
     {
       "type": 0,
-      "value": "Close loan and return item"
+      "value": "Uitlening sluiten en item retourneren"
     }
   ],
   "ui-checkin.inHouseUse": [
@@ -29586,7 +29590,7 @@
   "ui-checkout.awaitingPickupMessageHeld": [
     {
       "type": 0,
-      "value": "Borrower has "
+      "value": "Kredietnemer heeft "
     },
     {
       "children": [
@@ -29629,7 +29633,7 @@
     },
     {
       "type": 0,
-      "value": " held for use at location at this service point."
+      "value": " gereserveerd voor gebruik op de Locatie op dit Servicepunt."
     }
   ],
   "ui-checkout.barcode": [
@@ -34327,7 +34331,7 @@
   "ui-circulation.settings.noticePolicy.loanNotices.holdRequestForItem": [
     {
       "type": 0,
-      "value": "Hold request for item"
+      "value": "Reserveringsverzoek voor item"
     }
   ],
   "ui-circulation.settings.noticePolicy.loanNotices.itemRecalled": [
@@ -45662,7 +45666,7 @@
   "ui-data-import.settings.mappingProfiles.map.administrativeData.field.setForDeletion": [
     {
       "type": 0,
-      "value": "Set for deletion"
+      "value": "Instellen voor verwijdering"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.administrativeData.field.staffSuppress": [
@@ -57858,49 +57862,49 @@
   "ui-erm-usage.counter.upload.error.INVALID_REPORT_CONTENT": [
     {
       "type": 0,
-      "value": "The report content is invalid."
+      "value": "De inhoud van het Rapport is ongeldig."
     }
   ],
   "ui-erm-usage.counter.upload.error.MAXIMUM_FILESIZE_EXCEEDED": [
     {
       "type": 0,
-      "value": "The file size exceeds the maximum allowed size."
+      "value": "De bestandsgrootte overschrijdt de maximaal toegestane grootte."
     }
   ],
   "ui-erm-usage.counter.upload.error.MULTIPLE_FILES_NOT_SUPPORTED": [
     {
       "type": 0,
-      "value": "Upload of multiple files is not supported."
+      "value": "Uploaden van meerdere bestanden wordt niet ondersteund."
     }
   ],
   "ui-erm-usage.counter.upload.error.OTHER": [
     {
       "type": 0,
-      "value": "The report could not be processed."
+      "value": "Het Rapport kon niet worden verwerkt."
     }
   ],
   "ui-erm-usage.counter.upload.error.REPORTS_ALREADY_PRESENT": [
     {
       "type": 0,
-      "value": "One or more reports already exist for the time period."
+      "value": "Er bestaan al een of meer Rapporten voor de tijdsperiode."
     }
   ],
   "ui-erm-usage.counter.upload.error.UNSUPPORTED_FILE_FORMAT": [
     {
       "type": 0,
-      "value": "The file format is not supported."
+      "value": "Het bestandsformaat wordt niet ondersteund."
     }
   ],
   "ui-erm-usage.counter.upload.error.UNSUPPORTED_REPORT_RELEASE": [
     {
       "type": 0,
-      "value": "The COUNTER Release version is not supported."
+      "value": "De versie COUNTER Release wordt niet ondersteund."
     }
   ],
   "ui-erm-usage.counter.upload.error.UNSUPPORTED_REPORT_TYPE": [
     {
       "type": 0,
-      "value": "The report type is not supported."
+      "value": "Het type Rapport wordt niet ondersteund."
     }
   ],
   "ui-erm-usage.credentials.apiKey": [
@@ -58106,7 +58110,7 @@
   "ui-erm-usage.general.moreInformation": [
     {
       "type": 0,
-      "value": "More information"
+      "value": "Meer informatie"
     }
   ],
   "ui-erm-usage.general.no": [
@@ -58944,7 +58948,7 @@
   "ui-erm-usage.report.upload.modal.label.failed": [
     {
       "type": 0,
-      "value": "File upload failed"
+      "value": "Uploaden van bestand mislukt"
     }
   ],
   "ui-erm-usage.report.upload.reportExists": [
@@ -58956,7 +58960,7 @@
   "ui-erm-usage.report.upload.selectAnotherFile": [
     {
       "type": 0,
-      "value": "Select another file to upload"
+      "value": "Selecteer een ander bestand om te Uploaden"
     }
   ],
   "ui-erm-usage.report.upload.selectFile": [
@@ -72411,7 +72415,7 @@
     },
     {
       "type": 1,
-      "value": "updatedDate"
+      "value": "date"
     }
   ],
   "ui-inventory.instanceRecordTitle": [
@@ -72758,7 +72762,7 @@
   "ui-inventory.item.order.update.success": [
     {
       "type": 0,
-      "value": "Item movement has been successfully saved."
+      "value": "Item beweging is succesvol opgeslagen."
     }
   ],
   "ui-inventory.item.order.validation.duplicate": [
@@ -73598,31 +73602,31 @@
   "ui-inventory.moveEntity": [
     {
       "type": 0,
-      "value": "Move holdings/items to another instance"
+      "value": "Holdings/items naar een andere Instance verplaatsen"
     }
   ],
   "ui-inventory.moveEntity.instance.actionMenu.disable": [
     {
       "type": 0,
-      "value": "Stop items movement within an instance"
+      "value": "Itembeweging binnen een Instance stoppen"
     }
   ],
   "ui-inventory.moveEntity.instance.actionMenu.enable": [
     {
       "type": 0,
-      "value": "Move items within an instance"
+      "value": "Items binnen een Instance verplaatsen"
     }
   ],
   "ui-inventory.moveEntity.instance.dropZone": [
     {
       "type": 0,
-      "value": "Drop holdings here"
+      "value": "Laat hier holdings vallen"
     }
   ],
   "ui-inventory.moveEntity.instance.holdings.error": [
     {
       "type": 0,
-      "value": "The following holdings could not be moved "
+      "value": "The following Holdings could not be moved "
     },
     {
       "type": 1,
@@ -73630,13 +73634,13 @@
     },
     {
       "type": 0,
-      "value": ". Check the instance record fields and try again or notify your systems administrator."
+      "value": ". Controleer de velden van de instance record en probeer het opnieuw of breng uw systeembeheerder op de hoogte."
     }
   ],
   "ui-inventory.moveEntity.instance.holdings.error.server": [
     {
       "type": 0,
-      "value": "There was a problem updating the following holdings "
+      "value": "There was a problem updating the following Holdings "
     },
     {
       "type": 1,
@@ -73644,7 +73648,7 @@
     },
     {
       "type": 0,
-      "value": ". Please try again or notify your systems administrator."
+      "value": ". Probeer het opnieuw of stel uw systeembeheerder op de hoogte."
     }
   ],
   "ui-inventory.moveEntity.instance.holdings.success": [
@@ -73664,7 +73668,7 @@
           "value": [
             {
               "type": 0,
-              "value": "holding has"
+              "value": "Holdings heeft"
             }
           ]
         },
@@ -73672,7 +73676,7 @@
           "value": [
             {
               "type": 0,
-              "value": "holdings have"
+              "value": "holdings hebben"
             }
           ]
         }
@@ -73683,13 +73687,13 @@
     },
     {
       "type": 0,
-      "value": " been successfully moved."
+      "value": " met succes verplaatst."
     }
   ],
   "ui-inventory.moveEntity.instance.items.error": [
     {
       "type": 0,
-      "value": "The following items could not be moved "
+      "value": "De volgende items konden niet worden verplaatst "
     },
     {
       "type": 1,
@@ -73697,13 +73701,13 @@
     },
     {
       "type": 0,
-      "value": ". Check the instance record fields and try again or notify your systems administrator."
+      "value": ". Controleer de velden van de instance record en probeer het opnieuw of breng uw systeembeheerder op de hoogte."
     }
   ],
   "ui-inventory.moveEntity.instance.items.error.server": [
     {
       "type": 0,
-      "value": "There was a problem updating the following items "
+      "value": "Er is een probleem opgetreden bij het updaten van de volgende items "
     },
     {
       "type": 1,
@@ -73711,7 +73715,7 @@
     },
     {
       "type": 0,
-      "value": ". Please try again or notify your systems administrator."
+      "value": ". Probeer het opnieuw of stel uw systeembeheerder op de hoogte."
     }
   ],
   "ui-inventory.moveEntity.instance.items.success": [
@@ -73731,7 +73735,7 @@
           "value": [
             {
               "type": 0,
-              "value": "item has"
+              "value": "item heeft"
             }
           ]
         },
@@ -73739,7 +73743,7 @@
           "value": [
             {
               "type": 0,
-              "value": "items have"
+              "value": "items hebben"
             }
           ]
         }
@@ -73750,25 +73754,25 @@
     },
     {
       "type": 0,
-      "value": " been successfully moved."
+      "value": " met succes verplaatst."
     }
   ],
   "ui-inventory.moveEntity.items.dropZone": [
     {
       "type": 0,
-      "value": "Drop items here"
+      "value": "Drop items hier"
     }
   ],
   "ui-inventory.moveEntity.modal.confirmLabel": [
     {
       "type": 0,
-      "value": "Continue"
+      "value": "Verder"
     }
   ],
   "ui-inventory.moveEntity.modal.message.hasLinkedPOLsOrHoldings": [
     {
       "type": 0,
-      "value": "This holdings is linked to a purchase order line. Moving this holdings to a new instance will move any other holdings and items that are linked to this purchase order line to the new instance as well. The purchase order line will also be linked to the new instance. Do you want to continue?"
+      "value": "Deze holdings zijn Gekoppeld aan een Regel purchase order. Als u deze holdings naar een nieuwe instantie verplaatst, worden alle andere holdings en items die aan deze Regel purchase order gekoppeld zijn, ook naar de nieuwe instantie verplaatst. De Regel purchase order zal ook aan de nieuwe instantie worden gekoppeld. Wilt u verdergaan?"
     }
   ],
   "ui-inventory.moveEntity.modal.message.holdings": [
@@ -73807,7 +73811,7 @@
     },
     {
       "type": 0,
-      "value": " will be moved to "
+      "value": " wordt verplaatst naar "
     },
     {
       "type": 1,
@@ -73850,7 +73854,7 @@
     },
     {
       "type": 0,
-      "value": " will be moved to "
+      "value": " wordt verplaatst naar "
     },
     {
       "type": 1,
@@ -73860,13 +73864,13 @@
   "ui-inventory.moveEntity.modal.title": [
     {
       "type": 0,
-      "value": "Confirm move"
+      "value": "Zet bevestigen"
     }
   ],
   "ui-inventory.moveEntity.move.holdings.count": [
     {
       "type": 0,
-      "value": "Move: "
+      "value": "Verplaatsen: "
     },
     {
       "style": null,
@@ -73892,7 +73896,7 @@
           "value": [
             {
               "type": 0,
-              "value": "holdings"
+              "value": "Holdings"
             }
           ]
         }
@@ -73905,7 +73909,7 @@
   "ui-inventory.moveEntity.move.items.count": [
     {
       "type": 0,
-      "value": "Move: "
+      "value": "Verplaatsen: "
     },
     {
       "style": null,
@@ -73944,25 +73948,25 @@
   "ui-inventory.moveEntity.moveButton": [
     {
       "type": 0,
-      "value": "Move to"
+      "value": "Ga naar"
     }
   ],
   "ui-inventory.moveEntity.selectAll": [
     {
       "type": 0,
-      "value": "Select/unselect all items for movement"
+      "value": "Selecteren/deselecteren van alle items voor verplaatsing"
     }
   ],
   "ui-inventory.moveEntity.selectHolding": [
     {
       "type": 0,
-      "value": "Select holdings"
+      "value": "Selecteren holdings"
     }
   ],
   "ui-inventory.moveEntity.selectItem": [
     {
       "type": 0,
-      "value": "Select/unselect item for movement"
+      "value": "Item selecteren/deselecteren voor beweging"
     }
   ],
   "ui-inventory.moveItems": [
@@ -77882,7 +77886,7 @@
   "ui-invoice.invoice.accountNumber": [
     {
       "type": 0,
-      "value": "Account number"
+      "value": "Accountnummer"
     }
   ],
   "ui-invoice.invoice.accountingCode": [
@@ -80798,73 +80802,73 @@
   "ui-invoice.versionHistory.label.adjustments.adjustmentId": [
     {
       "type": 0,
-      "value": "Adjustment ID"
+      "value": "Aanpassing ID"
     }
   ],
   "ui-invoice.versionHistory.label.adjustments.description": [
     {
       "type": 0,
-      "value": "Adjustment description"
+      "value": "Omschrijving aanpassing"
     }
   ],
   "ui-invoice.versionHistory.label.adjustments.exportToAccounting": [
     {
       "type": 0,
-      "value": "Adjustment export to accounting"
+      "value": "Aanpassing export naar boekhouding"
     }
   ],
   "ui-invoice.versionHistory.label.adjustments.prorate": [
     {
       "type": 0,
-      "value": "Adjustment pro rate"
+      "value": "Aanpassing Evenredig verdelen"
     }
   ],
   "ui-invoice.versionHistory.label.adjustments.relationToTotal": [
     {
       "type": 0,
-      "value": "Adjustment relation to total"
+      "value": "Aanpassing Gerelateerd aan Totaal"
     }
   ],
   "ui-invoice.versionHistory.label.adjustments.type": [
     {
       "type": 0,
-      "value": "Adjustment type"
+      "value": "Type aanpassing"
     }
   ],
   "ui-invoice.versionHistory.label.adjustments.value": [
     {
       "type": 0,
-      "value": "Adjustment value"
+      "value": "Aanpassingswaarde"
     }
   ],
   "ui-invoice.versionHistory.label.fundDistributions.code": [
     {
       "type": 0,
-      "value": "Fund distribution code"
+      "value": "Distributiecode voor fondsen"
     }
   ],
   "ui-invoice.versionHistory.label.fundDistributions.distributionType": [
     {
       "type": 0,
-      "value": "Fund distribution type"
+      "value": "Type fondsverdeling"
     }
   ],
   "ui-invoice.versionHistory.label.fundDistributions.expenseClassId": [
     {
       "type": 0,
-      "value": "Fund distribution expense class"
+      "value": "Onkostensoort voor fondsdistributie"
     }
   ],
   "ui-invoice.versionHistory.label.fundDistributions.fundId": [
     {
       "type": 0,
-      "value": "Fund distribution ID"
+      "value": "Fondsen distributie ID"
     }
   ],
   "ui-invoice.versionHistory.label.fundDistributions.value": [
     {
       "type": 0,
-      "value": "Fund distribution value"
+      "value": "Waarde fondsverdeling"
     }
   ],
   "ui-invoice.voucher.paneSubTitle": [
@@ -81110,7 +81114,7 @@
   "ui-ldp.button.submitted": [
     {
       "type": 0,
-      "value": "Submitted"
+      "value": "Indienen"
     }
   ],
   "ui-ldp.copy-of": [
@@ -81926,7 +81930,7 @@
   "ui-ldp.settings.tqrepos.baseUrl": [
     {
       "type": 0,
-      "value": "Base URL of repository"
+      "value": "Basis URL van archief"
     }
   ],
   "ui-ldp.settings.tqrepos.branch": [
@@ -87206,7 +87210,7 @@
   "ui-local-kb-admin.org.olf.general.jobs.ExternalEntitlementSyncJob": [
     {
       "type": 0,
-      "value": "External entitlements"
+      "value": "Externe rechten"
     }
   ],
   "ui-local-kb-admin.org.olf.general.jobs.IdentifierReassignmentJob": [
@@ -87248,13 +87252,13 @@
   "ui-local-kb-admin.org.olf.general.jobs.PackageTriggerResyncJob": [
     {
       "type": 0,
-      "value": "Trigger package re-sync"
+      "value": "Pakket opnieuw synchroniseren"
     }
   ],
   "ui-local-kb-admin.org.olf.general.jobs.ResourceDeletionJob": [
     {
       "type": 0,
-      "value": "Delete package contents"
+      "value": "Inhoud van pakket verwijderen"
     }
   ],
   "ui-local-kb-admin.org.olf.general.jobs.ResourceRematchJob": [
@@ -92828,7 +92832,7 @@
   "ui-oai-pmh.error.sww": [
     {
       "type": 0,
-      "value": "Something went wrong."
+      "value": "Er ging iets mis."
     }
   ],
   "ui-oai-pmh.meta.title": [
@@ -93020,7 +93024,7 @@
   "ui-oai-pmh.settings.configuration.update.success": [
     {
       "type": 0,
-      "value": "Setting was successfully updated."
+      "value": "De instelling is bijgewerkt."
     }
   ],
   "ui-oai-pmh.settings.confirmDeleteSetsModal.cancel": [
@@ -108821,19 +108825,19 @@
   "ui-plugin-query-builder.viewer.deletedRecord.emptyField": [
     {
       "type": 0,
-      "value": "—"
+      "value": "-"
     }
   ],
   "ui-plugin-query-builder.viewer.deletedRecord.rowLabel": [
     {
       "type": 0,
-      "value": "Deleted"
+      "value": "Verwijderd"
     }
   ],
   "ui-plugin-query-builder.viewer.deletedRecord.tooltip": [
     {
       "type": 0,
-      "value": "This record has been deleted; refresh the list to remove it from the results."
+      "value": "Dit Record is verwijderd; ververs de lijst om het uit de resultaten te verwijderen."
     }
   ],
   "ui-plugin-query-builder.viewer.retrieving": [
@@ -123984,19 +123988,19 @@
   "ui-serials-management.templates.description": [
     {
       "type": 0,
-      "value": "Description"
+      "value": "Omschrijving"
     }
   ],
   "ui-serials-management.templates.exampleLabel": [
     {
       "type": 0,
-      "value": "Example label"
+      "value": "Voorbeeld label"
     }
   ],
   "ui-serials-management.templates.name": [
     {
       "type": 0,
-      "value": "Name"
+      "value": "Naam"
     }
   ],
   "ui-serials-management.templates.status": [
@@ -125270,7 +125274,7 @@
   "ui-tags.settings.saveError": [
     {
       "type": 0,
-      "value": "An error occurred while saving the tags configuration."
+      "value": "Er is een fout opgetreden tijdens het opslaan van de configuratie van de tags."
     }
   ],
   "ui-tags.settings.tags.label": [
