@@ -91250,6 +91250,80 @@
       "value": " was not cancelled. Verify a refresh is in progress and try again."
     }
   ],
+  "ui-lists.catastrophic-error.entity.type.source.missing.heading": [
+    {
+      "type": 0,
+      "value": "A broken record type is preventing access to the Lists app"
+    }
+  ],
+  "ui-lists.catastrophic-error.entity.type.source.missing.message": [
+    {
+      "type": 0,
+      "value": "Custom record type “"
+    },
+    {
+      "type": 1,
+      "value": "parentEntityTypeName"
+    },
+    {
+      "type": 0,
+      "value": "” ("
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "parentEntityTypeId"
+        }
+      ],
+      "type": 8,
+      "value": "code"
+    },
+    {
+      "type": 0,
+      "value": ") references source “"
+    },
+    {
+      "type": 1,
+      "value": "sourceEntityTypeAlias"
+    },
+    {
+      "type": 0,
+      "value": "” ("
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "sourceEntityTypeId"
+        }
+      ],
+      "type": 8,
+      "value": "code"
+    },
+    {
+      "type": 0,
+      "value": ") which could not be found. The Lists app will not be usable until the source is restored, the source is removed from the definition, or the record type is deleted."
+    }
+  ],
+  "ui-lists.catastrophic-error.fallback.heading": [
+    {
+      "type": 0,
+      "value": "An error is preventing access to the Lists app"
+    }
+  ],
+  "ui-lists.catastrophic-error.fallback.message": [
+    {
+      "type": 0,
+      "value": "Please contact your system administrator for help"
+    }
+  ],
+  "ui-lists.catastrophic-error.missing-all-entity-type-permissions.heading": [
+    {
+      "type": 0,
+      "value": "You do not have the required permissions to use the Lists app"
+    }
+  ],
   "ui-lists.commands-error.permission": [
     {
       "type": 0,
