@@ -92282,13 +92282,13 @@
   "ui-lists.catastrophic-error.fallback.message": [
     {
       "type": 0,
-      "value": "Please contact your system administrator for help"
+      "value": "システム管理者に問い合わせてください"
     }
   ],
   "ui-lists.catastrophic-error.missing-all-entity-type-permissions.heading": [
     {
       "type": 0,
-      "value": "You do not have the required permissions to use the Lists app"
+      "value": "リストアプリを使用するために必要な権限がありません"
     }
   ],
   "ui-lists.commands-error.permission": [
@@ -117612,7 +117612,9 @@
         "one": {
           "value": [
             {
-              "type": 7
+              "style": null,
+              "type": 2,
+              "value": "total"
             },
             {
               "type": 0,
@@ -117623,7 +117625,9 @@
         "other": {
           "value": [
             {
-              "type": 7
+              "style": null,
+              "type": 2,
+              "value": "total"
             },
             {
               "type": 0,
@@ -117646,7 +117650,9 @@
         "one": {
           "value": [
             {
-              "type": 7
+              "style": null,
+              "type": 2,
+              "value": "limit"
             },
             {
               "type": 0,
@@ -117657,7 +117663,9 @@
         "other": {
           "value": [
             {
-              "type": 7
+              "style": null,
+              "type": 2,
+              "value": "limit"
             },
             {
               "type": 0,

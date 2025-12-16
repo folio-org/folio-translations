@@ -37209,7 +37209,7 @@
   "ui-circulation.settings.staffSlips.isRawHtml": [
     {
       "type": 0,
-      "value": "Maintained as raw HTML?"
+      "value": "Utrzymać jako \"raw HTML\"?"
     }
   ],
   "ui-circulation.settings.staffSlips.itemTokenHeader": [
@@ -37827,13 +37827,13 @@
   "ui-claims.claiming.filters.piece.metadata.createdDate": [
     {
       "type": 0,
-      "value": "Zaktualizowano przez (Część)"
+      "value": "Data utworzenia (Część)"
     }
   ],
   "ui-claims.claiming.filters.piece.metadata.updatedByUserId": [
     {
       "type": 0,
-      "value": "Zaktualizowano przez (Część)"
+      "value": "Zaktualizowane przez (Część)"
     }
   ],
   "ui-claims.claiming.filters.piece.metadata.updatedDate": [
@@ -37857,7 +37857,7 @@
   "ui-claims.claiming.filters.piece.receivingStatus": [
     {
       "type": 0,
-      "value": "Status dostawy"
+      "value": "Status odbioru"
     }
   ],
   "ui-claims.claiming.filters.poLine.claimingActive": [
@@ -37947,7 +37947,7 @@
   "ui-claims.claiming.filters.title.metadata.updatedByUserId": [
     {
       "type": 0,
-      "value": "Zaktualizowano przez (Tytuł)"
+      "value": "Zaktualizowane przez (Tytuł)"
     }
   ],
   "ui-claims.claiming.filters.title.metadata.updatedDate": [
@@ -42813,7 +42813,7 @@
   "ui-dashboard.dashboard.name.info": [
     {
       "type": 0,
-      "value": "Krótka nazwa zostanie użyta do utworzenia przycisku menu dla aplikacji Pulpit. Liczba znaków jest ograniczona do maksymalnie 25"
+      "value": "Krótka nazwa zostanie użyta do utworzenia przycisku menu dla aplikacji Panel. Nazwa może mieć maksymalnie 25 znaków"
     }
   ],
   "ui-dashboard.dashboard.name.tooLong": [
@@ -42883,7 +42883,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Warning"
+          "value": "Ostrzeżenie"
         }
       ],
       "type": 8,
@@ -42891,7 +42891,7 @@
     },
     {
       "type": 0,
-      "value": ": The logged in user does not exist as a user on this dashboard. Access is being granted through a high level system permission (via \"ui-dashboard.dashboards.admin.manage\")."
+      "value": ": Zalogowany użytkownik nie jest zapisany jako użytkownik w tym panelu. Dostęp został przyznany dzięki uprawnieniom administracyjnym wyższego poziomu (przez „ui-dashboard.dashboards.admin.manage”)."
     }
   ],
   "ui-dashboard.dashboardUsers.addUser": [
@@ -43369,7 +43369,7 @@
   "ui-dashboard.okay": [
     {
       "type": 0,
-      "value": "Okay"
+      "value": "OK"
     }
   ],
   "ui-dashboard.saveAndClose": [
@@ -44413,7 +44413,7 @@
   "ui-dashboard.widgetForm.createWidget": [
     {
       "type": 0,
-      "value": "Utwórz widżet"
+      "value": "Nowy widżet"
     }
   ],
   "ui-dashboard.widgetForm.editWidget": [
@@ -55990,25 +55990,25 @@
   "ui-developer.configuration.actAsRoot": [
     {
       "type": 0,
-      "value": "Zachowywać się tak, jakby użytkownik miał wszystkie uprawnienia?"
+      "value": "Działać tak, jakby użytkownik miał wszystkie uprawnienia?"
     }
   ],
   "ui-developer.configuration.autoLoginPassword": [
     {
       "type": 0,
-      "value": "Hasło automatycznego logowania"
+      "value": "Hasło do automatycznego logowania"
     }
   ],
   "ui-developer.configuration.autoLoginUsername": [
     {
       "type": 0,
-      "value": "Nazwa użytkownika automatycznego logowania"
+      "value": "Nazwa użytkownika do automatycznego logowania"
     }
   ],
   "ui-developer.configuration.listInvisiblePermissions": [
     {
       "type": 0,
-      "value": "Wyświetlić uprawnienia „niewidoczne” w menu uprawnień?"
+      "value": "Wyświetlić „niewidoczne” uprawnienia w menu dodawania uprawnień?"
     }
   ],
   "ui-developer.configuration.loggingCategories": [
@@ -56040,19 +56040,19 @@
   "ui-developer.configuration.preserveConsole": [
     {
       "type": 0,
-      "value": "Preserve console on logout"
+      "value": "Zachowaj konsolę przy wylogowaniu"
     }
   ],
   "ui-developer.configuration.showDevInfo": [
     {
       "type": 0,
-      "value": "Pokaż informacje programisty"
+      "value": "Pokaż informacje dla programisty"
     }
   ],
   "ui-developer.configuration.showHomeLink": [
     {
       "type": 0,
-      "value": "Pokaż link do strony głównej w menu w prawym górnym rogu"
+      "value": "Pokaż link „Strona główna” w prawym górnym menu"
     }
   ],
   "ui-developer.configuration.showPermissionsInMenu": [
@@ -56064,13 +56064,13 @@
   "ui-developer.configuration.suppressIntlErrors": [
     {
       "type": 0,
-      "value": "Pomiń błędy intl"
+      "value": "Ukryj błędy intl"
     }
   ],
   "ui-developer.configuration.suppressIntlWarnings": [
     {
       "type": 0,
-      "value": "Suppress intl warnings"
+      "value": "Ukryj ostrzeżenia intl"
     }
   ],
   "ui-developer.dependencies": [
@@ -56094,7 +56094,7 @@
   "ui-developer.dependencies.interfacesProvided": [
     {
       "type": 0,
-      "value": "# udostępnionych interfejsów"
+      "value": "# udostępnianych interfejsów"
     }
   ],
   "ui-developer.dependencies.interfacesRequired": [
@@ -56122,13 +56122,13 @@
   "ui-developer.dependencies.ui-modules": [
     {
       "type": 0,
-      "value": "Moduły UI"
+      "value": "Moduły interfejsu użytkownika"
     }
   ],
   "ui-developer.folioBabies": [
     {
       "type": 0,
-      "value": "FOLIO babies"
+      "value": "Folio babies"
     }
   ],
   "ui-developer.handler-surface": [
@@ -56826,7 +56826,7 @@
   "ui-developer.okapiTimers": [
     {
       "type": 0,
-      "value": "Okapi timers"
+      "value": "Timery Okapi"
     }
   ],
   "ui-developer.okapiTimers.delay": [
@@ -57125,7 +57125,7 @@
   "ui-developer.perms.showDisplayName": [
     {
       "type": 0,
-      "value": "Pokaż nazwę wyświetlaną oraz prawdziwą"
+      "value": "Pokaż nazwę wyświetlaną oraz nazwę techniczną"
     }
   ],
   "ui-developer.perms.visibleOnly": [
@@ -57341,7 +57341,7 @@
   "ui-developer.sessionLocale": [
     {
       "type": 0,
-      "value": "Ustawienia regionalne sesji"
+      "value": "Ustawienia języka sesji"
     }
   ],
   "ui-developer.sessionLocale.temporarySessionLocale": [
@@ -57425,7 +57425,7 @@
   "ui-developer.userLocale": [
     {
       "type": 0,
-      "value": "User locale"
+      "value": "Ustawienia języka użytkownika"
     }
   ],
   "ui-developer.userLocale.currency": [
@@ -71198,7 +71198,7 @@
   "ui-gobi-settings.order.mappings.field.claimInterval": [
     {
       "type": 0,
-      "value": "Okres reklamacyjny"
+      "value": "Interwał monitowania"
     }
   ],
   "ui-gobi-settings.order.mappings.field.collection": [
@@ -71846,19 +71846,19 @@
   "ui-gobi-settings.order.mappings.type.listedElectronicMonograph": [
     {
       "type": 0,
-      "value": "Listed electronic monograph"
+      "value": "Elektroniczna monografia wymienione na liście"
     }
   ],
   "ui-gobi-settings.order.mappings.type.listedElectronicSerial": [
     {
       "type": 0,
-      "value": "Listed electronic serial"
+      "value": "Czasopismo elektroniczne wymienione na liście"
     }
   ],
   "ui-gobi-settings.order.mappings.type.listedPrintMonograph": [
     {
       "type": 0,
-      "value": "Listed print monograph"
+      "value": "Monografia drukowana wymieniona na liście"
     }
   ],
   "ui-gobi-settings.order.mappings.type.listedPrintSerial": [
@@ -71870,13 +71870,13 @@
   "ui-gobi-settings.order.mappings.type.unlistedPrintMonograph": [
     {
       "type": 0,
-      "value": "Unlisted print monograph"
+      "value": "Monografia drukowana, która nie jest ujęta na liście"
     }
   ],
   "ui-gobi-settings.order.mappings.type.unlistedPrintSerial": [
     {
       "type": 0,
-      "value": "Unlisted print serial"
+      "value": "Wydawnictwo ciągłe drukowane, które nie jest ujęte na liście"
     }
   ],
   "ui-gobi-settings.permission.settings": [
@@ -87791,7 +87791,7 @@
   "ui-ldp.direction": [
     {
       "type": 0,
-      "value": "Sort direction"
+      "value": "Kierunek sortowania"
     }
   ],
   "ui-ldp.direction.asc": [
@@ -89079,7 +89079,7 @@
   "ui-licenses.customProperties.errors.customPropertyNoteWithoutValue": [
     {
       "type": 0,
-      "value": "A value must be set in order to save a note"
+      "value": "Aby zapisać uwagę, musisz podać wartość"
     }
   ],
   "ui-licenses.customProperties.errors.primaryRetired": [
@@ -89647,7 +89647,7 @@
   "ui-licenses.errors.hasNonAlphaName": [
     {
       "type": 0,
-      "value": "The name can only contain Latin alphabetical characters (a-z) and non-leading numeric characters."
+      "value": "Nazwa może zawierać tylko litery alfabetu łacińskiego (a–z) oraz cyfry bez zer wiodących."
     }
   ],
   "ui-licenses.errors.invalidNumber": [
@@ -91601,7 +91601,7 @@
   "ui-lists.catastrophic-error.fallback.message": [
     {
       "type": 0,
-      "value": "Please contact your system administrator for help"
+      "value": "Aby uzyskać pomoc, skontaktuj się z administratorem systemu"
     }
   ],
   "ui-lists.catastrophic-error.missing-all-entity-type-permissions.heading": [
@@ -111387,7 +111387,7 @@
   "ui-organizations.vendorInfo.claimingInterval": [
     {
       "type": 0,
-      "value": "Okres reklamacyjny"
+      "value": "Interwał monitowania"
     }
   ],
   "ui-organizations.vendorInfo.discountPercent": [
@@ -116313,7 +116313,7 @@
   "ui-plugin-find-user.filter.userType": [
     {
       "type": 0,
-      "value": "User type"
+      "value": "Typ użytkownika"
     }
   ],
   "ui-plugin-find-user.inactive": [
@@ -123715,7 +123715,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Nieaktywny użytkownik"
+          "value": "Użytkownik nieaktywny"
         }
       ],
       "type": 8,
@@ -124047,7 +124047,7 @@
   "ui-receiving.errors.cannotFindPiecesWithLatestStatusToProcess": [
     {
       "type": 0,
-      "value": "Element musi mieć status „Opóźniony”, aby można go było przetworzyć."
+      "value": "Aby element mógł zostać przetworzony, musi mieć status „Spóźniony”."
     }
   ],
   "ui-receiving.errors.createItemForPieceIsNotAllowedError": [
@@ -124355,25 +124355,25 @@
   "ui-receiving.filter.piece.createdBy": [
     {
       "type": 0,
-      "value": "Created by (Piece)"
+      "value": "Utworzone przez (Część)"
     }
   ],
   "ui-receiving.filter.piece.dateCreated": [
     {
       "type": 0,
-      "value": "Date created (Piece)"
+      "value": "Data utworzenia (Część)"
     }
   ],
   "ui-receiving.filter.piece.dateUpdated": [
     {
       "type": 0,
-      "value": "Date updated (Piece)"
+      "value": "Data aktualizacji (Część)"
     }
   ],
   "ui-receiving.filter.piece.updatedBy": [
     {
       "type": 0,
-      "value": "Updated by (Piece)"
+      "value": "Zaktualizowane przez (Część)"
     }
   ],
   "ui-receiving.filter.receivingStatus": [
@@ -125641,7 +125641,7 @@
   "ui-receiving.title.claimingInterval": [
     {
       "type": 0,
-      "value": "Okres reklamacyjny"
+      "value": "Interwał monitowania"
     }
   ],
   "ui-receiving.title.closedOrderMessage": [
@@ -126123,7 +126123,7 @@
   "ui-remote-storage.accession-workflow.title": [
     {
       "type": 0,
-      "value": "Accession holding workflow preference"
+      "value": "Preferencje przepływu pracy dla przyjęcia zasobu"
     }
   ],
   "ui-remote-storage.accession-workflow.tooltip": [
@@ -126213,7 +126213,7 @@
   "ui-remote-storage.details.credProperties": [
     {
       "type": 0,
-      "value": "Credential properties"
+      "value": "Właściwości danych logowania"
     }
   ],
   "ui-remote-storage.details.name": [
@@ -126419,7 +126419,7 @@
   "ui-remote-storage.returning-workflow.title": [
     {
       "type": 0,
-      "value": "Returning workflow preference"
+      "value": "Zwracanie preferencji przepływu pracy"
     }
   ],
   "ui-remote-storage.returning-workflow.tooltip": [
@@ -126607,7 +126607,7 @@
   "ui-remote-storage.synchronization.schedule.info.notSet": [
     {
       "type": 0,
-      "value": "Not set"
+      "value": "Nie ustawiono"
     }
   ],
   "ui-remote-storage.synchronization.schedule.info.notValid": [
@@ -128520,7 +128520,7 @@
   "ui-requests.errors.holdShelfRequestsRequirePickupServicePoint": [
     {
       "type": 0,
-      "value": "Hold shelf fulfillment requests require a Pickup service point"
+      "value": "W przypadku realizacji rezerwacji \"odbiór na miejscu\" wymagany jest punkt obsługi"
     }
   ],
   "ui-requests.errors.instanceHasAlreadyBeenRequested": [
@@ -128586,7 +128586,7 @@
   "ui-requests.errors.requestLevelIsNotAllowed": [
     {
       "type": 0,
-      "value": "Request level must be one of the following: \"Item\", \"Title\""
+      "value": "Poziom rezerwacji musi być jednym z następujących: „Egzemplarz”, „Tytuł”"
     }
   ],
   "ui-requests.errors.requestNotAllowedForPatronTitleCombination": [
@@ -130902,7 +130902,7 @@
   "ui-serials-management.numberOfCycles.infoPopover": [
     {
       "type": 0,
-      "value": "This controls the number of years of predicted pieces that are to be generated, except in the case of multi-year cycles (e.g. 1 issue every 2 years) where it controls the number of multi-year cycles to be used for prediction. The total number of issues to be predicted cannot be >366 (e.g. one year of daily issues or 30 years of monthly issues). Note that it is recommend not to predict large numbers of years in one go in case the serial changes publication frequency in the future."
+      "value": "Kontroluje liczbę lat dla, których mają być generowane przewidywane pozycje z wyjątkiem cykli wieloletnich (np. 1 zeszyt co 2 lata), gdzie określa liczbę takich cykli do przewidzenia. Łączna liczba przewidywanych zeszytów nie może być większa niż 366 (np. jeden rok zeszytów wydawanych codziennie lub 30 lat zeszytów wydawanych co miesiąc). Zaleca się, aby nie przewidywać dużej liczby lat na raz na wypadek, gdyby czasopismo zmieniło częstotliwość ukazywania się w przyszłości."
     }
   ],
   "ui-serials-management.patternTemplate": [
@@ -135611,7 +135611,7 @@
   "ui-tenant-settings.settings.servicePoints.ok": [
     {
       "type": 0,
-      "value": "Zgoda"
+      "value": "OK"
     }
   ],
   "ui-tenant-settings.settings.servicePoints.pickupLocation": [

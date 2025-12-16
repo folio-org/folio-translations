@@ -30108,7 +30108,7 @@
   "ui-checkin.actionChoiceModal.text": [
     {
       "type": 0,
-      "value": "Item "
+      "value": "Jednotka "
     },
     {
       "children": [
@@ -30134,7 +30134,7 @@
     },
     {
       "type": 0,
-      "value": " (Barcode "
+      "value": " (čárový kód "
     },
     {
       "type": 1,
@@ -30142,7 +30142,7 @@
     },
     {
       "type": 0,
-      "value": ") is for use at location at "
+      "value": ") je určena k použití na místě na adrese "
     },
     {
       "children": [
@@ -46466,7 +46466,7 @@
     },
     {
       "type": 0,
-      "value": " pro spuštění exportu"
+      "value": " pro spuštění exportu."
     }
   ],
   "ui-data-export.jobProfiles.selectProfile.modal.selectTitle": [
@@ -91575,13 +91575,13 @@
   "ui-lists.catastrophic-error.fallback.message": [
     {
       "type": 0,
-      "value": "Please contact your system administrator for help"
+      "value": "Požádejte prosím o pomoc správce systému"
     }
   ],
   "ui-lists.catastrophic-error.missing-all-entity-type-permissions.heading": [
     {
       "type": 0,
-      "value": "You do not have the required permissions to use the Lists app"
+      "value": "Nemáte potřebná oprávnění k používání aplikace Seznamy."
     }
   ],
   "ui-lists.commands-error.permission": [
@@ -92444,12 +92444,39 @@
   ],
   "ui-lists.mainPane.subTitle": [
     {
-      "type": 1,
+      "offset": 0,
+      "options": {
+        "=0": {
+          "value": [
+            {
+              "type": 0,
+              "value": "Nenalezeny žádné záznamy"
+            }
+          ]
+        },
+        "=1": {
+          "value": [
+            {
+              "type": 0,
+              "value": "Nalezen 1 záznam"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "Nalezeno záznamů: "
+            },
+            {
+              "type": 7
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
       "value": "count"
-    },
-    {
-      "type": 0,
-      "value": " nalezených záznamů"
     }
   ],
   "ui-lists.mainPane.title": [
@@ -92679,7 +92706,7 @@
     },
     {
       "type": 0,
-      "value": " (custom)"
+      "value": " (vlastní)"
     },
     {
       "offset": 0,
@@ -126091,19 +126118,19 @@
   "ui-remote-storage.accession-tables.empty": [
     {
       "type": 0,
-      "value": "Tabulky CaiaSoft Accession jsou dostupné po konfiguraci vzdáleného úložiště."
+      "value": "Přírůstkové tabulky CaiaSoft jsou dostupné po konfiguraci vzdáleného úložiště."
     }
   ],
   "ui-remote-storage.accession-tables.open": [
     {
       "type": 0,
-      "value": "Otevřít tabulku přístupů"
+      "value": "Otevřít přírůstkovou tabulku"
     }
   ],
   "ui-remote-storage.accession-tables.title": [
     {
       "type": 0,
-      "value": "Přístupové tabulky"
+      "value": "Přírůstkové tabulky"
     }
   ],
   "ui-remote-storage.accession-workflow.error.undefined": [

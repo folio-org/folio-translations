@@ -15868,7 +15868,7 @@
   "ui-acquisition-units.document.settings.title": [
     {
       "type": 0,
-      "value": "Acquisition units settings"
+      "value": "采购单位设置"
     }
   ],
   "ui-acquisition-units.meta.title": [
@@ -30468,7 +30468,7 @@
   "ui-checkin.actionChoiceModal.text": [
     {
       "type": 0,
-      "value": "Item "
+      "value": "单件 "
     },
     {
       "children": [
@@ -30478,7 +30478,7 @@
         },
         {
           "type": 0,
-          "value": " ("
+          "value": " （"
         },
         {
           "type": 1,
@@ -30486,7 +30486,7 @@
         },
         {
           "type": 0,
-          "value": ")"
+          "value": "）"
         }
       ],
       "type": 8,
@@ -30494,7 +30494,7 @@
     },
     {
       "type": 0,
-      "value": " (Barcode "
+      "value": "（ 条码 "
     },
     {
       "type": 1,
@@ -30502,7 +30502,7 @@
     },
     {
       "type": 0,
-      "value": ") is for use at location at "
+      "value": "）用于位置 "
     },
     {
       "children": [
@@ -30516,13 +30516,13 @@
     },
     {
       "type": 0,
-      "value": "."
+      "value": "。"
     }
   ],
   "ui-checkin.actionChoiceModal.title": [
     {
       "type": 0,
-      "value": "For use at location"
+      "value": "在现场使用"
     }
   ],
   "ui-checkin.actions": [
@@ -31120,19 +31120,19 @@
   "ui-checkin.forUseAtLocation": [
     {
       "type": 0,
-      "value": "For use at location"
+      "value": "在现场使用"
     }
   ],
   "ui-checkin.forUseAtLocation.Held": [
     {
       "type": 0,
-      "value": "Keep on hold shelf"
+      "value": "保留在预约架上"
     }
   ],
   "ui-checkin.forUseAtLocation.Returned": [
     {
       "type": 0,
-      "value": "Close loan and return item"
+      "value": "结束借阅并归还单件"
     }
   ],
   "ui-checkin.inHouseUse": [
@@ -32067,7 +32067,7 @@
   "ui-checkout.awaitingPickupMessageHeld": [
     {
       "type": 0,
-      "value": "Borrower has "
+      "value": "借阅者有 "
     },
     {
       "children": [
@@ -32091,7 +32091,7 @@
           "value": [
             {
               "type": 0,
-              "value": "item"
+              "value": "单件"
             }
           ]
         },
@@ -32099,7 +32099,7 @@
           "value": [
             {
               "type": 0,
-              "value": "items"
+              "value": "单件"
             }
           ]
         }
@@ -32110,7 +32110,7 @@
     },
     {
       "type": 0,
-      "value": " held for use at location at this service point."
+      "value": " 预约于此服务点，供现场使用。"
     }
   ],
   "ui-checkout.barcode": [
@@ -36983,7 +36983,7 @@
   "ui-circulation.settings.noticePolicy.loanNotices.holdRequestForItem": [
     {
       "type": 0,
-      "value": "Hold request for item"
+      "value": "单件的预约请求"
     }
   ],
   "ui-circulation.settings.noticePolicy.loanNotices.itemRecalled": [
@@ -47715,21 +47715,13 @@
   "ui-data-export.jobProfiles.selectProfile.modal.message": [
     {
       "type": 0,
-      "value": "已选择"
+      "value": "您已选择 "
     },
     {
       "children": [
         {
-          "type": 0,
-          "value": " "
-        },
-        {
           "type": 1,
           "value": "profile"
-        },
-        {
-          "type": 0,
-          "value": " "
         }
       ],
       "type": 8,
@@ -47737,7 +47729,7 @@
     },
     {
       "type": 0,
-      "value": "来运行导出"
+      "value": " 运行导出操作。"
     }
   ],
   "ui-data-export.jobProfiles.selectProfile.modal.selectTitle": [
@@ -58695,13 +58687,13 @@
   "ui-developer.schedulerTimers": [
     {
       "type": 0,
-      "value": "mod-scheduler timers"
+      "value": "模块调度器定时器"
     }
   ],
   "ui-developer.schedulerTimers.delay": [
     {
       "type": 0,
-      "value": "Delay"
+      "value": "延迟"
     }
   ],
   "ui-developer.schedulerTimers.id": [
@@ -58713,37 +58705,37 @@
   "ui-developer.schedulerTimers.method": [
     {
       "type": 0,
-      "value": "Method"
+      "value": "方式"
     }
   ],
   "ui-developer.schedulerTimers.moduleName": [
     {
       "type": 0,
-      "value": "Module"
+      "value": "模块"
     }
   ],
   "ui-developer.schedulerTimers.path": [
     {
       "type": 0,
-      "value": "Path"
+      "value": "路径"
     }
   ],
   "ui-developer.schedulerTimers.schedule": [
     {
       "type": 0,
-      "value": "Schedule"
+      "value": "时间表"
     }
   ],
   "ui-developer.schedulerTimers.type": [
     {
       "type": 0,
-      "value": "Type"
+      "value": "类型"
     }
   ],
   "ui-developer.schedulerTimers.unit": [
     {
       "type": 0,
-      "value": "Unit"
+      "value": "单位"
     }
   ],
   "ui-developer.search": [
@@ -86073,7 +86065,7 @@
   "ui-invoice.errors.cannotConvertAmountInvalidCurrency": [
     {
       "type": 0,
-      "value": "The selected currency cannot be converted. Please configure an exchange rate provider that supports this currency."
+      "value": "所选货币无法兑换。请配置支持此货币的汇率提供商。"
     }
   ],
   "ui-invoice.errors.cantLoadAdjustment": [
@@ -86337,7 +86329,7 @@
   "ui-invoice.invoice.accountNumber": [
     {
       "type": 0,
-      "value": "Account number"
+      "value": "账号"
     }
   ],
   "ui-invoice.invoice.accountingCode": [
@@ -89573,73 +89565,73 @@
   "ui-invoice.versionHistory.label.adjustments.adjustmentId": [
     {
       "type": 0,
-      "value": "Adjustment ID"
+      "value": "调整 ID"
     }
   ],
   "ui-invoice.versionHistory.label.adjustments.description": [
     {
       "type": 0,
-      "value": "Adjustment description"
+      "value": "调整说明"
     }
   ],
   "ui-invoice.versionHistory.label.adjustments.exportToAccounting": [
     {
       "type": 0,
-      "value": "Adjustment export to accounting"
+      "value": "调整输出到会计"
     }
   ],
   "ui-invoice.versionHistory.label.adjustments.prorate": [
     {
       "type": 0,
-      "value": "Adjustment pro rate"
+      "value": "按比例调整"
     }
   ],
   "ui-invoice.versionHistory.label.adjustments.relationToTotal": [
     {
       "type": 0,
-      "value": "Adjustment relation to total"
+      "value": "与总额的调整关系"
     }
   ],
   "ui-invoice.versionHistory.label.adjustments.type": [
     {
       "type": 0,
-      "value": "Adjustment type"
+      "value": "调整类型"
     }
   ],
   "ui-invoice.versionHistory.label.adjustments.value": [
     {
       "type": 0,
-      "value": "Adjustment value"
+      "value": "调整值"
     }
   ],
   "ui-invoice.versionHistory.label.fundDistributions.code": [
     {
       "type": 0,
-      "value": "Fund distribution code"
+      "value": "经费分配代码"
     }
   ],
   "ui-invoice.versionHistory.label.fundDistributions.distributionType": [
     {
       "type": 0,
-      "value": "Fund distribution type"
+      "value": "经费分配类型"
     }
   ],
   "ui-invoice.versionHistory.label.fundDistributions.expenseClassId": [
     {
       "type": 0,
-      "value": "Fund distribution expense class"
+      "value": "经费分配 支出类别"
     }
   ],
   "ui-invoice.versionHistory.label.fundDistributions.fundId": [
     {
       "type": 0,
-      "value": "Fund distribution ID"
+      "value": "经费分配ID"
     }
   ],
   "ui-invoice.versionHistory.label.fundDistributions.value": [
     {
       "type": 0,
-      "value": "Fund distribution value"
+      "value": "经费分配值"
     }
   ],
   "ui-invoice.voucher.paneSubTitle": [
@@ -89885,7 +89877,7 @@
   "ui-ldp.button.submitted": [
     {
       "type": 0,
-      "value": "Submitted"
+      "value": "已提交"
     }
   ],
   "ui-ldp.copy-of": [
@@ -90730,7 +90722,7 @@
   "ui-ldp.settings.tqrepos.baseUrl": [
     {
       "type": 0,
-      "value": "Base URL of repository"
+      "value": "存储库的基本 URL"
     }
   ],
   "ui-ldp.settings.tqrepos.branch": [
@@ -94006,13 +93998,13 @@
   "ui-lists.catastrophic-error.entity.type.source.missing.heading": [
     {
       "type": 0,
-      "value": "A broken record type is preventing access to the Lists app"
+      "value": "损坏的记录类型阻止对“列表”应用的访问。"
     }
   ],
   "ui-lists.catastrophic-error.entity.type.source.missing.message": [
     {
       "type": 0,
-      "value": "Custom record type “"
+      "value": "自定义记录类型“"
     },
     {
       "type": 1,
@@ -94020,7 +94012,7 @@
     },
     {
       "type": 0,
-      "value": "” ("
+      "value": "”（"
     },
     {
       "children": [
@@ -94034,7 +94026,7 @@
     },
     {
       "type": 0,
-      "value": ") references source “"
+      "value": "）参考来源“"
     },
     {
       "type": 1,
@@ -94042,7 +94034,7 @@
     },
     {
       "type": 0,
-      "value": "” ("
+      "value": "”（"
     },
     {
       "children": [
@@ -94056,25 +94048,25 @@
     },
     {
       "type": 0,
-      "value": ") which could not be found. The Lists app will not be usable until the source is restored, the source is removed from the definition, or the record type is deleted."
+      "value": "找不到该数据源。在恢复数据源、从定义中移除数据源或删除记录类型之前，“列表”应用将无法使用。"
     }
   ],
   "ui-lists.catastrophic-error.fallback.heading": [
     {
       "type": 0,
-      "value": "An error is preventing access to the Lists app"
+      "value": "出现错误，无法访问“列表”应用"
     }
   ],
   "ui-lists.catastrophic-error.fallback.message": [
     {
       "type": 0,
-      "value": "Please contact your system administrator for help"
+      "value": "请联系系统管理员寻求帮助"
     }
   ],
   "ui-lists.catastrophic-error.missing-all-entity-type-permissions.heading": [
     {
       "type": 0,
-      "value": "You do not have the required permissions to use the Lists app"
+      "value": "您没有使用 Lists 应用所需的权限"
     }
   ],
   "ui-lists.commands-error.permission": [
@@ -94842,7 +94834,7 @@
   "ui-lists.list.modal.pane-sub": [
     {
       "type": 0,
-      "value": "List name: "
+      "value": "列表名称： "
     },
     {
       "type": 1,
@@ -95009,16 +95001,39 @@
   ],
   "ui-lists.mainPane.subTitle": [
     {
-      "type": 0,
-      "value": "找到"
-    },
-    {
-      "type": 1,
+      "offset": 0,
+      "options": {
+        "=0": {
+          "value": [
+            {
+              "type": 0,
+              "value": "未找到记录"
+            }
+          ]
+        },
+        "=1": {
+          "value": [
+            {
+              "type": 0,
+              "value": "找到 1 条记录"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " 找到的记录"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
       "value": "count"
-    },
-    {
-      "type": 0,
-      "value": "条记录"
     }
   ],
   "ui-lists.mainPane.title": [
@@ -95218,7 +95233,7 @@
     },
     {
       "type": 0,
-      "value": " (built-in)"
+      "value": " （内置）"
     }
   ],
   "ui-lists.record-types.label.deduplication.custom.no-built-in": [
@@ -95260,7 +95275,7 @@
     },
     {
       "type": 0,
-      "value": " (custom)"
+      "value": " （定制）"
     },
     {
       "offset": 0,
@@ -95272,14 +95287,14 @@
           "value": [
             {
               "type": 0,
-              "value": " ("
+              "value": " （"
             },
             {
               "type": 7
             },
             {
               "type": 0,
-              "value": ")"
+              "value": "）"
             }
           ]
         }
@@ -96852,7 +96867,7 @@
   "ui-local-kb-admin.org.olf.general.jobs.ExternalEntitlementSyncJob": [
     {
       "type": 0,
-      "value": "External entitlements"
+      "value": "外部权利"
     }
   ],
   "ui-local-kb-admin.org.olf.general.jobs.IdentifierReassignmentJob": [
@@ -96894,13 +96909,13 @@
   "ui-local-kb-admin.org.olf.general.jobs.PackageTriggerResyncJob": [
     {
       "type": 0,
-      "value": "Trigger package re-sync"
+      "value": "触发资源包重新同步"
     }
   ],
   "ui-local-kb-admin.org.olf.general.jobs.ResourceDeletionJob": [
     {
       "type": 0,
-      "value": "Delete package contents"
+      "value": "删除 资源包内容"
     }
   ],
   "ui-local-kb-admin.org.olf.general.jobs.ResourceRematchJob": [
@@ -102874,7 +102889,7 @@
   "ui-oai-pmh.error.sww": [
     {
       "type": 0,
-      "value": "Something went wrong."
+      "value": "出了些问题。"
     }
   ],
   "ui-oai-pmh.meta.title": [
@@ -103084,7 +103099,7 @@
   "ui-oai-pmh.settings.configuration.update.success": [
     {
       "type": 0,
-      "value": "Setting was successfully updated."
+      "value": "设置更新成功。"
     }
   ],
   "ui-oai-pmh.settings.confirmDeleteSetsModal.cancel": [
@@ -119494,7 +119509,7 @@
   "ui-plugin-query-builder.control.search.button.donor_organization": [
     {
       "type": 0,
-      "value": "Donor organization look-up"
+      "value": "捐赠组织查询"
     }
   ],
   "ui-plugin-query-builder.control.search.button.organization": [
@@ -119524,7 +119539,7 @@
   "ui-plugin-query-builder.control.value.placeholder.donor_organization": [
     {
       "type": 0,
-      "value": "Use the “Donor organization look-up” below to add values"
+      "value": "使用下方“捐赠组织查找”添加数值。"
     }
   ],
   "ui-plugin-query-builder.control.value.placeholder.organization": [
@@ -119584,7 +119599,7 @@
   "ui-plugin-query-builder.modal.entityType": [
     {
       "type": 0,
-      "value": "Record type:"
+      "value": "记录类型："
     }
   ],
   "ui-plugin-query-builder.modal.preview.countingInProgress": [
@@ -119602,7 +119617,7 @@
   "ui-plugin-query-builder.modal.preview.title": [
     {
       "type": 0,
-      "value": "查询返回"
+      "value": "查询结果 "
     },
     {
       "offset": 0,
@@ -119611,29 +119626,33 @@
           "value": [
             {
               "type": 0,
-              "value": " 无记录 "
+              "value": "无记录"
             }
           ]
         },
         "one": {
           "value": [
             {
-              "type": 7
+              "style": null,
+              "type": 2,
+              "value": "total"
             },
             {
               "type": 0,
-              "value": " 记录 "
+              "value": " 记录"
             }
           ]
         },
         "other": {
           "value": [
             {
-              "type": 7
+              "style": null,
+              "type": 2,
+              "value": "total"
             },
             {
               "type": 0,
-              "value": " 记录 "
+              "value": " 记录"
             }
           ]
         }
@@ -119644,7 +119663,7 @@
     },
     {
       "type": 0,
-      "value": " 。预览第一个"
+      "value": "预览第一部分 "
     },
     {
       "offset": 0,
@@ -119652,22 +119671,26 @@
         "one": {
           "value": [
             {
-              "type": 7
+              "style": null,
+              "type": 2,
+              "value": "limit"
             },
             {
               "type": 0,
-              "value": " 记录 "
+              "value": " 记录"
             }
           ]
         },
         "other": {
           "value": [
             {
-              "type": 7
+              "style": null,
+              "type": 2,
+              "value": "limit"
             },
             {
               "type": 0,
-              "value": " 记录 "
+              "value": " 记录"
             }
           ]
         }
@@ -119678,13 +119701,13 @@
     },
     {
       "type": 0,
-      "value": " ："
+      "value": "："
     }
   ],
   "ui-plugin-query-builder.modal.preview.title.empty": [
     {
       "type": 0,
-      "value": "查询返回"
+      "value": "查询结果 "
     },
     {
       "offset": 0,
@@ -119693,29 +119716,33 @@
           "value": [
             {
               "type": 0,
-              "value": " 无记录 "
+              "value": "无记录"
             }
           ]
         },
         "one": {
           "value": [
             {
-              "type": 7
+              "style": null,
+              "type": 2,
+              "value": "total"
             },
             {
               "type": 0,
-              "value": " 记录 "
+              "value": " 记录"
             }
           ]
         },
         "other": {
           "value": [
             {
-              "type": 7
+              "style": null,
+              "type": 2,
+              "value": "total"
             },
             {
               "type": 0,
-              "value": " 记录 "
+              "value": " 记录"
             }
           ]
         }
@@ -119726,7 +119753,7 @@
     },
     {
       "type": 0,
-      "value": " 。"
+      "value": "。"
     }
   ],
   "ui-plugin-query-builder.modal.query": [
@@ -119756,7 +119783,7 @@
   "ui-plugin-query-builder.noOptionsAvailable.donor_organization": [
     {
       "type": 0,
-      "value": "No matches! Use the “Donor organization look-up” below to add organizations"
+      "value": "无匹配！使用下方“捐赠组织查找”添加组织。"
     }
   ],
   "ui-plugin-query-builder.noOptionsAvailable.organization": [
@@ -119846,7 +119873,7 @@
   "ui-plugin-query-builder.viewer.deletedRecord.tooltip": [
     {
       "type": 0,
-      "value": "This record has been deleted; refresh the list to remove it from the results."
+      "value": "该记录已被删除；请刷新列表以将其从结果中移除。"
     }
   ],
   "ui-plugin-query-builder.viewer.retrieving": [
@@ -136198,31 +136225,31 @@
   "ui-serials-management.templates": [
     {
       "type": 0,
-      "value": "Templates"
+      "value": "模板"
     }
   ],
   "ui-serials-management.templates.description": [
     {
       "type": 0,
-      "value": "Description"
+      "value": "描述"
     }
   ],
   "ui-serials-management.templates.exampleLabel": [
     {
       "type": 0,
-      "value": "Example label"
+      "value": "示例标签"
     }
   ],
   "ui-serials-management.templates.name": [
     {
       "type": 0,
-      "value": "Name"
+      "value": "名称"
     }
   ],
   "ui-serials-management.templates.status": [
     {
       "type": 0,
-      "value": "Status"
+      "value": "状态"
     }
   ],
   "ui-serials-management.validate.allowedCycles": [
@@ -137618,7 +137645,7 @@
   "ui-tags.settings.saveError": [
     {
       "type": 0,
-      "value": "An error occurred while saving the tags configuration."
+      "value": "保存标签配置时发生错误。"
     }
   ],
   "ui-tags.settings.tags.label": [
@@ -137880,7 +137907,7 @@
   "ui-tenant-settings.settings.addresses.validation.name.unique": [
     {
       "type": 0,
-      "value": "This address name is already in use."
+      "value": "此地址名称已被使用。"
     }
   ],
   "ui-tenant-settings.settings.bindings.label": [

@@ -30188,7 +30188,7 @@
   "ui-checkin.actionChoiceModal.text": [
     {
       "type": 0,
-      "value": "Item "
+      "value": "Exemplar "
     },
     {
       "children": [
@@ -30198,7 +30198,7 @@
         },
         {
           "type": 0,
-          "value": " ("
+          "value": "("
         },
         {
           "type": 1,
@@ -30222,7 +30222,7 @@
     },
     {
       "type": 0,
-      "value": ") is for use at location at "
+      "value": " liegt an der Servicestelle "
     },
     {
       "children": [
@@ -30236,13 +30236,13 @@
     },
     {
       "type": 0,
-      "value": "."
+      "value": " zur Nutzung am Standort."
     }
   ],
   "ui-checkin.actionChoiceModal.title": [
     {
       "type": 0,
-      "value": "For use at location"
+      "value": "Zur Nutzung am Standort"
     }
   ],
   "ui-checkin.actions": [
@@ -31667,7 +31667,7 @@
   "ui-checkout.awaitingPickupMessageHeld": [
     {
       "type": 0,
-      "value": "Entleiher/-in hat "
+      "value": "Für Entleiher/-in liegen"
     },
     {
       "children": [
@@ -31710,7 +31710,7 @@
     },
     {
       "type": 0,
-      "value": " zur Nutzung am Standort an dieser Servicestelle bereitliegen."
+      "value": " an dieser Servicestelle zur Nutzung am Standort bereit."
     }
   ],
   "ui-checkout.barcode": [
@@ -91671,13 +91671,13 @@
   "ui-lists.catastrophic-error.fallback.message": [
     {
       "type": 0,
-      "value": "Please contact your system administrator for help"
+      "value": "Bitte kontaktieren Sie Ihren Systemadministrator."
     }
   ],
   "ui-lists.catastrophic-error.missing-all-entity-type-permissions.heading": [
     {
       "type": 0,
-      "value": "You do not have the required permissions to use the Lists app"
+      "value": "Sie haben nicht die erforderlichen Berechtigungen, um die Lists-App zu nutzen"
     }
   ],
   "ui-lists.commands-error.permission": [
@@ -116683,7 +116683,9 @@
         "one": {
           "value": [
             {
-              "type": 7
+              "style": null,
+              "type": 2,
+              "value": "total"
             },
             {
               "type": 0,
@@ -116694,7 +116696,9 @@
         "other": {
           "value": [
             {
-              "type": 7
+              "style": null,
+              "type": 2,
+              "value": "total"
             },
             {
               "type": 0,
@@ -117085,7 +117089,7 @@
   "ui-quick-marc.leader.Authority data": [
     {
       "type": 0,
-      "value": "Authority data"
+      "value": "Normdaten"
     }
   ],
   "ui-quick-marc.leader.Cartographic material": [
@@ -117127,13 +117131,13 @@
   "ui-quick-marc.leader.Deleted; heading replaced by another heading": [
     {
       "type": 0,
-      "value": "Deleted; heading replaced by another heading"
+      "value": "Gelöscht; Ansetzung durch eine andere Ansetzung ersetzt"
     }
   ],
   "ui-quick-marc.leader.Deleted; heading split into two or more headings": [
     {
       "type": 0,
-      "value": "Deleted; heading split into two or more headings"
+      "value": "Gelöscht; Ansetzung in zwei oder mehr Ansetzungen aufgeteilt"
     }
   ],
   "ui-quick-marc.leader.Holdings level 1": [
@@ -117199,7 +117203,7 @@
   "ui-quick-marc.leader.Integrating resource": [
     {
       "type": 0,
-      "value": "Integrating resource"
+      "value": "Integrierende Ressource"
     }
   ],
   "ui-quick-marc.leader.Item information": [
@@ -117223,13 +117227,13 @@
   "ui-quick-marc.leader.Manuscript cartographic material": [
     {
       "type": 0,
-      "value": "Manuscript cartographic material"
+      "value": "Manuskript-Kartografisches Material"
     }
   ],
   "ui-quick-marc.leader.Manuscript language material": [
     {
       "type": 0,
-      "value": "Manuscript language material"
+      "value": "Manuskript-Sprachmaterial"
     }
   ],
   "ui-quick-marc.leader.Manuscript notated music": [
@@ -117247,7 +117251,7 @@
   "ui-quick-marc.leader.Mixed materials": [
     {
       "type": 0,
-      "value": "Mixed materials"
+      "value": "Gemischte Materialien"
     }
   ],
   "ui-quick-marc.leader.Monograph/Item": [
@@ -117259,7 +117263,7 @@
   "ui-quick-marc.leader.Monographic component part": [
     {
       "type": 0,
-      "value": "Monographic component part"
+      "value": "Bestandteil einer Monografie"
     }
   ],
   "ui-quick-marc.leader.Multipart item holdings": [
@@ -117271,7 +117275,7 @@
   "ui-quick-marc.leader.Musical sound recording": [
     {
       "type": 0,
-      "value": "Musical sound recording"
+      "value": "Musikalische Tonaufnahme"
     }
   ],
   "ui-quick-marc.leader.New": [
@@ -117313,7 +117317,7 @@
   "ui-quick-marc.leader.Nonmusical sound recording": [
     {
       "type": 0,
-      "value": "Nonmusical sound recording"
+      "value": "Nicht-musikalische Tonaufnahme"
     }
   ],
   "ui-quick-marc.leader.Not specified or not applicable": [
@@ -117355,7 +117359,7 @@
   "ui-quick-marc.leader.Projected medium": [
     {
       "type": 0,
-      "value": "Projected medium"
+      "value": "Projiziertes Medium"
     }
   ],
   "ui-quick-marc.leader.Punctuation included": [
@@ -117409,13 +117413,13 @@
   "ui-quick-marc.leader.Three-dimensional artifact or naturally occurring object": [
     {
       "type": 0,
-      "value": "Three-dimensional artifact or naturally occurring object"
+      "value": "Dreidimensionales Artefakt oder natürliches Objekt"
     }
   ],
   "ui-quick-marc.leader.Two-dimensional nonprojectable graphic": [
     {
       "type": 0,
-      "value": "Two-dimensional nonprojectable  graphic"
+      "value": "Zweidimensionale, nicht projizierbare Grafik"
     }
   ],
   "ui-quick-marc.leader.Unknown": [
@@ -117529,7 +117533,7 @@
   "ui-quick-marc.print": [
     {
       "type": 0,
-      "value": "Print"
+      "value": "Drucken"
     }
   ],
   "ui-quick-marc.record.addField": [
@@ -118339,7 +118343,7 @@
   "ui-quick-marc.record.fixedField.Animation and live action": [
     {
       "type": 0,
-      "value": "Animation and live action"
+      "value": "Animation und Realfilm"
     }
   ],
   "ui-quick-marc.record.fixedField.Annual": [
@@ -118465,7 +118469,7 @@
   "ui-quick-marc.record.fixedField.Ballets": [
     {
       "type": 0,
-      "value": "Ballets"
+      "value": "Ballette"
     }
   ],
   "ui-quick-marc.record.fixedField.Base of emulsion": [
@@ -118591,7 +118595,7 @@
   "ui-quick-marc.record.fixedField.Bound as part of another work": [
     {
       "type": 0,
-      "value": "Bound as part of another work"
+      "value": "Gebunden als Teil eines anderen Werkes"
     }
   ],
   "ui-quick-marc.record.fixedField.Braille": [
@@ -118957,7 +118961,7 @@
   "ui-quick-marc.record.fixedField.Contours": [
     {
       "type": 0,
-      "value": "Contours"
+      "value": "Konturen"
     }
   ],
   "ui-quick-marc.record.fixedField.Conventional romanization or conventional form of name in language of cataloging agency": [
@@ -119017,7 +119021,7 @@
   "ui-quick-marc.record.fixedField.Cylindrical, specific type unknown": [
     {
       "type": 0,
-      "value": "Cylindrical, specific type unknown"
+      "value": "Zylindrisch, spezifischer Typ unbekannt"
     }
   ],
   "ui-quick-marc.record.fixedField.Cyrillic": [
@@ -119521,7 +119525,7 @@
   "ui-quick-marc.record.fixedField.Gnomic": [
     {
       "type": 0,
-      "value": "Gnomic"
+      "value": "Gnomisch"
     }
   ],
   "ui-quick-marc.record.fixedField.Goode's homolographic": [
@@ -119947,13 +119951,13 @@
   "ui-quick-marc.record.fixedField.Library of Congress Children's and Young Adults' Subject Headings": [
     {
       "type": 0,
-      "value": "Library of Congress Children's and Young Adults' Subject Headings"
+      "value": "Library of Congress-Schlagwörter für Kinder und Jugendliche"
     }
   ],
   "ui-quick-marc.record.fixedField.Library of Congress Subject Headings": [
     {
       "type": 0,
-      "value": "Library of Congress Subject Headings"
+      "value": "Library of Congress-Schlagwörter"
     }
   ],
   "ui-quick-marc.record.fixedField.Libretto or text": [
@@ -119971,7 +119975,7 @@
   "ui-quick-marc.record.fixedField.Live action": [
     {
       "type": 0,
-      "value": "Live action"
+      "value": "Realfilm"
     }
   ],
   "ui-quick-marc.record.fixedField.Local": [
@@ -120031,13 +120035,13 @@
   "ui-quick-marc.record.fixedField.Map series": [
     {
       "type": 0,
-      "value": "Map series"
+      "value": "Kartenreihe"
     }
   ],
   "ui-quick-marc.record.fixedField.Maps": [
     {
       "type": 0,
-      "value": "Maps"
+      "value": "Karten"
     }
   ],
   "ui-quick-marc.record.fixedField.Marches": [
@@ -120109,7 +120113,7 @@
   "ui-quick-marc.record.fixedField.Microscope slide": [
     {
       "type": 0,
-      "value": "Microscope slide"
+      "value": "Objektträger"
     }
   ],
   "ui-quick-marc.record.fixedField.Miller": [
@@ -120163,7 +120167,7 @@
   "ui-quick-marc.record.fixedField.Model": [
     {
       "type": 0,
-      "value": "Model"
+      "value": "Modell"
     }
   ],
   "ui-quick-marc.record.fixedField.Modified stereographic for Alaska": [
@@ -120199,7 +120203,7 @@
   "ui-quick-marc.record.fixedField.Motion picture": [
     {
       "type": 0,
-      "value": "Motion picture"
+      "value": "Bewegtbilder"
     }
   ],
   "ui-quick-marc.record.fixedField.Motion picture music": [
@@ -120259,7 +120263,7 @@
   "ui-quick-marc.record.fixedField.Music": [
     {
       "type": 0,
-      "value": "Music"
+      "value": "Musik"
     }
   ],
   "ui-quick-marc.record.fixedField.Musical revues and comedies": [
@@ -120331,7 +120335,7 @@
   "ui-quick-marc.record.fixedField.No attempt to code": [
     {
       "type": 0,
-      "value": "No attempt to code"
+      "value": "Kein Codierunsversuch"
     }
   ],
   "ui-quick-marc.record.fixedField.No biographical material": [
@@ -120379,7 +120383,7 @@
   "ui-quick-marc.record.fixedField.No relief shown": [
     {
       "type": 0,
-      "value": "No relief shown"
+      "value": "Keine Reliefdarstellung"
     }
   ],
   "ui-quick-marc.record.fixedField.No specified nature of contents": [
@@ -120763,13 +120767,13 @@
   "ui-quick-marc.record.fixedField.Preschool": [
     {
       "type": 0,
-      "value": "Preschool"
+      "value": "Vorschule"
     }
   ],
   "ui-quick-marc.record.fixedField.Primary": [
     {
       "type": 0,
-      "value": "Primary"
+      "value": "Primär"
     }
   ],
   "ui-quick-marc.record.fixedField.Primary support material": [
@@ -120895,7 +120899,7 @@
   "ui-quick-marc.record.fixedField.Record length": [
     {
       "type": 0,
-      "value": "Record length"
+      "value": "Datensatzlänge"
     }
   ],
   "ui-quick-marc.record.fixedField.Reduction ratio range/Reduction ratio": [
@@ -121033,7 +121037,7 @@
   "ui-quick-marc.record.fixedField.Rock drawings": [
     {
       "type": 0,
-      "value": "Rock drawings"
+      "value": "Felszeichnungen"
     }
   ],
   "ui-quick-marc.record.fixedField.Rock music": [
@@ -121339,7 +121343,7 @@
   "ui-quick-marc.record.fixedField.Stereographic": [
     {
       "type": 0,
-      "value": "Stereographic"
+      "value": "Stereografisch"
     }
   ],
   "ui-quick-marc.record.fixedField.Studies and exercises": [
@@ -121447,7 +121451,7 @@
   "ui-quick-marc.record.fixedField.Technical drawing": [
     {
       "type": 0,
-      "value": "Technical drawing"
+      "value": "Technische Zeichnung"
     }
   ],
   "ui-quick-marc.record.fixedField.Technical information on music": [
@@ -121777,7 +121781,7 @@
   "ui-quick-marc.record.fixedField.tip.BLvl": [
     {
       "type": 0,
-      "value": "Bibliographic level"
+      "value": "Bibliografische Ebene"
     }
   ],
   "ui-quick-marc.record.fixedField.tip.Base of emulsion": [
@@ -121795,7 +121799,7 @@
   "ui-quick-marc.record.fixedField.tip.Biography": [
     {
       "type": 0,
-      "value": "Biography"
+      "value": "Biografie"
     }
   ],
   "ui-quick-marc.record.fixedField.tip.Braille music format": [
@@ -121819,7 +121823,7 @@
   "ui-quick-marc.record.fixedField.tip.Category": [
     {
       "type": 0,
-      "value": "Type"
+      "value": "Typ"
     }
   ],
   "ui-quick-marc.record.fixedField.tip.Class of braille writing": [
@@ -121837,13 +121841,13 @@
   "ui-quick-marc.record.fixedField.tip.Color": [
     {
       "type": 0,
-      "value": "Color"
+      "value": "Farbe"
     }
   ],
   "ui-quick-marc.record.fixedField.tip.Completeness": [
     {
       "type": 0,
-      "value": "Completeness"
+      "value": "Vollständigkeit"
     }
   ],
   "ui-quick-marc.record.fixedField.tip.Conference publication": [
@@ -121885,7 +121889,7 @@
   "ui-quick-marc.record.fixedField.tip.Desc": [
     {
       "type": 0,
-      "value": "Descriptive cataloging form"
+      "value": "Form der beschreibenden Katalogisierung"
     }
   ],
   "ui-quick-marc.record.fixedField.tip.Descriptive cataloging rules": [
@@ -121903,7 +121907,7 @@
   "ui-quick-marc.record.fixedField.tip.Dimensions": [
     {
       "type": 0,
-      "value": "Dimensions"
+      "value": "Maße"
     }
   ],
   "ui-quick-marc.record.fixedField.tip.Direct or indirect geographic subdivision": [
@@ -121915,7 +121919,7 @@
   "ui-quick-marc.record.fixedField.tip.ELvl": [
     {
       "type": 0,
-      "value": "Encoding level"
+      "value": "Kodierungsniveau"
     }
   ],
   "ui-quick-marc.record.fixedField.tip.Emulsion on film": [
@@ -121987,7 +121991,7 @@
   "ui-quick-marc.record.fixedField.tip.Frequency": [
     {
       "type": 0,
-      "value": "Frequency"
+      "value": "Erscheinungsweise"
     }
   ],
   "ui-quick-marc.record.fixedField.tip.General retention policy": [
@@ -122089,7 +122093,7 @@
   "ui-quick-marc.record.fixedField.tip.Language": [
     {
       "type": 0,
-      "value": "Language"
+      "value": "Sprache"
     }
   ],
   "ui-quick-marc.record.fixedField.tip.Language of catalog": [
@@ -122161,7 +122165,7 @@
   "ui-quick-marc.record.fixedField.tip.MultiLvl": [
     {
       "type": 0,
-      "value": "Multipart resource record level"
+      "value": "Datensatzebene für mehrteilige Ressourcen"
     }
   ],
   "ui-quick-marc.record.fixedField.tip.Music parts": [
@@ -122305,7 +122309,7 @@
   "ui-quick-marc.record.fixedField.tip.Regularity": [
     {
       "type": 0,
-      "value": "Regularity"
+      "value": "Regelmäßigkeit"
     }
   ],
   "ui-quick-marc.record.fixedField.tip.Relief": [
@@ -122359,7 +122363,7 @@
   "ui-quick-marc.record.fixedField.tip.Sound": [
     {
       "type": 0,
-      "value": "Sound"
+      "value": "Ton"
     }
   ],
   "ui-quick-marc.record.fixedField.tip.Sound on medium or separate": [
@@ -122395,7 +122399,7 @@
   "ui-quick-marc.record.fixedField.tip.Speed": [
     {
       "type": 0,
-      "value": "Speed"
+      "value": "Geschwindigkeit"
     }
   ],
   "ui-quick-marc.record.fixedField.tip.Start date": [
@@ -122431,7 +122435,7 @@
   "ui-quick-marc.record.fixedField.tip.Target audience": [
     {
       "type": 0,
-      "value": "Target audience"
+      "value": "Zielpublikum"
     }
   ],
   "ui-quick-marc.record.fixedField.tip.Technique": [
@@ -122485,7 +122489,7 @@
   "ui-quick-marc.record.fixedField.tip.Type of reproduction": [
     {
       "type": 0,
-      "value": "Type of reproduction"
+      "value": "Art der Reproduktion"
     }
   ],
   "ui-quick-marc.record.fixedField.tip.Type of series": [
@@ -122509,7 +122513,7 @@
   "ui-quick-marc.record.fixedField.tip.Undefined": [
     {
       "type": 0,
-      "value": "Undefined"
+      "value": "Undefiniert"
     }
   ],
   "ui-quick-marc.record.fixedField.tip.Undefined character position": [
@@ -123095,7 +123099,7 @@
   "ui-quick-marc.record.searchLink": [
     {
       "type": 0,
-      "value": "Search for records by 010 value(s)"
+      "value": "Nach Datensätzen mit 010-Werten suchen"
     }
   ],
   "ui-quick-marc.record.status": [
@@ -123143,13 +123147,13 @@
   "ui-quick-marc.record.unlink.confirm.cancel": [
     {
       "type": 0,
-      "value": "Cancel"
+      "value": "Abbrechen"
     }
   ],
   "ui-quick-marc.record.unlink.confirm.confirm": [
     {
       "type": 0,
-      "value": "Unlink"
+      "value": "Verknüpfung aufheben"
     }
   ],
   "ui-quick-marc.record.unlink.confirm.message": [
@@ -123482,13 +123486,13 @@
   "ui-quick-marc.update-linked-bib-fields.modal.keep-editing": [
     {
       "type": 0,
-      "value": "Keep editing"
+      "value": "Weiter bearbeiten"
     }
   ],
   "ui-quick-marc.update-linked-bib-fields.modal.label": [
     {
       "type": 0,
-      "value": "Are you sure?"
+      "value": "Sicher?"
     }
   ],
   "ui-quick-marc.update-linked-bib-fields.modal.message-save": [
@@ -125580,7 +125584,7 @@
   "ui-receiving.title.changePieceQuantityMessage": [
     {
       "type": 0,
-      "value": "Das Hinzufügen oder Entfernen von Teilen aktualisiert die Anzahl der Bestellposten und die Standortdetails und damit auch den Schätzpreis."
+      "value": "Das Hinzufügen oder Entfernen von Teilen aktualisiert die Anzahl und die Standortdetails im Bestellposten und damit auch den Schätzpreis."
     }
   ],
   "ui-receiving.title.checkinItems": [
