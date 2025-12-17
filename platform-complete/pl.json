@@ -9927,13 +9927,13 @@
   "stripes-erm-components.accesscontrol.acquisitionunits.protectRead": [
     {
       "type": 0,
-      "value": "View"
+      "value": "Podgląd"
     }
   ],
   "stripes-erm-components.accesscontrol.acquisitionunits.protectUpdate": [
     {
       "type": 0,
-      "value": "Edit"
+      "value": "Edytuj"
     }
   ],
   "stripes-erm-components.accesscontrol.description": [
@@ -9957,7 +9957,7 @@
   "stripes-erm-components.accesscontrol.filter.simple.label": [
     {
       "type": 0,
-      "value": "Acquisition unit"
+      "value": "Jednostka gromadzenia"
     }
   ],
   "stripes-erm-components.accesscontrol.filter.simple.noPolicy": [
@@ -11260,7 +11260,7 @@
   "stripes-erm-components.errors.hasNonAlphaName": [
     {
       "type": 0,
-      "value": "Nazwa może zawierać tylko znaki alfabetu łacińskiego (a-z) bez wiodących znaków numerycznych."
+      "value": "Nazwa może zawierać tylko litery alfabetu łacińskiego (a–z) oraz cyfry bez zer wiodących."
     }
   ],
   "stripes-erm-components.errors.invalidDate": [
@@ -77341,10 +77341,28 @@
       "value": "Aktualna sygnatura"
     }
   ],
+  "ui-inventory.effectiveCallNumberPrefix": [
+    {
+      "type": 0,
+      "value": "Effective call number prefix"
+    }
+  ],
   "ui-inventory.effectiveCallNumberShelving": [
     {
       "type": 0,
       "value": "Effective call number (item), shelving order"
+    }
+  ],
+  "ui-inventory.effectiveCallNumberSuffix": [
+    {
+      "type": 0,
+      "value": "Effective call number suffix"
+    }
+  ],
+  "ui-inventory.effectiveCallNumberType": [
+    {
+      "type": 0,
+      "value": "Effective call number type"
     }
   ],
   "ui-inventory.effectiveLocation": [

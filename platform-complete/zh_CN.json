@@ -1707,13 +1707,13 @@
   "stripes-acq-components.versionHistory.card.showAll": [
     {
       "type": 0,
-      "value": "Show all"
+      "value": "显示全部"
     }
   ],
   "stripes-acq-components.versionHistory.card.showLess": [
     {
       "type": 0,
-      "value": "Show less"
+      "value": "显示更少"
     }
   ],
   "stripes-acq-components.versionHistory.card.systemChange": [
@@ -9971,13 +9971,13 @@
   "stripes-erm-components.accesscontrol.filter.simple.label": [
     {
       "type": 0,
-      "value": "Acquisition unit"
+      "value": "采购单位"
     }
   ],
   "stripes-erm-components.accesscontrol.filter.simple.noPolicy": [
     {
       "type": 0,
-      "value": "No acquisition unit"
+      "value": "无采购单位"
     }
   ],
   "stripes-erm-components.accesscontrol.label": [
@@ -10001,7 +10001,7 @@
   "stripes-erm-components.accesscontrol.removeAcqUnit": [
     {
       "type": 0,
-      "value": "Remove \""
+      "value": "移除 ”"
     },
     {
       "type": 1,
@@ -10009,7 +10009,7 @@
     },
     {
       "type": 0,
-      "value": "\""
+      "value": "“"
     }
   ],
   "stripes-erm-components.accesscontrol.restrictions": [
@@ -79047,10 +79047,28 @@
       "value": "有效的索书号"
     }
   ],
+  "ui-inventory.effectiveCallNumberPrefix": [
+    {
+      "type": 0,
+      "value": "Effective call number prefix"
+    }
+  ],
   "ui-inventory.effectiveCallNumberShelving": [
     {
       "type": 0,
       "value": "有效索书号（单件），排架顺序"
+    }
+  ],
+  "ui-inventory.effectiveCallNumberSuffix": [
+    {
+      "type": 0,
+      "value": "Effective call number suffix"
+    }
+  ],
+  "ui-inventory.effectiveCallNumberType": [
+    {
+      "type": 0,
+      "value": "Effective call number type"
     }
   ],
   "ui-inventory.effectiveLocation": [
