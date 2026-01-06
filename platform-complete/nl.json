@@ -15509,7 +15509,7 @@
   "ui-acquisition-units.document.settings.title": [
     {
       "type": 0,
-      "value": "Acquisition units settings"
+      "value": "Instellingen Acquisitie-eenheden"
     }
   ],
   "ui-acquisition-units.meta.title": [
@@ -52115,7 +52115,7 @@
   "ui-developer.schedulerTimers.delay": [
     {
       "type": 0,
-      "value": "Delay"
+      "value": "Vertraging"
     }
   ],
   "ui-developer.schedulerTimers.id": [
@@ -52127,7 +52127,7 @@
   "ui-developer.schedulerTimers.method": [
     {
       "type": 0,
-      "value": "Method"
+      "value": "Methode"
     }
   ],
   "ui-developer.schedulerTimers.moduleName": [
@@ -52139,19 +52139,19 @@
   "ui-developer.schedulerTimers.path": [
     {
       "type": 0,
-      "value": "Path"
+      "value": "Pad"
     }
   ],
   "ui-developer.schedulerTimers.schedule": [
     {
       "type": 0,
-      "value": "Schedule"
+      "value": "Schema"
     }
   ],
   "ui-developer.schedulerTimers.type": [
     {
       "type": 0,
-      "value": "Type"
+      "value": "Soorten"
     }
   ],
   "ui-developer.schedulerTimers.unit": [
@@ -70080,10 +70080,34 @@
       "value": "Jaar, bijschrift toevoegen"
     }
   ],
+  "ui-inventory.additionalCallNumber": [
+    {
+      "type": 0,
+      "value": "Additional call number"
+    }
+  ],
+  "ui-inventory.additionalCallNumberPrefix": [
+    {
+      "type": 0,
+      "value": "Additional call number prefix"
+    }
+  ],
+  "ui-inventory.additionalCallNumberSuffix": [
+    {
+      "type": 0,
+      "value": "Additional call number suffix"
+    }
+  ],
+  "ui-inventory.additionalCallNumberType": [
+    {
+      "type": 0,
+      "value": "Additional call number type"
+    }
+  ],
   "ui-inventory.additionalCallNumbers": [
     {
       "type": 0,
-      "value": "Extra Vindplaatsen"
+      "value": "Additional call numbers"
     }
   ],
   "ui-inventory.additionalHoldingsCallNumbers": [
@@ -71474,19 +71498,19 @@
   "ui-inventory.effectiveCallNumberPrefix": [
     {
       "type": 0,
-      "value": "Effective call number prefix"
+      "value": "Effectief voorvoegsel voor het Vindplaatsnummer"
     }
   ],
   "ui-inventory.effectiveCallNumberSuffix": [
     {
       "type": 0,
-      "value": "Effective call number suffix"
+      "value": "Effectief vindplaats achtervoegsel"
     }
   ],
   "ui-inventory.effectiveCallNumberType": [
     {
       "type": 0,
-      "value": "Effective call number type"
+      "value": "Effectief Vindplaats type"
     }
   ],
   "ui-inventory.effectiveLocation": [
@@ -84763,13 +84787,13 @@
   "ui-lists.catastrophic-error.entity.type.source.missing.heading": [
     {
       "type": 0,
-      "value": "A broken record type is preventing access to the Lists app"
+      "value": "Een gebroken type Record verhindert de toegang tot de app Lists"
     }
   ],
   "ui-lists.catastrophic-error.entity.type.source.missing.message": [
     {
       "type": 0,
-      "value": "Custom record type “"
+      "value": "Maatwerk records \""
     },
     {
       "type": 1,
@@ -84777,7 +84801,7 @@
     },
     {
       "type": 0,
-      "value": "” ("
+      "value": "\" ("
     },
     {
       "children": [
@@ -84791,7 +84815,7 @@
     },
     {
       "type": 0,
-      "value": ") references source “"
+      "value": ") referenties bron \""
     },
     {
       "type": 1,
@@ -84799,7 +84823,7 @@
     },
     {
       "type": 0,
-      "value": "” ("
+      "value": "\" ("
     },
     {
       "children": [
@@ -84813,13 +84837,13 @@
     },
     {
       "type": 0,
-      "value": ") which could not be found. The Lists app will not be usable until the source is restored, the source is removed from the definition, or the record type is deleted."
+      "value": ") die niet gevonden kon worden. De app Lists zal niet bruikbaar zijn totdat de bron hersteld is, de bron uit de definitie verwijderd is, of het type Record verwijderd is."
     }
   ],
   "ui-lists.catastrophic-error.fallback.heading": [
     {
       "type": 0,
-      "value": "An error is preventing access to the Lists app"
+      "value": "Een fout verhindert de toegang tot de app Lijsten"
     }
   ],
   "ui-lists.catastrophic-error.fallback.message": [
@@ -108791,7 +108815,9 @@
         "one": {
           "value": [
             {
-              "type": 7
+              "style": null,
+              "type": 2,
+              "value": "total"
             },
             {
               "type": 0,
@@ -108802,7 +108828,9 @@
         "other": {
           "value": [
             {
-              "type": 7
+              "style": null,
+              "type": 2,
+              "value": "total"
             },
             {
               "type": 0,
@@ -108825,7 +108853,9 @@
         "one": {
           "value": [
             {
-              "type": 7
+              "style": null,
+              "type": 2,
+              "value": "limit"
             },
             {
               "type": 0,
@@ -108836,7 +108866,9 @@
         "other": {
           "value": [
             {
-              "type": 7
+              "style": null,
+              "type": 2,
+              "value": "limit"
             },
             {
               "type": 0,
@@ -108873,7 +108905,9 @@
         "one": {
           "value": [
             {
-              "type": 7
+              "style": null,
+              "type": 2,
+              "value": "total"
             },
             {
               "type": 0,
@@ -108884,7 +108918,9 @@
         "other": {
           "value": [
             {
-              "type": 7
+              "style": null,
+              "type": 2,
+              "value": "total"
             },
             {
               "type": 0,
@@ -125696,7 +125732,7 @@
   "ui-tenant-settings.settings.addresses.validation.name.unique": [
     {
       "type": 0,
-      "value": "This address name is already in use."
+      "value": "Deze adresnaam is al in gebruik."
     }
   ],
   "ui-tenant-settings.settings.bindings.label": [

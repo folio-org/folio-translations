@@ -16622,7 +16622,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Agreement acquisition units updated:"
+          "value": "Aktualizace jednotek pro získávání dohod:"
         }
       ],
       "type": 8,
@@ -16642,7 +16642,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Error:"
+          "value": "Chyba:"
         }
       ],
       "type": 8,
@@ -16650,7 +16650,7 @@
     },
     {
       "type": 0,
-      "value": " Acquisition units for agreement "
+      "value": " Akviziční jednotky pro dohodu "
     },
     {
       "type": 1,
@@ -16658,7 +16658,7 @@
     },
     {
       "type": 0,
-      "value": " were not updated: "
+      "value": " nebyly aktualizovány: "
     },
     {
       "type": 1,
@@ -17066,7 +17066,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Error:"
+          "value": "Chyba:"
         }
       ],
       "type": 8,
@@ -17074,7 +17074,7 @@
     },
     {
       "type": 0,
-      "value": " Agreement "
+      "value": " "
     },
     {
       "type": 1,
@@ -17082,7 +17082,7 @@
     },
     {
       "type": 0,
-      "value": " was not updated: "
+      "value": " nebyla aktualizována: "
     },
     {
       "type": 1,
@@ -63593,7 +63593,7 @@
   "ui-erm-usage.general.error": [
     {
       "type": 0,
-      "value": "Jejda. Něco se pokazilo..."
+      "value": "Došlo k chybě."
     }
   ],
   "ui-erm-usage.general.error2": [
@@ -75927,10 +75927,34 @@
       "value": "Přidat rok, titulek"
     }
   ],
+  "ui-inventory.additionalCallNumber": [
+    {
+      "type": 0,
+      "value": "Additional call number"
+    }
+  ],
+  "ui-inventory.additionalCallNumberPrefix": [
+    {
+      "type": 0,
+      "value": "Additional call number prefix"
+    }
+  ],
+  "ui-inventory.additionalCallNumberSuffix": [
+    {
+      "type": 0,
+      "value": "Additional call number suffix"
+    }
+  ],
+  "ui-inventory.additionalCallNumberType": [
+    {
+      "type": 0,
+      "value": "Additional call number type"
+    }
+  ],
   "ui-inventory.additionalCallNumbers": [
     {
       "type": 0,
-      "value": "Další signatury"
+      "value": "Additional call numbers"
     }
   ],
   "ui-inventory.additionalHoldingsCallNumbers": [
@@ -78424,11 +78448,11 @@
     },
     {
       "type": 0,
-      "value": " • Poslední aktualizace: "
+      "value": " - Poslední aktualizace: "
     },
     {
       "type": 1,
-      "value": "updatedDate"
+      "value": "date"
     }
   ],
   "ui-inventory.instanceRecordTitle": [
@@ -79835,7 +79859,7 @@
   "ui-inventory.moveEntity.instance.holdings.error": [
     {
       "type": 0,
-      "value": "The following holdings could not be moved "
+      "value": "Následující holdingy nemohly být přesunuty "
     },
     {
       "type": 1,
@@ -79843,13 +79867,13 @@
     },
     {
       "type": 0,
-      "value": ". Check the instance record fields and try again or notify your systems administrator."
+      "value": ". Zkontrolujte pole záznamu titulu a zkuste to znovu nebo informujte správce systému."
     }
   ],
   "ui-inventory.moveEntity.instance.holdings.error.server": [
     {
       "type": 0,
-      "value": "There was a problem updating the following holdings "
+      "value": "Došlo k problému s aktualizací následujících holdingů "
     },
     {
       "type": 1,
@@ -79857,7 +79881,7 @@
     },
     {
       "type": 0,
-      "value": ". Please try again or notify your systems administrator."
+      "value": ". Zkuste to prosím znovu nebo informujte správce systému."
     }
   ],
   "ui-inventory.moveEntity.instance.holdings.success": [
@@ -79877,7 +79901,7 @@
           "value": [
             {
               "type": 0,
-              "value": "holding has"
+              "value": "holding byl"
             }
           ]
         },
@@ -79885,7 +79909,7 @@
           "value": [
             {
               "type": 0,
-              "value": "holdings have"
+              "value": "holdingy byly"
             }
           ]
         }
@@ -79896,13 +79920,13 @@
     },
     {
       "type": 0,
-      "value": " been successfully moved."
+      "value": " úspěšně přesunut(y)."
     }
   ],
   "ui-inventory.moveEntity.instance.items.error": [
     {
       "type": 0,
-      "value": "The following items could not be moved "
+      "value": "Následující jednotky nelze přesunout "
     },
     {
       "type": 1,
@@ -79910,13 +79934,13 @@
     },
     {
       "type": 0,
-      "value": ". Check the instance record fields and try again or notify your systems administrator."
+      "value": ". Zkontrolujte pole záznamu titulu a zkuste to znovu nebo informujte správce systému."
     }
   ],
   "ui-inventory.moveEntity.instance.items.error.server": [
     {
       "type": 0,
-      "value": "There was a problem updating the following items "
+      "value": "Došlo k potížím s aktualizací následujících jednotek "
     },
     {
       "type": 1,
@@ -79924,7 +79948,7 @@
     },
     {
       "type": 0,
-      "value": ". Please try again or notify your systems administrator."
+      "value": ". Zkuste to prosím znovu nebo to informujte správce systému."
     }
   ],
   "ui-inventory.moveEntity.instance.items.success": [
@@ -79944,7 +79968,7 @@
           "value": [
             {
               "type": 0,
-              "value": "item has"
+              "value": "jednotka byla"
             }
           ]
         },
@@ -79952,7 +79976,7 @@
           "value": [
             {
               "type": 0,
-              "value": "items have"
+              "value": "jednotky byly"
             }
           ]
         }
@@ -79963,7 +79987,7 @@
     },
     {
       "type": 0,
-      "value": " been successfully moved."
+      "value": " úspěšně přesunuta(y)."
     }
   ],
   "ui-inventory.moveEntity.items.dropZone": [
@@ -80009,7 +80033,7 @@
           "value": [
             {
               "type": 0,
-              "value": "holdings"
+              "value": "holdingy"
             }
           ]
         }
@@ -80020,7 +80044,7 @@
     },
     {
       "type": 0,
-      "value": " will be moved to "
+      "value": " budou přesunuty "
     },
     {
       "type": 1,
@@ -80044,7 +80068,7 @@
           "value": [
             {
               "type": 0,
-              "value": "item"
+              "value": "jednotka"
             }
           ]
         },
@@ -80052,7 +80076,7 @@
           "value": [
             {
               "type": 0,
-              "value": "items"
+              "value": "jednotky"
             }
           ]
         }
@@ -80063,7 +80087,7 @@
     },
     {
       "type": 0,
-      "value": " will be moved to "
+      "value": " bude(ou) přesunuta(y) do "
     },
     {
       "type": 1,
@@ -80079,7 +80103,7 @@
   "ui-inventory.moveEntity.move.holdings.count": [
     {
       "type": 0,
-      "value": "Move: "
+      "value": "Přesunout: "
     },
     {
       "style": null,
@@ -80105,7 +80129,7 @@
           "value": [
             {
               "type": 0,
-              "value": "holdings"
+              "value": "holdingy"
             }
           ]
         }
@@ -80118,7 +80142,7 @@
   "ui-inventory.moveEntity.move.items.count": [
     {
       "type": 0,
-      "value": "Move: "
+      "value": "Přesunout: "
     },
     {
       "style": null,
@@ -80136,7 +80160,7 @@
           "value": [
             {
               "type": 0,
-              "value": "item"
+              "value": "jednotku"
             }
           ]
         },
@@ -80144,7 +80168,7 @@
           "value": [
             {
               "type": 0,
-              "value": "items"
+              "value": "jednotky"
             }
           ]
         }

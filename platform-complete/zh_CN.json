@@ -16798,7 +16798,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Agreement acquisition units updated:"
+          "value": "协议采购单位已更新："
         }
       ],
       "type": 8,
@@ -16818,7 +16818,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Error:"
+          "value": "错误："
         }
       ],
       "type": 8,
@@ -16826,7 +16826,7 @@
     },
     {
       "type": 0,
-      "value": " Acquisition units for agreement "
+      "value": " 协议"
     },
     {
       "type": 1,
@@ -16834,7 +16834,7 @@
     },
     {
       "type": 0,
-      "value": " were not updated: "
+      "value": " 的采购单位未更新： "
     },
     {
       "type": 1,
@@ -17250,7 +17250,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Error:"
+          "value": "错误："
         }
       ],
       "type": 8,
@@ -17258,7 +17258,7 @@
     },
     {
       "type": 0,
-      "value": " Agreement "
+      "value": " 协议 "
     },
     {
       "type": 1,
@@ -17266,7 +17266,7 @@
     },
     {
       "type": 0,
-      "value": " was not updated: "
+      "value": " 未更新： "
     },
     {
       "type": 1,
@@ -17294,7 +17294,7 @@
   "ui-agreements.agreementsSearch": [
     {
       "type": 0,
-      "value": "协议搜索"
+      "value": "协议"
     }
   ],
   "ui-agreements.alternativeName": [
@@ -17451,7 +17451,7 @@
   "ui-agreements.basket.update.error.callout": [
     {
       "type": 0,
-      "value": "Unable to add resource(s) to agreement: "
+      "value": "无法添加资源到协议中： "
     },
     {
       "type": 1,
@@ -19121,13 +19121,13 @@
   "ui-agreements.eresources.gokbPackageUuid": [
     {
       "type": 0,
-      "value": "GOKB package UUID"
+      "value": "GOKB 资源包 UUID"
     }
   ],
   "ui-agreements.eresources.gokbTitleUuid": [
     {
       "type": 0,
-      "value": "GOKB title UUID"
+      "value": "GOKB 标题 UUID"
     }
   ],
   "ui-agreements.eresources.haveAccess": [
@@ -19249,13 +19249,13 @@
   "ui-agreements.eresources.pauseSync": [
     {
       "type": 0,
-      "value": "暂停同步"
+      "value": "禁用同步"
     }
   ],
   "ui-agreements.eresources.pauseSyncSelectedPackages": [
     {
       "type": 0,
-      "value": "暂停同步选定资源包"
+      "value": "禁用所选资源包的同步"
     }
   ],
   "ui-agreements.eresources.platform": [
@@ -19411,19 +19411,19 @@
   "ui-agreements.eresources.sourceTitleCount": [
     {
       "type": 0,
-      "value": "Source title count"
+      "value": "来源标题计数"
     }
   ],
   "ui-agreements.eresources.startSync": [
     {
       "type": 0,
-      "value": "开始同步"
+      "value": "启用同步"
     }
   ],
   "ui-agreements.eresources.startSyncSelectedPackages": [
     {
       "type": 0,
-      "value": "开始同步选定的资源包"
+      "value": "启用所选资源包的同步"
     }
   ],
   "ui-agreements.eresources.status": [
@@ -19447,13 +19447,13 @@
   "ui-agreements.eresources.syncContentsFromSource.false": [
     {
       "type": 0,
-      "value": "暂停"
+      "value": "已禁用"
     }
   ],
   "ui-agreements.eresources.syncContentsFromSource.true": [
     {
       "type": 0,
-      "value": "同步中"
+      "value": "已启用"
     }
   ],
   "ui-agreements.eresources.syncMultiplePackagesError": [
@@ -19465,7 +19465,7 @@
   "ui-agreements.eresources.syncMultiplePackagesSuccess.PAUSED": [
     {
       "type": 0,
-      "value": "资源包已暂停"
+      "value": "资源包同步已禁用"
     }
   ],
   "ui-agreements.eresources.syncMultiplePackagesSuccess.SYNCHRONIZING": [
@@ -19483,21 +19483,13 @@
   "ui-agreements.eresources.syncPackageSuccess.PAUSED": [
     {
       "type": 0,
-      "value": "资源包： "
+      "value": "资源包：同步 "
     },
     {
       "children": [
         {
-          "type": 0,
-          "value": " "
-        },
-        {
           "type": 1,
           "value": "packageName"
-        },
-        {
-          "type": 0,
-          "value": " "
         }
       ],
       "type": 8,
@@ -19505,27 +19497,19 @@
     },
     {
       "type": 0,
-      "value": "已暂停"
+      "value": " 已禁用"
     }
   ],
   "ui-agreements.eresources.syncPackageSuccess.SYNCHRONIZING": [
     {
       "type": 0,
-      "value": "资源包： "
+      "value": "资源包：同步 "
     },
     {
       "children": [
         {
-          "type": 0,
-          "value": " "
-        },
-        {
           "type": 1,
           "value": "packageName"
-        },
-        {
-          "type": 0,
-          "value": " "
         }
       ],
       "type": 8,
@@ -19533,13 +19517,13 @@
     },
     {
       "type": 0,
-      "value": "将同步"
+      "value": " 已启用"
     }
   ],
   "ui-agreements.eresources.syncStatus.false": [
     {
       "type": 0,
-      "value": "暂停"
+      "value": "已禁用"
     }
   ],
   "ui-agreements.eresources.syncStatus.notSet": [
@@ -19551,7 +19535,7 @@
   "ui-agreements.eresources.syncStatus.true": [
     {
       "type": 0,
-      "value": "同步中"
+      "value": "已启用"
     }
   ],
   "ui-agreements.eresources.synchronisationStatus": [
@@ -20033,7 +20017,7 @@
   "ui-agreements.gokbSearch": [
     {
       "type": 0,
-      "value": "GOKB搜索"
+      "value": "GOKB"
     }
   ],
   "ui-agreements.gokbSearch.basket.addPackageToBasket": [
@@ -20753,7 +20737,7 @@
   "ui-agreements.localKBSearch": [
     {
       "type": 0,
-      "value": "本地知识库搜索"
+      "value": "本地知识库"
     }
   ],
   "ui-agreements.meta.title": [
@@ -22260,17 +22244,21 @@
   "ui-agreements.remoteKb.actions.viewInLocalKb": [
     {
       "type": 0,
-      "value": "View title in local KB"
+      "value": "在本地知识库中查看标题"
     }
   ],
   "ui-agreements.remoteKb.actions.viewInRemoteKb": [
     {
       "type": 0,
-      "value": "View title in "
+      "value": "在 "
     },
     {
       "type": 1,
       "value": "remoteKbName"
+    },
+    {
+      "type": 0,
+      "value": " 中查看标题"
     }
   ],
   "ui-agreements.remoteKb.altNames": [
@@ -22294,7 +22282,7 @@
   "ui-agreements.remoteKb.eresourceAgreements": [
     {
       "type": 0,
-      "value": "Agreements for this e-resource"
+      "value": "本电子资源的协议"
     }
   ],
   "ui-agreements.remoteKb.extendedTitleInformation": [
@@ -22428,7 +22416,7 @@
   "ui-agreements.remoteKb.packageTitles": [
     {
       "type": 0,
-      "value": "Package titles"
+      "value": "资源包标题"
     }
   ],
   "ui-agreements.remoteKb.publicationDates": [
@@ -22470,7 +22458,7 @@
   "ui-agreements.remoteKb.remoteTitleNotFound": [
     {
       "type": 0,
-      "value": "Title not currently present in Local KB. To add the title, synchronise one of the packages listed in the Packages accordion"
+      "value": "本地知识库中目前没有该标题。要添加该标题，请同步“资源包”折叠菜单中列出的某个资源包。"
     }
   ],
   "ui-agreements.remoteKb.scheme": [
@@ -26192,7 +26180,7 @@
   "ui-bulk-edit.list.filters.capabilities.instance": [
     {
       "type": 0,
-      "value": "Inventory - instances"
+      "value": "典藏 - 实例"
     }
   ],
   "ui-bulk-edit.list.filters.capabilities.instances": [
@@ -26210,7 +26198,7 @@
   "ui-bulk-edit.list.filters.capabilities.item": [
     {
       "type": 0,
-      "value": "Inventory - items"
+      "value": "典藏-单件"
     }
   ],
   "ui-bulk-edit.list.filters.capabilities.items": [
@@ -26228,7 +26216,7 @@
   "ui-bulk-edit.list.filters.capabilities.user": [
     {
       "type": 0,
-      "value": "Users"
+      "value": "用户"
     }
   ],
   "ui-bulk-edit.list.filters.capabilities.users": [
@@ -28074,13 +28062,13 @@
     },
     {
       "type": 0,
-      "value": " bulk edit profile details"
+      "value": " 批量编辑配置文件详情"
     }
   ],
   "ui-bulk-edit.settings.profiles.title.edit": [
     {
       "type": 0,
-      "value": "Edit "
+      "value": "编辑"
     },
     {
       "type": 1,
@@ -28088,7 +28076,7 @@
     },
     {
       "type": 0,
-      "value": " bulk edit profile"
+      "value": " 批量编辑配置文件"
     }
   ],
   "ui-bulk-edit.settings.profiles.title.new": [
@@ -52196,7 +52184,7 @@
   "ui-data-import.settings.mappingProfiles.map.administrativeData.field.setForDeletion": [
     {
       "type": 0,
-      "value": "Set for deletion"
+      "value": "设置为删除"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.administrativeData.field.staffSuppress": [
@@ -64822,49 +64810,49 @@
   "ui-erm-usage.counter.upload.error.INVALID_REPORT_CONTENT": [
     {
       "type": 0,
-      "value": "The report content is invalid."
+      "value": "报告内容无效。"
     }
   ],
   "ui-erm-usage.counter.upload.error.MAXIMUM_FILESIZE_EXCEEDED": [
     {
       "type": 0,
-      "value": "The file size exceeds the maximum allowed size."
+      "value": "文件大小超过了允许的最大值。"
     }
   ],
   "ui-erm-usage.counter.upload.error.MULTIPLE_FILES_NOT_SUPPORTED": [
     {
       "type": 0,
-      "value": "Upload of multiple files is not supported."
+      "value": "不支持上传多个文件。"
     }
   ],
   "ui-erm-usage.counter.upload.error.OTHER": [
     {
       "type": 0,
-      "value": "The report could not be processed."
+      "value": "报告无法处理。"
     }
   ],
   "ui-erm-usage.counter.upload.error.REPORTS_ALREADY_PRESENT": [
     {
       "type": 0,
-      "value": "One or more reports already exist for the time period."
+      "value": "该时间段内已有一份或多份报告。"
     }
   ],
   "ui-erm-usage.counter.upload.error.UNSUPPORTED_FILE_FORMAT": [
     {
       "type": 0,
-      "value": "The file format is not supported."
+      "value": "不支持此文件格式。"
     }
   ],
   "ui-erm-usage.counter.upload.error.UNSUPPORTED_REPORT_RELEASE": [
     {
       "type": 0,
-      "value": "The COUNTER Release version is not supported."
+      "value": "不支持 此COUNTER Release 版本。"
     }
   ],
   "ui-erm-usage.counter.upload.error.UNSUPPORTED_REPORT_TYPE": [
     {
       "type": 0,
-      "value": "The report type is not supported."
+      "value": "不支持此报告类型。"
     }
   ],
   "ui-erm-usage.credentials.apiKey": [
@@ -65022,7 +65010,7 @@
   "ui-erm-usage.general.error": [
     {
       "type": 0,
-      "value": "哎呀出问题了..."
+      "value": "发生错误。"
     }
   ],
   "ui-erm-usage.general.error2": [
@@ -65070,7 +65058,7 @@
   "ui-erm-usage.general.moreInformation": [
     {
       "type": 0,
-      "value": "More information"
+      "value": "更多信息"
     }
   ],
   "ui-erm-usage.general.no": [
@@ -65978,7 +65966,7 @@
   "ui-erm-usage.report.upload.modal.label.failed": [
     {
       "type": 0,
-      "value": "File upload failed"
+      "value": "文件上传失败"
     }
   ],
   "ui-erm-usage.report.upload.reportExists": [
@@ -65990,7 +65978,7 @@
   "ui-erm-usage.report.upload.selectAnotherFile": [
     {
       "type": 0,
-      "value": "Select another file to upload"
+      "value": "选择另一个文件上传"
     }
   ],
   "ui-erm-usage.report.upload.selectFile": [
@@ -77580,22 +77568,46 @@
       "value": "添加年份，卷期标识"
     }
   ],
+  "ui-inventory.additionalCallNumber": [
+    {
+      "type": 0,
+      "value": "Additional call number"
+    }
+  ],
+  "ui-inventory.additionalCallNumberPrefix": [
+    {
+      "type": 0,
+      "value": "Additional call number prefix"
+    }
+  ],
+  "ui-inventory.additionalCallNumberSuffix": [
+    {
+      "type": 0,
+      "value": "Additional call number suffix"
+    }
+  ],
+  "ui-inventory.additionalCallNumberType": [
+    {
+      "type": 0,
+      "value": "Additional call number type"
+    }
+  ],
   "ui-inventory.additionalCallNumbers": [
     {
       "type": 0,
-      "value": "附加索书号"
+      "value": "Additional call numbers"
     }
   ],
   "ui-inventory.additionalHoldingsCallNumbers": [
     {
       "type": 0,
-      "value": "Additional holdings call numbers"
+      "value": "附加馆藏索书号"
     }
   ],
   "ui-inventory.additionalItemCallNumbers": [
     {
       "type": 0,
-      "value": "Additional item call numbers"
+      "value": "附加单件索书号"
     }
   ],
   "ui-inventory.adminData": [
@@ -80149,11 +80161,11 @@
     },
     {
       "type": 0,
-      "value": " • 上次更新 : "
+      "value": " • 最后更新时间： "
     },
     {
       "type": 1,
-      "value": "updatedDate"
+      "value": "date"
     }
   ],
   "ui-inventory.instanceRecordTitle": [
@@ -80518,7 +80530,7 @@
   "ui-inventory.item.order.update.success": [
     {
       "type": 0,
-      "value": "Item movement has been successfully saved."
+      "value": "单件移动已成功保存。"
     }
   ],
   "ui-inventory.item.order.validation.duplicate": [
@@ -81584,31 +81596,31 @@
   "ui-inventory.moveEntity": [
     {
       "type": 0,
-      "value": "Move holdings/items to another instance"
+      "value": "将馆藏/单件移至另一个实例"
     }
   ],
   "ui-inventory.moveEntity.instance.actionMenu.disable": [
     {
       "type": 0,
-      "value": "Stop items movement within an instance"
+      "value": "停止实例内的单件移动"
     }
   ],
   "ui-inventory.moveEntity.instance.actionMenu.enable": [
     {
       "type": 0,
-      "value": "Move items within an instance"
+      "value": "在实例中移动单件"
     }
   ],
   "ui-inventory.moveEntity.instance.dropZone": [
     {
       "type": 0,
-      "value": "Drop holdings here"
+      "value": "在此处放下馆藏"
     }
   ],
   "ui-inventory.moveEntity.instance.holdings.error": [
     {
       "type": 0,
-      "value": "The following holdings could not be moved "
+      "value": "以下馆藏无法移动"
     },
     {
       "type": 1,
@@ -81616,13 +81628,13 @@
     },
     {
       "type": 0,
-      "value": ". Check the instance record fields and try again or notify your systems administrator."
+      "value": " 。检查实例记录字段，然后重试或通知系统管理员。"
     }
   ],
   "ui-inventory.moveEntity.instance.holdings.error.server": [
     {
       "type": 0,
-      "value": "There was a problem updating the following holdings "
+      "value": "更新以下馆藏"
     },
     {
       "type": 1,
@@ -81630,7 +81642,7 @@
     },
     {
       "type": 0,
-      "value": ". Please try again or notify your systems administrator."
+      "value": " 有问题。请重试或通知系统管理员。"
     }
   ],
   "ui-inventory.moveEntity.instance.holdings.success": [
@@ -81650,7 +81662,7 @@
           "value": [
             {
               "type": 0,
-              "value": "holding has"
+              "value": "馆藏"
             }
           ]
         },
@@ -81658,7 +81670,7 @@
           "value": [
             {
               "type": 0,
-              "value": "holdings have"
+              "value": "馆藏"
             }
           ]
         }
@@ -81669,13 +81681,13 @@
     },
     {
       "type": 0,
-      "value": " been successfully moved."
+      "value": "已成功移动。"
     }
   ],
   "ui-inventory.moveEntity.instance.items.error": [
     {
       "type": 0,
-      "value": "The following items could not be moved "
+      "value": "以下单件无法移动"
     },
     {
       "type": 1,
@@ -81683,13 +81695,13 @@
     },
     {
       "type": 0,
-      "value": ". Check the instance record fields and try again or notify your systems administrator."
+      "value": " 。检查实例记录字段，然后重试或通知系统管理员。"
     }
   ],
   "ui-inventory.moveEntity.instance.items.error.server": [
     {
       "type": 0,
-      "value": "There was a problem updating the following items "
+      "value": "更新以下单件"
     },
     {
       "type": 1,
@@ -81697,7 +81709,7 @@
     },
     {
       "type": 0,
-      "value": ". Please try again or notify your systems administrator."
+      "value": " 有问题。请重试或通知系统管理员。"
     }
   ],
   "ui-inventory.moveEntity.instance.items.success": [
@@ -81717,7 +81729,7 @@
           "value": [
             {
               "type": 0,
-              "value": "item has"
+              "value": "单件"
             }
           ]
         },
@@ -81725,7 +81737,7 @@
           "value": [
             {
               "type": 0,
-              "value": "items have"
+              "value": "单件"
             }
           ]
         }
@@ -81736,25 +81748,25 @@
     },
     {
       "type": 0,
-      "value": " been successfully moved."
+      "value": "已成功移动。"
     }
   ],
   "ui-inventory.moveEntity.items.dropZone": [
     {
       "type": 0,
-      "value": "Drop items here"
+      "value": "在此处放下单件"
     }
   ],
   "ui-inventory.moveEntity.modal.confirmLabel": [
     {
       "type": 0,
-      "value": "Continue"
+      "value": "继续"
     }
   ],
   "ui-inventory.moveEntity.modal.message.hasLinkedPOLsOrHoldings": [
     {
       "type": 0,
-      "value": "This holdings is linked to a purchase order line. Moving this holdings to a new instance will move any other holdings and items that are linked to this purchase order line to the new instance as well. The purchase order line will also be linked to the new instance. Do you want to continue?"
+      "value": "此馆藏已链接到采购订单行。将此馆藏移至新实例会将链接到此采购订单行的任何其他馆藏和单件也移至新实例。采购订单行也将链接到新实例。是否要继续？"
     }
   ],
   "ui-inventory.moveEntity.modal.message.holdings": [
@@ -81774,7 +81786,7 @@
           "value": [
             {
               "type": 0,
-              "value": "holding"
+              "value": "馆藏"
             }
           ]
         },
@@ -81782,7 +81794,7 @@
           "value": [
             {
               "type": 0,
-              "value": "holdings"
+              "value": "馆藏"
             }
           ]
         }
@@ -81793,7 +81805,7 @@
     },
     {
       "type": 0,
-      "value": " will be moved to "
+      "value": "将移至"
     },
     {
       "type": 1,
@@ -81817,7 +81829,7 @@
           "value": [
             {
               "type": 0,
-              "value": "item"
+              "value": "单件"
             }
           ]
         },
@@ -81825,7 +81837,7 @@
           "value": [
             {
               "type": 0,
-              "value": "items"
+              "value": "单件"
             }
           ]
         }
@@ -81836,7 +81848,7 @@
     },
     {
       "type": 0,
-      "value": " will be moved to "
+      "value": "将移至"
     },
     {
       "type": 1,
@@ -81846,13 +81858,13 @@
   "ui-inventory.moveEntity.modal.title": [
     {
       "type": 0,
-      "value": "Confirm move"
+      "value": "确认移动"
     }
   ],
   "ui-inventory.moveEntity.move.holdings.count": [
     {
       "type": 0,
-      "value": "Move: "
+      "value": "移动 :  "
     },
     {
       "style": null,
@@ -81870,7 +81882,7 @@
           "value": [
             {
               "type": 0,
-              "value": "holding"
+              "value": "馆藏"
             }
           ]
         },
@@ -81878,7 +81890,7 @@
           "value": [
             {
               "type": 0,
-              "value": "holdings"
+              "value": "馆藏"
             }
           ]
         }
@@ -81891,7 +81903,7 @@
   "ui-inventory.moveEntity.move.items.count": [
     {
       "type": 0,
-      "value": "Move: "
+      "value": "移动 :  "
     },
     {
       "style": null,
@@ -81909,7 +81921,7 @@
           "value": [
             {
               "type": 0,
-              "value": "item"
+              "value": "单件"
             }
           ]
         },
@@ -81917,7 +81929,7 @@
           "value": [
             {
               "type": 0,
-              "value": "items"
+              "value": "单件"
             }
           ]
         }
@@ -81930,25 +81942,25 @@
   "ui-inventory.moveEntity.moveButton": [
     {
       "type": 0,
-      "value": "Move to"
+      "value": "移至"
     }
   ],
   "ui-inventory.moveEntity.selectAll": [
     {
       "type": 0,
-      "value": "Select/unselect all items for movement"
+      "value": "选择/取消选择所有要移动的单件"
     }
   ],
   "ui-inventory.moveEntity.selectHolding": [
     {
       "type": 0,
-      "value": "Select holdings"
+      "value": "选择馆藏"
     }
   ],
   "ui-inventory.moveEntity.selectItem": [
     {
       "type": 0,
-      "value": "Select/unselect item for movement"
+      "value": "选择/取消选择要移动的单件"
     }
   ],
   "ui-inventory.moveItems": [
@@ -83524,13 +83536,13 @@
   "ui-inventory.primaryHoldingsCallNumber": [
     {
       "type": 0,
-      "value": "Primary holdings call number"
+      "value": "主要馆藏索书号"
     }
   ],
   "ui-inventory.primaryItemCallNumber": [
     {
       "type": 0,
-      "value": "Primary item call number"
+      "value": "主要单件索书号"
     }
   ],
   "ui-inventory.print": [

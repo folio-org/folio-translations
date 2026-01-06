@@ -17731,7 +17731,7 @@
   "ui-agreements.customProperties.errors.customPropertyNoteWithoutValue": [
     {
       "type": 0,
-      "value": "A value must be set in order to save a note"
+      "value": "Aby zapisać uwagę, musisz podać wartość"
     }
   ],
   "ui-agreements.customProperties.errors.primaryRetired": [
@@ -19140,7 +19140,7 @@
   "ui-agreements.eresources.proxiesCustomizers": [
     {
       "type": 0,
-      "value": "Proxies/Customizers"
+      "value": "Pełnomocnicy/Osoby upoważnione"
     }
   ],
   "ui-agreements.eresources.publicationType": [
@@ -19546,7 +19546,7 @@
   "ui-agreements.errors.hasNonAlphaName": [
     {
       "type": 0,
-      "value": "The name can only contain Latin alphabetical characters (a-z) and non-leading numeric characters."
+      "value": "Nazwa może zawierać tylko litery alfabetu łacińskiego (a–z) oraz cyfry bez zer wiodących."
     }
   ],
   "ui-agreements.errors.invalidNumber": [
@@ -20112,7 +20112,7 @@
   "ui-agreements.identifier.pisbn": [
     {
       "type": 0,
-      "value": "ISBN (druk)"
+      "value": "ISBN wydania drukowanego"
     }
   ],
   "ui-agreements.identifier.pissn": [
@@ -20685,7 +20685,7 @@
   "ui-agreements.okay": [
     {
       "type": 0,
-      "value": "Okay"
+      "value": "OK"
     }
   ],
   "ui-agreements.open.linkInNewTab": [
@@ -20865,7 +20865,7 @@
   "ui-agreements.packageIdentifiers.eBookPool": [
     {
       "type": 0,
-      "value": "E-Book Pool"
+      "value": "Pula e-booków"
     }
   ],
   "ui-agreements.packageIdentifiers.ezb": [
@@ -22417,7 +22417,7 @@
   "ui-agreements.settings.fileStorage.s3BucketRegion": [
     {
       "type": 0,
-      "value": "S3 bucket region"
+      "value": "Region bucketu S3"
     }
   ],
   "ui-agreements.settings.fileStorage.s3Endpoint": [
@@ -22441,7 +22441,7 @@
   "ui-agreements.settings.fileStorage.storageEngine": [
     {
       "type": 0,
-      "value": "Storage engine"
+      "value": "Silnik magazynu"
     }
   ],
   "ui-agreements.settings.general": [
@@ -22453,7 +22453,7 @@
   "ui-agreements.settings.general.displaySuppressFromDiscovery.description": [
     {
       "type": 0,
-      "value": "Wyświetl ustawienia „Ukryty w katalogu WWW” włączone"
+      "value": "Wyświetlaj ustawienie „Ukryj w katalogu WWW”"
     }
   ],
   "ui-agreements.settings.general.displaySuppressFromDiscovery.titles": [
@@ -22621,31 +22621,31 @@
   "ui-agreements.settings.pageSize.agreementEresources": [
     {
       "type": 0,
-      "value": "Panel widoku umowy > E-zasoby objęte niniejsza umową"
+      "value": "Widok umowy > E-zasoby objęte tą umową"
     }
   ],
   "ui-agreements.settings.pageSize.agreementLines": [
     {
       "type": 0,
-      "value": "Panel widoku umowy > pozycje umowy"
+      "value": "Widok umowy > Pozycje umowy"
     }
   ],
   "ui-agreements.settings.pageSize.entitlementOptions": [
     {
       "type": 0,
-      "value": "Panel widoku e-zasobu > Opcje pozyskiwania e-zasobu"
+      "value": "Widoku e-zasobu > Opcje pozyskania e-zasobu"
     }
   ],
   "ui-agreements.settings.pageSize.entitlements": [
     {
       "type": 0,
-      "value": "Panel widoku e-zasobu > Umowy dotyczące tego e-zasobu"
+      "value": "Widok e-zasobu > Umowy dla tego e-zasobu"
     }
   ],
   "ui-agreements.settings.pageSize.packageContents": [
     {
       "type": 0,
-      "value": "Panel widoku pakietu > E-zasoby w pakiecie"
+      "value": "Widok pakietu > e-Zasoby w pakiecie"
     }
   ],
   "ui-agreements.settings.pickList": [
@@ -23377,7 +23377,7 @@
   "ui-bulk-edit.ariaLabel.columnFilter": [
     {
       "type": 0,
-      "value": "Column filter input"
+      "value": "Pole filtra kolumny"
     }
   ],
   "ui-bulk-edit.ariaLabel.createInstanceMarcProfile": [
@@ -23635,7 +23635,7 @@
   "ui-bulk-edit.columns.HOLDINGS_RECORD.Holdings copy number": [
     {
       "type": 0,
-      "value": "Holdings copy number"
+      "value": "Liczba zasobów"
     }
   ],
   "ui-bulk-edit.columns.HOLDINGS_RECORD.Holdings level call number": [
@@ -23965,7 +23965,7 @@
   "ui-bulk-edit.columns.INSTANCE.Previously held": [
     {
       "type": 0,
-      "value": "Previously held"
+      "value": "Wcześniej posiadane"
     }
   ],
   "ui-bulk-edit.columns.INSTANCE.Publication": [
@@ -24325,7 +24325,7 @@
   "ui-bulk-edit.columns.ITEM.Item effective location": [
     {
       "type": 0,
-      "value": "Aktualna lokalizacja egzemplarza"
+      "value": "Efektywna lokalizacja dla egzemplarza"
     }
   ],
   "ui-bulk-edit.columns.ITEM.Item id": [
@@ -25116,13 +25116,13 @@
   "ui-bulk-edit.error.mod-bulk-operations.not.confirm.changes.s3.issue": [
     {
       "type": 0,
-      "value": "There is a problem to retrieve data from S3.   Please contact your hosting provider to check S3 configuration.  Further details are available in Bulk edit app logs (mod-bulk-operations and mod-data-export-worker modules)."
+      "value": "Wystąpił problem z pobieraniem danych z S3. Skontaktuj się z dostawcą hostingu, aby sprawdzić konfigurację S3. Szczegóły znajdziesz w logach aplikacji Edycji Masowej (mod-bulk-operations i mod-data-export-worker)"
     }
   ],
   "ui-bulk-edit.error.mod-bulk-operations.not.download.file.from.s3": [
     {
       "type": 0,
-      "value": "There is a problem to retrieve data from S3.   Please contact your hosting provider to check S3 configuration.  Further details are available in Bulk edit app logs (mod-bulk-operations and mod-data-export-worker modules)."
+      "value": "Wystąpił problem z pobieraniem danych z S3. Skontaktuj się z dostawcą hostingu, aby sprawdzić konfigurację S3. Szczegóły znajdziesz w logach aplikacji Edycji Masowej (mod-bulk-operations i mod-data-export-worker)."
     }
   ],
   "ui-bulk-edit.error.mod-bulk-operations.not.upload.file.s3.invalid.configuration": [
@@ -25404,7 +25404,7 @@
   "ui-bulk-edit.layer.options.intellectual": [
     {
       "type": 0,
-      "value": "Intellectual item"
+      "value": "Zasób intelektualny"
     }
   ],
   "ui-bulk-edit.layer.options.items.addNote": [
@@ -26903,7 +26903,7 @@
   "ui-bulk-edit.meta.query.title.marc": [
     {
       "type": 0,
-      "value": "Bulk edit MARC fields query"
+      "value": "Zapytanie do masowej edycji pól MARC"
     }
   ],
   "ui-bulk-edit.meta.query.title.mark": [
@@ -27187,7 +27187,7 @@
   "ui-bulk-edit.permissionsModal.filter.permissions": [
     {
       "type": 0,
-      "value": "Permissions"
+      "value": "Uprawnienia"
     }
   ],
   "ui-bulk-edit.permissionsModal.filter.resetAll": [
@@ -27229,7 +27229,7 @@
   "ui-bulk-edit.permissionsModal.list.cell.permissions": [
     {
       "type": 0,
-      "value": "Permission"
+      "value": "Uprawnienie"
     }
   ],
   "ui-bulk-edit.permissionsModal.list.cell.unassigned": [
@@ -27270,7 +27270,7 @@
   "ui-bulk-edit.permissionsModal.list.title": [
     {
       "type": 0,
-      "value": "Permissions"
+      "value": "Uprawnienia"
     }
   ],
   "ui-bulk-edit.permissionsModal.save": [
@@ -30663,7 +30663,7 @@
   "ui-checkin.defaultCheckinAction.Keep_on_hold_shelf": [
     {
       "type": 0,
-      "value": "Keep on hold shelf"
+      "value": "Pozostaw na półce „Oczekujące na odbiór”"
     }
   ],
   "ui-checkin.effectiveCallNumber": [
@@ -30737,7 +30737,7 @@
   "ui-checkin.forUseAtLocation.Held": [
     {
       "type": 0,
-      "value": "Keep on hold shelf"
+      "value": "Pozostaw na półce „Oczekujące na odbiór”"
     }
   ],
   "ui-checkin.forUseAtLocation.Returned": [
@@ -33891,7 +33891,7 @@
   "ui-circulation.permission.settings.fixed-due-date-schedules": [
     {
       "type": 0,
-      "value": "Ustawienia (Circ): Może tworzyć, edytować i usuwać harmonogramy daty zwrotu"
+      "value": "Ustawienia (Udostępnianie): Może tworzyć, edytować i usuwać harmonogram stałych terminów zwrotu"
     }
   ],
   "ui-circulation.permission.settings.loan-history": [
@@ -34047,7 +34047,7 @@
   "ui-circulation.settings.PrintHoldRequests.paneTitle": [
     {
       "type": 0,
-      "value": "Print hold requests"
+      "value": "Drukuj rezerwacje"
     }
   ],
   "ui-circulation.settings.ViewPrintDetails.callout.error": [
@@ -34233,7 +34233,7 @@
   "ui-circulation.settings.checkout.checkin.timeout": [
     {
       "type": 0,
-      "value": "Automatycznie zakończ wypożyczenia i zwroty po czasie bezczynności"
+      "value": "Automatycznie zakończ wypożyczenia i zwroty po okresie braku aktywności"
     }
   ],
   "ui-circulation.settings.checkout.filterRules": [
@@ -34485,7 +34485,7 @@
   "ui-circulation.settings.circulationRules.overdueFinePolicies": [
     {
       "type": 0,
-      "value": "Reguły kar za zaległości"
+      "value": "Reguły kar za przetrzymanie"
     }
   ],
   "ui-circulation.settings.circulationRules.paneTitle": [
@@ -34677,13 +34677,13 @@
   "ui-circulation.settings.consortiumTlr.notification": [
     {
       "type": 0,
-      "value": "Consortium title level requests (TLR) is disabled. The setting will become active after the \"Allow title level requests\" checkbox is "
+      "value": "Rezerwacje tytułu dla konsorcjum są wyłączone. Ustawienie stanie się aktywne po zaznaczeniu checkboxa „Zezwalaj na rezerwacje na poziomie tytułu” i "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "checked and saved"
+          "value": "zapisaniu go"
         }
       ],
       "type": 8,
@@ -34691,7 +34691,7 @@
     },
     {
       "type": 0,
-      "value": " in the title level requests (TLR) setting \"(Settings > Circulation > General > Title level requests (TLR))\"."
+      "value": " w ustawieniu dla rezerwacji tytułu  „(Ustawienia > Udostępnianie > Ogólne > Rezerwacje tytułu)”."
     }
   ],
   "ui-circulation.settings.fDDS.deleteDisabled": [
@@ -34725,7 +34725,7 @@
   "ui-circulation.settings.fDDS.successfulDelete": [
     {
       "type": 0,
-      "value": "Stałe harmonogramy zwrotów "
+      "value": "Harmonogram stałych terminów zwrotu "
     },
     {
       "type": 1,
@@ -34813,7 +34813,7 @@
   "ui-circulation.settings.fDDSform.closeLabel": [
     {
       "type": 0,
-      "value": "Zamknij okno stałych terminów zwrotu"
+      "value": "Zamknij okno harmonogramu stałych terminów zwrotu"
     }
   ],
   "ui-circulation.settings.fDDSform.dateFormTitle": [
@@ -34887,13 +34887,13 @@
   "ui-circulation.settings.fDDSform.entryLabel": [
     {
       "type": 0,
-      "value": "stały harmonogram zwrotów"
+      "value": "harmonogram stałych terminów zwrotu"
     }
   ],
   "ui-circulation.settings.fDDSform.name": [
     {
       "type": 0,
-      "value": "Nazwa ustalanego harmonogramu zwrotów"
+      "value": "Nazwa harmonogramu stałych terminów zwrotu"
     }
   ],
   "ui-circulation.settings.fDDSform.new": [
@@ -34905,7 +34905,7 @@
   "ui-circulation.settings.fDDSform.newFixDDSchedule": [
     {
       "type": 0,
-      "value": "Utwórz stały harmonogram zwrotów"
+      "value": "Utwórz harmonogram stałych terminów zwrotu"
     }
   ],
   "ui-circulation.settings.fDDSform.remove": [
@@ -34965,7 +34965,7 @@
   "ui-circulation.settings.finePolicy.entryLabel": [
     {
       "type": 0,
-      "value": "Reguły kar za zaległości"
+      "value": "Reguły kar za przetrzymanie"
     }
   ],
   "ui-circulation.settings.finePolicy.forgiveOverdueFine": [
@@ -35001,7 +35001,7 @@
   "ui-circulation.settings.finePolicy.maximumOverdueFine": [
     {
       "type": 0,
-      "value": "Maksymalne zaległe kary"
+      "value": "Maksymalna kara za przetrzymanie"
     }
   ],
   "ui-circulation.settings.finePolicy.maximumRecallOverdueFine": [
@@ -35037,7 +35037,7 @@
   "ui-circulation.settings.finePolicy.overdueFine": [
     {
       "type": 0,
-      "value": "Kara za zaległości"
+      "value": "Kara za przetrzymanie"
     }
   ],
   "ui-circulation.settings.finePolicy.overdueFinePolicyName": [
@@ -35049,7 +35049,7 @@
   "ui-circulation.settings.finePolicy.overdueFineTitle": [
     {
       "type": 0,
-      "value": "Kara za zaległości"
+      "value": "Kara za przetrzymanie"
     }
   ],
   "ui-circulation.settings.finePolicy.overdueFines": [
@@ -35067,7 +35067,7 @@
   "ui-circulation.settings.finePolicy.paneTitle": [
     {
       "type": 0,
-      "value": "Reguły kar za zaległości"
+      "value": "Reguły kar za przetrzymanie"
     }
   ],
   "ui-circulation.settings.finePolicy.per": [
@@ -35219,7 +35219,7 @@
   "ui-circulation.settings.finePolicy.reminderFees.overdue": [
     {
       "type": 0,
-      "value": "Zaległość"
+      "value": "Przetrzymanie"
     }
   ],
   "ui-circulation.settings.finePolicy.reminderFees.previousReminder": [
@@ -35429,7 +35429,7 @@
   "ui-circulation.settings.index.printHoldRequests": [
     {
       "type": 0,
-      "value": "Print hold requests"
+      "value": "Drukuj rezerwacje"
     }
   ],
   "ui-circulation.settings.index.request": [
@@ -35471,7 +35471,7 @@
   "ui-circulation.settings.index.tlrPatronNotices": [
     {
       "type": 0,
-      "value": "TLR patron notice templates"
+      "value": "Szablony powiadomień czytelnika dla rezerwacji tytułu"
     }
   ],
   "ui-circulation.settings.index.viewPrintDetails": [
@@ -35677,7 +35677,7 @@
   "ui-circulation.settings.loanPolicy.altFDDSDueDateLimit": [
     {
       "type": 0,
-      "value": "Alternatywny harmonogram zwrotu (limit terminu zwrotu) dla prolongat"
+      "value": "Alternatywny harmonogram stałych terminów zwrotu (limit terminu zwrotu) dla prolongat"
     }
   ],
   "ui-circulation.settings.loanPolicy.altFDDSforRenewals": [
@@ -35701,7 +35701,7 @@
   "ui-circulation.settings.loanPolicy.closedDueDateMgmt": [
     {
       "type": 0,
-      "value": "Zarządzanie terminami zwrotu dla zamkniętej biblioteki"
+      "value": "Zarządzanie terminem zwrotu w dni zamknięcia biblioteki"
     }
   ],
   "ui-circulation.settings.loanPolicy.createEntryLabel": [
@@ -35755,7 +35755,7 @@
   "ui-circulation.settings.loanPolicy.fDDS": [
     {
       "type": 0,
-      "value": "Stały harmonogram zwrotów"
+      "value": "Harmonogram stałych terminów zwrotu"
     }
   ],
   "ui-circulation.settings.loanPolicy.fDDSlimit": [
@@ -35875,13 +35875,13 @@
   "ui-circulation.settings.loanPolicy.profileType.fixed": [
     {
       "type": 0,
-      "value": "Naprawiony"
+      "value": "Stały"
     }
   ],
   "ui-circulation.settings.loanPolicy.profileType.rolling": [
     {
       "type": 0,
-      "value": "Przenoszenie"
+      "value": "Ruchomy"
     }
   ],
   "ui-circulation.settings.loanPolicy.removed": [
@@ -35935,7 +35935,7 @@
   "ui-circulation.settings.loanPolicy.selectFDDS": [
     {
       "type": 0,
-      "value": "Proszę wybrać stały harmonogram zwrotów"
+      "value": "Proszę wybrać harmonogram stałych terminów zwrotu"
     }
   ],
   "ui-circulation.settings.loanPolicy.selectInterval": [
@@ -36219,7 +36219,7 @@
   "ui-circulation.settings.lostItemFee.setCost": [
     {
       "type": 0,
-      "value": "Ustaw wartość"
+      "value": "Stała kwota"
     }
   ],
   "ui-circulation.settings.lostItemFee.validate.chargeAmountItemSystemSelected": [
@@ -36409,13 +36409,13 @@
   "ui-circulation.settings.noticePolicy.feeFineNotices.renewed": [
     {
       "type": 0,
-      "value": "Kara za zaległość przy prolongacie"
+      "value": "Kara za przetrzymanie - prolongata"
     }
   ],
   "ui-circulation.settings.noticePolicy.feeFineNotices.returned": [
     {
       "type": 0,
-      "value": "Kara za zaległość przy zwrocie"
+      "value": "Kara za przetrzymanie - zwrot"
     }
   ],
   "ui-circulation.settings.noticePolicy.generalInformation": [
@@ -36763,7 +36763,7 @@
   "ui-circulation.settings.patronNotices.emailOrPrint": [
     {
       "type": 0,
-      "value": "E-mail lub drukuj"
+      "value": "E-mail lub wydruk"
     }
   ],
   "ui-circulation.settings.patronNotices.errors.nameExists": [
@@ -36883,7 +36883,7 @@
   "ui-circulation.settings.patronNotices.printOnly": [
     {
       "type": 0,
-      "value": "Tylko drukuj"
+      "value": "Tylko wydruk"
     }
   ],
   "ui-circulation.settings.patronNotices.requestTokenHeader": [
@@ -36907,7 +36907,7 @@
   "ui-circulation.settings.patronNotices.subject": [
     {
       "type": 0,
-      "value": "Hasło przedmiotowe"
+      "value": "Temat"
     }
   ],
   "ui-circulation.settings.patronNotices.userAddressTokenHeader": [
@@ -37085,13 +37085,13 @@
   "ui-circulation.settings.requestPolicy.policyTypes.hold.infoPopover.content": [
     {
       "type": 0,
-      "value": "If the \"Fail to create title level hold when request is blocked by circulation rule\" setting is "
+      "value": "Jeśli ustawienie „Nie udało się utworzyć rezerwacji tytułu, gdy rezerwacja jest blokowana przez regułę udostępniania” jest "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "unchecked"
+          "value": "odznaczone"
         }
       ],
       "type": 8,
@@ -37099,19 +37099,19 @@
     },
     {
       "type": 0,
-      "value": ", title level holds will always be allowed. (Settings > Circulation > Title level requests)"
+      "value": ", rezerwacje tytułu będą zawsze dozwolone. (Ustawienia > Udostępnianie > Rezerwacje tytułu)"
     }
   ],
   "ui-circulation.settings.requestPolicy.requestTypes.allowAll": [
     {
       "type": 0,
-      "value": "Zezwalaj na wszystkie punkty odbioru"
+      "value": "Zezwalaj na wszystkie punkty obsługi"
     }
   ],
   "ui-circulation.settings.requestPolicy.requestTypes.allowSome": [
     {
       "type": 0,
-      "value": "Zezwalaj na wybrane punkty odbioru"
+      "value": "Zezwalaj na wybrane punkty obsługi"
     }
   ],
   "ui-circulation.settings.requestPolicy.saveAndClose": [
@@ -37707,7 +37707,7 @@
   "ui-circulation.settings.titleLevelRequests.tlrHoldShouldFollowCirculationRules": [
     {
       "type": 0,
-      "value": "Fail to create title level hold when request is blocked by circulation rule"
+      "value": "Nie udało się utworzyć rezerwacji tytułu, ponieważ rezerwacja jest blokowana przez regułę udostępniania"
     }
   ],
   "ui-circulation.settings.titleLevelRequestsTlr.paneTitle": [
@@ -37791,7 +37791,7 @@
   "ui-claims.claiming.delayClaim.error.message": [
     {
       "type": 0,
-      "value": "Failure on delay claims."
+      "value": "Błąd przy obsłudze monitów opóźnionych."
     }
   ],
   "ui-claims.claiming.delayClaim.success.message": [
@@ -42551,19 +42551,19 @@
   "ui-courses.settings.departments": [
     {
       "type": 0,
-      "value": "Wydziały zajęć"
+      "value": "Jednostki prowadzące zajęcia"
     }
   ],
   "ui-courses.settings.display.duplicateCrosslistedCourses": [
     {
       "type": 0,
-      "value": "Powiel zajęcia z listy krzyżowej"
+      "value": "Powiel wszystkie zajęcia powiązane"
     }
   ],
   "ui-courses.settings.display.duplicateCrosslistedCourses.description": [
     {
       "type": 0,
-      "value": "Jeśli to ustawienie jest zaznaczone, podczas kopiowania kursu pole wyboru „Powiel kursy z listy krzyżowej” w oknie dialogowym Powielanie będzie domyślnie zaznaczone jako wybrane."
+      "value": "Jeśli to ustawienie jest zaznaczone, podczas kopiowania kursu checkbox „Powiel wszystkie zajęcia powiązane” w oknie dialogowym Powielanie będzie domyślnie zaznaczone jako wybrane."
     }
   ],
   "ui-courses.settings.displaySettings": [
@@ -48627,7 +48627,7 @@
   "ui-data-import.manageJobs": [
     {
       "type": 0,
-      "value": "Zarządzanie"
+      "value": "Zarządzaj"
     }
   ],
   "ui-data-import.mapping": [
@@ -50840,7 +50840,7 @@
   "ui-data-import.settings.mappingProfiles.map.administrativeData.field.previouslyHeld": [
     {
       "type": 0,
-      "value": "Poprzednio przechowywany"
+      "value": "Wcześniej posiadane"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.administrativeData.field.selectCheckboxFieldMapping": [
@@ -52264,7 +52264,7 @@
   "ui-data-import.settings.mappingProfiles.map.item.status.intellectualItem": [
     {
       "type": 0,
-      "value": "Intellectual item"
+      "value": "Zasób intelektualny"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.item.status.longMissing": [
@@ -52432,7 +52432,7 @@
   "ui-data-import.settings.mappingProfiles.map.order.costDetails.field.quantityElectronic": [
     {
       "type": 0,
-      "value": "Ilość elektronicznych"
+      "value": "Ilość (elektronicznych)"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.order.costDetails.field.quantityPhysical": [
@@ -52468,7 +52468,7 @@
   "ui-data-import.settings.mappingProfiles.map.order.costDetails.quantityElectronic": [
     {
       "type": 0,
-      "value": "Ilość elektronicznych"
+      "value": "Ilość (elektronicznych)"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.order.costDetails.quantityPhysical": [
@@ -52834,7 +52834,7 @@
   "ui-data-import.settings.mappingProfiles.map.order.location.field.quantityElectronic": [
     {
       "type": 0,
-      "value": "Ilość elektronicznych"
+      "value": "Ilość (elektronicznych)"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.order.location.field.quantityElectronic.info": [
@@ -53668,7 +53668,7 @@
   "ui-data-import.settings.mappingProfiles.map.order.vendor.field.continuationRefNumber": [
     {
       "type": 0,
-      "value": "Vendor continuation reference number"
+      "value": "Numer referencyjny dla kontynuacji u dostawcy"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.order.vendor.field.instructionsToVendor": [
@@ -55036,7 +55036,7 @@
   "ui-data-import.settings.matchProfiles.quantityElectronic": [
     {
       "type": 0,
-      "value": "Ilość elektronicznych"
+      "value": "Ilość (elektronicznych)"
     }
   ],
   "ui-data-import.settings.matchProfiles.quantityPhysical": [
@@ -55960,7 +55960,7 @@
   "ui-developer.canIUseCapabilities": [
     {
       "type": 0,
-      "value": "I can haz capabilities?"
+      "value": "Czy mam uprawnienia?"
     }
   ],
   "ui-developer.capabilities": [
@@ -55972,13 +55972,13 @@
   "ui-developer.capabilitiesSubtitle": [
     {
       "type": 0,
-      "value": "Nazwa uprawnienia/nazwa wyświetlana do mapowania możliwości"
+      "value": "Mapowanie nazwy uprawnienia/nazwy wyświetlanej na uprawnienia "
     }
   ],
   "ui-developer.capabilitiesTitle": [
     {
       "type": 0,
-      "value": "Znajdź uprawnienia"
+      "value": "Znajdź możliwości"
     }
   ],
   "ui-developer.capabilitySets": [
@@ -57221,31 +57221,31 @@
   "ui-developer.rtr.activityEvents": [
     {
       "type": 0,
-      "value": "activityEvents: which DOM events constitute user activity (comma-separated, e.g. 'mousemove,keydown')"
+      "value": "Które zdarzenia DOM są uznawane za aktywność użytkownika, oddzielone przecinkami np. \"ruch myszą,naciśnięcie klawisza\""
     }
   ],
   "ui-developer.rtr.fixedLengthSessionWarningTTL": [
     {
       "type": 0,
-      "value": "fixedLengthSessionWarningTTL: how long the “your session is going to die!” warning should be shown before the session is killed (e.g. 1h, 1m, 5s, 10ms)"
+      "value": "Czas, przez jaki powinno być wyświetlane ostrzeżenie „Twoja sesja wkrótce zostanie zakończona!”, zanim sesja zostanie zakończona np. 1h, 1m, 5s, 10ms"
     }
   ],
   "ui-developer.rtr.forceRefresh": [
     {
       "type": 0,
-      "value": "Force refresh"
+      "value": "Wymuszone odświeżenie"
     }
   ],
   "ui-developer.rtr.idleModalTTL": [
     {
       "type": 0,
-      "value": "idleModalTTL: duration the idle modal should be shown before session is killed (e.g. 1h, 1m, 5s, 10ms)"
+      "value": "Czas, przez jaki okno informujące o bezczynności powinno być wyświetlane, zanim sesja zostanie zakończona np. 1h, 1m, 5s, 10ms"
     }
   ],
   "ui-developer.rtr.idleSessionTTL": [
     {
       "type": 0,
-      "value": "idleSessionTTL: duration an idle session lasts before being killed (e.g. 1h, 1m, 5s, 10ms)"
+      "value": "Czas, przez jaki nieaktywna sesja trwa, zanim zostanie zakończona np. 1h, 1m, 5s, 10ms"
     }
   ],
   "ui-developer.rtr.invalidateAT": [
@@ -57269,7 +57269,7 @@
   "ui-developer.rtr.rotationIntervalFraction": [
     {
       "type": 0,
-      "value": "rotationIntervalFraction: decimal fraction of how early to refresh the access token (e.g. 0.6 is 60% into the lifetime of the token)"
+      "value": "Ułamek dziesiętny określający, jak wcześnie ma zostać odświeżony token dostępu np. 0.6 oznacza 60% czasu ważności tokenu"
     }
   ],
   "ui-developer.rtr.unregisterServiceWorker": [
@@ -57401,7 +57401,7 @@
   "ui-developer.sessionTimezone.timeZone": [
     {
       "type": 0,
-      "value": "Time zone (time zone used when showing date time information)"
+      "value": "Strefa czasowa (używana przy wyświetlaniu daty i godziny)"
     }
   ],
   "ui-developer.setToken": [
@@ -57431,31 +57431,31 @@
   "ui-developer.userLocale": [
     {
       "type": 0,
-      "value": "Ustawienia języka użytkownika"
+      "value": "Ustawienia lokalne użytkownika"
     }
   ],
   "ui-developer.userLocale.currency": [
     {
       "type": 0,
-      "value": "Waluta główna (do wyświetlania symbolu waluty) "
+      "value": "Waluta główna (do wyświetlania symbolu waluty)"
     }
   ],
   "ui-developer.userLocale.locale": [
     {
       "type": 0,
-      "value": "Locale (for language display, date format etc.)"
+      "value": "Ustawienia lokalne (dla wyświetlanego języka, formatu daty itp.)"
     }
   ],
   "ui-developer.userLocale.numberingSystem": [
     {
       "type": 0,
-      "value": "Numbering system (override locale's default; "
+      "value": "System numeracji (nadpisuje domyślny dla ustawień regionalnych;"
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "details"
+          "value": "szczegóły"
         }
       ],
       "type": 8,
@@ -57485,7 +57485,7 @@
   "ui-developer.userLocale.timeZone": [
     {
       "type": 0,
-      "value": "Time zone (time zone used when showing date time information)"
+      "value": "Strefa czasowa (używana przy wyświetlaniu daty i godziny)"
     }
   ],
   "ui-developer.userLocale.username": [
@@ -58159,7 +58159,7 @@
   "ui-eholdings.exportPackageResources.fields.title.isbn_print": [
     {
       "type": 0,
-      "value": "ISBN_Drukuj"
+      "value": "ISBN (drukowane)"
     }
   ],
   "ui-eholdings.exportPackageResources.fields.title.issn_online": [
@@ -58845,7 +58845,7 @@
   "ui-eholdings.label.identifier.isbn_print": [
     {
       "type": 0,
-      "value": "ISBN (Drukuj)"
+      "value": "ISBN wydania drukowanego"
     }
   ],
   "ui-eholdings.label.identifier.issnOnline": [
@@ -69960,7 +69960,7 @@
   "ui-finance.settings.exportFund.helperText": [
     {
       "type": 0,
-      "value": "When exporting the combined fund and expense class codes you will receive a delimited file that includes all Fund codes and all Fund code & expense class code combinations where expense class has a status of 'active'."
+      "value": "Podczas eksportu połączonych kodów funduszy i klas wydatków otrzymasz plik rozdzielany separatorami, który zawiera wszystkie kody funduszy oraz wszystkie kombinacje kodów funduszy i kodów klas wydatków, dla których klasa wydatków ma status „aktywny”."
     }
   ],
   "ui-finance.settings.exportFund.success": [
@@ -71522,7 +71522,7 @@
   "ui-gobi-settings.order.mappings.field.quantityElectronic": [
     {
       "type": 0,
-      "value": "Ilość elektronicznych"
+      "value": "Ilość (elektronicznych)"
     }
   ],
   "ui-gobi-settings.order.mappings.field.quantityPhysical": [
@@ -73062,7 +73062,7 @@
   "ui-inn-reach.settings.central-server-configuration.create-edit.button.hide-secrets": [
     {
       "type": 0,
-      "value": "Hide secrets"
+      "value": "Ukryj dane poufne"
     }
   ],
   "ui-inn-reach.settings.central-server-configuration.create-edit.button.save&close": [
@@ -73506,7 +73506,7 @@
   "ui-inn-reach.settings.contribution-options.status.intellectual-item": [
     {
       "type": 0,
-      "value": "Intellectual item"
+      "value": "Zasób intelektualny"
     }
   ],
   "ui-inn-reach.settings.contribution-options.status.long-missing": [
@@ -73926,7 +73926,7 @@
   "ui-inn-reach.settings.manage-contribution.history.field.decontributed": [
     {
       "type": 0,
-      "value": "De-contributed"
+      "value": "Wkład cofnięty"
     }
   ],
   "ui-inn-reach.settings.manage-contribution.history.field.error": [
@@ -73962,7 +73962,7 @@
   "ui-inn-reach.settings.manage-contribution.history.list.no.history": [
     {
       "type": 0,
-      "value": "Brak rekordów historii wkładu"
+      "value": "Brak rekordów historii zmian"
     }
   ],
   "ui-inn-reach.settings.manage-contribution.initaiate.failed": [
@@ -74052,7 +74052,7 @@
   "ui-inn-reach.settings.manage-contribution.label.decontributed": [
     {
       "type": 0,
-      "value": "Wycofane z wkładu"
+      "value": "Wkład cofnięty"
     }
   ],
   "ui-inn-reach.settings.manage-contribution.label.error": [
@@ -74070,7 +74070,7 @@
   "ui-inn-reach.settings.manage-contribution.label.matrial-mapping-status": [
     {
       "type": 0,
-      "value": "Material to item type mapping"
+      "value": "Mapowanie materiału na typ egzemplarza"
     }
   ],
   "ui-inn-reach.settings.manage-contribution.label.records-evaluated": [
@@ -74186,7 +74186,7 @@
   "ui-inn-reach.settings.material-type-mapping.title": [
     {
       "type": 0,
-      "value": "Material to item type mapping"
+      "value": "Mapowanie materiału na typ egzemplarza"
     }
   ],
   "ui-inn-reach.settings.material-type-mapping.update.success": [
@@ -75509,13 +75509,13 @@
   "ui-inventory.acq.receiptDate": [
     {
       "type": 0,
-      "value": "Piece receipt date"
+      "value": "Data przyjęcia materiału"
     }
   ],
   "ui-inventory.acq.receiptStatus": [
     {
       "type": 0,
-      "value": "Status rachunku pozycji zamówienia"
+      "value": "Status przyjęcia pozycji zamówienia"
     }
   ],
   "ui-inventory.acq.receiptStatus.Awaiting Receipt": [
@@ -75882,10 +75882,34 @@
       "value": "Dodaj rok, napis"
     }
   ],
+  "ui-inventory.additionalCallNumber": [
+    {
+      "type": 0,
+      "value": "Additional call number"
+    }
+  ],
+  "ui-inventory.additionalCallNumberPrefix": [
+    {
+      "type": 0,
+      "value": "Additional call number prefix"
+    }
+  ],
+  "ui-inventory.additionalCallNumberSuffix": [
+    {
+      "type": 0,
+      "value": "Additional call number suffix"
+    }
+  ],
+  "ui-inventory.additionalCallNumberType": [
+    {
+      "type": 0,
+      "value": "Additional call number type"
+    }
+  ],
   "ui-inventory.additionalCallNumbers": [
     {
       "type": 0,
-      "value": "Dodatkowe sygnatury"
+      "value": "Additional call numbers"
     }
   ],
   "ui-inventory.additionalHoldingsCallNumbers": [
@@ -76229,7 +76253,7 @@
   "ui-inventory.browse.superintendent": [
     {
       "type": 0,
-      "value": "Nadzorca klasyfikacji dokumentów"
+      "value": "Klasyfikacja dokumentów rządowych USA (SuDocs)"
     }
   ],
   "ui-inventory.browseCallNumbers": [
@@ -78684,7 +78708,7 @@
   "ui-inventory.internalIdEmbedPath": [
     {
       "type": 0,
-      "value": "Osadzona ścieżka wewnętrznego ID"
+      "value": "Ścieżka osadzenia ID (wewnętrznego)"
     }
   ],
   "ui-inventory.inventory.label": [
@@ -81724,7 +81748,7 @@
   "ui-inventory.previouslyHeld": [
     {
       "type": 0,
-      "value": "Poprzednio przechowywany"
+      "value": "Wcześniej posiadane"
     }
   ],
   "ui-inventory.primary": [
@@ -82849,7 +82873,7 @@
   "ui-inventory.settings.instanceCallNumber.sudoc": [
     {
       "type": 0,
-      "value": "Nadzorca klasyfikacji dokumentów"
+      "value": "Klasyfikacja dokumentów rządowych USA (SuDocs)"
     }
   ],
   "ui-inventory.settings.instanceCallNumber.termUpdated": [
@@ -85167,7 +85191,7 @@
   "ui-invoice.invoice.actions.updateOrderStatus.message": [
     {
       "type": 0,
-      "value": "You are processing this invoice against a previous fiscal year and \"release encumbrance\" equals true for one or more invoice lines. One or more related orders has a type of One-time. Please indicate how the payment status of these order lines should be updated?"
+      "value": "Przetwarzasz tę fakturę w odniesieniu do poprzedniego roku budżetowego a opcja „zwolnij rezerwację środków” jest ustawiona na \"prawda\" dla jednej lub więcej pozycji faktury. Jedno lub więcej powiązanych zamówień jest typu \"Jednorazowe\". Proszę wskazać, w jaki sposób status płatności tych pozycji zamówienia powinien być aktualizowany?"
     }
   ],
   "ui-invoice.invoice.actions.updateOrderStatus.status.awaitingPayment": [
@@ -90578,7 +90602,7 @@
   "ui-licenses.settings.fileStorage.s3BucketRegion": [
     {
       "type": 0,
-      "value": "S3 bucket region"
+      "value": "Region bucketu S3"
     }
   ],
   "ui-licenses.settings.fileStorage.s3Endpoint": [
@@ -90602,7 +90626,7 @@
   "ui-licenses.settings.fileStorage.storageEngine": [
     {
       "type": 0,
-      "value": "Storage engine"
+      "value": "Silnik magazynu"
     }
   ],
   "ui-licenses.settings.general": [
@@ -92525,7 +92549,7 @@
   "ui-lists.pane.dropdown.ariaLabel.columnFilter": [
     {
       "type": 0,
-      "value": "Column filter input"
+      "value": "Pole filtra kolumny"
     }
   ],
   "ui-lists.pane.dropdown.available-permissions": [
@@ -95359,7 +95383,7 @@
   "ui-marc-authorities.export-cql-query": [
     {
       "type": 0,
-      "value": "Save authorities CQL query"
+      "value": "Zapisz zapytanie CQL dla rekordów KHW"
     }
   ],
   "ui-marc-authorities.export-selected-records": [
@@ -96696,7 +96720,7 @@
   "ui-myprofile.settings.languageLocalization.fieldLocale.label": [
     {
       "type": 0,
-      "value": "Lokalne (dla wyświetlanego języka, formatu daty itp.)"
+      "value": "Ustawienia lokalne (dla wyświetlanego języka, formatu daty itp.)"
     }
   ],
   "ui-myprofile.settings.languageLocalization.label": [
@@ -96714,7 +96738,7 @@
   "ui-myprofile.settings.languageLocalization.tenantDefault": [
     {
       "type": 0,
-      "value": "Domyślny tenant"
+      "value": "Domyślna wartość dla tenanta"
     }
   ],
   "ui-myprofile.userDropdown.changePassword.caption": [
@@ -98480,7 +98504,7 @@
   "ui-oa.journal.oaStatus": [
     {
       "type": 0,
-      "value": "OA status"
+      "value": "Status OA (Open access)"
     }
   ],
   "ui-oa.journal.subtypePopover": [
@@ -98862,7 +98886,7 @@
   "ui-oa.party.streetAddresses": [
     {
       "type": 0,
-      "value": "Street addresses"
+      "value": "Adresy (ulice)"
     }
   ],
   "ui-oa.party.title": [
@@ -98972,7 +98996,7 @@
   "ui-oa.publicationJournal.issnPrint": [
     {
       "type": 0,
-      "value": "ISSN (drukuj)"
+      "value": "ISSN wydania drukowanego"
     }
   ],
   "ui-oa.publicationJournal.title": [
@@ -99310,7 +99334,7 @@
   "ui-oa.publicationRequest.localReference": [
     {
       "type": 0,
-      "value": "Local reference"
+      "value": "Referencja lokalna"
     }
   ],
   "ui-oa.publicationRequest.lookupPublication": [
@@ -99352,7 +99376,7 @@
   "ui-oa.publicationRequest.oaStatus": [
     {
       "type": 0,
-      "value": "OA status"
+      "value": "Status OA (Open access)"
     }
   ],
   "ui-oa.publicationRequest.orcidId": [
@@ -99573,7 +99597,7 @@
   "ui-oa.publicationRequest.streetAddresses": [
     {
       "type": 0,
-      "value": "Street addresses"
+      "value": "Adresy (ulice)"
     }
   ],
   "ui-oa.publicationRequest.subtype": [
@@ -99605,7 +99629,7 @@
   "ui-oa.publicationRequest.useCorrespondingAuthor": [
     {
       "type": 0,
-      "value": "Use corresponding author"
+      "value": "Użyj autora do korespondencji"
     }
   ],
   "ui-oa.publicationRequest.validate.publicationURL": [
@@ -100065,7 +100089,7 @@
   "ui-oa.settings.checklistItemDefinitions.weightPopover": [
     {
       "type": 0,
-      "value": "Item order weight, higher value means lower placement"
+      "value": "Waga kolejności egzemplarza; większa wartość powoduje niższe umiejscowienie"
     }
   ],
   "ui-oa.settings.edit": [
@@ -100299,13 +100323,13 @@
   "ui-oai-pmh.settings.behavior.record.inventory-storage": [
     {
       "type": 0,
-      "value": "Source records storage and Inventory"
+      "value": "Rekordy źródłowe oraz Katalogowanie"
     }
   ],
   "ui-oai-pmh.settings.behavior.record.storage": [
     {
       "type": 0,
-      "value": "Source records storage"
+      "value": "Rekordy źródłowe"
     }
   ],
   "ui-oai-pmh.settings.behavior.suppressedRecordsProcessing.false": [
@@ -108648,7 +108672,7 @@
   "ui-organizations.contactPeople.noFindContactPlugin": [
     {
       "type": 0,
-      "value": "brak wtyczki find-contact"
+      "value": "brak wtyczki \"find-contact\""
     }
   ],
   "ui-organizations.contactPeople.note": [
@@ -111627,7 +111651,7 @@
   "ui-organizations.versionHistory.field.edi.prorateFees": [
     {
       "type": 0,
-      "value": "Opłaty proporcjonalne"
+      "value": "Nalicz opłaty proporcjonalnie"
     }
   ],
   "ui-organizations.versionHistory.field.edi.prorateTax": [
@@ -111939,7 +111963,7 @@
   "ui-plugin-bursar-export.bursarExports.criteria.age.value": [
     {
       "type": 0,
-      "value": "Wiek w dniach"
+      "value": "Liczba dni od utworzenia"
     }
   ],
   "ui-plugin-bursar-export.bursarExports.criteria.location.camp": [
@@ -114013,7 +114037,7 @@
   "ui-plugin-eusage-reports.report-form.report.requests-by-date-of-use.right-picker": [
     {
       "type": 0,
-      "value": "Słupki: Grupuj według roku wydania"
+      "value": "Półki: Grupuj rok wydania według"
     }
   ],
   "ui-plugin-eusage-reports.report-form.report.requests-by-date-of-use.x-axis": [
@@ -115292,7 +115316,7 @@
   "ui-plugin-find-instance.item.status.intellectualItem": [
     {
       "type": 0,
-      "value": "Intellectual item"
+      "value": "Zasób intelektualny"
     }
   ],
   "ui-plugin-find-instance.item.status.longMissing": [
@@ -116479,7 +116503,7 @@
   "ui-plugin-query-builder.ariaLabel.columnFilter": [
     {
       "type": 0,
-      "value": "Column filter input"
+      "value": "Pole filtra kolumny"
     }
   ],
   "ui-plugin-query-builder.columns.action": [
@@ -118216,7 +118240,7 @@
   "ui-quick-marc.record.error.subfield": [
     {
       "type": 0,
-      "value": "Missing a subfield value for a MARC tag"
+      "value": "Brakuje wartości podpola MARC"
     }
   ],
   "ui-quick-marc.record.error.tag.length": [
@@ -124169,7 +124193,7 @@
   "ui-receiving.errors.multipleNonPackageTitles": [
     {
       "type": 0,
-      "value": "Non-package PO Line must not contain more than one title reference"
+      "value": "Pozycja zamówienia niebędąca pakietem nie może zawierać więcej niż jednego odniesienia do tytułu"
     }
   ],
   "ui-receiving.errors.partiallyReturnedCollection": [
@@ -127203,7 +127227,7 @@
   "ui-requests-mediated.form.requesterLookup.patronGroup": [
     {
       "type": 0,
-      "value": "Grupa czytelników rezerwującego"
+      "value": "Grupa czytelnika rezerwującego"
     }
   ],
   "ui-requests-mediated.form.requesterLookup.username": [
@@ -127335,7 +127359,7 @@
   "ui-requests-mediated.item.status.intellectualItem": [
     {
       "type": 0,
-      "value": "Intellectual item"
+      "value": "Zasób intelektualny"
     }
   ],
   "ui-requests-mediated.item.status.longMissing": [
@@ -128064,13 +128088,13 @@
   "ui-requests-mediated.report.proxy.barcode": [
     {
       "type": 0,
-      "value": "Kod kreskowy proxy rezerwującego"
+      "value": "Kod kreskowy upoważnionego do rezerwacji"
     }
   ],
   "ui-requests-mediated.report.proxy.name": [
     {
       "type": 0,
-      "value": "Nazwa proxy rezerwującego"
+      "value": "Nazwa pełnomocnika rezerwującego"
     }
   ],
   "ui-requests-mediated.report.requestDate": [
@@ -128538,7 +128562,7 @@
   "ui-requests.errors.cannotCreatePageTlrWithoutItemId": [
     {
       "type": 0,
-      "value": "Cannot create a title level page request for this instance ID with no item ID"
+      "value": "Nie można utworzyć rezerwacji tytułu dla tego ID instancji, ponieważ nie podano ID egzemplarza"
     }
   ],
   "ui-requests.errors.closingAlreadyClosedRequest": [
@@ -128556,7 +128580,7 @@
   "ui-requests.errors.holdAndRecallTlrNotAllowedPageableAvailableItemFound": [
     {
       "type": 0,
-      "value": "Hold/Recall title level request not allowed: pageable available item found for instance"
+      "value": "Rezerwacja tytułu w drodze rezerwacji/rezerwacji z wezwaniem do zwrotu obecnego posiadacza jest niedozwolona: dla tego opisu znaleziono dostępny egzemplarz, który można wypożyczyć"
     }
   ],
   "ui-requests.errors.holdShelfRequestsRequirePickupServicePoint": [
@@ -129064,7 +129088,7 @@
   "ui-requests.item.retrievalServicePointName": [
     {
       "type": 0,
-      "value": "Retrieval service point"
+      "value": "Punkt obsługi odbioru"
     }
   ],
   "ui-requests.item.scanOrEnterBarcode": [
@@ -129148,7 +129172,7 @@
   "ui-requests.item.status.intellectualItem": [
     {
       "type": 0,
-      "value": "Intellectual item"
+      "value": "Zasób intelektualny"
     }
   ],
   "ui-requests.item.status.longMissing": [
@@ -129682,7 +129706,7 @@
   "ui-requests.proxy.barcode": [
     {
       "type": 0,
-      "value": "Kod kreskowy pełnomocnika rezerwującego"
+      "value": "Kod kreskowy upoważnionego do rezerwacji"
     }
   ],
   "ui-requests.proxy.name": [
@@ -130222,7 +130246,7 @@
     },
     {
       "type": 0,
-      "value": " requests"
+      "value": " rezerwacje"
     }
   ],
   "ui-requests.requests.callNumber": [
@@ -130306,7 +130330,7 @@
   "ui-requests.requests.retrievalServicePoint": [
     {
       "type": 0,
-      "value": "Wyszukiwanie punktu obsługi"
+      "value": "Punkt obsługi odbioru"
     }
   ],
   "ui-requests.requests.servicePoint": [
@@ -130950,13 +130974,13 @@
   "ui-serials-management.patternTemplate": [
     {
       "type": 0,
-      "value": "Szablon wzoru (zastępuje zawartość poniższego formularza wstępnie zdefiniowanymi wartościami)"
+      "value": "Szablon wzorca (zastępuje zawartość poniższego formularza wstępnie zdefiniowanymi wartościami)"
     }
   ],
   "ui-serials-management.patternTemplatePopover": [
     {
       "type": 0,
-      "value": "Wyszukaj nazwę lub opis szablonu wzoru. Następnie wybierz z listy filtrów, aby zastosować szablon i wypełnij poniższy formularz wstępnie zdefiniowanymi wartościami"
+      "value": "Wyszukaj nazwę lub opis szablonu wzorca. Następnie wybierz z listy filtrów, aby zastosować szablon i wypełnij poniższy formularz wstępnie zdefiniowanymi wartościami"
     }
   ],
   "ui-serials-management.piece.label": [
@@ -131207,7 +131231,7 @@
   "ui-serials-management.pieceSets.patternId": [
     {
       "type": 0,
-      "value": "ID wzoru"
+      "value": "ID wzorca"
     }
   ],
   "ui-serials-management.pieceSets.pieceFormat": [
@@ -131743,7 +131767,7 @@
   "ui-serials-management.ruleset.combinationRulesPopover": [
     {
       "type": 0,
-      "value": "Running this publication pattern will generate a minimum of one year's worth of predicted issues. Combination rules can be applied to combine sequences of issues into a single issue. "
+      "value": "Uruchomienie tego wzorca publikacji wygeneruje wartość przewidywanych zeszytów na co najmniej jeden rok. Można zastosować reguły łączenia, aby połączyć sekwencję zeszytów w jeden zeszyt. "
     },
     {
       "type": 1,
@@ -131751,7 +131775,7 @@
     },
     {
       "type": 0,
-      "value": " For example, to combine a number of days, weeks or months. "
+      "value": " Na przykład można połączyć zeszyty publikowane w określonych dniach, tygodniach lub miesiącach. "
     },
     {
       "type": 1,
@@ -131759,7 +131783,7 @@
     },
     {
       "type": 0,
-      "value": " The time unit \"Issue\" can be used to select the \"nth\" issue in the set of predicted issues."
+      "value": " Jednostka czasu „Zeszyt” pozwala wybrać „n-ty” zeszyt z wygenerowanego zestawu."
     }
   ],
   "ui-serials-management.ruleset.confirmGeneration": [
@@ -131777,7 +131801,7 @@
   "ui-serials-management.ruleset.copyAndDeprecatePublicationPattern": [
     {
       "type": 0,
-      "value": "Skopiuj i wycofaj wzór publikacji"
+      "value": "Skopiuj i wycofaj wzorzec publikacji"
     }
   ],
   "ui-serials-management.ruleset.cycleLength": [
@@ -131789,7 +131813,7 @@
   "ui-serials-management.ruleset.cycleLengthPopover": [
     {
       "type": 0,
-      "value": "Ilość czasu potrzebna do ukończenia jednego cyklu wzoru publikacji. Na przykład publikacja dwutygodniowa będzie miała cykl długości dwóch tygodni: „Jednostka czasu” = Tydzień i „Liczba tygodni” = 2"
+      "value": "Ilość czasu potrzebna do ukończenia jednego cyklu wzorca publikacji. Na przykład publikacja dwutygodniowa będzie miała cykl długości dwóch tygodni: „Jednostka czasu” = Tydzień i „Liczba tygodni” = 2"
     }
   ],
   "ui-serials-management.ruleset.day": [
@@ -131825,7 +131849,7 @@
   "ui-serials-management.ruleset.daysOfPublicationPerCyclePopover": [
     {
       "type": 0,
-      "value": "The day(s) on which an issue is published, within one cycle of the publication pattern. For example: "
+      "value": "Dzień(dni), w którym publikowany jest zeszyt, w ramach jednego cyklu wzorca publikacji. Na przykład: "
     },
     {
       "type": 1,
@@ -131833,7 +131857,7 @@
     },
     {
       "type": 0,
-      "value": " A weekly Saturday publication would be defined as: "
+      "value": " Wydanie ukazujące się w sobotę byłoby zdefiniowane jako: "
     },
     {
       "type": 1,
@@ -131841,7 +131865,7 @@
     },
     {
       "type": 0,
-      "value": " \"Day\" = Saturday "
+      "value": " \"Dzień\" = Sobota "
     },
     {
       "type": 1,
@@ -131849,7 +131873,7 @@
     },
     {
       "type": 0,
-      "value": " A monthly issue published on the fourth Monday would be defined: "
+      "value": " Miesięcznik wydawany w czwarty poniedziałek byłby zdefiniowany jako: "
     },
     {
       "type": 1,
@@ -131857,7 +131881,7 @@
     },
     {
       "type": 0,
-      "value": " \"Day format\" = Day (Mon-Sun), Week (1-4) "
+      "value": " \"Format dnia\" = Dzień (pon.-niedz.), Tydzień (1-4) "
     },
     {
       "type": 1,
@@ -131865,7 +131889,7 @@
     },
     {
       "type": 0,
-      "value": " \"Day\" = Monday "
+      "value": " \"Dzień\" = Poniedziałek "
     },
     {
       "type": 1,
@@ -131873,13 +131897,13 @@
     },
     {
       "type": 0,
-      "value": "  \"Of week\" = 4"
+      "value": " \"Z tygodnia\" = 4"
     }
   ],
   "ui-serials-management.ruleset.deprecatedPublicationPatterns": [
     {
       "type": 0,
-      "value": "Wycofane wzory publikacji"
+      "value": "Wycofane wzorce publikacji"
     }
   ],
   "ui-serials-management.ruleset.displaySummaryTemplate": [
@@ -131897,7 +131921,7 @@
   "ui-serials-management.ruleset.editPublicationPattern": [
     {
       "type": 0,
-      "value": "Edytuj wzór publikacji"
+      "value": "Edytuj wzorzec publikacji"
     }
   ],
   "ui-serials-management.ruleset.enumeration": [
@@ -132149,19 +132173,19 @@
   "ui-serials-management.ruleset.noChronologyLabels": [
     {
       "type": 0,
-      "value": "Brak etykiet chronologii dla tego wzoru publikacji"
+      "value": "Brak etykiet chronologii dla tego wzorca publikacji"
     }
   ],
   "ui-serials-management.ruleset.noCombinationRules": [
     {
       "type": 0,
-      "value": "Brak reguł połączeń dla tego wzoru publikacji"
+      "value": "Brak reguł połączeń dla tego wzorca publikacji"
     }
   ],
   "ui-serials-management.ruleset.noEnumerationLabels": [
     {
       "type": 0,
-      "value": "Brak etykiet numeracji dla tego wzoru publikacji"
+      "value": "Brak etykiet numeracji dla tego wzorca publikacji"
     }
   ],
   "ui-serials-management.ruleset.noLabels": [
@@ -132173,7 +132197,7 @@
   "ui-serials-management.ruleset.noOmissionRules": [
     {
       "type": 0,
-      "value": "Brak reguł pominięć dla tego wzoru publikacji"
+      "value": "Brak reguł pominięć dla tego wzorca publikacji"
     }
   ],
   "ui-serials-management.ruleset.numberOfCycles": [
@@ -132315,19 +132339,19 @@
   "ui-serials-management.ruleset.parentSerial": [
     {
       "type": 0,
-      "value": "Parent serial"
+      "value": "Nadrzędne wydawnictwo ciągłe"
     }
   ],
   "ui-serials-management.ruleset.patternDescription": [
     {
       "type": 0,
-      "value": "Opis wzoru"
+      "value": "Opis wzorca"
     }
   ],
   "ui-serials-management.ruleset.patternId": [
     {
       "type": 0,
-      "value": "ID wzoru"
+      "value": "ID wzorca"
     }
   ],
   "ui-serials-management.ruleset.pickList": [
@@ -132551,7 +132575,7 @@
   "ui-serials-management.rulesets.newPublicationPattern": [
     {
       "type": 0,
-      "value": "Nowy wzór publikacji"
+      "value": "Nowy wzorzec publikacji"
     }
   ],
   "ui-serials-management.save": [
@@ -132575,7 +132599,7 @@
   "ui-serials-management.serials.addPublicationPattern": [
     {
       "type": 0,
-      "value": "Dodaj wzór publikacji"
+      "value": "Dodaj wzorzec publikacji"
     }
   ],
   "ui-serials-management.serials.deleteSerial": [
@@ -132607,7 +132631,7 @@
   "ui-serials-management.serials.deleteSerial.error.hasPublicationPattern": [
     {
       "type": 0,
-      "value": "Wydawnictwo ciągłe nie zostało usunięte, ponieważ zawiera jeden lub więcej wzorów publikacji."
+      "value": "Wydawnictwo ciągłe nie zostało usunięte, ponieważ zawiera jeden lub więcej wzorców publikacji."
     }
   ],
   "ui-serials-management.serials.deleteSerial.error.noDeleteSerialBackendError": [
@@ -132697,7 +132721,7 @@
   "ui-serials-management.serials.predictionPattern": [
     {
       "type": 0,
-      "value": "Prediction pattern"
+      "value": "Wzorzec przewidywania numerów"
     }
   ],
   "ui-serials-management.serials.productIDs": [
@@ -132709,13 +132733,13 @@
   "ui-serials-management.serials.publicationPattern": [
     {
       "type": 0,
-      "value": "Wzór publikacji"
+      "value": "Wzorzec publikacji"
     }
   ],
   "ui-serials-management.serials.publicationPattern.noActivePattern": [
     {
       "type": 0,
-      "value": "Wydawnictwo ciągłe nie ma aktywnych wzorów publikacji"
+      "value": "Wydawnictwo ciągłe nie ma aktywnych wzorców publikacji"
     }
   ],
   "ui-serials-management.serials.removeNoteIndex": [
@@ -132809,7 +132833,7 @@
   "ui-serials-management.validate.allowedCycles": [
     {
       "type": 0,
-      "value": "Dla tego wzoru publikacji możliwe jest tylko generowanie zeszytów o nakładzie do "
+      "value": "Dla tego wzorca publikacji możliwe jest tylko generowanie zeszytów o nakładzie do "
     },
     {
       "type": 1,
@@ -132931,7 +132955,7 @@
   "ui-service-interaction.meta.title": [
     {
       "type": 0,
-      "value": "Service interaction"
+      "value": "Interakcja usług"
     }
   ],
   "ui-service-interaction.nFound": [
@@ -134473,7 +134497,7 @@
   "ui-tenant-settings.settings.localization": [
     {
       "type": 0,
-      "value": "Ustawienia regionalne (dla języka wyświetlania, formatu daty itp.)"
+      "value": "Ustawienia lokalne (dla wyświetlanego języka, formatu daty itp.)"
     }
   ],
   "ui-tenant-settings.settings.location.campuses": [
@@ -135179,7 +135203,7 @@
   "ui-tenant-settings.settings.primaryCurrency": [
     {
       "type": 0,
-      "value": "Waluta główna (do wyświetlania symbolu waluty) "
+      "value": "Waluta główna (do wyświetlania symbolu waluty)"
     }
   ],
   "ui-tenant-settings.settings.reading-room-access.asp": [
@@ -135407,7 +135431,7 @@
   "ui-tenant-settings.settings.servicePoints.defaultCheckinAction": [
     {
       "type": 0,
-      "value": "Domyślna akcja zwrotu dla tej lokalizacji"
+      "value": "Domyślna akcja zwrotu dla lokalizacji"
     }
   ],
   "ui-tenant-settings.settings.servicePoints.defaultCheckinAction.Ask_for_action": [
@@ -135425,7 +135449,7 @@
   "ui-tenant-settings.settings.servicePoints.defaultCheckinAction.Keep_on_hold_shelf": [
     {
       "type": 0,
-      "value": "Keep on hold shelf"
+      "value": "Pozostaw na półce „Oczekujące na odbiór”"
     }
   ],
   "ui-tenant-settings.settings.servicePoints.defaultCheckinAction.select": [
@@ -135733,7 +135757,7 @@
   "ui-tenant-settings.settings.servicePoints.shelvingLagTime": [
     {
       "type": 0,
-      "value": "Przewidywany czas powrotu zasobu na swoją półkę (minuty)"
+      "value": "Opóźnienie przy odkładaniu na półkę - w minutach"
     }
   ],
   "ui-tenant-settings.settings.servicePoints.stripes-core.button.cancel": [
@@ -135793,7 +135817,7 @@
   "ui-tenant-settings.settings.timeZonePicker": [
     {
       "type": 0,
-      "value": "Strefa czasowa (strefa czasowa używana do wyświetlania informacji o dacie i czasie)"
+      "value": "Strefa czasowa (używana przy wyświetlaniu daty i godziny)"
     }
   ],
   "ui-tenant-settings.settings.title": [
@@ -141192,13 +141216,13 @@
   "ui-users.loans.details.overduePolicy": [
     {
       "type": 0,
-      "value": "Polityka przeterminowania"
+      "value": "Reguła kar za przetrzymanie"
     }
   ],
   "ui-users.loans.details.printDueDateReceipt": [
     {
       "type": 0,
-      "value": "Drukuj rachunek z terminem zwrotu"
+      "value": "Drukuj rewers potwierdzenia terminu zwrotu"
     }
   ],
   "ui-users.loans.details.proxyBorrower": [
@@ -142059,7 +142083,7 @@
   "ui-users.lostItems.message.noAccessToActualCostPage": [
     {
       "type": 0,
-      "value": "User does not have permission to access \"Lost items needing actual cost\" processing page"
+      "value": "Użytkownik nie ma uprawnień do wejścia na stronę „Rzeczywista wartość zagubionych egzemplarzy”"
     }
   ],
   "ui-users.lostItems.modal.actualCostToBill": [
@@ -143994,7 +144018,7 @@
   "ui-users.permissions.modal.permission": [
     {
       "type": 0,
-      "value": "Uprawnienia"
+      "value": "Uprawnienie"
     }
   ],
   "ui-users.permissions.modal.permissionSet": [
@@ -145338,7 +145362,7 @@
   "ui-users.reports.refunds.label": [
     {
       "type": 0,
-      "value": "Raport zwrotów do przetworzenia ręcznego (CSV)"
+      "value": "Raport zwrotów do ręcznego przetworzenia (CSV)"
     }
   ],
   "ui-users.reports.refunds.modal.endDate": [
@@ -146584,7 +146608,7 @@
   "ui-users.stagingRecords.search.label": [
     {
       "type": 0,
-      "value": "Staging records search"
+      "value": "Wyszukiwanie rekordów w strefie roboczej"
     }
   ],
   "ui-users.stagingRecords.search.placeholder": [
@@ -146740,7 +146764,7 @@
   "ui-users.userType": [
     {
       "type": 0,
-      "value": "Typ użytkownik"
+      "value": "Typ użytkownika"
     }
   ],
   "ui-users.waives.columns.desc": [
