@@ -9670,6 +9670,12 @@
       "value": "Cargando..."
     }
   ],
+  "stripes-data-transfer-components.locked": [
+    {
+      "type": 0,
+      "value": "Locked"
+    }
+  ],
   "stripes-data-transfer-components.mappingProfilesCount": [
     {
       "style": null,
@@ -9835,6 +9841,12 @@
     {
       "type": 0,
       "value": "Importación en bloque"
+    }
+  ],
+  "stripes-data-transfer-components.status": [
+    {
+      "type": 0,
+      "value": "Status"
     }
   ],
   "stripes-data-transfer-components.update": [
@@ -132824,6 +132836,68 @@
       "value": "Templates"
     }
   ],
+  "ui-serials-management.templates.deleteTemplate": [
+    {
+      "type": 0,
+      "value": "Delete publication pattern template"
+    }
+  ],
+  "ui-serials-management.templates.deleteTemplate.confirmMessage": [
+    {
+      "type": 0,
+      "value": "Publication pattern template "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "name"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " will be deleted"
+    }
+  ],
+  "ui-serials-management.templates.deleteTemplate.error": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Publication pattern template was not deleted:"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " "
+    },
+    {
+      "type": 1,
+      "value": "message"
+    }
+  ],
+  "ui-serials-management.templates.deleteTemplate.success": [
+    {
+      "type": 0,
+      "value": "Publication pattern template deleted: "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "name"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    }
+  ],
   "ui-serials-management.templates.description": [
     {
       "type": 0,
@@ -132836,10 +132910,40 @@
       "value": "Example label"
     }
   ],
+  "ui-serials-management.templates.modelRulesetDescription": [
+    {
+      "type": 0,
+      "value": "Pattern template description"
+    }
+  ],
+  "ui-serials-management.templates.modelRulesetName": [
+    {
+      "type": 0,
+      "value": "Pattern template name"
+    }
+  ],
+  "ui-serials-management.templates.modelRulesetStatus": [
+    {
+      "type": 0,
+      "value": "Pattern template status"
+    }
+  ],
   "ui-serials-management.templates.name": [
     {
       "type": 0,
       "value": "Name"
+    }
+  ],
+  "ui-serials-management.templates.newTemplate": [
+    {
+      "type": 0,
+      "value": "New publication pattern template"
+    }
+  ],
+  "ui-serials-management.templates.rulesetInfo": [
+    {
+      "type": 0,
+      "value": "Pattern status and description"
     }
   ],
   "ui-serials-management.templates.status": [
