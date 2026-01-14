@@ -124221,6 +124221,12 @@
       "value": "Templates"
     }
   ],
+  "ui-serials-management.templates.copy": [
+    {
+      "type": 0,
+      "value": "Copy"
+    }
+  ],
   "ui-serials-management.templates.deleteTemplate": [
     {
       "type": 0,
@@ -125027,6 +125033,24 @@
       "value": "Het formatveld bepaalt de lengte van het gegenereerde nummer. Gebruik # om de lengte zonder opvulling te definiëren, bijvoorbeeld \"####\", of gebruik een teken om opvulling toe te voegen. Voorbeeld: \"0000\" stelt de lengte in op 4 en voegt nullen toe om outputs zoals 0045 te produceren."
     }
   ],
+  "ui-service-interaction.settings.numberGeneratorSequences.format.info.item1": [
+    {
+      "type": 0,
+      "value": "Use # for digits without padding (e.g., #### for four digits)."
+    }
+  ],
+  "ui-service-interaction.settings.numberGeneratorSequences.format.info.item2": [
+    {
+      "type": 0,
+      "value": "To add padding, specify the character. E.g., 0000 for leading zeros, resulting in outputs like 0045."
+    }
+  ],
+  "ui-service-interaction.settings.numberGeneratorSequences.format.info.item3": [
+    {
+      "type": 0,
+      "value": "If a Maximum value is set, the Format length must match it. The maximum value field enforces the length of the field, e.g. the maximum value of 9999 indicates a maximum length of four characters and must be paired with a matching format value, e.g. #### or 0000."
+    }
+  ],
   "ui-service-interaction.settings.numberGeneratorSequences.generator": [
     {
       "type": 0,
@@ -125067,6 +125091,12 @@
     {
       "type": 0,
       "value": "Geen maximum ingesteld"
+    }
+  ],
+  "ui-service-interaction.settings.numberGeneratorSequences.maximumCheck.noThresholdSet": [
+    {
+      "type": 0,
+      "value": "No threshold set"
     }
   ],
   "ui-service-interaction.settings.numberGeneratorSequences.maximumCheck.overThreshold": [

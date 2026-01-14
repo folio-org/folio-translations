@@ -132824,6 +132824,12 @@
       "value": "Templates"
     }
   ],
+  "ui-serials-management.templates.copy": [
+    {
+      "type": 0,
+      "value": "Copy"
+    }
+  ],
   "ui-serials-management.templates.deleteTemplate": [
     {
       "type": 0,
@@ -133626,6 +133632,24 @@
       "value": "Pole Format określa długość generowanego numeru, bez cyfry kontrolnej oraz przedrostka i przyrostka. Użyj #, aby określić długość bez wypełnienia, np. \"####\". Lub użyj znaku, aby dodać wypełnienie, np. \"0000\" ustawi długość na 4 i doda zera na początku, co da wynik np. 0045."
     }
   ],
+  "ui-service-interaction.settings.numberGeneratorSequences.format.info.item1": [
+    {
+      "type": 0,
+      "value": "Use # for digits without padding (e.g., #### for four digits)."
+    }
+  ],
+  "ui-service-interaction.settings.numberGeneratorSequences.format.info.item2": [
+    {
+      "type": 0,
+      "value": "To add padding, specify the character. E.g., 0000 for leading zeros, resulting in outputs like 0045."
+    }
+  ],
+  "ui-service-interaction.settings.numberGeneratorSequences.format.info.item3": [
+    {
+      "type": 0,
+      "value": "If a Maximum value is set, the Format length must match it. The maximum value field enforces the length of the field, e.g. the maximum value of 9999 indicates a maximum length of four characters and must be paired with a matching format value, e.g. #### or 0000."
+    }
+  ],
   "ui-service-interaction.settings.numberGeneratorSequences.generator": [
     {
       "type": 0,
@@ -133666,6 +133690,12 @@
     {
       "type": 0,
       "value": "Brak maksimum"
+    }
+  ],
+  "ui-service-interaction.settings.numberGeneratorSequences.maximumCheck.noThresholdSet": [
+    {
+      "type": 0,
+      "value": "No threshold set"
     }
   ],
   "ui-service-interaction.settings.numberGeneratorSequences.maximumCheck.overThreshold": [

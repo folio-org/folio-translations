@@ -134719,6 +134719,12 @@
       "value": "Templates"
     }
   ],
+  "ui-serials-management.templates.copy": [
+    {
+      "type": 0,
+      "value": "Copy"
+    }
+  ],
   "ui-serials-management.templates.deleteTemplate": [
     {
       "type": 0,
@@ -135613,6 +135619,24 @@
       "value": "格式欄位定義產生的數字的長度。使用# 定義不含填充的長度，例如「####」。或使用字元來包含填充。例如，「0000」會將長度設為 4 並添加零以產生例如 0045 之類的輸出。"
     }
   ],
+  "ui-service-interaction.settings.numberGeneratorSequences.format.info.item1": [
+    {
+      "type": 0,
+      "value": "Use # for digits without padding (e.g., #### for four digits)."
+    }
+  ],
+  "ui-service-interaction.settings.numberGeneratorSequences.format.info.item2": [
+    {
+      "type": 0,
+      "value": "To add padding, specify the character. E.g., 0000 for leading zeros, resulting in outputs like 0045."
+    }
+  ],
+  "ui-service-interaction.settings.numberGeneratorSequences.format.info.item3": [
+    {
+      "type": 0,
+      "value": "If a Maximum value is set, the Format length must match it. The maximum value field enforces the length of the field, e.g. the maximum value of 9999 indicates a maximum length of four characters and must be paired with a matching format value, e.g. #### or 0000."
+    }
+  ],
   "ui-service-interaction.settings.numberGeneratorSequences.generator": [
     {
       "type": 0,
@@ -135653,6 +135677,12 @@
     {
       "type": 0,
       "value": "無最大設定"
+    }
+  ],
+  "ui-service-interaction.settings.numberGeneratorSequences.maximumCheck.noThresholdSet": [
+    {
+      "type": 0,
+      "value": "No threshold set"
     }
   ],
   "ui-service-interaction.settings.numberGeneratorSequences.maximumCheck.overThreshold": [
