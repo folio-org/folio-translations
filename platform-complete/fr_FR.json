@@ -133589,7 +133589,7 @@
   "ui-service-interaction.settings.numberGeneratorSequences.format.info": [
     {
       "type": 0,
-      "value": "The Format field defines the length of the generated number without check digit and pre- and suffix. Use # to define the length without padding, e.g. \"####\". Or use a character to include padding. E.g. \"0000\" will set the length to 4 and add zeros to produce outputs such as 0045."
+      "value": "The Format field supports optional padding, while the Maximum value field defines the length of the generated incremental number (excluding the check digit, prefix and suffix)"
     }
   ],
   "ui-service-interaction.settings.numberGeneratorSequences.format.info.item1": [

@@ -2017,7 +2017,7 @@
   "stripes-authority-components.search-results-list.headingType": [
     {
       "type": 0,
-      "value": "Type of heading"
+      "value": "標目の種類"
     }
   ],
   "stripes-authority-components.search-results-list.paneSub": [
@@ -2076,25 +2076,25 @@
   "stripes-authority-components.search.excludeSeeFrom": [
     {
       "type": 0,
-      "value": "Exclude see from"
+      "value": "See fromを除外"
     }
   ],
   "stripes-authority-components.search.excludeSeeFromAlso": [
     {
       "type": 0,
-      "value": "Exclude see from also"
+      "value": "See also fromを除外"
     }
   ],
   "stripes-authority-components.search.headingType": [
     {
       "type": 0,
-      "value": "Type of heading"
+      "value": "標目の種類"
     }
   ],
   "stripes-authority-components.search.references": [
     {
       "type": 0,
-      "value": "References"
+      "value": "参照"
     }
   ],
   "stripes-authority-components.search.searchAndFilter": [
@@ -2142,7 +2142,7 @@
   "stripes-authority-components.uniformTitle": [
     {
       "type": 0,
-      "value": "Uniform title"
+      "value": "統一タイトル"
     }
   ],
   "stripes-components.ConfirmationModal.suppressLabel": [
@@ -9593,7 +9593,7 @@
   "stripes-data-transfer-components.filter.jobProfile": [
     {
       "type": 0,
-      "value": "Job profile"
+      "value": "ジョブ・プロファイル"
     }
   ],
   "stripes-data-transfer-components.filter.option.no": [
@@ -9617,7 +9617,7 @@
   "stripes-data-transfer-components.filter.startedDate": [
     {
       "type": 0,
-      "value": "Started running"
+      "value": "実行開始日"
     }
   ],
   "stripes-data-transfer-components.filter.user": [
@@ -9879,7 +9879,7 @@
   "stripes-data-transfer-components.status": [
     {
       "type": 0,
-      "value": "Status"
+      "value": "ステータス"
     }
   ],
   "stripes-data-transfer-components.update": [
@@ -9945,7 +9945,7 @@
   "stripes-erm-components.accesscontrol.description": [
     {
       "type": 0,
-      "value": "Description"
+      "value": "説明"
     }
   ],
   "stripes-erm-components.accesscontrol.error.noAccess": [
@@ -9957,25 +9957,25 @@
   "stripes-erm-components.accesscontrol.error.pane.title": [
     {
       "type": 0,
-      "value": "Access control error"
+      "value": "アクセスコントロールエラー"
     }
   ],
   "stripes-erm-components.accesscontrol.filter.simple.label": [
     {
       "type": 0,
-      "value": "Acquisition unit"
+      "value": "収集ユニット"
     }
   ],
   "stripes-erm-components.accesscontrol.filter.simple.noPolicy": [
     {
       "type": 0,
-      "value": "No acquisition unit"
+      "value": "収集ユニットなし"
     }
   ],
   "stripes-erm-components.accesscontrol.label": [
     {
       "type": 0,
-      "value": "Acquisition units"
+      "value": "収集ユニット"
     }
   ],
   "stripes-erm-components.accesscontrol.name": [
@@ -10007,13 +10007,13 @@
   "stripes-erm-components.accesscontrol.restrictions": [
     {
       "type": 0,
-      "value": "Access"
+      "value": "アクセス"
     }
   ],
   "stripes-erm-components.accesscontrol.typedown.label": [
     {
       "type": 0,
-      "value": "Add acquisition unit"
+      "value": "収集ユニットを追加"
     }
   ],
   "stripes-erm-components.alternativeNames": [
@@ -10791,7 +10791,7 @@
   "stripes-erm-components.dateFilter.endDateNotSet": [
     {
       "type": 0,
-      "value": "Include "
+      "value": "終了日が設定されていない"
     },
     {
       "type": 1,
@@ -10799,7 +10799,7 @@
     },
     {
       "type": 0,
-      "value": " with no end date set"
+      "value": "を含む"
     }
   ],
   "stripes-erm-components.dateFilter.errors.OnOrAfterGreaterThanOnOrBefore": [
@@ -11036,7 +11036,7 @@
   "stripes-erm-components.documentFilter.editDocumentFilters": [
     {
       "type": 0,
-      "value": "Edit document filters"
+      "value": "ドキュメント・フィルターの編集"
     }
   ],
   "stripes-erm-components.documentFilter.filterBuilder.coreDocuments": [
@@ -11054,13 +11054,13 @@
   "stripes-erm-components.documentFilter.filterName.coreDocuments": [
     {
       "type": 0,
-      "value": "Core documents"
+      "value": "コアドキュメント"
     }
   ],
   "stripes-erm-components.documentFilter.filterName.supplementaryDocuments": [
     {
       "type": 0,
-      "value": "Supplementary documents"
+      "value": "補足文書"
     }
   ],
   "stripes-erm-components.documentFilter.filtersApplied": [
@@ -15980,7 +15980,7 @@
   "ui-agreements.actions": [
     {
       "type": 0,
-      "value": "Actions"
+      "value": "アクション"
     }
   ],
   "ui-agreements.addRule": [
@@ -16223,7 +16223,7 @@
   "ui-agreements.agreementLines.createAnother": [
     {
       "type": 0,
-      "value": "別の作成"
+      "value": "続けて契約明細を作成"
     }
   ],
   "ui-agreements.agreementLines.createLine": [
@@ -16661,17 +16661,13 @@
       "value": "count"
     },
     {
-      "type": 0,
-      "value": "件の契約明細があります"
-    },
-    {
       "offset": 0,
       "options": {
         "one": {
           "value": [
             {
               "type": 0,
-              "value": " line "
+              "value": " 件 "
             }
           ]
         },
@@ -16679,7 +16675,7 @@
           "value": [
             {
               "type": 0,
-              "value": " line "
+              "value": " 件 "
             }
           ]
         }
@@ -16687,6 +16683,10 @@
       "pluralType": "cardinal",
       "type": 6,
       "value": "count"
+    },
+    {
+      "type": 0,
+      "value": "の契約明細があります"
     }
   ],
   "ui-agreements.agreements.agreementLines": [
@@ -19398,7 +19398,7 @@
   "ui-agreements.eresources.syncStatus.notSet": [
     {
       "type": 0,
-      "value": "Not set"
+      "value": "未設定"
     }
   ],
   "ui-agreements.eresources.syncStatus.true": [
@@ -23389,7 +23389,7 @@
   "ui-bulk-edit.File uploading failed : Cannot upload a file. Reason: file is empty.": [
     {
       "type": 0,
-      "value": "The uploaded file is empty."
+      "value": "アップロードしたファイルは空です"
     }
   ],
   "ui-bulk-edit.File uploading failed, reason: Cannot upload a file. Reason: file is empty.": [
@@ -23827,7 +23827,7 @@
   "ui-bulk-edit.columns.HOLDINGS_RECORD.Instance (Title, Publisher, Publication date)": [
     {
       "type": 0,
-      "value": "Instance (Title, Publisher, Publication date)"
+      "value": "インスタンス（タイトル、出版者、出版日）"
     }
   ],
   "ui-bulk-edit.columns.HOLDINGS_RECORD.Instance HRID": [
@@ -24049,13 +24049,13 @@
   "ui-bulk-edit.columns.INSTANCE.Publication": [
     {
       "type": 0,
-      "value": "Publication"
+      "value": "出版物"
     }
   ],
   "ui-bulk-edit.columns.INSTANCE.Publication frequency": [
     {
       "type": 0,
-      "value": "Publication frequency"
+      "value": "発行頻度"
     }
   ],
   "ui-bulk-edit.columns.INSTANCE.Publication range": [
@@ -25732,7 +25732,7 @@
   "ui-bulk-edit.list.criteriaTitle": [
     {
       "type": 0,
-      "value": "Set criteria"
+      "value": "条件の設定"
     }
   ],
   "ui-bulk-edit.list.errors.checkbox": [
@@ -26001,7 +26001,7 @@
   "ui-bulk-edit.list.errors.table.status": [
     {
       "type": 0,
-      "value": "Status"
+      "value": "ステータス"
     }
   ],
   "ui-bulk-edit.list.errors.table.status.ERROR": [
@@ -26229,7 +26229,7 @@
   "ui-bulk-edit.list.logSubTitle": [
     {
       "type": 0,
-      "value": "Set criteria to start bulk edit"
+      "value": "一括編集を開始する条件を設定する"
     }
   ],
   "ui-bulk-edit.list.logSubTitle.changed": [
@@ -26321,7 +26321,7 @@
   "ui-bulk-edit.list.preview.publication.publicationDate": [
     {
       "type": 0,
-      "value": "Publication date"
+      "value": "出版日"
     }
   ],
   "ui-bulk-edit.list.preview.publication.publisher": [
@@ -26333,7 +26333,7 @@
   "ui-bulk-edit.list.preview.publication.publisherRole": [
     {
       "type": 0,
-      "value": "Publisher role"
+      "value": "出版者の役割"
     }
   ],
   "ui-bulk-edit.list.preview.subject.subjectHeadings": [
@@ -26501,7 +26501,7 @@
   "ui-bulk-edit.list.result.emptyMessage.holdings.ID": [
     {
       "type": 0,
-      "value": "Drag and drop or choose file with holdings UUIDs."
+      "value": "所蔵（holdings）のUUID を含むファイルをドラッグ アンド ドロップするか、選択します。"
     }
   ],
   "ui-bulk-edit.list.result.emptyMessage.holdings.INSTANCE_HRID": [
@@ -26567,7 +26567,7 @@
   "ui-bulk-edit.list.result.emptyMessage.item.ACCESSION_NUMBER": [
     {
       "type": 0,
-      "value": "Drag and drop or choose file with item accession numbers."
+      "value": "アイテムのアクセッション番号を含むファイルをドラッグ & ドロップするか、選択します。"
     }
   ],
   "ui-bulk-edit.list.result.emptyMessage.item.BARCODE": [
@@ -26957,7 +26957,7 @@
   "ui-bulk-edit.logs.status.SAVING_RECORDS_LOCALLY": [
     {
       "type": 0,
-      "value": "Saving records"
+      "value": "レコードの保存中"
     }
   ],
   "ui-bulk-edit.menuGroup.actions": [
@@ -27817,12 +27817,12 @@
   ],
   "ui-bulk-edit.settings.profiles.form.name.copy": [
     {
-      "type": 0,
-      "value": "Copy of "
-    },
-    {
       "type": 1,
       "value": "name"
+    },
+    {
+      "type": 0,
+      "value": "のコピー"
     }
   ],
   "ui-bulk-edit.settings.profiles.form.update.error": [
@@ -28117,7 +28117,7 @@
   "ui-bulk-edit.uploaderBtnText": [
     {
       "type": 0,
-      "value": "or choose file"
+      "value": "またはファイルを選択"
     }
   ],
   "ui-bulk-edit.uploaderSubTitle": [
@@ -28381,7 +28381,7 @@
   "ui-calendar.allCalendarView.actions.label": [
     {
       "type": 0,
-      "value": "Actions"
+      "value": "アクション"
     }
   ],
   "ui-calendar.allCalendarView.actions.new": [
@@ -28597,7 +28597,7 @@
   "ui-calendar.calendarForm.exceptions.column.actions": [
     {
       "type": 0,
-      "value": "Actions"
+      "value": "アクション"
     }
   ],
   "ui-calendar.calendarForm.exceptions.column.endDate": [
@@ -28675,7 +28675,7 @@
   "ui-calendar.calendarForm.openings.column.actions": [
     {
       "type": 0,
-      "value": "Actions"
+      "value": "アクション"
     }
   ],
   "ui-calendar.calendarForm.openings.column.endDay": [
@@ -30653,7 +30653,7 @@
   "ui-checkin.confirmModal.discoverySuppress": [
     {
       "type": 0,
-      "value": "and is suppressed from discovery"
+      "value": "かつ、ディスカバリーから除外されます"
     }
   ],
   "ui-checkin.confirmModal.heading": [
@@ -30971,7 +30971,7 @@
   "ui-checkin.missingModal.discoverySuppress": [
     {
       "type": 0,
-      "value": "そして、ディスカバリーから隠される"
+      "value": "かつ、ディスカバリーから除外されます"
     }
   ],
   "ui-checkin.missingModal.heading": [
@@ -32391,7 +32391,7 @@
         },
         {
           "type": 0,
-          "value": " ("
+          "value": "（"
         },
         {
           "type": 1,
@@ -32399,7 +32399,7 @@
         },
         {
           "type": 0,
-          "value": ")"
+          "value": "）"
         }
       ],
       "type": 8,
@@ -32407,7 +32407,7 @@
     },
     {
       "type": 0,
-      "value": " (Barcode: "
+      "value": "（バーコード："
     },
     {
       "type": 1,
@@ -32415,7 +32415,7 @@
     },
     {
       "type": 0,
-      "value": ") has the item status "
+      "value": "）は、資料ステータスが "
     },
     {
       "children": [
@@ -32429,7 +32429,7 @@
     },
     {
       "type": 0,
-      "value": " and is suppressed from discovery."
+      "value": " であり、ディスカバリーから除外されていま"
     }
   ],
   "ui-checkout.continue": [
@@ -32509,7 +32509,7 @@
   "ui-checkout.fastAddLabel": [
     {
       "type": 0,
-      "value": "New fast add record"
+      "value": "新規fast addレコード"
     }
   ],
   "ui-checkout.folioRecordNumber": [
@@ -34280,7 +34280,7 @@
   "ui-circulation.settings.ViewPrintDetails.warningPopup.message": [
     {
       "type": 0,
-      "value": "Selecting Confirm will stop the recording of print job details."
+      "value": "「確認」を選択すると、印刷ジョブの詳細の記録が停止します。"
     }
   ],
   "ui-circulation.settings.ViewPrintDetails.warningPopup.message.cancel": [
@@ -38098,7 +38098,7 @@
   "ui-claims.claiming.filters.piece.receivingStatus": [
     {
       "type": 0,
-      "value": "Receiving status"
+      "value": "受入ステータス"
     }
   ],
   "ui-claims.claiming.filters.poLine.claimingActive": [
@@ -38333,7 +38333,7 @@
   "ui-claims.claiming.results.columns.receivingStatus": [
     {
       "type": 0,
-      "value": "Status"
+      "value": "ステータス"
     }
   ],
   "ui-claims.claiming.results.columns.select": [
@@ -41612,13 +41612,13 @@
   "ui-courses.addFastAddItem.title": [
     {
       "type": 0,
-      "value": "Add Fast Add item"
+      "value": "Fast Add アイテムの追加"
     }
   ],
   "ui-courses.addFastAddItem.tooltip": [
     {
       "type": 0,
-      "value": "Create a new Inventory record using 'Fast Add' and add it to this course as a reserve"
+      "value": "「Fast Add」で新規インベントリー レコードを作成し、リザーブとしてこのコースに追加する"
     }
   ],
   "ui-courses.addInstructor": [
@@ -41676,7 +41676,7 @@
   "ui-courses.addItem.failure": [
     {
       "type": 0,
-      "value": "Failed to add item "
+      "value": "アイテムが追加できませんでした "
     },
     {
       "type": 1,
@@ -42832,7 +42832,7 @@
   "ui-courses.settings.displaySettings": [
     {
       "type": 0,
-      "value": "Display settings"
+      "value": "表示設定"
     }
   ],
   "ui-courses.settings.objectLabel": [
@@ -42886,7 +42886,7 @@
   "ui-dashboard.accessLevel": [
     {
       "type": 0,
-      "value": "Access level"
+      "value": "アクセスレベル"
     }
   ],
   "ui-dashboard.accessLevel.edit": [
@@ -42898,7 +42898,7 @@
   "ui-dashboard.accessLevel.manage": [
     {
       "type": 0,
-      "value": "Manage"
+      "value": "管理"
     }
   ],
   "ui-dashboard.accessLevel.view": [
@@ -43046,7 +43046,7 @@
   "ui-dashboard.dashboard.description": [
     {
       "type": 0,
-      "value": "Description"
+      "value": "説明"
     }
   ],
   "ui-dashboard.dashboard.edit.success": [
@@ -43602,13 +43602,13 @@
   "ui-dashboard.manageDashboards": [
     {
       "type": 0,
-      "value": "Manage dashboards"
+      "value": "ダッシュボードの管理"
     }
   ],
   "ui-dashboard.manageUserAccess": [
     {
       "type": 0,
-      "value": "Manage user access"
+      "value": "ユーザーアクセスの管理"
     }
   ],
   "ui-dashboard.manageWidgets": [
@@ -44640,7 +44640,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Updates saved:"
+          "value": "変更が保存されました:"
         }
       ],
       "type": 8,
@@ -44648,7 +44648,7 @@
     },
     {
       "type": 0,
-      "value": " Manage dashboards."
+      "value": " ダッシュボードの管理"
     }
   ],
   "ui-dashboard.users": [
@@ -47561,7 +47561,7 @@
   "ui-data-export.startedDate": [
     {
       "type": 0,
-      "value": "Started running"
+      "value": "実行開始日"
     }
   ],
   "ui-data-export.status": [
@@ -47707,13 +47707,13 @@
   "ui-data-import.actionProfileName": [
     {
       "type": 0,
-      "value": "Action profile"
+      "value": "アクション・プロファイル"
     }
   ],
   "ui-data-import.actionProfilesForm.recordTypes.marc-auth": [
     {
       "type": 0,
-      "value": "MARC Authority"
+      "value": "MARC典拠"
     }
   ],
   "ui-data-import.actionProfilesForm.recordTypes.marc-bib": [
@@ -47921,7 +47921,7 @@
   "ui-data-import.endOfRecord": [
     {
       "type": 0,
-      "value": "End of record"
+      "value": "レコードはここまで"
     }
   ],
   "ui-data-import.endedRunning": [
@@ -48636,7 +48636,7 @@
   "ui-data-import.jobStartedDate": [
     {
       "type": 0,
-      "value": "Started running"
+      "value": "実行開始日"
     }
   ],
   "ui-data-import.jobSummarySourceFileLabel": [
@@ -50428,7 +50428,7 @@
   "ui-data-import.settings.actionProfiles.form": [
     {
       "type": 0,
-      "value": "Action profile form"
+      "value": "アクション・プロファイル　フォーム"
     }
   ],
   "ui-data-import.settings.actionProfiles.new": [
@@ -50458,7 +50458,7 @@
   "ui-data-import.settings.associatedMappingProfile": [
     {
       "type": 0,
-      "value": "Associated field mapping profile"
+      "value": "関連するフィールドマッピングプロファイル"
     }
   ],
   "ui-data-import.settings.create.error": [
@@ -50607,7 +50607,7 @@
   "ui-data-import.settings.jobProfile.confirmationModal.heading": [
     {
       "type": 0,
-      "value": "Action profile not attached"
+      "value": "アクション・プロファイルがアタッチされていません"
     }
   ],
   "ui-data-import.settings.jobProfile.title": [
@@ -50619,7 +50619,7 @@
   "ui-data-import.settings.jobProfiles.acceptedDataType": [
     {
       "type": 0,
-      "value": "Accepted data type"
+      "value": "受け入れ可能なデータ型"
     }
   ],
   "ui-data-import.settings.jobProfiles.chooseAcceptedDataType": [
@@ -51731,7 +51731,7 @@
   "ui-data-import.settings.mappingProfiles.map.instance.descriptiveData.field.role": [
     {
       "type": 0,
-      "value": "Publisher role"
+      "value": "出版者の役割"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.instance.descriptiveData.field.subjects": [
@@ -51803,7 +51803,7 @@
   "ui-data-import.settings.mappingProfiles.map.instance.relationship.section": [
     {
       "type": 0,
-      "value": "Instance relationship"
+      "value": "インスタンスの関係"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.instance.subheader": [
@@ -51821,7 +51821,7 @@
   "ui-data-import.settings.mappingProfiles.map.instance.titleData.field.indexTitle": [
     {
       "type": 0,
-      "value": "Index title"
+      "value": "インデックス タイトル"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.instance.titleData.field.title": [
@@ -51969,19 +51969,19 @@
   "ui-data-import.settings.mappingProfiles.map.invoice.invoiceAdjustments.field.prorate": [
     {
       "type": 0,
-      "value": "Pro rate"
+      "value": "Pro rate（按分）"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.invoice.invoiceAdjustments.field.prorate.ByAmount": [
     {
       "type": 0,
-      "value": "By amount"
+      "value": "金額ごと"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.invoice.invoiceAdjustments.field.prorate.ByLine": [
     {
       "type": 0,
-      "value": "By line"
+      "value": "明細行ごと"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.invoice.invoiceAdjustments.field.prorate.ByQuantity": [
@@ -51993,25 +51993,25 @@
   "ui-data-import.settings.mappingProfiles.map.invoice.invoiceAdjustments.field.prorate.InAdditionTo": [
     {
       "type": 0,
-      "value": "In addition to（追加）"
+      "value": "追加される"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.invoice.invoiceAdjustments.field.prorate.IncludedIn": [
     {
       "type": 0,
-      "value": "Included in"
+      "value": "含まれる"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.invoice.invoiceAdjustments.field.prorate.NotProrated": [
     {
       "type": 0,
-      "value": "Not prorated"
+      "value": "按分しない"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.invoice.invoiceAdjustments.field.prorate.SeparateFrom": [
     {
       "type": 0,
-      "value": "Separate from"
+      "value": "含まれない"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.invoice.invoiceAdjustments.field.relationToTotal": [
@@ -52029,7 +52029,7 @@
   "ui-data-import.settings.mappingProfiles.map.invoice.invoiceAdjustments.fundDistribution.infoText": [
     {
       "type": 0,
-      "value": "Include field mappings for fund distribution only if Pro rate = "
+      "value": "Pro rate が "
     },
     {
       "children": [
@@ -52040,6 +52040,10 @@
       ],
       "type": 8,
       "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " の場合のみ、ファンド配分のフィールドマッピングを含めてください。"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.invoice.invoiceAdjustments.section": [
@@ -52105,13 +52109,13 @@
   "ui-data-import.settings.mappingProfiles.map.invoice.invoiceInformation.field.isLockTotal": [
     {
       "type": 0,
-      "value": "Lock total"
+      "value": "合計のロック"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.invoice.invoiceInformation.field.lockTotal": [
     {
       "type": 0,
-      "value": "Lock total amount"
+      "value": "ロックする合計額"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.invoice.invoiceInformation.field.note": [
@@ -52183,7 +52187,7 @@
   "ui-data-import.settings.mappingProfiles.map.invoice.invoiceLineInformation.field.accountNumber": [
     {
       "type": 0,
-      "value": "Account number"
+      "value": "アカウント番号"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.invoice.invoiceLineInformation.field.accountingCode": [
@@ -53209,7 +53213,7 @@
   "ui-data-import.settings.mappingProfiles.map.order.orderDetails.isAcknowledged": [
     {
       "type": 0,
-      "value": "Must acknowledge receiving note"
+      "value": "受入ノートの確認が必須"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.order.orderDetails.productIdentifiers.productId": [
@@ -53959,7 +53963,7 @@
   "ui-data-import.settings.mappingProfiles.map.order.vendor.field.accountNumber": [
     {
       "type": 0,
-      "value": "Account number"
+      "value": "アカウント番号"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.order.vendor.field.continuationRefNumber": [
@@ -54031,7 +54035,7 @@
   "ui-data-import.settings.mappingProfiles.map.order.vendor.vendorAccount": [
     {
       "type": 0,
-      "value": "Account number"
+      "value": "アカウント番号"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.order.vendor.vendorDetails.refNumber": [
@@ -54553,7 +54557,7 @@
   "ui-data-import.settings.matchProfiles.accountNumber": [
     {
       "type": 0,
-      "value": "Account number"
+      "value": "アカウント番号"
     }
   ],
   "ui-data-import.settings.matchProfiles.accountingCode": [
@@ -55003,7 +55007,7 @@
   "ui-data-import.settings.matchProfiles.instanceRelationship": [
     {
       "type": 0,
-      "value": "Instance relationship"
+      "value": "インスタンスの関係"
     }
   ],
   "ui-data-import.settings.matchProfiles.instructionsToVendor": [
@@ -55153,7 +55157,7 @@
   "ui-data-import.settings.matchProfiles.lockTotal": [
     {
       "type": 0,
-      "value": "Lock total"
+      "value": "合計のロック"
     }
   ],
   "ui-data-import.settings.matchProfiles.makePrimary": [
@@ -55363,7 +55367,7 @@
   "ui-data-import.settings.matchProfiles.prorate": [
     {
       "type": 0,
-      "value": "Pro rate"
+      "value": "Pro rate（按分）"
     }
   ],
   "ui-data-import.settings.matchProfiles.qualifier": [
@@ -57922,7 +57926,7 @@
   "ui-eholdings.actionMenu.label": [
     {
       "type": 0,
-      "value": "Actions"
+      "value": "アクション"
     }
   ],
   "ui-eholdings.add": [
@@ -61859,7 +61863,7 @@
   "ui-eholdings.titlesList.status": [
     {
       "type": 0,
-      "value": "Status"
+      "value": "ステータス"
     }
   ],
   "ui-eholdings.titlesList.tags": [
@@ -66222,7 +66226,7 @@
   "ui-export-manager.exportJob.description": [
     {
       "type": 0,
-      "value": "Description"
+      "value": "説明"
     }
   ],
   "ui-export-manager.exportJob.details.action.download": [
@@ -66352,7 +66356,7 @@
   "ui-export-manager.exportJob.details.type.FAILED_LINKED_BIB_UPDATES": [
     {
       "type": 0,
-      "value": "Failed updates: Linked bibliographic fields"
+      "value": "更新失敗: リンクされた書誌フィールド"
     }
   ],
   "ui-export-manager.exportJob.download": [
@@ -66926,7 +66930,7 @@
   "ui-finance.allocation.batch.logs.columns.createdDate": [
     {
       "type": 0,
-      "value": "Started running"
+      "value": "実行開始日"
     }
   ],
   "ui-finance.allocation.batch.logs.columns.jobName": [
@@ -66966,7 +66970,7 @@
   "ui-finance.allocation.batch.logs.columns.status": [
     {
       "type": 0,
-      "value": "Status"
+      "value": "ステータス"
     }
   ],
   "ui-finance.allocation.batch.logs.columns.status.completed": [
@@ -71367,7 +71371,7 @@
   "ui-gobi-settings.meta.title": [
     {
       "type": 0,
-      "value": "GOBI integration"
+      "value": "GOBIの統合"
     }
   ],
   "ui-gobi-settings.order.mappings.accordion.poInfo": [
@@ -72021,7 +72025,7 @@
   "ui-gobi-settings.order.mappings.field.vendorAccount": [
     {
       "type": 0,
-      "value": "Account number"
+      "value": "アカウント番号"
     }
   ],
   "ui-gobi-settings.order.mappings.field.vendorInstructions": [
@@ -72267,7 +72271,7 @@
   "ui-gobi-settings.settings": [
     {
       "type": 0,
-      "value": "GOBI Integration settings"
+      "value": "GOBIの統合設定"
     }
   ],
   "ui-handler-stripes-registry.meta.title": [
@@ -75788,7 +75792,7 @@
   "ui-inventory.acq.dateOpened": [
     {
       "type": 0,
-      "value": "Date opened"
+      "value": "オープン日"
     }
   ],
   "ui-inventory.acq.dateOrdered": [
@@ -76118,7 +76122,7 @@
   "ui-inventory.addItem": [
     {
       "type": 0,
-      "value": "Add item"
+      "value": "アイテムの追加"
     }
   ],
   "ui-inventory.addLabel": [
@@ -76182,19 +76186,19 @@
   "ui-inventory.addPublication": [
     {
       "type": 0,
-      "value": "Add publication"
+      "value": "出版物の追加"
     }
   ],
   "ui-inventory.addPublicationFrequency": [
     {
       "type": 0,
-      "value": "Add frequency"
+      "value": "頻度の追加"
     }
   ],
   "ui-inventory.addPublicationRange": [
     {
       "type": 0,
-      "value": "Add range"
+      "value": "範囲の追加"
     }
   ],
   "ui-inventory.addReceivingHistory": [
@@ -76520,7 +76524,7 @@
   "ui-inventory.browse": [
     {
       "type": 0,
-      "value": "Browse"
+      "value": "ブラウズ"
     }
   ],
   "ui-inventory.browse.callNumbers": [
@@ -76562,7 +76566,7 @@
   "ui-inventory.browse.contributors": [
     {
       "type": 0,
-      "value": "Contributors"
+      "value": "寄与者"
     }
   ],
   "ui-inventory.browse.dewey": [
@@ -76586,19 +76590,19 @@
   "ui-inventory.browse.natLibOfMed": [
     {
       "type": 0,
-      "value": "National Library of Medicine classification"
+      "value": "米国国立医学図書館分類法"
     }
   ],
   "ui-inventory.browse.other": [
     {
       "type": 0,
-      "value": "Other scheme"
+      "value": "その他のスキーム"
     }
   ],
   "ui-inventory.browse.searchableIndexesPlaceholder": [
     {
       "type": 0,
-      "value": "Select a browse option"
+      "value": "ブラウズオプションを選択"
     }
   ],
   "ui-inventory.browse.subjects": [
@@ -76628,7 +76632,7 @@
   "ui-inventory.browseContributors": [
     {
       "type": 0,
-      "value": "Browse contributors"
+      "value": "寄与者をブラウズ"
     }
   ],
   "ui-inventory.browseContributors.results.error": [
@@ -76670,7 +76674,7 @@
   "ui-inventory.callNumberBrowse": [
     {
       "type": 0,
-      "value": "Call number browse"
+      "value": "請求記号ブラウズ"
     }
   ],
   "ui-inventory.callNumberEyeReadable": [
@@ -77352,7 +77356,7 @@
   "ui-inventory.copycat.overlaySourceBib": [
     {
       "type": 0,
-      "value": "Overlay source bibliographic record"
+      "value": "ソース書誌レコードを上書き"
     }
   ],
   "ui-inventory.copycat.reimport": [
@@ -77394,7 +77398,7 @@
   "ui-inventory.createMARCHoldings": [
     {
       "type": 0,
-      "value": "Add MARC holdings record"
+      "value": "MARC所蔵レコードの追加"
     }
   ],
   "ui-inventory.createNewHoldingsRecord": [
@@ -77526,7 +77530,7 @@
   "ui-inventory.discoverySuppressed": [
     {
       "type": 0,
-      "value": "Suppressed from discovery"
+      "value": "ディスカバリーから除外"
     }
   ],
   "ui-inventory.displaySummary": [
@@ -77578,7 +77582,7 @@
   "ui-inventory.duplicateInstanceMarc": [
     {
       "type": 0,
-      "value": "Derive new MARC bibliographic record"
+      "value": "MARC 書誌レコードの新規派生作成"
     }
   ],
   "ui-inventory.duplicateItem": [
@@ -77693,7 +77697,7 @@
   "ui-inventory.editMARCHoldings": [
     {
       "type": 0,
-      "value": "Edit in quickMARC"
+      "value": "quickMARCで編集"
     }
   ],
   "ui-inventory.editMARCHoldings.paneTitle": [
@@ -78622,7 +78626,7 @@
   "ui-inventory.indexTitle": [
     {
       "type": 0,
-      "value": "Index title"
+      "value": "インデックス タイトル"
     }
   ],
   "ui-inventory.info.effectiveCallNumber": [
@@ -78712,7 +78716,7 @@
   "ui-inventory.instance.suppressedFromDiscovery": [
     {
       "type": 0,
-      "value": "Suppressed from discovery"
+      "value": "ディスカバリーから除外する"
     }
   ],
   "ui-inventory.instanceData": [
@@ -78772,7 +78776,7 @@
   "ui-inventory.instanceNoteType": [
     {
       "type": 0,
-      "value": "Instance note type"
+      "value": "インスタンス ノート タイプ"
     }
   ],
   "ui-inventory.instanceNoteTypes": [
@@ -78784,7 +78788,7 @@
   "ui-inventory.instanceNotes": [
     {
       "type": 0,
-      "value": "Instance notes"
+      "value": "インスタンス ノート"
     }
   ],
   "ui-inventory.instanceRecord": [
@@ -78870,13 +78874,13 @@
   "ui-inventory.instanceRelationshipAnalyticsBoundWith": [
     {
       "type": 0,
-      "value": "Instance relationship"
+      "value": "インスタンスの関係"
     }
   ],
   "ui-inventory.instanceRelationshipsAnalyticsBoundWith": [
     {
       "type": 0,
-      "value": "Instance relationships"
+      "value": "インスタンスの関係"
     }
   ],
   "ui-inventory.instanceStatus": [
@@ -78900,7 +78904,7 @@
   "ui-inventory.instanceStatusSource": [
     {
       "type": 0,
-      "value": "Instance status source"
+      "value": "インスタンス・ステータスのソース"
     }
   ],
   "ui-inventory.instanceStatusTerm": [
@@ -80229,7 +80233,7 @@
   "ui-inventory.moveEntity": [
     {
       "type": 0,
-      "value": "Move holdings/items to another instance"
+      "value": "所蔵/アイテム（holdings/items）を別のインスタンスに移動する"
     }
   ],
   "ui-inventory.moveEntity.instance.actionMenu.disable": [
@@ -80241,7 +80245,7 @@
   "ui-inventory.moveEntity.instance.actionMenu.enable": [
     {
       "type": 0,
-      "value": "Move items within an instance"
+      "value": "インスタンス内でアイテムを移動する"
     }
   ],
   "ui-inventory.moveEntity.instance.dropZone": [
@@ -81011,7 +81015,7 @@
   "ui-inventory.newMARCRecord": [
     {
       "type": 0,
-      "value": "New MARC bibliographic record"
+      "value": "新規MARC所蔵レコード"
     }
   ],
   "ui-inventory.newOrder": [
@@ -81409,7 +81413,7 @@
   "ui-inventory.numberGenerator.accessionNumberEqualCallNumber": [
     {
       "type": 0,
-      "value": "Use the same generated number for accession number and call number"
+      "value": "アクセッション番号と請求番号に、生成された同じ番号を使用する"
     }
   ],
   "ui-inventory.numberGenerator.accessionNumberEqualCallNumber.warning": [
@@ -81463,13 +81467,13 @@
   "ui-inventory.numberGenerator.info": [
     {
       "type": 0,
-      "value": "Fields which are usually filled using a numeric sequence can use the number generator. When the generator is switched on the field can either be fixed to prevent manual update, or made fully editable. When switched off, the field must be filled manually."
+      "value": "数値の連番で入力されることが多いフィールドでは、番号ジェネレーターを使用できます。ジェネレーターをオンにすると、フィールドを手動で変更できないように固定することも、完全に編集可能にすることもできます。\nオフにした場合は、そのフィールドを手動で入力する必要があります。"
     }
   ],
   "ui-inventory.numberGenerator.infoAdditional": [
     {
       "type": 0,
-      "value": "Additional number generator settings are available under "
+      "value": "追加の番号ジェネレーターは "
     },
     {
       "type": 1,
@@ -81477,7 +81481,7 @@
     },
     {
       "type": 0,
-      "value": ". At "
+      "value": " で設定できます。\n"
     },
     {
       "type": 1,
@@ -81485,13 +81489,13 @@
     },
     {
       "type": 0,
-      "value": " sequences can be defined by selecting the appropriate generator via the drop-down menu."
+      "value": " では、ドロップダウンメニューから適切なジェネレーターを選択することで、シーケンスを定義できます。"
     }
   ],
   "ui-inventory.numberGenerator.options": [
     {
       "type": 0,
-      "value": "Number generator options"
+      "value": "番号生成オプション"
     }
   ],
   "ui-inventory.numberGenerator.options.off": [
@@ -82181,7 +82185,7 @@
   "ui-inventory.publisherRole": [
     {
       "type": 0,
-      "value": "Publisher role"
+      "value": "出版者の役割"
     }
   ],
   "ui-inventory.querySearch": [
@@ -82247,7 +82251,7 @@
   "ui-inventory.receivingHistory.source.receiving": [
     {
       "type": 0,
-      "value": "Receiving"
+      "value": "受入"
     }
   ],
   "ui-inventory.receivingHistory.source.user": [
@@ -82624,7 +82628,7 @@
   "ui-inventory.resourceIdentifier": [
     {
       "type": 0,
-      "value": "Resource identifier"
+      "value": "リソースID"
     }
   ],
   "ui-inventory.resourceIdentifierType": [
@@ -83056,10 +83060,6 @@
   ],
   "ui-inventory.setForDeletion.modal.message": [
     {
-      "type": 0,
-      "value": "You have chosen to set "
-    },
-    {
       "children": [
         {
           "type": 1,
@@ -83071,13 +83071,13 @@
     },
     {
       "type": 0,
-      "value": " for "
+      "value": " を "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "deletion"
+          "value": "削除"
         }
       ],
       "type": 8,
@@ -83085,7 +83085,7 @@
     },
     {
       "type": 0,
-      "value": ". When a record is set for deletion, the instance will be Suppressed from discovery and Staff suppressed. If the instance source is MARC, then the MARC LDR 05 will be set to \"d\""
+      "value": " に設定しました。\nレコードが削除対象に設定されると、このインスタンスはディスカバリーから除外され、スタッフ表示も抑制されます。\nインスタンスのソースが MARC の場合、MARC の LDR 05 は「d」に設定されます。"
     }
   ],
   "ui-inventory.setForDeletion.toast.successful": [
@@ -83139,7 +83139,7 @@
   "ui-inventory.setRecordForDeletion": [
     {
       "type": 0,
-      "value": "Set record for deletion"
+      "value": "レコードを削除対象に設定"
     }
   ],
   "ui-inventory.settings.displaySettings.defaultColumns": [
@@ -83333,19 +83333,19 @@
   "ui-inventory.settings.section.displaySettings": [
     {
       "type": 0,
-      "value": "Display settings"
+      "value": "表示設定"
     }
   ],
   "ui-inventory.settings.section.versionHistory": [
     {
       "type": 0,
-      "value": "Version history"
+      "value": "バージョン履歴"
     }
   ],
   "ui-inventory.settings.versionHistory.versionHistoryCardsPerPage": [
     {
       "type": 0,
-      "value": "Cards to display per page on Version history"
+      "value": "バージョン履歴でページごとに表示するカード"
     }
   ],
   "ui-inventory.settings.versionHistory.versionHistoryCardsPerPage.loadError": [
@@ -83627,7 +83627,7 @@
   "ui-inventory.subjectSources": [
     {
       "type": 0,
-      "value": "Subject sources"
+      "value": "件名典拠"
     }
   ],
   "ui-inventory.subjectType": [
@@ -84153,7 +84153,7 @@
   "ui-inventory.viewSource": [
     {
       "type": 0,
-      "value": "View source"
+      "value": "ソースを表示"
     }
   ],
   "ui-inventory.volume": [
@@ -84221,13 +84221,13 @@
   "ui-inventory.warning.instance.suppressedFromDiscovery": [
     {
       "type": 0,
-      "value": "Warning: Instance is marked suppressed from discovery"
+      "value": "警告: インスタンスはディスカバリーの対象外としてマークされています"
     }
   ],
   "ui-inventory.warning.instance.suppressedFromDiscoveryAndStaffSuppressed": [
     {
       "type": 0,
-      "value": "Warning: Instance is marked suppressed from discovery and staff suppressed"
+      "value": "警告: インスタンスはディスカバリーとスタッフ表示の対象外としてマークされています"
     }
   ],
   "ui-inventory.warning.item.suppressedFromDiscovery": [
@@ -84387,13 +84387,13 @@
   "ui-invoice.adjustments.prorate.byAmount": [
     {
       "type": 0,
-      "value": "By amount"
+      "value": "金額ごと"
     }
   ],
   "ui-invoice.adjustments.prorate.byLine": [
     {
       "type": 0,
-      "value": "By line"
+      "value": "明細行ごと"
     }
   ],
   "ui-invoice.adjustments.prorate.byQuantity": [
@@ -84405,13 +84405,13 @@
   "ui-invoice.adjustments.prorate.notProrated": [
     {
       "type": 0,
-      "value": "Not prorated"
+      "value": "按分しない"
     }
   ],
   "ui-invoice.adjustments.relationToTotal.inAdditionTo": [
     {
       "type": 0,
-      "value": "In addition to（追加）"
+      "value": "追加される"
     }
   ],
   "ui-invoice.adjustments.relationToTotal.includedIn": [
@@ -84815,7 +84815,7 @@
   "ui-invoice.invoice.accountNumber": [
     {
       "type": 0,
-      "value": "Account number"
+      "value": "アカウント番号"
     }
   ],
   "ui-invoice.invoice.accountingCode": [
@@ -86485,19 +86485,19 @@
   "ui-invoice.invoice.lockTotal": [
     {
       "type": 0,
-      "value": "Lock total"
+      "value": "合計のロック"
     }
   ],
   "ui-invoice.invoice.lockTotalAmount": [
     {
       "type": 0,
-      "value": "Lock total amount"
+      "value": "ロックする合計額"
     }
   ],
   "ui-invoice.invoice.lockTotalAmount.tooltip": [
     {
       "type": 0,
-      "value": "Check Lock total to interact with this field"
+      "value": "このフィールドを操作するには、「合計のロック」をチェックしてください"
     }
   ],
   "ui-invoice.invoice.note": [
@@ -86619,7 +86619,7 @@
   "ui-invoice.invoiceLine.accountNumber": [
     {
       "type": 0,
-      "value": "Account number"
+      "value": "アカウント番号"
     }
   ],
   "ui-invoice.invoiceLine.accountNumber.inactive": [
@@ -87367,7 +87367,7 @@
   "ui-invoice.settings.adjustments.prorate": [
     {
       "type": 0,
-      "value": "Pro rate"
+      "value": "Pro rate（按分）"
     }
   ],
   "ui-invoice.settings.adjustments.relationToTotal": [
@@ -87903,7 +87903,7 @@
   "ui-invoice.versionHistory.label.adjustments.prorate": [
     {
       "type": 0,
-      "value": "Adjustment pro rate"
+      "value": "調整金のpro rate（按分）"
     }
   ],
   "ui-invoice.versionHistory.label.adjustments.relationToTotal": [
@@ -88268,7 +88268,7 @@
   "ui-ldp.dbinfo.processes.state": [
     {
       "type": 0,
-      "value": "Status"
+      "value": "ステータス"
     }
   ],
   "ui-ldp.dbinfo.processes.userName": [
@@ -89153,7 +89153,7 @@
   "ui-licenses.actions": [
     {
       "type": 0,
-      "value": "Actions"
+      "value": "アクション"
     }
   ],
   "ui-licenses.addRule": [
@@ -89177,7 +89177,7 @@
   "ui-licenses.amendments": [
     {
       "type": 0,
-      "value": "Amendments"
+      "value": "修正"
     }
   ],
   "ui-licenses.amendments.add": [
@@ -89311,7 +89311,7 @@
   "ui-licenses.amendments.searchInputLabel": [
     {
       "type": 0,
-      "value": "Search Amendments"
+      "value": "修正を検索"
     }
   ],
   "ui-licenses.amendments.update": [
@@ -89413,7 +89413,7 @@
   "ui-licenses.content.filter.amendmentContent": [
     {
       "type": 0,
-      "value": "Amendment content"
+      "value": "修正内容"
     }
   ],
   "ui-licenses.content.filter.has": [
@@ -90563,7 +90563,7 @@
   "ui-licenses.notSet": [
     {
       "type": 0,
-      "value": "Not set"
+      "value": "未設定"
     }
   ],
   "ui-licenses.operator.contains": [
@@ -92480,13 +92480,13 @@
   "ui-lists.create-list.aside.set-criteria": [
     {
       "type": 0,
-      "value": "Set criteria"
+      "value": "条件の設定"
     }
   ],
   "ui-lists.create-list.aside.set-criteria-to-build": [
     {
       "type": 0,
-      "value": "Set criteria to build query"
+      "value": "クエリを作成するための条件を設定する"
     }
   ],
   "ui-lists.create-list.choose-record-type": [
@@ -92642,7 +92642,7 @@
   "ui-lists.create-list.subtitle": [
     {
       "type": 0,
-      "value": "Set criteria to build query"
+      "value": "クエリを作成するための条件を設定する"
     }
   ],
   "ui-lists.create-list.title": [
@@ -95851,7 +95851,7 @@
   "ui-marc-authorities.actions": [
     {
       "type": 0,
-      "value": "Actions"
+      "value": "アクション"
     }
   ],
   "ui-marc-authorities.actions.create": [
@@ -96507,7 +96507,7 @@
   "ui-marc-authorities.reports.FAILED_UPDATES.outputFormat": [
     {
       "type": 0,
-      "value": "Failed updates: Linked bibliographic fields (CSV)"
+      "value": "更新失敗: リンクされた書誌フィールド (CSV)"
     }
   ],
   "ui-marc-authorities.reports.FAILED_UPDATES.success": [
@@ -96579,7 +96579,7 @@
   "ui-marc-authorities.reports.failedUpdates": [
     {
       "type": 0,
-      "value": "Failed updates: linked bibliographic fields (CSV)"
+      "value": "更新失敗: リンクされた書誌フィールド (CSV)"
     }
   ],
   "ui-marc-authorities.reports.marcAuthorityHeadings": [
@@ -97038,19 +97038,19 @@
   "ui-marc-authorities.settings.manageAuthoritySourceFiles.labelSingular": [
     {
       "type": 0,
-      "value": "権限ファイル"
+      "value": "典拠ファイル"
     }
   ],
   "ui-marc-authorities.settings.manageAuthoritySourceFiles.list.label": [
     {
       "type": 0,
-      "value": "権限ファイル"
+      "value": "典拠ファイル"
     }
   ],
   "ui-marc-authorities.settings.manageAuthoritySourceFiles.pane.title": [
     {
       "type": 0,
-      "value": "Manage authority files"
+      "value": "典拠ファイルの管理"
     }
   ],
   "ui-marc-authorities.settings.manageAuthoritySourceFiles.update.fail.fileAssigned": [
@@ -97150,7 +97150,7 @@
   "ui-marc-authorities.settings.versionHistory.field.pageSize": [
     {
       "type": 0,
-      "value": "Cards to display per page on Version history"
+      "value": "バージョン履歴でページごとに表示するカード"
     }
   ],
   "ui-marc-authorities.settings.versionHistory.loadError": [
@@ -97400,7 +97400,7 @@
   "ui-myprofile.settings.appNavOrder.label": [
     {
       "type": 0,
-      "value": "Application display order"
+      "value": "アプリケーションの表示順"
     }
   ],
   "ui-myprofile.settings.appNavOrder.newItem": [
@@ -97412,7 +97412,7 @@
   "ui-myprofile.settings.appNavOrder.reset": [
     {
       "type": 0,
-      "value": "Reset to default"
+      "value": "初期設定に戻す"
     }
   ],
   "ui-myprofile.settings.appNavOrder.resetError": [
@@ -97448,7 +97448,7 @@
   "ui-myprofile.settings.appNavOrder.visibleInstruction": [
     {
       "type": 0,
-      "value": "Drag & drop to change the display order of FOLIO applications."
+      "value": "FOLIOアプリケーションの表示順序をドラッグ＆ドロップで変更できます。"
     }
   ],
   "ui-myprofile.settings.changePassword.confirmPassword": [
@@ -97612,7 +97612,7 @@
   "ui-myprofile.settings.languageLocalization.resetToDefault": [
     {
       "type": 0,
-      "value": "Reset to default"
+      "value": "初期設定に戻す"
     }
   ],
   "ui-myprofile.settings.languageLocalization.tenantDefault": [
@@ -97850,7 +97850,7 @@
   "ui-oa.actions": [
     {
       "type": 0,
-      "value": "Actions"
+      "value": "アクション"
     }
   ],
   "ui-oa.affiliation.addAffiliation": [
@@ -98764,7 +98764,7 @@
   "ui-oa.checklist.outcome.notSet": [
     {
       "type": 0,
-      "value": "Not set"
+      "value": "未設定"
     }
   ],
   "ui-oa.checklist.outcome.other": [
@@ -102077,13 +102077,13 @@
   "ui-orders.button.printLine": [
     {
       "type": 0,
-      "value": "Print order line"
+      "value": "発注明細を印刷"
     }
   ],
   "ui-orders.button.printOrder": [
     {
       "type": 0,
-      "value": "Print order"
+      "value": "発注を印刷"
     }
   ],
   "ui-orders.button.reexport": [
@@ -104035,7 +104035,7 @@
   "ui-orders.itemDetails.isAcknowledged": [
     {
       "type": 0,
-      "value": "Must acknowledge receiving note"
+      "value": "受入ノートの確認が必須"
     }
   ],
   "ui-orders.itemDetails.linkPackage": [
@@ -106165,7 +106165,7 @@
   "ui-orders.poLine.receivingWorkflow.infoPopover": [
     {
       "type": 0,
-      "value": "Selecting synchronized will keep the order quantity and the number of pieces to be received, in sync. This also means updating one will update the other. When the order is opened, the system will generate pieces based on the quantity order. Selecting “independent order and receipt quantity” will allow you to manage the number of receiving pieces and their locations independently. You can convert a POL to independent at anytime but you cannot convert back to synchronized when the order is open or closed."
+      "value": "「同期（Synchronized）」を選択すると、発注数量と受入ピース数が同期されます。\nつまり、一方を更新すると、もう一方も自動的に更新されます。\n注文を開くと、システムは発注数量に基づいてピースを生成します。\n\n一方、「独立した発注と受入数（Independent order and receipt quantity）」を選択すると、受入ピース数やその配置（ロケーション）を個別に管理できます。\nPOL はいつでも Independent に変更できますが、注文がオープンまたはクローズされた後は、Synchronized に戻すことはできません。"
     }
   ],
   "ui-orders.poLine.receivingWorkflow.synchronized": [
@@ -107858,7 +107858,7 @@
   "ui-orders.settings.numberGenerator.accessionNumberEqualCallNumber": [
     {
       "type": 0,
-      "value": "Use the same generated number for accession number and call number"
+      "value": "アクセッション番号と請求番号に、生成された同じ番号を使用する"
     }
   ],
   "ui-orders.settings.numberGenerator.accessionNumberEqualCallNumber.warning": [
@@ -107870,7 +107870,7 @@
   "ui-orders.settings.numberGenerator.barcode": [
     {
       "type": 0,
-      "value": "Barcode"
+      "value": "バーコード"
     }
   ],
   "ui-orders.settings.numberGenerator.callNumber": [
@@ -107882,13 +107882,13 @@
   "ui-orders.settings.numberGenerator.info": [
     {
       "type": 0,
-      "value": "Fields which are usually filled using a numeric sequence can use the number generator. When the generator is switched on the field can either be fixed to prevent manual update, or made fully editable. When switched off, the field must be filled manually."
+      "value": "数値の連番で入力されることが多いフィールドでは、番号ジェネレーターを使用できます。ジェネレーターをオンにすると、フィールドを手動で変更できないように固定することも、完全に編集可能にすることもできます。\nオフにした場合は、そのフィールドを手動で入力する必要があります。"
     }
   ],
   "ui-orders.settings.numberGenerator.infoAdditional": [
     {
       "type": 0,
-      "value": "Additional number generator settings are available under "
+      "value": "追加の番号ジェネレーターは "
     },
     {
       "type": 1,
@@ -107896,7 +107896,7 @@
     },
     {
       "type": 0,
-      "value": ". At "
+      "value": " で設定できます。\n"
     },
     {
       "type": 1,
@@ -107904,7 +107904,7 @@
     },
     {
       "type": 0,
-      "value": " sequences can be defined by selecting the appropriate generator via the drop-down menu."
+      "value": " では、ドロップダウンメニューから適切なジェネレーターを選択することで、シーケンスを定義できます。"
     }
   ],
   "ui-orders.settings.numberGenerator.infoAdditional.numberGeneratorSequences": [
@@ -107916,13 +107916,13 @@
   "ui-orders.settings.numberGenerator.infoAdditional.serviceInteraction": [
     {
       "type": 0,
-      "value": "Service interaction"
+      "value": "サービス・インタラクション"
     }
   ],
   "ui-orders.settings.numberGenerator.options": [
     {
       "type": 0,
-      "value": "Number generator options"
+      "value": "番号生成オプション"
     }
   ],
   "ui-orders.settings.numberGenerator.options.off": [
@@ -107946,7 +107946,7 @@
   "ui-orders.settings.numberGenerator.receiving": [
     {
       "type": 0,
-      "value": "Receiving"
+      "value": "受入"
     }
   ],
   "ui-orders.settings.numberGenerator.submit.error": [
@@ -109066,7 +109066,7 @@
   "ui-orders.vendor.accountNumber": [
     {
       "type": 0,
-      "value": "Account number"
+      "value": "アカウント番号"
     }
   ],
   "ui-orders.vendor.accountNumber.inActive": [
@@ -109144,19 +109144,19 @@
   "ui-organizations.accounts.account.accountStatus": [
     {
       "type": 0,
-      "value": "Account status"
+      "value": "アカウントステータス"
     }
   ],
   "ui-organizations.accounts.account.contactInfo": [
     {
       "type": 0,
-      "value": "Contact info"
+      "value": "連絡先情報"
     }
   ],
   "ui-organizations.accounts.accountNumber": [
     {
       "type": 0,
-      "value": "Account number"
+      "value": "アカウント番号"
     }
   ],
   "ui-organizations.accounts.accountStatus": [
@@ -110712,7 +110712,7 @@
   "ui-organizations.integration.edi.accountNumbers": [
     {
       "type": 0,
-      "value": "Account numbers"
+      "value": "アカウント番号"
     }
   ],
   "ui-organizations.integration.edi.defaultAcquisitionMethods": [
@@ -112211,7 +112211,7 @@
   "ui-organizations.settings.numberGeneratorOptions": [
     {
       "type": 0,
-      "value": "Number generator options"
+      "value": "番号生成オプション"
     }
   ],
   "ui-organizations.settings.numberGeneratorOptions.code": [
@@ -112223,13 +112223,13 @@
   "ui-organizations.settings.numberGeneratorOptions.info": [
     {
       "type": 0,
-      "value": "Fields which are usually filled using a numeric sequence can use the number generator. When the generator is switched on the field can either be fixed to prevent manual update, or made fully editable. When switched off, the field must be filled manually."
+      "value": "数値の連番で入力されることが多いフィールドでは、番号ジェネレーターを使用できます。ジェネレーターをオンにすると、フィールドを手動で変更できないように固定することも、完全に編集可能にすることもできます。\nオフにした場合は、そのフィールドを手動で入力する必要があります。"
     }
   ],
   "ui-organizations.settings.numberGeneratorOptions.infoAdditional": [
     {
       "type": 0,
-      "value": "Additional number generator settings are available under "
+      "value": "追加の番号ジェネレーターは "
     },
     {
       "type": 1,
@@ -112237,7 +112237,7 @@
     },
     {
       "type": 0,
-      "value": ".  At "
+      "value": " で設定できます。\n"
     },
     {
       "type": 1,
@@ -112245,7 +112245,7 @@
     },
     {
       "type": 0,
-      "value": " sequences can be defined by selecting the appropriate generator via the drop-down menu."
+      "value": " では、ドロップダウンメニューから適切なジェネレーターを選択することで、シーケンスを定義できます。"
     }
   ],
   "ui-organizations.settings.numberGeneratorOptions.off": [
@@ -114382,7 +114382,12 @@
       "value": "一時所在"
     }
   ],
-  "ui-plugin-eusage-reports.SENTINEL": [],
+  "ui-plugin-eusage-reports.SENTINEL": [
+    {
+      "type": 0,
+      "value": "空"
+    }
+  ],
   "ui-plugin-eusage-reports.accordion.label": [
     {
       "type": 0,
@@ -115891,7 +115896,7 @@
   "ui-plugin-find-import-profile.confirmationModal.notAttached.heading": [
     {
       "type": 0,
-      "value": "Action profile not attached"
+      "value": "アクション・プロファイルがアタッチされていません"
     }
   ],
   "ui-plugin-find-import-profile.confirmationModal.note": [
@@ -117932,7 +117937,7 @@
   "ui-quick-marc.MARC-authority": [
     {
       "type": 0,
-      "value": "MARC authority"
+      "value": "MARC典拠"
     }
   ],
   "ui-quick-marc.authority-record.create.title": [
@@ -118149,7 +118154,7 @@
   "ui-quick-marc.holdings-record.create.title": [
     {
       "type": 0,
-      "value": "New MARC holdings record"
+      "value": "新規MARC所蔵レコード"
     }
   ],
   "ui-quick-marc.holdings-record.edit.title": [
@@ -118207,7 +118212,7 @@
   "ui-quick-marc.leader.Complete authority record": [
     {
       "type": 0,
-      "value": "Complete authority record"
+      "value": "完全な典拠レコード"
     }
   ],
   "ui-quick-marc.leader.Computer file": [
@@ -118219,7 +118224,7 @@
   "ui-quick-marc.leader.Corrected or revised": [
     {
       "type": 0,
-      "value": "Corrected or revised"
+      "value": "修正または改訂"
     }
   ],
   "ui-quick-marc.leader.Deleted": [
@@ -118231,13 +118236,13 @@
   "ui-quick-marc.leader.Deleted; heading replaced by another heading": [
     {
       "type": 0,
-      "value": "Deleted; heading replaced by another heading"
+      "value": "削除;他の標目に置換"
     }
   ],
   "ui-quick-marc.leader.Deleted; heading split into two or more headings": [
     {
       "type": 0,
-      "value": "Deleted; heading split into two or more headings"
+      "value": "削除;2 つ以上の標目に分割"
     }
   ],
   "ui-quick-marc.leader.Holdings level 1": [
@@ -118285,13 +118290,13 @@
   "ui-quick-marc.leader.Incomplete authority record": [
     {
       "type": 0,
-      "value": "Incomplete authority record"
+      "value": "不完全な典拠レコード"
     }
   ],
   "ui-quick-marc.leader.Increase in encoding level": [
     {
       "type": 0,
-      "value": "Increase in encoding level"
+      "value": "エンコーディングレベルの向上"
     }
   ],
   "ui-quick-marc.leader.Increase in encoding level from prepublication": [
@@ -118387,7 +118392,7 @@
   "ui-quick-marc.leader.No information provided": [
     {
       "type": 0,
-      "value": "No information provided"
+      "value": "情報なし"
     }
   ],
   "ui-quick-marc.leader.No item information": [
@@ -118435,7 +118440,7 @@
   "ui-quick-marc.leader.Obsolete": [
     {
       "type": 0,
-      "value": "Obsolete"
+      "value": "廃止"
     }
   ],
   "ui-quick-marc.leader.Other level": [
@@ -118465,13 +118470,13 @@
   "ui-quick-marc.leader.Punctuation included": [
     {
       "type": 0,
-      "value": "Punctuation included"
+      "value": "句読点付与"
     }
   ],
   "ui-quick-marc.leader.Punctuation omitted": [
     {
       "type": 0,
-      "value": "Punctuation omitted"
+      "value": "句読点省略"
     }
   ],
   "ui-quick-marc.leader.Serial": [
@@ -121491,7 +121496,7 @@
   "ui-quick-marc.record.fixedField.No information provided": [
     {
       "type": 0,
-      "value": "No information provided"
+      "value": "情報なし"
     }
   ],
   "ui-quick-marc.record.fixedField.No parts in hand or not specified": [
@@ -123681,7 +123686,7 @@
   "ui-quick-marc.record.headingType.130": [
     {
       "type": 0,
-      "value": "Uniform title"
+      "value": "統一タイトル"
     }
   ],
   "ui-quick-marc.record.headingType.150": [
@@ -123979,7 +123984,7 @@
   "ui-quick-marc.record.quickMarcEditorLabel": [
     {
       "type": 0,
-      "value": "Quick MARC editor"
+      "value": "Quick MARC エディター"
     }
   ],
   "ui-quick-marc.record.save.continue": [
@@ -124794,7 +124799,7 @@
   "ui-reading-room.meta.title": [
     {
       "type": 0,
-      "value": "Reading room access"
+      "value": "閲覧室アクセス"
     }
   ],
   "ui-reading-room.noReadingRoomDefined": [
@@ -124960,7 +124965,7 @@
   "ui-receiving.bind.pieces.create.error.barcodeIsNotUnique": [
     {
       "type": 0,
-      "value": "Barcode must be unique, piece and item data could not be updated."
+      "value": "バーコードは一意である必要があるため、ピースおよびアイテムのデータを更新できませんでした。"
     }
   ],
   "ui-receiving.bind.pieces.create.error.bindItemMustIncludeEitherHoldingIdOrLocationId": [
@@ -126880,7 +126885,7 @@
   "ui-receiving.title.isAcknowledged": [
     {
       "type": 0,
-      "value": "Must acknowledge receiving note"
+      "value": "受入ノートの確認が必須"
     }
   ],
   "ui-receiving.title.lineLookUp": [
@@ -131903,7 +131908,7 @@
   "ui-serials-management.actions": [
     {
       "type": 0,
-      "value": "Actions"
+      "value": "アクション"
     }
   ],
   "ui-serials-management.appMenu.keyboardShortcuts": [
@@ -131955,7 +131960,7 @@
   "ui-serials-management.description": [
     {
       "type": 0,
-      "value": "Description"
+      "value": "説明"
     }
   ],
   "ui-serials-management.edit": [
@@ -131989,7 +131994,7 @@
   "ui-serials-management.meta.title": [
     {
       "type": 0,
-      "value": "Serials"
+      "value": "雑誌"
     }
   ],
   "ui-serials-management.month.issue": [
@@ -132147,7 +132152,7 @@
   "ui-serials-management.pieceSets.generateReceivingInfo": [
     {
       "type": 0,
-      "value": "Selecting 'Generate receiving pieces' will create new pieces in the Receiving app. Please wait while the pieces are generated. This window will close when the process is complete."
+      "value": "「受入ピースの生成」を選択すると、受入アプリに新しいピースが作成されます。\nピースが生成されるまでしばらくお待ちください。\n処理が完了すると、このウィンドウは自動的に閉じられます。"
     }
   ],
   "ui-serials-management.pieceSets.generateReceivingPieces": [
@@ -132884,7 +132889,7 @@
   "ui-serials-management.ruleset.cycleLengthPopover": [
     {
       "type": 0,
-      "value": "The amount of time it takes for a single cycle of the publication pattern to complete. For example, a fortnightly publication will have a cycle length of two weeks: \"Time unit\"=Week and \"Number of weeks\" = 2"
+      "value": "刊行パターンの 1 サイクルが完了するまでにかかる期間を示します。\n例えば、隔週刊行物の場合、サイクル長は 2 週間となります。\nこの場合の設定は次のとおりです：\n「Time unit」＝ Week、\n「Number of weeks」＝ 2"
     }
   ],
   "ui-serials-management.ruleset.day": [
@@ -132920,7 +132925,7 @@
   "ui-serials-management.ruleset.daysOfPublicationPerCyclePopover": [
     {
       "type": 0,
-      "value": "The day(s) on which an issue is published, within one cycle of the publication pattern. For example: "
+      "value": "発行パターンの 1 サイクル内において、発行される曜日。\n例："
     },
     {
       "type": 1,
@@ -132928,7 +132933,7 @@
     },
     {
       "type": 0,
-      "value": " A weekly Saturday publication would be defined as: "
+      "value": "\n毎週土曜日に発行の場合："
     },
     {
       "type": 1,
@@ -132936,7 +132941,7 @@
     },
     {
       "type": 0,
-      "value": " \"Day\" = Saturday "
+      "value": "\n「Day」＝ Saturday "
     },
     {
       "type": 1,
@@ -132944,7 +132949,7 @@
     },
     {
       "type": 0,
-      "value": " A monthly issue published on the fourth Monday would be defined: "
+      "value": "\n毎月第 4 月曜日に発行の場合："
     },
     {
       "type": 1,
@@ -132952,7 +132957,7 @@
     },
     {
       "type": 0,
-      "value": " \"Day format\" = Day (Mon-Sun), Week (1-4) "
+      "value": "\n「Day format」＝ Day (Mon-Sun), Week (1-4) "
     },
     {
       "type": 1,
@@ -132960,7 +132965,7 @@
     },
     {
       "type": 0,
-      "value": " \"Day\" = Monday "
+      "value": "\n「Day」＝ Monday "
     },
     {
       "type": 1,
@@ -132968,7 +132973,7 @@
     },
     {
       "type": 0,
-      "value": "  \"Of week\" = 4"
+      "value": "\n「Of week」＝ 4"
     }
   ],
   "ui-serials-management.ruleset.deprecatedPublicationPatterns": [
@@ -133050,13 +133055,13 @@
   "ui-serials-management.ruleset.firstIssuePopover": [
     {
       "type": 0,
-      "value": "The “Combination rule type” and associated fields will pinpoint the "
+      "value": "「Combination rule type」と関連フィールドは、組み合わせに含める"
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "first issue"
+          "value": "最初の号"
         }
       ],
       "type": 8,
@@ -133064,7 +133069,7 @@
     },
     {
       "type": 0,
-      "value": " to be included in the combination"
+      "value": "を特定します。"
     }
   ],
   "ui-serials-management.ruleset.followOnFromPrevious": [
@@ -133662,7 +133667,7 @@
   "ui-serials-management.serials": [
     {
       "type": 0,
-      "value": "Serials"
+      "value": "雑誌"
     }
   ],
   "ui-serials-management.serials.addNote": [
@@ -133748,7 +133753,7 @@
   "ui-serials-management.serials.description": [
     {
       "type": 0,
-      "value": "Description"
+      "value": "説明"
     }
   ],
   "ui-serials-management.serials.editSerial": [
@@ -133884,7 +133889,7 @@
   "ui-serials-management.templates.copy": [
     {
       "type": 0,
-      "value": "Copy"
+      "value": "コピー"
     }
   ],
   "ui-serials-management.templates.deleteTemplate": [
@@ -134086,7 +134091,7 @@
   "ui-service-interaction.actions": [
     {
       "type": 0,
-      "value": "Actions"
+      "value": "アクション"
     }
   ],
   "ui-service-interaction.all": [
@@ -134128,7 +134133,7 @@
   "ui-service-interaction.meta.title": [
     {
       "type": 0,
-      "value": "Service interaction"
+      "value": "サービス・インタラクション"
     }
   ],
   "ui-service-interaction.nFound": [
@@ -134920,7 +134925,7 @@
   "ui-service-interaction.settings.numberGenerators": [
     {
       "type": 0,
-      "value": "Number generators"
+      "value": "番号ジェネレーター"
     }
   ],
   "ui-service-interaction.settings.numberGenerators.callout.create": [
@@ -135106,7 +135111,7 @@
   "ui-service-interaction.settings.numberGenerators.helpText": [
     {
       "type": 0,
-      "value": "New number generators need development work to integrate them with FOLIO apps. Please review the "
+      "value": "新しい番号ジェネレーターを FOLIO アプリと連携させるには、開発作業が必要です。\n新しい番号ジェネレーターを作成する前に、"
     },
     {
       "type": 1,
@@ -135114,7 +135119,7 @@
     },
     {
       "type": 0,
-      "value": " before creating a new number generator."
+      "value": " を確認してください。"
     }
   ],
   "ui-service-interaction.settings.numberGenerators.name": [
@@ -136518,7 +136523,7 @@
   "ui-tenant-settings.settings.reading-room-access.label": [
     {
       "type": 0,
-      "value": "Reading room access"
+      "value": "閲覧室アクセス"
     }
   ],
   "ui-tenant-settings.settings.reading-room-access.name": [
@@ -137828,7 +137833,7 @@
   "ui-users.accounts.history.columns.actions": [
     {
       "type": 0,
-      "value": "Actions"
+      "value": "アクション"
     }
   ],
   "ui-users.accounts.history.columns.amount": [
@@ -138820,19 +138825,19 @@
   "ui-users.actionMenu.lostItems": [
     {
       "type": 0,
-      "value": "Lost items requiring actual cost"
+      "value": "実費請求が必要な紛失資料"
     }
   ],
   "ui-users.actionMenu.patronNoticePrintJobs": [
     {
       "type": 0,
-      "value": "View patron notice print jobs (PDF)"
+      "value": "利用者通知印刷ジョブの表示（PDF）"
     }
   ],
   "ui-users.actionMenu.preRegistrationRecords": [
     {
       "type": 0,
-      "value": "Search patron preregistration records"
+      "value": "利用者の事前登録記録の検索"
     }
   ],
   "ui-users.actions": [
@@ -143468,7 +143473,7 @@
   "ui-users.lostItems.list.searchResults": [
     {
       "type": 0,
-      "value": "Lost items requiring actual cost"
+      "value": "実費請求が必要な紛失資料"
     }
   ],
   "ui-users.lostItems.message.noAccessToActualCostPage": [
@@ -145759,7 +145764,7 @@
   "ui-users.readingRoom.readingRoomAccess": [
     {
       "type": 0,
-      "value": "Reading room access"
+      "value": "閲覧室アクセス"
     }
   ],
   "ui-users.refunds.columns.description": [
@@ -145843,13 +145848,13 @@
   "ui-users.reports.cash.document.name": [
     {
       "type": 0,
-      "value": "Cash Drawer Reconciliation Report"
+      "value": "Cash Drawer 清算レポート"
     }
   ],
   "ui-users.reports.cash.drawer.modal.label": [
     {
       "type": 0,
-      "value": "Cash drawer reconciliation report"
+      "value": "Cash Drawer 清算レポート"
     }
   ],
   "ui-users.reports.cash.drawer.report.endDate.error": [
@@ -146051,7 +146056,7 @@
   "ui-users.reports.cashDrawer.label": [
     {
       "type": 0,
-      "value": "Cash drawer reconciliation report (CSV, PDF)"
+      "value": "Cash Drawer 清算レポート（CSV、PDF）"
     }
   ],
   "ui-users.reports.claimReturned.label": [
@@ -146368,16 +146373,12 @@
   ],
   "ui-users.reports.financial.header": [
     {
-      "type": 0,
-      "value": "Financial Transactions Detail Report for "
-    },
-    {
       "type": 1,
       "value": "owner"
     },
     {
       "type": 0,
-      "value": ", Service Point(s) "
+      "value": ", サービスポイント "
     },
     {
       "type": 1,
@@ -146393,11 +146394,15 @@
     },
     {
       "type": 0,
-      "value": " to "
+      "value": " ～ "
     },
     {
       "type": 1,
       "value": "endDate"
+    },
+    {
+      "type": 0,
+      "value": "の財務取引詳細レポート"
     }
   ],
   "ui-users.reports.financial.instance": [
@@ -146439,7 +146444,7 @@
   "ui-users.reports.financial.name": [
     {
       "type": 0,
-      "value": "Financial Transactions Detail Report"
+      "value": "財務取引詳細レポート"
     }
   ],
   "ui-users.reports.financial.overduePolicy": [
@@ -146517,7 +146522,7 @@
   "ui-users.reports.financial.trans.modal.label": [
     {
       "type": 0,
-      "value": "Financial transaction detail report"
+      "value": "財務取引詳細レポート"
     }
   ],
   "ui-users.reports.financial.trans.modal.owners": [
@@ -146565,7 +146570,7 @@
   "ui-users.reports.financialTransaction.label": [
     {
       "type": 0,
-      "value": "Financial transaction detail report (CSV)"
+      "value": "財務取引詳細レポート（CSV）"
     }
   ],
   "ui-users.reports.inProgress": [
@@ -146775,7 +146780,7 @@
   "ui-users.reports.refunds.label": [
     {
       "type": 0,
-      "value": "Refunds to process manually report (CSV)"
+      "value": "手動処理が必要な返金レポート（CSV）"
     }
   ],
   "ui-users.reports.refunds.modal.endDate": [
@@ -146787,7 +146792,7 @@
   "ui-users.reports.refunds.modal.label": [
     {
       "type": 0,
-      "value": "Refunds to process manually"
+      "value": "手動処理する返金"
     }
   ],
   "ui-users.reports.refunds.modal.message": [
@@ -147565,19 +147570,19 @@
   "ui-users.settings.numberGenerator.barcode": [
     {
       "type": 0,
-      "value": "Barcode"
+      "value": "バーコード"
     }
   ],
   "ui-users.settings.numberGenerator.info": [
     {
       "type": 0,
-      "value": "Fields which are usually filled using a numeric sequence can use the number generator. When the generator is switched on the field can either be fixed to prevent manual update, or made fully editable. When switched off, the field must be filled manually."
+      "value": "数値の連番で入力されることが多いフィールドでは、番号ジェネレーターを使用できます。ジェネレーターをオンにすると、フィールドを手動で変更できないように固定することも、完全に編集可能にすることもできます。\nオフにした場合は、そのフィールドを手動で入力する必要があります。"
     }
   ],
   "ui-users.settings.numberGenerator.infoAdditional": [
     {
       "type": 0,
-      "value": "Additional number generator settings are available under "
+      "value": "追加の番号ジェネレーターは "
     },
     {
       "type": 1,
@@ -147585,7 +147590,7 @@
     },
     {
       "type": 0,
-      "value": ". At "
+      "value": " で設定できます。\n"
     },
     {
       "type": 1,
@@ -147593,13 +147598,13 @@
     },
     {
       "type": 0,
-      "value": " sequences can be defined by selecting the appropriate generator via the drop-down menu."
+      "value": " では、ドロップダウンメニューから適切なジェネレーターを選択することで、シーケンスを定義できます。"
     }
   ],
   "ui-users.settings.numberGenerator.options": [
     {
       "type": 0,
-      "value": "Number generator options"
+      "value": "番号生成オプション"
     }
   ],
   "ui-users.settings.numberGenerator.options.off": [
@@ -147915,7 +147920,7 @@
   "ui-users.stagingRecords.list.columnNames.emailCommunicationPreferences": [
     {
       "type": 0,
-      "value": "Email communication preferences"
+      "value": "Eメールによるコミュニケーションの設定"
     }
   ],
   "ui-users.stagingRecords.list.columnNames.emailVerification": [
