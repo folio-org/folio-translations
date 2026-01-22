@@ -116806,15 +116806,53 @@
   "ui-plugin-query-builder.modal.preview.title.empty": [
     {
       "type": 0,
-      "value": "سوف يقوم الاستعلام بإرجاع "
+      "value": "Query returns "
     },
     {
-      "type": 1,
+      "offset": 0,
+      "options": {
+        "=0": {
+          "value": [
+            {
+              "type": 0,
+              "value": "no records"
+            }
+          ]
+        },
+        "one": {
+          "value": [
+            {
+              "style": null,
+              "type": 2,
+              "value": "total"
+            },
+            {
+              "type": 0,
+              "value": " record"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "style": null,
+              "type": 2,
+              "value": "total"
+            },
+            {
+              "type": 0,
+              "value": " records"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
       "value": "total"
     },
     {
       "type": 0,
-      "value": " تسجيلة."
+      "value": "."
     }
   ],
   "ui-plugin-query-builder.modal.query": [
@@ -132951,6 +132989,16 @@
     {
       "type": 0,
       "value": "Description"
+    }
+  ],
+  "ui-serials-management.templates.editTemplate": [
+    {
+      "type": 0,
+      "value": "Edit pattern template - "
+    },
+    {
+      "type": 1,
+      "value": "name"
     }
   ],
   "ui-serials-management.templates.exampleLabel": [

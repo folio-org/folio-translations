@@ -85666,7 +85666,7 @@
   "ui-invoice.invoice.actions.approveAndPay.error.budgetNotFoundByFundIdAndFiscalYearId": [
     {
       "type": 0,
-      "value": "發票無法被核准及支付因"
+      "value": "Invoice cannot be approved and paid because Fund "
     },
     {
       "children": [
@@ -85680,7 +85680,21 @@
     },
     {
       "type": 0,
-      "value": " 預算不足"
+      "value": " has no current budget for fiscal year "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "fiscalYear"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "."
     }
   ],
   "ui-invoice.invoice.actions.approveAndPay.error.inactiveExpenseClass": [
@@ -116831,7 +116845,7 @@
   "ui-plugin-find-instance.filters.effectiveLocation": [
     {
       "type": 0,
-      "value": "有效的館藏地 ( 館藏 )"
+      "value": "有效的館藏地 ( 單件館藏 )"
     }
   ],
   "ui-plugin-find-instance.filters.holdings": [
@@ -116849,7 +116863,7 @@
   "ui-plugin-find-instance.filters.items": [
     {
       "type": 0,
-      "value": "館藏"
+      "value": "單件"
     }
   ],
   "ui-plugin-find-instance.filters.nameType": [
@@ -131025,7 +131039,7 @@
   "ui-requests.item.status.intellectualItem": [
     {
       "type": 0,
-      "value": "虛擬館藏"
+      "value": "虛擬單件館藏"
     }
   ],
   "ui-requests.item.status.longMissing": [
@@ -132161,7 +132175,7 @@
   "ui-requests.requests.itemBarcode": [
     {
       "type": 0,
-      "value": "館藏條碼"
+      "value": "單件條碼"
     }
   ],
   "ui-requests.requests.position": [
@@ -134803,6 +134817,16 @@
     {
       "type": 0,
       "value": "Description"
+    }
+  ],
+  "ui-serials-management.templates.editTemplate": [
+    {
+      "type": 0,
+      "value": "Edit pattern template - "
+    },
+    {
+      "type": 1,
+      "value": "name"
     }
   ],
   "ui-serials-management.templates.exampleLabel": [

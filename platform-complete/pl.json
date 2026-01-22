@@ -23599,7 +23599,7 @@
   "ui-bulk-edit.columns.HOLDINGS_RECORD.Effective location": [
     {
       "type": 0,
-      "value": "Aktualna lokalizacja"
+      "value": "Efektywna lokalizacja"
     }
   ],
   "ui-bulk-edit.columns.HOLDINGS_RECORD.Electronic access": [
@@ -27745,17 +27745,37 @@
   ],
   "ui-bulk-edit.settings.profiles.paneSub": [
     {
-      "type": 0,
-      "value": "Znaleziono "
-    },
-    {
       "style": null,
       "type": 2,
       "value": "count"
     },
     {
       "type": 0,
-      "value": " profili"
+      "value": " "
+    },
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "profile found"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "profiles found"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "count"
     }
   ],
   "ui-bulk-edit.settings.profiles.search.label": [
@@ -36763,7 +36783,7 @@
   "ui-circulation.settings.patronNotices.effectiveLocationTokenHeader": [
     {
       "type": 0,
-      "value": "Aktualna lokalizacja"
+      "value": "Efektywna lokalizacja"
     }
   ],
   "ui-circulation.settings.patronNotices.email": [
@@ -37203,7 +37223,7 @@
   "ui-circulation.settings.staffSlips.effectiveLocationTokenHeader": [
     {
       "type": 0,
-      "value": "Aktualna lokalizacja"
+      "value": "Efektywna lokalizacja"
     }
   ],
   "ui-circulation.settings.staffSlips.form.previewLabel": [
@@ -77434,7 +77454,7 @@
   "ui-inventory.effectiveLocationShort": [
     {
       "type": 0,
-      "value": "Aktualna lokalizacja"
+      "value": "Efektywna lokalizacja"
     }
   ],
   "ui-inventory.electronicAccess": [
@@ -106870,7 +106890,7 @@
   "ui-orders.settings.inventoryInteractions": [
     {
       "type": 0,
-      "value": "Domyślne powiązanie z katalogowaniem"
+      "value": "Domyślne powiązania z katalogowaniem"
     }
   ],
   "ui-orders.settings.loanType": [
@@ -107018,13 +107038,13 @@
   "ui-orders.settings.openOrder.isDuplicateCheckDisabled": [
     {
       "type": 0,
-      "value": "Wyłącz sprawdzanie duplikatów podczas otwierania zamówień i zapisywania pozycji zamówienia zakupu"
+      "value": "Wyłącz sprawdzanie duplikatów podczas otwierania zamówień i zapisywania pozycji zamówienia"
     }
   ],
   "ui-orders.settings.openOrder.isOpenOrderEnabled": [
     {
       "type": 0,
-      "value": "Zezwalaj na zapisywanie i otwieranie zamówienia zakupu podczas tworzenia lub edycji pozycji zamówienia zakupu"
+      "value": "Zezwalaj na zapisywanie i otwieranie zamówienia zakupu podczas tworzenia lub edycji pozycji zamówienia"
     }
   ],
   "ui-orders.settings.orderTemplateCategories": [
@@ -107706,7 +107726,7 @@
   "ui-orders.settings.routing.listConfiguration": [
     {
       "type": 0,
-      "value": "Lista konfiguracyjna"
+      "value": "Konfiguracja listy"
     }
   ],
   "ui-orders.settings.routing.listConfiguration.body": [
@@ -127503,7 +127523,7 @@
   "ui-requests-mediated.itemDetails.effectiveLocation": [
     {
       "type": 0,
-      "value": "Aktualna lokalizacja"
+      "value": "Efektywna lokalizacja"
     }
   ],
   "ui-requests-mediated.itemDetails.id": [
@@ -129058,7 +129078,7 @@
   "ui-requests.item.effectiveLocation": [
     {
       "type": 0,
-      "value": "Aktualna lokalizacja"
+      "value": "Efektywna lokalizacja"
     }
   ],
   "ui-requests.item.enumeration": [
@@ -129094,7 +129114,7 @@
   "ui-requests.item.location.name": [
     {
       "type": 0,
-      "value": "Aktualna lokalizacja"
+      "value": "Efektywna lokalizacja"
     }
   ],
   "ui-requests.item.noInformation": [
@@ -132910,6 +132930,16 @@
       "value": "Description"
     }
   ],
+  "ui-serials-management.templates.editTemplate": [
+    {
+      "type": 0,
+      "value": "Edit pattern template - "
+    },
+    {
+      "type": 1,
+      "value": "name"
+    }
+  ],
   "ui-serials-management.templates.exampleLabel": [
     {
       "type": 0,
@@ -135091,7 +135121,7 @@
   "ui-tenant-settings.settings.location.locations.floating": [
     {
       "type": 0,
-      "value": "Enable floating collection"
+      "value": "Włącz kolekcję pływającą"
     }
   ],
   "ui-tenant-settings.settings.location.locations.generalInformation": [
@@ -144454,7 +144484,7 @@
   "ui-users.readingRoom.filter": [
     {
       "type": 0,
-      "value": "Nazwa pokoju"
+      "value": "Nazwa czytelni"
     }
   ],
   "ui-users.readingRoom.lastUpdated": [
@@ -145060,7 +145090,7 @@
   "ui-users.reports.financial.effectiveLocation": [
     {
       "type": 0,
-      "value": "Aktualna lokalizacja"
+      "value": "Efektywna lokalizacja"
     }
   ],
   "ui-users.reports.financial.feeFineBilledAmount": [

@@ -59026,7 +59026,43 @@
   "ui-erm-usage.report.upload.info": [
     {
       "type": 0,
-      "value": "Het is mogelijk om COUNTER 4 (XML & CSV) of COUNTER 5 (JSON & CSV) gebruiksstatistieken te uploaden."
+      "value": "It is possible to upload usage statistics for"
+    },
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Counter 4 (XML, CSV)"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Counter 5 (JSON, CSV)"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Counter 5.1 (JSON, CSV, TSV, XLSX)"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        }
+      ],
+      "type": 8,
+      "value": "ul"
     }
   ],
   "ui-erm-usage.report.upload.modal.label": [
@@ -64551,8 +64587,14 @@
       "value": " is niet succesvol toegewezen aan het budget "
     },
     {
-      "type": 1,
-      "value": "budgetName"
+      "children": [
+        {
+          "type": 1,
+          "value": "budgetName"
+        }
+      ],
+      "type": 8,
+      "value": "b"
     }
   ],
   "ui-finance.transaction.allocation.hasBeenCreated": [
@@ -65063,8 +65105,14 @@
       "value": " is niet succesvol overgeboekt naar het budget "
     },
     {
-      "type": 1,
-      "value": "budgetName"
+      "children": [
+        {
+          "type": 1,
+          "value": "budgetName"
+        }
+      ],
+      "type": 8,
+      "value": "b"
     }
   ],
   "ui-finance.transaction.transfer.hasBeenCreated": [
@@ -65077,8 +65125,14 @@
       "value": " is succesvol overgeschreven naar het budget "
     },
     {
-      "type": 1,
-      "value": "budgetName"
+      "children": [
+        {
+          "type": 1,
+          "value": "budgetName"
+        }
+      ],
+      "type": 8,
+      "value": "b"
     }
   ],
   "ui-finance.transaction.transfer.missingFundId": [
@@ -124305,6 +124359,16 @@
     {
       "type": 0,
       "value": "Omschrijving"
+    }
+  ],
+  "ui-serials-management.templates.editTemplate": [
+    {
+      "type": 0,
+      "value": "Edit pattern template - "
+    },
+    {
+      "type": 1,
+      "value": "name"
     }
   ],
   "ui-serials-management.templates.exampleLabel": [

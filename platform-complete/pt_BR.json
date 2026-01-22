@@ -44895,7 +44895,7 @@
   "ui-data-export.deleted": [
     {
       "type": 0,
-      "value": "deleted"
+      "value": "deletado"
     }
   ],
   "ui-data-export.description": [
@@ -46905,7 +46905,7 @@
   "ui-data-export.locked": [
     {
       "type": 0,
-      "value": "Lock profile"
+      "value": "Perfil de bloqueio"
     }
   ],
   "ui-data-export.logsPaneTitle": [
@@ -88042,7 +88042,12 @@
       "value": "Informações sobre o comprovante"
     }
   ],
-  "ui-ldp.SENTINEL": [],
+  "ui-ldp.SENTINEL": [
+    {
+      "type": 0,
+      "value": "Vazio"
+    }
+  ],
   "ui-ldp.button.add-filter": [
     {
       "type": 0,
@@ -102676,7 +102681,7 @@
   "ui-orders.errors.fundsNotFound": [
     {
       "type": 0,
-      "value": "Os registros do fundo não foram encontrados"
+      "value": "Um ou mais fundos não puderam ser carregados. O(s) fundo(s) pode(m) ter sido excluído(s) ou você pode não ter permissão para visualizar o(s) fundo(s) associado(s)."
     }
   ],
   "ui-orders.errors.holdingsByIdNotFoundError": [
@@ -114041,7 +114046,12 @@
       "value": "Localização temporária"
     }
   ],
-  "ui-plugin-eusage-reports.SENTINEL": [],
+  "ui-plugin-eusage-reports.SENTINEL": [
+    {
+      "type": 0,
+      "value": "Vazio"
+    }
+  ],
   "ui-plugin-eusage-reports.accordion.label": [
     {
       "type": 0,
@@ -133816,6 +133826,16 @@
     {
       "type": 0,
       "value": "Descrição"
+    }
+  ],
+  "ui-serials-management.templates.editTemplate": [
+    {
+      "type": 0,
+      "value": "Editar modelo de template - "
+    },
+    {
+      "type": 1,
+      "value": "name"
     }
   ],
   "ui-serials-management.templates.exampleLabel": [
