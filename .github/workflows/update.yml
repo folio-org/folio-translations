@@ -9,12 +9,12 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - run: git clone --depth=1 --branch snapshot https://github.com/folio-org/platform-complete build
       - run: cp build/yarn.lock .
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v6
         with:
-          node-version: '18'
+          node-version: '20'
           cache: 'yarn'
       - name: Build translations
         run: |
@@ -40,7 +40,7 @@ jobs:
             fi
             mv /tmp/new.json $oldfile
           done
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v6
         with:
           name: platform-complete
           path: platform-complete/
@@ -51,9 +51,9 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - run: rm -r platform-complete/
-      - uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@v7
       - name: Commit updates
         run: |
           git config --local user.name 'folio-translations repository bot'
