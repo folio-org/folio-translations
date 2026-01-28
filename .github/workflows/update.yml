@@ -40,10 +40,13 @@ jobs:
             fi
             mv /tmp/new.json $oldfile
           done
+          cd ..
+          mkdir upload
+          mv platform-complete upload
       - uses: actions/upload-artifact@v6
         with:
           name: platform-complete
-          path: platform-complete/
+          path: upload/
           retention-days: 1
   commit:
     needs: [update]
