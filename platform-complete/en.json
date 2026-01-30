@@ -46303,7 +46303,7 @@
     },
     {
       "type": 0,
-      "value": " will be deleted"
+      "value": " will be deleted."
     }
   ],
   "ui-data-export.jobProfiles.delete.confirmationModal.messageUsedInLogs": [
@@ -46642,6 +46642,32 @@
       "value": "b"
     }
   ],
+  "ui-data-export.mappingProfiles.delete.cannotDeleteModal.message": [
+    {
+      "type": 0,
+      "value": "This mapping profile cannot be deleted, as it is used in the following job profiles: "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "jobProfilesNames"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "ui-data-export.mappingProfiles.delete.cannotDeleteModal.title": [
+    {
+      "type": 0,
+      "value": "Cannot delete mapping profile"
+    }
+  ],
   "ui-data-export.mappingProfiles.delete.confirmationModal.message": [
     {
       "type": 0,
@@ -46659,7 +46685,7 @@
     },
     {
       "type": 0,
-      "value": " will be deleted"
+      "value": " will be deleted."
     }
   ],
   "ui-data-export.mappingProfiles.delete.confirmationModal.title": [
@@ -132999,7 +133025,7 @@
     },
     {
       "type": 0,
-      "value": "and cannot be used again."
+      "value": " and cannot be used again."
     }
   ],
   "ui-service-interaction.numberGenerator.warning.sequenceOverThresholdWarning": [
