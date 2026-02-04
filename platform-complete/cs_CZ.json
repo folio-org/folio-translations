@@ -44574,7 +44574,7 @@
   "ui-data-export.deleted": [
     {
       "type": 0,
-      "value": "deleted"
+      "value": "Smazáno"
     }
   ],
   "ui-data-export.description": [
@@ -46324,7 +46324,7 @@
   "ui-data-export.jobProfiles.delete.confirmationModal.messageUsedInLogs": [
     {
       "type": 0,
-      "value": "The job profile "
+      "value": "Profil práce "
     },
     {
       "children": [
@@ -46338,7 +46338,7 @@
     },
     {
       "type": 0,
-      "value": " and all files created by export jobs that used this profile will be permanently deleted."
+      "value": " a všechny soubory vytvořené exportními úlohami, které tento profil používaly, budou trvale smazány."
     }
   ],
   "ui-data-export.jobProfiles.delete.confirmationModal.title": [
@@ -46664,7 +46664,7 @@
   "ui-data-export.mappingProfiles.delete.cannotDeleteModal.message": [
     {
       "type": 0,
-      "value": "This mapping profile cannot be deleted, as it is used in the following job profiles: "
+      "value": "Tento mapovací profil nelze smazat, protože se používá v následujících profilech úloh: "
     },
     {
       "children": [
@@ -46684,7 +46684,7 @@
   "ui-data-export.mappingProfiles.delete.cannotDeleteModal.title": [
     {
       "type": 0,
-      "value": "Cannot delete mapping profile"
+      "value": "Nelze smazat profil mapování"
     }
   ],
   "ui-data-export.mappingProfiles.delete.confirmationModal.message": [
@@ -116519,6 +116519,12 @@
     {
       "type": 0,
       "value": "Chcete-li zobrazit výsledky, vyberte filtr nebo zadejte vyhledávací dotaz."
+    }
+  ],
+  "ui-plugin-find-user.patron": [
+    {
+      "type": 0,
+      "value": "Patron"
     }
   ],
   "ui-plugin-find-user.searchButton.title": [

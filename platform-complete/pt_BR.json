@@ -706,7 +706,7 @@
   "stripes-acq-components.holdings.deleteModal.message": [
     {
       "type": 0,
-      "value": "Esta parte está conectada aos registros na app Inventário. Após esta edição não haverá outras partes OU itens ligados ao(s) registro(s) de acervo relacionado(s). Após esta mudança, você gostaria que o FOLIO apagasse o(s) registro(s) de acervo?"
+      "value": "Esta parte está conectada a registros no inventário. Após essa edição, não haverá outras linhas de pedido de compra, partes OU itens conectados ao(s) registro(s) de Acervo relacionado(s). Depois de fazer essa alteração, você gostaria que o FOLIO excluísse o(s) registro(s) de Acervo?"
     }
   ],
   "stripes-acq-components.invalidReference": [
@@ -46637,7 +46637,7 @@
   "ui-data-export.jobProfiles.delete.confirmationModal.message": [
     {
       "type": 0,
-      "value": "O perfil do trabalho "
+      "value": "O perfil de trabalho "
     },
     {
       "children": [
@@ -46651,13 +46651,13 @@
     },
     {
       "type": 0,
-      "value": " será excluído"
+      "value": " será excluído."
     }
   ],
   "ui-data-export.jobProfiles.delete.confirmationModal.messageUsedInLogs": [
     {
       "type": 0,
-      "value": "The job profile "
+      "value": "O perfil de trabalho "
     },
     {
       "children": [
@@ -46671,7 +46671,7 @@
     },
     {
       "type": 0,
-      "value": " and all files created by export jobs that used this profile will be permanently deleted."
+      "value": " e todos os arquivos criados por trabalhos de exportação que usaram esse perfil serão permanentemente excluídos."
     }
   ],
   "ui-data-export.jobProfiles.delete.confirmationModal.title": [
@@ -47001,7 +47001,7 @@
   "ui-data-export.mappingProfiles.delete.cannotDeleteModal.message": [
     {
       "type": 0,
-      "value": "This mapping profile cannot be deleted, as it is used in the following job profiles: "
+      "value": "Esse perfil de mapeamento não pode ser excluído, pois é usado nos seguintes perfis de trabalho: "
     },
     {
       "children": [
@@ -47021,7 +47021,7 @@
   "ui-data-export.mappingProfiles.delete.cannotDeleteModal.title": [
     {
       "type": 0,
-      "value": "Cannot delete mapping profile"
+      "value": "Não é possível excluir o perfil de mapeamento"
     }
   ],
   "ui-data-export.mappingProfiles.delete.confirmationModal.message": [
@@ -47041,7 +47041,7 @@
     },
     {
       "type": 0,
-      "value": " será excluído"
+      "value": " será excluído."
     }
   ],
   "ui-data-export.mappingProfiles.delete.confirmationModal.title": [
@@ -117278,6 +117278,12 @@
     {
       "type": 0,
       "value": "Escolha um filtro ou insira uma consulta de busca para mostrar os resultados."
+    }
+  ],
+  "ui-plugin-find-user.patron": [
+    {
+      "type": 0,
+      "value": "Patron"
     }
   ],
   "ui-plugin-find-user.searchButton.title": [

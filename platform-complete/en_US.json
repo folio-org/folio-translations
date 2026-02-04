@@ -706,7 +706,7 @@
   "stripes-acq-components.holdings.deleteModal.message": [
     {
       "type": 0,
-      "value": "This piece is connected to records in inventory. After this edit there will be no other pieces OR items connected to the related Holdings record(s). After making this change would you like FOLIO to delete the Holdings record(s)?"
+      "value": "This piece is connected to records in inventory. After this edit there will be no other purchase order lines, pieces OR items connected to the related Holdings record(s). After making this change would you like FOLIO to delete the Holdings record(s)?"
     }
   ],
   "stripes-acq-components.invalidReference": [
@@ -46393,7 +46393,7 @@
     },
     {
       "type": 0,
-      "value": " will be deleted"
+      "value": " will be deleted."
     }
   ],
   "ui-data-export.jobProfiles.delete.confirmationModal.messageUsedInLogs": [
@@ -46775,7 +46775,7 @@
     },
     {
       "type": 0,
-      "value": " will be deleted"
+      "value": " will be deleted."
     }
   ],
   "ui-data-export.mappingProfiles.delete.confirmationModal.title": [
@@ -116298,6 +116298,12 @@
     {
       "type": 0,
       "value": "Choose a filter or enter a search query to show results."
+    }
+  ],
+  "ui-plugin-find-user.patron": [
+    {
+      "type": 0,
+      "value": "Patron"
     }
   ],
   "ui-plugin-find-user.searchButton.title": [

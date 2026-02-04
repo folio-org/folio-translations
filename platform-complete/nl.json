@@ -9667,7 +9667,7 @@
   "stripes-data-transfer-components.locked": [
     {
       "type": 0,
-      "value": "Locked"
+      "value": "Gesloten"
     }
   ],
   "stripes-data-transfer-components.mappingProfilesCount": [
@@ -39545,7 +39545,7 @@
   "ui-data-export.deleted": [
     {
       "type": 0,
-      "value": "deleted"
+      "value": "verwijderd"
     }
   ],
   "ui-data-export.description": [
@@ -41299,10 +41299,14 @@
   "ui-data-export.jobProfiles.delete.confirmationModal.messageUsedInLogs": [
     {
       "type": 0,
-      "value": "The job profile "
+      "value": "Het functieprofiel "
     },
     {
       "children": [
+        {
+          "type": 0,
+          "value": "."
+        },
         {
           "type": 1,
           "value": "name"
@@ -41313,7 +41317,7 @@
     },
     {
       "type": 0,
-      "value": " and all files created by export jobs that used this profile will be permanently deleted."
+      "value": " en alle bestanden die zijn aangemaakt door exporttaken die dit profiel gebruikten, worden permanent verwijderd."
     }
   ],
   "ui-data-export.jobProfiles.delete.confirmationModal.title": [
@@ -41595,7 +41599,7 @@
   "ui-data-export.locked": [
     {
       "type": 0,
-      "value": "Lock profile"
+      "value": "Profiel vergrendelen"
     }
   ],
   "ui-data-export.logsPaneTitle": [
@@ -41667,7 +41671,7 @@
   "ui-data-export.mappingProfiles.delete.cannotDeleteModal.message": [
     {
       "type": 0,
-      "value": "This mapping profile cannot be deleted, as it is used in the following job profiles: "
+      "value": "Dit toewijzingsprofiel kan niet worden verwijderd, omdat het in de volgende functieprofielen wordt gebruikt: "
     },
     {
       "children": [
@@ -41687,7 +41691,7 @@
   "ui-data-export.mappingProfiles.delete.cannotDeleteModal.title": [
     {
       "type": 0,
-      "value": "Cannot delete mapping profile"
+      "value": "Kan toewijzingsprofiel niet verwijderen"
     }
   ],
   "ui-data-export.mappingProfiles.delete.confirmationModal.message": [
@@ -108750,6 +108754,12 @@
     {
       "type": 0,
       "value": "Kies een filter of voer een query in om resultaten te tonen."
+    }
+  ],
+  "ui-plugin-find-user.patron": [
+    {
+      "type": 0,
+      "value": "Patron"
     }
   ],
   "ui-plugin-find-user.searchButton.title": [
