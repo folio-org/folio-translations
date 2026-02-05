@@ -67466,13 +67466,13 @@
   "ui-finance.errors.currentFiscalYearNotFound": [
     {
       "type": 0,
-      "value": "No current fiscal year found."
+      "value": "Nebyl nalezen žádný aktuální fiskální rok."
     }
   ],
   "ui-finance.errors.genericError": [
     {
       "type": 0,
-      "value": "Something went wrong."
+      "value": "Něco se pokazilo."
     }
   ],
   "ui-finance.errors.load.code": [
@@ -67490,7 +67490,7 @@
   "ui-finance.errors.plannedFiscalYearNotFound": [
     {
       "type": 0,
-      "value": "No planned fiscal year found."
+      "value": "Nebyl nalezen žádný plánovaný fiskální rok."
     }
   ],
   "ui-finance.expenseClass.account": [
@@ -80105,7 +80105,7 @@
   "ui-inventory.moveEntity.modal.message.hasLinkedPOLsOrHoldings": [
     {
       "type": 0,
-      "value": "This holdings is linked to a purchase order line. Moving this holdings to a new instance will move any other holdings and items that are linked to this purchase order line to the new instance as well. The purchase order line will also be linked to the new instance. Do you want to continue?"
+      "value": "Tento holding je propojen s řádkem nákupní objednávky. Přesunutím tohoto holdingu k novému titulu dojde ke stejnému přesunu u všech dalších jednotek a holdingů, které jsou propojeny s tímto řádkem nákupní objednávky. Řádek nákupní objednávky bude také propojen s novým titulem. Chcete pokračovat?"
     }
   ],
   "ui-inventory.moveEntity.modal.message.holdings": [
@@ -83824,7 +83824,7 @@
   "ui-inventory.warning.instance.importingRecord": [
     {
       "type": 0,
-      "value": "Importing this instance will take a few moments. A success message and updated details will be displayed upon completion."
+      "value": "Import tohoto titulu bude chvíli trvat. Po dokončení se zobrazí zpráva o úspěchu spolu s detaily aktualizace."
     }
   ],
   "ui-inventory.warning.instance.setForDeletionAndSuppressedFromDiscoveryAndStaffSuppressed": [
@@ -84192,7 +84192,7 @@
   "ui-invoice.errors.cannotConvertAmountInvalidCurrency": [
     {
       "type": 0,
-      "value": "The selected currency cannot be converted. Please configure an exchange rate provider that supports this currency."
+      "value": "Vybranou měnu nelze převést. Nakonfigurujte prosím poskytovatele směnných kurzů, který tuto měnu podporuje."
     }
   ],
   "ui-invoice.errors.cantLoadAdjustment": [
@@ -87492,7 +87492,7 @@
   "ui-invoice.versionHistory.label.adjustments.exportToAccounting": [
     {
       "type": 0,
-      "value": "Adjustment export to accounting"
+      "value": "Export úprav do účetnictví"
     }
   ],
   "ui-invoice.versionHistory.label.adjustments.prorate": [
@@ -87534,7 +87534,7 @@
   "ui-invoice.versionHistory.label.fundDistributions.expenseClassId": [
     {
       "type": 0,
-      "value": "Fund distribution expense class"
+      "value": "Třída nákladů pro distribuci prostředků"
     }
   ],
   "ui-invoice.versionHistory.label.fundDistributions.fundId": [
@@ -102072,7 +102072,7 @@
   "ui-orders.errors.cannotConvertAmountInvalidCurrency": [
     {
       "type": 0,
-      "value": "The selected currency cannot be converted. Please configure an exchange rate provider that supports this currency."
+      "value": "Vybranou měnu nelze převést. Nakonfigurujte prosím poskytovatele směnných kurzů, který tuto měnu podporuje."
     }
   ],
   "ui-orders.errors.clone.error": [
@@ -103620,7 +103620,7 @@
   "ui-orders.line.holdings.deleteModal.message": [
     {
       "type": 0,
-      "value": "This PO Line is connected to records in inventory. After this edit there will be no other purchase order lines, pieces OR items connected to the related Holdings record(s). After making this change would you like FOLIO to delete the Holdings record(s)?"
+      "value": "Tento řádek objednávky je propojen se záznamy v katalogu. Po této úpravě nebudou k souvisejícím záznamům holdingu propojeny žádné další řádky objednávky, kusy NEBO položky. Chcete, aby FOLIO po provedení této změny holdingy smazalo?"
     }
   ],
   "ui-orders.line.paneTitle.details": [
@@ -119167,7 +119167,7 @@
   "ui-quick-marc.record.fixedField.Conventional romanization or conventional form of name in language of cataloging agency": [
     {
       "type": 0,
-      "value": "Conventional romanization or conventional form of name in language of cataloging agency"
+      "value": "Konvenční romanizace nebo konvenční forma názvu v jazyce katalogizační agentury"
     }
   ],
   "ui-quick-marc.record.fixedField.Cooperative cataloging program": [
@@ -121357,7 +121357,7 @@
   "ui-quick-marc.record.fixedField.Series-like phrase": [
     {
       "type": 0,
-      "value": "Series-like phrase"
+      "value": "Fráze podobná seriálu"
     }
   ],
   "ui-quick-marc.record.fixedField.Shading": [
@@ -133006,7 +133006,7 @@
   "ui-serials-management.templates.editTemplate": [
     {
       "type": 0,
-      "value": "Edit pattern template - "
+      "value": "Upravit šablonu vzoru - "
     },
     {
       "type": 1,
@@ -137206,7 +137206,7 @@
   "ui-users.accounts.status.outstanding": [
     {
       "type": 0,
-      "value": "Vynikající"
+      "value": "Nezaplacené"
     }
   ],
   "ui-users.accounts.status.partially": [

@@ -61817,13 +61817,13 @@
   "ui-finance.errors.currentFiscalYearNotFound": [
     {
       "type": 0,
-      "value": "No current fiscal year found."
+      "value": "Geen Huidige Boekjaar gevonden."
     }
   ],
   "ui-finance.errors.genericError": [
     {
       "type": 0,
-      "value": "Something went wrong."
+      "value": "Er ging iets mis."
     }
   ],
   "ui-finance.errors.load.code": [
@@ -61841,7 +61841,7 @@
   "ui-finance.errors.plannedFiscalYearNotFound": [
     {
       "type": 0,
-      "value": "No planned fiscal year found."
+      "value": "Geen gepland Boekjaar gevonden."
     }
   ],
   "ui-finance.expenseClass.account": [
@@ -70241,31 +70241,31 @@
   "ui-inventory.additionalCallNumber": [
     {
       "type": 0,
-      "value": "Additional call number"
+      "value": "Extra Vindplaats"
     }
   ],
   "ui-inventory.additionalCallNumberPrefix": [
     {
       "type": 0,
-      "value": "Additional call number prefix"
+      "value": "Extra voorvoegsel voor het Vindplaatsnummer"
     }
   ],
   "ui-inventory.additionalCallNumberSuffix": [
     {
       "type": 0,
-      "value": "Additional call number suffix"
+      "value": "Extra Vindplaats achtervoegsel"
     }
   ],
   "ui-inventory.additionalCallNumberType": [
     {
       "type": 0,
-      "value": "Additional call number type"
+      "value": "Extra Vindplaats type"
     }
   ],
   "ui-inventory.additionalCallNumbers": [
     {
       "type": 0,
-      "value": "Additional call numbers"
+      "value": "Extra Vindplaatsen"
     }
   ],
   "ui-inventory.additionalHoldingsCallNumbers": [
@@ -96464,7 +96464,7 @@
   "ui-orders.line.holdings.deleteModal.message": [
     {
       "type": 0,
-      "value": "This PO Line is connected to records in inventory. After this edit there will be no other purchase order lines, pieces OR items connected to the related Holdings record(s). After making this change would you like FOLIO to delete the Holdings record(s)?"
+      "value": "Deze PO regel is verbonden met Records in de inventaris. Na deze bewerking zijn er geen andere Regel purchase orders, Stukken OF artikelen meer verbonden met de Gerelateerd Holdingsrecord(s). Wilt u dat FOLIO na deze wijziging de Holdingsrecords verwijdert?"
     }
   ],
   "ui-orders.line.paneTitle.details": [
@@ -124382,22 +124382,26 @@
   "ui-serials-management.templates.copy": [
     {
       "type": 0,
-      "value": "Copy"
+      "value": "Kopie"
     }
   ],
   "ui-serials-management.templates.deleteTemplate": [
     {
       "type": 0,
-      "value": "Delete publication pattern template"
+      "value": "Template publicatiepatroon verwijderen"
     }
   ],
   "ui-serials-management.templates.deleteTemplate.confirmMessage": [
     {
       "type": 0,
-      "value": "Publication pattern template "
+      "value": "Template voor Publicatie patronen "
     },
     {
       "children": [
+        {
+          "type": 0,
+          "value": "."
+        },
         {
           "type": 1,
           "value": "name"
@@ -124408,7 +124412,7 @@
     },
     {
       "type": 0,
-      "value": " will be deleted"
+      "value": " wordt verwijderd"
     }
   ],
   "ui-serials-management.templates.deleteTemplate.error": [
@@ -124416,7 +124420,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Publication pattern template was not deleted:"
+          "value": "Publicatie sjabloon is niet verwijderd:"
         }
       ],
       "type": 8,
@@ -124434,7 +124438,7 @@
   "ui-serials-management.templates.deleteTemplate.success": [
     {
       "type": 0,
-      "value": "Publication pattern template deleted: "
+      "value": "Template Publicatie verwijderd: "
     },
     {
       "children": [
@@ -124456,7 +124460,7 @@
   "ui-serials-management.templates.editTemplate": [
     {
       "type": 0,
-      "value": "Edit pattern template - "
+      "value": "Patroonsjabloon bewerken - Bewerken "
     },
     {
       "type": 1,
@@ -124472,19 +124476,19 @@
   "ui-serials-management.templates.modelRulesetDescription": [
     {
       "type": 0,
-      "value": "Pattern template description"
+      "value": "Sjabloonbeschrijving Patronen"
     }
   ],
   "ui-serials-management.templates.modelRulesetName": [
     {
       "type": 0,
-      "value": "Pattern template name"
+      "value": "Naam template patroon"
     }
   ],
   "ui-serials-management.templates.modelRulesetStatus": [
     {
       "type": 0,
-      "value": "Pattern template status"
+      "value": "Status Template Patronen"
     }
   ],
   "ui-serials-management.templates.name": [
@@ -124496,13 +124500,13 @@
   "ui-serials-management.templates.newTemplate": [
     {
       "type": 0,
-      "value": "New publication pattern template"
+      "value": "Sjabloon voor nieuw publicatiepatroon"
     }
   ],
   "ui-serials-management.templates.rulesetInfo": [
     {
       "type": 0,
-      "value": "Pattern status and description"
+      "value": "Patroonstatus en Omschrijving"
     }
   ],
   "ui-serials-management.templates.status": [
@@ -125204,19 +125208,19 @@
   "ui-service-interaction.settings.numberGeneratorSequences.format.info.item1": [
     {
       "type": 0,
-      "value": "Use # for digits without padding (e.g., #### for four digits)."
+      "value": "Gebruik # voor cijfers zonder opvulling (bijv. #### voor vier cijfers)."
     }
   ],
   "ui-service-interaction.settings.numberGeneratorSequences.format.info.item2": [
     {
       "type": 0,
-      "value": "To add padding, specify the character. E.g., 0000 for leading zeros, resulting in outputs like 0045."
+      "value": "Om opvulling toe te voegen, geeft u het teken op. Bijvoorbeeld 0000 voor voorloopnullen, wat resulteert in uitvoer zoals 0045."
     }
   ],
   "ui-service-interaction.settings.numberGeneratorSequences.format.info.item3": [
     {
       "type": 0,
-      "value": "If a Maximum value is set, the Format length must match it. The maximum value field enforces the length of the field, e.g. the maximum value of 9999 indicates a maximum length of four characters and must be paired with a matching format value, e.g. #### or 0000."
+      "value": "Als er een maximumwaarde is ingesteld, moet de lengte van het Format daarmee overeenstemmen. Het veld Maximumwaarde dwingt de lengte van het veld af, bijv. de maximumwaarde 9999 geeft een maximumlengte van vier tekens aan en moet gekoppeld worden aan een overeenkomende Formatwaarde, bijv. #### of 0000."
     }
   ],
   "ui-service-interaction.settings.numberGeneratorSequences.generator": [
@@ -125264,7 +125268,7 @@
   "ui-service-interaction.settings.numberGeneratorSequences.maximumCheck.noThresholdSet": [
     {
       "type": 0,
-      "value": "No threshold set"
+      "value": "Geen drempel ingesteld"
     }
   ],
   "ui-service-interaction.settings.numberGeneratorSequences.maximumCheck.overThreshold": [
