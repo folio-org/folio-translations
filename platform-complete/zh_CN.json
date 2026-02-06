@@ -26369,6 +26369,22 @@
       "value": "选择记录标识符"
     }
   ],
+  "ui-bulk-edit.list.filters.recordIdentifier.tooltip": [
+    {
+      "type": 0,
+      "value": "To enable this field, select a "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Record type."
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
   "ui-bulk-edit.list.filters.recordIdentifier.userBarcodes": [
     {
       "type": 0,
@@ -133239,6 +133255,12 @@
     {
       "type": 0,
       "value": "请求级别"
+    }
+  ],
+  "ui-requests.requestMeta.anonymized": [
+    {
+      "type": 0,
+      "value": "Anonymized"
     }
   ],
   "ui-requests.requestMeta.detailLabel": [
