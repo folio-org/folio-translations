@@ -26256,17 +26256,21 @@
   "ui-bulk-edit.list.filters.recordIdentifier.tooltip": [
     {
       "type": 0,
-      "value": "To enable this field, select a "
+      "value": "Um dieses Feld zu aktivieren, wählen Sie einen "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Record type."
+          "value": "Datensatztyp"
         }
       ],
       "type": 8,
       "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " aus."
     }
   ],
   "ui-bulk-edit.list.filters.recordIdentifier.userBarcodes": [
@@ -27909,18 +27913,18 @@
   ],
   "ui-bulk-edit.settings.profiles.title.details": [
     {
-      "type": 1,
-      "value": "entityType"
+      "type": 0,
+      "value": "Details des Massenbearbeitungsprofils für "
     },
     {
-      "type": 0,
-      "value": " bulk edit profile details"
+      "type": 1,
+      "value": "entityType"
     }
   ],
   "ui-bulk-edit.settings.profiles.title.edit": [
     {
       "type": 0,
-      "value": "Edit "
+      "value": "Massenbearbeitungsprofil für "
     },
     {
       "type": 1,
@@ -27928,7 +27932,7 @@
     },
     {
       "type": 0,
-      "value": " bulk edit profile"
+      "value": " bearbeiten"
     }
   ],
   "ui-bulk-edit.settings.profiles.title.new": [
@@ -87929,7 +87933,7 @@
   "ui-ldp.button.submitted": [
     {
       "type": 0,
-      "value": "Submitted"
+      "value": "Abgesendet"
     }
   ],
   "ui-ldp.copy-of": [
@@ -88371,7 +88375,7 @@
   "ui-ldp.noperm": [
     {
       "type": 0,
-      "value": "You do not have permission to access any part of this app"
+      "value": "Sie haben keine Berechtigung, auf diesen Bereich der App zuzugreifen."
     }
   ],
   "ui-ldp.nulls": [
@@ -117168,7 +117172,7 @@
     },
     {
       "type": 0,
-      "value": " MARC-Normdatensatz"
+      "value": " MARC Normdatensatz"
     }
   ],
   "ui-quick-marc.authority-record.edit.title": [
@@ -117184,7 +117188,7 @@
   "ui-quick-marc.autoLinkingButton": [
     {
       "type": 0,
-      "value": "Link headings"
+      "value": "Ansetzungen verknüpfen"
     }
   ],
   "ui-quick-marc.bib-record.derive.title": [
@@ -117241,13 +117245,13 @@
     },
     {
       "type": 0,
-      "value": " MARC-Titeldatensatz"
+      "value": " MARC bibliografischer Datensatz"
     }
   ],
   "ui-quick-marc.bibliographic-record.derive.title": [
     {
       "type": 0,
-      "value": "Derive a new "
+      "value": "Neuen "
     },
     {
       "options": {
@@ -117255,7 +117259,7 @@
           "value": [
             {
               "type": 0,
-              "value": "local"
+              "value": "lokalen"
             }
           ]
         },
@@ -117266,7 +117270,7 @@
           "value": [
             {
               "type": 0,
-              "value": "shared"
+              "value": "geteilten"
             }
           ]
         }
@@ -117276,21 +117280,17 @@
     },
     {
       "type": 0,
-      "value": " MARC bib record"
+      "value": " MARC bibliografischen Datensatz ableiten"
     }
   ],
   "ui-quick-marc.bibliographic-record.edit.title": [
     {
-      "type": 0,
-      "value": "Edit "
-    },
-    {
       "options": {
         "false": {
           "value": [
             {
               "type": 0,
-              "value": "local"
+              "value": "Lokalen"
             }
           ]
         },
@@ -117301,7 +117301,7 @@
           "value": [
             {
               "type": 0,
-              "value": "shared"
+              "value": "Geteilten"
             }
           ]
         }
@@ -117311,7 +117311,7 @@
     },
     {
       "type": 0,
-      "value": " MARC record - "
+      "value": " MARC Datensatz bearbeiten – "
     },
     {
       "type": 1,
@@ -117321,13 +117321,13 @@
   "ui-quick-marc.holdings-record.create.title": [
     {
       "type": 0,
-      "value": "Neuer MARC-Bestandsdatensatz"
+      "value": "Neuer MARC Bestandsdatensatz"
     }
   ],
   "ui-quick-marc.holdings-record.edit.title": [
     {
       "type": 0,
-      "value": "Edit MARC holdings - Location: "
+      "value": "MARC-Bestände bearbeiten - Standort: "
     },
     {
       "type": 1,
@@ -117601,7 +117601,7 @@
   "ui-quick-marc.leader.Notated music": [
     {
       "type": 0,
-      "value": "Musik"
+      "value": "Notierte Musik"
     }
   ],
   "ui-quick-marc.leader.Obsolete": [
@@ -117703,7 +117703,7 @@
   "ui-quick-marc.linkedToMarcAuthority": [
     {
       "type": 0,
-      "value": "Mit MARC-Normdaten verknüpfen"
+      "value": "Mit MARC Normdaten verknüpfen"
     }
   ],
   "ui-quick-marc.meta.source.system": [
@@ -117727,25 +117727,25 @@
   "ui-quick-marc.permanentLocationLookup": [
     {
       "type": 0,
-      "value": "Permanent location look-up"
+      "value": "Suche nach ständigem Standort"
     }
   ],
   "ui-quick-marc.permission.quick-marc-authorities-editor.all": [
     {
       "type": 0,
-      "value": "quickMARC: View, edit MARC authorities record"
+      "value": "quickMARC: MARC Normdatensatz anzeigen, bearbeiten"
     }
   ],
   "ui-quick-marc.permission.quick-marc-authorities-editor.create": [
     {
       "type": 0,
-      "value": "quickMARC: Create a new MARC authority record"
+      "value": "quickMARC: Neuen MARC Normdatensatz erstellen"
     }
   ],
   "ui-quick-marc.permission.quick-marc-authority-records.link-unlink.execute": [
     {
       "type": 0,
-      "value": "quickMARC: Kann Normdatensätze mit Titeldatensätzen verknüpfen/Verknüpfung aufheben"
+      "value": "quickMARC: Kann Normdatensätze mit bibliografischen Datensätzen verknüpfen/Verknüpfung aufheben"
     }
   ],
   "ui-quick-marc.permission.quick-marc-authority-records.linkUnlink": [
@@ -117757,19 +117757,19 @@
   "ui-quick-marc.permission.quick-marc-editor.all": [
     {
       "type": 0,
-      "value": "quickMARC: View, edit MARC bibliographic record"
+      "value": "quickMARC: MARC bibliografischen Datensatz anzeigen und bearbeiten"
     }
   ],
   "ui-quick-marc.permission.quick-marc-editor.create": [
     {
       "type": 0,
-      "value": "quickMARC: Create a new MARC bibliographic record"
+      "value": "quickMARC: Einen neuen bibliografischen MARC Datensatz erstellen"
     }
   ],
   "ui-quick-marc.permission.quick-marc-editor.derive.execute": [
     {
       "type": 0,
-      "value": "quickMARC: Neuen MARC-Titeldatensatz ableiten"
+      "value": "quickMARC: Neuen MARC bibliografischen Datensatz ableiten"
     }
   ],
   "ui-quick-marc.permission.quick-marc-editor.duplicate": [
@@ -117781,25 +117781,25 @@
   "ui-quick-marc.permission.quick-marc-editor.view": [
     {
       "type": 0,
-      "value": "quickMARC: View MARC bibliographic record"
+      "value": "quickMARC: MARC bibliografischen Datensatz anzeigen"
     }
   ],
   "ui-quick-marc.permission.quick-marc-holdings-editor.all": [
     {
       "type": 0,
-      "value": "quickMARC: View, edit MARC holdings record"
+      "value": "quickMARC: MARC Bestandsdatensatz anzeigen, bearbeiten"
     }
   ],
   "ui-quick-marc.permission.quick-marc-holdings-editor.create": [
     {
       "type": 0,
-      "value": "quickMARC: Create a new MARC holdings record"
+      "value": "quickMARC: Neuen MARC Bestandsdatensatz erstellen"
     }
   ],
   "ui-quick-marc.permission.quick-marc-holdings-editor.view": [
     {
       "type": 0,
-      "value": "quickMARC: View MARC holdings record"
+      "value": "quickMARC: MARC Bestandsübersicht anzeigen"
     }
   ],
   "ui-quick-marc.print": [
@@ -117859,13 +117859,13 @@
   "ui-quick-marc.record.delete.message": [
     {
       "type": 0,
-      "value": "By selecting "
+      "value": "Wenn Sie "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Continue with save"
+          "value": "Mit Speichern fortfahren"
         }
       ],
       "type": 8,
@@ -117873,7 +117873,7 @@
     },
     {
       "type": 0,
-      "value": ", then "
+      "value": " wählen, werden "
     },
     {
       "children": [
@@ -117883,7 +117883,7 @@
         },
         {
           "type": 0,
-          "value": " field(s)"
+          "value": " Feld(er)"
         }
       ],
       "type": 8,
@@ -117891,7 +117891,7 @@
     },
     {
       "type": 0,
-      "value": " will be deleted and this record will be updated. Are you sure you want to continue?"
+      "value": " gelöscht und dieser Datensatz wird aktualisiert. Möchten Sie wirklich fortfahren?"
     }
   ],
   "ui-quick-marc.record.delete.title": [
@@ -117915,13 +117915,13 @@
   "ui-quick-marc.record.error.$9": [
     {
       "type": 0,
-      "value": "$9 is an invalid subfield for linkable bibliographic fields."
+      "value": "$9 ist ein ungültiges Unterfeld für verknüpfbare bibliographische Felder."
     }
   ],
   "ui-quick-marc.record.error.008.empty": [
     {
       "type": 0,
-      "value": "Record cannot be saved without 008 field"
+      "value": "Datensatz kann nicht ohne Feld 008 gespeichert werden"
     }
   ],
   "ui-quick-marc.record.error.008.invalidValue": [
@@ -117941,31 +117941,31 @@
   "ui-quick-marc.record.error.008.multiple": [
     {
       "type": 0,
-      "value": "Record cannot be saved with more than one 008 field"
+      "value": "Datensatz kann nicht mit mehr als einem 008-Feld gespeichert werden"
     }
   ],
   "ui-quick-marc.record.error.010.$aOnlyOne": [
     {
       "type": 0,
-      "value": "010 can only have one $a."
+      "value": "010 kann nur ein $a haben."
     }
   ],
   "ui-quick-marc.record.error.010.$aRemoved": [
     {
       "type": 0,
-      "value": "Cannot remove 010 $a for this record."
+      "value": "010 $a kann für diesen Datensatz nicht entfernt werden."
     }
   ],
   "ui-quick-marc.record.error.010.absent": [
     {
       "type": 0,
-      "value": "Record cannot be saved without 010 field."
+      "value": "Datensatz kann nicht gespeichert werden: Feld 010 fehlt."
     }
   ],
   "ui-quick-marc.record.error.010.edit$a": [
     {
       "type": 0,
-      "value": "Cannot add or edit 010 $a for an authority record linked to a bibliographic record. To make this change, you must unlink this authority record from bibliographic records."
+      "value": "010 $a für einen mit einem bibliografischen Datensatz verknüpften Normdaten können nicht hinzugefügt oder bearbeitet werden. Um diese Änderung vorzunehmen, müssen Sie die Verknüpfung dieses Normdatensatzes mit bibliografischen Datensätzen aufheben."
     }
   ],
   "ui-quick-marc.record.error.010.lccnDuplicated": [
@@ -117977,25 +117977,25 @@
   "ui-quick-marc.record.error.010.multiple": [
     {
       "type": 0,
-      "value": "Record cannot be saved with more than one 010 field"
+      "value": "Datensatz kann nicht mit mehr als einem 010-Feld gespeichert werden"
     }
   ],
   "ui-quick-marc.record.error.010.prefix.absent": [
     {
       "type": 0,
-      "value": "Record cannot be saved without a prefix in the 010 field."
+      "value": "Datensatz kann nicht gespeichert werden: Im Feld 010 fehlt das erforderliche Präfix."
     }
   ],
   "ui-quick-marc.record.error.010.prefix.invalid": [
     {
       "type": 0,
-      "value": "Record cannot be saved. Prefix in the 010 field does not match the selected authority file."
+      "value": "Datensatz kann nicht gespeichert werden. Der Präfix im Feld 010 stimmt nicht mit der ausgewählten Normdatei überein."
     }
   ],
   "ui-quick-marc.record.error.010.removed": [
     {
       "type": 0,
-      "value": "Cannot delete 010. It is required."
+      "value": "010 kann nicht gelöscht werden. Es ist erforderlich."
     }
   ],
   "ui-quick-marc.record.error.010Field.multiple": [
@@ -118027,13 +118027,13 @@
   "ui-quick-marc.record.error.1xx.change": [
     {
       "type": 0,
-      "value": "Cannot change the "
+      "value": "Das unter "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "saved MARC authority field "
+          "value": "gespeicherte MARC-Autoritätsfeld "
         },
         {
           "type": 1,
@@ -118045,7 +118045,7 @@
     },
     {
       "type": 0,
-      "value": " because it controls a bibliographic field(s). To change this 1XX, you must unlink all controlled bibliographic fields."
+      "value": " kann nicht geändert werden, da es ein oder mehrere bibliografische Felder kontrolliert. Um dieses 1XX-Feld zu ändern, müssen Sie zuerst die Verknüpfung zu allen gesteuerten Titelfeldern aufheben."
     }
   ],
   "ui-quick-marc.record.error.1xx.remove$t": [
@@ -118071,19 +118071,19 @@
   "ui-quick-marc.record.error.bib.leader.invalid005PositionValue": [
     {
       "type": 0,
-      "value": "Record cannot be saved. Invalid value entered for position 5."
+      "value": "Datensatz kann nicht gespeichert werden. Ungültiger Wert für Position 5 eingegeben."
     }
   ],
   "ui-quick-marc.record.error.controlField.content.empty": [
     {
       "type": 0,
-      "value": "Record cannot be saved. An authority file is required"
+      "value": "Datensatz kann nicht gespeichert werden. Die Angabe einer Normdatei ist erforderlich."
     }
   ],
   "ui-quick-marc.record.error.controlField.multiple": [
     {
       "type": 0,
-      "value": "Record cannot be saved. Can only have one MARC 001."
+      "value": "Datensatz kann nicht gespeichert werden. Kann nur eine MARC 001 haben."
     }
   ],
   "ui-quick-marc.record.error.field.onlyOneSubfield": [
@@ -118099,7 +118099,7 @@
     },
     {
       "type": 0,
-      "value": " can only have one "
+      "value": " kann nur eine "
     },
     {
       "children": [
@@ -118113,7 +118113,7 @@
     },
     {
       "type": 0,
-      "value": "."
+      "value": "haben."
     }
   ],
   "ui-quick-marc.record.error.fieldCantBeSaved": [
@@ -118277,13 +118277,13 @@
   "ui-quick-marc.record.error.heading.multiple": [
     {
       "type": 0,
-      "value": "Record cannot be saved. Cannot have multiple 1XXs"
+      "value": "Datensatz kann nicht gespeichert werden. Kann nicht mehrere 1XXs haben"
     }
   ],
   "ui-quick-marc.record.error.instanceHrid.multiple": [
     {
       "type": 0,
-      "value": "Record cannot be saved. Can only have one MARC 004."
+      "value": "Datensatz kann nicht gespeichert werden. Kann nur einen MARC 004 haben."
     }
   ],
   "ui-quick-marc.record.error.leader.fixedFieldMismatch": [
@@ -118295,7 +118295,7 @@
   "ui-quick-marc.record.error.leader.forbiddenBytes.authority": [
     {
       "type": 0,
-      "value": "Record cannot be saved. Please check the Leader. Only positions 5, 17, 18 can be edited in the Leader."
+      "value": "Datensatz kann nicht gespeichert werden. Bitte überprüfen Sie die Satzkennung. Im Vorspann können nur die Positionen 5, 17 und 18 bearbeitet werden."
     }
   ],
   "ui-quick-marc.record.error.leader.forbiddenBytes.bib": [
@@ -118307,19 +118307,19 @@
   "ui-quick-marc.record.error.leader.forbiddenBytes.bibliographic": [
     {
       "type": 0,
-      "value": "Record cannot be saved. Please check the Leader. Only positions 5, 6, 7, 8, 17, 18 and/or 19 can be edited in the Leader."
+      "value": "Datensatz kann nicht gespeichert werden. Bitte prüfen Sie die Satzkennung. In der Satzkennung können nur die Positionen 5, 6, 7, 8, 17, 18 und/oder 19 bearbeitet werden."
     }
   ],
   "ui-quick-marc.record.error.leader.forbiddenBytes.holdings": [
     {
       "type": 0,
-      "value": "Record cannot be saved. Please check the Leader. Only positions 5, 6, 17, 18 can be edited in the Leader."
+      "value": "Datensatz kann nicht gespeichert werden. Bitte überprüfen Sie die Satzkennung. Nur die Positionen 5, 6, 17, 18 können in der Satzkennung bearbeitet werden."
     }
   ],
   "ui-quick-marc.record.error.leader.initial.invalidPositionValue": [
     {
       "type": 0,
-      "value": "Record cannot be saved. Cannot edit 008 due to invalid "
+      "value": "Datensatz kann nicht gespeichert werden. 008 kann nicht bearbeitet werden, da "
     },
     {
       "type": 1,
@@ -118327,7 +118327,7 @@
     },
     {
       "type": 0,
-      "value": ". Please update this record's "
+      "value": " ungültig ist. Bitte aktualisieren Sie die "
     },
     {
       "type": 1,
@@ -118335,7 +118335,7 @@
     },
     {
       "type": 0,
-      "value": ". Valid values are listed at "
+      "value": "für diesen Datensatz. Gültige Werte sind aufgeführt unter "
     },
     {
       "type": 1,
@@ -118345,7 +118345,7 @@
   "ui-quick-marc.record.error.leader.invalidPositionValue": [
     {
       "type": 0,
-      "value": "Record cannot be saved. Please enter a valid "
+      "value": "Datensatz kann nicht gespeichert werden. Bitte geben Sie eine gültige "
     },
     {
       "type": 1,
@@ -118353,7 +118353,7 @@
     },
     {
       "type": 0,
-      "value": ". Valid values are listed at "
+      "value": " ein. Gültige Werte sind aufgelistet unter "
     },
     {
       "type": 1,
@@ -118369,7 +118369,7 @@
   "ui-quick-marc.record.error.location.empty": [
     {
       "type": 0,
-      "value": "Record cannot be saved. An 852 is required."
+      "value": "Datensatz kann nicht gespeichert werden. Eine 852 ist erforderlich."
     }
   ],
   "ui-quick-marc.record.error.location.invalid": [
@@ -118381,13 +118381,13 @@
   "ui-quick-marc.record.error.location.multiple": [
     {
       "type": 0,
-      "value": "Record cannot be saved. Can only have one MARC 852."
+      "value": "Datensatz kann nicht gespeichert werden. Kann nur einen MARC 852 haben."
     }
   ],
   "ui-quick-marc.record.error.subfield": [
     {
       "type": 0,
-      "value": "Missing a subfield value for a MARC tag"
+      "value": "Fehlender Wert eines Unterfeldes für ein MARC Tag"
     }
   ],
   "ui-quick-marc.record.error.tag.length": [
@@ -118399,7 +118399,7 @@
   "ui-quick-marc.record.error.tag.nonDigits": [
     {
       "type": 0,
-      "value": "Invalid MARC tag. Please try again."
+      "value": "Ungültiges MARC Tag. Bitte versuchen Sie es erneut."
     }
   ],
   "ui-quick-marc.record.error.title.empty": [
@@ -118455,7 +118455,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Field "
+          "value": "Feld "
         },
         {
           "type": 1,
@@ -118467,7 +118467,7 @@
     },
     {
       "type": 0,
-      "value": " has been deleted from this MARC record."
+      "value": " wurde aus diesem MARC Datensatz gelöscht."
     }
   ],
   "ui-quick-marc.record.fieldDeleted.undo": [
@@ -118699,13 +118699,13 @@
   "ui-quick-marc.record.fixedField.Autobiography": [
     {
       "type": 0,
-      "value": "Autobiography"
+      "value": "Autobiografie"
     }
   ],
   "ui-quick-marc.record.fixedField.Autonomous or semi-autonomous component": [
     {
       "type": 0,
-      "value": "Autonomous or semi-autonomous component"
+      "value": "Autonome oder teilautonome Einheit"
     }
   ],
   "ui-quick-marc.record.fixedField.Azimuthal equidistant": [
@@ -118759,7 +118759,7 @@
   "ui-quick-marc.record.fixedField.Basic Roman": [
     {
       "type": 0,
-      "value": "Grundlegende lateinische Schrift"
+      "value": "Basis-lateinischer Zeichensatz"
     }
   ],
   "ui-quick-marc.record.fixedField.Bathymetry/isolines": [
@@ -118897,7 +118897,7 @@
   "ui-quick-marc.record.fixedField.Calendars": [
     {
       "type": 0,
-      "value": "Calendars"
+      "value": "Kalender"
     }
   ],
   "ui-quick-marc.record.fixedField.Canadian Subject Headings": [
@@ -119059,19 +119059,19 @@
   "ui-quick-marc.record.fixedField.Coats of arms": [
     {
       "type": 0,
-      "value": "Coats of arms"
+      "value": "Wappen"
     }
   ],
   "ui-quick-marc.record.fixedField.Collective biography": [
     {
       "type": 0,
-      "value": "Collective biography"
+      "value": "Gruppenbiografie"
     }
   ],
   "ui-quick-marc.record.fixedField.Color": [
     {
       "type": 0,
-      "value": "Color"
+      "value": "Farbe"
     }
   ],
   "ui-quick-marc.record.fixedField.Combination": [
@@ -119113,13 +119113,13 @@
   "ui-quick-marc.record.fixedField.Completely romanized/printed cards in script": [
     {
       "type": 0,
-      "value": "Completely romanized/printed cards in script"
+      "value": "Vollständig transliteriert/gedruckte handschriftliche Karten"
     }
   ],
   "ui-quick-marc.record.fixedField.Completely romanized/printed cards romanized": [
     {
       "type": 0,
-      "value": "Completely romanized/printed cards romanized"
+      "value": "Vollständig transliteriert/gedruckte transliterierte Karten"
     }
   ],
   "ui-quick-marc.record.fixedField.Completeness": [
@@ -119149,7 +119149,7 @@
   "ui-quick-marc.record.fixedField.Condensed score": [
     {
       "type": 0,
-      "value": "Condensed score"
+      "value": "reduzierte Partitur oder Klavierparticell"
     }
   ],
   "ui-quick-marc.record.fixedField.Condensed score or piano-conductor score": [
@@ -119173,7 +119173,7 @@
   "ui-quick-marc.record.fixedField.Conference publication": [
     {
       "type": 0,
-      "value": "Conference publication"
+      "value": "Kongressschrift"
     }
   ],
   "ui-quick-marc.record.fixedField.Configuration of playback channels": [
@@ -119203,25 +119203,25 @@
   "ui-quick-marc.record.fixedField.Contains biographical information": [
     {
       "type": 0,
-      "value": "Contains biographical information"
+      "value": "Enthält biografische Angaben"
     }
   ],
   "ui-quick-marc.record.fixedField.Continuing resource ceased publication": [
     {
       "type": 0,
-      "value": "Continuing resource ceased publication"
+      "value": "Abgeschlossene fortlaufende Ressource"
     }
   ],
   "ui-quick-marc.record.fixedField.Continuing resource currently published": [
     {
       "type": 0,
-      "value": "Continuing resource currently published"
+      "value": "Nicht abgeschlossene fortlaufende Ressource"
     }
   ],
   "ui-quick-marc.record.fixedField.Continuing resource status unknown": [
     {
       "type": 0,
-      "value": "Continuing resource status unknown"
+      "value": "Status der fortlaufenden Ressource unbekannt"
     }
   ],
   "ui-quick-marc.record.fixedField.Continuously updated": [
@@ -119245,7 +119245,7 @@
   "ui-quick-marc.record.fixedField.Cooperative cataloging program": [
     {
       "type": 0,
-      "value": "Cooperative cataloging program"
+      "value": "Verbundkatalogisierung"
     }
   ],
   "ui-quick-marc.record.fixedField.Copies": [
@@ -119281,7 +119281,7 @@
   "ui-quick-marc.record.fixedField.Ctry": [
     {
       "type": 0,
-      "value": "Ctry"
+      "value": "Land"
     }
   ],
   "ui-quick-marc.record.fixedField.Cylindrical, other": [
@@ -119317,7 +119317,7 @@
   "ui-quick-marc.record.fixedField.Dashed-on information omitted": [
     {
       "type": 0,
-      "value": "Dashed-on information omitted"
+      "value": "Beschädigte Informationen wurden weggelassen"
     }
   ],
   "ui-quick-marc.record.fixedField.Data type": [
@@ -119329,7 +119329,7 @@
   "ui-quick-marc.record.fixedField.Date of distribution/release/issue and production/recording session when different": [
     {
       "type": 0,
-      "value": "Date of distribution/release/issue and production/recording session when different"
+      "value": "Datumsangaben zu Vertrieb/Freigabe/Herausgabe und Produktion/Aufnahme, wenn diese\nunterschiedlich sind"
     }
   ],
   "ui-quick-marc.record.fixedField.Date1": [
@@ -119347,7 +119347,7 @@
   "ui-quick-marc.record.fixedField.Dates unknown": [
     {
       "type": 0,
-      "value": "Dates unknown"
+      "value": "Datumsangaben unbekannt"
     }
   ],
   "ui-quick-marc.record.fixedField.Desc": [
@@ -119359,7 +119359,7 @@
   "ui-quick-marc.record.fixedField.Detailed date": [
     {
       "type": 0,
-      "value": "Detailed date"
+      "value": "Ausführliche Datumsangaben"
     }
   ],
   "ui-quick-marc.record.fixedField.Deterioration stage": [
@@ -119557,7 +119557,7 @@
   "ui-quick-marc.record.fixedField.Extended Roman": [
     {
       "type": 0,
-      "value": "Erweiterte lateinische Schrift"
+      "value": "Erweiterter lateinischer Zeichensatz"
     }
   ],
   "ui-quick-marc.record.fixedField.FMus": [
@@ -119569,7 +119569,7 @@
   "ui-quick-marc.record.fixedField.Facsimiles": [
     {
       "type": 0,
-      "value": "Facsimiles"
+      "value": "Faksimiles"
     }
   ],
   "ui-quick-marc.record.fixedField.Fantasias": [
@@ -119581,7 +119581,7 @@
   "ui-quick-marc.record.fixedField.Federal/national": [
     {
       "type": 0,
-      "value": "Federal/national"
+      "value": "Bundesebene/national"
     }
   ],
   "ui-quick-marc.record.fixedField.Fest": [
@@ -119605,13 +119605,13 @@
   "ui-quick-marc.record.fixedField.Fiction (not further specified)": [
     {
       "type": 0,
-      "value": "Fiction (not further specified)"
+      "value": "Belletristik (nicht näher spezifiziert)"
     }
   ],
   "ui-quick-marc.record.fixedField.File": [
     {
       "type": 0,
-      "value": "File"
+      "value": "Datei"
     }
   ],
   "ui-quick-marc.record.fixedField.File formats": [
@@ -119641,7 +119641,7 @@
   "ui-quick-marc.record.fixedField.Flamenco": [
     {
       "type": 0,
-      "value": "Flamenco"
+      "value": "Rhapsodien"
     }
   ],
   "ui-quick-marc.record.fixedField.Flash card": [
@@ -119707,7 +119707,7 @@
   "ui-quick-marc.record.fixedField.Full score": [
     {
       "type": 0,
-      "value": "Full score"
+      "value": "Gesamtpartitur"
     }
   ],
   "ui-quick-marc.record.fixedField.Fully established": [
@@ -119755,7 +119755,7 @@
   "ui-quick-marc.record.fixedField.Genealogical tables": [
     {
       "type": 0,
-      "value": "Genealogical tables"
+      "value": "Genealogische Tafeln"
     }
   ],
   "ui-quick-marc.record.fixedField.General": [
@@ -119827,7 +119827,7 @@
   "ui-quick-marc.record.fixedField.Government publication-level undetermined": [
     {
       "type": 0,
-      "value": "Government publication-level undetermined"
+      "value": "Amtsdruckschrift unbestimmter Verwaltungsebene"
     }
   ],
   "ui-quick-marc.record.fixedField.Govt Ag": [
@@ -119893,7 +119893,7 @@
   "ui-quick-marc.record.fixedField.Humor, satires, etc.": [
     {
       "type": 0,
-      "value": "Humor, satires, etc."
+      "value": "Humor, Satiren usw."
     }
   ],
   "ui-quick-marc.record.fixedField.Hymns": [
@@ -119905,7 +119905,7 @@
   "ui-quick-marc.record.fixedField.Ills": [
     {
       "type": 0,
-      "value": "Ills"
+      "value": "Übel"
     }
   ],
   "ui-quick-marc.record.fixedField.Illuminations": [
@@ -119929,13 +119929,13 @@
   "ui-quick-marc.record.fixedField.Inclusive dates of collection": [
     {
       "type": 0,
-      "value": "Inclusive dates of collection"
+      "value": "Entstehungszeitraum einer Sammlung"
     }
   ],
   "ui-quick-marc.record.fixedField.Index present": [
     {
       "type": 0,
-      "value": "Index present"
+      "value": "Register vorhanden"
     }
   ],
   "ui-quick-marc.record.fixedField.Indexes": [
@@ -119947,7 +119947,7 @@
   "ui-quick-marc.record.fixedField.Individual biography": [
     {
       "type": 0,
-      "value": "Individual biography"
+      "value": "Einzelbiografie"
     }
   ],
   "ui-quick-marc.record.fixedField.Indx": [
@@ -119995,7 +119995,7 @@
   "ui-quick-marc.record.fixedField.International intergovernmental": [
     {
       "type": 0,
-      "value": "International intergovernmental"
+      "value": "International zwischenstaatlich"
     }
   ],
   "ui-quick-marc.record.fixedField.International standard": [
@@ -120163,7 +120163,7 @@
   "ui-quick-marc.record.fixedField.Law reports and digests": [
     {
       "type": 0,
-      "value": "Law reports and digests"
+      "value": "Entscheidungsberichte und -sammlungen"
     }
   ],
   "ui-quick-marc.record.fixedField.Lectures, speeches": [
@@ -120181,7 +120181,7 @@
   "ui-quick-marc.record.fixedField.Legal cases and case notes": [
     {
       "type": 0,
-      "value": "Legal cases and case notes"
+      "value": "Rechtsfälle und Fallbeschreibungen"
     }
   ],
   "ui-quick-marc.record.fixedField.Legislation": [
@@ -120403,7 +120403,7 @@
   "ui-quick-marc.record.fixedField.Miniature or study score": [
     {
       "type": 0,
-      "value": "Miniature or study score"
+      "value": "Gesamtpartitur als Taschenpartitur oder Studienpartitur"
     }
   ],
   "ui-quick-marc.record.fixedField.Minuets": [
@@ -120421,7 +120421,7 @@
   "ui-quick-marc.record.fixedField.Mixed forms": [
     {
       "type": 0,
-      "value": "Mixed forms"
+      "value": "Gemischte Formen"
     }
   ],
   "ui-quick-marc.record.fixedField.Mod Rec": [
@@ -120475,7 +120475,7 @@
   "ui-quick-marc.record.fixedField.Motion picture": [
     {
       "type": 0,
-      "value": "Motion picture"
+      "value": "Film"
     }
   ],
   "ui-quick-marc.record.fixedField.Motion picture music": [
@@ -120499,7 +120499,7 @@
   "ui-quick-marc.record.fixedField.Multilocal": [
     {
       "type": 0,
-      "value": "Multilocal"
+      "value": "Regional"
     }
   ],
   "ui-quick-marc.record.fixedField.Multipart item": [
@@ -120511,7 +120511,7 @@
   "ui-quick-marc.record.fixedField.Multiple dates": [
     {
       "type": 0,
-      "value": "Multiple dates"
+      "value": "Mehrfache Datumsangaben"
     }
   ],
   "ui-quick-marc.record.fixedField.Multiple forms": [
@@ -120613,13 +120613,13 @@
   "ui-quick-marc.record.fixedField.No biographical material": [
     {
       "type": 0,
-      "value": "No biographical material"
+      "value": "Enthält biografische Angaben"
     }
   ],
   "ui-quick-marc.record.fixedField.No dates given; B.C. date involved": [
     {
       "type": 0,
-      "value": "No dates given; B.C. date involved"
+      "value": "Keine Datumsangaben, v. Chr. Datum ist angegeben"
     }
   ],
   "ui-quick-marc.record.fixedField.No determinable frequency": [
@@ -120715,7 +120715,7 @@
   "ui-quick-marc.record.fixedField.Not a government publication": [
     {
       "type": 0,
-      "value": "Not a government publication"
+      "value": "Keine Amtsdruckschrift"
     }
   ],
   "ui-quick-marc.record.fixedField.Not applicable": [
@@ -120739,13 +120739,13 @@
   "ui-quick-marc.record.fixedField.Not fiction (not further specified)": [
     {
       "type": 0,
-      "value": "Not fiction (not further specified)"
+      "value": "Sachliteratur (nicht näher spezifiziert)"
     }
   ],
   "ui-quick-marc.record.fixedField.Not modified": [
     {
       "type": 0,
-      "value": "Not modified"
+      "value": "Nicht modifiziert"
     }
   ],
   "ui-quick-marc.record.fixedField.Not specified": [
@@ -120907,13 +120907,13 @@
   "ui-quick-marc.record.fixedField.Phonodisc, phonowire, etc.": [
     {
       "type": 0,
-      "value": "Phonodisc, phonowire, etc."
+      "value": "Schallplatte, Tonband usw."
     }
   ],
   "ui-quick-marc.record.fixedField.Photographs": [
     {
       "type": 0,
-      "value": "Photographs"
+      "value": "Fotografien"
     }
   ],
   "ui-quick-marc.record.fixedField.Physical medium": [
@@ -120955,7 +120955,7 @@
   "ui-quick-marc.record.fixedField.Plates": [
     {
       "type": 0,
-      "value": "Plates"
+      "value": "Tafeln"
     }
   ],
   "ui-quick-marc.record.fixedField.Platform construction type": [
@@ -121099,7 +121099,7 @@
   "ui-quick-marc.record.fixedField.Publication date and copyright date": [
     {
       "type": 0,
-      "value": "Publication date and copyright date"
+      "value": "Erscheinungs- und Copyrightjahr"
     }
   ],
   "ui-quick-marc.record.fixedField.Punct": [
@@ -121129,7 +121129,7 @@
   "ui-quick-marc.record.fixedField.Questionable date": [
     {
       "type": 0,
-      "value": "Questionable date"
+      "value": "Geschätzte Datumsangaben"
     }
   ],
   "ui-quick-marc.record.fixedField.Ragtime music": [
@@ -121141,7 +121141,7 @@
   "ui-quick-marc.record.fixedField.Range of years of bulk of collection": [
     {
       "type": 0,
-      "value": "Range of years of bulk of collection"
+      "value": "Zeitspanne des größten Teils einer Sammlung"
     }
   ],
   "ui-quick-marc.record.fixedField.Realia": [
@@ -121255,7 +121255,7 @@
   "ui-quick-marc.record.fixedField.Reprint/reissue date and original date": [
     {
       "type": 0,
-      "value": "Reprint/reissue date and original date"
+      "value": "Nachdruck/Neuauflagendatum und Datum des Originals"
     }
   ],
   "ui-quick-marc.record.fixedField.Repro": [
@@ -121453,7 +121453,7 @@
   "ui-quick-marc.record.fixedField.Single known date/probable date": [
     {
       "type": 0,
-      "value": "Single known date/probable date"
+      "value": "Einzig bekanntes/wahrscheinliches Datum"
     }
   ],
   "ui-quick-marc.record.fixedField.Single map": [
@@ -121477,13 +121477,13 @@
   "ui-quick-marc.record.fixedField.Sonatas": [
     {
       "type": 0,
-      "value": "Sonatas"
+      "value": "Sonaten"
     }
   ],
   "ui-quick-marc.record.fixedField.Songs": [
     {
       "type": 0,
-      "value": "Songs"
+      "value": "Lieder"
     }
   ],
   "ui-quick-marc.record.fixedField.Sound": [
@@ -121507,7 +121507,7 @@
   "ui-quick-marc.record.fixedField.Source": [
     {
       "type": 0,
-      "value": "Source"
+      "value": "Quelle"
     }
   ],
   "ui-quick-marc.record.fixedField.SpFm": [
@@ -121549,7 +121549,7 @@
   "ui-quick-marc.record.fixedField.Speeches": [
     {
       "type": 0,
-      "value": "Speeches"
+      "value": "Reden"
     }
   ],
   "ui-quick-marc.record.fixedField.Speed": [
@@ -121567,7 +121567,7 @@
   "ui-quick-marc.record.fixedField.Square dance music": [
     {
       "type": 0,
-      "value": "Square dance music"
+      "value": "Squaredance-Musik"
     }
   ],
   "ui-quick-marc.record.fixedField.SrTp": [
@@ -121591,13 +121591,13 @@
   "ui-quick-marc.record.fixedField.Standards/specifications": [
     {
       "type": 0,
-      "value": "Standards/specifications"
+      "value": "Standards/Spezifizierungen"
     }
   ],
   "ui-quick-marc.record.fixedField.State, provincial, territorial, dependent, etc.": [
     {
       "type": 0,
-      "value": "State, provincial, territorial, dependent, etc."
+      "value": "Unselbstständige Gebietskörperschaft"
     }
   ],
   "ui-quick-marc.record.fixedField.Statistics": [
@@ -121621,7 +121621,7 @@
   "ui-quick-marc.record.fixedField.Studies and exercises": [
     {
       "type": 0,
-      "value": "Studies and exercises"
+      "value": "Etuden und Übungen"
     }
   ],
   "ui-quick-marc.record.fixedField.Subdivided geographically-direct": [
@@ -121657,25 +121657,25 @@
   "ui-quick-marc.record.fixedField.Suites": [
     {
       "type": 0,
-      "value": "Suites"
+      "value": "Suiten"
     }
   ],
   "ui-quick-marc.record.fixedField.Surveys of literature in a subject area": [
     {
       "type": 0,
-      "value": "Surveys of literature in a subject area"
+      "value": "Literaturübersicht zu einem Fachgebiet"
     }
   ],
   "ui-quick-marc.record.fixedField.Symphonic poems": [
     {
       "type": 0,
-      "value": "Symphonic poems"
+      "value": "Sinfonische Dichtungen"
     }
   ],
   "ui-quick-marc.record.fixedField.Symphonies": [
     {
       "type": 0,
-      "value": "Symphonies"
+      "value": "Sinfonien"
     }
   ],
   "ui-quick-marc.record.fixedField.TMat": [
@@ -121711,7 +121711,7 @@
   "ui-quick-marc.record.fixedField.Tech": [
     {
       "type": 0,
-      "value": "Tech"
+      "value": "Technologie"
     }
   ],
   "ui-quick-marc.record.fixedField.Technical and/or historical information on instruments": [
@@ -121783,7 +121783,7 @@
   "ui-quick-marc.record.fixedField.Toccatas": [
     {
       "type": 0,
-      "value": "Toccatas"
+      "value": "Tokkaten"
     }
   ],
   "ui-quick-marc.record.fixedField.Topical": [
@@ -121843,7 +121843,7 @@
   "ui-quick-marc.record.fixedField.Treaties": [
     {
       "type": 0,
-      "value": "Treaties"
+      "value": "Verträge"
     }
   ],
   "ui-quick-marc.record.fixedField.Triennial": [
@@ -121855,7 +121855,7 @@
   "ui-quick-marc.record.fixedField.Trio-sonatas": [
     {
       "type": 0,
-      "value": "Trio-sonatas"
+      "value": "Trio-Sonaten"
     }
   ],
   "ui-quick-marc.record.fixedField.Type": [
@@ -121885,7 +121885,7 @@
   "ui-quick-marc.record.fixedField.Unknown": [
     {
       "type": 0,
-      "value": "Unknown"
+      "value": "Unbekannt"
     }
   ],
   "ui-quick-marc.record.fixedField.Unknown if heading is government agency": [
@@ -121897,7 +121897,7 @@
   "ui-quick-marc.record.fixedField.Unknown if item is government publication": [
     {
       "type": 0,
-      "value": "Unknown if item is government publication"
+      "value": "Unbekannt, ob das Exemplar eine Amtsdruckschrift ist"
     }
   ],
   "ui-quick-marc.record.fixedField.Unknown or not specified": [
@@ -121951,7 +121951,7 @@
   "ui-quick-marc.record.fixedField.Variations": [
     {
       "type": 0,
-      "value": "Variations"
+      "value": "Variationen"
     }
   ],
   "ui-quick-marc.record.fixedField.Videorecording": [
@@ -121969,7 +121969,7 @@
   "ui-quick-marc.record.fixedField.Villancicos": [
     {
       "type": 0,
-      "value": "Villancicos"
+      "value": "Villancico"
     }
   ],
   "ui-quick-marc.record.fixedField.Vocal parts": [
@@ -121999,7 +121999,7 @@
   "ui-quick-marc.record.fixedField.Waltzes": [
     {
       "type": 0,
-      "value": "Waltzes"
+      "value": "Walzer"
     }
   ],
   "ui-quick-marc.record.fixedField.Weekly": [
@@ -122017,7 +122017,7 @@
   "ui-quick-marc.record.fixedField.Zarzuelas": [
     {
       "type": 0,
-      "value": "Zarzuelas"
+      "value": "Zarzuela"
     }
   ],
   "ui-quick-marc.record.fixedField.invalid.value": [
@@ -122029,25 +122029,25 @@
   "ui-quick-marc.record.fixedField.tip.Accompanying matter": [
     {
       "type": 0,
-      "value": "Accompanying matter"
+      "value": "Begleitmaterial"
     }
   ],
   "ui-quick-marc.record.fixedField.tip.Altitude of sensor": [
     {
       "type": 0,
-      "value": "Altitude of sensor"
+      "value": "Höhe des Sensors"
     }
   ],
   "ui-quick-marc.record.fixedField.tip.Antecedent/ Source": [
     {
       "type": 0,
-      "value": "Antecedent/ Source"
+      "value": "Vorgänger/Quelle"
     }
   ],
   "ui-quick-marc.record.fixedField.tip.Attitude of sensor": [
     {
       "type": 0,
-      "value": "Attitude of sensor"
+      "value": "Höhe des Sensors"
     }
   ],
   "ui-quick-marc.record.fixedField.tip.BLvl": [
@@ -122059,13 +122059,13 @@
   "ui-quick-marc.record.fixedField.tip.Base of emulsion": [
     {
       "type": 0,
-      "value": "Base of emulsion"
+      "value": "Trägermaterial der Emulsion"
     }
   ],
   "ui-quick-marc.record.fixedField.tip.Base of film": [
     {
       "type": 0,
-      "value": "Base of film"
+      "value": "Trägermaterial des Films"
     }
   ],
   "ui-quick-marc.record.fixedField.tip.Biography": [
@@ -122077,13 +122077,13 @@
   "ui-quick-marc.record.fixedField.tip.Braille music format": [
     {
       "type": 0,
-      "value": "Braille music format"
+      "value": "Brailleschrift-Musikformat"
     }
   ],
   "ui-quick-marc.record.fixedField.tip.Capture and storage technique": [
     {
       "type": 0,
-      "value": "Capture and storage technique"
+      "value": "Aufnahme- und Speichertechnik"
     }
   ],
   "ui-quick-marc.record.fixedField.tip.Cataloging source": [
@@ -122101,13 +122101,13 @@
   "ui-quick-marc.record.fixedField.tip.Class of braille writing": [
     {
       "type": 0,
-      "value": "Class of braille writing"
+      "value": "Gattung der Brailleschrift"
     }
   ],
   "ui-quick-marc.record.fixedField.tip.Cloud cover": [
     {
       "type": 0,
-      "value": "Cloud cover"
+      "value": "Wolkendecke"
     }
   ],
   "ui-quick-marc.record.fixedField.tip.Color": [
@@ -122125,13 +122125,13 @@
   "ui-quick-marc.record.fixedField.tip.Conference publication": [
     {
       "type": 0,
-      "value": "Conference publication"
+      "value": "Kongressschrift"
     }
   ],
   "ui-quick-marc.record.fixedField.tip.Configuration of playback channels": [
     {
       "type": 0,
-      "value": "Configuration of playback channels"
+      "value": "Konfiguration der Wiedergabekanäle"
     }
   ],
   "ui-quick-marc.record.fixedField.tip.Ctrl": [
@@ -122143,13 +122143,13 @@
   "ui-quick-marc.record.fixedField.tip.Data type": [
     {
       "type": 0,
-      "value": "Data type"
+      "value": "Art der Daten"
     }
   ],
   "ui-quick-marc.record.fixedField.tip.Date entered on file": [
     {
       "type": 0,
-      "value": "Date entered on file"
+      "value": "Erstellungsdatum des Datensatzes"
     }
   ],
   "ui-quick-marc.record.fixedField.tip.Date of report": [
@@ -122167,13 +122167,13 @@
   "ui-quick-marc.record.fixedField.tip.Descriptive cataloging rules": [
     {
       "type": 0,
-      "value": "Descriptive cataloging rules"
+      "value": "Regelwerk der formalen Erfassung"
     }
   ],
   "ui-quick-marc.record.fixedField.tip.Deterioration stage": [
     {
       "type": 0,
-      "value": "Deterioration stage"
+      "value": "Schädigungsgrad"
     }
   ],
   "ui-quick-marc.record.fixedField.tip.Dimensions": [
@@ -122197,7 +122197,7 @@
   "ui-quick-marc.record.fixedField.tip.Emulsion on film": [
     {
       "type": 0,
-      "value": "Emulsion on film"
+      "value": "Film-Emulsion"
     }
   ],
   "ui-quick-marc.record.fixedField.tip.End date": [
@@ -122233,13 +122233,13 @@
   "ui-quick-marc.record.fixedField.tip.Film inspection date": [
     {
       "type": 0,
-      "value": "Film inspection date"
+      "value": "Datum der Filmüberprüfung"
     }
   ],
   "ui-quick-marc.record.fixedField.tip.Form of composition": [
     {
       "type": 0,
-      "value": "Form of composition"
+      "value": "Art der Komposition"
     }
   ],
   "ui-quick-marc.record.fixedField.tip.Form of item": [
@@ -122257,7 +122257,7 @@
   "ui-quick-marc.record.fixedField.tip.Format of music": [
     {
       "type": 0,
-      "value": "Format of music"
+      "value": "Format der Musik"
     }
   ],
   "ui-quick-marc.record.fixedField.tip.Frequency": [
@@ -122281,31 +122281,31 @@
   "ui-quick-marc.record.fixedField.tip.Government publication": [
     {
       "type": 0,
-      "value": "Government publication"
+      "value": "Amtsdruckschrift"
     }
   ],
   "ui-quick-marc.record.fixedField.tip.Groove width/ groove pitch": [
     {
       "type": 0,
-      "value": "Groove width/ groove pitch"
+      "value": "Rillenbreite/Rillenabstand"
     }
   ],
   "ui-quick-marc.record.fixedField.tip.Heading use – main or added entry": [
     {
       "type": 0,
-      "value": "Heading use – main or added entry"
+      "value": "Verwendung der Ansetzung – Haupt- oder Nebeneintragung"
     }
   ],
   "ui-quick-marc.record.fixedField.tip.Heading use – series added entry": [
     {
       "type": 0,
-      "value": "Heading use – series added entry"
+      "value": "Verwendung der Ansetzung – Seriengesamttitel"
     }
   ],
   "ui-quick-marc.record.fixedField.tip.Heading use – subject added entry": [
     {
       "type": 0,
-      "value": "Heading use – subject added entry"
+      "value": "Verwendung der Ansetzung – Schlagwort"
     }
   ],
   "ui-quick-marc.record.fixedField.tip.Illustrations": [
@@ -122317,7 +122317,7 @@
   "ui-quick-marc.record.fixedField.tip.Image bit depth": [
     {
       "type": 0,
-      "value": "Image bit depth"
+      "value": "Bittiefe des Bildes"
     }
   ],
   "ui-quick-marc.record.fixedField.tip.Index": [
@@ -122335,25 +122335,25 @@
   "ui-quick-marc.record.fixedField.tip.Kind of color stock or print": [
     {
       "type": 0,
-      "value": "Kind of color stock or print"
+      "value": "Art des Farbmaterials oder Abzugs"
     }
   ],
   "ui-quick-marc.record.fixedField.tip.Kind of cutting": [
     {
       "type": 0,
-      "value": "Kind of cutting"
+      "value": "Plattenschriftart"
     }
   ],
   "ui-quick-marc.record.fixedField.tip.Kind of disc, cylinder, or tape": [
     {
       "type": 0,
-      "value": "Kind of disc, cylinder, or tape"
+      "value": "Art der Schallplatte, des Zylinders oder des Tonbandes"
     }
   ],
   "ui-quick-marc.record.fixedField.tip.Kind of material": [
     {
       "type": 0,
-      "value": "Kind of material"
+      "value": "Art des Materials"
     }
   ],
   "ui-quick-marc.record.fixedField.tip.Kind of record": [
@@ -122383,19 +122383,19 @@
   "ui-quick-marc.record.fixedField.tip.Level of compression": [
     {
       "type": 0,
-      "value": "Level of compression"
+      "value": "Komprimierungsstufe"
     }
   ],
   "ui-quick-marc.record.fixedField.tip.Level of contraction": [
     {
       "type": 0,
-      "value": "Level of contraction"
+      "value": "Kürzungslevel"
     }
   ],
   "ui-quick-marc.record.fixedField.tip.Level of establishment": [
     {
       "type": 0,
-      "value": "Level of establishment"
+      "value": "Status der Ansetzung"
     }
   ],
   "ui-quick-marc.record.fixedField.tip.Literary form": [
@@ -122431,7 +122431,7 @@
   "ui-quick-marc.record.fixedField.tip.Motion picture presentation format": [
     {
       "type": 0,
-      "value": "Motion picture presentation format"
+      "value": "Abspielformat des Filmes"
     }
   ],
   "ui-quick-marc.record.fixedField.tip.MultiLvl": [
@@ -122443,13 +122443,13 @@
   "ui-quick-marc.record.fixedField.tip.Music parts": [
     {
       "type": 0,
-      "value": "Music parts"
+      "value": "Musikalische Stimmen"
     }
   ],
   "ui-quick-marc.record.fixedField.tip.Nature of contents": [
     {
       "type": 0,
-      "value": "Nature of contents"
+      "value": "Art des Inhalts"
     }
   ],
   "ui-quick-marc.record.fixedField.tip.Nature of entire work": [
@@ -122467,7 +122467,7 @@
   "ui-quick-marc.record.fixedField.tip.Numbered or unnumbered series": [
     {
       "type": 0,
-      "value": "Numbered or unnumbered series"
+      "value": "Gezählte oder ungezählte Serie"
     }
   ],
   "ui-quick-marc.record.fixedField.tip.Original alphabet or script of title": [
@@ -122479,7 +122479,7 @@
   "ui-quick-marc.record.fixedField.tip.Physical medium": [
     {
       "type": 0,
-      "value": "Physical medium"
+      "value": "Physisches Medium"
     }
   ],
   "ui-quick-marc.record.fixedField.tip.Place of publication, production, or execution": [
@@ -122491,37 +122491,37 @@
   "ui-quick-marc.record.fixedField.tip.Platform construction type": [
     {
       "type": 0,
-      "value": "Platform construction type"
+      "value": "Art der Plattformkonstruktion"
     }
   ],
   "ui-quick-marc.record.fixedField.tip.Platform use category": [
     {
       "type": 0,
-      "value": "Platform use category"
+      "value": "Art der Plattformnutzung"
     }
   ],
   "ui-quick-marc.record.fixedField.tip.Positive/negative aspect": [
     {
       "type": 0,
-      "value": "Positive/negative aspect"
+      "value": "Positiv-/Negativ-Aspekt"
     }
   ],
   "ui-quick-marc.record.fixedField.tip.Primary support material": [
     {
       "type": 0,
-      "value": "Primary support material"
+      "value": "Hauptträgermaterial"
     }
   ],
   "ui-quick-marc.record.fixedField.tip.Production elements": [
     {
       "type": 0,
-      "value": "Production elements"
+      "value": "Produktionselemente"
     }
   ],
   "ui-quick-marc.record.fixedField.tip.Production/reproduction details": [
     {
       "type": 0,
-      "value": "Production/reproduction details"
+      "value": "Angaben zur Produktion/Reproduktion"
     }
   ],
   "ui-quick-marc.record.fixedField.tip.Projection": [
@@ -122539,7 +122539,7 @@
   "ui-quick-marc.record.fixedField.tip.Quality assurance target(s)": [
     {
       "type": 0,
-      "value": "Quality assurance target(s)"
+      "value": "Qualitätssicherungsziel(e)"
     }
   ],
   "ui-quick-marc.record.fixedField.tip.Receipt, acquisition, or access status": [
@@ -122551,31 +122551,31 @@
   "ui-quick-marc.record.fixedField.tip.Record update in process": [
     {
       "type": 0,
-      "value": "Record update in process"
+      "value": "Datensatz-Aktualisierung in Bearbeitung"
     }
   ],
   "ui-quick-marc.record.fixedField.tip.Reduction ratio range/Reduction ratio": [
     {
       "type": 0,
-      "value": "Reduction ratio range/Reduction ratio"
+      "value": "Bereich der Verkleinerungsrate"
     }
   ],
   "ui-quick-marc.record.fixedField.tip.Reference evaluation": [
     {
       "type": 0,
-      "value": "Reference evaluation"
+      "value": "Bewertung der Verweisungen"
     }
   ],
   "ui-quick-marc.record.fixedField.tip.Refined categories of color": [
     {
       "type": 0,
-      "value": "Refined categories of color"
+      "value": "Veredelte Farbkategorien"
     }
   ],
   "ui-quick-marc.record.fixedField.tip.Reformatting quality": [
     {
       "type": 0,
-      "value": "Reformatting quality"
+      "value": "Konvertierungsqualität"
     }
   ],
   "ui-quick-marc.record.fixedField.tip.Regularity": [
@@ -122611,19 +122611,19 @@
   "ui-quick-marc.record.fixedField.tip.SMD": [
     {
       "type": 0,
-      "value": "SMD"
+      "value": "Spezifische Materialbezeichnung"
     }
   ],
   "ui-quick-marc.record.fixedField.tip.Secondary support material": [
     {
       "type": 0,
-      "value": "Secondary support material"
+      "value": "Zusätzliches Trägermaterial"
     }
   ],
   "ui-quick-marc.record.fixedField.tip.Sensor type": [
     {
       "type": 0,
-      "value": "Sensor type"
+      "value": "Art des Sensors"
     }
   ],
   "ui-quick-marc.record.fixedField.tip.Separate or composite copy report": [
@@ -122641,7 +122641,7 @@
   "ui-quick-marc.record.fixedField.tip.Sound on medium or separate": [
     {
       "type": 0,
-      "value": "Sound on medium or separate"
+      "value": "Ton auf dem Medium oder separat"
     }
   ],
   "ui-quick-marc.record.fixedField.tip.Special format characteristics": [
@@ -122653,13 +122653,13 @@
   "ui-quick-marc.record.fixedField.tip.Special physical characteristics": [
     {
       "type": 0,
-      "value": "Special physical characteristics"
+      "value": "Spezifische physische Eigenschaften"
     }
   ],
   "ui-quick-marc.record.fixedField.tip.Special playback characteristics": [
     {
       "type": 0,
-      "value": "Special playback characteristics"
+      "value": "Spezielle Wiedergabeeigenschaften"
     }
   ],
   "ui-quick-marc.record.fixedField.tip.Specific retention policy": [
@@ -122689,13 +122689,13 @@
   "ui-quick-marc.record.fixedField.tip.Subject heading system/thesaurus": [
     {
       "type": 0,
-      "value": "Subject heading system/thesaurus"
+      "value": "Systematik der Schlagwortansetzung/Thesaurus"
     }
   ],
   "ui-quick-marc.record.fixedField.tip.Tape configuration": [
     {
       "type": 0,
-      "value": "Tape configuration"
+      "value": "Tonbandkonfiguration"
     }
   ],
   "ui-quick-marc.record.fixedField.tip.Tape width": [
@@ -122749,13 +122749,13 @@
   "ui-quick-marc.record.fixedField.tip.Type of date/Publication status": [
     {
       "type": 0,
-      "value": "Type of date/Publication status"
+      "value": "Art des Datums/Veröffentlichungsstatus"
     }
   ],
   "ui-quick-marc.record.fixedField.tip.Type of government agency": [
     {
       "type": 0,
-      "value": "Type of government agency"
+      "value": "Art der Regierungsstelle"
     }
   ],
   "ui-quick-marc.record.fixedField.tip.Type of reproduction": [
@@ -122767,13 +122767,13 @@
   "ui-quick-marc.record.fixedField.tip.Type of series": [
     {
       "type": 0,
-      "value": "Type of series"
+      "value": "Typ der Serie"
     }
   ],
   "ui-quick-marc.record.fixedField.tip.Type of subject subdivision": [
     {
       "type": 0,
-      "value": "Type of subject subdivision"
+      "value": "Form der Schlagwort-Unterteilung"
     }
   ],
   "ui-quick-marc.record.fixedField.tip.Type of visual material": [
@@ -122791,25 +122791,25 @@
   "ui-quick-marc.record.fixedField.tip.Undefined character position": [
     {
       "type": 0,
-      "value": "Undefined character position"
+      "value": "Nicht definierte Zeichenposition"
     }
   ],
   "ui-quick-marc.record.fixedField.tip.Undefined character positions": [
     {
       "type": 0,
-      "value": "Undefined character positions"
+      "value": "Nicht definierte Zeichenpositionen"
     }
   ],
   "ui-quick-marc.record.fixedField.tip.Undifferentiated personal name": [
     {
       "type": 0,
-      "value": "Undifferentiated personal name"
+      "value": "Nicht differenzierter Personenname"
     }
   ],
   "ui-quick-marc.record.fixedField.tip.Videorecording format": [
     {
       "type": 0,
-      "value": "Videorecording format"
+      "value": "Format der Videoaufnahme"
     }
   ],
   "ui-quick-marc.record.headingType.100": [
@@ -122881,13 +122881,13 @@
   "ui-quick-marc.record.link": [
     {
       "type": 0,
-      "value": "Link to MARC Authority record"
+      "value": "Link zu MARC Normdatensatz"
     }
   ],
   "ui-quick-marc.record.link.success": [
     {
       "type": 0,
-      "value": "Field "
+      "value": "Feld "
     },
     {
       "children": [
@@ -122901,13 +122901,13 @@
     },
     {
       "type": 0,
-      "value": " has been "
+      "value": " wurde mit einem MARC Normdatensatz "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "linked"
+          "value": "verknüpft"
         }
       ],
       "type": 8,
@@ -122915,19 +122915,19 @@
     },
     {
       "type": 0,
-      "value": " to a MARC authority record."
+      "value": "."
     }
   ],
   "ui-quick-marc.record.link.validation.invalidHeading": [
     {
       "type": 0,
-      "value": "You have selected an invalid heading based on the bibliographic field you want controlled. Please revise your selection."
+      "value": "Sie haben eine ungültige Ansetzung für das zu kontrollierende bibliographische Feld ausgewählt. Bitte überarbeiten Sie Ihre Auswahl."
     }
   ],
   "ui-quick-marc.record.load.error": [
     {
       "type": 0,
-      "value": "Record cannot be found or loaded."
+      "value": "Datensatz kann nicht gefunden oder geladen werden."
     }
   ],
   "ui-quick-marc.record.materialChars.materialType.a": [
@@ -122939,7 +122939,7 @@
   "ui-quick-marc.record.materialChars.materialType.c": [
     {
       "type": 0,
-      "value": "Notated music"
+      "value": "Notierte Musik"
     }
   ],
   "ui-quick-marc.record.materialChars.materialType.d": [
@@ -123023,13 +123023,13 @@
   "ui-quick-marc.record.moveDownRow": [
     {
       "type": 0,
-      "value": "Move field down a row"
+      "value": "Feld eine Zeile nach unten verschieben"
     }
   ],
   "ui-quick-marc.record.moveUpRow": [
     {
       "type": 0,
-      "value": "Move field up a row"
+      "value": "Feld eine Zeile nach oben verschieben"
     }
   ],
   "ui-quick-marc.record.physDescription.categoryOfMaterial.a": [
@@ -123089,7 +123089,7 @@
   "ui-quick-marc.record.physDescription.categoryOfMaterial.q": [
     {
       "type": 0,
-      "value": "Musik"
+      "value": "Notierte Musik"
     }
   ],
   "ui-quick-marc.record.physDescription.categoryOfMaterial.r": [
@@ -123125,13 +123125,13 @@
   "ui-quick-marc.record.protectedField": [
     {
       "type": 0,
-      "value": "This field is protected."
+      "value": "Dieses Feld ist geschützt."
     }
   ],
   "ui-quick-marc.record.quickMarcEditorLabel": [
     {
       "type": 0,
-      "value": "Quick MARC-Herausgeber/-in"
+      "value": "Quick MARC Herausgeber/-in"
     }
   ],
   "ui-quick-marc.record.save.continue": [
@@ -123143,7 +123143,7 @@
   "ui-quick-marc.record.save.error.derive": [
     {
       "type": 0,
-      "value": "Instance cannot be updated. Deprecated instance version."
+      "value": "Instanz kann nicht aktualisiert werden. Veraltete Instanzversion."
     }
   ],
   "ui-quick-marc.record.save.error.dublicate": [
@@ -123259,13 +123259,13 @@
   "ui-quick-marc.record.save.error.illegalFixedLength": [
     {
       "type": 0,
-      "value": "Record not saved. Please check the character length of the fixed fields."
+      "value": "Datensatz nicht gespeichert. Bitte überprüfen Sie die Zeichenlänge der festen Felder."
     }
   ],
   "ui-quick-marc.record.save.error.notFound": [
     {
       "type": 0,
-      "value": "This record has been deleted by another user. You can no longer edit this record, hit the cancel button to return to the previous page."
+      "value": "Dieser Datensatz wurde von einem anderen Benutzer gelöscht. Sie können diesen Datensatz nicht mehr bearbeiten. Klicken Sie auf die Schaltfläche Abbrechen, um zur vorherigen Seite zurückzukehren."
     }
   ],
   "ui-quick-marc.record.save.error.warn": [
@@ -123327,7 +123327,7 @@
   "ui-quick-marc.record.save.updatingLinkedBibRecords": [
     {
       "type": 0,
-      "value": "This record has successfully saved and is in process. "
+      "value": "Dieser Datensatz wurde erfolgreich gespeichert und wird verarbeitet. Die Aktualisierung von "
     },
     {
       "children": [
@@ -123341,7 +123341,7 @@
     },
     {
       "type": 0,
-      "value": " linked bibliographic record(s) updates have begun."
+      "value": " verknüpfte(n) Titeldatensatz/-sätzen wurde gestartet."
     }
   ],
   "ui-quick-marc.record.saveNew.delay": [
@@ -123413,7 +123413,7 @@
   "ui-quick-marc.record.unlink": [
     {
       "type": 0,
-      "value": "Unlink from MARC Authority record"
+      "value": "Verknüpfung mit MARC Normdatensatz aufheben"
     }
   ],
   "ui-quick-marc.record.unlink.confirm.cancel": [
@@ -123431,13 +123431,13 @@
   "ui-quick-marc.record.unlink.confirm.message": [
     {
       "type": 0,
-      "value": "By selecting "
+      "value": "Wenn Sie "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Unlink"
+          "value": "Verknüpfung aufheben"
         }
       ],
       "type": 8,
@@ -123445,7 +123445,7 @@
     },
     {
       "type": 0,
-      "value": ", then field "
+      "value": "wählen, wird das Feld "
     },
     {
       "children": [
@@ -123459,25 +123459,25 @@
     },
     {
       "type": 0,
-      "value": " will be unlinked from the MARC authority record. Are you sure you want to continue?"
+      "value": " aus dem MARC Datensatz entfernt. Sind Sie sicher, dass Sie fortfahren möchten?"
     }
   ],
   "ui-quick-marc.record.unlink.confirm.title": [
     {
       "type": 0,
-      "value": "Unlink from MARC authority record"
+      "value": "Verknüpfung zum MARC Normdatensatz aufheben"
     }
   ],
   "ui-quick-marc.record.viewMarcAuthorityRecord": [
     {
       "type": 0,
-      "value": "View MARC authority record"
+      "value": "MARC Normdatensatz anzeigen"
     }
   ],
   "ui-quick-marc.records.autoLink.linkedFields": [
     {
       "type": 0,
-      "value": "Field "
+      "value": "Feld "
     },
     {
       "children": [
@@ -123490,16 +123490,24 @@
       "value": "b"
     },
     {
+      "type": 0,
+      "value": " "
+    },
+    {
       "offset": 0,
       "options": {
         "=2": {
           "value": [
             {
               "type": 0,
-              "value": " and "
+              "value": " und"
             },
             {
               "children": [
+                {
+                  "type": 0,
+                  "value": " "
+                },
                 {
                   "type": 1,
                   "value": "lastFieldTag"
@@ -123517,7 +123525,7 @@
           "value": [
             {
               "type": 0,
-              "value": ", and "
+              "value": ", und "
             },
             {
               "children": [
@@ -123538,13 +123546,13 @@
     },
     {
       "type": 0,
-      "value": " has been "
+      "value": " wurde erfolgreich mit MARC Normdatensatz/-sätzen "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "linked"
+          "value": "verknüpft"
         }
       ],
       "type": 8,
@@ -123552,13 +123560,13 @@
     },
     {
       "type": 0,
-      "value": " to MARC authority record(s)."
+      "value": "."
     }
   ],
   "ui-quick-marc.records.autoLink.notLinkedFields": [
     {
       "type": 0,
-      "value": "Field "
+      "value": "Feld "
     },
     {
       "children": [
@@ -123571,13 +123579,17 @@
       "value": "b"
     },
     {
+      "type": 0,
+      "value": " "
+    },
+    {
       "offset": 0,
       "options": {
         "=2": {
           "value": [
             {
               "type": 0,
-              "value": " and "
+              "value": " und "
             },
             {
               "children": [
@@ -123598,7 +123610,7 @@
           "value": [
             {
               "type": 0,
-              "value": ", and "
+              "value": ", und "
             },
             {
               "children": [
@@ -123619,13 +123631,13 @@
     },
     {
       "type": 0,
-      "value": " must be set manually by selecting the link icon."
+      "value": " muss manuell durch Auswahl des Verknüpfungssymbols gesetzt werden."
     }
   ],
   "ui-quick-marc.records.autoLink.notLinkedFields.multiple": [
     {
       "type": 0,
-      "value": "Field "
+      "value": "Feld "
     },
     {
       "children": [
@@ -123638,13 +123650,17 @@
       "value": "b"
     },
     {
+      "type": 0,
+      "value": " "
+    },
+    {
       "offset": 0,
       "options": {
         "=2": {
           "value": [
             {
               "type": 0,
-              "value": " and "
+              "value": " und "
             },
             {
               "children": [
@@ -123665,7 +123681,7 @@
           "value": [
             {
               "type": 0,
-              "value": ", and "
+              "value": ", und "
             },
             {
               "children": [
@@ -123686,13 +123702,13 @@
     },
     {
       "type": 0,
-      "value": " must be set manually by selecting the link icon. There are multiple authority records that can be matched to this bibliographic field."
+      "value": " muss manuell durch Auswahl des Verknüpfungssymbols (Link-Icon) gesetzt werden. Es gibt mehrere Normdatensätze, die diesem Titelfeld zugeordnet werden können."
     }
   ],
   "ui-quick-marc.records.error.autoLinking": [
     {
       "type": 0,
-      "value": "Unable to link record(s) due to system error. Please try again or contact support."
+      "value": "Verknüpfung des Datensatzes/der Datensätze aufgrund eines Systemfehlers nicht möglich. Bitte versuchen Sie es erneut oder kontaktieren Sie den Support."
     }
   ],
   "ui-quick-marc.remove-authority-linking.modal.keep-linking": [
@@ -123704,7 +123720,7 @@
   "ui-quick-marc.remove-authority-linking.modal.label": [
     {
       "type": 0,
-      "value": "Remove authority linking"
+      "value": "Verknüpfungen mit Normdaten entfernen"
     }
   ],
   "ui-quick-marc.remove-authority-linking.modal.message": [
@@ -123785,7 +123801,7 @@
               "value": [
                 {
                   "type": 0,
-                  "value": "bibliographic record"
+                  "value": "bibliografischer Datensatz"
                 }
               ]
             },
@@ -123793,7 +123809,7 @@
               "value": [
                 {
                   "type": 0,
-                  "value": "bibliographic records"
+                  "value": "bibliografische Datensätze"
                 }
               ]
             }
@@ -123817,7 +123833,7 @@
           "value": [
             {
               "type": 0,
-              "value": "is"
+              "value": "ist"
             }
           ]
         },
@@ -123825,7 +123841,7 @@
           "value": [
             {
               "type": 0,
-              "value": "are"
+              "value": "sind"
             }
           ]
         }
@@ -123836,13 +123852,13 @@
     },
     {
       "type": 0,
-      "value": " linked to this authority record and will be updated by clicking the "
+      "value": " mit diesem Normdatensatz verknüpft und werden durch Anklicken der Schaltfläche "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Save"
+          "value": "Speichern"
         }
       ],
       "type": 8,
@@ -123850,7 +123866,7 @@
     },
     {
       "type": 0,
-      "value": " button."
+      "value": " aktualisiert."
     }
   ],
   "ui-quick-marc.update-linked-bib-fields.modal.save": [
@@ -123862,7 +123878,7 @@
   "ui-quick-marc.validation.modal.heading": [
     {
       "type": 0,
-      "value": "Überprüfung der MARC-Validierungsregeln"
+      "value": "Überprüfung der MARC Validierungsregeln"
     }
   ],
   "ui-quick-marc.validation.modal.message": [

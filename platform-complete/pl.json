@@ -618,7 +618,7 @@
   "stripes-acq-components.fundDistribution.initialEncumbrance": [
     {
       "type": 0,
-      "value": "Obciążenie początkowe"
+      "value": "Początkowa rezerwacja środków"
     }
   ],
   "stripes-acq-components.fundDistribution.name": [
@@ -9605,7 +9605,7 @@
   "stripes-data-transfer-components.filter.endedDate": [
     {
       "type": 0,
-      "value": "Data i godzina zakończenia importu"
+      "value": "Data i godzina zakończenia"
     }
   ],
   "stripes-data-transfer-components.filter.errors": [
@@ -9641,7 +9641,7 @@
   "stripes-data-transfer-components.filter.startedDate": [
     {
       "type": 0,
-      "value": "Data i godzina rozpoczęcia importu"
+      "value": "Data i godzina rozpoczęcia"
     }
   ],
   "stripes-data-transfer-components.filter.user": [
@@ -9659,7 +9659,7 @@
   "stripes-data-transfer-components.jobCompletedDate": [
     {
       "type": 0,
-      "value": "Data i godzina zakończenia importu"
+      "value": "Data i godzina zakończenia"
     }
   ],
   "stripes-data-transfer-components.jobExecutionHrId": [
@@ -10005,7 +10005,7 @@
   "stripes-erm-components.accesscontrol.name": [
     {
       "type": 0,
-      "value": "Name"
+      "value": "Nazwa"
     }
   ],
   "stripes-erm-components.accesscontrol.remove": [
@@ -22295,7 +22295,7 @@
   "ui-agreements.remoteKb.name": [
     {
       "type": 0,
-      "value": "Name"
+      "value": "Nazwa"
     }
   ],
   "ui-agreements.remoteKb.noAccordionContent": [
@@ -24793,7 +24793,7 @@
   "ui-bulk-edit.columns.USER.Preferred email communications": [
     {
       "type": 0,
-      "value": "Preferowany sposób komunikacji e-mail"
+      "value": "Rodzaj informacji wysyłanych e-mailem"
     }
   ],
   "ui-bulk-edit.columns.USER.Preferred first name": [
@@ -34629,7 +34629,7 @@
   "ui-circulation.settings.circulationRules.patronGroups": [
     {
       "type": 0,
-      "value": "Grupy czytelnika"
+      "value": "Grupy czytelników"
     }
   ],
   "ui-circulation.settings.circulationRules.requestPolicies": [
@@ -44011,7 +44011,7 @@
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Float.<=": [
     {
       "type": 0,
-      "value": "mniejszy lub równy"
+      "value": "mniejszy niż lub równy"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Float.==": [
@@ -44029,7 +44029,7 @@
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Float.>=": [
     {
       "type": 0,
-      "value": "większy lub równy"
+      "value": "większy niż lub równy"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Float.isNotNull": [
@@ -44071,7 +44071,7 @@
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Integer.<=": [
     {
       "type": 0,
-      "value": "mniejszy lub równy"
+      "value": "mniejszy niż lub równy"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Integer.==": [
@@ -44089,7 +44089,7 @@
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Integer.>=": [
     {
       "type": 0,
-      "value": "większy lub równy"
+      "value": "większy niż lub równy"
     }
   ],
   "ui-dashboard.simpleSearchForm.filters.filterField.comparator.Integer.isNotNull": [
@@ -58739,7 +58739,7 @@
   "ui-eholdings.filter.pubType.book_series": [
     {
       "type": 0,
-      "value": "Book Series"
+      "value": "Wydawnictwa seryjne"
     }
   ],
   "ui-eholdings.filter.pubType.database": [
@@ -66657,7 +66657,7 @@
   "ui-finance.actions.allocations.batch": [
     {
       "type": 0,
-      "value": "Batch - alokacje"
+      "value": "Batch - przydziały"
     }
   ],
   "ui-finance.actions.allocations.batch.error": [
@@ -66729,7 +66729,7 @@
   "ui-finance.actions.uploadAllocationWorksheet": [
     {
       "type": 0,
-      "value": "Prześlij arkusz alokacji (CSV)"
+      "value": "Prześlij arkusz przydziału (CSV)"
     }
   ],
   "ui-finance.allocation.batch.form.footer.recalculate": [
@@ -67881,7 +67881,7 @@
   "ui-finance.financialSummary.initialAllocation": [
     {
       "type": 0,
-      "value": "Alokacja początkowa"
+      "value": "Przydział początkowy"
     }
   ],
   "ui-finance.financialSummary.netTransfers": [
@@ -69115,7 +69115,7 @@
   "ui-finance.ledger.rollover.allowableEncumbrance": [
     {
       "type": 0,
-      "value": "Dozwolone obciążenie, %"
+      "value": "Dozwolone rezerwacje środków, %"
     }
   ],
   "ui-finance.ledger.rollover.allowableExpenditure": [
@@ -69145,7 +69145,7 @@
   "ui-finance.ledger.rollover.basedOn.initialEncumbrance": [
     {
       "type": 0,
-      "value": "Initial encumbrance"
+      "value": "Początkowa rezerwacja środków"
     }
   ],
   "ui-finance.ledger.rollover.basedOn.remaining": [
@@ -69229,7 +69229,7 @@
   "ui-finance.ledger.rollover.encumbrances": [
     {
       "type": 0,
-      "value": "Przeniesienie obciążeń"
+      "value": "Przeniesienie rezerwacji środków"
     }
   ],
   "ui-finance.ledger.rollover.error.conflict": [
@@ -69359,19 +69359,19 @@
   "ui-finance.ledger.rollover.orderType.onetime": [
     {
       "type": 0,
-      "value": "Obciążenia jednorazowe"
+      "value": "Rezerwacje środków dla zamówień jednorazowych"
     }
   ],
   "ui-finance.ledger.rollover.orderType.ongoing": [
     {
       "type": 0,
-      "value": "Bieżące obciążenia"
+      "value": "Rezerwacje środków dla zamówień trwających"
     }
   ],
   "ui-finance.ledger.rollover.orderType.ongoingSubscription": [
     {
       "type": 0,
-      "value": "Obciążenia bieżącej subskrypcji"
+      "value": "Rezerwacje środków dla subskrypcji trwających"
     }
   ],
   "ui-finance.ledger.rollover.periodBeginDate": [
@@ -69389,19 +69389,19 @@
   "ui-finance.ledger.rollover.restrictEncumbrance": [
     {
       "type": 0,
-      "value": "Nie ograniczaj obciążeń"
+      "value": "Wymuszaj wszystkie limity rezerwacji środków z budżetu"
     }
   ],
   "ui-finance.ledger.rollover.restrictEncumbranceDuringRollover": [
     {
       "type": 0,
-      "value": "Enforce all budget encumbrance limits during rollover"
+      "value": "Wymuszaj wszystkie limity rezerwacji środków podczas przenoszenia budżetu"
     }
   ],
   "ui-finance.ledger.rollover.restrictExpenditures": [
     {
       "type": 0,
-      "value": "Nie ograniczaj wydatków"
+      "value": "Wymuszaj wszystkie limity wydatków"
     }
   ],
   "ui-finance.ledger.rollover.restrictExpendituresDuringRollover": [
@@ -69419,7 +69419,7 @@
   "ui-finance.ledger.rollover.rolloverBudgetValue": [
     {
       "type": 0,
-      "value": "Rollover budget value"
+      "value": "Wartość budżetu po przeniesieniu"
     }
   ],
   "ui-finance.ledger.rollover.rolloverBudgetValue.available": [
@@ -70752,7 +70752,7 @@
   "ui-finance.transaction.initialEncumbrance": [
     {
       "type": 0,
-      "value": "Obciążenie początkowe"
+      "value": "Początkowa rezerwacja środków"
     }
   ],
   "ui-finance.transaction.moveAllocation": [
@@ -70836,7 +70836,7 @@
   "ui-finance.transaction.source.PoLine.number": [
     {
       "type": 0,
-      "value": "Source POL number"
+      "value": "Numer źródłowy pozycji zamówienia"
     }
   ],
   "ui-finance.transaction.source.User": [
@@ -75306,7 +75306,7 @@
   "ui-inn-reach.transaction.field.label.transactionType.patron": [
     {
       "type": 0,
-      "value": "Patron"
+      "value": "Czytelnik"
     }
   ],
   "ui-inn-reach.transaction.field.patronName": [
@@ -75456,7 +75456,7 @@
   "ui-inn-reach.transaction.type.patron": [
     {
       "type": 0,
-      "value": "Patron"
+      "value": "Czytelnik"
     }
   ],
   "ui-inn-reach.transfer-hold.callout.connection-problem.post.transfer-hold": [
@@ -99430,7 +99430,7 @@
   "ui-oa.publicationRequest.correspondingAuthor": [
     {
       "type": 0,
-      "value": "Corresponding author"
+      "value": "Autor do korespondencji"
     }
   ],
   "ui-oa.publicationRequest.correspondingAuthorName": [
@@ -104811,7 +104811,7 @@
   "ui-orders.paneBlock.updateEncumbrances": [
     {
       "type": 0,
-      "value": "Aktualizacja obciążeń"
+      "value": "Aktualizacja rezerwacji środków"
     }
   ],
   "ui-orders.paneMenu.addPOLine": [
@@ -109290,7 +109290,7 @@
   "ui-organizations.data.bankingInformation.transitNumber": [
     {
       "type": 0,
-      "value": "Transit number"
+      "value": "Numer transferu"
     }
   ],
   "ui-organizations.data.contactTypes.address": [
@@ -116305,7 +116305,7 @@
   "ui-plugin-find-package-title.searchPane.filters.publicationType.bookSeries": [
     {
       "type": 0,
-      "value": "Książki w serii"
+      "value": "Wydawnictwa seryjne"
     }
   ],
   "ui-plugin-find-package-title.searchPane.filters.publicationType.database": [
@@ -116675,7 +116675,7 @@
   "ui-plugin-find-user.patron": [
     {
       "type": 0,
-      "value": "Patron"
+      "value": "Czytelnik"
     }
   ],
   "ui-plugin-find-user.searchButton.title": [
@@ -116699,7 +116699,7 @@
   "ui-plugin-find-user.staff": [
     {
       "type": 0,
-      "value": "Staff"
+      "value": "Personel"
     }
   ],
   "ui-plugin-find-user.status": [
@@ -127333,7 +127333,7 @@
   "ui-requests-mediated.form.request.accordionLabel": [
     {
       "type": 0,
-      "value": "Informacje o rezerwacji"
+      "value": "Informacja o rezerwacji"
     }
   ],
   "ui-requests-mediated.form.request.delivery": [
@@ -133149,7 +133149,7 @@
   "ui-serials-management.templates.name": [
     {
       "type": 0,
-      "value": "Name"
+      "value": "Nazwa"
     }
   ],
   "ui-serials-management.templates.newTemplate": [
@@ -136899,7 +136899,7 @@
   "ui-users.accounts.history.columns.remaining": [
     {
       "type": 0,
-      "value": "Pozostało"
+      "value": "Pozostałe"
     }
   ],
   "ui-users.accounts.history.columns.returned": [
@@ -136917,7 +136917,7 @@
   "ui-users.accounts.history.columns.title": [
     {
       "type": 0,
-      "value": "Instancja (typ egzemplarza)"
+      "value": "Tytuł instancji (rodzaj egzemplarza)"
     }
   ],
   "ui-users.accounts.history.columns.type": [
@@ -137881,13 +137881,13 @@
   "ui-users.actionMenu.patronNoticePrintJobs": [
     {
       "type": 0,
-      "value": "Wyświetl zadania drukowania powiadomień czytelników (PDF)"
+      "value": "Podgląd wydruków powiadomień czytelników (PDF)"
     }
   ],
   "ui-users.actionMenu.preRegistrationRecords": [
     {
       "type": 0,
-      "value": "Wyszukaj rekordy wstępnej rejestracji czytelników"
+      "value": "Wyszukaj konta wstępnej rejestracji czytelników"
     }
   ],
   "ui-users.actions": [
@@ -138149,7 +138149,7 @@
   "ui-users.anonymization.confirmation.message": [
     {
       "type": 0,
-      "value": "Wszystkie wypożyczenia dla tego użytkownika zostaną zanonimizowane. Wypożyczenia nie będą już wyświetlane w zamkniętych wypożyczeniach użytkownika. Anonimizacji pożyczek nie można cofnąć."
+      "value": "Wszystkie wypożyczenia dla tego użytkownika zostaną zanonimizowane. Wypożyczenia nie będą już wyświetlane w historii wypożyczeń użytkownika. Anonimizacji wypożyczeń nie można cofnąć."
     }
   ],
   "ui-users.anonymization.error.header": [
@@ -138219,7 +138219,7 @@
   "ui-users.blocks.columns.desc": [
     {
       "type": 0,
-      "value": "Prezentowany opis"
+      "value": "Wyświetl opis"
     }
   ],
   "ui-users.blocks.columns.renewals": [
@@ -138291,7 +138291,7 @@
   "ui-users.blocks.form.label.display": [
     {
       "type": 0,
-      "value": "Wyświetlany opis"
+      "value": "Wyświetl opis"
     }
   ],
   "ui-users.blocks.form.label.information": [
@@ -139176,7 +139176,7 @@
   "ui-users.contact.preferredEmailCommunication": [
     {
       "type": 0,
-      "value": "Preferowany sposób komunikacji emailowej"
+      "value": "Rodzaj informacji wysyłanych e-mailem"
     }
   ],
   "ui-users.contact.preferredEmailCommunication.programs": [
@@ -139458,7 +139458,7 @@
   "ui-users.details.checkDelete": [
     {
       "type": 0,
-      "value": "Sprawdź otwarte transakcje/Usuń użytkownika"
+      "value": "Sprawdź otwarte transakcje/usuń użytkownika"
     }
   ],
   "ui-users.details.checkDelete.confirmation": [
@@ -142289,7 +142289,7 @@
   "ui-users.lostItems.list.columnName.action.actualCostDetails": [
     {
       "type": 0,
-      "value": "Actual cost details"
+      "value": "Szczegóły rzeczywistych kosztów"
     }
   ],
   "ui-users.lostItems.list.columnName.action.bill": [
@@ -142307,7 +142307,7 @@
   "ui-users.lostItems.list.columnName.action.feeFineDetails": [
     {
       "type": 0,
-      "value": "Fee/fine details"
+      "value": "Szczegóły opłaty/kary"
     }
   ],
   "ui-users.lostItems.list.columnName.action.itemDetails": [
@@ -142433,7 +142433,7 @@
   "ui-users.lostItems.list.filters.status.billed": [
     {
       "type": 0,
-      "value": "Obciążone"
+      "value": "Naliczone"
     }
   ],
   "ui-users.lostItems.list.filters.status.cancelled": [
@@ -142469,7 +142469,7 @@
   "ui-users.lostItems.modal.actualCostToBill": [
     {
       "type": 0,
-      "value": "Actual cost to bill patron"
+      "value": "Rzeczywisty koszt do obciążenia czytelnika"
     }
   ],
   "ui-users.lostItems.modal.additionalInformationForPatron": [
@@ -142481,7 +142481,7 @@
   "ui-users.lostItems.modal.additionalInformationForStaff": [
     {
       "type": 0,
-      "value": "Additional information for staff"
+      "value": "Dodatkowe informacje dla personelu"
     }
   ],
   "ui-users.lostItems.modal.bill.confirm.text": [
@@ -143407,7 +143407,7 @@
   "ui-users.permission.financial-transaction-report.execute": [
     {
       "type": 0,
-      "value": "Użytkownicy: tworzenie i pobieranie raportu dotyczącego szczegółów transakcji finansowych"
+      "value": "Użytkownicy: tworzenie i pobieranie raportu szczegółów transakcji finansowych"
     }
   ],
   "ui-users.permission.financialTransactionReport": [
@@ -144560,7 +144560,7 @@
   "ui-users.printLibraryCard": [
     {
       "type": 0,
-      "value": "Print library card"
+      "value": "Drukuj kartę biblioteczną"
     }
   ],
   "ui-users.printLibraryCard.successMessage.withExternallyLinkedProfilePicture": [
@@ -145312,7 +145312,7 @@
   "ui-users.reports.financial.feeFineDetails": [
     {
       "type": 0,
-      "value": "Fee/fine details"
+      "value": "Szczegóły opłaty/kary"
     }
   ],
   "ui-users.reports.financial.feeFineOwner": [
@@ -145484,7 +145484,7 @@
   "ui-users.reports.financial.trans.modal.label": [
     {
       "type": 0,
-      "value": "Financial transaction detail report"
+      "value": "Raport szczegółów transakcji finansowych"
     }
   ],
   "ui-users.reports.financial.trans.modal.owners": [
@@ -145532,7 +145532,7 @@
   "ui-users.reports.financialTransaction.label": [
     {
       "type": 0,
-      "value": "Raport dotyczący szczegółów transakcji finansowych"
+      "value": "Raport szczegółów transakcji finansowych (CSV)"
     }
   ],
   "ui-users.reports.inProgress": [
