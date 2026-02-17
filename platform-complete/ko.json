@@ -16106,7 +16106,7 @@
   "ui-agreements.agreementLine.addCustomCoverageTootlip": [
     {
       "type": 0,
-      "value": "전자자원이 연결되면 Custom 커버리지를 추가할 수 있습니다. "
+      "value": "전자자원이 연결되면 Custom 커버리지를 추가할 수 있습니다."
     }
   ],
   "ui-agreements.agreementLine.basket": [
@@ -17028,7 +17028,7 @@
   "ui-agreements.agreements.export": [
     {
       "type": 0,
-      "value": "내보내기"
+      "value": "내보내기 (JSON)"
     }
   ],
   "ui-agreements.agreements.exportingAgreement": [
@@ -17443,7 +17443,7 @@
   "ui-agreements.basket.update.error.callout": [
     {
       "type": 0,
-      "value": "Unable to add resource(s) to agreement: "
+      "value": "자원을 계약에 추가할 수 없습니다: "
     },
     {
       "type": 1,
@@ -18404,7 +18404,7 @@
   "ui-agreements.emptyAccordion.documents": [
     {
       "type": 0,
-      "value": "No documents for this agreement line "
+      "value": "해당 계약 항목에는 문서가 존재하지 않습니다."
     }
   ],
   "ui-agreements.emptyAccordion.externalLicenses": [
@@ -20243,10 +20243,6 @@
     {
       "type": 1,
       "value": "label"
-    },
-    {
-      "type": 0,
-      "value": " "
     }
   ],
   "ui-agreements.identifier.zdb": [
@@ -20699,8 +20695,12 @@
   ],
   "ui-agreements.line.update.callout": [
     {
+      "type": 1,
+      "value": "name"
+    },
+    {
       "type": 0,
-      "value": "계약 품목이 업데이트되었습니다. "
+      "value": " 계약 품목이 업데이트되었습니다."
     }
   ],
   "ui-agreements.loading": [
@@ -20875,13 +20875,13 @@
   "ui-agreements.operator.isGreaterThanOrEqual": [
     {
       "type": 0,
-      "value": "보다 크거나 같음"
+      "value": "이상"
     }
   ],
   "ui-agreements.operator.isLessThanOrEqual": [
     {
       "type": 0,
-      "value": "보다 작거나 같음"
+      "value": "이하"
     }
   ],
   "ui-agreements.operator.isNot": [
@@ -20899,13 +20899,13 @@
   "ui-agreements.operator.isOnOrAfter": [
     {
       "type": 0,
-      "value": "이나 그 이후"
+      "value": "이후(부터)"
     }
   ],
   "ui-agreements.operator.isOnOrBefore": [
     {
       "type": 0,
-      "value": "이나 그 이전"
+      "value": "이전(까지)"
     }
   ],
   "ui-agreements.operator.isSet": [
@@ -22239,17 +22239,17 @@
   "ui-agreements.remoteKb.actions.viewInLocalKb": [
     {
       "type": 0,
-      "value": "View title in local KB"
+      "value": "local KB 타이틀 보기"
     }
   ],
   "ui-agreements.remoteKb.actions.viewInRemoteKb": [
     {
-      "type": 0,
-      "value": "View title in "
-    },
-    {
       "type": 1,
       "value": "remoteKbName"
+    },
+    {
+      "type": 0,
+      "value": " 타이틀 보기"
     }
   ],
   "ui-agreements.remoteKb.altNames": [
@@ -22303,19 +22303,19 @@
   "ui-agreements.remoteKb.filters.type.book": [
     {
       "type": 0,
-      "value": "Book"
+      "value": "단행본"
     }
   ],
   "ui-agreements.remoteKb.filters.type.database": [
     {
       "type": 0,
-      "value": "Database"
+      "value": "데이터베이스"
     }
   ],
   "ui-agreements.remoteKb.filters.type.journal": [
     {
       "type": 0,
-      "value": "Journal"
+      "value": "저널"
     }
   ],
   "ui-agreements.remoteKb.filters.type.other": [
@@ -22443,7 +22443,7 @@
   "ui-agreements.remoteKb.publisher": [
     {
       "type": 0,
-      "value": "Publisher"
+      "value": "출판사"
     }
   ],
   "ui-agreements.remoteKb.remoteTitleNotFound": [
@@ -23055,6 +23055,16 @@
     }
   ],
   "ui-agreements.supplementaryProperties.callout.delete.supplementaryPropertyInUse": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "오류:"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
     {
       "children": [
         {
@@ -25628,7 +25638,7 @@
   "ui-bulk-edit.layer.options.items.removeNote": [
     {
       "type": 0,
-      "value": "Remove"
+      "value": "삭제하기"
     }
   ],
   "ui-bulk-edit.layer.options.items.true": [
@@ -26333,7 +26343,7 @@
   "ui-bulk-edit.list.filters.recordIdentifier.usernames": [
     {
       "type": 0,
-      "value": "Usernames"
+      "value": "사용자 이름"
     }
   ],
   "ui-bulk-edit.list.logSubTitle": [
@@ -28713,7 +28723,7 @@
   "ui-calendar.calendarForm.exceptions.column.name": [
     {
       "type": 0,
-      "value": "Name"
+      "value": "이름"
     }
   ],
   "ui-calendar.calendarForm.exceptions.column.startDate": [
@@ -31615,7 +31625,7 @@
   "ui-checkin.statuses.declaredLost": [
     {
       "type": 0,
-      "value": "Declared lost"
+      "value": "분실 신고됨"
     }
   ],
   "ui-checkin.statuses.inProcessNonRequestable": [
@@ -32587,7 +32597,7 @@
   "ui-checkout.due.date.change": [
     {
       "type": 0,
-      "value": "System calculated due date adjustment"
+      "value": "시스템에서 계산된 반납일로 조정됩니다."
     }
   ],
   "ui-checkout.end.session": [
@@ -33037,7 +33047,21 @@
     },
     {
       "type": 0,
-      "value": " )가 대출됩니다."
+      "value": " )가 "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "대출"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": "됩니다."
     }
   ],
   "ui-checkout.messages.userHasNoBarcode": [
@@ -33695,7 +33719,7 @@
   "ui-circulation-log.logEvent.action.Changed due date": [
     {
       "type": 0,
-      "value": "Changed due date"
+      "value": "반납 예정일이 변경되었습니다."
     }
   ],
   "ui-circulation-log.logEvent.action.Check in": [
@@ -34547,7 +34571,7 @@
   "ui-circulation.settings.checkout.identifiers.barcode": [
     {
       "type": 0,
-      "value": "Barcode"
+      "value": "바코드"
     }
   ],
   "ui-circulation.settings.checkout.identifiers.externalSystemId": [
@@ -34565,7 +34589,7 @@
   "ui-circulation.settings.checkout.identifiers.username": [
     {
       "type": 0,
-      "value": "Username"
+      "value": "사용자 이름"
     }
   ],
   "ui-circulation.settings.checkout.minutes": [
@@ -34625,7 +34649,7 @@
   "ui-circulation.settings.checkout.validate.selectContinue": [
     {
       "type": 0,
-      "value": "계속하려면 선택하십시오"
+      "value": "항목을 선택해 주세요."
     }
   ],
   "ui-circulation.settings.checkout.validate.timeoutDuration": [
@@ -35011,7 +35035,7 @@
   "ui-circulation.settings.fDDS.editLabel": [
     {
       "type": 0,
-      "value": "Edit: "
+      "value": "편집: "
     },
     {
       "type": 1,
@@ -35026,16 +35050,12 @@
   ],
   "ui-circulation.settings.fDDS.successfulDelete": [
     {
-      "type": 0,
-      "value": "The fixed due date schedule "
-    },
-    {
       "type": 1,
       "value": "name"
     },
     {
       "type": 0,
-      "value": " was successfully "
+      "value": " 기한 일정이 성공적으로 "
     },
     {
       "type": 1,
@@ -35043,7 +35063,7 @@
     },
     {
       "type": 0,
-      "value": "."
+      "value": "었습니다."
     }
   ],
   "ui-circulation.settings.fDDS.successfulDeleteVerb": [
@@ -35183,19 +35203,19 @@
   "ui-circulation.settings.fDDSform.dueDate": [
     {
       "type": 0,
-      "value": "Due date"
+      "value": "반납 예정일"
     }
   ],
   "ui-circulation.settings.fDDSform.entryLabel": [
     {
       "type": 0,
-      "value": "fixed due date schedule"
+      "value": "고정 기한 일정"
     }
   ],
   "ui-circulation.settings.fDDSform.name": [
     {
       "type": 0,
-      "value": "Fixed due date schedule name"
+      "value": "기한 일정 이름"
     }
   ],
   "ui-circulation.settings.fDDSform.new": [
@@ -35207,13 +35227,13 @@
   "ui-circulation.settings.fDDSform.newFixDDSchedule": [
     {
       "type": 0,
-      "value": "Create fixed due date schedule"
+      "value": "기한 일정 생성"
     }
   ],
   "ui-circulation.settings.fDDSform.remove": [
     {
       "type": 0,
-      "value": "Remove"
+      "value": "삭제"
     }
   ],
   "ui-circulation.settings.fDDSform.schedule": [
@@ -35659,7 +35679,7 @@
   "ui-circulation.settings.index.fdds": [
     {
       "type": 0,
-      "value": "Fixed due date schedules"
+      "value": "고정 기한 일정"
     }
   ],
   "ui-circulation.settings.index.feesFines": [
@@ -35689,7 +35709,7 @@
   "ui-circulation.settings.index.loanPolicies": [
     {
       "type": 0,
-      "value": "Loan policies"
+      "value": "대출 정책"
     }
   ],
   "ui-circulation.settings.index.loans": [
@@ -35967,7 +35987,7 @@
   "ui-circulation.settings.loanHistory.validate.selectContinue": [
     {
       "type": 0,
-      "value": "Please select to continue"
+      "value": "항목을 선택해 주세요."
     }
   ],
   "ui-circulation.settings.loanPolicy.about": [
@@ -35985,7 +36005,7 @@
   "ui-circulation.settings.loanPolicy.altFDDSforRenewals": [
     {
       "type": 0,
-      "value": "Alternate fixed due date schedule for renewals"
+      "value": "갱신을 위한 대체 반납일"
     }
   ],
   "ui-circulation.settings.loanPolicy.alternateLoanPeriodExisting": [
@@ -36051,19 +36071,19 @@
   "ui-circulation.settings.loanPolicy.entryLabel": [
     {
       "type": 0,
-      "value": "Loan policy"
+      "value": "대출 정책"
     }
   ],
   "ui-circulation.settings.loanPolicy.fDDS": [
     {
       "type": 0,
-      "value": "Fixed due date schedule"
+      "value": "고정 기한 일정"
     }
   ],
   "ui-circulation.settings.loanPolicy.fDDSlimit": [
     {
       "type": 0,
-      "value": "Fixed due date schedule (due date limit)"
+      "value": "고정 기한 일정 (반납 기한 제한)"
     }
   ],
   "ui-circulation.settings.loanPolicy.forUseAtLocation": [
@@ -36099,7 +36119,7 @@
   "ui-circulation.settings.loanPolicy.loanPeriod": [
     {
       "type": 0,
-      "value": "Loan period"
+      "value": "대출기간"
     }
   ],
   "ui-circulation.settings.loanPolicy.loanProfile": [
@@ -36117,7 +36137,7 @@
   "ui-circulation.settings.loanPolicy.loans": [
     {
       "type": 0,
-      "value": "Loans"
+      "value": "대출"
     }
   ],
   "ui-circulation.settings.loanPolicy.longTermLoan.currentDueDate": [
@@ -36159,7 +36179,7 @@
   "ui-circulation.settings.loanPolicy.paneTitle": [
     {
       "type": 0,
-      "value": "Loan policies"
+      "value": "대출 정책"
     }
   ],
   "ui-circulation.settings.loanPolicy.policyDescription": [
@@ -36237,7 +36257,7 @@
   "ui-circulation.settings.loanPolicy.selectFDDS": [
     {
       "type": 0,
-      "value": "Please select a fixed due date schedule"
+      "value": "기한 일정을 선택하세요."
     }
   ],
   "ui-circulation.settings.loanPolicy.selectInterval": [
@@ -36345,7 +36365,7 @@
   "ui-circulation.settings.lostItemFee.editLabel": [
     {
       "type": 0,
-      "value": "Edit - "
+      "value": "편집-"
     },
     {
       "type": 1,
@@ -36509,7 +36529,7 @@
   "ui-circulation.settings.lostItemFee.returnedLostItemProcessingFee": [
     {
       "type": 0,
-      "value": "If lost item returned or renewed, remove lost item processing fee"
+      "value": "분실물이 반환되거나 갱싱되면, 분실물 처리 수수료를 삭제하세요."
     }
   ],
   "ui-circulation.settings.lostItemFee.selectInterval": [
@@ -36771,7 +36791,7 @@
   "ui-circulation.settings.noticePolicy.loanNotices.manualDueDateChange": [
     {
       "type": 0,
-      "value": "Loan due date change"
+      "value": "대출 반납일 변경"
     }
   ],
   "ui-circulation.settings.noticePolicy.loanNotices.renewed": [
@@ -37077,13 +37097,13 @@
   "ui-circulation.settings.patronNotices.feeFineActionTokenHeader": [
     {
       "type": 0,
-      "value": "Fee/fine action"
+      "value": "수수료/벌금 처리"
     }
   ],
   "ui-circulation.settings.patronNotices.feeFineChargeTokenHeader": [
     {
       "type": 0,
-      "value": "Fee/fine charge"
+      "value": "수수로/벌금 부과"
     }
   ],
   "ui-circulation.settings.patronNotices.form.previewHeader": [
@@ -37249,7 +37269,7 @@
   "ui-circulation.settings.requestManagement.allowRecallsToExtendOverdueLoans": [
     {
       "type": 0,
-      "value": "Allow recalls to extend due dates for overdue loans"
+      "value": "연체 자료에 대해 리콜 시 반납 예정일 연장 허용"
     }
   ],
   "ui-circulation.settings.requestManagement.alternateCheckoutLoanPeriod": [
@@ -38041,7 +38061,7 @@
   "ui-circulation.settings.validate.greaterThanOrEqualToZero": [
     {
       "type": 0,
-      "value": "The value must be greater than or equal to 0"
+      "value": "값은 0 이상이어야 합니다."
     }
   ],
   "ui-circulation.settings.validate.greaterThanZero": [
@@ -38071,7 +38091,7 @@
   "ui-circulation.settings.validate.lostItem": [
     {
       "type": 0,
-      "value": "Required if there is a possibility of no fee/fine being charged for a lost item"
+      "value": "분실물에 수수료/벌금이 부과되지 않을 수 있는 경우 반드시 입력해야 합니다."
     }
   ],
   "ui-circulation.settings.validate.select": [
@@ -38436,13 +38456,13 @@
   "ui-claims.claiming.results.columns.vendorCode": [
     {
       "type": 0,
-      "value": "Organization code"
+      "value": "공급사 코드"
     }
   ],
   "ui-claims.claiming.results.columns.vendorName": [
     {
       "type": 0,
-      "value": "Organization name"
+      "value": "공급사 이름"
     }
   ],
   "ui-claims.claiming.results.title": [
@@ -38555,7 +38575,7 @@
   "ui-claims.meta.title": [
     {
       "type": 0,
-      "value": "Claiming"
+      "value": "클레임 (Claiming)"
     }
   ],
   "ui-claims.permission.claiming.view": [
@@ -41656,8 +41676,36 @@
   ],
   "ui-courses.accordion.reserves": [
     {
+      "type": 1,
+      "value": "count"
+    },
+    {
       "type": 0,
-      "value": "항목"
+      "value": " "
+    },
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "item"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "items"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "count"
     }
   ],
   "ui-courses.accordion.reserves.help": [
@@ -45279,7 +45327,7 @@
   "ui-data-export.error.mapping.fieldsMappingInventoryWithReason": [
     {
       "type": 0,
-      "value": "An error occurred during fields mapping for inventory record: Affected field: fieldName - "
+      "value": "인벤토리 레코드의 필드 매핑 중 오류가 발생했습니다: 관련 필드: 필드명-"
     },
     {
       "type": 1,
@@ -45287,7 +45335,7 @@
     },
     {
       "type": 0,
-      "value": ", fieldValue - "
+      "value": ", 필드값-"
     },
     {
       "type": 1,
@@ -45447,15 +45495,11 @@
   "ui-data-export.error.someRecordsFailed": [
     {
       "type": 0,
-      "value": "Failed records number: "
+      "value": "처리 실패 레코드 수: "
     },
     {
       "type": 1,
       "value": "value1"
-    },
-    {
-      "type": 0,
-      "value": "."
     }
   ],
   "ui-data-export.error.tenantNotFoundForHolding": [
@@ -45531,15 +45575,11 @@
   "ui-data-export.error.uuidsNotFound": [
     {
       "type": 0,
-      "value": "Record not found: "
+      "value": "레코드를 찾을 수 없습니다: "
     },
     {
       "type": 1,
       "value": "value1"
-    },
-    {
-      "type": 0,
-      "value": "."
     }
   ],
   "ui-data-export.errorLogs.inventoryRecordLink": [
@@ -46850,12 +46890,12 @@
   ],
   "ui-data-export.jobProfiles.editProfile": [
     {
-      "type": 0,
-      "value": "Edit "
-    },
-    {
       "type": 1,
       "value": "name"
+    },
+    {
+      "type": 0,
+      "value": " 편집"
     }
   ],
   "ui-data-export.jobProfiles.newProfile": [
@@ -47473,7 +47513,7 @@
   "ui-data-export.name": [
     {
       "type": 0,
-      "value": "Name"
+      "value": "이름"
     }
   ],
   "ui-data-export.noRunningJobsMessage": [
@@ -48386,7 +48426,7 @@
   "ui-data-import.fieldMappingsForMarc.updatesOverrides.subtext": [
     {
       "type": 0,
-      "value": "If any protected field should be updated by this profile, check the appropriate box here"
+      "value": "이 프로필에서 보호 필드를 수정하도록 허용하려면, 아래에서 해당 항목을 선택해 주세요."
     }
   ],
   "ui-data-import.fileDefinitionDeleteError": [
@@ -48420,7 +48460,7 @@
   "ui-data-import.fileName": [
     {
       "type": 0,
-      "value": "File name"
+      "value": "파일 이름"
     }
   ],
   "ui-data-import.filter.chooseJobProfile": [
@@ -49197,13 +49237,13 @@
   "ui-data-import.match.incoming.MARC.field-in1": [
     {
       "type": 0,
-      "value": "In. 1"
+      "value": "제1지시기호"
     }
   ],
   "ui-data-import.match.incoming.MARC.field-in2": [
     {
       "type": 0,
-      "value": "In. 2"
+      "value": "제2지시기호"
     }
   ],
   "ui-data-import.match.incoming.MARC.field-main": [
@@ -50047,13 +50087,13 @@
   "ui-data-import.name": [
     {
       "type": 0,
-      "value": "Name"
+      "value": "이름"
     }
   ],
   "ui-data-import.noFileName": [
     {
       "type": 0,
-      "value": "No file name"
+      "value": "파일 이름 없음"
     }
   ],
   "ui-data-import.noPreviewsJobsMessage": [
@@ -51085,7 +51125,7 @@
   "ui-data-import.settings.mappingProfile.marcTable.subaction.remove": [
     {
       "type": 0,
-      "value": "Remove"
+      "value": "삭제하기"
     }
   ],
   "ui-data-import.settings.mappingProfile.marcTable.subaction.replace": [
@@ -51612,7 +51652,7 @@
   "ui-data-import.settings.mappingProfiles.map.instance.contributors.field.contributorName": [
     {
       "type": 0,
-      "value": "Name"
+      "value": "이름"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.instance.contributors.field.contributorNameTypeId": [
@@ -52388,7 +52428,7 @@
   "ui-data-import.settings.mappingProfiles.map.invoice.vendorInformation.field.vendorName": [
     {
       "type": 0,
-      "value": "Vendor name"
+      "value": "공급사 이름"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.invoice.vendorInformation.section": [
@@ -54860,7 +54900,7 @@
   "ui-data-import.settings.matchProfiles.createdBy": [
     {
       "type": 0,
-      "value": "Created by"
+      "value": "생성자"
     }
   ],
   "ui-data-import.settings.matchProfiles.createdDateAndTime": [
@@ -56162,7 +56202,7 @@
   "ui-data-import.viewAllLogs": [
     {
       "type": 0,
-      "value": "View all logs"
+      "value": "전체 로그 보기"
     }
   ],
   "ui-data-import.waitingForUpload": [
@@ -56184,7 +56224,7 @@
     },
     {
       "type": 0,
-      "value": " will be deleted"
+      "value": " 삭제될 예정입니다."
     }
   ],
   "ui-developer.DO_NOT_TRANSLATE": [
@@ -56384,7 +56424,7 @@
   "ui-developer.configuration": [
     {
       "type": 0,
-      "value": "Configuration"
+      "value": "환경설정"
     }
   ],
   "ui-developer.configuration.actAsRoot": [
@@ -56652,7 +56692,7 @@
   "ui-developer.okapiConfigurationEntries.loading": [
     {
       "type": 0,
-      "value": "Loading configurations..."
+      "value": "설정 불러오는 중..."
     }
   ],
   "ui-developer.okapiConfigurationEntries.module": [
@@ -57326,7 +57366,7 @@
   "ui-developer.passwd.username": [
     {
       "type": 0,
-      "value": "Username"
+      "value": "사용자 이름"
     }
   ],
   "ui-developer.permission.settings.configuration": [
@@ -57681,7 +57721,7 @@
   "ui-developer.schedulerTimers.delay": [
     {
       "type": 0,
-      "value": "Delay"
+      "value": "지연"
     }
   ],
   "ui-developer.schedulerTimers.id": [
@@ -57741,7 +57781,7 @@
   "ui-developer.sessionLocale": [
     {
       "type": 0,
-      "value": "Session locale"
+      "value": "Session 지역/언어 설정"
     }
   ],
   "ui-developer.sessionLocale.temporarySessionLocale": [
@@ -57813,7 +57853,7 @@
   "ui-developer.stripesInspector": [
     {
       "type": 0,
-      "value": "Stripes inspector"
+      "value": "Stripes UI 디버깅 도구(인스펙터)"
     }
   ],
   "ui-developer.translations": [
@@ -57825,7 +57865,7 @@
   "ui-developer.userLocale": [
     {
       "type": 0,
-      "value": "User locale"
+      "value": "사용자 지역/언어 설정"
     }
   ],
   "ui-developer.userLocale.currency": [
@@ -59065,7 +59105,7 @@
   "ui-eholdings.label.create.title": [
     {
       "type": 0,
-      "value": "새로운 커스텀 타이틀 "
+      "value": "새로운 커스텀 타이틀"
     }
   ],
   "ui-eholdings.label.custom.coverageDates": [
@@ -59991,7 +60031,7 @@
   "ui-eholdings.package.partiallySelected": [
     {
       "type": 1,
-      "value": "selectedCount"
+      "value": "titleCount"
     },
     {
       "type": 0,
@@ -59999,11 +60039,11 @@
     },
     {
       "type": 1,
-      "value": "titleCount"
+      "value": "selectedCount"
     },
     {
       "type": 0,
-      "value": " 개 선택됨"
+      "value": "개 선택됨"
     }
   ],
   "ui-eholdings.package.provider": [
@@ -61100,7 +61140,7 @@
     },
     {
       "type": 0,
-      "value": " 을 할당 해제하시겠습니까? "
+      "value": " 을 할당 해제하시겠습니까?"
     }
   ],
   "ui-eholdings.settings.assignedUsers.confirmationModal.title": [
@@ -61754,7 +61794,7 @@
   "ui-eholdings.title.create.paneTitle": [
     {
       "type": 0,
-      "value": "새로운 커스텀 타이틀 "
+      "value": "새로운 커스텀 타이틀"
     }
   ],
   "ui-eholdings.title.description": [
@@ -61946,7 +61986,7 @@
   "ui-eholdings.usageConsolidation.filters.year": [
     {
       "type": 0,
-      "value": "년"
+      "value": "연도"
     }
   ],
   "ui-eholdings.usageConsolidation.fullTextRequestUsageTable": [
@@ -63768,49 +63808,49 @@
   "ui-erm-usage.counter.upload.error.INVALID_REPORT_CONTENT": [
     {
       "type": 0,
-      "value": "The report content is invalid."
+      "value": "보고서 내용이 유효하지 않습니다."
     }
   ],
   "ui-erm-usage.counter.upload.error.MAXIMUM_FILESIZE_EXCEEDED": [
     {
       "type": 0,
-      "value": "The file size exceeds the maximum allowed size."
+      "value": "파일 용량이 제한을 초과했습니다."
     }
   ],
   "ui-erm-usage.counter.upload.error.MULTIPLE_FILES_NOT_SUPPORTED": [
     {
       "type": 0,
-      "value": "Upload of multiple files is not supported."
+      "value": "여러 파일 업로드는 지원되지 않습니다."
     }
   ],
   "ui-erm-usage.counter.upload.error.OTHER": [
     {
       "type": 0,
-      "value": "The report could not be processed."
+      "value": "보고서를 처리할 수 없습니다."
     }
   ],
   "ui-erm-usage.counter.upload.error.REPORTS_ALREADY_PRESENT": [
     {
       "type": 0,
-      "value": "One or more reports already exist for the time period."
+      "value": "선택한 기간에 이미 보고서가 있습니다."
     }
   ],
   "ui-erm-usage.counter.upload.error.UNSUPPORTED_FILE_FORMAT": [
     {
       "type": 0,
-      "value": "The file format is not supported."
+      "value": "지원하지 않는 파일 형식입니다."
     }
   ],
   "ui-erm-usage.counter.upload.error.UNSUPPORTED_REPORT_RELEASE": [
     {
       "type": 0,
-      "value": "The COUNTER Release version is not supported."
+      "value": "해당 COUNTER Release 버전은 지원되지 않습니다."
     }
   ],
   "ui-erm-usage.counter.upload.error.UNSUPPORTED_REPORT_TYPE": [
     {
       "type": 0,
-      "value": "The report type is not supported."
+      "value": "지원하지 않는 보고서 유형입니다."
     }
   ],
   "ui-erm-usage.credentials.apiKey": [
@@ -64012,7 +64052,7 @@
   "ui-erm-usage.general.moreInformation": [
     {
       "type": 0,
-      "value": "More information"
+      "value": "자세히 보기"
     }
   ],
   "ui-erm-usage.general.no": [
@@ -64859,8 +64899,52 @@
   ],
   "ui-erm-usage.report.upload.info": [
     {
+      "children": [
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Counter 4 (XML, CSV)"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "type": 0,
+          "value": ", "
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Counter 5 (JSON, CSV)"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        },
+        {
+          "type": 0,
+          "value": " 또는 "
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Counter 5.1 (JSON, CSV, TSV, XLSX)"
+            }
+          ],
+          "type": 8,
+          "value": "li"
+        }
+      ],
+      "type": 8,
+      "value": "ul"
+    },
+    {
       "type": 0,
-      "value": "Counter 4 (XML 및 CSV) 또는 Counter 5 (JSON 및 CSV) 이용통계를 업로드 할 수 있습니다."
+      "value": "이용통계를 업로드 할 수 있습니다."
     }
   ],
   "ui-erm-usage.report.upload.modal.label": [
@@ -64872,7 +64956,7 @@
   "ui-erm-usage.report.upload.modal.label.failed": [
     {
       "type": 0,
-      "value": "File upload failed"
+      "value": "파일 업로드에 실패했습니다."
     }
   ],
   "ui-erm-usage.report.upload.reportExists": [
@@ -64884,7 +64968,7 @@
   "ui-erm-usage.report.upload.selectAnotherFile": [
     {
       "type": 0,
-      "value": "Select another file to upload"
+      "value": "업로드할 다른 파일을 선택해 주세요."
     }
   ],
   "ui-erm-usage.report.upload.selectFile": [
@@ -65881,7 +65965,7 @@
   "ui-erm-usage.udp.form.harvestingConfig.noAggInfoText": [
     {
       "type": 0,
-      "value": " 'Harvest via'에 따른 '서비스 유형', 'Aggregator' 담당자를 지정하세요. "
+      "value": "'Harvest via'에 따른 '서비스 유형', 'Aggregator' 담당자를 지정하세요."
     }
   ],
   "ui-erm-usage.udp.form.harvestingConfig.vendorCode": [
@@ -69873,7 +69957,7 @@
   "ui-finance.ledger.search.name": [
     {
       "type": 0,
-      "value": "Name"
+      "value": "이름"
     }
   ],
   "ui-finance.ledger.status": [
@@ -70670,11 +70754,21 @@
     },
     {
       "type": 0,
-      "value": " "
+      "value": "금액이 "
     },
     {
-      "type": 1,
-      "value": "budgetName"
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "budgetName"
+        }
+      ],
+      "type": 8,
+      "value": "b"
     },
     {
       "type": 0,
@@ -71174,15 +71268,25 @@
     },
     {
       "type": 0,
-      "value": " "
+      "value": "금액이 "
     },
     {
-      "type": 1,
-      "value": "budgetName"
+      "children": [
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "budgetName"
+        }
+      ],
+      "type": 8,
+      "value": "b"
     },
     {
       "type": 0,
-      "value": " 예산으로 성공적으로 이체되지 않았습니다."
+      "value": "예산으로 성공적으로 이체되지 않았습니다."
     }
   ],
   "ui-finance.transaction.transfer.hasBeenCreated": [
@@ -71192,15 +71296,21 @@
     },
     {
       "type": 0,
-      "value": " "
+      "value": "금액이  "
     },
     {
-      "type": 1,
-      "value": "budgetName"
+      "children": [
+        {
+          "type": 1,
+          "value": "budgetName"
+        }
+      ],
+      "type": 8,
+      "value": "b"
     },
     {
       "type": 0,
-      "value": " 예산으로 성공적으로 이체되었습니다."
+      "value": "예산으로 성공적으로 이체되었습니다."
     }
   ],
   "ui-finance.transaction.transfer.missingFundId": [
@@ -71391,12 +71501,12 @@
   ],
   "ui-gobi-settings.mappingConfig.edit.paneTitle": [
     {
-      "type": 0,
-      "value": "Edit "
-    },
-    {
       "type": 1,
       "value": "name"
+    },
+    {
+      "type": 0,
+      "value": " 편집"
     }
   ],
   "ui-gobi-settings.mappingConfig.update.error": [
@@ -72470,7 +72580,7 @@
   "ui-inn-reach.check-out-borrowing-site.action.change-due-date": [
     {
       "type": 0,
-      "value": "Change due date"
+      "value": "반납일 수정"
     }
   ],
   "ui-inn-reach.check-out-borrowing-site.action.loan-detail": [
@@ -72542,7 +72652,7 @@
   "ui-inn-reach.check-out-borrowing-site.column.due-date": [
     {
       "type": 0,
-      "value": "Due Date"
+      "value": "반납 예정일"
     }
   ],
   "ui-inn-reach.check-out-borrowing-site.column.loan-policy": [
@@ -72834,7 +72944,7 @@
   "ui-inn-reach.reports.loanDueDate": [
     {
       "type": 0,
-      "value": "Loan Due Date"
+      "value": "대출 반납일 변경"
     }
   ],
   "ui-inn-reach.reports.modal.button.cancel": [
@@ -73406,13 +73516,13 @@
   "ui-inn-reach.settings.central-server-configuration.action.delete": [
     {
       "type": 0,
-      "value": "Delete"
+      "value": "삭제"
     }
   ],
   "ui-inn-reach.settings.central-server-configuration.action.edit": [
     {
       "type": 0,
-      "value": "Edit"
+      "value": "편집"
     }
   ],
   "ui-inn-reach.settings.central-server-configuration.callout.connectionProblem.delete": [
@@ -73424,7 +73534,7 @@
   "ui-inn-reach.settings.central-server-configuration.callout.connectionProblem.get": [
     {
       "type": 0,
-      "value": "Unable to get data due to a module error. Please try again. If a problem persists please contact your system administrator"
+      "value": "모듈 오류로 데이터 조회에 실패했습니다. 반복될 경우 시스템 관리자에게 문의하세요."
     }
   ],
   "ui-inn-reach.settings.central-server-configuration.callout.connectionProblem.post": [
@@ -73466,13 +73576,13 @@
   "ui-inn-reach.settings.central-server-configuration.create-edit.accordion.generalInformation.title": [
     {
       "type": 0,
-      "value": "General information"
+      "value": "일반 정보"
     }
   ],
   "ui-inn-reach.settings.central-server-configuration.create-edit.accordion.serverConnection.title": [
     {
       "type": 0,
-      "value": "Server connection"
+      "value": "서버 연결"
     }
   ],
   "ui-inn-reach.settings.central-server-configuration.create-edit.button.cancel": [
@@ -73562,7 +73672,7 @@
   "ui-inn-reach.settings.central-server-configuration.create-edit.field.name": [
     {
       "type": 0,
-      "value": "Name"
+      "value": "이름"
     }
   ],
   "ui-inn-reach.settings.central-server-configuration.create-edit.validation.fiveCharacterStringLowerCase": [
@@ -73574,7 +73684,7 @@
   "ui-inn-reach.settings.central-server-configuration.create.success": [
     {
       "type": 0,
-      "value": "Central Server configuration created successfully"
+      "value": "중앙 서버 설정이 정상적으로 생성되었습니다."
     }
   ],
   "ui-inn-reach.settings.central-server-configuration.create.title.newCentralServerConfig": [
@@ -73628,7 +73738,7 @@
   "ui-inn-reach.settings.central-server-configuration.list.field.name": [
     {
       "type": 0,
-      "value": "Name"
+      "value": "이름"
     }
   ],
   "ui-inn-reach.settings.central-server-configuration.local-agency.field.code": [
@@ -73658,19 +73768,19 @@
   "ui-inn-reach.settings.central-server-configuration.view.accordion.server-connection.title": [
     {
       "type": 0,
-      "value": "Server connection"
+      "value": "서버 연결"
     }
   ],
   "ui-inn-reach.settings.central-server-configuration.view.field.address": [
     {
       "type": 0,
-      "value": "Central server address"
+      "value": "중앙 서버 주소"
     }
   ],
   "ui-inn-reach.settings.central-server-configuration.view.field.description": [
     {
       "type": 0,
-      "value": "Description"
+      "value": "설명"
     }
   ],
   "ui-inn-reach.settings.central-server-configuration.view.field.loan-type": [
@@ -73688,19 +73798,19 @@
   "ui-inn-reach.settings.central-server-configuration.view.field.name": [
     {
       "type": 0,
-      "value": "Name"
+      "value": "이름"
     }
   ],
   "ui-inn-reach.settings.central-server-configuration.view.notFound.text": [
     {
       "type": 0,
-      "value": "You have an invalid URL address. Please, review the syntax or parameters of the URL path and try another one."
+      "value": "유효하지 않은 URL입니다. URL경로의 형식 또는 파라미터를 확인하고 다른 URL을 사용하세요."
     }
   ],
   "ui-inn-reach.settings.central-server-configuration.view.notFound.title": [
     {
       "type": 0,
-      "value": "View"
+      "value": "보기"
     }
   ],
   "ui-inn-reach.settings.central-server.configuration": [
@@ -73735,12 +73845,12 @@
   ],
   "ui-inn-reach.settings.central-servers.view.title": [
     {
-      "type": 0,
-      "value": "View "
-    },
-    {
       "type": 1,
       "value": "name"
+    },
+    {
+      "type": 0,
+      "value": "보기"
     }
   ],
   "ui-inn-reach.settings.circulation-mappings": [
@@ -73758,25 +73868,25 @@
   "ui-inn-reach.settings.confirmDeleteModal.central-server-configuration.cancel": [
     {
       "type": 0,
-      "value": "Cancel"
+      "value": "취소"
     }
   ],
   "ui-inn-reach.settings.confirmDeleteModal.central-server-configuration.confirm": [
     {
       "type": 0,
-      "value": "Delete"
+      "value": "삭제"
     }
   ],
   "ui-inn-reach.settings.confirmDeleteModal.central-server-configuration.heading": [
     {
       "type": 0,
-      "value": "Confirm deletion of central server configuration"
+      "value": "중앙 서버 설정을 삭제하시겠습니까?"
     }
   ],
   "ui-inn-reach.settings.confirmDeleteModal.central-server-configuration.message": [
     {
       "type": 0,
-      "value": "Central server configuration "
+      "value": "중앙 서버 설정 "
     },
     {
       "type": 1,
@@ -73784,7 +73894,7 @@
     },
     {
       "type": 0,
-      "value": " will be removed."
+      "value": "이 삭제되었습니다."
     }
   ],
   "ui-inn-reach.settings.contribution-criteria": [
@@ -74180,7 +74290,7 @@
   "ui-inn-reach.settings.general": [
     {
       "type": 0,
-      "value": "General"
+      "value": "일반"
     }
   ],
   "ui-inn-reach.settings.inn-reach-recall-user": [
@@ -74842,7 +74952,7 @@
   "ui-inn-reach.settings.some-feature.message": [
     {
       "type": 0,
-      "value": "These are your settings for some app feature."
+      "value": "다음은 특정 앱 기능에 대한 설정입니다."
     }
   ],
   "ui-inn-reach.settings.title": [
@@ -74944,7 +75054,7 @@
   "ui-inn-reach.settings.visible-patron-id.validate.select-to-continue": [
     {
       "type": 0,
-      "value": "Please select to continue"
+      "value": "항목을 선택해 주세요."
     }
   ],
   "ui-inn-reach.shipped-items.action.print-hold-slip": [
@@ -75847,7 +75957,7 @@
   "ui-inventory.acq.acqUnit": [
     {
       "type": 0,
-      "value": "Acquisition unit"
+      "value": "수서 단위"
     }
   ],
   "ui-inventory.acq.averageCost": [
@@ -76489,13 +76599,13 @@
   "ui-inventory.barcode": [
     {
       "type": 0,
-      "value": "Barcode"
+      "value": "바코드"
     }
   ],
   "ui-inventory.barcodeTaken": [
     {
       "type": 0,
-      "value": "This barcode has already been taken"
+      "value": "이 바코드는 이미 등록되어 있습니다."
     }
   ],
   "ui-inventory.binding": [
@@ -77397,7 +77507,7 @@
   "ui-inventory.copycat.reimport": [
     {
       "type": 0,
-      "value": "Re-import"
+      "value": "다시 가져오기"
     }
   ],
   "ui-inventory.createHoldingsRecord": [
@@ -77559,13 +77669,13 @@
   "ui-inventory.discoverySuppress": [
     {
       "type": 0,
-      "value": "Suppress from discovery"
+      "value": "검색 결과에 숨김"
     }
   ],
   "ui-inventory.discoverySuppressed": [
     {
       "type": 0,
-      "value": "Suppressed from discovery"
+      "value": "검색결과에서 제외"
     }
   ],
   "ui-inventory.displaySummary": [
@@ -77935,7 +78045,7 @@
   "ui-inventory.fillIn": [
     {
       "type": 0,
-      "value": "Please fill this in to continue"
+      "value": "계속 진행하려면 해당 항목을 입력해 주세요."
     }
   ],
   "ui-inventory.filter.tags": [
@@ -79162,7 +79272,7 @@
   "ui-inventory.item.availability.dueDate": [
     {
       "type": 0,
-      "value": "Due date"
+      "value": "반납 예정일"
     }
   ],
   "ui-inventory.item.availability.itemStatus": [
@@ -79180,7 +79290,7 @@
   "ui-inventory.item.availability.loanDate": [
     {
       "type": 0,
-      "value": "Loan date"
+      "value": "대출일"
     }
   ],
   "ui-inventory.item.availability.requests": [
@@ -79192,7 +79302,7 @@
   "ui-inventory.item.barcode": [
     {
       "type": 0,
-      "value": "Item: barcode"
+      "value": "Item: 바코드"
     }
   ],
   "ui-inventory.item.loanAndAvailability": [
@@ -79552,7 +79662,7 @@
   "ui-inventory.itemBarcode": [
     {
       "type": 0,
-      "value": "Item barcode"
+      "value": "Item 바코드"
     }
   ],
   "ui-inventory.itemCallNumber": [
@@ -79786,7 +79896,7 @@
   "ui-inventory.items.successfullyCopiedMessage": [
     {
       "type": 0,
-      "value": "The item barcode "
+      "value": "아이템 바코드 "
     },
     {
       "type": 1,
@@ -79794,7 +79904,7 @@
     },
     {
       "type": 0,
-      "value": " was successfully copied to the clipboard"
+      "value": " 가 클리보드에 복사되었습니다."
     }
   ],
   "ui-inventory.itemsOnHoldingsRecordDeleteModal.message": [
@@ -80252,7 +80362,7 @@
   "ui-inventory.moveEntity.instance.dropZone": [
     {
       "type": 0,
-      "value": "Drop holdings here"
+      "value": "여기로 소장 항목을 드래그하세요."
     }
   ],
   "ui-inventory.moveEntity.instance.holdings.error": [
@@ -80392,13 +80502,13 @@
   "ui-inventory.moveEntity.items.dropZone": [
     {
       "type": 0,
-      "value": "Drop items here"
+      "value": "여기로 항목을 드래그하세요."
     }
   ],
   "ui-inventory.moveEntity.modal.confirmLabel": [
     {
       "type": 0,
-      "value": "Continue"
+      "value": "계속"
     }
   ],
   "ui-inventory.moveEntity.modal.message.hasLinkedPOLsOrHoldings": [
@@ -80496,7 +80606,7 @@
   "ui-inventory.moveEntity.modal.title": [
     {
       "type": 0,
-      "value": "Confirm move"
+      "value": "이동을 확인"
     }
   ],
   "ui-inventory.moveEntity.move.holdings.count": [
@@ -81082,7 +81192,7 @@
   "ui-inventory.noBarcode": [
     {
       "type": 0,
-      "value": "No barcode"
+      "value": "바코드 없음"
     }
   ],
   "ui-inventory.noHoldingsRecordDeleteModal.message": [
@@ -82387,7 +82497,7 @@
   "ui-inventory.remove": [
     {
       "type": 0,
-      "value": "Remove"
+      "value": "삭제"
     }
   ],
   "ui-inventory.removeCopyNumbre": [
@@ -82413,11 +82523,15 @@
   "ui-inventory.removeNotes": [
     {
       "type": 0,
-      "value": "Remove notes "
+      "value": "노트 "
     },
     {
       "type": 1,
       "value": "num"
+    },
+    {
+      "type": 0,
+      "value": " 제거"
     }
   ],
   "ui-inventory.removeStatement": [
@@ -82433,7 +82547,7 @@
   "ui-inventory.reports.inTransitItem.barcode": [
     {
       "type": 0,
-      "value": "Item barcode"
+      "value": "Item 바코드"
     }
   ],
   "ui-inventory.reports.inTransitItem.callNumber": [
@@ -82976,7 +83090,7 @@
   "ui-inventory.selectToContinue": [
     {
       "type": 0,
-      "value": "Please select to continue"
+      "value": "항목을 선택해 주세요."
     }
   ],
   "ui-inventory.selectType": [
@@ -83488,7 +83602,7 @@
   "ui-inventory.staffSuppressed": [
     {
       "type": 0,
-      "value": "Staff suppressed"
+      "value": "직원용 숨김처리"
     }
   ],
   "ui-inventory.statisticalCode": [
@@ -84674,19 +84788,19 @@
   "ui-invoice.filter.createdBy": [
     {
       "type": 0,
-      "value": "Created by"
+      "value": "생성자"
     }
   ],
   "ui-invoice.filter.dateCreated": [
     {
       "type": 0,
-      "value": "Date created"
+      "value": "생성 날짜"
     }
   ],
   "ui-invoice.filter.dateUpdated": [
     {
       "type": 0,
-      "value": "Date updated"
+      "value": "수정일"
     }
   ],
   "ui-invoice.filter.invoiceLine.createdBy": [
@@ -84716,7 +84830,7 @@
   "ui-invoice.filter.updatedBy": [
     {
       "type": 0,
-      "value": "Updated by"
+      "value": "수정자"
     }
   ],
   "ui-invoice.find-po-line-plugin-unavailable": [
@@ -84963,8 +85077,18 @@
   ],
   "ui-invoice.invoice.actions.approve.error.fundCannotBePaid": [
     {
+      "children": [
+        {
+          "type": 1,
+          "value": "fundCodes"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
       "type": 0,
-      "value": "예산에 충분한 돈이 없기 때문에 이 인보이스에 있는 하나 이상의 기금 분배를 지불 할 수 없습니다."
+      "value": "예산에 충분한 돈이 없기 때문에 이 인보이스에 있는 하나 이상의 기금 분배를 지불할 수 없습니다."
     }
   ],
   "ui-invoice.invoice.actions.approve.error.fundDistributionsNotPresent": [
@@ -85564,29 +85688,7 @@
   "ui-invoice.invoice.actions.saveLine.error.budgetNotFoundByFundId": [
     {
       "type": 0,
-      "value": "기금 "
-    },
-    {
-      "children": [
-        {
-          "type": 0,
-          "value": " "
-        },
-        {
-          "type": 1,
-          "value": "fundCode"
-        },
-        {
-          "type": 0,
-          "value": " "
-        }
-      ],
-      "type": 8,
-      "value": "b"
-    },
-    {
-      "type": 0,
-      "value": " 에 현재 예산이 없기 때문에 인보이스 라인을 저장할 수 없습니다."
+      "value": "인보이스가 회계 연도에 할당되지 않아 저장할 수 없습니다."
     }
   ],
   "ui-invoice.invoice.actions.saveLine.error.budgetNotFoundByFundIdAndFiscalYearId": [
@@ -85730,7 +85832,7 @@
   "ui-invoice.invoice.dateCreated": [
     {
       "type": 0,
-      "value": "생성된 날짜"
+      "value": "생성 날짜"
     }
   ],
   "ui-invoice.invoice.delete.confirmLabel": [
@@ -88075,7 +88177,7 @@
   "ui-ldp.button.add-filter": [
     {
       "type": 0,
-      "value": "Add filter"
+      "value": "필터 추가"
     }
   ],
   "ui-ldp.button.add-join-table": [
@@ -88159,7 +88261,7 @@
   "ui-ldp.button.submitted": [
     {
       "type": 0,
-      "value": "Submitted"
+      "value": "제출"
     }
   ],
   "ui-ldp.copy-of": [
@@ -88605,7 +88707,7 @@
   "ui-ldp.noperm": [
     {
       "type": 0,
-      "value": "You do not have permission to access any part of this app"
+      "value": "이 앱을 사용할 권한이 없습니다."
     }
   ],
   "ui-ldp.nulls": [
@@ -88728,12 +88830,12 @@
   ],
   "ui-ldp.save-query.update.ok": [
     {
-      "type": 0,
-      "value": "Saved query "
-    },
-    {
       "type": 1,
       "value": "displayName"
+    },
+    {
+      "type": 0,
+      "value": " 쿼리 저장됨"
     }
   ],
   "ui-ldp.saved-queries.autoRun": [
@@ -88751,7 +88853,7 @@
   "ui-ldp.saved-queries.created": [
     {
       "type": 0,
-      "value": "Date created"
+      "value": "생성 날짜"
     }
   ],
   "ui-ldp.saved-queries.creator": [
@@ -88843,7 +88945,7 @@
   "ui-ldp.saved-queries.displayName": [
     {
       "type": 0,
-      "value": "Display name"
+      "value": "표시 이름"
     }
   ],
   "ui-ldp.saved-queries.name": "Filename",
@@ -88856,7 +88958,7 @@
   "ui-ldp.saved-queries.updater": [
     {
       "type": 0,
-      "value": "Last updated by"
+      "value": "최근 업데이트"
     }
   ],
   "ui-ldp.settings.dbinfo": [
@@ -88886,7 +88988,7 @@
   "ui-ldp.settings.dbinfo.user": [
     {
       "type": 0,
-      "value": "Username"
+      "value": "사용자 이름"
     }
   ],
   "ui-ldp.settings.record-limits": [
@@ -89350,7 +89452,7 @@
   "ui-licenses.content.filter.addFilter": [
     {
       "type": 0,
-      "value": "Add filter"
+      "value": "필터 추가"
     }
   ],
   "ui-licenses.content.filter.amendmentContent": [
@@ -89362,19 +89464,19 @@
   "ui-licenses.content.filter.has": [
     {
       "type": 0,
-      "value": "Has"
+      "value": "설정됨"
     }
   ],
   "ui-licenses.content.filter.hasNot": [
     {
       "type": 0,
-      "value": "Has not"
+      "value": "설정되지 않음"
     }
   ],
   "ui-licenses.content.filter.licenseContent": [
     {
       "type": 0,
-      "value": "License content"
+      "value": "라이선스 컨텐츠"
     }
   ],
   "ui-licenses.coreDocs.add": [
@@ -90550,13 +90652,13 @@
   "ui-licenses.operator.isGreaterThanOrEqual": [
     {
       "type": 0,
-      "value": "보다 크거나 같음"
+      "value": "이상"
     }
   ],
   "ui-licenses.operator.isLessThanOrEqual": [
     {
       "type": 0,
-      "value": "보다 작거나 같음"
+      "value": "이하"
     }
   ],
   "ui-licenses.operator.isNot": [
@@ -90574,13 +90676,13 @@
   "ui-licenses.operator.isOnOrAfter": [
     {
       "type": 0,
-      "value": "이나 그 이후"
+      "value": "이후(부터)"
     }
   ],
   "ui-licenses.operator.isOnOrBefore": [
     {
       "type": 0,
-      "value": "이나 그 이전"
+      "value": "이전(까지)"
     }
   ],
   "ui-licenses.operator.isSet": [
@@ -92115,7 +92217,7 @@
   "ui-lists.catastrophic-error.entity.type.source.missing.heading": [
     {
       "type": 0,
-      "value": "A broken record type is preventing access to the Lists app"
+      "value": "레코드 유형 오류로 인해 Lists 앱 사용이 제한됩니다."
     }
   ],
   "ui-lists.catastrophic-error.entity.type.source.missing.message": [
@@ -92171,19 +92273,19 @@
   "ui-lists.catastrophic-error.fallback.heading": [
     {
       "type": 0,
-      "value": "An error is preventing access to the Lists app"
+      "value": "오류로 인해 Lists 앱에 접근할 수 없습니다."
     }
   ],
   "ui-lists.catastrophic-error.fallback.message": [
     {
       "type": 0,
-      "value": "Please contact your system administrator for help"
+      "value": "도움이 필요하면 시스템 관리자에 문의하세요."
     }
   ],
   "ui-lists.catastrophic-error.missing-all-entity-type-permissions.heading": [
     {
       "type": 0,
-      "value": "You do not have the required permissions to use the Lists app"
+      "value": "Lists 앱을 사용할 권한이 없습니다."
     }
   ],
   "ui-lists.commands-error.permission": [
@@ -94832,7 +94934,7 @@
   "ui-local-kb-admin.org.olf.general.jobs.ExternalEntitlementSyncJob": [
     {
       "type": 0,
-      "value": "External entitlements"
+      "value": "외부 권한"
     }
   ],
   "ui-local-kb-admin.org.olf.general.jobs.IdentifierReassignmentJob": [
@@ -94880,7 +94982,7 @@
   "ui-local-kb-admin.org.olf.general.jobs.ResourceDeletionJob": [
     {
       "type": 0,
-      "value": "Delete package contents"
+      "value": "패키지 내용 삭제"
     }
   ],
   "ui-local-kb-admin.org.olf.general.jobs.ResourceRematchJob": [
@@ -98202,7 +98304,11 @@
   "ui-oa.charge.publicationRequestCharge": [
     {
       "type": 0,
-      "value": "출판 요청 요금"
+      "value": "부과: 출판 요청 요금"
+    },
+    {
+      "type": 1,
+      "value": "requestNumber"
     }
   ],
   "ui-oa.charge.refreshExchangeRate": [
@@ -100790,7 +100896,7 @@
   "ui-oai-pmh.error.sww": [
     {
       "type": 0,
-      "value": "Something went wrong."
+      "value": "오류가 발생했습니다."
     }
   ],
   "ui-oai-pmh.meta.title": [
@@ -101000,7 +101106,7 @@
   "ui-oai-pmh.settings.configuration.update.success": [
     {
       "type": 0,
-      "value": "Setting was successfully updated."
+      "value": "설정이 정상적으로 변경되었습니다."
     }
   ],
   "ui-oai-pmh.settings.confirmDeleteSetsModal.cancel": [
@@ -101337,12 +101443,12 @@
   ],
   "ui-oai-pmh.settings.sets.edit.title": [
     {
-      "type": 0,
-      "value": "Edit "
-    },
-    {
       "type": 1,
       "value": "name"
+    },
+    {
+      "type": 0,
+      "value": "편집"
     }
   ],
   "ui-oai-pmh.settings.sets.edit.validationMessage.allowedSymbols": [
@@ -101416,7 +101522,7 @@
   "ui-oai-pmh.settings.sets.list.field.name": [
     {
       "type": 0,
-      "value": "Name"
+      "value": "이름"
     }
   ],
   "ui-oai-pmh.settings.sets.list.field.setSpec": [
@@ -101508,7 +101614,7 @@
   "ui-oai-pmh.settings.sets.view.filteringConditions.field.name": [
     {
       "type": 0,
-      "value": "Field"
+      "value": "필드"
     }
   ],
   "ui-oai-pmh.settings.sets.view.filteringConditions.field.name.ariaLabel": [
@@ -101561,12 +101667,12 @@
   ],
   "ui-oai-pmh.settings.sets.view.title": [
     {
-      "type": 0,
-      "value": "View "
-    },
-    {
       "type": 1,
       "value": "name"
+    },
+    {
+      "type": 0,
+      "value": "보기"
     }
   ],
   "ui-oai-pmh.settings.technical.label.enableValidation": [
@@ -103320,7 +103426,7 @@
   "ui-orders.errors.tooLargeRequest": [
     {
       "type": 0,
-      "value": "The search request is too large. Please reduce the number of filters or shorten the search term and try again."
+      "value": "검색 조건이 많습니다. 필터를 줄이거나 검색어를 줄여 다시 시도하세요."
     }
   ],
   "ui-orders.errors.userHasMissedAffiliations": [
@@ -103548,7 +103654,7 @@
   "ui-orders.filter.createdBy": [
     {
       "type": 0,
-      "value": "Created by"
+      "value": "생성자"
     }
   ],
   "ui-orders.filter.dateCreated": [
@@ -103560,7 +103666,7 @@
   "ui-orders.filter.dateUpdated": [
     {
       "type": 0,
-      "value": "Date updated"
+      "value": "수정일"
     }
   ],
   "ui-orders.filter.expenseClass": [
@@ -103614,7 +103720,7 @@
   "ui-orders.filter.updatedBy": [
     {
       "type": 0,
-      "value": "Updated by"
+      "value": "수정자"
     }
   ],
   "ui-orders.find-po-line-plugin-unavailable": [
@@ -104878,7 +104984,7 @@
   "ui-orders.orderDetails.createdBy": [
     {
       "type": 0,
-      "value": "작성자"
+      "value": "생성자"
     }
   ],
   "ui-orders.orderDetails.createdOn": [
@@ -108831,7 +108937,7 @@
   "ui-orders.versionHistory.updatedByUserId": [
     {
       "type": 0,
-      "value": "업데이트 (by) :"
+      "value": "업데이트 (by):"
     }
   ],
   "ui-orders.workflowStatus": [
@@ -110333,7 +110439,7 @@
   "ui-organizations.filterConfig.createdBy": [
     {
       "type": 0,
-      "value": "Created by"
+      "value": "생성자"
     }
   ],
   "ui-organizations.filterConfig.dateCreated": [
@@ -110351,7 +110457,7 @@
   "ui-organizations.filterConfig.isDonor": [
     {
       "type": 0,
-      "value": "Is donor"
+      "value": "기증자 여부"
     }
   ],
   "ui-organizations.filterConfig.isVendor": [
@@ -112516,7 +112622,7 @@
   "ui-organizations.versionHistory.field.metadata.createdByUserId": [
     {
       "type": 0,
-      "value": "Created by"
+      "value": "생성자"
     }
   ],
   "ui-organizations.versionHistory.field.metadata.createdDate": [
@@ -113776,7 +113882,7 @@
   "ui-plugin-create-inventory-records.barcodeTaken": [
     {
       "type": 0,
-      "value": "This barcode has already been taken"
+      "value": "이 바코드는 이미 등록되어 있습니다."
     }
   ],
   "ui-plugin-create-inventory-records.callNumber": [
@@ -114082,7 +114188,7 @@
   "ui-plugin-create-inventory-records.selectToContinue": [
     {
       "type": 0,
-      "value": "계속하려면 선택하십시오."
+      "value": "항목을 선택해 주세요."
     }
   ],
   "ui-plugin-create-inventory-records.selectType": [
@@ -115882,7 +115988,7 @@
   "ui-plugin-find-instance.createdDate": [
     {
       "type": 0,
-      "value": "Date created"
+      "value": "생성 날짜"
     }
   ],
   "ui-plugin-find-instance.discoverySuppress": [
@@ -117703,7 +117809,7 @@
   "ui-plugin-query-builder.viewer.deletedRecord.tooltip": [
     {
       "type": 0,
-      "value": "This record has been deleted; refresh the list to remove it from the results."
+      "value": "이 레코드는 삭제되었습니다. 목록을 새로고침하면 결과에서 사라집니다."
     }
   ],
   "ui-plugin-query-builder.viewer.retrieving": [
@@ -118384,7 +118490,7 @@
   "ui-quick-marc.permission.quick-marc-editor.all": [
     {
       "type": 0,
-      "value": "quickMARC: View, edit MARC bibliographic record"
+      "value": "quickMARC: MARC 보기, MARC 서지 레코드 편집"
     }
   ],
   "ui-quick-marc.permission.quick-marc-editor.create": [
@@ -118480,7 +118586,7 @@
   "ui-quick-marc.record.delete.confirmLabel": [
     {
       "type": 0,
-      "value": "Continue with save"
+      "value": "저장 후 계속"
     }
   ],
   "ui-quick-marc.record.delete.message": [
@@ -118524,7 +118630,7 @@
   "ui-quick-marc.record.delete.title": [
     {
       "type": 0,
-      "value": "Delete fields"
+      "value": "필드 삭제"
     }
   ],
   "ui-quick-marc.record.deleteField": [
@@ -124012,7 +124118,7 @@
   "ui-quick-marc.record.status": [
     {
       "type": 0,
-      "value": "Status:"
+      "value": "상태:"
     }
   ],
   "ui-quick-marc.record.status.current": [
@@ -125145,19 +125251,19 @@
   "ui-receiving.filter.createdBy": [
     {
       "type": 0,
-      "value": "Created by"
+      "value": "생성자"
     }
   ],
   "ui-receiving.filter.dateCreated": [
     {
       "type": 0,
-      "value": "Date created"
+      "value": "생성 날짜"
     }
   ],
   "ui-receiving.filter.dateUpdated": [
     {
       "type": 0,
-      "value": "Date updated"
+      "value": "수정일"
     }
   ],
   "ui-receiving.filter.isBinderyActive": [
@@ -125253,7 +125359,7 @@
   "ui-receiving.filter.updatedBy": [
     {
       "type": 0,
-      "value": "Updated by"
+      "value": "수정자"
     }
   ],
   "ui-receiving.filter.vendor": [
@@ -127081,7 +127187,7 @@
   "ui-remote-storage.details.name.error": [
     {
       "type": 0,
-      "value": "Name is required"
+      "value": "이름을 입력하세요."
     }
   ],
   "ui-remote-storage.details.providerName": [
@@ -127140,12 +127246,12 @@
   ],
   "ui-remote-storage.editForm.title": [
     {
-      "type": 0,
-      "value": "Edit "
-    },
-    {
       "type": 1,
       "value": "name"
+    },
+    {
+      "type": 0,
+      "value": "편집"
     }
   ],
   "ui-remote-storage.error": [
@@ -127169,7 +127275,7 @@
   "ui-remote-storage.list.name": [
     {
       "type": 0,
-      "value": "Name"
+      "value": "이름"
     }
   ],
   "ui-remote-storage.list.providerName": [
@@ -127246,12 +127352,12 @@
   ],
   "ui-remote-storage.removingModal.title": [
     {
-      "type": 0,
-      "value": "Remove "
-    },
-    {
       "type": 1,
       "value": "name"
+    },
+    {
+      "type": 0,
+      "value": "삭제"
     }
   ],
   "ui-remote-storage.returning-workflow.error.undefined": [
@@ -129094,7 +129200,7 @@
   "ui-requests.barcode": [
     {
       "type": 0,
-      "value": "Barcode"
+      "value": "바코드"
     }
   ],
   "ui-requests.blockModal": [
@@ -129408,7 +129514,7 @@
   "ui-requests.errors.itemBarcodeDoesNotExist": [
     {
       "type": 0,
-      "value": "Item with this barcode does not exist"
+      "value": "해당 바코드의 아이템이 없습니다."
     }
   ],
   "ui-requests.errors.itemHasAlreadyBeenRequested": [
@@ -129528,7 +129634,7 @@
   "ui-requests.errors.sync.requestQueueBody": [
     {
       "type": 0,
-      "value": "This request queue has been updated by another person or process and may be out of synch."
+      "value": "다른 사용자 또는 프로세스에 의해 요청 대기열이 변경되어, 최신 상태가 아닐 수 있습니다. 새로고침 후 다시 시도해 주세요."
     }
   ],
   "ui-requests.errors.sync.requestQueueLabel": [
@@ -129558,7 +129664,7 @@
   "ui-requests.errors.userBarcodeDoesNotExist": [
     {
       "type": 0,
-      "value": "User with this barcode does not exist"
+      "value": "해당 바코드의 사용자가 없습니다."
     }
   ],
   "ui-requests.errors.userCannotBeProxyForThemselves": [
@@ -129756,7 +129862,7 @@
   "ui-requests.item.barcode": [
     {
       "type": 0,
-      "value": "Item barcode"
+      "value": "Item 바코드"
     }
   ],
   "ui-requests.item.callNumber": [
@@ -129852,7 +129958,7 @@
   "ui-requests.item.location.libraryName": [
     {
       "type": 0,
-      "value": "Library"
+      "value": "도서관"
     }
   ],
   "ui-requests.item.location.name": [
@@ -129888,7 +129994,7 @@
   "ui-requests.item.scanOrEnterBarcode": [
     {
       "type": 0,
-      "value": "Scan or enter item barcode"
+      "value": "아이템 바코드를 스캔하거나 직접 입력하세요."
     }
   ],
   "ui-requests.item.status": [
@@ -130912,7 +131018,7 @@
   "ui-requests.requestQueue.requesterName": [
     {
       "type": 0,
-      "value": "Requester"
+      "value": "신청자"
     }
   ],
   "ui-requests.requestQueue.requests.notFound": [
@@ -130964,7 +131070,7 @@
   "ui-requests.requester.barcode": [
     {
       "type": 0,
-      "value": "Requester barcode"
+      "value": "신청자 바코드"
     }
   ],
   "ui-requests.requester.findUserPluginLabel": [
@@ -131030,13 +131136,13 @@
   "ui-requests.requester.scanOrEnterBarcode": [
     {
       "type": 0,
-      "value": "Scan or enter requester barcode"
+      "value": "신청자 바코드를 스캔하거나 직접 입력하세요."
     }
   ],
   "ui-requests.requester.username": [
     {
       "type": 0,
-      "value": "Username"
+      "value": "사용자 이름"
     }
   ],
   "ui-requests.requests": [
@@ -131076,7 +131182,7 @@
   "ui-requests.requests.itemBarcode": [
     {
       "type": 0,
-      "value": "Item barcode"
+      "value": "Item 바코드"
     }
   ],
   "ui-requests.requests.position": [
@@ -131124,7 +131230,7 @@
   "ui-requests.requests.requesterBarcode": [
     {
       "type": 0,
-      "value": "Requester barcode"
+      "value": "신청자 바코드"
     }
   ],
   "ui-requests.requests.retrievalServicePoint": [
@@ -133599,7 +133705,7 @@
   "ui-serials-management.templates": [
     {
       "type": 0,
-      "value": "Templates"
+      "value": "템플릿"
     }
   ],
   "ui-serials-management.templates.copy": [
@@ -133673,7 +133779,7 @@
   "ui-serials-management.templates.description": [
     {
       "type": 0,
-      "value": "Description"
+      "value": "설명"
     }
   ],
   "ui-serials-management.templates.editTemplate": [
@@ -133689,7 +133795,7 @@
   "ui-serials-management.templates.exampleLabel": [
     {
       "type": 0,
-      "value": "Example label"
+      "value": "샘플 라벨"
     }
   ],
   "ui-serials-management.templates.modelRulesetDescription": [
@@ -133713,7 +133819,7 @@
   "ui-serials-management.templates.name": [
     {
       "type": 0,
-      "value": "Name"
+      "value": "이름"
     }
   ],
   "ui-serials-management.templates.newTemplate": [
@@ -133731,7 +133837,7 @@
   "ui-serials-management.templates.status": [
     {
       "type": 0,
-      "value": "Status"
+      "value": "상태"
     }
   ],
   "ui-serials-management.validate.allowedCycles": [
@@ -135253,7 +135359,7 @@
   "ui-tenant-settings.settings.addresses.validation.name.unique": [
     {
       "type": 0,
-      "value": "This address name is already in use."
+      "value": "해당 주소 이름은 이미 사용 중입니다."
     }
   ],
   "ui-tenant-settings.settings.bindings.label": [
@@ -137299,7 +137405,7 @@
   "ui-users.accounts.exportFeesFines": [
     {
       "type": 0,
-      "value": "수수료 / 벌금 내보내기"
+      "value": "수수료/벌금(CSV) 반출"
     }
   ],
   "ui-users.accounts.feeFine": [
@@ -137405,13 +137511,13 @@
   "ui-users.accounts.history.columns.created": [
     {
       "type": 0,
-      "value": "Date created"
+      "value": "생성 날짜"
     }
   ],
   "ui-users.accounts.history.columns.due": [
     {
       "type": 0,
-      "value": "Due date"
+      "value": "반납 예정일"
     }
   ],
   "ui-users.accounts.history.columns.instance": [
@@ -138635,7 +138741,7 @@
   "ui-users.anonymization.confirmation.message": [
     {
       "type": 0,
-      "value": " All loans for this user will be anonymized. The loans will no longer appear in the user’s closed loans. Anonymizing loans cannot be reversed."
+      "value": "해당 사용자의 모든 대출 내역은 익명 처리됩니다. 익명 처리된 대출은 사용자의 반납 기록에서 삭제되며, 이 작업은 되돌릴 수 없습니다."
     }
   ],
   "ui-users.anonymization.error.header": [
@@ -138758,8 +138864,28 @@
   ],
   "ui-users.blocks.form.label.block": [
     {
+      "children": [
+        {
+          "type": 0,
+          "value": "Block actions"
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "*"
+            }
+          ],
+          "type": 8,
+          "value": "span"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
       "type": 0,
-      "value": "차단 조치 *"
+      "value": " (select all that apply)"
     }
   ],
   "ui-users.blocks.form.label.borrowing": [
@@ -140174,7 +140300,7 @@
   "ui-users.details.field.duedate": [
     {
       "type": 0,
-      "value": "Due date"
+      "value": "반납 예정일"
     }
   ],
   "ui-users.details.field.feetype": [
@@ -140442,7 +140568,7 @@
   "ui-users.errors.barcodeUnavailable": [
     {
       "type": 0,
-      "value": "이 바코드는 이미 사용되었습니다."
+      "value": "이 바코드는 이미 등록되어 있습니다."
     }
   ],
   "ui-users.errors.currentUser.expired": [
@@ -142176,7 +142302,7 @@
   "ui-users.loans.details.lostItemPolicy": [
     {
       "type": 0,
-      "value": "Lost item fee policy"
+      "value": "분실물 수수료/벌금 정책"
     }
   ],
   "ui-users.loans.details.overduePolicy": [
@@ -142951,7 +143077,7 @@
   "ui-users.lostItems.list.columnName.instance.subString.ISBN": [
     {
       "type": 0,
-      "value": "ISBN: "
+      "value": "ISBN:"
     }
   ],
   "ui-users.lostItems.list.columnName.instance.subString.effectiveCallNumber": [
@@ -143221,20 +143347,6 @@
           "children": [
             {
               "type": 0,
-              "value": " 분실물 수수료 없음 "
-            }
-          ],
-          "type": 8,
-          "value": "strong"
-        },
-        {
-          "type": 0,
-          "value": " "
-        },
-        {
-          "children": [
-            {
-              "type": 0,
               "value": " "
             },
             {
@@ -143251,7 +143363,7 @@
         },
         {
           "type": 0,
-          "value": " "
+          "value": "에게 "
         },
         {
           "children": [
@@ -143281,8 +143393,42 @@
         },
         {
           "type": 0,
-          "value": ". "
+          "value": "에 대한"
         },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "분실물 수수료 "
+            }
+          ],
+          "type": 8,
+          "value": "strong"
+        },
+        {
+          "type": 0,
+          "value": "를 "
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "부과하지 않습니다."
+            }
+          ],
+          "type": 8,
+          "value": "strong"
+        },
+        {
+          "type": 0,
+          "value": ". "
+        }
+      ],
+      "type": 8,
+      "value": "div"
+    },
+    {
+      "children": [
         {
           "children": [
             {
@@ -143721,7 +143867,7 @@
   "ui-users.metaData.createdByUserId": [
     {
       "type": 0,
-      "value": "Created by"
+      "value": "생성자"
     }
   ],
   "ui-users.metadata.updatedByUserId": [
@@ -143905,7 +144051,7 @@
   "ui-users.payments.columns.name": [
     {
       "type": 0,
-      "value": "Name"
+      "value": "이름"
     }
   ],
   "ui-users.payments.columns.refund": [
@@ -143959,7 +144105,7 @@
   "ui-users.permission.create": [
     {
       "type": 0,
-      "value": "Users: Can create and edit users"
+      "value": "사용자: 사용자 생성 및 편집"
     }
   ],
   "ui-users.permission.delete": [
@@ -144067,7 +144213,7 @@
   "ui-users.permission.loans-due-date.edit": [
     {
       "type": 0,
-      "value": "Users: User loans change due date"
+      "value": "사용자: 사용자 대출 반납일 변경"
     }
   ],
   "ui-users.permission.loans-renew-override.create": [
@@ -144097,7 +144243,7 @@
   "ui-users.permission.loans.all": [
     {
       "type": 0,
-      "value": "Users: User loans view, change due date, renew"
+      "value": "사용자: 사용자 대출 내역 보기, 반납일 수정, 연장"
     }
   ],
   "ui-users.permission.loans.anonymize": [
@@ -145360,7 +145506,7 @@
   "ui-users.refunds.columns.nameReason": [
     {
       "type": 0,
-      "value": "Name"
+      "value": "이름"
     }
   ],
   "ui-users.refunds.label": [
@@ -147053,7 +147199,7 @@
   "ui-users.settings.label": [
     {
       "type": 0,
-      "value": "Users"
+      "value": "사용자"
     }
   ],
   "ui-users.settings.limits": [
@@ -147390,7 +147536,7 @@
   "ui-users.sp.column.name": [
     {
       "type": 0,
-      "value": "Name"
+      "value": "이름"
     }
   ],
   "ui-users.sp.noServicePoints": [
@@ -147666,7 +147812,7 @@
   "ui-users.transfers.columns.name": [
     {
       "type": 0,
-      "value": "Name"
+      "value": "이름"
     }
   ],
   "ui-users.transfers.label": [
