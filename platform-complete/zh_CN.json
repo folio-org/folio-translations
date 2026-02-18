@@ -22581,6 +22581,60 @@
       "value": "卷"
     }
   ],
+  "ui-agreements.remoteKb.warn.externalKbs": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "GOKB source"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " is "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "kbName"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": ". More than one active GOKB data source exists. It is recommended to have a "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "single active GOKB"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " configured. Sources can be changed in "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "external data source settings"
+        }
+      ],
+      "type": 8,
+      "value": "settingsLink"
+    }
+  ],
   "ui-agreements.remoteKb.zdbids": [
     {
       "type": 0,
