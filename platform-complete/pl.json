@@ -12351,13 +12351,13 @@
   "stripes-inventory-components.item.status.awaitingDelivery": [
     {
       "type": 0,
-      "value": "Oczekujący na dostawę"
+      "value": "Oczekuje na dostawę"
     }
   ],
   "stripes-inventory-components.item.status.awaitingPickup": [
     {
       "type": 0,
-      "value": "Oczekujący na odbiór"
+      "value": "Oczekuje na odbiór"
     }
   ],
   "stripes-inventory-components.item.status.checkedOut": [
@@ -12903,7 +12903,7 @@
   "stripes-leipzig-components.monthpicker.yearMonthSelection": [
     {
       "type": 0,
-      "value": "Calender: Year and month selection"
+      "value": "Calendar: Year and month selection"
     }
   ],
   "stripes-leipzig-components.monthpicker.yearSelection": [
@@ -124464,6 +124464,12 @@
       "value": " nie została odebrana. Nie udało sie zaktualizować rekordu egzemplarza"
     }
   ],
+  "ui-receiving.errors.lastPiece": [
+    {
+      "type": 0,
+      "value": "The piece was not deleted because you cannot delete all pieces when ordering and receiving quantity are synchronized."
+    }
+  ],
   "ui-receiving.errors.locationIdAndHoldingIdAbsentError": [
     {
       "type": 0,
@@ -134916,6 +134922,12 @@
     {
       "type": 0,
       "value": " ”."
+    }
+  ],
+  "ui-tenant-settings.settings.locale.success": [
+    {
+      "type": 0,
+      "value": "Setting was successfully updated."
     }
   ],
   "ui-tenant-settings.settings.locale.title": [

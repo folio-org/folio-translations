@@ -706,7 +706,7 @@
   "stripes-acq-components.holdings.deleteModal.message": [
     {
       "type": 0,
-      "value": "Tento kus je spojen se záznamy v katalogu. Po této úpravě nebudou žádné další kusy NEBO jednotky spojené se souvisejícím záznamem holdingu. Chcete po provedení této změny, aby FOLIO smazal záznam(y) holdingů?"
+      "value": "Tato položka je propojena se záznamy v inventáři. Po této úpravě nebudou k souvisejícím záznamům o zásobách propojeny žádné další řádky objednávek, jednotky ANI kusy. Chcete, aby FOLIO po provedení této změny záznamy o zásobách smazal?"
     }
   ],
   "stripes-acq-components.invalidReference": [
@@ -12857,7 +12857,7 @@
   "stripes-leipzig-components.editCard.delete.card": [
     {
       "type": 0,
-      "value": "Delete card"
+      "value": "Smazat kartu"
     }
   ],
   "stripes-leipzig-components.errors.dateInvalid": [
@@ -12875,55 +12875,55 @@
   "stripes-leipzig-components.monthpicker.errors.dateInvalid": [
     {
       "type": 0,
-      "value": "Date invalid"
+      "value": "Neplatné datum"
     }
   ],
   "stripes-leipzig-components.monthpicker.errors.required": [
     {
       "type": 0,
-      "value": "Required"
+      "value": "Povinné"
     }
   ],
   "stripes-leipzig-components.monthpicker.monthSelection": [
     {
       "type": 0,
-      "value": "Month selection"
+      "value": "Výběr měsíce"
     }
   ],
   "stripes-leipzig-components.monthpicker.selected": [
     {
       "type": 0,
-      "value": "selected"
+      "value": "vybráno"
     }
   ],
   "stripes-leipzig-components.monthpicker.yearMonthInput": [
     {
       "type": 0,
-      "value": "Year and month input"
+      "value": "Zadání roku a měsíce"
     }
   ],
   "stripes-leipzig-components.monthpicker.yearMonthSelection": [
     {
       "type": 0,
-      "value": "Calender: Year and month selection"
+      "value": "Kalendář: Výběr roku a měsíce"
     }
   ],
   "stripes-leipzig-components.monthpicker.yearSelection": [
     {
       "type": 0,
-      "value": "Year selection"
+      "value": "Výběr roku"
     }
   ],
   "stripes-leipzig-components.repeatableTextField.buttonAdd": [
     {
       "type": 0,
-      "value": "+ Add"
+      "value": "+ Přidat"
     }
   ],
   "stripes-leipzig-components.repeatableTextField.validateRequired": [
     {
       "type": 0,
-      "value": "Required!"
+      "value": "Povinné!"
     }
   ],
   "stripes-marc-components.meta.title": [
@@ -124441,6 +124441,12 @@
       "value": " nebyl přijat. Záznam jednotky se nepodařilo aktualizovat"
     }
   ],
+  "ui-receiving.errors.lastPiece": [
+    {
+      "type": 0,
+      "value": "The piece was not deleted because you cannot delete all pieces when ordering and receiving quantity are synchronized."
+    }
+  ],
   "ui-receiving.errors.locationIdAndHoldingIdAbsentError": [
     {
       "type": 0,
@@ -134897,6 +134903,12 @@
     {
       "type": 0,
       "value": "\"."
+    }
+  ],
+  "ui-tenant-settings.settings.locale.success": [
+    {
+      "type": 0,
+      "value": "Setting was successfully updated."
     }
   ],
   "ui-tenant-settings.settings.locale.title": [

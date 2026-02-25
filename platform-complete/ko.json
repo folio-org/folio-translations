@@ -1695,13 +1695,13 @@
   "stripes-acq-components.versionHistory.card.showAll": [
     {
       "type": 0,
-      "value": "Show all"
+      "value": "모두 보기"
     }
   ],
   "stripes-acq-components.versionHistory.card.showLess": [
     {
       "type": 0,
-      "value": "Show less"
+      "value": "간단히 보기"
     }
   ],
   "stripes-acq-components.versionHistory.card.systemChange": [
@@ -2072,7 +2072,7 @@
   "stripes-authority-components.search.createdDate": [
     {
       "type": 0,
-      "value": "Date created"
+      "value": "생성 날짜"
     }
   ],
   "stripes-authority-components.search.excludeSeeFrom": [
@@ -9903,7 +9903,7 @@
   "stripes-data-transfer-components.updatedBy": [
     {
       "type": 0,
-      "value": "업데이트 :"
+      "value": "Updated by"
     }
   ],
   "stripes-data-transfer-components.validation.enterValue": [
@@ -9969,19 +9969,19 @@
   "stripes-erm-components.accesscontrol.filter.simple.label": [
     {
       "type": 0,
-      "value": "Acquisition unit"
+      "value": "수서 단위"
     }
   ],
   "stripes-erm-components.accesscontrol.filter.simple.noPolicy": [
     {
       "type": 0,
-      "value": "No acquisition unit"
+      "value": "수서 단위 없음"
     }
   ],
   "stripes-erm-components.accesscontrol.label": [
     {
       "type": 0,
-      "value": "Acquisition units"
+      "value": "수서 단위"
     }
   ],
   "stripes-erm-components.accesscontrol.name": [
@@ -9999,7 +9999,7 @@
   "stripes-erm-components.accesscontrol.removeAcqUnit": [
     {
       "type": 0,
-      "value": "Remove \""
+      "value": "\""
     },
     {
       "type": 1,
@@ -10007,7 +10007,7 @@
     },
     {
       "type": 0,
-      "value": "\""
+      "value": "\" 삭제하기"
     }
   ],
   "stripes-erm-components.accesscontrol.restrictions": [
@@ -10019,7 +10019,7 @@
   "stripes-erm-components.accesscontrol.typedown.label": [
     {
       "type": 0,
-      "value": "Add acquisition unit"
+      "value": "수서 단위 추가"
     }
   ],
   "stripes-erm-components.alternativeNames": [
@@ -10091,7 +10091,7 @@
   "stripes-erm-components.comparator": [
     {
       "type": 0,
-      "value": "Operator"
+      "value": "연산자"
     }
   ],
   "stripes-erm-components.contactSelect.selectContact": [
@@ -10756,6 +10756,10 @@
   ],
   "stripes-erm-components.customProperty.termTitle": [
     {
+      "type": 1,
+      "value": "number"
+    },
+    {
       "type": 0,
       "value": "조건"
     }
@@ -10996,7 +11000,7 @@
   "stripes-erm-components.documentFilter.addFilter": [
     {
       "type": 0,
-      "value": "Add filter"
+      "value": "필터 추가"
     }
   ],
   "stripes-erm-components.documentFilter.addRule": [
@@ -11008,7 +11012,7 @@
   "stripes-erm-components.documentFilter.attribute": [
     {
       "type": 0,
-      "value": "Attribute"
+      "value": "속성"
     }
   ],
   "stripes-erm-components.documentFilter.comparator": [
@@ -11058,7 +11062,7 @@
   "stripes-erm-components.documentFilter.editDocumentFilters": [
     {
       "type": 0,
-      "value": "Edit document filters"
+      "value": "문서 필터 편집"
     }
   ],
   "stripes-erm-components.documentFilter.filterBuilder.coreDocuments": [
@@ -11076,13 +11080,13 @@
   "stripes-erm-components.documentFilter.filterName.coreDocuments": [
     {
       "type": 0,
-      "value": "Core documents"
+      "value": "핵심 문서"
     }
   ],
   "stripes-erm-components.documentFilter.filterName.supplementaryDocuments": [
     {
       "type": 0,
-      "value": "Supplementary documents"
+      "value": "추가 문서"
     }
   ],
   "stripes-erm-components.documentFilter.filtersApplied": [
@@ -12937,7 +12941,7 @@
   "stripes-leipzig-components.monthpicker.yearMonthSelection": [
     {
       "type": 0,
-      "value": "Calender: Year and month selection"
+      "value": "Calendar: Year and month selection"
     }
   ],
   "stripes-leipzig-components.monthpicker.yearSelection": [
@@ -12949,7 +12953,7 @@
   "stripes-leipzig-components.repeatableTextField.buttonAdd": [
     {
       "type": 0,
-      "value": "+ Add"
+      "value": "+추가"
     }
   ],
   "stripes-leipzig-components.repeatableTextField.validateRequired": [
@@ -125122,6 +125126,12 @@
       "value": " was not received. The item record failed to be updated"
     }
   ],
+  "ui-receiving.errors.lastPiece": [
+    {
+      "type": 0,
+      "value": "The piece was not deleted because you cannot delete all pieces when ordering and receiving quantity are synchronized."
+    }
+  ],
   "ui-receiving.errors.locationIdAndHoldingIdAbsentError": [
     {
       "type": 0,
@@ -135562,6 +135572,12 @@
     {
       "type": 0,
       "value": " \" 버튼을 클릭하십시오."
+    }
+  ],
+  "ui-tenant-settings.settings.locale.success": [
+    {
+      "type": 0,
+      "value": "Setting was successfully updated."
     }
   ],
   "ui-tenant-settings.settings.locale.title": [
