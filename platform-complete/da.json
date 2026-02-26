@@ -94772,6 +94772,22 @@
       "value": "URI"
     }
   ],
+  "ui-local-kb-admin.settings.externalDataSources.warn.multipleKbs": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Warning"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": ": More than one active GOKB data source exists. It is recommended to have a single active GOKB configured. The first active source in the table (listed alphabetically) will be used for the Agreements GOKB search."
+    }
+  ],
   "ui-local-kb-admin.settings.general": [
     {
       "type": 0,
