@@ -75590,6 +75590,895 @@
       "value": "Obligatoire"
     }
   ],
+  "ui-inventory-import.SENTINEL": [
+    {
+      "type": 0,
+      "value": "SENTINEL"
+    }
+  ],
+  "ui-inventory-import.actions.new": [
+    {
+      "type": 0,
+      "value": "New record"
+    }
+  ],
+  "ui-inventory-import.actions.new.channel.xml": [
+    {
+      "type": 0,
+      "value": "XML bulk channel"
+    }
+  ],
+  "ui-inventory-import.add": [
+    {
+      "type": 0,
+      "value": "Add"
+    }
+  ],
+  "ui-inventory-import.button.jobs": [
+    {
+      "type": 0,
+      "value": "Jobs"
+    }
+  ],
+  "ui-inventory-import.button.pause": [
+    {
+      "type": 0,
+      "value": "Pause"
+    }
+  ],
+  "ui-inventory-import.button.resume": [
+    {
+      "type": 0,
+      "value": "Resume"
+    }
+  ],
+  "ui-inventory-import.channels.column.enabled": [
+    {
+      "type": 0,
+      "value": "Enabled?"
+    }
+  ],
+  "ui-inventory-import.channels.column.enabled.false": [
+    {
+      "type": 0,
+      "value": "No"
+    }
+  ],
+  "ui-inventory-import.channels.column.enabled.true": [
+    {
+      "type": 0,
+      "value": "Yes"
+    }
+  ],
+  "ui-inventory-import.channels.column.id": [
+    {
+      "type": 0,
+      "value": "ID"
+    }
+  ],
+  "ui-inventory-import.channels.column.jobs": [
+    {
+      "type": 0,
+      "value": "Jobs"
+    }
+  ],
+  "ui-inventory-import.channels.column.logFile": [
+    {
+      "type": 0,
+      "value": "Log file"
+    }
+  ],
+  "ui-inventory-import.channels.column.name": [
+    {
+      "type": 0,
+      "value": "Name"
+    }
+  ],
+  "ui-inventory-import.channels.column.type": [
+    {
+      "type": 0,
+      "value": "Type"
+    }
+  ],
+  "ui-inventory-import.channels.column.type.XML": [
+    {
+      "type": 0,
+      "value": "XML bulk"
+    }
+  ],
+  "ui-inventory-import.channels.field.commissioned": [
+    {
+      "type": 0,
+      "value": "Channel commissioned?"
+    }
+  ],
+  "ui-inventory-import.channels.field.enabled": [
+    {
+      "type": 0,
+      "value": "Channel enabled?"
+    }
+  ],
+  "ui-inventory-import.channels.field.enabled.help": [
+    {
+      "type": 0,
+      "value": "Check to specify that the channel should listen for incoming files addressed to it. Leaving this box unchecked will make the channel inactive."
+    }
+  ],
+  "ui-inventory-import.channels.field.id": [
+    {
+      "type": 0,
+      "value": "Id"
+    }
+  ],
+  "ui-inventory-import.channels.field.id.help": [
+    {
+      "type": 0,
+      "value": "An automatically assigned opaque identifier. Cannot be modified."
+    }
+  ],
+  "ui-inventory-import.channels.field.listening": [
+    {
+      "type": 0,
+      "value": "Channel listening?"
+    }
+  ],
+  "ui-inventory-import.channels.field.name": [
+    {
+      "type": 0,
+      "value": "Name"
+    }
+  ],
+  "ui-inventory-import.channels.field.name.help": [
+    {
+      "type": 0,
+      "value": "A name, which should be unique, for users to identify this resource."
+    }
+  ],
+  "ui-inventory-import.channels.field.tag": [
+    {
+      "type": 0,
+      "value": "Tag"
+    }
+  ],
+  "ui-inventory-import.channels.field.transformationPipeline": [
+    {
+      "type": 0,
+      "value": "Transformation pipeline"
+    }
+  ],
+  "ui-inventory-import.channels.field.transformationPipeline.help": [
+    {
+      "type": 0,
+      "value": "Select the transformation pipeline required to change the input format delivered to this channel into the internal format used by the the Inventory Update process. See Transformation Pipelines in the settings for more details."
+    }
+  ],
+  "ui-inventory-import.channels.field.type": [
+    {
+      "type": 0,
+      "value": "Type"
+    }
+  ],
+  "ui-inventory-import.channels.index.all": [
+    {
+      "type": 0,
+      "value": "(All)"
+    }
+  ],
+  "ui-inventory-import.channels.index.id": [
+    {
+      "type": 0,
+      "value": "ID"
+    }
+  ],
+  "ui-inventory-import.channels.index.name": [
+    {
+      "type": 0,
+      "value": "Name"
+    }
+  ],
+  "ui-inventory-import.error": [
+    {
+      "type": 0,
+      "value": "Something went wrong"
+    }
+  ],
+  "ui-inventory-import.export-csv": [
+    {
+      "type": 0,
+      "value": "Export CSV"
+    }
+  ],
+  "ui-inventory-import.fillIn": [
+    {
+      "type": 0,
+      "value": "Please fill this in to continue"
+    }
+  ],
+  "ui-inventory-import.filter.date.finished": [
+    {
+      "type": 0,
+      "value": "Date finished"
+    }
+  ],
+  "ui-inventory-import.filter.date.finished.from": [
+    {
+      "type": 0,
+      "value": "From"
+    }
+  ],
+  "ui-inventory-import.filter.date.finished.to": [
+    {
+      "type": 0,
+      "value": "To"
+    }
+  ],
+  "ui-inventory-import.filter.date.started": [
+    {
+      "type": 0,
+      "value": "Date started"
+    }
+  ],
+  "ui-inventory-import.filter.date.started.from": [
+    {
+      "type": 0,
+      "value": "From"
+    }
+  ],
+  "ui-inventory-import.filter.date.started.to": [
+    {
+      "type": 0,
+      "value": "To"
+    }
+  ],
+  "ui-inventory-import.filter.date.timeStamp": [
+    {
+      "type": 0,
+      "value": "Time stamp"
+    }
+  ],
+  "ui-inventory-import.filter.date.timeStamp.from": [
+    {
+      "type": 0,
+      "value": "From"
+    }
+  ],
+  "ui-inventory-import.filter.date.timeStamp.to": [
+    {
+      "type": 0,
+      "value": "To"
+    }
+  ],
+  "ui-inventory-import.filter.numeric.records": [
+    {
+      "type": 0,
+      "value": "Records"
+    }
+  ],
+  "ui-inventory-import.filter.numeric.records.from": [
+    {
+      "type": 0,
+      "value": "At least"
+    }
+  ],
+  "ui-inventory-import.filter.numeric.records.to": [
+    {
+      "type": 0,
+      "value": "No more than"
+    }
+  ],
+  "ui-inventory-import.invalidXML": [
+    {
+      "type": 0,
+      "value": "Invalid XML: "
+    },
+    {
+      "type": 1,
+      "value": "error"
+    }
+  ],
+  "ui-inventory-import.invalidXSLT": [
+    {
+      "type": 0,
+      "value": "Valid XML, but not an XSLT stylesheet"
+    }
+  ],
+  "ui-inventory-import.jobs.caption.completed": [
+    {
+      "type": 0,
+      "value": "Imported "
+    },
+    {
+      "type": 1,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": " records in "
+    },
+    {
+      "type": 1,
+      "value": "duration"
+    }
+  ],
+  "ui-inventory-import.jobs.caption.notComplete": [
+    {
+      "type": 0,
+      "value": "Job is not complete"
+    }
+  ],
+  "ui-inventory-import.jobs.column.amountImported": [
+    {
+      "type": 0,
+      "value": "Records"
+    }
+  ],
+  "ui-inventory-import.jobs.column.channelName": [
+    {
+      "type": 0,
+      "value": "Channel name"
+    }
+  ],
+  "ui-inventory-import.jobs.column.duration": [
+    {
+      "type": 0,
+      "value": "Duration"
+    }
+  ],
+  "ui-inventory-import.jobs.column.finished": [
+    {
+      "type": 0,
+      "value": "Finished"
+    }
+  ],
+  "ui-inventory-import.jobs.column.message": [
+    {
+      "type": 0,
+      "value": "Message (processed/loaded/deleted(skipped)/failed)"
+    }
+  ],
+  "ui-inventory-import.jobs.column.started": [
+    {
+      "type": 0,
+      "value": "Started"
+    }
+  ],
+  "ui-inventory-import.jobs.column.status": [
+    {
+      "type": 0,
+      "value": "Status"
+    }
+  ],
+  "ui-inventory-import.jobs.column.status.DONE": [
+    {
+      "type": 0,
+      "value": "Done"
+    }
+  ],
+  "ui-inventory-import.jobs.column.status.INTERRUPTED": [
+    {
+      "type": 0,
+      "value": "Interrupted"
+    }
+  ],
+  "ui-inventory-import.jobs.column.status.PAUSED": [
+    {
+      "type": 0,
+      "value": "Paused"
+    }
+  ],
+  "ui-inventory-import.jobs.column.status.RUNNING": [
+    {
+      "type": 0,
+      "value": "Running"
+    }
+  ],
+  "ui-inventory-import.jobs.column.type": [
+    {
+      "type": 0,
+      "value": "Type"
+    }
+  ],
+  "ui-inventory-import.jobs.field.channelName": [
+    {
+      "type": 0,
+      "value": "Channel name"
+    }
+  ],
+  "ui-inventory-import.jobs.field.transformationPipeline": [
+    {
+      "type": 0,
+      "value": "Transformation pipeline"
+    }
+  ],
+  "ui-inventory-import.jobs.index.all": [
+    {
+      "type": 0,
+      "value": "(All)"
+    }
+  ],
+  "ui-inventory-import.jobs.index.channelName": [
+    {
+      "type": 0,
+      "value": "Channel name"
+    }
+  ],
+  "ui-inventory-import.jobs.index.message": [
+    {
+      "type": 0,
+      "value": "Message"
+    }
+  ],
+  "ui-inventory-import.logs.countFailedRecords": [
+    {
+      "style": null,
+      "type": 2,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": " "
+    },
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "failed record"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "failed records"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "count"
+    }
+  ],
+  "ui-inventory-import.logs.countLogLiines": [
+    {
+      "style": null,
+      "type": 2,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": " "
+    },
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "log line"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "log lines"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "count"
+    }
+  ],
+  "ui-inventory-import.logs.field.line": [
+    {
+      "type": 0,
+      "value": "Line"
+    }
+  ],
+  "ui-inventory-import.logs.field.timeStamp": [
+    {
+      "type": 0,
+      "value": "Timestamp"
+    }
+  ],
+  "ui-inventory-import.meta.title": [
+    {
+      "type": 0,
+      "value": "Inventory import"
+    }
+  ],
+  "ui-inventory-import.nav.channels": [
+    {
+      "type": 0,
+      "value": "Channels"
+    }
+  ],
+  "ui-inventory-import.nav.jobs": [
+    {
+      "type": 0,
+      "value": "Jobs"
+    }
+  ],
+  "ui-inventory-import.nav.jobs-for": [
+    {
+      "type": 0,
+      "value": "Jobs for "
+    },
+    {
+      "type": 1,
+      "value": "name"
+    }
+  ],
+  "ui-inventory-import.nav.records": [
+    {
+      "type": 0,
+      "value": "Failed records"
+    }
+  ],
+  "ui-inventory-import.no-value": [
+    {
+      "type": 0,
+      "value": "-"
+    }
+  ],
+  "ui-inventory-import.pause.failure": [
+    {
+      "type": 0,
+      "value": "Channel "
+    },
+    {
+      "type": 1,
+      "value": "channelName"
+    },
+    {
+      "type": 0,
+      "value": " could not be paused: HTTP status "
+    },
+    {
+      "type": 1,
+      "value": "status"
+    },
+    {
+      "type": 0,
+      "value": ": "
+    },
+    {
+      "type": 1,
+      "value": "body"
+    }
+  ],
+  "ui-inventory-import.pause.success": [
+    {
+      "type": 0,
+      "value": "Channel "
+    },
+    {
+      "type": 1,
+      "value": "channelName"
+    },
+    {
+      "type": 0,
+      "value": " has been paused"
+    }
+  ],
+  "ui-inventory-import.pipeline.field.description": [
+    {
+      "type": 0,
+      "value": "Description"
+    }
+  ],
+  "ui-inventory-import.pipeline.field.name": [
+    {
+      "type": 0,
+      "value": "Name"
+    }
+  ],
+  "ui-inventory-import.pipeline.field.steps": [
+    {
+      "type": 0,
+      "value": "Transformation steps in pipeline"
+    }
+  ],
+  "ui-inventory-import.pipeline.steps.name": [
+    {
+      "type": 0,
+      "value": "Name"
+    }
+  ],
+  "ui-inventory-import.pipeline.steps.position": [
+    {
+      "type": 0,
+      "value": "#"
+    }
+  ],
+  "ui-inventory-import.records.field.channelName": [
+    {
+      "type": 0,
+      "value": "Channel name"
+    }
+  ],
+  "ui-inventory-import.records.field.errors": [
+    {
+      "type": 0,
+      "value": "Errors"
+    }
+  ],
+  "ui-inventory-import.records.field.importJob": [
+    {
+      "type": 0,
+      "value": "Import job"
+    }
+  ],
+  "ui-inventory-import.records.field.instanceHrid": [
+    {
+      "type": 0,
+      "value": "Instance HRID"
+    }
+  ],
+  "ui-inventory-import.records.field.instanceTitle": [
+    {
+      "type": 0,
+      "value": "Instance title"
+    }
+  ],
+  "ui-inventory-import.records.field.originalRecord": [
+    {
+      "type": 0,
+      "value": "Original record"
+    }
+  ],
+  "ui-inventory-import.records.field.recordNumber": [
+    {
+      "type": 0,
+      "value": "Record number"
+    }
+  ],
+  "ui-inventory-import.records.field.sourceFileName": [
+    {
+      "type": 0,
+      "value": "Source file name"
+    }
+  ],
+  "ui-inventory-import.records.field.timeStamp": [
+    {
+      "type": 0,
+      "value": "Time stamp"
+    }
+  ],
+  "ui-inventory-import.records.field.transformedRecord": [
+    {
+      "type": 0,
+      "value": "Transformed record"
+    }
+  ],
+  "ui-inventory-import.records.index.all": [
+    {
+      "type": 0,
+      "value": "(All)"
+    }
+  ],
+  "ui-inventory-import.records.index.channelName": [
+    {
+      "type": 0,
+      "value": "Channel name"
+    }
+  ],
+  "ui-inventory-import.records.index.recordNumber": [
+    {
+      "type": 0,
+      "value": "Record number"
+    }
+  ],
+  "ui-inventory-import.reports": [
+    {
+      "type": 0,
+      "value": "Reports"
+    }
+  ],
+  "ui-inventory-import.resultCount": [
+    {
+      "style": null,
+      "type": 2,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": " "
+    },
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "record found"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "records found"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "count"
+    }
+  ],
+  "ui-inventory-import.resume.failure": [
+    {
+      "type": 0,
+      "value": "Channel "
+    },
+    {
+      "type": 1,
+      "value": "channelName"
+    },
+    {
+      "type": 0,
+      "value": " could not be resumed: HTTP status "
+    },
+    {
+      "type": 1,
+      "value": "status"
+    },
+    {
+      "type": 0,
+      "value": ": "
+    },
+    {
+      "type": 1,
+      "value": "body"
+    }
+  ],
+  "ui-inventory-import.resume.success": [
+    {
+      "type": 0,
+      "value": "Channel "
+    },
+    {
+      "type": 1,
+      "value": "channelName"
+    },
+    {
+      "type": 0,
+      "value": " has been resumed"
+    }
+  ],
+  "ui-inventory-import.searchInputLabel": [
+    {
+      "type": 0,
+      "value": "Search input field"
+    }
+  ],
+  "ui-inventory-import.selectToContinue": [
+    {
+      "type": 0,
+      "value": "Please select to continue"
+    }
+  ],
+  "ui-inventory-import.selectValue": [
+    {
+      "type": 0,
+      "value": "Select a value"
+    }
+  ],
+  "ui-inventory-import.settings.channels": [
+    {
+      "type": 0,
+      "value": "Channels"
+    }
+  ],
+  "ui-inventory-import.settings.logs": [
+    {
+      "type": 0,
+      "value": "Log deletion"
+    }
+  ],
+  "ui-inventory-import.settings.logs.description": [
+    {
+      "type": 0,
+      "value": "Logs older than the configured age threshold are automatically deleted once per day, at 2am Central European time. The threshhold is specified by a number and a unit. "
+    }
+  ],
+  "ui-inventory-import.settings.logs.number": [
+    {
+      "type": 0,
+      "value": "Number"
+    }
+  ],
+  "ui-inventory-import.settings.logs.unit": [
+    {
+      "type": 0,
+      "value": "Unit"
+    }
+  ],
+  "ui-inventory-import.settings.logs.unit.days": [
+    {
+      "type": 0,
+      "value": "Days"
+    }
+  ],
+  "ui-inventory-import.settings.logs.unit.months": [
+    {
+      "type": 0,
+      "value": "Months"
+    }
+  ],
+  "ui-inventory-import.settings.logs.unit.weeks": [
+    {
+      "type": 0,
+      "value": "Weeks"
+    }
+  ],
+  "ui-inventory-import.settings.pipeline": [
+    {
+      "type": 0,
+      "value": "Transformation pipelines"
+    }
+  ],
+  "ui-inventory-import.settings.pipeline.heading": [
+    {
+      "type": 0,
+      "value": "transformation pipeline"
+    }
+  ],
+  "ui-inventory-import.settings.step": [
+    {
+      "type": 0,
+      "value": "Transformation steps"
+    }
+  ],
+  "ui-inventory-import.settings.step.heading": [
+    {
+      "type": 0,
+      "value": "transformation step"
+    }
+  ],
+  "ui-inventory-import.step.field.description": [
+    {
+      "type": 0,
+      "value": "Description"
+    }
+  ],
+  "ui-inventory-import.step.field.name": [
+    {
+      "type": 0,
+      "value": "Name"
+    }
+  ],
+  "ui-inventory-import.step.field.script": [
+    {
+      "type": 0,
+      "value": "Script"
+    }
+  ],
+  "ui-inventory-import.step.field.type": [
+    {
+      "type": 0,
+      "value": "Type"
+    }
+  ],
+  "ui-inventory-import.validXSLT": [
+    {
+      "type": 0,
+      "value": "Valid XSLT stylesheet"
+    }
+  ],
   "ui-inventory.ILLPolicy": [
     {
       "type": 0,
