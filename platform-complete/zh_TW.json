@@ -76789,6 +76789,12 @@
       "value": "Failed records"
     }
   ],
+  "ui-inventory-import.no-title": [
+    {
+      "type": 0,
+      "value": "[No title]"
+    }
+  ],
   "ui-inventory-import.no-value": [
     {
       "type": 0,
@@ -99005,6 +99011,30 @@
       "value": "Configuration options"
     }
   ],
+  "ui-mosaic-settings.sections.configuration-options.action.generate-integration-templates.description": [
+    {
+      "type": 0,
+      "value": "Clicking this button will generate templates for you to use as the default for this integration. The organization record and order template that are created can still be edited as desired or deleted."
+    }
+  ],
+  "ui-mosaic-settings.sections.configuration-options.action.generate-integration-templates.error": [
+    {
+      "type": 0,
+      "value": "Unable to generate templates. Please try again."
+    }
+  ],
+  "ui-mosaic-settings.sections.configuration-options.action.generate-integration-templates.label": [
+    {
+      "type": 0,
+      "value": "Generate integration templates"
+    }
+  ],
+  "ui-mosaic-settings.sections.configuration-options.action.generate-integration-templates.success": [
+    {
+      "type": 0,
+      "value": "Integration templates generated successfully."
+    }
+  ],
   "ui-mosaic-settings.sections.configuration-options.description": [
     {
       "type": 0,
@@ -99015,6 +99045,12 @@
     {
       "type": 0,
       "value": "Select default order template"
+    }
+  ],
+  "ui-mosaic-settings.sections.configuration-options.selection.description": [
+    {
+      "type": 0,
+      "value": "You are able to choose the default order template that is applied when Mosaic creates an order in FOLIO. If a template is chosen while ordering in Mosaic that will override this selection, if no template is chosen this one will be applied. You can edit the order templates in order settings under \"Order templates\"."
     }
   ],
   "ui-mosaic-settings.sections.configuration-options.submit.error": [
@@ -119788,6 +119824,18 @@
     {
       "type": 0,
       "value": "連結標題"
+    }
+  ],
+  "ui-quick-marc.autoLinkingButton.infotip": [
+    {
+      "type": 0,
+      "value": "The Link headings button links all access point bibliographic fields that contain a $0 to authority heading. If a field does not have a $0, you can manually link the field to an authority heading by selecting the Link button on the field itself."
+    }
+  ],
+  "ui-quick-marc.autoLinkingButton.infotip.learnMore": [
+    {
+      "type": 0,
+      "value": "Learn more"
     }
   ],
   "ui-quick-marc.bib-record.derive.title": [
