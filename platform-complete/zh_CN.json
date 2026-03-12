@@ -19250,6 +19250,102 @@
       "value": "馆藏状态"
     }
   ],
+  "ui-agreements.eresources.identifiers": [
+    {
+      "type": 0,
+      "value": "Identifiers"
+    }
+  ],
+  "ui-agreements.eresources.identifiers.doi": [
+    {
+      "type": 0,
+      "value": "DOI"
+    }
+  ],
+  "ui-agreements.eresources.identifiers.eBookPool": [
+    {
+      "type": 0,
+      "value": "E-Book Pool"
+    }
+  ],
+  "ui-agreements.eresources.identifiers.eisbn": [
+    {
+      "type": 0,
+      "value": "ISBN (Online)"
+    }
+  ],
+  "ui-agreements.eresources.identifiers.eissn": [
+    {
+      "type": 0,
+      "value": "ISSN (Online)"
+    }
+  ],
+  "ui-agreements.eresources.identifiers.ezb": [
+    {
+      "type": 0,
+      "value": "EZB"
+    }
+  ],
+  "ui-agreements.eresources.identifiers.gokb_id": [
+    {
+      "type": 0,
+      "value": "GOKB ID"
+    }
+  ],
+  "ui-agreements.eresources.identifiers.gokb_uuid": [
+    {
+      "type": 0,
+      "value": "GOKB UUID"
+    }
+  ],
+  "ui-agreements.eresources.identifiers.isbn": [
+    {
+      "type": 0,
+      "value": "ISBN"
+    }
+  ],
+  "ui-agreements.eresources.identifiers.isil": [
+    {
+      "type": 0,
+      "value": "ISIL"
+    }
+  ],
+  "ui-agreements.eresources.identifiers.issn": [
+    {
+      "type": 0,
+      "value": "ISSN"
+    }
+  ],
+  "ui-agreements.eresources.identifiers.pisbn": [
+    {
+      "type": 0,
+      "value": "ISBN (Print)"
+    }
+  ],
+  "ui-agreements.eresources.identifiers.pissn": [
+    {
+      "type": 0,
+      "value": "ISSN (Print)"
+    }
+  ],
+  "ui-agreements.eresources.identifiers.resourceIdentifier": [
+    {
+      "type": 0,
+      "value": "Resource identifier"
+    }
+  ],
+  "ui-agreements.eresources.identifiers.resourceIdentifierType": [
+    {
+      "type": 0,
+      "value": "Resource identifier type"
+    }
+  ],
+  "ui-agreements.eresources.identifiers.zdb": [
+    {
+      "type": 0,
+      "value": "ZDB"
+    }
+  ],
   "ui-agreements.eresources.isPackage": [
     {
       "type": 0,
@@ -19579,7 +19675,7 @@
   "ui-agreements.eresources.syncMultiplePackagesSuccess.SYNCHRONIZING": [
     {
       "type": 0,
-      "value": "资源包将同步"
+      "value": "资源包同步已启用"
     }
   ],
   "ui-agreements.eresources.syncPackageError": [
@@ -22566,7 +22662,7 @@
   "ui-agreements.remoteKb.remoteTitleNotFound": [
     {
       "type": 0,
-      "value": "本地知识库中目前没有该标题。要添加该标题，请同步“资源包”折叠菜单中列出的某个资源包。"
+      "value": "本地知识库中目前没有该标题。要添加该标题，请同步“资源包”标题折叠菜单中列出的某个资源包。"
     }
   ],
   "ui-agreements.remoteKb.scheme": [
@@ -22598,7 +22694,7 @@
       "children": [
         {
           "type": 0,
-          "value": "GOKB source"
+          "value": "GOKB来源"
         }
       ],
       "type": 8,
@@ -22606,7 +22702,7 @@
     },
     {
       "type": 0,
-      "value": " is "
+      "value": "是"
     },
     {
       "children": [
@@ -22620,13 +22716,13 @@
     },
     {
       "type": 0,
-      "value": ". More than one active GOKB data source exists. It is recommended to have a "
+      "value": "。存在多个激活GOKB数据源。建议配置 "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "single active GOKB"
+          "value": "单个激活GOKB"
         }
       ],
       "type": 8,
@@ -22634,17 +22730,21 @@
     },
     {
       "type": 0,
-      "value": " configured. Sources can be changed in "
+      "value": "。可以在 "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "external data source settings"
+          "value": " 外部数据源设置"
         }
       ],
       "type": 8,
       "value": "settingsLink"
+    },
+    {
+      "type": 0,
+      "value": " 中更改数据源。"
     }
   ],
   "ui-agreements.remoteKb.zdbids": [
@@ -30674,7 +30774,7 @@
     },
     {
       "type": 0,
-      "value": "）用于位置 "
+      "value": "）用于馆藏地 "
     },
     {
       "children": [
@@ -33898,7 +33998,7 @@
   "ui-checkout.sponsorExpired": [
     {
       "type": 0,
-      "value": "供应商用户记录已过期"
+      "value": "赞助者用户记录已过期"
     }
   ],
   "ui-checkout.status": [
@@ -34075,7 +34175,7 @@
   "ui-circulation-log.logEvent.action.Anonymize": [
     {
       "type": 0,
-      "value": "匿名化"
+      "value": "已匿名化"
     }
   ],
   "ui-circulation-log.logEvent.action.Billed": [
@@ -34949,13 +35049,13 @@
   "ui-circulation.settings.checkout.customFieldsAtCheckout": [
     {
       "type": 0,
-      "value": "Users custom fields to display at Check out"
+      "value": "用户自定义字段将在借出时显示"
     }
   ],
   "ui-circulation.settings.checkout.customFieldsAtCheckout.noCustomFields": [
     {
       "type": 0,
-      "value": "No matching custom fields have been configured"
+      "value": "未配置匹配的自定义字段"
     }
   ],
   "ui-circulation.settings.checkout.filterRules": [
@@ -45883,7 +45983,7 @@
   "ui-data-export.deleted": [
     {
       "type": 0,
-      "value": "deleted"
+      "value": "已删除"
     }
   ],
   "ui-data-export.description": [
@@ -47679,13 +47779,13 @@
     },
     {
       "type": 0,
-      "value": "将被删除"
+      "value": "将被删除。"
     }
   ],
   "ui-data-export.jobProfiles.delete.confirmationModal.messageUsedInLogs": [
     {
       "type": 0,
-      "value": "The job profile "
+      "value": "任务配置文件 "
     },
     {
       "children": [
@@ -47699,7 +47799,7 @@
     },
     {
       "type": 0,
-      "value": " and all files created by export jobs that used this profile will be permanently deleted."
+      "value": " 和使用该配置文件的导出任务创建的所有文件将被永久删除。"
     }
   ],
   "ui-data-export.jobProfiles.delete.confirmationModal.title": [
@@ -48017,7 +48117,7 @@
   "ui-data-export.locked": [
     {
       "type": 0,
-      "value": "Lock profile"
+      "value": "锁定配置文件"
     }
   ],
   "ui-data-export.logsPaneTitle": [
@@ -48101,7 +48201,7 @@
   "ui-data-export.mappingProfiles.delete.cannotDeleteModal.message": [
     {
       "type": 0,
-      "value": "This mapping profile cannot be deleted, as it is used in the following job profiles: "
+      "value": "此映射配置文件无法删除，因为它在以下任务配置文件中使用："
     },
     {
       "children": [
@@ -48112,16 +48212,12 @@
       ],
       "type": 8,
       "value": "b"
-    },
-    {
-      "type": 0,
-      "value": "."
     }
   ],
   "ui-data-export.mappingProfiles.delete.cannotDeleteModal.title": [
     {
       "type": 0,
-      "value": "Cannot delete mapping profile"
+      "value": "无法删除映射配置文件"
     }
   ],
   "ui-data-export.mappingProfiles.delete.confirmationModal.message": [
@@ -48149,7 +48245,7 @@
     },
     {
       "type": 0,
-      "value": "将被删除"
+      "value": "将被删除。"
     }
   ],
   "ui-data-export.mappingProfiles.delete.confirmationModal.title": [
@@ -69113,13 +69209,13 @@
   "ui-finance.errors.currentFiscalYearNotFound": [
     {
       "type": 0,
-      "value": "No current fiscal year found."
+      "value": "未找到当前财务年度。"
     }
   ],
   "ui-finance.errors.genericError": [
     {
       "type": 0,
-      "value": "Something went wrong."
+      "value": "出了些问题。"
     }
   ],
   "ui-finance.errors.load.code": [
@@ -69137,7 +69233,7 @@
   "ui-finance.errors.plannedFiscalYearNotFound": [
     {
       "type": 0,
-      "value": "No planned fiscal year found."
+      "value": "未找到已规划的财务年度。"
     }
   ],
   "ui-finance.expenseClass.account": [
@@ -74546,7 +74642,7 @@
     },
     {
       "type": 0,
-      "value": "的 INN-Reach机构到FOLIO位置映射已成功创建"
+      "value": "的 INN-Reach机构到FOLIO馆藏地映射已成功创建"
     }
   ],
   "ui-inn-reach.settings.agency-to-folio-locations.field.agency-code-description": [
@@ -74610,7 +74706,7 @@
     },
     {
       "type": 0,
-      "value": "的 INN-Reach机构到FOLIO位置映射已成功更新"
+      "value": "的 INN-Reach机构到FOLIO馆藏地映射已成功更新"
     }
   ],
   "ui-inn-reach.settings.bib-transformation": [
@@ -77347,61 +77443,61 @@
   "ui-inventory-import.SENTINEL": [
     {
       "type": 0,
-      "value": "SENTINEL"
+      "value": "哨兵"
     }
   ],
   "ui-inventory-import.actions.new": [
     {
       "type": 0,
-      "value": "New record"
+      "value": "新建记录"
     }
   ],
   "ui-inventory-import.actions.new.channel.xml": [
     {
       "type": 0,
-      "value": "XML bulk channel"
+      "value": "XML批量频道"
     }
   ],
   "ui-inventory-import.add": [
     {
       "type": 0,
-      "value": "Add"
+      "value": "添加"
     }
   ],
   "ui-inventory-import.button.jobs": [
     {
       "type": 0,
-      "value": "Jobs"
+      "value": "任务"
     }
   ],
   "ui-inventory-import.button.pause": [
     {
       "type": 0,
-      "value": "Pause"
+      "value": "暂停"
     }
   ],
   "ui-inventory-import.button.resume": [
     {
       "type": 0,
-      "value": "Resume"
+      "value": "恢复"
     }
   ],
   "ui-inventory-import.channels.column.enabled": [
     {
       "type": 0,
-      "value": "Enabled?"
+      "value": "已启用？"
     }
   ],
   "ui-inventory-import.channels.column.enabled.false": [
     {
       "type": 0,
-      "value": "No"
+      "value": "否"
     }
   ],
   "ui-inventory-import.channels.column.enabled.true": [
     {
       "type": 0,
-      "value": "Yes"
+      "value": "是"
     }
   ],
   "ui-inventory-import.channels.column.id": [
@@ -77413,109 +77509,109 @@
   "ui-inventory-import.channels.column.jobs": [
     {
       "type": 0,
-      "value": "Jobs"
+      "value": "任务"
     }
   ],
   "ui-inventory-import.channels.column.logFile": [
     {
       "type": 0,
-      "value": "Log file"
+      "value": "日志文件"
     }
   ],
   "ui-inventory-import.channels.column.name": [
     {
       "type": 0,
-      "value": "Name"
+      "value": "名称"
     }
   ],
   "ui-inventory-import.channels.column.type": [
     {
       "type": 0,
-      "value": "Type"
+      "value": "类型"
     }
   ],
   "ui-inventory-import.channels.column.type.XML": [
     {
       "type": 0,
-      "value": "XML bulk"
+      "value": "XML批量"
     }
   ],
   "ui-inventory-import.channels.field.commissioned": [
     {
       "type": 0,
-      "value": "Channel commissioned?"
+      "value": "频道已委托？"
     }
   ],
   "ui-inventory-import.channels.field.enabled": [
     {
       "type": 0,
-      "value": "Channel enabled?"
+      "value": "频道已启用？"
     }
   ],
   "ui-inventory-import.channels.field.enabled.help": [
     {
       "type": 0,
-      "value": "Check to specify that the channel should listen for incoming files addressed to it. Leaving this box unchecked will make the channel inactive."
+      "value": "选中此项可指定该渠道监听发送到该渠道的传入文件。取消选中此项将使该渠道处于非激活状态。"
     }
   ],
   "ui-inventory-import.channels.field.id": [
     {
       "type": 0,
-      "value": "Id"
+      "value": "ID"
     }
   ],
   "ui-inventory-import.channels.field.id.help": [
     {
       "type": 0,
-      "value": "An automatically assigned opaque identifier. Cannot be modified."
+      "value": "自动分配的不透明标识符。不可修改。"
     }
   ],
   "ui-inventory-import.channels.field.listening": [
     {
       "type": 0,
-      "value": "Channel listening?"
+      "value": "频道监听中？"
     }
   ],
   "ui-inventory-import.channels.field.name": [
     {
       "type": 0,
-      "value": "Name"
+      "value": "名称"
     }
   ],
   "ui-inventory-import.channels.field.name.help": [
     {
       "type": 0,
-      "value": "A name, which should be unique, for users to identify this resource."
+      "value": "名称，应是唯一的，以便用户识别该资源。"
     }
   ],
   "ui-inventory-import.channels.field.tag": [
     {
       "type": 0,
-      "value": "Tag"
+      "value": "标签"
     }
   ],
   "ui-inventory-import.channels.field.transformationPipeline": [
     {
       "type": 0,
-      "value": "Transformation pipeline"
+      "value": "转换管道"
     }
   ],
   "ui-inventory-import.channels.field.transformationPipeline.help": [
     {
       "type": 0,
-      "value": "Select the transformation pipeline required to change the input format delivered to this channel into the internal format used by the the Inventory Update process. See Transformation Pipelines in the settings for more details."
+      "value": "选择所需的转换管道，将发送到此渠道的输入格式转换为典藏更新过程使用的内部格式。有关更多详细信息，参阅设置中的“转换管道”。"
     }
   ],
   "ui-inventory-import.channels.field.type": [
     {
       "type": 0,
-      "value": "Type"
+      "value": "类型"
     }
   ],
   "ui-inventory-import.channels.index.all": [
     {
       "type": 0,
-      "value": "(All)"
+      "value": "（全部）"
     }
   ],
   "ui-inventory-import.channels.index.id": [
@@ -77527,103 +77623,103 @@
   "ui-inventory-import.channels.index.name": [
     {
       "type": 0,
-      "value": "Name"
+      "value": "名称"
     }
   ],
   "ui-inventory-import.error": [
     {
       "type": 0,
-      "value": "Something went wrong"
+      "value": "出问题了"
     }
   ],
   "ui-inventory-import.export-csv": [
     {
       "type": 0,
-      "value": "Export CSV"
+      "value": "导出 CSV"
     }
   ],
   "ui-inventory-import.fillIn": [
     {
       "type": 0,
-      "value": "Please fill this in to continue"
+      "value": "请填写此内容后继续"
     }
   ],
   "ui-inventory-import.filter.date.finished": [
     {
       "type": 0,
-      "value": "Date finished"
+      "value": "完成日期"
     }
   ],
   "ui-inventory-import.filter.date.finished.from": [
     {
       "type": 0,
-      "value": "From"
+      "value": "从"
     }
   ],
   "ui-inventory-import.filter.date.finished.to": [
     {
       "type": 0,
-      "value": "To"
+      "value": "到"
     }
   ],
   "ui-inventory-import.filter.date.started": [
     {
       "type": 0,
-      "value": "Date started"
+      "value": "开始日期"
     }
   ],
   "ui-inventory-import.filter.date.started.from": [
     {
       "type": 0,
-      "value": "From"
+      "value": "从"
     }
   ],
   "ui-inventory-import.filter.date.started.to": [
     {
       "type": 0,
-      "value": "To"
+      "value": "到"
     }
   ],
   "ui-inventory-import.filter.date.timeStamp": [
     {
       "type": 0,
-      "value": "Time stamp"
+      "value": "时间戳"
     }
   ],
   "ui-inventory-import.filter.date.timeStamp.from": [
     {
       "type": 0,
-      "value": "From"
+      "value": "从"
     }
   ],
   "ui-inventory-import.filter.date.timeStamp.to": [
     {
       "type": 0,
-      "value": "To"
+      "value": "到"
     }
   ],
   "ui-inventory-import.filter.numeric.records": [
     {
       "type": 0,
-      "value": "Records"
+      "value": "记录"
     }
   ],
   "ui-inventory-import.filter.numeric.records.from": [
     {
       "type": 0,
-      "value": "At least"
+      "value": "至少"
     }
   ],
   "ui-inventory-import.filter.numeric.records.to": [
     {
       "type": 0,
-      "value": "No more than"
+      "value": "不多于"
     }
   ],
   "ui-inventory-import.invalidXML": [
     {
       "type": 0,
-      "value": "Invalid XML: "
+      "value": "无效的 XML :  "
     },
     {
       "type": 1,
@@ -77633,13 +77729,13 @@
   "ui-inventory-import.invalidXSLT": [
     {
       "type": 0,
-      "value": "Valid XML, but not an XSLT stylesheet"
+      "value": "有效的 XML，但不是 XSLT 样式表"
     }
   ],
   "ui-inventory-import.jobs.caption.completed": [
     {
       "type": 0,
-      "value": "Imported "
+      "value": "已导入 "
     },
     {
       "type": 1,
@@ -77647,7 +77743,7 @@
     },
     {
       "type": 0,
-      "value": " records in "
+      "value": " 记录 "
     },
     {
       "type": 1,
@@ -77657,109 +77753,109 @@
   "ui-inventory-import.jobs.caption.notComplete": [
     {
       "type": 0,
-      "value": "Job is not complete"
+      "value": "任务未完成"
     }
   ],
   "ui-inventory-import.jobs.column.amountImported": [
     {
       "type": 0,
-      "value": "Records"
+      "value": "记录"
     }
   ],
   "ui-inventory-import.jobs.column.channelName": [
     {
       "type": 0,
-      "value": "Channel name"
+      "value": "频道名称"
     }
   ],
   "ui-inventory-import.jobs.column.duration": [
     {
       "type": 0,
-      "value": "Duration"
+      "value": "持续时间"
     }
   ],
   "ui-inventory-import.jobs.column.finished": [
     {
       "type": 0,
-      "value": "Finished"
+      "value": "已完成"
     }
   ],
   "ui-inventory-import.jobs.column.message": [
     {
       "type": 0,
-      "value": "Message (processed/loaded/deleted(skipped)/failed)"
+      "value": "消息（已处理/已加载/已删除（已跳过）/已失败）"
     }
   ],
   "ui-inventory-import.jobs.column.started": [
     {
       "type": 0,
-      "value": "Started"
+      "value": "已开始"
     }
   ],
   "ui-inventory-import.jobs.column.status": [
     {
       "type": 0,
-      "value": "Status"
+      "value": "状态"
     }
   ],
   "ui-inventory-import.jobs.column.status.DONE": [
     {
       "type": 0,
-      "value": "Done"
+      "value": "完成"
     }
   ],
   "ui-inventory-import.jobs.column.status.INTERRUPTED": [
     {
       "type": 0,
-      "value": "Interrupted"
+      "value": "已中断"
     }
   ],
   "ui-inventory-import.jobs.column.status.PAUSED": [
     {
       "type": 0,
-      "value": "Paused"
+      "value": "已暂停"
     }
   ],
   "ui-inventory-import.jobs.column.status.RUNNING": [
     {
       "type": 0,
-      "value": "Running"
+      "value": "运行中"
     }
   ],
   "ui-inventory-import.jobs.column.type": [
     {
       "type": 0,
-      "value": "Type"
+      "value": "类型"
     }
   ],
   "ui-inventory-import.jobs.field.channelName": [
     {
       "type": 0,
-      "value": "Channel name"
+      "value": "频道名称"
     }
   ],
   "ui-inventory-import.jobs.field.transformationPipeline": [
     {
       "type": 0,
-      "value": "Transformation pipeline"
+      "value": "转换管道"
     }
   ],
   "ui-inventory-import.jobs.index.all": [
     {
       "type": 0,
-      "value": "(All)"
+      "value": "（全部）"
     }
   ],
   "ui-inventory-import.jobs.index.channelName": [
     {
       "type": 0,
-      "value": "Channel name"
+      "value": "频道名称"
     }
   ],
   "ui-inventory-import.jobs.index.message": [
     {
       "type": 0,
-      "value": "Message"
+      "value": "消息"
     }
   ],
   "ui-inventory-import.logs.countFailedRecords": [
@@ -77779,7 +77875,7 @@
           "value": [
             {
               "type": 0,
-              "value": "failed record"
+              "value": "失败记录"
             }
           ]
         },
@@ -77787,7 +77883,7 @@
           "value": [
             {
               "type": 0,
-              "value": "failed records"
+              "value": "失败记录"
             }
           ]
         }
@@ -77814,7 +77910,7 @@
           "value": [
             {
               "type": 0,
-              "value": "log line"
+              "value": "日志行"
             }
           ]
         },
@@ -77822,7 +77918,7 @@
           "value": [
             {
               "type": 0,
-              "value": "log lines"
+              "value": "日志行"
             }
           ]
         }
@@ -77835,53 +77931,53 @@
   "ui-inventory-import.logs.field.line": [
     {
       "type": 0,
-      "value": "Line"
+      "value": "行"
     }
   ],
   "ui-inventory-import.logs.field.timeStamp": [
     {
       "type": 0,
-      "value": "Timestamp"
+      "value": "时间戳"
     }
   ],
   "ui-inventory-import.meta.title": [
     {
       "type": 0,
-      "value": "Inventory import"
+      "value": "典藏导入"
     }
   ],
   "ui-inventory-import.nav.channels": [
     {
       "type": 0,
-      "value": "Channels"
+      "value": "频道"
     }
   ],
   "ui-inventory-import.nav.jobs": [
     {
       "type": 0,
-      "value": "Jobs"
+      "value": "任务"
     }
   ],
   "ui-inventory-import.nav.jobs-for": [
     {
-      "type": 0,
-      "value": "Jobs for "
-    },
-    {
       "type": 1,
       "value": "name"
+    },
+    {
+      "type": 0,
+      "value": "的任务"
     }
   ],
   "ui-inventory-import.nav.records": [
     {
       "type": 0,
-      "value": "Failed records"
+      "value": "失败记录"
     }
   ],
   "ui-inventory-import.no-title": [
     {
       "type": 0,
-      "value": "[No title]"
+      "value": "[无题名]"
     }
   ],
   "ui-inventory-import.no-value": [
@@ -77893,7 +77989,7 @@
   "ui-inventory-import.pause.failure": [
     {
       "type": 0,
-      "value": "Channel "
+      "value": "频道 "
     },
     {
       "type": 1,
@@ -77901,7 +77997,7 @@
     },
     {
       "type": 0,
-      "value": " could not be paused: HTTP status "
+      "value": " 无法暂停：HTTP 状态 "
     },
     {
       "type": 1,
@@ -77909,7 +78005,7 @@
     },
     {
       "type": 0,
-      "value": ": "
+      "value": "： "
     },
     {
       "type": 1,
@@ -77919,7 +78015,7 @@
   "ui-inventory-import.pause.success": [
     {
       "type": 0,
-      "value": "Channel "
+      "value": "频道 "
     },
     {
       "type": 1,
@@ -77927,91 +78023,91 @@
     },
     {
       "type": 0,
-      "value": " has been paused"
+      "value": " 已暂停"
     }
   ],
   "ui-inventory-import.permission.all": [
     {
       "type": 0,
-      "value": "Inventory import: All permissions"
+      "value": "典藏导入：所有权限"
     }
   ],
   "ui-inventory-import.permission.channels.delete": [
     {
       "type": 0,
-      "value": "Inventory import: View, edit, create, delete channels"
+      "value": "典藏导入：查看、编辑、创建、删除渠道"
     }
   ],
   "ui-inventory-import.permission.channels.get": [
     {
       "type": 0,
-      "value": "Inventory import: View channels"
+      "value": "典藏导入：查看渠道"
     }
   ],
   "ui-inventory-import.permission.channels.post": [
     {
       "type": 0,
-      "value": "Inventory import: View, edit, create channels"
+      "value": "典藏导入：查看、编辑、创建渠道"
     }
   ],
   "ui-inventory-import.permission.channels.put": [
     {
       "type": 0,
-      "value": "Inventory import: View, edit channels"
+      "value": "典藏导入：查看、编辑渠道"
     }
   ],
   "ui-inventory-import.permission.jobs-and-failed-records.view": [
     {
       "type": 0,
-      "value": "Inventory import: View jobs and failed records"
+      "value": "典藏导入：查看任务和失败记录"
     }
   ],
   "ui-inventory-import.permission.settings.view": [
     {
       "type": 0,
-      "value": "Inventory import (Settings): View transformation pipelines, transformation steps, channels and log-file deletion threshold"
+      "value": "典藏导入（设置）：查看转换管道、转换步骤、渠道和日志文件删除阈值"
     }
   ],
   "ui-inventory-import.permission.settings.view-edit": [
     {
       "type": 0,
-      "value": "Inventory import (Settings): View, edit transformation pipelines, transformation steps, channels and log-file deletion threshold"
+      "value": "典藏导入（设置）：查看、编辑转换管道、转换步骤、渠道和日志文件删除阈值"
     }
   ],
   "ui-inventory-import.permission.settings.view-edit-create": [
     {
       "type": 0,
-      "value": "Inventory import (Settings): View, edit, create transformation pipelines, transformation steps and channels"
+      "value": "典藏导入（设置）：查看、编辑、创建转换管道、转换步骤和渠道"
     }
   ],
   "ui-inventory-import.permission.settings.view-edit-create-delete": [
     {
       "type": 0,
-      "value": "Inventory import (Settings): View, edit, create, delete transformation pipelines, transformation steps and channels"
+      "value": "典藏导入（设置）：查看、编辑、创建、删除转换管道、转换步骤和渠道"
     }
   ],
   "ui-inventory-import.pipeline.field.description": [
     {
       "type": 0,
-      "value": "Description"
+      "value": "描述"
     }
   ],
   "ui-inventory-import.pipeline.field.name": [
     {
       "type": 0,
-      "value": "Name"
+      "value": "名称"
     }
   ],
   "ui-inventory-import.pipeline.field.steps": [
     {
       "type": 0,
-      "value": "Transformation steps in pipeline"
+      "value": "管道中的转换步骤"
     }
   ],
   "ui-inventory-import.pipeline.steps.name": [
     {
       "type": 0,
-      "value": "Name"
+      "value": "名称"
     }
   ],
   "ui-inventory-import.pipeline.steps.position": [
@@ -78023,85 +78119,85 @@
   "ui-inventory-import.records.field.channelName": [
     {
       "type": 0,
-      "value": "Channel name"
+      "value": "频道名称"
     }
   ],
   "ui-inventory-import.records.field.errors": [
     {
       "type": 0,
-      "value": "Errors"
+      "value": "错误"
     }
   ],
   "ui-inventory-import.records.field.importJob": [
     {
       "type": 0,
-      "value": "Import job"
+      "value": "导入任务"
     }
   ],
   "ui-inventory-import.records.field.instanceHrid": [
     {
       "type": 0,
-      "value": "Instance HRID"
+      "value": "实例HRID"
     }
   ],
   "ui-inventory-import.records.field.instanceTitle": [
     {
       "type": 0,
-      "value": "Instance title"
+      "value": "实例题名"
     }
   ],
   "ui-inventory-import.records.field.originalRecord": [
     {
       "type": 0,
-      "value": "Original record"
+      "value": "原始记录"
     }
   ],
   "ui-inventory-import.records.field.recordNumber": [
     {
       "type": 0,
-      "value": "Record number"
+      "value": "记录号"
     }
   ],
   "ui-inventory-import.records.field.sourceFileName": [
     {
       "type": 0,
-      "value": "Source file name"
+      "value": "源文件名"
     }
   ],
   "ui-inventory-import.records.field.timeStamp": [
     {
       "type": 0,
-      "value": "Time stamp"
+      "value": "时间戳"
     }
   ],
   "ui-inventory-import.records.field.transformedRecord": [
     {
       "type": 0,
-      "value": "Transformed record"
+      "value": "已转换记录"
     }
   ],
   "ui-inventory-import.records.index.all": [
     {
       "type": 0,
-      "value": "(All)"
+      "value": "（全部）"
     }
   ],
   "ui-inventory-import.records.index.channelName": [
     {
       "type": 0,
-      "value": "Channel name"
+      "value": "频道名称"
     }
   ],
   "ui-inventory-import.records.index.recordNumber": [
     {
       "type": 0,
-      "value": "Record number"
+      "value": "记录号"
     }
   ],
   "ui-inventory-import.reports": [
     {
       "type": 0,
-      "value": "Reports"
+      "value": "报告"
     }
   ],
   "ui-inventory-import.resultCount": [
@@ -78121,7 +78217,7 @@
           "value": [
             {
               "type": 0,
-              "value": "record found"
+              "value": "记录找到"
             }
           ]
         },
@@ -78129,7 +78225,7 @@
           "value": [
             {
               "type": 0,
-              "value": "records found"
+              "value": "记录找到"
             }
           ]
         }
@@ -78142,7 +78238,7 @@
   "ui-inventory-import.resume.failure": [
     {
       "type": 0,
-      "value": "Channel "
+      "value": "频道 "
     },
     {
       "type": 1,
@@ -78150,7 +78246,7 @@
     },
     {
       "type": 0,
-      "value": " could not be resumed: HTTP status "
+      "value": " 无法恢复：HTTP 状态 "
     },
     {
       "type": 1,
@@ -78158,7 +78254,7 @@
     },
     {
       "type": 0,
-      "value": ": "
+      "value": "： "
     },
     {
       "type": 1,
@@ -78168,7 +78264,7 @@
   "ui-inventory-import.resume.success": [
     {
       "type": 0,
-      "value": "Channel "
+      "value": "频道 "
     },
     {
       "type": 1,
@@ -78176,127 +78272,127 @@
     },
     {
       "type": 0,
-      "value": " has been resumed"
+      "value": " 已恢复"
     }
   ],
   "ui-inventory-import.searchInputLabel": [
     {
       "type": 0,
-      "value": "Search input field"
+      "value": "搜索输入字段"
     }
   ],
   "ui-inventory-import.selectToContinue": [
     {
       "type": 0,
-      "value": "Please select to continue"
+      "value": "请选择以继续"
     }
   ],
   "ui-inventory-import.selectValue": [
     {
       "type": 0,
-      "value": "Select a value"
+      "value": "选择一个值"
     }
   ],
   "ui-inventory-import.settings.channels": [
     {
       "type": 0,
-      "value": "Channels"
+      "value": "频道"
     }
   ],
   "ui-inventory-import.settings.logs": [
     {
       "type": 0,
-      "value": "Log deletion"
+      "value": "日志删除"
     }
   ],
   "ui-inventory-import.settings.logs.description": [
     {
       "type": 0,
-      "value": "Logs older than the configured age threshold are automatically deleted once per day, at 2am Central European time. The threshhold is specified by a number and a unit. "
+      "value": "超过设定的日志期限的日志每天凌晨 2 点（欧洲中部时间）自动删除。该期限由一个数字和一个单位指定。"
     }
   ],
   "ui-inventory-import.settings.logs.number": [
     {
       "type": 0,
-      "value": "Number"
+      "value": "数字"
     }
   ],
   "ui-inventory-import.settings.logs.unit": [
     {
       "type": 0,
-      "value": "Unit"
+      "value": "单位"
     }
   ],
   "ui-inventory-import.settings.logs.unit.days": [
     {
       "type": 0,
-      "value": "Days"
+      "value": "天"
     }
   ],
   "ui-inventory-import.settings.logs.unit.months": [
     {
       "type": 0,
-      "value": "Months"
+      "value": "月"
     }
   ],
   "ui-inventory-import.settings.logs.unit.weeks": [
     {
       "type": 0,
-      "value": "Weeks"
+      "value": "周"
     }
   ],
   "ui-inventory-import.settings.pipeline": [
     {
       "type": 0,
-      "value": "Transformation pipelines"
+      "value": "转换管道"
     }
   ],
   "ui-inventory-import.settings.pipeline.heading": [
     {
       "type": 0,
-      "value": "transformation pipeline"
+      "value": "转换管道"
     }
   ],
   "ui-inventory-import.settings.step": [
     {
       "type": 0,
-      "value": "Transformation steps"
+      "value": "转换步骤"
     }
   ],
   "ui-inventory-import.settings.step.heading": [
     {
       "type": 0,
-      "value": "transformation step"
+      "value": "转换步骤"
     }
   ],
   "ui-inventory-import.step.field.description": [
     {
       "type": 0,
-      "value": "Description"
+      "value": "描述"
     }
   ],
   "ui-inventory-import.step.field.name": [
     {
       "type": 0,
-      "value": "Name"
+      "value": "名称"
     }
   ],
   "ui-inventory-import.step.field.script": [
     {
       "type": 0,
-      "value": "Script"
+      "value": "文字"
     }
   ],
   "ui-inventory-import.step.field.type": [
     {
       "type": 0,
-      "value": "Type"
+      "value": "类型"
     }
   ],
   "ui-inventory-import.validXSLT": [
     {
       "type": 0,
-      "value": "Valid XSLT stylesheet"
+      "value": "有效的 XSLT 样式表"
     }
   ],
   "ui-inventory.ILLPolicy": [
@@ -78792,31 +78888,31 @@
   "ui-inventory.additionalCallNumber": [
     {
       "type": 0,
-      "value": "Additional call number"
+      "value": "附加索书号"
     }
   ],
   "ui-inventory.additionalCallNumberPrefix": [
     {
       "type": 0,
-      "value": "Additional call number prefix"
+      "value": "附加索书号—前缀"
     }
   ],
   "ui-inventory.additionalCallNumberSuffix": [
     {
       "type": 0,
-      "value": "Additional call number suffix"
+      "value": "附加索书号—后缀"
     }
   ],
   "ui-inventory.additionalCallNumberType": [
     {
       "type": 0,
-      "value": "Additional call number type"
+      "value": "添加附加索书号类型"
     }
   ],
   "ui-inventory.additionalCallNumbers": [
     {
       "type": 0,
-      "value": "Additional call numbers"
+      "value": "附加索书号"
     }
   ],
   "ui-inventory.additionalHoldingsCallNumbers": [
@@ -80289,7 +80385,7 @@
   "ui-inventory.effectiveCallNumberPrefix": [
     {
       "type": 0,
-      "value": "Effective call number prefix"
+      "value": "有效的索书号前缀"
     }
   ],
   "ui-inventory.effectiveCallNumberShelving": [
@@ -80301,13 +80397,13 @@
   "ui-inventory.effectiveCallNumberSuffix": [
     {
       "type": 0,
-      "value": "Effective call number suffix"
+      "value": "有效的索书号后缀"
     }
   ],
   "ui-inventory.effectiveCallNumberType": [
     {
       "type": 0,
-      "value": "Effective call number type"
+      "value": "有效的索书号类型"
     }
   ],
   "ui-inventory.effectiveLocation": [
@@ -84973,7 +85069,7 @@
   "ui-inventory.remote.warning.common.items": [
     {
       "type": 0,
-      "value": "单件已在FOLIO中成功移动。要完成从远程存储中删除该单件，请运行一个例外报告或直接将其传达给你的远程存储位置。"
+      "value": "单件已在FOLIO中成功移动。要完成从远程存储中删除该单件，请运行一个例外报告或直接将其传达给你的远程存储馆藏地。"
     }
   ],
   "ui-inventory.remote.warning.titles": [
@@ -91580,7 +91676,7 @@
   "ui-ldp.noperm": [
     {
       "type": 0,
-      "value": "You do not have permission to access any part of this app"
+      "value": "您没有权限访问此应用的任何部分。"
     }
   ],
   "ui-ldp.nulls": [
@@ -95731,7 +95827,7 @@
     },
     {
       "type": 0,
-      "value": "未删除，因为找不到列表。验证列表位置并重试。"
+      "value": "未删除，因为找不到列表。验证列表馆藏地并重试。"
     }
   ],
   "ui-lists.delete-list.refresh.in.progress": [
@@ -95927,7 +96023,7 @@
     },
     {
       "type": 0,
-      "value": "导出失败，因为找不到列表。验证列表位置并重试。"
+      "value": "导出失败，因为找不到列表。验证列表馆藏地并重试。"
     }
   ],
   "ui-lists.export-list.refresh.in.progress": [
@@ -96486,7 +96582,7 @@
     },
     {
       "type": 0,
-      "value": " 。验证列表位置并重试。"
+      "value": " 。验证列表馆藏地并重试。"
     }
   ],
   "ui-lists.record-types.label.deduplication.built-in": [
@@ -96724,7 +96820,7 @@
     },
     {
       "type": 0,
-      "value": "未刷新，因为找不到列表。验证列表位置并重试。"
+      "value": "未刷新，因为找不到列表。验证列表馆藏地并重试。"
     }
   ],
   "ui-lists.refresh-list.refresh.in.progress": [
@@ -96966,7 +97062,7 @@
     },
     {
       "type": 0,
-      "value": "的更改。验证列表位置并重试。"
+      "value": "的更改。验证列表馆藏地并重试。"
     }
   ],
   "ui-lists.update-list.refresh.in.progress": [
@@ -98633,7 +98729,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Warning"
+          "value": "警告"
         }
       ],
       "type": 8,
@@ -98641,7 +98737,7 @@
     },
     {
       "type": 0,
-      "value": ": More than one active GOKB data source exists. It is recommended to have a single active GOKB configured. The first active source in the table (listed alphabetically) will be used for the Agreements GOKB search."
+      "value": "：存在一个以上激活的 GOKB 数据源。建议配置单个激活的 GOKB。协议 GOKB 搜索将使用表中的第一个激活来源（按字母顺序列出）。"
     }
   ],
   "ui-local-kb-admin.settings.general": [
@@ -100359,25 +100455,25 @@
   "ui-mosaic-settings.sections.configuration-options.action.generate-integration-templates.description": [
     {
       "type": 0,
-      "value": "Clicking this button will generate templates for you to use as the default for this integration. The organization record and order template that are created can still be edited as desired or deleted."
+      "value": "单击此按钮将为您生成模板，作为此集成的默认设置。创建的组织记录和订单模板仍可根据需要进行编辑或删除。"
     }
   ],
   "ui-mosaic-settings.sections.configuration-options.action.generate-integration-templates.error": [
     {
       "type": 0,
-      "value": "Unable to generate templates. Please try again."
+      "value": "无法生成模板，请重试。"
     }
   ],
   "ui-mosaic-settings.sections.configuration-options.action.generate-integration-templates.label": [
     {
       "type": 0,
-      "value": "Generate integration templates"
+      "value": "生成集成模板"
     }
   ],
   "ui-mosaic-settings.sections.configuration-options.action.generate-integration-templates.success": [
     {
       "type": 0,
-      "value": "Integration templates generated successfully."
+      "value": "集成模板生成成功。"
     }
   ],
   "ui-mosaic-settings.sections.configuration-options.description": [
@@ -100395,7 +100491,7 @@
   "ui-mosaic-settings.sections.configuration-options.selection.description": [
     {
       "type": 0,
-      "value": "You are able to choose the default order template that is applied when Mosaic creates an order in FOLIO. If a template is chosen while ordering in Mosaic that will override this selection, if no template is chosen this one will be applied. You can edit the order templates in order settings under \"Order templates\"."
+      "value": "当Mosaic在FOLIO中创建订单时，您可以选择应用的默认订单模板。如果在Mosaic中订购时选择了一个模板，将覆盖此选择，如果没有选择模板，将应用此模板。您可以在 \"订单模板 \"下的订单设置中编辑订单模板。"
     }
   ],
   "ui-mosaic-settings.sections.configuration-options.submit.error": [
@@ -102693,7 +102789,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Party已创建 :  "
+          "value": "参与方已创建 :  "
         }
       ],
       "type": 8,
@@ -102935,7 +103031,7 @@
     },
     {
       "type": 0,
-      "value": "Party未保存。主电子邮件必须是唯一的。主电子邮件"
+      "value": "参与方未保存。主电子邮件必须是唯一的。主电子邮件"
     },
     {
       "type": 1,
@@ -102943,7 +103039,7 @@
     },
     {
       "type": 0,
-      "value": "的一方已存在"
+      "value": "的参与方已存在"
     }
   ],
   "ui-oa.party.uniqueOrcIdError": [
@@ -102959,7 +103055,7 @@
     },
     {
       "type": 0,
-      "value": "派对未保存。 OrcId 必须是唯一的。 OrcId "
+      "value": "参与方未保存。 OrcId 必须是唯一的。 OrcId "
     },
     {
       "type": 1,
@@ -102967,7 +103063,7 @@
     },
     {
       "type": 0,
-      "value": "的派对已经存在"
+      "value": "的参与方已经存在"
     }
   ],
   "ui-oa.party.updatedSuccessCallout": [
@@ -102975,7 +103071,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Party已更新 :  "
+          "value": "参与方已更新 :  "
         }
       ],
       "type": 8,
@@ -103391,7 +103487,7 @@
   "ui-oa.publicationRequest.party": [
     {
       "type": 0,
-      "value": "团队"
+      "value": "参与方"
     }
   ],
   "ui-oa.publicationRequest.person": [
@@ -105668,7 +105764,7 @@
   "ui-orders.cost.info": [
     {
       "type": 0,
-      "value": "列出 单价x订购数量+附加费用-折扣"
+      "value": "清单单价 x 订购数量 + 附加费用 - 折扣 + 展期调整"
     }
   ],
   "ui-orders.cost.listPrice": [
@@ -106238,7 +106334,7 @@
   "ui-orders.errors.fundsNotFound": [
     {
       "type": 0,
-      "value": "经费记录未找到"
+      "value": "一个或多个经费无法加载。该经费可能已被删除，或者您没有查看相关经费的权限。"
     }
   ],
   "ui-orders.errors.holdingsByIdNotFoundError": [
@@ -106696,7 +106792,7 @@
   "ui-orders.errors.poLineHasLocationRestrictedFund": [
     {
       "type": 0,
-      "value": "位置限制经费应用于无效馆藏地"
+      "value": "馆藏地限制经费应用于无效馆藏地"
     }
   ],
   "ui-orders.errors.poLineHasRelatedApprovedInvoice": [
@@ -107713,7 +107809,7 @@
   "ui-orders.line.holdings.deleteModal.message": [
     {
       "type": 0,
-      "value": "This PO Line is connected to records in inventory. After this edit there will be no other purchase order lines, pieces OR items connected to the related Holdings record(s). After making this change would you like FOLIO to delete the Holdings record(s)?"
+      "value": "此采购订单行与典藏中记录关联。修改后，将不再有其他采购订单行、件或单件与相关的馆藏记录关联。更改完成后，是否希望FOLIO删除馆藏记录？"
     }
   ],
   "ui-orders.line.paneTitle.details": [
@@ -109197,7 +109293,7 @@
   "ui-orders.poLine.fundDistribution.expenseClass.modal.message": [
     {
       "type": 0,
-      "value": "Changing this expense class will not update the related invoice line fund distribution. If you want the expense class on the invoice line to match you must update the related invoice line fund distribution in the invoice application."
+      "value": "更改此支出类别不会更新相关发票行的经费分配。如果希望发票行上的支出类别与之匹配，则必须在发票应用程序中更新相关发票行的经费分配。"
     }
   ],
   "ui-orders.poLine.fundDistribution.expenseClass.modal.title": [
@@ -110948,7 +111044,7 @@
   "ui-orders.settings.customFields.purchaseOrderLines.label": [
     {
       "type": 0,
-      "value": "Custom fields - purchase order lines"
+      "value": "自定义字段 - 采购订单行"
     }
   ],
   "ui-orders.settings.customFields.purchaseOrders": [
@@ -110960,7 +111056,7 @@
   "ui-orders.settings.customFields.purchaseOrders.label": [
     {
       "type": 0,
-      "value": "Custom fields - purchase orders"
+      "value": "自定义字段 - 采购订单"
     }
   ],
   "ui-orders.settings.general.label": [
@@ -120761,7 +120857,7 @@
   "ui-plugin-find-user.patron": [
     {
       "type": 0,
-      "value": "Patron"
+      "value": "读者"
     }
   ],
   "ui-plugin-find-user.searchButton.title": [
@@ -121351,13 +121447,13 @@
   "ui-quick-marc.autoLinkingButton.infotip": [
     {
       "type": 0,
-      "value": "The Link headings button links all access point bibliographic fields that contain a $0 to authority heading. If a field does not have a $0, you can manually link the field to an authority heading by selecting the Link button on the field itself."
+      "value": "“链接标题”按钮会将所有包含 $0 的检索点书目字段链接到规范标题。如果某个字段不包含 $0，可以通过选择字段本身的“链接”按钮，手动将该字段链接到规范标题。"
     }
   ],
   "ui-quick-marc.autoLinkingButton.infotip.learnMore": [
     {
       "type": 0,
-      "value": "Learn more"
+      "value": "了解更多信息"
     }
   ],
   "ui-quick-marc.bib-record.derive.title": [
@@ -128730,6 +128826,12 @@
       "value": "此值不能删除"
     }
   ],
+  "ui-receiving.errors.fundsNotFound": [
+    {
+      "type": 0,
+      "value": "One or more funds could not be loaded. The fund(s) may have been deleted or you may not have permission to view the associated fund(s)."
+    }
+  ],
   "ui-receiving.errors.holdingsByIdNotFoundError": [
     {
       "type": 0,
@@ -128773,7 +128875,7 @@
   "ui-receiving.errors.lastPiece": [
     {
       "type": 0,
-      "value": "The piece was not deleted because you cannot delete all pieces when ordering and receiving quantity are synchronized."
+      "value": "由于订购和接收数量同步时无法删除所有件，因此没有删除该件。"
     }
   ],
   "ui-receiving.errors.locationIdAndHoldingIdAbsentError": [
@@ -128846,6 +128948,21 @@
     {
       "type": 0,
       "value": "件记录更新失败"
+    }
+  ],
+  "ui-receiving.errors.polNumberInvalidOrTooLong": [
+    {
+      "type": 0,
+      "value": "POL number is invalid or bigger than "
+    },
+    {
+      "style": null,
+      "type": 2,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": " alphanumeric characters."
     }
   ],
   "ui-receiving.errors.receivingProcessEncumbrancesError": [
@@ -130345,7 +130462,7 @@
   "ui-receiving.title.changePieceQuantityMessage": [
     {
       "type": 0,
-      "value": "在此记录中添加或移除件将更新采购订单行数量和位置详情，进而更新估计价格。"
+      "value": "在此记录中添加或移除件将更新采购订单行数量和馆藏地详情，进而更新估计价格。"
     }
   ],
   "ui-receiving.title.checkinItems": [
@@ -130863,7 +130980,7 @@
   "ui-remote-storage.cannotDeleteModal.message": [
     {
       "type": 0,
-      "value": "一个或多个位置与此配置相关联。无法删除配置。"
+      "value": "一个或多个馆藏地与此配置相关联。无法删除配置。"
     }
   ],
   "ui-remote-storage.configurations.title": [
@@ -134450,7 +134567,7 @@
   "ui-requests.requestMeta.anonymized": [
     {
       "type": 0,
-      "value": "Anonymized"
+      "value": "已匿名化"
     }
   ],
   "ui-requests.requestMeta.detailLabel": [
@@ -137615,19 +137732,19 @@
   "ui-serials-management.templates.copy": [
     {
       "type": 0,
-      "value": "Copy"
+      "value": "复本"
     }
   ],
   "ui-serials-management.templates.deleteTemplate": [
     {
       "type": 0,
-      "value": "Delete publication pattern template"
+      "value": "删除出版模式模板"
     }
   ],
   "ui-serials-management.templates.deleteTemplate.confirmMessage": [
     {
       "type": 0,
-      "value": "Publication pattern template "
+      "value": "出版模式模板 "
     },
     {
       "children": [
@@ -137641,7 +137758,7 @@
     },
     {
       "type": 0,
-      "value": " will be deleted"
+      "value": " 将被删除"
     }
   ],
   "ui-serials-management.templates.deleteTemplate.error": [
@@ -137649,7 +137766,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Publication pattern template was not deleted:"
+          "value": "未删除出版模式模板："
         }
       ],
       "type": 8,
@@ -137667,7 +137784,7 @@
   "ui-serials-management.templates.deleteTemplate.success": [
     {
       "type": 0,
-      "value": "Publication pattern template deleted: "
+      "value": "已删除出版模式模板："
     },
     {
       "children": [
@@ -137689,7 +137806,7 @@
   "ui-serials-management.templates.editTemplate": [
     {
       "type": 0,
-      "value": "Edit pattern template - "
+      "value": "编辑模式模板 - "
     },
     {
       "type": 1,
@@ -137705,19 +137822,19 @@
   "ui-serials-management.templates.modelRulesetDescription": [
     {
       "type": 0,
-      "value": "Pattern template description"
+      "value": "模式模板描述"
     }
   ],
   "ui-serials-management.templates.modelRulesetName": [
     {
       "type": 0,
-      "value": "Pattern template name"
+      "value": "模式模板名称"
     }
   ],
   "ui-serials-management.templates.modelRulesetStatus": [
     {
       "type": 0,
-      "value": "Pattern template status"
+      "value": "模式模板状态"
     }
   ],
   "ui-serials-management.templates.name": [
@@ -137729,13 +137846,13 @@
   "ui-serials-management.templates.newTemplate": [
     {
       "type": 0,
-      "value": "New publication pattern template"
+      "value": "新建出版模式模板"
     }
   ],
   "ui-serials-management.templates.rulesetInfo": [
     {
       "type": 0,
-      "value": "Pattern status and description"
+      "value": "模式状态和描述"
     }
   ],
   "ui-serials-management.templates.status": [
@@ -138535,25 +138652,25 @@
   "ui-service-interaction.settings.numberGeneratorSequences.format.info": [
     {
       "type": 0,
-      "value": "格式字段定义生成的数字的长度 : 不包括校验位和前后缀 ) 。使用 # 定义不带填充的长度，例如“####”。或者使用字符来包含填充。例如，“0000”将长度设置为 4，并添加零以产生输出，例如 0045。"
+      "value": "“格式”字段支持可选填充，“最大值”字段定义生成的递增数字的长度（不包括校验位、前缀和后缀）。"
     }
   ],
   "ui-service-interaction.settings.numberGeneratorSequences.format.info.item1": [
     {
       "type": 0,
-      "value": "Use # for digits without padding (e.g., #### for four digits)."
+      "value": "对于没有填充的数字，请使用 #（例如，四位数字，请使用 ####）。"
     }
   ],
   "ui-service-interaction.settings.numberGeneratorSequences.format.info.item2": [
     {
       "type": 0,
-      "value": "To add padding, specify the character. E.g., 0000 for leading zeros, resulting in outputs like 0045."
+      "value": "要添加填充，请指定字符。例如，0000 表示前导零，输出结果类似于 0045。"
     }
   ],
   "ui-service-interaction.settings.numberGeneratorSequences.format.info.item3": [
     {
       "type": 0,
-      "value": "If a Maximum value is set, the Format length must match it. The maximum value field enforces the length of the field, e.g. the maximum value of 9999 indicates a maximum length of four characters and must be paired with a matching format value, e.g. #### or 0000."
+      "value": "如果设置了最大值，则格式长度必须与之匹配。最大值字段强制规定字段长度，例如，最大值 9999 表示最大长度为四个字符，并且必须与匹配的格式值（例如 #### 或 0000）配对。"
     }
   ],
   "ui-service-interaction.settings.numberGeneratorSequences.generator": [
@@ -138601,7 +138718,7 @@
   "ui-service-interaction.settings.numberGeneratorSequences.maximumCheck.noThresholdSet": [
     {
       "type": 0,
-      "value": "No threshold set"
+      "value": "未设置阈值"
     }
   ],
   "ui-service-interaction.settings.numberGeneratorSequences.maximumCheck.overThreshold": [
@@ -139581,7 +139698,7 @@
   "ui-tenant-settings.settings.locale.success": [
     {
       "type": 0,
-      "value": "Setting was successfully updated."
+      "value": "设置更新成功。"
     }
   ],
   "ui-tenant-settings.settings.locale.title": [

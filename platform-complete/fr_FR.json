@@ -18969,6 +18969,102 @@
       "value": "Statut des localisations"
     }
   ],
+  "ui-agreements.eresources.identifiers": [
+    {
+      "type": 0,
+      "value": "Identifiers"
+    }
+  ],
+  "ui-agreements.eresources.identifiers.doi": [
+    {
+      "type": 0,
+      "value": "DOI"
+    }
+  ],
+  "ui-agreements.eresources.identifiers.eBookPool": [
+    {
+      "type": 0,
+      "value": "E-Book Pool"
+    }
+  ],
+  "ui-agreements.eresources.identifiers.eisbn": [
+    {
+      "type": 0,
+      "value": "ISBN (Online)"
+    }
+  ],
+  "ui-agreements.eresources.identifiers.eissn": [
+    {
+      "type": 0,
+      "value": "ISSN (Online)"
+    }
+  ],
+  "ui-agreements.eresources.identifiers.ezb": [
+    {
+      "type": 0,
+      "value": "EZB"
+    }
+  ],
+  "ui-agreements.eresources.identifiers.gokb_id": [
+    {
+      "type": 0,
+      "value": "GOKB ID"
+    }
+  ],
+  "ui-agreements.eresources.identifiers.gokb_uuid": [
+    {
+      "type": 0,
+      "value": "GOKB UUID"
+    }
+  ],
+  "ui-agreements.eresources.identifiers.isbn": [
+    {
+      "type": 0,
+      "value": "ISBN"
+    }
+  ],
+  "ui-agreements.eresources.identifiers.isil": [
+    {
+      "type": 0,
+      "value": "ISIL"
+    }
+  ],
+  "ui-agreements.eresources.identifiers.issn": [
+    {
+      "type": 0,
+      "value": "ISSN"
+    }
+  ],
+  "ui-agreements.eresources.identifiers.pisbn": [
+    {
+      "type": 0,
+      "value": "ISBN (Print)"
+    }
+  ],
+  "ui-agreements.eresources.identifiers.pissn": [
+    {
+      "type": 0,
+      "value": "ISSN (Print)"
+    }
+  ],
+  "ui-agreements.eresources.identifiers.resourceIdentifier": [
+    {
+      "type": 0,
+      "value": "Resource identifier"
+    }
+  ],
+  "ui-agreements.eresources.identifiers.resourceIdentifierType": [
+    {
+      "type": 0,
+      "value": "Resource identifier type"
+    }
+  ],
+  "ui-agreements.eresources.identifiers.zdb": [
+    {
+      "type": 0,
+      "value": "ZDB"
+    }
+  ],
   "ui-agreements.eresources.isPackage": [
     {
       "type": 0,
@@ -22245,7 +22341,7 @@
   "ui-agreements.remoteKb.remoteTitleNotFound": [
     {
       "type": 0,
-      "value": "Title not currently present in Local KB. To add the title, synchronise one of the packages listed in the Packages accordion"
+      "value": "Title not currently present in Local KB. To add the title, synchronise one of the packages listed in the Package titles accordion"
     }
   ],
   "ui-agreements.remoteKb.scheme": [
@@ -76470,7 +76566,7 @@
   "ui-inventory-import.settings.logs.description": [
     {
       "type": 0,
-      "value": "Logs older than the configured age threshold are automatically deleted once per day, at 2am Central European time. The threshhold is specified by a number and a unit. "
+      "value": "Logs older than the configured age threshold are automatically deleted once per day, at 2am Central European time. The threshhold is specified by a number and a unit."
     }
   ],
   "ui-inventory-import.settings.logs.number": [
@@ -125380,6 +125476,12 @@
       "value": "This value can not be deleted"
     }
   ],
+  "ui-receiving.errors.fundsNotFound": [
+    {
+      "type": 0,
+      "value": "One or more funds could not be loaded. The fund(s) may have been deleted or you may not have permission to view the associated fund(s)."
+    }
+  ],
   "ui-receiving.errors.holdingsByIdNotFoundError": [
     {
       "type": 0,
@@ -125488,6 +125590,21 @@
     {
       "type": 0,
       "value": "The piece record failed to be updated"
+    }
+  ],
+  "ui-receiving.errors.polNumberInvalidOrTooLong": [
+    {
+      "type": 0,
+      "value": "POL number is invalid or bigger than "
+    },
+    {
+      "style": null,
+      "type": 2,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": " alphanumeric characters."
     }
   ],
   "ui-receiving.errors.receivingProcessEncumbrancesError": [

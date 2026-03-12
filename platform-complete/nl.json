@@ -18727,6 +18727,102 @@
       "value": "Holdingstatus"
     }
   ],
+  "ui-agreements.eresources.identifiers": [
+    {
+      "type": 0,
+      "value": "Identifiers"
+    }
+  ],
+  "ui-agreements.eresources.identifiers.doi": [
+    {
+      "type": 0,
+      "value": "DOI"
+    }
+  ],
+  "ui-agreements.eresources.identifiers.eBookPool": [
+    {
+      "type": 0,
+      "value": "E-Book Pool"
+    }
+  ],
+  "ui-agreements.eresources.identifiers.eisbn": [
+    {
+      "type": 0,
+      "value": "ISBN (Online)"
+    }
+  ],
+  "ui-agreements.eresources.identifiers.eissn": [
+    {
+      "type": 0,
+      "value": "ISSN (Online)"
+    }
+  ],
+  "ui-agreements.eresources.identifiers.ezb": [
+    {
+      "type": 0,
+      "value": "EZB"
+    }
+  ],
+  "ui-agreements.eresources.identifiers.gokb_id": [
+    {
+      "type": 0,
+      "value": "GOKB ID"
+    }
+  ],
+  "ui-agreements.eresources.identifiers.gokb_uuid": [
+    {
+      "type": 0,
+      "value": "GOKB UUID"
+    }
+  ],
+  "ui-agreements.eresources.identifiers.isbn": [
+    {
+      "type": 0,
+      "value": "ISBN"
+    }
+  ],
+  "ui-agreements.eresources.identifiers.isil": [
+    {
+      "type": 0,
+      "value": "ISIL"
+    }
+  ],
+  "ui-agreements.eresources.identifiers.issn": [
+    {
+      "type": 0,
+      "value": "ISSN"
+    }
+  ],
+  "ui-agreements.eresources.identifiers.pisbn": [
+    {
+      "type": 0,
+      "value": "ISBN (Print)"
+    }
+  ],
+  "ui-agreements.eresources.identifiers.pissn": [
+    {
+      "type": 0,
+      "value": "ISSN (Print)"
+    }
+  ],
+  "ui-agreements.eresources.identifiers.resourceIdentifier": [
+    {
+      "type": 0,
+      "value": "Resource identifier"
+    }
+  ],
+  "ui-agreements.eresources.identifiers.resourceIdentifierType": [
+    {
+      "type": 0,
+      "value": "Resource identifier type"
+    }
+  ],
+  "ui-agreements.eresources.identifiers.zdb": [
+    {
+      "type": 0,
+      "value": "ZDB"
+    }
+  ],
   "ui-agreements.eresources.isPackage": [
     {
       "type": 0,
@@ -22037,7 +22133,7 @@
       "children": [
         {
           "type": 0,
-          "value": "GOKB source"
+          "value": "GOKB bron"
         }
       ],
       "type": 8,
@@ -22050,6 +22146,10 @@
     {
       "children": [
         {
+          "type": 0,
+          "value": "."
+        },
+        {
           "type": 1,
           "value": "kbName"
         }
@@ -22059,13 +22159,13 @@
     },
     {
       "type": 0,
-      "value": ". More than one active GOKB data source exists. It is recommended to have a "
+      "value": ". Er bestaat meer dan één actieve GOKB gegevensbron. Het wordt aanbevolen om "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "single active GOKB"
+          "value": "slechts één actieve GOKB"
         }
       ],
       "type": 8,
@@ -22073,17 +22173,21 @@
     },
     {
       "type": 0,
-      "value": " configured. Sources can be changed in "
+      "value": " te configureren. Bronnen kunnen worden gewijzigd in "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "external data source settings"
+          "value": "externe gegevensbroninstellingen"
         }
       ],
       "type": 8,
       "value": "settingsLink"
+    },
+    {
+      "type": 0,
+      "value": "."
     }
   ],
   "ui-agreements.remoteKb.zdbids": [
@@ -32351,13 +32455,13 @@
   "ui-circulation.settings.checkout.customFieldsAtCheckout": [
     {
       "type": 0,
-      "value": "Users custom fields to display at Check out"
+      "value": "Aangepaste velden voor Gebruikers om weer te geven bij Uitchecken"
     }
   ],
   "ui-circulation.settings.checkout.customFieldsAtCheckout.noCustomFields": [
     {
       "type": 0,
-      "value": "No matching custom fields have been configured"
+      "value": "Er zijn geen overeenkomende aangepaste velden geconfigureerd"
     }
   ],
   "ui-circulation.settings.checkout.filterRules": [
@@ -69933,55 +70037,55 @@
   "ui-inventory-import.actions.new": [
     {
       "type": 0,
-      "value": "New record"
+      "value": "Nieuw Record"
     }
   ],
   "ui-inventory-import.actions.new.channel.xml": [
     {
       "type": 0,
-      "value": "XML bulk channel"
+      "value": "XML bulkkanaal"
     }
   ],
   "ui-inventory-import.add": [
     {
       "type": 0,
-      "value": "Add"
+      "value": "Toevoegen"
     }
   ],
   "ui-inventory-import.button.jobs": [
     {
       "type": 0,
-      "value": "Jobs"
+      "value": "Functie"
     }
   ],
   "ui-inventory-import.button.pause": [
     {
       "type": 0,
-      "value": "Pause"
+      "value": "Pauze"
     }
   ],
   "ui-inventory-import.button.resume": [
     {
       "type": 0,
-      "value": "Resume"
+      "value": "CV"
     }
   ],
   "ui-inventory-import.channels.column.enabled": [
     {
       "type": 0,
-      "value": "Enabled?"
+      "value": "Ingeschakeld?"
     }
   ],
   "ui-inventory-import.channels.column.enabled.false": [
     {
       "type": 0,
-      "value": "No"
+      "value": "Geen"
     }
   ],
   "ui-inventory-import.channels.column.enabled.true": [
     {
       "type": 0,
-      "value": "Yes"
+      "value": "Ja"
     }
   ],
   "ui-inventory-import.channels.column.id": [
@@ -69993,25 +70097,25 @@
   "ui-inventory-import.channels.column.jobs": [
     {
       "type": 0,
-      "value": "Jobs"
+      "value": "Functies"
     }
   ],
   "ui-inventory-import.channels.column.logFile": [
     {
       "type": 0,
-      "value": "Log file"
+      "value": "Logbestand"
     }
   ],
   "ui-inventory-import.channels.column.name": [
     {
       "type": 0,
-      "value": "Name"
+      "value": "Naam"
     }
   ],
   "ui-inventory-import.channels.column.type": [
     {
       "type": 0,
-      "value": "Type"
+      "value": "Soorten"
     }
   ],
   "ui-inventory-import.channels.column.type.XML": [
@@ -70023,49 +70127,49 @@
   "ui-inventory-import.channels.field.commissioned": [
     {
       "type": 0,
-      "value": "Channel commissioned?"
+      "value": "Kanaal in opdracht?"
     }
   ],
   "ui-inventory-import.channels.field.enabled": [
     {
       "type": 0,
-      "value": "Channel enabled?"
+      "value": "Kanaal ingeschakeld?"
     }
   ],
   "ui-inventory-import.channels.field.enabled.help": [
     {
       "type": 0,
-      "value": "Check to specify that the channel should listen for incoming files addressed to it. Leaving this box unchecked will make the channel inactive."
+      "value": "Inchecken om aan te geven dat het kanaal moet luisteren naar inkomende bestanden die aan het kanaal gericht zijn. Als u dit vakje niet aanvinkt, wordt de chatroom inactief."
     }
   ],
   "ui-inventory-import.channels.field.id": [
     {
       "type": 0,
-      "value": "Id"
+      "value": "ID"
     }
   ],
   "ui-inventory-import.channels.field.id.help": [
     {
       "type": 0,
-      "value": "An automatically assigned opaque identifier. Cannot be modified."
+      "value": "Een automatisch toegewezen ondoorzichtige identifier. Kan niet worden gewijzigd."
     }
   ],
   "ui-inventory-import.channels.field.listening": [
     {
       "type": 0,
-      "value": "Channel listening?"
+      "value": "Kanalen luisteren?"
     }
   ],
   "ui-inventory-import.channels.field.name": [
     {
       "type": 0,
-      "value": "Name"
+      "value": "Naam"
     }
   ],
   "ui-inventory-import.channels.field.name.help": [
     {
       "type": 0,
-      "value": "A name, which should be unique, for users to identify this resource."
+      "value": "Een naam, die uniek moet zijn, waarmee gebruikers deze bron kunnen identificeren."
     }
   ],
   "ui-inventory-import.channels.field.tag": [
@@ -70077,25 +70181,25 @@
   "ui-inventory-import.channels.field.transformationPipeline": [
     {
       "type": 0,
-      "value": "Transformation pipeline"
+      "value": "Transformatie pijplijn"
     }
   ],
   "ui-inventory-import.channels.field.transformationPipeline.help": [
     {
       "type": 0,
-      "value": "Select the transformation pipeline required to change the input format delivered to this channel into the internal format used by the the Inventory Update process. See Transformation Pipelines in the settings for more details."
+      "value": "Selecteer de Transformatie pijplijn Vereist om het input formaat geleverd aan dit kanaal te wijzigen in het interne formaat gebruikt door het Collectiebezit Update proces. Zie Transformatie pijplijnen in de instellingen voor meer details."
     }
   ],
   "ui-inventory-import.channels.field.type": [
     {
       "type": 0,
-      "value": "Type"
+      "value": "Soorten"
     }
   ],
   "ui-inventory-import.channels.index.all": [
     {
       "type": 0,
-      "value": "(All)"
+      "value": "(Alle)"
     }
   ],
   "ui-inventory-import.channels.index.id": [
@@ -70107,79 +70211,79 @@
   "ui-inventory-import.channels.index.name": [
     {
       "type": 0,
-      "value": "Name"
+      "value": "Naam"
     }
   ],
   "ui-inventory-import.error": [
     {
       "type": 0,
-      "value": "Something went wrong"
+      "value": "Er ging iets mis"
     }
   ],
   "ui-inventory-import.export-csv": [
     {
       "type": 0,
-      "value": "Export CSV"
+      "value": "CSV exporteren"
     }
   ],
   "ui-inventory-import.fillIn": [
     {
       "type": 0,
-      "value": "Please fill this in to continue"
+      "value": "Vul dit in om verder te gaan"
     }
   ],
   "ui-inventory-import.filter.date.finished": [
     {
       "type": 0,
-      "value": "Date finished"
+      "value": "Datum voltooid"
     }
   ],
   "ui-inventory-import.filter.date.finished.from": [
     {
       "type": 0,
-      "value": "From"
+      "value": "Van"
     }
   ],
   "ui-inventory-import.filter.date.finished.to": [
     {
       "type": 0,
-      "value": "To"
+      "value": "Naar"
     }
   ],
   "ui-inventory-import.filter.date.started": [
     {
       "type": 0,
-      "value": "Date started"
+      "value": "Datum gestart"
     }
   ],
   "ui-inventory-import.filter.date.started.from": [
     {
       "type": 0,
-      "value": "From"
+      "value": "Van"
     }
   ],
   "ui-inventory-import.filter.date.started.to": [
     {
       "type": 0,
-      "value": "To"
+      "value": "Naar"
     }
   ],
   "ui-inventory-import.filter.date.timeStamp": [
     {
       "type": 0,
-      "value": "Time stamp"
+      "value": "Tijdstempel"
     }
   ],
   "ui-inventory-import.filter.date.timeStamp.from": [
     {
       "type": 0,
-      "value": "From"
+      "value": "Van"
     }
   ],
   "ui-inventory-import.filter.date.timeStamp.to": [
     {
       "type": 0,
-      "value": "To"
+      "value": "Naar"
     }
   ],
   "ui-inventory-import.filter.numeric.records": [
@@ -70191,19 +70295,19 @@
   "ui-inventory-import.filter.numeric.records.from": [
     {
       "type": 0,
-      "value": "At least"
+      "value": "Ten minste"
     }
   ],
   "ui-inventory-import.filter.numeric.records.to": [
     {
       "type": 0,
-      "value": "No more than"
+      "value": "Niet meer dan"
     }
   ],
   "ui-inventory-import.invalidXML": [
     {
       "type": 0,
-      "value": "Invalid XML: "
+      "value": "Ongeldige XML: "
     },
     {
       "type": 1,
@@ -70213,13 +70317,13 @@
   "ui-inventory-import.invalidXSLT": [
     {
       "type": 0,
-      "value": "Valid XML, but not an XSLT stylesheet"
+      "value": "Geldige XML, maar geen XSLT-stylesheet"
     }
   ],
   "ui-inventory-import.jobs.caption.completed": [
     {
       "type": 0,
-      "value": "Imported "
+      "value": "Geïmporteerd "
     },
     {
       "type": 1,
@@ -70237,7 +70341,7 @@
   "ui-inventory-import.jobs.caption.notComplete": [
     {
       "type": 0,
-      "value": "Job is not complete"
+      "value": "Functie is niet voltooid"
     }
   ],
   "ui-inventory-import.jobs.column.amountImported": [
@@ -70249,31 +70353,31 @@
   "ui-inventory-import.jobs.column.channelName": [
     {
       "type": 0,
-      "value": "Channel name"
+      "value": "Kanaalnaam"
     }
   ],
   "ui-inventory-import.jobs.column.duration": [
     {
       "type": 0,
-      "value": "Duration"
+      "value": "Duur"
     }
   ],
   "ui-inventory-import.jobs.column.finished": [
     {
       "type": 0,
-      "value": "Finished"
+      "value": "Afgewerkt"
     }
   ],
   "ui-inventory-import.jobs.column.message": [
     {
       "type": 0,
-      "value": "Message (processed/loaded/deleted(skipped)/failed)"
+      "value": "Bericht (verwerkt/geladen/verwijderd(overgeslagen)/gefaald)"
     }
   ],
   "ui-inventory-import.jobs.column.started": [
     {
       "type": 0,
-      "value": "Started"
+      "value": "Begonnen met"
     }
   ],
   "ui-inventory-import.jobs.column.status": [
@@ -70285,61 +70389,61 @@
   "ui-inventory-import.jobs.column.status.DONE": [
     {
       "type": 0,
-      "value": "Done"
+      "value": "Gedaan"
     }
   ],
   "ui-inventory-import.jobs.column.status.INTERRUPTED": [
     {
       "type": 0,
-      "value": "Interrupted"
+      "value": "Onderbroken"
     }
   ],
   "ui-inventory-import.jobs.column.status.PAUSED": [
     {
       "type": 0,
-      "value": "Paused"
+      "value": "Gepauzeerd"
     }
   ],
   "ui-inventory-import.jobs.column.status.RUNNING": [
     {
       "type": 0,
-      "value": "Running"
+      "value": "Hardlopen"
     }
   ],
   "ui-inventory-import.jobs.column.type": [
     {
       "type": 0,
-      "value": "Type"
+      "value": "Soorten"
     }
   ],
   "ui-inventory-import.jobs.field.channelName": [
     {
       "type": 0,
-      "value": "Channel name"
+      "value": "Kanaalnaam"
     }
   ],
   "ui-inventory-import.jobs.field.transformationPipeline": [
     {
       "type": 0,
-      "value": "Transformation pipeline"
+      "value": "Transformatie pijplijn"
     }
   ],
   "ui-inventory-import.jobs.index.all": [
     {
       "type": 0,
-      "value": "(All)"
+      "value": "(Alle)"
     }
   ],
   "ui-inventory-import.jobs.index.channelName": [
     {
       "type": 0,
-      "value": "Channel name"
+      "value": "Kanaalnaam"
     }
   ],
   "ui-inventory-import.jobs.index.message": [
     {
       "type": 0,
-      "value": "Message"
+      "value": "Bericht"
     }
   ],
   "ui-inventory-import.logs.countFailedRecords": [
@@ -70359,7 +70463,7 @@
           "value": [
             {
               "type": 0,
-              "value": "failed record"
+              "value": "mislukt record"
             }
           ]
         },
@@ -70367,7 +70471,7 @@
           "value": [
             {
               "type": 0,
-              "value": "failed records"
+              "value": "mislukte records"
             }
           ]
         }
@@ -70394,7 +70498,7 @@
           "value": [
             {
               "type": 0,
-              "value": "log line"
+              "value": "logregel"
             }
           ]
         },
@@ -70402,7 +70506,7 @@
           "value": [
             {
               "type": 0,
-              "value": "log lines"
+              "value": "logregels"
             }
           ]
         }
@@ -70415,37 +70519,37 @@
   "ui-inventory-import.logs.field.line": [
     {
       "type": 0,
-      "value": "Line"
+      "value": "Lijn"
     }
   ],
   "ui-inventory-import.logs.field.timeStamp": [
     {
       "type": 0,
-      "value": "Timestamp"
+      "value": "Tijdstempel"
     }
   ],
   "ui-inventory-import.meta.title": [
     {
       "type": 0,
-      "value": "Inventory import"
+      "value": "Collectiebezit importeren"
     }
   ],
   "ui-inventory-import.nav.channels": [
     {
       "type": 0,
-      "value": "Channels"
+      "value": "Kanalen"
     }
   ],
   "ui-inventory-import.nav.jobs": [
     {
       "type": 0,
-      "value": "Jobs"
+      "value": "Functies"
     }
   ],
   "ui-inventory-import.nav.jobs-for": [
     {
       "type": 0,
-      "value": "Jobs for "
+      "value": "Functie voor "
     },
     {
       "type": 1,
@@ -70455,7 +70559,7 @@
   "ui-inventory-import.nav.records": [
     {
       "type": 0,
-      "value": "Failed records"
+      "value": "Mislukte records"
     }
   ],
   "ui-inventory-import.no-title": [
@@ -70473,7 +70577,7 @@
   "ui-inventory-import.pause.failure": [
     {
       "type": 0,
-      "value": "Channel "
+      "value": "Kanaal "
     },
     {
       "type": 1,
@@ -70481,7 +70585,7 @@
     },
     {
       "type": 0,
-      "value": " could not be paused: HTTP status "
+      "value": " kon niet gepauzeerd worden: HTTP status "
     },
     {
       "type": 1,
@@ -70499,7 +70603,7 @@
   "ui-inventory-import.pause.success": [
     {
       "type": 0,
-      "value": "Channel "
+      "value": "Kanaal "
     },
     {
       "type": 1,
@@ -70507,7 +70611,7 @@
     },
     {
       "type": 0,
-      "value": " has been paused"
+      "value": " is gepauzeerd"
     }
   ],
   "ui-inventory-import.permission.all": [
@@ -70573,25 +70677,25 @@
   "ui-inventory-import.pipeline.field.description": [
     {
       "type": 0,
-      "value": "Description"
+      "value": "Omschrijving"
     }
   ],
   "ui-inventory-import.pipeline.field.name": [
     {
       "type": 0,
-      "value": "Name"
+      "value": "Naam"
     }
   ],
   "ui-inventory-import.pipeline.field.steps": [
     {
       "type": 0,
-      "value": "Transformation steps in pipeline"
+      "value": "Transformatie stappen in pijplijn"
     }
   ],
   "ui-inventory-import.pipeline.steps.name": [
     {
       "type": 0,
-      "value": "Name"
+      "value": "Naam"
     }
   ],
   "ui-inventory-import.pipeline.steps.position": [
@@ -70603,19 +70707,19 @@
   "ui-inventory-import.records.field.channelName": [
     {
       "type": 0,
-      "value": "Channel name"
+      "value": "Kanaalnaam"
     }
   ],
   "ui-inventory-import.records.field.errors": [
     {
       "type": 0,
-      "value": "Errors"
+      "value": "Fouten"
     }
   ],
   "ui-inventory-import.records.field.importJob": [
     {
       "type": 0,
-      "value": "Import job"
+      "value": "Functie importeren"
     }
   ],
   "ui-inventory-import.records.field.instanceHrid": [
@@ -70627,61 +70731,61 @@
   "ui-inventory-import.records.field.instanceTitle": [
     {
       "type": 0,
-      "value": "Instance title"
+      "value": "Instance titel"
     }
   ],
   "ui-inventory-import.records.field.originalRecord": [
     {
       "type": 0,
-      "value": "Original record"
+      "value": "Origineel Record"
     }
   ],
   "ui-inventory-import.records.field.recordNumber": [
     {
       "type": 0,
-      "value": "Record number"
+      "value": "Recordnummer"
     }
   ],
   "ui-inventory-import.records.field.sourceFileName": [
     {
       "type": 0,
-      "value": "Source file name"
+      "value": "Naam bronbestand"
     }
   ],
   "ui-inventory-import.records.field.timeStamp": [
     {
       "type": 0,
-      "value": "Time stamp"
+      "value": "Tijdstempel"
     }
   ],
   "ui-inventory-import.records.field.transformedRecord": [
     {
       "type": 0,
-      "value": "Transformed record"
+      "value": "Getransformeerd Record"
     }
   ],
   "ui-inventory-import.records.index.all": [
     {
       "type": 0,
-      "value": "(All)"
+      "value": "(Alle)"
     }
   ],
   "ui-inventory-import.records.index.channelName": [
     {
       "type": 0,
-      "value": "Channel name"
+      "value": "Kanaalnaam"
     }
   ],
   "ui-inventory-import.records.index.recordNumber": [
     {
       "type": 0,
-      "value": "Record number"
+      "value": "Recordnummer"
     }
   ],
   "ui-inventory-import.reports": [
     {
       "type": 0,
-      "value": "Reports"
+      "value": "Rapporten"
     }
   ],
   "ui-inventory-import.resultCount": [
@@ -70701,7 +70805,7 @@
           "value": [
             {
               "type": 0,
-              "value": "record found"
+              "value": "record gevonden"
             }
           ]
         },
@@ -70709,7 +70813,7 @@
           "value": [
             {
               "type": 0,
-              "value": "records found"
+              "value": "records gevonden"
             }
           ]
         }
@@ -70722,7 +70826,7 @@
   "ui-inventory-import.resume.failure": [
     {
       "type": 0,
-      "value": "Channel "
+      "value": "Kanaal "
     },
     {
       "type": 1,
@@ -70730,7 +70834,7 @@
     },
     {
       "type": 0,
-      "value": " could not be resumed: HTTP status "
+      "value": " kon niet worden hervat: HTTP status "
     },
     {
       "type": 1,
@@ -70748,7 +70852,7 @@
   "ui-inventory-import.resume.success": [
     {
       "type": 0,
-      "value": "Channel "
+      "value": "Kanaal "
     },
     {
       "type": 1,
@@ -70756,49 +70860,49 @@
     },
     {
       "type": 0,
-      "value": " has been resumed"
+      "value": " is hervat"
     }
   ],
   "ui-inventory-import.searchInputLabel": [
     {
       "type": 0,
-      "value": "Search input field"
+      "value": "Invoerveld Zoeken"
     }
   ],
   "ui-inventory-import.selectToContinue": [
     {
       "type": 0,
-      "value": "Please select to continue"
+      "value": "Selecteren om verder te gaan"
     }
   ],
   "ui-inventory-import.selectValue": [
     {
       "type": 0,
-      "value": "Select a value"
+      "value": "Selecteer een waarde"
     }
   ],
   "ui-inventory-import.settings.channels": [
     {
       "type": 0,
-      "value": "Channels"
+      "value": "Kanalen"
     }
   ],
   "ui-inventory-import.settings.logs": [
     {
       "type": 0,
-      "value": "Log deletion"
+      "value": "Logboek verwijderen"
     }
   ],
   "ui-inventory-import.settings.logs.description": [
     {
       "type": 0,
-      "value": "Logs older than the configured age threshold are automatically deleted once per day, at 2am Central European time. The threshhold is specified by a number and a unit. "
+      "value": "Logs die ouder zijn dan de geconfigureerde leeftijdsdrempel worden één keer per dag automatisch verwijderd, om 2 uur Midden-Europese tijd. De drempel wordt opgegeven door een getal en een eenheid."
     }
   ],
   "ui-inventory-import.settings.logs.number": [
     {
       "type": 0,
-      "value": "Number"
+      "value": "Aantal"
     }
   ],
   "ui-inventory-import.settings.logs.unit": [
@@ -70810,55 +70914,55 @@
   "ui-inventory-import.settings.logs.unit.days": [
     {
       "type": 0,
-      "value": "Days"
+      "value": "Dagen"
     }
   ],
   "ui-inventory-import.settings.logs.unit.months": [
     {
       "type": 0,
-      "value": "Months"
+      "value": "Maanden"
     }
   ],
   "ui-inventory-import.settings.logs.unit.weeks": [
     {
       "type": 0,
-      "value": "Weeks"
+      "value": "Weken"
     }
   ],
   "ui-inventory-import.settings.pipeline": [
     {
       "type": 0,
-      "value": "Transformation pipelines"
+      "value": "Transformatie pijplijnen"
     }
   ],
   "ui-inventory-import.settings.pipeline.heading": [
     {
       "type": 0,
-      "value": "transformation pipeline"
+      "value": "transformatiepijplijn"
     }
   ],
   "ui-inventory-import.settings.step": [
     {
       "type": 0,
-      "value": "Transformation steps"
+      "value": "Stappen voor transformatie"
     }
   ],
   "ui-inventory-import.settings.step.heading": [
     {
       "type": 0,
-      "value": "transformation step"
+      "value": "transformatiestap"
     }
   ],
   "ui-inventory-import.step.field.description": [
     {
       "type": 0,
-      "value": "Description"
+      "value": "Omschrijving"
     }
   ],
   "ui-inventory-import.step.field.name": [
     {
       "type": 0,
-      "value": "Name"
+      "value": "Naam"
     }
   ],
   "ui-inventory-import.step.field.script": [
@@ -70870,13 +70974,13 @@
   "ui-inventory-import.step.field.type": [
     {
       "type": 0,
-      "value": "Type"
+      "value": "Soorten"
     }
   ],
   "ui-inventory-import.validXSLT": [
     {
       "type": 0,
-      "value": "Valid XSLT stylesheet"
+      "value": "Geldig XSLT-stylesheet"
     }
   ],
   "ui-inventory.ILLPolicy": [
@@ -89176,7 +89280,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Warning"
+          "value": "Waarschuwing"
         }
       ],
       "type": 8,
@@ -89184,7 +89288,7 @@
     },
     {
       "type": 0,
-      "value": ": More than one active GOKB data source exists. It is recommended to have a single active GOKB configured. The first active source in the table (listed alphabetically) will be used for the Agreements GOKB search."
+      "value": ": Er bestaat meer dan één actieve GOKB gegevensbron. Het wordt aanbevolen om slechts één actieve GOKB te configureren. De eerste actieve bron in de tabel (alfabetisch gerangschikt) wordt gebruikt voor het zoeken naar Overeenkomsten GOKB."
     }
   ],
   "ui-local-kb-admin.settings.general": [
@@ -90543,25 +90647,25 @@
   "ui-mosaic-settings.sections.configuration-options.action.generate-integration-templates.description": [
     {
       "type": 0,
-      "value": "Clicking this button will generate templates for you to use as the default for this integration. The organization record and order template that are created can still be edited as desired or deleted."
+      "value": "Als u op deze Knop klikt, worden er Templates gegenereerd die u als standaard voor deze integratie kunt gebruiken. De aangemaakte Record en Order Template kunnen nog steeds naar wens bewerkt of verwijderd worden."
     }
   ],
   "ui-mosaic-settings.sections.configuration-options.action.generate-integration-templates.error": [
     {
       "type": 0,
-      "value": "Unable to generate templates. Please try again."
+      "value": "Kan geen templates genereren. Probeer het opnieuw."
     }
   ],
   "ui-mosaic-settings.sections.configuration-options.action.generate-integration-templates.label": [
     {
       "type": 0,
-      "value": "Generate integration templates"
+      "value": "Integratiesjablonen genereren"
     }
   ],
   "ui-mosaic-settings.sections.configuration-options.action.generate-integration-templates.success": [
     {
       "type": 0,
-      "value": "Integration templates generated successfully."
+      "value": "Integratiesjablonen met succes gegenereerd."
     }
   ],
   "ui-mosaic-settings.sections.configuration-options.description": [
@@ -90579,7 +90683,7 @@
   "ui-mosaic-settings.sections.configuration-options.selection.description": [
     {
       "type": 0,
-      "value": "You are able to choose the default order template that is applied when Mosaic creates an order in FOLIO. If a template is chosen while ordering in Mosaic that will override this selection, if no template is chosen this one will be applied. You can edit the order templates in order settings under \"Order templates\"."
+      "value": "U kunt de standaard bestelsjabloon kiezen die wordt toegepast wanneer Mosaic een bestelling aanmaakt in FOLIO. Als er tijdens het bestellen in Mosaic een sjabloon wordt gekozen, wordt deze selectie Overschreven, als er geen sjabloon is gekozen, wordt deze sjabloon toegepast. U kunt de bestelsjablonen bewerken in de bestelinstellingen onder \"Bestelsjablonen\"."
     }
   ],
   "ui-mosaic-settings.sections.configuration-options.submit.error": [
@@ -109951,7 +110055,7 @@
   "ui-plugin-find-user.patron": [
     {
       "type": 0,
-      "value": "Patron"
+      "value": "Gebruiker"
     }
   ],
   "ui-plugin-find-user.searchButton.title": [
@@ -117432,6 +117536,12 @@
       "value": "Deze waarde kan niet worden verwijderd"
     }
   ],
+  "ui-receiving.errors.fundsNotFound": [
+    {
+      "type": 0,
+      "value": "One or more funds could not be loaded. The fund(s) may have been deleted or you may not have permission to view the associated fund(s)."
+    }
+  ],
   "ui-receiving.errors.holdingsByIdNotFoundError": [
     {
       "type": 0,
@@ -117467,7 +117577,7 @@
   "ui-receiving.errors.lastPiece": [
     {
       "type": 0,
-      "value": "The piece was not deleted because you cannot delete all pieces when ordering and receiving quantity are synchronized."
+      "value": "Het Stuk is niet verwijderd omdat u niet alle Stukken kunt verwijderen wanneer de bestelde en ontvangen hoeveelheid gesynchroniseerd zijn."
     }
   ],
   "ui-receiving.errors.locationIdAndHoldingIdAbsentError": [
@@ -117540,6 +117650,21 @@
     {
       "type": 0,
       "value": "Het stukrecord kon niet worden bijgewerkt"
+    }
+  ],
+  "ui-receiving.errors.polNumberInvalidOrTooLong": [
+    {
+      "type": 0,
+      "value": "POL number is invalid or bigger than "
+    },
+    {
+      "style": null,
+      "type": 2,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": " alphanumeric characters."
     }
   ],
   "ui-receiving.errors.receivingProcessEncumbrancesError": [
@@ -122860,7 +122985,7 @@
   "ui-requests.requestMeta.anonymized": [
     {
       "type": 0,
-      "value": "Anonymized"
+      "value": "Geanonimiseerd"
     }
   ],
   "ui-requests.requestMeta.expirationDate": [
@@ -127406,7 +127531,7 @@
   "ui-tenant-settings.settings.locale.success": [
     {
       "type": 0,
-      "value": "Setting was successfully updated."
+      "value": "De instelling is bijgewerkt."
     }
   ],
   "ui-tenant-settings.settings.locale.title": [

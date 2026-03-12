@@ -18927,6 +18927,102 @@
       "value": "Status do acervo"
     }
   ],
+  "ui-agreements.eresources.identifiers": [
+    {
+      "type": 0,
+      "value": "Identifiers"
+    }
+  ],
+  "ui-agreements.eresources.identifiers.doi": [
+    {
+      "type": 0,
+      "value": "DOI"
+    }
+  ],
+  "ui-agreements.eresources.identifiers.eBookPool": [
+    {
+      "type": 0,
+      "value": "E-Book Pool"
+    }
+  ],
+  "ui-agreements.eresources.identifiers.eisbn": [
+    {
+      "type": 0,
+      "value": "ISBN (Online)"
+    }
+  ],
+  "ui-agreements.eresources.identifiers.eissn": [
+    {
+      "type": 0,
+      "value": "ISSN (Online)"
+    }
+  ],
+  "ui-agreements.eresources.identifiers.ezb": [
+    {
+      "type": 0,
+      "value": "EZB"
+    }
+  ],
+  "ui-agreements.eresources.identifiers.gokb_id": [
+    {
+      "type": 0,
+      "value": "GOKB ID"
+    }
+  ],
+  "ui-agreements.eresources.identifiers.gokb_uuid": [
+    {
+      "type": 0,
+      "value": "GOKB UUID"
+    }
+  ],
+  "ui-agreements.eresources.identifiers.isbn": [
+    {
+      "type": 0,
+      "value": "ISBN"
+    }
+  ],
+  "ui-agreements.eresources.identifiers.isil": [
+    {
+      "type": 0,
+      "value": "ISIL"
+    }
+  ],
+  "ui-agreements.eresources.identifiers.issn": [
+    {
+      "type": 0,
+      "value": "ISSN"
+    }
+  ],
+  "ui-agreements.eresources.identifiers.pisbn": [
+    {
+      "type": 0,
+      "value": "ISBN (Print)"
+    }
+  ],
+  "ui-agreements.eresources.identifiers.pissn": [
+    {
+      "type": 0,
+      "value": "ISSN (Print)"
+    }
+  ],
+  "ui-agreements.eresources.identifiers.resourceIdentifier": [
+    {
+      "type": 0,
+      "value": "Resource identifier"
+    }
+  ],
+  "ui-agreements.eresources.identifiers.resourceIdentifierType": [
+    {
+      "type": 0,
+      "value": "Resource identifier type"
+    }
+  ],
+  "ui-agreements.eresources.identifiers.zdb": [
+    {
+      "type": 0,
+      "value": "ZDB"
+    }
+  ],
   "ui-agreements.eresources.isPackage": [
     {
       "type": 0,
@@ -22268,10 +22364,14 @@
   ],
   "ui-agreements.remoteKb.warn.externalKbs": [
     {
+      "type": 0,
+      "value": "a "
+    },
+    {
       "children": [
         {
           "type": 0,
-          "value": "GOKB source"
+          "value": "fonte GOKB"
         }
       ],
       "type": 8,
@@ -22279,7 +22379,7 @@
     },
     {
       "type": 0,
-      "value": " is "
+      "value": " é "
     },
     {
       "children": [
@@ -22293,13 +22393,13 @@
     },
     {
       "type": 0,
-      "value": ". More than one active GOKB data source exists. It is recommended to have a "
+      "value": ". Existe mais de uma fonte de dados GOKB ativa. Recomenda-se ter um "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "single active GOKB"
+          "value": "único GOKB ativo"
         }
       ],
       "type": 8,
@@ -22307,13 +22407,13 @@
     },
     {
       "type": 0,
-      "value": " configured. Sources can be changed in "
+      "value": " configurado. As fontes podem ser alteradas em "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "external data source settings"
+          "value": "configurações da fonte de dados externa"
         }
       ],
       "type": 8,
@@ -33294,7 +33394,7 @@
   "ui-checkout.sponsorExpired": [
     {
       "type": 0,
-      "value": "O registro do usuário autorizador expirou"
+      "value": "O registro do usuário patrocinador expirou"
     }
   ],
   "ui-checkout.status": [
@@ -34359,13 +34459,13 @@
   "ui-circulation.settings.checkout.customFieldsAtCheckout": [
     {
       "type": 0,
-      "value": "Users custom fields to display at Check out"
+      "value": "Campos personalizados de usuários a serem exibidos no Empréstimo"
     }
   ],
   "ui-circulation.settings.checkout.customFieldsAtCheckout.noCustomFields": [
     {
       "type": 0,
-      "value": "No matching custom fields have been configured"
+      "value": "Nenhum campo personalizado correspondente foi configurado"
     }
   ],
   "ui-circulation.settings.checkout.filterRules": [
@@ -76031,61 +76131,61 @@
   "ui-inventory-import.SENTINEL": [
     {
       "type": 0,
-      "value": "SENTINEL"
+      "value": "SENTINELA"
     }
   ],
   "ui-inventory-import.actions.new": [
     {
       "type": 0,
-      "value": "New record"
+      "value": "Novo registro"
     }
   ],
   "ui-inventory-import.actions.new.channel.xml": [
     {
       "type": 0,
-      "value": "XML bulk channel"
+      "value": "Canal XML em massa"
     }
   ],
   "ui-inventory-import.add": [
     {
       "type": 0,
-      "value": "Add"
+      "value": "Adicionar"
     }
   ],
   "ui-inventory-import.button.jobs": [
     {
       "type": 0,
-      "value": "Jobs"
+      "value": "Trabalhos"
     }
   ],
   "ui-inventory-import.button.pause": [
     {
       "type": 0,
-      "value": "Pause"
+      "value": "Pausa"
     }
   ],
   "ui-inventory-import.button.resume": [
     {
       "type": 0,
-      "value": "Resume"
+      "value": "Continuar"
     }
   ],
   "ui-inventory-import.channels.column.enabled": [
     {
       "type": 0,
-      "value": "Enabled?"
+      "value": "Habilitado?"
     }
   ],
   "ui-inventory-import.channels.column.enabled.false": [
     {
       "type": 0,
-      "value": "No"
+      "value": "Não"
     }
   ],
   "ui-inventory-import.channels.column.enabled.true": [
     {
       "type": 0,
-      "value": "Yes"
+      "value": "Sim"
     }
   ],
   "ui-inventory-import.channels.column.id": [
@@ -76097,49 +76197,49 @@
   "ui-inventory-import.channels.column.jobs": [
     {
       "type": 0,
-      "value": "Jobs"
+      "value": "Trabalhos"
     }
   ],
   "ui-inventory-import.channels.column.logFile": [
     {
       "type": 0,
-      "value": "Log file"
+      "value": "Arquivo de log"
     }
   ],
   "ui-inventory-import.channels.column.name": [
     {
       "type": 0,
-      "value": "Name"
+      "value": "Nome"
     }
   ],
   "ui-inventory-import.channels.column.type": [
     {
       "type": 0,
-      "value": "Type"
+      "value": "Tipo"
     }
   ],
   "ui-inventory-import.channels.column.type.XML": [
     {
       "type": 0,
-      "value": "XML bulk"
+      "value": "XML em lote"
     }
   ],
   "ui-inventory-import.channels.field.commissioned": [
     {
       "type": 0,
-      "value": "Channel commissioned?"
+      "value": "Canal encomendado?"
     }
   ],
   "ui-inventory-import.channels.field.enabled": [
     {
       "type": 0,
-      "value": "Channel enabled?"
+      "value": "Canal ativado?"
     }
   ],
   "ui-inventory-import.channels.field.enabled.help": [
     {
       "type": 0,
-      "value": "Check to specify that the channel should listen for incoming files addressed to it. Leaving this box unchecked will make the channel inactive."
+      "value": "Marque esta caixa para especificar que o canal deve analisar arquivos recebidos endereçados a ele. Deixar esta caixa desmarcada tornará o canal inativo."
     }
   ],
   "ui-inventory-import.channels.field.id": [
@@ -76151,25 +76251,25 @@
   "ui-inventory-import.channels.field.id.help": [
     {
       "type": 0,
-      "value": "An automatically assigned opaque identifier. Cannot be modified."
+      "value": "Um identificador opaco atribuído automaticamente. Não pode ser modificado."
     }
   ],
   "ui-inventory-import.channels.field.listening": [
     {
       "type": 0,
-      "value": "Channel listening?"
+      "value": "Analisando o canal?"
     }
   ],
   "ui-inventory-import.channels.field.name": [
     {
       "type": 0,
-      "value": "Name"
+      "value": "Nome"
     }
   ],
   "ui-inventory-import.channels.field.name.help": [
     {
       "type": 0,
-      "value": "A name, which should be unique, for users to identify this resource."
+      "value": "Um nome, que deve ser único, para que os usuários identifiquem esse recurso."
     }
   ],
   "ui-inventory-import.channels.field.tag": [
@@ -76181,25 +76281,25 @@
   "ui-inventory-import.channels.field.transformationPipeline": [
     {
       "type": 0,
-      "value": "Transformation pipeline"
+      "value": "Fluxos de transformação"
     }
   ],
   "ui-inventory-import.channels.field.transformationPipeline.help": [
     {
       "type": 0,
-      "value": "Select the transformation pipeline required to change the input format delivered to this channel into the internal format used by the the Inventory Update process. See Transformation Pipelines in the settings for more details."
+      "value": "Selecione o fluxo de transformação necessário para alterar o formato de entrada fornecido a esse canal para o formato interno usado pelo processo de atualização de inventário. Consulte Fluxo de transformação nas configurações para obter mais detalhes."
     }
   ],
   "ui-inventory-import.channels.field.type": [
     {
       "type": 0,
-      "value": "Type"
+      "value": "Tipo"
     }
   ],
   "ui-inventory-import.channels.index.all": [
     {
       "type": 0,
-      "value": "(All)"
+      "value": "(Todos)"
     }
   ],
   "ui-inventory-import.channels.index.id": [
@@ -76211,103 +76311,103 @@
   "ui-inventory-import.channels.index.name": [
     {
       "type": 0,
-      "value": "Name"
+      "value": "Nome"
     }
   ],
   "ui-inventory-import.error": [
     {
       "type": 0,
-      "value": "Something went wrong"
+      "value": "Algo deu errado"
     }
   ],
   "ui-inventory-import.export-csv": [
     {
       "type": 0,
-      "value": "Export CSV"
+      "value": "Exportar em CSV"
     }
   ],
   "ui-inventory-import.fillIn": [
     {
       "type": 0,
-      "value": "Please fill this in to continue"
+      "value": "Por favor, preencha isto para continuar"
     }
   ],
   "ui-inventory-import.filter.date.finished": [
     {
       "type": 0,
-      "value": "Date finished"
+      "value": "Data de término"
     }
   ],
   "ui-inventory-import.filter.date.finished.from": [
     {
       "type": 0,
-      "value": "From"
+      "value": "De"
     }
   ],
   "ui-inventory-import.filter.date.finished.to": [
     {
       "type": 0,
-      "value": "To"
+      "value": "Para"
     }
   ],
   "ui-inventory-import.filter.date.started": [
     {
       "type": 0,
-      "value": "Date started"
+      "value": "Data de início"
     }
   ],
   "ui-inventory-import.filter.date.started.from": [
     {
       "type": 0,
-      "value": "From"
+      "value": "De"
     }
   ],
   "ui-inventory-import.filter.date.started.to": [
     {
       "type": 0,
-      "value": "To"
+      "value": "Para"
     }
   ],
   "ui-inventory-import.filter.date.timeStamp": [
     {
       "type": 0,
-      "value": "Time stamp"
+      "value": "Marca temporal"
     }
   ],
   "ui-inventory-import.filter.date.timeStamp.from": [
     {
       "type": 0,
-      "value": "From"
+      "value": "De"
     }
   ],
   "ui-inventory-import.filter.date.timeStamp.to": [
     {
       "type": 0,
-      "value": "To"
+      "value": "Para"
     }
   ],
   "ui-inventory-import.filter.numeric.records": [
     {
       "type": 0,
-      "value": "Records"
+      "value": "Registros"
     }
   ],
   "ui-inventory-import.filter.numeric.records.from": [
     {
       "type": 0,
-      "value": "At least"
+      "value": "Pelo menos"
     }
   ],
   "ui-inventory-import.filter.numeric.records.to": [
     {
       "type": 0,
-      "value": "No more than"
+      "value": "Não mais do que"
     }
   ],
   "ui-inventory-import.invalidXML": [
     {
       "type": 0,
-      "value": "Invalid XML: "
+      "value": "XML inválido: "
     },
     {
       "type": 1,
@@ -76317,13 +76417,13 @@
   "ui-inventory-import.invalidXSLT": [
     {
       "type": 0,
-      "value": "Valid XML, but not an XSLT stylesheet"
+      "value": "XML válido, mas não é uma folha de estilo XSLT"
     }
   ],
   "ui-inventory-import.jobs.caption.completed": [
     {
       "type": 0,
-      "value": "Imported "
+      "value": "Importado "
     },
     {
       "type": 1,
@@ -76331,7 +76431,7 @@
     },
     {
       "type": 0,
-      "value": " records in "
+      "value": " registros em "
     },
     {
       "type": 1,
@@ -76341,43 +76441,43 @@
   "ui-inventory-import.jobs.caption.notComplete": [
     {
       "type": 0,
-      "value": "Job is not complete"
+      "value": "O trabalho não está completo"
     }
   ],
   "ui-inventory-import.jobs.column.amountImported": [
     {
       "type": 0,
-      "value": "Records"
+      "value": "Registros"
     }
   ],
   "ui-inventory-import.jobs.column.channelName": [
     {
       "type": 0,
-      "value": "Channel name"
+      "value": "Nome do canal"
     }
   ],
   "ui-inventory-import.jobs.column.duration": [
     {
       "type": 0,
-      "value": "Duration"
+      "value": "Duração"
     }
   ],
   "ui-inventory-import.jobs.column.finished": [
     {
       "type": 0,
-      "value": "Finished"
+      "value": "Concluído"
     }
   ],
   "ui-inventory-import.jobs.column.message": [
     {
       "type": 0,
-      "value": "Message (processed/loaded/deleted(skipped)/failed)"
+      "value": "Mensagem (processada/carregada/excluída (ignorada)/falhou)"
     }
   ],
   "ui-inventory-import.jobs.column.started": [
     {
       "type": 0,
-      "value": "Started"
+      "value": "Iniciado"
     }
   ],
   "ui-inventory-import.jobs.column.status": [
@@ -76389,61 +76489,61 @@
   "ui-inventory-import.jobs.column.status.DONE": [
     {
       "type": 0,
-      "value": "Done"
+      "value": "Feito"
     }
   ],
   "ui-inventory-import.jobs.column.status.INTERRUPTED": [
     {
       "type": 0,
-      "value": "Interrupted"
+      "value": "Interrompido"
     }
   ],
   "ui-inventory-import.jobs.column.status.PAUSED": [
     {
       "type": 0,
-      "value": "Paused"
+      "value": "Pausado"
     }
   ],
   "ui-inventory-import.jobs.column.status.RUNNING": [
     {
       "type": 0,
-      "value": "Running"
+      "value": "Executando"
     }
   ],
   "ui-inventory-import.jobs.column.type": [
     {
       "type": 0,
-      "value": "Type"
+      "value": "Tipo"
     }
   ],
   "ui-inventory-import.jobs.field.channelName": [
     {
       "type": 0,
-      "value": "Channel name"
+      "value": "Nome do canal"
     }
   ],
   "ui-inventory-import.jobs.field.transformationPipeline": [
     {
       "type": 0,
-      "value": "Transformation pipeline"
+      "value": "Fluxos de transformação"
     }
   ],
   "ui-inventory-import.jobs.index.all": [
     {
       "type": 0,
-      "value": "(All)"
+      "value": "(Todos)"
     }
   ],
   "ui-inventory-import.jobs.index.channelName": [
     {
       "type": 0,
-      "value": "Channel name"
+      "value": "Nome do canal"
     }
   ],
   "ui-inventory-import.jobs.index.message": [
     {
       "type": 0,
-      "value": "Message"
+      "value": "Mensagem"
     }
   ],
   "ui-inventory-import.logs.countFailedRecords": [
@@ -76463,7 +76563,7 @@
           "value": [
             {
               "type": 0,
-              "value": "failed record"
+              "value": "registro com falha"
             }
           ]
         },
@@ -76471,7 +76571,7 @@
           "value": [
             {
               "type": 0,
-              "value": "failed records"
+              "value": "registros com falha"
             }
           ]
         }
@@ -76498,7 +76598,7 @@
           "value": [
             {
               "type": 0,
-              "value": "log line"
+              "value": "linha de log"
             }
           ]
         },
@@ -76506,7 +76606,7 @@
           "value": [
             {
               "type": 0,
-              "value": "log lines"
+              "value": "linhas de log"
             }
           ]
         }
@@ -76519,37 +76619,37 @@
   "ui-inventory-import.logs.field.line": [
     {
       "type": 0,
-      "value": "Line"
+      "value": "Linha"
     }
   ],
   "ui-inventory-import.logs.field.timeStamp": [
     {
       "type": 0,
-      "value": "Timestamp"
+      "value": "Marca temporal"
     }
   ],
   "ui-inventory-import.meta.title": [
     {
       "type": 0,
-      "value": "Inventory import"
+      "value": "Importação de inventário"
     }
   ],
   "ui-inventory-import.nav.channels": [
     {
       "type": 0,
-      "value": "Channels"
+      "value": "Canais"
     }
   ],
   "ui-inventory-import.nav.jobs": [
     {
       "type": 0,
-      "value": "Jobs"
+      "value": "Trabalhos"
     }
   ],
   "ui-inventory-import.nav.jobs-for": [
     {
       "type": 0,
-      "value": "Jobs for "
+      "value": "Trabalhos para "
     },
     {
       "type": 1,
@@ -76559,13 +76659,13 @@
   "ui-inventory-import.nav.records": [
     {
       "type": 0,
-      "value": "Failed records"
+      "value": "Registros com falha"
     }
   ],
   "ui-inventory-import.no-title": [
     {
       "type": 0,
-      "value": "[No title]"
+      "value": "[Sem título]"
     }
   ],
   "ui-inventory-import.no-value": [
@@ -76577,7 +76677,7 @@
   "ui-inventory-import.pause.failure": [
     {
       "type": 0,
-      "value": "Channel "
+      "value": "Não foi possível pausar o canal "
     },
     {
       "type": 1,
@@ -76585,7 +76685,7 @@
     },
     {
       "type": 0,
-      "value": " could not be paused: HTTP status "
+      "value": ": Status HTTP "
     },
     {
       "type": 1,
@@ -76603,7 +76703,7 @@
   "ui-inventory-import.pause.success": [
     {
       "type": 0,
-      "value": "Channel "
+      "value": "Canal "
     },
     {
       "type": 1,
@@ -76611,91 +76711,91 @@
     },
     {
       "type": 0,
-      "value": " has been paused"
+      "value": " foi pausado"
     }
   ],
   "ui-inventory-import.permission.all": [
     {
       "type": 0,
-      "value": "Inventory import: All permissions"
+      "value": "Importação de inventário: Todas as permissões"
     }
   ],
   "ui-inventory-import.permission.channels.delete": [
     {
       "type": 0,
-      "value": "Inventory import: View, edit, create, delete channels"
+      "value": "Importação de inventário: Visualizar, editar, criar e excluir canais"
     }
   ],
   "ui-inventory-import.permission.channels.get": [
     {
       "type": 0,
-      "value": "Inventory import: View channels"
+      "value": "Importação de inventário: Visualizar canais"
     }
   ],
   "ui-inventory-import.permission.channels.post": [
     {
       "type": 0,
-      "value": "Inventory import: View, edit, create channels"
+      "value": "Importação de inventário: Visualizar, editar, criar canais"
     }
   ],
   "ui-inventory-import.permission.channels.put": [
     {
       "type": 0,
-      "value": "Inventory import: View, edit channels"
+      "value": "Importação de inventário: Visualizar e editar canais"
     }
   ],
   "ui-inventory-import.permission.jobs-and-failed-records.view": [
     {
       "type": 0,
-      "value": "Inventory import: View jobs and failed records"
+      "value": "Importação de inventário: Visualizar trabalhos e registros com falha"
     }
   ],
   "ui-inventory-import.permission.settings.view": [
     {
       "type": 0,
-      "value": "Inventory import (Settings): View transformation pipelines, transformation steps, channels and log-file deletion threshold"
+      "value": "Importação de inventário (Configurações): Visualizar fluxos de transformação, etapas de transformação, canais e limite de exclusão de arquivos de log"
     }
   ],
   "ui-inventory-import.permission.settings.view-edit": [
     {
       "type": 0,
-      "value": "Inventory import (Settings): View, edit transformation pipelines, transformation steps, channels and log-file deletion threshold"
+      "value": "Importação de inventário (Configurações): Visualizar e editar fluxos de transformação, etapas de transformação, canais e limite de exclusão de arquivos de log"
     }
   ],
   "ui-inventory-import.permission.settings.view-edit-create": [
     {
       "type": 0,
-      "value": "Inventory import (Settings): View, edit, create transformation pipelines, transformation steps and channels"
+      "value": "Importação de inventário (Configurações): Visualizar, editar e criar fluxos de transformação, etapas de transformação e canais"
     }
   ],
   "ui-inventory-import.permission.settings.view-edit-create-delete": [
     {
       "type": 0,
-      "value": "Inventory import (Settings): View, edit, create, delete transformation pipelines, transformation steps and channels"
+      "value": "Importação de inventário (Configurações): Visualizar, editar, criar e excluir fluxos de transformação, etapas de transformação e canais"
     }
   ],
   "ui-inventory-import.pipeline.field.description": [
     {
       "type": 0,
-      "value": "Description"
+      "value": "Descrição"
     }
   ],
   "ui-inventory-import.pipeline.field.name": [
     {
       "type": 0,
-      "value": "Name"
+      "value": "Nome"
     }
   ],
   "ui-inventory-import.pipeline.field.steps": [
     {
       "type": 0,
-      "value": "Transformation steps in pipeline"
+      "value": "Etapas de transformação em andamento"
     }
   ],
   "ui-inventory-import.pipeline.steps.name": [
     {
       "type": 0,
-      "value": "Name"
+      "value": "Nome"
     }
   ],
   "ui-inventory-import.pipeline.steps.position": [
@@ -76707,85 +76807,85 @@
   "ui-inventory-import.records.field.channelName": [
     {
       "type": 0,
-      "value": "Channel name"
+      "value": "Nome do canal"
     }
   ],
   "ui-inventory-import.records.field.errors": [
     {
       "type": 0,
-      "value": "Errors"
+      "value": "Erros"
     }
   ],
   "ui-inventory-import.records.field.importJob": [
     {
       "type": 0,
-      "value": "Import job"
+      "value": "Trabalho de importação"
     }
   ],
   "ui-inventory-import.records.field.instanceHrid": [
     {
       "type": 0,
-      "value": "Instance HRID"
+      "value": "HRID da instância"
     }
   ],
   "ui-inventory-import.records.field.instanceTitle": [
     {
       "type": 0,
-      "value": "Instance title"
+      "value": "Título da instância"
     }
   ],
   "ui-inventory-import.records.field.originalRecord": [
     {
       "type": 0,
-      "value": "Original record"
+      "value": "Registro original"
     }
   ],
   "ui-inventory-import.records.field.recordNumber": [
     {
       "type": 0,
-      "value": "Record number"
+      "value": "Número do registro"
     }
   ],
   "ui-inventory-import.records.field.sourceFileName": [
     {
       "type": 0,
-      "value": "Source file name"
+      "value": "Nome do arquivo de origem"
     }
   ],
   "ui-inventory-import.records.field.timeStamp": [
     {
       "type": 0,
-      "value": "Time stamp"
+      "value": "Marca temporal"
     }
   ],
   "ui-inventory-import.records.field.transformedRecord": [
     {
       "type": 0,
-      "value": "Transformed record"
+      "value": "Registro transformado"
     }
   ],
   "ui-inventory-import.records.index.all": [
     {
       "type": 0,
-      "value": "(All)"
+      "value": "(Todos)"
     }
   ],
   "ui-inventory-import.records.index.channelName": [
     {
       "type": 0,
-      "value": "Channel name"
+      "value": "Nome do canal"
     }
   ],
   "ui-inventory-import.records.index.recordNumber": [
     {
       "type": 0,
-      "value": "Record number"
+      "value": "Número do registro"
     }
   ],
   "ui-inventory-import.reports": [
     {
       "type": 0,
-      "value": "Reports"
+      "value": "Relatórios"
     }
   ],
   "ui-inventory-import.resultCount": [
@@ -76805,7 +76905,7 @@
           "value": [
             {
               "type": 0,
-              "value": "record found"
+              "value": "registro encontrado"
             }
           ]
         },
@@ -76813,7 +76913,7 @@
           "value": [
             {
               "type": 0,
-              "value": "records found"
+              "value": "registros encontrados"
             }
           ]
         }
@@ -76826,7 +76926,7 @@
   "ui-inventory-import.resume.failure": [
     {
       "type": 0,
-      "value": "Channel "
+      "value": "Canal "
     },
     {
       "type": 1,
@@ -76834,7 +76934,7 @@
     },
     {
       "type": 0,
-      "value": " could not be resumed: HTTP status "
+      "value": " não pôde ser retomado: Status HTTP "
     },
     {
       "type": 1,
@@ -76852,7 +76952,7 @@
   "ui-inventory-import.resume.success": [
     {
       "type": 0,
-      "value": "Channel "
+      "value": "Canal "
     },
     {
       "type": 1,
@@ -76860,127 +76960,127 @@
     },
     {
       "type": 0,
-      "value": " has been resumed"
+      "value": " foi retomado"
     }
   ],
   "ui-inventory-import.searchInputLabel": [
     {
       "type": 0,
-      "value": "Search input field"
+      "value": "Campo de entrada de busca"
     }
   ],
   "ui-inventory-import.selectToContinue": [
     {
       "type": 0,
-      "value": "Please select to continue"
+      "value": "Por favor, selecione para continuar"
     }
   ],
   "ui-inventory-import.selectValue": [
     {
       "type": 0,
-      "value": "Select a value"
+      "value": "Selecione um valor"
     }
   ],
   "ui-inventory-import.settings.channels": [
     {
       "type": 0,
-      "value": "Channels"
+      "value": "Canais"
     }
   ],
   "ui-inventory-import.settings.logs": [
     {
       "type": 0,
-      "value": "Log deletion"
+      "value": "Exclusão de logs"
     }
   ],
   "ui-inventory-import.settings.logs.description": [
     {
       "type": 0,
-      "value": "Logs older than the configured age threshold are automatically deleted once per day, at 2am Central European time. The threshhold is specified by a number and a unit. "
+      "value": "Os logs mais antigos que o limite de idade configurado são excluídos automaticamente uma vez por dia, às 2h da manhã, horário da Europa Central. O limite é especificado por um número e uma unidade."
     }
   ],
   "ui-inventory-import.settings.logs.number": [
     {
       "type": 0,
-      "value": "Number"
+      "value": "Número"
     }
   ],
   "ui-inventory-import.settings.logs.unit": [
     {
       "type": 0,
-      "value": "Unit"
+      "value": "Unidade"
     }
   ],
   "ui-inventory-import.settings.logs.unit.days": [
     {
       "type": 0,
-      "value": "Days"
+      "value": "Dias"
     }
   ],
   "ui-inventory-import.settings.logs.unit.months": [
     {
       "type": 0,
-      "value": "Months"
+      "value": "Meses"
     }
   ],
   "ui-inventory-import.settings.logs.unit.weeks": [
     {
       "type": 0,
-      "value": "Weeks"
+      "value": "Semanas"
     }
   ],
   "ui-inventory-import.settings.pipeline": [
     {
       "type": 0,
-      "value": "Transformation pipelines"
+      "value": "Fluxos de transformação"
     }
   ],
   "ui-inventory-import.settings.pipeline.heading": [
     {
       "type": 0,
-      "value": "transformation pipeline"
+      "value": "fluxo de transformação"
     }
   ],
   "ui-inventory-import.settings.step": [
     {
       "type": 0,
-      "value": "Transformation steps"
+      "value": "Etapas de transformação"
     }
   ],
   "ui-inventory-import.settings.step.heading": [
     {
       "type": 0,
-      "value": "transformation step"
+      "value": "etapa de transformação"
     }
   ],
   "ui-inventory-import.step.field.description": [
     {
       "type": 0,
-      "value": "Description"
+      "value": "Descrição"
     }
   ],
   "ui-inventory-import.step.field.name": [
     {
       "type": 0,
-      "value": "Name"
+      "value": "Nome"
     }
   ],
   "ui-inventory-import.step.field.script": [
     {
       "type": 0,
-      "value": "Script"
+      "value": "Roteiro"
     }
   ],
   "ui-inventory-import.step.field.type": [
     {
       "type": 0,
-      "value": "Type"
+      "value": "Tipo"
     }
   ],
   "ui-inventory-import.validXSLT": [
     {
       "type": 0,
-      "value": "Valid XSLT stylesheet"
+      "value": "Folha de estilo XSLT válida"
     }
   ],
   "ui-inventory.ILLPolicy": [
@@ -96443,7 +96543,7 @@
       "children": [
         {
           "type": 0,
-          "value": "Warning"
+          "value": "Aviso"
         }
       ],
       "type": 8,
@@ -96451,7 +96551,7 @@
     },
     {
       "type": 0,
-      "value": ": More than one active GOKB data source exists. It is recommended to have a single active GOKB configured. The first active source in the table (listed alphabetically) will be used for the Agreements GOKB search."
+      "value": ": Existe mais de uma fonte de dados GOKB ativa. Recomenda-se ter apenas uma fonte GOKB ativa configurada. A primeira fonte ativa na tabela (listada em ordem alfabética) será usada para a pesquisa de GOKB de Acordos."
     }
   ],
   "ui-local-kb-admin.settings.general": [
@@ -98113,25 +98213,25 @@
   "ui-mosaic-settings.sections.configuration-options.action.generate-integration-templates.description": [
     {
       "type": 0,
-      "value": "Clicking this button will generate templates for you to use as the default for this integration. The organization record and order template that are created can still be edited as desired or deleted."
+      "value": "Ao clicar neste botão, serão gerados modelos que você poderá usar como padrão para esta integração. O registro da organização e o modelo de pedido criados ainda poderão ser editados ou excluídos conforme desejado."
     }
   ],
   "ui-mosaic-settings.sections.configuration-options.action.generate-integration-templates.error": [
     {
       "type": 0,
-      "value": "Unable to generate templates. Please try again."
+      "value": "Não foi possível gerar os modelos. Tente novamente."
     }
   ],
   "ui-mosaic-settings.sections.configuration-options.action.generate-integration-templates.label": [
     {
       "type": 0,
-      "value": "Generate integration templates"
+      "value": "Gerar modelos de integração"
     }
   ],
   "ui-mosaic-settings.sections.configuration-options.action.generate-integration-templates.success": [
     {
       "type": 0,
-      "value": "Integration templates generated successfully."
+      "value": "Modelos de integração gerados com sucesso."
     }
   ],
   "ui-mosaic-settings.sections.configuration-options.description": [
@@ -98149,7 +98249,7 @@
   "ui-mosaic-settings.sections.configuration-options.selection.description": [
     {
       "type": 0,
-      "value": "You are able to choose the default order template that is applied when Mosaic creates an order in FOLIO. If a template is chosen while ordering in Mosaic that will override this selection, if no template is chosen this one will be applied. You can edit the order templates in order settings under \"Order templates\"."
+      "value": "Você pode escolher o modelo de pedido padrão que será aplicado quando o Mosaic criar um pedido no FOLIO. Se um modelo for escolhido durante a criação do pedido no Mosaic, ele substituirá esta seleção; caso contrário, este será aplicado. Você pode editar os modelos de pedido nas configurações do pedido, em \"Modelos de pedido\"."
     }
   ],
   "ui-mosaic-settings.sections.configuration-options.submit.error": [
@@ -104392,7 +104492,7 @@
   "ui-orders.errors.poNumberPatternMismatch": [
     {
       "type": 0,
-      "value": "PO Number must not be longer than "
+      "value": "O número do pedido de compra não deve ser maior que "
     },
     {
       "style": null,
@@ -104401,7 +104501,7 @@
     },
     {
       "type": 0,
-      "value": " alphanumeric characters"
+      "value": " caracteres alfanuméricos"
     }
   ],
   "ui-orders.errors.poNumberPrefixRequired": [
@@ -119045,13 +119145,13 @@
   "ui-quick-marc.autoLinkingButton.infotip": [
     {
       "type": 0,
-      "value": "The Link headings button links all access point bibliographic fields that contain a $0 to authority heading. If a field does not have a $0, you can manually link the field to an authority heading by selecting the Link button on the field itself."
+      "value": "O botão \"Vincular cabeçalhos\" vincula todos os campos bibliográficos de pontos de acesso que contêm um $0 a um cabeçalho de autoridade. Se um campo não tiver um $0, você pode vinculá-lo manualmente a um cabeçalho de autoridade selecionando o botão \"Vincular\" no próprio campo."
     }
   ],
   "ui-quick-marc.autoLinkingButton.infotip.learnMore": [
     {
       "type": 0,
-      "value": "Learn more"
+      "value": "Saiba mais"
     }
   ],
   "ui-quick-marc.bib-record.derive.title": [
@@ -126308,6 +126408,12 @@
       "value": "Este valor não pode ser excluído"
     }
   ],
+  "ui-receiving.errors.fundsNotFound": [
+    {
+      "type": 0,
+      "value": "One or more funds could not be loaded. The fund(s) may have been deleted or you may not have permission to view the associated fund(s)."
+    }
+  ],
   "ui-receiving.errors.holdingsByIdNotFoundError": [
     {
       "type": 0,
@@ -126351,7 +126457,7 @@
   "ui-receiving.errors.lastPiece": [
     {
       "type": 0,
-      "value": "The piece was not deleted because you cannot delete all pieces when ordering and receiving quantity are synchronized."
+      "value": "A peça não foi eliminada porque não é possível eliminar todas as peças quando a quantidade de pedidos e de recebimentos está sincronizada."
     }
   ],
   "ui-receiving.errors.locationIdAndHoldingIdAbsentError": [
@@ -126424,6 +126530,21 @@
     {
       "type": 0,
       "value": "O registro da parte falhou ao ser atualizado"
+    }
+  ],
+  "ui-receiving.errors.polNumberInvalidOrTooLong": [
+    {
+      "type": 0,
+      "value": "POL number is invalid or bigger than "
+    },
+    {
+      "style": null,
+      "type": 2,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": " alphanumeric characters."
     }
   ],
   "ui-receiving.errors.receivingProcessEncumbrancesError": [
@@ -136905,7 +137026,7 @@
   "ui-tenant-settings.settings.locale.success": [
     {
       "type": 0,
-      "value": "Setting was successfully updated."
+      "value": "A configuração foi salva com sucesso"
     }
   ],
   "ui-tenant-settings.settings.locale.title": [
