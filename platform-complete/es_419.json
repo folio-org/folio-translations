@@ -66161,6 +66161,34 @@
       "value": "URL de servicio"
     }
   ],
+  "ui-erm-usage.vendorInfo.serviceUrl.info": [
+    {
+      "type": 0,
+      "value": "The URL is usually listed on the provider’s backend information pages."
+    }
+  ],
+  "ui-erm-usage.vendorInfo.serviceUrl.note": [
+    {
+      "type": 0,
+      "value": "Note: Only enter the base URL, not the complete URL. For example, if the provider lists the URL "
+    },
+    {
+      "type": 1,
+      "value": "urlSushiReport"
+    },
+    {
+      "type": 0,
+      "value": ", only enter the part before (and excluding) reports: "
+    },
+    {
+      "type": 1,
+      "value": "urlSushi"
+    },
+    {
+      "type": 0,
+      "value": ". Everything else is added by the harvester."
+    }
+  ],
   "ui-export-manager.exportJob": [
     {
       "type": 0,
