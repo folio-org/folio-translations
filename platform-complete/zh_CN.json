@@ -706,7 +706,7 @@
   "stripes-acq-components.holdings.deleteModal.message": [
     {
       "type": 0,
-      "value": "此件与典藏中的记录连接。在此编辑之后，将没有其他件或单件连接到相关馆藏记录。作此更改后，是否希望 FOLIO删除此馆藏记录？"
+      "value": "此件与典藏中记录关联。修改后，将不再有其他采购订单行、件或单件与相关的馆藏记录关联。更改完成后，是否希望FOLIO删除馆藏记录？"
     }
   ],
   "stripes-acq-components.invalidReference": [
@@ -9756,7 +9756,7 @@
   "stripes-data-transfer-components.locked": [
     {
       "type": 0,
-      "value": "Locked"
+      "value": "已锁定"
     }
   ],
   "stripes-data-transfer-components.mappingProfilesCount": [
@@ -9929,7 +9929,7 @@
   "stripes-data-transfer-components.status": [
     {
       "type": 0,
-      "value": "Status"
+      "value": "状态"
     }
   ],
   "stripes-data-transfer-components.update": [
@@ -19268,6 +19268,18 @@
       "value": "E-Book Pool"
     }
   ],
+  "ui-agreements.eresources.identifiers.ebp-id": [
+    {
+      "type": 0,
+      "value": "eBookPool"
+    }
+  ],
+  "ui-agreements.eresources.identifiers.ebp-id-pkg": [
+    {
+      "type": 0,
+      "value": "eBookPool (Package)"
+    }
+  ],
   "ui-agreements.eresources.identifiers.eisbn": [
     {
       "type": 0,
@@ -19344,6 +19356,12 @@
     {
       "type": 0,
       "value": "ZDB"
+    }
+  ],
+  "ui-agreements.eresources.identifiers.zdb-pkg": [
+    {
+      "type": 0,
+      "value": "ZDB-ID (Package)"
     }
   ],
   "ui-agreements.eresources.isPackage": [
