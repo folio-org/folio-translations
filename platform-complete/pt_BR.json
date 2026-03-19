@@ -85881,6 +85881,46 @@
       "value": " - Buscar"
     }
   ],
+  "ui-invoice.errors.budgetRestrictedEncumbranceError": [
+    {
+      "type": 0,
+      "value": "Fund distribution amount exceeds the allowable encumbrance amount in the "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "fundCode"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " fund."
+    }
+  ],
+  "ui-invoice.errors.budgetRestrictedExpendituresError": [
+    {
+      "type": 0,
+      "value": "Fund distribution amount exceeds the allowable expenditure amount in the "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "fundCode"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " fund."
+    }
+  ],
   "ui-invoice.errors.cannotConvertAmountInvalidCurrency": [
     {
       "type": 0,
@@ -86461,6 +86501,12 @@
     {
       "type": 0,
       "value": "A fatura não pode ser aprovada porque a criação de pagamento pendente falhou"
+    }
+  ],
+  "ui-invoice.invoice.actions.approve.error.pendingPaymentUpdateError": [
+    {
+      "type": 0,
+      "value": "Invoice cannot be approved because pending payment update has failed"
     }
   ],
   "ui-invoice.invoice.actions.approve.error.poLineUpdateFailure": [

@@ -85784,6 +85784,46 @@
       "value": " - Search"
     }
   ],
+  "ui-invoice.errors.budgetRestrictedEncumbranceError": [
+    {
+      "type": 0,
+      "value": "Fund distribution amount exceeds the allowable encumbrance amount in the "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "fundCode"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " fund."
+    }
+  ],
+  "ui-invoice.errors.budgetRestrictedExpendituresError": [
+    {
+      "type": 0,
+      "value": "Fund distribution amount exceeds the allowable expenditure amount in the "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "fundCode"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " fund."
+    }
+  ],
   "ui-invoice.errors.cannotConvertAmountInvalidCurrency": [
     {
       "type": 0,
@@ -86388,6 +86428,12 @@
     {
       "type": 0,
       "value": "보류중인 지불 생성에 실패했기 때문에 인보이스를 승인할 수 없습니다."
+    }
+  ],
+  "ui-invoice.invoice.actions.approve.error.pendingPaymentUpdateError": [
+    {
+      "type": 0,
+      "value": "Invoice cannot be approved because pending payment update has failed"
     }
   ],
   "ui-invoice.invoice.actions.approve.error.poLineUpdateFailure": [
