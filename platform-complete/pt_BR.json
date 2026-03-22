@@ -18930,7 +18930,7 @@
   "ui-agreements.eresources.identifiers": [
     {
       "type": 0,
-      "value": "Identifiers"
+      "value": "Identificadores"
     }
   ],
   "ui-agreements.eresources.identifiers.doi": [
@@ -18954,7 +18954,7 @@
   "ui-agreements.eresources.identifiers.ebp-id-pkg": [
     {
       "type": 0,
-      "value": "eBookPool (Package)"
+      "value": "eBookPool (Pacote)"
     }
   ],
   "ui-agreements.eresources.identifiers.eisbn": [
@@ -18978,13 +18978,13 @@
   "ui-agreements.eresources.identifiers.gokb_id": [
     {
       "type": 0,
-      "value": "GOKB ID"
+      "value": "ID do GOKB"
     }
   ],
   "ui-agreements.eresources.identifiers.gokb_uuid": [
     {
       "type": 0,
-      "value": "GOKB UUID"
+      "value": "UUID do GOKB"
     }
   ],
   "ui-agreements.eresources.identifiers.isbn": [
@@ -19008,25 +19008,25 @@
   "ui-agreements.eresources.identifiers.pisbn": [
     {
       "type": 0,
-      "value": "ISBN (Print)"
+      "value": "ISBN (Impresso)"
     }
   ],
   "ui-agreements.eresources.identifiers.pissn": [
     {
       "type": 0,
-      "value": "ISSN (Print)"
+      "value": "ISSN (Impresso)"
     }
   ],
   "ui-agreements.eresources.identifiers.resourceIdentifier": [
     {
       "type": 0,
-      "value": "Resource identifier"
+      "value": "Identificador do recurso"
     }
   ],
   "ui-agreements.eresources.identifiers.resourceIdentifierType": [
     {
       "type": 0,
-      "value": "Resource identifier type"
+      "value": "Tipo de identificador de recurso"
     }
   ],
   "ui-agreements.eresources.identifiers.zdb": [
@@ -19038,7 +19038,7 @@
   "ui-agreements.eresources.identifiers.zdb-pkg": [
     {
       "type": 0,
-      "value": "ZDB-ID (Package)"
+      "value": "ZDB-ID (Pacote)"
     }
   ],
   "ui-agreements.eresources.isPackage": [
@@ -66557,13 +66557,13 @@
   "ui-erm-usage.vendorInfo.serviceUrl.info": [
     {
       "type": 0,
-      "value": "The URL is usually listed on the provider’s backend information pages."
+      "value": "A URL geralmente está listada nas páginas de informações do painel administrativo do provedor."
     }
   ],
   "ui-erm-usage.vendorInfo.serviceUrl.note": [
     {
       "type": 0,
-      "value": "Note: Only enter the base URL, not the complete URL. For example, if the provider lists the URL "
+      "value": "Observação: Insira apenas a URL base, não a URL completa. Por exemplo, se o provedor listar a URL "
     },
     {
       "type": 1,
@@ -66571,7 +66571,7 @@
     },
     {
       "type": 0,
-      "value": ", only enter the part before (and excluding) reports: "
+      "value": ". insira apenas a parte anterior (e excluindo) aos relatórios: "
     },
     {
       "type": 1,
@@ -66579,7 +66579,7 @@
     },
     {
       "type": 0,
-      "value": ". Everything else is added by the harvester."
+      "value": ". Tudo o resto é adicionado pela colheitadeira."
     }
   ],
   "ui-export-manager.exportJob": [
@@ -85884,7 +85884,7 @@
   "ui-invoice.errors.budgetRestrictedEncumbranceError": [
     {
       "type": 0,
-      "value": "Fund distribution amount exceeds the allowable encumbrance amount in the "
+      "value": "O valor da distribuição do fundo excede o valor do encargo permitido no fundo "
     },
     {
       "children": [
@@ -85898,13 +85898,13 @@
     },
     {
       "type": 0,
-      "value": " fund."
+      "value": "."
     }
   ],
   "ui-invoice.errors.budgetRestrictedExpendituresError": [
     {
       "type": 0,
-      "value": "Fund distribution amount exceeds the allowable expenditure amount in the "
+      "value": "O valor da distribuição do fundo excede o valor permitido para despesas no fundo "
     },
     {
       "children": [
@@ -85918,7 +85918,7 @@
     },
     {
       "type": 0,
-      "value": " fund."
+      "value": "."
     }
   ],
   "ui-invoice.errors.cannotConvertAmountInvalidCurrency": [
@@ -86506,7 +86506,7 @@
   "ui-invoice.invoice.actions.approve.error.pendingPaymentUpdateError": [
     {
       "type": 0,
-      "value": "Invoice cannot be approved because pending payment update has failed"
+      "value": "A fatura não pode ser aprovada porque a atualização do pagamento pendente falhou."
     }
   ],
   "ui-invoice.invoice.actions.approve.error.poLineUpdateFailure": [
@@ -104693,7 +104693,7 @@
   "ui-orders.errors.thereAreRequestsOnItem": [
     {
       "type": 0,
-      "value": "Order could not be saved because there are associated requests. Please delete the requests before proceeding."
+      "value": "O pedido não pôde ser salvo porque existem solicitações associadas. Exclua as solicitações antes de prosseguir."
     }
   ],
   "ui-orders.errors.titleNotFound": [
@@ -126525,7 +126525,7 @@
   "ui-receiving.errors.fundsNotFound": [
     {
       "type": 0,
-      "value": "One or more funds could not be loaded. The fund(s) may have been deleted or you may not have permission to view the associated fund(s)."
+      "value": "Um ou mais fundos não puderam ser carregados. O(s) fundo(s) pode(m) ter sido excluído(s) ou você pode não ter permissão para visualizar o(s) fundo(s) associado(s)."
     }
   ],
   "ui-receiving.errors.holdingsByIdNotFoundError": [
@@ -126649,7 +126649,7 @@
   "ui-receiving.errors.polNumberInvalidOrTooLong": [
     {
       "type": 0,
-      "value": "POL number is invalid or bigger than "
+      "value": "O número da Linha do Pedido de Compra é inválido ou maior que "
     },
     {
       "style": null,
@@ -126658,7 +126658,7 @@
     },
     {
       "type": 0,
-      "value": " alphanumeric characters."
+      "value": " caracteres alfanuméricos."
     }
   ],
   "ui-receiving.errors.receivingProcessEncumbrancesError": [
@@ -140564,7 +140564,7 @@
   "ui-users.blocks.form.label.date": [
     {
       "type": 0,
-      "value": "Data de validade"
+      "value": "Data de vencimento"
     }
   ],
   "ui-users.blocks.form.label.display": [
@@ -141757,7 +141757,7 @@
   "ui-users.deleteSponsorPrompt": [
     {
       "type": 0,
-      "value": "Excluir autorizador?"
+      "value": "Excluir patrocinador?"
     }
   ],
   "ui-users.departments": [
@@ -142467,19 +142467,19 @@
   "ui-users.errors.sponsors.expired": [
     {
       "type": 0,
-      "value": "O registro do usuário autorizador expirou"
+      "value": "O registro do usuário patrocinador expirou"
     }
   ],
   "ui-users.errors.sponsors.invalidUserLabel": [
     {
       "type": 0,
-      "value": "Autorizador inválido"
+      "value": "Patrocinador inválido"
     }
   ],
   "ui-users.errors.sponsors.invalidUserMessage": [
     {
       "type": 0,
-      "value": "Os usuários não podem ser autorizadores de si mesmos."
+      "value": "Os usuários não podem ser patrocinadores de si mesmos."
     }
   ],
   "ui-users.errors.userExpired": [
@@ -142509,7 +142509,7 @@
   "ui-users.expirationDate": [
     {
       "type": 0,
-      "value": "Data de expiração"
+      "value": "Data de vencimento"
     }
   ],
   "ui-users.export.button": [
@@ -142969,7 +142969,7 @@
   "ui-users.information.expirationDate": [
     {
       "type": 0,
-      "value": "Data de validade"
+      "value": "Data de vencimento"
     }
   ],
   "ui-users.information.firstName": [
@@ -143005,7 +143005,7 @@
   "ui-users.information.patronGroup.expirationOffset": [
     {
       "type": 0,
-      "value": "Compensação da data de expiração (dias)"
+      "value": "Compensação da data de vencimento (dias)"
     }
   ],
   "ui-users.information.patronGroup.expirationOffset.error": [
@@ -143187,7 +143187,7 @@
   "ui-users.information.recalculate.modal.label": [
     {
       "type": 0,
-      "value": "Fixar data de expiração?"
+      "value": "Fixar data de vencimento?"
     }
   ],
   "ui-users.information.recalculate.modal.text": [
@@ -146740,7 +146740,7 @@
   "ui-users.permissions.isProxyFor": [
     {
       "type": 0,
-      "value": "Autorizados ("
+      "value": "Patrocinadores ("
     },
     {
       "type": 1,
@@ -146754,7 +146754,7 @@
   "ui-users.permissions.isSponsorOf": [
     {
       "type": 0,
-      "value": "Autorizados (essas pessoas podem pedir emprestado em nome de "
+      "value": "Procuradores (essas pessoas podem pedir emprestado em nome de "
     },
     {
       "type": 1,
@@ -146987,7 +146987,7 @@
   "ui-users.permissions.noSponsorsFound": [
     {
       "type": 0,
-      "value": "Nenhum autorizador encontrado"
+      "value": "Nenhum patrocinador encontrado"
     }
   ],
   "ui-users.permissions.permissionSetName": [
@@ -146999,7 +146999,7 @@
   "ui-users.permissions.proxy.sponsor": [
     {
       "type": 0,
-      "value": "Procurador/Autorizador"
+      "value": "Procurador/Patrocinador"
     }
   ],
   "ui-users.permissions.removePermission": [
@@ -147083,7 +147083,7 @@
   "ui-users.proxy.requestForSponsor": [
     {
       "type": 0,
-      "value": "Procurador pode solicitar para o autorizado"
+      "value": "Procurador pode solicitar para o patrocinador"
     }
   ],
   "ui-users.proxyWillBeDeleted": [
@@ -149275,7 +149275,7 @@
   "ui-users.sponsor": [
     {
       "type": 0,
-      "value": "Autorizador"
+      "value": "Patrocinador"
     }
   ],
   "ui-users.sponsor.addSponsor": [

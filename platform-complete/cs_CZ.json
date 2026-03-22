@@ -19049,7 +19049,7 @@
   "ui-agreements.eresources.identifiers": [
     {
       "type": 0,
-      "value": "Identifiers"
+      "value": "Identifikátory"
     }
   ],
   "ui-agreements.eresources.identifiers.doi": [
@@ -19097,13 +19097,13 @@
   "ui-agreements.eresources.identifiers.gokb_id": [
     {
       "type": 0,
-      "value": "GOKB ID"
+      "value": "GOKB (ID)"
     }
   ],
   "ui-agreements.eresources.identifiers.gokb_uuid": [
     {
       "type": 0,
-      "value": "GOKB UUID"
+      "value": "GOKB (UUID)"
     }
   ],
   "ui-agreements.eresources.identifiers.isbn": [
@@ -19127,25 +19127,25 @@
   "ui-agreements.eresources.identifiers.pisbn": [
     {
       "type": 0,
-      "value": "ISBN (Print)"
+      "value": "ISBN (Tisk)"
     }
   ],
   "ui-agreements.eresources.identifiers.pissn": [
     {
       "type": 0,
-      "value": "ISSN (Print)"
+      "value": "ISSN (Tisk)"
     }
   ],
   "ui-agreements.eresources.identifiers.resourceIdentifier": [
     {
       "type": 0,
-      "value": "Resource identifier"
+      "value": "Identifikátor zdroje"
     }
   ],
   "ui-agreements.eresources.identifiers.resourceIdentifierType": [
     {
       "type": 0,
-      "value": "Resource identifier type"
+      "value": "Typ identifikátoru zdroje"
     }
   ],
   "ui-agreements.eresources.identifiers.zdb": [
@@ -66284,13 +66284,13 @@
   "ui-erm-usage.vendorInfo.serviceUrl.info": [
     {
       "type": 0,
-      "value": "The URL is usually listed on the provider’s backend information pages."
+      "value": "URL je obvykle uvedeno na informačních stránkách poskytovatele."
     }
   ],
   "ui-erm-usage.vendorInfo.serviceUrl.note": [
     {
       "type": 0,
-      "value": "Note: Only enter the base URL, not the complete URL. For example, if the provider lists the URL "
+      "value": "Poznámka: Zadejte pouze základní adresu URL, nikoli celou adresu URL. Pokud například poskytovatel uvádí adresu URL "
     },
     {
       "type": 1,
@@ -66298,7 +66298,7 @@
     },
     {
       "type": 0,
-      "value": ", only enter the part before (and excluding) reports: "
+      "value": ", zadejte pouze část před (a bez) zpráv: "
     },
     {
       "type": 1,
@@ -66306,7 +66306,7 @@
     },
     {
       "type": 0,
-      "value": ". Everything else is added by the harvester."
+      "value": ". Vše ostatní doplní harvester."
     }
   ],
   "ui-export-manager.exportJob": [
@@ -104055,7 +104055,7 @@
   "ui-orders.errors.poNumberPatternMismatch": [
     {
       "type": 0,
-      "value": "PO Number must not be longer than "
+      "value": "Číslo NO nesmí být delší než "
     },
     {
       "style": null,
@@ -104064,7 +104064,7 @@
     },
     {
       "type": 0,
-      "value": " alphanumeric characters"
+      "value": " alfanumerických znaků"
     }
   ],
   "ui-orders.errors.poNumberPrefixRequired": [
@@ -104142,7 +104142,7 @@
   "ui-orders.errors.thereAreRequestsOnItem": [
     {
       "type": 0,
-      "value": "Order could not be saved because there are associated requests. Please delete the requests before proceeding."
+      "value": "Objednávku nelze uložit, protože existují související požadavky. Než budete pokračovat, smažte prosím tyto požadavky."
     }
   ],
   "ui-orders.errors.titleNotFound": [
@@ -125668,7 +125668,7 @@
   "ui-receiving.errors.fundsNotFound": [
     {
       "type": 0,
-      "value": "One or more funds could not be loaded. The fund(s) may have been deleted or you may not have permission to view the associated fund(s)."
+      "value": "Jeden nebo více fondů se nepodařilo načíst. Fond(y) mohl(y) být smazán(y) nebo nemáte oprávnění k zobrazení přidruženého(ých) fondu(ů)."
     }
   ],
   "ui-receiving.errors.holdingsByIdNotFoundError": [
@@ -125784,7 +125784,7 @@
   "ui-receiving.errors.polNumberInvalidOrTooLong": [
     {
       "type": 0,
-      "value": "POL number is invalid or bigger than "
+      "value": "Číslo ŘNO je neplatné nebo delší než "
     },
     {
       "style": null,
@@ -125793,7 +125793,7 @@
     },
     {
       "type": 0,
-      "value": " alphanumeric characters."
+      "value": " alfanumerické znaky."
     }
   ],
   "ui-receiving.errors.receivingProcessEncumbrancesError": [
