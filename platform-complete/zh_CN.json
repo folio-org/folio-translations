@@ -17779,6 +17779,22 @@
       "value": "全部"
     }
   ],
+  "ui-agreements.customProperties.config.create.errorMessage": [
+    {
+      "type": 0,
+      "value": "There was an error saving supplementary property: "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "error"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    }
+  ],
   "ui-agreements.customProperties.config.delete.confirmHeading": [
     {
       "type": 0,
@@ -17853,6 +17869,30 @@
     {
       "type": 0,
       "value": " 时出错。 "
+    },
+    {
+      "type": 1,
+      "value": "error"
+    }
+  ],
+  "ui-agreements.customProperties.config.edit.errorMessage": [
+    {
+      "type": 0,
+      "value": "There was an error editing supplementary property: "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "label"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": ". "
     },
     {
       "type": 1,
@@ -19832,6 +19872,18 @@
       "value": "所有自定义收录范围数据将被清除。要保存自定义收录范围数据，请链接电子资源"
     }
   ],
+  "ui-agreements.eresources.workIdentifier": [
+    {
+      "type": 0,
+      "value": "Work identifier"
+    }
+  ],
+  "ui-agreements.eresources.workIdentifierType": [
+    {
+      "type": 0,
+      "value": "Work identifier type"
+    }
+  ],
   "ui-agreements.eresourcesCovered.exportAs": [
     {
       "type": 0,
@@ -21311,6 +21363,22 @@
     {
       "type": 0,
       "value": "名称"
+    }
+  ],
+  "ui-agreements.packages.selectAllTooltip": [
+    {
+      "type": 0,
+      "value": "Select all packages on this page"
+    }
+  ],
+  "ui-agreements.packages.selectCheckboxLabel": [
+    {
+      "type": 0,
+      "value": "Select package "
+    },
+    {
+      "type": 1,
+      "value": "name"
     }
   ],
   "ui-agreements.packages.source": [
@@ -77528,6 +77596,12 @@
       "value": "恢复"
     }
   ],
+  "ui-inventory-import.button.upload": [
+    {
+      "type": 0,
+      "value": "Upload"
+    }
+  ],
   "ui-inventory-import.channels.column.enabled": [
     {
       "type": 0,
@@ -78455,6 +78529,108 @@
     {
       "type": 0,
       "value": "类型"
+    }
+  ],
+  "ui-inventory-import.upload.buttonText": [
+    {
+      "type": 0,
+      "value": "Or pick a file"
+    }
+  ],
+  "ui-inventory-import.upload.failure": [
+    {
+      "type": 0,
+      "value": "Could not upload "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "fileName"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " to channel "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "channelName"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": ": HTTP status "
+    },
+    {
+      "type": 1,
+      "value": "status"
+    },
+    {
+      "type": 0,
+      "value": " ("
+    },
+    {
+      "type": 1,
+      "value": "statusText"
+    },
+    {
+      "type": 0,
+      "value": "): "
+    },
+    {
+      "type": 1,
+      "value": "body"
+    }
+  ],
+  "ui-inventory-import.upload.label": [
+    {
+      "type": 0,
+      "value": "Import files"
+    }
+  ],
+  "ui-inventory-import.upload.success": [
+    {
+      "type": 0,
+      "value": "Uploaded "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "fileName"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " to channel "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "channelName"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
+  "ui-inventory-import.upload.title": [
+    {
+      "type": 0,
+      "value": "Drag files here to import"
     }
   ],
   "ui-inventory-import.validXSLT": [
@@ -92664,6 +92840,22 @@
       "value": "全部"
     }
   ],
+  "ui-licenses.customProperties.config.create.errorMessage": [
+    {
+      "type": 0,
+      "value": "There was an error saving term: "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "error"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    }
+  ],
   "ui-licenses.customProperties.config.delete.confirmHeading": [
     {
       "type": 0,
@@ -92738,6 +92930,30 @@
     {
       "type": 0,
       "value": " 时出错。 "
+    },
+    {
+      "type": 1,
+      "value": "error"
+    }
+  ],
+  "ui-licenses.customProperties.config.edit.errorMessage": [
+    {
+      "type": 0,
+      "value": "There was an error editing term: "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "label"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": ". "
     },
     {
       "type": 1,
@@ -138279,6 +138495,12 @@
     {
       "type": 1,
       "value": "value"
+    }
+  ],
+  "ui-service-interaction.numberGenerator.noPermission": [
+    {
+      "type": 0,
+      "value": "You do not have the necessary permissions to use number generator sequences. Please contact your system administrator."
     }
   ],
   "ui-service-interaction.numberGenerator.selectGenerator": [

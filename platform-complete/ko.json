@@ -17675,6 +17675,22 @@
       "value": "모두"
     }
   ],
+  "ui-agreements.customProperties.config.create.errorMessage": [
+    {
+      "type": 0,
+      "value": "There was an error saving supplementary property: "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "error"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    }
+  ],
   "ui-agreements.customProperties.config.delete.confirmHeading": [
     {
       "type": 0,
@@ -17749,6 +17765,30 @@
     {
       "type": 0,
       "value": " . "
+    },
+    {
+      "type": 1,
+      "value": "error"
+    }
+  ],
+  "ui-agreements.customProperties.config.edit.errorMessage": [
+    {
+      "type": 0,
+      "value": "There was an error editing supplementary property: "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "label"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": ". "
     },
     {
       "type": 1,
@@ -19699,6 +19739,18 @@
       "value": "모든 Custom 커버리지 데이터가 삭제됩니다. Custom 커버리지 데이터를 저장하려면 전자자원을 연결하십시오."
     }
   ],
+  "ui-agreements.eresources.workIdentifier": [
+    {
+      "type": 0,
+      "value": "Work identifier"
+    }
+  ],
+  "ui-agreements.eresources.workIdentifierType": [
+    {
+      "type": 0,
+      "value": "Work identifier type"
+    }
+  ],
   "ui-agreements.eresourcesCovered.exportAs": [
     {
       "type": 0,
@@ -21198,6 +21250,22 @@
     {
       "type": 0,
       "value": "이름"
+    }
+  ],
+  "ui-agreements.packages.selectAllTooltip": [
+    {
+      "type": 0,
+      "value": "Select all packages on this page"
+    }
+  ],
+  "ui-agreements.packages.selectCheckboxLabel": [
+    {
+      "type": 0,
+      "value": "Select package "
+    },
+    {
+      "type": 1,
+      "value": "name"
     }
   ],
   "ui-agreements.packages.source": [
@@ -76184,6 +76252,12 @@
       "value": "Resume"
     }
   ],
+  "ui-inventory-import.button.upload": [
+    {
+      "type": 0,
+      "value": "Upload"
+    }
+  ],
   "ui-inventory-import.channels.column.enabled": [
     {
       "type": 0,
@@ -76691,7 +76765,7 @@
   "ui-inventory-import.op.delete.completed": [
     {
       "type": 0,
-      "value": "Deleted channel "
+      "value": "채널 "
     },
     {
       "children": [
@@ -76702,12 +76776,16 @@
       ],
       "type": 8,
       "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "이(가) 삭제되었습니다."
     }
   ],
   "ui-inventory-import.op.delete.confirm": [
     {
       "type": 0,
-      "value": "Really delete channel?"
+      "value": "채널을 정말 삭제하시겠습니까?"
     }
   ],
   "ui-inventory-import.pause.failure": [
@@ -76753,37 +76831,37 @@
   "ui-inventory-import.permission.all": [
     {
       "type": 0,
-      "value": "Inventory import: All permissions"
+      "value": "인벤토리 반입: 모든 권한"
     }
   ],
   "ui-inventory-import.permission.channels.delete": [
     {
       "type": 0,
-      "value": "Inventory import: View, edit, create, delete channels"
+      "value": "인벤토리 반입: 채널 보기, 수정, 생성 및 삭제"
     }
   ],
   "ui-inventory-import.permission.channels.get": [
     {
       "type": 0,
-      "value": "Inventory import: View channels"
+      "value": "인벤토리 반입: 채널 보기"
     }
   ],
   "ui-inventory-import.permission.channels.post": [
     {
       "type": 0,
-      "value": "Inventory import: View, edit, create channels"
+      "value": "인벤토리 반입: 채널 보기, 수정 및 생성"
     }
   ],
   "ui-inventory-import.permission.channels.put": [
     {
       "type": 0,
-      "value": "Inventory import: View, edit channels"
+      "value": "인벤토리 반입: 채널 보기 및 수정"
     }
   ],
   "ui-inventory-import.permission.jobs-and-failed-records.view": [
     {
       "type": 0,
-      "value": "Inventory import: View jobs and failed records"
+      "value": "인벤토리 반입: 작업 및 실패한 레코드 보기"
     }
   ],
   "ui-inventory-import.permission.settings.view": [
@@ -77032,7 +77110,7 @@
   "ui-inventory-import.settings.logs.description": [
     {
       "type": 0,
-      "value": "Logs older than the configured age threshold are automatically deleted once per day, at 2am Central European time. The threshhold is specified by a number and a unit."
+      "value": "설정된 보관 기간 기준을 초과한 로그는 매일 한 번, 중앙유럽 표준시(CET) 기준 오전 2시에 자동으로 삭제됩니다. 해당 기준은 숫자와 단위로 지정됩니다."
     }
   ],
   "ui-inventory-import.settings.logs.number": [
@@ -77111,6 +77189,108 @@
     {
       "type": 0,
       "value": "Type"
+    }
+  ],
+  "ui-inventory-import.upload.buttonText": [
+    {
+      "type": 0,
+      "value": "Or pick a file"
+    }
+  ],
+  "ui-inventory-import.upload.failure": [
+    {
+      "type": 0,
+      "value": "Could not upload "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "fileName"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " to channel "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "channelName"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": ": HTTP status "
+    },
+    {
+      "type": 1,
+      "value": "status"
+    },
+    {
+      "type": 0,
+      "value": " ("
+    },
+    {
+      "type": 1,
+      "value": "statusText"
+    },
+    {
+      "type": 0,
+      "value": "): "
+    },
+    {
+      "type": 1,
+      "value": "body"
+    }
+  ],
+  "ui-inventory-import.upload.label": [
+    {
+      "type": 0,
+      "value": "Import files"
+    }
+  ],
+  "ui-inventory-import.upload.success": [
+    {
+      "type": 0,
+      "value": "Uploaded "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "fileName"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " to channel "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "channelName"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
+  "ui-inventory-import.upload.title": [
+    {
+      "type": 0,
+      "value": "Drag files here to import"
     }
   ],
   "ui-inventory-import.validXSLT": [
@@ -90788,6 +90968,22 @@
       "value": "모두"
     }
   ],
+  "ui-licenses.customProperties.config.create.errorMessage": [
+    {
+      "type": 0,
+      "value": "There was an error saving term: "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "error"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    }
+  ],
   "ui-licenses.customProperties.config.delete.confirmHeading": [
     {
       "type": 0,
@@ -90854,6 +91050,30 @@
     {
       "type": 0,
       "value": " 조건을 삭제하는 동안 오류가 발생했습니다. "
+    },
+    {
+      "type": 1,
+      "value": "error"
+    }
+  ],
+  "ui-licenses.customProperties.config.edit.errorMessage": [
+    {
+      "type": 0,
+      "value": "There was an error editing term: "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "label"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": ". "
     },
     {
       "type": 1,
@@ -135449,6 +135669,12 @@
     {
       "type": 1,
       "value": "value"
+    }
+  ],
+  "ui-service-interaction.numberGenerator.noPermission": [
+    {
+      "type": 0,
+      "value": "You do not have the necessary permissions to use number generator sequences. Please contact your system administrator."
     }
   ],
   "ui-service-interaction.numberGenerator.selectGenerator": [
