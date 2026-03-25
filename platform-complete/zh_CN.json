@@ -77674,6 +77674,12 @@
       "value": "选中此项可指定该渠道监听发送到该渠道的传入文件。取消选中此项将使该渠道处于非激活状态。"
     }
   ],
+  "ui-inventory-import.channels.field.fileInProcess": [
+    {
+      "type": 0,
+      "value": "File currently being processed"
+    }
+  ],
   "ui-inventory-import.channels.field.id": [
     {
       "type": 0,
@@ -77702,6 +77708,12 @@
     {
       "type": 0,
       "value": "名称，应是唯一的，以便用户识别该资源。"
+    }
+  ],
+  "ui-inventory-import.channels.field.queuedFiles": [
+    {
+      "type": 0,
+      "value": "Number of files queued"
     }
   ],
   "ui-inventory-import.channels.field.tag": [

@@ -75925,6 +75925,12 @@
       "value": "Check to specify that the channel should listen for incoming files addressed to it. Leaving this box unchecked will make the channel inactive."
     }
   ],
+  "ui-inventory-import.channels.field.fileInProcess": [
+    {
+      "type": 0,
+      "value": "File currently being processed"
+    }
+  ],
   "ui-inventory-import.channels.field.id": [
     {
       "type": 0,
@@ -75953,6 +75959,12 @@
     {
       "type": 0,
       "value": "A name, which should be unique, for users to identify this resource."
+    }
+  ],
+  "ui-inventory-import.channels.field.queuedFiles": [
+    {
+      "type": 0,
+      "value": "Number of files queued"
     }
   ],
   "ui-inventory-import.channels.field.tag": [
