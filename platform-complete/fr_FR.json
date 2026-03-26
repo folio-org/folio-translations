@@ -102058,6 +102058,40 @@
       "value": "OAI-PMH settings - General"
     }
   ],
+  "ui-oai-pmh.settings.general.oaiServiceIsDisabled": [
+    {
+      "type": 0,
+      "value": "OAI service is "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "disabled"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": ". To affect OAI-PMH features by settings please "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Enable OAI service"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
   "ui-oai-pmh.settings.general.title": [
     {
       "type": 0,
@@ -102080,6 +102114,26 @@
     {
       "type": 0,
       "value": "Définit si le module OAI-PMH est accessible pour le dépôt institutionnel FOLIO."
+    }
+  ],
+  "ui-oai-pmh.settings.general.tooltip.fieldDisabled": [
+    {
+      "type": 0,
+      "value": "To enable this field, select "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Enable OAI service"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "."
     }
   ],
   "ui-oai-pmh.settings.general.tooltip.repositoryName": [
@@ -102134,6 +102188,88 @@
     {
       "type": 0,
       "value": "Logs"
+    }
+  ],
+  "ui-oai-pmh.settings.nonGeneral.tooltip.fieldDisabled": [
+    {
+      "type": 0,
+      "value": "To enable this field, select "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Enable OAI service"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " in the "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "General"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " section."
+    }
+  ],
+  "ui-oai-pmh.settings.other.oaiServiceIsDisabled": [
+    {
+      "type": 0,
+      "value": "OAI service is "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "disabled"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": ". To affect OAI-PMH features by settings please "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Enable OAI service"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " in the "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "General"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " section."
     }
   ],
   "ui-oai-pmh.settings.sets.action.delete": [
