@@ -21251,17 +21251,21 @@
   "ui-agreements.packages.selectAllTooltip": [
     {
       "type": 0,
-      "value": "Select all packages on this page"
+      "value": "Alle Datensätze auf dieser Seite auswählen"
     }
   ],
   "ui-agreements.packages.selectCheckboxLabel": [
     {
       "type": 0,
-      "value": "Select package "
+      "value": "Paket "
     },
     {
       "type": 1,
       "value": "name"
+    },
+    {
+      "type": 0,
+      "value": " auswählen"
     }
   ],
   "ui-agreements.packages.source": [
@@ -34654,13 +34658,13 @@
   "ui-circulation.settings.checkout.customFieldsAtCheckout": [
     {
       "type": 0,
-      "value": "Users custom fields to display at Check out"
+      "value": "Benutzerdefinierte Felder (Personen), die bei Ausleihe angezeigt werden"
     }
   ],
   "ui-circulation.settings.checkout.customFieldsAtCheckout.noCustomFields": [
     {
       "type": 0,
-      "value": "No matching custom fields have been configured"
+      "value": "Keine übereinstimmenden benutzerdefinierten Felder wurden konfiguriert"
     }
   ],
   "ui-circulation.settings.checkout.filterRules": [
@@ -61964,10 +61968,22 @@
       "value": "Benutzerdefinierter Titel angelegt."
     }
   ],
+  "ui-eholdings.titlesList.accessStatusType": [
+    {
+      "type": 0,
+      "value": "Access status type"
+    }
+  ],
   "ui-eholdings.titlesList.customCoverage": [
     {
       "type": 0,
       "value": "Benutzerdefinierte Abdeckung"
+    }
+  ],
+  "ui-eholdings.titlesList.customEmbargo": [
+    {
+      "type": 0,
+      "value": "Custom embargo period"
     }
   ],
   "ui-eholdings.titlesList.hidden": [
@@ -61986,6 +62002,12 @@
     {
       "type": 0,
       "value": "Verwaltete Embargofrist"
+    }
+  ],
+  "ui-eholdings.titlesList.publicationType": [
+    {
+      "type": 0,
+      "value": "Publication type"
     }
   ],
   "ui-eholdings.titlesList.status": [
@@ -67862,7 +67884,7 @@
   "ui-finance.errors.currentFiscalYearNotFound": [
     {
       "type": 0,
-      "value": "No current fiscal year found."
+      "value": "Kein laufendes Haushaltsjahr gefunden."
     }
   ],
   "ui-finance.errors.genericError": [
@@ -67886,7 +67908,7 @@
   "ui-finance.errors.plannedFiscalYearNotFound": [
     {
       "type": 0,
-      "value": "No planned fiscal year found."
+      "value": "Kein geplantes Haushaltsjahr gefunden."
     }
   ],
   "ui-finance.expenseClass.account": [
@@ -68256,7 +68278,7 @@
   "ui-finance.fiscalYear.actions.save.error.invalidFiscalYearCode": [
     {
       "type": 0,
-      "value": "Der Code des Haushaltsjahres muss aus Buchstaben und vier Ziffern bestehen, z.B. HJ2023"
+      "value": "Der Code des Haushaltsjahres muss aus Buchstaben gefolgt von vier Ziffern bestehen, z.B. HJ2020"
     }
   ],
   "ui-finance.fiscalYear.actions.save.success": [
@@ -76014,7 +76036,7 @@
   "ui-inventory-import.button.upload": [
     {
       "type": 0,
-      "value": "Upload"
+      "value": "Hochladen"
     }
   ],
   "ui-inventory-import.channels.column.enabled": [
@@ -76092,7 +76114,7 @@
   "ui-inventory-import.channels.field.fileInProcess": [
     {
       "type": 0,
-      "value": "File currently being processed"
+      "value": "Gerade bearbeitete Datei"
     }
   ],
   "ui-inventory-import.channels.field.id": [
@@ -76128,7 +76150,7 @@
   "ui-inventory-import.channels.field.queuedFiles": [
     {
       "type": 0,
-      "value": "Number of files queued"
+      "value": "Anzahl der Dateien in der Warteschlange"
     }
   ],
   "ui-inventory-import.channels.field.tag": [
@@ -76965,13 +76987,13 @@
   "ui-inventory-import.upload.buttonText": [
     {
       "type": 0,
-      "value": "Or pick a file"
+      "value": "Oder wählen Sie eine Datei aus"
     }
   ],
   "ui-inventory-import.upload.failure": [
     {
       "type": 0,
-      "value": "Could not upload "
+      "value": "Konnte "
     },
     {
       "children": [
@@ -76985,7 +77007,7 @@
     },
     {
       "type": 0,
-      "value": " to channel "
+      "value": " nicht auf Kanal "
     },
     {
       "children": [
@@ -76999,7 +77021,7 @@
     },
     {
       "type": 0,
-      "value": ": HTTP status "
+      "value": " hochladen: HTTP-Status "
     },
     {
       "type": 1,
@@ -77025,14 +77047,10 @@
   "ui-inventory-import.upload.label": [
     {
       "type": 0,
-      "value": "Import files"
+      "value": "Dateien importieren"
     }
   ],
   "ui-inventory-import.upload.success": [
-    {
-      "type": 0,
-      "value": "Uploaded "
-    },
     {
       "children": [
         {
@@ -77045,7 +77063,7 @@
     },
     {
       "type": 0,
-      "value": " to channel "
+      "value": " zum Kanal "
     },
     {
       "children": [
@@ -77056,12 +77074,16 @@
       ],
       "type": 8,
       "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " hochgeladen"
     }
   ],
   "ui-inventory-import.upload.title": [
     {
       "type": 0,
-      "value": "Drag files here to import"
+      "value": "Dateien zum Importieren hierhin ziehen"
     }
   ],
   "ui-inventory-import.validXSLT": [
@@ -90687,7 +90709,7 @@
   "ui-licenses.customProperties.config.create.errorMessage": [
     {
       "type": 0,
-      "value": "There was an error saving term: "
+      "value": "Fehler beim Speichern der Bedingung: "
     },
     {
       "children": [
@@ -90767,7 +90789,7 @@
   "ui-licenses.customProperties.config.edit.errorMessage": [
     {
       "type": 0,
-      "value": "There was an error editing term: "
+      "value": "Fehler beim Bearbeiten der Bedingung: "
     },
     {
       "children": [
@@ -131658,7 +131680,7 @@
   "ui-requests.requestMeta.anonymized": [
     {
       "type": 0,
-      "value": "Anonymized"
+      "value": "Anonymisiert"
     }
   ],
   "ui-requests.requestMeta.detailLabel": [

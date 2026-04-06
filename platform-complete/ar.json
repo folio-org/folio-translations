@@ -20283,13 +20283,13 @@
   "ui-agreements.gokbSearch.searchIndex.isbn": [
     {
       "type": 0,
-      "value": "PISBN"
+      "value": "ISBN"
     }
   ],
   "ui-agreements.gokbSearch.searchIndex.issn": [
     {
       "type": 0,
-      "value": "PISSN"
+      "value": "ISSN"
     }
   ],
   "ui-agreements.gokbSearch.searchIndex.keyword": [
@@ -61977,10 +61977,22 @@
       "value": "تم إنشاء العنوان المخصص"
     }
   ],
+  "ui-eholdings.titlesList.accessStatusType": [
+    {
+      "type": 0,
+      "value": "Access status type"
+    }
+  ],
   "ui-eholdings.titlesList.customCoverage": [
     {
       "type": 0,
       "value": "تغطية مخصصة"
+    }
+  ],
+  "ui-eholdings.titlesList.customEmbargo": [
+    {
+      "type": 0,
+      "value": "Custom embargo period"
     }
   ],
   "ui-eholdings.titlesList.hidden": [
@@ -61999,6 +62011,12 @@
     {
       "type": 0,
       "value": "إدارة فترة الحظر"
+    }
+  ],
+  "ui-eholdings.titlesList.publicationType": [
+    {
+      "type": 0,
+      "value": "Publication type"
     }
   ],
   "ui-eholdings.titlesList.status": [

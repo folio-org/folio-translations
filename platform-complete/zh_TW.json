@@ -20273,13 +20273,13 @@
   "ui-agreements.gokbSearch.searchIndex.isbn": [
     {
       "type": 0,
-      "value": "PISBN"
+      "value": "ISBN"
     }
   ],
   "ui-agreements.gokbSearch.searchIndex.issn": [
     {
       "type": 0,
-      "value": "PISSN"
+      "value": "ISSN"
     }
   ],
   "ui-agreements.gokbSearch.searchIndex.keyword": [
@@ -62386,10 +62386,22 @@
       "value": "自訂題名已經建立"
     }
   ],
+  "ui-eholdings.titlesList.accessStatusType": [
+    {
+      "type": 0,
+      "value": "Access status type"
+    }
+  ],
   "ui-eholdings.titlesList.customCoverage": [
     {
       "type": 0,
       "value": "Custom coverage"
+    }
+  ],
+  "ui-eholdings.titlesList.customEmbargo": [
+    {
+      "type": 0,
+      "value": "Custom embargo period"
     }
   ],
   "ui-eholdings.titlesList.hidden": [
@@ -62408,6 +62420,12 @@
     {
       "type": 0,
       "value": "Managed embargo period"
+    }
+  ],
+  "ui-eholdings.titlesList.publicationType": [
+    {
+      "type": 0,
+      "value": "Publication type"
     }
   ],
   "ui-eholdings.titlesList.status": [

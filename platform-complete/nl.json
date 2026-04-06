@@ -17393,7 +17393,7 @@
   "ui-agreements.customProperties.config.create.errorMessage": [
     {
       "type": 0,
-      "value": "There was an error saving supplementary property: "
+      "value": "There was an fout saving supplementary property: "
     },
     {
       "children": [
@@ -17473,7 +17473,7 @@
   "ui-agreements.customProperties.config.edit.errorMessage": [
     {
       "type": 0,
-      "value": "There was an error editing supplementary property: "
+      "value": "There was an fout editing supplementary property: "
     },
     {
       "children": [
@@ -18770,7 +18770,7 @@
   "ui-agreements.eresources.identifiers": [
     {
       "type": 0,
-      "value": "Identifiers"
+      "value": "Identificatiekenmerken"
     }
   ],
   "ui-agreements.eresources.identifiers.doi": [
@@ -18794,13 +18794,13 @@
   "ui-agreements.eresources.identifiers.ebp-id-pkg": [
     {
       "type": 0,
-      "value": "eBookPool (Package)"
+      "value": "eBookPool (pakket)"
     }
   ],
   "ui-agreements.eresources.identifiers.eisbn": [
     {
       "type": 0,
-      "value": "ISBN (Online)"
+      "value": "ISBN (online)"
     }
   ],
   "ui-agreements.eresources.identifiers.eissn": [
@@ -18860,13 +18860,13 @@
   "ui-agreements.eresources.identifiers.resourceIdentifier": [
     {
       "type": 0,
-      "value": "Resource identifier"
+      "value": "Identificatiekenmerk van bron"
     }
   ],
   "ui-agreements.eresources.identifiers.resourceIdentifierType": [
     {
       "type": 0,
-      "value": "Resource identifier type"
+      "value": "Type bronidentificatiekenmerk"
     }
   ],
   "ui-agreements.eresources.identifiers.zdb": [
@@ -18878,7 +18878,7 @@
   "ui-agreements.eresources.identifiers.zdb-pkg": [
     {
       "type": 0,
-      "value": "ZDB-ID (Package)"
+      "value": "ZDB-ID (Verpakking)"
     }
   ],
   "ui-agreements.eresources.isPackage": [
@@ -19352,13 +19352,13 @@
   "ui-agreements.eresources.workIdentifier": [
     {
       "type": 0,
-      "value": "Work identifier"
+      "value": "Identificatiekenmerk werk"
     }
   ],
   "ui-agreements.eresources.workIdentifierType": [
     {
       "type": 0,
-      "value": "Work identifier type"
+      "value": "Type werkidentificatiekenmerk"
     }
   ],
   "ui-agreements.eresourcesCovered.exportAs": [
@@ -20839,13 +20839,13 @@
   "ui-agreements.packages.selectAllTooltip": [
     {
       "type": 0,
-      "value": "Select all packages on this page"
+      "value": "Selecteer alle pakketten op deze pagina"
     }
   ],
   "ui-agreements.packages.selectCheckboxLabel": [
     {
       "type": 0,
-      "value": "Select package "
+      "value": "Pakket selecteren "
     },
     {
       "type": 1,
@@ -56507,10 +56507,22 @@
       "value": "Maatwerktitel gemaakt."
     }
   ],
+  "ui-eholdings.titlesList.accessStatusType": [
+    {
+      "type": 0,
+      "value": "Access status type"
+    }
+  ],
   "ui-eholdings.titlesList.customCoverage": [
     {
       "type": 0,
       "value": "Dekkingsinformatie op maat"
+    }
+  ],
+  "ui-eholdings.titlesList.customEmbargo": [
+    {
+      "type": 0,
+      "value": "Custom embargo period"
     }
   ],
   "ui-eholdings.titlesList.hidden": [
@@ -56529,6 +56541,12 @@
     {
       "type": 0,
       "value": "Embargo periode Beheren"
+    }
+  ],
+  "ui-eholdings.titlesList.publicationType": [
+    {
+      "type": 0,
+      "value": "Publication type"
     }
   ],
   "ui-eholdings.titlesList.status": [
@@ -60745,13 +60763,13 @@
   "ui-erm-usage.vendorInfo.serviceUrl.info": [
     {
       "type": 0,
-      "value": "The URL is usually listed on the provider’s backend information pages."
+      "value": "De URL wordt meestal vermeld op de backend informatiepagina's van de Leverancier."
     }
   ],
   "ui-erm-usage.vendorInfo.serviceUrl.note": [
     {
       "type": 0,
-      "value": "Note: Only enter the base URL, not the complete URL. For example, if the provider lists the URL "
+      "value": "Opmerking: Voer alleen de basis URL in, niet de volledige URL. Als de provider bijvoorbeeld de URL "
     },
     {
       "type": 1,
@@ -60759,7 +60777,7 @@
     },
     {
       "type": 0,
-      "value": ", only enter the part before (and excluding) reports: "
+      "value": "Voer alleen het gedeelte vóór (en exclusief) Rapporten in: "
     },
     {
       "type": 1,
@@ -60767,7 +60785,7 @@
     },
     {
       "type": 0,
-      "value": ". Everything else is added by the harvester."
+      "value": ". Al het andere wordt toegevoegd door de Harvester."
     }
   ],
   "ui-export-manager.exportJob": [
@@ -70187,7 +70205,7 @@
   "ui-inventory-import.button.upload": [
     {
       "type": 0,
-      "value": "Upload"
+      "value": "Uploaden"
     }
   ],
   "ui-inventory-import.channels.column.enabled": [
@@ -70265,7 +70283,7 @@
   "ui-inventory-import.channels.field.fileInProcess": [
     {
       "type": 0,
-      "value": "File currently being processed"
+      "value": "Bestand in behandeling"
     }
   ],
   "ui-inventory-import.channels.field.id": [
@@ -70301,7 +70319,7 @@
   "ui-inventory-import.channels.field.queuedFiles": [
     {
       "type": 0,
-      "value": "Number of files queued"
+      "value": "Aantal bestanden in de wachtrij"
     }
   ],
   "ui-inventory-import.channels.field.tag": [
@@ -70697,7 +70715,7 @@
   "ui-inventory-import.no-title": [
     {
       "type": 0,
-      "value": "[No title]"
+      "value": "[Geen titel]."
     }
   ],
   "ui-inventory-import.no-value": [
@@ -70709,7 +70727,7 @@
   "ui-inventory-import.op.delete.completed": [
     {
       "type": 0,
-      "value": "Deleted channel "
+      "value": "Verwijderde kanaal "
     },
     {
       "children": [
@@ -70725,7 +70743,7 @@
   "ui-inventory-import.op.delete.confirm": [
     {
       "type": 0,
-      "value": "Really delete channel?"
+      "value": "Echt kanaal verwijderen?"
     }
   ],
   "ui-inventory-import.pause.failure": [
@@ -70771,61 +70789,61 @@
   "ui-inventory-import.permission.all": [
     {
       "type": 0,
-      "value": "Inventory import: All permissions"
+      "value": "Collectiebezit importeren: Alle rechten"
     }
   ],
   "ui-inventory-import.permission.channels.delete": [
     {
       "type": 0,
-      "value": "Inventory import: View, edit, create, delete channels"
+      "value": "Collectiebezit importeren: Kanalen bekijken, bewerken, aanmaken, verwijderen"
     }
   ],
   "ui-inventory-import.permission.channels.get": [
     {
       "type": 0,
-      "value": "Inventory import: View channels"
+      "value": "Collectiebezit importeren: Kanalen bekijken"
     }
   ],
   "ui-inventory-import.permission.channels.post": [
     {
       "type": 0,
-      "value": "Inventory import: View, edit, create channels"
+      "value": "Collectiebezit importeren: Kanalen bekijken, bewerken, aanmaken"
     }
   ],
   "ui-inventory-import.permission.channels.put": [
     {
       "type": 0,
-      "value": "Inventory import: View, edit channels"
+      "value": "Collectiebezit importeren: Kanalen bekijken, bewerken"
     }
   ],
   "ui-inventory-import.permission.jobs-and-failed-records.view": [
     {
       "type": 0,
-      "value": "Inventory import: View jobs and failed records"
+      "value": "Collectiebezit importeren: Taken en mislukte records bekijken"
     }
   ],
   "ui-inventory-import.permission.settings.view": [
     {
       "type": 0,
-      "value": "Inventory import (Settings): View transformation pipelines, transformation steps, channels and log-file deletion threshold"
+      "value": "Collectiebezit importeren (Instellingen): Transformatiepijplijnen, transformatiestappen, kanalen en drempel voor het verwijderen van logbestanden bekijken"
     }
   ],
   "ui-inventory-import.permission.settings.view-edit": [
     {
       "type": 0,
-      "value": "Inventory import (Settings): View, edit transformation pipelines, transformation steps, channels and log-file deletion threshold"
+      "value": "Collectiebezit importeren (Instellingen): Transformatiepijplijnen, transformatiestappen, kanalen en drempel voor het verwijderen van logbestanden weergeven, bewerken"
     }
   ],
   "ui-inventory-import.permission.settings.view-edit-create": [
     {
       "type": 0,
-      "value": "Inventory import (Settings): View, edit, create transformation pipelines, transformation steps and channels"
+      "value": "Collectiebezit importeren (Instellingen): Transformatiepijplijnen, transformatiestappen en kanalen bekijken, bewerken, aanmaken"
     }
   ],
   "ui-inventory-import.permission.settings.view-edit-create-delete": [
     {
       "type": 0,
-      "value": "Inventory import (Settings): View, edit, create, delete transformation pipelines, transformation steps and channels"
+      "value": "Collectiebezit importeren (Instellingen): Transformatiepijplijnen, transformatiestappen en kanalen bekijken, bewerken, aanmaken, verwijderen"
     }
   ],
   "ui-inventory-import.pipeline.field.description": [
@@ -71134,16 +71152,20 @@
   "ui-inventory-import.upload.buttonText": [
     {
       "type": 0,
-      "value": "Or pick a file"
+      "value": "Of kies een bestand"
     }
   ],
   "ui-inventory-import.upload.failure": [
     {
       "type": 0,
-      "value": "Could not upload "
+      "value": "Kon "
     },
     {
       "children": [
+        {
+          "type": 0,
+          "value": " niet Uploaden"
+        },
         {
           "type": 1,
           "value": "fileName"
@@ -71154,7 +71176,7 @@
     },
     {
       "type": 0,
-      "value": " to channel "
+      "value": " naar kanaal "
     },
     {
       "children": [
@@ -71168,7 +71190,7 @@
     },
     {
       "type": 0,
-      "value": ": HTTP status "
+      "value": ": HTTP-status "
     },
     {
       "type": 1,
@@ -71194,16 +71216,20 @@
   "ui-inventory-import.upload.label": [
     {
       "type": 0,
-      "value": "Import files"
+      "value": "Bestanden importeren"
     }
   ],
   "ui-inventory-import.upload.success": [
     {
       "type": 0,
-      "value": "Uploaded "
+      "value": "Uploaden "
     },
     {
       "children": [
+        {
+          "type": 0,
+          "value": "."
+        },
         {
           "type": 1,
           "value": "fileName"
@@ -71214,7 +71240,7 @@
     },
     {
       "type": 0,
-      "value": " to channel "
+      "value": " naar kanaal "
     },
     {
       "children": [
@@ -71230,7 +71256,7 @@
   "ui-inventory-import.upload.title": [
     {
       "type": 0,
-      "value": "Drag files here to import"
+      "value": "Sleep bestanden hierheen om te importeren"
     }
   ],
   "ui-inventory-import.validXSLT": [
@@ -79381,10 +79407,14 @@
   "ui-invoice.errors.budgetRestrictedEncumbranceError": [
     {
       "type": 0,
-      "value": "Fund distribution amount exceeds the allowable encumbrance amount in the "
+      "value": "Het distributiebedrag van het Fonds is hoger dan het toegestane bedrag voor de Budgetreservering in de "
     },
     {
       "children": [
+        {
+          "type": 0,
+          "value": "."
+        },
         {
           "type": 1,
           "value": "fundCode"
@@ -79395,16 +79425,20 @@
     },
     {
       "type": 0,
-      "value": " fund."
+      "value": " fonds."
     }
   ],
   "ui-invoice.errors.budgetRestrictedExpendituresError": [
     {
       "type": 0,
-      "value": "Fund distribution amount exceeds the allowable expenditure amount in the "
+      "value": "Het bedrag van de fondsverdeling is hoger dan het toegestane uitgavenbedrag in de "
     },
     {
       "children": [
+        {
+          "type": 0,
+          "value": "."
+        },
         {
           "type": 1,
           "value": "fundCode"
@@ -79415,7 +79449,7 @@
     },
     {
       "type": 0,
-      "value": " fund."
+      "value": " fonds."
     }
   ],
   "ui-invoice.errors.cannotConvertAmountInvalidCurrency": [
@@ -79999,7 +80033,7 @@
   "ui-invoice.invoice.actions.approve.error.pendingPaymentUpdateError": [
     {
       "type": 0,
-      "value": "Invoice cannot be approved because pending payment update has failed"
+      "value": "Factuur kan niet worden goedgekeurd omdat In afwachting van betaling Update is mislukt"
     }
   ],
   "ui-invoice.invoice.actions.approve.error.poLineUpdateFailure": [
@@ -84197,7 +84231,7 @@
   "ui-licenses.customProperties.config.create.errorMessage": [
     {
       "type": 0,
-      "value": "There was an error saving term: "
+      "value": "There was an fout saving term: "
     },
     {
       "children": [
@@ -84277,7 +84311,7 @@
   "ui-licenses.customProperties.config.edit.errorMessage": [
     {
       "type": 0,
-      "value": "There was an error editing term: "
+      "value": "There was an fout editing term: "
     },
     {
       "children": [
@@ -118017,7 +118051,7 @@
   "ui-receiving.errors.fundsNotFound": [
     {
       "type": 0,
-      "value": "One or more funds could not be loaded. The fund(s) may have been deleted or you may not have permission to view the associated fund(s)."
+      "value": "Een of meer fondsen konden niet worden ingevoerd. De fondsen zijn mogelijk verwijderd of u hebt geen toestemming om de bijbehorende fondsen te bekijken."
     }
   ],
   "ui-receiving.errors.holdingsByIdNotFoundError": [
@@ -118133,7 +118167,7 @@
   "ui-receiving.errors.polNumberInvalidOrTooLong": [
     {
       "type": 0,
-      "value": "POL number is invalid or bigger than "
+      "value": "RPO-nummer is ongeldig of groter dan "
     },
     {
       "style": null,
@@ -118142,7 +118176,7 @@
     },
     {
       "type": 0,
-      "value": " alphanumeric characters."
+      "value": " alfanumerieke tekens."
     }
   ],
   "ui-receiving.errors.receivingProcessEncumbrancesError": [

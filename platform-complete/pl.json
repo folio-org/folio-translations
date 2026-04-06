@@ -41637,13 +41637,13 @@
   "ui-courses.accordion.courseFormCrosslisting": [
     {
       "type": 0,
-      "value": "Informacje dotyczące zestawień krzyżowych"
+      "value": "Informacje o zajęciach łączonych"
     }
   ],
   "ui-courses.accordion.courseFormInfo": [
     {
       "type": 0,
-      "value": "Podstawowe informacje o kursie"
+      "value": "Podstawowe informacje o zajęciach"
     }
   ],
   "ui-courses.accordion.courseFormInfo.help": [
@@ -41667,7 +41667,7 @@
   "ui-courses.accordion.courseFormListing": [
     {
       "type": 0,
-      "value": "Informacje o liście zajęć"
+      "value": "Informacje o zajęciach"
     }
   ],
   "ui-courses.accordion.courseFormListing.help": [
@@ -41679,7 +41679,7 @@
   "ui-courses.accordion.crosslistings": [
     {
       "type": 0,
-      "value": "Kursy z listy krzyżowej"
+      "value": "Zajęcia łączone"
     }
   ],
   "ui-courses.accordion.crosslistings.help": [
@@ -41911,7 +41911,7 @@
   "ui-courses.button.crosslist": [
     {
       "type": 0,
-      "value": "Lista krzyżowa"
+      "value": "Zajęcia łączone"
     }
   ],
   "ui-courses.button.delete": [
@@ -42163,13 +42163,13 @@
   "ui-courses.crosslist": [
     {
       "type": 0,
-      "value": "Kurs z listy krzyżowej"
+      "value": "Zajęcia łączone"
     }
   ],
   "ui-courses.crosslistCourse": [
     {
       "type": 0,
-      "value": "Nowy kurs z listy"
+      "value": "Nowe zajęcia w zestawieniu"
     }
   ],
   "ui-courses.cv.cannotDeleteTermHeader": [
@@ -42265,7 +42265,7 @@
   "ui-courses.duplicateCourse.duplicateCrosslistedCourses": [
     {
       "type": 0,
-      "value": "Powiel wszystkie kursy z listy krzyżowej"
+      "value": "Powiel wszystkie zajęcia łączone"
     }
   ],
   "ui-courses.duplicateCourse.duplicatedCourseIndicator": [
@@ -42949,7 +42949,7 @@
   "ui-courses.settings.display.duplicateCrosslistedCourses": [
     {
       "type": 0,
-      "value": "Powiel wszystkie zajęcia powiązane"
+      "value": "Powiel wszystkie zajęcia łączone"
     }
   ],
   "ui-courses.settings.display.duplicateCrosslistedCourses.description": [
@@ -58627,7 +58627,7 @@
   "ui-eholdings.exportPackageResources.fields.title.managedCoverageDates": [
     {
       "type": 0,
-      "value": "Managed coverage dates"
+      "value": "Zarządzane daty zakresu dostępu"
     }
   ],
   "ui-eholdings.exportPackageResources.fields.title.managedEmbargo": [
@@ -59179,13 +59179,13 @@
   "ui-eholdings.label.create.package": [
     {
       "type": 0,
-      "value": "Nowy pakiet niestandardowy"
+      "value": "Nowy niestandardowy pakiet"
     }
   ],
   "ui-eholdings.label.create.title": [
     {
       "type": 0,
-      "value": "Nowy tytuł niestandardowy"
+      "value": "Nowy niestandardowy tytuł"
     }
   ],
   "ui-eholdings.label.custom.coverageDates": [
@@ -59343,7 +59343,7 @@
   "ui-eholdings.label.managed.coverageDates": [
     {
       "type": 0,
-      "value": "Zarządzane daty pokrycia"
+      "value": "Zarządzane daty zakresu dostępu"
     }
   ],
   "ui-eholdings.label.managed.embargoPeriod": [
@@ -59907,7 +59907,7 @@
   "ui-eholdings.package.create.custom": [
     {
       "type": 0,
-      "value": "Nowy pakiet niestandardowy"
+      "value": "Nowy niestandardowy pakiet"
     }
   ],
   "ui-eholdings.package.customCoverage.notSelected": [
@@ -60483,7 +60483,7 @@
   "ui-eholdings.resource.actionMenu.exportToCSV": [
     {
       "type": 0,
-      "value": "Export title package (CSV)"
+      "value": "Eksportuj tytuł pakietu (CSV)"
     }
   ],
   "ui-eholdings.resource.actionMenu.removeHolding": [
@@ -61862,7 +61862,7 @@
   "ui-eholdings.title.create.paneTitle": [
     {
       "type": 0,
-      "value": "Nowy tytuł niestandardowy"
+      "value": "Nowy niestandardowy tytuł"
     }
   ],
   "ui-eholdings.title.description": [
@@ -61985,10 +61985,22 @@
       "value": "Utworzono tytuł niestandardowy."
     }
   ],
+  "ui-eholdings.titlesList.accessStatusType": [
+    {
+      "type": 0,
+      "value": "Access status type"
+    }
+  ],
   "ui-eholdings.titlesList.customCoverage": [
     {
       "type": 0,
       "value": "Niestandardowe pokrycie"
+    }
+  ],
+  "ui-eholdings.titlesList.customEmbargo": [
+    {
+      "type": 0,
+      "value": "Custom embargo period"
     }
   ],
   "ui-eholdings.titlesList.hidden": [
@@ -62007,6 +62019,12 @@
     {
       "type": 0,
       "value": "Zarządzany okres embarga"
+    }
+  ],
+  "ui-eholdings.titlesList.publicationType": [
+    {
+      "type": 0,
+      "value": "Publication type"
     }
   ],
   "ui-eholdings.titlesList.status": [

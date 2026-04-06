@@ -17598,7 +17598,7 @@
   "ui-agreements.customProperties.config.create.errorMessage": [
     {
       "type": 0,
-      "value": "There was an error saving supplementary property: "
+      "value": "Došlo k chybě při ukládání doplňkové vlastnosti: "
     },
     {
       "children": [
@@ -17678,7 +17678,7 @@
   "ui-agreements.customProperties.config.edit.errorMessage": [
     {
       "type": 0,
-      "value": "There was an error editing supplementary property: "
+      "value": "Při úpravě doplňkové vlastnosti: "
     },
     {
       "children": [
@@ -17692,7 +17692,7 @@
     },
     {
       "type": 0,
-      "value": ". "
+      "value": " došlo k chybě. "
     },
     {
       "type": 1,
@@ -19113,7 +19113,7 @@
   "ui-agreements.eresources.identifiers.ebp-id-pkg": [
     {
       "type": 0,
-      "value": "eBookPool (Package)"
+      "value": "eBookPool (balíček)"
     }
   ],
   "ui-agreements.eresources.identifiers.eisbn": [
@@ -19197,7 +19197,7 @@
   "ui-agreements.eresources.identifiers.zdb-pkg": [
     {
       "type": 0,
-      "value": "ZDB-ID (Package)"
+      "value": "ZDB-ID (balíček)"
     }
   ],
   "ui-agreements.eresources.isPackage": [
@@ -19671,13 +19671,13 @@
   "ui-agreements.eresources.workIdentifier": [
     {
       "type": 0,
-      "value": "Work identifier"
+      "value": "Identifikátor díla"
     }
   ],
   "ui-agreements.eresources.workIdentifierType": [
     {
       "type": 0,
-      "value": "Work identifier type"
+      "value": "Typ identifikátoru díla"
     }
   ],
   "ui-agreements.eresourcesCovered.exportAs": [
@@ -20237,13 +20237,13 @@
   "ui-agreements.gokbSearch.searchIndex.isbn": [
     {
       "type": 0,
-      "value": "PISBN"
+      "value": "ISBN"
     }
   ],
   "ui-agreements.gokbSearch.searchIndex.issn": [
     {
       "type": 0,
-      "value": "PISSN"
+      "value": "ISSN"
     }
   ],
   "ui-agreements.gokbSearch.searchIndex.keyword": [
@@ -21152,13 +21152,13 @@
   "ui-agreements.packages.selectAllTooltip": [
     {
       "type": 0,
-      "value": "Select all packages on this page"
+      "value": "Vybat všechny balíčky na této stránce"
     }
   ],
   "ui-agreements.packages.selectCheckboxLabel": [
     {
       "type": 0,
-      "value": "Select package "
+      "value": "Vybrat balíček "
     },
     {
       "type": 1,
@@ -61932,10 +61932,22 @@
       "value": "Vlastní název vytvořen."
     }
   ],
+  "ui-eholdings.titlesList.accessStatusType": [
+    {
+      "type": 0,
+      "value": "Access status type"
+    }
+  ],
   "ui-eholdings.titlesList.customCoverage": [
     {
       "type": 0,
       "value": "Vlastní data pokrytí"
+    }
+  ],
+  "ui-eholdings.titlesList.customEmbargo": [
+    {
+      "type": 0,
+      "value": "Custom embargo period"
     }
   ],
   "ui-eholdings.titlesList.hidden": [
@@ -61954,6 +61966,12 @@
     {
       "type": 0,
       "value": "Období řízeného embarga"
+    }
+  ],
+  "ui-eholdings.titlesList.publicationType": [
+    {
+      "type": 0,
+      "value": "Publication type"
     }
   ],
   "ui-eholdings.titlesList.status": [
@@ -75962,7 +75980,7 @@
   "ui-inventory-import.button.upload": [
     {
       "type": 0,
-      "value": "Upload"
+      "value": "Nahrát"
     }
   ],
   "ui-inventory-import.channels.column.enabled": [
@@ -76040,7 +76058,7 @@
   "ui-inventory-import.channels.field.fileInProcess": [
     {
       "type": 0,
-      "value": "File currently being processed"
+      "value": "Soubor se aktuálně zpracovává"
     }
   ],
   "ui-inventory-import.channels.field.id": [
@@ -76076,7 +76094,7 @@
   "ui-inventory-import.channels.field.queuedFiles": [
     {
       "type": 0,
-      "value": "Number of files queued"
+      "value": "Počet souborů ve frontě"
     }
   ],
   "ui-inventory-import.channels.field.tag": [
@@ -76484,7 +76502,7 @@
   "ui-inventory-import.op.delete.completed": [
     {
       "type": 0,
-      "value": "Deleted channel "
+      "value": "Kanál "
     },
     {
       "children": [
@@ -76495,12 +76513,16 @@
       ],
       "type": 8,
       "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " smazán"
     }
   ],
   "ui-inventory-import.op.delete.confirm": [
     {
       "type": 0,
-      "value": "Really delete channel?"
+      "value": "Opravdu smazat kanál?"
     }
   ],
   "ui-inventory-import.pause.failure": [
@@ -76909,13 +76931,13 @@
   "ui-inventory-import.upload.buttonText": [
     {
       "type": 0,
-      "value": "Or pick a file"
+      "value": "Nebo vyberte soubor"
     }
   ],
   "ui-inventory-import.upload.failure": [
     {
       "type": 0,
-      "value": "Could not upload "
+      "value": "Nepodařilo se nahrát "
     },
     {
       "children": [
@@ -76929,7 +76951,7 @@
     },
     {
       "type": 0,
-      "value": " to channel "
+      "value": " do kanálu "
     },
     {
       "children": [
@@ -76943,7 +76965,7 @@
     },
     {
       "type": 0,
-      "value": ": HTTP status "
+      "value": ": Stav HTTP "
     },
     {
       "type": 1,
@@ -76969,14 +76991,10 @@
   "ui-inventory-import.upload.label": [
     {
       "type": 0,
-      "value": "Import files"
+      "value": "Importovat soubory"
     }
   ],
   "ui-inventory-import.upload.success": [
-    {
-      "type": 0,
-      "value": "Uploaded "
-    },
     {
       "children": [
         {
@@ -76989,7 +77007,7 @@
     },
     {
       "type": 0,
-      "value": " to channel "
+      "value": " nahrán do kanálu "
     },
     {
       "children": [
@@ -77005,7 +77023,7 @@
   "ui-inventory-import.upload.title": [
     {
       "type": 0,
-      "value": "Drag files here to import"
+      "value": "Přetáhněte sem soubory pro import"
     }
   ],
   "ui-inventory-import.validXSLT": [
@@ -85669,7 +85687,7 @@
   "ui-invoice.errors.budgetRestrictedEncumbranceError": [
     {
       "type": 0,
-      "value": "Fund distribution amount exceeds the allowable encumbrance amount in the "
+      "value": "Částka pro rozdělení fondu převyšuje přípustnou výši věcného břemene ve fondu "
     },
     {
       "children": [
@@ -85683,13 +85701,13 @@
     },
     {
       "type": 0,
-      "value": " fund."
+      "value": "."
     }
   ],
   "ui-invoice.errors.budgetRestrictedExpendituresError": [
     {
       "type": 0,
-      "value": "Fund distribution amount exceeds the allowable expenditure amount in the "
+      "value": "Částka pro rozdělení fondu převyšuje přípustnou výši výdajů ve fondu "
     },
     {
       "children": [
@@ -85703,7 +85721,7 @@
     },
     {
       "type": 0,
-      "value": " fund."
+      "value": "."
     }
   ],
   "ui-invoice.errors.cannotConvertAmountInvalidCurrency": [
@@ -86291,7 +86309,7 @@
   "ui-invoice.invoice.actions.approve.error.pendingPaymentUpdateError": [
     {
       "type": 0,
-      "value": "Invoice cannot be approved because pending payment update has failed"
+      "value": "Fakturu nelze schválit, protože aktualizace čekající platby selhala."
     }
   ],
   "ui-invoice.invoice.actions.approve.error.poLineUpdateFailure": [
@@ -90610,7 +90628,7 @@
   "ui-licenses.customProperties.config.create.errorMessage": [
     {
       "type": 0,
-      "value": "There was an error saving term: "
+      "value": "Při ukládání termínu došlo k chybě: "
     },
     {
       "children": [
@@ -90690,7 +90708,7 @@
   "ui-licenses.customProperties.config.edit.errorMessage": [
     {
       "type": 0,
-      "value": "There was an error editing term: "
+      "value": "Při úpravě výrazu došlo k chybě: "
     },
     {
       "children": [
