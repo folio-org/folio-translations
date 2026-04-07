@@ -9840,6 +9840,12 @@
       "value": "Items"
     }
   ],
+  "stripes-data-transfer-components.recordTypes.linkedData": [
+    {
+      "type": 0,
+      "value": "Linked data"
+    }
+  ],
   "stripes-data-transfer-components.recordTypes.marc-auth": [
     {
       "type": 0,
@@ -78625,6 +78631,12 @@
       "value": "Edit resource in Linked data editor"
     }
   ],
+  "ui-inventory.editInMarigold": [
+    {
+      "type": 0,
+      "value": "Edit resource in Marigold"
+    }
+  ],
   "ui-inventory.editInstance": [
     {
       "type": 0,
@@ -80847,7 +80859,7 @@
   "ui-inventory.ld.label": [
     {
       "type": 0,
-      "value": "Linked data editor"
+      "value": "Marigold"
     }
   ],
   "ui-inventory.linkText": [
@@ -101959,7 +101971,7 @@
   "ui-oai-pmh.settings.logs.head": [
     {
       "type": 0,
-      "value": "Logs are available for completed harvests and kept for 30 days. Time in UTC."
+      "value": "Logs are available for completed harvests and kept for 30 days based on UTC time. The time displayed in the 'Last update' column is based on the time zone selected in tenant settings."
     }
   ],
   "ui-oai-pmh.settings.logs.manager": [
@@ -109198,6 +109210,21 @@
     {
       "type": 0,
       "value": "Suffixes"
+    }
+  ],
+  "ui-orders.settings.poNumber.validation.prefixOrSuffixPatternMismatch": [
+    {
+      "type": 0,
+      "value": "Name must be less than "
+    },
+    {
+      "style": null,
+      "type": 2,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": " alphanumeric characters"
     }
   ],
   "ui-orders.settings.polinesLimit": [
