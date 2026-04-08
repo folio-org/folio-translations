@@ -117823,6 +117823,24 @@
       "value": "条件将按顺序评估，并使用第一个匹配的转账账户。如果没有符合条件，则将使用“否则”下列出的账户。"
     }
   ],
+  "ui-plugin-bursar-export.bursarExports.transfer.dryRunCheckbox": [
+    {
+      "type": 0,
+      "value": "Enable testing mode"
+    }
+  ],
+  "ui-plugin-bursar-export.bursarExports.transfer.dryRunDescription": [
+    {
+      "type": 0,
+      "value": "When enabled, the export will be generated and processed as usual, however, accounts will not be transferred. This allows you to verify that your criteria are properly configured before performing actual transfers."
+    }
+  ],
+  "ui-plugin-bursar-export.bursarExports.transfer.dryRunHeader": [
+    {
+      "type": 0,
+      "value": "Testing mode"
+    }
+  ],
   "ui-plugin-bursar-export.bursarExports.transfer.owner": [
     {
       "type": 0,
@@ -152782,7 +152800,7 @@
   "ui-users.userSearch": [
     {
       "type": 0,
-      "value": "用户搜索"
+      "value": "User search"
     }
   ],
   "ui-users.userSearchResults": [

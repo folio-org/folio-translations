@@ -114794,6 +114794,24 @@
       "value": "Podmínky budou vyhodnoceny v pořadí, přičemž se použije první porovnaný převodní účet. Pokud nejsou splněny žádné podmínky, použije se účet uvedený v části \"jinak\"."
     }
   ],
+  "ui-plugin-bursar-export.bursarExports.transfer.dryRunCheckbox": [
+    {
+      "type": 0,
+      "value": "Enable testing mode"
+    }
+  ],
+  "ui-plugin-bursar-export.bursarExports.transfer.dryRunDescription": [
+    {
+      "type": 0,
+      "value": "When enabled, the export will be generated and processed as usual, however, accounts will not be transferred. This allows you to verify that your criteria are properly configured before performing actual transfers."
+    }
+  ],
+  "ui-plugin-bursar-export.bursarExports.transfer.dryRunHeader": [
+    {
+      "type": 0,
+      "value": "Testing mode"
+    }
+  ],
   "ui-plugin-bursar-export.bursarExports.transfer.owner": [
     {
       "type": 0,
@@ -148799,7 +148817,7 @@
   "ui-users.userSearch": [
     {
       "type": 0,
-      "value": "Vyhledávání uživatelů"
+      "value": "User search"
     }
   ],
   "ui-users.userSearchResults": [

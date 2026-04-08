@@ -114563,6 +114563,24 @@
       "value": "Conditions will be evaluated in order, with the first matched transfer account being used. If no conditions are matched, the account listed under “otherwise” will be used."
     }
   ],
+  "ui-plugin-bursar-export.bursarExports.transfer.dryRunCheckbox": [
+    {
+      "type": 0,
+      "value": "Enable testing mode"
+    }
+  ],
+  "ui-plugin-bursar-export.bursarExports.transfer.dryRunDescription": [
+    {
+      "type": 0,
+      "value": "When enabled, the export will be generated and processed as usual, however, accounts will not be transferred. This allows you to verify that your criteria are properly configured before performing actual transfers."
+    }
+  ],
+  "ui-plugin-bursar-export.bursarExports.transfer.dryRunHeader": [
+    {
+      "type": 0,
+      "value": "Testing mode"
+    }
+  ],
   "ui-plugin-bursar-export.bursarExports.transfer.owner": [
     {
       "type": 0,
