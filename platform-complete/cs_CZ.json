@@ -76055,6 +76055,12 @@
       "value": "Kanál uveden do provozu?"
     }
   ],
+  "ui-inventory-import.channels.field.commissioned.help": [
+    {
+      "type": 0,
+      "value": "This read-only field indicates whether the channel is commissioned and processing the files in its queue."
+    }
+  ],
   "ui-inventory-import.channels.field.enabled": [
     {
       "type": 0,
@@ -76089,6 +76095,12 @@
     {
       "type": 0,
       "value": "Kanál poslouchán?"
+    }
+  ],
+  "ui-inventory-import.channels.field.listening.help": [
+    {
+      "type": 0,
+      "value": "When this is checked (and the channel is enabled) the channel will pick up any uploaded files from the queue and import them to inventory. If unchecked, uploaded files will just accumulate in the queue for later."
     }
   ],
   "ui-inventory-import.channels.field.name": [
@@ -76387,6 +76399,12 @@
     {
       "type": 0,
       "value": "Zpráva"
+    }
+  ],
+  "ui-inventory-import.lessThanOneSecond": [
+    {
+      "type": 0,
+      "value": "< 1s"
     }
   ],
   "ui-inventory-import.logs.countFailedRecords": [
@@ -102149,13 +102167,13 @@
   "ui-oai-pmh.settings.general.oaiServiceIsDisabled": [
     {
       "type": 0,
-      "value": "OAI service is "
+      "value": "Služba OAI je "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "disabled"
+          "value": "vypnutá"
         }
       ],
       "type": 8,
@@ -102163,13 +102181,13 @@
     },
     {
       "type": 0,
-      "value": ". To affect OAI-PMH features by settings please "
+      "value": ". Chcete-li ovlivnit funkce OAI-PMH pomocí nastavení, "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Enable OAI service"
+          "value": "zapněte službu OAI"
         }
       ],
       "type": 8,
@@ -102207,13 +102225,13 @@
   "ui-oai-pmh.settings.general.tooltip.fieldDisabled": [
     {
       "type": 0,
-      "value": "To enable this field, select "
+      "value": "Chcete-li toto pole povolit, vyberte možnost "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Enable OAI service"
+          "value": "Povolit službu OAI"
         }
       ],
       "type": 8,
@@ -102281,13 +102299,13 @@
   "ui-oai-pmh.settings.nonGeneral.tooltip.fieldDisabled": [
     {
       "type": 0,
-      "value": "To enable this field, select "
+      "value": "Chcete-li toto pole povolit, vyberte v části "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Enable OAI service"
+          "value": "Obecné"
         }
       ],
       "type": 8,
@@ -102295,13 +102313,13 @@
     },
     {
       "type": 0,
-      "value": " in the "
+      "value": " možnost "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "General"
+          "value": "Povolit službu OAI"
         }
       ],
       "type": 8,
@@ -102309,19 +102327,19 @@
     },
     {
       "type": 0,
-      "value": " section."
+      "value": "."
     }
   ],
   "ui-oai-pmh.settings.other.oaiServiceIsDisabled": [
     {
       "type": 0,
-      "value": "OAI service is "
+      "value": "Služba OAI je "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "disabled"
+          "value": "vypnutá"
         }
       ],
       "type": 8,
@@ -102329,13 +102347,13 @@
     },
     {
       "type": 0,
-      "value": ". To affect OAI-PMH features by settings please "
+      "value": ". Chcete-li ovlivnit funkce OAI-PMH pomocí nastavení, "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Enable OAI service"
+          "value": "zapněte službu OAI"
         }
       ],
       "type": 8,
@@ -102343,13 +102361,13 @@
     },
     {
       "type": 0,
-      "value": " in the "
+      "value": " v části "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "General"
+          "value": "Obecné"
         }
       ],
       "type": 8,
@@ -102357,7 +102375,7 @@
     },
     {
       "type": 0,
-      "value": " section."
+      "value": "."
     }
   ],
   "ui-oai-pmh.settings.sets.action.delete": [
@@ -141862,6 +141880,12 @@
     {
       "type": 0,
       "value": "Uživatel nebyl nalezen"
+    }
+  ],
+  "ui-users.errors.userRequestFailed": [
+    {
+      "type": 0,
+      "value": "Unable to retrieve user details"
     }
   ],
   "ui-users.errors.usernameUnavailable": [

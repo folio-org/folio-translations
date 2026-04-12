@@ -76380,6 +76380,12 @@
       "value": "Canal encomendado?"
     }
   ],
+  "ui-inventory-import.channels.field.commissioned.help": [
+    {
+      "type": 0,
+      "value": "This read-only field indicates whether the channel is commissioned and processing the files in its queue."
+    }
+  ],
   "ui-inventory-import.channels.field.enabled": [
     {
       "type": 0,
@@ -76414,6 +76420,12 @@
     {
       "type": 0,
       "value": "Analisando o canal?"
+    }
+  ],
+  "ui-inventory-import.channels.field.listening.help": [
+    {
+      "type": 0,
+      "value": "When this is checked (and the channel is enabled) the channel will pick up any uploaded files from the queue and import them to inventory. If unchecked, uploaded files will just accumulate in the queue for later."
     }
   ],
   "ui-inventory-import.channels.field.name": [
@@ -76712,6 +76724,12 @@
     {
       "type": 0,
       "value": "Mensagem"
+    }
+  ],
+  "ui-inventory-import.lessThanOneSecond": [
+    {
+      "type": 0,
+      "value": "< 1s"
     }
   ],
   "ui-inventory-import.logs.countFailedRecords": [
@@ -102712,13 +102730,13 @@
   "ui-oai-pmh.settings.general.oaiServiceIsDisabled": [
     {
       "type": 0,
-      "value": "OAI service is "
+      "value": "O serviço OAI está "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "disabled"
+          "value": "desabilitado"
         }
       ],
       "type": 8,
@@ -102726,13 +102744,13 @@
     },
     {
       "type": 0,
-      "value": ". To affect OAI-PMH features by settings please "
+      "value": ". Para afetar os recursos do OAI-PMH pelas configurações, "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Enable OAI service"
+          "value": "ative o serviço OAI"
         }
       ],
       "type": 8,
@@ -102770,13 +102788,13 @@
   "ui-oai-pmh.settings.general.tooltip.fieldDisabled": [
     {
       "type": 0,
-      "value": "To enable this field, select "
+      "value": "Para ativar esse campo, selecione "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Enable OAI service"
+          "value": "Ativar serviço OAI"
         }
       ],
       "type": 8,
@@ -102826,7 +102844,7 @@
   "ui-oai-pmh.settings.logs.head": [
     {
       "type": 0,
-      "value": "Os logs estão disponíveis para harvests concluídos e são mantidos por 30 dias. Hora em UTC."
+      "value": "Os logs de colheitas concluídas ficam disponíveis e são mantidos por 30 dias, com base no horário UTC. O horário exibido na coluna \"Última atualização\" é baseado no fuso horário selecionado nas configurações do inquilino."
     }
   ],
   "ui-oai-pmh.settings.logs.manager": [
@@ -102844,13 +102862,13 @@
   "ui-oai-pmh.settings.nonGeneral.tooltip.fieldDisabled": [
     {
       "type": 0,
-      "value": "To enable this field, select "
+      "value": "Para ativar este campo, selecione "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Enable OAI service"
+          "value": "Ativar serviço OAI"
         }
       ],
       "type": 8,
@@ -102858,13 +102876,13 @@
     },
     {
       "type": 0,
-      "value": " in the "
+      "value": " na seção "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "General"
+          "value": "Geral"
         }
       ],
       "type": 8,
@@ -102872,19 +102890,19 @@
     },
     {
       "type": 0,
-      "value": " section."
+      "value": "."
     }
   ],
   "ui-oai-pmh.settings.other.oaiServiceIsDisabled": [
     {
       "type": 0,
-      "value": "OAI service is "
+      "value": "O serviço OAI está "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "disabled"
+          "value": "desabilitado"
         }
       ],
       "type": 8,
@@ -102892,13 +102910,13 @@
     },
     {
       "type": 0,
-      "value": ". To affect OAI-PMH features by settings please "
+      "value": ". Para afetar os recursos do OAI-PMH por configurações, "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Enable OAI service"
+          "value": "ative o serviço OAI"
         }
       ],
       "type": 8,
@@ -102906,13 +102924,13 @@
     },
     {
       "type": 0,
-      "value": " in the "
+      "value": " na seção "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "General"
+          "value": "Geral"
         }
       ],
       "type": 8,
@@ -102920,7 +102938,7 @@
     },
     {
       "type": 0,
-      "value": " section."
+      "value": "."
     }
   ],
   "ui-oai-pmh.settings.sets.action.delete": [
@@ -142937,6 +142955,12 @@
     {
       "type": 0,
       "value": "Usuário não encontrado"
+    }
+  ],
+  "ui-users.errors.userRequestFailed": [
+    {
+      "type": 0,
+      "value": "Unable to retrieve user details"
     }
   ],
   "ui-users.errors.usernameUnavailable": [

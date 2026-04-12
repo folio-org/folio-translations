@@ -75998,6 +75998,12 @@
       "value": "Channel commissioned?"
     }
   ],
+  "ui-inventory-import.channels.field.commissioned.help": [
+    {
+      "type": 0,
+      "value": "This read-only field indicates whether the channel is commissioned and processing the files in its queue."
+    }
+  ],
   "ui-inventory-import.channels.field.enabled": [
     {
       "type": 0,
@@ -76032,6 +76038,12 @@
     {
       "type": 0,
       "value": "Channel listening?"
+    }
+  ],
+  "ui-inventory-import.channels.field.listening.help": [
+    {
+      "type": 0,
+      "value": "When this is checked (and the channel is enabled) the channel will pick up any uploaded files from the queue and import them to inventory. If unchecked, uploaded files will just accumulate in the queue for later."
     }
   ],
   "ui-inventory-import.channels.field.name": [
@@ -76330,6 +76342,12 @@
     {
       "type": 0,
       "value": "Message"
+    }
+  ],
+  "ui-inventory-import.lessThanOneSecond": [
+    {
+      "type": 0,
+      "value": "< 1s"
     }
   ],
   "ui-inventory-import.logs.countFailedRecords": [
@@ -141926,6 +141944,12 @@
     {
       "type": 0,
       "value": "لم يتم العثور على المستخدم"
+    }
+  ],
+  "ui-users.errors.userRequestFailed": [
+    {
+      "type": 0,
+      "value": "Unable to retrieve user details"
     }
   ],
   "ui-users.errors.usernameUnavailable": [

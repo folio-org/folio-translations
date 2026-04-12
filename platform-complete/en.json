@@ -75818,6 +75818,12 @@
       "value": "Channel commissioned?"
     }
   ],
+  "ui-inventory-import.channels.field.commissioned.help": [
+    {
+      "type": 0,
+      "value": "This read-only field indicates whether the channel is commissioned and processing the files in its queue."
+    }
+  ],
   "ui-inventory-import.channels.field.enabled": [
     {
       "type": 0,
@@ -75827,7 +75833,7 @@
   "ui-inventory-import.channels.field.enabled.help": [
     {
       "type": 0,
-      "value": "Check to specify that the channel should listen for incoming files addressed to it. Leaving this box unchecked will make the channel inactive."
+      "value": "Checking this will commission the channel. If enabled, you can upload files to the queue, if disabled you can not."
     }
   ],
   "ui-inventory-import.channels.field.fileInProcess": [
@@ -75852,6 +75858,12 @@
     {
       "type": 0,
       "value": "Channel listening?"
+    }
+  ],
+  "ui-inventory-import.channels.field.listening.help": [
+    {
+      "type": 0,
+      "value": "When this is checked (and the channel is enabled) the channel will pick up any uploaded files from the queue and import them to inventory. If unchecked, uploaded files will just accumulate in the queue for later."
     }
   ],
   "ui-inventory-import.channels.field.name": [
@@ -76026,12 +76038,41 @@
       "value": "Imported "
     },
     {
-      "type": 1,
+      "style": null,
+      "type": 2,
       "value": "count"
     },
     {
       "type": 0,
-      "value": " records in "
+      "value": " "
+    },
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "record"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "records"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": " in "
     },
     {
       "type": 1,
@@ -76150,6 +76191,12 @@
     {
       "type": 0,
       "value": "Message"
+    }
+  ],
+  "ui-inventory-import.lessThanOneSecond": [
+    {
+      "type": 0,
+      "value": "< 1s"
     }
   ],
   "ui-inventory-import.logs.countFailedRecords": [
@@ -141477,6 +141524,12 @@
       "value": "User not found"
     }
   ],
+  "ui-users.errors.userRequestFailed": [
+    {
+      "type": 0,
+      "value": "Unable to retrieve user details"
+    }
+  ],
   "ui-users.errors.usernameUnavailable": [
     {
       "type": 0,
@@ -141904,7 +141957,7 @@
   "ui-users.index.all": [
     {
       "type": 0,
-      "value": "Keyword (name, email, identifier)"
+      "value": "Keyword (name, username, email, identifier, custom fields)"
     }
   ],
   "ui-users.index.barcode": [

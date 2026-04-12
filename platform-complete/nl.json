@@ -70280,6 +70280,12 @@
       "value": "Kanaal in opdracht?"
     }
   ],
+  "ui-inventory-import.channels.field.commissioned.help": [
+    {
+      "type": 0,
+      "value": "This read-only field indicates whether the channel is commissioned and processing the files in its queue."
+    }
+  ],
   "ui-inventory-import.channels.field.enabled": [
     {
       "type": 0,
@@ -70314,6 +70320,12 @@
     {
       "type": 0,
       "value": "Kanalen luisteren?"
+    }
+  ],
+  "ui-inventory-import.channels.field.listening.help": [
+    {
+      "type": 0,
+      "value": "When this is checked (and the channel is enabled) the channel will pick up any uploaded files from the queue and import them to inventory. If unchecked, uploaded files will just accumulate in the queue for later."
     }
   ],
   "ui-inventory-import.channels.field.name": [
@@ -70612,6 +70624,12 @@
     {
       "type": 0,
       "value": "Bericht"
+    }
+  ],
+  "ui-inventory-import.lessThanOneSecond": [
+    {
+      "type": 0,
+      "value": "< 1s"
     }
   ],
   "ui-inventory-import.logs.countFailedRecords": [
@@ -95119,13 +95137,13 @@
   "ui-oai-pmh.settings.general.oaiServiceIsDisabled": [
     {
       "type": 0,
-      "value": "OAI service is "
+      "value": "OAI-service is "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "disabled"
+          "value": "uitgeschakeld"
         }
       ],
       "type": 8,
@@ -95133,13 +95151,13 @@
     },
     {
       "type": 0,
-      "value": ". To affect OAI-PMH features by settings please "
+      "value": ". Om OAI-PMH functies te beïnvloeden door instellingen, "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Enable OAI service"
+          "value": "OAI service inschakelen"
         }
       ],
       "type": 8,
@@ -95177,13 +95195,13 @@
   "ui-oai-pmh.settings.general.tooltip.fieldDisabled": [
     {
       "type": 0,
-      "value": "To enable this field, select "
+      "value": "Om dit veld in te schakelen, selecteert u "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Enable OAI service"
+          "value": "OAI-service inschakelen"
         }
       ],
       "type": 8,
@@ -95251,13 +95269,13 @@
   "ui-oai-pmh.settings.nonGeneral.tooltip.fieldDisabled": [
     {
       "type": 0,
-      "value": "To enable this field, select "
+      "value": "Om dit veld in te schakelen, selecteert u "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Enable OAI service"
+          "value": "OAI-service inschakelen"
         }
       ],
       "type": 8,
@@ -95265,13 +95283,13 @@
     },
     {
       "type": 0,
-      "value": " in the "
+      "value": " in de sectie "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "General"
+          "value": "Algemeen"
         }
       ],
       "type": 8,
@@ -95279,19 +95297,19 @@
     },
     {
       "type": 0,
-      "value": " section."
+      "value": "."
     }
   ],
   "ui-oai-pmh.settings.other.oaiServiceIsDisabled": [
     {
       "type": 0,
-      "value": "OAI service is "
+      "value": "OAI-service is "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "disabled"
+          "value": "uitgeschakeld"
         }
       ],
       "type": 8,
@@ -95299,13 +95317,13 @@
     },
     {
       "type": 0,
-      "value": ". To affect OAI-PMH features by settings please "
+      "value": ". Om de OAI-PMH functies te beïnvloeden via de instellingen, "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Enable OAI service"
+          "value": "OAI service inschakelen"
         }
       ],
       "type": 8,
@@ -95313,13 +95331,13 @@
     },
     {
       "type": 0,
-      "value": " in the "
+      "value": " in de "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "General"
+          "value": "Algemeen"
         }
       ],
       "type": 8,
@@ -95327,7 +95345,7 @@
     },
     {
       "type": 0,
-      "value": " section."
+      "value": " sectie."
     }
   ],
   "ui-oai-pmh.settings.sets.action.delete": [
@@ -133250,6 +133268,12 @@
     {
       "type": 0,
       "value": "Gebruiker niet gevonden"
+    }
+  ],
+  "ui-users.errors.userRequestFailed": [
+    {
+      "type": 0,
+      "value": "Unable to retrieve user details"
     }
   ],
   "ui-users.errors.usernameUnavailable": [

@@ -76111,6 +76111,12 @@
       "value": "Kanal in Auftrag gegeben?"
     }
   ],
+  "ui-inventory-import.channels.field.commissioned.help": [
+    {
+      "type": 0,
+      "value": "This read-only field indicates whether the channel is commissioned and processing the files in its queue."
+    }
+  ],
   "ui-inventory-import.channels.field.enabled": [
     {
       "type": 0,
@@ -76145,6 +76151,12 @@
     {
       "type": 0,
       "value": "Kanal hört?"
+    }
+  ],
+  "ui-inventory-import.channels.field.listening.help": [
+    {
+      "type": 0,
+      "value": "When this is checked (and the channel is enabled) the channel will pick up any uploaded files from the queue and import them to inventory. If unchecked, uploaded files will just accumulate in the queue for later."
     }
   ],
   "ui-inventory-import.channels.field.name": [
@@ -76443,6 +76455,12 @@
     {
       "type": 0,
       "value": "Nachricht"
+    }
+  ],
+  "ui-inventory-import.lessThanOneSecond": [
+    {
+      "type": 0,
+      "value": "< 1s"
     }
   ],
   "ui-inventory-import.logs.countFailedRecords": [
@@ -102373,7 +102391,7 @@
   "ui-oai-pmh.settings.logs.head": [
     {
       "type": 0,
-      "value": "Logs are available for completed harvests and kept for 30 days. Time in UTC."
+      "value": "Logs are available for completed harvests and kept for 30 days based on UTC time. The time displayed in the 'Last update' column is based on the time zone selected in tenant settings."
     }
   ],
   "ui-oai-pmh.settings.logs.manager": [
@@ -141844,6 +141862,12 @@
     {
       "type": 0,
       "value": "Person nicht gefunden"
+    }
+  ],
+  "ui-users.errors.userRequestFailed": [
+    {
+      "type": 0,
+      "value": "Unable to retrieve user details"
     }
   ],
   "ui-users.errors.usernameUnavailable": [
