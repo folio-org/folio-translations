@@ -29017,13 +29017,13 @@
   "ui-calendar.calendarForm.openClosedSelect.closed": [
     {
       "type": 0,
-      "value": "閉館"
+      "value": "クローズ"
     }
   ],
   "ui-calendar.calendarForm.openClosedSelect.open": [
     {
       "type": 0,
-      "value": "開館"
+      "value": "オープン"
     }
   ],
   "ui-calendar.calendarForm.openings.column.actions": [
@@ -29337,7 +29337,7 @@
   "ui-calendar.currentStatus.closed.noNext": [
     {
       "type": 0,
-      "value": "終了"
+      "value": "クローズ"
     }
   ],
   "ui-calendar.currentStatus.closed.otherWeekday": [
@@ -29553,7 +29553,7 @@
   "ui-calendar.currentStatus.open.noNext": [
     {
       "type": 0,
-      "value": "開く"
+      "value": "オープン"
     }
   ],
   "ui-calendar.currentStatus.open.otherWeekday": [
@@ -29839,7 +29839,7 @@
   "ui-calendar.infoPane.accordion.hours.open": [
     {
       "type": 0,
-      "value": "Open"
+      "value": "オープン"
     }
   ],
   "ui-calendar.infoPane.accordion.infoLabel": [
@@ -29933,7 +29933,7 @@
   "ui-calendar.infoPane.display.closed": [
     {
       "type": 0,
-      "value": "Closed"
+      "value": "クローズ"
     }
   ],
   "ui-calendar.infoPane.display.closesAfterMidnight": [
@@ -30057,7 +30057,7 @@
   "ui-calendar.monthlyCalendarView.day.closed": [
     {
       "type": 0,
-      "value": "Closed"
+      "value": "クローズ"
     }
   ],
   "ui-calendar.monthlyCalendarView.day.timeRange": [
@@ -34490,7 +34490,7 @@
   "ui-circulation.permission.settings.overdue-fines-policies": [
     {
       "type": 0,
-      "value": "Settings (Circulation): Can create, edit and remove overdue fine policies"
+      "value": "設定（貸出/返却）：延滞料金設定を作成、編集、削除できます"
     }
   ],
   "ui-circulation.permission.settings.request-policies": [
@@ -37140,7 +37140,7 @@
   "ui-circulation.settings.noticePolicy.notices.recurring": [
     {
       "type": 0,
-      "value": "Recurring"
+      "value": "繰り返し"
     }
   ],
   "ui-circulation.settings.noticePolicy.notices.send": [
@@ -45498,7 +45498,7 @@
   "ui-data-export.error.inventory.gettingInstancesByIds": [
     {
       "type": 0,
-      "value": "Error while getting instances by ids: "
+      "value": "IDによるインスタンス取得中にエラーが発生しました。 "
     },
     {
       "type": 1,
@@ -45656,7 +45656,7 @@
   "ui-data-export.error.nothingToExport": [
     {
       "type": 0,
-      "value": "No exported records: nothing to export"
+      "value": "エクスポートされたレコードはありません: エクスポートするものがありません"
     }
   ],
   "ui-data-export.error.onlyForSetToDeletion": [
@@ -45674,7 +45674,7 @@
   "ui-data-export.error.readingFromInputFile": [
     {
       "type": 0,
-      "value": "Error while reading from input file with uuids or file is empty"
+      "value": "入力ファイルからuuidsの読み込みエラー、またはファイルが空です。"
     }
   ],
   "ui-data-export.error.recordIsTooLong": [
@@ -45710,15 +45710,11 @@
   "ui-data-export.error.someRecordsFailed": [
     {
       "type": 0,
-      "value": "Failed records number: "
+      "value": "失敗したレコード数: "
     },
     {
       "type": 1,
       "value": "value1"
-    },
-    {
-      "type": 0,
-      "value": "."
     }
   ],
   "ui-data-export.error.tenantNotFoundForHolding": [
@@ -45762,7 +45758,7 @@
   "ui-data-export.error.user.notFound": [
     {
       "type": 0,
-      "value": "User not found"
+      "value": "ユーザーが見つかりません"
     }
   ],
   "ui-data-export.error.userNotHaveAccessForHoldingsTenantData": [
@@ -46292,13 +46288,13 @@
   "ui-data-export.instance": [
     {
       "type": 0,
-      "value": "Instances"
+      "value": "インスタンス"
     }
   ],
   "ui-data-export.instance.alternativeTitleTypeName": [
     {
       "type": 0,
-      "value": "Instance - Alternative title - "
+      "value": "インスタンス - 別タイトル - "
     },
     {
       "type": 1,
@@ -46490,7 +46486,7 @@
   "ui-data-export.instance.source": [
     {
       "type": 0,
-      "value": "Instance - Source"
+      "value": "インスタンス - ソース"
     }
   ],
   "ui-data-export.instance.subjects": [
@@ -56813,7 +56809,7 @@
   "ui-developer.configuration.preserveConsole": [
     {
       "type": 0,
-      "value": "Preserve console on logout"
+      "value": "ログアウト時にコンソールを保持"
     }
   ],
   "ui-developer.configuration.showDevInfo": [
@@ -58088,7 +58084,7 @@
   "ui-developer.schedulerTimers.moduleName": [
     {
       "type": 0,
-      "value": "Module"
+      "value": "モジュール"
     }
   ],
   "ui-developer.schedulerTimers.path": [
@@ -58100,7 +58096,7 @@
   "ui-developer.schedulerTimers.schedule": [
     {
       "type": 0,
-      "value": "Schedule"
+      "value": "スケジュール"
     }
   ],
   "ui-developer.schedulerTimers.type": [
@@ -59236,7 +59232,7 @@
   "ui-eholdings.filter.pubType.book": [
     {
       "type": 0,
-      "value": "本"
+      "value": "図書"
     }
   ],
   "ui-eholdings.filter.pubType.bookSeries": [
@@ -62257,7 +62253,7 @@
   "ui-eholdings.titlesList.accessStatusType": [
     {
       "type": 0,
-      "value": "Access status type"
+      "value": "アクセスステータスタイプ"
     }
   ],
   "ui-eholdings.titlesList.customCoverage": [
@@ -62269,7 +62265,7 @@
   "ui-eholdings.titlesList.customEmbargo": [
     {
       "type": 0,
-      "value": "Custom embargo period"
+      "value": "カスタムエンバーゴ期間"
     }
   ],
   "ui-eholdings.titlesList.hidden": [
@@ -62293,7 +62289,7 @@
   "ui-eholdings.titlesList.publicationType": [
     {
       "type": 0,
-      "value": "Publication type"
+      "value": "出版物タイプ"
     }
   ],
   "ui-eholdings.titlesList.status": [
@@ -65279,7 +65275,7 @@
   "ui-erm-usage.report.upload.modal.label.failed": [
     {
       "type": 0,
-      "value": "File upload failed"
+      "value": "ファイルのアップロードに失敗しました"
     }
   ],
   "ui-erm-usage.report.upload.reportExists": [
@@ -67482,7 +67478,7 @@
   "ui-finance.allocation.batch.logs.filters.metadata.createdByUserId": [
     {
       "type": 0,
-      "value": "User"
+      "value": "ユーザー"
     }
   ],
   "ui-finance.allocation.batch.logs.filters.metadata.createdDate": [
@@ -67530,7 +67526,7 @@
   "ui-finance.allocation.batch.status.active": [
     {
       "type": 0,
-      "value": "Active"
+      "value": "アクティブ"
     }
   ],
   "ui-finance.allocation.batch.status.frozen": [
@@ -68080,7 +68076,7 @@
   "ui-finance.budget.status.closed": [
     {
       "type": 0,
-      "value": "終了"
+      "value": "クローズ"
     }
   ],
   "ui-finance.budget.status.frozen": [
@@ -69428,7 +69424,7 @@
   "ui-finance.invoice.status.Open": [
     {
       "type": 0,
-      "value": "Open"
+      "value": "オープン"
     }
   ],
   "ui-finance.invoice.status.Reviewed": [
@@ -76286,7 +76282,7 @@
   "ui-inventory-import.button.upload": [
     {
       "type": 0,
-      "value": "Upload"
+      "value": "アップロード"
     }
   ],
   "ui-inventory-import.channels.column.enabled": [
@@ -76328,7 +76324,7 @@
   "ui-inventory-import.channels.column.name": [
     {
       "type": 0,
-      "value": "Name"
+      "value": "名称"
     }
   ],
   "ui-inventory-import.channels.column.type": [
@@ -76364,7 +76360,7 @@
   "ui-inventory-import.channels.field.enabled.help": [
     {
       "type": 0,
-      "value": "Check to specify that the channel should listen for incoming files addressed to it. Leaving this box unchecked will make the channel inactive."
+      "value": "Checking this will commission the channel. If enabled, you can upload files to the queue, if disabled you can not."
     }
   ],
   "ui-inventory-import.channels.field.fileInProcess": [
@@ -76400,7 +76396,7 @@
   "ui-inventory-import.channels.field.name": [
     {
       "type": 0,
-      "value": "Name"
+      "value": "名称"
     }
   ],
   "ui-inventory-import.channels.field.name.help": [
@@ -76454,7 +76450,7 @@
   "ui-inventory-import.channels.index.name": [
     {
       "type": 0,
-      "value": "Name"
+      "value": "名称"
     }
   ],
   "ui-inventory-import.error": [
@@ -76569,12 +76565,41 @@
       "value": "Imported "
     },
     {
-      "type": 1,
+      "style": null,
+      "type": 2,
       "value": "count"
     },
     {
       "type": 0,
-      "value": " records in "
+      "value": " "
+    },
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "record"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "records"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": " in "
     },
     {
       "type": 1,
@@ -76620,7 +76645,7 @@
   "ui-inventory-import.jobs.column.message": [
     {
       "type": 0,
-      "value": "Message (processed/loaded/deleted(skipped)/failed)"
+      "value": "Message"
     }
   ],
   "ui-inventory-import.jobs.column.started": [
@@ -76960,7 +76985,7 @@
   "ui-inventory-import.pipeline.field.name": [
     {
       "type": 0,
-      "value": "Name"
+      "value": "名称"
     }
   ],
   "ui-inventory-import.pipeline.field.steps": [
@@ -76972,7 +76997,7 @@
   "ui-inventory-import.pipeline.steps.name": [
     {
       "type": 0,
-      "value": "Name"
+      "value": "名称"
     }
   ],
   "ui-inventory-import.pipeline.steps.position": [
@@ -76996,19 +77021,19 @@
   "ui-inventory-import.records.field.importJob": [
     {
       "type": 0,
-      "value": "Import job"
+      "value": "Job ID"
     }
   ],
   "ui-inventory-import.records.field.instanceHrid": [
     {
       "type": 0,
-      "value": "Instance HRID"
+      "value": "インスタンス HRID"
     }
   ],
   "ui-inventory-import.records.field.instanceTitle": [
     {
       "type": 0,
-      "value": "Instance title"
+      "value": "インスタンス タイトル"
     }
   ],
   "ui-inventory-import.records.field.originalRecord": [
@@ -77239,7 +77264,7 @@
   "ui-inventory-import.step.field.name": [
     {
       "type": 0,
-      "value": "Name"
+      "value": "名称"
     }
   ],
   "ui-inventory-import.step.field.script": [
@@ -89817,7 +89842,7 @@
   "ui-ldp.button.download-excel": [
     {
       "type": 0,
-      "value": "Download as Excel"
+      "value": "Excel形式でダウンロード"
     }
   ],
   "ui-ldp.button.excel": [
@@ -90700,7 +90725,7 @@
   "ui-ldp.settings.tqrepos.baseUrl": [
     {
       "type": 0,
-      "value": "Base URL of repository"
+      "value": "リポジトリのベースURL"
     }
   ],
   "ui-ldp.settings.tqrepos.branch": [
@@ -94049,7 +94074,7 @@
   "ui-lists.catastrophic-error.fallback.heading": [
     {
       "type": 0,
-      "value": "An error is preventing access to the Lists app"
+      "value": "エラーのため、リストアプリへのアクセスができません。"
     }
   ],
   "ui-lists.catastrophic-error.fallback.message": [
@@ -94511,7 +94536,7 @@
   "ui-lists.error-component.read-list.is.private": [
     {
       "type": 0,
-      "value": "You don't have permission to view this list"
+      "value": "このリストを表示する権限がありません。"
     }
   ],
   "ui-lists.error-component.read-list.not.found": [
@@ -100094,7 +100119,7 @@
   "ui-oa.charge.invoiceLine.status.open": [
     {
       "type": 0,
-      "value": "Open"
+      "value": "オープン"
     }
   ],
   "ui-oa.charge.invoiceLine.total": [
@@ -100817,7 +100842,7 @@
   "ui-oa.correspondence.status.closed": [
     {
       "type": 0,
-      "value": "Closed"
+      "value": "クローズ"
     }
   ],
   "ui-oa.correspondence.status.responseNeeded": [
@@ -104262,7 +104287,7 @@
   "ui-orders.closeOrderModal.closingReasons.ceased": [
     {
       "type": 0,
-      "value": "Ceased"
+      "value": "中止"
     }
   ],
   "ui-orders.closeOrderModal.closingReasons.complete": [
@@ -104890,7 +104915,7 @@
   "ui-orders.errors.electronicLocCostQtyMismatch": [
     {
       "type": 0,
-      "value": "PO line electronic quantity and locations electronic quantity do not match"
+      "value": "発注明細（電子）の数量と所在数量（電子）が一致しません"
     }
   ],
   "ui-orders.errors.encumbranceCreationFailure": [
@@ -105318,7 +105343,7 @@
   "ui-orders.errors.orderNotFound": [
     {
       "type": 0,
-      "value": "The order cannot be found by provided order id"
+      "value": "指定された発注IDでは発注が見つかりません"
     }
   ],
   "ui-orders.errors.orderNotLoaded": [
@@ -106549,7 +106574,7 @@
   "ui-orders.location.quantityElectronic.notMatch": [
     {
       "type": 0,
-      "value": "PO line electronic quantity and locations electronic quantity do not match"
+      "value": "発注明細（電子）の数量と所在数量（電子）が一致しません"
     }
   ],
   "ui-orders.location.quantityElectronic.notMatchOrEmpty": [
@@ -106567,7 +106592,7 @@
   "ui-orders.location.quantityPhysical.notMatch": [
     {
       "type": 0,
-      "value": "PO line physical quantity and locations physical quantity do not match"
+      "value": "発注明細の数量と所在数量が一致しません"
     }
   ],
   "ui-orders.location.quantityPhysical.notMatchOrEmpty": [
@@ -111045,7 +111070,7 @@
   "ui-orders.workflowStatus.closed": [
     {
       "type": 0,
-      "value": "終了"
+      "value": "クローズ"
     }
   ],
   "ui-orders.workflowStatus.open": [
@@ -116884,7 +116909,7 @@
   "ui-plugin-eusage-reports.report-form.format.books": [
     {
       "type": 0,
-      "value": "本"
+      "value": "図書"
     }
   ],
   "ui-plugin-eusage-reports.report-form.format.databases": [
@@ -118193,7 +118218,7 @@
   "ui-plugin-find-instance.instances.resourceType": [
     {
       "type": 0,
-      "value": "Resource Type"
+      "value": "リソースタイプ"
     }
   ],
   "ui-plugin-find-instance.isbn": [
@@ -118521,7 +118546,7 @@
   "ui-plugin-find-interface.interface.type": [
     {
       "type": 0,
-      "value": "種類"
+      "value": "タイプ"
     }
   ],
   "ui-plugin-find-interface.interface.type.admin": [
@@ -119048,7 +119073,7 @@
   "ui-plugin-find-package-title.searchPane.filters.publicationType.book": [
     {
       "type": 0,
-      "value": "本"
+      "value": "図書"
     }
   ],
   "ui-plugin-find-package-title.searchPane.filters.publicationType.bookSeries": [
@@ -119622,7 +119647,7 @@
   "ui-plugin-query-builder.modal.entityType": [
     {
       "type": 0,
-      "value": "Record type:"
+      "value": "レコードタイプ:"
     }
   ],
   "ui-plugin-query-builder.modal.preview.countingInProgress": [
@@ -132874,7 +132899,7 @@
   "ui-requests.requestNotAllowed": [
     {
       "type": 0,
-      "value": "Request not allowed"
+      "value": "リクエストは許可されていません"
     }
   ],
   "ui-requests.requestQueue": [
@@ -135861,7 +135886,7 @@
   "ui-serials-management.templates": [
     {
       "type": 0,
-      "value": "Templates"
+      "value": "テンプレート"
     }
   ],
   "ui-serials-management.templates.copy": [
@@ -143920,7 +143945,7 @@
   "ui-users.information.recalculate.will.reactivate.user": [
     {
       "type": 0,
-      "value": "User will reactivate after saving"
+      "value": "保存後にユーザーが再アクティブ化されます"
     }
   ],
   "ui-users.information.selectPatronGroup": [
@@ -148414,7 +148439,7 @@
   "ui-users.reports.financial.instance": [
     {
       "type": 0,
-      "value": "Instance"
+      "value": "インスタンス"
     }
   ],
   "ui-users.reports.financial.itemBarcode": [
@@ -148774,7 +148799,7 @@
   "ui-users.reports.refunds.instance": [
     {
       "type": 0,
-      "value": "Instance"
+      "value": "インスタンス"
     }
   ],
   "ui-users.reports.refunds.itemBarcode": [

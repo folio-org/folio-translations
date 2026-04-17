@@ -75965,7 +75965,7 @@
   "ui-inventory-import.channels.field.enabled.help": [
     {
       "type": 0,
-      "value": "Check to specify that the channel should listen for incoming files addressed to it. Leaving this box unchecked will make the channel inactive."
+      "value": "Checking this will commission the channel. If enabled, you can upload files to the queue, if disabled you can not."
     }
   ],
   "ui-inventory-import.channels.field.fileInProcess": [
@@ -76170,12 +76170,41 @@
       "value": "Imported "
     },
     {
-      "type": 1,
+      "style": null,
+      "type": 2,
       "value": "count"
     },
     {
       "type": 0,
-      "value": " records in "
+      "value": " "
+    },
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "record"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "records"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": " in "
     },
     {
       "type": 1,
@@ -76221,7 +76250,7 @@
   "ui-inventory-import.jobs.column.message": [
     {
       "type": 0,
-      "value": "Message (processed/loaded/deleted(skipped)/failed)"
+      "value": "Message"
     }
   ],
   "ui-inventory-import.jobs.column.started": [
@@ -76597,7 +76626,7 @@
   "ui-inventory-import.records.field.importJob": [
     {
       "type": 0,
-      "value": "Import job"
+      "value": "Job ID"
     }
   ],
   "ui-inventory-import.records.field.instanceHrid": [
@@ -98194,55 +98223,55 @@
   "ui-myprofile.settings.appNavOrder.label": [
     {
       "type": 0,
-      "value": "Application display order"
+      "value": "Ordre d'affichage des applications"
     }
   ],
   "ui-myprofile.settings.appNavOrder.newItem": [
     {
       "type": 0,
-      "value": "New"
+      "value": "Nouveau"
     }
   ],
   "ui-myprofile.settings.appNavOrder.reset": [
     {
       "type": 0,
-      "value": "Reset to default"
+      "value": "Réinitialiser"
     }
   ],
   "ui-myprofile.settings.appNavOrder.resetError": [
     {
       "type": 0,
-      "value": "There was a problem resetting the app order."
+      "value": "Un problème est survenu lors de la réinitialisation de l'ordre d'affichage des applications."
     }
   ],
   "ui-myprofile.settings.appNavOrder.resetSuccess": [
     {
       "type": 0,
-      "value": "Application display order reset to default."
+      "value": "L'ordre d'affichage des applications a été réinitialisé."
     }
   ],
   "ui-myprofile.settings.appNavOrder.save": [
     {
       "type": 0,
-      "value": "Save"
+      "value": "Sauvegarder"
     }
   ],
   "ui-myprofile.settings.appNavOrder.saveError": [
     {
       "type": 0,
-      "value": "There was a problem saving app list order."
+      "value": "Un problème est survenu lors de l'enregistrement de l'ordre d'affichage des applications."
     }
   ],
   "ui-myprofile.settings.appNavOrder.saveSuccess": [
     {
       "type": 0,
-      "value": "Application display order has been successfully updated."
+      "value": "L'ordre d'affichage des applications a été mis à jour avec succès."
     }
   ],
   "ui-myprofile.settings.appNavOrder.visibleInstruction": [
     {
       "type": 0,
-      "value": "Drag & drop to change the display order of FOLIO applications."
+      "value": "Faites glisser pour modifier l'ordre d'affichage des applications FOLIO."
     }
   ],
   "ui-myprofile.settings.changePassword.confirmPassword": [

@@ -75887,7 +75887,7 @@
   "ui-inventory-import.channels.field.enabled.help": [
     {
       "type": 0,
-      "value": "Check to specify that the channel should listen for incoming files addressed to it. Leaving this box unchecked will make the channel inactive."
+      "value": "Checking this will commission the channel. If enabled, you can upload files to the queue, if disabled you can not."
     }
   ],
   "ui-inventory-import.channels.field.fileInProcess": [
@@ -76092,12 +76092,41 @@
       "value": "Imported "
     },
     {
-      "type": 1,
+      "style": null,
+      "type": 2,
       "value": "count"
     },
     {
       "type": 0,
-      "value": " records in "
+      "value": " "
+    },
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "record"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "records"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": " in "
     },
     {
       "type": 1,
@@ -76143,7 +76172,7 @@
   "ui-inventory-import.jobs.column.message": [
     {
       "type": 0,
-      "value": "Message (processed/loaded/deleted(skipped)/failed)"
+      "value": "Message"
     }
   ],
   "ui-inventory-import.jobs.column.started": [
@@ -76519,7 +76548,7 @@
   "ui-inventory-import.records.field.importJob": [
     {
       "type": 0,
-      "value": "Import job"
+      "value": "Job ID"
     }
   ],
   "ui-inventory-import.records.field.instanceHrid": [
@@ -141965,7 +141994,7 @@
   "ui-users.index.all": [
     {
       "type": 0,
-      "value": "Keyword (name, email, identifier)"
+      "value": "Keyword (name, username, email, identifier, custom fields)"
     }
   ],
   "ui-users.index.barcode": [

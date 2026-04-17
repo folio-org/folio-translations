@@ -34454,7 +34454,7 @@
   "ui-circulation.settings.cancelReasons.label": [
     {
       "type": 0,
-      "value": "Vyžádat důvody zrušení"
+      "value": "Důvody zrušení žádanky"
     }
   ],
   "ui-circulation.settings.cancelReasons.labelShort": [
@@ -61941,7 +61941,7 @@
   "ui-eholdings.titlesList.accessStatusType": [
     {
       "type": 0,
-      "value": "Access status type"
+      "value": "Typ stavu přístupu"
     }
   ],
   "ui-eholdings.titlesList.customCoverage": [
@@ -61953,7 +61953,7 @@
   "ui-eholdings.titlesList.customEmbargo": [
     {
       "type": 0,
-      "value": "Custom embargo period"
+      "value": "Vlastní období embarga"
     }
   ],
   "ui-eholdings.titlesList.hidden": [
@@ -61977,7 +61977,7 @@
   "ui-eholdings.titlesList.publicationType": [
     {
       "type": 0,
-      "value": "Publication type"
+      "value": "Typ publikace"
     }
   ],
   "ui-eholdings.titlesList.status": [
@@ -67876,7 +67876,7 @@
   "ui-finance.errors.failedToCreateAllocations": [
     {
       "type": 0,
-      "value": "Allocations have not been updated because one or more budgets are not active or planned."
+      "value": "Přidělené prostředky nebyly aktualizovány, protože jeden nebo více rozpočtů není aktivních nebo plánovaných."
     }
   ],
   "ui-finance.errors.genericError": [
@@ -76058,7 +76058,7 @@
   "ui-inventory-import.channels.field.commissioned.help": [
     {
       "type": 0,
-      "value": "This read-only field indicates whether the channel is commissioned and processing the files in its queue."
+      "value": "Toto pole je určeno pouze pro čtení a udává, zda je kanál uveden do provozu a zpracovává soubory ve své frontě."
     }
   ],
   "ui-inventory-import.channels.field.enabled": [
@@ -76070,7 +76070,7 @@
   "ui-inventory-import.channels.field.enabled.help": [
     {
       "type": 0,
-      "value": "Zaškrtnutím určíte, že kanál má naslouchat příchozím souborům, které jsou mu adresovány. Pokud toto políčko nezaškrtnete, bude kanál neaktivní."
+      "value": "Zaškrtnutím této položky se kanál uvede do provozu. Pokud je tato volba povolena, můžete do fronty nahrávat soubory, pokud je zakázána, tak soubory nahrávat nemůžete."
     }
   ],
   "ui-inventory-import.channels.field.fileInProcess": [
@@ -76100,7 +76100,7 @@
   "ui-inventory-import.channels.field.listening.help": [
     {
       "type": 0,
-      "value": "When this is checked (and the channel is enabled) the channel will pick up any uploaded files from the queue and import them to inventory. If unchecked, uploaded files will just accumulate in the queue for later."
+      "value": "Pokud je tato možnost zaškrtnuta (a kanál je povolen), kanál vybere všechny nahrané soubory z fronty a importuje je do katalogu. Pokud není zaškrtnuto, nahrané soubory se budou pouze hromadit ve frontě pro pozdější použití."
     }
   ],
   "ui-inventory-import.channels.field.name": [
@@ -76275,7 +76275,26 @@
       "value": "Importované záznamy: "
     },
     {
-      "type": 1,
+      "style": null,
+      "type": 2,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": " "
+    },
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": []
+        },
+        "other": {
+          "value": []
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
       "value": "count"
     },
     {
@@ -76320,13 +76339,13 @@
   "ui-inventory-import.jobs.column.id": [
     {
       "type": 0,
-      "value": "Job ID"
+      "value": "ID úlohy"
     }
   ],
   "ui-inventory-import.jobs.column.message": [
     {
       "type": 0,
-      "value": "Zpráva (zpracována/načtena/smazána(přeskočena)/neúspěšná)"
+      "value": "Zpráva"
     }
   ],
   "ui-inventory-import.jobs.column.started": [
@@ -76706,7 +76725,7 @@
   "ui-inventory-import.records.field.importJob": [
     {
       "type": 0,
-      "value": "Importovat úlohu"
+      "value": "ID úlohy"
     }
   ],
   "ui-inventory-import.records.field.instanceHrid": [
@@ -102281,7 +102300,7 @@
   "ui-oai-pmh.settings.logs.head": [
     {
       "type": 0,
-      "value": "Logy jsou k dispozici pro dokončené harvest a uchovávají se po dobu 30 dnů. Čas v UTC."
+      "value": "Logy jsou k dispozici pro dokončený harvest a uchovávají se po dobu 30 dnů podle času UTC. Čas zobrazený ve sloupci \"Poslední aktualizace\" vychází z časového pásma vybraného v nastavení nájemce."
     }
   ],
   "ui-oai-pmh.settings.logs.manager": [
@@ -109573,7 +109592,7 @@
   "ui-orders.settings.poNumber.validation.prefixOrSuffixPatternMismatch": [
     {
       "type": 0,
-      "value": "Name must be less than "
+      "value": "Název musí být kratší než "
     },
     {
       "style": null,
@@ -109582,7 +109601,7 @@
     },
     {
       "type": 0,
-      "value": " alphanumeric characters"
+      "value": " alfanumerických znaků"
     }
   ],
   "ui-orders.settings.polinesLimit": [
@@ -114827,19 +114846,19 @@
   "ui-plugin-bursar-export.bursarExports.transfer.dryRunCheckbox": [
     {
       "type": 0,
-      "value": "Enable testing mode"
+      "value": "Povolit testovací režim"
     }
   ],
   "ui-plugin-bursar-export.bursarExports.transfer.dryRunDescription": [
     {
       "type": 0,
-      "value": "When enabled, the export will be generated and processed as usual, however, accounts will not be transferred. This allows you to verify that your criteria are properly configured before performing actual transfers."
+      "value": "Pokud je tato možnost povolena, export se vygeneruje a zpracuje jako obvykle, účty se však nepřenesou. To vám umožní před provedením skutečných převodů ověřit, zda jsou kritéria správně nakonfigurována."
     }
   ],
   "ui-plugin-bursar-export.bursarExports.transfer.dryRunHeader": [
     {
       "type": 0,
-      "value": "Testing mode"
+      "value": "Testovací režim"
     }
   ],
   "ui-plugin-bursar-export.bursarExports.transfer.owner": [
@@ -141885,7 +141904,7 @@
   "ui-users.errors.userRequestFailed": [
     {
       "type": 0,
-      "value": "Unable to retrieve user details"
+      "value": "Nelze načíst údaje o uživateli"
     }
   ],
   "ui-users.errors.usernameUnavailable": [
@@ -142315,7 +142334,7 @@
   "ui-users.index.all": [
     {
       "type": 0,
-      "value": "Klíčové slovo (jméno, e-mail, identifikátor)"
+      "value": "Klíčové slovo (jméno, uživatelské jméno, e-mail, identifikátor, vlastní pole)"
     }
   ],
   "ui-users.index.barcode": [
@@ -148853,7 +148872,7 @@
   "ui-users.userSearch": [
     {
       "type": 0,
-      "value": "User search"
+      "value": "Vyhledávání uživatelů"
     }
   ],
   "ui-users.userSearchResults": [

@@ -36773,7 +36773,7 @@
   "ui-circulation.settings.noticePolicy.loanNotices.holdRequestForItem": [
     {
       "type": 0,
-      "value": "Solicitação de reserva do item"
+      "value": "Solicitação de reserva para o item"
     }
   ],
   "ui-circulation.settings.noticePolicy.loanNotices.itemRecalled": [
@@ -37987,7 +37987,7 @@
   "ui-circulation.settings.titleLevelRequests.excludeTenants": [
     {
       "type": 0,
-      "value": "Excluir locatários"
+      "value": "Excluir inquilino"
     }
   ],
   "ui-circulation.settings.titleLevelRequests.expirationNotice": [
@@ -45433,7 +45433,7 @@
     },
     {
       "type": 0,
-      "value": " não é afiliado ao locatário de dados "
+      "value": " não é afiliado ao inquilino de dados "
     },
     {
       "type": 1,
@@ -45441,7 +45441,7 @@
     },
     {
       "type": 0,
-      "value": " e os registros de acervos desse locatário foram omitidos durante a exportação."
+      "value": " e os registros de acervos desse inquilino foram omitidos durante a exportação."
     }
   ],
   "ui-data-export.error.holdings.noPermission": [
@@ -45459,7 +45459,7 @@
     },
     {
       "type": 0,
-      "value": " não tem permissões para acessar o registro de acervo no locatário de dados "
+      "value": " não tem permissões para acessar o registro de acervo no inquilino de dados "
     },
     {
       "type": 1,
@@ -45485,7 +45485,7 @@
     },
     {
       "type": 0,
-      "value": " não é afiliado ao(s) locatário(s) de dados "
+      "value": " não é afiliado ao(s) inquilino(s) de dados "
     },
     {
       "type": 1,
@@ -45493,7 +45493,7 @@
     },
     {
       "type": 0,
-      "value": " e os acervos e registros de itens desse locatário foram omitidos durante a exportação."
+      "value": " e os acervos e registros de itens desse inquilino foram omitidos durante a exportação."
     }
   ],
   "ui-data-export.error.instance.noPermission": [
@@ -45511,7 +45511,7 @@
     },
     {
       "type": 0,
-      "value": " não tem permissões para visualizar acervos ou itens no(s) locatário(s) de dados "
+      "value": " não tem permissões para visualizar acervos ou itens no(s) inquilino(s) de dados "
     },
     {
       "type": 1,
@@ -45519,7 +45519,7 @@
     },
     {
       "type": 0,
-      "value": ". Os registros de acervos e itens desse locatário foram omitidos durante a exportação."
+      "value": ". Os registros de acervos e itens desse inquilino foram omitidos durante a exportação."
     }
   ],
   "ui-data-export.error.invalidCqlSyntax": [
@@ -45793,7 +45793,7 @@
   "ui-data-export.error.tenantNotFoundForHolding": [
     {
       "type": 0,
-      "value": "Nenhum locatário pode ser encontrado para o registro de acervo "
+      "value": "Nenhum inquilino pode ser encontrado para o registro de acervo "
     },
     {
       "type": 1,
@@ -45849,7 +45849,7 @@
     },
     {
       "type": 0,
-      "value": " não tem permissões para acessar o registro de acervo no locatário de dados "
+      "value": " não tem permissões para acessar o registro de acervo no inquilino de dados "
     },
     {
       "type": 1,
@@ -47019,7 +47019,7 @@
   "ui-data-export.jobProfiles.delete.confirmationModal.messageUsedInLogs": [
     {
       "type": 0,
-      "value": "O perfil de trabalho "
+      "value": "ATENÇÃO: O perfil de trabalho "
     },
     {
       "children": [
@@ -57734,7 +57734,7 @@
   "ui-developer.permission.settings.okapiConfiguration": [
     {
       "type": 0,
-      "value": "Configurações (desenvolvedor): pode editar valores de configuração do locatário"
+      "value": "Configurações (desenvolvedor): pode editar valores de configuração do inquilino"
     }
   ],
   "ui-developer.permission.settings.okapiConsole": [
@@ -58089,7 +58089,7 @@
   "ui-developer.schedulerTimers.method": [
     {
       "type": 0,
-      "value": "Método de verificação"
+      "value": "Método"
     }
   ],
   "ui-developer.schedulerTimers.moduleName": [
@@ -62224,7 +62224,7 @@
   "ui-eholdings.titlesList.accessStatusType": [
     {
       "type": 0,
-      "value": "Access status type"
+      "value": "Tipo de status de acesso"
     }
   ],
   "ui-eholdings.titlesList.customCoverage": [
@@ -62236,7 +62236,7 @@
   "ui-eholdings.titlesList.customEmbargo": [
     {
       "type": 0,
-      "value": "Custom embargo period"
+      "value": "Período de embargo personalizado"
     }
   ],
   "ui-eholdings.titlesList.hidden": [
@@ -62260,7 +62260,7 @@
   "ui-eholdings.titlesList.publicationType": [
     {
       "type": 0,
-      "value": "Publication type"
+      "value": "Tipo de publicação"
     }
   ],
   "ui-eholdings.titlesList.status": [
@@ -64532,7 +64532,7 @@
   "ui-erm-usage.harvester.jobs.column.provider": [
     {
       "type": 0,
-      "value": "Provedor / Locatário"
+      "value": "Provedor / Inquilino"
     }
   ],
   "ui-erm-usage.harvester.jobs.column.start": [
@@ -65751,7 +65751,7 @@
   "ui-erm-usage.settings.harvester.start.tenant": [
     {
       "type": 0,
-      "value": "Iniciar o harvesting para o locatário atual:"
+      "value": "Iniciar o harvesting para o inquilino atual:"
     }
   ],
   "ui-erm-usage.settings.hideCredentials": [
@@ -66671,7 +66671,7 @@
     },
     {
       "type": 0,
-      "value": ". Tudo o resto é adicionado pela colheitadeira."
+      "value": ". Tudo o resto é adicionado pela serviço de coleta."
     }
   ],
   "ui-export-manager.exportJob": [
@@ -68141,7 +68141,7 @@
   "ui-finance.errors.failedToCreateAllocations": [
     {
       "type": 0,
-      "value": "Allocations have not been updated because one or more budgets are not active or planned."
+      "value": "As alocações não foram atualizadas porque um ou mais orçamentos não estão ativos ou planejados."
     }
   ],
   "ui-finance.errors.genericError": [
@@ -76287,7 +76287,7 @@
   "ui-inventory-import.actions.new.channel.xml": [
     {
       "type": 0,
-      "value": "Canal XML em massa"
+      "value": "Canal XML em lote"
     }
   ],
   "ui-inventory-import.add": [
@@ -76377,13 +76377,13 @@
   "ui-inventory-import.channels.field.commissioned": [
     {
       "type": 0,
-      "value": "Canal encomendado?"
+      "value": "Canal comisisonado?"
     }
   ],
   "ui-inventory-import.channels.field.commissioned.help": [
     {
       "type": 0,
-      "value": "This read-only field indicates whether the channel is commissioned and processing the files in its queue."
+      "value": "Este campo somente leitura indica se o canal está em funcionamento e processando os arquivos em sua fila."
     }
   ],
   "ui-inventory-import.channels.field.enabled": [
@@ -76395,7 +76395,7 @@
   "ui-inventory-import.channels.field.enabled.help": [
     {
       "type": 0,
-      "value": "Marque esta caixa para especificar que o canal deve analisar arquivos recebidos endereçados a ele. Deixar esta caixa desmarcada tornará o canal inativo."
+      "value": "Ao marcar esta opção, o canal será ativado. Se estiver ativada, você poderá enviar arquivos para a fila; se estiver desativada, não poderá."
     }
   ],
   "ui-inventory-import.channels.field.fileInProcess": [
@@ -76419,13 +76419,13 @@
   "ui-inventory-import.channels.field.listening": [
     {
       "type": 0,
-      "value": "Analisando o canal?"
+      "value": "Ouvindo o canal?"
     }
   ],
   "ui-inventory-import.channels.field.listening.help": [
     {
       "type": 0,
-      "value": "When this is checked (and the channel is enabled) the channel will pick up any uploaded files from the queue and import them to inventory. If unchecked, uploaded files will just accumulate in the queue for later."
+      "value": "Quando essa opção estiver marcada (e o canal estiver ativado), o canal pegará todos os arquivos carregados da fila e os importará para o inventário. Se essa opção estiver desmarcada, os arquivos carregados serão acumulados na fila para serem importados posteriormente."
     }
   ],
   "ui-inventory-import.channels.field.name": [
@@ -76600,12 +76600,41 @@
       "value": "Importado "
     },
     {
-      "type": 1,
+      "style": null,
+      "type": 2,
       "value": "count"
     },
     {
       "type": 0,
-      "value": " registros em "
+      "value": " "
+    },
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "registro"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "registros"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": " em "
     },
     {
       "type": 1,
@@ -76645,13 +76674,13 @@
   "ui-inventory-import.jobs.column.id": [
     {
       "type": 0,
-      "value": "Job ID"
+      "value": "ID do trabalho"
     }
   ],
   "ui-inventory-import.jobs.column.message": [
     {
       "type": 0,
-      "value": "Mensagem (processada/carregada/excluída (ignorada)/falhou)"
+      "value": "Mensagem"
     }
   ],
   "ui-inventory-import.jobs.column.started": [
@@ -76879,7 +76908,7 @@
   "ui-inventory-import.op.delete.confirm": [
     {
       "type": 0,
-      "value": "Realmente excluir o canal?"
+      "value": "Deseja realmente excluir o canal?"
     }
   ],
   "ui-inventory-import.pause.failure": [
@@ -77027,7 +77056,7 @@
   "ui-inventory-import.records.field.importJob": [
     {
       "type": 0,
-      "value": "Trabalho de importação"
+      "value": "ID do trabalho"
     }
   ],
   "ui-inventory-import.records.field.instanceHrid": [
@@ -77276,7 +77305,7 @@
   "ui-inventory-import.step.field.script": [
     {
       "type": 0,
-      "value": "Roteiro"
+      "value": "Script"
     }
   ],
   "ui-inventory-import.step.field.type": [
@@ -93797,7 +93826,7 @@
   "ui-lists.catastrophic-error.entity.type.source.missing.heading": [
     {
       "type": 0,
-      "value": "Um erro de digitação está impedindo o acesso ao aplicativo Listas"
+      "value": "Um tipo de registro quebrado está impedindo o acesso ao aplicativo Listas"
     }
   ],
   "ui-lists.catastrophic-error.entity.type.source.missing.message": [
@@ -94005,7 +94034,7 @@
       "children": [
         {
           "type": 0,
-          "value": "As listas com consulta entre locatários só podem ser definidas como Privadas."
+          "value": "As listas com consulta entre inquilino só podem ser definidas como Privadas."
         }
       ],
       "type": 8,
@@ -94167,7 +94196,7 @@
   "ui-lists.cross-tenant-message": [
     {
       "type": 0,
-      "value": "Essa lista pode conter registros de vários locatários."
+      "value": "Essa lista pode conter registros de vários inquilino."
     }
   ],
   "ui-lists.delete-entity.not.found": [
@@ -98993,7 +99022,7 @@
   "ui-myprofile.settings.languageLocalization.tenantDefault": [
     {
       "type": 0,
-      "value": "Padrão do locatário"
+      "value": "Padrão do inquilino"
     }
   ],
   "ui-myprofile.userDropdown.changePassword.caption": [
@@ -105947,7 +105976,7 @@
   "ui-orders.line.changeInstance.relatedItems.error": [
     {
       "type": 0,
-      "value": "Falha ao carregar itens para locatário(s): "
+      "value": "Falha ao carregar itens para inquilino(s): "
     },
     {
       "children": [
@@ -106005,7 +106034,7 @@
   "ui-orders.line.holdings.deleteModal.message": [
     {
       "type": 0,
-      "value": "Esta linha de pedido de compra está conectada a registros no inventário. Após essa edição, não haverá outras linhas de pedido de compra, partes OU itens conectados ao(s) registro(s) de Acervo relacionado(s). Depois de fazer essa alteração, você gostaria que o FOLIO excluísse o(s) registro(s) de Acervo?"
+      "value": "Esta linha de pedido de compra está conectada a registros no inventário. Após essa edição, não haverá outras linhas de pedido de compra, partes OU itens conectados ao(s) registro(s) de Acervo relacionado(s). Depois de fazer essa alteração, você gostaria que o FOLIO excluísse o(s) registro(s) de Coleção?"
     }
   ],
   "ui-orders.line.paneTitle.details": [
@@ -107505,7 +107534,7 @@
   "ui-orders.poLine.fundDistribution.expenseClass.modal.message": [
     {
       "type": 0,
-      "value": "Alterar essa classe de despesa não atualizará a distribuição de fundos da linha de fatura correspondente. Se você deseja que a classe de despesa na linha da fatura corresponda, é necessário atualizar a distribuição de fundos da linha de fatura correspondente no aplicativo de fatura."
+      "value": "Alterar essa classe de despesa não atualizará a distribuição de fundos da linha de fatura correspondente. Se você deseja que a classe de despesa na linha da fatura corresponda, é necessário atualizar a distribuição de fundos da linha de fatura correspondente no aplicativo de Fatura."
     }
   ],
   "ui-orders.poLine.fundDistribution.expenseClass.modal.title": [
@@ -110260,7 +110289,7 @@
   "ui-orders.settings.poNumber.validation.prefixOrSuffixPatternMismatch": [
     {
       "type": 0,
-      "value": "Name must be less than "
+      "value": "O nome deve ter menos de "
     },
     {
       "style": null,
@@ -110269,7 +110298,7 @@
     },
     {
       "type": 0,
-      "value": " alphanumeric characters"
+      "value": " caracteres alfanuméricos"
     }
   ],
   "ui-orders.settings.polinesLimit": [
@@ -115574,19 +115603,19 @@
   "ui-plugin-bursar-export.bursarExports.transfer.dryRunCheckbox": [
     {
       "type": 0,
-      "value": "Enable testing mode"
+      "value": "Ativar o modo de teste"
     }
   ],
   "ui-plugin-bursar-export.bursarExports.transfer.dryRunDescription": [
     {
       "type": 0,
-      "value": "When enabled, the export will be generated and processed as usual, however, accounts will not be transferred. This allows you to verify that your criteria are properly configured before performing actual transfers."
+      "value": "Quando ativada, a exportação será gerada e processada normalmente, porém, as contas não serão transferidas. Isso permite que você verifique se seus critérios estão configurados corretamente antes de realizar as transferências reais."
     }
   ],
   "ui-plugin-bursar-export.bursarExports.transfer.dryRunHeader": [
     {
       "type": 0,
-      "value": "Testing mode"
+      "value": "Modo de teste"
     }
   ],
   "ui-plugin-bursar-export.bursarExports.transfer.owner": [
@@ -135867,13 +135896,13 @@
   "ui-serials-management.templates.newTemplate": [
     {
       "type": 0,
-      "value": "Novo modelo padrão de publicação"
+      "value": "Novo modelo de padrão de publicação"
     }
   ],
   "ui-serials-management.templates.rulesetInfo": [
     {
       "type": 0,
-      "value": "Status e descrição padrão"
+      "value": "Status e descrição do padrão"
     }
   ],
   "ui-serials-management.templates.status": [
@@ -142662,7 +142691,7 @@
     },
     {
       "type": 0,
-      "value": " no locatário "
+      "value": " no inquilino "
     },
     {
       "children": [
@@ -142824,7 +142853,7 @@
     },
     {
       "type": 0,
-      "value": " no locatário "
+      "value": " no inquilino "
     },
     {
       "children": [
@@ -142960,7 +142989,7 @@
   "ui-users.errors.userRequestFailed": [
     {
       "type": 0,
-      "value": "Unable to retrieve user details"
+      "value": "Não foi possível recuperar os detalhes do usuário"
     }
   ],
   "ui-users.errors.usernameUnavailable": [
@@ -143390,7 +143419,7 @@
   "ui-users.index.all": [
     {
       "type": 0,
-      "value": "Palavra-chave (nome, e-mail, identificador)"
+      "value": "Palavra-chave (nome, nome de usuário, e-mail, identificador, campos personalizados)"
     }
   ],
   "ui-users.index.barcode": [
@@ -150038,7 +150067,7 @@
   "ui-users.userSearch": [
     {
       "type": 0,
-      "value": "User search"
+      "value": "Buscar usuário"
     }
   ],
   "ui-users.userSearchResults": [
