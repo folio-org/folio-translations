@@ -77438,7 +77438,7 @@
   "ui-inventory.acq.fundCode": [
     {
       "type": 0,
-      "value": "Fund code"
+      "value": "ファンドコード"
     }
   ],
   "ui-inventory.acq.orderSentDate": [
@@ -77456,13 +77456,13 @@
   "ui-inventory.acq.orderStatus.Closed": [
     {
       "type": 0,
-      "value": "Closed"
+      "value": "クローズ"
     }
   ],
   "ui-inventory.acq.orderStatus.Open": [
     {
       "type": 0,
-      "value": "Open"
+      "value": "オープン"
     }
   ],
   "ui-inventory.acq.orderStatus.Pending": [
@@ -80476,7 +80476,7 @@
     },
     {
       "type": 1,
-      "value": "updatedDate"
+      "value": "date"
     }
   ],
   "ui-inventory.instanceRecordTitle": [
@@ -80500,7 +80500,7 @@
   "ui-inventory.instanceRecordWithType": [
     {
       "type": 0,
-      "value": "Instance record ("
+      "value": "インスタンスレコード（"
     },
     {
       "type": 1,
@@ -80508,7 +80508,7 @@
     },
     {
       "type": 0,
-      "value": ")"
+      "value": "）"
     }
   ],
   "ui-inventory.instanceRelationshipAnalyticsBoundWith": [
@@ -80847,7 +80847,7 @@
   "ui-inventory.item.order.validation.duplicate": [
     {
       "type": 0,
-      "value": "Order number already exists"
+      "value": "発注番号は既に存在します"
     }
   ],
   "ui-inventory.item.order.validation.positiveNumber": [
@@ -81283,17 +81283,13 @@
   "ui-inventory.itemOnHoldingsRecordDeleteModal.message": [
     {
       "type": 0,
-      "value": "所蔵レコード HRID"
+      "value": "Holdings record HRID "
     },
     {
       "children": [
         {
           "type": 1,
           "value": "hrid"
-        },
-        {
-          "type": 0,
-          "value": " "
         }
       ],
       "type": 8,
@@ -81301,17 +81297,13 @@
     },
     {
       "type": 0,
-      "value": " 所在"
+      "value": " with location "
     },
     {
       "children": [
         {
           "type": 1,
           "value": "location"
-        },
-        {
-          "type": 0,
-          "value": " "
         }
       ],
       "type": 8,
@@ -81319,7 +81311,21 @@
     },
     {
       "type": 0,
-      "value": " には、関連資料レコードがあります。この所蔵レコードの削除を続行するには、関連する資料レコードをすべて削除する必要があります。"
+      "value": " has "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "one"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " associated item record. To be able to continue deletion of this holdings record, the associated item record must be deleted."
     }
   ],
   "ui-inventory.itemPublicNote": [
@@ -83327,7 +83333,7 @@
   "ui-inventory.permission.instance.create": [
     {
       "type": 0,
-      "value": "Inventory: View, create instances"
+      "value": "インベントリ: インスタンスの表示、作成"
     }
   ],
   "ui-inventory.permission.instance.createOrder": [
@@ -83339,7 +83345,7 @@
   "ui-inventory.permission.instance.edit": [
     {
       "type": 0,
-      "value": "Inventory: View, create, edit instances"
+      "value": "インベントリ: インスタンスの表示、作成、編集"
     }
   ],
   "ui-inventory.permission.instance.set-deletion-and-staff-suppress": [
@@ -83357,7 +83363,7 @@
   "ui-inventory.permission.instance.view": [
     {
       "type": 0,
-      "value": "Inventory: View instances, holdings, and items"
+      "value": "インベントリ：インスタンス、所蔵、アイテムの表示"
     }
   ],
   "ui-inventory.permission.instance.view-staff-suppressed-records": [
@@ -83579,19 +83585,19 @@
   "ui-inventory.permission.settings.instance-note-types": [
     {
       "type": 0,
-      "value": "Settings (Inventory): Create, edit, delete instance note types"
+      "value": "設定（インベントリ）：インスタンスノートタイプの作成、編集、削除"
     }
   ],
   "ui-inventory.permission.settings.instance-statuses": [
     {
       "type": 0,
-      "value": "Settings (Inventory): Create, edit, delete instance status types"
+      "value": "設定（インベントリ）：インスタンスステータスタイプの作成、編集、削除"
     }
   ],
   "ui-inventory.permission.settings.instance-types": [
     {
       "type": 0,
-      "value": "Settings (Inventory): Create, edit, delete locally defined resource types"
+      "value": "設定（インベントリ）：ローカルで定義されたリソースタイプの作成、編集、削除"
     }
   ],
   "ui-inventory.permission.settings.item-note-types": [
@@ -84839,13 +84845,13 @@
   "ui-inventory.settings.instanceCallNumber.all": [
     {
       "type": 0,
-      "value": "Call numbers (all)"
+      "value": "請求記号（全て）"
     }
   ],
   "ui-inventory.settings.instanceCallNumber.dewey": [
     {
       "type": 0,
-      "value": "Dewey Decimal classification"
+      "value": "デューイ十進分類（DDC）"
     }
   ],
   "ui-inventory.settings.instanceCallNumber.identifierTypesPopover": [
@@ -84857,19 +84863,19 @@
   "ui-inventory.settings.instanceCallNumber.lc": [
     {
       "type": 0,
-      "value": "Library of Congress classification"
+      "value": "米国議会図書館十進分類（LCC）"
     }
   ],
   "ui-inventory.settings.instanceCallNumber.nlm": [
     {
       "type": 0,
-      "value": "National Library of Medicine classification"
+      "value": "米国国立医学図書館分類法"
     }
   ],
   "ui-inventory.settings.instanceCallNumber.other": [
     {
       "type": 0,
-      "value": "Other scheme"
+      "value": "その他のスキーム"
     }
   ],
   "ui-inventory.settings.instanceCallNumber.sudoc": [

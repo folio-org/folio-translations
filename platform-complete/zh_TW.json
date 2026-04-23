@@ -79981,28 +79981,34 @@
   ],
   "ui-inventory.holdingsHeader": [
     {
-      "type": 0,
-      "value": "館藏 : "
-    },
-    {
-      "type": 1,
-      "value": "location"
-    },
-    {
-      "type": 0,
-      "value": " > "
-    },
-    {
-      "type": 1,
-      "value": "callNumber"
-    },
-    {
-      "type": 0,
-      "value": " "
-    },
-    {
-      "type": 1,
-      "value": "copyNumber"
+      "children": [
+        {
+          "type": 0,
+          "value": "館藏 : "
+        },
+        {
+          "type": 1,
+          "value": "location"
+        },
+        {
+          "type": 0,
+          "value": " > "
+        },
+        {
+          "type": 1,
+          "value": "callNumber"
+        },
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "copyNumber"
+        }
+      ],
+      "type": 8,
+      "value": "span"
     }
   ],
   "ui-inventory.holdingsHrid": [
@@ -80732,7 +80738,7 @@
     },
     {
       "type": 1,
-      "value": "updatedDate"
+      "value": "date"
     }
   ],
   "ui-inventory.instanceRecordTitle": [
@@ -81793,7 +81799,7 @@
   "ui-inventory.ld.label": [
     {
       "type": 0,
-      "value": "Linked data editor"
+      "value": "Marigold"
     }
   ],
   "ui-inventory.linkText": [

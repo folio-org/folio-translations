@@ -79214,28 +79214,34 @@
   ],
   "ui-inventory.holdingsHeader": [
     {
-      "type": 0,
-      "value": "Acervo: "
-    },
-    {
-      "type": 1,
-      "value": "location"
-    },
-    {
-      "type": 0,
-      "value": " > "
-    },
-    {
-      "type": 1,
-      "value": "callNumber"
-    },
-    {
-      "type": 0,
-      "value": " "
-    },
-    {
-      "type": 1,
-      "value": "copyNumber"
+      "children": [
+        {
+          "type": 0,
+          "value": "Acervo: "
+        },
+        {
+          "type": 1,
+          "value": "location"
+        },
+        {
+          "type": 0,
+          "value": " > "
+        },
+        {
+          "type": 1,
+          "value": "callNumber"
+        },
+        {
+          "type": 0,
+          "value": " "
+        },
+        {
+          "type": 1,
+          "value": "copyNumber"
+        }
+      ],
+      "type": 8,
+      "value": "span"
     }
   ],
   "ui-inventory.holdingsHrid": [
@@ -80966,7 +80972,7 @@
   "ui-inventory.ld.label": [
     {
       "type": 0,
-      "value": "Linked data editor"
+      "value": "Marigold"
     }
   ],
   "ui-inventory.linkText": [
