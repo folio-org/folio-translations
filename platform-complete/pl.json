@@ -1088,7 +1088,7 @@
   "stripes-acq-components.receiving.itemStatus.In process": [
     {
       "type": 0,
-      "value": "W toku"
+      "value": "W trakcie opracowania"
     }
   ],
   "stripes-acq-components.receiving.itemStatus.In transit": [
@@ -9849,7 +9849,7 @@
   "stripes-data-transfer-components.recordTypes.linkedData": [
     {
       "type": 0,
-      "value": "Linked data"
+      "value": "Powiązane dane"
     }
   ],
   "stripes-data-transfer-components.recordTypes.marc-auth": [
@@ -10391,7 +10391,7 @@
   "stripes-erm-components.customProperties.supplementaryProperty.new": [
     {
       "type": 0,
-      "value": "Nowa właściwość dodatkowa"
+      "value": "Nowa dodatkowa właściwość"
     }
   ],
   "stripes-erm-components.customProperties.supplementaryProperty.primary": [
@@ -10763,7 +10763,7 @@
   "stripes-erm-components.customProperty.term.plural": [
     {
       "type": 0,
-      "value": "Semestry"
+      "value": "Warunki"
     }
   ],
   "stripes-erm-components.customProperty.termTitle": [
@@ -12387,7 +12387,7 @@
   "stripes-inventory-components.item.status.claimedReturned": [
     {
       "type": 0,
-      "value": "Zapewniony że zwrócony"
+      "value": "Zapewniony, że zwrócony"
     }
   ],
   "stripes-inventory-components.item.status.declaredLost": [
@@ -12399,13 +12399,13 @@
   "stripes-inventory-components.item.status.inProcess": [
     {
       "type": 0,
-      "value": "W toku"
+      "value": "W trakcie opracowania"
     }
   ],
   "stripes-inventory-components.item.status.inProcessNonRequestable": [
     {
       "type": 0,
-      "value": "W toku (niewymagane)"
+      "value": "W opracowaniu (nie można zamówić)"
     }
   ],
   "stripes-inventory-components.item.status.inTransit": [
@@ -12417,7 +12417,7 @@
   "stripes-inventory-components.item.status.intellectualItem": [
     {
       "type": 0,
-      "value": "Zasób intelektualny"
+      "value": "Pozycja bez fizycznego egzemplarza"
     }
   ],
   "stripes-inventory-components.item.status.longMissing": [
@@ -16397,7 +16397,7 @@
   "ui-agreements.agreementLines.customCoverageIndicator": [
     {
       "type": 0,
-      "value": "Wskaźnik niestandardowego pokrycia"
+      "value": "Wskaźnik własnego zakresu"
     }
   ],
   "ui-agreements.agreementLines.customCoverageTitle": [
@@ -17710,7 +17710,7 @@
   "ui-agreements.customProperties.config.create.errorMessage": [
     {
       "type": 0,
-      "value": "There was an error saving supplementary property: "
+      "value": "Wystąpił błąd podczas zapisywania dodatkowej właściwości: "
     },
     {
       "children": [
@@ -17790,7 +17790,7 @@
   "ui-agreements.customProperties.config.edit.errorMessage": [
     {
       "type": 0,
-      "value": "There was an error editing supplementary property: "
+      "value": "Wystąpił błąd podczas edycji dodatkowej właściwości: "
     },
     {
       "children": [
@@ -18832,7 +18832,7 @@
   "ui-agreements.eresources.coverage": [
     {
       "type": 0,
-      "value": "Pokrycie"
+      "value": "Zakres"
     }
   ],
   "ui-agreements.eresources.coverageDepth": [
@@ -19742,13 +19742,13 @@
   "ui-agreements.eresources.workIdentifier": [
     {
       "type": 0,
-      "value": "Work identifier"
+      "value": "Identyfikator zadania"
     }
   ],
   "ui-agreements.eresources.workIdentifierType": [
     {
       "type": 0,
-      "value": "Work identifier type"
+      "value": "Typ identyfikatora dzieła"
     }
   ],
   "ui-agreements.eresourcesCovered.exportAs": [
@@ -20550,7 +20550,7 @@
   "ui-agreements.license.amendmentNote": [
     {
       "type": 0,
-      "value": "Uwaga do poprawki"
+      "value": "Uwaga do zmiany"
     }
   ],
   "ui-agreements.license.controllingLicense": [
@@ -20634,7 +20634,7 @@
   "ui-agreements.license.licenseAmendments": [
     {
       "type": 0,
-      "value": "Poprawki w licencji"
+      "value": "Zmiany w licencji"
     }
   ],
   "ui-agreements.license.licenseIndex": [
@@ -21223,13 +21223,13 @@
   "ui-agreements.packages.selectAllTooltip": [
     {
       "type": 0,
-      "value": "Select all packages on this page"
+      "value": "Zaznacz wszystkie pakiety na tej stronie"
     }
   ],
   "ui-agreements.packages.selectCheckboxLabel": [
     {
       "type": 0,
-      "value": "Select package "
+      "value": "Wybierz pakiet "
     },
     {
       "type": 1,
@@ -22533,7 +22533,7 @@
   "ui-agreements.remoteKb.publicationDates.coverage": [
     {
       "type": 0,
-      "value": "Pokrycie"
+      "value": "Zakres"
     }
   ],
   "ui-agreements.remoteKb.publicationDates.online": [
@@ -23091,7 +23091,7 @@
   "ui-agreements.settings.supplementaryPropertyPickList": [
     {
       "type": 0,
-      "value": "Konfiguracja listy wyboru dodatkowych właściwości"
+      "value": "Konfiguracja listy wyboru właściwości dodatkowych"
     }
   ],
   "ui-agreements.settings.tabularList": [
@@ -31739,7 +31739,7 @@
   "ui-checkin.statuses.inProcessNonRequestable": [
     {
       "type": 0,
-      "value": "W toku (niewymagane)"
+      "value": "W opracowaniu (nie można zamówić)"
     }
   ],
   "ui-checkin.statuses.longMissing": [
@@ -33602,7 +33602,7 @@
   "ui-checkout.statuses.inProcessNonRequestable": [
     {
       "type": 0,
-      "value": "W toku (niewymagane)"
+      "value": "W opracowaniu (nie można zamówić)"
     }
   ],
   "ui-checkout.statuses.longMissing": [
@@ -33773,7 +33773,7 @@
   "ui-circulation-log.logEvent.action.Billed": [
     {
       "type": 0,
-      "value": "Naliczone"
+      "value": "Naliczono opłatę"
     }
   ],
   "ui-circulation-log.logEvent.action.Cancelled": [
@@ -33785,7 +33785,7 @@
   "ui-circulation-log.logEvent.action.Cancelled as error": [
     {
       "type": 0,
-      "value": "Anulowane jako błąd"
+      "value": "Anulowana, ponieważ była błędna"
     }
   ],
   "ui-circulation-log.logEvent.action.Changed due date": [
@@ -33827,7 +33827,7 @@
   "ui-circulation-log.logEvent.action.Claimed returned": [
     {
       "type": 0,
-      "value": "Zapewniony że zwrócony"
+      "value": "Zapewniony, że zwrócony"
     }
   ],
   "ui-circulation-log.logEvent.action.Closed loan": [
@@ -33851,7 +33851,7 @@
   "ui-circulation-log.logEvent.action.Credited fully": [
     {
       "type": 0,
-      "value": "Zaliczony w całości"
+      "value": "Anulowana w całości"
     }
   ],
   "ui-circulation-log.logEvent.action.Declared lost": [
@@ -33905,13 +33905,13 @@
   "ui-circulation-log.logEvent.action.Paid fully": [
     {
       "type": 0,
-      "value": "Zapłacony w całości"
+      "value": "Zapłacona w całości"
     }
   ],
   "ui-circulation-log.logEvent.action.Paid partially": [
     {
       "type": 0,
-      "value": "Zapłacony częściowo"
+      "value": "Zapłacona częściowo"
     }
   ],
   "ui-circulation-log.logEvent.action.Patron blocked from requesting": [
@@ -33959,13 +33959,13 @@
   "ui-circulation-log.logEvent.action.Refunded fully": [
     {
       "type": 0,
-      "value": "Całkowity zwrot kosztów"
+      "value": "Całkowity zwrot"
     }
   ],
   "ui-circulation-log.logEvent.action.Refunded partially": [
     {
       "type": 0,
-      "value": "Zwrot częściowy"
+      "value": "Częściowo zwrócona"
     }
   ],
   "ui-circulation-log.logEvent.action.Renewed": [
@@ -34007,31 +34007,31 @@
   "ui-circulation-log.logEvent.action.Staff information only added": [
     {
       "type": 0,
-      "value": "Dodano tylko informacje dotyczące personelu"
+      "value": "Dodano tylko informacje dla personelu"
     }
   ],
   "ui-circulation-log.logEvent.action.Transferred fully": [
     {
       "type": 0,
-      "value": "Przeniesione w całości"
+      "value": "Przeniesiona w całości"
     }
   ],
   "ui-circulation-log.logEvent.action.Transferred partially": [
     {
       "type": 0,
-      "value": "Przeniesione częściowo"
+      "value": "Przeniesiona częściowo"
     }
   ],
   "ui-circulation-log.logEvent.action.Waived fully": [
     {
       "type": 0,
-      "value": "Całkowicie umorzone"
+      "value": "Całkowicie umorzona"
     }
   ],
   "ui-circulation-log.logEvent.action.Waived partially": [
     {
       "type": 0,
-      "value": "Częściowo umorzone"
+      "value": "Częściowo umorzona"
     }
   ],
   "ui-circulation-log.logEvent.actions": [
@@ -52702,13 +52702,13 @@
   "ui-data-import.settings.mappingProfiles.map.item.status.inProcess": [
     {
       "type": 0,
-      "value": "W tok"
+      "value": "W trakcie opracowania"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.item.status.inProcessNonRequestable": [
     {
       "type": 0,
-      "value": "W toku (niewymagane)"
+      "value": "W opracowaniu (nie można zamówić)"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.item.status.inTransit": [
@@ -52720,7 +52720,7 @@
   "ui-data-import.settings.mappingProfiles.map.item.status.intellectualItem": [
     {
       "type": 0,
-      "value": "Zasób intelektualny"
+      "value": "Pozycja bez fizycznego egzemplarza"
     }
   ],
   "ui-data-import.settings.mappingProfiles.map.item.status.longMissing": [
@@ -61994,7 +61994,7 @@
   "ui-eholdings.titlesList.accessStatusType": [
     {
       "type": 0,
-      "value": "Access status type"
+      "value": "Typ statusu dostępu"
     }
   ],
   "ui-eholdings.titlesList.customCoverage": [
@@ -62006,7 +62006,7 @@
   "ui-eholdings.titlesList.customEmbargo": [
     {
       "type": 0,
-      "value": "Custom embargo period"
+      "value": "Niestandardowy okres embarga"
     }
   ],
   "ui-eholdings.titlesList.hidden": [
@@ -62030,7 +62030,7 @@
   "ui-eholdings.titlesList.publicationType": [
     {
       "type": 0,
-      "value": "Publication type"
+      "value": "Rodzaj publikacji"
     }
   ],
   "ui-eholdings.titlesList.status": [
@@ -63032,7 +63032,7 @@
   "ui-erm-comparisons.comparisonReport.coverage": [
     {
       "type": 0,
-      "value": "Pokrycie"
+      "value": "Zakres"
     }
   ],
   "ui-erm-comparisons.comparisonReport.info.eisbn": [
@@ -67913,7 +67913,7 @@
   "ui-finance.errors.failedToCreateAllocations": [
     {
       "type": 0,
-      "value": "Allocations have not been updated because one or more budgets are not active or planned."
+      "value": "Przydziały nie zostały zaktualizowane, ponieważ jeden lub więcej budżetów nie jest aktywnych lub zaplanowanych."
     }
   ],
   "ui-finance.errors.genericError": [
@@ -74014,25 +74014,25 @@
   "ui-inn-reach.settings.contribution-options.status.claimed-returned": [
     {
       "type": 0,
-      "value": "Zapewniony że zwrócony"
+      "value": "Zapewniony, że zwrócony"
     }
   ],
   "ui-inn-reach.settings.contribution-options.status.in-process": [
     {
       "type": 0,
-      "value": "W toku"
+      "value": "W trakcie opracowania"
     }
   ],
   "ui-inn-reach.settings.contribution-options.status.in-process-non-requestable": [
     {
       "type": 0,
-      "value": "W toku (niewymagane)"
+      "value": "W opracowaniu (nie można zamówić)"
     }
   ],
   "ui-inn-reach.settings.contribution-options.status.intellectual-item": [
     {
       "type": 0,
-      "value": "Zasób intelektualny"
+      "value": "Pozycja bez fizycznego egzemplarza"
     }
   ],
   "ui-inn-reach.settings.contribution-options.status.long-missing": [
@@ -76029,7 +76029,7 @@
   "ui-inventory-import.channels.field.commissioned.help": [
     {
       "type": 0,
-      "value": "This read-only field indicates whether the channel is commissioned and processing the files in its queue."
+      "value": "To pole tylko do odczytu wskazuje czy kanał jest uruchomiony i przetwarza pliki znajdujące się w jego kolejce."
     }
   ],
   "ui-inventory-import.channels.field.enabled": [
@@ -76047,7 +76047,7 @@
   "ui-inventory-import.channels.field.fileInProcess": [
     {
       "type": 0,
-      "value": "File currently being processed"
+      "value": "Plik jest obecnie przetwarzany"
     }
   ],
   "ui-inventory-import.channels.field.id": [
@@ -76071,7 +76071,7 @@
   "ui-inventory-import.channels.field.listening.help": [
     {
       "type": 0,
-      "value": "When this is checked (and the channel is enabled) the channel will pick up any uploaded files from the queue and import them to inventory. If unchecked, uploaded files will just accumulate in the queue for later."
+      "value": "Gdy ta opcja jest zaznaczona (i kanał jest włączony), kanał będzie pobierał wszystkie przesłane pliki z kolejki i importował je do katalogowania. Jeśli opcja nie jest zaznaczona, przesłane pliki będą się tylko gromadzić w kolejce do późniejszego przetworzenia."
     }
   ],
   "ui-inventory-import.channels.field.name": [
@@ -76089,7 +76089,7 @@
   "ui-inventory-import.channels.field.queuedFiles": [
     {
       "type": 0,
-      "value": "Number of files queued"
+      "value": "Liczba plików w kolejce"
     }
   ],
   "ui-inventory-import.channels.field.tag": [
@@ -76320,7 +76320,7 @@
   "ui-inventory-import.jobs.column.id": [
     {
       "type": 0,
-      "value": "Job ID"
+      "value": "ID zadania"
     }
   ],
   "ui-inventory-import.jobs.column.message": [
@@ -76969,7 +76969,7 @@
   "ui-inventory-import.upload.failure": [
     {
       "type": 0,
-      "value": "Could not upload "
+      "value": "Nie można przesłać pliku "
     },
     {
       "children": [
@@ -76983,7 +76983,7 @@
     },
     {
       "type": 0,
-      "value": " to channel "
+      "value": " do kanału "
     },
     {
       "children": [
@@ -76997,7 +76997,7 @@
     },
     {
       "type": 0,
-      "value": ": HTTP status "
+      "value": ": status HTTP "
     },
     {
       "type": 1,
@@ -77029,7 +77029,7 @@
   "ui-inventory-import.upload.success": [
     {
       "type": 0,
-      "value": "Uploaded "
+      "value": "Przesłano plik "
     },
     {
       "children": [
@@ -77043,7 +77043,7 @@
     },
     {
       "type": 0,
-      "value": " to channel "
+      "value": " do kanału "
     },
     {
       "children": [
@@ -78925,7 +78925,7 @@
   "ui-inventory.editInMarigold": [
     {
       "type": 0,
-      "value": "Edit resource in Marigold"
+      "value": "Edytuj zasób w Marigold"
     }
   ],
   "ui-inventory.editInstance": [
@@ -86109,25 +86109,25 @@
   "ui-invoice.filter.invoiceLine.createdBy": [
     {
       "type": 0,
-      "value": "Created by (Invoice Line)"
+      "value": "Utworzone przez (pozycja faktury)"
     }
   ],
   "ui-invoice.filter.invoiceLine.dateCreated": [
     {
       "type": 0,
-      "value": "Date created (Invoice Line)"
+      "value": "Data utworzenia (pozycja faktury)"
     }
   ],
   "ui-invoice.filter.invoiceLine.dateUpdated": [
     {
       "type": 0,
-      "value": "Date updated (Invoice Line)"
+      "value": "Data aktualizacji (pozycja faktury)"
     }
   ],
   "ui-invoice.filter.invoiceLine.updatedBy": [
     {
       "type": 0,
-      "value": "Updated by (Invoice Line)"
+      "value": "Zaktualizowane przez (pozycja faktury)"
     }
   ],
   "ui-invoice.filter.updatedBy": [
@@ -90732,7 +90732,7 @@
   "ui-licenses.customProperties.config.create.errorMessage": [
     {
       "type": 0,
-      "value": "There was an error saving term: "
+      "value": "Wystąpił błąd podczas zapisywania terminu: "
     },
     {
       "children": [
@@ -90812,7 +90812,7 @@
   "ui-licenses.customProperties.config.edit.errorMessage": [
     {
       "type": 0,
-      "value": "There was an error editing term: "
+      "value": "Wystąpił błąd podczas edycji terminu: "
     },
     {
       "children": [
@@ -96057,7 +96057,7 @@
   "ui-local-kb-admin.org.olf.general.jobs.NaiveMatchKeyAssignmentJob": [
     {
       "type": 0,
-      "value": "Przypisanie klucza dopasowania naiwnego"
+      "value": "Proste przypisanie klucza dopasowania"
     }
   ],
   "ui-local-kb-admin.org.olf.general.jobs.PackageImportJob": [
@@ -102277,13 +102277,13 @@
   "ui-oai-pmh.settings.general.oaiServiceIsDisabled": [
     {
       "type": 0,
-      "value": "OAI service is "
+      "value": "Usługa OAI jest "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "disabled"
+          "value": "wyłączona"
         }
       ],
       "type": 8,
@@ -102291,13 +102291,13 @@
     },
     {
       "type": 0,
-      "value": ". To affect OAI-PMH features by settings please "
+      "value": ". Aby zmiany w ustawieniach OAI-PMH zaczęły działać "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Enable OAI service"
+          "value": "włącz usługę OAI"
         }
       ],
       "type": 8,
@@ -102335,13 +102335,13 @@
   "ui-oai-pmh.settings.general.tooltip.fieldDisabled": [
     {
       "type": 0,
-      "value": "To enable this field, select "
+      "value": "Aby włączyć to pole, wybierz "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Enable OAI service"
+          "value": "Włącz usługę OAI"
         }
       ],
       "type": 8,
@@ -102409,13 +102409,13 @@
   "ui-oai-pmh.settings.nonGeneral.tooltip.fieldDisabled": [
     {
       "type": 0,
-      "value": "To enable this field, select "
+      "value": "Aby włączyć to pole, wybierz "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Enable OAI service"
+          "value": "Włącz usługę OAI"
         }
       ],
       "type": 8,
@@ -102423,13 +102423,13 @@
     },
     {
       "type": 0,
-      "value": " in the "
+      "value": " w sekcji "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "General"
+          "value": "Ogólne"
         }
       ],
       "type": 8,
@@ -102437,19 +102437,19 @@
     },
     {
       "type": 0,
-      "value": " section."
+      "value": "."
     }
   ],
   "ui-oai-pmh.settings.other.oaiServiceIsDisabled": [
     {
       "type": 0,
-      "value": "OAI service is "
+      "value": "Usługa OAI jest "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "disabled"
+          "value": "wyłączona"
         }
       ],
       "type": 8,
@@ -102457,13 +102457,13 @@
     },
     {
       "type": 0,
-      "value": ". To affect OAI-PMH features by settings please "
+      "value": ". Aby zmiany w ustawieniach OAI-PMH zaczęły działać "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "Enable OAI service"
+          "value": "włącz usługę OAI"
         }
       ],
       "type": 8,
@@ -102471,13 +102471,13 @@
     },
     {
       "type": 0,
-      "value": " in the "
+      "value": " w sekcji "
     },
     {
       "children": [
         {
           "type": 0,
-          "value": "General"
+          "value": "Ogólne"
         }
       ],
       "type": 8,
@@ -102485,7 +102485,7 @@
     },
     {
       "type": 0,
-      "value": " section."
+      "value": "."
     }
   ],
   "ui-oai-pmh.settings.sets.action.delete": [
@@ -109647,7 +109647,7 @@
   "ui-orders.settings.poNumber.validation.prefixOrSuffixPatternMismatch": [
     {
       "type": 0,
-      "value": "Name must be less than "
+      "value": "Nazwa musi mieć mniej niż "
     },
     {
       "style": null,
@@ -109656,7 +109656,7 @@
     },
     {
       "type": 0,
-      "value": " alphanumeric characters"
+      "value": " znaków alfanumerycznych"
     }
   ],
   "ui-orders.settings.polinesLimit": [
@@ -114885,19 +114885,19 @@
   "ui-plugin-bursar-export.bursarExports.transfer.dryRunCheckbox": [
     {
       "type": 0,
-      "value": "Enable testing mode"
+      "value": "Włącz tryb testowy"
     }
   ],
   "ui-plugin-bursar-export.bursarExports.transfer.dryRunDescription": [
     {
       "type": 0,
-      "value": "When enabled, the export will be generated and processed as usual, however, accounts will not be transferred. This allows you to verify that your criteria are properly configured before performing actual transfers."
+      "value": "Gdy opcja jest włączona, eksport zostanie wygenerowany i przetworzony jak zwykle, jednak konta nie zostaną przeniesione. Pozwala to sprawdzić, czy twoje kryteria są poprawnie skonfigurowane przed wykonaniem faktycznego transferu."
     }
   ],
   "ui-plugin-bursar-export.bursarExports.transfer.dryRunHeader": [
     {
       "type": 0,
-      "value": "Testing mode"
+      "value": "Tryb testowy"
     }
   ],
   "ui-plugin-bursar-export.bursarExports.transfer.owner": [
@@ -117308,7 +117308,7 @@
   "ui-plugin-find-instance.item.status.claimedReturned": [
     {
       "type": 0,
-      "value": "Zapewniony że zwrócony"
+      "value": "Zapewniony, że zwrócony"
     }
   ],
   "ui-plugin-find-instance.item.status.declaredLost": [
@@ -117320,13 +117320,13 @@
   "ui-plugin-find-instance.item.status.inProcess": [
     {
       "type": 0,
-      "value": "W toku"
+      "value": "W trakcie opracowania"
     }
   ],
   "ui-plugin-find-instance.item.status.inProcessNonRequestable": [
     {
       "type": 0,
-      "value": "W toku (niewymagane)"
+      "value": "W opracowaniu (nie można zamówić)"
     }
   ],
   "ui-plugin-find-instance.item.status.inTransit": [
@@ -117338,7 +117338,7 @@
   "ui-plugin-find-instance.item.status.intellectualItem": [
     {
       "type": 0,
-      "value": "Zasób intelektualny"
+      "value": "Pozycja bez fizycznego egzemplarza"
     }
   ],
   "ui-plugin-find-instance.item.status.longMissing": [
@@ -124750,7 +124750,7 @@
   "ui-quick-marc.record.headingType.150": [
     {
       "type": 0,
-      "value": "Topical"
+      "value": "Określnik rzeczowy"
     }
   ],
   "ui-quick-marc.record.headingType.151": [
@@ -127272,7 +127272,7 @@
   "ui-receiving.piece.itemStatus.In process": [
     {
       "type": 0,
-      "value": "W toku"
+      "value": "W trakcie opracowania"
     }
   ],
   "ui-receiving.piece.itemStatus.In transit": [
@@ -131227,7 +131227,7 @@
   "ui-requests.item.status.claimedReturned": [
     {
       "type": 0,
-      "value": "Zapewniony że zwrócony"
+      "value": "Zapewniony, że zwrócony"
     }
   ],
   "ui-requests.item.status.declaredLost": [
@@ -131239,13 +131239,13 @@
   "ui-requests.item.status.inProcess": [
     {
       "type": 0,
-      "value": "W toku"
+      "value": "W trakcie opracowania"
     }
   ],
   "ui-requests.item.status.inProcessNonRequestable": [
     {
       "type": 0,
-      "value": "W toku (niewymagane)"
+      "value": "W opracowaniu (nie można zamówić)"
     }
   ],
   "ui-requests.item.status.inTransit": [
@@ -131257,7 +131257,7 @@
   "ui-requests.item.status.intellectualItem": [
     {
       "type": 0,
-      "value": "Zasób intelektualny"
+      "value": "Pozycja bez fizycznego egzemplarza"
     }
   ],
   "ui-requests.item.status.longMissing": [
@@ -136138,7 +136138,7 @@
   "ui-service-interaction.settings.numberGenerators.helpText": [
     {
       "type": 0,
-      "value": "New number generators need development work to integrate them with FOLIO apps. Please review the "
+      "value": "Nowe generatory numerów wymagają prac programistycznych, aby zintegrować je z aplikacjami FOLIO. Przed utworzeniem nowego generatora numerów proszę zapoznać się z "
     },
     {
       "type": 1,
@@ -136146,7 +136146,7 @@
     },
     {
       "type": 0,
-      "value": " before creating a new number generator."
+      "value": "."
     }
   ],
   "ui-service-interaction.settings.numberGenerators.name": [
@@ -138384,7 +138384,7 @@
   "ui-users.accounts.cancelError": [
     {
       "type": 0,
-      "value": "Anulowane jako błąd"
+      "value": "Anulowana, ponieważ była błędna"
     }
   ],
   "ui-users.accounts.cancellation.error.comment": [
@@ -138728,7 +138728,7 @@
   "ui-users.accounts.history.columns.amount": [
     {
       "type": 0,
-      "value": "Naliczone"
+      "value": "Naliczono opłatę"
     }
   ],
   "ui-users.accounts.history.columns.barcode": [
@@ -141179,7 +141179,7 @@
   "ui-users.data.loanActionMap.claimedReturned": [
     {
       "type": 0,
-      "value": "Zapewniony że zwrócony"
+      "value": "Zapewniony, że zwrócony"
     }
   ],
   "ui-users.data.loanActionMap.closedLoan": [
@@ -141985,7 +141985,7 @@
   "ui-users.errors.userRequestFailed": [
     {
       "type": 0,
-      "value": "Unable to retrieve user details"
+      "value": "Nie można pobrać danych użytkownika"
     }
   ],
   "ui-users.errors.usernameUnavailable": [
@@ -143425,7 +143425,7 @@
   "ui-users.loans.details.claimedReturned": [
     {
       "type": 0,
-      "value": "Zapewniony że zwrócony"
+      "value": "Zapewniony, że zwrócony"
     }
   ],
   "ui-users.loans.details.effectiveCallNumber": [
@@ -144310,7 +144310,7 @@
   "ui-users.lostItems.list.filters.status.billed": [
     {
       "type": 0,
-      "value": "Naliczone"
+      "value": "Naliczono opłatę"
     }
   ],
   "ui-users.lostItems.list.filters.status.cancelled": [
@@ -146895,7 +146895,7 @@
   "ui-users.reports.cashDrawer.label": [
     {
       "type": 0,
-      "value": "Raport uzgodnienia kasy (CSV, PDF)"
+      "value": "Raport rozliczenia kasy (CSV, PDF)"
     }
   ],
   "ui-users.reports.claimReturned.label": [
@@ -149009,7 +149009,7 @@
   "ui-users.userSearch": [
     {
       "type": 0,
-      "value": "User search"
+      "value": "Wyszukiwanie użytkownika"
     }
   ],
   "ui-users.userSearchResults": [

@@ -12381,7 +12381,7 @@
   "stripes-inventory-components.instances.columns.hrid": [
     {
       "type": 0,
-      "value": "Instanz HRID"
+      "value": "Instanz-HRID"
     }
   ],
   "stripes-inventory-components.instances.columns.publishers": [
@@ -12651,7 +12651,7 @@
   "stripes-inventory-components.search.instanceHrid": [
     {
       "type": 0,
-      "value": "Titel-HRID"
+      "value": "Instanz-HRID"
     }
   ],
   "stripes-inventory-components.search.instanceId": [
@@ -72981,7 +72981,7 @@
   "ui-inn-reach.reports.in-transit-too-long.label": [
     {
       "type": 0,
-      "value": "In-transit too long report (CSV)"
+      "value": "Bericht über Exemplartransportzeitüberschreitung (CSV)"
     }
   ],
   "ui-inn-reach.reports.itemBarcode": [
@@ -73065,7 +73065,7 @@
   "ui-inn-reach.reports.modal.title.in-transit-too-long-report": [
     {
       "type": 0,
-      "value": "In-transit too long report"
+      "value": "Bericht über Exemplartransportzeitüberschreitung"
     }
   ],
   "ui-inn-reach.reports.modal.title.owning-site-overdue-report": [
@@ -73077,13 +73077,13 @@
   "ui-inn-reach.reports.modal.title.paged-too-long-report": [
     {
       "type": 0,
-      "value": "Owning site paged too long report"
+      "value": "Bericht: Bereitstellungsdauer am besitzenden Standort überschritten"
     }
   ],
   "ui-inn-reach.reports.modal.title.requested-too-long-report": [
     {
       "type": 0,
-      "value": "Requested too long report"
+      "value": "Bericht: Bereitstellungsverzug"
     }
   ],
   "ui-inn-reach.reports.modal.title.returned-too-long-report": [
@@ -73095,13 +73095,13 @@
   "ui-inn-reach.reports.owning-site-overdue.label": [
     {
       "type": 0,
-      "value": "Owning site overdue report (CSV)"
+      "value": "Bericht: Überfällige Exemplare am besitzenden Standort (CSV)"
     }
   ],
   "ui-inn-reach.reports.paged-too-long.label": [
     {
       "type": 0,
-      "value": "Owning site paged too long report (CSV)"
+      "value": "Bericht: Überschreitung der Bereitstellungszeit am besitzenden Standort (CSV)"
     }
   ],
   "ui-inn-reach.reports.pagedDate": [
@@ -73131,25 +73131,25 @@
   "ui-inn-reach.reports.requested-too-long.label": [
     {
       "type": 0,
-      "value": "Requested too long report (CSV)"
+      "value": "Bericht: Bereitstellungsverzug (CSV)"
     }
   ],
   "ui-inn-reach.reports.requestingPatronAgency": [
     {
       "type": 0,
-      "value": "Requesting Patron Agency"
+      "value": "Anfordernde Benutzenden-Agentur"
     }
   ],
   "ui-inn-reach.reports.requestingPatronId": [
     {
       "type": 0,
-      "value": "Requesting Patron ID"
+      "value": "Anforderung der Benutzenden-ID"
     }
   ],
   "ui-inn-reach.reports.returned-too-long.label": [
     {
       "type": 0,
-      "value": "Returned too long report (CSV)"
+      "value": "Bericht: Rückgabedauer überschritten (CSV)"
     }
   ],
   "ui-inn-reach.resetAllFilters": [
@@ -73309,7 +73309,7 @@
   "ui-inn-reach.settings.bib-transformation.action.add-new-field": [
     {
       "type": 0,
-      "value": "row with fields for modifying the contributed records"
+      "value": "Zeile mit Feldern zur Anpassung der gemeldeten Datensätze"
     }
   ],
   "ui-inn-reach.settings.bib-transformation.action.remove-fields": [
@@ -73419,19 +73419,19 @@
   "ui-inn-reach.settings.bib-transformation.field.modify-MARC": [
     {
       "type": 0,
-      "value": "Modify MARC 001 field for contributed records"
+      "value": "MARC-Feldes 001 für gemeldete Datensätze anpassen"
     }
   ],
   "ui-inn-reach.settings.bib-transformation.field.strip-fields-and-subfields": [
     {
       "type": 0,
-      "value": "Strip fields and subfields"
+      "value": "Felder und Unterfelder entfernen"
     }
   ],
   "ui-inn-reach.settings.bib-transformation.field.strip-prefix": [
     {
       "type": 0,
-      "value": "Strip prefix"
+      "value": "Präfix entfernen"
     }
   ],
   "ui-inn-reach.settings.bib-transformation.placeholder.identifier-type": [
@@ -73443,13 +73443,13 @@
   "ui-inn-reach.settings.bib-transformation.placeholder.ignore-prefixes": [
     {
       "type": 0,
-      "value": "Enter comma-separated prefix strings"
+      "value": "Kommagetrennte Präfix-Zeichenfolgen eingeben"
     }
   ],
   "ui-inn-reach.settings.bib-transformation.placeholder.strip-fields-and-subfields": [
     {
       "type": 0,
-      "value": "Enter comma-separated MARC fields and/or subfields to exclude from transformed MARC records"
+      "value": "Kommagetrennte MARC-Felder und/oder Unterfelder eingeben, die von den transformierten Datensätzen auszuschließen sind"
     }
   ],
   "ui-inn-reach.settings.bib-transformation.title": [
@@ -73557,7 +73557,7 @@
   "ui-inn-reach.settings.central-patron-type.create.success": [
     {
       "type": 0,
-      "value": "Central patron type settings created successfully"
+      "value": "Zentrale Benutzendentypeinstellungen erfolgreich erstellt"
     }
   ],
   "ui-inn-reach.settings.central-patron-type.field.folio-patron-groups": [
@@ -73587,7 +73587,7 @@
   "ui-inn-reach.settings.central-patron-type.update.success": [
     {
       "type": 0,
-      "value": "Central patron type settings updated successfully"
+      "value": "Einstellungen für zentrale Benutzendentypen erfolgreich aktualisiert"
     }
   ],
   "ui-inn-reach.settings.central-server-configuration.action.delete": [
@@ -74007,7 +74007,7 @@
   "ui-inn-reach.settings.contribution-criteria.field.contributeAsSystemOwned": [
     {
       "type": 0,
-      "value": "FOLIO statistical code for INN-Reach system owned resource indication"
+      "value": "FOLIO statistischer Code für INN-Reach systemeigene Ressourcenanzeige"
     }
   ],
   "ui-inn-reach.settings.contribution-criteria.field.contributeButSuppress": [
@@ -74193,7 +74193,7 @@
   "ui-inn-reach.settings.folio-circulation-user": [
     {
       "type": 0,
-      "value": "FOLIO circulation user for INN-Reach patron type"
+      "value": "FOLIO-Benutzende der Ausleihe für den INN-Reach-Benutzendentyp"
     }
   ],
   "ui-inn-reach.settings.folio-circulation-user.button.save": [
@@ -74217,7 +74217,7 @@
   "ui-inn-reach.settings.folio-circulation-user.create.success": [
     {
       "type": 0,
-      "value": "Central patron type settings created successfully"
+      "value": "Zentrale Benutzendentypeinstellungen erfolgreich erstellt"
     }
   ],
   "ui-inn-reach.settings.folio-circulation-user.field.barcode": [
@@ -74247,13 +74247,13 @@
   "ui-inn-reach.settings.folio-circulation-user.title": [
     {
       "type": 0,
-      "value": "FOLIO circulation user for INN-Reach patron type"
+      "value": "FOLIO-Ausleih-Benutzende für INN-Reach-Benutzendentyp"
     }
   ],
   "ui-inn-reach.settings.folio-circulation-user.update.success": [
     {
       "type": 0,
-      "value": "Central patron type settings updated successfully"
+      "value": "Einstellungen für zentrale Benutzendentypen erfolgreich aktualisiert"
     }
   ],
   "ui-inn-reach.settings.folio-to-inn-reach-locations": [
@@ -74373,7 +74373,7 @@
   "ui-inn-reach.settings.inn-reach-recall-user": [
     {
       "type": 0,
-      "value": "INN-Reach recall user"
+      "value": "INN-Reach-Benutzende für Rückrufe"
     }
   ],
   "ui-inn-reach.settings.inn-reach-recall-user.button.save": [
@@ -74397,7 +74397,7 @@
   "ui-inn-reach.settings.inn-reach-recall-user.create.success": [
     {
       "type": 0,
-      "value": "INN-Reach recall user settings created successfully"
+      "value": "Einstellungen für die INN-Reach-Rückruf-Benutzenden erfolgreich erstellt"
     }
   ],
   "ui-inn-reach.settings.inn-reach-recall-user.field.recall-inn-reach-items-as-user": [
@@ -74409,13 +74409,13 @@
   "ui-inn-reach.settings.inn-reach-recall-user.title": [
     {
       "type": 0,
-      "value": "INN-Reach recall user settings"
+      "value": "INN-Reach-Rückrufbeneutzendeneinstellungen"
     }
   ],
   "ui-inn-reach.settings.inn-reach-recall-user.update.success": [
     {
       "type": 0,
-      "value": "INN-Reach recall user settings updated successfully"
+      "value": "INN-Reach-Benutzereinstellungen für Rüfrufe erfolgreich aktualisiert"
     }
   ],
   "ui-inn-reach.settings.innreach-locations.actions": [
@@ -74813,7 +74813,7 @@
   "ui-inn-reach.settings.paging-slip-template": [
     {
       "type": 0,
-      "value": "INN-Reach paging slip templates"
+      "value": "Vorlagen für INN-Reach-Bestellzettel"
     }
   ],
   "ui-inn-reach.settings.paging-slip-template.button.save": [
@@ -74837,7 +74837,7 @@
   "ui-inn-reach.settings.paging-slip-template.create.success": [
     {
       "type": 0,
-      "value": "INN-Reach paging slip template settings created successfully"
+      "value": "Einstellungen für INN-Reach-Bestellzettel-Vorlagen erfolgreich erstellt"
     }
   ],
   "ui-inn-reach.settings.paging-slip-template.field.description": [
@@ -74861,7 +74861,7 @@
   "ui-inn-reach.settings.paging-slip-template.title": [
     {
       "type": 0,
-      "value": "INN-Reach paging slip templates"
+      "value": "Vorlagen für INN-Reach-Bestellzettel"
     }
   ],
   "ui-inn-reach.settings.paging-slip-template.token-header.effective-location": [
@@ -74909,7 +74909,7 @@
   "ui-inn-reach.settings.paging-slip-template.update.success": [
     {
       "type": 0,
-      "value": "INN-Reach paging slip template settings updated successfully"
+      "value": "INN-Reach-Bereitstellungslistenvorlageneinstellungen erfolgreich aktualisiert"
     }
   ],
   "ui-inn-reach.settings.patron-agency": [
@@ -75041,7 +75041,7 @@
   "ui-inn-reach.settings.visible-patron-id": [
     {
       "type": 0,
-      "value": "Sichtbare Personen-ID"
+      "value": "Sichtbare Benutzenden-ID"
     }
   ],
   "ui-inn-reach.settings.visible-patron-id.button.save": [
@@ -75059,13 +75059,13 @@
   "ui-inn-reach.settings.visible-patron-id.callout.connectionProblem.update": [
     {
       "type": 0,
-      "value": "Unable to updated data due to a module error. Please try again. If a problem persists please contact your system administrator"
+      "value": "Daten konnten aufgrund eines Modulfehlers nicht aktualisiert werden. Bitte erneut versuchen. Wenn das Problem weiterhin besteht, bitte an die Systemadministration wenden."
     }
   ],
   "ui-inn-reach.settings.visible-patron-id.create.success": [
     {
       "type": 0,
-      "value": "Visible patron id settings created successfully"
+      "value": "Einstellungen für die sichtbare Benutzenden-ID erfolgreich erstellt"
     }
   ],
   "ui-inn-reach.settings.visible-patron-id.field.BARCODE": [
@@ -75101,7 +75101,7 @@
   "ui-inn-reach.settings.visible-patron-id.label.select-user-fields": [
     {
       "type": 0,
-      "value": "Select user fields to match on for \"Visible Patron ID\""
+      "value": "Benutzendenfelder für den Abgleich mit der „Sichtbaren Benutzenden-ID“ auswählen"
     }
   ],
   "ui-inn-reach.settings.visible-patron-id.no-valid-fields-are-defined": [
@@ -75119,13 +75119,13 @@
   "ui-inn-reach.settings.visible-patron-id.title": [
     {
       "type": 0,
-      "value": "Sichtbare ID der Benutzenden"
+      "value": "Sichtbare Benutzenden-ID"
     }
   ],
   "ui-inn-reach.settings.visible-patron-id.update.success": [
     {
       "type": 0,
-      "value": "Visible patron id settings updated successfully"
+      "value": "Einstellungen für die sichtbare Benutzenden-ID erfolgreich aktualisiert"
     }
   ],
   "ui-inn-reach.settings.visible-patron-id.validate.select-to-continue": [
@@ -75867,7 +75867,7 @@
   "ui-inn-reach.transfer-hold.callout.success.post.transfer-hold": [
     {
       "type": 0,
-      "value": "Item has been successfully transferred"
+      "value": "Exemplar wurde erfolgreich übertragen"
     }
   ],
   "ui-inn-reach.transfer-hold.modal.column.barcode": [
@@ -76110,7 +76110,7 @@
   "ui-inventory-import.channels.field.commissioned.help": [
     {
       "type": 0,
-      "value": "This read-only field indicates whether the channel is commissioned and processing the files in its queue."
+      "value": "Dieses schreibgeschützte Feld zeigt an, ob der Kanal in Betrieb ist (commissioned) und die Dateien in seiner Warteschlange verarbeitet."
     }
   ],
   "ui-inventory-import.channels.field.enabled": [
@@ -76152,7 +76152,7 @@
   "ui-inventory-import.channels.field.listening.help": [
     {
       "type": 0,
-      "value": "When this is checked (and the channel is enabled) the channel will pick up any uploaded files from the queue and import them to inventory. If unchecked, uploaded files will just accumulate in the queue for later."
+      "value": "Wenn diese Option aktiviert ist (und der Kanal aktiviert ist), nimmt der Kanal alle hochgeladenen Dateien aus der Warteschlange auf und importiert sie in den Katalog. Wenn diese Option nicht aktiviert ist, werden die hochgeladenen Dateien einfach in der Warteschlange für später gesammelt."
     }
   ],
   "ui-inventory-import.channels.field.name": [
@@ -77635,7 +77635,7 @@
   "ui-inventory.additionalCallNumberType": [
     {
       "type": 0,
-      "value": "Additional call number type"
+      "value": "Zusätzlicher Signaturtyp"
     }
   ],
   "ui-inventory.additionalCallNumbers": [
@@ -78941,7 +78941,7 @@
   "ui-inventory.editInMarigold": [
     {
       "type": 0,
-      "value": "Edit resource in Marigold"
+      "value": "Ressource in Marigold bearbeiten"
     }
   ],
   "ui-inventory.editInstance": [
@@ -80299,7 +80299,7 @@
   "ui-inventory.instances.columns.instanceHRID": [
     {
       "type": 0,
-      "value": "Instanz HRID"
+      "value": "Instanz-HRID"
     }
   ],
   "ui-inventory.instances.columns.numberOfTitles": [
@@ -118983,7 +118983,7 @@
   "ui-quick-marc.autoLinkingButton.infotip": [
     {
       "type": 0,
-      "value": "The Link headings button links all access point bibliographic fields that contain a $0 to authority heading. If a field does not have a $0, you can manually link the field to an authority heading by selecting the Link button on the field itself."
+      "value": "Die Schaltfläche Überschriften verknüpfen verknüpft alle bibliografischen Felder des Zugriffspunkts, die eine $0 enthalten, mit der Überschrift einer Autorität. Wenn ein Feld keine $0 enthält, können Sie das Feld manuell mit einer Überschrift verknüpfen, indem Sie die Schaltfläche Verknüpfung auf dem Feld selbst auswählen."
     }
   ],
   "ui-quick-marc.autoLinkingButton.infotip.learnMore": [
@@ -135292,7 +135292,7 @@
   "ui-service-interaction.numberGenerator.noPermission": [
     {
       "type": 0,
-      "value": "You do not have the necessary permissions to use number generator sequences. Please contact your system administrator."
+      "value": "Derzeit keine erforderlichen Berechtigungen, um Nummernkreise zu verwenden. Bitte den Administrator kontaktieren."
     }
   ],
   "ui-service-interaction.numberGenerator.selectGenerator": [

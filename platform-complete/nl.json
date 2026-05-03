@@ -9786,7 +9786,7 @@
   "stripes-data-transfer-components.recordTypes.linkedData": [
     {
       "type": 0,
-      "value": "Linked data"
+      "value": "Gekoppelde gegevens"
     }
   ],
   "stripes-data-transfer-components.recordTypes.marc-auth": [
@@ -12642,7 +12642,7 @@
   "stripes-leipzig-components.editCard.delete.card": [
     {
       "type": 0,
-      "value": "Delete card"
+      "value": "Kaart verwijderen"
     }
   ],
   "stripes-leipzig-components.errors.dateInvalid": [
@@ -12660,55 +12660,55 @@
   "stripes-leipzig-components.monthpicker.errors.dateInvalid": [
     {
       "type": 0,
-      "value": "Date invalid"
+      "value": "Datum ongeldig"
     }
   ],
   "stripes-leipzig-components.monthpicker.errors.required": [
     {
       "type": 0,
-      "value": "Required"
+      "value": "Vereist"
     }
   ],
   "stripes-leipzig-components.monthpicker.monthSelection": [
     {
       "type": 0,
-      "value": "Month selection"
+      "value": "Maand selecteren"
     }
   ],
   "stripes-leipzig-components.monthpicker.selected": [
     {
       "type": 0,
-      "value": "selected"
+      "value": "geselecteerd"
     }
   ],
   "stripes-leipzig-components.monthpicker.yearMonthInput": [
     {
       "type": 0,
-      "value": "Year and month input"
+      "value": "Jaar en maand invoer"
     }
   ],
   "stripes-leipzig-components.monthpicker.yearMonthSelection": [
     {
       "type": 0,
-      "value": "Calendar: Year and month selection"
+      "value": "Kalender: Selectie van jaar en maand"
     }
   ],
   "stripes-leipzig-components.monthpicker.yearSelection": [
     {
       "type": 0,
-      "value": "Year selection"
+      "value": "Jaar selecteren"
     }
   ],
   "stripes-leipzig-components.repeatableTextField.buttonAdd": [
     {
       "type": 0,
-      "value": "+ Add"
+      "value": "+ Toevoegen"
     }
   ],
   "stripes-leipzig-components.repeatableTextField.validateRequired": [
     {
       "type": 0,
-      "value": "Required!"
+      "value": "Vereist!"
     }
   ],
   "stripes-marc-components.meta.title": [
@@ -56516,7 +56516,7 @@
   "ui-eholdings.titlesList.accessStatusType": [
     {
       "type": 0,
-      "value": "Access status type"
+      "value": "Type toegangsstatus"
     }
   ],
   "ui-eholdings.titlesList.customCoverage": [
@@ -56528,7 +56528,7 @@
   "ui-eholdings.titlesList.customEmbargo": [
     {
       "type": 0,
-      "value": "Custom embargo period"
+      "value": "Maatwerk Embargo periode"
     }
   ],
   "ui-eholdings.titlesList.hidden": [
@@ -56552,7 +56552,7 @@
   "ui-eholdings.titlesList.publicationType": [
     {
       "type": 0,
-      "value": "Publication type"
+      "value": "Soorten publicaties"
     }
   ],
   "ui-eholdings.titlesList.status": [
@@ -62235,7 +62235,7 @@
   "ui-finance.errors.failedToCreateAllocations": [
     {
       "type": 0,
-      "value": "Allocations have not been updated because one or more budgets are not active or planned."
+      "value": "Toewijzingen zijn niet bijgewerkt omdat een of meer budgets niet actief of gepland zijn."
     }
   ],
   "ui-finance.errors.genericError": [
@@ -70283,7 +70283,7 @@
   "ui-inventory-import.channels.field.commissioned.help": [
     {
       "type": 0,
-      "value": "This read-only field indicates whether the channel is commissioned and processing the files in its queue."
+      "value": "Dit alleen-lezen veld geeft aan of het kanaal in gebruik is en de bestanden in de wachtrij verwerkt."
     }
   ],
   "ui-inventory-import.channels.field.enabled": [
@@ -70325,7 +70325,7 @@
   "ui-inventory-import.channels.field.listening.help": [
     {
       "type": 0,
-      "value": "When this is checked (and the channel is enabled) the channel will pick up any uploaded files from the queue and import them to inventory. If unchecked, uploaded files will just accumulate in the queue for later."
+      "value": "Wanneer dit is aangevinkt (en het kanaal is ingeschakeld) zal het kanaal alle geüploade bestanden uit de wachtrij ophalen en importeren in de Collectiebezit. Als dit niet is aangevinkt, zullen de geüploade bestanden in de wachtrij blijven staan voor later."
     }
   ],
   "ui-inventory-import.channels.field.name": [
@@ -70496,20 +70496,49 @@
   ],
   "ui-inventory-import.jobs.caption.completed": [
     {
-      "type": 0,
-      "value": "Geïmporteerd "
-    },
-    {
-      "type": 1,
+      "style": null,
+      "type": 2,
       "value": "count"
     },
     {
       "type": 0,
-      "value": " records in "
+      "value": " "
+    },
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "record"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "records"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": " in "
     },
     {
       "type": 1,
       "value": "duration"
+    },
+    {
+      "type": 0,
+      "value": " geïmporteerd"
     }
   ],
   "ui-inventory-import.jobs.caption.notComplete": [
@@ -70545,7 +70574,7 @@
   "ui-inventory-import.jobs.column.id": [
     {
       "type": 0,
-      "value": "Job ID"
+      "value": "Functie ID"
     }
   ],
   "ui-inventory-import.jobs.column.message": [
@@ -73078,7 +73107,7 @@
   "ui-inventory.editInMarigold": [
     {
       "type": 0,
-      "value": "Edit resource in Marigold"
+      "value": "Bewerk bron in Marigold"
     }
   ],
   "ui-inventory.editInstance": [
@@ -79563,14 +79592,10 @@
   "ui-invoice.errors.budgetRestrictedEncumbranceError": [
     {
       "type": 0,
-      "value": "Het distributiebedrag van het Fonds is hoger dan het toegestane bedrag voor de Budgetreservering in de "
+      "value": "Het distributiebedrag van het Fonds is hoger dan het toegestane bedrag voor de Budgetreservering in de  "
     },
     {
       "children": [
-        {
-          "type": 0,
-          "value": "."
-        },
         {
           "type": 1,
           "value": "fundCode"
@@ -102483,7 +102508,7 @@
   "ui-orders.settings.poNumber.validation.prefixOrSuffixPatternMismatch": [
     {
       "type": 0,
-      "value": "Name must be less than "
+      "value": "De naam moet kleiner zijn dan "
     },
     {
       "style": null,
@@ -102492,7 +102517,7 @@
     },
     {
       "type": 0,
-      "value": " alphanumeric characters"
+      "value": " alfanumerieke tekens"
     }
   ],
   "ui-orders.settings.polinesLimit": [
@@ -107259,19 +107284,19 @@
   "ui-plugin-bursar-export.bursarExports.transfer.dryRunCheckbox": [
     {
       "type": 0,
-      "value": "Enable testing mode"
+      "value": "Testmodus inschakelen"
     }
   ],
   "ui-plugin-bursar-export.bursarExports.transfer.dryRunDescription": [
     {
       "type": 0,
-      "value": "When enabled, the export will be generated and processed as usual, however, accounts will not be transferred. This allows you to verify that your criteria are properly configured before performing actual transfers."
+      "value": "Indien ingeschakeld, wordt de export zoals gewoonlijk gegenereerd en verwerkt, maar worden rekeningen niet overgedragen. Zo kunt u controleren of uw criteria goed geconfigureerd zijn voordat u daadwerkelijk overschrijvingen uitvoert."
     }
   ],
   "ui-plugin-bursar-export.bursarExports.transfer.dryRunHeader": [
     {
       "type": 0,
-      "value": "Testing mode"
+      "value": "Testmodus"
     }
   ],
   "ui-plugin-bursar-export.bursarExports.transfer.owner": [
@@ -111360,13 +111385,13 @@
   "ui-quick-marc.autoLinkingButton.infotip": [
     {
       "type": 0,
-      "value": "The Link headings button links all access point bibliographic fields that contain a $0 to authority heading. If a field does not have a $0, you can manually link the field to an authority heading by selecting the Link button on the field itself."
+      "value": "De knop Link kopteksten Linkt alle toegangspunt bibliografische velden die een $0 bevatten aan een authority heading. Als een veld geen $0 heeft, kunt u het veld handmatig aan een authority heading linken door de knop Link op het veld zelf te selecteren."
     }
   ],
   "ui-quick-marc.autoLinkingButton.infotip.learnMore": [
     {
       "type": 0,
-      "value": "Learn more"
+      "value": "Meer informatie"
     }
   ],
   "ui-quick-marc.bibliographic-record.create.title": [
@@ -126852,7 +126877,7 @@
   "ui-service-interaction.numberGenerator.noPermission": [
     {
       "type": 0,
-      "value": "You do not have the necessary permissions to use number generator sequences. Please contact your system administrator."
+      "value": "U hebt niet de vereiste machtigingen om nummergeneratorreeksen te gebruiken. Neem contact op met uw Systeembeheerder."
     }
   ],
   "ui-service-interaction.numberGenerator.selectGenerator": [
@@ -133405,7 +133430,7 @@
   "ui-users.errors.userRequestFailed": [
     {
       "type": 0,
-      "value": "Unable to retrieve user details"
+      "value": "Kan gebruikersgegevens niet ophalen"
     }
   ],
   "ui-users.errors.usernameUnavailable": [
@@ -140263,7 +140288,7 @@
   "ui-users.userSearch": [
     {
       "type": 0,
-      "value": "User search"
+      "value": "Gebruikers zoeken"
     }
   ],
   "ui-users.userSearchResults": [
