@@ -3917,7 +3917,7 @@
   "stripes-components.countries.SR": [
     {
       "type": 0,
-      "value": "Suriname"
+      "value": "수리남"
     }
   ],
   "stripes-components.countries.SS": [
@@ -4355,7 +4355,7 @@
   "stripes-components.languages.9ki": [
     {
       "type": 0,
-      "value": "Kildinsamiska "
+      "value": "킬디르사미어"
     }
   ],
   "stripes-components.languages.9kv": [
@@ -13217,25 +13217,25 @@
   "stripes-smart-components.cddd.changeDueDate": [
     {
       "type": 0,
-      "value": "Change due date"
+      "value": "반납일 수정"
     }
   ],
   "stripes-smart-components.cddd.changeDueDateConfirmation": [
     {
       "type": 0,
-      "value": "Change due date"
+      "value": "반납일 수정"
     }
   ],
   "stripes-smart-components.cddd.changeFailed": [
     {
       "type": 0,
-      "value": "Failed to change due date"
+      "value": "반납일 변경 실패"
     }
   ],
   "stripes-smart-components.cddd.changeSucceeded": [
     {
       "type": 0,
-      "value": "Due date & time has successfully been changed"
+      "value": "일정이 변경되었습니다."
     }
   ],
   "stripes-smart-components.cddd.changeSucceededWithCount": [
@@ -13362,7 +13362,7 @@
   "stripes-smart-components.cddd.header.barcode": [
     {
       "type": 0,
-      "value": "Barcode"
+      "value": "바코드"
     }
   ],
   "stripes-smart-components.cddd.header.currentDueDate": [
@@ -13428,7 +13428,7 @@
   "stripes-smart-components.cddd.itemDeclaredLost": [
     {
       "type": 0,
-      "value": "Failed to change due date: item is Declared lost"
+      "value": "반납일 변경 실패: 분실물 처리됨"
     }
   ],
   "stripes-smart-components.cddd.itemDeclaredLostWarning": [
@@ -13594,13 +13594,13 @@
   "stripes-smart-components.cddd.warning.dueDateInPast": [
     {
       "type": 0,
-      "value": "New due date is in the past."
+      "value": "새 반납일은 과거 일짜입니다."
     }
   ],
   "stripes-smart-components.cddd.warning.dueDateWhenLibraryClosed": [
     {
       "type": 0,
-      "value": "New due date is when the library is closed."
+      "value": "새 반납일은 도서관 휴관일입니다."
     }
   ],
   "stripes-smart-components.clipCopy.success": [
@@ -14212,7 +14212,7 @@
   "stripes-smart-components.customFields.recordAccordion.defaultName": [
     {
       "type": 0,
-      "value": "Custom fields"
+      "value": "커스텀 필드"
     }
   ],
   "stripes-smart-components.customFields.recordAccordion.length": [
@@ -14295,18 +14295,18 @@
   ],
   "stripes-smart-components.cv.cannotDeleteTermHeader": [
     {
-      "type": 0,
-      "value": "Cannot delete "
-    },
-    {
       "type": 1,
       "value": "type"
+    },
+    {
+      "type": 0,
+      "value": " 삭제할 수 없습니다."
     }
   ],
   "stripes-smart-components.cv.cannotDeleteTermMessage": [
     {
       "type": 0,
-      "value": "This "
+      "value": "한개 이상의 레코드에서 사용되고 있기 때문에 "
     },
     {
       "type": 1,
@@ -14314,7 +14314,7 @@
     },
     {
       "type": 0,
-      "value": " cannot be deleted, as it is in use by one or more records."
+      "value": "은 삭제할 수 없습니다."
     }
   ],
   "stripes-smart-components.cv.lastUpdated": [
@@ -14325,12 +14325,12 @@
   ],
   "stripes-smart-components.cv.noExistingTerms": [
     {
-      "type": 0,
-      "value": "There are no "
-    },
-    {
       "type": 1,
       "value": "terms"
+    },
+    {
+      "type": 0,
+      "value": " 사항은 없습니다."
     }
   ],
   "stripes-smart-components.cv.numberOfObjects": [
@@ -15134,7 +15134,7 @@
   "stripes-smart-components.notes.notFound": [
     {
       "type": 0,
-      "value": "No notes found"
+      "value": "노트를 찾을 수 없습니다."
     }
   ],
   "stripes-smart-components.notes.noteAssignmentStatus": [
@@ -15398,7 +15398,7 @@
   "stripes-smart-components.password.usernameDuplicate.invalid": [
     {
       "type": 0,
-      "value": " The password must not contain your username."
+      "value": "비밀번호에는 사용자 이름을 포함할 수 없습니다."
     }
   ],
   "stripes-smart-components.password.whiteSpace.invalid": [
@@ -15410,13 +15410,13 @@
   "stripes-smart-components.permissionError": [
     {
       "type": 0,
-      "value": "Permission error"
+      "value": "권한 오류"
     }
   ],
   "stripes-smart-components.permissionsDoNotAllowAccess": [
     {
       "type": 0,
-      "value": "Sorry - your permissions do not allow access to this page."
+      "value": "이 페이지에 접근할 권한이 없습니다."
     }
   ],
   "stripes-smart-components.pm.cancel": [
@@ -15496,7 +15496,7 @@
   "stripes-smart-components.sas.noResults.noTerms": [
     {
       "type": 0,
-      "value": "Choose a filter or enter a search query to show results."
+      "value": "결과를 보기 위해서 필터를 선택하거나 검색 쿼리를 입력하세요"
     }
   ],
   "stripes-smart-components.search": [
@@ -146695,6 +146695,18 @@
       "value": "설정 (사용자): 사용자 그룹을 볼 수 있습니다."
     }
   ],
+  "ui-users.permission.settings.versionHistory.edit": [
+    {
+      "type": 0,
+      "value": "Settings (Users): Can view and edit version history settings"
+    }
+  ],
+  "ui-users.permission.settings.versionHistory.view": [
+    {
+      "type": 0,
+      "value": "Settings (Users): Can view version history settings"
+    }
+  ],
   "ui-users.permission.settings.view": [
     {
       "type": 0,
@@ -149304,6 +149316,316 @@
       "value": "Users settings"
     }
   ],
+  "ui-users.settings.versionHistory": [
+    {
+      "type": 0,
+      "value": "Version history"
+    }
+  ],
+  "ui-users.settings.versionHistory.anonymizeSource": [
+    {
+      "type": 0,
+      "value": "Anonymize the change source"
+    }
+  ],
+  "ui-users.settings.versionHistory.createVersionHistory": [
+    {
+      "type": 0,
+      "value": "Create version history"
+    }
+  ],
+  "ui-users.settings.versionHistory.disabledTooltip": [
+    {
+      "type": 0,
+      "value": "To enable this field, select "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Retain indefinitely"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " or "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Retain for a set duration"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "ui-users.settings.versionHistory.duration.length": [
+    {
+      "type": 0,
+      "value": "Length"
+    }
+  ],
+  "ui-users.settings.versionHistory.duration.unit": [
+    {
+      "type": 0,
+      "value": "Unit"
+    }
+  ],
+  "ui-users.settings.versionHistory.duration.unit.days": [
+    {
+      "type": 0,
+      "value": "Day(s)"
+    }
+  ],
+  "ui-users.settings.versionHistory.duration.unit.months": [
+    {
+      "type": 0,
+      "value": "Month(s)"
+    }
+  ],
+  "ui-users.settings.versionHistory.duration.unit.placeholder": [
+    {
+      "type": 0,
+      "value": "Select unit"
+    }
+  ],
+  "ui-users.settings.versionHistory.duration.unit.weeks": [
+    {
+      "type": 0,
+      "value": "Week(s)"
+    }
+  ],
+  "ui-users.settings.versionHistory.duration.unit.years": [
+    {
+      "type": 0,
+      "value": "Year(s)"
+    }
+  ],
+  "ui-users.settings.versionHistory.excludedFields": [
+    {
+      "type": 0,
+      "value": "Fields to exclude from version history"
+    }
+  ],
+  "ui-users.settings.versionHistory.excludedFields.placeholder": [
+    {
+      "type": 0,
+      "value": "Select one or more fields"
+    }
+  ],
+  "ui-users.settings.versionHistory.excludedFields.unknown": [
+    {
+      "type": 0,
+      "value": "Unknown field ("
+    },
+    {
+      "type": 1,
+      "value": "value"
+    },
+    {
+      "type": 0,
+      "value": ")"
+    }
+  ],
+  "ui-users.settings.versionHistory.never": [
+    {
+      "type": 0,
+      "value": "Never"
+    }
+  ],
+  "ui-users.settings.versionHistory.retainForDuration": [
+    {
+      "type": 0,
+      "value": "Retain for a set duration"
+    }
+  ],
+  "ui-users.settings.versionHistory.retainForDuration.info": [
+    {
+      "type": 0,
+      "value": "When "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Retain for a set duration"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " is selected, the fields for "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Length"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " and "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Unit"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " will become enabled and will be required."
+    }
+  ],
+  "ui-users.settings.versionHistory.retainIndefinitely": [
+    {
+      "type": 0,
+      "value": "Retain indefinitely"
+    }
+  ],
+  "ui-users.settings.versionHistory.save.error": [
+    {
+      "type": 0,
+      "value": "An error occurred while saving version history settings."
+    }
+  ],
+  "ui-users.settings.versionHistory.save.success": [
+    {
+      "type": 0,
+      "value": "Setting was successfully updated."
+    }
+  ],
+  "ui-users.settings.versionHistory.warning.anonymize": [
+    {
+      "type": 0,
+      "value": "Change source information will be "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "removed"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " from all previously logged changes."
+    }
+  ],
+  "ui-users.settings.versionHistory.warning.cancel": [
+    {
+      "type": 0,
+      "value": "Cancel & keep editing"
+    }
+  ],
+  "ui-users.settings.versionHistory.warning.confirm": [
+    {
+      "type": 0,
+      "value": "Save & lose data"
+    }
+  ],
+  "ui-users.settings.versionHistory.warning.excludeFields": [
+    {
+      "type": 0,
+      "value": "Excluding fields from version history will "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "remove"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " all previously logged changes to those fields."
+    }
+  ],
+  "ui-users.settings.versionHistory.warning.purgeAll": [
+    {
+      "type": 0,
+      "value": "All logged changes will be "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "removed"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "ui-users.settings.versionHistory.warning.retentionShortened": [
+    {
+      "type": 0,
+      "value": "Logged changes more than "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "period"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " old will be "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "removed"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "ui-users.settings.versionHistory.warning.title": [
+    {
+      "type": 0,
+      "value": "Are you sure?"
+    }
+  ],
   "ui-users.settings.waiveReasons": [
     {
       "type": 0,
@@ -149792,6 +150114,54 @@
     {
       "type": 0,
       "value": "사용자 유형"
+    }
+  ],
+  "ui-users.versionHistory.action.added": [
+    {
+      "type": 0,
+      "value": "Added"
+    }
+  ],
+  "ui-users.versionHistory.action.edited": [
+    {
+      "type": 0,
+      "value": "Edited"
+    }
+  ],
+  "ui-users.versionHistory.action.removed": [
+    {
+      "type": 0,
+      "value": "Removed"
+    }
+  ],
+  "ui-users.versionHistory.anonymousUser": [
+    {
+      "type": 0,
+      "value": "Anonymized"
+    }
+  ],
+  "ui-users.versionHistory.button.tooltip": [
+    {
+      "type": 0,
+      "value": "Version history"
+    }
+  ],
+  "ui-users.versionHistory.field.departments": [
+    {
+      "type": 0,
+      "value": "Departments"
+    }
+  ],
+  "ui-users.versionHistory.field.proxyFor": [
+    {
+      "type": 0,
+      "value": "Proxy/sponsor"
+    }
+  ],
+  "ui-users.versionHistory.field.tags": [
+    {
+      "type": 0,
+      "value": "Tags"
     }
   ],
   "ui-users.waives.columns.desc": [

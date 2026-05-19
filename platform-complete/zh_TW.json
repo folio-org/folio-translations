@@ -13156,7 +13156,7 @@
           "value": [
             {
               "type": 0,
-              "value": " 館藏 "
+              "value": " 單件 "
             }
           ]
         },
@@ -13164,7 +13164,7 @@
           "value": [
             {
               "type": 0,
-              "value": " 館藏 "
+              "value": " 單件 "
             }
           ]
         }
@@ -13281,13 +13281,13 @@
   "stripes-smart-components.cddd.itemAgedToLost": [
     {
       "type": 0,
-      "value": "到期日更改失敗 : 館藏逾期太久視為遺失"
+      "value": "到期日更改失敗 : 單件逾期太久視為遺失"
     }
   ],
   "stripes-smart-components.cddd.itemAgedToLostWarning": [
     {
       "type": 0,
-      "value": "館藏逾期太久視為遺失"
+      "value": "單件逾期太久視為遺失"
     }
   ],
   "stripes-smart-components.cddd.itemClaimedReturned": [
@@ -13305,25 +13305,25 @@
   "stripes-smart-components.cddd.itemDeclaredLost": [
     {
       "type": 0,
-      "value": "未能更改截止日期 : 館藏宣稱遺失"
+      "value": "未能更改截止日期 : 單件為宣稱遺失"
     }
   ],
   "stripes-smart-components.cddd.itemDeclaredLostWarning": [
     {
       "type": 0,
-      "value": "宣稱遺失館藏"
+      "value": "單件為宣稱遺失"
     }
   ],
   "stripes-smart-components.cddd.itemHasBeenRecalled": [
     {
       "type": 0,
-      "value": "館藏已催還"
+      "value": "單件已催還"
     }
   ],
   "stripes-smart-components.cddd.itemHasRequestQueue": [
     {
       "type": 0,
-      "value": "館藏有一個預約排隊"
+      "value": "單件有一個預約排隊"
     }
   ],
   "stripes-smart-components.cddd.itemsHaveWarnings": [
@@ -13357,7 +13357,7 @@
           "value": [
             {
               "type": 0,
-              "value": "館藏"
+              "value": "單件"
             }
           ]
         },
@@ -13365,7 +13365,7 @@
           "value": [
             {
               "type": 0,
-              "value": "館藏"
+              "value": "單件"
             }
           ]
         }
@@ -13420,7 +13420,7 @@
           "value": [
             {
               "type": 0,
-              "value": "館藏"
+              "value": "單件"
             }
           ]
         },
@@ -13428,7 +13428,7 @@
           "value": [
             {
               "type": 0,
-              "value": "館藏"
+              "value": "單件"
             }
           ]
         }
@@ -14619,7 +14619,7 @@
   "stripes-smart-components.feesfines.policy.lost.duplicate": [
     {
       "type": 0,
-      "value": "輸入的遺失館藏費用政策名稱已存在。請輸入不同的名稱。"
+      "value": "輸入的遺失單件費用政策名稱已存在。請輸入不同的名稱。"
     }
   ],
   "stripes-smart-components.hideSearchPane": [
@@ -148194,6 +148194,18 @@
       "value": "設定 ( 使用者 ) : 可以檢視讀者群組"
     }
   ],
+  "ui-users.permission.settings.versionHistory.edit": [
+    {
+      "type": 0,
+      "value": "Settings (Users): Can view and edit version history settings"
+    }
+  ],
+  "ui-users.permission.settings.versionHistory.view": [
+    {
+      "type": 0,
+      "value": "Settings (Users): Can view version history settings"
+    }
+  ],
   "ui-users.permission.settings.view": [
     {
       "type": 0,
@@ -150831,6 +150843,316 @@
       "value": "Users settings"
     }
   ],
+  "ui-users.settings.versionHistory": [
+    {
+      "type": 0,
+      "value": "Version history"
+    }
+  ],
+  "ui-users.settings.versionHistory.anonymizeSource": [
+    {
+      "type": 0,
+      "value": "Anonymize the change source"
+    }
+  ],
+  "ui-users.settings.versionHistory.createVersionHistory": [
+    {
+      "type": 0,
+      "value": "Create version history"
+    }
+  ],
+  "ui-users.settings.versionHistory.disabledTooltip": [
+    {
+      "type": 0,
+      "value": "To enable this field, select "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Retain indefinitely"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " or "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Retain for a set duration"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "ui-users.settings.versionHistory.duration.length": [
+    {
+      "type": 0,
+      "value": "Length"
+    }
+  ],
+  "ui-users.settings.versionHistory.duration.unit": [
+    {
+      "type": 0,
+      "value": "Unit"
+    }
+  ],
+  "ui-users.settings.versionHistory.duration.unit.days": [
+    {
+      "type": 0,
+      "value": "Day(s)"
+    }
+  ],
+  "ui-users.settings.versionHistory.duration.unit.months": [
+    {
+      "type": 0,
+      "value": "Month(s)"
+    }
+  ],
+  "ui-users.settings.versionHistory.duration.unit.placeholder": [
+    {
+      "type": 0,
+      "value": "Select unit"
+    }
+  ],
+  "ui-users.settings.versionHistory.duration.unit.weeks": [
+    {
+      "type": 0,
+      "value": "Week(s)"
+    }
+  ],
+  "ui-users.settings.versionHistory.duration.unit.years": [
+    {
+      "type": 0,
+      "value": "Year(s)"
+    }
+  ],
+  "ui-users.settings.versionHistory.excludedFields": [
+    {
+      "type": 0,
+      "value": "Fields to exclude from version history"
+    }
+  ],
+  "ui-users.settings.versionHistory.excludedFields.placeholder": [
+    {
+      "type": 0,
+      "value": "Select one or more fields"
+    }
+  ],
+  "ui-users.settings.versionHistory.excludedFields.unknown": [
+    {
+      "type": 0,
+      "value": "Unknown field ("
+    },
+    {
+      "type": 1,
+      "value": "value"
+    },
+    {
+      "type": 0,
+      "value": ")"
+    }
+  ],
+  "ui-users.settings.versionHistory.never": [
+    {
+      "type": 0,
+      "value": "Never"
+    }
+  ],
+  "ui-users.settings.versionHistory.retainForDuration": [
+    {
+      "type": 0,
+      "value": "Retain for a set duration"
+    }
+  ],
+  "ui-users.settings.versionHistory.retainForDuration.info": [
+    {
+      "type": 0,
+      "value": "When "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Retain for a set duration"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " is selected, the fields for "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Length"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " and "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Unit"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " will become enabled and will be required."
+    }
+  ],
+  "ui-users.settings.versionHistory.retainIndefinitely": [
+    {
+      "type": 0,
+      "value": "Retain indefinitely"
+    }
+  ],
+  "ui-users.settings.versionHistory.save.error": [
+    {
+      "type": 0,
+      "value": "An error occurred while saving version history settings."
+    }
+  ],
+  "ui-users.settings.versionHistory.save.success": [
+    {
+      "type": 0,
+      "value": "Setting was successfully updated."
+    }
+  ],
+  "ui-users.settings.versionHistory.warning.anonymize": [
+    {
+      "type": 0,
+      "value": "Change source information will be "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "removed"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " from all previously logged changes."
+    }
+  ],
+  "ui-users.settings.versionHistory.warning.cancel": [
+    {
+      "type": 0,
+      "value": "Cancel & keep editing"
+    }
+  ],
+  "ui-users.settings.versionHistory.warning.confirm": [
+    {
+      "type": 0,
+      "value": "Save & lose data"
+    }
+  ],
+  "ui-users.settings.versionHistory.warning.excludeFields": [
+    {
+      "type": 0,
+      "value": "Excluding fields from version history will "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "remove"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " all previously logged changes to those fields."
+    }
+  ],
+  "ui-users.settings.versionHistory.warning.purgeAll": [
+    {
+      "type": 0,
+      "value": "All logged changes will be "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "removed"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "ui-users.settings.versionHistory.warning.retentionShortened": [
+    {
+      "type": 0,
+      "value": "Logged changes more than "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "period"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " old will be "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "removed"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "ui-users.settings.versionHistory.warning.title": [
+    {
+      "type": 0,
+      "value": "Are you sure?"
+    }
+  ],
   "ui-users.settings.waiveReasons": [
     {
       "type": 0,
@@ -151323,6 +151645,54 @@
     {
       "type": 0,
       "value": "使用者類型"
+    }
+  ],
+  "ui-users.versionHistory.action.added": [
+    {
+      "type": 0,
+      "value": "Added"
+    }
+  ],
+  "ui-users.versionHistory.action.edited": [
+    {
+      "type": 0,
+      "value": "Edited"
+    }
+  ],
+  "ui-users.versionHistory.action.removed": [
+    {
+      "type": 0,
+      "value": "Removed"
+    }
+  ],
+  "ui-users.versionHistory.anonymousUser": [
+    {
+      "type": 0,
+      "value": "Anonymized"
+    }
+  ],
+  "ui-users.versionHistory.button.tooltip": [
+    {
+      "type": 0,
+      "value": "Version history"
+    }
+  ],
+  "ui-users.versionHistory.field.departments": [
+    {
+      "type": 0,
+      "value": "Departments"
+    }
+  ],
+  "ui-users.versionHistory.field.proxyFor": [
+    {
+      "type": 0,
+      "value": "Proxy/sponsor"
+    }
+  ],
+  "ui-users.versionHistory.field.tags": [
+    {
+      "type": 0,
+      "value": "Tags"
     }
   ],
   "ui-users.waives.columns.desc": [
