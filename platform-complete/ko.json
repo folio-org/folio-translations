@@ -8379,7 +8379,7 @@
   "stripes-core.about.okapiServices": [
     {
       "type": 0,
-      "value": "Okapi 서비스"
+      "value": "API 서비스"
     }
   ],
   "stripes-core.about.onUrl": [
@@ -8713,7 +8713,7 @@
   "stripes-core.errors.link.invalid": [
     {
       "type": 0,
-      "value": "비밀번호 선택 링크가 잘못되었습니다. 이메일에 포함된 링크를 사용하고 있는지 확인하거나 Folio 관리자에게 문의하십시오."
+      "value": "비밀번호 설정 링크가 유효하지 않습니다. 이메일에 포함된 링크를 사용하고 있는지 확인하시거나, FOLIO 관리자에게 문의해 주십시오."
     }
   ],
   "stripes-core.errors.link.used": [
@@ -9190,8 +9190,20 @@
   ],
   "stripes-core.mainnav.myProfileAriaLabel": [
     {
+      "type": 1,
+      "value": "tenantName"
+    },
+    {
       "type": 0,
-      "value": "내 프로파일"
+      "value": " "
+    },
+    {
+      "type": 1,
+      "value": "servicePointName"
+    },
+    {
+      "type": 0,
+      "value": "프로파일"
     }
   ],
   "stripes-core.mainnav.profileDropdown.locale": [
