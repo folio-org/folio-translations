@@ -145191,6 +145191,78 @@
       "value": "b"
     }
   ],
+  "ui-users.keycloak.modal.creationMessage": [
+    {
+      "type": 0,
+      "value": "This operation will create a new record in Keycloak for "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "user"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " in "
+    },
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "the "
+            },
+            {
+              "children": [
+                {
+                  "type": 1,
+                  "value": "tenants"
+                }
+              ],
+              "type": 8,
+              "value": "b"
+            },
+            {
+              "type": 0,
+              "value": " tenant"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "the following tenants: "
+            },
+            {
+              "children": [
+                {
+                  "type": 1,
+                  "value": "tenants"
+                }
+              ],
+              "type": 8,
+              "value": "b"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
   "ui-users.loading": [
     {
       "type": 0,
