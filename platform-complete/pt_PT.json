@@ -63859,6 +63859,12 @@
       "value": "End date must be greater than start date"
     }
   ],
+  "ui-erm-usage.errors.enterValidDate": [
+    {
+      "type": 0,
+      "value": "Please enter a valid date"
+    }
+  ],
   "ui-erm-usage.errors.enterValidUrl": [
     {
       "type": 0,
@@ -138763,6 +138769,90 @@
       "value": "Enter check #, etc."
     }
   ],
+  "ui-users.accounts.paymentStatus.cancelledItemDeclaredLost": [
+    {
+      "type": 0,
+      "value": "Cancelled item declared lost"
+    }
+  ],
+  "ui-users.accounts.paymentStatus.cancelledItemRenewed": [
+    {
+      "type": 0,
+      "value": "Cancelled item renewed"
+    }
+  ],
+  "ui-users.accounts.paymentStatus.cancelledItemReturned": [
+    {
+      "type": 0,
+      "value": "Cancelled item returned"
+    }
+  ],
+  "ui-users.accounts.paymentStatus.creditedFully": [
+    {
+      "type": 0,
+      "value": "Credited fully"
+    }
+  ],
+  "ui-users.accounts.paymentStatus.creditedPartially": [
+    {
+      "type": 0,
+      "value": "Credited partially"
+    }
+  ],
+  "ui-users.accounts.paymentStatus.paidFully": [
+    {
+      "type": 0,
+      "value": "Paid fully"
+    }
+  ],
+  "ui-users.accounts.paymentStatus.paidPartially": [
+    {
+      "type": 0,
+      "value": "Paid partially"
+    }
+  ],
+  "ui-users.accounts.paymentStatus.refundedFully": [
+    {
+      "type": 0,
+      "value": "Refunded fully"
+    }
+  ],
+  "ui-users.accounts.paymentStatus.refundedPartially": [
+    {
+      "type": 0,
+      "value": "Refunded partially"
+    }
+  ],
+  "ui-users.accounts.paymentStatus.suspendedClaimReturned": [
+    {
+      "type": 0,
+      "value": "Suspended claim returned"
+    }
+  ],
+  "ui-users.accounts.paymentStatus.transferredFully": [
+    {
+      "type": 0,
+      "value": "Transferred fully"
+    }
+  ],
+  "ui-users.accounts.paymentStatus.transferredPartially": [
+    {
+      "type": 0,
+      "value": "Transferred partially"
+    }
+  ],
+  "ui-users.accounts.paymentStatus.waivedFully": [
+    {
+      "type": 0,
+      "value": "Waived fully"
+    }
+  ],
+  "ui-users.accounts.paymentStatus.waivedPartially": [
+    {
+      "type": 0,
+      "value": "Waived partially"
+    }
+  ],
   "ui-users.accounts.refund": [
     {
       "type": 0,
@@ -142470,10 +142560,136 @@
       "value": "Material type"
     }
   ],
+  "ui-users.item.status.agedToLost": [
+    {
+      "type": 0,
+      "value": "Aged to lost"
+    }
+  ],
+  "ui-users.item.status.available": [
+    {
+      "type": 0,
+      "value": "Available"
+    }
+  ],
+  "ui-users.item.status.awaitingDelivery": [
+    {
+      "type": 0,
+      "value": "Awaiting delivery"
+    }
+  ],
+  "ui-users.item.status.awaitingPickup": [
+    {
+      "type": 0,
+      "value": "Awaiting pickup"
+    }
+  ],
+  "ui-users.item.status.checkedOut": [
+    {
+      "type": 0,
+      "value": "Checked out"
+    }
+  ],
+  "ui-users.item.status.claimedReturned": [
+    {
+      "type": 0,
+      "value": "Claimed returned"
+    }
+  ],
+  "ui-users.item.status.declaredLost": [
+    {
+      "type": 0,
+      "value": "Declared lost"
+    }
+  ],
+  "ui-users.item.status.inProcess": [
+    {
+      "type": 0,
+      "value": "In process"
+    }
+  ],
+  "ui-users.item.status.inProcessNonRequestable": [
+    {
+      "type": 0,
+      "value": "In process (non-requestable)"
+    }
+  ],
+  "ui-users.item.status.inTransit": [
+    {
+      "type": 0,
+      "value": "In transit"
+    }
+  ],
+  "ui-users.item.status.intellectualItem": [
+    {
+      "type": 0,
+      "value": "Intellectual item"
+    }
+  ],
+  "ui-users.item.status.longMissing": [
+    {
+      "type": 0,
+      "value": "Long missing"
+    }
+  ],
+  "ui-users.item.status.lostAndPaid": [
+    {
+      "type": 0,
+      "value": "Lost and paid"
+    }
+  ],
+  "ui-users.item.status.missing": [
+    {
+      "type": 0,
+      "value": "Missing"
+    }
+  ],
   "ui-users.item.status.name": [
     {
       "type": 0,
       "value": "Item status"
+    }
+  ],
+  "ui-users.item.status.onOrder": [
+    {
+      "type": 0,
+      "value": "On order"
+    }
+  ],
+  "ui-users.item.status.orderClosed": [
+    {
+      "type": 0,
+      "value": "Order closed"
+    }
+  ],
+  "ui-users.item.status.paged": [
+    {
+      "type": 0,
+      "value": "Paged"
+    }
+  ],
+  "ui-users.item.status.restricted": [
+    {
+      "type": 0,
+      "value": "Restricted"
+    }
+  ],
+  "ui-users.item.status.unavailable": [
+    {
+      "type": 0,
+      "value": "Unavailable"
+    }
+  ],
+  "ui-users.item.status.unknown": [
+    {
+      "type": 0,
+      "value": "Unknown"
+    }
+  ],
+  "ui-users.item.status.withdrawn": [
+    {
+      "type": 0,
+      "value": "Withdrawn"
     }
   ],
   "ui-users.item.title": [
