@@ -57654,6 +57654,12 @@
       "value": "activityEvents: which DOM events constitute user activity (comma-separated, e.g. 'mousemove,keydown')"
     }
   ],
+  "ui-developer.rtr.atExpiration": [
+    {
+      "type": 0,
+      "value": "AT Expiration date (next rotation on/after)"
+    }
+  ],
   "ui-developer.rtr.fixedLengthSessionWarningTTL": [
     {
       "type": 0,
@@ -57690,6 +57696,22 @@
       "value": "Invalidate refresh token"
     }
   ],
+  "ui-developer.rtr.logCategories": [
+    {
+      "type": 0,
+      "value": "stripes logs RTR events in the categories "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "rtr, rtrv"
+        }
+      ],
+      "type": 8,
+      "value": "code"
+    }
+  ],
   "ui-developer.rtr.registerServiceWorker": [
     {
       "type": 0,
@@ -57700,6 +57722,12 @@
     {
       "type": 0,
       "value": "rotationIntervalFraction: decimal fraction of how early to refresh the access token (e.g. 0.6 is 60% into the lifetime of the token)"
+    }
+  ],
+  "ui-developer.rtr.rtExpiration": [
+    {
+      "type": 0,
+      "value": "RT Expiration date (end of session)"
     }
   ],
   "ui-developer.rtr.unregisterServiceWorker": [

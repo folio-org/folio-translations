@@ -52530,6 +52530,12 @@
       "value": "activityEvents: welke DOM-events gebruikersactiviteit vormen (door komma's gescheiden, bijv. 'mousemove,keydown')"
     }
   ],
+  "ui-developer.rtr.atExpiration": [
+    {
+      "type": 0,
+      "value": "AT Expiration date (next rotation on/after)"
+    }
+  ],
   "ui-developer.rtr.fixedLengthSessionWarningTTL": [
     {
       "type": 0,
@@ -52554,6 +52560,22 @@
       "value": "idleSessionTTL: duur dat een idle sessie duurt voordat deze wordt gedood (bijv. 1h, 1m, 5s, 10ms)"
     }
   ],
+  "ui-developer.rtr.logCategories": [
+    {
+      "type": 0,
+      "value": "stripes logs RTR events in the categories "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "rtr, rtrv"
+        }
+      ],
+      "type": 8,
+      "value": "code"
+    }
+  ],
   "ui-developer.rtr.registerServiceWorker": [
     {
       "type": 0,
@@ -52564,6 +52586,12 @@
     {
       "type": 0,
       "value": "rotationIntervalFraction: decimale fractie van hoe vroeg het toegangstoken vernieuwd moet worden (bijv. 0,6 is 60% van de levensduur van het token)"
+    }
+  ],
+  "ui-developer.rtr.rtExpiration": [
+    {
+      "type": 0,
+      "value": "RT Expiration date (end of session)"
     }
   ],
   "ui-developer.rtr.unregisterServiceWorker": [
