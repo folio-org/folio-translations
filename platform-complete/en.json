@@ -19760,7 +19760,7 @@
   "ui-agreements.errors.hasNonAlphaName": [
     {
       "type": 0,
-      "value": "The name can only contain Latin alphabetical characters (a-z) and non-leading numeric characters."
+      "value": "The name must start with a letter, and can only contain letters, numbers, and underscores."
     }
   ],
   "ui-agreements.errors.invalidNumber": [
@@ -23350,7 +23350,7 @@
   "ui-agreements.supplementaryProperty.help.name": [
     {
       "type": 0,
-      "value": "An agreement term 'name' is used when outputting the supplementary property data in a machine readable format. It is not intended to be displayed to users (staff or patrons). It should be a short Latin alphabet string that can be used by any external systems or programs that access the agreement supplementary property data. Use of camelCase is suggested but not required. Changes to the agreement supplementary property name would affect any external systems using agreement supplementary property data and changes should not be made without consulting those responsible for relevant external systems and software."
+      "value": "A supplementary property 'name' is used when outputting the supplementary property data in a machine readable format intended to be used by external systems or programs that access the agreement supplementary property data. It is not intended to be displayed to users (staff or patrons). It should be a short string which must start with a letter, and can only contain letters, numbers, and underscores. Changes to the supplementary property name will affect any external systems using supplementary property data and changes should not be made without consulting those responsible for relevant external systems and software."
     }
   ],
   "ui-agreements.supplementaryProperty.newModal": [
@@ -37582,6 +37582,48 @@
     {
       "type": 0,
       "value": "Staff slip name"
+    }
+  ],
+  "ui-circulation.settings.staffSlips.names.dueDateReceipt": [
+    {
+      "type": 0,
+      "value": "Due date receipt"
+    }
+  ],
+  "ui-circulation.settings.staffSlips.names.hold": [
+    {
+      "type": 0,
+      "value": "Hold"
+    }
+  ],
+  "ui-circulation.settings.staffSlips.names.pickSlip": [
+    {
+      "type": 0,
+      "value": "Pick slip"
+    }
+  ],
+  "ui-circulation.settings.staffSlips.names.requestDelivery": [
+    {
+      "type": 0,
+      "value": "Request delivery"
+    }
+  ],
+  "ui-circulation.settings.staffSlips.names.searchSlipHoldRequests": [
+    {
+      "type": 0,
+      "value": "Search slip (Hold requests)"
+    }
+  ],
+  "ui-circulation.settings.staffSlips.names.transit": [
+    {
+      "type": 0,
+      "value": "Transit"
+    }
+  ],
+  "ui-circulation.settings.staffSlips.names.transitMediatedRequests": [
+    {
+      "type": 0,
+      "value": "Transit (mediated requests)"
     }
   ],
   "ui-circulation.settings.staffSlips.new": [
@@ -91245,7 +91287,7 @@
   "ui-licenses.errors.hasNonAlphaName": [
     {
       "type": 0,
-      "value": "The name can only contain Latin alphabetical characters (a-z) and non-leading numeric characters."
+      "value": "The name must start with a letter, and can only contain letters, numbers, and underscores."
     }
   ],
   "ui-licenses.errors.invalidNumber": [
@@ -92623,7 +92665,7 @@
   "ui-licenses.terms.help.name": [
     {
       "type": 0,
-      "value": "A license term 'name' is used when outputting the term data in a machine readable format. It is not intended to be displayed to users (staff or patrons). It should be a short Latin alphabet string that can be used by any external systems or programs that access the license term data. Use of camelCase is suggested but not required. Changes to the license term name would affect any external systems using license term data and changes should not be made without consulting those responsible for relevant external systems and software."
+      "value": "A term 'name' is used when outputting the term data in a machine readable format intended to be used by external systems or programs that access the term data. It is not intended to be displayed to users (staff or patrons). It should be a short string which must start with a letter, and can only contain letters, numbers, and underscores. Changes to the term name will affect any external systems using license term data and changes should not be made without consulting those responsible for relevant external systems and software."
     }
   ],
   "ui-licenses.terms.multiPickList": [
