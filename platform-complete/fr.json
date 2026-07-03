@@ -106888,6 +106888,90 @@
       "value": "Material type"
     }
   ],
+  "ui-orders.poLine.multiYearPayment": [
+    {
+      "type": 0,
+      "value": "Multi-year prepayment"
+    }
+  ],
+  "ui-orders.poLine.multiYearPayment.infoPopover": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Select "
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Multi-year prepayment"
+            }
+          ],
+          "type": 8,
+          "value": "b"
+        },
+        {
+          "type": 0,
+          "value": " if paying for orders over multiple fiscal years."
+        }
+      ],
+      "type": 8,
+      "value": "p"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "When selected, the fields for "
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Prepayment term"
+            }
+          ],
+          "type": 8,
+          "value": "b"
+        },
+        {
+          "type": 0,
+          "value": " and "
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Starting fiscal year"
+            }
+          ],
+          "type": 8,
+          "value": "b"
+        },
+        {
+          "type": 0,
+          "value": " will become enabled. The fields within the "
+        },
+        {
+          "children": [
+            {
+              "type": 0,
+              "value": "Payment terms"
+            }
+          ],
+          "type": 8,
+          "value": "b"
+        },
+        {
+          "type": 0,
+          "value": " accordion will also become enabled."
+        }
+      ],
+      "type": 8,
+      "value": "p"
+    }
+  ],
   "ui-orders.poLine.notes": [
     {
       "type": 0,
