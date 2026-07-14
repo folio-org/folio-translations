@@ -19788,7 +19788,7 @@
   "ui-agreements.errors.hasNonAlphaName": [
     {
       "type": 0,
-      "value": "The name can only contain Latin alphabetical characters (a-z) and non-leading numeric characters."
+      "value": "The name must start with a letter, and can only contain letters, numbers, and underscores."
     }
   ],
   "ui-agreements.errors.invalidNumber": [
@@ -23378,7 +23378,7 @@
   "ui-agreements.supplementaryProperty.help.name": [
     {
       "type": 0,
-      "value": "An agreement term 'name' is used when outputting the supplementary property data in a machine readable format. It is not intended to be displayed to users (staff or patrons). It should be a short Latin alphabet string that can be used by any external systems or programs that access the agreement supplementary property data. Use of camelCase is suggested but not required. Changes to the agreement supplementary property name would affect any external systems using agreement supplementary property data and changes should not be made without consulting those responsible for relevant external systems and software."
+      "value": "A supplementary property 'name' is used when outputting the supplementary property data in a machine readable format intended to be used by external systems or programs that access the agreement supplementary property data. It is not intended to be displayed to users (staff or patrons). It should be a short string which must start with a letter, and can only contain letters, numbers, and underscores. Changes to the supplementary property name will affect any external systems using supplementary property data and changes should not be made without consulting those responsible for relevant external systems and software."
     }
   ],
   "ui-agreements.supplementaryProperty.newModal": [
@@ -91412,7 +91412,7 @@
   "ui-licenses.errors.hasNonAlphaName": [
     {
       "type": 0,
-      "value": "The name can only contain Latin alphabetical characters (a-z) and non-leading numeric characters."
+      "value": "The name must start with a letter, and can only contain letters, numbers, and underscores."
     }
   ],
   "ui-licenses.errors.invalidNumber": [
@@ -92790,7 +92790,7 @@
   "ui-licenses.terms.help.name": [
     {
       "type": 0,
-      "value": "A license term 'name' is used when outputting the term data in a machine readable format. It is not intended to be displayed to users (staff or patrons). It should be a short Latin alphabet string that can be used by any external systems or programs that access the license term data. Use of camelCase is suggested but not required. Changes to the license term name would affect any external systems using license term data and changes should not be made without consulting those responsible for relevant external systems and software."
+      "value": "A term 'name' is used when outputting the term data in a machine readable format intended to be used by external systems or programs that access the term data. It is not intended to be displayed to users (staff or patrons). It should be a short string which must start with a letter, and can only contain letters, numbers, and underscores. Changes to the term name will affect any external systems using license term data and changes should not be made without consulting those responsible for relevant external systems and software."
     }
   ],
   "ui-licenses.terms.multiPickList": [
@@ -115811,6 +115811,12 @@
       "value": "Count type"
     }
   ],
+  "ui-plugin-eusage-reports.report-form.count-type.overview": [
+    {
+      "type": 0,
+      "value": "Overview (all)"
+    }
+  ],
   "ui-plugin-eusage-reports.report-form.count-type.total": [
     {
       "type": 0,
@@ -116125,16 +116131,46 @@
       "value": "Title"
     }
   ],
+  "ui-plugin-eusage-reports.useOverTime.metric.Searches_Regular": [
+    {
+      "type": 0,
+      "value": "Searches (regular)"
+    }
+  ],
+  "ui-plugin-eusage-reports.useOverTime.metric.Total_Item_Investigations": [
+    {
+      "type": 0,
+      "value": "Total item investigations"
+    }
+  ],
   "ui-plugin-eusage-reports.useOverTime.metric.Total_Item_Requests": [
     {
       "type": 0,
       "value": "Total item requests"
     }
   ],
+  "ui-plugin-eusage-reports.useOverTime.metric.Unique_Item_Investigations": [
+    {
+      "type": 0,
+      "value": "Unique item investigations"
+    }
+  ],
   "ui-plugin-eusage-reports.useOverTime.metric.Unique_Item_Requests": [
     {
       "type": 0,
       "value": "Unique item requests"
+    }
+  ],
+  "ui-plugin-eusage-reports.useOverTime.metric.Unique_Title_Investigations": [
+    {
+      "type": 0,
+      "value": "Unique title investigations"
+    }
+  ],
+  "ui-plugin-eusage-reports.useOverTime.metric.Unique_Title_Requests": [
+    {
+      "type": 0,
+      "value": "Unique title requests"
     }
   ],
   "ui-plugin-eusage-reports.useOverTime.raw-data": [
@@ -118805,6 +118841,156 @@
     {
       "type": 0,
       "value": "No matches! Use the “Organization look-up” below to add organizations"
+    }
+  ],
+  "ui-plugin-query-builder.operators.CONTAINS": [
+    {
+      "type": 0,
+      "value": "contains"
+    }
+  ],
+  "ui-plugin-query-builder.operators.EMPTY": [
+    {
+      "type": 0,
+      "value": "is null/empty"
+    }
+  ],
+  "ui-plugin-query-builder.operators.EQUAL": [
+    {
+      "type": 0,
+      "value": "equals"
+    }
+  ],
+  "ui-plugin-query-builder.operators.GREATER_THAN": [
+    {
+      "type": 0,
+      "value": "greater than"
+    }
+  ],
+  "ui-plugin-query-builder.operators.GREATER_THAN_OR_EQUAL": [
+    {
+      "type": 0,
+      "value": "greater than or equal to"
+    }
+  ],
+  "ui-plugin-query-builder.operators.IN": [
+    {
+      "type": 0,
+      "value": "in"
+    }
+  ],
+  "ui-plugin-query-builder.operators.LESS_THAN": [
+    {
+      "type": 0,
+      "value": "less than"
+    }
+  ],
+  "ui-plugin-query-builder.operators.LESS_THAN_OR_EQUAL": [
+    {
+      "type": 0,
+      "value": "less than or equal to"
+    }
+  ],
+  "ui-plugin-query-builder.operators.NOT_CONTAINS": [
+    {
+      "type": 0,
+      "value": "not contains"
+    }
+  ],
+  "ui-plugin-query-builder.operators.NOT_EQUAL": [
+    {
+      "type": 0,
+      "value": "not equal to"
+    }
+  ],
+  "ui-plugin-query-builder.operators.NOT_IN": [
+    {
+      "type": 0,
+      "value": "not in"
+    }
+  ],
+  "ui-plugin-query-builder.operators.STARTS_WITH": [
+    {
+      "type": 0,
+      "value": "starts with"
+    }
+  ],
+  "ui-plugin-query-builder.operators.boolean.$and": [
+    {
+      "type": 0,
+      "value": "AND"
+    }
+  ],
+  "ui-plugin-query-builder.operators.symbol.CONTAINS": [
+    {
+      "type": 0,
+      "value": "contains"
+    }
+  ],
+  "ui-plugin-query-builder.operators.symbol.EMPTY": [
+    {
+      "type": 0,
+      "value": "is null/empty"
+    }
+  ],
+  "ui-plugin-query-builder.operators.symbol.EQUAL": [
+    {
+      "type": 0,
+      "value": "=="
+    }
+  ],
+  "ui-plugin-query-builder.operators.symbol.GREATER_THAN": [
+    {
+      "type": 0,
+      "value": ">"
+    }
+  ],
+  "ui-plugin-query-builder.operators.symbol.GREATER_THAN_OR_EQUAL": [
+    {
+      "type": 0,
+      "value": ">="
+    }
+  ],
+  "ui-plugin-query-builder.operators.symbol.IN": [
+    {
+      "type": 0,
+      "value": "in"
+    }
+  ],
+  "ui-plugin-query-builder.operators.symbol.LESS_THAN": [
+    {
+      "type": 0,
+      "value": "<"
+    }
+  ],
+  "ui-plugin-query-builder.operators.symbol.LESS_THAN_OR_EQUAL": [
+    {
+      "type": 0,
+      "value": "<="
+    }
+  ],
+  "ui-plugin-query-builder.operators.symbol.NOT_CONTAINS": [
+    {
+      "type": 0,
+      "value": "not contains"
+    }
+  ],
+  "ui-plugin-query-builder.operators.symbol.NOT_EQUAL": [
+    {
+      "type": 0,
+      "value": "!="
+    }
+  ],
+  "ui-plugin-query-builder.operators.symbol.NOT_IN": [
+    {
+      "type": 0,
+      "value": "not in"
+    }
+  ],
+  "ui-plugin-query-builder.operators.symbol.STARTS_WITH": [
+    {
+      "type": 0,
+      "value": "starts with"
     }
   ],
   "ui-plugin-query-builder.options.false": [
@@ -133290,6 +133476,20 @@
     {
       "type": 0,
       "value": "Receiving pieces"
+    }
+  ],
+  "ui-serials-management.pieceSets.receivingPiecesAlreadyExistWarning": [
+    {
+      "type": 0,
+      "value": "Warning: Receiving pieces already exist for this predicted piece set. See "
+    },
+    {
+      "type": 1,
+      "value": "link"
+    },
+    {
+      "type": 0,
+      "value": " for more details."
     }
   ],
   "ui-serials-management.pieceSets.startDate": [

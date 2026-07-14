@@ -108484,6 +108484,12 @@
       "value": "Soort telling"
     }
   ],
+  "ui-plugin-eusage-reports.report-form.count-type.overview": [
+    {
+      "type": 0,
+      "value": "Overview (all)"
+    }
+  ],
   "ui-plugin-eusage-reports.report-form.count-type.total": [
     {
       "type": 0,
@@ -108798,16 +108804,46 @@
       "value": "Titel"
     }
   ],
+  "ui-plugin-eusage-reports.useOverTime.metric.Searches_Regular": [
+    {
+      "type": 0,
+      "value": "Searches (regular)"
+    }
+  ],
+  "ui-plugin-eusage-reports.useOverTime.metric.Total_Item_Investigations": [
+    {
+      "type": 0,
+      "value": "Total item investigations"
+    }
+  ],
   "ui-plugin-eusage-reports.useOverTime.metric.Total_Item_Requests": [
     {
       "type": 0,
       "value": "Totaal aantal itemaanvragen"
     }
   ],
+  "ui-plugin-eusage-reports.useOverTime.metric.Unique_Item_Investigations": [
+    {
+      "type": 0,
+      "value": "Unique item investigations"
+    }
+  ],
   "ui-plugin-eusage-reports.useOverTime.metric.Unique_Item_Requests": [
     {
       "type": 0,
       "value": "Uniek aantal itemaanvragen"
+    }
+  ],
+  "ui-plugin-eusage-reports.useOverTime.metric.Unique_Title_Investigations": [
+    {
+      "type": 0,
+      "value": "Unique title investigations"
+    }
+  ],
+  "ui-plugin-eusage-reports.useOverTime.metric.Unique_Title_Requests": [
+    {
+      "type": 0,
+      "value": "Unique title requests"
     }
   ],
   "ui-plugin-eusage-reports.useOverTime.raw-data": [
@@ -111462,6 +111498,156 @@
     {
       "type": 0,
       "value": "Geen overeenkomsten! Gebruik de \"Organization look-up\" hieronder om Organisaties toe te voegen"
+    }
+  ],
+  "ui-plugin-query-builder.operators.CONTAINS": [
+    {
+      "type": 0,
+      "value": "contains"
+    }
+  ],
+  "ui-plugin-query-builder.operators.EMPTY": [
+    {
+      "type": 0,
+      "value": "is null/empty"
+    }
+  ],
+  "ui-plugin-query-builder.operators.EQUAL": [
+    {
+      "type": 0,
+      "value": "equals"
+    }
+  ],
+  "ui-plugin-query-builder.operators.GREATER_THAN": [
+    {
+      "type": 0,
+      "value": "greater than"
+    }
+  ],
+  "ui-plugin-query-builder.operators.GREATER_THAN_OR_EQUAL": [
+    {
+      "type": 0,
+      "value": "greater than or equal to"
+    }
+  ],
+  "ui-plugin-query-builder.operators.IN": [
+    {
+      "type": 0,
+      "value": "in"
+    }
+  ],
+  "ui-plugin-query-builder.operators.LESS_THAN": [
+    {
+      "type": 0,
+      "value": "less than"
+    }
+  ],
+  "ui-plugin-query-builder.operators.LESS_THAN_OR_EQUAL": [
+    {
+      "type": 0,
+      "value": "less than or equal to"
+    }
+  ],
+  "ui-plugin-query-builder.operators.NOT_CONTAINS": [
+    {
+      "type": 0,
+      "value": "not contains"
+    }
+  ],
+  "ui-plugin-query-builder.operators.NOT_EQUAL": [
+    {
+      "type": 0,
+      "value": "not equal to"
+    }
+  ],
+  "ui-plugin-query-builder.operators.NOT_IN": [
+    {
+      "type": 0,
+      "value": "not in"
+    }
+  ],
+  "ui-plugin-query-builder.operators.STARTS_WITH": [
+    {
+      "type": 0,
+      "value": "starts with"
+    }
+  ],
+  "ui-plugin-query-builder.operators.boolean.$and": [
+    {
+      "type": 0,
+      "value": "AND"
+    }
+  ],
+  "ui-plugin-query-builder.operators.symbol.CONTAINS": [
+    {
+      "type": 0,
+      "value": "contains"
+    }
+  ],
+  "ui-plugin-query-builder.operators.symbol.EMPTY": [
+    {
+      "type": 0,
+      "value": "is null/empty"
+    }
+  ],
+  "ui-plugin-query-builder.operators.symbol.EQUAL": [
+    {
+      "type": 0,
+      "value": "=="
+    }
+  ],
+  "ui-plugin-query-builder.operators.symbol.GREATER_THAN": [
+    {
+      "type": 0,
+      "value": ">"
+    }
+  ],
+  "ui-plugin-query-builder.operators.symbol.GREATER_THAN_OR_EQUAL": [
+    {
+      "type": 0,
+      "value": ">="
+    }
+  ],
+  "ui-plugin-query-builder.operators.symbol.IN": [
+    {
+      "type": 0,
+      "value": "in"
+    }
+  ],
+  "ui-plugin-query-builder.operators.symbol.LESS_THAN": [
+    {
+      "type": 0,
+      "value": "<"
+    }
+  ],
+  "ui-plugin-query-builder.operators.symbol.LESS_THAN_OR_EQUAL": [
+    {
+      "type": 0,
+      "value": "<="
+    }
+  ],
+  "ui-plugin-query-builder.operators.symbol.NOT_CONTAINS": [
+    {
+      "type": 0,
+      "value": "not contains"
+    }
+  ],
+  "ui-plugin-query-builder.operators.symbol.NOT_EQUAL": [
+    {
+      "type": 0,
+      "value": "!="
+    }
+  ],
+  "ui-plugin-query-builder.operators.symbol.NOT_IN": [
+    {
+      "type": 0,
+      "value": "not in"
+    }
+  ],
+  "ui-plugin-query-builder.operators.symbol.STARTS_WITH": [
+    {
+      "type": 0,
+      "value": "starts with"
     }
   ],
   "ui-plugin-query-builder.options.false": [
@@ -125182,6 +125368,20 @@
     {
       "type": 0,
       "value": "Stukken ontvangen"
+    }
+  ],
+  "ui-serials-management.pieceSets.receivingPiecesAlreadyExistWarning": [
+    {
+      "type": 0,
+      "value": "Warning: Receiving pieces already exist for this predicted piece set. See "
+    },
+    {
+      "type": 1,
+      "value": "link"
+    },
+    {
+      "type": 0,
+      "value": " for more details."
     }
   ],
   "ui-serials-management.pieceSets.startDate": [
