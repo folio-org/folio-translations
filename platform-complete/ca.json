@@ -115538,6 +115538,26 @@
       "value": "no TR report in most recent year"
     }
   ],
+  "ui-plugin-eusage-reports.chart-unimplemented": [
+    {
+      "type": 0,
+      "value": "Chart "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "report"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " not implemented"
+    }
+  ],
   "ui-plugin-eusage-reports.column.action": [
     {
       "type": 0,
@@ -115794,6 +115814,20 @@
     {
       "type": 0,
       "value": "Y:"
+    }
+  ],
+  "ui-plugin-eusage-reports.n-of-m": [
+    {
+      "type": 1,
+      "value": "n"
+    },
+    {
+      "type": 0,
+      "value": " of "
+    },
+    {
+      "type": 1,
+      "value": "m"
     }
   ],
   "ui-plugin-eusage-reports.nopub": [
@@ -116137,13 +116171,13 @@
   "ui-plugin-eusage-reports.useOverTime.metric.Searches_Regular": [
     {
       "type": 0,
-      "value": "Searches (regular)"
+      "value": "Searches_Regular"
     }
   ],
   "ui-plugin-eusage-reports.useOverTime.metric.Total_Item_Investigations": [
     {
       "type": 0,
-      "value": "Total item investigations"
+      "value": "Total_Item_Investigations"
     }
   ],
   "ui-plugin-eusage-reports.useOverTime.metric.Total_Item_Requests": [
@@ -116155,7 +116189,7 @@
   "ui-plugin-eusage-reports.useOverTime.metric.Unique_Item_Investigations": [
     {
       "type": 0,
-      "value": "Unique item investigations"
+      "value": "Unique_Item_Investigations"
     }
   ],
   "ui-plugin-eusage-reports.useOverTime.metric.Unique_Item_Requests": [
@@ -116167,13 +116201,13 @@
   "ui-plugin-eusage-reports.useOverTime.metric.Unique_Title_Investigations": [
     {
       "type": 0,
-      "value": "Unique title investigations"
+      "value": "Unique_Title_Investigations"
     }
   ],
   "ui-plugin-eusage-reports.useOverTime.metric.Unique_Title_Requests": [
     {
       "type": 0,
-      "value": "Unique title requests"
+      "value": "Unique_Title_Requests"
     }
   ],
   "ui-plugin-eusage-reports.useOverTime.raw-data": [
