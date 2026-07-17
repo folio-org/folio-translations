@@ -83602,6 +83602,52 @@
       "value": "索書號"
     }
   ],
+  "ui-inventory.numberGenerator.callNumberInfo.accessionAndCallNumber": [
+    {
+      "type": 0,
+      "value": "Use "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Generate accession and call numbers"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " below the accession number field to insert the same generated number into the accession number and primary call number fields. Accession number sequences apply."
+    }
+  ],
+  "ui-inventory.numberGenerator.callNumberInfo.additionalCallNumber": [
+    {
+      "type": 0,
+      "value": "Use "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Generate call number"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " in the additional item call numbers section to insert a generated call number in the additional item call number field and when required change the additional to the primary call number. Call number sequences apply."
+    }
+  ],
+  "ui-inventory.numberGenerator.callNumberInfo.title": [
+    {
+      "type": 0,
+      "value": "Number generators"
+    }
+  ],
   "ui-inventory.numberGenerator.generateAccessionAndCallNumber": [
     {
       "type": 0,
@@ -117685,6 +117731,102 @@
     {
       "type": 0,
       "value": "有使用的題名"
+    }
+  ],
+  "ui-plugin-eusage-reports.costPerUse.usesPerItem": [
+    {
+      "type": 0,
+      "value": "Average "
+    },
+    {
+      "style": {
+        "parsedOptions": {
+          "maximumFractionDigits": 2
+        },
+        "tokens": [
+          {
+            "options": [],
+            "stem": ".##"
+          }
+        ],
+        "type": 0
+      },
+      "type": 2,
+      "value": "average"
+    },
+    {
+      "type": 0,
+      "value": " "
+    },
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "use"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "uses"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "average"
+    },
+    {
+      "type": 0,
+      "value": " per item ("
+    },
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " use"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " uses"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "total"
+    },
+    {
+      "type": 0,
+      "value": "/"
+    },
+    {
+      "type": 1,
+      "value": "unique"
+    },
+    {
+      "type": 0,
+      "value": " unique)"
     }
   ],
   "ui-plugin-eusage-reports.last-analyzed": [
