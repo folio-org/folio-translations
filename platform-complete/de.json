@@ -106007,6 +106007,108 @@
       "value": "Schließen"
     }
   ],
+  "ui-orders.openOrderModal.deprecatedAcquisitionMethods": [
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "The acquisition method "
+            },
+            {
+              "type": 1,
+              "value": "methods"
+            },
+            {
+              "type": 0,
+              "value": " has"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "The acquisition methods "
+            },
+            {
+              "type": 1,
+              "value": "methods"
+            },
+            {
+              "type": 0,
+              "value": " have"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": " been set to deprecated. You can proceed without changing "
+    },
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "it"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "them"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": ", or close this dialog to change "
+    },
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "it"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "them"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "count"
+    },
+    {
+      "type": 0,
+      "value": " before opening the order."
+    }
+  ],
   "ui-orders.openOrderModal.message": [
     {
       "type": 0,
@@ -108774,6 +108876,20 @@
       "value": "Erwerbungsarten"
     }
   ],
+  "ui-orders.settings.acquisitionMethods.aria-label.deprecated": [
+    {
+      "type": 0,
+      "value": "Mark "
+    },
+    {
+      "type": 1,
+      "value": "name"
+    },
+    {
+      "type": 0,
+      "value": " as deprecated"
+    }
+  ],
   "ui-orders.settings.acquisitionMethods.cannotDeleteTermHeader": [
     {
       "type": 0,
@@ -108790,6 +108906,12 @@
     {
       "type": 0,
       "value": "Erwerbungsart löschen"
+    }
+  ],
+  "ui-orders.settings.acquisitionMethods.deprecated": [
+    {
+      "type": 0,
+      "value": "Deprecated"
     }
   ],
   "ui-orders.settings.acquisitionMethods.name": [
@@ -135825,6 +135947,12 @@
       "value": "Löschen"
     }
   ],
+  "ui-service-interaction.duplicate": [
+    {
+      "type": 0,
+      "value": "Duplicate"
+    }
+  ],
   "ui-service-interaction.edit": [
     {
       "type": 0,
@@ -136149,6 +136277,40 @@
       "value": "Nummernkreise"
     }
   ],
+  "ui-service-interaction.settings.numberGeneratorSequences.callout.clone": [
+    {
+      "type": 0,
+      "value": "Number generator sequence "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "name"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " was successfully "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "duplicated"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
   "ui-service-interaction.settings.numberGeneratorSequences.callout.create": [
     {
       "type": 0,
@@ -136311,6 +136473,12 @@
     {
       "type": 0,
       "value": "Verwendung einer Prüfziffernmethode mit einem Wert < 1 wird nicht unterstützt."
+    }
+  ],
+  "ui-service-interaction.settings.numberGeneratorSequences.cloneModal": [
+    {
+      "type": 0,
+      "value": "Duplicate sequence"
     }
   ],
   "ui-service-interaction.settings.numberGeneratorSequences.code": [
@@ -136589,6 +136757,24 @@
       "value": "Die Ausgabevorlage definiert die Regeln, die bei der Verwendung des Nummernkreises angewendet werden. Vorlagen werden mit Groovy erstellt. Siehe unten für weitere Informationen."
     }
   ],
+  "ui-service-interaction.settings.numberGeneratorSequences.outputTemplate.info.checksum": [
+    {
+      "type": 0,
+      "value": "Inserts a calculated check digit based on the configured checksum rules and settings."
+    }
+  ],
+  "ui-service-interaction.settings.numberGeneratorSequences.outputTemplate.info.currentYear": [
+    {
+      "type": 0,
+      "value": "Inserts the current calendar year based on the system date at the time the value is generated."
+    }
+  ],
+  "ui-service-interaction.settings.numberGeneratorSequences.outputTemplate.info.generatedNumber": [
+    {
+      "type": 0,
+      "value": "Inserts a sequentially generated number according to the configured sequence settings."
+    }
+  ],
   "ui-service-interaction.settings.numberGeneratorSequences.postfix": [
     {
       "type": 0,
@@ -136611,6 +136797,18 @@
     {
       "type": 0,
       "value": "Präfix"
+    }
+  ],
+  "ui-service-interaction.settings.numberGeneratorSequences.resetOnYearChange": [
+    {
+      "type": 0,
+      "value": "If a ${current_year} token is used, reset the next value to 1 as soon as the year changes"
+    }
+  ],
+  "ui-service-interaction.settings.numberGeneratorSequences.resetOnYearChange.tokenMissing": [
+    {
+      "type": 0,
+      "value": "Requires ${current_year} in the output template."
     }
   ],
   "ui-service-interaction.settings.numberGeneratorSequences.section.checksumSettings": [
