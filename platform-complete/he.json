@@ -103939,6 +103939,142 @@
       "value": "."
     }
   ],
+  "ui-orders.errors.budgetNotFoundForFiscalYear.cancel": [
+    {
+      "type": 0,
+      "value": "To cancel the order, the related fund(s) "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "fundCodes"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " must have an active budget for fiscal year "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "fiscalYearCode"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "ui-orders.errors.budgetNotFoundForFiscalYear.close": [
+    {
+      "type": 0,
+      "value": "To close the order, the related fund(s) "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "fundCodes"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " must have an active budget for fiscal year "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "fiscalYearCode"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "ui-orders.errors.budgetNotFoundForFiscalYear.re-encumber": [
+    {
+      "type": 0,
+      "value": "To update encumbrances, the related fund(s) "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "fundCodes"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " must have an active budget for fiscal year "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "fiscalYearCode"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "ui-orders.errors.budgetNotFoundForFiscalYear.unopen": [
+    {
+      "type": 0,
+      "value": "To unopen the order, the related fund(s) "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "fundCodes"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": " must have an active budget for fiscal year "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "fiscalYearCode"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
   "ui-orders.errors.budgetNotFoundForTransaction": [
     {
       "type": 0,
@@ -105284,6 +105420,18 @@
     {
       "type": 0,
       "value": "Package titles"
+    }
+  ],
+  "ui-orders.line.accordion.paymentTerms": [
+    {
+      "type": 0,
+      "value": "Payment terms"
+    }
+  ],
+  "ui-orders.line.accordion.paymentTerms.infoPopover": [
+    {
+      "type": 0,
+      "value": "To enable the fields in the \"Payment terms\" accordion, select \"Multi-year payment\" in the \"Ongoing order information\" accordion"
     }
   ],
   "ui-orders.line.accordion.physical": [
@@ -107262,6 +107410,94 @@
     {
       "type": 0,
       "value": "Payment status"
+    }
+  ],
+  "ui-orders.poLine.paymentTerms.FYDistributions.action.add": [
+    {
+      "type": 0,
+      "value": "Add fiscal year"
+    }
+  ],
+  "ui-orders.poLine.paymentTerms.FYDistributions.action.remove": [
+    {
+      "type": 0,
+      "value": "Remove fiscal year"
+    }
+  ],
+  "ui-orders.poLine.paymentTerms.FYDistributions.card.label": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Fiscal year "
+        },
+        {
+          "type": 1,
+          "value": "sequenceNumber"
+        },
+        {
+          "type": 0,
+          "value": " ("
+        },
+        {
+          "type": 1,
+          "value": "code"
+        },
+        {
+          "type": 0,
+          "value": ")"
+        }
+      ],
+      "type": 8,
+      "value": "b"
+    }
+  ],
+  "ui-orders.poLine.paymentTerms.FYDistributions.validation.noMoreFYs": [
+    {
+      "type": 0,
+      "value": "No more fiscal years available to add."
+    }
+  ],
+  "ui-orders.poLine.paymentTerms.FYDistributions.validation.required": [
+    {
+      "type": 0,
+      "value": "At least 2 fiscal years must be specified for multi-year prepayment"
+    }
+  ],
+  "ui-orders.poLine.paymentTerms.fetchFYsError": [
+    {
+      "type": 0,
+      "value": "Unable to load fiscal years. Please try again."
+    }
+  ],
+  "ui-orders.poLine.paymentTerms.prepaymentTerm": [
+    {
+      "type": 0,
+      "value": "Prepayment term"
+    }
+  ],
+  "ui-orders.poLine.paymentTerms.startingFY": [
+    {
+      "type": 0,
+      "value": "Starting fiscal year"
+    }
+  ],
+  "ui-orders.poLine.paymentTerms.startingFY.infoPopover": [
+    {
+      "type": 0,
+      "value": "Fiscal years must have been created for each year of prepayment."
+    }
+  ],
+  "ui-orders.poLine.paymentTerms.totalPrice": [
+    {
+      "type": 0,
+      "value": "Total price"
+    }
+  ],
+  "ui-orders.poLine.paymentTerms.validation.notEnoughFYs": [
+    {
+      "type": 0,
+      "value": "Please ensure all fiscal years have been created for the duration of the prepayment term"
     }
   ],
   "ui-orders.poLine.physicalResourceDetails": [
@@ -109427,6 +109663,12 @@
     {
       "type": 0,
       "value": "Other resource details"
+    }
+  ],
+  "ui-orders.settings.orderTemplates.accordion.polPaymentTerms": [
+    {
+      "type": 0,
+      "value": "Payment terms"
     }
   ],
   "ui-orders.settings.orderTemplates.accordion.polTags": [
