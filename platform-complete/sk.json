@@ -34880,6 +34880,40 @@
       "value": "Body"
     }
   ],
+  "ui-circulation.settings.patronNotices.body.infoPopover": [
+    {
+      "type": 0,
+      "value": "To enable the "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Body"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " field, select an option in the "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Notice format"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " drop-down list."
+    }
+  ],
   "ui-circulation.settings.patronNotices.categories.automatedFeeFineAdjustment": [
     {
       "type": 0,
@@ -35066,6 +35100,24 @@
       "value": "Patron notice template name"
     }
   ],
+  "ui-circulation.settings.patronNotices.noticeFormat": [
+    {
+      "type": 0,
+      "value": "Notice format"
+    }
+  ],
+  "ui-circulation.settings.patronNotices.noticeFormat.infoPopover": [
+    {
+      "type": 0,
+      "value": "If text message is selected, it has a maximum limit of 160 characters, including spaces, numbers, and symbols. If more than 160 characters are used, multiple text messages will be sent."
+    }
+  ],
+  "ui-circulation.settings.patronNotices.patronNoticeContent": [
+    {
+      "type": 0,
+      "value": "Patron notice content"
+    }
+  ],
   "ui-circulation.settings.patronNotices.predefinedWarning": [
     {
       "type": 0,
@@ -35102,10 +35154,70 @@
       "value": "Save new"
     }
   ],
+  "ui-circulation.settings.patronNotices.selectNoticeFormat": [
+    {
+      "type": 0,
+      "value": "Select notice format"
+    }
+  ],
   "ui-circulation.settings.patronNotices.subject": [
     {
       "type": 0,
       "value": "Subject"
+    }
+  ],
+  "ui-circulation.settings.patronNotices.subject.infoPopover": [
+    {
+      "type": 0,
+      "value": "To enable the "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Subject"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " field, select "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Email"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " in the "
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Notice format"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": " drop-down list."
+    }
+  ],
+  "ui-circulation.settings.patronNotices.textMessage": [
+    {
+      "type": 0,
+      "value": "Text message"
     }
   ],
   "ui-circulation.settings.patronNotices.userAddressTokenHeader": [
@@ -58299,6 +58411,12 @@
     {
       "type": 0,
       "value": "API Key"
+    }
+  ],
+  "ui-erm-usage.aggregator.config.button.addContact": [
+    {
+      "type": 0,
+      "value": "Add Contact"
     }
   ],
   "ui-erm-usage.aggregator.config.contacts": [
