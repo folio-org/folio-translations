@@ -12965,6 +12965,12 @@
       "value": "其他"
     }
   ],
+  "stripes-smart-components.address.noAddressesFound": [
+    {
+      "type": 0,
+      "value": "No addresses found"
+    }
+  ],
   "stripes-smart-components.address.noAddressesStored": [
     {
       "type": 0,
@@ -64606,6 +64612,12 @@
       "value": "預約者 ID"
     }
   ],
+  "ui-erm-usage.aggregator.form.close": [
+    {
+      "type": 0,
+      "value": "Close aggregator form"
+    }
+  ],
   "ui-erm-usage.aggregator.form.create": [
     {
       "type": 0,
@@ -65852,6 +65864,16 @@
       "value": "Delete report?"
     }
   ],
+  "ui-erm-usage.reportOverview.deleteCustomReport": [
+    {
+      "type": 1,
+      "value": "name"
+    },
+    {
+      "type": 0,
+      "value": " will be removed from non-counter reports."
+    }
+  ],
   "ui-erm-usage.reportOverview.deleteTemplateMessage": [
     {
       "type": 1,
@@ -65992,6 +66014,42 @@
     {
       "type": 0,
       "value": "沒有可用的報告..."
+    }
+  ],
+  "ui-erm-usage.reportOverview.openCounterReport": [
+    {
+      "type": 0,
+      "value": "Open report info for report "
+    },
+    {
+      "type": 1,
+      "value": "reportName"
+    },
+    {
+      "type": 0,
+      "value": " at year month "
+    },
+    {
+      "type": 1,
+      "value": "yearMonth"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "ui-erm-usage.reportOverview.openCustomReport": [
+    {
+      "type": 0,
+      "value": "Open report info for custom report "
+    },
+    {
+      "type": 1,
+      "value": "reportName"
+    },
+    {
+      "type": 0,
+      "value": "."
     }
   ],
   "ui-erm-usage.reportOverview.release": [
@@ -66147,6 +66205,36 @@
     {
       "type": 0,
       "value": " ”"
+    }
+  ],
+  "ui-erm-usage.settings.harvester.config.periodic.form.close": [
+    {
+      "type": 0,
+      "value": "Close periodic harvesting configuration"
+    }
+  ],
+  "ui-erm-usage.settings.harvester.config.periodic.form.open": [
+    {
+      "options": {
+        "edit": {
+          "value": [
+            {
+              "type": 0,
+              "value": "Edit periodic harvesting configuration"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "Add periodic harvesting configuration"
+            }
+          ]
+        }
+      },
+      "type": 5,
+      "value": "mode"
     }
   ],
   "ui-erm-usage.settings.harvester.config.periodic.interval.daily": [
@@ -150605,6 +150693,12 @@
       "value": "新增"
     }
   ],
+  "ui-users.proxy.button.addProxy": [
+    {
+      "type": 0,
+      "value": "Add proxy"
+    }
+  ],
   "ui-users.proxy.notificationsTo": [
     {
       "type": 0,
@@ -152140,6 +152234,12 @@
       "value": "Add user roles"
     }
   ],
+  "ui-users.roles.button.addUserRole": [
+    {
+      "type": 0,
+      "value": "Add user role"
+    }
+  ],
   "ui-users.roles.deleteRole": [
     {
       "type": 0,
@@ -153093,6 +153193,12 @@
       "value": "可選擇的服務據點"
     }
   ],
+  "ui-users.sp.button.addServicePoint": [
+    {
+      "type": 0,
+      "value": "Add service point"
+    }
+  ],
   "ui-users.sp.column.library": [
     {
       "type": 0,
@@ -153171,6 +153277,12 @@
     {
       "type": 0,
       "value": "新增"
+    }
+  ],
+  "ui-users.sponsor.button.addSponsor": [
+    {
+      "type": 0,
+      "value": "Add sponsor"
     }
   ],
   "ui-users.stagingRecords.activated": [

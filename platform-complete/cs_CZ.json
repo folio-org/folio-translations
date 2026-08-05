@@ -13060,6 +13060,12 @@
       "value": "Alternativní"
     }
   ],
+  "stripes-smart-components.address.noAddressesFound": [
+    {
+      "type": 0,
+      "value": "No addresses found"
+    }
+  ],
   "stripes-smart-components.address.noAddressesStored": [
     {
       "type": 0,
@@ -64104,6 +64110,12 @@
       "value": "ID žadatele"
     }
   ],
+  "ui-erm-usage.aggregator.form.close": [
+    {
+      "type": 0,
+      "value": "Close aggregator form"
+    }
+  ],
   "ui-erm-usage.aggregator.form.create": [
     {
       "type": 0,
@@ -65398,6 +65410,16 @@
       "value": "Smazat výstup?"
     }
   ],
+  "ui-erm-usage.reportOverview.deleteCustomReport": [
+    {
+      "type": 1,
+      "value": "name"
+    },
+    {
+      "type": 0,
+      "value": " will be removed from non-counter reports."
+    }
+  ],
   "ui-erm-usage.reportOverview.deleteTemplateMessage": [
     {
       "type": 1,
@@ -65538,6 +65560,42 @@
     {
       "type": 0,
       "value": "Nejsou k dispozici žádné výstupy..."
+    }
+  ],
+  "ui-erm-usage.reportOverview.openCounterReport": [
+    {
+      "type": 0,
+      "value": "Open report info for report "
+    },
+    {
+      "type": 1,
+      "value": "reportName"
+    },
+    {
+      "type": 0,
+      "value": " at year month "
+    },
+    {
+      "type": 1,
+      "value": "yearMonth"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "ui-erm-usage.reportOverview.openCustomReport": [
+    {
+      "type": 0,
+      "value": "Open report info for custom report "
+    },
+    {
+      "type": 1,
+      "value": "reportName"
+    },
+    {
+      "type": 0,
+      "value": "."
     }
   ],
   "ui-erm-usage.reportOverview.release": [
@@ -65689,6 +65747,36 @@
     {
       "type": 0,
       "value": "' při načítání konfigurace periodického harvestu"
+    }
+  ],
+  "ui-erm-usage.settings.harvester.config.periodic.form.close": [
+    {
+      "type": 0,
+      "value": "Close periodic harvesting configuration"
+    }
+  ],
+  "ui-erm-usage.settings.harvester.config.periodic.form.open": [
+    {
+      "options": {
+        "edit": {
+          "value": [
+            {
+              "type": 0,
+              "value": "Edit periodic harvesting configuration"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "Add periodic harvesting configuration"
+            }
+          ]
+        }
+      },
+      "type": 5,
+      "value": "mode"
     }
   ],
   "ui-erm-usage.settings.harvester.config.periodic.interval.daily": [
@@ -148245,6 +148333,12 @@
       "value": "Přidat"
     }
   ],
+  "ui-users.proxy.button.addProxy": [
+    {
+      "type": 0,
+      "value": "Add proxy"
+    }
+  ],
   "ui-users.proxy.notificationsTo": [
     {
       "type": 0,
@@ -149768,6 +149862,12 @@
       "value": "Přidat uživatelské role"
     }
   ],
+  "ui-users.roles.button.addUserRole": [
+    {
+      "type": 0,
+      "value": "Add user role"
+    }
+  ],
   "ui-users.roles.deleteRole": [
     {
       "type": 0,
@@ -150701,6 +150801,12 @@
       "value": "Dostupné pulty služeb"
     }
   ],
+  "ui-users.sp.button.addServicePoint": [
+    {
+      "type": 0,
+      "value": "Add service point"
+    }
+  ],
   "ui-users.sp.column.library": [
     {
       "type": 0,
@@ -150775,6 +150881,12 @@
     {
       "type": 0,
       "value": "Přidat"
+    }
+  ],
+  "ui-users.sponsor.button.addSponsor": [
+    {
+      "type": 0,
+      "value": "Add sponsor"
     }
   ],
   "ui-users.stagingRecords.activated": [
