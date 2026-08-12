@@ -92665,6 +92665,52 @@
       "value": "error"
     }
   ],
+  "ui-ldp.error.load-templated-queries": [
+    {
+      "type": 0,
+      "value": "Could not load reports from "
+    },
+    {
+      "type": 1,
+      "value": "url"
+    },
+    {
+      "type": 0,
+      "value": ": "
+    },
+    {
+      "type": 1,
+      "value": "error"
+    }
+  ],
+  "ui-ldp.error.load-templated-query": [
+    {
+      "type": 0,
+      "value": "Could not load report from "
+    },
+    {
+      "type": 1,
+      "value": "url"
+    },
+    {
+      "type": 0,
+      "value": ": "
+    },
+    {
+      "type": 1,
+      "value": "error"
+    }
+  ],
+  "ui-ldp.error.load-tqrepos": [
+    {
+      "type": 0,
+      "value": "Could not load the list of templated-query repositories: "
+    },
+    {
+      "type": 1,
+      "value": "error"
+    }
+  ],
   "ui-ldp.error.load-updates": [
     {
       "type": 0,
@@ -92695,10 +92741,38 @@
       "value": "qname"
     }
   ],
+  "ui-ldp.error.no-such-repo": [
+    {
+      "type": 0,
+      "value": "No templated-query repository is configured for the report "
+    },
+    {
+      "type": 1,
+      "value": "qname"
+    }
+  ],
   "ui-ldp.error.not-metadb": [
     {
       "type": 0,
       "value": "该功能只能通过 Metadb 数据库使用，但本应用程序与 LDP Classic 相连。"
+    }
+  ],
+  "ui-ldp.error.parse-templated-query-json": [
+    {
+      "type": 0,
+      "value": "Could not parse the JSON metadata at "
+    },
+    {
+      "type": 1,
+      "value": "url"
+    },
+    {
+      "type": 0,
+      "value": ": "
+    },
+    {
+      "type": 1,
+      "value": "error"
     }
   ],
   "ui-ldp.found-more-than": [
