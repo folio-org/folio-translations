@@ -59597,6 +59597,18 @@
       "value": "篩選題名"
     }
   ],
+  "ui-eholdings.filter.packageAccess.controlled": [
+    {
+      "type": 0,
+      "value": "Controlled"
+    }
+  ],
+  "ui-eholdings.filter.packageAccess.public": [
+    {
+      "type": 0,
+      "value": "Public"
+    }
+  ],
   "ui-eholdings.filter.pubType.audioBook": [
     {
       "type": 0,
@@ -59859,6 +59871,12 @@
     {
       "type": 0,
       "value": "描述"
+    }
+  ],
+  "ui-eholdings.label.displayName": [
+    {
+      "type": 0,
+      "value": "Package display name"
     }
   ],
   "ui-eholdings.label.edit.custom.coverageDates": [
@@ -60715,6 +60733,12 @@
       "value": "尚未設定資源包 token。"
     }
   ],
+  "ui-eholdings.package.packageAccess": [
+    {
+      "type": 0,
+      "value": "Package access"
+    }
+  ],
   "ui-eholdings.package.packageAllowToAddTitles": [
     {
       "type": 0,
@@ -60725,6 +60749,12 @@
     {
       "type": 0,
       "value": "知識庫不會自動選擇書刊題名。"
+    }
+  ],
+  "ui-eholdings.package.packageDisplayName": [
+    {
+      "type": 0,
+      "value": "Package display name"
     }
   ],
   "ui-eholdings.package.packageInformation": [
@@ -63235,6 +63265,16 @@
     }
   ],
   "ui-eholdings.validate.errors.customPackage.customAlternateName.length": [
+    {
+      "type": 1,
+      "value": "amount"
+    },
+    {
+      "type": 0,
+      "value": " character limit has been exceeded. Please revise the name."
+    }
+  ],
+  "ui-eholdings.validate.errors.customPackage.displayName.length": [
     {
       "type": 1,
       "value": "amount"

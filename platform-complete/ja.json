@@ -59463,6 +59463,18 @@
       "value": "タイトルの絞り込み"
     }
   ],
+  "ui-eholdings.filter.packageAccess.controlled": [
+    {
+      "type": 0,
+      "value": "Controlled"
+    }
+  ],
+  "ui-eholdings.filter.packageAccess.public": [
+    {
+      "type": 0,
+      "value": "Public"
+    }
+  ],
   "ui-eholdings.filter.pubType.audioBook": [
     {
       "type": 0,
@@ -59725,6 +59737,12 @@
     {
       "type": 0,
       "value": "説明"
+    }
+  ],
+  "ui-eholdings.label.displayName": [
+    {
+      "type": 0,
+      "value": "Package display name"
     }
   ],
   "ui-eholdings.label.edit.custom.coverageDates": [
@@ -60581,6 +60599,12 @@
       "value": "パッケージトークンが設定されていません。"
     }
   ],
+  "ui-eholdings.package.packageAccess": [
+    {
+      "type": 0,
+      "value": "Package access"
+    }
+  ],
   "ui-eholdings.package.packageAllowToAddTitles": [
     {
       "type": 0,
@@ -60591,6 +60615,12 @@
     {
       "type": 0,
       "value": "ナレッジベースはタイトルを自動的に選択しません。"
+    }
+  ],
+  "ui-eholdings.package.packageDisplayName": [
+    {
+      "type": 0,
+      "value": "Package display name"
     }
   ],
   "ui-eholdings.package.packageInformation": [
@@ -63093,6 +63123,16 @@
     }
   ],
   "ui-eholdings.validate.errors.customPackage.customAlternateName.length": [
+    {
+      "type": 1,
+      "value": "amount"
+    },
+    {
+      "type": 0,
+      "value": " character limit has been exceeded. Please revise the name."
+    }
+  ],
+  "ui-eholdings.validate.errors.customPackage.displayName.length": [
     {
       "type": 1,
       "value": "amount"
