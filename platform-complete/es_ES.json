@@ -36693,6 +36693,12 @@
       "value": "Añadir aviso"
     }
   ],
+  "ui-circulation.settings.noticePolicy.addNoticeAbove": [
+    {
+      "type": 0,
+      "value": "Add notice above"
+    }
+  ],
   "ui-circulation.settings.noticePolicy.countableNotice": [
     {
       "type": 0,
@@ -36713,6 +36719,12 @@
     {
       "type": 0,
       "value": "Eliminar norma de aviso al usuario"
+    }
+  ],
+  "ui-circulation.settings.noticePolicy.deleteNotice": [
+    {
+      "type": 0,
+      "value": "Delete notice"
     }
   ],
   "ui-circulation.settings.noticePolicy.denyDelete.body": [
@@ -120209,6 +120221,54 @@
       "value": "Algo salió mal"
     }
   ],
+  "ui-plugin-query-builder.marc.fieldOption": [
+    {
+      "type": 0,
+      "value": "MARC field"
+    }
+  ],
+  "ui-plugin-query-builder.marc.ind1Filter": [
+    {
+      "type": 0,
+      "value": "Indicator 1"
+    }
+  ],
+  "ui-plugin-query-builder.marc.ind2Filter": [
+    {
+      "type": 0,
+      "value": "Indicator 2"
+    }
+  ],
+  "ui-plugin-query-builder.marc.subfield": [
+    {
+      "type": 0,
+      "value": "Subfield"
+    }
+  ],
+  "ui-plugin-query-builder.marc.tag": [
+    {
+      "type": 0,
+      "value": "Tag"
+    }
+  ],
+  "ui-plugin-query-builder.marc.validation.indicator": [
+    {
+      "type": 0,
+      "value": "Enter a-z, 0-9, or \\ for blank"
+    }
+  ],
+  "ui-plugin-query-builder.marc.validation.subfield": [
+    {
+      "type": 0,
+      "value": "Enter a-z or 0-9"
+    }
+  ],
+  "ui-plugin-query-builder.marc.validation.tag": [
+    {
+      "type": 0,
+      "value": "Enter a 3-digit tag"
+    }
+  ],
   "ui-plugin-query-builder.meta.title": [
     {
       "type": 0,
@@ -146805,6 +146865,236 @@
     {
       "type": 0,
       "value": "Nombre de la plantilla"
+    }
+  ],
+  "ui-users.messages.calendarOpenPeriodsNotFound": [
+    {
+      "type": 0,
+      "value": "Calendar open periods are not found."
+    }
+  ],
+  "ui-users.messages.calendarTimetableAbsent": [
+    {
+      "type": 0,
+      "value": "Calendar timetable is absent for requested date."
+    }
+  ],
+  "ui-users.messages.fixedLoanPolicyHasAlternateRenewalPeriodForHolds": [
+    {
+      "type": 0,
+      "value": "Item's loan policy has fixed profile but alternative renewal period for holds is specified."
+    }
+  ],
+  "ui-users.messages.fixedLoanPolicyHasRenewalPeriod": [
+    {
+      "type": 0,
+      "value": "Item's loan policy has fixed profile but renewal period is specified."
+    }
+  ],
+  "ui-users.messages.insufficientOverridePermissions": [
+    {
+      "type": 0,
+      "value": "Insufficient override permissions."
+    }
+  ],
+  "ui-users.messages.itemAgedToLostNotRenewable": [
+    {
+      "type": 0,
+      "value": "Item is Aged to lost."
+    }
+  ],
+  "ui-users.messages.itemBarcodeNotFound": [
+    {
+      "type": 0,
+      "value": "No item with barcode "
+    },
+    {
+      "type": 1,
+      "value": "barcode"
+    },
+    {
+      "type": 0,
+      "value": " exists."
+    }
+  ],
+  "ui-users.messages.itemCheckedOutToDifferentUser": [
+    {
+      "type": 0,
+      "value": "Cannot renew item checked out to different user."
+    }
+  ],
+  "ui-users.messages.itemClaimedReturnedNotRenewable": [
+    {
+      "type": 0,
+      "value": "Item is Claimed returned."
+    }
+  ],
+  "ui-users.messages.itemDeclaredLostNotRenewable": [
+    {
+      "type": 0,
+      "value": "Item is Declared lost."
+    }
+  ],
+  "ui-users.messages.itemNotLoanable": [
+    {
+      "type": 0,
+      "value": "Item is not loanable."
+    }
+  ],
+  "ui-users.messages.loanNotRenewable": [
+    {
+      "type": 0,
+      "value": "Loan is not renewable."
+    }
+  ],
+  "ui-users.messages.loanPolicyProfileNotRecognized": [
+    {
+      "type": 0,
+      "value": "Profile "
+    },
+    {
+      "type": 1,
+      "value": "profile"
+    },
+    {
+      "type": 0,
+      "value": " in the loan policy is not recognised."
+    }
+  ],
+  "ui-users.messages.loanPolicyRenewFromNotRecognized": [
+    {
+      "type": 0,
+      "value": "Cannot determine when to renew from."
+    }
+  ],
+  "ui-users.messages.loanPolicyRenewalPeriodDurationInvalid": [
+    {
+      "type": 0,
+      "value": "The duration "
+    },
+    {
+      "type": 1,
+      "value": "duration"
+    },
+    {
+      "type": 0,
+      "value": " in the loan policy is invalid."
+    }
+  ],
+  "ui-users.messages.loanPolicyRenewalPeriodIntervalNotRecognized": [
+    {
+      "type": 0,
+      "value": "The interval "
+    },
+    {
+      "type": 1,
+      "value": "interval"
+    },
+    {
+      "type": 0,
+      "value": " in the loan policy is not recognised."
+    }
+  ],
+  "ui-users.messages.loanPolicyRenewalPeriodNotRecognized": [
+    {
+      "type": 0,
+      "value": "The loan period in the loan policy is not recognised."
+    }
+  ],
+  "ui-users.messages.loanRenewalLimitReached": [
+    {
+      "type": 0,
+      "value": "Loan at maximum renewal number."
+    }
+  ],
+  "ui-users.messages.overrideRenewalCommentRequired": [
+    {
+      "type": 0,
+      "value": "Override renewal request must have a comment."
+    }
+  ],
+  "ui-users.messages.overrideRenewalDueDateRequired": [
+    {
+      "type": 0,
+      "value": "New due date must be specified when due date calculation fails."
+    }
+  ],
+  "ui-users.messages.overrideRenewalDueDateRequiredWhenDueDateUnchanged": [
+    {
+      "type": 0,
+      "value": "New due date is required when renewal would not change the due date."
+    }
+  ],
+  "ui-users.messages.overrideRenewalNotAllowedForCurrentLoan": [
+    {
+      "type": 0,
+      "value": "Override renewal does not match any of expected cases: ..."
+    }
+  ],
+  "ui-users.messages.renewalBlockedByHoldRequest": [
+    {
+      "type": 0,
+      "value": "Items with this loan policy cannot be renewed when there is an active, pending hold request."
+    }
+  ],
+  "ui-users.messages.renewalBlockedByRecall": [
+    {
+      "type": 0,
+      "value": "Items cannot be renewed when there is an active recall request."
+    }
+  ],
+  "ui-users.messages.renewalBlockedByReminderFees": [
+    {
+      "type": 0,
+      "value": "Renewals not allowed for loans with reminders."
+    }
+  ],
+  "ui-users.messages.renewalDateOutsideFixedLoanPolicyDateRanges": [
+    {
+      "type": 0,
+      "value": "Renewal date falls outside of date ranges in fixed loan policy."
+    }
+  ],
+  "ui-users.messages.renewalDateOutsideLoanPolicyDateRanges": [
+    {
+      "type": 0,
+      "value": "Renewal date falls outside of date ranges in the loan policy."
+    }
+  ],
+  "ui-users.messages.renewalRequestItemBarcodeRequired": [
+    {
+      "type": 0,
+      "value": "Renewal request must have an item barcode."
+    }
+  ],
+  "ui-users.messages.renewalRequestUserBarcodeRequired": [
+    {
+      "type": 0,
+      "value": "Renewal request must have a user barcode."
+    }
+  ],
+  "ui-users.messages.renewalWouldNotChangeDueDate": [
+    {
+      "type": 0,
+      "value": "Renewal would not change the due date."
+    }
+  ],
+  "ui-users.messages.userIsInactiveOrExpired": [
+    {
+      "type": 0,
+      "value": "Cannot renew loan when user is inactive or expired."
+    }
+  ],
+  "ui-users.messages.userNotFound": [
+    {
+      "type": 0,
+      "value": "User is not found."
+    }
+  ],
+  "ui-users.messages.userStatusCannotBeDetermined": [
+    {
+      "type": 0,
+      "value": "Cannot determine if user is active."
     }
   ],
   "ui-users.meta.title": [
