@@ -76645,7 +76645,7 @@
   "ui-inventory-import.actions.new.channel.xml": [
     {
       "type": 0,
-      "value": "XML bulk channel"
+      "value": "XML channel"
     }
   ],
   "ui-inventory-import.add": [
@@ -76670,6 +76670,12 @@
     {
       "type": 0,
       "value": "Resume"
+    }
+  ],
+  "ui-inventory-import.button.skip": [
+    {
+      "type": 0,
+      "value": "Skip"
     }
   ],
   "ui-inventory-import.button.upload": [
@@ -76729,7 +76735,7 @@
   "ui-inventory-import.channels.column.type.XML": [
     {
       "type": 0,
-      "value": "XML bulk"
+      "value": "XML"
     }
   ],
   "ui-inventory-import.channels.field.commissioned": [
@@ -77658,6 +77664,46 @@
     {
       "type": 0,
       "value": "transformation step"
+    }
+  ],
+  "ui-inventory-import.skip.failure": [
+    {
+      "type": 0,
+      "value": "Channel "
+    },
+    {
+      "type": 1,
+      "value": "channelName"
+    },
+    {
+      "type": 0,
+      "value": " could not be resumed with the blocking file skipped: HTTP status "
+    },
+    {
+      "type": 1,
+      "value": "status"
+    },
+    {
+      "type": 0,
+      "value": ": "
+    },
+    {
+      "type": 1,
+      "value": "body"
+    }
+  ],
+  "ui-inventory-import.skip.success": [
+    {
+      "type": 0,
+      "value": "Channel "
+    },
+    {
+      "type": 1,
+      "value": "channelName"
+    },
+    {
+      "type": 0,
+      "value": " has been resumed, and the blocking file skipped"
     }
   ],
   "ui-inventory-import.step.field.description": [

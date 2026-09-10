@@ -76600,6 +76600,12 @@
       "value": "Resume"
     }
   ],
+  "ui-inventory-import.button.skip": [
+    {
+      "type": 0,
+      "value": "Skip"
+    }
+  ],
   "ui-inventory-import.button.upload": [
     {
       "type": 0,
@@ -77586,6 +77592,46 @@
     {
       "type": 0,
       "value": "transformation step"
+    }
+  ],
+  "ui-inventory-import.skip.failure": [
+    {
+      "type": 0,
+      "value": "Channel "
+    },
+    {
+      "type": 1,
+      "value": "channelName"
+    },
+    {
+      "type": 0,
+      "value": " could not be resumed with the blocking file skipped: HTTP status "
+    },
+    {
+      "type": 1,
+      "value": "status"
+    },
+    {
+      "type": 0,
+      "value": ": "
+    },
+    {
+      "type": 1,
+      "value": "body"
+    }
+  ],
+  "ui-inventory-import.skip.success": [
+    {
+      "type": 0,
+      "value": "Channel "
+    },
+    {
+      "type": 1,
+      "value": "channelName"
+    },
+    {
+      "type": 0,
+      "value": " has been resumed, and the blocking file skipped"
     }
   ],
   "ui-inventory-import.step.field.description": [
