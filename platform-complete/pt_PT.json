@@ -76712,6 +76712,12 @@
       "value": "Harvest URL"
     }
   ],
+  "ui-inventory-import.channels.field.harvestUrl.help": [
+    {
+      "type": 0,
+      "value": "Enter the remote harvest URL, from where you want to fetch the files."
+    }
+  ],
   "ui-inventory-import.channels.field.id": [
     {
       "type": 0,
@@ -76728,6 +76734,12 @@
     {
       "type": 0,
       "value": "Last harvested time, date"
+    }
+  ],
+  "ui-inventory-import.channels.field.lastHarvested.help": [
+    {
+      "type": 0,
+      "value": "The time and date for the latest harvest. The timestamp is set by the system."
     }
   ],
   "ui-inventory-import.channels.field.listening": [
@@ -143270,6 +143282,187 @@
     {
       "type": 0,
       "value": "Fee/fine details"
+    }
+  ],
+  "ui-users.details.sendTextMessage.button": [
+    {
+      "type": 0,
+      "value": "Send text message"
+    }
+  ],
+  "ui-users.details.sendTextMessage.errorCallout": [
+    {
+      "type": 0,
+      "value": "The text message could not be sent to "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "name"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "ui-users.details.sendTextMessage.modal.confirmButton": [
+    {
+      "type": 0,
+      "value": "Send"
+    }
+  ],
+  "ui-users.details.sendTextMessage.modal.info": [
+    {
+      "type": 0,
+      "value": "A text message has a maximum limit of 160 characters, including spaces, numbers, and punctuation. Accented letters and other symbols reduce this to 70 per message. If more characters are used, multiple text messages will be sent."
+    }
+  ],
+  "ui-users.details.sendTextMessage.modal.message.characterDisplay": [
+    {
+      "offset": 0,
+      "options": {
+        "=0": {
+          "value": []
+        },
+        "one": {
+          "value": [
+            {
+              "type": 1,
+              "value": "length"
+            },
+            {
+              "type": 0,
+              "value": "/"
+            },
+            {
+              "type": 1,
+              "value": "characterPerMessage"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 1,
+              "value": "inCurrentMessage"
+            },
+            {
+              "type": 0,
+              "value": "/"
+            },
+            {
+              "type": 1,
+              "value": "characterPerMessage"
+            },
+            {
+              "type": 0,
+              "value": " ("
+            },
+            {
+              "offset": 0,
+              "options": {
+                "few": {
+                  "value": [
+                    {
+                      "type": 7
+                    },
+                    {
+                      "type": 0,
+                      "value": "rd"
+                    }
+                  ]
+                },
+                "one": {
+                  "value": [
+                    {
+                      "type": 7
+                    },
+                    {
+                      "type": 0,
+                      "value": "st"
+                    }
+                  ]
+                },
+                "other": {
+                  "value": [
+                    {
+                      "type": 7
+                    },
+                    {
+                      "type": 0,
+                      "value": "th"
+                    }
+                  ]
+                },
+                "two": {
+                  "value": [
+                    {
+                      "type": 7
+                    },
+                    {
+                      "type": 0,
+                      "value": "nd"
+                    }
+                  ]
+                }
+              },
+              "pluralType": "ordinal",
+              "type": 6,
+              "value": "messages"
+            },
+            {
+              "type": 0,
+              "value": " message)"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "messages"
+    }
+  ],
+  "ui-users.details.sendTextMessage.modal.message.label": [
+    {
+      "type": 0,
+      "value": "Text message"
+    }
+  ],
+  "ui-users.details.sendTextMessage.modal.message.required": [
+    {
+      "type": 0,
+      "value": "Please enter a message to send."
+    }
+  ],
+  "ui-users.details.sendTextMessage.modal.title": [
+    {
+      "type": 0,
+      "value": "Send text message"
+    }
+  ],
+  "ui-users.details.sendTextMessage.successCallout": [
+    {
+      "type": 0,
+      "value": "The text message was successfully sent to "
+    },
+    {
+      "children": [
+        {
+          "type": 1,
+          "value": "name"
+        }
+      ],
+      "type": 8,
+      "value": "strong"
+    },
+    {
+      "type": 0,
+      "value": "."
     }
   ],
   "ui-users.dueDate": [
