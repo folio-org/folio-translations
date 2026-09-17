@@ -48418,6 +48418,12 @@
       "value": "キャンセル"
     }
   ],
+  "ui-data-import.cannotRunImport": [
+    {
+      "type": 0,
+      "value": "Cannot run this data import job. User does not have the permission to delete authority records via data import."
+    }
+  ],
   "ui-data-import.chooseFolioRecordType": [
     {
       "type": 0,
@@ -56804,6 +56810,90 @@
       "value": "This translation is a playground"
     }
   ],
+  "ui-developer.apiConsole": [
+    {
+      "type": 0,
+      "value": "API console"
+    }
+  ],
+  "ui-developer.apiConsole.addParam": [
+    {
+      "type": 0,
+      "value": "Add parameter"
+    }
+  ],
+  "ui-developer.apiConsole.body": [
+    {
+      "type": 0,
+      "value": "Request body"
+    }
+  ],
+  "ui-developer.apiConsole.endpoint": [
+    {
+      "type": 0,
+      "value": "Endpoint"
+    }
+  ],
+  "ui-developer.apiConsole.method": [
+    {
+      "type": 0,
+      "value": "Method"
+    }
+  ],
+  "ui-developer.apiConsole.paramKey": [
+    {
+      "type": 0,
+      "value": "Name"
+    }
+  ],
+  "ui-developer.apiConsole.paramValue": [
+    {
+      "type": 0,
+      "value": "Value"
+    }
+  ],
+  "ui-developer.apiConsole.queryParams": [
+    {
+      "type": 0,
+      "value": "Query parameters"
+    }
+  ],
+  "ui-developer.apiConsole.quotify": [
+    {
+      "type": 0,
+      "value": "Quotify body"
+    }
+  ],
+  "ui-developer.apiConsole.quotifyIncomplete": [
+    {
+      "type": 0,
+      "value": "Quotified as much as possible, but the result still isn't valid JSON — check it manually"
+    }
+  ],
+  "ui-developer.apiConsole.removeParam": [
+    {
+      "type": 0,
+      "value": "Remove parameter"
+    }
+  ],
+  "ui-developer.apiConsole.response": [
+    {
+      "type": 0,
+      "value": "Response"
+    }
+  ],
+  "ui-developer.apiConsole.sendRequest": [
+    {
+      "type": 0,
+      "value": "Send request"
+    }
+  ],
+  "ui-developer.apiConsole.sending": [
+    {
+      "type": 0,
+      "value": "Sending …"
+    }
+  ],
   "ui-developer.app-manager": [
     {
       "type": 0,
@@ -57946,6 +58036,12 @@
       "value": "ユーザー名"
     }
   ],
+  "ui-developer.permission.settings.apiConsole": [
+    {
+      "type": 0,
+      "value": "Settings (developer): Can use the API console"
+    }
+  ],
   "ui-developer.permission.settings.configuration": [
     {
       "type": 0,
@@ -58965,10 +59061,46 @@
       "value": "パッケージコンテンツタイプ"
     }
   ],
+  "ui-eholdings.exportPackageResources.fields.package.customAlternativeNames": [
+    {
+      "type": 0,
+      "value": "Custom alternative names"
+    }
+  ],
   "ui-eholdings.exportPackageResources.fields.package.customCoverage": [
     {
       "type": 0,
       "value": "カスタム収録範囲"
+    }
+  ],
+  "ui-eholdings.exportPackageResources.fields.package.customDescription": [
+    {
+      "type": 0,
+      "value": "Custom description"
+    }
+  ],
+  "ui-eholdings.exportPackageResources.fields.package.displayName": [
+    {
+      "type": 0,
+      "value": "Display name"
+    }
+  ],
+  "ui-eholdings.exportPackageResources.fields.package.excludeFromMARCExport": [
+    {
+      "type": 0,
+      "value": "Exclude from MARC export"
+    }
+  ],
+  "ui-eholdings.exportPackageResources.fields.package.hideInFullTextFinder": [
+    {
+      "type": 0,
+      "value": "Hide in Full Text Finder"
+    }
+  ],
+  "ui-eholdings.exportPackageResources.fields.package.hideInPublicationFinder": [
+    {
+      "type": 0,
+      "value": "Hide in Publication Finder"
     }
   ],
   "ui-eholdings.exportPackageResources.fields.package.holdingStatus": [
@@ -58983,6 +59115,18 @@
       "value": "パッケージID"
     }
   ],
+  "ui-eholdings.exportPackageResources.fields.package.managedAlternativeNames": [
+    {
+      "type": 0,
+      "value": "Managed alternative names"
+    }
+  ],
+  "ui-eholdings.exportPackageResources.fields.package.managedDescription": [
+    {
+      "type": 0,
+      "value": "Managed description"
+    }
+  ],
   "ui-eholdings.exportPackageResources.fields.package.name": [
     {
       "type": 0,
@@ -58995,10 +59139,22 @@
       "value": "ノート"
     }
   ],
+  "ui-eholdings.exportPackageResources.fields.package.packageAccess": [
+    {
+      "type": 0,
+      "value": "Package access"
+    }
+  ],
   "ui-eholdings.exportPackageResources.fields.package.packageLevelToken": [
     {
       "type": 0,
       "value": "パッケージレベルトークン"
+    }
+  ],
+  "ui-eholdings.exportPackageResources.fields.package.packageUrl": [
+    {
+      "type": 0,
+      "value": "Package URL"
     }
   ],
   "ui-eholdings.exportPackageResources.fields.package.providerId": [
@@ -65470,6 +65626,16 @@
       "value": "レポートをCSVでダウンロード"
     }
   ],
+  "ui-erm-usage.report.action.download.fileType": [
+    {
+      "type": 0,
+      "value": "Download report as "
+    },
+    {
+      "type": 1,
+      "value": "filetype"
+    }
+  ],
   "ui-erm-usage.report.action.download.jsonxml": [
     {
       "type": 0,
@@ -66047,6 +66213,16 @@
     {
       "type": 0,
       "value": "CSV形式でダウンロード"
+    }
+  ],
+  "ui-erm-usage.settings.credentials.download.fileType": [
+    {
+      "type": 0,
+      "value": "Download as "
+    },
+    {
+      "type": 1,
+      "value": "filetype"
     }
   ],
   "ui-erm-usage.settings.credentials.download.xlsx": [
