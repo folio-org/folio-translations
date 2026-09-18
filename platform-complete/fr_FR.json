@@ -60238,6 +60238,12 @@
       "value": "Type de contenu"
     }
   ],
+  "ui-eholdings.package.controlled": [
+    {
+      "type": 0,
+      "value": "Controlled"
+    }
+  ],
   "ui-eholdings.package.coverage.addDateRange": [
     {
       "type": 0,
@@ -60436,6 +60442,12 @@
       "value": "Package access"
     }
   ],
+  "ui-eholdings.package.packageAccess.infoPopover": [
+    {
+      "type": 0,
+      "value": "Indicate whether the package is Public (free access) or Controlled (paid access)."
+    }
+  ],
   "ui-eholdings.package.packageAllowToAddTitles": [
     {
       "type": 0,
@@ -60500,6 +60512,12 @@
     {
       "type": 0,
       "value": "Fournisseur"
+    }
+  ],
+  "ui-eholdings.package.public": [
+    {
+      "type": 0,
+      "value": "Public"
     }
   ],
   "ui-eholdings.package.removeFromHoldings": [
@@ -76863,7 +76881,7 @@
   "ui-inventory-import.button.skip": [
     {
       "type": 0,
-      "value": "Skip"
+      "value": "Resume from next file"
     }
   ],
   "ui-inventory-import.button.upload": [
@@ -77028,6 +77046,12 @@
       "value": "Mot-clé"
     }
   ],
+  "ui-inventory-import.channels.field.tag.help": [
+    {
+      "type": 0,
+      "value": "A tag must be unique, max 24-character long string, and can not have space or special characters. Tag is optional."
+    }
+  ],
   "ui-inventory-import.channels.field.transformationPipeline": [
     {
       "type": 0,
@@ -77152,6 +77176,12 @@
     {
       "type": 0,
       "value": "No more than"
+    }
+  ],
+  "ui-inventory-import.invalidTag": [
+    {
+      "type": 0,
+      "value": "Enter a valid tag which must be unique, max 24-character long  without spaces and special characters."
     }
   ],
   "ui-inventory-import.invalidXML": [
