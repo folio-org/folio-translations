@@ -53588,6 +53588,12 @@
       "value": "Package access"
     }
   ],
+  "ui-eholdings.exportPackageResources.fields.package.packageDisplayName": [
+    {
+      "type": 0,
+      "value": "Package display name"
+    }
+  ],
   "ui-eholdings.exportPackageResources.fields.package.packageLevelToken": [
     {
       "type": 0,
@@ -54166,6 +54172,78 @@
       "value": "Verbergen"
     }
   ],
+  "ui-eholdings.hiddenCategory.FTF": [
+    {
+      "type": 0,
+      "value": "Full Text Finder"
+    }
+  ],
+  "ui-eholdings.hiddenCategory.MARC": [
+    {
+      "type": 0,
+      "value": "MARC export"
+    }
+  ],
+  "ui-eholdings.hiddenCategory.PF": [
+    {
+      "type": 0,
+      "value": "Publication Finder"
+    }
+  ],
+  "ui-eholdings.hiddenDualCategories": [
+    {
+      "type": 0,
+      "value": "Package is set to hide/exclude in "
+    },
+    {
+      "type": 1,
+      "value": "category1"
+    },
+    {
+      "type": 0,
+      "value": " and "
+    },
+    {
+      "type": 1,
+      "value": "category2"
+    }
+  ],
+  "ui-eholdings.hiddenSingleCategory": [
+    {
+      "type": 0,
+      "value": "Package is set to hide/exclude in "
+    },
+    {
+      "type": 1,
+      "value": "category1"
+    }
+  ],
+  "ui-eholdings.hiddenTripleCategories": [
+    {
+      "type": 0,
+      "value": "Package is set to hide/exclude in "
+    },
+    {
+      "type": 1,
+      "value": "category1"
+    },
+    {
+      "type": 0,
+      "value": ", "
+    },
+    {
+      "type": 1,
+      "value": "category2"
+    },
+    {
+      "type": 0,
+      "value": ", and "
+    },
+    {
+      "type": 1,
+      "value": "category3"
+    }
+  ],
   "ui-eholdings.id": [
     {
       "type": 0,
@@ -54446,6 +54524,12 @@
     {
       "type": 0,
       "value": "Pakketinformatie"
+    }
+  ],
+  "ui-eholdings.label.packageUrl": [
+    {
+      "type": 0,
+      "value": "Package URL"
     }
   ],
   "ui-eholdings.label.packages": [
@@ -57645,6 +57729,20 @@
     {
       "type": 0,
       "value": " tekens."
+    }
+  ],
+  "ui-eholdings.validate.errors.customPackage.packageUrl.length": [
+    {
+      "type": 0,
+      "value": "Value has exceeded "
+    },
+    {
+      "type": 1,
+      "value": "amount"
+    },
+    {
+      "type": 0,
+      "value": " character limit. Please revise your value."
     }
   ],
   "ui-eholdings.validate.errors.customTitle.name": [
@@ -61458,6 +61556,12 @@
     {
       "type": 0,
       "value": "SUSHI-inloggegevens"
+    }
+  ],
+  "ui-erm-usage.udpHarvestingConfig.unsupportedServiceTypeWarning": [
+    {
+      "type": 0,
+      "value": "The selected service type is not supported. Select a supported service type to edit the harvesting status and requested reports."
     }
   ],
   "ui-erm-usage.udpHarvestingConfig.unsupportedValue": [
@@ -68389,6 +68493,12 @@
       "value": "INN-Reach gebruiker-ID"
     }
   ],
+  "ui-inn-reach.reports.patronName": [
+    {
+      "type": 0,
+      "value": "INN-Reach Patron name"
+    }
+  ],
   "ui-inn-reach.reports.requested-too-long.label": [
     {
       "type": 0,
@@ -71543,7 +71653,7 @@
   "ui-inventory-import.invalidTag": [
     {
       "type": 0,
-      "value": "Enter a valid tag which must be unique, max 24-character long  without spaces and special characters."
+      "value": "Enter a valid tag which must be unique, max 31-character long  without spaces and special characters."
     }
   ],
   "ui-inventory-import.invalidXML": [
@@ -142337,6 +142447,12 @@
       "value": "Toegewezen"
     }
   ],
+  "ui-users.roles.modal.filter.selection.label": [
+    {
+      "type": 0,
+      "value": "Selection status"
+    }
+  ],
   "ui-users.roles.modal.filter.status.label": [
     {
       "type": 0,
@@ -142369,6 +142485,12 @@
     {
       "type": 0,
       "value": "Alles resetten"
+    }
+  ],
+  "ui-users.roles.modal.selected": [
+    {
+      "type": 0,
+      "value": "Selected"
     }
   ],
   "ui-users.roles.modal.unassignAll.header": [
@@ -142417,6 +142539,12 @@
     {
       "type": 0,
       "value": "Niet toegewezen"
+    }
+  ],
+  "ui-users.roles.modal.unselected": [
+    {
+      "type": 0,
+      "value": "Unselected"
     }
   ],
   "ui-users.roles.unassignAllRoles": [
